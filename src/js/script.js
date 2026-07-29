@@ -3715,12 +3715,14 @@ function buildLearningRouteContextHtml(activeLesson = null) {
     italian: 'Lezione',
     german: 'Lektion'
   }[learningPathState.language] || 'Lección';
+  const lessonTitle = activeUnit?.title || activeLesson?.title || '';
+  const lessonLabel = `${lessonWord} ${lessonNumber}${lessonTitle ? `: ${lessonTitle}` : ''}`;
   return `
     <span>${escapeHtml(language)}</span>
     <i aria-hidden="true"></i>
     <span>${escapeHtml(learningPathState.level || '—')}</span>
     <i aria-hidden="true"></i>
-    <span title="${escapeHtml(activeLesson?.title || activeUnit?.title || '')}">${escapeHtml(lessonWord)} ${escapeHtml(String(lessonNumber))}</span>
+    <span class="learning-route-lesson" title="${escapeHtml(lessonTitle)}">${escapeHtml(lessonLabel)}</span>
   `;
 }
 
@@ -13042,15 +13044,17 @@ function renderListeningOfficial(content, lesson, runtime, audio, status = 'offi
   const hasScoredComprehension = Boolean(lesson.extra?.listeningComprehension?.questions?.length);
   const { allAttempted } = getExerciseProgress(lesson);
   const objective = lesson.mission || lesson.intro || lesson.description || '';
-  const durationLabel = audio.duration ? `${Math.round(audio.duration)}s` : 'No especificada';
   const tutorCtx = computeListeningTutorQuestionContext(lesson);
   const transcript = canonicalListeningTranscript(lesson, audio.transcript);
 
   content.innerHTML = `
-    <div class="listening-meta-row">
-      <span class="listening-meta-item">Objetivo: ${escapeHtml(objective)}</span>
-      <span class="listening-meta-item">Duración: ${escapeHtml(durationLabel)}</span>
-    </div>
+    ${
+      objective
+        ? `<div class="listening-meta-row">
+            <span class="listening-meta-item">Objetivo: ${escapeHtml(objective)}</span>
+          </div>`
+        : ''
+    }
     ${buildListeningPlayerMarkup({
       sourceLabel: 'Audio oficial',
       title: lesson.title,

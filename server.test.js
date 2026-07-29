@@ -416,6 +416,20 @@ test('the compact Tutor I.A. nav label does not shorten the tutor identity insid
   assert.match(html, /Tutor IA ANDERGO Academy/);
 });
 
+test('skill route headers show combination and Tutor actions directly without a More disclosure', () => {
+  const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
+  const skillSections = [...html.matchAll(/<section\s+id="(?:reading|writing|speaking|grammar|vocabulary|listening)"[\s\S]*?<\/section>/g)]
+    .map((match) => match[0]);
+
+  assert.equal(skillSections.length, 6);
+  skillSections.forEach((section) => {
+    const header = section.match(/<div class="skill-view-header">([\s\S]*?)<div class="skill-view-content">/)?.[1] || '';
+    assert.match(header, /class="secondary-btn change-combination-btn">Cambiar combinación<\/button>/);
+    assert.match(header, /class="secondary-btn open-tutor-btn"[^>]*>Abrir Tutor I\.A\.<\/button>/);
+    assert.doesNotMatch(header, /skill-view-more|Más acciones de aprendizaje/);
+  });
+});
+
 test('desktop brand stays compact and switches navigation before overlap', () => {
   const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
   const css = fs.readFileSync(path.join(__dirname, 'src/css/styles.css'), 'utf8');
@@ -2580,6 +2594,18 @@ test('reading audio player: is compact (~54-66px tall on desktop, 4-5px progress
   assert.match(controlsRule, /flex-wrap:\s*wrap;/);
 });
 
+test('learning route context displays the numbered lesson and its unit title', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src/js/script.js'), 'utf8');
+  const css = fs.readFileSync(path.join(__dirname, 'src/css/styles.css'), 'utf8');
+  const builder =
+    source.match(/function buildLearningRouteContextHtml\(activeLesson = null\) \{([\s\S]*?)\n\}/)?.[1] || '';
+
+  assert.match(builder, /const lessonTitle = activeUnit\?\.title \|\| activeLesson\?\.title/);
+  assert.match(builder, /const lessonLabel = `\$\{lessonWord\} \$\{lessonNumber\}\$\{lessonTitle \? `: \$\{lessonTitle\}` : ''\}`/);
+  assert.match(builder, /class="learning-route-lesson"/);
+  assert.match(css, /\.learning-route-lesson\s*\{[^}]*text-overflow:\s*ellipsis;/s);
+});
+
 test('Listening audio player is compact, uses a thin progress bar and keeps volume at device maximum', () => {
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
   const css = fs.readFileSync(path.join(__dirname, 'src', 'css', 'styles.css'), 'utf8');
@@ -2589,6 +2615,15 @@ test('Listening audio player is compact, uses a thin progress bar and keeps volu
   assert.match(css, /\.listening-player\s*\{[\s\S]*?padding:\s*clamp\(0\.7rem,\s*1\.2vw,\s*0\.9rem\)/);
   assert.match(css, /\.listening-ctrl-btn\s*\{[\s\S]*?min-height:\s*34px[\s\S]*?font-size:\s*0\.78rem/);
   assert.match(css, /\.listening-progress-range\s*\{[\s\S]*?height:\s*4px/);
+});
+
+test('official Listening leaves duration reporting to the audio player', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src/js/script.js'), 'utf8');
+  const officialRenderer =
+    source.match(/function renderListeningOfficial\(content, lesson, runtime, audio, status = 'official'\) \{([\s\S]*?)\n\}/)?.[1] || '';
+
+  assert.doesNotMatch(officialRenderer, /No especificada|Duración:/);
+  assert.match(officialRenderer, /buildListeningPlayerMarkup/);
 });
 
 test('LanguagePair.t(): translates app-wide UI chrome strings into spanish/english/french and falls back to Spanish', () => {

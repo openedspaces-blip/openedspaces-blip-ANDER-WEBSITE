@@ -6397,6 +6397,13 @@ footer small {
   background: var(--blue);
 }
 
+.learning-route-lesson {
+  display: block;
+  max-width: min(42vw, 340px);
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .activity-route-context {
   margin: 0 auto 0.65rem;
   min-height: 28px;
@@ -6986,6 +6993,10 @@ footer small {
     gap: 0.5rem;
     width: 100%;
     font-size: 0.72rem;
+  }
+
+  .learning-route-lesson {
+    max-width: 58vw;
   }
 }
 
@@ -15648,7 +15659,8 @@ footer small {
   }
 
   .skill-view-section.is-route-activity .skill-view-actions {
-    width: auto;
+    width: 100%;
+    justify-content: flex-start;
   }
 }
 
