@@ -892,6 +892,19 @@ test('Paddle plan-management endpoints require an authenticated account', async 
   }
 });
 
+test('production Paddle checkout sends the approved ANDERGO checkout URL and preserves safe provider codes', () => {
+  const billingSource = fs.readFileSync(
+    path.join(__dirname, 'lib', 'billingService.js'),
+    'utf8'
+  );
+  const serverSource = fs.readFileSync(path.join(__dirname, 'lib', 'server.js'), 'utf8');
+  assert.match(billingSource, /checkout:\s*\{\s*url:\s*config\.paddle\.checkoutUrl/);
+  assert.match(billingSource, /error\.providerCode\s*=/);
+  assert.match(serverSource, /transaction_default_checkout_url_not_set/);
+  assert.match(serverSource, /transaction_checkout_url_domain_is_not_approved/);
+  assert.match(serverSource, /transaction_checkout_not_enabled/);
+});
+
 test('public Paddle config exposes checkout identifiers but never server secrets', async () => {
   const { server, port } = await startTestServer();
   try {
