@@ -70,9 +70,10 @@ const VOICE_STYLES = {
   ]
 };
 
-function singleNarratorText(text) {
+// Keep speaker labels from the editorial transcript. They are part of the
+// listening text learners can reveal, rather than formatting to discard.
+function normalizeTranscriptText(text) {
   return String(text)
-    .replace(/^(?:Host|Guest):\s*/gm, '')
     .replace(/\n+/g, ' ')
     .replace(/\s+/g, ' ')
     .trim();
@@ -128,7 +129,7 @@ for (const lesson of selected) {
 
   if (!transcriptSource) throw new Error(`${lesson.slug}: missing transcript`);
   if (!authored) throw new Error(`${lesson.slug}: missing authored transcript`);
-  const transcript = singleNarratorText(transcriptSource);
+  const transcript = normalizeTranscriptText(transcriptSource);
   const dialogue = [{ speaker: 'Narrator', line: transcript }];
   const formatIndex = levelFormatIndex[lesson.level]++;
 

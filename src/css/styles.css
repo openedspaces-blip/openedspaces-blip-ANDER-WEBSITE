@@ -12723,6 +12723,74 @@ footer small {
   min-width: 2.5rem;
 }
 
+/* Compact, consistent player proportions for every Listening lesson. */
+.listening-audio-stage {
+  margin-bottom: 1.1rem;
+  padding: clamp(0.9rem, 2vw, 1.2rem);
+}
+
+.listening-stage-heading {
+  gap: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.listening-stage-heading p {
+  margin-top: 0.18rem;
+  font-size: 0.78rem;
+  line-height: 1.4;
+}
+
+.listening-stage-icon {
+  width: 2.65rem;
+  height: 2.65rem;
+  border-radius: 13px;
+  font-size: 1.25rem;
+}
+
+.listening-source-banner {
+  gap: 0.15rem;
+  padding: 0.22rem 0.5rem;
+  border-radius: 10px;
+  margin-bottom: 0.15rem;
+  font-size: 0.72rem;
+}
+
+.listening-title {
+  font-size: clamp(1rem, 1.7vw, 1.22rem);
+  line-height: 1.2;
+}
+
+.listening-player {
+  border-radius: 12px;
+  padding: clamp(0.58rem, 1vw, 0.72rem);
+}
+
+.listening-player-status {
+  font-size: 0.7rem;
+  margin-bottom: 0.42rem;
+}
+
+.listening-player-controls {
+  gap: 0.32rem;
+  margin-bottom: 0.45rem;
+}
+
+.listening-ctrl-btn {
+  min-height: 30px;
+  padding: 0.25rem 0.58rem;
+  font-size: 0.7rem;
+}
+
+.listening-player-progress-row {
+  gap: 0.42rem;
+}
+
+.listening-time-elapsed,
+.listening-time-duration {
+  font-size: 0.68rem;
+  min-width: 2.3rem;
+}
+
 .listening-transcript {
   margin: 1.25rem 0;
 }
@@ -17577,5 +17645,139 @@ footer small {
 
   .mobile-app-nav-icon {
     font-size: 0.9rem;
+  }
+}
+
+/* Compact route configurator: one clear identity, two equal controls and a
+   single live summary. Removes the technical L1/L2 presentation from the
+   learner-facing surface without changing the underlying language model. */
+.route-path-controls {
+  width: min(860px, 100%);
+  gap: 0.65rem;
+  margin-bottom: 0.8rem;
+  padding: 0.75rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 22px rgba(37, 99, 235, 0.07);
+}
+
+.route-target-identity {
+  gap: 0.45rem;
+  margin: 0;
+  padding: 0.15rem 0.2rem 0.55rem;
+}
+
+.route-target-identity::before {
+  content: '✦';
+  display: grid;
+  width: 1.75rem;
+  height: 1.75rem;
+  place-items: center;
+  border-radius: 9px;
+  background: var(--gradient-primary);
+  color: #fff;
+  font-size: 0.75rem;
+}
+
+.route-target-identity span {
+  font-size: 0.68rem;
+  letter-spacing: 0.03em;
+}
+
+.route-target-identity strong {
+  font-size: 1rem;
+}
+
+.route-path-controls .language-pair-bar {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: end;
+  gap: 0.6rem;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+
+.route-path-controls .language-pair-field,
+.route-path-controls .language-pair-field-level {
+  max-width: none;
+  padding: 0.6rem;
+  border: 1px solid rgba(37, 99, 235, 0.13);
+  border-radius: 13px;
+  background: #f8fbff;
+}
+
+.route-path-controls .route-support-language {
+  border-right: 1px solid rgba(37, 99, 235, 0.13);
+}
+
+.route-path-controls .route-target-level {
+  border-color: rgba(37, 99, 235, 0.13);
+  background: #f8fbff;
+}
+
+.route-path-controls .language-pair-field > span {
+  color: #64748b;
+  font-size: 0.72rem;
+  font-weight: 750;
+}
+
+.route-path-controls .language-pair-field select {
+  width: 100%;
+  min-width: 0;
+  min-height: 42px;
+  padding: 0.48rem 0.65rem;
+  border-radius: 10px;
+  font-size: 0.88rem;
+}
+
+.route-path-controls .path-pair-preview {
+  grid-column: 1 / -1;
+  align-self: auto;
+  margin: 0;
+  padding: 0.52rem 0.65rem;
+  border-radius: 11px;
+  background: rgba(37, 99, 235, 0.07);
+  color: var(--blue);
+  font-size: 0.76rem;
+  font-weight: 750;
+  line-height: 1.35;
+  text-align: center;
+}
+
+@media (max-width: 640px) {
+  .route-path-controls {
+    gap: 0.45rem;
+    margin-bottom: 0.55rem;
+    padding: 0.55rem;
+    border-radius: 14px;
+  }
+
+  .route-target-identity {
+    padding-bottom: 0.4rem;
+  }
+
+  .route-path-controls .language-pair-bar {
+    grid-template-columns: 1fr;
+    gap: 0.42rem;
+  }
+
+  .route-path-controls .language-pair-field,
+  .route-path-controls .language-pair-field-level {
+    padding: 0.5rem;
+    border-radius: 11px;
+  }
+
+  .route-path-controls .language-pair-field select {
+    min-height: 40px;
+    font-size: 0.82rem;
+  }
+
+  .route-path-controls .path-pair-preview {
+    grid-column: 1;
+    padding: 0.45rem 0.55rem;
+    font-size: 0.7rem;
+    text-align: left;
   }
 }

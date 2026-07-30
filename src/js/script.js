@@ -817,6 +817,11 @@ function refreshLanguagePairChrome() {
       el.textContent = LanguagePair.getInterfaceLabel(key, interfaceLanguage);
     });
   });
+  const routeTargetName =
+    languageDisplayNames[learningPathState.language] || learningPathState.language;
+  document
+    .querySelectorAll('.route-path-controls [data-field="target"]')
+    .forEach((el) => (el.textContent = routeTargetName));
 }
 
 // L1/bridgeLanguage -> <html lang="..."> code, for accessibility/SEO only
@@ -12449,6 +12454,36 @@ function listeningUiText(spanish, french) {
   return learningPathState.language === 'french' ? french : spanish;
 }
 
+// The support below the player is an instruction, not a transcript. English
+// B1–C2 listening needs progressively more demanding listening goals than
+// the generic “try to understand before opening the text” prompt.
+function getListeningSupportCopy(lesson) {
+  const level = String(lesson?.level || learningPathState.level || '').toUpperCase();
+  if (learningPathState.language !== 'english') {
+    return {
+      kicker: listeningUiText('Apoyo de escucha', "Aide à l'écoute"),
+      instruction: listeningUiText(
+        'Intenta comprender el audio antes de desplegar el texto.',
+        "Essayez de comprendre l'audio avant d'afficher le texte."
+      )
+    };
+  }
+
+  const strategies = {
+    B1: 'Escucha primero la situación, la idea principal y los datos clave. No necesitas entender cada palabra para responder.',
+    B2: 'Identifica la postura de cada hablante y cómo la justifica. Presta atención a los conectores de contraste, causa y consecuencia.',
+    C1: 'Sigue la arquitectura del argumento: tesis, evidencia, matices y concesiones. Distingue los hechos de las inferencias.',
+    C2: 'Reconstruye la lógica del discurso: supuestos, grado de certeza, contraargumentos e implicaciones. Consulta el texto solo para contrastar tus inferencias.'
+  };
+
+  return {
+    kicker: strategies[level] ? `Estrategia de escucha · ${level}` : 'Apoyo de escucha',
+    instruction:
+      strategies[level] ||
+      'Intenta comprender el audio antes de desplegar el texto.'
+  };
+}
+
 async function fetchListeningAudioStatus(lesson) {
   const key = listeningStatusCacheKey(lesson);
   if (listeningAudioStatusCache.has(key)) return listeningAudioStatusCache.get(key);
@@ -12574,7 +12609,7 @@ function buildListeningPlayerMarkup({ sourceLabel, title, hasSlowVariant }) {
           <button type="button" class="listening-ctrl-btn listening-back5-btn" aria-label="Retroceder 5 segundos" disabled>⏪ 5s</button>
           <button type="button" class="listening-ctrl-btn listening-fwd5-btn" aria-label="Avanzar 5 segundos" disabled>⏩ 5s</button>
           <button type="button" class="listening-ctrl-btn listening-repeat-btn" aria-label="Repetir audio" aria-pressed="false" disabled>🔁 Repetir</button>
-          ${hasSlowVariant ? '<button type="button" class="listening-ctrl-btn listening-speed-btn" aria-label="Cambiar a la grabación lenta" disabled>🔊 Audio normal</button>' : ''}
+          <button type="button" class="listening-ctrl-btn listening-speed-btn" aria-label="Cambiar velocidad de audio: 1×" disabled>⏱ 1×</button>
         </div>
         <div class="listening-player-progress-row">
           <span class="listening-time-elapsed" aria-hidden="true">0:00</span>
@@ -12881,33 +12916,26 @@ function wireListeningPlayerControls(content, lesson, runtime, meta) {
     repeatBtn.setAttribute('aria-pressed', String(audioEl.loop));
     repeatBtn.classList.toggle('is-active', audioEl.loop);
   });
-  // Only switch between real recorded variants. There is deliberately no
-  // playbackRate/TTS fallback when a slow recording does not exist.
-  const recordedVariants = [
-    { id: 'normal', label: 'Audio normal', url: meta.mainUrl },
-    ...(meta.slowUrl ? [{ id: 'slow', label: 'Audio lento', url: meta.slowUrl }] : []),
-    ...(meta.verySlowUrl
-      ? [{ id: 'verySlow', label: 'Audio muy lento', url: meta.verySlowUrl }]
-      : [])
-  ];
-  runtime.speedTier = recordedVariants.some((item) => item.id === runtime.speedTier)
-    ? runtime.speedTier
-    : 'normal';
+  // Every official audio track offers a compact speed control. It adjusts
+  // only the browser's playback rate; it never substitutes generated audio.
+  const playbackRates = [0.8, 1, 1.15];
+  runtime.playbackRate = playbackRates.includes(Number(runtime.playbackRate))
+    ? Number(runtime.playbackRate)
+    : 1;
+  const formatPlaybackRate = (rate) => `${Number(rate).toFixed(rate === 1 ? 0 : 2).replace(/0$/, '')}×`;
+  const applyPlaybackRate = (rate) => {
+    runtime.playbackRate = rate;
+    audioEl.playbackRate = rate;
+    if (speedBtn) {
+      const label = formatPlaybackRate(rate);
+      speedBtn.textContent = `⏱ ${label}`;
+      speedBtn.setAttribute('aria-label', `Cambiar velocidad de audio: ${label}`);
+    }
+  };
+  applyPlaybackRate(runtime.playbackRate);
   speedBtn?.addEventListener('click', () => {
-    const wasPlaying = !audioEl.paused;
-    const currentIndex = recordedVariants.findIndex((item) => item.id === runtime.speedTier);
-    const next = recordedVariants[(currentIndex + 1) % recordedVariants.length];
-    runtime.speedTier = next.id;
-    audioEl.src = next.url;
-    audioEl.playbackRate = 1;
-    setState('loading', 'Cargando audio…');
-    audioEl.load();
-    if (wasPlaying)
-      audioEl.addEventListener('loadedmetadata', () => audioEl.play().catch(() => {}), {
-        once: true
-      });
-    speedBtn.textContent = `🔊 ${next.label}`;
-    speedBtn.setAttribute('aria-label', `${next.label}. Cambiar grabación.`);
+    const currentIndex = playbackRates.indexOf(runtime.playbackRate);
+    applyPlaybackRate(playbackRates[(currentIndex + 1) % playbackRates.length]);
   });
   rangeEl?.addEventListener('input', () => {
     if (Number.isFinite(audioEl.duration) && audioEl.duration > 0) {
@@ -13211,13 +13239,14 @@ function renderListeningStoryPanel(lesson, runtime) {
     lesson.storyTitle ||
     lesson.title ||
     listeningUiText('Texto del audio', "Texte de l'audio");
+  const support = getListeningSupportCopy(lesson);
   return `
     <article class="listening-story">
       <div class="listening-story-heading">
         <div>
-          <span class="listening-story-kicker">${listeningUiText('Apoyo de escucha', "Aide à l'écoute")}</span>
+          <span class="listening-story-kicker">${escapeHtml(support.kicker)}</span>
           <h4>${escapeHtml(storyTitle)}</h4>
-          <p>${listeningUiText('Intenta comprender el audio antes de desplegar el texto.', "Essayez de comprendre l'audio avant d'afficher le texte.")}</p>
+          <p>${escapeHtml(support.instruction)}</p>
         </div>
         <button type="button" class="secondary-btn listening-story-toggle" aria-expanded="${runtime.storyRevealed}">
           ${runtime.storyRevealed ? listeningUiText('Hide Text', 'Masquer le texte') : listeningUiText('Show Text', 'Afficher le texte')}
@@ -14058,6 +14087,40 @@ function getLocalFallbackLessons(language, level) {
     });
 }
 
+// The English B1–C2 Listening scripts are edited as a canonical curriculum
+// in scripts/content and mirrored into the generated English world. The
+// backend remains the source for progress, access and audio URLs, but an
+// older database title/transcript must never replace that approved text in
+// the learner-facing support panel.
+function applyCanonicalEnglishListeningContent(lessons, language, level) {
+  if (language !== 'english' || !['B1', 'B2', 'C1', 'C2'].includes(level)) return lessons;
+
+  const canonicalBySlug = new Map(
+    getLocalFallbackLessons('english', level)
+      .filter((lesson) => lesson.skill === 'listening')
+      .map((lesson) => [lesson.slug, lesson])
+  );
+
+  return lessons.map((lesson) => {
+    const canonical = canonicalBySlug.get(lesson.slug);
+    if (!canonical) return lesson;
+    const canonicalExtra = canonical.extra || {};
+    const storyTitle = canonicalExtra.storyTitle || canonical.title;
+    return {
+      ...lesson,
+      // The approved transcript title is also the visible Listening title.
+      title: storyTitle,
+      transcript: canonical.transcript || lesson.transcript,
+      dialogue: canonical.dialogue || lesson.dialogue,
+      extra: {
+        ...(lesson.extra || {}),
+        ...canonicalExtra,
+        storyTitle
+      }
+    };
+  });
+}
+
 // Unit metadata (id/slug/title/order) is invariant per language+level, so
 // it always ships in the static bundle (window.ANDERGO_LANGUAGE_WORLDS.units,
 // generated by scripts/sync-worlds-from-seed.js) regardless of whether the
@@ -14229,9 +14292,14 @@ async function performLearningPathLoad(options = {}) {
     const data = await response.json().catch(() => ({}));
     if (!response.ok) throw new Error(data.error || 'Could not load lessons');
 
-    learningPathState.lessons = data.lessons?.length
+    const loadedLessons = data.lessons?.length
       ? data.lessons
       : getLocalFallbackLessons(learningPathState.language, learningPathState.level);
+    learningPathState.lessons = applyCanonicalEnglishListeningContent(
+      loadedLessons,
+      learningPathState.language,
+      learningPathState.level
+    );
     await loadUnitVerbProgress();
     applyLoadedSelection();
     updatePathLessonSelect(learningPathState.unitId || options.restoreUnitId);

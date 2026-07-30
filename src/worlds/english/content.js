@@ -1433,15 +1433,15 @@
     "dialogue": [
       {
         "speaker": "Narrator",
-        "line": "A video about a city election went viral last week, but fact-checkers later described it as misleading. How did it influence public opinion? It is widely believed that the clip showed a candidate insulting local residents. In fact, the video had been cut, and the missing section changed the meaning. The original source was difficult to find because thousands of accounts had already shared the shorter version. Why did the correction travel more slowly? Users inside an echo chamber tend to receive information that confirms what they already believe. It has also been argued that emotional content is rewarded by recommendation systems. That does not prove deliberate bias, but it helps explain why the false claim spread quickly. What should platforms do? Stronger moderation may be needed, but every decision should be transparent. A source should be checked before a post is removed, and users should be shown the evidence. Otherwise, fact-checking itself may be seen as political control."
+        "line": "Host: A video about a city election went viral last week, but fact-checkers later described it as misleading. How did it influence public opinion? Guest: It is widely believed that the clip showed a candidate insulting local residents. In fact, the video had been cut, and the missing section changed the meaning. The original source was difficult to find because thousands of accounts had already shared the shorter version. Host: Why did the correction travel more slowly? Guest: Users inside an echo chamber tend to receive information that confirms what they already believe. It has also been argued that emotional content is rewarded by recommendation systems. That does not prove deliberate bias, but it helps explain why the false claim spread quickly. Host: What should platforms do? Guest: Stronger moderation may be needed, but every decision should be transparent. A source should be checked before a post is removed, and users should be shown the evidence. Otherwise, fact-checking itself may be seen as political control."
       }
     ],
     "reading": null,
-    "transcript": "A video about a city election went viral last week, but fact-checkers later described it as misleading. How did it influence public opinion? It is widely believed that the clip showed a candidate insulting local residents. In fact, the video had been cut, and the missing section changed the meaning. The original source was difficult to find because thousands of accounts had already shared the shorter version. Why did the correction travel more slowly? Users inside an echo chamber tend to receive information that confirms what they already believe. It has also been argued that emotional content is rewarded by recommendation systems. That does not prove deliberate bias, but it helps explain why the false claim spread quickly. What should platforms do? Stronger moderation may be needed, but every decision should be transparent. A source should be checked before a post is removed, and users should be shown the evidence. Otherwise, fact-checking itself may be seen as political control.",
+    "transcript": "Host: A video about a city election went viral last week, but fact-checkers later described it as misleading. How did it influence public opinion? Guest: It is widely believed that the clip showed a candidate insulting local residents. In fact, the video had been cut, and the missing section changed the meaning. The original source was difficult to find because thousands of accounts had already shared the shorter version. Host: Why did the correction travel more slowly? Guest: Users inside an echo chamber tend to receive information that confirms what they already believe. It has also been argued that emotional content is rewarded by recommendation systems. That does not prove deliberate bias, but it helps explain why the false claim spread quickly. Host: What should platforms do? Guest: Stronger moderation may be needed, but every decision should be transparent. A source should be checked before a post is removed, and users should be shown the evidence. Otherwise, fact-checking itself may be seen as political control.",
     "extra": {
       "listeningType": "monologue",
       "difficulty": "B2",
-      "durationSeconds": 76,
+      "durationSeconds": 79,
       "speakers": [
         "Narrator"
       ],
@@ -1470,7 +1470,7 @@
             "options": [
               {
                 "id": "o1",
-                "text": "A video about a city election went viral last week, but fact-checkers later described it as misleading."
+                "text": "Host: A video about a city election went viral last week, but fact-checkers later described it as misleading."
               },
               {
                 "id": "o2",
@@ -1493,7 +1493,7 @@
             "options": [
               {
                 "id": "o1",
-                "text": "A video about a city election went viral last week, but fact-checkers later described it as misleading."
+                "text": "Host: A video about a city election went viral last week, but fact-checkers later described it as misleading."
               },
               {
                 "id": "o2",
@@ -1516,7 +1516,7 @@
             "options": [
               {
                 "id": "o1",
-                "text": "A video about a city election went viral last week, but fact-checkers later described it as misleading."
+                "text": "Host: A video about a city election went viral last week, but fact-checkers later described it as misleading."
               },
               {
                 "id": "o2",
@@ -1539,7 +1539,7 @@
             "options": [
               {
                 "id": "o1",
-                "text": "A video about a city election went viral last week, but fact-checkers later described it as misleading."
+                "text": "Host: A video about a city election went viral last week, but fact-checkers later described it as misleading."
               },
               {
                 "id": "o2",
@@ -1558,12 +1558,12 @@
         ]
       },
       "storyTitle": "When AI Makes a False Story Look Real",
-      "mainTranscript": "A video about a city election went viral last week, but fact-checkers later described it as misleading. How did it influence public opinion? It is widely believed that the clip showed a candidate insulting local residents. In fact, the video had been cut, and the missing section changed the meaning. The original source was difficult to find because thousands of accounts had already shared the shorter version. Why did the correction travel more slowly? Users inside an echo chamber tend to receive information that confirms what they already believe. It has also been argued that emotional content is rewarded by recommendation systems. That does not prove deliberate bias, but it helps explain why the false claim spread quickly. What should platforms do? Stronger moderation may be needed, but every decision should be transparent. A source should be checked before a post is removed, and users should be shown the evidence. Otherwise, fact-checking itself may be seen as political control.",
+      "mainTranscript": "Host: A video about a city election went viral last week, but fact-checkers later described it as misleading. How did it influence public opinion? Guest: It is widely believed that the clip showed a candidate insulting local residents. In fact, the video had been cut, and the missing section changed the meaning. The original source was difficult to find because thousands of accounts had already shared the shorter version. Host: Why did the correction travel more slowly? Guest: Users inside an echo chamber tend to receive information that confirms what they already believe. It has also been argued that emotional content is rewarded by recommendation systems. That does not prove deliberate bias, but it helps explain why the false claim spread quickly. Host: What should platforms do? Guest: Stronger moderation may be needed, but every decision should be transparent. A source should be checked before a post is removed, and users should be shown the evidence. Otherwise, fact-checking itself may be seen as political control.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "A video about a city election went viral last week, but fact-checkers later described it as misleading."
+          "text": "Host: A video about a city election went viral last week, but fact-checkers later described it as misleading."
         },
         {
           "id": "segment-02",
@@ -1573,7 +1573,7 @@
         {
           "id": "segment-03",
           "order": 3,
-          "text": "It is widely believed that the clip showed a candidate insulting local residents."
+          "text": "Guest: It is widely believed that the clip showed a candidate insulting local residents."
         },
         {
           "id": "segment-04",
@@ -1588,12 +1588,12 @@
         {
           "id": "segment-06",
           "order": 6,
-          "text": "Why did the correction travel more slowly?"
+          "text": "Host: Why did the correction travel more slowly?"
         },
         {
           "id": "segment-07",
           "order": 7,
-          "text": "Users inside an echo chamber tend to receive information that confirms what they already believe."
+          "text": "Guest: Users inside an echo chamber tend to receive information that confirms what they already believe."
         },
         {
           "id": "segment-08",
@@ -1608,12 +1608,12 @@
         {
           "id": "segment-10",
           "order": 10,
-          "text": "What should platforms do?"
+          "text": "Host: What should platforms do?"
         },
         {
           "id": "segment-11",
           "order": 11,
-          "text": "Stronger moderation may be needed, but every decision should be transparent."
+          "text": "Guest: Stronger moderation may be needed, but every decision should be transparent."
         },
         {
           "id": "segment-12",
@@ -1636,7 +1636,7 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Social Media and Public Opinion”, which detail establishes the situation?",
         "options": [
-          "A video about a city election went viral last week, but fact-checkers later described it as misleading.",
+          "Host: A video about a city election went viral last week, but fact-checkers later described it as misleading.",
           "The original source was difficult to find because thousands of accounts had already shared the shorter version.",
           "That does not prove deliberate bias, but it helps explain why the false claim spread quickly.",
           "Otherwise, fact-checking itself may be seen as political control."
@@ -1646,7 +1646,7 @@
         "type": "mcq",
         "prompt": "After “A video about a city election went viral last week, but fact-checkers…”, what happens next in “Listening Lab: Social Media and Public Opinion”?",
         "options": [
-          "A video about a city election went viral last week, but fact-checkers later described it as misleading.",
+          "Host: A video about a city election went viral last week, but fact-checkers later described it as misleading.",
           "The original source was difficult to find because thousands of accounts had already shared the shorter version.",
           "That does not prove deliberate bias, but it helps explain why the false claim spread quickly.",
           "Otherwise, fact-checking itself may be seen as political control."
@@ -1656,7 +1656,7 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Social Media and Public Opinion”?",
         "options": [
-          "A video about a city election went viral last week, but fact-checkers later described it as misleading.",
+          "Host: A video about a city election went viral last week, but fact-checkers later described it as misleading.",
           "That does not prove deliberate bias, but it helps explain why the false claim spread quickly.",
           "The original source was difficult to find because thousands of accounts had already shared the shorter version.",
           "Otherwise, fact-checking itself may be seen as political control."
@@ -1666,7 +1666,7 @@
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: Social Media and Public Opinion” after “The original source was difficult to find because thousands of…”?",
         "options": [
-          "A video about a city election went viral last week, but fact-checkers later described it as misleading.",
+          "Host: A video about a city election went viral last week, but fact-checkers later described it as misleading.",
           "The original source was difficult to find because thousands of accounts had already shared the shorter version.",
           "That does not prove deliberate bias, but it helps explain why the false claim spread quickly.",
           "Otherwise, fact-checking itself may be seen as political control."
@@ -8737,15 +8737,15 @@
     "dialogue": [
       {
         "speaker": "Narrator",
-        "line": "The river clean-up collected hundreds of bags after the festival. What did volunteers find? Most of the material was single-use packaging: cups, food containers and plastic bags. The city had the waste removed, but much of it had already entered the water. Over time, some pieces will break down into microplastic. Can a clean-up solve the problem? It helps, but it only treats the final stage of the waste stream. Organizers should have vendors use reusable containers, and they can get water stations installed instead of selling individual bottles. Better signs would also help visitors sort waste correctly. Who carries the greatest responsibility? Consumers make choices, but producer responsibility matters too. If packaging is designed to be disposable, more material reaches a landfill or the river. The city could have suppliers redesign it and could require a deposit system. That would prevent waste instead of merely having it collected afterward."
+        "line": "Host: The river clean-up collected hundreds of bags after the festival. What did volunteers find? Guest: Most of the material was single-use packaging: cups, food containers and plastic bags. The city had the waste removed, but much of it had already entered the water. Over time, some pieces will break down into microplastic. Host: Can a clean-up solve the problem? Guest: It helps, but it only treats the final stage of the waste stream. Organizers should have vendors use reusable containers, and they can get water stations installed instead of selling individual bottles. Better signs would also help visitors sort waste correctly. Host: Who carries the greatest responsibility? Guest: Consumers make choices, but producer responsibility matters too. If packaging is designed to be disposable, more material reaches a landfill or the river. The city could have suppliers redesign it and could require a deposit system. That would prevent waste instead of merely having it collected afterward."
       }
     ],
     "reading": null,
-    "transcript": "The river clean-up collected hundreds of bags after the festival. What did volunteers find? Most of the material was single-use packaging: cups, food containers and plastic bags. The city had the waste removed, but much of it had already entered the water. Over time, some pieces will break down into microplastic. Can a clean-up solve the problem? It helps, but it only treats the final stage of the waste stream. Organizers should have vendors use reusable containers, and they can get water stations installed instead of selling individual bottles. Better signs would also help visitors sort waste correctly. Who carries the greatest responsibility? Consumers make choices, but producer responsibility matters too. If packaging is designed to be disposable, more material reaches a landfill or the river. The city could have suppliers redesign it and could require a deposit system. That would prevent waste instead of merely having it collected afterward.",
+    "transcript": "Host: The river clean-up collected hundreds of bags after the festival. What did volunteers find? Guest: Most of the material was single-use packaging: cups, food containers and plastic bags. The city had the waste removed, but much of it had already entered the water. Over time, some pieces will break down into microplastic. Host: Can a clean-up solve the problem? Guest: It helps, but it only treats the final stage of the waste stream. Organizers should have vendors use reusable containers, and they can get water stations installed instead of selling individual bottles. Better signs would also help visitors sort waste correctly. Host: Who carries the greatest responsibility? Guest: Consumers make choices, but producer responsibility matters too. If packaging is designed to be disposable, more material reaches a landfill or the river. The city could have suppliers redesign it and could require a deposit system. That would prevent waste instead of merely having it collected afterward.",
     "extra": {
       "listeningType": "monologue",
       "difficulty": "B2",
-      "durationSeconds": 72,
+      "durationSeconds": 75,
       "speakers": [
         "Narrator"
       ],
@@ -8774,7 +8774,7 @@
             "options": [
               {
                 "id": "o1",
-                "text": "The river clean-up collected hundreds of bags after the festival."
+                "text": "Host: The river clean-up collected hundreds of bags after the festival."
               },
               {
                 "id": "o2",
@@ -8782,7 +8782,7 @@
               },
               {
                 "id": "o3",
-                "text": "Who carries the greatest responsibility?"
+                "text": "Host: Who carries the greatest responsibility?"
               },
               {
                 "id": "o4",
@@ -8797,7 +8797,7 @@
             "options": [
               {
                 "id": "o1",
-                "text": "The river clean-up collected hundreds of bags after the festival."
+                "text": "Host: The river clean-up collected hundreds of bags after the festival."
               },
               {
                 "id": "o2",
@@ -8805,7 +8805,7 @@
               },
               {
                 "id": "o3",
-                "text": "Who carries the greatest responsibility?"
+                "text": "Host: Who carries the greatest responsibility?"
               },
               {
                 "id": "o4",
@@ -8820,7 +8820,7 @@
             "options": [
               {
                 "id": "o1",
-                "text": "The river clean-up collected hundreds of bags after the festival."
+                "text": "Host: The river clean-up collected hundreds of bags after the festival."
               },
               {
                 "id": "o2",
@@ -8832,7 +8832,7 @@
               },
               {
                 "id": "o4",
-                "text": "Who carries the greatest responsibility?"
+                "text": "Host: Who carries the greatest responsibility?"
               }
             ]
           },
@@ -8843,7 +8843,7 @@
             "options": [
               {
                 "id": "o1",
-                "text": "The river clean-up collected hundreds of bags after the festival."
+                "text": "Host: The river clean-up collected hundreds of bags after the festival."
               },
               {
                 "id": "o2",
@@ -8851,7 +8851,7 @@
               },
               {
                 "id": "o3",
-                "text": "Who carries the greatest responsibility?"
+                "text": "Host: Who carries the greatest responsibility?"
               },
               {
                 "id": "o4",
@@ -8862,12 +8862,12 @@
         ]
       },
       "storyTitle": "Why Cities Are Cutting Single-Use Plastic",
-      "mainTranscript": "The river clean-up collected hundreds of bags after the festival. What did volunteers find? Most of the material was single-use packaging: cups, food containers and plastic bags. The city had the waste removed, but much of it had already entered the water. Over time, some pieces will break down into microplastic. Can a clean-up solve the problem? It helps, but it only treats the final stage of the waste stream. Organizers should have vendors use reusable containers, and they can get water stations installed instead of selling individual bottles. Better signs would also help visitors sort waste correctly. Who carries the greatest responsibility? Consumers make choices, but producer responsibility matters too. If packaging is designed to be disposable, more material reaches a landfill or the river. The city could have suppliers redesign it and could require a deposit system. That would prevent waste instead of merely having it collected afterward.",
+      "mainTranscript": "Host: The river clean-up collected hundreds of bags after the festival. What did volunteers find? Guest: Most of the material was single-use packaging: cups, food containers and plastic bags. The city had the waste removed, but much of it had already entered the water. Over time, some pieces will break down into microplastic. Host: Can a clean-up solve the problem? Guest: It helps, but it only treats the final stage of the waste stream. Organizers should have vendors use reusable containers, and they can get water stations installed instead of selling individual bottles. Better signs would also help visitors sort waste correctly. Host: Who carries the greatest responsibility? Guest: Consumers make choices, but producer responsibility matters too. If packaging is designed to be disposable, more material reaches a landfill or the river. The city could have suppliers redesign it and could require a deposit system. That would prevent waste instead of merely having it collected afterward.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "The river clean-up collected hundreds of bags after the festival."
+          "text": "Host: The river clean-up collected hundreds of bags after the festival."
         },
         {
           "id": "segment-02",
@@ -8877,7 +8877,7 @@
         {
           "id": "segment-03",
           "order": 3,
-          "text": "Most of the material was single-use packaging: cups, food containers and plastic bags."
+          "text": "Guest: Most of the material was single-use packaging: cups, food containers and plastic bags."
         },
         {
           "id": "segment-04",
@@ -8892,12 +8892,12 @@
         {
           "id": "segment-06",
           "order": 6,
-          "text": "Can a clean-up solve the problem?"
+          "text": "Host: Can a clean-up solve the problem?"
         },
         {
           "id": "segment-07",
           "order": 7,
-          "text": "It helps, but it only treats the final stage of the waste stream."
+          "text": "Guest: It helps, but it only treats the final stage of the waste stream."
         },
         {
           "id": "segment-08",
@@ -8912,12 +8912,12 @@
         {
           "id": "segment-10",
           "order": 10,
-          "text": "Who carries the greatest responsibility?"
+          "text": "Host: Who carries the greatest responsibility?"
         },
         {
           "id": "segment-11",
           "order": 11,
-          "text": "Consumers make choices, but producer responsibility matters too."
+          "text": "Guest: Consumers make choices, but producer responsibility matters too."
         },
         {
           "id": "segment-12",
@@ -8945,9 +8945,9 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Plastic Pollution in Our Cities”, which detail establishes the situation?",
         "options": [
-          "The river clean-up collected hundreds of bags after the festival.",
+          "Host: The river clean-up collected hundreds of bags after the festival.",
           "Over time, some pieces will break down into microplastic.",
-          "Who carries the greatest responsibility?",
+          "Host: Who carries the greatest responsibility?",
           "That would prevent waste instead of merely having it collected afterward."
         ]
       },
@@ -8955,9 +8955,9 @@
         "type": "mcq",
         "prompt": "After “The river clean-up collected hundreds of bags after the festival.”, what happens next in “Listening Lab: Plastic Pollution in Our Cities”?",
         "options": [
-          "The river clean-up collected hundreds of bags after the festival.",
+          "Host: The river clean-up collected hundreds of bags after the festival.",
           "Over time, some pieces will break down into microplastic.",
-          "Who carries the greatest responsibility?",
+          "Host: Who carries the greatest responsibility?",
           "That would prevent waste instead of merely having it collected afterward."
         ]
       },
@@ -8965,19 +8965,19 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Plastic Pollution in Our Cities”?",
         "options": [
-          "The river clean-up collected hundreds of bags after the festival.",
+          "Host: The river clean-up collected hundreds of bags after the festival.",
           "Over time, some pieces will break down into microplastic.",
           "Organizers should have vendors use reusable containers, and they can get water stations installed instead of selling individual bottles.",
-          "Who carries the greatest responsibility?"
+          "Host: Who carries the greatest responsibility?"
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: Plastic Pollution in Our Cities” after “Organizers should have vendors use reusable containers, and they can…”?",
         "options": [
-          "The river clean-up collected hundreds of bags after the festival.",
+          "Host: The river clean-up collected hundreds of bags after the festival.",
           "Over time, some pieces will break down into microplastic.",
-          "Who carries the greatest responsibility?",
+          "Host: Who carries the greatest responsibility?",
           "That would prevent waste instead of merely having it collected afterward."
         ]
       }
@@ -15969,15 +15969,15 @@
     "dialogue": [
       {
         "speaker": "Narrator",
-        "line": "People are often told to reduce their carbon footprint. Are personal choices enough? They matter, but they operate inside a larger system. If cities had invested in reliable public transportation years ago, fewer commuters would depend on fossil fuel today. And if clean infrastructure were available everywhere, many households would already be using renewable energy. Does that remove individual responsibility? No. Lower demand can reduce emissions and signal support for change. However, mitigation also requires rules for major producers, while adaptation requires communities to prepare for effects that are already unavoidable. What makes policy effective? A practical incentive can help families choose efficient transport or home energy, but the option must be affordable. If governments had treated climate action only as a personal moral test, they would have ignored structural barriers. Daily decisions are useful when public investment makes better decisions possible."
+        "line": "Host: People are often told to reduce their carbon footprint. Are personal choices enough? Guest: They matter, but they operate inside a larger system. If cities had invested in reliable public transportation years ago, fewer commuters would depend on fossil fuel today. And if clean infrastructure were available everywhere, many households would already be using renewable energy. Host: Does that remove individual responsibility? Guest: No. Lower demand can reduce emissions and signal support for change. However, mitigation also requires rules for major producers, while adaptation requires communities to prepare for effects that are already unavoidable. Host: What makes policy effective? Guest: A practical incentive can help families choose efficient transport or home energy, but the option must be affordable. If governments had treated climate action only as a personal moral test, they would have ignored structural barriers. Daily decisions are useful when public investment makes better decisions possible."
       }
     ],
     "reading": null,
-    "transcript": "People are often told to reduce their carbon footprint. Are personal choices enough? They matter, but they operate inside a larger system. If cities had invested in reliable public transportation years ago, fewer commuters would depend on fossil fuel today. And if clean infrastructure were available everywhere, many households would already be using renewable energy. Does that remove individual responsibility? No. Lower demand can reduce emissions and signal support for change. However, mitigation also requires rules for major producers, while adaptation requires communities to prepare for effects that are already unavoidable. What makes policy effective? A practical incentive can help families choose efficient transport or home energy, but the option must be affordable. If governments had treated climate action only as a personal moral test, they would have ignored structural barriers. Daily decisions are useful when public investment makes better decisions possible.",
+    "transcript": "Host: People are often told to reduce their carbon footprint. Are personal choices enough? Guest: They matter, but they operate inside a larger system. If cities had invested in reliable public transportation years ago, fewer commuters would depend on fossil fuel today. And if clean infrastructure were available everywhere, many households would already be using renewable energy. Host: Does that remove individual responsibility? Guest: No. Lower demand can reduce emissions and signal support for change. However, mitigation also requires rules for major producers, while adaptation requires communities to prepare for effects that are already unavoidable. Host: What makes policy effective? Guest: A practical incentive can help families choose efficient transport or home energy, but the option must be affordable. If governments had treated climate action only as a personal moral test, they would have ignored structural barriers. Daily decisions are useful when public investment makes better decisions possible.",
     "extra": {
       "listeningType": "monologue",
       "difficulty": "B2",
-      "durationSeconds": 68,
+      "durationSeconds": 71,
       "speakers": [
         "Narrator"
       ],
@@ -16006,7 +16006,7 @@
             "options": [
               {
                 "id": "o1",
-                "text": "People are often told to reduce their carbon footprint."
+                "text": "Host: People are often told to reduce their carbon footprint."
               },
               {
                 "id": "o2",
@@ -16029,7 +16029,7 @@
             "options": [
               {
                 "id": "o1",
-                "text": "People are often told to reduce their carbon footprint."
+                "text": "Host: People are often told to reduce their carbon footprint."
               },
               {
                 "id": "o2",
@@ -16052,7 +16052,7 @@
             "options": [
               {
                 "id": "o1",
-                "text": "People are often told to reduce their carbon footprint."
+                "text": "Host: People are often told to reduce their carbon footprint."
               },
               {
                 "id": "o2",
@@ -16075,7 +16075,7 @@
             "options": [
               {
                 "id": "o1",
-                "text": "People are often told to reduce their carbon footprint."
+                "text": "Host: People are often told to reduce their carbon footprint."
               },
               {
                 "id": "o2",
@@ -16094,12 +16094,12 @@
         ]
       },
       "storyTitle": "Extreme Weather and Everyday Choices",
-      "mainTranscript": "People are often told to reduce their carbon footprint. Are personal choices enough? They matter, but they operate inside a larger system. If cities had invested in reliable public transportation years ago, fewer commuters would depend on fossil fuel today. And if clean infrastructure were available everywhere, many households would already be using renewable energy. Does that remove individual responsibility? No. Lower demand can reduce emissions and signal support for change. However, mitigation also requires rules for major producers, while adaptation requires communities to prepare for effects that are already unavoidable. What makes policy effective? A practical incentive can help families choose efficient transport or home energy, but the option must be affordable. If governments had treated climate action only as a personal moral test, they would have ignored structural barriers. Daily decisions are useful when public investment makes better decisions possible.",
+      "mainTranscript": "Host: People are often told to reduce their carbon footprint. Are personal choices enough? Guest: They matter, but they operate inside a larger system. If cities had invested in reliable public transportation years ago, fewer commuters would depend on fossil fuel today. And if clean infrastructure were available everywhere, many households would already be using renewable energy. Host: Does that remove individual responsibility? Guest: No. Lower demand can reduce emissions and signal support for change. However, mitigation also requires rules for major producers, while adaptation requires communities to prepare for effects that are already unavoidable. Host: What makes policy effective? Guest: A practical incentive can help families choose efficient transport or home energy, but the option must be affordable. If governments had treated climate action only as a personal moral test, they would have ignored structural barriers. Daily decisions are useful when public investment makes better decisions possible.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "People are often told to reduce their carbon footprint."
+          "text": "Host: People are often told to reduce their carbon footprint."
         },
         {
           "id": "segment-02",
@@ -16109,7 +16109,7 @@
         {
           "id": "segment-03",
           "order": 3,
-          "text": "They matter, but they operate inside a larger system."
+          "text": "Guest: They matter, but they operate inside a larger system."
         },
         {
           "id": "segment-04",
@@ -16124,12 +16124,12 @@
         {
           "id": "segment-06",
           "order": 6,
-          "text": "Does that remove individual responsibility?"
+          "text": "Host: Does that remove individual responsibility?"
         },
         {
           "id": "segment-07",
           "order": 7,
-          "text": "No."
+          "text": "Guest: No."
         },
         {
           "id": "segment-08",
@@ -16144,12 +16144,12 @@
         {
           "id": "segment-10",
           "order": 10,
-          "text": "What makes policy effective?"
+          "text": "Host: What makes policy effective?"
         },
         {
           "id": "segment-11",
           "order": 11,
-          "text": "A practical incentive can help families choose efficient transport or home energy, but the option must be affordable."
+          "text": "Guest: A practical incentive can help families choose efficient transport or home energy, but the option must be affordable."
         },
         {
           "id": "segment-12",
@@ -16172,7 +16172,7 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Climate Change and Everyday Decisions”, which detail establishes the situation?",
         "options": [
-          "People are often told to reduce their carbon footprint.",
+          "Host: People are often told to reduce their carbon footprint.",
           "And if clean infrastructure were available everywhere, many households would already be using renewable energy.",
           "However, mitigation also requires rules for major producers, while adaptation requires communities to prepare for effects that are already unavoidable.",
           "Daily decisions are useful when public investment makes better decisions possible."
@@ -16182,7 +16182,7 @@
         "type": "mcq",
         "prompt": "After “People are often told to reduce their carbon footprint.”, what happens next in “Listening Lab: Climate Change and Everyday Decisions”?",
         "options": [
-          "People are often told to reduce their carbon footprint.",
+          "Host: People are often told to reduce their carbon footprint.",
           "And if clean infrastructure were available everywhere, many households would already be using renewable energy.",
           "However, mitigation also requires rules for major producers, while adaptation requires communities to prepare for effects that are already unavoidable.",
           "Daily decisions are useful when public investment makes better decisions possible."
@@ -16192,7 +16192,7 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Climate Change and Everyday Decisions”?",
         "options": [
-          "People are often told to reduce their carbon footprint.",
+          "Host: People are often told to reduce their carbon footprint.",
           "And if clean infrastructure were available everywhere, many households would already be using renewable energy.",
           "However, mitigation also requires rules for major producers, while adaptation requires communities to prepare for effects that are already unavoidable.",
           "Daily decisions are useful when public investment makes better decisions possible."
@@ -16202,7 +16202,7 @@
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: Climate Change and Everyday Decisions” after “However, mitigation also requires rules for major producers, while…”?",
         "options": [
-          "People are often told to reduce their carbon footprint.",
+          "Host: People are often told to reduce their carbon footprint.",
           "And if clean infrastructure were available everywhere, many households would already be using renewable energy.",
           "However, mitigation also requires rules for major producers, while adaptation requires communities to prepare for effects that are already unavoidable.",
           "Daily decisions are useful when public investment makes better decisions possible."
@@ -23181,15 +23181,15 @@
     "dialogue": [
       {
         "speaker": "Narrator",
-        "line": "A public procurement contract doubled in price, although several repairs were never completed. What might have happened? Officials may have acted too quickly after the hurricane, but the missing records suggest more than simple confusion. The company could have received special treatment, and a conflict of interest might have influenced the decision. Some residents immediately alleged bribery. Is that conclusion justified? Not yet. Money may have been exchanged, but investigators need evidence. A whistleblower reported that competing bids had disappeared, which should have triggered stronger civic oversight. The documents might also have been removed later to protect someone. Why does this affect public trust? Without accountability, people assume that clientelism and impunity are normal. Even an honest emergency decision can look corrupt when nobody explains it. Transparent records would allow residents to distinguish poor management from deliberate wrongdoing and would make future contracts easier to examine."
+        "line": "Host: A public procurement contract doubled in price, although several repairs were never completed. What might have happened? Guest: Officials may have acted too quickly after the hurricane, but the missing records suggest more than simple confusion. The company could have received special treatment, and a conflict of interest might have influenced the decision. Host: Some residents immediately alleged bribery. Is that conclusion justified? Guest: Not yet. Money may have been exchanged, but investigators need evidence. A whistleblower reported that competing bids had disappeared, which should have triggered stronger civic oversight. The documents might also have been removed later to protect someone. Host: Why does this affect public trust? Guest: Without accountability, people assume that clientelism and impunity are normal. Even an honest emergency decision can look corrupt when nobody explains it. Transparent records would allow residents to distinguish poor management from deliberate wrongdoing and would make future contracts easier to examine."
       }
     ],
     "reading": null,
-    "transcript": "A public procurement contract doubled in price, although several repairs were never completed. What might have happened? Officials may have acted too quickly after the hurricane, but the missing records suggest more than simple confusion. The company could have received special treatment, and a conflict of interest might have influenced the decision. Some residents immediately alleged bribery. Is that conclusion justified? Not yet. Money may have been exchanged, but investigators need evidence. A whistleblower reported that competing bids had disappeared, which should have triggered stronger civic oversight. The documents might also have been removed later to protect someone. Why does this affect public trust? Without accountability, people assume that clientelism and impunity are normal. Even an honest emergency decision can look corrupt when nobody explains it. Transparent records would allow residents to distinguish poor management from deliberate wrongdoing and would make future contracts easier to examine.",
+    "transcript": "Host: A public procurement contract doubled in price, although several repairs were never completed. What might have happened? Guest: Officials may have acted too quickly after the hurricane, but the missing records suggest more than simple confusion. The company could have received special treatment, and a conflict of interest might have influenced the decision. Host: Some residents immediately alleged bribery. Is that conclusion justified? Guest: Not yet. Money may have been exchanged, but investigators need evidence. A whistleblower reported that competing bids had disappeared, which should have triggered stronger civic oversight. The documents might also have been removed later to protect someone. Host: Why does this affect public trust? Guest: Without accountability, people assume that clientelism and impunity are normal. Even an honest emergency decision can look corrupt when nobody explains it. Transparent records would allow residents to distinguish poor management from deliberate wrongdoing and would make future contracts easier to examine.",
     "extra": {
       "listeningType": "monologue",
       "difficulty": "B2",
-      "durationSeconds": 70,
+      "durationSeconds": 73,
       "speakers": [
         "Narrator"
       ],
@@ -23218,11 +23218,11 @@
             "options": [
               {
                 "id": "o1",
-                "text": "A public procurement contract doubled in price, although several repairs were never completed."
+                "text": "Host: A public procurement contract doubled in price, although several repairs were never completed."
               },
               {
                 "id": "o2",
-                "text": "Some residents immediately alleged bribery."
+                "text": "Host: Some residents immediately alleged bribery."
               },
               {
                 "id": "o3",
@@ -23241,11 +23241,11 @@
             "options": [
               {
                 "id": "o1",
-                "text": "A public procurement contract doubled in price, although several repairs were never completed."
+                "text": "Host: A public procurement contract doubled in price, although several repairs were never completed."
               },
               {
                 "id": "o2",
-                "text": "Some residents immediately alleged bribery."
+                "text": "Host: Some residents immediately alleged bribery."
               },
               {
                 "id": "o3",
@@ -23264,15 +23264,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "A public procurement contract doubled in price, although several repairs were never completed."
+                "text": "Host: A public procurement contract doubled in price, although several repairs were never completed."
               },
               {
                 "id": "o2",
-                "text": "Some residents immediately alleged bribery."
+                "text": "Host: Some residents immediately alleged bribery."
               },
               {
                 "id": "o3",
-                "text": "Officials may have acted too quickly after the hurricane, but the missing records suggest more than simple confusion."
+                "text": "Guest: Officials may have acted too quickly after the hurricane, but the missing records suggest more than simple confusion."
               },
               {
                 "id": "o4",
@@ -23287,11 +23287,11 @@
             "options": [
               {
                 "id": "o1",
-                "text": "A public procurement contract doubled in price, although several repairs were never completed."
+                "text": "Host: A public procurement contract doubled in price, although several repairs were never completed."
               },
               {
                 "id": "o2",
-                "text": "Some residents immediately alleged bribery."
+                "text": "Host: Some residents immediately alleged bribery."
               },
               {
                 "id": "o3",
@@ -23306,12 +23306,12 @@
         ]
       },
       "storyTitle": "Why Public Contracts Need Transparency",
-      "mainTranscript": "A public procurement contract doubled in price, although several repairs were never completed. What might have happened? Officials may have acted too quickly after the hurricane, but the missing records suggest more than simple confusion. The company could have received special treatment, and a conflict of interest might have influenced the decision. Some residents immediately alleged bribery. Is that conclusion justified? Not yet. Money may have been exchanged, but investigators need evidence. A whistleblower reported that competing bids had disappeared, which should have triggered stronger civic oversight. The documents might also have been removed later to protect someone. Why does this affect public trust? Without accountability, people assume that clientelism and impunity are normal. Even an honest emergency decision can look corrupt when nobody explains it. Transparent records would allow residents to distinguish poor management from deliberate wrongdoing and would make future contracts easier to examine.",
+      "mainTranscript": "Host: A public procurement contract doubled in price, although several repairs were never completed. What might have happened? Guest: Officials may have acted too quickly after the hurricane, but the missing records suggest more than simple confusion. The company could have received special treatment, and a conflict of interest might have influenced the decision. Host: Some residents immediately alleged bribery. Is that conclusion justified? Guest: Not yet. Money may have been exchanged, but investigators need evidence. A whistleblower reported that competing bids had disappeared, which should have triggered stronger civic oversight. The documents might also have been removed later to protect someone. Host: Why does this affect public trust? Guest: Without accountability, people assume that clientelism and impunity are normal. Even an honest emergency decision can look corrupt when nobody explains it. Transparent records would allow residents to distinguish poor management from deliberate wrongdoing and would make future contracts easier to examine.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "A public procurement contract doubled in price, although several repairs were never completed."
+          "text": "Host: A public procurement contract doubled in price, although several repairs were never completed."
         },
         {
           "id": "segment-02",
@@ -23321,7 +23321,7 @@
         {
           "id": "segment-03",
           "order": 3,
-          "text": "Officials may have acted too quickly after the hurricane, but the missing records suggest more than simple confusion."
+          "text": "Guest: Officials may have acted too quickly after the hurricane, but the missing records suggest more than simple confusion."
         },
         {
           "id": "segment-04",
@@ -23331,7 +23331,7 @@
         {
           "id": "segment-05",
           "order": 5,
-          "text": "Some residents immediately alleged bribery."
+          "text": "Host: Some residents immediately alleged bribery."
         },
         {
           "id": "segment-06",
@@ -23341,7 +23341,7 @@
         {
           "id": "segment-07",
           "order": 7,
-          "text": "Not yet."
+          "text": "Guest: Not yet."
         },
         {
           "id": "segment-08",
@@ -23361,12 +23361,12 @@
         {
           "id": "segment-11",
           "order": 11,
-          "text": "Why does this affect public trust?"
+          "text": "Host: Why does this affect public trust?"
         },
         {
           "id": "segment-12",
           "order": 12,
-          "text": "Without accountability, people assume that clientelism and impunity are normal."
+          "text": "Guest: Without accountability, people assume that clientelism and impunity are normal."
         },
         {
           "id": "segment-13",
@@ -23389,8 +23389,8 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Corruption and Public Trust in Latin America and the Caribbean”, which detail establishes the situation?",
         "options": [
-          "A public procurement contract doubled in price, although several repairs were never completed.",
-          "Some residents immediately alleged bribery.",
+          "Host: A public procurement contract doubled in price, although several repairs were never completed.",
+          "Host: Some residents immediately alleged bribery.",
           "The documents might also have been removed later to protect someone.",
           "Transparent records would allow residents to distinguish poor management from deliberate wrongdoing and would make future contracts easier to examine."
         ]
@@ -23399,8 +23399,8 @@
         "type": "mcq",
         "prompt": "After “A public procurement contract doubled in price, although several…”, what happens next in “Listening Lab: Corruption and Public Trust in Latin America and the Caribbean”?",
         "options": [
-          "A public procurement contract doubled in price, although several repairs were never completed.",
-          "Some residents immediately alleged bribery.",
+          "Host: A public procurement contract doubled in price, although several repairs were never completed.",
+          "Host: Some residents immediately alleged bribery.",
           "The documents might also have been removed later to protect someone.",
           "Transparent records would allow residents to distinguish poor management from deliberate wrongdoing and would make future contracts easier to examine."
         ]
@@ -23409,9 +23409,9 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Corruption and Public Trust in Latin America and the Caribbean”?",
         "options": [
-          "A public procurement contract doubled in price, although several repairs were never completed.",
-          "Some residents immediately alleged bribery.",
-          "Officials may have acted too quickly after the hurricane, but the missing records suggest more than simple confusion.",
+          "Host: A public procurement contract doubled in price, although several repairs were never completed.",
+          "Host: Some residents immediately alleged bribery.",
+          "Guest: Officials may have acted too quickly after the hurricane, but the missing records suggest more than simple confusion.",
           "The documents might also have been removed later to protect someone."
         ]
       },
@@ -23419,8 +23419,8 @@
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: Corruption and Public Trust in Latin America and the Caribbean” after “Officials may have acted too quickly after the hurricane, but the…”?",
         "options": [
-          "A public procurement contract doubled in price, although several repairs were never completed.",
-          "Some residents immediately alleged bribery.",
+          "Host: A public procurement contract doubled in price, although several repairs were never completed.",
+          "Host: Some residents immediately alleged bribery.",
           "The documents might also have been removed later to protect someone.",
           "Transparent records would allow residents to distinguish poor management from deliberate wrongdoing and would make future contracts easier to examine."
         ]
@@ -30403,15 +30403,15 @@
     "dialogue": [
       {
         "speaker": "Narrator",
-        "line": "Fireworks are beginning across the city. What does the Fourth of July commemorate? Marking the declaration of independence, the holiday celebrates a founding document that placed liberty at the center of the new nation. For many families, displaying the flag expresses patriotism and a shared national identity. Yet the celebration can also produce discomfort. Written in the language of equality, the declaration existed alongside slavery and exclusion. Recognizing that contradiction does not erase the achievement of independence. It asks whether the promise was available to everyone. How have later generations responded? Drawing on the same language of freedom, civil rights movements demanded that the country honor its stated ideals. Seen in that context, the holiday is not only about the past. Celebrated thoughtfully, it can join pride with responsibility: people can value a national tradition while acknowledging the unfinished work required to make liberty real."
+        "line": "Host: Fireworks are beginning across the city. What does the Fourth of July commemorate? Guest: Marking the declaration of independence, the holiday celebrates a founding document that placed liberty at the center of the new nation. For many families, displaying the flag expresses patriotism and a shared national identity. Host: Yet the celebration can also produce discomfort. Guest: Written in the language of equality, the declaration existed alongside slavery and exclusion. Recognizing that contradiction does not erase the achievement of independence. It asks whether the promise was available to everyone. Host: How have later generations responded? Guest: Drawing on the same language of freedom, civil rights movements demanded that the country honor its stated ideals. Seen in that context, the holiday is not only about the past. Celebrated thoughtfully, it can join pride with responsibility: people can value a national tradition while acknowledging the unfinished work required to make liberty real."
       }
     ],
     "reading": null,
-    "transcript": "Fireworks are beginning across the city. What does the Fourth of July commemorate? Marking the declaration of independence, the holiday celebrates a founding document that placed liberty at the center of the new nation. For many families, displaying the flag expresses patriotism and a shared national identity. Yet the celebration can also produce discomfort. Written in the language of equality, the declaration existed alongside slavery and exclusion. Recognizing that contradiction does not erase the achievement of independence. It asks whether the promise was available to everyone. How have later generations responded? Drawing on the same language of freedom, civil rights movements demanded that the country honor its stated ideals. Seen in that context, the holiday is not only about the past. Celebrated thoughtfully, it can join pride with responsibility: people can value a national tradition while acknowledging the unfinished work required to make liberty real.",
+    "transcript": "Host: Fireworks are beginning across the city. What does the Fourth of July commemorate? Guest: Marking the declaration of independence, the holiday celebrates a founding document that placed liberty at the center of the new nation. For many families, displaying the flag expresses patriotism and a shared national identity. Host: Yet the celebration can also produce discomfort. Guest: Written in the language of equality, the declaration existed alongside slavery and exclusion. Recognizing that contradiction does not erase the achievement of independence. It asks whether the promise was available to everyone. Host: How have later generations responded? Guest: Drawing on the same language of freedom, civil rights movements demanded that the country honor its stated ideals. Seen in that context, the holiday is not only about the past. Celebrated thoughtfully, it can join pride with responsibility: people can value a national tradition while acknowledging the unfinished work required to make liberty real.",
     "extra": {
       "listeningType": "monologue",
       "difficulty": "B2",
-      "durationSeconds": 70,
+      "durationSeconds": 72,
       "speakers": [
         "Narrator"
       ],
@@ -30440,11 +30440,11 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Fireworks are beginning across the city."
+                "text": "Host: Fireworks are beginning across the city."
               },
               {
                 "id": "o2",
-                "text": "Yet the celebration can also produce discomfort."
+                "text": "Host: Yet the celebration can also produce discomfort."
               },
               {
                 "id": "o3",
@@ -30463,11 +30463,11 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Fireworks are beginning across the city."
+                "text": "Host: Fireworks are beginning across the city."
               },
               {
                 "id": "o2",
-                "text": "Yet the celebration can also produce discomfort."
+                "text": "Host: Yet the celebration can also produce discomfort."
               },
               {
                 "id": "o3",
@@ -30486,11 +30486,11 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Fireworks are beginning across the city."
+                "text": "Host: Fireworks are beginning across the city."
               },
               {
                 "id": "o2",
-                "text": "Yet the celebration can also produce discomfort."
+                "text": "Host: Yet the celebration can also produce discomfort."
               },
               {
                 "id": "o3",
@@ -30509,11 +30509,11 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Fireworks are beginning across the city."
+                "text": "Host: Fireworks are beginning across the city."
               },
               {
                 "id": "o2",
-                "text": "Yet the celebration can also produce discomfort."
+                "text": "Host: Yet the celebration can also produce discomfort."
               },
               {
                 "id": "o3",
@@ -30528,12 +30528,12 @@
         ]
       },
       "storyTitle": "What the Fourth of July Means Today",
-      "mainTranscript": "Fireworks are beginning across the city. What does the Fourth of July commemorate? Marking the declaration of independence, the holiday celebrates a founding document that placed liberty at the center of the new nation. For many families, displaying the flag expresses patriotism and a shared national identity. Yet the celebration can also produce discomfort. Written in the language of equality, the declaration existed alongside slavery and exclusion. Recognizing that contradiction does not erase the achievement of independence. It asks whether the promise was available to everyone. How have later generations responded? Drawing on the same language of freedom, civil rights movements demanded that the country honor its stated ideals. Seen in that context, the holiday is not only about the past. Celebrated thoughtfully, it can join pride with responsibility: people can value a national tradition while acknowledging the unfinished work required to make liberty real.",
+      "mainTranscript": "Host: Fireworks are beginning across the city. What does the Fourth of July commemorate? Guest: Marking the declaration of independence, the holiday celebrates a founding document that placed liberty at the center of the new nation. For many families, displaying the flag expresses patriotism and a shared national identity. Host: Yet the celebration can also produce discomfort. Guest: Written in the language of equality, the declaration existed alongside slavery and exclusion. Recognizing that contradiction does not erase the achievement of independence. It asks whether the promise was available to everyone. Host: How have later generations responded? Guest: Drawing on the same language of freedom, civil rights movements demanded that the country honor its stated ideals. Seen in that context, the holiday is not only about the past. Celebrated thoughtfully, it can join pride with responsibility: people can value a national tradition while acknowledging the unfinished work required to make liberty real.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Fireworks are beginning across the city."
+          "text": "Host: Fireworks are beginning across the city."
         },
         {
           "id": "segment-02",
@@ -30543,7 +30543,7 @@
         {
           "id": "segment-03",
           "order": 3,
-          "text": "Marking the declaration of independence, the holiday celebrates a founding document that placed liberty at the center of the new nation."
+          "text": "Guest: Marking the declaration of independence, the holiday celebrates a founding document that placed liberty at the center of the new nation."
         },
         {
           "id": "segment-04",
@@ -30553,12 +30553,12 @@
         {
           "id": "segment-05",
           "order": 5,
-          "text": "Yet the celebration can also produce discomfort."
+          "text": "Host: Yet the celebration can also produce discomfort."
         },
         {
           "id": "segment-06",
           "order": 6,
-          "text": "Written in the language of equality, the declaration existed alongside slavery and exclusion."
+          "text": "Guest: Written in the language of equality, the declaration existed alongside slavery and exclusion."
         },
         {
           "id": "segment-07",
@@ -30573,12 +30573,12 @@
         {
           "id": "segment-09",
           "order": 9,
-          "text": "How have later generations responded?"
+          "text": "Host: How have later generations responded?"
         },
         {
           "id": "segment-10",
           "order": 10,
-          "text": "Drawing on the same language of freedom, civil rights movements demanded that the country honor its stated ideals."
+          "text": "Guest: Drawing on the same language of freedom, civil rights movements demanded that the country honor its stated ideals."
         },
         {
           "id": "segment-11",
@@ -30601,8 +30601,8 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: The Fourth of July: Freedom and Contradictions”, which detail establishes the situation?",
         "options": [
-          "Fireworks are beginning across the city.",
-          "Yet the celebration can also produce discomfort.",
+          "Host: Fireworks are beginning across the city.",
+          "Host: Yet the celebration can also produce discomfort.",
           "It asks whether the promise was available to everyone.",
           "Celebrated thoughtfully, it can join pride with responsibility: people can value a national tradition while acknowledging the unfinished work required to make liberty real."
         ]
@@ -30611,8 +30611,8 @@
         "type": "mcq",
         "prompt": "After “Fireworks are beginning across the city.”, what happens next in “Listening Lab: The Fourth of July: Freedom and Contradictions”?",
         "options": [
-          "Fireworks are beginning across the city.",
-          "Yet the celebration can also produce discomfort.",
+          "Host: Fireworks are beginning across the city.",
+          "Host: Yet the celebration can also produce discomfort.",
           "It asks whether the promise was available to everyone.",
           "Celebrated thoughtfully, it can join pride with responsibility: people can value a national tradition while acknowledging the unfinished work required to make liberty real."
         ]
@@ -30621,8 +30621,8 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: The Fourth of July: Freedom and Contradictions”?",
         "options": [
-          "Fireworks are beginning across the city.",
-          "Yet the celebration can also produce discomfort.",
+          "Host: Fireworks are beginning across the city.",
+          "Host: Yet the celebration can also produce discomfort.",
           "It asks whether the promise was available to everyone.",
           "Celebrated thoughtfully, it can join pride with responsibility: people can value a national tradition while acknowledging the unfinished work required to make liberty real."
         ]
@@ -30631,8 +30631,8 @@
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: The Fourth of July: Freedom and Contradictions” after “It asks whether the promise was available to everyone.”?",
         "options": [
-          "Fireworks are beginning across the city.",
-          "Yet the celebration can also produce discomfort.",
+          "Host: Fireworks are beginning across the city.",
+          "Host: Yet the celebration can also produce discomfort.",
           "It asks whether the promise was available to everyone.",
           "Celebrated thoughtfully, it can join pride with responsibility: people can value a national tradition while acknowledging the unfinished work required to make liberty real."
         ]
@@ -37615,15 +37615,15 @@
     "dialogue": [
       {
         "speaker": "Narrator",
-        "line": "Our guest Maya grew up in a diaspora family. Maya, where do you call home? Home is not a single place. My parents, whose roots are in Jamaica, taught me family stories and music. Manchester, where I was born, shaped my education and friendships. Both places belong to my identity. What does successful integration mean to you? It means participating fully in the host community without being required to erase your heritage. Assimilation, which expects people to abandon visible differences, creates a false choice. The neighbors who welcomed my parents also became part of our story. Does a layered identity ever feel difficult? Certainly. There are moments when others question my belonging or ask where I am “really” from. But the communities in which cultures meet can create new traditions. Identity is not a suitcase with room for only one object; it is a relationship among memory, place and the people with whom we build a life."
+        "line": "Host: Our guest Maya grew up in a diaspora family. Maya, where do you call home? Guest: Home is not a single place. My parents, whose roots are in Jamaica, taught me family stories and music. Manchester, where I was born, shaped my education and friendships. Both places belong to my identity. Host: What does successful integration mean to you? Guest: It means participating fully in the host community without being required to erase your heritage. Assimilation, which expects people to abandon visible differences, creates a false choice. The neighbors who welcomed my parents also became part of our story. Host: Does a layered identity ever feel difficult? Guest: Certainly. There are moments when others question my belonging or ask where I am “really” from. But the communities in which cultures meet can create new traditions. Identity is not a suitcase with room for only one object; it is a relationship among memory, place and the people with whom we build a life."
       }
     ],
     "reading": null,
-    "transcript": "Our guest Maya grew up in a diaspora family. Maya, where do you call home? Home is not a single place. My parents, whose roots are in Jamaica, taught me family stories and music. Manchester, where I was born, shaped my education and friendships. Both places belong to my identity. What does successful integration mean to you? It means participating fully in the host community without being required to erase your heritage. Assimilation, which expects people to abandon visible differences, creates a false choice. The neighbors who welcomed my parents also became part of our story. Does a layered identity ever feel difficult? Certainly. There are moments when others question my belonging or ask where I am “really” from. But the communities in which cultures meet can create new traditions. Identity is not a suitcase with room for only one object; it is a relationship among memory, place and the people with whom we build a life.",
+    "transcript": "Host: Our guest Maya grew up in a diaspora family. Maya, where do you call home? Guest: Home is not a single place. My parents, whose roots are in Jamaica, taught me family stories and music. Manchester, where I was born, shaped my education and friendships. Both places belong to my identity. Host: What does successful integration mean to you? Guest: It means participating fully in the host community without being required to erase your heritage. Assimilation, which expects people to abandon visible differences, creates a false choice. The neighbors who welcomed my parents also became part of our story. Host: Does a layered identity ever feel difficult? Guest: Certainly. There are moments when others question my belonging or ask where I am “really” from. But the communities in which cultures meet can create new traditions. Identity is not a suitcase with room for only one object; it is a relationship among memory, place and the people with whom we build a life.",
     "extra": {
       "listeningType": "monologue",
       "difficulty": "B2",
-      "durationSeconds": 75,
+      "durationSeconds": 78,
       "speakers": [
         "Narrator"
       ],
@@ -37652,7 +37652,7 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Our guest Maya grew up in a diaspora family."
+                "text": "Host: Our guest Maya grew up in a diaspora family."
               },
               {
                 "id": "o2",
@@ -37675,7 +37675,7 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Our guest Maya grew up in a diaspora family."
+                "text": "Host: Our guest Maya grew up in a diaspora family."
               },
               {
                 "id": "o2",
@@ -37698,7 +37698,7 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Our guest Maya grew up in a diaspora family."
+                "text": "Host: Our guest Maya grew up in a diaspora family."
               },
               {
                 "id": "o2",
@@ -37721,7 +37721,7 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Our guest Maya grew up in a diaspora family."
+                "text": "Host: Our guest Maya grew up in a diaspora family."
               },
               {
                 "id": "o2",
@@ -37740,12 +37740,12 @@
         ]
       },
       "storyTitle": "Living Between Languages and Cultures",
-      "mainTranscript": "Our guest Maya grew up in a diaspora family. Maya, where do you call home? Home is not a single place. My parents, whose roots are in Jamaica, taught me family stories and music. Manchester, where I was born, shaped my education and friendships. Both places belong to my identity. What does successful integration mean to you? It means participating fully in the host community without being required to erase your heritage. Assimilation, which expects people to abandon visible differences, creates a false choice. The neighbors who welcomed my parents also became part of our story. Does a layered identity ever feel difficult? Certainly. There are moments when others question my belonging or ask where I am “really” from. But the communities in which cultures meet can create new traditions. Identity is not a suitcase with room for only one object; it is a relationship among memory, place and the people with whom we build a life.",
+      "mainTranscript": "Host: Our guest Maya grew up in a diaspora family. Maya, where do you call home? Guest: Home is not a single place. My parents, whose roots are in Jamaica, taught me family stories and music. Manchester, where I was born, shaped my education and friendships. Both places belong to my identity. Host: What does successful integration mean to you? Guest: It means participating fully in the host community without being required to erase your heritage. Assimilation, which expects people to abandon visible differences, creates a false choice. The neighbors who welcomed my parents also became part of our story. Host: Does a layered identity ever feel difficult? Guest: Certainly. There are moments when others question my belonging or ask where I am “really” from. But the communities in which cultures meet can create new traditions. Identity is not a suitcase with room for only one object; it is a relationship among memory, place and the people with whom we build a life.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Our guest Maya grew up in a diaspora family."
+          "text": "Host: Our guest Maya grew up in a diaspora family."
         },
         {
           "id": "segment-02",
@@ -37755,7 +37755,7 @@
         {
           "id": "segment-03",
           "order": 3,
-          "text": "Home is not a single place."
+          "text": "Guest: Home is not a single place."
         },
         {
           "id": "segment-04",
@@ -37775,12 +37775,12 @@
         {
           "id": "segment-07",
           "order": 7,
-          "text": "What does successful integration mean to you?"
+          "text": "Host: What does successful integration mean to you?"
         },
         {
           "id": "segment-08",
           "order": 8,
-          "text": "It means participating fully in the host community without being required to erase your heritage."
+          "text": "Guest: It means participating fully in the host community without being required to erase your heritage."
         },
         {
           "id": "segment-09",
@@ -37795,12 +37795,12 @@
         {
           "id": "segment-11",
           "order": 11,
-          "text": "Does a layered identity ever feel difficult?"
+          "text": "Host: Does a layered identity ever feel difficult?"
         },
         {
           "id": "segment-12",
           "order": 12,
-          "text": "Certainly."
+          "text": "Guest: Certainly."
         },
         {
           "id": "segment-13",
@@ -37828,7 +37828,7 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Migration and Cultural Identity”, which detail establishes the situation?",
         "options": [
-          "Our guest Maya grew up in a diaspora family.",
+          "Host: Our guest Maya grew up in a diaspora family.",
           "Both places belong to my identity.",
           "The neighbors who welcomed my parents also became part of our story.",
           "Identity is not a suitcase with room for only one object; it is a relationship among memory, place and the people with whom we build a life."
@@ -37838,7 +37838,7 @@
         "type": "mcq",
         "prompt": "After “Our guest Maya grew up in a diaspora family.”, what happens next in “Listening Lab: Migration and Cultural Identity”?",
         "options": [
-          "Our guest Maya grew up in a diaspora family.",
+          "Host: Our guest Maya grew up in a diaspora family.",
           "Both places belong to my identity.",
           "The neighbors who welcomed my parents also became part of our story.",
           "Identity is not a suitcase with room for only one object; it is a relationship among memory, place and the people with whom we build a life."
@@ -37848,7 +37848,7 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Migration and Cultural Identity”?",
         "options": [
-          "Our guest Maya grew up in a diaspora family.",
+          "Host: Our guest Maya grew up in a diaspora family.",
           "Both places belong to my identity.",
           "The neighbors who welcomed my parents also became part of our story.",
           "Identity is not a suitcase with room for only one object; it is a relationship among memory, place and the people with whom we build a life."
@@ -37858,7 +37858,7 @@
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: Migration and Cultural Identity” after “The neighbors who welcomed my parents also became part of our story.”?",
         "options": [
-          "Our guest Maya grew up in a diaspora family.",
+          "Host: Our guest Maya grew up in a diaspora family.",
           "Both places belong to my identity.",
           "The neighbors who welcomed my parents also became part of our story.",
           "Identity is not a suitcase with room for only one object; it is a relationship among memory, place and the people with whom we build a life."
@@ -44846,15 +44846,15 @@
     "dialogue": [
       {
         "speaker": "Narrator",
-        "line": "Lena, a tenant in the city center, has received another rent increase. How serious is the change? Her rent is considerably higher than it was two years ago, while her salary is only slightly higher. The cost of living has risen much faster than household income, so affordable housing is becoming far harder to find. Landlords point to maintenance costs and a housing shortage. Those pressures are real, but the market is much less balanced than it appears. A landlord can often replace a tenant quickly, whereas a family facing displacement may have nowhere nearby to go. Would new construction solve the problem? It could help, especially where restrictive zoning limits supply. However, luxury development alone is far less effective than mixed housing that includes affordable units. The strongest policy would be more ambitious: protect existing tenants, build substantially more homes and connect housing decisions to transportation, wages and local services."
+        "line": "Host: Lena, a tenant in the city center, has received another rent increase. How serious is the change? Guest: Her rent is considerably higher than it was two years ago, while her salary is only slightly higher. The cost of living has risen much faster than household income, so affordable housing is becoming far harder to find. Host: Landlords point to maintenance costs and a housing shortage. Guest: Those pressures are real, but the market is much less balanced than it appears. A landlord can often replace a tenant quickly, whereas a family facing displacement may have nowhere nearby to go. Host: Would new construction solve the problem? Guest: It could help, especially where restrictive zoning limits supply. However, luxury development alone is far less effective than mixed housing that includes affordable units. The strongest policy would be more ambitious: protect existing tenants, build substantially more homes and connect housing decisions to transportation, wages and local services."
       }
     ],
     "reading": null,
-    "transcript": "Lena, a tenant in the city center, has received another rent increase. How serious is the change? Her rent is considerably higher than it was two years ago, while her salary is only slightly higher. The cost of living has risen much faster than household income, so affordable housing is becoming far harder to find. Landlords point to maintenance costs and a housing shortage. Those pressures are real, but the market is much less balanced than it appears. A landlord can often replace a tenant quickly, whereas a family facing displacement may have nowhere nearby to go. Would new construction solve the problem? It could help, especially where restrictive zoning limits supply. However, luxury development alone is far less effective than mixed housing that includes affordable units. The strongest policy would be more ambitious: protect existing tenants, build substantially more homes and connect housing decisions to transportation, wages and local services.",
+    "transcript": "Host: Lena, a tenant in the city center, has received another rent increase. How serious is the change? Guest: Her rent is considerably higher than it was two years ago, while her salary is only slightly higher. The cost of living has risen much faster than household income, so affordable housing is becoming far harder to find. Host: Landlords point to maintenance costs and a housing shortage. Guest: Those pressures are real, but the market is much less balanced than it appears. A landlord can often replace a tenant quickly, whereas a family facing displacement may have nowhere nearby to go. Host: Would new construction solve the problem? Guest: It could help, especially where restrictive zoning limits supply. However, luxury development alone is far less effective than mixed housing that includes affordable units. The strongest policy would be more ambitious: protect existing tenants, build substantially more homes and connect housing decisions to transportation, wages and local services.",
     "extra": {
       "listeningType": "monologue",
       "difficulty": "B2",
-      "durationSeconds": 72,
+      "durationSeconds": 75,
       "speakers": [
         "Narrator"
       ],
@@ -44883,7 +44883,7 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Lena, a tenant in the city center, has received another rent increase."
+                "text": "Host: Lena, a tenant in the city center, has received another rent increase."
               },
               {
                 "id": "o2",
@@ -44891,7 +44891,7 @@
               },
               {
                 "id": "o3",
-                "text": "Would new construction solve the problem?"
+                "text": "Host: Would new construction solve the problem?"
               },
               {
                 "id": "o4",
@@ -44906,7 +44906,7 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Lena, a tenant in the city center, has received another rent increase."
+                "text": "Host: Lena, a tenant in the city center, has received another rent increase."
               },
               {
                 "id": "o2",
@@ -44914,7 +44914,7 @@
               },
               {
                 "id": "o3",
-                "text": "Would new construction solve the problem?"
+                "text": "Host: Would new construction solve the problem?"
               },
               {
                 "id": "o4",
@@ -44929,7 +44929,7 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Lena, a tenant in the city center, has received another rent increase."
+                "text": "Host: Lena, a tenant in the city center, has received another rent increase."
               },
               {
                 "id": "o2",
@@ -44937,7 +44937,7 @@
               },
               {
                 "id": "o3",
-                "text": "Would new construction solve the problem?"
+                "text": "Host: Would new construction solve the problem?"
               },
               {
                 "id": "o4",
@@ -44952,7 +44952,7 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Lena, a tenant in the city center, has received another rent increase."
+                "text": "Host: Lena, a tenant in the city center, has received another rent increase."
               },
               {
                 "id": "o2",
@@ -44960,7 +44960,7 @@
               },
               {
                 "id": "o3",
-                "text": "Would new construction solve the problem?"
+                "text": "Host: Would new construction solve the problem?"
               },
               {
                 "id": "o4",
@@ -44971,12 +44971,12 @@
         ]
       },
       "storyTitle": "Why Rent Keeps Rising",
-      "mainTranscript": "Lena, a tenant in the city center, has received another rent increase. How serious is the change? Her rent is considerably higher than it was two years ago, while her salary is only slightly higher. The cost of living has risen much faster than household income, so affordable housing is becoming far harder to find. Landlords point to maintenance costs and a housing shortage. Those pressures are real, but the market is much less balanced than it appears. A landlord can often replace a tenant quickly, whereas a family facing displacement may have nowhere nearby to go. Would new construction solve the problem? It could help, especially where restrictive zoning limits supply. However, luxury development alone is far less effective than mixed housing that includes affordable units. The strongest policy would be more ambitious: protect existing tenants, build substantially more homes and connect housing decisions to transportation, wages and local services.",
+      "mainTranscript": "Host: Lena, a tenant in the city center, has received another rent increase. How serious is the change? Guest: Her rent is considerably higher than it was two years ago, while her salary is only slightly higher. The cost of living has risen much faster than household income, so affordable housing is becoming far harder to find. Host: Landlords point to maintenance costs and a housing shortage. Guest: Those pressures are real, but the market is much less balanced than it appears. A landlord can often replace a tenant quickly, whereas a family facing displacement may have nowhere nearby to go. Host: Would new construction solve the problem? Guest: It could help, especially where restrictive zoning limits supply. However, luxury development alone is far less effective than mixed housing that includes affordable units. The strongest policy would be more ambitious: protect existing tenants, build substantially more homes and connect housing decisions to transportation, wages and local services.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Lena, a tenant in the city center, has received another rent increase."
+          "text": "Host: Lena, a tenant in the city center, has received another rent increase."
         },
         {
           "id": "segment-02",
@@ -44986,7 +44986,7 @@
         {
           "id": "segment-03",
           "order": 3,
-          "text": "Her rent is considerably higher than it was two years ago, while her salary is only slightly higher."
+          "text": "Guest: Her rent is considerably higher than it was two years ago, while her salary is only slightly higher."
         },
         {
           "id": "segment-04",
@@ -44996,12 +44996,12 @@
         {
           "id": "segment-05",
           "order": 5,
-          "text": "Landlords point to maintenance costs and a housing shortage."
+          "text": "Host: Landlords point to maintenance costs and a housing shortage."
         },
         {
           "id": "segment-06",
           "order": 6,
-          "text": "Those pressures are real, but the market is much less balanced than it appears."
+          "text": "Guest: Those pressures are real, but the market is much less balanced than it appears."
         },
         {
           "id": "segment-07",
@@ -45011,12 +45011,12 @@
         {
           "id": "segment-08",
           "order": 8,
-          "text": "Would new construction solve the problem?"
+          "text": "Host: Would new construction solve the problem?"
         },
         {
           "id": "segment-09",
           "order": 9,
-          "text": "It could help, especially where restrictive zoning limits supply."
+          "text": "Guest: It could help, especially where restrictive zoning limits supply."
         },
         {
           "id": "segment-10",
@@ -45039,9 +45039,9 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Housing Inequality”, which detail establishes the situation?",
         "options": [
-          "Lena, a tenant in the city center, has received another rent increase.",
+          "Host: Lena, a tenant in the city center, has received another rent increase.",
           "The cost of living has risen much faster than household income, so affordable housing is becoming far harder to find.",
-          "Would new construction solve the problem?",
+          "Host: Would new construction solve the problem?",
           "The strongest policy would be more ambitious: protect existing tenants, build substantially more homes and connect housing decisions to transportation, wages and local services."
         ]
       },
@@ -45049,9 +45049,9 @@
         "type": "mcq",
         "prompt": "After “Lena, a tenant in the city center, has received another rent increase.”, what happens next in “Listening Lab: Housing Inequality”?",
         "options": [
-          "Lena, a tenant in the city center, has received another rent increase.",
+          "Host: Lena, a tenant in the city center, has received another rent increase.",
           "The cost of living has risen much faster than household income, so affordable housing is becoming far harder to find.",
-          "Would new construction solve the problem?",
+          "Host: Would new construction solve the problem?",
           "The strongest policy would be more ambitious: protect existing tenants, build substantially more homes and connect housing decisions to transportation, wages and local services."
         ]
       },
@@ -45059,9 +45059,9 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Housing Inequality”?",
         "options": [
-          "Lena, a tenant in the city center, has received another rent increase.",
+          "Host: Lena, a tenant in the city center, has received another rent increase.",
           "The cost of living has risen much faster than household income, so affordable housing is becoming far harder to find.",
-          "Would new construction solve the problem?",
+          "Host: Would new construction solve the problem?",
           "The strongest policy would be more ambitious: protect existing tenants, build substantially more homes and connect housing decisions to transportation, wages and local services."
         ]
       },
@@ -45069,9 +45069,9 @@
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: Housing Inequality” after “Would new construction solve the problem?”?",
         "options": [
-          "Lena, a tenant in the city center, has received another rent increase.",
+          "Host: Lena, a tenant in the city center, has received another rent increase.",
           "The cost of living has risen much faster than household income, so affordable housing is becoming far harder to find.",
-          "Would new construction solve the problem?",
+          "Host: Would new construction solve the problem?",
           "The strongest policy would be more ambitious: protect existing tenants, build substantially more homes and connect housing decisions to transportation, wages and local services."
         ]
       }
@@ -52047,15 +52047,15 @@
     "dialogue": [
       {
         "speaker": "Narrator",
-        "line": "A regional hotel chain has introduced an automated scheduling system. What will have changed by next year? Managers will have reduced the time they spend building weekly schedules, and the hotel may have improved productivity. Staff will also be checking shifts through an app instead of speaking directly with a supervisor. What concerns have employees raised? Some workers fear displacement, but the immediate problem is decision-making. If the system does not consider caregiving duties, algorithmic bias may give the least convenient shifts to the same people repeatedly. How should the hotel respond? Human oversight must remain central. Over the coming months, managers will be reviewing disputed schedules and explaining how recommendations are produced. By the end of the trial, employees should have received retraining, and the company should have published clear rules. Automation can support workers, but only a transparent system allows them to challenge a harmful decision."
+        "line": "Host: A regional hotel chain has introduced an automated scheduling system. What will have changed by next year? Guest: Managers will have reduced the time they spend building weekly schedules, and the hotel may have improved productivity. Staff will also be checking shifts through an app instead of speaking directly with a supervisor. Host: What concerns have employees raised? Guest: Some workers fear displacement, but the immediate problem is decision-making. If the system does not consider caregiving duties, algorithmic bias may give the least convenient shifts to the same people repeatedly. Host: How should the hotel respond? Guest: Human oversight must remain central. Over the coming months, managers will be reviewing disputed schedules and explaining how recommendations are produced. By the end of the trial, employees should have received retraining, and the company should have published clear rules. Automation can support workers, but only a transparent system allows them to challenge a harmful decision."
       }
     ],
     "reading": null,
-    "transcript": "A regional hotel chain has introduced an automated scheduling system. What will have changed by next year? Managers will have reduced the time they spend building weekly schedules, and the hotel may have improved productivity. Staff will also be checking shifts through an app instead of speaking directly with a supervisor. What concerns have employees raised? Some workers fear displacement, but the immediate problem is decision-making. If the system does not consider caregiving duties, algorithmic bias may give the least convenient shifts to the same people repeatedly. How should the hotel respond? Human oversight must remain central. Over the coming months, managers will be reviewing disputed schedules and explaining how recommendations are produced. By the end of the trial, employees should have received retraining, and the company should have published clear rules. Automation can support workers, but only a transparent system allows them to challenge a harmful decision.",
+    "transcript": "Host: A regional hotel chain has introduced an automated scheduling system. What will have changed by next year? Guest: Managers will have reduced the time they spend building weekly schedules, and the hotel may have improved productivity. Staff will also be checking shifts through an app instead of speaking directly with a supervisor. Host: What concerns have employees raised? Guest: Some workers fear displacement, but the immediate problem is decision-making. If the system does not consider caregiving duties, algorithmic bias may give the least convenient shifts to the same people repeatedly. Host: How should the hotel respond? Guest: Human oversight must remain central. Over the coming months, managers will be reviewing disputed schedules and explaining how recommendations are produced. By the end of the trial, employees should have received retraining, and the company should have published clear rules. Automation can support workers, but only a transparent system allows them to challenge a harmful decision.",
     "extra": {
       "listeningType": "monologue",
       "difficulty": "B2",
-      "durationSeconds": 71,
+      "durationSeconds": 74,
       "speakers": [
         "Narrator"
       ],
@@ -52084,15 +52084,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "A regional hotel chain has introduced an automated scheduling system."
+                "text": "Host: A regional hotel chain has introduced an automated scheduling system."
               },
               {
                 "id": "o2",
-                "text": "What concerns have employees raised?"
+                "text": "Host: What concerns have employees raised?"
               },
               {
                 "id": "o3",
-                "text": "How should the hotel respond?"
+                "text": "Host: How should the hotel respond?"
               },
               {
                 "id": "o4",
@@ -52107,15 +52107,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "A regional hotel chain has introduced an automated scheduling system."
+                "text": "Host: A regional hotel chain has introduced an automated scheduling system."
               },
               {
                 "id": "o2",
-                "text": "What concerns have employees raised?"
+                "text": "Host: What concerns have employees raised?"
               },
               {
                 "id": "o3",
-                "text": "How should the hotel respond?"
+                "text": "Host: How should the hotel respond?"
               },
               {
                 "id": "o4",
@@ -52130,15 +52130,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "A regional hotel chain has introduced an automated scheduling system."
+                "text": "Host: A regional hotel chain has introduced an automated scheduling system."
               },
               {
                 "id": "o2",
-                "text": "What concerns have employees raised?"
+                "text": "Host: What concerns have employees raised?"
               },
               {
                 "id": "o3",
-                "text": "How should the hotel respond?"
+                "text": "Host: How should the hotel respond?"
               },
               {
                 "id": "o4",
@@ -52153,15 +52153,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "A regional hotel chain has introduced an automated scheduling system."
+                "text": "Host: A regional hotel chain has introduced an automated scheduling system."
               },
               {
                 "id": "o2",
-                "text": "What concerns have employees raised?"
+                "text": "Host: What concerns have employees raised?"
               },
               {
                 "id": "o3",
-                "text": "How should the hotel respond?"
+                "text": "Host: How should the hotel respond?"
               },
               {
                 "id": "o4",
@@ -52172,12 +52172,12 @@
         ]
       },
       "storyTitle": "How AI Is Changing Entry-Level Work",
-      "mainTranscript": "A regional hotel chain has introduced an automated scheduling system. What will have changed by next year? Managers will have reduced the time they spend building weekly schedules, and the hotel may have improved productivity. Staff will also be checking shifts through an app instead of speaking directly with a supervisor. What concerns have employees raised? Some workers fear displacement, but the immediate problem is decision-making. If the system does not consider caregiving duties, algorithmic bias may give the least convenient shifts to the same people repeatedly. How should the hotel respond? Human oversight must remain central. Over the coming months, managers will be reviewing disputed schedules and explaining how recommendations are produced. By the end of the trial, employees should have received retraining, and the company should have published clear rules. Automation can support workers, but only a transparent system allows them to challenge a harmful decision.",
+      "mainTranscript": "Host: A regional hotel chain has introduced an automated scheduling system. What will have changed by next year? Guest: Managers will have reduced the time they spend building weekly schedules, and the hotel may have improved productivity. Staff will also be checking shifts through an app instead of speaking directly with a supervisor. Host: What concerns have employees raised? Guest: Some workers fear displacement, but the immediate problem is decision-making. If the system does not consider caregiving duties, algorithmic bias may give the least convenient shifts to the same people repeatedly. Host: How should the hotel respond? Guest: Human oversight must remain central. Over the coming months, managers will be reviewing disputed schedules and explaining how recommendations are produced. By the end of the trial, employees should have received retraining, and the company should have published clear rules. Automation can support workers, but only a transparent system allows them to challenge a harmful decision.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "A regional hotel chain has introduced an automated scheduling system."
+          "text": "Host: A regional hotel chain has introduced an automated scheduling system."
         },
         {
           "id": "segment-02",
@@ -52187,7 +52187,7 @@
         {
           "id": "segment-03",
           "order": 3,
-          "text": "Managers will have reduced the time they spend building weekly schedules, and the hotel may have improved productivity."
+          "text": "Guest: Managers will have reduced the time they spend building weekly schedules, and the hotel may have improved productivity."
         },
         {
           "id": "segment-04",
@@ -52197,12 +52197,12 @@
         {
           "id": "segment-05",
           "order": 5,
-          "text": "What concerns have employees raised?"
+          "text": "Host: What concerns have employees raised?"
         },
         {
           "id": "segment-06",
           "order": 6,
-          "text": "Some workers fear displacement, but the immediate problem is decision-making."
+          "text": "Guest: Some workers fear displacement, but the immediate problem is decision-making."
         },
         {
           "id": "segment-07",
@@ -52212,12 +52212,12 @@
         {
           "id": "segment-08",
           "order": 8,
-          "text": "How should the hotel respond?"
+          "text": "Host: How should the hotel respond?"
         },
         {
           "id": "segment-09",
           "order": 9,
-          "text": "Human oversight must remain central."
+          "text": "Guest: Human oversight must remain central."
         },
         {
           "id": "segment-10",
@@ -52245,9 +52245,9 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Artificial Intelligence and Employment”, which detail establishes the situation?",
         "options": [
-          "A regional hotel chain has introduced an automated scheduling system.",
-          "What concerns have employees raised?",
-          "How should the hotel respond?",
+          "Host: A regional hotel chain has introduced an automated scheduling system.",
+          "Host: What concerns have employees raised?",
+          "Host: How should the hotel respond?",
           "Automation can support workers, but only a transparent system allows them to challenge a harmful decision."
         ]
       },
@@ -52255,9 +52255,9 @@
         "type": "mcq",
         "prompt": "After “A regional hotel chain has introduced an automated scheduling system.”, what happens next in “Listening Lab: Artificial Intelligence and Employment”?",
         "options": [
-          "A regional hotel chain has introduced an automated scheduling system.",
-          "What concerns have employees raised?",
-          "How should the hotel respond?",
+          "Host: A regional hotel chain has introduced an automated scheduling system.",
+          "Host: What concerns have employees raised?",
+          "Host: How should the hotel respond?",
           "Automation can support workers, but only a transparent system allows them to challenge a harmful decision."
         ]
       },
@@ -52265,9 +52265,9 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Artificial Intelligence and Employment”?",
         "options": [
-          "A regional hotel chain has introduced an automated scheduling system.",
-          "What concerns have employees raised?",
-          "How should the hotel respond?",
+          "Host: A regional hotel chain has introduced an automated scheduling system.",
+          "Host: What concerns have employees raised?",
+          "Host: How should the hotel respond?",
           "Automation can support workers, but only a transparent system allows them to challenge a harmful decision."
         ]
       },
@@ -52275,9 +52275,9 @@
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: Artificial Intelligence and Employment” after “How should the hotel respond?”?",
         "options": [
-          "A regional hotel chain has introduced an automated scheduling system.",
-          "What concerns have employees raised?",
-          "How should the hotel respond?",
+          "Host: A regional hotel chain has introduced an automated scheduling system.",
+          "Host: What concerns have employees raised?",
+          "Host: How should the hotel respond?",
           "Automation can support workers, but only a transparent system allows them to challenge a harmful decision."
         ]
       }
@@ -59258,15 +59258,15 @@
     "dialogue": [
       {
         "speaker": "Narrator",
-        "line": "A five-pound shirt looks affordable. Why might its real price be higher? Although the customer pays very little, the supply chain can transfer costs to a garment worker, a polluted river or a community near a factory. The low price does not show those consequences. Some people argue that fast fashion makes clothing accessible. That is true, even though the disposable model encourages people to buy more than they need. Consumer demand is part of the system, but companies still control contracts, materials and labour conditions. Can labels help? They can, provided that claims are supported by traceability. While a brand may advertise one sustainable collection, it might reveal very little about the rest of its production. Better information will not solve every labour-rights problem; nevertheless, it can expose the hidden cost and help shoppers compare products. Affordability matters, but it should not depend on keeping workers and environmental damage invisible."
+        "line": "Host: A five-pound shirt looks affordable. Why might its real price be higher? Guest: Although the customer pays very little, the supply chain can transfer costs to a garment worker, a polluted river or a community near a factory. The low price does not show those consequences. Host: Some people argue that fast fashion makes clothing accessible. Guest: That is true, even though the disposable model encourages people to buy more than they need. Consumer demand is part of the system, but companies still control contracts, materials and labour conditions. Host: Can labels help? Guest: They can, provided that claims are supported by traceability. While a brand may advertise one sustainable collection, it might reveal very little about the rest of its production. Better information will not solve every labour-rights problem; nevertheless, it can expose the hidden cost and help shoppers compare products. Affordability matters, but it should not depend on keeping workers and environmental damage invisible."
       }
     ],
     "reading": null,
-    "transcript": "A five-pound shirt looks affordable. Why might its real price be higher? Although the customer pays very little, the supply chain can transfer costs to a garment worker, a polluted river or a community near a factory. The low price does not show those consequences. Some people argue that fast fashion makes clothing accessible. That is true, even though the disposable model encourages people to buy more than they need. Consumer demand is part of the system, but companies still control contracts, materials and labour conditions. Can labels help? They can, provided that claims are supported by traceability. While a brand may advertise one sustainable collection, it might reveal very little about the rest of its production. Better information will not solve every labour-rights problem; nevertheless, it can expose the hidden cost and help shoppers compare products. Affordability matters, but it should not depend on keeping workers and environmental damage invisible.",
+    "transcript": "Host: A five-pound shirt looks affordable. Why might its real price be higher? Guest: Although the customer pays very little, the supply chain can transfer costs to a garment worker, a polluted river or a community near a factory. The low price does not show those consequences. Host: Some people argue that fast fashion makes clothing accessible. Guest: That is true, even though the disposable model encourages people to buy more than they need. Consumer demand is part of the system, but companies still control contracts, materials and labour conditions. Host: Can labels help? Guest: They can, provided that claims are supported by traceability. While a brand may advertise one sustainable collection, it might reveal very little about the rest of its production. Better information will not solve every labour-rights problem; nevertheless, it can expose the hidden cost and help shoppers compare products. Affordability matters, but it should not depend on keeping workers and environmental damage invisible.",
     "extra": {
       "listeningType": "monologue",
       "difficulty": "B2",
-      "durationSeconds": 72,
+      "durationSeconds": 75,
       "speakers": [
         "Narrator"
       ],
@@ -59295,15 +59295,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "A five-pound shirt looks affordable."
+                "text": "Host: A five-pound shirt looks affordable."
               },
               {
                 "id": "o2",
-                "text": "Some people argue that fast fashion makes clothing accessible."
+                "text": "Host: Some people argue that fast fashion makes clothing accessible."
               },
               {
                 "id": "o3",
-                "text": "Can labels help?"
+                "text": "Host: Can labels help?"
               },
               {
                 "id": "o4",
@@ -59318,15 +59318,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "A five-pound shirt looks affordable."
+                "text": "Host: A five-pound shirt looks affordable."
               },
               {
                 "id": "o2",
-                "text": "Some people argue that fast fashion makes clothing accessible."
+                "text": "Host: Some people argue that fast fashion makes clothing accessible."
               },
               {
                 "id": "o3",
-                "text": "Can labels help?"
+                "text": "Host: Can labels help?"
               },
               {
                 "id": "o4",
@@ -59341,19 +59341,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "A five-pound shirt looks affordable."
+                "text": "Host: A five-pound shirt looks affordable."
               },
               {
                 "id": "o2",
-                "text": "Some people argue that fast fashion makes clothing accessible."
+                "text": "Host: Some people argue that fast fashion makes clothing accessible."
               },
               {
                 "id": "o3",
-                "text": "That is true, even though the disposable model encourages people to buy more than they need."
+                "text": "Guest: That is true, even though the disposable model encourages people to buy more than they need."
               },
               {
                 "id": "o4",
-                "text": "Can labels help?"
+                "text": "Host: Can labels help?"
               }
             ]
           },
@@ -59364,15 +59364,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "A five-pound shirt looks affordable."
+                "text": "Host: A five-pound shirt looks affordable."
               },
               {
                 "id": "o2",
-                "text": "Some people argue that fast fashion makes clothing accessible."
+                "text": "Host: Some people argue that fast fashion makes clothing accessible."
               },
               {
                 "id": "o3",
-                "text": "Can labels help?"
+                "text": "Host: Can labels help?"
               },
               {
                 "id": "o4",
@@ -59383,12 +59383,12 @@
         ]
       },
       "storyTitle": "Why Cheap Fashion Goes Viral",
-      "mainTranscript": "A five-pound shirt looks affordable. Why might its real price be higher? Although the customer pays very little, the supply chain can transfer costs to a garment worker, a polluted river or a community near a factory. The low price does not show those consequences. Some people argue that fast fashion makes clothing accessible. That is true, even though the disposable model encourages people to buy more than they need. Consumer demand is part of the system, but companies still control contracts, materials and labour conditions. Can labels help? They can, provided that claims are supported by traceability. While a brand may advertise one sustainable collection, it might reveal very little about the rest of its production. Better information will not solve every labour-rights problem; nevertheless, it can expose the hidden cost and help shoppers compare products. Affordability matters, but it should not depend on keeping workers and environmental damage invisible.",
+      "mainTranscript": "Host: A five-pound shirt looks affordable. Why might its real price be higher? Guest: Although the customer pays very little, the supply chain can transfer costs to a garment worker, a polluted river or a community near a factory. The low price does not show those consequences. Host: Some people argue that fast fashion makes clothing accessible. Guest: That is true, even though the disposable model encourages people to buy more than they need. Consumer demand is part of the system, but companies still control contracts, materials and labour conditions. Host: Can labels help? Guest: They can, provided that claims are supported by traceability. While a brand may advertise one sustainable collection, it might reveal very little about the rest of its production. Better information will not solve every labour-rights problem; nevertheless, it can expose the hidden cost and help shoppers compare products. Affordability matters, but it should not depend on keeping workers and environmental damage invisible.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "A five-pound shirt looks affordable."
+          "text": "Host: A five-pound shirt looks affordable."
         },
         {
           "id": "segment-02",
@@ -59398,7 +59398,7 @@
         {
           "id": "segment-03",
           "order": 3,
-          "text": "Although the customer pays very little, the supply chain can transfer costs to a garment worker, a polluted river or a community near a factory."
+          "text": "Guest: Although the customer pays very little, the supply chain can transfer costs to a garment worker, a polluted river or a community near a factory."
         },
         {
           "id": "segment-04",
@@ -59408,12 +59408,12 @@
         {
           "id": "segment-05",
           "order": 5,
-          "text": "Some people argue that fast fashion makes clothing accessible."
+          "text": "Host: Some people argue that fast fashion makes clothing accessible."
         },
         {
           "id": "segment-06",
           "order": 6,
-          "text": "That is true, even though the disposable model encourages people to buy more than they need."
+          "text": "Guest: That is true, even though the disposable model encourages people to buy more than they need."
         },
         {
           "id": "segment-07",
@@ -59423,12 +59423,12 @@
         {
           "id": "segment-08",
           "order": 8,
-          "text": "Can labels help?"
+          "text": "Host: Can labels help?"
         },
         {
           "id": "segment-09",
           "order": 9,
-          "text": "They can, provided that claims are supported by traceability."
+          "text": "Guest: They can, provided that claims are supported by traceability."
         },
         {
           "id": "segment-10",
@@ -59456,9 +59456,9 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Fast Fashion and Hidden Costs”, which detail establishes the situation?",
         "options": [
-          "A five-pound shirt looks affordable.",
-          "Some people argue that fast fashion makes clothing accessible.",
-          "Can labels help?",
+          "Host: A five-pound shirt looks affordable.",
+          "Host: Some people argue that fast fashion makes clothing accessible.",
+          "Host: Can labels help?",
           "Affordability matters, but it should not depend on keeping workers and environmental damage invisible."
         ]
       },
@@ -59466,9 +59466,9 @@
         "type": "mcq",
         "prompt": "After “A five-pound shirt looks affordable.”, what happens next in “Listening Lab: Fast Fashion and Hidden Costs”?",
         "options": [
-          "A five-pound shirt looks affordable.",
-          "Some people argue that fast fashion makes clothing accessible.",
-          "Can labels help?",
+          "Host: A five-pound shirt looks affordable.",
+          "Host: Some people argue that fast fashion makes clothing accessible.",
+          "Host: Can labels help?",
           "Affordability matters, but it should not depend on keeping workers and environmental damage invisible."
         ]
       },
@@ -59476,19 +59476,19 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Fast Fashion and Hidden Costs”?",
         "options": [
-          "A five-pound shirt looks affordable.",
-          "Some people argue that fast fashion makes clothing accessible.",
-          "That is true, even though the disposable model encourages people to buy more than they need.",
-          "Can labels help?"
+          "Host: A five-pound shirt looks affordable.",
+          "Host: Some people argue that fast fashion makes clothing accessible.",
+          "Guest: That is true, even though the disposable model encourages people to buy more than they need.",
+          "Host: Can labels help?"
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: Fast Fashion and Hidden Costs” after “That is true, even though the disposable model encourages people to…”?",
         "options": [
-          "A five-pound shirt looks affordable.",
-          "Some people argue that fast fashion makes clothing accessible.",
-          "Can labels help?",
+          "Host: A five-pound shirt looks affordable.",
+          "Host: Some people argue that fast fashion makes clothing accessible.",
+          "Host: Can labels help?",
           "Affordability matters, but it should not depend on keeping workers and environmental damage invisible."
         ]
       }
@@ -66464,15 +66464,15 @@
     "dialogue": [
       {
         "speaker": "Narrator",
-        "line": "A community mentoring program supports Aisha, whose grades qualify her for a scholarship. Why is her application unfinished? Not only does she work evenings to help her family, but she also lacks reliable advice about admissions. Tuition is the visible barrier; information and time create an opportunity gap as well. Some people say scholarships reward merit fairly. Rarely is merit produced by effort alone. Students also need safe schools, mentoring and access to activities that strengthen an application. Never had Aisha met anyone from the university before this program. What would improve social mobility? Financial support is essential, but so is guidance. Only when institutions simplify forms and explain requirements clearly can talented students compete on more equal terms. The scholarship may open one door, yet broader access requires transportation, academic support and policies that recognize unequal starting points. Education creates opportunity, but it cannot remove every social barrier by itself."
+        "line": "Host: A community mentoring program supports Aisha, whose grades qualify her for a scholarship. Why is her application unfinished? Guest: Not only does she work evenings to help her family, but she also lacks reliable advice about admissions. Tuition is the visible barrier; information and time create an opportunity gap as well. Host: Some people say scholarships reward merit fairly. Guest: Rarely is merit produced by effort alone. Students also need safe schools, mentoring and access to activities that strengthen an application. Never had Aisha met anyone from the university before this program. Host: What would improve social mobility? Guest: Financial support is essential, but so is guidance. Only when institutions simplify forms and explain requirements clearly can talented students compete on more equal terms. The scholarship may open one door, yet broader access requires transportation, academic support and policies that recognize unequal starting points. Education creates opportunity, but it cannot remove every social barrier by itself."
       }
     ],
     "reading": null,
-    "transcript": "A community mentoring program supports Aisha, whose grades qualify her for a scholarship. Why is her application unfinished? Not only does she work evenings to help her family, but she also lacks reliable advice about admissions. Tuition is the visible barrier; information and time create an opportunity gap as well. Some people say scholarships reward merit fairly. Rarely is merit produced by effort alone. Students also need safe schools, mentoring and access to activities that strengthen an application. Never had Aisha met anyone from the university before this program. What would improve social mobility? Financial support is essential, but so is guidance. Only when institutions simplify forms and explain requirements clearly can talented students compete on more equal terms. The scholarship may open one door, yet broader access requires transportation, academic support and policies that recognize unequal starting points. Education creates opportunity, but it cannot remove every social barrier by itself.",
+    "transcript": "Host: A community mentoring program supports Aisha, whose grades qualify her for a scholarship. Why is her application unfinished? Guest: Not only does she work evenings to help her family, but she also lacks reliable advice about admissions. Tuition is the visible barrier; information and time create an opportunity gap as well. Host: Some people say scholarships reward merit fairly. Guest: Rarely is merit produced by effort alone. Students also need safe schools, mentoring and access to activities that strengthen an application. Never had Aisha met anyone from the university before this program. Host: What would improve social mobility? Guest: Financial support is essential, but so is guidance. Only when institutions simplify forms and explain requirements clearly can talented students compete on more equal terms. The scholarship may open one door, yet broader access requires transportation, academic support and policies that recognize unequal starting points. Education creates opportunity, but it cannot remove every social barrier by itself.",
     "extra": {
       "listeningType": "monologue",
       "difficulty": "B2",
-      "durationSeconds": 72,
+      "durationSeconds": 75,
       "speakers": [
         "Narrator"
       ],
@@ -66501,15 +66501,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "A community mentoring program supports Aisha, whose grades qualify her for a scholarship."
+                "text": "Host: A community mentoring program supports Aisha, whose grades qualify her for a scholarship."
               },
               {
                 "id": "o2",
-                "text": "Some people say scholarships reward merit fairly."
+                "text": "Host: Some people say scholarships reward merit fairly."
               },
               {
                 "id": "o3",
-                "text": "What would improve social mobility?"
+                "text": "Host: What would improve social mobility?"
               },
               {
                 "id": "o4",
@@ -66524,15 +66524,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "A community mentoring program supports Aisha, whose grades qualify her for a scholarship."
+                "text": "Host: A community mentoring program supports Aisha, whose grades qualify her for a scholarship."
               },
               {
                 "id": "o2",
-                "text": "Some people say scholarships reward merit fairly."
+                "text": "Host: Some people say scholarships reward merit fairly."
               },
               {
                 "id": "o3",
-                "text": "What would improve social mobility?"
+                "text": "Host: What would improve social mobility?"
               },
               {
                 "id": "o4",
@@ -66547,11 +66547,11 @@
             "options": [
               {
                 "id": "o1",
-                "text": "A community mentoring program supports Aisha, whose grades qualify her for a scholarship."
+                "text": "Host: A community mentoring program supports Aisha, whose grades qualify her for a scholarship."
               },
               {
                 "id": "o2",
-                "text": "Some people say scholarships reward merit fairly."
+                "text": "Host: Some people say scholarships reward merit fairly."
               },
               {
                 "id": "o3",
@@ -66559,7 +66559,7 @@
               },
               {
                 "id": "o4",
-                "text": "What would improve social mobility?"
+                "text": "Host: What would improve social mobility?"
               }
             ]
           },
@@ -66570,15 +66570,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "A community mentoring program supports Aisha, whose grades qualify her for a scholarship."
+                "text": "Host: A community mentoring program supports Aisha, whose grades qualify her for a scholarship."
               },
               {
                 "id": "o2",
-                "text": "Some people say scholarships reward merit fairly."
+                "text": "Host: Some people say scholarships reward merit fairly."
               },
               {
                 "id": "o3",
-                "text": "What would improve social mobility?"
+                "text": "Host: What would improve social mobility?"
               },
               {
                 "id": "o4",
@@ -66589,12 +66589,12 @@
         ]
       },
       "storyTitle": "Can Education Still Create Opportunity?",
-      "mainTranscript": "A community mentoring program supports Aisha, whose grades qualify her for a scholarship. Why is her application unfinished? Not only does she work evenings to help her family, but she also lacks reliable advice about admissions. Tuition is the visible barrier; information and time create an opportunity gap as well. Some people say scholarships reward merit fairly. Rarely is merit produced by effort alone. Students also need safe schools, mentoring and access to activities that strengthen an application. Never had Aisha met anyone from the university before this program. What would improve social mobility? Financial support is essential, but so is guidance. Only when institutions simplify forms and explain requirements clearly can talented students compete on more equal terms. The scholarship may open one door, yet broader access requires transportation, academic support and policies that recognize unequal starting points. Education creates opportunity, but it cannot remove every social barrier by itself.",
+      "mainTranscript": "Host: A community mentoring program supports Aisha, whose grades qualify her for a scholarship. Why is her application unfinished? Guest: Not only does she work evenings to help her family, but she also lacks reliable advice about admissions. Tuition is the visible barrier; information and time create an opportunity gap as well. Host: Some people say scholarships reward merit fairly. Guest: Rarely is merit produced by effort alone. Students also need safe schools, mentoring and access to activities that strengthen an application. Never had Aisha met anyone from the university before this program. Host: What would improve social mobility? Guest: Financial support is essential, but so is guidance. Only when institutions simplify forms and explain requirements clearly can talented students compete on more equal terms. The scholarship may open one door, yet broader access requires transportation, academic support and policies that recognize unequal starting points. Education creates opportunity, but it cannot remove every social barrier by itself.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "A community mentoring program supports Aisha, whose grades qualify her for a scholarship."
+          "text": "Host: A community mentoring program supports Aisha, whose grades qualify her for a scholarship."
         },
         {
           "id": "segment-02",
@@ -66604,7 +66604,7 @@
         {
           "id": "segment-03",
           "order": 3,
-          "text": "Not only does she work evenings to help her family, but she also lacks reliable advice about admissions."
+          "text": "Guest: Not only does she work evenings to help her family, but she also lacks reliable advice about admissions."
         },
         {
           "id": "segment-04",
@@ -66614,12 +66614,12 @@
         {
           "id": "segment-05",
           "order": 5,
-          "text": "Some people say scholarships reward merit fairly."
+          "text": "Host: Some people say scholarships reward merit fairly."
         },
         {
           "id": "segment-06",
           "order": 6,
-          "text": "Rarely is merit produced by effort alone."
+          "text": "Guest: Rarely is merit produced by effort alone."
         },
         {
           "id": "segment-07",
@@ -66634,12 +66634,12 @@
         {
           "id": "segment-09",
           "order": 9,
-          "text": "What would improve social mobility?"
+          "text": "Host: What would improve social mobility?"
         },
         {
           "id": "segment-10",
           "order": 10,
-          "text": "Financial support is essential, but so is guidance."
+          "text": "Guest: Financial support is essential, but so is guidance."
         },
         {
           "id": "segment-11",
@@ -66667,9 +66667,9 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Education and Social Mobility”, which detail establishes the situation?",
         "options": [
-          "A community mentoring program supports Aisha, whose grades qualify her for a scholarship.",
-          "Some people say scholarships reward merit fairly.",
-          "What would improve social mobility?",
+          "Host: A community mentoring program supports Aisha, whose grades qualify her for a scholarship.",
+          "Host: Some people say scholarships reward merit fairly.",
+          "Host: What would improve social mobility?",
           "Education creates opportunity, but it cannot remove every social barrier by itself."
         ]
       },
@@ -66677,9 +66677,9 @@
         "type": "mcq",
         "prompt": "After “A community mentoring program supports Aisha, whose grades qualify her…”, what happens next in “Listening Lab: Education and Social Mobility”?",
         "options": [
-          "A community mentoring program supports Aisha, whose grades qualify her for a scholarship.",
-          "Some people say scholarships reward merit fairly.",
-          "What would improve social mobility?",
+          "Host: A community mentoring program supports Aisha, whose grades qualify her for a scholarship.",
+          "Host: Some people say scholarships reward merit fairly.",
+          "Host: What would improve social mobility?",
           "Education creates opportunity, but it cannot remove every social barrier by itself."
         ]
       },
@@ -66687,19 +66687,19 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Education and Social Mobility”?",
         "options": [
-          "A community mentoring program supports Aisha, whose grades qualify her for a scholarship.",
-          "Some people say scholarships reward merit fairly.",
+          "Host: A community mentoring program supports Aisha, whose grades qualify her for a scholarship.",
+          "Host: Some people say scholarships reward merit fairly.",
           "Students also need safe schools, mentoring and access to activities that strengthen an application.",
-          "What would improve social mobility?"
+          "Host: What would improve social mobility?"
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: Education and Social Mobility” after “Students also need safe schools, mentoring and access to activities…”?",
         "options": [
-          "A community mentoring program supports Aisha, whose grades qualify her for a scholarship.",
-          "Some people say scholarships reward merit fairly.",
-          "What would improve social mobility?",
+          "Host: A community mentoring program supports Aisha, whose grades qualify her for a scholarship.",
+          "Host: Some people say scholarships reward merit fairly.",
+          "Host: What would improve social mobility?",
           "Education creates opportunity, but it cannot remove every social barrier by itself."
         ]
       }
@@ -73594,15 +73594,15 @@
     "dialogue": [
       {
         "speaker": "Narrator",
-        "line": "A community forum removed a post containing a harmful claim about a local clinic. Critics called the decision censorship. What did the moderators say? They explained that the post had presented misinformation as medical fact and that several users had begun sharing it. The clinic reported that patients were canceling appointments because of the claim. Did anyone defend the post? One member argued that free speech included the right to question institutions. Another accused the moderators of hiding criticism. The team replied that disagreement was permitted, but unsupported medical advice violated the content policy. Was removal proportionate? The evidence suggested a measurable risk, so temporary removal was reasonable. However, the moderators also published their reasons and offered an appeal. They emphasized that criticism would be restored if the harmful claim was corrected. A fair policy should not silence unpopular opinions; it should distinguish opinion from false factual claims and explain every restriction transparently."
+        "line": "Host: A community forum removed a post containing a harmful claim about a local clinic. Critics called the decision censorship. What did the moderators say? Guest: They explained that the post had presented misinformation as medical fact and that several users had begun sharing it. The clinic reported that patients were canceling appointments because of the claim. Host: Did anyone defend the post? Guest: One member argued that free speech included the right to question institutions. Another accused the moderators of hiding criticism. The team replied that disagreement was permitted, but unsupported medical advice violated the content policy. Host: Was removal proportionate? Guest: The evidence suggested a measurable risk, so temporary removal was reasonable. However, the moderators also published their reasons and offered an appeal. They emphasized that criticism would be restored if the harmful claim was corrected. A fair policy should not silence unpopular opinions; it should distinguish opinion from false factual claims and explain every restriction transparently."
       }
     ],
     "reading": null,
-    "transcript": "A community forum removed a post containing a harmful claim about a local clinic. Critics called the decision censorship. What did the moderators say? They explained that the post had presented misinformation as medical fact and that several users had begun sharing it. The clinic reported that patients were canceling appointments because of the claim. Did anyone defend the post? One member argued that free speech included the right to question institutions. Another accused the moderators of hiding criticism. The team replied that disagreement was permitted, but unsupported medical advice violated the content policy. Was removal proportionate? The evidence suggested a measurable risk, so temporary removal was reasonable. However, the moderators also published their reasons and offered an appeal. They emphasized that criticism would be restored if the harmful claim was corrected. A fair policy should not silence unpopular opinions; it should distinguish opinion from false factual claims and explain every restriction transparently.",
+    "transcript": "Host: A community forum removed a post containing a harmful claim about a local clinic. Critics called the decision censorship. What did the moderators say? Guest: They explained that the post had presented misinformation as medical fact and that several users had begun sharing it. The clinic reported that patients were canceling appointments because of the claim. Host: Did anyone defend the post? Guest: One member argued that free speech included the right to question institutions. Another accused the moderators of hiding criticism. The team replied that disagreement was permitted, but unsupported medical advice violated the content policy. Host: Was removal proportionate? Guest: The evidence suggested a measurable risk, so temporary removal was reasonable. However, the moderators also published their reasons and offered an appeal. They emphasized that criticism would be restored if the harmful claim was corrected. A fair policy should not silence unpopular opinions; it should distinguish opinion from false factual claims and explain every restriction transparently.",
     "extra": {
       "listeningType": "monologue",
       "difficulty": "B2",
-      "durationSeconds": 73,
+      "durationSeconds": 76,
       "speakers": [
         "Narrator"
       ],
@@ -73631,7 +73631,7 @@
             "options": [
               {
                 "id": "o1",
-                "text": "A community forum removed a post containing a harmful claim about a local clinic."
+                "text": "Host: A community forum removed a post containing a harmful claim about a local clinic."
               },
               {
                 "id": "o2",
@@ -73639,7 +73639,7 @@
               },
               {
                 "id": "o3",
-                "text": "Was removal proportionate?"
+                "text": "Host: Was removal proportionate?"
               },
               {
                 "id": "o4",
@@ -73654,7 +73654,7 @@
             "options": [
               {
                 "id": "o1",
-                "text": "A community forum removed a post containing a harmful claim about a local clinic."
+                "text": "Host: A community forum removed a post containing a harmful claim about a local clinic."
               },
               {
                 "id": "o2",
@@ -73662,7 +73662,7 @@
               },
               {
                 "id": "o3",
-                "text": "Was removal proportionate?"
+                "text": "Host: Was removal proportionate?"
               },
               {
                 "id": "o4",
@@ -73677,11 +73677,11 @@
             "options": [
               {
                 "id": "o1",
-                "text": "A community forum removed a post containing a harmful claim about a local clinic."
+                "text": "Host: A community forum removed a post containing a harmful claim about a local clinic."
               },
               {
                 "id": "o2",
-                "text": "Was removal proportionate?"
+                "text": "Host: Was removal proportionate?"
               },
               {
                 "id": "o3",
@@ -73700,7 +73700,7 @@
             "options": [
               {
                 "id": "o1",
-                "text": "A community forum removed a post containing a harmful claim about a local clinic."
+                "text": "Host: A community forum removed a post containing a harmful claim about a local clinic."
               },
               {
                 "id": "o2",
@@ -73708,7 +73708,7 @@
               },
               {
                 "id": "o3",
-                "text": "Was removal proportionate?"
+                "text": "Host: Was removal proportionate?"
               },
               {
                 "id": "o4",
@@ -73719,12 +73719,12 @@
         ]
       },
       "storyTitle": "Who Decides What Stays Online?",
-      "mainTranscript": "A community forum removed a post containing a harmful claim about a local clinic. Critics called the decision censorship. What did the moderators say? They explained that the post had presented misinformation as medical fact and that several users had begun sharing it. The clinic reported that patients were canceling appointments because of the claim. Did anyone defend the post? One member argued that free speech included the right to question institutions. Another accused the moderators of hiding criticism. The team replied that disagreement was permitted, but unsupported medical advice violated the content policy. Was removal proportionate? The evidence suggested a measurable risk, so temporary removal was reasonable. However, the moderators also published their reasons and offered an appeal. They emphasized that criticism would be restored if the harmful claim was corrected. A fair policy should not silence unpopular opinions; it should distinguish opinion from false factual claims and explain every restriction transparently.",
+      "mainTranscript": "Host: A community forum removed a post containing a harmful claim about a local clinic. Critics called the decision censorship. What did the moderators say? Guest: They explained that the post had presented misinformation as medical fact and that several users had begun sharing it. The clinic reported that patients were canceling appointments because of the claim. Host: Did anyone defend the post? Guest: One member argued that free speech included the right to question institutions. Another accused the moderators of hiding criticism. The team replied that disagreement was permitted, but unsupported medical advice violated the content policy. Host: Was removal proportionate? Guest: The evidence suggested a measurable risk, so temporary removal was reasonable. However, the moderators also published their reasons and offered an appeal. They emphasized that criticism would be restored if the harmful claim was corrected. A fair policy should not silence unpopular opinions; it should distinguish opinion from false factual claims and explain every restriction transparently.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "A community forum removed a post containing a harmful claim about a local clinic."
+          "text": "Host: A community forum removed a post containing a harmful claim about a local clinic."
         },
         {
           "id": "segment-02",
@@ -73739,7 +73739,7 @@
         {
           "id": "segment-04",
           "order": 4,
-          "text": "They explained that the post had presented misinformation as medical fact and that several users had begun sharing it."
+          "text": "Guest: They explained that the post had presented misinformation as medical fact and that several users had begun sharing it."
         },
         {
           "id": "segment-05",
@@ -73749,12 +73749,12 @@
         {
           "id": "segment-06",
           "order": 6,
-          "text": "Did anyone defend the post?"
+          "text": "Host: Did anyone defend the post?"
         },
         {
           "id": "segment-07",
           "order": 7,
-          "text": "One member argued that free speech included the right to question institutions."
+          "text": "Guest: One member argued that free speech included the right to question institutions."
         },
         {
           "id": "segment-08",
@@ -73769,12 +73769,12 @@
         {
           "id": "segment-10",
           "order": 10,
-          "text": "Was removal proportionate?"
+          "text": "Host: Was removal proportionate?"
         },
         {
           "id": "segment-11",
           "order": 11,
-          "text": "The evidence suggested a measurable risk, so temporary removal was reasonable."
+          "text": "Guest: The evidence suggested a measurable risk, so temporary removal was reasonable."
         },
         {
           "id": "segment-12",
@@ -73802,9 +73802,9 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Freedom of Speech and Misinformation”, which detail establishes the situation?",
         "options": [
-          "A community forum removed a post containing a harmful claim about a local clinic.",
+          "Host: A community forum removed a post containing a harmful claim about a local clinic.",
           "The clinic reported that patients were canceling appointments because of the claim.",
-          "Was removal proportionate?",
+          "Host: Was removal proportionate?",
           "A fair policy should not silence unpopular opinions; it should distinguish opinion from false factual claims and explain every restriction transparently."
         ]
       },
@@ -73812,9 +73812,9 @@
         "type": "mcq",
         "prompt": "After “A community forum removed a post containing a harmful claim about a…”, what happens next in “Listening Lab: Freedom of Speech and Misinformation”?",
         "options": [
-          "A community forum removed a post containing a harmful claim about a local clinic.",
+          "Host: A community forum removed a post containing a harmful claim about a local clinic.",
           "The clinic reported that patients were canceling appointments because of the claim.",
-          "Was removal proportionate?",
+          "Host: Was removal proportionate?",
           "A fair policy should not silence unpopular opinions; it should distinguish opinion from false factual claims and explain every restriction transparently."
         ]
       },
@@ -73822,8 +73822,8 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Freedom of Speech and Misinformation”?",
         "options": [
-          "A community forum removed a post containing a harmful claim about a local clinic.",
-          "Was removal proportionate?",
+          "Host: A community forum removed a post containing a harmful claim about a local clinic.",
+          "Host: Was removal proportionate?",
           "The clinic reported that patients were canceling appointments because of the claim.",
           "A fair policy should not silence unpopular opinions; it should distinguish opinion from false factual claims and explain every restriction transparently."
         ]
@@ -73832,9 +73832,9 @@
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: Freedom of Speech and Misinformation” after “The clinic reported that patients were canceling appointments because…”?",
         "options": [
-          "A community forum removed a post containing a harmful claim about a local clinic.",
+          "Host: A community forum removed a post containing a harmful claim about a local clinic.",
           "The clinic reported that patients were canceling appointments because of the claim.",
-          "Was removal proportionate?",
+          "Host: Was removal proportionate?",
           "A fair policy should not silence unpopular opinions; it should distinguish opinion from false factual claims and explain every restriction transparently."
         ]
       }
@@ -79663,15 +79663,15 @@
     "dialogue": [
       {
         "speaker": "Narrator",
-        "line": "Residents had complained about poor lighting for months. What finally changed? It was a small grassroots meeting that turned frustration into collective action. What the neighbors needed was not another general complaint but a clear record of broken lights and unsafe areas. Who organized the initiative? A volunteer mapped the problems, while other residents created a petition. It was the evidence gathered door to door that persuaded each stakeholder to attend a public meeting. Did the local council accept every request? No. What officials emphasized was the limited public-service budget. The residents responded that volunteers could provide local knowledge but should not replace trained workers. It was through that distinction that the group found common ground. What happened next? The council repaired the most dangerous locations and published a longer plan. What made the campaign effective was its combination of practical evidence, respectful pressure and shared responsibility."
+        "line": "Host: Residents had complained about poor lighting for months. What finally changed? Guest: It was a small grassroots meeting that turned frustration into collective action. What the neighbors needed was not another general complaint but a clear record of broken lights and unsafe areas. Host: Who organized the initiative? Guest: A volunteer mapped the problems, while other residents created a petition. It was the evidence gathered door to door that persuaded each stakeholder to attend a public meeting. Host: Did the local council accept every request? Guest: No. What officials emphasized was the limited public-service budget. The residents responded that volunteers could provide local knowledge but should not replace trained workers. It was through that distinction that the group found common ground. Host: What happened next? Guest: The council repaired the most dangerous locations and published a longer plan. What made the campaign effective was its combination of practical evidence, respectful pressure and shared responsibility."
       }
     ],
     "reading": null,
-    "transcript": "Residents had complained about poor lighting for months. What finally changed? It was a small grassroots meeting that turned frustration into collective action. What the neighbors needed was not another general complaint but a clear record of broken lights and unsafe areas. Who organized the initiative? A volunteer mapped the problems, while other residents created a petition. It was the evidence gathered door to door that persuaded each stakeholder to attend a public meeting. Did the local council accept every request? No. What officials emphasized was the limited public-service budget. The residents responded that volunteers could provide local knowledge but should not replace trained workers. It was through that distinction that the group found common ground. What happened next? The council repaired the most dangerous locations and published a longer plan. What made the campaign effective was its combination of practical evidence, respectful pressure and shared responsibility.",
+    "transcript": "Host: Residents had complained about poor lighting for months. What finally changed? Guest: It was a small grassroots meeting that turned frustration into collective action. What the neighbors needed was not another general complaint but a clear record of broken lights and unsafe areas. Host: Who organized the initiative? Guest: A volunteer mapped the problems, while other residents created a petition. It was the evidence gathered door to door that persuaded each stakeholder to attend a public meeting. Host: Did the local council accept every request? Guest: No. What officials emphasized was the limited public-service budget. The residents responded that volunteers could provide local knowledge but should not replace trained workers. It was through that distinction that the group found common ground. Host: What happened next? Guest: The council repaired the most dangerous locations and published a longer plan. What made the campaign effective was its combination of practical evidence, respectful pressure and shared responsibility.",
     "extra": {
       "listeningType": "monologue",
       "difficulty": "B2",
-      "durationSeconds": 71,
+      "durationSeconds": 74,
       "speakers": [
         "Narrator"
       ],
@@ -79700,11 +79700,11 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Residents had complained about poor lighting for months."
+                "text": "Host: Residents had complained about poor lighting for months."
               },
               {
                 "id": "o2",
-                "text": "A volunteer mapped the problems, while other residents created a petition."
+                "text": "Guest: A volunteer mapped the problems, while other residents created a petition."
               },
               {
                 "id": "o3",
@@ -79723,11 +79723,11 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Residents had complained about poor lighting for months."
+                "text": "Host: Residents had complained about poor lighting for months."
               },
               {
                 "id": "o2",
-                "text": "A volunteer mapped the problems, while other residents created a petition."
+                "text": "Guest: A volunteer mapped the problems, while other residents created a petition."
               },
               {
                 "id": "o3",
@@ -79746,11 +79746,11 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Residents had complained about poor lighting for months."
+                "text": "Host: Residents had complained about poor lighting for months."
               },
               {
                 "id": "o2",
-                "text": "A volunteer mapped the problems, while other residents created a petition."
+                "text": "Guest: A volunteer mapped the problems, while other residents created a petition."
               },
               {
                 "id": "o3",
@@ -79769,11 +79769,11 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Residents had complained about poor lighting for months."
+                "text": "Host: Residents had complained about poor lighting for months."
               },
               {
                 "id": "o2",
-                "text": "A volunteer mapped the problems, while other residents created a petition."
+                "text": "Guest: A volunteer mapped the problems, while other residents created a petition."
               },
               {
                 "id": "o3",
@@ -79788,12 +79788,12 @@
         ]
       },
       "storyTitle": "When a Neighborhood Organizes for Change",
-      "mainTranscript": "Residents had complained about poor lighting for months. What finally changed? It was a small grassroots meeting that turned frustration into collective action. What the neighbors needed was not another general complaint but a clear record of broken lights and unsafe areas. Who organized the initiative? A volunteer mapped the problems, while other residents created a petition. It was the evidence gathered door to door that persuaded each stakeholder to attend a public meeting. Did the local council accept every request? No. What officials emphasized was the limited public-service budget. The residents responded that volunteers could provide local knowledge but should not replace trained workers. It was through that distinction that the group found common ground. What happened next? The council repaired the most dangerous locations and published a longer plan. What made the campaign effective was its combination of practical evidence, respectful pressure and shared responsibility.",
+      "mainTranscript": "Host: Residents had complained about poor lighting for months. What finally changed? Guest: It was a small grassroots meeting that turned frustration into collective action. What the neighbors needed was not another general complaint but a clear record of broken lights and unsafe areas. Host: Who organized the initiative? Guest: A volunteer mapped the problems, while other residents created a petition. It was the evidence gathered door to door that persuaded each stakeholder to attend a public meeting. Host: Did the local council accept every request? Guest: No. What officials emphasized was the limited public-service budget. The residents responded that volunteers could provide local knowledge but should not replace trained workers. It was through that distinction that the group found common ground. Host: What happened next? Guest: The council repaired the most dangerous locations and published a longer plan. What made the campaign effective was its combination of practical evidence, respectful pressure and shared responsibility.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Residents had complained about poor lighting for months."
+          "text": "Host: Residents had complained about poor lighting for months."
         },
         {
           "id": "segment-02",
@@ -79803,7 +79803,7 @@
         {
           "id": "segment-03",
           "order": 3,
-          "text": "It was a small grassroots meeting that turned frustration into collective action."
+          "text": "Guest: It was a small grassroots meeting that turned frustration into collective action."
         },
         {
           "id": "segment-04",
@@ -79813,12 +79813,12 @@
         {
           "id": "segment-05",
           "order": 5,
-          "text": "Who organized the initiative?"
+          "text": "Host: Who organized the initiative?"
         },
         {
           "id": "segment-06",
           "order": 6,
-          "text": "A volunteer mapped the problems, while other residents created a petition."
+          "text": "Guest: A volunteer mapped the problems, while other residents created a petition."
         },
         {
           "id": "segment-07",
@@ -79828,12 +79828,12 @@
         {
           "id": "segment-08",
           "order": 8,
-          "text": "Did the local council accept every request?"
+          "text": "Host: Did the local council accept every request?"
         },
         {
           "id": "segment-09",
           "order": 9,
-          "text": "No."
+          "text": "Guest: No."
         },
         {
           "id": "segment-10",
@@ -79853,12 +79853,12 @@
         {
           "id": "segment-13",
           "order": 13,
-          "text": "What happened next?"
+          "text": "Host: What happened next?"
         },
         {
           "id": "segment-14",
           "order": 14,
-          "text": "The council repaired the most dangerous locations and published a longer plan."
+          "text": "Guest: The council repaired the most dangerous locations and published a longer plan."
         },
         {
           "id": "segment-15",
@@ -79876,8 +79876,8 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Community Action and Local Change”, which detail establishes the situation?",
         "options": [
-          "Residents had complained about poor lighting for months.",
-          "A volunteer mapped the problems, while other residents created a petition.",
+          "Host: Residents had complained about poor lighting for months.",
+          "Guest: A volunteer mapped the problems, while other residents created a petition.",
           "What officials emphasized was the limited public-service budget.",
           "What made the campaign effective was its combination of practical evidence, respectful pressure and shared responsibility."
         ]
@@ -79886,8 +79886,8 @@
         "type": "mcq",
         "prompt": "After “Residents had complained about poor lighting for months.”, what happens next in “Listening Lab: Community Action and Local Change”?",
         "options": [
-          "Residents had complained about poor lighting for months.",
-          "A volunteer mapped the problems, while other residents created a petition.",
+          "Host: Residents had complained about poor lighting for months.",
+          "Guest: A volunteer mapped the problems, while other residents created a petition.",
           "What officials emphasized was the limited public-service budget.",
           "What made the campaign effective was its combination of practical evidence, respectful pressure and shared responsibility."
         ]
@@ -79896,8 +79896,8 @@
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Community Action and Local Change”?",
         "options": [
-          "Residents had complained about poor lighting for months.",
-          "A volunteer mapped the problems, while other residents created a petition.",
+          "Host: Residents had complained about poor lighting for months.",
+          "Guest: A volunteer mapped the problems, while other residents created a petition.",
           "The residents responded that volunteers could provide local knowledge but should not replace trained workers.",
           "What officials emphasized was the limited public-service budget."
         ]
@@ -79906,8 +79906,8 @@
         "type": "mcq",
         "prompt": "Which outcome closes “Listening Lab: Community Action and Local Change” after “The residents responded that volunteers could provide local knowledge…”?",
         "options": [
-          "Residents had complained about poor lighting for months.",
-          "A volunteer mapped the problems, while other residents created a petition.",
+          "Host: Residents had complained about poor lighting for months.",
+          "Guest: A volunteer mapped the problems, while other residents created a petition.",
           "What officials emphasized was the limited public-service budget.",
           "What made the campaign effective was its combination of practical evidence, respectful pressure and shared responsibility."
         ]
