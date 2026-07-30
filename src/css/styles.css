@@ -15177,16 +15177,57 @@ footer small {
 }
 
 footer {
-  padding: 44px 6% 28px;
+  padding: 32px clamp(1.25rem, 5vw, 6%) 20px;
 }
 
 .footer-top {
-  gap: 28px;
-  margin-bottom: 20px;
+  grid-template-columns: minmax(180px, 0.6fr) minmax(0, 2.4fr);
+  gap: clamp(24px, 4vw, 52px);
+  margin-bottom: 16px;
+  max-width: 1120px;
+}
+
+.footer-brand {
+  max-width: 230px;
+}
+
+footer strong {
+  font-size: 1.08rem;
+  letter-spacing: 0.13em;
+}
+
+footer p {
+  margin: 8px 0 0;
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+
+.footer-links {
+  grid-template-columns: minmax(110px, 0.65fr) minmax(220px, 1.45fr) minmax(180px, 0.95fr);
+  gap: clamp(20px, 3vw, 42px);
+}
+
+.footer-links-col {
+  gap: 8px;
+}
+
+.footer-links-col h4 {
+  font-size: 0.68rem;
+  margin-bottom: 2px;
+}
+
+.footer-links-col a {
+  font-size: 0.84rem;
+}
+
+.footer-contact-note {
+  font-size: 0.7rem;
+  line-height: 1.42;
 }
 
 footer small {
-  padding-top: 14px;
+  padding-top: 11px;
+  font-size: 0.7rem;
 }
 
 @media (max-width: 900px) {
@@ -17105,5 +17146,436 @@ footer small {
 
   .unit-mission-copy {
     width: auto;
+  }
+}
+
+/* Final phone trim: compact page endings and replace oversized CTA walls
+   with short, wrapping action rows. */
+@media (max-width: 640px) {
+  main .primary-btn,
+  main .secondary-btn,
+  main .unit-action-btn,
+  main .practice-mark-btn {
+    width: auto;
+    min-height: 40px;
+    padding: 0.5rem 0.72rem;
+    border-radius: 11px;
+    font-size: 0.74rem;
+    line-height: 1.15;
+  }
+
+  main .primary-btn .button-arrow,
+  main .secondary-btn .button-arrow {
+    margin-left: 0.25rem;
+  }
+
+  .hero-buttons .primary-btn,
+  .hero-buttons .secondary-btn,
+  .path-start-learning-btn,
+  .auth-submit,
+  .grammar-test-submit-btn {
+    width: 100%;
+  }
+
+  .reading-tools,
+  .reading-translation-actions,
+  .reading-vocab-actions,
+  .reading-comp-actions,
+  .writing-practice-actions,
+  .writing-primary-actions,
+  .writing-tutor-actions,
+  .speaking-simple-actions,
+  .speaking-guided-actions,
+  .speaking-actions,
+  .speaking-correction-actions,
+  .grammar-test-nav-row,
+  .grammar-test-submit-bar,
+  .verb-detail-actions,
+  .verb-practice-results-actions,
+  .unit-verbs-context-actions,
+  .download-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.4rem;
+  }
+
+  .reading-tools > *,
+  .reading-translation-actions > *,
+  .reading-vocab-actions > *,
+  .reading-comp-actions > *,
+  .writing-practice-actions > *,
+  .writing-primary-actions > *,
+  .writing-tutor-actions > *,
+  .speaking-simple-actions > *,
+  .speaking-guided-actions > *,
+  .speaking-actions > *,
+  .speaking-correction-actions > *,
+  .grammar-test-nav-row > *,
+  .verb-detail-actions > *,
+  .verb-practice-results-actions > *,
+  .unit-verbs-context-actions > *,
+  .download-actions > * {
+    flex: 0 1 auto;
+    width: auto;
+  }
+
+  .unit-activity-footer {
+    gap: 0.45rem;
+    margin-top: 0.65rem;
+    padding: 0.5rem;
+    border-radius: 13px;
+  }
+
+  .unit-activity-footer-progress {
+    font-size: 0.68rem;
+  }
+
+  .unit-activity-footer-actions {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.35rem;
+  }
+
+  .unit-activity-footer-actions button,
+  .unit-activity-footer-actions a {
+    min-height: 38px;
+    padding: 0.42rem 0.48rem;
+    font-size: 0.68rem;
+  }
+
+  .listening-nav-row {
+    margin-top: 0.7rem;
+  }
+
+  .listening-nav-row .primary-btn,
+  .listening-nav-row .secondary-btn {
+    min-height: 38px;
+  }
+
+  .learning-path-section,
+  .skill-view-section {
+    padding-bottom: 1.2rem;
+  }
+
+  .section:last-of-type {
+    padding-bottom: 1.5rem;
+  }
+
+  .download-box,
+  .app-phone,
+  .course-card,
+  .language-card,
+  .plan,
+  .skill-panel {
+    padding: 0.9rem;
+    border-radius: 16px;
+  }
+
+  .download-box {
+    gap: 0.75rem;
+    text-align: left;
+  }
+
+  .download-box p {
+    margin-bottom: 0;
+    font-size: 0.78rem;
+    line-height: 1.4;
+  }
+
+  footer {
+    padding: 1.35rem 0.85rem max(1rem, env(safe-area-inset-bottom));
+  }
+
+  footer::before {
+    width: 42%;
+    height: 2px;
+  }
+
+  .footer-top {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.8rem;
+    margin-bottom: 0.8rem;
+    text-align: left;
+  }
+
+  .footer-brand {
+    max-width: none;
+    text-align: center;
+  }
+
+  .footer-brand strong {
+    font-size: 0.92rem;
+  }
+
+  .footer-brand p {
+    max-width: 34ch;
+    margin: 0.3rem auto 0;
+    font-size: 0.7rem;
+    line-height: 1.35;
+  }
+
+  .footer-links {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.65rem 1rem;
+    text-align: left;
+  }
+
+  .footer-links-col {
+    gap: 0.38rem;
+  }
+
+  .footer-links-col:last-child {
+    grid-column: 1 / -1;
+  }
+
+  .footer-links-col h4 {
+    margin-bottom: 0.1rem;
+    font-size: 0.62rem;
+  }
+
+  .footer-links-col a,
+  .footer-contact-note {
+    font-size: 0.68rem;
+    line-height: 1.3;
+  }
+
+  footer small {
+    width: 100%;
+    padding-top: 0.65rem;
+    font-size: 0.62rem;
+    line-height: 1.35;
+  }
+
+  .tutor-fab {
+    bottom: max(0.55rem, env(safe-area-inset-bottom));
+  }
+}
+
+@media (max-width: 390px) {
+  main .primary-btn,
+  main .secondary-btn,
+  main .unit-action-btn,
+  main .practice-mark-btn {
+    padding-inline: 0.58rem;
+    font-size: 0.7rem;
+  }
+
+  .footer-links {
+    gap-inline: 0.7rem;
+  }
+}
+
+/* ==========================================================================
+   Mobile app shell
+   ========================================================================== */
+.mobile-app-nav {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  :root {
+    --mobile-app-nav-height: 64px;
+  }
+
+  body {
+    min-height: 100dvh;
+    padding-bottom: calc(var(--mobile-app-nav-height) + env(safe-area-inset-bottom));
+    background: #f3f7fd;
+  }
+
+  main {
+    min-height: calc(100dvh - 54px - var(--mobile-app-nav-height));
+  }
+
+  .navbar {
+    box-shadow: 0 1px 0 rgba(15, 23, 42, 0.07);
+  }
+
+  .mobile-app-nav {
+    position: fixed;
+    right: 0.45rem;
+    bottom: max(0.35rem, env(safe-area-inset-bottom));
+    left: 0.45rem;
+    z-index: 46;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    height: var(--mobile-app-nav-height);
+    padding: 0.32rem 0.3rem;
+    border: 1px solid rgba(37, 99, 235, 0.13);
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.94);
+    box-shadow:
+      0 14px 34px rgba(15, 23, 42, 0.18),
+      0 2px 8px rgba(37, 99, 235, 0.08);
+    backdrop-filter: blur(18px);
+  }
+
+  .mobile-app-nav a {
+    position: relative;
+    display: grid;
+    grid-template-rows: 24px auto;
+    place-items: center;
+    gap: 0.08rem;
+    min-width: 0;
+    padding: 0.2rem 0.1rem;
+    border-radius: 14px;
+    color: #64748b;
+    font-size: 0.58rem;
+    font-weight: 750;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .mobile-app-nav a::after {
+    display: none;
+  }
+
+  .mobile-app-nav a.active {
+    background: rgba(37, 99, 235, 0.09);
+    color: var(--blue);
+  }
+
+  .mobile-app-nav-icon {
+    display: grid;
+    width: 26px;
+    height: 24px;
+    place-items: center;
+    border-radius: 9px;
+    font-size: 1rem;
+    font-weight: 850;
+    line-height: 1;
+  }
+
+  .mobile-app-nav a.active .mobile-app-nav-icon {
+    background: var(--blue);
+    color: #fff;
+    box-shadow: 0 5px 12px rgba(37, 99, 235, 0.22);
+  }
+
+  .mobile-app-nav-primary {
+    transform: translateY(-0.15rem);
+  }
+
+  .mobile-app-nav-primary .mobile-app-nav-icon {
+    width: 34px;
+    height: 30px;
+    border-radius: 11px;
+    background: linear-gradient(135deg, var(--blue), var(--cyan));
+    color: #fff;
+    box-shadow: 0 6px 16px rgba(37, 99, 235, 0.28);
+  }
+
+  .mobile-app-nav-primary.active .mobile-app-nav-icon {
+    background: linear-gradient(135deg, var(--purple), var(--blue));
+  }
+
+  /* Treat each routed section as an app screen instead of a centered
+     desktop page floating inside the phone viewport. */
+  .section,
+  .learning-path-section,
+  .skill-view-section,
+  .translator-section,
+  .tutor-section,
+  .progress-section,
+  .goals-section,
+  .about-section,
+  .security-section {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding-inline: 0.65rem;
+  }
+
+  .lesson-workspace,
+  .skill-view-content,
+  .translator-shell,
+  .tutor-shell,
+  .progress-card,
+  .goals-card {
+    border-radius: 16px;
+    box-shadow: 0 7px 20px rgba(15, 23, 42, 0.055);
+  }
+
+  .lesson-workspace,
+  .skill-view-content {
+    padding: 0.75rem;
+  }
+
+  .skill-graph,
+  .path-unit,
+  .mcq-question,
+  .grammar-test-question-item,
+  .speaking-action-card,
+  .writing-practice-card,
+  .vocab-card-face,
+  .verb-tile {
+    box-shadow: 0 3px 10px rgba(15, 23, 42, 0.045);
+  }
+
+  .path-unit,
+  .mcq-question,
+  .grammar-test-question-item,
+  .speaking-action-card,
+  .writing-practice-card,
+  .verb-tile {
+    border-color: rgba(37, 99, 235, 0.1);
+  }
+
+  .level-tabs,
+  .unit-route-markers,
+  .unit-learning-sequence-list {
+    scroll-behavior: smooth;
+    scroll-snap-type: x proximity;
+  }
+
+  button,
+  a,
+  input,
+  select,
+  textarea {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  button:active,
+  .primary-btn:active,
+  .secondary-btn:active,
+  .path-unit:active,
+  .mcq-option:active,
+  .grammar-test-option:active,
+  .verb-tile:active {
+    transform: scale(0.985);
+  }
+
+  .tutor-fab {
+    bottom: calc(var(--mobile-app-nav-height) + 0.75rem + env(safe-area-inset-bottom));
+    z-index: 45;
+  }
+
+  footer {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 380px) {
+  :root {
+    --mobile-app-nav-height: 60px;
+  }
+
+  .mobile-app-nav {
+    right: 0.3rem;
+    bottom: max(0.25rem, env(safe-area-inset-bottom));
+    left: 0.3rem;
+    border-radius: 17px;
+  }
+
+  .mobile-app-nav a {
+    font-size: 0.54rem;
+  }
+
+  .mobile-app-nav-icon {
+    font-size: 0.9rem;
   }
 }

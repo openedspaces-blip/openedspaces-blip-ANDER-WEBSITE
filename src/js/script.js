@@ -14697,8 +14697,13 @@ function showView(viewId) {
     element.setAttribute('aria-hidden', String(!active));
   });
 
-  document.querySelectorAll('.nav-group a[href^="#"]').forEach((link) => {
-    const isActive = link.getAttribute('href') === `#${resolved}`;
+  document.querySelectorAll('.nav-group a[href^="#"], .mobile-app-nav a[href^="#"]').forEach((link) => {
+    const linkView = link.getAttribute('href')?.slice(1);
+    const isLearningAppDestination =
+      link.closest('.mobile-app-nav') &&
+      linkView === 'learn' &&
+      (resolved === 'learn' || SKILL_VIEWS.includes(resolved));
+    const isActive = linkView === resolved || isLearningAppDestination;
     link.classList.toggle('active', isActive);
     if (isActive) {
       link.setAttribute('aria-current', 'page');
