@@ -101,76 +101,6 @@ const LEVEL_CURRICULUM = {
   }
 };
 
-// English glosses for the Spanish route.  These are authored supports, not
-// machine-generated labels: a learner whose L1 is English must never see a
-// placeholder such as "English support: cancelaci\u00f3n" on a flashcard.
-const SPANISH_ENGLISH_GLOSSES = {
-  mercado: 'market', precio: 'price', oferta: 'special offer', kilo: 'kilo', cambio: 'change', recibo: 'receipt',
-  esquina: 'corner', cuadra: 'block', sem\u00e1foro: 'traffic light', recto: 'straight ahead', girar: 'to turn', estaci\u00f3n: 'station',
-  horario: 'schedule', turno: 'shift', temprano: 'early', tarde: 'late / afternoon', descanso: 'break / rest', agenda: 'planner',
-  s\u00edntoma: 'symptom', dolor: 'pain', cita: 'appointment', descansar: 'to rest', receta: 'prescription', mejorar: 'to improve',
-  billete: 'ticket', equipaje: 'luggage', and\u00e9n: 'platform', salida: 'departure', llegada: 'arrival', reserva: 'reservation',
-  alquiler: 'rent', vecindario: 'neighbourhood', amueblado: 'furnished', luminoso: 'bright', ruido: 'noise', mudanza: 'move / relocation',
-  ingrediente: 'ingredient', mezclar: 'to mix', hervir: 'to boil', horno: 'oven', sabor: 'flavour', porci\u00f3n: 'portion',
-  recuerdo: 'memory', viaje: 'trip', an\u00e9cdota: 'anecdote', ocurrir: 'to happen', disfrutar: 'to enjoy', sorpresa: 'surprise',
-  invitaci\u00f3n: 'invitation', regalo: 'gift', reuni\u00f3n: 'meeting', celebrar: 'to celebrate', aceptar: 'to accept', rechazar: 'to decline',
-  apunte: 'notes', repasar: 'to review', tarea: 'assignment', plazo: 'deadline', practicar: 'to practise', progreso: 'progress',
-  pantalla: 'screen', contrase\u00f1a: 'password', archivo: 'file', descargar: 'to download', conectar: 'to connect', cuenta: 'account',
-  propuesta: 'proposal', equipo: 'team', acuerdo: 'agreement', fecha: 'date', resultado: 'result',
-  etapa: 'stage', decisi\u00f3n: 'decision', mientras: 'while', 'de repente': 'suddenly', aprendizaje: 'learning',
-  vacante: 'job opening', experiencia: 'experience', habilidad: 'skill', entrevista: 'interview', responsable: 'responsible', logro: 'achievement',
-  cancelaci\u00f3n: 'cancellation', retraso: 'delay', reembolso: 'refund', alternativa: 'alternative', reclamo: 'complaint / claim', seguro: 'insurance',
-  titular: 'headline', fuente: 'source', reportaje: 'report', rumor: 'rumour', comprobar: 'to verify', actualidad: 'current affairs',
-  confianza: 'trust', l\u00edmite: 'boundary', molestia: 'upset / annoyance', apoyar: 'to support', convivir: 'to live together',
-  duradero: 'durable', local: 'local', etiqueta: 'label', residuo: 'waste', reutilizar: 'to reuse', consumo: 'consumption',
-  costumbre: 'custom', origen: 'origin', comunidad: 'community', transmitir: 'to pass on', patrimonio: 'heritage', diversidad: 'diversity',
-  matr\u00edcula: 'enrolment fee', beca: 'scholarship', requisito: 'requirement', modalidad: 'format / mode', meta: 'goal', formaci\u00f3n: 'training',
-  reciclaje: 'recycling', contaminaci\u00f3n: 'pollution', medida: 'measure', recurso: 'resource', reducir: 'to reduce', impacto: 'impact',
-  bienestar: 'well-being', equilibrio: 'balance', h\u00e1bito: 'habit', estr\u00e9s: 'stress', constancia: 'consistency',
-  aver\u00eda: 'breakdown / fault', factura: 'bill / invoice', garant\u00eda: 'guarantee', solicitud: 'request', incidencia: 'issue', soluci\u00f3n: 'solution',
-  iniciativa: 'initiative', voluntariado: 'volunteering', presupuesto: 'budget', participaci\u00f3n: 'participation', beneficio: 'benefit',
-  'huella digital': 'digital footprint', privacidad: 'privacy', perfil: 'profile', exposici\u00f3n: 'exposure', reputaci\u00f3n: 'reputation', consentimiento: 'consent',
-  movilidad: 'mobility', peatonal: 'pedestrian', emisiones: 'emissions', infraestructura: 'infrastructure', accesibilidad: 'accessibility', urbanismo: 'urban planning',
-  automatizaci\u00f3n: 'automation', competencia: 'competition', reconversi\u00f3n: 'reskilling', productividad: 'productivity', teletrabajo: 'remote work', incertidumbre: 'uncertainty',
-  evidencia: 'evidence', sesgo: 'bias', verificar: 'to verify', 'fuente primaria': 'primary source', enga\u00f1oso: 'misleading', credibilidad: 'credibility',
-  'temporada alta': 'peak season', alojamiento: 'accommodation', residente: 'resident', saturaci\u00f3n: 'overcrowding', regulaci\u00f3n: 'regulation',
-  alfabetizaci\u00f3n: 'literacy', plataforma: 'platform', evaluaci\u00f3n: 'assessment', brecha: 'gap', autonom\u00eda: 'autonomy', retroalimentaci\u00f3n: 'feedback',
-  'cadena de suministro': 'supply chain', etiquetado: 'labelling', desperdicio: 'waste', acceso: 'access', nutrici\u00f3n: 'nutrition', producci\u00f3n: 'production',
-  intervenci\u00f3n: 'intervention', mural: 'mural', financiaci\u00f3n: 'funding', audiencia: 'audience', controversia: 'controversy', expresi\u00f3n: 'expression',
-  hallazgo: 'finding', riesgo: 'risk', ensayo: 'trial', principio: 'principle',
-  desplazamiento: 'displacement', oferta: 'supply / offer', inquilino: 'tenant', asequible: 'affordable', desigualdad: 'inequality',
-  registro: 'register', inclusi\u00f3n: 'inclusion', convenci\u00f3n: 'convention', identidad: 'identity', uso: 'use',
-  planteamiento: 'proposal / approach', objeci\u00f3n: 'objection', viabilidad: 'feasibility', alcance: 'scope', consenso: 'consensus',
-  'memoria colectiva': 'collective memory', testimonio: 'testimony', omisi\u00f3n: 'omission', versi\u00f3n: 'version', evocar: 'to evoke', reinterpretar: 'to reinterpret',
-  premisa: 'premise', auditorio: 'audience', apelaci\u00f3n: 'appeal', elocuencia: 'eloquence', presuposici\u00f3n: 'presupposition', refutaci\u00f3n: 'refutation',
-  filtraci\u00f3n: 'leak', indicio: 'clue / indication', contrastar: 'to cross-check', anonimato: 'anonymity', 'rendici\u00f3n de cuentas': 'accountability',
-  reparaci\u00f3n: 'redress', agravio: 'harm / grievance', reconocimiento: 'recognition', responsabilidad: 'responsibility', reconciliaci\u00f3n: 'reconciliation',
-  precauci\u00f3n: 'precaution', despliegue: 'rollout', supervisi\u00f3n: 'oversight', trazabilidad: 'traceability',
-  narrador: 'narrator', iron\u00eda: 'irony', ambig\u00fcedad: 'ambiguity', perspectiva: 'perspective', cadencia: 'cadence', desenlace: 'ending',
-  cuidados: 'care work', remuneraci\u00f3n: 'pay', carga: 'burden', corresponsabilidad: 'shared responsibility', sostener: 'to sustain', invisibilizado: 'made invisible',
-  variedad: 'variety', rasgo: 'feature', hablante: 'speaker', prestigio: 'prestige', regionalismo: 'regionalism', adecuaci\u00f3n: 'appropriateness',
-  concesi\u00f3n: 'concession', mediaci\u00f3n: 'mediation', desacuerdo: 'disagreement', margen: 'room for manoeuvre', compromiso: 'commitment', postura: 'position',
-  'puesta en escena': 'staging', coherencia: 'coherence', sugerente: 'thought-provoking', convencional: 'conventional', recepci\u00f3n: 'reception',
-  indicador: 'indicator', cobertura: 'coverage', implementaci\u00f3n: 'implementation', 'sesgo de selecci\u00f3n': 'selection bias',
-  tesis: 'thesis', 'marco te\u00f3rico': 'theoretical framework', metodolog\u00eda: 'methodology',
-  polisemia: 'polysemy', elipsis: 'ellipsis', 'doble lectura': 'double reading', sobreentendido: 'implicit meaning', indeterminaci\u00f3n: 'indeterminacy', matiz: 'nuance',
-  s\u00e1tira: 'satire', implicatura: 'implicature', parodia: 'parody', 'doble voz': 'double voice', burla: 'mockery', complicidad: 'complicity',
-  equivalencia: 'equivalence', calco: 'loan translation', reformulaci\u00f3n: 'rephrasing', p\u00e9rdida: 'loss', mediaci\u00f3n: 'mediation',
-  referente: 'referent', categor\u00eda: 'category', enunciado: 'statement', inferir: 'to infer', conceptualizar: 'to conceptualise',
-  jurisprudencia: 'case law', supuesto: 'assumption', disposici\u00f3n: 'provision', interpretaci\u00f3n: 'interpretation', precedente: 'precedent',
-  inciso: 'parenthetical phrase', redundancia: 'redundancy', reescritura: 'rewriting', 'voz autoral': 'authorial voice',
-  corroborar: 'to corroborate', plausible: 'plausible', refutar: 'to refute', provisional: 'provisional', inferencia: 'inference', certeza: 'certainty',
-  'marco cr\u00edtico': 'critical framework', canon: 'canon', ruptura: 'break', lectura: 'reading', est\u00e9tica: 'aesthetics',
-  divulgaci\u00f3n: 'public communication', muestra: 'sample', limitaci\u00f3n: 'limitation', replicabilidad: 'replicability',
-  inter\u00e9s: 'interest', escalada: 'escalation', reencuadre: 'reframing',
-  hip\u00f3tesis: 'hypothesis', salvedad: 'qualification', contraargumento: 'counterargument', s\u00edntesis: 'synthesis', conclusi\u00f3n: 'conclusion',
-  criterio: 'criterion', matizaci\u00f3n: 'qualification', solvencia: 'assurance', precisi\u00f3n: 'precision'
-};
-
-function englishGloss(word) {
-  return SPANISH_ENGLISH_GLOSSES[word] || word;
-}
-
 // Editorial identity for every independent/advanced Reading. The curriculum
 // data supplies the grammar and vocabulary; these profiles supply a real
 // subject, genre and point of tension instead of the former shared template.
@@ -689,7 +619,7 @@ function buildUnit(level, spec, index) {
   const grammarExercises = buildAlignedGrammarExercises(spec);
   const vocabulary = words.map((word, wordIndex) => ({
     word,
-    translation: englishGloss(word),
+    translation: `English support: ${word}`,
     definition: `Término clave para comprender «${readingContent.title}» y analizar ${scenario.toLowerCase()}.`,
     example: `${grammarModel(grammar, words, scenario)} Esta frase sitúa «${word}» dentro del tema de la unidad.`,
     partOfSpeech: word.includes(' ') ? 'locución' : 'sustantivo',
