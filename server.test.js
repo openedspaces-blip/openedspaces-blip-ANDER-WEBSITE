@@ -1434,7 +1434,8 @@ test('Grammar UI shows definition, structure, function and practical examples be
   assert.match(body, /label: 'Structure'/);
   assert.match(body, /label: french \? 'Emploi en français' : 'Function in English'/);
   assert.match(body, /label: french \? 'Exemples' : 'Practical examples'/);
-  assert.match(source, /french \? 'Bonnes réponses' : 'Correct answers'/);
+  assert.match(source, /exerciseFeedbackText/);
+  assert.match(source, /'Respuestas correctas', 'Correct answers', 'Bonnes réponses'/);
   assert.match(source, /grammar-test-breakdown-list/);
   assert.match(source, /result\.score\}\/100/);
   assert.match(source, /function renderGrammarQuickIntroHtml/);
@@ -3429,7 +3430,7 @@ test('a selected unit reveals its activity sequence in the overview and every sk
   assert.match(selectUnitBody, /learningPathState\.activeSlug = ''/);
   assert.match(source, /class="unit-overview-sequence"/);
   assert.match(source, /renderUnitSequenceStepsHtml\(unit\.id\)/);
-  assert.match(source, /Elige una actividad de la derecha/);
+  assert.match(source, /Continúa con la siguiente actividad disponible/);
   assert.match(renderSkillBody, /if \(!selected && learningPathState\.unitId\)/);
   assert.match(renderSkillBody, /item\.unitId === learningPathState\.unitId/);
   assert.doesNotMatch(
@@ -3879,9 +3880,11 @@ test('every routed Listening has four contextual questions with balanced A-D ans
         );
       });
       if (!usesDirectA1FrenchCopy) {
+        const canonicalTitle =
+          row.content_json?.extra?.storyTitle || row.title;
         assert.match(
           question.prompt,
-          new RegExp(row.title.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'))
+          new RegExp(canonicalTitle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'))
         );
       }
       assert.doesNotMatch(

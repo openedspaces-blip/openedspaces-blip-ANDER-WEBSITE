@@ -16,6 +16,7 @@
     "audit:curriculum": "node scripts/verify-curriculum-coverage.js",
     "verify:all": "node scripts/verify-all.js",
     "validate:listening": "node scripts/validate-official-listening.js",
+    "validate:listening:english": "node scripts/validate-english-listening-comprehension.js",
     "format": "prettier --write .",
     "format:check": "prettier --check ."
   },

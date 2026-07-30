@@ -3,6 +3,9 @@ const fs = require('fs');
 const path = require('path');
 const c1Transcripts = require('./content/english-c1-audio-transcripts');
 const c2Transcripts = require('./content/english-c2-audio-transcripts');
+const {
+  applyContextualListeningBank
+} = require('./content/contextual-listening-comprehension');
 
 const ROOT = path.join(__dirname, '..');
 const LESSONS_PATH = path.join(ROOT, 'lib', 'seed-lessons.json');
@@ -57,6 +60,7 @@ for (const lesson of selected) {
   content.dialogue = [{ speaker: 'Narrator', line: transcript }];
   content.extra = extra;
   lesson.content_json = content;
+  applyContextualListeningBank(lesson);
 }
 
 const sections = ['# English Listening Audio Transcripts — C1 & C2', ''];

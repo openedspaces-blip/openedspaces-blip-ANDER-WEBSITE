@@ -274,13 +274,23 @@
               <span class="plan-badge" data-free-plan-badge>Plan actual</span>
               <h3>Free</h3>
               <p class="price">USD 0 <small>/ mes</small></p>
-              <ul>
+              <ul class="plan-benefits plan-benefits--desktop">
                 <li>Unidades iniciales de todos los niveles, de A1 a C2.</li>
                 <li>Reading, Grammar, Vocabulary, Listening y Speaking de las unidades incluidas.</li>
                 <li>Voces naturales del dispositivo, traductor y flashcards.</li>
                 <li>Tutor IA: 30 consultas al mes.</li>
                 <li>Conversación por voz: 10 al mes.</li>
               </ul>
+              <details class="plan-benefits-mobile">
+                <summary>Ver beneficios del plan Free</summary>
+                <ul>
+                  <li>Unidades iniciales de todos los niveles, de A1 a C2.</li>
+                  <li>Reading, Grammar, Vocabulary, Listening y Speaking incluidos.</li>
+                  <li>Voces del dispositivo, traductor y flashcards.</li>
+                  <li>Tutor IA: 30 consultas al mes.</li>
+                  <li>Conversación por voz: 10 al mes.</li>
+                </ul>
+              </details>
             </article>
 
             <article class="plan premium-plan">
@@ -295,7 +305,7 @@
                 <span class="premium-badge">Conversación por voz</span>
                 <span class="premium-badge">Corrección de pronunciación</span>
               </div>
-              <ul>
+              <ul class="plan-benefits plan-benefits--desktop">
                 <li>Todos los idiomas y todos los niveles.</li>
                 <li>Todo Reading, Grammar, Vocabulary, Listening y Speaking.</li>
                 <li>Diálogos completos y Tutor IA: 500 consultas al mes.</li>
@@ -303,6 +313,17 @@
                 <li>Estadísticas completas y certificados.</li>
                 <li>Sin publicidad.</li>
               </ul>
+              <details class="plan-benefits-mobile">
+                <summary>Ver todos los beneficios Premium</summary>
+                <ul>
+                  <li>Todos los idiomas y todos los niveles.</li>
+                  <li>Todo Reading, Grammar, Vocabulary, Listening y Speaking.</li>
+                  <li>Diálogos completos y Tutor IA: 500 consultas al mes.</li>
+                  <li>Conversación por voz con corrección de pronunciación.</li>
+                  <li>Estadísticas completas y certificados.</li>
+                  <li>Sin publicidad.</li>
+                </ul>
+              </details>
               <div class="premium-checkout-actions">
                 <button type="button" class="primary-btn paddle-checkout-btn" data-billing-cycle="monthly">
                   Elegir mensual · <span data-premium-monthly-price>USD 4.99</span>
@@ -2192,9 +2213,9 @@
             <a href="/privacy.html">Política de privacidad</a>
             <a href="/refund-policy.html">Política de reembolso</a>
           </div>
+          <small class="footer-copyright">© <span id="footerYear">2026</span> <span data-i18n="footerRights">ANDERGO. Todos los derechos reservados.</span></small>
         </nav>
       </div>
-      <small>© <span id="footerYear">2026</span> <span data-i18n="footerRights">ANDERGO. Todos los derechos reservados.</span></small>
     </footer>
     <!-- Course worlds load only when their language is selected. Loading all
          three here made the first visit parse several MB of unused lessons. -->

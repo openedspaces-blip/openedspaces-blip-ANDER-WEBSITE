@@ -54,7 +54,17 @@ function collectStoryLines(row) {
     .filter((line) => transcriptSupportsOption(transcript, line));
   const transcriptLines = splitTranscript(transcript);
 
-  const lines = uniqueTexts([...segmentLines, ...transcriptLines]);
+  const strictCanonicalOrder =
+    row.target_language === 'english' &&
+    ['B1', 'B2', 'C1', 'C2'].includes(String(row.level || '').toUpperCase());
+  // Advanced English uses the reviewed transcript segments as its sole order
+  // source. Mixing a second sentence split into them could append partial
+  // quotations after the real ending.
+  const lines = strictCanonicalOrder
+    ? segmentLines.length >= 4
+      ? uniqueTexts(segmentLines)
+      : uniqueTexts(transcriptLines)
+    : uniqueTexts([...segmentLines, ...transcriptLines]);
   if (lines.length >= 4) return lines;
 
   // A few short A1/B1 stories are authored as only three long segments.
@@ -129,6 +139,14 @@ function buildPrompts({ language, level, title, sequenceAnchor, intentionAnchor 
       `Después de ${quotedSequence}, ¿qué sucede a continuación en ${quotedTitle}?`,
       `¿Qué frase revela mejor una intención o una decisión en ${quotedTitle}?`,
       `¿Qué resultado cierra ${quotedTitle} después de ${quotedIntention}?`
+    ];
+  }
+  if (['B1', 'B2', 'C1', 'C2'].includes(level)) {
+    return [
+      `Which opening statement explicitly introduces ${quotedTitle}?`,
+      `Which statement immediately follows ${quotedSequence} in ${quotedTitle}?`,
+      `Which statement explicitly presents a reason, recommendation, qualification, or decision in ${quotedTitle}?`,
+      `Which final statement explicitly closes ${quotedTitle}?`
     ];
   }
   return [
@@ -225,7 +243,13 @@ function buildContextualListeningBank(row) {
   const language = row.target_language || 'english';
   const level = String(row.level || '').toUpperCase();
   const useA1FrenchCopy = language === 'french' && level === 'A1';
-  const title = cleanText(row.title) || cleanText(row.slug);
+  const useCanonicalEnglishQuestions =
+    language === 'english' && ['B1', 'B2', 'C1', 'C2'].includes(level);
+  const title =
+    (useCanonicalEnglishQuestions &&
+      cleanText(row.content_json?.extra?.storyTitle)) ||
+    cleanText(row.title) ||
+    cleanText(row.slug);
   const storyLines = useA1FrenchCopy ? collectA1StoryLines(row) : collectStoryLines(row);
   if (useA1FrenchCopy) {
     return buildA1FrenchListeningBank(row, storyLines);
@@ -240,9 +264,21 @@ function buildContextualListeningBank(row) {
 
   const intentionPattern = INTENTION_PATTERNS[language] || INTENTION_PATTERNS.english;
   const intentionAnswer =
-    storyLines.find((line, index) => index > 0 && index < storyLines.length - 1 && intentionPattern.test(line)) ||
+    storyLines.find(
+      (line, index) =>
+        index > (useCanonicalEnglishQuestions ? 1 : 0) &&
+        index < storyLines.length - 1 &&
+        intentionPattern.test(line)
+    ) ||
     selected[2];
-  const answers = [selected[0], selected[1], intentionAnswer, selected[selected.length - 1]];
+  const answers = useCanonicalEnglishQuestions
+    ? [
+        storyLines[0],
+        storyLines[1],
+        intentionAnswer,
+        storyLines[storyLines.length - 1]
+      ]
+    : [selected[0], selected[1], intentionAnswer, selected[selected.length - 1]];
   const prompts = buildPrompts({
     language,
     level,

@@ -10833,6 +10833,41 @@ footer small {
   padding: clamp(1rem, 2vw, 1.5rem);
 }
 
+/* Listening comprehension follows the same generous reading column as the
+   transcript. The questions keep their hierarchy, while answer choices read
+   like normal text instead of competing visually with the prompt. */
+.listening-comprehension-direct .listening-comp-card {
+  width: 100%;
+  max-width: none;
+}
+
+.listening-comp-question-list {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
+}
+
+.listening-comp-question-item {
+  height: 100%;
+  background: #f7faff;
+}
+
+.listening-comp-question-content .grammar-test-question-prompt {
+  font-size: 1rem;
+  font-weight: 650;
+  line-height: 1.45;
+}
+
+.listening-comp-question-content .grammar-test-option {
+  min-height: 3.25rem;
+  font-size: 0.92rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.listening-comp-question-content .grammar-test-option-letter {
+  font-weight: 750;
+}
+
 .listening-comp-intro,
 .listening-comp-submit-row {
   display: flex;
@@ -10905,6 +10940,10 @@ footer small {
   }
 
   .listening-comp-question-content .grammar-test-options {
+    grid-template-columns: 1fr;
+  }
+
+  .listening-comp-question-list {
     grid-template-columns: 1fr;
   }
 }
@@ -15275,6 +15314,16 @@ footer p {
   gap: clamp(20px, 3vw, 42px);
 }
 
+.footer-copyright {
+  grid-column: 2;
+  grid-row: 1;
+  align-self: end;
+  justify-self: center;
+  width: min(100%, 410px);
+  padding-top: 9px;
+  text-align: center;
+}
+
 .footer-links-col {
   gap: 8px;
 }
@@ -15299,6 +15348,13 @@ footer small {
 }
 
 @media (max-width: 900px) {
+  .footer-copyright {
+    grid-column: 1 / -1;
+    grid-row: auto;
+    width: min(100%, 410px);
+    margin-top: 4px;
+  }
+
   .language-picker-section > .global-language-controls {
     align-items: stretch;
     flex-direction: column;
@@ -17779,5 +17835,529 @@ footer small {
     padding: 0.45rem 0.55rem;
     font-size: 0.7rem;
     text-align: left;
+  }
+}
+
+/* ==========================================================================
+   Mobile route clarity and overflow hardening
+   ========================================================================== */
+.plan-benefits-mobile {
+  display: none;
+}
+
+.reading-comp-question-track {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.reading-comp-mobile-hint {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .learning-path-layout,
+  .lesson-workspace,
+  .lesson-workspace--unit-overview,
+  .unit-overview-panel,
+  .unit-overview-header,
+  .unit-overview-progress,
+  .unit-overview-actions,
+  .unit-selection-intro,
+  .skill-view-content,
+  .reading-print-area,
+  .reading-reader-card,
+  .grammar-test-card {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .learning-path-layout > *,
+  .lesson-workspace > *,
+  .unit-overview-panel > *,
+  .skill-view-content > * {
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .lesson-workspace--unit-overview {
+    overflow: clip;
+  }
+
+  /* Keep one route model: unit list + the primary Continue action. */
+  #learning-path > .level-tabs,
+  .unit-overview-sequence {
+    display: none;
+  }
+
+  .unit-selection-intro {
+    margin-bottom: 0.6rem;
+    padding: 0.7rem 0.75rem;
+  }
+
+  .unit-selection-intro h3 {
+    font-size: 1rem;
+  }
+
+  .unit-selection-intro p {
+    font-size: 0.76rem;
+    line-height: 1.4;
+  }
+
+  .unit-overview-panel {
+    gap: 0.7rem;
+    padding: 0.8rem;
+    border-radius: 16px;
+  }
+
+  .unit-overview-header .unit-title {
+    font-size: 1.15rem;
+  }
+
+  .unit-overview-header .unit-objective,
+  .unit-overview-header .unit-scenario {
+    overflow-wrap: anywhere;
+    font-size: 0.8rem;
+  }
+
+  .unit-overview-actions .unit-action-btn {
+    width: 100%;
+    min-height: 48px;
+    justify-content: center;
+    font-size: 0.84rem;
+  }
+
+  /* The mission copy already identifies the current and next activity. */
+  .skill-view-section .unit-mission-strip {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 0.45rem;
+  }
+
+  .skill-view-section .unit-mission-copy {
+    width: auto;
+    min-width: 0;
+  }
+
+  .skill-view-section .unit-mission-copy strong,
+  .skill-view-section .unit-mission-copy small {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .skill-view-section .unit-route-markers {
+    display: none;
+  }
+
+  /* Reading content comes before secondary audio and typography controls. */
+  .reading-audio-controls {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 0.35rem;
+  }
+
+  .reading-audio-playpause-btn {
+    min-height: 44px;
+  }
+
+  .reading-audio-rewind-btn {
+    min-width: 48px;
+    min-height: 44px;
+  }
+
+  .reading-audio-stop-btn,
+  .reading-audio-voice-btn,
+  .reading-audio-rate-group,
+  .reading-audio-percent,
+  .reading-audio-status {
+    display: none !important;
+  }
+
+  .reading-audio-progress,
+  .reading-audio-meta {
+    grid-column: 1 / -1;
+    width: 100%;
+  }
+
+  .reading-audio-meta {
+    justify-content: flex-end;
+  }
+
+  .reading-display-controls {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0.25rem;
+    overflow: hidden;
+  }
+
+  .reading-display-label,
+  .reading-font-control,
+  .reading-align-btn {
+    display: none;
+  }
+
+  .reading-size-controls {
+    display: flex;
+    width: 100%;
+    gap: 0.3rem;
+  }
+
+  .reading-size-controls .reading-display-btn {
+    flex: 1 1 0;
+    min-height: 42px;
+  }
+
+  .reading-text p {
+    margin-bottom: 1rem;
+    text-indent: 0;
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+
+  .reading-selection-hint {
+    padding: 0.65rem;
+    font-size: 0.7rem;
+    line-height: 1.45;
+  }
+
+  /* One comprehension card per swipe, without changing grading state. */
+  .reading-comp-question-track {
+    display: flex;
+    flex-direction: row;
+    gap: 0.65rem;
+    width: 100%;
+    padding-bottom: 0.4rem;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: thin;
+  }
+
+  .reading-comp-question {
+    flex: 0 0 calc(100% - 0.55rem);
+    min-width: 0;
+    scroll-snap-align: start;
+  }
+
+  .reading-comp-quiz-header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.45rem;
+  }
+
+  .reading-comp-mobile-hint {
+    display: block;
+    color: var(--muted);
+    font-size: 0.7rem;
+    font-weight: 650;
+  }
+
+  .reading-comp-progress {
+    width: 100%;
+  }
+
+  .reading-comp-option {
+    min-height: 46px;
+  }
+
+  /* Grammar explanations stay complete in a compact horizontal deck. */
+  .grammar-quick-mission {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0.75rem;
+  }
+
+  .grammar-quick-grid {
+    display: flex;
+    gap: 0.55rem;
+    width: 100%;
+    padding-bottom: 0.35rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: thin;
+  }
+
+  .grammar-quick-grid article {
+    flex: 0 0 86%;
+    scroll-snap-align: start;
+  }
+
+  .grammar-quick-ready {
+    gap: 0.3rem;
+  }
+
+  .grammar-quick-ready span {
+    padding: 0.32rem 0.5rem;
+    font-size: 0.68rem;
+  }
+
+  /* Compare the plans first; expand the long feature lists on demand. */
+  .plan-benefits--desktop {
+    display: none;
+  }
+
+  .plan-benefits-mobile {
+    display: block;
+    margin: 0.65rem 0;
+    border: 1px solid rgba(37, 99, 235, 0.14);
+    border-radius: 12px;
+    background: rgba(248, 251, 255, 0.88);
+  }
+
+  .plan-benefits-mobile summary {
+    min-height: 44px;
+    padding: 0.75rem;
+    color: var(--blue);
+    font-size: 0.78rem;
+    font-weight: 800;
+    cursor: pointer;
+  }
+
+  .plan-benefits-mobile ul {
+    margin: 0;
+    padding: 0 0.8rem 0.8rem 1.8rem;
+  }
+
+  .plan-benefits-mobile li {
+    margin-bottom: 0.5rem;
+    font-size: 0.78rem;
+    line-height: 1.4;
+  }
+
+  .pricing-layout .plan {
+    min-width: 0;
+    padding: 1rem;
+  }
+
+  .premium-checkout-actions {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.55rem;
+  }
+
+  .premium-checkout-actions .primary-btn,
+  .premium-checkout-actions .secondary-btn {
+    width: 100%;
+    min-height: 48px;
+  }
+
+  .mobile-app-nav a,
+  .navbar .menu-toggle,
+  .learn-route-toggle,
+  .route-path-controls select {
+    min-height: 44px;
+  }
+}
+
+/* ==========================================================================
+   Learning route toolbar polish
+   ========================================================================== */
+.learning-path-section {
+  --route-control-height: 42px;
+}
+
+.learning-path-section > .section-heading {
+  margin-bottom: 0.9rem;
+}
+
+.learning-path-section > .section-heading h2 {
+  margin-block: 0.12rem 0.22rem;
+  font-size: clamp(1.65rem, 3vw, 2.15rem);
+}
+
+.learning-path-section > .section-heading p {
+  max-width: 720px;
+  margin-inline: auto;
+  color: #64748b;
+  font-size: 0.94rem;
+}
+
+.route-path-controls {
+  width: min(900px, 100%);
+  gap: 0.7rem;
+  margin-bottom: 0.75rem;
+  padding: 0.8rem 0.9rem 0.9rem;
+  border-color: rgba(37, 99, 235, 0.14);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 10px 26px rgba(37, 99, 235, 0.07);
+}
+
+.route-target-identity {
+  min-height: 34px;
+  padding: 0 0.2rem 0.58rem;
+}
+
+.route-target-identity::before {
+  width: 1.85rem;
+  height: 1.85rem;
+  border-radius: 10px;
+}
+
+.route-target-identity span {
+  font-size: 0.69rem;
+}
+
+.route-target-identity strong {
+  font-size: 1.03rem;
+}
+
+.route-path-controls .language-pair-bar {
+  gap: 0.7rem;
+}
+
+.route-path-controls .language-pair-field,
+.route-path-controls .language-pair-field-level {
+  gap: 0.28rem;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+
+.route-path-controls .route-support-language,
+.route-path-controls .route-target-level {
+  border: 0;
+  background: transparent;
+}
+
+.route-path-controls .language-pair-field > span {
+  padding-inline: 0.12rem;
+  font-size: 0.7rem;
+}
+
+.route-path-controls .language-pair-field select {
+  min-height: var(--route-control-height);
+  padding: 0.52rem 0.78rem;
+  border: 1px solid rgba(37, 99, 235, 0.17);
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.025);
+  font-size: 0.86rem;
+  transition:
+    border-color 160ms ease,
+    box-shadow 160ms ease,
+    background-color 160ms ease;
+}
+
+.route-path-controls .language-pair-field select:hover {
+  border-color: rgba(37, 99, 235, 0.34);
+  background-color: #fbfdff;
+}
+
+.route-path-controls .language-pair-field select:focus-visible {
+  border-color: var(--blue);
+  outline: 0;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.13);
+}
+
+.route-path-controls .path-pair-preview {
+  display: grid;
+  min-height: 38px;
+  place-items: center;
+  padding: 0.48rem 0.7rem;
+  border: 1px solid rgba(37, 99, 235, 0.08);
+  border-radius: 11px;
+  background: linear-gradient(90deg, rgba(37, 99, 235, 0.055), rgba(14, 165, 233, 0.07));
+  font-size: 0.75rem;
+}
+
+#learning-path > .level-tabs {
+  width: fit-content;
+  max-width: 100%;
+  min-height: 48px;
+  margin: 0 auto 0.45rem;
+  padding: 0.28rem;
+  border: 1px solid rgba(37, 99, 235, 0.14);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 7px 20px rgba(37, 99, 235, 0.055);
+  gap: 0.16rem;
+}
+
+#learning-path > .level-tabs .level-tab {
+  min-height: var(--route-control-height);
+  padding: 0.48rem 0.88rem;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  background: transparent;
+  box-shadow: none;
+  font-size: 0.78rem;
+  font-weight: 750;
+  transition:
+    color 160ms ease,
+    background-color 160ms ease,
+    box-shadow 160ms ease,
+    transform 160ms ease;
+}
+
+#learning-path > .level-tabs .level-tab:hover {
+  border-color: transparent;
+  background: rgba(37, 99, 235, 0.075);
+  color: var(--blue);
+  transform: translateY(-1px);
+}
+
+#learning-path > .level-tabs .level-tab.active,
+#learning-path > .level-tabs .level-tab[aria-current='page'] {
+  border-color: transparent;
+  background: var(--gradient-primary);
+  box-shadow: 0 6px 14px rgba(37, 99, 235, 0.18);
+  color: #fff;
+}
+
+#learning-path > .learning-route-context {
+  min-height: 32px;
+  margin: 0 auto 0.75rem;
+  padding: 0.28rem 0.78rem;
+  border-color: rgba(37, 99, 235, 0.13);
+  background: rgba(255, 255, 255, 0.74);
+  box-shadow: none;
+  color: #334155;
+  font-size: 0.72rem;
+}
+
+@media (max-width: 720px) and (min-width: 641px) {
+  #learning-path > .level-tabs {
+    width: 100%;
+    border-radius: 16px;
+    scroll-padding-inline: 0.28rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .learning-path-section > .section-heading {
+    margin-bottom: 0.65rem;
+  }
+
+  .learning-path-section > .section-heading h2 {
+    font-size: clamp(1.45rem, 8vw, 1.8rem);
+  }
+
+  .learning-path-section > .section-heading p {
+    font-size: 0.82rem;
+  }
+
+  .route-path-controls {
+    padding: 0.62rem;
+  }
+
+  .route-path-controls .language-pair-field,
+  .route-path-controls .language-pair-field-level {
+    padding: 0;
+  }
+
+  .route-path-controls .language-pair-field select {
+    min-height: 42px;
+  }
+
+  #learning-path > .learning-route-context {
+    width: 100%;
+    justify-content: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 }

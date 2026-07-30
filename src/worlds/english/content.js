@@ -975,7 +975,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Practising for the Interview”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “My First Month at a New Job”?",
             "options": [
               {
                 "id": "o1",
@@ -998,7 +998,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Three employees compare what they have learned during their first…”, what happens next in “Practising for the Interview”?",
+            "prompt": "Which statement immediately follows “Three employees compare what they have learned during their first…” in “My First Month at a New Job”?",
             "options": [
               {
                 "id": "o1",
@@ -1006,22 +1006,22 @@
               },
               {
                 "id": "o2",
-                "text": "Jonah has completed an online course, but he still has to deal with a new software system."
+                "text": "Malik has already led a short meeting, although he had never spoken to a large team before."
               },
               {
                 "id": "o3",
-                "text": "They have made mistakes, changed their routines, and kept track of small improvements."
+                "text": "Jonah has completed an online course, but he still has to deal with a new software system."
               },
               {
                 "id": "o4",
-                "text": "The experience shows that confidence often develops after people accept a challenge, not before."
+                "text": "They have made mistakes, changed their routines, and kept track of small improvements."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Practising for the Interview”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “My First Month at a New Job”?",
             "options": [
               {
                 "id": "o1",
@@ -1044,7 +1044,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Practising for the Interview” after “In fact, the team has solved problems more quickly because the new…”?",
+            "prompt": "Which final statement explicitly closes “My First Month at a New Job”?",
             "options": [
               {
                 "id": "o1",
@@ -1078,7 +1078,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Practising for the Interview”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “My First Month at a New Job”?",
         "options": [
           "Three employees compare what they have learned during their first month at a new company.",
           "Jonah has completed an online course, but he still has to deal with a new software system.",
@@ -1088,17 +1088,17 @@
       },
       {
         "type": "mcq",
-        "prompt": "After “Three employees compare what they have learned during their first…”, what happens next in “Practising for the Interview”?",
+        "prompt": "Which statement immediately follows “Three employees compare what they have learned during their first…” in “My First Month at a New Job”?",
         "options": [
           "Three employees compare what they have learned during their first month at a new company.",
+          "Malik has already led a short meeting, although he had never spoken to a large team before.",
           "Jonah has completed an online course, but he still has to deal with a new software system.",
-          "They have made mistakes, changed their routines, and kept track of small improvements.",
-          "The experience shows that confidence often develops after people accept a challenge, not before."
+          "They have made mistakes, changed their routines, and kept track of small improvements."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Practising for the Interview”?",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “My First Month at a New Job”?",
         "options": [
           "Three employees compare what they have learned during their first month at a new company.",
           "Jonah has completed an online course, but he still has to deal with a new software system.",
@@ -1108,7 +1108,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Practising for the Interview” after “In fact, the team has solved problems more quickly because the new…”?",
+        "prompt": "Which final statement explicitly closes “My First Month at a New Job”?",
         "options": [
           "Three employees compare what they have learned during their first month at a new company.",
           "Jonah has completed an online course, but he still has to deal with a new software system.",
@@ -1466,7 +1466,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Listening Lab: Social Media and Public Opinion”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “When AI Makes a False Story Look Real”?",
             "options": [
               {
                 "id": "o1",
@@ -1489,7 +1489,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “A video about a city election went viral last week, but fact-checkers…”, what happens next in “Listening Lab: Social Media and Public Opinion”?",
+            "prompt": "Which statement immediately follows “A video about a city election went viral last week, but fact-checkers…” in “When AI Makes a False Story Look Real”?",
             "options": [
               {
                 "id": "o1",
@@ -1497,22 +1497,22 @@
               },
               {
                 "id": "o2",
-                "text": "The original source was difficult to find because thousands of accounts had already shared the shorter version."
+                "text": "How did it influence public opinion?"
               },
               {
                 "id": "o3",
-                "text": "That does not prove deliberate bias, but it helps explain why the false claim spread quickly."
+                "text": "The original source was difficult to find because thousands of accounts had already shared the shorter version."
               },
               {
                 "id": "o4",
-                "text": "Otherwise, fact-checking itself may be seen as political control."
+                "text": "That does not prove deliberate bias, but it helps explain why the false claim spread quickly."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Social Media and Public Opinion”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “When AI Makes a False Story Look Real”?",
             "options": [
               {
                 "id": "o1",
@@ -1535,7 +1535,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Social Media and Public Opinion” after “The original source was difficult to find because thousands of…”?",
+            "prompt": "Which final statement explicitly closes “When AI Makes a False Story Look Real”?",
             "options": [
               {
                 "id": "o1",
@@ -1634,7 +1634,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Listening Lab: Social Media and Public Opinion”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “When AI Makes a False Story Look Real”?",
         "options": [
           "Host: A video about a city election went viral last week, but fact-checkers later described it as misleading.",
           "The original source was difficult to find because thousands of accounts had already shared the shorter version.",
@@ -1644,27 +1644,27 @@
       },
       {
         "type": "mcq",
-        "prompt": "After “A video about a city election went viral last week, but fact-checkers…”, what happens next in “Listening Lab: Social Media and Public Opinion”?",
+        "prompt": "Which statement immediately follows “A video about a city election went viral last week, but fact-checkers…” in “When AI Makes a False Story Look Real”?",
         "options": [
           "Host: A video about a city election went viral last week, but fact-checkers later described it as misleading.",
+          "How did it influence public opinion?",
           "The original source was difficult to find because thousands of accounts had already shared the shorter version.",
+          "That does not prove deliberate bias, but it helps explain why the false claim spread quickly."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “When AI Makes a False Story Look Real”?",
+        "options": [
+          "Host: A video about a city election went viral last week, but fact-checkers later described it as misleading.",
           "That does not prove deliberate bias, but it helps explain why the false claim spread quickly.",
+          "The original source was difficult to find because thousands of accounts had already shared the shorter version.",
           "Otherwise, fact-checking itself may be seen as political control."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Social Media and Public Opinion”?",
-        "options": [
-          "Host: A video about a city election went viral last week, but fact-checkers later described it as misleading.",
-          "That does not prove deliberate bias, but it helps explain why the false claim spread quickly.",
-          "The original source was difficult to find because thousands of accounts had already shared the shorter version.",
-          "Otherwise, fact-checking itself may be seen as political control."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Social Media and Public Opinion” after “The original source was difficult to find because thousands of…”?",
+        "prompt": "Which final statement explicitly closes “When AI Makes a False Story Look Real”?",
         "options": [
           "Host: A video about a city election went viral last week, but fact-checkers later described it as misleading.",
           "The original source was difficult to find because thousands of accounts had already shared the shorter version.",
@@ -1732,7 +1732,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Listening Lab: Antimicrobial Resistance and One Health”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “The Silent Return of Untreatable Infections”?",
             "options": [
               {
                 "id": "o1",
@@ -1755,7 +1755,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Antibiotics have transformed modern medicine, yet their effectiveness…”, what happens next in “Listening Lab: Antimicrobial Resistance and One Health”?",
+            "prompt": "Which statement immediately follows “Antibiotics have transformed modern medicine, yet their effectiveness…” in “The Silent Return of Untreatable Infections”?",
             "options": [
               {
                 "id": "o1",
@@ -1763,22 +1763,22 @@
               },
               {
                 "id": "o2",
-                "text": "Overuse is part of the explanation, but individual patients are not the only actors."
+                "text": "Antimicrobial resistance develops when bacteria, viruses, fungi, or parasites survive treatments that once controlled them."
               },
               {
                 "id": "o3",
-                "text": "Restricting medicine without improving access would be equally dangerous, since many people still cannot obtain the treatment they genuinely need."
+                "text": "Overuse is part of the explanation, but individual patients are not the only actors."
               },
               {
                 "id": "o4",
-                "text": "What matters is whether health systems can detect change early, share evidence, prevent infection, and treat existing medicines as a common resource rather than an unlimited convenience."
+                "text": "Restricting medicine without improving access would be equally dangerous, since many people still cannot obtain the treatment they genuinely need."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Antimicrobial Resistance and One Health”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “The Silent Return of Untreatable Infections”?",
             "options": [
               {
                 "id": "o1",
@@ -1801,7 +1801,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Antimicrobial Resistance and One Health” after “Restricting medicine without improving access would be equally…”?",
+            "prompt": "Which final statement explicitly closes “The Silent Return of Untreatable Infections”?",
             "options": [
               {
                 "id": "o1",
@@ -1905,7 +1905,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Listening Lab: Antimicrobial Resistance and One Health”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “The Silent Return of Untreatable Infections”?",
         "options": [
           "Antibiotics have transformed modern medicine, yet their effectiveness cannot be taken for granted.",
           "Overuse is part of the explanation, but individual patients are not the only actors.",
@@ -1915,7 +1915,17 @@
       },
       {
         "type": "mcq",
-        "prompt": "After “Antibiotics have transformed modern medicine, yet their effectiveness…”, what happens next in “Listening Lab: Antimicrobial Resistance and One Health”?",
+        "prompt": "Which statement immediately follows “Antibiotics have transformed modern medicine, yet their effectiveness…” in “The Silent Return of Untreatable Infections”?",
+        "options": [
+          "Antibiotics have transformed modern medicine, yet their effectiveness cannot be taken for granted.",
+          "Antimicrobial resistance develops when bacteria, viruses, fungi, or parasites survive treatments that once controlled them.",
+          "Overuse is part of the explanation, but individual patients are not the only actors.",
+          "Restricting medicine without improving access would be equally dangerous, since many people still cannot obtain the treatment they genuinely need."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “The Silent Return of Untreatable Infections”?",
         "options": [
           "Antibiotics have transformed modern medicine, yet their effectiveness cannot be taken for granted.",
           "Overuse is part of the explanation, but individual patients are not the only actors.",
@@ -1925,17 +1935,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Antimicrobial Resistance and One Health”?",
-        "options": [
-          "Antibiotics have transformed modern medicine, yet their effectiveness cannot be taken for granted.",
-          "Overuse is part of the explanation, but individual patients are not the only actors.",
-          "Restricting medicine without improving access would be equally dangerous, since many people still cannot obtain the treatment they genuinely need.",
-          "What matters is whether health systems can detect change early, share evidence, prevent infection, and treat existing medicines as a common resource rather than an unlimited convenience."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Antimicrobial Resistance and One Health” after “Restricting medicine without improving access would be equally…”?",
+        "prompt": "Which final statement explicitly closes “The Silent Return of Untreatable Infections”?",
         "options": [
           "Antibiotics have transformed modern medicine, yet their effectiveness cannot be taken for granted.",
           "Overuse is part of the explanation, but individual patients are not the only actors.",
@@ -2003,7 +2003,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Listening Lab: Adult Neuroplasticity and Second-Language Mastery”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “Adult Language Learning Beyond the Critical Period”?",
             "options": [
               {
                 "id": "o1",
@@ -2026,7 +2026,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “The claim that adults are simply too old to master another language…”, what happens next in “Listening Lab: Adult Neuroplasticity and Second-Language Mastery”?",
+            "prompt": "Which statement immediately follows “The claim that adults are simply too old to master another language…” in “Adult Language Learning Beyond the Critical Period”?",
             "options": [
               {
                 "id": "o1",
@@ -2034,22 +2034,22 @@
               },
               {
                 "id": "o2",
-                "text": "A cross-sectional difference between multilingual and monolingual adults does not establish what caused it; people who persist in language learning may already differ in education, motivation, or opportunity."
+                "text": "Childhood offers advantages, particularly in acquiring pronunciation through sustained immersion, yet adult neuroplasticity does not disappear."
               },
               {
                 "id": "o3",
-                "text": "Compared with children, adults possess stronger analytic knowledge and richer conceptual experience, while often receiving less input and facing greater anxiety about error."
+                "text": "A cross-sectional difference between multilingual and monolingual adults does not establish what caused it; people who persist in language learning may already differ in education, motivation, or opportunity."
               },
               {
                 "id": "o4",
-                "text": "What deserves explanation is not whether adults can learn, which they plainly do, but how instruction can exploit their strengths while providing the intensive perception and interaction that natural childhood environments once supplied."
+                "text": "Compared with children, adults possess stronger analytic knowledge and richer conceptual experience, while often receiving less input and facing greater anxiety about error."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Adult Neuroplasticity and Second-Language Mastery”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Adult Language Learning Beyond the Critical Period”?",
             "options": [
               {
                 "id": "o1",
@@ -2072,7 +2072,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Adult Neuroplasticity and Second-Language Mastery” after “Near-native pronunciation is an inappropriate universal benchmark…”?",
+            "prompt": "Which final statement explicitly closes “Adult Language Learning Beyond the Critical Period”?",
             "options": [
               {
                 "id": "o1",
@@ -2166,7 +2166,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Listening Lab: Adult Neuroplasticity and Second-Language Mastery”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “Adult Language Learning Beyond the Critical Period”?",
         "options": [
           "The claim that adults are simply too old to master another language confuses an average tendency with a biological verdict.",
           "A cross-sectional difference between multilingual and monolingual adults does not establish what caused it; people who persist in language learning may already differ in education, motivation, or opportunity.",
@@ -2176,17 +2176,17 @@
       },
       {
         "type": "mcq",
-        "prompt": "After “The claim that adults are simply too old to master another language…”, what happens next in “Listening Lab: Adult Neuroplasticity and Second-Language Mastery”?",
+        "prompt": "Which statement immediately follows “The claim that adults are simply too old to master another language…” in “Adult Language Learning Beyond the Critical Period”?",
         "options": [
           "The claim that adults are simply too old to master another language confuses an average tendency with a biological verdict.",
+          "Childhood offers advantages, particularly in acquiring pronunciation through sustained immersion, yet adult neuroplasticity does not disappear.",
           "A cross-sectional difference between multilingual and monolingual adults does not establish what caused it; people who persist in language learning may already differ in education, motivation, or opportunity.",
-          "Compared with children, adults possess stronger analytic knowledge and richer conceptual experience, while often receiving less input and facing greater anxiety about error.",
-          "What deserves explanation is not whether adults can learn, which they plainly do, but how instruction can exploit their strengths while providing the intensive perception and interaction that natural childhood environments once supplied."
+          "Compared with children, adults possess stronger analytic knowledge and richer conceptual experience, while often receiving less input and facing greater anxiety about error."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Adult Neuroplasticity and Second-Language Mastery”?",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Adult Language Learning Beyond the Critical Period”?",
         "options": [
           "The claim that adults are simply too old to master another language confuses an average tendency with a biological verdict.",
           "A cross-sectional difference between multilingual and monolingual adults does not establish what caused it; people who persist in language learning may already differ in education, motivation, or opportunity.",
@@ -2196,7 +2196,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Adult Neuroplasticity and Second-Language Mastery” after “Near-native pronunciation is an inappropriate universal benchmark…”?",
+        "prompt": "Which final statement explicitly closes “Adult Language Learning Beyond the Critical Period”?",
         "options": [
           "The claim that adults are simply too old to master another language confuses an average tendency with a biological verdict.",
           "A cross-sectional difference between multilingual and monolingual adults does not establish what caused it; people who persist in language learning may already differ in education, motivation, or opportunity.",
@@ -8303,7 +8303,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “A Career Conversation”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “Getting Ready for a Job Interview”?",
             "options": [
               {
                 "id": "o1",
@@ -8326,7 +8326,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Career adviser Mia Torres is giving practical advice to people…”, what happens next in “A Career Conversation”?",
+            "prompt": "Which statement immediately follows “Career adviser Mia Torres is giving practical advice to people…” in “Getting Ready for a Job Interview”?",
             "options": [
               {
                 "id": "o1",
@@ -8334,22 +8334,22 @@
               },
               {
                 "id": "o2",
-                "text": "They are also going to practice short answers instead of memorizing a complete speech."
+                "text": "First, candidates are going to research the company and choose examples that demonstrate their skills."
               },
               {
                 "id": "o3",
-                "text": "Candidates should check their internet connection if the meeting is online, and they should arrange a quiet space in advance."
+                "text": "They are also going to practice short answers instead of memorizing a complete speech."
               },
               {
                 "id": "o4",
-                "text": "Mia says an interview is not only a test; it is also an opportunity to decide whether the job supports a person’s long-term goals."
+                "text": "Candidates should check their internet connection if the meeting is online, and they should arrange a quiet space in advance."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “A Career Conversation”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Getting Ready for a Job Interview”?",
             "options": [
               {
                 "id": "o1",
@@ -8372,7 +8372,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “A Career Conversation” after “Mia recommends preparing one question about the role because curiosity…”?",
+            "prompt": "Which final statement explicitly closes “Getting Ready for a Job Interview”?",
             "options": [
               {
                 "id": "o1",
@@ -8406,7 +8406,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “A Career Conversation”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “Getting Ready for a Job Interview”?",
         "options": [
           "Career adviser Mia Torres is giving practical advice to people preparing for an interview.",
           "They are also going to practice short answers instead of memorizing a complete speech.",
@@ -8416,17 +8416,17 @@
       },
       {
         "type": "mcq",
-        "prompt": "After “Career adviser Mia Torres is giving practical advice to people…”, what happens next in “A Career Conversation”?",
+        "prompt": "Which statement immediately follows “Career adviser Mia Torres is giving practical advice to people…” in “Getting Ready for a Job Interview”?",
         "options": [
           "Career adviser Mia Torres is giving practical advice to people preparing for an interview.",
+          "First, candidates are going to research the company and choose examples that demonstrate their skills.",
           "They are also going to practice short answers instead of memorizing a complete speech.",
-          "Candidates should check their internet connection if the meeting is online, and they should arrange a quiet space in advance.",
-          "Mia says an interview is not only a test; it is also an opportunity to decide whether the job supports a person’s long-term goals."
+          "Candidates should check their internet connection if the meeting is online, and they should arrange a quiet space in advance."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “A Career Conversation”?",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Getting Ready for a Job Interview”?",
         "options": [
           "Career adviser Mia Torres is giving practical advice to people preparing for an interview.",
           "They are also going to practice short answers instead of memorizing a complete speech.",
@@ -8436,7 +8436,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “A Career Conversation” after “Mia recommends preparing one question about the role because curiosity…”?",
+        "prompt": "Which final statement explicitly closes “Getting Ready for a Job Interview”?",
         "options": [
           "Career adviser Mia Torres is giving practical advice to people preparing for an interview.",
           "They are also going to practice short answers instead of memorizing a complete speech.",
@@ -8770,7 +8770,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Listening Lab: Plastic Pollution in Our Cities”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “Why Cities Are Cutting Single-Use Plastic”?",
             "options": [
               {
                 "id": "o1",
@@ -8793,7 +8793,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “The river clean-up collected hundreds of bags after the festival.”, what happens next in “Listening Lab: Plastic Pollution in Our Cities”?",
+            "prompt": "Which statement immediately follows “The river clean-up collected hundreds of bags after the festival.” in “Why Cities Are Cutting Single-Use Plastic”?",
             "options": [
               {
                 "id": "o1",
@@ -8801,22 +8801,22 @@
               },
               {
                 "id": "o2",
-                "text": "Over time, some pieces will break down into microplastic."
+                "text": "What did volunteers find?"
               },
               {
                 "id": "o3",
-                "text": "Host: Who carries the greatest responsibility?"
+                "text": "Over time, some pieces will break down into microplastic."
               },
               {
                 "id": "o4",
-                "text": "That would prevent waste instead of merely having it collected afterward."
+                "text": "Host: Who carries the greatest responsibility?"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Plastic Pollution in Our Cities”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Why Cities Are Cutting Single-Use Plastic”?",
             "options": [
               {
                 "id": "o1",
@@ -8839,7 +8839,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Plastic Pollution in Our Cities” after “Organizers should have vendors use reusable containers, and they can…”?",
+            "prompt": "Which final statement explicitly closes “Why Cities Are Cutting Single-Use Plastic”?",
             "options": [
               {
                 "id": "o1",
@@ -8943,7 +8943,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Listening Lab: Plastic Pollution in Our Cities”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “Why Cities Are Cutting Single-Use Plastic”?",
         "options": [
           "Host: The river clean-up collected hundreds of bags after the festival.",
           "Over time, some pieces will break down into microplastic.",
@@ -8953,17 +8953,17 @@
       },
       {
         "type": "mcq",
-        "prompt": "After “The river clean-up collected hundreds of bags after the festival.”, what happens next in “Listening Lab: Plastic Pollution in Our Cities”?",
+        "prompt": "Which statement immediately follows “The river clean-up collected hundreds of bags after the festival.” in “Why Cities Are Cutting Single-Use Plastic”?",
         "options": [
           "Host: The river clean-up collected hundreds of bags after the festival.",
+          "What did volunteers find?",
           "Over time, some pieces will break down into microplastic.",
-          "Host: Who carries the greatest responsibility?",
-          "That would prevent waste instead of merely having it collected afterward."
+          "Host: Who carries the greatest responsibility?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Plastic Pollution in Our Cities”?",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Why Cities Are Cutting Single-Use Plastic”?",
         "options": [
           "Host: The river clean-up collected hundreds of bags after the festival.",
           "Over time, some pieces will break down into microplastic.",
@@ -8973,7 +8973,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Plastic Pollution in Our Cities” after “Organizers should have vendors use reusable containers, and they can…”?",
+        "prompt": "Which final statement explicitly closes “Why Cities Are Cutting Single-Use Plastic”?",
         "options": [
           "Host: The river clean-up collected hundreds of bags after the festival.",
           "Over time, some pieces will break down into microplastic.",
@@ -9041,7 +9041,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Listening Lab: Artificial Intelligence and Energy Demand”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “The Hidden Energy Cost of AI”?",
             "options": [
               {
                 "id": "o1",
@@ -9064,7 +9064,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “An artificial-intelligence response may appear instantly on a screen,…”, what happens next in “Listening Lab: Artificial Intelligence and Energy Demand”?",
+            "prompt": "Which statement immediately follows “An artificial-intelligence response may appear instantly on a screen,…” in “The Hidden Energy Cost of AI”?",
             "options": [
               {
                 "id": "o1",
@@ -9072,22 +9072,22 @@
               },
               {
                 "id": "o2",
-                "text": "A new chip may perform the same computing workload with less energy, yet cheaper and faster systems can encourage far more use."
+                "text": "Data centres contain specialised chips, cooling equipment, backup power, and network infrastructure."
               },
               {
                 "id": "o3",
-                "text": "A centre supplied by low-carbon power during periods of surplus has a different impact from one that extends the life of a fossil-fuel plant."
+                "text": "A new chip may perform the same computing workload with less energy, yet cheaper and faster systems can encourage far more use."
               },
               {
                 "id": "o4",
-                "text": "It is whether the infrastructure behind that computation can grow without transferring hidden costs to households, public services, and the climate."
+                "text": "A centre supplied by low-carbon power during periods of surplus has a different impact from one that extends the life of a fossil-fuel plant."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Artificial Intelligence and Energy Demand”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “The Hidden Energy Cost of AI”?",
             "options": [
               {
                 "id": "o1",
@@ -9110,7 +9110,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Artificial Intelligence and Energy Demand” after “Precise forecasts remain difficult because firms disclose limited…”?",
+            "prompt": "Which final statement explicitly closes “The Hidden Energy Cost of AI”?",
             "options": [
               {
                 "id": "o1",
@@ -9209,7 +9209,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Listening Lab: Artificial Intelligence and Energy Demand”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “The Hidden Energy Cost of AI”?",
         "options": [
           "An artificial-intelligence response may appear instantly on a screen, but it depends on a physical system that is largely invisible to the user.",
           "A new chip may perform the same computing workload with less energy, yet cheaper and faster systems can encourage far more use.",
@@ -9219,17 +9219,17 @@
       },
       {
         "type": "mcq",
-        "prompt": "After “An artificial-intelligence response may appear instantly on a screen,…”, what happens next in “Listening Lab: Artificial Intelligence and Energy Demand”?",
+        "prompt": "Which statement immediately follows “An artificial-intelligence response may appear instantly on a screen,…” in “The Hidden Energy Cost of AI”?",
         "options": [
           "An artificial-intelligence response may appear instantly on a screen, but it depends on a physical system that is largely invisible to the user.",
+          "Data centres contain specialised chips, cooling equipment, backup power, and network infrastructure.",
           "A new chip may perform the same computing workload with less energy, yet cheaper and faster systems can encourage far more use.",
-          "A centre supplied by low-carbon power during periods of surplus has a different impact from one that extends the life of a fossil-fuel plant.",
-          "It is whether the infrastructure behind that computation can grow without transferring hidden costs to households, public services, and the climate."
+          "A centre supplied by low-carbon power during periods of surplus has a different impact from one that extends the life of a fossil-fuel plant."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Artificial Intelligence and Energy Demand”?",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “The Hidden Energy Cost of AI”?",
         "options": [
           "An artificial-intelligence response may appear instantly on a screen, but it depends on a physical system that is largely invisible to the user.",
           "A new chip may perform the same computing workload with less energy, yet cheaper and faster systems can encourage far more use.",
@@ -9239,7 +9239,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Artificial Intelligence and Energy Demand” after “Precise forecasts remain difficult because firms disclose limited…”?",
+        "prompt": "Which final statement explicitly closes “The Hidden Energy Cost of AI”?",
         "options": [
           "An artificial-intelligence response may appear instantly on a screen, but it depends on a physical system that is largely invisible to the user.",
           "A new chip may perform the same computing workload with less energy, yet cheaper and faster systems can encourage far more use.",
@@ -9307,7 +9307,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Listening Lab: Retrieval Practice, Spacing and Durable Learning”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “The Memory Paradox: Why Difficulty Helps Learning”?",
             "options": [
               {
                 "id": "o1",
@@ -9330,7 +9330,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Rereading feels productive because the page becomes familiar, yet…”, what happens next in “Listening Lab: Retrieval Practice, Spacing and Durable Learning”?",
+            "prompt": "Which statement immediately follows “Rereading feels productive because the page becomes familiar, yet…” in “The Memory Paradox: Why Difficulty Helps Learning”?",
             "options": [
               {
                 "id": "o1",
@@ -9338,22 +9338,22 @@
               },
               {
                 "id": "o2",
-                "text": "The principle is frequently oversimplified into a perfect schedule."
+                "text": "Retrieval practice requires learners to reconstruct information without immediately seeing it: recalling a word, explaining an argument, or completing a sentence from memory."
               },
               {
                 "id": "o3",
-                "text": "Interleaving related topics may reduce the familiarity illusion further by forcing learners to decide which idea applies."
+                "text": "The principle is frequently oversimplified into a perfect schedule."
               },
               {
                 "id": "o4",
-                "text": "Learning becomes less comfortable at the moment of practice precisely because memory is being required to do the work it will need to do in the future."
+                "text": "Interleaving related topics may reduce the familiarity illusion further by forcing learners to decide which idea applies."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Retrieval Practice, Spacing and Durable Learning”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “The Memory Paradox: Why Difficulty Helps Learning”?",
             "options": [
               {
                 "id": "o1",
@@ -9376,7 +9376,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Retrieval Practice, Spacing and Durable Learning” after “Interleaving related topics may reduce the familiarity illusion…”?",
+            "prompt": "Which final statement explicitly closes “The Memory Paradox: Why Difficulty Helps Learning”?",
             "options": [
               {
                 "id": "o1",
@@ -9495,7 +9495,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Listening Lab: Retrieval Practice, Spacing and Durable Learning”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “The Memory Paradox: Why Difficulty Helps Learning”?",
         "options": [
           "Rereading feels productive because the page becomes familiar, yet familiarity is a poor substitute for access.",
           "The principle is frequently oversimplified into a perfect schedule.",
@@ -9505,7 +9505,17 @@
       },
       {
         "type": "mcq",
-        "prompt": "After “Rereading feels productive because the page becomes familiar, yet…”, what happens next in “Listening Lab: Retrieval Practice, Spacing and Durable Learning”?",
+        "prompt": "Which statement immediately follows “Rereading feels productive because the page becomes familiar, yet…” in “The Memory Paradox: Why Difficulty Helps Learning”?",
+        "options": [
+          "Rereading feels productive because the page becomes familiar, yet familiarity is a poor substitute for access.",
+          "Retrieval practice requires learners to reconstruct information without immediately seeing it: recalling a word, explaining an argument, or completing a sentence from memory.",
+          "The principle is frequently oversimplified into a perfect schedule.",
+          "Interleaving related topics may reduce the familiarity illusion further by forcing learners to decide which idea applies."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “The Memory Paradox: Why Difficulty Helps Learning”?",
         "options": [
           "Rereading feels productive because the page becomes familiar, yet familiarity is a poor substitute for access.",
           "The principle is frequently oversimplified into a perfect schedule.",
@@ -9515,17 +9525,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Retrieval Practice, Spacing and Durable Learning”?",
-        "options": [
-          "Rereading feels productive because the page becomes familiar, yet familiarity is a poor substitute for access.",
-          "The principle is frequently oversimplified into a perfect schedule.",
-          "Interleaving related topics may reduce the familiarity illusion further by forcing learners to decide which idea applies.",
-          "Learning becomes less comfortable at the moment of practice precisely because memory is being required to do the work it will need to do in the future."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Retrieval Practice, Spacing and Durable Learning” after “Interleaving related topics may reduce the familiarity illusion…”?",
+        "prompt": "Which final statement explicitly closes “The Memory Paradox: Why Difficulty Helps Learning”?",
         "options": [
           "Rereading feels productive because the page becomes familiar, yet familiarity is a poor substitute for access.",
           "The principle is frequently oversimplified into a perfect schedule.",
@@ -15525,7 +15525,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Planning the Clean-up”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “Solving a Neighborhood Problem”?",
             "options": [
               {
                 "id": "o1",
@@ -15548,7 +15548,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Residents of Oak Street are using a group chat to solve a common…”, what happens next in “Planning the Clean-up”?",
+            "prompt": "Which statement immediately follows “Residents of Oak Street are using a group chat to solve a common…” in “Solving a Neighborhood Problem”?",
             "options": [
               {
                 "id": "o1",
@@ -15556,11 +15556,34 @@
               },
               {
                 "id": "o2",
-                "text": "The group could simply complain online, but one member proposes a practical plan."
+                "text": "Some neighbors say the council must collect waste more frequently, while others think residents should separate recycling correctly."
               },
               {
                 "id": "o3",
+                "text": "The group could simply complain online, but one member proposes a practical plan."
+              },
+              {
+                "id": "o4",
                 "text": "Local businesses also have to store their waste safely."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Solving a Neighborhood Problem”?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Residents of Oak Street are using a group chat to solve a common problem: rubbish is being left beside full containers."
+              },
+              {
+                "id": "o2",
+                "text": "Local businesses also have to store their waste safely."
+              },
+              {
+                "id": "o3",
+                "text": "The group could simply complain online, but one member proposes a practical plan."
               },
               {
                 "id": "o4",
@@ -15569,32 +15592,9 @@
             ]
           },
           {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Planning the Clean-up”?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Residents of Oak Street are using a group chat to solve a common problem: rubbish is being left beside full containers."
-              },
-              {
-                "id": "o2",
-                "text": "The group could simply complain online, but one member proposes a practical plan."
-              },
-              {
-                "id": "o3",
-                "text": "Some neighbors say the council must collect waste more frequently, while others think residents should separate recycling correctly."
-              },
-              {
-                "id": "o4",
-                "text": "Local businesses also have to store their waste safely."
-              }
-            ]
-          },
-          {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Planning the Clean-up” after “Some neighbors say the council must collect waste more frequently,…”?",
+            "prompt": "Which final statement explicitly closes “Solving a Neighborhood Problem”?",
             "options": [
               {
                 "id": "o1",
@@ -15628,7 +15628,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Planning the Clean-up”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “Solving a Neighborhood Problem”?",
         "options": [
           "Residents of Oak Street are using a group chat to solve a common problem: rubbish is being left beside full containers.",
           "The group could simply complain online, but one member proposes a practical plan.",
@@ -15638,27 +15638,27 @@
       },
       {
         "type": "mcq",
-        "prompt": "After “Residents of Oak Street are using a group chat to solve a common…”, what happens next in “Planning the Clean-up”?",
+        "prompt": "Which statement immediately follows “Residents of Oak Street are using a group chat to solve a common…” in “Solving a Neighborhood Problem”?",
         "options": [
           "Residents of Oak Street are using a group chat to solve a common problem: rubbish is being left beside full containers.",
-          "The group could simply complain online, but one member proposes a practical plan.",
-          "Local businesses also have to store their waste safely.",
-          "The conversation shows how neighbors can move from frustration to action when they listen to different opinions and agree on realistic responsibilities."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Planning the Clean-up”?",
-        "options": [
-          "Residents of Oak Street are using a group chat to solve a common problem: rubbish is being left beside full containers.",
-          "The group could simply complain online, but one member proposes a practical plan.",
           "Some neighbors say the council must collect waste more frequently, while others think residents should separate recycling correctly.",
+          "The group could simply complain online, but one member proposes a practical plan.",
           "Local businesses also have to store their waste safely."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Planning the Clean-up” after “Some neighbors say the council must collect waste more frequently,…”?",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Solving a Neighborhood Problem”?",
+        "options": [
+          "Residents of Oak Street are using a group chat to solve a common problem: rubbish is being left beside full containers.",
+          "Local businesses also have to store their waste safely.",
+          "The group could simply complain online, but one member proposes a practical plan.",
+          "The conversation shows how neighbors can move from frustration to action when they listen to different opinions and agree on realistic responsibilities."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which final statement explicitly closes “Solving a Neighborhood Problem”?",
         "options": [
           "Residents of Oak Street are using a group chat to solve a common problem: rubbish is being left beside full containers.",
           "The group could simply complain online, but one member proposes a practical plan.",
@@ -16002,7 +16002,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Listening Lab: Climate Change and Everyday Decisions”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “Extreme Weather and Everyday Choices”?",
             "options": [
               {
                 "id": "o1",
@@ -16025,7 +16025,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “People are often told to reduce their carbon footprint.”, what happens next in “Listening Lab: Climate Change and Everyday Decisions”?",
+            "prompt": "Which statement immediately follows “People are often told to reduce their carbon footprint.” in “Extreme Weather and Everyday Choices”?",
             "options": [
               {
                 "id": "o1",
@@ -16033,22 +16033,22 @@
               },
               {
                 "id": "o2",
-                "text": "And if clean infrastructure were available everywhere, many households would already be using renewable energy."
+                "text": "Are personal choices enough?"
               },
               {
                 "id": "o3",
-                "text": "However, mitigation also requires rules for major producers, while adaptation requires communities to prepare for effects that are already unavoidable."
+                "text": "And if clean infrastructure were available everywhere, many households would already be using renewable energy."
               },
               {
                 "id": "o4",
-                "text": "Daily decisions are useful when public investment makes better decisions possible."
+                "text": "However, mitigation also requires rules for major producers, while adaptation requires communities to prepare for effects that are already unavoidable."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Climate Change and Everyday Decisions”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Extreme Weather and Everyday Choices”?",
             "options": [
               {
                 "id": "o1",
@@ -16071,7 +16071,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Climate Change and Everyday Decisions” after “However, mitigation also requires rules for major producers, while…”?",
+            "prompt": "Which final statement explicitly closes “Extreme Weather and Everyday Choices”?",
             "options": [
               {
                 "id": "o1",
@@ -16170,7 +16170,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Listening Lab: Climate Change and Everyday Decisions”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “Extreme Weather and Everyday Choices”?",
         "options": [
           "Host: People are often told to reduce their carbon footprint.",
           "And if clean infrastructure were available everywhere, many households would already be using renewable energy.",
@@ -16180,7 +16180,17 @@
       },
       {
         "type": "mcq",
-        "prompt": "After “People are often told to reduce their carbon footprint.”, what happens next in “Listening Lab: Climate Change and Everyday Decisions”?",
+        "prompt": "Which statement immediately follows “People are often told to reduce their carbon footprint.” in “Extreme Weather and Everyday Choices”?",
+        "options": [
+          "Host: People are often told to reduce their carbon footprint.",
+          "Are personal choices enough?",
+          "And if clean infrastructure were available everywhere, many households would already be using renewable energy.",
+          "However, mitigation also requires rules for major producers, while adaptation requires communities to prepare for effects that are already unavoidable."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Extreme Weather and Everyday Choices”?",
         "options": [
           "Host: People are often told to reduce their carbon footprint.",
           "And if clean infrastructure were available everywhere, many households would already be using renewable energy.",
@@ -16190,17 +16200,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Climate Change and Everyday Decisions”?",
-        "options": [
-          "Host: People are often told to reduce their carbon footprint.",
-          "And if clean infrastructure were available everywhere, many households would already be using renewable energy.",
-          "However, mitigation also requires rules for major producers, while adaptation requires communities to prepare for effects that are already unavoidable.",
-          "Daily decisions are useful when public investment makes better decisions possible."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Climate Change and Everyday Decisions” after “However, mitigation also requires rules for major producers, while…”?",
+        "prompt": "Which final statement explicitly closes “Extreme Weather and Everyday Choices”?",
         "options": [
           "Host: People are often told to reduce their carbon footprint.",
           "And if clean infrastructure were available everywhere, many households would already be using renewable energy.",
@@ -16268,7 +16268,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Listening Lab: Gene Editing, Treatment and Access”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “Gene Editing: Who Gets the Cure?”?",
             "options": [
               {
                 "id": "o1",
@@ -16291,7 +16291,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Gene editing is beginning to move from laboratory promise to clinical…”, what happens next in “Listening Lab: Gene Editing, Treatment and Access”?",
+            "prompt": "Which statement immediately follows “Gene editing is beginning to move from laboratory promise to clinical…” in “Gene Editing: Who Gets the Cure?”?",
             "options": [
               {
                 "id": "o1",
@@ -16299,22 +16299,22 @@
               },
               {
                 "id": "o2",
-                "text": "Eligibility criteria can also exclude patients whose condition is advanced or whose location makes follow-up difficult."
+                "text": "For some inherited disorders, a patient’s cells can be modified so that the body produces healthier blood or corrects a damaging biological process."
               },
               {
                 "id": "o3",
-                "text": "Equity requires more than asking manufacturers to lower a headline price."
+                "text": "Eligibility criteria can also exclude patients whose condition is advanced or whose location makes follow-up difficult."
               },
               {
                 "id": "o4",
-                "text": "The breakthrough will be fully realised only when health systems can identify eligible patients, explain uncertainty honestly, and distribute the benefits without allowing birthplace or income to determine who gets a chance at recovery."
+                "text": "Equity requires more than asking manufacturers to lower a headline price."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Gene Editing, Treatment and Access”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Gene Editing: Who Gets the Cure?”?",
             "options": [
               {
                 "id": "o1",
@@ -16337,7 +16337,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Gene Editing, Treatment and Access” after “Equity requires more than asking manufacturers to lower a headline…”?",
+            "prompt": "Which final statement explicitly closes “Gene Editing: Who Gets the Cure?”?",
             "options": [
               {
                 "id": "o1",
@@ -16431,7 +16431,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Listening Lab: Gene Editing, Treatment and Access”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “Gene Editing: Who Gets the Cure?”?",
         "options": [
           "Gene editing is beginning to move from laboratory promise to clinical treatment.",
           "Eligibility criteria can also exclude patients whose condition is advanced or whose location makes follow-up difficult.",
@@ -16441,7 +16441,17 @@
       },
       {
         "type": "mcq",
-        "prompt": "After “Gene editing is beginning to move from laboratory promise to clinical…”, what happens next in “Listening Lab: Gene Editing, Treatment and Access”?",
+        "prompt": "Which statement immediately follows “Gene editing is beginning to move from laboratory promise to clinical…” in “Gene Editing: Who Gets the Cure?”?",
+        "options": [
+          "Gene editing is beginning to move from laboratory promise to clinical treatment.",
+          "For some inherited disorders, a patient’s cells can be modified so that the body produces healthier blood or corrects a damaging biological process.",
+          "Eligibility criteria can also exclude patients whose condition is advanced or whose location makes follow-up difficult.",
+          "Equity requires more than asking manufacturers to lower a headline price."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Gene Editing: Who Gets the Cure?”?",
         "options": [
           "Gene editing is beginning to move from laboratory promise to clinical treatment.",
           "Eligibility criteria can also exclude patients whose condition is advanced or whose location makes follow-up difficult.",
@@ -16451,17 +16461,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Gene Editing, Treatment and Access”?",
-        "options": [
-          "Gene editing is beginning to move from laboratory promise to clinical treatment.",
-          "Eligibility criteria can also exclude patients whose condition is advanced or whose location makes follow-up difficult.",
-          "Equity requires more than asking manufacturers to lower a headline price.",
-          "The breakthrough will be fully realised only when health systems can identify eligible patients, explain uncertainty honestly, and distribute the benefits without allowing birthplace or income to determine who gets a chance at recovery."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Gene Editing, Treatment and Access” after “Equity requires more than asking manufacturers to lower a headline…”?",
+        "prompt": "Which final statement explicitly closes “Gene Editing: Who Gets the Cure?”?",
         "options": [
           "Gene editing is beginning to move from laboratory promise to clinical treatment.",
           "Eligibility criteria can also exclude patients whose condition is advanced or whose location makes follow-up difficult.",
@@ -16529,7 +16529,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Listening Lab: Sleep, Memory and Vocabulary Consolidation”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “The Sleeping Brain and the Words It Keeps”?",
             "options": [
               {
                 "id": "o1",
@@ -16537,22 +16537,22 @@
               },
               {
                 "id": "o2",
-                "text": "These relationships are not mechanical recipes."
+                "text": "Slow-wave sleep has been associated with stabilising declarative memories, while rapid eye movement sleep may support integration and abstraction."
               },
               {
                 "id": "o3",
-                "text": "Had learners encountered the same words earlier and retrieved them repeatedly, they would have entered the examination with stronger traces."
+                "text": "Material reviewed across several days has had repeated opportunities to be reactivated, whereas an all-night study session compresses exposure while sacrificing rest."
               },
               {
                 "id": "o4",
-                "text": "It is a learning schedule in which focused study, retrieval, and adequate rest operate as parts of the same biological system."
+                "text": "The sensible implication is not a fashionable “sleep hack.” It is a learning schedule in which focused study, retrieval, and adequate rest operate as parts of the same biological system."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Learning does not end when a study session finishes.”, what happens next in “Listening Lab: Sleep, Memory and Vocabulary Consolidation”?",
+            "prompt": "Which statement immediately follows “Learning does not end when a study session finishes.” in “The Sleeping Brain and the Words It Keeps”?",
             "options": [
               {
                 "id": "o1",
@@ -16560,22 +16560,22 @@
               },
               {
                 "id": "o2",
-                "text": "These relationships are not mechanical recipes."
+                "text": "After new vocabulary has been encoded, memory continues changing through offline processing, and sleep appears to support that consolidation."
               },
               {
                 "id": "o3",
-                "text": "Had learners encountered the same words earlier and retrieved them repeatedly, they would have entered the examination with stronger traces."
+                "text": "Slow-wave sleep has been associated with stabilising declarative memories, while rapid eye movement sleep may support integration and abstraction."
               },
               {
                 "id": "o4",
-                "text": "It is a learning schedule in which focused study, retrieval, and adequate rest operate as parts of the same biological system."
+                "text": "Material reviewed across several days has had repeated opportunities to be reactivated, whereas an all-night study session compresses exposure while sacrificing rest."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Sleep, Memory and Vocabulary Consolidation”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “The Sleeping Brain and the Words It Keeps”?",
             "options": [
               {
                 "id": "o1",
@@ -16583,7 +16583,7 @@
               },
               {
                 "id": "o2",
-                "text": "These relationships are not mechanical recipes."
+                "text": "Slow-wave sleep has been associated with stabilising declarative memories, while rapid eye movement sleep may support integration and abstraction."
               },
               {
                 "id": "o3",
@@ -16591,14 +16591,14 @@
               },
               {
                 "id": "o4",
-                "text": "Had learners encountered the same words earlier and retrieved them repeatedly, they would have entered the examination with stronger traces."
+                "text": "Material reviewed across several days has had repeated opportunities to be reactivated, whereas an all-night study session compresses exposure while sacrificing rest."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Sleep, Memory and Vocabulary Consolidation” after “Researchers distinguish stages of sleep because they may contribute…”?",
+            "prompt": "Which final statement explicitly closes “The Sleeping Brain and the Words It Keeps”?",
             "options": [
               {
                 "id": "o1",
@@ -16606,15 +16606,15 @@
               },
               {
                 "id": "o2",
-                "text": "These relationships are not mechanical recipes."
+                "text": "Slow-wave sleep has been associated with stabilising declarative memories, while rapid eye movement sleep may support integration and abstraction."
               },
               {
                 "id": "o3",
-                "text": "Had learners encountered the same words earlier and retrieved them repeatedly, they would have entered the examination with stronger traces."
+                "text": "Material reviewed across several days has had repeated opportunities to be reactivated, whereas an all-night study session compresses exposure while sacrificing rest."
               },
               {
                 "id": "o4",
-                "text": "It is a learning schedule in which focused study, retrieval, and adequate rest operate as parts of the same biological system."
+                "text": "The sensible implication is not a fashionable “sleep hack.” It is a learning schedule in which focused study, retrieval, and adequate rest operate as parts of the same biological system."
               }
             ]
           }
@@ -16702,42 +16702,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Listening Lab: Sleep, Memory and Vocabulary Consolidation”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “The Sleeping Brain and the Words It Keeps”?",
         "options": [
           "Learning does not end when a study session finishes.",
-          "These relationships are not mechanical recipes.",
-          "Had learners encountered the same words earlier and retrieved them repeatedly, they would have entered the examination with stronger traces.",
-          "It is a learning schedule in which focused study, retrieval, and adequate rest operate as parts of the same biological system."
+          "Slow-wave sleep has been associated with stabilising declarative memories, while rapid eye movement sleep may support integration and abstraction.",
+          "Material reviewed across several days has had repeated opportunities to be reactivated, whereas an all-night study session compresses exposure while sacrificing rest.",
+          "The sensible implication is not a fashionable “sleep hack.” It is a learning schedule in which focused study, retrieval, and adequate rest operate as parts of the same biological system."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Learning does not end when a study session finishes.”, what happens next in “Listening Lab: Sleep, Memory and Vocabulary Consolidation”?",
+        "prompt": "Which statement immediately follows “Learning does not end when a study session finishes.” in “The Sleeping Brain and the Words It Keeps”?",
         "options": [
           "Learning does not end when a study session finishes.",
-          "These relationships are not mechanical recipes.",
-          "Had learners encountered the same words earlier and retrieved them repeatedly, they would have entered the examination with stronger traces.",
-          "It is a learning schedule in which focused study, retrieval, and adequate rest operate as parts of the same biological system."
+          "After new vocabulary has been encoded, memory continues changing through offline processing, and sleep appears to support that consolidation.",
+          "Slow-wave sleep has been associated with stabilising declarative memories, while rapid eye movement sleep may support integration and abstraction.",
+          "Material reviewed across several days has had repeated opportunities to be reactivated, whereas an all-night study session compresses exposure while sacrificing rest."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Sleep, Memory and Vocabulary Consolidation”?",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “The Sleeping Brain and the Words It Keeps”?",
         "options": [
           "Learning does not end when a study session finishes.",
-          "These relationships are not mechanical recipes.",
+          "Slow-wave sleep has been associated with stabilising declarative memories, while rapid eye movement sleep may support integration and abstraction.",
           "Researchers distinguish stages of sleep because they may contribute differently.",
-          "Had learners encountered the same words earlier and retrieved them repeatedly, they would have entered the examination with stronger traces."
+          "Material reviewed across several days has had repeated opportunities to be reactivated, whereas an all-night study session compresses exposure while sacrificing rest."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Sleep, Memory and Vocabulary Consolidation” after “Researchers distinguish stages of sleep because they may contribute…”?",
+        "prompt": "Which final statement explicitly closes “The Sleeping Brain and the Words It Keeps”?",
         "options": [
           "Learning does not end when a study session finishes.",
-          "These relationships are not mechanical recipes.",
-          "Had learners encountered the same words earlier and retrieved them repeatedly, they would have entered the examination with stronger traces.",
-          "It is a learning schedule in which focused study, retrieval, and adequate rest operate as parts of the same biological system."
+          "Slow-wave sleep has been associated with stabilising declarative memories, while rapid eye movement sleep may support integration and abstraction.",
+          "Material reviewed across several days has had repeated opportunities to be reactivated, whereas an all-night study session compresses exposure while sacrificing rest.",
+          "The sensible implication is not a fashionable “sleep hack.” It is a learning schedule in which focused study, retrieval, and adequate rest operate as parts of the same biological system."
         ]
       }
     ]
@@ -22737,7 +22737,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Changing the Plan”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “What to Do When Your Flight Is Canceled”?",
             "options": [
               {
                 "id": "o1",
@@ -22760,7 +22760,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Travel presenter Noah Reed was waiting to board a flight when the…”, what happens next in “Changing the Plan”?",
+            "prompt": "Which statement immediately follows “Travel presenter Noah Reed was waiting to board a flight when the…” in “What to Do When Your Flight Is Canceled”?",
             "options": [
               {
                 "id": "o1",
@@ -22768,22 +22768,22 @@
               },
               {
                 "id": "o2",
-                "text": "A family nearby did not understand the announcement, so Noah helped them find the customer-service desk."
+                "text": "While other passengers were forming a long line, he was checking the airline’s app and looking for another route."
               },
               {
                 "id": "o3",
-                "text": "Before leaving the airport, he confirmed the baggage arrangements and downloaded the new tickets."
+                "text": "A family nearby did not understand the announcement, so Noah helped them find the customer-service desk."
               },
               {
                 "id": "o4",
-                "text": "Noah recommends checking passenger rights, asking specific questions, and keeping important documents together whenever a journey changes unexpectedly."
+                "text": "Before leaving the airport, he confirmed the baggage arrangements and downloaded the new tickets."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Changing the Plan”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “What to Do When Your Flight Is Canceled”?",
             "options": [
               {
                 "id": "o1",
@@ -22806,7 +22806,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Changing the Plan” after “He kept track of receipts because the airline might refund meals and…”?",
+            "prompt": "Which final statement explicitly closes “What to Do When Your Flight Is Canceled”?",
             "options": [
               {
                 "id": "o1",
@@ -22840,7 +22840,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Changing the Plan”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “What to Do When Your Flight Is Canceled”?",
         "options": [
           "Travel presenter Noah Reed was waiting to board a flight when the airline announced a cancellation.",
           "A family nearby did not understand the announcement, so Noah helped them find the customer-service desk.",
@@ -22850,17 +22850,17 @@
       },
       {
         "type": "mcq",
-        "prompt": "After “Travel presenter Noah Reed was waiting to board a flight when the…”, what happens next in “Changing the Plan”?",
+        "prompt": "Which statement immediately follows “Travel presenter Noah Reed was waiting to board a flight when the…” in “What to Do When Your Flight Is Canceled”?",
         "options": [
           "Travel presenter Noah Reed was waiting to board a flight when the airline announced a cancellation.",
+          "While other passengers were forming a long line, he was checking the airline’s app and looking for another route.",
           "A family nearby did not understand the announcement, so Noah helped them find the customer-service desk.",
-          "Before leaving the airport, he confirmed the baggage arrangements and downloaded the new tickets.",
-          "Noah recommends checking passenger rights, asking specific questions, and keeping important documents together whenever a journey changes unexpectedly."
+          "Before leaving the airport, he confirmed the baggage arrangements and downloaded the new tickets."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Changing the Plan”?",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “What to Do When Your Flight Is Canceled”?",
         "options": [
           "Travel presenter Noah Reed was waiting to board a flight when the airline announced a cancellation.",
           "A family nearby did not understand the announcement, so Noah helped them find the customer-service desk.",
@@ -22870,7 +22870,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Changing the Plan” after “He kept track of receipts because the airline might refund meals and…”?",
+        "prompt": "Which final statement explicitly closes “What to Do When Your Flight Is Canceled”?",
         "options": [
           "Travel presenter Noah Reed was waiting to board a flight when the airline announced a cancellation.",
           "A family nearby did not understand the announcement, so Noah helped them find the customer-service desk.",
@@ -23214,7 +23214,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Listening Lab: Corruption and Public Trust in Latin America and the Caribbean”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “Why Public Contracts Need Transparency”?",
             "options": [
               {
                 "id": "o1",
@@ -23237,7 +23237,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “A public procurement contract doubled in price, although several…”, what happens next in “Listening Lab: Corruption and Public Trust in Latin America and the Caribbean”?",
+            "prompt": "Which statement immediately follows “A public procurement contract doubled in price, although several…” in “Why Public Contracts Need Transparency”?",
             "options": [
               {
                 "id": "o1",
@@ -23245,22 +23245,22 @@
               },
               {
                 "id": "o2",
-                "text": "Host: Some residents immediately alleged bribery."
+                "text": "What might have happened?"
               },
               {
                 "id": "o3",
-                "text": "The documents might also have been removed later to protect someone."
+                "text": "Host: Some residents immediately alleged bribery."
               },
               {
                 "id": "o4",
-                "text": "Transparent records would allow residents to distinguish poor management from deliberate wrongdoing and would make future contracts easier to examine."
+                "text": "The documents might also have been removed later to protect someone."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Corruption and Public Trust in Latin America and the Caribbean”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Why Public Contracts Need Transparency”?",
             "options": [
               {
                 "id": "o1",
@@ -23283,7 +23283,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Corruption and Public Trust in Latin America and the Caribbean” after “Officials may have acted too quickly after the hurricane, but the…”?",
+            "prompt": "Which final statement explicitly closes “Why Public Contracts Need Transparency”?",
             "options": [
               {
                 "id": "o1",
@@ -23387,7 +23387,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Listening Lab: Corruption and Public Trust in Latin America and the Caribbean”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “Why Public Contracts Need Transparency”?",
         "options": [
           "Host: A public procurement contract doubled in price, although several repairs were never completed.",
           "Host: Some residents immediately alleged bribery.",
@@ -23397,17 +23397,17 @@
       },
       {
         "type": "mcq",
-        "prompt": "After “A public procurement contract doubled in price, although several…”, what happens next in “Listening Lab: Corruption and Public Trust in Latin America and the Caribbean”?",
+        "prompt": "Which statement immediately follows “A public procurement contract doubled in price, although several…” in “Why Public Contracts Need Transparency”?",
         "options": [
           "Host: A public procurement contract doubled in price, although several repairs were never completed.",
+          "What might have happened?",
           "Host: Some residents immediately alleged bribery.",
-          "The documents might also have been removed later to protect someone.",
-          "Transparent records would allow residents to distinguish poor management from deliberate wrongdoing and would make future contracts easier to examine."
+          "The documents might also have been removed later to protect someone."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Corruption and Public Trust in Latin America and the Caribbean”?",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Why Public Contracts Need Transparency”?",
         "options": [
           "Host: A public procurement contract doubled in price, although several repairs were never completed.",
           "Host: Some residents immediately alleged bribery.",
@@ -23417,7 +23417,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Corruption and Public Trust in Latin America and the Caribbean” after “Officials may have acted too quickly after the hurricane, but the…”?",
+        "prompt": "Which final statement explicitly closes “Why Public Contracts Need Transparency”?",
         "options": [
           "Host: A public procurement contract doubled in price, although several repairs were never completed.",
           "Host: Some residents immediately alleged bribery.",
@@ -23485,7 +23485,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Listening Lab: Climate, Air Pollution and Health”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “Clean Air and the Health Dividend”?",
             "options": [
               {
                 "id": "o1",
@@ -23508,7 +23508,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Climate policy is often presented as protection for a distant future,…”, what happens next in “Listening Lab: Climate, Air Pollution and Health”?",
+            "prompt": "Which statement immediately follows “Climate policy is often presented as protection for a distant future,…” in “Clean Air and the Health Dividend”?",
             "options": [
               {
                 "id": "o1",
@@ -23516,22 +23516,22 @@
               },
               {
                 "id": "o2",
-                "text": "Having measured hospital admissions alongside pollution levels, public-health teams can estimate where action would prevent the greatest harm."
+                "text": "Coal, diesel, and other fuels release fine particulate matter that enters the lungs and bloodstream."
               },
               {
                 "id": "o3",
-                "text": "If costs are shifted onto households with the fewest resources, a climate measure may deepen inequality even while reducing emissions overall."
+                "text": "Having measured hospital admissions alongside pollution levels, public-health teams can estimate where action would prevent the greatest harm."
               },
               {
                 "id": "o4",
-                "text": "It is a choice about whose exposure is reduced first, who can afford new technology, and whether the health gains of cleaner energy are treated as a public benefit rather than a private luxury."
+                "text": "If costs are shifted onto households with the fewest resources, a climate measure may deepen inequality even while reducing emissions overall."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Climate, Air Pollution and Health”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Clean Air and the Health Dividend”?",
             "options": [
               {
                 "id": "o1",
@@ -23554,7 +23554,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Climate, Air Pollution and Health” after “A family experiencing energy poverty cannot simply replace a vehicle,…”?",
+            "prompt": "Which final statement explicitly closes “Clean Air and the Health Dividend”?",
             "options": [
               {
                 "id": "o1",
@@ -23648,7 +23648,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Listening Lab: Climate, Air Pollution and Health”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “Clean Air and the Health Dividend”?",
         "options": [
           "Climate policy is often presented as protection for a distant future, but cleaner energy can improve health almost immediately.",
           "Having measured hospital admissions alongside pollution levels, public-health teams can estimate where action would prevent the greatest harm.",
@@ -23658,17 +23658,17 @@
       },
       {
         "type": "mcq",
-        "prompt": "After “Climate policy is often presented as protection for a distant future,…”, what happens next in “Listening Lab: Climate, Air Pollution and Health”?",
+        "prompt": "Which statement immediately follows “Climate policy is often presented as protection for a distant future,…” in “Clean Air and the Health Dividend”?",
         "options": [
           "Climate policy is often presented as protection for a distant future, but cleaner energy can improve health almost immediately.",
+          "Coal, diesel, and other fuels release fine particulate matter that enters the lungs and bloodstream.",
           "Having measured hospital admissions alongside pollution levels, public-health teams can estimate where action would prevent the greatest harm.",
-          "If costs are shifted onto households with the fewest resources, a climate measure may deepen inequality even while reducing emissions overall.",
-          "It is a choice about whose exposure is reduced first, who can afford new technology, and whether the health gains of cleaner energy are treated as a public benefit rather than a private luxury."
+          "If costs are shifted onto households with the fewest resources, a climate measure may deepen inequality even while reducing emissions overall."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Climate, Air Pollution and Health”?",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Clean Air and the Health Dividend”?",
         "options": [
           "Climate policy is often presented as protection for a distant future, but cleaner energy can improve health almost immediately.",
           "Having measured hospital admissions alongside pollution levels, public-health teams can estimate where action would prevent the greatest harm.",
@@ -23678,7 +23678,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Climate, Air Pollution and Health” after “A family experiencing energy poverty cannot simply replace a vehicle,…”?",
+        "prompt": "Which final statement explicitly closes “Clean Air and the Health Dividend”?",
         "options": [
           "Climate policy is often presented as protection for a distant future, but cleaner energy can improve health almost immediately.",
           "Having measured hospital admissions alongside pollution levels, public-health teams can estimate where action would prevent the greatest harm.",
@@ -23746,7 +23746,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Listening Lab: Comprehensible Input and Incidental Acquisition”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “Learning by Exposure: How Input Becomes Language”?",
             "options": [
               {
                 "id": "o1",
@@ -23769,7 +23769,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Much of a language is acquired incidentally while attention is…”, what happens next in “Listening Lab: Comprehensible Input and Incidental Acquisition”?",
+            "prompt": "Which statement immediately follows “Much of a language is acquired incidentally while attention is…” in “Learning by Exposure: How Input Becomes Language”?",
             "options": [
               {
                 "id": "o1",
@@ -23777,22 +23777,22 @@
               },
               {
                 "id": "o2",
-                "text": "Comprehensible input is therefore neither perfectly understood language nor an incomprehensible flood."
+                "text": "A learner may infer a word from context without having intended to memorise it."
               },
               {
                 "id": "o3",
-                "text": "A brief gloss, a highlighted expression, or a question asked after listening may direct attention without turning the entire activity into vocabulary study."
+                "text": "Comprehensible input is therefore neither perfectly understood language nor an incomprehensible flood."
               },
               {
                 "id": "o4",
-                "text": "Instruction can prepare learners to understand; meaningful input then supplies the quantity, diversity, and surprise through which language becomes more than a list of taught items."
+                "text": "A brief gloss, a highlighted expression, or a question asked after listening may direct attention without turning the entire activity into vocabulary study."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Comprehensible Input and Incidental Acquisition”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Learning by Exposure: How Input Becomes Language”?",
             "options": [
               {
                 "id": "o1",
@@ -23815,7 +23815,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Comprehensible Input and Incidental Acquisition” after “Frequency helps, but repeated encounters need variation.”?",
+            "prompt": "Which final statement explicitly closes “Learning by Exposure: How Input Becomes Language”?",
             "options": [
               {
                 "id": "o1",
@@ -23919,7 +23919,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Listening Lab: Comprehensible Input and Incidental Acquisition”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “Learning by Exposure: How Input Becomes Language”?",
         "options": [
           "Much of a language is acquired incidentally while attention is directed toward a story, conversation, game, or task.",
           "Comprehensible input is therefore neither perfectly understood language nor an incomprehensible flood.",
@@ -23929,17 +23929,17 @@
       },
       {
         "type": "mcq",
-        "prompt": "After “Much of a language is acquired incidentally while attention is…”, what happens next in “Listening Lab: Comprehensible Input and Incidental Acquisition”?",
+        "prompt": "Which statement immediately follows “Much of a language is acquired incidentally while attention is…” in “Learning by Exposure: How Input Becomes Language”?",
         "options": [
           "Much of a language is acquired incidentally while attention is directed toward a story, conversation, game, or task.",
+          "A learner may infer a word from context without having intended to memorise it.",
           "Comprehensible input is therefore neither perfectly understood language nor an incomprehensible flood.",
-          "A brief gloss, a highlighted expression, or a question asked after listening may direct attention without turning the entire activity into vocabulary study.",
-          "Instruction can prepare learners to understand; meaningful input then supplies the quantity, diversity, and surprise through which language becomes more than a list of taught items."
+          "A brief gloss, a highlighted expression, or a question asked after listening may direct attention without turning the entire activity into vocabulary study."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Comprehensible Input and Incidental Acquisition”?",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Learning by Exposure: How Input Becomes Language”?",
         "options": [
           "Much of a language is acquired incidentally while attention is directed toward a story, conversation, game, or task.",
           "Comprehensible input is therefore neither perfectly understood language nor an incomprehensible flood.",
@@ -23949,7 +23949,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Comprehensible Input and Incidental Acquisition” after “Frequency helps, but repeated encounters need variation.”?",
+        "prompt": "Which final statement explicitly closes “Learning by Exposure: How Input Becomes Language”?",
         "options": [
           "Much of a language is acquired incidentally while attention is directed toward a story, conversation, game, or task.",
           "Comprehensible input is therefore neither perfectly understood language nor an incomprehensible flood.",
@@ -29969,7 +29969,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “A Healthier Routine”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “A Realistic Plan for Better Sleep”?",
             "options": [
               {
                 "id": "o1",
@@ -29992,7 +29992,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “In a popular health podcast, Dr.”, what happens next in “A Healthier Routine”?",
+            "prompt": "Which statement immediately follows “In a popular health podcast, Dr.” in “A Realistic Plan for Better Sleep”?",
             "options": [
               {
                 "id": "o1",
@@ -30000,22 +30000,22 @@
               },
               {
                 "id": "o2",
-                "text": "She suggests choosing a regular bedtime, reducing caffeine late in the day, and preparing tomorrow’s tasks before the evening."
+                "text": "Lena Ortiz explains why many adults struggle to sleep."
               },
               {
                 "id": "o3",
-                "text": "Dr."
+                "text": "She suggests choosing a regular bedtime, reducing caffeine late in the day, and preparing tomorrow’s tasks before the evening."
               },
               {
                 "id": "o4",
-                "text": "A useful routine should improve well-being without becoming another source of pressure."
+                "text": "Dr."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “A Healthier Routine”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “A Realistic Plan for Better Sleep”?",
             "options": [
               {
                 "id": "o1",
@@ -30038,7 +30038,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “A Healthier Routine” after “People often need to stop checking messages in bed, but they do not…”?",
+            "prompt": "Which final statement explicitly closes “A Realistic Plan for Better Sleep”?",
             "options": [
               {
                 "id": "o1",
@@ -30072,7 +30072,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “A Healthier Routine”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “A Realistic Plan for Better Sleep”?",
         "options": [
           "In a popular health podcast, Dr.",
           "She suggests choosing a regular bedtime, reducing caffeine late in the day, and preparing tomorrow’s tasks before the evening.",
@@ -30082,17 +30082,17 @@
       },
       {
         "type": "mcq",
-        "prompt": "After “In a popular health podcast, Dr.”, what happens next in “A Healthier Routine”?",
+        "prompt": "Which statement immediately follows “In a popular health podcast, Dr.” in “A Realistic Plan for Better Sleep”?",
         "options": [
           "In a popular health podcast, Dr.",
+          "Lena Ortiz explains why many adults struggle to sleep.",
           "She suggests choosing a regular bedtime, reducing caffeine late in the day, and preparing tomorrow’s tasks before the evening.",
-          "Dr.",
-          "A useful routine should improve well-being without becoming another source of pressure."
+          "Dr."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “A Healthier Routine”?",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “A Realistic Plan for Better Sleep”?",
         "options": [
           "In a popular health podcast, Dr.",
           "She suggests choosing a regular bedtime, reducing caffeine late in the day, and preparing tomorrow’s tasks before the evening.",
@@ -30102,7 +30102,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “A Healthier Routine” after “People often need to stop checking messages in bed, but they do not…”?",
+        "prompt": "Which final statement explicitly closes “A Realistic Plan for Better Sleep”?",
         "options": [
           "In a popular health podcast, Dr.",
           "She suggests choosing a regular bedtime, reducing caffeine late in the day, and preparing tomorrow’s tasks before the evening.",
@@ -30436,7 +30436,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Listening Lab: The Fourth of July: Freedom and Contradictions”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “What the Fourth of July Means Today”?",
             "options": [
               {
                 "id": "o1",
@@ -30459,7 +30459,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Fireworks are beginning across the city.”, what happens next in “Listening Lab: The Fourth of July: Freedom and Contradictions”?",
+            "prompt": "Which statement immediately follows “Fireworks are beginning across the city.” in “What the Fourth of July Means Today”?",
             "options": [
               {
                 "id": "o1",
@@ -30467,22 +30467,22 @@
               },
               {
                 "id": "o2",
-                "text": "Host: Yet the celebration can also produce discomfort."
+                "text": "What does the Fourth of July commemorate?"
               },
               {
                 "id": "o3",
-                "text": "It asks whether the promise was available to everyone."
+                "text": "Host: Yet the celebration can also produce discomfort."
               },
               {
                 "id": "o4",
-                "text": "Celebrated thoughtfully, it can join pride with responsibility: people can value a national tradition while acknowledging the unfinished work required to make liberty real."
+                "text": "It asks whether the promise was available to everyone."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Listening Lab: The Fourth of July: Freedom and Contradictions”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “What the Fourth of July Means Today”?",
             "options": [
               {
                 "id": "o1",
@@ -30505,7 +30505,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: The Fourth of July: Freedom and Contradictions” after “It asks whether the promise was available to everyone.”?",
+            "prompt": "Which final statement explicitly closes “What the Fourth of July Means Today”?",
             "options": [
               {
                 "id": "o1",
@@ -30599,7 +30599,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Listening Lab: The Fourth of July: Freedom and Contradictions”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “What the Fourth of July Means Today”?",
         "options": [
           "Host: Fireworks are beginning across the city.",
           "Host: Yet the celebration can also produce discomfort.",
@@ -30609,7 +30609,17 @@
       },
       {
         "type": "mcq",
-        "prompt": "After “Fireworks are beginning across the city.”, what happens next in “Listening Lab: The Fourth of July: Freedom and Contradictions”?",
+        "prompt": "Which statement immediately follows “Fireworks are beginning across the city.” in “What the Fourth of July Means Today”?",
+        "options": [
+          "Host: Fireworks are beginning across the city.",
+          "What does the Fourth of July commemorate?",
+          "Host: Yet the celebration can also produce discomfort.",
+          "It asks whether the promise was available to everyone."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “What the Fourth of July Means Today”?",
         "options": [
           "Host: Fireworks are beginning across the city.",
           "Host: Yet the celebration can also produce discomfort.",
@@ -30619,17 +30629,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Listening Lab: The Fourth of July: Freedom and Contradictions”?",
-        "options": [
-          "Host: Fireworks are beginning across the city.",
-          "Host: Yet the celebration can also produce discomfort.",
-          "It asks whether the promise was available to everyone.",
-          "Celebrated thoughtfully, it can join pride with responsibility: people can value a national tradition while acknowledging the unfinished work required to make liberty real."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: The Fourth of July: Freedom and Contradictions” after “It asks whether the promise was available to everyone.”?",
+        "prompt": "Which final statement explicitly closes “What the Fourth of July Means Today”?",
         "options": [
           "Host: Fireworks are beginning across the city.",
           "Host: Yet the celebration can also produce discomfort.",
@@ -30697,7 +30697,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Listening Lab: Loneliness as a Public-Health Issue”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “The Architecture of Loneliness”?",
             "options": [
               {
                 "id": "o1",
@@ -30720,7 +30720,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Loneliness is often described as an individual emotion, yet its causes…”, what happens next in “Listening Lab: Loneliness as a Public-Health Issue”?",
+            "prompt": "Which statement immediately follows “Loneliness is often described as an individual emotion, yet its causes…” in “The Architecture of Loneliness”?",
             "options": [
               {
                 "id": "o1",
@@ -30728,22 +30728,22 @@
               },
               {
                 "id": "o2",
-                "text": "Research links persistent disconnection with poorer mental and physical health, although it would be misleading to claim that every lonely period causes illness."
+                "text": "What many people lack is not constant company but meaningful, reliable connection."
               },
               {
                 "id": "o3",
-                "text": "These settings are not a guaranteed cure, but they create protective conditions."
+                "text": "Research links persistent disconnection with poorer mental and physical health, although it would be misleading to claim that every lonely period causes illness."
               },
               {
                 "id": "o4",
-                "text": "It recognises that connection becomes easier when societies design everyday life so that people can meet, contribute, and belong."
+                "text": "These settings are not a guaranteed cure, but they create protective conditions."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Loneliness as a Public-Health Issue”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “The Architecture of Loneliness”?",
             "options": [
               {
                 "id": "o1",
@@ -30766,7 +30766,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Loneliness as a Public-Health Issue” after “This distinction matters because loneliness and social isolation are…”?",
+            "prompt": "Which final statement explicitly closes “The Architecture of Loneliness”?",
             "options": [
               {
                 "id": "o1",
@@ -30860,7 +30860,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Listening Lab: Loneliness as a Public-Health Issue”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “The Architecture of Loneliness”?",
         "options": [
           "Loneliness is often described as an individual emotion, yet its causes are partly shaped by the places and institutions around us.",
           "Research links persistent disconnection with poorer mental and physical health, although it would be misleading to claim that every lonely period causes illness.",
@@ -30870,17 +30870,17 @@
       },
       {
         "type": "mcq",
-        "prompt": "After “Loneliness is often described as an individual emotion, yet its causes…”, what happens next in “Listening Lab: Loneliness as a Public-Health Issue”?",
+        "prompt": "Which statement immediately follows “Loneliness is often described as an individual emotion, yet its causes…” in “The Architecture of Loneliness”?",
         "options": [
           "Loneliness is often described as an individual emotion, yet its causes are partly shaped by the places and institutions around us.",
+          "What many people lack is not constant company but meaningful, reliable connection.",
           "Research links persistent disconnection with poorer mental and physical health, although it would be misleading to claim that every lonely period causes illness.",
-          "These settings are not a guaranteed cure, but they create protective conditions.",
-          "It recognises that connection becomes easier when societies design everyday life so that people can meet, contribute, and belong."
+          "These settings are not a guaranteed cure, but they create protective conditions."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Loneliness as a Public-Health Issue”?",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “The Architecture of Loneliness”?",
         "options": [
           "Loneliness is often described as an individual emotion, yet its causes are partly shaped by the places and institutions around us.",
           "Research links persistent disconnection with poorer mental and physical health, although it would be misleading to claim that every lonely period causes illness.",
@@ -30890,7 +30890,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Loneliness as a Public-Health Issue” after “This distinction matters because loneliness and social isolation are…”?",
+        "prompt": "Which final statement explicitly closes “The Architecture of Loneliness”?",
         "options": [
           "Loneliness is often described as an individual emotion, yet its causes are partly shaped by the places and institutions around us.",
           "Research links persistent disconnection with poorer mental and physical health, although it would be misleading to claim that every lonely period causes illness.",
@@ -30958,7 +30958,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Listening Lab: Reading, Listening and Multimodal Learning”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “When Multimedia Overloads the Mind”?",
             "options": [
               {
                 "id": "o1",
@@ -30981,7 +30981,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “A video containing speech, captions, animation, and written labels may…”, what happens next in “Listening Lab: Reading, Listening and Multimodal Learning”?",
+            "prompt": "Which statement immediately follows “A video containing speech, captions, animation, and written labels may…” in “When Multimedia Overloads the Mind”?",
             "options": [
               {
                 "id": "o1",
@@ -30989,22 +30989,22 @@
               },
               {
                 "id": "o2",
-                "text": "The redundancy effect is similarly misunderstood."
+                "text": "Multimodality helps when each element performs a useful function."
               },
               {
                 "id": "o3",
-                "text": "Removing them completely may be equally unhelpful if comprehension collapses."
+                "text": "The redundancy effect is similarly misunderstood."
               },
               {
                 "id": "o4",
-                "text": "A well-designed lesson allows sound, image, and text to reinforce a mental model without requiring the learner to solve the presentation itself before engaging with the content."
+                "text": "Removing them completely may be equally unhelpful if comprehension collapses."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Reading, Listening and Multimodal Learning”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “When Multimedia Overloads the Mind”?",
             "options": [
               {
                 "id": "o1",
@@ -31027,7 +31027,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Reading, Listening and Multimodal Learning” after “Cohesive economy also matters: interfaces should reference an idea…”?",
+            "prompt": "Which final statement explicitly closes “When Multimedia Overloads the Mind”?",
             "options": [
               {
                 "id": "o1",
@@ -31141,7 +31141,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Listening Lab: Reading, Listening and Multimodal Learning”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “When Multimedia Overloads the Mind”?",
         "options": [
           "A video containing speech, captions, animation, and written labels may appear educationally rich, yet adding modes does not guarantee deeper learning.",
           "The redundancy effect is similarly misunderstood.",
@@ -31151,17 +31151,17 @@
       },
       {
         "type": "mcq",
-        "prompt": "After “A video containing speech, captions, animation, and written labels may…”, what happens next in “Listening Lab: Reading, Listening and Multimodal Learning”?",
+        "prompt": "Which statement immediately follows “A video containing speech, captions, animation, and written labels may…” in “When Multimedia Overloads the Mind”?",
         "options": [
           "A video containing speech, captions, animation, and written labels may appear educationally rich, yet adding modes does not guarantee deeper learning.",
+          "Multimodality helps when each element performs a useful function.",
           "The redundancy effect is similarly misunderstood.",
-          "Removing them completely may be equally unhelpful if comprehension collapses.",
-          "A well-designed lesson allows sound, image, and text to reinforce a mental model without requiring the learner to solve the presentation itself before engaging with the content."
+          "Removing them completely may be equally unhelpful if comprehension collapses."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Reading, Listening and Multimodal Learning”?",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “When Multimedia Overloads the Mind”?",
         "options": [
           "A video containing speech, captions, animation, and written labels may appear educationally rich, yet adding modes does not guarantee deeper learning.",
           "The redundancy effect is similarly misunderstood.",
@@ -31171,7 +31171,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Reading, Listening and Multimodal Learning” after “Cohesive economy also matters: interfaces should reference an idea…”?",
+        "prompt": "Which final statement explicitly closes “When Multimedia Overloads the Mind”?",
         "options": [
           "A video containing speech, captions, animation, and written labels may appear educationally rich, yet adding modes does not guarantee deeper learning.",
           "The redundancy effect is similarly misunderstood.",
@@ -37181,7 +37181,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Making the Numbers Work”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “How to Control Monthly Spending”?",
             "options": [
               {
                 "id": "o1",
@@ -37204,7 +37204,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “A financial coach reviews a typical monthly budget with two university…”, what happens next in “Making the Numbers Work”?",
+            "prompt": "Which statement immediately follows “A financial coach reviews a typical monthly budget with two university…” in “How to Control Monthly Spending”?",
             "options": [
               {
                 "id": "o1",
@@ -37212,22 +37212,22 @@
               },
               {
                 "id": "o2",
-                "text": "If they plan three simple meals each week, they can reduce food waste and avoid expensive last-minute orders."
+                "text": "Small subscriptions, food deliveries, and transport apps are costing more than they expected."
               },
               {
                 "id": "o3",
-                "text": "Instead, she asks them to choose what is genuinely worth paying for."
+                "text": "If they plan three simple meals each week, they can reduce food waste and avoid expensive last-minute orders."
               },
               {
                 "id": "o4",
-                "text": "A budget works best when it reflects real priorities, includes unexpected expenses, and leaves some room for entertainment."
+                "text": "Instead, she asks them to choose what is genuinely worth paying for."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Making the Numbers Work”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “How to Control Monthly Spending”?",
             "options": [
               {
                 "id": "o1",
@@ -37250,7 +37250,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Making the Numbers Work” after “If they plan three simple meals each week, they can reduce food waste…”?",
+            "prompt": "Which final statement explicitly closes “How to Control Monthly Spending”?",
             "options": [
               {
                 "id": "o1",
@@ -37284,7 +37284,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Making the Numbers Work”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “How to Control Monthly Spending”?",
         "options": [
           "A financial coach reviews a typical monthly budget with two university students.",
           "If they plan three simple meals each week, they can reduce food waste and avoid expensive last-minute orders.",
@@ -37294,27 +37294,27 @@
       },
       {
         "type": "mcq",
-        "prompt": "After “A financial coach reviews a typical monthly budget with two university…”, what happens next in “Making the Numbers Work”?",
+        "prompt": "Which statement immediately follows “A financial coach reviews a typical monthly budget with two university…” in “How to Control Monthly Spending”?",
         "options": [
           "A financial coach reviews a typical monthly budget with two university students.",
+          "Small subscriptions, food deliveries, and transport apps are costing more than they expected.",
           "If they plan three simple meals each week, they can reduce food waste and avoid expensive last-minute orders.",
+          "Instead, she asks them to choose what is genuinely worth paying for."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “How to Control Monthly Spending”?",
+        "options": [
+          "A financial coach reviews a typical monthly budget with two university students.",
           "Instead, she asks them to choose what is genuinely worth paying for.",
+          "If they plan three simple meals each week, they can reduce food waste and avoid expensive last-minute orders.",
           "A budget works best when it reflects real priorities, includes unexpected expenses, and leaves some room for entertainment."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Making the Numbers Work”?",
-        "options": [
-          "A financial coach reviews a typical monthly budget with two university students.",
-          "Instead, she asks them to choose what is genuinely worth paying for.",
-          "If they plan three simple meals each week, they can reduce food waste and avoid expensive last-minute orders.",
-          "A budget works best when it reflects real priorities, includes unexpected expenses, and leaves some room for entertainment."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which outcome closes “Making the Numbers Work” after “If they plan three simple meals each week, they can reduce food waste…”?",
+        "prompt": "Which final statement explicitly closes “How to Control Monthly Spending”?",
         "options": [
           "A financial coach reviews a typical monthly budget with two university students.",
           "If they plan three simple meals each week, they can reduce food waste and avoid expensive last-minute orders.",
@@ -37648,7 +37648,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Listening Lab: Migration and Cultural Identity”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “Living Between Languages and Cultures”?",
             "options": [
               {
                 "id": "o1",
@@ -37671,7 +37671,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Our guest Maya grew up in a diaspora family.”, what happens next in “Listening Lab: Migration and Cultural Identity”?",
+            "prompt": "Which statement immediately follows “Our guest Maya grew up in a diaspora family.” in “Living Between Languages and Cultures”?",
             "options": [
               {
                 "id": "o1",
@@ -37679,22 +37679,22 @@
               },
               {
                 "id": "o2",
-                "text": "Both places belong to my identity."
+                "text": "Maya, where do you call home?"
               },
               {
                 "id": "o3",
-                "text": "The neighbors who welcomed my parents also became part of our story."
+                "text": "Both places belong to my identity."
               },
               {
                 "id": "o4",
-                "text": "Identity is not a suitcase with room for only one object; it is a relationship among memory, place and the people with whom we build a life."
+                "text": "The neighbors who welcomed my parents also became part of our story."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Migration and Cultural Identity”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Living Between Languages and Cultures”?",
             "options": [
               {
                 "id": "o1",
@@ -37717,7 +37717,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Migration and Cultural Identity” after “The neighbors who welcomed my parents also became part of our story.”?",
+            "prompt": "Which final statement explicitly closes “Living Between Languages and Cultures”?",
             "options": [
               {
                 "id": "o1",
@@ -37826,7 +37826,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Listening Lab: Migration and Cultural Identity”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “Living Between Languages and Cultures”?",
         "options": [
           "Host: Our guest Maya grew up in a diaspora family.",
           "Both places belong to my identity.",
@@ -37836,7 +37836,17 @@
       },
       {
         "type": "mcq",
-        "prompt": "After “Our guest Maya grew up in a diaspora family.”, what happens next in “Listening Lab: Migration and Cultural Identity”?",
+        "prompt": "Which statement immediately follows “Our guest Maya grew up in a diaspora family.” in “Living Between Languages and Cultures”?",
+        "options": [
+          "Host: Our guest Maya grew up in a diaspora family.",
+          "Maya, where do you call home?",
+          "Both places belong to my identity.",
+          "The neighbors who welcomed my parents also became part of our story."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Living Between Languages and Cultures”?",
         "options": [
           "Host: Our guest Maya grew up in a diaspora family.",
           "Both places belong to my identity.",
@@ -37846,17 +37856,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Migration and Cultural Identity”?",
-        "options": [
-          "Host: Our guest Maya grew up in a diaspora family.",
-          "Both places belong to my identity.",
-          "The neighbors who welcomed my parents also became part of our story.",
-          "Identity is not a suitcase with room for only one object; it is a relationship among memory, place and the people with whom we build a life."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Migration and Cultural Identity” after “The neighbors who welcomed my parents also became part of our story.”?",
+        "prompt": "Which final statement explicitly closes “Living Between Languages and Cultures”?",
         "options": [
           "Host: Our guest Maya grew up in a diaspora family.",
           "Both places belong to my identity.",
@@ -37924,7 +37924,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Listening Lab: Ageing and the Care Economy”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “Who Cares in an Ageing Society?”?",
             "options": [
               {
                 "id": "o1",
@@ -37947,7 +37947,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Longer life expectancy is a major social achievement, but it exposes a…”, what happens next in “Listening Lab: Ageing and the Care Economy”?",
+            "prompt": "Which statement immediately follows “Longer life expectancy is a major social achievement, but it exposes a…” in “Who Cares in an Ageing Society?”?",
             "options": [
               {
                 "id": "o1",
@@ -37955,22 +37955,22 @@
               },
               {
                 "id": "o2",
-                "text": "Rarely does the debate acknowledge that care is both an intimate relationship and essential economic infrastructure."
+                "text": "Never have so many families had to combine paid employment with support for an older relative."
               },
               {
                 "id": "o3",
-                "text": "The dependency ratio is frequently used to describe an ageing population, yet it can oversimplify reality."
+                "text": "Rarely does the debate acknowledge that care is both an intimate relationship and essential economic infrastructure."
               },
               {
                 "id": "o4",
-                "text": "Only when care is treated as a shared responsibility can longer lives remain a collective success rather than a private crisis."
+                "text": "The dependency ratio is frequently used to describe an ageing population, yet it can oversimplify reality."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Ageing and the Care Economy”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Who Cares in an Ageing Society?”?",
             "options": [
               {
                 "id": "o1",
@@ -37993,7 +37993,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Ageing and the Care Economy” after “The dependency ratio is frequently used to describe an ageing…”?",
+            "prompt": "Which final statement explicitly closes “Who Cares in an Ageing Society?”?",
             "options": [
               {
                 "id": "o1",
@@ -38087,7 +38087,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Listening Lab: Ageing and the Care Economy”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “Who Cares in an Ageing Society?”?",
         "options": [
           "Longer life expectancy is a major social achievement, but it exposes a question many countries have postponed: who will provide long-term care, and under what conditions?",
           "Rarely does the debate acknowledge that care is both an intimate relationship and essential economic infrastructure.",
@@ -38097,7 +38097,17 @@
       },
       {
         "type": "mcq",
-        "prompt": "After “Longer life expectancy is a major social achievement, but it exposes a…”, what happens next in “Listening Lab: Ageing and the Care Economy”?",
+        "prompt": "Which statement immediately follows “Longer life expectancy is a major social achievement, but it exposes a…” in “Who Cares in an Ageing Society?”?",
+        "options": [
+          "Longer life expectancy is a major social achievement, but it exposes a question many countries have postponed: who will provide long-term care, and under what conditions?",
+          "Never have so many families had to combine paid employment with support for an older relative.",
+          "Rarely does the debate acknowledge that care is both an intimate relationship and essential economic infrastructure.",
+          "The dependency ratio is frequently used to describe an ageing population, yet it can oversimplify reality."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Who Cares in an Ageing Society?”?",
         "options": [
           "Longer life expectancy is a major social achievement, but it exposes a question many countries have postponed: who will provide long-term care, and under what conditions?",
           "Rarely does the debate acknowledge that care is both an intimate relationship and essential economic infrastructure.",
@@ -38107,17 +38117,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Ageing and the Care Economy”?",
-        "options": [
-          "Longer life expectancy is a major social achievement, but it exposes a question many countries have postponed: who will provide long-term care, and under what conditions?",
-          "Rarely does the debate acknowledge that care is both an intimate relationship and essential economic infrastructure.",
-          "The dependency ratio is frequently used to describe an ageing population, yet it can oversimplify reality.",
-          "Only when care is treated as a shared responsibility can longer lives remain a collective success rather than a private crisis."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Ageing and the Care Economy” after “The dependency ratio is frequently used to describe an ageing…”?",
+        "prompt": "Which final statement explicitly closes “Who Cares in an Ageing Society?”?",
         "options": [
           "Longer life expectancy is a major social achievement, but it exposes a question many countries have postponed: who will provide long-term care, and under what conditions?",
           "Rarely does the debate acknowledge that care is both an intimate relationship and essential economic infrastructure.",
@@ -38185,7 +38185,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Listening Lab: Interaction, Output and Negotiation of Meaning”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “How Conversation Repairs Build Fluency”?",
             "options": [
               {
                 "id": "o1",
@@ -38193,22 +38193,22 @@
               },
               {
                 "id": "o2",
-                "text": "Modified output—the revised sentence produced after a problem—can therefore function as a small experiment."
+                "text": "An idea that feels clear internally may prove difficult to express, revealing missing vocabulary or uncertain grammar."
               },
               {
                 "id": "o3",
-                "text": "Digital conversation creates additional possibilities, including transcripts and replay, but it may remove facial cues that support understanding."
+                "text": "Teachers can model neutral phrases and allow enough time for a speaker to self-correct."
               },
               {
                 "id": "o4",
-                "text": "The speaker then repeats, simplifies, or produces a more precise form."
+                "text": "What appears to be a disruption is often the point at which attention, form, and communicative purpose become most closely aligned."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Conversation becomes especially valuable when understanding briefly…”, what happens next in “Listening Lab: Interaction, Output and Negotiation of Meaning”?",
+            "prompt": "Which statement immediately follows “Conversation becomes especially valuable when understanding briefly…” in “How Conversation Repairs Build Fluency”?",
             "options": [
               {
                 "id": "o1",
@@ -38216,22 +38216,22 @@
               },
               {
                 "id": "o2",
-                "text": "Modified output—the revised sentence produced after a problem—can therefore function as a small experiment."
+                "text": "A listener may use a clarification request, a comprehension check, or a confirmation check: “Do you mean the deadline changed?” The speaker then repeats, simplifies, or produces a more precise form."
               },
               {
                 "id": "o3",
-                "text": "Digital conversation creates additional possibilities, including transcripts and replay, but it may remove facial cues that support understanding."
+                "text": "An idea that feels clear internally may prove difficult to express, revealing missing vocabulary or uncertain grammar."
               },
               {
                 "id": "o4",
-                "text": "The speaker then repeats, simplifies, or produces a more precise form."
+                "text": "Teachers can model neutral phrases and allow enough time for a speaker to self-correct."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Interaction, Output and Negotiation of Meaning”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “How Conversation Repairs Build Fluency”?",
             "options": [
               {
                 "id": "o1",
@@ -38239,22 +38239,22 @@
               },
               {
                 "id": "o2",
-                "text": "Modified output—the revised sentence produced after a problem—can therefore function as a small experiment."
+                "text": "An idea that feels clear internally may prove difficult to express, revealing missing vocabulary or uncertain grammar."
               },
               {
                 "id": "o3",
-                "text": "Digital conversation creates additional possibilities, including transcripts and replay, but it may remove facial cues that support understanding."
+                "text": "Teachers can model neutral phrases and allow enough time for a speaker to self-correct."
               },
               {
                 "id": "o4",
-                "text": "The speaker then repeats, simplifies, or produces a more precise form."
+                "text": "What appears to be a disruption is often the point at which attention, form, and communicative purpose become most closely aligned."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Interaction, Output and Negotiation of Meaning” after “Digital conversation creates additional possibilities, including…”?",
+            "prompt": "Which final statement explicitly closes “How Conversation Repairs Build Fluency”?",
             "options": [
               {
                 "id": "o1",
@@ -38262,15 +38262,15 @@
               },
               {
                 "id": "o2",
-                "text": "Modified output—the revised sentence produced after a problem—can therefore function as a small experiment."
+                "text": "An idea that feels clear internally may prove difficult to express, revealing missing vocabulary or uncertain grammar."
               },
               {
                 "id": "o3",
-                "text": "Digital conversation creates additional possibilities, including transcripts and replay, but it may remove facial cues that support understanding."
+                "text": "Teachers can model neutral phrases and allow enough time for a speaker to self-correct."
               },
               {
                 "id": "o4",
-                "text": "The speaker then repeats, simplifies, or produces a more precise form."
+                "text": "What appears to be a disruption is often the point at which attention, form, and communicative purpose become most closely aligned."
               }
             ]
           }
@@ -38373,42 +38373,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Listening Lab: Interaction, Output and Negotiation of Meaning”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “How Conversation Repairs Build Fluency”?",
         "options": [
           "Conversation becomes especially valuable when understanding briefly fails.",
-          "Modified output—the revised sentence produced after a problem—can therefore function as a small experiment.",
-          "Digital conversation creates additional possibilities, including transcripts and replay, but it may remove facial cues that support understanding.",
-          "The speaker then repeats, simplifies, or produces a more precise form."
+          "An idea that feels clear internally may prove difficult to express, revealing missing vocabulary or uncertain grammar.",
+          "Teachers can model neutral phrases and allow enough time for a speaker to self-correct.",
+          "What appears to be a disruption is often the point at which attention, form, and communicative purpose become most closely aligned."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Conversation becomes especially valuable when understanding briefly…”, what happens next in “Listening Lab: Interaction, Output and Negotiation of Meaning”?",
+        "prompt": "Which statement immediately follows “Conversation becomes especially valuable when understanding briefly…” in “How Conversation Repairs Build Fluency”?",
         "options": [
           "Conversation becomes especially valuable when understanding briefly fails.",
-          "Modified output—the revised sentence produced after a problem—can therefore function as a small experiment.",
-          "Digital conversation creates additional possibilities, including transcripts and replay, but it may remove facial cues that support understanding.",
-          "The speaker then repeats, simplifies, or produces a more precise form."
+          "A listener may use a clarification request, a comprehension check, or a confirmation check: “Do you mean the deadline changed?” The speaker then repeats, simplifies, or produces a more precise form.",
+          "An idea that feels clear internally may prove difficult to express, revealing missing vocabulary or uncertain grammar.",
+          "Teachers can model neutral phrases and allow enough time for a speaker to self-correct."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Interaction, Output and Negotiation of Meaning”?",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “How Conversation Repairs Build Fluency”?",
         "options": [
           "Conversation becomes especially valuable when understanding briefly fails.",
-          "Modified output—the revised sentence produced after a problem—can therefore function as a small experiment.",
-          "Digital conversation creates additional possibilities, including transcripts and replay, but it may remove facial cues that support understanding.",
-          "The speaker then repeats, simplifies, or produces a more precise form."
+          "An idea that feels clear internally may prove difficult to express, revealing missing vocabulary or uncertain grammar.",
+          "Teachers can model neutral phrases and allow enough time for a speaker to self-correct.",
+          "What appears to be a disruption is often the point at which attention, form, and communicative purpose become most closely aligned."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Interaction, Output and Negotiation of Meaning” after “Digital conversation creates additional possibilities, including…”?",
+        "prompt": "Which final statement explicitly closes “How Conversation Repairs Build Fluency”?",
         "options": [
           "Conversation becomes especially valuable when understanding briefly fails.",
-          "Modified output—the revised sentence produced after a problem—can therefore function as a small experiment.",
-          "Digital conversation creates additional possibilities, including transcripts and replay, but it may remove facial cues that support understanding.",
-          "The speaker then repeats, simplifies, or produces a more precise form."
+          "An idea that feels clear internally may prove difficult to express, revealing missing vocabulary or uncertain grammar.",
+          "Teachers can model neutral phrases and allow enough time for a speaker to self-correct.",
+          "What appears to be a disruption is often the point at which attention, form, and communicative purpose become most closely aligned."
         ]
       }
     ]
@@ -44407,7 +44407,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “A Phone-Free Dinner”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “How to Spot an Online Scam”?",
             "options": [
               {
                 "id": "o1",
@@ -44430,7 +44430,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Technology reporter Jamal Brooks examines a message that appears to…”, what happens next in “A Phone-Free Dinner”?",
+            "prompt": "Which statement immediately follows “Technology reporter Jamal Brooks examines a message that appears to…” in “How to Spot an Online Scam”?",
             "options": [
               {
                 "id": "o1",
@@ -44438,22 +44438,22 @@
               },
               {
                 "id": "o2",
-                "text": "The website that receives the payment looks professional, but its address contains an extra letter."
+                "text": "The message, which creates a sense of urgency, asks the user to open a link and pay a small fee."
               },
               {
                 "id": "o3",
-                "text": "They can also activate two-step verification and avoid sharing security codes."
+                "text": "The website that receives the payment looks professional, but its address contains an extra letter."
               },
               {
                 "id": "o4",
-                "text": "The safest digital habit is to pause, verify the request through another channel, and report the scam so other users are warned."
+                "text": "They can also activate two-step verification and avoid sharing security codes."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “A Phone-Free Dinner”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “How to Spot an Online Scam”?",
             "options": [
               {
                 "id": "o1",
@@ -44476,7 +44476,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “A Phone-Free Dinner” after “People who receive suspicious messages should open the company’s…”?",
+            "prompt": "Which final statement explicitly closes “How to Spot an Online Scam”?",
             "options": [
               {
                 "id": "o1",
@@ -44510,7 +44510,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “A Phone-Free Dinner”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “How to Spot an Online Scam”?",
         "options": [
           "Technology reporter Jamal Brooks examines a message that appears to come from a delivery company.",
           "The website that receives the payment looks professional, but its address contains an extra letter.",
@@ -44520,17 +44520,17 @@
       },
       {
         "type": "mcq",
-        "prompt": "After “Technology reporter Jamal Brooks examines a message that appears to…”, what happens next in “A Phone-Free Dinner”?",
+        "prompt": "Which statement immediately follows “Technology reporter Jamal Brooks examines a message that appears to…” in “How to Spot an Online Scam”?",
         "options": [
           "Technology reporter Jamal Brooks examines a message that appears to come from a delivery company.",
+          "The message, which creates a sense of urgency, asks the user to open a link and pay a small fee.",
           "The website that receives the payment looks professional, but its address contains an extra letter.",
-          "They can also activate two-step verification and avoid sharing security codes.",
-          "The safest digital habit is to pause, verify the request through another channel, and report the scam so other users are warned."
+          "They can also activate two-step verification and avoid sharing security codes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “A Phone-Free Dinner”?",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “How to Spot an Online Scam”?",
         "options": [
           "Technology reporter Jamal Brooks examines a message that appears to come from a delivery company.",
           "The website that receives the payment looks professional, but its address contains an extra letter.",
@@ -44540,7 +44540,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “A Phone-Free Dinner” after “People who receive suspicious messages should open the company’s…”?",
+        "prompt": "Which final statement explicitly closes “How to Spot an Online Scam”?",
         "options": [
           "Technology reporter Jamal Brooks examines a message that appears to come from a delivery company.",
           "The website that receives the payment looks professional, but its address contains an extra letter.",
@@ -44879,7 +44879,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Listening Lab: Housing Inequality”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “Why Rent Keeps Rising”?",
             "options": [
               {
                 "id": "o1",
@@ -44902,7 +44902,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Lena, a tenant in the city center, has received another rent increase.”, what happens next in “Listening Lab: Housing Inequality”?",
+            "prompt": "Which statement immediately follows “Lena, a tenant in the city center, has received another rent increase.” in “Why Rent Keeps Rising”?",
             "options": [
               {
                 "id": "o1",
@@ -44910,22 +44910,22 @@
               },
               {
                 "id": "o2",
-                "text": "The cost of living has risen much faster than household income, so affordable housing is becoming far harder to find."
+                "text": "How serious is the change?"
               },
               {
                 "id": "o3",
-                "text": "Host: Would new construction solve the problem?"
+                "text": "The cost of living has risen much faster than household income, so affordable housing is becoming far harder to find."
               },
               {
                 "id": "o4",
-                "text": "The strongest policy would be more ambitious: protect existing tenants, build substantially more homes and connect housing decisions to transportation, wages and local services."
+                "text": "Host: Would new construction solve the problem?"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Housing Inequality”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Why Rent Keeps Rising”?",
             "options": [
               {
                 "id": "o1",
@@ -44948,7 +44948,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Housing Inequality” after “Would new construction solve the problem?”?",
+            "prompt": "Which final statement explicitly closes “Why Rent Keeps Rising”?",
             "options": [
               {
                 "id": "o1",
@@ -45037,7 +45037,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Listening Lab: Housing Inequality”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “Why Rent Keeps Rising”?",
         "options": [
           "Host: Lena, a tenant in the city center, has received another rent increase.",
           "The cost of living has risen much faster than household income, so affordable housing is becoming far harder to find.",
@@ -45047,7 +45047,17 @@
       },
       {
         "type": "mcq",
-        "prompt": "After “Lena, a tenant in the city center, has received another rent increase.”, what happens next in “Listening Lab: Housing Inequality”?",
+        "prompt": "Which statement immediately follows “Lena, a tenant in the city center, has received another rent increase.” in “Why Rent Keeps Rising”?",
+        "options": [
+          "Host: Lena, a tenant in the city center, has received another rent increase.",
+          "How serious is the change?",
+          "The cost of living has risen much faster than household income, so affordable housing is becoming far harder to find.",
+          "Host: Would new construction solve the problem?"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Why Rent Keeps Rising”?",
         "options": [
           "Host: Lena, a tenant in the city center, has received another rent increase.",
           "The cost of living has risen much faster than household income, so affordable housing is becoming far harder to find.",
@@ -45057,17 +45067,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Housing Inequality”?",
-        "options": [
-          "Host: Lena, a tenant in the city center, has received another rent increase.",
-          "The cost of living has risen much faster than household income, so affordable housing is becoming far harder to find.",
-          "Host: Would new construction solve the problem?",
-          "The strongest policy would be more ambitious: protect existing tenants, build substantially more homes and connect housing decisions to transportation, wages and local services."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Housing Inequality” after “Would new construction solve the problem?”?",
+        "prompt": "Which final statement explicitly closes “Why Rent Keeps Rising”?",
         "options": [
           "Host: Lena, a tenant in the city center, has received another rent increase.",
           "The cost of living has risen much faster than household income, so affordable housing is becoming far harder to find.",
@@ -45135,7 +45135,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Listening Lab: Critical Minerals and the Energy Transition”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “Clean Energy’s Dirty Supply Chain”?",
             "options": [
               {
                 "id": "o1",
@@ -45158,7 +45158,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Electric vehicles, batteries, wind turbines, and power networks…”, what happens next in “Listening Lab: Critical Minerals and the Energy Transition”?",
+            "prompt": "Which statement immediately follows “Electric vehicles, batteries, wind turbines, and power networks…” in “Clean Energy’s Dirty Supply Chain”?",
             "options": [
               {
                 "id": "o1",
@@ -45166,22 +45166,22 @@
               },
               {
                 "id": "o2",
-                "text": "This does not mean clean technology is equivalent to fossil-fuel extraction."
+                "text": "Had the energy transition remained slow, existing supply systems might have attracted less attention."
               },
               {
                 "id": "o3",
-                "text": "Recycling alone, however, cannot meet near-term demand because many required minerals have not yet entered the waste stream."
+                "text": "This does not mean clean technology is equivalent to fossil-fuel extraction."
               },
               {
                 "id": "o4",
-                "text": "The transition will be judged not only by how rapidly emissions fall, but by whether the new material economy distributes benefits, respects rights, and learns from the injustices of the old one."
+                "text": "Recycling alone, however, cannot meet near-term demand because many required minerals have not yet entered the waste stream."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Critical Minerals and the Energy Transition”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Clean Energy’s Dirty Supply Chain”?",
             "options": [
               {
                 "id": "o1",
@@ -45204,7 +45204,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Critical Minerals and the Energy Transition” after “Recycling alone, however, cannot meet near-term demand because many…”?",
+            "prompt": "Which final statement explicitly closes “Clean Energy’s Dirty Supply Chain”?",
             "options": [
               {
                 "id": "o1",
@@ -45298,7 +45298,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Listening Lab: Critical Minerals and the Energy Transition”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “Clean Energy’s Dirty Supply Chain”?",
         "options": [
           "Electric vehicles, batteries, wind turbines, and power networks require large quantities of lithium, copper, nickel, and other critical minerals.",
           "This does not mean clean technology is equivalent to fossil-fuel extraction.",
@@ -45308,7 +45308,17 @@
       },
       {
         "type": "mcq",
-        "prompt": "After “Electric vehicles, batteries, wind turbines, and power networks…”, what happens next in “Listening Lab: Critical Minerals and the Energy Transition”?",
+        "prompt": "Which statement immediately follows “Electric vehicles, batteries, wind turbines, and power networks…” in “Clean Energy’s Dirty Supply Chain”?",
+        "options": [
+          "Electric vehicles, batteries, wind turbines, and power networks require large quantities of lithium, copper, nickel, and other critical minerals.",
+          "Had the energy transition remained slow, existing supply systems might have attracted less attention.",
+          "This does not mean clean technology is equivalent to fossil-fuel extraction.",
+          "Recycling alone, however, cannot meet near-term demand because many required minerals have not yet entered the waste stream."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Clean Energy’s Dirty Supply Chain”?",
         "options": [
           "Electric vehicles, batteries, wind turbines, and power networks require large quantities of lithium, copper, nickel, and other critical minerals.",
           "This does not mean clean technology is equivalent to fossil-fuel extraction.",
@@ -45318,17 +45328,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Critical Minerals and the Energy Transition”?",
-        "options": [
-          "Electric vehicles, batteries, wind turbines, and power networks require large quantities of lithium, copper, nickel, and other critical minerals.",
-          "This does not mean clean technology is equivalent to fossil-fuel extraction.",
-          "Recycling alone, however, cannot meet near-term demand because many required minerals have not yet entered the waste stream.",
-          "The transition will be judged not only by how rapidly emissions fall, but by whether the new material economy distributes benefits, respects rights, and learns from the injustices of the old one."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Critical Minerals and the Energy Transition” after “Recycling alone, however, cannot meet near-term demand because many…”?",
+        "prompt": "Which final statement explicitly closes “Clean Energy’s Dirty Supply Chain”?",
         "options": [
           "Electric vehicles, batteries, wind turbines, and power networks require large quantities of lithium, copper, nickel, and other critical minerals.",
           "This does not mean clean technology is equivalent to fossil-fuel extraction.",
@@ -45396,7 +45396,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Listening Lab: Corrective Feedback and the Productive Role of Error”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “Corrective Feedback: When to Intervene”?",
             "options": [
               {
                 "id": "o1",
@@ -45404,22 +45404,22 @@
               },
               {
                 "id": "o2",
-                "text": "Elicitation or a metalinguistic clue makes the correction more visible: “Try that verb again in the past.” Such prompts can produce uptake and repair, although they require time and may feel intrusive during an emotionally demanding discussion."
+                "text": "It preserves conversational flow, but the learner may interpret it as simple agreement."
               },
               {
                 "id": "o3",
-                "text": "Peer correction also requires norms that protect dignity."
+                "text": "Immediate intervention is more defensible when a misunderstanding is spreading or a brief prompt will genuinely help."
               },
               {
                 "id": "o4",
-                "text": "Such prompts can produce uptake and repair, although they require time and may feel intrusive during an emotionally demanding discussion."
+                "text": "It is a learning environment in which feedback preserves agency, makes patterns perceptible, and gradually reduces the distance between intended and expressed meaning."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Corrective feedback presents a practical dilemma.”, what happens next in “Listening Lab: Corrective Feedback and the Productive Role of Error”?",
+            "prompt": "Which statement immediately follows “Corrective feedback presents a practical dilemma.” in “Corrective Feedback: When to Intervene”?",
             "options": [
               {
                 "id": "o1",
@@ -45427,22 +45427,22 @@
               },
               {
                 "id": "o2",
-                "text": "Elicitation or a metalinguistic clue makes the correction more visible: “Try that verb again in the past.” Such prompts can produce uptake and repair, although they require time and may feel intrusive during an emotionally demanding discussion."
+                "text": "If every error interrupts communication, learners may become cautious and silent."
               },
               {
                 "id": "o3",
-                "text": "Peer correction also requires norms that protect dignity."
+                "text": "It preserves conversational flow, but the learner may interpret it as simple agreement."
               },
               {
                 "id": "o4",
-                "text": "Such prompts can produce uptake and repair, although they require time and may feel intrusive during an emotionally demanding discussion."
+                "text": "Immediate intervention is more defensible when a misunderstanding is spreading or a brief prompt will genuinely help."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Corrective Feedback and the Productive Role of Error”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Corrective Feedback: When to Intervene”?",
             "options": [
               {
                 "id": "o1",
@@ -45450,7 +45450,7 @@
               },
               {
                 "id": "o2",
-                "text": "Elicitation or a metalinguistic clue makes the correction more visible: “Try that verb again in the past.” Such prompts can produce uptake and repair, although they require time and may feel intrusive during an emotionally demanding discussion."
+                "text": "It preserves conversational flow, but the learner may interpret it as simple agreement."
               },
               {
                 "id": "o3",
@@ -45458,14 +45458,14 @@
               },
               {
                 "id": "o4",
-                "text": "Peer correction also requires norms that protect dignity."
+                "text": "Immediate intervention is more defensible when a misunderstanding is spreading or a brief prompt will genuinely help."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Corrective Feedback and the Productive Role of Error” after “Teachers should prioritise forms connected to the lesson, errors that…”?",
+            "prompt": "Which final statement explicitly closes “Corrective Feedback: When to Intervene”?",
             "options": [
               {
                 "id": "o1",
@@ -45473,15 +45473,15 @@
               },
               {
                 "id": "o2",
-                "text": "Elicitation or a metalinguistic clue makes the correction more visible: “Try that verb again in the past.” Such prompts can produce uptake and repair, although they require time and may feel intrusive during an emotionally demanding discussion."
+                "text": "It preserves conversational flow, but the learner may interpret it as simple agreement."
               },
               {
                 "id": "o3",
-                "text": "Peer correction also requires norms that protect dignity."
+                "text": "Immediate intervention is more defensible when a misunderstanding is spreading or a brief prompt will genuinely help."
               },
               {
                 "id": "o4",
-                "text": "Such prompts can produce uptake and repair, although they require time and may feel intrusive during an emotionally demanding discussion."
+                "text": "It is a learning environment in which feedback preserves agency, makes patterns perceptible, and gradually reduces the distance between intended and expressed meaning."
               }
             ]
           }
@@ -45579,42 +45579,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Listening Lab: Corrective Feedback and the Productive Role of Error”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “Corrective Feedback: When to Intervene”?",
         "options": [
           "Corrective feedback presents a practical dilemma.",
-          "Elicitation or a metalinguistic clue makes the correction more visible: “Try that verb again in the past.” Such prompts can produce uptake and repair, although they require time and may feel intrusive during an emotionally demanding discussion.",
-          "Peer correction also requires norms that protect dignity.",
-          "Such prompts can produce uptake and repair, although they require time and may feel intrusive during an emotionally demanding discussion."
+          "It preserves conversational flow, but the learner may interpret it as simple agreement.",
+          "Immediate intervention is more defensible when a misunderstanding is spreading or a brief prompt will genuinely help.",
+          "It is a learning environment in which feedback preserves agency, makes patterns perceptible, and gradually reduces the distance between intended and expressed meaning."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Corrective feedback presents a practical dilemma.”, what happens next in “Listening Lab: Corrective Feedback and the Productive Role of Error”?",
+        "prompt": "Which statement immediately follows “Corrective feedback presents a practical dilemma.” in “Corrective Feedback: When to Intervene”?",
         "options": [
           "Corrective feedback presents a practical dilemma.",
-          "Elicitation or a metalinguistic clue makes the correction more visible: “Try that verb again in the past.” Such prompts can produce uptake and repair, although they require time and may feel intrusive during an emotionally demanding discussion.",
-          "Peer correction also requires norms that protect dignity.",
-          "Such prompts can produce uptake and repair, although they require time and may feel intrusive during an emotionally demanding discussion."
+          "If every error interrupts communication, learners may become cautious and silent.",
+          "It preserves conversational flow, but the learner may interpret it as simple agreement.",
+          "Immediate intervention is more defensible when a misunderstanding is spreading or a brief prompt will genuinely help."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Corrective Feedback and the Productive Role of Error”?",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Corrective Feedback: When to Intervene”?",
         "options": [
           "Corrective feedback presents a practical dilemma.",
-          "Elicitation or a metalinguistic clue makes the correction more visible: “Try that verb again in the past.” Such prompts can produce uptake and repair, although they require time and may feel intrusive during an emotionally demanding discussion.",
+          "It preserves conversational flow, but the learner may interpret it as simple agreement.",
           "Teachers should prioritise forms connected to the lesson, errors that block meaning, and patterns a learner is ready to revise.",
-          "Peer correction also requires norms that protect dignity."
+          "Immediate intervention is more defensible when a misunderstanding is spreading or a brief prompt will genuinely help."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Corrective Feedback and the Productive Role of Error” after “Teachers should prioritise forms connected to the lesson, errors that…”?",
+        "prompt": "Which final statement explicitly closes “Corrective Feedback: When to Intervene”?",
         "options": [
           "Corrective feedback presents a practical dilemma.",
-          "Elicitation or a metalinguistic clue makes the correction more visible: “Try that verb again in the past.” Such prompts can produce uptake and repair, although they require time and may feel intrusive during an emotionally demanding discussion.",
-          "Peer correction also requires norms that protect dignity.",
-          "Such prompts can produce uptake and repair, although they require time and may feel intrusive during an emotionally demanding discussion."
+          "It preserves conversational flow, but the learner may interpret it as simple agreement.",
+          "Immediate intervention is more defensible when a misunderstanding is spreading or a brief prompt will genuinely help.",
+          "It is a learning environment in which feedback preserves agency, makes patterns perceptible, and gradually reduces the distance between intended and expressed meaning."
         ]
       }
     ]
@@ -51608,7 +51608,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “After the Film”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “Choosing What to Watch Next”?",
             "options": [
               {
                 "id": "o1",
@@ -51631,7 +51631,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Three friends compare a documentary, a comedy series, and a…”, what happens next in “After the Film”?",
+            "prompt": "Which statement immediately follows “Three friends compare a documentary, a comedy series, and a…” in “Choosing What to Watch Next”?",
             "options": [
               {
                 "id": "o1",
@@ -51639,22 +51639,22 @@
               },
               {
                 "id": "o2",
-                "text": "The comedy is easier to watch and has the funniest dialogue, although its story is less original."
+                "text": "The documentary is by far the most informative choice, but one viewer finds it slightly longer than necessary."
               },
               {
                 "id": "o3",
-                "text": "Instead of relying only on the platform’s recommendations, the friends explain what kind of experience they want that evening."
+                "text": "The comedy is easier to watch and has the funniest dialogue, although its story is less original."
               },
               {
                 "id": "o4",
-                "text": "Their discussion shows that the “best” program depends on mood, interests, time, and the people watching together."
+                "text": "Instead of relying only on the platform’s recommendations, the friends explain what kind of experience they want that evening."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “After the Film”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Choosing What to Watch Next”?",
             "options": [
               {
                 "id": "o1",
@@ -51677,7 +51677,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “After the Film” after “Instead of relying only on the platform’s recommendations, the friends…”?",
+            "prompt": "Which final statement explicitly closes “Choosing What to Watch Next”?",
             "options": [
               {
                 "id": "o1",
@@ -51711,7 +51711,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “After the Film”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “Choosing What to Watch Next”?",
         "options": [
           "Three friends compare a documentary, a comedy series, and a science-fiction film on a streaming platform.",
           "The comedy is easier to watch and has the funniest dialogue, although its story is less original.",
@@ -51721,7 +51721,17 @@
       },
       {
         "type": "mcq",
-        "prompt": "After “Three friends compare a documentary, a comedy series, and a…”, what happens next in “After the Film”?",
+        "prompt": "Which statement immediately follows “Three friends compare a documentary, a comedy series, and a…” in “Choosing What to Watch Next”?",
+        "options": [
+          "Three friends compare a documentary, a comedy series, and a science-fiction film on a streaming platform.",
+          "The documentary is by far the most informative choice, but one viewer finds it slightly longer than necessary.",
+          "The comedy is easier to watch and has the funniest dialogue, although its story is less original.",
+          "Instead of relying only on the platform’s recommendations, the friends explain what kind of experience they want that evening."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Choosing What to Watch Next”?",
         "options": [
           "Three friends compare a documentary, a comedy series, and a science-fiction film on a streaming platform.",
           "The comedy is easier to watch and has the funniest dialogue, although its story is less original.",
@@ -51731,17 +51741,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “After the Film”?",
-        "options": [
-          "Three friends compare a documentary, a comedy series, and a science-fiction film on a streaming platform.",
-          "The comedy is easier to watch and has the funniest dialogue, although its story is less original.",
-          "Instead of relying only on the platform’s recommendations, the friends explain what kind of experience they want that evening.",
-          "Their discussion shows that the “best” program depends on mood, interests, time, and the people watching together."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which outcome closes “After the Film” after “Instead of relying only on the platform’s recommendations, the friends…”?",
+        "prompt": "Which final statement explicitly closes “Choosing What to Watch Next”?",
         "options": [
           "Three friends compare a documentary, a comedy series, and a science-fiction film on a streaming platform.",
           "The comedy is easier to watch and has the funniest dialogue, although its story is less original.",
@@ -52080,7 +52080,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Listening Lab: Artificial Intelligence and Employment”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “How AI Is Changing Entry-Level Work”?",
             "options": [
               {
                 "id": "o1",
@@ -52103,7 +52103,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “A regional hotel chain has introduced an automated scheduling system.”, what happens next in “Listening Lab: Artificial Intelligence and Employment”?",
+            "prompt": "Which statement immediately follows “A regional hotel chain has introduced an automated scheduling system.” in “How AI Is Changing Entry-Level Work”?",
             "options": [
               {
                 "id": "o1",
@@ -52111,22 +52111,22 @@
               },
               {
                 "id": "o2",
-                "text": "Host: What concerns have employees raised?"
+                "text": "What will have changed by next year?"
               },
               {
                 "id": "o3",
-                "text": "Host: How should the hotel respond?"
+                "text": "Host: What concerns have employees raised?"
               },
               {
                 "id": "o4",
-                "text": "Automation can support workers, but only a transparent system allows them to challenge a harmful decision."
+                "text": "Host: How should the hotel respond?"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Artificial Intelligence and Employment”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “How AI Is Changing Entry-Level Work”?",
             "options": [
               {
                 "id": "o1",
@@ -52149,7 +52149,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Artificial Intelligence and Employment” after “How should the hotel respond?”?",
+            "prompt": "Which final statement explicitly closes “How AI Is Changing Entry-Level Work”?",
             "options": [
               {
                 "id": "o1",
@@ -52243,7 +52243,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Listening Lab: Artificial Intelligence and Employment”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “How AI Is Changing Entry-Level Work”?",
         "options": [
           "Host: A regional hotel chain has introduced an automated scheduling system.",
           "Host: What concerns have employees raised?",
@@ -52253,7 +52253,17 @@
       },
       {
         "type": "mcq",
-        "prompt": "After “A regional hotel chain has introduced an automated scheduling system.”, what happens next in “Listening Lab: Artificial Intelligence and Employment”?",
+        "prompt": "Which statement immediately follows “A regional hotel chain has introduced an automated scheduling system.” in “How AI Is Changing Entry-Level Work”?",
+        "options": [
+          "Host: A regional hotel chain has introduced an automated scheduling system.",
+          "What will have changed by next year?",
+          "Host: What concerns have employees raised?",
+          "Host: How should the hotel respond?"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “How AI Is Changing Entry-Level Work”?",
         "options": [
           "Host: A regional hotel chain has introduced an automated scheduling system.",
           "Host: What concerns have employees raised?",
@@ -52263,17 +52273,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Artificial Intelligence and Employment”?",
-        "options": [
-          "Host: A regional hotel chain has introduced an automated scheduling system.",
-          "Host: What concerns have employees raised?",
-          "Host: How should the hotel respond?",
-          "Automation can support workers, but only a transparent system allows them to challenge a harmful decision."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Artificial Intelligence and Employment” after “How should the hotel respond?”?",
+        "prompt": "Which final statement explicitly closes “How AI Is Changing Entry-Level Work”?",
         "options": [
           "Host: A regional hotel chain has introduced an automated scheduling system.",
           "Host: What concerns have employees raised?",
@@ -52341,7 +52341,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Listening Lab: Deepfakes, Evidence and Democracy”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “Deepfakes and the Collapse of Visual Proof”?",
             "options": [
               {
                 "id": "o1",
@@ -52364,7 +52364,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “A convincing video once appeared to offer unusually strong evidence:…”, what happens next in “Listening Lab: Deepfakes, Evidence and Democracy”?",
+            "prompt": "Which statement immediately follows “A convincing video once appeared to offer unusually strong evidence:…” in “Deepfakes and the Collapse of Visual Proof”?",
             "options": [
               {
                 "id": "o1",
@@ -52372,22 +52372,22 @@
               },
               {
                 "id": "o2",
-                "text": "The existence of deepfakes also creates plausible deniability."
+                "text": "Synthetic media has weakened that assumption."
               },
               {
                 "id": "o3",
-                "text": "Media literacy remains essential, although telling citizens to distrust everything would be a disastrous response."
+                "text": "The existence of deepfakes also creates plausible deniability."
               },
               {
                 "id": "o4",
-                "text": "When verification becomes visible as a process rather than a mysterious verdict, the public has a better chance of resisting both deception and cynical denial."
+                "text": "Media literacy remains essential, although telling citizens to distrust everything would be a disastrous response."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Deepfakes, Evidence and Democracy”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Deepfakes and the Collapse of Visual Proof”?",
             "options": [
               {
                 "id": "o1",
@@ -52410,7 +52410,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Deepfakes, Evidence and Democracy” after “Media literacy remains essential, although telling citizens to…”?",
+            "prompt": "Which final statement explicitly closes “Deepfakes and the Collapse of Visual Proof”?",
             "options": [
               {
                 "id": "o1",
@@ -52514,7 +52514,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Listening Lab: Deepfakes, Evidence and Democracy”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “Deepfakes and the Collapse of Visual Proof”?",
         "options": [
           "A convincing video once appeared to offer unusually strong evidence: viewers could see a public figure speak and hear the words directly.",
           "The existence of deepfakes also creates plausible deniability.",
@@ -52524,7 +52524,17 @@
       },
       {
         "type": "mcq",
-        "prompt": "After “A convincing video once appeared to offer unusually strong evidence:…”, what happens next in “Listening Lab: Deepfakes, Evidence and Democracy”?",
+        "prompt": "Which statement immediately follows “A convincing video once appeared to offer unusually strong evidence:…” in “Deepfakes and the Collapse of Visual Proof”?",
+        "options": [
+          "A convincing video once appeared to offer unusually strong evidence: viewers could see a public figure speak and hear the words directly.",
+          "Synthetic media has weakened that assumption.",
+          "The existence of deepfakes also creates plausible deniability.",
+          "Media literacy remains essential, although telling citizens to distrust everything would be a disastrous response."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Deepfakes and the Collapse of Visual Proof”?",
         "options": [
           "A convincing video once appeared to offer unusually strong evidence: viewers could see a public figure speak and hear the words directly.",
           "The existence of deepfakes also creates plausible deniability.",
@@ -52534,17 +52544,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Deepfakes, Evidence and Democracy”?",
-        "options": [
-          "A convincing video once appeared to offer unusually strong evidence: viewers could see a public figure speak and hear the words directly.",
-          "The existence of deepfakes also creates plausible deniability.",
-          "Media literacy remains essential, although telling citizens to distrust everything would be a disastrous response.",
-          "When verification becomes visible as a process rather than a mysterious verdict, the public has a better chance of resisting both deception and cynical denial."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Deepfakes, Evidence and Democracy” after “Media literacy remains essential, although telling citizens to…”?",
+        "prompt": "Which final statement explicitly closes “Deepfakes and the Collapse of Visual Proof”?",
         "options": [
           "A convincing video once appeared to offer unusually strong evidence: viewers could see a public figure speak and hear the words directly.",
           "The existence of deepfakes also creates plausible deniability.",
@@ -52612,7 +52612,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Listening Lab: Speech Perception, Accent and Pronunciation Training”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “Training the Ear Before the Voice”?",
             "options": [
               {
                 "id": "o1",
@@ -52635,7 +52635,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Pronunciation difficulties are often described as failures of the…”, what happens next in “Listening Lab: Speech Perception, Accent and Pronunciation Training”?",
+            "prompt": "Which statement immediately follows “Pronunciation difficulties are often described as failures of the…” in “Training the Ear Before the Voice”?",
             "options": [
               {
                 "id": "o1",
@@ -52643,22 +52643,22 @@
               },
               {
                 "id": "o2",
-                "text": "Sounds change with neighbouring segments, speaking rate, accent, and position."
+                "text": "When two sounds are not contrastive in a listener’s first language, both can be assimilated to a familiar category."
               },
               {
                 "id": "o3",
-                "text": "Responsibility is shared: speakers can refine contrasts that repeatedly cause confusion, and listeners can become more flexible toward unfamiliar accents."
+                "text": "Sounds change with neighbouring segments, speaking rate, accent, and position."
               },
               {
                 "id": "o4",
-                "text": "Speech training is most effective when perception, production, and communicative consequence are treated as one system rather than three separate exercises."
+                "text": "Responsibility is shared: speakers can refine contrasts that repeatedly cause confusion, and listeners can become more flexible toward unfamiliar accents."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Speech Perception, Accent and Pronunciation Training”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Training the Ear Before the Voice”?",
             "options": [
               {
                 "id": "o1",
@@ -52681,7 +52681,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Speech Perception, Accent and Pronunciation Training” after “Improvement should be measured through intelligibility, not imitation…”?",
+            "prompt": "Which final statement explicitly closes “Training the Ear Before the Voice”?",
             "options": [
               {
                 "id": "o1",
@@ -52780,7 +52780,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Listening Lab: Speech Perception, Accent and Pronunciation Training”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “Training the Ear Before the Voice”?",
         "options": [
           "Pronunciation difficulties are often described as failures of the mouth, yet production may be constrained by perception.",
           "Sounds change with neighbouring segments, speaking rate, accent, and position.",
@@ -52790,17 +52790,17 @@
       },
       {
         "type": "mcq",
-        "prompt": "After “Pronunciation difficulties are often described as failures of the…”, what happens next in “Listening Lab: Speech Perception, Accent and Pronunciation Training”?",
+        "prompt": "Which statement immediately follows “Pronunciation difficulties are often described as failures of the…” in “Training the Ear Before the Voice”?",
         "options": [
           "Pronunciation difficulties are often described as failures of the mouth, yet production may be constrained by perception.",
+          "When two sounds are not contrastive in a listener’s first language, both can be assimilated to a familiar category.",
           "Sounds change with neighbouring segments, speaking rate, accent, and position.",
-          "Responsibility is shared: speakers can refine contrasts that repeatedly cause confusion, and listeners can become more flexible toward unfamiliar accents.",
-          "Speech training is most effective when perception, production, and communicative consequence are treated as one system rather than three separate exercises."
+          "Responsibility is shared: speakers can refine contrasts that repeatedly cause confusion, and listeners can become more flexible toward unfamiliar accents."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Speech Perception, Accent and Pronunciation Training”?",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Training the Ear Before the Voice”?",
         "options": [
           "Pronunciation difficulties are often described as failures of the mouth, yet production may be constrained by perception.",
           "Sounds change with neighbouring segments, speaking rate, accent, and position.",
@@ -52810,7 +52810,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Speech Perception, Accent and Pronunciation Training” after “Improvement should be measured through intelligibility, not imitation…”?",
+        "prompt": "Which final statement explicitly closes “Training the Ear Before the Voice”?",
         "options": [
           "Pronunciation difficulties are often described as failures of the mouth, yet production may be constrained by perception.",
           "Sounds change with neighbouring segments, speaking rate, accent, and position.",
@@ -58824,7 +58824,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Talking About Liverpool”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “Should We Share an Apartment?”?",
             "options": [
               {
                 "id": "o1",
@@ -58847,7 +58847,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Four young professionals are deciding whether to rent an apartment…”, what happens next in “Talking About Liverpool”?",
+            "prompt": "Which statement immediately follows “Four young professionals are deciding whether to rent an apartment…” in “Should We Share an Apartment?”?",
             "options": [
               {
                 "id": "o1",
@@ -58855,22 +58855,22 @@
               },
               {
                 "id": "o2",
-                "text": "One person works at night, while another needs quiet mornings for online meetings."
+                "text": "If they shared the home, each person would pay less and they could choose a better location."
               },
               {
                 "id": "o3",
-                "text": "Before signing a contract, they decide to discuss their routines and write simple house rules."
+                "text": "One person works at night, while another needs quiet mornings for online meetings."
               },
               {
                 "id": "o4",
-                "text": "Honest conversation about expectations would help them decide whether they are truly compatible as roommates."
+                "text": "Before signing a contract, they decide to discuss their routines and write simple house rules."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Talking About Liverpool”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Should We Share an Apartment?”?",
             "options": [
               {
                 "id": "o1",
@@ -58893,7 +58893,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Talking About Liverpool” after “Before signing a contract, they decide to discuss their routines and…”?",
+            "prompt": "Which final statement explicitly closes “Should We Share an Apartment?”?",
             "options": [
               {
                 "id": "o1",
@@ -58927,7 +58927,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Talking About Liverpool”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “Should We Share an Apartment?”?",
         "options": [
           "Four young professionals are deciding whether to rent an apartment together.",
           "One person works at night, while another needs quiet mornings for online meetings.",
@@ -58937,7 +58937,17 @@
       },
       {
         "type": "mcq",
-        "prompt": "After “Four young professionals are deciding whether to rent an apartment…”, what happens next in “Talking About Liverpool”?",
+        "prompt": "Which statement immediately follows “Four young professionals are deciding whether to rent an apartment…” in “Should We Share an Apartment?”?",
+        "options": [
+          "Four young professionals are deciding whether to rent an apartment together.",
+          "If they shared the home, each person would pay less and they could choose a better location.",
+          "One person works at night, while another needs quiet mornings for online meetings.",
+          "Before signing a contract, they decide to discuss their routines and write simple house rules."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Should We Share an Apartment?”?",
         "options": [
           "Four young professionals are deciding whether to rent an apartment together.",
           "One person works at night, while another needs quiet mornings for online meetings.",
@@ -58947,17 +58957,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Talking About Liverpool”?",
-        "options": [
-          "Four young professionals are deciding whether to rent an apartment together.",
-          "One person works at night, while another needs quiet mornings for online meetings.",
-          "Before signing a contract, they decide to discuss their routines and write simple house rules.",
-          "Honest conversation about expectations would help them decide whether they are truly compatible as roommates."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which outcome closes “Talking About Liverpool” after “Before signing a contract, they decide to discuss their routines and…”?",
+        "prompt": "Which final statement explicitly closes “Should We Share an Apartment?”?",
         "options": [
           "Four young professionals are deciding whether to rent an apartment together.",
           "One person works at night, while another needs quiet mornings for online meetings.",
@@ -59291,7 +59291,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Listening Lab: Fast Fashion and Hidden Costs”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “Why Cheap Fashion Goes Viral”?",
             "options": [
               {
                 "id": "o1",
@@ -59314,7 +59314,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “A five-pound shirt looks affordable.”, what happens next in “Listening Lab: Fast Fashion and Hidden Costs”?",
+            "prompt": "Which statement immediately follows “A five-pound shirt looks affordable.” in “Why Cheap Fashion Goes Viral”?",
             "options": [
               {
                 "id": "o1",
@@ -59322,22 +59322,22 @@
               },
               {
                 "id": "o2",
-                "text": "Host: Some people argue that fast fashion makes clothing accessible."
+                "text": "Why might its real price be higher?"
               },
               {
                 "id": "o3",
-                "text": "Host: Can labels help?"
+                "text": "Host: Some people argue that fast fashion makes clothing accessible."
               },
               {
                 "id": "o4",
-                "text": "Affordability matters, but it should not depend on keeping workers and environmental damage invisible."
+                "text": "Host: Can labels help?"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Fast Fashion and Hidden Costs”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Why Cheap Fashion Goes Viral”?",
             "options": [
               {
                 "id": "o1",
@@ -59360,7 +59360,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Fast Fashion and Hidden Costs” after “That is true, even though the disposable model encourages people to…”?",
+            "prompt": "Which final statement explicitly closes “Why Cheap Fashion Goes Viral”?",
             "options": [
               {
                 "id": "o1",
@@ -59454,7 +59454,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Listening Lab: Fast Fashion and Hidden Costs”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “Why Cheap Fashion Goes Viral”?",
         "options": [
           "Host: A five-pound shirt looks affordable.",
           "Host: Some people argue that fast fashion makes clothing accessible.",
@@ -59464,17 +59464,17 @@
       },
       {
         "type": "mcq",
-        "prompt": "After “A five-pound shirt looks affordable.”, what happens next in “Listening Lab: Fast Fashion and Hidden Costs”?",
+        "prompt": "Which statement immediately follows “A five-pound shirt looks affordable.” in “Why Cheap Fashion Goes Viral”?",
         "options": [
           "Host: A five-pound shirt looks affordable.",
+          "Why might its real price be higher?",
           "Host: Some people argue that fast fashion makes clothing accessible.",
-          "Host: Can labels help?",
-          "Affordability matters, but it should not depend on keeping workers and environmental damage invisible."
+          "Host: Can labels help?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Fast Fashion and Hidden Costs”?",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Why Cheap Fashion Goes Viral”?",
         "options": [
           "Host: A five-pound shirt looks affordable.",
           "Host: Some people argue that fast fashion makes clothing accessible.",
@@ -59484,7 +59484,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Fast Fashion and Hidden Costs” after “That is true, even though the disposable model encourages people to…”?",
+        "prompt": "Which final statement explicitly closes “Why Cheap Fashion Goes Viral”?",
         "options": [
           "Host: A five-pound shirt looks affordable.",
           "Host: Some people argue that fast fashion makes clothing accessible.",
@@ -59552,7 +59552,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Listening Lab: Climate Migration and Cities”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “Climate Migration: The Cities People Move To”?",
             "options": [
               {
                 "id": "o1",
@@ -59575,7 +59575,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Climate migration is often imagined as a sudden movement across…”, what happens next in “Listening Lab: Climate Migration and Cities”?",
+            "prompt": "Which statement immediately follows “Climate migration is often imagined as a sudden movement across…” in “Climate Migration: The Cities People Move To”?",
             "options": [
               {
                 "id": "o1",
@@ -59583,22 +59583,22 @@
               },
               {
                 "id": "o2",
-                "text": "Yet mobility planned early can be a form of adaptation rather than failure."
+                "text": "Families facing repeated floods, crop losses, or extreme heat may first send one member to a nearby town."
               },
               {
                 "id": "o3",
-                "text": "Not everyone wants to move, and not everyone has the resources to do so."
+                "text": "Yet mobility planned early can be a form of adaptation rather than failure."
               },
               {
                 "id": "o4",
-                "text": "The question is whether cities will prepare inclusively or allow predictable movement to become an avoidable humanitarian crisis."
+                "text": "Not everyone wants to move, and not everyone has the resources to do so."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Climate Migration and Cities”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Climate Migration: The Cities People Move To”?",
             "options": [
               {
                 "id": "o1",
@@ -59621,7 +59621,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Climate Migration and Cities” after “Not everyone wants to move, and not everyone has the resources to do so.”?",
+            "prompt": "Which final statement explicitly closes “Climate Migration: The Cities People Move To”?",
             "options": [
               {
                 "id": "o1",
@@ -59725,7 +59725,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Listening Lab: Climate Migration and Cities”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “Climate Migration: The Cities People Move To”?",
         "options": [
           "Climate migration is often imagined as a sudden movement across national borders, but much of it is internal, gradual, and closely connected to employment.",
           "Yet mobility planned early can be a form of adaptation rather than failure.",
@@ -59735,7 +59735,17 @@
       },
       {
         "type": "mcq",
-        "prompt": "After “Climate migration is often imagined as a sudden movement across…”, what happens next in “Listening Lab: Climate Migration and Cities”?",
+        "prompt": "Which statement immediately follows “Climate migration is often imagined as a sudden movement across…” in “Climate Migration: The Cities People Move To”?",
+        "options": [
+          "Climate migration is often imagined as a sudden movement across national borders, but much of it is internal, gradual, and closely connected to employment.",
+          "Families facing repeated floods, crop losses, or extreme heat may first send one member to a nearby town.",
+          "Yet mobility planned early can be a form of adaptation rather than failure.",
+          "Not everyone wants to move, and not everyone has the resources to do so."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Climate Migration: The Cities People Move To”?",
         "options": [
           "Climate migration is often imagined as a sudden movement across national borders, but much of it is internal, gradual, and closely connected to employment.",
           "Yet mobility planned early can be a form of adaptation rather than failure.",
@@ -59745,17 +59755,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Climate Migration and Cities”?",
-        "options": [
-          "Climate migration is often imagined as a sudden movement across national borders, but much of it is internal, gradual, and closely connected to employment.",
-          "Yet mobility planned early can be a form of adaptation rather than failure.",
-          "Not everyone wants to move, and not everyone has the resources to do so.",
-          "The question is whether cities will prepare inclusively or allow predictable movement to become an avoidable humanitarian crisis."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Climate Migration and Cities” after “Not everyone wants to move, and not everyone has the resources to do so.”?",
+        "prompt": "Which final statement explicitly closes “Climate Migration: The Cities People Move To”?",
         "options": [
           "Climate migration is often imagined as a sudden movement across national borders, but much of it is internal, gradual, and closely connected to employment.",
           "Yet mobility planned early can be a form of adaptation rather than failure.",
@@ -59823,7 +59823,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Listening Lab: Language Anxiety, Attention and Working Memory”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “The Cognitive Cost of Language Anxiety”?",
             "options": [
               {
                 "id": "o1",
@@ -59846,7 +59846,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Language anxiety does more than create an unpleasant feeling.”, what happens next in “Listening Lab: Language Anxiety, Attention and Working Memory”?",
+            "prompt": "Which statement immediately follows “Language anxiety does more than create an unpleasant feeling.” in “The Cognitive Cost of Language Anxiety”?",
             "options": [
               {
                 "id": "o1",
@@ -59854,22 +59854,22 @@
               },
               {
                 "id": "o2",
-                "text": "This does not mean anxiety explains every difficulty, nor that all pressure is harmful."
+                "text": "It competes for attention."
               },
               {
                 "id": "o3",
-                "text": "Learners can also rehearse the opening of a response, use notes containing key ideas rather than full sentences, and redirect attention toward the listener’s meaning."
+                "text": "This does not mean anxiety explains every difficulty, nor that all pressure is harmful."
               },
               {
                 "id": "o4",
-                "text": "When attention is released from constant self-surveillance, language becomes available again as a tool for thought and connection."
+                "text": "Learners can also rehearse the opening of a response, use notes containing key ideas rather than full sentences, and redirect attention toward the listener’s meaning."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Language Anxiety, Attention and Working Memory”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “The Cognitive Cost of Language Anxiety”?",
             "options": [
               {
                 "id": "o1",
@@ -59892,7 +59892,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Language Anxiety, Attention and Working Memory” after “Working memory that should organise the message is partly occupied by…”?",
+            "prompt": "Which final statement explicitly closes “The Cognitive Cost of Language Anxiety”?",
             "options": [
               {
                 "id": "o1",
@@ -60006,7 +60006,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Listening Lab: Language Anxiety, Attention and Working Memory”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “The Cognitive Cost of Language Anxiety”?",
         "options": [
           "Language anxiety does more than create an unpleasant feeling.",
           "This does not mean anxiety explains every difficulty, nor that all pressure is harmful.",
@@ -60016,17 +60016,17 @@
       },
       {
         "type": "mcq",
-        "prompt": "After “Language anxiety does more than create an unpleasant feeling.”, what happens next in “Listening Lab: Language Anxiety, Attention and Working Memory”?",
+        "prompt": "Which statement immediately follows “Language anxiety does more than create an unpleasant feeling.” in “The Cognitive Cost of Language Anxiety”?",
         "options": [
           "Language anxiety does more than create an unpleasant feeling.",
+          "It competes for attention.",
           "This does not mean anxiety explains every difficulty, nor that all pressure is harmful.",
-          "Learners can also rehearse the opening of a response, use notes containing key ideas rather than full sentences, and redirect attention toward the listener’s meaning.",
-          "When attention is released from constant self-surveillance, language becomes available again as a tool for thought and connection."
+          "Learners can also rehearse the opening of a response, use notes containing key ideas rather than full sentences, and redirect attention toward the listener’s meaning."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Language Anxiety, Attention and Working Memory”?",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “The Cognitive Cost of Language Anxiety”?",
         "options": [
           "Language anxiety does more than create an unpleasant feeling.",
           "This does not mean anxiety explains every difficulty, nor that all pressure is harmful.",
@@ -60036,7 +60036,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Language Anxiety, Attention and Working Memory” after “Working memory that should organise the message is partly occupied by…”?",
+        "prompt": "Which final statement explicitly closes “The Cognitive Cost of Language Anxiety”?",
         "options": [
           "Language anxiety does more than create an unpleasant feeling.",
           "This does not mean anxiety explains every difficulty, nor that all pressure is harmful.",
@@ -66035,7 +66035,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Three Goals”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “Plans for the Next Five Years”?",
             "options": [
               {
                 "id": "o1",
@@ -66058,7 +66058,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “In a radio program, callers describe how their plans have changed.”, what happens next in “Three Goals”?",
+            "prompt": "Which statement immediately follows “In a radio program, callers describe how their plans have changed.” in “Plans for the Next Five Years”?",
             "options": [
               {
                 "id": "o1",
@@ -66066,22 +66066,22 @@
               },
               {
                 "id": "o2",
-                "text": "A restaurant worker explains that his manager had encouraged him to study business, so he enrolled in an evening course."
+                "text": "An engineer says she had expected to buy a home by thirty, but rising prices made her reconsider."
               },
               {
                 "id": "o3",
-                "text": "The host reminds listeners that a goal can provide direction without becoming a strict deadline."
+                "text": "A restaurant worker explains that his manager had encouraged him to study business, so he enrolled in an evening course."
               },
               {
                 "id": "o4",
-                "text": "By the end of the program, the guests have turned broad hopes into practical steps: compare courses, review savings, request flexible hours, and speak to people already working in a desired field."
+                "text": "The host reminds listeners that a goal can provide direction without becoming a strict deadline."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Three Goals”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Plans for the Next Five Years”?",
             "options": [
               {
                 "id": "o1",
@@ -66104,7 +66104,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Three Goals” after “The host reminds listeners that a goal can provide direction without…”?",
+            "prompt": "Which final statement explicitly closes “Plans for the Next Five Years”?",
             "options": [
               {
                 "id": "o1",
@@ -66138,7 +66138,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Three Goals”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “Plans for the Next Five Years”?",
         "options": [
           "In a radio program, callers describe how their plans have changed.",
           "A restaurant worker explains that his manager had encouraged him to study business, so he enrolled in an evening course.",
@@ -66148,7 +66148,17 @@
       },
       {
         "type": "mcq",
-        "prompt": "After “In a radio program, callers describe how their plans have changed.”, what happens next in “Three Goals”?",
+        "prompt": "Which statement immediately follows “In a radio program, callers describe how their plans have changed.” in “Plans for the Next Five Years”?",
+        "options": [
+          "In a radio program, callers describe how their plans have changed.",
+          "An engineer says she had expected to buy a home by thirty, but rising prices made her reconsider.",
+          "A restaurant worker explains that his manager had encouraged him to study business, so he enrolled in an evening course.",
+          "The host reminds listeners that a goal can provide direction without becoming a strict deadline."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Plans for the Next Five Years”?",
         "options": [
           "In a radio program, callers describe how their plans have changed.",
           "A restaurant worker explains that his manager had encouraged him to study business, so he enrolled in an evening course.",
@@ -66158,17 +66168,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Three Goals”?",
-        "options": [
-          "In a radio program, callers describe how their plans have changed.",
-          "A restaurant worker explains that his manager had encouraged him to study business, so he enrolled in an evening course.",
-          "The host reminds listeners that a goal can provide direction without becoming a strict deadline.",
-          "By the end of the program, the guests have turned broad hopes into practical steps: compare courses, review savings, request flexible hours, and speak to people already working in a desired field."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which outcome closes “Three Goals” after “The host reminds listeners that a goal can provide direction without…”?",
+        "prompt": "Which final statement explicitly closes “Plans for the Next Five Years”?",
         "options": [
           "In a radio program, callers describe how their plans have changed.",
           "A restaurant worker explains that his manager had encouraged him to study business, so he enrolled in an evening course.",
@@ -66497,7 +66497,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Listening Lab: Education and Social Mobility”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “Can Education Still Create Opportunity?”?",
             "options": [
               {
                 "id": "o1",
@@ -66520,7 +66520,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “A community mentoring program supports Aisha, whose grades qualify her…”, what happens next in “Listening Lab: Education and Social Mobility”?",
+            "prompt": "Which statement immediately follows “A community mentoring program supports Aisha, whose grades qualify her…” in “Can Education Still Create Opportunity?”?",
             "options": [
               {
                 "id": "o1",
@@ -66528,22 +66528,22 @@
               },
               {
                 "id": "o2",
-                "text": "Host: Some people say scholarships reward merit fairly."
+                "text": "Why is her application unfinished?"
               },
               {
                 "id": "o3",
-                "text": "Host: What would improve social mobility?"
+                "text": "Host: Some people say scholarships reward merit fairly."
               },
               {
                 "id": "o4",
-                "text": "Education creates opportunity, but it cannot remove every social barrier by itself."
+                "text": "Host: What would improve social mobility?"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Education and Social Mobility”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Can Education Still Create Opportunity?”?",
             "options": [
               {
                 "id": "o1",
@@ -66566,7 +66566,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Education and Social Mobility” after “Students also need safe schools, mentoring and access to activities…”?",
+            "prompt": "Which final statement explicitly closes “Can Education Still Create Opportunity?”?",
             "options": [
               {
                 "id": "o1",
@@ -66665,7 +66665,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Listening Lab: Education and Social Mobility”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “Can Education Still Create Opportunity?”?",
         "options": [
           "Host: A community mentoring program supports Aisha, whose grades qualify her for a scholarship.",
           "Host: Some people say scholarships reward merit fairly.",
@@ -66675,17 +66675,17 @@
       },
       {
         "type": "mcq",
-        "prompt": "After “A community mentoring program supports Aisha, whose grades qualify her…”, what happens next in “Listening Lab: Education and Social Mobility”?",
+        "prompt": "Which statement immediately follows “A community mentoring program supports Aisha, whose grades qualify her…” in “Can Education Still Create Opportunity?”?",
         "options": [
           "Host: A community mentoring program supports Aisha, whose grades qualify her for a scholarship.",
+          "Why is her application unfinished?",
           "Host: Some people say scholarships reward merit fairly.",
-          "Host: What would improve social mobility?",
-          "Education creates opportunity, but it cannot remove every social barrier by itself."
+          "Host: What would improve social mobility?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Education and Social Mobility”?",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Can Education Still Create Opportunity?”?",
         "options": [
           "Host: A community mentoring program supports Aisha, whose grades qualify her for a scholarship.",
           "Host: Some people say scholarships reward merit fairly.",
@@ -66695,7 +66695,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Education and Social Mobility” after “Students also need safe schools, mentoring and access to activities…”?",
+        "prompt": "Which final statement explicitly closes “Can Education Still Create Opportunity?”?",
         "options": [
           "Host: A community mentoring program supports Aisha, whose grades qualify her for a scholarship.",
           "Host: Some people say scholarships reward merit fairly.",
@@ -66763,7 +66763,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Listening Lab: Neurotechnology and Mental Privacy”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “Neural Data and the Right to Mental Privacy”?",
             "options": [
               {
                 "id": "o1",
@@ -66786,7 +66786,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Neurotechnology can translate patterns of brain activity into…”, what happens next in “Listening Lab: Neurotechnology and Mental Privacy”?",
+            "prompt": "Which statement immediately follows “Neurotechnology can translate patterns of brain activity into…” in “Neural Data and the Right to Mental Privacy”?",
             "options": [
               {
                 "id": "o1",
@@ -66794,22 +66794,22 @@
               },
               {
                 "id": "o2",
-                "text": "It is essential that public discussion avoid both exaggerated fear and careless optimism."
+                "text": "These advances may restore independence, but they also create a category of data that feels unusually intimate."
               },
               {
                 "id": "o3",
-                "text": "Researchers recommend that mental privacy be recognised before consumer systems become widespread, rather than after harmful practices are established."
+                "text": "It is essential that public discussion avoid both exaggerated fear and careless optimism."
               },
               {
                 "id": "o4",
-                "text": "Innovation can expand human agency, but only if the people generating the data retain meaningful control over how it is interpreted, combined, and used."
+                "text": "Researchers recommend that mental privacy be recognised before consumer systems become widespread, rather than after harmful practices are established."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Neurotechnology and Mental Privacy”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Neural Data and the Right to Mental Privacy”?",
             "options": [
               {
                 "id": "o1",
@@ -66832,7 +66832,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Neurotechnology and Mental Privacy” after “Regulators should require that neural data be collected for a specific…”?",
+            "prompt": "Which final statement explicitly closes “Neural Data and the Right to Mental Privacy”?",
             "options": [
               {
                 "id": "o1",
@@ -66926,7 +66926,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Listening Lab: Neurotechnology and Mental Privacy”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “Neural Data and the Right to Mental Privacy”?",
         "options": [
           "Neurotechnology can translate patterns of brain activity into information that helps a person move a cursor, communicate, or control a prosthetic device.",
           "It is essential that public discussion avoid both exaggerated fear and careless optimism.",
@@ -66936,17 +66936,17 @@
       },
       {
         "type": "mcq",
-        "prompt": "After “Neurotechnology can translate patterns of brain activity into…”, what happens next in “Listening Lab: Neurotechnology and Mental Privacy”?",
+        "prompt": "Which statement immediately follows “Neurotechnology can translate patterns of brain activity into…” in “Neural Data and the Right to Mental Privacy”?",
         "options": [
           "Neurotechnology can translate patterns of brain activity into information that helps a person move a cursor, communicate, or control a prosthetic device.",
+          "These advances may restore independence, but they also create a category of data that feels unusually intimate.",
           "It is essential that public discussion avoid both exaggerated fear and careless optimism.",
-          "Researchers recommend that mental privacy be recognised before consumer systems become widespread, rather than after harmful practices are established.",
-          "Innovation can expand human agency, but only if the people generating the data retain meaningful control over how it is interpreted, combined, and used."
+          "Researchers recommend that mental privacy be recognised before consumer systems become widespread, rather than after harmful practices are established."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Neurotechnology and Mental Privacy”?",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Neural Data and the Right to Mental Privacy”?",
         "options": [
           "Neurotechnology can translate patterns of brain activity into information that helps a person move a cursor, communicate, or control a prosthetic device.",
           "It is essential that public discussion avoid both exaggerated fear and careless optimism.",
@@ -66956,7 +66956,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Neurotechnology and Mental Privacy” after “Regulators should require that neural data be collected for a specific…”?",
+        "prompt": "Which final statement explicitly closes “Neural Data and the Right to Mental Privacy”?",
         "options": [
           "Neurotechnology can translate patterns of brain activity into information that helps a person move a cursor, communicate, or control a prosthetic device.",
           "It is essential that public discussion avoid both exaggerated fear and careless optimism.",
@@ -67024,7 +67024,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Listening Lab: Age, Aptitude and Individual Differences”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “Beyond the Average Learner”?",
             "options": [
               {
                 "id": "o1",
@@ -67047,7 +67047,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Group averages are indispensable to research, but no individual…”, what happens next in “Listening Lab: Age, Aptitude and Individual Differences”?",
+            "prompt": "Which statement immediately follows “Group averages are indispensable to research, but no individual…” in “Beyond the Average Learner”?",
             "options": [
               {
                 "id": "o1",
@@ -67055,22 +67055,22 @@
               },
               {
                 "id": "o2",
-                "text": "Nor should language aptitude be treated as a fixed score that ranks human potential."
+                "text": "Two students receiving the same instruction may differ in phonological memory, analytic ability, processing speed, prior languages, motivation, and available time."
               },
               {
                 "id": "o3",
-                "text": "Context can amplify or suppress them."
+                "text": "Nor should language aptitude be treated as a fixed score that ranks human potential."
               },
               {
                 "id": "o4",
-                "text": "Only ongoing observation of a real learner can reveal what support, challenge, and opportunity that particular person needs next."
+                "text": "Context can amplify or suppress them."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Age, Aptitude and Individual Differences”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Beyond the Average Learner”?",
             "options": [
               {
                 "id": "o1",
@@ -67093,7 +67093,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Age, Aptitude and Individual Differences” after “Nor should language aptitude be treated as a fixed score that ranks…”?",
+            "prompt": "Which final statement explicitly closes “Beyond the Average Learner”?",
             "options": [
               {
                 "id": "o1",
@@ -67202,7 +67202,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Listening Lab: Age, Aptitude and Individual Differences”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “Beyond the Average Learner”?",
         "options": [
           "Group averages are indispensable to research, but no individual learner is literally average.",
           "Nor should language aptitude be treated as a fixed score that ranks human potential.",
@@ -67212,27 +67212,27 @@
       },
       {
         "type": "mcq",
-        "prompt": "After “Group averages are indispensable to research, but no individual…”, what happens next in “Listening Lab: Age, Aptitude and Individual Differences”?",
+        "prompt": "Which statement immediately follows “Group averages are indispensable to research, but no individual…” in “Beyond the Average Learner”?",
         "options": [
           "Group averages are indispensable to research, but no individual learner is literally average.",
+          "Two students receiving the same instruction may differ in phonological memory, analytic ability, processing speed, prior languages, motivation, and available time.",
           "Nor should language aptitude be treated as a fixed score that ranks human potential.",
+          "Context can amplify or suppress them."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Beyond the Average Learner”?",
+        "options": [
+          "Group averages are indispensable to research, but no individual learner is literally average.",
           "Context can amplify or suppress them.",
+          "Nor should language aptitude be treated as a fixed score that ranks human potential.",
           "Only ongoing observation of a real learner can reveal what support, challenge, and opportunity that particular person needs next."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Age, Aptitude and Individual Differences”?",
-        "options": [
-          "Group averages are indispensable to research, but no individual learner is literally average.",
-          "Context can amplify or suppress them.",
-          "Nor should language aptitude be treated as a fixed score that ranks human potential.",
-          "Only ongoing observation of a real learner can reveal what support, challenge, and opportunity that particular person needs next."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Age, Aptitude and Individual Differences” after “Nor should language aptitude be treated as a fixed score that ranks…”?",
+        "prompt": "Which final statement explicitly closes “Beyond the Average Learner”?",
         "options": [
           "Group averages are indispensable to research, but no individual learner is literally average.",
           "Nor should language aptitude be treated as a fixed score that ranks human potential.",
@@ -73155,7 +73155,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Planning a Greener Event”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “Saving Energy at Home”?",
             "options": [
               {
                 "id": "o1",
@@ -73178,7 +73178,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “An energy adviser visits an apartment building where electricity costs…”, what happens next in “Planning a Greener Event”?",
+            "prompt": "Which statement immediately follows “An energy adviser visits an apartment building where electricity costs…” in “Saving Energy at Home”?",
             "options": [
               {
                 "id": "o1",
@@ -73186,22 +73186,22 @@
               },
               {
                 "id": "o2",
-                "text": "A shared drying area is being created so fewer dryers will be used."
+                "text": "Residents are shown which appliances use the most power, and inefficient bulbs are replaced with LED lighting."
               },
               {
                 "id": "o3",
-                "text": "Monthly usage will be displayed privately in each apartment, not published to the whole building."
+                "text": "A shared drying area is being created so fewer dryers will be used."
               },
               {
                 "id": "o4",
-                "text": "It is to reduce waste, lower bills, and identify improvements that should be funded by the property owner or the city."
+                "text": "Monthly usage will be displayed privately in each apartment, not published to the whole building."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Planning a Greener Event”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Saving Energy at Home”?",
             "options": [
               {
                 "id": "o1",
@@ -73224,7 +73224,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Planning a Greener Event” after “Heating and air-conditioning settings are also being checked, because…”?",
+            "prompt": "Which final statement explicitly closes “Saving Energy at Home”?",
             "options": [
               {
                 "id": "o1",
@@ -73258,7 +73258,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Planning a Greener Event”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “Saving Energy at Home”?",
         "options": [
           "An energy adviser visits an apartment building where electricity costs have increased.",
           "A shared drying area is being created so fewer dryers will be used.",
@@ -73268,17 +73268,17 @@
       },
       {
         "type": "mcq",
-        "prompt": "After “An energy adviser visits an apartment building where electricity costs…”, what happens next in “Planning a Greener Event”?",
+        "prompt": "Which statement immediately follows “An energy adviser visits an apartment building where electricity costs…” in “Saving Energy at Home”?",
         "options": [
           "An energy adviser visits an apartment building where electricity costs have increased.",
+          "Residents are shown which appliances use the most power, and inefficient bulbs are replaced with LED lighting.",
           "A shared drying area is being created so fewer dryers will be used.",
-          "Monthly usage will be displayed privately in each apartment, not published to the whole building.",
-          "It is to reduce waste, lower bills, and identify improvements that should be funded by the property owner or the city."
+          "Monthly usage will be displayed privately in each apartment, not published to the whole building."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Planning a Greener Event”?",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Saving Energy at Home”?",
         "options": [
           "An energy adviser visits an apartment building where electricity costs have increased.",
           "A shared drying area is being created so fewer dryers will be used.",
@@ -73288,7 +73288,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Planning a Greener Event” after “Heating and air-conditioning settings are also being checked, because…”?",
+        "prompt": "Which final statement explicitly closes “Saving Energy at Home”?",
         "options": [
           "An energy adviser visits an apartment building where electricity costs have increased.",
           "A shared drying area is being created so fewer dryers will be used.",
@@ -73627,7 +73627,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Listening Lab: Freedom of Speech and Misinformation”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “Who Decides What Stays Online?”?",
             "options": [
               {
                 "id": "o1",
@@ -73650,7 +73650,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “A community forum removed a post containing a harmful claim about a…”, what happens next in “Listening Lab: Freedom of Speech and Misinformation”?",
+            "prompt": "Which statement immediately follows “A community forum removed a post containing a harmful claim about a…” in “Who Decides What Stays Online?”?",
             "options": [
               {
                 "id": "o1",
@@ -73658,22 +73658,22 @@
               },
               {
                 "id": "o2",
-                "text": "The clinic reported that patients were canceling appointments because of the claim."
+                "text": "Critics called the decision censorship."
               },
               {
                 "id": "o3",
-                "text": "Host: Was removal proportionate?"
+                "text": "The clinic reported that patients were canceling appointments because of the claim."
               },
               {
                 "id": "o4",
-                "text": "A fair policy should not silence unpopular opinions; it should distinguish opinion from false factual claims and explain every restriction transparently."
+                "text": "Host: Was removal proportionate?"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Freedom of Speech and Misinformation”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Who Decides What Stays Online?”?",
             "options": [
               {
                 "id": "o1",
@@ -73696,7 +73696,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Freedom of Speech and Misinformation” after “The clinic reported that patients were canceling appointments because…”?",
+            "prompt": "Which final statement explicitly closes “Who Decides What Stays Online?”?",
             "options": [
               {
                 "id": "o1",
@@ -73800,7 +73800,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Listening Lab: Freedom of Speech and Misinformation”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “Who Decides What Stays Online?”?",
         "options": [
           "Host: A community forum removed a post containing a harmful claim about a local clinic.",
           "The clinic reported that patients were canceling appointments because of the claim.",
@@ -73810,27 +73810,27 @@
       },
       {
         "type": "mcq",
-        "prompt": "After “A community forum removed a post containing a harmful claim about a…”, what happens next in “Listening Lab: Freedom of Speech and Misinformation”?",
+        "prompt": "Which statement immediately follows “A community forum removed a post containing a harmful claim about a…” in “Who Decides What Stays Online?”?",
         "options": [
           "Host: A community forum removed a post containing a harmful claim about a local clinic.",
+          "Critics called the decision censorship.",
           "The clinic reported that patients were canceling appointments because of the claim.",
+          "Host: Was removal proportionate?"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Who Decides What Stays Online?”?",
+        "options": [
+          "Host: A community forum removed a post containing a harmful claim about a local clinic.",
           "Host: Was removal proportionate?",
+          "The clinic reported that patients were canceling appointments because of the claim.",
           "A fair policy should not silence unpopular opinions; it should distinguish opinion from false factual claims and explain every restriction transparently."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Freedom of Speech and Misinformation”?",
-        "options": [
-          "Host: A community forum removed a post containing a harmful claim about a local clinic.",
-          "Host: Was removal proportionate?",
-          "The clinic reported that patients were canceling appointments because of the claim.",
-          "A fair policy should not silence unpopular opinions; it should distinguish opinion from false factual claims and explain every restriction transparently."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Freedom of Speech and Misinformation” after “The clinic reported that patients were canceling appointments because…”?",
+        "prompt": "Which final statement explicitly closes “Who Decides What Stays Online?”?",
         "options": [
           "Host: A community forum removed a post containing a harmful claim about a local clinic.",
           "The clinic reported that patients were canceling appointments because of the claim.",
@@ -73898,7 +73898,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Listening Lab: Synthetic Biology and Biosecurity”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “Synthetic Biology: Promise, Risk, and Control”?",
             "options": [
               {
                 "id": "o1",
@@ -73921,7 +73921,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Synthetic biology allows researchers to design or modify biological…”, what happens next in “Listening Lab: Synthetic Biology and Biosecurity”?",
+            "prompt": "Which statement immediately follows “Synthetic biology allows researchers to design or modify biological…” in “Synthetic Biology: Promise, Risk, and Control”?",
             "options": [
               {
                 "id": "o1",
@@ -73929,22 +73929,22 @@
               },
               {
                 "id": "o2",
-                "text": "Biosecurity is sometimes presented as the opposite of scientific freedom."
+                "text": "Engineered microbes may produce drugs, detect contamination, or replace petroleum-based chemicals."
               },
               {
                 "id": "o3",
-                "text": "Conversely, voluntary promises alone may not remain adequate as capabilities spread."
+                "text": "Biosecurity is sometimes presented as the opposite of scientific freedom."
               },
               {
                 "id": "o4",
-                "text": "Trust will depend on whether institutions can demonstrate that anticipation, accountability, and public benefit are built into innovation from the beginning."
+                "text": "Conversely, voluntary promises alone may not remain adequate as capabilities spread."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Synthetic Biology and Biosecurity”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Synthetic Biology: Promise, Risk, and Control”?",
             "options": [
               {
                 "id": "o1",
@@ -73967,7 +73967,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Synthetic Biology and Biosecurity” after “International coordination is particularly important because…”?",
+            "prompt": "Which final statement explicitly closes “Synthetic Biology: Promise, Risk, and Control”?",
             "options": [
               {
                 "id": "o1",
@@ -74066,7 +74066,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Listening Lab: Synthetic Biology and Biosecurity”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “Synthetic Biology: Promise, Risk, and Control”?",
         "options": [
           "Synthetic biology allows researchers to design or modify biological systems for purposes ranging from medicine to sustainable materials.",
           "Biosecurity is sometimes presented as the opposite of scientific freedom.",
@@ -74076,17 +74076,17 @@
       },
       {
         "type": "mcq",
-        "prompt": "After “Synthetic biology allows researchers to design or modify biological…”, what happens next in “Listening Lab: Synthetic Biology and Biosecurity”?",
+        "prompt": "Which statement immediately follows “Synthetic biology allows researchers to design or modify biological…” in “Synthetic Biology: Promise, Risk, and Control”?",
         "options": [
           "Synthetic biology allows researchers to design or modify biological systems for purposes ranging from medicine to sustainable materials.",
+          "Engineered microbes may produce drugs, detect contamination, or replace petroleum-based chemicals.",
           "Biosecurity is sometimes presented as the opposite of scientific freedom.",
-          "Conversely, voluntary promises alone may not remain adequate as capabilities spread.",
-          "Trust will depend on whether institutions can demonstrate that anticipation, accountability, and public benefit are built into innovation from the beginning."
+          "Conversely, voluntary promises alone may not remain adequate as capabilities spread."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Synthetic Biology and Biosecurity”?",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Synthetic Biology: Promise, Risk, and Control”?",
         "options": [
           "Synthetic biology allows researchers to design or modify biological systems for purposes ranging from medicine to sustainable materials.",
           "Biosecurity is sometimes presented as the opposite of scientific freedom.",
@@ -74096,7 +74096,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Synthetic Biology and Biosecurity” after “International coordination is particularly important because…”?",
+        "prompt": "Which final statement explicitly closes “Synthetic Biology: Promise, Risk, and Control”?",
         "options": [
           "Synthetic biology allows researchers to design or modify biological systems for purposes ranging from medicine to sustainable materials.",
           "Biosecurity is sometimes presented as the opposite of scientific freedom.",
@@ -74164,7 +74164,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Listening Lab: Contextual Vocabulary, Glosses and Semantic Networks”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “Building a Word: Context, Collocation, and Meaning”?",
             "options": [
               {
                 "id": "o1",
@@ -74187,7 +74187,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Knowing a word involves far more than matching it to an equivalent in…”, what happens next in “Listening Lab: Contextual Vocabulary, Glosses and Semantic Networks”?",
+            "prompt": "Which statement immediately follows “Knowing a word involves far more than matching it to an equivalent in…” in “Building a Word: Context, Collocation, and Meaning”?",
             "options": [
               {
                 "id": "o1",
@@ -74195,22 +74195,22 @@
               },
               {
                 "id": "o2",
-                "text": "A translation may offer an entry point while concealing this network."
+                "text": "Lexical depth includes pronunciation, spelling, grammatical behaviour, collocation, register, polysemy, and membership in a word family."
               },
               {
                 "id": "o3",
-                "text": "Productive knowledge also requires constraint: understanding where a word does not belong."
+                "text": "A translation may offer an entry point while concealing this network."
               },
               {
                 "id": "o4",
-                "text": "A word becomes genuinely known when it participates in a system rich enough to support interpretation and precise choice."
+                "text": "Productive knowledge also requires constraint: understanding where a word does not belong."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Contextual Vocabulary, Glosses and Semantic Networks”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Building a Word: Context, Collocation, and Meaning”?",
             "options": [
               {
                 "id": "o1",
@@ -74233,7 +74233,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Contextual Vocabulary, Glosses and Semantic Networks” after “Learners should notice form during comprehension, test meanings…”?",
+            "prompt": "Which final statement explicitly closes “Building a Word: Context, Collocation, and Meaning”?",
             "options": [
               {
                 "id": "o1",
@@ -74347,7 +74347,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Listening Lab: Contextual Vocabulary, Glosses and Semantic Networks”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “Building a Word: Context, Collocation, and Meaning”?",
         "options": [
           "Knowing a word involves far more than matching it to an equivalent in another language.",
           "A translation may offer an entry point while concealing this network.",
@@ -74357,17 +74357,17 @@
       },
       {
         "type": "mcq",
-        "prompt": "After “Knowing a word involves far more than matching it to an equivalent in…”, what happens next in “Listening Lab: Contextual Vocabulary, Glosses and Semantic Networks”?",
+        "prompt": "Which statement immediately follows “Knowing a word involves far more than matching it to an equivalent in…” in “Building a Word: Context, Collocation, and Meaning”?",
         "options": [
           "Knowing a word involves far more than matching it to an equivalent in another language.",
+          "Lexical depth includes pronunciation, spelling, grammatical behaviour, collocation, register, polysemy, and membership in a word family.",
           "A translation may offer an entry point while concealing this network.",
-          "Productive knowledge also requires constraint: understanding where a word does not belong.",
-          "A word becomes genuinely known when it participates in a system rich enough to support interpretation and precise choice."
+          "Productive knowledge also requires constraint: understanding where a word does not belong."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Contextual Vocabulary, Glosses and Semantic Networks”?",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Building a Word: Context, Collocation, and Meaning”?",
         "options": [
           "Knowing a word involves far more than matching it to an equivalent in another language.",
           "A translation may offer an entry point while concealing this network.",
@@ -74377,7 +74377,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Contextual Vocabulary, Glosses and Semantic Networks” after “Learners should notice form during comprehension, test meanings…”?",
+        "prompt": "Which final statement explicitly closes “Building a Word: Context, Collocation, and Meaning”?",
         "options": [
           "Knowing a word involves far more than matching it to an equivalent in another language.",
           "A translation may offer an entry point while concealing this network.",
@@ -79234,7 +79234,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Could You Explain That?”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “Useful English for Asking for Clarification”?",
             "options": [
               {
                 "id": "o1",
@@ -79242,22 +79242,22 @@
               },
               {
                 "id": "o2",
-                "text": "A participant who missed one detail says, “Would you mind repeating the last point?” Nobody pretends to understand simply to avoid embarrassment."
+                "text": "The team leader explains the task and asks if everyone can access the shared folder."
               },
               {
                 "id": "o3",
-                "text": "One employee asks, “Could you clarify what we need to send by Friday?"
+                "text": "Instead, the group uses direct but polite questions, repeats key information, and writes decisions in the meeting notes."
               },
               {
                 "id": "o4",
-                "text": "Nobody pretends to understand simply to avoid embarrassment."
+                "text": "Asking for clarification saves time, prevents mistakes, and is especially useful when people communicate in a second language or work across different time zones."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “During an international video meeting, several participants…”, what happens next in “Could You Explain That?”?",
+            "prompt": "Which statement immediately follows “During an international video meeting, several participants…” in “Useful English for Asking for Clarification”?",
             "options": [
               {
                 "id": "o1",
@@ -79265,22 +79265,22 @@
               },
               {
                 "id": "o2",
-                "text": "A participant who missed one detail says, “Would you mind repeating the last point?” Nobody pretends to understand simply to avoid embarrassment."
+                "text": "One employee asks, “Could you clarify what we need to send by Friday?” Another checks whether the final report should include financial data."
               },
               {
                 "id": "o3",
-                "text": "One employee asks, “Could you clarify what we need to send by Friday?"
+                "text": "The team leader explains the task and asks if everyone can access the shared folder."
               },
               {
                 "id": "o4",
-                "text": "Nobody pretends to understand simply to avoid embarrassment."
+                "text": "Instead, the group uses direct but polite questions, repeats key information, and writes decisions in the meeting notes."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Could You Explain That?”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Useful English for Asking for Clarification”?",
             "options": [
               {
                 "id": "o1",
@@ -79288,22 +79288,22 @@
               },
               {
                 "id": "o2",
-                "text": "A participant who missed one detail says, “Would you mind repeating the last point?” Nobody pretends to understand simply to avoid embarrassment."
+                "text": "The team leader explains the task and asks if everyone can access the shared folder."
               },
               {
                 "id": "o3",
-                "text": "One employee asks, “Could you clarify what we need to send by Friday?” Another checks whether the final report should include financial data."
+                "text": "Instead, the group uses direct but polite questions, repeats key information, and writes decisions in the meeting notes."
               },
               {
                 "id": "o4",
-                "text": "One employee asks, “Could you clarify what we need to send by Friday?"
+                "text": "Asking for clarification saves time, prevents mistakes, and is especially useful when people communicate in a second language or work across different time zones."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Could You Explain That?” after “One employee asks, “Could you clarify what we need to send by Friday?”…”?",
+            "prompt": "Which final statement explicitly closes “Useful English for Asking for Clarification”?",
             "options": [
               {
                 "id": "o1",
@@ -79311,15 +79311,15 @@
               },
               {
                 "id": "o2",
-                "text": "A participant who missed one detail says, “Would you mind repeating the last point?” Nobody pretends to understand simply to avoid embarrassment."
+                "text": "The team leader explains the task and asks if everyone can access the shared folder."
               },
               {
                 "id": "o3",
-                "text": "One employee asks, “Could you clarify what we need to send by Friday?"
+                "text": "Instead, the group uses direct but polite questions, repeats key information, and writes decisions in the meeting notes."
               },
               {
                 "id": "o4",
-                "text": "Nobody pretends to understand simply to avoid embarrassment."
+                "text": "Asking for clarification saves time, prevents mistakes, and is especially useful when people communicate in a second language or work across different time zones."
               }
             ]
           }
@@ -79337,42 +79337,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Could You Explain That?”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “Useful English for Asking for Clarification”?",
         "options": [
           "During an international video meeting, several participants misunderstand a project deadline.",
-          "A participant who missed one detail says, “Would you mind repeating the last point?” Nobody pretends to understand simply to avoid embarrassment.",
-          "One employee asks, “Could you clarify what we need to send by Friday?",
-          "Nobody pretends to understand simply to avoid embarrassment."
+          "The team leader explains the task and asks if everyone can access the shared folder.",
+          "Instead, the group uses direct but polite questions, repeats key information, and writes decisions in the meeting notes.",
+          "Asking for clarification saves time, prevents mistakes, and is especially useful when people communicate in a second language or work across different time zones."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “During an international video meeting, several participants…”, what happens next in “Could You Explain That?”?",
+        "prompt": "Which statement immediately follows “During an international video meeting, several participants…” in “Useful English for Asking for Clarification”?",
         "options": [
           "During an international video meeting, several participants misunderstand a project deadline.",
-          "A participant who missed one detail says, “Would you mind repeating the last point?” Nobody pretends to understand simply to avoid embarrassment.",
-          "One employee asks, “Could you clarify what we need to send by Friday?",
-          "Nobody pretends to understand simply to avoid embarrassment."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Could You Explain That?”?",
-        "options": [
-          "During an international video meeting, several participants misunderstand a project deadline.",
-          "A participant who missed one detail says, “Would you mind repeating the last point?” Nobody pretends to understand simply to avoid embarrassment.",
           "One employee asks, “Could you clarify what we need to send by Friday?” Another checks whether the final report should include financial data.",
-          "One employee asks, “Could you clarify what we need to send by Friday?"
+          "The team leader explains the task and asks if everyone can access the shared folder.",
+          "Instead, the group uses direct but polite questions, repeats key information, and writes decisions in the meeting notes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Could You Explain That?” after “One employee asks, “Could you clarify what we need to send by Friday?”…”?",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Useful English for Asking for Clarification”?",
         "options": [
           "During an international video meeting, several participants misunderstand a project deadline.",
-          "A participant who missed one detail says, “Would you mind repeating the last point?” Nobody pretends to understand simply to avoid embarrassment.",
-          "One employee asks, “Could you clarify what we need to send by Friday?",
-          "Nobody pretends to understand simply to avoid embarrassment."
+          "The team leader explains the task and asks if everyone can access the shared folder.",
+          "Instead, the group uses direct but polite questions, repeats key information, and writes decisions in the meeting notes.",
+          "Asking for clarification saves time, prevents mistakes, and is especially useful when people communicate in a second language or work across different time zones."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which final statement explicitly closes “Useful English for Asking for Clarification”?",
+        "options": [
+          "During an international video meeting, several participants misunderstand a project deadline.",
+          "The team leader explains the task and asks if everyone can access the shared folder.",
+          "Instead, the group uses direct but polite questions, repeats key information, and writes decisions in the meeting notes.",
+          "Asking for clarification saves time, prevents mistakes, and is especially useful when people communicate in a second language or work across different time zones."
         ]
       }
     ]
@@ -79696,7 +79696,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Listening Lab: Community Action and Local Change”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “When a Neighborhood Organizes for Change”?",
             "options": [
               {
                 "id": "o1",
@@ -79719,7 +79719,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Residents had complained about poor lighting for months.”, what happens next in “Listening Lab: Community Action and Local Change”?",
+            "prompt": "Which statement immediately follows “Residents had complained about poor lighting for months.” in “When a Neighborhood Organizes for Change”?",
             "options": [
               {
                 "id": "o1",
@@ -79727,22 +79727,22 @@
               },
               {
                 "id": "o2",
-                "text": "Guest: A volunteer mapped the problems, while other residents created a petition."
+                "text": "What finally changed?"
               },
               {
                 "id": "o3",
-                "text": "What officials emphasized was the limited public-service budget."
+                "text": "Guest: A volunteer mapped the problems, while other residents created a petition."
               },
               {
                 "id": "o4",
-                "text": "What made the campaign effective was its combination of practical evidence, respectful pressure and shared responsibility."
+                "text": "What officials emphasized was the limited public-service budget."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Community Action and Local Change”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “When a Neighborhood Organizes for Change”?",
             "options": [
               {
                 "id": "o1",
@@ -79765,7 +79765,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Community Action and Local Change” after “The residents responded that volunteers could provide local knowledge…”?",
+            "prompt": "Which final statement explicitly closes “When a Neighborhood Organizes for Change”?",
             "options": [
               {
                 "id": "o1",
@@ -79874,7 +79874,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Listening Lab: Community Action and Local Change”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “When a Neighborhood Organizes for Change”?",
         "options": [
           "Host: Residents had complained about poor lighting for months.",
           "Guest: A volunteer mapped the problems, while other residents created a petition.",
@@ -79884,17 +79884,17 @@
       },
       {
         "type": "mcq",
-        "prompt": "After “Residents had complained about poor lighting for months.”, what happens next in “Listening Lab: Community Action and Local Change”?",
+        "prompt": "Which statement immediately follows “Residents had complained about poor lighting for months.” in “When a Neighborhood Organizes for Change”?",
         "options": [
           "Host: Residents had complained about poor lighting for months.",
+          "What finally changed?",
           "Guest: A volunteer mapped the problems, while other residents created a petition.",
-          "What officials emphasized was the limited public-service budget.",
-          "What made the campaign effective was its combination of practical evidence, respectful pressure and shared responsibility."
+          "What officials emphasized was the limited public-service budget."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Community Action and Local Change”?",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “When a Neighborhood Organizes for Change”?",
         "options": [
           "Host: Residents had complained about poor lighting for months.",
           "Guest: A volunteer mapped the problems, while other residents created a petition.",
@@ -79904,7 +79904,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Community Action and Local Change” after “The residents responded that volunteers could provide local knowledge…”?",
+        "prompt": "Which final statement explicitly closes “When a Neighborhood Organizes for Change”?",
         "options": [
           "Host: Residents had complained about poor lighting for months.",
           "Guest: A volunteer mapped the problems, while other residents created a petition.",
@@ -79972,7 +79972,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Listening Lab: Global Health Progress and Inequality”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “Global Health: Progress for Whom?”?",
             "options": [
               {
                 "id": "o1",
@@ -79995,7 +79995,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Global health indicators show genuine progress: more children survive…”, what happens next in “Listening Lab: Global Health Progress and Inequality”?",
+            "prompt": "Which statement immediately follows “Global health indicators show genuine progress: more children survive…” in “Global Health: Progress for Whom?”?",
             "options": [
               {
                 "id": "o1",
@@ -80003,22 +80003,22 @@
               },
               {
                 "id": "o2",
-                "text": "Universal health coverage is therefore not achieved by enrolment alone."
+                "text": "However, averages can conceal fragile systems and widening inequality."
               },
               {
                 "id": "o3",
-                "text": "Resilience does not mean maintaining a large emergency stockpile while neglecting everyday services."
+                "text": "Universal health coverage is therefore not achieved by enrolment alone."
               },
               {
                 "id": "o4",
-                "text": "The fairest measure of progress is not merely whether the average rises, but whether preventable suffering declines among the people whom health systems have historically failed to reach."
+                "text": "Resilience does not mean maintaining a large emergency stockpile while neglecting everyday services."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Global Health Progress and Inequality”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Global Health: Progress for Whom?”?",
             "options": [
               {
                 "id": "o1",
@@ -80041,7 +80041,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Global Health Progress and Inequality” after “Data gaps make the picture harder to interpret because the people…”?",
+            "prompt": "Which final statement explicitly closes “Global Health: Progress for Whom?”?",
             "options": [
               {
                 "id": "o1",
@@ -80140,7 +80140,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Listening Lab: Global Health Progress and Inequality”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “Global Health: Progress for Whom?”?",
         "options": [
           "Global health indicators show genuine progress: more children survive infancy, vaccination has prevented millions of deaths, and treatment has transformed once-fatal diseases.",
           "Universal health coverage is therefore not achieved by enrolment alone.",
@@ -80150,17 +80150,17 @@
       },
       {
         "type": "mcq",
-        "prompt": "After “Global health indicators show genuine progress: more children survive…”, what happens next in “Listening Lab: Global Health Progress and Inequality”?",
+        "prompt": "Which statement immediately follows “Global health indicators show genuine progress: more children survive…” in “Global Health: Progress for Whom?”?",
         "options": [
           "Global health indicators show genuine progress: more children survive infancy, vaccination has prevented millions of deaths, and treatment has transformed once-fatal diseases.",
+          "However, averages can conceal fragile systems and widening inequality.",
           "Universal health coverage is therefore not achieved by enrolment alone.",
-          "Resilience does not mean maintaining a large emergency stockpile while neglecting everyday services.",
-          "The fairest measure of progress is not merely whether the average rises, but whether preventable suffering declines among the people whom health systems have historically failed to reach."
+          "Resilience does not mean maintaining a large emergency stockpile while neglecting everyday services."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Global Health Progress and Inequality”?",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “Global Health: Progress for Whom?”?",
         "options": [
           "Global health indicators show genuine progress: more children survive infancy, vaccination has prevented millions of deaths, and treatment has transformed once-fatal diseases.",
           "Universal health coverage is therefore not achieved by enrolment alone.",
@@ -80170,7 +80170,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Global Health Progress and Inequality” after “Data gaps make the picture harder to interpret because the people…”?",
+        "prompt": "Which final statement explicitly closes “Global Health: Progress for Whom?”?",
         "options": [
           "Global health indicators show genuine progress: more children survive infancy, vaccination has prevented millions of deaths, and treatment has transformed once-fatal diseases.",
           "Universal health coverage is therefore not achieved by enrolment alone.",
@@ -80238,7 +80238,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "In “Listening Lab: Artificial Intelligence and the Future of Language Tutoring”, which detail establishes the situation?",
+            "prompt": "Which opening statement explicitly introduces “AI Tutors: Fluent, Adaptive—and Sometimes Wrong”?",
             "options": [
               {
                 "id": "o1",
@@ -80261,7 +80261,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Generative models can sustain conversation, explain grammar, create…”, what happens next in “Listening Lab: Artificial Intelligence and the Future of Language Tutoring”?",
+            "prompt": "Which statement immediately follows “Generative models can sustain conversation, explain grammar, create…” in “AI Tutors: Fluent, Adaptive—and Sometimes Wrong”?",
             "options": [
               {
                 "id": "o1",
@@ -80269,22 +80269,22 @@
               },
               {
                 "id": "o2",
-                "text": "Adaptive feedback requires more than changing difficulty after a correct answer."
+                "text": "For a language learner who lacks regular access to a tutor, that availability is significant."
               },
               {
                 "id": "o3",
-                "text": "They define conditions for responsible use."
+                "text": "Adaptive feedback requires more than changing difficulty after a correct answer."
               },
               {
                 "id": "o4",
-                "text": "The future tutor should expand human judgement, access, and experimentation—not replace them with an interface that sounds certain."
+                "text": "They define conditions for responsible use."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Which line best reveals an intention or decision in “Listening Lab: Artificial Intelligence and the Future of Language Tutoring”?",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “AI Tutors: Fluent, Adaptive—and Sometimes Wrong”?",
             "options": [
               {
                 "id": "o1",
@@ -80307,7 +80307,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Artificial Intelligence and the Future of Language Tutoring” after “Institutions should disclose data practices and evaluate systems with…”?",
+            "prompt": "Which final statement explicitly closes “AI Tutors: Fluent, Adaptive—and Sometimes Wrong”?",
             "options": [
               {
                 "id": "o1",
@@ -80421,7 +80421,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "In “Listening Lab: Artificial Intelligence and the Future of Language Tutoring”, which detail establishes the situation?",
+        "prompt": "Which opening statement explicitly introduces “AI Tutors: Fluent, Adaptive—and Sometimes Wrong”?",
         "options": [
           "Generative models can sustain conversation, explain grammar, create examples, and provide feedback within seconds.",
           "Adaptive feedback requires more than changing difficulty after a correct answer.",
@@ -80431,17 +80431,17 @@
       },
       {
         "type": "mcq",
-        "prompt": "After “Generative models can sustain conversation, explain grammar, create…”, what happens next in “Listening Lab: Artificial Intelligence and the Future of Language Tutoring”?",
+        "prompt": "Which statement immediately follows “Generative models can sustain conversation, explain grammar, create…” in “AI Tutors: Fluent, Adaptive—and Sometimes Wrong”?",
         "options": [
           "Generative models can sustain conversation, explain grammar, create examples, and provide feedback within seconds.",
+          "For a language learner who lacks regular access to a tutor, that availability is significant.",
           "Adaptive feedback requires more than changing difficulty after a correct answer.",
-          "They define conditions for responsible use.",
-          "The future tutor should expand human judgement, access, and experimentation—not replace them with an interface that sounds certain."
+          "They define conditions for responsible use."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which line best reveals an intention or decision in “Listening Lab: Artificial Intelligence and the Future of Language Tutoring”?",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in “AI Tutors: Fluent, Adaptive—and Sometimes Wrong”?",
         "options": [
           "Generative models can sustain conversation, explain grammar, create examples, and provide feedback within seconds.",
           "Adaptive feedback requires more than changing difficulty after a correct answer.",
@@ -80451,7 +80451,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Artificial Intelligence and the Future of Language Tutoring” after “Institutions should disclose data practices and evaluate systems with…”?",
+        "prompt": "Which final statement explicitly closes “AI Tutors: Fluent, Adaptive—and Sometimes Wrong”?",
         "options": [
           "Generative models can sustain conversation, explain grammar, create examples, and provide feedback within seconds.",
           "Adaptive feedback requires more than changing difficulty after a correct answer.",
