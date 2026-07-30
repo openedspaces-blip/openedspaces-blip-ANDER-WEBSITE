@@ -909,43 +909,63 @@
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "Narrator",
+        "line": "Three employees compare what they have learned during their first month at a new company. Malik has already led a short meeting, although he had never spoken to a large team before. Elena has taken on a difficult customer account and has asked an experienced colleague for feedback. Jonah has completed an online course, but he still has to deal with a new software system. None of them has mastered everything yet. They have made mistakes, changed their routines, and kept track of small improvements. Their manager points out that asking questions is not a weakness. In fact, the team has solved problems more quickly because the new employees have shared their doubts. The experience shows that confidence often develops after people accept a challenge, not before."
+      }
+    ],
     "reading": null,
-    "transcript": "",
+    "transcript": "Three employees compare what they have learned during their first month at a new company. Malik has already led a short meeting, although he had never spoken to a large team before. Elena has taken on a difficult customer account and has asked an experienced colleague for feedback. Jonah has completed an online course, but he still has to deal with a new software system. None of them has mastered everything yet. They have made mistakes, changed their routines, and kept track of small improvements. Their manager points out that asking questions is not a weakness. In fact, the team has solved problems more quickly because the new employees have shared their doubts. The experience shows that confidence often develops after people accept a challenge, not before.",
     "extra": {
-      "listeningType": "story",
-      "storyTitle": "Practising for the Interview",
-      "mainTranscript": "Daniel is practising for his hotel interview with Sarah. She asks him to describe a difficult situation at work, and he explains how he helped an angry guest stay calm. Sarah tells him to give more details and to finish with what he learned. Daniel repeats the answer, this time more clearly. He says that the experience taught him to listen first, apologise when necessary and offer practical solutions. Sarah smiles because his second answer sounds much more natural.",
+      "listeningType": "monologue",
+      "storyTitle": "My First Month at a New Job",
+      "mainTranscript": "Three employees compare what they have learned during their first month at a new company. Malik has already led a short meeting, although he had never spoken to a large team before. Elena has taken on a difficult customer account and has asked an experienced colleague for feedback. Jonah has completed an online course, but he still has to deal with a new software system. None of them has mastered everything yet. They have made mistakes, changed their routines, and kept track of small improvements. Their manager points out that asking questions is not a weakness. In fact, the team has solved problems more quickly because the new employees have shared their doubts. The experience shows that confidence often develops after people accept a challenge, not before.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Daniel is practising for his hotel interview with Sarah."
+          "text": "Three employees compare what they have learned during their first month at a new company."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "She asks him to describe a difficult situation at work, and he explains how he helped an angry guest stay calm."
+          "text": "Malik has already led a short meeting, although he had never spoken to a large team before."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "Sarah tells him to give more details and to finish with what he learned."
+          "text": "Elena has taken on a difficult customer account and has asked an experienced colleague for feedback."
         },
         {
           "id": "segment-04",
           "order": 4,
-          "text": "Daniel repeats the answer, this time more clearly."
+          "text": "Jonah has completed an online course, but he still has to deal with a new software system."
         },
         {
           "id": "segment-05",
           "order": 5,
-          "text": "He says that the experience taught him to listen first, apologise when necessary and offer practical solutions."
+          "text": "None of them has mastered everything yet."
         },
         {
           "id": "segment-06",
           "order": 6,
-          "text": "Sarah smiles because his second answer sounds much more natural."
+          "text": "They have made mistakes, changed their routines, and kept track of small improvements."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Their manager points out that asking questions is not a weakness."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "In fact, the team has solved problems more quickly because the new employees have shared their doubts."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "The experience shows that confidence often develops after people accept a challenge, not before."
         }
       ],
       "listeningComprehension": {
@@ -959,42 +979,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Daniel is practising for his hotel interview with Sarah."
+                "text": "Three employees compare what they have learned during their first month at a new company."
               },
               {
                 "id": "o2",
-                "text": "Sarah tells him to give more details and to finish with what he learned."
+                "text": "Jonah has completed an online course, but he still has to deal with a new software system."
               },
               {
                 "id": "o3",
-                "text": "Daniel repeats the answer, this time more clearly."
+                "text": "They have made mistakes, changed their routines, and kept track of small improvements."
               },
               {
                 "id": "o4",
-                "text": "Sarah smiles because his second answer sounds much more natural."
+                "text": "The experience shows that confidence often develops after people accept a challenge, not before."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Daniel is practising for his hotel interview with Sarah.”, what happens next in “Practising for the Interview”?",
+            "prompt": "After “Three employees compare what they have learned during their first…”, what happens next in “Practising for the Interview”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Daniel is practising for his hotel interview with Sarah."
+                "text": "Three employees compare what they have learned during their first month at a new company."
               },
               {
                 "id": "o2",
-                "text": "Sarah tells him to give more details and to finish with what he learned."
+                "text": "Jonah has completed an online course, but he still has to deal with a new software system."
               },
               {
                 "id": "o3",
-                "text": "Daniel repeats the answer, this time more clearly."
+                "text": "They have made mistakes, changed their routines, and kept track of small improvements."
               },
               {
                 "id": "o4",
-                "text": "Sarah smiles because his second answer sounds much more natural."
+                "text": "The experience shows that confidence often develops after people accept a challenge, not before."
               }
             ]
           },
@@ -1005,47 +1025,54 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Daniel is practising for his hotel interview with Sarah."
+                "text": "Three employees compare what they have learned during their first month at a new company."
               },
               {
                 "id": "o2",
-                "text": "Sarah tells him to give more details and to finish with what he learned."
+                "text": "Jonah has completed an online course, but he still has to deal with a new software system."
               },
               {
                 "id": "o3",
-                "text": "Daniel repeats the answer, this time more clearly."
+                "text": "In fact, the team has solved problems more quickly because the new employees have shared their doubts."
               },
               {
                 "id": "o4",
-                "text": "Sarah smiles because his second answer sounds much more natural."
+                "text": "They have made mistakes, changed their routines, and kept track of small improvements."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Practising for the Interview” after “Daniel repeats the answer, this time more clearly.”?",
+            "prompt": "Which outcome closes “Practising for the Interview” after “In fact, the team has solved problems more quickly because the new…”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Daniel is practising for his hotel interview with Sarah."
+                "text": "Three employees compare what they have learned during their first month at a new company."
               },
               {
                 "id": "o2",
-                "text": "Sarah tells him to give more details and to finish with what he learned."
+                "text": "Jonah has completed an online course, but he still has to deal with a new software system."
               },
               {
                 "id": "o3",
-                "text": "Daniel repeats the answer, this time more clearly."
+                "text": "They have made mistakes, changed their routines, and kept track of small improvements."
               },
               {
                 "id": "o4",
-                "text": "Sarah smiles because his second answer sounds much more natural."
+                "text": "The experience shows that confidence often develops after people accept a challenge, not before."
               }
             ]
           }
         ]
       },
+      "speakers": [
+        "Narrator"
+      ],
+      "durationSeconds": 56,
+      "audioLocale": "en-US",
+      "listeningFormat": "workplace-roundtable",
+      "voiceStyle": "friendly-narrative",
       "grammarTest": null
     },
     "exercises": [
@@ -1053,40 +1080,40 @@
         "type": "mcq",
         "prompt": "In “Practising for the Interview”, which detail establishes the situation?",
         "options": [
-          "Daniel is practising for his hotel interview with Sarah.",
-          "Sarah tells him to give more details and to finish with what he learned.",
-          "Daniel repeats the answer, this time more clearly.",
-          "Sarah smiles because his second answer sounds much more natural."
+          "Three employees compare what they have learned during their first month at a new company.",
+          "Jonah has completed an online course, but he still has to deal with a new software system.",
+          "They have made mistakes, changed their routines, and kept track of small improvements.",
+          "The experience shows that confidence often develops after people accept a challenge, not before."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Daniel is practising for his hotel interview with Sarah.”, what happens next in “Practising for the Interview”?",
+        "prompt": "After “Three employees compare what they have learned during their first…”, what happens next in “Practising for the Interview”?",
         "options": [
-          "Daniel is practising for his hotel interview with Sarah.",
-          "Sarah tells him to give more details and to finish with what he learned.",
-          "Daniel repeats the answer, this time more clearly.",
-          "Sarah smiles because his second answer sounds much more natural."
+          "Three employees compare what they have learned during their first month at a new company.",
+          "Jonah has completed an online course, but he still has to deal with a new software system.",
+          "They have made mistakes, changed their routines, and kept track of small improvements.",
+          "The experience shows that confidence often develops after people accept a challenge, not before."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Practising for the Interview”?",
         "options": [
-          "Daniel is practising for his hotel interview with Sarah.",
-          "Sarah tells him to give more details and to finish with what he learned.",
-          "Daniel repeats the answer, this time more clearly.",
-          "Sarah smiles because his second answer sounds much more natural."
+          "Three employees compare what they have learned during their first month at a new company.",
+          "Jonah has completed an online course, but he still has to deal with a new software system.",
+          "In fact, the team has solved problems more quickly because the new employees have shared their doubts.",
+          "They have made mistakes, changed their routines, and kept track of small improvements."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Practising for the Interview” after “Daniel repeats the answer, this time more clearly.”?",
+        "prompt": "Which outcome closes “Practising for the Interview” after “In fact, the team has solved problems more quickly because the new…”?",
         "options": [
-          "Daniel is practising for his hotel interview with Sarah.",
-          "Sarah tells him to give more details and to finish with what he learned.",
-          "Daniel repeats the answer, this time more clearly.",
-          "Sarah smiles because his second answer sounds much more natural."
+          "Three employees compare what they have learned during their first month at a new company.",
+          "Jonah has completed an online course, but he still has to deal with a new software system.",
+          "They have made mistakes, changed their routines, and kept track of small improvements.",
+          "The experience shows that confidence often develops after people accept a challenge, not before."
         ]
       }
     ]
@@ -1405,45 +1432,18 @@
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Host",
-        "line": "Today we are examining social media and public opinion. Why does this issue resist a simple answer?",
-        "translation": "Hoy analizamos social media and public opinion. ¿Por qué este asunto no admite una respuesta sencilla?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-        "translation": "Porque la pregunta central no es solo qué sucede, sino también qué supuestos determinan cómo se interpreta la evidencia."
-      },
-      {
-        "speaker": "Host",
-        "line": "Which distinction should listeners keep in mind?",
-        "translation": "¿Qué distinción deben tener presente los oyentes?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable.",
-        "translation": "Deben distinguir un hallazgo establecido de una inferencia plausible y de un juicio de valor. Esas categorías pueden relacionarse, pero no son intercambiables."
-      },
-      {
-        "speaker": "Host",
-        "line": "How can we discuss the issue responsibly?",
-        "translation": "¿Cómo podemos hablar responsablemente del asunto?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
-        "translation": "Podemos definir los términos, reconocer un contraargumento serio y explicar qué evidencia nos haría revisar la conclusión."
+        "speaker": "Narrator",
+        "line": "A video about a city election went viral last week, but fact-checkers later described it as misleading. How did it influence public opinion? It is widely believed that the clip showed a candidate insulting local residents. In fact, the video had been cut, and the missing section changed the meaning. The original source was difficult to find because thousands of accounts had already shared the shorter version. Why did the correction travel more slowly? Users inside an echo chamber tend to receive information that confirms what they already believe. It has also been argued that emotional content is rewarded by recommendation systems. That does not prove deliberate bias, but it helps explain why the false claim spread quickly. What should platforms do? Stronger moderation may be needed, but every decision should be transparent. A source should be checked before a post is removed, and users should be shown the evidence. Otherwise, fact-checking itself may be seen as political control."
       }
     ],
     "reading": null,
-    "transcript": "Host: Today we are examining social media and public opinion. Why does this issue resist a simple answer? Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted. Host: Which distinction should listeners keep in mind? Guest: They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable. Host: How can we discuss the issue responsibly? Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
+    "transcript": "A video about a city election went viral last week, but fact-checkers later described it as misleading. How did it influence public opinion? It is widely believed that the clip showed a candidate insulting local residents. In fact, the video had been cut, and the missing section changed the meaning. The original source was difficult to find because thousands of accounts had already shared the shorter version. Why did the correction travel more slowly? Users inside an echo chamber tend to receive information that confirms what they already believe. It has also been argued that emotional content is rewarded by recommendation systems. That does not prove deliberate bias, but it helps explain why the false claim spread quickly. What should platforms do? Stronger moderation may be needed, but every decision should be transparent. A source should be checked before a post is removed, and users should be shown the evidence. Otherwise, fact-checking itself may be seen as political control.",
     "extra": {
-      "listeningType": "interview",
+      "listeningType": "monologue",
       "difficulty": "B2",
-      "durationSeconds": 85,
+      "durationSeconds": 76,
       "speakers": [
-        "Host",
-        "Guest"
+        "Narrator"
       ],
       "phoneticSupport": {
         "enabled": true,
@@ -1470,42 +1470,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining social media and public opinion."
+                "text": "A video about a city election went viral last week, but fact-checkers later described it as misleading."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "The original source was difficult to find because thousands of accounts had already shared the shorter version."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "That does not prove deliberate bias, but it helps explain why the false claim spread quickly."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Otherwise, fact-checking itself may be seen as political control."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining social media and public opinion.”, what happens next in “Listening Lab: Social Media and Public Opinion”?",
+            "prompt": "After “A video about a city election went viral last week, but fact-checkers…”, what happens next in “Listening Lab: Social Media and Public Opinion”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining social media and public opinion."
+                "text": "A video about a city election went viral last week, but fact-checkers later described it as misleading."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "The original source was difficult to find because thousands of accounts had already shared the shorter version."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "That does not prove deliberate bias, but it helps explain why the false claim spread quickly."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Otherwise, fact-checking itself may be seen as political control."
               }
             ]
           },
@@ -1516,47 +1516,119 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining social media and public opinion."
+                "text": "A video about a city election went viral last week, but fact-checkers later described it as misleading."
               },
               {
                 "id": "o2",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "That does not prove deliberate bias, but it helps explain why the false claim spread quickly."
               },
               {
                 "id": "o3",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "The original source was difficult to find because thousands of accounts had already shared the shorter version."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Otherwise, fact-checking itself may be seen as political control."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Social Media and Public Opinion” after “Because the central question is not only what happens, but also which…”?",
+            "prompt": "Which outcome closes “Listening Lab: Social Media and Public Opinion” after “The original source was difficult to find because thousands of…”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining social media and public opinion."
+                "text": "A video about a city election went viral last week, but fact-checkers later described it as misleading."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "The original source was difficult to find because thousands of accounts had already shared the shorter version."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "That does not prove deliberate bias, but it helps explain why the false claim spread quickly."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Otherwise, fact-checking itself may be seen as political control."
               }
             ]
           }
         ]
       },
+      "storyTitle": "When AI Makes a False Story Look Real",
+      "mainTranscript": "A video about a city election went viral last week, but fact-checkers later described it as misleading. How did it influence public opinion? It is widely believed that the clip showed a candidate insulting local residents. In fact, the video had been cut, and the missing section changed the meaning. The original source was difficult to find because thousands of accounts had already shared the shorter version. Why did the correction travel more slowly? Users inside an echo chamber tend to receive information that confirms what they already believe. It has also been argued that emotional content is rewarded by recommendation systems. That does not prove deliberate bias, but it helps explain why the false claim spread quickly. What should platforms do? Stronger moderation may be needed, but every decision should be transparent. A source should be checked before a post is removed, and users should be shown the evidence. Otherwise, fact-checking itself may be seen as political control.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "A video about a city election went viral last week, but fact-checkers later described it as misleading."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "How did it influence public opinion?"
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "It is widely believed that the clip showed a candidate insulting local residents."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "In fact, the video had been cut, and the missing section changed the meaning."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "The original source was difficult to find because thousands of accounts had already shared the shorter version."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Why did the correction travel more slowly?"
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Users inside an echo chamber tend to receive information that confirms what they already believe."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "It has also been argued that emotional content is rewarded by recommendation systems."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "That does not prove deliberate bias, but it helps explain why the false claim spread quickly."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "What should platforms do?"
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Stronger moderation may be needed, but every decision should be transparent."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "A source should be checked before a post is removed, and users should be shown the evidence."
+        },
+        {
+          "id": "segment-13",
+          "order": 13,
+          "text": "Otherwise, fact-checking itself may be seen as political control."
+        }
+      ],
+      "audioLocale": "en-US",
+      "listeningFormat": "fact-check",
+      "voiceStyle": "investigative-news",
       "grammarTest": null
     },
     "exercises": [
@@ -1564,40 +1636,40 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Social Media and Public Opinion”, which detail establishes the situation?",
         "options": [
-          "Host: Today we are examining social media and public opinion.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "A video about a city election went viral last week, but fact-checkers later described it as misleading.",
+          "The original source was difficult to find because thousands of accounts had already shared the shorter version.",
+          "That does not prove deliberate bias, but it helps explain why the false claim spread quickly.",
+          "Otherwise, fact-checking itself may be seen as political control."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining social media and public opinion.”, what happens next in “Listening Lab: Social Media and Public Opinion”?",
+        "prompt": "After “A video about a city election went viral last week, but fact-checkers…”, what happens next in “Listening Lab: Social Media and Public Opinion”?",
         "options": [
-          "Host: Today we are examining social media and public opinion.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "A video about a city election went viral last week, but fact-checkers later described it as misleading.",
+          "The original source was difficult to find because thousands of accounts had already shared the shorter version.",
+          "That does not prove deliberate bias, but it helps explain why the false claim spread quickly.",
+          "Otherwise, fact-checking itself may be seen as political control."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Social Media and Public Opinion”?",
         "options": [
-          "Host: Today we are examining social media and public opinion.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "A video about a city election went viral last week, but fact-checkers later described it as misleading.",
+          "That does not prove deliberate bias, but it helps explain why the false claim spread quickly.",
+          "The original source was difficult to find because thousands of accounts had already shared the shorter version.",
+          "Otherwise, fact-checking itself may be seen as political control."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Social Media and Public Opinion” after “Because the central question is not only what happens, but also which…”?",
+        "prompt": "Which outcome closes “Listening Lab: Social Media and Public Opinion” after “The original source was difficult to find because thousands of…”?",
         "options": [
-          "Host: Today we are examining social media and public opinion.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "A video about a city election went viral last week, but fact-checkers later described it as misleading.",
+          "The original source was difficult to find because thousands of accounts had already shared the shorter version.",
+          "That does not prove deliberate bias, but it helps explain why the false claim spread quickly.",
+          "Otherwise, fact-checking itself may be seen as political control."
         ]
       }
     ]
@@ -1626,45 +1698,18 @@
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Host",
-        "line": "Today we are examining antimicrobial resistance and one health. Why does this issue resist a simple answer?",
-        "translation": "Hoy analizamos antimicrobial resistance and one health. ¿Por qué este asunto no admite una respuesta sencilla?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-        "translation": "Porque la pregunta central no es solo qué sucede, sino también qué supuestos determinan cómo se interpreta la evidencia."
-      },
-      {
-        "speaker": "Host",
-        "line": "Which distinction should listeners keep in mind?",
-        "translation": "¿Qué distinción deben tener presente los oyentes?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable.",
-        "translation": "Deben distinguir un hallazgo establecido de una inferencia plausible y de un juicio de valor. Esas categorías pueden relacionarse, pero no son intercambiables."
-      },
-      {
-        "speaker": "Host",
-        "line": "How can we discuss the issue responsibly?",
-        "translation": "¿Cómo podemos hablar responsablemente del asunto?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
-        "translation": "Podemos definir los términos, reconocer un contraargumento serio y explicar qué evidencia nos haría revisar la conclusión."
+        "speaker": "Narrator",
+        "line": "Antibiotics have transformed modern medicine, yet their effectiveness cannot be taken for granted. Antimicrobial resistance develops when bacteria, viruses, fungi, or parasites survive treatments that once controlled them. The result is not simply a harder infection. Routine surgery, cancer treatment, childbirth, and even a minor injury become riskier when reliable medicines disappear. Overuse is part of the explanation, but individual patients are not the only actors. Antibiotics are prescribed in hospitals, sold without adequate control in some communities, and used in agriculture. Resistant pathogens then move through people, animals, food, water, and soil. This is why researchers describe the challenge as One Health. Effective stewardship requires better diagnostics, stronger surveillance, clean water, vaccination, and responsible prescribing across sectors. Restricting medicine without improving access would be equally dangerous, since many people still cannot obtain the treatment they genuinely need. The central task is therefore balance: preserve antimicrobial power while ensuring timely care. No single discovery is likely to solve the problem permanently. New drugs may help, but resistance will continue to evolve. What matters is whether health systems can detect change early, share evidence, prevent infection, and treat existing medicines as a common resource rather than an unlimited convenience."
       }
     ],
     "reading": null,
-    "transcript": "Host: Today we are examining antimicrobial resistance and one health. Why does this issue resist a simple answer? Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted. Host: Which distinction should listeners keep in mind? Guest: They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable. Host: How can we discuss the issue responsibly? Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
+    "transcript": "Antibiotics have transformed modern medicine, yet their effectiveness cannot be taken for granted. Antimicrobial resistance develops when bacteria, viruses, fungi, or parasites survive treatments that once controlled them. The result is not simply a harder infection. Routine surgery, cancer treatment, childbirth, and even a minor injury become riskier when reliable medicines disappear. Overuse is part of the explanation, but individual patients are not the only actors. Antibiotics are prescribed in hospitals, sold without adequate control in some communities, and used in agriculture. Resistant pathogens then move through people, animals, food, water, and soil. This is why researchers describe the challenge as One Health. Effective stewardship requires better diagnostics, stronger surveillance, clean water, vaccination, and responsible prescribing across sectors. Restricting medicine without improving access would be equally dangerous, since many people still cannot obtain the treatment they genuinely need. The central task is therefore balance: preserve antimicrobial power while ensuring timely care. No single discovery is likely to solve the problem permanently. New drugs may help, but resistance will continue to evolve. What matters is whether health systems can detect change early, share evidence, prevent infection, and treat existing medicines as a common resource rather than an unlimited convenience.",
     "extra": {
-      "listeningType": "interview",
+      "listeningType": "monologue",
       "difficulty": "C1",
-      "durationSeconds": 105,
+      "durationSeconds": 95,
       "speakers": [
-        "Host",
-        "Guest"
+        "Narrator"
       ],
       "phoneticSupport": {
         "enabled": true,
@@ -1691,42 +1736,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining antimicrobial resistance and one health."
+                "text": "Antibiotics have transformed modern medicine, yet their effectiveness cannot be taken for granted."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Overuse is part of the explanation, but individual patients are not the only actors."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Restricting medicine without improving access would be equally dangerous, since many people still cannot obtain the treatment they genuinely need."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "What matters is whether health systems can detect change early, share evidence, prevent infection, and treat existing medicines as a common resource rather than an unlimited convenience."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining antimicrobial resistance and one health.”, what happens next in “Listening Lab: Antimicrobial Resistance and One Health”?",
+            "prompt": "After “Antibiotics have transformed modern medicine, yet their effectiveness…”, what happens next in “Listening Lab: Antimicrobial Resistance and One Health”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining antimicrobial resistance and one health."
+                "text": "Antibiotics have transformed modern medicine, yet their effectiveness cannot be taken for granted."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Overuse is part of the explanation, but individual patients are not the only actors."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Restricting medicine without improving access would be equally dangerous, since many people still cannot obtain the treatment they genuinely need."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "What matters is whether health systems can detect change early, share evidence, prevent infection, and treat existing medicines as a common resource rather than an unlimited convenience."
               }
             ]
           },
@@ -1737,47 +1782,124 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining antimicrobial resistance and one health."
+                "text": "Antibiotics have transformed modern medicine, yet their effectiveness cannot be taken for granted."
               },
               {
                 "id": "o2",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Overuse is part of the explanation, but individual patients are not the only actors."
               },
               {
                 "id": "o3",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Restricting medicine without improving access would be equally dangerous, since many people still cannot obtain the treatment they genuinely need."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "What matters is whether health systems can detect change early, share evidence, prevent infection, and treat existing medicines as a common resource rather than an unlimited convenience."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Antimicrobial Resistance and One Health” after “Because the central question is not only what happens, but also which…”?",
+            "prompt": "Which outcome closes “Listening Lab: Antimicrobial Resistance and One Health” after “Restricting medicine without improving access would be equally…”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining antimicrobial resistance and one health."
+                "text": "Antibiotics have transformed modern medicine, yet their effectiveness cannot be taken for granted."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Overuse is part of the explanation, but individual patients are not the only actors."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Restricting medicine without improving access would be equally dangerous, since many people still cannot obtain the treatment they genuinely need."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "What matters is whether health systems can detect change early, share evidence, prevent infection, and treat existing medicines as a common resource rather than an unlimited convenience."
               }
             ]
           }
         ]
       },
+      "storyTitle": "The Silent Return of Untreatable Infections",
+      "mainTranscript": "Antibiotics have transformed modern medicine, yet their effectiveness cannot be taken for granted. Antimicrobial resistance develops when bacteria, viruses, fungi, or parasites survive treatments that once controlled them. The result is not simply a harder infection. Routine surgery, cancer treatment, childbirth, and even a minor injury become riskier when reliable medicines disappear. Overuse is part of the explanation, but individual patients are not the only actors. Antibiotics are prescribed in hospitals, sold without adequate control in some communities, and used in agriculture. Resistant pathogens then move through people, animals, food, water, and soil. This is why researchers describe the challenge as One Health. Effective stewardship requires better diagnostics, stronger surveillance, clean water, vaccination, and responsible prescribing across sectors. Restricting medicine without improving access would be equally dangerous, since many people still cannot obtain the treatment they genuinely need. The central task is therefore balance: preserve antimicrobial power while ensuring timely care. No single discovery is likely to solve the problem permanently. New drugs may help, but resistance will continue to evolve. What matters is whether health systems can detect change early, share evidence, prevent infection, and treat existing medicines as a common resource rather than an unlimited convenience.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Antibiotics have transformed modern medicine, yet their effectiveness cannot be taken for granted."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Antimicrobial resistance develops when bacteria, viruses, fungi, or parasites survive treatments that once controlled them."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "The result is not simply a harder infection."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "Routine surgery, cancer treatment, childbirth, and even a minor injury become riskier when reliable medicines disappear."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Overuse is part of the explanation, but individual patients are not the only actors."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Antibiotics are prescribed in hospitals, sold without adequate control in some communities, and used in agriculture."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Resistant pathogens then move through people, animals, food, water, and soil."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "This is why researchers describe the challenge as One Health."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Effective stewardship requires better diagnostics, stronger surveillance, clean water, vaccination, and responsible prescribing across sectors."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Restricting medicine without improving access would be equally dangerous, since many people still cannot obtain the treatment they genuinely need."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "The central task is therefore balance: preserve antimicrobial power while ensuring timely care."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "No single discovery is likely to solve the problem permanently."
+        },
+        {
+          "id": "segment-13",
+          "order": 13,
+          "text": "New drugs may help, but resistance will continue to evolve."
+        },
+        {
+          "id": "segment-14",
+          "order": 14,
+          "text": "What matters is whether health systems can detect change early, share evidence, prevent infection, and treat existing medicines as a common resource rather than an unlimited convenience."
+        }
+      ],
+      "listeningFormat": "documentary",
+      "voiceStyle": "serious-documentary",
+      "audioLocale": "en-US",
       "grammarTest": null
     },
     "exercises": [
@@ -1785,40 +1907,40 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Antimicrobial Resistance and One Health”, which detail establishes the situation?",
         "options": [
-          "Host: Today we are examining antimicrobial resistance and one health.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Antibiotics have transformed modern medicine, yet their effectiveness cannot be taken for granted.",
+          "Overuse is part of the explanation, but individual patients are not the only actors.",
+          "Restricting medicine without improving access would be equally dangerous, since many people still cannot obtain the treatment they genuinely need.",
+          "What matters is whether health systems can detect change early, share evidence, prevent infection, and treat existing medicines as a common resource rather than an unlimited convenience."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining antimicrobial resistance and one health.”, what happens next in “Listening Lab: Antimicrobial Resistance and One Health”?",
+        "prompt": "After “Antibiotics have transformed modern medicine, yet their effectiveness…”, what happens next in “Listening Lab: Antimicrobial Resistance and One Health”?",
         "options": [
-          "Host: Today we are examining antimicrobial resistance and one health.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Antibiotics have transformed modern medicine, yet their effectiveness cannot be taken for granted.",
+          "Overuse is part of the explanation, but individual patients are not the only actors.",
+          "Restricting medicine without improving access would be equally dangerous, since many people still cannot obtain the treatment they genuinely need.",
+          "What matters is whether health systems can detect change early, share evidence, prevent infection, and treat existing medicines as a common resource rather than an unlimited convenience."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Antimicrobial Resistance and One Health”?",
         "options": [
-          "Host: Today we are examining antimicrobial resistance and one health.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Antibiotics have transformed modern medicine, yet their effectiveness cannot be taken for granted.",
+          "Overuse is part of the explanation, but individual patients are not the only actors.",
+          "Restricting medicine without improving access would be equally dangerous, since many people still cannot obtain the treatment they genuinely need.",
+          "What matters is whether health systems can detect change early, share evidence, prevent infection, and treat existing medicines as a common resource rather than an unlimited convenience."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Antimicrobial Resistance and One Health” after “Because the central question is not only what happens, but also which…”?",
+        "prompt": "Which outcome closes “Listening Lab: Antimicrobial Resistance and One Health” after “Restricting medicine without improving access would be equally…”?",
         "options": [
-          "Host: Today we are examining antimicrobial resistance and one health.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Antibiotics have transformed modern medicine, yet their effectiveness cannot be taken for granted.",
+          "Overuse is part of the explanation, but individual patients are not the only actors.",
+          "Restricting medicine without improving access would be equally dangerous, since many people still cannot obtain the treatment they genuinely need.",
+          "What matters is whether health systems can detect change early, share evidence, prevent infection, and treat existing medicines as a common resource rather than an unlimited convenience."
         ]
       }
     ]
@@ -1847,45 +1969,18 @@
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Host",
-        "line": "Today we are examining adult neuroplasticity and second-language mastery. Why does this issue resist a simple answer?",
-        "translation": "Hoy analizamos adult neuroplasticity and second-language mastery. ¿Por qué este asunto no admite una respuesta sencilla?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-        "translation": "Porque la pregunta central no es solo qué sucede, sino también qué supuestos determinan cómo se interpreta la evidencia."
-      },
-      {
-        "speaker": "Host",
-        "line": "Which distinction should listeners keep in mind?",
-        "translation": "¿Qué distinción deben tener presente los oyentes?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable.",
-        "translation": "Deben distinguir un hallazgo establecido de una inferencia plausible y de un juicio de valor. Esas categorías pueden relacionarse, pero no son intercambiables."
-      },
-      {
-        "speaker": "Host",
-        "line": "How can we discuss the issue responsibly?",
-        "translation": "¿Cómo podemos hablar responsablemente del asunto?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
-        "translation": "Podemos definir los términos, reconocer un contraargumento serio y explicar qué evidencia nos haría revisar la conclusión."
+        "speaker": "Narrator",
+        "line": "The claim that adults are simply too old to master another language confuses an average tendency with a biological verdict. Childhood offers advantages, particularly in acquiring pronunciation through sustained immersion, yet adult neuroplasticity does not disappear. Functional networks continue adapting when learners repeatedly attend to unfamiliar sounds, meanings, and patterns. Studies have reported changes in grey matter and connectivity after intensive learning, but such findings must be interpreted cautiously. A cross-sectional difference between multilingual and monolingual adults does not establish what caused it; people who persist in language learning may already differ in education, motivation, or opportunity. Even longitudinal evidence rarely isolates a single mechanism. The more defensible conclusion is both modest and encouraging: adult brains remain responsive, although learning conditions matter greatly. Compared with children, adults possess stronger analytic knowledge and richer conceptual experience, while often receiving less input and facing greater anxiety about error. A learner who practises briefly but consistently may therefore outperform someone relying on occasional immersion. Near-native pronunciation is an inappropriate universal benchmark because communicative mastery includes vocabulary, discourse, cultural interpretation, and strategic flexibility. Although age influences probability, it does not determine an individual outcome. What deserves explanation is not whether adults can learn, which they plainly do, but how instruction can exploit their strengths while providing the intensive perception and interaction that natural childhood environments once supplied."
       }
     ],
     "reading": null,
-    "transcript": "Host: Today we are examining adult neuroplasticity and second-language mastery. Why does this issue resist a simple answer? Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted. Host: Which distinction should listeners keep in mind? Guest: They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable. Host: How can we discuss the issue responsibly? Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
+    "transcript": "The claim that adults are simply too old to master another language confuses an average tendency with a biological verdict. Childhood offers advantages, particularly in acquiring pronunciation through sustained immersion, yet adult neuroplasticity does not disappear. Functional networks continue adapting when learners repeatedly attend to unfamiliar sounds, meanings, and patterns. Studies have reported changes in grey matter and connectivity after intensive learning, but such findings must be interpreted cautiously. A cross-sectional difference between multilingual and monolingual adults does not establish what caused it; people who persist in language learning may already differ in education, motivation, or opportunity. Even longitudinal evidence rarely isolates a single mechanism. The more defensible conclusion is both modest and encouraging: adult brains remain responsive, although learning conditions matter greatly. Compared with children, adults possess stronger analytic knowledge and richer conceptual experience, while often receiving less input and facing greater anxiety about error. A learner who practises briefly but consistently may therefore outperform someone relying on occasional immersion. Near-native pronunciation is an inappropriate universal benchmark because communicative mastery includes vocabulary, discourse, cultural interpretation, and strategic flexibility. Although age influences probability, it does not determine an individual outcome. What deserves explanation is not whether adults can learn, which they plainly do, but how instruction can exploit their strengths while providing the intensive perception and interaction that natural childhood environments once supplied.",
     "extra": {
-      "listeningType": "interview",
+      "listeningType": "monologue",
       "difficulty": "C2",
-      "durationSeconds": 125,
+      "durationSeconds": 116,
       "speakers": [
-        "Host",
-        "Guest"
+        "Narrator"
       ],
       "phoneticSupport": {
         "enabled": true,
@@ -1912,42 +2007,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining adult neuroplasticity and second-language mastery."
+                "text": "The claim that adults are simply too old to master another language confuses an average tendency with a biological verdict."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "A cross-sectional difference between multilingual and monolingual adults does not establish what caused it; people who persist in language learning may already differ in education, motivation, or opportunity."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Compared with children, adults possess stronger analytic knowledge and richer conceptual experience, while often receiving less input and facing greater anxiety about error."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "What deserves explanation is not whether adults can learn, which they plainly do, but how instruction can exploit their strengths while providing the intensive perception and interaction that natural childhood environments once supplied."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining adult neuroplasticity and second-language…”, what happens next in “Listening Lab: Adult Neuroplasticity and Second-Language Mastery”?",
+            "prompt": "After “The claim that adults are simply too old to master another language…”, what happens next in “Listening Lab: Adult Neuroplasticity and Second-Language Mastery”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining adult neuroplasticity and second-language mastery."
+                "text": "The claim that adults are simply too old to master another language confuses an average tendency with a biological verdict."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "A cross-sectional difference between multilingual and monolingual adults does not establish what caused it; people who persist in language learning may already differ in education, motivation, or opportunity."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Compared with children, adults possess stronger analytic knowledge and richer conceptual experience, while often receiving less input and facing greater anxiety about error."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "What deserves explanation is not whether adults can learn, which they plainly do, but how instruction can exploit their strengths while providing the intensive perception and interaction that natural childhood environments once supplied."
               }
             ]
           },
@@ -1958,47 +2053,114 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining adult neuroplasticity and second-language mastery."
+                "text": "The claim that adults are simply too old to master another language confuses an average tendency with a biological verdict."
               },
               {
                 "id": "o2",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "A cross-sectional difference between multilingual and monolingual adults does not establish what caused it; people who persist in language learning may already differ in education, motivation, or opportunity."
               },
               {
                 "id": "o3",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Near-native pronunciation is an inappropriate universal benchmark because communicative mastery includes vocabulary, discourse, cultural interpretation, and strategic flexibility."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Compared with children, adults possess stronger analytic knowledge and richer conceptual experience, while often receiving less input and facing greater anxiety about error."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Adult Neuroplasticity and Second-Language Mastery” after “Because the central question is not only what happens, but also which…”?",
+            "prompt": "Which outcome closes “Listening Lab: Adult Neuroplasticity and Second-Language Mastery” after “Near-native pronunciation is an inappropriate universal benchmark…”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining adult neuroplasticity and second-language mastery."
+                "text": "The claim that adults are simply too old to master another language confuses an average tendency with a biological verdict."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "A cross-sectional difference between multilingual and monolingual adults does not establish what caused it; people who persist in language learning may already differ in education, motivation, or opportunity."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Compared with children, adults possess stronger analytic knowledge and richer conceptual experience, while often receiving less input and facing greater anxiety about error."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "What deserves explanation is not whether adults can learn, which they plainly do, but how instruction can exploit their strengths while providing the intensive perception and interaction that natural childhood environments once supplied."
               }
             ]
           }
         ]
       },
+      "storyTitle": "Adult Language Learning Beyond the Critical Period",
+      "mainTranscript": "The claim that adults are simply too old to master another language confuses an average tendency with a biological verdict. Childhood offers advantages, particularly in acquiring pronunciation through sustained immersion, yet adult neuroplasticity does not disappear. Functional networks continue adapting when learners repeatedly attend to unfamiliar sounds, meanings, and patterns. Studies have reported changes in grey matter and connectivity after intensive learning, but such findings must be interpreted cautiously. A cross-sectional difference between multilingual and monolingual adults does not establish what caused it; people who persist in language learning may already differ in education, motivation, or opportunity. Even longitudinal evidence rarely isolates a single mechanism. The more defensible conclusion is both modest and encouraging: adult brains remain responsive, although learning conditions matter greatly. Compared with children, adults possess stronger analytic knowledge and richer conceptual experience, while often receiving less input and facing greater anxiety about error. A learner who practises briefly but consistently may therefore outperform someone relying on occasional immersion. Near-native pronunciation is an inappropriate universal benchmark because communicative mastery includes vocabulary, discourse, cultural interpretation, and strategic flexibility. Although age influences probability, it does not determine an individual outcome. What deserves explanation is not whether adults can learn, which they plainly do, but how instruction can exploit their strengths while providing the intensive perception and interaction that natural childhood environments once supplied.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "The claim that adults are simply too old to master another language confuses an average tendency with a biological verdict."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Childhood offers advantages, particularly in acquiring pronunciation through sustained immersion, yet adult neuroplasticity does not disappear."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Functional networks continue adapting when learners repeatedly attend to unfamiliar sounds, meanings, and patterns."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "Studies have reported changes in grey matter and connectivity after intensive learning, but such findings must be interpreted cautiously."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "A cross-sectional difference between multilingual and monolingual adults does not establish what caused it; people who persist in language learning may already differ in education, motivation, or opportunity."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Even longitudinal evidence rarely isolates a single mechanism."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "The more defensible conclusion is both modest and encouraging: adult brains remain responsive, although learning conditions matter greatly."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Compared with children, adults possess stronger analytic knowledge and richer conceptual experience, while often receiving less input and facing greater anxiety about error."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "A learner who practises briefly but consistently may therefore outperform someone relying on occasional immersion."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Near-native pronunciation is an inappropriate universal benchmark because communicative mastery includes vocabulary, discourse, cultural interpretation, and strategic flexibility."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Although age influences probability, it does not determine an individual outcome."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "What deserves explanation is not whether adults can learn, which they plainly do, but how instruction can exploit their strengths while providing the intensive perception and interaction that natural childhood environments once supplied."
+        }
+      ],
+      "listeningFormat": "academic-podcast",
+      "voiceStyle": "calm-academic",
+      "audioLocale": "en-US",
       "grammarTest": null
     },
     "exercises": [
@@ -2006,40 +2168,40 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Adult Neuroplasticity and Second-Language Mastery”, which detail establishes the situation?",
         "options": [
-          "Host: Today we are examining adult neuroplasticity and second-language mastery.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "The claim that adults are simply too old to master another language confuses an average tendency with a biological verdict.",
+          "A cross-sectional difference between multilingual and monolingual adults does not establish what caused it; people who persist in language learning may already differ in education, motivation, or opportunity.",
+          "Compared with children, adults possess stronger analytic knowledge and richer conceptual experience, while often receiving less input and facing greater anxiety about error.",
+          "What deserves explanation is not whether adults can learn, which they plainly do, but how instruction can exploit their strengths while providing the intensive perception and interaction that natural childhood environments once supplied."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining adult neuroplasticity and second-language…”, what happens next in “Listening Lab: Adult Neuroplasticity and Second-Language Mastery”?",
+        "prompt": "After “The claim that adults are simply too old to master another language…”, what happens next in “Listening Lab: Adult Neuroplasticity and Second-Language Mastery”?",
         "options": [
-          "Host: Today we are examining adult neuroplasticity and second-language mastery.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "The claim that adults are simply too old to master another language confuses an average tendency with a biological verdict.",
+          "A cross-sectional difference between multilingual and monolingual adults does not establish what caused it; people who persist in language learning may already differ in education, motivation, or opportunity.",
+          "Compared with children, adults possess stronger analytic knowledge and richer conceptual experience, while often receiving less input and facing greater anxiety about error.",
+          "What deserves explanation is not whether adults can learn, which they plainly do, but how instruction can exploit their strengths while providing the intensive perception and interaction that natural childhood environments once supplied."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Adult Neuroplasticity and Second-Language Mastery”?",
         "options": [
-          "Host: Today we are examining adult neuroplasticity and second-language mastery.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "The claim that adults are simply too old to master another language confuses an average tendency with a biological verdict.",
+          "A cross-sectional difference between multilingual and monolingual adults does not establish what caused it; people who persist in language learning may already differ in education, motivation, or opportunity.",
+          "Near-native pronunciation is an inappropriate universal benchmark because communicative mastery includes vocabulary, discourse, cultural interpretation, and strategic flexibility.",
+          "Compared with children, adults possess stronger analytic knowledge and richer conceptual experience, while often receiving less input and facing greater anxiety about error."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Adult Neuroplasticity and Second-Language Mastery” after “Because the central question is not only what happens, but also which…”?",
+        "prompt": "Which outcome closes “Listening Lab: Adult Neuroplasticity and Second-Language Mastery” after “Near-native pronunciation is an inappropriate universal benchmark…”?",
         "options": [
-          "Host: Today we are examining adult neuroplasticity and second-language mastery.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "The claim that adults are simply too old to master another language confuses an average tendency with a biological verdict.",
+          "A cross-sectional difference between multilingual and monolingual adults does not establish what caused it; people who persist in language learning may already differ in education, motivation, or opportunity.",
+          "Compared with children, adults possess stronger analytic knowledge and richer conceptual experience, while often receiving less input and facing greater anxiety about error.",
+          "What deserves explanation is not whether adults can learn, which they plainly do, but how instruction can exploit their strengths while providing the intensive perception and interaction that natural childhood environments once supplied."
         ]
       }
     ]
@@ -8080,38 +8242,58 @@
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "Narrator",
+        "line": "Career adviser Mia Torres is giving practical advice to people preparing for an interview. First, candidates are going to research the company and choose examples that demonstrate their skills. They are also going to practice short answers instead of memorizing a complete speech. During the interview, the employer will probably ask about teamwork, responsibility, and a difficult situation. Mia recommends preparing one question about the role because curiosity creates a positive impression. Candidates should check their internet connection if the meeting is online, and they should arrange a quiet space in advance. Afterward, they will send a brief thank-you message. Mia says an interview is not only a test; it is also an opportunity to decide whether the job supports a person’s long-term goals."
+      }
+    ],
     "reading": null,
-    "transcript": "",
+    "transcript": "Career adviser Mia Torres is giving practical advice to people preparing for an interview. First, candidates are going to research the company and choose examples that demonstrate their skills. They are also going to practice short answers instead of memorizing a complete speech. During the interview, the employer will probably ask about teamwork, responsibility, and a difficult situation. Mia recommends preparing one question about the role because curiosity creates a positive impression. Candidates should check their internet connection if the meeting is online, and they should arrange a quiet space in advance. Afterward, they will send a brief thank-you message. Mia says an interview is not only a test; it is also an opportunity to decide whether the job supports a person’s long-term goals.",
     "extra": {
-      "listeningType": "story",
-      "storyTitle": "A Career Conversation",
-      "mainTranscript": "Sarah tells Daniel that she is thinking about applying for a promotion. Daniel asks whether she really wants the job or only feels pushed by other people. Sarah says she wants to grow, but she is afraid of making mistakes. Daniel reminds her that she encouraged him before his interview, and now he wants to do the same for her. They agree to spend the evening preparing her application.",
+      "listeningType": "monologue",
+      "storyTitle": "Getting Ready for a Job Interview",
+      "mainTranscript": "Career adviser Mia Torres is giving practical advice to people preparing for an interview. First, candidates are going to research the company and choose examples that demonstrate their skills. They are also going to practice short answers instead of memorizing a complete speech. During the interview, the employer will probably ask about teamwork, responsibility, and a difficult situation. Mia recommends preparing one question about the role because curiosity creates a positive impression. Candidates should check their internet connection if the meeting is online, and they should arrange a quiet space in advance. Afterward, they will send a brief thank-you message. Mia says an interview is not only a test; it is also an opportunity to decide whether the job supports a person’s long-term goals.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Sarah tells Daniel that she is thinking about applying for a promotion."
+          "text": "Career adviser Mia Torres is giving practical advice to people preparing for an interview."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "Daniel asks whether she really wants the job or only feels pushed by other people."
+          "text": "First, candidates are going to research the company and choose examples that demonstrate their skills."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "Sarah says she wants to grow, but she is afraid of making mistakes."
+          "text": "They are also going to practice short answers instead of memorizing a complete speech."
         },
         {
           "id": "segment-04",
           "order": 4,
-          "text": "Daniel reminds her that she encouraged him before his interview, and now he wants to do the same for her."
+          "text": "During the interview, the employer will probably ask about teamwork, responsibility, and a difficult situation."
         },
         {
           "id": "segment-05",
           "order": 5,
-          "text": "They agree to spend the evening preparing her application."
+          "text": "Mia recommends preparing one question about the role because curiosity creates a positive impression."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Candidates should check their internet connection if the meeting is online, and they should arrange a quiet space in advance."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Afterward, they will send a brief thank-you message."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Mia says an interview is not only a test; it is also an opportunity to decide whether the job supports a person’s long-term goals."
         }
       ],
       "listeningComprehension": {
@@ -8125,42 +8307,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Sarah tells Daniel that she is thinking about applying for a promotion."
+                "text": "Career adviser Mia Torres is giving practical advice to people preparing for an interview."
               },
               {
                 "id": "o2",
-                "text": "Daniel asks whether she really wants the job or only feels pushed by other people."
+                "text": "They are also going to practice short answers instead of memorizing a complete speech."
               },
               {
                 "id": "o3",
-                "text": "Daniel reminds her that she encouraged him before his interview, and now he wants to do the same for her."
+                "text": "Candidates should check their internet connection if the meeting is online, and they should arrange a quiet space in advance."
               },
               {
                 "id": "o4",
-                "text": "They agree to spend the evening preparing her application."
+                "text": "Mia says an interview is not only a test; it is also an opportunity to decide whether the job supports a person’s long-term goals."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Sarah tells Daniel that she is thinking about applying for a promotion.”, what happens next in “A Career Conversation”?",
+            "prompt": "After “Career adviser Mia Torres is giving practical advice to people…”, what happens next in “A Career Conversation”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sarah tells Daniel that she is thinking about applying for a promotion."
+                "text": "Career adviser Mia Torres is giving practical advice to people preparing for an interview."
               },
               {
                 "id": "o2",
-                "text": "Daniel asks whether she really wants the job or only feels pushed by other people."
+                "text": "They are also going to practice short answers instead of memorizing a complete speech."
               },
               {
                 "id": "o3",
-                "text": "Daniel reminds her that she encouraged him before his interview, and now he wants to do the same for her."
+                "text": "Candidates should check their internet connection if the meeting is online, and they should arrange a quiet space in advance."
               },
               {
                 "id": "o4",
-                "text": "They agree to spend the evening preparing her application."
+                "text": "Mia says an interview is not only a test; it is also an opportunity to decide whether the job supports a person’s long-term goals."
               }
             ]
           },
@@ -8171,47 +8353,54 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Sarah tells Daniel that she is thinking about applying for a promotion."
+                "text": "Career adviser Mia Torres is giving practical advice to people preparing for an interview."
               },
               {
                 "id": "o2",
-                "text": "Daniel asks whether she really wants the job or only feels pushed by other people."
+                "text": "They are also going to practice short answers instead of memorizing a complete speech."
               },
               {
                 "id": "o3",
-                "text": "Daniel reminds her that she encouraged him before his interview, and now he wants to do the same for her."
+                "text": "Mia recommends preparing one question about the role because curiosity creates a positive impression."
               },
               {
                 "id": "o4",
-                "text": "They agree to spend the evening preparing her application."
+                "text": "Candidates should check their internet connection if the meeting is online, and they should arrange a quiet space in advance."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “A Career Conversation” after “Daniel reminds her that she encouraged him before his interview, and…”?",
+            "prompt": "Which outcome closes “A Career Conversation” after “Mia recommends preparing one question about the role because curiosity…”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sarah tells Daniel that she is thinking about applying for a promotion."
+                "text": "Career adviser Mia Torres is giving practical advice to people preparing for an interview."
               },
               {
                 "id": "o2",
-                "text": "Daniel asks whether she really wants the job or only feels pushed by other people."
+                "text": "They are also going to practice short answers instead of memorizing a complete speech."
               },
               {
                 "id": "o3",
-                "text": "Daniel reminds her that she encouraged him before his interview, and now he wants to do the same for her."
+                "text": "Candidates should check their internet connection if the meeting is online, and they should arrange a quiet space in advance."
               },
               {
                 "id": "o4",
-                "text": "They agree to spend the evening preparing her application."
+                "text": "Mia says an interview is not only a test; it is also an opportunity to decide whether the job supports a person’s long-term goals."
               }
             ]
           }
         ]
       },
+      "speakers": [
+        "Narrator"
+      ],
+      "durationSeconds": 55,
+      "audioLocale": "en-US",
+      "listeningFormat": "career-tutorial",
+      "voiceStyle": "clear-coach",
       "grammarTest": null
     },
     "exercises": [
@@ -8219,40 +8408,40 @@
         "type": "mcq",
         "prompt": "In “A Career Conversation”, which detail establishes the situation?",
         "options": [
-          "Sarah tells Daniel that she is thinking about applying for a promotion.",
-          "Daniel asks whether she really wants the job or only feels pushed by other people.",
-          "Daniel reminds her that she encouraged him before his interview, and now he wants to do the same for her.",
-          "They agree to spend the evening preparing her application."
+          "Career adviser Mia Torres is giving practical advice to people preparing for an interview.",
+          "They are also going to practice short answers instead of memorizing a complete speech.",
+          "Candidates should check their internet connection if the meeting is online, and they should arrange a quiet space in advance.",
+          "Mia says an interview is not only a test; it is also an opportunity to decide whether the job supports a person’s long-term goals."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Sarah tells Daniel that she is thinking about applying for a promotion.”, what happens next in “A Career Conversation”?",
+        "prompt": "After “Career adviser Mia Torres is giving practical advice to people…”, what happens next in “A Career Conversation”?",
         "options": [
-          "Sarah tells Daniel that she is thinking about applying for a promotion.",
-          "Daniel asks whether she really wants the job or only feels pushed by other people.",
-          "Daniel reminds her that she encouraged him before his interview, and now he wants to do the same for her.",
-          "They agree to spend the evening preparing her application."
+          "Career adviser Mia Torres is giving practical advice to people preparing for an interview.",
+          "They are also going to practice short answers instead of memorizing a complete speech.",
+          "Candidates should check their internet connection if the meeting is online, and they should arrange a quiet space in advance.",
+          "Mia says an interview is not only a test; it is also an opportunity to decide whether the job supports a person’s long-term goals."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “A Career Conversation”?",
         "options": [
-          "Sarah tells Daniel that she is thinking about applying for a promotion.",
-          "Daniel asks whether she really wants the job or only feels pushed by other people.",
-          "Daniel reminds her that she encouraged him before his interview, and now he wants to do the same for her.",
-          "They agree to spend the evening preparing her application."
+          "Career adviser Mia Torres is giving practical advice to people preparing for an interview.",
+          "They are also going to practice short answers instead of memorizing a complete speech.",
+          "Mia recommends preparing one question about the role because curiosity creates a positive impression.",
+          "Candidates should check their internet connection if the meeting is online, and they should arrange a quiet space in advance."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “A Career Conversation” after “Daniel reminds her that she encouraged him before his interview, and…”?",
+        "prompt": "Which outcome closes “A Career Conversation” after “Mia recommends preparing one question about the role because curiosity…”?",
         "options": [
-          "Sarah tells Daniel that she is thinking about applying for a promotion.",
-          "Daniel asks whether she really wants the job or only feels pushed by other people.",
-          "Daniel reminds her that she encouraged him before his interview, and now he wants to do the same for her.",
-          "They agree to spend the evening preparing her application."
+          "Career adviser Mia Torres is giving practical advice to people preparing for an interview.",
+          "They are also going to practice short answers instead of memorizing a complete speech.",
+          "Candidates should check their internet connection if the meeting is online, and they should arrange a quiet space in advance.",
+          "Mia says an interview is not only a test; it is also an opportunity to decide whether the job supports a person’s long-term goals."
         ]
       }
     ]
@@ -8547,45 +8736,18 @@
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Host",
-        "line": "Today we are examining plastic pollution in our cities. Why does this issue resist a simple answer?",
-        "translation": "Hoy analizamos plastic pollution in our cities. ¿Por qué este asunto no admite una respuesta sencilla?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-        "translation": "Porque la pregunta central no es solo qué sucede, sino también qué supuestos determinan cómo se interpreta la evidencia."
-      },
-      {
-        "speaker": "Host",
-        "line": "Which distinction should listeners keep in mind?",
-        "translation": "¿Qué distinción deben tener presente los oyentes?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable.",
-        "translation": "Deben distinguir un hallazgo establecido de una inferencia plausible y de un juicio de valor. Esas categorías pueden relacionarse, pero no son intercambiables."
-      },
-      {
-        "speaker": "Host",
-        "line": "How can we discuss the issue responsibly?",
-        "translation": "¿Cómo podemos hablar responsablemente del asunto?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
-        "translation": "Podemos definir los términos, reconocer un contraargumento serio y explicar qué evidencia nos haría revisar la conclusión."
+        "speaker": "Narrator",
+        "line": "The river clean-up collected hundreds of bags after the festival. What did volunteers find? Most of the material was single-use packaging: cups, food containers and plastic bags. The city had the waste removed, but much of it had already entered the water. Over time, some pieces will break down into microplastic. Can a clean-up solve the problem? It helps, but it only treats the final stage of the waste stream. Organizers should have vendors use reusable containers, and they can get water stations installed instead of selling individual bottles. Better signs would also help visitors sort waste correctly. Who carries the greatest responsibility? Consumers make choices, but producer responsibility matters too. If packaging is designed to be disposable, more material reaches a landfill or the river. The city could have suppliers redesign it and could require a deposit system. That would prevent waste instead of merely having it collected afterward."
       }
     ],
     "reading": null,
-    "transcript": "Host: Today we are examining plastic pollution in our cities. Why does this issue resist a simple answer? Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted. Host: Which distinction should listeners keep in mind? Guest: They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable. Host: How can we discuss the issue responsibly? Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
+    "transcript": "The river clean-up collected hundreds of bags after the festival. What did volunteers find? Most of the material was single-use packaging: cups, food containers and plastic bags. The city had the waste removed, but much of it had already entered the water. Over time, some pieces will break down into microplastic. Can a clean-up solve the problem? It helps, but it only treats the final stage of the waste stream. Organizers should have vendors use reusable containers, and they can get water stations installed instead of selling individual bottles. Better signs would also help visitors sort waste correctly. Who carries the greatest responsibility? Consumers make choices, but producer responsibility matters too. If packaging is designed to be disposable, more material reaches a landfill or the river. The city could have suppliers redesign it and could require a deposit system. That would prevent waste instead of merely having it collected afterward.",
     "extra": {
-      "listeningType": "interview",
+      "listeningType": "monologue",
       "difficulty": "B2",
-      "durationSeconds": 85,
+      "durationSeconds": 72,
       "speakers": [
-        "Host",
-        "Guest"
+        "Narrator"
       ],
       "phoneticSupport": {
         "enabled": true,
@@ -8612,42 +8774,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining plastic pollution in our cities."
+                "text": "The river clean-up collected hundreds of bags after the festival."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Over time, some pieces will break down into microplastic."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Who carries the greatest responsibility?"
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "That would prevent waste instead of merely having it collected afterward."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining plastic pollution in our cities.”, what happens next in “Listening Lab: Plastic Pollution in Our Cities”?",
+            "prompt": "After “The river clean-up collected hundreds of bags after the festival.”, what happens next in “Listening Lab: Plastic Pollution in Our Cities”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining plastic pollution in our cities."
+                "text": "The river clean-up collected hundreds of bags after the festival."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Over time, some pieces will break down into microplastic."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Who carries the greatest responsibility?"
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "That would prevent waste instead of merely having it collected afterward."
               }
             ]
           },
@@ -8658,47 +8820,124 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining plastic pollution in our cities."
+                "text": "The river clean-up collected hundreds of bags after the festival."
               },
               {
                 "id": "o2",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Over time, some pieces will break down into microplastic."
               },
               {
                 "id": "o3",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Organizers should have vendors use reusable containers, and they can get water stations installed instead of selling individual bottles."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Who carries the greatest responsibility?"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Plastic Pollution in Our Cities” after “Because the central question is not only what happens, but also which…”?",
+            "prompt": "Which outcome closes “Listening Lab: Plastic Pollution in Our Cities” after “Organizers should have vendors use reusable containers, and they can…”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining plastic pollution in our cities."
+                "text": "The river clean-up collected hundreds of bags after the festival."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Over time, some pieces will break down into microplastic."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Who carries the greatest responsibility?"
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "That would prevent waste instead of merely having it collected afterward."
               }
             ]
           }
         ]
       },
+      "storyTitle": "Why Cities Are Cutting Single-Use Plastic",
+      "mainTranscript": "The river clean-up collected hundreds of bags after the festival. What did volunteers find? Most of the material was single-use packaging: cups, food containers and plastic bags. The city had the waste removed, but much of it had already entered the water. Over time, some pieces will break down into microplastic. Can a clean-up solve the problem? It helps, but it only treats the final stage of the waste stream. Organizers should have vendors use reusable containers, and they can get water stations installed instead of selling individual bottles. Better signs would also help visitors sort waste correctly. Who carries the greatest responsibility? Consumers make choices, but producer responsibility matters too. If packaging is designed to be disposable, more material reaches a landfill or the river. The city could have suppliers redesign it and could require a deposit system. That would prevent waste instead of merely having it collected afterward.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "The river clean-up collected hundreds of bags after the festival."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "What did volunteers find?"
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Most of the material was single-use packaging: cups, food containers and plastic bags."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "The city had the waste removed, but much of it had already entered the water."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Over time, some pieces will break down into microplastic."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Can a clean-up solve the problem?"
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "It helps, but it only treats the final stage of the waste stream."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Organizers should have vendors use reusable containers, and they can get water stations installed instead of selling individual bottles."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Better signs would also help visitors sort waste correctly."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Who carries the greatest responsibility?"
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Consumers make choices, but producer responsibility matters too."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "If packaging is designed to be disposable, more material reaches a landfill or the river."
+        },
+        {
+          "id": "segment-13",
+          "order": 13,
+          "text": "The city could have suppliers redesign it and could require a deposit system."
+        },
+        {
+          "id": "segment-14",
+          "order": 14,
+          "text": "That would prevent waste instead of merely having it collected afterward."
+        }
+      ],
+      "audioLocale": "en-US",
+      "listeningFormat": "news-report",
+      "voiceStyle": "environmental-news",
       "grammarTest": null
     },
     "exercises": [
@@ -8706,40 +8945,40 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Plastic Pollution in Our Cities”, which detail establishes the situation?",
         "options": [
-          "Host: Today we are examining plastic pollution in our cities.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "The river clean-up collected hundreds of bags after the festival.",
+          "Over time, some pieces will break down into microplastic.",
+          "Who carries the greatest responsibility?",
+          "That would prevent waste instead of merely having it collected afterward."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining plastic pollution in our cities.”, what happens next in “Listening Lab: Plastic Pollution in Our Cities”?",
+        "prompt": "After “The river clean-up collected hundreds of bags after the festival.”, what happens next in “Listening Lab: Plastic Pollution in Our Cities”?",
         "options": [
-          "Host: Today we are examining plastic pollution in our cities.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "The river clean-up collected hundreds of bags after the festival.",
+          "Over time, some pieces will break down into microplastic.",
+          "Who carries the greatest responsibility?",
+          "That would prevent waste instead of merely having it collected afterward."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Plastic Pollution in Our Cities”?",
         "options": [
-          "Host: Today we are examining plastic pollution in our cities.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "The river clean-up collected hundreds of bags after the festival.",
+          "Over time, some pieces will break down into microplastic.",
+          "Organizers should have vendors use reusable containers, and they can get water stations installed instead of selling individual bottles.",
+          "Who carries the greatest responsibility?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Plastic Pollution in Our Cities” after “Because the central question is not only what happens, but also which…”?",
+        "prompt": "Which outcome closes “Listening Lab: Plastic Pollution in Our Cities” after “Organizers should have vendors use reusable containers, and they can…”?",
         "options": [
-          "Host: Today we are examining plastic pollution in our cities.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "The river clean-up collected hundreds of bags after the festival.",
+          "Over time, some pieces will break down into microplastic.",
+          "Who carries the greatest responsibility?",
+          "That would prevent waste instead of merely having it collected afterward."
         ]
       }
     ]
@@ -8768,45 +9007,18 @@
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Host",
-        "line": "Today we are examining artificial intelligence and energy demand. Why does this issue resist a simple answer?",
-        "translation": "Hoy analizamos artificial intelligence and energy demand. ¿Por qué este asunto no admite una respuesta sencilla?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-        "translation": "Porque la pregunta central no es solo qué sucede, sino también qué supuestos determinan cómo se interpreta la evidencia."
-      },
-      {
-        "speaker": "Host",
-        "line": "Which distinction should listeners keep in mind?",
-        "translation": "¿Qué distinción deben tener presente los oyentes?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable.",
-        "translation": "Deben distinguir un hallazgo establecido de una inferencia plausible y de un juicio de valor. Esas categorías pueden relacionarse, pero no son intercambiables."
-      },
-      {
-        "speaker": "Host",
-        "line": "How can we discuss the issue responsibly?",
-        "translation": "¿Cómo podemos hablar responsablemente del asunto?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
-        "translation": "Podemos definir los términos, reconocer un contraargumento serio y explicar qué evidencia nos haría revisar la conclusión."
+        "speaker": "Narrator",
+        "line": "An artificial-intelligence response may appear instantly on a screen, but it depends on a physical system that is largely invisible to the user. Data centres contain specialised chips, cooling equipment, backup power, and network infrastructure. As companies train larger models and serve more customers, electricity demand may rise substantially in regions where grid capacity is already under pressure. Precise forecasts remain difficult because firms disclose limited operational data and efficiency improves rapidly. A new chip may perform the same computing workload with less energy, yet cheaper and faster systems can encourage far more use. Economists call this the rebound effect. The debate is therefore not well served by claiming that AI is either immaterial or uniquely destructive. Location, timing, cooling technology, and the source of electricity all influence its environmental cost. A centre supplied by low-carbon power during periods of surplus has a different impact from one that extends the life of a fossil-fuel plant. Communities are also asking who pays for new transmission lines and additional water systems. Responsible expansion would require transparent reporting, credible efficiency standards, and coordination with local grids. The relevant question is not whether society will use computation. It is whether the infrastructure behind that computation can grow without transferring hidden costs to households, public services, and the climate."
       }
     ],
     "reading": null,
-    "transcript": "Host: Today we are examining artificial intelligence and energy demand. Why does this issue resist a simple answer? Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted. Host: Which distinction should listeners keep in mind? Guest: They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable. Host: How can we discuss the issue responsibly? Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
+    "transcript": "An artificial-intelligence response may appear instantly on a screen, but it depends on a physical system that is largely invisible to the user. Data centres contain specialised chips, cooling equipment, backup power, and network infrastructure. As companies train larger models and serve more customers, electricity demand may rise substantially in regions where grid capacity is already under pressure. Precise forecasts remain difficult because firms disclose limited operational data and efficiency improves rapidly. A new chip may perform the same computing workload with less energy, yet cheaper and faster systems can encourage far more use. Economists call this the rebound effect. The debate is therefore not well served by claiming that AI is either immaterial or uniquely destructive. Location, timing, cooling technology, and the source of electricity all influence its environmental cost. A centre supplied by low-carbon power during periods of surplus has a different impact from one that extends the life of a fossil-fuel plant. Communities are also asking who pays for new transmission lines and additional water systems. Responsible expansion would require transparent reporting, credible efficiency standards, and coordination with local grids. The relevant question is not whether society will use computation. It is whether the infrastructure behind that computation can grow without transferring hidden costs to households, public services, and the climate.",
     "extra": {
-      "listeningType": "interview",
+      "listeningType": "monologue",
       "difficulty": "C1",
-      "durationSeconds": 105,
+      "durationSeconds": 103,
       "speakers": [
-        "Host",
-        "Guest"
+        "Narrator"
       ],
       "phoneticSupport": {
         "enabled": true,
@@ -8833,42 +9045,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining artificial intelligence and energy demand."
+                "text": "An artificial-intelligence response may appear instantly on a screen, but it depends on a physical system that is largely invisible to the user."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "A new chip may perform the same computing workload with less energy, yet cheaper and faster systems can encourage far more use."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "A centre supplied by low-carbon power during periods of surplus has a different impact from one that extends the life of a fossil-fuel plant."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "It is whether the infrastructure behind that computation can grow without transferring hidden costs to households, public services, and the climate."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining artificial intelligence and energy demand.”, what happens next in “Listening Lab: Artificial Intelligence and Energy Demand”?",
+            "prompt": "After “An artificial-intelligence response may appear instantly on a screen,…”, what happens next in “Listening Lab: Artificial Intelligence and Energy Demand”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining artificial intelligence and energy demand."
+                "text": "An artificial-intelligence response may appear instantly on a screen, but it depends on a physical system that is largely invisible to the user."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "A new chip may perform the same computing workload with less energy, yet cheaper and faster systems can encourage far more use."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "A centre supplied by low-carbon power during periods of surplus has a different impact from one that extends the life of a fossil-fuel plant."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "It is whether the infrastructure behind that computation can grow without transferring hidden costs to households, public services, and the climate."
               }
             ]
           },
@@ -8879,47 +9091,119 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining artificial intelligence and energy demand."
+                "text": "An artificial-intelligence response may appear instantly on a screen, but it depends on a physical system that is largely invisible to the user."
               },
               {
                 "id": "o2",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "A new chip may perform the same computing workload with less energy, yet cheaper and faster systems can encourage far more use."
               },
               {
                 "id": "o3",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Precise forecasts remain difficult because firms disclose limited operational data and efficiency improves rapidly."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "A centre supplied by low-carbon power during periods of surplus has a different impact from one that extends the life of a fossil-fuel plant."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Artificial Intelligence and Energy Demand” after “Because the central question is not only what happens, but also which…”?",
+            "prompt": "Which outcome closes “Listening Lab: Artificial Intelligence and Energy Demand” after “Precise forecasts remain difficult because firms disclose limited…”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining artificial intelligence and energy demand."
+                "text": "An artificial-intelligence response may appear instantly on a screen, but it depends on a physical system that is largely invisible to the user."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "A new chip may perform the same computing workload with less energy, yet cheaper and faster systems can encourage far more use."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "A centre supplied by low-carbon power during periods of surplus has a different impact from one that extends the life of a fossil-fuel plant."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "It is whether the infrastructure behind that computation can grow without transferring hidden costs to households, public services, and the climate."
               }
             ]
           }
         ]
       },
+      "storyTitle": "The Hidden Energy Cost of AI",
+      "mainTranscript": "An artificial-intelligence response may appear instantly on a screen, but it depends on a physical system that is largely invisible to the user. Data centres contain specialised chips, cooling equipment, backup power, and network infrastructure. As companies train larger models and serve more customers, electricity demand may rise substantially in regions where grid capacity is already under pressure. Precise forecasts remain difficult because firms disclose limited operational data and efficiency improves rapidly. A new chip may perform the same computing workload with less energy, yet cheaper and faster systems can encourage far more use. Economists call this the rebound effect. The debate is therefore not well served by claiming that AI is either immaterial or uniquely destructive. Location, timing, cooling technology, and the source of electricity all influence its environmental cost. A centre supplied by low-carbon power during periods of surplus has a different impact from one that extends the life of a fossil-fuel plant. Communities are also asking who pays for new transmission lines and additional water systems. Responsible expansion would require transparent reporting, credible efficiency standards, and coordination with local grids. The relevant question is not whether society will use computation. It is whether the infrastructure behind that computation can grow without transferring hidden costs to households, public services, and the climate.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "An artificial-intelligence response may appear instantly on a screen, but it depends on a physical system that is largely invisible to the user."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Data centres contain specialised chips, cooling equipment, backup power, and network infrastructure."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "As companies train larger models and serve more customers, electricity demand may rise substantially in regions where grid capacity is already under pressure."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "Precise forecasts remain difficult because firms disclose limited operational data and efficiency improves rapidly."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "A new chip may perform the same computing workload with less energy, yet cheaper and faster systems can encourage far more use."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Economists call this the rebound effect."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "The debate is therefore not well served by claiming that AI is either immaterial or uniquely destructive."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Location, timing, cooling technology, and the source of electricity all influence its environmental cost."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "A centre supplied by low-carbon power during periods of surplus has a different impact from one that extends the life of a fossil-fuel plant."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Communities are also asking who pays for new transmission lines and additional water systems."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Responsible expansion would require transparent reporting, credible efficiency standards, and coordination with local grids."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "The relevant question is not whether society will use computation."
+        },
+        {
+          "id": "segment-13",
+          "order": 13,
+          "text": "It is whether the infrastructure behind that computation can grow without transferring hidden costs to households, public services, and the climate."
+        }
+      ],
+      "listeningFormat": "technology-news",
+      "voiceStyle": "technology-news",
+      "audioLocale": "en-US",
       "grammarTest": null
     },
     "exercises": [
@@ -8927,40 +9211,40 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Artificial Intelligence and Energy Demand”, which detail establishes the situation?",
         "options": [
-          "Host: Today we are examining artificial intelligence and energy demand.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "An artificial-intelligence response may appear instantly on a screen, but it depends on a physical system that is largely invisible to the user.",
+          "A new chip may perform the same computing workload with less energy, yet cheaper and faster systems can encourage far more use.",
+          "A centre supplied by low-carbon power during periods of surplus has a different impact from one that extends the life of a fossil-fuel plant.",
+          "It is whether the infrastructure behind that computation can grow without transferring hidden costs to households, public services, and the climate."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining artificial intelligence and energy demand.”, what happens next in “Listening Lab: Artificial Intelligence and Energy Demand”?",
+        "prompt": "After “An artificial-intelligence response may appear instantly on a screen,…”, what happens next in “Listening Lab: Artificial Intelligence and Energy Demand”?",
         "options": [
-          "Host: Today we are examining artificial intelligence and energy demand.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "An artificial-intelligence response may appear instantly on a screen, but it depends on a physical system that is largely invisible to the user.",
+          "A new chip may perform the same computing workload with less energy, yet cheaper and faster systems can encourage far more use.",
+          "A centre supplied by low-carbon power during periods of surplus has a different impact from one that extends the life of a fossil-fuel plant.",
+          "It is whether the infrastructure behind that computation can grow without transferring hidden costs to households, public services, and the climate."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Artificial Intelligence and Energy Demand”?",
         "options": [
-          "Host: Today we are examining artificial intelligence and energy demand.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "An artificial-intelligence response may appear instantly on a screen, but it depends on a physical system that is largely invisible to the user.",
+          "A new chip may perform the same computing workload with less energy, yet cheaper and faster systems can encourage far more use.",
+          "Precise forecasts remain difficult because firms disclose limited operational data and efficiency improves rapidly.",
+          "A centre supplied by low-carbon power during periods of surplus has a different impact from one that extends the life of a fossil-fuel plant."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Artificial Intelligence and Energy Demand” after “Because the central question is not only what happens, but also which…”?",
+        "prompt": "Which outcome closes “Listening Lab: Artificial Intelligence and Energy Demand” after “Precise forecasts remain difficult because firms disclose limited…”?",
         "options": [
-          "Host: Today we are examining artificial intelligence and energy demand.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "An artificial-intelligence response may appear instantly on a screen, but it depends on a physical system that is largely invisible to the user.",
+          "A new chip may perform the same computing workload with less energy, yet cheaper and faster systems can encourage far more use.",
+          "A centre supplied by low-carbon power during periods of surplus has a different impact from one that extends the life of a fossil-fuel plant.",
+          "It is whether the infrastructure behind that computation can grow without transferring hidden costs to households, public services, and the climate."
         ]
       }
     ]
@@ -8989,45 +9273,18 @@
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Host",
-        "line": "Today we are examining retrieval practice, spacing and durable learning. Why does this issue resist a simple answer?",
-        "translation": "Hoy analizamos retrieval practice, spacing and durable learning. ¿Por qué este asunto no admite una respuesta sencilla?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-        "translation": "Porque la pregunta central no es solo qué sucede, sino también qué supuestos determinan cómo se interpreta la evidencia."
-      },
-      {
-        "speaker": "Host",
-        "line": "Which distinction should listeners keep in mind?",
-        "translation": "¿Qué distinción deben tener presente los oyentes?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable.",
-        "translation": "Deben distinguir un hallazgo establecido de una inferencia plausible y de un juicio de valor. Esas categorías pueden relacionarse, pero no son intercambiables."
-      },
-      {
-        "speaker": "Host",
-        "line": "How can we discuss the issue responsibly?",
-        "translation": "¿Cómo podemos hablar responsablemente del asunto?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
-        "translation": "Podemos definir los términos, reconocer un contraargumento serio y explicar qué evidencia nos haría revisar la conclusión."
+        "speaker": "Narrator",
+        "line": "Rereading feels productive because the page becomes familiar, yet familiarity is a poor substitute for access. Retrieval practice requires learners to reconstruct information without immediately seeing it: recalling a word, explaining an argument, or completing a sentence from memory. That effort strengthens future access, especially when attempts are distributed over time. Spacing introduces a desirable difficulty. Returning after some forgetting has occurred demands more work than repeating an item five times in one sitting, but the resulting memory trace is often more durable. The principle is frequently oversimplified into a perfect schedule. No universal interval exists. Useful spacing depends on prior knowledge, item difficulty, and how long the learner needs to retain the material. Retrieval can also fail when prompts are too vague or feedback arrives too late. Practising an incorrect answer repeatedly is not inherently beneficial. Effective systems therefore combine effortful recall with timely correction and varied contexts. Interleaving related topics may reduce the familiarity illusion further by forcing learners to decide which idea applies. None of this makes reading unnecessary. Rich input builds the knowledge that retrieval later reorganises. The practical change is to stop measuring study by exposure alone. Closing the book, predicting the next point, summarising without notes, and revisiting material days later reveal what is genuinely available. Learning becomes less comfortable at the moment of practice precisely because memory is being required to do the work it will need to do in the future."
       }
     ],
     "reading": null,
-    "transcript": "Host: Today we are examining retrieval practice, spacing and durable learning. Why does this issue resist a simple answer? Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted. Host: Which distinction should listeners keep in mind? Guest: They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable. Host: How can we discuss the issue responsibly? Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
+    "transcript": "Rereading feels productive because the page becomes familiar, yet familiarity is a poor substitute for access. Retrieval practice requires learners to reconstruct information without immediately seeing it: recalling a word, explaining an argument, or completing a sentence from memory. That effort strengthens future access, especially when attempts are distributed over time. Spacing introduces a desirable difficulty. Returning after some forgetting has occurred demands more work than repeating an item five times in one sitting, but the resulting memory trace is often more durable. The principle is frequently oversimplified into a perfect schedule. No universal interval exists. Useful spacing depends on prior knowledge, item difficulty, and how long the learner needs to retain the material. Retrieval can also fail when prompts are too vague or feedback arrives too late. Practising an incorrect answer repeatedly is not inherently beneficial. Effective systems therefore combine effortful recall with timely correction and varied contexts. Interleaving related topics may reduce the familiarity illusion further by forcing learners to decide which idea applies. None of this makes reading unnecessary. Rich input builds the knowledge that retrieval later reorganises. The practical change is to stop measuring study by exposure alone. Closing the book, predicting the next point, summarising without notes, and revisiting material days later reveal what is genuinely available. Learning becomes less comfortable at the moment of practice precisely because memory is being required to do the work it will need to do in the future.",
     "extra": {
-      "listeningType": "interview",
+      "listeningType": "monologue",
       "difficulty": "C2",
       "durationSeconds": 125,
       "speakers": [
-        "Host",
-        "Guest"
+        "Narrator"
       ],
       "phoneticSupport": {
         "enabled": true,
@@ -9054,42 +9311,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining retrieval practice, spacing and durable learning."
+                "text": "Rereading feels productive because the page becomes familiar, yet familiarity is a poor substitute for access."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "The principle is frequently oversimplified into a perfect schedule."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Interleaving related topics may reduce the familiarity illusion further by forcing learners to decide which idea applies."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Learning becomes less comfortable at the moment of practice precisely because memory is being required to do the work it will need to do in the future."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining retrieval practice, spacing and durable learning.”, what happens next in “Listening Lab: Retrieval Practice, Spacing and Durable Learning”?",
+            "prompt": "After “Rereading feels productive because the page becomes familiar, yet…”, what happens next in “Listening Lab: Retrieval Practice, Spacing and Durable Learning”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining retrieval practice, spacing and durable learning."
+                "text": "Rereading feels productive because the page becomes familiar, yet familiarity is a poor substitute for access."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "The principle is frequently oversimplified into a perfect schedule."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Interleaving related topics may reduce the familiarity illusion further by forcing learners to decide which idea applies."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Learning becomes less comfortable at the moment of practice precisely because memory is being required to do the work it will need to do in the future."
               }
             ]
           },
@@ -9100,47 +9357,139 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining retrieval practice, spacing and durable learning."
+                "text": "Rereading feels productive because the page becomes familiar, yet familiarity is a poor substitute for access."
               },
               {
                 "id": "o2",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "The principle is frequently oversimplified into a perfect schedule."
               },
               {
                 "id": "o3",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Interleaving related topics may reduce the familiarity illusion further by forcing learners to decide which idea applies."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Learning becomes less comfortable at the moment of practice precisely because memory is being required to do the work it will need to do in the future."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Retrieval Practice, Spacing and Durable Learning” after “Because the central question is not only what happens, but also which…”?",
+            "prompt": "Which outcome closes “Listening Lab: Retrieval Practice, Spacing and Durable Learning” after “Interleaving related topics may reduce the familiarity illusion…”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining retrieval practice, spacing and durable learning."
+                "text": "Rereading feels productive because the page becomes familiar, yet familiarity is a poor substitute for access."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "The principle is frequently oversimplified into a perfect schedule."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Interleaving related topics may reduce the familiarity illusion further by forcing learners to decide which idea applies."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Learning becomes less comfortable at the moment of practice precisely because memory is being required to do the work it will need to do in the future."
               }
             ]
           }
         ]
       },
+      "storyTitle": "The Memory Paradox: Why Difficulty Helps Learning",
+      "mainTranscript": "Rereading feels productive because the page becomes familiar, yet familiarity is a poor substitute for access. Retrieval practice requires learners to reconstruct information without immediately seeing it: recalling a word, explaining an argument, or completing a sentence from memory. That effort strengthens future access, especially when attempts are distributed over time. Spacing introduces a desirable difficulty. Returning after some forgetting has occurred demands more work than repeating an item five times in one sitting, but the resulting memory trace is often more durable. The principle is frequently oversimplified into a perfect schedule. No universal interval exists. Useful spacing depends on prior knowledge, item difficulty, and how long the learner needs to retain the material. Retrieval can also fail when prompts are too vague or feedback arrives too late. Practising an incorrect answer repeatedly is not inherently beneficial. Effective systems therefore combine effortful recall with timely correction and varied contexts. Interleaving related topics may reduce the familiarity illusion further by forcing learners to decide which idea applies. None of this makes reading unnecessary. Rich input builds the knowledge that retrieval later reorganises. The practical change is to stop measuring study by exposure alone. Closing the book, predicting the next point, summarising without notes, and revisiting material days later reveal what is genuinely available. Learning becomes less comfortable at the moment of practice precisely because memory is being required to do the work it will need to do in the future.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Rereading feels productive because the page becomes familiar, yet familiarity is a poor substitute for access."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Retrieval practice requires learners to reconstruct information without immediately seeing it: recalling a word, explaining an argument, or completing a sentence from memory."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "That effort strengthens future access, especially when attempts are distributed over time."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "Spacing introduces a desirable difficulty."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Returning after some forgetting has occurred demands more work than repeating an item five times in one sitting, but the resulting memory trace is often more durable."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "The principle is frequently oversimplified into a perfect schedule."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "No universal interval exists."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Useful spacing depends on prior knowledge, item difficulty, and how long the learner needs to retain the material."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Retrieval can also fail when prompts are too vague or feedback arrives too late."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Practising an incorrect answer repeatedly is not inherently beneficial."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Effective systems therefore combine effortful recall with timely correction and varied contexts."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "Interleaving related topics may reduce the familiarity illusion further by forcing learners to decide which idea applies."
+        },
+        {
+          "id": "segment-13",
+          "order": 13,
+          "text": "None of this makes reading unnecessary."
+        },
+        {
+          "id": "segment-14",
+          "order": 14,
+          "text": "Rich input builds the knowledge that retrieval later reorganises."
+        },
+        {
+          "id": "segment-15",
+          "order": 15,
+          "text": "The practical change is to stop measuring study by exposure alone."
+        },
+        {
+          "id": "segment-16",
+          "order": 16,
+          "text": "Closing the book, predicting the next point, summarising without notes, and revisiting material days later reveal what is genuinely available."
+        },
+        {
+          "id": "segment-17",
+          "order": 17,
+          "text": "Learning becomes less comfortable at the moment of practice precisely because memory is being required to do the work it will need to do in the future."
+        }
+      ],
+      "listeningFormat": "conference-lecture",
+      "voiceStyle": "clear-academic",
+      "audioLocale": "en-US",
       "grammarTest": null
     },
     "exercises": [
@@ -9148,40 +9497,40 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Retrieval Practice, Spacing and Durable Learning”, which detail establishes the situation?",
         "options": [
-          "Host: Today we are examining retrieval practice, spacing and durable learning.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Rereading feels productive because the page becomes familiar, yet familiarity is a poor substitute for access.",
+          "The principle is frequently oversimplified into a perfect schedule.",
+          "Interleaving related topics may reduce the familiarity illusion further by forcing learners to decide which idea applies.",
+          "Learning becomes less comfortable at the moment of practice precisely because memory is being required to do the work it will need to do in the future."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining retrieval practice, spacing and durable learning.”, what happens next in “Listening Lab: Retrieval Practice, Spacing and Durable Learning”?",
+        "prompt": "After “Rereading feels productive because the page becomes familiar, yet…”, what happens next in “Listening Lab: Retrieval Practice, Spacing and Durable Learning”?",
         "options": [
-          "Host: Today we are examining retrieval practice, spacing and durable learning.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Rereading feels productive because the page becomes familiar, yet familiarity is a poor substitute for access.",
+          "The principle is frequently oversimplified into a perfect schedule.",
+          "Interleaving related topics may reduce the familiarity illusion further by forcing learners to decide which idea applies.",
+          "Learning becomes less comfortable at the moment of practice precisely because memory is being required to do the work it will need to do in the future."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Retrieval Practice, Spacing and Durable Learning”?",
         "options": [
-          "Host: Today we are examining retrieval practice, spacing and durable learning.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Rereading feels productive because the page becomes familiar, yet familiarity is a poor substitute for access.",
+          "The principle is frequently oversimplified into a perfect schedule.",
+          "Interleaving related topics may reduce the familiarity illusion further by forcing learners to decide which idea applies.",
+          "Learning becomes less comfortable at the moment of practice precisely because memory is being required to do the work it will need to do in the future."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Retrieval Practice, Spacing and Durable Learning” after “Because the central question is not only what happens, but also which…”?",
+        "prompt": "Which outcome closes “Listening Lab: Retrieval Practice, Spacing and Durable Learning” after “Interleaving related topics may reduce the familiarity illusion…”?",
         "options": [
-          "Host: Today we are examining retrieval practice, spacing and durable learning.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Rereading feels productive because the page becomes familiar, yet familiarity is a poor substitute for access.",
+          "The principle is frequently oversimplified into a perfect schedule.",
+          "Interleaving related topics may reduce the familiarity illusion further by forcing learners to decide which idea applies.",
+          "Learning becomes less comfortable at the moment of practice precisely because memory is being required to do the work it will need to do in the future."
         ]
       }
     ]
@@ -15115,33 +15464,58 @@
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "Narrator",
+        "line": "Residents of Oak Street are using a group chat to solve a common problem: rubbish is being left beside full containers. Some neighbors say the council must collect waste more frequently, while others think residents should separate recycling correctly. The group could simply complain online, but one member proposes a practical plan. Volunteers might photograph the problem areas, collect residents’ comments, and send clear evidence to the city. They must not share images that identify people without permission. Local businesses also have to store their waste safely. At Saturday’s meeting, the group will choose two representatives and create a simple information poster. The conversation shows how neighbors can move from frustration to action when they listen to different opinions and agree on realistic responsibilities."
+      }
+    ],
     "reading": null,
-    "transcript": "",
+    "transcript": "Residents of Oak Street are using a group chat to solve a common problem: rubbish is being left beside full containers. Some neighbors say the council must collect waste more frequently, while others think residents should separate recycling correctly. The group could simply complain online, but one member proposes a practical plan. Volunteers might photograph the problem areas, collect residents’ comments, and send clear evidence to the city. They must not share images that identify people without permission. Local businesses also have to store their waste safely. At Saturday’s meeting, the group will choose two representatives and create a simple information poster. The conversation shows how neighbors can move from frustration to action when they listen to different opinions and agree on realistic responsibilities.",
     "extra": {
-      "listeningType": "story",
-      "storyTitle": "Planning the Clean-up",
-      "mainTranscript": "At the community centre, Sarah speaks with two residents about the clean-up morning. They decide that volunteers should arrive at nine, bring gloves if possible and work in small teams. Daniel suggests creating a simple online form so people can choose a task. Everyone agrees that the event must be safe, organised and friendly for families.",
+      "listeningType": "monologue",
+      "storyTitle": "Solving a Neighborhood Problem",
+      "mainTranscript": "Residents of Oak Street are using a group chat to solve a common problem: rubbish is being left beside full containers. Some neighbors say the council must collect waste more frequently, while others think residents should separate recycling correctly. The group could simply complain online, but one member proposes a practical plan. Volunteers might photograph the problem areas, collect residents’ comments, and send clear evidence to the city. They must not share images that identify people without permission. Local businesses also have to store their waste safely. At Saturday’s meeting, the group will choose two representatives and create a simple information poster. The conversation shows how neighbors can move from frustration to action when they listen to different opinions and agree on realistic responsibilities.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "At the community centre, Sarah speaks with two residents about the clean-up morning."
+          "text": "Residents of Oak Street are using a group chat to solve a common problem: rubbish is being left beside full containers."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "They decide that volunteers should arrive at nine, bring gloves if possible and work in small teams."
+          "text": "Some neighbors say the council must collect waste more frequently, while others think residents should separate recycling correctly."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "Daniel suggests creating a simple online form so people can choose a task."
+          "text": "The group could simply complain online, but one member proposes a practical plan."
         },
         {
           "id": "segment-04",
           "order": 4,
-          "text": "Everyone agrees that the event must be safe, organised and friendly for families."
+          "text": "Volunteers might photograph the problem areas, collect residents’ comments, and send clear evidence to the city."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "They must not share images that identify people without permission."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Local businesses also have to store their waste safely."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "At Saturday’s meeting, the group will choose two representatives and create a simple information poster."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "The conversation shows how neighbors can move from frustration to action when they listen to different opinions and agree on realistic responsibilities."
         }
       ],
       "listeningComprehension": {
@@ -15155,42 +15529,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "At the community centre, Sarah speaks with two residents about the clean-up morning."
+                "text": "Residents of Oak Street are using a group chat to solve a common problem: rubbish is being left beside full containers."
               },
               {
                 "id": "o2",
-                "text": "They decide that volunteers should arrive at nine, bring gloves if possible and work in small teams."
+                "text": "The group could simply complain online, but one member proposes a practical plan."
               },
               {
                 "id": "o3",
-                "text": "Daniel suggests creating a simple online form so people can choose a task."
+                "text": "Local businesses also have to store their waste safely."
               },
               {
                 "id": "o4",
-                "text": "Everyone agrees that the event must be safe, organised and friendly for families."
+                "text": "The conversation shows how neighbors can move from frustration to action when they listen to different opinions and agree on realistic responsibilities."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “At the community centre, Sarah speaks with two residents about the…”, what happens next in “Planning the Clean-up”?",
+            "prompt": "After “Residents of Oak Street are using a group chat to solve a common…”, what happens next in “Planning the Clean-up”?",
             "options": [
               {
                 "id": "o1",
-                "text": "At the community centre, Sarah speaks with two residents about the clean-up morning."
+                "text": "Residents of Oak Street are using a group chat to solve a common problem: rubbish is being left beside full containers."
               },
               {
                 "id": "o2",
-                "text": "They decide that volunteers should arrive at nine, bring gloves if possible and work in small teams."
+                "text": "The group could simply complain online, but one member proposes a practical plan."
               },
               {
                 "id": "o3",
-                "text": "Daniel suggests creating a simple online form so people can choose a task."
+                "text": "Local businesses also have to store their waste safely."
               },
               {
                 "id": "o4",
-                "text": "Everyone agrees that the event must be safe, organised and friendly for families."
+                "text": "The conversation shows how neighbors can move from frustration to action when they listen to different opinions and agree on realistic responsibilities."
               }
             ]
           },
@@ -15201,47 +15575,54 @@
             "options": [
               {
                 "id": "o1",
-                "text": "At the community centre, Sarah speaks with two residents about the clean-up morning."
+                "text": "Residents of Oak Street are using a group chat to solve a common problem: rubbish is being left beside full containers."
               },
               {
                 "id": "o2",
-                "text": "Daniel suggests creating a simple online form so people can choose a task."
+                "text": "The group could simply complain online, but one member proposes a practical plan."
               },
               {
                 "id": "o3",
-                "text": "They decide that volunteers should arrive at nine, bring gloves if possible and work in small teams."
+                "text": "Some neighbors say the council must collect waste more frequently, while others think residents should separate recycling correctly."
               },
               {
                 "id": "o4",
-                "text": "Everyone agrees that the event must be safe, organised and friendly for families."
+                "text": "Local businesses also have to store their waste safely."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Planning the Clean-up” after “They decide that volunteers should arrive at nine, bring gloves if…”?",
+            "prompt": "Which outcome closes “Planning the Clean-up” after “Some neighbors say the council must collect waste more frequently,…”?",
             "options": [
               {
                 "id": "o1",
-                "text": "At the community centre, Sarah speaks with two residents about the clean-up morning."
+                "text": "Residents of Oak Street are using a group chat to solve a common problem: rubbish is being left beside full containers."
               },
               {
                 "id": "o2",
-                "text": "They decide that volunteers should arrive at nine, bring gloves if possible and work in small teams."
+                "text": "The group could simply complain online, but one member proposes a practical plan."
               },
               {
                 "id": "o3",
-                "text": "Daniel suggests creating a simple online form so people can choose a task."
+                "text": "Local businesses also have to store their waste safely."
               },
               {
                 "id": "o4",
-                "text": "Everyone agrees that the event must be safe, organised and friendly for families."
+                "text": "The conversation shows how neighbors can move from frustration to action when they listen to different opinions and agree on realistic responsibilities."
               }
             ]
           }
         ]
       },
+      "speakers": [
+        "Narrator"
+      ],
+      "durationSeconds": 55,
+      "audioLocale": "en-US",
+      "listeningFormat": "community-report",
+      "voiceStyle": "local-news",
       "grammarTest": null
     },
     "exercises": [
@@ -15249,40 +15630,40 @@
         "type": "mcq",
         "prompt": "In “Planning the Clean-up”, which detail establishes the situation?",
         "options": [
-          "At the community centre, Sarah speaks with two residents about the clean-up morning.",
-          "They decide that volunteers should arrive at nine, bring gloves if possible and work in small teams.",
-          "Daniel suggests creating a simple online form so people can choose a task.",
-          "Everyone agrees that the event must be safe, organised and friendly for families."
+          "Residents of Oak Street are using a group chat to solve a common problem: rubbish is being left beside full containers.",
+          "The group could simply complain online, but one member proposes a practical plan.",
+          "Local businesses also have to store their waste safely.",
+          "The conversation shows how neighbors can move from frustration to action when they listen to different opinions and agree on realistic responsibilities."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “At the community centre, Sarah speaks with two residents about the…”, what happens next in “Planning the Clean-up”?",
+        "prompt": "After “Residents of Oak Street are using a group chat to solve a common…”, what happens next in “Planning the Clean-up”?",
         "options": [
-          "At the community centre, Sarah speaks with two residents about the clean-up morning.",
-          "They decide that volunteers should arrive at nine, bring gloves if possible and work in small teams.",
-          "Daniel suggests creating a simple online form so people can choose a task.",
-          "Everyone agrees that the event must be safe, organised and friendly for families."
+          "Residents of Oak Street are using a group chat to solve a common problem: rubbish is being left beside full containers.",
+          "The group could simply complain online, but one member proposes a practical plan.",
+          "Local businesses also have to store their waste safely.",
+          "The conversation shows how neighbors can move from frustration to action when they listen to different opinions and agree on realistic responsibilities."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Planning the Clean-up”?",
         "options": [
-          "At the community centre, Sarah speaks with two residents about the clean-up morning.",
-          "Daniel suggests creating a simple online form so people can choose a task.",
-          "They decide that volunteers should arrive at nine, bring gloves if possible and work in small teams.",
-          "Everyone agrees that the event must be safe, organised and friendly for families."
+          "Residents of Oak Street are using a group chat to solve a common problem: rubbish is being left beside full containers.",
+          "The group could simply complain online, but one member proposes a practical plan.",
+          "Some neighbors say the council must collect waste more frequently, while others think residents should separate recycling correctly.",
+          "Local businesses also have to store their waste safely."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Planning the Clean-up” after “They decide that volunteers should arrive at nine, bring gloves if…”?",
+        "prompt": "Which outcome closes “Planning the Clean-up” after “Some neighbors say the council must collect waste more frequently,…”?",
         "options": [
-          "At the community centre, Sarah speaks with two residents about the clean-up morning.",
-          "They decide that volunteers should arrive at nine, bring gloves if possible and work in small teams.",
-          "Daniel suggests creating a simple online form so people can choose a task.",
-          "Everyone agrees that the event must be safe, organised and friendly for families."
+          "Residents of Oak Street are using a group chat to solve a common problem: rubbish is being left beside full containers.",
+          "The group could simply complain online, but one member proposes a practical plan.",
+          "Local businesses also have to store their waste safely.",
+          "The conversation shows how neighbors can move from frustration to action when they listen to different opinions and agree on realistic responsibilities."
         ]
       }
     ]
@@ -15587,45 +15968,18 @@
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Host",
-        "line": "Today we are examining climate change and everyday decisions. Why does this issue resist a simple answer?",
-        "translation": "Hoy analizamos climate change and everyday decisions. ¿Por qué este asunto no admite una respuesta sencilla?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-        "translation": "Porque la pregunta central no es solo qué sucede, sino también qué supuestos determinan cómo se interpreta la evidencia."
-      },
-      {
-        "speaker": "Host",
-        "line": "Which distinction should listeners keep in mind?",
-        "translation": "¿Qué distinción deben tener presente los oyentes?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable.",
-        "translation": "Deben distinguir un hallazgo establecido de una inferencia plausible y de un juicio de valor. Esas categorías pueden relacionarse, pero no son intercambiables."
-      },
-      {
-        "speaker": "Host",
-        "line": "How can we discuss the issue responsibly?",
-        "translation": "¿Cómo podemos hablar responsablemente del asunto?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
-        "translation": "Podemos definir los términos, reconocer un contraargumento serio y explicar qué evidencia nos haría revisar la conclusión."
+        "speaker": "Narrator",
+        "line": "People are often told to reduce their carbon footprint. Are personal choices enough? They matter, but they operate inside a larger system. If cities had invested in reliable public transportation years ago, fewer commuters would depend on fossil fuel today. And if clean infrastructure were available everywhere, many households would already be using renewable energy. Does that remove individual responsibility? No. Lower demand can reduce emissions and signal support for change. However, mitigation also requires rules for major producers, while adaptation requires communities to prepare for effects that are already unavoidable. What makes policy effective? A practical incentive can help families choose efficient transport or home energy, but the option must be affordable. If governments had treated climate action only as a personal moral test, they would have ignored structural barriers. Daily decisions are useful when public investment makes better decisions possible."
       }
     ],
     "reading": null,
-    "transcript": "Host: Today we are examining climate change and everyday decisions. Why does this issue resist a simple answer? Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted. Host: Which distinction should listeners keep in mind? Guest: They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable. Host: How can we discuss the issue responsibly? Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
+    "transcript": "People are often told to reduce their carbon footprint. Are personal choices enough? They matter, but they operate inside a larger system. If cities had invested in reliable public transportation years ago, fewer commuters would depend on fossil fuel today. And if clean infrastructure were available everywhere, many households would already be using renewable energy. Does that remove individual responsibility? No. Lower demand can reduce emissions and signal support for change. However, mitigation also requires rules for major producers, while adaptation requires communities to prepare for effects that are already unavoidable. What makes policy effective? A practical incentive can help families choose efficient transport or home energy, but the option must be affordable. If governments had treated climate action only as a personal moral test, they would have ignored structural barriers. Daily decisions are useful when public investment makes better decisions possible.",
     "extra": {
-      "listeningType": "interview",
+      "listeningType": "monologue",
       "difficulty": "B2",
-      "durationSeconds": 85,
+      "durationSeconds": 68,
       "speakers": [
-        "Host",
-        "Guest"
+        "Narrator"
       ],
       "phoneticSupport": {
         "enabled": true,
@@ -15652,42 +16006,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining climate change and everyday decisions."
+                "text": "People are often told to reduce their carbon footprint."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "And if clean infrastructure were available everywhere, many households would already be using renewable energy."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "However, mitigation also requires rules for major producers, while adaptation requires communities to prepare for effects that are already unavoidable."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Daily decisions are useful when public investment makes better decisions possible."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining climate change and everyday decisions.”, what happens next in “Listening Lab: Climate Change and Everyday Decisions”?",
+            "prompt": "After “People are often told to reduce their carbon footprint.”, what happens next in “Listening Lab: Climate Change and Everyday Decisions”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining climate change and everyday decisions."
+                "text": "People are often told to reduce their carbon footprint."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "And if clean infrastructure were available everywhere, many households would already be using renewable energy."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "However, mitigation also requires rules for major producers, while adaptation requires communities to prepare for effects that are already unavoidable."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Daily decisions are useful when public investment makes better decisions possible."
               }
             ]
           },
@@ -15698,47 +16052,119 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining climate change and everyday decisions."
+                "text": "People are often told to reduce their carbon footprint."
               },
               {
                 "id": "o2",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "And if clean infrastructure were available everywhere, many households would already be using renewable energy."
               },
               {
                 "id": "o3",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "However, mitigation also requires rules for major producers, while adaptation requires communities to prepare for effects that are already unavoidable."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Daily decisions are useful when public investment makes better decisions possible."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Climate Change and Everyday Decisions” after “Because the central question is not only what happens, but also which…”?",
+            "prompt": "Which outcome closes “Listening Lab: Climate Change and Everyday Decisions” after “However, mitigation also requires rules for major producers, while…”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining climate change and everyday decisions."
+                "text": "People are often told to reduce their carbon footprint."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "And if clean infrastructure were available everywhere, many households would already be using renewable energy."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "However, mitigation also requires rules for major producers, while adaptation requires communities to prepare for effects that are already unavoidable."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Daily decisions are useful when public investment makes better decisions possible."
               }
             ]
           }
         ]
       },
+      "storyTitle": "Extreme Weather and Everyday Choices",
+      "mainTranscript": "People are often told to reduce their carbon footprint. Are personal choices enough? They matter, but they operate inside a larger system. If cities had invested in reliable public transportation years ago, fewer commuters would depend on fossil fuel today. And if clean infrastructure were available everywhere, many households would already be using renewable energy. Does that remove individual responsibility? No. Lower demand can reduce emissions and signal support for change. However, mitigation also requires rules for major producers, while adaptation requires communities to prepare for effects that are already unavoidable. What makes policy effective? A practical incentive can help families choose efficient transport or home energy, but the option must be affordable. If governments had treated climate action only as a personal moral test, they would have ignored structural barriers. Daily decisions are useful when public investment makes better decisions possible.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "People are often told to reduce their carbon footprint."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Are personal choices enough?"
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "They matter, but they operate inside a larger system."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "If cities had invested in reliable public transportation years ago, fewer commuters would depend on fossil fuel today."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "And if clean infrastructure were available everywhere, many households would already be using renewable energy."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Does that remove individual responsibility?"
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "No."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Lower demand can reduce emissions and signal support for change."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "However, mitigation also requires rules for major producers, while adaptation requires communities to prepare for effects that are already unavoidable."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "What makes policy effective?"
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "A practical incentive can help families choose efficient transport or home energy, but the option must be affordable."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "If governments had treated climate action only as a personal moral test, they would have ignored structural barriers."
+        },
+        {
+          "id": "segment-13",
+          "order": 13,
+          "text": "Daily decisions are useful when public investment makes better decisions possible."
+        }
+      ],
+      "audioLocale": "en-US",
+      "listeningFormat": "practical-explainer",
+      "voiceStyle": "calm-explainer",
       "grammarTest": null
     },
     "exercises": [
@@ -15746,40 +16172,40 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Climate Change and Everyday Decisions”, which detail establishes the situation?",
         "options": [
-          "Host: Today we are examining climate change and everyday decisions.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "People are often told to reduce their carbon footprint.",
+          "And if clean infrastructure were available everywhere, many households would already be using renewable energy.",
+          "However, mitigation also requires rules for major producers, while adaptation requires communities to prepare for effects that are already unavoidable.",
+          "Daily decisions are useful when public investment makes better decisions possible."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining climate change and everyday decisions.”, what happens next in “Listening Lab: Climate Change and Everyday Decisions”?",
+        "prompt": "After “People are often told to reduce their carbon footprint.”, what happens next in “Listening Lab: Climate Change and Everyday Decisions”?",
         "options": [
-          "Host: Today we are examining climate change and everyday decisions.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "People are often told to reduce their carbon footprint.",
+          "And if clean infrastructure were available everywhere, many households would already be using renewable energy.",
+          "However, mitigation also requires rules for major producers, while adaptation requires communities to prepare for effects that are already unavoidable.",
+          "Daily decisions are useful when public investment makes better decisions possible."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Climate Change and Everyday Decisions”?",
         "options": [
-          "Host: Today we are examining climate change and everyday decisions.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "People are often told to reduce their carbon footprint.",
+          "And if clean infrastructure were available everywhere, many households would already be using renewable energy.",
+          "However, mitigation also requires rules for major producers, while adaptation requires communities to prepare for effects that are already unavoidable.",
+          "Daily decisions are useful when public investment makes better decisions possible."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Climate Change and Everyday Decisions” after “Because the central question is not only what happens, but also which…”?",
+        "prompt": "Which outcome closes “Listening Lab: Climate Change and Everyday Decisions” after “However, mitigation also requires rules for major producers, while…”?",
         "options": [
-          "Host: Today we are examining climate change and everyday decisions.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "People are often told to reduce their carbon footprint.",
+          "And if clean infrastructure were available everywhere, many households would already be using renewable energy.",
+          "However, mitigation also requires rules for major producers, while adaptation requires communities to prepare for effects that are already unavoidable.",
+          "Daily decisions are useful when public investment makes better decisions possible."
         ]
       }
     ]
@@ -15808,45 +16234,18 @@
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Host",
-        "line": "Today we are examining gene editing, treatment and access. Why does this issue resist a simple answer?",
-        "translation": "Hoy analizamos gene editing, treatment and access. ¿Por qué este asunto no admite una respuesta sencilla?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-        "translation": "Porque la pregunta central no es solo qué sucede, sino también qué supuestos determinan cómo se interpreta la evidencia."
-      },
-      {
-        "speaker": "Host",
-        "line": "Which distinction should listeners keep in mind?",
-        "translation": "¿Qué distinción deben tener presente los oyentes?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable.",
-        "translation": "Deben distinguir un hallazgo establecido de una inferencia plausible y de un juicio de valor. Esas categorías pueden relacionarse, pero no son intercambiables."
-      },
-      {
-        "speaker": "Host",
-        "line": "How can we discuss the issue responsibly?",
-        "translation": "¿Cómo podemos hablar responsablemente del asunto?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
-        "translation": "Podemos definir los términos, reconocer un contraargumento serio y explicar qué evidencia nos haría revisar la conclusión."
+        "speaker": "Narrator",
+        "line": "Gene editing is beginning to move from laboratory promise to clinical treatment. For some inherited disorders, a patient’s cells can be modified so that the body produces healthier blood or corrects a damaging biological process. The scientific achievement is remarkable, although approval does not automatically create access. Treatment may require specialised hospitals, weeks of preparation, intensive monitoring, and a price beyond the budgets of many health systems. Eligibility criteria can also exclude patients whose condition is advanced or whose location makes follow-up difficult. Supporters reasonably argue that an expensive one-time therapy may prevent decades of suffering and medical cost. Nevertheless, that calculation depends on durability: researchers must continue observing whether the benefit lasts and whether unexpected effects emerge. Equity requires more than asking manufacturers to lower a headline price. It involves diagnostic access, trained staff, regional treatment centres, transparent clinical trials, and technology transfer that enables more countries to participate in production. Gene editing illustrates a recurring dilemma in medicine. A cure can exist scientifically while remaining absent from most people’s lives. The breakthrough will be fully realised only when health systems can identify eligible patients, explain uncertainty honestly, and distribute the benefits without allowing birthplace or income to determine who gets a chance at recovery."
       }
     ],
     "reading": null,
-    "transcript": "Host: Today we are examining gene editing, treatment and access. Why does this issue resist a simple answer? Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted. Host: Which distinction should listeners keep in mind? Guest: They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable. Host: How can we discuss the issue responsibly? Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
+    "transcript": "Gene editing is beginning to move from laboratory promise to clinical treatment. For some inherited disorders, a patient’s cells can be modified so that the body produces healthier blood or corrects a damaging biological process. The scientific achievement is remarkable, although approval does not automatically create access. Treatment may require specialised hospitals, weeks of preparation, intensive monitoring, and a price beyond the budgets of many health systems. Eligibility criteria can also exclude patients whose condition is advanced or whose location makes follow-up difficult. Supporters reasonably argue that an expensive one-time therapy may prevent decades of suffering and medical cost. Nevertheless, that calculation depends on durability: researchers must continue observing whether the benefit lasts and whether unexpected effects emerge. Equity requires more than asking manufacturers to lower a headline price. It involves diagnostic access, trained staff, regional treatment centres, transparent clinical trials, and technology transfer that enables more countries to participate in production. Gene editing illustrates a recurring dilemma in medicine. A cure can exist scientifically while remaining absent from most people’s lives. The breakthrough will be fully realised only when health systems can identify eligible patients, explain uncertainty honestly, and distribute the benefits without allowing birthplace or income to determine who gets a chance at recovery.",
     "extra": {
-      "listeningType": "interview",
+      "listeningType": "monologue",
       "difficulty": "C1",
-      "durationSeconds": 105,
+      "durationSeconds": 99,
       "speakers": [
-        "Host",
-        "Guest"
+        "Narrator"
       ],
       "phoneticSupport": {
         "enabled": true,
@@ -15873,42 +16272,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining gene editing, treatment and access."
+                "text": "Gene editing is beginning to move from laboratory promise to clinical treatment."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Eligibility criteria can also exclude patients whose condition is advanced or whose location makes follow-up difficult."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Equity requires more than asking manufacturers to lower a headline price."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "The breakthrough will be fully realised only when health systems can identify eligible patients, explain uncertainty honestly, and distribute the benefits without allowing birthplace or income to determine who gets a chance at recovery."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining gene editing, treatment and access.”, what happens next in “Listening Lab: Gene Editing, Treatment and Access”?",
+            "prompt": "After “Gene editing is beginning to move from laboratory promise to clinical…”, what happens next in “Listening Lab: Gene Editing, Treatment and Access”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining gene editing, treatment and access."
+                "text": "Gene editing is beginning to move from laboratory promise to clinical treatment."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Eligibility criteria can also exclude patients whose condition is advanced or whose location makes follow-up difficult."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Equity requires more than asking manufacturers to lower a headline price."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "The breakthrough will be fully realised only when health systems can identify eligible patients, explain uncertainty honestly, and distribute the benefits without allowing birthplace or income to determine who gets a chance at recovery."
               }
             ]
           },
@@ -15919,47 +16318,114 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining gene editing, treatment and access."
+                "text": "Gene editing is beginning to move from laboratory promise to clinical treatment."
               },
               {
                 "id": "o2",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Eligibility criteria can also exclude patients whose condition is advanced or whose location makes follow-up difficult."
               },
               {
                 "id": "o3",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Equity requires more than asking manufacturers to lower a headline price."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "The breakthrough will be fully realised only when health systems can identify eligible patients, explain uncertainty honestly, and distribute the benefits without allowing birthplace or income to determine who gets a chance at recovery."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Gene Editing, Treatment and Access” after “Because the central question is not only what happens, but also which…”?",
+            "prompt": "Which outcome closes “Listening Lab: Gene Editing, Treatment and Access” after “Equity requires more than asking manufacturers to lower a headline…”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining gene editing, treatment and access."
+                "text": "Gene editing is beginning to move from laboratory promise to clinical treatment."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Eligibility criteria can also exclude patients whose condition is advanced or whose location makes follow-up difficult."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Equity requires more than asking manufacturers to lower a headline price."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "The breakthrough will be fully realised only when health systems can identify eligible patients, explain uncertainty honestly, and distribute the benefits without allowing birthplace or income to determine who gets a chance at recovery."
               }
             ]
           }
         ]
       },
+      "storyTitle": "Gene Editing: Who Gets the Cure?",
+      "mainTranscript": "Gene editing is beginning to move from laboratory promise to clinical treatment. For some inherited disorders, a patient’s cells can be modified so that the body produces healthier blood or corrects a damaging biological process. The scientific achievement is remarkable, although approval does not automatically create access. Treatment may require specialised hospitals, weeks of preparation, intensive monitoring, and a price beyond the budgets of many health systems. Eligibility criteria can also exclude patients whose condition is advanced or whose location makes follow-up difficult. Supporters reasonably argue that an expensive one-time therapy may prevent decades of suffering and medical cost. Nevertheless, that calculation depends on durability: researchers must continue observing whether the benefit lasts and whether unexpected effects emerge. Equity requires more than asking manufacturers to lower a headline price. It involves diagnostic access, trained staff, regional treatment centres, transparent clinical trials, and technology transfer that enables more countries to participate in production. Gene editing illustrates a recurring dilemma in medicine. A cure can exist scientifically while remaining absent from most people’s lives. The breakthrough will be fully realised only when health systems can identify eligible patients, explain uncertainty honestly, and distribute the benefits without allowing birthplace or income to determine who gets a chance at recovery.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Gene editing is beginning to move from laboratory promise to clinical treatment."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "For some inherited disorders, a patient’s cells can be modified so that the body produces healthier blood or corrects a damaging biological process."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "The scientific achievement is remarkable, although approval does not automatically create access."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "Treatment may require specialised hospitals, weeks of preparation, intensive monitoring, and a price beyond the budgets of many health systems."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Eligibility criteria can also exclude patients whose condition is advanced or whose location makes follow-up difficult."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Supporters reasonably argue that an expensive one-time therapy may prevent decades of suffering and medical cost."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Nevertheless, that calculation depends on durability: researchers must continue observing whether the benefit lasts and whether unexpected effects emerge."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Equity requires more than asking manufacturers to lower a headline price."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "It involves diagnostic access, trained staff, regional treatment centres, transparent clinical trials, and technology transfer that enables more countries to participate in production."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Gene editing illustrates a recurring dilemma in medicine."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "A cure can exist scientifically while remaining absent from most people’s lives."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "The breakthrough will be fully realised only when health systems can identify eligible patients, explain uncertainty honestly, and distribute the benefits without allowing birthplace or income to determine who gets a chance at recovery."
+        }
+      ],
+      "listeningFormat": "feature-article",
+      "voiceStyle": "medical-documentary",
+      "audioLocale": "en-US",
       "grammarTest": null
     },
     "exercises": [
@@ -15967,40 +16433,40 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Gene Editing, Treatment and Access”, which detail establishes the situation?",
         "options": [
-          "Host: Today we are examining gene editing, treatment and access.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Gene editing is beginning to move from laboratory promise to clinical treatment.",
+          "Eligibility criteria can also exclude patients whose condition is advanced or whose location makes follow-up difficult.",
+          "Equity requires more than asking manufacturers to lower a headline price.",
+          "The breakthrough will be fully realised only when health systems can identify eligible patients, explain uncertainty honestly, and distribute the benefits without allowing birthplace or income to determine who gets a chance at recovery."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining gene editing, treatment and access.”, what happens next in “Listening Lab: Gene Editing, Treatment and Access”?",
+        "prompt": "After “Gene editing is beginning to move from laboratory promise to clinical…”, what happens next in “Listening Lab: Gene Editing, Treatment and Access”?",
         "options": [
-          "Host: Today we are examining gene editing, treatment and access.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Gene editing is beginning to move from laboratory promise to clinical treatment.",
+          "Eligibility criteria can also exclude patients whose condition is advanced or whose location makes follow-up difficult.",
+          "Equity requires more than asking manufacturers to lower a headline price.",
+          "The breakthrough will be fully realised only when health systems can identify eligible patients, explain uncertainty honestly, and distribute the benefits without allowing birthplace or income to determine who gets a chance at recovery."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Gene Editing, Treatment and Access”?",
         "options": [
-          "Host: Today we are examining gene editing, treatment and access.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Gene editing is beginning to move from laboratory promise to clinical treatment.",
+          "Eligibility criteria can also exclude patients whose condition is advanced or whose location makes follow-up difficult.",
+          "Equity requires more than asking manufacturers to lower a headline price.",
+          "The breakthrough will be fully realised only when health systems can identify eligible patients, explain uncertainty honestly, and distribute the benefits without allowing birthplace or income to determine who gets a chance at recovery."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Gene Editing, Treatment and Access” after “Because the central question is not only what happens, but also which…”?",
+        "prompt": "Which outcome closes “Listening Lab: Gene Editing, Treatment and Access” after “Equity requires more than asking manufacturers to lower a headline…”?",
         "options": [
-          "Host: Today we are examining gene editing, treatment and access.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Gene editing is beginning to move from laboratory promise to clinical treatment.",
+          "Eligibility criteria can also exclude patients whose condition is advanced or whose location makes follow-up difficult.",
+          "Equity requires more than asking manufacturers to lower a headline price.",
+          "The breakthrough will be fully realised only when health systems can identify eligible patients, explain uncertainty honestly, and distribute the benefits without allowing birthplace or income to determine who gets a chance at recovery."
         ]
       }
     ]
@@ -16029,45 +16495,18 @@
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Host",
-        "line": "Today we are examining sleep, memory and vocabulary consolidation. Why does this issue resist a simple answer?",
-        "translation": "Hoy analizamos sleep, memory and vocabulary consolidation. ¿Por qué este asunto no admite una respuesta sencilla?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-        "translation": "Porque la pregunta central no es solo qué sucede, sino también qué supuestos determinan cómo se interpreta la evidencia."
-      },
-      {
-        "speaker": "Host",
-        "line": "Which distinction should listeners keep in mind?",
-        "translation": "¿Qué distinción deben tener presente los oyentes?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable.",
-        "translation": "Deben distinguir un hallazgo establecido de una inferencia plausible y de un juicio de valor. Esas categorías pueden relacionarse, pero no son intercambiables."
-      },
-      {
-        "speaker": "Host",
-        "line": "How can we discuss the issue responsibly?",
-        "translation": "¿Cómo podemos hablar responsablemente del asunto?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
-        "translation": "Podemos definir los términos, reconocer un contraargumento serio y explicar qué evidencia nos haría revisar la conclusión."
+        "speaker": "Narrator",
+        "line": "Learning does not end when a study session finishes. After new vocabulary has been encoded, memory continues changing through offline processing, and sleep appears to support that consolidation. By the following morning, a recently learned word may be recalled more reliably or integrated more easily with existing lexical knowledge. Researchers distinguish stages of sleep because they may contribute differently. Slow-wave sleep has been associated with stabilising declarative memories, while rapid eye movement sleep may support integration and abstraction. These relationships are not mechanical recipes. Sleeping immediately after a lesson does not guarantee mastery, and poor performance cannot always be blamed on one short night. What has been established is that chronic sleep restriction undermines attention during encoding and reduces the conditions under which consolidation can occur. Timing also matters. Material reviewed across several days has had repeated opportunities to be reactivated, whereas an all-night study session compresses exposure while sacrificing rest. Had learners encountered the same words earlier and retrieved them repeatedly, they would have entered the examination with stronger traces. Vocabulary learning is particularly revealing because lexical integration requires more than remembering a translation; a word must become connected to sound, meaning, grammar, and neighbouring words. Sleep participates in that process, but it cannot replace meaningful use. The sensible implication is not a fashionable “sleep hack.” It is a learning schedule in which focused study, retrieval, and adequate rest operate as parts of the same biological system."
       }
     ],
     "reading": null,
-    "transcript": "Host: Today we are examining sleep, memory and vocabulary consolidation. Why does this issue resist a simple answer? Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted. Host: Which distinction should listeners keep in mind? Guest: They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable. Host: How can we discuss the issue responsibly? Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
+    "transcript": "Learning does not end when a study session finishes. After new vocabulary has been encoded, memory continues changing through offline processing, and sleep appears to support that consolidation. By the following morning, a recently learned word may be recalled more reliably or integrated more easily with existing lexical knowledge. Researchers distinguish stages of sleep because they may contribute differently. Slow-wave sleep has been associated with stabilising declarative memories, while rapid eye movement sleep may support integration and abstraction. These relationships are not mechanical recipes. Sleeping immediately after a lesson does not guarantee mastery, and poor performance cannot always be blamed on one short night. What has been established is that chronic sleep restriction undermines attention during encoding and reduces the conditions under which consolidation can occur. Timing also matters. Material reviewed across several days has had repeated opportunities to be reactivated, whereas an all-night study session compresses exposure while sacrificing rest. Had learners encountered the same words earlier and retrieved them repeatedly, they would have entered the examination with stronger traces. Vocabulary learning is particularly revealing because lexical integration requires more than remembering a translation; a word must become connected to sound, meaning, grammar, and neighbouring words. Sleep participates in that process, but it cannot replace meaningful use. The sensible implication is not a fashionable “sleep hack.” It is a learning schedule in which focused study, retrieval, and adequate rest operate as parts of the same biological system.",
     "extra": {
-      "listeningType": "interview",
+      "listeningType": "monologue",
       "difficulty": "C2",
-      "durationSeconds": 125,
+      "durationSeconds": 124,
       "speakers": [
-        "Host",
-        "Guest"
+        "Narrator"
       ],
       "phoneticSupport": {
         "enabled": true,
@@ -16094,42 +16533,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining sleep, memory and vocabulary consolidation."
+                "text": "Learning does not end when a study session finishes."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "These relationships are not mechanical recipes."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Had learners encountered the same words earlier and retrieved them repeatedly, they would have entered the examination with stronger traces."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "It is a learning schedule in which focused study, retrieval, and adequate rest operate as parts of the same biological system."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining sleep, memory and vocabulary consolidation.”, what happens next in “Listening Lab: Sleep, Memory and Vocabulary Consolidation”?",
+            "prompt": "After “Learning does not end when a study session finishes.”, what happens next in “Listening Lab: Sleep, Memory and Vocabulary Consolidation”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining sleep, memory and vocabulary consolidation."
+                "text": "Learning does not end when a study session finishes."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "These relationships are not mechanical recipes."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Had learners encountered the same words earlier and retrieved them repeatedly, they would have entered the examination with stronger traces."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "It is a learning schedule in which focused study, retrieval, and adequate rest operate as parts of the same biological system."
               }
             ]
           },
@@ -16140,47 +16579,124 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining sleep, memory and vocabulary consolidation."
+                "text": "Learning does not end when a study session finishes."
               },
               {
                 "id": "o2",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "These relationships are not mechanical recipes."
               },
               {
                 "id": "o3",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Researchers distinguish stages of sleep because they may contribute differently."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Had learners encountered the same words earlier and retrieved them repeatedly, they would have entered the examination with stronger traces."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Sleep, Memory and Vocabulary Consolidation” after “Because the central question is not only what happens, but also which…”?",
+            "prompt": "Which outcome closes “Listening Lab: Sleep, Memory and Vocabulary Consolidation” after “Researchers distinguish stages of sleep because they may contribute…”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining sleep, memory and vocabulary consolidation."
+                "text": "Learning does not end when a study session finishes."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "These relationships are not mechanical recipes."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Had learners encountered the same words earlier and retrieved them repeatedly, they would have entered the examination with stronger traces."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "It is a learning schedule in which focused study, retrieval, and adequate rest operate as parts of the same biological system."
               }
             ]
           }
         ]
       },
+      "storyTitle": "The Sleeping Brain and the Words It Keeps",
+      "mainTranscript": "Learning does not end when a study session finishes. After new vocabulary has been encoded, memory continues changing through offline processing, and sleep appears to support that consolidation. By the following morning, a recently learned word may be recalled more reliably or integrated more easily with existing lexical knowledge. Researchers distinguish stages of sleep because they may contribute differently. Slow-wave sleep has been associated with stabilising declarative memories, while rapid eye movement sleep may support integration and abstraction. These relationships are not mechanical recipes. Sleeping immediately after a lesson does not guarantee mastery, and poor performance cannot always be blamed on one short night. What has been established is that chronic sleep restriction undermines attention during encoding and reduces the conditions under which consolidation can occur. Timing also matters. Material reviewed across several days has had repeated opportunities to be reactivated, whereas an all-night study session compresses exposure while sacrificing rest. Had learners encountered the same words earlier and retrieved them repeatedly, they would have entered the examination with stronger traces. Vocabulary learning is particularly revealing because lexical integration requires more than remembering a translation; a word must become connected to sound, meaning, grammar, and neighbouring words. Sleep participates in that process, but it cannot replace meaningful use. The sensible implication is not a fashionable “sleep hack.” It is a learning schedule in which focused study, retrieval, and adequate rest operate as parts of the same biological system.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Learning does not end when a study session finishes."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "After new vocabulary has been encoded, memory continues changing through offline processing, and sleep appears to support that consolidation."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "By the following morning, a recently learned word may be recalled more reliably or integrated more easily with existing lexical knowledge."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "Researchers distinguish stages of sleep because they may contribute differently."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Slow-wave sleep has been associated with stabilising declarative memories, while rapid eye movement sleep may support integration and abstraction."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "These relationships are not mechanical recipes."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Sleeping immediately after a lesson does not guarantee mastery, and poor performance cannot always be blamed on one short night."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "What has been established is that chronic sleep restriction undermines attention during encoding and reduces the conditions under which consolidation can occur."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Timing also matters."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Material reviewed across several days has had repeated opportunities to be reactivated, whereas an all-night study session compresses exposure while sacrificing rest."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Had learners encountered the same words earlier and retrieved them repeatedly, they would have entered the examination with stronger traces."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "Vocabulary learning is particularly revealing because lexical integration requires more than remembering a translation; a word must become connected to sound, meaning, grammar, and neighbouring words."
+        },
+        {
+          "id": "segment-13",
+          "order": 13,
+          "text": "Sleep participates in that process, but it cannot replace meaningful use."
+        },
+        {
+          "id": "segment-14",
+          "order": 14,
+          "text": "The sensible implication is not a fashionable “sleep hack.” It is a learning schedule in which focused study, retrieval, and adequate rest operate as parts of the same biological system."
+        }
+      ],
+      "listeningFormat": "science-narrative",
+      "voiceStyle": "warm-science",
+      "audioLocale": "en-US",
       "grammarTest": null
     },
     "exercises": [
@@ -16188,40 +16704,40 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Sleep, Memory and Vocabulary Consolidation”, which detail establishes the situation?",
         "options": [
-          "Host: Today we are examining sleep, memory and vocabulary consolidation.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Learning does not end when a study session finishes.",
+          "These relationships are not mechanical recipes.",
+          "Had learners encountered the same words earlier and retrieved them repeatedly, they would have entered the examination with stronger traces.",
+          "It is a learning schedule in which focused study, retrieval, and adequate rest operate as parts of the same biological system."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining sleep, memory and vocabulary consolidation.”, what happens next in “Listening Lab: Sleep, Memory and Vocabulary Consolidation”?",
+        "prompt": "After “Learning does not end when a study session finishes.”, what happens next in “Listening Lab: Sleep, Memory and Vocabulary Consolidation”?",
         "options": [
-          "Host: Today we are examining sleep, memory and vocabulary consolidation.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Learning does not end when a study session finishes.",
+          "These relationships are not mechanical recipes.",
+          "Had learners encountered the same words earlier and retrieved them repeatedly, they would have entered the examination with stronger traces.",
+          "It is a learning schedule in which focused study, retrieval, and adequate rest operate as parts of the same biological system."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Sleep, Memory and Vocabulary Consolidation”?",
         "options": [
-          "Host: Today we are examining sleep, memory and vocabulary consolidation.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Learning does not end when a study session finishes.",
+          "These relationships are not mechanical recipes.",
+          "Researchers distinguish stages of sleep because they may contribute differently.",
+          "Had learners encountered the same words earlier and retrieved them repeatedly, they would have entered the examination with stronger traces."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Sleep, Memory and Vocabulary Consolidation” after “Because the central question is not only what happens, but also which…”?",
+        "prompt": "Which outcome closes “Listening Lab: Sleep, Memory and Vocabulary Consolidation” after “Researchers distinguish stages of sleep because they may contribute…”?",
         "options": [
-          "Host: Today we are examining sleep, memory and vocabulary consolidation.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Learning does not end when a study session finishes.",
+          "These relationships are not mechanical recipes.",
+          "Had learners encountered the same words earlier and retrieved them repeatedly, they would have entered the examination with stronger traces.",
+          "It is a learning schedule in which focused study, retrieval, and adequate rest operate as parts of the same biological system."
         ]
       }
     ]
@@ -22160,28 +22676,58 @@
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "Narrator",
+        "line": "Travel presenter Noah Reed was waiting to board a flight when the airline announced a cancellation. While other passengers were forming a long line, he was checking the airline’s app and looking for another route. A family nearby did not understand the announcement, so Noah helped them find the customer-service desk. As he was comparing options, he discovered that a train could reach the destination that evening. He kept track of receipts because the airline might refund meals and transportation. Before leaving the airport, he confirmed the baggage arrangements and downloaded the new tickets. The disruption was stressful, but a clear checklist made it easier to manage. Noah recommends checking passenger rights, asking specific questions, and keeping important documents together whenever a journey changes unexpectedly."
+      }
+    ],
     "reading": null,
-    "transcript": "",
+    "transcript": "Travel presenter Noah Reed was waiting to board a flight when the airline announced a cancellation. While other passengers were forming a long line, he was checking the airline’s app and looking for another route. A family nearby did not understand the announcement, so Noah helped them find the customer-service desk. As he was comparing options, he discovered that a train could reach the destination that evening. He kept track of receipts because the airline might refund meals and transportation. Before leaving the airport, he confirmed the baggage arrangements and downloaded the new tickets. The disruption was stressful, but a clear checklist made it easier to manage. Noah recommends checking passenger rights, asking specific questions, and keeping important documents together whenever a journey changes unexpectedly.",
     "extra": {
-      "listeningType": "story",
-      "storyTitle": "Changing the Plan",
-      "mainTranscript": "Daniel tells Sarah that the train is delayed and suggests changing the morning plan. Sarah is frustrated because she wanted to arrive early, but Daniel points out that they can still visit the main museum in the afternoon. They decide to have breakfast, check the new arrival time and choose one activity to remove from the itinerary.",
+      "listeningType": "monologue",
+      "storyTitle": "What to Do When Your Flight Is Canceled",
+      "mainTranscript": "Travel presenter Noah Reed was waiting to board a flight when the airline announced a cancellation. While other passengers were forming a long line, he was checking the airline’s app and looking for another route. A family nearby did not understand the announcement, so Noah helped them find the customer-service desk. As he was comparing options, he discovered that a train could reach the destination that evening. He kept track of receipts because the airline might refund meals and transportation. Before leaving the airport, he confirmed the baggage arrangements and downloaded the new tickets. The disruption was stressful, but a clear checklist made it easier to manage. Noah recommends checking passenger rights, asking specific questions, and keeping important documents together whenever a journey changes unexpectedly.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Daniel tells Sarah that the train is delayed and suggests changing the morning plan."
+          "text": "Travel presenter Noah Reed was waiting to board a flight when the airline announced a cancellation."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "Sarah is frustrated because she wanted to arrive early, but Daniel points out that they can still visit the main museum in the afternoon."
+          "text": "While other passengers were forming a long line, he was checking the airline’s app and looking for another route."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "They decide to have breakfast, check the new arrival time and choose one activity to remove from the itinerary."
+          "text": "A family nearby did not understand the announcement, so Noah helped them find the customer-service desk."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "As he was comparing options, he discovered that a train could reach the destination that evening."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "He kept track of receipts because the airline might refund meals and transportation."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Before leaving the airport, he confirmed the baggage arrangements and downloaded the new tickets."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "The disruption was stressful, but a clear checklist made it easier to manage."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Noah recommends checking passenger rights, asking specific questions, and keeping important documents together whenever a journey changes unexpectedly."
         }
       ],
       "listeningComprehension": {
@@ -22195,42 +22741,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Daniel tells Sarah that the train is delayed"
+                "text": "Travel presenter Noah Reed was waiting to board a flight when the airline announced a cancellation."
               },
               {
                 "id": "o2",
-                "text": "Sarah is frustrated because she wanted to arrive early"
+                "text": "A family nearby did not understand the announcement, so Noah helped them find the customer-service desk."
               },
               {
                 "id": "o3",
-                "text": "Daniel points out that they can still visit the main museum in the afternoon."
+                "text": "Before leaving the airport, he confirmed the baggage arrangements and downloaded the new tickets."
               },
               {
                 "id": "o4",
-                "text": "choose one activity to remove from the itinerary."
+                "text": "Noah recommends checking passenger rights, asking specific questions, and keeping important documents together whenever a journey changes unexpectedly."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Daniel tells Sarah that the train is delayed”, what happens next in “Changing the Plan”?",
+            "prompt": "After “Travel presenter Noah Reed was waiting to board a flight when the…”, what happens next in “Changing the Plan”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Daniel tells Sarah that the train is delayed"
+                "text": "Travel presenter Noah Reed was waiting to board a flight when the airline announced a cancellation."
               },
               {
                 "id": "o2",
-                "text": "Sarah is frustrated because she wanted to arrive early"
+                "text": "A family nearby did not understand the announcement, so Noah helped them find the customer-service desk."
               },
               {
                 "id": "o3",
-                "text": "Daniel points out that they can still visit the main museum in the afternoon."
+                "text": "Before leaving the airport, he confirmed the baggage arrangements and downloaded the new tickets."
               },
               {
                 "id": "o4",
-                "text": "choose one activity to remove from the itinerary."
+                "text": "Noah recommends checking passenger rights, asking specific questions, and keeping important documents together whenever a journey changes unexpectedly."
               }
             ]
           },
@@ -22241,47 +22787,54 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Daniel tells Sarah that the train is delayed"
+                "text": "Travel presenter Noah Reed was waiting to board a flight when the airline announced a cancellation."
               },
               {
                 "id": "o2",
-                "text": "Sarah is frustrated because she wanted to arrive early"
+                "text": "A family nearby did not understand the announcement, so Noah helped them find the customer-service desk."
               },
               {
                 "id": "o3",
-                "text": "suggests changing the morning plan."
+                "text": "He kept track of receipts because the airline might refund meals and transportation."
               },
               {
                 "id": "o4",
-                "text": "Daniel points out that they can still visit the main museum in the afternoon."
+                "text": "Before leaving the airport, he confirmed the baggage arrangements and downloaded the new tickets."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Changing the Plan” after “suggests changing the morning plan.”?",
+            "prompt": "Which outcome closes “Changing the Plan” after “He kept track of receipts because the airline might refund meals and…”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Daniel tells Sarah that the train is delayed"
+                "text": "Travel presenter Noah Reed was waiting to board a flight when the airline announced a cancellation."
               },
               {
                 "id": "o2",
-                "text": "Sarah is frustrated because she wanted to arrive early"
+                "text": "A family nearby did not understand the announcement, so Noah helped them find the customer-service desk."
               },
               {
                 "id": "o3",
-                "text": "Daniel points out that they can still visit the main museum in the afternoon."
+                "text": "Before leaving the airport, he confirmed the baggage arrangements and downloaded the new tickets."
               },
               {
                 "id": "o4",
-                "text": "choose one activity to remove from the itinerary."
+                "text": "Noah recommends checking passenger rights, asking specific questions, and keeping important documents together whenever a journey changes unexpectedly."
               }
             ]
           }
         ]
       },
+      "speakers": [
+        "Narrator"
+      ],
+      "durationSeconds": 56,
+      "audioLocale": "en-US",
+      "listeningFormat": "travel-guide",
+      "voiceStyle": "calm-instructional",
       "grammarTest": null
     },
     "exercises": [
@@ -22289,40 +22842,40 @@
         "type": "mcq",
         "prompt": "In “Changing the Plan”, which detail establishes the situation?",
         "options": [
-          "Daniel tells Sarah that the train is delayed",
-          "Sarah is frustrated because she wanted to arrive early",
-          "Daniel points out that they can still visit the main museum in the afternoon.",
-          "choose one activity to remove from the itinerary."
+          "Travel presenter Noah Reed was waiting to board a flight when the airline announced a cancellation.",
+          "A family nearby did not understand the announcement, so Noah helped them find the customer-service desk.",
+          "Before leaving the airport, he confirmed the baggage arrangements and downloaded the new tickets.",
+          "Noah recommends checking passenger rights, asking specific questions, and keeping important documents together whenever a journey changes unexpectedly."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Daniel tells Sarah that the train is delayed”, what happens next in “Changing the Plan”?",
+        "prompt": "After “Travel presenter Noah Reed was waiting to board a flight when the…”, what happens next in “Changing the Plan”?",
         "options": [
-          "Daniel tells Sarah that the train is delayed",
-          "Sarah is frustrated because she wanted to arrive early",
-          "Daniel points out that they can still visit the main museum in the afternoon.",
-          "choose one activity to remove from the itinerary."
+          "Travel presenter Noah Reed was waiting to board a flight when the airline announced a cancellation.",
+          "A family nearby did not understand the announcement, so Noah helped them find the customer-service desk.",
+          "Before leaving the airport, he confirmed the baggage arrangements and downloaded the new tickets.",
+          "Noah recommends checking passenger rights, asking specific questions, and keeping important documents together whenever a journey changes unexpectedly."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Changing the Plan”?",
         "options": [
-          "Daniel tells Sarah that the train is delayed",
-          "Sarah is frustrated because she wanted to arrive early",
-          "suggests changing the morning plan.",
-          "Daniel points out that they can still visit the main museum in the afternoon."
+          "Travel presenter Noah Reed was waiting to board a flight when the airline announced a cancellation.",
+          "A family nearby did not understand the announcement, so Noah helped them find the customer-service desk.",
+          "He kept track of receipts because the airline might refund meals and transportation.",
+          "Before leaving the airport, he confirmed the baggage arrangements and downloaded the new tickets."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Changing the Plan” after “suggests changing the morning plan.”?",
+        "prompt": "Which outcome closes “Changing the Plan” after “He kept track of receipts because the airline might refund meals and…”?",
         "options": [
-          "Daniel tells Sarah that the train is delayed",
-          "Sarah is frustrated because she wanted to arrive early",
-          "Daniel points out that they can still visit the main museum in the afternoon.",
-          "choose one activity to remove from the itinerary."
+          "Travel presenter Noah Reed was waiting to board a flight when the airline announced a cancellation.",
+          "A family nearby did not understand the announcement, so Noah helped them find the customer-service desk.",
+          "Before leaving the airport, he confirmed the baggage arrangements and downloaded the new tickets.",
+          "Noah recommends checking passenger rights, asking specific questions, and keeping important documents together whenever a journey changes unexpectedly."
         ]
       }
     ]
@@ -22627,45 +23180,18 @@
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Host",
-        "line": "Today we are examining corruption and public trust in latin america and the caribbean. Why does this issue resist a simple answer?",
-        "translation": "Hoy analizamos corruption and public trust in latin america and the caribbean. ¿Por qué este asunto no admite una respuesta sencilla?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-        "translation": "Porque la pregunta central no es solo qué sucede, sino también qué supuestos determinan cómo se interpreta la evidencia."
-      },
-      {
-        "speaker": "Host",
-        "line": "Which distinction should listeners keep in mind?",
-        "translation": "¿Qué distinción deben tener presente los oyentes?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable.",
-        "translation": "Deben distinguir un hallazgo establecido de una inferencia plausible y de un juicio de valor. Esas categorías pueden relacionarse, pero no son intercambiables."
-      },
-      {
-        "speaker": "Host",
-        "line": "How can we discuss the issue responsibly?",
-        "translation": "¿Cómo podemos hablar responsablemente del asunto?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
-        "translation": "Podemos definir los términos, reconocer un contraargumento serio y explicar qué evidencia nos haría revisar la conclusión."
+        "speaker": "Narrator",
+        "line": "A public procurement contract doubled in price, although several repairs were never completed. What might have happened? Officials may have acted too quickly after the hurricane, but the missing records suggest more than simple confusion. The company could have received special treatment, and a conflict of interest might have influenced the decision. Some residents immediately alleged bribery. Is that conclusion justified? Not yet. Money may have been exchanged, but investigators need evidence. A whistleblower reported that competing bids had disappeared, which should have triggered stronger civic oversight. The documents might also have been removed later to protect someone. Why does this affect public trust? Without accountability, people assume that clientelism and impunity are normal. Even an honest emergency decision can look corrupt when nobody explains it. Transparent records would allow residents to distinguish poor management from deliberate wrongdoing and would make future contracts easier to examine."
       }
     ],
     "reading": null,
-    "transcript": "Host: Today we are examining corruption and public trust in latin america and the caribbean. Why does this issue resist a simple answer? Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted. Host: Which distinction should listeners keep in mind? Guest: They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable. Host: How can we discuss the issue responsibly? Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
+    "transcript": "A public procurement contract doubled in price, although several repairs were never completed. What might have happened? Officials may have acted too quickly after the hurricane, but the missing records suggest more than simple confusion. The company could have received special treatment, and a conflict of interest might have influenced the decision. Some residents immediately alleged bribery. Is that conclusion justified? Not yet. Money may have been exchanged, but investigators need evidence. A whistleblower reported that competing bids had disappeared, which should have triggered stronger civic oversight. The documents might also have been removed later to protect someone. Why does this affect public trust? Without accountability, people assume that clientelism and impunity are normal. Even an honest emergency decision can look corrupt when nobody explains it. Transparent records would allow residents to distinguish poor management from deliberate wrongdoing and would make future contracts easier to examine.",
     "extra": {
-      "listeningType": "interview",
+      "listeningType": "monologue",
       "difficulty": "B2",
-      "durationSeconds": 85,
+      "durationSeconds": 70,
       "speakers": [
-        "Host",
-        "Guest"
+        "Narrator"
       ],
       "phoneticSupport": {
         "enabled": true,
@@ -22692,42 +23218,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining corruption and public trust in latin america and the caribbean."
+                "text": "A public procurement contract doubled in price, although several repairs were never completed."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Some residents immediately alleged bribery."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "The documents might also have been removed later to protect someone."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Transparent records would allow residents to distinguish poor management from deliberate wrongdoing and would make future contracts easier to examine."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining corruption and public trust in latin america…”, what happens next in “Listening Lab: Corruption and Public Trust in Latin America and the Caribbean”?",
+            "prompt": "After “A public procurement contract doubled in price, although several…”, what happens next in “Listening Lab: Corruption and Public Trust in Latin America and the Caribbean”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining corruption and public trust in latin america and the caribbean."
+                "text": "A public procurement contract doubled in price, although several repairs were never completed."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Some residents immediately alleged bribery."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "The documents might also have been removed later to protect someone."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Transparent records would allow residents to distinguish poor management from deliberate wrongdoing and would make future contracts easier to examine."
               }
             ]
           },
@@ -22738,47 +23264,124 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining corruption and public trust in latin america and the caribbean."
+                "text": "A public procurement contract doubled in price, although several repairs were never completed."
               },
               {
                 "id": "o2",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Some residents immediately alleged bribery."
               },
               {
                 "id": "o3",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Officials may have acted too quickly after the hurricane, but the missing records suggest more than simple confusion."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "The documents might also have been removed later to protect someone."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Corruption and Public Trust in Latin America and the Caribbean” after “Because the central question is not only what happens, but also which…”?",
+            "prompt": "Which outcome closes “Listening Lab: Corruption and Public Trust in Latin America and the Caribbean” after “Officials may have acted too quickly after the hurricane, but the…”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining corruption and public trust in latin america and the caribbean."
+                "text": "A public procurement contract doubled in price, although several repairs were never completed."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Some residents immediately alleged bribery."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "The documents might also have been removed later to protect someone."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Transparent records would allow residents to distinguish poor management from deliberate wrongdoing and would make future contracts easier to examine."
               }
             ]
           }
         ]
       },
+      "storyTitle": "Why Public Contracts Need Transparency",
+      "mainTranscript": "A public procurement contract doubled in price, although several repairs were never completed. What might have happened? Officials may have acted too quickly after the hurricane, but the missing records suggest more than simple confusion. The company could have received special treatment, and a conflict of interest might have influenced the decision. Some residents immediately alleged bribery. Is that conclusion justified? Not yet. Money may have been exchanged, but investigators need evidence. A whistleblower reported that competing bids had disappeared, which should have triggered stronger civic oversight. The documents might also have been removed later to protect someone. Why does this affect public trust? Without accountability, people assume that clientelism and impunity are normal. Even an honest emergency decision can look corrupt when nobody explains it. Transparent records would allow residents to distinguish poor management from deliberate wrongdoing and would make future contracts easier to examine.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "A public procurement contract doubled in price, although several repairs were never completed."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "What might have happened?"
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Officials may have acted too quickly after the hurricane, but the missing records suggest more than simple confusion."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "The company could have received special treatment, and a conflict of interest might have influenced the decision."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Some residents immediately alleged bribery."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Is that conclusion justified?"
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Not yet."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Money may have been exchanged, but investigators need evidence."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "A whistleblower reported that competing bids had disappeared, which should have triggered stronger civic oversight."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "The documents might also have been removed later to protect someone."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Why does this affect public trust?"
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "Without accountability, people assume that clientelism and impunity are normal."
+        },
+        {
+          "id": "segment-13",
+          "order": 13,
+          "text": "Even an honest emergency decision can look corrupt when nobody explains it."
+        },
+        {
+          "id": "segment-14",
+          "order": 14,
+          "text": "Transparent records would allow residents to distinguish poor management from deliberate wrongdoing and would make future contracts easier to examine."
+        }
+      ],
+      "audioLocale": "en-US",
+      "listeningFormat": "investigative-report",
+      "voiceStyle": "serious-news",
       "grammarTest": null
     },
     "exercises": [
@@ -22786,40 +23389,40 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Corruption and Public Trust in Latin America and the Caribbean”, which detail establishes the situation?",
         "options": [
-          "Host: Today we are examining corruption and public trust in latin america and the caribbean.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "A public procurement contract doubled in price, although several repairs were never completed.",
+          "Some residents immediately alleged bribery.",
+          "The documents might also have been removed later to protect someone.",
+          "Transparent records would allow residents to distinguish poor management from deliberate wrongdoing and would make future contracts easier to examine."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining corruption and public trust in latin america…”, what happens next in “Listening Lab: Corruption and Public Trust in Latin America and the Caribbean”?",
+        "prompt": "After “A public procurement contract doubled in price, although several…”, what happens next in “Listening Lab: Corruption and Public Trust in Latin America and the Caribbean”?",
         "options": [
-          "Host: Today we are examining corruption and public trust in latin america and the caribbean.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "A public procurement contract doubled in price, although several repairs were never completed.",
+          "Some residents immediately alleged bribery.",
+          "The documents might also have been removed later to protect someone.",
+          "Transparent records would allow residents to distinguish poor management from deliberate wrongdoing and would make future contracts easier to examine."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Corruption and Public Trust in Latin America and the Caribbean”?",
         "options": [
-          "Host: Today we are examining corruption and public trust in latin america and the caribbean.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "A public procurement contract doubled in price, although several repairs were never completed.",
+          "Some residents immediately alleged bribery.",
+          "Officials may have acted too quickly after the hurricane, but the missing records suggest more than simple confusion.",
+          "The documents might also have been removed later to protect someone."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Corruption and Public Trust in Latin America and the Caribbean” after “Because the central question is not only what happens, but also which…”?",
+        "prompt": "Which outcome closes “Listening Lab: Corruption and Public Trust in Latin America and the Caribbean” after “Officials may have acted too quickly after the hurricane, but the…”?",
         "options": [
-          "Host: Today we are examining corruption and public trust in latin america and the caribbean.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "A public procurement contract doubled in price, although several repairs were never completed.",
+          "Some residents immediately alleged bribery.",
+          "The documents might also have been removed later to protect someone.",
+          "Transparent records would allow residents to distinguish poor management from deliberate wrongdoing and would make future contracts easier to examine."
         ]
       }
     ]
@@ -22848,45 +23451,18 @@
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Host",
-        "line": "Today we are examining climate, air pollution and health. Why does this issue resist a simple answer?",
-        "translation": "Hoy analizamos climate, air pollution and health. ¿Por qué este asunto no admite una respuesta sencilla?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-        "translation": "Porque la pregunta central no es solo qué sucede, sino también qué supuestos determinan cómo se interpreta la evidencia."
-      },
-      {
-        "speaker": "Host",
-        "line": "Which distinction should listeners keep in mind?",
-        "translation": "¿Qué distinción deben tener presente los oyentes?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable.",
-        "translation": "Deben distinguir un hallazgo establecido de una inferencia plausible y de un juicio de valor. Esas categorías pueden relacionarse, pero no son intercambiables."
-      },
-      {
-        "speaker": "Host",
-        "line": "How can we discuss the issue responsibly?",
-        "translation": "¿Cómo podemos hablar responsablemente del asunto?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
-        "translation": "Podemos definir los términos, reconocer un contraargumento serio y explicar qué evidencia nos haría revisar la conclusión."
+        "speaker": "Narrator",
+        "line": "Climate policy is often presented as protection for a distant future, but cleaner energy can improve health almost immediately. Coal, diesel, and other fuels release fine particulate matter that enters the lungs and bloodstream. Exposure is associated with asthma, heart disease, premature birth, and early death, especially in communities located near busy roads or industrial sites. Replacing polluting systems therefore produces a co-benefit: greenhouse-gas emissions fall while local air becomes safer to breathe. Having measured hospital admissions alongside pollution levels, public-health teams can estimate where action would prevent the greatest harm. Yet the transition must be designed carefully. A family experiencing energy poverty cannot simply replace a vehicle, heating system, or stove because officials recommend it. If costs are shifted onto households with the fewest resources, a climate measure may deepen inequality even while reducing emissions overall. Health impact assessments can reveal those trade-offs before decisions are final. Cities might prioritise clean buses on heavily polluted routes, improve home insulation, and provide targeted financial support. Decarbonisation is not only an engineering project. It is a choice about whose exposure is reduced first, who can afford new technology, and whether the health gains of cleaner energy are treated as a public benefit rather than a private luxury."
       }
     ],
     "reading": null,
-    "transcript": "Host: Today we are examining climate, air pollution and health. Why does this issue resist a simple answer? Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted. Host: Which distinction should listeners keep in mind? Guest: They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable. Host: How can we discuss the issue responsibly? Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
+    "transcript": "Climate policy is often presented as protection for a distant future, but cleaner energy can improve health almost immediately. Coal, diesel, and other fuels release fine particulate matter that enters the lungs and bloodstream. Exposure is associated with asthma, heart disease, premature birth, and early death, especially in communities located near busy roads or industrial sites. Replacing polluting systems therefore produces a co-benefit: greenhouse-gas emissions fall while local air becomes safer to breathe. Having measured hospital admissions alongside pollution levels, public-health teams can estimate where action would prevent the greatest harm. Yet the transition must be designed carefully. A family experiencing energy poverty cannot simply replace a vehicle, heating system, or stove because officials recommend it. If costs are shifted onto households with the fewest resources, a climate measure may deepen inequality even while reducing emissions overall. Health impact assessments can reveal those trade-offs before decisions are final. Cities might prioritise clean buses on heavily polluted routes, improve home insulation, and provide targeted financial support. Decarbonisation is not only an engineering project. It is a choice about whose exposure is reduced first, who can afford new technology, and whether the health gains of cleaner energy are treated as a public benefit rather than a private luxury.",
     "extra": {
-      "listeningType": "interview",
+      "listeningType": "monologue",
       "difficulty": "C1",
-      "durationSeconds": 105,
+      "durationSeconds": 99,
       "speakers": [
-        "Host",
-        "Guest"
+        "Narrator"
       ],
       "phoneticSupport": {
         "enabled": true,
@@ -22913,42 +23489,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining climate, air pollution and health."
+                "text": "Climate policy is often presented as protection for a distant future, but cleaner energy can improve health almost immediately."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Having measured hospital admissions alongside pollution levels, public-health teams can estimate where action would prevent the greatest harm."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "If costs are shifted onto households with the fewest resources, a climate measure may deepen inequality even while reducing emissions overall."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "It is a choice about whose exposure is reduced first, who can afford new technology, and whether the health gains of cleaner energy are treated as a public benefit rather than a private luxury."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining climate, air pollution and health.”, what happens next in “Listening Lab: Climate, Air Pollution and Health”?",
+            "prompt": "After “Climate policy is often presented as protection for a distant future,…”, what happens next in “Listening Lab: Climate, Air Pollution and Health”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining climate, air pollution and health."
+                "text": "Climate policy is often presented as protection for a distant future, but cleaner energy can improve health almost immediately."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Having measured hospital admissions alongside pollution levels, public-health teams can estimate where action would prevent the greatest harm."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "If costs are shifted onto households with the fewest resources, a climate measure may deepen inequality even while reducing emissions overall."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "It is a choice about whose exposure is reduced first, who can afford new technology, and whether the health gains of cleaner energy are treated as a public benefit rather than a private luxury."
               }
             ]
           },
@@ -22959,47 +23535,114 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining climate, air pollution and health."
+                "text": "Climate policy is often presented as protection for a distant future, but cleaner energy can improve health almost immediately."
               },
               {
                 "id": "o2",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Having measured hospital admissions alongside pollution levels, public-health teams can estimate where action would prevent the greatest harm."
               },
               {
                 "id": "o3",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "A family experiencing energy poverty cannot simply replace a vehicle, heating system, or stove because officials recommend it."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "If costs are shifted onto households with the fewest resources, a climate measure may deepen inequality even while reducing emissions overall."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Climate, Air Pollution and Health” after “Because the central question is not only what happens, but also which…”?",
+            "prompt": "Which outcome closes “Listening Lab: Climate, Air Pollution and Health” after “A family experiencing energy poverty cannot simply replace a vehicle,…”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining climate, air pollution and health."
+                "text": "Climate policy is often presented as protection for a distant future, but cleaner energy can improve health almost immediately."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Having measured hospital admissions alongside pollution levels, public-health teams can estimate where action would prevent the greatest harm."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "If costs are shifted onto households with the fewest resources, a climate measure may deepen inequality even while reducing emissions overall."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "It is a choice about whose exposure is reduced first, who can afford new technology, and whether the health gains of cleaner energy are treated as a public benefit rather than a private luxury."
               }
             ]
           }
         ]
       },
+      "storyTitle": "Clean Air and the Health Dividend",
+      "mainTranscript": "Climate policy is often presented as protection for a distant future, but cleaner energy can improve health almost immediately. Coal, diesel, and other fuels release fine particulate matter that enters the lungs and bloodstream. Exposure is associated with asthma, heart disease, premature birth, and early death, especially in communities located near busy roads or industrial sites. Replacing polluting systems therefore produces a co-benefit: greenhouse-gas emissions fall while local air becomes safer to breathe. Having measured hospital admissions alongside pollution levels, public-health teams can estimate where action would prevent the greatest harm. Yet the transition must be designed carefully. A family experiencing energy poverty cannot simply replace a vehicle, heating system, or stove because officials recommend it. If costs are shifted onto households with the fewest resources, a climate measure may deepen inequality even while reducing emissions overall. Health impact assessments can reveal those trade-offs before decisions are final. Cities might prioritise clean buses on heavily polluted routes, improve home insulation, and provide targeted financial support. Decarbonisation is not only an engineering project. It is a choice about whose exposure is reduced first, who can afford new technology, and whether the health gains of cleaner energy are treated as a public benefit rather than a private luxury.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Climate policy is often presented as protection for a distant future, but cleaner energy can improve health almost immediately."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Coal, diesel, and other fuels release fine particulate matter that enters the lungs and bloodstream."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Exposure is associated with asthma, heart disease, premature birth, and early death, especially in communities located near busy roads or industrial sites."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "Replacing polluting systems therefore produces a co-benefit: greenhouse-gas emissions fall while local air becomes safer to breathe."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Having measured hospital admissions alongside pollution levels, public-health teams can estimate where action would prevent the greatest harm."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Yet the transition must be designed carefully."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "A family experiencing energy poverty cannot simply replace a vehicle, heating system, or stove because officials recommend it."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "If costs are shifted onto households with the fewest resources, a climate measure may deepen inequality even while reducing emissions overall."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Health impact assessments can reveal those trade-offs before decisions are final."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Cities might prioritise clean buses on heavily polluted routes, improve home insulation, and provide targeted financial support."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Decarbonisation is not only an engineering project."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "It is a choice about whose exposure is reduced first, who can afford new technology, and whether the health gains of cleaner energy are treated as a public benefit rather than a private luxury."
+        }
+      ],
+      "listeningFormat": "public-health-report",
+      "voiceStyle": "public-health-news",
+      "audioLocale": "en-US",
       "grammarTest": null
     },
     "exercises": [
@@ -23007,40 +23650,40 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Climate, Air Pollution and Health”, which detail establishes the situation?",
         "options": [
-          "Host: Today we are examining climate, air pollution and health.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Climate policy is often presented as protection for a distant future, but cleaner energy can improve health almost immediately.",
+          "Having measured hospital admissions alongside pollution levels, public-health teams can estimate where action would prevent the greatest harm.",
+          "If costs are shifted onto households with the fewest resources, a climate measure may deepen inequality even while reducing emissions overall.",
+          "It is a choice about whose exposure is reduced first, who can afford new technology, and whether the health gains of cleaner energy are treated as a public benefit rather than a private luxury."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining climate, air pollution and health.”, what happens next in “Listening Lab: Climate, Air Pollution and Health”?",
+        "prompt": "After “Climate policy is often presented as protection for a distant future,…”, what happens next in “Listening Lab: Climate, Air Pollution and Health”?",
         "options": [
-          "Host: Today we are examining climate, air pollution and health.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Climate policy is often presented as protection for a distant future, but cleaner energy can improve health almost immediately.",
+          "Having measured hospital admissions alongside pollution levels, public-health teams can estimate where action would prevent the greatest harm.",
+          "If costs are shifted onto households with the fewest resources, a climate measure may deepen inequality even while reducing emissions overall.",
+          "It is a choice about whose exposure is reduced first, who can afford new technology, and whether the health gains of cleaner energy are treated as a public benefit rather than a private luxury."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Climate, Air Pollution and Health”?",
         "options": [
-          "Host: Today we are examining climate, air pollution and health.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Climate policy is often presented as protection for a distant future, but cleaner energy can improve health almost immediately.",
+          "Having measured hospital admissions alongside pollution levels, public-health teams can estimate where action would prevent the greatest harm.",
+          "A family experiencing energy poverty cannot simply replace a vehicle, heating system, or stove because officials recommend it.",
+          "If costs are shifted onto households with the fewest resources, a climate measure may deepen inequality even while reducing emissions overall."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Climate, Air Pollution and Health” after “Because the central question is not only what happens, but also which…”?",
+        "prompt": "Which outcome closes “Listening Lab: Climate, Air Pollution and Health” after “A family experiencing energy poverty cannot simply replace a vehicle,…”?",
         "options": [
-          "Host: Today we are examining climate, air pollution and health.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Climate policy is often presented as protection for a distant future, but cleaner energy can improve health almost immediately.",
+          "Having measured hospital admissions alongside pollution levels, public-health teams can estimate where action would prevent the greatest harm.",
+          "If costs are shifted onto households with the fewest resources, a climate measure may deepen inequality even while reducing emissions overall.",
+          "It is a choice about whose exposure is reduced first, who can afford new technology, and whether the health gains of cleaner energy are treated as a public benefit rather than a private luxury."
         ]
       }
     ]
@@ -23069,45 +23712,18 @@
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Host",
-        "line": "Today we are examining comprehensible input and incidental acquisition. Why does this issue resist a simple answer?",
-        "translation": "Hoy analizamos comprehensible input and incidental acquisition. ¿Por qué este asunto no admite una respuesta sencilla?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-        "translation": "Porque la pregunta central no es solo qué sucede, sino también qué supuestos determinan cómo se interpreta la evidencia."
-      },
-      {
-        "speaker": "Host",
-        "line": "Which distinction should listeners keep in mind?",
-        "translation": "¿Qué distinción deben tener presente los oyentes?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable.",
-        "translation": "Deben distinguir un hallazgo establecido de una inferencia plausible y de un juicio de valor. Esas categorías pueden relacionarse, pero no son intercambiables."
-      },
-      {
-        "speaker": "Host",
-        "line": "How can we discuss the issue responsibly?",
-        "translation": "¿Cómo podemos hablar responsablemente del asunto?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
-        "translation": "Podemos definir los términos, reconocer un contraargumento serio y explicar qué evidencia nos haría revisar la conclusión."
+        "speaker": "Narrator",
+        "line": "Much of a language is acquired incidentally while attention is directed toward a story, conversation, game, or task. A learner may infer a word from context without having intended to memorise it. This does not imply that exposure automatically becomes knowledge. For comprehension to remain possible, lexical coverage must be sufficiently high; if every sentence contains several unknown items, inferencing becomes guesswork and attention is exhausted. Comprehensible input is therefore neither perfectly understood language nor an incomprehensible flood. It is input whose central meaning can be followed while selected features remain available for noticing. Frequency helps, but repeated encounters need variation. Meeting the same word in different grammatical and social contexts builds a richer representation than seeing it repeatedly in one phrase. Deliberate support can also increase incidental learning. A brief gloss, a highlighted expression, or a question asked after listening may direct attention without turning the entire activity into vocabulary study. Researchers remain cautious about exact gains because recognition on an immediate test may not predict durable, productive knowledge. Even so, incidental acquisition explains why extensive reading and listening matter: no course can explicitly teach every collocation, register difference, and pattern a proficient user knows. The strongest approach does not force a choice between explicit teaching and natural exposure. Instruction can prepare learners to understand; meaningful input then supplies the quantity, diversity, and surprise through which language becomes more than a list of taught items."
       }
     ],
     "reading": null,
-    "transcript": "Host: Today we are examining comprehensible input and incidental acquisition. Why does this issue resist a simple answer? Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted. Host: Which distinction should listeners keep in mind? Guest: They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable. Host: How can we discuss the issue responsibly? Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
+    "transcript": "Much of a language is acquired incidentally while attention is directed toward a story, conversation, game, or task. A learner may infer a word from context without having intended to memorise it. This does not imply that exposure automatically becomes knowledge. For comprehension to remain possible, lexical coverage must be sufficiently high; if every sentence contains several unknown items, inferencing becomes guesswork and attention is exhausted. Comprehensible input is therefore neither perfectly understood language nor an incomprehensible flood. It is input whose central meaning can be followed while selected features remain available for noticing. Frequency helps, but repeated encounters need variation. Meeting the same word in different grammatical and social contexts builds a richer representation than seeing it repeatedly in one phrase. Deliberate support can also increase incidental learning. A brief gloss, a highlighted expression, or a question asked after listening may direct attention without turning the entire activity into vocabulary study. Researchers remain cautious about exact gains because recognition on an immediate test may not predict durable, productive knowledge. Even so, incidental acquisition explains why extensive reading and listening matter: no course can explicitly teach every collocation, register difference, and pattern a proficient user knows. The strongest approach does not force a choice between explicit teaching and natural exposure. Instruction can prepare learners to understand; meaningful input then supplies the quantity, diversity, and surprise through which language becomes more than a list of taught items.",
     "extra": {
-      "listeningType": "interview",
+      "listeningType": "monologue",
       "difficulty": "C2",
-      "durationSeconds": 125,
+      "durationSeconds": 123,
       "speakers": [
-        "Host",
-        "Guest"
+        "Narrator"
       ],
       "phoneticSupport": {
         "enabled": true,
@@ -23134,42 +23750,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining comprehensible input and incidental acquisition."
+                "text": "Much of a language is acquired incidentally while attention is directed toward a story, conversation, game, or task."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Comprehensible input is therefore neither perfectly understood language nor an incomprehensible flood."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "A brief gloss, a highlighted expression, or a question asked after listening may direct attention without turning the entire activity into vocabulary study."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Instruction can prepare learners to understand; meaningful input then supplies the quantity, diversity, and surprise through which language becomes more than a list of taught items."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining comprehensible input and incidental acquisition.”, what happens next in “Listening Lab: Comprehensible Input and Incidental Acquisition”?",
+            "prompt": "After “Much of a language is acquired incidentally while attention is…”, what happens next in “Listening Lab: Comprehensible Input and Incidental Acquisition”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining comprehensible input and incidental acquisition."
+                "text": "Much of a language is acquired incidentally while attention is directed toward a story, conversation, game, or task."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Comprehensible input is therefore neither perfectly understood language nor an incomprehensible flood."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "A brief gloss, a highlighted expression, or a question asked after listening may direct attention without turning the entire activity into vocabulary study."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Instruction can prepare learners to understand; meaningful input then supplies the quantity, diversity, and surprise through which language becomes more than a list of taught items."
               }
             ]
           },
@@ -23180,47 +23796,124 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining comprehensible input and incidental acquisition."
+                "text": "Much of a language is acquired incidentally while attention is directed toward a story, conversation, game, or task."
               },
               {
                 "id": "o2",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Comprehensible input is therefore neither perfectly understood language nor an incomprehensible flood."
               },
               {
                 "id": "o3",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Frequency helps, but repeated encounters need variation."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "A brief gloss, a highlighted expression, or a question asked after listening may direct attention without turning the entire activity into vocabulary study."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Comprehensible Input and Incidental Acquisition” after “Because the central question is not only what happens, but also which…”?",
+            "prompt": "Which outcome closes “Listening Lab: Comprehensible Input and Incidental Acquisition” after “Frequency helps, but repeated encounters need variation.”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining comprehensible input and incidental acquisition."
+                "text": "Much of a language is acquired incidentally while attention is directed toward a story, conversation, game, or task."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Comprehensible input is therefore neither perfectly understood language nor an incomprehensible flood."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "A brief gloss, a highlighted expression, or a question asked after listening may direct attention without turning the entire activity into vocabulary study."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Instruction can prepare learners to understand; meaningful input then supplies the quantity, diversity, and surprise through which language becomes more than a list of taught items."
               }
             ]
           }
         ]
       },
+      "storyTitle": "Learning by Exposure: How Input Becomes Language",
+      "mainTranscript": "Much of a language is acquired incidentally while attention is directed toward a story, conversation, game, or task. A learner may infer a word from context without having intended to memorise it. This does not imply that exposure automatically becomes knowledge. For comprehension to remain possible, lexical coverage must be sufficiently high; if every sentence contains several unknown items, inferencing becomes guesswork and attention is exhausted. Comprehensible input is therefore neither perfectly understood language nor an incomprehensible flood. It is input whose central meaning can be followed while selected features remain available for noticing. Frequency helps, but repeated encounters need variation. Meeting the same word in different grammatical and social contexts builds a richer representation than seeing it repeatedly in one phrase. Deliberate support can also increase incidental learning. A brief gloss, a highlighted expression, or a question asked after listening may direct attention without turning the entire activity into vocabulary study. Researchers remain cautious about exact gains because recognition on an immediate test may not predict durable, productive knowledge. Even so, incidental acquisition explains why extensive reading and listening matter: no course can explicitly teach every collocation, register difference, and pattern a proficient user knows. The strongest approach does not force a choice between explicit teaching and natural exposure. Instruction can prepare learners to understand; meaningful input then supplies the quantity, diversity, and surprise through which language becomes more than a list of taught items.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Much of a language is acquired incidentally while attention is directed toward a story, conversation, game, or task."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "A learner may infer a word from context without having intended to memorise it."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "This does not imply that exposure automatically becomes knowledge."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "For comprehension to remain possible, lexical coverage must be sufficiently high; if every sentence contains several unknown items, inferencing becomes guesswork and attention is exhausted."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Comprehensible input is therefore neither perfectly understood language nor an incomprehensible flood."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "It is input whose central meaning can be followed while selected features remain available for noticing."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Frequency helps, but repeated encounters need variation."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Meeting the same word in different grammatical and social contexts builds a richer representation than seeing it repeatedly in one phrase."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Deliberate support can also increase incidental learning."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "A brief gloss, a highlighted expression, or a question asked after listening may direct attention without turning the entire activity into vocabulary study."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Researchers remain cautious about exact gains because recognition on an immediate test may not predict durable, productive knowledge."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "Even so, incidental acquisition explains why extensive reading and listening matter: no course can explicitly teach every collocation, register difference, and pattern a proficient user knows."
+        },
+        {
+          "id": "segment-13",
+          "order": 13,
+          "text": "The strongest approach does not force a choice between explicit teaching and natural exposure."
+        },
+        {
+          "id": "segment-14",
+          "order": 14,
+          "text": "Instruction can prepare learners to understand; meaningful input then supplies the quantity, diversity, and surprise through which language becomes more than a list of taught items."
+        }
+      ],
+      "listeningFormat": "audio-article",
+      "voiceStyle": "reflective-academic",
+      "audioLocale": "en-US",
       "grammarTest": null
     },
     "exercises": [
@@ -23228,40 +23921,40 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Comprehensible Input and Incidental Acquisition”, which detail establishes the situation?",
         "options": [
-          "Host: Today we are examining comprehensible input and incidental acquisition.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Much of a language is acquired incidentally while attention is directed toward a story, conversation, game, or task.",
+          "Comprehensible input is therefore neither perfectly understood language nor an incomprehensible flood.",
+          "A brief gloss, a highlighted expression, or a question asked after listening may direct attention without turning the entire activity into vocabulary study.",
+          "Instruction can prepare learners to understand; meaningful input then supplies the quantity, diversity, and surprise through which language becomes more than a list of taught items."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining comprehensible input and incidental acquisition.”, what happens next in “Listening Lab: Comprehensible Input and Incidental Acquisition”?",
+        "prompt": "After “Much of a language is acquired incidentally while attention is…”, what happens next in “Listening Lab: Comprehensible Input and Incidental Acquisition”?",
         "options": [
-          "Host: Today we are examining comprehensible input and incidental acquisition.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Much of a language is acquired incidentally while attention is directed toward a story, conversation, game, or task.",
+          "Comprehensible input is therefore neither perfectly understood language nor an incomprehensible flood.",
+          "A brief gloss, a highlighted expression, or a question asked after listening may direct attention without turning the entire activity into vocabulary study.",
+          "Instruction can prepare learners to understand; meaningful input then supplies the quantity, diversity, and surprise through which language becomes more than a list of taught items."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Comprehensible Input and Incidental Acquisition”?",
         "options": [
-          "Host: Today we are examining comprehensible input and incidental acquisition.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Much of a language is acquired incidentally while attention is directed toward a story, conversation, game, or task.",
+          "Comprehensible input is therefore neither perfectly understood language nor an incomprehensible flood.",
+          "Frequency helps, but repeated encounters need variation.",
+          "A brief gloss, a highlighted expression, or a question asked after listening may direct attention without turning the entire activity into vocabulary study."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Comprehensible Input and Incidental Acquisition” after “Because the central question is not only what happens, but also which…”?",
+        "prompt": "Which outcome closes “Listening Lab: Comprehensible Input and Incidental Acquisition” after “Frequency helps, but repeated encounters need variation.”?",
         "options": [
-          "Host: Today we are examining comprehensible input and incidental acquisition.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Much of a language is acquired incidentally while attention is directed toward a story, conversation, game, or task.",
+          "Comprehensible input is therefore neither perfectly understood language nor an incomprehensible flood.",
+          "A brief gloss, a highlighted expression, or a question asked after listening may direct attention without turning the entire activity into vocabulary study.",
+          "Instruction can prepare learners to understand; meaningful input then supplies the quantity, diversity, and surprise through which language becomes more than a list of taught items."
         ]
       }
     ]
@@ -29205,33 +29898,68 @@
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "Narrator",
+        "line": "In a popular health podcast, Dr. Lena Ortiz explains why many adults struggle to sleep. People often need to stop checking messages in bed, but they do not have to transform their entire routine overnight. She suggests choosing a regular bedtime, reducing caffeine late in the day, and preparing tomorrow’s tasks before the evening. Listeners should avoid judging themselves after one difficult night. Instead, they can keep track of sleep patterns for a week and identify habits that make a difference. Dr. Ortiz also reminds employers not to expect replies at all hours. Personal choices matter, but work schedules, noise, stress, and family responsibilities affect rest too. A useful routine should improve well-being without becoming another source of pressure."
+      }
+    ],
     "reading": null,
-    "transcript": "",
+    "transcript": "In a popular health podcast, Dr. Lena Ortiz explains why many adults struggle to sleep. People often need to stop checking messages in bed, but they do not have to transform their entire routine overnight. She suggests choosing a regular bedtime, reducing caffeine late in the day, and preparing tomorrow’s tasks before the evening. Listeners should avoid judging themselves after one difficult night. Instead, they can keep track of sleep patterns for a week and identify habits that make a difference. Dr. Ortiz also reminds employers not to expect replies at all hours. Personal choices matter, but work schedules, noise, stress, and family responsibilities affect rest too. A useful routine should improve well-being without becoming another source of pressure.",
     "extra": {
-      "listeningType": "story",
-      "storyTitle": "A Healthier Routine",
-      "mainTranscript": "Sarah and Daniel discuss their evening routines. Sarah says she needs to stop checking emails late at night. Daniel says he wants to start preparing for work earlier so his mornings are calmer. They agree that small habits can reduce stress more effectively than dramatic promises.",
+      "listeningType": "monologue",
+      "storyTitle": "A Realistic Plan for Better Sleep",
+      "mainTranscript": "In a popular health podcast, Dr. Lena Ortiz explains why many adults struggle to sleep. People often need to stop checking messages in bed, but they do not have to transform their entire routine overnight. She suggests choosing a regular bedtime, reducing caffeine late in the day, and preparing tomorrow’s tasks before the evening. Listeners should avoid judging themselves after one difficult night. Instead, they can keep track of sleep patterns for a week and identify habits that make a difference. Dr. Ortiz also reminds employers not to expect replies at all hours. Personal choices matter, but work schedules, noise, stress, and family responsibilities affect rest too. A useful routine should improve well-being without becoming another source of pressure.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Sarah and Daniel discuss their evening routines."
+          "text": "In a popular health podcast, Dr."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "Sarah says she needs to stop checking emails late at night."
+          "text": "Lena Ortiz explains why many adults struggle to sleep."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "Daniel says he wants to start preparing for work earlier so his mornings are calmer."
+          "text": "People often need to stop checking messages in bed, but they do not have to transform their entire routine overnight."
         },
         {
           "id": "segment-04",
           "order": 4,
-          "text": "They agree that small habits can reduce stress more effectively than dramatic promises."
+          "text": "She suggests choosing a regular bedtime, reducing caffeine late in the day, and preparing tomorrow’s tasks before the evening."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Listeners should avoid judging themselves after one difficult night."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Instead, they can keep track of sleep patterns for a week and identify habits that make a difference."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Dr."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Ortiz also reminds employers not to expect replies at all hours."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Personal choices matter, but work schedules, noise, stress, and family responsibilities affect rest too."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "A useful routine should improve well-being without becoming another source of pressure."
         }
       ],
       "listeningComprehension": {
@@ -29245,42 +29973,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Sarah and Daniel discuss their evening routines."
+                "text": "In a popular health podcast, Dr."
               },
               {
                 "id": "o2",
-                "text": "Sarah says she needs to stop checking emails late at night."
+                "text": "She suggests choosing a regular bedtime, reducing caffeine late in the day, and preparing tomorrow’s tasks before the evening."
               },
               {
                 "id": "o3",
-                "text": "Daniel says he wants to start preparing for work earlier so his mornings are calmer."
+                "text": "Dr."
               },
               {
                 "id": "o4",
-                "text": "They agree that small habits can reduce stress more effectively than dramatic promises."
+                "text": "A useful routine should improve well-being without becoming another source of pressure."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Sarah and Daniel discuss their evening routines.”, what happens next in “A Healthier Routine”?",
+            "prompt": "After “In a popular health podcast, Dr.”, what happens next in “A Healthier Routine”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sarah and Daniel discuss their evening routines."
+                "text": "In a popular health podcast, Dr."
               },
               {
                 "id": "o2",
-                "text": "Sarah says she needs to stop checking emails late at night."
+                "text": "She suggests choosing a regular bedtime, reducing caffeine late in the day, and preparing tomorrow’s tasks before the evening."
               },
               {
                 "id": "o3",
-                "text": "Daniel says he wants to start preparing for work earlier so his mornings are calmer."
+                "text": "Dr."
               },
               {
                 "id": "o4",
-                "text": "They agree that small habits can reduce stress more effectively than dramatic promises."
+                "text": "A useful routine should improve well-being without becoming another source of pressure."
               }
             ]
           },
@@ -29291,47 +30019,54 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Sarah and Daniel discuss their evening routines."
+                "text": "In a popular health podcast, Dr."
               },
               {
                 "id": "o2",
-                "text": "Sarah says she needs to stop checking emails late at night."
+                "text": "She suggests choosing a regular bedtime, reducing caffeine late in the day, and preparing tomorrow’s tasks before the evening."
               },
               {
                 "id": "o3",
-                "text": "Daniel says he wants to start preparing for work earlier so his mornings are calmer."
+                "text": "People often need to stop checking messages in bed, but they do not have to transform their entire routine overnight."
               },
               {
                 "id": "o4",
-                "text": "They agree that small habits can reduce stress more effectively than dramatic promises."
+                "text": "Dr."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “A Healthier Routine” after “Daniel says he wants to start preparing for work earlier so his…”?",
+            "prompt": "Which outcome closes “A Healthier Routine” after “People often need to stop checking messages in bed, but they do not…”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sarah and Daniel discuss their evening routines."
+                "text": "In a popular health podcast, Dr."
               },
               {
                 "id": "o2",
-                "text": "Sarah says she needs to stop checking emails late at night."
+                "text": "She suggests choosing a regular bedtime, reducing caffeine late in the day, and preparing tomorrow’s tasks before the evening."
               },
               {
                 "id": "o3",
-                "text": "Daniel says he wants to start preparing for work earlier so his mornings are calmer."
+                "text": "Dr."
               },
               {
                 "id": "o4",
-                "text": "They agree that small habits can reduce stress more effectively than dramatic promises."
+                "text": "A useful routine should improve well-being without becoming another source of pressure."
               }
             ]
           }
         ]
       },
+      "speakers": [
+        "Narrator"
+      ],
+      "durationSeconds": 53,
+      "audioLocale": "en-US",
+      "listeningFormat": "health-podcast",
+      "voiceStyle": "warm-calm",
       "grammarTest": null
     },
     "exercises": [
@@ -29339,40 +30074,40 @@
         "type": "mcq",
         "prompt": "In “A Healthier Routine”, which detail establishes the situation?",
         "options": [
-          "Sarah and Daniel discuss their evening routines.",
-          "Sarah says she needs to stop checking emails late at night.",
-          "Daniel says he wants to start preparing for work earlier so his mornings are calmer.",
-          "They agree that small habits can reduce stress more effectively than dramatic promises."
+          "In a popular health podcast, Dr.",
+          "She suggests choosing a regular bedtime, reducing caffeine late in the day, and preparing tomorrow’s tasks before the evening.",
+          "Dr.",
+          "A useful routine should improve well-being without becoming another source of pressure."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Sarah and Daniel discuss their evening routines.”, what happens next in “A Healthier Routine”?",
+        "prompt": "After “In a popular health podcast, Dr.”, what happens next in “A Healthier Routine”?",
         "options": [
-          "Sarah and Daniel discuss their evening routines.",
-          "Sarah says she needs to stop checking emails late at night.",
-          "Daniel says he wants to start preparing for work earlier so his mornings are calmer.",
-          "They agree that small habits can reduce stress more effectively than dramatic promises."
+          "In a popular health podcast, Dr.",
+          "She suggests choosing a regular bedtime, reducing caffeine late in the day, and preparing tomorrow’s tasks before the evening.",
+          "Dr.",
+          "A useful routine should improve well-being without becoming another source of pressure."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “A Healthier Routine”?",
         "options": [
-          "Sarah and Daniel discuss their evening routines.",
-          "Sarah says she needs to stop checking emails late at night.",
-          "Daniel says he wants to start preparing for work earlier so his mornings are calmer.",
-          "They agree that small habits can reduce stress more effectively than dramatic promises."
+          "In a popular health podcast, Dr.",
+          "She suggests choosing a regular bedtime, reducing caffeine late in the day, and preparing tomorrow’s tasks before the evening.",
+          "People often need to stop checking messages in bed, but they do not have to transform their entire routine overnight.",
+          "Dr."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “A Healthier Routine” after “Daniel says he wants to start preparing for work earlier so his…”?",
+        "prompt": "Which outcome closes “A Healthier Routine” after “People often need to stop checking messages in bed, but they do not…”?",
         "options": [
-          "Sarah and Daniel discuss their evening routines.",
-          "Sarah says she needs to stop checking emails late at night.",
-          "Daniel says he wants to start preparing for work earlier so his mornings are calmer.",
-          "They agree that small habits can reduce stress more effectively than dramatic promises."
+          "In a popular health podcast, Dr.",
+          "She suggests choosing a regular bedtime, reducing caffeine late in the day, and preparing tomorrow’s tasks before the evening.",
+          "Dr.",
+          "A useful routine should improve well-being without becoming another source of pressure."
         ]
       }
     ]
@@ -29667,45 +30402,18 @@
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Host",
-        "line": "Today we are examining the fourth of july: freedom and contradictions. Why does this issue resist a simple answer?",
-        "translation": "Hoy analizamos the fourth of july: freedom and contradictions. ¿Por qué este asunto no admite una respuesta sencilla?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-        "translation": "Porque la pregunta central no es solo qué sucede, sino también qué supuestos determinan cómo se interpreta la evidencia."
-      },
-      {
-        "speaker": "Host",
-        "line": "Which distinction should listeners keep in mind?",
-        "translation": "¿Qué distinción deben tener presente los oyentes?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable.",
-        "translation": "Deben distinguir un hallazgo establecido de una inferencia plausible y de un juicio de valor. Esas categorías pueden relacionarse, pero no son intercambiables."
-      },
-      {
-        "speaker": "Host",
-        "line": "How can we discuss the issue responsibly?",
-        "translation": "¿Cómo podemos hablar responsablemente del asunto?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
-        "translation": "Podemos definir los términos, reconocer un contraargumento serio y explicar qué evidencia nos haría revisar la conclusión."
+        "speaker": "Narrator",
+        "line": "Fireworks are beginning across the city. What does the Fourth of July commemorate? Marking the declaration of independence, the holiday celebrates a founding document that placed liberty at the center of the new nation. For many families, displaying the flag expresses patriotism and a shared national identity. Yet the celebration can also produce discomfort. Written in the language of equality, the declaration existed alongside slavery and exclusion. Recognizing that contradiction does not erase the achievement of independence. It asks whether the promise was available to everyone. How have later generations responded? Drawing on the same language of freedom, civil rights movements demanded that the country honor its stated ideals. Seen in that context, the holiday is not only about the past. Celebrated thoughtfully, it can join pride with responsibility: people can value a national tradition while acknowledging the unfinished work required to make liberty real."
       }
     ],
     "reading": null,
-    "transcript": "Host: Today we are examining the fourth of july: freedom and contradictions. Why does this issue resist a simple answer? Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted. Host: Which distinction should listeners keep in mind? Guest: They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable. Host: How can we discuss the issue responsibly? Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
+    "transcript": "Fireworks are beginning across the city. What does the Fourth of July commemorate? Marking the declaration of independence, the holiday celebrates a founding document that placed liberty at the center of the new nation. For many families, displaying the flag expresses patriotism and a shared national identity. Yet the celebration can also produce discomfort. Written in the language of equality, the declaration existed alongside slavery and exclusion. Recognizing that contradiction does not erase the achievement of independence. It asks whether the promise was available to everyone. How have later generations responded? Drawing on the same language of freedom, civil rights movements demanded that the country honor its stated ideals. Seen in that context, the holiday is not only about the past. Celebrated thoughtfully, it can join pride with responsibility: people can value a national tradition while acknowledging the unfinished work required to make liberty real.",
     "extra": {
-      "listeningType": "interview",
+      "listeningType": "monologue",
       "difficulty": "B2",
-      "durationSeconds": 85,
+      "durationSeconds": 70,
       "speakers": [
-        "Host",
-        "Guest"
+        "Narrator"
       ],
       "phoneticSupport": {
         "enabled": true,
@@ -29732,42 +30440,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining the fourth of july: freedom and contradictions."
+                "text": "Fireworks are beginning across the city."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Yet the celebration can also produce discomfort."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "It asks whether the promise was available to everyone."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Celebrated thoughtfully, it can join pride with responsibility: people can value a national tradition while acknowledging the unfinished work required to make liberty real."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining the fourth of july: freedom and contradictions.”, what happens next in “Listening Lab: The Fourth of July: Freedom and Contradictions”?",
+            "prompt": "After “Fireworks are beginning across the city.”, what happens next in “Listening Lab: The Fourth of July: Freedom and Contradictions”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining the fourth of july: freedom and contradictions."
+                "text": "Fireworks are beginning across the city."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Yet the celebration can also produce discomfort."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "It asks whether the promise was available to everyone."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Celebrated thoughtfully, it can join pride with responsibility: people can value a national tradition while acknowledging the unfinished work required to make liberty real."
               }
             ]
           },
@@ -29778,47 +30486,114 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining the fourth of july: freedom and contradictions."
+                "text": "Fireworks are beginning across the city."
               },
               {
                 "id": "o2",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Yet the celebration can also produce discomfort."
               },
               {
                 "id": "o3",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "It asks whether the promise was available to everyone."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Celebrated thoughtfully, it can join pride with responsibility: people can value a national tradition while acknowledging the unfinished work required to make liberty real."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: The Fourth of July: Freedom and Contradictions” after “Because the central question is not only what happens, but also which…”?",
+            "prompt": "Which outcome closes “Listening Lab: The Fourth of July: Freedom and Contradictions” after “It asks whether the promise was available to everyone.”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining the fourth of july: freedom and contradictions."
+                "text": "Fireworks are beginning across the city."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Yet the celebration can also produce discomfort."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "It asks whether the promise was available to everyone."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Celebrated thoughtfully, it can join pride with responsibility: people can value a national tradition while acknowledging the unfinished work required to make liberty real."
               }
             ]
           }
         ]
       },
+      "storyTitle": "What the Fourth of July Means Today",
+      "mainTranscript": "Fireworks are beginning across the city. What does the Fourth of July commemorate? Marking the declaration of independence, the holiday celebrates a founding document that placed liberty at the center of the new nation. For many families, displaying the flag expresses patriotism and a shared national identity. Yet the celebration can also produce discomfort. Written in the language of equality, the declaration existed alongside slavery and exclusion. Recognizing that contradiction does not erase the achievement of independence. It asks whether the promise was available to everyone. How have later generations responded? Drawing on the same language of freedom, civil rights movements demanded that the country honor its stated ideals. Seen in that context, the holiday is not only about the past. Celebrated thoughtfully, it can join pride with responsibility: people can value a national tradition while acknowledging the unfinished work required to make liberty real.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Fireworks are beginning across the city."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "What does the Fourth of July commemorate?"
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Marking the declaration of independence, the holiday celebrates a founding document that placed liberty at the center of the new nation."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "For many families, displaying the flag expresses patriotism and a shared national identity."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Yet the celebration can also produce discomfort."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Written in the language of equality, the declaration existed alongside slavery and exclusion."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Recognizing that contradiction does not erase the achievement of independence."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "It asks whether the promise was available to everyone."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "How have later generations responded?"
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Drawing on the same language of freedom, civil rights movements demanded that the country honor its stated ideals."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Seen in that context, the holiday is not only about the past."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "Celebrated thoughtfully, it can join pride with responsibility: people can value a national tradition while acknowledging the unfinished work required to make liberty real."
+        }
+      ],
+      "audioLocale": "en-US",
+      "listeningFormat": "cultural-commentary",
+      "voiceStyle": "reflective-narrative",
       "grammarTest": null
     },
     "exercises": [
@@ -29826,40 +30601,40 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: The Fourth of July: Freedom and Contradictions”, which detail establishes the situation?",
         "options": [
-          "Host: Today we are examining the fourth of july: freedom and contradictions.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Fireworks are beginning across the city.",
+          "Yet the celebration can also produce discomfort.",
+          "It asks whether the promise was available to everyone.",
+          "Celebrated thoughtfully, it can join pride with responsibility: people can value a national tradition while acknowledging the unfinished work required to make liberty real."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining the fourth of july: freedom and contradictions.”, what happens next in “Listening Lab: The Fourth of July: Freedom and Contradictions”?",
+        "prompt": "After “Fireworks are beginning across the city.”, what happens next in “Listening Lab: The Fourth of July: Freedom and Contradictions”?",
         "options": [
-          "Host: Today we are examining the fourth of july: freedom and contradictions.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Fireworks are beginning across the city.",
+          "Yet the celebration can also produce discomfort.",
+          "It asks whether the promise was available to everyone.",
+          "Celebrated thoughtfully, it can join pride with responsibility: people can value a national tradition while acknowledging the unfinished work required to make liberty real."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: The Fourth of July: Freedom and Contradictions”?",
         "options": [
-          "Host: Today we are examining the fourth of july: freedom and contradictions.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Fireworks are beginning across the city.",
+          "Yet the celebration can also produce discomfort.",
+          "It asks whether the promise was available to everyone.",
+          "Celebrated thoughtfully, it can join pride with responsibility: people can value a national tradition while acknowledging the unfinished work required to make liberty real."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: The Fourth of July: Freedom and Contradictions” after “Because the central question is not only what happens, but also which…”?",
+        "prompt": "Which outcome closes “Listening Lab: The Fourth of July: Freedom and Contradictions” after “It asks whether the promise was available to everyone.”?",
         "options": [
-          "Host: Today we are examining the fourth of july: freedom and contradictions.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Fireworks are beginning across the city.",
+          "Yet the celebration can also produce discomfort.",
+          "It asks whether the promise was available to everyone.",
+          "Celebrated thoughtfully, it can join pride with responsibility: people can value a national tradition while acknowledging the unfinished work required to make liberty real."
         ]
       }
     ]
@@ -29888,45 +30663,18 @@
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Host",
-        "line": "Today we are examining loneliness as a public-health issue. Why does this issue resist a simple answer?",
-        "translation": "Hoy analizamos loneliness as a public-health issue. ¿Por qué este asunto no admite una respuesta sencilla?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-        "translation": "Porque la pregunta central no es solo qué sucede, sino también qué supuestos determinan cómo se interpreta la evidencia."
-      },
-      {
-        "speaker": "Host",
-        "line": "Which distinction should listeners keep in mind?",
-        "translation": "¿Qué distinción deben tener presente los oyentes?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable.",
-        "translation": "Deben distinguir un hallazgo establecido de una inferencia plausible y de un juicio de valor. Esas categorías pueden relacionarse, pero no son intercambiables."
-      },
-      {
-        "speaker": "Host",
-        "line": "How can we discuss the issue responsibly?",
-        "translation": "¿Cómo podemos hablar responsablemente del asunto?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
-        "translation": "Podemos definir los términos, reconocer un contraargumento serio y explicar qué evidencia nos haría revisar la conclusión."
+        "speaker": "Narrator",
+        "line": "Loneliness is often described as an individual emotion, yet its causes are partly shaped by the places and institutions around us. What many people lack is not constant company but meaningful, reliable connection. A person can feel lonely in a crowded office, while someone living alone may have a strong social network. This distinction matters because loneliness and social isolation are related but not identical. Research links persistent disconnection with poorer mental and physical health, although it would be misleading to claim that every lonely period causes illness. Stigma can make the problem worse: people may avoid admitting that they need companionship because they fear appearing unsuccessful. What communities can provide is social infrastructure—libraries, parks, affordable transport, clubs, and welcoming public spaces where repeated contact becomes possible. These settings are not a guaranteed cure, but they create protective conditions. Digital communication can also support relationships, particularly for people with limited mobility, provided it complements rather than replaces the forms of contact they value. It is regular participation, not a single cheerful event, that tends to build trust. Treating loneliness as a public-health issue does not remove personal agency. It recognises that connection becomes easier when societies design everyday life so that people can meet, contribute, and belong."
       }
     ],
     "reading": null,
-    "transcript": "Host: Today we are examining loneliness as a public-health issue. Why does this issue resist a simple answer? Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted. Host: Which distinction should listeners keep in mind? Guest: They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable. Host: How can we discuss the issue responsibly? Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
+    "transcript": "Loneliness is often described as an individual emotion, yet its causes are partly shaped by the places and institutions around us. What many people lack is not constant company but meaningful, reliable connection. A person can feel lonely in a crowded office, while someone living alone may have a strong social network. This distinction matters because loneliness and social isolation are related but not identical. Research links persistent disconnection with poorer mental and physical health, although it would be misleading to claim that every lonely period causes illness. Stigma can make the problem worse: people may avoid admitting that they need companionship because they fear appearing unsuccessful. What communities can provide is social infrastructure—libraries, parks, affordable transport, clubs, and welcoming public spaces where repeated contact becomes possible. These settings are not a guaranteed cure, but they create protective conditions. Digital communication can also support relationships, particularly for people with limited mobility, provided it complements rather than replaces the forms of contact they value. It is regular participation, not a single cheerful event, that tends to build trust. Treating loneliness as a public-health issue does not remove personal agency. It recognises that connection becomes easier when societies design everyday life so that people can meet, contribute, and belong.",
     "extra": {
-      "listeningType": "interview",
+      "listeningType": "monologue",
       "difficulty": "C1",
-      "durationSeconds": 105,
+      "durationSeconds": 99,
       "speakers": [
-        "Host",
-        "Guest"
+        "Narrator"
       ],
       "phoneticSupport": {
         "enabled": true,
@@ -29953,42 +30701,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining loneliness as a public-health issue."
+                "text": "Loneliness is often described as an individual emotion, yet its causes are partly shaped by the places and institutions around us."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Research links persistent disconnection with poorer mental and physical health, although it would be misleading to claim that every lonely period causes illness."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "These settings are not a guaranteed cure, but they create protective conditions."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "It recognises that connection becomes easier when societies design everyday life so that people can meet, contribute, and belong."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining loneliness as a public-health issue.”, what happens next in “Listening Lab: Loneliness as a Public-Health Issue”?",
+            "prompt": "After “Loneliness is often described as an individual emotion, yet its causes…”, what happens next in “Listening Lab: Loneliness as a Public-Health Issue”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining loneliness as a public-health issue."
+                "text": "Loneliness is often described as an individual emotion, yet its causes are partly shaped by the places and institutions around us."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Research links persistent disconnection with poorer mental and physical health, although it would be misleading to claim that every lonely period causes illness."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "These settings are not a guaranteed cure, but they create protective conditions."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "It recognises that connection becomes easier when societies design everyday life so that people can meet, contribute, and belong."
               }
             ]
           },
@@ -29999,47 +30747,114 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining loneliness as a public-health issue."
+                "text": "Loneliness is often described as an individual emotion, yet its causes are partly shaped by the places and institutions around us."
               },
               {
                 "id": "o2",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Research links persistent disconnection with poorer mental and physical health, although it would be misleading to claim that every lonely period causes illness."
               },
               {
                 "id": "o3",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "This distinction matters because loneliness and social isolation are related but not identical."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "These settings are not a guaranteed cure, but they create protective conditions."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Loneliness as a Public-Health Issue” after “Because the central question is not only what happens, but also which…”?",
+            "prompt": "Which outcome closes “Listening Lab: Loneliness as a Public-Health Issue” after “This distinction matters because loneliness and social isolation are…”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining loneliness as a public-health issue."
+                "text": "Loneliness is often described as an individual emotion, yet its causes are partly shaped by the places and institutions around us."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Research links persistent disconnection with poorer mental and physical health, although it would be misleading to claim that every lonely period causes illness."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "These settings are not a guaranteed cure, but they create protective conditions."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "It recognises that connection becomes easier when societies design everyday life so that people can meet, contribute, and belong."
               }
             ]
           }
         ]
       },
+      "storyTitle": "The Architecture of Loneliness",
+      "mainTranscript": "Loneliness is often described as an individual emotion, yet its causes are partly shaped by the places and institutions around us. What many people lack is not constant company but meaningful, reliable connection. A person can feel lonely in a crowded office, while someone living alone may have a strong social network. This distinction matters because loneliness and social isolation are related but not identical. Research links persistent disconnection with poorer mental and physical health, although it would be misleading to claim that every lonely period causes illness. Stigma can make the problem worse: people may avoid admitting that they need companionship because they fear appearing unsuccessful. What communities can provide is social infrastructure—libraries, parks, affordable transport, clubs, and welcoming public spaces where repeated contact becomes possible. These settings are not a guaranteed cure, but they create protective conditions. Digital communication can also support relationships, particularly for people with limited mobility, provided it complements rather than replaces the forms of contact they value. It is regular participation, not a single cheerful event, that tends to build trust. Treating loneliness as a public-health issue does not remove personal agency. It recognises that connection becomes easier when societies design everyday life so that people can meet, contribute, and belong.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Loneliness is often described as an individual emotion, yet its causes are partly shaped by the places and institutions around us."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "What many people lack is not constant company but meaningful, reliable connection."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "A person can feel lonely in a crowded office, while someone living alone may have a strong social network."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "This distinction matters because loneliness and social isolation are related but not identical."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Research links persistent disconnection with poorer mental and physical health, although it would be misleading to claim that every lonely period causes illness."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Stigma can make the problem worse: people may avoid admitting that they need companionship because they fear appearing unsuccessful."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "What communities can provide is social infrastructure—libraries, parks, affordable transport, clubs, and welcoming public spaces where repeated contact becomes possible."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "These settings are not a guaranteed cure, but they create protective conditions."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Digital communication can also support relationships, particularly for people with limited mobility, provided it complements rather than replaces the forms of contact they value."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "It is regular participation, not a single cheerful event, that tends to build trust."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Treating loneliness as a public-health issue does not remove personal agency."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "It recognises that connection becomes easier when societies design everyday life so that people can meet, contribute, and belong."
+        }
+      ],
+      "listeningFormat": "calm-podcast",
+      "voiceStyle": "warm-calm",
+      "audioLocale": "en-US",
       "grammarTest": null
     },
     "exercises": [
@@ -30047,40 +30862,40 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Loneliness as a Public-Health Issue”, which detail establishes the situation?",
         "options": [
-          "Host: Today we are examining loneliness as a public-health issue.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Loneliness is often described as an individual emotion, yet its causes are partly shaped by the places and institutions around us.",
+          "Research links persistent disconnection with poorer mental and physical health, although it would be misleading to claim that every lonely period causes illness.",
+          "These settings are not a guaranteed cure, but they create protective conditions.",
+          "It recognises that connection becomes easier when societies design everyday life so that people can meet, contribute, and belong."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining loneliness as a public-health issue.”, what happens next in “Listening Lab: Loneliness as a Public-Health Issue”?",
+        "prompt": "After “Loneliness is often described as an individual emotion, yet its causes…”, what happens next in “Listening Lab: Loneliness as a Public-Health Issue”?",
         "options": [
-          "Host: Today we are examining loneliness as a public-health issue.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Loneliness is often described as an individual emotion, yet its causes are partly shaped by the places and institutions around us.",
+          "Research links persistent disconnection with poorer mental and physical health, although it would be misleading to claim that every lonely period causes illness.",
+          "These settings are not a guaranteed cure, but they create protective conditions.",
+          "It recognises that connection becomes easier when societies design everyday life so that people can meet, contribute, and belong."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Loneliness as a Public-Health Issue”?",
         "options": [
-          "Host: Today we are examining loneliness as a public-health issue.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Loneliness is often described as an individual emotion, yet its causes are partly shaped by the places and institutions around us.",
+          "Research links persistent disconnection with poorer mental and physical health, although it would be misleading to claim that every lonely period causes illness.",
+          "This distinction matters because loneliness and social isolation are related but not identical.",
+          "These settings are not a guaranteed cure, but they create protective conditions."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Loneliness as a Public-Health Issue” after “Because the central question is not only what happens, but also which…”?",
+        "prompt": "Which outcome closes “Listening Lab: Loneliness as a Public-Health Issue” after “This distinction matters because loneliness and social isolation are…”?",
         "options": [
-          "Host: Today we are examining loneliness as a public-health issue.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Loneliness is often described as an individual emotion, yet its causes are partly shaped by the places and institutions around us.",
+          "Research links persistent disconnection with poorer mental and physical health, although it would be misleading to claim that every lonely period causes illness.",
+          "These settings are not a guaranteed cure, but they create protective conditions.",
+          "It recognises that connection becomes easier when societies design everyday life so that people can meet, contribute, and belong."
         ]
       }
     ]
@@ -30109,45 +30924,18 @@
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Host",
-        "line": "Today we are examining reading, listening and multimodal learning. Why does this issue resist a simple answer?",
-        "translation": "Hoy analizamos reading, listening and multimodal learning. ¿Por qué este asunto no admite una respuesta sencilla?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-        "translation": "Porque la pregunta central no es solo qué sucede, sino también qué supuestos determinan cómo se interpreta la evidencia."
-      },
-      {
-        "speaker": "Host",
-        "line": "Which distinction should listeners keep in mind?",
-        "translation": "¿Qué distinción deben tener presente los oyentes?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable.",
-        "translation": "Deben distinguir un hallazgo establecido de una inferencia plausible y de un juicio de valor. Esas categorías pueden relacionarse, pero no son intercambiables."
-      },
-      {
-        "speaker": "Host",
-        "line": "How can we discuss the issue responsibly?",
-        "translation": "¿Cómo podemos hablar responsablemente del asunto?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
-        "translation": "Podemos definir los términos, reconocer un contraargumento serio y explicar qué evidencia nos haría revisar la conclusión."
+        "speaker": "Narrator",
+        "line": "A video containing speech, captions, animation, and written labels may appear educationally rich, yet adding modes does not guarantee deeper learning. Multimodality helps when each element performs a useful function. An image can clarify a physical process, captions can make unfamiliar speech easier to segment, and signalling can direct attention to a relevant detail. Problems arise when channels compete. If a learner must read a dense paragraph while listening to different wording and examining a decorative graphic, split attention may overwhelm working memory. The redundancy effect is similarly misunderstood. Repeating identical information can support a beginner who needs linguistic access, while burdening an expert who has already automated the material. Design must therefore respond to the learner, the task, and the moment. Captions are a useful example. They may improve comprehension and word recognition, but constant dependence can reduce attention to acoustic detail. Removing them completely may be equally unhelpful if comprehension collapses. A gradual approach—full captions, selective keywords, then audio alone—can redistribute attention over time. Cohesive economy also matters: interfaces should reference an idea consistently rather than renaming it for stylistic variety. The aim is not sensory abundance. It is coordination. A well-designed lesson allows sound, image, and text to reinforce a mental model without requiring the learner to solve the presentation itself before engaging with the content."
       }
     ],
     "reading": null,
-    "transcript": "Host: Today we are examining reading, listening and multimodal learning. Why does this issue resist a simple answer? Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted. Host: Which distinction should listeners keep in mind? Guest: They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable. Host: How can we discuss the issue responsibly? Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
+    "transcript": "A video containing speech, captions, animation, and written labels may appear educationally rich, yet adding modes does not guarantee deeper learning. Multimodality helps when each element performs a useful function. An image can clarify a physical process, captions can make unfamiliar speech easier to segment, and signalling can direct attention to a relevant detail. Problems arise when channels compete. If a learner must read a dense paragraph while listening to different wording and examining a decorative graphic, split attention may overwhelm working memory. The redundancy effect is similarly misunderstood. Repeating identical information can support a beginner who needs linguistic access, while burdening an expert who has already automated the material. Design must therefore respond to the learner, the task, and the moment. Captions are a useful example. They may improve comprehension and word recognition, but constant dependence can reduce attention to acoustic detail. Removing them completely may be equally unhelpful if comprehension collapses. A gradual approach—full captions, selective keywords, then audio alone—can redistribute attention over time. Cohesive economy also matters: interfaces should reference an idea consistently rather than renaming it for stylistic variety. The aim is not sensory abundance. It is coordination. A well-designed lesson allows sound, image, and text to reinforce a mental model without requiring the learner to solve the presentation itself before engaging with the content.",
     "extra": {
-      "listeningType": "interview",
+      "listeningType": "monologue",
       "difficulty": "C2",
-      "durationSeconds": 125,
+      "durationSeconds": 114,
       "speakers": [
-        "Host",
-        "Guest"
+        "Narrator"
       ],
       "phoneticSupport": {
         "enabled": true,
@@ -30174,42 +30962,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining reading, listening and multimodal learning."
+                "text": "A video containing speech, captions, animation, and written labels may appear educationally rich, yet adding modes does not guarantee deeper learning."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "The redundancy effect is similarly misunderstood."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Removing them completely may be equally unhelpful if comprehension collapses."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "A well-designed lesson allows sound, image, and text to reinforce a mental model without requiring the learner to solve the presentation itself before engaging with the content."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining reading, listening and multimodal learning.”, what happens next in “Listening Lab: Reading, Listening and Multimodal Learning”?",
+            "prompt": "After “A video containing speech, captions, animation, and written labels may…”, what happens next in “Listening Lab: Reading, Listening and Multimodal Learning”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining reading, listening and multimodal learning."
+                "text": "A video containing speech, captions, animation, and written labels may appear educationally rich, yet adding modes does not guarantee deeper learning."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "The redundancy effect is similarly misunderstood."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Removing them completely may be equally unhelpful if comprehension collapses."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "A well-designed lesson allows sound, image, and text to reinforce a mental model without requiring the learner to solve the presentation itself before engaging with the content."
               }
             ]
           },
@@ -30220,47 +31008,134 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining reading, listening and multimodal learning."
+                "text": "A video containing speech, captions, animation, and written labels may appear educationally rich, yet adding modes does not guarantee deeper learning."
               },
               {
                 "id": "o2",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "The redundancy effect is similarly misunderstood."
               },
               {
                 "id": "o3",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Cohesive economy also matters: interfaces should reference an idea consistently rather than renaming it for stylistic variety."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Removing them completely may be equally unhelpful if comprehension collapses."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Reading, Listening and Multimodal Learning” after “Because the central question is not only what happens, but also which…”?",
+            "prompt": "Which outcome closes “Listening Lab: Reading, Listening and Multimodal Learning” after “Cohesive economy also matters: interfaces should reference an idea…”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining reading, listening and multimodal learning."
+                "text": "A video containing speech, captions, animation, and written labels may appear educationally rich, yet adding modes does not guarantee deeper learning."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "The redundancy effect is similarly misunderstood."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Removing them completely may be equally unhelpful if comprehension collapses."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "A well-designed lesson allows sound, image, and text to reinforce a mental model without requiring the learner to solve the presentation itself before engaging with the content."
               }
             ]
           }
         ]
       },
+      "storyTitle": "When Multimedia Overloads the Mind",
+      "mainTranscript": "A video containing speech, captions, animation, and written labels may appear educationally rich, yet adding modes does not guarantee deeper learning. Multimodality helps when each element performs a useful function. An image can clarify a physical process, captions can make unfamiliar speech easier to segment, and signalling can direct attention to a relevant detail. Problems arise when channels compete. If a learner must read a dense paragraph while listening to different wording and examining a decorative graphic, split attention may overwhelm working memory. The redundancy effect is similarly misunderstood. Repeating identical information can support a beginner who needs linguistic access, while burdening an expert who has already automated the material. Design must therefore respond to the learner, the task, and the moment. Captions are a useful example. They may improve comprehension and word recognition, but constant dependence can reduce attention to acoustic detail. Removing them completely may be equally unhelpful if comprehension collapses. A gradual approach—full captions, selective keywords, then audio alone—can redistribute attention over time. Cohesive economy also matters: interfaces should reference an idea consistently rather than renaming it for stylistic variety. The aim is not sensory abundance. It is coordination. A well-designed lesson allows sound, image, and text to reinforce a mental model without requiring the learner to solve the presentation itself before engaging with the content.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "A video containing speech, captions, animation, and written labels may appear educationally rich, yet adding modes does not guarantee deeper learning."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Multimodality helps when each element performs a useful function."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "An image can clarify a physical process, captions can make unfamiliar speech easier to segment, and signalling can direct attention to a relevant detail."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "Problems arise when channels compete."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "If a learner must read a dense paragraph while listening to different wording and examining a decorative graphic, split attention may overwhelm working memory."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "The redundancy effect is similarly misunderstood."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Repeating identical information can support a beginner who needs linguistic access, while burdening an expert who has already automated the material."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Design must therefore respond to the learner, the task, and the moment."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Captions are a useful example."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "They may improve comprehension and word recognition, but constant dependence can reduce attention to acoustic detail."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Removing them completely may be equally unhelpful if comprehension collapses."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "A gradual approach—full captions, selective keywords, then audio alone—can redistribute attention over time."
+        },
+        {
+          "id": "segment-13",
+          "order": 13,
+          "text": "Cohesive economy also matters: interfaces should reference an idea consistently rather than renaming it for stylistic variety."
+        },
+        {
+          "id": "segment-14",
+          "order": 14,
+          "text": "The aim is not sensory abundance."
+        },
+        {
+          "id": "segment-15",
+          "order": 15,
+          "text": "It is coordination."
+        },
+        {
+          "id": "segment-16",
+          "order": 16,
+          "text": "A well-designed lesson allows sound, image, and text to reinforce a mental model without requiring the learner to solve the presentation itself before engaging with the content."
+        }
+      ],
+      "listeningFormat": "expert-explainer",
+      "voiceStyle": "calm-explainer",
+      "audioLocale": "en-US",
       "grammarTest": null
     },
     "exercises": [
@@ -30268,40 +31143,40 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Reading, Listening and Multimodal Learning”, which detail establishes the situation?",
         "options": [
-          "Host: Today we are examining reading, listening and multimodal learning.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "A video containing speech, captions, animation, and written labels may appear educationally rich, yet adding modes does not guarantee deeper learning.",
+          "The redundancy effect is similarly misunderstood.",
+          "Removing them completely may be equally unhelpful if comprehension collapses.",
+          "A well-designed lesson allows sound, image, and text to reinforce a mental model without requiring the learner to solve the presentation itself before engaging with the content."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining reading, listening and multimodal learning.”, what happens next in “Listening Lab: Reading, Listening and Multimodal Learning”?",
+        "prompt": "After “A video containing speech, captions, animation, and written labels may…”, what happens next in “Listening Lab: Reading, Listening and Multimodal Learning”?",
         "options": [
-          "Host: Today we are examining reading, listening and multimodal learning.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "A video containing speech, captions, animation, and written labels may appear educationally rich, yet adding modes does not guarantee deeper learning.",
+          "The redundancy effect is similarly misunderstood.",
+          "Removing them completely may be equally unhelpful if comprehension collapses.",
+          "A well-designed lesson allows sound, image, and text to reinforce a mental model without requiring the learner to solve the presentation itself before engaging with the content."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Reading, Listening and Multimodal Learning”?",
         "options": [
-          "Host: Today we are examining reading, listening and multimodal learning.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "A video containing speech, captions, animation, and written labels may appear educationally rich, yet adding modes does not guarantee deeper learning.",
+          "The redundancy effect is similarly misunderstood.",
+          "Cohesive economy also matters: interfaces should reference an idea consistently rather than renaming it for stylistic variety.",
+          "Removing them completely may be equally unhelpful if comprehension collapses."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Reading, Listening and Multimodal Learning” after “Because the central question is not only what happens, but also which…”?",
+        "prompt": "Which outcome closes “Listening Lab: Reading, Listening and Multimodal Learning” after “Cohesive economy also matters: interfaces should reference an idea…”?",
         "options": [
-          "Host: Today we are examining reading, listening and multimodal learning.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "A video containing speech, captions, animation, and written labels may appear educationally rich, yet adding modes does not guarantee deeper learning.",
+          "The redundancy effect is similarly misunderstood.",
+          "Removing them completely may be equally unhelpful if comprehension collapses.",
+          "A well-designed lesson allows sound, image, and text to reinforce a mental model without requiring the learner to solve the presentation itself before engaging with the content."
         ]
       }
     ]
@@ -36240,33 +37115,63 @@
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "Narrator",
+        "line": "A financial coach reviews a typical monthly budget with two university students. Small subscriptions, food deliveries, and transport apps are costing more than they expected. If they cancel services they rarely use, they will save enough for an emergency fund. If they plan three simple meals each week, they can reduce food waste and avoid expensive last-minute orders. The coach does not tell them to stop enjoying life. Instead, she asks them to choose what is genuinely worth paying for. They create limits for flexible spending and set an automatic transfer for payday. They will also keep track of purchases for one month. A budget works best when it reflects real priorities, includes unexpected expenses, and leaves some room for entertainment."
+      }
+    ],
     "reading": null,
-    "transcript": "",
+    "transcript": "A financial coach reviews a typical monthly budget with two university students. Small subscriptions, food deliveries, and transport apps are costing more than they expected. If they cancel services they rarely use, they will save enough for an emergency fund. If they plan three simple meals each week, they can reduce food waste and avoid expensive last-minute orders. The coach does not tell them to stop enjoying life. Instead, she asks them to choose what is genuinely worth paying for. They create limits for flexible spending and set an automatic transfer for payday. They will also keep track of purchases for one month. A budget works best when it reflects real priorities, includes unexpected expenses, and leaves some room for entertainment.",
     "extra": {
-      "listeningType": "story",
-      "storyTitle": "Making the Numbers Work",
-      "mainTranscript": "Sarah explains the price of the course to Daniel. Daniel suggests looking at the monthly payment option and reducing a few non-essential expenses. Sarah says that if they plan carefully, she will be able to study without creating problems. They agree to review the budget again after one month.",
+      "listeningType": "monologue",
+      "storyTitle": "How to Control Monthly Spending",
+      "mainTranscript": "A financial coach reviews a typical monthly budget with two university students. Small subscriptions, food deliveries, and transport apps are costing more than they expected. If they cancel services they rarely use, they will save enough for an emergency fund. If they plan three simple meals each week, they can reduce food waste and avoid expensive last-minute orders. The coach does not tell them to stop enjoying life. Instead, she asks them to choose what is genuinely worth paying for. They create limits for flexible spending and set an automatic transfer for payday. They will also keep track of purchases for one month. A budget works best when it reflects real priorities, includes unexpected expenses, and leaves some room for entertainment.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Sarah explains the price of the course to Daniel."
+          "text": "A financial coach reviews a typical monthly budget with two university students."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "Daniel suggests looking at the monthly payment option and reducing a few non-essential expenses."
+          "text": "Small subscriptions, food deliveries, and transport apps are costing more than they expected."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "Sarah says that if they plan carefully, she will be able to study without creating problems."
+          "text": "If they cancel services they rarely use, they will save enough for an emergency fund."
         },
         {
           "id": "segment-04",
           "order": 4,
-          "text": "They agree to review the budget again after one month."
+          "text": "If they plan three simple meals each week, they can reduce food waste and avoid expensive last-minute orders."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "The coach does not tell them to stop enjoying life."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Instead, she asks them to choose what is genuinely worth paying for."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "They create limits for flexible spending and set an automatic transfer for payday."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "They will also keep track of purchases for one month."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "A budget works best when it reflects real priorities, includes unexpected expenses, and leaves some room for entertainment."
         }
       ],
       "listeningComprehension": {
@@ -36280,42 +37185,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Sarah explains the price of the course to Daniel."
+                "text": "A financial coach reviews a typical monthly budget with two university students."
               },
               {
                 "id": "o2",
-                "text": "Daniel suggests looking at the monthly payment option and reducing a few non-essential expenses."
+                "text": "If they plan three simple meals each week, they can reduce food waste and avoid expensive last-minute orders."
               },
               {
                 "id": "o3",
-                "text": "Sarah says that if they plan carefully, she will be able to study without creating problems."
+                "text": "Instead, she asks them to choose what is genuinely worth paying for."
               },
               {
                 "id": "o4",
-                "text": "They agree to review the budget again after one month."
+                "text": "A budget works best when it reflects real priorities, includes unexpected expenses, and leaves some room for entertainment."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Sarah explains the price of the course to Daniel.”, what happens next in “Making the Numbers Work”?",
+            "prompt": "After “A financial coach reviews a typical monthly budget with two university…”, what happens next in “Making the Numbers Work”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sarah explains the price of the course to Daniel."
+                "text": "A financial coach reviews a typical monthly budget with two university students."
               },
               {
                 "id": "o2",
-                "text": "Daniel suggests looking at the monthly payment option and reducing a few non-essential expenses."
+                "text": "If they plan three simple meals each week, they can reduce food waste and avoid expensive last-minute orders."
               },
               {
                 "id": "o3",
-                "text": "Sarah says that if they plan carefully, she will be able to study without creating problems."
+                "text": "Instead, she asks them to choose what is genuinely worth paying for."
               },
               {
                 "id": "o4",
-                "text": "They agree to review the budget again after one month."
+                "text": "A budget works best when it reflects real priorities, includes unexpected expenses, and leaves some room for entertainment."
               }
             ]
           },
@@ -36326,47 +37231,54 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Sarah explains the price of the course to Daniel."
+                "text": "A financial coach reviews a typical monthly budget with two university students."
               },
               {
                 "id": "o2",
-                "text": "Daniel suggests looking at the monthly payment option and reducing a few non-essential expenses."
+                "text": "Instead, she asks them to choose what is genuinely worth paying for."
               },
               {
                 "id": "o3",
-                "text": "Sarah says that if they plan carefully, she will be able to study without creating problems."
+                "text": "If they plan three simple meals each week, they can reduce food waste and avoid expensive last-minute orders."
               },
               {
                 "id": "o4",
-                "text": "They agree to review the budget again after one month."
+                "text": "A budget works best when it reflects real priorities, includes unexpected expenses, and leaves some room for entertainment."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Making the Numbers Work” after “Sarah says that if they plan carefully, she will be able to study…”?",
+            "prompt": "Which outcome closes “Making the Numbers Work” after “If they plan three simple meals each week, they can reduce food waste…”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sarah explains the price of the course to Daniel."
+                "text": "A financial coach reviews a typical monthly budget with two university students."
               },
               {
                 "id": "o2",
-                "text": "Daniel suggests looking at the monthly payment option and reducing a few non-essential expenses."
+                "text": "If they plan three simple meals each week, they can reduce food waste and avoid expensive last-minute orders."
               },
               {
                 "id": "o3",
-                "text": "Sarah says that if they plan carefully, she will be able to study without creating problems."
+                "text": "Instead, she asks them to choose what is genuinely worth paying for."
               },
               {
                 "id": "o4",
-                "text": "They agree to review the budget again after one month."
+                "text": "A budget works best when it reflects real priorities, includes unexpected expenses, and leaves some room for entertainment."
               }
             ]
           }
         ]
       },
+      "speakers": [
+        "Narrator"
+      ],
+      "durationSeconds": 54,
+      "audioLocale": "en-US",
+      "listeningFormat": "money-coaching",
+      "voiceStyle": "friendly-coach",
       "grammarTest": null
     },
     "exercises": [
@@ -36374,40 +37286,40 @@
         "type": "mcq",
         "prompt": "In “Making the Numbers Work”, which detail establishes the situation?",
         "options": [
-          "Sarah explains the price of the course to Daniel.",
-          "Daniel suggests looking at the monthly payment option and reducing a few non-essential expenses.",
-          "Sarah says that if they plan carefully, she will be able to study without creating problems.",
-          "They agree to review the budget again after one month."
+          "A financial coach reviews a typical monthly budget with two university students.",
+          "If they plan three simple meals each week, they can reduce food waste and avoid expensive last-minute orders.",
+          "Instead, she asks them to choose what is genuinely worth paying for.",
+          "A budget works best when it reflects real priorities, includes unexpected expenses, and leaves some room for entertainment."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Sarah explains the price of the course to Daniel.”, what happens next in “Making the Numbers Work”?",
+        "prompt": "After “A financial coach reviews a typical monthly budget with two university…”, what happens next in “Making the Numbers Work”?",
         "options": [
-          "Sarah explains the price of the course to Daniel.",
-          "Daniel suggests looking at the monthly payment option and reducing a few non-essential expenses.",
-          "Sarah says that if they plan carefully, she will be able to study without creating problems.",
-          "They agree to review the budget again after one month."
+          "A financial coach reviews a typical monthly budget with two university students.",
+          "If they plan three simple meals each week, they can reduce food waste and avoid expensive last-minute orders.",
+          "Instead, she asks them to choose what is genuinely worth paying for.",
+          "A budget works best when it reflects real priorities, includes unexpected expenses, and leaves some room for entertainment."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Making the Numbers Work”?",
         "options": [
-          "Sarah explains the price of the course to Daniel.",
-          "Daniel suggests looking at the monthly payment option and reducing a few non-essential expenses.",
-          "Sarah says that if they plan carefully, she will be able to study without creating problems.",
-          "They agree to review the budget again after one month."
+          "A financial coach reviews a typical monthly budget with two university students.",
+          "Instead, she asks them to choose what is genuinely worth paying for.",
+          "If they plan three simple meals each week, they can reduce food waste and avoid expensive last-minute orders.",
+          "A budget works best when it reflects real priorities, includes unexpected expenses, and leaves some room for entertainment."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Making the Numbers Work” after “Sarah says that if they plan carefully, she will be able to study…”?",
+        "prompt": "Which outcome closes “Making the Numbers Work” after “If they plan three simple meals each week, they can reduce food waste…”?",
         "options": [
-          "Sarah explains the price of the course to Daniel.",
-          "Daniel suggests looking at the monthly payment option and reducing a few non-essential expenses.",
-          "Sarah says that if they plan carefully, she will be able to study without creating problems.",
-          "They agree to review the budget again after one month."
+          "A financial coach reviews a typical monthly budget with two university students.",
+          "If they plan three simple meals each week, they can reduce food waste and avoid expensive last-minute orders.",
+          "Instead, she asks them to choose what is genuinely worth paying for.",
+          "A budget works best when it reflects real priorities, includes unexpected expenses, and leaves some room for entertainment."
         ]
       }
     ]
@@ -36702,45 +37614,18 @@
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Host",
-        "line": "Today we are examining migration and cultural identity. Why does this issue resist a simple answer?",
-        "translation": "Hoy analizamos migration and cultural identity. ¿Por qué este asunto no admite una respuesta sencilla?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-        "translation": "Porque la pregunta central no es solo qué sucede, sino también qué supuestos determinan cómo se interpreta la evidencia."
-      },
-      {
-        "speaker": "Host",
-        "line": "Which distinction should listeners keep in mind?",
-        "translation": "¿Qué distinción deben tener presente los oyentes?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable.",
-        "translation": "Deben distinguir un hallazgo establecido de una inferencia plausible y de un juicio de valor. Esas categorías pueden relacionarse, pero no son intercambiables."
-      },
-      {
-        "speaker": "Host",
-        "line": "How can we discuss the issue responsibly?",
-        "translation": "¿Cómo podemos hablar responsablemente del asunto?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
-        "translation": "Podemos definir los términos, reconocer un contraargumento serio y explicar qué evidencia nos haría revisar la conclusión."
+        "speaker": "Narrator",
+        "line": "Our guest Maya grew up in a diaspora family. Maya, where do you call home? Home is not a single place. My parents, whose roots are in Jamaica, taught me family stories and music. Manchester, where I was born, shaped my education and friendships. Both places belong to my identity. What does successful integration mean to you? It means participating fully in the host community without being required to erase your heritage. Assimilation, which expects people to abandon visible differences, creates a false choice. The neighbors who welcomed my parents also became part of our story. Does a layered identity ever feel difficult? Certainly. There are moments when others question my belonging or ask where I am “really” from. But the communities in which cultures meet can create new traditions. Identity is not a suitcase with room for only one object; it is a relationship among memory, place and the people with whom we build a life."
       }
     ],
     "reading": null,
-    "transcript": "Host: Today we are examining migration and cultural identity. Why does this issue resist a simple answer? Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted. Host: Which distinction should listeners keep in mind? Guest: They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable. Host: How can we discuss the issue responsibly? Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
+    "transcript": "Our guest Maya grew up in a diaspora family. Maya, where do you call home? Home is not a single place. My parents, whose roots are in Jamaica, taught me family stories and music. Manchester, where I was born, shaped my education and friendships. Both places belong to my identity. What does successful integration mean to you? It means participating fully in the host community without being required to erase your heritage. Assimilation, which expects people to abandon visible differences, creates a false choice. The neighbors who welcomed my parents also became part of our story. Does a layered identity ever feel difficult? Certainly. There are moments when others question my belonging or ask where I am “really” from. But the communities in which cultures meet can create new traditions. Identity is not a suitcase with room for only one object; it is a relationship among memory, place and the people with whom we build a life.",
     "extra": {
-      "listeningType": "interview",
+      "listeningType": "monologue",
       "difficulty": "B2",
-      "durationSeconds": 85,
+      "durationSeconds": 75,
       "speakers": [
-        "Host",
-        "Guest"
+        "Narrator"
       ],
       "phoneticSupport": {
         "enabled": true,
@@ -36767,42 +37652,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining migration and cultural identity."
+                "text": "Our guest Maya grew up in a diaspora family."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Both places belong to my identity."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "The neighbors who welcomed my parents also became part of our story."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Identity is not a suitcase with room for only one object; it is a relationship among memory, place and the people with whom we build a life."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining migration and cultural identity.”, what happens next in “Listening Lab: Migration and Cultural Identity”?",
+            "prompt": "After “Our guest Maya grew up in a diaspora family.”, what happens next in “Listening Lab: Migration and Cultural Identity”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining migration and cultural identity."
+                "text": "Our guest Maya grew up in a diaspora family."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Both places belong to my identity."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "The neighbors who welcomed my parents also became part of our story."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Identity is not a suitcase with room for only one object; it is a relationship among memory, place and the people with whom we build a life."
               }
             ]
           },
@@ -36813,47 +37698,129 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining migration and cultural identity."
+                "text": "Our guest Maya grew up in a diaspora family."
               },
               {
                 "id": "o2",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Both places belong to my identity."
               },
               {
                 "id": "o3",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "The neighbors who welcomed my parents also became part of our story."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Identity is not a suitcase with room for only one object; it is a relationship among memory, place and the people with whom we build a life."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Migration and Cultural Identity” after “Because the central question is not only what happens, but also which…”?",
+            "prompt": "Which outcome closes “Listening Lab: Migration and Cultural Identity” after “The neighbors who welcomed my parents also became part of our story.”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining migration and cultural identity."
+                "text": "Our guest Maya grew up in a diaspora family."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Both places belong to my identity."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "The neighbors who welcomed my parents also became part of our story."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Identity is not a suitcase with room for only one object; it is a relationship among memory, place and the people with whom we build a life."
               }
             ]
           }
         ]
       },
+      "storyTitle": "Living Between Languages and Cultures",
+      "mainTranscript": "Our guest Maya grew up in a diaspora family. Maya, where do you call home? Home is not a single place. My parents, whose roots are in Jamaica, taught me family stories and music. Manchester, where I was born, shaped my education and friendships. Both places belong to my identity. What does successful integration mean to you? It means participating fully in the host community without being required to erase your heritage. Assimilation, which expects people to abandon visible differences, creates a false choice. The neighbors who welcomed my parents also became part of our story. Does a layered identity ever feel difficult? Certainly. There are moments when others question my belonging or ask where I am “really” from. But the communities in which cultures meet can create new traditions. Identity is not a suitcase with room for only one object; it is a relationship among memory, place and the people with whom we build a life.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Our guest Maya grew up in a diaspora family."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Maya, where do you call home?"
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Home is not a single place."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "My parents, whose roots are in Jamaica, taught me family stories and music."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Manchester, where I was born, shaped my education and friendships."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Both places belong to my identity."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "What does successful integration mean to you?"
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "It means participating fully in the host community without being required to erase your heritage."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Assimilation, which expects people to abandon visible differences, creates a false choice."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "The neighbors who welcomed my parents also became part of our story."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Does a layered identity ever feel difficult?"
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "Certainly."
+        },
+        {
+          "id": "segment-13",
+          "order": 13,
+          "text": "There are moments when others question my belonging or ask where I am “really” from."
+        },
+        {
+          "id": "segment-14",
+          "order": 14,
+          "text": "But the communities in which cultures meet can create new traditions."
+        },
+        {
+          "id": "segment-15",
+          "order": 15,
+          "text": "Identity is not a suitcase with room for only one object; it is a relationship among memory, place and the people with whom we build a life."
+        }
+      ],
+      "audioLocale": "en-US",
+      "listeningFormat": "testimony",
+      "voiceStyle": "warm-documentary",
       "grammarTest": null
     },
     "exercises": [
@@ -36861,40 +37828,40 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Migration and Cultural Identity”, which detail establishes the situation?",
         "options": [
-          "Host: Today we are examining migration and cultural identity.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Our guest Maya grew up in a diaspora family.",
+          "Both places belong to my identity.",
+          "The neighbors who welcomed my parents also became part of our story.",
+          "Identity is not a suitcase with room for only one object; it is a relationship among memory, place and the people with whom we build a life."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining migration and cultural identity.”, what happens next in “Listening Lab: Migration and Cultural Identity”?",
+        "prompt": "After “Our guest Maya grew up in a diaspora family.”, what happens next in “Listening Lab: Migration and Cultural Identity”?",
         "options": [
-          "Host: Today we are examining migration and cultural identity.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Our guest Maya grew up in a diaspora family.",
+          "Both places belong to my identity.",
+          "The neighbors who welcomed my parents also became part of our story.",
+          "Identity is not a suitcase with room for only one object; it is a relationship among memory, place and the people with whom we build a life."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Migration and Cultural Identity”?",
         "options": [
-          "Host: Today we are examining migration and cultural identity.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Our guest Maya grew up in a diaspora family.",
+          "Both places belong to my identity.",
+          "The neighbors who welcomed my parents also became part of our story.",
+          "Identity is not a suitcase with room for only one object; it is a relationship among memory, place and the people with whom we build a life."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Migration and Cultural Identity” after “Because the central question is not only what happens, but also which…”?",
+        "prompt": "Which outcome closes “Listening Lab: Migration and Cultural Identity” after “The neighbors who welcomed my parents also became part of our story.”?",
         "options": [
-          "Host: Today we are examining migration and cultural identity.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Our guest Maya grew up in a diaspora family.",
+          "Both places belong to my identity.",
+          "The neighbors who welcomed my parents also became part of our story.",
+          "Identity is not a suitcase with room for only one object; it is a relationship among memory, place and the people with whom we build a life."
         ]
       }
     ]
@@ -36923,45 +37890,18 @@
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Host",
-        "line": "Today we are examining ageing and the care economy. Why does this issue resist a simple answer?",
-        "translation": "Hoy analizamos ageing and the care economy. ¿Por qué este asunto no admite una respuesta sencilla?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-        "translation": "Porque la pregunta central no es solo qué sucede, sino también qué supuestos determinan cómo se interpreta la evidencia."
-      },
-      {
-        "speaker": "Host",
-        "line": "Which distinction should listeners keep in mind?",
-        "translation": "¿Qué distinción deben tener presente los oyentes?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable.",
-        "translation": "Deben distinguir un hallazgo establecido de una inferencia plausible y de un juicio de valor. Esas categorías pueden relacionarse, pero no son intercambiables."
-      },
-      {
-        "speaker": "Host",
-        "line": "How can we discuss the issue responsibly?",
-        "translation": "¿Cómo podemos hablar responsablemente del asunto?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
-        "translation": "Podemos definir los términos, reconocer un contraargumento serio y explicar qué evidencia nos haría revisar la conclusión."
+        "speaker": "Narrator",
+        "line": "Longer life expectancy is a major social achievement, but it exposes a question many countries have postponed: who will provide long-term care, and under what conditions? Never have so many families had to combine paid employment with support for an older relative. Much of that work remains unpaid and is disproportionately carried out by women. Care workers, meanwhile, often perform demanding tasks for low wages, even as staff shortages increase. Rarely does the debate acknowledge that care is both an intimate relationship and essential economic infrastructure. If a daughter reduces her hours to support a parent, the cost appears in her income, pension, and career progression. If formal services are unavailable, hospitals may keep patients who could recover safely elsewhere. The dependency ratio is frequently used to describe an ageing population, yet it can oversimplify reality. Many older adults remain employed, support relatives, volunteer, and contribute knowledge to their communities. Healthy ageing therefore depends not only on medical treatment but on accessible housing, transport, prevention, and freedom from ageism. A sustainable care economy would pay workers fairly, give unpaid carers genuine respite, and allow older people to influence the support they receive. Only when care is treated as a shared responsibility can longer lives remain a collective success rather than a private crisis."
       }
     ],
     "reading": null,
-    "transcript": "Host: Today we are examining ageing and the care economy. Why does this issue resist a simple answer? Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted. Host: Which distinction should listeners keep in mind? Guest: They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable. Host: How can we discuss the issue responsibly? Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
+    "transcript": "Longer life expectancy is a major social achievement, but it exposes a question many countries have postponed: who will provide long-term care, and under what conditions? Never have so many families had to combine paid employment with support for an older relative. Much of that work remains unpaid and is disproportionately carried out by women. Care workers, meanwhile, often perform demanding tasks for low wages, even as staff shortages increase. Rarely does the debate acknowledge that care is both an intimate relationship and essential economic infrastructure. If a daughter reduces her hours to support a parent, the cost appears in her income, pension, and career progression. If formal services are unavailable, hospitals may keep patients who could recover safely elsewhere. The dependency ratio is frequently used to describe an ageing population, yet it can oversimplify reality. Many older adults remain employed, support relatives, volunteer, and contribute knowledge to their communities. Healthy ageing therefore depends not only on medical treatment but on accessible housing, transport, prevention, and freedom from ageism. A sustainable care economy would pay workers fairly, give unpaid carers genuine respite, and allow older people to influence the support they receive. Only when care is treated as a shared responsibility can longer lives remain a collective success rather than a private crisis.",
     "extra": {
-      "listeningType": "interview",
+      "listeningType": "monologue",
       "difficulty": "C1",
-      "durationSeconds": 105,
+      "durationSeconds": 102,
       "speakers": [
-        "Host",
-        "Guest"
+        "Narrator"
       ],
       "phoneticSupport": {
         "enabled": true,
@@ -36988,42 +37928,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining ageing and the care economy."
+                "text": "Longer life expectancy is a major social achievement, but it exposes a question many countries have postponed: who will provide long-term care, and under what conditions?"
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Rarely does the debate acknowledge that care is both an intimate relationship and essential economic infrastructure."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "The dependency ratio is frequently used to describe an ageing population, yet it can oversimplify reality."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Only when care is treated as a shared responsibility can longer lives remain a collective success rather than a private crisis."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining ageing and the care economy.”, what happens next in “Listening Lab: Ageing and the Care Economy”?",
+            "prompt": "After “Longer life expectancy is a major social achievement, but it exposes a…”, what happens next in “Listening Lab: Ageing and the Care Economy”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining ageing and the care economy."
+                "text": "Longer life expectancy is a major social achievement, but it exposes a question many countries have postponed: who will provide long-term care, and under what conditions?"
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Rarely does the debate acknowledge that care is both an intimate relationship and essential economic infrastructure."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "The dependency ratio is frequently used to describe an ageing population, yet it can oversimplify reality."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Only when care is treated as a shared responsibility can longer lives remain a collective success rather than a private crisis."
               }
             ]
           },
@@ -37034,47 +37974,114 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining ageing and the care economy."
+                "text": "Longer life expectancy is a major social achievement, but it exposes a question many countries have postponed: who will provide long-term care, and under what conditions?"
               },
               {
                 "id": "o2",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Rarely does the debate acknowledge that care is both an intimate relationship and essential economic infrastructure."
               },
               {
                 "id": "o3",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "The dependency ratio is frequently used to describe an ageing population, yet it can oversimplify reality."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Only when care is treated as a shared responsibility can longer lives remain a collective success rather than a private crisis."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Ageing and the Care Economy” after “Because the central question is not only what happens, but also which…”?",
+            "prompt": "Which outcome closes “Listening Lab: Ageing and the Care Economy” after “The dependency ratio is frequently used to describe an ageing…”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining ageing and the care economy."
+                "text": "Longer life expectancy is a major social achievement, but it exposes a question many countries have postponed: who will provide long-term care, and under what conditions?"
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Rarely does the debate acknowledge that care is both an intimate relationship and essential economic infrastructure."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "The dependency ratio is frequently used to describe an ageing population, yet it can oversimplify reality."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Only when care is treated as a shared responsibility can longer lives remain a collective success rather than a private crisis."
               }
             ]
           }
         ]
       },
+      "storyTitle": "Who Cares in an Ageing Society?",
+      "mainTranscript": "Longer life expectancy is a major social achievement, but it exposes a question many countries have postponed: who will provide long-term care, and under what conditions? Never have so many families had to combine paid employment with support for an older relative. Much of that work remains unpaid and is disproportionately carried out by women. Care workers, meanwhile, often perform demanding tasks for low wages, even as staff shortages increase. Rarely does the debate acknowledge that care is both an intimate relationship and essential economic infrastructure. If a daughter reduces her hours to support a parent, the cost appears in her income, pension, and career progression. If formal services are unavailable, hospitals may keep patients who could recover safely elsewhere. The dependency ratio is frequently used to describe an ageing population, yet it can oversimplify reality. Many older adults remain employed, support relatives, volunteer, and contribute knowledge to their communities. Healthy ageing therefore depends not only on medical treatment but on accessible housing, transport, prevention, and freedom from ageism. A sustainable care economy would pay workers fairly, give unpaid carers genuine respite, and allow older people to influence the support they receive. Only when care is treated as a shared responsibility can longer lives remain a collective success rather than a private crisis.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Longer life expectancy is a major social achievement, but it exposes a question many countries have postponed: who will provide long-term care, and under what conditions?"
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Never have so many families had to combine paid employment with support for an older relative."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Much of that work remains unpaid and is disproportionately carried out by women."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "Care workers, meanwhile, often perform demanding tasks for low wages, even as staff shortages increase."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Rarely does the debate acknowledge that care is both an intimate relationship and essential economic infrastructure."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "If a daughter reduces her hours to support a parent, the cost appears in her income, pension, and career progression."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "If formal services are unavailable, hospitals may keep patients who could recover safely elsewhere."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "The dependency ratio is frequently used to describe an ageing population, yet it can oversimplify reality."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Many older adults remain employed, support relatives, volunteer, and contribute knowledge to their communities."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Healthy ageing therefore depends not only on medical treatment but on accessible housing, transport, prevention, and freedom from ageism."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "A sustainable care economy would pay workers fairly, give unpaid carers genuine respite, and allow older people to influence the support they receive."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "Only when care is treated as a shared responsibility can longer lives remain a collective success rather than a private crisis."
+        }
+      ],
+      "listeningFormat": "conference-talk",
+      "voiceStyle": "calm-news",
+      "audioLocale": "en-US",
       "grammarTest": null
     },
     "exercises": [
@@ -37082,40 +38089,40 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Ageing and the Care Economy”, which detail establishes the situation?",
         "options": [
-          "Host: Today we are examining ageing and the care economy.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Longer life expectancy is a major social achievement, but it exposes a question many countries have postponed: who will provide long-term care, and under what conditions?",
+          "Rarely does the debate acknowledge that care is both an intimate relationship and essential economic infrastructure.",
+          "The dependency ratio is frequently used to describe an ageing population, yet it can oversimplify reality.",
+          "Only when care is treated as a shared responsibility can longer lives remain a collective success rather than a private crisis."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining ageing and the care economy.”, what happens next in “Listening Lab: Ageing and the Care Economy”?",
+        "prompt": "After “Longer life expectancy is a major social achievement, but it exposes a…”, what happens next in “Listening Lab: Ageing and the Care Economy”?",
         "options": [
-          "Host: Today we are examining ageing and the care economy.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Longer life expectancy is a major social achievement, but it exposes a question many countries have postponed: who will provide long-term care, and under what conditions?",
+          "Rarely does the debate acknowledge that care is both an intimate relationship and essential economic infrastructure.",
+          "The dependency ratio is frequently used to describe an ageing population, yet it can oversimplify reality.",
+          "Only when care is treated as a shared responsibility can longer lives remain a collective success rather than a private crisis."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Ageing and the Care Economy”?",
         "options": [
-          "Host: Today we are examining ageing and the care economy.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Longer life expectancy is a major social achievement, but it exposes a question many countries have postponed: who will provide long-term care, and under what conditions?",
+          "Rarely does the debate acknowledge that care is both an intimate relationship and essential economic infrastructure.",
+          "The dependency ratio is frequently used to describe an ageing population, yet it can oversimplify reality.",
+          "Only when care is treated as a shared responsibility can longer lives remain a collective success rather than a private crisis."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Ageing and the Care Economy” after “Because the central question is not only what happens, but also which…”?",
+        "prompt": "Which outcome closes “Listening Lab: Ageing and the Care Economy” after “The dependency ratio is frequently used to describe an ageing…”?",
         "options": [
-          "Host: Today we are examining ageing and the care economy.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Longer life expectancy is a major social achievement, but it exposes a question many countries have postponed: who will provide long-term care, and under what conditions?",
+          "Rarely does the debate acknowledge that care is both an intimate relationship and essential economic infrastructure.",
+          "The dependency ratio is frequently used to describe an ageing population, yet it can oversimplify reality.",
+          "Only when care is treated as a shared responsibility can longer lives remain a collective success rather than a private crisis."
         ]
       }
     ]
@@ -37144,45 +38151,18 @@
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Host",
-        "line": "Today we are examining interaction, output and negotiation of meaning. Why does this issue resist a simple answer?",
-        "translation": "Hoy analizamos interaction, output and negotiation of meaning. ¿Por qué este asunto no admite una respuesta sencilla?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-        "translation": "Porque la pregunta central no es solo qué sucede, sino también qué supuestos determinan cómo se interpreta la evidencia."
-      },
-      {
-        "speaker": "Host",
-        "line": "Which distinction should listeners keep in mind?",
-        "translation": "¿Qué distinción deben tener presente los oyentes?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable.",
-        "translation": "Deben distinguir un hallazgo establecido de una inferencia plausible y de un juicio de valor. Esas categorías pueden relacionarse, pero no son intercambiables."
-      },
-      {
-        "speaker": "Host",
-        "line": "How can we discuss the issue responsibly?",
-        "translation": "¿Cómo podemos hablar responsablemente del asunto?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
-        "translation": "Podemos definir los términos, reconocer un contraargumento serio y explicar qué evidencia nos haría revisar la conclusión."
+        "speaker": "Narrator",
+        "line": "Conversation becomes especially valuable when understanding briefly fails. A listener may use a clarification request, a comprehension check, or a confirmation check: “Do you mean the deadline changed?” The speaker then repeats, simplifies, or produces a more precise form. This negotiation of meaning is not merely damage control. It makes linguistic gaps visible at the exact moment communication gives them significance. Researchers have argued that output pushes learners beyond recognition. An idea that feels clear internally may prove difficult to express, revealing missing vocabulary or uncertain grammar. Modified output—the revised sentence produced after a problem—can therefore function as a small experiment. The learner tests whether a new form succeeds. Not every interaction generates learning, of course. More proficient speakers may complete sentences too quickly, and anxious learners may accept misunderstanding rather than interrupt. The quality of participation depends on whether repair is socially safe. Teachers can model neutral phrases and allow enough time for a speaker to self-correct. Digital conversation creates additional possibilities, including transcripts and replay, but it may remove facial cues that support understanding. The important unit is not speech alone; it is the sequence of attempt, response, adjustment, and renewed understanding. A fluent conversation hides much of this work. A productive learning conversation occasionally exposes it. What appears to be a disruption is often the point at which attention, form, and communicative purpose become most closely aligned."
       }
     ],
     "reading": null,
-    "transcript": "Host: Today we are examining interaction, output and negotiation of meaning. Why does this issue resist a simple answer? Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted. Host: Which distinction should listeners keep in mind? Guest: They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable. Host: How can we discuss the issue responsibly? Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
+    "transcript": "Conversation becomes especially valuable when understanding briefly fails. A listener may use a clarification request, a comprehension check, or a confirmation check: “Do you mean the deadline changed?” The speaker then repeats, simplifies, or produces a more precise form. This negotiation of meaning is not merely damage control. It makes linguistic gaps visible at the exact moment communication gives them significance. Researchers have argued that output pushes learners beyond recognition. An idea that feels clear internally may prove difficult to express, revealing missing vocabulary or uncertain grammar. Modified output—the revised sentence produced after a problem—can therefore function as a small experiment. The learner tests whether a new form succeeds. Not every interaction generates learning, of course. More proficient speakers may complete sentences too quickly, and anxious learners may accept misunderstanding rather than interrupt. The quality of participation depends on whether repair is socially safe. Teachers can model neutral phrases and allow enough time for a speaker to self-correct. Digital conversation creates additional possibilities, including transcripts and replay, but it may remove facial cues that support understanding. The important unit is not speech alone; it is the sequence of attempt, response, adjustment, and renewed understanding. A fluent conversation hides much of this work. A productive learning conversation occasionally exposes it. What appears to be a disruption is often the point at which attention, form, and communicative purpose become most closely aligned.",
     "extra": {
-      "listeningType": "interview",
+      "listeningType": "monologue",
       "difficulty": "C2",
-      "durationSeconds": 125,
+      "durationSeconds": 120,
       "speakers": [
-        "Host",
-        "Guest"
+        "Narrator"
       ],
       "phoneticSupport": {
         "enabled": true,
@@ -37209,42 +38189,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining interaction, output and negotiation of meaning."
+                "text": "Conversation becomes especially valuable when understanding briefly fails."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Modified output—the revised sentence produced after a problem—can therefore function as a small experiment."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Digital conversation creates additional possibilities, including transcripts and replay, but it may remove facial cues that support understanding."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "The speaker then repeats, simplifies, or produces a more precise form."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining interaction, output and negotiation of meaning.”, what happens next in “Listening Lab: Interaction, Output and Negotiation of Meaning”?",
+            "prompt": "After “Conversation becomes especially valuable when understanding briefly…”, what happens next in “Listening Lab: Interaction, Output and Negotiation of Meaning”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining interaction, output and negotiation of meaning."
+                "text": "Conversation becomes especially valuable when understanding briefly fails."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Modified output—the revised sentence produced after a problem—can therefore function as a small experiment."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Digital conversation creates additional possibilities, including transcripts and replay, but it may remove facial cues that support understanding."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "The speaker then repeats, simplifies, or produces a more precise form."
               }
             ]
           },
@@ -37255,47 +38235,139 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining interaction, output and negotiation of meaning."
+                "text": "Conversation becomes especially valuable when understanding briefly fails."
               },
               {
                 "id": "o2",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Modified output—the revised sentence produced after a problem—can therefore function as a small experiment."
               },
               {
                 "id": "o3",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Digital conversation creates additional possibilities, including transcripts and replay, but it may remove facial cues that support understanding."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "The speaker then repeats, simplifies, or produces a more precise form."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Interaction, Output and Negotiation of Meaning” after “Because the central question is not only what happens, but also which…”?",
+            "prompt": "Which outcome closes “Listening Lab: Interaction, Output and Negotiation of Meaning” after “Digital conversation creates additional possibilities, including…”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining interaction, output and negotiation of meaning."
+                "text": "Conversation becomes especially valuable when understanding briefly fails."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Modified output—the revised sentence produced after a problem—can therefore function as a small experiment."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Digital conversation creates additional possibilities, including transcripts and replay, but it may remove facial cues that support understanding."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "The speaker then repeats, simplifies, or produces a more precise form."
               }
             ]
           }
         ]
       },
+      "storyTitle": "How Conversation Repairs Build Fluency",
+      "mainTranscript": "Conversation becomes especially valuable when understanding briefly fails. A listener may use a clarification request, a comprehension check, or a confirmation check: “Do you mean the deadline changed?” The speaker then repeats, simplifies, or produces a more precise form. This negotiation of meaning is not merely damage control. It makes linguistic gaps visible at the exact moment communication gives them significance. Researchers have argued that output pushes learners beyond recognition. An idea that feels clear internally may prove difficult to express, revealing missing vocabulary or uncertain grammar. Modified output—the revised sentence produced after a problem—can therefore function as a small experiment. The learner tests whether a new form succeeds. Not every interaction generates learning, of course. More proficient speakers may complete sentences too quickly, and anxious learners may accept misunderstanding rather than interrupt. The quality of participation depends on whether repair is socially safe. Teachers can model neutral phrases and allow enough time for a speaker to self-correct. Digital conversation creates additional possibilities, including transcripts and replay, but it may remove facial cues that support understanding. The important unit is not speech alone; it is the sequence of attempt, response, adjustment, and renewed understanding. A fluent conversation hides much of this work. A productive learning conversation occasionally exposes it. What appears to be a disruption is often the point at which attention, form, and communicative purpose become most closely aligned.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Conversation becomes especially valuable when understanding briefly fails."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "A listener may use a clarification request, a comprehension check, or a confirmation check: “Do you mean the deadline changed?” The speaker then repeats, simplifies, or produces a more precise form."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "This negotiation of meaning is not merely damage control."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "It makes linguistic gaps visible at the exact moment communication gives them significance."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Researchers have argued that output pushes learners beyond recognition."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "An idea that feels clear internally may prove difficult to express, revealing missing vocabulary or uncertain grammar."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Modified output—the revised sentence produced after a problem—can therefore function as a small experiment."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "The learner tests whether a new form succeeds."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Not every interaction generates learning, of course."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "More proficient speakers may complete sentences too quickly, and anxious learners may accept misunderstanding rather than interrupt."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "The quality of participation depends on whether repair is socially safe."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "Teachers can model neutral phrases and allow enough time for a speaker to self-correct."
+        },
+        {
+          "id": "segment-13",
+          "order": 13,
+          "text": "Digital conversation creates additional possibilities, including transcripts and replay, but it may remove facial cues that support understanding."
+        },
+        {
+          "id": "segment-14",
+          "order": 14,
+          "text": "The important unit is not speech alone; it is the sequence of attempt, response, adjustment, and renewed understanding."
+        },
+        {
+          "id": "segment-15",
+          "order": 15,
+          "text": "A fluent conversation hides much of this work."
+        },
+        {
+          "id": "segment-16",
+          "order": 16,
+          "text": "A productive learning conversation occasionally exposes it."
+        },
+        {
+          "id": "segment-17",
+          "order": 17,
+          "text": "What appears to be a disruption is often the point at which attention, form, and communicative purpose become most closely aligned."
+        }
+      ],
+      "listeningFormat": "academic-podcast",
+      "voiceStyle": "conversational-academic",
+      "audioLocale": "en-US",
       "grammarTest": null
     },
     "exercises": [
@@ -37303,40 +38375,40 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Interaction, Output and Negotiation of Meaning”, which detail establishes the situation?",
         "options": [
-          "Host: Today we are examining interaction, output and negotiation of meaning.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Conversation becomes especially valuable when understanding briefly fails.",
+          "Modified output—the revised sentence produced after a problem—can therefore function as a small experiment.",
+          "Digital conversation creates additional possibilities, including transcripts and replay, but it may remove facial cues that support understanding.",
+          "The speaker then repeats, simplifies, or produces a more precise form."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining interaction, output and negotiation of meaning.”, what happens next in “Listening Lab: Interaction, Output and Negotiation of Meaning”?",
+        "prompt": "After “Conversation becomes especially valuable when understanding briefly…”, what happens next in “Listening Lab: Interaction, Output and Negotiation of Meaning”?",
         "options": [
-          "Host: Today we are examining interaction, output and negotiation of meaning.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Conversation becomes especially valuable when understanding briefly fails.",
+          "Modified output—the revised sentence produced after a problem—can therefore function as a small experiment.",
+          "Digital conversation creates additional possibilities, including transcripts and replay, but it may remove facial cues that support understanding.",
+          "The speaker then repeats, simplifies, or produces a more precise form."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Interaction, Output and Negotiation of Meaning”?",
         "options": [
-          "Host: Today we are examining interaction, output and negotiation of meaning.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Conversation becomes especially valuable when understanding briefly fails.",
+          "Modified output—the revised sentence produced after a problem—can therefore function as a small experiment.",
+          "Digital conversation creates additional possibilities, including transcripts and replay, but it may remove facial cues that support understanding.",
+          "The speaker then repeats, simplifies, or produces a more precise form."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Interaction, Output and Negotiation of Meaning” after “Because the central question is not only what happens, but also which…”?",
+        "prompt": "Which outcome closes “Listening Lab: Interaction, Output and Negotiation of Meaning” after “Digital conversation creates additional possibilities, including…”?",
         "options": [
-          "Host: Today we are examining interaction, output and negotiation of meaning.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Conversation becomes especially valuable when understanding briefly fails.",
+          "Modified output—the revised sentence produced after a problem—can therefore function as a small experiment.",
+          "Digital conversation creates additional possibilities, including transcripts and replay, but it may remove facial cues that support understanding.",
+          "The speaker then repeats, simplifies, or produces a more precise form."
         ]
       }
     ]
@@ -43274,33 +44346,58 @@
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "Narrator",
+        "line": "Technology reporter Jamal Brooks examines a message that appears to come from a delivery company. The message, which creates a sense of urgency, asks the user to open a link and pay a small fee. The website that receives the payment looks professional, but its address contains an extra letter. Jamal explains that scammers often use familiar brands and personal information to gain trust. People who receive suspicious messages should open the company’s official app instead of following the link. They can also activate two-step verification and avoid sharing security codes. Jamal points out that anyone can make a quick mistake when distracted. The safest digital habit is to pause, verify the request through another channel, and report the scam so other users are warned."
+      }
+    ],
     "reading": null,
-    "transcript": "",
+    "transcript": "Technology reporter Jamal Brooks examines a message that appears to come from a delivery company. The message, which creates a sense of urgency, asks the user to open a link and pay a small fee. The website that receives the payment looks professional, but its address contains an extra letter. Jamal explains that scammers often use familiar brands and personal information to gain trust. People who receive suspicious messages should open the company’s official app instead of following the link. They can also activate two-step verification and avoid sharing security codes. Jamal points out that anyone can make a quick mistake when distracted. The safest digital habit is to pause, verify the request through another channel, and report the scam so other users are warned.",
     "extra": {
-      "listeningType": "story",
-      "storyTitle": "A Phone-Free Dinner",
-      "mainTranscript": "Daniel asks Sarah whether they can have dinner without phones on the table. Sarah agrees, although she worries about missing an important message. Daniel says that people who really need her can call. They decide to switch off non-urgent notifications and enjoy the meal.",
+      "listeningType": "monologue",
+      "storyTitle": "How to Spot an Online Scam",
+      "mainTranscript": "Technology reporter Jamal Brooks examines a message that appears to come from a delivery company. The message, which creates a sense of urgency, asks the user to open a link and pay a small fee. The website that receives the payment looks professional, but its address contains an extra letter. Jamal explains that scammers often use familiar brands and personal information to gain trust. People who receive suspicious messages should open the company’s official app instead of following the link. They can also activate two-step verification and avoid sharing security codes. Jamal points out that anyone can make a quick mistake when distracted. The safest digital habit is to pause, verify the request through another channel, and report the scam so other users are warned.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Daniel asks Sarah whether they can have dinner without phones on the table."
+          "text": "Technology reporter Jamal Brooks examines a message that appears to come from a delivery company."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "Sarah agrees, although she worries about missing an important message."
+          "text": "The message, which creates a sense of urgency, asks the user to open a link and pay a small fee."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "Daniel says that people who really need her can call."
+          "text": "The website that receives the payment looks professional, but its address contains an extra letter."
         },
         {
           "id": "segment-04",
           "order": 4,
-          "text": "They decide to switch off non-urgent notifications and enjoy the meal."
+          "text": "Jamal explains that scammers often use familiar brands and personal information to gain trust."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "People who receive suspicious messages should open the company’s official app instead of following the link."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "They can also activate two-step verification and avoid sharing security codes."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Jamal points out that anyone can make a quick mistake when distracted."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "The safest digital habit is to pause, verify the request through another channel, and report the scam so other users are warned."
         }
       ],
       "listeningComprehension": {
@@ -43314,42 +44411,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Daniel asks Sarah whether they can have dinner without phones on the table."
+                "text": "Technology reporter Jamal Brooks examines a message that appears to come from a delivery company."
               },
               {
                 "id": "o2",
-                "text": "Sarah agrees, although she worries about missing an important message."
+                "text": "The website that receives the payment looks professional, but its address contains an extra letter."
               },
               {
                 "id": "o3",
-                "text": "Daniel says that people who really need her can call."
+                "text": "They can also activate two-step verification and avoid sharing security codes."
               },
               {
                 "id": "o4",
-                "text": "They decide to switch off non-urgent notifications and enjoy the meal."
+                "text": "The safest digital habit is to pause, verify the request through another channel, and report the scam so other users are warned."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Daniel asks Sarah whether they can have dinner without phones on the…”, what happens next in “A Phone-Free Dinner”?",
+            "prompt": "After “Technology reporter Jamal Brooks examines a message that appears to…”, what happens next in “A Phone-Free Dinner”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Daniel asks Sarah whether they can have dinner without phones on the table."
+                "text": "Technology reporter Jamal Brooks examines a message that appears to come from a delivery company."
               },
               {
                 "id": "o2",
-                "text": "Sarah agrees, although she worries about missing an important message."
+                "text": "The website that receives the payment looks professional, but its address contains an extra letter."
               },
               {
                 "id": "o3",
-                "text": "Daniel says that people who really need her can call."
+                "text": "They can also activate two-step verification and avoid sharing security codes."
               },
               {
                 "id": "o4",
-                "text": "They decide to switch off non-urgent notifications and enjoy the meal."
+                "text": "The safest digital habit is to pause, verify the request through another channel, and report the scam so other users are warned."
               }
             ]
           },
@@ -43360,47 +44457,54 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Daniel asks Sarah whether they can have dinner without phones on the table."
+                "text": "Technology reporter Jamal Brooks examines a message that appears to come from a delivery company."
               },
               {
                 "id": "o2",
-                "text": "Sarah agrees, although she worries about missing an important message."
+                "text": "The website that receives the payment looks professional, but its address contains an extra letter."
               },
               {
                 "id": "o3",
-                "text": "Daniel says that people who really need her can call."
+                "text": "People who receive suspicious messages should open the company’s official app instead of following the link."
               },
               {
                 "id": "o4",
-                "text": "They decide to switch off non-urgent notifications and enjoy the meal."
+                "text": "They can also activate two-step verification and avoid sharing security codes."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “A Phone-Free Dinner” after “Daniel says that people who really need her can call.”?",
+            "prompt": "Which outcome closes “A Phone-Free Dinner” after “People who receive suspicious messages should open the company’s…”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Daniel asks Sarah whether they can have dinner without phones on the table."
+                "text": "Technology reporter Jamal Brooks examines a message that appears to come from a delivery company."
               },
               {
                 "id": "o2",
-                "text": "Sarah agrees, although she worries about missing an important message."
+                "text": "The website that receives the payment looks professional, but its address contains an extra letter."
               },
               {
                 "id": "o3",
-                "text": "Daniel says that people who really need her can call."
+                "text": "They can also activate two-step verification and avoid sharing security codes."
               },
               {
                 "id": "o4",
-                "text": "They decide to switch off non-urgent notifications and enjoy the meal."
+                "text": "The safest digital habit is to pause, verify the request through another channel, and report the scam so other users are warned."
               }
             ]
           }
         ]
       },
+      "speakers": [
+        "Narrator"
+      ],
+      "durationSeconds": 56,
+      "audioLocale": "en-US",
+      "listeningFormat": "digital-safety-tutorial",
+      "voiceStyle": "digital-news",
       "grammarTest": null
     },
     "exercises": [
@@ -43408,40 +44512,40 @@
         "type": "mcq",
         "prompt": "In “A Phone-Free Dinner”, which detail establishes the situation?",
         "options": [
-          "Daniel asks Sarah whether they can have dinner without phones on the table.",
-          "Sarah agrees, although she worries about missing an important message.",
-          "Daniel says that people who really need her can call.",
-          "They decide to switch off non-urgent notifications and enjoy the meal."
+          "Technology reporter Jamal Brooks examines a message that appears to come from a delivery company.",
+          "The website that receives the payment looks professional, but its address contains an extra letter.",
+          "They can also activate two-step verification and avoid sharing security codes.",
+          "The safest digital habit is to pause, verify the request through another channel, and report the scam so other users are warned."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Daniel asks Sarah whether they can have dinner without phones on the…”, what happens next in “A Phone-Free Dinner”?",
+        "prompt": "After “Technology reporter Jamal Brooks examines a message that appears to…”, what happens next in “A Phone-Free Dinner”?",
         "options": [
-          "Daniel asks Sarah whether they can have dinner without phones on the table.",
-          "Sarah agrees, although she worries about missing an important message.",
-          "Daniel says that people who really need her can call.",
-          "They decide to switch off non-urgent notifications and enjoy the meal."
+          "Technology reporter Jamal Brooks examines a message that appears to come from a delivery company.",
+          "The website that receives the payment looks professional, but its address contains an extra letter.",
+          "They can also activate two-step verification and avoid sharing security codes.",
+          "The safest digital habit is to pause, verify the request through another channel, and report the scam so other users are warned."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “A Phone-Free Dinner”?",
         "options": [
-          "Daniel asks Sarah whether they can have dinner without phones on the table.",
-          "Sarah agrees, although she worries about missing an important message.",
-          "Daniel says that people who really need her can call.",
-          "They decide to switch off non-urgent notifications and enjoy the meal."
+          "Technology reporter Jamal Brooks examines a message that appears to come from a delivery company.",
+          "The website that receives the payment looks professional, but its address contains an extra letter.",
+          "People who receive suspicious messages should open the company’s official app instead of following the link.",
+          "They can also activate two-step verification and avoid sharing security codes."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “A Phone-Free Dinner” after “Daniel says that people who really need her can call.”?",
+        "prompt": "Which outcome closes “A Phone-Free Dinner” after “People who receive suspicious messages should open the company’s…”?",
         "options": [
-          "Daniel asks Sarah whether they can have dinner without phones on the table.",
-          "Sarah agrees, although she worries about missing an important message.",
-          "Daniel says that people who really need her can call.",
-          "They decide to switch off non-urgent notifications and enjoy the meal."
+          "Technology reporter Jamal Brooks examines a message that appears to come from a delivery company.",
+          "The website that receives the payment looks professional, but its address contains an extra letter.",
+          "They can also activate two-step verification and avoid sharing security codes.",
+          "The safest digital habit is to pause, verify the request through another channel, and report the scam so other users are warned."
         ]
       }
     ]
@@ -43741,45 +44845,18 @@
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Host",
-        "line": "Today we are examining housing inequality. Why does this issue resist a simple answer?",
-        "translation": "Hoy analizamos housing inequality. ¿Por qué este asunto no admite una respuesta sencilla?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-        "translation": "Porque la pregunta central no es solo qué sucede, sino también qué supuestos determinan cómo se interpreta la evidencia."
-      },
-      {
-        "speaker": "Host",
-        "line": "Which distinction should listeners keep in mind?",
-        "translation": "¿Qué distinción deben tener presente los oyentes?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable.",
-        "translation": "Deben distinguir un hallazgo establecido de una inferencia plausible y de un juicio de valor. Esas categorías pueden relacionarse, pero no son intercambiables."
-      },
-      {
-        "speaker": "Host",
-        "line": "How can we discuss the issue responsibly?",
-        "translation": "¿Cómo podemos hablar responsablemente del asunto?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
-        "translation": "Podemos definir los términos, reconocer un contraargumento serio y explicar qué evidencia nos haría revisar la conclusión."
+        "speaker": "Narrator",
+        "line": "Lena, a tenant in the city center, has received another rent increase. How serious is the change? Her rent is considerably higher than it was two years ago, while her salary is only slightly higher. The cost of living has risen much faster than household income, so affordable housing is becoming far harder to find. Landlords point to maintenance costs and a housing shortage. Those pressures are real, but the market is much less balanced than it appears. A landlord can often replace a tenant quickly, whereas a family facing displacement may have nowhere nearby to go. Would new construction solve the problem? It could help, especially where restrictive zoning limits supply. However, luxury development alone is far less effective than mixed housing that includes affordable units. The strongest policy would be more ambitious: protect existing tenants, build substantially more homes and connect housing decisions to transportation, wages and local services."
       }
     ],
     "reading": null,
-    "transcript": "Host: Today we are examining housing inequality. Why does this issue resist a simple answer? Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted. Host: Which distinction should listeners keep in mind? Guest: They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable. Host: How can we discuss the issue responsibly? Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
+    "transcript": "Lena, a tenant in the city center, has received another rent increase. How serious is the change? Her rent is considerably higher than it was two years ago, while her salary is only slightly higher. The cost of living has risen much faster than household income, so affordable housing is becoming far harder to find. Landlords point to maintenance costs and a housing shortage. Those pressures are real, but the market is much less balanced than it appears. A landlord can often replace a tenant quickly, whereas a family facing displacement may have nowhere nearby to go. Would new construction solve the problem? It could help, especially where restrictive zoning limits supply. However, luxury development alone is far less effective than mixed housing that includes affordable units. The strongest policy would be more ambitious: protect existing tenants, build substantially more homes and connect housing decisions to transportation, wages and local services.",
     "extra": {
-      "listeningType": "interview",
+      "listeningType": "monologue",
       "difficulty": "B2",
-      "durationSeconds": 85,
+      "durationSeconds": 72,
       "speakers": [
-        "Host",
-        "Guest"
+        "Narrator"
       ],
       "phoneticSupport": {
         "enabled": true,
@@ -43806,42 +44883,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining housing inequality."
+                "text": "Lena, a tenant in the city center, has received another rent increase."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "The cost of living has risen much faster than household income, so affordable housing is becoming far harder to find."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Would new construction solve the problem?"
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "The strongest policy would be more ambitious: protect existing tenants, build substantially more homes and connect housing decisions to transportation, wages and local services."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining housing inequality.”, what happens next in “Listening Lab: Housing Inequality”?",
+            "prompt": "After “Lena, a tenant in the city center, has received another rent increase.”, what happens next in “Listening Lab: Housing Inequality”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining housing inequality."
+                "text": "Lena, a tenant in the city center, has received another rent increase."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "The cost of living has risen much faster than household income, so affordable housing is becoming far harder to find."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Would new construction solve the problem?"
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "The strongest policy would be more ambitious: protect existing tenants, build substantially more homes and connect housing decisions to transportation, wages and local services."
               }
             ]
           },
@@ -43852,47 +44929,109 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining housing inequality."
+                "text": "Lena, a tenant in the city center, has received another rent increase."
               },
               {
                 "id": "o2",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "The cost of living has risen much faster than household income, so affordable housing is becoming far harder to find."
               },
               {
                 "id": "o3",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Would new construction solve the problem?"
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "The strongest policy would be more ambitious: protect existing tenants, build substantially more homes and connect housing decisions to transportation, wages and local services."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Housing Inequality” after “Because the central question is not only what happens, but also which…”?",
+            "prompt": "Which outcome closes “Listening Lab: Housing Inequality” after “Would new construction solve the problem?”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining housing inequality."
+                "text": "Lena, a tenant in the city center, has received another rent increase."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "The cost of living has risen much faster than household income, so affordable housing is becoming far harder to find."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Would new construction solve the problem?"
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "The strongest policy would be more ambitious: protect existing tenants, build substantially more homes and connect housing decisions to transportation, wages and local services."
               }
             ]
           }
         ]
       },
+      "storyTitle": "Why Rent Keeps Rising",
+      "mainTranscript": "Lena, a tenant in the city center, has received another rent increase. How serious is the change? Her rent is considerably higher than it was two years ago, while her salary is only slightly higher. The cost of living has risen much faster than household income, so affordable housing is becoming far harder to find. Landlords point to maintenance costs and a housing shortage. Those pressures are real, but the market is much less balanced than it appears. A landlord can often replace a tenant quickly, whereas a family facing displacement may have nowhere nearby to go. Would new construction solve the problem? It could help, especially where restrictive zoning limits supply. However, luxury development alone is far less effective than mixed housing that includes affordable units. The strongest policy would be more ambitious: protect existing tenants, build substantially more homes and connect housing decisions to transportation, wages and local services.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Lena, a tenant in the city center, has received another rent increase."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "How serious is the change?"
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Her rent is considerably higher than it was two years ago, while her salary is only slightly higher."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "The cost of living has risen much faster than household income, so affordable housing is becoming far harder to find."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Landlords point to maintenance costs and a housing shortage."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Those pressures are real, but the market is much less balanced than it appears."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "A landlord can often replace a tenant quickly, whereas a family facing displacement may have nowhere nearby to go."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Would new construction solve the problem?"
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "It could help, especially where restrictive zoning limits supply."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "However, luxury development alone is far less effective than mixed housing that includes affordable units."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "The strongest policy would be more ambitious: protect existing tenants, build substantially more homes and connect housing decisions to transportation, wages and local services."
+        }
+      ],
+      "audioLocale": "en-US",
+      "listeningFormat": "housing-advice",
+      "voiceStyle": "calm-news",
       "grammarTest": null
     },
     "exercises": [
@@ -43900,40 +45039,40 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Housing Inequality”, which detail establishes the situation?",
         "options": [
-          "Host: Today we are examining housing inequality.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Lena, a tenant in the city center, has received another rent increase.",
+          "The cost of living has risen much faster than household income, so affordable housing is becoming far harder to find.",
+          "Would new construction solve the problem?",
+          "The strongest policy would be more ambitious: protect existing tenants, build substantially more homes and connect housing decisions to transportation, wages and local services."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining housing inequality.”, what happens next in “Listening Lab: Housing Inequality”?",
+        "prompt": "After “Lena, a tenant in the city center, has received another rent increase.”, what happens next in “Listening Lab: Housing Inequality”?",
         "options": [
-          "Host: Today we are examining housing inequality.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Lena, a tenant in the city center, has received another rent increase.",
+          "The cost of living has risen much faster than household income, so affordable housing is becoming far harder to find.",
+          "Would new construction solve the problem?",
+          "The strongest policy would be more ambitious: protect existing tenants, build substantially more homes and connect housing decisions to transportation, wages and local services."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Housing Inequality”?",
         "options": [
-          "Host: Today we are examining housing inequality.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Lena, a tenant in the city center, has received another rent increase.",
+          "The cost of living has risen much faster than household income, so affordable housing is becoming far harder to find.",
+          "Would new construction solve the problem?",
+          "The strongest policy would be more ambitious: protect existing tenants, build substantially more homes and connect housing decisions to transportation, wages and local services."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Housing Inequality” after “Because the central question is not only what happens, but also which…”?",
+        "prompt": "Which outcome closes “Listening Lab: Housing Inequality” after “Would new construction solve the problem?”?",
         "options": [
-          "Host: Today we are examining housing inequality.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Lena, a tenant in the city center, has received another rent increase.",
+          "The cost of living has risen much faster than household income, so affordable housing is becoming far harder to find.",
+          "Would new construction solve the problem?",
+          "The strongest policy would be more ambitious: protect existing tenants, build substantially more homes and connect housing decisions to transportation, wages and local services."
         ]
       }
     ]
@@ -43962,45 +45101,18 @@
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Host",
-        "line": "Today we are examining critical minerals and the energy transition. Why does this issue resist a simple answer?",
-        "translation": "Hoy analizamos critical minerals and the energy transition. ¿Por qué este asunto no admite una respuesta sencilla?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-        "translation": "Porque la pregunta central no es solo qué sucede, sino también qué supuestos determinan cómo se interpreta la evidencia."
-      },
-      {
-        "speaker": "Host",
-        "line": "Which distinction should listeners keep in mind?",
-        "translation": "¿Qué distinción deben tener presente los oyentes?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable.",
-        "translation": "Deben distinguir un hallazgo establecido de una inferencia plausible y de un juicio de valor. Esas categorías pueden relacionarse, pero no son intercambiables."
-      },
-      {
-        "speaker": "Host",
-        "line": "How can we discuss the issue responsibly?",
-        "translation": "¿Cómo podemos hablar responsablemente del asunto?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
-        "translation": "Podemos definir los términos, reconocer un contraargumento serio y explicar qué evidencia nos haría revisar la conclusión."
+        "speaker": "Narrator",
+        "line": "Electric vehicles, batteries, wind turbines, and power networks require large quantities of lithium, copper, nickel, and other critical minerals. Had the energy transition remained slow, existing supply systems might have attracted less attention. Instead, rising demand has revealed concentrated refining capacity, weak traceability, and serious environmental risks. A technology may produce no exhaust while operating, yet its materials can still be associated with polluted water, unsafe labour, or communities excluded from decisions about mining. This does not mean clean technology is equivalent to fossil-fuel extraction. It means that lower-carbon systems must not reproduce familiar patterns of exploitation. If governments had invested earlier in recycling capacity and public transport, pressure for new extraction would now be lower. Recycling alone, however, cannot meet near-term demand because many required minerals have not yet entered the waste stream. Diversifying supply, improving product design, and requiring community consent are therefore complementary rather than competing strategies. Traceability must also extend beyond the mine to refining and manufacturing. Consumers cannot evaluate every supply chain individually, so regulation and procurement standards matter. The transition will be judged not only by how rapidly emissions fall, but by whether the new material economy distributes benefits, respects rights, and learns from the injustices of the old one."
       }
     ],
     "reading": null,
-    "transcript": "Host: Today we are examining critical minerals and the energy transition. Why does this issue resist a simple answer? Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted. Host: Which distinction should listeners keep in mind? Guest: They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable. Host: How can we discuss the issue responsibly? Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
+    "transcript": "Electric vehicles, batteries, wind turbines, and power networks require large quantities of lithium, copper, nickel, and other critical minerals. Had the energy transition remained slow, existing supply systems might have attracted less attention. Instead, rising demand has revealed concentrated refining capacity, weak traceability, and serious environmental risks. A technology may produce no exhaust while operating, yet its materials can still be associated with polluted water, unsafe labour, or communities excluded from decisions about mining. This does not mean clean technology is equivalent to fossil-fuel extraction. It means that lower-carbon systems must not reproduce familiar patterns of exploitation. If governments had invested earlier in recycling capacity and public transport, pressure for new extraction would now be lower. Recycling alone, however, cannot meet near-term demand because many required minerals have not yet entered the waste stream. Diversifying supply, improving product design, and requiring community consent are therefore complementary rather than competing strategies. Traceability must also extend beyond the mine to refining and manufacturing. Consumers cannot evaluate every supply chain individually, so regulation and procurement standards matter. The transition will be judged not only by how rapidly emissions fall, but by whether the new material economy distributes benefits, respects rights, and learns from the injustices of the old one.",
     "extra": {
-      "listeningType": "interview",
+      "listeningType": "monologue",
       "difficulty": "C1",
-      "durationSeconds": 105,
+      "durationSeconds": 99,
       "speakers": [
-        "Host",
-        "Guest"
+        "Narrator"
       ],
       "phoneticSupport": {
         "enabled": true,
@@ -44027,42 +45139,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining critical minerals and the energy transition."
+                "text": "Electric vehicles, batteries, wind turbines, and power networks require large quantities of lithium, copper, nickel, and other critical minerals."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "This does not mean clean technology is equivalent to fossil-fuel extraction."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Recycling alone, however, cannot meet near-term demand because many required minerals have not yet entered the waste stream."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "The transition will be judged not only by how rapidly emissions fall, but by whether the new material economy distributes benefits, respects rights, and learns from the injustices of the old one."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining critical minerals and the energy transition.”, what happens next in “Listening Lab: Critical Minerals and the Energy Transition”?",
+            "prompt": "After “Electric vehicles, batteries, wind turbines, and power networks…”, what happens next in “Listening Lab: Critical Minerals and the Energy Transition”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining critical minerals and the energy transition."
+                "text": "Electric vehicles, batteries, wind turbines, and power networks require large quantities of lithium, copper, nickel, and other critical minerals."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "This does not mean clean technology is equivalent to fossil-fuel extraction."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Recycling alone, however, cannot meet near-term demand because many required minerals have not yet entered the waste stream."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "The transition will be judged not only by how rapidly emissions fall, but by whether the new material economy distributes benefits, respects rights, and learns from the injustices of the old one."
               }
             ]
           },
@@ -44073,47 +45185,114 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining critical minerals and the energy transition."
+                "text": "Electric vehicles, batteries, wind turbines, and power networks require large quantities of lithium, copper, nickel, and other critical minerals."
               },
               {
                 "id": "o2",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "This does not mean clean technology is equivalent to fossil-fuel extraction."
               },
               {
                 "id": "o3",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Recycling alone, however, cannot meet near-term demand because many required minerals have not yet entered the waste stream."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "The transition will be judged not only by how rapidly emissions fall, but by whether the new material economy distributes benefits, respects rights, and learns from the injustices of the old one."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Critical Minerals and the Energy Transition” after “Because the central question is not only what happens, but also which…”?",
+            "prompt": "Which outcome closes “Listening Lab: Critical Minerals and the Energy Transition” after “Recycling alone, however, cannot meet near-term demand because many…”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining critical minerals and the energy transition."
+                "text": "Electric vehicles, batteries, wind turbines, and power networks require large quantities of lithium, copper, nickel, and other critical minerals."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "This does not mean clean technology is equivalent to fossil-fuel extraction."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Recycling alone, however, cannot meet near-term demand because many required minerals have not yet entered the waste stream."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "The transition will be judged not only by how rapidly emissions fall, but by whether the new material economy distributes benefits, respects rights, and learns from the injustices of the old one."
               }
             ]
           }
         ]
       },
+      "storyTitle": "Clean Energy’s Dirty Supply Chain",
+      "mainTranscript": "Electric vehicles, batteries, wind turbines, and power networks require large quantities of lithium, copper, nickel, and other critical minerals. Had the energy transition remained slow, existing supply systems might have attracted less attention. Instead, rising demand has revealed concentrated refining capacity, weak traceability, and serious environmental risks. A technology may produce no exhaust while operating, yet its materials can still be associated with polluted water, unsafe labour, or communities excluded from decisions about mining. This does not mean clean technology is equivalent to fossil-fuel extraction. It means that lower-carbon systems must not reproduce familiar patterns of exploitation. If governments had invested earlier in recycling capacity and public transport, pressure for new extraction would now be lower. Recycling alone, however, cannot meet near-term demand because many required minerals have not yet entered the waste stream. Diversifying supply, improving product design, and requiring community consent are therefore complementary rather than competing strategies. Traceability must also extend beyond the mine to refining and manufacturing. Consumers cannot evaluate every supply chain individually, so regulation and procurement standards matter. The transition will be judged not only by how rapidly emissions fall, but by whether the new material economy distributes benefits, respects rights, and learns from the injustices of the old one.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Electric vehicles, batteries, wind turbines, and power networks require large quantities of lithium, copper, nickel, and other critical minerals."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Had the energy transition remained slow, existing supply systems might have attracted less attention."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Instead, rising demand has revealed concentrated refining capacity, weak traceability, and serious environmental risks."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "A technology may produce no exhaust while operating, yet its materials can still be associated with polluted water, unsafe labour, or communities excluded from decisions about mining."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "This does not mean clean technology is equivalent to fossil-fuel extraction."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "It means that lower-carbon systems must not reproduce familiar patterns of exploitation."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "If governments had invested earlier in recycling capacity and public transport, pressure for new extraction would now be lower."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Recycling alone, however, cannot meet near-term demand because many required minerals have not yet entered the waste stream."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Diversifying supply, improving product design, and requiring community consent are therefore complementary rather than competing strategies."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Traceability must also extend beyond the mine to refining and manufacturing."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Consumers cannot evaluate every supply chain individually, so regulation and procurement standards matter."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "The transition will be judged not only by how rapidly emissions fall, but by whether the new material economy distributes benefits, respects rights, and learns from the injustices of the old one."
+        }
+      ],
+      "listeningFormat": "documentary",
+      "voiceStyle": "environmental-documentary",
+      "audioLocale": "en-US",
       "grammarTest": null
     },
     "exercises": [
@@ -44121,40 +45300,40 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Critical Minerals and the Energy Transition”, which detail establishes the situation?",
         "options": [
-          "Host: Today we are examining critical minerals and the energy transition.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Electric vehicles, batteries, wind turbines, and power networks require large quantities of lithium, copper, nickel, and other critical minerals.",
+          "This does not mean clean technology is equivalent to fossil-fuel extraction.",
+          "Recycling alone, however, cannot meet near-term demand because many required minerals have not yet entered the waste stream.",
+          "The transition will be judged not only by how rapidly emissions fall, but by whether the new material economy distributes benefits, respects rights, and learns from the injustices of the old one."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining critical minerals and the energy transition.”, what happens next in “Listening Lab: Critical Minerals and the Energy Transition”?",
+        "prompt": "After “Electric vehicles, batteries, wind turbines, and power networks…”, what happens next in “Listening Lab: Critical Minerals and the Energy Transition”?",
         "options": [
-          "Host: Today we are examining critical minerals and the energy transition.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Electric vehicles, batteries, wind turbines, and power networks require large quantities of lithium, copper, nickel, and other critical minerals.",
+          "This does not mean clean technology is equivalent to fossil-fuel extraction.",
+          "Recycling alone, however, cannot meet near-term demand because many required minerals have not yet entered the waste stream.",
+          "The transition will be judged not only by how rapidly emissions fall, but by whether the new material economy distributes benefits, respects rights, and learns from the injustices of the old one."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Critical Minerals and the Energy Transition”?",
         "options": [
-          "Host: Today we are examining critical minerals and the energy transition.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Electric vehicles, batteries, wind turbines, and power networks require large quantities of lithium, copper, nickel, and other critical minerals.",
+          "This does not mean clean technology is equivalent to fossil-fuel extraction.",
+          "Recycling alone, however, cannot meet near-term demand because many required minerals have not yet entered the waste stream.",
+          "The transition will be judged not only by how rapidly emissions fall, but by whether the new material economy distributes benefits, respects rights, and learns from the injustices of the old one."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Critical Minerals and the Energy Transition” after “Because the central question is not only what happens, but also which…”?",
+        "prompt": "Which outcome closes “Listening Lab: Critical Minerals and the Energy Transition” after “Recycling alone, however, cannot meet near-term demand because many…”?",
         "options": [
-          "Host: Today we are examining critical minerals and the energy transition.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Electric vehicles, batteries, wind turbines, and power networks require large quantities of lithium, copper, nickel, and other critical minerals.",
+          "This does not mean clean technology is equivalent to fossil-fuel extraction.",
+          "Recycling alone, however, cannot meet near-term demand because many required minerals have not yet entered the waste stream.",
+          "The transition will be judged not only by how rapidly emissions fall, but by whether the new material economy distributes benefits, respects rights, and learns from the injustices of the old one."
         ]
       }
     ]
@@ -44183,45 +45362,18 @@
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Host",
-        "line": "Today we are examining corrective feedback and the productive role of error. Why does this issue resist a simple answer?",
-        "translation": "Hoy analizamos corrective feedback and the productive role of error. ¿Por qué este asunto no admite una respuesta sencilla?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-        "translation": "Porque la pregunta central no es solo qué sucede, sino también qué supuestos determinan cómo se interpreta la evidencia."
-      },
-      {
-        "speaker": "Host",
-        "line": "Which distinction should listeners keep in mind?",
-        "translation": "¿Qué distinción deben tener presente los oyentes?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable.",
-        "translation": "Deben distinguir un hallazgo establecido de una inferencia plausible y de un juicio de valor. Esas categorías pueden relacionarse, pero no son intercambiables."
-      },
-      {
-        "speaker": "Host",
-        "line": "How can we discuss the issue responsibly?",
-        "translation": "¿Cómo podemos hablar responsablemente del asunto?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
-        "translation": "Podemos definir los términos, reconocer un contraargumento serio y explicar qué evidencia nos haría revisar la conclusión."
+        "speaker": "Narrator",
+        "line": "Corrective feedback presents a practical dilemma. If every error interrupts communication, learners may become cautious and silent. If no error is addressed, inaccurate patterns can stabilise. The appropriate response depends on the task, the learner, and the error’s communicative importance. A recast reformulates an utterance without explicitly identifying the problem. It preserves conversational flow, but the learner may interpret it as simple agreement. Elicitation or a metalinguistic clue makes the correction more visible: “Try that verb again in the past.” Such prompts can produce uptake and repair, although they require time and may feel intrusive during an emotionally demanding discussion. It is essential that feedback be selective rather than arbitrary. Teachers should prioritise forms connected to the lesson, errors that block meaning, and patterns a learner is ready to revise. Delayed feedback is useful when fluency is the immediate goal; notes can be discussed after the speaker has finished. Immediate intervention is more defensible when a misunderstanding is spreading or a brief prompt will genuinely help. Peer correction also requires norms that protect dignity. Learners should know whether assistance is invited and how to offer it without turning collaboration into surveillance. Error is productive only when it generates better noticing or a new attempt. The objective is not a performance without mistakes. It is a learning environment in which feedback preserves agency, makes patterns perceptible, and gradually reduces the distance between intended and expressed meaning."
       }
     ],
     "reading": null,
-    "transcript": "Host: Today we are examining corrective feedback and the productive role of error. Why does this issue resist a simple answer? Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted. Host: Which distinction should listeners keep in mind? Guest: They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable. Host: How can we discuss the issue responsibly? Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
+    "transcript": "Corrective feedback presents a practical dilemma. If every error interrupts communication, learners may become cautious and silent. If no error is addressed, inaccurate patterns can stabilise. The appropriate response depends on the task, the learner, and the error’s communicative importance. A recast reformulates an utterance without explicitly identifying the problem. It preserves conversational flow, but the learner may interpret it as simple agreement. Elicitation or a metalinguistic clue makes the correction more visible: “Try that verb again in the past.” Such prompts can produce uptake and repair, although they require time and may feel intrusive during an emotionally demanding discussion. It is essential that feedback be selective rather than arbitrary. Teachers should prioritise forms connected to the lesson, errors that block meaning, and patterns a learner is ready to revise. Delayed feedback is useful when fluency is the immediate goal; notes can be discussed after the speaker has finished. Immediate intervention is more defensible when a misunderstanding is spreading or a brief prompt will genuinely help. Peer correction also requires norms that protect dignity. Learners should know whether assistance is invited and how to offer it without turning collaboration into surveillance. Error is productive only when it generates better noticing or a new attempt. The objective is not a performance without mistakes. It is a learning environment in which feedback preserves agency, makes patterns perceptible, and gradually reduces the distance between intended and expressed meaning.",
     "extra": {
-      "listeningType": "interview",
+      "listeningType": "monologue",
       "difficulty": "C2",
-      "durationSeconds": 125,
+      "durationSeconds": 123,
       "speakers": [
-        "Host",
-        "Guest"
+        "Narrator"
       ],
       "phoneticSupport": {
         "enabled": true,
@@ -44248,42 +45400,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining corrective feedback and the productive role of error."
+                "text": "Corrective feedback presents a practical dilemma."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Elicitation or a metalinguistic clue makes the correction more visible: “Try that verb again in the past.” Such prompts can produce uptake and repair, although they require time and may feel intrusive during an emotionally demanding discussion."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Peer correction also requires norms that protect dignity."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Such prompts can produce uptake and repair, although they require time and may feel intrusive during an emotionally demanding discussion."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining corrective feedback and the productive role of…”, what happens next in “Listening Lab: Corrective Feedback and the Productive Role of Error”?",
+            "prompt": "After “Corrective feedback presents a practical dilemma.”, what happens next in “Listening Lab: Corrective Feedback and the Productive Role of Error”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining corrective feedback and the productive role of error."
+                "text": "Corrective feedback presents a practical dilemma."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Elicitation or a metalinguistic clue makes the correction more visible: “Try that verb again in the past.” Such prompts can produce uptake and repair, although they require time and may feel intrusive during an emotionally demanding discussion."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Peer correction also requires norms that protect dignity."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Such prompts can produce uptake and repair, although they require time and may feel intrusive during an emotionally demanding discussion."
               }
             ]
           },
@@ -44294,47 +45446,134 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining corrective feedback and the productive role of error."
+                "text": "Corrective feedback presents a practical dilemma."
               },
               {
                 "id": "o2",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Elicitation or a metalinguistic clue makes the correction more visible: “Try that verb again in the past.” Such prompts can produce uptake and repair, although they require time and may feel intrusive during an emotionally demanding discussion."
               },
               {
                 "id": "o3",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Teachers should prioritise forms connected to the lesson, errors that block meaning, and patterns a learner is ready to revise."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Peer correction also requires norms that protect dignity."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Corrective Feedback and the Productive Role of Error” after “Because the central question is not only what happens, but also which…”?",
+            "prompt": "Which outcome closes “Listening Lab: Corrective Feedback and the Productive Role of Error” after “Teachers should prioritise forms connected to the lesson, errors that…”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining corrective feedback and the productive role of error."
+                "text": "Corrective feedback presents a practical dilemma."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Elicitation or a metalinguistic clue makes the correction more visible: “Try that verb again in the past.” Such prompts can produce uptake and repair, although they require time and may feel intrusive during an emotionally demanding discussion."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Peer correction also requires norms that protect dignity."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Such prompts can produce uptake and repair, although they require time and may feel intrusive during an emotionally demanding discussion."
               }
             ]
           }
         ]
       },
+      "storyTitle": "Corrective Feedback: When to Intervene",
+      "mainTranscript": "Corrective feedback presents a practical dilemma. If every error interrupts communication, learners may become cautious and silent. If no error is addressed, inaccurate patterns can stabilise. The appropriate response depends on the task, the learner, and the error’s communicative importance. A recast reformulates an utterance without explicitly identifying the problem. It preserves conversational flow, but the learner may interpret it as simple agreement. Elicitation or a metalinguistic clue makes the correction more visible: “Try that verb again in the past.” Such prompts can produce uptake and repair, although they require time and may feel intrusive during an emotionally demanding discussion. It is essential that feedback be selective rather than arbitrary. Teachers should prioritise forms connected to the lesson, errors that block meaning, and patterns a learner is ready to revise. Delayed feedback is useful when fluency is the immediate goal; notes can be discussed after the speaker has finished. Immediate intervention is more defensible when a misunderstanding is spreading or a brief prompt will genuinely help. Peer correction also requires norms that protect dignity. Learners should know whether assistance is invited and how to offer it without turning collaboration into surveillance. Error is productive only when it generates better noticing or a new attempt. The objective is not a performance without mistakes. It is a learning environment in which feedback preserves agency, makes patterns perceptible, and gradually reduces the distance between intended and expressed meaning.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Corrective feedback presents a practical dilemma."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "If every error interrupts communication, learners may become cautious and silent."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "If no error is addressed, inaccurate patterns can stabilise."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "The appropriate response depends on the task, the learner, and the error’s communicative importance."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "A recast reformulates an utterance without explicitly identifying the problem."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "It preserves conversational flow, but the learner may interpret it as simple agreement."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Elicitation or a metalinguistic clue makes the correction more visible: “Try that verb again in the past.” Such prompts can produce uptake and repair, although they require time and may feel intrusive during an emotionally demanding discussion."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "It is essential that feedback be selective rather than arbitrary."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Teachers should prioritise forms connected to the lesson, errors that block meaning, and patterns a learner is ready to revise."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Delayed feedback is useful when fluency is the immediate goal; notes can be discussed after the speaker has finished."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Immediate intervention is more defensible when a misunderstanding is spreading or a brief prompt will genuinely help."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "Peer correction also requires norms that protect dignity."
+        },
+        {
+          "id": "segment-13",
+          "order": 13,
+          "text": "Learners should know whether assistance is invited and how to offer it without turning collaboration into surveillance."
+        },
+        {
+          "id": "segment-14",
+          "order": 14,
+          "text": "Error is productive only when it generates better noticing or a new attempt."
+        },
+        {
+          "id": "segment-15",
+          "order": 15,
+          "text": "The objective is not a performance without mistakes."
+        },
+        {
+          "id": "segment-16",
+          "order": 16,
+          "text": "It is a learning environment in which feedback preserves agency, makes patterns perceptible, and gradually reduces the distance between intended and expressed meaning."
+        }
+      ],
+      "listeningFormat": "teaching-masterclass",
+      "voiceStyle": "measured-instructional",
+      "audioLocale": "en-US",
       "grammarTest": null
     },
     "exercises": [
@@ -44342,40 +45581,40 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Corrective Feedback and the Productive Role of Error”, which detail establishes the situation?",
         "options": [
-          "Host: Today we are examining corrective feedback and the productive role of error.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Corrective feedback presents a practical dilemma.",
+          "Elicitation or a metalinguistic clue makes the correction more visible: “Try that verb again in the past.” Such prompts can produce uptake and repair, although they require time and may feel intrusive during an emotionally demanding discussion.",
+          "Peer correction also requires norms that protect dignity.",
+          "Such prompts can produce uptake and repair, although they require time and may feel intrusive during an emotionally demanding discussion."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining corrective feedback and the productive role of…”, what happens next in “Listening Lab: Corrective Feedback and the Productive Role of Error”?",
+        "prompt": "After “Corrective feedback presents a practical dilemma.”, what happens next in “Listening Lab: Corrective Feedback and the Productive Role of Error”?",
         "options": [
-          "Host: Today we are examining corrective feedback and the productive role of error.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Corrective feedback presents a practical dilemma.",
+          "Elicitation or a metalinguistic clue makes the correction more visible: “Try that verb again in the past.” Such prompts can produce uptake and repair, although they require time and may feel intrusive during an emotionally demanding discussion.",
+          "Peer correction also requires norms that protect dignity.",
+          "Such prompts can produce uptake and repair, although they require time and may feel intrusive during an emotionally demanding discussion."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Corrective Feedback and the Productive Role of Error”?",
         "options": [
-          "Host: Today we are examining corrective feedback and the productive role of error.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Corrective feedback presents a practical dilemma.",
+          "Elicitation or a metalinguistic clue makes the correction more visible: “Try that verb again in the past.” Such prompts can produce uptake and repair, although they require time and may feel intrusive during an emotionally demanding discussion.",
+          "Teachers should prioritise forms connected to the lesson, errors that block meaning, and patterns a learner is ready to revise.",
+          "Peer correction also requires norms that protect dignity."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Corrective Feedback and the Productive Role of Error” after “Because the central question is not only what happens, but also which…”?",
+        "prompt": "Which outcome closes “Listening Lab: Corrective Feedback and the Productive Role of Error” after “Teachers should prioritise forms connected to the lesson, errors that…”?",
         "options": [
-          "Host: Today we are examining corrective feedback and the productive role of error.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Corrective feedback presents a practical dilemma.",
+          "Elicitation or a metalinguistic clue makes the correction more visible: “Try that verb again in the past.” Such prompts can produce uptake and repair, although they require time and may feel intrusive during an emotionally demanding discussion.",
+          "Peer correction also requires norms that protect dignity.",
+          "Such prompts can produce uptake and repair, although they require time and may feel intrusive during an emotionally demanding discussion."
         ]
       }
     ]
@@ -50313,33 +51552,53 @@
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "Narrator",
+        "line": "Three friends compare a documentary, a comedy series, and a science-fiction film on a streaming platform. The documentary is by far the most informative choice, but one viewer finds it slightly longer than necessary. The comedy is easier to watch and has the funniest dialogue, although its story is less original. The science-fiction film is much more visually impressive than the other two, but its characters are not as believable. Instead of relying only on the platform’s recommendations, the friends explain what kind of experience they want that evening. They finally choose the comedy because everyone needs something relaxing after a busy week. Their discussion shows that the “best” program depends on mood, interests, time, and the people watching together."
+      }
+    ],
     "reading": null,
-    "transcript": "",
+    "transcript": "Three friends compare a documentary, a comedy series, and a science-fiction film on a streaming platform. The documentary is by far the most informative choice, but one viewer finds it slightly longer than necessary. The comedy is easier to watch and has the funniest dialogue, although its story is less original. The science-fiction film is much more visually impressive than the other two, but its characters are not as believable. Instead of relying only on the platform’s recommendations, the friends explain what kind of experience they want that evening. They finally choose the comedy because everyone needs something relaxing after a busy week. Their discussion shows that the “best” program depends on mood, interests, time, and the people watching together.",
     "extra": {
-      "listeningType": "story",
-      "storyTitle": "After the Film",
-      "mainTranscript": "Sarah says the film was more moving than she expected. Daniel says it was slower than his usual choice, but the main character was interesting. Priya asks them whether they would recommend it. Sarah says yes, especially to people who enjoy realistic stories.",
+      "listeningType": "monologue",
+      "storyTitle": "Choosing What to Watch Next",
+      "mainTranscript": "Three friends compare a documentary, a comedy series, and a science-fiction film on a streaming platform. The documentary is by far the most informative choice, but one viewer finds it slightly longer than necessary. The comedy is easier to watch and has the funniest dialogue, although its story is less original. The science-fiction film is much more visually impressive than the other two, but its characters are not as believable. Instead of relying only on the platform’s recommendations, the friends explain what kind of experience they want that evening. They finally choose the comedy because everyone needs something relaxing after a busy week. Their discussion shows that the “best” program depends on mood, interests, time, and the people watching together.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Sarah says the film was more moving than she expected."
+          "text": "Three friends compare a documentary, a comedy series, and a science-fiction film on a streaming platform."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "Daniel says it was slower than his usual choice, but the main character was interesting."
+          "text": "The documentary is by far the most informative choice, but one viewer finds it slightly longer than necessary."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "Priya asks them whether they would recommend it."
+          "text": "The comedy is easier to watch and has the funniest dialogue, although its story is less original."
         },
         {
           "id": "segment-04",
           "order": 4,
-          "text": "Sarah says yes, especially to people who enjoy realistic stories."
+          "text": "The science-fiction film is much more visually impressive than the other two, but its characters are not as believable."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Instead of relying only on the platform’s recommendations, the friends explain what kind of experience they want that evening."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "They finally choose the comedy because everyone needs something relaxing after a busy week."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Their discussion shows that the “best” program depends on mood, interests, time, and the people watching together."
         }
       ],
       "listeningComprehension": {
@@ -50353,42 +51612,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Sarah says the film was more moving than she expected."
+                "text": "Three friends compare a documentary, a comedy series, and a science-fiction film on a streaming platform."
               },
               {
                 "id": "o2",
-                "text": "Daniel says it was slower than his usual choice, but the main character was interesting."
+                "text": "The comedy is easier to watch and has the funniest dialogue, although its story is less original."
               },
               {
                 "id": "o3",
-                "text": "Priya asks them whether they would recommend it."
+                "text": "Instead of relying only on the platform’s recommendations, the friends explain what kind of experience they want that evening."
               },
               {
                 "id": "o4",
-                "text": "Sarah says yes, especially to people who enjoy realistic stories."
+                "text": "Their discussion shows that the “best” program depends on mood, interests, time, and the people watching together."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Sarah says the film was more moving than she expected.”, what happens next in “After the Film”?",
+            "prompt": "After “Three friends compare a documentary, a comedy series, and a…”, what happens next in “After the Film”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sarah says the film was more moving than she expected."
+                "text": "Three friends compare a documentary, a comedy series, and a science-fiction film on a streaming platform."
               },
               {
                 "id": "o2",
-                "text": "Daniel says it was slower than his usual choice, but the main character was interesting."
+                "text": "The comedy is easier to watch and has the funniest dialogue, although its story is less original."
               },
               {
                 "id": "o3",
-                "text": "Priya asks them whether they would recommend it."
+                "text": "Instead of relying only on the platform’s recommendations, the friends explain what kind of experience they want that evening."
               },
               {
                 "id": "o4",
-                "text": "Sarah says yes, especially to people who enjoy realistic stories."
+                "text": "Their discussion shows that the “best” program depends on mood, interests, time, and the people watching together."
               }
             ]
           },
@@ -50399,47 +51658,54 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Sarah says the film was more moving than she expected."
+                "text": "Three friends compare a documentary, a comedy series, and a science-fiction film on a streaming platform."
               },
               {
                 "id": "o2",
-                "text": "Daniel says it was slower than his usual choice, but the main character was interesting."
+                "text": "The comedy is easier to watch and has the funniest dialogue, although its story is less original."
               },
               {
                 "id": "o3",
-                "text": "Priya asks them whether they would recommend it."
+                "text": "Instead of relying only on the platform’s recommendations, the friends explain what kind of experience they want that evening."
               },
               {
                 "id": "o4",
-                "text": "Sarah says yes, especially to people who enjoy realistic stories."
+                "text": "Their discussion shows that the “best” program depends on mood, interests, time, and the people watching together."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “After the Film” after “Priya asks them whether they would recommend it.”?",
+            "prompt": "Which outcome closes “After the Film” after “Instead of relying only on the platform’s recommendations, the friends…”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sarah says the film was more moving than she expected."
+                "text": "Three friends compare a documentary, a comedy series, and a science-fiction film on a streaming platform."
               },
               {
                 "id": "o2",
-                "text": "Daniel says it was slower than his usual choice, but the main character was interesting."
+                "text": "The comedy is easier to watch and has the funniest dialogue, although its story is less original."
               },
               {
                 "id": "o3",
-                "text": "Priya asks them whether they would recommend it."
+                "text": "Instead of relying only on the platform’s recommendations, the friends explain what kind of experience they want that evening."
               },
               {
                 "id": "o4",
-                "text": "Sarah says yes, especially to people who enjoy realistic stories."
+                "text": "Their discussion shows that the “best” program depends on mood, interests, time, and the people watching together."
               }
             ]
           }
         ]
       },
+      "speakers": [
+        "Narrator"
+      ],
+      "durationSeconds": 53,
+      "audioLocale": "en-US",
+      "listeningFormat": "entertainment-review",
+      "voiceStyle": "conversational-review",
       "grammarTest": null
     },
     "exercises": [
@@ -50447,40 +51713,40 @@
         "type": "mcq",
         "prompt": "In “After the Film”, which detail establishes the situation?",
         "options": [
-          "Sarah says the film was more moving than she expected.",
-          "Daniel says it was slower than his usual choice, but the main character was interesting.",
-          "Priya asks them whether they would recommend it.",
-          "Sarah says yes, especially to people who enjoy realistic stories."
+          "Three friends compare a documentary, a comedy series, and a science-fiction film on a streaming platform.",
+          "The comedy is easier to watch and has the funniest dialogue, although its story is less original.",
+          "Instead of relying only on the platform’s recommendations, the friends explain what kind of experience they want that evening.",
+          "Their discussion shows that the “best” program depends on mood, interests, time, and the people watching together."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Sarah says the film was more moving than she expected.”, what happens next in “After the Film”?",
+        "prompt": "After “Three friends compare a documentary, a comedy series, and a…”, what happens next in “After the Film”?",
         "options": [
-          "Sarah says the film was more moving than she expected.",
-          "Daniel says it was slower than his usual choice, but the main character was interesting.",
-          "Priya asks them whether they would recommend it.",
-          "Sarah says yes, especially to people who enjoy realistic stories."
+          "Three friends compare a documentary, a comedy series, and a science-fiction film on a streaming platform.",
+          "The comedy is easier to watch and has the funniest dialogue, although its story is less original.",
+          "Instead of relying only on the platform’s recommendations, the friends explain what kind of experience they want that evening.",
+          "Their discussion shows that the “best” program depends on mood, interests, time, and the people watching together."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “After the Film”?",
         "options": [
-          "Sarah says the film was more moving than she expected.",
-          "Daniel says it was slower than his usual choice, but the main character was interesting.",
-          "Priya asks them whether they would recommend it.",
-          "Sarah says yes, especially to people who enjoy realistic stories."
+          "Three friends compare a documentary, a comedy series, and a science-fiction film on a streaming platform.",
+          "The comedy is easier to watch and has the funniest dialogue, although its story is less original.",
+          "Instead of relying only on the platform’s recommendations, the friends explain what kind of experience they want that evening.",
+          "Their discussion shows that the “best” program depends on mood, interests, time, and the people watching together."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “After the Film” after “Priya asks them whether they would recommend it.”?",
+        "prompt": "Which outcome closes “After the Film” after “Instead of relying only on the platform’s recommendations, the friends…”?",
         "options": [
-          "Sarah says the film was more moving than she expected.",
-          "Daniel says it was slower than his usual choice, but the main character was interesting.",
-          "Priya asks them whether they would recommend it.",
-          "Sarah says yes, especially to people who enjoy realistic stories."
+          "Three friends compare a documentary, a comedy series, and a science-fiction film on a streaming platform.",
+          "The comedy is easier to watch and has the funniest dialogue, although its story is less original.",
+          "Instead of relying only on the platform’s recommendations, the friends explain what kind of experience they want that evening.",
+          "Their discussion shows that the “best” program depends on mood, interests, time, and the people watching together."
         ]
       }
     ]
@@ -50780,45 +52046,18 @@
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Host",
-        "line": "Today we are examining artificial intelligence and employment. Why does this issue resist a simple answer?",
-        "translation": "Hoy analizamos artificial intelligence and employment. ¿Por qué este asunto no admite una respuesta sencilla?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-        "translation": "Porque la pregunta central no es solo qué sucede, sino también qué supuestos determinan cómo se interpreta la evidencia."
-      },
-      {
-        "speaker": "Host",
-        "line": "Which distinction should listeners keep in mind?",
-        "translation": "¿Qué distinción deben tener presente los oyentes?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable.",
-        "translation": "Deben distinguir un hallazgo establecido de una inferencia plausible y de un juicio de valor. Esas categorías pueden relacionarse, pero no son intercambiables."
-      },
-      {
-        "speaker": "Host",
-        "line": "How can we discuss the issue responsibly?",
-        "translation": "¿Cómo podemos hablar responsablemente del asunto?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
-        "translation": "Podemos definir los términos, reconocer un contraargumento serio y explicar qué evidencia nos haría revisar la conclusión."
+        "speaker": "Narrator",
+        "line": "A regional hotel chain has introduced an automated scheduling system. What will have changed by next year? Managers will have reduced the time they spend building weekly schedules, and the hotel may have improved productivity. Staff will also be checking shifts through an app instead of speaking directly with a supervisor. What concerns have employees raised? Some workers fear displacement, but the immediate problem is decision-making. If the system does not consider caregiving duties, algorithmic bias may give the least convenient shifts to the same people repeatedly. How should the hotel respond? Human oversight must remain central. Over the coming months, managers will be reviewing disputed schedules and explaining how recommendations are produced. By the end of the trial, employees should have received retraining, and the company should have published clear rules. Automation can support workers, but only a transparent system allows them to challenge a harmful decision."
       }
     ],
     "reading": null,
-    "transcript": "Host: Today we are examining artificial intelligence and employment. Why does this issue resist a simple answer? Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted. Host: Which distinction should listeners keep in mind? Guest: They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable. Host: How can we discuss the issue responsibly? Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
+    "transcript": "A regional hotel chain has introduced an automated scheduling system. What will have changed by next year? Managers will have reduced the time they spend building weekly schedules, and the hotel may have improved productivity. Staff will also be checking shifts through an app instead of speaking directly with a supervisor. What concerns have employees raised? Some workers fear displacement, but the immediate problem is decision-making. If the system does not consider caregiving duties, algorithmic bias may give the least convenient shifts to the same people repeatedly. How should the hotel respond? Human oversight must remain central. Over the coming months, managers will be reviewing disputed schedules and explaining how recommendations are produced. By the end of the trial, employees should have received retraining, and the company should have published clear rules. Automation can support workers, but only a transparent system allows them to challenge a harmful decision.",
     "extra": {
-      "listeningType": "interview",
+      "listeningType": "monologue",
       "difficulty": "B2",
-      "durationSeconds": 85,
+      "durationSeconds": 71,
       "speakers": [
-        "Host",
-        "Guest"
+        "Narrator"
       ],
       "phoneticSupport": {
         "enabled": true,
@@ -50845,42 +52084,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining artificial intelligence and employment."
+                "text": "A regional hotel chain has introduced an automated scheduling system."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "What concerns have employees raised?"
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "How should the hotel respond?"
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Automation can support workers, but only a transparent system allows them to challenge a harmful decision."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining artificial intelligence and employment.”, what happens next in “Listening Lab: Artificial Intelligence and Employment”?",
+            "prompt": "After “A regional hotel chain has introduced an automated scheduling system.”, what happens next in “Listening Lab: Artificial Intelligence and Employment”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining artificial intelligence and employment."
+                "text": "A regional hotel chain has introduced an automated scheduling system."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "What concerns have employees raised?"
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "How should the hotel respond?"
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Automation can support workers, but only a transparent system allows them to challenge a harmful decision."
               }
             ]
           },
@@ -50891,47 +52130,114 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining artificial intelligence and employment."
+                "text": "A regional hotel chain has introduced an automated scheduling system."
               },
               {
                 "id": "o2",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "What concerns have employees raised?"
               },
               {
                 "id": "o3",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "How should the hotel respond?"
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Automation can support workers, but only a transparent system allows them to challenge a harmful decision."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Artificial Intelligence and Employment” after “Because the central question is not only what happens, but also which…”?",
+            "prompt": "Which outcome closes “Listening Lab: Artificial Intelligence and Employment” after “How should the hotel respond?”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining artificial intelligence and employment."
+                "text": "A regional hotel chain has introduced an automated scheduling system."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "What concerns have employees raised?"
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "How should the hotel respond?"
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Automation can support workers, but only a transparent system allows them to challenge a harmful decision."
               }
             ]
           }
         ]
       },
+      "storyTitle": "How AI Is Changing Entry-Level Work",
+      "mainTranscript": "A regional hotel chain has introduced an automated scheduling system. What will have changed by next year? Managers will have reduced the time they spend building weekly schedules, and the hotel may have improved productivity. Staff will also be checking shifts through an app instead of speaking directly with a supervisor. What concerns have employees raised? Some workers fear displacement, but the immediate problem is decision-making. If the system does not consider caregiving duties, algorithmic bias may give the least convenient shifts to the same people repeatedly. How should the hotel respond? Human oversight must remain central. Over the coming months, managers will be reviewing disputed schedules and explaining how recommendations are produced. By the end of the trial, employees should have received retraining, and the company should have published clear rules. Automation can support workers, but only a transparent system allows them to challenge a harmful decision.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "A regional hotel chain has introduced an automated scheduling system."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "What will have changed by next year?"
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Managers will have reduced the time they spend building weekly schedules, and the hotel may have improved productivity."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "Staff will also be checking shifts through an app instead of speaking directly with a supervisor."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "What concerns have employees raised?"
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Some workers fear displacement, but the immediate problem is decision-making."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "If the system does not consider caregiving duties, algorithmic bias may give the least convenient shifts to the same people repeatedly."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "How should the hotel respond?"
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Human oversight must remain central."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Over the coming months, managers will be reviewing disputed schedules and explaining how recommendations are produced."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "By the end of the trial, employees should have received retraining, and the company should have published clear rules."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "Automation can support workers, but only a transparent system allows them to challenge a harmful decision."
+        }
+      ],
+      "audioLocale": "en-US",
+      "listeningFormat": "workplace-report",
+      "voiceStyle": "technology-news",
       "grammarTest": null
     },
     "exercises": [
@@ -50939,40 +52245,40 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Artificial Intelligence and Employment”, which detail establishes the situation?",
         "options": [
-          "Host: Today we are examining artificial intelligence and employment.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "A regional hotel chain has introduced an automated scheduling system.",
+          "What concerns have employees raised?",
+          "How should the hotel respond?",
+          "Automation can support workers, but only a transparent system allows them to challenge a harmful decision."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining artificial intelligence and employment.”, what happens next in “Listening Lab: Artificial Intelligence and Employment”?",
+        "prompt": "After “A regional hotel chain has introduced an automated scheduling system.”, what happens next in “Listening Lab: Artificial Intelligence and Employment”?",
         "options": [
-          "Host: Today we are examining artificial intelligence and employment.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "A regional hotel chain has introduced an automated scheduling system.",
+          "What concerns have employees raised?",
+          "How should the hotel respond?",
+          "Automation can support workers, but only a transparent system allows them to challenge a harmful decision."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Artificial Intelligence and Employment”?",
         "options": [
-          "Host: Today we are examining artificial intelligence and employment.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "A regional hotel chain has introduced an automated scheduling system.",
+          "What concerns have employees raised?",
+          "How should the hotel respond?",
+          "Automation can support workers, but only a transparent system allows them to challenge a harmful decision."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Artificial Intelligence and Employment” after “Because the central question is not only what happens, but also which…”?",
+        "prompt": "Which outcome closes “Listening Lab: Artificial Intelligence and Employment” after “How should the hotel respond?”?",
         "options": [
-          "Host: Today we are examining artificial intelligence and employment.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "A regional hotel chain has introduced an automated scheduling system.",
+          "What concerns have employees raised?",
+          "How should the hotel respond?",
+          "Automation can support workers, but only a transparent system allows them to challenge a harmful decision."
         ]
       }
     ]
@@ -51001,45 +52307,18 @@
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Host",
-        "line": "Today we are examining deepfakes, evidence and democracy. Why does this issue resist a simple answer?",
-        "translation": "Hoy analizamos deepfakes, evidence and democracy. ¿Por qué este asunto no admite una respuesta sencilla?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-        "translation": "Porque la pregunta central no es solo qué sucede, sino también qué supuestos determinan cómo se interpreta la evidencia."
-      },
-      {
-        "speaker": "Host",
-        "line": "Which distinction should listeners keep in mind?",
-        "translation": "¿Qué distinción deben tener presente los oyentes?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable.",
-        "translation": "Deben distinguir un hallazgo establecido de una inferencia plausible y de un juicio de valor. Esas categorías pueden relacionarse, pero no son intercambiables."
-      },
-      {
-        "speaker": "Host",
-        "line": "How can we discuss the issue responsibly?",
-        "translation": "¿Cómo podemos hablar responsablemente del asunto?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
-        "translation": "Podemos definir los términos, reconocer un contraargumento serio y explicar qué evidencia nos haría revisar la conclusión."
+        "speaker": "Narrator",
+        "line": "A convincing video once appeared to offer unusually strong evidence: viewers could see a public figure speak and hear the words directly. Synthetic media has weakened that assumption. Modern tools can generate realistic faces, voices, and settings at low cost, allowing fabricated recordings to circulate during elections, conflicts, or breaking news. Researchers warn that the threat is not limited to people believing a false video. The existence of deepfakes also creates plausible deniability. A genuine recording can be dismissed as artificial by anyone who benefits from doubt. Fact-checkers therefore increasingly rely on content provenance, source history, contextual evidence, and verification across multiple recordings. Some technology companies have proposed labels or invisible credentials that identify where media originated and how it was edited. Such systems may help, but labels can be removed and trusted tools can be misused. Media literacy remains essential, although telling citizens to distrust everything would be a disastrous response. Democracy depends on shared evidence. The goal is calibrated trust: pause before sharing, locate the earliest available source, compare reputable reporting, and distinguish uncertainty from proof of fabrication. Institutions must also communicate corrections quickly and transparently. When verification becomes visible as a process rather than a mysterious verdict, the public has a better chance of resisting both deception and cynical denial."
       }
     ],
     "reading": null,
-    "transcript": "Host: Today we are examining deepfakes, evidence and democracy. Why does this issue resist a simple answer? Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted. Host: Which distinction should listeners keep in mind? Guest: They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable. Host: How can we discuss the issue responsibly? Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
+    "transcript": "A convincing video once appeared to offer unusually strong evidence: viewers could see a public figure speak and hear the words directly. Synthetic media has weakened that assumption. Modern tools can generate realistic faces, voices, and settings at low cost, allowing fabricated recordings to circulate during elections, conflicts, or breaking news. Researchers warn that the threat is not limited to people believing a false video. The existence of deepfakes also creates plausible deniability. A genuine recording can be dismissed as artificial by anyone who benefits from doubt. Fact-checkers therefore increasingly rely on content provenance, source history, contextual evidence, and verification across multiple recordings. Some technology companies have proposed labels or invisible credentials that identify where media originated and how it was edited. Such systems may help, but labels can be removed and trusted tools can be misused. Media literacy remains essential, although telling citizens to distrust everything would be a disastrous response. Democracy depends on shared evidence. The goal is calibrated trust: pause before sharing, locate the earliest available source, compare reputable reporting, and distinguish uncertainty from proof of fabrication. Institutions must also communicate corrections quickly and transparently. When verification becomes visible as a process rather than a mysterious verdict, the public has a better chance of resisting both deception and cynical denial.",
     "extra": {
-      "listeningType": "interview",
+      "listeningType": "monologue",
       "difficulty": "C1",
-      "durationSeconds": 105,
+      "durationSeconds": 102,
       "speakers": [
-        "Host",
-        "Guest"
+        "Narrator"
       ],
       "phoneticSupport": {
         "enabled": true,
@@ -51066,42 +52345,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining deepfakes, evidence and democracy."
+                "text": "A convincing video once appeared to offer unusually strong evidence: viewers could see a public figure speak and hear the words directly."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "The existence of deepfakes also creates plausible deniability."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Media literacy remains essential, although telling citizens to distrust everything would be a disastrous response."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "When verification becomes visible as a process rather than a mysterious verdict, the public has a better chance of resisting both deception and cynical denial."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining deepfakes, evidence and democracy.”, what happens next in “Listening Lab: Deepfakes, Evidence and Democracy”?",
+            "prompt": "After “A convincing video once appeared to offer unusually strong evidence:…”, what happens next in “Listening Lab: Deepfakes, Evidence and Democracy”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining deepfakes, evidence and democracy."
+                "text": "A convincing video once appeared to offer unusually strong evidence: viewers could see a public figure speak and hear the words directly."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "The existence of deepfakes also creates plausible deniability."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Media literacy remains essential, although telling citizens to distrust everything would be a disastrous response."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "When verification becomes visible as a process rather than a mysterious verdict, the public has a better chance of resisting both deception and cynical denial."
               }
             ]
           },
@@ -51112,47 +52391,124 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining deepfakes, evidence and democracy."
+                "text": "A convincing video once appeared to offer unusually strong evidence: viewers could see a public figure speak and hear the words directly."
               },
               {
                 "id": "o2",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "The existence of deepfakes also creates plausible deniability."
               },
               {
                 "id": "o3",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Media literacy remains essential, although telling citizens to distrust everything would be a disastrous response."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "When verification becomes visible as a process rather than a mysterious verdict, the public has a better chance of resisting both deception and cynical denial."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Deepfakes, Evidence and Democracy” after “Because the central question is not only what happens, but also which…”?",
+            "prompt": "Which outcome closes “Listening Lab: Deepfakes, Evidence and Democracy” after “Media literacy remains essential, although telling citizens to…”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining deepfakes, evidence and democracy."
+                "text": "A convincing video once appeared to offer unusually strong evidence: viewers could see a public figure speak and hear the words directly."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "The existence of deepfakes also creates plausible deniability."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Media literacy remains essential, although telling citizens to distrust everything would be a disastrous response."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "When verification becomes visible as a process rather than a mysterious verdict, the public has a better chance of resisting both deception and cynical denial."
               }
             ]
           }
         ]
       },
+      "storyTitle": "Deepfakes and the Collapse of Visual Proof",
+      "mainTranscript": "A convincing video once appeared to offer unusually strong evidence: viewers could see a public figure speak and hear the words directly. Synthetic media has weakened that assumption. Modern tools can generate realistic faces, voices, and settings at low cost, allowing fabricated recordings to circulate during elections, conflicts, or breaking news. Researchers warn that the threat is not limited to people believing a false video. The existence of deepfakes also creates plausible deniability. A genuine recording can be dismissed as artificial by anyone who benefits from doubt. Fact-checkers therefore increasingly rely on content provenance, source history, contextual evidence, and verification across multiple recordings. Some technology companies have proposed labels or invisible credentials that identify where media originated and how it was edited. Such systems may help, but labels can be removed and trusted tools can be misused. Media literacy remains essential, although telling citizens to distrust everything would be a disastrous response. Democracy depends on shared evidence. The goal is calibrated trust: pause before sharing, locate the earliest available source, compare reputable reporting, and distinguish uncertainty from proof of fabrication. Institutions must also communicate corrections quickly and transparently. When verification becomes visible as a process rather than a mysterious verdict, the public has a better chance of resisting both deception and cynical denial.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "A convincing video once appeared to offer unusually strong evidence: viewers could see a public figure speak and hear the words directly."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Synthetic media has weakened that assumption."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Modern tools can generate realistic faces, voices, and settings at low cost, allowing fabricated recordings to circulate during elections, conflicts, or breaking news."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "Researchers warn that the threat is not limited to people believing a false video."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "The existence of deepfakes also creates plausible deniability."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "A genuine recording can be dismissed as artificial by anyone who benefits from doubt."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Fact-checkers therefore increasingly rely on content provenance, source history, contextual evidence, and verification across multiple recordings."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Some technology companies have proposed labels or invisible credentials that identify where media originated and how it was edited."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Such systems may help, but labels can be removed and trusted tools can be misused."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Media literacy remains essential, although telling citizens to distrust everything would be a disastrous response."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Democracy depends on shared evidence."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "The goal is calibrated trust: pause before sharing, locate the earliest available source, compare reputable reporting, and distinguish uncertainty from proof of fabrication."
+        },
+        {
+          "id": "segment-13",
+          "order": 13,
+          "text": "Institutions must also communicate corrections quickly and transparently."
+        },
+        {
+          "id": "segment-14",
+          "order": 14,
+          "text": "When verification becomes visible as a process rather than a mysterious verdict, the public has a better chance of resisting both deception and cynical denial."
+        }
+      ],
+      "listeningFormat": "fact-check-editorial",
+      "voiceStyle": "investigative-news",
+      "audioLocale": "en-US",
       "grammarTest": null
     },
     "exercises": [
@@ -51160,40 +52516,40 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Deepfakes, Evidence and Democracy”, which detail establishes the situation?",
         "options": [
-          "Host: Today we are examining deepfakes, evidence and democracy.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "A convincing video once appeared to offer unusually strong evidence: viewers could see a public figure speak and hear the words directly.",
+          "The existence of deepfakes also creates plausible deniability.",
+          "Media literacy remains essential, although telling citizens to distrust everything would be a disastrous response.",
+          "When verification becomes visible as a process rather than a mysterious verdict, the public has a better chance of resisting both deception and cynical denial."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining deepfakes, evidence and democracy.”, what happens next in “Listening Lab: Deepfakes, Evidence and Democracy”?",
+        "prompt": "After “A convincing video once appeared to offer unusually strong evidence:…”, what happens next in “Listening Lab: Deepfakes, Evidence and Democracy”?",
         "options": [
-          "Host: Today we are examining deepfakes, evidence and democracy.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "A convincing video once appeared to offer unusually strong evidence: viewers could see a public figure speak and hear the words directly.",
+          "The existence of deepfakes also creates plausible deniability.",
+          "Media literacy remains essential, although telling citizens to distrust everything would be a disastrous response.",
+          "When verification becomes visible as a process rather than a mysterious verdict, the public has a better chance of resisting both deception and cynical denial."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Deepfakes, Evidence and Democracy”?",
         "options": [
-          "Host: Today we are examining deepfakes, evidence and democracy.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "A convincing video once appeared to offer unusually strong evidence: viewers could see a public figure speak and hear the words directly.",
+          "The existence of deepfakes also creates plausible deniability.",
+          "Media literacy remains essential, although telling citizens to distrust everything would be a disastrous response.",
+          "When verification becomes visible as a process rather than a mysterious verdict, the public has a better chance of resisting both deception and cynical denial."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Deepfakes, Evidence and Democracy” after “Because the central question is not only what happens, but also which…”?",
+        "prompt": "Which outcome closes “Listening Lab: Deepfakes, Evidence and Democracy” after “Media literacy remains essential, although telling citizens to…”?",
         "options": [
-          "Host: Today we are examining deepfakes, evidence and democracy.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "A convincing video once appeared to offer unusually strong evidence: viewers could see a public figure speak and hear the words directly.",
+          "The existence of deepfakes also creates plausible deniability.",
+          "Media literacy remains essential, although telling citizens to distrust everything would be a disastrous response.",
+          "When verification becomes visible as a process rather than a mysterious verdict, the public has a better chance of resisting both deception and cynical denial."
         ]
       }
     ]
@@ -51222,45 +52578,18 @@
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Host",
-        "line": "Today we are examining speech perception, accent and pronunciation training. Why does this issue resist a simple answer?",
-        "translation": "Hoy analizamos speech perception, accent and pronunciation training. ¿Por qué este asunto no admite una respuesta sencilla?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-        "translation": "Porque la pregunta central no es solo qué sucede, sino también qué supuestos determinan cómo se interpreta la evidencia."
-      },
-      {
-        "speaker": "Host",
-        "line": "Which distinction should listeners keep in mind?",
-        "translation": "¿Qué distinción deben tener presente los oyentes?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable.",
-        "translation": "Deben distinguir un hallazgo establecido de una inferencia plausible y de un juicio de valor. Esas categorías pueden relacionarse, pero no son intercambiables."
-      },
-      {
-        "speaker": "Host",
-        "line": "How can we discuss the issue responsibly?",
-        "translation": "¿Cómo podemos hablar responsablemente del asunto?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
-        "translation": "Podemos definir los términos, reconocer un contraargumento serio y explicar qué evidencia nos haría revisar la conclusión."
+        "speaker": "Narrator",
+        "line": "Pronunciation difficulties are often described as failures of the mouth, yet production may be constrained by perception. When two sounds are not contrastive in a listener’s first language, both can be assimilated to a familiar category. The difference exists acoustically, but it is not automatically treated as meaningful. Minimal-pair training can help by directing attention to contrasts such as ship and sheep, although isolated words do not capture the variability of real speech. Sounds change with neighbouring segments, speaking rate, accent, and position. High-variability perceptual training therefore uses multiple speakers and contexts, requiring the learner to identify a category rather than memorise one voice. Improvement should be measured through intelligibility, not imitation of an idealised native accent. Accent is a normal consequence of linguistic history, whereas intelligibility concerns whether listeners can recover the intended message with reasonable effort. Responsibility is shared: speakers can refine contrasts that repeatedly cause confusion, and listeners can become more flexible toward unfamiliar accents. Pronunciation models should also represent genuine variation rather than presenting one prestige form as the only legitimate system. Once a learner hears a contrast reliably, production practice can connect auditory targets with motor control. Recording and comparison may help, provided feedback remains specific. Speech training is most effective when perception, production, and communicative consequence are treated as one system rather than three separate exercises."
       }
     ],
     "reading": null,
-    "transcript": "Host: Today we are examining speech perception, accent and pronunciation training. Why does this issue resist a simple answer? Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted. Host: Which distinction should listeners keep in mind? Guest: They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable. Host: How can we discuss the issue responsibly? Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
+    "transcript": "Pronunciation difficulties are often described as failures of the mouth, yet production may be constrained by perception. When two sounds are not contrastive in a listener’s first language, both can be assimilated to a familiar category. The difference exists acoustically, but it is not automatically treated as meaningful. Minimal-pair training can help by directing attention to contrasts such as ship and sheep, although isolated words do not capture the variability of real speech. Sounds change with neighbouring segments, speaking rate, accent, and position. High-variability perceptual training therefore uses multiple speakers and contexts, requiring the learner to identify a category rather than memorise one voice. Improvement should be measured through intelligibility, not imitation of an idealised native accent. Accent is a normal consequence of linguistic history, whereas intelligibility concerns whether listeners can recover the intended message with reasonable effort. Responsibility is shared: speakers can refine contrasts that repeatedly cause confusion, and listeners can become more flexible toward unfamiliar accents. Pronunciation models should also represent genuine variation rather than presenting one prestige form as the only legitimate system. Once a learner hears a contrast reliably, production practice can connect auditory targets with motor control. Recording and comparison may help, provided feedback remains specific. Speech training is most effective when perception, production, and communicative consequence are treated as one system rather than three separate exercises.",
     "extra": {
-      "listeningType": "interview",
+      "listeningType": "monologue",
       "difficulty": "C2",
-      "durationSeconds": 125,
+      "durationSeconds": 116,
       "speakers": [
-        "Host",
-        "Guest"
+        "Narrator"
       ],
       "phoneticSupport": {
         "enabled": true,
@@ -51287,42 +52616,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining speech perception, accent and pronunciation training."
+                "text": "Pronunciation difficulties are often described as failures of the mouth, yet production may be constrained by perception."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Sounds change with neighbouring segments, speaking rate, accent, and position."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Responsibility is shared: speakers can refine contrasts that repeatedly cause confusion, and listeners can become more flexible toward unfamiliar accents."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Speech training is most effective when perception, production, and communicative consequence are treated as one system rather than three separate exercises."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining speech perception, accent and pronunciation…”, what happens next in “Listening Lab: Speech Perception, Accent and Pronunciation Training”?",
+            "prompt": "After “Pronunciation difficulties are often described as failures of the…”, what happens next in “Listening Lab: Speech Perception, Accent and Pronunciation Training”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining speech perception, accent and pronunciation training."
+                "text": "Pronunciation difficulties are often described as failures of the mouth, yet production may be constrained by perception."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Sounds change with neighbouring segments, speaking rate, accent, and position."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Responsibility is shared: speakers can refine contrasts that repeatedly cause confusion, and listeners can become more flexible toward unfamiliar accents."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Speech training is most effective when perception, production, and communicative consequence are treated as one system rather than three separate exercises."
               }
             ]
           },
@@ -51333,47 +52662,119 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining speech perception, accent and pronunciation training."
+                "text": "Pronunciation difficulties are often described as failures of the mouth, yet production may be constrained by perception."
               },
               {
                 "id": "o2",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Sounds change with neighbouring segments, speaking rate, accent, and position."
               },
               {
                 "id": "o3",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Improvement should be measured through intelligibility, not imitation of an idealised native accent."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Responsibility is shared: speakers can refine contrasts that repeatedly cause confusion, and listeners can become more flexible toward unfamiliar accents."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Speech Perception, Accent and Pronunciation Training” after “Because the central question is not only what happens, but also which…”?",
+            "prompt": "Which outcome closes “Listening Lab: Speech Perception, Accent and Pronunciation Training” after “Improvement should be measured through intelligibility, not imitation…”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining speech perception, accent and pronunciation training."
+                "text": "Pronunciation difficulties are often described as failures of the mouth, yet production may be constrained by perception."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Sounds change with neighbouring segments, speaking rate, accent, and position."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Responsibility is shared: speakers can refine contrasts that repeatedly cause confusion, and listeners can become more flexible toward unfamiliar accents."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Speech training is most effective when perception, production, and communicative consequence are treated as one system rather than three separate exercises."
               }
             ]
           }
         ]
       },
+      "storyTitle": "Training the Ear Before the Voice",
+      "mainTranscript": "Pronunciation difficulties are often described as failures of the mouth, yet production may be constrained by perception. When two sounds are not contrastive in a listener’s first language, both can be assimilated to a familiar category. The difference exists acoustically, but it is not automatically treated as meaningful. Minimal-pair training can help by directing attention to contrasts such as ship and sheep, although isolated words do not capture the variability of real speech. Sounds change with neighbouring segments, speaking rate, accent, and position. High-variability perceptual training therefore uses multiple speakers and contexts, requiring the learner to identify a category rather than memorise one voice. Improvement should be measured through intelligibility, not imitation of an idealised native accent. Accent is a normal consequence of linguistic history, whereas intelligibility concerns whether listeners can recover the intended message with reasonable effort. Responsibility is shared: speakers can refine contrasts that repeatedly cause confusion, and listeners can become more flexible toward unfamiliar accents. Pronunciation models should also represent genuine variation rather than presenting one prestige form as the only legitimate system. Once a learner hears a contrast reliably, production practice can connect auditory targets with motor control. Recording and comparison may help, provided feedback remains specific. Speech training is most effective when perception, production, and communicative consequence are treated as one system rather than three separate exercises.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Pronunciation difficulties are often described as failures of the mouth, yet production may be constrained by perception."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "When two sounds are not contrastive in a listener’s first language, both can be assimilated to a familiar category."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "The difference exists acoustically, but it is not automatically treated as meaningful."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "Minimal-pair training can help by directing attention to contrasts such as ship and sheep, although isolated words do not capture the variability of real speech."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Sounds change with neighbouring segments, speaking rate, accent, and position."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "High-variability perceptual training therefore uses multiple speakers and contexts, requiring the learner to identify a category rather than memorise one voice."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Improvement should be measured through intelligibility, not imitation of an idealised native accent."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Accent is a normal consequence of linguistic history, whereas intelligibility concerns whether listeners can recover the intended message with reasonable effort."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Responsibility is shared: speakers can refine contrasts that repeatedly cause confusion, and listeners can become more flexible toward unfamiliar accents."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Pronunciation models should also represent genuine variation rather than presenting one prestige form as the only legitimate system."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Once a learner hears a contrast reliably, production practice can connect auditory targets with motor control."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "Recording and comparison may help, provided feedback remains specific."
+        },
+        {
+          "id": "segment-13",
+          "order": 13,
+          "text": "Speech training is most effective when perception, production, and communicative consequence are treated as one system rather than three separate exercises."
+        }
+      ],
+      "listeningFormat": "speech-science-conference",
+      "voiceStyle": "speech-science",
+      "audioLocale": "en-US",
       "grammarTest": null
     },
     "exercises": [
@@ -51381,40 +52782,40 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Speech Perception, Accent and Pronunciation Training”, which detail establishes the situation?",
         "options": [
-          "Host: Today we are examining speech perception, accent and pronunciation training.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Pronunciation difficulties are often described as failures of the mouth, yet production may be constrained by perception.",
+          "Sounds change with neighbouring segments, speaking rate, accent, and position.",
+          "Responsibility is shared: speakers can refine contrasts that repeatedly cause confusion, and listeners can become more flexible toward unfamiliar accents.",
+          "Speech training is most effective when perception, production, and communicative consequence are treated as one system rather than three separate exercises."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining speech perception, accent and pronunciation…”, what happens next in “Listening Lab: Speech Perception, Accent and Pronunciation Training”?",
+        "prompt": "After “Pronunciation difficulties are often described as failures of the…”, what happens next in “Listening Lab: Speech Perception, Accent and Pronunciation Training”?",
         "options": [
-          "Host: Today we are examining speech perception, accent and pronunciation training.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Pronunciation difficulties are often described as failures of the mouth, yet production may be constrained by perception.",
+          "Sounds change with neighbouring segments, speaking rate, accent, and position.",
+          "Responsibility is shared: speakers can refine contrasts that repeatedly cause confusion, and listeners can become more flexible toward unfamiliar accents.",
+          "Speech training is most effective when perception, production, and communicative consequence are treated as one system rather than three separate exercises."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Speech Perception, Accent and Pronunciation Training”?",
         "options": [
-          "Host: Today we are examining speech perception, accent and pronunciation training.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Pronunciation difficulties are often described as failures of the mouth, yet production may be constrained by perception.",
+          "Sounds change with neighbouring segments, speaking rate, accent, and position.",
+          "Improvement should be measured through intelligibility, not imitation of an idealised native accent.",
+          "Responsibility is shared: speakers can refine contrasts that repeatedly cause confusion, and listeners can become more flexible toward unfamiliar accents."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Speech Perception, Accent and Pronunciation Training” after “Because the central question is not only what happens, but also which…”?",
+        "prompt": "Which outcome closes “Listening Lab: Speech Perception, Accent and Pronunciation Training” after “Improvement should be measured through intelligibility, not imitation…”?",
         "options": [
-          "Host: Today we are examining speech perception, accent and pronunciation training.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Pronunciation difficulties are often described as failures of the mouth, yet production may be constrained by perception.",
+          "Sounds change with neighbouring segments, speaking rate, accent, and position.",
+          "Responsibility is shared: speakers can refine contrasts that repeatedly cause confusion, and listeners can become more flexible toward unfamiliar accents.",
+          "Speech training is most effective when perception, production, and communicative consequence are treated as one system rather than three separate exercises."
         ]
       }
     ]
@@ -57357,33 +58758,63 @@
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "Narrator",
+        "line": "Four young professionals are deciding whether to rent an apartment together. If they shared the home, each person would pay less and they could choose a better location. However, they would have to agree about cleaning, visitors, noise, and shared expenses. One person works at night, while another needs quiet mornings for online meetings. If they ignored those differences, small problems could damage their friendship. Before signing a contract, they decide to discuss their routines and write simple house rules. They also calculate deposits, utility bills, and travel time. Sharing a home could make city life more affordable, but price is not the only consideration. Honest conversation about expectations would help them decide whether they are truly compatible as roommates."
+      }
+    ],
     "reading": null,
-    "transcript": "",
+    "transcript": "Four young professionals are deciding whether to rent an apartment together. If they shared the home, each person would pay less and they could choose a better location. However, they would have to agree about cleaning, visitors, noise, and shared expenses. One person works at night, while another needs quiet mornings for online meetings. If they ignored those differences, small problems could damage their friendship. Before signing a contract, they decide to discuss their routines and write simple house rules. They also calculate deposits, utility bills, and travel time. Sharing a home could make city life more affordable, but price is not the only consideration. Honest conversation about expectations would help them decide whether they are truly compatible as roommates.",
     "extra": {
-      "listeningType": "story",
-      "storyTitle": "Talking About Liverpool",
-      "mainTranscript": "Daniel tells Sarah that a Liverpool position might become available. Sarah says she wants to support him, but she is not ready to leave Manchester quickly. Daniel suggests collecting more information before making a decision. They agree to talk again when the offer becomes clearer.",
+      "listeningType": "monologue",
+      "storyTitle": "Should We Share an Apartment?",
+      "mainTranscript": "Four young professionals are deciding whether to rent an apartment together. If they shared the home, each person would pay less and they could choose a better location. However, they would have to agree about cleaning, visitors, noise, and shared expenses. One person works at night, while another needs quiet mornings for online meetings. If they ignored those differences, small problems could damage their friendship. Before signing a contract, they decide to discuss their routines and write simple house rules. They also calculate deposits, utility bills, and travel time. Sharing a home could make city life more affordable, but price is not the only consideration. Honest conversation about expectations would help them decide whether they are truly compatible as roommates.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Daniel tells Sarah that a Liverpool position might become available."
+          "text": "Four young professionals are deciding whether to rent an apartment together."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "Sarah says she wants to support him, but she is not ready to leave Manchester quickly."
+          "text": "If they shared the home, each person would pay less and they could choose a better location."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "Daniel suggests collecting more information before making a decision."
+          "text": "However, they would have to agree about cleaning, visitors, noise, and shared expenses."
         },
         {
           "id": "segment-04",
           "order": 4,
-          "text": "They agree to talk again when the offer becomes clearer."
+          "text": "One person works at night, while another needs quiet mornings for online meetings."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "If they ignored those differences, small problems could damage their friendship."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Before signing a contract, they decide to discuss their routines and write simple house rules."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "They also calculate deposits, utility bills, and travel time."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Sharing a home could make city life more affordable, but price is not the only consideration."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Honest conversation about expectations would help them decide whether they are truly compatible as roommates."
         }
       ],
       "listeningComprehension": {
@@ -57397,42 +58828,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Daniel tells Sarah that a Liverpool position might become available."
+                "text": "Four young professionals are deciding whether to rent an apartment together."
               },
               {
                 "id": "o2",
-                "text": "Sarah says she wants to support him, but she is not ready to leave Manchester quickly."
+                "text": "One person works at night, while another needs quiet mornings for online meetings."
               },
               {
                 "id": "o3",
-                "text": "Daniel suggests collecting more information before making a decision."
+                "text": "Before signing a contract, they decide to discuss their routines and write simple house rules."
               },
               {
                 "id": "o4",
-                "text": "They agree to talk again when the offer becomes clearer."
+                "text": "Honest conversation about expectations would help them decide whether they are truly compatible as roommates."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Daniel tells Sarah that a Liverpool position might become available.”, what happens next in “Talking About Liverpool”?",
+            "prompt": "After “Four young professionals are deciding whether to rent an apartment…”, what happens next in “Talking About Liverpool”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Daniel tells Sarah that a Liverpool position might become available."
+                "text": "Four young professionals are deciding whether to rent an apartment together."
               },
               {
                 "id": "o2",
-                "text": "Sarah says she wants to support him, but she is not ready to leave Manchester quickly."
+                "text": "One person works at night, while another needs quiet mornings for online meetings."
               },
               {
                 "id": "o3",
-                "text": "Daniel suggests collecting more information before making a decision."
+                "text": "Before signing a contract, they decide to discuss their routines and write simple house rules."
               },
               {
                 "id": "o4",
-                "text": "They agree to talk again when the offer becomes clearer."
+                "text": "Honest conversation about expectations would help them decide whether they are truly compatible as roommates."
               }
             ]
           },
@@ -57443,47 +58874,54 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Daniel tells Sarah that a Liverpool position might become available."
+                "text": "Four young professionals are deciding whether to rent an apartment together."
               },
               {
                 "id": "o2",
-                "text": "Sarah says she wants to support him, but she is not ready to leave Manchester quickly."
+                "text": "One person works at night, while another needs quiet mornings for online meetings."
               },
               {
                 "id": "o3",
-                "text": "Daniel suggests collecting more information before making a decision."
+                "text": "Before signing a contract, they decide to discuss their routines and write simple house rules."
               },
               {
                 "id": "o4",
-                "text": "They agree to talk again when the offer becomes clearer."
+                "text": "Honest conversation about expectations would help them decide whether they are truly compatible as roommates."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Talking About Liverpool” after “Daniel suggests collecting more information before making a decision.”?",
+            "prompt": "Which outcome closes “Talking About Liverpool” after “Before signing a contract, they decide to discuss their routines and…”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Daniel tells Sarah that a Liverpool position might become available."
+                "text": "Four young professionals are deciding whether to rent an apartment together."
               },
               {
                 "id": "o2",
-                "text": "Sarah says she wants to support him, but she is not ready to leave Manchester quickly."
+                "text": "One person works at night, while another needs quiet mornings for online meetings."
               },
               {
                 "id": "o3",
-                "text": "Daniel suggests collecting more information before making a decision."
+                "text": "Before signing a contract, they decide to discuss their routines and write simple house rules."
               },
               {
                 "id": "o4",
-                "text": "They agree to talk again when the offer becomes clearer."
+                "text": "Honest conversation about expectations would help them decide whether they are truly compatible as roommates."
               }
             ]
           }
         ]
       },
+      "speakers": [
+        "Narrator"
+      ],
+      "durationSeconds": 53,
+      "audioLocale": "en-US",
+      "listeningFormat": "practical-discussion",
+      "voiceStyle": "reflective-narrative",
       "grammarTest": null
     },
     "exercises": [
@@ -57491,40 +58929,40 @@
         "type": "mcq",
         "prompt": "In “Talking About Liverpool”, which detail establishes the situation?",
         "options": [
-          "Daniel tells Sarah that a Liverpool position might become available.",
-          "Sarah says she wants to support him, but she is not ready to leave Manchester quickly.",
-          "Daniel suggests collecting more information before making a decision.",
-          "They agree to talk again when the offer becomes clearer."
+          "Four young professionals are deciding whether to rent an apartment together.",
+          "One person works at night, while another needs quiet mornings for online meetings.",
+          "Before signing a contract, they decide to discuss their routines and write simple house rules.",
+          "Honest conversation about expectations would help them decide whether they are truly compatible as roommates."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Daniel tells Sarah that a Liverpool position might become available.”, what happens next in “Talking About Liverpool”?",
+        "prompt": "After “Four young professionals are deciding whether to rent an apartment…”, what happens next in “Talking About Liverpool”?",
         "options": [
-          "Daniel tells Sarah that a Liverpool position might become available.",
-          "Sarah says she wants to support him, but she is not ready to leave Manchester quickly.",
-          "Daniel suggests collecting more information before making a decision.",
-          "They agree to talk again when the offer becomes clearer."
+          "Four young professionals are deciding whether to rent an apartment together.",
+          "One person works at night, while another needs quiet mornings for online meetings.",
+          "Before signing a contract, they decide to discuss their routines and write simple house rules.",
+          "Honest conversation about expectations would help them decide whether they are truly compatible as roommates."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Talking About Liverpool”?",
         "options": [
-          "Daniel tells Sarah that a Liverpool position might become available.",
-          "Sarah says she wants to support him, but she is not ready to leave Manchester quickly.",
-          "Daniel suggests collecting more information before making a decision.",
-          "They agree to talk again when the offer becomes clearer."
+          "Four young professionals are deciding whether to rent an apartment together.",
+          "One person works at night, while another needs quiet mornings for online meetings.",
+          "Before signing a contract, they decide to discuss their routines and write simple house rules.",
+          "Honest conversation about expectations would help them decide whether they are truly compatible as roommates."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Talking About Liverpool” after “Daniel suggests collecting more information before making a decision.”?",
+        "prompt": "Which outcome closes “Talking About Liverpool” after “Before signing a contract, they decide to discuss their routines and…”?",
         "options": [
-          "Daniel tells Sarah that a Liverpool position might become available.",
-          "Sarah says she wants to support him, but she is not ready to leave Manchester quickly.",
-          "Daniel suggests collecting more information before making a decision.",
-          "They agree to talk again when the offer becomes clearer."
+          "Four young professionals are deciding whether to rent an apartment together.",
+          "One person works at night, while another needs quiet mornings for online meetings.",
+          "Before signing a contract, they decide to discuss their routines and write simple house rules.",
+          "Honest conversation about expectations would help them decide whether they are truly compatible as roommates."
         ]
       }
     ]
@@ -57819,45 +59257,18 @@
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Host",
-        "line": "Today we are examining fast fashion and hidden costs. Why does this issue resist a simple answer?",
-        "translation": "Hoy analizamos fast fashion and hidden costs. ¿Por qué este asunto no admite una respuesta sencilla?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-        "translation": "Porque la pregunta central no es solo qué sucede, sino también qué supuestos determinan cómo se interpreta la evidencia."
-      },
-      {
-        "speaker": "Host",
-        "line": "Which distinction should listeners keep in mind?",
-        "translation": "¿Qué distinción deben tener presente los oyentes?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable.",
-        "translation": "Deben distinguir un hallazgo establecido de una inferencia plausible y de un juicio de valor. Esas categorías pueden relacionarse, pero no son intercambiables."
-      },
-      {
-        "speaker": "Host",
-        "line": "How can we discuss the issue responsibly?",
-        "translation": "¿Cómo podemos hablar responsablemente del asunto?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
-        "translation": "Podemos definir los términos, reconocer un contraargumento serio y explicar qué evidencia nos haría revisar la conclusión."
+        "speaker": "Narrator",
+        "line": "A five-pound shirt looks affordable. Why might its real price be higher? Although the customer pays very little, the supply chain can transfer costs to a garment worker, a polluted river or a community near a factory. The low price does not show those consequences. Some people argue that fast fashion makes clothing accessible. That is true, even though the disposable model encourages people to buy more than they need. Consumer demand is part of the system, but companies still control contracts, materials and labour conditions. Can labels help? They can, provided that claims are supported by traceability. While a brand may advertise one sustainable collection, it might reveal very little about the rest of its production. Better information will not solve every labour-rights problem; nevertheless, it can expose the hidden cost and help shoppers compare products. Affordability matters, but it should not depend on keeping workers and environmental damage invisible."
       }
     ],
     "reading": null,
-    "transcript": "Host: Today we are examining fast fashion and hidden costs. Why does this issue resist a simple answer? Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted. Host: Which distinction should listeners keep in mind? Guest: They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable. Host: How can we discuss the issue responsibly? Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
+    "transcript": "A five-pound shirt looks affordable. Why might its real price be higher? Although the customer pays very little, the supply chain can transfer costs to a garment worker, a polluted river or a community near a factory. The low price does not show those consequences. Some people argue that fast fashion makes clothing accessible. That is true, even though the disposable model encourages people to buy more than they need. Consumer demand is part of the system, but companies still control contracts, materials and labour conditions. Can labels help? They can, provided that claims are supported by traceability. While a brand may advertise one sustainable collection, it might reveal very little about the rest of its production. Better information will not solve every labour-rights problem; nevertheless, it can expose the hidden cost and help shoppers compare products. Affordability matters, but it should not depend on keeping workers and environmental damage invisible.",
     "extra": {
-      "listeningType": "interview",
+      "listeningType": "monologue",
       "difficulty": "B2",
-      "durationSeconds": 85,
+      "durationSeconds": 72,
       "speakers": [
-        "Host",
-        "Guest"
+        "Narrator"
       ],
       "phoneticSupport": {
         "enabled": true,
@@ -57884,42 +59295,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining fast fashion and hidden costs."
+                "text": "A five-pound shirt looks affordable."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Some people argue that fast fashion makes clothing accessible."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Can labels help?"
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Affordability matters, but it should not depend on keeping workers and environmental damage invisible."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining fast fashion and hidden costs.”, what happens next in “Listening Lab: Fast Fashion and Hidden Costs”?",
+            "prompt": "After “A five-pound shirt looks affordable.”, what happens next in “Listening Lab: Fast Fashion and Hidden Costs”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining fast fashion and hidden costs."
+                "text": "A five-pound shirt looks affordable."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Some people argue that fast fashion makes clothing accessible."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Can labels help?"
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Affordability matters, but it should not depend on keeping workers and environmental damage invisible."
               }
             ]
           },
@@ -57930,47 +59341,114 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining fast fashion and hidden costs."
+                "text": "A five-pound shirt looks affordable."
               },
               {
                 "id": "o2",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Some people argue that fast fashion makes clothing accessible."
               },
               {
                 "id": "o3",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "That is true, even though the disposable model encourages people to buy more than they need."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Can labels help?"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Fast Fashion and Hidden Costs” after “Because the central question is not only what happens, but also which…”?",
+            "prompt": "Which outcome closes “Listening Lab: Fast Fashion and Hidden Costs” after “That is true, even though the disposable model encourages people to…”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining fast fashion and hidden costs."
+                "text": "A five-pound shirt looks affordable."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Some people argue that fast fashion makes clothing accessible."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Can labels help?"
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Affordability matters, but it should not depend on keeping workers and environmental damage invisible."
               }
             ]
           }
         ]
       },
+      "storyTitle": "Why Cheap Fashion Goes Viral",
+      "mainTranscript": "A five-pound shirt looks affordable. Why might its real price be higher? Although the customer pays very little, the supply chain can transfer costs to a garment worker, a polluted river or a community near a factory. The low price does not show those consequences. Some people argue that fast fashion makes clothing accessible. That is true, even though the disposable model encourages people to buy more than they need. Consumer demand is part of the system, but companies still control contracts, materials and labour conditions. Can labels help? They can, provided that claims are supported by traceability. While a brand may advertise one sustainable collection, it might reveal very little about the rest of its production. Better information will not solve every labour-rights problem; nevertheless, it can expose the hidden cost and help shoppers compare products. Affordability matters, but it should not depend on keeping workers and environmental damage invisible.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "A five-pound shirt looks affordable."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Why might its real price be higher?"
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Although the customer pays very little, the supply chain can transfer costs to a garment worker, a polluted river or a community near a factory."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "The low price does not show those consequences."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Some people argue that fast fashion makes clothing accessible."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "That is true, even though the disposable model encourages people to buy more than they need."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Consumer demand is part of the system, but companies still control contracts, materials and labour conditions."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Can labels help?"
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "They can, provided that claims are supported by traceability."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "While a brand may advertise one sustainable collection, it might reveal very little about the rest of its production."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Better information will not solve every labour-rights problem; nevertheless, it can expose the hidden cost and help shoppers compare products."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "Affordability matters, but it should not depend on keeping workers and environmental damage invisible."
+        }
+      ],
+      "audioLocale": "en-US",
+      "listeningFormat": "consumer-guide",
+      "voiceStyle": "consumer-documentary",
       "grammarTest": null
     },
     "exercises": [
@@ -57978,40 +59456,40 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Fast Fashion and Hidden Costs”, which detail establishes the situation?",
         "options": [
-          "Host: Today we are examining fast fashion and hidden costs.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "A five-pound shirt looks affordable.",
+          "Some people argue that fast fashion makes clothing accessible.",
+          "Can labels help?",
+          "Affordability matters, but it should not depend on keeping workers and environmental damage invisible."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining fast fashion and hidden costs.”, what happens next in “Listening Lab: Fast Fashion and Hidden Costs”?",
+        "prompt": "After “A five-pound shirt looks affordable.”, what happens next in “Listening Lab: Fast Fashion and Hidden Costs”?",
         "options": [
-          "Host: Today we are examining fast fashion and hidden costs.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "A five-pound shirt looks affordable.",
+          "Some people argue that fast fashion makes clothing accessible.",
+          "Can labels help?",
+          "Affordability matters, but it should not depend on keeping workers and environmental damage invisible."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Fast Fashion and Hidden Costs”?",
         "options": [
-          "Host: Today we are examining fast fashion and hidden costs.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "A five-pound shirt looks affordable.",
+          "Some people argue that fast fashion makes clothing accessible.",
+          "That is true, even though the disposable model encourages people to buy more than they need.",
+          "Can labels help?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Fast Fashion and Hidden Costs” after “Because the central question is not only what happens, but also which…”?",
+        "prompt": "Which outcome closes “Listening Lab: Fast Fashion and Hidden Costs” after “That is true, even though the disposable model encourages people to…”?",
         "options": [
-          "Host: Today we are examining fast fashion and hidden costs.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "A five-pound shirt looks affordable.",
+          "Some people argue that fast fashion makes clothing accessible.",
+          "Can labels help?",
+          "Affordability matters, but it should not depend on keeping workers and environmental damage invisible."
         ]
       }
     ]
@@ -58040,45 +59518,18 @@
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Host",
-        "line": "Today we are examining climate migration and cities. Why does this issue resist a simple answer?",
-        "translation": "Hoy analizamos climate migration and cities. ¿Por qué este asunto no admite una respuesta sencilla?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-        "translation": "Porque la pregunta central no es solo qué sucede, sino también qué supuestos determinan cómo se interpreta la evidencia."
-      },
-      {
-        "speaker": "Host",
-        "line": "Which distinction should listeners keep in mind?",
-        "translation": "¿Qué distinción deben tener presente los oyentes?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable.",
-        "translation": "Deben distinguir un hallazgo establecido de una inferencia plausible y de un juicio de valor. Esas categorías pueden relacionarse, pero no son intercambiables."
-      },
-      {
-        "speaker": "Host",
-        "line": "How can we discuss the issue responsibly?",
-        "translation": "¿Cómo podemos hablar responsablemente del asunto?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
-        "translation": "Podemos definir los términos, reconocer un contraargumento serio y explicar qué evidencia nos haría revisar la conclusión."
+        "speaker": "Narrator",
+        "line": "Climate migration is often imagined as a sudden movement across national borders, but much of it is internal, gradual, and closely connected to employment. Families facing repeated floods, crop losses, or extreme heat may first send one member to a nearby town. Others move only after insurance disappears, a school closes, or a livelihood becomes impossible. Receiving cities, already struggling with housing and transport, may treat these arrivals as an unexpected burden. Yet mobility planned early can be a form of adaptation rather than failure. Cities expanding affordable housing, recognising professional qualifications, and protecting informal workers can increase their adaptive capacity while benefiting from new residents. Planned relocation is more difficult. Communities asked to leave ancestral land may lose cultural ties even when safer housing is offered. Decisions imposed without participation can therefore create a second form of displacement. Not everyone wants to move, and not everyone has the resources to do so. Policies must support people choosing to remain where protection is feasible while creating dignified routes for those who relocate. Climate mobility is not a single future event waiting to begin. It is already reshaping neighbourhoods, labour markets, and public services. The question is whether cities will prepare inclusively or allow predictable movement to become an avoidable humanitarian crisis."
       }
     ],
     "reading": null,
-    "transcript": "Host: Today we are examining climate migration and cities. Why does this issue resist a simple answer? Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted. Host: Which distinction should listeners keep in mind? Guest: They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable. Host: How can we discuss the issue responsibly? Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
+    "transcript": "Climate migration is often imagined as a sudden movement across national borders, but much of it is internal, gradual, and closely connected to employment. Families facing repeated floods, crop losses, or extreme heat may first send one member to a nearby town. Others move only after insurance disappears, a school closes, or a livelihood becomes impossible. Receiving cities, already struggling with housing and transport, may treat these arrivals as an unexpected burden. Yet mobility planned early can be a form of adaptation rather than failure. Cities expanding affordable housing, recognising professional qualifications, and protecting informal workers can increase their adaptive capacity while benefiting from new residents. Planned relocation is more difficult. Communities asked to leave ancestral land may lose cultural ties even when safer housing is offered. Decisions imposed without participation can therefore create a second form of displacement. Not everyone wants to move, and not everyone has the resources to do so. Policies must support people choosing to remain where protection is feasible while creating dignified routes for those who relocate. Climate mobility is not a single future event waiting to begin. It is already reshaping neighbourhoods, labour markets, and public services. The question is whether cities will prepare inclusively or allow predictable movement to become an avoidable humanitarian crisis.",
     "extra": {
-      "listeningType": "interview",
+      "listeningType": "monologue",
       "difficulty": "C1",
-      "durationSeconds": 105,
+      "durationSeconds": 101,
       "speakers": [
-        "Host",
-        "Guest"
+        "Narrator"
       ],
       "phoneticSupport": {
         "enabled": true,
@@ -58105,42 +59556,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining climate migration and cities."
+                "text": "Climate migration is often imagined as a sudden movement across national borders, but much of it is internal, gradual, and closely connected to employment."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Yet mobility planned early can be a form of adaptation rather than failure."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Not everyone wants to move, and not everyone has the resources to do so."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "The question is whether cities will prepare inclusively or allow predictable movement to become an avoidable humanitarian crisis."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining climate migration and cities.”, what happens next in “Listening Lab: Climate Migration and Cities”?",
+            "prompt": "After “Climate migration is often imagined as a sudden movement across…”, what happens next in “Listening Lab: Climate Migration and Cities”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining climate migration and cities."
+                "text": "Climate migration is often imagined as a sudden movement across national borders, but much of it is internal, gradual, and closely connected to employment."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Yet mobility planned early can be a form of adaptation rather than failure."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Not everyone wants to move, and not everyone has the resources to do so."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "The question is whether cities will prepare inclusively or allow predictable movement to become an avoidable humanitarian crisis."
               }
             ]
           },
@@ -58151,47 +59602,124 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining climate migration and cities."
+                "text": "Climate migration is often imagined as a sudden movement across national borders, but much of it is internal, gradual, and closely connected to employment."
               },
               {
                 "id": "o2",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Yet mobility planned early can be a form of adaptation rather than failure."
               },
               {
                 "id": "o3",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Not everyone wants to move, and not everyone has the resources to do so."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "The question is whether cities will prepare inclusively or allow predictable movement to become an avoidable humanitarian crisis."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Climate Migration and Cities” after “Because the central question is not only what happens, but also which…”?",
+            "prompt": "Which outcome closes “Listening Lab: Climate Migration and Cities” after “Not everyone wants to move, and not everyone has the resources to do so.”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining climate migration and cities."
+                "text": "Climate migration is often imagined as a sudden movement across national borders, but much of it is internal, gradual, and closely connected to employment."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Yet mobility planned early can be a form of adaptation rather than failure."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Not everyone wants to move, and not everyone has the resources to do so."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "The question is whether cities will prepare inclusively or allow predictable movement to become an avoidable humanitarian crisis."
               }
             ]
           }
         ]
       },
+      "storyTitle": "Climate Migration: The Cities People Move To",
+      "mainTranscript": "Climate migration is often imagined as a sudden movement across national borders, but much of it is internal, gradual, and closely connected to employment. Families facing repeated floods, crop losses, or extreme heat may first send one member to a nearby town. Others move only after insurance disappears, a school closes, or a livelihood becomes impossible. Receiving cities, already struggling with housing and transport, may treat these arrivals as an unexpected burden. Yet mobility planned early can be a form of adaptation rather than failure. Cities expanding affordable housing, recognising professional qualifications, and protecting informal workers can increase their adaptive capacity while benefiting from new residents. Planned relocation is more difficult. Communities asked to leave ancestral land may lose cultural ties even when safer housing is offered. Decisions imposed without participation can therefore create a second form of displacement. Not everyone wants to move, and not everyone has the resources to do so. Policies must support people choosing to remain where protection is feasible while creating dignified routes for those who relocate. Climate mobility is not a single future event waiting to begin. It is already reshaping neighbourhoods, labour markets, and public services. The question is whether cities will prepare inclusively or allow predictable movement to become an avoidable humanitarian crisis.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Climate migration is often imagined as a sudden movement across national borders, but much of it is internal, gradual, and closely connected to employment."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Families facing repeated floods, crop losses, or extreme heat may first send one member to a nearby town."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Others move only after insurance disappears, a school closes, or a livelihood becomes impossible."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "Receiving cities, already struggling with housing and transport, may treat these arrivals as an unexpected burden."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Yet mobility planned early can be a form of adaptation rather than failure."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Cities expanding affordable housing, recognising professional qualifications, and protecting informal workers can increase their adaptive capacity while benefiting from new residents."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Planned relocation is more difficult."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Communities asked to leave ancestral land may lose cultural ties even when safer housing is offered."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Decisions imposed without participation can therefore create a second form of displacement."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Not everyone wants to move, and not everyone has the resources to do so."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Policies must support people choosing to remain where protection is feasible while creating dignified routes for those who relocate."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "Climate mobility is not a single future event waiting to begin."
+        },
+        {
+          "id": "segment-13",
+          "order": 13,
+          "text": "It is already reshaping neighbourhoods, labour markets, and public services."
+        },
+        {
+          "id": "segment-14",
+          "order": 14,
+          "text": "The question is whether cities will prepare inclusively or allow predictable movement to become an avoidable humanitarian crisis."
+        }
+      ],
+      "listeningFormat": "narrative-report",
+      "voiceStyle": "human-interest-documentary",
+      "audioLocale": "en-US",
       "grammarTest": null
     },
     "exercises": [
@@ -58199,40 +59727,40 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Climate Migration and Cities”, which detail establishes the situation?",
         "options": [
-          "Host: Today we are examining climate migration and cities.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Climate migration is often imagined as a sudden movement across national borders, but much of it is internal, gradual, and closely connected to employment.",
+          "Yet mobility planned early can be a form of adaptation rather than failure.",
+          "Not everyone wants to move, and not everyone has the resources to do so.",
+          "The question is whether cities will prepare inclusively or allow predictable movement to become an avoidable humanitarian crisis."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining climate migration and cities.”, what happens next in “Listening Lab: Climate Migration and Cities”?",
+        "prompt": "After “Climate migration is often imagined as a sudden movement across…”, what happens next in “Listening Lab: Climate Migration and Cities”?",
         "options": [
-          "Host: Today we are examining climate migration and cities.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Climate migration is often imagined as a sudden movement across national borders, but much of it is internal, gradual, and closely connected to employment.",
+          "Yet mobility planned early can be a form of adaptation rather than failure.",
+          "Not everyone wants to move, and not everyone has the resources to do so.",
+          "The question is whether cities will prepare inclusively or allow predictable movement to become an avoidable humanitarian crisis."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Climate Migration and Cities”?",
         "options": [
-          "Host: Today we are examining climate migration and cities.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Climate migration is often imagined as a sudden movement across national borders, but much of it is internal, gradual, and closely connected to employment.",
+          "Yet mobility planned early can be a form of adaptation rather than failure.",
+          "Not everyone wants to move, and not everyone has the resources to do so.",
+          "The question is whether cities will prepare inclusively or allow predictable movement to become an avoidable humanitarian crisis."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Climate Migration and Cities” after “Because the central question is not only what happens, but also which…”?",
+        "prompt": "Which outcome closes “Listening Lab: Climate Migration and Cities” after “Not everyone wants to move, and not everyone has the resources to do so.”?",
         "options": [
-          "Host: Today we are examining climate migration and cities.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Climate migration is often imagined as a sudden movement across national borders, but much of it is internal, gradual, and closely connected to employment.",
+          "Yet mobility planned early can be a form of adaptation rather than failure.",
+          "Not everyone wants to move, and not everyone has the resources to do so.",
+          "The question is whether cities will prepare inclusively or allow predictable movement to become an avoidable humanitarian crisis."
         ]
       }
     ]
@@ -58261,45 +59789,18 @@
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Host",
-        "line": "Today we are examining language anxiety, attention and working memory. Why does this issue resist a simple answer?",
-        "translation": "Hoy analizamos language anxiety, attention and working memory. ¿Por qué este asunto no admite una respuesta sencilla?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-        "translation": "Porque la pregunta central no es solo qué sucede, sino también qué supuestos determinan cómo se interpreta la evidencia."
-      },
-      {
-        "speaker": "Host",
-        "line": "Which distinction should listeners keep in mind?",
-        "translation": "¿Qué distinción deben tener presente los oyentes?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable.",
-        "translation": "Deben distinguir un hallazgo establecido de una inferencia plausible y de un juicio de valor. Esas categorías pueden relacionarse, pero no son intercambiables."
-      },
-      {
-        "speaker": "Host",
-        "line": "How can we discuss the issue responsibly?",
-        "translation": "¿Cómo podemos hablar responsablemente del asunto?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
-        "translation": "Podemos definir los términos, reconocer un contraargumento serio y explicar qué evidencia nos haría revisar la conclusión."
+        "speaker": "Narrator",
+        "line": "Language anxiety does more than create an unpleasant feeling. It competes for attention. A learner speaking under evaluation may monitor pronunciation, grammar, the listener’s expression, and the possibility of embarrassment simultaneously. Working memory that should organise the message is partly occupied by threat. If the same learner were speaking to a trusted partner, knowledge that seemed unavailable might return. This does not mean anxiety explains every difficulty, nor that all pressure is harmful. Moderate activation can sharpen focus when a task feels manageable. Problems emerge when evaluation apprehension becomes the dominant task. Advice to “be confident” is inadequate because confidence is often an outcome of successful participation, not a prerequisite. Instruction can reduce unnecessary cognitive load by giving preparation time, clarifying assessment criteria, and separating fluency practice from accuracy testing. Learners can also rehearse the opening of a response, use notes containing key ideas rather than full sentences, and redirect attention toward the listener’s meaning. Had an anxious speaker been interrupted for every minor error, self-monitoring would probably intensify. If feedback were delayed and selective, the same conversation might become more coherent. Support should not become permanent avoidance; learners still need progressively challenging situations. The aim is calibrated exposure in which difficulty increases without removing psychological safety. When attention is released from constant self-surveillance, language becomes available again as a tool for thought and connection."
       }
     ],
     "reading": null,
-    "transcript": "Host: Today we are examining language anxiety, attention and working memory. Why does this issue resist a simple answer? Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted. Host: Which distinction should listeners keep in mind? Guest: They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable. Host: How can we discuss the issue responsibly? Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
+    "transcript": "Language anxiety does more than create an unpleasant feeling. It competes for attention. A learner speaking under evaluation may monitor pronunciation, grammar, the listener’s expression, and the possibility of embarrassment simultaneously. Working memory that should organise the message is partly occupied by threat. If the same learner were speaking to a trusted partner, knowledge that seemed unavailable might return. This does not mean anxiety explains every difficulty, nor that all pressure is harmful. Moderate activation can sharpen focus when a task feels manageable. Problems emerge when evaluation apprehension becomes the dominant task. Advice to “be confident” is inadequate because confidence is often an outcome of successful participation, not a prerequisite. Instruction can reduce unnecessary cognitive load by giving preparation time, clarifying assessment criteria, and separating fluency practice from accuracy testing. Learners can also rehearse the opening of a response, use notes containing key ideas rather than full sentences, and redirect attention toward the listener’s meaning. Had an anxious speaker been interrupted for every minor error, self-monitoring would probably intensify. If feedback were delayed and selective, the same conversation might become more coherent. Support should not become permanent avoidance; learners still need progressively challenging situations. The aim is calibrated exposure in which difficulty increases without removing psychological safety. When attention is released from constant self-surveillance, language becomes available again as a tool for thought and connection.",
     "extra": {
-      "listeningType": "interview",
+      "listeningType": "monologue",
       "difficulty": "C2",
-      "durationSeconds": 125,
+      "durationSeconds": 117,
       "speakers": [
-        "Host",
-        "Guest"
+        "Narrator"
       ],
       "phoneticSupport": {
         "enabled": true,
@@ -58326,42 +59827,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining language anxiety, attention and working memory."
+                "text": "Language anxiety does more than create an unpleasant feeling."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "This does not mean anxiety explains every difficulty, nor that all pressure is harmful."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Learners can also rehearse the opening of a response, use notes containing key ideas rather than full sentences, and redirect attention toward the listener’s meaning."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "When attention is released from constant self-surveillance, language becomes available again as a tool for thought and connection."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining language anxiety, attention and working memory.”, what happens next in “Listening Lab: Language Anxiety, Attention and Working Memory”?",
+            "prompt": "After “Language anxiety does more than create an unpleasant feeling.”, what happens next in “Listening Lab: Language Anxiety, Attention and Working Memory”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining language anxiety, attention and working memory."
+                "text": "Language anxiety does more than create an unpleasant feeling."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "This does not mean anxiety explains every difficulty, nor that all pressure is harmful."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Learners can also rehearse the opening of a response, use notes containing key ideas rather than full sentences, and redirect attention toward the listener’s meaning."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "When attention is released from constant self-surveillance, language becomes available again as a tool for thought and connection."
               }
             ]
           },
@@ -58372,47 +59873,134 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining language anxiety, attention and working memory."
+                "text": "Language anxiety does more than create an unpleasant feeling."
               },
               {
                 "id": "o2",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "This does not mean anxiety explains every difficulty, nor that all pressure is harmful."
               },
               {
                 "id": "o3",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Working memory that should organise the message is partly occupied by threat."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Learners can also rehearse the opening of a response, use notes containing key ideas rather than full sentences, and redirect attention toward the listener’s meaning."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Language Anxiety, Attention and Working Memory” after “Because the central question is not only what happens, but also which…”?",
+            "prompt": "Which outcome closes “Listening Lab: Language Anxiety, Attention and Working Memory” after “Working memory that should organise the message is partly occupied by…”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining language anxiety, attention and working memory."
+                "text": "Language anxiety does more than create an unpleasant feeling."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "This does not mean anxiety explains every difficulty, nor that all pressure is harmful."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Learners can also rehearse the opening of a response, use notes containing key ideas rather than full sentences, and redirect attention toward the listener’s meaning."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "When attention is released from constant self-surveillance, language becomes available again as a tool for thought and connection."
               }
             ]
           }
         ]
       },
+      "storyTitle": "The Cognitive Cost of Language Anxiety",
+      "mainTranscript": "Language anxiety does more than create an unpleasant feeling. It competes for attention. A learner speaking under evaluation may monitor pronunciation, grammar, the listener’s expression, and the possibility of embarrassment simultaneously. Working memory that should organise the message is partly occupied by threat. If the same learner were speaking to a trusted partner, knowledge that seemed unavailable might return. This does not mean anxiety explains every difficulty, nor that all pressure is harmful. Moderate activation can sharpen focus when a task feels manageable. Problems emerge when evaluation apprehension becomes the dominant task. Advice to “be confident” is inadequate because confidence is often an outcome of successful participation, not a prerequisite. Instruction can reduce unnecessary cognitive load by giving preparation time, clarifying assessment criteria, and separating fluency practice from accuracy testing. Learners can also rehearse the opening of a response, use notes containing key ideas rather than full sentences, and redirect attention toward the listener’s meaning. Had an anxious speaker been interrupted for every minor error, self-monitoring would probably intensify. If feedback were delayed and selective, the same conversation might become more coherent. Support should not become permanent avoidance; learners still need progressively challenging situations. The aim is calibrated exposure in which difficulty increases without removing psychological safety. When attention is released from constant self-surveillance, language becomes available again as a tool for thought and connection.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Language anxiety does more than create an unpleasant feeling."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "It competes for attention."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "A learner speaking under evaluation may monitor pronunciation, grammar, the listener’s expression, and the possibility of embarrassment simultaneously."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "Working memory that should organise the message is partly occupied by threat."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "If the same learner were speaking to a trusted partner, knowledge that seemed unavailable might return."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "This does not mean anxiety explains every difficulty, nor that all pressure is harmful."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Moderate activation can sharpen focus when a task feels manageable."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Problems emerge when evaluation apprehension becomes the dominant task."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Advice to “be confident” is inadequate because confidence is often an outcome of successful participation, not a prerequisite."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Instruction can reduce unnecessary cognitive load by giving preparation time, clarifying assessment criteria, and separating fluency practice from accuracy testing."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Learners can also rehearse the opening of a response, use notes containing key ideas rather than full sentences, and redirect attention toward the listener’s meaning."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "Had an anxious speaker been interrupted for every minor error, self-monitoring would probably intensify."
+        },
+        {
+          "id": "segment-13",
+          "order": 13,
+          "text": "If feedback were delayed and selective, the same conversation might become more coherent."
+        },
+        {
+          "id": "segment-14",
+          "order": 14,
+          "text": "Support should not become permanent avoidance; learners still need progressively challenging situations."
+        },
+        {
+          "id": "segment-15",
+          "order": 15,
+          "text": "The aim is calibrated exposure in which difficulty increases without removing psychological safety."
+        },
+        {
+          "id": "segment-16",
+          "order": 16,
+          "text": "When attention is released from constant self-surveillance, language becomes available again as a tool for thought and connection."
+        }
+      ],
+      "listeningFormat": "calm-lecture",
+      "voiceStyle": "warm-academic",
+      "audioLocale": "en-US",
       "grammarTest": null
     },
     "exercises": [
@@ -58420,40 +60008,40 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Language Anxiety, Attention and Working Memory”, which detail establishes the situation?",
         "options": [
-          "Host: Today we are examining language anxiety, attention and working memory.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Language anxiety does more than create an unpleasant feeling.",
+          "This does not mean anxiety explains every difficulty, nor that all pressure is harmful.",
+          "Learners can also rehearse the opening of a response, use notes containing key ideas rather than full sentences, and redirect attention toward the listener’s meaning.",
+          "When attention is released from constant self-surveillance, language becomes available again as a tool for thought and connection."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining language anxiety, attention and working memory.”, what happens next in “Listening Lab: Language Anxiety, Attention and Working Memory”?",
+        "prompt": "After “Language anxiety does more than create an unpleasant feeling.”, what happens next in “Listening Lab: Language Anxiety, Attention and Working Memory”?",
         "options": [
-          "Host: Today we are examining language anxiety, attention and working memory.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Language anxiety does more than create an unpleasant feeling.",
+          "This does not mean anxiety explains every difficulty, nor that all pressure is harmful.",
+          "Learners can also rehearse the opening of a response, use notes containing key ideas rather than full sentences, and redirect attention toward the listener’s meaning.",
+          "When attention is released from constant self-surveillance, language becomes available again as a tool for thought and connection."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Language Anxiety, Attention and Working Memory”?",
         "options": [
-          "Host: Today we are examining language anxiety, attention and working memory.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Language anxiety does more than create an unpleasant feeling.",
+          "This does not mean anxiety explains every difficulty, nor that all pressure is harmful.",
+          "Working memory that should organise the message is partly occupied by threat.",
+          "Learners can also rehearse the opening of a response, use notes containing key ideas rather than full sentences, and redirect attention toward the listener’s meaning."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Language Anxiety, Attention and Working Memory” after “Because the central question is not only what happens, but also which…”?",
+        "prompt": "Which outcome closes “Listening Lab: Language Anxiety, Attention and Working Memory” after “Working memory that should organise the message is partly occupied by…”?",
         "options": [
-          "Host: Today we are examining language anxiety, attention and working memory.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Language anxiety does more than create an unpleasant feeling.",
+          "This does not mean anxiety explains every difficulty, nor that all pressure is harmful.",
+          "Learners can also rehearse the opening of a response, use notes containing key ideas rather than full sentences, and redirect attention toward the listener’s meaning.",
+          "When attention is released from constant self-surveillance, language becomes available again as a tool for thought and connection."
         ]
       }
     ]
@@ -64391,33 +65979,53 @@
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "Narrator",
+        "line": "In a radio program, callers describe how their plans have changed. An engineer says she had expected to buy a home by thirty, but rising prices made her reconsider. A restaurant worker explains that his manager had encouraged him to study business, so he enrolled in an evening course. Another caller reports that remote work has allowed her to move closer to her family. The host reminds listeners that a goal can provide direction without becoming a strict deadline. She asks each caller to identify one action they can take this month. By the end of the program, the guests have turned broad hopes into practical steps: compare courses, review savings, request flexible hours, and speak to people already working in a desired field."
+      }
+    ],
     "reading": null,
-    "transcript": "",
+    "transcript": "In a radio program, callers describe how their plans have changed. An engineer says she had expected to buy a home by thirty, but rising prices made her reconsider. A restaurant worker explains that his manager had encouraged him to study business, so he enrolled in an evening course. Another caller reports that remote work has allowed her to move closer to her family. The host reminds listeners that a goal can provide direction without becoming a strict deadline. She asks each caller to identify one action they can take this month. By the end of the program, the guests have turned broad hopes into practical steps: compare courses, review savings, request flexible hours, and speak to people already working in a desired field.",
     "extra": {
-      "listeningType": "story",
-      "storyTitle": "Three Goals",
-      "mainTranscript": "Sarah and Daniel discuss their goals for the next six months. Sarah says Priya told her she was ready for leadership. Daniel says his manager told him that his communication had improved. They decide to write realistic goals instead of vague promises.",
+      "listeningType": "monologue",
+      "storyTitle": "Plans for the Next Five Years",
+      "mainTranscript": "In a radio program, callers describe how their plans have changed. An engineer says she had expected to buy a home by thirty, but rising prices made her reconsider. A restaurant worker explains that his manager had encouraged him to study business, so he enrolled in an evening course. Another caller reports that remote work has allowed her to move closer to her family. The host reminds listeners that a goal can provide direction without becoming a strict deadline. She asks each caller to identify one action they can take this month. By the end of the program, the guests have turned broad hopes into practical steps: compare courses, review savings, request flexible hours, and speak to people already working in a desired field.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Sarah and Daniel discuss their goals for the next six months."
+          "text": "In a radio program, callers describe how their plans have changed."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "Sarah says Priya told her she was ready for leadership."
+          "text": "An engineer says she had expected to buy a home by thirty, but rising prices made her reconsider."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "Daniel says his manager told him that his communication had improved."
+          "text": "A restaurant worker explains that his manager had encouraged him to study business, so he enrolled in an evening course."
         },
         {
           "id": "segment-04",
           "order": 4,
-          "text": "They decide to write realistic goals instead of vague promises."
+          "text": "Another caller reports that remote work has allowed her to move closer to her family."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "The host reminds listeners that a goal can provide direction without becoming a strict deadline."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "She asks each caller to identify one action they can take this month."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "By the end of the program, the guests have turned broad hopes into practical steps: compare courses, review savings, request flexible hours, and speak to people already working in a desired field."
         }
       ],
       "listeningComprehension": {
@@ -64431,42 +66039,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Sarah and Daniel discuss their goals for the next six months."
+                "text": "In a radio program, callers describe how their plans have changed."
               },
               {
                 "id": "o2",
-                "text": "Sarah says Priya told her she was ready for leadership."
+                "text": "A restaurant worker explains that his manager had encouraged him to study business, so he enrolled in an evening course."
               },
               {
                 "id": "o3",
-                "text": "Daniel says his manager told him that his communication had improved."
+                "text": "The host reminds listeners that a goal can provide direction without becoming a strict deadline."
               },
               {
                 "id": "o4",
-                "text": "They decide to write realistic goals instead of vague promises."
+                "text": "By the end of the program, the guests have turned broad hopes into practical steps: compare courses, review savings, request flexible hours, and speak to people already working in a desired field."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Sarah and Daniel discuss their goals for the next six months.”, what happens next in “Three Goals”?",
+            "prompt": "After “In a radio program, callers describe how their plans have changed.”, what happens next in “Three Goals”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sarah and Daniel discuss their goals for the next six months."
+                "text": "In a radio program, callers describe how their plans have changed."
               },
               {
                 "id": "o2",
-                "text": "Sarah says Priya told her she was ready for leadership."
+                "text": "A restaurant worker explains that his manager had encouraged him to study business, so he enrolled in an evening course."
               },
               {
                 "id": "o3",
-                "text": "Daniel says his manager told him that his communication had improved."
+                "text": "The host reminds listeners that a goal can provide direction without becoming a strict deadline."
               },
               {
                 "id": "o4",
-                "text": "They decide to write realistic goals instead of vague promises."
+                "text": "By the end of the program, the guests have turned broad hopes into practical steps: compare courses, review savings, request flexible hours, and speak to people already working in a desired field."
               }
             ]
           },
@@ -64477,47 +66085,54 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Sarah and Daniel discuss their goals for the next six months."
+                "text": "In a radio program, callers describe how their plans have changed."
               },
               {
                 "id": "o2",
-                "text": "Sarah says Priya told her she was ready for leadership."
+                "text": "A restaurant worker explains that his manager had encouraged him to study business, so he enrolled in an evening course."
               },
               {
                 "id": "o3",
-                "text": "Daniel says his manager told him that his communication had improved."
+                "text": "The host reminds listeners that a goal can provide direction without becoming a strict deadline."
               },
               {
                 "id": "o4",
-                "text": "They decide to write realistic goals instead of vague promises."
+                "text": "By the end of the program, the guests have turned broad hopes into practical steps: compare courses, review savings, request flexible hours, and speak to people already working in a desired field."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Three Goals” after “Daniel says his manager told him that his communication had improved.”?",
+            "prompt": "Which outcome closes “Three Goals” after “The host reminds listeners that a goal can provide direction without…”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sarah and Daniel discuss their goals for the next six months."
+                "text": "In a radio program, callers describe how their plans have changed."
               },
               {
                 "id": "o2",
-                "text": "Sarah says Priya told her she was ready for leadership."
+                "text": "A restaurant worker explains that his manager had encouraged him to study business, so he enrolled in an evening course."
               },
               {
                 "id": "o3",
-                "text": "Daniel says his manager told him that his communication had improved."
+                "text": "The host reminds listeners that a goal can provide direction without becoming a strict deadline."
               },
               {
                 "id": "o4",
-                "text": "They decide to write realistic goals instead of vague promises."
+                "text": "By the end of the program, the guests have turned broad hopes into practical steps: compare courses, review savings, request flexible hours, and speak to people already working in a desired field."
               }
             ]
           }
         ]
       },
+      "speakers": [
+        "Narrator"
+      ],
+      "durationSeconds": 55,
+      "audioLocale": "en-US",
+      "listeningFormat": "call-in-show",
+      "voiceStyle": "warm-radio",
       "grammarTest": null
     },
     "exercises": [
@@ -64525,40 +66140,40 @@
         "type": "mcq",
         "prompt": "In “Three Goals”, which detail establishes the situation?",
         "options": [
-          "Sarah and Daniel discuss their goals for the next six months.",
-          "Sarah says Priya told her she was ready for leadership.",
-          "Daniel says his manager told him that his communication had improved.",
-          "They decide to write realistic goals instead of vague promises."
+          "In a radio program, callers describe how their plans have changed.",
+          "A restaurant worker explains that his manager had encouraged him to study business, so he enrolled in an evening course.",
+          "The host reminds listeners that a goal can provide direction without becoming a strict deadline.",
+          "By the end of the program, the guests have turned broad hopes into practical steps: compare courses, review savings, request flexible hours, and speak to people already working in a desired field."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Sarah and Daniel discuss their goals for the next six months.”, what happens next in “Three Goals”?",
+        "prompt": "After “In a radio program, callers describe how their plans have changed.”, what happens next in “Three Goals”?",
         "options": [
-          "Sarah and Daniel discuss their goals for the next six months.",
-          "Sarah says Priya told her she was ready for leadership.",
-          "Daniel says his manager told him that his communication had improved.",
-          "They decide to write realistic goals instead of vague promises."
+          "In a radio program, callers describe how their plans have changed.",
+          "A restaurant worker explains that his manager had encouraged him to study business, so he enrolled in an evening course.",
+          "The host reminds listeners that a goal can provide direction without becoming a strict deadline.",
+          "By the end of the program, the guests have turned broad hopes into practical steps: compare courses, review savings, request flexible hours, and speak to people already working in a desired field."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Three Goals”?",
         "options": [
-          "Sarah and Daniel discuss their goals for the next six months.",
-          "Sarah says Priya told her she was ready for leadership.",
-          "Daniel says his manager told him that his communication had improved.",
-          "They decide to write realistic goals instead of vague promises."
+          "In a radio program, callers describe how their plans have changed.",
+          "A restaurant worker explains that his manager had encouraged him to study business, so he enrolled in an evening course.",
+          "The host reminds listeners that a goal can provide direction without becoming a strict deadline.",
+          "By the end of the program, the guests have turned broad hopes into practical steps: compare courses, review savings, request flexible hours, and speak to people already working in a desired field."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Three Goals” after “Daniel says his manager told him that his communication had improved.”?",
+        "prompt": "Which outcome closes “Three Goals” after “The host reminds listeners that a goal can provide direction without…”?",
         "options": [
-          "Sarah and Daniel discuss their goals for the next six months.",
-          "Sarah says Priya told her she was ready for leadership.",
-          "Daniel says his manager told him that his communication had improved.",
-          "They decide to write realistic goals instead of vague promises."
+          "In a radio program, callers describe how their plans have changed.",
+          "A restaurant worker explains that his manager had encouraged him to study business, so he enrolled in an evening course.",
+          "The host reminds listeners that a goal can provide direction without becoming a strict deadline.",
+          "By the end of the program, the guests have turned broad hopes into practical steps: compare courses, review savings, request flexible hours, and speak to people already working in a desired field."
         ]
       }
     ]
@@ -64848,45 +66463,18 @@
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Host",
-        "line": "Today we are examining education and social mobility. Why does this issue resist a simple answer?",
-        "translation": "Hoy analizamos education and social mobility. ¿Por qué este asunto no admite una respuesta sencilla?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-        "translation": "Porque la pregunta central no es solo qué sucede, sino también qué supuestos determinan cómo se interpreta la evidencia."
-      },
-      {
-        "speaker": "Host",
-        "line": "Which distinction should listeners keep in mind?",
-        "translation": "¿Qué distinción deben tener presente los oyentes?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable.",
-        "translation": "Deben distinguir un hallazgo establecido de una inferencia plausible y de un juicio de valor. Esas categorías pueden relacionarse, pero no son intercambiables."
-      },
-      {
-        "speaker": "Host",
-        "line": "How can we discuss the issue responsibly?",
-        "translation": "¿Cómo podemos hablar responsablemente del asunto?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
-        "translation": "Podemos definir los términos, reconocer un contraargumento serio y explicar qué evidencia nos haría revisar la conclusión."
+        "speaker": "Narrator",
+        "line": "A community mentoring program supports Aisha, whose grades qualify her for a scholarship. Why is her application unfinished? Not only does she work evenings to help her family, but she also lacks reliable advice about admissions. Tuition is the visible barrier; information and time create an opportunity gap as well. Some people say scholarships reward merit fairly. Rarely is merit produced by effort alone. Students also need safe schools, mentoring and access to activities that strengthen an application. Never had Aisha met anyone from the university before this program. What would improve social mobility? Financial support is essential, but so is guidance. Only when institutions simplify forms and explain requirements clearly can talented students compete on more equal terms. The scholarship may open one door, yet broader access requires transportation, academic support and policies that recognize unequal starting points. Education creates opportunity, but it cannot remove every social barrier by itself."
       }
     ],
     "reading": null,
-    "transcript": "Host: Today we are examining education and social mobility. Why does this issue resist a simple answer? Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted. Host: Which distinction should listeners keep in mind? Guest: They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable. Host: How can we discuss the issue responsibly? Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
+    "transcript": "A community mentoring program supports Aisha, whose grades qualify her for a scholarship. Why is her application unfinished? Not only does she work evenings to help her family, but she also lacks reliable advice about admissions. Tuition is the visible barrier; information and time create an opportunity gap as well. Some people say scholarships reward merit fairly. Rarely is merit produced by effort alone. Students also need safe schools, mentoring and access to activities that strengthen an application. Never had Aisha met anyone from the university before this program. What would improve social mobility? Financial support is essential, but so is guidance. Only when institutions simplify forms and explain requirements clearly can talented students compete on more equal terms. The scholarship may open one door, yet broader access requires transportation, academic support and policies that recognize unequal starting points. Education creates opportunity, but it cannot remove every social barrier by itself.",
     "extra": {
-      "listeningType": "interview",
+      "listeningType": "monologue",
       "difficulty": "B2",
-      "durationSeconds": 85,
+      "durationSeconds": 72,
       "speakers": [
-        "Host",
-        "Guest"
+        "Narrator"
       ],
       "phoneticSupport": {
         "enabled": true,
@@ -64913,42 +66501,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining education and social mobility."
+                "text": "A community mentoring program supports Aisha, whose grades qualify her for a scholarship."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Some people say scholarships reward merit fairly."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "What would improve social mobility?"
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Education creates opportunity, but it cannot remove every social barrier by itself."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining education and social mobility.”, what happens next in “Listening Lab: Education and Social Mobility”?",
+            "prompt": "After “A community mentoring program supports Aisha, whose grades qualify her…”, what happens next in “Listening Lab: Education and Social Mobility”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining education and social mobility."
+                "text": "A community mentoring program supports Aisha, whose grades qualify her for a scholarship."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Some people say scholarships reward merit fairly."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "What would improve social mobility?"
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Education creates opportunity, but it cannot remove every social barrier by itself."
               }
             ]
           },
@@ -64959,47 +66547,119 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining education and social mobility."
+                "text": "A community mentoring program supports Aisha, whose grades qualify her for a scholarship."
               },
               {
                 "id": "o2",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Some people say scholarships reward merit fairly."
               },
               {
                 "id": "o3",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Students also need safe schools, mentoring and access to activities that strengthen an application."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "What would improve social mobility?"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Education and Social Mobility” after “Because the central question is not only what happens, but also which…”?",
+            "prompt": "Which outcome closes “Listening Lab: Education and Social Mobility” after “Students also need safe schools, mentoring and access to activities…”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining education and social mobility."
+                "text": "A community mentoring program supports Aisha, whose grades qualify her for a scholarship."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Some people say scholarships reward merit fairly."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "What would improve social mobility?"
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Education creates opportunity, but it cannot remove every social barrier by itself."
               }
             ]
           }
         ]
       },
+      "storyTitle": "Can Education Still Create Opportunity?",
+      "mainTranscript": "A community mentoring program supports Aisha, whose grades qualify her for a scholarship. Why is her application unfinished? Not only does she work evenings to help her family, but she also lacks reliable advice about admissions. Tuition is the visible barrier; information and time create an opportunity gap as well. Some people say scholarships reward merit fairly. Rarely is merit produced by effort alone. Students also need safe schools, mentoring and access to activities that strengthen an application. Never had Aisha met anyone from the university before this program. What would improve social mobility? Financial support is essential, but so is guidance. Only when institutions simplify forms and explain requirements clearly can talented students compete on more equal terms. The scholarship may open one door, yet broader access requires transportation, academic support and policies that recognize unequal starting points. Education creates opportunity, but it cannot remove every social barrier by itself.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "A community mentoring program supports Aisha, whose grades qualify her for a scholarship."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Why is her application unfinished?"
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Not only does she work evenings to help her family, but she also lacks reliable advice about admissions."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "Tuition is the visible barrier; information and time create an opportunity gap as well."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Some people say scholarships reward merit fairly."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Rarely is merit produced by effort alone."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Students also need safe schools, mentoring and access to activities that strengthen an application."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Never had Aisha met anyone from the university before this program."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "What would improve social mobility?"
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Financial support is essential, but so is guidance."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Only when institutions simplify forms and explain requirements clearly can talented students compete on more equal terms."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "The scholarship may open one door, yet broader access requires transportation, academic support and policies that recognize unequal starting points."
+        },
+        {
+          "id": "segment-13",
+          "order": 13,
+          "text": "Education creates opportunity, but it cannot remove every social barrier by itself."
+        }
+      ],
+      "audioLocale": "en-US",
+      "listeningFormat": "education-explainer",
+      "voiceStyle": "education-news",
       "grammarTest": null
     },
     "exercises": [
@@ -65007,40 +66667,40 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Education and Social Mobility”, which detail establishes the situation?",
         "options": [
-          "Host: Today we are examining education and social mobility.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "A community mentoring program supports Aisha, whose grades qualify her for a scholarship.",
+          "Some people say scholarships reward merit fairly.",
+          "What would improve social mobility?",
+          "Education creates opportunity, but it cannot remove every social barrier by itself."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining education and social mobility.”, what happens next in “Listening Lab: Education and Social Mobility”?",
+        "prompt": "After “A community mentoring program supports Aisha, whose grades qualify her…”, what happens next in “Listening Lab: Education and Social Mobility”?",
         "options": [
-          "Host: Today we are examining education and social mobility.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "A community mentoring program supports Aisha, whose grades qualify her for a scholarship.",
+          "Some people say scholarships reward merit fairly.",
+          "What would improve social mobility?",
+          "Education creates opportunity, but it cannot remove every social barrier by itself."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Education and Social Mobility”?",
         "options": [
-          "Host: Today we are examining education and social mobility.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "A community mentoring program supports Aisha, whose grades qualify her for a scholarship.",
+          "Some people say scholarships reward merit fairly.",
+          "Students also need safe schools, mentoring and access to activities that strengthen an application.",
+          "What would improve social mobility?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Education and Social Mobility” after “Because the central question is not only what happens, but also which…”?",
+        "prompt": "Which outcome closes “Listening Lab: Education and Social Mobility” after “Students also need safe schools, mentoring and access to activities…”?",
         "options": [
-          "Host: Today we are examining education and social mobility.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "A community mentoring program supports Aisha, whose grades qualify her for a scholarship.",
+          "Some people say scholarships reward merit fairly.",
+          "What would improve social mobility?",
+          "Education creates opportunity, but it cannot remove every social barrier by itself."
         ]
       }
     ]
@@ -65069,45 +66729,18 @@
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Host",
-        "line": "Today we are examining neurotechnology and mental privacy. Why does this issue resist a simple answer?",
-        "translation": "Hoy analizamos neurotechnology and mental privacy. ¿Por qué este asunto no admite una respuesta sencilla?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-        "translation": "Porque la pregunta central no es solo qué sucede, sino también qué supuestos determinan cómo se interpreta la evidencia."
-      },
-      {
-        "speaker": "Host",
-        "line": "Which distinction should listeners keep in mind?",
-        "translation": "¿Qué distinción deben tener presente los oyentes?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable.",
-        "translation": "Deben distinguir un hallazgo establecido de una inferencia plausible y de un juicio de valor. Esas categorías pueden relacionarse, pero no son intercambiables."
-      },
-      {
-        "speaker": "Host",
-        "line": "How can we discuss the issue responsibly?",
-        "translation": "¿Cómo podemos hablar responsablemente del asunto?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
-        "translation": "Podemos definir los términos, reconocer un contraargumento serio y explicar qué evidencia nos haría revisar la conclusión."
+        "speaker": "Narrator",
+        "line": "Neurotechnology can translate patterns of brain activity into information that helps a person move a cursor, communicate, or control a prosthetic device. These advances may restore independence, but they also create a category of data that feels unusually intimate. A neural signal is not a complete record of thought, and current systems cannot simply read a mind. Nevertheless, algorithms can make biometric inferences about attention, fatigue, movement, or emotional response. It is essential that public discussion avoid both exaggerated fear and careless optimism. Regulators should require that neural data be collected for a specific purpose, stored securely, and deleted when no longer necessary. Employers and schools should not be allowed to demand access merely because a device promises greater productivity. Researchers recommend that mental privacy be recognised before consumer systems become widespread, rather than after harmful practices are established. Consent alone may be insufficient when refusing a device means losing work, care, or educational support. Data minimisation is therefore crucial: systems should process only what their function genuinely requires. Neurotechnology poses a familiar question in an unfamiliar form. Innovation can expand human agency, but only if the people generating the data retain meaningful control over how it is interpreted, combined, and used."
       }
     ],
     "reading": null,
-    "transcript": "Host: Today we are examining neurotechnology and mental privacy. Why does this issue resist a simple answer? Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted. Host: Which distinction should listeners keep in mind? Guest: They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable. Host: How can we discuss the issue responsibly? Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
+    "transcript": "Neurotechnology can translate patterns of brain activity into information that helps a person move a cursor, communicate, or control a prosthetic device. These advances may restore independence, but they also create a category of data that feels unusually intimate. A neural signal is not a complete record of thought, and current systems cannot simply read a mind. Nevertheless, algorithms can make biometric inferences about attention, fatigue, movement, or emotional response. It is essential that public discussion avoid both exaggerated fear and careless optimism. Regulators should require that neural data be collected for a specific purpose, stored securely, and deleted when no longer necessary. Employers and schools should not be allowed to demand access merely because a device promises greater productivity. Researchers recommend that mental privacy be recognised before consumer systems become widespread, rather than after harmful practices are established. Consent alone may be insufficient when refusing a device means losing work, care, or educational support. Data minimisation is therefore crucial: systems should process only what their function genuinely requires. Neurotechnology poses a familiar question in an unfamiliar form. Innovation can expand human agency, but only if the people generating the data retain meaningful control over how it is interpreted, combined, and used.",
     "extra": {
-      "listeningType": "interview",
+      "listeningType": "monologue",
       "difficulty": "C1",
-      "durationSeconds": 105,
+      "durationSeconds": 97,
       "speakers": [
-        "Host",
-        "Guest"
+        "Narrator"
       ],
       "phoneticSupport": {
         "enabled": true,
@@ -65134,42 +66767,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining neurotechnology and mental privacy."
+                "text": "Neurotechnology can translate patterns of brain activity into information that helps a person move a cursor, communicate, or control a prosthetic device."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "It is essential that public discussion avoid both exaggerated fear and careless optimism."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Researchers recommend that mental privacy be recognised before consumer systems become widespread, rather than after harmful practices are established."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Innovation can expand human agency, but only if the people generating the data retain meaningful control over how it is interpreted, combined, and used."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining neurotechnology and mental privacy.”, what happens next in “Listening Lab: Neurotechnology and Mental Privacy”?",
+            "prompt": "After “Neurotechnology can translate patterns of brain activity into…”, what happens next in “Listening Lab: Neurotechnology and Mental Privacy”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining neurotechnology and mental privacy."
+                "text": "Neurotechnology can translate patterns of brain activity into information that helps a person move a cursor, communicate, or control a prosthetic device."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "It is essential that public discussion avoid both exaggerated fear and careless optimism."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Researchers recommend that mental privacy be recognised before consumer systems become widespread, rather than after harmful practices are established."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Innovation can expand human agency, but only if the people generating the data retain meaningful control over how it is interpreted, combined, and used."
               }
             ]
           },
@@ -65180,47 +66813,114 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining neurotechnology and mental privacy."
+                "text": "Neurotechnology can translate patterns of brain activity into information that helps a person move a cursor, communicate, or control a prosthetic device."
               },
               {
                 "id": "o2",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "It is essential that public discussion avoid both exaggerated fear and careless optimism."
               },
               {
                 "id": "o3",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Regulators should require that neural data be collected for a specific purpose, stored securely, and deleted when no longer necessary."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Researchers recommend that mental privacy be recognised before consumer systems become widespread, rather than after harmful practices are established."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Neurotechnology and Mental Privacy” after “Because the central question is not only what happens, but also which…”?",
+            "prompt": "Which outcome closes “Listening Lab: Neurotechnology and Mental Privacy” after “Regulators should require that neural data be collected for a specific…”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining neurotechnology and mental privacy."
+                "text": "Neurotechnology can translate patterns of brain activity into information that helps a person move a cursor, communicate, or control a prosthetic device."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "It is essential that public discussion avoid both exaggerated fear and careless optimism."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Researchers recommend that mental privacy be recognised before consumer systems become widespread, rather than after harmful practices are established."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Innovation can expand human agency, but only if the people generating the data retain meaningful control over how it is interpreted, combined, and used."
               }
             ]
           }
         ]
       },
+      "storyTitle": "Neural Data and the Right to Mental Privacy",
+      "mainTranscript": "Neurotechnology can translate patterns of brain activity into information that helps a person move a cursor, communicate, or control a prosthetic device. These advances may restore independence, but they also create a category of data that feels unusually intimate. A neural signal is not a complete record of thought, and current systems cannot simply read a mind. Nevertheless, algorithms can make biometric inferences about attention, fatigue, movement, or emotional response. It is essential that public discussion avoid both exaggerated fear and careless optimism. Regulators should require that neural data be collected for a specific purpose, stored securely, and deleted when no longer necessary. Employers and schools should not be allowed to demand access merely because a device promises greater productivity. Researchers recommend that mental privacy be recognised before consumer systems become widespread, rather than after harmful practices are established. Consent alone may be insufficient when refusing a device means losing work, care, or educational support. Data minimisation is therefore crucial: systems should process only what their function genuinely requires. Neurotechnology poses a familiar question in an unfamiliar form. Innovation can expand human agency, but only if the people generating the data retain meaningful control over how it is interpreted, combined, and used.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Neurotechnology can translate patterns of brain activity into information that helps a person move a cursor, communicate, or control a prosthetic device."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "These advances may restore independence, but they also create a category of data that feels unusually intimate."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "A neural signal is not a complete record of thought, and current systems cannot simply read a mind."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "Nevertheless, algorithms can make biometric inferences about attention, fatigue, movement, or emotional response."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "It is essential that public discussion avoid both exaggerated fear and careless optimism."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Regulators should require that neural data be collected for a specific purpose, stored securely, and deleted when no longer necessary."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Employers and schools should not be allowed to demand access merely because a device promises greater productivity."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Researchers recommend that mental privacy be recognised before consumer systems become widespread, rather than after harmful practices are established."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Consent alone may be insufficient when refusing a device means losing work, care, or educational support."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Data minimisation is therefore crucial: systems should process only what their function genuinely requires."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Neurotechnology poses a familiar question in an unfamiliar form."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "Innovation can expand human agency, but only if the people generating the data retain meaningful control over how it is interpreted, combined, and used."
+        }
+      ],
+      "listeningFormat": "science-conference",
+      "voiceStyle": "measured-science",
+      "audioLocale": "en-US",
       "grammarTest": null
     },
     "exercises": [
@@ -65228,40 +66928,40 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Neurotechnology and Mental Privacy”, which detail establishes the situation?",
         "options": [
-          "Host: Today we are examining neurotechnology and mental privacy.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Neurotechnology can translate patterns of brain activity into information that helps a person move a cursor, communicate, or control a prosthetic device.",
+          "It is essential that public discussion avoid both exaggerated fear and careless optimism.",
+          "Researchers recommend that mental privacy be recognised before consumer systems become widespread, rather than after harmful practices are established.",
+          "Innovation can expand human agency, but only if the people generating the data retain meaningful control over how it is interpreted, combined, and used."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining neurotechnology and mental privacy.”, what happens next in “Listening Lab: Neurotechnology and Mental Privacy”?",
+        "prompt": "After “Neurotechnology can translate patterns of brain activity into…”, what happens next in “Listening Lab: Neurotechnology and Mental Privacy”?",
         "options": [
-          "Host: Today we are examining neurotechnology and mental privacy.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Neurotechnology can translate patterns of brain activity into information that helps a person move a cursor, communicate, or control a prosthetic device.",
+          "It is essential that public discussion avoid both exaggerated fear and careless optimism.",
+          "Researchers recommend that mental privacy be recognised before consumer systems become widespread, rather than after harmful practices are established.",
+          "Innovation can expand human agency, but only if the people generating the data retain meaningful control over how it is interpreted, combined, and used."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Neurotechnology and Mental Privacy”?",
         "options": [
-          "Host: Today we are examining neurotechnology and mental privacy.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Neurotechnology can translate patterns of brain activity into information that helps a person move a cursor, communicate, or control a prosthetic device.",
+          "It is essential that public discussion avoid both exaggerated fear and careless optimism.",
+          "Regulators should require that neural data be collected for a specific purpose, stored securely, and deleted when no longer necessary.",
+          "Researchers recommend that mental privacy be recognised before consumer systems become widespread, rather than after harmful practices are established."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Neurotechnology and Mental Privacy” after “Because the central question is not only what happens, but also which…”?",
+        "prompt": "Which outcome closes “Listening Lab: Neurotechnology and Mental Privacy” after “Regulators should require that neural data be collected for a specific…”?",
         "options": [
-          "Host: Today we are examining neurotechnology and mental privacy.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Neurotechnology can translate patterns of brain activity into information that helps a person move a cursor, communicate, or control a prosthetic device.",
+          "It is essential that public discussion avoid both exaggerated fear and careless optimism.",
+          "Researchers recommend that mental privacy be recognised before consumer systems become widespread, rather than after harmful practices are established.",
+          "Innovation can expand human agency, but only if the people generating the data retain meaningful control over how it is interpreted, combined, and used."
         ]
       }
     ]
@@ -65290,45 +66990,18 @@
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Host",
-        "line": "Today we are examining age, aptitude and individual differences. Why does this issue resist a simple answer?",
-        "translation": "Hoy analizamos age, aptitude and individual differences. ¿Por qué este asunto no admite una respuesta sencilla?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-        "translation": "Porque la pregunta central no es solo qué sucede, sino también qué supuestos determinan cómo se interpreta la evidencia."
-      },
-      {
-        "speaker": "Host",
-        "line": "Which distinction should listeners keep in mind?",
-        "translation": "¿Qué distinción deben tener presente los oyentes?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable.",
-        "translation": "Deben distinguir un hallazgo establecido de una inferencia plausible y de un juicio de valor. Esas categorías pueden relacionarse, pero no son intercambiables."
-      },
-      {
-        "speaker": "Host",
-        "line": "How can we discuss the issue responsibly?",
-        "translation": "¿Cómo podemos hablar responsablemente del asunto?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
-        "translation": "Podemos definir los términos, reconocer un contraargumento serio y explicar qué evidencia nos haría revisar la conclusión."
+        "speaker": "Narrator",
+        "line": "Group averages are indispensable to research, but no individual learner is literally average. Two students receiving the same instruction may differ in phonological memory, analytic ability, processing speed, prior languages, motivation, and available time. Age is similarly complex. Younger learners may acquire pronunciation implicitly over long exposure, while adults, whose conceptual knowledge and learning strategies are more developed, can progress rapidly under structured conditions. A between-group difference does not reveal the destiny of every group member. Nor should language aptitude be treated as a fixed score that ranks human potential. Aptitude profiles indicate which tasks may currently be easier and where support could be useful. A learner with strong analytic ability might benefit from explicit patterns; another with sensitive auditory memory may learn effectively through imitation and repeated listening. These are tendencies, not exclusive pathways. Context can amplify or suppress them. High-quality teaching, social opportunity, and sustained motivation may matter more than a modest initial advantage. Personalisation should therefore avoid simplistic labels such as visual learner or natural linguist, which often narrow experience rather than improve it. The ethical use of individual-difference research is to diversify routes, pacing, and feedback while preserving ambitious goals. The average can tell institutions what often works across a population. Only ongoing observation of a real learner can reveal what support, challenge, and opportunity that particular person needs next."
       }
     ],
     "reading": null,
-    "transcript": "Host: Today we are examining age, aptitude and individual differences. Why does this issue resist a simple answer? Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted. Host: Which distinction should listeners keep in mind? Guest: They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable. Host: How can we discuss the issue responsibly? Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
+    "transcript": "Group averages are indispensable to research, but no individual learner is literally average. Two students receiving the same instruction may differ in phonological memory, analytic ability, processing speed, prior languages, motivation, and available time. Age is similarly complex. Younger learners may acquire pronunciation implicitly over long exposure, while adults, whose conceptual knowledge and learning strategies are more developed, can progress rapidly under structured conditions. A between-group difference does not reveal the destiny of every group member. Nor should language aptitude be treated as a fixed score that ranks human potential. Aptitude profiles indicate which tasks may currently be easier and where support could be useful. A learner with strong analytic ability might benefit from explicit patterns; another with sensitive auditory memory may learn effectively through imitation and repeated listening. These are tendencies, not exclusive pathways. Context can amplify or suppress them. High-quality teaching, social opportunity, and sustained motivation may matter more than a modest initial advantage. Personalisation should therefore avoid simplistic labels such as visual learner or natural linguist, which often narrow experience rather than improve it. The ethical use of individual-difference research is to diversify routes, pacing, and feedback while preserving ambitious goals. The average can tell institutions what often works across a population. Only ongoing observation of a real learner can reveal what support, challenge, and opportunity that particular person needs next.",
     "extra": {
-      "listeningType": "interview",
+      "listeningType": "monologue",
       "difficulty": "C2",
-      "durationSeconds": 125,
+      "durationSeconds": 117,
       "speakers": [
-        "Host",
-        "Guest"
+        "Narrator"
       ],
       "phoneticSupport": {
         "enabled": true,
@@ -65355,42 +67028,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining age, aptitude and individual differences."
+                "text": "Group averages are indispensable to research, but no individual learner is literally average."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Nor should language aptitude be treated as a fixed score that ranks human potential."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Context can amplify or suppress them."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Only ongoing observation of a real learner can reveal what support, challenge, and opportunity that particular person needs next."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining age, aptitude and individual differences.”, what happens next in “Listening Lab: Age, Aptitude and Individual Differences”?",
+            "prompt": "After “Group averages are indispensable to research, but no individual…”, what happens next in “Listening Lab: Age, Aptitude and Individual Differences”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining age, aptitude and individual differences."
+                "text": "Group averages are indispensable to research, but no individual learner is literally average."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Nor should language aptitude be treated as a fixed score that ranks human potential."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Context can amplify or suppress them."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Only ongoing observation of a real learner can reveal what support, challenge, and opportunity that particular person needs next."
               }
             ]
           },
@@ -65401,47 +67074,129 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining age, aptitude and individual differences."
+                "text": "Group averages are indispensable to research, but no individual learner is literally average."
               },
               {
                 "id": "o2",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Context can amplify or suppress them."
               },
               {
                 "id": "o3",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Nor should language aptitude be treated as a fixed score that ranks human potential."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Only ongoing observation of a real learner can reveal what support, challenge, and opportunity that particular person needs next."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Age, Aptitude and Individual Differences” after “Because the central question is not only what happens, but also which…”?",
+            "prompt": "Which outcome closes “Listening Lab: Age, Aptitude and Individual Differences” after “Nor should language aptitude be treated as a fixed score that ranks…”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining age, aptitude and individual differences."
+                "text": "Group averages are indispensable to research, but no individual learner is literally average."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Nor should language aptitude be treated as a fixed score that ranks human potential."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Context can amplify or suppress them."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Only ongoing observation of a real learner can reveal what support, challenge, and opportunity that particular person needs next."
               }
             ]
           }
         ]
       },
+      "storyTitle": "Beyond the Average Learner",
+      "mainTranscript": "Group averages are indispensable to research, but no individual learner is literally average. Two students receiving the same instruction may differ in phonological memory, analytic ability, processing speed, prior languages, motivation, and available time. Age is similarly complex. Younger learners may acquire pronunciation implicitly over long exposure, while adults, whose conceptual knowledge and learning strategies are more developed, can progress rapidly under structured conditions. A between-group difference does not reveal the destiny of every group member. Nor should language aptitude be treated as a fixed score that ranks human potential. Aptitude profiles indicate which tasks may currently be easier and where support could be useful. A learner with strong analytic ability might benefit from explicit patterns; another with sensitive auditory memory may learn effectively through imitation and repeated listening. These are tendencies, not exclusive pathways. Context can amplify or suppress them. High-quality teaching, social opportunity, and sustained motivation may matter more than a modest initial advantage. Personalisation should therefore avoid simplistic labels such as visual learner or natural linguist, which often narrow experience rather than improve it. The ethical use of individual-difference research is to diversify routes, pacing, and feedback while preserving ambitious goals. The average can tell institutions what often works across a population. Only ongoing observation of a real learner can reveal what support, challenge, and opportunity that particular person needs next.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Group averages are indispensable to research, but no individual learner is literally average."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Two students receiving the same instruction may differ in phonological memory, analytic ability, processing speed, prior languages, motivation, and available time."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Age is similarly complex."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "Younger learners may acquire pronunciation implicitly over long exposure, while adults, whose conceptual knowledge and learning strategies are more developed, can progress rapidly under structured conditions."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "A between-group difference does not reveal the destiny of every group member."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Nor should language aptitude be treated as a fixed score that ranks human potential."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Aptitude profiles indicate which tasks may currently be easier and where support could be useful."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "A learner with strong analytic ability might benefit from explicit patterns; another with sensitive auditory memory may learn effectively through imitation and repeated listening."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "These are tendencies, not exclusive pathways."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Context can amplify or suppress them."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "High-quality teaching, social opportunity, and sustained motivation may matter more than a modest initial advantage."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "Personalisation should therefore avoid simplistic labels such as visual learner or natural linguist, which often narrow experience rather than improve it."
+        },
+        {
+          "id": "segment-13",
+          "order": 13,
+          "text": "The ethical use of individual-difference research is to diversify routes, pacing, and feedback while preserving ambitious goals."
+        },
+        {
+          "id": "segment-14",
+          "order": 14,
+          "text": "The average can tell institutions what often works across a population."
+        },
+        {
+          "id": "segment-15",
+          "order": 15,
+          "text": "Only ongoing observation of a real learner can reveal what support, challenge, and opportunity that particular person needs next."
+        }
+      ],
+      "listeningFormat": "research-editorial",
+      "voiceStyle": "analytical-documentary",
+      "audioLocale": "en-US",
       "grammarTest": null
     },
     "exercises": [
@@ -65449,40 +67204,40 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Age, Aptitude and Individual Differences”, which detail establishes the situation?",
         "options": [
-          "Host: Today we are examining age, aptitude and individual differences.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Group averages are indispensable to research, but no individual learner is literally average.",
+          "Nor should language aptitude be treated as a fixed score that ranks human potential.",
+          "Context can amplify or suppress them.",
+          "Only ongoing observation of a real learner can reveal what support, challenge, and opportunity that particular person needs next."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining age, aptitude and individual differences.”, what happens next in “Listening Lab: Age, Aptitude and Individual Differences”?",
+        "prompt": "After “Group averages are indispensable to research, but no individual…”, what happens next in “Listening Lab: Age, Aptitude and Individual Differences”?",
         "options": [
-          "Host: Today we are examining age, aptitude and individual differences.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Group averages are indispensable to research, but no individual learner is literally average.",
+          "Nor should language aptitude be treated as a fixed score that ranks human potential.",
+          "Context can amplify or suppress them.",
+          "Only ongoing observation of a real learner can reveal what support, challenge, and opportunity that particular person needs next."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Age, Aptitude and Individual Differences”?",
         "options": [
-          "Host: Today we are examining age, aptitude and individual differences.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Group averages are indispensable to research, but no individual learner is literally average.",
+          "Context can amplify or suppress them.",
+          "Nor should language aptitude be treated as a fixed score that ranks human potential.",
+          "Only ongoing observation of a real learner can reveal what support, challenge, and opportunity that particular person needs next."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Age, Aptitude and Individual Differences” after “Because the central question is not only what happens, but also which…”?",
+        "prompt": "Which outcome closes “Listening Lab: Age, Aptitude and Individual Differences” after “Nor should language aptitude be treated as a fixed score that ranks…”?",
         "options": [
-          "Host: Today we are examining age, aptitude and individual differences.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Group averages are indispensable to research, but no individual learner is literally average.",
+          "Nor should language aptitude be treated as a fixed score that ranks human potential.",
+          "Context can amplify or suppress them.",
+          "Only ongoing observation of a real learner can reveal what support, challenge, and opportunity that particular person needs next."
         ]
       }
     ]
@@ -71339,28 +73094,58 @@
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "Narrator",
+        "line": "An energy adviser visits an apartment building where electricity costs have increased. Residents are shown which appliances use the most power, and inefficient bulbs are replaced with LED lighting. A shared drying area is being created so fewer dryers will be used. Heating and air-conditioning settings are also being checked, because small adjustments can reduce consumption without making homes uncomfortable. The adviser explains that expensive renovations cannot be afforded by every family, so practical low-cost changes must be included. Monthly usage will be displayed privately in each apartment, not published to the whole building. The goal is not to blame residents. It is to reduce waste, lower bills, and identify improvements that should be funded by the property owner or the city."
+      }
+    ],
     "reading": null,
-    "transcript": "",
+    "transcript": "An energy adviser visits an apartment building where electricity costs have increased. Residents are shown which appliances use the most power, and inefficient bulbs are replaced with LED lighting. A shared drying area is being created so fewer dryers will be used. Heating and air-conditioning settings are also being checked, because small adjustments can reduce consumption without making homes uncomfortable. The adviser explains that expensive renovations cannot be afforded by every family, so practical low-cost changes must be included. Monthly usage will be displayed privately in each apartment, not published to the whole building. The goal is not to blame residents. It is to reduce waste, lower bills, and identify improvements that should be funded by the property owner or the city.",
     "extra": {
-      "listeningType": "story",
-      "storyTitle": "Planning a Greener Event",
-      "mainTranscript": "Sarah and Daniel are planning a community event. Food will be served on reusable plates, recycling points will be placed near every entrance and leftover food will be donated. They discuss which tasks can be completed by volunteers and which services must be provided by the council.",
+      "listeningType": "monologue",
+      "storyTitle": "Saving Energy at Home",
+      "mainTranscript": "An energy adviser visits an apartment building where electricity costs have increased. Residents are shown which appliances use the most power, and inefficient bulbs are replaced with LED lighting. A shared drying area is being created so fewer dryers will be used. Heating and air-conditioning settings are also being checked, because small adjustments can reduce consumption without making homes uncomfortable. The adviser explains that expensive renovations cannot be afforded by every family, so practical low-cost changes must be included. Monthly usage will be displayed privately in each apartment, not published to the whole building. The goal is not to blame residents. It is to reduce waste, lower bills, and identify improvements that should be funded by the property owner or the city.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Sarah and Daniel are planning a community event."
+          "text": "An energy adviser visits an apartment building where electricity costs have increased."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "Food will be served on reusable plates, recycling points will be placed near every entrance and leftover food will be donated."
+          "text": "Residents are shown which appliances use the most power, and inefficient bulbs are replaced with LED lighting."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "They discuss which tasks can be completed by volunteers and which services must be provided by the council."
+          "text": "A shared drying area is being created so fewer dryers will be used."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "Heating and air-conditioning settings are also being checked, because small adjustments can reduce consumption without making homes uncomfortable."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "The adviser explains that expensive renovations cannot be afforded by every family, so practical low-cost changes must be included."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Monthly usage will be displayed privately in each apartment, not published to the whole building."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "The goal is not to blame residents."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "It is to reduce waste, lower bills, and identify improvements that should be funded by the property owner or the city."
         }
       ],
       "listeningComprehension": {
@@ -71374,42 +73159,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Daniel are planning a community event."
+                "text": "An energy adviser visits an apartment building where electricity costs have increased."
               },
               {
                 "id": "o2",
-                "text": "Food will be served on reusable plates, recycling points will be placed near every entrance"
+                "text": "A shared drying area is being created so fewer dryers will be used."
               },
               {
                 "id": "o3",
-                "text": "They discuss which tasks can be completed by volunteers"
+                "text": "Monthly usage will be displayed privately in each apartment, not published to the whole building."
               },
               {
                 "id": "o4",
-                "text": "which services must be provided by the council."
+                "text": "It is to reduce waste, lower bills, and identify improvements that should be funded by the property owner or the city."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Daniel are planning a community event.”, what happens next in “Planning a Greener Event”?",
+            "prompt": "After “An energy adviser visits an apartment building where electricity costs…”, what happens next in “Planning a Greener Event”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Daniel are planning a community event."
+                "text": "An energy adviser visits an apartment building where electricity costs have increased."
               },
               {
                 "id": "o2",
-                "text": "Food will be served on reusable plates, recycling points will be placed near every entrance"
+                "text": "A shared drying area is being created so fewer dryers will be used."
               },
               {
                 "id": "o3",
-                "text": "They discuss which tasks can be completed by volunteers"
+                "text": "Monthly usage will be displayed privately in each apartment, not published to the whole building."
               },
               {
                 "id": "o4",
-                "text": "which services must be provided by the council."
+                "text": "It is to reduce waste, lower bills, and identify improvements that should be funded by the property owner or the city."
               }
             ]
           },
@@ -71420,47 +73205,54 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Daniel are planning a community event."
+                "text": "An energy adviser visits an apartment building where electricity costs have increased."
               },
               {
                 "id": "o2",
-                "text": "Food will be served on reusable plates, recycling points will be placed near every entrance"
+                "text": "A shared drying area is being created so fewer dryers will be used."
               },
               {
                 "id": "o3",
-                "text": "They discuss which tasks can be completed by volunteers"
+                "text": "Heating and air-conditioning settings are also being checked, because small adjustments can reduce consumption without making homes uncomfortable."
               },
               {
                 "id": "o4",
-                "text": "which services must be provided by the council."
+                "text": "Monthly usage will be displayed privately in each apartment, not published to the whole building."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Planning a Greener Event” after “They discuss which tasks can be completed by volunteers”?",
+            "prompt": "Which outcome closes “Planning a Greener Event” after “Heating and air-conditioning settings are also being checked, because…”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Daniel are planning a community event."
+                "text": "An energy adviser visits an apartment building where electricity costs have increased."
               },
               {
                 "id": "o2",
-                "text": "Food will be served on reusable plates, recycling points will be placed near every entrance"
+                "text": "A shared drying area is being created so fewer dryers will be used."
               },
               {
                 "id": "o3",
-                "text": "They discuss which tasks can be completed by volunteers"
+                "text": "Monthly usage will be displayed privately in each apartment, not published to the whole building."
               },
               {
                 "id": "o4",
-                "text": "which services must be provided by the council."
+                "text": "It is to reduce waste, lower bills, and identify improvements that should be funded by the property owner or the city."
               }
             ]
           }
         ]
       },
+      "speakers": [
+        "Narrator"
+      ],
+      "durationSeconds": 54,
+      "audioLocale": "en-US",
+      "listeningFormat": "public-service",
+      "voiceStyle": "calm-explainer",
       "grammarTest": null
     },
     "exercises": [
@@ -71468,40 +73260,40 @@
         "type": "mcq",
         "prompt": "In “Planning a Greener Event”, which detail establishes the situation?",
         "options": [
-          "Daniel are planning a community event.",
-          "Food will be served on reusable plates, recycling points will be placed near every entrance",
-          "They discuss which tasks can be completed by volunteers",
-          "which services must be provided by the council."
+          "An energy adviser visits an apartment building where electricity costs have increased.",
+          "A shared drying area is being created so fewer dryers will be used.",
+          "Monthly usage will be displayed privately in each apartment, not published to the whole building.",
+          "It is to reduce waste, lower bills, and identify improvements that should be funded by the property owner or the city."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Daniel are planning a community event.”, what happens next in “Planning a Greener Event”?",
+        "prompt": "After “An energy adviser visits an apartment building where electricity costs…”, what happens next in “Planning a Greener Event”?",
         "options": [
-          "Daniel are planning a community event.",
-          "Food will be served on reusable plates, recycling points will be placed near every entrance",
-          "They discuss which tasks can be completed by volunteers",
-          "which services must be provided by the council."
+          "An energy adviser visits an apartment building where electricity costs have increased.",
+          "A shared drying area is being created so fewer dryers will be used.",
+          "Monthly usage will be displayed privately in each apartment, not published to the whole building.",
+          "It is to reduce waste, lower bills, and identify improvements that should be funded by the property owner or the city."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Planning a Greener Event”?",
         "options": [
-          "Daniel are planning a community event.",
-          "Food will be served on reusable plates, recycling points will be placed near every entrance",
-          "They discuss which tasks can be completed by volunteers",
-          "which services must be provided by the council."
+          "An energy adviser visits an apartment building where electricity costs have increased.",
+          "A shared drying area is being created so fewer dryers will be used.",
+          "Heating and air-conditioning settings are also being checked, because small adjustments can reduce consumption without making homes uncomfortable.",
+          "Monthly usage will be displayed privately in each apartment, not published to the whole building."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Planning a Greener Event” after “They discuss which tasks can be completed by volunteers”?",
+        "prompt": "Which outcome closes “Planning a Greener Event” after “Heating and air-conditioning settings are also being checked, because…”?",
         "options": [
-          "Daniel are planning a community event.",
-          "Food will be served on reusable plates, recycling points will be placed near every entrance",
-          "They discuss which tasks can be completed by volunteers",
-          "which services must be provided by the council."
+          "An energy adviser visits an apartment building where electricity costs have increased.",
+          "A shared drying area is being created so fewer dryers will be used.",
+          "Monthly usage will be displayed privately in each apartment, not published to the whole building.",
+          "It is to reduce waste, lower bills, and identify improvements that should be funded by the property owner or the city."
         ]
       }
     ]
@@ -71801,45 +73593,18 @@
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Host",
-        "line": "Today we are examining freedom of speech and misinformation. Why does this issue resist a simple answer?",
-        "translation": "Hoy analizamos freedom of speech and misinformation. ¿Por qué este asunto no admite una respuesta sencilla?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-        "translation": "Porque la pregunta central no es solo qué sucede, sino también qué supuestos determinan cómo se interpreta la evidencia."
-      },
-      {
-        "speaker": "Host",
-        "line": "Which distinction should listeners keep in mind?",
-        "translation": "¿Qué distinción deben tener presente los oyentes?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable.",
-        "translation": "Deben distinguir un hallazgo establecido de una inferencia plausible y de un juicio de valor. Esas categorías pueden relacionarse, pero no son intercambiables."
-      },
-      {
-        "speaker": "Host",
-        "line": "How can we discuss the issue responsibly?",
-        "translation": "¿Cómo podemos hablar responsablemente del asunto?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
-        "translation": "Podemos definir los términos, reconocer un contraargumento serio y explicar qué evidencia nos haría revisar la conclusión."
+        "speaker": "Narrator",
+        "line": "A community forum removed a post containing a harmful claim about a local clinic. Critics called the decision censorship. What did the moderators say? They explained that the post had presented misinformation as medical fact and that several users had begun sharing it. The clinic reported that patients were canceling appointments because of the claim. Did anyone defend the post? One member argued that free speech included the right to question institutions. Another accused the moderators of hiding criticism. The team replied that disagreement was permitted, but unsupported medical advice violated the content policy. Was removal proportionate? The evidence suggested a measurable risk, so temporary removal was reasonable. However, the moderators also published their reasons and offered an appeal. They emphasized that criticism would be restored if the harmful claim was corrected. A fair policy should not silence unpopular opinions; it should distinguish opinion from false factual claims and explain every restriction transparently."
       }
     ],
     "reading": null,
-    "transcript": "Host: Today we are examining freedom of speech and misinformation. Why does this issue resist a simple answer? Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted. Host: Which distinction should listeners keep in mind? Guest: They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable. Host: How can we discuss the issue responsibly? Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
+    "transcript": "A community forum removed a post containing a harmful claim about a local clinic. Critics called the decision censorship. What did the moderators say? They explained that the post had presented misinformation as medical fact and that several users had begun sharing it. The clinic reported that patients were canceling appointments because of the claim. Did anyone defend the post? One member argued that free speech included the right to question institutions. Another accused the moderators of hiding criticism. The team replied that disagreement was permitted, but unsupported medical advice violated the content policy. Was removal proportionate? The evidence suggested a measurable risk, so temporary removal was reasonable. However, the moderators also published their reasons and offered an appeal. They emphasized that criticism would be restored if the harmful claim was corrected. A fair policy should not silence unpopular opinions; it should distinguish opinion from false factual claims and explain every restriction transparently.",
     "extra": {
-      "listeningType": "interview",
+      "listeningType": "monologue",
       "difficulty": "B2",
-      "durationSeconds": 85,
+      "durationSeconds": 73,
       "speakers": [
-        "Host",
-        "Guest"
+        "Narrator"
       ],
       "phoneticSupport": {
         "enabled": true,
@@ -71866,42 +73631,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining freedom of speech and misinformation."
+                "text": "A community forum removed a post containing a harmful claim about a local clinic."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "The clinic reported that patients were canceling appointments because of the claim."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Was removal proportionate?"
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "A fair policy should not silence unpopular opinions; it should distinguish opinion from false factual claims and explain every restriction transparently."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining freedom of speech and misinformation.”, what happens next in “Listening Lab: Freedom of Speech and Misinformation”?",
+            "prompt": "After “A community forum removed a post containing a harmful claim about a…”, what happens next in “Listening Lab: Freedom of Speech and Misinformation”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining freedom of speech and misinformation."
+                "text": "A community forum removed a post containing a harmful claim about a local clinic."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "The clinic reported that patients were canceling appointments because of the claim."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Was removal proportionate?"
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "A fair policy should not silence unpopular opinions; it should distinguish opinion from false factual claims and explain every restriction transparently."
               }
             ]
           },
@@ -71912,47 +73677,124 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining freedom of speech and misinformation."
+                "text": "A community forum removed a post containing a harmful claim about a local clinic."
               },
               {
                 "id": "o2",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Was removal proportionate?"
               },
               {
                 "id": "o3",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "The clinic reported that patients were canceling appointments because of the claim."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "A fair policy should not silence unpopular opinions; it should distinguish opinion from false factual claims and explain every restriction transparently."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Freedom of Speech and Misinformation” after “Because the central question is not only what happens, but also which…”?",
+            "prompt": "Which outcome closes “Listening Lab: Freedom of Speech and Misinformation” after “The clinic reported that patients were canceling appointments because…”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining freedom of speech and misinformation."
+                "text": "A community forum removed a post containing a harmful claim about a local clinic."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "The clinic reported that patients were canceling appointments because of the claim."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Was removal proportionate?"
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "A fair policy should not silence unpopular opinions; it should distinguish opinion from false factual claims and explain every restriction transparently."
               }
             ]
           }
         ]
       },
+      "storyTitle": "Who Decides What Stays Online?",
+      "mainTranscript": "A community forum removed a post containing a harmful claim about a local clinic. Critics called the decision censorship. What did the moderators say? They explained that the post had presented misinformation as medical fact and that several users had begun sharing it. The clinic reported that patients were canceling appointments because of the claim. Did anyone defend the post? One member argued that free speech included the right to question institutions. Another accused the moderators of hiding criticism. The team replied that disagreement was permitted, but unsupported medical advice violated the content policy. Was removal proportionate? The evidence suggested a measurable risk, so temporary removal was reasonable. However, the moderators also published their reasons and offered an appeal. They emphasized that criticism would be restored if the harmful claim was corrected. A fair policy should not silence unpopular opinions; it should distinguish opinion from false factual claims and explain every restriction transparently.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "A community forum removed a post containing a harmful claim about a local clinic."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Critics called the decision censorship."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "What did the moderators say?"
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "They explained that the post had presented misinformation as medical fact and that several users had begun sharing it."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "The clinic reported that patients were canceling appointments because of the claim."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Did anyone defend the post?"
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "One member argued that free speech included the right to question institutions."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Another accused the moderators of hiding criticism."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "The team replied that disagreement was permitted, but unsupported medical advice violated the content policy."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Was removal proportionate?"
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "The evidence suggested a measurable risk, so temporary removal was reasonable."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "However, the moderators also published their reasons and offered an appeal."
+        },
+        {
+          "id": "segment-13",
+          "order": 13,
+          "text": "They emphasized that criticism would be restored if the harmful claim was corrected."
+        },
+        {
+          "id": "segment-14",
+          "order": 14,
+          "text": "A fair policy should not silence unpopular opinions; it should distinguish opinion from false factual claims and explain every restriction transparently."
+        }
+      ],
+      "audioLocale": "en-US",
+      "listeningFormat": "editorial",
+      "voiceStyle": "measured-editorial",
       "grammarTest": null
     },
     "exercises": [
@@ -71960,40 +73802,40 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Freedom of Speech and Misinformation”, which detail establishes the situation?",
         "options": [
-          "Host: Today we are examining freedom of speech and misinformation.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "A community forum removed a post containing a harmful claim about a local clinic.",
+          "The clinic reported that patients were canceling appointments because of the claim.",
+          "Was removal proportionate?",
+          "A fair policy should not silence unpopular opinions; it should distinguish opinion from false factual claims and explain every restriction transparently."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining freedom of speech and misinformation.”, what happens next in “Listening Lab: Freedom of Speech and Misinformation”?",
+        "prompt": "After “A community forum removed a post containing a harmful claim about a…”, what happens next in “Listening Lab: Freedom of Speech and Misinformation”?",
         "options": [
-          "Host: Today we are examining freedom of speech and misinformation.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "A community forum removed a post containing a harmful claim about a local clinic.",
+          "The clinic reported that patients were canceling appointments because of the claim.",
+          "Was removal proportionate?",
+          "A fair policy should not silence unpopular opinions; it should distinguish opinion from false factual claims and explain every restriction transparently."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Freedom of Speech and Misinformation”?",
         "options": [
-          "Host: Today we are examining freedom of speech and misinformation.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "A community forum removed a post containing a harmful claim about a local clinic.",
+          "Was removal proportionate?",
+          "The clinic reported that patients were canceling appointments because of the claim.",
+          "A fair policy should not silence unpopular opinions; it should distinguish opinion from false factual claims and explain every restriction transparently."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Freedom of Speech and Misinformation” after “Because the central question is not only what happens, but also which…”?",
+        "prompt": "Which outcome closes “Listening Lab: Freedom of Speech and Misinformation” after “The clinic reported that patients were canceling appointments because…”?",
         "options": [
-          "Host: Today we are examining freedom of speech and misinformation.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "A community forum removed a post containing a harmful claim about a local clinic.",
+          "The clinic reported that patients were canceling appointments because of the claim.",
+          "Was removal proportionate?",
+          "A fair policy should not silence unpopular opinions; it should distinguish opinion from false factual claims and explain every restriction transparently."
         ]
       }
     ]
@@ -72022,45 +73864,18 @@
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Host",
-        "line": "Today we are examining synthetic biology and biosecurity. Why does this issue resist a simple answer?",
-        "translation": "Hoy analizamos synthetic biology and biosecurity. ¿Por qué este asunto no admite una respuesta sencilla?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-        "translation": "Porque la pregunta central no es solo qué sucede, sino también qué supuestos determinan cómo se interpreta la evidencia."
-      },
-      {
-        "speaker": "Host",
-        "line": "Which distinction should listeners keep in mind?",
-        "translation": "¿Qué distinción deben tener presente los oyentes?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable.",
-        "translation": "Deben distinguir un hallazgo establecido de una inferencia plausible y de un juicio de valor. Esas categorías pueden relacionarse, pero no son intercambiables."
-      },
-      {
-        "speaker": "Host",
-        "line": "How can we discuss the issue responsibly?",
-        "translation": "¿Cómo podemos hablar responsablemente del asunto?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
-        "translation": "Podemos definir los términos, reconocer un contraargumento serio y explicar qué evidencia nos haría revisar la conclusión."
+        "speaker": "Narrator",
+        "line": "Synthetic biology allows researchers to design or modify biological systems for purposes ranging from medicine to sustainable materials. Engineered microbes may produce drugs, detect contamination, or replace petroleum-based chemicals. Encouragingly, the same tools that accelerate discovery can also make experiments more accessible. That openness supports innovation, but it raises a dual-use concern: knowledge developed for beneficial research might be redirected toward harm. Biosecurity is sometimes presented as the opposite of scientific freedom. More accurately, it is the set of practices that makes freedom sustainable. DNA-synthesis companies can use screening protocols to identify suspicious orders, laboratories can strengthen biosafety training, and funders can require risk assessment before supporting sensitive work. Excessively broad restrictions would be counterproductive if they drove legitimate research into less transparent settings. Conversely, voluntary promises alone may not remain adequate as capabilities spread. International coordination is particularly important because biological risks do not respect borders, while regulatory capacity varies greatly. The most responsible approach is adaptive: update safeguards as evidence changes, involve scientists in designing workable rules, and distinguish ordinary research from genuinely high-consequence activity. Synthetic biology’s promise is real, as are its uncertainties. Trust will depend on whether institutions can demonstrate that anticipation, accountability, and public benefit are built into innovation from the beginning."
       }
     ],
     "reading": null,
-    "transcript": "Host: Today we are examining synthetic biology and biosecurity. Why does this issue resist a simple answer? Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted. Host: Which distinction should listeners keep in mind? Guest: They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable. Host: How can we discuss the issue responsibly? Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
+    "transcript": "Synthetic biology allows researchers to design or modify biological systems for purposes ranging from medicine to sustainable materials. Engineered microbes may produce drugs, detect contamination, or replace petroleum-based chemicals. Encouragingly, the same tools that accelerate discovery can also make experiments more accessible. That openness supports innovation, but it raises a dual-use concern: knowledge developed for beneficial research might be redirected toward harm. Biosecurity is sometimes presented as the opposite of scientific freedom. More accurately, it is the set of practices that makes freedom sustainable. DNA-synthesis companies can use screening protocols to identify suspicious orders, laboratories can strengthen biosafety training, and funders can require risk assessment before supporting sensitive work. Excessively broad restrictions would be counterproductive if they drove legitimate research into less transparent settings. Conversely, voluntary promises alone may not remain adequate as capabilities spread. International coordination is particularly important because biological risks do not respect borders, while regulatory capacity varies greatly. The most responsible approach is adaptive: update safeguards as evidence changes, involve scientists in designing workable rules, and distinguish ordinary research from genuinely high-consequence activity. Synthetic biology’s promise is real, as are its uncertainties. Trust will depend on whether institutions can demonstrate that anticipation, accountability, and public benefit are built into innovation from the beginning.",
     "extra": {
-      "listeningType": "interview",
+      "listeningType": "monologue",
       "difficulty": "C1",
-      "durationSeconds": 105,
+      "durationSeconds": 99,
       "speakers": [
-        "Host",
-        "Guest"
+        "Narrator"
       ],
       "phoneticSupport": {
         "enabled": true,
@@ -72087,42 +73902,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining synthetic biology and biosecurity."
+                "text": "Synthetic biology allows researchers to design or modify biological systems for purposes ranging from medicine to sustainable materials."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Biosecurity is sometimes presented as the opposite of scientific freedom."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Conversely, voluntary promises alone may not remain adequate as capabilities spread."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Trust will depend on whether institutions can demonstrate that anticipation, accountability, and public benefit are built into innovation from the beginning."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining synthetic biology and biosecurity.”, what happens next in “Listening Lab: Synthetic Biology and Biosecurity”?",
+            "prompt": "After “Synthetic biology allows researchers to design or modify biological…”, what happens next in “Listening Lab: Synthetic Biology and Biosecurity”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining synthetic biology and biosecurity."
+                "text": "Synthetic biology allows researchers to design or modify biological systems for purposes ranging from medicine to sustainable materials."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Biosecurity is sometimes presented as the opposite of scientific freedom."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Conversely, voluntary promises alone may not remain adequate as capabilities spread."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Trust will depend on whether institutions can demonstrate that anticipation, accountability, and public benefit are built into innovation from the beginning."
               }
             ]
           },
@@ -72133,47 +73948,119 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining synthetic biology and biosecurity."
+                "text": "Synthetic biology allows researchers to design or modify biological systems for purposes ranging from medicine to sustainable materials."
               },
               {
                 "id": "o2",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Biosecurity is sometimes presented as the opposite of scientific freedom."
               },
               {
                 "id": "o3",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "International coordination is particularly important because biological risks do not respect borders, while regulatory capacity varies greatly."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Conversely, voluntary promises alone may not remain adequate as capabilities spread."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Synthetic Biology and Biosecurity” after “Because the central question is not only what happens, but also which…”?",
+            "prompt": "Which outcome closes “Listening Lab: Synthetic Biology and Biosecurity” after “International coordination is particularly important because…”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining synthetic biology and biosecurity."
+                "text": "Synthetic biology allows researchers to design or modify biological systems for purposes ranging from medicine to sustainable materials."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Biosecurity is sometimes presented as the opposite of scientific freedom."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Conversely, voluntary promises alone may not remain adequate as capabilities spread."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Trust will depend on whether institutions can demonstrate that anticipation, accountability, and public benefit are built into innovation from the beginning."
               }
             ]
           }
         ]
       },
+      "storyTitle": "Synthetic Biology: Promise, Risk, and Control",
+      "mainTranscript": "Synthetic biology allows researchers to design or modify biological systems for purposes ranging from medicine to sustainable materials. Engineered microbes may produce drugs, detect contamination, or replace petroleum-based chemicals. Encouragingly, the same tools that accelerate discovery can also make experiments more accessible. That openness supports innovation, but it raises a dual-use concern: knowledge developed for beneficial research might be redirected toward harm. Biosecurity is sometimes presented as the opposite of scientific freedom. More accurately, it is the set of practices that makes freedom sustainable. DNA-synthesis companies can use screening protocols to identify suspicious orders, laboratories can strengthen biosafety training, and funders can require risk assessment before supporting sensitive work. Excessively broad restrictions would be counterproductive if they drove legitimate research into less transparent settings. Conversely, voluntary promises alone may not remain adequate as capabilities spread. International coordination is particularly important because biological risks do not respect borders, while regulatory capacity varies greatly. The most responsible approach is adaptive: update safeguards as evidence changes, involve scientists in designing workable rules, and distinguish ordinary research from genuinely high-consequence activity. Synthetic biology’s promise is real, as are its uncertainties. Trust will depend on whether institutions can demonstrate that anticipation, accountability, and public benefit are built into innovation from the beginning.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Synthetic biology allows researchers to design or modify biological systems for purposes ranging from medicine to sustainable materials."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Engineered microbes may produce drugs, detect contamination, or replace petroleum-based chemicals."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Encouragingly, the same tools that accelerate discovery can also make experiments more accessible."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "That openness supports innovation, but it raises a dual-use concern: knowledge developed for beneficial research might be redirected toward harm."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Biosecurity is sometimes presented as the opposite of scientific freedom."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "More accurately, it is the set of practices that makes freedom sustainable."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "DNA-synthesis companies can use screening protocols to identify suspicious orders, laboratories can strengthen biosafety training, and funders can require risk assessment before supporting sensitive work."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Excessively broad restrictions would be counterproductive if they drove legitimate research into less transparent settings."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Conversely, voluntary promises alone may not remain adequate as capabilities spread."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "International coordination is particularly important because biological risks do not respect borders, while regulatory capacity varies greatly."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "The most responsible approach is adaptive: update safeguards as evidence changes, involve scientists in designing workable rules, and distinguish ordinary research from genuinely high-consequence activity."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "Synthetic biology’s promise is real, as are its uncertainties."
+        },
+        {
+          "id": "segment-13",
+          "order": 13,
+          "text": "Trust will depend on whether institutions can demonstrate that anticipation, accountability, and public benefit are built into innovation from the beginning."
+        }
+      ],
+      "listeningFormat": "science-news",
+      "voiceStyle": "science-news",
+      "audioLocale": "en-US",
       "grammarTest": null
     },
     "exercises": [
@@ -72181,40 +74068,40 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Synthetic Biology and Biosecurity”, which detail establishes the situation?",
         "options": [
-          "Host: Today we are examining synthetic biology and biosecurity.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Synthetic biology allows researchers to design or modify biological systems for purposes ranging from medicine to sustainable materials.",
+          "Biosecurity is sometimes presented as the opposite of scientific freedom.",
+          "Conversely, voluntary promises alone may not remain adequate as capabilities spread.",
+          "Trust will depend on whether institutions can demonstrate that anticipation, accountability, and public benefit are built into innovation from the beginning."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining synthetic biology and biosecurity.”, what happens next in “Listening Lab: Synthetic Biology and Biosecurity”?",
+        "prompt": "After “Synthetic biology allows researchers to design or modify biological…”, what happens next in “Listening Lab: Synthetic Biology and Biosecurity”?",
         "options": [
-          "Host: Today we are examining synthetic biology and biosecurity.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Synthetic biology allows researchers to design or modify biological systems for purposes ranging from medicine to sustainable materials.",
+          "Biosecurity is sometimes presented as the opposite of scientific freedom.",
+          "Conversely, voluntary promises alone may not remain adequate as capabilities spread.",
+          "Trust will depend on whether institutions can demonstrate that anticipation, accountability, and public benefit are built into innovation from the beginning."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Synthetic Biology and Biosecurity”?",
         "options": [
-          "Host: Today we are examining synthetic biology and biosecurity.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Synthetic biology allows researchers to design or modify biological systems for purposes ranging from medicine to sustainable materials.",
+          "Biosecurity is sometimes presented as the opposite of scientific freedom.",
+          "International coordination is particularly important because biological risks do not respect borders, while regulatory capacity varies greatly.",
+          "Conversely, voluntary promises alone may not remain adequate as capabilities spread."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Synthetic Biology and Biosecurity” after “Because the central question is not only what happens, but also which…”?",
+        "prompt": "Which outcome closes “Listening Lab: Synthetic Biology and Biosecurity” after “International coordination is particularly important because…”?",
         "options": [
-          "Host: Today we are examining synthetic biology and biosecurity.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Synthetic biology allows researchers to design or modify biological systems for purposes ranging from medicine to sustainable materials.",
+          "Biosecurity is sometimes presented as the opposite of scientific freedom.",
+          "Conversely, voluntary promises alone may not remain adequate as capabilities spread.",
+          "Trust will depend on whether institutions can demonstrate that anticipation, accountability, and public benefit are built into innovation from the beginning."
         ]
       }
     ]
@@ -72243,45 +74130,18 @@
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Host",
-        "line": "Today we are examining contextual vocabulary, glosses and semantic networks. Why does this issue resist a simple answer?",
-        "translation": "Hoy analizamos contextual vocabulary, glosses and semantic networks. ¿Por qué este asunto no admite una respuesta sencilla?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-        "translation": "Porque la pregunta central no es solo qué sucede, sino también qué supuestos determinan cómo se interpreta la evidencia."
-      },
-      {
-        "speaker": "Host",
-        "line": "Which distinction should listeners keep in mind?",
-        "translation": "¿Qué distinción deben tener presente los oyentes?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable.",
-        "translation": "Deben distinguir un hallazgo establecido de una inferencia plausible y de un juicio de valor. Esas categorías pueden relacionarse, pero no son intercambiables."
-      },
-      {
-        "speaker": "Host",
-        "line": "How can we discuss the issue responsibly?",
-        "translation": "¿Cómo podemos hablar responsablemente del asunto?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
-        "translation": "Podemos definir los términos, reconocer un contraargumento serio y explicar qué evidencia nos haría revisar la conclusión."
+        "speaker": "Narrator",
+        "line": "Knowing a word involves far more than matching it to an equivalent in another language. Lexical depth includes pronunciation, spelling, grammatical behaviour, collocation, register, polysemy, and membership in a word family. Consider the word issue. It can refer to a problem, a topic, an edition of a publication, or the act of officially providing something. Its meaning emerges through context and the words around it: address an issue, a current issue, issue a warning. A translation may offer an entry point while concealing this network. Glosses are useful when they preserve comprehension, but their design matters. A brief definition can prevent a learner from abandoning a difficult text; an overloaded note containing every possible meaning may interrupt reading and encourage shallow selection. Repeated contextual encounters gradually expand the semantic network, especially when learners compare examples and retrieve the word in new sentences. Corpus tools can reveal frequent collocations and register differences that intuition misses. Productive knowledge also requires constraint: understanding where a word does not belong. Vocabulary instruction is weakened when item accumulation becomes the principal measure of progress. Ten words connected through meaningful relations may be more usable than fifty memorised pairs. The practical goal is flexible access. Learners should notice form during comprehension, test meanings against context, record useful phrases rather than isolated labels, and revisit them through retrieval. A word becomes genuinely known when it participates in a system rich enough to support interpretation and precise choice."
       }
     ],
     "reading": null,
-    "transcript": "Host: Today we are examining contextual vocabulary, glosses and semantic networks. Why does this issue resist a simple answer? Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted. Host: Which distinction should listeners keep in mind? Guest: They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable. Host: How can we discuss the issue responsibly? Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
+    "transcript": "Knowing a word involves far more than matching it to an equivalent in another language. Lexical depth includes pronunciation, spelling, grammatical behaviour, collocation, register, polysemy, and membership in a word family. Consider the word issue. It can refer to a problem, a topic, an edition of a publication, or the act of officially providing something. Its meaning emerges through context and the words around it: address an issue, a current issue, issue a warning. A translation may offer an entry point while concealing this network. Glosses are useful when they preserve comprehension, but their design matters. A brief definition can prevent a learner from abandoning a difficult text; an overloaded note containing every possible meaning may interrupt reading and encourage shallow selection. Repeated contextual encounters gradually expand the semantic network, especially when learners compare examples and retrieve the word in new sentences. Corpus tools can reveal frequent collocations and register differences that intuition misses. Productive knowledge also requires constraint: understanding where a word does not belong. Vocabulary instruction is weakened when item accumulation becomes the principal measure of progress. Ten words connected through meaningful relations may be more usable than fifty memorised pairs. The practical goal is flexible access. Learners should notice form during comprehension, test meanings against context, record useful phrases rather than isolated labels, and revisit them through retrieval. A word becomes genuinely known when it participates in a system rich enough to support interpretation and precise choice.",
     "extra": {
-      "listeningType": "interview",
+      "listeningType": "monologue",
       "difficulty": "C2",
       "durationSeconds": 125,
       "speakers": [
-        "Host",
-        "Guest"
+        "Narrator"
       ],
       "phoneticSupport": {
         "enabled": true,
@@ -72308,42 +74168,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining contextual vocabulary, glosses and semantic networks."
+                "text": "Knowing a word involves far more than matching it to an equivalent in another language."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "A translation may offer an entry point while concealing this network."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Productive knowledge also requires constraint: understanding where a word does not belong."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "A word becomes genuinely known when it participates in a system rich enough to support interpretation and precise choice."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining contextual vocabulary, glosses and semantic…”, what happens next in “Listening Lab: Contextual Vocabulary, Glosses and Semantic Networks”?",
+            "prompt": "After “Knowing a word involves far more than matching it to an equivalent in…”, what happens next in “Listening Lab: Contextual Vocabulary, Glosses and Semantic Networks”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining contextual vocabulary, glosses and semantic networks."
+                "text": "Knowing a word involves far more than matching it to an equivalent in another language."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "A translation may offer an entry point while concealing this network."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Productive knowledge also requires constraint: understanding where a word does not belong."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "A word becomes genuinely known when it participates in a system rich enough to support interpretation and precise choice."
               }
             ]
           },
@@ -72354,47 +74214,134 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining contextual vocabulary, glosses and semantic networks."
+                "text": "Knowing a word involves far more than matching it to an equivalent in another language."
               },
               {
                 "id": "o2",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "A translation may offer an entry point while concealing this network."
               },
               {
                 "id": "o3",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Learners should notice form during comprehension, test meanings against context, record useful phrases rather than isolated labels, and revisit them through retrieval."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Productive knowledge also requires constraint: understanding where a word does not belong."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Contextual Vocabulary, Glosses and Semantic Networks” after “Because the central question is not only what happens, but also which…”?",
+            "prompt": "Which outcome closes “Listening Lab: Contextual Vocabulary, Glosses and Semantic Networks” after “Learners should notice form during comprehension, test meanings…”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining contextual vocabulary, glosses and semantic networks."
+                "text": "Knowing a word involves far more than matching it to an equivalent in another language."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "A translation may offer an entry point while concealing this network."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Productive knowledge also requires constraint: understanding where a word does not belong."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "A word becomes genuinely known when it participates in a system rich enough to support interpretation and precise choice."
               }
             ]
           }
         ]
       },
+      "storyTitle": "Building a Word: Context, Collocation, and Meaning",
+      "mainTranscript": "Knowing a word involves far more than matching it to an equivalent in another language. Lexical depth includes pronunciation, spelling, grammatical behaviour, collocation, register, polysemy, and membership in a word family. Consider the word issue. It can refer to a problem, a topic, an edition of a publication, or the act of officially providing something. Its meaning emerges through context and the words around it: address an issue, a current issue, issue a warning. A translation may offer an entry point while concealing this network. Glosses are useful when they preserve comprehension, but their design matters. A brief definition can prevent a learner from abandoning a difficult text; an overloaded note containing every possible meaning may interrupt reading and encourage shallow selection. Repeated contextual encounters gradually expand the semantic network, especially when learners compare examples and retrieve the word in new sentences. Corpus tools can reveal frequent collocations and register differences that intuition misses. Productive knowledge also requires constraint: understanding where a word does not belong. Vocabulary instruction is weakened when item accumulation becomes the principal measure of progress. Ten words connected through meaningful relations may be more usable than fifty memorised pairs. The practical goal is flexible access. Learners should notice form during comprehension, test meanings against context, record useful phrases rather than isolated labels, and revisit them through retrieval. A word becomes genuinely known when it participates in a system rich enough to support interpretation and precise choice.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Knowing a word involves far more than matching it to an equivalent in another language."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Lexical depth includes pronunciation, spelling, grammatical behaviour, collocation, register, polysemy, and membership in a word family."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Consider the word issue."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "It can refer to a problem, a topic, an edition of a publication, or the act of officially providing something."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Its meaning emerges through context and the words around it: address an issue, a current issue, issue a warning."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "A translation may offer an entry point while concealing this network."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Glosses are useful when they preserve comprehension, but their design matters."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "A brief definition can prevent a learner from abandoning a difficult text; an overloaded note containing every possible meaning may interrupt reading and encourage shallow selection."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Repeated contextual encounters gradually expand the semantic network, especially when learners compare examples and retrieve the word in new sentences."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Corpus tools can reveal frequent collocations and register differences that intuition misses."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Productive knowledge also requires constraint: understanding where a word does not belong."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "Vocabulary instruction is weakened when item accumulation becomes the principal measure of progress."
+        },
+        {
+          "id": "segment-13",
+          "order": 13,
+          "text": "Ten words connected through meaningful relations may be more usable than fifty memorised pairs."
+        },
+        {
+          "id": "segment-14",
+          "order": 14,
+          "text": "The practical goal is flexible access."
+        },
+        {
+          "id": "segment-15",
+          "order": 15,
+          "text": "Learners should notice form during comprehension, test meanings against context, record useful phrases rather than isolated labels, and revisit them through retrieval."
+        },
+        {
+          "id": "segment-16",
+          "order": 16,
+          "text": "A word becomes genuinely known when it participates in a system rich enough to support interpretation and precise choice."
+        }
+      ],
+      "listeningFormat": "audio-essay",
+      "voiceStyle": "clear-lecture",
+      "audioLocale": "en-US",
       "grammarTest": null
     },
     "exercises": [
@@ -72402,40 +74349,40 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Contextual Vocabulary, Glosses and Semantic Networks”, which detail establishes the situation?",
         "options": [
-          "Host: Today we are examining contextual vocabulary, glosses and semantic networks.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Knowing a word involves far more than matching it to an equivalent in another language.",
+          "A translation may offer an entry point while concealing this network.",
+          "Productive knowledge also requires constraint: understanding where a word does not belong.",
+          "A word becomes genuinely known when it participates in a system rich enough to support interpretation and precise choice."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining contextual vocabulary, glosses and semantic…”, what happens next in “Listening Lab: Contextual Vocabulary, Glosses and Semantic Networks”?",
+        "prompt": "After “Knowing a word involves far more than matching it to an equivalent in…”, what happens next in “Listening Lab: Contextual Vocabulary, Glosses and Semantic Networks”?",
         "options": [
-          "Host: Today we are examining contextual vocabulary, glosses and semantic networks.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Knowing a word involves far more than matching it to an equivalent in another language.",
+          "A translation may offer an entry point while concealing this network.",
+          "Productive knowledge also requires constraint: understanding where a word does not belong.",
+          "A word becomes genuinely known when it participates in a system rich enough to support interpretation and precise choice."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Contextual Vocabulary, Glosses and Semantic Networks”?",
         "options": [
-          "Host: Today we are examining contextual vocabulary, glosses and semantic networks.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Knowing a word involves far more than matching it to an equivalent in another language.",
+          "A translation may offer an entry point while concealing this network.",
+          "Learners should notice form during comprehension, test meanings against context, record useful phrases rather than isolated labels, and revisit them through retrieval.",
+          "Productive knowledge also requires constraint: understanding where a word does not belong."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Contextual Vocabulary, Glosses and Semantic Networks” after “Because the central question is not only what happens, but also which…”?",
+        "prompt": "Which outcome closes “Listening Lab: Contextual Vocabulary, Glosses and Semantic Networks” after “Learners should notice form during comprehension, test meanings…”?",
         "options": [
-          "Host: Today we are examining contextual vocabulary, glosses and semantic networks.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Knowing a word involves far more than matching it to an equivalent in another language.",
+          "A translation may offer an entry point while concealing this network.",
+          "Productive knowledge also requires constraint: understanding where a word does not belong.",
+          "A word becomes genuinely known when it participates in a system rich enough to support interpretation and precise choice."
         ]
       }
     ]
@@ -77231,28 +79178,53 @@
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "Narrator",
+        "line": "During an international video meeting, several participants misunderstand a project deadline. One employee asks, “Could you clarify what we need to send by Friday?” Another checks whether the final report should include financial data. The team leader explains the task and asks if everyone can access the shared folder. A participant who missed one detail says, “Would you mind repeating the last point?” Nobody pretends to understand simply to avoid embarrassment. Instead, the group uses direct but polite questions, repeats key information, and writes decisions in the meeting notes. Before the call ends, one person summarizes who will complete each task. Asking for clarification saves time, prevents mistakes, and is especially useful when people communicate in a second language or work across different time zones."
+      }
+    ],
     "reading": null,
-    "transcript": "",
+    "transcript": "During an international video meeting, several participants misunderstand a project deadline. One employee asks, “Could you clarify what we need to send by Friday?” Another checks whether the final report should include financial data. The team leader explains the task and asks if everyone can access the shared folder. A participant who missed one detail says, “Would you mind repeating the last point?” Nobody pretends to understand simply to avoid embarrassment. Instead, the group uses direct but polite questions, repeats key information, and writes decisions in the meeting notes. Before the call ends, one person summarizes who will complete each task. Asking for clarification saves time, prevents mistakes, and is especially useful when people communicate in a second language or work across different time zones.",
     "extra": {
-      "listeningType": "story",
-      "storyTitle": "Could You Explain That?",
-      "mainTranscript": "Sarah asks her tutor how the final project will be assessed. She uses indirect questions to clarify the deadline, the presentation format and the marking criteria. The tutor answers each question and recommends that Sarah organise the information in a short checklist.",
+      "listeningType": "monologue",
+      "storyTitle": "Useful English for Asking for Clarification",
+      "mainTranscript": "During an international video meeting, several participants misunderstand a project deadline. One employee asks, “Could you clarify what we need to send by Friday?” Another checks whether the final report should include financial data. The team leader explains the task and asks if everyone can access the shared folder. A participant who missed one detail says, “Would you mind repeating the last point?” Nobody pretends to understand simply to avoid embarrassment. Instead, the group uses direct but polite questions, repeats key information, and writes decisions in the meeting notes. Before the call ends, one person summarizes who will complete each task. Asking for clarification saves time, prevents mistakes, and is especially useful when people communicate in a second language or work across different time zones.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Sarah asks her tutor how the final project will be assessed."
+          "text": "During an international video meeting, several participants misunderstand a project deadline."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "She uses indirect questions to clarify the deadline, the presentation format and the marking criteria."
+          "text": "One employee asks, “Could you clarify what we need to send by Friday?” Another checks whether the final report should include financial data."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "The tutor answers each question and recommends that Sarah organise the information in a short checklist."
+          "text": "The team leader explains the task and asks if everyone can access the shared folder."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "A participant who missed one detail says, “Would you mind repeating the last point?” Nobody pretends to understand simply to avoid embarrassment."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Instead, the group uses direct but polite questions, repeats key information, and writes decisions in the meeting notes."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Before the call ends, one person summarizes who will complete each task."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Asking for clarification saves time, prevents mistakes, and is especially useful when people communicate in a second language or work across different time zones."
         }
       ],
       "listeningComprehension": {
@@ -77266,42 +79238,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Sarah asks her tutor how the final project will be assessed."
+                "text": "During an international video meeting, several participants misunderstand a project deadline."
               },
               {
                 "id": "o2",
-                "text": "She uses indirect questions to clarify the deadline, the presentation format"
+                "text": "A participant who missed one detail says, “Would you mind repeating the last point?” Nobody pretends to understand simply to avoid embarrassment."
               },
               {
                 "id": "o3",
-                "text": "The tutor answers each question"
+                "text": "One employee asks, “Could you clarify what we need to send by Friday?"
               },
               {
                 "id": "o4",
-                "text": "recommends that Sarah organise the information in a short checklist."
+                "text": "Nobody pretends to understand simply to avoid embarrassment."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Sarah asks her tutor how the final project will be assessed.”, what happens next in “Could You Explain That?”?",
+            "prompt": "After “During an international video meeting, several participants…”, what happens next in “Could You Explain That?”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sarah asks her tutor how the final project will be assessed."
+                "text": "During an international video meeting, several participants misunderstand a project deadline."
               },
               {
                 "id": "o2",
-                "text": "She uses indirect questions to clarify the deadline, the presentation format"
+                "text": "A participant who missed one detail says, “Would you mind repeating the last point?” Nobody pretends to understand simply to avoid embarrassment."
               },
               {
                 "id": "o3",
-                "text": "The tutor answers each question"
+                "text": "One employee asks, “Could you clarify what we need to send by Friday?"
               },
               {
                 "id": "o4",
-                "text": "recommends that Sarah organise the information in a short checklist."
+                "text": "Nobody pretends to understand simply to avoid embarrassment."
               }
             ]
           },
@@ -77312,47 +79284,54 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Sarah asks her tutor how the final project will be assessed."
+                "text": "During an international video meeting, several participants misunderstand a project deadline."
               },
               {
                 "id": "o2",
-                "text": "She uses indirect questions to clarify the deadline, the presentation format"
+                "text": "A participant who missed one detail says, “Would you mind repeating the last point?” Nobody pretends to understand simply to avoid embarrassment."
               },
               {
                 "id": "o3",
-                "text": "The tutor answers each question"
+                "text": "One employee asks, “Could you clarify what we need to send by Friday?” Another checks whether the final report should include financial data."
               },
               {
                 "id": "o4",
-                "text": "recommends that Sarah organise the information in a short checklist."
+                "text": "One employee asks, “Could you clarify what we need to send by Friday?"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Could You Explain That?” after “The tutor answers each question”?",
+            "prompt": "Which outcome closes “Could You Explain That?” after “One employee asks, “Could you clarify what we need to send by Friday?”…”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sarah asks her tutor how the final project will be assessed."
+                "text": "During an international video meeting, several participants misunderstand a project deadline."
               },
               {
                 "id": "o2",
-                "text": "She uses indirect questions to clarify the deadline, the presentation format"
+                "text": "A participant who missed one detail says, “Would you mind repeating the last point?” Nobody pretends to understand simply to avoid embarrassment."
               },
               {
                 "id": "o3",
-                "text": "The tutor answers each question"
+                "text": "One employee asks, “Could you clarify what we need to send by Friday?"
               },
               {
                 "id": "o4",
-                "text": "recommends that Sarah organise the information in a short checklist."
+                "text": "Nobody pretends to understand simply to avoid embarrassment."
               }
             ]
           }
         ]
       },
+      "speakers": [
+        "Narrator"
+      ],
+      "durationSeconds": 56,
+      "audioLocale": "en-US",
+      "listeningFormat": "workplace-tutorial",
+      "voiceStyle": "clear-instructional",
       "grammarTest": null
     },
     "exercises": [
@@ -77360,40 +79339,40 @@
         "type": "mcq",
         "prompt": "In “Could You Explain That?”, which detail establishes the situation?",
         "options": [
-          "Sarah asks her tutor how the final project will be assessed.",
-          "She uses indirect questions to clarify the deadline, the presentation format",
-          "The tutor answers each question",
-          "recommends that Sarah organise the information in a short checklist."
+          "During an international video meeting, several participants misunderstand a project deadline.",
+          "A participant who missed one detail says, “Would you mind repeating the last point?” Nobody pretends to understand simply to avoid embarrassment.",
+          "One employee asks, “Could you clarify what we need to send by Friday?",
+          "Nobody pretends to understand simply to avoid embarrassment."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Sarah asks her tutor how the final project will be assessed.”, what happens next in “Could You Explain That?”?",
+        "prompt": "After “During an international video meeting, several participants…”, what happens next in “Could You Explain That?”?",
         "options": [
-          "Sarah asks her tutor how the final project will be assessed.",
-          "She uses indirect questions to clarify the deadline, the presentation format",
-          "The tutor answers each question",
-          "recommends that Sarah organise the information in a short checklist."
+          "During an international video meeting, several participants misunderstand a project deadline.",
+          "A participant who missed one detail says, “Would you mind repeating the last point?” Nobody pretends to understand simply to avoid embarrassment.",
+          "One employee asks, “Could you clarify what we need to send by Friday?",
+          "Nobody pretends to understand simply to avoid embarrassment."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Could You Explain That?”?",
         "options": [
-          "Sarah asks her tutor how the final project will be assessed.",
-          "She uses indirect questions to clarify the deadline, the presentation format",
-          "The tutor answers each question",
-          "recommends that Sarah organise the information in a short checklist."
+          "During an international video meeting, several participants misunderstand a project deadline.",
+          "A participant who missed one detail says, “Would you mind repeating the last point?” Nobody pretends to understand simply to avoid embarrassment.",
+          "One employee asks, “Could you clarify what we need to send by Friday?” Another checks whether the final report should include financial data.",
+          "One employee asks, “Could you clarify what we need to send by Friday?"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Could You Explain That?” after “The tutor answers each question”?",
+        "prompt": "Which outcome closes “Could You Explain That?” after “One employee asks, “Could you clarify what we need to send by Friday?”…”?",
         "options": [
-          "Sarah asks her tutor how the final project will be assessed.",
-          "She uses indirect questions to clarify the deadline, the presentation format",
-          "The tutor answers each question",
-          "recommends that Sarah organise the information in a short checklist."
+          "During an international video meeting, several participants misunderstand a project deadline.",
+          "A participant who missed one detail says, “Would you mind repeating the last point?” Nobody pretends to understand simply to avoid embarrassment.",
+          "One employee asks, “Could you clarify what we need to send by Friday?",
+          "Nobody pretends to understand simply to avoid embarrassment."
         ]
       }
     ]
@@ -77683,45 +79662,18 @@
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Host",
-        "line": "Today we are examining community action and local change. Why does this issue resist a simple answer?",
-        "translation": "Hoy analizamos community action and local change. ¿Por qué este asunto no admite una respuesta sencilla?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-        "translation": "Porque la pregunta central no es solo qué sucede, sino también qué supuestos determinan cómo se interpreta la evidencia."
-      },
-      {
-        "speaker": "Host",
-        "line": "Which distinction should listeners keep in mind?",
-        "translation": "¿Qué distinción deben tener presente los oyentes?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable.",
-        "translation": "Deben distinguir un hallazgo establecido de una inferencia plausible y de un juicio de valor. Esas categorías pueden relacionarse, pero no son intercambiables."
-      },
-      {
-        "speaker": "Host",
-        "line": "How can we discuss the issue responsibly?",
-        "translation": "¿Cómo podemos hablar responsablemente del asunto?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
-        "translation": "Podemos definir los términos, reconocer un contraargumento serio y explicar qué evidencia nos haría revisar la conclusión."
+        "speaker": "Narrator",
+        "line": "Residents had complained about poor lighting for months. What finally changed? It was a small grassroots meeting that turned frustration into collective action. What the neighbors needed was not another general complaint but a clear record of broken lights and unsafe areas. Who organized the initiative? A volunteer mapped the problems, while other residents created a petition. It was the evidence gathered door to door that persuaded each stakeholder to attend a public meeting. Did the local council accept every request? No. What officials emphasized was the limited public-service budget. The residents responded that volunteers could provide local knowledge but should not replace trained workers. It was through that distinction that the group found common ground. What happened next? The council repaired the most dangerous locations and published a longer plan. What made the campaign effective was its combination of practical evidence, respectful pressure and shared responsibility."
       }
     ],
     "reading": null,
-    "transcript": "Host: Today we are examining community action and local change. Why does this issue resist a simple answer? Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted. Host: Which distinction should listeners keep in mind? Guest: They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable. Host: How can we discuss the issue responsibly? Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
+    "transcript": "Residents had complained about poor lighting for months. What finally changed? It was a small grassroots meeting that turned frustration into collective action. What the neighbors needed was not another general complaint but a clear record of broken lights and unsafe areas. Who organized the initiative? A volunteer mapped the problems, while other residents created a petition. It was the evidence gathered door to door that persuaded each stakeholder to attend a public meeting. Did the local council accept every request? No. What officials emphasized was the limited public-service budget. The residents responded that volunteers could provide local knowledge but should not replace trained workers. It was through that distinction that the group found common ground. What happened next? The council repaired the most dangerous locations and published a longer plan. What made the campaign effective was its combination of practical evidence, respectful pressure and shared responsibility.",
     "extra": {
-      "listeningType": "interview",
+      "listeningType": "monologue",
       "difficulty": "B2",
-      "durationSeconds": 85,
+      "durationSeconds": 71,
       "speakers": [
-        "Host",
-        "Guest"
+        "Narrator"
       ],
       "phoneticSupport": {
         "enabled": true,
@@ -77748,42 +79700,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining community action and local change."
+                "text": "Residents had complained about poor lighting for months."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "A volunteer mapped the problems, while other residents created a petition."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "What officials emphasized was the limited public-service budget."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "What made the campaign effective was its combination of practical evidence, respectful pressure and shared responsibility."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining community action and local change.”, what happens next in “Listening Lab: Community Action and Local Change”?",
+            "prompt": "After “Residents had complained about poor lighting for months.”, what happens next in “Listening Lab: Community Action and Local Change”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining community action and local change."
+                "text": "Residents had complained about poor lighting for months."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "A volunteer mapped the problems, while other residents created a petition."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "What officials emphasized was the limited public-service budget."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "What made the campaign effective was its combination of practical evidence, respectful pressure and shared responsibility."
               }
             ]
           },
@@ -77794,47 +79746,129 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining community action and local change."
+                "text": "Residents had complained about poor lighting for months."
               },
               {
                 "id": "o2",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "A volunteer mapped the problems, while other residents created a petition."
               },
               {
                 "id": "o3",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "The residents responded that volunteers could provide local knowledge but should not replace trained workers."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "What officials emphasized was the limited public-service budget."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Community Action and Local Change” after “Because the central question is not only what happens, but also which…”?",
+            "prompt": "Which outcome closes “Listening Lab: Community Action and Local Change” after “The residents responded that volunteers could provide local knowledge…”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining community action and local change."
+                "text": "Residents had complained about poor lighting for months."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "A volunteer mapped the problems, while other residents created a petition."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "What officials emphasized was the limited public-service budget."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "What made the campaign effective was its combination of practical evidence, respectful pressure and shared responsibility."
               }
             ]
           }
         ]
       },
+      "storyTitle": "When a Neighborhood Organizes for Change",
+      "mainTranscript": "Residents had complained about poor lighting for months. What finally changed? It was a small grassroots meeting that turned frustration into collective action. What the neighbors needed was not another general complaint but a clear record of broken lights and unsafe areas. Who organized the initiative? A volunteer mapped the problems, while other residents created a petition. It was the evidence gathered door to door that persuaded each stakeholder to attend a public meeting. Did the local council accept every request? No. What officials emphasized was the limited public-service budget. The residents responded that volunteers could provide local knowledge but should not replace trained workers. It was through that distinction that the group found common ground. What happened next? The council repaired the most dangerous locations and published a longer plan. What made the campaign effective was its combination of practical evidence, respectful pressure and shared responsibility.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Residents had complained about poor lighting for months."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "What finally changed?"
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "It was a small grassroots meeting that turned frustration into collective action."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "What the neighbors needed was not another general complaint but a clear record of broken lights and unsafe areas."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Who organized the initiative?"
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "A volunteer mapped the problems, while other residents created a petition."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "It was the evidence gathered door to door that persuaded each stakeholder to attend a public meeting."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Did the local council accept every request?"
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "No."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "What officials emphasized was the limited public-service budget."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "The residents responded that volunteers could provide local knowledge but should not replace trained workers."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "It was through that distinction that the group found common ground."
+        },
+        {
+          "id": "segment-13",
+          "order": 13,
+          "text": "What happened next?"
+        },
+        {
+          "id": "segment-14",
+          "order": 14,
+          "text": "The council repaired the most dangerous locations and published a longer plan."
+        },
+        {
+          "id": "segment-15",
+          "order": 15,
+          "text": "What made the campaign effective was its combination of practical evidence, respectful pressure and shared responsibility."
+        }
+      ],
+      "audioLocale": "en-US",
+      "listeningFormat": "community-news",
+      "voiceStyle": "community-news",
       "grammarTest": null
     },
     "exercises": [
@@ -77842,40 +79876,40 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Community Action and Local Change”, which detail establishes the situation?",
         "options": [
-          "Host: Today we are examining community action and local change.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Residents had complained about poor lighting for months.",
+          "A volunteer mapped the problems, while other residents created a petition.",
+          "What officials emphasized was the limited public-service budget.",
+          "What made the campaign effective was its combination of practical evidence, respectful pressure and shared responsibility."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining community action and local change.”, what happens next in “Listening Lab: Community Action and Local Change”?",
+        "prompt": "After “Residents had complained about poor lighting for months.”, what happens next in “Listening Lab: Community Action and Local Change”?",
         "options": [
-          "Host: Today we are examining community action and local change.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Residents had complained about poor lighting for months.",
+          "A volunteer mapped the problems, while other residents created a petition.",
+          "What officials emphasized was the limited public-service budget.",
+          "What made the campaign effective was its combination of practical evidence, respectful pressure and shared responsibility."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Community Action and Local Change”?",
         "options": [
-          "Host: Today we are examining community action and local change.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Residents had complained about poor lighting for months.",
+          "A volunteer mapped the problems, while other residents created a petition.",
+          "The residents responded that volunteers could provide local knowledge but should not replace trained workers.",
+          "What officials emphasized was the limited public-service budget."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Community Action and Local Change” after “Because the central question is not only what happens, but also which…”?",
+        "prompt": "Which outcome closes “Listening Lab: Community Action and Local Change” after “The residents responded that volunteers could provide local knowledge…”?",
         "options": [
-          "Host: Today we are examining community action and local change.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Residents had complained about poor lighting for months.",
+          "A volunteer mapped the problems, while other residents created a petition.",
+          "What officials emphasized was the limited public-service budget.",
+          "What made the campaign effective was its combination of practical evidence, respectful pressure and shared responsibility."
         ]
       }
     ]
@@ -77904,45 +79938,18 @@
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Host",
-        "line": "Today we are examining global health progress and inequality. Why does this issue resist a simple answer?",
-        "translation": "Hoy analizamos global health progress and inequality. ¿Por qué este asunto no admite una respuesta sencilla?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-        "translation": "Porque la pregunta central no es solo qué sucede, sino también qué supuestos determinan cómo se interpreta la evidencia."
-      },
-      {
-        "speaker": "Host",
-        "line": "Which distinction should listeners keep in mind?",
-        "translation": "¿Qué distinción deben tener presente los oyentes?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable.",
-        "translation": "Deben distinguir un hallazgo establecido de una inferencia plausible y de un juicio de valor. Esas categorías pueden relacionarse, pero no son intercambiables."
-      },
-      {
-        "speaker": "Host",
-        "line": "How can we discuss the issue responsibly?",
-        "translation": "¿Cómo podemos hablar responsablemente del asunto?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
-        "translation": "Podemos definir los términos, reconocer un contraargumento serio y explicar qué evidencia nos haría revisar la conclusión."
+        "speaker": "Narrator",
+        "line": "Global health indicators show genuine progress: more children survive infancy, vaccination has prevented millions of deaths, and treatment has transformed once-fatal diseases. However, averages can conceal fragile systems and widening inequality. A country may report improved life expectancy while remote communities still lack primary care. A new service may technically exist, yet patients facing transport costs, medicine shortages, or informal fees remain excluded. Universal health coverage is therefore not achieved by enrolment alone. It requires timely, effective care without financial hardship. Data gaps make the picture harder to interpret because the people missing from surveys are often those facing the greatest barriers. Recent emergencies have also demonstrated that progress can be reversed when supply chains fail, health workers leave, or routine vaccination is interrupted. Resilience does not mean maintaining a large emergency stockpile while neglecting everyday services. It means building trusted local systems capable of detecting problems, communicating clearly, and continuing essential care under pressure. International funding remains important; nevertheless, programmes designed around short grant cycles can fragment national priorities. Sustainable improvement connects global resources with local leadership and accountable public institutions. The fairest measure of progress is not merely whether the average rises, but whether preventable suffering declines among the people whom health systems have historically failed to reach."
       }
     ],
     "reading": null,
-    "transcript": "Host: Today we are examining global health progress and inequality. Why does this issue resist a simple answer? Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted. Host: Which distinction should listeners keep in mind? Guest: They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable. Host: How can we discuss the issue responsibly? Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
+    "transcript": "Global health indicators show genuine progress: more children survive infancy, vaccination has prevented millions of deaths, and treatment has transformed once-fatal diseases. However, averages can conceal fragile systems and widening inequality. A country may report improved life expectancy while remote communities still lack primary care. A new service may technically exist, yet patients facing transport costs, medicine shortages, or informal fees remain excluded. Universal health coverage is therefore not achieved by enrolment alone. It requires timely, effective care without financial hardship. Data gaps make the picture harder to interpret because the people missing from surveys are often those facing the greatest barriers. Recent emergencies have also demonstrated that progress can be reversed when supply chains fail, health workers leave, or routine vaccination is interrupted. Resilience does not mean maintaining a large emergency stockpile while neglecting everyday services. It means building trusted local systems capable of detecting problems, communicating clearly, and continuing essential care under pressure. International funding remains important; nevertheless, programmes designed around short grant cycles can fragment national priorities. Sustainable improvement connects global resources with local leadership and accountable public institutions. The fairest measure of progress is not merely whether the average rises, but whether preventable suffering declines among the people whom health systems have historically failed to reach.",
     "extra": {
-      "listeningType": "interview",
+      "listeningType": "monologue",
       "difficulty": "C1",
-      "durationSeconds": 105,
+      "durationSeconds": 101,
       "speakers": [
-        "Host",
-        "Guest"
+        "Narrator"
       ],
       "phoneticSupport": {
         "enabled": true,
@@ -77969,42 +79976,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining global health progress and inequality."
+                "text": "Global health indicators show genuine progress: more children survive infancy, vaccination has prevented millions of deaths, and treatment has transformed once-fatal diseases."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Universal health coverage is therefore not achieved by enrolment alone."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Resilience does not mean maintaining a large emergency stockpile while neglecting everyday services."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "The fairest measure of progress is not merely whether the average rises, but whether preventable suffering declines among the people whom health systems have historically failed to reach."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining global health progress and inequality.”, what happens next in “Listening Lab: Global Health Progress and Inequality”?",
+            "prompt": "After “Global health indicators show genuine progress: more children survive…”, what happens next in “Listening Lab: Global Health Progress and Inequality”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining global health progress and inequality."
+                "text": "Global health indicators show genuine progress: more children survive infancy, vaccination has prevented millions of deaths, and treatment has transformed once-fatal diseases."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Universal health coverage is therefore not achieved by enrolment alone."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Resilience does not mean maintaining a large emergency stockpile while neglecting everyday services."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "The fairest measure of progress is not merely whether the average rises, but whether preventable suffering declines among the people whom health systems have historically failed to reach."
               }
             ]
           },
@@ -78015,47 +80022,119 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining global health progress and inequality."
+                "text": "Global health indicators show genuine progress: more children survive infancy, vaccination has prevented millions of deaths, and treatment has transformed once-fatal diseases."
               },
               {
                 "id": "o2",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Universal health coverage is therefore not achieved by enrolment alone."
               },
               {
                 "id": "o3",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Data gaps make the picture harder to interpret because the people missing from surveys are often those facing the greatest barriers."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "Resilience does not mean maintaining a large emergency stockpile while neglecting everyday services."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Global Health Progress and Inequality” after “Because the central question is not only what happens, but also which…”?",
+            "prompt": "Which outcome closes “Listening Lab: Global Health Progress and Inequality” after “Data gaps make the picture harder to interpret because the people…”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining global health progress and inequality."
+                "text": "Global health indicators show genuine progress: more children survive infancy, vaccination has prevented millions of deaths, and treatment has transformed once-fatal diseases."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Universal health coverage is therefore not achieved by enrolment alone."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Resilience does not mean maintaining a large emergency stockpile while neglecting everyday services."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "The fairest measure of progress is not merely whether the average rises, but whether preventable suffering declines among the people whom health systems have historically failed to reach."
               }
             ]
           }
         ]
       },
+      "storyTitle": "Global Health: Progress for Whom?",
+      "mainTranscript": "Global health indicators show genuine progress: more children survive infancy, vaccination has prevented millions of deaths, and treatment has transformed once-fatal diseases. However, averages can conceal fragile systems and widening inequality. A country may report improved life expectancy while remote communities still lack primary care. A new service may technically exist, yet patients facing transport costs, medicine shortages, or informal fees remain excluded. Universal health coverage is therefore not achieved by enrolment alone. It requires timely, effective care without financial hardship. Data gaps make the picture harder to interpret because the people missing from surveys are often those facing the greatest barriers. Recent emergencies have also demonstrated that progress can be reversed when supply chains fail, health workers leave, or routine vaccination is interrupted. Resilience does not mean maintaining a large emergency stockpile while neglecting everyday services. It means building trusted local systems capable of detecting problems, communicating clearly, and continuing essential care under pressure. International funding remains important; nevertheless, programmes designed around short grant cycles can fragment national priorities. Sustainable improvement connects global resources with local leadership and accountable public institutions. The fairest measure of progress is not merely whether the average rises, but whether preventable suffering declines among the people whom health systems have historically failed to reach.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Global health indicators show genuine progress: more children survive infancy, vaccination has prevented millions of deaths, and treatment has transformed once-fatal diseases."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "However, averages can conceal fragile systems and widening inequality."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "A country may report improved life expectancy while remote communities still lack primary care."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "A new service may technically exist, yet patients facing transport costs, medicine shortages, or informal fees remain excluded."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Universal health coverage is therefore not achieved by enrolment alone."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "It requires timely, effective care without financial hardship."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Data gaps make the picture harder to interpret because the people missing from surveys are often those facing the greatest barriers."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Recent emergencies have also demonstrated that progress can be reversed when supply chains fail, health workers leave, or routine vaccination is interrupted."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Resilience does not mean maintaining a large emergency stockpile while neglecting everyday services."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "It means building trusted local systems capable of detecting problems, communicating clearly, and continuing essential care under pressure."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "International funding remains important; nevertheless, programmes designed around short grant cycles can fragment national priorities."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "Sustainable improvement connects global resources with local leadership and accountable public institutions."
+        },
+        {
+          "id": "segment-13",
+          "order": 13,
+          "text": "The fairest measure of progress is not merely whether the average rises, but whether preventable suffering declines among the people whom health systems have historically failed to reach."
+        }
+      ],
+      "listeningFormat": "global-affairs-article",
+      "voiceStyle": "global-news",
+      "audioLocale": "en-US",
       "grammarTest": null
     },
     "exercises": [
@@ -78063,40 +80142,40 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Global Health Progress and Inequality”, which detail establishes the situation?",
         "options": [
-          "Host: Today we are examining global health progress and inequality.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Global health indicators show genuine progress: more children survive infancy, vaccination has prevented millions of deaths, and treatment has transformed once-fatal diseases.",
+          "Universal health coverage is therefore not achieved by enrolment alone.",
+          "Resilience does not mean maintaining a large emergency stockpile while neglecting everyday services.",
+          "The fairest measure of progress is not merely whether the average rises, but whether preventable suffering declines among the people whom health systems have historically failed to reach."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining global health progress and inequality.”, what happens next in “Listening Lab: Global Health Progress and Inequality”?",
+        "prompt": "After “Global health indicators show genuine progress: more children survive…”, what happens next in “Listening Lab: Global Health Progress and Inequality”?",
         "options": [
-          "Host: Today we are examining global health progress and inequality.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Global health indicators show genuine progress: more children survive infancy, vaccination has prevented millions of deaths, and treatment has transformed once-fatal diseases.",
+          "Universal health coverage is therefore not achieved by enrolment alone.",
+          "Resilience does not mean maintaining a large emergency stockpile while neglecting everyday services.",
+          "The fairest measure of progress is not merely whether the average rises, but whether preventable suffering declines among the people whom health systems have historically failed to reach."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Global Health Progress and Inequality”?",
         "options": [
-          "Host: Today we are examining global health progress and inequality.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Global health indicators show genuine progress: more children survive infancy, vaccination has prevented millions of deaths, and treatment has transformed once-fatal diseases.",
+          "Universal health coverage is therefore not achieved by enrolment alone.",
+          "Data gaps make the picture harder to interpret because the people missing from surveys are often those facing the greatest barriers.",
+          "Resilience does not mean maintaining a large emergency stockpile while neglecting everyday services."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Global Health Progress and Inequality” after “Because the central question is not only what happens, but also which…”?",
+        "prompt": "Which outcome closes “Listening Lab: Global Health Progress and Inequality” after “Data gaps make the picture harder to interpret because the people…”?",
         "options": [
-          "Host: Today we are examining global health progress and inequality.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Global health indicators show genuine progress: more children survive infancy, vaccination has prevented millions of deaths, and treatment has transformed once-fatal diseases.",
+          "Universal health coverage is therefore not achieved by enrolment alone.",
+          "Resilience does not mean maintaining a large emergency stockpile while neglecting everyday services.",
+          "The fairest measure of progress is not merely whether the average rises, but whether preventable suffering declines among the people whom health systems have historically failed to reach."
         ]
       }
     ]
@@ -78125,45 +80204,18 @@
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Host",
-        "line": "Today we are examining artificial intelligence and the future of language tutoring. Why does this issue resist a simple answer?",
-        "translation": "Hoy analizamos artificial intelligence and the future of language tutoring. ¿Por qué este asunto no admite una respuesta sencilla?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-        "translation": "Porque la pregunta central no es solo qué sucede, sino también qué supuestos determinan cómo se interpreta la evidencia."
-      },
-      {
-        "speaker": "Host",
-        "line": "Which distinction should listeners keep in mind?",
-        "translation": "¿Qué distinción deben tener presente los oyentes?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable.",
-        "translation": "Deben distinguir un hallazgo establecido de una inferencia plausible y de un juicio de valor. Esas categorías pueden relacionarse, pero no son intercambiables."
-      },
-      {
-        "speaker": "Host",
-        "line": "How can we discuss the issue responsibly?",
-        "translation": "¿Cómo podemos hablar responsablemente del asunto?"
-      },
-      {
-        "speaker": "Guest",
-        "line": "We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
-        "translation": "Podemos definir los términos, reconocer un contraargumento serio y explicar qué evidencia nos haría revisar la conclusión."
+        "speaker": "Narrator",
+        "line": "Generative models can sustain conversation, explain grammar, create examples, and provide feedback within seconds. For a language learner who lacks regular access to a tutor, that availability is significant. Yet fluency can disguise uncertainty. A model may produce an elegant explanation that contains a fabricated rule, an unnatural phrase, or advice unsuitable for the learner’s context. Researchers have reported benefits from guided practice, but the evidence does not justify treating every chatbot interaction as instruction of equal quality. Adaptive feedback requires more than changing difficulty after a correct answer. A credible learner model would track persistent patterns, distinguish a typo from a misconception, and avoid overwhelming the user with corrections. Data provenance raises another concern: learners may submit personal writing or recordings without knowing how those materials are stored or reused. Algorithmic bias can also privilege certain accents and registers while marking legitimate variation as error. None of these limitations makes AI useless. They define conditions for responsible use. Learners can request alternatives, verify important claims, compare feedback with trusted references, and retain authority over their intended voice. Teachers can design tasks in which students critique model output rather than merely consume it. Institutions should disclose data practices and evaluate systems with diverse speakers. Artificial intelligence may become a powerful practice partner, but reliability must be demonstrated rather than inferred from confidence. The future tutor should expand human judgement, access, and experimentation—not replace them with an interface that sounds certain."
       }
     ],
     "reading": null,
-    "transcript": "Host: Today we are examining artificial intelligence and the future of language tutoring. Why does this issue resist a simple answer? Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted. Host: Which distinction should listeners keep in mind? Guest: They should distinguish an established finding from a plausible inference and a value judgement. Those categories may interact, but they are not interchangeable. Host: How can we discuss the issue responsibly? Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion.",
+    "transcript": "Generative models can sustain conversation, explain grammar, create examples, and provide feedback within seconds. For a language learner who lacks regular access to a tutor, that availability is significant. Yet fluency can disguise uncertainty. A model may produce an elegant explanation that contains a fabricated rule, an unnatural phrase, or advice unsuitable for the learner’s context. Researchers have reported benefits from guided practice, but the evidence does not justify treating every chatbot interaction as instruction of equal quality. Adaptive feedback requires more than changing difficulty after a correct answer. A credible learner model would track persistent patterns, distinguish a typo from a misconception, and avoid overwhelming the user with corrections. Data provenance raises another concern: learners may submit personal writing or recordings without knowing how those materials are stored or reused. Algorithmic bias can also privilege certain accents and registers while marking legitimate variation as error. None of these limitations makes AI useless. They define conditions for responsible use. Learners can request alternatives, verify important claims, compare feedback with trusted references, and retain authority over their intended voice. Teachers can design tasks in which students critique model output rather than merely consume it. Institutions should disclose data practices and evaluate systems with diverse speakers. Artificial intelligence may become a powerful practice partner, but reliability must be demonstrated rather than inferred from confidence. The future tutor should expand human judgement, access, and experimentation—not replace them with an interface that sounds certain.",
     "extra": {
-      "listeningType": "interview",
+      "listeningType": "monologue",
       "difficulty": "C2",
       "durationSeconds": 125,
       "speakers": [
-        "Host",
-        "Guest"
+        "Narrator"
       ],
       "phoneticSupport": {
         "enabled": true,
@@ -78190,42 +80242,42 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining artificial intelligence and the future of language tutoring."
+                "text": "Generative models can sustain conversation, explain grammar, create examples, and provide feedback within seconds."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Adaptive feedback requires more than changing difficulty after a correct answer."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "They define conditions for responsible use."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "The future tutor should expand human judgement, access, and experimentation—not replace them with an interface that sounds certain."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "After “Today we are examining artificial intelligence and the future of…”, what happens next in “Listening Lab: Artificial Intelligence and the Future of Language Tutoring”?",
+            "prompt": "After “Generative models can sustain conversation, explain grammar, create…”, what happens next in “Listening Lab: Artificial Intelligence and the Future of Language Tutoring”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining artificial intelligence and the future of language tutoring."
+                "text": "Generative models can sustain conversation, explain grammar, create examples, and provide feedback within seconds."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Adaptive feedback requires more than changing difficulty after a correct answer."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "They define conditions for responsible use."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "The future tutor should expand human judgement, access, and experimentation—not replace them with an interface that sounds certain."
               }
             ]
           },
@@ -78236,47 +80288,134 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining artificial intelligence and the future of language tutoring."
+                "text": "Generative models can sustain conversation, explain grammar, create examples, and provide feedback within seconds."
               },
               {
                 "id": "o2",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "Adaptive feedback requires more than changing difficulty after a correct answer."
               },
               {
                 "id": "o3",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Institutions should disclose data practices and evaluate systems with diverse speakers."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "They define conditions for responsible use."
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Which outcome closes “Listening Lab: Artificial Intelligence and the Future of Language Tutoring” after “Because the central question is not only what happens, but also which…”?",
+            "prompt": "Which outcome closes “Listening Lab: Artificial Intelligence and the Future of Language Tutoring” after “Institutions should disclose data practices and evaluate systems with…”?",
             "options": [
               {
                 "id": "o1",
-                "text": "Host: Today we are examining artificial intelligence and the future of language tutoring."
+                "text": "Generative models can sustain conversation, explain grammar, create examples, and provide feedback within seconds."
               },
               {
                 "id": "o2",
-                "text": "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted."
+                "text": "Adaptive feedback requires more than changing difficulty after a correct answer."
               },
               {
                 "id": "o3",
-                "text": "Those categories may interact, but they are not interchangeable."
+                "text": "They define conditions for responsible use."
               },
               {
                 "id": "o4",
-                "text": "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+                "text": "The future tutor should expand human judgement, access, and experimentation—not replace them with an interface that sounds certain."
               }
             ]
           }
         ]
       },
+      "storyTitle": "AI Tutors: Fluent, Adaptive—and Sometimes Wrong",
+      "mainTranscript": "Generative models can sustain conversation, explain grammar, create examples, and provide feedback within seconds. For a language learner who lacks regular access to a tutor, that availability is significant. Yet fluency can disguise uncertainty. A model may produce an elegant explanation that contains a fabricated rule, an unnatural phrase, or advice unsuitable for the learner’s context. Researchers have reported benefits from guided practice, but the evidence does not justify treating every chatbot interaction as instruction of equal quality. Adaptive feedback requires more than changing difficulty after a correct answer. A credible learner model would track persistent patterns, distinguish a typo from a misconception, and avoid overwhelming the user with corrections. Data provenance raises another concern: learners may submit personal writing or recordings without knowing how those materials are stored or reused. Algorithmic bias can also privilege certain accents and registers while marking legitimate variation as error. None of these limitations makes AI useless. They define conditions for responsible use. Learners can request alternatives, verify important claims, compare feedback with trusted references, and retain authority over their intended voice. Teachers can design tasks in which students critique model output rather than merely consume it. Institutions should disclose data practices and evaluate systems with diverse speakers. Artificial intelligence may become a powerful practice partner, but reliability must be demonstrated rather than inferred from confidence. The future tutor should expand human judgement, access, and experimentation—not replace them with an interface that sounds certain.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Generative models can sustain conversation, explain grammar, create examples, and provide feedback within seconds."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "For a language learner who lacks regular access to a tutor, that availability is significant."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Yet fluency can disguise uncertainty."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "A model may produce an elegant explanation that contains a fabricated rule, an unnatural phrase, or advice unsuitable for the learner’s context."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Researchers have reported benefits from guided practice, but the evidence does not justify treating every chatbot interaction as instruction of equal quality."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Adaptive feedback requires more than changing difficulty after a correct answer."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "A credible learner model would track persistent patterns, distinguish a typo from a misconception, and avoid overwhelming the user with corrections."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Data provenance raises another concern: learners may submit personal writing or recordings without knowing how those materials are stored or reused."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Algorithmic bias can also privilege certain accents and registers while marking legitimate variation as error."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "None of these limitations makes AI useless."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "They define conditions for responsible use."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "Learners can request alternatives, verify important claims, compare feedback with trusted references, and retain authority over their intended voice."
+        },
+        {
+          "id": "segment-13",
+          "order": 13,
+          "text": "Teachers can design tasks in which students critique model output rather than merely consume it."
+        },
+        {
+          "id": "segment-14",
+          "order": 14,
+          "text": "Institutions should disclose data practices and evaluate systems with diverse speakers."
+        },
+        {
+          "id": "segment-15",
+          "order": 15,
+          "text": "Artificial intelligence may become a powerful practice partner, but reliability must be demonstrated rather than inferred from confidence."
+        },
+        {
+          "id": "segment-16",
+          "order": 16,
+          "text": "The future tutor should expand human judgement, access, and experimentation—not replace them with an interface that sounds certain."
+        }
+      ],
+      "listeningFormat": "technology-editorial",
+      "voiceStyle": "technology-editorial",
+      "audioLocale": "en-US",
       "grammarTest": null
     },
     "exercises": [
@@ -78284,40 +80423,40 @@
         "type": "mcq",
         "prompt": "In “Listening Lab: Artificial Intelligence and the Future of Language Tutoring”, which detail establishes the situation?",
         "options": [
-          "Host: Today we are examining artificial intelligence and the future of language tutoring.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Generative models can sustain conversation, explain grammar, create examples, and provide feedback within seconds.",
+          "Adaptive feedback requires more than changing difficulty after a correct answer.",
+          "They define conditions for responsible use.",
+          "The future tutor should expand human judgement, access, and experimentation—not replace them with an interface that sounds certain."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "After “Today we are examining artificial intelligence and the future of…”, what happens next in “Listening Lab: Artificial Intelligence and the Future of Language Tutoring”?",
+        "prompt": "After “Generative models can sustain conversation, explain grammar, create…”, what happens next in “Listening Lab: Artificial Intelligence and the Future of Language Tutoring”?",
         "options": [
-          "Host: Today we are examining artificial intelligence and the future of language tutoring.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Generative models can sustain conversation, explain grammar, create examples, and provide feedback within seconds.",
+          "Adaptive feedback requires more than changing difficulty after a correct answer.",
+          "They define conditions for responsible use.",
+          "The future tutor should expand human judgement, access, and experimentation—not replace them with an interface that sounds certain."
         ]
       },
       {
         "type": "mcq",
         "prompt": "Which line best reveals an intention or decision in “Listening Lab: Artificial Intelligence and the Future of Language Tutoring”?",
         "options": [
-          "Host: Today we are examining artificial intelligence and the future of language tutoring.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Generative models can sustain conversation, explain grammar, create examples, and provide feedback within seconds.",
+          "Adaptive feedback requires more than changing difficulty after a correct answer.",
+          "Institutions should disclose data practices and evaluate systems with diverse speakers.",
+          "They define conditions for responsible use."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Which outcome closes “Listening Lab: Artificial Intelligence and the Future of Language Tutoring” after “Because the central question is not only what happens, but also which…”?",
+        "prompt": "Which outcome closes “Listening Lab: Artificial Intelligence and the Future of Language Tutoring” after “Institutions should disclose data practices and evaluate systems with…”?",
         "options": [
-          "Host: Today we are examining artificial intelligence and the future of language tutoring.",
-          "Guest: Because the central question is not only what happens, but also which assumptions shape the way the evidence is interpreted.",
-          "Those categories may interact, but they are not interchangeable.",
-          "Guest: We can define our terms, acknowledge a serious counterargument and explain what evidence would make us revise our conclusion."
+          "Generative models can sustain conversation, explain grammar, create examples, and provide feedback within seconds.",
+          "Adaptive feedback requires more than changing difficulty after a correct answer.",
+          "They define conditions for responsible use.",
+          "The future tutor should expand human judgement, access, and experimentation—not replace them with an interface that sounds certain."
         ]
       }
     ]

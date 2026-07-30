@@ -804,6 +804,10 @@ function refreshLanguagePairChrome() {
     'levelSelectLabel',
     'lessonSelectLabel',
     'configuratorTitle',
+    'targetCourseLabel',
+    'targetLevelLabel',
+    'supportInterfaceLabel',
+    'supportLevelHint',
     'bridgeLabel',
     'targetLabel',
     'levelLabel',
@@ -830,6 +834,17 @@ function isFrenchAdvancedImmersion() {
 
 function isFrenchTargetLanguage() {
   return learningPathState.language === 'french';
+}
+
+// Learning content can use its own immersion rules, but corrective feedback
+// follows a simpler pedagogical progression: Spanish support through A2, then
+// French feedback from B1 onward. This keeps A1/A2 explanations accessible
+// while making B1+ assessment part of the target-language practice.
+function isFrenchExerciseFeedbackInTargetLanguage(level = learningPathState.level) {
+  return (
+    learningPathState.language === 'french' &&
+    ['B1', 'B2', 'C1', 'C2'].includes(String(level || '').toUpperCase())
+  );
 }
 
 function advancedFrenchText(defaultText, frenchText) {
@@ -3776,7 +3791,7 @@ function compactLearningToolbars(section) {
     buttons[0];
   const secondary = buttons.filter((button) => button !== primary);
   const firstBar = bars[0];
-  const french = isFrenchAdvancedImmersion();
+  const french = isFrenchExerciseFeedbackInTargetLanguage(lesson.level);
   const details = document.createElement('details');
   details.className = 'skill-view-more learning-tools-more';
   details.innerHTML = `<summary>${french ? 'Plus d’outils' : 'Más herramientas'}</summary><div class="skill-view-more-menu"></div>`;
@@ -3936,6 +3951,12 @@ function getUnitRouteCopy() {
 
 function getUnitScoreFeedback(score) {
   const value = Math.max(0, Math.min(100, Number(score) || 0));
+  const feedbackLanguage =
+    learningPathState.language === 'french'
+      ? isFrenchExerciseFeedbackInTargetLanguage()
+        ? 'french'
+        : 'spanish'
+      : learningPathState.language;
   const messages = {
     english:
       value >= 90
@@ -3968,7 +3989,7 @@ function getUnitScoreFeedback(score) {
               ? ['¡Buen intento!', 'Podemos seguir mejorando.']
               : ['¡Vamos de nuevo!', 'Cada intento te ayuda a aprender.']
   };
-  const [title, detail] = messages[learningPathState.language] || messages.spanish;
+  const [title, detail] = messages[feedbackLanguage] || messages.spanish;
   return { title, detail };
 }
 
@@ -6412,8 +6433,9 @@ function getUnitArtwork(unit = {}) {
 
 // The Ruta tab for a unit-aware language+level (English A1 today): 12
 // thematic units in order, each with its own ≤6 activities, instead of one
-// flat module. Reuses renderLessonItemHtml() so a unit's activities look
-// and behave exactly like the legacy flat list's items.
+// flat module. The route deliberately lists only the units: activities are
+// shown once, in the selected unit's right-hand overview, avoiding duplicate
+// navigation cards in both columns.
 function renderUnitAccordionHtml(nextSlug) {
   // If nothing has explicitly selected a unit yet (fresh load / language or
   // level switch, which resets unitId), default to the unit that holds the
@@ -6454,13 +6476,6 @@ function renderUnitAccordionHtml(nextSlug) {
           ${isPremiumUnit ? '<span class="path-unit-premium">🔒 Premium</span>' : ''}
           <span class="path-unit-progress-label">${metrics.progressPercent}%</span>
         </button>
-        ${
-          isSelected
-            ? `<div class="path-unit-lessons" aria-label="Habilidades de ${escapeHtml(unit.title)}">
-                ${unitLessons.map((lesson) => renderLessonItemHtml(lesson, nextSlug)).join('')}
-              </div>`
-            : ''
-        }
       </div>
     `;
     })
@@ -6512,17 +6527,8 @@ function renderSkillGraph() {
     ${bodyHtml}
   `;
 
-  container.querySelectorAll('.path-lesson-item').forEach((nodeEl) => {
-    nodeEl.addEventListener('click', () => openLesson(nodeEl.dataset.lessonSlug));
-  });
-
-  // Clicking a unit selects it (see selectUnit()): it becomes the source of
-  // truth in learningPathState.unitId, its first available lesson is
-  // auto-picked when the previously active lesson belonged to a different
-  // unit, and the whole graph re-renders - which is also what moves the
-  // aria-current highlight to this unit. The route only ever lists unit
-  // names; per-skill navigation happens in the right-hand unit overview
-  // panel's CTA (renderUnitOverviewCard) and each skill's own level-tabs.
+  // Clicking a unit selects it (see selectUnit()) and reveals its activities
+  // in the right-hand overview. The route itself stays a clean unit index.
   container.querySelectorAll('.path-unit-header').forEach((headerEl) => {
     headerEl.addEventListener('click', (event) => {
       event.preventDefault();
@@ -6533,11 +6539,6 @@ function renderSkillGraph() {
     });
   });
 
-  // Keep the active lesson in view when the list re-renders (e.g. after
-  // switching level/language) rather than always resetting scroll to top.
-  container
-    .querySelector('.path-lesson-item[aria-current="true"]')
-    ?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
 
 function renderLessonExercise(item, index, lesson) {
@@ -6564,8 +6565,12 @@ function renderLessonExercise(item, index, lesson) {
       : '';
     const feedbackText = recorded
       ? recorded.correct
-        ? '¡Correcto! +5 XP'
-        : 'No es correcto, pero sigue intentando.'
+        ? french
+          ? 'Correct ! +5 XP'
+          : '¡Correcto! +5 XP'
+        : french
+          ? 'Ce n’est pas la bonne réponse. Essaie encore.'
+          : 'No es correcto, pero sigue intentando.'
       : responseHint;
     return `
       <div class="mcq-question lesson-exercise ${answeredClass}" data-exercise-index="${index}" data-exercise-id="${escapeHtml(item.id || '')}" data-lesson-slug="${escapeHtml(lesson.slug || '')}" data-skill="${escapeHtml(lesson.skill || '')}" data-language="${escapeHtml(learningPathState.language)}">
@@ -6691,9 +6696,8 @@ function renderUnitOverviewBody(data) {
 // unit* (title, communicative objective, outcomes, grammar, vocabulary,
 // scenario, this unit's own progress) instead of naming one specific
 // lesson. The left column (renderUnitAccordionHtml) only lists unit names
-// and overall progress - this panel's own "Comenzar/Continuar/Repasar
-// unidad" CTA (action.targetSlug below) is how a student actually enters a
-// specific activity; each skill's own level-tabs nav is the other way in.
+// and overall progress. This panel is the single place that displays the
+// unit's activities and lets a student enter one.
 // See renderContinueCard (still used for languages/levels without units)
 // for the shape this replaces.
 //
@@ -6713,8 +6717,8 @@ function renderUnitOverviewCard(unit) {
   return `
     <div class="unit-overview-panel">
       <div class="unit-selection-intro">
-        <h3>Selecciona tu lección</h3>
-        <p>Elige una de las habilidades desplegadas debajo de esta unidad para comenzar.</p>
+        <h3>Tu lección está lista</h3>
+        <p>Elige una actividad de la derecha para comenzar tu práctica.</p>
       </div>
       <div class="unit-overview-header">
         <span class="unit-mission-kicker">${artwork.emoji} Viaje ${escapeHtml(String(unit.order))}</span>
@@ -8160,7 +8164,7 @@ function getVisibleReadingComprehensionEntries(lesson, entries) {
 // 90-100/80-89/70-79/60-69/<60 score bands - wording per spec, never
 // "reprobado", for a platform used by kids as young as ~9.
 function readingComprehensionScoreMessage(score) {
-  const french = isFrenchAdvancedImmersion();
+  const french = isFrenchExerciseFeedbackInTargetLanguage();
   if (score >= 90) return french ? 'Excellente compréhension du texte !' : '¡Excelente comprensión del texto!';
   if (score >= 80) return french ? 'Très bon travail !' : '¡Muy buen trabajo!';
   if (score >= 70) return french ? 'Bon travail. Continuez à vous entraîner.' : 'Buen trabajo. Sigue practicando.';
@@ -8172,7 +8176,7 @@ function renderReadingComprehensionResultHtml(runtime, total) {
   const correctCount = Object.values(runtime.results).filter((r) => r.correct).length;
   const incorrectCount = total - correctCount;
   const score = total > 0 ? Math.round((correctCount / total) * 100) : 0;
-  const french = isFrenchAdvancedImmersion();
+  const french = isFrenchExerciseFeedbackInTargetLanguage();
   const persistenceHtml = !authStatus.session?.access_token
     ? `<button type="button" class="primary-btn reading-comp-signup-btn">${french ? 'Inscrivez-vous gratuitement pour enregistrer votre résultat, vos XP et vos succès' : 'Regístrate gratis para guardar tu resultado, XP y logros'}</button>`
     : runtime.serverResult
@@ -8198,7 +8202,7 @@ function getLocalExerciseCorrectKey(item) {
 }
 
 function renderReadingComprehensionQuiz(lesson, entries) {
-  const french = isFrenchAdvancedImmersion();
+  const french = isFrenchExerciseFeedbackInTargetLanguage(lesson.level);
   if (!entries.length) {
     return `<p class="skill-graph-empty">${french ? 'Aucune question de compréhension pour cette leçon.' : 'No hay preguntas de comprensión para esta lección.'}</p>`;
   }
@@ -8374,7 +8378,7 @@ function updateLanguagePreviewSelection() {
     card.classList.toggle('is-selected', selected);
     card.setAttribute('aria-current', selected ? 'true' : 'false');
     const button = card.querySelector('.language-preview-btn');
-    if (button) button.textContent = selected ? '✓ Seleccionado' : 'Elegir idioma';
+    if (button) button.textContent = selected ? 'Ver ruta →' : 'Elegir idioma';
   });
 }
 
@@ -10480,13 +10484,13 @@ function getGrammarTestRuntime(lesson) {
 
 // 90-100/80-89/70-79/60-69/<60 per the spec - "Necesitas practicar", never
 // "reprobado", for a platform used by kids as young as ~9.
-function gradeBandForScore(score) {
-  const french = isFrenchTargetLanguage();
+function gradeBandForScore(score, level = learningPathState.level) {
+  const french = isFrenchExerciseFeedbackInTargetLanguage(level);
   if (score >= 90) return { label: french ? 'Excellent' : 'Excellent', emoji: '🌟' };
-  if (score >= 80) return { label: french ? 'Très bien' : 'Very good', emoji: '👍' };
-  if (score >= 70) return { label: french ? 'Bien' : 'Good', emoji: '🙂' };
-  if (score >= 60) return { label: french ? 'En progression' : 'In progress', emoji: '💪' };
-  return { label: french ? 'Continuez à vous entraîner' : 'Keep practising', emoji: '📚' };
+  if (score >= 80) return { label: french ? 'Très bien' : 'Muy bien', emoji: '👍' };
+  if (score >= 70) return { label: french ? 'Bien' : 'Bien', emoji: '🙂' };
+  if (score >= 60) return { label: french ? 'En progression' : 'Vas avanzando', emoji: '💪' };
+  return { label: french ? 'Continuez à vous entraîner' : 'Sigue practicando', emoji: '📚' };
 }
 
 function isGrammarTestQuestionAnswered(runtime, question) {
@@ -10760,7 +10764,7 @@ function renderGrammarTestQuestionHtml(lesson, test, runtime) {
 }
 
 function renderGrammarTestQuestionBodyHtml(question, runtime) {
-  const french = isFrenchTargetLanguage();
+  const french = isFrenchExerciseFeedbackInTargetLanguage();
   const saved = runtime.answers[question.id];
 
   if (question.type === 'mcq') {
@@ -10785,7 +10789,15 @@ function renderGrammarTestQuestionBodyHtml(question, runtime) {
       .join('');
     const checked = runtime.questionResults?.[question.id];
     const feedbackHtml = checked
-      ? `<p class="grammar-question-feedback ${checked.correct ? 'is-correct' : 'is-incorrect'}" role="status">${checked.correct ? '✓ Correct!' : '✕ Not quite. Review it and try again in the next attempt.'}</p>`
+      ? `<p class="grammar-question-feedback ${checked.correct ? 'is-correct' : 'is-incorrect'}" role="status">${
+          checked.correct
+            ? french
+              ? '✓ Correct !'
+              : '✓ ¡Correcto!'
+            : french
+              ? '✕ Ce n’est pas la bonne réponse. Réessaie à la prochaine tentative.'
+              : '✕ No es la respuesta correcta. Repásala e inténtalo en el próximo intento.'
+        }</p>`
       : '';
     return `<div class="grammar-test-options">${optionsHtml}</div>${feedbackHtml}`;
   }
@@ -10826,7 +10838,15 @@ function renderGrammarTestQuestionBodyHtml(question, runtime) {
       const chipHtml = (item) =>
         `<button type="button" class="grammar-test-order-item grammar-reconstruction-chip" draggable="true" data-item-id="${escapeHtml(item.id)}"><span class="grammar-test-order-grip" aria-hidden="true">⠿</span><span class="grammar-test-order-text">${escapeHtml(item.text)}</span></button>`;
       const feedbackHtml = result
-        ? `<p class="grammar-question-feedback ${result.correct ? 'is-correct' : 'is-incorrect'}" role="status">${result.correct ? '✓ Excellent !' : '✕ Essaie une autre combinaison.'}</p>`
+        ? `<p class="grammar-question-feedback ${result.correct ? 'is-correct' : 'is-incorrect'}" role="status">${
+            result.correct
+              ? french
+                ? '✓ Excellent !'
+                : '✓ ¡Excelente!'
+              : french
+                ? '✕ Essaie une autre combinaison.'
+                : '✕ Prueba otra combinación.'
+          }</p>`
         : '';
       return `
         <div class="grammar-test-order-help">${french ? 'Faites glisser les fragments sur la ligne. La correction est immédiate.' : 'Drag the fragments onto the line. It checks immediately.'}</div>
@@ -10962,8 +10982,8 @@ function renderGrammarTestResultsHtml(lesson, test, runtime) {
     return renderGrammarTestInstructionsHtml(lesson, test);
   }
 
-  const band = gradeBandForScore(result.score);
-  const french = isFrenchTargetLanguage();
+  const band = gradeBandForScore(result.score, lesson.level);
+  const french = isFrenchExerciseFeedbackInTargetLanguage(lesson.level);
   const resultsByQuestionId = new Map((result.results || []).map((r) => [String(r.questionId), r]));
   const correctCount = (result.results || []).filter((r) => r.correct).length;
 
@@ -10982,11 +11002,11 @@ function renderGrammarTestResultsHtml(lesson, test, runtime) {
           <span class="grammar-test-breakdown-icon" aria-hidden="true">${correct ? '✅' : '❌'}</span>
           <div>
             <p class="grammar-test-breakdown-prompt">
-              <span class="grammar-test-breakdown-status-text">${correct ? (french ? 'Correcte' : 'Correct') : (french ? 'Incorrecte' : 'Incorrect')}:</span>
+              <span class="grammar-test-breakdown-status-text">${correct ? (french ? 'Correcte' : 'Correcta') : (french ? 'Incorrecte' : 'Incorrecta')}:</span>
               ${index + 1}. ${escapeHtml(question.prompt)}
             </p>
-            ${submittedAnswerText ? `<p class="grammar-test-breakdown-submitted-answer">${french ? 'Votre réponse' : 'Your answer'} : <strong>${escapeHtml(submittedAnswerText)}</strong></p>` : ''}
-            ${correctAnswerText ? `<p class="grammar-test-breakdown-correct-answer">${french ? 'Bonne réponse' : 'Correct answer'} : <strong>${escapeHtml(correctAnswerText)}</strong></p>` : ''}
+            ${submittedAnswerText ? `<p class="grammar-test-breakdown-submitted-answer">${french ? 'Votre réponse' : 'Tu respuesta'} : <strong>${escapeHtml(submittedAnswerText)}</strong></p>` : ''}
+            ${correctAnswerText ? `<p class="grammar-test-breakdown-correct-answer">${french ? 'Bonne réponse' : 'Respuesta correcta'} : <strong>${escapeHtml(correctAnswerText)}</strong></p>` : ''}
             ${r?.explanation ? `<p class="grammar-test-breakdown-explanation">${escapeHtml(r.explanation)}</p>` : ''}
           </div>
         </li>
@@ -10997,20 +11017,20 @@ function renderGrammarTestResultsHtml(lesson, test, runtime) {
   return `
     <div class="grammar-test-card card-enter skill-print-area">
       <div class="print-only">${renderSkillPrintHeaderHtml(lesson)}</div>
-      <h3 class="print-only">${escapeHtml(lesson.title)} — ${french ? 'Résultat de l’exercice de grammaire' : 'Grammar exercise result'}</h3>
+      <h3 class="print-only">${escapeHtml(lesson.title)} — ${french ? 'Résultat de l’exercice de grammaire' : 'Resultado del ejercicio de gramática'}</h3>
       <div class="grammar-test-score-band">
         <span class="grammar-test-score-emoji" aria-hidden="true">${band.emoji}</span>
         <strong class="grammar-test-score-number">${result.score}/100</strong>
         <span class="grammar-test-score-label">${band.label}</span>
       </div>
-      <p class="grammar-test-score-detail">${french ? 'Bonnes réponses' : 'Correct answers'} : ${correctCount} ${french ? 'sur' : 'of'} ${test.questions.length}</p>
+      <p class="grammar-test-score-detail">${french ? 'Bonnes réponses' : 'Respuestas correctas'} : ${correctCount} ${french ? 'sur' : 'de'} ${test.questions.length}</p>
       <p class="grammar-test-score-detail">
-        ${result.bestScore != null ? `${french ? 'Meilleur score' : 'Best score'} : ${result.bestScore}/100 · ` : ''}${french ? 'Tentative' : 'Attempt'} ${result.attemptNumber ?? ''} · ${new Date().toLocaleDateString(french ? 'fr-FR' : 'en-US')}
+        ${result.bestScore != null ? `${french ? 'Meilleur score' : 'Mejor puntuación'} : ${result.bestScore}/100 · ` : ''}${french ? 'Tentative' : 'Intento'} ${result.attemptNumber ?? ''} · ${new Date().toLocaleDateString(french ? 'fr-FR' : 'es-DO')}
       </p>
       <ul class="grammar-test-breakdown-list">${breakdownHtml}</ul>
       <div class="grammar-test-result-actions no-print">
-        <button type="button" class="primary-btn hover-lift btn-press grammar-test-retry-btn">${french ? 'Réessayer' : 'Try again'}</button>
-        <button type="button" class="secondary-btn skill-print-btn">${french ? 'Télécharger le résultat en PDF' : 'Download result as PDF'}</button>
+        <button type="button" class="primary-btn hover-lift btn-press grammar-test-retry-btn">${french ? 'Réessayer' : 'Intentar de nuevo'}</button>
+        <button type="button" class="secondary-btn skill-print-btn">${french ? 'Télécharger le résultat en PDF' : 'Descargar resultado en PDF'}</button>
       </div>
       <div class="grammar-test-history"></div>
     </div>
@@ -11023,7 +11043,7 @@ function renderGrammarTestResultsHtml(lesson, test, runtime) {
 // the endpoint requires auth the same way submitting the test already does.
 async function loadGrammarTestHistory(lesson, containerEl) {
   if (!containerEl || !authStatus.session?.access_token) return;
-  const french = isFrenchTargetLanguage();
+  const french = isFrenchExerciseFeedbackInTargetLanguage(lesson.level);
   try {
     const response = await authFetch(
       `${backendBaseUrl}/api/lessons/${lesson.slug}/grammar-test-history`
@@ -11034,21 +11054,21 @@ async function loadGrammarTestHistory(lesson, containerEl) {
     const rowsHtml = data.history
       .map((attempt) => {
         const date = attempt.completedAt
-          ? new Date(attempt.completedAt).toLocaleDateString(french ? 'fr-FR' : 'en-US')
+          ? new Date(attempt.completedAt).toLocaleDateString(french ? 'fr-FR' : 'es-DO')
           : '';
         return `
           <li class="grammar-test-history-item${attempt.isBest ? ' is-best' : ''}">
-            <span>${french ? 'Tentative' : 'Attempt'} ${attempt.attemptNumber}</span>
+            <span>${french ? 'Tentative' : 'Intento'} ${attempt.attemptNumber}</span>
             <span>${attempt.score}/100</span>
-            <span>${attempt.correctAnswers}/${attempt.totalQuestions} ${french ? 'réponses correctes' : 'correct answers'}</span>
+            <span>${attempt.correctAnswers}/${attempt.totalQuestions} ${french ? 'réponses correctes' : 'respuestas correctas'}</span>
             <span>${escapeHtml(date)}</span>
-            ${attempt.isBest ? `<span class="grammar-test-history-best-tag">🏆 ${french ? 'Meilleur' : 'Best'}</span>` : ''}
+            ${attempt.isBest ? `<span class="grammar-test-history-best-tag">🏆 ${french ? 'Meilleur' : 'Mejor'}</span>` : ''}
           </li>`;
       })
       .join('');
     containerEl.innerHTML = `
       <details class="grammar-test-history-details">
-        <summary>🕘 ${french ? 'Historique des tentatives' : 'Attempt history'} (${data.history.length})</summary>
+        <summary>🕘 ${french ? 'Historique des tentatives' : 'Historial de intentos'} (${data.history.length})</summary>
         <ul class="grammar-test-history-list">${rowsHtml}</ul>
       </details>
     `;
@@ -11697,19 +11717,19 @@ function shuffleVocabularyItems(items) {
 }
 
 function buildVocabularyPracticePrompt(item) {
-  const french = isFrenchAdvancedImmersion();
+  const french = isFrenchExerciseFeedbackInTargetLanguage();
   const context = item.contexts?.[0]?.targetText || item.example || '';
   if (context) {
     const escapedWord = String(item.targetWord).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     const blanked = context.replace(new RegExp(escapedWord, 'i'), '_____');
     return blanked !== context
-      ? `${french ? 'Choisissez le mot qui complète la phrase' : 'Choose the word that completes the sentence'} : « ${blanked} »`
-      : `${french ? 'Choisissez le mot qui correspond le mieux à ce contexte' : 'Choose the vocabulary item that best matches this context'} : « ${context} »`;
+      ? `${french ? 'Choisissez le mot qui complète la phrase' : 'Elige la palabra que completa la oración'} : « ${blanked} »`
+      : `${french ? 'Choisissez le mot qui correspond le mieux à ce contexte' : 'Elige la palabra que mejor corresponde a este contexto'} : « ${context} »`;
   }
   if (item.definition || item.simpleDefinition) {
-    return `${french ? 'Choisissez le mot correspondant à cette définition' : 'Choose the word for this definition'} : « ${item.simpleDefinition || item.definition} »`;
+    return `${french ? 'Choisissez le mot correspondant à cette définition' : 'Elige la palabra que corresponde a esta definición'} : « ${item.simpleDefinition || item.definition} »`;
   }
-  return `${french ? 'Identifiez le mot de la leçon' : 'Identify this lesson word'} : « ${item.translation || item.targetWord} »`;
+  return `${french ? 'Identifiez le mot de la leçon' : 'Identifica la palabra de la lección'} : « ${item.translation || item.targetWord} »`;
 }
 
 function createVocabularyPractice(lesson, cards) {
@@ -11736,7 +11756,7 @@ function createVocabularyPractice(lesson, cards) {
 function renderVocabularyPracticePanelHtml(lesson) {
   const runtime = vocabPracticeState.get(lesson.slug);
   const count = getVocabularyPracticeCount(lesson.level);
-  const french = isFrenchAdvancedImmersion();
+  const french = isFrenchExerciseFeedbackInTargetLanguage(lesson.level);
   if (!runtime) {
     return `
       <div class="vocab-practice-intro">
@@ -11751,7 +11771,7 @@ function renderVocabularyPracticePanelHtml(lesson) {
         <div class="grammar-test-score-band">
           <span class="grammar-test-score-emoji" aria-hidden="true">${runtime.score >= 70 ? '🏆' : '📚'}</span>
           <strong class="grammar-test-score-number">${runtime.score}/100</strong>
-          <span class="grammar-test-score-label">${runtime.score >= 70 ? (french ? 'Pratique terminée' : 'Practice completed') : (french ? 'Continuez à pratiquer' : 'Keep practicing')}</span>
+          <span class="grammar-test-score-label">${runtime.score >= 70 ? (french ? 'Pratique terminée' : 'Práctica completada') : (french ? 'Continuez à pratiquer' : 'Sigue practicando')}</span>
         </div>
         <p class="verb-practice-celebration"><strong>${correctCount}/${runtime.questions.length}</strong> · ${escapeHtml(window.getExerciseReinforcement(correctCount, runtime.questions.length))}</p>
         <ul class="grammar-test-breakdown-list">
@@ -11762,20 +11782,20 @@ function renderVocabularyPracticePanelHtml(lesson) {
                   <span aria-hidden="true">${result.correct ? '✅' : '❌'}</span>
                   <div>
                     <p class="grammar-test-breakdown-prompt">${index + 1}. ${escapeHtml(result.prompt)}</p>
-                    <p class="grammar-test-breakdown-correct-answer">${french ? 'Bonne réponse' : 'Correct answer'} : <strong>${escapeHtml(result.correctText)}</strong></p>
+                    <p class="grammar-test-breakdown-correct-answer">${french ? 'Bonne réponse' : 'Respuesta correcta'} : <strong>${escapeHtml(result.correctText)}</strong></p>
                   </div>
                 </li>`
             )
             .join('')}
         </ul>
-        <button type="button" class="primary-btn vocab-practice-retry-btn">${french ? `Pratiquer ${count} autres mots` : `Practice another ${count} words`}</button>
+        <button type="button" class="primary-btn vocab-practice-retry-btn">${french ? `Pratiquer ${count} autres mots` : `Practicar otras ${count} palabras`}</button>
       </div>`;
   }
   const answered = Object.keys(runtime.answers).length;
   return `
     <div class="grammar-test-card vocab-practice-card">
       <div class="grammar-test-progress-row">
-        <span class="grammar-test-counter">${answered} ${french ? 'sur' : 'of'} ${runtime.questions.length} ${french ? 'réponses' : 'answered'}</span>
+        <span class="grammar-test-counter">${answered} ${french ? 'sur' : 'de'} ${runtime.questions.length} ${french ? 'réponses' : 'respuestas'}</span>
         <div class="grammar-test-progress-bar"><div style="width:${Math.round((answered / runtime.questions.length) * 100)}%"></div></div>
       </div>
       <div class="grammar-test-question-list">
@@ -11800,8 +11820,8 @@ function renderVocabularyPracticePanelHtml(lesson) {
           .join('')}
       </div>
       <div class="grammar-test-submit-bar">
-        <span>${french ? 'Score final' : 'Final score'} : 0–100</span>
-        <button type="button" class="primary-btn vocab-practice-submit-btn" ${answered === runtime.questions.length ? '' : 'disabled'}>${french ? 'Évaluer la pratique' : 'Evaluate practice'}</button>
+        <span>${french ? 'Score final' : 'Puntuación final'} : 0–100</span>
+        <button type="button" class="primary-btn vocab-practice-submit-btn" ${answered === runtime.questions.length ? '' : 'disabled'}>${french ? 'Évaluer la pratique' : 'Evaluar la práctica'}</button>
       </div>
     </div>`;
 }
@@ -14986,8 +15006,16 @@ function handleHomeAction(action) {
     showView(view);
     if (toast) showHomeToast(toast);
   };
-  const openLanguageSelector = (language = '') => {
+  const openLanguageSelector = () => {
     goTo('home');
+    window.setTimeout(() => {
+      document
+        .querySelector('.language-preview-grid')
+        ?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      document.querySelector('.language-preview-btn')?.focus({ preventScroll: true });
+    }, 50);
+  };
+  const openLanguageRoute = async (language) => {
     if (language) {
       if (
         language === learningPathState.bridgeLanguage &&
@@ -14999,14 +15027,20 @@ function handleHomeAction(action) {
       }
       void suggestNativeLanguage();
     }
-    window.setTimeout(() => {
-      document
-        .querySelector('.global-language-controls')
-        ?.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      document.getElementById(language ? 'pathLevelSelect' : 'pathLanguageSelect')?.focus({
-        preventScroll: true
-      });
-    }, 50);
+    learningPathState.activeSlug = '';
+    if (window.location.hash !== '#learn') history.pushState(null, '', '#learn');
+    showView('learn');
+    showLearnState('route');
+    await loadLearningPath({
+      language: learningPathState.language,
+      level: learningPathState.level
+    });
+    learningPathState.activeSlug = '';
+    renderLearningPath();
+    window.requestAnimationFrame(() => {
+      document.getElementById('learning-path')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      document.querySelector('#learning-path h2')?.focus({ preventScroll: true });
+    });
   };
 
   switch (action) {
@@ -15015,7 +15049,7 @@ function handleHomeAction(action) {
       break;
     case 'start-free':
       openLanguageSelector();
-      showHomeToast('Elige idioma y nivel para comenzar.');
+      showHomeToast('Elige el idioma que deseas aprender.');
       break;
     case 'goals':
       goTo('goals', 'Elige o gestiona tu objetivo.');
@@ -15053,16 +15087,16 @@ function handleHomeAction(action) {
       showHomeToast('Elige un idioma para ver su ruta completa.');
       break;
     case 'explore-english':
-      openLanguageSelector('english');
-      showHomeToast('English seleccionado. Elige tu nivel.');
+      void openLanguageRoute('english');
+      showHomeToast('English seleccionado. Explora su ruta y elige tu nivel.');
       break;
     case 'explore-frances':
-      openLanguageSelector('french');
-      showHomeToast('Français seleccionado. Elige tu nivel.');
+      void openLanguageRoute('french');
+      showHomeToast('Français seleccionado. Explora su ruta y elige tu nivel.');
       break;
     case 'explore-espanol':
-      openLanguageSelector('spanish');
-      showHomeToast('Español seleccionado. Elige tu nivel.');
+      void openLanguageRoute('spanish');
+      showHomeToast('Español seleccionado. Explora su ruta y elige tu nivel.');
       break;
     default:
       break;
@@ -15249,13 +15283,19 @@ function enableHomepageActions() {
       const exerciseId = questionItem.dataset.exerciseId || '';
       const chosenKey = mcqOption.dataset.optionKey;
       const feedback = questionItem.querySelector('.mcq-feedback');
+      const lesson = learningPathState.lessons.find((item) => item.slug === slug);
+      const frenchFeedback = isFrenchExerciseFeedbackInTargetLanguage(lesson?.level);
 
       questionItem.classList.add('is-checking');
       questionItem.querySelectorAll('.mcq-option').forEach((option) => {
         option.disabled = true;
         option.setAttribute('aria-pressed', option === mcqOption ? 'true' : 'false');
       });
-      if (feedback) feedback.textContent = 'Comprobando tu respuesta…';
+      if (feedback) {
+        feedback.textContent = frenchFeedback
+          ? 'Vérification de votre réponse…'
+          : 'Comprobando tu respuesta…';
+      }
 
       try {
         const payload = exerciseId
@@ -15271,7 +15311,10 @@ function enableHomepageActions() {
           throw new Error(
             response.status === 401
               ? getExerciseAuthMessage()
-              : data.error || 'No se pudo verificar la respuesta.'
+              : data.error ||
+                (frenchFeedback
+                  ? 'Impossible de vérifier la réponse.'
+                  : 'No se pudo verificar la respuesta.')
           );
         }
 
@@ -15291,7 +15334,13 @@ function enableHomepageActions() {
         window.playExerciseFeedbackSound?.(Boolean(data.correct));
       } catch (error) {
         questionItem.classList.remove('is-checking');
-        if (feedback) feedback.textContent = error.message || 'No se pudo verificar la respuesta.';
+        if (feedback) {
+          feedback.textContent =
+            error.message ||
+            (frenchFeedback
+              ? 'Impossible de vérifier la réponse.'
+              : 'No se pudo verificar la respuesta.');
+        }
         questionItem.querySelectorAll('.mcq-option').forEach((option) => {
           option.disabled = false;
           option.setAttribute('aria-pressed', 'false');
@@ -15665,14 +15714,19 @@ function enableHomepageActions() {
         const warning = ctx.content.querySelector('.grammar-test-review-warning');
         const submit = ctx.content.querySelector('.grammar-test-submit-btn');
         if (counter) {
-          counter.textContent = isFrenchTargetLanguage()
+          counter.textContent = isFrenchExerciseFeedbackInTargetLanguage(ctx.lesson.level)
             ? `${answered} sur ${total} réponses`
-            : `${answered} of ${total} answered`;
+            : `${answered} de ${total} respuestas`;
         }
         if (progressBar) progressBar.style.width = `${progress}%`;
         if (warning) warning.hidden = answered === total;
         if (submit) submit.setAttribute('aria-disabled', String(answered !== total));
-        updateGrammarChallengeProgress(ctx.content, ctx.test, ctx.runtime, isFrenchTargetLanguage());
+        updateGrammarChallengeProgress(
+          ctx.content,
+          ctx.test,
+          ctx.runtime,
+          isFrenchExerciseFeedbackInTargetLanguage(ctx.lesson.level)
+        );
         try {
           const response = await authFetch(
             `${backendBaseUrl}/api/lessons/${ctx.lesson.slug}/check-question`,
@@ -15686,7 +15740,14 @@ function enableHomepageActions() {
             }
           );
           const data = await response.json().catch(() => ({}));
-          if (!response.ok) throw new Error(data.error || 'Could not check the answer.');
+          if (!response.ok) {
+            throw new Error(
+              data.error ||
+                (isFrenchExerciseFeedbackInTargetLanguage(ctx.lesson.level)
+                  ? 'Impossible de vérifier la réponse.'
+                  : 'No se pudo comprobar la respuesta.')
+            );
+          }
           ctx.runtime.questionResults ||= {};
           ctx.runtime.questionResults[questionId] = { correct: Boolean(data.correct) };
           renderGrammarTestView(ctx.content, ctx.lesson);
@@ -15697,7 +15758,12 @@ function enableHomepageActions() {
             window.playExerciseFeedbackSound?.(Boolean(data.correct))
           );
         } catch (error) {
-          showHomeToast(error.message || 'Could not check the answer.');
+          showHomeToast(
+            error.message ||
+              (isFrenchExerciseFeedbackInTargetLanguage(ctx.lesson.level)
+                ? 'Impossible de vérifier la réponse.'
+                : 'No se pudo comprobar la respuesta.')
+          );
         }
       }
       const listeningCtx = getListeningComprehensionContext(grammarTestOption);
@@ -15790,9 +15856,9 @@ function enableHomepageActions() {
         missingItem?.scrollIntoView({ behavior: 'smooth', block: 'center' });
         missingItem?.querySelector('input, select, button')?.focus({ preventScroll: true });
         showHomeToast(
-          isFrenchTargetLanguage()
+          isFrenchExerciseFeedbackInTargetLanguage(ctx.lesson.level)
             ? 'Il reste une question sans réponse.'
-            : 'There is still one unanswered question.'
+            : 'Queda una pregunta sin responder.'
         );
         return;
       }
@@ -15810,7 +15876,9 @@ function enableHomepageActions() {
       const { lesson, content, test, runtime } = ctx;
       grammarTestSubmitBtn.disabled = true;
       grammarTestSubmitBtn.dataset.submitting = 'true';
-      grammarTestSubmitBtn.textContent = 'Enviando...';
+      grammarTestSubmitBtn.textContent = isFrenchExerciseFeedbackInTargetLanguage(lesson.level)
+        ? 'Envoi en cours…'
+        : 'Enviando…';
 
       try {
         const answers = test.questions.map((q) => ({ questionId: q.id, answer: runtime.answers[q.id] }));
@@ -15820,7 +15888,14 @@ function enableHomepageActions() {
           body: JSON.stringify({ answers })
         });
         const data = await response.json().catch(() => ({}));
-        if (!response.ok) throw new Error(data.error || 'No se pudo enviar la prueba.');
+        if (!response.ok) {
+          throw new Error(
+            data.error ||
+              (isFrenchExerciseFeedbackInTargetLanguage(lesson.level)
+                ? 'Impossible d’envoyer l’exercice.'
+                : 'No se pudo enviar el ejercicio.')
+          );
+        }
 
         lesson.completed = true;
         if (data.bestScore != null) lesson.bestScore = data.bestScore;
@@ -15842,7 +15917,11 @@ function enableHomepageActions() {
           );
         }
         if (data.leveledUp) showCelebration(`🎉 ¡Subiste a nivel ${data.level}!`);
-        showHomeToast(`Prueba completada. +${data.earnedXp || lesson.xpReward || 20} XP`);
+        showHomeToast(
+          isFrenchExerciseFeedbackInTargetLanguage(lesson.level)
+            ? `Exercice terminé. +${data.earnedXp || lesson.xpReward || 20} XP`
+            : `Ejercicio completado. +${data.earnedXp || lesson.xpReward || 20} XP`
+        );
         celebrateActivityCompletion();
 
         runtime.lastResult = data;
@@ -15851,7 +15930,7 @@ function enableHomepageActions() {
       } catch (error) {
         grammarTestSubmitBtn.disabled = false;
         delete grammarTestSubmitBtn.dataset.submitting;
-        grammarTestSubmitBtn.textContent = isFrenchTargetLanguage()
+        grammarTestSubmitBtn.textContent = isFrenchExerciseFeedbackInTargetLanguage(ctx.lesson.level)
           ? 'Vérifier mon score de grammaire'
           : learningPathState.language === 'spanish'
             ? 'Comprobar mi puntuación de gramática'
@@ -16620,7 +16699,12 @@ async function syncGrammarReconstruction(item) {
   } else {
     delete runtime.answers[question.id];
   }
-  updateGrammarChallengeProgress(content, test, runtime, isFrenchTargetLanguage());
+  updateGrammarChallengeProgress(
+    content,
+    test,
+    runtime,
+    isFrenchExerciseFeedbackInTargetLanguage(lesson.level)
+  );
   if (order.length !== (question.items || []).length) return;
 
   try {
@@ -16633,18 +16717,38 @@ async function syncGrammarReconstruction(item) {
       }
     );
     const data = await response.json().catch(() => ({}));
-    if (!response.ok) throw new Error(data.error || 'Could not check the answer.');
+    if (!response.ok) {
+      throw new Error(
+        data.error ||
+          (isFrenchExerciseFeedbackInTargetLanguage(lesson.level)
+            ? 'Impossible de vérifier la réponse.'
+            : 'No se pudo comprobar la respuesta.')
+      );
+    }
     const correct = Boolean(data.correct);
     runtime.questionResults ||= {};
     runtime.questionResults[question.id] = { correct };
     answerZone.classList.add(correct ? 'is-correct' : 'is-incorrect');
     answerZone.insertAdjacentHTML(
       'afterend',
-      `<p class="grammar-question-feedback ${correct ? 'is-correct' : 'is-incorrect'}" role="status">${correct ? '✓ Excellent !' : '✕ Essaie une autre combinaison.'}</p>`
+      `<p class="grammar-question-feedback ${correct ? 'is-correct' : 'is-incorrect'}" role="status">${
+        correct
+          ? isFrenchExerciseFeedbackInTargetLanguage(lesson.level)
+            ? '✓ Excellent !'
+            : '✓ ¡Excelente!'
+          : isFrenchExerciseFeedbackInTargetLanguage(lesson.level)
+            ? '✕ Essaie une autre combinaison.'
+            : '✕ Prueba otra combinación.'
+      }</p>`
     );
     window.requestAnimationFrame(() => window.playExerciseFeedbackSound?.(correct));
   } catch (error) {
-    showHomeToast(error.message || 'Could not check the answer.');
+    showHomeToast(
+      error.message ||
+        (isFrenchExerciseFeedbackInTargetLanguage(lesson.level)
+          ? 'Impossible de vérifier la réponse.'
+          : 'No se pudo comprobar la respuesta.')
+    );
   }
 }
 
@@ -16714,7 +16818,6 @@ function setupLearningPathControls() {
   const languageSelect = document.getElementById('pathLanguageSelect');
   const levelSelect = document.getElementById('pathLevelSelect');
   const bridgeSelect = document.getElementById('pathBridgeSelect');
-  const lessonSelect = document.getElementById('pathLessonSelect');
 
   languageSelect?.addEventListener('change', () => {
     const level = levelSelect?.value || learningPathState.level;
@@ -16759,47 +16862,6 @@ function setupLearningPathControls() {
   document
     .getElementById('pathSwapLanguagesBtn')
     ?.addEventListener('click', () => swapLearningPathLanguages());
-  document.getElementById('pathStartLearningBtn')?.addEventListener('click', async (event) => {
-    const language = languageSelect?.value || learningPathState.language;
-    const level = levelSelect?.value || learningPathState.level;
-    const unitId = lessonSelect?.value || '';
-    const startButton = event.currentTarget;
-    startButton.disabled = true;
-    startButton.textContent = 'Abriendo rutaâ€¦';
-    const loadingPath = loadLearningPath({ language, level, restoreUnitId: unitId });
-    savePreferences(language, level);
-    if (getViewFromHash() !== 'learn') {
-      history.pushState(null, '', '#learn');
-      showView('learn');
-    }
-    document.getElementById('learning-path')?.scrollIntoView({ behavior: 'auto', block: 'start' });
-    document.querySelector('#learning-path h2')?.focus({ preventScroll: true });
-    try {
-      await loadingPath;
-      // Keep the exact unit chosen at click time. A slower language/level
-      // refresh may repopulate the selector while this request is in flight;
-      // reading its live value here could silently send the learner to unit 1.
-      const selectedUnitId = unitId || lessonSelect?.value || learningPathState.unitId;
-      if (selectedUnitId) {
-        selectUnit(selectedUnitId, { render: false });
-        const activities = getUnitActivities(selectedUnitId);
-        const firstActivity =
-          activities.find((item) => item.skill === 'reading' && !item.locked) ||
-          activities.find((item) => !item.locked) ||
-          activities[0];
-        if (firstActivity && !firstActivity.locked) {
-          openUnitSequenceStep(firstActivity.skill, firstActivity.slug);
-        } else {
-          renderLearningPath();
-        }
-      }
-    } finally {
-      startButton.disabled = false;
-      updateStartLearningButton();
-    }
-  });
-  updateStartLearningButton();
-  updatePathLessonSelect();
   updateLanguagePreviewSelection();
 }
 

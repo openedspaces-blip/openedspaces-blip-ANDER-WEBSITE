@@ -68,6 +68,18 @@ function copyFileEnsuringDir(srcPath, destPath) {
 }
 
 function main() {
+  console.log('Preparing canonical English B1-B2 Listening transcripts...');
+  execSync(
+    `node "${path.join(ROOT, 'scripts', 'prepare-english-b1-b2-audio-transcripts.js')}"`,
+    { stdio: 'inherit' }
+  );
+
+  console.log('Preparing canonical English C1-C2 Listening transcripts...');
+  execSync(
+    `node "${path.join(ROOT, 'scripts', 'prepare-english-c1-c2-audio-transcripts.js')}"`,
+    { stdio: 'inherit' }
+  );
+
   console.log('Refreshing contextual Listening questions...');
   execSync(`node "${path.join(ROOT, 'scripts', 'refresh-all-listening-comprehension.js')}"`, {
     stdio: 'inherit'

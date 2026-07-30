@@ -3228,19 +3228,19 @@ test('signed-in greeting prioritizes username and never derives identity from em
   assert.doesNotMatch(displayNameBody, /email|split\('@'\)/);
 });
 
-test('index.html: the L1 and L2 selects both offer the same three languages - neither hides the other\'s current value', () => {
+test('index.html: the homepage offers L2 languages as cards and the route owns the L1 selector', () => {
   const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
   const bridgeOptions = html.match(/<select id="pathBridgeSelect">([\s\S]*?)<\/select>/)?.[1];
-  const targetOptions = html.match(/<select id="pathLanguageSelect">([\s\S]*?)<\/select>/)?.[1];
-  assert.ok(bridgeOptions && targetOptions, 'expected both language-pair selects in index.html');
+  assert.ok(bridgeOptions, 'expected the route L1 selector in index.html');
 
   const valuesOf = (block) => [...block.matchAll(/<option value="(\w+)"/g)].map((m) => m[1]).sort();
   assert.deepEqual(valuesOf(bridgeOptions), ['english', 'french', 'spanish']);
-  assert.deepEqual(valuesOf(targetOptions), ['english', 'french', 'spanish']);
-  // No disabled/hidden attribute on any option - nothing filters out the
-  // language already chosen in the other select.
   assert.doesNotMatch(bridgeOptions, /disabled|hidden/);
-  assert.doesNotMatch(targetOptions, /disabled|hidden/);
+  assert.doesNotMatch(html, /id="pathLanguageSelect"/);
+  assert.deepEqual(
+    [...html.matchAll(/data-preview-language="(\w+)"/g)].map((match) => match[1]).sort(),
+    ['english', 'french', 'spanish']
+  );
 });
 
 test('LanguagePair.getLearningSupport(): direct mode never breaks or shows undefined/null for a word with no directSupport authored yet (spec §8 fallback)', () => {
@@ -3422,13 +3422,14 @@ test('lesson route keeps seven connected markers with current and completed stat
   assert.match(css, /\.unit-route-marker--completed/);
 });
 
-test('a selected unit expands its lessons and every skill tab stays inside that unit', () => {
+test('a selected unit reveals its activity sequence in the overview and every skill tab stays inside that unit', () => {
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
   const selectUnitBody = source.match(/function selectUnit\(unitId, options = \{\}\) \{([\s\S]*?)\n\}/)?.[1] || '';
   const renderSkillBody = source.match(/function renderSkillView\(skill\) \{([\s\S]*?)\n\}/)?.[1] || '';
   assert.match(selectUnitBody, /learningPathState\.activeSlug = ''/);
-  assert.match(source, /unitLessons\.map\(\(lesson\) => renderLessonItemHtml\(lesson, nextSlug\)\)/);
-  assert.match(source, /Selecciona tu lección/);
+  assert.match(source, /class="unit-overview-sequence"/);
+  assert.match(source, /renderUnitSequenceStepsHtml\(unit\.id\)/);
+  assert.match(source, /Elige una actividad de la derecha/);
   assert.match(renderSkillBody, /if \(!selected && learningPathState\.unitId\)/);
   assert.match(renderSkillBody, /item\.unitId === learningPathState\.unitId/);
   assert.doesNotMatch(
@@ -3512,7 +3513,8 @@ test('student journey presents practical curriculum guidance and preserves lesso
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
   const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
   const css = fs.readFileSync(path.join(__dirname, 'src', 'css', 'styles.css'), 'utf8');
-  assert.match(source, /unitLessons\.map\(\(lesson\) => renderLessonItemHtml\(lesson, nextSlug\)\)/);
+  assert.match(source, /class="unit-overview-sequence"/);
+  assert.match(source, /renderUnitSequenceStepsHtml\(unit\.id\)/);
   assert.match(source, /class="path-unit-journey">Viaje/);
   assert.match(source, /class="path-unit-reward">/);
   assert.match(source, /function getUnitArtwork\(unit = \{\}\)/);
@@ -3593,7 +3595,7 @@ test('unit and dashboard progress combine six lesson scores with persisted Verbo
   assert.match(migration, /\(select auth\.uid\(\)\) = user_id/);
 });
 
-test('homepage and printable documents use the official ANDERGO logo and language controls below the language cards', () => {
+test('homepage and printable documents use the official ANDERGO logo and route-specific controls', () => {
   const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
   assert.match(html, /class="brand-logo-symbol" role="img"/);
@@ -3603,9 +3605,9 @@ test('homepage and printable documents use the official ANDERGO logo and languag
   );
   assert.match(html, /ANDERGO Language Academy/);
   assert.ok(
-    html.indexOf('class="global-language-controls"') > html.indexOf('id="language-picker"') &&
-      html.indexOf('class="global-language-controls"') < html.indexOf('id="premium"'),
-    'language controls should sit below the available-language cards and before the plans'
+    html.indexOf('class="global-language-controls route-path-controls"') >
+      html.indexOf('id="learning-path"'),
+    'specific language controls should live inside the learning route'
   );
   assert.match(source, /class="skill-print-brand-image" src="\/andergo-logo\.png"/);
   const printHeader = source.match(/function renderSkillPrintHeaderHtml\(lesson\) \{([\s\S]*?)\n\}/)?.[1];
@@ -4130,15 +4132,13 @@ test('unit route keeps Previous/Next navigation and closes on Verbs with a full 
   assert.match(source, /unit-completion-next/);
 });
 
-test('main language controls expose a localized starting-unit selector and open its first activity', () => {
+test('homepage language cards open the route without skipping into the first activity', () => {
   const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
-  assert.match(html, /id="pathLessonSelect"/);
-  assert.equal(LanguagePair.getInterfaceLabel('lessonSelectLabel', 'spanish'), 'Unidad inicial');
-  assert.equal(LanguagePair.getInterfaceLabel('lessonSelectLabel', 'english'), 'Starting unit');
-  assert.equal(LanguagePair.getInterfaceLabel('lessonSelectLabel', 'french'), 'Unité initiale');
-  assert.match(source, /function updatePathLessonSelect\(preferredUnitId = ''\)/);
-  assert.match(source, /restoreUnitId:\s*unitId/);
-  assert.match(source, /selectUnit\(selectedUnitId,\s*\{\s*render:\s*false\s*\}\)/);
-  assert.match(source, /openUnitSequenceStep\(firstActivity\.skill,\s*firstActivity\.slug\)/);
+  assert.doesNotMatch(html, /id="pathLessonSelect"/);
+  assert.doesNotMatch(html, /id="pathStartLearningBtn"/);
+  assert.match(source, /const openLanguageRoute = async \(language\)/);
+  assert.match(source, /learningPathState\.activeSlug = ''/);
+  assert.match(source, /showLearnState\('route'\)/);
+  assert.match(source, /void openLanguageRoute\('english'\)/);
 });
