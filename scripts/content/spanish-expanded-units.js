@@ -485,12 +485,21 @@ function buildProgressiveReading(level, spec, index) {
   }
 
   const [genre, title, angle] = READING_PROFILES[level][slug];
+  const names = ['Nadia', 'Leo', 'Camila', 'Samuel', 'Irene', 'David'];
+  const places = ['la salida de clase', 'el autobús de regreso', 'la biblioteca del barrio', 'la mesa de la cocina', 'el pasillo del instituto', 'una reunión vecinal'];
+  const person = names[index % names.length];
+  const place = places[index % places.length];
+  const levelLens = level === 'B1'
+    ? 'La historia se cuenta desde lo que esa persona vio, dijo y tuvo que resolver ese día.'
+    : level === 'B2'
+      ? 'El caso conecta una decisión cotidiana con obstáculos que también afectan a otras personas de su edad.'
+      : 'El caso sirve para examinar una experiencia concreta sin perder de vista las tensiones sociales, éticas o metodológicas que la rodean.';
   const paragraphs = [
-    `${angle} Este ${genre} no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.`,
-    `La situación comienza con ${scenario.toLowerCase()}. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «${words[0]}», «${words[1]}» y «${words[2]}». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.`,
-    `El contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.`,
-    `Sin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «${words[3]}», «${words[4]}» y «${words[5]}» antes de defender una conclusión.`,
-    `La postura final propone ${objective.toLowerCase()}. Para expresarla con precisión se emplean ${grammar}. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.`
+    `Un martes, al final de ${place}, ${person} tuvo que ${scenario.toLowerCase()}. No era un ejercicio inventado: había poco tiempo, mensajes sin responder y una consecuencia concreta si elegía mal. ${angle} ${levelLens}`,
+    `${person} empezó por anotar lo que podía comprobar y por preguntar a quienes estaban implicados. En la conversación aparecieron «${words[0]}», «${words[1]}» y «${words[2]}». Cada palabra nombraba algo reconocible: una necesidad, una duda o una decisión que no podía resolverse con una frase rápida.`,
+    `La primera solución parecía cómoda, pero dejaba fuera un dato importante. Por eso ${person} volvió a leer los mensajes, comparó horarios, costes o responsabilidades y escuchó una versión que al principio no había considerado. El problema no desapareció, aunque cambió la pregunta: ya no era solo qué hacer, sino quién podía asumir el coste de hacerlo.`,
+    `En ese momento cobraron sentido «${words[3]}», «${words[4]}» y «${words[5]}». El texto no presenta a ${person} como héroe ni como culpable: muestra una decisión pequeña dentro de reglas, recursos y expectativas que otras personas también reconocen en su vida diaria.`,
+    `La salida fue ${objective.toLowerCase()}. ${person} no obtuvo una respuesta perfecta, pero pudo explicar sus razones, señalar una limitación y proponer un paso siguiente. Para narrar y matizar ese proceso se emplean ${grammar}.`
   ];
   if (['B2', 'C1', 'C2'].includes(level)) {
     paragraphs.push('También es necesario evaluar la evidencia. Un testimonio puede revelar una experiencia ignorada, pero no representa automáticamente a toda una generación; una cifra puede describir una tendencia, pero depende de la muestra y de la forma de medir. La lectura combina voces y datos sin tratarlos como pruebas intercambiables.');
