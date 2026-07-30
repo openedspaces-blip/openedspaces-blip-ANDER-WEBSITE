@@ -4506,6 +4506,16 @@ footer small {
   display: none;
 }
 
+/* Full #tutor page's own voice-mode controls (drawer's live in
+   .tutor-drawer-head instead) - a plain row above the skill tabs. */
+.tutor-voice-controls-row {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  margin: 0.75rem 0 0.5rem;
+}
+
 .tutor-conversation-toggle.is-listening {
   background: rgba(220, 38, 38, 0.1);
   border-color: #dc2626;

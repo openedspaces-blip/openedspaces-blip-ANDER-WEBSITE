@@ -10274,7 +10274,7 @@ function renderSpeakingView(section, lesson) {
             `👋 Parlons à voix haute de « ${lesson.title} ». Appuyez sur « Parler » ou écrivez quelque chose - si vous ne savez pas par où commencer, appuyez simplement sur « Envoyer » et le Tuteur vous proposera un sujet.`
           )
         });
-        setTutorConversationMode(true);
+        setTutorConversationMode(true, 'drawer');
         return;
       }
       speakingViewState.mode = btn.dataset.speakingMode;
@@ -13670,32 +13670,65 @@ function tutorDrawerFocusTrapHandler(event) {
 }
 
 // ---------------------------------------------------------------------
-// Tutor hands-free voice conversation mode (Premium-only): arms the
-// drawer's mic button to listen continuously, auto-sends after a short
-// natural pause (see startTutorDictation's continuous/silenceMs
-// options below), and automatically resume listening once the tutor's
-// spoken reply finishes (see resumeTutorConversationListening, wired from
-// sendTutorMessage/requestTutorSpeech). Off by default every time the
-// drawer opens - never persisted, so a shared/public device never keeps a
-// mic "armed" across sessions.
+// Tutor hands-free voice conversation mode (Premium-only): arms a mic button
+// to listen continuously, auto-sends after a short natural pause (see
+// startTutorDictation's continuous/silenceMs options below), and
+// automatically resumes listening once the tutor's spoken reply finishes
+// (see resumeTutorConversationListening, wired from sendTutorMessage/
+// requestTutorSpeech). Off by default every time a surface opens - never
+// persisted, so a shared/public device never keeps a mic "armed" across
+// sessions.
+//
+// Two surfaces share this same machinery: the drawer (available from
+// anywhere) and the full #tutor page's own chat. Only one can be "armed" at
+// a time (tutorConversationSurfaceKey tracks which), since they're never
+// both visible/relevant at once in practice.
 // ---------------------------------------------------------------------
+const TUTOR_CONVERSATION_SURFACES = {
+  drawer: {
+    key: 'drawer',
+    promptId: 'tutorDrawerPrompt',
+    conversationId: 'tutorDrawerConversation',
+    toggleId: 'tutorConversationToggle',
+    dictateNoteId: 'tutorDrawerDictateNote',
+    isOpen: () => document.getElementById('tutorDrawer')?.classList.contains('open')
+  },
+  main: {
+    key: 'main',
+    promptId: 'aiTutorPrompt',
+    conversationId: 'tutorConversation',
+    toggleId: 'tutorMainConversationToggle',
+    dictateNoteId: 'tutorMainDictateNote',
+    isOpen: () => {
+      const el = document.getElementById('tutorConversation');
+      return !!el && el.offsetParent !== null;
+    }
+  }
+};
+
 let tutorConversationMode = false;
+let tutorConversationSurfaceKey = null;
 const TUTOR_CONVERSATION_SILENCE_MS = 700;
 
 function tutorReplyEndsWithQuestion(text) {
   return /[?？]\s*["'»”’)\]]*\s*$/.test(String(text || '').trim());
 }
 
-// When a spoken drawer reply ends with a question, the next student turn is
-// ready immediately: the Hablar button enters its active/listening state and
-// the microphone starts. This also works outside Premium conversation mode
+// When a spoken reply ends with a question, the next student turn is ready
+// immediately: the Hablar button enters its active/listening state and the
+// microphone starts. This also works outside Premium conversation mode
 // after an explicitly played question; only the continuous hands-free loop
 // itself remains Premium.
 function activateTutorMicAfterQuestion(messageEl) {
-  if (!messageEl?.closest?.('#tutorDrawer')) return;
-  const drawer = document.getElementById('tutorDrawer');
-  if (!drawer?.classList.contains('open') || tutorDictation.status === 'listening') return;
-  startTutorDictation('tutorDrawerPrompt', {
+  const surfaceKey = messageEl?.closest?.('#tutorDrawer')
+    ? 'drawer'
+    : messageEl?.closest?.('#tutor')
+      ? 'main'
+      : null;
+  if (!surfaceKey) return;
+  const surface = TUTOR_CONVERSATION_SURFACES[surfaceKey];
+  if (!surface.isOpen() || tutorDictation.status === 'listening') return;
+  startTutorDictation(surface.promptId, {
     continuous: true,
     silenceMs: TUTOR_CONVERSATION_SILENCE_MS,
     autoSend: true
@@ -13703,31 +13736,37 @@ function activateTutorMicAfterQuestion(messageEl) {
 }
 
 function updateTutorConversationToggleUI() {
-  const toggle = document.getElementById('tutorConversationToggle');
-  if (!toggle) return;
   const premium = isPremiumUser();
-  toggle.classList.toggle('is-active', premium && tutorConversationMode);
-  toggle.setAttribute('aria-pressed', String(premium && tutorConversationMode));
-  toggle.title = premium
-    ? 'Conversar por voz: hablas y el Tutor responde automáticamente.'
-    : 'Conversar por voz es una función Premium.';
-  const badge = toggle.querySelector('.tutor-conversation-toggle-badge');
-  if (badge) badge.hidden = premium;
+  Object.values(TUTOR_CONVERSATION_SURFACES).forEach((surface) => {
+    const toggle = document.getElementById(surface.toggleId);
+    if (!toggle) return;
+    const active = premium && tutorConversationMode && tutorConversationSurfaceKey === surface.key;
+    toggle.classList.toggle('is-active', active);
+    toggle.setAttribute('aria-pressed', String(active));
+    toggle.title = premium
+      ? 'Conversar por voz: hablas y el Tutor responde automáticamente.'
+      : 'Conversar por voz es una función Premium.';
+    const badge = toggle.querySelector('.tutor-conversation-toggle-badge');
+    if (badge) badge.hidden = premium;
+  });
 }
 
-function setTutorConversationMode(enabled) {
+function setTutorConversationMode(enabled, surfaceKey = 'drawer') {
   tutorConversationMode = enabled;
+  tutorConversationSurfaceKey = enabled ? surfaceKey : null;
   if (!enabled) stopTutorDictation();
   updateTutorConversationToggleUI();
-  const note = document.getElementById('tutorDrawerDictateNote');
-  if (note) {
-    note.textContent = enabled
+  Object.values(TUTOR_CONVERSATION_SURFACES).forEach((surface) => {
+    const note = document.getElementById(surface.dictateNoteId);
+    if (!note) return;
+    const activeHere = enabled && tutorConversationSurfaceKey === surface.key;
+    note.textContent = activeHere
       ? 'Modo conversación activo: habla y el Tutor te responderá en voz automáticamente. Pulsa "Hablar" para empezar.'
       : 'Tu voz se convierte en texto y no se conserva.';
-  }
+  });
 }
 
-function handleTutorConversationToggleClick() {
+function handleTutorConversationToggleClick(surfaceKey = 'drawer') {
   if (!isPremiumUser()) {
     openPaywallModal({
       title: 'Conversar por voz es Premium',
@@ -13737,18 +13776,20 @@ function handleTutorConversationToggleClick() {
     });
     return;
   }
-  setTutorConversationMode(!tutorConversationMode);
+  const enabling = !(tutorConversationMode && tutorConversationSurfaceKey === surfaceKey);
+  setTutorConversationMode(enabling, surfaceKey);
 }
 
 // Restarts listening once the tutor's spoken reply has finished playing (or
 // immediately if there was nothing to play) - only while conversation mode
-// is still armed and the drawer is still open, so closing the drawer or
-// turning the mode off mid-reply never leaves a stray recognizer running.
+// is still armed and its surface is still open/visible, so closing the
+// drawer, navigating away from the full Tutor page, or turning the mode off
+// mid-reply never leaves a stray recognizer running.
 function resumeTutorConversationListening() {
-  if (!tutorConversationMode) return;
-  const drawer = document.getElementById('tutorDrawer');
-  if (!drawer || !drawer.classList.contains('open')) return;
-  startTutorDictation('tutorDrawerPrompt', {
+  if (!tutorConversationMode || !tutorConversationSurfaceKey) return;
+  const surface = TUTOR_CONVERSATION_SURFACES[tutorConversationSurfaceKey];
+  if (!surface.isOpen()) return;
+  startTutorDictation(surface.promptId, {
     continuous: true,
     silenceMs: TUTOR_CONVERSATION_SILENCE_MS,
     autoSend: true
@@ -14014,12 +14055,15 @@ async function sendTutorMessage({
     // (§3 of the Tutor voice spec) without delaying sendTutorMessage's own
     // return or re-enabling of sendBtn below. requestTutorSpeech's own
     // NotAllowedError handling covers a browser blocking this autoplay.
-    // The Premium hands-free conversation mode (drawer only) always speaks
-    // the reply regardless of the general autoplay preference - "conversar"
-    // wouldn't be hands-free otherwise - and resumes listening once that
-    // reply finishes playing (resumeTutorConversationListening).
-    const isDrawerConversation = conversationEl?.id === 'tutorDrawerConversation';
-    const shouldForceSpeech = isDrawerConversation && tutorConversationMode;
+    // The Premium hands-free conversation mode (drawer or full Tutor page)
+    // always speaks the reply regardless of the general autoplay preference
+    // - "conversar" wouldn't be hands-free otherwise - and resumes listening
+    // once that reply finishes playing (resumeTutorConversationListening).
+    const conversationSurface = Object.values(TUTOR_CONVERSATION_SURFACES).find(
+      (surface) => surface.conversationId === conversationEl?.id
+    );
+    const shouldForceSpeech =
+      !!conversationSurface && tutorConversationMode && tutorConversationSurfaceKey === conversationSurface.key;
     if (messageEl && (getTutorAutoplayPref() || shouldForceSpeech) && messageEl.querySelector('.tutor-voice-controls')) {
       requestTutorSpeech(messageEl, {
         auto: true,
@@ -16754,16 +16798,27 @@ function enableHomepageActions() {
     document.getElementById('tutorDrawerSend')?.click();
   });
 
-  const autoplayToggle = document.getElementById('tutorAutoplayToggle');
-  if (autoplayToggle) {
-    autoplayToggle.checked = getTutorAutoplayPref();
-    autoplayToggle.addEventListener('change', () => {
-      setTutorAutoplayPref(autoplayToggle.checked);
+  // Two autoplay checkboxes (drawer + full Tutor page) share the same
+  // localStorage preference - keep both in sync whenever either changes.
+  const autoplayToggleIds = ['tutorAutoplayToggle', 'tutorMainAutoplayToggle'];
+  const autoplayToggles = autoplayToggleIds
+    .map((id) => document.getElementById(id))
+    .filter(Boolean);
+  autoplayToggles.forEach((toggle) => {
+    toggle.checked = getTutorAutoplayPref();
+    toggle.addEventListener('change', () => {
+      setTutorAutoplayPref(toggle.checked);
+      autoplayToggles.forEach((other) => {
+        if (other !== toggle) other.checked = toggle.checked;
+      });
     });
-  }
+  });
 
   document.getElementById('tutorConversationToggle')?.addEventListener('click', () => {
-    handleTutorConversationToggleClick();
+    handleTutorConversationToggleClick('drawer');
+  });
+  document.getElementById('tutorMainConversationToggle')?.addEventListener('click', () => {
+    handleTutorConversationToggleClick('main');
   });
 
   document.addEventListener('input', (event) => {

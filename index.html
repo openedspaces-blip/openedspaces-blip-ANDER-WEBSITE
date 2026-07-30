@@ -970,6 +970,27 @@
           >
         </div>
 
+        <div class="tutor-voice-controls-row">
+          <button
+            type="button"
+            class="tutor-conversation-toggle"
+            id="tutorMainConversationToggle"
+            aria-pressed="false"
+            title="Conversar por voz (Premium)"
+          >
+            🎧 Conversar <span class="tutor-conversation-toggle-badge">Premium</span>
+          </button>
+          <label class="tutor-autoplay-toggle" title="Reproducir respuestas automáticamente">
+            <input
+              type="checkbox"
+              id="tutorMainAutoplayToggle"
+              checked
+              aria-label="Reproducir respuestas automáticamente"
+            />
+            🔊 Auto
+          </label>
+        </div>
+
         <p class="tutor-usage-counter" id="tutorUsageCounter" aria-live="polite"></p>
 
         <div class="skill-tabs is-open">
@@ -1065,7 +1086,7 @@
             enviar, Shift+Enter para salto de línea.
           </p>
           <p class="tutor-dictate-status" id="aiTutorPromptDictateStatus" aria-live="polite"></p>
-          <p class="tutor-dictate-note">Tu voz se convierte en texto y no se conserva.</p>
+          <p class="tutor-dictate-note" id="tutorMainDictateNote">Tu voz se convierte en texto y no se conserva.</p>
           <div class="tutor-buttons">
             <button
               type="button"
