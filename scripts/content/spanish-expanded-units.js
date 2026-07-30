@@ -101,6 +101,68 @@ const LEVEL_CURRICULUM = {
   }
 };
 
+// Editorial identity for every independent/advanced Reading. The curriculum
+// data supplies the grammar and vocabulary; these profiles supply a real
+// subject, genre and point of tension instead of the former shared template.
+const READING_PROFILES = {
+  B1: {
+    'historias-personales': ['testimonio', 'El día en que cambié de opinión', 'Una estudiante cuenta cómo llegar a una escuela nueva transformó su idea de pertenencia y le enseñó a escuchar experiencias distintas de la suya.'],
+    'trabajo-y-talento': ['reportaje', '¿Qué cuenta como experiencia en el primer empleo?', 'Un grupo de jóvenes compara prácticas, voluntariado, trabajos informales y proyectos personales mientras se prepara para entrar en un mercado laboral incierto.'],
+    'viajes-con-imprevistos': ['crónica', 'Veinticuatro horas lejos de casa', 'La cancelación de un viaje obliga a varios estudiantes a organizarse, reclamar información y ayudar a otras personas sin convertir el problema en una aventura idealizada.'],
+    'medios-y-noticias': ['editorial', 'Antes de compartir ese titular', 'Una noticia viral sobre un instituto cambia de significado cuando el alumnado localiza la fuente original, la fecha y el contexto ausente en la publicación.'],
+    'relaciones-y-convivencia': ['testimonio', 'Cuando el grupo de chat nunca se calla', 'Una adolescente aprende a establecer límites digitales sin abandonar a sus amistades ni interpretar cada silencio como rechazo.'],
+    'consumo-responsable': ['reportaje', 'La camiseta barata tiene una historia', 'Un club escolar sigue el recorrido de una prenda y descubre que precio, duración, condiciones de producción y residuos forman parte de una misma decisión.'],
+    'cultura-y-tradiciones': ['crónica histórica', 'Una tradición que cambia para seguir viva', 'Tres generaciones describen la transformación de una celebración local y debaten qué representa memoria compartida y qué puede renovarse.'],
+    'educacion-y-metas': ['editorial', 'Elegir una carrera sin tener toda la vida resuelta', 'El texto cuestiona que una decisión tomada a los diecisiete años deba fijar para siempre el futuro académico y profesional.'],
+    'medioambiente-local': ['reportaje comunitario', 'El patio escolar que dejó de ser una isla de calor', 'Estudiantes miden sombra, temperatura y uso del espacio antes de proponer árboles, agua y zonas de descanso para su comunidad.'],
+    'salud-y-habitos': ['artículo divulgativo', 'Dormir no es perder el tiempo', 'La presión académica, las notificaciones y los horarios irregulares se examinan como problema colectivo, además de hábito personal.'],
+    'servicios-y-reclamaciones': ['crónica de consumo', 'La suscripción que era fácil activar y difícil cancelar', 'Una joven documenta cargos, capturas y respuestas automáticas para convertir su frustración en una reclamación verificable.'],
+    'proyecto-comunitario': ['reportaje', 'Una biblioteca vacía vuelve a tener voz', 'Un grupo juvenil transforma un espacio infrautilizado en lugar de estudio, creación y encuentro mediante una propuesta con presupuesto.']
+  },
+  B2: {
+    'identidad-digital': ['ensayo argumentativo', '¿Somos nuestro perfil?', 'La identidad digital amplía la expresión personal, pero también convierte gustos, errores y relaciones en datos persistentes que otros interpretan fuera de contexto.'],
+    'ciudades-sostenibles': ['editorial urbano', 'Moverse por la ciudad sin quedar fuera', 'Una propuesta de movilidad juvenil confronta emisiones, seguridad, accesibilidad, tiempo de viaje y desigualdad entre barrios.'],
+    'trabajo-del-futuro': ['artículo de análisis', 'Prepararse para empleos que todavía están cambiando', 'La automatización y la inteligencia artificial no sustituyen todas las tareas de la misma manera; evaluar herramientas importa tanto como utilizarlas.'],
+    'desinformacion': ['investigación breve', 'La anatomía de un video viral', 'Un video recortado parece demostrar una acusación hasta que se comparan la grabación completa, la fuente primaria, la fecha y los incentivos de difusión.'],
+    'turismo-y-comunidad': ['editorial', 'La ciudad que todos visitan y pocos pueden habitar', 'El éxito turístico aumenta ingresos y empleo, pero también presiona alquileres, servicios y espacios cotidianos de la población residente.'],
+    'educacion-digital': ['debate educativo', 'Aprender con IA sin entregar el pensamiento', 'La inteligencia artificial ofrece apoyo personalizado junto a riesgos de dependencia, privacidad, sesgo y desigualdad de acceso.'],
+    'alimentacion-y-sociedad': ['reportaje social', 'Comer bien no depende solo de elegir bien', 'Precio, tiempo, transporte, publicidad y oferta local condicionan decisiones alimentarias presentadas a menudo como exclusivamente individuales.'],
+    'arte-y-espacio-publico': ['crítica cultural', '¿De quién es la pared?', 'La creación de un mural abre una discusión sobre memoria barrial, libertad artística, financiación y participación en el paisaje común.'],
+    'ciencia-y-etica': ['artículo de divulgación', 'Innovar antes de conocer todas las consecuencias', 'Una tecnología prometedora obliga a distinguir capacidad técnica, beneficio probable, riesgo, consentimiento y distribución justa.'],
+    'vivienda-y-desigualdad': ['editorial económico', 'Empezar la vida adulta sin poder salir de casa', 'El alquiler, los salarios iniciales y la concentración de oportunidades urbanas retrasan la independencia de muchos jóvenes.'],
+    'lenguaje-e-inclusion': ['ensayo', 'Las palabras también negocian pertenencia', 'Los cambios lingüísticos expresan identidad y reconocimiento, pero su aceptación depende del contexto, la comunidad y las relaciones de poder.'],
+    'foro-de-propuestas': ['discurso cívico', 'Una propuesta juvenil que resiste preguntas difíciles', 'Un foro escolar exige pasar de consignas atractivas a objetivos medibles, evidencias pertinentes, costes transparentes y objeciones legítimas.']
+  },
+  C1: {
+    'memoria-y-relato': ['ensayo testimonial', 'Recordar no es reproducir', 'Dos testimonios sobre una protesta estudiantil coinciden en los hechos centrales, pero difieren en silencios, emociones y responsabilidades.'],
+    'retorica-publica': ['análisis discursivo', 'La promesa detrás del pronombre “nosotros”', 'Un discurso dirigido a la juventud construye comunidad mediante metáforas, presuposiciones y oposiciones que deben analizarse antes de aceptar su conclusión.'],
+    'periodismo-de-investigacion': ['reportaje de investigación', 'Seguir el rastro de una decisión automatizada', 'Documentos, entrevistas y registros técnicos permiten examinar por qué una plataforma educativa clasificó de manera desigual a distintos estudiantes.'],
+    'justicia-y-reparacion': ['ensayo histórico', 'Cuando reconocer el daño no basta', 'Una comunidad debate cómo combinar memoria, restitución, responsabilidad institucional y garantías de no repetición tras una exclusión histórica.'],
+    'innovacion-responsable': ['artículo científico-social', 'La innovación también necesita frenos revisables', 'Una herramienta de IA en escuelas permite analizar beneficio, sesgo, supervisión humana y precaución sin entusiasmo ni rechazo absolutos.'],
+    'literatura-y-voz': ['crítica literaria', 'La narradora que duda de su propio recuerdo', 'Un relato contemporáneo utiliza ironía, ritmo y distancia para mostrar que la identidad narrativa se construye también con vacíos y contradicciones.'],
+    'economia-y-cuidados': ['ensayo social', 'El trabajo que sostiene el día y desaparece de las cuentas', 'Testimonios juveniles muestran cómo cuidar hermanos, mayores y hogares distribuye tiempo, oportunidades educativas y carga emocional.'],
+    'diversidad-del-espanol': ['artículo sociolingüístico', 'Hablar distinto no es hablar peor', 'Variantes caribeñas, andinas y rioplatenses permiten examinar prestigio, identidad, adecuación y prejuicio sin establecer jerarquías.'],
+    'diplomacia-y-negociacion': ['estudio de caso', 'Ceder sin renunciar al problema', 'Dos organizaciones juveniles con prioridades incompatibles ensayan reformulación, reconocimiento y concesiones verificables.'],
+    'critica-cultural': ['reseña ensayística', 'Una serie juvenil que convierte la ansiedad en espectáculo', 'La crítica valora actuación y estructura, pero pregunta qué ocurre cuando el sufrimiento se vuelve recurso narrativo repetible.'],
+    'politicas-publicas': ['informe analítico', 'Medir una política sin confundir actividad con resultado', 'Un programa de becas parece exitoso por su cobertura, aunque evaluar exige separar participación, permanencia, aprendizaje y selección.'],
+    'coloquio-academico': ['ponencia', 'Defender una tesis que todavía puede cambiar', 'Una investigación sobre hábitos digitales juveniles presenta método, hallazgos, límites y objeciones: rigor no equivale a certeza absoluta.']
+  },
+  C2: {
+    'ambiguedad-y-sentido': ['ensayo hermenéutico', 'Lo que el texto decide no decidir', 'Una pieza admite lecturas incompatibles porque distribuye referentes, silencios y tiempos verbales sin resolver deliberadamente su relación.'],
+    'humor-e-ironia': ['ensayo pragmático', 'Reírse con alguien o reírse de alguien', 'Una sátira viral revela que la ironía depende de conocimiento compartido, posición social, circulación y posibilidad de respuesta.'],
+    'traduccion-y-mediacion': ['ensayo de traducción', 'Lo intraducible no significa lo incomunicable', 'Mediar un concepto cultural exige decidir qué explicar, qué conservar y qué pérdida reconocer según destinatario, género y propósito.'],
+    'filosofia-del-lenguaje': ['ensayo filosófico', 'Nombrar una categoría también la transforma', 'Las palabras no solo etiquetan una realidad estable: organizan semejanzas, fronteras e inferencias que después parecen naturales.'],
+    'analisis-juridico': ['comentario jurídico', 'La misma norma, dos obligaciones posibles', 'La lectura literal y la finalista producen alcances distintos y obligan a justificar precedente, excepción y restricción.'],
+    'edicion-de-estilo': ['taller crítico', 'Corregir sin borrar a quien escribe', 'Editar un ensayo juvenil muestra que precisión, cohesión y ritmo pueden mejorar sin uniformar la voz ni convertir toda rareza en error.'],
+    'debate-epistemico': ['ensayo epistemológico', 'Qué podemos afirmar cuando la evidencia no alcanza', 'Datos incompletos permiten varias inferencias plausibles, pero no autorizan el mismo grado de certeza para todas.'],
+    'estetica-y-interpretacion': ['ensayo comparado', 'Una obra, tres marcos críticos', 'Las interpretaciones formal, histórica y decolonial producen preguntas distintas sin que su coexistencia las vuelva equivalentes.'],
+    'discurso-cientifico': ['artículo de metaciencia', 'Traducir un hallazgo sin fabricar certeza', 'Divulgar resultados sobre aprendizaje y cerebro exige distinguir muestra, correlación, mecanismo, limitación y replicabilidad.'],
+    'mediacion-de-conflictos': ['análisis de negociación', 'Cambiar el marco antes de buscar el acuerdo', 'Un conflicto universitario se desbloquea cuando las posiciones públicas se reformulan como necesidades y criterios verificables.'],
+    'ensayo-de-alta-exigencia': ['ensayo académico', 'La atención como recurso político y económico', 'Plataformas, instituciones y usuarios compiten por una atención limitada cuya distribución afecta autonomía, aprendizaje y democracia.'],
+    'defensa-y-sintesis': ['defensa académica', 'Sostener una conclusión sin clausurar el debate', 'Un panel experto exige integrar fuentes divergentes, reconocer incertidumbre y explicar qué evidencia modificaría la tesis.']
+  }
+};
+
 const SKILL_DEFAULTS = {
   reading: [18, 35],
   listening: [14, 30],
@@ -375,15 +437,111 @@ function grammarTest(level, slug, grammar, exercises) {
   };
 }
 
+const SPANISH_REFERENCE_LIBRARY = {
+  adolescentMentalHealth: { author: 'Organización Mundial de la Salud', title: 'Salud mental del adolescente', year: 2025, url: 'https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health' },
+  teensScreens: { author: 'OMS Europa', title: 'Teens, screens and mental health', year: 2024, url: 'https://www.who.int/europe/news-room/25-09-2024-teens--screens-and-mental-health' },
+  socialConnection: { author: 'Organización Mundial de la Salud', title: 'WHO Commission on Social Connection', year: 2025, url: 'https://www.who.int/groups/commission-on-social-connection' },
+  aiStudents: { author: 'UNESCO', title: 'AI competency framework for students', year: 2024, url: 'https://www.unesco.org/en/articles/ai-competency-framework-students' },
+  mediaLiteracy: { author: 'UNESCO', title: 'Media and Information Literacy', year: 2026, url: 'https://www.unesco.org/en/media-information-literacy' },
+  educationTrends: { author: 'OCDE', title: 'Trends Shaping Education 2025', year: 2025, url: 'https://www.oecd.org/en/publications/2025/01/trends-shaping-education-2025_3069cbd2/full-report/work-and-progress_423e3500.html' }
+};
+
+const READING_REFERENCE_KEYS = {
+  'medios-y-noticias': ['mediaLiteracy'],
+  'salud-y-habitos': ['teensScreens', 'adolescentMentalHealth'],
+  'trabajo-del-futuro': ['educationTrends'],
+  desinformacion: ['mediaLiteracy'],
+  'educacion-digital': ['aiStudents'],
+  'vivienda-y-desigualdad': ['educationTrends'],
+  'periodismo-de-investigacion': ['mediaLiteracy'],
+  'innovacion-responsable': ['aiStudents'],
+  'economia-y-cuidados': ['educationTrends'],
+  'politicas-publicas': ['educationTrends'],
+  'coloquio-academico': ['teensScreens', 'adolescentMentalHealth'],
+  'humor-e-ironia': ['mediaLiteracy'],
+  'discurso-cientifico': ['aiStudents'],
+  'ensayo-de-alta-exigencia': ['teensScreens', 'socialConnection'],
+  'defensa-y-sintesis': ['educationTrends']
+};
+
+function readingReferences(slug) {
+  return (READING_REFERENCE_KEYS[slug] || []).map((key) => SPANISH_REFERENCE_LIBRARY[key]);
+}
+
+function buildProgressiveReading(level, spec, index) {
+  const [slug, unitTitle, scenario, objective, grammar, words] = spec;
+  if (level === 'A2') {
+    const narrator = index % 2 ? 'Lucía' : 'Mateo';
+    return {
+      title: `${unitTitle}: una situación cotidiana`,
+      genre: 'relato personal',
+      references: [],
+      text: [
+        `Me llamo ${narrator} y esta semana necesito ${scenario.toLowerCase()}. No quiero resolverlo con prisa, porque también deseo ${objective.toLowerCase()}. Primero observo la situación, anoto lo que ya sé y preparo las preguntas que debo hacer.`,
+        `Durante la actividad uso palabras importantes como «${words[0]}», «${words[1]}» y «${words[2]}». También aparecen «${words[3]}», «${words[4]}» y «${words[5]}» cuando explico los detalles. La primera opción no funciona como esperaba, así que comparo otra posibilidad y pido una aclaración antes de decidir.`,
+        `Al final encuentro una solución práctica y explico los pasos en orden. Para hacerlo aplico ${grammar}. La experiencia me ayuda a hablar con más seguridad y a comprobar que pedir información clara puede evitar errores. La próxima vez podré actuar con mayor autonomía.`
+      ].join('\n\n')
+    };
+  }
+
+  const [genre, title, angle] = READING_PROFILES[level][slug];
+  const paragraphs = [
+    `${angle} Este ${genre} no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.`,
+    `La situación comienza con ${scenario.toLowerCase()}. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «${words[0]}», «${words[1]}» y «${words[2]}». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.`,
+    `El contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.`,
+    `Sin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «${words[3]}», «${words[4]}» y «${words[5]}» antes de defender una conclusión.`,
+    `La postura final propone ${objective.toLowerCase()}. Para expresarla con precisión se emplean ${grammar}. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.`
+  ];
+  if (['B2', 'C1', 'C2'].includes(level)) {
+    paragraphs.push('También es necesario evaluar la evidencia. Un testimonio puede revelar una experiencia ignorada, pero no representa automáticamente a toda una generación; una cifra puede describir una tendencia, pero depende de la muestra y de la forma de medir. La lectura combina voces y datos sin tratarlos como pruebas intercambiables.');
+  }
+  if (['C1', 'C2'].includes(level)) {
+    paragraphs.push('Desde una perspectiva metodológica, la tesis conserva un carácter revisable. El análisis explicita sus límites, considera una objeción plausible y señala qué información adicional podría modificar la conclusión. Esa cautela no equivale a indecisión: es responsabilidad académica frente a problemas complejos.');
+  }
+  if (level === 'C2') {
+    paragraphs.push('Queda una dificultad epistemológica. Las categorías que organizan el debate también producen efectos: vuelven visibles ciertos daños y dejan otros en segundo plano. El lector experto examina no solo si la inferencia es válida, sino qué presupone su vocabulario, a quién concede autoridad y bajo qué condiciones podría trasladarse a otro contexto.');
+  }
+  return { title, genre, text: paragraphs.join('\n\n'), references: readingReferences(slug) };
+}
+
+function buildReadingExercises(level, spec, readingContent) {
+  const [, unitTitle, scenario, objective, grammar, words] = spec;
+  if (level === 'A2') {
+    return [
+      q('¿Qué situación necesita resolver la persona que narra?', [scenario, 'Preparar un examen sin instrucciones', 'Organizar una competición deportiva', 'Cambiar de escuela'], 0, 'El primer párrafo presenta la situación cotidiana de la unidad.'),
+      q('¿Qué hace antes de decidir?', ['Elige la primera opción', 'Observa, anota y prepara preguntas', 'Pide a otra persona que decida', 'Abandona la actividad'], 1, 'La persona organiza la información antes de actuar.'),
+      q('¿Por qué compara otra posibilidad?', ['La primera opción no funciona como esperaba', 'Quiere gastar más dinero', 'Olvida el objetivo', 'No comprende ninguna palabra'], 0, 'El segundo párrafo explica por qué cambia de estrategia.'),
+      q('¿Qué consigue al final?', ['Una solución práctica y más autonomía', 'Una respuesta memorizada', 'Evitar toda conversación', 'Resolver un problema diferente'], 0, 'La conclusión relaciona la solución con mayor seguridad y autonomía.'),
+      q('¿Qué recurso gramatical aplica para explicar los pasos?', [grammar, 'Solo nombres propios', 'El alfabeto aislado', 'Únicamente números'], 0, `La lectura integra explícitamente ${grammar}.`)
+    ];
+  }
+
+  const exercises = [
+    q('¿Qué tipo de texto estás leyendo?', [readingContent.genre, 'manual de instrucciones', 'anuncio comercial', 'diálogo teatral'], 0, `La lectura se presenta como ${readingContent.genre}.`),
+    q('¿Qué enfoque adopta el texto?', ['Relaciona decisiones personales, condiciones sociales y contexto', 'Culpa únicamente a una persona', 'Presenta una solución sin examinarla', 'Enumera palabras sin conectarlas'], 0, 'La lectura estudia el problema desde más de una escala.'),
+    q('¿Para qué incorpora un contexto histórico o social?', ['Para evitar explicaciones aisladas y distinguir causas', 'Para sustituir el tema principal', 'Para añadir fechas sin función', 'Para demostrar que nada puede cambiar'], 0, 'El contexto permite comprender cómo se formaron las condiciones actuales.'),
+    q('¿Cómo relaciona responsabilidad personal y factores estructurales?', ['Considera ambos sin tratarlos como opuestos', 'Elimina toda responsabilidad personal', 'Niega la influencia institucional', 'Afirma que son exactamente lo mismo'], 0, 'El texto combina acciones concretas con cambios en las condiciones.'),
+    q('¿Qué propósito tiene la conclusión?', [objective, `Definir de memoria el tema «${unitTitle}»`, 'Cerrar el debate sin razones', 'Repetir literalmente el primer párrafo'], 0, 'La conclusión recupera el objetivo comunicativo de la unidad.')
+  ];
+
+  if (['B2', 'C1', 'C2'].includes(level)) {
+    exercises.push(q('¿Qué precaución propone al interpretar la evidencia?', ['Distinguir entre una experiencia y una tendencia general', 'Aceptar cualquier cifra sin revisar su origen', 'Descartar todos los testimonios', 'Usar una sola fuente para decidir'], 0, 'Un testimonio y un dato aportan evidencias distintas y deben contextualizarse.'));
+  }
+  if (['C1', 'C2'].includes(level)) {
+    exercises.push(q('¿Por qué la tesis se presenta como revisable?', ['Porque reconoce límites y nueva evidencia posible', 'Porque carece de una postura', 'Porque evita formular conclusiones', 'Porque todas las interpretaciones son idénticas'], 0, 'La revisión razonada es una práctica de responsabilidad académica.'));
+  }
+  if (level === 'C2') {
+    exercises.push(q('¿Qué dificultad epistemológica añade el texto?', ['Las categorías del debate también determinan qué se vuelve visible', 'El vocabulario no influye en ninguna interpretación', 'Toda inferencia válida sirve en cualquier contexto', 'La autoridad de las fuentes es siempre equivalente'], 0, 'El nivel C2 examina los supuestos y efectos del propio marco conceptual.'));
+  }
+  return exercises;
+}
+
 function buildUnit(level, spec, index) {
   const [slug, title, scenario, objective, grammar, words] = spec;
   const person = index % 2 ? 'Lucía' : 'Mateo';
   const authoredListening = level === 'A2' ? A2_LISTENING_SCRIPTS[slug] : null;
-  const text = [
-    `${person} participa en una situación relacionada con ${title.toLowerCase()}. Su reto es ${scenario.toLowerCase()}. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.`,
-    `La primera opción parece sencilla, pero no responde a todas las necesidades. ${person} compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.`,
-    `Finalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.`
-  ].join('\n\n');
+  const readingContent = buildProgressiveReading(level, spec, index);
+  const text = readingContent.text;
   const fallbackDialogue = [
     [person, `Necesitamos hablar sobre ${title.toLowerCase()}. ¿Qué información tenemos?`],
     ['Alex', 'Tenemos varias opciones, pero debemos compararlas con cuidado.'],
@@ -393,12 +551,7 @@ function buildUnit(level, spec, index) {
   const listeningLines = authoredListening?.dialogue || fallbackDialogue;
   const listeningDialogue = authoredListening?.transcript ? [] : listeningLines.map(([speaker, line]) => ({ speaker, line }));
   const listeningTranscript = authoredListening?.transcript || listeningDialogue.map(({ speaker, line }) => `${speaker}: ${line}`).join(' ');
-  const readingExercises = [
-    q(`¿Cuál es el reto principal de ${person}?`, [scenario, 'Memorizar una lista sin contexto', 'Evitar toda conversación', 'Cambiar de tema'], 0, 'El primer párrafo presenta directamente el reto.'),
-    q('¿Qué hace antes de elegir una opción?', ['Decide al azar', 'Compara alternativas y consecuencias', 'Copia una respuesta', 'Ignora a las demás personas'], 1, 'El texto destaca la comparación razonada.'),
-    q('¿Qué distingue durante el proceso?', ['Hechos y opiniones', 'Singular y plural solamente', 'Nombres y fechas', 'Vocales y consonantes'], 0, 'La lectura diferencia datos comprobables y opiniones.'),
-    q('¿Cómo es la propuesta final?', ['Improvisada y absoluta', 'Razonada y abierta a nueva información', 'Ajena al problema', 'Idéntica a la primera opción'], 1, 'La conclusión conserva razones y reconoce posibles cambios.')
-  ];
+  const readingExercises = buildReadingExercises(level, spec, readingContent);
   const genericListeningExercises = [
     q('¿Qué propone hacer primero la conversación?', ['Decidir inmediatamente', 'Aclarar el objetivo', 'Cancelar la actividad', 'Buscar otro tema'], 1, 'Los hablantes acuerdan aclarar primero el objetivo.'),
     q('¿Cómo quieren presentar la propuesta?', ['Sin razones', 'Con razones claras', 'Solo por escrito', 'Como una orden'], 1, 'Alex menciona explícitamente razones claras.'),
@@ -441,14 +594,15 @@ function buildUnit(level, spec, index) {
     },
     activities: {
       reading: activity('reading', {
-        title: `Lectura · ${title}`,
-        description: `Comprende una situación sobre ${title.toLowerCase()}.`,
-        intro: `Lee para identificar el reto, las alternativas y la conclusión.`,
+        title: readingContent.title,
+        description: `${readingContent.genre}: ${title.toLowerCase()}.`,
+        intro: `Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.`,
         mission: objective,
         reading: {
-          title: scenario,
+          title: readingContent.title,
           text,
-          questions: readingExercises.slice(0, 3).map((item) => item.prompt)
+          questions: readingExercises.slice(0, 3).map((item) => item.prompt),
+          references: readingContent.references
         },
         exercises: readingExercises
       }),

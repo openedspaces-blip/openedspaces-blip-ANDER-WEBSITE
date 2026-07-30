@@ -103,11 +103,11 @@
     ],
     "reading": {
       "title": "Español A2 Reading",
-      "text": "Lucía participa en una situación relacionada con planes y proyectos. Su reto es coordinar un proyecto de grupo. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Lucía compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "text": "Me llamo Lucía y esta semana necesito coordinar un proyecto de grupo. No quiero resolverlo con prisa, porque también deseo proponer, negociar y acordar planes. Primero observo la situación, anoto lo que ya sé y preparo las preguntas que debo hacer.\n\nDurante la actividad uso palabras importantes como «propuesta», «tarea» y «equipo». También aparecen «acuerdo», «fecha» y «resultado» cuando explico los detalles. La primera opción no funciona como esperaba, así que comparo otra posibilidad y pido una aclaración antes de decidir.\n\nAl final encuentro una solución práctica y explico los pasos en orden. Para hacerlo aplico futuro próximo y expresiones de acuerdo. La experiencia me ayuda a hablar con más seguridad y a comprobar que pedir información clara puede evitar errores. La próxima vez podré actuar con mayor autonomía.",
       "questions": [
-        "¿Cuál es el reto principal de Lucía?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
+        "¿Qué situación necesita resolver la persona que narra?",
+        "¿Qué hace antes de decidir?",
+        "¿Por qué compara otra posibilidad?"
       ]
     }
   },
@@ -157,11 +157,11 @@
     ],
     "reading": {
       "title": "Español B1 Reading",
-      "text": "Lucía participa en una situación relacionada con proyecto comunitario. Su reto es presentar una iniciativa vecinal. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Lucía compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "text": "Un grupo juvenil transforma un espacio infrautilizado en lugar de estudio, creación y encuentro mediante una propuesta con presupuesto. Este reportaje no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con presentar una iniciativa vecinal. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «iniciativa», «voluntariado» y «presupuesto». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «participación», «beneficio» y «propuesta» antes de defender una conclusión.\n\nLa postura final propone integrar información y persuadir a un grupo. Para expresarla con precisión se emplean conectores de finalidad y contraste. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.",
       "questions": [
-        "¿Cuál es el reto principal de Lucía?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
       ]
     }
   },
@@ -211,11 +211,11 @@
     ],
     "reading": {
       "title": "Español B2 Reading",
-      "text": "Lucía participa en una situación relacionada con foro de propuestas. Su reto es presentar una solución a un problema público. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Lucía compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "text": "Un foro escolar exige pasar de consignas atractivas a objetivos medibles, evidencias pertinentes, costes transparentes y objeciones legítimas. Este discurso cívico no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con presentar una solución a un problema público. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «planteamiento», «evidencia» y «objeción». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «viabilidad», «alcance» y «consenso» antes de defender una conclusión.\n\nLa postura final propone sintetizar evidencias y responder objeciones. Para expresarla con precisión se emplean marcadores discursivos complejos. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.\n\nTambién es necesario evaluar la evidencia. Un testimonio puede revelar una experiencia ignorada, pero no representa automáticamente a toda una generación; una cifra puede describir una tendencia, pero depende de la muestra y de la forma de medir. La lectura combina voces y datos sin tratarlos como pruebas intercambiables.",
       "questions": [
-        "¿Cuál es el reto principal de Lucía?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
       ]
     }
   },
@@ -265,11 +265,11 @@
     ],
     "reading": {
       "title": "Español C1 Reading",
-      "text": "Lucía participa en una situación relacionada con coloquio académico. Su reto es defender una tesis ante preguntas críticas. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Lucía compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "text": "Una investigación sobre hábitos digitales juveniles presenta método, hallazgos, límites y objeciones: rigor no equivale a certeza absoluta. Este ponencia no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con defender una tesis ante preguntas críticas. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «tesis», «marco teórico» y «hallazgo». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «objeción», «alcance» y «metodología» antes de defender una conclusión.\n\nLa postura final propone sintetizar fuentes y responder con rigor. Para expresarla con precisión se emplean conectores de reformulación y reserva. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.\n\nTambién es necesario evaluar la evidencia. Un testimonio puede revelar una experiencia ignorada, pero no representa automáticamente a toda una generación; una cifra puede describir una tendencia, pero depende de la muestra y de la forma de medir. La lectura combina voces y datos sin tratarlos como pruebas intercambiables.\n\nDesde una perspectiva metodológica, la tesis conserva un carácter revisable. El análisis explicita sus límites, considera una objeción plausible y señala qué información adicional podría modificar la conclusión. Esa cautela no equivale a indecisión: es responsabilidad académica frente a problemas complejos.",
       "questions": [
-        "¿Cuál es el reto principal de Lucía?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
       ]
     }
   },
@@ -319,11 +319,11 @@
     ],
     "reading": {
       "title": "Español C2 Reading",
-      "text": "Lucía participa en una situación relacionada con defensa y síntesis. Su reto es resolver una misión integradora ante un panel experto. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Lucía compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "text": "Un panel experto exige integrar fuentes divergentes, reconocer incertidumbre y explicar qué evidencia modificaría la tesis. Este defensa académica no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con resolver una misión integradora ante un panel experto. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «síntesis», «criterio» y «matización». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «solvencia», «perspectiva» y «precisión» antes de defender una conclusión.\n\nLa postura final propone sintetizar, mediar y producir con dominio flexible. Para expresarla con precisión se emplean selección estratégica de todos los recursos C2. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.\n\nTambién es necesario evaluar la evidencia. Un testimonio puede revelar una experiencia ignorada, pero no representa automáticamente a toda una generación; una cifra puede describir una tendencia, pero depende de la muestra y de la forma de medir. La lectura combina voces y datos sin tratarlos como pruebas intercambiables.\n\nDesde una perspectiva metodológica, la tesis conserva un carácter revisable. El análisis explicita sus límites, considera una objeción plausible y señala qué información adicional podría modificar la conclusión. Esa cautela no equivale a indecisión: es responsabilidad académica frente a problemas complejos.\n\nQueda una dificultad epistemológica. Las categorías que organizan el debate también producen efectos: vuelven visibles ciertos daños y dejan otros en segundo plano. El lector experto examina no solo si la inferencia es válida, sino qué presupone su vocabulario, a quién concede autoridad y bajo qué condiciones podría trasladarse a otro contexto.",
       "questions": [
-        "¿Cuál es el reto principal de Lucía?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
       ]
     }
   }
@@ -426,85 +426,86 @@
     "level": "A2",
     "skill": "reading",
     "unitId": "compras-y-cantidades",
-    "title": "Lectura · Compras y cantidades",
+    "title": "Compras y cantidades: una situación cotidiana",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 35,
     "orderIndex": 10,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre compras y cantidades.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "relato personal: compras y cantidades.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Pedir productos, comparar precios y expresar cantidades",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Resolver una compra en un mercado",
-      "text": "Mateo participa en una situación relacionada con compras y cantidades. Su reto es resolver una compra en un mercado. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Mateo compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "Compras y cantidades: una situación cotidiana",
+      "text": "Me llamo Mateo y esta semana necesito resolver una compra en un mercado. No quiero resolverlo con prisa, porque también deseo pedir productos, comparar precios y expresar cantidades. Primero observo la situación, anoto lo que ya sé y preparo las preguntas que debo hacer.\n\nDurante la actividad uso palabras importantes como «mercado», «precio» y «oferta». También aparecen «kilo», «cambio» y «recibo» cuando explico los detalles. La primera opción no funciona como esperaba, así que comparo otra posibilidad y pido una aclaración antes de decidir.\n\nAl final encuentro una solución práctica y explico los pasos en orden. Para hacerlo aplico querer, pedir y expresiones de cantidad. La experiencia me ayuda a hablar con más seguridad y a comprobar que pedir información clara puede evitar errores. La próxima vez podré actuar con mayor autonomía.",
       "questions": [
-        "¿Cuál es el reto principal de Mateo?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
-      ]
+        "¿Qué situación necesita resolver la persona que narra?",
+        "¿Qué hace antes de decidir?",
+        "¿Por qué compara otra posibilidad?"
+      ],
+      "references": []
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Mateo?",
+        "prompt": "¿Qué situación necesita resolver la persona que narra?",
         "options": [
           "Resolver una compra en un mercado",
-          "Memorizar una lista sin contexto",
+          "Preparar un examen sin instrucciones",
+          "Organizar una competición deportiva",
+          "Cambiar de escuela"
+        ],
+        "explanation": "El primer párrafo presenta la situación cotidiana de la unidad."
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué hace antes de decidir?",
+        "options": [
+          "Elige la primera opción",
+          "Observa, anota y prepara preguntas",
+          "Pide a otra persona que decida",
+          "Abandona la actividad"
+        ],
+        "explanation": "La persona organiza la información antes de actuar."
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Por qué compara otra posibilidad?",
+        "options": [
+          "La primera opción no funciona como esperaba",
+          "Quiere gastar más dinero",
+          "Olvida el objetivo",
+          "No comprende ninguna palabra"
+        ],
+        "explanation": "El segundo párrafo explica por qué cambia de estrategia."
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué consigue al final?",
+        "options": [
+          "Una solución práctica y más autonomía",
+          "Una respuesta memorizada",
           "Evitar toda conversación",
-          "Cambiar de tema"
+          "Resolver un problema diferente"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La conclusión relaciona la solución con mayor seguridad y autonomía."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué recurso gramatical aplica para explicar los pasos?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "querer, pedir y expresiones de cantidad",
+          "Solo nombres propios",
+          "El alfabeto aislado",
+          "Únicamente números"
         ],
-        "explanation": "El texto destaca la comparación razonada."
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
-        "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
-        ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
-        "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
-        ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
-      },
-      {
-        "id": "spanish-a2-compras-y-cantidades-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Resolver una compra en un mercado»?",
-        "options": [
-          "Presentar las ideas y los detalles esenciales de Resolver una compra en un mercado",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+        "explanation": "La lectura integra explícitamente querer, pedir y expresiones de cantidad."
       }
     ]
   },
@@ -513,85 +514,86 @@
     "level": "B1",
     "skill": "reading",
     "unitId": "historias-personales",
-    "title": "Lectura · Historias personales",
+    "title": "El día en que cambié de opinión",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 35,
     "orderIndex": 10,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre historias personales.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "testimonio: historias personales.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Narrar con orden, contexto y detalle",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Compartir una experiencia que cambió una decisión",
-      "text": "Mateo participa en una situación relacionada con historias personales. Su reto es compartir una experiencia que cambió una decisión. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Mateo compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "El día en que cambié de opinión",
+      "text": "Una estudiante cuenta cómo llegar a una escuela nueva transformó su idea de pertenencia y le enseñó a escuchar experiencias distintas de la suya. Este testimonio no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con compartir una experiencia que cambió una decisión. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «etapa», «decisión» y «cambio». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «mientras», «de repente» y «aprendizaje» antes de defender una conclusión.\n\nLa postura final propone narrar con orden, contexto y detalle. Para expresarla con precisión se emplean contraste entre indefinido e imperfecto. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.",
       "questions": [
-        "¿Cuál es el reto principal de Mateo?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
-      ]
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": []
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Mateo?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Compartir una experiencia que cambió una decisión",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "testimonio",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como testimonio."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-b1-historias-personales-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Compartir una experiencia que cambió una decisión»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Compartir una experiencia que cambió una decisión",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Narrar con orden, contexto y detalle",
+          "Definir de memoria el tema «Historias personales»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -600,85 +602,86 @@
     "level": "B2",
     "skill": "reading",
     "unitId": "identidad-digital",
-    "title": "Lectura · Identidad digital",
+    "title": "¿Somos nuestro perfil?",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 35,
     "orderIndex": 10,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre identidad digital.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "ensayo argumentativo: identidad digital.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Evaluar beneficios, riesgos y responsabilidad",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Debatir cómo construimos nuestra imagen en internet",
-      "text": "Mateo participa en una situación relacionada con identidad digital. Su reto es debatir cómo construimos nuestra imagen en internet. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Mateo compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "¿Somos nuestro perfil?",
+      "text": "La identidad digital amplía la expresión personal, pero también convierte gustos, errores y relaciones en datos persistentes que otros interpretan fuera de contexto. Este ensayo argumentativo no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con debatir cómo construimos nuestra imagen en internet. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «huella digital», «privacidad» y «perfil». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «exposición», «reputación» y «consentimiento» antes de defender una conclusión.\n\nLa postura final propone evaluar beneficios, riesgos y responsabilidad. Para expresarla con precisión se emplean concesivas aunque, pese a y a pesar de. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.\n\nTambién es necesario evaluar la evidencia. Un testimonio puede revelar una experiencia ignorada, pero no representa automáticamente a toda una generación; una cifra puede describir una tendencia, pero depende de la muestra y de la forma de medir. La lectura combina voces y datos sin tratarlos como pruebas intercambiables.",
       "questions": [
-        "¿Cuál es el reto principal de Mateo?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
-      ]
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": []
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Mateo?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Debatir cómo construimos nuestra imagen en internet",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "ensayo argumentativo",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como ensayo argumentativo."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-b2-identidad-digital-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Debatir cómo construimos nuestra imagen en internet»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Debatir cómo construimos nuestra imagen en internet",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Evaluar beneficios, riesgos y responsabilidad",
+          "Definir de memoria el tema «Identidad digital»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -687,85 +690,86 @@
     "level": "C1",
     "skill": "reading",
     "unitId": "memoria-y-relato",
-    "title": "Lectura · Memoria y relato",
+    "title": "Recordar no es reproducir",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 35,
     "orderIndex": 10,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre memoria y relato.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "ensayo testimonial: memoria y relato.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Analizar perspectiva, omisiones y encuadre",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Interpretar versiones contrapuestas de un recuerdo colectivo",
-      "text": "Mateo participa en una situación relacionada con memoria y relato. Su reto es interpretar versiones contrapuestas de un recuerdo colectivo. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Mateo compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "Recordar no es reproducir",
+      "text": "Dos testimonios sobre una protesta estudiantil coinciden en los hechos centrales, pero difieren en silencios, emociones y responsabilidades. Este ensayo testimonial no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con interpretar versiones contrapuestas de un recuerdo colectivo. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «memoria colectiva», «testimonio» y «omisión». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «versión», «evocar» y «reinterpretar» antes de defender una conclusión.\n\nLa postura final propone analizar perspectiva, omisiones y encuadre. Para expresarla con precisión se emplean correlación de tiempos y estilo indirecto. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.\n\nTambién es necesario evaluar la evidencia. Un testimonio puede revelar una experiencia ignorada, pero no representa automáticamente a toda una generación; una cifra puede describir una tendencia, pero depende de la muestra y de la forma de medir. La lectura combina voces y datos sin tratarlos como pruebas intercambiables.\n\nDesde una perspectiva metodológica, la tesis conserva un carácter revisable. El análisis explicita sus límites, considera una objeción plausible y señala qué información adicional podría modificar la conclusión. Esa cautela no equivale a indecisión: es responsabilidad académica frente a problemas complejos.",
       "questions": [
-        "¿Cuál es el reto principal de Mateo?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
-      ]
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": []
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Mateo?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Interpretar versiones contrapuestas de un recuerdo colectivo",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "ensayo testimonial",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como ensayo testimonial."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-c1-memoria-y-relato-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Interpretar versiones contrapuestas de un recuerdo colectivo»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Interpretar versiones contrapuestas de un recuerdo colectivo",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Analizar perspectiva, omisiones y encuadre",
+          "Definir de memoria el tema «Memoria y relato»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -774,85 +778,86 @@
     "level": "C2",
     "skill": "reading",
     "unitId": "ambiguedad-y-sentido",
-    "title": "Lectura · Ambigüedad y sentido",
+    "title": "Lo que el texto decide no decidir",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 35,
     "orderIndex": 10,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre ambigüedad y sentido.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "ensayo hermenéutico: ambigüedad y sentido.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Interpretar sentidos simultáneos y justificar lecturas",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Desentrañar un texto deliberadamente ambiguo",
-      "text": "Mateo participa en una situación relacionada con ambigüedad y sentido. Su reto es desentrañar un texto deliberadamente ambiguo. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Mateo compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "Lo que el texto decide no decidir",
+      "text": "Una pieza admite lecturas incompatibles porque distribuye referentes, silencios y tiempos verbales sin resolver deliberadamente su relación. Este ensayo hermenéutico no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con desentrañar un texto deliberadamente ambiguo. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «polisemia», «elipsis» y «doble lectura». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «sobreentendido», «indeterminación» y «matiz» antes de defender una conclusión.\n\nLa postura final propone interpretar sentidos simultáneos y justificar lecturas. Para expresarla con precisión se emplean polisemia, elipsis y ambigüedad sintáctica. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.\n\nTambién es necesario evaluar la evidencia. Un testimonio puede revelar una experiencia ignorada, pero no representa automáticamente a toda una generación; una cifra puede describir una tendencia, pero depende de la muestra y de la forma de medir. La lectura combina voces y datos sin tratarlos como pruebas intercambiables.\n\nDesde una perspectiva metodológica, la tesis conserva un carácter revisable. El análisis explicita sus límites, considera una objeción plausible y señala qué información adicional podría modificar la conclusión. Esa cautela no equivale a indecisión: es responsabilidad académica frente a problemas complejos.\n\nQueda una dificultad epistemológica. Las categorías que organizan el debate también producen efectos: vuelven visibles ciertos daños y dejan otros en segundo plano. El lector experto examina no solo si la inferencia es válida, sino qué presupone su vocabulario, a quién concede autoridad y bajo qué condiciones podría trasladarse a otro contexto.",
       "questions": [
-        "¿Cuál es el reto principal de Mateo?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
-      ]
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": []
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Mateo?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Desentrañar un texto deliberadamente ambiguo",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "ensayo hermenéutico",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como ensayo hermenéutico."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-c2-ambiguedad-y-sentido-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Desentrañar un texto deliberadamente ambiguo»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Desentrañar un texto deliberadamente ambiguo",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Interpretar sentidos simultáneos y justificar lecturas",
+          "Definir de memoria el tema «Ambigüedad y sentido»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -4533,85 +4538,86 @@
     "level": "A2",
     "skill": "reading",
     "unitId": "orientarse-en-la-ciudad",
-    "title": "Lectura · Orientarse en la ciudad",
+    "title": "Orientarse en la ciudad: una situación cotidiana",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 35,
     "orderIndex": 20,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre orientarse en la ciudad.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "relato personal: orientarse en la ciudad.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Pedir y dar indicaciones claras",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Ayudar a una visitante a llegar a la estación",
-      "text": "Lucía participa en una situación relacionada con orientarse en la ciudad. Su reto es ayudar a una visitante a llegar a la estación. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Lucía compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "Orientarse en la ciudad: una situación cotidiana",
+      "text": "Me llamo Lucía y esta semana necesito ayudar a una visitante a llegar a la estación. No quiero resolverlo con prisa, porque también deseo pedir y dar indicaciones claras. Primero observo la situación, anoto lo que ya sé y preparo las preguntas que debo hacer.\n\nDurante la actividad uso palabras importantes como «esquina», «cuadra» y «semáforo». También aparecen «recto», «girar» y «estación» cuando explico los detalles. La primera opción no funciona como esperaba, así que comparo otra posibilidad y pido una aclaración antes de decidir.\n\nAl final encuentro una solución práctica y explico los pasos en orden. Para hacerlo aplico imperativo y preposiciones de lugar. La experiencia me ayuda a hablar con más seguridad y a comprobar que pedir información clara puede evitar errores. La próxima vez podré actuar con mayor autonomía.",
       "questions": [
-        "¿Cuál es el reto principal de Lucía?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
-      ]
+        "¿Qué situación necesita resolver la persona que narra?",
+        "¿Qué hace antes de decidir?",
+        "¿Por qué compara otra posibilidad?"
+      ],
+      "references": []
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Lucía?",
+        "prompt": "¿Qué situación necesita resolver la persona que narra?",
         "options": [
           "Ayudar a una visitante a llegar a la estación",
-          "Memorizar una lista sin contexto",
+          "Preparar un examen sin instrucciones",
+          "Organizar una competición deportiva",
+          "Cambiar de escuela"
+        ],
+        "explanation": "El primer párrafo presenta la situación cotidiana de la unidad."
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué hace antes de decidir?",
+        "options": [
+          "Elige la primera opción",
+          "Observa, anota y prepara preguntas",
+          "Pide a otra persona que decida",
+          "Abandona la actividad"
+        ],
+        "explanation": "La persona organiza la información antes de actuar."
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Por qué compara otra posibilidad?",
+        "options": [
+          "La primera opción no funciona como esperaba",
+          "Quiere gastar más dinero",
+          "Olvida el objetivo",
+          "No comprende ninguna palabra"
+        ],
+        "explanation": "El segundo párrafo explica por qué cambia de estrategia."
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué consigue al final?",
+        "options": [
+          "Una solución práctica y más autonomía",
+          "Una respuesta memorizada",
           "Evitar toda conversación",
-          "Cambiar de tema"
+          "Resolver un problema diferente"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La conclusión relaciona la solución con mayor seguridad y autonomía."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué recurso gramatical aplica para explicar los pasos?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "imperativo y preposiciones de lugar",
+          "Solo nombres propios",
+          "El alfabeto aislado",
+          "Únicamente números"
         ],
-        "explanation": "El texto destaca la comparación razonada."
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
-        "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
-        ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
-        "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
-        ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
-      },
-      {
-        "id": "spanish-a2-orientarse-en-la-ciudad-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Ayudar a una visitante a llegar a la estación»?",
-        "options": [
-          "Presentar las ideas y los detalles esenciales de Ayudar a una visitante a llegar a la estación",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+        "explanation": "La lectura integra explícitamente imperativo y preposiciones de lugar."
       }
     ]
   },
@@ -4620,85 +4626,86 @@
     "level": "B1",
     "skill": "reading",
     "unitId": "trabajo-y-talento",
-    "title": "Lectura · Trabajo y talento",
+    "title": "¿Qué cuenta como experiencia en el primer empleo?",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 35,
     "orderIndex": 20,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre trabajo y talento.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "reportaje: trabajo y talento.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Presentar experiencia y capacidades",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Preparar una entrevista laboral",
-      "text": "Lucía participa en una situación relacionada con trabajo y talento. Su reto es preparar una entrevista laboral. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Lucía compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "¿Qué cuenta como experiencia en el primer empleo?",
+      "text": "Un grupo de jóvenes compara prácticas, voluntariado, trabajos informales y proyectos personales mientras se prepara para entrar en un mercado laboral incierto. Este reportaje no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con preparar una entrevista laboral. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «vacante», «experiencia» y «habilidad». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «entrevista», «responsable» y «logro» antes de defender una conclusión.\n\nLa postura final propone presentar experiencia y capacidades. Para expresarla con precisión se emplean pretérito perfecto y perífrasis de capacidad. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.",
       "questions": [
-        "¿Cuál es el reto principal de Lucía?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
-      ]
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": []
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Lucía?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Preparar una entrevista laboral",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "reportaje",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como reportaje."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-b1-trabajo-y-talento-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Preparar una entrevista laboral»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Preparar una entrevista laboral",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Presentar experiencia y capacidades",
+          "Definir de memoria el tema «Trabajo y talento»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -4707,85 +4714,86 @@
     "level": "B2",
     "skill": "reading",
     "unitId": "ciudades-sostenibles",
-    "title": "Lectura · Ciudades sostenibles",
+    "title": "Moverse por la ciudad sin quedar fuera",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 35,
     "orderIndex": 20,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre ciudades sostenibles.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "editorial urbano: ciudades sostenibles.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Contrastar intereses y consecuencias",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Valorar un nuevo plan de movilidad",
-      "text": "Lucía participa en una situación relacionada con ciudades sostenibles. Su reto es valorar un nuevo plan de movilidad. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Lucía compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "Moverse por la ciudad sin quedar fuera",
+      "text": "Una propuesta de movilidad juvenil confronta emisiones, seguridad, accesibilidad, tiempo de viaje y desigualdad entre barrios. Este editorial urbano no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con valorar un nuevo plan de movilidad. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «movilidad», «peatonal» y «emisiones». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «infraestructura», «accesibilidad» y «urbanismo» antes de defender una conclusión.\n\nLa postura final propone contrastar intereses y consecuencias. Para expresarla con precisión se emplean condicionales reales e hipotéticas. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.\n\nTambién es necesario evaluar la evidencia. Un testimonio puede revelar una experiencia ignorada, pero no representa automáticamente a toda una generación; una cifra puede describir una tendencia, pero depende de la muestra y de la forma de medir. La lectura combina voces y datos sin tratarlos como pruebas intercambiables.",
       "questions": [
-        "¿Cuál es el reto principal de Lucía?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
-      ]
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": []
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Lucía?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Valorar un nuevo plan de movilidad",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "editorial urbano",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como editorial urbano."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-b2-ciudades-sostenibles-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Valorar un nuevo plan de movilidad»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Valorar un nuevo plan de movilidad",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Contrastar intereses y consecuencias",
+          "Definir de memoria el tema «Ciudades sostenibles»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -4794,85 +4802,86 @@
     "level": "C1",
     "skill": "reading",
     "unitId": "retorica-publica",
-    "title": "Lectura · Retórica pública",
+    "title": "La promesa detrás del pronombre “nosotros”",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 35,
     "orderIndex": 20,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre retórica pública.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "análisis discursivo: retórica pública.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Reconocer estrategias persuasivas y presuposiciones",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Examinar un discurso institucional",
-      "text": "Lucía participa en una situación relacionada con retórica pública. Su reto es examinar un discurso institucional. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Lucía compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "La promesa detrás del pronombre “nosotros”",
+      "text": "Un discurso dirigido a la juventud construye comunidad mediante metáforas, presuposiciones y oposiciones que deben analizarse antes de aceptar su conclusión. Este análisis discursivo no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con examinar un discurso institucional. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «premisa», «auditorio» y «apelación». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «elocuencia», «presuposición» y «refutación» antes de defender una conclusión.\n\nLa postura final propone reconocer estrategias persuasivas y presuposiciones. Para expresarla con precisión se emplean énfasis, tematización y estructuras hendidas. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.\n\nTambién es necesario evaluar la evidencia. Un testimonio puede revelar una experiencia ignorada, pero no representa automáticamente a toda una generación; una cifra puede describir una tendencia, pero depende de la muestra y de la forma de medir. La lectura combina voces y datos sin tratarlos como pruebas intercambiables.\n\nDesde una perspectiva metodológica, la tesis conserva un carácter revisable. El análisis explicita sus límites, considera una objeción plausible y señala qué información adicional podría modificar la conclusión. Esa cautela no equivale a indecisión: es responsabilidad académica frente a problemas complejos.",
       "questions": [
-        "¿Cuál es el reto principal de Lucía?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
-      ]
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": []
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Lucía?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Examinar un discurso institucional",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "análisis discursivo",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como análisis discursivo."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-c1-retorica-publica-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Examinar un discurso institucional»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Examinar un discurso institucional",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Reconocer estrategias persuasivas y presuposiciones",
+          "Definir de memoria el tema «Retórica pública»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -4881,26 +4890,34 @@
     "level": "C2",
     "skill": "reading",
     "unitId": "humor-e-ironia",
-    "title": "Lectura · Humor e ironía",
+    "title": "Reírse con alguien o reírse de alguien",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 35,
     "orderIndex": 20,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre humor e ironía.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "ensayo pragmático: humor e ironía.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Reconocer implicaturas y límites pragmáticos",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Explicar por qué una sátira funciona en su contexto",
-      "text": "Lucía participa en una situación relacionada con humor e ironía. Su reto es explicar por qué una sátira funciona en su contexto. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Lucía compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "Reírse con alguien o reírse de alguien",
+      "text": "Una sátira viral revela que la ironía depende de conocimiento compartido, posición social, circulación y posibilidad de respuesta. Este ensayo pragmático no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con explicar por qué una sátira funciona en su contexto. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «sátira», «implicatura» y «parodia». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «doble voz», «burla» y «complicidad» antes de defender una conclusión.\n\nLa postura final propone reconocer implicaturas y límites pragmáticos. Para expresarla con precisión se emplean ironía, eco y discurso polifónico. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.\n\nTambién es necesario evaluar la evidencia. Un testimonio puede revelar una experiencia ignorada, pero no representa automáticamente a toda una generación; una cifra puede describir una tendencia, pero depende de la muestra y de la forma de medir. La lectura combina voces y datos sin tratarlos como pruebas intercambiables.\n\nDesde una perspectiva metodológica, la tesis conserva un carácter revisable. El análisis explicita sus límites, considera una objeción plausible y señala qué información adicional podría modificar la conclusión. Esa cautela no equivale a indecisión: es responsabilidad académica frente a problemas complejos.\n\nQueda una dificultad epistemológica. Las categorías que organizan el debate también producen efectos: vuelven visibles ciertos daños y dejan otros en segundo plano. El lector experto examina no solo si la inferencia es válida, sino qué presupone su vocabulario, a quién concede autoridad y bajo qué condiciones podría trasladarse a otro contexto.",
       "questions": [
-        "¿Cuál es el reto principal de Lucía?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": [
+        {
+          "author": "UNESCO",
+          "title": "Media and Information Literacy",
+          "year": 2026,
+          "url": "https://www.unesco.org/en/media-information-literacy"
+        }
       ]
     },
     "transcript": "",
@@ -4908,58 +4925,58 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Lucía?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Explicar por qué una sátira funciona en su contexto",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "ensayo pragmático",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como ensayo pragmático."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-c2-humor-e-ironia-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Explicar por qué una sátira funciona en su contexto»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Explicar por qué una sátira funciona en su contexto",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Reconocer implicaturas y límites pragmáticos",
+          "Definir de memoria el tema «Humor e ironía»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -8468,85 +8485,86 @@
     "level": "A2",
     "skill": "reading",
     "unitId": "rutinas-y-horarios",
-    "title": "Lectura · Rutinas y horarios",
+    "title": "Rutinas y horarios: una situación cotidiana",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 30,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre rutinas y horarios.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "relato personal: rutinas y horarios.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Describir hábitos y cambios temporales",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Organizar una semana con estudio y trabajo",
-      "text": "Mateo participa en una situación relacionada con rutinas y horarios. Su reto es organizar una semana con estudio y trabajo. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Mateo compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "Rutinas y horarios: una situación cotidiana",
+      "text": "Me llamo Mateo y esta semana necesito organizar una semana con estudio y trabajo. No quiero resolverlo con prisa, porque también deseo describir hábitos y cambios temporales. Primero observo la situación, anoto lo que ya sé y preparo las preguntas que debo hacer.\n\nDurante la actividad uso palabras importantes como «horario», «turno» y «temprano». También aparecen «tarde», «descanso» y «agenda» cuando explico los detalles. La primera opción no funciona como esperaba, así que comparo otra posibilidad y pido una aclaración antes de decidir.\n\nAl final encuentro una solución práctica y explico los pasos en orden. Para hacerlo aplico presente habitual y estar + gerundio. La experiencia me ayuda a hablar con más seguridad y a comprobar que pedir información clara puede evitar errores. La próxima vez podré actuar con mayor autonomía.",
       "questions": [
-        "¿Cuál es el reto principal de Mateo?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
-      ]
+        "¿Qué situación necesita resolver la persona que narra?",
+        "¿Qué hace antes de decidir?",
+        "¿Por qué compara otra posibilidad?"
+      ],
+      "references": []
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Mateo?",
+        "prompt": "¿Qué situación necesita resolver la persona que narra?",
         "options": [
           "Organizar una semana con estudio y trabajo",
-          "Memorizar una lista sin contexto",
+          "Preparar un examen sin instrucciones",
+          "Organizar una competición deportiva",
+          "Cambiar de escuela"
+        ],
+        "explanation": "El primer párrafo presenta la situación cotidiana de la unidad."
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué hace antes de decidir?",
+        "options": [
+          "Elige la primera opción",
+          "Observa, anota y prepara preguntas",
+          "Pide a otra persona que decida",
+          "Abandona la actividad"
+        ],
+        "explanation": "La persona organiza la información antes de actuar."
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Por qué compara otra posibilidad?",
+        "options": [
+          "La primera opción no funciona como esperaba",
+          "Quiere gastar más dinero",
+          "Olvida el objetivo",
+          "No comprende ninguna palabra"
+        ],
+        "explanation": "El segundo párrafo explica por qué cambia de estrategia."
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué consigue al final?",
+        "options": [
+          "Una solución práctica y más autonomía",
+          "Una respuesta memorizada",
           "Evitar toda conversación",
-          "Cambiar de tema"
+          "Resolver un problema diferente"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La conclusión relaciona la solución con mayor seguridad y autonomía."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué recurso gramatical aplica para explicar los pasos?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "presente habitual y estar + gerundio",
+          "Solo nombres propios",
+          "El alfabeto aislado",
+          "Únicamente números"
         ],
-        "explanation": "El texto destaca la comparación razonada."
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
-        "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
-        ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
-        "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
-        ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
-      },
-      {
-        "id": "spanish-a2-rutinas-y-horarios-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Organizar una semana con estudio y trabajo»?",
-        "options": [
-          "Presentar las ideas y los detalles esenciales de Organizar una semana con estudio y trabajo",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+        "explanation": "La lectura integra explícitamente presente habitual y estar + gerundio."
       }
     ]
   },
@@ -8555,85 +8573,86 @@
     "level": "B1",
     "skill": "reading",
     "unitId": "viajes-con-imprevistos",
-    "title": "Lectura · Viajes con imprevistos",
+    "title": "Veinticuatro horas lejos de casa",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 30,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre viajes con imprevistos.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "crónica: viajes con imprevistos.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Explicar un problema y negociar soluciones",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Resolver la cancelación de un trayecto",
-      "text": "Mateo participa en una situación relacionada con viajes con imprevistos. Su reto es resolver la cancelación de un trayecto. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Mateo compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "Veinticuatro horas lejos de casa",
+      "text": "La cancelación de un viaje obliga a varios estudiantes a organizarse, reclamar información y ayudar a otras personas sin convertir el problema en una aventura idealizada. Este crónica no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con resolver la cancelación de un trayecto. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «cancelación», «retraso» y «reembolso». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «alternativa», «reclamo» y «seguro» antes de defender una conclusión.\n\nLa postura final propone explicar un problema y negociar soluciones. Para expresarla con precisión se emplean condicional de cortesía. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.",
       "questions": [
-        "¿Cuál es el reto principal de Mateo?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
-      ]
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": []
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Mateo?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Resolver la cancelación de un trayecto",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "crónica",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como crónica."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-b1-viajes-con-imprevistos-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Resolver la cancelación de un trayecto»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Resolver la cancelación de un trayecto",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Explicar un problema y negociar soluciones",
+          "Definir de memoria el tema «Viajes con imprevistos»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -8642,26 +8661,34 @@
     "level": "B2",
     "skill": "reading",
     "unitId": "trabajo-del-futuro",
-    "title": "Lectura · El trabajo del futuro",
+    "title": "Prepararse para empleos que todavía están cambiando",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 30,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre el trabajo del futuro.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "artículo de análisis: el trabajo del futuro.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Formular predicciones con cautela",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Analizar cambios producidos por la automatización",
-      "text": "Mateo participa en una situación relacionada con el trabajo del futuro. Su reto es analizar cambios producidos por la automatización. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Mateo compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "Prepararse para empleos que todavía están cambiando",
+      "text": "La automatización y la inteligencia artificial no sustituyen todas las tareas de la misma manera; evaluar herramientas importa tanto como utilizarlas. Este artículo de análisis no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con analizar cambios producidos por la automatización. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «automatización», «competencia» y «reconversión». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «productividad», «teletrabajo» y «incertidumbre» antes de defender una conclusión.\n\nLa postura final propone formular predicciones con cautela. Para expresarla con precisión se emplean futuro compuesto y probabilidad. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.\n\nTambién es necesario evaluar la evidencia. Un testimonio puede revelar una experiencia ignorada, pero no representa automáticamente a toda una generación; una cifra puede describir una tendencia, pero depende de la muestra y de la forma de medir. La lectura combina voces y datos sin tratarlos como pruebas intercambiables.",
       "questions": [
-        "¿Cuál es el reto principal de Mateo?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": [
+        {
+          "author": "OCDE",
+          "title": "Trends Shaping Education 2025",
+          "year": 2025,
+          "url": "https://www.oecd.org/en/publications/2025/01/trends-shaping-education-2025_3069cbd2/full-report/work-and-progress_423e3500.html"
+        }
       ]
     },
     "transcript": "",
@@ -8669,58 +8696,58 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Mateo?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Analizar cambios producidos por la automatización",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "artículo de análisis",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como artículo de análisis."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-b2-trabajo-del-futuro-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Analizar cambios producidos por la automatización»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Analizar cambios producidos por la automatización",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Formular predicciones con cautela",
+          "Definir de memoria el tema «El trabajo del futuro»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -8729,26 +8756,34 @@
     "level": "C1",
     "skill": "reading",
     "unitId": "periodismo-de-investigacion",
-    "title": "Lectura · Periodismo de investigación",
+    "title": "Seguir el rastro de una decisión automatizada",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 30,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre periodismo de investigación.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "reportaje de investigación: periodismo de investigación.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Jerarquizar pruebas y grados de certeza",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Reconstruir una investigación compleja",
-      "text": "Mateo participa en una situación relacionada con periodismo de investigación. Su reto es reconstruir una investigación compleja. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Mateo compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "Seguir el rastro de una decisión automatizada",
+      "text": "Documentos, entrevistas y registros técnicos permiten examinar por qué una plataforma educativa clasificó de manera desigual a distintos estudiantes. Este reportaje de investigación no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con reconstruir una investigación compleja. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «filtración», «hallazgo» y «indicio». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «contrastar», «anonimato» y «rendición de cuentas» antes de defender una conclusión.\n\nLa postura final propone jerarquizar pruebas y grados de certeza. Para expresarla con precisión se emplean evidencialidad y modales epistémicos. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.\n\nTambién es necesario evaluar la evidencia. Un testimonio puede revelar una experiencia ignorada, pero no representa automáticamente a toda una generación; una cifra puede describir una tendencia, pero depende de la muestra y de la forma de medir. La lectura combina voces y datos sin tratarlos como pruebas intercambiables.\n\nDesde una perspectiva metodológica, la tesis conserva un carácter revisable. El análisis explicita sus límites, considera una objeción plausible y señala qué información adicional podría modificar la conclusión. Esa cautela no equivale a indecisión: es responsabilidad académica frente a problemas complejos.",
       "questions": [
-        "¿Cuál es el reto principal de Mateo?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": [
+        {
+          "author": "UNESCO",
+          "title": "Media and Information Literacy",
+          "year": 2026,
+          "url": "https://www.unesco.org/en/media-information-literacy"
+        }
       ]
     },
     "transcript": "",
@@ -8756,58 +8791,58 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Mateo?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Reconstruir una investigación compleja",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "reportaje de investigación",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como reportaje de investigación."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-c1-periodismo-de-investigacion-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Reconstruir una investigación compleja»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Reconstruir una investigación compleja",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Jerarquizar pruebas y grados de certeza",
+          "Definir de memoria el tema «Periodismo de investigación»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -8816,85 +8851,86 @@
     "level": "C2",
     "skill": "reading",
     "unitId": "traduccion-y-mediacion",
-    "title": "Lectura · Traducción y mediación",
+    "title": "Lo intraducible no significa lo incomunicable",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 30,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre traducción y mediación.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "ensayo de traducción: traducción y mediación.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Reformular preservando intención y registro",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Mediar un concepto sin equivalente exacto",
-      "text": "Mateo participa en una situación relacionada con traducción y mediación. Su reto es mediar un concepto sin equivalente exacto. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Mateo compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "Lo intraducible no significa lo incomunicable",
+      "text": "Mediar un concepto cultural exige decidir qué explicar, qué conservar y qué pérdida reconocer según destinatario, género y propósito. Este ensayo de traducción no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con mediar un concepto sin equivalente exacto. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «equivalencia», «calco» y «reformulación». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «pérdida», «registro» y «mediación» antes de defender una conclusión.\n\nLa postura final propone reformular preservando intención y registro. Para expresarla con precisión se emplean equivalencia pragmática y transposición. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.\n\nTambién es necesario evaluar la evidencia. Un testimonio puede revelar una experiencia ignorada, pero no representa automáticamente a toda una generación; una cifra puede describir una tendencia, pero depende de la muestra y de la forma de medir. La lectura combina voces y datos sin tratarlos como pruebas intercambiables.\n\nDesde una perspectiva metodológica, la tesis conserva un carácter revisable. El análisis explicita sus límites, considera una objeción plausible y señala qué información adicional podría modificar la conclusión. Esa cautela no equivale a indecisión: es responsabilidad académica frente a problemas complejos.\n\nQueda una dificultad epistemológica. Las categorías que organizan el debate también producen efectos: vuelven visibles ciertos daños y dejan otros en segundo plano. El lector experto examina no solo si la inferencia es válida, sino qué presupone su vocabulario, a quién concede autoridad y bajo qué condiciones podría trasladarse a otro contexto.",
       "questions": [
-        "¿Cuál es el reto principal de Mateo?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
-      ]
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": []
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Mateo?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Mediar un concepto sin equivalente exacto",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "ensayo de traducción",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como ensayo de traducción."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-c2-traduccion-y-mediacion-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Mediar un concepto sin equivalente exacto»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Mediar un concepto sin equivalente exacto",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Reformular preservando intención y registro",
+          "Definir de memoria el tema «Traducción y mediación»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -12404,85 +12440,86 @@
     "level": "A2",
     "skill": "reading",
     "unitId": "salud-y-bienestar",
-    "title": "Lectura · Salud y bienestar",
+    "title": "Salud y bienestar: una situación cotidiana",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 40,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre salud y bienestar.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "relato personal: salud y bienestar.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Hablar de molestias y recomendaciones",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Explicar síntomas en una consulta",
-      "text": "Lucía participa en una situación relacionada con salud y bienestar. Su reto es explicar síntomas en una consulta. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Lucía compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "Salud y bienestar: una situación cotidiana",
+      "text": "Me llamo Lucía y esta semana necesito explicar síntomas en una consulta. No quiero resolverlo con prisa, porque también deseo hablar de molestias y recomendaciones. Primero observo la situación, anoto lo que ya sé y preparo las preguntas que debo hacer.\n\nDurante la actividad uso palabras importantes como «síntoma», «dolor» y «cita». También aparecen «descansar», «receta» y «mejorar» cuando explico los detalles. La primera opción no funciona como esperaba, así que comparo otra posibilidad y pido una aclaración antes de decidir.\n\nAl final encuentro una solución práctica y explico los pasos en orden. Para hacerlo aplico doler, tener que y deber. La experiencia me ayuda a hablar con más seguridad y a comprobar que pedir información clara puede evitar errores. La próxima vez podré actuar con mayor autonomía.",
       "questions": [
-        "¿Cuál es el reto principal de Lucía?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
-      ]
+        "¿Qué situación necesita resolver la persona que narra?",
+        "¿Qué hace antes de decidir?",
+        "¿Por qué compara otra posibilidad?"
+      ],
+      "references": []
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Lucía?",
+        "prompt": "¿Qué situación necesita resolver la persona que narra?",
         "options": [
           "Explicar síntomas en una consulta",
-          "Memorizar una lista sin contexto",
+          "Preparar un examen sin instrucciones",
+          "Organizar una competición deportiva",
+          "Cambiar de escuela"
+        ],
+        "explanation": "El primer párrafo presenta la situación cotidiana de la unidad."
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué hace antes de decidir?",
+        "options": [
+          "Elige la primera opción",
+          "Observa, anota y prepara preguntas",
+          "Pide a otra persona que decida",
+          "Abandona la actividad"
+        ],
+        "explanation": "La persona organiza la información antes de actuar."
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Por qué compara otra posibilidad?",
+        "options": [
+          "La primera opción no funciona como esperaba",
+          "Quiere gastar más dinero",
+          "Olvida el objetivo",
+          "No comprende ninguna palabra"
+        ],
+        "explanation": "El segundo párrafo explica por qué cambia de estrategia."
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué consigue al final?",
+        "options": [
+          "Una solución práctica y más autonomía",
+          "Una respuesta memorizada",
           "Evitar toda conversación",
-          "Cambiar de tema"
+          "Resolver un problema diferente"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La conclusión relaciona la solución con mayor seguridad y autonomía."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué recurso gramatical aplica para explicar los pasos?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "doler, tener que y deber",
+          "Solo nombres propios",
+          "El alfabeto aislado",
+          "Únicamente números"
         ],
-        "explanation": "El texto destaca la comparación razonada."
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
-        "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
-        ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
-        "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
-        ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
-      },
-      {
-        "id": "spanish-a2-salud-y-bienestar-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Explicar síntomas en una consulta»?",
-        "options": [
-          "Presentar las ideas y los detalles esenciales de Explicar síntomas en una consulta",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+        "explanation": "La lectura integra explícitamente doler, tener que y deber."
       }
     ]
   },
@@ -12491,26 +12528,34 @@
     "level": "B1",
     "skill": "reading",
     "unitId": "medios-y-noticias",
-    "title": "Lectura · Medios y noticias",
+    "title": "Antes de compartir ese titular",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 40,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre medios y noticias.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "editorial: medios y noticias.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Resumir información y distinguir opiniones",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Comparar dos versiones de una noticia",
-      "text": "Lucía participa en una situación relacionada con medios y noticias. Su reto es comparar dos versiones de una noticia. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Lucía compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "Antes de compartir ese titular",
+      "text": "Una noticia viral sobre un instituto cambia de significado cuando el alumnado localiza la fuente original, la fecha y el contexto ausente en la publicación. Este editorial no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con comparar dos versiones de una noticia. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «titular», «fuente» y «reportaje». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «rumor», «comprobar» y «actualidad» antes de defender una conclusión.\n\nLa postura final propone resumir información y distinguir opiniones. Para expresarla con precisión se emplean estilo indirecto en presente y pasado. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.",
       "questions": [
-        "¿Cuál es el reto principal de Lucía?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": [
+        {
+          "author": "UNESCO",
+          "title": "Media and Information Literacy",
+          "year": 2026,
+          "url": "https://www.unesco.org/en/media-information-literacy"
+        }
       ]
     },
     "transcript": "",
@@ -12518,58 +12563,58 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Lucía?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Comparar dos versiones de una noticia",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "editorial",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como editorial."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-b1-medios-y-noticias-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Comparar dos versiones de una noticia»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Comparar dos versiones de una noticia",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Resumir información y distinguir opiniones",
+          "Definir de memoria el tema «Medios y noticias»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -12578,26 +12623,34 @@
     "level": "B2",
     "skill": "reading",
     "unitId": "desinformacion",
-    "title": "Lectura · Desinformación",
+    "title": "La anatomía de un video viral",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 40,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre desinformación.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "investigación breve: desinformación.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Evaluar evidencias y explicar dudas",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Verificar una afirmación viral",
-      "text": "Lucía participa en una situación relacionada con desinformación. Su reto es verificar una afirmación viral. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Lucía compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "La anatomía de un video viral",
+      "text": "Un video recortado parece demostrar una acusación hasta que se comparan la grabación completa, la fuente primaria, la fecha y los incentivos de difusión. Este investigación breve no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con verificar una afirmación viral. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «evidencia», «sesgo» y «verificar». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «fuente primaria», «engañoso» y «credibilidad» antes de defender una conclusión.\n\nLa postura final propone evaluar evidencias y explicar dudas. Para expresarla con precisión se emplean estilo indirecto y verbos de transmisión. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.\n\nTambién es necesario evaluar la evidencia. Un testimonio puede revelar una experiencia ignorada, pero no representa automáticamente a toda una generación; una cifra puede describir una tendencia, pero depende de la muestra y de la forma de medir. La lectura combina voces y datos sin tratarlos como pruebas intercambiables.",
       "questions": [
-        "¿Cuál es el reto principal de Lucía?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": [
+        {
+          "author": "UNESCO",
+          "title": "Media and Information Literacy",
+          "year": 2026,
+          "url": "https://www.unesco.org/en/media-information-literacy"
+        }
       ]
     },
     "transcript": "",
@@ -12605,58 +12658,58 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Lucía?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Verificar una afirmación viral",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "investigación breve",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como investigación breve."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-b2-desinformacion-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Verificar una afirmación viral»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Verificar una afirmación viral",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Evaluar evidencias y explicar dudas",
+          "Definir de memoria el tema «Desinformación»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -12665,85 +12718,86 @@
     "level": "C1",
     "skill": "reading",
     "unitId": "justicia-y-reparacion",
-    "title": "Lectura · Justicia y reparación",
+    "title": "Cuando reconocer el daño no basta",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 40,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre justicia y reparación.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "ensayo histórico: justicia y reparación.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Diferenciar castigo, reparación y garantías",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Debatir respuestas a un daño histórico",
-      "text": "Lucía participa en una situación relacionada con justicia y reparación. Su reto es debatir respuestas a un daño histórico. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Lucía compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "Cuando reconocer el daño no basta",
+      "text": "Una comunidad debate cómo combinar memoria, restitución, responsabilidad institucional y garantías de no repetición tras una exclusión histórica. Este ensayo histórico no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con debatir respuestas a un daño histórico. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «reparación», «agravio» y «garantía». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «reconocimiento», «responsabilidad» y «reconciliación» antes de defender una conclusión.\n\nLa postura final propone diferenciar castigo, reparación y garantías. Para expresarla con precisión se emplean subjuntivo en construcciones valorativas. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.\n\nTambién es necesario evaluar la evidencia. Un testimonio puede revelar una experiencia ignorada, pero no representa automáticamente a toda una generación; una cifra puede describir una tendencia, pero depende de la muestra y de la forma de medir. La lectura combina voces y datos sin tratarlos como pruebas intercambiables.\n\nDesde una perspectiva metodológica, la tesis conserva un carácter revisable. El análisis explicita sus límites, considera una objeción plausible y señala qué información adicional podría modificar la conclusión. Esa cautela no equivale a indecisión: es responsabilidad académica frente a problemas complejos.",
       "questions": [
-        "¿Cuál es el reto principal de Lucía?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
-      ]
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": []
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Lucía?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Debatir respuestas a un daño histórico",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "ensayo histórico",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como ensayo histórico."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-c1-justicia-y-reparacion-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Debatir respuestas a un daño histórico»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Debatir respuestas a un daño histórico",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Diferenciar castigo, reparación y garantías",
+          "Definir de memoria el tema «Justicia y reparación»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -12752,85 +12806,86 @@
     "level": "C2",
     "skill": "reading",
     "unitId": "filosofia-del-lenguaje",
-    "title": "Lectura · Filosofía del lenguaje",
+    "title": "Nombrar una categoría también la transforma",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 40,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre filosofía del lenguaje.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "ensayo filosófico: filosofía del lenguaje.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Manejar abstracción y contraargumentos",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Debatir cómo las palabras construyen categorías",
-      "text": "Lucía participa en una situación relacionada con filosofía del lenguaje. Su reto es debatir cómo las palabras construyen categorías. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Lucía compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "Nombrar una categoría también la transforma",
+      "text": "Las palabras no solo etiquetan una realidad estable: organizan semejanzas, fronteras e inferencias que después parecen naturales. Este ensayo filosófico no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con debatir cómo las palabras construyen categorías. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «referente», «categoría» y «enunciado». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «convención», «inferir» y «conceptualizar» antes de defender una conclusión.\n\nLa postura final propone manejar abstracción y contraargumentos. Para expresarla con precisión se emplean sustantivación y arquitectura argumental. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.\n\nTambién es necesario evaluar la evidencia. Un testimonio puede revelar una experiencia ignorada, pero no representa automáticamente a toda una generación; una cifra puede describir una tendencia, pero depende de la muestra y de la forma de medir. La lectura combina voces y datos sin tratarlos como pruebas intercambiables.\n\nDesde una perspectiva metodológica, la tesis conserva un carácter revisable. El análisis explicita sus límites, considera una objeción plausible y señala qué información adicional podría modificar la conclusión. Esa cautela no equivale a indecisión: es responsabilidad académica frente a problemas complejos.\n\nQueda una dificultad epistemológica. Las categorías que organizan el debate también producen efectos: vuelven visibles ciertos daños y dejan otros en segundo plano. El lector experto examina no solo si la inferencia es válida, sino qué presupone su vocabulario, a quién concede autoridad y bajo qué condiciones podría trasladarse a otro contexto.",
       "questions": [
-        "¿Cuál es el reto principal de Lucía?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
-      ]
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": []
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Lucía?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Debatir cómo las palabras construyen categorías",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "ensayo filosófico",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como ensayo filosófico."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-c2-filosofia-del-lenguaje-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Debatir cómo las palabras construyen categorías»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Debatir cómo las palabras construyen categorías",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Manejar abstracción y contraargumentos",
+          "Definir de memoria el tema «Filosofía del lenguaje»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -16337,85 +16392,86 @@
     "level": "A2",
     "skill": "reading",
     "unitId": "viajes-y-transporte",
-    "title": "Lectura · Viajes y transporte",
+    "title": "Viajes y transporte: una situación cotidiana",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 50,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre viajes y transporte.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "relato personal: viajes y transporte.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Comprar billetes y resolver cambios",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Preparar un viaje de fin de semana",
-      "text": "Mateo participa en una situación relacionada con viajes y transporte. Su reto es preparar un viaje de fin de semana. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Mateo compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "Viajes y transporte: una situación cotidiana",
+      "text": "Me llamo Mateo y esta semana necesito preparar un viaje de fin de semana. No quiero resolverlo con prisa, porque también deseo comprar billetes y resolver cambios. Primero observo la situación, anoto lo que ya sé y preparo las preguntas que debo hacer.\n\nDurante la actividad uso palabras importantes como «billete», «equipaje» y «andén». También aparecen «salida», «llegada» y «reserva» cuando explico los detalles. La primera opción no funciona como esperaba, así que comparo otra posibilidad y pido una aclaración antes de decidir.\n\nAl final encuentro una solución práctica y explico los pasos en orden. Para hacerlo aplico ir a + infinitivo y futuro próximo. La experiencia me ayuda a hablar con más seguridad y a comprobar que pedir información clara puede evitar errores. La próxima vez podré actuar con mayor autonomía.",
       "questions": [
-        "¿Cuál es el reto principal de Mateo?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
-      ]
+        "¿Qué situación necesita resolver la persona que narra?",
+        "¿Qué hace antes de decidir?",
+        "¿Por qué compara otra posibilidad?"
+      ],
+      "references": []
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Mateo?",
+        "prompt": "¿Qué situación necesita resolver la persona que narra?",
         "options": [
           "Preparar un viaje de fin de semana",
-          "Memorizar una lista sin contexto",
+          "Preparar un examen sin instrucciones",
+          "Organizar una competición deportiva",
+          "Cambiar de escuela"
+        ],
+        "explanation": "El primer párrafo presenta la situación cotidiana de la unidad."
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué hace antes de decidir?",
+        "options": [
+          "Elige la primera opción",
+          "Observa, anota y prepara preguntas",
+          "Pide a otra persona que decida",
+          "Abandona la actividad"
+        ],
+        "explanation": "La persona organiza la información antes de actuar."
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Por qué compara otra posibilidad?",
+        "options": [
+          "La primera opción no funciona como esperaba",
+          "Quiere gastar más dinero",
+          "Olvida el objetivo",
+          "No comprende ninguna palabra"
+        ],
+        "explanation": "El segundo párrafo explica por qué cambia de estrategia."
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué consigue al final?",
+        "options": [
+          "Una solución práctica y más autonomía",
+          "Una respuesta memorizada",
           "Evitar toda conversación",
-          "Cambiar de tema"
+          "Resolver un problema diferente"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La conclusión relaciona la solución con mayor seguridad y autonomía."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué recurso gramatical aplica para explicar los pasos?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "ir a + infinitivo y futuro próximo",
+          "Solo nombres propios",
+          "El alfabeto aislado",
+          "Únicamente números"
         ],
-        "explanation": "El texto destaca la comparación razonada."
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
-        "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
-        ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
-        "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
-        ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
-      },
-      {
-        "id": "spanish-a2-viajes-y-transporte-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Preparar un viaje de fin de semana»?",
-        "options": [
-          "Presentar las ideas y los detalles esenciales de Preparar un viaje de fin de semana",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+        "explanation": "La lectura integra explícitamente ir a + infinitivo y futuro próximo."
       }
     ]
   },
@@ -16424,85 +16480,86 @@
     "level": "B1",
     "skill": "reading",
     "unitId": "relaciones-y-convivencia",
-    "title": "Lectura · Relaciones y convivencia",
+    "title": "Cuando el grupo de chat nunca se calla",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 50,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre relaciones y convivencia.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "testimonio: relaciones y convivencia.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Expresar emociones y buscar acuerdos",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Resolver un desacuerdo entre compañeros",
-      "text": "Mateo participa en una situación relacionada con relaciones y convivencia. Su reto es resolver un desacuerdo entre compañeros. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Mateo compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "Cuando el grupo de chat nunca se calla",
+      "text": "Una adolescente aprende a establecer límites digitales sin abandonar a sus amistades ni interpretar cada silencio como rechazo. Este testimonio no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con resolver un desacuerdo entre compañeros. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «confianza», «límite» y «acuerdo». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «molestia», «apoyar» y «convivir» antes de defender una conclusión.\n\nLa postura final propone expresar emociones y buscar acuerdos. Para expresarla con precisión se emplean subjuntivo con emoción y valoración. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.",
       "questions": [
-        "¿Cuál es el reto principal de Mateo?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
-      ]
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": []
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Mateo?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Resolver un desacuerdo entre compañeros",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "testimonio",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como testimonio."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-b1-relaciones-y-convivencia-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Resolver un desacuerdo entre compañeros»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Resolver un desacuerdo entre compañeros",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Expresar emociones y buscar acuerdos",
+          "Definir de memoria el tema «Relaciones y convivencia»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -16511,85 +16568,86 @@
     "level": "B2",
     "skill": "reading",
     "unitId": "turismo-y-comunidad",
-    "title": "Lectura · Turismo y comunidad",
+    "title": "La ciudad que todos visitan y pocos pueden habitar",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 50,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre turismo y comunidad.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "editorial: turismo y comunidad.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Defender una postura reconociendo límites",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Mediar en un debate sobre turismo local",
-      "text": "Mateo participa en una situación relacionada con turismo y comunidad. Su reto es mediar en un debate sobre turismo local. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Mateo compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "La ciudad que todos visitan y pocos pueden habitar",
+      "text": "El éxito turístico aumenta ingresos y empleo, pero también presiona alquileres, servicios y espacios cotidianos de la población residente. Este editorial no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con mediar en un debate sobre turismo local. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «temporada alta», «alojamiento» y «residente». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «saturación», «patrimonio» y «regulación» antes de defender una conclusión.\n\nLa postura final propone defender una postura reconociendo límites. Para expresarla con precisión se emplean estructuras de contraste y concesión. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.\n\nTambién es necesario evaluar la evidencia. Un testimonio puede revelar una experiencia ignorada, pero no representa automáticamente a toda una generación; una cifra puede describir una tendencia, pero depende de la muestra y de la forma de medir. La lectura combina voces y datos sin tratarlos como pruebas intercambiables.",
       "questions": [
-        "¿Cuál es el reto principal de Mateo?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
-      ]
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": []
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Mateo?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Mediar en un debate sobre turismo local",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "editorial",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como editorial."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-b2-turismo-y-comunidad-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Mediar en un debate sobre turismo local»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Mediar en un debate sobre turismo local",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Defender una postura reconociendo límites",
+          "Definir de memoria el tema «Turismo y comunidad»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -16598,26 +16656,34 @@
     "level": "C1",
     "skill": "reading",
     "unitId": "innovacion-responsable",
-    "title": "Lectura · Innovación responsable",
+    "title": "La innovación también necesita frenos revisables",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 50,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre innovación responsable.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "artículo científico-social: innovación responsable.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Ponderar incertidumbre y efectos no previstos",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Evaluar una tecnología antes de adoptarla",
-      "text": "Mateo participa en una situación relacionada con innovación responsable. Su reto es evaluar una tecnología antes de adoptarla. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Mateo compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "La innovación también necesita frenos revisables",
+      "text": "Una herramienta de IA en escuelas permite analizar beneficio, sesgo, supervisión humana y precaución sin entusiasmo ni rechazo absolutos. Este artículo científico-social no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con evaluar una tecnología antes de adoptarla. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «precaución», «impacto» y «despliegue». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «sesgo», «supervisión» y «trazabilidad» antes de defender una conclusión.\n\nLa postura final propone ponderar incertidumbre y efectos no previstos. Para expresarla con precisión se emplean condicionales mixtas y contrafactuales. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.\n\nTambién es necesario evaluar la evidencia. Un testimonio puede revelar una experiencia ignorada, pero no representa automáticamente a toda una generación; una cifra puede describir una tendencia, pero depende de la muestra y de la forma de medir. La lectura combina voces y datos sin tratarlos como pruebas intercambiables.\n\nDesde una perspectiva metodológica, la tesis conserva un carácter revisable. El análisis explicita sus límites, considera una objeción plausible y señala qué información adicional podría modificar la conclusión. Esa cautela no equivale a indecisión: es responsabilidad académica frente a problemas complejos.",
       "questions": [
-        "¿Cuál es el reto principal de Mateo?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": [
+        {
+          "author": "UNESCO",
+          "title": "AI competency framework for students",
+          "year": 2024,
+          "url": "https://www.unesco.org/en/articles/ai-competency-framework-students"
+        }
       ]
     },
     "transcript": "",
@@ -16625,58 +16691,58 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Mateo?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Evaluar una tecnología antes de adoptarla",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "artículo científico-social",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como artículo científico-social."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-c1-innovacion-responsable-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Evaluar una tecnología antes de adoptarla»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Evaluar una tecnología antes de adoptarla",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Ponderar incertidumbre y efectos no previstos",
+          "Definir de memoria el tema «Innovación responsable»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -16685,85 +16751,86 @@
     "level": "C2",
     "skill": "reading",
     "unitId": "analisis-juridico",
-    "title": "Lectura · Análisis jurídico",
+    "title": "La misma norma, dos obligaciones posibles",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 50,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre análisis jurídico.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "comentario jurídico: análisis jurídico.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Distinguir literalidad, finalidad y precedente",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Interpretar dos lecturas de una norma",
-      "text": "Mateo participa en una situación relacionada con análisis jurídico. Su reto es interpretar dos lecturas de una norma. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Mateo compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "La misma norma, dos obligaciones posibles",
+      "text": "La lectura literal y la finalista producen alcances distintos y obligan a justificar precedente, excepción y restricción. Este comentario jurídico no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con interpretar dos lecturas de una norma. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «jurisprudencia», «supuesto» y «alcance». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «disposición», «interpretación» y «precedente» antes de defender una conclusión.\n\nLa postura final propone distinguir literalidad, finalidad y precedente. Para expresarla con precisión se emplean modalidad deóntica y precisión restrictiva. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.\n\nTambién es necesario evaluar la evidencia. Un testimonio puede revelar una experiencia ignorada, pero no representa automáticamente a toda una generación; una cifra puede describir una tendencia, pero depende de la muestra y de la forma de medir. La lectura combina voces y datos sin tratarlos como pruebas intercambiables.\n\nDesde una perspectiva metodológica, la tesis conserva un carácter revisable. El análisis explicita sus límites, considera una objeción plausible y señala qué información adicional podría modificar la conclusión. Esa cautela no equivale a indecisión: es responsabilidad académica frente a problemas complejos.\n\nQueda una dificultad epistemológica. Las categorías que organizan el debate también producen efectos: vuelven visibles ciertos daños y dejan otros en segundo plano. El lector experto examina no solo si la inferencia es válida, sino qué presupone su vocabulario, a quién concede autoridad y bajo qué condiciones podría trasladarse a otro contexto.",
       "questions": [
-        "¿Cuál es el reto principal de Mateo?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
-      ]
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": []
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Mateo?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Interpretar dos lecturas de una norma",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "comentario jurídico",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como comentario jurídico."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-c2-analisis-juridico-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Interpretar dos lecturas de una norma»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Interpretar dos lecturas de una norma",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Distinguir literalidad, finalidad y precedente",
+          "Definir de memoria el tema «Análisis jurídico»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -20271,85 +20338,86 @@
     "level": "A2",
     "skill": "reading",
     "unitId": "casa-y-barrio",
-    "title": "Lectura · Casa y barrio",
+    "title": "Casa y barrio: una situación cotidiana",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 60,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre casa y barrio.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "relato personal: casa y barrio.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Describir espacios y comparar opciones",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Buscar una vivienda adecuada",
-      "text": "Lucía participa en una situación relacionada con casa y barrio. Su reto es buscar una vivienda adecuada. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Lucía compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "Casa y barrio: una situación cotidiana",
+      "text": "Me llamo Lucía y esta semana necesito buscar una vivienda adecuada. No quiero resolverlo con prisa, porque también deseo describir espacios y comparar opciones. Primero observo la situación, anoto lo que ya sé y preparo las preguntas que debo hacer.\n\nDurante la actividad uso palabras importantes como «alquiler», «vecindario» y «amueblado». También aparecen «luminoso», «ruido» y «mudanza» cuando explico los detalles. La primera opción no funciona como esperaba, así que comparo otra posibilidad y pido una aclaración antes de decidir.\n\nAl final encuentro una solución práctica y explico los pasos en orden. Para hacerlo aplico comparativos y hay/está. La experiencia me ayuda a hablar con más seguridad y a comprobar que pedir información clara puede evitar errores. La próxima vez podré actuar con mayor autonomía.",
       "questions": [
-        "¿Cuál es el reto principal de Lucía?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
-      ]
+        "¿Qué situación necesita resolver la persona que narra?",
+        "¿Qué hace antes de decidir?",
+        "¿Por qué compara otra posibilidad?"
+      ],
+      "references": []
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Lucía?",
+        "prompt": "¿Qué situación necesita resolver la persona que narra?",
         "options": [
           "Buscar una vivienda adecuada",
-          "Memorizar una lista sin contexto",
+          "Preparar un examen sin instrucciones",
+          "Organizar una competición deportiva",
+          "Cambiar de escuela"
+        ],
+        "explanation": "El primer párrafo presenta la situación cotidiana de la unidad."
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué hace antes de decidir?",
+        "options": [
+          "Elige la primera opción",
+          "Observa, anota y prepara preguntas",
+          "Pide a otra persona que decida",
+          "Abandona la actividad"
+        ],
+        "explanation": "La persona organiza la información antes de actuar."
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Por qué compara otra posibilidad?",
+        "options": [
+          "La primera opción no funciona como esperaba",
+          "Quiere gastar más dinero",
+          "Olvida el objetivo",
+          "No comprende ninguna palabra"
+        ],
+        "explanation": "El segundo párrafo explica por qué cambia de estrategia."
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué consigue al final?",
+        "options": [
+          "Una solución práctica y más autonomía",
+          "Una respuesta memorizada",
           "Evitar toda conversación",
-          "Cambiar de tema"
+          "Resolver un problema diferente"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La conclusión relaciona la solución con mayor seguridad y autonomía."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué recurso gramatical aplica para explicar los pasos?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "comparativos y hay/está",
+          "Solo nombres propios",
+          "El alfabeto aislado",
+          "Únicamente números"
         ],
-        "explanation": "El texto destaca la comparación razonada."
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
-        "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
-        ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
-        "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
-        ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
-      },
-      {
-        "id": "spanish-a2-casa-y-barrio-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Buscar una vivienda adecuada»?",
-        "options": [
-          "Presentar las ideas y los detalles esenciales de Buscar una vivienda adecuada",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+        "explanation": "La lectura integra explícitamente comparativos y hay/está."
       }
     ]
   },
@@ -20358,85 +20426,86 @@
     "level": "B1",
     "skill": "reading",
     "unitId": "consumo-responsable",
-    "title": "Lectura · Consumo responsable",
+    "title": "La camiseta barata tiene una historia",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 60,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre consumo responsable.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "reportaje: consumo responsable.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Argumentar una elección responsable",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Elegir entre varias opciones de compra",
-      "text": "Lucía participa en una situación relacionada con consumo responsable. Su reto es elegir entre varias opciones de compra. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Lucía compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "La camiseta barata tiene una historia",
+      "text": "Un club escolar sigue el recorrido de una prenda y descubre que precio, duración, condiciones de producción y residuos forman parte de una misma decisión. Este reportaje no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con elegir entre varias opciones de compra. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «duradero», «local» y «etiqueta». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «residuo», «reutilizar» y «consumo» antes de defender una conclusión.\n\nLa postura final propone argumentar una elección responsable. Para expresarla con precisión se emplean oraciones de relativo. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.",
       "questions": [
-        "¿Cuál es el reto principal de Lucía?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
-      ]
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": []
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Lucía?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Elegir entre varias opciones de compra",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "reportaje",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como reportaje."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-b1-consumo-responsable-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Elegir entre varias opciones de compra»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Elegir entre varias opciones de compra",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Argumentar una elección responsable",
+          "Definir de memoria el tema «Consumo responsable»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -20445,26 +20514,34 @@
     "level": "B2",
     "skill": "reading",
     "unitId": "educacion-digital",
-    "title": "Lectura · Educación digital",
+    "title": "Aprender con IA sin entregar el pensamiento",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 60,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre educación digital.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "debate educativo: educación digital.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Comparar modelos y criterios de calidad",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Evaluar una propuesta de aprendizaje híbrido",
-      "text": "Lucía participa en una situación relacionada con educación digital. Su reto es evaluar una propuesta de aprendizaje híbrido. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Lucía compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "Aprender con IA sin entregar el pensamiento",
+      "text": "La inteligencia artificial ofrece apoyo personalizado junto a riesgos de dependencia, privacidad, sesgo y desigualdad de acceso. Este debate educativo no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con evaluar una propuesta de aprendizaje híbrido. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «alfabetización», «plataforma» y «evaluación». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «brecha», «autonomía» y «retroalimentación» antes de defender una conclusión.\n\nLa postura final propone comparar modelos y criterios de calidad. Para expresarla con precisión se emplean relativas explicativas y especificativas. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.\n\nTambién es necesario evaluar la evidencia. Un testimonio puede revelar una experiencia ignorada, pero no representa automáticamente a toda una generación; una cifra puede describir una tendencia, pero depende de la muestra y de la forma de medir. La lectura combina voces y datos sin tratarlos como pruebas intercambiables.",
       "questions": [
-        "¿Cuál es el reto principal de Lucía?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": [
+        {
+          "author": "UNESCO",
+          "title": "AI competency framework for students",
+          "year": 2024,
+          "url": "https://www.unesco.org/en/articles/ai-competency-framework-students"
+        }
       ]
     },
     "transcript": "",
@@ -20472,58 +20549,58 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Lucía?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Evaluar una propuesta de aprendizaje híbrido",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "debate educativo",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como debate educativo."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-b2-educacion-digital-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Evaluar una propuesta de aprendizaje híbrido»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Evaluar una propuesta de aprendizaje híbrido",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Comparar modelos y criterios de calidad",
+          "Definir de memoria el tema «Educación digital»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -20532,85 +20609,86 @@
     "level": "C1",
     "skill": "reading",
     "unitId": "literatura-y-voz",
-    "title": "Lectura · Literatura y voz",
+    "title": "La narradora que duda de su propio recuerdo",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 60,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre literatura y voz.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "crítica literaria: literatura y voz.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Interpretar tono, distancia e ironía",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Analizar la voz de un relato contemporáneo",
-      "text": "Lucía participa en una situación relacionada con literatura y voz. Su reto es analizar la voz de un relato contemporáneo. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Lucía compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "La narradora que duda de su propio recuerdo",
+      "text": "Un relato contemporáneo utiliza ironía, ritmo y distancia para mostrar que la identidad narrativa se construye también con vacíos y contradicciones. Este crítica literaria no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con analizar la voz de un relato contemporáneo. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «narrador», «ironía» y «ambigüedad». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «perspectiva», «cadencia» y «desenlace» antes de defender una conclusión.\n\nLa postura final propone interpretar tono, distancia e ironía. Para expresarla con precisión se emplean discurso referido libre y valores verbales. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.\n\nTambién es necesario evaluar la evidencia. Un testimonio puede revelar una experiencia ignorada, pero no representa automáticamente a toda una generación; una cifra puede describir una tendencia, pero depende de la muestra y de la forma de medir. La lectura combina voces y datos sin tratarlos como pruebas intercambiables.\n\nDesde una perspectiva metodológica, la tesis conserva un carácter revisable. El análisis explicita sus límites, considera una objeción plausible y señala qué información adicional podría modificar la conclusión. Esa cautela no equivale a indecisión: es responsabilidad académica frente a problemas complejos.",
       "questions": [
-        "¿Cuál es el reto principal de Lucía?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
-      ]
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": []
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Lucía?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Analizar la voz de un relato contemporáneo",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "crítica literaria",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como crítica literaria."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-c1-literatura-y-voz-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Analizar la voz de un relato contemporáneo»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Analizar la voz de un relato contemporáneo",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Interpretar tono, distancia e ironía",
+          "Definir de memoria el tema «Literatura y voz»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -20619,85 +20697,86 @@
     "level": "C2",
     "skill": "reading",
     "unitId": "edicion-de-estilo",
-    "title": "Lectura · Edición de estilo",
+    "title": "Corregir sin borrar a quien escribe",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 60,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre edición de estilo.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "taller crítico: edición de estilo.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Mejorar precisión, cohesión y ritmo",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Editar un ensayo sin borrar la voz del autor",
-      "text": "Lucía participa en una situación relacionada con edición de estilo. Su reto es editar un ensayo sin borrar la voz del autor. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Lucía compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "Corregir sin borrar a quien escribe",
+      "text": "Editar un ensayo juvenil muestra que precisión, cohesión y ritmo pueden mejorar sin uniformar la voz ni convertir toda rareza en error. Este taller crítico no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con editar un ensayo sin borrar la voz del autor. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «inciso», «redundancia» y «cadencia». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «cohesión», «reescritura» y «voz autoral» antes de defender una conclusión.\n\nLa postura final propone mejorar precisión, cohesión y ritmo. Para expresarla con precisión se emplean cohesión avanzada y puntuación discursiva. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.\n\nTambién es necesario evaluar la evidencia. Un testimonio puede revelar una experiencia ignorada, pero no representa automáticamente a toda una generación; una cifra puede describir una tendencia, pero depende de la muestra y de la forma de medir. La lectura combina voces y datos sin tratarlos como pruebas intercambiables.\n\nDesde una perspectiva metodológica, la tesis conserva un carácter revisable. El análisis explicita sus límites, considera una objeción plausible y señala qué información adicional podría modificar la conclusión. Esa cautela no equivale a indecisión: es responsabilidad académica frente a problemas complejos.\n\nQueda una dificultad epistemológica. Las categorías que organizan el debate también producen efectos: vuelven visibles ciertos daños y dejan otros en segundo plano. El lector experto examina no solo si la inferencia es válida, sino qué presupone su vocabulario, a quién concede autoridad y bajo qué condiciones podría trasladarse a otro contexto.",
       "questions": [
-        "¿Cuál es el reto principal de Lucía?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
-      ]
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": []
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Lucía?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Editar un ensayo sin borrar la voz del autor",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "taller crítico",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como taller crítico."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-c2-edicion-de-estilo-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Editar un ensayo sin borrar la voz del autor»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Editar un ensayo sin borrar la voz del autor",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Mejorar precisión, cohesión y ritmo",
+          "Definir de memoria el tema «Edición de estilo»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -24205,85 +24284,86 @@
     "level": "A2",
     "skill": "reading",
     "unitId": "comidas-y-recetas",
-    "title": "Lectura · Comidas y recetas",
+    "title": "Comidas y recetas: una situación cotidiana",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 70,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre comidas y recetas.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "relato personal: comidas y recetas.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Explicar ingredientes y pasos",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Preparar una comida para amistades",
-      "text": "Mateo participa en una situación relacionada con comidas y recetas. Su reto es preparar una comida para amistades. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Mateo compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "Comidas y recetas: una situación cotidiana",
+      "text": "Me llamo Mateo y esta semana necesito preparar una comida para amistades. No quiero resolverlo con prisa, porque también deseo explicar ingredientes y pasos. Primero observo la situación, anoto lo que ya sé y preparo las preguntas que debo hacer.\n\nDurante la actividad uso palabras importantes como «ingrediente», «mezclar» y «hervir». También aparecen «horno», «sabor» y «porción» cuando explico los detalles. La primera opción no funciona como esperaba, así que comparo otra posibilidad y pido una aclaración antes de decidir.\n\nAl final encuentro una solución práctica y explico los pasos en orden. Para hacerlo aplico se impersonal e imperativo. La experiencia me ayuda a hablar con más seguridad y a comprobar que pedir información clara puede evitar errores. La próxima vez podré actuar con mayor autonomía.",
       "questions": [
-        "¿Cuál es el reto principal de Mateo?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
-      ]
+        "¿Qué situación necesita resolver la persona que narra?",
+        "¿Qué hace antes de decidir?",
+        "¿Por qué compara otra posibilidad?"
+      ],
+      "references": []
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Mateo?",
+        "prompt": "¿Qué situación necesita resolver la persona que narra?",
         "options": [
           "Preparar una comida para amistades",
-          "Memorizar una lista sin contexto",
+          "Preparar un examen sin instrucciones",
+          "Organizar una competición deportiva",
+          "Cambiar de escuela"
+        ],
+        "explanation": "El primer párrafo presenta la situación cotidiana de la unidad."
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué hace antes de decidir?",
+        "options": [
+          "Elige la primera opción",
+          "Observa, anota y prepara preguntas",
+          "Pide a otra persona que decida",
+          "Abandona la actividad"
+        ],
+        "explanation": "La persona organiza la información antes de actuar."
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Por qué compara otra posibilidad?",
+        "options": [
+          "La primera opción no funciona como esperaba",
+          "Quiere gastar más dinero",
+          "Olvida el objetivo",
+          "No comprende ninguna palabra"
+        ],
+        "explanation": "El segundo párrafo explica por qué cambia de estrategia."
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué consigue al final?",
+        "options": [
+          "Una solución práctica y más autonomía",
+          "Una respuesta memorizada",
           "Evitar toda conversación",
-          "Cambiar de tema"
+          "Resolver un problema diferente"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La conclusión relaciona la solución con mayor seguridad y autonomía."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué recurso gramatical aplica para explicar los pasos?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "se impersonal e imperativo",
+          "Solo nombres propios",
+          "El alfabeto aislado",
+          "Únicamente números"
         ],
-        "explanation": "El texto destaca la comparación razonada."
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
-        "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
-        ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
-        "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
-        ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
-      },
-      {
-        "id": "spanish-a2-comidas-y-recetas-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Preparar una comida para amistades»?",
-        "options": [
-          "Presentar las ideas y los detalles esenciales de Preparar una comida para amistades",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+        "explanation": "La lectura integra explícitamente se impersonal e imperativo."
       }
     ]
   },
@@ -24292,85 +24372,86 @@
     "level": "B1",
     "skill": "reading",
     "unitId": "cultura-y-tradiciones",
-    "title": "Lectura · Cultura y tradiciones",
+    "title": "Una tradición que cambia para seguir viva",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 70,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre cultura y tradiciones.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "crónica histórica: cultura y tradiciones.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Describir prácticas sin generalizar",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Explicar una tradición a una visitante",
-      "text": "Mateo participa en una situación relacionada con cultura y tradiciones. Su reto es explicar una tradición a una visitante. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Mateo compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "Una tradición que cambia para seguir viva",
+      "text": "Tres generaciones describen la transformación de una celebración local y debaten qué representa memoria compartida y qué puede renovarse. Este crónica histórica no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con explicar una tradición a una visitante. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «costumbre», «origen» y «comunidad». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «transmitir», «patrimonio» y «diversidad» antes de defender una conclusión.\n\nLa postura final propone describir prácticas sin generalizar. Para expresarla con precisión se emplean se impersonal y pasiva refleja. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.",
       "questions": [
-        "¿Cuál es el reto principal de Mateo?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
-      ]
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": []
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Mateo?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Explicar una tradición a una visitante",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "crónica histórica",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como crónica histórica."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-b1-cultura-y-tradiciones-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Explicar una tradición a una visitante»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Explicar una tradición a una visitante",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Describir prácticas sin generalizar",
+          "Definir de memoria el tema «Cultura y tradiciones»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -24379,85 +24460,86 @@
     "level": "B2",
     "skill": "reading",
     "unitId": "alimentacion-y-sociedad",
-    "title": "Lectura · Alimentación y sociedad",
+    "title": "Comer bien no depende solo de elegir bien",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 70,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre alimentación y sociedad.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "reportaje social: alimentación y sociedad.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Relacionar elecciones personales y sistemas",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Examinar decisiones alimentarias y acceso",
-      "text": "Mateo participa en una situación relacionada con alimentación y sociedad. Su reto es examinar decisiones alimentarias y acceso. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Mateo compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "Comer bien no depende solo de elegir bien",
+      "text": "Precio, tiempo, transporte, publicidad y oferta local condicionan decisiones alimentarias presentadas a menudo como exclusivamente individuales. Este reportaje social no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con examinar decisiones alimentarias y acceso. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «cadena de suministro», «etiquetado» y «desperdicio». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «acceso», «nutrición» y «producción» antes de defender una conclusión.\n\nLa postura final propone relacionar elecciones personales y sistemas. Para expresarla con precisión se emplean pasiva refleja y construcciones impersonales. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.\n\nTambién es necesario evaluar la evidencia. Un testimonio puede revelar una experiencia ignorada, pero no representa automáticamente a toda una generación; una cifra puede describir una tendencia, pero depende de la muestra y de la forma de medir. La lectura combina voces y datos sin tratarlos como pruebas intercambiables.",
       "questions": [
-        "¿Cuál es el reto principal de Mateo?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
-      ]
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": []
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Mateo?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Examinar decisiones alimentarias y acceso",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "reportaje social",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como reportaje social."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-b2-alimentacion-y-sociedad-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Examinar decisiones alimentarias y acceso»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Examinar decisiones alimentarias y acceso",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Relacionar elecciones personales y sistemas",
+          "Definir de memoria el tema «Alimentación y sociedad»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -24466,26 +24548,34 @@
     "level": "C1",
     "skill": "reading",
     "unitId": "economia-y-cuidados",
-    "title": "Lectura · Economía y cuidados",
+    "title": "El trabajo que sostiene el día y desaparece de las cuentas",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 70,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre economía y cuidados.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "ensayo social: economía y cuidados.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Relacionar datos, experiencia y política pública",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Visibilizar trabajos esenciales poco reconocidos",
-      "text": "Mateo participa en una situación relacionada con economía y cuidados. Su reto es visibilizar trabajos esenciales poco reconocidos. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Mateo compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "El trabajo que sostiene el día y desaparece de las cuentas",
+      "text": "Testimonios juveniles muestran cómo cuidar hermanos, mayores y hogares distribuye tiempo, oportunidades educativas y carga emocional. Este ensayo social no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con visibilizar trabajos esenciales poco reconocidos. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «cuidados», «remuneración» y «carga». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «corresponsabilidad», «sostener» y «invisibilizado» antes de defender una conclusión.\n\nLa postura final propone relacionar datos, experiencia y política pública. Para expresarla con precisión se emplean nominalización y densidad informativa. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.\n\nTambién es necesario evaluar la evidencia. Un testimonio puede revelar una experiencia ignorada, pero no representa automáticamente a toda una generación; una cifra puede describir una tendencia, pero depende de la muestra y de la forma de medir. La lectura combina voces y datos sin tratarlos como pruebas intercambiables.\n\nDesde una perspectiva metodológica, la tesis conserva un carácter revisable. El análisis explicita sus límites, considera una objeción plausible y señala qué información adicional podría modificar la conclusión. Esa cautela no equivale a indecisión: es responsabilidad académica frente a problemas complejos.",
       "questions": [
-        "¿Cuál es el reto principal de Mateo?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": [
+        {
+          "author": "OCDE",
+          "title": "Trends Shaping Education 2025",
+          "year": 2025,
+          "url": "https://www.oecd.org/en/publications/2025/01/trends-shaping-education-2025_3069cbd2/full-report/work-and-progress_423e3500.html"
+        }
       ]
     },
     "transcript": "",
@@ -24493,58 +24583,58 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Mateo?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Visibilizar trabajos esenciales poco reconocidos",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "ensayo social",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como ensayo social."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-c1-economia-y-cuidados-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Visibilizar trabajos esenciales poco reconocidos»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Visibilizar trabajos esenciales poco reconocidos",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Relacionar datos, experiencia y política pública",
+          "Definir de memoria el tema «Economía y cuidados»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -24553,85 +24643,86 @@
     "level": "C2",
     "skill": "reading",
     "unitId": "debate-epistemico",
-    "title": "Lectura · Debate epistémico",
+    "title": "Qué podemos afirmar cuando la evidencia no alcanza",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 70,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre debate epistémico.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "ensayo epistemológico: debate epistémico.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Graduar certeza y responsabilidad discursiva",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Evaluar qué puede afirmarse a partir de evidencia incompleta",
-      "text": "Mateo participa en una situación relacionada con debate epistémico. Su reto es evaluar qué puede afirmarse a partir de evidencia incompleta. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Mateo compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "Qué podemos afirmar cuando la evidencia no alcanza",
+      "text": "Datos incompletos permiten varias inferencias plausibles, pero no autorizan el mismo grado de certeza para todas. Este ensayo epistemológico no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con evaluar qué puede afirmarse a partir de evidencia incompleta. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «corroborar», «plausible» y «refutar». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «provisional», «inferencia» y «certeza» antes de defender una conclusión.\n\nLa postura final propone graduar certeza y responsabilidad discursiva. Para expresarla con precisión se emplean evidencialidad y grados de compromiso. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.\n\nTambién es necesario evaluar la evidencia. Un testimonio puede revelar una experiencia ignorada, pero no representa automáticamente a toda una generación; una cifra puede describir una tendencia, pero depende de la muestra y de la forma de medir. La lectura combina voces y datos sin tratarlos como pruebas intercambiables.\n\nDesde una perspectiva metodológica, la tesis conserva un carácter revisable. El análisis explicita sus límites, considera una objeción plausible y señala qué información adicional podría modificar la conclusión. Esa cautela no equivale a indecisión: es responsabilidad académica frente a problemas complejos.\n\nQueda una dificultad epistemológica. Las categorías que organizan el debate también producen efectos: vuelven visibles ciertos daños y dejan otros en segundo plano. El lector experto examina no solo si la inferencia es válida, sino qué presupone su vocabulario, a quién concede autoridad y bajo qué condiciones podría trasladarse a otro contexto.",
       "questions": [
-        "¿Cuál es el reto principal de Mateo?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
-      ]
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": []
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Mateo?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Evaluar qué puede afirmarse a partir de evidencia incompleta",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "ensayo epistemológico",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como ensayo epistemológico."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-c2-debate-epistemico-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Evaluar qué puede afirmarse a partir de evidencia incompleta»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Evaluar qué puede afirmarse a partir de evidencia incompleta",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Graduar certeza y responsabilidad discursiva",
+          "Definir de memoria el tema «Debate epistémico»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -28144,85 +28235,86 @@
     "level": "A2",
     "skill": "reading",
     "unitId": "recuerdos-y-experiencias",
-    "title": "Lectura · Recuerdos y experiencias",
+    "title": "Recuerdos y experiencias: una situación cotidiana",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 80,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre recuerdos y experiencias.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "relato personal: recuerdos y experiencias.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Narrar hechos terminados y experiencias",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Contar una experiencia especial",
-      "text": "Lucía participa en una situación relacionada con recuerdos y experiencias. Su reto es contar una experiencia especial. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Lucía compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "Recuerdos y experiencias: una situación cotidiana",
+      "text": "Me llamo Lucía y esta semana necesito contar una experiencia especial. No quiero resolverlo con prisa, porque también deseo narrar hechos terminados y experiencias. Primero observo la situación, anoto lo que ya sé y preparo las preguntas que debo hacer.\n\nDurante la actividad uso palabras importantes como «recuerdo», «viaje» y «anécdota». También aparecen «ocurrir», «disfrutar» y «sorpresa» cuando explico los detalles. La primera opción no funciona como esperaba, así que comparo otra posibilidad y pido una aclaración antes de decidir.\n\nAl final encuentro una solución práctica y explico los pasos en orden. Para hacerlo aplico pretérito perfecto e indefinido. La experiencia me ayuda a hablar con más seguridad y a comprobar que pedir información clara puede evitar errores. La próxima vez podré actuar con mayor autonomía.",
       "questions": [
-        "¿Cuál es el reto principal de Lucía?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
-      ]
+        "¿Qué situación necesita resolver la persona que narra?",
+        "¿Qué hace antes de decidir?",
+        "¿Por qué compara otra posibilidad?"
+      ],
+      "references": []
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Lucía?",
+        "prompt": "¿Qué situación necesita resolver la persona que narra?",
         "options": [
           "Contar una experiencia especial",
-          "Memorizar una lista sin contexto",
+          "Preparar un examen sin instrucciones",
+          "Organizar una competición deportiva",
+          "Cambiar de escuela"
+        ],
+        "explanation": "El primer párrafo presenta la situación cotidiana de la unidad."
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué hace antes de decidir?",
+        "options": [
+          "Elige la primera opción",
+          "Observa, anota y prepara preguntas",
+          "Pide a otra persona que decida",
+          "Abandona la actividad"
+        ],
+        "explanation": "La persona organiza la información antes de actuar."
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Por qué compara otra posibilidad?",
+        "options": [
+          "La primera opción no funciona como esperaba",
+          "Quiere gastar más dinero",
+          "Olvida el objetivo",
+          "No comprende ninguna palabra"
+        ],
+        "explanation": "El segundo párrafo explica por qué cambia de estrategia."
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué consigue al final?",
+        "options": [
+          "Una solución práctica y más autonomía",
+          "Una respuesta memorizada",
           "Evitar toda conversación",
-          "Cambiar de tema"
+          "Resolver un problema diferente"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La conclusión relaciona la solución con mayor seguridad y autonomía."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué recurso gramatical aplica para explicar los pasos?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "pretérito perfecto e indefinido",
+          "Solo nombres propios",
+          "El alfabeto aislado",
+          "Únicamente números"
         ],
-        "explanation": "El texto destaca la comparación razonada."
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
-        "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
-        ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
-        "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
-        ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
-      },
-      {
-        "id": "spanish-a2-recuerdos-y-experiencias-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Contar una experiencia especial»?",
-        "options": [
-          "Presentar las ideas y los detalles esenciales de Contar una experiencia especial",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+        "explanation": "La lectura integra explícitamente pretérito perfecto e indefinido."
       }
     ]
   },
@@ -28231,85 +28323,86 @@
     "level": "B1",
     "skill": "reading",
     "unitId": "educacion-y-metas",
-    "title": "Lectura · Educación y metas",
+    "title": "Elegir una carrera sin tener toda la vida resuelta",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 80,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre educación y metas.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "editorial: educación y metas.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Comparar opciones y justificar metas",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Elegir un curso de formación",
-      "text": "Lucía participa en una situación relacionada con educación y metas. Su reto es elegir un curso de formación. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Lucía compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "Elegir una carrera sin tener toda la vida resuelta",
+      "text": "El texto cuestiona que una decisión tomada a los diecisiete años deba fijar para siempre el futuro académico y profesional. Este editorial no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con elegir un curso de formación. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «matrícula», «beca» y «requisito». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «modalidad», «meta» y «formación» antes de defender una conclusión.\n\nLa postura final propone comparar opciones y justificar metas. Para expresarla con precisión se emplean futuro y condicional. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.",
       "questions": [
-        "¿Cuál es el reto principal de Lucía?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
-      ]
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": []
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Lucía?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Elegir un curso de formación",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "editorial",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como editorial."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-b1-educacion-y-metas-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Elegir un curso de formación»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Elegir un curso de formación",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Comparar opciones y justificar metas",
+          "Definir de memoria el tema «Educación y metas»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -28318,85 +28411,86 @@
     "level": "B2",
     "skill": "reading",
     "unitId": "arte-y-espacio-publico",
-    "title": "Lectura · Arte y espacio público",
+    "title": "¿De quién es la pared?",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 80,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre arte y espacio público.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "crítica cultural: arte y espacio público.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Interpretar propuestas y negociar criterios",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Decidir el uso cultural de una plaza",
-      "text": "Lucía participa en una situación relacionada con arte y espacio público. Su reto es decidir el uso cultural de una plaza. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Lucía compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "¿De quién es la pared?",
+      "text": "La creación de un mural abre una discusión sobre memoria barrial, libertad artística, financiación y participación en el paisaje común. Este crítica cultural no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con decidir el uso cultural de una plaza. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «intervención», «mural» y «financiación». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «audiencia», «controversia» y «expresión» antes de defender una conclusión.\n\nLa postura final propone interpretar propuestas y negociar criterios. Para expresarla con precisión se emplean subjuntivo en relativas y valoración. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.\n\nTambién es necesario evaluar la evidencia. Un testimonio puede revelar una experiencia ignorada, pero no representa automáticamente a toda una generación; una cifra puede describir una tendencia, pero depende de la muestra y de la forma de medir. La lectura combina voces y datos sin tratarlos como pruebas intercambiables.",
       "questions": [
-        "¿Cuál es el reto principal de Lucía?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
-      ]
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": []
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Lucía?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Decidir el uso cultural de una plaza",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "crítica cultural",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como crítica cultural."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-b2-arte-y-espacio-publico-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Decidir el uso cultural de una plaza»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Decidir el uso cultural de una plaza",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Interpretar propuestas y negociar criterios",
+          "Definir de memoria el tema «Arte y espacio público»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -28405,85 +28499,86 @@
     "level": "C1",
     "skill": "reading",
     "unitId": "diversidad-del-espanol",
-    "title": "Lectura · Diversidad del español",
+    "title": "Hablar distinto no es hablar peor",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 80,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre diversidad del español.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "artículo sociolingüístico: diversidad del español.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Explicar variación sin establecer jerarquías",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Comparar usos de distintas comunidades hispanohablantes",
-      "text": "Lucía participa en una situación relacionada con diversidad del español. Su reto es comparar usos de distintas comunidades hispanohablantes. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Lucía compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "Hablar distinto no es hablar peor",
+      "text": "Variantes caribeñas, andinas y rioplatenses permiten examinar prestigio, identidad, adecuación y prejuicio sin establecer jerarquías. Este artículo sociolingüístico no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con comparar usos de distintas comunidades hispanohablantes. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «variedad», «rasgo» y «hablante». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «prestigio», «regionalismo» y «adecuación» antes de defender una conclusión.\n\nLa postura final propone explicar variación sin establecer jerarquías. Para expresarla con precisión se emplean variación, registro y adecuación pragmática. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.\n\nTambién es necesario evaluar la evidencia. Un testimonio puede revelar una experiencia ignorada, pero no representa automáticamente a toda una generación; una cifra puede describir una tendencia, pero depende de la muestra y de la forma de medir. La lectura combina voces y datos sin tratarlos como pruebas intercambiables.\n\nDesde una perspectiva metodológica, la tesis conserva un carácter revisable. El análisis explicita sus límites, considera una objeción plausible y señala qué información adicional podría modificar la conclusión. Esa cautela no equivale a indecisión: es responsabilidad académica frente a problemas complejos.",
       "questions": [
-        "¿Cuál es el reto principal de Lucía?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
-      ]
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": []
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Lucía?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Comparar usos de distintas comunidades hispanohablantes",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "artículo sociolingüístico",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como artículo sociolingüístico."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-c1-diversidad-del-espanol-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Comparar usos de distintas comunidades hispanohablantes»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Comparar usos de distintas comunidades hispanohablantes",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Explicar variación sin establecer jerarquías",
+          "Definir de memoria el tema «Diversidad del español»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -28492,85 +28587,86 @@
     "level": "C2",
     "skill": "reading",
     "unitId": "estetica-y-interpretacion",
-    "title": "Lectura · Estética e interpretación",
+    "title": "Una obra, tres marcos críticos",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 80,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre estética e interpretación.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "ensayo comparado: estética e interpretación.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Integrar lecturas incompatibles sin simplificarlas",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Comparar marcos críticos sobre una obra",
-      "text": "Lucía participa en una situación relacionada con estética e interpretación. Su reto es comparar marcos críticos sobre una obra. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Lucía compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "Una obra, tres marcos críticos",
+      "text": "Las interpretaciones formal, histórica y decolonial producen preguntas distintas sin que su coexistencia las vuelva equivalentes. Este ensayo comparado no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con comparar marcos críticos sobre una obra. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «marco crítico», «recepción» y «canon». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «ruptura», «lectura» y «estética» antes de defender una conclusión.\n\nLa postura final propone integrar lecturas incompatibles sin simplificarlas. Para expresarla con precisión se emplean metáfora conceptual y lenguaje crítico. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.\n\nTambién es necesario evaluar la evidencia. Un testimonio puede revelar una experiencia ignorada, pero no representa automáticamente a toda una generación; una cifra puede describir una tendencia, pero depende de la muestra y de la forma de medir. La lectura combina voces y datos sin tratarlos como pruebas intercambiables.\n\nDesde una perspectiva metodológica, la tesis conserva un carácter revisable. El análisis explicita sus límites, considera una objeción plausible y señala qué información adicional podría modificar la conclusión. Esa cautela no equivale a indecisión: es responsabilidad académica frente a problemas complejos.\n\nQueda una dificultad epistemológica. Las categorías que organizan el debate también producen efectos: vuelven visibles ciertos daños y dejan otros en segundo plano. El lector experto examina no solo si la inferencia es válida, sino qué presupone su vocabulario, a quién concede autoridad y bajo qué condiciones podría trasladarse a otro contexto.",
       "questions": [
-        "¿Cuál es el reto principal de Lucía?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
-      ]
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": []
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Lucía?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Comparar marcos críticos sobre una obra",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "ensayo comparado",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como ensayo comparado."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-c2-estetica-y-interpretacion-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Comparar marcos críticos sobre una obra»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Comparar marcos críticos sobre una obra",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Integrar lecturas incompatibles sin simplificarlas",
+          "Definir de memoria el tema «Estética e interpretación»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -32078,85 +32174,86 @@
     "level": "A2",
     "skill": "reading",
     "unitId": "celebraciones",
-    "title": "Lectura · Celebraciones",
+    "title": "Celebraciones: una situación cotidiana",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 90,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre celebraciones.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "relato personal: celebraciones.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Invitar, aceptar y rechazar con cortesía",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Organizar una celebración familiar",
-      "text": "Mateo participa en una situación relacionada con celebraciones. Su reto es organizar una celebración familiar. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Mateo compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "Celebraciones: una situación cotidiana",
+      "text": "Me llamo Mateo y esta semana necesito organizar una celebración familiar. No quiero resolverlo con prisa, porque también deseo invitar, aceptar y rechazar con cortesía. Primero observo la situación, anoto lo que ya sé y preparo las preguntas que debo hacer.\n\nDurante la actividad uso palabras importantes como «invitación», «regalo» y «reunión». También aparecen «celebrar», «aceptar» y «rechazar» cuando explico los detalles. La primera opción no funciona como esperaba, así que comparo otra posibilidad y pido una aclaración antes de decidir.\n\nAl final encuentro una solución práctica y explico los pasos en orden. Para hacerlo aplico pronombres de objeto y quedar. La experiencia me ayuda a hablar con más seguridad y a comprobar que pedir información clara puede evitar errores. La próxima vez podré actuar con mayor autonomía.",
       "questions": [
-        "¿Cuál es el reto principal de Mateo?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
-      ]
+        "¿Qué situación necesita resolver la persona que narra?",
+        "¿Qué hace antes de decidir?",
+        "¿Por qué compara otra posibilidad?"
+      ],
+      "references": []
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Mateo?",
+        "prompt": "¿Qué situación necesita resolver la persona que narra?",
         "options": [
           "Organizar una celebración familiar",
-          "Memorizar una lista sin contexto",
+          "Preparar un examen sin instrucciones",
+          "Organizar una competición deportiva",
+          "Cambiar de escuela"
+        ],
+        "explanation": "El primer párrafo presenta la situación cotidiana de la unidad."
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué hace antes de decidir?",
+        "options": [
+          "Elige la primera opción",
+          "Observa, anota y prepara preguntas",
+          "Pide a otra persona que decida",
+          "Abandona la actividad"
+        ],
+        "explanation": "La persona organiza la información antes de actuar."
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Por qué compara otra posibilidad?",
+        "options": [
+          "La primera opción no funciona como esperaba",
+          "Quiere gastar más dinero",
+          "Olvida el objetivo",
+          "No comprende ninguna palabra"
+        ],
+        "explanation": "El segundo párrafo explica por qué cambia de estrategia."
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué consigue al final?",
+        "options": [
+          "Una solución práctica y más autonomía",
+          "Una respuesta memorizada",
           "Evitar toda conversación",
-          "Cambiar de tema"
+          "Resolver un problema diferente"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La conclusión relaciona la solución con mayor seguridad y autonomía."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué recurso gramatical aplica para explicar los pasos?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "pronombres de objeto y quedar",
+          "Solo nombres propios",
+          "El alfabeto aislado",
+          "Únicamente números"
         ],
-        "explanation": "El texto destaca la comparación razonada."
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
-        "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
-        ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
-        "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
-        ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
-      },
-      {
-        "id": "spanish-a2-celebraciones-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Organizar una celebración familiar»?",
-        "options": [
-          "Presentar las ideas y los detalles esenciales de Organizar una celebración familiar",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+        "explanation": "La lectura integra explícitamente pronombres de objeto y quedar."
       }
     ]
   },
@@ -32165,85 +32262,86 @@
     "level": "B1",
     "skill": "reading",
     "unitId": "medioambiente-local",
-    "title": "Lectura · Medioambiente local",
+    "title": "El patio escolar que dejó de ser una isla de calor",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 90,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre medioambiente local.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "reportaje comunitario: medioambiente local.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Explicar causas, consecuencias y propuestas",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Proponer una mejora para el barrio",
-      "text": "Mateo participa en una situación relacionada con medioambiente local. Su reto es proponer una mejora para el barrio. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Mateo compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "El patio escolar que dejó de ser una isla de calor",
+      "text": "Estudiantes miden sombra, temperatura y uso del espacio antes de proponer árboles, agua y zonas de descanso para su comunidad. Este reportaje comunitario no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con proponer una mejora para el barrio. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «reciclaje», «contaminación» y «medida». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «recurso», «reducir» y «impacto» antes de defender una conclusión.\n\nLa postura final propone explicar causas, consecuencias y propuestas. Para expresarla con precisión se emplean condicional real y conectores causales. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.",
       "questions": [
-        "¿Cuál es el reto principal de Mateo?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
-      ]
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": []
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Mateo?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Proponer una mejora para el barrio",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "reportaje comunitario",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como reportaje comunitario."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-b1-medioambiente-local-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Proponer una mejora para el barrio»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Proponer una mejora para el barrio",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Explicar causas, consecuencias y propuestas",
+          "Definir de memoria el tema «Medioambiente local»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -32252,85 +32350,86 @@
     "level": "B2",
     "skill": "reading",
     "unitId": "ciencia-y-etica",
-    "title": "Lectura · Ciencia y ética",
+    "title": "Innovar antes de conocer todas las consecuencias",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 90,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre ciencia y ética.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "artículo de divulgación: ciencia y ética.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Distinguir hechos, valores y precauciones",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Debatir una innovación con impacto social",
-      "text": "Mateo participa en una situación relacionada con ciencia y ética. Su reto es debatir una innovación con impacto social. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Mateo compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "Innovar antes de conocer todas las consecuencias",
+      "text": "Una tecnología prometedora obliga a distinguir capacidad técnica, beneficio probable, riesgo, consentimiento y distribución justa. Este artículo de divulgación no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con debatir una innovación con impacto social. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «hallazgo», «riesgo» y «ensayo». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «regulación», «principio» y «incertidumbre» antes de defender una conclusión.\n\nLa postura final propone distinguir hechos, valores y precauciones. Para expresarla con precisión se emplean modales de deducción y probabilidad. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.\n\nTambién es necesario evaluar la evidencia. Un testimonio puede revelar una experiencia ignorada, pero no representa automáticamente a toda una generación; una cifra puede describir una tendencia, pero depende de la muestra y de la forma de medir. La lectura combina voces y datos sin tratarlos como pruebas intercambiables.",
       "questions": [
-        "¿Cuál es el reto principal de Mateo?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
-      ]
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": []
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Mateo?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Debatir una innovación con impacto social",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "artículo de divulgación",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como artículo de divulgación."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-b2-ciencia-y-etica-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Debatir una innovación con impacto social»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Debatir una innovación con impacto social",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Distinguir hechos, valores y precauciones",
+          "Definir de memoria el tema «Ciencia y ética»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -32339,85 +32438,86 @@
     "level": "C1",
     "skill": "reading",
     "unitId": "diplomacia-y-negociacion",
-    "title": "Lectura · Diplomacia y negociación",
+    "title": "Ceder sin renunciar al problema",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 90,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre diplomacia y negociación.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "estudio de caso: diplomacia y negociación.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Reformular, ceder y preservar relaciones",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Mediar entre posiciones incompatibles",
-      "text": "Mateo participa en una situación relacionada con diplomacia y negociación. Su reto es mediar entre posiciones incompatibles. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Mateo compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "Ceder sin renunciar al problema",
+      "text": "Dos organizaciones juveniles con prioridades incompatibles ensayan reformulación, reconocimiento y concesiones verificables. Este estudio de caso no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con mediar entre posiciones incompatibles. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «concesión», «mediación» y «desacuerdo». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «margen», «compromiso» y «postura» antes de defender una conclusión.\n\nLa postura final propone reformular, ceder y preservar relaciones. Para expresarla con precisión se emplean atenuación y cortesía avanzada. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.\n\nTambién es necesario evaluar la evidencia. Un testimonio puede revelar una experiencia ignorada, pero no representa automáticamente a toda una generación; una cifra puede describir una tendencia, pero depende de la muestra y de la forma de medir. La lectura combina voces y datos sin tratarlos como pruebas intercambiables.\n\nDesde una perspectiva metodológica, la tesis conserva un carácter revisable. El análisis explicita sus límites, considera una objeción plausible y señala qué información adicional podría modificar la conclusión. Esa cautela no equivale a indecisión: es responsabilidad académica frente a problemas complejos.",
       "questions": [
-        "¿Cuál es el reto principal de Mateo?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
-      ]
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": []
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Mateo?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Mediar entre posiciones incompatibles",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "estudio de caso",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como estudio de caso."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-c1-diplomacia-y-negociacion-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Mediar entre posiciones incompatibles»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Mediar entre posiciones incompatibles",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Reformular, ceder y preservar relaciones",
+          "Definir de memoria el tema «Diplomacia y negociación»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -32426,26 +32526,34 @@
     "level": "C2",
     "skill": "reading",
     "unitId": "discurso-cientifico",
-    "title": "Lectura · Discurso científico",
+    "title": "Traducir un hallazgo sin fabricar certeza",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 90,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre discurso científico.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "artículo de metaciencia: discurso científico.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Adaptar densidad y precisión sin distorsionar",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Convertir resultados especializados para públicos distintos",
-      "text": "Mateo participa en una situación relacionada con discurso científico. Su reto es convertir resultados especializados para públicos distintos. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Mateo compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "Traducir un hallazgo sin fabricar certeza",
+      "text": "Divulgar resultados sobre aprendizaje y cerebro exige distinguir muestra, correlación, mecanismo, limitación y replicabilidad. Este artículo de metaciencia no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con convertir resultados especializados para públicos distintos. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «divulgación», «muestra» y «limitación». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «hallazgo», «replicabilidad» y «consenso» antes de defender una conclusión.\n\nLa postura final propone adaptar densidad y precisión sin distorsionar. Para expresarla con precisión se emplean reformulación explicativa y cautela. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.\n\nTambién es necesario evaluar la evidencia. Un testimonio puede revelar una experiencia ignorada, pero no representa automáticamente a toda una generación; una cifra puede describir una tendencia, pero depende de la muestra y de la forma de medir. La lectura combina voces y datos sin tratarlos como pruebas intercambiables.\n\nDesde una perspectiva metodológica, la tesis conserva un carácter revisable. El análisis explicita sus límites, considera una objeción plausible y señala qué información adicional podría modificar la conclusión. Esa cautela no equivale a indecisión: es responsabilidad académica frente a problemas complejos.\n\nQueda una dificultad epistemológica. Las categorías que organizan el debate también producen efectos: vuelven visibles ciertos daños y dejan otros en segundo plano. El lector experto examina no solo si la inferencia es válida, sino qué presupone su vocabulario, a quién concede autoridad y bajo qué condiciones podría trasladarse a otro contexto.",
       "questions": [
-        "¿Cuál es el reto principal de Mateo?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": [
+        {
+          "author": "UNESCO",
+          "title": "AI competency framework for students",
+          "year": 2024,
+          "url": "https://www.unesco.org/en/articles/ai-competency-framework-students"
+        }
       ]
     },
     "transcript": "",
@@ -32453,58 +32561,58 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Mateo?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Convertir resultados especializados para públicos distintos",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "artículo de metaciencia",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como artículo de metaciencia."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-c2-discurso-cientifico-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Convertir resultados especializados para públicos distintos»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Convertir resultados especializados para públicos distintos",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Adaptar densidad y precisión sin distorsionar",
+          "Definir de memoria el tema «Discurso científico»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -36014,85 +36122,86 @@
     "level": "A2",
     "skill": "reading",
     "unitId": "estudio-y-aprendizaje",
-    "title": "Lectura · Estudio y aprendizaje",
+    "title": "Estudio y aprendizaje: una situación cotidiana",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 100,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre estudio y aprendizaje.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "relato personal: estudio y aprendizaje.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Expresar dificultades y estrategias",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Preparar un plan de estudio",
-      "text": "Lucía participa en una situación relacionada con estudio y aprendizaje. Su reto es preparar un plan de estudio. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Lucía compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "Estudio y aprendizaje: una situación cotidiana",
+      "text": "Me llamo Lucía y esta semana necesito preparar un plan de estudio. No quiero resolverlo con prisa, porque también deseo expresar dificultades y estrategias. Primero observo la situación, anoto lo que ya sé y preparo las preguntas que debo hacer.\n\nDurante la actividad uso palabras importantes como «apunte», «repasar» y «tarea». También aparecen «plazo», «practicar» y «progreso» cuando explico los detalles. La primera opción no funciona como esperaba, así que comparo otra posibilidad y pido una aclaración antes de decidir.\n\nAl final encuentro una solución práctica y explico los pasos en orden. Para hacerlo aplico desde, desde hace y llevar + gerundio. La experiencia me ayuda a hablar con más seguridad y a comprobar que pedir información clara puede evitar errores. La próxima vez podré actuar con mayor autonomía.",
       "questions": [
-        "¿Cuál es el reto principal de Lucía?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
-      ]
+        "¿Qué situación necesita resolver la persona que narra?",
+        "¿Qué hace antes de decidir?",
+        "¿Por qué compara otra posibilidad?"
+      ],
+      "references": []
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Lucía?",
+        "prompt": "¿Qué situación necesita resolver la persona que narra?",
         "options": [
           "Preparar un plan de estudio",
-          "Memorizar una lista sin contexto",
+          "Preparar un examen sin instrucciones",
+          "Organizar una competición deportiva",
+          "Cambiar de escuela"
+        ],
+        "explanation": "El primer párrafo presenta la situación cotidiana de la unidad."
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué hace antes de decidir?",
+        "options": [
+          "Elige la primera opción",
+          "Observa, anota y prepara preguntas",
+          "Pide a otra persona que decida",
+          "Abandona la actividad"
+        ],
+        "explanation": "La persona organiza la información antes de actuar."
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Por qué compara otra posibilidad?",
+        "options": [
+          "La primera opción no funciona como esperaba",
+          "Quiere gastar más dinero",
+          "Olvida el objetivo",
+          "No comprende ninguna palabra"
+        ],
+        "explanation": "El segundo párrafo explica por qué cambia de estrategia."
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué consigue al final?",
+        "options": [
+          "Una solución práctica y más autonomía",
+          "Una respuesta memorizada",
           "Evitar toda conversación",
-          "Cambiar de tema"
+          "Resolver un problema diferente"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La conclusión relaciona la solución con mayor seguridad y autonomía."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué recurso gramatical aplica para explicar los pasos?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "desde, desde hace y llevar + gerundio",
+          "Solo nombres propios",
+          "El alfabeto aislado",
+          "Únicamente números"
         ],
-        "explanation": "El texto destaca la comparación razonada."
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
-        "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
-        ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
-        "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
-        ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
-      },
-      {
-        "id": "spanish-a2-estudio-y-aprendizaje-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Preparar un plan de estudio»?",
-        "options": [
-          "Presentar las ideas y los detalles esenciales de Preparar un plan de estudio",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+        "explanation": "La lectura integra explícitamente desde, desde hace y llevar + gerundio."
       }
     ]
   },
@@ -36101,26 +36210,40 @@
     "level": "B1",
     "skill": "reading",
     "unitId": "salud-y-habitos",
-    "title": "Lectura · Salud y hábitos",
+    "title": "Dormir no es perder el tiempo",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 100,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre salud y hábitos.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "artículo divulgativo: salud y hábitos.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Dar consejos razonados",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Diseñar una rutina sostenible",
-      "text": "Lucía participa en una situación relacionada con salud y hábitos. Su reto es diseñar una rutina sostenible. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Lucía compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "Dormir no es perder el tiempo",
+      "text": "La presión académica, las notificaciones y los horarios irregulares se examinan como problema colectivo, además de hábito personal. Este artículo divulgativo no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con diseñar una rutina sostenible. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «bienestar», «descanso» y «equilibrio». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «hábito», «estrés» y «constancia» antes de defender una conclusión.\n\nLa postura final propone dar consejos razonados. Para expresarla con precisión se emplean subjuntivo con recomendación. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.",
       "questions": [
-        "¿Cuál es el reto principal de Lucía?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": [
+        {
+          "author": "OMS Europa",
+          "title": "Teens, screens and mental health",
+          "year": 2024,
+          "url": "https://www.who.int/europe/news-room/25-09-2024-teens--screens-and-mental-health"
+        },
+        {
+          "author": "Organización Mundial de la Salud",
+          "title": "Salud mental del adolescente",
+          "year": 2025,
+          "url": "https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health"
+        }
       ]
     },
     "transcript": "",
@@ -36128,58 +36251,58 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Lucía?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Diseñar una rutina sostenible",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "artículo divulgativo",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como artículo divulgativo."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-b1-salud-y-habitos-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Diseñar una rutina sostenible»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Diseñar una rutina sostenible",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Dar consejos razonados",
+          "Definir de memoria el tema «Salud y hábitos»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -36188,26 +36311,34 @@
     "level": "B2",
     "skill": "reading",
     "unitId": "vivienda-y-desigualdad",
-    "title": "Lectura · Vivienda y desigualdad",
+    "title": "Empezar la vida adulta sin poder salir de casa",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 100,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre vivienda y desigualdad.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "editorial económico: vivienda y desigualdad.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Explicar causas múltiples y soluciones",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Analizar el aumento del alquiler",
-      "text": "Lucía participa en una situación relacionada con vivienda y desigualdad. Su reto es analizar el aumento del alquiler. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Lucía compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "Empezar la vida adulta sin poder salir de casa",
+      "text": "El alquiler, los salarios iniciales y la concentración de oportunidades urbanas retrasan la independencia de muchos jóvenes. Este editorial económico no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con analizar el aumento del alquiler. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «alquiler», «desplazamiento» y «oferta». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «inquilino», «asequible» y «desigualdad» antes de defender una conclusión.\n\nLa postura final propone explicar causas múltiples y soluciones. Para expresarla con precisión se emplean nominalización y conectores argumentativos. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.\n\nTambién es necesario evaluar la evidencia. Un testimonio puede revelar una experiencia ignorada, pero no representa automáticamente a toda una generación; una cifra puede describir una tendencia, pero depende de la muestra y de la forma de medir. La lectura combina voces y datos sin tratarlos como pruebas intercambiables.",
       "questions": [
-        "¿Cuál es el reto principal de Lucía?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": [
+        {
+          "author": "OCDE",
+          "title": "Trends Shaping Education 2025",
+          "year": 2025,
+          "url": "https://www.oecd.org/en/publications/2025/01/trends-shaping-education-2025_3069cbd2/full-report/work-and-progress_423e3500.html"
+        }
       ]
     },
     "transcript": "",
@@ -36215,58 +36346,58 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Lucía?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Analizar el aumento del alquiler",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "editorial económico",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como editorial económico."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-b2-vivienda-y-desigualdad-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Analizar el aumento del alquiler»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Analizar el aumento del alquiler",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Explicar causas múltiples y soluciones",
+          "Definir de memoria el tema «Vivienda y desigualdad»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -36275,85 +36406,86 @@
     "level": "C1",
     "skill": "reading",
     "unitId": "critica-cultural",
-    "title": "Lectura · Crítica cultural",
+    "title": "Una serie juvenil que convierte la ansiedad en espectáculo",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 100,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre crítica cultural.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "reseña ensayística: crítica cultural.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Sustentar una valoración estética matizada",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Reseñar una obra para una revista",
-      "text": "Lucía participa en una situación relacionada con crítica cultural. Su reto es reseñar una obra para una revista. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Lucía compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "Una serie juvenil que convierte la ansiedad en espectáculo",
+      "text": "La crítica valora actuación y estructura, pero pregunta qué ocurre cuando el sufrimiento se vuelve recurso narrativo repetible. Este reseña ensayística no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con reseñar una obra para una revista. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «puesta en escena», «hallazgo» y «coherencia». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «sugerente», «convencional» y «recepción» antes de defender una conclusión.\n\nLa postura final propone sustentar una valoración estética matizada. Para expresarla con precisión se emplean adjetivación valorativa y conectores concesivos. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.\n\nTambién es necesario evaluar la evidencia. Un testimonio puede revelar una experiencia ignorada, pero no representa automáticamente a toda una generación; una cifra puede describir una tendencia, pero depende de la muestra y de la forma de medir. La lectura combina voces y datos sin tratarlos como pruebas intercambiables.\n\nDesde una perspectiva metodológica, la tesis conserva un carácter revisable. El análisis explicita sus límites, considera una objeción plausible y señala qué información adicional podría modificar la conclusión. Esa cautela no equivale a indecisión: es responsabilidad académica frente a problemas complejos.",
       "questions": [
-        "¿Cuál es el reto principal de Lucía?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
-      ]
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": []
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Lucía?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Reseñar una obra para una revista",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "reseña ensayística",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como reseña ensayística."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-c1-critica-cultural-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Reseñar una obra para una revista»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Reseñar una obra para una revista",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Sustentar una valoración estética matizada",
+          "Definir de memoria el tema «Crítica cultural»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -36362,85 +36494,86 @@
     "level": "C2",
     "skill": "reading",
     "unitId": "mediacion-de-conflictos",
-    "title": "Lectura · Mediación de conflictos",
+    "title": "Cambiar el marco antes de buscar el acuerdo",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 100,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre mediación de conflictos.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "análisis de negociación: mediación de conflictos.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Detectar necesidades y desbloquear el diálogo",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Reformular posiciones en una negociación sensible",
-      "text": "Lucía participa en una situación relacionada con mediación de conflictos. Su reto es reformular posiciones en una negociación sensible. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Lucía compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "Cambiar el marco antes de buscar el acuerdo",
+      "text": "Un conflicto universitario se desbloquea cuando las posiciones públicas se reformulan como necesidades y criterios verificables. Este análisis de negociación no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con reformular posiciones en una negociación sensible. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «agravio», «reconocimiento» y «interés». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «escalada», «reencuadre» y «acuerdo» antes de defender una conclusión.\n\nLa postura final propone detectar necesidades y desbloquear el diálogo. Para expresarla con precisión se emplean atenuación extrema y metapragmática. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.\n\nTambién es necesario evaluar la evidencia. Un testimonio puede revelar una experiencia ignorada, pero no representa automáticamente a toda una generación; una cifra puede describir una tendencia, pero depende de la muestra y de la forma de medir. La lectura combina voces y datos sin tratarlos como pruebas intercambiables.\n\nDesde una perspectiva metodológica, la tesis conserva un carácter revisable. El análisis explicita sus límites, considera una objeción plausible y señala qué información adicional podría modificar la conclusión. Esa cautela no equivale a indecisión: es responsabilidad académica frente a problemas complejos.\n\nQueda una dificultad epistemológica. Las categorías que organizan el debate también producen efectos: vuelven visibles ciertos daños y dejan otros en segundo plano. El lector experto examina no solo si la inferencia es válida, sino qué presupone su vocabulario, a quién concede autoridad y bajo qué condiciones podría trasladarse a otro contexto.",
       "questions": [
-        "¿Cuál es el reto principal de Lucía?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
-      ]
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": []
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Lucía?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Reformular posiciones en una negociación sensible",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "análisis de negociación",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como análisis de negociación."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-c2-mediacion-de-conflictos-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Reformular posiciones en una negociación sensible»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Reformular posiciones en una negociación sensible",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Detectar necesidades y desbloquear el diálogo",
+          "Definir de memoria el tema «Mediación de conflictos»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -39948,85 +40081,86 @@
     "level": "A2",
     "skill": "reading",
     "unitId": "tecnologia-cotidiana",
-    "title": "Lectura · Tecnología cotidiana",
+    "title": "Tecnología cotidiana: una situación cotidiana",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 110,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre tecnología cotidiana.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "relato personal: tecnología cotidiana.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Pedir ayuda y explicar pasos digitales",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Resolver un problema con una aplicación",
-      "text": "Mateo participa en una situación relacionada con tecnología cotidiana. Su reto es resolver un problema con una aplicación. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Mateo compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "Tecnología cotidiana: una situación cotidiana",
+      "text": "Me llamo Mateo y esta semana necesito resolver un problema con una aplicación. No quiero resolverlo con prisa, porque también deseo pedir ayuda y explicar pasos digitales. Primero observo la situación, anoto lo que ya sé y preparo las preguntas que debo hacer.\n\nDurante la actividad uso palabras importantes como «pantalla», «contraseña» y «archivo». También aparecen «descargar», «conectar» y «cuenta» cuando explico los detalles. La primera opción no funciona como esperaba, así que comparo otra posibilidad y pido una aclaración antes de decidir.\n\nAl final encuentro una solución práctica y explico los pasos en orden. Para hacerlo aplico pronombres de complemento y secuenciadores. La experiencia me ayuda a hablar con más seguridad y a comprobar que pedir información clara puede evitar errores. La próxima vez podré actuar con mayor autonomía.",
       "questions": [
-        "¿Cuál es el reto principal de Mateo?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
-      ]
+        "¿Qué situación necesita resolver la persona que narra?",
+        "¿Qué hace antes de decidir?",
+        "¿Por qué compara otra posibilidad?"
+      ],
+      "references": []
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Mateo?",
+        "prompt": "¿Qué situación necesita resolver la persona que narra?",
         "options": [
           "Resolver un problema con una aplicación",
-          "Memorizar una lista sin contexto",
+          "Preparar un examen sin instrucciones",
+          "Organizar una competición deportiva",
+          "Cambiar de escuela"
+        ],
+        "explanation": "El primer párrafo presenta la situación cotidiana de la unidad."
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué hace antes de decidir?",
+        "options": [
+          "Elige la primera opción",
+          "Observa, anota y prepara preguntas",
+          "Pide a otra persona que decida",
+          "Abandona la actividad"
+        ],
+        "explanation": "La persona organiza la información antes de actuar."
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Por qué compara otra posibilidad?",
+        "options": [
+          "La primera opción no funciona como esperaba",
+          "Quiere gastar más dinero",
+          "Olvida el objetivo",
+          "No comprende ninguna palabra"
+        ],
+        "explanation": "El segundo párrafo explica por qué cambia de estrategia."
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué consigue al final?",
+        "options": [
+          "Una solución práctica y más autonomía",
+          "Una respuesta memorizada",
           "Evitar toda conversación",
-          "Cambiar de tema"
+          "Resolver un problema diferente"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La conclusión relaciona la solución con mayor seguridad y autonomía."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué recurso gramatical aplica para explicar los pasos?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "pronombres de complemento y secuenciadores",
+          "Solo nombres propios",
+          "El alfabeto aislado",
+          "Únicamente números"
         ],
-        "explanation": "El texto destaca la comparación razonada."
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
-        "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
-        ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
-        "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
-        ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
-      },
-      {
-        "id": "spanish-a2-tecnologia-cotidiana-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Resolver un problema con una aplicación»?",
-        "options": [
-          "Presentar las ideas y los detalles esenciales de Resolver un problema con una aplicación",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+        "explanation": "La lectura integra explícitamente pronombres de complemento y secuenciadores."
       }
     ]
   },
@@ -40035,85 +40169,86 @@
     "level": "B1",
     "skill": "reading",
     "unitId": "servicios-y-reclamaciones",
-    "title": "Lectura · Servicios y reclamaciones",
+    "title": "La suscripción que era fácil activar y difícil cancelar",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 110,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre servicios y reclamaciones.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "crónica de consumo: servicios y reclamaciones.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Describir hechos y solicitar una respuesta",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Presentar una reclamación respetuosa",
-      "text": "Mateo participa en una situación relacionada con servicios y reclamaciones. Su reto es presentar una reclamación respetuosa. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Mateo compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "La suscripción que era fácil activar y difícil cancelar",
+      "text": "Una joven documenta cargos, capturas y respuestas automáticas para convertir su frustración en una reclamación verificable. Este crónica de consumo no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con presentar una reclamación respetuosa. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «avería», «factura» y «garantía». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «solicitud», «incidencia» y «solución» antes de defender una conclusión.\n\nLa postura final propone describir hechos y solicitar una respuesta. Para expresarla con precisión se emplean pronombres y fórmulas de cortesía. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.",
       "questions": [
-        "¿Cuál es el reto principal de Mateo?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
-      ]
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": []
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Mateo?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Presentar una reclamación respetuosa",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "crónica de consumo",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como crónica de consumo."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-b1-servicios-y-reclamaciones-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Presentar una reclamación respetuosa»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Presentar una reclamación respetuosa",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Describir hechos y solicitar una respuesta",
+          "Definir de memoria el tema «Servicios y reclamaciones»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -40122,85 +40257,86 @@
     "level": "B2",
     "skill": "reading",
     "unitId": "lenguaje-e-inclusion",
-    "title": "Lectura · Lenguaje e inclusión",
+    "title": "Las palabras también negocian pertenencia",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 110,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre lenguaje e inclusión.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "ensayo: lenguaje e inclusión.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Debatir normas, identidad y contexto",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Explorar cómo cambia el uso lingüístico",
-      "text": "Mateo participa en una situación relacionada con lenguaje e inclusión. Su reto es explorar cómo cambia el uso lingüístico. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Mateo compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "Las palabras también negocian pertenencia",
+      "text": "Los cambios lingüísticos expresan identidad y reconocimiento, pero su aceptación depende del contexto, la comunidad y las relaciones de poder. Este ensayo no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con explorar cómo cambia el uso lingüístico. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «registro», «inclusión» y «convención». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «identidad», «uso» y «comunidad» antes de defender una conclusión.\n\nLa postura final propone debatir normas, identidad y contexto. Para expresarla con precisión se emplean subjuntivo en opiniones negadas. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.\n\nTambién es necesario evaluar la evidencia. Un testimonio puede revelar una experiencia ignorada, pero no representa automáticamente a toda una generación; una cifra puede describir una tendencia, pero depende de la muestra y de la forma de medir. La lectura combina voces y datos sin tratarlos como pruebas intercambiables.",
       "questions": [
-        "¿Cuál es el reto principal de Mateo?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
-      ]
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": []
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Mateo?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Explorar cómo cambia el uso lingüístico",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "ensayo",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como ensayo."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-b2-lenguaje-e-inclusion-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Explorar cómo cambia el uso lingüístico»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Explorar cómo cambia el uso lingüístico",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Debatir normas, identidad y contexto",
+          "Definir de memoria el tema «Lenguaje e inclusión»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -40209,26 +40345,34 @@
     "level": "C1",
     "skill": "reading",
     "unitId": "politicas-publicas",
-    "title": "Lectura · Políticas públicas",
+    "title": "Medir una política sin confundir actividad con resultado",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 110,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre políticas públicas.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "informe analítico: políticas públicas.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Interpretar indicadores y límites metodológicos",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Evaluar el resultado de una intervención",
-      "text": "Mateo participa en una situación relacionada con políticas públicas. Su reto es evaluar el resultado de una intervención. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Mateo compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "Medir una política sin confundir actividad con resultado",
+      "text": "Un programa de becas parece exitoso por su cobertura, aunque evaluar exige separar participación, permanencia, aprendizaje y selección. Este informe analítico no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con evaluar el resultado de una intervención. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «indicador», «cobertura» y «implementación». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «sesgo de selección», «resultado» y «evaluación» antes de defender una conclusión.\n\nLa postura final propone interpretar indicadores y límites metodológicos. Para expresarla con precisión se emplean impersonales, pasivas y lenguaje técnico. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.\n\nTambién es necesario evaluar la evidencia. Un testimonio puede revelar una experiencia ignorada, pero no representa automáticamente a toda una generación; una cifra puede describir una tendencia, pero depende de la muestra y de la forma de medir. La lectura combina voces y datos sin tratarlos como pruebas intercambiables.\n\nDesde una perspectiva metodológica, la tesis conserva un carácter revisable. El análisis explicita sus límites, considera una objeción plausible y señala qué información adicional podría modificar la conclusión. Esa cautela no equivale a indecisión: es responsabilidad académica frente a problemas complejos.",
       "questions": [
-        "¿Cuál es el reto principal de Mateo?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": [
+        {
+          "author": "OCDE",
+          "title": "Trends Shaping Education 2025",
+          "year": 2025,
+          "url": "https://www.oecd.org/en/publications/2025/01/trends-shaping-education-2025_3069cbd2/full-report/work-and-progress_423e3500.html"
+        }
       ]
     },
     "transcript": "",
@@ -40236,58 +40380,58 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Mateo?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Evaluar el resultado de una intervención",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "informe analítico",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como informe analítico."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-c1-politicas-publicas-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Evaluar el resultado de una intervención»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Evaluar el resultado de una intervención",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Interpretar indicadores y límites metodológicos",
+          "Definir de memoria el tema «Políticas públicas»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -40296,26 +40440,40 @@
     "level": "C2",
     "skill": "reading",
     "unitId": "ensayo-de-alta-exigencia",
-    "title": "Lectura · Ensayo de alta exigencia",
+    "title": "La atención como recurso político y económico",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 110,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre ensayo de alta exigencia.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "ensayo académico: ensayo de alta exigencia.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Controlar estructura, voz y contraargumentación",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Construir una tesis compleja con fuentes divergentes",
-      "text": "Mateo participa en una situación relacionada con ensayo de alta exigencia. Su reto es construir una tesis compleja con fuentes divergentes. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Mateo compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "La atención como recurso político y económico",
+      "text": "Plataformas, instituciones y usuarios compiten por una atención limitada cuya distribución afecta autonomía, aprendizaje y democracia. Este ensayo académico no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con construir una tesis compleja con fuentes divergentes. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «hipótesis», «salvedad» y «contraargumento». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «síntesis», «premisa» y «conclusión» antes de defender una conclusión.\n\nLa postura final propone controlar estructura, voz y contraargumentación. Para expresarla con precisión se emplean progresión temática y cohesión global. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.\n\nTambién es necesario evaluar la evidencia. Un testimonio puede revelar una experiencia ignorada, pero no representa automáticamente a toda una generación; una cifra puede describir una tendencia, pero depende de la muestra y de la forma de medir. La lectura combina voces y datos sin tratarlos como pruebas intercambiables.\n\nDesde una perspectiva metodológica, la tesis conserva un carácter revisable. El análisis explicita sus límites, considera una objeción plausible y señala qué información adicional podría modificar la conclusión. Esa cautela no equivale a indecisión: es responsabilidad académica frente a problemas complejos.\n\nQueda una dificultad epistemológica. Las categorías que organizan el debate también producen efectos: vuelven visibles ciertos daños y dejan otros en segundo plano. El lector experto examina no solo si la inferencia es válida, sino qué presupone su vocabulario, a quién concede autoridad y bajo qué condiciones podría trasladarse a otro contexto.",
       "questions": [
-        "¿Cuál es el reto principal de Mateo?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": [
+        {
+          "author": "OMS Europa",
+          "title": "Teens, screens and mental health",
+          "year": 2024,
+          "url": "https://www.who.int/europe/news-room/25-09-2024-teens--screens-and-mental-health"
+        },
+        {
+          "author": "Organización Mundial de la Salud",
+          "title": "WHO Commission on Social Connection",
+          "year": 2025,
+          "url": "https://www.who.int/groups/commission-on-social-connection"
+        }
       ]
     },
     "transcript": "",
@@ -40323,58 +40481,58 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Mateo?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Construir una tesis compleja con fuentes divergentes",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "ensayo académico",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como ensayo académico."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-c2-ensayo-de-alta-exigencia-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Construir una tesis compleja con fuentes divergentes»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Construir una tesis compleja con fuentes divergentes",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Controlar estructura, voz y contraargumentación",
+          "Definir de memoria el tema «Ensayo de alta exigencia»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -43882,85 +44040,86 @@
     "level": "A2",
     "skill": "reading",
     "unitId": "planes-y-proyectos",
-    "title": "Lectura · Planes y proyectos",
+    "title": "Planes y proyectos: una situación cotidiana",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 120,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre planes y proyectos.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "relato personal: planes y proyectos.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Proponer, negociar y acordar planes",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Coordinar un proyecto de grupo",
-      "text": "Lucía participa en una situación relacionada con planes y proyectos. Su reto es coordinar un proyecto de grupo. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Lucía compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "Planes y proyectos: una situación cotidiana",
+      "text": "Me llamo Lucía y esta semana necesito coordinar un proyecto de grupo. No quiero resolverlo con prisa, porque también deseo proponer, negociar y acordar planes. Primero observo la situación, anoto lo que ya sé y preparo las preguntas que debo hacer.\n\nDurante la actividad uso palabras importantes como «propuesta», «tarea» y «equipo». También aparecen «acuerdo», «fecha» y «resultado» cuando explico los detalles. La primera opción no funciona como esperaba, así que comparo otra posibilidad y pido una aclaración antes de decidir.\n\nAl final encuentro una solución práctica y explico los pasos en orden. Para hacerlo aplico futuro próximo y expresiones de acuerdo. La experiencia me ayuda a hablar con más seguridad y a comprobar que pedir información clara puede evitar errores. La próxima vez podré actuar con mayor autonomía.",
       "questions": [
-        "¿Cuál es el reto principal de Lucía?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
-      ]
+        "¿Qué situación necesita resolver la persona que narra?",
+        "¿Qué hace antes de decidir?",
+        "¿Por qué compara otra posibilidad?"
+      ],
+      "references": []
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Lucía?",
+        "prompt": "¿Qué situación necesita resolver la persona que narra?",
         "options": [
           "Coordinar un proyecto de grupo",
-          "Memorizar una lista sin contexto",
+          "Preparar un examen sin instrucciones",
+          "Organizar una competición deportiva",
+          "Cambiar de escuela"
+        ],
+        "explanation": "El primer párrafo presenta la situación cotidiana de la unidad."
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué hace antes de decidir?",
+        "options": [
+          "Elige la primera opción",
+          "Observa, anota y prepara preguntas",
+          "Pide a otra persona que decida",
+          "Abandona la actividad"
+        ],
+        "explanation": "La persona organiza la información antes de actuar."
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Por qué compara otra posibilidad?",
+        "options": [
+          "La primera opción no funciona como esperaba",
+          "Quiere gastar más dinero",
+          "Olvida el objetivo",
+          "No comprende ninguna palabra"
+        ],
+        "explanation": "El segundo párrafo explica por qué cambia de estrategia."
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué consigue al final?",
+        "options": [
+          "Una solución práctica y más autonomía",
+          "Una respuesta memorizada",
           "Evitar toda conversación",
-          "Cambiar de tema"
+          "Resolver un problema diferente"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La conclusión relaciona la solución con mayor seguridad y autonomía."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué recurso gramatical aplica para explicar los pasos?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "futuro próximo y expresiones de acuerdo",
+          "Solo nombres propios",
+          "El alfabeto aislado",
+          "Únicamente números"
         ],
-        "explanation": "El texto destaca la comparación razonada."
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
-        "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
-        ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
-        "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
-        ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
-      },
-      {
-        "id": "spanish-a2-planes-y-proyectos-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Coordinar un proyecto de grupo»?",
-        "options": [
-          "Presentar las ideas y los detalles esenciales de Coordinar un proyecto de grupo",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+        "explanation": "La lectura integra explícitamente futuro próximo y expresiones de acuerdo."
       }
     ]
   },
@@ -43969,85 +44128,86 @@
     "level": "B1",
     "skill": "reading",
     "unitId": "proyecto-comunitario",
-    "title": "Lectura · Proyecto comunitario",
+    "title": "Una biblioteca vacía vuelve a tener voz",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 120,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre proyecto comunitario.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "reportaje: proyecto comunitario.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Integrar información y persuadir a un grupo",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Presentar una iniciativa vecinal",
-      "text": "Lucía participa en una situación relacionada con proyecto comunitario. Su reto es presentar una iniciativa vecinal. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Lucía compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "Una biblioteca vacía vuelve a tener voz",
+      "text": "Un grupo juvenil transforma un espacio infrautilizado en lugar de estudio, creación y encuentro mediante una propuesta con presupuesto. Este reportaje no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con presentar una iniciativa vecinal. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «iniciativa», «voluntariado» y «presupuesto». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «participación», «beneficio» y «propuesta» antes de defender una conclusión.\n\nLa postura final propone integrar información y persuadir a un grupo. Para expresarla con precisión se emplean conectores de finalidad y contraste. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.",
       "questions": [
-        "¿Cuál es el reto principal de Lucía?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
-      ]
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": []
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Lucía?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Presentar una iniciativa vecinal",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "reportaje",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como reportaje."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-b1-proyecto-comunitario-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Presentar una iniciativa vecinal»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Presentar una iniciativa vecinal",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Integrar información y persuadir a un grupo",
+          "Definir de memoria el tema «Proyecto comunitario»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -44056,85 +44216,86 @@
     "level": "B2",
     "skill": "reading",
     "unitId": "foro-de-propuestas",
-    "title": "Lectura · Foro de propuestas",
+    "title": "Una propuesta juvenil que resiste preguntas difíciles",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 120,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre foro de propuestas.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "discurso cívico: foro de propuestas.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Sintetizar evidencias y responder objeciones",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Presentar una solución a un problema público",
-      "text": "Lucía participa en una situación relacionada con foro de propuestas. Su reto es presentar una solución a un problema público. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Lucía compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "Una propuesta juvenil que resiste preguntas difíciles",
+      "text": "Un foro escolar exige pasar de consignas atractivas a objetivos medibles, evidencias pertinentes, costes transparentes y objeciones legítimas. Este discurso cívico no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con presentar una solución a un problema público. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «planteamiento», «evidencia» y «objeción». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «viabilidad», «alcance» y «consenso» antes de defender una conclusión.\n\nLa postura final propone sintetizar evidencias y responder objeciones. Para expresarla con precisión se emplean marcadores discursivos complejos. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.\n\nTambién es necesario evaluar la evidencia. Un testimonio puede revelar una experiencia ignorada, pero no representa automáticamente a toda una generación; una cifra puede describir una tendencia, pero depende de la muestra y de la forma de medir. La lectura combina voces y datos sin tratarlos como pruebas intercambiables.",
       "questions": [
-        "¿Cuál es el reto principal de Lucía?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
-      ]
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": []
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Lucía?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Presentar una solución a un problema público",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "discurso cívico",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como discurso cívico."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-b2-foro-de-propuestas-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Presentar una solución a un problema público»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Presentar una solución a un problema público",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Sintetizar evidencias y responder objeciones",
+          "Definir de memoria el tema «Foro de propuestas»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -44143,26 +44304,40 @@
     "level": "C1",
     "skill": "reading",
     "unitId": "coloquio-academico",
-    "title": "Lectura · Coloquio académico",
+    "title": "Defender una tesis que todavía puede cambiar",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 120,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre coloquio académico.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "ponencia: coloquio académico.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Sintetizar fuentes y responder con rigor",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Defender una tesis ante preguntas críticas",
-      "text": "Lucía participa en una situación relacionada con coloquio académico. Su reto es defender una tesis ante preguntas críticas. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Lucía compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "Defender una tesis que todavía puede cambiar",
+      "text": "Una investigación sobre hábitos digitales juveniles presenta método, hallazgos, límites y objeciones: rigor no equivale a certeza absoluta. Este ponencia no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con defender una tesis ante preguntas críticas. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «tesis», «marco teórico» y «hallazgo». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «objeción», «alcance» y «metodología» antes de defender una conclusión.\n\nLa postura final propone sintetizar fuentes y responder con rigor. Para expresarla con precisión se emplean conectores de reformulación y reserva. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.\n\nTambién es necesario evaluar la evidencia. Un testimonio puede revelar una experiencia ignorada, pero no representa automáticamente a toda una generación; una cifra puede describir una tendencia, pero depende de la muestra y de la forma de medir. La lectura combina voces y datos sin tratarlos como pruebas intercambiables.\n\nDesde una perspectiva metodológica, la tesis conserva un carácter revisable. El análisis explicita sus límites, considera una objeción plausible y señala qué información adicional podría modificar la conclusión. Esa cautela no equivale a indecisión: es responsabilidad académica frente a problemas complejos.",
       "questions": [
-        "¿Cuál es el reto principal de Lucía?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": [
+        {
+          "author": "OMS Europa",
+          "title": "Teens, screens and mental health",
+          "year": 2024,
+          "url": "https://www.who.int/europe/news-room/25-09-2024-teens--screens-and-mental-health"
+        },
+        {
+          "author": "Organización Mundial de la Salud",
+          "title": "Salud mental del adolescente",
+          "year": 2025,
+          "url": "https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health"
+        }
       ]
     },
     "transcript": "",
@@ -44170,58 +44345,58 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Lucía?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Defender una tesis ante preguntas críticas",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "ponencia",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como ponencia."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-c1-coloquio-academico-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Defender una tesis ante preguntas críticas»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Defender una tesis ante preguntas críticas",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Sintetizar fuentes y responder con rigor",
+          "Definir de memoria el tema «Coloquio académico»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },
@@ -44230,26 +44405,34 @@
     "level": "C2",
     "skill": "reading",
     "unitId": "defensa-y-sintesis",
-    "title": "Lectura · Defensa y síntesis",
+    "title": "Sostener una conclusión sin clausurar el debate",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 120,
     "estimatedMinutes": 18,
-    "description": "Comprende una situación sobre defensa y síntesis.",
-    "intro": "Lee para identificar el reto, las alternativas y la conclusión.",
+    "description": "defensa académica: defensa y síntesis.",
+    "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
     "mission": "Sintetizar, mediar y producir con dominio flexible",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Resolver una misión integradora ante un panel experto",
-      "text": "Lucía participa en una situación relacionada con defensa y síntesis. Su reto es resolver una misión integradora ante un panel experto. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.\n\nLa primera opción parece sencilla, pero no responde a todas las necesidades. Lucía compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.\n\nFinalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.",
+      "title": "Sostener una conclusión sin clausurar el debate",
+      "text": "Un panel experto exige integrar fuentes divergentes, reconocer incertidumbre y explicar qué evidencia modificaría la tesis. Este defensa académica no busca ofrecer una respuesta rápida. Examina quién define el problema, qué experiencias suelen quedar fuera y por qué una explicación atractiva puede ser insuficiente.\n\nLa situación comienza con resolver una misión integradora ante un panel experto. Jóvenes con recursos y responsabilidades diferentes interpretan de manera distinta conceptos como «síntesis», «criterio» y «matización». Lo que para una persona parece una elección individual, para otra depende de horarios, ingresos, normas institucionales o acceso a apoyo.\n\nEl contexto también importa. Las prácticas actuales no aparecieron de la nada: se relacionan con decisiones históricas, cambios tecnológicos y expectativas sociales normalizadas con el tiempo. Reconocer esa trayectoria evita culpar únicamente a quienes enfrentan el problema y permite distinguir una causa de una simple coincidencia.\n\nSin embargo, explicar factores estructurales no elimina la responsabilidad personal. Una respuesta razonable considera acciones concretas y pregunta qué instituciones pueden cambiar las condiciones. Por eso el texto contrasta «solvencia», «perspectiva» y «precisión» antes de defender una conclusión.\n\nLa postura final propone sintetizar, mediar y producir con dominio flexible. Para expresarla con precisión se emplean selección estratégica de todos los recursos C2. La estructura lingüística permite ordenar causas, introducir reservas, atribuir voces y separar hechos observables de valoraciones.\n\nTambién es necesario evaluar la evidencia. Un testimonio puede revelar una experiencia ignorada, pero no representa automáticamente a toda una generación; una cifra puede describir una tendencia, pero depende de la muestra y de la forma de medir. La lectura combina voces y datos sin tratarlos como pruebas intercambiables.\n\nDesde una perspectiva metodológica, la tesis conserva un carácter revisable. El análisis explicita sus límites, considera una objeción plausible y señala qué información adicional podría modificar la conclusión. Esa cautela no equivale a indecisión: es responsabilidad académica frente a problemas complejos.\n\nQueda una dificultad epistemológica. Las categorías que organizan el debate también producen efectos: vuelven visibles ciertos daños y dejan otros en segundo plano. El lector experto examina no solo si la inferencia es válida, sino qué presupone su vocabulario, a quién concede autoridad y bajo qué condiciones podría trasladarse a otro contexto.",
       "questions": [
-        "¿Cuál es el reto principal de Lucía?",
-        "¿Qué hace antes de elegir una opción?",
-        "¿Qué distingue durante el proceso?"
+        "¿Qué tipo de texto estás leyendo?",
+        "¿Qué enfoque adopta el texto?",
+        "¿Para qué incorpora un contexto histórico o social?"
+      ],
+      "references": [
+        {
+          "author": "OCDE",
+          "title": "Trends Shaping Education 2025",
+          "year": 2025,
+          "url": "https://www.oecd.org/en/publications/2025/01/trends-shaping-education-2025_3069cbd2/full-report/work-and-progress_423e3500.html"
+        }
       ]
     },
     "transcript": "",
@@ -44257,58 +44440,58 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el reto principal de Lucía?",
+        "prompt": "¿Qué tipo de texto estás leyendo?",
         "options": [
-          "Resolver una misión integradora ante un panel experto",
-          "Memorizar una lista sin contexto",
-          "Evitar toda conversación",
-          "Cambiar de tema"
+          "defensa académica",
+          "manual de instrucciones",
+          "anuncio comercial",
+          "diálogo teatral"
         ],
-        "explanation": "El primer párrafo presenta directamente el reto."
+        "explanation": "La lectura se presenta como defensa académica."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace antes de elegir una opción?",
+        "prompt": "¿Qué enfoque adopta el texto?",
         "options": [
-          "Decide al azar",
-          "Compara alternativas y consecuencias",
-          "Copia una respuesta",
-          "Ignora a las demás personas"
+          "Relaciona decisiones personales, condiciones sociales y contexto",
+          "Culpa únicamente a una persona",
+          "Presenta una solución sin examinarla",
+          "Enumera palabras sin conectarlas"
         ],
-        "explanation": "El texto destaca la comparación razonada."
+        "explanation": "La lectura estudia el problema desde más de una escala."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué distingue durante el proceso?",
+        "prompt": "¿Para qué incorpora un contexto histórico o social?",
         "options": [
-          "Hechos y opiniones",
-          "Singular y plural solamente",
-          "Nombres y fechas",
-          "Vocales y consonantes"
+          "Para evitar explicaciones aisladas y distinguir causas",
+          "Para sustituir el tema principal",
+          "Para añadir fechas sin función",
+          "Para demostrar que nada puede cambiar"
         ],
-        "explanation": "La lectura diferencia datos comprobables y opiniones."
+        "explanation": "El contexto permite comprender cómo se formaron las condiciones actuales."
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es la propuesta final?",
+        "prompt": "¿Cómo relaciona responsabilidad personal y factores estructurales?",
         "options": [
-          "Improvisada y absoluta",
-          "Razonada y abierta a nueva información",
-          "Ajena al problema",
-          "Idéntica a la primera opción"
+          "Considera ambos sin tratarlos como opuestos",
+          "Elimina toda responsabilidad personal",
+          "Niega la influencia institucional",
+          "Afirma que son exactamente lo mismo"
         ],
-        "explanation": "La conclusión conserva razones y reconoce posibles cambios."
+        "explanation": "El texto combina acciones concretas con cambios en las condiciones."
       },
       {
-        "id": "spanish-c2-defensa-y-sintesis-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal de «Resolver una misión integradora ante un panel experto»?",
+        "prompt": "¿Qué propósito tiene la conclusión?",
         "options": [
-          "Presentar las ideas y los detalles esenciales de Resolver una misión integradora ante un panel experto",
-          "Presentar un tema sin relación",
-          "Dar una lista sin contexto",
-          "Contar una historia sin conexión con el tema"
-        ]
+          "Sintetizar, mediar y producir con dominio flexible",
+          "Definir de memoria el tema «Defensa y síntesis»",
+          "Cerrar el debate sin razones",
+          "Repetir literalmente el primer párrafo"
+        ],
+        "explanation": "La conclusión recupera el objetivo comunicativo de la unidad."
       }
     ]
   },

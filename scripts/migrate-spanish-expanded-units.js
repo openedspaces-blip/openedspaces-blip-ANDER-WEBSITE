@@ -9,6 +9,12 @@ const { getSupabaseAdmin } = require('../lib/supabaseClient');
 const config = require('../lib/config');
 
 const LEVELS = ['A2', 'B1', 'B2', 'C1', 'C2'];
+const requestedLevels = process.argv.slice(2).map((level) => level.toUpperCase());
+const levelsToMigrate = requestedLevels.length ? requestedLevels : LEVELS;
+const invalidLevels = levelsToMigrate.filter((level) => !LEVELS.includes(level));
+if (invalidLevels.length) {
+  throw new Error(`Nivel(es) no válido(s): ${invalidLevels.join(', ')}. Usa: ${LEVELS.join(', ')}.`);
+}
 const LEVEL_NAMES = {
   A2: 'A2 - Elemental',
   B1: 'B1 - Intermedio',
@@ -179,7 +185,12 @@ async function migrateLevel(supabase, languageId, levelCode) {
           mission: content.mission || null,
           grammar_note: content.grammar || null,
           phrases: content.phrases?.length ? content.phrases : null,
-          extra: content.extra || null
+          extra: {
+            ...(content.extra || {}),
+            ...(content.reading?.references?.length
+              ? { readingReferences: content.reading.references }
+              : {})
+          }
         },
         { onConflict: 'slug' }
       )
@@ -217,7 +228,7 @@ async function main() {
     .select('id')
     .single();
   if (error) throw new Error(`languages: ${error.message}`);
-  for (const level of LEVELS) await migrateLevel(supabase, language.id, level);
+  for (const level of levelsToMigrate) await migrateLevel(supabase, language.id, level);
 }
 
 main().catch((error) => {

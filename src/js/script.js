@@ -10423,6 +10423,27 @@ function renderGrammarConceptCards(lesson) {
     }
   ];
 
+  const forms = [
+    (profile.affirmative || sectionBody('affirmative')) && {
+      key: 'affirmative',
+      icon: '✅',
+      label: french ? 'Forme affirmative' : 'Afirmativa',
+      body: profile.affirmative || sectionBody('affirmative')
+    },
+    (profile.negative || sectionBody('negative')) && {
+      key: 'negative',
+      icon: '🚫',
+      label: french ? 'Forme négative' : 'Negativa',
+      body: profile.negative || sectionBody('negative')
+    },
+    (profile.questions || sectionBody('questions')) && {
+      key: 'questions',
+      icon: '❓',
+      label: french ? 'Forme interrogative' : 'Interrogativa',
+      body: profile.questions || sectionBody('questions')
+    }
+  ].filter(Boolean);
+
   return `
     <div class="grammar-card-grid" id="grammar-concepts">
       ${cards
@@ -10441,6 +10462,24 @@ function renderGrammarConceptCards(lesson) {
         )
         .join('')}
     </div>
+    ${
+      forms.length
+        ? `<div class="grammar-quick-forms-block">
+      <p class="grammar-quick-forms-heading">${french ? 'Formes de la phrase' : 'Formas de la oración'}</p>
+      <div class="grammar-quick-forms">
+        ${forms
+          .map(
+            (form) => `
+          <article class="grammar-quick-forms--${form.key}">
+            <span class="grammar-form-label">${form.icon} ${escapeHtml(form.label)}</span>
+            <p>${escapeHtml(form.body).replace(/\n/g, '<br>')}</p>
+          </article>`
+          )
+          .join('')}
+      </div>
+    </div>`
+        : ''
+    }
   `;
 }
 
@@ -10628,23 +10667,68 @@ function renderGrammarLessonContentHtml(lesson) {
   `;
 }
 
+// Grammar's own "Definición / Ejemplos prácticos / Afirmativo-Negativo-
+// Interrogativo si aplica" intro (§ redesign: the pre-existing quick-intro
+// only ever surfaced up to 3 arbitrarily-picked note sections and never
+// specifically looked for the affirmative/negative/question forms even
+// though parseGrammarNoteSections already knows how to find them - most
+// lessons ended up showing only the mission line with an empty grid). Pulls
+// first from the richer, always-present lesson.extra.grammarProfile
+// (definition/structure/examples), falling back to the hand-authored
+// "Label: body" grammar_note sections, and renders the three sentence forms
+// as their own distinct block only when the lesson actually documents them
+// ("si aplica" - never fabricated).
 function renderGrammarQuickIntroHtml(lesson, test) {
   const french = isFrenchTargetLanguage();
   const sections = parseGrammarNoteSections(lesson.grammar);
-  const preferredKeys = ['rule', 'use', 'goal', 'pattern', 'examples', 'common-mistakes'];
-  const selected = [];
-  preferredKeys.forEach((key) => {
-    const match = sections.find(
-      (section) => section.key === key && !selected.some((item) => item.body === section.body)
-    );
-    if (match && selected.length < 3) selected.push(match);
-  });
-  sections.forEach((section) => {
-    if (selected.length < 3 && !selected.some((item) => item.body === section.body)) {
-      selected.push(section);
+  const sectionBody = (...keys) => sections.find((section) => keys.includes(section.key))?.body || '';
+  const profile = lesson.extra?.grammarProfile || {};
+
+  const definition =
+    profile.definition || profile.explanation || sectionBody('rule', 'goal', 'use') || lesson.description || '';
+  const structure = profile.structure || sectionBody('pattern') || '';
+  const examplesText =
+    (profile.examples || []).filter(Boolean).join(' · ') || sectionBody('examples') || '';
+
+  const coreItems = [
+    definition && {
+      icon: '💡',
+      title: french ? 'Qu’est-ce que c’est ?' : '¿Qué es esta regla?',
+      body: definition
+    },
+    structure && {
+      icon: '🧩',
+      title: french ? 'Comment elle se forme' : 'Cómo se forma',
+      body: structure
+    },
+    examplesText && {
+      icon: '✍️',
+      title: french ? 'Exemples pratiques' : 'Ejemplos prácticos',
+      body: examplesText
     }
-  });
-  const icons = ['💡', '🧩', '✨'];
+  ].filter(Boolean);
+
+  const forms = [
+    (profile.affirmative || sectionBody('affirmative')) && {
+      key: 'affirmative',
+      icon: '✅',
+      label: french ? 'Forme affirmative' : 'Afirmativa',
+      body: profile.affirmative || sectionBody('affirmative')
+    },
+    (profile.negative || sectionBody('negative')) && {
+      key: 'negative',
+      icon: '🚫',
+      label: french ? 'Forme négative' : 'Negativa',
+      body: profile.negative || sectionBody('negative')
+    },
+    (profile.questions || sectionBody('questions')) && {
+      key: 'questions',
+      icon: '❓',
+      label: french ? 'Forme interrogative' : 'Interrogativa',
+      body: profile.questions || sectionBody('questions')
+    }
+  ].filter(Boolean);
+
   return `
     <section class="grammar-quick-intro">
       <div class="grammar-quick-mission">
@@ -10664,12 +10748,14 @@ function renderGrammarQuickIntroHtml(lesson, test) {
           <span>🎮 ${french ? 'Relève le défi' : 'Supera el reto'}</span>
         </div>
       </div>
-      <div class="grammar-quick-grid">
-        ${selected
+      ${
+        coreItems.length
+          ? `<div class="grammar-quick-grid">
+        ${coreItems
           .map(
-            (item, index) => `
+            (item) => `
           <article>
-            <span class="grammar-quick-icon" aria-hidden="true">${icons[index]}</span>
+            <span class="grammar-quick-icon" aria-hidden="true">${item.icon}</span>
             <div>
               <h4>${escapeHtml(item.title)}</h4>
               <p>${escapeHtml(item.body).replace(/\n/g, '<br>')}</p>
@@ -10677,7 +10763,27 @@ function renderGrammarQuickIntroHtml(lesson, test) {
           </article>`
           )
           .join('')}
-      </div>
+      </div>`
+          : ''
+      }
+      ${
+        forms.length
+          ? `<div class="grammar-quick-forms-block">
+        <p class="grammar-quick-forms-heading">${french ? 'Formes de la phrase' : 'Formas de la oración'}</p>
+        <div class="grammar-quick-forms">
+          ${forms
+            .map(
+              (form) => `
+            <article class="grammar-quick-forms--${form.key}">
+              <span class="grammar-form-label">${form.icon} ${escapeHtml(form.label)}</span>
+              <p>${escapeHtml(form.body).replace(/\n/g, '<br>')}</p>
+            </article>`
+            )
+            .join('')}
+        </div>
+      </div>`
+          : ''
+      }
       <div class="grammar-quick-ready">
         <span>⚡ ${test.questions.length} ${french ? 'défis courts' : 'retos cortos'}</span>
         <span>🎯 ${french ? 'Objectif' : 'Meta'}: ${test.passingScore || 70}/100</span>

@@ -10595,6 +10595,66 @@ footer small {
   line-height: 1.42;
 }
 
+/* Afirmativa/Negativa/Interrogativa block - only rendered when the lesson
+   actually documents those forms ("si aplica"), color-coded so the three
+   forms read at a glance instead of blending into the definition/pattern
+   cards above. */
+.grammar-quick-forms-block {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.grammar-quick-forms-heading {
+  margin: 0;
+  color: var(--navy-2);
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.grammar-quick-forms {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.65rem;
+}
+
+.grammar-quick-forms article {
+  display: grid;
+  gap: 0.4rem;
+  padding: 0.85rem;
+  border: 1px solid var(--line);
+  border-radius: 15px;
+  background: var(--surface);
+}
+
+.grammar-quick-forms p {
+  margin: 0;
+  color: var(--navy-2);
+  font-size: 0.78rem;
+  line-height: 1.42;
+}
+
+.grammar-form-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.grammar-quick-forms--affirmative .grammar-form-label {
+  color: #16a34a;
+}
+
+.grammar-quick-forms--negative .grammar-form-label {
+  color: #dc2626;
+}
+
+.grammar-quick-forms--questions .grammar-form-label {
+  color: var(--blue);
+}
+
 .grammar-quick-ready {
   align-items: center;
 }
@@ -18267,6 +18327,21 @@ footer small {
   }
 
   .grammar-quick-grid article {
+    flex: 0 0 86%;
+    scroll-snap-align: start;
+  }
+
+  .grammar-quick-forms {
+    display: flex;
+    gap: 0.55rem;
+    width: 100%;
+    padding-bottom: 0.35rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: thin;
+  }
+
+  .grammar-quick-forms article {
     flex: 0 0 86%;
     scroll-snap-align: start;
   }

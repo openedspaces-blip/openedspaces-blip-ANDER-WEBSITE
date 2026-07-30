@@ -2026,6 +2026,39 @@ test('Español A2-C2 activities contain skill-specific learning content', () => 
     });
 });
 
+test('Spanish Reading grows in length and academic depth from A2 through C2', () => {
+  const minimumWords = { A2: 120, B1: 200, B2: 250, C1: 290, C2: 350 };
+  ['A2', 'B1', 'B2', 'C1', 'C2'].forEach((level) => {
+    const readings = seedLessons.filter(
+      (row) => row.target_language === 'spanish' && row.level === level && row.skill === 'reading'
+    );
+    assert.equal(readings.length, 12, `${level}: expected 12 readings`);
+    readings.forEach((row) => {
+      const wordCount = row.content_json.reading.text.trim().split(/\s+/).length;
+      assert.ok(
+        wordCount >= minimumWords[level],
+        `${row.slug}: ${wordCount} words is below the ${level} minimum`
+      );
+      assert.equal(row.content_json.exercises.length, 5, `${row.slug}: expected 5 assessed questions`);
+    });
+  });
+
+  ['C1', 'C2'].forEach((level) => {
+    const referenced = seedLessons.filter(
+      (row) =>
+        row.target_language === 'spanish' &&
+        row.level === level &&
+        row.skill === 'reading' &&
+        row.content_json.reading.references?.length
+    );
+    assert.ok(referenced.length >= 4, `${level}: expected references in source-informed readings`);
+    referenced.flatMap((row) => row.content_json.reading.references).forEach((reference) => {
+      assert.match(reference.url, /^https:\/\//, `${level}: reference must use HTTPS`);
+      assert.ok(reference.title && reference.author, `${level}: incomplete reference`);
+    });
+  });
+});
+
 test('Speaking presents three practical choices: dialogue, recorded pronunciation and Premium Tutor', () => {
   const script = fs.readFileSync(path.join(__dirname, 'src/js/script.js'), 'utf8');
   const tabs = script.match(/function renderSpeakingModeTabsHtml\(activeMode\) \{([\s\S]*?)\n\}/)?.[1] || '';
