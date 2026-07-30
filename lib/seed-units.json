@@ -476,1806 +476,6 @@
     "unit_overview": null
   },
   {
-    "slug": "compras-y-cantidades",
-    "target_language": "spanish",
-    "level": "A2",
-    "title": "Compras y cantidades",
-    "title_es": "Compras y cantidades",
-    "description": "Resolver una compra en un mercado",
-    "order_index": 1,
-    "unit_overview": {
-      "objective": "Pedir productos, comparar precios y expresar cantidades",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar querer, pedir y expresiones de cantidad",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "querer, pedir y expresiones de cantidad"
-      ],
-      "vocabulary": [
-        "mercado",
-        "precio",
-        "oferta",
-        "kilo",
-        "cambio",
-        "recibo"
-      ],
-      "scenario": "Resolver una compra en un mercado"
-    }
-  },
-  {
-    "slug": "orientarse-en-la-ciudad",
-    "target_language": "spanish",
-    "level": "A2",
-    "title": "Orientarse en la ciudad",
-    "title_es": "Orientarse en la ciudad",
-    "description": "Ayudar a una visitante a llegar a la estación",
-    "order_index": 2,
-    "unit_overview": {
-      "objective": "Pedir y dar indicaciones claras",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar imperativo y preposiciones de lugar",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "imperativo y preposiciones de lugar"
-      ],
-      "vocabulary": [
-        "esquina",
-        "cuadra",
-        "semáforo",
-        "recto",
-        "girar",
-        "estación"
-      ],
-      "scenario": "Ayudar a una visitante a llegar a la estación"
-    }
-  },
-  {
-    "slug": "rutinas-y-horarios",
-    "target_language": "spanish",
-    "level": "A2",
-    "title": "Rutinas y horarios",
-    "title_es": "Rutinas y horarios",
-    "description": "Organizar una semana con estudio y trabajo",
-    "order_index": 3,
-    "unit_overview": {
-      "objective": "Describir hábitos y cambios temporales",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar presente habitual y estar + gerundio",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "presente habitual y estar + gerundio"
-      ],
-      "vocabulary": [
-        "horario",
-        "turno",
-        "temprano",
-        "tarde",
-        "descanso",
-        "agenda"
-      ],
-      "scenario": "Organizar una semana con estudio y trabajo"
-    }
-  },
-  {
-    "slug": "salud-y-bienestar",
-    "target_language": "spanish",
-    "level": "A2",
-    "title": "Salud y bienestar",
-    "title_es": "Salud y bienestar",
-    "description": "Explicar síntomas en una consulta",
-    "order_index": 4,
-    "unit_overview": {
-      "objective": "Hablar de molestias y recomendaciones",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar doler, tener que y deber",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "doler, tener que y deber"
-      ],
-      "vocabulary": [
-        "síntoma",
-        "dolor",
-        "cita",
-        "descansar",
-        "receta",
-        "mejorar"
-      ],
-      "scenario": "Explicar síntomas en una consulta"
-    }
-  },
-  {
-    "slug": "viajes-y-transporte",
-    "target_language": "spanish",
-    "level": "A2",
-    "title": "Viajes y transporte",
-    "title_es": "Viajes y transporte",
-    "description": "Preparar un viaje de fin de semana",
-    "order_index": 5,
-    "unit_overview": {
-      "objective": "Comprar billetes y resolver cambios",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar ir a + infinitivo y futuro próximo",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "ir a + infinitivo y futuro próximo"
-      ],
-      "vocabulary": [
-        "billete",
-        "equipaje",
-        "andén",
-        "salida",
-        "llegada",
-        "reserva"
-      ],
-      "scenario": "Preparar un viaje de fin de semana"
-    }
-  },
-  {
-    "slug": "casa-y-barrio",
-    "target_language": "spanish",
-    "level": "A2",
-    "title": "Casa y barrio",
-    "title_es": "Casa y barrio",
-    "description": "Buscar una vivienda adecuada",
-    "order_index": 6,
-    "unit_overview": {
-      "objective": "Describir espacios y comparar opciones",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar comparativos y hay/está",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "comparativos y hay/está"
-      ],
-      "vocabulary": [
-        "alquiler",
-        "vecindario",
-        "amueblado",
-        "luminoso",
-        "ruido",
-        "mudanza"
-      ],
-      "scenario": "Buscar una vivienda adecuada"
-    }
-  },
-  {
-    "slug": "comidas-y-recetas",
-    "target_language": "spanish",
-    "level": "A2",
-    "title": "Comidas y recetas",
-    "title_es": "Comidas y recetas",
-    "description": "Preparar una comida para amistades",
-    "order_index": 7,
-    "unit_overview": {
-      "objective": "Explicar ingredientes y pasos",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar se impersonal e imperativo",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "se impersonal e imperativo"
-      ],
-      "vocabulary": [
-        "ingrediente",
-        "mezclar",
-        "hervir",
-        "horno",
-        "sabor",
-        "porción"
-      ],
-      "scenario": "Preparar una comida para amistades"
-    }
-  },
-  {
-    "slug": "recuerdos-y-experiencias",
-    "target_language": "spanish",
-    "level": "A2",
-    "title": "Recuerdos y experiencias",
-    "title_es": "Recuerdos y experiencias",
-    "description": "Contar una experiencia especial",
-    "order_index": 8,
-    "unit_overview": {
-      "objective": "Narrar hechos terminados y experiencias",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar pretérito perfecto e indefinido",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "pretérito perfecto e indefinido"
-      ],
-      "vocabulary": [
-        "recuerdo",
-        "viaje",
-        "anécdota",
-        "ocurrir",
-        "disfrutar",
-        "sorpresa"
-      ],
-      "scenario": "Contar una experiencia especial"
-    }
-  },
-  {
-    "slug": "celebraciones",
-    "target_language": "spanish",
-    "level": "A2",
-    "title": "Celebraciones",
-    "title_es": "Celebraciones",
-    "description": "Organizar una celebración familiar",
-    "order_index": 9,
-    "unit_overview": {
-      "objective": "Invitar, aceptar y rechazar con cortesía",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar pronombres de objeto y quedar",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "pronombres de objeto y quedar"
-      ],
-      "vocabulary": [
-        "invitación",
-        "regalo",
-        "reunión",
-        "celebrar",
-        "aceptar",
-        "rechazar"
-      ],
-      "scenario": "Organizar una celebración familiar"
-    }
-  },
-  {
-    "slug": "estudio-y-aprendizaje",
-    "target_language": "spanish",
-    "level": "A2",
-    "title": "Estudio y aprendizaje",
-    "title_es": "Estudio y aprendizaje",
-    "description": "Preparar un plan de estudio",
-    "order_index": 10,
-    "unit_overview": {
-      "objective": "Expresar dificultades y estrategias",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar desde, desde hace y llevar + gerundio",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "desde, desde hace y llevar + gerundio"
-      ],
-      "vocabulary": [
-        "apunte",
-        "repasar",
-        "tarea",
-        "plazo",
-        "practicar",
-        "progreso"
-      ],
-      "scenario": "Preparar un plan de estudio"
-    }
-  },
-  {
-    "slug": "tecnologia-cotidiana",
-    "target_language": "spanish",
-    "level": "A2",
-    "title": "Tecnología cotidiana",
-    "title_es": "Tecnología cotidiana",
-    "description": "Resolver un problema con una aplicación",
-    "order_index": 11,
-    "unit_overview": {
-      "objective": "Pedir ayuda y explicar pasos digitales",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar pronombres de complemento y secuenciadores",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "pronombres de complemento y secuenciadores"
-      ],
-      "vocabulary": [
-        "pantalla",
-        "contraseña",
-        "archivo",
-        "descargar",
-        "conectar",
-        "cuenta"
-      ],
-      "scenario": "Resolver un problema con una aplicación"
-    }
-  },
-  {
-    "slug": "planes-y-proyectos",
-    "target_language": "spanish",
-    "level": "A2",
-    "title": "Planes y proyectos",
-    "title_es": "Planes y proyectos",
-    "description": "Coordinar un proyecto de grupo",
-    "order_index": 12,
-    "unit_overview": {
-      "objective": "Proponer, negociar y acordar planes",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar futuro próximo y expresiones de acuerdo",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "futuro próximo y expresiones de acuerdo"
-      ],
-      "vocabulary": [
-        "propuesta",
-        "tarea",
-        "equipo",
-        "acuerdo",
-        "fecha",
-        "resultado"
-      ],
-      "scenario": "Coordinar un proyecto de grupo"
-    }
-  },
-  {
-    "slug": "historias-personales",
-    "target_language": "spanish",
-    "level": "B1",
-    "title": "Historias personales",
-    "title_es": "Historias personales",
-    "description": "Compartir una experiencia que cambió una decisión",
-    "order_index": 1,
-    "unit_overview": {
-      "objective": "Narrar con orden, contexto y detalle",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar contraste entre indefinido e imperfecto",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "contraste entre indefinido e imperfecto"
-      ],
-      "vocabulary": [
-        "etapa",
-        "decisión",
-        "cambio",
-        "mientras",
-        "de repente",
-        "aprendizaje"
-      ],
-      "scenario": "Compartir una experiencia que cambió una decisión"
-    }
-  },
-  {
-    "slug": "trabajo-y-talento",
-    "target_language": "spanish",
-    "level": "B1",
-    "title": "Trabajo y talento",
-    "title_es": "Trabajo y talento",
-    "description": "Preparar una entrevista laboral",
-    "order_index": 2,
-    "unit_overview": {
-      "objective": "Presentar experiencia y capacidades",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar pretérito perfecto y perífrasis de capacidad",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "pretérito perfecto y perífrasis de capacidad"
-      ],
-      "vocabulary": [
-        "vacante",
-        "experiencia",
-        "habilidad",
-        "entrevista",
-        "responsable",
-        "logro"
-      ],
-      "scenario": "Preparar una entrevista laboral"
-    }
-  },
-  {
-    "slug": "viajes-con-imprevistos",
-    "target_language": "spanish",
-    "level": "B1",
-    "title": "Viajes con imprevistos",
-    "title_es": "Viajes con imprevistos",
-    "description": "Resolver la cancelación de un trayecto",
-    "order_index": 3,
-    "unit_overview": {
-      "objective": "Explicar un problema y negociar soluciones",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar condicional de cortesía",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "condicional de cortesía"
-      ],
-      "vocabulary": [
-        "cancelación",
-        "retraso",
-        "reembolso",
-        "alternativa",
-        "reclamo",
-        "seguro"
-      ],
-      "scenario": "Resolver la cancelación de un trayecto"
-    }
-  },
-  {
-    "slug": "medios-y-noticias",
-    "target_language": "spanish",
-    "level": "B1",
-    "title": "Medios y noticias",
-    "title_es": "Medios y noticias",
-    "description": "Comparar dos versiones de una noticia",
-    "order_index": 4,
-    "unit_overview": {
-      "objective": "Resumir información y distinguir opiniones",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar estilo indirecto en presente y pasado",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "estilo indirecto en presente y pasado"
-      ],
-      "vocabulary": [
-        "titular",
-        "fuente",
-        "reportaje",
-        "rumor",
-        "comprobar",
-        "actualidad"
-      ],
-      "scenario": "Comparar dos versiones de una noticia"
-    }
-  },
-  {
-    "slug": "relaciones-y-convivencia",
-    "target_language": "spanish",
-    "level": "B1",
-    "title": "Relaciones y convivencia",
-    "title_es": "Relaciones y convivencia",
-    "description": "Resolver un desacuerdo entre compañeros",
-    "order_index": 5,
-    "unit_overview": {
-      "objective": "Expresar emociones y buscar acuerdos",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar subjuntivo con emoción y valoración",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "subjuntivo con emoción y valoración"
-      ],
-      "vocabulary": [
-        "confianza",
-        "límite",
-        "acuerdo",
-        "molestia",
-        "apoyar",
-        "convivir"
-      ],
-      "scenario": "Resolver un desacuerdo entre compañeros"
-    }
-  },
-  {
-    "slug": "consumo-responsable",
-    "target_language": "spanish",
-    "level": "B1",
-    "title": "Consumo responsable",
-    "title_es": "Consumo responsable",
-    "description": "Elegir entre varias opciones de compra",
-    "order_index": 6,
-    "unit_overview": {
-      "objective": "Argumentar una elección responsable",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar oraciones de relativo",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "oraciones de relativo"
-      ],
-      "vocabulary": [
-        "duradero",
-        "local",
-        "etiqueta",
-        "residuo",
-        "reutilizar",
-        "consumo"
-      ],
-      "scenario": "Elegir entre varias opciones de compra"
-    }
-  },
-  {
-    "slug": "cultura-y-tradiciones",
-    "target_language": "spanish",
-    "level": "B1",
-    "title": "Cultura y tradiciones",
-    "title_es": "Cultura y tradiciones",
-    "description": "Explicar una tradición a una visitante",
-    "order_index": 7,
-    "unit_overview": {
-      "objective": "Describir prácticas sin generalizar",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar se impersonal y pasiva refleja",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "se impersonal y pasiva refleja"
-      ],
-      "vocabulary": [
-        "costumbre",
-        "origen",
-        "comunidad",
-        "transmitir",
-        "patrimonio",
-        "diversidad"
-      ],
-      "scenario": "Explicar una tradición a una visitante"
-    }
-  },
-  {
-    "slug": "educacion-y-metas",
-    "target_language": "spanish",
-    "level": "B1",
-    "title": "Educación y metas",
-    "title_es": "Educación y metas",
-    "description": "Elegir un curso de formación",
-    "order_index": 8,
-    "unit_overview": {
-      "objective": "Comparar opciones y justificar metas",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar futuro y condicional",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "futuro y condicional"
-      ],
-      "vocabulary": [
-        "matrícula",
-        "beca",
-        "requisito",
-        "modalidad",
-        "meta",
-        "formación"
-      ],
-      "scenario": "Elegir un curso de formación"
-    }
-  },
-  {
-    "slug": "medioambiente-local",
-    "target_language": "spanish",
-    "level": "B1",
-    "title": "Medioambiente local",
-    "title_es": "Medioambiente local",
-    "description": "Proponer una mejora para el barrio",
-    "order_index": 9,
-    "unit_overview": {
-      "objective": "Explicar causas, consecuencias y propuestas",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar condicional real y conectores causales",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "condicional real y conectores causales"
-      ],
-      "vocabulary": [
-        "reciclaje",
-        "contaminación",
-        "medida",
-        "recurso",
-        "reducir",
-        "impacto"
-      ],
-      "scenario": "Proponer una mejora para el barrio"
-    }
-  },
-  {
-    "slug": "salud-y-habitos",
-    "target_language": "spanish",
-    "level": "B1",
-    "title": "Salud y hábitos",
-    "title_es": "Salud y hábitos",
-    "description": "Diseñar una rutina sostenible",
-    "order_index": 10,
-    "unit_overview": {
-      "objective": "Dar consejos razonados",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar subjuntivo con recomendación",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "subjuntivo con recomendación"
-      ],
-      "vocabulary": [
-        "bienestar",
-        "descanso",
-        "equilibrio",
-        "hábito",
-        "estrés",
-        "constancia"
-      ],
-      "scenario": "Diseñar una rutina sostenible"
-    }
-  },
-  {
-    "slug": "servicios-y-reclamaciones",
-    "target_language": "spanish",
-    "level": "B1",
-    "title": "Servicios y reclamaciones",
-    "title_es": "Servicios y reclamaciones",
-    "description": "Presentar una reclamación respetuosa",
-    "order_index": 11,
-    "unit_overview": {
-      "objective": "Describir hechos y solicitar una respuesta",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar pronombres y fórmulas de cortesía",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "pronombres y fórmulas de cortesía"
-      ],
-      "vocabulary": [
-        "avería",
-        "factura",
-        "garantía",
-        "solicitud",
-        "incidencia",
-        "solución"
-      ],
-      "scenario": "Presentar una reclamación respetuosa"
-    }
-  },
-  {
-    "slug": "proyecto-comunitario",
-    "target_language": "spanish",
-    "level": "B1",
-    "title": "Proyecto comunitario",
-    "title_es": "Proyecto comunitario",
-    "description": "Presentar una iniciativa vecinal",
-    "order_index": 12,
-    "unit_overview": {
-      "objective": "Integrar información y persuadir a un grupo",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar conectores de finalidad y contraste",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "conectores de finalidad y contraste"
-      ],
-      "vocabulary": [
-        "iniciativa",
-        "voluntariado",
-        "presupuesto",
-        "participación",
-        "beneficio",
-        "propuesta"
-      ],
-      "scenario": "Presentar una iniciativa vecinal"
-    }
-  },
-  {
-    "slug": "identidad-digital",
-    "target_language": "spanish",
-    "level": "B2",
-    "title": "Identidad digital",
-    "title_es": "Identidad digital",
-    "description": "Debatir cómo construimos nuestra imagen en internet",
-    "order_index": 1,
-    "unit_overview": {
-      "objective": "Evaluar beneficios, riesgos y responsabilidad",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar concesivas aunque, pese a y a pesar de",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "concesivas aunque, pese a y a pesar de"
-      ],
-      "vocabulary": [
-        "huella digital",
-        "privacidad",
-        "perfil",
-        "exposición",
-        "reputación",
-        "consentimiento"
-      ],
-      "scenario": "Debatir cómo construimos nuestra imagen en internet"
-    }
-  },
-  {
-    "slug": "ciudades-sostenibles",
-    "target_language": "spanish",
-    "level": "B2",
-    "title": "Ciudades sostenibles",
-    "title_es": "Ciudades sostenibles",
-    "description": "Valorar un nuevo plan de movilidad",
-    "order_index": 2,
-    "unit_overview": {
-      "objective": "Contrastar intereses y consecuencias",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar condicionales reales e hipotéticas",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "condicionales reales e hipotéticas"
-      ],
-      "vocabulary": [
-        "movilidad",
-        "peatonal",
-        "emisiones",
-        "infraestructura",
-        "accesibilidad",
-        "urbanismo"
-      ],
-      "scenario": "Valorar un nuevo plan de movilidad"
-    }
-  },
-  {
-    "slug": "trabajo-del-futuro",
-    "target_language": "spanish",
-    "level": "B2",
-    "title": "El trabajo del futuro",
-    "title_es": "El trabajo del futuro",
-    "description": "Analizar cambios producidos por la automatización",
-    "order_index": 3,
-    "unit_overview": {
-      "objective": "Formular predicciones con cautela",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar futuro compuesto y probabilidad",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "futuro compuesto y probabilidad"
-      ],
-      "vocabulary": [
-        "automatización",
-        "competencia",
-        "reconversión",
-        "productividad",
-        "teletrabajo",
-        "incertidumbre"
-      ],
-      "scenario": "Analizar cambios producidos por la automatización"
-    }
-  },
-  {
-    "slug": "desinformacion",
-    "target_language": "spanish",
-    "level": "B2",
-    "title": "Desinformación",
-    "title_es": "Desinformación",
-    "description": "Verificar una afirmación viral",
-    "order_index": 4,
-    "unit_overview": {
-      "objective": "Evaluar evidencias y explicar dudas",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar estilo indirecto y verbos de transmisión",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "estilo indirecto y verbos de transmisión"
-      ],
-      "vocabulary": [
-        "evidencia",
-        "sesgo",
-        "verificar",
-        "fuente primaria",
-        "engañoso",
-        "credibilidad"
-      ],
-      "scenario": "Verificar una afirmación viral"
-    }
-  },
-  {
-    "slug": "turismo-y-comunidad",
-    "target_language": "spanish",
-    "level": "B2",
-    "title": "Turismo y comunidad",
-    "title_es": "Turismo y comunidad",
-    "description": "Mediar en un debate sobre turismo local",
-    "order_index": 5,
-    "unit_overview": {
-      "objective": "Defender una postura reconociendo límites",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar estructuras de contraste y concesión",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "estructuras de contraste y concesión"
-      ],
-      "vocabulary": [
-        "temporada alta",
-        "alojamiento",
-        "residente",
-        "saturación",
-        "patrimonio",
-        "regulación"
-      ],
-      "scenario": "Mediar en un debate sobre turismo local"
-    }
-  },
-  {
-    "slug": "educacion-digital",
-    "target_language": "spanish",
-    "level": "B2",
-    "title": "Educación digital",
-    "title_es": "Educación digital",
-    "description": "Evaluar una propuesta de aprendizaje híbrido",
-    "order_index": 6,
-    "unit_overview": {
-      "objective": "Comparar modelos y criterios de calidad",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar relativas explicativas y especificativas",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "relativas explicativas y especificativas"
-      ],
-      "vocabulary": [
-        "alfabetización",
-        "plataforma",
-        "evaluación",
-        "brecha",
-        "autonomía",
-        "retroalimentación"
-      ],
-      "scenario": "Evaluar una propuesta de aprendizaje híbrido"
-    }
-  },
-  {
-    "slug": "alimentacion-y-sociedad",
-    "target_language": "spanish",
-    "level": "B2",
-    "title": "Alimentación y sociedad",
-    "title_es": "Alimentación y sociedad",
-    "description": "Examinar decisiones alimentarias y acceso",
-    "order_index": 7,
-    "unit_overview": {
-      "objective": "Relacionar elecciones personales y sistemas",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar pasiva refleja y construcciones impersonales",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "pasiva refleja y construcciones impersonales"
-      ],
-      "vocabulary": [
-        "cadena de suministro",
-        "etiquetado",
-        "desperdicio",
-        "acceso",
-        "nutrición",
-        "producción"
-      ],
-      "scenario": "Examinar decisiones alimentarias y acceso"
-    }
-  },
-  {
-    "slug": "arte-y-espacio-publico",
-    "target_language": "spanish",
-    "level": "B2",
-    "title": "Arte y espacio público",
-    "title_es": "Arte y espacio público",
-    "description": "Decidir el uso cultural de una plaza",
-    "order_index": 8,
-    "unit_overview": {
-      "objective": "Interpretar propuestas y negociar criterios",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar subjuntivo en relativas y valoración",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "subjuntivo en relativas y valoración"
-      ],
-      "vocabulary": [
-        "intervención",
-        "mural",
-        "financiación",
-        "audiencia",
-        "controversia",
-        "expresión"
-      ],
-      "scenario": "Decidir el uso cultural de una plaza"
-    }
-  },
-  {
-    "slug": "ciencia-y-etica",
-    "target_language": "spanish",
-    "level": "B2",
-    "title": "Ciencia y ética",
-    "title_es": "Ciencia y ética",
-    "description": "Debatir una innovación con impacto social",
-    "order_index": 9,
-    "unit_overview": {
-      "objective": "Distinguir hechos, valores y precauciones",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar modales de deducción y probabilidad",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "modales de deducción y probabilidad"
-      ],
-      "vocabulary": [
-        "hallazgo",
-        "riesgo",
-        "ensayo",
-        "regulación",
-        "principio",
-        "incertidumbre"
-      ],
-      "scenario": "Debatir una innovación con impacto social"
-    }
-  },
-  {
-    "slug": "vivienda-y-desigualdad",
-    "target_language": "spanish",
-    "level": "B2",
-    "title": "Vivienda y desigualdad",
-    "title_es": "Vivienda y desigualdad",
-    "description": "Analizar el aumento del alquiler",
-    "order_index": 10,
-    "unit_overview": {
-      "objective": "Explicar causas múltiples y soluciones",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar nominalización y conectores argumentativos",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "nominalización y conectores argumentativos"
-      ],
-      "vocabulary": [
-        "alquiler",
-        "desplazamiento",
-        "oferta",
-        "inquilino",
-        "asequible",
-        "desigualdad"
-      ],
-      "scenario": "Analizar el aumento del alquiler"
-    }
-  },
-  {
-    "slug": "lenguaje-e-inclusion",
-    "target_language": "spanish",
-    "level": "B2",
-    "title": "Lenguaje e inclusión",
-    "title_es": "Lenguaje e inclusión",
-    "description": "Explorar cómo cambia el uso lingüístico",
-    "order_index": 11,
-    "unit_overview": {
-      "objective": "Debatir normas, identidad y contexto",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar subjuntivo en opiniones negadas",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "subjuntivo en opiniones negadas"
-      ],
-      "vocabulary": [
-        "registro",
-        "inclusión",
-        "convención",
-        "identidad",
-        "uso",
-        "comunidad"
-      ],
-      "scenario": "Explorar cómo cambia el uso lingüístico"
-    }
-  },
-  {
-    "slug": "foro-de-propuestas",
-    "target_language": "spanish",
-    "level": "B2",
-    "title": "Foro de propuestas",
-    "title_es": "Foro de propuestas",
-    "description": "Presentar una solución a un problema público",
-    "order_index": 12,
-    "unit_overview": {
-      "objective": "Sintetizar evidencias y responder objeciones",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar marcadores discursivos complejos",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "marcadores discursivos complejos"
-      ],
-      "vocabulary": [
-        "planteamiento",
-        "evidencia",
-        "objeción",
-        "viabilidad",
-        "alcance",
-        "consenso"
-      ],
-      "scenario": "Presentar una solución a un problema público"
-    }
-  },
-  {
-    "slug": "memoria-y-relato",
-    "target_language": "spanish",
-    "level": "C1",
-    "title": "Memoria y relato",
-    "title_es": "Memoria y relato",
-    "description": "Interpretar versiones contrapuestas de un recuerdo colectivo",
-    "order_index": 1,
-    "unit_overview": {
-      "objective": "Analizar perspectiva, omisiones y encuadre",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar correlación de tiempos y estilo indirecto",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "correlación de tiempos y estilo indirecto"
-      ],
-      "vocabulary": [
-        "memoria colectiva",
-        "testimonio",
-        "omisión",
-        "versión",
-        "evocar",
-        "reinterpretar"
-      ],
-      "scenario": "Interpretar versiones contrapuestas de un recuerdo colectivo"
-    }
-  },
-  {
-    "slug": "retorica-publica",
-    "target_language": "spanish",
-    "level": "C1",
-    "title": "Retórica pública",
-    "title_es": "Retórica pública",
-    "description": "Examinar un discurso institucional",
-    "order_index": 2,
-    "unit_overview": {
-      "objective": "Reconocer estrategias persuasivas y presuposiciones",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar énfasis, tematización y estructuras hendidas",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "énfasis, tematización y estructuras hendidas"
-      ],
-      "vocabulary": [
-        "premisa",
-        "auditorio",
-        "apelación",
-        "elocuencia",
-        "presuposición",
-        "refutación"
-      ],
-      "scenario": "Examinar un discurso institucional"
-    }
-  },
-  {
-    "slug": "periodismo-de-investigacion",
-    "target_language": "spanish",
-    "level": "C1",
-    "title": "Periodismo de investigación",
-    "title_es": "Periodismo de investigación",
-    "description": "Reconstruir una investigación compleja",
-    "order_index": 3,
-    "unit_overview": {
-      "objective": "Jerarquizar pruebas y grados de certeza",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar evidencialidad y modales epistémicos",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "evidencialidad y modales epistémicos"
-      ],
-      "vocabulary": [
-        "filtración",
-        "hallazgo",
-        "indicio",
-        "contrastar",
-        "anonimato",
-        "rendición de cuentas"
-      ],
-      "scenario": "Reconstruir una investigación compleja"
-    }
-  },
-  {
-    "slug": "justicia-y-reparacion",
-    "target_language": "spanish",
-    "level": "C1",
-    "title": "Justicia y reparación",
-    "title_es": "Justicia y reparación",
-    "description": "Debatir respuestas a un daño histórico",
-    "order_index": 4,
-    "unit_overview": {
-      "objective": "Diferenciar castigo, reparación y garantías",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar subjuntivo en construcciones valorativas",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "subjuntivo en construcciones valorativas"
-      ],
-      "vocabulary": [
-        "reparación",
-        "agravio",
-        "garantía",
-        "reconocimiento",
-        "responsabilidad",
-        "reconciliación"
-      ],
-      "scenario": "Debatir respuestas a un daño histórico"
-    }
-  },
-  {
-    "slug": "innovacion-responsable",
-    "target_language": "spanish",
-    "level": "C1",
-    "title": "Innovación responsable",
-    "title_es": "Innovación responsable",
-    "description": "Evaluar una tecnología antes de adoptarla",
-    "order_index": 5,
-    "unit_overview": {
-      "objective": "Ponderar incertidumbre y efectos no previstos",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar condicionales mixtas y contrafactuales",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "condicionales mixtas y contrafactuales"
-      ],
-      "vocabulary": [
-        "precaución",
-        "impacto",
-        "despliegue",
-        "sesgo",
-        "supervisión",
-        "trazabilidad"
-      ],
-      "scenario": "Evaluar una tecnología antes de adoptarla"
-    }
-  },
-  {
-    "slug": "literatura-y-voz",
-    "target_language": "spanish",
-    "level": "C1",
-    "title": "Literatura y voz",
-    "title_es": "Literatura y voz",
-    "description": "Analizar la voz de un relato contemporáneo",
-    "order_index": 6,
-    "unit_overview": {
-      "objective": "Interpretar tono, distancia e ironía",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar discurso referido libre y valores verbales",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "discurso referido libre y valores verbales"
-      ],
-      "vocabulary": [
-        "narrador",
-        "ironía",
-        "ambigüedad",
-        "perspectiva",
-        "cadencia",
-        "desenlace"
-      ],
-      "scenario": "Analizar la voz de un relato contemporáneo"
-    }
-  },
-  {
-    "slug": "economia-y-cuidados",
-    "target_language": "spanish",
-    "level": "C1",
-    "title": "Economía y cuidados",
-    "title_es": "Economía y cuidados",
-    "description": "Visibilizar trabajos esenciales poco reconocidos",
-    "order_index": 7,
-    "unit_overview": {
-      "objective": "Relacionar datos, experiencia y política pública",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar nominalización y densidad informativa",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "nominalización y densidad informativa"
-      ],
-      "vocabulary": [
-        "cuidados",
-        "remuneración",
-        "carga",
-        "corresponsabilidad",
-        "sostener",
-        "invisibilizado"
-      ],
-      "scenario": "Visibilizar trabajos esenciales poco reconocidos"
-    }
-  },
-  {
-    "slug": "diversidad-del-espanol",
-    "target_language": "spanish",
-    "level": "C1",
-    "title": "Diversidad del español",
-    "title_es": "Diversidad del español",
-    "description": "Comparar usos de distintas comunidades hispanohablantes",
-    "order_index": 8,
-    "unit_overview": {
-      "objective": "Explicar variación sin establecer jerarquías",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar variación, registro y adecuación pragmática",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "variación, registro y adecuación pragmática"
-      ],
-      "vocabulary": [
-        "variedad",
-        "rasgo",
-        "hablante",
-        "prestigio",
-        "regionalismo",
-        "adecuación"
-      ],
-      "scenario": "Comparar usos de distintas comunidades hispanohablantes"
-    }
-  },
-  {
-    "slug": "diplomacia-y-negociacion",
-    "target_language": "spanish",
-    "level": "C1",
-    "title": "Diplomacia y negociación",
-    "title_es": "Diplomacia y negociación",
-    "description": "Mediar entre posiciones incompatibles",
-    "order_index": 9,
-    "unit_overview": {
-      "objective": "Reformular, ceder y preservar relaciones",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar atenuación y cortesía avanzada",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "atenuación y cortesía avanzada"
-      ],
-      "vocabulary": [
-        "concesión",
-        "mediación",
-        "desacuerdo",
-        "margen",
-        "compromiso",
-        "postura"
-      ],
-      "scenario": "Mediar entre posiciones incompatibles"
-    }
-  },
-  {
-    "slug": "critica-cultural",
-    "target_language": "spanish",
-    "level": "C1",
-    "title": "Crítica cultural",
-    "title_es": "Crítica cultural",
-    "description": "Reseñar una obra para una revista",
-    "order_index": 10,
-    "unit_overview": {
-      "objective": "Sustentar una valoración estética matizada",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar adjetivación valorativa y conectores concesivos",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "adjetivación valorativa y conectores concesivos"
-      ],
-      "vocabulary": [
-        "puesta en escena",
-        "hallazgo",
-        "coherencia",
-        "sugerente",
-        "convencional",
-        "recepción"
-      ],
-      "scenario": "Reseñar una obra para una revista"
-    }
-  },
-  {
-    "slug": "politicas-publicas",
-    "target_language": "spanish",
-    "level": "C1",
-    "title": "Políticas públicas",
-    "title_es": "Políticas públicas",
-    "description": "Evaluar el resultado de una intervención",
-    "order_index": 11,
-    "unit_overview": {
-      "objective": "Interpretar indicadores y límites metodológicos",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar impersonales, pasivas y lenguaje técnico",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "impersonales, pasivas y lenguaje técnico"
-      ],
-      "vocabulary": [
-        "indicador",
-        "cobertura",
-        "implementación",
-        "sesgo de selección",
-        "resultado",
-        "evaluación"
-      ],
-      "scenario": "Evaluar el resultado de una intervención"
-    }
-  },
-  {
-    "slug": "coloquio-academico",
-    "target_language": "spanish",
-    "level": "C1",
-    "title": "Coloquio académico",
-    "title_es": "Coloquio académico",
-    "description": "Defender una tesis ante preguntas críticas",
-    "order_index": 12,
-    "unit_overview": {
-      "objective": "Sintetizar fuentes y responder con rigor",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar conectores de reformulación y reserva",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "conectores de reformulación y reserva"
-      ],
-      "vocabulary": [
-        "tesis",
-        "marco teórico",
-        "hallazgo",
-        "objeción",
-        "alcance",
-        "metodología"
-      ],
-      "scenario": "Defender una tesis ante preguntas críticas"
-    }
-  },
-  {
-    "slug": "ambiguedad-y-sentido",
-    "target_language": "spanish",
-    "level": "C2",
-    "title": "Ambigüedad y sentido",
-    "title_es": "Ambigüedad y sentido",
-    "description": "Desentrañar un texto deliberadamente ambiguo",
-    "order_index": 1,
-    "unit_overview": {
-      "objective": "Interpretar sentidos simultáneos y justificar lecturas",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar polisemia, elipsis y ambigüedad sintáctica",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "polisemia, elipsis y ambigüedad sintáctica"
-      ],
-      "vocabulary": [
-        "polisemia",
-        "elipsis",
-        "doble lectura",
-        "sobreentendido",
-        "indeterminación",
-        "matiz"
-      ],
-      "scenario": "Desentrañar un texto deliberadamente ambiguo"
-    }
-  },
-  {
-    "slug": "humor-e-ironia",
-    "target_language": "spanish",
-    "level": "C2",
-    "title": "Humor e ironía",
-    "title_es": "Humor e ironía",
-    "description": "Explicar por qué una sátira funciona en su contexto",
-    "order_index": 2,
-    "unit_overview": {
-      "objective": "Reconocer implicaturas y límites pragmáticos",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar ironía, eco y discurso polifónico",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "ironía, eco y discurso polifónico"
-      ],
-      "vocabulary": [
-        "sátira",
-        "implicatura",
-        "parodia",
-        "doble voz",
-        "burla",
-        "complicidad"
-      ],
-      "scenario": "Explicar por qué una sátira funciona en su contexto"
-    }
-  },
-  {
-    "slug": "traduccion-y-mediacion",
-    "target_language": "spanish",
-    "level": "C2",
-    "title": "Traducción y mediación",
-    "title_es": "Traducción y mediación",
-    "description": "Mediar un concepto sin equivalente exacto",
-    "order_index": 3,
-    "unit_overview": {
-      "objective": "Reformular preservando intención y registro",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar equivalencia pragmática y transposición",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "equivalencia pragmática y transposición"
-      ],
-      "vocabulary": [
-        "equivalencia",
-        "calco",
-        "reformulación",
-        "pérdida",
-        "registro",
-        "mediación"
-      ],
-      "scenario": "Mediar un concepto sin equivalente exacto"
-    }
-  },
-  {
-    "slug": "filosofia-del-lenguaje",
-    "target_language": "spanish",
-    "level": "C2",
-    "title": "Filosofía del lenguaje",
-    "title_es": "Filosofía del lenguaje",
-    "description": "Debatir cómo las palabras construyen categorías",
-    "order_index": 4,
-    "unit_overview": {
-      "objective": "Manejar abstracción y contraargumentos",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar sustantivación y arquitectura argumental",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "sustantivación y arquitectura argumental"
-      ],
-      "vocabulary": [
-        "referente",
-        "categoría",
-        "enunciado",
-        "convención",
-        "inferir",
-        "conceptualizar"
-      ],
-      "scenario": "Debatir cómo las palabras construyen categorías"
-    }
-  },
-  {
-    "slug": "analisis-juridico",
-    "target_language": "spanish",
-    "level": "C2",
-    "title": "Análisis jurídico",
-    "title_es": "Análisis jurídico",
-    "description": "Interpretar dos lecturas de una norma",
-    "order_index": 5,
-    "unit_overview": {
-      "objective": "Distinguir literalidad, finalidad y precedente",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar modalidad deóntica y precisión restrictiva",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "modalidad deóntica y precisión restrictiva"
-      ],
-      "vocabulary": [
-        "jurisprudencia",
-        "supuesto",
-        "alcance",
-        "disposición",
-        "interpretación",
-        "precedente"
-      ],
-      "scenario": "Interpretar dos lecturas de una norma"
-    }
-  },
-  {
-    "slug": "edicion-de-estilo",
-    "target_language": "spanish",
-    "level": "C2",
-    "title": "Edición de estilo",
-    "title_es": "Edición de estilo",
-    "description": "Editar un ensayo sin borrar la voz del autor",
-    "order_index": 6,
-    "unit_overview": {
-      "objective": "Mejorar precisión, cohesión y ritmo",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar cohesión avanzada y puntuación discursiva",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "cohesión avanzada y puntuación discursiva"
-      ],
-      "vocabulary": [
-        "inciso",
-        "redundancia",
-        "cadencia",
-        "cohesión",
-        "reescritura",
-        "voz autoral"
-      ],
-      "scenario": "Editar un ensayo sin borrar la voz del autor"
-    }
-  },
-  {
-    "slug": "debate-epistemico",
-    "target_language": "spanish",
-    "level": "C2",
-    "title": "Debate epistémico",
-    "title_es": "Debate epistémico",
-    "description": "Evaluar qué puede afirmarse a partir de evidencia incompleta",
-    "order_index": 7,
-    "unit_overview": {
-      "objective": "Graduar certeza y responsabilidad discursiva",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar evidencialidad y grados de compromiso",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "evidencialidad y grados de compromiso"
-      ],
-      "vocabulary": [
-        "corroborar",
-        "plausible",
-        "refutar",
-        "provisional",
-        "inferencia",
-        "certeza"
-      ],
-      "scenario": "Evaluar qué puede afirmarse a partir de evidencia incompleta"
-    }
-  },
-  {
-    "slug": "estetica-y-interpretacion",
-    "target_language": "spanish",
-    "level": "C2",
-    "title": "Estética e interpretación",
-    "title_es": "Estética e interpretación",
-    "description": "Comparar marcos críticos sobre una obra",
-    "order_index": 8,
-    "unit_overview": {
-      "objective": "Integrar lecturas incompatibles sin simplificarlas",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar metáfora conceptual y lenguaje crítico",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "metáfora conceptual y lenguaje crítico"
-      ],
-      "vocabulary": [
-        "marco crítico",
-        "recepción",
-        "canon",
-        "ruptura",
-        "lectura",
-        "estética"
-      ],
-      "scenario": "Comparar marcos críticos sobre una obra"
-    }
-  },
-  {
-    "slug": "discurso-cientifico",
-    "target_language": "spanish",
-    "level": "C2",
-    "title": "Discurso científico",
-    "title_es": "Discurso científico",
-    "description": "Convertir resultados especializados para públicos distintos",
-    "order_index": 9,
-    "unit_overview": {
-      "objective": "Adaptar densidad y precisión sin distorsionar",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar reformulación explicativa y cautela",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "reformulación explicativa y cautela"
-      ],
-      "vocabulary": [
-        "divulgación",
-        "muestra",
-        "limitación",
-        "hallazgo",
-        "replicabilidad",
-        "consenso"
-      ],
-      "scenario": "Convertir resultados especializados para públicos distintos"
-    }
-  },
-  {
-    "slug": "mediacion-de-conflictos",
-    "target_language": "spanish",
-    "level": "C2",
-    "title": "Mediación de conflictos",
-    "title_es": "Mediación de conflictos",
-    "description": "Reformular posiciones en una negociación sensible",
-    "order_index": 10,
-    "unit_overview": {
-      "objective": "Detectar necesidades y desbloquear el diálogo",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar atenuación extrema y metapragmática",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "atenuación extrema y metapragmática"
-      ],
-      "vocabulary": [
-        "agravio",
-        "reconocimiento",
-        "interés",
-        "escalada",
-        "reencuadre",
-        "acuerdo"
-      ],
-      "scenario": "Reformular posiciones en una negociación sensible"
-    }
-  },
-  {
-    "slug": "ensayo-de-alta-exigencia",
-    "target_language": "spanish",
-    "level": "C2",
-    "title": "Ensayo de alta exigencia",
-    "title_es": "Ensayo de alta exigencia",
-    "description": "Construir una tesis compleja con fuentes divergentes",
-    "order_index": 11,
-    "unit_overview": {
-      "objective": "Controlar estructura, voz y contraargumentación",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar progresión temática y cohesión global",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "progresión temática y cohesión global"
-      ],
-      "vocabulary": [
-        "hipótesis",
-        "salvedad",
-        "contraargumento",
-        "síntesis",
-        "premisa",
-        "conclusión"
-      ],
-      "scenario": "Construir una tesis compleja con fuentes divergentes"
-    }
-  },
-  {
-    "slug": "defensa-y-sintesis",
-    "target_language": "spanish",
-    "level": "C2",
-    "title": "Defensa y síntesis",
-    "title_es": "Defensa y síntesis",
-    "description": "Resolver una misión integradora ante un panel experto",
-    "order_index": 12,
-    "unit_overview": {
-      "objective": "Sintetizar, mediar y producir con dominio flexible",
-      "outcomes": [
-        "comprender información oral y escrita dentro del mismo tema",
-        "usar vocabulario específico en contexto",
-        "aplicar selección estratégica de todos los recursos C2",
-        "producir una respuesta oral y una escrita"
-      ],
-      "grammar": [
-        "selección estratégica de todos los recursos C2"
-      ],
-      "vocabulary": [
-        "síntesis",
-        "criterio",
-        "matización",
-        "solvencia",
-        "perspectiva",
-        "precisión"
-      ],
-      "scenario": "Resolver una misión integradora ante un panel experto"
-    }
-  },
-  {
     "slug": "social-media-public-opinion",
     "target_language": "english",
     "level": "B2",
@@ -3306,167 +1506,6 @@
       ],
       "scenario": "A Fluent Answer Is Not Always a Reliable Teacher"
     }
-  },
-  {
-    "slug": "hola-mucho-gusto",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "¡Hola! Mucho gusto",
-    "title_es": "",
-    "description": "Saludos, despedidas, presentarse y el alfabeto.",
-    "order_index": 1,
-    "unit_overview": {
-      "objective": "Presentarte, saludar y conocer a otras personas.",
-      "outcomes": [
-        "decir tu nombre",
-        "preguntar el nombre de otra persona",
-        "usar saludos formales e informales",
-        "deletrear información básica"
-      ],
-      "grammar": [
-        "verbo to be",
-        "subject pronouns",
-        "basic questions"
-      ],
-      "vocabulary": [
-        "greetings",
-        "names",
-        "classroom expressions",
-        "numbers 0–20"
-      ],
-      "scenario": "Tu primer día en una clase de inglés."
-    }
-  },
-  {
-    "slug": "informacion-personal",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "Información personal",
-    "title_es": "",
-    "description": "Edad, nacionalidad, procedencia y datos de contacto.",
-    "order_index": 2,
-    "unit_overview": null
-  },
-  {
-    "slug": "mi-familia-y-mis-amigos",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "Mi familia y mis amigos",
-    "title_es": "",
-    "description": "Miembros de la familia, posesivos y describir personas.",
-    "order_index": 3,
-    "unit_overview": null
-  },
-  {
-    "slug": "mi-rutina-diaria",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "Mi rutina diaria",
-    "title_es": "",
-    "description": "Actividades cotidianas, la hora y el presente de indicativo.",
-    "order_index": 4,
-    "unit_overview": null
-  },
-  {
-    "slug": "mi-casa",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "Mi casa",
-    "title_es": "",
-    "description": "Habitaciones, muebles y describir una vivienda.",
-    "order_index": 5,
-    "unit_overview": null
-  },
-  {
-    "slug": "mi-barrio-y-mi-ciudad",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "Mi barrio y mi ciudad",
-    "title_es": "",
-    "description": "Lugares de la ciudad, direcciones y transporte.",
-    "order_index": 6,
-    "unit_overview": null
-  },
-  {
-    "slug": "comida-y-bebida",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "Comida y bebida",
-    "title_es": "",
-    "description": "Alimentos, pedir comida y expresar gustos.",
-    "order_index": 7,
-    "unit_overview": null
-  },
-  {
-    "slug": "de-compras",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "De compras",
-    "title_es": "",
-    "description": "Ropa, colores, tallas y precios.",
-    "order_index": 8,
-    "unit_overview": null
-  },
-  {
-    "slug": "estudios-y-trabajo",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "Estudios y trabajo",
-    "title_es": "",
-    "description": "Estudios, profesiones y responsabilidades sencillas.",
-    "order_index": 9,
-    "unit_overview": null
-  },
-  {
-    "slug": "tiempo-libre",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "Tiempo libre",
-    "title_es": "",
-    "description": "Pasatiempos, preferencias e invitaciones.",
-    "order_index": 10,
-    "unit_overview": null
-  },
-  {
-    "slug": "salud-y-bienestar-a1",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "No me siento bien",
-    "title_es": "",
-    "description": "Partes del cuerpo, malestares frecuentes y cómo pedir ayuda en una farmacia.",
-    "order_index": 11,
-    "unit_overview": {
-      "objective": "Expresar cómo te sientes, decir qué te duele y pedir ayuda de forma sencilla.",
-      "outcomes": [
-        "nombrar partes básicas del cuerpo",
-        "expresar un dolor o un malestar",
-        "preguntar a otra persona qué le duele",
-        "comprender recomendaciones sencillas"
-      ],
-      "grammar": [
-        "me duele + singular",
-        "me duelen + plural",
-        "tener + síntoma",
-        "estar + estado"
-      ],
-      "vocabulary": [
-        "partes del cuerpo",
-        "síntomas frecuentes",
-        "la farmacia",
-        "recomendaciones básicas"
-      ],
-      "scenario": "No te sientes bien y explicas tus síntomas en una farmacia."
-    }
-  },
-  {
-    "slug": "planes-y-repaso",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "Planes y repaso",
-    "title_es": "",
-    "description": "Planes inmediatos, fechas, el clima y repaso general de A1.",
-    "order_index": 12,
-    "unit_overview": null
   },
   {
     "slug": "everyday-life",
@@ -5665,6 +3704,1967 @@
         "étendue et contrôle du vocabulaire",
         "correction grammaticale constante"
       ]
+    }
+  },
+  {
+    "slug": "hola-mucho-gusto",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "¡Hola! Mucho gusto",
+    "title_es": "",
+    "description": "Saludos, despedidas, presentarse y el alfabeto.",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "Presentarte, saludar y conocer a otras personas.",
+      "outcomes": [
+        "decir tu nombre",
+        "preguntar el nombre de otra persona",
+        "usar saludos formales e informales",
+        "deletrear información básica"
+      ],
+      "grammar": [
+        "verbo to be",
+        "subject pronouns",
+        "basic questions"
+      ],
+      "vocabulary": [
+        "greetings",
+        "names",
+        "classroom expressions",
+        "numbers 0–20"
+      ],
+      "scenario": "Tu primer día en una clase de inglés."
+    }
+  },
+  {
+    "slug": "informacion-personal",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "Información personal",
+    "title_es": "",
+    "description": "Edad, nacionalidad, procedencia y datos de contacto.",
+    "order_index": 2,
+    "unit_overview": null
+  },
+  {
+    "slug": "mi-familia-y-mis-amigos",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "Mi familia y mis amigos",
+    "title_es": "",
+    "description": "Miembros de la familia, posesivos y describir personas.",
+    "order_index": 3,
+    "unit_overview": null
+  },
+  {
+    "slug": "mi-rutina-diaria",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "Mi rutina diaria",
+    "title_es": "",
+    "description": "Actividades cotidianas, la hora y el presente de indicativo.",
+    "order_index": 4,
+    "unit_overview": null
+  },
+  {
+    "slug": "mi-casa",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "Mi casa",
+    "title_es": "",
+    "description": "Habitaciones, muebles y describir una vivienda.",
+    "order_index": 5,
+    "unit_overview": null
+  },
+  {
+    "slug": "mi-barrio-y-mi-ciudad",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "Mi barrio y mi ciudad",
+    "title_es": "",
+    "description": "Lugares de la ciudad, direcciones y transporte.",
+    "order_index": 6,
+    "unit_overview": null
+  },
+  {
+    "slug": "comida-y-bebida",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "Comida y bebida",
+    "title_es": "",
+    "description": "Alimentos, pedir comida y expresar gustos.",
+    "order_index": 7,
+    "unit_overview": null
+  },
+  {
+    "slug": "de-compras",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "De compras",
+    "title_es": "",
+    "description": "Ropa, colores, tallas y precios.",
+    "order_index": 8,
+    "unit_overview": null
+  },
+  {
+    "slug": "estudios-y-trabajo",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "Estudios y trabajo",
+    "title_es": "",
+    "description": "Estudios, profesiones y responsabilidades sencillas.",
+    "order_index": 9,
+    "unit_overview": null
+  },
+  {
+    "slug": "tiempo-libre",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "Tiempo libre",
+    "title_es": "",
+    "description": "Pasatiempos, preferencias e invitaciones.",
+    "order_index": 10,
+    "unit_overview": null
+  },
+  {
+    "slug": "salud-y-bienestar-a1",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "No me siento bien",
+    "title_es": "",
+    "description": "Partes del cuerpo, malestares frecuentes y cómo pedir ayuda en una farmacia.",
+    "order_index": 11,
+    "unit_overview": {
+      "objective": "Expresar cómo te sientes, decir qué te duele y pedir ayuda de forma sencilla.",
+      "outcomes": [
+        "nombrar partes básicas del cuerpo",
+        "expresar un dolor o un malestar",
+        "preguntar a otra persona qué le duele",
+        "comprender recomendaciones sencillas"
+      ],
+      "grammar": [
+        "me duele + singular",
+        "me duelen + plural",
+        "tener + síntoma",
+        "estar + estado"
+      ],
+      "vocabulary": [
+        "partes del cuerpo",
+        "síntomas frecuentes",
+        "la farmacia",
+        "recomendaciones básicas"
+      ],
+      "scenario": "No te sientes bien y explicas tus síntomas en una farmacia."
+    }
+  },
+  {
+    "slug": "planes-y-repaso",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "Planes y repaso",
+    "title_es": "",
+    "description": "Planes inmediatos, fechas, el clima y repaso general de A1.",
+    "order_index": 12,
+    "unit_overview": null
+  },
+  {
+    "slug": "compras-y-cantidades",
+    "target_language": "spanish",
+    "level": "A2",
+    "title": "Compras y cantidades",
+    "title_es": "Compras y cantidades",
+    "description": "Resolver una compra en un mercado",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "Pedir productos, comparar precios y expresar cantidades",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar querer, pedir y expresiones de cantidad",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "querer, pedir y expresiones de cantidad"
+      ],
+      "vocabulary": [
+        "mercado",
+        "precio",
+        "oferta",
+        "kilo",
+        "cambio",
+        "recibo"
+      ],
+      "scenario": "Resolver una compra en un mercado"
+    }
+  },
+  {
+    "slug": "orientarse-en-la-ciudad",
+    "target_language": "spanish",
+    "level": "A2",
+    "title": "Orientarse en la ciudad",
+    "title_es": "Orientarse en la ciudad",
+    "description": "Ayudar a una visitante a llegar a la estación",
+    "order_index": 2,
+    "unit_overview": {
+      "objective": "Pedir y dar indicaciones claras",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar imperativo y preposiciones de lugar",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "imperativo y preposiciones de lugar"
+      ],
+      "vocabulary": [
+        "esquina",
+        "cuadra",
+        "semáforo",
+        "recto",
+        "girar",
+        "estación"
+      ],
+      "scenario": "Ayudar a una visitante a llegar a la estación"
+    }
+  },
+  {
+    "slug": "rutinas-y-horarios",
+    "target_language": "spanish",
+    "level": "A2",
+    "title": "Rutinas y horarios",
+    "title_es": "Rutinas y horarios",
+    "description": "Organizar una semana con estudio y trabajo",
+    "order_index": 3,
+    "unit_overview": {
+      "objective": "Describir hábitos y cambios temporales",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar presente habitual y estar + gerundio",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "presente habitual y estar + gerundio"
+      ],
+      "vocabulary": [
+        "horario",
+        "turno",
+        "temprano",
+        "tarde",
+        "descanso",
+        "agenda"
+      ],
+      "scenario": "Organizar una semana con estudio y trabajo"
+    }
+  },
+  {
+    "slug": "salud-y-bienestar",
+    "target_language": "spanish",
+    "level": "A2",
+    "title": "Salud y bienestar",
+    "title_es": "Salud y bienestar",
+    "description": "Explicar síntomas en una consulta",
+    "order_index": 4,
+    "unit_overview": {
+      "objective": "Hablar de molestias y recomendaciones",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar doler, tener que y deber",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "doler, tener que y deber"
+      ],
+      "vocabulary": [
+        "síntoma",
+        "dolor",
+        "cita",
+        "descansar",
+        "receta",
+        "mejorar"
+      ],
+      "scenario": "Explicar síntomas en una consulta"
+    }
+  },
+  {
+    "slug": "viajes-y-transporte",
+    "target_language": "spanish",
+    "level": "A2",
+    "title": "Viajes y transporte",
+    "title_es": "Viajes y transporte",
+    "description": "Preparar un viaje de fin de semana",
+    "order_index": 5,
+    "unit_overview": {
+      "objective": "Comprar billetes y resolver cambios",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar ir a + infinitivo y futuro próximo",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "ir a + infinitivo y futuro próximo"
+      ],
+      "vocabulary": [
+        "billete",
+        "equipaje",
+        "andén",
+        "salida",
+        "llegada",
+        "reserva"
+      ],
+      "scenario": "Preparar un viaje de fin de semana"
+    }
+  },
+  {
+    "slug": "casa-y-barrio",
+    "target_language": "spanish",
+    "level": "A2",
+    "title": "Casa y barrio",
+    "title_es": "Casa y barrio",
+    "description": "Buscar una vivienda adecuada",
+    "order_index": 6,
+    "unit_overview": {
+      "objective": "Describir espacios y comparar opciones",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar comparativos y hay/está",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "comparativos y hay/está"
+      ],
+      "vocabulary": [
+        "alquiler",
+        "vecindario",
+        "amueblado",
+        "luminoso",
+        "ruido",
+        "mudanza"
+      ],
+      "scenario": "Buscar una vivienda adecuada"
+    }
+  },
+  {
+    "slug": "comidas-y-recetas",
+    "target_language": "spanish",
+    "level": "A2",
+    "title": "Comidas y recetas",
+    "title_es": "Comidas y recetas",
+    "description": "Preparar una comida para amistades",
+    "order_index": 7,
+    "unit_overview": {
+      "objective": "Explicar ingredientes y pasos",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar se impersonal e imperativo",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "se impersonal e imperativo"
+      ],
+      "vocabulary": [
+        "ingrediente",
+        "mezclar",
+        "hervir",
+        "horno",
+        "sabor",
+        "porción"
+      ],
+      "scenario": "Preparar una comida para amistades"
+    }
+  },
+  {
+    "slug": "recuerdos-y-experiencias",
+    "target_language": "spanish",
+    "level": "A2",
+    "title": "Recuerdos y experiencias",
+    "title_es": "Recuerdos y experiencias",
+    "description": "Contar una experiencia especial",
+    "order_index": 8,
+    "unit_overview": {
+      "objective": "Narrar hechos terminados y experiencias",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar pretérito perfecto e indefinido",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "pretérito perfecto e indefinido"
+      ],
+      "vocabulary": [
+        "recuerdo",
+        "viaje",
+        "anécdota",
+        "ocurrir",
+        "disfrutar",
+        "sorpresa"
+      ],
+      "scenario": "Contar una experiencia especial"
+    }
+  },
+  {
+    "slug": "celebraciones",
+    "target_language": "spanish",
+    "level": "A2",
+    "title": "Celebraciones",
+    "title_es": "Celebraciones",
+    "description": "Organizar una celebración familiar",
+    "order_index": 9,
+    "unit_overview": {
+      "objective": "Invitar, aceptar y rechazar con cortesía",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar pronombres de objeto y quedar",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "pronombres de objeto y quedar"
+      ],
+      "vocabulary": [
+        "invitación",
+        "regalo",
+        "reunión",
+        "celebrar",
+        "aceptar",
+        "rechazar"
+      ],
+      "scenario": "Organizar una celebración familiar"
+    }
+  },
+  {
+    "slug": "estudio-y-aprendizaje",
+    "target_language": "spanish",
+    "level": "A2",
+    "title": "Estudio y aprendizaje",
+    "title_es": "Estudio y aprendizaje",
+    "description": "Preparar un plan de estudio",
+    "order_index": 10,
+    "unit_overview": {
+      "objective": "Expresar dificultades y estrategias",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar desde, desde hace y llevar + gerundio",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "desde, desde hace y llevar + gerundio"
+      ],
+      "vocabulary": [
+        "apunte",
+        "repasar",
+        "tarea",
+        "plazo",
+        "practicar",
+        "progreso"
+      ],
+      "scenario": "Preparar un plan de estudio"
+    }
+  },
+  {
+    "slug": "tecnologia-cotidiana",
+    "target_language": "spanish",
+    "level": "A2",
+    "title": "Tecnología cotidiana",
+    "title_es": "Tecnología cotidiana",
+    "description": "Resolver un problema con una aplicación",
+    "order_index": 11,
+    "unit_overview": {
+      "objective": "Pedir ayuda y explicar pasos digitales",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar pronombres de complemento y secuenciadores",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "pronombres de complemento y secuenciadores"
+      ],
+      "vocabulary": [
+        "pantalla",
+        "contraseña",
+        "archivo",
+        "descargar",
+        "conectar",
+        "cuenta"
+      ],
+      "scenario": "Resolver un problema con una aplicación"
+    }
+  },
+  {
+    "slug": "planes-y-proyectos",
+    "target_language": "spanish",
+    "level": "A2",
+    "title": "Planes y proyectos",
+    "title_es": "Planes y proyectos",
+    "description": "Coordinar un proyecto de grupo",
+    "order_index": 12,
+    "unit_overview": {
+      "objective": "Proponer, negociar y acordar planes",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar futuro próximo y expresiones de acuerdo",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "futuro próximo y expresiones de acuerdo"
+      ],
+      "vocabulary": [
+        "propuesta",
+        "tarea",
+        "equipo",
+        "acuerdo",
+        "fecha",
+        "resultado"
+      ],
+      "scenario": "Coordinar un proyecto de grupo"
+    }
+  },
+  {
+    "slug": "historias-personales",
+    "target_language": "spanish",
+    "level": "B1",
+    "title": "Historias personales",
+    "title_es": "Historias personales",
+    "description": "Compartir una experiencia que cambió una decisión",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "Narrar con orden, contexto y detalle",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar contraste entre indefinido e imperfecto",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "contraste entre indefinido e imperfecto"
+      ],
+      "vocabulary": [
+        "etapa",
+        "decisión",
+        "cambio",
+        "mientras",
+        "de repente",
+        "aprendizaje"
+      ],
+      "scenario": "Compartir una experiencia que cambió una decisión"
+    }
+  },
+  {
+    "slug": "trabajo-y-talento",
+    "target_language": "spanish",
+    "level": "B1",
+    "title": "Trabajo y talento",
+    "title_es": "Trabajo y talento",
+    "description": "Preparar una entrevista laboral",
+    "order_index": 2,
+    "unit_overview": {
+      "objective": "Presentar experiencia y capacidades",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar pretérito perfecto y perífrasis de capacidad",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "pretérito perfecto y perífrasis de capacidad"
+      ],
+      "vocabulary": [
+        "vacante",
+        "experiencia",
+        "habilidad",
+        "entrevista",
+        "responsable",
+        "logro"
+      ],
+      "scenario": "Preparar una entrevista laboral"
+    }
+  },
+  {
+    "slug": "viajes-con-imprevistos",
+    "target_language": "spanish",
+    "level": "B1",
+    "title": "Viajes con imprevistos",
+    "title_es": "Viajes con imprevistos",
+    "description": "Resolver la cancelación de un trayecto",
+    "order_index": 3,
+    "unit_overview": {
+      "objective": "Explicar un problema y negociar soluciones",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar condicional de cortesía",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "condicional de cortesía"
+      ],
+      "vocabulary": [
+        "cancelación",
+        "retraso",
+        "reembolso",
+        "alternativa",
+        "reclamo",
+        "seguro"
+      ],
+      "scenario": "Resolver la cancelación de un trayecto"
+    }
+  },
+  {
+    "slug": "medios-y-noticias",
+    "target_language": "spanish",
+    "level": "B1",
+    "title": "Medios y noticias",
+    "title_es": "Medios y noticias",
+    "description": "Comparar dos versiones de una noticia",
+    "order_index": 4,
+    "unit_overview": {
+      "objective": "Resumir información y distinguir opiniones",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar estilo indirecto en presente y pasado",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "estilo indirecto en presente y pasado"
+      ],
+      "vocabulary": [
+        "titular",
+        "fuente",
+        "reportaje",
+        "rumor",
+        "comprobar",
+        "actualidad"
+      ],
+      "scenario": "Comparar dos versiones de una noticia"
+    }
+  },
+  {
+    "slug": "relaciones-y-convivencia",
+    "target_language": "spanish",
+    "level": "B1",
+    "title": "Relaciones y convivencia",
+    "title_es": "Relaciones y convivencia",
+    "description": "Resolver un desacuerdo entre compañeros",
+    "order_index": 5,
+    "unit_overview": {
+      "objective": "Expresar emociones y buscar acuerdos",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar subjuntivo con emoción y valoración",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "subjuntivo con emoción y valoración"
+      ],
+      "vocabulary": [
+        "confianza",
+        "límite",
+        "acuerdo",
+        "molestia",
+        "apoyar",
+        "convivir"
+      ],
+      "scenario": "Resolver un desacuerdo entre compañeros"
+    }
+  },
+  {
+    "slug": "consumo-responsable",
+    "target_language": "spanish",
+    "level": "B1",
+    "title": "Consumo responsable",
+    "title_es": "Consumo responsable",
+    "description": "Elegir entre varias opciones de compra",
+    "order_index": 6,
+    "unit_overview": {
+      "objective": "Argumentar una elección responsable",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar oraciones de relativo",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "oraciones de relativo"
+      ],
+      "vocabulary": [
+        "duradero",
+        "local",
+        "etiqueta",
+        "residuo",
+        "reutilizar",
+        "consumo"
+      ],
+      "scenario": "Elegir entre varias opciones de compra"
+    }
+  },
+  {
+    "slug": "cultura-y-tradiciones",
+    "target_language": "spanish",
+    "level": "B1",
+    "title": "Cultura y tradiciones",
+    "title_es": "Cultura y tradiciones",
+    "description": "Explicar una tradición a una visitante",
+    "order_index": 7,
+    "unit_overview": {
+      "objective": "Describir prácticas sin generalizar",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar se impersonal y pasiva refleja",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "se impersonal y pasiva refleja"
+      ],
+      "vocabulary": [
+        "costumbre",
+        "origen",
+        "comunidad",
+        "transmitir",
+        "patrimonio",
+        "diversidad"
+      ],
+      "scenario": "Explicar una tradición a una visitante"
+    }
+  },
+  {
+    "slug": "educacion-y-metas",
+    "target_language": "spanish",
+    "level": "B1",
+    "title": "Educación y metas",
+    "title_es": "Educación y metas",
+    "description": "Elegir un curso de formación",
+    "order_index": 8,
+    "unit_overview": {
+      "objective": "Comparar opciones y justificar metas",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar futuro y condicional",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "futuro y condicional"
+      ],
+      "vocabulary": [
+        "matrícula",
+        "beca",
+        "requisito",
+        "modalidad",
+        "meta",
+        "formación"
+      ],
+      "scenario": "Elegir un curso de formación"
+    }
+  },
+  {
+    "slug": "medioambiente-local",
+    "target_language": "spanish",
+    "level": "B1",
+    "title": "Medioambiente local",
+    "title_es": "Medioambiente local",
+    "description": "Proponer una mejora para el barrio",
+    "order_index": 9,
+    "unit_overview": {
+      "objective": "Explicar causas, consecuencias y propuestas",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar condicional real y conectores causales",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "condicional real y conectores causales"
+      ],
+      "vocabulary": [
+        "reciclaje",
+        "contaminación",
+        "medida",
+        "recurso",
+        "reducir",
+        "impacto"
+      ],
+      "scenario": "Proponer una mejora para el barrio"
+    }
+  },
+  {
+    "slug": "salud-y-habitos",
+    "target_language": "spanish",
+    "level": "B1",
+    "title": "Salud y hábitos",
+    "title_es": "Salud y hábitos",
+    "description": "Diseñar una rutina sostenible",
+    "order_index": 10,
+    "unit_overview": {
+      "objective": "Dar consejos razonados",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar subjuntivo con recomendación",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "subjuntivo con recomendación"
+      ],
+      "vocabulary": [
+        "bienestar",
+        "descanso",
+        "equilibrio",
+        "hábito",
+        "estrés",
+        "constancia"
+      ],
+      "scenario": "Diseñar una rutina sostenible"
+    }
+  },
+  {
+    "slug": "servicios-y-reclamaciones",
+    "target_language": "spanish",
+    "level": "B1",
+    "title": "Servicios y reclamaciones",
+    "title_es": "Servicios y reclamaciones",
+    "description": "Presentar una reclamación respetuosa",
+    "order_index": 11,
+    "unit_overview": {
+      "objective": "Describir hechos y solicitar una respuesta",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar pronombres y fórmulas de cortesía",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "pronombres y fórmulas de cortesía"
+      ],
+      "vocabulary": [
+        "avería",
+        "factura",
+        "garantía",
+        "solicitud",
+        "incidencia",
+        "solución"
+      ],
+      "scenario": "Presentar una reclamación respetuosa"
+    }
+  },
+  {
+    "slug": "proyecto-comunitario",
+    "target_language": "spanish",
+    "level": "B1",
+    "title": "Proyecto comunitario",
+    "title_es": "Proyecto comunitario",
+    "description": "Presentar una iniciativa vecinal",
+    "order_index": 12,
+    "unit_overview": {
+      "objective": "Integrar información y persuadir a un grupo",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar conectores de finalidad y contraste",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "conectores de finalidad y contraste"
+      ],
+      "vocabulary": [
+        "iniciativa",
+        "voluntariado",
+        "presupuesto",
+        "participación",
+        "beneficio",
+        "propuesta"
+      ],
+      "scenario": "Presentar una iniciativa vecinal"
+    }
+  },
+  {
+    "slug": "identidad-digital",
+    "target_language": "spanish",
+    "level": "B2",
+    "title": "Identidad digital",
+    "title_es": "Identidad digital",
+    "description": "Debatir cómo construimos nuestra imagen en internet",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "Evaluar beneficios, riesgos y responsabilidad",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar concesivas aunque, pese a y a pesar de",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "concesivas aunque, pese a y a pesar de"
+      ],
+      "vocabulary": [
+        "huella digital",
+        "privacidad",
+        "perfil",
+        "exposición",
+        "reputación",
+        "consentimiento"
+      ],
+      "scenario": "Debatir cómo construimos nuestra imagen en internet"
+    }
+  },
+  {
+    "slug": "ciudades-sostenibles",
+    "target_language": "spanish",
+    "level": "B2",
+    "title": "Ciudades sostenibles",
+    "title_es": "Ciudades sostenibles",
+    "description": "Valorar un nuevo plan de movilidad",
+    "order_index": 2,
+    "unit_overview": {
+      "objective": "Contrastar intereses y consecuencias",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar condicionales reales e hipotéticas",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "condicionales reales e hipotéticas"
+      ],
+      "vocabulary": [
+        "movilidad",
+        "peatonal",
+        "emisiones",
+        "infraestructura",
+        "accesibilidad",
+        "urbanismo"
+      ],
+      "scenario": "Valorar un nuevo plan de movilidad"
+    }
+  },
+  {
+    "slug": "trabajo-del-futuro",
+    "target_language": "spanish",
+    "level": "B2",
+    "title": "El trabajo del futuro",
+    "title_es": "El trabajo del futuro",
+    "description": "Analizar cambios producidos por la automatización",
+    "order_index": 3,
+    "unit_overview": {
+      "objective": "Formular predicciones con cautela",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar futuro compuesto y probabilidad",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "futuro compuesto y probabilidad"
+      ],
+      "vocabulary": [
+        "automatización",
+        "competencia",
+        "reconversión",
+        "productividad",
+        "teletrabajo",
+        "incertidumbre"
+      ],
+      "scenario": "Analizar cambios producidos por la automatización"
+    }
+  },
+  {
+    "slug": "desinformacion",
+    "target_language": "spanish",
+    "level": "B2",
+    "title": "Desinformación",
+    "title_es": "Desinformación",
+    "description": "Verificar una afirmación viral",
+    "order_index": 4,
+    "unit_overview": {
+      "objective": "Evaluar evidencias y explicar dudas",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar estilo indirecto y verbos de transmisión",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "estilo indirecto y verbos de transmisión"
+      ],
+      "vocabulary": [
+        "evidencia",
+        "sesgo",
+        "verificar",
+        "fuente primaria",
+        "engañoso",
+        "credibilidad"
+      ],
+      "scenario": "Verificar una afirmación viral"
+    }
+  },
+  {
+    "slug": "turismo-y-comunidad",
+    "target_language": "spanish",
+    "level": "B2",
+    "title": "Turismo y comunidad",
+    "title_es": "Turismo y comunidad",
+    "description": "Mediar en un debate sobre turismo local",
+    "order_index": 5,
+    "unit_overview": {
+      "objective": "Defender una postura reconociendo límites",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar estructuras de contraste y concesión",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "estructuras de contraste y concesión"
+      ],
+      "vocabulary": [
+        "temporada alta",
+        "alojamiento",
+        "residente",
+        "saturación",
+        "patrimonio",
+        "regulación"
+      ],
+      "scenario": "Mediar en un debate sobre turismo local"
+    }
+  },
+  {
+    "slug": "educacion-digital",
+    "target_language": "spanish",
+    "level": "B2",
+    "title": "Educación digital",
+    "title_es": "Educación digital",
+    "description": "Evaluar una propuesta de aprendizaje híbrido",
+    "order_index": 6,
+    "unit_overview": {
+      "objective": "Comparar modelos y criterios de calidad",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar relativas explicativas y especificativas",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "relativas explicativas y especificativas"
+      ],
+      "vocabulary": [
+        "alfabetización",
+        "plataforma",
+        "evaluación",
+        "brecha",
+        "autonomía",
+        "retroalimentación"
+      ],
+      "scenario": "Evaluar una propuesta de aprendizaje híbrido"
+    }
+  },
+  {
+    "slug": "alimentacion-y-sociedad",
+    "target_language": "spanish",
+    "level": "B2",
+    "title": "Alimentación y sociedad",
+    "title_es": "Alimentación y sociedad",
+    "description": "Examinar decisiones alimentarias y acceso",
+    "order_index": 7,
+    "unit_overview": {
+      "objective": "Relacionar elecciones personales y sistemas",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar pasiva refleja y construcciones impersonales",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "pasiva refleja y construcciones impersonales"
+      ],
+      "vocabulary": [
+        "cadena de suministro",
+        "etiquetado",
+        "desperdicio",
+        "acceso",
+        "nutrición",
+        "producción"
+      ],
+      "scenario": "Examinar decisiones alimentarias y acceso"
+    }
+  },
+  {
+    "slug": "arte-y-espacio-publico",
+    "target_language": "spanish",
+    "level": "B2",
+    "title": "Arte y espacio público",
+    "title_es": "Arte y espacio público",
+    "description": "Decidir el uso cultural de una plaza",
+    "order_index": 8,
+    "unit_overview": {
+      "objective": "Interpretar propuestas y negociar criterios",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar subjuntivo en relativas y valoración",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "subjuntivo en relativas y valoración"
+      ],
+      "vocabulary": [
+        "intervención",
+        "mural",
+        "financiación",
+        "audiencia",
+        "controversia",
+        "expresión"
+      ],
+      "scenario": "Decidir el uso cultural de una plaza"
+    }
+  },
+  {
+    "slug": "ciencia-y-etica",
+    "target_language": "spanish",
+    "level": "B2",
+    "title": "Ciencia y ética",
+    "title_es": "Ciencia y ética",
+    "description": "Debatir una innovación con impacto social",
+    "order_index": 9,
+    "unit_overview": {
+      "objective": "Distinguir hechos, valores y precauciones",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar modales de deducción y probabilidad",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "modales de deducción y probabilidad"
+      ],
+      "vocabulary": [
+        "hallazgo",
+        "riesgo",
+        "ensayo",
+        "regulación",
+        "principio",
+        "incertidumbre"
+      ],
+      "scenario": "Debatir una innovación con impacto social"
+    }
+  },
+  {
+    "slug": "vivienda-y-desigualdad",
+    "target_language": "spanish",
+    "level": "B2",
+    "title": "Vivienda y desigualdad",
+    "title_es": "Vivienda y desigualdad",
+    "description": "Analizar el aumento del alquiler",
+    "order_index": 10,
+    "unit_overview": {
+      "objective": "Explicar causas múltiples y soluciones",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar nominalización y conectores argumentativos",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "nominalización y conectores argumentativos"
+      ],
+      "vocabulary": [
+        "alquiler",
+        "desplazamiento",
+        "oferta",
+        "inquilino",
+        "asequible",
+        "desigualdad"
+      ],
+      "scenario": "Analizar el aumento del alquiler"
+    }
+  },
+  {
+    "slug": "lenguaje-e-inclusion",
+    "target_language": "spanish",
+    "level": "B2",
+    "title": "Lenguaje e inclusión",
+    "title_es": "Lenguaje e inclusión",
+    "description": "Explorar cómo cambia el uso lingüístico",
+    "order_index": 11,
+    "unit_overview": {
+      "objective": "Debatir normas, identidad y contexto",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar subjuntivo en opiniones negadas",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "subjuntivo en opiniones negadas"
+      ],
+      "vocabulary": [
+        "registro",
+        "inclusión",
+        "convención",
+        "identidad",
+        "uso",
+        "comunidad"
+      ],
+      "scenario": "Explorar cómo cambia el uso lingüístico"
+    }
+  },
+  {
+    "slug": "foro-de-propuestas",
+    "target_language": "spanish",
+    "level": "B2",
+    "title": "Foro de propuestas",
+    "title_es": "Foro de propuestas",
+    "description": "Presentar una solución a un problema público",
+    "order_index": 12,
+    "unit_overview": {
+      "objective": "Sintetizar evidencias y responder objeciones",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar marcadores discursivos complejos",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "marcadores discursivos complejos"
+      ],
+      "vocabulary": [
+        "planteamiento",
+        "evidencia",
+        "objeción",
+        "viabilidad",
+        "alcance",
+        "consenso"
+      ],
+      "scenario": "Presentar una solución a un problema público"
+    }
+  },
+  {
+    "slug": "memoria-y-relato",
+    "target_language": "spanish",
+    "level": "C1",
+    "title": "Memoria y relato",
+    "title_es": "Memoria y relato",
+    "description": "Interpretar versiones contrapuestas de un recuerdo colectivo",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "Analizar perspectiva, omisiones y encuadre",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar correlación de tiempos y estilo indirecto",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "correlación de tiempos y estilo indirecto"
+      ],
+      "vocabulary": [
+        "memoria colectiva",
+        "testimonio",
+        "omisión",
+        "versión",
+        "evocar",
+        "reinterpretar"
+      ],
+      "scenario": "Interpretar versiones contrapuestas de un recuerdo colectivo"
+    }
+  },
+  {
+    "slug": "retorica-publica",
+    "target_language": "spanish",
+    "level": "C1",
+    "title": "Retórica pública",
+    "title_es": "Retórica pública",
+    "description": "Examinar un discurso institucional",
+    "order_index": 2,
+    "unit_overview": {
+      "objective": "Reconocer estrategias persuasivas y presuposiciones",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar énfasis, tematización y estructuras hendidas",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "énfasis, tematización y estructuras hendidas"
+      ],
+      "vocabulary": [
+        "premisa",
+        "auditorio",
+        "apelación",
+        "elocuencia",
+        "presuposición",
+        "refutación"
+      ],
+      "scenario": "Examinar un discurso institucional"
+    }
+  },
+  {
+    "slug": "periodismo-de-investigacion",
+    "target_language": "spanish",
+    "level": "C1",
+    "title": "Periodismo de investigación",
+    "title_es": "Periodismo de investigación",
+    "description": "Reconstruir una investigación compleja",
+    "order_index": 3,
+    "unit_overview": {
+      "objective": "Jerarquizar pruebas y grados de certeza",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar evidencialidad y modales epistémicos",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "evidencialidad y modales epistémicos"
+      ],
+      "vocabulary": [
+        "filtración",
+        "hallazgo",
+        "indicio",
+        "contrastar",
+        "anonimato",
+        "rendición de cuentas"
+      ],
+      "scenario": "Reconstruir una investigación compleja"
+    }
+  },
+  {
+    "slug": "justicia-y-reparacion",
+    "target_language": "spanish",
+    "level": "C1",
+    "title": "Justicia y reparación",
+    "title_es": "Justicia y reparación",
+    "description": "Debatir respuestas a un daño histórico",
+    "order_index": 4,
+    "unit_overview": {
+      "objective": "Diferenciar castigo, reparación y garantías",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar subjuntivo en construcciones valorativas",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "subjuntivo en construcciones valorativas"
+      ],
+      "vocabulary": [
+        "reparación",
+        "agravio",
+        "garantía",
+        "reconocimiento",
+        "responsabilidad",
+        "reconciliación"
+      ],
+      "scenario": "Debatir respuestas a un daño histórico"
+    }
+  },
+  {
+    "slug": "innovacion-responsable",
+    "target_language": "spanish",
+    "level": "C1",
+    "title": "Innovación responsable",
+    "title_es": "Innovación responsable",
+    "description": "Evaluar una tecnología antes de adoptarla",
+    "order_index": 5,
+    "unit_overview": {
+      "objective": "Ponderar incertidumbre y efectos no previstos",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar condicionales mixtas y contrafactuales",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "condicionales mixtas y contrafactuales"
+      ],
+      "vocabulary": [
+        "precaución",
+        "impacto",
+        "despliegue",
+        "sesgo",
+        "supervisión",
+        "trazabilidad"
+      ],
+      "scenario": "Evaluar una tecnología antes de adoptarla"
+    }
+  },
+  {
+    "slug": "literatura-y-voz",
+    "target_language": "spanish",
+    "level": "C1",
+    "title": "Literatura y voz",
+    "title_es": "Literatura y voz",
+    "description": "Analizar la voz de un relato contemporáneo",
+    "order_index": 6,
+    "unit_overview": {
+      "objective": "Interpretar tono, distancia e ironía",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar discurso referido libre y valores verbales",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "discurso referido libre y valores verbales"
+      ],
+      "vocabulary": [
+        "narrador",
+        "ironía",
+        "ambigüedad",
+        "perspectiva",
+        "cadencia",
+        "desenlace"
+      ],
+      "scenario": "Analizar la voz de un relato contemporáneo"
+    }
+  },
+  {
+    "slug": "economia-y-cuidados",
+    "target_language": "spanish",
+    "level": "C1",
+    "title": "Economía y cuidados",
+    "title_es": "Economía y cuidados",
+    "description": "Visibilizar trabajos esenciales poco reconocidos",
+    "order_index": 7,
+    "unit_overview": {
+      "objective": "Relacionar datos, experiencia y política pública",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar nominalización y densidad informativa",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "nominalización y densidad informativa"
+      ],
+      "vocabulary": [
+        "cuidados",
+        "remuneración",
+        "carga",
+        "corresponsabilidad",
+        "sostener",
+        "invisibilizado"
+      ],
+      "scenario": "Visibilizar trabajos esenciales poco reconocidos"
+    }
+  },
+  {
+    "slug": "diversidad-del-espanol",
+    "target_language": "spanish",
+    "level": "C1",
+    "title": "Diversidad del español",
+    "title_es": "Diversidad del español",
+    "description": "Comparar usos de distintas comunidades hispanohablantes",
+    "order_index": 8,
+    "unit_overview": {
+      "objective": "Explicar variación sin establecer jerarquías",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar variación, registro y adecuación pragmática",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "variación, registro y adecuación pragmática"
+      ],
+      "vocabulary": [
+        "variedad",
+        "rasgo",
+        "hablante",
+        "prestigio",
+        "regionalismo",
+        "adecuación"
+      ],
+      "scenario": "Comparar usos de distintas comunidades hispanohablantes"
+    }
+  },
+  {
+    "slug": "diplomacia-y-negociacion",
+    "target_language": "spanish",
+    "level": "C1",
+    "title": "Diplomacia y negociación",
+    "title_es": "Diplomacia y negociación",
+    "description": "Mediar entre posiciones incompatibles",
+    "order_index": 9,
+    "unit_overview": {
+      "objective": "Reformular, ceder y preservar relaciones",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar atenuación y cortesía avanzada",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "atenuación y cortesía avanzada"
+      ],
+      "vocabulary": [
+        "concesión",
+        "mediación",
+        "desacuerdo",
+        "margen",
+        "compromiso",
+        "postura"
+      ],
+      "scenario": "Mediar entre posiciones incompatibles"
+    }
+  },
+  {
+    "slug": "critica-cultural",
+    "target_language": "spanish",
+    "level": "C1",
+    "title": "Crítica cultural",
+    "title_es": "Crítica cultural",
+    "description": "Reseñar una obra para una revista",
+    "order_index": 10,
+    "unit_overview": {
+      "objective": "Sustentar una valoración estética matizada",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar adjetivación valorativa y conectores concesivos",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "adjetivación valorativa y conectores concesivos"
+      ],
+      "vocabulary": [
+        "puesta en escena",
+        "hallazgo",
+        "coherencia",
+        "sugerente",
+        "convencional",
+        "recepción"
+      ],
+      "scenario": "Reseñar una obra para una revista"
+    }
+  },
+  {
+    "slug": "politicas-publicas",
+    "target_language": "spanish",
+    "level": "C1",
+    "title": "Políticas públicas",
+    "title_es": "Políticas públicas",
+    "description": "Evaluar el resultado de una intervención",
+    "order_index": 11,
+    "unit_overview": {
+      "objective": "Interpretar indicadores y límites metodológicos",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar impersonales, pasivas y lenguaje técnico",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "impersonales, pasivas y lenguaje técnico"
+      ],
+      "vocabulary": [
+        "indicador",
+        "cobertura",
+        "implementación",
+        "sesgo de selección",
+        "resultado",
+        "evaluación"
+      ],
+      "scenario": "Evaluar el resultado de una intervención"
+    }
+  },
+  {
+    "slug": "coloquio-academico",
+    "target_language": "spanish",
+    "level": "C1",
+    "title": "Coloquio académico",
+    "title_es": "Coloquio académico",
+    "description": "Defender una tesis ante preguntas críticas",
+    "order_index": 12,
+    "unit_overview": {
+      "objective": "Sintetizar fuentes y responder con rigor",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar conectores de reformulación y reserva",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "conectores de reformulación y reserva"
+      ],
+      "vocabulary": [
+        "tesis",
+        "marco teórico",
+        "hallazgo",
+        "objeción",
+        "alcance",
+        "metodología"
+      ],
+      "scenario": "Defender una tesis ante preguntas críticas"
+    }
+  },
+  {
+    "slug": "ambiguedad-y-sentido",
+    "target_language": "spanish",
+    "level": "C2",
+    "title": "Ambigüedad y sentido",
+    "title_es": "Ambigüedad y sentido",
+    "description": "Desentrañar un texto deliberadamente ambiguo",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "Interpretar sentidos simultáneos y justificar lecturas",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar polisemia, elipsis y ambigüedad sintáctica",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "polisemia, elipsis y ambigüedad sintáctica"
+      ],
+      "vocabulary": [
+        "polisemia",
+        "elipsis",
+        "doble lectura",
+        "sobreentendido",
+        "indeterminación",
+        "matiz"
+      ],
+      "scenario": "Desentrañar un texto deliberadamente ambiguo"
+    }
+  },
+  {
+    "slug": "humor-e-ironia",
+    "target_language": "spanish",
+    "level": "C2",
+    "title": "Humor e ironía",
+    "title_es": "Humor e ironía",
+    "description": "Explicar por qué una sátira funciona en su contexto",
+    "order_index": 2,
+    "unit_overview": {
+      "objective": "Reconocer implicaturas y límites pragmáticos",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar ironía, eco y discurso polifónico",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "ironía, eco y discurso polifónico"
+      ],
+      "vocabulary": [
+        "sátira",
+        "implicatura",
+        "parodia",
+        "doble voz",
+        "burla",
+        "complicidad"
+      ],
+      "scenario": "Explicar por qué una sátira funciona en su contexto"
+    }
+  },
+  {
+    "slug": "traduccion-y-mediacion",
+    "target_language": "spanish",
+    "level": "C2",
+    "title": "Traducción y mediación",
+    "title_es": "Traducción y mediación",
+    "description": "Mediar un concepto sin equivalente exacto",
+    "order_index": 3,
+    "unit_overview": {
+      "objective": "Reformular preservando intención y registro",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar equivalencia pragmática y transposición",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "equivalencia pragmática y transposición"
+      ],
+      "vocabulary": [
+        "equivalencia",
+        "calco",
+        "reformulación",
+        "pérdida",
+        "registro",
+        "mediación"
+      ],
+      "scenario": "Mediar un concepto sin equivalente exacto"
+    }
+  },
+  {
+    "slug": "filosofia-del-lenguaje",
+    "target_language": "spanish",
+    "level": "C2",
+    "title": "Filosofía del lenguaje",
+    "title_es": "Filosofía del lenguaje",
+    "description": "Debatir cómo las palabras construyen categorías",
+    "order_index": 4,
+    "unit_overview": {
+      "objective": "Manejar abstracción y contraargumentos",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar sustantivación y arquitectura argumental",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "sustantivación y arquitectura argumental"
+      ],
+      "vocabulary": [
+        "referente",
+        "categoría",
+        "enunciado",
+        "convención",
+        "inferir",
+        "conceptualizar"
+      ],
+      "scenario": "Debatir cómo las palabras construyen categorías"
+    }
+  },
+  {
+    "slug": "analisis-juridico",
+    "target_language": "spanish",
+    "level": "C2",
+    "title": "Análisis jurídico",
+    "title_es": "Análisis jurídico",
+    "description": "Interpretar dos lecturas de una norma",
+    "order_index": 5,
+    "unit_overview": {
+      "objective": "Distinguir literalidad, finalidad y precedente",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar modalidad deóntica y precisión restrictiva",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "modalidad deóntica y precisión restrictiva"
+      ],
+      "vocabulary": [
+        "jurisprudencia",
+        "supuesto",
+        "alcance",
+        "disposición",
+        "interpretación",
+        "precedente"
+      ],
+      "scenario": "Interpretar dos lecturas de una norma"
+    }
+  },
+  {
+    "slug": "edicion-de-estilo",
+    "target_language": "spanish",
+    "level": "C2",
+    "title": "Edición de estilo",
+    "title_es": "Edición de estilo",
+    "description": "Editar un ensayo sin borrar la voz del autor",
+    "order_index": 6,
+    "unit_overview": {
+      "objective": "Mejorar precisión, cohesión y ritmo",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar cohesión avanzada y puntuación discursiva",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "cohesión avanzada y puntuación discursiva"
+      ],
+      "vocabulary": [
+        "inciso",
+        "redundancia",
+        "cadencia",
+        "cohesión",
+        "reescritura",
+        "voz autoral"
+      ],
+      "scenario": "Editar un ensayo sin borrar la voz del autor"
+    }
+  },
+  {
+    "slug": "debate-epistemico",
+    "target_language": "spanish",
+    "level": "C2",
+    "title": "Debate epistémico",
+    "title_es": "Debate epistémico",
+    "description": "Evaluar qué puede afirmarse a partir de evidencia incompleta",
+    "order_index": 7,
+    "unit_overview": {
+      "objective": "Graduar certeza y responsabilidad discursiva",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar evidencialidad y grados de compromiso",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "evidencialidad y grados de compromiso"
+      ],
+      "vocabulary": [
+        "corroborar",
+        "plausible",
+        "refutar",
+        "provisional",
+        "inferencia",
+        "certeza"
+      ],
+      "scenario": "Evaluar qué puede afirmarse a partir de evidencia incompleta"
+    }
+  },
+  {
+    "slug": "estetica-y-interpretacion",
+    "target_language": "spanish",
+    "level": "C2",
+    "title": "Estética e interpretación",
+    "title_es": "Estética e interpretación",
+    "description": "Comparar marcos críticos sobre una obra",
+    "order_index": 8,
+    "unit_overview": {
+      "objective": "Integrar lecturas incompatibles sin simplificarlas",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar metáfora conceptual y lenguaje crítico",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "metáfora conceptual y lenguaje crítico"
+      ],
+      "vocabulary": [
+        "marco crítico",
+        "recepción",
+        "canon",
+        "ruptura",
+        "lectura",
+        "estética"
+      ],
+      "scenario": "Comparar marcos críticos sobre una obra"
+    }
+  },
+  {
+    "slug": "discurso-cientifico",
+    "target_language": "spanish",
+    "level": "C2",
+    "title": "Discurso científico",
+    "title_es": "Discurso científico",
+    "description": "Convertir resultados especializados para públicos distintos",
+    "order_index": 9,
+    "unit_overview": {
+      "objective": "Adaptar densidad y precisión sin distorsionar",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar reformulación explicativa y cautela",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "reformulación explicativa y cautela"
+      ],
+      "vocabulary": [
+        "divulgación",
+        "muestra",
+        "limitación",
+        "hallazgo",
+        "replicabilidad",
+        "consenso"
+      ],
+      "scenario": "Convertir resultados especializados para públicos distintos"
+    }
+  },
+  {
+    "slug": "mediacion-de-conflictos",
+    "target_language": "spanish",
+    "level": "C2",
+    "title": "Mediación de conflictos",
+    "title_es": "Mediación de conflictos",
+    "description": "Reformular posiciones en una negociación sensible",
+    "order_index": 10,
+    "unit_overview": {
+      "objective": "Detectar necesidades y desbloquear el diálogo",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar atenuación extrema y metapragmática",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "atenuación extrema y metapragmática"
+      ],
+      "vocabulary": [
+        "agravio",
+        "reconocimiento",
+        "interés",
+        "escalada",
+        "reencuadre",
+        "acuerdo"
+      ],
+      "scenario": "Reformular posiciones en una negociación sensible"
+    }
+  },
+  {
+    "slug": "ensayo-de-alta-exigencia",
+    "target_language": "spanish",
+    "level": "C2",
+    "title": "Ensayo de alta exigencia",
+    "title_es": "Ensayo de alta exigencia",
+    "description": "Construir una tesis compleja con fuentes divergentes",
+    "order_index": 11,
+    "unit_overview": {
+      "objective": "Controlar estructura, voz y contraargumentación",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar progresión temática y cohesión global",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "progresión temática y cohesión global"
+      ],
+      "vocabulary": [
+        "hipótesis",
+        "salvedad",
+        "contraargumento",
+        "síntesis",
+        "premisa",
+        "conclusión"
+      ],
+      "scenario": "Construir una tesis compleja con fuentes divergentes"
+    }
+  },
+  {
+    "slug": "defensa-y-sintesis",
+    "target_language": "spanish",
+    "level": "C2",
+    "title": "Defensa y síntesis",
+    "title_es": "Defensa y síntesis",
+    "description": "Resolver una misión integradora ante un panel experto",
+    "order_index": 12,
+    "unit_overview": {
+      "objective": "Sintetizar, mediar y producir con dominio flexible",
+      "outcomes": [
+        "comprender información oral y escrita dentro del mismo tema",
+        "usar vocabulario específico en contexto",
+        "aplicar selección estratégica de todos los recursos C2",
+        "producir una respuesta oral y una escrita"
+      ],
+      "grammar": [
+        "selección estratégica de todos los recursos C2"
+      ],
+      "vocabulary": [
+        "síntesis",
+        "criterio",
+        "matización",
+        "solvencia",
+        "perspectiva",
+        "precisión"
+      ],
+      "scenario": "Resolver una misión integradora ante un panel experto"
     }
   }
 ]

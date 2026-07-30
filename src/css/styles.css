@@ -97,6 +97,13 @@ body.modal-open {
   overflow: hidden;
 }
 
+/* Keep semantic visibility authoritative. Author-level display rules used by
+   the responsive shell can otherwise override the browser's [hidden] rule
+   (notably the mobile logout button and routed sections). */
+[hidden] {
+  display: none !important;
+}
+
 @keyframes fade-in-up {
   from {
     opacity: 0;
@@ -2671,6 +2678,28 @@ a:focus-visible {
   flex: 1 1 auto;
 }
 
+.corrector-input-actions {
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.corrector-submit-stack {
+  display: grid;
+  justify-items: end;
+  gap: 0.45rem;
+  margin-left: auto;
+}
+
+.corrector-submit-stack .primary-btn {
+  min-height: 2.7rem;
+  padding-inline: 1.1rem;
+}
+
+.corrector-submit-stack .translator-status {
+  min-height: 1.25rem;
+  text-align: right;
+}
+
 .corrector-result-label {
   display: block;
   font-weight: 700;
@@ -3630,10 +3659,13 @@ footer p {
 }
 
 footer small {
-  display: inline-block;
+  display: block;
+  max-width: 1240px;
+  margin: 0 auto;
   padding-top: 18px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   color: #94a3b8;
+  text-align: center;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -15475,16 +15507,6 @@ footer p {
   gap: clamp(20px, 3vw, 42px);
 }
 
-.footer-copyright {
-  grid-column: 2;
-  grid-row: 1;
-  align-self: end;
-  justify-self: center;
-  width: min(100%, 410px);
-  padding-top: 9px;
-  text-align: center;
-}
-
 .footer-links-col {
   gap: 8px;
 }
@@ -15509,13 +15531,6 @@ footer small {
 }
 
 @media (max-width: 900px) {
-  .footer-copyright {
-    grid-column: 1 / -1;
-    grid-row: auto;
-    width: min(100%, 410px);
-    margin-top: 4px;
-  }
-
   .language-picker-section > .global-language-controls {
     align-items: stretch;
     flex-direction: column;

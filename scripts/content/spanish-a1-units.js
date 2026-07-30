@@ -2206,4 +2206,71 @@ const units = [
   }
 ];
 
+// A1 audio remains short and highly supported, but every script includes
+// enough repeated, unit-specific language for a meaningful first listen.
+const A1_LISTENING_EXTENSIONS = {
+  'hola-mucho-gusto': [['Valentina', 'Mi nombre se escribe V-A-L-E-N-T-I-N-A. ¿Cómo se escribe Marco?'], ['Marco', 'M-A-R-C-O. Ahora vamos juntos al salón.']],
+  'informacion-personal': [['Camila', 'Tengo diecinueve años y estudio español por las tardes.'], ['Camila', 'Vivo con mi familia en Santiago y mi nacionalidad es mexicana.']],
+  'mi-familia-y-mis-amigos': [['Narrador/a', 'Mi hermana es menor que yo, pero mis primos son mayores.'], ['Narrador/a', 'Los domingos mis amigos conocen a mis padres y todos almorzamos juntos.']],
+  'mi-rutina-diaria': [['Diego', 'Después de desayunar, me visto y salgo de casa a las siete.'], ['Tomás', 'Yo preparo mi mochila por la noche para no llegar tarde a clase.']],
+  'mi-casa': [['Narrador/a', 'En la cocina hay una mesa pequeña y las sillas están junto a la ventana.'], ['Narrador/a', 'Mi habitación está arriba, entre el baño y el cuarto de mi hermano.']],
+  'mi-barrio-y-mi-ciudad': [['Vecino', 'Para llegar al parque, gira a la izquierda después del banco.'], ['Turista', 'Perfecto, voy en autobús y bajo frente a la biblioteca.']],
+  'comida-y-bebida': [['Cliente', 'Me gustaría un vaso de agua y una ensalada, por favor.'], ['Mesero', 'Claro; ¿quiere también pan o prefiere solo la ensalada?']],
+  'de-compras': [['Clienta', 'La camisa azul me queda bien, pero necesito una talla más grande.'], ['Vendedora', 'Tenemos la misma camisa en verde y cuesta veinte euros.']],
+  'estudios-y-trabajo': [['Natalia', 'Tengo que terminar un informe antes de las cuatro.'], ['Entrevistador', 'Puedes usar la computadora de la tienda después de atender a los clientes.']],
+  'tiempo-libre': [['Ana', 'Los sábados prefiero leer en el parque porque me encanta estar al aire libre.'], ['Kevin', 'A mí también, aunque a veces juego al fútbol con mis amigos.']],
+  'salud-y-bienestar-a1': [['Farmacéutico', 'Tienes que descansar esta tarde y beber mucha agua.'], ['Isabel', 'De acuerdo; si mañana me siento mejor, vuelvo a clase.']],
+  'planes-y-repaso': [['Narrador/a', 'El sábado voy a visitar a mi abuela si hace buen tiempo.'], ['Narrador/a', 'En agosto voy a preparar una comida para mi familia.']]
+};
+
+for (const unit of units) {
+  const extraLines = A1_LISTENING_EXTENSIONS[unit.slug];
+  if (!extraLines) continue;
+  const listening = unit.activities.listening;
+  if (Array.isArray(listening.dialogue) && listening.dialogue.length) {
+    listening.dialogue.push(...extraLines.map(([speaker, line]) => ({ speaker, line })));
+    listening.transcript = listening.dialogue.map(({ line }) => line).join(' ');
+  } else {
+    listening.transcript = `${listening.transcript} ${extraLines.map(([, line]) => line).join(' ')}`;
+  }
+}
+
+// All Spanish Listening activities use one clear narrator, in the same
+// editorial format as the monologues used in the other language courses.
+const A1_LISTENING_MONOLOGUES = {
+  'hola-mucho-gusto': '¡Hola! Me llamo Valentina y hoy es mi primer día de clase. Estoy un poco nerviosa, pero también contenta. Al entrar al salón, conozco a un compañero llamado Marco. Nos saludamos y hablamos de dónde somos. Después, deletreo mi nombre: V-A-L-E-N-T-I-N-A. Marco también deletrea el suyo: M-A-R-C-O. Al final decimos “Mucho gusto” y entramos juntos a clase.',
+  'informacion-personal': 'Hola, me llamo Camila. Tengo diecinueve años y soy de México. Ahora vivo en Santiago con mi familia y estudio español por las tardes. Mi número de teléfono es el 809-555-0199 y mi correo electrónico es camila@correo.com. Me gusta conocer personas de otros países y practicar con mis compañeros. Espero conocerte pronto. ¡Hasta luego!',
+  'mi-familia-y-mis-amigos': 'Me llamo Sofía y esta es mi familia. Mi madre se llama Carmen y mi padre se llama Rafael. Tengo una hermana llamada Lucía y un hermano llamado Tomás. Lucía tiene dieciséis años y es alta; Tomás tiene nueve. Mi abuela Rosa vive con nosotros y es muy amable. Algunos primos son mayores que yo. Los domingos almorzamos juntos y hablamos de nuestra semana.',
+  'mi-rutina-diaria': 'Me llamo Tomás y me levanto a las seis y media cada mañana. Desayuno, me visto y preparo mi mochila antes de salir de casa. Camino a la escuela con mi hermana. Las clases empiezan a las ocho. Después de la escuela hago la tarea y descanso un poco. Por la noche dejo preparada mi mochila. Así casi nunca llego tarde a clase.',
+  'mi-casa': 'Me llamo Carla y vivo en una casa con tres habitaciones, una sala grande, una cocina y dos baños. En la sala hay un sofá y una mesa. En la cocina tenemos una nevera, una estufa y unas sillas junto a la ventana. Mi dormitorio tiene una cama y un armario. Detrás de la casa hay un patio pequeño. Mi habitación está arriba, entre el baño y el cuarto de mi hermano.',
+  'mi-barrio-y-mi-ciudad': 'Hoy quiero conocer mejor mi barrio. Primero necesito ir al banco. Está a cinco minutos a pie: camino derecho y doblo a la derecha. La farmacia está al lado del banco. Después quiero visitar el parque, así que giro a la izquierda. También puedo tomar el autobús y bajar frente a la biblioteca. Con estas indicaciones encuentro fácilmente los lugares que necesito.',
+  'comida-y-bebida': 'Esta mañana desayuno en una cafetería. Pido un café con leche y pan. También quiero un poco de fruta, pero no deseo una bebida fría. Para el almuerzo prefiero un vaso de agua y una ensalada. Me gusta comer ligero, así que no pido más pan. Al final agradezco al mesero y espero mi pedido. Todo parece fresco y delicioso.',
+  'de-compras': 'Hoy busco una camisa azul en una tienda. Necesito talla mediana y pregunto cuánto cuesta. La camisa vale ochocientos pesos. Me la pruebo y me gusta el color, pero necesito una talla más grande. También veo la misma camisa en verde. Finalmente elijo la azul porque combina con mi ropa. Pago la compra y agradezco la ayuda de la vendedora.',
+  'estudios-y-trabajo': 'Me llamo Natalia. Estudio administración en la universidad y trabajo en una tienda los fines de semana. En mi trabajo tengo que atender a los clientes y organizar los productos. Esta tarde necesito terminar un informe antes de las cuatro. Después puedo usar la computadora para revisar mis tareas. Estudiar y trabajar requiere organización, pero estoy contenta porque aprendo algo nuevo cada semana.',
+  'tiempo-libre': 'Me llamo Ana y el sábado voy a salir con mi amigo Kevin. Me encanta ir al cine y prefiero una comedia a una película de acción. Después podemos comer algo. Los sábados también me gusta leer en el parque porque disfruto estar al aire libre. A veces juego al fútbol con mis amigos. Estas actividades me ayudan a descansar después de una semana ocupada.',
+  'salud-y-bienestar-a1': 'Hoy no me siento bien. Me duele la cabeza y también la garganta. No tengo fiebre, pero estoy muy cansada. Por eso voy a la farmacia. Debo descansar, beber mucha agua y consultar a un médico si no mejoro. Esta tarde voy a quedarme en casa. Si mañana me siento mejor, volveré a clase. Si el dolor continúa, pediré una cita médica.',
+  'planes-y-repaso': 'Este fin de semana voy a ir a la playa con mi familia. El sábado vamos a nadar y comer junto al mar. El domingo quiero descansar en casa. Si hace buen tiempo, también voy a visitar a mi abuela. En agosto voy a preparar una comida para toda mi familia. Me gustan estos planes porque puedo descansar y pasar tiempo con las personas importantes para mí.'
+};
+
+for (const unit of units) {
+  const transcript = A1_LISTENING_MONOLOGUES[unit.slug];
+  const listening = unit.activities.listening;
+  listening.transcript = transcript;
+  listening.dialogue = [];
+  listening.speakers = ['Narrador/a'];
+  listening.listeningType = 'story';
+}
+
+// The routed A1 experience evaluates four focused questions per skill.
+// The first legacy unit carried an older six-question pilot and an expanded
+// Reading bank, so normalize it with the rest of the course.
+const A1_FIRST_UNIT = units[0];
+A1_FIRST_UNIT.activities.reading.exercises = A1_FIRST_UNIT.activities.reading.exercises.slice(0, 4);
+A1_FIRST_UNIT.activities.listening.listeningComprehension.questions =
+  A1_FIRST_UNIT.activities.listening.listeningComprehension.questions.slice(0, 4);
+
+for (const unit of units) {
+  unit.activities.reading.exercises = unit.activities.reading.exercises.slice(0, 4);
+}
+
 module.exports = { units, language, level, courseTitle, courseDescription };

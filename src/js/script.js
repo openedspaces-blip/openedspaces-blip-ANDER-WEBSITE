@@ -4173,7 +4173,10 @@ function renderUnitVerbContext() {
       </details>
     </div>
   `;
-  section.querySelector('.section-heading')?.after(banner);
+  // Requested order: language selector, current-unit context, then heading.
+  const languageSwitcher = section.querySelector('.verbs-language-switcher');
+  if (languageSwitcher) languageSwitcher.after(banner);
+  else section.prepend(banner);
   banner.querySelector('.unit-verbs-practice-btn')?.addEventListener('click', () => {
     const practiceTab = document.querySelector('#verbsTabs .skill-tab-button[data-skill="practice"]');
     practiceTab?.click();
@@ -10258,7 +10261,18 @@ function renderSpeakingView(section, lesson) {
           lessonIntro: lesson.intro || lesson.description || '',
           lessonSlug: lesson.slug,
           supportMode: 'practice',
-          currentActivity: 'Conversación libre de Speaking'
+          currentActivity: 'Conversación libre de Speaking',
+          // Speaking's free conversation is otherwise a blank textbox facing
+          // the student - this gives the tutor an explicit, mandatory nudge
+          // to open with a concrete topic/question tied to the lesson
+          // instead of waiting on the student to invent one (see the
+          // matching skill==='speaking' guidance in aiTutorService's
+          // buildTutorInput).
+          fallbackPrompt: `Quiero practicar una conversación oral sobre "${lesson.title}". Es el inicio: propón tú un tema o una situación concreta relacionada con la lección y hazme una pregunta sencilla para que yo empiece a hablar.`,
+          welcomeMessage: speakingUiText(
+            `👋 Vamos a conversar en voz sobre «${lesson.title}». Pulsa «Hablar» o escribe algo - si no sabes por dónde empezar, solo pulsa «Enviar» y el Tutor te propondrá un tema.`,
+            `👋 Parlons à voix haute de « ${lesson.title} ». Appuyez sur « Parler » ou écrivez quelque chose - si vous ne savez pas par où commencer, appuyez simplement sur « Envoyer » et le Tuteur vous proposera un sujet.`
+          )
         });
         setTutorConversationMode(true);
         return;
@@ -13612,7 +13626,11 @@ function renderListeningView(section, lesson) {
 // ---------------------------------------------------------------------
 
 let tutorDrawerReturnFocus = null;
-let tutorDrawerContext = {
+// Base shape every openTutorDrawer() call resets to before applying its own
+// overrides - without this reset, a caller that doesn't pass fallbackPrompt/
+// welcomeMessage (most callers) would otherwise inherit whatever the
+// previous caller (e.g. Speaking's tutor mode) left behind.
+const TUTOR_DRAWER_DEFAULT_CONTEXT = {
   skill: 'speaking',
   lessonTitle: '',
   lessonIntro: '',
@@ -13622,8 +13640,11 @@ let tutorDrawerContext = {
   transcript: '',
   vocabulary: '',
   currentQuestion: '',
-  selectedAnswer: ''
+  selectedAnswer: '',
+  fallbackPrompt: 'Quiero practicar esta habilidad.',
+  welcomeMessage: ''
 };
+let tutorDrawerContext = { ...TUTOR_DRAWER_DEFAULT_CONTEXT };
 
 // Minimal Tab-cycling focus trap for the drawer's open state - keeps
 // keyboard navigation inside .tutor-drawer-panel while it's open, without
@@ -13739,7 +13760,7 @@ function openTutorDrawer(overrides = {}) {
   if (!drawer) return;
   stopTutorDictation();
   setTutorConversationMode(false);
-  tutorDrawerContext = { ...tutorDrawerContext, ...overrides };
+  tutorDrawerContext = { ...TUTOR_DRAWER_DEFAULT_CONTEXT, ...overrides };
   tutorDrawerReturnFocus = document.activeElement;
 
   drawer.classList.add('open');
@@ -13754,6 +13775,19 @@ function openTutorDrawer(overrides = {}) {
   if (skillEl)
     skillEl.textContent = getSkillLabel(tutorDrawerContext.skill);
   if (levelEl) levelEl.textContent = learningPathState.level;
+
+  // Swap the generic "Cuéntame qué quieres practicar" placeholder for a
+  // lesson-tied invitation when the caller supplies one (e.g. Speaking's
+  // free conversation) - but only while the conversation is still in its
+  // untouched default state, so reopening the drawer mid-chat never
+  // overwrites real messages.
+  const conversationEl = document.getElementById('tutorDrawerConversation');
+  const onlyWelcomePlaceholder =
+    conversationEl?.children.length === 1 && conversationEl.firstElementChild?.classList.contains('tutor-welcome');
+  if (conversationEl && onlyWelcomePlaceholder) {
+    conversationEl.firstElementChild.textContent =
+      tutorDrawerContext.welcomeMessage || '👋 Soy el Tutor IA ANDERGO Academy. Cuéntame qué quieres practicar.';
+  }
 
   const autoplayToggle = document.getElementById('tutorAutoplayToggle');
   if (autoplayToggle) autoplayToggle.checked = getTutorAutoplayPref();
@@ -14329,21 +14363,19 @@ async function performLearningPathLoad(options = {}) {
     learningPathState.activeSlug = restoredFirstActivity?.slug || '';
   };
 
-  // Advanced courses carry substantially richer Reading/Speaking content.
-  // Paint their bundled route immediately instead of keeping the learner on
-  // "Preparando tu ruta…" while personalized progress is fetched. The server
-  // response below still replaces this optimistic snapshot as soon as it
-  // arrives, preserving locks, scores and completion state.
-  if (['B2', 'C1', 'C2'].includes(learningPathState.level)) {
-    const optimisticLessons = getLocalFallbackLessons(
-      learningPathState.language,
-      learningPathState.level
-    );
-    if (optimisticLessons.length) {
-      learningPathState.lessons = optimisticLessons;
-      applyLoadedSelection();
-      renderLearningPath();
-    }
+  // Paint the bundled route immediately on every level. Mobile connections
+  // must not remain stuck on "Preparando tu ruta…" while the personalized
+  // progress request is slow or temporarily unavailable. The server response
+  // below still replaces this optimistic snapshot as soon as it arrives,
+  // preserving authoritative locks, scores and completion state.
+  const optimisticLessons = getLocalFallbackLessons(
+    learningPathState.language,
+    learningPathState.level
+  );
+  if (optimisticLessons.length) {
+    learningPathState.lessons = optimisticLessons;
+    applyLoadedSelection();
+    renderLearningPath();
   }
 
   try {
@@ -16700,15 +16732,16 @@ function enableHomepageActions() {
       vocabulary: tutorDrawerContext.vocabulary,
       currentQuestion: tutorDrawerContext.currentQuestion,
       selectedAnswer: tutorDrawerContext.selectedAnswer,
-      fallbackPrompt: 'Quiero practicar esta habilidad.'
+      fallbackPrompt: tutorDrawerContext.fallbackPrompt || 'Quiero practicar esta habilidad.'
     });
   });
 
   document.getElementById('tutorDrawerClear')?.addEventListener('click', () => {
     const conversation = document.getElementById('tutorDrawerConversation');
     if (conversation)
-      conversation.innerHTML =
-        '<p class="tutor-welcome">👋 Soy el Tutor IA ANDERGO Academy. Cuéntame qué quieres practicar.</p>';
+      conversation.innerHTML = `<p class="tutor-welcome">${escapeHtml(
+        tutorDrawerContext.welcomeMessage || '👋 Soy el Tutor IA ANDERGO Academy. Cuéntame qué quieres practicar.'
+      )}</p>`;
   });
 
   document.getElementById('tutorDrawerPrompt')?.addEventListener('keydown', (event) => {
@@ -17858,6 +17891,11 @@ function setupCorrector() {
   }
 
   submitBtn.addEventListener('click', runCorrection);
+  input.addEventListener('keydown', (event) => {
+    if (event.key !== 'Enter' || event.shiftKey) return;
+    event.preventDefault();
+    runCorrection();
+  });
 
   clearBtn?.addEventListener('click', () => {
     input.value = '';

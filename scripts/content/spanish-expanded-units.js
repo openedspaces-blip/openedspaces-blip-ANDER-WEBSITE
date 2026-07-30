@@ -119,6 +119,244 @@ function activity(skill, fields) {
   return { skill, duration, xp, ...fields };
 }
 
+// A2 needs concrete everyday situations, not one reusable dialogue with a
+// different unit title. These are the canonical scripts for the revealed
+// transcript, the future recorded audio and the comprehension questions.
+const A2_LISTENING_SCRIPTS = {
+  'compras-y-cantidades': {
+    speakers: ['Lucía', 'Mateo'],
+    dialogue: [
+      ['Lucía', 'Buenos días. Quiero medio kilo de tomates y un kilo de arroz, por favor.'],
+      ['Mateo', 'Claro. Los tomates están a tres euros el kilo y el arroz cuesta dos euros.'],
+      ['Lucía', 'Entonces, ¿cuánto pago en total?'],
+      ['Mateo', 'Son tres euros con cincuenta. Aquí tiene el cambio y el recibo.'],
+      ['Lucía', 'Gracias. También voy a llevar esta bolsa de naranjas.']
+    ],
+    phrases: ['Medio kilo de...', '¿Cuánto pago en total?', 'Aquí tiene el cambio.'],
+    exercises: [
+      q('¿Qué compra Lucía?', ['Tomates, arroz y naranjas', 'Pan, leche y manzanas', 'Carne y queso', 'Solo arroz'], 0, 'Lucía pide tomates y arroz, y después añade una bolsa de naranjas.'),
+      q('¿Cuánto cuestan los tomates?', ['Dos euros el kilo', 'Tres euros el kilo', 'Tres euros con cincuenta', 'Medio euro'], 1, 'Mateo dice que los tomates cuestan tres euros el kilo.'),
+      q('¿Qué recibe Lucía al pagar?', ['Una receta', 'Un billete', 'El cambio y el recibo', 'Una tarjeta'], 2, 'Mateo le entrega el cambio y el recibo.')
+    ]
+  },
+  'orientarse-en-la-ciudad': {
+    speakers: ['Mateo', 'Lucía'],
+    dialogue: [
+      ['Mateo', 'Perdona, ¿sabes cómo llegar a la estación de tren?'],
+      ['Lucía', 'Sí. Sigue todo recto por esta avenida hasta el semáforo.'],
+      ['Mateo', '¿Giro a la derecha en el semáforo?'],
+      ['Lucía', 'Exacto. Después camina dos cuadras y verás la estación a tu izquierda.'],
+      ['Mateo', 'Perfecto, muchas gracias por la ayuda.']
+    ],
+    phrases: ['Sigue todo recto.', 'Gira a la derecha.', 'Está a tu izquierda.'],
+    exercises: [
+      q('¿Adónde quiere ir Mateo?', ['Al mercado', 'A la estación de tren', 'Al banco', 'Al hospital'], 1, 'Mateo pregunta cómo llegar a la estación de tren.'),
+      q('¿Qué debe hacer en el semáforo?', ['Girar a la derecha', 'Girar a la izquierda', 'Tomar un autobús', 'Volver dos cuadras'], 0, 'Lucía confirma que debe girar a la derecha.'),
+      q('¿Dónde está la estación?', ['A la derecha', 'Frente al semáforo', 'A dos cuadras, a la izquierda', 'Junto al mercado'], 2, 'Después de dos cuadras, la estación queda a la izquierda.')
+    ]
+  },
+  'rutinas-y-horarios': {
+    speakers: ['Lucía', 'Mateo'],
+    dialogue: [
+      ['Lucía', 'Normalmente entro a trabajar a las ocho, pero esta semana empiezo a las diez.'],
+      ['Mateo', '¿Por qué cambia tu horario?'],
+      ['Lucía', 'Estoy haciendo un curso por las mañanas. Termina a las nueve y media.'],
+      ['Mateo', 'Qué bien. ¿Todavía tienes tiempo para descansar?'],
+      ['Lucía', 'Sí, organizo mi agenda el domingo y dejo una tarde libre.']
+    ],
+    phrases: ['Normalmente...', 'Esta semana...', 'Dejo una tarde libre.'],
+    exercises: [
+      q('¿A qué hora entra Lucía a trabajar esta semana?', ['A las ocho', 'A las nueve y media', 'A las diez', 'A las doce'], 2, 'Esta semana Lucía empieza a trabajar a las diez.'),
+      q('¿Qué hace Lucía por las mañanas?', ['Un curso', 'Ejercicio', 'Compras', 'Una reunión'], 0, 'Está haciendo un curso por las mañanas.'),
+      q('¿Cuándo organiza su agenda?', ['Cada mañana', 'El domingo', 'Los viernes', 'Después del curso'], 1, 'Lucía dice que organiza su agenda el domingo.')
+    ]
+  },
+  'salud-y-bienestar': {
+    speakers: ['Paciente', 'Doctora'],
+    dialogue: [
+      ['Paciente', 'Doctora, me duele mucho la garganta desde ayer y tengo un poco de fiebre.'],
+      ['Doctora', 'Voy a revisarte. ¿Has descansado bien estos días?'],
+      ['Paciente', 'No mucho; he trabajado hasta tarde toda la semana.'],
+      ['Doctora', 'Parece una infección leve. Debes beber agua, descansar y tomar esta medicina.'],
+      ['Paciente', 'De acuerdo. ¿Cuándo debo volver si no mejoro?'],
+      ['Doctora', 'Pide otra cita en tres días si continúas con fiebre.']
+    ],
+    phrases: ['Me duele...', 'Debes descansar.', 'Pide otra cita.'],
+    exercises: [
+      q('¿Qué le duele al paciente?', ['La espalda', 'La garganta', 'El estómago', 'La pierna'], 1, 'El paciente dice que le duele la garganta.'),
+      q('¿Qué recomienda la doctora?', ['Hacer deporte', 'Trabajar más', 'Beber agua y descansar', 'No tomar medicina'], 2, 'La doctora recomienda agua, descanso y medicina.'),
+      q('¿Cuándo debe volver el paciente?', ['Mañana', 'En una semana', 'Si sigue con fiebre en tres días', 'Nunca'], 2, 'Debe pedir otra cita si sigue con fiebre en tres días.')
+    ]
+  },
+  'viajes-y-transporte': {
+    speakers: ['Lucía', 'Empleado'],
+    dialogue: [
+      ['Lucía', 'Hola. Mi tren a Valencia sale a las seis, pero mi billete dice andén cuatro.'],
+      ['Empleado', 'Hoy hay un cambio: el tren va a salir del andén seis.'],
+      ['Lucía', 'Gracias. ¿Va a llegar a la misma hora?'],
+      ['Empleado', 'Sí, la llegada está prevista para las ocho y veinte.'],
+      ['Lucía', 'Perfecto. Voy a dejar mi equipaje en la consigna antes de subir.']
+    ],
+    phrases: ['Hay un cambio.', 'La llegada está prevista para...', 'Voy a dejar el equipaje.'],
+    exercises: [
+      q('¿A qué ciudad viaja Lucía?', ['Madrid', 'Valencia', 'Sevilla', 'Barcelona'], 1, 'Lucía pregunta por su tren a Valencia.'),
+      q('¿De qué andén saldrá el tren?', ['Del andén cuatro', 'Del andén cinco', 'Del andén seis', 'Del andén ocho'], 2, 'El empleado informa que saldrá del andén seis.'),
+      q('¿Qué hará Lucía antes de subir?', ['Comprará otro billete', 'Dejará su equipaje', 'Cambiará de tren', 'Llamará al hotel'], 1, 'Lucía va a dejar el equipaje en la consigna.')
+    ]
+  },
+  'casa-y-barrio': {
+    speakers: ['Mateo', 'Agente'],
+    dialogue: [
+      ['Mateo', 'Me interesa el apartamento de la calle Mayor. ¿Está amueblado?'],
+      ['Agente', 'Sí, tiene muebles básicos y mucha luz por la mañana.'],
+      ['Mateo', '¿Cómo es el vecindario? Trabajo desde casa y necesito tranquilidad.'],
+      ['Agente', 'Es una zona segura y hay poco ruido, aunque el alquiler es un poco más alto.'],
+      ['Mateo', 'Entiendo. Voy a visitarlo el sábado antes de decidir.']
+    ],
+    phrases: ['¿Está amueblado?', 'Hay poco ruido.', 'Voy a visitarlo.'],
+    exercises: [
+      q('¿Qué busca Mateo?', ['Un hotel', 'Un apartamento', 'Una oficina', 'Una habitación de hospital'], 1, 'Mateo pregunta por un apartamento.'),
+      q('¿Qué necesita Mateo para trabajar?', ['Un balcón grande', 'Tranquilidad', 'Un garaje', 'Una piscina'], 1, 'Trabaja desde casa y necesita tranquilidad.'),
+      q('¿Qué hará antes de decidir?', ['Firmar hoy', 'Hablar con su jefe', 'Visitar el apartamento', 'Buscar otro barrio'], 2, 'Mateo dice que va a visitarlo el sábado.')
+    ]
+  },
+  'comidas-y-recetas': {
+    speakers: ['Lucía', 'Mateo'],
+    dialogue: [
+      ['Lucía', 'Para la cena vamos a preparar una sopa de verduras. ¿Tenemos todos los ingredientes?'],
+      ['Mateo', 'Tenemos papas, zanahorias y cebolla, pero falta un poco de caldo.'],
+      ['Lucía', 'Yo compro el caldo. Después se cortan las verduras y se hierven veinte minutos.'],
+      ['Mateo', '¿Añadimos sal al principio o al final?'],
+      ['Lucía', 'Al final, para probar mejor el sabor.']
+    ],
+    phrases: ['Falta un poco de...', 'Se cortan...', 'Al final.'],
+    exercises: [
+      q('¿Qué van a preparar?', ['Una ensalada', 'Una sopa de verduras', 'Una pizza', 'Un pastel'], 1, 'Lucía propone preparar una sopa de verduras.'),
+      q('¿Qué ingrediente falta?', ['Papas', 'Zanahorias', 'Cebolla', 'Caldo'], 3, 'Mateo dice que falta un poco de caldo.'),
+      q('¿Cuándo añaden la sal?', ['Al principio', 'Al final', 'Antes de cortar las verduras', 'No añaden sal'], 1, 'Lucía prefiere añadirla al final.')
+    ]
+  },
+  'recuerdos-y-experiencias': {
+    speakers: ['Mateo', 'Lucía'],
+    dialogue: [
+      ['Mateo', 'El verano pasado viajé a Oaxaca con mi hermana y probamos muchos platos nuevos.'],
+      ['Lucía', '¿Qué fue lo que más te gustó del viaje?'],
+      ['Mateo', 'Una tarde visitamos un mercado pequeño y una señora nos enseñó a preparar chocolate.'],
+      ['Lucía', 'Qué experiencia tan bonita. ¿Volviste a verla?'],
+      ['Mateo', 'No, pero le envié una foto cuando llegué a casa.']
+    ],
+    phrases: ['El verano pasado...', 'Lo que más me gustó...', 'Cuando llegué a casa.'],
+    exercises: [
+      q('¿Adónde viajó Mateo?', ['A Oaxaca', 'A Lima', 'A Bogotá', 'A Madrid'], 0, 'Mateo cuenta que viajó a Oaxaca.'),
+      q('¿Qué le enseñó una señora?', ['A bailar', 'A preparar chocolate', 'A hablar inglés', 'A hacer una reserva'], 1, 'En el mercado una señora les enseñó a preparar chocolate.'),
+      q('¿Qué hizo Mateo al llegar a casa?', ['Volvió al mercado', 'Envió una foto', 'Compró chocolate', 'Llamó a Lucía'], 1, 'Mateo dice que le envió una foto.')
+    ]
+  },
+  celebraciones: {
+    speakers: ['Lucía', 'Mateo'],
+    dialogue: [
+      ['Lucía', 'El sábado es el cumpleaños de mi abuela. ¿Puedes venir a la reunión?'],
+      ['Mateo', 'Me encantaría. ¿A qué hora quedan?'],
+      ['Lucía', 'A las cinco en casa de mis tíos. No hace falta que traigas regalo.'],
+      ['Mateo', 'Entonces llevo un postre para compartir.'],
+      ['Lucía', 'Qué buena idea. Mi abuela va a estar muy contenta.']
+    ],
+    phrases: ['¿Puedes venir?', '¿A qué hora quedan?', 'No hace falta que...'],
+    exercises: [
+      q('¿Qué celebración organiza Lucía?', ['Una boda', 'El cumpleaños de su abuela', 'Una graduación', 'Una cena de trabajo'], 1, 'Lucía habla del cumpleaños de su abuela.'),
+      q('¿A qué hora es la reunión?', ['A las tres', 'A las cuatro', 'A las cinco', 'A las siete'], 2, 'Quedan a las cinco.'),
+      q('¿Qué llevará Mateo?', ['Un regalo caro', 'Un postre', 'Flores', 'Nada'], 1, 'Mateo propone llevar un postre para compartir.')
+    ]
+  },
+  'estudio-y-aprendizaje': {
+    speakers: ['Mateo', 'Lucía'],
+    dialogue: [
+      ['Mateo', 'Tengo un examen dentro de dos semanas y todavía no termino los apuntes.'],
+      ['Lucía', 'Puedes hacer un plan: repasa un tema cada día y deja el domingo para practicar.'],
+      ['Mateo', 'Buena idea. Desde enero llevo estudiando una hora después de cenar.'],
+      ['Lucía', 'Entonces ya tienes una rutina. Solo necesitas dividir las tareas por plazo.'],
+      ['Mateo', 'Hoy mismo voy a organizar el calendario.']
+    ],
+    phrases: ['Dentro de dos semanas.', 'Llevo estudiando...', 'Dividir las tareas.'],
+    exercises: [
+      q('¿Cuándo tiene Mateo el examen?', ['Mañana', 'Dentro de dos semanas', 'El domingo', 'En enero'], 1, 'Mateo tiene el examen dentro de dos semanas.'),
+      q('¿Qué recomienda Lucía para el domingo?', ['Descansar todo el día', 'Practicar', 'Ir de compras', 'Escribir apuntes nuevos'], 1, 'Lucía propone dejar el domingo para practicar.'),
+      q('¿Qué hará Mateo hoy?', ['Organizar el calendario', 'Cambiar de curso', 'Cancelar el examen', 'Comprar apuntes'], 0, 'Mateo dice que organizará el calendario.')
+    ]
+  },
+  'tecnologia-cotidiana': {
+    speakers: ['Lucía', 'Soporte'],
+    dialogue: [
+      ['Lucía', 'No puedo entrar en mi cuenta porque olvidé la contraseña.'],
+      ['Soporte', 'No se preocupe. En la pantalla de inicio, pulse “Recuperar contraseña”.'],
+      ['Lucía', '¿Después recibo un mensaje en mi correo?'],
+      ['Soporte', 'Sí. Abra el enlace, cree una contraseña nueva y no la comparta con nadie.'],
+      ['Lucía', 'Perfecto, ya veo el mensaje. Muchas gracias.']
+    ],
+    phrases: ['Olvidé la contraseña.', 'Pulse...', 'No la comparta con nadie.'],
+    exercises: [
+      q('¿Cuál es el problema de Lucía?', ['No tiene teléfono', 'Olvidó la contraseña', 'No encuentra un archivo', 'Su pantalla está rota'], 1, 'Lucía no puede entrar porque olvidó la contraseña.'),
+      q('¿Qué debe pulsar Lucía?', ['Crear una cuenta', 'Recuperar contraseña', 'Cerrar sesión', 'Descargar archivo'], 1, 'Soporte le indica pulsar “Recuperar contraseña”.'),
+      q('¿Qué recomendación recibe?', ['Compartir la clave', 'Cambiar de correo', 'No compartir la contraseña', 'Apagar la pantalla'], 2, 'Soporte indica que no comparta la contraseña.')
+    ]
+  },
+  'planes-y-proyectos': {
+    speakers: ['Mateo', 'Lucía'],
+    dialogue: [
+      ['Mateo', 'Tenemos que presentar el proyecto el viernes. ¿Cómo repartimos las tareas?'],
+      ['Lucía', 'Yo puedo preparar las diapositivas y tú puedes revisar los datos.'],
+      ['Mateo', 'De acuerdo. También necesitamos una propuesta clara para el equipo.'],
+      ['Lucía', 'Quedamos el miércoles para ver el resultado y hacer cambios si hace falta.'],
+      ['Mateo', 'Perfecto. Voy a enviar el acuerdo al grupo esta tarde.']
+    ],
+    phrases: ['Repartir las tareas.', 'Quedamos el miércoles.', 'Si hace falta.'],
+    exercises: [
+      q('¿Cuándo presentan el proyecto?', ['El miércoles', 'El viernes', 'Esta tarde', 'El lunes'], 1, 'Mateo dice que presentan el proyecto el viernes.'),
+      q('¿Qué tarea hará Lucía?', ['Revisar los datos', 'Preparar las diapositivas', 'Enviar el acuerdo', 'Cancelar la reunión'], 1, 'Lucía se ofrece a preparar las diapositivas.'),
+      q('¿Para qué quedan el miércoles?', ['Para celebrar', 'Para elegir otro proyecto', 'Para revisar el resultado', 'Para viajar'], 2, 'Quedan para ver el resultado y hacer cambios si hace falta.')
+    ]
+  }
+};
+
+// Each extension reinforces the matching unit's reading, vocabulary and grammar.
+const A2_LISTENING_EXTENSIONS = {
+  'compras-y-cantidades': [['Mateo', 'La bolsa cuesta un euro más. ¿Quiere pagar con tarjeta o en efectivo?'], ['Lucía', 'Con tarjeta, por favor. Gracias por explicarme el total.']],
+  'orientarse-en-la-ciudad': [['Lucía', 'No cruce la plaza; la estación está detrás del museo, junto a la farmacia.'], ['Mateo', 'Entendido: sigo recto, giro a la derecha y camino dos cuadras.']],
+  'rutinas-y-horarios': [['Mateo', 'Mientras haces el curso, ¿quién responde los mensajes del trabajo?'], ['Lucía', 'Mi compañera los revisa y yo contesto cuando termino la clase.']],
+  'salud-y-bienestar': [['Doctora', 'No tienes que ir al trabajo mañana si te sientes peor.'], ['Paciente', 'Seguiré las indicaciones y llamaré para pedir la cita si continúa la fiebre.']],
+  'viajes-y-transporte': [['Empleado', 'Recuerde estar en el andén diez minutos antes de la salida.'], ['Lucía', 'Sí, voy a mirar el panel otra vez después de dejar la maleta.']],
+  'casa-y-barrio': [['Agente', 'La sala es más luminosa que la del otro apartamento y el metro está cerca.'], ['Mateo', 'Eso me conviene; necesito un lugar tranquilo, pero también bien comunicado.']],
+  'comidas-y-recetas': [['Mateo', 'Después de hervir la sopa, ¿la mezclamos o dejamos los trozos enteros?'], ['Lucía', 'Déjalos enteros y añade el caldo poco a poco para que no quede muy líquida.']],
+  'recuerdos-y-experiencias': [['Lucía', '¿Has vuelto a probar ese chocolate desde aquel viaje?'], ['Mateo', 'Sí, lo he preparado varias veces, pero nunca sabe igual que el del mercado.']],
+  celebraciones: [['Mateo', 'Te lo llevo antes de las cinco para que no tengas que preparar todo sola.'], ['Lucía', 'Gracias, así podemos recibir a la familia con calma cuando llegue.']],
+  'estudio-y-aprendizaje': [['Lucía', 'Si completas cada tema, podrás comprobar tu progreso con un ejercicio corto.'], ['Mateo', 'Haré eso; llevo dos meses estudiando y quiero llegar al examen con confianza.']],
+  'tecnologia-cotidiana': [['Soporte', 'Primero compruebe que el correo llegó a la bandeja de entrada, no al spam.'], ['Lucía', 'Ya lo encontré; después crearé una clave segura y guardaré el acceso.']],
+  'planes-y-proyectos': [['Lucía', 'Si terminamos el borrador el miércoles, tendremos tiempo para ensayar la presentación.'], ['Mateo', 'Perfecto: yo revisaré los datos hoy y enviaré la versión final al equipo mañana.']]
+};
+
+for (const [slug, lines] of Object.entries(A2_LISTENING_EXTENSIONS)) {
+  A2_LISTENING_SCRIPTS[slug].dialogue.push(...lines);
+}
+
+const A2_LISTENING_MONOLOGUES = {
+  'compras-y-cantidades': 'Esta mañana fui al mercado para comprar medio kilo de tomates, un kilo de arroz y una bolsa de naranjas. Los tomates costaban tres euros el kilo y el arroz costaba dos euros. El vendedor calculó el total y me explicó que la bolsa costaba un euro más. Decidí pagar con tarjeta. Antes de irme, comprobé el recibo y guardé bien mi compra.',
+  'orientarse-en-la-ciudad': 'Hoy necesito llegar a la estación de tren, pero no conozco bien esta parte de la ciudad. Debo seguir recto por la avenida hasta el semáforo, girar a la derecha y caminar dos cuadras. La estación queda a mi izquierda, detrás del museo y junto a la farmacia. No debo cruzar la plaza. Repito las indicaciones antes de continuar para no perderme.',
+  'rutinas-y-horarios': 'Normalmente entro a trabajar a las ocho, pero esta semana empiezo a las diez porque estoy haciendo un curso por las mañanas. El curso termina a las nueve y media. Para organizarme mejor, preparo mi agenda el domingo y dejo una tarde libre. Mientras estoy en clase, una compañera revisa los mensajes del trabajo. Después respondo lo más urgente y continúo con mi jornada.',
+  'salud-y-bienestar': 'Desde ayer me duele la garganta y tengo un poco de fiebre. Esta semana he trabajado hasta tarde y no he descansado bien. Por eso fui a la doctora. Ella cree que tengo una infección leve y me recomienda beber agua, descansar y tomar la medicina. Si continúo con fiebre, debo pedir otra cita en tres días. Mañana no iré al trabajo si me siento peor.',
+  'viajes-y-transporte': 'Hoy viajo a Valencia en un tren que sale a las seis. Mi billete indicaba el andén cuatro, pero han cambiado la salida al andén seis. La llegada sigue prevista para las ocho y veinte. Antes de subir, voy a dejar mi equipaje en la consigna y miraré el panel otra vez. Debo estar en el andén diez minutos antes para viajar con tranquilidad.',
+  'casa-y-barrio': 'Estoy buscando un apartamento en la calle Mayor. Me interesa porque tiene muebles básicos y mucha luz por la mañana. Como trabajo desde casa, necesito tranquilidad. El barrio es seguro y hay poco ruido, aunque el alquiler es un poco más alto. La sala es más luminosa que la del otro apartamento y el metro está cerca. Voy a visitarlo el sábado antes de decidir.',
+  'comidas-y-recetas': 'Esta noche voy a preparar una sopa de verduras. Tengo papas, zanahorias y cebolla, pero me falta un poco de caldo. Primero corto las verduras y después las hiervo durante veinte minutos. Añado la sal al final para comprobar mejor el sabor. Prefiero dejar los trozos enteros y agregar el caldo poco a poco para que la sopa no quede demasiado líquida.',
+  'recuerdos-y-experiencias': 'El verano pasado viajé a Oaxaca con mi hermana y probamos muchos platos nuevos. Una tarde visitamos un mercado pequeño. Allí una señora nos enseñó a preparar chocolate. No volví a verla, pero le envié una foto cuando llegué a casa. Desde aquel viaje he preparado ese chocolate varias veces. Sin embargo, nunca sabe igual que el que probé en aquel mercado.',
+  celebraciones: 'El sábado celebramos el cumpleaños de mi abuela. La familia se reúne a las cinco en casa de mis tíos. He invitado a un amigo y le he explicado que no hace falta llevar un regalo. Él prefiere traer un postre para compartir y va a entregarlo antes de las cinco. Así no tengo que preparar todo sola. Creo que mi abuela estará muy contenta.',
+  'estudio-y-aprendizaje': 'Tengo un examen dentro de dos semanas y todavía no termino mis apuntes. Voy a repasar un tema cada día y dejaré el domingo para practicar. Llevo dos meses estudiando una hora después de cenar, así que ya tengo una rutina. Hoy organizaré el calendario y dividiré las tareas. Cuando complete cada tema, haré un ejercicio corto para comprobar mi progreso y llegar al examen con confianza.',
+  'tecnologia-cotidiana': 'No puedo entrar en mi cuenta porque olvidé la contraseña. Primero debo pulsar “Recuperar contraseña” en la pantalla de inicio. Después tengo que revisar mi correo y abrir el enlace recibido. Voy a comprobar que el mensaje llegó a la bandeja de entrada y no al spam. Finalmente crearé una clave segura, guardaré el acceso y no compartiré mi contraseña con nadie.',
+  'planes-y-proyectos': 'Tengo que presentar un proyecto con mi compañera el viernes. Yo voy a revisar los datos y ella preparará las diapositivas. El miércoles nos reuniremos para revisar el resultado y cambiar lo necesario. Si terminamos el borrador ese día, tendremos tiempo para ensayar la presentación. Hoy revisaré la información y mañana enviaré la versión final al equipo para que todos conozcan el acuerdo.'
+};
+
+for (const [slug, transcript] of Object.entries(A2_LISTENING_MONOLOGUES)) {
+  Object.assign(A2_LISTENING_SCRIPTS[slug], { speakers: ['Narrador/a'], transcript });
+}
+
 function grammarTest(level, slug, grammar, exercises) {
   return {
     id: `spanish-${level.toLowerCase()}-${slug}-grammar-test`,
@@ -140,23 +378,33 @@ function grammarTest(level, slug, grammar, exercises) {
 function buildUnit(level, spec, index) {
   const [slug, title, scenario, objective, grammar, words] = spec;
   const person = index % 2 ? 'Lucía' : 'Mateo';
+  const authoredListening = level === 'A2' ? A2_LISTENING_SCRIPTS[slug] : null;
   const text = [
     `${person} participa en una situación relacionada con ${title.toLowerCase()}. Su reto es ${scenario.toLowerCase()}. Antes de actuar, reúne información, escucha a las personas implicadas y anota las palabras que necesita comprender con precisión.`,
     `La primera opción parece sencilla, pero no responde a todas las necesidades. ${person} compara alternativas, pregunta por sus consecuencias y distingue los hechos comprobables de las opiniones. Así descubre que una respuesta clara también debe reconocer sus límites.`,
     `Finalmente, presenta una propuesta razonada. Explica qué haría, por qué lo haría y qué podría cambiar si aparecieran nuevos datos. La experiencia muestra que comunicarse bien no consiste solo en hablar correctamente, sino en adaptar el mensaje al propósito y a quienes lo reciben.`
   ].join('\n\n');
-  const listeningTranscript = `${person}: Necesitamos hablar sobre ${title.toLowerCase()}. ¿Qué información tenemos? Alex: Tenemos varias opciones, pero debemos compararlas con cuidado. ${person}: De acuerdo. Primero aclaremos el objetivo y después decidimos. Alex: Me parece bien; así podremos explicar la propuesta con razones claras.`;
+  const fallbackDialogue = [
+    [person, `Necesitamos hablar sobre ${title.toLowerCase()}. ¿Qué información tenemos?`],
+    ['Alex', 'Tenemos varias opciones, pero debemos compararlas con cuidado.'],
+    [person, 'De acuerdo. Primero aclaremos el objetivo y después decidimos.'],
+    ['Alex', 'Me parece bien; así podremos explicar la propuesta con razones claras.']
+  ];
+  const listeningLines = authoredListening?.dialogue || fallbackDialogue;
+  const listeningDialogue = authoredListening?.transcript ? [] : listeningLines.map(([speaker, line]) => ({ speaker, line }));
+  const listeningTranscript = authoredListening?.transcript || listeningDialogue.map(({ speaker, line }) => `${speaker}: ${line}`).join(' ');
   const readingExercises = [
     q(`¿Cuál es el reto principal de ${person}?`, [scenario, 'Memorizar una lista sin contexto', 'Evitar toda conversación', 'Cambiar de tema'], 0, 'El primer párrafo presenta directamente el reto.'),
     q('¿Qué hace antes de elegir una opción?', ['Decide al azar', 'Compara alternativas y consecuencias', 'Copia una respuesta', 'Ignora a las demás personas'], 1, 'El texto destaca la comparación razonada.'),
     q('¿Qué distingue durante el proceso?', ['Hechos y opiniones', 'Singular y plural solamente', 'Nombres y fechas', 'Vocales y consonantes'], 0, 'La lectura diferencia datos comprobables y opiniones.'),
     q('¿Cómo es la propuesta final?', ['Improvisada y absoluta', 'Razonada y abierta a nueva información', 'Ajena al problema', 'Idéntica a la primera opción'], 1, 'La conclusión conserva razones y reconoce posibles cambios.')
   ];
-  const listeningExercises = [
+  const genericListeningExercises = [
     q('¿Qué propone hacer primero la conversación?', ['Decidir inmediatamente', 'Aclarar el objetivo', 'Cancelar la actividad', 'Buscar otro tema'], 1, 'Los hablantes acuerdan aclarar primero el objetivo.'),
     q('¿Cómo quieren presentar la propuesta?', ['Sin razones', 'Con razones claras', 'Solo por escrito', 'Como una orden'], 1, 'Alex menciona explícitamente razones claras.'),
     q('¿Qué actitud muestran los hablantes?', ['Colaboración', 'Indiferencia', 'Hostilidad', 'Confusión total'], 0, 'Ambos construyen un plan conjunto.')
   ];
+  const listeningExercises = authoredListening?.exercises || genericListeningExercises;
   const grammarExercises = [
     q('¿Cuál es el foco gramatical de esta unidad?', [grammar, 'El alfabeto aislado', 'Los números cardinales', 'La ortografía de nombres propios'], 0, `La unidad trabaja ${grammar}.`),
     q('¿Qué opción expresa una idea completa y adecuada al escenario?', [`Aunque faltan datos, podemos formular una propuesta prudente.`, 'Aunque faltan datos podemos propuesta.', 'Datos aunque una formular.', 'Faltan aunque datos propuesta.'], 0, 'La primera opción mantiene cohesión y sentido completo.'),
@@ -209,17 +457,12 @@ function buildUnit(level, spec, index) {
         description: `Escucha cómo dos personas organizan una respuesta.`,
         intro: `Identifica el objetivo, el orden de las acciones y el acuerdo final.`,
         mission: `Comprende una conversación auténtica sobre ${title.toLowerCase()}.`,
-        listeningType: 'dialogue',
+        listeningType: authoredListening?.transcript ? 'story' : 'dialogue',
         difficulty: level,
-        speakers: [person, 'Alex'],
+        speakers: authoredListening?.speakers || [person, 'Alex'],
         transcript: listeningTranscript,
-        dialogue: [
-          { speaker: person, line: `Necesitamos hablar sobre ${title.toLowerCase()}. ¿Qué información tenemos?`, translation: `We need to talk about ${title.toLowerCase()}. What information do we have?` },
-          { speaker: 'Alex', line: 'Tenemos varias opciones, pero debemos compararlas con cuidado.', translation: 'We have several options, but we must compare them carefully.' },
-          { speaker: person, line: 'De acuerdo. Primero aclaremos el objetivo y después decidimos.', translation: 'Agreed. First, let us clarify the goal and then decide.' },
-          { speaker: 'Alex', line: 'Me parece bien; así podremos explicar la propuesta con razones claras.', translation: 'Sounds good; that way we can explain the proposal with clear reasons.' }
-        ],
-        phrases: ['¿Qué información tenemos?', 'Debemos compararlas.', 'Primero aclaremos el objetivo.', 'Me parece bien.'],
+        dialogue: listeningDialogue,
+        phrases: authoredListening?.phrases || ['¿Qué información tenemos?', 'Debemos compararlas.', 'Primero aclaremos el objetivo.', 'Me parece bien.'],
         exercises: listeningExercises,
         listeningComprehension: {
           id: `spanish-${level.toLowerCase()}-${slug}-listening-comprehension`,

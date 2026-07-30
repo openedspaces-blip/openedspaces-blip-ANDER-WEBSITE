@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ANDERGO | Aprende idiomas con rutas claras y gamificación</title>
-    <link rel="stylesheet" href="/src/css/styles.css?v=20260725-distinct-l1-l2-immersion" />
+    <link rel="stylesheet" href="/src/css/styles.css?v=20260730-mobile-content-access" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -683,13 +683,6 @@
            only 'english' is populated today; Français/Español are added the
            same way in later phases (see that file's own header comment). -->
       <section id="verbs" class="section verbs-section compact-hidden-section" aria-label="Verbos">
-        <div class="section-heading section-heading-compact">
-          <span data-i18n="verbsBadge">Verbos</span>
-          <h2 id="verbsTitle" tabindex="-1">Los verbos más frecuentes en inglés</h2>
-          <p id="verbsDescription">Aprende, conjuga y practica los verbos más frecuentes en inglés.</p>
-          <p class="verbs-heading-meta" id="verbsHeadingMeta" aria-live="polite"></p>
-        </div>
-
         <div class="verbs-language-switcher no-print" role="group" aria-label="Idioma de los verbos">
           <label for="verbsLanguageSelect">Ver verbos en</label>
           <select id="verbsLanguageSelect">
@@ -697,6 +690,13 @@
             <option value="french">🇫🇷 Francés — 100 verbos</option>
             <option value="spanish">🇪🇸 Español — 100 verbos</option>
           </select>
+        </div>
+
+        <div class="section-heading section-heading-compact">
+          <span data-i18n="verbsBadge">Verbos</span>
+          <h2 id="verbsTitle" tabindex="-1">Los verbos más frecuentes en inglés</h2>
+          <p id="verbsDescription">Aprende, conjuga y practica los verbos más frecuentes en inglés.</p>
+          <p class="verbs-heading-meta" id="verbsHeadingMeta" aria-live="polite"></p>
         </div>
 
         <div class="skill-tabs is-open" id="verbsTabs">
@@ -1323,8 +1323,12 @@
                 <p class="translator-char-count" id="correctorCharCount" aria-live="polite">
                   0 / 1000
                 </p>
-                <div class="translator-field-actions">
+                <div class="translator-field-actions corrector-input-actions">
                   <button type="button" class="secondary-btn" id="correctorClearBtn">Limpiar</button>
+                  <div class="corrector-submit-stack">
+                    <button type="button" class="primary-btn" id="correctorSubmitBtn">Corregir →</button>
+                    <span class="translator-status" id="correctorStatus" role="status" aria-live="polite">Listo</span>
+                  </div>
                 </div>
               </div>
 
@@ -1353,12 +1357,6 @@
               </div>
             </div>
 
-            <div class="translator-actions">
-              <button type="button" class="primary-btn" id="correctorSubmitBtn">Corregir</button>
-              <span class="translator-status" id="correctorStatus" role="status" aria-live="polite"
-                >Listo</span
-              >
-            </div>
           </div>
         </div>
 
@@ -2286,9 +2284,9 @@
             <a href="/privacy.html">Política de privacidad</a>
             <a href="/refund-policy.html">Política de reembolso</a>
           </div>
-          <small class="footer-copyright">© <span id="footerYear">2026</span> <span data-i18n="footerRights">ANDERGO. Todos los derechos reservados.</span></small>
         </nav>
       </div>
+      <small class="footer-copyright">© <span id="footerYear">2026</span> <span data-i18n="footerRights">ANDERGO. Todos los derechos reservados.</span></small>
     </footer>
     <!-- Course worlds load only when their language is selected. Loading all
          three here made the first visit parse several MB of unused lessons. -->
@@ -2305,6 +2303,6 @@
     <script src="/src/js/translator-languages.js"></script>
     <script src="/src/js/translator-predictive.js"></script>
     <!-- Verb data and its view are loaded when #verbs is opened. -->
-    <script src="/src/js/script.js?v=20260725-distinct-l1-l2-immersion"></script>
+    <script src="/src/js/script.js?v=20260730-verbs-header-order"></script>
   </body>
 </html>
