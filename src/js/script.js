@@ -11748,6 +11748,13 @@ function renderVocabCardHtml(item, { canSpeak, isFrench, showL1Translation = fal
     ${!item.isAdvancedDirect && synonymsOppositesParts.length ? `<p class="vocab-card-synonyms-opposites">${synonymsOppositesParts.join(' · ')}</p>` : ''}
     ${!item.contexts.length && item.usageNote ? `<p class="vocab-card-usage-note">${escapeHtml(item.usageNote)}</p>` : ''}`
       : '';
+  // In bilingual learning, the front deliberately pairs the L2 word with a
+  // smaller L1 gloss.  The learner can therefore form the association before
+  // flipping; the reverse is reserved for using the word in an L2 example.
+  const frontSupportHtml =
+    item.learningMode !== 'direct' && item.translation
+      ? `<p class="vocab-card-front-support" lang="${escapeHtml(bridgeLanguageToHtmlLang[item.bridgeLanguage] || '')}">${escapeHtml(item.translation)}</p>`
+      : '';
 
   return `
     <div class="vocab-card" data-index="${item._displayIndex}" data-card-id="${escapeHtml(item.id)}" data-mastery="${escapeHtml(item.masteryStatus)}" data-learning-mode="${escapeHtml(item.learningMode)}" data-flipped="false" data-is-french="${isFrench}" data-speak-text="${escapeHtml(item.audioText)}" data-speak-locale="${escapeHtml(item.pronunciationLocale)}" data-speak-rate="${item.pronunciationRate}" role="button" tabindex="0" aria-expanded="false" aria-label="${escapeHtml(vocabCardAriaLabel(item.targetWord, false, isFrench))}">
@@ -11764,6 +11771,7 @@ function renderVocabCardHtml(item, { canSpeak, isFrench, showL1Translation = fal
           <div class="vocab-card-word-block">
             ${item.learningMode === 'direct' ? `<span class="vocab-card-method">${escapeHtml(cardUi.mode)}</span>` : ''}
             <p class="vocab-card-target ${getVocabTargetSizeClass(item.targetWord)}">${escapeHtml(item.targetWord)}</p>
+            ${frontSupportHtml}
             ${item.phonetic ? `<p class="vocab-card-phonetic">${escapeHtml(item.phonetic)}</p>` : ''}
             ${item.category ? `<span class="vocab-card-tag">${escapeHtml(item.category)}</span>` : ''}
           </div>
@@ -11777,7 +11785,7 @@ function renderVocabCardHtml(item, { canSpeak, isFrench, showL1Translation = fal
             <span class="vocab-card-side-label">${escapeHtml(cardUi.back)}</span>
             ${statusChipHtml}
           </div>
-          ${item.translation ? `<p class="vocab-card-translation">${escapeHtml(item.translation)}</p>` : ''}
+          ${item.learningMode !== 'direct' && item.translation ? `<p class="vocab-card-translation">${escapeHtml(item.translation)}</p>` : ''}
           ${directSupportHtml}
           ${contextsHtml}
           <div class="vocab-card-actions" role="group" aria-label="${isFrench ? 'Actions d’apprentissage' : 'Acciones de aprendizaje'}">

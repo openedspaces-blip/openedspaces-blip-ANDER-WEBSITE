@@ -12034,6 +12034,18 @@ footer small {
   line-height: 1.3;
 }
 
+/* L2 stays prominent; the bridge-language gloss is deliberately smaller so
+   the learner sees support without losing the target-language focus. */
+.vocab-card-front-support {
+  max-width: 100%;
+  margin: -0.08rem 0 0;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 650;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+
 .vocab-card-phonetic {
   margin: 0;
   font-size: 0.85rem;
@@ -12057,9 +12069,11 @@ footer small {
 .vocab-card-translation {
   flex-shrink: 0;
   margin: 0;
-  font-size: 0.98rem;
-  font-weight: 800;
-  color: var(--navy-2);
+  font-size: 0.72rem;
+  font-weight: 750;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.035em;
 }
 
 /* Direct/immersion mode (spec §5/§9) - definition/synonyms/opposites/image
