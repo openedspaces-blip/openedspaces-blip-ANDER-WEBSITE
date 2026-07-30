@@ -3704,7 +3704,7 @@
     "vocabulary": [
       {
         "word": "mercado",
-        "translation": "English support: mercado",
+        "translation": "market",
         "definition": "Término clave para comprender «Compras y cantidades: una situación cotidiana» y analizar resolver una compra en un mercado.",
         "example": "Aunque «mercado» parece una decisión individual, conviene considerar «precio» y «oferta». Esta frase sitúa «mercado» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -3712,7 +3712,7 @@
       },
       {
         "word": "precio",
-        "translation": "English support: precio",
+        "translation": "price",
         "definition": "Término clave para comprender «Compras y cantidades: una situación cotidiana» y analizar resolver una compra en un mercado.",
         "example": "Aunque «mercado» parece una decisión individual, conviene considerar «precio» y «oferta». Esta frase sitúa «precio» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -3720,7 +3720,7 @@
       },
       {
         "word": "oferta",
-        "translation": "English support: oferta",
+        "translation": "supply / offer",
         "definition": "Término clave para comprender «Compras y cantidades: una situación cotidiana» y analizar resolver una compra en un mercado.",
         "example": "Aunque «mercado» parece una decisión individual, conviene considerar «precio» y «oferta». Esta frase sitúa «oferta» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -3728,7 +3728,7 @@
       },
       {
         "word": "kilo",
-        "translation": "English support: kilo",
+        "translation": "kilo",
         "definition": "Término clave para comprender «Compras y cantidades: una situación cotidiana» y analizar resolver una compra en un mercado.",
         "example": "Aunque «mercado» parece una decisión individual, conviene considerar «precio» y «oferta». Esta frase sitúa «kilo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -3736,7 +3736,7 @@
       },
       {
         "word": "cambio",
-        "translation": "English support: cambio",
+        "translation": "change",
         "definition": "Término clave para comprender «Compras y cantidades: una situación cotidiana» y analizar resolver una compra en un mercado.",
         "example": "Aunque «mercado» parece una decisión individual, conviene considerar «precio» y «oferta». Esta frase sitúa «cambio» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -3744,7 +3744,7 @@
       },
       {
         "word": "recibo",
-        "translation": "English support: recibo",
+        "translation": "receipt",
         "definition": "Término clave para comprender «Compras y cantidades: una situación cotidiana» y analizar resolver una compra en un mercado.",
         "example": "Aunque «mercado» parece una decisión individual, conviene considerar «precio» y «oferta». Esta frase sitúa «recibo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -3843,7 +3843,7 @@
     "vocabulary": [
       {
         "word": "etapa",
-        "translation": "English support: etapa",
+        "translation": "stage",
         "definition": "Término clave para comprender «El día en que cambié de opinión» y analizar compartir una experiencia que cambió una decisión.",
         "example": "Cuando surgió «etapa», el grupo revisó lo ocurrido y explicó sus decisiones. Esta frase sitúa «etapa» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -3851,7 +3851,7 @@
       },
       {
         "word": "decisión",
-        "translation": "English support: decisión",
+        "translation": "decision",
         "definition": "Término clave para comprender «El día en que cambié de opinión» y analizar compartir una experiencia que cambió una decisión.",
         "example": "Cuando surgió «etapa», el grupo revisó lo ocurrido y explicó sus decisiones. Esta frase sitúa «decisión» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -3859,7 +3859,7 @@
       },
       {
         "word": "cambio",
-        "translation": "English support: cambio",
+        "translation": "change",
         "definition": "Término clave para comprender «El día en que cambié de opinión» y analizar compartir una experiencia que cambió una decisión.",
         "example": "Cuando surgió «etapa», el grupo revisó lo ocurrido y explicó sus decisiones. Esta frase sitúa «cambio» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -3867,7 +3867,7 @@
       },
       {
         "word": "mientras",
-        "translation": "English support: mientras",
+        "translation": "while",
         "definition": "Término clave para comprender «El día en que cambié de opinión» y analizar compartir una experiencia que cambió una decisión.",
         "example": "Cuando surgió «etapa», el grupo revisó lo ocurrido y explicó sus decisiones. Esta frase sitúa «mientras» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -3875,7 +3875,7 @@
       },
       {
         "word": "de repente",
-        "translation": "English support: de repente",
+        "translation": "suddenly",
         "definition": "Término clave para comprender «El día en que cambié de opinión» y analizar compartir una experiencia que cambió una decisión.",
         "example": "Cuando surgió «etapa», el grupo revisó lo ocurrido y explicó sus decisiones. Esta frase sitúa «de repente» dentro del tema de la unidad.",
         "partOfSpeech": "locución",
@@ -3883,7 +3883,7 @@
       },
       {
         "word": "aprendizaje",
-        "translation": "English support: aprendizaje",
+        "translation": "learning",
         "definition": "Término clave para comprender «El día en que cambié de opinión» y analizar compartir una experiencia que cambió una decisión.",
         "example": "Cuando surgió «etapa», el grupo revisó lo ocurrido y explicó sus decisiones. Esta frase sitúa «aprendizaje» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -3982,7 +3982,7 @@
     "vocabulary": [
       {
         "word": "huella digital",
-        "translation": "English support: huella digital",
+        "translation": "digital footprint",
         "definition": "Término clave para comprender «¿Somos nuestro perfil?» y analizar debatir cómo construimos nuestra imagen en internet.",
         "example": "Aunque «huella digital» parece una decisión individual, conviene considerar «privacidad» y «perfil». Esta frase sitúa «huella digital» dentro del tema de la unidad.",
         "partOfSpeech": "locución",
@@ -3990,7 +3990,7 @@
       },
       {
         "word": "privacidad",
-        "translation": "English support: privacidad",
+        "translation": "privacy",
         "definition": "Término clave para comprender «¿Somos nuestro perfil?» y analizar debatir cómo construimos nuestra imagen en internet.",
         "example": "Aunque «huella digital» parece una decisión individual, conviene considerar «privacidad» y «perfil». Esta frase sitúa «privacidad» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -3998,7 +3998,7 @@
       },
       {
         "word": "perfil",
-        "translation": "English support: perfil",
+        "translation": "profile",
         "definition": "Término clave para comprender «¿Somos nuestro perfil?» y analizar debatir cómo construimos nuestra imagen en internet.",
         "example": "Aunque «huella digital» parece una decisión individual, conviene considerar «privacidad» y «perfil». Esta frase sitúa «perfil» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -4006,7 +4006,7 @@
       },
       {
         "word": "exposición",
-        "translation": "English support: exposición",
+        "translation": "exposure",
         "definition": "Término clave para comprender «¿Somos nuestro perfil?» y analizar debatir cómo construimos nuestra imagen en internet.",
         "example": "Aunque «huella digital» parece una decisión individual, conviene considerar «privacidad» y «perfil». Esta frase sitúa «exposición» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -4014,7 +4014,7 @@
       },
       {
         "word": "reputación",
-        "translation": "English support: reputación",
+        "translation": "reputation",
         "definition": "Término clave para comprender «¿Somos nuestro perfil?» y analizar debatir cómo construimos nuestra imagen en internet.",
         "example": "Aunque «huella digital» parece una decisión individual, conviene considerar «privacidad» y «perfil». Esta frase sitúa «reputación» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -4022,7 +4022,7 @@
       },
       {
         "word": "consentimiento",
-        "translation": "English support: consentimiento",
+        "translation": "consent",
         "definition": "Término clave para comprender «¿Somos nuestro perfil?» y analizar debatir cómo construimos nuestra imagen en internet.",
         "example": "Aunque «huella digital» parece una decisión individual, conviene considerar «privacidad» y «perfil». Esta frase sitúa «consentimiento» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -4121,7 +4121,7 @@
     "vocabulary": [
       {
         "word": "memoria colectiva",
-        "translation": "English support: memoria colectiva",
+        "translation": "collective memory",
         "definition": "Término clave para comprender «Recordar no es reproducir» y analizar interpretar versiones contrapuestas de un recuerdo colectivo.",
         "example": "Una estudiante explicó que «memoria colectiva» no podía entenderse sin revisar el contexto. Esta frase sitúa «memoria colectiva» dentro del tema de la unidad.",
         "partOfSpeech": "locución",
@@ -4129,7 +4129,7 @@
       },
       {
         "word": "testimonio",
-        "translation": "English support: testimonio",
+        "translation": "testimony",
         "definition": "Término clave para comprender «Recordar no es reproducir» y analizar interpretar versiones contrapuestas de un recuerdo colectivo.",
         "example": "Una estudiante explicó que «memoria colectiva» no podía entenderse sin revisar el contexto. Esta frase sitúa «testimonio» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -4137,7 +4137,7 @@
       },
       {
         "word": "omisión",
-        "translation": "English support: omisión",
+        "translation": "omission",
         "definition": "Término clave para comprender «Recordar no es reproducir» y analizar interpretar versiones contrapuestas de un recuerdo colectivo.",
         "example": "Una estudiante explicó que «memoria colectiva» no podía entenderse sin revisar el contexto. Esta frase sitúa «omisión» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -4145,7 +4145,7 @@
       },
       {
         "word": "versión",
-        "translation": "English support: versión",
+        "translation": "version",
         "definition": "Término clave para comprender «Recordar no es reproducir» y analizar interpretar versiones contrapuestas de un recuerdo colectivo.",
         "example": "Una estudiante explicó que «memoria colectiva» no podía entenderse sin revisar el contexto. Esta frase sitúa «versión» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -4153,7 +4153,7 @@
       },
       {
         "word": "evocar",
-        "translation": "English support: evocar",
+        "translation": "to evoke",
         "definition": "Término clave para comprender «Recordar no es reproducir» y analizar interpretar versiones contrapuestas de un recuerdo colectivo.",
         "example": "Una estudiante explicó que «memoria colectiva» no podía entenderse sin revisar el contexto. Esta frase sitúa «evocar» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -4161,7 +4161,7 @@
       },
       {
         "word": "reinterpretar",
-        "translation": "English support: reinterpretar",
+        "translation": "to reinterpret",
         "definition": "Término clave para comprender «Recordar no es reproducir» y analizar interpretar versiones contrapuestas de un recuerdo colectivo.",
         "example": "Una estudiante explicó que «memoria colectiva» no podía entenderse sin revisar el contexto. Esta frase sitúa «reinterpretar» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -4260,7 +4260,7 @@
     "vocabulary": [
       {
         "word": "polisemia",
-        "translation": "English support: polisemia",
+        "translation": "polysemy",
         "definition": "Término clave para comprender «Lo que el texto decide no decidir» y analizar desentrañar un texto deliberadamente ambiguo.",
         "example": "Aunque «polisemia» parece una decisión individual, conviene considerar «elipsis» y «doble lectura». Esta frase sitúa «polisemia» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -4268,7 +4268,7 @@
       },
       {
         "word": "elipsis",
-        "translation": "English support: elipsis",
+        "translation": "ellipsis",
         "definition": "Término clave para comprender «Lo que el texto decide no decidir» y analizar desentrañar un texto deliberadamente ambiguo.",
         "example": "Aunque «polisemia» parece una decisión individual, conviene considerar «elipsis» y «doble lectura». Esta frase sitúa «elipsis» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -4276,7 +4276,7 @@
       },
       {
         "word": "doble lectura",
-        "translation": "English support: doble lectura",
+        "translation": "double reading",
         "definition": "Término clave para comprender «Lo que el texto decide no decidir» y analizar desentrañar un texto deliberadamente ambiguo.",
         "example": "Aunque «polisemia» parece una decisión individual, conviene considerar «elipsis» y «doble lectura». Esta frase sitúa «doble lectura» dentro del tema de la unidad.",
         "partOfSpeech": "locución",
@@ -4284,7 +4284,7 @@
       },
       {
         "word": "sobreentendido",
-        "translation": "English support: sobreentendido",
+        "translation": "implicit meaning",
         "definition": "Término clave para comprender «Lo que el texto decide no decidir» y analizar desentrañar un texto deliberadamente ambiguo.",
         "example": "Aunque «polisemia» parece una decisión individual, conviene considerar «elipsis» y «doble lectura». Esta frase sitúa «sobreentendido» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -4292,7 +4292,7 @@
       },
       {
         "word": "indeterminación",
-        "translation": "English support: indeterminación",
+        "translation": "indeterminacy",
         "definition": "Término clave para comprender «Lo que el texto decide no decidir» y analizar desentrañar un texto deliberadamente ambiguo.",
         "example": "Aunque «polisemia» parece una decisión individual, conviene considerar «elipsis» y «doble lectura». Esta frase sitúa «indeterminación» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -4300,7 +4300,7 @@
       },
       {
         "word": "matiz",
-        "translation": "English support: matiz",
+        "translation": "nuance",
         "definition": "Término clave para comprender «Lo que el texto decide no decidir» y analizar desentrañar un texto deliberadamente ambiguo.",
         "example": "Aunque «polisemia» parece una decisión individual, conviene considerar «elipsis» y «doble lectura». Esta frase sitúa «matiz» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -7584,7 +7584,7 @@
     "vocabulary": [
       {
         "word": "esquina",
-        "translation": "English support: esquina",
+        "translation": "corner",
         "definition": "Término clave para comprender «Orientarse en la ciudad: una situación cotidiana» y analizar ayudar a una visitante a llegar a la estación.",
         "example": "Aunque «esquina» parece una decisión individual, conviene considerar «cuadra» y «semáforo». Esta frase sitúa «esquina» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -7592,7 +7592,7 @@
       },
       {
         "word": "cuadra",
-        "translation": "English support: cuadra",
+        "translation": "block",
         "definition": "Término clave para comprender «Orientarse en la ciudad: una situación cotidiana» y analizar ayudar a una visitante a llegar a la estación.",
         "example": "Aunque «esquina» parece una decisión individual, conviene considerar «cuadra» y «semáforo». Esta frase sitúa «cuadra» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -7600,7 +7600,7 @@
       },
       {
         "word": "semáforo",
-        "translation": "English support: semáforo",
+        "translation": "traffic light",
         "definition": "Término clave para comprender «Orientarse en la ciudad: una situación cotidiana» y analizar ayudar a una visitante a llegar a la estación.",
         "example": "Aunque «esquina» parece una decisión individual, conviene considerar «cuadra» y «semáforo». Esta frase sitúa «semáforo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -7608,7 +7608,7 @@
       },
       {
         "word": "recto",
-        "translation": "English support: recto",
+        "translation": "straight ahead",
         "definition": "Término clave para comprender «Orientarse en la ciudad: una situación cotidiana» y analizar ayudar a una visitante a llegar a la estación.",
         "example": "Aunque «esquina» parece una decisión individual, conviene considerar «cuadra» y «semáforo». Esta frase sitúa «recto» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -7616,7 +7616,7 @@
       },
       {
         "word": "girar",
-        "translation": "English support: girar",
+        "translation": "to turn",
         "definition": "Término clave para comprender «Orientarse en la ciudad: una situación cotidiana» y analizar ayudar a una visitante a llegar a la estación.",
         "example": "Aunque «esquina» parece una decisión individual, conviene considerar «cuadra» y «semáforo». Esta frase sitúa «girar» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -7624,7 +7624,7 @@
       },
       {
         "word": "estación",
-        "translation": "English support: estación",
+        "translation": "station",
         "definition": "Término clave para comprender «Orientarse en la ciudad: una situación cotidiana» y analizar ayudar a una visitante a llegar a la estación.",
         "example": "Aunque «esquina» parece una decisión individual, conviene considerar «cuadra» y «semáforo». Esta frase sitúa «estación» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -7723,7 +7723,7 @@
     "vocabulary": [
       {
         "word": "vacante",
-        "translation": "English support: vacante",
+        "translation": "job opening",
         "definition": "Término clave para comprender «¿Qué cuenta como experiencia en el primer empleo?» y analizar preparar una entrevista laboral.",
         "example": "Cuando surgió «vacante», el grupo revisó lo ocurrido y explicó sus decisiones. Esta frase sitúa «vacante» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -7731,7 +7731,7 @@
       },
       {
         "word": "experiencia",
-        "translation": "English support: experiencia",
+        "translation": "experience",
         "definition": "Término clave para comprender «¿Qué cuenta como experiencia en el primer empleo?» y analizar preparar una entrevista laboral.",
         "example": "Cuando surgió «vacante», el grupo revisó lo ocurrido y explicó sus decisiones. Esta frase sitúa «experiencia» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -7739,7 +7739,7 @@
       },
       {
         "word": "habilidad",
-        "translation": "English support: habilidad",
+        "translation": "skill",
         "definition": "Término clave para comprender «¿Qué cuenta como experiencia en el primer empleo?» y analizar preparar una entrevista laboral.",
         "example": "Cuando surgió «vacante», el grupo revisó lo ocurrido y explicó sus decisiones. Esta frase sitúa «habilidad» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -7747,7 +7747,7 @@
       },
       {
         "word": "entrevista",
-        "translation": "English support: entrevista",
+        "translation": "interview",
         "definition": "Término clave para comprender «¿Qué cuenta como experiencia en el primer empleo?» y analizar preparar una entrevista laboral.",
         "example": "Cuando surgió «vacante», el grupo revisó lo ocurrido y explicó sus decisiones. Esta frase sitúa «entrevista» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -7755,7 +7755,7 @@
       },
       {
         "word": "responsable",
-        "translation": "English support: responsable",
+        "translation": "responsible",
         "definition": "Término clave para comprender «¿Qué cuenta como experiencia en el primer empleo?» y analizar preparar una entrevista laboral.",
         "example": "Cuando surgió «vacante», el grupo revisó lo ocurrido y explicó sus decisiones. Esta frase sitúa «responsable» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -7763,7 +7763,7 @@
       },
       {
         "word": "logro",
-        "translation": "English support: logro",
+        "translation": "achievement",
         "definition": "Término clave para comprender «¿Qué cuenta como experiencia en el primer empleo?» y analizar preparar una entrevista laboral.",
         "example": "Cuando surgió «vacante», el grupo revisó lo ocurrido y explicó sus decisiones. Esta frase sitúa «logro» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -7862,7 +7862,7 @@
     "vocabulary": [
       {
         "word": "movilidad",
-        "translation": "English support: movilidad",
+        "translation": "mobility",
         "definition": "Término clave para comprender «Moverse por la ciudad sin quedar fuera» y analizar valorar un nuevo plan de movilidad.",
         "example": "Si existieran más apoyos, muchas personas podrían afrontar «movilidad» de otra manera. Esta frase sitúa «movilidad» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -7870,7 +7870,7 @@
       },
       {
         "word": "peatonal",
-        "translation": "English support: peatonal",
+        "translation": "pedestrian",
         "definition": "Término clave para comprender «Moverse por la ciudad sin quedar fuera» y analizar valorar un nuevo plan de movilidad.",
         "example": "Si existieran más apoyos, muchas personas podrían afrontar «movilidad» de otra manera. Esta frase sitúa «peatonal» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -7878,7 +7878,7 @@
       },
       {
         "word": "emisiones",
-        "translation": "English support: emisiones",
+        "translation": "emissions",
         "definition": "Término clave para comprender «Moverse por la ciudad sin quedar fuera» y analizar valorar un nuevo plan de movilidad.",
         "example": "Si existieran más apoyos, muchas personas podrían afrontar «movilidad» de otra manera. Esta frase sitúa «emisiones» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -7886,7 +7886,7 @@
       },
       {
         "word": "infraestructura",
-        "translation": "English support: infraestructura",
+        "translation": "infrastructure",
         "definition": "Término clave para comprender «Moverse por la ciudad sin quedar fuera» y analizar valorar un nuevo plan de movilidad.",
         "example": "Si existieran más apoyos, muchas personas podrían afrontar «movilidad» de otra manera. Esta frase sitúa «infraestructura» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -7894,7 +7894,7 @@
       },
       {
         "word": "accesibilidad",
-        "translation": "English support: accesibilidad",
+        "translation": "accessibility",
         "definition": "Término clave para comprender «Moverse por la ciudad sin quedar fuera» y analizar valorar un nuevo plan de movilidad.",
         "example": "Si existieran más apoyos, muchas personas podrían afrontar «movilidad» de otra manera. Esta frase sitúa «accesibilidad» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -7902,7 +7902,7 @@
       },
       {
         "word": "urbanismo",
-        "translation": "English support: urbanismo",
+        "translation": "urban planning",
         "definition": "Término clave para comprender «Moverse por la ciudad sin quedar fuera» y analizar valorar un nuevo plan de movilidad.",
         "example": "Si existieran más apoyos, muchas personas podrían afrontar «movilidad» de otra manera. Esta frase sitúa «urbanismo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -8001,7 +8001,7 @@
     "vocabulary": [
       {
         "word": "premisa",
-        "translation": "English support: premisa",
+        "translation": "premise",
         "definition": "Término clave para comprender «La promesa detrás del pronombre “nosotros”» y analizar examinar un discurso institucional.",
         "example": "Aunque «premisa» parece una decisión individual, conviene considerar «auditorio» y «apelación». Esta frase sitúa «premisa» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -8009,7 +8009,7 @@
       },
       {
         "word": "auditorio",
-        "translation": "English support: auditorio",
+        "translation": "audience",
         "definition": "Término clave para comprender «La promesa detrás del pronombre “nosotros”» y analizar examinar un discurso institucional.",
         "example": "Aunque «premisa» parece una decisión individual, conviene considerar «auditorio» y «apelación». Esta frase sitúa «auditorio» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -8017,7 +8017,7 @@
       },
       {
         "word": "apelación",
-        "translation": "English support: apelación",
+        "translation": "appeal",
         "definition": "Término clave para comprender «La promesa detrás del pronombre “nosotros”» y analizar examinar un discurso institucional.",
         "example": "Aunque «premisa» parece una decisión individual, conviene considerar «auditorio» y «apelación». Esta frase sitúa «apelación» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -8025,7 +8025,7 @@
       },
       {
         "word": "elocuencia",
-        "translation": "English support: elocuencia",
+        "translation": "eloquence",
         "definition": "Término clave para comprender «La promesa detrás del pronombre “nosotros”» y analizar examinar un discurso institucional.",
         "example": "Aunque «premisa» parece una decisión individual, conviene considerar «auditorio» y «apelación». Esta frase sitúa «elocuencia» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -8033,7 +8033,7 @@
       },
       {
         "word": "presuposición",
-        "translation": "English support: presuposición",
+        "translation": "presupposition",
         "definition": "Término clave para comprender «La promesa detrás del pronombre “nosotros”» y analizar examinar un discurso institucional.",
         "example": "Aunque «premisa» parece una decisión individual, conviene considerar «auditorio» y «apelación». Esta frase sitúa «presuposición» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -8041,7 +8041,7 @@
       },
       {
         "word": "refutación",
-        "translation": "English support: refutación",
+        "translation": "refutation",
         "definition": "Término clave para comprender «La promesa detrás del pronombre “nosotros”» y analizar examinar un discurso institucional.",
         "example": "Aunque «premisa» parece una decisión individual, conviene considerar «auditorio» y «apelación». Esta frase sitúa «refutación» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -8140,7 +8140,7 @@
     "vocabulary": [
       {
         "word": "sátira",
-        "translation": "English support: sátira",
+        "translation": "satire",
         "definition": "Término clave para comprender «Reírse con alguien o reírse de alguien» y analizar explicar por qué una sátira funciona en su contexto.",
         "example": "Aunque «sátira» parece una decisión individual, conviene considerar «implicatura» y «parodia». Esta frase sitúa «sátira» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -8148,7 +8148,7 @@
       },
       {
         "word": "implicatura",
-        "translation": "English support: implicatura",
+        "translation": "implicature",
         "definition": "Término clave para comprender «Reírse con alguien o reírse de alguien» y analizar explicar por qué una sátira funciona en su contexto.",
         "example": "Aunque «sátira» parece una decisión individual, conviene considerar «implicatura» y «parodia». Esta frase sitúa «implicatura» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -8156,7 +8156,7 @@
       },
       {
         "word": "parodia",
-        "translation": "English support: parodia",
+        "translation": "parody",
         "definition": "Término clave para comprender «Reírse con alguien o reírse de alguien» y analizar explicar por qué una sátira funciona en su contexto.",
         "example": "Aunque «sátira» parece una decisión individual, conviene considerar «implicatura» y «parodia». Esta frase sitúa «parodia» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -8164,7 +8164,7 @@
       },
       {
         "word": "doble voz",
-        "translation": "English support: doble voz",
+        "translation": "double voice",
         "definition": "Término clave para comprender «Reírse con alguien o reírse de alguien» y analizar explicar por qué una sátira funciona en su contexto.",
         "example": "Aunque «sátira» parece una decisión individual, conviene considerar «implicatura» y «parodia». Esta frase sitúa «doble voz» dentro del tema de la unidad.",
         "partOfSpeech": "locución",
@@ -8172,7 +8172,7 @@
       },
       {
         "word": "burla",
-        "translation": "English support: burla",
+        "translation": "mockery",
         "definition": "Término clave para comprender «Reírse con alguien o reírse de alguien» y analizar explicar por qué una sátira funciona en su contexto.",
         "example": "Aunque «sátira» parece una decisión individual, conviene considerar «implicatura» y «parodia». Esta frase sitúa «burla» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -8180,7 +8180,7 @@
       },
       {
         "word": "complicidad",
-        "translation": "English support: complicidad",
+        "translation": "complicity",
         "definition": "Término clave para comprender «Reírse con alguien o reírse de alguien» y analizar explicar por qué una sátira funciona en su contexto.",
         "example": "Aunque «sátira» parece una decisión individual, conviene considerar «implicatura» y «parodia». Esta frase sitúa «complicidad» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -11472,7 +11472,7 @@
     "vocabulary": [
       {
         "word": "horario",
-        "translation": "English support: horario",
+        "translation": "schedule",
         "definition": "Término clave para comprender «Rutinas y horarios: una situación cotidiana» y analizar organizar una semana con estudio y trabajo.",
         "example": "Aunque «horario» parece una decisión individual, conviene considerar «turno» y «temprano». Esta frase sitúa «horario» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -11480,7 +11480,7 @@
       },
       {
         "word": "turno",
-        "translation": "English support: turno",
+        "translation": "shift",
         "definition": "Término clave para comprender «Rutinas y horarios: una situación cotidiana» y analizar organizar una semana con estudio y trabajo.",
         "example": "Aunque «horario» parece una decisión individual, conviene considerar «turno» y «temprano». Esta frase sitúa «turno» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -11488,7 +11488,7 @@
       },
       {
         "word": "temprano",
-        "translation": "English support: temprano",
+        "translation": "early",
         "definition": "Término clave para comprender «Rutinas y horarios: una situación cotidiana» y analizar organizar una semana con estudio y trabajo.",
         "example": "Aunque «horario» parece una decisión individual, conviene considerar «turno» y «temprano». Esta frase sitúa «temprano» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -11496,7 +11496,7 @@
       },
       {
         "word": "tarde",
-        "translation": "English support: tarde",
+        "translation": "late / afternoon",
         "definition": "Término clave para comprender «Rutinas y horarios: una situación cotidiana» y analizar organizar una semana con estudio y trabajo.",
         "example": "Aunque «horario» parece una decisión individual, conviene considerar «turno» y «temprano». Esta frase sitúa «tarde» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -11504,7 +11504,7 @@
       },
       {
         "word": "descanso",
-        "translation": "English support: descanso",
+        "translation": "break / rest",
         "definition": "Término clave para comprender «Rutinas y horarios: una situación cotidiana» y analizar organizar una semana con estudio y trabajo.",
         "example": "Aunque «horario» parece una decisión individual, conviene considerar «turno» y «temprano». Esta frase sitúa «descanso» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -11512,7 +11512,7 @@
       },
       {
         "word": "agenda",
-        "translation": "English support: agenda",
+        "translation": "planner",
         "definition": "Término clave para comprender «Rutinas y horarios: una situación cotidiana» y analizar organizar una semana con estudio y trabajo.",
         "example": "Aunque «horario» parece una decisión individual, conviene considerar «turno» y «temprano». Esta frase sitúa «agenda» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -11611,7 +11611,7 @@
     "vocabulary": [
       {
         "word": "cancelación",
-        "translation": "English support: cancelación",
+        "translation": "cancellation",
         "definition": "Término clave para comprender «Veinticuatro horas lejos de casa» y analizar resolver la cancelación de un trayecto.",
         "example": "Si existieran más apoyos, muchas personas podrían afrontar «cancelación» de otra manera. Esta frase sitúa «cancelación» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -11619,7 +11619,7 @@
       },
       {
         "word": "retraso",
-        "translation": "English support: retraso",
+        "translation": "delay",
         "definition": "Término clave para comprender «Veinticuatro horas lejos de casa» y analizar resolver la cancelación de un trayecto.",
         "example": "Si existieran más apoyos, muchas personas podrían afrontar «cancelación» de otra manera. Esta frase sitúa «retraso» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -11627,7 +11627,7 @@
       },
       {
         "word": "reembolso",
-        "translation": "English support: reembolso",
+        "translation": "refund",
         "definition": "Término clave para comprender «Veinticuatro horas lejos de casa» y analizar resolver la cancelación de un trayecto.",
         "example": "Si existieran más apoyos, muchas personas podrían afrontar «cancelación» de otra manera. Esta frase sitúa «reembolso» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -11635,7 +11635,7 @@
       },
       {
         "word": "alternativa",
-        "translation": "English support: alternativa",
+        "translation": "alternative",
         "definition": "Término clave para comprender «Veinticuatro horas lejos de casa» y analizar resolver la cancelación de un trayecto.",
         "example": "Si existieran más apoyos, muchas personas podrían afrontar «cancelación» de otra manera. Esta frase sitúa «alternativa» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -11643,7 +11643,7 @@
       },
       {
         "word": "reclamo",
-        "translation": "English support: reclamo",
+        "translation": "complaint / claim",
         "definition": "Término clave para comprender «Veinticuatro horas lejos de casa» y analizar resolver la cancelación de un trayecto.",
         "example": "Si existieran más apoyos, muchas personas podrían afrontar «cancelación» de otra manera. Esta frase sitúa «reclamo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -11651,7 +11651,7 @@
       },
       {
         "word": "seguro",
-        "translation": "English support: seguro",
+        "translation": "insurance",
         "definition": "Término clave para comprender «Veinticuatro horas lejos de casa» y analizar resolver la cancelación de un trayecto.",
         "example": "Si existieran más apoyos, muchas personas podrían afrontar «cancelación» de otra manera. Esta frase sitúa «seguro» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -11750,7 +11750,7 @@
     "vocabulary": [
       {
         "word": "automatización",
-        "translation": "English support: automatización",
+        "translation": "automation",
         "definition": "Término clave para comprender «Prepararse para empleos que todavía están cambiando» y analizar analizar cambios producidos por la automatización.",
         "example": "La propuesta permitirá revisar «automatización» y anticipar sus consecuencias. Esta frase sitúa «automatización» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -11758,7 +11758,7 @@
       },
       {
         "word": "competencia",
-        "translation": "English support: competencia",
+        "translation": "competition",
         "definition": "Término clave para comprender «Prepararse para empleos que todavía están cambiando» y analizar analizar cambios producidos por la automatización.",
         "example": "La propuesta permitirá revisar «automatización» y anticipar sus consecuencias. Esta frase sitúa «competencia» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -11766,7 +11766,7 @@
       },
       {
         "word": "reconversión",
-        "translation": "English support: reconversión",
+        "translation": "reskilling",
         "definition": "Término clave para comprender «Prepararse para empleos que todavía están cambiando» y analizar analizar cambios producidos por la automatización.",
         "example": "La propuesta permitirá revisar «automatización» y anticipar sus consecuencias. Esta frase sitúa «reconversión» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -11774,7 +11774,7 @@
       },
       {
         "word": "productividad",
-        "translation": "English support: productividad",
+        "translation": "productivity",
         "definition": "Término clave para comprender «Prepararse para empleos que todavía están cambiando» y analizar analizar cambios producidos por la automatización.",
         "example": "La propuesta permitirá revisar «automatización» y anticipar sus consecuencias. Esta frase sitúa «productividad» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -11782,7 +11782,7 @@
       },
       {
         "word": "teletrabajo",
-        "translation": "English support: teletrabajo",
+        "translation": "remote work",
         "definition": "Término clave para comprender «Prepararse para empleos que todavía están cambiando» y analizar analizar cambios producidos por la automatización.",
         "example": "La propuesta permitirá revisar «automatización» y anticipar sus consecuencias. Esta frase sitúa «teletrabajo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -11790,7 +11790,7 @@
       },
       {
         "word": "incertidumbre",
-        "translation": "English support: incertidumbre",
+        "translation": "uncertainty",
         "definition": "Término clave para comprender «Prepararse para empleos que todavía están cambiando» y analizar analizar cambios producidos por la automatización.",
         "example": "La propuesta permitirá revisar «automatización» y anticipar sus consecuencias. Esta frase sitúa «incertidumbre» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -11889,7 +11889,7 @@
     "vocabulary": [
       {
         "word": "filtración",
-        "translation": "English support: filtración",
+        "translation": "leak",
         "definition": "Término clave para comprender «Seguir el rastro de una decisión automatizada» y analizar reconstruir una investigación compleja.",
         "example": "Aunque «filtración» parece una decisión individual, conviene considerar «hallazgo» y «indicio». Esta frase sitúa «filtración» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -11897,7 +11897,7 @@
       },
       {
         "word": "hallazgo",
-        "translation": "English support: hallazgo",
+        "translation": "finding",
         "definition": "Término clave para comprender «Seguir el rastro de una decisión automatizada» y analizar reconstruir una investigación compleja.",
         "example": "Aunque «filtración» parece una decisión individual, conviene considerar «hallazgo» y «indicio». Esta frase sitúa «hallazgo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -11905,7 +11905,7 @@
       },
       {
         "word": "indicio",
-        "translation": "English support: indicio",
+        "translation": "clue / indication",
         "definition": "Término clave para comprender «Seguir el rastro de una decisión automatizada» y analizar reconstruir una investigación compleja.",
         "example": "Aunque «filtración» parece una decisión individual, conviene considerar «hallazgo» y «indicio». Esta frase sitúa «indicio» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -11913,7 +11913,7 @@
       },
       {
         "word": "contrastar",
-        "translation": "English support: contrastar",
+        "translation": "to cross-check",
         "definition": "Término clave para comprender «Seguir el rastro de una decisión automatizada» y analizar reconstruir una investigación compleja.",
         "example": "Aunque «filtración» parece una decisión individual, conviene considerar «hallazgo» y «indicio». Esta frase sitúa «contrastar» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -11921,7 +11921,7 @@
       },
       {
         "word": "anonimato",
-        "translation": "English support: anonimato",
+        "translation": "anonymity",
         "definition": "Término clave para comprender «Seguir el rastro de una decisión automatizada» y analizar reconstruir una investigación compleja.",
         "example": "Aunque «filtración» parece una decisión individual, conviene considerar «hallazgo» y «indicio». Esta frase sitúa «anonimato» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -11929,7 +11929,7 @@
       },
       {
         "word": "rendición de cuentas",
-        "translation": "English support: rendición de cuentas",
+        "translation": "accountability",
         "definition": "Término clave para comprender «Seguir el rastro de una decisión automatizada» y analizar reconstruir una investigación compleja.",
         "example": "Aunque «filtración» parece una decisión individual, conviene considerar «hallazgo» y «indicio». Esta frase sitúa «rendición de cuentas» dentro del tema de la unidad.",
         "partOfSpeech": "locución",
@@ -12028,7 +12028,7 @@
     "vocabulary": [
       {
         "word": "equivalencia",
-        "translation": "English support: equivalencia",
+        "translation": "equivalence",
         "definition": "Término clave para comprender «Lo intraducible no significa lo incomunicable» y analizar mediar un concepto sin equivalente exacto.",
         "example": "Aunque «equivalencia» parece una decisión individual, conviene considerar «calco» y «reformulación». Esta frase sitúa «equivalencia» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -12036,7 +12036,7 @@
       },
       {
         "word": "calco",
-        "translation": "English support: calco",
+        "translation": "loan translation",
         "definition": "Término clave para comprender «Lo intraducible no significa lo incomunicable» y analizar mediar un concepto sin equivalente exacto.",
         "example": "Aunque «equivalencia» parece una decisión individual, conviene considerar «calco» y «reformulación». Esta frase sitúa «calco» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -12044,7 +12044,7 @@
       },
       {
         "word": "reformulación",
-        "translation": "English support: reformulación",
+        "translation": "rephrasing",
         "definition": "Término clave para comprender «Lo intraducible no significa lo incomunicable» y analizar mediar un concepto sin equivalente exacto.",
         "example": "Aunque «equivalencia» parece una decisión individual, conviene considerar «calco» y «reformulación». Esta frase sitúa «reformulación» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -12052,7 +12052,7 @@
       },
       {
         "word": "pérdida",
-        "translation": "English support: pérdida",
+        "translation": "loss",
         "definition": "Término clave para comprender «Lo intraducible no significa lo incomunicable» y analizar mediar un concepto sin equivalente exacto.",
         "example": "Aunque «equivalencia» parece una decisión individual, conviene considerar «calco» y «reformulación». Esta frase sitúa «pérdida» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -12060,7 +12060,7 @@
       },
       {
         "word": "registro",
-        "translation": "English support: registro",
+        "translation": "register",
         "definition": "Término clave para comprender «Lo intraducible no significa lo incomunicable» y analizar mediar un concepto sin equivalente exacto.",
         "example": "Aunque «equivalencia» parece una decisión individual, conviene considerar «calco» y «reformulación». Esta frase sitúa «registro» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -12068,7 +12068,7 @@
       },
       {
         "word": "mediación",
-        "translation": "English support: mediación",
+        "translation": "mediation",
         "definition": "Término clave para comprender «Lo intraducible no significa lo incomunicable» y analizar mediar un concepto sin equivalente exacto.",
         "example": "Aunque «equivalencia» parece una decisión individual, conviene considerar «calco» y «reformulación». Esta frase sitúa «mediación» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -15357,7 +15357,7 @@
     "vocabulary": [
       {
         "word": "síntoma",
-        "translation": "English support: síntoma",
+        "translation": "symptom",
         "definition": "Término clave para comprender «Salud y bienestar: una situación cotidiana» y analizar explicar síntomas en una consulta.",
         "example": "Aunque «síntoma» parece una decisión individual, conviene considerar «dolor» y «cita». Esta frase sitúa «síntoma» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -15365,7 +15365,7 @@
       },
       {
         "word": "dolor",
-        "translation": "English support: dolor",
+        "translation": "pain",
         "definition": "Término clave para comprender «Salud y bienestar: una situación cotidiana» y analizar explicar síntomas en una consulta.",
         "example": "Aunque «síntoma» parece una decisión individual, conviene considerar «dolor» y «cita». Esta frase sitúa «dolor» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -15373,7 +15373,7 @@
       },
       {
         "word": "cita",
-        "translation": "English support: cita",
+        "translation": "appointment",
         "definition": "Término clave para comprender «Salud y bienestar: una situación cotidiana» y analizar explicar síntomas en una consulta.",
         "example": "Aunque «síntoma» parece una decisión individual, conviene considerar «dolor» y «cita». Esta frase sitúa «cita» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -15381,7 +15381,7 @@
       },
       {
         "word": "descansar",
-        "translation": "English support: descansar",
+        "translation": "to rest",
         "definition": "Término clave para comprender «Salud y bienestar: una situación cotidiana» y analizar explicar síntomas en una consulta.",
         "example": "Aunque «síntoma» parece una decisión individual, conviene considerar «dolor» y «cita». Esta frase sitúa «descansar» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -15389,7 +15389,7 @@
       },
       {
         "word": "receta",
-        "translation": "English support: receta",
+        "translation": "prescription",
         "definition": "Término clave para comprender «Salud y bienestar: una situación cotidiana» y analizar explicar síntomas en una consulta.",
         "example": "Aunque «síntoma» parece una decisión individual, conviene considerar «dolor» y «cita». Esta frase sitúa «receta» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -15397,7 +15397,7 @@
       },
       {
         "word": "mejorar",
-        "translation": "English support: mejorar",
+        "translation": "to improve",
         "definition": "Término clave para comprender «Salud y bienestar: una situación cotidiana» y analizar explicar síntomas en una consulta.",
         "example": "Aunque «síntoma» parece una decisión individual, conviene considerar «dolor» y «cita». Esta frase sitúa «mejorar» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -15496,7 +15496,7 @@
     "vocabulary": [
       {
         "word": "titular",
-        "translation": "English support: titular",
+        "translation": "headline",
         "definition": "Término clave para comprender «Antes de compartir ese titular» y analizar comparar dos versiones de una noticia.",
         "example": "Cuando surgió «titular», el grupo revisó lo ocurrido y explicó sus decisiones. Esta frase sitúa «titular» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -15504,7 +15504,7 @@
       },
       {
         "word": "fuente",
-        "translation": "English support: fuente",
+        "translation": "source",
         "definition": "Término clave para comprender «Antes de compartir ese titular» y analizar comparar dos versiones de una noticia.",
         "example": "Cuando surgió «titular», el grupo revisó lo ocurrido y explicó sus decisiones. Esta frase sitúa «fuente» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -15512,7 +15512,7 @@
       },
       {
         "word": "reportaje",
-        "translation": "English support: reportaje",
+        "translation": "report",
         "definition": "Término clave para comprender «Antes de compartir ese titular» y analizar comparar dos versiones de una noticia.",
         "example": "Cuando surgió «titular», el grupo revisó lo ocurrido y explicó sus decisiones. Esta frase sitúa «reportaje» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -15520,7 +15520,7 @@
       },
       {
         "word": "rumor",
-        "translation": "English support: rumor",
+        "translation": "rumour",
         "definition": "Término clave para comprender «Antes de compartir ese titular» y analizar comparar dos versiones de una noticia.",
         "example": "Cuando surgió «titular», el grupo revisó lo ocurrido y explicó sus decisiones. Esta frase sitúa «rumor» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -15528,7 +15528,7 @@
       },
       {
         "word": "comprobar",
-        "translation": "English support: comprobar",
+        "translation": "to verify",
         "definition": "Término clave para comprender «Antes de compartir ese titular» y analizar comparar dos versiones de una noticia.",
         "example": "Cuando surgió «titular», el grupo revisó lo ocurrido y explicó sus decisiones. Esta frase sitúa «comprobar» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -15536,7 +15536,7 @@
       },
       {
         "word": "actualidad",
-        "translation": "English support: actualidad",
+        "translation": "current affairs",
         "definition": "Término clave para comprender «Antes de compartir ese titular» y analizar comparar dos versiones de una noticia.",
         "example": "Cuando surgió «titular», el grupo revisó lo ocurrido y explicó sus decisiones. Esta frase sitúa «actualidad» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -15635,7 +15635,7 @@
     "vocabulary": [
       {
         "word": "evidencia",
-        "translation": "English support: evidencia",
+        "translation": "evidence",
         "definition": "Término clave para comprender «La anatomía de un video viral» y analizar verificar una afirmación viral.",
         "example": "Una estudiante explicó que «evidencia» no podía entenderse sin revisar el contexto. Esta frase sitúa «evidencia» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -15643,7 +15643,7 @@
       },
       {
         "word": "sesgo",
-        "translation": "English support: sesgo",
+        "translation": "bias",
         "definition": "Término clave para comprender «La anatomía de un video viral» y analizar verificar una afirmación viral.",
         "example": "Una estudiante explicó que «evidencia» no podía entenderse sin revisar el contexto. Esta frase sitúa «sesgo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -15651,7 +15651,7 @@
       },
       {
         "word": "verificar",
-        "translation": "English support: verificar",
+        "translation": "to verify",
         "definition": "Término clave para comprender «La anatomía de un video viral» y analizar verificar una afirmación viral.",
         "example": "Una estudiante explicó que «evidencia» no podía entenderse sin revisar el contexto. Esta frase sitúa «verificar» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -15659,7 +15659,7 @@
       },
       {
         "word": "fuente primaria",
-        "translation": "English support: fuente primaria",
+        "translation": "primary source",
         "definition": "Término clave para comprender «La anatomía de un video viral» y analizar verificar una afirmación viral.",
         "example": "Una estudiante explicó que «evidencia» no podía entenderse sin revisar el contexto. Esta frase sitúa «fuente primaria» dentro del tema de la unidad.",
         "partOfSpeech": "locución",
@@ -15667,7 +15667,7 @@
       },
       {
         "word": "engañoso",
-        "translation": "English support: engañoso",
+        "translation": "misleading",
         "definition": "Término clave para comprender «La anatomía de un video viral» y analizar verificar una afirmación viral.",
         "example": "Una estudiante explicó que «evidencia» no podía entenderse sin revisar el contexto. Esta frase sitúa «engañoso» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -15675,7 +15675,7 @@
       },
       {
         "word": "credibilidad",
-        "translation": "English support: credibilidad",
+        "translation": "credibility",
         "definition": "Término clave para comprender «La anatomía de un video viral» y analizar verificar una afirmación viral.",
         "example": "Una estudiante explicó que «evidencia» no podía entenderse sin revisar el contexto. Esta frase sitúa «credibilidad» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -15774,7 +15774,7 @@
     "vocabulary": [
       {
         "word": "reparación",
-        "translation": "English support: reparación",
+        "translation": "redress",
         "definition": "Término clave para comprender «Cuando reconocer el daño no basta» y analizar debatir respuestas a un daño histórico.",
         "example": "Es importante que la comunidad considere «reparación» antes de debatir respuestas a un daño histórico. Esta frase sitúa «reparación» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -15782,7 +15782,7 @@
       },
       {
         "word": "agravio",
-        "translation": "English support: agravio",
+        "translation": "harm / grievance",
         "definition": "Término clave para comprender «Cuando reconocer el daño no basta» y analizar debatir respuestas a un daño histórico.",
         "example": "Es importante que la comunidad considere «reparación» antes de debatir respuestas a un daño histórico. Esta frase sitúa «agravio» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -15790,7 +15790,7 @@
       },
       {
         "word": "garantía",
-        "translation": "English support: garantía",
+        "translation": "guarantee",
         "definition": "Término clave para comprender «Cuando reconocer el daño no basta» y analizar debatir respuestas a un daño histórico.",
         "example": "Es importante que la comunidad considere «reparación» antes de debatir respuestas a un daño histórico. Esta frase sitúa «garantía» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -15798,7 +15798,7 @@
       },
       {
         "word": "reconocimiento",
-        "translation": "English support: reconocimiento",
+        "translation": "recognition",
         "definition": "Término clave para comprender «Cuando reconocer el daño no basta» y analizar debatir respuestas a un daño histórico.",
         "example": "Es importante que la comunidad considere «reparación» antes de debatir respuestas a un daño histórico. Esta frase sitúa «reconocimiento» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -15806,7 +15806,7 @@
       },
       {
         "word": "responsabilidad",
-        "translation": "English support: responsabilidad",
+        "translation": "responsibility",
         "definition": "Término clave para comprender «Cuando reconocer el daño no basta» y analizar debatir respuestas a un daño histórico.",
         "example": "Es importante que la comunidad considere «reparación» antes de debatir respuestas a un daño histórico. Esta frase sitúa «responsabilidad» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -15814,7 +15814,7 @@
       },
       {
         "word": "reconciliación",
-        "translation": "English support: reconciliación",
+        "translation": "reconciliation",
         "definition": "Término clave para comprender «Cuando reconocer el daño no basta» y analizar debatir respuestas a un daño histórico.",
         "example": "Es importante que la comunidad considere «reparación» antes de debatir respuestas a un daño histórico. Esta frase sitúa «reconciliación» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -15913,7 +15913,7 @@
     "vocabulary": [
       {
         "word": "referente",
-        "translation": "English support: referente",
+        "translation": "referent",
         "definition": "Término clave para comprender «Nombrar una categoría también la transforma» y analizar debatir cómo las palabras construyen categorías.",
         "example": "Aunque «referente» parece una decisión individual, conviene considerar «categoría» y «enunciado». Esta frase sitúa «referente» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -15921,7 +15921,7 @@
       },
       {
         "word": "categoría",
-        "translation": "English support: categoría",
+        "translation": "category",
         "definition": "Término clave para comprender «Nombrar una categoría también la transforma» y analizar debatir cómo las palabras construyen categorías.",
         "example": "Aunque «referente» parece una decisión individual, conviene considerar «categoría» y «enunciado». Esta frase sitúa «categoría» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -15929,7 +15929,7 @@
       },
       {
         "word": "enunciado",
-        "translation": "English support: enunciado",
+        "translation": "statement",
         "definition": "Término clave para comprender «Nombrar una categoría también la transforma» y analizar debatir cómo las palabras construyen categorías.",
         "example": "Aunque «referente» parece una decisión individual, conviene considerar «categoría» y «enunciado». Esta frase sitúa «enunciado» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -15937,7 +15937,7 @@
       },
       {
         "word": "convención",
-        "translation": "English support: convención",
+        "translation": "convention",
         "definition": "Término clave para comprender «Nombrar una categoría también la transforma» y analizar debatir cómo las palabras construyen categorías.",
         "example": "Aunque «referente» parece una decisión individual, conviene considerar «categoría» y «enunciado». Esta frase sitúa «convención» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -15945,7 +15945,7 @@
       },
       {
         "word": "inferir",
-        "translation": "English support: inferir",
+        "translation": "to infer",
         "definition": "Término clave para comprender «Nombrar una categoría también la transforma» y analizar debatir cómo las palabras construyen categorías.",
         "example": "Aunque «referente» parece una decisión individual, conviene considerar «categoría» y «enunciado». Esta frase sitúa «inferir» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -15953,7 +15953,7 @@
       },
       {
         "word": "conceptualizar",
-        "translation": "English support: conceptualizar",
+        "translation": "to conceptualise",
         "definition": "Término clave para comprender «Nombrar una categoría también la transforma» y analizar debatir cómo las palabras construyen categorías.",
         "example": "Aunque «referente» parece una decisión individual, conviene considerar «categoría» y «enunciado». Esta frase sitúa «conceptualizar» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -19236,7 +19236,7 @@
     "vocabulary": [
       {
         "word": "billete",
-        "translation": "English support: billete",
+        "translation": "ticket",
         "definition": "Término clave para comprender «Viajes y transporte: una situación cotidiana» y analizar preparar un viaje de fin de semana.",
         "example": "La propuesta permitirá revisar «billete» y anticipar sus consecuencias. Esta frase sitúa «billete» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -19244,7 +19244,7 @@
       },
       {
         "word": "equipaje",
-        "translation": "English support: equipaje",
+        "translation": "luggage",
         "definition": "Término clave para comprender «Viajes y transporte: una situación cotidiana» y analizar preparar un viaje de fin de semana.",
         "example": "La propuesta permitirá revisar «billete» y anticipar sus consecuencias. Esta frase sitúa «equipaje» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -19252,7 +19252,7 @@
       },
       {
         "word": "andén",
-        "translation": "English support: andén",
+        "translation": "platform",
         "definition": "Término clave para comprender «Viajes y transporte: una situación cotidiana» y analizar preparar un viaje de fin de semana.",
         "example": "La propuesta permitirá revisar «billete» y anticipar sus consecuencias. Esta frase sitúa «andén» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -19260,7 +19260,7 @@
       },
       {
         "word": "salida",
-        "translation": "English support: salida",
+        "translation": "departure",
         "definition": "Término clave para comprender «Viajes y transporte: una situación cotidiana» y analizar preparar un viaje de fin de semana.",
         "example": "La propuesta permitirá revisar «billete» y anticipar sus consecuencias. Esta frase sitúa «salida» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -19268,7 +19268,7 @@
       },
       {
         "word": "llegada",
-        "translation": "English support: llegada",
+        "translation": "arrival",
         "definition": "Término clave para comprender «Viajes y transporte: una situación cotidiana» y analizar preparar un viaje de fin de semana.",
         "example": "La propuesta permitirá revisar «billete» y anticipar sus consecuencias. Esta frase sitúa «llegada» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -19276,7 +19276,7 @@
       },
       {
         "word": "reserva",
-        "translation": "English support: reserva",
+        "translation": "reservation",
         "definition": "Término clave para comprender «Viajes y transporte: una situación cotidiana» y analizar preparar un viaje de fin de semana.",
         "example": "La propuesta permitirá revisar «billete» y anticipar sus consecuencias. Esta frase sitúa «reserva» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -19375,7 +19375,7 @@
     "vocabulary": [
       {
         "word": "confianza",
-        "translation": "English support: confianza",
+        "translation": "trust",
         "definition": "Término clave para comprender «Cuando el grupo de chat nunca se calla» y analizar resolver un desacuerdo entre compañeros.",
         "example": "Es importante que la comunidad considere «confianza» antes de resolver un desacuerdo entre compañeros. Esta frase sitúa «confianza» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -19383,7 +19383,7 @@
       },
       {
         "word": "límite",
-        "translation": "English support: límite",
+        "translation": "boundary",
         "definition": "Término clave para comprender «Cuando el grupo de chat nunca se calla» y analizar resolver un desacuerdo entre compañeros.",
         "example": "Es importante que la comunidad considere «confianza» antes de resolver un desacuerdo entre compañeros. Esta frase sitúa «límite» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -19391,7 +19391,7 @@
       },
       {
         "word": "acuerdo",
-        "translation": "English support: acuerdo",
+        "translation": "agreement",
         "definition": "Término clave para comprender «Cuando el grupo de chat nunca se calla» y analizar resolver un desacuerdo entre compañeros.",
         "example": "Es importante que la comunidad considere «confianza» antes de resolver un desacuerdo entre compañeros. Esta frase sitúa «acuerdo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -19399,7 +19399,7 @@
       },
       {
         "word": "molestia",
-        "translation": "English support: molestia",
+        "translation": "upset / annoyance",
         "definition": "Término clave para comprender «Cuando el grupo de chat nunca se calla» y analizar resolver un desacuerdo entre compañeros.",
         "example": "Es importante que la comunidad considere «confianza» antes de resolver un desacuerdo entre compañeros. Esta frase sitúa «molestia» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -19407,7 +19407,7 @@
       },
       {
         "word": "apoyar",
-        "translation": "English support: apoyar",
+        "translation": "to support",
         "definition": "Término clave para comprender «Cuando el grupo de chat nunca se calla» y analizar resolver un desacuerdo entre compañeros.",
         "example": "Es importante que la comunidad considere «confianza» antes de resolver un desacuerdo entre compañeros. Esta frase sitúa «apoyar» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -19415,7 +19415,7 @@
       },
       {
         "word": "convivir",
-        "translation": "English support: convivir",
+        "translation": "to live together",
         "definition": "Término clave para comprender «Cuando el grupo de chat nunca se calla» y analizar resolver un desacuerdo entre compañeros.",
         "example": "Es importante que la comunidad considere «confianza» antes de resolver un desacuerdo entre compañeros. Esta frase sitúa «convivir» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -19514,7 +19514,7 @@
     "vocabulary": [
       {
         "word": "temporada alta",
-        "translation": "English support: temporada alta",
+        "translation": "peak season",
         "definition": "Término clave para comprender «La ciudad que todos visitan y pocos pueden habitar» y analizar mediar en un debate sobre turismo local.",
         "example": "Aunque «temporada alta» parece una decisión individual, conviene considerar «alojamiento» y «residente». Esta frase sitúa «temporada alta» dentro del tema de la unidad.",
         "partOfSpeech": "locución",
@@ -19522,7 +19522,7 @@
       },
       {
         "word": "alojamiento",
-        "translation": "English support: alojamiento",
+        "translation": "accommodation",
         "definition": "Término clave para comprender «La ciudad que todos visitan y pocos pueden habitar» y analizar mediar en un debate sobre turismo local.",
         "example": "Aunque «temporada alta» parece una decisión individual, conviene considerar «alojamiento» y «residente». Esta frase sitúa «alojamiento» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -19530,7 +19530,7 @@
       },
       {
         "word": "residente",
-        "translation": "English support: residente",
+        "translation": "resident",
         "definition": "Término clave para comprender «La ciudad que todos visitan y pocos pueden habitar» y analizar mediar en un debate sobre turismo local.",
         "example": "Aunque «temporada alta» parece una decisión individual, conviene considerar «alojamiento» y «residente». Esta frase sitúa «residente» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -19538,7 +19538,7 @@
       },
       {
         "word": "saturación",
-        "translation": "English support: saturación",
+        "translation": "overcrowding",
         "definition": "Término clave para comprender «La ciudad que todos visitan y pocos pueden habitar» y analizar mediar en un debate sobre turismo local.",
         "example": "Aunque «temporada alta» parece una decisión individual, conviene considerar «alojamiento» y «residente». Esta frase sitúa «saturación» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -19546,7 +19546,7 @@
       },
       {
         "word": "patrimonio",
-        "translation": "English support: patrimonio",
+        "translation": "heritage",
         "definition": "Término clave para comprender «La ciudad que todos visitan y pocos pueden habitar» y analizar mediar en un debate sobre turismo local.",
         "example": "Aunque «temporada alta» parece una decisión individual, conviene considerar «alojamiento» y «residente». Esta frase sitúa «patrimonio» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -19554,7 +19554,7 @@
       },
       {
         "word": "regulación",
-        "translation": "English support: regulación",
+        "translation": "regulation",
         "definition": "Término clave para comprender «La ciudad que todos visitan y pocos pueden habitar» y analizar mediar en un debate sobre turismo local.",
         "example": "Aunque «temporada alta» parece una decisión individual, conviene considerar «alojamiento» y «residente». Esta frase sitúa «regulación» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -19653,7 +19653,7 @@
     "vocabulary": [
       {
         "word": "precaución",
-        "translation": "English support: precaución",
+        "translation": "precaution",
         "definition": "Término clave para comprender «La innovación también necesita frenos revisables» y analizar evaluar una tecnología antes de adoptarla.",
         "example": "Si existieran más apoyos, muchas personas podrían afrontar «precaución» de otra manera. Esta frase sitúa «precaución» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -19661,7 +19661,7 @@
       },
       {
         "word": "impacto",
-        "translation": "English support: impacto",
+        "translation": "impact",
         "definition": "Término clave para comprender «La innovación también necesita frenos revisables» y analizar evaluar una tecnología antes de adoptarla.",
         "example": "Si existieran más apoyos, muchas personas podrían afrontar «precaución» de otra manera. Esta frase sitúa «impacto» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -19669,7 +19669,7 @@
       },
       {
         "word": "despliegue",
-        "translation": "English support: despliegue",
+        "translation": "rollout",
         "definition": "Término clave para comprender «La innovación también necesita frenos revisables» y analizar evaluar una tecnología antes de adoptarla.",
         "example": "Si existieran más apoyos, muchas personas podrían afrontar «precaución» de otra manera. Esta frase sitúa «despliegue» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -19677,7 +19677,7 @@
       },
       {
         "word": "sesgo",
-        "translation": "English support: sesgo",
+        "translation": "bias",
         "definition": "Término clave para comprender «La innovación también necesita frenos revisables» y analizar evaluar una tecnología antes de adoptarla.",
         "example": "Si existieran más apoyos, muchas personas podrían afrontar «precaución» de otra manera. Esta frase sitúa «sesgo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -19685,7 +19685,7 @@
       },
       {
         "word": "supervisión",
-        "translation": "English support: supervisión",
+        "translation": "oversight",
         "definition": "Término clave para comprender «La innovación también necesita frenos revisables» y analizar evaluar una tecnología antes de adoptarla.",
         "example": "Si existieran más apoyos, muchas personas podrían afrontar «precaución» de otra manera. Esta frase sitúa «supervisión» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -19693,7 +19693,7 @@
       },
       {
         "word": "trazabilidad",
-        "translation": "English support: trazabilidad",
+        "translation": "traceability",
         "definition": "Término clave para comprender «La innovación también necesita frenos revisables» y analizar evaluar una tecnología antes de adoptarla.",
         "example": "Si existieran más apoyos, muchas personas podrían afrontar «precaución» de otra manera. Esta frase sitúa «trazabilidad» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -19792,7 +19792,7 @@
     "vocabulary": [
       {
         "word": "jurisprudencia",
-        "translation": "English support: jurisprudencia",
+        "translation": "case law",
         "definition": "Término clave para comprender «La misma norma, dos obligaciones posibles» y analizar interpretar dos lecturas de una norma.",
         "example": "Aunque «jurisprudencia» parece una decisión individual, conviene considerar «supuesto» y «alcance». Esta frase sitúa «jurisprudencia» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -19800,7 +19800,7 @@
       },
       {
         "word": "supuesto",
-        "translation": "English support: supuesto",
+        "translation": "assumption",
         "definition": "Término clave para comprender «La misma norma, dos obligaciones posibles» y analizar interpretar dos lecturas de una norma.",
         "example": "Aunque «jurisprudencia» parece una decisión individual, conviene considerar «supuesto» y «alcance». Esta frase sitúa «supuesto» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -19808,7 +19808,7 @@
       },
       {
         "word": "alcance",
-        "translation": "English support: alcance",
+        "translation": "scope",
         "definition": "Término clave para comprender «La misma norma, dos obligaciones posibles» y analizar interpretar dos lecturas de una norma.",
         "example": "Aunque «jurisprudencia» parece una decisión individual, conviene considerar «supuesto» y «alcance». Esta frase sitúa «alcance» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -19816,7 +19816,7 @@
       },
       {
         "word": "disposición",
-        "translation": "English support: disposición",
+        "translation": "provision",
         "definition": "Término clave para comprender «La misma norma, dos obligaciones posibles» y analizar interpretar dos lecturas de una norma.",
         "example": "Aunque «jurisprudencia» parece una decisión individual, conviene considerar «supuesto» y «alcance». Esta frase sitúa «disposición» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -19824,7 +19824,7 @@
       },
       {
         "word": "interpretación",
-        "translation": "English support: interpretación",
+        "translation": "interpretation",
         "definition": "Término clave para comprender «La misma norma, dos obligaciones posibles» y analizar interpretar dos lecturas de una norma.",
         "example": "Aunque «jurisprudencia» parece una decisión individual, conviene considerar «supuesto» y «alcance». Esta frase sitúa «interpretación» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -19832,7 +19832,7 @@
       },
       {
         "word": "precedente",
-        "translation": "English support: precedente",
+        "translation": "precedent",
         "definition": "Término clave para comprender «La misma norma, dos obligaciones posibles» y analizar interpretar dos lecturas de una norma.",
         "example": "Aunque «jurisprudencia» parece una decisión individual, conviene considerar «supuesto» y «alcance». Esta frase sitúa «precedente» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -23115,7 +23115,7 @@
     "vocabulary": [
       {
         "word": "alquiler",
-        "translation": "English support: alquiler",
+        "translation": "rent",
         "definition": "Término clave para comprender «Casa y barrio: una situación cotidiana» y analizar buscar una vivienda adecuada.",
         "example": "Aunque «alquiler» parece una decisión individual, conviene considerar «vecindario» y «amueblado». Esta frase sitúa «alquiler» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -23123,7 +23123,7 @@
       },
       {
         "word": "vecindario",
-        "translation": "English support: vecindario",
+        "translation": "neighbourhood",
         "definition": "Término clave para comprender «Casa y barrio: una situación cotidiana» y analizar buscar una vivienda adecuada.",
         "example": "Aunque «alquiler» parece una decisión individual, conviene considerar «vecindario» y «amueblado». Esta frase sitúa «vecindario» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -23131,7 +23131,7 @@
       },
       {
         "word": "amueblado",
-        "translation": "English support: amueblado",
+        "translation": "furnished",
         "definition": "Término clave para comprender «Casa y barrio: una situación cotidiana» y analizar buscar una vivienda adecuada.",
         "example": "Aunque «alquiler» parece una decisión individual, conviene considerar «vecindario» y «amueblado». Esta frase sitúa «amueblado» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -23139,7 +23139,7 @@
       },
       {
         "word": "luminoso",
-        "translation": "English support: luminoso",
+        "translation": "bright",
         "definition": "Término clave para comprender «Casa y barrio: una situación cotidiana» y analizar buscar una vivienda adecuada.",
         "example": "Aunque «alquiler» parece una decisión individual, conviene considerar «vecindario» y «amueblado». Esta frase sitúa «luminoso» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -23147,7 +23147,7 @@
       },
       {
         "word": "ruido",
-        "translation": "English support: ruido",
+        "translation": "noise",
         "definition": "Término clave para comprender «Casa y barrio: una situación cotidiana» y analizar buscar una vivienda adecuada.",
         "example": "Aunque «alquiler» parece una decisión individual, conviene considerar «vecindario» y «amueblado». Esta frase sitúa «ruido» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -23155,7 +23155,7 @@
       },
       {
         "word": "mudanza",
-        "translation": "English support: mudanza",
+        "translation": "move / relocation",
         "definition": "Término clave para comprender «Casa y barrio: una situación cotidiana» y analizar buscar una vivienda adecuada.",
         "example": "Aunque «alquiler» parece una decisión individual, conviene considerar «vecindario» y «amueblado». Esta frase sitúa «mudanza» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -23254,7 +23254,7 @@
     "vocabulary": [
       {
         "word": "duradero",
-        "translation": "English support: duradero",
+        "translation": "durable",
         "definition": "Término clave para comprender «La camiseta barata tiene una historia» y analizar elegir entre varias opciones de compra.",
         "example": "Aunque «duradero» parece una decisión individual, conviene considerar «local» y «etiqueta». Esta frase sitúa «duradero» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -23262,7 +23262,7 @@
       },
       {
         "word": "local",
-        "translation": "English support: local",
+        "translation": "local",
         "definition": "Término clave para comprender «La camiseta barata tiene una historia» y analizar elegir entre varias opciones de compra.",
         "example": "Aunque «duradero» parece una decisión individual, conviene considerar «local» y «etiqueta». Esta frase sitúa «local» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -23270,7 +23270,7 @@
       },
       {
         "word": "etiqueta",
-        "translation": "English support: etiqueta",
+        "translation": "label",
         "definition": "Término clave para comprender «La camiseta barata tiene una historia» y analizar elegir entre varias opciones de compra.",
         "example": "Aunque «duradero» parece una decisión individual, conviene considerar «local» y «etiqueta». Esta frase sitúa «etiqueta» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -23278,7 +23278,7 @@
       },
       {
         "word": "residuo",
-        "translation": "English support: residuo",
+        "translation": "waste",
         "definition": "Término clave para comprender «La camiseta barata tiene una historia» y analizar elegir entre varias opciones de compra.",
         "example": "Aunque «duradero» parece una decisión individual, conviene considerar «local» y «etiqueta». Esta frase sitúa «residuo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -23286,7 +23286,7 @@
       },
       {
         "word": "reutilizar",
-        "translation": "English support: reutilizar",
+        "translation": "to reuse",
         "definition": "Término clave para comprender «La camiseta barata tiene una historia» y analizar elegir entre varias opciones de compra.",
         "example": "Aunque «duradero» parece una decisión individual, conviene considerar «local» y «etiqueta». Esta frase sitúa «reutilizar» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -23294,7 +23294,7 @@
       },
       {
         "word": "consumo",
-        "translation": "English support: consumo",
+        "translation": "consumption",
         "definition": "Término clave para comprender «La camiseta barata tiene una historia» y analizar elegir entre varias opciones de compra.",
         "example": "Aunque «duradero» parece una decisión individual, conviene considerar «local» y «etiqueta». Esta frase sitúa «consumo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -23393,7 +23393,7 @@
     "vocabulary": [
       {
         "word": "alfabetización",
-        "translation": "English support: alfabetización",
+        "translation": "literacy",
         "definition": "Término clave para comprender «Aprender con IA sin entregar el pensamiento» y analizar evaluar una propuesta de aprendizaje híbrido.",
         "example": "Aunque «alfabetización» parece una decisión individual, conviene considerar «plataforma» y «evaluación». Esta frase sitúa «alfabetización» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -23401,7 +23401,7 @@
       },
       {
         "word": "plataforma",
-        "translation": "English support: plataforma",
+        "translation": "platform",
         "definition": "Término clave para comprender «Aprender con IA sin entregar el pensamiento» y analizar evaluar una propuesta de aprendizaje híbrido.",
         "example": "Aunque «alfabetización» parece una decisión individual, conviene considerar «plataforma» y «evaluación». Esta frase sitúa «plataforma» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -23409,7 +23409,7 @@
       },
       {
         "word": "evaluación",
-        "translation": "English support: evaluación",
+        "translation": "assessment",
         "definition": "Término clave para comprender «Aprender con IA sin entregar el pensamiento» y analizar evaluar una propuesta de aprendizaje híbrido.",
         "example": "Aunque «alfabetización» parece una decisión individual, conviene considerar «plataforma» y «evaluación». Esta frase sitúa «evaluación» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -23417,7 +23417,7 @@
       },
       {
         "word": "brecha",
-        "translation": "English support: brecha",
+        "translation": "gap",
         "definition": "Término clave para comprender «Aprender con IA sin entregar el pensamiento» y analizar evaluar una propuesta de aprendizaje híbrido.",
         "example": "Aunque «alfabetización» parece una decisión individual, conviene considerar «plataforma» y «evaluación». Esta frase sitúa «brecha» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -23425,7 +23425,7 @@
       },
       {
         "word": "autonomía",
-        "translation": "English support: autonomía",
+        "translation": "autonomy",
         "definition": "Término clave para comprender «Aprender con IA sin entregar el pensamiento» y analizar evaluar una propuesta de aprendizaje híbrido.",
         "example": "Aunque «alfabetización» parece una decisión individual, conviene considerar «plataforma» y «evaluación». Esta frase sitúa «autonomía» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -23433,7 +23433,7 @@
       },
       {
         "word": "retroalimentación",
-        "translation": "English support: retroalimentación",
+        "translation": "feedback",
         "definition": "Término clave para comprender «Aprender con IA sin entregar el pensamiento» y analizar evaluar una propuesta de aprendizaje híbrido.",
         "example": "Aunque «alfabetización» parece una decisión individual, conviene considerar «plataforma» y «evaluación». Esta frase sitúa «retroalimentación» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -23532,7 +23532,7 @@
     "vocabulary": [
       {
         "word": "narrador",
-        "translation": "English support: narrador",
+        "translation": "narrator",
         "definition": "Término clave para comprender «La narradora que duda de su propio recuerdo» y analizar analizar la voz de un relato contemporáneo.",
         "example": "Aunque «narrador» parece una decisión individual, conviene considerar «ironía» y «ambigüedad». Esta frase sitúa «narrador» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -23540,7 +23540,7 @@
       },
       {
         "word": "ironía",
-        "translation": "English support: ironía",
+        "translation": "irony",
         "definition": "Término clave para comprender «La narradora que duda de su propio recuerdo» y analizar analizar la voz de un relato contemporáneo.",
         "example": "Aunque «narrador» parece una decisión individual, conviene considerar «ironía» y «ambigüedad». Esta frase sitúa «ironía» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -23548,7 +23548,7 @@
       },
       {
         "word": "ambigüedad",
-        "translation": "English support: ambigüedad",
+        "translation": "ambiguity",
         "definition": "Término clave para comprender «La narradora que duda de su propio recuerdo» y analizar analizar la voz de un relato contemporáneo.",
         "example": "Aunque «narrador» parece una decisión individual, conviene considerar «ironía» y «ambigüedad». Esta frase sitúa «ambigüedad» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -23556,7 +23556,7 @@
       },
       {
         "word": "perspectiva",
-        "translation": "English support: perspectiva",
+        "translation": "perspective",
         "definition": "Término clave para comprender «La narradora que duda de su propio recuerdo» y analizar analizar la voz de un relato contemporáneo.",
         "example": "Aunque «narrador» parece una decisión individual, conviene considerar «ironía» y «ambigüedad». Esta frase sitúa «perspectiva» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -23564,7 +23564,7 @@
       },
       {
         "word": "cadencia",
-        "translation": "English support: cadencia",
+        "translation": "cadence",
         "definition": "Término clave para comprender «La narradora que duda de su propio recuerdo» y analizar analizar la voz de un relato contemporáneo.",
         "example": "Aunque «narrador» parece una decisión individual, conviene considerar «ironía» y «ambigüedad». Esta frase sitúa «cadencia» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -23572,7 +23572,7 @@
       },
       {
         "word": "desenlace",
-        "translation": "English support: desenlace",
+        "translation": "ending",
         "definition": "Término clave para comprender «La narradora que duda de su propio recuerdo» y analizar analizar la voz de un relato contemporáneo.",
         "example": "Aunque «narrador» parece una decisión individual, conviene considerar «ironía» y «ambigüedad». Esta frase sitúa «desenlace» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -23671,7 +23671,7 @@
     "vocabulary": [
       {
         "word": "inciso",
-        "translation": "English support: inciso",
+        "translation": "parenthetical phrase",
         "definition": "Término clave para comprender «Corregir sin borrar a quien escribe» y analizar editar un ensayo sin borrar la voz del autor.",
         "example": "Aunque «inciso» parece una decisión individual, conviene considerar «redundancia» y «cadencia». Esta frase sitúa «inciso» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -23679,7 +23679,7 @@
       },
       {
         "word": "redundancia",
-        "translation": "English support: redundancia",
+        "translation": "redundancy",
         "definition": "Término clave para comprender «Corregir sin borrar a quien escribe» y analizar editar un ensayo sin borrar la voz del autor.",
         "example": "Aunque «inciso» parece una decisión individual, conviene considerar «redundancia» y «cadencia». Esta frase sitúa «redundancia» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -23687,7 +23687,7 @@
       },
       {
         "word": "cadencia",
-        "translation": "English support: cadencia",
+        "translation": "cadence",
         "definition": "Término clave para comprender «Corregir sin borrar a quien escribe» y analizar editar un ensayo sin borrar la voz del autor.",
         "example": "Aunque «inciso» parece una decisión individual, conviene considerar «redundancia» y «cadencia». Esta frase sitúa «cadencia» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -23695,7 +23695,7 @@
       },
       {
         "word": "cohesión",
-        "translation": "English support: cohesión",
+        "translation": "cohesión",
         "definition": "Término clave para comprender «Corregir sin borrar a quien escribe» y analizar editar un ensayo sin borrar la voz del autor.",
         "example": "Aunque «inciso» parece una decisión individual, conviene considerar «redundancia» y «cadencia». Esta frase sitúa «cohesión» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -23703,7 +23703,7 @@
       },
       {
         "word": "reescritura",
-        "translation": "English support: reescritura",
+        "translation": "rewriting",
         "definition": "Término clave para comprender «Corregir sin borrar a quien escribe» y analizar editar un ensayo sin borrar la voz del autor.",
         "example": "Aunque «inciso» parece una decisión individual, conviene considerar «redundancia» y «cadencia». Esta frase sitúa «reescritura» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -23711,7 +23711,7 @@
       },
       {
         "word": "voz autoral",
-        "translation": "English support: voz autoral",
+        "translation": "authorial voice",
         "definition": "Término clave para comprender «Corregir sin borrar a quien escribe» y analizar editar un ensayo sin borrar la voz del autor.",
         "example": "Aunque «inciso» parece una decisión individual, conviene considerar «redundancia» y «cadencia». Esta frase sitúa «voz autoral» dentro del tema de la unidad.",
         "partOfSpeech": "locución",
@@ -26999,7 +26999,7 @@
     "vocabulary": [
       {
         "word": "ingrediente",
-        "translation": "English support: ingrediente",
+        "translation": "ingredient",
         "definition": "Término clave para comprender «Comidas y recetas: una situación cotidiana» y analizar preparar una comida para amistades.",
         "example": "En el artículo se analizan «ingrediente» y «mezclar» desde perspectivas distintas. Esta frase sitúa «ingrediente» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -27007,7 +27007,7 @@
       },
       {
         "word": "mezclar",
-        "translation": "English support: mezclar",
+        "translation": "to mix",
         "definition": "Término clave para comprender «Comidas y recetas: una situación cotidiana» y analizar preparar una comida para amistades.",
         "example": "En el artículo se analizan «ingrediente» y «mezclar» desde perspectivas distintas. Esta frase sitúa «mezclar» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -27015,7 +27015,7 @@
       },
       {
         "word": "hervir",
-        "translation": "English support: hervir",
+        "translation": "to boil",
         "definition": "Término clave para comprender «Comidas y recetas: una situación cotidiana» y analizar preparar una comida para amistades.",
         "example": "En el artículo se analizan «ingrediente» y «mezclar» desde perspectivas distintas. Esta frase sitúa «hervir» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -27023,7 +27023,7 @@
       },
       {
         "word": "horno",
-        "translation": "English support: horno",
+        "translation": "oven",
         "definition": "Término clave para comprender «Comidas y recetas: una situación cotidiana» y analizar preparar una comida para amistades.",
         "example": "En el artículo se analizan «ingrediente» y «mezclar» desde perspectivas distintas. Esta frase sitúa «horno» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -27031,7 +27031,7 @@
       },
       {
         "word": "sabor",
-        "translation": "English support: sabor",
+        "translation": "flavour",
         "definition": "Término clave para comprender «Comidas y recetas: una situación cotidiana» y analizar preparar una comida para amistades.",
         "example": "En el artículo se analizan «ingrediente» y «mezclar» desde perspectivas distintas. Esta frase sitúa «sabor» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -27039,7 +27039,7 @@
       },
       {
         "word": "porción",
-        "translation": "English support: porción",
+        "translation": "portion",
         "definition": "Término clave para comprender «Comidas y recetas: una situación cotidiana» y analizar preparar una comida para amistades.",
         "example": "En el artículo se analizan «ingrediente» y «mezclar» desde perspectivas distintas. Esta frase sitúa «porción» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -27138,7 +27138,7 @@
     "vocabulary": [
       {
         "word": "costumbre",
-        "translation": "English support: costumbre",
+        "translation": "custom",
         "definition": "Término clave para comprender «Una tradición que cambia para seguir viva» y analizar explicar una tradición a una visitante.",
         "example": "En el artículo se analizan «costumbre» y «origen» desde perspectivas distintas. Esta frase sitúa «costumbre» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -27146,7 +27146,7 @@
       },
       {
         "word": "origen",
-        "translation": "English support: origen",
+        "translation": "origin",
         "definition": "Término clave para comprender «Una tradición que cambia para seguir viva» y analizar explicar una tradición a una visitante.",
         "example": "En el artículo se analizan «costumbre» y «origen» desde perspectivas distintas. Esta frase sitúa «origen» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -27154,7 +27154,7 @@
       },
       {
         "word": "comunidad",
-        "translation": "English support: comunidad",
+        "translation": "community",
         "definition": "Término clave para comprender «Una tradición que cambia para seguir viva» y analizar explicar una tradición a una visitante.",
         "example": "En el artículo se analizan «costumbre» y «origen» desde perspectivas distintas. Esta frase sitúa «comunidad» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -27162,7 +27162,7 @@
       },
       {
         "word": "transmitir",
-        "translation": "English support: transmitir",
+        "translation": "to pass on",
         "definition": "Término clave para comprender «Una tradición que cambia para seguir viva» y analizar explicar una tradición a una visitante.",
         "example": "En el artículo se analizan «costumbre» y «origen» desde perspectivas distintas. Esta frase sitúa «transmitir» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -27170,7 +27170,7 @@
       },
       {
         "word": "patrimonio",
-        "translation": "English support: patrimonio",
+        "translation": "heritage",
         "definition": "Término clave para comprender «Una tradición que cambia para seguir viva» y analizar explicar una tradición a una visitante.",
         "example": "En el artículo se analizan «costumbre» y «origen» desde perspectivas distintas. Esta frase sitúa «patrimonio» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -27178,7 +27178,7 @@
       },
       {
         "word": "diversidad",
-        "translation": "English support: diversidad",
+        "translation": "diversity",
         "definition": "Término clave para comprender «Una tradición que cambia para seguir viva» y analizar explicar una tradición a una visitante.",
         "example": "En el artículo se analizan «costumbre» y «origen» desde perspectivas distintas. Esta frase sitúa «diversidad» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -27277,7 +27277,7 @@
     "vocabulary": [
       {
         "word": "cadena de suministro",
-        "translation": "English support: cadena de suministro",
+        "translation": "supply chain",
         "definition": "Término clave para comprender «Comer bien no depende solo de elegir bien» y analizar examinar decisiones alimentarias y acceso.",
         "example": "En el artículo se analizan «cadena de suministro» y «etiquetado» desde perspectivas distintas. Esta frase sitúa «cadena de suministro» dentro del tema de la unidad.",
         "partOfSpeech": "locución",
@@ -27285,7 +27285,7 @@
       },
       {
         "word": "etiquetado",
-        "translation": "English support: etiquetado",
+        "translation": "labelling",
         "definition": "Término clave para comprender «Comer bien no depende solo de elegir bien» y analizar examinar decisiones alimentarias y acceso.",
         "example": "En el artículo se analizan «cadena de suministro» y «etiquetado» desde perspectivas distintas. Esta frase sitúa «etiquetado» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -27293,7 +27293,7 @@
       },
       {
         "word": "desperdicio",
-        "translation": "English support: desperdicio",
+        "translation": "waste",
         "definition": "Término clave para comprender «Comer bien no depende solo de elegir bien» y analizar examinar decisiones alimentarias y acceso.",
         "example": "En el artículo se analizan «cadena de suministro» y «etiquetado» desde perspectivas distintas. Esta frase sitúa «desperdicio» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -27301,7 +27301,7 @@
       },
       {
         "word": "acceso",
-        "translation": "English support: acceso",
+        "translation": "access",
         "definition": "Término clave para comprender «Comer bien no depende solo de elegir bien» y analizar examinar decisiones alimentarias y acceso.",
         "example": "En el artículo se analizan «cadena de suministro» y «etiquetado» desde perspectivas distintas. Esta frase sitúa «acceso» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -27309,7 +27309,7 @@
       },
       {
         "word": "nutrición",
-        "translation": "English support: nutrición",
+        "translation": "nutrition",
         "definition": "Término clave para comprender «Comer bien no depende solo de elegir bien» y analizar examinar decisiones alimentarias y acceso.",
         "example": "En el artículo se analizan «cadena de suministro» y «etiquetado» desde perspectivas distintas. Esta frase sitúa «nutrición» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -27317,7 +27317,7 @@
       },
       {
         "word": "producción",
-        "translation": "English support: producción",
+        "translation": "production",
         "definition": "Término clave para comprender «Comer bien no depende solo de elegir bien» y analizar examinar decisiones alimentarias y acceso.",
         "example": "En el artículo se analizan «cadena de suministro» y «etiquetado» desde perspectivas distintas. Esta frase sitúa «producción» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -27416,7 +27416,7 @@
     "vocabulary": [
       {
         "word": "cuidados",
-        "translation": "English support: cuidados",
+        "translation": "care work",
         "definition": "Término clave para comprender «El trabajo que sostiene el día y desaparece de las cuentas» y analizar visibilizar trabajos esenciales poco reconocidos.",
         "example": "Aunque «cuidados» parece una decisión individual, conviene considerar «remuneración» y «carga». Esta frase sitúa «cuidados» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -27424,7 +27424,7 @@
       },
       {
         "word": "remuneración",
-        "translation": "English support: remuneración",
+        "translation": "pay",
         "definition": "Término clave para comprender «El trabajo que sostiene el día y desaparece de las cuentas» y analizar visibilizar trabajos esenciales poco reconocidos.",
         "example": "Aunque «cuidados» parece una decisión individual, conviene considerar «remuneración» y «carga». Esta frase sitúa «remuneración» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -27432,7 +27432,7 @@
       },
       {
         "word": "carga",
-        "translation": "English support: carga",
+        "translation": "burden",
         "definition": "Término clave para comprender «El trabajo que sostiene el día y desaparece de las cuentas» y analizar visibilizar trabajos esenciales poco reconocidos.",
         "example": "Aunque «cuidados» parece una decisión individual, conviene considerar «remuneración» y «carga». Esta frase sitúa «carga» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -27440,7 +27440,7 @@
       },
       {
         "word": "corresponsabilidad",
-        "translation": "English support: corresponsabilidad",
+        "translation": "shared responsibility",
         "definition": "Término clave para comprender «El trabajo que sostiene el día y desaparece de las cuentas» y analizar visibilizar trabajos esenciales poco reconocidos.",
         "example": "Aunque «cuidados» parece una decisión individual, conviene considerar «remuneración» y «carga». Esta frase sitúa «corresponsabilidad» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -27448,7 +27448,7 @@
       },
       {
         "word": "sostener",
-        "translation": "English support: sostener",
+        "translation": "to sustain",
         "definition": "Término clave para comprender «El trabajo que sostiene el día y desaparece de las cuentas» y analizar visibilizar trabajos esenciales poco reconocidos.",
         "example": "Aunque «cuidados» parece una decisión individual, conviene considerar «remuneración» y «carga». Esta frase sitúa «sostener» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -27456,7 +27456,7 @@
       },
       {
         "word": "invisibilizado",
-        "translation": "English support: invisibilizado",
+        "translation": "made invisible",
         "definition": "Término clave para comprender «El trabajo que sostiene el día y desaparece de las cuentas» y analizar visibilizar trabajos esenciales poco reconocidos.",
         "example": "Aunque «cuidados» parece una decisión individual, conviene considerar «remuneración» y «carga». Esta frase sitúa «invisibilizado» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -27555,7 +27555,7 @@
     "vocabulary": [
       {
         "word": "corroborar",
-        "translation": "English support: corroborar",
+        "translation": "to corroborate",
         "definition": "Término clave para comprender «Qué podemos afirmar cuando la evidencia no alcanza» y analizar evaluar qué puede afirmarse a partir de evidencia incompleta.",
         "example": "Aunque «corroborar» parece una decisión individual, conviene considerar «plausible» y «refutar». Esta frase sitúa «corroborar» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -27563,7 +27563,7 @@
       },
       {
         "word": "plausible",
-        "translation": "English support: plausible",
+        "translation": "plausible",
         "definition": "Término clave para comprender «Qué podemos afirmar cuando la evidencia no alcanza» y analizar evaluar qué puede afirmarse a partir de evidencia incompleta.",
         "example": "Aunque «corroborar» parece una decisión individual, conviene considerar «plausible» y «refutar». Esta frase sitúa «plausible» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -27571,7 +27571,7 @@
       },
       {
         "word": "refutar",
-        "translation": "English support: refutar",
+        "translation": "to refute",
         "definition": "Término clave para comprender «Qué podemos afirmar cuando la evidencia no alcanza» y analizar evaluar qué puede afirmarse a partir de evidencia incompleta.",
         "example": "Aunque «corroborar» parece una decisión individual, conviene considerar «plausible» y «refutar». Esta frase sitúa «refutar» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -27579,7 +27579,7 @@
       },
       {
         "word": "provisional",
-        "translation": "English support: provisional",
+        "translation": "provisional",
         "definition": "Término clave para comprender «Qué podemos afirmar cuando la evidencia no alcanza» y analizar evaluar qué puede afirmarse a partir de evidencia incompleta.",
         "example": "Aunque «corroborar» parece una decisión individual, conviene considerar «plausible» y «refutar». Esta frase sitúa «provisional» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -27587,7 +27587,7 @@
       },
       {
         "word": "inferencia",
-        "translation": "English support: inferencia",
+        "translation": "inference",
         "definition": "Término clave para comprender «Qué podemos afirmar cuando la evidencia no alcanza» y analizar evaluar qué puede afirmarse a partir de evidencia incompleta.",
         "example": "Aunque «corroborar» parece una decisión individual, conviene considerar «plausible» y «refutar». Esta frase sitúa «inferencia» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -27595,7 +27595,7 @@
       },
       {
         "word": "certeza",
-        "translation": "English support: certeza",
+        "translation": "certainty",
         "definition": "Término clave para comprender «Qué podemos afirmar cuando la evidencia no alcanza» y analizar evaluar qué puede afirmarse a partir de evidencia incompleta.",
         "example": "Aunque «corroborar» parece una decisión individual, conviene considerar «plausible» y «refutar». Esta frase sitúa «certeza» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -30871,7 +30871,7 @@
     "vocabulary": [
       {
         "word": "recuerdo",
-        "translation": "English support: recuerdo",
+        "translation": "memory",
         "definition": "Término clave para comprender «Recuerdos y experiencias: una situación cotidiana» y analizar contar una experiencia especial.",
         "example": "Cuando surgió «recuerdo», el grupo revisó lo ocurrido y explicó sus decisiones. Esta frase sitúa «recuerdo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -30879,7 +30879,7 @@
       },
       {
         "word": "viaje",
-        "translation": "English support: viaje",
+        "translation": "trip",
         "definition": "Término clave para comprender «Recuerdos y experiencias: una situación cotidiana» y analizar contar una experiencia especial.",
         "example": "Cuando surgió «recuerdo», el grupo revisó lo ocurrido y explicó sus decisiones. Esta frase sitúa «viaje» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -30887,7 +30887,7 @@
       },
       {
         "word": "anécdota",
-        "translation": "English support: anécdota",
+        "translation": "anecdote",
         "definition": "Término clave para comprender «Recuerdos y experiencias: una situación cotidiana» y analizar contar una experiencia especial.",
         "example": "Cuando surgió «recuerdo», el grupo revisó lo ocurrido y explicó sus decisiones. Esta frase sitúa «anécdota» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -30895,7 +30895,7 @@
       },
       {
         "word": "ocurrir",
-        "translation": "English support: ocurrir",
+        "translation": "to happen",
         "definition": "Término clave para comprender «Recuerdos y experiencias: una situación cotidiana» y analizar contar una experiencia especial.",
         "example": "Cuando surgió «recuerdo», el grupo revisó lo ocurrido y explicó sus decisiones. Esta frase sitúa «ocurrir» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -30903,7 +30903,7 @@
       },
       {
         "word": "disfrutar",
-        "translation": "English support: disfrutar",
+        "translation": "to enjoy",
         "definition": "Término clave para comprender «Recuerdos y experiencias: una situación cotidiana» y analizar contar una experiencia especial.",
         "example": "Cuando surgió «recuerdo», el grupo revisó lo ocurrido y explicó sus decisiones. Esta frase sitúa «disfrutar» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -30911,7 +30911,7 @@
       },
       {
         "word": "sorpresa",
-        "translation": "English support: sorpresa",
+        "translation": "surprise",
         "definition": "Término clave para comprender «Recuerdos y experiencias: una situación cotidiana» y analizar contar una experiencia especial.",
         "example": "Cuando surgió «recuerdo», el grupo revisó lo ocurrido y explicó sus decisiones. Esta frase sitúa «sorpresa» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -31010,7 +31010,7 @@
     "vocabulary": [
       {
         "word": "matrícula",
-        "translation": "English support: matrícula",
+        "translation": "enrolment fee",
         "definition": "Término clave para comprender «Elegir una carrera sin tener toda la vida resuelta» y analizar elegir un curso de formación.",
         "example": "Si existieran más apoyos, muchas personas podrían afrontar «matrícula» de otra manera. Esta frase sitúa «matrícula» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -31018,7 +31018,7 @@
       },
       {
         "word": "beca",
-        "translation": "English support: beca",
+        "translation": "scholarship",
         "definition": "Término clave para comprender «Elegir una carrera sin tener toda la vida resuelta» y analizar elegir un curso de formación.",
         "example": "Si existieran más apoyos, muchas personas podrían afrontar «matrícula» de otra manera. Esta frase sitúa «beca» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -31026,7 +31026,7 @@
       },
       {
         "word": "requisito",
-        "translation": "English support: requisito",
+        "translation": "requirement",
         "definition": "Término clave para comprender «Elegir una carrera sin tener toda la vida resuelta» y analizar elegir un curso de formación.",
         "example": "Si existieran más apoyos, muchas personas podrían afrontar «matrícula» de otra manera. Esta frase sitúa «requisito» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -31034,7 +31034,7 @@
       },
       {
         "word": "modalidad",
-        "translation": "English support: modalidad",
+        "translation": "format / mode",
         "definition": "Término clave para comprender «Elegir una carrera sin tener toda la vida resuelta» y analizar elegir un curso de formación.",
         "example": "Si existieran más apoyos, muchas personas podrían afrontar «matrícula» de otra manera. Esta frase sitúa «modalidad» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -31042,7 +31042,7 @@
       },
       {
         "word": "meta",
-        "translation": "English support: meta",
+        "translation": "goal",
         "definition": "Término clave para comprender «Elegir una carrera sin tener toda la vida resuelta» y analizar elegir un curso de formación.",
         "example": "Si existieran más apoyos, muchas personas podrían afrontar «matrícula» de otra manera. Esta frase sitúa «meta» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -31050,7 +31050,7 @@
       },
       {
         "word": "formación",
-        "translation": "English support: formación",
+        "translation": "training",
         "definition": "Término clave para comprender «Elegir una carrera sin tener toda la vida resuelta» y analizar elegir un curso de formación.",
         "example": "Si existieran más apoyos, muchas personas podrían afrontar «matrícula» de otra manera. Esta frase sitúa «formación» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -31149,7 +31149,7 @@
     "vocabulary": [
       {
         "word": "intervención",
-        "translation": "English support: intervención",
+        "translation": "intervention",
         "definition": "Término clave para comprender «¿De quién es la pared?» y analizar decidir el uso cultural de una plaza.",
         "example": "Es importante que la comunidad considere «intervención» antes de decidir el uso cultural de una plaza. Esta frase sitúa «intervención» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -31157,7 +31157,7 @@
       },
       {
         "word": "mural",
-        "translation": "English support: mural",
+        "translation": "mural",
         "definition": "Término clave para comprender «¿De quién es la pared?» y analizar decidir el uso cultural de una plaza.",
         "example": "Es importante que la comunidad considere «intervención» antes de decidir el uso cultural de una plaza. Esta frase sitúa «mural» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -31165,7 +31165,7 @@
       },
       {
         "word": "financiación",
-        "translation": "English support: financiación",
+        "translation": "funding",
         "definition": "Término clave para comprender «¿De quién es la pared?» y analizar decidir el uso cultural de una plaza.",
         "example": "Es importante que la comunidad considere «intervención» antes de decidir el uso cultural de una plaza. Esta frase sitúa «financiación» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -31173,7 +31173,7 @@
       },
       {
         "word": "audiencia",
-        "translation": "English support: audiencia",
+        "translation": "audience",
         "definition": "Término clave para comprender «¿De quién es la pared?» y analizar decidir el uso cultural de una plaza.",
         "example": "Es importante que la comunidad considere «intervención» antes de decidir el uso cultural de una plaza. Esta frase sitúa «audiencia» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -31181,7 +31181,7 @@
       },
       {
         "word": "controversia",
-        "translation": "English support: controversia",
+        "translation": "controversy",
         "definition": "Término clave para comprender «¿De quién es la pared?» y analizar decidir el uso cultural de una plaza.",
         "example": "Es importante que la comunidad considere «intervención» antes de decidir el uso cultural de una plaza. Esta frase sitúa «controversia» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -31189,7 +31189,7 @@
       },
       {
         "word": "expresión",
-        "translation": "English support: expresión",
+        "translation": "expression",
         "definition": "Término clave para comprender «¿De quién es la pared?» y analizar decidir el uso cultural de una plaza.",
         "example": "Es importante que la comunidad considere «intervención» antes de decidir el uso cultural de una plaza. Esta frase sitúa «expresión» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -31288,7 +31288,7 @@
     "vocabulary": [
       {
         "word": "variedad",
-        "translation": "English support: variedad",
+        "translation": "variety",
         "definition": "Término clave para comprender «Hablar distinto no es hablar peor» y analizar comparar usos de distintas comunidades hispanohablantes.",
         "example": "Aunque «variedad» parece una decisión individual, conviene considerar «rasgo» y «hablante». Esta frase sitúa «variedad» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -31296,7 +31296,7 @@
       },
       {
         "word": "rasgo",
-        "translation": "English support: rasgo",
+        "translation": "feature",
         "definition": "Término clave para comprender «Hablar distinto no es hablar peor» y analizar comparar usos de distintas comunidades hispanohablantes.",
         "example": "Aunque «variedad» parece una decisión individual, conviene considerar «rasgo» y «hablante». Esta frase sitúa «rasgo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -31304,7 +31304,7 @@
       },
       {
         "word": "hablante",
-        "translation": "English support: hablante",
+        "translation": "speaker",
         "definition": "Término clave para comprender «Hablar distinto no es hablar peor» y analizar comparar usos de distintas comunidades hispanohablantes.",
         "example": "Aunque «variedad» parece una decisión individual, conviene considerar «rasgo» y «hablante». Esta frase sitúa «hablante» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -31312,7 +31312,7 @@
       },
       {
         "word": "prestigio",
-        "translation": "English support: prestigio",
+        "translation": "prestige",
         "definition": "Término clave para comprender «Hablar distinto no es hablar peor» y analizar comparar usos de distintas comunidades hispanohablantes.",
         "example": "Aunque «variedad» parece una decisión individual, conviene considerar «rasgo» y «hablante». Esta frase sitúa «prestigio» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -31320,7 +31320,7 @@
       },
       {
         "word": "regionalismo",
-        "translation": "English support: regionalismo",
+        "translation": "regionalism",
         "definition": "Término clave para comprender «Hablar distinto no es hablar peor» y analizar comparar usos de distintas comunidades hispanohablantes.",
         "example": "Aunque «variedad» parece una decisión individual, conviene considerar «rasgo» y «hablante». Esta frase sitúa «regionalismo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -31328,7 +31328,7 @@
       },
       {
         "word": "adecuación",
-        "translation": "English support: adecuación",
+        "translation": "appropriateness",
         "definition": "Término clave para comprender «Hablar distinto no es hablar peor» y analizar comparar usos de distintas comunidades hispanohablantes.",
         "example": "Aunque «variedad» parece una decisión individual, conviene considerar «rasgo» y «hablante». Esta frase sitúa «adecuación» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -31427,7 +31427,7 @@
     "vocabulary": [
       {
         "word": "marco crítico",
-        "translation": "English support: marco crítico",
+        "translation": "critical framework",
         "definition": "Término clave para comprender «Una obra, tres marcos críticos» y analizar comparar marcos críticos sobre una obra.",
         "example": "Aunque «marco crítico» parece una decisión individual, conviene considerar «recepción» y «canon». Esta frase sitúa «marco crítico» dentro del tema de la unidad.",
         "partOfSpeech": "locución",
@@ -31435,7 +31435,7 @@
       },
       {
         "word": "recepción",
-        "translation": "English support: recepción",
+        "translation": "reception",
         "definition": "Término clave para comprender «Una obra, tres marcos críticos» y analizar comparar marcos críticos sobre una obra.",
         "example": "Aunque «marco crítico» parece una decisión individual, conviene considerar «recepción» y «canon». Esta frase sitúa «recepción» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -31443,7 +31443,7 @@
       },
       {
         "word": "canon",
-        "translation": "English support: canon",
+        "translation": "canon",
         "definition": "Término clave para comprender «Una obra, tres marcos críticos» y analizar comparar marcos críticos sobre una obra.",
         "example": "Aunque «marco crítico» parece una decisión individual, conviene considerar «recepción» y «canon». Esta frase sitúa «canon» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -31451,7 +31451,7 @@
       },
       {
         "word": "ruptura",
-        "translation": "English support: ruptura",
+        "translation": "break",
         "definition": "Término clave para comprender «Una obra, tres marcos críticos» y analizar comparar marcos críticos sobre una obra.",
         "example": "Aunque «marco crítico» parece una decisión individual, conviene considerar «recepción» y «canon». Esta frase sitúa «ruptura» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -31459,7 +31459,7 @@
       },
       {
         "word": "lectura",
-        "translation": "English support: lectura",
+        "translation": "reading",
         "definition": "Término clave para comprender «Una obra, tres marcos críticos» y analizar comparar marcos críticos sobre una obra.",
         "example": "Aunque «marco crítico» parece una decisión individual, conviene considerar «recepción» y «canon». Esta frase sitúa «lectura» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -31467,7 +31467,7 @@
       },
       {
         "word": "estética",
-        "translation": "English support: estética",
+        "translation": "aesthetics",
         "definition": "Término clave para comprender «Una obra, tres marcos críticos» y analizar comparar marcos críticos sobre una obra.",
         "example": "Aunque «marco crítico» parece una decisión individual, conviene considerar «recepción» y «canon». Esta frase sitúa «estética» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -34752,7 +34752,7 @@
     "vocabulary": [
       {
         "word": "invitación",
-        "translation": "English support: invitación",
+        "translation": "invitation",
         "definition": "Término clave para comprender «Celebraciones: una situación cotidiana» y analizar organizar una celebración familiar.",
         "example": "La propuesta incluye «invitación»; este elemento cambia la decisión final. Esta frase sitúa «invitación» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -34760,7 +34760,7 @@
       },
       {
         "word": "regalo",
-        "translation": "English support: regalo",
+        "translation": "gift",
         "definition": "Término clave para comprender «Celebraciones: una situación cotidiana» y analizar organizar una celebración familiar.",
         "example": "La propuesta incluye «invitación»; este elemento cambia la decisión final. Esta frase sitúa «regalo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -34768,7 +34768,7 @@
       },
       {
         "word": "reunión",
-        "translation": "English support: reunión",
+        "translation": "meeting",
         "definition": "Término clave para comprender «Celebraciones: una situación cotidiana» y analizar organizar una celebración familiar.",
         "example": "La propuesta incluye «invitación»; este elemento cambia la decisión final. Esta frase sitúa «reunión» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -34776,7 +34776,7 @@
       },
       {
         "word": "celebrar",
-        "translation": "English support: celebrar",
+        "translation": "to celebrate",
         "definition": "Término clave para comprender «Celebraciones: una situación cotidiana» y analizar organizar una celebración familiar.",
         "example": "La propuesta incluye «invitación»; este elemento cambia la decisión final. Esta frase sitúa «celebrar» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -34784,7 +34784,7 @@
       },
       {
         "word": "aceptar",
-        "translation": "English support: aceptar",
+        "translation": "to accept",
         "definition": "Término clave para comprender «Celebraciones: una situación cotidiana» y analizar organizar una celebración familiar.",
         "example": "La propuesta incluye «invitación»; este elemento cambia la decisión final. Esta frase sitúa «aceptar» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -34792,7 +34792,7 @@
       },
       {
         "word": "rechazar",
-        "translation": "English support: rechazar",
+        "translation": "to decline",
         "definition": "Término clave para comprender «Celebraciones: una situación cotidiana» y analizar organizar una celebración familiar.",
         "example": "La propuesta incluye «invitación»; este elemento cambia la decisión final. Esta frase sitúa «rechazar» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -34891,7 +34891,7 @@
     "vocabulary": [
       {
         "word": "reciclaje",
-        "translation": "English support: reciclaje",
+        "translation": "recycling",
         "definition": "Término clave para comprender «El patio escolar que dejó de ser una isla de calor» y analizar proponer una mejora para el barrio.",
         "example": "Si existieran más apoyos, muchas personas podrían afrontar «reciclaje» de otra manera. Esta frase sitúa «reciclaje» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -34899,7 +34899,7 @@
       },
       {
         "word": "contaminación",
-        "translation": "English support: contaminación",
+        "translation": "pollution",
         "definition": "Término clave para comprender «El patio escolar que dejó de ser una isla de calor» y analizar proponer una mejora para el barrio.",
         "example": "Si existieran más apoyos, muchas personas podrían afrontar «reciclaje» de otra manera. Esta frase sitúa «contaminación» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -34907,7 +34907,7 @@
       },
       {
         "word": "medida",
-        "translation": "English support: medida",
+        "translation": "measure",
         "definition": "Término clave para comprender «El patio escolar que dejó de ser una isla de calor» y analizar proponer una mejora para el barrio.",
         "example": "Si existieran más apoyos, muchas personas podrían afrontar «reciclaje» de otra manera. Esta frase sitúa «medida» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -34915,7 +34915,7 @@
       },
       {
         "word": "recurso",
-        "translation": "English support: recurso",
+        "translation": "resource",
         "definition": "Término clave para comprender «El patio escolar que dejó de ser una isla de calor» y analizar proponer una mejora para el barrio.",
         "example": "Si existieran más apoyos, muchas personas podrían afrontar «reciclaje» de otra manera. Esta frase sitúa «recurso» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -34923,7 +34923,7 @@
       },
       {
         "word": "reducir",
-        "translation": "English support: reducir",
+        "translation": "to reduce",
         "definition": "Término clave para comprender «El patio escolar que dejó de ser una isla de calor» y analizar proponer una mejora para el barrio.",
         "example": "Si existieran más apoyos, muchas personas podrían afrontar «reciclaje» de otra manera. Esta frase sitúa «reducir» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -34931,7 +34931,7 @@
       },
       {
         "word": "impacto",
-        "translation": "English support: impacto",
+        "translation": "impact",
         "definition": "Término clave para comprender «El patio escolar que dejó de ser una isla de calor» y analizar proponer una mejora para el barrio.",
         "example": "Si existieran más apoyos, muchas personas podrían afrontar «reciclaje» de otra manera. Esta frase sitúa «impacto» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -35030,7 +35030,7 @@
     "vocabulary": [
       {
         "word": "hallazgo",
-        "translation": "English support: hallazgo",
+        "translation": "finding",
         "definition": "Término clave para comprender «Innovar antes de conocer todas las consecuencias» y analizar debatir una innovación con impacto social.",
         "example": "Aunque «hallazgo» parece una decisión individual, conviene considerar «riesgo» y «ensayo». Esta frase sitúa «hallazgo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -35038,7 +35038,7 @@
       },
       {
         "word": "riesgo",
-        "translation": "English support: riesgo",
+        "translation": "risk",
         "definition": "Término clave para comprender «Innovar antes de conocer todas las consecuencias» y analizar debatir una innovación con impacto social.",
         "example": "Aunque «hallazgo» parece una decisión individual, conviene considerar «riesgo» y «ensayo». Esta frase sitúa «riesgo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -35046,7 +35046,7 @@
       },
       {
         "word": "ensayo",
-        "translation": "English support: ensayo",
+        "translation": "trial",
         "definition": "Término clave para comprender «Innovar antes de conocer todas las consecuencias» y analizar debatir una innovación con impacto social.",
         "example": "Aunque «hallazgo» parece una decisión individual, conviene considerar «riesgo» y «ensayo». Esta frase sitúa «ensayo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -35054,7 +35054,7 @@
       },
       {
         "word": "regulación",
-        "translation": "English support: regulación",
+        "translation": "regulation",
         "definition": "Término clave para comprender «Innovar antes de conocer todas las consecuencias» y analizar debatir una innovación con impacto social.",
         "example": "Aunque «hallazgo» parece una decisión individual, conviene considerar «riesgo» y «ensayo». Esta frase sitúa «regulación» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -35062,7 +35062,7 @@
       },
       {
         "word": "principio",
-        "translation": "English support: principio",
+        "translation": "principle",
         "definition": "Término clave para comprender «Innovar antes de conocer todas las consecuencias» y analizar debatir una innovación con impacto social.",
         "example": "Aunque «hallazgo» parece una decisión individual, conviene considerar «riesgo» y «ensayo». Esta frase sitúa «principio» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -35070,7 +35070,7 @@
       },
       {
         "word": "incertidumbre",
-        "translation": "English support: incertidumbre",
+        "translation": "uncertainty",
         "definition": "Término clave para comprender «Innovar antes de conocer todas las consecuencias» y analizar debatir una innovación con impacto social.",
         "example": "Aunque «hallazgo» parece una decisión individual, conviene considerar «riesgo» y «ensayo». Esta frase sitúa «incertidumbre» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -35169,7 +35169,7 @@
     "vocabulary": [
       {
         "word": "concesión",
-        "translation": "English support: concesión",
+        "translation": "concession",
         "definition": "Término clave para comprender «Ceder sin renunciar al problema» y analizar mediar entre posiciones incompatibles.",
         "example": "Aunque «concesión» parece una decisión individual, conviene considerar «mediación» y «desacuerdo». Esta frase sitúa «concesión» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -35177,7 +35177,7 @@
       },
       {
         "word": "mediación",
-        "translation": "English support: mediación",
+        "translation": "mediation",
         "definition": "Término clave para comprender «Ceder sin renunciar al problema» y analizar mediar entre posiciones incompatibles.",
         "example": "Aunque «concesión» parece una decisión individual, conviene considerar «mediación» y «desacuerdo». Esta frase sitúa «mediación» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -35185,7 +35185,7 @@
       },
       {
         "word": "desacuerdo",
-        "translation": "English support: desacuerdo",
+        "translation": "disagreement",
         "definition": "Término clave para comprender «Ceder sin renunciar al problema» y analizar mediar entre posiciones incompatibles.",
         "example": "Aunque «concesión» parece una decisión individual, conviene considerar «mediación» y «desacuerdo». Esta frase sitúa «desacuerdo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -35193,7 +35193,7 @@
       },
       {
         "word": "margen",
-        "translation": "English support: margen",
+        "translation": "room for manoeuvre",
         "definition": "Término clave para comprender «Ceder sin renunciar al problema» y analizar mediar entre posiciones incompatibles.",
         "example": "Aunque «concesión» parece una decisión individual, conviene considerar «mediación» y «desacuerdo». Esta frase sitúa «margen» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -35201,7 +35201,7 @@
       },
       {
         "word": "compromiso",
-        "translation": "English support: compromiso",
+        "translation": "commitment",
         "definition": "Término clave para comprender «Ceder sin renunciar al problema» y analizar mediar entre posiciones incompatibles.",
         "example": "Aunque «concesión» parece una decisión individual, conviene considerar «mediación» y «desacuerdo». Esta frase sitúa «compromiso» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -35209,7 +35209,7 @@
       },
       {
         "word": "postura",
-        "translation": "English support: postura",
+        "translation": "position",
         "definition": "Término clave para comprender «Ceder sin renunciar al problema» y analizar mediar entre posiciones incompatibles.",
         "example": "Aunque «concesión» parece una decisión individual, conviene considerar «mediación» y «desacuerdo». Esta frase sitúa «postura» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -35308,7 +35308,7 @@
     "vocabulary": [
       {
         "word": "divulgación",
-        "translation": "English support: divulgación",
+        "translation": "public communication",
         "definition": "Término clave para comprender «Traducir un hallazgo sin fabricar certeza» y analizar convertir resultados especializados para públicos distintos.",
         "example": "Aunque «divulgación» parece una decisión individual, conviene considerar «muestra» y «limitación». Esta frase sitúa «divulgación» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -35316,7 +35316,7 @@
       },
       {
         "word": "muestra",
-        "translation": "English support: muestra",
+        "translation": "sample",
         "definition": "Término clave para comprender «Traducir un hallazgo sin fabricar certeza» y analizar convertir resultados especializados para públicos distintos.",
         "example": "Aunque «divulgación» parece una decisión individual, conviene considerar «muestra» y «limitación». Esta frase sitúa «muestra» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -35324,7 +35324,7 @@
       },
       {
         "word": "limitación",
-        "translation": "English support: limitación",
+        "translation": "limitation",
         "definition": "Término clave para comprender «Traducir un hallazgo sin fabricar certeza» y analizar convertir resultados especializados para públicos distintos.",
         "example": "Aunque «divulgación» parece una decisión individual, conviene considerar «muestra» y «limitación». Esta frase sitúa «limitación» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -35332,7 +35332,7 @@
       },
       {
         "word": "hallazgo",
-        "translation": "English support: hallazgo",
+        "translation": "finding",
         "definition": "Término clave para comprender «Traducir un hallazgo sin fabricar certeza» y analizar convertir resultados especializados para públicos distintos.",
         "example": "Aunque «divulgación» parece una decisión individual, conviene considerar «muestra» y «limitación». Esta frase sitúa «hallazgo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -35340,7 +35340,7 @@
       },
       {
         "word": "replicabilidad",
-        "translation": "English support: replicabilidad",
+        "translation": "replicability",
         "definition": "Término clave para comprender «Traducir un hallazgo sin fabricar certeza» y analizar convertir resultados especializados para públicos distintos.",
         "example": "Aunque «divulgación» parece una decisión individual, conviene considerar «muestra» y «limitación». Esta frase sitúa «replicabilidad» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -35348,7 +35348,7 @@
       },
       {
         "word": "consenso",
-        "translation": "English support: consenso",
+        "translation": "consensus",
         "definition": "Término clave para comprender «Traducir un hallazgo sin fabricar certeza» y analizar convertir resultados especializados para públicos distintos.",
         "example": "Aunque «divulgación» parece una decisión individual, conviene considerar «muestra» y «limitación». Esta frase sitúa «consenso» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -38644,7 +38644,7 @@
     "vocabulary": [
       {
         "word": "apunte",
-        "translation": "English support: apunte",
+        "translation": "notes",
         "definition": "Término clave para comprender «Estudio y aprendizaje: una situación cotidiana» y analizar preparar un plan de estudio.",
         "example": "Aunque «apunte» parece una decisión individual, conviene considerar «repasar» y «tarea». Esta frase sitúa «apunte» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -38652,7 +38652,7 @@
       },
       {
         "word": "repasar",
-        "translation": "English support: repasar",
+        "translation": "to review",
         "definition": "Término clave para comprender «Estudio y aprendizaje: una situación cotidiana» y analizar preparar un plan de estudio.",
         "example": "Aunque «apunte» parece una decisión individual, conviene considerar «repasar» y «tarea». Esta frase sitúa «repasar» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -38660,7 +38660,7 @@
       },
       {
         "word": "tarea",
-        "translation": "English support: tarea",
+        "translation": "assignment",
         "definition": "Término clave para comprender «Estudio y aprendizaje: una situación cotidiana» y analizar preparar un plan de estudio.",
         "example": "Aunque «apunte» parece una decisión individual, conviene considerar «repasar» y «tarea». Esta frase sitúa «tarea» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -38668,7 +38668,7 @@
       },
       {
         "word": "plazo",
-        "translation": "English support: plazo",
+        "translation": "deadline",
         "definition": "Término clave para comprender «Estudio y aprendizaje: una situación cotidiana» y analizar preparar un plan de estudio.",
         "example": "Aunque «apunte» parece una decisión individual, conviene considerar «repasar» y «tarea». Esta frase sitúa «plazo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -38676,7 +38676,7 @@
       },
       {
         "word": "practicar",
-        "translation": "English support: practicar",
+        "translation": "to practise",
         "definition": "Término clave para comprender «Estudio y aprendizaje: una situación cotidiana» y analizar preparar un plan de estudio.",
         "example": "Aunque «apunte» parece una decisión individual, conviene considerar «repasar» y «tarea». Esta frase sitúa «practicar» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -38684,7 +38684,7 @@
       },
       {
         "word": "progreso",
-        "translation": "English support: progreso",
+        "translation": "progress",
         "definition": "Término clave para comprender «Estudio y aprendizaje: una situación cotidiana» y analizar preparar un plan de estudio.",
         "example": "Aunque «apunte» parece una decisión individual, conviene considerar «repasar» y «tarea». Esta frase sitúa «progreso» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -38783,7 +38783,7 @@
     "vocabulary": [
       {
         "word": "bienestar",
-        "translation": "English support: bienestar",
+        "translation": "well-being",
         "definition": "Término clave para comprender «Dormir no es perder el tiempo» y analizar diseñar una rutina sostenible.",
         "example": "Es importante que la comunidad considere «bienestar» antes de diseñar una rutina sostenible. Esta frase sitúa «bienestar» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -38791,7 +38791,7 @@
       },
       {
         "word": "descanso",
-        "translation": "English support: descanso",
+        "translation": "break / rest",
         "definition": "Término clave para comprender «Dormir no es perder el tiempo» y analizar diseñar una rutina sostenible.",
         "example": "Es importante que la comunidad considere «bienestar» antes de diseñar una rutina sostenible. Esta frase sitúa «descanso» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -38799,7 +38799,7 @@
       },
       {
         "word": "equilibrio",
-        "translation": "English support: equilibrio",
+        "translation": "balance",
         "definition": "Término clave para comprender «Dormir no es perder el tiempo» y analizar diseñar una rutina sostenible.",
         "example": "Es importante que la comunidad considere «bienestar» antes de diseñar una rutina sostenible. Esta frase sitúa «equilibrio» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -38807,7 +38807,7 @@
       },
       {
         "word": "hábito",
-        "translation": "English support: hábito",
+        "translation": "habit",
         "definition": "Término clave para comprender «Dormir no es perder el tiempo» y analizar diseñar una rutina sostenible.",
         "example": "Es importante que la comunidad considere «bienestar» antes de diseñar una rutina sostenible. Esta frase sitúa «hábito» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -38815,7 +38815,7 @@
       },
       {
         "word": "estrés",
-        "translation": "English support: estrés",
+        "translation": "stress",
         "definition": "Término clave para comprender «Dormir no es perder el tiempo» y analizar diseñar una rutina sostenible.",
         "example": "Es importante que la comunidad considere «bienestar» antes de diseñar una rutina sostenible. Esta frase sitúa «estrés» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -38823,7 +38823,7 @@
       },
       {
         "word": "constancia",
-        "translation": "English support: constancia",
+        "translation": "consistency",
         "definition": "Término clave para comprender «Dormir no es perder el tiempo» y analizar diseñar una rutina sostenible.",
         "example": "Es importante que la comunidad considere «bienestar» antes de diseñar una rutina sostenible. Esta frase sitúa «constancia» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -38922,7 +38922,7 @@
     "vocabulary": [
       {
         "word": "alquiler",
-        "translation": "English support: alquiler",
+        "translation": "rent",
         "definition": "Término clave para comprender «Empezar la vida adulta sin poder salir de casa» y analizar analizar el aumento del alquiler.",
         "example": "Aunque «alquiler» parece una decisión individual, conviene considerar «desplazamiento» y «oferta». Esta frase sitúa «alquiler» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -38930,7 +38930,7 @@
       },
       {
         "word": "desplazamiento",
-        "translation": "English support: desplazamiento",
+        "translation": "displacement",
         "definition": "Término clave para comprender «Empezar la vida adulta sin poder salir de casa» y analizar analizar el aumento del alquiler.",
         "example": "Aunque «alquiler» parece una decisión individual, conviene considerar «desplazamiento» y «oferta». Esta frase sitúa «desplazamiento» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -38938,7 +38938,7 @@
       },
       {
         "word": "oferta",
-        "translation": "English support: oferta",
+        "translation": "supply / offer",
         "definition": "Término clave para comprender «Empezar la vida adulta sin poder salir de casa» y analizar analizar el aumento del alquiler.",
         "example": "Aunque «alquiler» parece una decisión individual, conviene considerar «desplazamiento» y «oferta». Esta frase sitúa «oferta» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -38946,7 +38946,7 @@
       },
       {
         "word": "inquilino",
-        "translation": "English support: inquilino",
+        "translation": "tenant",
         "definition": "Término clave para comprender «Empezar la vida adulta sin poder salir de casa» y analizar analizar el aumento del alquiler.",
         "example": "Aunque «alquiler» parece una decisión individual, conviene considerar «desplazamiento» y «oferta». Esta frase sitúa «inquilino» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -38954,7 +38954,7 @@
       },
       {
         "word": "asequible",
-        "translation": "English support: asequible",
+        "translation": "affordable",
         "definition": "Término clave para comprender «Empezar la vida adulta sin poder salir de casa» y analizar analizar el aumento del alquiler.",
         "example": "Aunque «alquiler» parece una decisión individual, conviene considerar «desplazamiento» y «oferta». Esta frase sitúa «asequible» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -38962,7 +38962,7 @@
       },
       {
         "word": "desigualdad",
-        "translation": "English support: desigualdad",
+        "translation": "inequality",
         "definition": "Término clave para comprender «Empezar la vida adulta sin poder salir de casa» y analizar analizar el aumento del alquiler.",
         "example": "Aunque «alquiler» parece una decisión individual, conviene considerar «desplazamiento» y «oferta». Esta frase sitúa «desigualdad» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -39061,7 +39061,7 @@
     "vocabulary": [
       {
         "word": "puesta en escena",
-        "translation": "English support: puesta en escena",
+        "translation": "staging",
         "definition": "Término clave para comprender «Una serie juvenil que convierte la ansiedad en espectáculo» y analizar reseñar una obra para una revista.",
         "example": "Aunque «puesta en escena» parece una decisión individual, conviene considerar «hallazgo» y «coherencia». Esta frase sitúa «puesta en escena» dentro del tema de la unidad.",
         "partOfSpeech": "locución",
@@ -39069,7 +39069,7 @@
       },
       {
         "word": "hallazgo",
-        "translation": "English support: hallazgo",
+        "translation": "finding",
         "definition": "Término clave para comprender «Una serie juvenil que convierte la ansiedad en espectáculo» y analizar reseñar una obra para una revista.",
         "example": "Aunque «puesta en escena» parece una decisión individual, conviene considerar «hallazgo» y «coherencia». Esta frase sitúa «hallazgo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -39077,7 +39077,7 @@
       },
       {
         "word": "coherencia",
-        "translation": "English support: coherencia",
+        "translation": "coherence",
         "definition": "Término clave para comprender «Una serie juvenil que convierte la ansiedad en espectáculo» y analizar reseñar una obra para una revista.",
         "example": "Aunque «puesta en escena» parece una decisión individual, conviene considerar «hallazgo» y «coherencia». Esta frase sitúa «coherencia» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -39085,7 +39085,7 @@
       },
       {
         "word": "sugerente",
-        "translation": "English support: sugerente",
+        "translation": "thought-provoking",
         "definition": "Término clave para comprender «Una serie juvenil que convierte la ansiedad en espectáculo» y analizar reseñar una obra para una revista.",
         "example": "Aunque «puesta en escena» parece una decisión individual, conviene considerar «hallazgo» y «coherencia». Esta frase sitúa «sugerente» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -39093,7 +39093,7 @@
       },
       {
         "word": "convencional",
-        "translation": "English support: convencional",
+        "translation": "conventional",
         "definition": "Término clave para comprender «Una serie juvenil que convierte la ansiedad en espectáculo» y analizar reseñar una obra para una revista.",
         "example": "Aunque «puesta en escena» parece una decisión individual, conviene considerar «hallazgo» y «coherencia». Esta frase sitúa «convencional» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -39101,7 +39101,7 @@
       },
       {
         "word": "recepción",
-        "translation": "English support: recepción",
+        "translation": "reception",
         "definition": "Término clave para comprender «Una serie juvenil que convierte la ansiedad en espectáculo» y analizar reseñar una obra para una revista.",
         "example": "Aunque «puesta en escena» parece una decisión individual, conviene considerar «hallazgo» y «coherencia». Esta frase sitúa «recepción» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -39200,7 +39200,7 @@
     "vocabulary": [
       {
         "word": "agravio",
-        "translation": "English support: agravio",
+        "translation": "harm / grievance",
         "definition": "Término clave para comprender «Cambiar el marco antes de buscar el acuerdo» y analizar reformular posiciones en una negociación sensible.",
         "example": "Aunque «agravio» parece una decisión individual, conviene considerar «reconocimiento» y «interés». Esta frase sitúa «agravio» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -39208,7 +39208,7 @@
       },
       {
         "word": "reconocimiento",
-        "translation": "English support: reconocimiento",
+        "translation": "recognition",
         "definition": "Término clave para comprender «Cambiar el marco antes de buscar el acuerdo» y analizar reformular posiciones en una negociación sensible.",
         "example": "Aunque «agravio» parece una decisión individual, conviene considerar «reconocimiento» y «interés». Esta frase sitúa «reconocimiento» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -39216,7 +39216,7 @@
       },
       {
         "word": "interés",
-        "translation": "English support: interés",
+        "translation": "interest",
         "definition": "Término clave para comprender «Cambiar el marco antes de buscar el acuerdo» y analizar reformular posiciones en una negociación sensible.",
         "example": "Aunque «agravio» parece una decisión individual, conviene considerar «reconocimiento» y «interés». Esta frase sitúa «interés» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -39224,7 +39224,7 @@
       },
       {
         "word": "escalada",
-        "translation": "English support: escalada",
+        "translation": "escalation",
         "definition": "Término clave para comprender «Cambiar el marco antes de buscar el acuerdo» y analizar reformular posiciones en una negociación sensible.",
         "example": "Aunque «agravio» parece una decisión individual, conviene considerar «reconocimiento» y «interés». Esta frase sitúa «escalada» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -39232,7 +39232,7 @@
       },
       {
         "word": "reencuadre",
-        "translation": "English support: reencuadre",
+        "translation": "reframing",
         "definition": "Término clave para comprender «Cambiar el marco antes de buscar el acuerdo» y analizar reformular posiciones en una negociación sensible.",
         "example": "Aunque «agravio» parece una decisión individual, conviene considerar «reconocimiento» y «interés». Esta frase sitúa «reencuadre» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -39240,7 +39240,7 @@
       },
       {
         "word": "acuerdo",
-        "translation": "English support: acuerdo",
+        "translation": "agreement",
         "definition": "Término clave para comprender «Cambiar el marco antes de buscar el acuerdo» y analizar reformular posiciones en una negociación sensible.",
         "example": "Aunque «agravio» parece una decisión individual, conviene considerar «reconocimiento» y «interés». Esta frase sitúa «acuerdo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -42536,7 +42536,7 @@
     "vocabulary": [
       {
         "word": "pantalla",
-        "translation": "English support: pantalla",
+        "translation": "screen",
         "definition": "Término clave para comprender «Tecnología cotidiana: una situación cotidiana» y analizar resolver un problema con una aplicación.",
         "example": "La propuesta incluye «pantalla»; este elemento cambia la decisión final. Esta frase sitúa «pantalla» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -42544,7 +42544,7 @@
       },
       {
         "word": "contraseña",
-        "translation": "English support: contraseña",
+        "translation": "password",
         "definition": "Término clave para comprender «Tecnología cotidiana: una situación cotidiana» y analizar resolver un problema con una aplicación.",
         "example": "La propuesta incluye «pantalla»; este elemento cambia la decisión final. Esta frase sitúa «contraseña» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -42552,7 +42552,7 @@
       },
       {
         "word": "archivo",
-        "translation": "English support: archivo",
+        "translation": "file",
         "definition": "Término clave para comprender «Tecnología cotidiana: una situación cotidiana» y analizar resolver un problema con una aplicación.",
         "example": "La propuesta incluye «pantalla»; este elemento cambia la decisión final. Esta frase sitúa «archivo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -42560,7 +42560,7 @@
       },
       {
         "word": "descargar",
-        "translation": "English support: descargar",
+        "translation": "to download",
         "definition": "Término clave para comprender «Tecnología cotidiana: una situación cotidiana» y analizar resolver un problema con una aplicación.",
         "example": "La propuesta incluye «pantalla»; este elemento cambia la decisión final. Esta frase sitúa «descargar» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -42568,7 +42568,7 @@
       },
       {
         "word": "conectar",
-        "translation": "English support: conectar",
+        "translation": "to connect",
         "definition": "Término clave para comprender «Tecnología cotidiana: una situación cotidiana» y analizar resolver un problema con una aplicación.",
         "example": "La propuesta incluye «pantalla»; este elemento cambia la decisión final. Esta frase sitúa «conectar» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -42576,7 +42576,7 @@
       },
       {
         "word": "cuenta",
-        "translation": "English support: cuenta",
+        "translation": "account",
         "definition": "Término clave para comprender «Tecnología cotidiana: una situación cotidiana» y analizar resolver un problema con una aplicación.",
         "example": "La propuesta incluye «pantalla»; este elemento cambia la decisión final. Esta frase sitúa «cuenta» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -42675,7 +42675,7 @@
     "vocabulary": [
       {
         "word": "avería",
-        "translation": "English support: avería",
+        "translation": "breakdown / fault",
         "definition": "Término clave para comprender «La suscripción que era fácil activar y difícil cancelar» y analizar presentar una reclamación respetuosa.",
         "example": "La propuesta incluye «avería»; este elemento cambia la decisión final. Esta frase sitúa «avería» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -42683,7 +42683,7 @@
       },
       {
         "word": "factura",
-        "translation": "English support: factura",
+        "translation": "bill / invoice",
         "definition": "Término clave para comprender «La suscripción que era fácil activar y difícil cancelar» y analizar presentar una reclamación respetuosa.",
         "example": "La propuesta incluye «avería»; este elemento cambia la decisión final. Esta frase sitúa «factura» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -42691,7 +42691,7 @@
       },
       {
         "word": "garantía",
-        "translation": "English support: garantía",
+        "translation": "guarantee",
         "definition": "Término clave para comprender «La suscripción que era fácil activar y difícil cancelar» y analizar presentar una reclamación respetuosa.",
         "example": "La propuesta incluye «avería»; este elemento cambia la decisión final. Esta frase sitúa «garantía» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -42699,7 +42699,7 @@
       },
       {
         "word": "solicitud",
-        "translation": "English support: solicitud",
+        "translation": "request",
         "definition": "Término clave para comprender «La suscripción que era fácil activar y difícil cancelar» y analizar presentar una reclamación respetuosa.",
         "example": "La propuesta incluye «avería»; este elemento cambia la decisión final. Esta frase sitúa «solicitud» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -42707,7 +42707,7 @@
       },
       {
         "word": "incidencia",
-        "translation": "English support: incidencia",
+        "translation": "issue",
         "definition": "Término clave para comprender «La suscripción que era fácil activar y difícil cancelar» y analizar presentar una reclamación respetuosa.",
         "example": "La propuesta incluye «avería»; este elemento cambia la decisión final. Esta frase sitúa «incidencia» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -42715,7 +42715,7 @@
       },
       {
         "word": "solución",
-        "translation": "English support: solución",
+        "translation": "solution",
         "definition": "Término clave para comprender «La suscripción que era fácil activar y difícil cancelar» y analizar presentar una reclamación respetuosa.",
         "example": "La propuesta incluye «avería»; este elemento cambia la decisión final. Esta frase sitúa «solución» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -42814,7 +42814,7 @@
     "vocabulary": [
       {
         "word": "registro",
-        "translation": "English support: registro",
+        "translation": "register",
         "definition": "Término clave para comprender «Las palabras también negocian pertenencia» y analizar explorar cómo cambia el uso lingüístico.",
         "example": "Es importante que la comunidad considere «registro» antes de explorar cómo cambia el uso lingüístico. Esta frase sitúa «registro» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -42822,7 +42822,7 @@
       },
       {
         "word": "inclusión",
-        "translation": "English support: inclusión",
+        "translation": "inclusion",
         "definition": "Término clave para comprender «Las palabras también negocian pertenencia» y analizar explorar cómo cambia el uso lingüístico.",
         "example": "Es importante que la comunidad considere «registro» antes de explorar cómo cambia el uso lingüístico. Esta frase sitúa «inclusión» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -42830,7 +42830,7 @@
       },
       {
         "word": "convención",
-        "translation": "English support: convención",
+        "translation": "convention",
         "definition": "Término clave para comprender «Las palabras también negocian pertenencia» y analizar explorar cómo cambia el uso lingüístico.",
         "example": "Es importante que la comunidad considere «registro» antes de explorar cómo cambia el uso lingüístico. Esta frase sitúa «convención» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -42838,7 +42838,7 @@
       },
       {
         "word": "identidad",
-        "translation": "English support: identidad",
+        "translation": "identity",
         "definition": "Término clave para comprender «Las palabras también negocian pertenencia» y analizar explorar cómo cambia el uso lingüístico.",
         "example": "Es importante que la comunidad considere «registro» antes de explorar cómo cambia el uso lingüístico. Esta frase sitúa «identidad» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -42846,7 +42846,7 @@
       },
       {
         "word": "uso",
-        "translation": "English support: uso",
+        "translation": "use",
         "definition": "Término clave para comprender «Las palabras también negocian pertenencia» y analizar explorar cómo cambia el uso lingüístico.",
         "example": "Es importante que la comunidad considere «registro» antes de explorar cómo cambia el uso lingüístico. Esta frase sitúa «uso» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -42854,7 +42854,7 @@
       },
       {
         "word": "comunidad",
-        "translation": "English support: comunidad",
+        "translation": "community",
         "definition": "Término clave para comprender «Las palabras también negocian pertenencia» y analizar explorar cómo cambia el uso lingüístico.",
         "example": "Es importante que la comunidad considere «registro» antes de explorar cómo cambia el uso lingüístico. Esta frase sitúa «comunidad» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -42953,7 +42953,7 @@
     "vocabulary": [
       {
         "word": "indicador",
-        "translation": "English support: indicador",
+        "translation": "indicator",
         "definition": "Término clave para comprender «Medir una política sin confundir actividad con resultado» y analizar evaluar el resultado de una intervención.",
         "example": "En el artículo se analizan «indicador» y «cobertura» desde perspectivas distintas. Esta frase sitúa «indicador» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -42961,7 +42961,7 @@
       },
       {
         "word": "cobertura",
-        "translation": "English support: cobertura",
+        "translation": "coverage",
         "definition": "Término clave para comprender «Medir una política sin confundir actividad con resultado» y analizar evaluar el resultado de una intervención.",
         "example": "En el artículo se analizan «indicador» y «cobertura» desde perspectivas distintas. Esta frase sitúa «cobertura» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -42969,7 +42969,7 @@
       },
       {
         "word": "implementación",
-        "translation": "English support: implementación",
+        "translation": "implementation",
         "definition": "Término clave para comprender «Medir una política sin confundir actividad con resultado» y analizar evaluar el resultado de una intervención.",
         "example": "En el artículo se analizan «indicador» y «cobertura» desde perspectivas distintas. Esta frase sitúa «implementación» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -42977,7 +42977,7 @@
       },
       {
         "word": "sesgo de selección",
-        "translation": "English support: sesgo de selección",
+        "translation": "selection bias",
         "definition": "Término clave para comprender «Medir una política sin confundir actividad con resultado» y analizar evaluar el resultado de una intervención.",
         "example": "En el artículo se analizan «indicador» y «cobertura» desde perspectivas distintas. Esta frase sitúa «sesgo de selección» dentro del tema de la unidad.",
         "partOfSpeech": "locución",
@@ -42985,7 +42985,7 @@
       },
       {
         "word": "resultado",
-        "translation": "English support: resultado",
+        "translation": "result",
         "definition": "Término clave para comprender «Medir una política sin confundir actividad con resultado» y analizar evaluar el resultado de una intervención.",
         "example": "En el artículo se analizan «indicador» y «cobertura» desde perspectivas distintas. Esta frase sitúa «resultado» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -42993,7 +42993,7 @@
       },
       {
         "word": "evaluación",
-        "translation": "English support: evaluación",
+        "translation": "assessment",
         "definition": "Término clave para comprender «Medir una política sin confundir actividad con resultado» y analizar evaluar el resultado de una intervención.",
         "example": "En el artículo se analizan «indicador» y «cobertura» desde perspectivas distintas. Esta frase sitúa «evaluación» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -43092,7 +43092,7 @@
     "vocabulary": [
       {
         "word": "hipótesis",
-        "translation": "English support: hipótesis",
+        "translation": "hypothesis",
         "definition": "Término clave para comprender «La atención como recurso político y económico» y analizar construir una tesis compleja con fuentes divergentes.",
         "example": "Aunque «hipótesis» parece una decisión individual, conviene considerar «salvedad» y «contraargumento». Esta frase sitúa «hipótesis» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -43100,7 +43100,7 @@
       },
       {
         "word": "salvedad",
-        "translation": "English support: salvedad",
+        "translation": "qualification",
         "definition": "Término clave para comprender «La atención como recurso político y económico» y analizar construir una tesis compleja con fuentes divergentes.",
         "example": "Aunque «hipótesis» parece una decisión individual, conviene considerar «salvedad» y «contraargumento». Esta frase sitúa «salvedad» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -43108,7 +43108,7 @@
       },
       {
         "word": "contraargumento",
-        "translation": "English support: contraargumento",
+        "translation": "counterargument",
         "definition": "Término clave para comprender «La atención como recurso político y económico» y analizar construir una tesis compleja con fuentes divergentes.",
         "example": "Aunque «hipótesis» parece una decisión individual, conviene considerar «salvedad» y «contraargumento». Esta frase sitúa «contraargumento» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -43116,7 +43116,7 @@
       },
       {
         "word": "síntesis",
-        "translation": "English support: síntesis",
+        "translation": "synthesis",
         "definition": "Término clave para comprender «La atención como recurso político y económico» y analizar construir una tesis compleja con fuentes divergentes.",
         "example": "Aunque «hipótesis» parece una decisión individual, conviene considerar «salvedad» y «contraargumento». Esta frase sitúa «síntesis» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -43124,7 +43124,7 @@
       },
       {
         "word": "premisa",
-        "translation": "English support: premisa",
+        "translation": "premise",
         "definition": "Término clave para comprender «La atención como recurso político y económico» y analizar construir una tesis compleja con fuentes divergentes.",
         "example": "Aunque «hipótesis» parece una decisión individual, conviene considerar «salvedad» y «contraargumento». Esta frase sitúa «premisa» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -43132,7 +43132,7 @@
       },
       {
         "word": "conclusión",
-        "translation": "English support: conclusión",
+        "translation": "conclusion",
         "definition": "Término clave para comprender «La atención como recurso político y económico» y analizar construir una tesis compleja con fuentes divergentes.",
         "example": "Aunque «hipótesis» parece una decisión individual, conviene considerar «salvedad» y «contraargumento». Esta frase sitúa «conclusión» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -46428,7 +46428,7 @@
     "vocabulary": [
       {
         "word": "propuesta",
-        "translation": "English support: propuesta",
+        "translation": "proposal",
         "definition": "Término clave para comprender «Planes y proyectos: una situación cotidiana» y analizar coordinar un proyecto de grupo.",
         "example": "La propuesta permitirá revisar «propuesta» y anticipar sus consecuencias. Esta frase sitúa «propuesta» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -46436,7 +46436,7 @@
       },
       {
         "word": "tarea",
-        "translation": "English support: tarea",
+        "translation": "assignment",
         "definition": "Término clave para comprender «Planes y proyectos: una situación cotidiana» y analizar coordinar un proyecto de grupo.",
         "example": "La propuesta permitirá revisar «propuesta» y anticipar sus consecuencias. Esta frase sitúa «tarea» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -46444,7 +46444,7 @@
       },
       {
         "word": "equipo",
-        "translation": "English support: equipo",
+        "translation": "team",
         "definition": "Término clave para comprender «Planes y proyectos: una situación cotidiana» y analizar coordinar un proyecto de grupo.",
         "example": "La propuesta permitirá revisar «propuesta» y anticipar sus consecuencias. Esta frase sitúa «equipo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -46452,7 +46452,7 @@
       },
       {
         "word": "acuerdo",
-        "translation": "English support: acuerdo",
+        "translation": "agreement",
         "definition": "Término clave para comprender «Planes y proyectos: una situación cotidiana» y analizar coordinar un proyecto de grupo.",
         "example": "La propuesta permitirá revisar «propuesta» y anticipar sus consecuencias. Esta frase sitúa «acuerdo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -46460,7 +46460,7 @@
       },
       {
         "word": "fecha",
-        "translation": "English support: fecha",
+        "translation": "date",
         "definition": "Término clave para comprender «Planes y proyectos: una situación cotidiana» y analizar coordinar un proyecto de grupo.",
         "example": "La propuesta permitirá revisar «propuesta» y anticipar sus consecuencias. Esta frase sitúa «fecha» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -46468,7 +46468,7 @@
       },
       {
         "word": "resultado",
-        "translation": "English support: resultado",
+        "translation": "result",
         "definition": "Término clave para comprender «Planes y proyectos: una situación cotidiana» y analizar coordinar un proyecto de grupo.",
         "example": "La propuesta permitirá revisar «propuesta» y anticipar sus consecuencias. Esta frase sitúa «resultado» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -46567,7 +46567,7 @@
     "vocabulary": [
       {
         "word": "iniciativa",
-        "translation": "English support: iniciativa",
+        "translation": "initiative",
         "definition": "Término clave para comprender «Una biblioteca vacía vuelve a tener voz» y analizar presentar una iniciativa vecinal.",
         "example": "Aunque «iniciativa» parece una decisión individual, conviene considerar «voluntariado» y «presupuesto». Esta frase sitúa «iniciativa» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -46575,7 +46575,7 @@
       },
       {
         "word": "voluntariado",
-        "translation": "English support: voluntariado",
+        "translation": "volunteering",
         "definition": "Término clave para comprender «Una biblioteca vacía vuelve a tener voz» y analizar presentar una iniciativa vecinal.",
         "example": "Aunque «iniciativa» parece una decisión individual, conviene considerar «voluntariado» y «presupuesto». Esta frase sitúa «voluntariado» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -46583,7 +46583,7 @@
       },
       {
         "word": "presupuesto",
-        "translation": "English support: presupuesto",
+        "translation": "budget",
         "definition": "Término clave para comprender «Una biblioteca vacía vuelve a tener voz» y analizar presentar una iniciativa vecinal.",
         "example": "Aunque «iniciativa» parece una decisión individual, conviene considerar «voluntariado» y «presupuesto». Esta frase sitúa «presupuesto» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -46591,7 +46591,7 @@
       },
       {
         "word": "participación",
-        "translation": "English support: participación",
+        "translation": "participation",
         "definition": "Término clave para comprender «Una biblioteca vacía vuelve a tener voz» y analizar presentar una iniciativa vecinal.",
         "example": "Aunque «iniciativa» parece una decisión individual, conviene considerar «voluntariado» y «presupuesto». Esta frase sitúa «participación» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -46599,7 +46599,7 @@
       },
       {
         "word": "beneficio",
-        "translation": "English support: beneficio",
+        "translation": "benefit",
         "definition": "Término clave para comprender «Una biblioteca vacía vuelve a tener voz» y analizar presentar una iniciativa vecinal.",
         "example": "Aunque «iniciativa» parece una decisión individual, conviene considerar «voluntariado» y «presupuesto». Esta frase sitúa «beneficio» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -46607,7 +46607,7 @@
       },
       {
         "word": "propuesta",
-        "translation": "English support: propuesta",
+        "translation": "proposal",
         "definition": "Término clave para comprender «Una biblioteca vacía vuelve a tener voz» y analizar presentar una iniciativa vecinal.",
         "example": "Aunque «iniciativa» parece una decisión individual, conviene considerar «voluntariado» y «presupuesto». Esta frase sitúa «propuesta» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -46706,7 +46706,7 @@
     "vocabulary": [
       {
         "word": "planteamiento",
-        "translation": "English support: planteamiento",
+        "translation": "proposal / approach",
         "definition": "Término clave para comprender «Una propuesta juvenil que resiste preguntas difíciles» y analizar presentar una solución a un problema público.",
         "example": "Aunque «planteamiento» parece una decisión individual, conviene considerar «evidencia» y «objeción». Esta frase sitúa «planteamiento» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -46714,7 +46714,7 @@
       },
       {
         "word": "evidencia",
-        "translation": "English support: evidencia",
+        "translation": "evidence",
         "definition": "Término clave para comprender «Una propuesta juvenil que resiste preguntas difíciles» y analizar presentar una solución a un problema público.",
         "example": "Aunque «planteamiento» parece una decisión individual, conviene considerar «evidencia» y «objeción». Esta frase sitúa «evidencia» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -46722,7 +46722,7 @@
       },
       {
         "word": "objeción",
-        "translation": "English support: objeción",
+        "translation": "objection",
         "definition": "Término clave para comprender «Una propuesta juvenil que resiste preguntas difíciles» y analizar presentar una solución a un problema público.",
         "example": "Aunque «planteamiento» parece una decisión individual, conviene considerar «evidencia» y «objeción». Esta frase sitúa «objeción» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -46730,7 +46730,7 @@
       },
       {
         "word": "viabilidad",
-        "translation": "English support: viabilidad",
+        "translation": "feasibility",
         "definition": "Término clave para comprender «Una propuesta juvenil que resiste preguntas difíciles» y analizar presentar una solución a un problema público.",
         "example": "Aunque «planteamiento» parece una decisión individual, conviene considerar «evidencia» y «objeción». Esta frase sitúa «viabilidad» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -46738,7 +46738,7 @@
       },
       {
         "word": "alcance",
-        "translation": "English support: alcance",
+        "translation": "scope",
         "definition": "Término clave para comprender «Una propuesta juvenil que resiste preguntas difíciles» y analizar presentar una solución a un problema público.",
         "example": "Aunque «planteamiento» parece una decisión individual, conviene considerar «evidencia» y «objeción». Esta frase sitúa «alcance» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -46746,7 +46746,7 @@
       },
       {
         "word": "consenso",
-        "translation": "English support: consenso",
+        "translation": "consensus",
         "definition": "Término clave para comprender «Una propuesta juvenil que resiste preguntas difíciles» y analizar presentar una solución a un problema público.",
         "example": "Aunque «planteamiento» parece una decisión individual, conviene considerar «evidencia» y «objeción». Esta frase sitúa «consenso» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -46845,7 +46845,7 @@
     "vocabulary": [
       {
         "word": "tesis",
-        "translation": "English support: tesis",
+        "translation": "thesis",
         "definition": "Término clave para comprender «Defender una tesis que todavía puede cambiar» y analizar defender una tesis ante preguntas críticas.",
         "example": "Aunque «tesis» parece una decisión individual, conviene considerar «marco teórico» y «hallazgo». Esta frase sitúa «tesis» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -46853,7 +46853,7 @@
       },
       {
         "word": "marco teórico",
-        "translation": "English support: marco teórico",
+        "translation": "theoretical framework",
         "definition": "Término clave para comprender «Defender una tesis que todavía puede cambiar» y analizar defender una tesis ante preguntas críticas.",
         "example": "Aunque «tesis» parece una decisión individual, conviene considerar «marco teórico» y «hallazgo». Esta frase sitúa «marco teórico» dentro del tema de la unidad.",
         "partOfSpeech": "locución",
@@ -46861,7 +46861,7 @@
       },
       {
         "word": "hallazgo",
-        "translation": "English support: hallazgo",
+        "translation": "finding",
         "definition": "Término clave para comprender «Defender una tesis que todavía puede cambiar» y analizar defender una tesis ante preguntas críticas.",
         "example": "Aunque «tesis» parece una decisión individual, conviene considerar «marco teórico» y «hallazgo». Esta frase sitúa «hallazgo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -46869,7 +46869,7 @@
       },
       {
         "word": "objeción",
-        "translation": "English support: objeción",
+        "translation": "objection",
         "definition": "Término clave para comprender «Defender una tesis que todavía puede cambiar» y analizar defender una tesis ante preguntas críticas.",
         "example": "Aunque «tesis» parece una decisión individual, conviene considerar «marco teórico» y «hallazgo». Esta frase sitúa «objeción» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -46877,7 +46877,7 @@
       },
       {
         "word": "alcance",
-        "translation": "English support: alcance",
+        "translation": "scope",
         "definition": "Término clave para comprender «Defender una tesis que todavía puede cambiar» y analizar defender una tesis ante preguntas críticas.",
         "example": "Aunque «tesis» parece una decisión individual, conviene considerar «marco teórico» y «hallazgo». Esta frase sitúa «alcance» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -46885,7 +46885,7 @@
       },
       {
         "word": "metodología",
-        "translation": "English support: metodología",
+        "translation": "methodology",
         "definition": "Término clave para comprender «Defender una tesis que todavía puede cambiar» y analizar defender una tesis ante preguntas críticas.",
         "example": "Aunque «tesis» parece una decisión individual, conviene considerar «marco teórico» y «hallazgo». Esta frase sitúa «metodología» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -46984,7 +46984,7 @@
     "vocabulary": [
       {
         "word": "síntesis",
-        "translation": "English support: síntesis",
+        "translation": "synthesis",
         "definition": "Término clave para comprender «Sostener una conclusión sin clausurar el debate» y analizar resolver una misión integradora ante un panel experto.",
         "example": "Aunque «síntesis» parece una decisión individual, conviene considerar «criterio» y «matización». Esta frase sitúa «síntesis» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -46992,7 +46992,7 @@
       },
       {
         "word": "criterio",
-        "translation": "English support: criterio",
+        "translation": "criterion",
         "definition": "Término clave para comprender «Sostener una conclusión sin clausurar el debate» y analizar resolver una misión integradora ante un panel experto.",
         "example": "Aunque «síntesis» parece una decisión individual, conviene considerar «criterio» y «matización». Esta frase sitúa «criterio» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -47000,7 +47000,7 @@
       },
       {
         "word": "matización",
-        "translation": "English support: matización",
+        "translation": "qualification",
         "definition": "Término clave para comprender «Sostener una conclusión sin clausurar el debate» y analizar resolver una misión integradora ante un panel experto.",
         "example": "Aunque «síntesis» parece una decisión individual, conviene considerar «criterio» y «matización». Esta frase sitúa «matización» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -47008,7 +47008,7 @@
       },
       {
         "word": "solvencia",
-        "translation": "English support: solvencia",
+        "translation": "assurance",
         "definition": "Término clave para comprender «Sostener una conclusión sin clausurar el debate» y analizar resolver una misión integradora ante un panel experto.",
         "example": "Aunque «síntesis» parece una decisión individual, conviene considerar «criterio» y «matización». Esta frase sitúa «solvencia» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -47016,7 +47016,7 @@
       },
       {
         "word": "perspectiva",
-        "translation": "English support: perspectiva",
+        "translation": "perspective",
         "definition": "Término clave para comprender «Sostener una conclusión sin clausurar el debate» y analizar resolver una misión integradora ante un panel experto.",
         "example": "Aunque «síntesis» parece una decisión individual, conviene considerar «criterio» y «matización». Esta frase sitúa «perspectiva» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
@@ -47024,7 +47024,7 @@
       },
       {
         "word": "precisión",
-        "translation": "English support: precisión",
+        "translation": "precision",
         "definition": "Término clave para comprender «Sostener una conclusión sin clausurar el debate» y analizar resolver una misión integradora ante un panel experto.",
         "example": "Aunque «síntesis» parece una decisión individual, conviene considerar «criterio» y «matización». Esta frase sitúa «precisión» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
