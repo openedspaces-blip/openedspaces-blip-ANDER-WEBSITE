@@ -501,7 +501,69 @@ function buildProgressiveReading(level, spec, index) {
   if (level === 'C2') {
     paragraphs.push('Queda una dificultad epistemológica. Las categorías que organizan el debate también producen efectos: vuelven visibles ciertos daños y dejan otros en segundo plano. El lector experto examina no solo si la inferencia es válida, sino qué presupone su vocabulario, a quién concede autoridad y bajo qué condiciones podría trasladarse a otro contexto.');
   }
-  return { title, genre, text: paragraphs.join('\n\n'), references: readingReferences(slug) };
+  return { title, genre, angle, text: paragraphs.join('\n\n'), references: readingReferences(slug) };
+}
+
+function grammarModel(grammar, words, scenario) {
+  const lower = grammar.toLowerCase();
+  if (/(subjuntivo|recomendación|valoración)/.test(lower)) {
+    return `Es importante que la comunidad considere «${words[0]}» antes de ${scenario.toLowerCase()}.`;
+  }
+  if (/(condicional|hipótesis|posibilidad)/.test(lower)) {
+    return `Si existieran más apoyos, muchas personas podrían afrontar «${words[0]}» de otra manera.`;
+  }
+  if (/(pretérito|pasado|imperfecto|indefinido|perfecto)/.test(lower)) {
+    return `Cuando surgió «${words[0]}», el grupo revisó lo ocurrido y explicó sus decisiones.`;
+  }
+  if (/(futuro|prospectiva)/.test(lower)) {
+    return `La propuesta permitirá revisar «${words[0]}» y anticipar sus consecuencias.`;
+  }
+  if (/(pasiva|impersonal)/.test(lower)) {
+    return `En el artículo se analizan «${words[0]}» y «${words[1]}» desde perspectivas distintas.`;
+  }
+  if (/(estilo indirecto|cita|atribución)/.test(lower)) {
+    return `Una estudiante explicó que «${words[0]}» no podía entenderse sin revisar el contexto.`;
+  }
+  if (/(pronombre|referencia)/.test(lower)) {
+    return `La propuesta incluye «${words[0]}»; este elemento cambia la decisión final.`;
+  }
+  return `Aunque «${words[0]}» parece una decisión individual, conviene considerar «${words[1]}» y «${words[2]}».`;
+}
+
+function buildAlignedListening(level, spec, readingContent) {
+  const [, title, scenario, objective, grammar, words] = spec;
+  const model = grammarModel(grammar, words, scenario);
+  const transcript = [
+    `Hoy quiero reflexionar sobre «${readingContent.title}». ${readingContent.angle || scenario} No se trata solo de una experiencia individual: también intervienen las condiciones en que estudiamos, trabajamos o convivimos.`,
+    `Al observar esta situación, distingo «${words[0]}», «${words[1]}» y «${words[2]}». Después comparo «${words[3]}», «${words[4]}» y «${words[5]}», porque cada término cambia la manera de interpretar el problema y de proponer una respuesta responsable.`,
+    `Mi objetivo es ${objective.toLowerCase()}. ${model} Por eso escucho testimonios, reviso la evidencia disponible y acepto que una buena conclusión puede cambiar cuando aparece información nueva.`
+  ].join(' ');
+  const exercises = [
+    q('¿Sobre qué texto reflexiona la persona?', [readingContent.title, 'Una lección sin relación con la unidad', 'Un anuncio comercial', 'Una conversación privada'], 0, 'La primera oración menciona explícitamente el título del Reading.'),
+    q('¿Qué afirma sobre el problema?', ['Que también depende de condiciones sociales', 'Que solo depende de una persona', 'Que no necesita contexto', 'Que debe ignorarse'], 0, 'La persona relaciona la experiencia con condiciones de estudio, trabajo y convivencia.'),
+    q('¿Qué hace antes de proponer una respuesta?', ['Compara conceptos y revisa su significado', 'Memoriza una lista sin contexto', 'Evita toda evidencia', 'Repite una opinión ajena'], 0, 'El audio presenta los seis términos de la unidad como herramientas de análisis.'),
+    q('¿Qué actitud adopta ante una conclusión?', ['Acepta revisarla con nueva información', 'La considera definitiva desde el inicio', 'Evita escuchar testimonios', 'Descarta cualquier evidencia'], 0, 'La última oración señala que la conclusión puede cambiar ante nueva información.')
+  ];
+  return {
+    title: `Escucha · ${readingContent.title}`,
+    description: `Monólogo conectado con el Reading «${readingContent.title}».`,
+    intro: `Escucha la misma problemática desde la voz de una persona y reconoce el vocabulario de la unidad.`,
+    mission: `Comprende una reflexión oral sobre ${title.toLowerCase()} y reconoce cómo ${grammar} aporta precisión.`,
+    transcript,
+    phrases: [words[0], words[1], words[2], model],
+    exercises
+  };
+}
+
+function buildAlignedGrammarExercises(spec) {
+  const [, , scenario, , grammar, words] = spec;
+  const model = grammarModel(grammar, words, scenario);
+  return [
+    q('¿Cuál es el foco gramatical de esta unidad?', [grammar, 'El alfabeto aislado', 'Los números cardinales', 'La ortografía de nombres propios'], 0, `La unidad trabaja ${grammar}.`),
+    q('¿Qué oración usa la estructura de la unidad para hablar del Reading?', [model, `${words[0]} ${words[1]} ${words[2]}.`, `Porque ${words[0]} y ${words[1]}.`, `${words[2]} sin contexto decidir.`], 0, 'La primera opción relaciona la estructura gramatical con el tema y el vocabulario de la lección.'),
+    q('¿Qué opción mantiene mejor el sentido del texto?', [`La evidencia ayuda a interpretar «${words[0]}» antes de concluir.`, `La evidencia «${words[0]}» concluir antes.`, `Interpretar evidencia porque «${words[0]}».`, `«${words[0]}» evidencia sin.`], 0, 'La primera opción presenta una relación lógica y una idea completa.'),
+    q('¿Para qué sirve la estructura estudiada en esta unidad?', ['Para expresar una postura con precisión y matiz', 'Para repetir palabras sin contexto', 'Para eliminar todas las razones', 'Para evitar describir el tema'], 0, `El uso de ${grammar} permite formular mejor la perspectiva del texto.`)
+  ];
 }
 
 function buildReadingExercises(level, spec, readingContent) {
@@ -541,34 +603,16 @@ function buildUnit(level, spec, index) {
   const person = index % 2 ? 'Lucía' : 'Mateo';
   const authoredListening = level === 'A2' ? A2_LISTENING_SCRIPTS[slug] : null;
   const readingContent = buildProgressiveReading(level, spec, index);
+  const alignedListening = authoredListening ? null : buildAlignedListening(level, spec, readingContent);
   const text = readingContent.text;
-  const fallbackDialogue = [
-    [person, `Necesitamos hablar sobre ${title.toLowerCase()}. ¿Qué información tenemos?`],
-    ['Alex', 'Tenemos varias opciones, pero debemos compararlas con cuidado.'],
-    [person, 'De acuerdo. Primero aclaremos el objetivo y después decidimos.'],
-    ['Alex', 'Me parece bien; así podremos explicar la propuesta con razones claras.']
-  ];
-  const listeningLines = authoredListening?.dialogue || fallbackDialogue;
-  const listeningDialogue = authoredListening?.transcript ? [] : listeningLines.map(([speaker, line]) => ({ speaker, line }));
-  const listeningTranscript = authoredListening?.transcript || listeningDialogue.map(({ speaker, line }) => `${speaker}: ${line}`).join(' ');
   const readingExercises = buildReadingExercises(level, spec, readingContent);
-  const genericListeningExercises = [
-    q('¿Qué propone hacer primero la conversación?', ['Decidir inmediatamente', 'Aclarar el objetivo', 'Cancelar la actividad', 'Buscar otro tema'], 1, 'Los hablantes acuerdan aclarar primero el objetivo.'),
-    q('¿Cómo quieren presentar la propuesta?', ['Sin razones', 'Con razones claras', 'Solo por escrito', 'Como una orden'], 1, 'Alex menciona explícitamente razones claras.'),
-    q('¿Qué actitud muestran los hablantes?', ['Colaboración', 'Indiferencia', 'Hostilidad', 'Confusión total'], 0, 'Ambos construyen un plan conjunto.')
-  ];
-  const listeningExercises = authoredListening?.exercises || genericListeningExercises;
-  const grammarExercises = [
-    q('¿Cuál es el foco gramatical de esta unidad?', [grammar, 'El alfabeto aislado', 'Los números cardinales', 'La ortografía de nombres propios'], 0, `La unidad trabaja ${grammar}.`),
-    q('¿Qué opción expresa una idea completa y adecuada al escenario?', [`Aunque faltan datos, podemos formular una propuesta prudente.`, 'Aunque faltan datos podemos propuesta.', 'Datos aunque una formular.', 'Faltan aunque datos propuesta.'], 0, 'La primera opción mantiene cohesión y sentido completo.'),
-    q('¿Qué versión muestra mejor una relación lógica?', ['Comparamos las opciones para justificar la decisión.', 'Comparamos las opciones decisión.', 'Para opciones comparamos la.', 'La decisión opciones para.'], 0, 'La finalidad está expresada con claridad.'),
-    q('¿Qué oración mantiene un registro claro?', ['Conviene revisar la evidencia antes de concluir.', 'La evidencia concluir antes conviene.', 'Revisar evidencia cosa.', 'Conclusión porque sí.'], 0, 'La primera formulación es precisa y adecuada.')
-  ];
+  const listeningExercises = authoredListening?.exercises || alignedListening.exercises;
+  const grammarExercises = buildAlignedGrammarExercises(spec);
   const vocabulary = words.map((word, wordIndex) => ({
     word,
     translation: `English support: ${word}`,
-    definition: `Término clave de la unidad «${title}».`,
-    example: `${person} usa «${word}» al explicar su propuesta.`,
+    definition: `Término clave para comprender «${readingContent.title}» y analizar ${scenario.toLowerCase()}.`,
+    example: `${grammarModel(grammar, words, scenario)} Esta frase sitúa «${word}» dentro del tema de la unidad.`,
     partOfSpeech: word.includes(' ') ? 'locución' : 'sustantivo',
     unitOrder: wordIndex + 1
   }));
@@ -607,16 +651,16 @@ function buildUnit(level, spec, index) {
         exercises: readingExercises
       }),
       listening: activity('listening', {
-        title: `Escucha · ${title}`,
-        description: `Escucha cómo dos personas organizan una respuesta.`,
-        intro: `Identifica el objetivo, el orden de las acciones y el acuerdo final.`,
-        mission: `Comprende una conversación auténtica sobre ${title.toLowerCase()}.`,
-        listeningType: authoredListening?.transcript ? 'story' : 'dialogue',
+        title: authoredListening ? `Escucha · ${title}` : alignedListening.title,
+        description: authoredListening ? `Escucha un relato conectado con ${title.toLowerCase()}.` : alignedListening.description,
+        intro: authoredListening ? `Identifica el objetivo, los detalles y la conclusión del relato.` : alignedListening.intro,
+        mission: authoredListening ? `Comprende un monólogo auténtico sobre ${title.toLowerCase()}.` : alignedListening.mission,
+        listeningType: 'story',
         difficulty: level,
-        speakers: authoredListening?.speakers || [person, 'Alex'],
-        transcript: listeningTranscript,
-        dialogue: listeningDialogue,
-        phrases: authoredListening?.phrases || ['¿Qué información tenemos?', 'Debemos compararlas.', 'Primero aclaremos el objetivo.', 'Me parece bien.'],
+        speakers: authoredListening?.speakers || ['Narrador'],
+        transcript: authoredListening?.transcript || alignedListening.transcript,
+        dialogue: [],
+        phrases: authoredListening?.phrases || alignedListening.phrases,
         exercises: listeningExercises,
         listeningComprehension: {
           id: `spanish-${level.toLowerCase()}-${slug}-listening-comprehension`,
@@ -662,8 +706,8 @@ function buildUnit(level, spec, index) {
         description: `Aplica la forma gramatical dentro del tema «${title}».`,
         intro: `Observa cómo la gramática cambia la precisión y el matiz.`,
         mission: `Usa ${grammar} para explicar y justificar una propuesta.`,
-        grammarNote: `Foco: ${grammar}.\n\nUso: conecta las ideas de la unidad y permite expresar relaciones con mayor precisión.\n\nModelo: Aunque faltan datos, podemos comparar las opciones antes de tomar una decisión.`,
-        phrases: ['Aunque faltan datos, podemos avanzar.', 'Conviene comparar antes de decidir.', 'La propuesta se revisará si cambia la información.'],
+        grammarNote: `Foco: ${grammar}.\n\nUso: permite explicar el tema «${readingContent.title}» con precisión y matiz.\n\nModelo: ${grammarModel(grammar, words, scenario)}`,
+        phrases: [grammarModel(grammar, words, scenario), `El texto relaciona «${words[0]}» con «${words[1]}».`, `Antes de concluir, conviene revisar «${words[2]}».`],
         exercises: grammarExercises,
         grammarTest: grammarTest(level, slug, grammar, grammarExercises)
       }),

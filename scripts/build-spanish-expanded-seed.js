@@ -15,6 +15,7 @@ function shapeExtra(activity) {
   if (activity.listeningType) extra.listeningType = activity.listeningType;
   if (activity.difficulty) extra.difficulty = activity.difficulty;
   if (activity.speakers) extra.speakers = activity.speakers;
+  if (activity.transcript) extra.transcript = activity.transcript;
   if (activity.listeningComprehension) {
     extra.listeningComprehension = activity.listeningComprehension;
   }
