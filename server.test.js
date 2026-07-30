@@ -3811,6 +3811,22 @@ test('official Listening content builds exactly four questions from the narrated
   }
 });
 
+test('Translator exposes an independent same-language IPA phonetics mode with playback controls', () => {
+  const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
+  const script = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  const server = fs.readFileSync(path.join(__dirname, 'lib', 'server.js'), 'utf8');
+  const tutor = fs.readFileSync(path.join(__dirname, 'lib', 'aiTutorService.js'), 'utf8');
+
+  assert.match(html, /data-skill="phonetics">Fonética/);
+  assert.match(html, /id="phoneticsLangSelect"/);
+  assert.match(html, /id="phoneticsListenBtn"[\s\S]*?Escuchar pronunciación/);
+  assert.match(html, /id="phoneticsStopBtn"[\s\S]*?Detener/);
+  assert.match(script, /postJson\('\/api\/phonetic-transcription'/);
+  assert.match(script, /speechSynthesis\?\.cancel\(\)/);
+  assert.match(server, /app\.post\('\/api\/phonetic-transcription'/);
+  assert.match(tutor, /Do not translate, correct, explain, romanize, or add words/);
+});
+
 test('Listening gives the revealed story full width and places Vocabulary below it', () => {
   const script = fs.readFileSync(path.join(__dirname, 'src/js/script.js'), 'utf8');
   const css = fs.readFileSync(path.join(__dirname, 'src/css/styles.css'), 'utf8');

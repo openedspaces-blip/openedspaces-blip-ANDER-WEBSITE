@@ -2458,7 +2458,8 @@ a:focus-visible {
 
 /* Traductor */
 .translator-panel {
-  max-width: 960px;
+  width: 100%;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -2646,7 +2647,7 @@ a:focus-visible {
    .translator-field-actions/.translator-actions/.translator-status as-is;
    only its own result box and highlight marks are new. */
 .corrector-output {
-  min-height: 160px;
+  min-height: 220px;
   border: 1px solid var(--border);
   border-radius: var(--radius-sm, 8px);
   padding: 12px 14px;
@@ -2656,6 +2657,18 @@ a:focus-visible {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+.corrector-panel .translator-grid {
+  align-items: stretch;
+}
+
+.corrector-panel .translator-field {
+  min-width: 0;
+}
+
+.corrector-panel .corrector-output {
+  flex: 1 1 auto;
 }
 
 .corrector-result-label {
@@ -13285,9 +13298,11 @@ footer small {
 .unit-verbs-score {
   display: grid;
   gap: 0.1rem;
-  min-width: 5.4rem;
-  padding: 0.45rem 0.7rem;
-  border-left: 1px solid var(--line);
+  min-width: 6.25rem;
+  padding: 0.55rem 0.8rem;
+  border: 1px solid rgba(37, 99, 235, 0.12);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.62);
 }
 
 .unit-verbs-score strong {
@@ -13299,12 +13314,35 @@ footer small {
   display: flex;
   flex: 0 0 auto;
   align-items: center;
-  gap: 0.35rem;
+  gap: 0.55rem;
 }
 
 .unit-verbs-practice-btn {
-  min-height: 2.55rem;
-  box-shadow: 0 8px 18px rgba(37, 99, 235, 0.16);
+  min-height: 2.8rem;
+  padding: 0.65rem 1rem;
+  border-radius: 13px;
+  font-size: 0.88rem;
+  box-shadow: 0 6px 14px rgba(37, 99, 235, 0.15);
+}
+
+.unit-verbs-more > summary {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.8rem;
+  padding: 0.65rem 0.82rem;
+  border: 1px solid rgba(96, 165, 250, 0.35);
+  border-radius: 13px;
+  background: rgba(255, 255, 255, 0.82);
+  color: var(--navy-2);
+  font-size: 0.82rem;
+  font-weight: 750;
+}
+
+.unit-verbs-more[open] > summary,
+.unit-verbs-more > summary:hover {
+  border-color: rgba(37, 99, 235, 0.45);
+  background: #fff;
+  color: var(--blue);
 }
 
 .unit-verbs-more .skill-view-more-menu {
@@ -13660,25 +13698,148 @@ footer small {
   position: fixed;
   right: 1.5rem;
   bottom: 1.5rem;
-  width: 60px;
-  height: 60px;
+  display: grid;
+  place-items: center;
+  width: 64px;
+  height: 64px;
+  padding: 8px;
   border-radius: 50%;
-  border: none;
-  background: linear-gradient(135deg, var(--blue), var(--purple));
+  border: 1px solid rgba(255, 255, 255, 0.72);
+  background:
+    radial-gradient(circle at 32% 24%, rgba(255, 255, 255, 0.28), transparent 30%),
+    linear-gradient(145deg, #1d4ed8 4%, var(--blue) 42%, var(--purple) 100%);
   color: white;
-  font-size: 1.6rem;
-  box-shadow: 0 16px 36px rgba(37, 99, 235, 0.35);
+  font-size: 0;
+  box-shadow:
+    0 18px 42px rgba(37, 99, 235, 0.35),
+    inset 0 1px 0 rgba(255, 255, 255, 0.28);
   cursor: pointer;
   z-index: 40;
-  transition: transform 0.2s ease;
+  isolation: isolate;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    filter 0.2s ease;
+}
+
+.tutor-fab::before {
+  content: '';
+  position: absolute;
+  inset: -5px;
+  z-index: -1;
+  border: 1px solid rgba(37, 99, 235, 0.22);
+  border-radius: inherit;
+  background: rgba(255, 255, 255, 0.42);
+  box-shadow: 0 0 0 5px rgba(37, 99, 235, 0.05);
 }
 
 .tutor-fab:hover {
   transform: translateY(-3px) scale(1.05);
+  filter: saturate(1.08);
+  box-shadow:
+    0 22px 48px rgba(37, 99, 235, 0.42),
+    inset 0 1px 0 rgba(255, 255, 255, 0.32);
+}
+
+.tutor-fab:active {
+  transform: translateY(-1px) scale(0.98);
 }
 
 .tutor-fab[hidden] {
   display: none;
+}
+
+.tutor-bot-mark {
+  position: relative;
+  display: inline-grid;
+  place-items: center;
+  flex: 0 0 auto;
+  color: currentColor;
+}
+
+.tutor-bot-mark svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+.tutor-bot-mark--fab {
+  width: 46px;
+  height: 46px;
+  transition: transform 0.2s ease;
+}
+
+.tutor-fab:hover .tutor-bot-mark--fab {
+  transform: translateY(-1px) rotate(-2deg);
+}
+
+.tutor-bot-antenna,
+.tutor-bot-ear,
+.tutor-bot-smile {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.tutor-bot-antenna,
+.tutor-bot-ear {
+  stroke-width: 3;
+}
+
+.tutor-bot-smile {
+  stroke: #67e8f9;
+  stroke-width: 2;
+}
+
+.tutor-bot-signal {
+  fill: #a5f3fc;
+  stroke: currentColor;
+  stroke-width: 1.5;
+}
+
+.tutor-bot-shell {
+  fill: rgba(255, 255, 255, 0.96);
+  stroke: rgba(255, 255, 255, 0.86);
+  stroke-width: 1.5;
+  filter: drop-shadow(0 5px 8px rgba(7, 21, 47, 0.2));
+}
+
+.tutor-bot-screen {
+  fill: #07152f;
+}
+
+.tutor-bot-eye {
+  fill: #67e8f9;
+  filter: drop-shadow(0 0 2px rgba(103, 232, 249, 0.7));
+}
+
+.tutor-bot-status {
+  position: absolute;
+  right: 0;
+  bottom: 2px;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background: var(--green);
+  box-shadow: 0 0 0 2px rgba(34, 197, 94, 0.18);
+}
+
+.tutor-bot-mark--inline {
+  width: 38px;
+  height: 38px;
+  color: var(--blue);
+}
+
+.tutor-bot-mark--inline .tutor-bot-shell {
+  fill: #eff6ff;
+  stroke: rgba(37, 99, 235, 0.18);
+}
+
+.tutor-bot-mark--inline .tutor-bot-screen {
+  fill: var(--navy);
 }
 
 /* Tutor IA drawer - centered modal on desktop/tablet, full-screen sheet on
@@ -18359,5 +18520,56 @@ footer small {
     justify-content: center;
     overflow: hidden;
     text-overflow: ellipsis;
+  }
+}
+
+/* Translator: IPA phonetics mode */
+#translatorTabs .skill-tab-list { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.phonetics-controls { align-items: end; }
+.phonetics-controls > label { flex: 0 1 420px; }
+.phonetics-language-note {
+  flex: 1 1 360px;
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+.phonetics-output {
+  min-height: 172px;
+  display: flex;
+  align-items: center;
+}
+.phonetics-ipa {
+  width: 100%;
+  margin: 0;
+  color: var(--ink);
+  font-family: "Noto Sans", "Segoe UI", Arial, sans-serif;
+  font-size: clamp(1.12rem, 2vw, 1.42rem);
+  font-weight: 650;
+  line-height: 1.75;
+  overflow-wrap: anywhere;
+}
+#phoneticsStopBtn:not(:disabled) {
+  color: #b42318;
+  border-color: #f2b8b5;
+  background: #fff7f6;
+}
+@media (max-width: 780px) {
+  #translatorTabs .skill-tab-list { width: 100%; }
+  #translatorTabs .skill-tab-button {
+    min-width: 0;
+    padding-inline: 0.7rem;
+    font-size: 0.9rem;
+  }
+  .phonetics-controls { align-items: stretch; }
+  .phonetics-controls > label, .phonetics-language-note { flex-basis: auto; }
+  .phonetics-output { min-height: 130px; }
+  .phonetics-panel .translator-field-actions {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .phonetics-panel .translator-field-actions > button {
+    width: 100%;
+    min-width: 0;
   }
 }

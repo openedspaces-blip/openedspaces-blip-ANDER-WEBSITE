@@ -1154,6 +1154,7 @@
           <div class="skill-tab-list">
             <button class="skill-tab-button active" type="button" data-skill="translate">Traducir</button>
             <button class="skill-tab-button" type="button" data-skill="corrector">Corrector</button>
+            <button class="skill-tab-button" type="button" data-skill="phonetics">Fonética</button>
           </div>
 
         <div class="skill-panel active" data-skill="translate">
@@ -1360,6 +1361,45 @@
             </div>
           </div>
         </div>
+
+        <div class="skill-panel" data-skill="phonetics">
+          <div class="translator-panel phonetics-panel">
+            <div class="translator-controls phonetics-controls">
+              <label for="phoneticsLangSelect">Idioma
+                <select id="phoneticsLangSelect"></select>
+              </label>
+              <p class="phonetics-language-note">Transcripción en el mismo idioma mediante el Alfabeto Fonético Internacional (IPA).</p>
+            </div>
+            <div class="translator-grid">
+              <div class="translator-field translator-field--source">
+                <label for="phoneticsInput">Texto original</label>
+                <textarea id="phoneticsInput" class="tutor-input" rows="6" maxlength="1000"
+                  placeholder="Escribe el texto cuya pronunciación quieres consultar…"></textarea>
+                <p class="translator-char-count" id="phoneticsCharCount" aria-live="polite">0 / 1000</p>
+                <div class="translator-field-actions">
+                  <button type="button" class="secondary-btn" id="phoneticsClearBtn">Limpiar</button>
+                </div>
+              </div>
+              <div class="translator-field translator-field--output">
+                <span class="corrector-result-label">Transcripción IPA</span>
+                <div class="corrector-output phonetics-output" id="phoneticsOutput" aria-live="polite">
+                  <p class="skill-graph-empty">La transcripción fonética aparecerá aquí.</p>
+                </div>
+                <div class="translator-field-actions">
+                  <button type="button" class="secondary-btn" id="phoneticsCopyBtn" disabled>Copiar IPA</button>
+                  <button type="button" class="secondary-btn translator-listen-btn" id="phoneticsListenBtn"
+                    aria-label="Escuchar pronunciación" disabled>🔊 Escuchar pronunciación</button>
+                  <button type="button" class="secondary-btn translator-listen-btn" id="phoneticsStopBtn"
+                    aria-label="Detener pronunciación" disabled>■ Detener</button>
+                </div>
+              </div>
+            </div>
+            <div class="translator-actions">
+              <button type="button" class="primary-btn" id="phoneticsSubmitBtn">Transcribir a IPA</button>
+              <span class="translator-status" id="phoneticsStatus" role="status" aria-live="polite">Listo</span>
+            </div>
+          </div>
+        </div>
         </div>
       </section>
 
@@ -1399,7 +1439,23 @@
                 <p data-i18n="aboutStep2Text">Vocabulario, diálogos, lectura, escritura, gramática y ejercicios reales en cada unidad.</p>
               </article>
               <article class="how-it-works-step">
-                <div class="icon" aria-hidden="true">🤖</div>
+                <div class="icon" aria-hidden="true">
+                  <span class="tutor-bot-mark tutor-bot-mark--inline">
+                    <svg viewBox="0 0 64 64" focusable="false">
+                      <path class="tutor-bot-antenna" d="M32 9v7" />
+                      <circle class="tutor-bot-signal" cx="32" cy="8" r="3" />
+                      <path
+                        class="tutor-bot-shell"
+                        d="M19 17h26c6.1 0 11 4.9 11 11v12c0 6.1-4.9 11-11 11H19C12.9 51 8 46.1 8 40V28c0-6.1 4.9-11 11-11Z"
+                      />
+                      <path class="tutor-bot-ear" d="M8 29H5v10h3m48-10h3v10h-3" />
+                      <rect class="tutor-bot-screen" x="17" y="24" width="30" height="19" rx="8" />
+                      <circle class="tutor-bot-eye" cx="26" cy="33" r="2.2" />
+                      <circle class="tutor-bot-eye" cx="38" cy="33" r="2.2" />
+                      <path class="tutor-bot-smile" d="M27 38c1.5 1.4 3.2 2 5 2s3.5-.6 5-2" />
+                    </svg>
+                  </span>
+                </div>
                 <h3 data-i18n="aboutStep3Title">3. Habla con el Tutor IA</h3>
                 <p data-i18n="aboutStep3Text">Resuelve dudas, practica conversación y recibe corrección al instante.</p>
               </article>
@@ -2077,7 +2133,24 @@
       </div>
     </div>
 
-    <button type="button" class="tutor-fab" id="tutorFab" aria-label="Abrir Tutor IA ANDERGO">🤖</button>
+    <button type="button" class="tutor-fab" id="tutorFab" aria-label="Abrir Tutor IA ANDERGO">
+      <span class="tutor-bot-mark tutor-bot-mark--fab" aria-hidden="true">
+        <svg viewBox="0 0 64 64" focusable="false">
+          <path class="tutor-bot-antenna" d="M32 9v7" />
+          <circle class="tutor-bot-signal" cx="32" cy="8" r="3" />
+          <path
+            class="tutor-bot-shell"
+            d="M19 17h26c6.1 0 11 4.9 11 11v12c0 6.1-4.9 11-11 11H19C12.9 51 8 46.1 8 40V28c0-6.1 4.9-11 11-11Z"
+          />
+          <path class="tutor-bot-ear" d="M8 29H5v10h3m48-10h3v10h-3" />
+          <rect class="tutor-bot-screen" x="17" y="24" width="30" height="19" rx="8" />
+          <circle class="tutor-bot-eye" cx="26" cy="33" r="2.2" />
+          <circle class="tutor-bot-eye" cx="38" cy="33" r="2.2" />
+          <path class="tutor-bot-smile" d="M27 38c1.5 1.4 3.2 2 5 2s3.5-.6 5-2" />
+        </svg>
+        <span class="tutor-bot-status"></span>
+      </span>
+    </button>
 
     <div class="tutor-drawer" id="tutorDrawer" aria-hidden="true" inert>
       <div class="tutor-drawer-backdrop" data-action="close-tutor-drawer"></div>

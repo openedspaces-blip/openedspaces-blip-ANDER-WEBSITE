@@ -17894,6 +17894,131 @@ function setupCorrector() {
   });
 }
 
+function setupPhonetics() {
+  const langSelect = document.getElementById('phoneticsLangSelect');
+  const input = document.getElementById('phoneticsInput');
+  const output = document.getElementById('phoneticsOutput');
+  const charCount = document.getElementById('phoneticsCharCount');
+  const clearBtn = document.getElementById('phoneticsClearBtn');
+  const copyBtn = document.getElementById('phoneticsCopyBtn');
+  const listenBtn = document.getElementById('phoneticsListenBtn');
+  const stopBtn = document.getElementById('phoneticsStopBtn');
+  const submitBtn = document.getElementById('phoneticsSubmitBtn');
+  const status = document.getElementById('phoneticsStatus');
+  if (!langSelect || !input || !output || !submitBtn || !status) return;
+
+  const languages = window.AndergoTranslatorLanguages?.getSelectableLanguages() || [];
+  langSelect.innerHTML = languages.map((lang) =>
+    `<option value="${escapeHtml(lang.key)}">${lang.flag} ${escapeHtml(lang.label)}</option>`
+  ).join('');
+  if (languages.some((lang) => lang.key === learningPathState.bridgeLanguage)) {
+    langSelect.value = learningPathState.bridgeLanguage;
+  }
+
+  const MAX_LENGTH = Number(input.getAttribute('maxlength')) || 1000;
+  let lastIpa = '';
+  let pronunciationPlaying = false;
+  const setStatus = (text, mode) => {
+    status.textContent = text;
+    status.classList.remove('is-loading', 'is-success', 'is-unavailable');
+    if (mode) status.classList.add(mode);
+  };
+  const updateCharCount = () => {
+    if (charCount) charCount.textContent = `${input.value.length} / ${MAX_LENGTH}`;
+  };
+  const stopPronunciation = () => {
+    pronunciationPlaying = false;
+    window.speechSynthesis?.cancel();
+    listenBtn?.classList.remove('is-playing');
+    listenBtn?.setAttribute('aria-pressed', 'false');
+    if (stopBtn) stopBtn.disabled = true;
+  };
+  const resetOutput = () => {
+    stopPronunciation();
+    lastIpa = '';
+    output.innerHTML = '<p class="skill-graph-empty">La transcripción fonética aparecerá aquí.</p>';
+    if (copyBtn) copyBtn.disabled = true;
+    if (listenBtn) listenBtn.disabled = true;
+  };
+
+  input.addEventListener('input', () => {
+    updateCharCount();
+    if (lastIpa) resetOutput();
+  });
+  langSelect.addEventListener('change', resetOutput);
+  updateCharCount();
+
+  async function runPhoneticTranscription() {
+    if (submitBtn.disabled) return;
+    const text = input.value.trim();
+    if (!text) {
+      setStatus('Escribe un texto para transcribir.', 'is-unavailable');
+      return;
+    }
+    stopPronunciation();
+    setStatus('Generando transcripción IPA…', 'is-loading');
+    submitBtn.disabled = true;
+    try {
+      const data = await postJson('/api/phonetic-transcription', {
+        text, language: langSelect.value
+      }, { auth: true });
+      if (!data.ok) {
+        resetOutput();
+        setStatus(data.message || 'No se pudo generar la transcripción fonética.', 'is-unavailable');
+        return;
+      }
+      lastIpa = data.ipa || '';
+      output.innerHTML = `<p class="phonetics-ipa">${escapeHtml(lastIpa)}</p>`;
+      if (copyBtn) copyBtn.disabled = !lastIpa;
+      if (listenBtn) listenBtn.disabled = !lastIpa;
+      setStatus('Transcripción completada', 'is-success');
+    } catch (error) {
+      resetOutput();
+      setStatus(error.message || 'No se pudo generar la transcripción fonética.', 'is-unavailable');
+    } finally {
+      submitBtn.disabled = false;
+    }
+  }
+
+  submitBtn.addEventListener('click', runPhoneticTranscription);
+  input.addEventListener('keydown', (event) => {
+    if (event.key !== 'Enter' || event.shiftKey) return;
+    event.preventDefault();
+    runPhoneticTranscription();
+  });
+  clearBtn?.addEventListener('click', () => {
+    input.value = '';
+    updateCharCount();
+    resetOutput();
+    setStatus('Listo');
+  });
+  copyBtn?.addEventListener('click', async () => {
+    if (!lastIpa) return;
+    try {
+      await navigator.clipboard.writeText(lastIpa);
+      showHomeToast('Transcripción IPA copiada.');
+    } catch {
+      showHomeToast('No se pudo copiar la transcripción IPA.');
+    }
+  });
+  listenBtn?.addEventListener('click', () => {
+    const text = input.value.trim();
+    if (!text) return;
+    stopPronunciation();
+    pronunciationPlaying = true;
+    listenBtn.classList.add('is-playing');
+    listenBtn.setAttribute('aria-pressed', 'true');
+    if (stopBtn) stopBtn.disabled = false;
+    const lang = window.AndergoTranslatorLanguages?.getTranslatorLanguage(langSelect.value);
+    const utterance = speakText(text, {
+      locale: lang?.locale || LANGUAGE_LOCALES[langSelect.value],
+      onEnd: stopPronunciation
+    });
+    if (!utterance) stopPronunciation();
+  });
+  stopBtn?.addEventListener('click', stopPronunciation);
+}
+
 function initHeroCopyCarousel() {
   const carousel = document.querySelector('.hero-copy-carousel');
   if (!carousel) return;
@@ -17971,6 +18096,7 @@ loadProgress();
 setupLearningPathControls();
 setupTranslator();
 setupCorrector();
+setupPhonetics();
 setupReadingSelectionTranslator();
 initScrollReveal();
 
