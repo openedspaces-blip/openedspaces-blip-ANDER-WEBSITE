@@ -30,6 +30,7 @@ const REQUIRED_FILES = [
   'src/js/translator-languages.js',
   'src/js/translator-predictive.js',
   'favicon.svg',
+  'andergo-social.png',
   'robots.txt',
   'sitemap.xml',
   'site.webmanifest'
