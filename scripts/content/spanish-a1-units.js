@@ -2318,13 +2318,143 @@ for (const unit of units) {
   if (context) unit.activities.listening.transcript += ` ${context}`;
 }
 
+const A1_LISTENING_CLOSINGS = {
+  'hola-mucho-gusto': 'Al final, Valentina y Marco repiten sus nombres una vez más. Los dos están listos para empezar la clase.',
+  'informacion-personal': 'Camila guarda el formulario en su mochila. Mañana quiere saludar a una compañera nueva.',
+  'mi-familia-y-mis-amigos': 'La familia se despide con abrazos y risas. Sofía ayuda a su abuela a llevar unas tazas a la cocina.',
+  'mi-rutina-diaria': 'Tomás pone la alarma antes de apagar la luz. Así puede comenzar el día con tranquilidad.',
+  'mi-casa': 'Carla muestra su habitación a una amiga. Las dos miran unas fotos que están sobre el armario.',
+  'mi-barrio-y-mi-ciudad': 'El visitante agradece mucho la ayuda. Ahora puede llegar al parque sin problema.',
+  'comida-y-bebida': 'El mesero lleva el pedido a la mesa. La persona sonríe y empieza a desayunar.',
+  'de-compras': 'La clienta sale contenta de la tienda. Quiere usar la camisa azul el próximo sábado.',
+  'estudios-y-trabajo': 'Natalia termina el informe a tiempo. Después descansa un momento antes de continuar con sus tareas.',
+  'tiempo-libre': 'Ana escribe a Kevin para confirmar el plan. Los dos esperan tener una tarde divertida.',
+  'salud-y-bienestar-a1': 'Isabel apaga el teléfono y descansa. Quiere sentirse mejor para volver a ver a sus amigos.',
+  'planes-y-repaso': 'La familia sonríe al pensar en el paseo. Todos colaboran para dejar las cosas preparadas.'
+};
+
+for (const unit of units) {
+  const closing = A1_LISTENING_CLOSINGS[unit.slug];
+  if (closing) unit.activities.listening.transcript += ` ${closing}`;
+}
+
+// A1 audio follows the situations learners need first in real conversation.
+// The voices alternate between first and third person to expose conjugations
+// naturally while keeping every script easy to record and understand.
+const A1_LISTENING_EVERYDAY_SCRIPTS = {
+  'hola-mucho-gusto': 'Hola, me llamo Valentina. Tengo diecinueve años y soy de Santo Domingo. Vivo con mi familia y estudio español por las tardes. Me gusta escuchar música y hablar con personas de otros países. Hoy es mi primer día de clase y estoy un poco nerviosa, pero muy contenta. Quiero aprender palabras nuevas y hacer amigos. Mucho gusto, espero conocerte pronto.',
+  'informacion-personal': 'Este es mi compañero Marco. Tiene veinte años, es de Italia y ahora vive en Santiago. Estudia español porque quiere viajar por América Latina. Marco habla italiano e inglés, y también entiende un poco de francés. En clase se sienta cerca de mí y siempre trae una libreta azul. Es muy amable y le gusta ayudar cuando alguien tiene una pregunta.',
+  'mi-familia-y-mis-amigos': 'Quiero hablar de mi mejor amigo, Kevin. Lo conozco desde la escuela y vivimos en el mismo barrio. Tiene dieciocho años, es divertido y muy tranquilo. A Kevin le gusta jugar al fútbol, ver películas y cocinar pasta los domingos. Cuando tengo un problema, él escucha con atención y me da buenos consejos. Los sábados solemos ir al parque o tomar un jugo después de clase.',
+  'mi-rutina-diaria': 'Sofía vive con sus padres y sus dos hermanos. Su madre trabaja en una tienda y su padre es conductor. Su hermana Lucía tiene dieciséis años y su hermano Tomás tiene nueve. Los domingos la familia come junta en casa de la abuela Rosa. Después de comer, todos conversan y los niños juegan en el patio. Sofía dice que su familia es grande, pero muy cariñosa.',
+  'mi-casa': 'Vivo en una casa pequeña, pero cómoda. Tiene dos habitaciones, una sala, una cocina y un baño. En mi habitación hay una cama, un armario y una mesa para estudiar. La sala tiene un sofá grande y unas fotos de mi familia. Detrás de la casa hay un patio con plantas. Me gusta sentarme allí por la tarde porque es tranquilo y puedo leer o escuchar música.',
+  'mi-barrio-y-mi-ciudad': 'Cada día me levanto a las seis y media. Primero me ducho, desayuno y preparo mi mochila. Después camino a la escuela; las clases empiezan a las ocho. Por la tarde hago la tarea y ayudo un poco en casa. A veces veo una serie antes de cenar. Por la noche preparo mi ropa para el día siguiente y pongo la alarma. Así no tengo que correr por la mañana.',
+  'comida-y-bebida': 'Un estudiante nuevo quiere llegar a la biblioteca. Primero camina derecho por esta calle y dobla a la izquierda en el banco. La biblioteca está frente al parque, al lado de una farmacia. Si necesita comprar agua, hay una tienda pequeña cerca de la entrada. El estudiante repite las indicaciones antes de salir. Después agradece la ayuda y camina con más seguridad por el barrio.',
+  'de-compras': 'Hoy desayuno en una cafetería cerca de la escuela. Pido un café con leche, pan y una fruta. Para el almuerzo quiero una ensalada y un vaso de agua, porque no tengo mucha hambre. El mesero pregunta si deseo un jugo, pero prefiero agua. Mientras espero mi pedido, miro el menú y pienso que mañana voy a probar una sopa. La comida llega caliente y todo está delicioso.',
+  'estudios-y-trabajo': 'Carla necesita comprar una camisa para una entrevista. En la tienda encuentra una camisa azul de talla mediana y pregunta cuánto cuesta. La vendedora dice que vale ochocientos pesos. Carla se la prueba, pero necesita una talla más grande. También ve una camisa verde, aunque prefiere la azul porque combina con sus pantalones. Al final paga con tarjeta y guarda el recibo en su cartera.',
+  'tiempo-libre': 'Los sábados me gusta descansar después de una semana ocupada. A veces voy al cine con mi mejor amiga y preferimos una comedia. Si hace buen tiempo, vamos al parque y comemos algo. También me gusta leer, escuchar música y jugar al fútbol con mis amigos. Este sábado quiero ver una película nueva y después tomar un helado. Me gustan los planes sencillos porque puedo conversar y descansar.',
+  'salud-y-bienestar-a1': 'Esta mañana Isabel no se siente bien. Le duele la cabeza y también la garganta, aunque no tiene fiebre. Está cansada, por eso va a la farmacia. El farmacéutico le recomienda descansar, beber mucha agua y consultar a un médico si no mejora. Isabel decide quedarse en casa esta tarde. Si mañana se siente mejor, volverá a clase; si el dolor continúa, pedirá una cita médica.',
+  'planes-y-repaso': 'Este fin de semana voy a visitar la playa con mi familia. El sábado vamos a nadar, caminar junto al mar y comer algo sencillo. Mi hermano quiere jugar con una pelota y mi madre prepara unos sándwiches. El domingo pienso descansar en casa y llamar a mi abuela. Si hace buen tiempo, también voy a salir con mis amigos por la tarde. Ya estoy preparando una mochila con agua, toallas y protector solar.'
+};
+
+for (const unit of units) {
+  const transcript = A1_LISTENING_EVERYDAY_SCRIPTS[unit.slug];
+  if (transcript) unit.activities.listening.transcript = transcript;
+}
+
+function a1ListeningQuestion(prompt, options, answer, explanation) {
+  return { type: 'mcq', prompt, options, answer, explanation };
+}
+
+// These questions are written directly from the final recording scripts
+// above. The same three items feed the legacy exercise view and the scored
+// Listening comprehension tab, so neither path can drift from the audio.
+const A1_LISTENING_QUESTIONS = {
+  'hola-mucho-gusto': [
+    a1ListeningQuestion('¿Cómo se llama la persona?', ['Valentina', 'Marco', 'Sofía', 'Carla'], 0, 'La narradora dice: «Me llamo Valentina». '),
+    a1ListeningQuestion('¿De dónde es Valentina?', ['De Santo Domingo', 'De Italia', 'De México', 'De Santiago'], 0, 'Valentina dice que es de Santo Domingo.'),
+    a1ListeningQuestion('¿Qué quiere hacer en clase?', ['Aprender palabras y hacer amigos', 'Comprar una camisa', 'Ir a la playa', 'Trabajar en una tienda'], 0, 'Quiere aprender palabras nuevas y hacer amigos.')
+  ],
+  'informacion-personal': [
+    a1ListeningQuestion('¿Cómo se llama el compañero?', ['Marco', 'Kevin', 'Tomás', 'Rafael'], 0, 'El texto presenta al compañero Marco.'),
+    a1ListeningQuestion('¿De qué país es Marco?', ['Italia', 'México', 'España', 'República Dominicana'], 0, 'Marco es de Italia.'),
+    a1ListeningQuestion('¿Por qué estudia español?', ['Porque quiere viajar por América Latina', 'Porque trabaja en una farmacia', 'Porque vive en la playa', 'Porque vende camisas'], 0, 'Estudia español para viajar por América Latina.')
+  ],
+  'mi-familia-y-mis-amigos': [
+    a1ListeningQuestion('¿Cómo se llama el mejor amigo?', ['Kevin', 'Marco', 'Tomás', 'Rafael'], 0, 'La persona habla de su mejor amigo Kevin.'),
+    a1ListeningQuestion('¿Desde cuándo conoce a Kevin?', ['Desde la escuela', 'Desde ayer', 'Desde el trabajo', 'Desde un viaje'], 0, 'Lo conoce desde la escuela.'),
+    a1ListeningQuestion('¿Qué le gusta hacer a Kevin?', ['Jugar al fútbol y ver películas', 'Cocinar en una farmacia', 'Trabajar en un banco', 'Nadar cada mañana'], 0, 'A Kevin le gusta jugar al fútbol y ver películas.')
+  ],
+  'mi-rutina-diaria': [
+    a1ListeningQuestion('¿Con quién vive Sofía?', ['Con sus padres y hermanos', 'Con Marco y Kevin', 'Con sus profesores', 'Con una amiga italiana'], 0, 'Sofía vive con sus padres y sus dos hermanos.'),
+    a1ListeningQuestion('¿Qué hace la familia los domingos?', ['Come junta', 'Viaja a Valencia', 'Va al cine', 'Compra ropa'], 0, 'Los domingos la familia come junta.'),
+    a1ListeningQuestion('¿Dónde juega los niños?', ['En el patio', 'En la estación', 'En la farmacia', 'En la biblioteca'], 0, 'Después de comer, los niños juegan en el patio.')
+  ],
+  'mi-casa': [
+    a1ListeningQuestion('¿Cuántas habitaciones tiene la casa?', ['Dos', 'Una', 'Tres', 'Cuatro'], 0, 'La casa tiene dos habitaciones.'),
+    a1ListeningQuestion('¿Qué hay en la habitación?', ['Una cama, un armario y una mesa', 'Un banco y una farmacia', 'Una estufa y un tren', 'Un cine y un parque'], 0, 'La habitación tiene una cama, un armario y una mesa.'),
+    a1ListeningQuestion('¿Dónde se sienta la persona por la tarde?', ['En el patio', 'En el metro', 'En la tienda', 'En la escuela'], 0, 'Le gusta sentarse en el patio.')
+  ],
+  'mi-barrio-y-mi-ciudad': [
+    a1ListeningQuestion('¿A qué hora se levanta la persona?', ['A las seis y media', 'A las ocho', 'A las diez', 'A las doce'], 0, 'La persona se levanta a las seis y media.'),
+    a1ListeningQuestion('¿Cómo llega a la escuela?', ['Caminando', 'En tren', 'En avión', 'En taxi'], 0, 'Camina a la escuela.'),
+    a1ListeningQuestion('¿Qué prepara por la noche?', ['La ropa y la alarma', 'Una sopa', 'Un billete', 'Una camisa'], 0, 'Por la noche prepara la ropa y pone la alarma.')
+  ],
+  'comida-y-bebida': [
+    a1ListeningQuestion('¿Dónde está la biblioteca?', ['Frente al parque', 'Dentro de la estación', 'Detrás de la playa', 'En la escuela'], 0, 'La biblioteca está frente al parque.'),
+    a1ListeningQuestion('¿Qué hay al lado de la biblioteca?', ['Una farmacia', 'Un cine', 'Una casa', 'Un mercado'], 0, 'Está al lado de una farmacia.'),
+    a1ListeningQuestion('¿Qué hace el estudiante antes de salir?', ['Repite las indicaciones', 'Compra una camisa', 'Pide una sopa', 'Llama a su abuela'], 0, 'Repite las indicaciones para no perderse.')
+  ],
+  'de-compras': [
+    a1ListeningQuestion('¿Qué pide para desayunar?', ['Café con leche, pan y fruta', 'Sopa y arroz', 'Una camisa azul', 'Un helado'], 0, 'Pide café con leche, pan y una fruta.'),
+    a1ListeningQuestion('¿Qué prefiere beber en el almuerzo?', ['Agua', 'Jugo', 'Café', 'Leche'], 0, 'Prefiere un vaso de agua.'),
+    a1ListeningQuestion('¿Qué quiere probar mañana?', ['Una sopa', 'Una camisa', 'Un tren', 'Una película'], 0, 'Piensa que mañana probará una sopa.')
+  ],
+  'estudios-y-trabajo': [
+    a1ListeningQuestion('¿Qué necesita comprar Carla?', ['Una camisa', 'Un billete', 'Una mesa', 'Un libro'], 0, 'Carla necesita comprar una camisa.'),
+    a1ListeningQuestion('¿Qué color elige?', ['Azul', 'Verde', 'Rojo', 'Amarillo'], 0, 'Prefiere la camisa azul.'),
+    a1ListeningQuestion('¿Cómo paga la compra?', ['Con tarjeta', 'Con un cheque', 'Con un regalo', 'No paga'], 0, 'Al final paga con tarjeta.')
+  ],
+  'tiempo-libre': [
+    a1ListeningQuestion('¿Qué tipo de película prefiere?', ['Una comedia', 'Una película de terror', 'Un documental', 'Una película de acción'], 0, 'Prefiere una comedia.'),
+    a1ListeningQuestion('¿Qué hace si hace buen tiempo?', ['Va al parque', 'Se queda en la farmacia', 'Trabaja en la tienda', 'Toma el tren'], 0, 'Si hace buen tiempo, va al parque.'),
+    a1ListeningQuestion('¿Qué quiere hacer este sábado?', ['Ver una película y tomar un helado', 'Comprar un apartamento', 'Preparar un examen', 'Visitar un banco'], 0, 'Quiere ver una película nueva y tomar un helado.')
+  ],
+  'salud-y-bienestar-a1': [
+    a1ListeningQuestion('¿Qué le duele a Isabel?', ['La cabeza y la garganta', 'La mano y el pie', 'Los ojos y la espalda', 'El estómago y la pierna'], 0, 'Le duele la cabeza y la garganta.'),
+    a1ListeningQuestion('¿Qué le recomienda el farmacéutico?', ['Descansar y beber agua', 'Ir al cine', 'Comprar ropa', 'Viajar a la playa'], 0, 'Le recomienda descansar y beber mucha agua.'),
+    a1ListeningQuestion('¿Qué hará si el dolor continúa?', ['Pedir una cita médica', 'Ir a clase', 'Jugar al fútbol', 'Preparar una sopa'], 0, 'Si el dolor continúa, pedirá una cita médica.')
+  ],
+  'planes-y-repaso': [
+    a1ListeningQuestion('¿Adónde va la familia el sábado?', ['A la playa', 'A la estación', 'A la farmacia', 'A la biblioteca'], 0, 'El sábado van a la playa.'),
+    a1ListeningQuestion('¿Qué prepara la madre?', ['Sándwiches', 'Una camisa azul', 'Un mapa', 'Una película'], 0, 'La madre prepara unos sándwiches.'),
+    a1ListeningQuestion('¿Qué lleva la persona en la mochila?', ['Agua, toallas y protector solar', 'Libros y una computadora', 'Arroz y tomates', 'Un tren y un billete'], 0, 'Prepara una mochila con agua, toallas y protector solar.')
+  ]
+};
+
+for (const unit of units) {
+  const questions = A1_LISTENING_QUESTIONS[unit.slug];
+  if (!questions) continue;
+  const listening = unit.activities.listening;
+  listening.exercises = questions;
+  listening.listeningComprehension = {
+    id: `spanish-a1-${unit.slug}-listening-comprehension`,
+    passingScore: 70,
+    questions: questions.map((question, index) => ({
+      id: `q${index + 1}`,
+      type: 'mcq',
+      prompt: question.prompt,
+      options: question.options.map((text, optionIndex) => ({ id: `o${optionIndex + 1}`, text })),
+      correctOptionId: `o${question.answer + 1}`,
+      explanation: question.explanation
+    }))
+  };
+}
+
 // The routed A1 experience evaluates four focused questions per skill.
 // The first legacy unit carried an older six-question pilot and an expanded
 // Reading bank, so normalize it with the rest of the course.
 const A1_FIRST_UNIT = units[0];
 A1_FIRST_UNIT.activities.reading.exercises = A1_FIRST_UNIT.activities.reading.exercises.slice(0, 4);
-A1_FIRST_UNIT.activities.listening.listeningComprehension.questions =
-  A1_FIRST_UNIT.activities.listening.listeningComprehension.questions.slice(0, 4);
 
 for (const unit of units) {
   unit.activities.reading.exercises = unit.activities.reading.exercises.slice(0, 4);

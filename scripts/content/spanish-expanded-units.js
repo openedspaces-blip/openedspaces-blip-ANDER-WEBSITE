@@ -420,6 +420,10 @@ const A2_LISTENING_MONOLOGUES = {
   'planes-y-proyectos': 'Tengo que presentar un proyecto con mi compañera el viernes. Yo voy a revisar los datos y ella preparará las diapositivas. El miércoles nos reuniremos para revisar el resultado y cambiar lo necesario. Si terminamos el borrador ese día, tendremos tiempo para ensayar la presentación. Hoy revisaré la información y mañana enviaré la versión final al equipo para que todos conozcan el acuerdo.'
 };
 
+// A2 uses a consistent first-person voice so learners can follow one speaker
+// and hear the full range of everyday first-person forms in context.
+const A2_LISTENING_FIRST_PERSON_BASES = { ...A2_LISTENING_MONOLOGUES };
+
 for (const [slug, transcript] of Object.entries(A2_LISTENING_MONOLOGUES)) {
   Object.assign(A2_LISTENING_SCRIPTS[slug], { speakers: ['Narrador/a'], transcript });
 }
@@ -514,6 +518,33 @@ const A2_LISTENING_CONTEXT = {
 
 for (const [slug, context] of Object.entries(A2_LISTENING_CONTEXT)) {
   const transcript = `${A2_LISTENING_MONOLOGUES[slug]} ${context}`;
+  A2_LISTENING_MONOLOGUES[slug] = transcript;
+  Object.assign(A2_LISTENING_SCRIPTS[slug], { speakers: ['Narrador/a'], transcript });
+}
+
+const A2_LISTENING_CLOSINGS = {
+  'compras-y-cantidades': 'Al llegar a casa, guarda el recibo y revisa lo que compró. Así sabe qué necesita para la próxima visita.',
+  'orientarse-en-la-ciudad': 'Antes de irse, anota el nombre de la estación. Le será útil cuando vuelva con sus amigos.',
+  'rutinas-y-horarios': 'Esa noche prepara todo con tiempo. Quiere empezar el día siguiente sin prisas.',
+  'salud-y-bienestar': 'También anota la hora de la próxima cita. Tener un plan claro le da más tranquilidad.',
+  'viajes-y-transporte': 'Cuando llega al destino, llama a su familia. Les cuenta que el viaje fue más largo de lo esperado.',
+  'casa-y-barrio': 'Luego visita una cafetería cercana para conocer el ambiente. Quiere imaginar cómo sería vivir allí cada día.',
+  'comidas-y-recetas': 'La familia guarda una porción para el día siguiente. Todos coinciden en que la receta fue una buena idea.',
+  'recuerdos-y-experiencias': 'Antes de dormir, escriben unas notas sobre el viaje. No quieren olvidar los pequeños detalles.',
+  celebraciones: 'Al despedirse, cada persona ayuda a recoger las sillas. La casa queda tranquila después de una tarde especial.',
+  'estudio-y-aprendizaje': 'Al terminar, prepara las preguntas que llevará a clase. Así podrá aprovechar mejor la próxima explicación.',
+  'tecnologia-cotidiana': 'Finalmente, guarda la contraseña en un lugar seguro. Prefiere no compartirla con nadie.',
+  'planes-y-proyectos': 'Al salir de la reunión, el equipo confirma la hora del siguiente ensayo. Todos saben qué deben preparar.'
+};
+
+for (const [slug, closing] of Object.entries(A2_LISTENING_CLOSINGS)) {
+  const transcript = `${A2_LISTENING_MONOLOGUES[slug]} ${closing}`;
+  A2_LISTENING_MONOLOGUES[slug] = transcript;
+  Object.assign(A2_LISTENING_SCRIPTS[slug], { speakers: ['Narrador/a'], transcript });
+}
+
+for (const [slug, base] of Object.entries(A2_LISTENING_FIRST_PERSON_BASES)) {
+  const transcript = `${base} Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.`;
   A2_LISTENING_MONOLOGUES[slug] = transcript;
   Object.assign(A2_LISTENING_SCRIPTS[slug], { speakers: ['Narrador/a'], transcript });
 }
@@ -820,6 +851,17 @@ function countListeningWords(text) {
   return String(text).trim().split(/\s+/).filter(Boolean).length;
 }
 
+function limitListeningWords(text, maximum) {
+  if (countListeningWords(text) <= maximum) return text;
+  const sentences = String(text).match(/[^.!?]+[.!?]+(?:\s|$)/g) || [];
+  const selected = [];
+  for (const sentence of sentences) {
+    if (countListeningWords([...selected, sentence].join(' ')) > maximum) break;
+    selected.push(sentence.trim());
+  }
+  return selected.join(' ') || String(text).split(/\s+/).slice(0, maximum).join(' ');
+}
+
 function buildAdvancedListening(level, spec, readingContent, index = 0) {
   const [slug, unitTitle, scenario, objective, grammar, words] = spec;
   const model = grammarModel(grammar, words, scenario);
@@ -833,7 +875,7 @@ function buildAdvancedListening(level, spec, readingContent, index = 0) {
     ? 'Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada.'
     : '';
   const format = ADVANCED_LISTENING_FORMATS[level][index] || 'análisis sonoro';
-  const progressiveTarget = level === 'C2' ? 650 : 550;
+  const progressiveTarget = level === 'C2' ? 235 : 210;
   const transcriptParts = [
     // English and French C1-C2 start with the subject itself, not with a
     // repeated instruction announcing what the audio will analyse. Keep the
@@ -857,7 +899,8 @@ function buildAdvancedListening(level, spec, readingContent, index = 0) {
     if (countListeningWords(transcriptParts.join(' ')) >= progressiveTarget) break;
     transcriptParts.push(layer);
   }
-  const transcript = AUTHORED_ADVANCED_LISTENING[level]?.[slug] || transcriptParts.join(' ');
+  const rawTranscript = AUTHORED_ADVANCED_LISTENING[level]?.[slug] || transcriptParts.join(' ');
+  const transcript = limitListeningWords(rawTranscript, level === 'C2' ? 240 : 215);
   const exercises = [
     q('¿Cuál es el propósito principal del audio?', ['Analizar el tema con evidencia, contexto y matices', 'Memorizar una lista sin relación con la unidad', 'Contar una historia sin conexión con el Reading', 'Dar una única respuesta definitiva'], 0, 'El audio adapta el Reading para analizarlo de forma crítica.'),
     q('¿Qué recomienda hacer ante una afirmación convincente?', ['Aceptarla de inmediato', 'Preguntar por fuentes, personas afectadas y consecuencias', 'Evitar toda comparación', 'Copiarla sin revisar'], 1, 'El audio insiste en comprobar el origen, el impacto y el contexto de la información.'),

@@ -36,15 +36,11 @@ function wordRangeFor(level, order) {
   // CEFR levels contain a progression of their own: A1− → A1+, then
   // A2− → A2+.  The ranges protect that editorial rhythm in future edits.
   if (level === 'A1') {
-    if (order === 1) return [45, 55];
-    if (order === 2) return [50, 60];
-    if (order <= 4) return [60, 75];
-    if (order <= 8) return [65, 80];
-    return [70, 85];
+    return [60, 80];
   }
-  if (order <= 4) return [90, 105];
-  if (order <= 8) return [95, 110];
-  return [95, 115];
+  if (order <= 4) return [100, 120];
+  if (order <= 8) return [100, 120];
+  return [100, 120];
 }
 
 function rowsFor(levelConfig) {

@@ -922,7 +922,7 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Es el primer día de clase. Valentina entra al salón y conoce a Marco. Ella dice: «Hola, mucho gusto». Marco responde: «Mucho gusto». Valentina deletrea su nombre: V-A-L-E-N-T-I-N-A. Marco dice: M-A-R-C-O. Después buscan sus asientos. La profesora sonríe y escribe los nombres de los estudiantes nuevos en la pizarra.",
+    "transcript": "Hola, me llamo Valentina. Tengo diecinueve años y soy de Santo Domingo. Vivo con mi familia y estudio español por las tardes. Me gusta escuchar música y hablar con personas de otros países. Hoy es mi primer día de clase y estoy un poco nerviosa, pero muy contenta. Quiero aprender palabras nuevas y hacer amigos. Mucho gusto, espero conocerte pronto.",
     "extra": {
       "listeningType": "story",
       "difficulty": "A1",
@@ -962,98 +962,75 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "spanish-a1-hola-mucho-gusto-listening-listening-comprehension",
+        "id": "spanish-a1-hola-mucho-gusto-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Mucho gusto, ¿cómo te llamas?», ¿qué detalle presenta la situación?",
+            "prompt": "¿Cómo se llama la persona?",
             "options": [
               {
                 "id": "o1",
-                "text": "Es el primer día de clase."
+                "text": "Valentina"
               },
               {
                 "id": "o2",
-                "text": "Ella dice: «Hola, mucho gusto»."
+                "text": "Marco"
               },
               {
                 "id": "o3",
-                "text": "Marco dice: M-A-R-C-O."
+                "text": "Sofía"
               },
               {
                 "id": "o4",
-                "text": "La profesora sonríe y escribe los nombres de los estudiantes nuevos en la pizarra."
+                "text": "Carla"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Es el primer día de clase.», ¿qué sucede a continuación en «Mucho gusto, ¿cómo te llamas?»?",
+            "prompt": "¿De dónde es Valentina?",
             "options": [
               {
                 "id": "o1",
-                "text": "Es el primer día de clase."
+                "text": "De Santo Domingo"
               },
               {
                 "id": "o2",
-                "text": "Ella dice: «Hola, mucho gusto»."
+                "text": "De Italia"
               },
               {
                 "id": "o3",
-                "text": "Marco dice: M-A-R-C-O."
+                "text": "De México"
               },
               {
                 "id": "o4",
-                "text": "La profesora sonríe y escribe los nombres de los estudiantes nuevos en la pizarra."
+                "text": "De Santiago"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Mucho gusto, ¿cómo te llamas?»?",
+            "prompt": "¿Qué quiere hacer en clase?",
             "options": [
               {
                 "id": "o1",
-                "text": "Es el primer día de clase."
+                "text": "Aprender palabras y hacer amigos"
               },
               {
                 "id": "o2",
-                "text": "Ella dice: «Hola, mucho gusto»."
+                "text": "Comprar una camisa"
               },
               {
                 "id": "o3",
-                "text": "Marco dice: M-A-R-C-O."
+                "text": "Ir a la playa"
               },
               {
                 "id": "o4",
-                "text": "La profesora sonríe y escribe los nombres de los estudiantes nuevos en la pizarra."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Mucho gusto, ¿cómo te llamas?» después de «M-A-R-C-O.»?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Es el primer día de clase."
-              },
-              {
-                "id": "o2",
-                "text": "Ella dice: «Hola, mucho gusto»."
-              },
-              {
-                "id": "o3",
-                "text": "Marco dice: M-A-R-C-O."
-              },
-              {
-                "id": "o4",
-                "text": "La profesora sonríe y escribe los nombres de los estudiantes nuevos en la pizarra."
+                "text": "Trabajar en una tienda"
               }
             ]
           }
@@ -1064,43 +1041,36 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Mucho gusto, ¿cómo te llamas?», ¿qué detalle presenta la situación?",
+        "prompt": "¿Cómo se llama la persona?",
         "options": [
-          "Es el primer día de clase.",
-          "Ella dice: «Hola, mucho gusto».",
-          "Marco dice: M-A-R-C-O.",
-          "La profesora sonríe y escribe los nombres de los estudiantes nuevos en la pizarra."
-        ]
+          "Valentina",
+          "Marco",
+          "Sofía",
+          "Carla"
+        ],
+        "explanation": "La narradora dice: «Me llamo Valentina». "
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Es el primer día de clase.», ¿qué sucede a continuación en «Mucho gusto, ¿cómo te llamas?»?",
+        "prompt": "¿De dónde es Valentina?",
         "options": [
-          "Es el primer día de clase.",
-          "Ella dice: «Hola, mucho gusto».",
-          "Marco dice: M-A-R-C-O.",
-          "La profesora sonríe y escribe los nombres de los estudiantes nuevos en la pizarra."
-        ]
+          "De Santo Domingo",
+          "De Italia",
+          "De México",
+          "De Santiago"
+        ],
+        "explanation": "Valentina dice que es de Santo Domingo."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Mucho gusto, ¿cómo te llamas?»?",
+        "prompt": "¿Qué quiere hacer en clase?",
         "options": [
-          "Es el primer día de clase.",
-          "Ella dice: «Hola, mucho gusto».",
-          "Marco dice: M-A-R-C-O.",
-          "La profesora sonríe y escribe los nombres de los estudiantes nuevos en la pizarra."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Mucho gusto, ¿cómo te llamas?» después de «M-A-R-C-O.»?",
-        "options": [
-          "Es el primer día de clase.",
-          "Ella dice: «Hola, mucho gusto».",
-          "Marco dice: M-A-R-C-O.",
-          "La profesora sonríe y escribe los nombres de los estudiantes nuevos en la pizarra."
-        ]
+          "Aprender palabras y hacer amigos",
+          "Comprar una camisa",
+          "Ir a la playa",
+          "Trabajar en una tienda"
+        ],
+        "explanation": "Quiere aprender palabras nuevas y hacer amigos."
       }
     ]
   },
@@ -1127,14 +1097,14 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "El mercado abre temprano y hoy hay mucha gente. Una clienta lleva una lista: medio kilo de tomates, un kilo de arroz y una bolsa de naranjas. Los tomates cuestan tres euros el kilo y el arroz cuesta dos. El vendedor calcula el total y explica que la bolsa vale un euro más. La clienta paga con tarjeta, comprueba el recibo y guarda la compra antes de volver a casa. En casa, coloca las naranjas en un plato y revisa la lista. La próxima semana comparará los precios con otro mercado para organizar mejor sus gastos.",
+    "transcript": "Esta mañana fui al mercado para comprar medio kilo de tomates, un kilo de arroz y una bolsa de naranjas. Los tomates costaban tres euros el kilo y el arroz costaba dos euros. El vendedor calculó el total y me explicó que la bolsa costaba un euro más. Decidí pagar con tarjeta. Antes de irme, comprobé el recibo y guardé bien mi compra. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.",
     "extra": {
       "listeningType": "story",
       "difficulty": "A2",
       "speakers": [
         "Narrador/a"
       ],
-      "transcript": "El mercado abre temprano y hoy hay mucha gente. Una clienta lleva una lista: medio kilo de tomates, un kilo de arroz y una bolsa de naranjas. Los tomates cuestan tres euros el kilo y el arroz cuesta dos. El vendedor calcula el total y explica que la bolsa vale un euro más. La clienta paga con tarjeta, comprueba el recibo y guarda la compra antes de volver a casa. En casa, coloca las naranjas en un plato y revisa la lista. La próxima semana comparará los precios con otro mercado para organizar mejor sus gastos.",
+      "transcript": "Esta mañana fui al mercado para comprar medio kilo de tomates, un kilo de arroz y una bolsa de naranjas. Los tomates costaban tres euros el kilo y el arroz costaba dos euros. El vendedor calculó el total y me explicó que la bolsa costaba un euro más. Decidí pagar con tarjeta. Antes de irme, comprobé el recibo y guardé bien mi compra. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.",
       "listeningComprehension": {
         "id": "spanish-a2-compras-y-cantidades-listening-comprehension",
         "passingScore": 70,
@@ -1630,14 +1600,14 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "¿Alguna vez has sentido que ya no necesitas recordar tantas cosas como antes? Hace unos años era normal memorizar números de teléfono, direcciones o incluso el camino para llegar a un lugar. Hoy basta con sacar el móvil del bolsillo y dejar que una aplicación haga el trabajo por nosotros. Algo parecido está ocurriendo con la inteligencia artificial.\n\nCada día millones de personas le piden ayuda para escribir correos electrónicos, resumir documentos, traducir textos, resolver ejercicios o generar ideas para un proyecto. En cuestión de segundos reciben una respuesta que, en muchos casos, parece perfectamente elaborada. La pregunta es inevitable: ¿estamos utilizando una herramienta que amplía nuestras capacidades o estamos dejando que piense por nosotros?\n\nLa historia demuestra que cada gran avance tecnológico despertó preocupaciones similares. Cuando apareció la imprenta, algunos pensaban que la memoria humana se volvería menos importante. Más tarde ocurrió lo mismo con las calculadoras y, después, con Internet. Sin embargo, ninguna de esas tecnologías eliminó la necesidad de pensar. Lo que hicieron fue cambiar la forma en que utilizábamos nuestro conocimiento.\n\nLa inteligencia artificial plantea un desafío distinto porque no solo almacena información; también puede organizarla, redactarla y presentarla como si fuera una persona. Eso explica por qué muchos estudiantes, profesionales y empresas la utilizan todos los días. El problema aparece cuando olvidamos que una respuesta bien escrita no siempre es una respuesta correcta.\n\nImagina que dos médicos reciben exactamente los mismos síntomas de un paciente. Ambos consultan una herramienta de inteligencia artificial. El primero acepta el diagnóstico sin hacer preguntas adicionales. El segundo utiliza esa sugerencia como punto de partida, revisa el historial clínico, solicita pruebas complementarias y conversa con el paciente antes de tomar una decisión. Los dos utilizaron la misma tecnología, pero solo uno aplicó el criterio que su profesión exige.\n\nLo mismo ocurre en nuestra vida cotidiana. La inteligencia artificial puede ayudarnos a ahorrar tiempo, descubrir nuevas ideas e incluso aprender más rápido. Pero sigue siendo nuestra responsabilidad verificar la información, identificar posibles errores y comprender el contexto. Ningún algoritmo conoce completamente nuestra realidad, nuestros valores o nuestras prioridades.\n\nExiste otro aspecto menos evidente. Cuanto más dependemos de respuestas instantáneas, menos acostumbrados estamos a convivir con la duda. Y, sin embargo, las mejores decisiones rara vez nacen de respuestas inmediatas. Nacen de preguntas bien formuladas, de la curiosidad y de la capacidad para analizar diferentes perspectivas antes de llegar a una conclusión.\n\nQuizá el verdadero cambio que estamos viviendo no sea tecnológico, sino educativo. Durante décadas aprendimos a memorizar datos. Ahora necesitamos aprender a interpretar información, evaluar fuentes y construir argumentos sólidos. En un mundo donde cualquiera puede generar miles de palabras en pocos segundos, el verdadero valor estará en quien sea capaz de pensar con profundidad.\n\nLa inteligencia artificial no decidirá el futuro por nosotros. Lo decidirá la manera en que decidamos utilizarla. Si la convertimos en un sustituto de nuestro pensamiento, perderemos una habilidad esencial. Pero si la usamos como una herramienta para ampliar nuestra creatividad y nuestro razonamiento, puede convertirse en una de las mayores aliadas del aprendizaje.\n\nLa próxima vez que una inteligencia artificial responda una de tus preguntas, no te conformes con leer la respuesta. Pregúntate de dónde proviene esa información, qué evidencia la respalda y qué otras interpretaciones podrían existir. Tal vez esa pequeña pausa sea la diferencia entre simplemente consumir información y desarrollar un pensamiento verdaderamente crítico.",
+    "transcript": "¿Alguna vez has sentido que ya no necesitas recordar tantas cosas como antes? Hace unos años era normal memorizar números de teléfono, direcciones o incluso el camino para llegar a un lugar. Hoy basta con sacar el móvil del bolsillo y dejar que una aplicación haga el trabajo por nosotros. Algo parecido está ocurriendo con la inteligencia artificial. Cada día millones de personas le piden ayuda para escribir correos electrónicos, resumir documentos, traducir textos, resolver ejercicios o generar ideas para un proyecto. En cuestión de segundos reciben una respuesta que, en muchos casos, parece perfectamente elaborada. La pregunta es inevitable: ¿estamos utilizando una herramienta que amplía nuestras capacidades o estamos dejando que piense por nosotros? La historia demuestra que cada gran avance tecnológico despertó preocupaciones similares. Cuando apareció la imprenta, algunos pensaban que la memoria humana se volvería menos importante. Más tarde ocurrió lo mismo con las calculadoras y, después, con Internet. Sin embargo, ninguna de esas tecnologías eliminó la necesidad de pensar. Lo que hicieron fue cambiar la forma en que utilizábamos nuestro conocimiento. La inteligencia artificial plantea un desafío distinto porque no solo almacena información; también puede organizarla, redactarla y presentarla como si fuera una persona. Eso explica por qué muchos estudiantes, profesionales y empresas la utilizan todos los días.",
     "extra": {
       "listeningType": "story",
       "difficulty": "C1",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "¿Alguna vez has sentido que ya no necesitas recordar tantas cosas como antes? Hace unos años era normal memorizar números de teléfono, direcciones o incluso el camino para llegar a un lugar. Hoy basta con sacar el móvil del bolsillo y dejar que una aplicación haga el trabajo por nosotros. Algo parecido está ocurriendo con la inteligencia artificial.\n\nCada día millones de personas le piden ayuda para escribir correos electrónicos, resumir documentos, traducir textos, resolver ejercicios o generar ideas para un proyecto. En cuestión de segundos reciben una respuesta que, en muchos casos, parece perfectamente elaborada. La pregunta es inevitable: ¿estamos utilizando una herramienta que amplía nuestras capacidades o estamos dejando que piense por nosotros?\n\nLa historia demuestra que cada gran avance tecnológico despertó preocupaciones similares. Cuando apareció la imprenta, algunos pensaban que la memoria humana se volvería menos importante. Más tarde ocurrió lo mismo con las calculadoras y, después, con Internet. Sin embargo, ninguna de esas tecnologías eliminó la necesidad de pensar. Lo que hicieron fue cambiar la forma en que utilizábamos nuestro conocimiento.\n\nLa inteligencia artificial plantea un desafío distinto porque no solo almacena información; también puede organizarla, redactarla y presentarla como si fuera una persona. Eso explica por qué muchos estudiantes, profesionales y empresas la utilizan todos los días. El problema aparece cuando olvidamos que una respuesta bien escrita no siempre es una respuesta correcta.\n\nImagina que dos médicos reciben exactamente los mismos síntomas de un paciente. Ambos consultan una herramienta de inteligencia artificial. El primero acepta el diagnóstico sin hacer preguntas adicionales. El segundo utiliza esa sugerencia como punto de partida, revisa el historial clínico, solicita pruebas complementarias y conversa con el paciente antes de tomar una decisión. Los dos utilizaron la misma tecnología, pero solo uno aplicó el criterio que su profesión exige.\n\nLo mismo ocurre en nuestra vida cotidiana. La inteligencia artificial puede ayudarnos a ahorrar tiempo, descubrir nuevas ideas e incluso aprender más rápido. Pero sigue siendo nuestra responsabilidad verificar la información, identificar posibles errores y comprender el contexto. Ningún algoritmo conoce completamente nuestra realidad, nuestros valores o nuestras prioridades.\n\nExiste otro aspecto menos evidente. Cuanto más dependemos de respuestas instantáneas, menos acostumbrados estamos a convivir con la duda. Y, sin embargo, las mejores decisiones rara vez nacen de respuestas inmediatas. Nacen de preguntas bien formuladas, de la curiosidad y de la capacidad para analizar diferentes perspectivas antes de llegar a una conclusión.\n\nQuizá el verdadero cambio que estamos viviendo no sea tecnológico, sino educativo. Durante décadas aprendimos a memorizar datos. Ahora necesitamos aprender a interpretar información, evaluar fuentes y construir argumentos sólidos. En un mundo donde cualquiera puede generar miles de palabras en pocos segundos, el verdadero valor estará en quien sea capaz de pensar con profundidad.\n\nLa inteligencia artificial no decidirá el futuro por nosotros. Lo decidirá la manera en que decidamos utilizarla. Si la convertimos en un sustituto de nuestro pensamiento, perderemos una habilidad esencial. Pero si la usamos como una herramienta para ampliar nuestra creatividad y nuestro razonamiento, puede convertirse en una de las mayores aliadas del aprendizaje.\n\nLa próxima vez que una inteligencia artificial responda una de tus preguntas, no te conformes con leer la respuesta. Pregúntate de dónde proviene esa información, qué evidencia la respalda y qué otras interpretaciones podrían existir. Tal vez esa pequeña pausa sea la diferencia entre simplemente consumir información y desarrollar un pensamiento verdaderamente crítico.",
+      "transcript": "¿Alguna vez has sentido que ya no necesitas recordar tantas cosas como antes? Hace unos años era normal memorizar números de teléfono, direcciones o incluso el camino para llegar a un lugar. Hoy basta con sacar el móvil del bolsillo y dejar que una aplicación haga el trabajo por nosotros. Algo parecido está ocurriendo con la inteligencia artificial. Cada día millones de personas le piden ayuda para escribir correos electrónicos, resumir documentos, traducir textos, resolver ejercicios o generar ideas para un proyecto. En cuestión de segundos reciben una respuesta que, en muchos casos, parece perfectamente elaborada. La pregunta es inevitable: ¿estamos utilizando una herramienta que amplía nuestras capacidades o estamos dejando que piense por nosotros? La historia demuestra que cada gran avance tecnológico despertó preocupaciones similares. Cuando apareció la imprenta, algunos pensaban que la memoria humana se volvería menos importante. Más tarde ocurrió lo mismo con las calculadoras y, después, con Internet. Sin embargo, ninguna de esas tecnologías eliminó la necesidad de pensar. Lo que hicieron fue cambiar la forma en que utilizábamos nuestro conocimiento. La inteligencia artificial plantea un desafío distinto porque no solo almacena información; también puede organizarla, redactarla y presentarla como si fuera una persona. Eso explica por qué muchos estudiantes, profesionales y empresas la utilizan todos los días.",
       "listeningComprehension": {
         "id": "spanish-c1-memoria-y-relato-listening-comprehension",
         "passingScore": 70,
@@ -1809,14 +1779,14 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Cada vez que una plataforma te recomienda un video, una noticia o una canción, toma una decisión basada en señales que rara vez ves. La investigación empieza cuando preguntamos qué datos se usan, qué se prioriza y quién define el objetivo. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «algoritmo», «recomendación» y «perfil». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «algoritmo» parece una decisión individual, conviene considerar «recomendación» y «perfil». Desde esta perspectiva, reconstruir las decisiones invisibles que moldean la atención cotidiana no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de cómo los algoritmos deciden lo que ves cada día implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«atención», «sesgo» y «opacidad»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «investigación periodística», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En investigar cómo las plataformas ordenan noticias, videos y recomendaciones, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «algoritmo», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
+    "transcript": "Cada vez que una plataforma te recomienda un video, una noticia o una canción, toma una decisión basada en señales que rara vez ves. La investigación empieza cuando preguntamos qué datos se usan, qué se prioriza y quién define el objetivo. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «algoritmo», «recomendación» y «perfil». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «algoritmo» parece una decisión individual, conviene considerar «recomendación» y «perfil». Desde esta perspectiva, reconstruir las decisiones invisibles que moldean la atención cotidiana no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal.",
     "extra": {
       "listeningType": "story",
       "difficulty": "C2",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "Cada vez que una plataforma te recomienda un video, una noticia o una canción, toma una decisión basada en señales que rara vez ves. La investigación empieza cuando preguntamos qué datos se usan, qué se prioriza y quién define el objetivo. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «algoritmo», «recomendación» y «perfil». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «algoritmo» parece una decisión individual, conviene considerar «recomendación» y «perfil». Desde esta perspectiva, reconstruir las decisiones invisibles que moldean la atención cotidiana no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de cómo los algoritmos deciden lo que ves cada día implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«atención», «sesgo» y «opacidad»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «investigación periodística», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En investigar cómo las plataformas ordenan noticias, videos y recomendaciones, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «algoritmo», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
+      "transcript": "Cada vez que una plataforma te recomienda un video, una noticia o una canción, toma una decisión basada en señales que rara vez ves. La investigación empieza cuando preguntamos qué datos se usan, qué se prioriza y quién define el objetivo. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «algoritmo», «recomendación» y «perfil». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «algoritmo» parece una decisión individual, conviene considerar «recomendación» y «perfil». Desde esta perspectiva, reconstruir las decisiones invisibles que moldean la atención cotidiana no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal.",
       "listeningComprehension": {
         "id": "spanish-c2-ambiguedad-y-sentido-listening-comprehension",
         "passingScore": 70,
@@ -4978,7 +4948,7 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "En la escuela hay un formulario nuevo. Camila tiene diecinueve años y es de México. Ahora vive en Santiago con su familia. Su teléfono es 809-555-0199. Por las tardes estudia español y practica con sus compañeros. En su clase hay personas de varios países. Camila quiere aprender expresiones útiles para hablar con todos.",
+    "transcript": "Este es mi compañero Marco. Tiene veinte años, es de Italia y ahora vive en Santiago. Estudia español porque quiere viajar por América Latina. Marco habla italiano e inglés, y también entiende un poco de francés. En clase se sienta cerca de mí y siempre trae una libreta azul. Es muy amable y le gusta ayudar cuando alguien tiene una pregunta.",
     "extra": {
       "listeningType": "story",
       "difficulty": "A1",
@@ -5018,98 +4988,75 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "spanish-a1-informacion-personal-listening-listening-comprehension",
+        "id": "spanish-a1-informacion-personal-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Un mensaje de voz», ¿qué detalle presenta la situación?",
+            "prompt": "¿Cómo se llama el compañero?",
             "options": [
               {
                 "id": "o1",
-                "text": "En la escuela hay un formulario nuevo."
+                "text": "Marco"
               },
               {
                 "id": "o2",
-                "text": "Ahora vive en Santiago con su familia."
+                "text": "Kevin"
               },
               {
                 "id": "o3",
-                "text": "Por las tardes estudia español y practica con sus compañeros."
+                "text": "Tomás"
               },
               {
                 "id": "o4",
-                "text": "Camila quiere aprender expresiones útiles para hablar con todos."
+                "text": "Rafael"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «En la escuela hay un formulario nuevo.», ¿qué sucede a continuación en «Un mensaje de voz»?",
+            "prompt": "¿De qué país es Marco?",
             "options": [
               {
                 "id": "o1",
-                "text": "En la escuela hay un formulario nuevo."
+                "text": "Italia"
               },
               {
                 "id": "o2",
-                "text": "Ahora vive en Santiago con su familia."
+                "text": "México"
               },
               {
                 "id": "o3",
-                "text": "Por las tardes estudia español y practica con sus compañeros."
+                "text": "España"
               },
               {
                 "id": "o4",
-                "text": "Camila quiere aprender expresiones útiles para hablar con todos."
+                "text": "República Dominicana"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Un mensaje de voz»?",
+            "prompt": "¿Por qué estudia español?",
             "options": [
               {
                 "id": "o1",
-                "text": "En la escuela hay un formulario nuevo."
+                "text": "Porque quiere viajar por América Latina"
               },
               {
                 "id": "o2",
-                "text": "Ahora vive en Santiago con su familia."
+                "text": "Porque trabaja en una farmacia"
               },
               {
                 "id": "o3",
-                "text": "Por las tardes estudia español y practica con sus compañeros."
+                "text": "Porque vive en la playa"
               },
               {
                 "id": "o4",
-                "text": "Camila quiere aprender expresiones útiles para hablar con todos."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Un mensaje de voz» después de «Por las tardes estudia español y practica con sus compañeros.»?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "En la escuela hay un formulario nuevo."
-              },
-              {
-                "id": "o2",
-                "text": "Ahora vive en Santiago con su familia."
-              },
-              {
-                "id": "o3",
-                "text": "Por las tardes estudia español y practica con sus compañeros."
-              },
-              {
-                "id": "o4",
-                "text": "Camila quiere aprender expresiones útiles para hablar con todos."
+                "text": "Porque vende camisas"
               }
             ]
           }
@@ -5120,43 +5067,36 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Un mensaje de voz», ¿qué detalle presenta la situación?",
+        "prompt": "¿Cómo se llama el compañero?",
         "options": [
-          "En la escuela hay un formulario nuevo.",
-          "Ahora vive en Santiago con su familia.",
-          "Por las tardes estudia español y practica con sus compañeros.",
-          "Camila quiere aprender expresiones útiles para hablar con todos."
-        ]
+          "Marco",
+          "Kevin",
+          "Tomás",
+          "Rafael"
+        ],
+        "explanation": "El texto presenta al compañero Marco."
       },
       {
         "type": "mcq",
-        "prompt": "Después de «En la escuela hay un formulario nuevo.», ¿qué sucede a continuación en «Un mensaje de voz»?",
+        "prompt": "¿De qué país es Marco?",
         "options": [
-          "En la escuela hay un formulario nuevo.",
-          "Ahora vive en Santiago con su familia.",
-          "Por las tardes estudia español y practica con sus compañeros.",
-          "Camila quiere aprender expresiones útiles para hablar con todos."
-        ]
+          "Italia",
+          "México",
+          "España",
+          "República Dominicana"
+        ],
+        "explanation": "Marco es de Italia."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Un mensaje de voz»?",
+        "prompt": "¿Por qué estudia español?",
         "options": [
-          "En la escuela hay un formulario nuevo.",
-          "Ahora vive en Santiago con su familia.",
-          "Por las tardes estudia español y practica con sus compañeros.",
-          "Camila quiere aprender expresiones útiles para hablar con todos."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Un mensaje de voz» después de «Por las tardes estudia español y practica con sus compañeros.»?",
-        "options": [
-          "En la escuela hay un formulario nuevo.",
-          "Ahora vive en Santiago con su familia.",
-          "Por las tardes estudia español y practica con sus compañeros.",
-          "Camila quiere aprender expresiones útiles para hablar con todos."
-        ]
+          "Porque quiere viajar por América Latina",
+          "Porque trabaja en una farmacia",
+          "Porque vive en la playa",
+          "Porque vende camisas"
+        ],
+        "explanation": "Estudia español para viajar por América Latina."
       }
     ]
   },
@@ -5183,14 +5123,14 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Un visitante llega a una ciudad nueva y necesita encontrar la estación de tren. Una vecina le explica el camino: debe seguir recto por la avenida hasta el semáforo, girar a la derecha y caminar dos cuadras. La estación queda a su izquierda, detrás del museo y junto a la farmacia. No debe cruzar la plaza. Antes de continuar, repite las indicaciones para estar seguro de no perderse. Cuando llega a la estación, consulta el panel de salidas y compra un mapa. Así tendrá una referencia si necesita volver a esa zona otro día.",
+    "transcript": "Hoy necesito llegar a la estación de tren, pero no conozco bien esta parte de la ciudad. Debo seguir recto por la avenida hasta el semáforo, girar a la derecha y caminar dos cuadras. La estación queda a mi izquierda, detrás del museo y junto a la farmacia. No debo cruzar la plaza. Repito las indicaciones antes de continuar para no perderme. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.",
     "extra": {
       "listeningType": "story",
       "difficulty": "A2",
       "speakers": [
         "Narrador/a"
       ],
-      "transcript": "Un visitante llega a una ciudad nueva y necesita encontrar la estación de tren. Una vecina le explica el camino: debe seguir recto por la avenida hasta el semáforo, girar a la derecha y caminar dos cuadras. La estación queda a su izquierda, detrás del museo y junto a la farmacia. No debe cruzar la plaza. Antes de continuar, repite las indicaciones para estar seguro de no perderse. Cuando llega a la estación, consulta el panel de salidas y compra un mapa. Así tendrá una referencia si necesita volver a esa zona otro día.",
+      "transcript": "Hoy necesito llegar a la estación de tren, pero no conozco bien esta parte de la ciudad. Debo seguir recto por la avenida hasta el semáforo, girar a la derecha y caminar dos cuadras. La estación queda a mi izquierda, detrás del museo y junto a la farmacia. No debo cruzar la plaza. Repito las indicaciones antes de continuar para no perderme. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.",
       "listeningComprehension": {
         "id": "spanish-a2-orientarse-en-la-ciudad-listening-comprehension",
         "passingScore": 70,
@@ -5686,14 +5626,14 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Cuando Lucía dejó un empleo estable para crear su propia tienda digital, no estaba buscando una historia de éxito rápido. Estaba aprendiendo a convertir una habilidad en un proyecto, a convivir con la incertidumbre y a tomar decisiones sin un manual. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «reinventarse», «incertidumbre» y «proyecto». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «reinventarse» parece una decisión individual, conviene considerar «incertidumbre» y «proyecto». Desde esta perspectiva, interpretar decisiones, riesgos y cambios de identidad laboral no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de de empleado a emprendedor digital: una historia de reinvención implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«riesgo», «aprendizaje» y «trayectoria»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «entrevista», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En escuchar el recorrido de una persona que rediseñó su vida profesional, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «reinventarse», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
+    "transcript": "Cuando Lucía dejó un empleo estable para crear su propia tienda digital, no estaba buscando una historia de éxito rápido. Estaba aprendiendo a convertir una habilidad en un proyecto, a convivir con la incertidumbre y a tomar decisiones sin un manual. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «reinventarse», «incertidumbre» y «proyecto». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «reinventarse» parece una decisión individual, conviene considerar «incertidumbre» y «proyecto». Desde esta perspectiva, interpretar decisiones, riesgos y cambios de identidad laboral no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.",
     "extra": {
       "listeningType": "story",
       "difficulty": "C1",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "Cuando Lucía dejó un empleo estable para crear su propia tienda digital, no estaba buscando una historia de éxito rápido. Estaba aprendiendo a convertir una habilidad en un proyecto, a convivir con la incertidumbre y a tomar decisiones sin un manual. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «reinventarse», «incertidumbre» y «proyecto». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «reinventarse» parece una decisión individual, conviene considerar «incertidumbre» y «proyecto». Desde esta perspectiva, interpretar decisiones, riesgos y cambios de identidad laboral no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de de empleado a emprendedor digital: una historia de reinvención implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«riesgo», «aprendizaje» y «trayectoria»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «entrevista», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En escuchar el recorrido de una persona que rediseñó su vida profesional, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «reinventarse», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
+      "transcript": "Cuando Lucía dejó un empleo estable para crear su propia tienda digital, no estaba buscando una historia de éxito rápido. Estaba aprendiendo a convertir una habilidad en un proyecto, a convivir con la incertidumbre y a tomar decisiones sin un manual. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «reinventarse», «incertidumbre» y «proyecto». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «reinventarse» parece una decisión individual, conviene considerar «incertidumbre» y «proyecto». Desde esta perspectiva, interpretar decisiones, riesgos y cambios de identidad laboral no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.",
       "listeningComprehension": {
         "id": "spanish-c1-retorica-publica-listening-comprehension",
         "passingScore": 70,
@@ -5865,14 +5805,14 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Dentro de una empresa de inteligencia artificial, la promesa de lanzar antes que la competencia convive con conversaciones mucho menos visibles: qué datos se aceptan, qué errores son tolerables y quién responde cuando el sistema falla. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «modelo», «entrenamiento» y «datos». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «modelo» parece una decisión individual, conviene considerar «entrenamiento» y «datos». Desde esta perspectiva, interpretar innovación, competencia y responsabilidad desde dentro no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de dentro de una empresa de inteligencia artificial implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«despliegue», «supervisión» y «riesgo»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «podcast tecnológico», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En entrar en las tensiones éticas y operativas de una compañía de ia, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «modelo», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
+    "transcript": "Dentro de una empresa de inteligencia artificial, la promesa de lanzar antes que la competencia convive con conversaciones mucho menos visibles: qué datos se aceptan, qué errores son tolerables y quién responde cuando el sistema falla. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «modelo», «entrenamiento» y «datos». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «modelo» parece una decisión individual, conviene considerar «entrenamiento» y «datos». Desde esta perspectiva, interpretar innovación, competencia y responsabilidad desde dentro no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal.",
     "extra": {
       "listeningType": "story",
       "difficulty": "C2",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "Dentro de una empresa de inteligencia artificial, la promesa de lanzar antes que la competencia convive con conversaciones mucho menos visibles: qué datos se aceptan, qué errores son tolerables y quién responde cuando el sistema falla. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «modelo», «entrenamiento» y «datos». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «modelo» parece una decisión individual, conviene considerar «entrenamiento» y «datos». Desde esta perspectiva, interpretar innovación, competencia y responsabilidad desde dentro no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de dentro de una empresa de inteligencia artificial implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«despliegue», «supervisión» y «riesgo»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «podcast tecnológico», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En entrar en las tensiones éticas y operativas de una compañía de ia, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «modelo», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
+      "transcript": "Dentro de una empresa de inteligencia artificial, la promesa de lanzar antes que la competencia convive con conversaciones mucho menos visibles: qué datos se aceptan, qué errores son tolerables y quién responde cuando el sistema falla. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «modelo», «entrenamiento» y «datos». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «modelo» parece una decisión individual, conviene considerar «entrenamiento» y «datos». Desde esta perspectiva, interpretar innovación, competencia y responsabilidad desde dentro no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal.",
       "listeningComprehension": {
         "id": "spanish-c2-humor-e-ironia-listening-comprehension",
         "passingScore": 70,
@@ -8875,7 +8815,7 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "El domingo la familia de Sofía come junta. Su madre se llama Carmen y su padre, Rafael. Sofía tiene una hermana, Lucía, y un hermano, Tomás. Lucía tiene dieciséis años; Tomás tiene nueve. La abuela Rosa vive con ellos y es muy amable. Después de comer, los niños ayudan a recoger la mesa y los adultos preparan café para conversar un poco más.",
+    "transcript": "Quiero hablar de mi mejor amigo, Kevin. Lo conozco desde la escuela y vivimos en el mismo barrio. Tiene dieciocho años, es divertido y muy tranquilo. A Kevin le gusta jugar al fútbol, ver películas y cocinar pasta los domingos. Cuando tengo un problema, él escucha con atención y me da buenos consejos. Los sábados solemos ir al parque o tomar un jugo después de clase.",
     "extra": {
       "listeningType": "story",
       "difficulty": "A1",
@@ -8917,98 +8857,75 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "spanish-a1-mi-familia-y-mis-amigos-listening-listening-comprehension",
+        "id": "spanish-a1-mi-familia-y-mis-amigos-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Esta es mi hermana», ¿qué detalle presenta la situación?",
+            "prompt": "¿Cómo se llama el mejor amigo?",
             "options": [
               {
                 "id": "o1",
-                "text": "El domingo la familia de Sofía come junta."
+                "text": "Kevin"
               },
               {
                 "id": "o2",
-                "text": "Sofía tiene una hermana, Lucía, y un hermano, Tomás."
+                "text": "Marco"
               },
               {
                 "id": "o3",
-                "text": "Lucía tiene dieciséis años; Tomás tiene nueve."
+                "text": "Tomás"
               },
               {
                 "id": "o4",
-                "text": "Después de comer, los niños ayudan a recoger la mesa y los adultos preparan café para conversar un poco más."
+                "text": "Rafael"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «El domingo la familia de Sofía come junta.», ¿qué sucede a continuación en «Esta es mi hermana»?",
+            "prompt": "¿Desde cuándo conoce a Kevin?",
             "options": [
               {
                 "id": "o1",
-                "text": "El domingo la familia de Sofía come junta."
+                "text": "Desde la escuela"
               },
               {
                 "id": "o2",
-                "text": "Sofía tiene una hermana, Lucía, y un hermano, Tomás."
+                "text": "Desde ayer"
               },
               {
                 "id": "o3",
-                "text": "Lucía tiene dieciséis años; Tomás tiene nueve."
+                "text": "Desde el trabajo"
               },
               {
                 "id": "o4",
-                "text": "Después de comer, los niños ayudan a recoger la mesa y los adultos preparan café para conversar un poco más."
+                "text": "Desde un viaje"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Esta es mi hermana»?",
+            "prompt": "¿Qué le gusta hacer a Kevin?",
             "options": [
               {
                 "id": "o1",
-                "text": "El domingo la familia de Sofía come junta."
+                "text": "Jugar al fútbol y ver películas"
               },
               {
                 "id": "o2",
-                "text": "Sofía tiene una hermana, Lucía, y un hermano, Tomás."
+                "text": "Cocinar en una farmacia"
               },
               {
                 "id": "o3",
-                "text": "Lucía tiene dieciséis años; Tomás tiene nueve."
+                "text": "Trabajar en un banco"
               },
               {
                 "id": "o4",
-                "text": "Después de comer, los niños ayudan a recoger la mesa y los adultos preparan café para conversar un poco más."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Esta es mi hermana» después de «Lucía tiene dieciséis años; Tomás tiene nueve.»?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "El domingo la familia de Sofía come junta."
-              },
-              {
-                "id": "o2",
-                "text": "Sofía tiene una hermana, Lucía, y un hermano, Tomás."
-              },
-              {
-                "id": "o3",
-                "text": "Lucía tiene dieciséis años; Tomás tiene nueve."
-              },
-              {
-                "id": "o4",
-                "text": "Después de comer, los niños ayudan a recoger la mesa y los adultos preparan café para conversar un poco más."
+                "text": "Nadar cada mañana"
               }
             ]
           }
@@ -9019,43 +8936,36 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Esta es mi hermana», ¿qué detalle presenta la situación?",
+        "prompt": "¿Cómo se llama el mejor amigo?",
         "options": [
-          "El domingo la familia de Sofía come junta.",
-          "Sofía tiene una hermana, Lucía, y un hermano, Tomás.",
-          "Lucía tiene dieciséis años; Tomás tiene nueve.",
-          "Después de comer, los niños ayudan a recoger la mesa y los adultos preparan café para conversar un poco más."
-        ]
+          "Kevin",
+          "Marco",
+          "Tomás",
+          "Rafael"
+        ],
+        "explanation": "La persona habla de su mejor amigo Kevin."
       },
       {
         "type": "mcq",
-        "prompt": "Después de «El domingo la familia de Sofía come junta.», ¿qué sucede a continuación en «Esta es mi hermana»?",
+        "prompt": "¿Desde cuándo conoce a Kevin?",
         "options": [
-          "El domingo la familia de Sofía come junta.",
-          "Sofía tiene una hermana, Lucía, y un hermano, Tomás.",
-          "Lucía tiene dieciséis años; Tomás tiene nueve.",
-          "Después de comer, los niños ayudan a recoger la mesa y los adultos preparan café para conversar un poco más."
-        ]
+          "Desde la escuela",
+          "Desde ayer",
+          "Desde el trabajo",
+          "Desde un viaje"
+        ],
+        "explanation": "Lo conoce desde la escuela."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Esta es mi hermana»?",
+        "prompt": "¿Qué le gusta hacer a Kevin?",
         "options": [
-          "El domingo la familia de Sofía come junta.",
-          "Sofía tiene una hermana, Lucía, y un hermano, Tomás.",
-          "Lucía tiene dieciséis años; Tomás tiene nueve.",
-          "Después de comer, los niños ayudan a recoger la mesa y los adultos preparan café para conversar un poco más."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Esta es mi hermana» después de «Lucía tiene dieciséis años; Tomás tiene nueve.»?",
-        "options": [
-          "El domingo la familia de Sofía come junta.",
-          "Sofía tiene una hermana, Lucía, y un hermano, Tomás.",
-          "Lucía tiene dieciséis años; Tomás tiene nueve.",
-          "Después de comer, los niños ayudan a recoger la mesa y los adultos preparan café para conversar un poco más."
-        ]
+          "Jugar al fútbol y ver películas",
+          "Cocinar en una farmacia",
+          "Trabajar en un banco",
+          "Nadar cada mañana"
+        ],
+        "explanation": "A Kevin le gusta jugar al fútbol y ver películas."
       }
     ]
   },
@@ -9082,14 +8992,14 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Esta semana el horario de trabajo cambia porque una empleada hace un curso por las mañanas. Normalmente entra a las ocho, pero ahora empieza a las diez. El curso termina a las nueve y media. Para organizarse, prepara la agenda el domingo y deja una tarde libre. Mientras está en clase, una compañera revisa los mensajes urgentes. Después responde lo importante y continúa su jornada con más calma. El cambio le exige levantarse antes, pero también le permite aprender una habilidad nueva. Al final de la semana revisará si este horario funciona para ella.",
+    "transcript": "Normalmente entro a trabajar a las ocho, pero esta semana empiezo a las diez porque estoy haciendo un curso por las mañanas. El curso termina a las nueve y media. Para organizarme mejor, preparo mi agenda el domingo y dejo una tarde libre. Mientras estoy en clase, una compañera revisa los mensajes del trabajo. Después respondo lo más urgente y continúo con mi jornada. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.",
     "extra": {
       "listeningType": "story",
       "difficulty": "A2",
       "speakers": [
         "Narrador/a"
       ],
-      "transcript": "Esta semana el horario de trabajo cambia porque una empleada hace un curso por las mañanas. Normalmente entra a las ocho, pero ahora empieza a las diez. El curso termina a las nueve y media. Para organizarse, prepara la agenda el domingo y deja una tarde libre. Mientras está en clase, una compañera revisa los mensajes urgentes. Después responde lo importante y continúa su jornada con más calma. El cambio le exige levantarse antes, pero también le permite aprender una habilidad nueva. Al final de la semana revisará si este horario funciona para ella.",
+      "transcript": "Normalmente entro a trabajar a las ocho, pero esta semana empiezo a las diez porque estoy haciendo un curso por las mañanas. El curso termina a las nueve y media. Para organizarme mejor, preparo mi agenda el domingo y dejo una tarde libre. Mientras estoy en clase, una compañera revisa los mensajes del trabajo. Después respondo lo más urgente y continúo con mi jornada. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.",
       "listeningComprehension": {
         "id": "spanish-a2-rutinas-y-horarios-listening-comprehension",
         "passingScore": 70,
@@ -9585,14 +9495,14 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "A las ocho de la mañana, una ciudad entera descubrió que Internet había desaparecido. No funcionaban los pagos, las clases virtuales ni los mensajes; en pocas horas, una comodidad invisible se convirtió en una infraestructura esencial. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «conexión», «colapso» y «infraestructura». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «conexión» parece una decisión individual, conviene considerar «colapso» y «infraestructura». Desde esta perspectiva, relacionar dependencia digital, servicios esenciales y respuestas colectivas no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de el día que internet desapareció durante 24 horas implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«emergencia», «alternativa» y «dependencia»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «storytelling», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En seguir las consecuencias cotidianas de una caída total de conexión, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «conexión», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
+    "transcript": "A las ocho de la mañana, una ciudad entera descubrió que Internet había desaparecido. No funcionaban los pagos, las clases virtuales ni los mensajes; en pocas horas, una comodidad invisible se convirtió en una infraestructura esencial. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «conexión», «colapso» y «infraestructura». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «conexión» parece una decisión individual, conviene considerar «colapso» y «infraestructura». Desde esta perspectiva, relacionar dependencia digital, servicios esenciales y respuestas colectivas no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.",
     "extra": {
       "listeningType": "story",
       "difficulty": "C1",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "A las ocho de la mañana, una ciudad entera descubrió que Internet había desaparecido. No funcionaban los pagos, las clases virtuales ni los mensajes; en pocas horas, una comodidad invisible se convirtió en una infraestructura esencial. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «conexión», «colapso» y «infraestructura». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «conexión» parece una decisión individual, conviene considerar «colapso» y «infraestructura». Desde esta perspectiva, relacionar dependencia digital, servicios esenciales y respuestas colectivas no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de el día que internet desapareció durante 24 horas implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«emergencia», «alternativa» y «dependencia»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «storytelling», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En seguir las consecuencias cotidianas de una caída total de conexión, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «conexión», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
+      "transcript": "A las ocho de la mañana, una ciudad entera descubrió que Internet había desaparecido. No funcionaban los pagos, las clases virtuales ni los mensajes; en pocas horas, una comodidad invisible se convirtió en una infraestructura esencial. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «conexión», «colapso» y «infraestructura». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «conexión» parece una decisión individual, conviene considerar «colapso» y «infraestructura». Desde esta perspectiva, relacionar dependencia digital, servicios esenciales y respuestas colectivas no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.",
       "listeningComprehension": {
         "id": "spanish-c1-periodismo-de-investigacion-listening-comprehension",
         "passingScore": 70,
@@ -9764,14 +9674,14 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Un corresponsal de guerra aprende pronto que la cámara no registra todo. Hay escenas que no se filman por seguridad, fuentes que no pueden ser nombradas y silencios que también forman parte de la historia. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «corresponsal», «conflicto» y «testimonio». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «corresponsal» parece una decisión individual, conviene considerar «conflicto» y «testimonio». Desde esta perspectiva, distinguir testimonio, censura, seguridad y responsabilidad periodística no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de un corresponsal de guerra cuenta lo que nunca salió en televisión implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«censura», «fuente» y «riesgo»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «entrevista exclusiva», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En escuchar el relato de quien informa desde un conflicto armado, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «corresponsal», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
+    "transcript": "Un corresponsal de guerra aprende pronto que la cámara no registra todo. Hay escenas que no se filman por seguridad, fuentes que no pueden ser nombradas y silencios que también forman parte de la historia. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «corresponsal», «conflicto» y «testimonio». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «corresponsal» parece una decisión individual, conviene considerar «conflicto» y «testimonio». Desde esta perspectiva, distinguir testimonio, censura, seguridad y responsabilidad periodística no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación.",
     "extra": {
       "listeningType": "story",
       "difficulty": "C2",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "Un corresponsal de guerra aprende pronto que la cámara no registra todo. Hay escenas que no se filman por seguridad, fuentes que no pueden ser nombradas y silencios que también forman parte de la historia. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «corresponsal», «conflicto» y «testimonio». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «corresponsal» parece una decisión individual, conviene considerar «conflicto» y «testimonio». Desde esta perspectiva, distinguir testimonio, censura, seguridad y responsabilidad periodística no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de un corresponsal de guerra cuenta lo que nunca salió en televisión implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«censura», «fuente» y «riesgo»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «entrevista exclusiva», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En escuchar el relato de quien informa desde un conflicto armado, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «corresponsal», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
+      "transcript": "Un corresponsal de guerra aprende pronto que la cámara no registra todo. Hay escenas que no se filman por seguridad, fuentes que no pueden ser nombradas y silencios que también forman parte de la historia. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «corresponsal», «conflicto» y «testimonio». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «corresponsal» parece una decisión individual, conviene considerar «conflicto» y «testimonio». Desde esta perspectiva, distinguir testimonio, censura, seguridad y responsabilidad periodística no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación.",
       "listeningComprehension": {
         "id": "spanish-c2-traduccion-y-mediacion-listening-comprehension",
         "passingScore": 70,
@@ -12774,7 +12684,7 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "A las seis y media suena el reloj de Tomás. Desayuna, se viste y prepara su mochila antes de salir. Camina a la escuela con su hermana. Las clases empiezan a las ocho. Después hace la tarea y descansa. Por la noche prepara otra vez la mochila para no llegar tarde. Antes de dormir, Tomás revisa que tenga sus libros, un lápiz y una botella de agua para la mañana.",
+    "transcript": "Sofía vive con sus padres y sus dos hermanos. Su madre trabaja en una tienda y su padre es conductor. Su hermana Lucía tiene dieciséis años y su hermano Tomás tiene nueve. Los domingos la familia come junta en casa de la abuela Rosa. Después de comer, todos conversan y los niños juegan en el patio. Sofía dice que su familia es grande, pero muy cariñosa.",
     "extra": {
       "listeningType": "story",
       "difficulty": "A1",
@@ -12814,98 +12724,75 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "spanish-a1-mi-rutina-diaria-listening-listening-comprehension",
+        "id": "spanish-a1-mi-rutina-diaria-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «¿A qué hora te levantas?», ¿qué detalle presenta la situación?",
+            "prompt": "¿Con quién vive Sofía?",
             "options": [
               {
                 "id": "o1",
-                "text": "A las seis y media suena el reloj de Tomás."
+                "text": "Con sus padres y hermanos"
               },
               {
                 "id": "o2",
-                "text": "Camina a la escuela con su hermana."
+                "text": "Con Marco y Kevin"
               },
               {
                 "id": "o3",
-                "text": "Después hace la tarea y descansa."
+                "text": "Con sus profesores"
               },
               {
                 "id": "o4",
-                "text": "Antes de dormir, Tomás revisa que tenga sus libros, un lápiz y una botella de agua para la mañana."
+                "text": "Con una amiga italiana"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «A las seis y media suena el reloj de Tomás.», ¿qué sucede a continuación en «¿A qué hora te levantas?»?",
+            "prompt": "¿Qué hace la familia los domingos?",
             "options": [
               {
                 "id": "o1",
-                "text": "A las seis y media suena el reloj de Tomás."
+                "text": "Come junta"
               },
               {
                 "id": "o2",
-                "text": "Camina a la escuela con su hermana."
+                "text": "Viaja a Valencia"
               },
               {
                 "id": "o3",
-                "text": "Después hace la tarea y descansa."
+                "text": "Va al cine"
               },
               {
                 "id": "o4",
-                "text": "Antes de dormir, Tomás revisa que tenga sus libros, un lápiz y una botella de agua para la mañana."
+                "text": "Compra ropa"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «¿A qué hora te levantas?»?",
+            "prompt": "¿Dónde juega los niños?",
             "options": [
               {
                 "id": "o1",
-                "text": "A las seis y media suena el reloj de Tomás."
+                "text": "En el patio"
               },
               {
                 "id": "o2",
-                "text": "Camina a la escuela con su hermana."
+                "text": "En la estación"
               },
               {
                 "id": "o3",
-                "text": "Después hace la tarea y descansa."
+                "text": "En la farmacia"
               },
               {
                 "id": "o4",
-                "text": "Antes de dormir, Tomás revisa que tenga sus libros, un lápiz y una botella de agua para la mañana."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "¿Qué resultado cierra «¿A qué hora te levantas?» después de «Después hace la tarea y descansa.»?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "A las seis y media suena el reloj de Tomás."
-              },
-              {
-                "id": "o2",
-                "text": "Camina a la escuela con su hermana."
-              },
-              {
-                "id": "o3",
-                "text": "Después hace la tarea y descansa."
-              },
-              {
-                "id": "o4",
-                "text": "Antes de dormir, Tomás revisa que tenga sus libros, un lápiz y una botella de agua para la mañana."
+                "text": "En la biblioteca"
               }
             ]
           }
@@ -12916,43 +12803,36 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «¿A qué hora te levantas?», ¿qué detalle presenta la situación?",
+        "prompt": "¿Con quién vive Sofía?",
         "options": [
-          "A las seis y media suena el reloj de Tomás.",
-          "Camina a la escuela con su hermana.",
-          "Después hace la tarea y descansa.",
-          "Antes de dormir, Tomás revisa que tenga sus libros, un lápiz y una botella de agua para la mañana."
-        ]
+          "Con sus padres y hermanos",
+          "Con Marco y Kevin",
+          "Con sus profesores",
+          "Con una amiga italiana"
+        ],
+        "explanation": "Sofía vive con sus padres y sus dos hermanos."
       },
       {
         "type": "mcq",
-        "prompt": "Después de «A las seis y media suena el reloj de Tomás.», ¿qué sucede a continuación en «¿A qué hora te levantas?»?",
+        "prompt": "¿Qué hace la familia los domingos?",
         "options": [
-          "A las seis y media suena el reloj de Tomás.",
-          "Camina a la escuela con su hermana.",
-          "Después hace la tarea y descansa.",
-          "Antes de dormir, Tomás revisa que tenga sus libros, un lápiz y una botella de agua para la mañana."
-        ]
+          "Come junta",
+          "Viaja a Valencia",
+          "Va al cine",
+          "Compra ropa"
+        ],
+        "explanation": "Los domingos la familia come junta."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «¿A qué hora te levantas?»?",
+        "prompt": "¿Dónde juega los niños?",
         "options": [
-          "A las seis y media suena el reloj de Tomás.",
-          "Camina a la escuela con su hermana.",
-          "Después hace la tarea y descansa.",
-          "Antes de dormir, Tomás revisa que tenga sus libros, un lápiz y una botella de agua para la mañana."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Qué resultado cierra «¿A qué hora te levantas?» después de «Después hace la tarea y descansa.»?",
-        "options": [
-          "A las seis y media suena el reloj de Tomás.",
-          "Camina a la escuela con su hermana.",
-          "Después hace la tarea y descansa.",
-          "Antes de dormir, Tomás revisa que tenga sus libros, un lápiz y una botella de agua para la mañana."
-        ]
+          "En el patio",
+          "En la estación",
+          "En la farmacia",
+          "En la biblioteca"
+        ],
+        "explanation": "Después de comer, los niños juegan en el patio."
       }
     ]
   },
@@ -12979,14 +12859,14 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Después de varios días de poco descanso, alguien visita a la doctora. Le duele la garganta y tiene un poco de fiebre. La doctora cree que es una infección leve y recomienda beber agua, descansar y tomar la medicina indicada. También aconseja no ir al trabajo al día siguiente si la fiebre aumenta. Si continúa igual, debe pedir otra cita en tres días. Recuperarse bien ahora evitará problemas después. La persona entiende que descansar no es perder tiempo. Si sigue las indicaciones, podrá volver a sus actividades con más energía y sin empeorar los síntomas.",
+    "transcript": "Desde ayer me duele la garganta y tengo un poco de fiebre. Esta semana he trabajado hasta tarde y no he descansado bien. Por eso fui a la doctora. Ella cree que tengo una infección leve y me recomienda beber agua, descansar y tomar la medicina. Si continúo con fiebre, debo pedir otra cita en tres días. Mañana no iré al trabajo si me siento peor. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.",
     "extra": {
       "listeningType": "story",
       "difficulty": "A2",
       "speakers": [
         "Narrador/a"
       ],
-      "transcript": "Después de varios días de poco descanso, alguien visita a la doctora. Le duele la garganta y tiene un poco de fiebre. La doctora cree que es una infección leve y recomienda beber agua, descansar y tomar la medicina indicada. También aconseja no ir al trabajo al día siguiente si la fiebre aumenta. Si continúa igual, debe pedir otra cita en tres días. Recuperarse bien ahora evitará problemas después. La persona entiende que descansar no es perder tiempo. Si sigue las indicaciones, podrá volver a sus actividades con más energía y sin empeorar los síntomas.",
+      "transcript": "Desde ayer me duele la garganta y tengo un poco de fiebre. Esta semana he trabajado hasta tarde y no he descansado bien. Por eso fui a la doctora. Ella cree que tengo una infección leve y me recomienda beber agua, descansar y tomar la medicina. Si continúo con fiebre, debo pedir otra cita en tres días. Mañana no iré al trabajo si me siento peor. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.",
       "listeningComprehension": {
         "id": "spanish-a2-salud-y-bienestar-listening-comprehension",
         "passingScore": 70,
@@ -13482,14 +13362,14 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Vivir fuera durante un año no le enseñó a Sofía una versión mejor del mundo, sino una versión más compleja. Las costumbres que antes le parecían naturales empezaron a revelar cuánto depende nuestra mirada del lugar desde el que hablamos. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «desarraigo», «costumbre» y «pertenencia». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Es importante que la comunidad considere «desarraigo» antes de conocer un testimonio de adaptación cultural y distancia emocional. Desde esta perspectiva, reconocer cómo la experiencia intercultural modifica certezas y pertenencias no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de vivir un año en otro país cambió mi forma de ver el mundo implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«perspectiva», «adaptación» y «contraste»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «testimonio», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En conocer un testimonio de adaptación cultural y distancia emocional, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «desarraigo», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir.",
+    "transcript": "Vivir fuera durante un año no le enseñó a Sofía una versión mejor del mundo, sino una versión más compleja. Las costumbres que antes le parecían naturales empezaron a revelar cuánto depende nuestra mirada del lugar desde el que hablamos. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «desarraigo», «costumbre» y «pertenencia». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Es importante que la comunidad considere «desarraigo» antes de conocer un testimonio de adaptación cultural y distancia emocional. Desde esta perspectiva, reconocer cómo la experiencia intercultural modifica certezas y pertenencias no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.",
     "extra": {
       "listeningType": "story",
       "difficulty": "C1",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "Vivir fuera durante un año no le enseñó a Sofía una versión mejor del mundo, sino una versión más compleja. Las costumbres que antes le parecían naturales empezaron a revelar cuánto depende nuestra mirada del lugar desde el que hablamos. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «desarraigo», «costumbre» y «pertenencia». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Es importante que la comunidad considere «desarraigo» antes de conocer un testimonio de adaptación cultural y distancia emocional. Desde esta perspectiva, reconocer cómo la experiencia intercultural modifica certezas y pertenencias no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de vivir un año en otro país cambió mi forma de ver el mundo implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«perspectiva», «adaptación» y «contraste»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «testimonio», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En conocer un testimonio de adaptación cultural y distancia emocional, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «desarraigo», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir.",
+      "transcript": "Vivir fuera durante un año no le enseñó a Sofía una versión mejor del mundo, sino una versión más compleja. Las costumbres que antes le parecían naturales empezaron a revelar cuánto depende nuestra mirada del lugar desde el que hablamos. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «desarraigo», «costumbre» y «pertenencia». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Es importante que la comunidad considere «desarraigo» antes de conocer un testimonio de adaptación cultural y distancia emocional. Desde esta perspectiva, reconocer cómo la experiencia intercultural modifica certezas y pertenencias no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.",
       "listeningComprehension": {
         "id": "spanish-c1-justicia-y-reparacion-listening-comprehension",
         "passingScore": 70,
@@ -13661,14 +13541,14 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "La nueva carrera hacia Marte se presenta como un triunfo de la ciencia, pero también reúne intereses empresariales, rivalidades nacionales y una palabra incómoda: conquista. Nombrar así el proyecto cambia la forma de imaginar su futuro. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «misión», «órbita» y «exploración». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «misión» parece una decisión individual, conviene considerar «órbita» y «exploración». Desde esta perspectiva, cuestionar la idea de conquista y sus implicaciones éticas no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de la nueva carrera espacial: ¿quién conquistará marte primero? implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«soberanía», «cooperación» y «colonización»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «documental», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En examinar las ambiciones científicas, comerciales y geopolíticas de marte, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «misión», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
+    "transcript": "La nueva carrera hacia Marte se presenta como un triunfo de la ciencia, pero también reúne intereses empresariales, rivalidades nacionales y una palabra incómoda: conquista. Nombrar así el proyecto cambia la forma de imaginar su futuro. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «misión», «órbita» y «exploración». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «misión» parece una decisión individual, conviene considerar «órbita» y «exploración». Desde esta perspectiva, cuestionar la idea de conquista y sus implicaciones éticas no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal.",
     "extra": {
       "listeningType": "story",
       "difficulty": "C2",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "La nueva carrera hacia Marte se presenta como un triunfo de la ciencia, pero también reúne intereses empresariales, rivalidades nacionales y una palabra incómoda: conquista. Nombrar así el proyecto cambia la forma de imaginar su futuro. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «misión», «órbita» y «exploración». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «misión» parece una decisión individual, conviene considerar «órbita» y «exploración». Desde esta perspectiva, cuestionar la idea de conquista y sus implicaciones éticas no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de la nueva carrera espacial: ¿quién conquistará marte primero? implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«soberanía», «cooperación» y «colonización»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «documental», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En examinar las ambiciones científicas, comerciales y geopolíticas de marte, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «misión», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
+      "transcript": "La nueva carrera hacia Marte se presenta como un triunfo de la ciencia, pero también reúne intereses empresariales, rivalidades nacionales y una palabra incómoda: conquista. Nombrar así el proyecto cambia la forma de imaginar su futuro. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «misión», «órbita» y «exploración». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «misión» parece una decisión individual, conviene considerar «órbita» y «exploración». Desde esta perspectiva, cuestionar la idea de conquista y sus implicaciones éticas no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal.",
       "listeningComprehension": {
         "id": "spanish-c2-filosofia-del-lenguaje-listening-comprehension",
         "passingScore": 70,
@@ -16662,7 +16542,7 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "La casa de Carla tiene tres habitaciones, una sala grande, una cocina y dos baños. En la sala hay un sofá y una mesa. En la cocina hay una nevera, una estufa y sillas junto a la ventana. Su dormitorio está arriba, entre el baño y el cuarto de su hermano. Cuando hace buen tiempo, Carla se sienta en el patio a leer o a hablar con su familia después de cenar.",
+    "transcript": "Vivo en una casa pequeña, pero cómoda. Tiene dos habitaciones, una sala, una cocina y un baño. En mi habitación hay una cama, un armario y una mesa para estudiar. La sala tiene un sofá grande y unas fotos de mi familia. Detrás de la casa hay un patio con plantas. Me gusta sentarme allí por la tarde porque es tranquilo y puedo leer o escuchar música.",
     "extra": {
       "listeningType": "story",
       "difficulty": "A1",
@@ -16702,98 +16582,75 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "spanish-a1-mi-casa-listening-listening-comprehension",
+        "id": "spanish-a1-mi-casa-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Así es mi casa», ¿qué detalle presenta la situación?",
+            "prompt": "¿Cuántas habitaciones tiene la casa?",
             "options": [
               {
                 "id": "o1",
-                "text": "La casa de Carla tiene tres habitaciones, una sala grande, una cocina y dos baños."
+                "text": "Dos"
               },
               {
                 "id": "o2",
-                "text": "En la sala hay un sofá y una mesa."
+                "text": "Una"
               },
               {
                 "id": "o3",
-                "text": "Su dormitorio está arriba, entre el baño y el cuarto de su hermano."
+                "text": "Tres"
               },
               {
                 "id": "o4",
-                "text": "Cuando hace buen tiempo, Carla se sienta en el patio a leer o a hablar con su familia después de cenar."
+                "text": "Cuatro"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «La casa de Carla tiene tres habitaciones, una sala grande, una cocina…», ¿qué sucede a continuación en «Así es mi casa»?",
+            "prompt": "¿Qué hay en la habitación?",
             "options": [
               {
                 "id": "o1",
-                "text": "La casa de Carla tiene tres habitaciones, una sala grande, una cocina y dos baños."
+                "text": "Una cama, un armario y una mesa"
               },
               {
                 "id": "o2",
-                "text": "En la sala hay un sofá y una mesa."
+                "text": "Un banco y una farmacia"
               },
               {
                 "id": "o3",
-                "text": "Su dormitorio está arriba, entre el baño y el cuarto de su hermano."
+                "text": "Una estufa y un tren"
               },
               {
                 "id": "o4",
-                "text": "Cuando hace buen tiempo, Carla se sienta en el patio a leer o a hablar con su familia después de cenar."
+                "text": "Un cine y un parque"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Así es mi casa»?",
+            "prompt": "¿Dónde se sienta la persona por la tarde?",
             "options": [
               {
                 "id": "o1",
-                "text": "La casa de Carla tiene tres habitaciones, una sala grande, una cocina y dos baños."
+                "text": "En el patio"
               },
               {
                 "id": "o2",
-                "text": "En la sala hay un sofá y una mesa."
+                "text": "En el metro"
               },
               {
                 "id": "o3",
-                "text": "Su dormitorio está arriba, entre el baño y el cuarto de su hermano."
+                "text": "En la tienda"
               },
               {
                 "id": "o4",
-                "text": "Cuando hace buen tiempo, Carla se sienta en el patio a leer o a hablar con su familia después de cenar."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Así es mi casa» después de «Su dormitorio está arriba, entre el baño y el cuarto de su hermano.»?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "La casa de Carla tiene tres habitaciones, una sala grande, una cocina y dos baños."
-              },
-              {
-                "id": "o2",
-                "text": "En la sala hay un sofá y una mesa."
-              },
-              {
-                "id": "o3",
-                "text": "Su dormitorio está arriba, entre el baño y el cuarto de su hermano."
-              },
-              {
-                "id": "o4",
-                "text": "Cuando hace buen tiempo, Carla se sienta en el patio a leer o a hablar con su familia después de cenar."
+                "text": "En la escuela"
               }
             ]
           }
@@ -16804,43 +16661,36 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Así es mi casa», ¿qué detalle presenta la situación?",
+        "prompt": "¿Cuántas habitaciones tiene la casa?",
         "options": [
-          "La casa de Carla tiene tres habitaciones, una sala grande, una cocina y dos baños.",
-          "En la sala hay un sofá y una mesa.",
-          "Su dormitorio está arriba, entre el baño y el cuarto de su hermano.",
-          "Cuando hace buen tiempo, Carla se sienta en el patio a leer o a hablar con su familia después de cenar."
-        ]
+          "Dos",
+          "Una",
+          "Tres",
+          "Cuatro"
+        ],
+        "explanation": "La casa tiene dos habitaciones."
       },
       {
         "type": "mcq",
-        "prompt": "Después de «La casa de Carla tiene tres habitaciones, una sala grande, una cocina…», ¿qué sucede a continuación en «Así es mi casa»?",
+        "prompt": "¿Qué hay en la habitación?",
         "options": [
-          "La casa de Carla tiene tres habitaciones, una sala grande, una cocina y dos baños.",
-          "En la sala hay un sofá y una mesa.",
-          "Su dormitorio está arriba, entre el baño y el cuarto de su hermano.",
-          "Cuando hace buen tiempo, Carla se sienta en el patio a leer o a hablar con su familia después de cenar."
-        ]
+          "Una cama, un armario y una mesa",
+          "Un banco y una farmacia",
+          "Una estufa y un tren",
+          "Un cine y un parque"
+        ],
+        "explanation": "La habitación tiene una cama, un armario y una mesa."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Así es mi casa»?",
+        "prompt": "¿Dónde se sienta la persona por la tarde?",
         "options": [
-          "La casa de Carla tiene tres habitaciones, una sala grande, una cocina y dos baños.",
-          "En la sala hay un sofá y una mesa.",
-          "Su dormitorio está arriba, entre el baño y el cuarto de su hermano.",
-          "Cuando hace buen tiempo, Carla se sienta en el patio a leer o a hablar con su familia después de cenar."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Así es mi casa» después de «Su dormitorio está arriba, entre el baño y el cuarto de su hermano.»?",
-        "options": [
-          "La casa de Carla tiene tres habitaciones, una sala grande, una cocina y dos baños.",
-          "En la sala hay un sofá y una mesa.",
-          "Su dormitorio está arriba, entre el baño y el cuarto de su hermano.",
-          "Cuando hace buen tiempo, Carla se sienta en el patio a leer o a hablar con su familia después de cenar."
-        ]
+          "En el patio",
+          "En el metro",
+          "En la tienda",
+          "En la escuela"
+        ],
+        "explanation": "Le gusta sentarse en el patio."
       }
     ]
   },
@@ -16867,14 +16717,14 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "El panel de la estación anuncia un cambio importante para un tren que viaja a Valencia. Sale a las seis, pero el andén cambia del número cuatro al seis. La llegada sigue prevista para las ocho y veinte. Antes de subir, el viajero deja su equipaje en la consigna y revisa el panel una vez más. Debe estar en el andén diez minutos antes. Así tendrá tiempo si vuelven a cambiar la información. El viajero guarda el billete junto al documento de identidad y busca un lugar tranquilo para esperar. También envía un mensaje para avisar que llegará más tarde.",
+    "transcript": "Hoy viajo a Valencia en un tren que sale a las seis. Mi billete indicaba el andén cuatro, pero han cambiado la salida al andén seis. La llegada sigue prevista para las ocho y veinte. Antes de subir, voy a dejar mi equipaje en la consigna y miraré el panel otra vez. Debo estar en el andén diez minutos antes para viajar con tranquilidad. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.",
     "extra": {
       "listeningType": "story",
       "difficulty": "A2",
       "speakers": [
         "Narrador/a"
       ],
-      "transcript": "El panel de la estación anuncia un cambio importante para un tren que viaja a Valencia. Sale a las seis, pero el andén cambia del número cuatro al seis. La llegada sigue prevista para las ocho y veinte. Antes de subir, el viajero deja su equipaje en la consigna y revisa el panel una vez más. Debe estar en el andén diez minutos antes. Así tendrá tiempo si vuelven a cambiar la información. El viajero guarda el billete junto al documento de identidad y busca un lugar tranquilo para esperar. También envía un mensaje para avisar que llegará más tarde.",
+      "transcript": "Hoy viajo a Valencia en un tren que sale a las seis. Mi billete indicaba el andén cuatro, pero han cambiado la salida al andén seis. La llegada sigue prevista para las ocho y veinte. Antes de subir, voy a dejar mi equipaje en la consigna y miraré el panel otra vez. Debo estar en el andén diez minutos antes para viajar con tranquilidad. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.",
       "listeningComprehension": {
         "id": "spanish-a2-viajes-y-transporte-listening-comprehension",
         "passingScore": 70,
@@ -17370,14 +17220,14 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Hay personas que reciben un ascenso, terminan un proyecto difícil o son felicitadas por su trabajo y, aun así, creen que en cualquier momento alguien descubrirá que no merecían estar allí. Ese contraste tiene un nombre: síndrome del impostor. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «autoexigencia», «mérito» y «inseguridad». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Si existieran más apoyos, muchas personas podrían afrontar «autoexigencia» de otra manera. Desde esta perspectiva, distinguir autoexigencia, inseguridad y evaluación realista no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de ¿por qué sufrimos el síndrome del impostor? implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«validación», «logro» y «percepción»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «podcast de psicología», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En examinar las dudas que aparecen incluso ante logros comprobables, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «autoexigencia», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
+    "transcript": "Hay personas que reciben un ascenso, terminan un proyecto difícil o son felicitadas por su trabajo y, aun así, creen que en cualquier momento alguien descubrirá que no merecían estar allí. Ese contraste tiene un nombre: síndrome del impostor. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «autoexigencia», «mérito» y «inseguridad». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Si existieran más apoyos, muchas personas podrían afrontar «autoexigencia» de otra manera. Desde esta perspectiva, distinguir autoexigencia, inseguridad y evaluación realista no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla. La idea final es clara: hablar de ¿por qué sufrimos el síndrome del impostor?",
     "extra": {
       "listeningType": "story",
       "difficulty": "C1",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "Hay personas que reciben un ascenso, terminan un proyecto difícil o son felicitadas por su trabajo y, aun así, creen que en cualquier momento alguien descubrirá que no merecían estar allí. Ese contraste tiene un nombre: síndrome del impostor. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «autoexigencia», «mérito» y «inseguridad». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Si existieran más apoyos, muchas personas podrían afrontar «autoexigencia» de otra manera. Desde esta perspectiva, distinguir autoexigencia, inseguridad y evaluación realista no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de ¿por qué sufrimos el síndrome del impostor? implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«validación», «logro» y «percepción»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «podcast de psicología», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En examinar las dudas que aparecen incluso ante logros comprobables, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «autoexigencia», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
+      "transcript": "Hay personas que reciben un ascenso, terminan un proyecto difícil o son felicitadas por su trabajo y, aun así, creen que en cualquier momento alguien descubrirá que no merecían estar allí. Ese contraste tiene un nombre: síndrome del impostor. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «autoexigencia», «mérito» y «inseguridad». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Si existieran más apoyos, muchas personas podrían afrontar «autoexigencia» de otra manera. Desde esta perspectiva, distinguir autoexigencia, inseguridad y evaluación realista no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla. La idea final es clara: hablar de ¿por qué sufrimos el síndrome del impostor?",
       "listeningComprehension": {
         "id": "spanish-c1-innovacion-responsable-listening-comprehension",
         "passingScore": 70,
@@ -17549,14 +17399,14 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Durante un año, Martín no abrió una sola red social. Al principio no sintió libertad, sino el vacío de un hábito: la mano buscaba el teléfono antes de que apareciera una pregunta real que responder. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «desconexión», «notificación» y «atención». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «desconexión» parece una decisión individual, conviene considerar «notificación» y «atención». Desde esta perspectiva, evaluar qué cambia cuando desaparece la exposición permanente no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de viví un año sin redes sociales: esto fue lo que aprendí implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«hábito», «privacidad» y «presencia»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «testimonio», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En escuchar un testimonio sobre desconexión, atención y relaciones, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «desconexión», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
+    "transcript": "Durante un año, Martín no abrió una sola red social. Al principio no sintió libertad, sino el vacío de un hábito: la mano buscaba el teléfono antes de que apareciera una pregunta real que responder. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «desconexión», «notificación» y «atención». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «desconexión» parece una decisión individual, conviene considerar «notificación» y «atención». Desde esta perspectiva, evaluar qué cambia cuando desaparece la exposición permanente no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal.",
     "extra": {
       "listeningType": "story",
       "difficulty": "C2",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "Durante un año, Martín no abrió una sola red social. Al principio no sintió libertad, sino el vacío de un hábito: la mano buscaba el teléfono antes de que apareciera una pregunta real que responder. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «desconexión», «notificación» y «atención». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «desconexión» parece una decisión individual, conviene considerar «notificación» y «atención». Desde esta perspectiva, evaluar qué cambia cuando desaparece la exposición permanente no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de viví un año sin redes sociales: esto fue lo que aprendí implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«hábito», «privacidad» y «presencia»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «testimonio», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En escuchar un testimonio sobre desconexión, atención y relaciones, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «desconexión», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
+      "transcript": "Durante un año, Martín no abrió una sola red social. Al principio no sintió libertad, sino el vacío de un hábito: la mano buscaba el teléfono antes de que apareciera una pregunta real que responder. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «desconexión», «notificación» y «atención». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «desconexión» parece una decisión individual, conviene considerar «notificación» y «atención». Desde esta perspectiva, evaluar qué cambia cuando desaparece la exposición permanente no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal.",
       "listeningComprehension": {
         "id": "spanish-c2-analisis-juridico-listening-comprehension",
         "passingScore": 70,
@@ -20558,7 +20408,7 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Un visitante necesita ir al banco. Primero camina derecho y dobla a la derecha. La farmacia está al lado del banco. Después quiere visitar el parque, por eso gira a la izquierda. También puede tomar el autobús y bajar frente a la biblioteca. Con estas indicaciones puede recorrer el barrio sin perderse. El visitante también pregunta dónde puede comprar agua. Le dicen que hay una tienda pequeña frente al parque.",
+    "transcript": "Cada día me levanto a las seis y media. Primero me ducho, desayuno y preparo mi mochila. Después camino a la escuela; las clases empiezan a las ocho. Por la tarde hago la tarea y ayudo un poco en casa. A veces veo una serie antes de cenar. Por la noche preparo mi ropa para el día siguiente y pongo la alarma. Así no tengo que correr por la mañana.",
     "extra": {
       "listeningType": "story",
       "difficulty": "A1",
@@ -20598,98 +20448,75 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "spanish-a1-mi-barrio-y-mi-ciudad-listening-listening-comprehension",
+        "id": "spanish-a1-mi-barrio-y-mi-ciudad-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Perdón, ¿dónde está el banco?», ¿qué detalle presenta la situación?",
+            "prompt": "¿A qué hora se levanta la persona?",
             "options": [
               {
                 "id": "o1",
-                "text": "Un visitante necesita ir al banco."
+                "text": "A las seis y media"
               },
               {
                 "id": "o2",
-                "text": "La farmacia está al lado del banco."
+                "text": "A las ocho"
               },
               {
                 "id": "o3",
-                "text": "Con estas indicaciones puede recorrer el barrio sin perderse."
+                "text": "A las diez"
               },
               {
                 "id": "o4",
-                "text": "Le dicen que hay una tienda pequeña frente al parque."
+                "text": "A las doce"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Un visitante necesita ir al banco.», ¿qué sucede a continuación en «Perdón, ¿dónde está el banco?»?",
+            "prompt": "¿Cómo llega a la escuela?",
             "options": [
               {
                 "id": "o1",
-                "text": "Un visitante necesita ir al banco."
+                "text": "Caminando"
               },
               {
                 "id": "o2",
-                "text": "La farmacia está al lado del banco."
+                "text": "En tren"
               },
               {
                 "id": "o3",
-                "text": "Con estas indicaciones puede recorrer el barrio sin perderse."
+                "text": "En avión"
               },
               {
                 "id": "o4",
-                "text": "Le dicen que hay una tienda pequeña frente al parque."
+                "text": "En taxi"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Perdón, ¿dónde está el banco?»?",
+            "prompt": "¿Qué prepara por la noche?",
             "options": [
               {
                 "id": "o1",
-                "text": "Un visitante necesita ir al banco."
+                "text": "La ropa y la alarma"
               },
               {
                 "id": "o2",
-                "text": "La farmacia está al lado del banco."
+                "text": "Una sopa"
               },
               {
                 "id": "o3",
-                "text": "Con estas indicaciones puede recorrer el barrio sin perderse."
+                "text": "Un billete"
               },
               {
                 "id": "o4",
-                "text": "Le dicen que hay una tienda pequeña frente al parque."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Perdón, ¿dónde está el banco?» después de «Con estas indicaciones puede recorrer el barrio sin perderse.»?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Un visitante necesita ir al banco."
-              },
-              {
-                "id": "o2",
-                "text": "La farmacia está al lado del banco."
-              },
-              {
-                "id": "o3",
-                "text": "Con estas indicaciones puede recorrer el barrio sin perderse."
-              },
-              {
-                "id": "o4",
-                "text": "Le dicen que hay una tienda pequeña frente al parque."
+                "text": "Una camisa"
               }
             ]
           }
@@ -20700,43 +20527,36 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Perdón, ¿dónde está el banco?», ¿qué detalle presenta la situación?",
+        "prompt": "¿A qué hora se levanta la persona?",
         "options": [
-          "Un visitante necesita ir al banco.",
-          "La farmacia está al lado del banco.",
-          "Con estas indicaciones puede recorrer el barrio sin perderse.",
-          "Le dicen que hay una tienda pequeña frente al parque."
-        ]
+          "A las seis y media",
+          "A las ocho",
+          "A las diez",
+          "A las doce"
+        ],
+        "explanation": "La persona se levanta a las seis y media."
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Un visitante necesita ir al banco.», ¿qué sucede a continuación en «Perdón, ¿dónde está el banco?»?",
+        "prompt": "¿Cómo llega a la escuela?",
         "options": [
-          "Un visitante necesita ir al banco.",
-          "La farmacia está al lado del banco.",
-          "Con estas indicaciones puede recorrer el barrio sin perderse.",
-          "Le dicen que hay una tienda pequeña frente al parque."
-        ]
+          "Caminando",
+          "En tren",
+          "En avión",
+          "En taxi"
+        ],
+        "explanation": "Camina a la escuela."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Perdón, ¿dónde está el banco?»?",
+        "prompt": "¿Qué prepara por la noche?",
         "options": [
-          "Un visitante necesita ir al banco.",
-          "La farmacia está al lado del banco.",
-          "Con estas indicaciones puede recorrer el barrio sin perderse.",
-          "Le dicen que hay una tienda pequeña frente al parque."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Perdón, ¿dónde está el banco?» después de «Con estas indicaciones puede recorrer el barrio sin perderse.»?",
-        "options": [
-          "Un visitante necesita ir al banco.",
-          "La farmacia está al lado del banco.",
-          "Con estas indicaciones puede recorrer el barrio sin perderse.",
-          "Le dicen que hay una tienda pequeña frente al parque."
-        ]
+          "La ropa y la alarma",
+          "Una sopa",
+          "Un billete",
+          "Una camisa"
+        ],
+        "explanation": "Por la noche prepara la ropa y pone la alarma."
       }
     ]
   },
@@ -20763,14 +20583,14 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Elegir apartamento también significa elegir un modo de vida. Una persona visita un piso en la calle Mayor porque tiene muebles básicos y mucha luz por la mañana. Como trabaja desde casa, necesita tranquilidad. El barrio es seguro y tiene poco ruido, aunque el alquiler es más alto que el del otro apartamento. La sala es más luminosa y el metro está cerca. El sábado comparará ambos pisos antes de decidir. Antes de firmar, revisará el contrato y preguntará por los gastos de agua y electricidad. No quiere decidir solo por la luz de la sala o la cercanía del metro.",
+    "transcript": "Estoy buscando un apartamento en la calle Mayor. Me interesa porque tiene muebles básicos y mucha luz por la mañana. Como trabajo desde casa, necesito tranquilidad. El barrio es seguro y hay poco ruido, aunque el alquiler es un poco más alto. La sala es más luminosa que la del otro apartamento y el metro está cerca. Voy a visitarlo el sábado antes de decidir. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.",
     "extra": {
       "listeningType": "story",
       "difficulty": "A2",
       "speakers": [
         "Narrador/a"
       ],
-      "transcript": "Elegir apartamento también significa elegir un modo de vida. Una persona visita un piso en la calle Mayor porque tiene muebles básicos y mucha luz por la mañana. Como trabaja desde casa, necesita tranquilidad. El barrio es seguro y tiene poco ruido, aunque el alquiler es más alto que el del otro apartamento. La sala es más luminosa y el metro está cerca. El sábado comparará ambos pisos antes de decidir. Antes de firmar, revisará el contrato y preguntará por los gastos de agua y electricidad. No quiere decidir solo por la luz de la sala o la cercanía del metro.",
+      "transcript": "Estoy buscando un apartamento en la calle Mayor. Me interesa porque tiene muebles básicos y mucha luz por la mañana. Como trabajo desde casa, necesito tranquilidad. El barrio es seguro y hay poco ruido, aunque el alquiler es un poco más alto. La sala es más luminosa que la del otro apartamento y el metro está cerca. Voy a visitarlo el sábado antes de decidir. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.",
       "listeningComprehension": {
         "id": "spanish-a2-casa-y-barrio-listening-comprehension",
         "passingScore": 70,
@@ -21266,14 +21086,14 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "La empresa empezó en una mesa pequeña y con un prototipo que apenas funcionaba. Lo que la distinguió no fue una idea espectacular, sino haber entendido un problema cotidiano que una industria entera llevaba años ignorando. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «startup», «prototipo» y «inversión». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «startup» parece una decisión individual, conviene considerar «prototipo» y «inversión». Desde esta perspectiva, analizar innovación, oportunidad y transformación de un mercado no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de cómo una pequeña startup terminó revolucionando una industria implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«escala», «disrupción» y «mercado»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «documental corto», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En reconstruir el crecimiento inesperado de una empresa emergente, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «startup», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
+    "transcript": "La empresa empezó en una mesa pequeña y con un prototipo que apenas funcionaba. Lo que la distinguió no fue una idea espectacular, sino haber entendido un problema cotidiano que una industria entera llevaba años ignorando. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «startup», «prototipo» y «inversión». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «startup» parece una decisión individual, conviene considerar «prototipo» y «inversión». Desde esta perspectiva, analizar innovación, oportunidad y transformación de un mercado no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.",
     "extra": {
       "listeningType": "story",
       "difficulty": "C1",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "La empresa empezó en una mesa pequeña y con un prototipo que apenas funcionaba. Lo que la distinguió no fue una idea espectacular, sino haber entendido un problema cotidiano que una industria entera llevaba años ignorando. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «startup», «prototipo» y «inversión». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «startup» parece una decisión individual, conviene considerar «prototipo» y «inversión». Desde esta perspectiva, analizar innovación, oportunidad y transformación de un mercado no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de cómo una pequeña startup terminó revolucionando una industria implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«escala», «disrupción» y «mercado»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «documental corto», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En reconstruir el crecimiento inesperado de una empresa emergente, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «startup», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
+      "transcript": "La empresa empezó en una mesa pequeña y con un prototipo que apenas funcionaba. Lo que la distinguió no fue una idea espectacular, sino haber entendido un problema cotidiano que una industria entera llevaba años ignorando. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «startup», «prototipo» y «inversión». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «startup» parece una decisión individual, conviene considerar «prototipo» y «inversión». Desde esta perspectiva, analizar innovación, oportunidad y transformación de un mercado no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.",
       "listeningComprehension": {
         "id": "spanish-c1-literatura-y-voz-listening-comprehension",
         "passingScore": 70,
@@ -21445,14 +21265,14 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "La pregunta no es solo si una inteligencia artificial puede escribir una canción, diseñar una imagen o proponer una campaña. La pregunta difícil es quién conserva la autoría, el criterio y las condiciones de trabajo cuando una herramienta produce tanto tan rápido. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «autoría», «creatividad» y «automatización». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «autoría» parece una decisión individual, conviene considerar «creatividad» y «automatización». Desde esta perspectiva, defender una postura compleja sobre creatividad humana y automatización no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de ¿la inteligencia artificial reemplazará las profesiones creativas? implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«encargo», «originalidad» y «criterio»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «debate», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En confrontar posiciones sobre autoría, trabajo y creación asistida, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «autoría», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
+    "transcript": "La pregunta no es solo si una inteligencia artificial puede escribir una canción, diseñar una imagen o proponer una campaña. La pregunta difícil es quién conserva la autoría, el criterio y las condiciones de trabajo cuando una herramienta produce tanto tan rápido. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «autoría», «creatividad» y «automatización». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «autoría» parece una decisión individual, conviene considerar «creatividad» y «automatización». Desde esta perspectiva, defender una postura compleja sobre creatividad humana y automatización no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal.",
     "extra": {
       "listeningType": "story",
       "difficulty": "C2",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "La pregunta no es solo si una inteligencia artificial puede escribir una canción, diseñar una imagen o proponer una campaña. La pregunta difícil es quién conserva la autoría, el criterio y las condiciones de trabajo cuando una herramienta produce tanto tan rápido. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «autoría», «creatividad» y «automatización». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «autoría» parece una decisión individual, conviene considerar «creatividad» y «automatización». Desde esta perspectiva, defender una postura compleja sobre creatividad humana y automatización no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de ¿la inteligencia artificial reemplazará las profesiones creativas? implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«encargo», «originalidad» y «criterio»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «debate», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En confrontar posiciones sobre autoría, trabajo y creación asistida, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «autoría», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
+      "transcript": "La pregunta no es solo si una inteligencia artificial puede escribir una canción, diseñar una imagen o proponer una campaña. La pregunta difícil es quién conserva la autoría, el criterio y las condiciones de trabajo cuando una herramienta produce tanto tan rápido. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «autoría», «creatividad» y «automatización». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «autoría» parece una decisión individual, conviene considerar «creatividad» y «automatización». Desde esta perspectiva, defender una postura compleja sobre creatividad humana y automatización no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal.",
       "listeningComprehension": {
         "id": "spanish-c2-edicion-de-estilo-listening-comprehension",
         "passingScore": 70,
@@ -24441,7 +24261,7 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "En una cafetería, una persona pide café con leche y pan para el desayuno. También quiere fruta, pero no desea una bebida fría. Para el almuerzo prefiere un vaso de agua y una ensalada. Como le gusta comer ligero, no pide más pan. Al final agradece al mesero y espera una comida fresca. Mientras espera, mira el menú y piensa que la próxima vez probará una sopa o un jugo natural.",
+    "transcript": "Un estudiante nuevo quiere llegar a la biblioteca. Primero camina derecho por esta calle y dobla a la izquierda en el banco. La biblioteca está frente al parque, al lado de una farmacia. Si necesita comprar agua, hay una tienda pequeña cerca de la entrada. El estudiante repite las indicaciones antes de salir. Después agradece la ayuda y camina con más seguridad por el barrio.",
     "extra": {
       "listeningType": "story",
       "difficulty": "A1",
@@ -24481,98 +24301,75 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "spanish-a1-comida-y-bebida-listening-listening-comprehension",
+        "id": "spanish-a1-comida-y-bebida-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «¿Qué desea pedir?», ¿qué detalle presenta la situación?",
+            "prompt": "¿Dónde está la biblioteca?",
             "options": [
               {
                 "id": "o1",
-                "text": "En una cafetería, una persona pide café con leche y pan para el desayuno."
+                "text": "Frente al parque"
               },
               {
                 "id": "o2",
-                "text": "Para el almuerzo prefiere un vaso de agua y una ensalada."
+                "text": "Dentro de la estación"
               },
               {
                 "id": "o3",
-                "text": "Como le gusta comer ligero, no pide más pan."
+                "text": "Detrás de la playa"
               },
               {
                 "id": "o4",
-                "text": "Mientras espera, mira el menú y piensa que la próxima vez probará una sopa o un jugo natural."
+                "text": "En la escuela"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «En una cafetería, una persona pide café con leche y pan para el…», ¿qué sucede a continuación en «¿Qué desea pedir?»?",
+            "prompt": "¿Qué hay al lado de la biblioteca?",
             "options": [
               {
                 "id": "o1",
-                "text": "En una cafetería, una persona pide café con leche y pan para el desayuno."
+                "text": "Una farmacia"
               },
               {
                 "id": "o2",
-                "text": "Para el almuerzo prefiere un vaso de agua y una ensalada."
+                "text": "Un cine"
               },
               {
                 "id": "o3",
-                "text": "Como le gusta comer ligero, no pide más pan."
+                "text": "Una casa"
               },
               {
                 "id": "o4",
-                "text": "Mientras espera, mira el menú y piensa que la próxima vez probará una sopa o un jugo natural."
+                "text": "Un mercado"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «¿Qué desea pedir?»?",
+            "prompt": "¿Qué hace el estudiante antes de salir?",
             "options": [
               {
                 "id": "o1",
-                "text": "En una cafetería, una persona pide café con leche y pan para el desayuno."
+                "text": "Repite las indicaciones"
               },
               {
                 "id": "o2",
-                "text": "Para el almuerzo prefiere un vaso de agua y una ensalada."
+                "text": "Compra una camisa"
               },
               {
                 "id": "o3",
-                "text": "Como le gusta comer ligero, no pide más pan."
+                "text": "Pide una sopa"
               },
               {
                 "id": "o4",
-                "text": "Mientras espera, mira el menú y piensa que la próxima vez probará una sopa o un jugo natural."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "¿Qué resultado cierra «¿Qué desea pedir?» después de «Como le gusta comer ligero, no pide más pan.»?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "En una cafetería, una persona pide café con leche y pan para el desayuno."
-              },
-              {
-                "id": "o2",
-                "text": "Para el almuerzo prefiere un vaso de agua y una ensalada."
-              },
-              {
-                "id": "o3",
-                "text": "Como le gusta comer ligero, no pide más pan."
-              },
-              {
-                "id": "o4",
-                "text": "Mientras espera, mira el menú y piensa que la próxima vez probará una sopa o un jugo natural."
+                "text": "Llama a su abuela"
               }
             ]
           }
@@ -24583,43 +24380,36 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «¿Qué desea pedir?», ¿qué detalle presenta la situación?",
+        "prompt": "¿Dónde está la biblioteca?",
         "options": [
-          "En una cafetería, una persona pide café con leche y pan para el desayuno.",
-          "Para el almuerzo prefiere un vaso de agua y una ensalada.",
-          "Como le gusta comer ligero, no pide más pan.",
-          "Mientras espera, mira el menú y piensa que la próxima vez probará una sopa o un jugo natural."
-        ]
+          "Frente al parque",
+          "Dentro de la estación",
+          "Detrás de la playa",
+          "En la escuela"
+        ],
+        "explanation": "La biblioteca está frente al parque."
       },
       {
         "type": "mcq",
-        "prompt": "Después de «En una cafetería, una persona pide café con leche y pan para el…», ¿qué sucede a continuación en «¿Qué desea pedir?»?",
+        "prompt": "¿Qué hay al lado de la biblioteca?",
         "options": [
-          "En una cafetería, una persona pide café con leche y pan para el desayuno.",
-          "Para el almuerzo prefiere un vaso de agua y una ensalada.",
-          "Como le gusta comer ligero, no pide más pan.",
-          "Mientras espera, mira el menú y piensa que la próxima vez probará una sopa o un jugo natural."
-        ]
+          "Una farmacia",
+          "Un cine",
+          "Una casa",
+          "Un mercado"
+        ],
+        "explanation": "Está al lado de una farmacia."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «¿Qué desea pedir?»?",
+        "prompt": "¿Qué hace el estudiante antes de salir?",
         "options": [
-          "En una cafetería, una persona pide café con leche y pan para el desayuno.",
-          "Para el almuerzo prefiere un vaso de agua y una ensalada.",
-          "Como le gusta comer ligero, no pide más pan.",
-          "Mientras espera, mira el menú y piensa que la próxima vez probará una sopa o un jugo natural."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Qué resultado cierra «¿Qué desea pedir?» después de «Como le gusta comer ligero, no pide más pan.»?",
-        "options": [
-          "En una cafetería, una persona pide café con leche y pan para el desayuno.",
-          "Para el almuerzo prefiere un vaso de agua y una ensalada.",
-          "Como le gusta comer ligero, no pide más pan.",
-          "Mientras espera, mira el menú y piensa que la próxima vez probará una sopa o un jugo natural."
-        ]
+          "Repite las indicaciones",
+          "Compra una camisa",
+          "Pide una sopa",
+          "Llama a su abuela"
+        ],
+        "explanation": "Repite las indicaciones para no perderse."
       }
     ]
   },
@@ -24646,14 +24436,14 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "En casa, una receta sencilla puede convertirse en una pequeña experiencia. Para preparar sopa de verduras hay papas, zanahorias y cebolla, pero falta un poco de caldo. Primero se cortan las verduras y luego se hierven durante veinte minutos. La sal se añade al final para comprobar el sabor. Conviene agregar el caldo poco a poco; así la sopa no queda demasiado líquida y los trozos conservan su forma. Cuando la sopa está lista, la sirve con pan y la comparte con su familia. Todos prueban el sabor y comentan qué ingrediente podrían añadir la próxima vez.",
+    "transcript": "Esta noche voy a preparar una sopa de verduras. Tengo papas, zanahorias y cebolla, pero me falta un poco de caldo. Primero corto las verduras y después las hiervo durante veinte minutos. Añado la sal al final para comprobar mejor el sabor. Prefiero dejar los trozos enteros y agregar el caldo poco a poco para que la sopa no quede demasiado líquida. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.",
     "extra": {
       "listeningType": "story",
       "difficulty": "A2",
       "speakers": [
         "Narrador/a"
       ],
-      "transcript": "En casa, una receta sencilla puede convertirse en una pequeña experiencia. Para preparar sopa de verduras hay papas, zanahorias y cebolla, pero falta un poco de caldo. Primero se cortan las verduras y luego se hierven durante veinte minutos. La sal se añade al final para comprobar el sabor. Conviene agregar el caldo poco a poco; así la sopa no queda demasiado líquida y los trozos conservan su forma. Cuando la sopa está lista, la sirve con pan y la comparte con su familia. Todos prueban el sabor y comentan qué ingrediente podrían añadir la próxima vez.",
+      "transcript": "Esta noche voy a preparar una sopa de verduras. Tengo papas, zanahorias y cebolla, pero me falta un poco de caldo. Primero corto las verduras y después las hiervo durante veinte minutos. Añado la sal al final para comprobar mejor el sabor. Prefiero dejar los trozos enteros y agregar el caldo poco a poco para que la sopa no quede demasiado líquida. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.",
       "listeningComprehension": {
         "id": "spanish-a2-comidas-y-recetas-listening-comprehension",
         "passingScore": 70,
@@ -25149,14 +24939,14 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Trabajar cuatro días por semana parece una promesa sencilla: más tiempo libre sin perder resultados. Pero cuando se prueba de verdad, aparecen preguntas sobre coordinación, horarios, salarios y el tipo de productividad que queremos medir. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «jornada», «productividad» y «descanso». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «jornada» parece una decisión individual, conviene considerar «productividad» y «descanso». Desde esta perspectiva, argumentar sobre condiciones y límites de una semana laboral más corta no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de ¿trabajar cuatro días a la semana realmente funciona? implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«flexibilidad», «rendimiento» y «conciliación»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «mesa redonda», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En contrastar productividad, descanso y organización laboral, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «jornada», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
+    "transcript": "Trabajar cuatro días por semana parece una promesa sencilla: más tiempo libre sin perder resultados. Pero cuando se prueba de verdad, aparecen preguntas sobre coordinación, horarios, salarios y el tipo de productividad que queremos medir. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «jornada», «productividad» y «descanso». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «jornada» parece una decisión individual, conviene considerar «productividad» y «descanso». Desde esta perspectiva, argumentar sobre condiciones y límites de una semana laboral más corta no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla. La idea final es clara: hablar de ¿trabajar cuatro días a la semana realmente funciona?",
     "extra": {
       "listeningType": "story",
       "difficulty": "C1",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "Trabajar cuatro días por semana parece una promesa sencilla: más tiempo libre sin perder resultados. Pero cuando se prueba de verdad, aparecen preguntas sobre coordinación, horarios, salarios y el tipo de productividad que queremos medir. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «jornada», «productividad» y «descanso». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «jornada» parece una decisión individual, conviene considerar «productividad» y «descanso». Desde esta perspectiva, argumentar sobre condiciones y límites de una semana laboral más corta no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de ¿trabajar cuatro días a la semana realmente funciona? implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«flexibilidad», «rendimiento» y «conciliación»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «mesa redonda», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En contrastar productividad, descanso y organización laboral, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «jornada», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
+      "transcript": "Trabajar cuatro días por semana parece una promesa sencilla: más tiempo libre sin perder resultados. Pero cuando se prueba de verdad, aparecen preguntas sobre coordinación, horarios, salarios y el tipo de productividad que queremos medir. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «jornada», «productividad» y «descanso». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «jornada» parece una decisión individual, conviene considerar «productividad» y «descanso». Desde esta perspectiva, argumentar sobre condiciones y límites de una semana laboral más corta no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla. La idea final es clara: hablar de ¿trabajar cuatro días a la semana realmente funciona?",
       "listeningComprehension": {
         "id": "spanish-c1-economia-y-cuidados-listening-comprehension",
         "passingScore": 70,
@@ -25328,14 +25118,14 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Cuando la científica presentó su hallazgo, casi nadie le creyó. La idea contradecía una explicación aceptada desde hacía décadas y las primeras pruebas parecían demasiado extrañas para cambiar un consenso. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «hipótesis», «evidencia» y «experimento». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «hipótesis» parece una decisión individual, conviene considerar «evidencia» y «experimento». Desde esta perspectiva, evaluar evidencia, resistencia institucional y cambio de paradigma no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de el descubrimiento que nadie creyó... hasta que cambió el mundo implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«réplica», «paradigma» y «hallazgo»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «storytelling científico», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En narrar una hipótesis científica recibida con escepticismo, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «hipótesis», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
+    "transcript": "Cuando la científica presentó su hallazgo, casi nadie le creyó. La idea contradecía una explicación aceptada desde hacía décadas y las primeras pruebas parecían demasiado extrañas para cambiar un consenso. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «hipótesis», «evidencia» y «experimento». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «hipótesis» parece una decisión individual, conviene considerar «evidencia» y «experimento». Desde esta perspectiva, evaluar evidencia, resistencia institucional y cambio de paradigma no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación.",
     "extra": {
       "listeningType": "story",
       "difficulty": "C2",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "Cuando la científica presentó su hallazgo, casi nadie le creyó. La idea contradecía una explicación aceptada desde hacía décadas y las primeras pruebas parecían demasiado extrañas para cambiar un consenso. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «hipótesis», «evidencia» y «experimento». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «hipótesis» parece una decisión individual, conviene considerar «evidencia» y «experimento». Desde esta perspectiva, evaluar evidencia, resistencia institucional y cambio de paradigma no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de el descubrimiento que nadie creyó... hasta que cambió el mundo implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«réplica», «paradigma» y «hallazgo»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «storytelling científico», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En narrar una hipótesis científica recibida con escepticismo, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «hipótesis», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
+      "transcript": "Cuando la científica presentó su hallazgo, casi nadie le creyó. La idea contradecía una explicación aceptada desde hacía décadas y las primeras pruebas parecían demasiado extrañas para cambiar un consenso. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «hipótesis», «evidencia» y «experimento». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «hipótesis» parece una decisión individual, conviene considerar «evidencia» y «experimento». Desde esta perspectiva, evaluar evidencia, resistencia institucional y cambio de paradigma no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación.",
       "listeningComprehension": {
         "id": "spanish-c2-debate-epistemico-listening-comprehension",
         "passingScore": 70,
@@ -28329,7 +28119,7 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Una clienta busca una camisa azul de talla mediana. Pregunta cuánto cuesta y la vendedora responde que vale ochocientos pesos. Se la prueba, le gusta el color, pero necesita una talla más grande. También ve una camisa verde. Finalmente elige la azul porque combina con su ropa, paga la compra y agradece la ayuda. Antes de salir, guarda el recibo en su cartera porque quizá necesite cambiar la camisa durante la semana.",
+    "transcript": "Hoy desayuno en una cafetería cerca de la escuela. Pido un café con leche, pan y una fruta. Para el almuerzo quiero una ensalada y un vaso de agua, porque no tengo mucha hambre. El mesero pregunta si deseo un jugo, pero prefiero agua. Mientras espero mi pedido, miro el menú y pienso que mañana voy a probar una sopa. La comida llega caliente y todo está delicioso.",
     "extra": {
       "listeningType": "story",
       "difficulty": "A1",
@@ -28369,98 +28159,75 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "spanish-a1-de-compras-listening-listening-comprehension",
+        "id": "spanish-a1-de-compras-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «¿Cuánto cuesta?», ¿qué detalle presenta la situación?",
+            "prompt": "¿Qué pide para desayunar?",
             "options": [
               {
                 "id": "o1",
-                "text": "Una clienta busca una camisa azul de talla mediana."
+                "text": "Café con leche, pan y fruta"
               },
               {
                 "id": "o2",
-                "text": "Se la prueba, le gusta el color, pero necesita una talla más grande."
+                "text": "Sopa y arroz"
               },
               {
                 "id": "o3",
-                "text": "También ve una camisa verde."
+                "text": "Una camisa azul"
               },
               {
                 "id": "o4",
-                "text": "Antes de salir, guarda el recibo en su cartera porque quizá necesite cambiar la camisa durante la semana."
+                "text": "Un helado"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Una clienta busca una camisa azul de talla mediana.», ¿qué sucede a continuación en «¿Cuánto cuesta?»?",
+            "prompt": "¿Qué prefiere beber en el almuerzo?",
             "options": [
               {
                 "id": "o1",
-                "text": "Una clienta busca una camisa azul de talla mediana."
+                "text": "Agua"
               },
               {
                 "id": "o2",
-                "text": "Se la prueba, le gusta el color, pero necesita una talla más grande."
+                "text": "Jugo"
               },
               {
                 "id": "o3",
-                "text": "También ve una camisa verde."
+                "text": "Café"
               },
               {
                 "id": "o4",
-                "text": "Antes de salir, guarda el recibo en su cartera porque quizá necesite cambiar la camisa durante la semana."
+                "text": "Leche"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «¿Cuánto cuesta?»?",
+            "prompt": "¿Qué quiere probar mañana?",
             "options": [
               {
                 "id": "o1",
-                "text": "Una clienta busca una camisa azul de talla mediana."
+                "text": "Una sopa"
               },
               {
                 "id": "o2",
-                "text": "Se la prueba, le gusta el color, pero necesita una talla más grande."
+                "text": "Una camisa"
               },
               {
                 "id": "o3",
-                "text": "Finalmente elige la azul porque combina con su ropa, paga la compra y agradece la ayuda."
+                "text": "Un tren"
               },
               {
                 "id": "o4",
-                "text": "También ve una camisa verde."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "¿Qué resultado cierra «¿Cuánto cuesta?» después de «Finalmente elige la azul porque combina con su ropa, paga la compra y…»?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Una clienta busca una camisa azul de talla mediana."
-              },
-              {
-                "id": "o2",
-                "text": "Se la prueba, le gusta el color, pero necesita una talla más grande."
-              },
-              {
-                "id": "o3",
-                "text": "También ve una camisa verde."
-              },
-              {
-                "id": "o4",
-                "text": "Antes de salir, guarda el recibo en su cartera porque quizá necesite cambiar la camisa durante la semana."
+                "text": "Una película"
               }
             ]
           }
@@ -28471,43 +28238,36 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «¿Cuánto cuesta?», ¿qué detalle presenta la situación?",
+        "prompt": "¿Qué pide para desayunar?",
         "options": [
-          "Una clienta busca una camisa azul de talla mediana.",
-          "Se la prueba, le gusta el color, pero necesita una talla más grande.",
-          "También ve una camisa verde.",
-          "Antes de salir, guarda el recibo en su cartera porque quizá necesite cambiar la camisa durante la semana."
-        ]
+          "Café con leche, pan y fruta",
+          "Sopa y arroz",
+          "Una camisa azul",
+          "Un helado"
+        ],
+        "explanation": "Pide café con leche, pan y una fruta."
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Una clienta busca una camisa azul de talla mediana.», ¿qué sucede a continuación en «¿Cuánto cuesta?»?",
+        "prompt": "¿Qué prefiere beber en el almuerzo?",
         "options": [
-          "Una clienta busca una camisa azul de talla mediana.",
-          "Se la prueba, le gusta el color, pero necesita una talla más grande.",
-          "También ve una camisa verde.",
-          "Antes de salir, guarda el recibo en su cartera porque quizá necesite cambiar la camisa durante la semana."
-        ]
+          "Agua",
+          "Jugo",
+          "Café",
+          "Leche"
+        ],
+        "explanation": "Prefiere un vaso de agua."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «¿Cuánto cuesta?»?",
+        "prompt": "¿Qué quiere probar mañana?",
         "options": [
-          "Una clienta busca una camisa azul de talla mediana.",
-          "Se la prueba, le gusta el color, pero necesita una talla más grande.",
-          "Finalmente elige la azul porque combina con su ropa, paga la compra y agradece la ayuda.",
-          "También ve una camisa verde."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Qué resultado cierra «¿Cuánto cuesta?» después de «Finalmente elige la azul porque combina con su ropa, paga la compra y…»?",
-        "options": [
-          "Una clienta busca una camisa azul de talla mediana.",
-          "Se la prueba, le gusta el color, pero necesita una talla más grande.",
-          "También ve una camisa verde.",
-          "Antes de salir, guarda el recibo en su cartera porque quizá necesite cambiar la camisa durante la semana."
-        ]
+          "Una sopa",
+          "Una camisa",
+          "Un tren",
+          "Una película"
+        ],
+        "explanation": "Piensa que mañana probará una sopa."
       }
     ]
   },
@@ -28534,14 +28294,14 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Un viaje puede quedarse en la memoria por un sabor. El verano pasado, dos hermanas viajaron a Oaxaca y visitaron un mercado pequeño. Una señora les enseñó a preparar chocolate y explicó por qué mezclaba los ingredientes lentamente. Desde aquel viaje, una de las hermanas ha preparado la receta varias veces en casa. Sin embargo, nunca sabe igual que en el mercado. Quizá el lugar, las personas y el recuerdo también cambian el sabor. Al revisar las fotos del viaje, las hermanas recuerdan la música del mercado y la paciencia de la señora. Ahora quieren aprender más recetas de esa región.",
+    "transcript": "El verano pasado viajé a Oaxaca con mi hermana y probamos muchos platos nuevos. Una tarde visitamos un mercado pequeño. Allí una señora nos enseñó a preparar chocolate. No volví a verla, pero le envié una foto cuando llegué a casa. Desde aquel viaje he preparado ese chocolate varias veces. Sin embargo, nunca sabe igual que el que probé en aquel mercado. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.",
     "extra": {
       "listeningType": "story",
       "difficulty": "A2",
       "speakers": [
         "Narrador/a"
       ],
-      "transcript": "Un viaje puede quedarse en la memoria por un sabor. El verano pasado, dos hermanas viajaron a Oaxaca y visitaron un mercado pequeño. Una señora les enseñó a preparar chocolate y explicó por qué mezclaba los ingredientes lentamente. Desde aquel viaje, una de las hermanas ha preparado la receta varias veces en casa. Sin embargo, nunca sabe igual que en el mercado. Quizá el lugar, las personas y el recuerdo también cambian el sabor. Al revisar las fotos del viaje, las hermanas recuerdan la música del mercado y la paciencia de la señora. Ahora quieren aprender más recetas de esa región.",
+      "transcript": "El verano pasado viajé a Oaxaca con mi hermana y probamos muchos platos nuevos. Una tarde visitamos un mercado pequeño. Allí una señora nos enseñó a preparar chocolate. No volví a verla, pero le envié una foto cuando llegué a casa. Desde aquel viaje he preparado ese chocolate varias veces. Sin embargo, nunca sabe igual que el que probé en aquel mercado. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.",
       "listeningComprehension": {
         "id": "spanish-a2-recuerdos-y-experiencias-listening-comprehension",
         "passingScore": 70,
@@ -29037,14 +28797,14 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Dormir poco se ha convertido en una especie de medalla social. Sin embargo, el cansancio no solo se nota al despertar: cambia nuestra concentración, nuestra paciencia y la manera en que tomamos decisiones durante el día. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «sueño», «agotamiento» y «rutina». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «sueño» parece una decisión individual, conviene considerar «agotamiento» y «rutina». Desde esta perspectiva, explicar hábitos, consecuencias y límites del autocuidado no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de dormimos menos que nunca: el costo invisible del cansancio implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«recuperación», «atención» y «bienestar»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «podcast de salud», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En explorar cómo el descanso insuficiente afecta decisiones y relaciones, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «sueño», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
+    "transcript": "Dormir poco se ha convertido en una especie de medalla social. Sin embargo, el cansancio no solo se nota al despertar: cambia nuestra concentración, nuestra paciencia y la manera en que tomamos decisiones durante el día. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «sueño», «agotamiento» y «rutina». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «sueño» parece una decisión individual, conviene considerar «agotamiento» y «rutina». Desde esta perspectiva, explicar hábitos, consecuencias y límites del autocuidado no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.",
     "extra": {
       "listeningType": "story",
       "difficulty": "C1",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "Dormir poco se ha convertido en una especie de medalla social. Sin embargo, el cansancio no solo se nota al despertar: cambia nuestra concentración, nuestra paciencia y la manera en que tomamos decisiones durante el día. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «sueño», «agotamiento» y «rutina». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «sueño» parece una decisión individual, conviene considerar «agotamiento» y «rutina». Desde esta perspectiva, explicar hábitos, consecuencias y límites del autocuidado no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de dormimos menos que nunca: el costo invisible del cansancio implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«recuperación», «atención» y «bienestar»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «podcast de salud», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En explorar cómo el descanso insuficiente afecta decisiones y relaciones, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «sueño», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
+      "transcript": "Dormir poco se ha convertido en una especie de medalla social. Sin embargo, el cansancio no solo se nota al despertar: cambia nuestra concentración, nuestra paciencia y la manera en que tomamos decisiones durante el día. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «sueño», «agotamiento» y «rutina». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «sueño» parece una decisión individual, conviene considerar «agotamiento» y «rutina». Desde esta perspectiva, explicar hábitos, consecuencias y límites del autocuidado no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.",
       "listeningComprehension": {
         "id": "spanish-c1-diversidad-del-espanol-listening-comprehension",
         "passingScore": 70,
@@ -29216,14 +28976,14 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "La economía de los creadores suele contarse con cifras de seguidores y reproducciones. Sin embargo, detrás de esas cifras hay contratos, algoritmos, trabajo invisible y plataformas que pueden cambiar una regla sin negociar con quienes dependen de ella. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «audiencia», «monetización» y «plataforma». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «audiencia» parece una decisión individual, conviene considerar «monetización» y «plataforma». Desde esta perspectiva, analizar visibilidad, monetización y precariedad en la economía digital no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de la economía de los creadores: cómo youtube, tiktok y spotify generan millones implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«patrocinio», «alcance» y «precariedad»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «podcast económico», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En investigar quién gana y quién depende de las plataformas de contenido, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «audiencia», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
+    "transcript": "La economía de los creadores suele contarse con cifras de seguidores y reproducciones. Sin embargo, detrás de esas cifras hay contratos, algoritmos, trabajo invisible y plataformas que pueden cambiar una regla sin negociar con quienes dependen de ella. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «audiencia», «monetización» y «plataforma». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «audiencia» parece una decisión individual, conviene considerar «monetización» y «plataforma». Desde esta perspectiva, analizar visibilidad, monetización y precariedad en la economía digital no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal.",
     "extra": {
       "listeningType": "story",
       "difficulty": "C2",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "La economía de los creadores suele contarse con cifras de seguidores y reproducciones. Sin embargo, detrás de esas cifras hay contratos, algoritmos, trabajo invisible y plataformas que pueden cambiar una regla sin negociar con quienes dependen de ella. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «audiencia», «monetización» y «plataforma». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «audiencia» parece una decisión individual, conviene considerar «monetización» y «plataforma». Desde esta perspectiva, analizar visibilidad, monetización y precariedad en la economía digital no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de la economía de los creadores: cómo youtube, tiktok y spotify generan millones implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«patrocinio», «alcance» y «precariedad»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «podcast económico», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En investigar quién gana y quién depende de las plataformas de contenido, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «audiencia», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
+      "transcript": "La economía de los creadores suele contarse con cifras de seguidores y reproducciones. Sin embargo, detrás de esas cifras hay contratos, algoritmos, trabajo invisible y plataformas que pueden cambiar una regla sin negociar con quienes dependen de ella. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «audiencia», «monetización» y «plataforma». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «audiencia» parece una decisión individual, conviene considerar «monetización» y «plataforma». Desde esta perspectiva, analizar visibilidad, monetización y precariedad en la economía digital no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal.",
       "listeningComprehension": {
         "id": "spanish-c2-estetica-y-interpretacion-listening-comprehension",
         "passingScore": 70,
@@ -32212,7 +31972,7 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Natalia estudia administración en la universidad y trabaja en una tienda los fines de semana. Allí atiende a los clientes y organiza los productos. Esta tarde debe terminar un informe antes de las cuatro. Después puede usar la computadora para revisar sus tareas. Estudiar y trabajar requiere organización, pero Natalia aprende algo nuevo cada semana. Para no olvidar nada, Natalia apunta sus tareas en una libreta y las ordena por horario y por importancia.",
+    "transcript": "Carla necesita comprar una camisa para una entrevista. En la tienda encuentra una camisa azul de talla mediana y pregunta cuánto cuesta. La vendedora dice que vale ochocientos pesos. Carla se la prueba, pero necesita una talla más grande. También ve una camisa verde, aunque prefiere la azul porque combina con sus pantalones. Al final paga con tarjeta y guarda el recibo en su cartera.",
     "extra": {
       "listeningType": "story",
       "difficulty": "A1",
@@ -32254,98 +32014,75 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "spanish-a1-estudios-y-trabajo-listening-listening-comprehension",
+        "id": "spanish-a1-estudios-y-trabajo-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Una entrevista breve», ¿qué detalle presenta la situación?",
+            "prompt": "¿Qué necesita comprar Carla?",
             "options": [
               {
                 "id": "o1",
-                "text": "Natalia estudia administración en la universidad y trabaja en una tienda los fines de semana."
+                "text": "Una camisa"
               },
               {
                 "id": "o2",
-                "text": "Esta tarde debe terminar un informe antes de las cuatro."
+                "text": "Un billete"
               },
               {
                 "id": "o3",
-                "text": "Después puede usar la computadora para revisar sus tareas."
+                "text": "Una mesa"
               },
               {
                 "id": "o4",
-                "text": "Para no olvidar nada, Natalia apunta sus tareas en una libreta y las ordena por horario y por importancia."
+                "text": "Un libro"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Natalia estudia administración en la universidad y trabaja en una…», ¿qué sucede a continuación en «Una entrevista breve»?",
+            "prompt": "¿Qué color elige?",
             "options": [
               {
                 "id": "o1",
-                "text": "Natalia estudia administración en la universidad y trabaja en una tienda los fines de semana."
+                "text": "Azul"
               },
               {
                 "id": "o2",
-                "text": "Esta tarde debe terminar un informe antes de las cuatro."
+                "text": "Verde"
               },
               {
                 "id": "o3",
-                "text": "Después puede usar la computadora para revisar sus tareas."
+                "text": "Rojo"
               },
               {
                 "id": "o4",
-                "text": "Para no olvidar nada, Natalia apunta sus tareas en una libreta y las ordena por horario y por importancia."
+                "text": "Amarillo"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Una entrevista breve»?",
+            "prompt": "¿Cómo paga la compra?",
             "options": [
               {
                 "id": "o1",
-                "text": "Natalia estudia administración en la universidad y trabaja en una tienda los fines de semana."
+                "text": "Con tarjeta"
               },
               {
                 "id": "o2",
-                "text": "Esta tarde debe terminar un informe antes de las cuatro."
+                "text": "Con un cheque"
               },
               {
                 "id": "o3",
-                "text": "Después puede usar la computadora para revisar sus tareas."
+                "text": "Con un regalo"
               },
               {
                 "id": "o4",
-                "text": "Para no olvidar nada, Natalia apunta sus tareas en una libreta y las ordena por horario y por importancia."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Una entrevista breve» después de «Después puede usar la computadora para revisar sus tareas.»?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Natalia estudia administración en la universidad y trabaja en una tienda los fines de semana."
-              },
-              {
-                "id": "o2",
-                "text": "Esta tarde debe terminar un informe antes de las cuatro."
-              },
-              {
-                "id": "o3",
-                "text": "Después puede usar la computadora para revisar sus tareas."
-              },
-              {
-                "id": "o4",
-                "text": "Para no olvidar nada, Natalia apunta sus tareas en una libreta y las ordena por horario y por importancia."
+                "text": "No paga"
               }
             ]
           }
@@ -32356,43 +32093,36 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Una entrevista breve», ¿qué detalle presenta la situación?",
+        "prompt": "¿Qué necesita comprar Carla?",
         "options": [
-          "Natalia estudia administración en la universidad y trabaja en una tienda los fines de semana.",
-          "Esta tarde debe terminar un informe antes de las cuatro.",
-          "Después puede usar la computadora para revisar sus tareas.",
-          "Para no olvidar nada, Natalia apunta sus tareas en una libreta y las ordena por horario y por importancia."
-        ]
+          "Una camisa",
+          "Un billete",
+          "Una mesa",
+          "Un libro"
+        ],
+        "explanation": "Carla necesita comprar una camisa."
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Natalia estudia administración en la universidad y trabaja en una…», ¿qué sucede a continuación en «Una entrevista breve»?",
+        "prompt": "¿Qué color elige?",
         "options": [
-          "Natalia estudia administración en la universidad y trabaja en una tienda los fines de semana.",
-          "Esta tarde debe terminar un informe antes de las cuatro.",
-          "Después puede usar la computadora para revisar sus tareas.",
-          "Para no olvidar nada, Natalia apunta sus tareas en una libreta y las ordena por horario y por importancia."
-        ]
+          "Azul",
+          "Verde",
+          "Rojo",
+          "Amarillo"
+        ],
+        "explanation": "Prefiere la camisa azul."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Una entrevista breve»?",
+        "prompt": "¿Cómo paga la compra?",
         "options": [
-          "Natalia estudia administración en la universidad y trabaja en una tienda los fines de semana.",
-          "Esta tarde debe terminar un informe antes de las cuatro.",
-          "Después puede usar la computadora para revisar sus tareas.",
-          "Para no olvidar nada, Natalia apunta sus tareas en una libreta y las ordena por horario y por importancia."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Una entrevista breve» después de «Después puede usar la computadora para revisar sus tareas.»?",
-        "options": [
-          "Natalia estudia administración en la universidad y trabaja en una tienda los fines de semana.",
-          "Esta tarde debe terminar un informe antes de las cuatro.",
-          "Después puede usar la computadora para revisar sus tareas.",
-          "Para no olvidar nada, Natalia apunta sus tareas en una libreta y las ordena por horario y por importancia."
-        ]
+          "Con tarjeta",
+          "Con un cheque",
+          "Con un regalo",
+          "No paga"
+        ],
+        "explanation": "Al final paga con tarjeta."
       }
     ]
   },
@@ -32419,14 +32149,14 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "La casa de los tíos se prepara para una celebración familiar. El sábado todos se reúnen para el cumpleaños de la abuela. Una amiga ha sido invitada, pero le explican que no hace falta llevar regalo. Prefiere traer un postre para compartir y lo entrega antes de las cinco. De ese modo, varias personas ayudan con los preparativos. La abuela estará contenta, no solo por la comida, sino porque puede conversar con toda la familia. Al final de la tarde, la abuela cuenta historias de su juventud. Los más pequeños escuchan, hacen preguntas y guardan algunas fotos para recordarlo después.",
+    "transcript": "El sábado celebramos el cumpleaños de mi abuela. La familia se reúne a las cinco en casa de mis tíos. He invitado a un amigo y le he explicado que no hace falta llevar un regalo. Él prefiere traer un postre para compartir y va a entregarlo antes de las cinco. Así no tengo que preparar todo sola. Creo que mi abuela estará muy contenta. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.",
     "extra": {
       "listeningType": "story",
       "difficulty": "A2",
       "speakers": [
         "Narrador/a"
       ],
-      "transcript": "La casa de los tíos se prepara para una celebración familiar. El sábado todos se reúnen para el cumpleaños de la abuela. Una amiga ha sido invitada, pero le explican que no hace falta llevar regalo. Prefiere traer un postre para compartir y lo entrega antes de las cinco. De ese modo, varias personas ayudan con los preparativos. La abuela estará contenta, no solo por la comida, sino porque puede conversar con toda la familia. Al final de la tarde, la abuela cuenta historias de su juventud. Los más pequeños escuchan, hacen preguntas y guardan algunas fotos para recordarlo después.",
+      "transcript": "El sábado celebramos el cumpleaños de mi abuela. La familia se reúne a las cinco en casa de mis tíos. He invitado a un amigo y le he explicado que no hace falta llevar un regalo. Él prefiere traer un postre para compartir y va a entregarlo antes de las cinco. Así no tengo que preparar todo sola. Creo que mi abuela estará muy contenta. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.",
       "listeningComprehension": {
         "id": "spanish-a2-celebraciones-listening-comprehension",
         "passingScore": 70,
@@ -32922,14 +32652,14 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Cuando vemos a un atleta ganar, solemos mirar el resultado final. Detrás hay una presión menos visible: lesiones, expectativas ajenas, miedo a fallar y la dificultad de descansar cuando el rendimiento define la identidad. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «presión», «rendimiento» y «expectativa». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «presión» parece una decisión individual, conviene considerar «rendimiento» y «expectativa». Desde esta perspectiva, reconocer el vínculo entre rendimiento, expectativas y salud mental no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de la presión mental detrás del deporte de alto rendimiento implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«lesión», «equilibrio» y «acompañamiento»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «entrevista», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En escuchar la experiencia de un atleta frente a la exigencia constante, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «presión», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
+    "transcript": "Cuando vemos a un atleta ganar, solemos mirar el resultado final. Detrás hay una presión menos visible: lesiones, expectativas ajenas, miedo a fallar y la dificultad de descansar cuando el rendimiento define la identidad. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «presión», «rendimiento» y «expectativa». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «presión» parece una decisión individual, conviene considerar «rendimiento» y «expectativa». Desde esta perspectiva, reconocer el vínculo entre rendimiento, expectativas y salud mental no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.",
     "extra": {
       "listeningType": "story",
       "difficulty": "C1",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "Cuando vemos a un atleta ganar, solemos mirar el resultado final. Detrás hay una presión menos visible: lesiones, expectativas ajenas, miedo a fallar y la dificultad de descansar cuando el rendimiento define la identidad. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «presión», «rendimiento» y «expectativa». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «presión» parece una decisión individual, conviene considerar «rendimiento» y «expectativa». Desde esta perspectiva, reconocer el vínculo entre rendimiento, expectativas y salud mental no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de la presión mental detrás del deporte de alto rendimiento implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«lesión», «equilibrio» y «acompañamiento»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «entrevista», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En escuchar la experiencia de un atleta frente a la exigencia constante, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «presión», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
+      "transcript": "Cuando vemos a un atleta ganar, solemos mirar el resultado final. Detrás hay una presión menos visible: lesiones, expectativas ajenas, miedo a fallar y la dificultad de descansar cuando el rendimiento define la identidad. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «presión», «rendimiento» y «expectativa». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «presión» parece una decisión individual, conviene considerar «rendimiento» y «expectativa». Desde esta perspectiva, reconocer el vínculo entre rendimiento, expectativas y salud mental no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.",
       "listeningComprehension": {
         "id": "spanish-c1-diplomacia-y-negociacion-listening-comprehension",
         "passingScore": 70,
@@ -33101,14 +32831,14 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "En un desastre natural, una decisión tomada a tiempo puede salvar una vida. Pero esas decisiones no nacen del heroísmo individual: dependen de alertas claras, preparación previa, información confiable y personas dispuestas a coordinarse. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «evacuación», «alerta» y «refugio». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «evacuación» parece una decisión individual, conviene considerar «alerta» y «refugio». Desde esta perspectiva, explicar preparación, comunicación y cooperación bajo presión no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de sobrevivir a un desastre natural: decisiones que salvan vidas implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«riesgo», «coordinación» y «resiliencia»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «historia real», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En reconstruir decisiones críticas durante una emergencia real, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «evacuación», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
+    "transcript": "En un desastre natural, una decisión tomada a tiempo puede salvar una vida. Pero esas decisiones no nacen del heroísmo individual: dependen de alertas claras, preparación previa, información confiable y personas dispuestas a coordinarse. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «evacuación», «alerta» y «refugio». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «evacuación» parece una decisión individual, conviene considerar «alerta» y «refugio». Desde esta perspectiva, explicar preparación, comunicación y cooperación bajo presión no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación.",
     "extra": {
       "listeningType": "story",
       "difficulty": "C2",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "En un desastre natural, una decisión tomada a tiempo puede salvar una vida. Pero esas decisiones no nacen del heroísmo individual: dependen de alertas claras, preparación previa, información confiable y personas dispuestas a coordinarse. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «evacuación», «alerta» y «refugio». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «evacuación» parece una decisión individual, conviene considerar «alerta» y «refugio». Desde esta perspectiva, explicar preparación, comunicación y cooperación bajo presión no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de sobrevivir a un desastre natural: decisiones que salvan vidas implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«riesgo», «coordinación» y «resiliencia»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «historia real», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En reconstruir decisiones críticas durante una emergencia real, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «evacuación», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
+      "transcript": "En un desastre natural, una decisión tomada a tiempo puede salvar una vida. Pero esas decisiones no nacen del heroísmo individual: dependen de alertas claras, preparación previa, información confiable y personas dispuestas a coordinarse. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «evacuación», «alerta» y «refugio». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «evacuación» parece una decisión individual, conviene considerar «alerta» y «refugio». Desde esta perspectiva, explicar preparación, comunicación y cooperación bajo presión no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación.",
       "listeningComprehension": {
         "id": "spanish-c2-discurso-cientifico-listening-comprehension",
         "passingScore": 70,
@@ -36123,7 +35853,7 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Después de una semana ocupada, Ana planea su sábado. Va a salir con su amigo Kevin y prefiere ver una comedia en el cine, no una película de acción. Después pueden comer algo. A Ana también le gusta leer en el parque porque disfruta estar al aire libre. A veces juega al fútbol con sus amigos para descansar. Si llueve, Ana y Kevin pueden quedarse en casa, escuchar música o elegir otra película para ver juntos.",
+    "transcript": "Los sábados me gusta descansar después de una semana ocupada. A veces voy al cine con mi mejor amiga y preferimos una comedia. Si hace buen tiempo, vamos al parque y comemos algo. También me gusta leer, escuchar música y jugar al fútbol con mis amigos. Este sábado quiero ver una película nueva y después tomar un helado. Me gustan los planes sencillos porque puedo conversar y descansar.",
     "extra": {
       "listeningType": "story",
       "difficulty": "A1",
@@ -36163,98 +35893,75 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "spanish-a1-tiempo-libre-listening-listening-comprehension",
+        "id": "spanish-a1-tiempo-libre-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «¿Quieres ir al cine?», ¿qué detalle presenta la situación?",
+            "prompt": "¿Qué tipo de película prefiere?",
             "options": [
               {
                 "id": "o1",
-                "text": "Después de una semana ocupada, Ana planea su sábado."
+                "text": "Una comedia"
               },
               {
                 "id": "o2",
-                "text": "Después pueden comer algo."
+                "text": "Una película de terror"
               },
               {
                 "id": "o3",
-                "text": "A Ana también le gusta leer en el parque porque disfruta estar al aire libre."
+                "text": "Un documental"
               },
               {
                 "id": "o4",
-                "text": "Si llueve, Ana y Kevin pueden quedarse en casa, escuchar música o elegir otra película para ver juntos."
+                "text": "Una película de acción"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Después de una semana ocupada, Ana planea su sábado.», ¿qué sucede a continuación en «¿Quieres ir al cine?»?",
+            "prompt": "¿Qué hace si hace buen tiempo?",
             "options": [
               {
                 "id": "o1",
-                "text": "Después de una semana ocupada, Ana planea su sábado."
+                "text": "Va al parque"
               },
               {
                 "id": "o2",
-                "text": "Después pueden comer algo."
+                "text": "Se queda en la farmacia"
               },
               {
                 "id": "o3",
-                "text": "A Ana también le gusta leer en el parque porque disfruta estar al aire libre."
+                "text": "Trabaja en la tienda"
               },
               {
                 "id": "o4",
-                "text": "Si llueve, Ana y Kevin pueden quedarse en casa, escuchar música o elegir otra película para ver juntos."
+                "text": "Toma el tren"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «¿Quieres ir al cine?»?",
+            "prompt": "¿Qué quiere hacer este sábado?",
             "options": [
               {
                 "id": "o1",
-                "text": "Después de una semana ocupada, Ana planea su sábado."
+                "text": "Ver una película y tomar un helado"
               },
               {
                 "id": "o2",
-                "text": "Después pueden comer algo."
+                "text": "Comprar un apartamento"
               },
               {
                 "id": "o3",
-                "text": "A Ana también le gusta leer en el parque porque disfruta estar al aire libre."
+                "text": "Preparar un examen"
               },
               {
                 "id": "o4",
-                "text": "Si llueve, Ana y Kevin pueden quedarse en casa, escuchar música o elegir otra película para ver juntos."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "¿Qué resultado cierra «¿Quieres ir al cine?» después de «A Ana también le gusta leer en el parque porque disfruta estar al aire…»?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Después de una semana ocupada, Ana planea su sábado."
-              },
-              {
-                "id": "o2",
-                "text": "Después pueden comer algo."
-              },
-              {
-                "id": "o3",
-                "text": "A Ana también le gusta leer en el parque porque disfruta estar al aire libre."
-              },
-              {
-                "id": "o4",
-                "text": "Si llueve, Ana y Kevin pueden quedarse en casa, escuchar música o elegir otra película para ver juntos."
+                "text": "Visitar un banco"
               }
             ]
           }
@@ -36265,43 +35972,36 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «¿Quieres ir al cine?», ¿qué detalle presenta la situación?",
+        "prompt": "¿Qué tipo de película prefiere?",
         "options": [
-          "Después de una semana ocupada, Ana planea su sábado.",
-          "Después pueden comer algo.",
-          "A Ana también le gusta leer en el parque porque disfruta estar al aire libre.",
-          "Si llueve, Ana y Kevin pueden quedarse en casa, escuchar música o elegir otra película para ver juntos."
-        ]
+          "Una comedia",
+          "Una película de terror",
+          "Un documental",
+          "Una película de acción"
+        ],
+        "explanation": "Prefiere una comedia."
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Después de una semana ocupada, Ana planea su sábado.», ¿qué sucede a continuación en «¿Quieres ir al cine?»?",
+        "prompt": "¿Qué hace si hace buen tiempo?",
         "options": [
-          "Después de una semana ocupada, Ana planea su sábado.",
-          "Después pueden comer algo.",
-          "A Ana también le gusta leer en el parque porque disfruta estar al aire libre.",
-          "Si llueve, Ana y Kevin pueden quedarse en casa, escuchar música o elegir otra película para ver juntos."
-        ]
+          "Va al parque",
+          "Se queda en la farmacia",
+          "Trabaja en la tienda",
+          "Toma el tren"
+        ],
+        "explanation": "Si hace buen tiempo, va al parque."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «¿Quieres ir al cine?»?",
+        "prompt": "¿Qué quiere hacer este sábado?",
         "options": [
-          "Después de una semana ocupada, Ana planea su sábado.",
-          "Después pueden comer algo.",
-          "A Ana también le gusta leer en el parque porque disfruta estar al aire libre.",
-          "Si llueve, Ana y Kevin pueden quedarse en casa, escuchar música o elegir otra película para ver juntos."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Qué resultado cierra «¿Quieres ir al cine?» después de «A Ana también le gusta leer en el parque porque disfruta estar al aire…»?",
-        "options": [
-          "Después de una semana ocupada, Ana planea su sábado.",
-          "Después pueden comer algo.",
-          "A Ana también le gusta leer en el parque porque disfruta estar al aire libre.",
-          "Si llueve, Ana y Kevin pueden quedarse en casa, escuchar música o elegir otra película para ver juntos."
-        ]
+          "Ver una película y tomar un helado",
+          "Comprar un apartamento",
+          "Preparar un examen",
+          "Visitar un banco"
+        ],
+        "explanation": "Quiere ver una película nueva y tomar un helado."
       }
     ]
   },
@@ -36328,14 +36028,14 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Faltan dos semanas para un examen y todavía hay apuntes por organizar. Un estudiante decide repasar un tema cada día y dejar el domingo para practicar. Lleva dos meses estudiando una hora después de cenar, por eso ya conoce su mejor horario. Hoy divide las tareas en un calendario. Cuando completa cada tema, hace un ejercicio corto y anota los errores. Si mantiene esta rutina, llegará al examen con más confianza y menos estrés. Además, comparte una tarde de repaso con dos compañeros. Explicar una idea a otra persona le ayuda a descubrir qué partes todavía necesita estudiar.",
+    "transcript": "Tengo un examen dentro de dos semanas y todavía no termino mis apuntes. Voy a repasar un tema cada día y dejaré el domingo para practicar. Llevo dos meses estudiando una hora después de cenar, así que ya tengo una rutina. Hoy organizaré el calendario y dividiré las tareas. Cuando complete cada tema, haré un ejercicio corto para comprobar mi progreso y llegar al examen con confianza. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.",
     "extra": {
       "listeningType": "story",
       "difficulty": "A2",
       "speakers": [
         "Narrador/a"
       ],
-      "transcript": "Faltan dos semanas para un examen y todavía hay apuntes por organizar. Un estudiante decide repasar un tema cada día y dejar el domingo para practicar. Lleva dos meses estudiando una hora después de cenar, por eso ya conoce su mejor horario. Hoy divide las tareas en un calendario. Cuando completa cada tema, hace un ejercicio corto y anota los errores. Si mantiene esta rutina, llegará al examen con más confianza y menos estrés. Además, comparte una tarde de repaso con dos compañeros. Explicar una idea a otra persona le ayuda a descubrir qué partes todavía necesita estudiar.",
+      "transcript": "Tengo un examen dentro de dos semanas y todavía no termino mis apuntes. Voy a repasar un tema cada día y dejaré el domingo para practicar. Llevo dos meses estudiando una hora después de cenar, así que ya tengo una rutina. Hoy organizaré el calendario y dividiré las tareas. Cuando complete cada tema, haré un ejercicio corto para comprobar mi progreso y llegar al examen con confianza. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.",
       "listeningComprehension": {
         "id": "spanish-a2-estudio-y-aprendizaje-listening-comprehension",
         "passingScore": 70,
@@ -36831,14 +36531,14 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "La decisión duró cinco segundos. No parecía heroica ni especialmente importante, pero abrió una puerta que hasta entonces había permanecido cerrada. A veces una vida cambia antes de que tengamos tiempo de entender lo que hemos elegido. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «instante», «decisión» y «consecuencia». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «instante» parece una decisión individual, conviene considerar «decisión» y «consecuencia». Desde esta perspectiva, interpretar azar, responsabilidad y decisiones bajo presión no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de la decisión que tomé en cinco segundos cambió mi vida implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«duda», «oportunidad» y «rumbo»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «narrativa», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En seguir una narración sobre una elección breve y sus consecuencias, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «instante», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
+    "transcript": "La decisión duró cinco segundos. No parecía heroica ni especialmente importante, pero abrió una puerta que hasta entonces había permanecido cerrada. A veces una vida cambia antes de que tengamos tiempo de entender lo que hemos elegido. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «instante», «decisión» y «consecuencia». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «instante» parece una decisión individual, conviene considerar «decisión» y «consecuencia». Desde esta perspectiva, interpretar azar, responsabilidad y decisiones bajo presión no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.",
     "extra": {
       "listeningType": "story",
       "difficulty": "C1",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "La decisión duró cinco segundos. No parecía heroica ni especialmente importante, pero abrió una puerta que hasta entonces había permanecido cerrada. A veces una vida cambia antes de que tengamos tiempo de entender lo que hemos elegido. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «instante», «decisión» y «consecuencia». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «instante» parece una decisión individual, conviene considerar «decisión» y «consecuencia». Desde esta perspectiva, interpretar azar, responsabilidad y decisiones bajo presión no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de la decisión que tomé en cinco segundos cambió mi vida implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«duda», «oportunidad» y «rumbo»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «narrativa», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En seguir una narración sobre una elección breve y sus consecuencias, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «instante», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
+      "transcript": "La decisión duró cinco segundos. No parecía heroica ni especialmente importante, pero abrió una puerta que hasta entonces había permanecido cerrada. A veces una vida cambia antes de que tengamos tiempo de entender lo que hemos elegido. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «instante», «decisión» y «consecuencia». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «instante» parece una decisión individual, conviene considerar «decisión» y «consecuencia». Desde esta perspectiva, interpretar azar, responsabilidad y decisiones bajo presión no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.",
       "listeningComprehension": {
         "id": "spanish-c1-critica-cultural-listening-comprehension",
         "passingScore": 70,
@@ -37010,14 +36710,14 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "A doce mil metros de altura, un piloto comercial no improvisa la calma. Cada cambio de ruta, cada aviso meteorológico y cada conversación con la tripulación forma parte de un sistema diseñado para decidir con precisión bajo presión. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «cabina», «turbulencia» y «protocolo». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «cabina» parece una decisión individual, conviene considerar «turbulencia» y «protocolo». Desde esta perspectiva, interpretar procedimientos, incertidumbre y responsabilidad técnica no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de la vida secreta de un piloto comercial: decisiones a 12 000 metros de altura implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«tripulación», «maniobra» y «seguridad»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «entrevista», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En conocer la cadena de decisiones detrás de un vuelo seguro, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «cabina», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
+    "transcript": "A doce mil metros de altura, un piloto comercial no improvisa la calma. Cada cambio de ruta, cada aviso meteorológico y cada conversación con la tripulación forma parte de un sistema diseñado para decidir con precisión bajo presión. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «cabina», «turbulencia» y «protocolo». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «cabina» parece una decisión individual, conviene considerar «turbulencia» y «protocolo». Desde esta perspectiva, interpretar procedimientos, incertidumbre y responsabilidad técnica no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal.",
     "extra": {
       "listeningType": "story",
       "difficulty": "C2",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "A doce mil metros de altura, un piloto comercial no improvisa la calma. Cada cambio de ruta, cada aviso meteorológico y cada conversación con la tripulación forma parte de un sistema diseñado para decidir con precisión bajo presión. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «cabina», «turbulencia» y «protocolo». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «cabina» parece una decisión individual, conviene considerar «turbulencia» y «protocolo». Desde esta perspectiva, interpretar procedimientos, incertidumbre y responsabilidad técnica no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de la vida secreta de un piloto comercial: decisiones a 12 000 metros de altura implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«tripulación», «maniobra» y «seguridad»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «entrevista», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En conocer la cadena de decisiones detrás de un vuelo seguro, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «cabina», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
+      "transcript": "A doce mil metros de altura, un piloto comercial no improvisa la calma. Cada cambio de ruta, cada aviso meteorológico y cada conversación con la tripulación forma parte de un sistema diseñado para decidir con precisión bajo presión. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «cabina», «turbulencia» y «protocolo». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «cabina» parece una decisión individual, conviene considerar «turbulencia» y «protocolo». Desde esta perspectiva, interpretar procedimientos, incertidumbre y responsabilidad técnica no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal.",
       "listeningComprehension": {
         "id": "spanish-c2-mediacion-de-conflictos-listening-comprehension",
         "passingScore": 70,
@@ -40012,7 +39712,7 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Isabel no se siente bien esta mañana: le duele la cabeza y la garganta, aunque no tiene fiebre. Está cansada y va a la farmacia. Debe descansar, beber mucha agua y consultar a un médico si no mejora. Esta tarde se queda en casa. Si mañana se siente mejor, volverá a clase; si el dolor continúa, pedirá una cita médica. Su hermana le prepara una bebida caliente y le recuerda que debe dormir temprano para recuperar fuerzas.",
+    "transcript": "Esta mañana Isabel no se siente bien. Le duele la cabeza y también la garganta, aunque no tiene fiebre. Está cansada, por eso va a la farmacia. El farmacéutico le recomienda descansar, beber mucha agua y consultar a un médico si no mejora. Isabel decide quedarse en casa esta tarde. Si mañana se siente mejor, volverá a clase; si el dolor continúa, pedirá una cita médica.",
     "extra": {
       "listeningType": "story",
       "difficulty": "A1",
@@ -40052,98 +39752,75 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "spanish-a1-salud-y-bienestar-a1-listening-listening-comprehension",
+        "id": "spanish-a1-salud-y-bienestar-a1-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «En la farmacia», ¿qué detalle presenta la situación?",
+            "prompt": "¿Qué le duele a Isabel?",
             "options": [
               {
                 "id": "o1",
-                "text": "Isabel no se siente bien esta mañana: le duele la cabeza y la garganta, aunque no tiene fiebre."
+                "text": "La cabeza y la garganta"
               },
               {
                 "id": "o2",
-                "text": "Debe descansar, beber mucha agua y consultar a un médico si no mejora."
+                "text": "La mano y el pie"
               },
               {
                 "id": "o3",
-                "text": "Esta tarde se queda en casa."
+                "text": "Los ojos y la espalda"
               },
               {
                 "id": "o4",
-                "text": "Su hermana le prepara una bebida caliente y le recuerda que debe dormir temprano para recuperar fuerzas."
+                "text": "El estómago y la pierna"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «Isabel no se siente bien esta mañana: le duele la cabeza y la…», ¿qué sucede a continuación en «En la farmacia»?",
+            "prompt": "¿Qué le recomienda el farmacéutico?",
             "options": [
               {
                 "id": "o1",
-                "text": "Isabel no se siente bien esta mañana: le duele la cabeza y la garganta, aunque no tiene fiebre."
+                "text": "Descansar y beber agua"
               },
               {
                 "id": "o2",
-                "text": "Debe descansar, beber mucha agua y consultar a un médico si no mejora."
+                "text": "Ir al cine"
               },
               {
                 "id": "o3",
-                "text": "Esta tarde se queda en casa."
+                "text": "Comprar ropa"
               },
               {
                 "id": "o4",
-                "text": "Su hermana le prepara una bebida caliente y le recuerda que debe dormir temprano para recuperar fuerzas."
+                "text": "Viajar a la playa"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «En la farmacia»?",
+            "prompt": "¿Qué hará si el dolor continúa?",
             "options": [
               {
                 "id": "o1",
-                "text": "Isabel no se siente bien esta mañana: le duele la cabeza y la garganta, aunque no tiene fiebre."
+                "text": "Pedir una cita médica"
               },
               {
                 "id": "o2",
-                "text": "Debe descansar, beber mucha agua y consultar a un médico si no mejora."
+                "text": "Ir a clase"
               },
               {
                 "id": "o3",
-                "text": "Esta tarde se queda en casa."
+                "text": "Jugar al fútbol"
               },
               {
                 "id": "o4",
-                "text": "Su hermana le prepara una bebida caliente y le recuerda que debe dormir temprano para recuperar fuerzas."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "¿Qué resultado cierra «En la farmacia» después de «Esta tarde se queda en casa.»?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Isabel no se siente bien esta mañana: le duele la cabeza y la garganta, aunque no tiene fiebre."
-              },
-              {
-                "id": "o2",
-                "text": "Debe descansar, beber mucha agua y consultar a un médico si no mejora."
-              },
-              {
-                "id": "o3",
-                "text": "Esta tarde se queda en casa."
-              },
-              {
-                "id": "o4",
-                "text": "Su hermana le prepara una bebida caliente y le recuerda que debe dormir temprano para recuperar fuerzas."
+                "text": "Preparar una sopa"
               }
             ]
           }
@@ -40154,43 +39831,36 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «En la farmacia», ¿qué detalle presenta la situación?",
+        "prompt": "¿Qué le duele a Isabel?",
         "options": [
-          "Isabel no se siente bien esta mañana: le duele la cabeza y la garganta, aunque no tiene fiebre.",
-          "Debe descansar, beber mucha agua y consultar a un médico si no mejora.",
-          "Esta tarde se queda en casa.",
-          "Su hermana le prepara una bebida caliente y le recuerda que debe dormir temprano para recuperar fuerzas."
-        ]
+          "La cabeza y la garganta",
+          "La mano y el pie",
+          "Los ojos y la espalda",
+          "El estómago y la pierna"
+        ],
+        "explanation": "Le duele la cabeza y la garganta."
       },
       {
         "type": "mcq",
-        "prompt": "Después de «Isabel no se siente bien esta mañana: le duele la cabeza y la…», ¿qué sucede a continuación en «En la farmacia»?",
+        "prompt": "¿Qué le recomienda el farmacéutico?",
         "options": [
-          "Isabel no se siente bien esta mañana: le duele la cabeza y la garganta, aunque no tiene fiebre.",
-          "Debe descansar, beber mucha agua y consultar a un médico si no mejora.",
-          "Esta tarde se queda en casa.",
-          "Su hermana le prepara una bebida caliente y le recuerda que debe dormir temprano para recuperar fuerzas."
-        ]
+          "Descansar y beber agua",
+          "Ir al cine",
+          "Comprar ropa",
+          "Viajar a la playa"
+        ],
+        "explanation": "Le recomienda descansar y beber mucha agua."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «En la farmacia»?",
+        "prompt": "¿Qué hará si el dolor continúa?",
         "options": [
-          "Isabel no se siente bien esta mañana: le duele la cabeza y la garganta, aunque no tiene fiebre.",
-          "Debe descansar, beber mucha agua y consultar a un médico si no mejora.",
-          "Esta tarde se queda en casa.",
-          "Su hermana le prepara una bebida caliente y le recuerda que debe dormir temprano para recuperar fuerzas."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Qué resultado cierra «En la farmacia» después de «Esta tarde se queda en casa.»?",
-        "options": [
-          "Isabel no se siente bien esta mañana: le duele la cabeza y la garganta, aunque no tiene fiebre.",
-          "Debe descansar, beber mucha agua y consultar a un médico si no mejora.",
-          "Esta tarde se queda en casa.",
-          "Su hermana le prepara una bebida caliente y le recuerda que debe dormir temprano para recuperar fuerzas."
-        ]
+          "Pedir una cita médica",
+          "Ir a clase",
+          "Jugar al fútbol",
+          "Preparar una sopa"
+        ],
+        "explanation": "Si el dolor continúa, pedirá una cita médica."
       }
     ]
   },
@@ -40217,14 +39887,14 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Una contraseña olvidada puede detener toda la mañana, pero hay una solución segura. Primero se pulsa «Recuperar contraseña» en la pantalla de inicio. Después se revisa el correo y se abre el enlace recibido. Es importante comprobar la bandeja de entrada y también el spam. Al crear una nueva clave, conviene combinar letras, números y símbolos. Finalmente se guarda el acceso en un lugar seguro y no se comparte la contraseña con otra persona. Después activa una verificación adicional para proteger la cuenta. De ese modo, un código enviado al teléfono ayuda a impedir que otra persona entre sin permiso.",
+    "transcript": "No puedo entrar en mi cuenta porque olvidé la contraseña. Primero debo pulsar “Recuperar contraseña” en la pantalla de inicio. Después tengo que revisar mi correo y abrir el enlace recibido. Voy a comprobar que el mensaje llegó a la bandeja de entrada y no al spam. Finalmente crearé una clave segura, guardaré el acceso y no compartiré mi contraseña con nadie. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.",
     "extra": {
       "listeningType": "story",
       "difficulty": "A2",
       "speakers": [
         "Narrador/a"
       ],
-      "transcript": "Una contraseña olvidada puede detener toda la mañana, pero hay una solución segura. Primero se pulsa «Recuperar contraseña» en la pantalla de inicio. Después se revisa el correo y se abre el enlace recibido. Es importante comprobar la bandeja de entrada y también el spam. Al crear una nueva clave, conviene combinar letras, números y símbolos. Finalmente se guarda el acceso en un lugar seguro y no se comparte la contraseña con otra persona. Después activa una verificación adicional para proteger la cuenta. De ese modo, un código enviado al teléfono ayuda a impedir que otra persona entre sin permiso.",
+      "transcript": "No puedo entrar en mi cuenta porque olvidé la contraseña. Primero debo pulsar “Recuperar contraseña” en la pantalla de inicio. Después tengo que revisar mi correo y abrir el enlace recibido. Voy a comprobar que el mensaje llegó a la bandeja de entrada y no al spam. Finalmente crearé una clave segura, guardaré el acceso y no compartiré mi contraseña con nadie. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.",
       "listeningComprehension": {
         "id": "spanish-a2-tecnologia-cotidiana-listening-comprehension",
         "passingScore": 70,
@@ -40720,14 +40390,14 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Nunca había sido tan fácil hablar con personas que están lejos. Aun así, muchas personas describen una soledad que no desaparece con más mensajes, reacciones o seguidores. La conexión y la cercanía no siempre son lo mismo. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «vínculo», «aislamiento» y «interacción». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. En el artículo se analizan «vínculo» y «aislamiento» desde perspectivas distintas. Desde esta perspectiva, evaluar beneficios y riesgos de la conexión permanente no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de ¿las redes sociales nos acercan o nos aíslan? implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«presencia», «algoritmo» y «comunidad»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «podcast de sociedad», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En contrastar vínculos digitales, atención y soledad contemporánea, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «vínculo», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
+    "transcript": "Nunca había sido tan fácil hablar con personas que están lejos. Aun así, muchas personas describen una soledad que no desaparece con más mensajes, reacciones o seguidores. La conexión y la cercanía no siempre son lo mismo. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «vínculo», «aislamiento» y «interacción». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. En el artículo se analizan «vínculo» y «aislamiento» desde perspectivas distintas. Desde esta perspectiva, evaluar beneficios y riesgos de la conexión permanente no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla. La idea final es clara: hablar de ¿las redes sociales nos acercan o nos aíslan?",
     "extra": {
       "listeningType": "story",
       "difficulty": "C1",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "Nunca había sido tan fácil hablar con personas que están lejos. Aun así, muchas personas describen una soledad que no desaparece con más mensajes, reacciones o seguidores. La conexión y la cercanía no siempre son lo mismo. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «vínculo», «aislamiento» y «interacción». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. En el artículo se analizan «vínculo» y «aislamiento» desde perspectivas distintas. Desde esta perspectiva, evaluar beneficios y riesgos de la conexión permanente no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de ¿las redes sociales nos acercan o nos aíslan? implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«presencia», «algoritmo» y «comunidad»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «podcast de sociedad», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En contrastar vínculos digitales, atención y soledad contemporánea, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «vínculo», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
+      "transcript": "Nunca había sido tan fácil hablar con personas que están lejos. Aun así, muchas personas describen una soledad que no desaparece con más mensajes, reacciones o seguidores. La conexión y la cercanía no siempre son lo mismo. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «vínculo», «aislamiento» y «interacción». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. En el artículo se analizan «vínculo» y «aislamiento» desde perspectivas distintas. Desde esta perspectiva, evaluar beneficios y riesgos de la conexión permanente no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla. La idea final es clara: hablar de ¿las redes sociales nos acercan o nos aíslan?",
       "listeningComprehension": {
         "id": "spanish-c1-politicas-publicas-listening-comprehension",
         "passingScore": 70,
@@ -40899,14 +40569,14 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Algunos recuerdos permanecen durante décadas con una intensidad sorprendente, aunque los detalles cambien con el tiempo. La neurociencia muestra que recordar no es reproducir una grabación: es reconstruir una experiencia que la emoción ha vuelto significativa. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «memoria», «emoción» y «recuerdo». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «memoria» parece una decisión individual, conviene considerar «emoción» y «recuerdo». Desde esta perspectiva, distinguir recuerdo fiable, reconstrucción y significado emocional no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de ¿por qué algunos recuerdos permanecen para siempre? implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«consolidación», «evocación» y «sesgo»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «podcast de neurociencia», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En explorar la relación entre emoción, memoria y narrativa personal, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «memoria», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
+    "transcript": "Algunos recuerdos permanecen durante décadas con una intensidad sorprendente, aunque los detalles cambien con el tiempo. La neurociencia muestra que recordar no es reproducir una grabación: es reconstruir una experiencia que la emoción ha vuelto significativa. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «memoria», «emoción» y «recuerdo». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «memoria» parece una decisión individual, conviene considerar «emoción» y «recuerdo». Desde esta perspectiva, distinguir recuerdo fiable, reconstrucción y significado emocional no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal.",
     "extra": {
       "listeningType": "story",
       "difficulty": "C2",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "Algunos recuerdos permanecen durante décadas con una intensidad sorprendente, aunque los detalles cambien con el tiempo. La neurociencia muestra que recordar no es reproducir una grabación: es reconstruir una experiencia que la emoción ha vuelto significativa. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «memoria», «emoción» y «recuerdo». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «memoria» parece una decisión individual, conviene considerar «emoción» y «recuerdo». Desde esta perspectiva, distinguir recuerdo fiable, reconstrucción y significado emocional no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de ¿por qué algunos recuerdos permanecen para siempre? implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«consolidación», «evocación» y «sesgo»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «podcast de neurociencia», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En explorar la relación entre emoción, memoria y narrativa personal, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «memoria», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
+      "transcript": "Algunos recuerdos permanecen durante décadas con una intensidad sorprendente, aunque los detalles cambien con el tiempo. La neurociencia muestra que recordar no es reproducir una grabación: es reconstruir una experiencia que la emoción ha vuelto significativa. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «memoria», «emoción» y «recuerdo». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «memoria» parece una decisión individual, conviene considerar «emoción» y «recuerdo». Desde esta perspectiva, distinguir recuerdo fiable, reconstrucción y significado emocional no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal.",
       "listeningComprehension": {
         "id": "spanish-c2-ensayo-de-alta-exigencia-listening-comprehension",
         "passingScore": 70,
@@ -43901,7 +43571,7 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "El calendario anuncia un fin de semana especial. El sábado una familia va a la playa para nadar y comer junto al mar. El domingo quiere descansar en casa, pero si hace buen tiempo también visitará a la abuela. En agosto preparará una comida para todos. Son planes sencillos que combinan descanso, familia y tiempo al aire libre. Antes de la salida, todos preparan toallas, protector solar y comida sencilla para compartir durante el día.",
+    "transcript": "Este fin de semana voy a visitar la playa con mi familia. El sábado vamos a nadar, caminar junto al mar y comer algo sencillo. Mi hermano quiere jugar con una pelota y mi madre prepara unos sándwiches. El domingo pienso descansar en casa y llamar a mi abuela. Si hace buen tiempo, también voy a salir con mis amigos por la tarde. Ya estoy preparando una mochila con agua, toallas y protector solar.",
     "extra": {
       "listeningType": "story",
       "difficulty": "A1",
@@ -43941,98 +43611,75 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "spanish-a1-planes-y-repaso-listening-listening-comprehension",
+        "id": "spanish-a1-planes-y-repaso-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "En «Un mensaje sobre el fin de semana», ¿qué detalle presenta la situación?",
+            "prompt": "¿Adónde va la familia el sábado?",
             "options": [
               {
                 "id": "o1",
-                "text": "El calendario anuncia un fin de semana especial."
+                "text": "A la playa"
               },
               {
                 "id": "o2",
-                "text": "El domingo quiere descansar en casa, pero si hace buen tiempo también visitará a la abuela."
+                "text": "A la estación"
               },
               {
                 "id": "o3",
-                "text": "En agosto preparará una comida para todos."
+                "text": "A la farmacia"
               },
               {
                 "id": "o4",
-                "text": "Antes de la salida, todos preparan toallas, protector solar y comida sencilla para compartir durante el día."
+                "text": "A la biblioteca"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Después de «El calendario anuncia un fin de semana especial.», ¿qué sucede a continuación en «Un mensaje sobre el fin de semana»?",
+            "prompt": "¿Qué prepara la madre?",
             "options": [
               {
                 "id": "o1",
-                "text": "El calendario anuncia un fin de semana especial."
+                "text": "Sándwiches"
               },
               {
                 "id": "o2",
-                "text": "El domingo quiere descansar en casa, pero si hace buen tiempo también visitará a la abuela."
+                "text": "Una camisa azul"
               },
               {
                 "id": "o3",
-                "text": "En agosto preparará una comida para todos."
+                "text": "Un mapa"
               },
               {
                 "id": "o4",
-                "text": "Antes de la salida, todos preparan toallas, protector solar y comida sencilla para compartir durante el día."
+                "text": "Una película"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Un mensaje sobre el fin de semana»?",
+            "prompt": "¿Qué lleva la persona en la mochila?",
             "options": [
               {
                 "id": "o1",
-                "text": "El calendario anuncia un fin de semana especial."
+                "text": "Agua, toallas y protector solar"
               },
               {
                 "id": "o2",
-                "text": "El domingo quiere descansar en casa, pero si hace buen tiempo también visitará a la abuela."
+                "text": "Libros y una computadora"
               },
               {
                 "id": "o3",
-                "text": "En agosto preparará una comida para todos."
+                "text": "Arroz y tomates"
               },
               {
                 "id": "o4",
-                "text": "Antes de la salida, todos preparan toallas, protector solar y comida sencilla para compartir durante el día."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "¿Qué resultado cierra «Un mensaje sobre el fin de semana» después de «En agosto preparará una comida para todos.»?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "El calendario anuncia un fin de semana especial."
-              },
-              {
-                "id": "o2",
-                "text": "El domingo quiere descansar en casa, pero si hace buen tiempo también visitará a la abuela."
-              },
-              {
-                "id": "o3",
-                "text": "En agosto preparará una comida para todos."
-              },
-              {
-                "id": "o4",
-                "text": "Antes de la salida, todos preparan toallas, protector solar y comida sencilla para compartir durante el día."
+                "text": "Un tren y un billete"
               }
             ]
           }
@@ -44043,43 +43690,36 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "En «Un mensaje sobre el fin de semana», ¿qué detalle presenta la situación?",
+        "prompt": "¿Adónde va la familia el sábado?",
         "options": [
-          "El calendario anuncia un fin de semana especial.",
-          "El domingo quiere descansar en casa, pero si hace buen tiempo también visitará a la abuela.",
-          "En agosto preparará una comida para todos.",
-          "Antes de la salida, todos preparan toallas, protector solar y comida sencilla para compartir durante el día."
-        ]
+          "A la playa",
+          "A la estación",
+          "A la farmacia",
+          "A la biblioteca"
+        ],
+        "explanation": "El sábado van a la playa."
       },
       {
         "type": "mcq",
-        "prompt": "Después de «El calendario anuncia un fin de semana especial.», ¿qué sucede a continuación en «Un mensaje sobre el fin de semana»?",
+        "prompt": "¿Qué prepara la madre?",
         "options": [
-          "El calendario anuncia un fin de semana especial.",
-          "El domingo quiere descansar en casa, pero si hace buen tiempo también visitará a la abuela.",
-          "En agosto preparará una comida para todos.",
-          "Antes de la salida, todos preparan toallas, protector solar y comida sencilla para compartir durante el día."
-        ]
+          "Sándwiches",
+          "Una camisa azul",
+          "Un mapa",
+          "Una película"
+        ],
+        "explanation": "La madre prepara unos sándwiches."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Un mensaje sobre el fin de semana»?",
+        "prompt": "¿Qué lleva la persona en la mochila?",
         "options": [
-          "El calendario anuncia un fin de semana especial.",
-          "El domingo quiere descansar en casa, pero si hace buen tiempo también visitará a la abuela.",
-          "En agosto preparará una comida para todos.",
-          "Antes de la salida, todos preparan toallas, protector solar y comida sencilla para compartir durante el día."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Qué resultado cierra «Un mensaje sobre el fin de semana» después de «En agosto preparará una comida para todos.»?",
-        "options": [
-          "El calendario anuncia un fin de semana especial.",
-          "El domingo quiere descansar en casa, pero si hace buen tiempo también visitará a la abuela.",
-          "En agosto preparará una comida para todos.",
-          "Antes de la salida, todos preparan toallas, protector solar y comida sencilla para compartir durante el día."
-        ]
+          "Agua, toallas y protector solar",
+          "Libros y una computadora",
+          "Arroz y tomates",
+          "Un tren y un billete"
+        ],
+        "explanation": "Prepara una mochila con agua, toallas y protector solar."
       }
     ]
   },
@@ -44106,14 +43746,14 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Un equipo tiene que presentar un proyecto el viernes y necesita repartir bien el trabajo. Una persona revisa los datos y otra prepara las diapositivas. El miércoles se reúnen para revisar el borrador y cambiar lo necesario. Si terminan ese día, tendrán tiempo para ensayar. Hoy revisan la información y mañana envían una versión al equipo. Así todos conocen el acuerdo, pueden hacer sugerencias y llegan a la presentación con una idea común. Durante el ensayo, cada integrante explica una parte y recibe comentarios breves. Si algo no se entiende, todavía tendrán tiempo para corregirlo antes del viernes.",
+    "transcript": "Tengo que presentar un proyecto con mi compañera el viernes. Yo voy a revisar los datos y ella preparará las diapositivas. El miércoles nos reuniremos para revisar el resultado y cambiar lo necesario. Si terminamos el borrador ese día, tendremos tiempo para ensayar la presentación. Hoy revisaré la información y mañana enviaré la versión final al equipo para que todos conozcan el acuerdo. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.",
     "extra": {
       "listeningType": "story",
       "difficulty": "A2",
       "speakers": [
         "Narrador/a"
       ],
-      "transcript": "Un equipo tiene que presentar un proyecto el viernes y necesita repartir bien el trabajo. Una persona revisa los datos y otra prepara las diapositivas. El miércoles se reúnen para revisar el borrador y cambiar lo necesario. Si terminan ese día, tendrán tiempo para ensayar. Hoy revisan la información y mañana envían una versión al equipo. Así todos conocen el acuerdo, pueden hacer sugerencias y llegan a la presentación con una idea común. Durante el ensayo, cada integrante explica una parte y recibe comentarios breves. Si algo no se entiende, todavía tendrán tiempo para corregirlo antes del viernes.",
+      "transcript": "Tengo que presentar un proyecto con mi compañera el viernes. Yo voy a revisar los datos y ella preparará las diapositivas. El miércoles nos reuniremos para revisar el resultado y cambiar lo necesario. Si terminamos el borrador ese día, tendremos tiempo para ensayar la presentación. Hoy revisaré la información y mañana enviaré la versión final al equipo para que todos conozcan el acuerdo. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.",
       "listeningComprehension": {
         "id": "spanish-a2-planes-y-proyectos-listening-comprehension",
         "passingScore": 70,
@@ -44609,14 +44249,14 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "A los cincuenta y seis años, Elena decidió aprender un idioma que siempre había querido hablar. No buscaba demostrar que la edad no importa; quería descubrir qué ocurre cuando la práctica y la curiosidad ocupan el lugar del miedo a equivocarse. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «constancia», «memoria» y «fluidez». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «constancia» parece una decisión individual, conviene considerar «memoria» y «fluidez». Desde esta perspectiva, cuestionar prejuicios sobre edad, memoria y aprendizaje no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de aprender un idioma después de los cincuenta años implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«práctica», «confianza» y «progreso»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «historia inspiradora», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En conocer una historia de aprendizaje adulto y persistencia, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «constancia», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
+    "transcript": "A los cincuenta y seis años, Elena decidió aprender un idioma que siempre había querido hablar. No buscaba demostrar que la edad no importa; quería descubrir qué ocurre cuando la práctica y la curiosidad ocupan el lugar del miedo a equivocarse. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «constancia», «memoria» y «fluidez». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «constancia» parece una decisión individual, conviene considerar «memoria» y «fluidez». Desde esta perspectiva, cuestionar prejuicios sobre edad, memoria y aprendizaje no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.",
     "extra": {
       "listeningType": "story",
       "difficulty": "C1",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "A los cincuenta y seis años, Elena decidió aprender un idioma que siempre había querido hablar. No buscaba demostrar que la edad no importa; quería descubrir qué ocurre cuando la práctica y la curiosidad ocupan el lugar del miedo a equivocarse. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «constancia», «memoria» y «fluidez». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «constancia» parece una decisión individual, conviene considerar «memoria» y «fluidez». Desde esta perspectiva, cuestionar prejuicios sobre edad, memoria y aprendizaje no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de aprender un idioma después de los cincuenta años implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«práctica», «confianza» y «progreso»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «historia inspiradora», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En conocer una historia de aprendizaje adulto y persistencia, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «constancia», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
+      "transcript": "A los cincuenta y seis años, Elena decidió aprender un idioma que siempre había querido hablar. No buscaba demostrar que la edad no importa; quería descubrir qué ocurre cuando la práctica y la curiosidad ocupan el lugar del miedo a equivocarse. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «constancia», «memoria» y «fluidez». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «constancia» parece una decisión individual, conviene considerar «memoria» y «fluidez». Desde esta perspectiva, cuestionar prejuicios sobre edad, memoria y aprendizaje no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.",
       "listeningComprehension": {
         "id": "spanish-c1-coloquio-academico-listening-comprehension",
         "passingScore": 70,
@@ -44788,14 +44428,14 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Muchas empresas globales empiezan con una idea pequeña, a veces en un garaje. Lo difícil no es solo crecer: es descubrir qué ocurre cuando una solución local se convierte en una organización que afecta a millones de personas. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «idea», «prototipo» y «escala». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «idea» parece una decisión individual, conviene considerar «prototipo» y «escala». Desde esta perspectiva, sintetizar innovación, estrategia, escala y consecuencias sociales no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«estrategia», «inversión» y «impacto»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «narrativa empresarial», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En seguir la historia de una idea que se vuelve organización mundial, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «idea», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
+    "transcript": "Muchas empresas globales empiezan con una idea pequeña, a veces en un garaje. Lo difícil no es solo crecer: es descubrir qué ocurre cuando una solución local se convierte en una organización que afecta a millones de personas. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «idea», «prototipo» y «escala». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «idea» parece una decisión individual, conviene considerar «prototipo» y «escala». Desde esta perspectiva, sintetizar innovación, estrategia, escala y consecuencias sociales no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal.",
     "extra": {
       "listeningType": "story",
       "difficulty": "C2",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "Muchas empresas globales empiezan con una idea pequeña, a veces en un garaje. Lo difícil no es solo crecer: es descubrir qué ocurre cuando una solución local se convierte en una organización que afecta a millones de personas. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «idea», «prototipo» y «escala». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «idea» parece una decisión individual, conviene considerar «prototipo» y «escala». Desde esta perspectiva, sintetizar innovación, estrategia, escala y consecuencias sociales no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«estrategia», «inversión» y «impacto»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «narrativa empresarial», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En seguir la historia de una idea que se vuelve organización mundial, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «idea», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
+      "transcript": "Muchas empresas globales empiezan con una idea pequeña, a veces en un garaje. Lo difícil no es solo crecer: es descubrir qué ocurre cuando una solución local se convierte en una organización que afecta a millones de personas. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «idea», «prototipo» y «escala». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «idea» parece una decisión individual, conviene considerar «prototipo» y «escala». Desde esta perspectiva, sintetizar innovación, estrategia, escala y consecuencias sociales no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal.",
       "listeningComprehension": {
         "id": "spanish-c2-defensa-y-sintesis-listening-comprehension",
         "passingScore": 70,

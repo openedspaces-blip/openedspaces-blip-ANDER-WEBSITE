@@ -2,96 +2,96 @@
 
 ## A1 · Mucho gusto, ¿cómo te llamas?
 
-Es el primer día de clase. Valentina entra al salón y conoce a Marco. Ella dice: «Hola, mucho gusto». Marco responde: «Mucho gusto». Valentina deletrea su nombre: V-A-L-E-N-T-I-N-A. Marco dice: M-A-R-C-O. Después buscan sus asientos. La profesora sonríe y escribe los nombres de los estudiantes nuevos en la pizarra.
+Hola, me llamo Valentina. Tengo diecinueve años y soy de Santo Domingo. Vivo con mi familia y estudio español por las tardes. Me gusta escuchar música y hablar con personas de otros países. Hoy es mi primer día de clase y estoy un poco nerviosa, pero muy contenta. Quiero aprender palabras nuevas y hacer amigos. Mucho gusto, espero conocerte pronto.
 
 ## A1 · Un mensaje de voz
 
-En la escuela hay un formulario nuevo. Camila tiene diecinueve años y es de México. Ahora vive en Santiago con su familia. Su teléfono es 809-555-0199. Por las tardes estudia español y practica con sus compañeros. En su clase hay personas de varios países. Camila quiere aprender expresiones útiles para hablar con todos.
+Este es mi compañero Marco. Tiene veinte años, es de Italia y ahora vive en Santiago. Estudia español porque quiere viajar por América Latina. Marco habla italiano e inglés, y también entiende un poco de francés. En clase se sienta cerca de mí y siempre trae una libreta azul. Es muy amable y le gusta ayudar cuando alguien tiene una pregunta.
 
 ## A1 · Esta es mi hermana
 
-El domingo la familia de Sofía come junta. Su madre se llama Carmen y su padre, Rafael. Sofía tiene una hermana, Lucía, y un hermano, Tomás. Lucía tiene dieciséis años; Tomás tiene nueve. La abuela Rosa vive con ellos y es muy amable. Después de comer, los niños ayudan a recoger la mesa y los adultos preparan café para conversar un poco más.
+Quiero hablar de mi mejor amigo, Kevin. Lo conozco desde la escuela y vivimos en el mismo barrio. Tiene dieciocho años, es divertido y muy tranquilo. A Kevin le gusta jugar al fútbol, ver películas y cocinar pasta los domingos. Cuando tengo un problema, él escucha con atención y me da buenos consejos. Los sábados solemos ir al parque o tomar un jugo después de clase.
 
 ## A1 · ¿A qué hora te levantas?
 
-A las seis y media suena el reloj de Tomás. Desayuna, se viste y prepara su mochila antes de salir. Camina a la escuela con su hermana. Las clases empiezan a las ocho. Después hace la tarea y descansa. Por la noche prepara otra vez la mochila para no llegar tarde. Antes de dormir, Tomás revisa que tenga sus libros, un lápiz y una botella de agua para la mañana.
+Sofía vive con sus padres y sus dos hermanos. Su madre trabaja en una tienda y su padre es conductor. Su hermana Lucía tiene dieciséis años y su hermano Tomás tiene nueve. Los domingos la familia come junta en casa de la abuela Rosa. Después de comer, todos conversan y los niños juegan en el patio. Sofía dice que su familia es grande, pero muy cariñosa.
 
 ## A1 · Así es mi casa
 
-La casa de Carla tiene tres habitaciones, una sala grande, una cocina y dos baños. En la sala hay un sofá y una mesa. En la cocina hay una nevera, una estufa y sillas junto a la ventana. Su dormitorio está arriba, entre el baño y el cuarto de su hermano. Cuando hace buen tiempo, Carla se sienta en el patio a leer o a hablar con su familia después de cenar.
+Vivo en una casa pequeña, pero cómoda. Tiene dos habitaciones, una sala, una cocina y un baño. En mi habitación hay una cama, un armario y una mesa para estudiar. La sala tiene un sofá grande y unas fotos de mi familia. Detrás de la casa hay un patio con plantas. Me gusta sentarme allí por la tarde porque es tranquilo y puedo leer o escuchar música.
 
 ## A1 · Perdón, ¿dónde está el banco?
 
-Un visitante necesita ir al banco. Primero camina derecho y dobla a la derecha. La farmacia está al lado del banco. Después quiere visitar el parque, por eso gira a la izquierda. También puede tomar el autobús y bajar frente a la biblioteca. Con estas indicaciones puede recorrer el barrio sin perderse. El visitante también pregunta dónde puede comprar agua. Le dicen que hay una tienda pequeña frente al parque.
+Cada día me levanto a las seis y media. Primero me ducho, desayuno y preparo mi mochila. Después camino a la escuela; las clases empiezan a las ocho. Por la tarde hago la tarea y ayudo un poco en casa. A veces veo una serie antes de cenar. Por la noche preparo mi ropa para el día siguiente y pongo la alarma. Así no tengo que correr por la mañana.
 
 ## A1 · ¿Qué desea pedir?
 
-En una cafetería, una persona pide café con leche y pan para el desayuno. También quiere fruta, pero no desea una bebida fría. Para el almuerzo prefiere un vaso de agua y una ensalada. Como le gusta comer ligero, no pide más pan. Al final agradece al mesero y espera una comida fresca. Mientras espera, mira el menú y piensa que la próxima vez probará una sopa o un jugo natural.
+Un estudiante nuevo quiere llegar a la biblioteca. Primero camina derecho por esta calle y dobla a la izquierda en el banco. La biblioteca está frente al parque, al lado de una farmacia. Si necesita comprar agua, hay una tienda pequeña cerca de la entrada. El estudiante repite las indicaciones antes de salir. Después agradece la ayuda y camina con más seguridad por el barrio.
 
 ## A1 · ¿Cuánto cuesta?
 
-Una clienta busca una camisa azul de talla mediana. Pregunta cuánto cuesta y la vendedora responde que vale ochocientos pesos. Se la prueba, le gusta el color, pero necesita una talla más grande. También ve una camisa verde. Finalmente elige la azul porque combina con su ropa, paga la compra y agradece la ayuda. Antes de salir, guarda el recibo en su cartera porque quizá necesite cambiar la camisa durante la semana.
+Hoy desayuno en una cafetería cerca de la escuela. Pido un café con leche, pan y una fruta. Para el almuerzo quiero una ensalada y un vaso de agua, porque no tengo mucha hambre. El mesero pregunta si deseo un jugo, pero prefiero agua. Mientras espero mi pedido, miro el menú y pienso que mañana voy a probar una sopa. La comida llega caliente y todo está delicioso.
 
 ## A1 · Una entrevista breve
 
-Natalia estudia administración en la universidad y trabaja en una tienda los fines de semana. Allí atiende a los clientes y organiza los productos. Esta tarde debe terminar un informe antes de las cuatro. Después puede usar la computadora para revisar sus tareas. Estudiar y trabajar requiere organización, pero Natalia aprende algo nuevo cada semana. Para no olvidar nada, Natalia apunta sus tareas en una libreta y las ordena por horario y por importancia.
+Carla necesita comprar una camisa para una entrevista. En la tienda encuentra una camisa azul de talla mediana y pregunta cuánto cuesta. La vendedora dice que vale ochocientos pesos. Carla se la prueba, pero necesita una talla más grande. También ve una camisa verde, aunque prefiere la azul porque combina con sus pantalones. Al final paga con tarjeta y guarda el recibo en su cartera.
 
 ## A1 · ¿Quieres ir al cine?
 
-Después de una semana ocupada, Ana planea su sábado. Va a salir con su amigo Kevin y prefiere ver una comedia en el cine, no una película de acción. Después pueden comer algo. A Ana también le gusta leer en el parque porque disfruta estar al aire libre. A veces juega al fútbol con sus amigos para descansar. Si llueve, Ana y Kevin pueden quedarse en casa, escuchar música o elegir otra película para ver juntos.
+Los sábados me gusta descansar después de una semana ocupada. A veces voy al cine con mi mejor amiga y preferimos una comedia. Si hace buen tiempo, vamos al parque y comemos algo. También me gusta leer, escuchar música y jugar al fútbol con mis amigos. Este sábado quiero ver una película nueva y después tomar un helado. Me gustan los planes sencillos porque puedo conversar y descansar.
 
 ## A1 · En la farmacia
 
-Isabel no se siente bien esta mañana: le duele la cabeza y la garganta, aunque no tiene fiebre. Está cansada y va a la farmacia. Debe descansar, beber mucha agua y consultar a un médico si no mejora. Esta tarde se queda en casa. Si mañana se siente mejor, volverá a clase; si el dolor continúa, pedirá una cita médica. Su hermana le prepara una bebida caliente y le recuerda que debe dormir temprano para recuperar fuerzas.
+Esta mañana Isabel no se siente bien. Le duele la cabeza y también la garganta, aunque no tiene fiebre. Está cansada, por eso va a la farmacia. El farmacéutico le recomienda descansar, beber mucha agua y consultar a un médico si no mejora. Isabel decide quedarse en casa esta tarde. Si mañana se siente mejor, volverá a clase; si el dolor continúa, pedirá una cita médica.
 
 ## A1 · Un mensaje sobre el fin de semana
 
-El calendario anuncia un fin de semana especial. El sábado una familia va a la playa para nadar y comer junto al mar. El domingo quiere descansar en casa, pero si hace buen tiempo también visitará a la abuela. En agosto preparará una comida para todos. Son planes sencillos que combinan descanso, familia y tiempo al aire libre. Antes de la salida, todos preparan toallas, protector solar y comida sencilla para compartir durante el día.
+Este fin de semana voy a visitar la playa con mi familia. El sábado vamos a nadar, caminar junto al mar y comer algo sencillo. Mi hermano quiere jugar con una pelota y mi madre prepara unos sándwiches. El domingo pienso descansar en casa y llamar a mi abuela. Si hace buen tiempo, también voy a salir con mis amigos por la tarde. Ya estoy preparando una mochila con agua, toallas y protector solar.
 
 ## A2 · Escucha · Compras y cantidades
 
-El mercado abre temprano y hoy hay mucha gente. Una clienta lleva una lista: medio kilo de tomates, un kilo de arroz y una bolsa de naranjas. Los tomates cuestan tres euros el kilo y el arroz cuesta dos. El vendedor calcula el total y explica que la bolsa vale un euro más. La clienta paga con tarjeta, comprueba el recibo y guarda la compra antes de volver a casa. En casa, coloca las naranjas en un plato y revisa la lista. La próxima semana comparará los precios con otro mercado para organizar mejor sus gastos.
+Esta mañana fui al mercado para comprar medio kilo de tomates, un kilo de arroz y una bolsa de naranjas. Los tomates costaban tres euros el kilo y el arroz costaba dos euros. El vendedor calculó el total y me explicó que la bolsa costaba un euro más. Decidí pagar con tarjeta. Antes de irme, comprobé el recibo y guardé bien mi compra. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.
 
 ## A2 · Escucha · Orientarse en la ciudad
 
-Un visitante llega a una ciudad nueva y necesita encontrar la estación de tren. Una vecina le explica el camino: debe seguir recto por la avenida hasta el semáforo, girar a la derecha y caminar dos cuadras. La estación queda a su izquierda, detrás del museo y junto a la farmacia. No debe cruzar la plaza. Antes de continuar, repite las indicaciones para estar seguro de no perderse. Cuando llega a la estación, consulta el panel de salidas y compra un mapa. Así tendrá una referencia si necesita volver a esa zona otro día.
+Hoy necesito llegar a la estación de tren, pero no conozco bien esta parte de la ciudad. Debo seguir recto por la avenida hasta el semáforo, girar a la derecha y caminar dos cuadras. La estación queda a mi izquierda, detrás del museo y junto a la farmacia. No debo cruzar la plaza. Repito las indicaciones antes de continuar para no perderme. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.
 
 ## A2 · Escucha · Rutinas y horarios
 
-Esta semana el horario de trabajo cambia porque una empleada hace un curso por las mañanas. Normalmente entra a las ocho, pero ahora empieza a las diez. El curso termina a las nueve y media. Para organizarse, prepara la agenda el domingo y deja una tarde libre. Mientras está en clase, una compañera revisa los mensajes urgentes. Después responde lo importante y continúa su jornada con más calma. El cambio le exige levantarse antes, pero también le permite aprender una habilidad nueva. Al final de la semana revisará si este horario funciona para ella.
+Normalmente entro a trabajar a las ocho, pero esta semana empiezo a las diez porque estoy haciendo un curso por las mañanas. El curso termina a las nueve y media. Para organizarme mejor, preparo mi agenda el domingo y dejo una tarde libre. Mientras estoy en clase, una compañera revisa los mensajes del trabajo. Después respondo lo más urgente y continúo con mi jornada. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.
 
 ## A2 · Escucha · Salud y bienestar
 
-Después de varios días de poco descanso, alguien visita a la doctora. Le duele la garganta y tiene un poco de fiebre. La doctora cree que es una infección leve y recomienda beber agua, descansar y tomar la medicina indicada. También aconseja no ir al trabajo al día siguiente si la fiebre aumenta. Si continúa igual, debe pedir otra cita en tres días. Recuperarse bien ahora evitará problemas después. La persona entiende que descansar no es perder tiempo. Si sigue las indicaciones, podrá volver a sus actividades con más energía y sin empeorar los síntomas.
+Desde ayer me duele la garganta y tengo un poco de fiebre. Esta semana he trabajado hasta tarde y no he descansado bien. Por eso fui a la doctora. Ella cree que tengo una infección leve y me recomienda beber agua, descansar y tomar la medicina. Si continúo con fiebre, debo pedir otra cita en tres días. Mañana no iré al trabajo si me siento peor. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.
 
 ## A2 · Escucha · Viajes y transporte
 
-El panel de la estación anuncia un cambio importante para un tren que viaja a Valencia. Sale a las seis, pero el andén cambia del número cuatro al seis. La llegada sigue prevista para las ocho y veinte. Antes de subir, el viajero deja su equipaje en la consigna y revisa el panel una vez más. Debe estar en el andén diez minutos antes. Así tendrá tiempo si vuelven a cambiar la información. El viajero guarda el billete junto al documento de identidad y busca un lugar tranquilo para esperar. También envía un mensaje para avisar que llegará más tarde.
+Hoy viajo a Valencia en un tren que sale a las seis. Mi billete indicaba el andén cuatro, pero han cambiado la salida al andén seis. La llegada sigue prevista para las ocho y veinte. Antes de subir, voy a dejar mi equipaje en la consigna y miraré el panel otra vez. Debo estar en el andén diez minutos antes para viajar con tranquilidad. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.
 
 ## A2 · Escucha · Casa y barrio
 
-Elegir apartamento también significa elegir un modo de vida. Una persona visita un piso en la calle Mayor porque tiene muebles básicos y mucha luz por la mañana. Como trabaja desde casa, necesita tranquilidad. El barrio es seguro y tiene poco ruido, aunque el alquiler es más alto que el del otro apartamento. La sala es más luminosa y el metro está cerca. El sábado comparará ambos pisos antes de decidir. Antes de firmar, revisará el contrato y preguntará por los gastos de agua y electricidad. No quiere decidir solo por la luz de la sala o la cercanía del metro.
+Estoy buscando un apartamento en la calle Mayor. Me interesa porque tiene muebles básicos y mucha luz por la mañana. Como trabajo desde casa, necesito tranquilidad. El barrio es seguro y hay poco ruido, aunque el alquiler es un poco más alto. La sala es más luminosa que la del otro apartamento y el metro está cerca. Voy a visitarlo el sábado antes de decidir. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.
 
 ## A2 · Escucha · Comidas y recetas
 
-En casa, una receta sencilla puede convertirse en una pequeña experiencia. Para preparar sopa de verduras hay papas, zanahorias y cebolla, pero falta un poco de caldo. Primero se cortan las verduras y luego se hierven durante veinte minutos. La sal se añade al final para comprobar el sabor. Conviene agregar el caldo poco a poco; así la sopa no queda demasiado líquida y los trozos conservan su forma. Cuando la sopa está lista, la sirve con pan y la comparte con su familia. Todos prueban el sabor y comentan qué ingrediente podrían añadir la próxima vez.
+Esta noche voy a preparar una sopa de verduras. Tengo papas, zanahorias y cebolla, pero me falta un poco de caldo. Primero corto las verduras y después las hiervo durante veinte minutos. Añado la sal al final para comprobar mejor el sabor. Prefiero dejar los trozos enteros y agregar el caldo poco a poco para que la sopa no quede demasiado líquida. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.
 
 ## A2 · Escucha · Recuerdos y experiencias
 
-Un viaje puede quedarse en la memoria por un sabor. El verano pasado, dos hermanas viajaron a Oaxaca y visitaron un mercado pequeño. Una señora les enseñó a preparar chocolate y explicó por qué mezclaba los ingredientes lentamente. Desde aquel viaje, una de las hermanas ha preparado la receta varias veces en casa. Sin embargo, nunca sabe igual que en el mercado. Quizá el lugar, las personas y el recuerdo también cambian el sabor. Al revisar las fotos del viaje, las hermanas recuerdan la música del mercado y la paciencia de la señora. Ahora quieren aprender más recetas de esa región.
+El verano pasado viajé a Oaxaca con mi hermana y probamos muchos platos nuevos. Una tarde visitamos un mercado pequeño. Allí una señora nos enseñó a preparar chocolate. No volví a verla, pero le envié una foto cuando llegué a casa. Desde aquel viaje he preparado ese chocolate varias veces. Sin embargo, nunca sabe igual que el que probé en aquel mercado. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.
 
 ## A2 · Escucha · Celebraciones
 
-La casa de los tíos se prepara para una celebración familiar. El sábado todos se reúnen para el cumpleaños de la abuela. Una amiga ha sido invitada, pero le explican que no hace falta llevar regalo. Prefiere traer un postre para compartir y lo entrega antes de las cinco. De ese modo, varias personas ayudan con los preparativos. La abuela estará contenta, no solo por la comida, sino porque puede conversar con toda la familia. Al final de la tarde, la abuela cuenta historias de su juventud. Los más pequeños escuchan, hacen preguntas y guardan algunas fotos para recordarlo después.
+El sábado celebramos el cumpleaños de mi abuela. La familia se reúne a las cinco en casa de mis tíos. He invitado a un amigo y le he explicado que no hace falta llevar un regalo. Él prefiere traer un postre para compartir y va a entregarlo antes de las cinco. Así no tengo que preparar todo sola. Creo que mi abuela estará muy contenta. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.
 
 ## A2 · Escucha · Estudio y aprendizaje
 
-Faltan dos semanas para un examen y todavía hay apuntes por organizar. Un estudiante decide repasar un tema cada día y dejar el domingo para practicar. Lleva dos meses estudiando una hora después de cenar, por eso ya conoce su mejor horario. Hoy divide las tareas en un calendario. Cuando completa cada tema, hace un ejercicio corto y anota los errores. Si mantiene esta rutina, llegará al examen con más confianza y menos estrés. Además, comparte una tarde de repaso con dos compañeros. Explicar una idea a otra persona le ayuda a descubrir qué partes todavía necesita estudiar.
+Tengo un examen dentro de dos semanas y todavía no termino mis apuntes. Voy a repasar un tema cada día y dejaré el domingo para practicar. Llevo dos meses estudiando una hora después de cenar, así que ya tengo una rutina. Hoy organizaré el calendario y dividiré las tareas. Cuando complete cada tema, haré un ejercicio corto para comprobar mi progreso y llegar al examen con confianza. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.
 
 ## A2 · Escucha · Tecnología cotidiana
 
-Una contraseña olvidada puede detener toda la mañana, pero hay una solución segura. Primero se pulsa «Recuperar contraseña» en la pantalla de inicio. Después se revisa el correo y se abre el enlace recibido. Es importante comprobar la bandeja de entrada y también el spam. Al crear una nueva clave, conviene combinar letras, números y símbolos. Finalmente se guarda el acceso en un lugar seguro y no se comparte la contraseña con otra persona. Después activa una verificación adicional para proteger la cuenta. De ese modo, un código enviado al teléfono ayuda a impedir que otra persona entre sin permiso.
+No puedo entrar en mi cuenta porque olvidé la contraseña. Primero debo pulsar “Recuperar contraseña” en la pantalla de inicio. Después tengo que revisar mi correo y abrir el enlace recibido. Voy a comprobar que el mensaje llegó a la bandeja de entrada y no al spam. Finalmente crearé una clave segura, guardaré el acceso y no compartiré mi contraseña con nadie. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.
 
 ## A2 · Escucha · Planes y proyectos
 
-Un equipo tiene que presentar un proyecto el viernes y necesita repartir bien el trabajo. Una persona revisa los datos y otra prepara las diapositivas. El miércoles se reúnen para revisar el borrador y cambiar lo necesario. Si terminan ese día, tendrán tiempo para ensayar. Hoy revisan la información y mañana envían una versión al equipo. Así todos conocen el acuerdo, pueden hacer sugerencias y llegan a la presentación con una idea común. Durante el ensayo, cada integrante explica una parte y recibe comentarios breves. Si algo no se entiende, todavía tendrán tiempo para corregirlo antes del viernes.
+Tengo que presentar un proyecto con mi compañera el viernes. Yo voy a revisar los datos y ella preparará las diapositivas. El miércoles nos reuniremos para revisar el resultado y cambiar lo necesario. Si terminamos el borrador ese día, tendremos tiempo para ensayar la presentación. Hoy revisaré la información y mañana enviaré la versión final al equipo para que todos conozcan el acuerdo. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.
