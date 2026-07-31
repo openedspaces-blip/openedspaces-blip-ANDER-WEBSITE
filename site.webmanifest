@@ -1,0 +1,17 @@
+{
+  "name": "ANDERGO Language Academy",
+  "short_name": "ANDERGO",
+  "description": "Aprende idiomas con rutas guiadas, práctica real y Tutor IA.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f9ff",
+  "theme_color": "#1267f5",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

@@ -20,6 +20,10 @@ function refreshAllListeningComprehension() {
     // evidence-based narration. Keep those instead of replacing them with
     // the generic chronology generator used as a fallback elsewhere.
     if (row.content_json?.extra?.listeningComprehension?.editoriallyReviewed === true) continue;
+    // Spanish A1/A2 use their own short, level-appropriate banks: exactly
+    // three questions written from each recording. Do not replace them with
+    // the four-question generic fallback during a production build.
+    if (row.target_language === 'spanish' && ['A1', 'A2'].includes(row.level)) continue;
     applyContextualListeningBank(row);
     updated += 1;
   }

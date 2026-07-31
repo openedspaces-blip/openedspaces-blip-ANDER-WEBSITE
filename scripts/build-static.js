@@ -28,7 +28,11 @@ const REQUIRED_FILES = [
   // on the deployed public/ build, same class of bug as the Verbos fix
   // below).
   'src/js/translator-languages.js',
-  'src/js/translator-predictive.js'
+  'src/js/translator-predictive.js',
+  'favicon.svg',
+  'robots.txt',
+  'sitemap.xml',
+  'site.webmanifest'
 ];
 const WORLD_LANGUAGES = ['english', 'spanish', 'french', 'italian', 'german'];
 const GAMIFICATION_FILES = [
