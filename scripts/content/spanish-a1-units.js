@@ -2252,6 +2252,41 @@ const A1_LISTENING_MONOLOGUES = {
   'planes-y-repaso': 'Este fin de semana voy a ir a la playa con mi familia. El sábado vamos a nadar y comer junto al mar. El domingo quiero descansar en casa. Si hace buen tiempo, también voy a visitar a mi abuela. En agosto voy a preparar una comida para toda mi familia. Me gustan estos planes porque puedo descansar y pasar tiempo con las personas importantes para mí.'
 };
 
+// Production revision: varied, single-voice micro-stories.  The facts and
+// target language of each unit remain aligned with its Reading, vocabulary,
+// grammar and listening-comprehension activities.
+Object.assign(A1_LISTENING_MONOLOGUES, {
+  'hola-mucho-gusto': 'Suena el timbre de la primera clase. Valentina entra al salón un poco nerviosa, pero contenta. Allí conoce a Marco. Los dos se saludan, dicen de dónde son y repiten: «Mucho gusto». Para conocerse mejor, Valentina deletrea su nombre: V-A-L-E-N-T-I-N-A. Marco hace lo mismo: M-A-R-C-O. Después entran juntos a clase.',
+  'informacion-personal': 'En un formulario de la escuela aparece la información de Camila. Tiene diecinueve años, es de México y ahora vive en Santiago con su familia. Estudia español por las tardes. Su teléfono es 809-555-0199 y su correo es camila@correo.com. Le gusta conocer personas de otros países y practicar con sus compañeros. Al final del mensaje dice: «Espero conocerte pronto».',
+  'mi-familia-y-mis-amigos': 'El domingo la familia de Sofía prepara un almuerzo especial. Su madre se llama Carmen y su padre, Rafael. Sofía tiene una hermana, Lucía, y un hermano, Tomás. Lucía tiene dieciséis años y Tomás tiene nueve. También vive con ellos la abuela Rosa, que es muy amable. Algunos primos son mayores que Sofía. Todos comen juntos y hablan de su semana.',
+  'mi-rutina-diaria': 'Cada mañana, el reloj de Tomás suena a las seis y media. Primero desayuna, se viste y prepara su mochila. Luego camina a la escuela con su hermana. Las clases empiezan a las ocho. Después de la escuela hace la tarea y descansa un poco. Por la noche deja preparada su mochila para el día siguiente. Así casi nunca llega tarde a clase.',
+  'mi-casa': 'Desde la ventana se ve el patio pequeño de la casa de Carla. La casa tiene tres habitaciones, una sala grande, una cocina y dos baños. En la sala hay un sofá y una mesa. En la cocina hay una nevera, una estufa y sillas junto a la ventana. El dormitorio de Carla tiene cama y armario. Su habitación está arriba, entre el baño y el cuarto de su hermano.',
+  'mi-barrio-y-mi-ciudad': 'Un visitante quiere recorrer el barrio y pide indicaciones. Para llegar al banco debe caminar derecho y doblar a la derecha. La farmacia está al lado del banco. Más tarde quiere ir al parque: gira a la izquierda después del banco. También puede tomar el autobús y bajar frente a la biblioteca. Con estas indicaciones encuentra fácilmente los lugares importantes del barrio.',
+  'comida-y-bebida': 'En la cafetería ya huele a pan recién hecho. Para el desayuno, una persona pide café con leche y pan. También quiere un poco de fruta, pero no desea una bebida fría. Para el almuerzo prefiere un vaso de agua y una ensalada. Como le gusta comer ligero, no pide más pan. Al final agradece al mesero y espera una comida fresca y deliciosa.',
+  'de-compras': 'En una tienda hay camisas de muchos colores. Una clienta busca una camisa azul de talla mediana y pregunta cuánto cuesta. La camisa vale ochocientos pesos. Se la prueba y le gusta el color, pero necesita una talla más grande. También ve la misma camisa en verde. Finalmente elige la azul porque combina con su ropa, paga y agradece a la vendedora.',
+  'estudios-y-trabajo': 'La tarde está ocupada para Natalia. Estudia administración en la universidad y trabaja en una tienda los fines de semana. Allí atiende a los clientes y organiza los productos. Hoy debe terminar un informe antes de las cuatro. Después puede usar la computadora para revisar sus tareas. Estudiar y trabajar requiere organización, pero Natalia aprende algo nuevo cada semana y está contenta.',
+  'tiempo-libre': 'El sábado hay muchas opciones para descansar. Ana va a salir con su amigo Kevin. A ella le encanta ir al cine y prefiere una comedia a una película de acción. Después pueden comer algo. También le gusta leer en el parque porque disfruta estar al aire libre. A veces juega al fútbol con sus amigos. Estas actividades la ayudan después de una semana ocupada.',
+  'salud-y-bienestar-a1': 'Esta mañana Isabel no se siente bien. Le duele la cabeza y la garganta, aunque no tiene fiebre. Está muy cansada, por eso va a la farmacia. Debe descansar, beber mucha agua y consultar a un médico si no mejora. Esta tarde se queda en casa. Si mañana se siente mejor, vuelve a clase; si el dolor continúa, pedirá una cita médica.',
+  'planes-y-repaso': 'El calendario marca un fin de semana especial. Una familia va a la playa el sábado para nadar y comer junto al mar. El domingo quiere descansar en casa. Si hace buen tiempo, también visita a la abuela. En agosto prepara una comida para toda la familia. Son planes sencillos que permiten descansar y pasar tiempo con las personas importantes.'
+});
+
+// Within A1, the twelve recordings deliberately move from A1− to A1+:
+// short supported statements, then linked scenes, then brief narration.
+Object.assign(A1_LISTENING_MONOLOGUES, {
+  'hola-mucho-gusto': 'Es el primer día de clase. Valentina entra al salón y conoce a Marco. Ella dice: «Hola, mucho gusto». Marco responde: «Mucho gusto». Valentina deletrea su nombre: V-A-L-E-N-T-I-N-A. Marco dice: M-A-R-C-O.',
+  'informacion-personal': 'En la escuela hay un formulario nuevo. Camila tiene diecinueve años y es de México. Ahora vive en Santiago con su familia. Su teléfono es 809-555-0199. Por las tardes estudia español y practica con sus compañeros.',
+  'mi-familia-y-mis-amigos': 'El domingo la familia de Sofía come junta. Su madre se llama Carmen y su padre, Rafael. Sofía tiene una hermana, Lucía, y un hermano, Tomás. Lucía tiene dieciséis años; Tomás tiene nueve. La abuela Rosa vive con ellos y es muy amable.',
+  'mi-rutina-diaria': 'A las seis y media suena el reloj de Tomás. Desayuna, se viste y prepara su mochila antes de salir. Camina a la escuela con su hermana. Las clases empiezan a las ocho. Después hace la tarea y descansa. Por la noche prepara otra vez la mochila para no llegar tarde.',
+  'mi-casa': 'La casa de Carla tiene tres habitaciones, una sala grande, una cocina y dos baños. En la sala hay un sofá y una mesa. En la cocina hay una nevera, una estufa y sillas junto a la ventana. Su dormitorio está arriba, entre el baño y el cuarto de su hermano.',
+  'mi-barrio-y-mi-ciudad': 'Un visitante necesita ir al banco. Primero camina derecho y dobla a la derecha. La farmacia está al lado del banco. Después quiere visitar el parque, por eso gira a la izquierda. También puede tomar el autobús y bajar frente a la biblioteca. Con estas indicaciones puede recorrer el barrio sin perderse.',
+  'comida-y-bebida': 'En una cafetería, una persona pide café con leche y pan para el desayuno. También quiere fruta, pero no desea una bebida fría. Para el almuerzo prefiere un vaso de agua y una ensalada. Como le gusta comer ligero, no pide más pan. Al final agradece al mesero y espera una comida fresca.',
+  'de-compras': 'Una clienta busca una camisa azul de talla mediana. Pregunta cuánto cuesta y la vendedora responde que vale ochocientos pesos. Se la prueba, le gusta el color, pero necesita una talla más grande. También ve una camisa verde. Finalmente elige la azul porque combina con su ropa, paga la compra y agradece la ayuda.',
+  'estudios-y-trabajo': 'Natalia estudia administración en la universidad y trabaja en una tienda los fines de semana. Allí atiende a los clientes y organiza los productos. Esta tarde debe terminar un informe antes de las cuatro. Después puede usar la computadora para revisar sus tareas. Estudiar y trabajar requiere organización, pero Natalia aprende algo nuevo cada semana.',
+  'tiempo-libre': 'Después de una semana ocupada, Ana planea su sábado. Va a salir con su amigo Kevin y prefiere ver una comedia en el cine, no una película de acción. Después pueden comer algo. A Ana también le gusta leer en el parque porque disfruta estar al aire libre. A veces juega al fútbol con sus amigos para descansar.',
+  'salud-y-bienestar-a1': 'Isabel no se siente bien esta mañana: le duele la cabeza y la garganta, aunque no tiene fiebre. Está cansada y va a la farmacia. Debe descansar, beber mucha agua y consultar a un médico si no mejora. Esta tarde se queda en casa. Si mañana se siente mejor, volverá a clase; si el dolor continúa, pedirá una cita médica.',
+  'planes-y-repaso': 'El calendario anuncia un fin de semana especial. El sábado una familia va a la playa para nadar y comer junto al mar. El domingo quiere descansar en casa, pero si hace buen tiempo también visitará a la abuela. En agosto preparará una comida para todos. Son planes sencillos que combinan descanso, familia y tiempo al aire libre.'
+});
+
 for (const unit of units) {
   const transcript = A1_LISTENING_MONOLOGUES[unit.slug];
   const listening = unit.activities.listening;
@@ -2259,6 +2294,28 @@ for (const unit of units) {
   listening.dialogue = [];
   listening.speakers = ['Narrador/a'];
   listening.listeningType = 'story';
+}
+
+// Add meaningful context for recording: the scripts remain accessible, but
+// now give the learner enough information to follow a complete mini-scene.
+const A1_LISTENING_CONTEXT = {
+  'hola-mucho-gusto': 'Después buscan sus asientos. La profesora sonríe y escribe los nombres de los estudiantes nuevos en la pizarra.',
+  'informacion-personal': 'En su clase hay personas de varios países. Camila quiere aprender expresiones útiles para hablar con todos.',
+  'mi-familia-y-mis-amigos': 'Después de comer, los niños ayudan a recoger la mesa y los adultos preparan café para conversar un poco más.',
+  'mi-rutina-diaria': 'Antes de dormir, Tomás revisa que tenga sus libros, un lápiz y una botella de agua para la mañana.',
+  'mi-casa': 'Cuando hace buen tiempo, Carla se sienta en el patio a leer o a hablar con su familia después de cenar.',
+  'mi-barrio-y-mi-ciudad': 'El visitante también pregunta dónde puede comprar agua. Le dicen que hay una tienda pequeña frente al parque.',
+  'comida-y-bebida': 'Mientras espera, mira el menú y piensa que la próxima vez probará una sopa o un jugo natural.',
+  'de-compras': 'Antes de salir, guarda el recibo en su cartera porque quizá necesite cambiar la camisa durante la semana.',
+  'estudios-y-trabajo': 'Para no olvidar nada, Natalia apunta sus tareas en una libreta y las ordena por horario y por importancia.',
+  'tiempo-libre': 'Si llueve, Ana y Kevin pueden quedarse en casa, escuchar música o elegir otra película para ver juntos.',
+  'salud-y-bienestar-a1': 'Su hermana le prepara una bebida caliente y le recuerda que debe dormir temprano para recuperar fuerzas.',
+  'planes-y-repaso': 'Antes de la salida, todos preparan toallas, protector solar y comida sencilla para compartir durante el día.'
+};
+
+for (const unit of units) {
+  const context = A1_LISTENING_CONTEXT[unit.slug];
+  if (context) unit.activities.listening.transcript += ` ${context}`;
 }
 
 // The routed A1 experience evaluates four focused questions per skill.

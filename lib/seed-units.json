@@ -4951,102 +4951,102 @@
     "slug": "memoria-y-relato",
     "target_language": "spanish",
     "level": "C1",
-    "title": "Memoria y relato",
-    "title_es": "Memoria y relato",
-    "description": "Interpretar versiones contrapuestas de un recuerdo colectivo",
+    "title": "IA y educación",
+    "title_es": "IA y educación",
+    "description": "Analizar usos de inteligencia artificial en el aprendizaje",
     "order_index": 1,
     "unit_overview": {
-      "objective": "Analizar perspectiva, omisiones y encuadre",
+      "objective": "Evaluar una herramienta sin sustituir la autonomía intelectual",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
-        "aplicar correlación de tiempos y estilo indirecto",
+        "aplicar matización, subordinación concesiva y evidencialidad",
         "producir una respuesta oral y una escrita"
       ],
       "grammar": [
-        "correlación de tiempos y estilo indirecto"
+        "matización, subordinación concesiva y evidencialidad"
       ],
       "vocabulary": [
-        "memoria colectiva",
-        "testimonio",
-        "omisión",
-        "versión",
-        "evocar",
-        "reinterpretar"
+        "autonomía",
+        "sesgo",
+        "verificar",
+        "evidencia",
+        "trazabilidad",
+        "criterio"
       ],
-      "scenario": "Interpretar versiones contrapuestas de un recuerdo colectivo"
+      "scenario": "Analizar usos de inteligencia artificial en el aprendizaje"
     }
   },
   {
     "slug": "retorica-publica",
     "target_language": "spanish",
     "level": "C1",
-    "title": "Retórica pública",
-    "title_es": "Retórica pública",
-    "description": "Examinar un discurso institucional",
+    "title": "Español dominicano y registros",
+    "title_es": "Español dominicano y registros",
+    "description": "Examinar prejuicios sobre acentos y formas de hablar",
     "order_index": 2,
     "unit_overview": {
-      "objective": "Reconocer estrategias persuasivas y presuposiciones",
+      "objective": "Distinguir variedad, registro y adecuación sin establecer jerarquías",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
-        "aplicar énfasis, tematización y estructuras hendidas",
+        "aplicar variación, registro y adecuación pragmática",
         "producir una respuesta oral y una escrita"
       ],
       "grammar": [
-        "énfasis, tematización y estructuras hendidas"
+        "variación, registro y adecuación pragmática"
       ],
       "vocabulary": [
-        "premisa",
-        "auditorio",
-        "apelación",
-        "elocuencia",
-        "presuposición",
-        "refutación"
+        "variedad",
+        "rasgo",
+        "hablante",
+        "prestigio",
+        "regionalismo",
+        "adecuación"
       ],
-      "scenario": "Examinar un discurso institucional"
+      "scenario": "Examinar prejuicios sobre acentos y formas de hablar"
     }
   },
   {
     "slug": "periodismo-de-investigacion",
     "target_language": "spanish",
     "level": "C1",
-    "title": "Periodismo de investigación",
-    "title_es": "Periodismo de investigación",
-    "description": "Reconstruir una investigación compleja",
+    "title": "Clima, salud y resiliencia",
+    "title_es": "Clima, salud y resiliencia",
+    "description": "Relacionar cambio climático, bienestar y educación",
     "order_index": 3,
     "unit_overview": {
-      "objective": "Jerarquizar pruebas y grados de certeza",
+      "objective": "Interpretar riesgos climáticos y respuestas colectivas con perspectiva social",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
-        "aplicar evidencialidad y modales epistémicos",
+        "aplicar conectores causales, consecutivos y concesivos",
         "producir una respuesta oral y una escrita"
       ],
       "grammar": [
-        "evidencialidad y modales epistémicos"
+        "conectores causales, consecutivos y concesivos"
       ],
       "vocabulary": [
-        "filtración",
-        "hallazgo",
-        "indicio",
-        "contrastar",
-        "anonimato",
-        "rendición de cuentas"
+        "vulnerabilidad",
+        "adaptación",
+        "resiliencia",
+        "infraestructura",
+        "prevención",
+        "desigualdad"
       ],
-      "scenario": "Reconstruir una investigación compleja"
+      "scenario": "Relacionar cambio climático, bienestar y educación"
     }
   },
   {
     "slug": "justicia-y-reparacion",
     "target_language": "spanish",
     "level": "C1",
-    "title": "Justicia y reparación",
-    "title_es": "Justicia y reparación",
-    "description": "Debatir respuestas a un daño histórico",
+    "title": "Memoria, justicia y reparación",
+    "title_es": "Memoria, justicia y reparación",
+    "description": "Examinar cómo una sociedad responde a daños históricos",
     "order_index": 4,
     "unit_overview": {
-      "objective": "Diferenciar castigo, reparación y garantías",
+      "objective": "Distinguir reconocimiento simbólico, reparación material y garantías de no repetición",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -5064,19 +5064,19 @@
         "responsabilidad",
         "reconciliación"
       ],
-      "scenario": "Debatir respuestas a un daño histórico"
+      "scenario": "Examinar cómo una sociedad responde a daños históricos"
     }
   },
   {
     "slug": "innovacion-responsable",
     "target_language": "spanish",
     "level": "C1",
-    "title": "Innovación responsable",
-    "title_es": "Innovación responsable",
-    "description": "Evaluar una tecnología antes de adoptarla",
+    "title": "Tecnología y decisiones públicas",
+    "title_es": "Tecnología y decisiones públicas",
+    "description": "Evaluar sistemas automatizados antes de adoptarlos",
     "order_index": 5,
     "unit_overview": {
-      "objective": "Ponderar incertidumbre y efectos no previstos",
+      "objective": "Ponderar utilidad, sesgo, supervisión y transparencia",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -5094,19 +5094,19 @@
         "supervisión",
         "trazabilidad"
       ],
-      "scenario": "Evaluar una tecnología antes de adoptarla"
+      "scenario": "Evaluar sistemas automatizados antes de adoptarlos"
     }
   },
   {
     "slug": "literatura-y-voz",
     "target_language": "spanish",
     "level": "C1",
-    "title": "Literatura y voz",
-    "title_es": "Literatura y voz",
-    "description": "Analizar la voz de un relato contemporáneo",
+    "title": "Salud mental en la conversación digital",
+    "title_es": "Salud mental en la conversación digital",
+    "description": "Analizar cómo las redes presentan el malestar emocional",
     "order_index": 6,
     "unit_overview": {
-      "objective": "Interpretar tono, distancia e ironía",
+      "objective": "Distinguir apoyo, visibilidad y simplificación del sufrimiento",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -5117,26 +5117,26 @@
         "discurso referido libre y valores verbales"
       ],
       "vocabulary": [
-        "narrador",
-        "ironía",
-        "ambigüedad",
-        "perspectiva",
-        "cadencia",
-        "desenlace"
+        "bienestar",
+        "estigma",
+        "acompañamiento",
+        "exposición",
+        "diagnóstico",
+        "cuidado"
       ],
-      "scenario": "Analizar la voz de un relato contemporáneo"
+      "scenario": "Analizar cómo las redes presentan el malestar emocional"
     }
   },
   {
     "slug": "economia-y-cuidados",
     "target_language": "spanish",
     "level": "C1",
-    "title": "Economía y cuidados",
-    "title_es": "Economía y cuidados",
-    "description": "Visibilizar trabajos esenciales poco reconocidos",
+    "title": "El tiempo de cuidar",
+    "title_es": "El tiempo de cuidar",
+    "description": "Visibilizar trabajos de cuidado poco reconocidos",
     "order_index": 7,
     "unit_overview": {
-      "objective": "Relacionar datos, experiencia y política pública",
+      "objective": "Relacionar tiempo, género, oportunidades y política pública",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -5154,16 +5154,16 @@
         "sostener",
         "invisibilizado"
       ],
-      "scenario": "Visibilizar trabajos esenciales poco reconocidos"
+      "scenario": "Visibilizar trabajos de cuidado poco reconocidos"
     }
   },
   {
     "slug": "diversidad-del-espanol",
     "target_language": "spanish",
     "level": "C1",
-    "title": "Diversidad del español",
-    "title_es": "Diversidad del español",
-    "description": "Comparar usos de distintas comunidades hispanohablantes",
+    "title": "Lenguas, acentos y pertenencia",
+    "title_es": "Lenguas, acentos y pertenencia",
+    "description": "Comparar usos de comunidades hispanohablantes",
     "order_index": 8,
     "unit_overview": {
       "objective": "Explicar variación sin establecer jerarquías",
@@ -5184,19 +5184,19 @@
         "regionalismo",
         "adecuación"
       ],
-      "scenario": "Comparar usos de distintas comunidades hispanohablantes"
+      "scenario": "Comparar usos de comunidades hispanohablantes"
     }
   },
   {
     "slug": "diplomacia-y-negociacion",
     "target_language": "spanish",
     "level": "C1",
-    "title": "Diplomacia y negociación",
-    "title_es": "Diplomacia y negociación",
-    "description": "Mediar entre posiciones incompatibles",
+    "title": "Negociar en tiempos de polarización",
+    "title_es": "Negociar en tiempos de polarización",
+    "description": "Analizar desacuerdos públicos sin reducirlos a bandos",
     "order_index": 9,
     "unit_overview": {
-      "objective": "Reformular, ceder y preservar relaciones",
+      "objective": "Reformular posiciones y construir criterios verificables",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -5214,19 +5214,19 @@
         "compromiso",
         "postura"
       ],
-      "scenario": "Mediar entre posiciones incompatibles"
+      "scenario": "Analizar desacuerdos públicos sin reducirlos a bandos"
     }
   },
   {
     "slug": "critica-cultural",
     "target_language": "spanish",
     "level": "C1",
-    "title": "Crítica cultural",
-    "title_es": "Crítica cultural",
-    "description": "Reseñar una obra para una revista",
+    "title": "La cultura del algoritmo",
+    "title_es": "La cultura del algoritmo",
+    "description": "Examinar cómo las plataformas recomiendan música y audiovisual",
     "order_index": 10,
     "unit_overview": {
-      "objective": "Sustentar una valoración estética matizada",
+      "objective": "Valorar diversidad cultural, visibilidad y concentración",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -5237,26 +5237,26 @@
         "adjetivación valorativa y conectores concesivos"
       ],
       "vocabulary": [
-        "puesta en escena",
-        "hallazgo",
-        "coherencia",
-        "sugerente",
-        "convencional",
-        "recepción"
+        "recomendación",
+        "catálogo",
+        "visibilidad",
+        "tendencia",
+        "creador",
+        "algoritmo"
       ],
-      "scenario": "Reseñar una obra para una revista"
+      "scenario": "Examinar cómo las plataformas recomiendan música y audiovisual"
     }
   },
   {
     "slug": "politicas-publicas",
     "target_language": "spanish",
     "level": "C1",
-    "title": "Políticas públicas",
-    "title_es": "Políticas públicas",
-    "description": "Evaluar el resultado de una intervención",
+    "title": "¿Qué significa que una política funcione?",
+    "title_es": "¿Qué significa que una política funcione?",
+    "description": "Evaluar intervenciones dirigidas a jóvenes",
     "order_index": 11,
     "unit_overview": {
-      "objective": "Interpretar indicadores y límites metodológicos",
+      "objective": "Interpretar indicadores, cobertura y resultados sin simplificar",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -5274,19 +5274,19 @@
         "resultado",
         "evaluación"
       ],
-      "scenario": "Evaluar el resultado de una intervención"
+      "scenario": "Evaluar intervenciones dirigidas a jóvenes"
     }
   },
   {
     "slug": "coloquio-academico",
     "target_language": "spanish",
     "level": "C1",
-    "title": "Coloquio académico",
-    "title_es": "Coloquio académico",
-    "description": "Defender una tesis ante preguntas críticas",
+    "title": "Participar sin ser un adorno",
+    "title_es": "Participar sin ser un adorno",
+    "description": "Analizar formas de participación juvenil en decisiones públicas",
     "order_index": 12,
     "unit_overview": {
-      "objective": "Sintetizar fuentes y responder con rigor",
+      "objective": "Evaluar consulta, representación e incidencia real",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -5297,26 +5297,26 @@
         "conectores de reformulación y reserva"
       ],
       "vocabulary": [
-        "tesis",
-        "marco teórico",
-        "hallazgo",
-        "objeción",
-        "alcance",
-        "metodología"
+        "participación",
+        "consulta",
+        "incidencia",
+        "representación",
+        "propuesta",
+        "rendición de cuentas"
       ],
-      "scenario": "Defender una tesis ante preguntas críticas"
+      "scenario": "Analizar formas de participación juvenil en decisiones públicas"
     }
   },
   {
     "slug": "ambiguedad-y-sentido",
     "target_language": "spanish",
     "level": "C2",
-    "title": "Ambigüedad y sentido",
-    "title_es": "Ambigüedad y sentido",
-    "description": "Desentrañar un texto deliberadamente ambiguo",
+    "title": "El Mundial 2026: más que un partido",
+    "title_es": "El Mundial 2026: más que un partido",
+    "description": "Analizar cómo un gran evento deportivo organiza identidad, negocio y ciudad",
     "order_index": 1,
     "unit_overview": {
-      "objective": "Interpretar sentidos simultáneos y justificar lecturas",
+      "objective": "Distinguir celebración colectiva, patrocinio y legado urbano",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -5327,26 +5327,26 @@
         "polisemia, elipsis y ambigüedad sintáctica"
       ],
       "vocabulary": [
-        "polisemia",
-        "elipsis",
-        "doble lectura",
-        "sobreentendido",
-        "indeterminación",
-        "matiz"
+        "afición",
+        "sede",
+        "patrocinio",
+        "identidad",
+        "legado",
+        "representación"
       ],
-      "scenario": "Desentrañar un texto deliberadamente ambiguo"
+      "scenario": "Analizar cómo un gran evento deportivo organiza identidad, negocio y ciudad"
     }
   },
   {
     "slug": "humor-e-ironia",
     "target_language": "spanish",
     "level": "C2",
-    "title": "Humor e ironía",
-    "title_es": "Humor e ironía",
-    "description": "Explicar por qué una sátira funciona en su contexto",
+    "title": "Videojuegos: jugar, gastar y pertenecer",
+    "title_es": "Videojuegos: jugar, gastar y pertenecer",
+    "description": "Examinar los incentivos de compra dentro de los videojuegos",
     "order_index": 2,
     "unit_overview": {
-      "objective": "Reconocer implicaturas y límites pragmáticos",
+      "objective": "Reconocer diseño persuasivo, presión de grupo y consumo fragmentado",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -5357,26 +5357,26 @@
         "ironía, eco y discurso polifónico"
       ],
       "vocabulary": [
-        "sátira",
-        "implicatura",
-        "parodia",
-        "doble voz",
-        "burla",
-        "complicidad"
+        "microtransacción",
+        "recompensa",
+        "azar",
+        "comunidad",
+        "impulso",
+        "pertenencia"
       ],
-      "scenario": "Explicar por qué una sátira funciona en su contexto"
+      "scenario": "Examinar los incentivos de compra dentro de los videojuegos"
     }
   },
   {
     "slug": "traduccion-y-mediacion",
     "target_language": "spanish",
     "level": "C2",
-    "title": "Traducción y mediación",
-    "title_es": "Traducción y mediación",
-    "description": "Mediar un concepto sin equivalente exacto",
+    "title": "La música en español viaja distinto",
+    "title_es": "La música en español viaja distinto",
+    "description": "Mediar entre una escena local y una audiencia global",
     "order_index": 3,
     "unit_overview": {
-      "objective": "Reformular preservando intención y registro",
+      "objective": "Reformular identidad cultural sin convertirla en estereotipo",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -5387,26 +5387,26 @@
         "equivalencia pragmática y transposición"
       ],
       "vocabulary": [
-        "equivalencia",
-        "calco",
-        "reformulación",
-        "pérdida",
-        "registro",
-        "mediación"
+        "escena",
+        "colaboración",
+        "audiencia",
+        "circulación",
+        "repertorio",
+        "pertenencia"
       ],
-      "scenario": "Mediar un concepto sin equivalente exacto"
+      "scenario": "Mediar entre una escena local y una audiencia global"
     }
   },
   {
     "slug": "filosofia-del-lenguaje",
     "target_language": "spanish",
     "level": "C2",
-    "title": "Filosofía del lenguaje",
-    "title_es": "Filosofía del lenguaje",
-    "description": "Debatir cómo las palabras construyen categorías",
+    "title": "¿Quién tiene derecho a mirar hacia el espacio?",
+    "title_es": "¿Quién tiene derecho a mirar hacia el espacio?",
+    "description": "Examinar cómo la exploración espacial combina ciencia, negocio y cooperación internacional",
     "order_index": 4,
     "unit_overview": {
-      "objective": "Manejar abstracción y contraargumentos",
+      "objective": "Detectar los supuestos que presentan el espacio como patrimonio común o como recurso explotable",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -5417,26 +5417,26 @@
         "sustantivación y arquitectura argumental"
       ],
       "vocabulary": [
-        "referente",
-        "categoría",
-        "enunciado",
-        "convención",
-        "inferir",
-        "conceptualizar"
+        "órbita",
+        "misión",
+        "soberanía",
+        "recurso",
+        "cooperación",
+        "exploración"
       ],
-      "scenario": "Debatir cómo las palabras construyen categorías"
+      "scenario": "Examinar cómo la exploración espacial combina ciencia, negocio y cooperación internacional"
     }
   },
   {
     "slug": "analisis-juridico",
     "target_language": "spanish",
     "level": "C2",
-    "title": "Análisis jurídico",
-    "title_es": "Análisis jurídico",
-    "description": "Interpretar dos lecturas de una norma",
+    "title": "Pagar sin efectivo: comodidad, datos y exclusión",
+    "title_es": "Pagar sin efectivo: comodidad, datos y exclusión",
+    "description": "Interpretar derechos y responsabilidades en sistemas de pago digital",
     "order_index": 5,
     "unit_overview": {
-      "objective": "Distinguir literalidad, finalidad y precedente",
+      "objective": "Distinguir acceso, trazabilidad, comisiones y alternativas de pago",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -5447,26 +5447,26 @@
         "modalidad deóntica y precisión restrictiva"
       ],
       "vocabulary": [
-        "jurisprudencia",
-        "supuesto",
-        "alcance",
-        "disposición",
-        "interpretación",
-        "precedente"
+        "billetera digital",
+        "comisión",
+        "trazabilidad",
+        "acceso",
+        "intermediario",
+        "exclusión"
       ],
-      "scenario": "Interpretar dos lecturas de una norma"
+      "scenario": "Interpretar derechos y responsabilidades en sistemas de pago digital"
     }
   },
   {
     "slug": "edicion-de-estilo",
     "target_language": "spanish",
     "level": "C2",
-    "title": "Edición de estilo",
-    "title_es": "Edición de estilo",
-    "description": "Editar un ensayo sin borrar la voz del autor",
+    "title": "Envejecer en una sociedad acelerada",
+    "title_es": "Envejecer en una sociedad acelerada",
+    "description": "Editar relatos públicos sobre longevidad, autonomía y generaciones",
     "order_index": 6,
     "unit_overview": {
-      "objective": "Mejorar precisión, cohesión y ritmo",
+      "objective": "Mejorar precisión sin convertir la vejez en un problema uniforme",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -5477,26 +5477,26 @@
         "cohesión avanzada y puntuación discursiva"
       ],
       "vocabulary": [
-        "inciso",
-        "redundancia",
-        "cadencia",
-        "cohesión",
-        "reescritura",
-        "voz autoral"
+        "longevidad",
+        "autonomía",
+        "dependencia",
+        "generación",
+        "cuidado",
+        "accesibilidad"
       ],
-      "scenario": "Editar un ensayo sin borrar la voz del autor"
+      "scenario": "Editar relatos públicos sobre longevidad, autonomía y generaciones"
     }
   },
   {
     "slug": "debate-epistemico",
     "target_language": "spanish",
     "level": "C2",
-    "title": "Debate epistémico",
-    "title_es": "Debate epistémico",
-    "description": "Evaluar qué puede afirmarse a partir de evidencia incompleta",
+    "title": "La basura electrónica no desaparece",
+    "title_es": "La basura electrónica no desaparece",
+    "description": "Evaluar afirmaciones sobre reciclaje, reparación y obsolescencia tecnológica",
     "order_index": 7,
     "unit_overview": {
-      "objective": "Graduar certeza y responsabilidad discursiva",
+      "objective": "Graduar evidencia ambiental, responsabilidad empresarial y hábitos de uso",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -5507,26 +5507,26 @@
         "evidencialidad y grados de compromiso"
       ],
       "vocabulary": [
-        "corroborar",
-        "plausible",
-        "refutar",
-        "provisional",
-        "inferencia",
-        "certeza"
+        "residuo electrónico",
+        "reparación",
+        "obsolescencia",
+        "reciclaje",
+        "cadena de suministro",
+        "responsabilidad"
       ],
-      "scenario": "Evaluar qué puede afirmarse a partir de evidencia incompleta"
+      "scenario": "Evaluar afirmaciones sobre reciclaje, reparación y obsolescencia tecnológica"
     }
   },
   {
     "slug": "estetica-y-interpretacion",
     "target_language": "spanish",
     "level": "C2",
-    "title": "Estética e interpretación",
-    "title_es": "Estética e interpretación",
-    "description": "Comparar marcos críticos sobre una obra",
+    "title": "La transición verde también extrae",
+    "title_es": "La transición verde también extrae",
+    "description": "Comparar narrativas sobre baterías, minerales críticos y energías limpias",
     "order_index": 8,
     "unit_overview": {
-      "objective": "Integrar lecturas incompatibles sin simplificarlas",
+      "objective": "Integrar reducción de emisiones, derechos laborales y efectos territoriales",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -5537,26 +5537,26 @@
         "metáfora conceptual y lenguaje crítico"
       ],
       "vocabulary": [
-        "marco crítico",
-        "recepción",
-        "canon",
-        "ruptura",
-        "lectura",
-        "estética"
+        "mineral crítico",
+        "extracción",
+        "refinación",
+        "transición",
+        "territorio",
+        "trazabilidad"
       ],
-      "scenario": "Comparar marcos críticos sobre una obra"
+      "scenario": "Comparar narrativas sobre baterías, minerales críticos y energías limpias"
     }
   },
   {
     "slug": "discurso-cientifico",
     "target_language": "spanish",
     "level": "C2",
-    "title": "Discurso científico",
-    "title_es": "Discurso científico",
-    "description": "Convertir resultados especializados para públicos distintos",
+    "title": "El deporte y las apuestas en línea",
+    "title_es": "El deporte y las apuestas en línea",
+    "description": "Comunicar los riesgos de normalizar apuestas dentro del ocio deportivo",
     "order_index": 9,
     "unit_overview": {
-      "objective": "Adaptar densidad y precisión sin distorsionar",
+      "objective": "Distinguir entretenimiento, probabilidad, publicidad y daño potencial",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -5567,26 +5567,26 @@
         "reformulación explicativa y cautela"
       ],
       "vocabulary": [
-        "divulgación",
-        "muestra",
-        "limitación",
-        "hallazgo",
-        "replicabilidad",
-        "consenso"
+        "cuota",
+        "apuesta",
+        "riesgo",
+        "publicidad",
+        "adicción",
+        "regulación"
       ],
-      "scenario": "Convertir resultados especializados para públicos distintos"
+      "scenario": "Comunicar los riesgos de normalizar apuestas dentro del ocio deportivo"
     }
   },
   {
     "slug": "mediacion-de-conflictos",
     "target_language": "spanish",
     "level": "C2",
-    "title": "Mediación de conflictos",
-    "title_es": "Mediación de conflictos",
-    "description": "Reformular posiciones en una negociación sensible",
+    "title": "Migrar para empezar de nuevo",
+    "title_es": "Migrar para empezar de nuevo",
+    "description": "Mediar entre experiencias de movilidad, pertenencia y acceso a servicios",
     "order_index": 10,
     "unit_overview": {
-      "objective": "Detectar necesidades y desbloquear el diálogo",
+      "objective": "Detectar barreras administrativas, redes de apoyo y derechos urbanos",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -5597,26 +5597,26 @@
         "atenuación extrema y metapragmática"
       ],
       "vocabulary": [
-        "agravio",
-        "reconocimiento",
-        "interés",
-        "escalada",
-        "reencuadre",
-        "acuerdo"
+        "movilidad",
+        "acogida",
+        "documentación",
+        "arraigo",
+        "servicio",
+        "derecho"
       ],
-      "scenario": "Reformular posiciones en una negociación sensible"
+      "scenario": "Mediar entre experiencias de movilidad, pertenencia y acceso a servicios"
     }
   },
   {
     "slug": "ensayo-de-alta-exigencia",
     "target_language": "spanish",
     "level": "C2",
-    "title": "Ensayo de alta exigencia",
-    "title_es": "Ensayo de alta exigencia",
-    "description": "Construir una tesis compleja con fuentes divergentes",
+    "title": "El agua que llega a la mesa",
+    "title_es": "El agua que llega a la mesa",
+    "description": "Construir una tesis sobre agua, agricultura, alimentos y desigualdad",
     "order_index": 11,
     "unit_overview": {
-      "objective": "Controlar estructura, voz y contraargumentación",
+      "objective": "Controlar evidencia, escalas territoriales y contraargumentación",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -5627,26 +5627,26 @@
         "progresión temática y cohesión global"
       ],
       "vocabulary": [
-        "hipótesis",
-        "salvedad",
-        "contraargumento",
-        "síntesis",
-        "premisa",
-        "conclusión"
+        "cuenca",
+        "sequía",
+        "riego",
+        "abastecimiento",
+        "desigualdad",
+        "prioridad"
       ],
-      "scenario": "Construir una tesis compleja con fuentes divergentes"
+      "scenario": "Construir una tesis sobre agua, agricultura, alimentos y desigualdad"
     }
   },
   {
     "slug": "defensa-y-sintesis",
     "target_language": "spanish",
     "level": "C2",
-    "title": "Defensa y síntesis",
-    "title_es": "Defensa y síntesis",
-    "description": "Resolver una misión integradora ante un panel experto",
+    "title": "Cultura latina global: quién cuenta la historia",
+    "title_es": "Cultura latina global: quién cuenta la historia",
+    "description": "Sintetizar el papel de la música, el cine y la gastronomía en la proyección cultural",
     "order_index": 12,
     "unit_overview": {
-      "objective": "Sintetizar, mediar y producir con dominio flexible",
+      "objective": "Defender una conclusión sobre representación, mercado y creación colectiva",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -5657,14 +5657,14 @@
         "selección estratégica de todos los recursos C2"
       ],
       "vocabulary": [
-        "síntesis",
-        "criterio",
-        "matización",
-        "solvencia",
-        "perspectiva",
-        "precisión"
+        "circulación",
+        "referente",
+        "industria cultural",
+        "visibilidad",
+        "autoría",
+        "proyección"
       ],
-      "scenario": "Resolver una misión integradora ante un panel experto"
+      "scenario": "Sintetizar el papel de la música, el cine y la gastronomía en la proyección cultural"
     }
   }
 ]

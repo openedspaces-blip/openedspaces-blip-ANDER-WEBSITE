@@ -11,23 +11,40 @@ const ROOT = path.join(__dirname, '..');
 const OUTPUT_PATH = path.join(ROOT, 'docs', 'spanish-listening-transcripts-a1-a2.md');
 
 function transcriptFor(activity) {
+  // Prefer the authored single-narrator script; dialogue remains only as a
+  // compatibility fallback for future units that have not been adapted yet.
+  if (String(activity.transcript || '').trim()) {
+    return String(activity.transcript).trim();
+  }
   if (Array.isArray(activity.dialogue) && activity.dialogue.length) {
     return activity.dialogue
-      .map(({ speaker, line }) => `${speaker}: ${line}`)
+      .map(({ line }) => line)
       .join('\n');
   }
-  return String(activity.transcript || '').trim();
+  return '';
 }
 
 function spokenTextFor(activity) {
-  if (Array.isArray(activity.dialogue) && activity.dialogue.length) {
-    return activity.dialogue.map(({ line }) => line).join(' ');
-  }
-  return String(activity.transcript || '').trim();
+  return transcriptFor(activity);
 }
 
 function countWords(text) {
   return String(text).trim().split(/\s+/).filter(Boolean).length;
+}
+
+function wordRangeFor(level, order) {
+  // CEFR levels contain a progression of their own: A1− → A1+, then
+  // A2− → A2+.  The ranges protect that editorial rhythm in future edits.
+  if (level === 'A1') {
+    if (order === 1) return [45, 55];
+    if (order === 2) return [50, 60];
+    if (order <= 4) return [60, 75];
+    if (order <= 8) return [65, 80];
+    return [70, 85];
+  }
+  if (order <= 4) return [90, 105];
+  if (order <= 8) return [95, 110];
+  return [95, 115];
 }
 
 function rowsFor(levelConfig) {
@@ -47,7 +64,7 @@ function main() {
 
   for (const row of rows) {
     if (!row.transcript) throw new Error(`${row.level} unidad ${row.order}: falta transcripción`);
-    const [minimum, maximum] = row.level === 'A1' ? [45, 90] : [45, 130];
+    const [minimum, maximum] = wordRangeFor(row.level, row.order);
     if (row.wordCount < minimum || row.wordCount > maximum) {
       throw new Error(`${row.level} unit ${row.order}: ${row.wordCount} words; expected ${minimum}-${maximum}`);
     }

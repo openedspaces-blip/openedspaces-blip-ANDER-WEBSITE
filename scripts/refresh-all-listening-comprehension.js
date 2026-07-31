@@ -16,6 +16,10 @@ function refreshAllListeningComprehension() {
     // routes and stored in course_lessons. The 18 legacy language-lab
     // placeholders have no story or unit and are intentionally left alone.
     if (row.skill !== 'listening' || !row.unit_slug) continue;
+    // Advanced Spanish C1/C2 scripts have authored questions tied to their
+    // evidence-based narration. Keep those instead of replacing them with
+    // the generic chronology generator used as a fallback elsewhere.
+    if (row.content_json?.extra?.listeningComprehension?.editoriallyReviewed === true) continue;
     applyContextualListeningBank(row);
     updated += 1;
   }

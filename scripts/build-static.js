@@ -86,6 +86,12 @@ function main() {
     { stdio: 'inherit' }
   );
 
+  console.log('Preparing canonical Spanish B1-B2 Listening transcripts...');
+  execSync(
+    `node "${path.join(ROOT, 'scripts', 'prepare-spanish-b1-b2-audio-transcripts.js')}"`,
+    { stdio: 'inherit' }
+  );
+
   console.log('Refreshing contextual Listening questions...');
   execSync(`node "${path.join(ROOT, 'scripts', 'refresh-all-listening-comprehension.js')}"`, {
     stdio: 'inherit'

@@ -2,6 +2,11 @@
 // Each level contains 12 thematic units and every unit contains the six
 // core skills. The activities share one scenario so moving through the
 // route feels like one lesson rather than six unrelated catalog cards.
+const {
+  transcripts: B1_B2_LISTENING_TRANSCRIPTS,
+  formats: B1_B2_LISTENING_FORMATS,
+  progressiveExtensions: B1_B2_LISTENING_PROGRESSIVE_EXTENSIONS
+} = require('./spanish-b1-b2-listening-transcripts');
 
 const LEVEL_CURRICULUM = {
   A2: {
@@ -66,18 +71,18 @@ const LEVEL_CURRICULUM = {
     description:
       'Doce unidades avanzadas para interpretar discursos, modular el registro y argumentar con precisión.',
     units: [
-      ['memoria-y-relato', 'Memoria y relato', 'Interpretar versiones contrapuestas de un recuerdo colectivo', 'Analizar perspectiva, omisiones y encuadre', 'correlación de tiempos y estilo indirecto', ['memoria colectiva', 'testimonio', 'omisión', 'versión', 'evocar', 'reinterpretar']],
-      ['retorica-publica', 'Retórica pública', 'Examinar un discurso institucional', 'Reconocer estrategias persuasivas y presuposiciones', 'énfasis, tematización y estructuras hendidas', ['premisa', 'auditorio', 'apelación', 'elocuencia', 'presuposición', 'refutación']],
-      ['periodismo-de-investigacion', 'Periodismo de investigación', 'Reconstruir una investigación compleja', 'Jerarquizar pruebas y grados de certeza', 'evidencialidad y modales epistémicos', ['filtración', 'hallazgo', 'indicio', 'contrastar', 'anonimato', 'rendición de cuentas']],
-      ['justicia-y-reparacion', 'Justicia y reparación', 'Debatir respuestas a un daño histórico', 'Diferenciar castigo, reparación y garantías', 'subjuntivo en construcciones valorativas', ['reparación', 'agravio', 'garantía', 'reconocimiento', 'responsabilidad', 'reconciliación']],
-      ['innovacion-responsable', 'Innovación responsable', 'Evaluar una tecnología antes de adoptarla', 'Ponderar incertidumbre y efectos no previstos', 'condicionales mixtas y contrafactuales', ['precaución', 'impacto', 'despliegue', 'sesgo', 'supervisión', 'trazabilidad']],
-      ['literatura-y-voz', 'Literatura y voz', 'Analizar la voz de un relato contemporáneo', 'Interpretar tono, distancia e ironía', 'discurso referido libre y valores verbales', ['narrador', 'ironía', 'ambigüedad', 'perspectiva', 'cadencia', 'desenlace']],
-      ['economia-y-cuidados', 'Economía y cuidados', 'Visibilizar trabajos esenciales poco reconocidos', 'Relacionar datos, experiencia y política pública', 'nominalización y densidad informativa', ['cuidados', 'remuneración', 'carga', 'corresponsabilidad', 'sostener', 'invisibilizado']],
-      ['diversidad-del-espanol', 'Diversidad del español', 'Comparar usos de distintas comunidades hispanohablantes', 'Explicar variación sin establecer jerarquías', 'variación, registro y adecuación pragmática', ['variedad', 'rasgo', 'hablante', 'prestigio', 'regionalismo', 'adecuación']],
-      ['diplomacia-y-negociacion', 'Diplomacia y negociación', 'Mediar entre posiciones incompatibles', 'Reformular, ceder y preservar relaciones', 'atenuación y cortesía avanzada', ['concesión', 'mediación', 'desacuerdo', 'margen', 'compromiso', 'postura']],
-      ['critica-cultural', 'Crítica cultural', 'Reseñar una obra para una revista', 'Sustentar una valoración estética matizada', 'adjetivación valorativa y conectores concesivos', ['puesta en escena', 'hallazgo', 'coherencia', 'sugerente', 'convencional', 'recepción']],
-      ['politicas-publicas', 'Políticas públicas', 'Evaluar el resultado de una intervención', 'Interpretar indicadores y límites metodológicos', 'impersonales, pasivas y lenguaje técnico', ['indicador', 'cobertura', 'implementación', 'sesgo de selección', 'resultado', 'evaluación']],
-      ['coloquio-academico', 'Coloquio académico', 'Defender una tesis ante preguntas críticas', 'Sintetizar fuentes y responder con rigor', 'conectores de reformulación y reserva', ['tesis', 'marco teórico', 'hallazgo', 'objeción', 'alcance', 'metodología']]
+      ['memoria-y-relato', 'IA y educación', 'Analizar usos de inteligencia artificial en el aprendizaje', 'Evaluar una herramienta sin sustituir la autonomía intelectual', 'matización, subordinación concesiva y evidencialidad', ['autonomía', 'sesgo', 'verificar', 'evidencia', 'trazabilidad', 'criterio']],
+      ['retorica-publica', 'Español dominicano y registros', 'Examinar prejuicios sobre acentos y formas de hablar', 'Distinguir variedad, registro y adecuación sin establecer jerarquías', 'variación, registro y adecuación pragmática', ['variedad', 'rasgo', 'hablante', 'prestigio', 'regionalismo', 'adecuación']],
+      ['periodismo-de-investigacion', 'Clima, salud y resiliencia', 'Relacionar cambio climático, bienestar y educación', 'Interpretar riesgos climáticos y respuestas colectivas con perspectiva social', 'conectores causales, consecutivos y concesivos', ['vulnerabilidad', 'adaptación', 'resiliencia', 'infraestructura', 'prevención', 'desigualdad']],
+      ['justicia-y-reparacion', 'Memoria, justicia y reparación', 'Examinar cómo una sociedad responde a daños históricos', 'Distinguir reconocimiento simbólico, reparación material y garantías de no repetición', 'subjuntivo en construcciones valorativas', ['reparación', 'agravio', 'garantía', 'reconocimiento', 'responsabilidad', 'reconciliación']],
+      ['innovacion-responsable', 'Tecnología y decisiones públicas', 'Evaluar sistemas automatizados antes de adoptarlos', 'Ponderar utilidad, sesgo, supervisión y transparencia', 'condicionales mixtas y contrafactuales', ['precaución', 'impacto', 'despliegue', 'sesgo', 'supervisión', 'trazabilidad']],
+      ['literatura-y-voz', 'Salud mental en la conversación digital', 'Analizar cómo las redes presentan el malestar emocional', 'Distinguir apoyo, visibilidad y simplificación del sufrimiento', 'discurso referido libre y valores verbales', ['bienestar', 'estigma', 'acompañamiento', 'exposición', 'diagnóstico', 'cuidado']],
+      ['economia-y-cuidados', 'El tiempo de cuidar', 'Visibilizar trabajos de cuidado poco reconocidos', 'Relacionar tiempo, género, oportunidades y política pública', 'nominalización y densidad informativa', ['cuidados', 'remuneración', 'carga', 'corresponsabilidad', 'sostener', 'invisibilizado']],
+      ['diversidad-del-espanol', 'Lenguas, acentos y pertenencia', 'Comparar usos de comunidades hispanohablantes', 'Explicar variación sin establecer jerarquías', 'variación, registro y adecuación pragmática', ['variedad', 'rasgo', 'hablante', 'prestigio', 'regionalismo', 'adecuación']],
+      ['diplomacia-y-negociacion', 'Negociar en tiempos de polarización', 'Analizar desacuerdos públicos sin reducirlos a bandos', 'Reformular posiciones y construir criterios verificables', 'atenuación y cortesía avanzada', ['concesión', 'mediación', 'desacuerdo', 'margen', 'compromiso', 'postura']],
+      ['critica-cultural', 'La cultura del algoritmo', 'Examinar cómo las plataformas recomiendan música y audiovisual', 'Valorar diversidad cultural, visibilidad y concentración', 'adjetivación valorativa y conectores concesivos', ['recomendación', 'catálogo', 'visibilidad', 'tendencia', 'creador', 'algoritmo']],
+      ['politicas-publicas', '¿Qué significa que una política funcione?', 'Evaluar intervenciones dirigidas a jóvenes', 'Interpretar indicadores, cobertura y resultados sin simplificar', 'impersonales, pasivas y lenguaje técnico', ['indicador', 'cobertura', 'implementación', 'sesgo de selección', 'resultado', 'evaluación']],
+      ['coloquio-academico', 'Participar sin ser un adorno', 'Analizar formas de participación juvenil en decisiones públicas', 'Evaluar consulta, representación e incidencia real', 'conectores de reformulación y reserva', ['participación', 'consulta', 'incidencia', 'representación', 'propuesta', 'rendición de cuentas']]
     ]
   },
   C2: {
@@ -85,18 +90,18 @@ const LEVEL_CURRICULUM = {
     description:
       'Doce unidades de dominio experto centradas en interpretación fina, mediación y producción de alta exigencia.',
     units: [
-      ['ambiguedad-y-sentido', 'Ambigüedad y sentido', 'Desentrañar un texto deliberadamente ambiguo', 'Interpretar sentidos simultáneos y justificar lecturas', 'polisemia, elipsis y ambigüedad sintáctica', ['polisemia', 'elipsis', 'doble lectura', 'sobreentendido', 'indeterminación', 'matiz']],
-      ['humor-e-ironia', 'Humor e ironía', 'Explicar por qué una sátira funciona en su contexto', 'Reconocer implicaturas y límites pragmáticos', 'ironía, eco y discurso polifónico', ['sátira', 'implicatura', 'parodia', 'doble voz', 'burla', 'complicidad']],
-      ['traduccion-y-mediacion', 'Traducción y mediación', 'Mediar un concepto sin equivalente exacto', 'Reformular preservando intención y registro', 'equivalencia pragmática y transposición', ['equivalencia', 'calco', 'reformulación', 'pérdida', 'registro', 'mediación']],
-      ['filosofia-del-lenguaje', 'Filosofía del lenguaje', 'Debatir cómo las palabras construyen categorías', 'Manejar abstracción y contraargumentos', 'sustantivación y arquitectura argumental', ['referente', 'categoría', 'enunciado', 'convención', 'inferir', 'conceptualizar']],
-      ['analisis-juridico', 'Análisis jurídico', 'Interpretar dos lecturas de una norma', 'Distinguir literalidad, finalidad y precedente', 'modalidad deóntica y precisión restrictiva', ['jurisprudencia', 'supuesto', 'alcance', 'disposición', 'interpretación', 'precedente']],
-      ['edicion-de-estilo', 'Edición de estilo', 'Editar un ensayo sin borrar la voz del autor', 'Mejorar precisión, cohesión y ritmo', 'cohesión avanzada y puntuación discursiva', ['inciso', 'redundancia', 'cadencia', 'cohesión', 'reescritura', 'voz autoral']],
-      ['debate-epistemico', 'Debate epistémico', 'Evaluar qué puede afirmarse a partir de evidencia incompleta', 'Graduar certeza y responsabilidad discursiva', 'evidencialidad y grados de compromiso', ['corroborar', 'plausible', 'refutar', 'provisional', 'inferencia', 'certeza']],
-      ['estetica-y-interpretacion', 'Estética e interpretación', 'Comparar marcos críticos sobre una obra', 'Integrar lecturas incompatibles sin simplificarlas', 'metáfora conceptual y lenguaje crítico', ['marco crítico', 'recepción', 'canon', 'ruptura', 'lectura', 'estética']],
-      ['discurso-cientifico', 'Discurso científico', 'Convertir resultados especializados para públicos distintos', 'Adaptar densidad y precisión sin distorsionar', 'reformulación explicativa y cautela', ['divulgación', 'muestra', 'limitación', 'hallazgo', 'replicabilidad', 'consenso']],
-      ['mediacion-de-conflictos', 'Mediación de conflictos', 'Reformular posiciones en una negociación sensible', 'Detectar necesidades y desbloquear el diálogo', 'atenuación extrema y metapragmática', ['agravio', 'reconocimiento', 'interés', 'escalada', 'reencuadre', 'acuerdo']],
-      ['ensayo-de-alta-exigencia', 'Ensayo de alta exigencia', 'Construir una tesis compleja con fuentes divergentes', 'Controlar estructura, voz y contraargumentación', 'progresión temática y cohesión global', ['hipótesis', 'salvedad', 'contraargumento', 'síntesis', 'premisa', 'conclusión']],
-      ['defensa-y-sintesis', 'Defensa y síntesis', 'Resolver una misión integradora ante un panel experto', 'Sintetizar, mediar y producir con dominio flexible', 'selección estratégica de todos los recursos C2', ['síntesis', 'criterio', 'matización', 'solvencia', 'perspectiva', 'precisión']]
+      ['ambiguedad-y-sentido', 'El Mundial 2026: más que un partido', 'Analizar cómo un gran evento deportivo organiza identidad, negocio y ciudad', 'Distinguir celebración colectiva, patrocinio y legado urbano', 'polisemia, elipsis y ambigüedad sintáctica', ['afición', 'sede', 'patrocinio', 'identidad', 'legado', 'representación']],
+      ['humor-e-ironia', 'Videojuegos: jugar, gastar y pertenecer', 'Examinar los incentivos de compra dentro de los videojuegos', 'Reconocer diseño persuasivo, presión de grupo y consumo fragmentado', 'ironía, eco y discurso polifónico', ['microtransacción', 'recompensa', 'azar', 'comunidad', 'impulso', 'pertenencia']],
+      ['traduccion-y-mediacion', 'La música en español viaja distinto', 'Mediar entre una escena local y una audiencia global', 'Reformular identidad cultural sin convertirla en estereotipo', 'equivalencia pragmática y transposición', ['escena', 'colaboración', 'audiencia', 'circulación', 'repertorio', 'pertenencia']],
+      ['filosofia-del-lenguaje', '¿Quién tiene derecho a mirar hacia el espacio?', 'Examinar cómo la exploración espacial combina ciencia, negocio y cooperación internacional', 'Detectar los supuestos que presentan el espacio como patrimonio común o como recurso explotable', 'sustantivación y arquitectura argumental', ['órbita', 'misión', 'soberanía', 'recurso', 'cooperación', 'exploración']],
+      ['analisis-juridico', 'Pagar sin efectivo: comodidad, datos y exclusión', 'Interpretar derechos y responsabilidades en sistemas de pago digital', 'Distinguir acceso, trazabilidad, comisiones y alternativas de pago', 'modalidad deóntica y precisión restrictiva', ['billetera digital', 'comisión', 'trazabilidad', 'acceso', 'intermediario', 'exclusión']],
+      ['edicion-de-estilo', 'Envejecer en una sociedad acelerada', 'Editar relatos públicos sobre longevidad, autonomía y generaciones', 'Mejorar precisión sin convertir la vejez en un problema uniforme', 'cohesión avanzada y puntuación discursiva', ['longevidad', 'autonomía', 'dependencia', 'generación', 'cuidado', 'accesibilidad']],
+      ['debate-epistemico', 'La basura electrónica no desaparece', 'Evaluar afirmaciones sobre reciclaje, reparación y obsolescencia tecnológica', 'Graduar evidencia ambiental, responsabilidad empresarial y hábitos de uso', 'evidencialidad y grados de compromiso', ['residuo electrónico', 'reparación', 'obsolescencia', 'reciclaje', 'cadena de suministro', 'responsabilidad']],
+      ['estetica-y-interpretacion', 'La transición verde también extrae', 'Comparar narrativas sobre baterías, minerales críticos y energías limpias', 'Integrar reducción de emisiones, derechos laborales y efectos territoriales', 'metáfora conceptual y lenguaje crítico', ['mineral crítico', 'extracción', 'refinación', 'transición', 'territorio', 'trazabilidad']],
+      ['discurso-cientifico', 'El deporte y las apuestas en línea', 'Comunicar los riesgos de normalizar apuestas dentro del ocio deportivo', 'Distinguir entretenimiento, probabilidad, publicidad y daño potencial', 'reformulación explicativa y cautela', ['cuota', 'apuesta', 'riesgo', 'publicidad', 'adicción', 'regulación']],
+      ['mediacion-de-conflictos', 'Migrar para empezar de nuevo', 'Mediar entre experiencias de movilidad, pertenencia y acceso a servicios', 'Detectar barreras administrativas, redes de apoyo y derechos urbanos', 'atenuación extrema y metapragmática', ['movilidad', 'acogida', 'documentación', 'arraigo', 'servicio', 'derecho']],
+      ['ensayo-de-alta-exigencia', 'El agua que llega a la mesa', 'Construir una tesis sobre agua, agricultura, alimentos y desigualdad', 'Controlar evidencia, escalas territoriales y contraargumentación', 'progresión temática y cohesión global', ['cuenca', 'sequía', 'riego', 'abastecimiento', 'desigualdad', 'prioridad']],
+      ['defensa-y-sintesis', 'Cultura latina global: quién cuenta la historia', 'Sintetizar el papel de la música, el cine y la gastronomía en la proyección cultural', 'Defender una conclusión sobre representación, mercado y creación colectiva', 'selección estratégica de todos los recursos C2', ['circulación', 'referente', 'industria cultural', 'visibilidad', 'autoría', 'proyección']]
     ]
   }
 };
@@ -137,29 +142,29 @@ const READING_PROFILES = {
     'memoria-y-relato': ['ensayo testimonial', 'Recordar no es reproducir', 'Dos testimonios sobre una protesta estudiantil coinciden en los hechos centrales, pero difieren en silencios, emociones y responsabilidades.'],
     'retorica-publica': ['análisis discursivo', 'La promesa detrás del pronombre “nosotros”', 'Un discurso dirigido a la juventud construye comunidad mediante metáforas, presuposiciones y oposiciones que deben analizarse antes de aceptar su conclusión.'],
     'periodismo-de-investigacion': ['reportaje de investigación', 'Seguir el rastro de una decisión automatizada', 'Documentos, entrevistas y registros técnicos permiten examinar por qué una plataforma educativa clasificó de manera desigual a distintos estudiantes.'],
-    'justicia-y-reparacion': ['ensayo histórico', 'Cuando reconocer el daño no basta', 'Una comunidad debate cómo combinar memoria, restitución, responsabilidad institucional y garantías de no repetición tras una exclusión histórica.'],
-    'innovacion-responsable': ['artículo científico-social', 'La innovación también necesita frenos revisables', 'Una herramienta de IA en escuelas permite analizar beneficio, sesgo, supervisión humana y precaución sin entusiasmo ni rechazo absolutos.'],
-    'literatura-y-voz': ['crítica literaria', 'La narradora que duda de su propio recuerdo', 'Un relato contemporáneo utiliza ironía, ritmo y distancia para mostrar que la identidad narrativa se construye también con vacíos y contradicciones.'],
-    'economia-y-cuidados': ['ensayo social', 'El trabajo que sostiene el día y desaparece de las cuentas', 'Testimonios juveniles muestran cómo cuidar hermanos, mayores y hogares distribuye tiempo, oportunidades educativas y carga emocional.'],
-    'diversidad-del-espanol': ['artículo sociolingüístico', 'Hablar distinto no es hablar peor', 'Variantes caribeñas, andinas y rioplatenses permiten examinar prestigio, identidad, adecuación y prejuicio sin establecer jerarquías.'],
-    'diplomacia-y-negociacion': ['estudio de caso', 'Ceder sin renunciar al problema', 'Dos organizaciones juveniles con prioridades incompatibles ensayan reformulación, reconocimiento y concesiones verificables.'],
-    'critica-cultural': ['reseña ensayística', 'Una serie juvenil que convierte la ansiedad en espectáculo', 'La crítica valora actuación y estructura, pero pregunta qué ocurre cuando el sufrimiento se vuelve recurso narrativo repetible.'],
-    'politicas-publicas': ['informe analítico', 'Medir una política sin confundir actividad con resultado', 'Un programa de becas parece exitoso por su cobertura, aunque evaluar exige separar participación, permanencia, aprendizaje y selección.'],
-    'coloquio-academico': ['ponencia', 'Defender una tesis que todavía puede cambiar', 'Una investigación sobre hábitos digitales juveniles presenta método, hallazgos, límites y objeciones: rigor no equivale a certeza absoluta.']
+    'justicia-y-reparacion': ['ensayo histórico-social', 'Cuando reconocer el daño no basta', 'Reparar exige memoria, responsabilidad institucional y garantías de no repetición.'],
+    'innovacion-responsable': ['artículo científico-social', 'Antes de automatizar una decisión', 'Un sistema útil debe ser también explicable, supervisable y corregible.'],
+    'literatura-y-voz': ['ensayo cultural', 'Hablar de salud mental sin convertirla en contenido', 'La visibilidad digital puede acompañar o simplificar experiencias complejas.'],
+    'economia-y-cuidados': ['ensayo social', 'El tiempo de cuidar también es trabajo', 'Las tareas de cuidado distribuyen oportunidades, ingresos y bienestar.'],
+    'diversidad-del-espanol': ['artículo sociolingüístico', 'Una lengua común no exige una sola voz', 'La comprensión mutua convive con acentos, registros y regionalismos.'],
+    'diplomacia-y-negociacion': ['análisis cívico', 'Discrepar sin dejar de escuchar', 'La polarización se reduce cuando se distinguen posiciones, intereses y pruebas.'],
+    'critica-cultural': ['crítica de medios', '¿Quién decide qué cultura aparece primero?', 'Los algoritmos ordenan visibilidad y condicionan el descubrimiento cultural.'],
+    'politicas-publicas': ['informe analítico', 'Medir una política sin confundir actividad con resultado', 'La cobertura no basta para demostrar un cambio en las oportunidades.'],
+    'coloquio-academico': ['ponencia cívica', 'Participar no es solo ser escuchado', 'La participación juvenil importa cuando puede modificar decisiones públicas.']
   },
   C2: {
-    'ambiguedad-y-sentido': ['ensayo hermenéutico', 'Lo que el texto decide no decidir', 'Una pieza admite lecturas incompatibles porque distribuye referentes, silencios y tiempos verbales sin resolver deliberadamente su relación.'],
-    'humor-e-ironia': ['ensayo pragmático', 'Reírse con alguien o reírse de alguien', 'Una sátira viral revela que la ironía depende de conocimiento compartido, posición social, circulación y posibilidad de respuesta.'],
-    'traduccion-y-mediacion': ['ensayo de traducción', 'Lo intraducible no significa lo incomunicable', 'Mediar un concepto cultural exige decidir qué explicar, qué conservar y qué pérdida reconocer según destinatario, género y propósito.'],
-    'filosofia-del-lenguaje': ['ensayo filosófico', 'Nombrar una categoría también la transforma', 'Las palabras no solo etiquetan una realidad estable: organizan semejanzas, fronteras e inferencias que después parecen naturales.'],
-    'analisis-juridico': ['comentario jurídico', 'La misma norma, dos obligaciones posibles', 'La lectura literal y la finalista producen alcances distintos y obligan a justificar precedente, excepción y restricción.'],
-    'edicion-de-estilo': ['taller crítico', 'Corregir sin borrar a quien escribe', 'Editar un ensayo juvenil muestra que precisión, cohesión y ritmo pueden mejorar sin uniformar la voz ni convertir toda rareza en error.'],
-    'debate-epistemico': ['ensayo epistemológico', 'Qué podemos afirmar cuando la evidencia no alcanza', 'Datos incompletos permiten varias inferencias plausibles, pero no autorizan el mismo grado de certeza para todas.'],
-    'estetica-y-interpretacion': ['ensayo comparado', 'Una obra, tres marcos críticos', 'Las interpretaciones formal, histórica y decolonial producen preguntas distintas sin que su coexistencia las vuelva equivalentes.'],
-    'discurso-cientifico': ['artículo de metaciencia', 'Traducir un hallazgo sin fabricar certeza', 'Divulgar resultados sobre aprendizaje y cerebro exige distinguir muestra, correlación, mecanismo, limitación y replicabilidad.'],
-    'mediacion-de-conflictos': ['análisis de negociación', 'Cambiar el marco antes de buscar el acuerdo', 'Un conflicto universitario se desbloquea cuando las posiciones públicas se reformulan como necesidades y criterios verificables.'],
-    'ensayo-de-alta-exigencia': ['ensayo académico', 'La atención como recurso político y económico', 'Plataformas, instituciones y usuarios compiten por una atención limitada cuya distribución afecta autonomía, aprendizaje y democracia.'],
-    'defensa-y-sintesis': ['defensa académica', 'Sostener una conclusión sin clausurar el debate', 'Un panel experto exige integrar fuentes divergentes, reconocer incertidumbre y explicar qué evidencia modificaría la tesis.']
+    'ambiguedad-y-sentido': ['crónica deportiva', 'El Mundial 2026: más que un partido', 'El fútbol convierte una sede en escaparate, negocio y espacio de pertenencia.'],
+    'humor-e-ironia': ['ensayo sobre ocio digital', 'Videojuegos: jugar, gastar y pertenecer', 'Las compras pequeñas, el azar y la comunidad cambian la experiencia de jugar.'],
+    'traduccion-y-mediacion': ['crónica cultural', 'La música en español viaja distinto', 'Una canción puede cruzar fronteras sin dejar de estar anclada a una escena local.'],
+    'filosofia-del-lenguaje': ['ensayo científico-político', '¿Quién tiene derecho a mirar hacia el espacio?', 'La exploración espacial obliga a decidir si una órbita es un bien común o un recurso estratégico.'],
+    'analisis-juridico': ['comentario jurídico-económico', 'Pagar sin efectivo: comodidad, datos y exclusión', 'Un pago digital puede simplificar una compra y, a la vez, dejar fuera a quien no tiene acceso o control sobre sus datos.'],
+    'edicion-de-estilo': ['ensayo intergeneracional', 'Envejecer en una sociedad acelerada', 'La longevidad transforma los vínculos entre autonomía, cuidados y espacio público.'],
+    'debate-epistemico': ['ensayo tecnológico', 'La basura electrónica no desaparece', 'Cambiar de dispositivo no elimina el residuo: desplaza materiales, trabajo y costos ambientales a otros lugares.'],
+    'estetica-y-interpretacion': ['ensayo socioambiental', 'La transición verde también extrae', 'Una tecnología limpia al usarse puede depender de una cadena de extracción con conflictos fuera de la vista.'],
+    'discurso-cientifico': ['artículo de salud pública', 'El deporte y las apuestas en línea', 'La publicidad convierte una práctica de riesgo en parte aparentemente normal del ocio deportivo.'],
+    'mediacion-de-conflictos': ['ensayo de movilidad', 'Migrar para empezar de nuevo', 'Llegar a una ciudad implica traducir trámites, redes y expectativas además de cambiar de lugar.'],
+    'ensayo-de-alta-exigencia': ['ensayo socioambiental', 'El agua que llega a la mesa', 'El agua conecta la agricultura, la alimentación y la desigualdad de forma difícil de separar.'],
+    'defensa-y-sintesis': ['defensa cultural', 'Cultura latina global: quién cuenta la historia', 'La expansión cultural abre oportunidades, pero también concentra visibilidad y poder de decisión.']
   }
 };
 
@@ -438,6 +443,12 @@ function grammarTest(level, slug, grammar, exercises) {
 }
 
 const SPANISH_REFERENCE_LIBRARY = {
+  undpAiDominicanRepublic: { author: 'PNUD República Dominicana', title: 'Estudio sobre las oportunidades de la inteligencia artificial para potenciar el desarrollo humano en República Dominicana', year: 2025, url: 'https://www.undp.org/es/dominican-republic/publicaciones/estudio-sobre-las-oportunidades-de-la-inteligencia-artificial-para-potenciar-el-desarrollo-humano-en-republica' },
+  unescoAiStudentsSpanish: { author: 'UNESCO', title: 'Marco de competencias para estudiantes en materia de IA', year: 2024, url: 'https://www.unesco.org/es/articles/marco-de-competencias-para-estudiantes-en-materia-de-ia?hub=779' },
+  undpEducationDominicanRepublic: { author: 'PNUD República Dominicana', title: 'Acceso educativo impulsa avances de desarrollo, aunque persiste el reto de calidad', year: 2025, url: 'https://www.undp.org/es/dominican-republic/blog/acceso-educativo-impulsa-avances-de-desarrollo-aunque-persiste-el-reto-de-calidad' },
+  academyDominicanSpanish: { author: 'Academia Dominicana de la Lengua', title: 'La dominicanidad transnacional: actitudes lingüísticas de los dominicanos en RD, EE. UU. y España', year: 2021, url: 'https://academia.org.do/2021/04/09/la-dominicanidad-transnacional-actitudes-linguisticas-de-los-dominicanos-en-rd-ee-uu-y-espana/' },
+  undpClimateDominicanRepublic: { author: 'PNUD República Dominicana', title: 'Estrategia del Sistema de las Naciones Unidas en la República Dominicana para la acción climática', year: 2025, url: 'https://www.undp.org/es/dominican-republic/publicaciones/estrategia-del-sistema-de-naciones-unidas-en-la-republica-dominicana-para-la-accion-climatica' },
+  undpClimateHealthDominicanRepublic: { author: 'PNUD República Dominicana', title: 'Informe de salud y adaptación al cambio climático en República Dominicana', year: 2025, url: 'https://www.undp.org/es/dominican-republic/publicaciones/informe-de-salud-y-adaptacion-al-cambio-climatico-en-republica-dominicana-2025' },
   adolescentMentalHealth: { author: 'Organización Mundial de la Salud', title: 'Salud mental del adolescente', year: 2025, url: 'https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health' },
   teensScreens: { author: 'OMS Europa', title: 'Teens, screens and mental health', year: 2024, url: 'https://www.who.int/europe/news-room/25-09-2024-teens--screens-and-mental-health' },
   socialConnection: { author: 'Organización Mundial de la Salud', title: 'WHO Commission on Social Connection', year: 2025, url: 'https://www.who.int/groups/commission-on-social-connection' },
@@ -445,6 +456,199 @@ const SPANISH_REFERENCE_LIBRARY = {
   mediaLiteracy: { author: 'UNESCO', title: 'Media and Information Literacy', year: 2026, url: 'https://www.unesco.org/en/media-information-literacy' },
   educationTrends: { author: 'OCDE', title: 'Trends Shaping Education 2025', year: 2025, url: 'https://www.oecd.org/en/publications/2025/01/trends-shaping-education-2025_3069cbd2/full-report/work-and-progress_423e3500.html' }
 };
+
+// Audio-production revision: one narrator, varied everyday situations and
+// slightly longer A2 texts while retaining each unit's target language.
+Object.assign(A2_LISTENING_MONOLOGUES, {
+  'compras-y-cantidades': 'El mercado abre temprano y hoy hay mucha gente. Una clienta compra medio kilo de tomates, un kilo de arroz y una bolsa de naranjas. Los tomates cuestan tres euros el kilo y el arroz cuesta dos. El vendedor calcula el total y explica que la bolsa vale un euro más. La clienta paga con tarjeta, comprueba el recibo y guarda la compra antes de volver a casa.',
+  'orientarse-en-la-ciudad': 'Un mapa pequeño no siempre es suficiente en una ciudad nueva. Para llegar a la estación de tren, un visitante debe seguir recto por la avenida hasta el semáforo, girar a la derecha y caminar dos cuadras. La estación queda a la izquierda, detrás del museo y junto a la farmacia. No debe cruzar la plaza. Antes de continuar, repite las indicaciones para no perderse.',
+  'rutinas-y-horarios': 'Esta semana el horario de trabajo cambia. Una empleada empieza a las diez, no a las ocho, porque hace un curso por las mañanas. El curso termina a las nueve y media. El domingo prepara su agenda y deja una tarde libre. Mientras está en clase, una compañera revisa los mensajes urgentes. Después responde lo importante y continúa con su jornada de trabajo.',
+  'salud-y-bienestar': 'Después de varios días de poco descanso, alguien visita a la doctora. Le duele la garganta y tiene un poco de fiebre. La doctora cree que es una infección leve y recomienda beber agua, descansar y tomar la medicina indicada. Si continúa con fiebre, debe pedir otra cita en tres días. Mañana no irá al trabajo si se siente peor; primero necesita recuperarse bien.',
+  'viajes-y-transporte': 'El panel de la estación anuncia un cambio importante. Un tren a Valencia sale a las seis, pero el andén cambia del número cuatro al seis. La llegada sigue prevista para las ocho y veinte. Antes de subir, el viajero deja su equipaje en la consigna y revisa el panel una vez más. Debe estar en el andén diez minutos antes para viajar con tranquilidad.',
+  'casa-y-barrio': 'Encontrar un apartamento también significa elegir un barrio. Una persona visita un piso en la calle Mayor porque tiene muebles básicos y mucha luz por la mañana. Como trabaja desde casa, necesita tranquilidad. El barrio es seguro y hay poco ruido, aunque el alquiler es un poco más alto. La sala es más luminosa que la del otro apartamento y el metro está cerca. La visita será el sábado.',
+  'comidas-y-recetas': 'La cocina se llena de olor a verduras. Para preparar una sopa, una persona tiene papas, zanahorias y cebolla, pero necesita un poco de caldo. Primero corta las verduras y luego las hierve durante veinte minutos. Añade la sal al final para comprobar el sabor. Prefiere dejar los trozos enteros y agregar el caldo poco a poco para que la sopa no quede demasiado líquida.',
+  'recuerdos-y-experiencias': 'Un viaje puede quedarse en la memoria por un sabor. El verano pasado, dos hermanas viajaron a Oaxaca y visitaron un mercado pequeño. Allí una señora les enseñó a preparar chocolate. Después del viaje, una de ellas ha preparado esa receta varias veces en casa. Sin embargo, nunca sabe igual que el chocolate del mercado. Aun así, cada vez que lo prepara recuerda aquella tarde y sonríe.',
+  celebraciones: 'La casa de los tíos se prepara para una celebración familiar. El sábado se reúne la familia para el cumpleaños de la abuela. Una amiga ha sido invitada, pero no necesita llevar regalo. Prefiere traer un postre para compartir y lo entrega antes de las cinco. Así todos ayudan con los preparativos y nadie trabaja solo. La abuela estará muy contenta al ver a la familia reunida.',
+  'estudio-y-aprendizaje': 'Faltan dos semanas para un examen y todavía hay apuntes por organizar. Un estudiante decide repasar un tema cada día y dejar el domingo para practicar. Lleva dos meses estudiando una hora después de cenar, por eso ya tiene una rutina. Hoy organiza el calendario y divide las tareas. Cuando termina cada tema, hace un ejercicio corto para comprobar su progreso y llegar con más confianza al examen.',
+  'tecnologia-cotidiana': 'A veces una contraseña olvidada puede detener toda la mañana. Para recuperar el acceso a una cuenta, hay que pulsar «Recuperar contraseña» en la pantalla de inicio. Después se revisa el correo y se abre el enlace recibido. Es importante comprobar la bandeja de entrada y también el spam. Finalmente se crea una clave segura, se guarda el acceso y nunca se comparte la contraseña con otra persona.',
+  'planes-y-proyectos': 'Un equipo tiene que presentar un proyecto el viernes. Una persona revisa los datos y otra prepara las diapositivas. El miércoles se reúnen para ver el resultado y cambiar lo necesario. Si terminan el borrador ese día, tendrán tiempo para ensayar la presentación. Hoy revisan la información y mañana envían una versión al equipo. Así todos conocen el acuerdo antes de la fecha final.'
+});
+
+// A second pass establishes the A2− to A2+ progression and re-applies the
+// completed scripts to the listening activities used by the builder.
+Object.assign(A2_LISTENING_MONOLOGUES, {
+  'compras-y-cantidades': 'El mercado abre temprano y hoy hay mucha gente. Una clienta lleva una lista: medio kilo de tomates, un kilo de arroz y una bolsa de naranjas. Los tomates cuestan tres euros el kilo y el arroz cuesta dos. El vendedor calcula el total y explica que la bolsa vale un euro más. La clienta paga con tarjeta, comprueba el recibo y guarda la compra antes de volver a casa.',
+  'orientarse-en-la-ciudad': 'Un visitante llega a una ciudad nueva y necesita encontrar la estación de tren. Una vecina le explica el camino: debe seguir recto por la avenida hasta el semáforo, girar a la derecha y caminar dos cuadras. La estación queda a su izquierda, detrás del museo y junto a la farmacia. No debe cruzar la plaza. Antes de continuar, repite las indicaciones para estar seguro de no perderse.',
+  'rutinas-y-horarios': 'Esta semana el horario de trabajo cambia porque una empleada hace un curso por las mañanas. Normalmente entra a las ocho, pero ahora empieza a las diez. El curso termina a las nueve y media. Para organizarse, prepara la agenda el domingo y deja una tarde libre. Mientras está en clase, una compañera revisa los mensajes urgentes. Después responde lo importante y continúa su jornada con más calma.',
+  'salud-y-bienestar': 'Después de varios días de poco descanso, alguien visita a la doctora. Le duele la garganta y tiene un poco de fiebre. La doctora cree que es una infección leve y recomienda beber agua, descansar y tomar la medicina indicada. También aconseja no ir al trabajo al día siguiente si la fiebre aumenta. Si continúa igual, debe pedir otra cita en tres días. Recuperarse bien ahora evitará problemas después.',
+  'viajes-y-transporte': 'El panel de la estación anuncia un cambio importante para un tren que viaja a Valencia. Sale a las seis, pero el andén cambia del número cuatro al seis. La llegada sigue prevista para las ocho y veinte. Antes de subir, el viajero deja su equipaje en la consigna y revisa el panel una vez más. Debe estar en el andén diez minutos antes. Así tendrá tiempo si vuelven a cambiar la información.',
+  'casa-y-barrio': 'Elegir apartamento también significa elegir un modo de vida. Una persona visita un piso en la calle Mayor porque tiene muebles básicos y mucha luz por la mañana. Como trabaja desde casa, necesita tranquilidad. El barrio es seguro y tiene poco ruido, aunque el alquiler es más alto que el del otro apartamento. La sala es más luminosa y el metro está cerca. El sábado comparará ambos pisos antes de decidir.',
+  'comidas-y-recetas': 'En casa, una receta sencilla puede convertirse en una pequeña experiencia. Para preparar sopa de verduras hay papas, zanahorias y cebolla, pero falta un poco de caldo. Primero se cortan las verduras y luego se hierven durante veinte minutos. La sal se añade al final para comprobar el sabor. Conviene agregar el caldo poco a poco; así la sopa no queda demasiado líquida y los trozos conservan su forma.',
+  'recuerdos-y-experiencias': 'Un viaje puede quedarse en la memoria por un sabor. El verano pasado, dos hermanas viajaron a Oaxaca y visitaron un mercado pequeño. Una señora les enseñó a preparar chocolate y explicó por qué mezclaba los ingredientes lentamente. Desde aquel viaje, una de las hermanas ha preparado la receta varias veces en casa. Sin embargo, nunca sabe igual que en el mercado. Quizá el lugar, las personas y el recuerdo también cambian el sabor.',
+  celebraciones: 'La casa de los tíos se prepara para una celebración familiar. El sábado todos se reúnen para el cumpleaños de la abuela. Una amiga ha sido invitada, pero le explican que no hace falta llevar regalo. Prefiere traer un postre para compartir y lo entrega antes de las cinco. De ese modo, varias personas ayudan con los preparativos. La abuela estará contenta, no solo por la comida, sino porque puede conversar con toda la familia.',
+  'estudio-y-aprendizaje': 'Faltan dos semanas para un examen y todavía hay apuntes por organizar. Un estudiante decide repasar un tema cada día y dejar el domingo para practicar. Lleva dos meses estudiando una hora después de cenar, por eso ya conoce su mejor horario. Hoy divide las tareas en un calendario. Cuando completa cada tema, hace un ejercicio corto y anota los errores. Si mantiene esta rutina, llegará al examen con más confianza y menos estrés.',
+  'tecnologia-cotidiana': 'Una contraseña olvidada puede detener toda la mañana, pero hay una solución segura. Primero se pulsa «Recuperar contraseña» en la pantalla de inicio. Después se revisa el correo y se abre el enlace recibido. Es importante comprobar la bandeja de entrada y también el spam. Al crear una nueva clave, conviene combinar letras, números y símbolos. Finalmente se guarda el acceso en un lugar seguro y no se comparte la contraseña con otra persona.',
+  'planes-y-proyectos': 'Un equipo tiene que presentar un proyecto el viernes y necesita repartir bien el trabajo. Una persona revisa los datos y otra prepara las diapositivas. El miércoles se reúnen para revisar el borrador y cambiar lo necesario. Si terminan ese día, tendrán tiempo para ensayar. Hoy revisan la información y mañana envían una versión al equipo. Así todos conocen el acuerdo, pueden hacer sugerencias y llegan a la presentación con una idea común.'
+});
+
+for (const [slug, transcript] of Object.entries(A2_LISTENING_MONOLOGUES)) {
+  Object.assign(A2_LISTENING_SCRIPTS[slug], { speakers: ['Narrador/a'], transcript });
+}
+
+// A2 recordings add a second layer of context: reasons, comparisons and
+// consequences that make the listening task more substantial than A1.
+const A2_LISTENING_CONTEXT = {
+  'compras-y-cantidades': 'En casa, coloca las naranjas en un plato y revisa la lista. La próxima semana comparará los precios con otro mercado para organizar mejor sus gastos.',
+  'orientarse-en-la-ciudad': 'Cuando llega a la estación, consulta el panel de salidas y compra un mapa. Así tendrá una referencia si necesita volver a esa zona otro día.',
+  'rutinas-y-horarios': 'El cambio le exige levantarse antes, pero también le permite aprender una habilidad nueva. Al final de la semana revisará si este horario funciona para ella.',
+  'salud-y-bienestar': 'La persona entiende que descansar no es perder tiempo. Si sigue las indicaciones, podrá volver a sus actividades con más energía y sin empeorar los síntomas.',
+  'viajes-y-transporte': 'El viajero guarda el billete junto al documento de identidad y busca un lugar tranquilo para esperar. También envía un mensaje para avisar que llegará más tarde.',
+  'casa-y-barrio': 'Antes de firmar, revisará el contrato y preguntará por los gastos de agua y electricidad. No quiere decidir solo por la luz de la sala o la cercanía del metro.',
+  'comidas-y-recetas': 'Cuando la sopa está lista, la sirve con pan y la comparte con su familia. Todos prueban el sabor y comentan qué ingrediente podrían añadir la próxima vez.',
+  'recuerdos-y-experiencias': 'Al revisar las fotos del viaje, las hermanas recuerdan la música del mercado y la paciencia de la señora. Ahora quieren aprender más recetas de esa región.',
+  celebraciones: 'Al final de la tarde, la abuela cuenta historias de su juventud. Los más pequeños escuchan, hacen preguntas y guardan algunas fotos para recordarlo después.',
+  'estudio-y-aprendizaje': 'Además, comparte una tarde de repaso con dos compañeros. Explicar una idea a otra persona le ayuda a descubrir qué partes todavía necesita estudiar.',
+  'tecnologia-cotidiana': 'Después activa una verificación adicional para proteger la cuenta. De ese modo, un código enviado al teléfono ayuda a impedir que otra persona entre sin permiso.',
+  'planes-y-proyectos': 'Durante el ensayo, cada integrante explica una parte y recibe comentarios breves. Si algo no se entiende, todavía tendrán tiempo para corregirlo antes del viernes.'
+};
+
+for (const [slug, context] of Object.entries(A2_LISTENING_CONTEXT)) {
+  const transcript = `${A2_LISTENING_MONOLOGUES[slug]} ${context}`;
+  A2_LISTENING_MONOLOGUES[slug] = transcript;
+  Object.assign(A2_LISTENING_SCRIPTS[slug], { speakers: ['Narrador/a'], transcript });
+}
+
+// C1 begins with three authored, evidence-based readings. They are deliberately
+// not character stories: each one gives learners a current issue, a defensible
+// position and sources they can consult after reading.
+const AUTHORED_C1_READINGS = {
+  'memoria-y-relato': {
+    genre: 'artículo de análisis',
+    title: 'Aprender con IA sin entregar el pensamiento',
+    angle: 'La inteligencia artificial puede apoyar el aprendizaje, pero no debe reemplazar la lectura, la duda ni la verificación.',
+    text: `La escena ya forma parte de la vida académica: una consigna difícil, una pantalla abierta y la posibilidad de obtener en segundos un resumen, un esquema o un borrador completo. La inteligencia artificial generativa puede ayudar a ordenar ideas, explicar conceptos o revisar la claridad de un texto. Pero esa rapidez también obliga a plantear una pregunta más exigente: ¿qué ocurre cuando una herramienta produce una respuesta antes de que el estudiante haya tenido tiempo de formular su propia pregunta?
+
+El debate no consiste en decidir si la IA debe entrar o no en la educación. Ya está presente en la manera de estudiar, buscar información y preparar tareas. La cuestión es qué tipo de relación se construye con ella. Usar una herramienta para comparar una explicación, identificar una laguna en un argumento o recibir sugerencias de redacción no equivale a delegar por completo el trabajo intelectual. La diferencia aparece cuando la respuesta automática sustituye la lectura, la duda, la verificación y la capacidad de defender una idea con palabras propias.
+
+En República Dominicana, el PNUD ha estudiado las percepciones sobre la IA desde una perspectiva de desarrollo humano, con atención a experiencias de uso, capacidades, oportunidades, temores y expectativas de futuro.[1] Este enfoque importa porque una tecnología no tiene el mismo efecto para todas las personas. Quien cuenta con buena conectividad, tiempo, orientación docente y formación digital puede utilizarla para ampliar sus posibilidades. Quien solo recibe una respuesta lista para copiar puede depender de un sistema que no siempre explica sus límites ni permite reconocer sus errores.
+
+La UNESCO propone que el aprendizaje sobre IA incluya una visión centrada en las personas, ética, comprensión de técnicas y aplicaciones, y reflexión sobre su uso pedagógico.[2] No se trata de convertir a todo estudiante en programador. Se trata de desarrollar criterios: saber qué información conviene comprobar, qué datos no deben compartirse, qué prejuicios puede reproducir un sistema y por qué una respuesta escrita con seguridad no es necesariamente correcta.
+
+Esa última diferencia es decisiva. Una IA puede redactar un texto convincente sobre historia, ciencia o literatura y, al mismo tiempo, confundir fechas, atribuir frases inexistentes o presentar una interpretación discutible como si fuera un hecho. Por eso, la habilidad más importante no es pedir una respuesta más larga, sino preguntar mejor: ¿de dónde procede esta afirmación?, ¿qué evidencia falta?, ¿qué otra interpretación sería posible?, ¿cómo cambia la conclusión si una fuente no es fiable?
+
+La educación tampoco puede reducir la IA a una amenaza de fraude. Prohibirla sin enseñar a usarla deja al alumnado ante una herramienta poderosa, pero sin vocabulario para comprenderla. El reto consiste en diseñar tareas en las que el proceso importe tanto como el resultado: comparar versiones, justificar decisiones, citar fuentes, explicar los cambios realizados y reconocer qué apoyo tecnológico se utilizó.
+
+El PNUD ha señalado que el país necesita fortalecer una educación inclusiva, equitativa y de calidad, junto con pensamiento crítico y formación en valores.[3] En ese marco, la IA puede ser un apoyo, no un sustituto de la autonomía. Aprender con ella exige conservar algo que ninguna respuesta automática puede entregar terminada: la responsabilidad de pensar, revisar y decidir.`,
+    referenceKeys: ['undpAiDominicanRepublic', 'unescoAiStudentsSpanish', 'undpEducationDominicanRepublic'],
+    exercises: [
+      q('¿Cuál es la pregunta principal que plantea el texto?', ['Qué aplicación es más rápida.', 'Cómo usar la IA sin sustituir el trabajo intelectual.', 'Por qué toda tarea debe hacerse a mano.', 'Cuándo desaparecerán las herramientas digitales.'], 1, 'El texto examina una relación crítica y autónoma con la IA.'),
+      q('¿Qué diferencia establece el texto entre apoyo y dependencia?', ['El apoyo permite revisar y comprender; la dependencia reemplaza el proceso de aprender.', 'El apoyo solo sirve para programar.', 'La dependencia mejora las fuentes.', 'No existe diferencia entre ambos.'], 0, 'La clave está en si la herramienta acompaña el razonamiento o lo sustituye.'),
+      q('¿Por qué la IA puede ampliar desigualdades?', ['Porque no puede escribir textos.', 'Porque todas las personas tienen el mismo acceso y orientación.', 'Porque sus beneficios dependen de acceso, tiempo y formación crítica.', 'Porque elimina por completo la enseñanza.'], 2, 'El texto vincula el beneficio de la herramienta con las condiciones de uso.'),
+      q('Según el texto, ¿qué debe hacer un estudiante ante una respuesta de IA?', ['Copiarla sin modificarla.', 'Verificar fuentes, evidencia y posibles interpretaciones.', 'Descartarla siempre.', 'Compartir datos personales para mejorarla.'], 1, 'Una respuesta convincente no sustituye la comprobación.'),
+      q('¿Cuál es la tesis final de la lectura?', ['La IA debe sustituir la educación tradicional.', 'La IA solo debe utilizarse fuera de la escuela.', 'La IA puede apoyar el aprendizaje si se preserva la autonomía y el juicio crítico.', 'La tecnología impide toda forma de pensamiento.'], 2, 'La conclusión defiende un uso responsable, no una prohibición total.')
+    ]
+  },
+  'retorica-publica': {
+    genre: 'artículo sociolingüístico',
+    title: 'Un acento no es una falta',
+    angle: 'La variedad del español dominicano exige distinguir entre identidad lingüística, registro y adecuación.',
+    text: `Pocas cosas revelan tanto sobre una sociedad como la forma en que juzga una voz. En una entrevista, una exposición o un video publicado en redes, muchas personas no solo escuchan lo que alguien dice: también evalúan cómo pronuncia, qué palabras elige y si su manera de hablar se parece a la que consideran “correcta”. En República Dominicana, esa evaluación suele recaer sobre rasgos cotidianos del español dominicano.
+
+La aspiración o la elisión de la s al final de sílaba, por ejemplo, forma parte de la variedad hablada en muchas zonas del Caribe. La Academia Dominicana de la Lengua explica que esos rasgos son estructurales en el español dominicano y que su realización cambia según región y contexto.[1] Esto no significa que toda forma de hablar sea adecuada para toda situación. Significa algo más preciso: una variedad lingüística no debe confundirse automáticamente con ignorancia o incapacidad.
+
+La confusión aparece cuando se trata la norma escrita como si fuera la única forma legítima de hablar. Es razonable que una persona aprenda a redactar un informe formal, preparar una exposición académica o adaptar su registro a una entrevista laboral. Esas habilidades amplían oportunidades. El problema surge cuando la adaptación se presenta como una renuncia obligatoria a la identidad: hablar de manera distinta no equivale a hablar peor.
+
+La competencia lingüística avanzada consiste precisamente en reconocer registros. Una persona puede conversar con familiares usando expresiones locales, escribir un correo profesional con un tono formal y participar en un debate académico con vocabulario especializado. No hay contradicción entre esas capacidades. Al contrario, quien sabe cambiar de registro demuestra flexibilidad comunicativa.
+
+Los prejuicios, sin embargo, tienen consecuencias reales. Si una voz se asocia de inmediato con falta de educación, pobreza o poca seriedad, la conversación deja de centrarse en las ideas. El acento se convierte en un filtro social. Por eso resulta importante distinguir entre enseñar recursos de pronunciación, ortografía y escritura formal —algo útil— y ridiculizar una variedad que forma parte de la historia lingüística del país.
+
+Defender la diversidad del español dominicano no exige negar la importancia de la corrección en contextos formales. Exige reconocer que la corrección depende también del propósito, el canal y la situación. Una exposición universitaria no se evalúa igual que una conversación entre amistades; un texto legal no funciona como un mensaje de voz. Pero en todos los casos, la dignidad de quien habla no debería depender de sonar como otra persona.`,
+    referenceKeys: ['academyDominicanSpanish'],
+    exercises: [
+      q('¿Qué critica principalmente el texto?', ['Aprender registros formales.', 'Juzgar la capacidad de una persona solo por su acento.', 'Usar expresiones locales en familia.', 'Escribir textos académicos.'], 1, 'El texto cuestiona que la variedad lingüística se convierta en una medida de capacidad.'),
+      q('¿Qué diferencia hay entre variedad y adecuación?', ['Una variedad es ilegítima; la adecuación no.', 'La variedad describe formas de hablar; la adecuación depende del propósito y la situación.', 'La adecuación solo importa en redes sociales.', 'No hay ninguna diferencia.'], 1, 'El texto propone distinguir identidad lingüística y elección de registro.'),
+      q('¿Qué significa que el acento pueda convertirse en un “filtro social”?', ['Que ayuda a mejorar la ortografía.', 'Que desplaza la atención de las ideas hacia prejuicios sobre quien habla.', 'Que todos los registros se valoran igual.', 'Que la pronunciación no comunica nada.'], 1, 'El prejuicio puede condicionar cómo se interpreta a la persona antes de escuchar su argumento.'),
+      q('¿Qué demuestra una persona que sabe cambiar de registro?', ['Que ha renunciado a su identidad.', 'Que no tiene una forma propia de hablar.', 'Flexibilidad comunicativa según el contexto.', 'Que solo puede usar lenguaje formal.'], 2, 'La capacidad de adaptar el registro amplía las posibilidades de comunicación.'),
+      q('¿Cuál es la postura final del texto?', ['La corrección formal debe desaparecer.', 'Toda forma de hablar sirve para cualquier contexto.', 'La corrección es útil, pero no justifica despreciar variedades lingüísticas.', 'Solo la norma escrita es legítima.'], 2, 'El texto defiende tanto la formación formal como la dignidad de las variedades locales.')
+    ]
+  },
+  'periodismo-de-investigacion': {
+    genre: 'artículo de divulgación',
+    title: 'Cuando el calor también entra al aula',
+    angle: 'El cambio climático afecta la educación y la salud mediante condiciones cotidianas, desigualdades y capacidad de respuesta.',
+    text: `El cambio climático suele aparecer en conversaciones públicas a través de imágenes extremas: un huracán, una inundación o una playa cubierta de sargazo. Sin embargo, también se manifiesta de formas menos espectaculares y más cotidianas. Un aula con temperaturas difíciles de soportar, una familia que debe reorganizar su rutina por lluvias intensas o una comunidad que interrumpe sus actividades por falta de agua son experiencias que afectan directamente la educación, la salud y el bienestar.
+
+República Dominicana, como pequeño Estado insular, enfrenta riesgos climáticos que no pueden analizarse solo como problemas ambientales. El PNUD ha señalado que los efectos del cambio climático afectan el desarrollo social, económico y ambiental del país, y que la adaptación requiere respuestas coordinadas.[1] Su informe de salud y adaptación climática de 2025 examina riesgos vinculados a enfermedades sensibles al clima, problemas respiratorios, enfermedades transmitidas por vectores y salud mental.[2]
+
+Esta relación entre clima y vida cotidiana importa especialmente para jóvenes y estudiantes. Cuando una escuela carece de condiciones adecuadas frente al calor, concentrarse deja de ser únicamente una cuestión de disciplina. Cuando el transporte se altera por lluvias o una familia pierde ingresos después de un evento climático, estudiar puede quedar relegado por necesidades urgentes. Hablar de resiliencia no significa pedir a las personas que “se adapten” solas; significa preguntarse qué infraestructuras, servicios y planes reducen realmente su vulnerabilidad.
+
+Las soluciones tampoco se limitan a grandes obras. El diseño de sombra en patios escolares, la gestión de residuos, el acceso a agua segura, la información de prevención y la participación comunitaria pueden producir efectos concretos. El punto decisivo es evitar una mirada que separe el ambiente de la justicia social. Las comunidades con menos recursos suelen tener menor capacidad para protegerse, recuperarse o trasladarse cuando ocurre una emergencia.
+
+Para una generación que crecerá con estos cambios, la educación climática no debería limitarse a memorizar definiciones. Debe ayudar a interpretar datos, reconocer desigualdades y participar en decisiones locales. La pregunta no es solo cuánto aumentará la temperatura, sino quién podrá proteger su salud, continuar sus estudios y conservar sus medios de vida cuando el clima cambie.`,
+    referenceKeys: ['undpClimateDominicanRepublic', 'undpClimateHealthDominicanRepublic'],
+    exercises: [
+      q('¿Qué ejemplos usa el texto para mostrar efectos cotidianos del cambio climático?', ['Solo huracanes internacionales.', 'Aulas calurosas, lluvias que alteran rutinas y falta de agua.', 'Únicamente cambios en la playa.', 'Tecnologías de inteligencia artificial.'], 1, 'El texto amplía la mirada hacia situaciones ordinarias que afectan la vida diaria.'),
+      q('¿Cómo relaciona el texto clima, salud y educación?', ['Como temas completamente separados.', 'Como dimensiones que pueden afectarse mutuamente en la vida cotidiana.', 'Como problemas que solo ocurren en zonas rurales.', 'Como asuntos resueltos por una única institución.'], 1, 'Las condiciones climáticas pueden afectar bienestar, transporte, ingresos y continuidad educativa.'),
+      q('¿Qué rechaza el texto al hablar de resiliencia?', ['La prevención comunitaria.', 'Que las personas deban adaptarse solas a los riesgos.', 'El acceso al agua segura.', 'La educación climática.'], 1, 'La resiliencia requiere infraestructura, servicios y planes, no solo esfuerzo individual.'),
+      q('¿Cuál de estas medidas coincide con las propuestas del texto?', ['Eliminar toda actividad al aire libre.', 'Diseñar sombra, mejorar el acceso al agua y compartir información preventiva.', 'Esperar a que ocurra una emergencia.', 'Tratar el ambiente sin considerar desigualdad.'], 1, 'El texto propone medidas concretas y conectadas con la justicia social.'),
+      q('¿Cuál es la idea central de la conclusión?', ['La educación climática debe limitarse a definiciones.', 'El cambio climático no afecta los estudios.', 'Comprender el clima implica reconocer desigualdades y participar en decisiones locales.', 'Solo importa medir la temperatura.'], 2, 'La lectura invita a relacionar datos climáticos, derechos y acción comunitaria.')
+    ]
+  }
+};
+
+// Remaining C1/C2 readings use distinct public-interest cases rather than a
+// recurring fictional cast. The shared editorial frame keeps evidence and
+// limitations visible while each entry supplies its own factual tension.
+const ADVANCED_READING_BLUEPRINTS = {
+  C1: {
+    'justicia-y-reparacion': ['Después de una vulneración de derechos, una disculpa pública puede ser necesaria, pero rara vez basta por sí sola.', 'La reparación exige discutir qué se reconoce, quién asume responsabilidades, cómo se repara un daño material y qué cambios impiden que vuelva a ocurrir.', 'reparación, reconocimiento y garantías de no repetición', ['educationTrends']],
+    'innovacion-responsable': ['Una institución anuncia un sistema automatizado para priorizar ayudas, admisiones o alertas tempranas.', 'La promesa de rapidez no responde por sí sola a preguntas sobre sesgo, explicaciones comprensibles, supervisión humana y posibilidad de corregir decisiones.', 'utilidad, transparencia y supervisión humana', ['aiStudents', 'undpAiDominicanRepublic']],
+    'literatura-y-voz': ['Las redes han hecho más visible la conversación sobre ansiedad, agotamiento y bienestar emocional.', 'Esa visibilidad puede reducir el estigma, pero también convierte experiencias complejas en etiquetas rápidas, consejos sin contexto o contenido diseñado para retener atención.', 'apoyo, cuidado y límites de la exposición digital', ['adolescentMentalHealth', 'teensScreens']],
+    'economia-y-cuidados': ['Muchas decisiones sobre estudio, empleo o descanso dependen de horas que no aparecen en una nómina: acompañar a un familiar, cuidar hermanos o sostener un hogar.', 'Cuando ese trabajo se presenta como una obligación privada, se ocultan sus efectos sobre tiempo disponible, ingresos, continuidad educativa y salud.', 'corresponsabilidad y reconocimiento del trabajo de cuidados', ['educationTrends']],
+    'diversidad-del-espanol': ['Las plataformas conectan voces de distintos países, pero también amplifican la idea de que existe un único español neutral.', 'La comprensión mutua no requiere borrar acentos ni regionalismos; requiere reconocer el contexto, negociar significado y evitar convertir una variedad en medida de inteligencia.', 'diversidad, adecuación y respeto lingüístico', ['academyDominicanSpanish']],
+    'diplomacia-y-negociacion': ['En debates públicos polarizados, el desacuerdo suele presentarse como una prueba de lealtad a un bando.', 'Una negociación seria no pide fingir que no hay conflicto: obliga a separar posiciones, intereses, datos verificables y condiciones mínimas para cualquier acuerdo.', 'mediación, criterios compartidos y rendición de cuentas', ['mediaLiteracy']],
+    'critica-cultural': ['Una canción, una serie o un video puede alcanzar millones de reproducciones porque un algoritmo lo recomienda, no porque el público haya tenido acceso a un catálogo amplio.', 'Las recomendaciones facilitan descubrir obras, pero también concentran visibilidad y vuelven opacos los criterios con que se decide qué aparece primero.', 'diversidad cultural y transparencia de las recomendaciones', ['unescoAiStudentsSpanish']],
+    'politicas-publicas': ['Un programa juvenil puede anunciar miles de participantes y aun así no demostrar que transformó sus oportunidades.', 'Contar asistencia es distinto de medir continuidad, aprendizaje, acceso equitativo y efectos sostenidos; por eso una evaluación debe explicar qué indicador usa y qué no puede concluir.', 'resultados, límites metodológicos y decisiones informadas', ['undpEducationDominicanRepublic']],
+    'coloquio-academico': ['La participación juvenil aparece con frecuencia en foros, consultas y campañas institucionales.', 'El desafío es distinguir entre escuchar una opinión y permitir que esa opinión modifique una decisión, un presupuesto o una norma.', 'incidencia real, representación y seguimiento público', ['undpEducationDominicanRepublic']]
+  },
+  C2: {
+    'ambiguedad-y-sentido': ['Durante una emergencia, un mensaje breve puede ser útil y, al mismo tiempo, peligroso si deja sin explicar qué se sabe, qué se infiere y qué sigue siendo incierto.', 'La comunicación responsable no elimina la incertidumbre: la nombra, sitúa sus fuentes y evita que una advertencia razonable se convierta en rumor.', 'precisión, incertidumbre y confianza pública', ['mediaLiteracy']],
+    'humor-e-ironia': ['Una broma viaja por redes más rápido que el contexto que la hacía inteligible.', 'La ironía depende de quién habla, quién recibe el mensaje, qué desigualdades están en juego y si quienes son objeto de la burla pueden responder.', 'humor, poder y responsabilidad comunicativa', ['mediaLiteracy']],
+    'traduccion-y-mediacion': ['Migrar implica traducir formularios, normas, recuerdos y maneras de nombrar lo cotidiano.', 'La mediación de calidad no convierte las diferencias culturales en errores: explica lo necesario, conserva matices y reconoce qué pierde una equivalencia apresurada.', 'traducción, dignidad y comprensión intercultural', ['educationTrends']],
+    'filosofia-del-lenguaje': ['Palabras como seguridad, mérito, desarrollo o comunidad parecen transparentes hasta que se usan para decidir quién recibe recursos o protección.', 'Nombrar un problema no es un gesto neutral: cada categoría destaca relaciones, deja otras fuera y orienta las soluciones que parecen razonables.', 'lenguaje, poder e inferencias públicas', ['mediaLiteracy']],
+    'analisis-juridico': ['Aceptar una política de privacidad con un clic suele sentirse como un acto menor, aunque autoriza usos de datos que pueden durar mucho más que la pantalla inicial.', 'El consentimiento solo es significativo cuando la finalidad, el alcance y las alternativas se explican de forma comprensible y proporcional.', 'privacidad, consentimiento y proporcionalidad', ['unescoAiStudentsSpanish']],
+    'edicion-de-estilo': ['Una herramienta puede corregir una frase, resumir un párrafo o proponer una estructura en segundos.', 'La edición responsable no consiste en aceptar cada sugerencia, sino en decidir qué mejora la claridad y qué borra matices, autoría o posición argumentativa.', 'autoría, revisión y criterio editorial', ['unescoAiStudentsSpanish']],
+    'debate-epistemico': ['Una publicación viral puede presentar un resultado científico como definitivo aunque proceda de una muestra pequeña, una correlación o un estudio aún no replicado.', 'La cautela no significa negar la ciencia: significa graduar lo que puede afirmarse, distinguir hallazgo de aplicación y dejar visibles los límites del método.', 'evidencia, replicabilidad y responsabilidad discursiva', ['aiStudents']],
+    'estetica-y-interpretacion': ['El turismo puede sostener empleos y también transformar barrios, precios y prácticas culturales hasta volver difícil la vida cotidiana de quienes los habitan.', 'Una mirada crítica debe comparar beneficios, costos y quién tiene capacidad de decidir cómo se conserva y se muestra el patrimonio.', 'patrimonio, sostenibilidad y derecho a habitar', ['undpClimateDominicanRepublic']],
+    'discurso-cientifico': ['La neuroplasticidad adulta se usa a menudo como una promesa absoluta: aprender siempre sería fácil si se aplica la técnica correcta.', 'La evidencia es más interesante y más exigente: el cerebro conserva capacidad de cambio, pero los resultados dependen de experiencia, práctica, condiciones de vida y tarea.', 'divulgación rigurosa y límites de la evidencia', ['aiStudents']],
+    'mediacion-de-conflictos': ['La gestión del agua reúne necesidades que no desaparecen al repetir consignas: consumo doméstico, agricultura, turismo, salud pública y protección de ecosistemas.', 'Una negociación útil debe transformar la disputa por posiciones en preguntas sobre acceso, información, prioridades y responsabilidades compartidas.', 'agua, desigualdad y acuerdos verificables', ['undpClimateDominicanRepublic', 'undpClimateHealthDominicanRepublic']],
+    'ensayo-de-alta-exigencia': ['La atención humana se ha convertido en un recurso que plataformas, medios, escuelas y anunciantes intentan organizar.', 'No basta con atribuir la distracción a una debilidad individual: el diseño de notificaciones, métricas y recomendaciones puede condicionar qué se ve, cuánto tiempo se permanece y qué conversaciones se vuelven posibles.', 'atención, autonomía y diseño de plataformas', ['teensScreens', 'socialConnection']],
+    'defensa-y-sintesis': ['Los desafíos climáticos, tecnológicos y sociales se presentan a menudo como si una solución única pudiera resolverlos.', 'Una conclusión rigurosa debe integrar evidencia diversa, reconocer intereses en conflicto y explicar qué datos la modificarían sin renunciar por ello a una posición razonada.', 'síntesis, incertidumbre y responsabilidad pública', ['undpClimateDominicanRepublic', 'undpAiDominicanRepublic']]
+  }
+};
+
+function buildBlueprintReading(level, slug, spec) {
+  const blueprint = ADVANCED_READING_BLUEPRINTS[level]?.[slug];
+  if (!blueprint) return null;
+  const [, unitTitle, scenario, objective, grammar, words] = spec;
+  const [opening, tension, focus, referenceKeys] = blueprint;
+  const title = READING_PROFILES[level][slug][1];
+  const genre = READING_PROFILES[level][slug][0];
+  const expertLens = level === 'C2'
+    ? `\n\nHay además una dificultad de segundo orden: los marcos con que se mide el problema pueden inclinar la conclusión. Un indicador hace visible una parte de la realidad y puede dejar otra fuera; una fuente autorizada merece atención, pero no elimina la necesidad de examinar su método, su alcance y sus intereses. El lector experto no busca una neutralidad imposible, sino criterios explícitos para comparar argumentos.`
+    : '';
+  const evidenceLens = `\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.`;
+  const actionLens = `\n\nEsto tiene consecuencias prácticas. Las decisiones sobre ${scenario.toLowerCase()} deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.`;
+  const text = `${opening}\n\n${tension}\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «${words[0]}», «${words[1]}» y «${words[2]}» no son adornos: permiten describir el problema con mayor precisión.${evidenceLens}\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, ${grammar} ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.${expertLens}${actionLens}\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: ${objective.toLowerCase()}. Hablar de ${focus} supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.`;
+  const exercises = [
+    q('¿Cuál es el problema central que analiza la lectura?', [focus, 'Un asunto sin relación con la unidad', 'Una anécdota privada sin consecuencias', 'Una definición aislada'], 0, 'La lectura organiza el análisis alrededor de ese problema público.'),
+    q('¿Qué exige el texto antes de aceptar una conclusión?', ['Distinguir fuentes, experiencias y preguntas abiertas', 'Elegir la primera opinión disponible', 'Evitar cualquier dato', 'Reducir el tema a una sola causa'], 0, 'El texto propone una lectura crítica y verificable.'),
+    q('¿Qué simplificación rechaza explícitamente?', ['Considerar beneficios, costos y condiciones', 'Tratar todo cambio como amenaza o como mejora automática', 'Usar vocabulario preciso', 'Reconocer incertidumbre'], 1, 'El texto rechaza tanto el alarmismo automático como el entusiasmo sin condiciones.'),
+    q('¿Qué función cumple la gramática de la unidad?', ['Formular reservas, hipótesis y consecuencias con precisión', 'Eliminar toda postura del texto', 'Sustituir el análisis de fuentes', 'Memorizar palabras sin contexto'], 0, 'La estructura gramatical permite matizar una tesis compleja.'),
+    q('¿Cómo se presenta la conclusión?', ['Como una certeza que no admite revisión', 'Como una posición revisable basada en evidencia y responsabilidades', 'Como una opinión sin razones', 'Como una decisión exclusivamente técnica'], 1, 'La lectura defiende una conclusión razonada, abierta a nueva evidencia.')
+  ];
+  return { title, genre, angle: opening, text, references: referenceKeys.map((key) => SPANISH_REFERENCE_LIBRARY[key]), exercises };
+}
 
 const READING_REFERENCE_KEYS = {
   'medios-y-noticias': ['mediaLiteracy'],
@@ -470,6 +674,18 @@ function readingReferences(slug) {
 
 function buildProgressiveReading(level, spec, index) {
   const [slug, unitTitle, scenario, objective, grammar, words] = spec;
+  const authoredReading = level === 'C1' ? AUTHORED_C1_READINGS[slug] : null;
+  if (authoredReading) {
+    return {
+      title: authoredReading.title,
+      genre: authoredReading.genre,
+      angle: authoredReading.angle,
+      text: authoredReading.text,
+      references: authoredReading.referenceKeys.map((key) => SPANISH_REFERENCE_LIBRARY[key])
+    };
+  }
+  const blueprintReading = buildBlueprintReading(level, slug, spec);
+  if (blueprintReading) return blueprintReading;
   if (level === 'A2') {
     const narrator = index % 2 ? 'Lucía' : 'Mateo';
     return {
@@ -539,8 +755,95 @@ function grammarModel(grammar, words, scenario) {
   return `Aunque «${words[0]}» parece una decisión individual, conviene considerar «${words[1]}» y «${words[2]}».`;
 }
 
-function buildAlignedListening(level, spec, readingContent) {
-  const [, title, scenario, objective, grammar, words] = spec;
+const ADVANCED_LISTENING_FORMATS = {
+  C1: ['columna de análisis', 'podcast de sociedad', 'reportaje educativo', 'comentario jurídico', 'entrevista de radio resumida', 'crónica cultural', 'podcast de economía cotidiana', 'documental lingüístico', 'mediación pública', 'reseña cultural', 'informe ciudadano', 'ponencia académica'],
+  C2: ['editorial crítico', 'ensayo sonoro', 'crónica de mediación', 'seminario de ideas', 'análisis jurídico', 'taller de edición', 'debate epistemológico', 'crítica de arte', 'cápsula científica', 'mediación pública', 'ensayo argumentativo', 'defensa oral']
+};
+
+function countListeningWords(text) {
+  return String(text).trim().split(/\s+/).filter(Boolean).length;
+}
+
+function buildAdvancedListening(level, spec, readingContent, index = 0) {
+  const [, unitTitle, scenario, objective, grammar, words] = spec;
+  const model = grammarModel(grammar, words, scenario);
+  const firstParagraph = String(readingContent.text || '').split(/\n\s*\n/)[0] || readingContent.angle;
+  const expertLens = level === 'C2'
+    ? 'También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría.'
+    : 'Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.';
+  const c2ListeningLens = level === 'C2'
+    ? 'Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada.'
+    : '';
+  const format = ADVANCED_LISTENING_FORMATS[level][index] || 'análisis sonoro';
+  const progressiveTarget = level === 'C2' ? 335 + index * 10 : 305 + index * 10;
+  const transcriptParts = [
+    // English and French C1-C2 start with the subject itself, not with a
+    // repeated instruction announcing what the audio will analyse. Keep the
+    // production format in the metadata and let every Spanish monologue open
+    // with its own scene, claim or question from the paired Reading.
+    firstParagraph,
+    `El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «${words[0]}», «${words[1]}» y «${words[2]}». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.`,
+    `La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. ${model}`,
+    `Desde esta perspectiva, ${objective.toLowerCase()} no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. ${expertLens} ${c2ListeningLens}`,
+    `La idea final es clara: hablar de ${unitTitle.toLowerCase()} implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«${words[3]}», «${words[4]}» y «${words[5]}»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla?`
+  ];
+  const progressionLayers = [
+    `En una pieza de tipo «${format}», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola.`,
+    `También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos.`,
+    `Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada.`
+  ];
+  for (const layer of progressionLayers) {
+    if (countListeningWords(transcriptParts.join(' ')) >= progressiveTarget) break;
+    transcriptParts.push(layer);
+  }
+  const transcript = transcriptParts.join(' ');
+  const exercises = [
+    q('¿Cuál es el propósito principal del audio?', ['Analizar el tema con evidencia, contexto y matices', 'Memorizar una lista sin relación con la unidad', 'Contar una historia sin conexión con el Reading', 'Dar una única respuesta definitiva'], 0, 'El audio adapta el Reading para analizarlo de forma crítica.'),
+    q('¿Qué recomienda hacer ante una afirmación convincente?', ['Aceptarla de inmediato', 'Preguntar por fuentes, personas afectadas y consecuencias', 'Evitar toda comparación', 'Copiarla sin revisar'], 1, 'El audio insiste en comprobar el origen, el impacto y el contexto de la información.'),
+    q('¿Para qué se usa la gramática de la unidad?', ['Para formular una idea con precisión y reservas', 'Para eliminar toda postura', 'Para repetir palabras aisladas', 'Para evitar reconocer límites'], 0, 'La estructura gramatical sirve para matizar hipótesis y conclusiones.'),
+    q('¿Qué pregunta final propone el audio?', ['Qué aplicación es más rápida', 'Qué evidencia sostendría o modificaría una postura', 'Cómo evitar cualquier debate', 'Qué palabra es más difícil de pronunciar'], 1, 'La pregunta final invita a justificar y revisar una conclusión.')
+  ];
+  return {
+    title: `Escucha · ${readingContent.title}`,
+    description: `Crónica de audio conectada con el Reading «${readingContent.title}».`,
+    intro: 'Escucha una adaptación integral del tema antes de consultar la transcripción.',
+    mission: `Reconoce cómo el vocabulario y ${grammar} organizan una explicación oral compleja.`,
+    transcript,
+    phrases: [words[0], words[1], words[2], model],
+    exercises
+  };
+}
+
+function buildAlignedListening(level, spec, readingContent, index = 0) {
+  const [slug, title, scenario, objective, grammar, words] = spec;
+  const authoredTranscript = B1_B2_LISTENING_TRANSCRIPTS[level]?.[slug];
+  if (authoredTranscript) {
+    const format = B1_B2_LISTENING_FORMATS[level]?.[slug] || {
+      label: 'Monólogo guiado',
+      opening: ''
+    };
+    const model = grammarModel(grammar, words, scenario);
+    const exercises = [
+      q('¿Cuál es el tema principal del monólogo?', [scenario, 'Una historia sin relación con la unidad', 'Un anuncio de productos', 'Una conversación imaginaria'], 0, 'La persona narra una situación concreta que corresponde al tema de la unidad.'),
+      q('¿Qué hace la persona antes de llegar a una conclusión?', ['Relaciona hechos, contexto y una decisión concreta', 'Memoriza una lista de palabras aisladas', 'Evita considerar otras opciones', 'Repite una opinión ajena'], 0, 'El monólogo muestra una reflexión construida a partir de una experiencia realista.'),
+      q('¿Qué recurso de la unidad ayuda a expresar la experiencia?', [grammar, 'El alfabeto aislado', 'Los números cardinales', 'La ortografía de nombres propios'], 0, `El texto incluye ${grammar} en un contexto comunicativo.`),
+      q('¿Qué intención tiene la conclusión?', [objective, 'Cerrar la conversación sin razones', 'Cambiar de tema sin explicar nada', 'Memorizar una regla sin usarla'], 0, 'La conclusión recupera el propósito comunicativo de la unidad.')
+    ];
+    return {
+      title: `Escucha · ${readingContent.title}`,
+      description: `${format.label}: audio de una sola voz conectado con el Reading «${readingContent.title}».`,
+      intro: `Escucha este ${format.label.toLowerCase()} completo; después despliega el texto para comprobar los detalles.`,
+      mission: `Reconoce cómo ${grammar} y el vocabulario de ${title.toLowerCase()} organizan una experiencia oral.`,
+      transcript: [
+        format.opening,
+        authoredTranscript,
+        B1_B2_LISTENING_PROGRESSIVE_EXTENSIONS[level]?.[slug]
+      ].filter(Boolean).join(' '),
+      phrases: [words[0], words[1], words[2], model],
+      exercises
+    };
+  }
+  if (level === 'C1' || level === 'C2') return buildAdvancedListening(level, spec, readingContent, index);
   const model = grammarModel(grammar, words, scenario);
   const transcript = [
     `Hoy quiero reflexionar sobre «${readingContent.title}». ${readingContent.angle || scenario} No se trata solo de una experiencia individual: también intervienen las condiciones en que estudiamos, trabajamos o convivimos.`,
@@ -576,7 +879,11 @@ function buildAlignedGrammarExercises(spec) {
 }
 
 function buildReadingExercises(level, spec, readingContent) {
-  const [, unitTitle, scenario, objective, grammar, words] = spec;
+  const [slug, unitTitle, scenario, objective, grammar, words] = spec;
+  const authoredReading = level === 'C1' ? AUTHORED_C1_READINGS[slug] : null;
+  if (authoredReading) return authoredReading.exercises;
+  const blueprintReading = buildBlueprintReading(level, slug, spec);
+  if (blueprintReading) return blueprintReading.exercises;
   if (level === 'A2') {
     return [
       q('¿Qué situación necesita resolver la persona que narra?', [scenario, 'Preparar un examen sin instrucciones', 'Organizar una competición deportiva', 'Cambiar de escuela'], 0, 'El primer párrafo presenta la situación cotidiana de la unidad.'),
@@ -612,7 +919,7 @@ function buildUnit(level, spec, index) {
   const person = index % 2 ? 'Lucía' : 'Mateo';
   const authoredListening = level === 'A2' ? A2_LISTENING_SCRIPTS[slug] : null;
   const readingContent = buildProgressiveReading(level, spec, index);
-  const alignedListening = authoredListening ? null : buildAlignedListening(level, spec, readingContent);
+  const alignedListening = authoredListening ? null : buildAlignedListening(level, spec, readingContent, index);
   const text = readingContent.text;
   const readingExercises = buildReadingExercises(level, spec, readingContent);
   const listeningExercises = authoredListening?.exercises || alignedListening.exercises;
@@ -674,6 +981,7 @@ function buildUnit(level, spec, index) {
         listeningComprehension: {
           id: `spanish-${level.toLowerCase()}-${slug}-listening-comprehension`,
           passingScore: 70,
+          editoriallyReviewed: level === 'C1' || level === 'C2',
           questions: listeningExercises.map((exercise, exerciseIndex) => ({
             id: `l${exerciseIndex + 1}`,
             type: 'mcq',
