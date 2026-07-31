@@ -4951,12 +4951,12 @@
     "slug": "memoria-y-relato",
     "target_language": "spanish",
     "level": "C1",
-    "title": "IA y educación",
-    "title_es": "IA y educación",
-    "description": "Analizar usos de inteligencia artificial en el aprendizaje",
+    "title": "¿La inteligencia artificial está cambiando nuestra manera de pensar?",
+    "title_es": "¿La inteligencia artificial está cambiando nuestra manera de pensar?",
+    "description": "Explorar cómo la IA transforma la memoria, el criterio y la toma de decisiones",
     "order_index": 1,
     "unit_overview": {
-      "objective": "Evaluar una herramienta sin sustituir la autonomía intelectual",
+      "objective": "Usar herramientas de IA sin renunciar al pensamiento crítico",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -4974,19 +4974,19 @@
         "trazabilidad",
         "criterio"
       ],
-      "scenario": "Analizar usos de inteligencia artificial en el aprendizaje"
+      "scenario": "Explorar cómo la IA transforma la memoria, el criterio y la toma de decisiones"
     }
   },
   {
     "slug": "retorica-publica",
     "target_language": "spanish",
     "level": "C1",
-    "title": "Español dominicano y registros",
-    "title_es": "Español dominicano y registros",
-    "description": "Examinar prejuicios sobre acentos y formas de hablar",
+    "title": "De empleado a emprendedor digital: una historia de reinvención",
+    "title_es": "De empleado a emprendedor digital: una historia de reinvención",
+    "description": "Escuchar el recorrido de una persona que rediseñó su vida profesional",
     "order_index": 2,
     "unit_overview": {
-      "objective": "Distinguir variedad, registro y adecuación sin establecer jerarquías",
+      "objective": "Interpretar decisiones, riesgos y cambios de identidad laboral",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -4997,26 +4997,26 @@
         "variación, registro y adecuación pragmática"
       ],
       "vocabulary": [
-        "variedad",
-        "rasgo",
-        "hablante",
-        "prestigio",
-        "regionalismo",
-        "adecuación"
+        "reinventarse",
+        "incertidumbre",
+        "proyecto",
+        "riesgo",
+        "aprendizaje",
+        "trayectoria"
       ],
-      "scenario": "Examinar prejuicios sobre acentos y formas de hablar"
+      "scenario": "Escuchar el recorrido de una persona que rediseñó su vida profesional"
     }
   },
   {
     "slug": "periodismo-de-investigacion",
     "target_language": "spanish",
     "level": "C1",
-    "title": "Clima, salud y resiliencia",
-    "title_es": "Clima, salud y resiliencia",
-    "description": "Relacionar cambio climático, bienestar y educación",
+    "title": "El día que Internet desapareció durante 24 horas",
+    "title_es": "El día que Internet desapareció durante 24 horas",
+    "description": "Seguir las consecuencias cotidianas de una caída total de conexión",
     "order_index": 3,
     "unit_overview": {
-      "objective": "Interpretar riesgos climáticos y respuestas colectivas con perspectiva social",
+      "objective": "Relacionar dependencia digital, servicios esenciales y respuestas colectivas",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -5027,26 +5027,26 @@
         "conectores causales, consecutivos y concesivos"
       ],
       "vocabulary": [
-        "vulnerabilidad",
-        "adaptación",
-        "resiliencia",
+        "conexión",
+        "colapso",
         "infraestructura",
-        "prevención",
-        "desigualdad"
+        "emergencia",
+        "alternativa",
+        "dependencia"
       ],
-      "scenario": "Relacionar cambio climático, bienestar y educación"
+      "scenario": "Seguir las consecuencias cotidianas de una caída total de conexión"
     }
   },
   {
     "slug": "justicia-y-reparacion",
     "target_language": "spanish",
     "level": "C1",
-    "title": "Memoria, justicia y reparación",
-    "title_es": "Memoria, justicia y reparación",
-    "description": "Examinar cómo una sociedad responde a daños históricos",
+    "title": "Vivir un año en otro país cambió mi forma de ver el mundo",
+    "title_es": "Vivir un año en otro país cambió mi forma de ver el mundo",
+    "description": "Conocer un testimonio de adaptación cultural y distancia emocional",
     "order_index": 4,
     "unit_overview": {
-      "objective": "Distinguir reconocimiento simbólico, reparación material y garantías de no repetición",
+      "objective": "Reconocer cómo la experiencia intercultural modifica certezas y pertenencias",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -5057,26 +5057,26 @@
         "subjuntivo en construcciones valorativas"
       ],
       "vocabulary": [
-        "reparación",
-        "agravio",
-        "garantía",
-        "reconocimiento",
-        "responsabilidad",
-        "reconciliación"
+        "desarraigo",
+        "costumbre",
+        "pertenencia",
+        "perspectiva",
+        "adaptación",
+        "contraste"
       ],
-      "scenario": "Examinar cómo una sociedad responde a daños históricos"
+      "scenario": "Conocer un testimonio de adaptación cultural y distancia emocional"
     }
   },
   {
     "slug": "innovacion-responsable",
     "target_language": "spanish",
     "level": "C1",
-    "title": "Tecnología y decisiones públicas",
-    "title_es": "Tecnología y decisiones públicas",
-    "description": "Evaluar sistemas automatizados antes de adoptarlos",
+    "title": "¿Por qué sufrimos el síndrome del impostor?",
+    "title_es": "¿Por qué sufrimos el síndrome del impostor?",
+    "description": "Examinar las dudas que aparecen incluso ante logros comprobables",
     "order_index": 5,
     "unit_overview": {
-      "objective": "Ponderar utilidad, sesgo, supervisión y transparencia",
+      "objective": "Distinguir autoexigencia, inseguridad y evaluación realista",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -5087,26 +5087,26 @@
         "condicionales mixtas y contrafactuales"
       ],
       "vocabulary": [
-        "precaución",
-        "impacto",
-        "despliegue",
-        "sesgo",
-        "supervisión",
-        "trazabilidad"
+        "autoexigencia",
+        "mérito",
+        "inseguridad",
+        "validación",
+        "logro",
+        "percepción"
       ],
-      "scenario": "Evaluar sistemas automatizados antes de adoptarlos"
+      "scenario": "Examinar las dudas que aparecen incluso ante logros comprobables"
     }
   },
   {
     "slug": "literatura-y-voz",
     "target_language": "spanish",
     "level": "C1",
-    "title": "Salud mental en la conversación digital",
-    "title_es": "Salud mental en la conversación digital",
-    "description": "Analizar cómo las redes presentan el malestar emocional",
+    "title": "Cómo una pequeña startup terminó revolucionando una industria",
+    "title_es": "Cómo una pequeña startup terminó revolucionando una industria",
+    "description": "Reconstruir el crecimiento inesperado de una empresa emergente",
     "order_index": 6,
     "unit_overview": {
-      "objective": "Distinguir apoyo, visibilidad y simplificación del sufrimiento",
+      "objective": "Analizar innovación, oportunidad y transformación de un mercado",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -5117,26 +5117,26 @@
         "discurso referido libre y valores verbales"
       ],
       "vocabulary": [
-        "bienestar",
-        "estigma",
-        "acompañamiento",
-        "exposición",
-        "diagnóstico",
-        "cuidado"
+        "startup",
+        "prototipo",
+        "inversión",
+        "escala",
+        "disrupción",
+        "mercado"
       ],
-      "scenario": "Analizar cómo las redes presentan el malestar emocional"
+      "scenario": "Reconstruir el crecimiento inesperado de una empresa emergente"
     }
   },
   {
     "slug": "economia-y-cuidados",
     "target_language": "spanish",
     "level": "C1",
-    "title": "El tiempo de cuidar",
-    "title_es": "El tiempo de cuidar",
-    "description": "Visibilizar trabajos de cuidado poco reconocidos",
+    "title": "¿Trabajar cuatro días a la semana realmente funciona?",
+    "title_es": "¿Trabajar cuatro días a la semana realmente funciona?",
+    "description": "Contrastar productividad, descanso y organización laboral",
     "order_index": 7,
     "unit_overview": {
-      "objective": "Relacionar tiempo, género, oportunidades y política pública",
+      "objective": "Argumentar sobre condiciones y límites de una semana laboral más corta",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -5147,26 +5147,26 @@
         "nominalización y densidad informativa"
       ],
       "vocabulary": [
-        "cuidados",
-        "remuneración",
-        "carga",
-        "corresponsabilidad",
-        "sostener",
-        "invisibilizado"
+        "jornada",
+        "productividad",
+        "descanso",
+        "flexibilidad",
+        "rendimiento",
+        "conciliación"
       ],
-      "scenario": "Visibilizar trabajos de cuidado poco reconocidos"
+      "scenario": "Contrastar productividad, descanso y organización laboral"
     }
   },
   {
     "slug": "diversidad-del-espanol",
     "target_language": "spanish",
     "level": "C1",
-    "title": "Lenguas, acentos y pertenencia",
-    "title_es": "Lenguas, acentos y pertenencia",
-    "description": "Comparar usos de comunidades hispanohablantes",
+    "title": "Dormimos menos que nunca: el costo invisible del cansancio",
+    "title_es": "Dormimos menos que nunca: el costo invisible del cansancio",
+    "description": "Explorar cómo el descanso insuficiente afecta decisiones y relaciones",
     "order_index": 8,
     "unit_overview": {
-      "objective": "Explicar variación sin establecer jerarquías",
+      "objective": "Explicar hábitos, consecuencias y límites del autocuidado",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -5177,26 +5177,26 @@
         "variación, registro y adecuación pragmática"
       ],
       "vocabulary": [
-        "variedad",
-        "rasgo",
-        "hablante",
-        "prestigio",
-        "regionalismo",
-        "adecuación"
+        "sueño",
+        "agotamiento",
+        "rutina",
+        "recuperación",
+        "atención",
+        "bienestar"
       ],
-      "scenario": "Comparar usos de comunidades hispanohablantes"
+      "scenario": "Explorar cómo el descanso insuficiente afecta decisiones y relaciones"
     }
   },
   {
     "slug": "diplomacia-y-negociacion",
     "target_language": "spanish",
     "level": "C1",
-    "title": "Negociar en tiempos de polarización",
-    "title_es": "Negociar en tiempos de polarización",
-    "description": "Analizar desacuerdos públicos sin reducirlos a bandos",
+    "title": "La presión mental detrás del deporte de alto rendimiento",
+    "title_es": "La presión mental detrás del deporte de alto rendimiento",
+    "description": "Escuchar la experiencia de un atleta frente a la exigencia constante",
     "order_index": 9,
     "unit_overview": {
-      "objective": "Reformular posiciones y construir criterios verificables",
+      "objective": "Reconocer el vínculo entre rendimiento, expectativas y salud mental",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -5207,26 +5207,26 @@
         "atenuación y cortesía avanzada"
       ],
       "vocabulary": [
-        "concesión",
-        "mediación",
-        "desacuerdo",
-        "margen",
-        "compromiso",
-        "postura"
+        "presión",
+        "rendimiento",
+        "expectativa",
+        "lesión",
+        "equilibrio",
+        "acompañamiento"
       ],
-      "scenario": "Analizar desacuerdos públicos sin reducirlos a bandos"
+      "scenario": "Escuchar la experiencia de un atleta frente a la exigencia constante"
     }
   },
   {
     "slug": "critica-cultural",
     "target_language": "spanish",
     "level": "C1",
-    "title": "La cultura del algoritmo",
-    "title_es": "La cultura del algoritmo",
-    "description": "Examinar cómo las plataformas recomiendan música y audiovisual",
+    "title": "La decisión que tomé en cinco segundos cambió mi vida",
+    "title_es": "La decisión que tomé en cinco segundos cambió mi vida",
+    "description": "Seguir una narración sobre una elección breve y sus consecuencias",
     "order_index": 10,
     "unit_overview": {
-      "objective": "Valorar diversidad cultural, visibilidad y concentración",
+      "objective": "Interpretar azar, responsabilidad y decisiones bajo presión",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -5237,26 +5237,26 @@
         "adjetivación valorativa y conectores concesivos"
       ],
       "vocabulary": [
-        "recomendación",
-        "catálogo",
-        "visibilidad",
-        "tendencia",
-        "creador",
-        "algoritmo"
+        "instante",
+        "decisión",
+        "consecuencia",
+        "duda",
+        "oportunidad",
+        "rumbo"
       ],
-      "scenario": "Examinar cómo las plataformas recomiendan música y audiovisual"
+      "scenario": "Seguir una narración sobre una elección breve y sus consecuencias"
     }
   },
   {
     "slug": "politicas-publicas",
     "target_language": "spanish",
     "level": "C1",
-    "title": "¿Qué significa que una política funcione?",
-    "title_es": "¿Qué significa que una política funcione?",
-    "description": "Evaluar intervenciones dirigidas a jóvenes",
+    "title": "¿Las redes sociales nos acercan o nos aíslan?",
+    "title_es": "¿Las redes sociales nos acercan o nos aíslan?",
+    "description": "Contrastar vínculos digitales, atención y soledad contemporánea",
     "order_index": 11,
     "unit_overview": {
-      "objective": "Interpretar indicadores, cobertura y resultados sin simplificar",
+      "objective": "Evaluar beneficios y riesgos de la conexión permanente",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -5267,26 +5267,26 @@
         "impersonales, pasivas y lenguaje técnico"
       ],
       "vocabulary": [
-        "indicador",
-        "cobertura",
-        "implementación",
-        "sesgo de selección",
-        "resultado",
-        "evaluación"
+        "vínculo",
+        "aislamiento",
+        "interacción",
+        "presencia",
+        "algoritmo",
+        "comunidad"
       ],
-      "scenario": "Evaluar intervenciones dirigidas a jóvenes"
+      "scenario": "Contrastar vínculos digitales, atención y soledad contemporánea"
     }
   },
   {
     "slug": "coloquio-academico",
     "target_language": "spanish",
     "level": "C1",
-    "title": "Participar sin ser un adorno",
-    "title_es": "Participar sin ser un adorno",
-    "description": "Analizar formas de participación juvenil en decisiones públicas",
+    "title": "Aprender un idioma después de los cincuenta años",
+    "title_es": "Aprender un idioma después de los cincuenta años",
+    "description": "Conocer una historia de aprendizaje adulto y persistencia",
     "order_index": 12,
     "unit_overview": {
-      "objective": "Evaluar consulta, representación e incidencia real",
+      "objective": "Cuestionar prejuicios sobre edad, memoria y aprendizaje",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -5297,26 +5297,26 @@
         "conectores de reformulación y reserva"
       ],
       "vocabulary": [
-        "participación",
-        "consulta",
-        "incidencia",
-        "representación",
-        "propuesta",
-        "rendición de cuentas"
+        "constancia",
+        "memoria",
+        "fluidez",
+        "práctica",
+        "confianza",
+        "progreso"
       ],
-      "scenario": "Analizar formas de participación juvenil en decisiones públicas"
+      "scenario": "Conocer una historia de aprendizaje adulto y persistencia"
     }
   },
   {
     "slug": "ambiguedad-y-sentido",
     "target_language": "spanish",
     "level": "C2",
-    "title": "El Mundial 2026: más que un partido",
-    "title_es": "El Mundial 2026: más que un partido",
-    "description": "Analizar cómo un gran evento deportivo organiza identidad, negocio y ciudad",
+    "title": "Cómo los algoritmos deciden lo que ves cada día",
+    "title_es": "Cómo los algoritmos deciden lo que ves cada día",
+    "description": "Investigar cómo las plataformas ordenan noticias, videos y recomendaciones",
     "order_index": 1,
     "unit_overview": {
-      "objective": "Distinguir celebración colectiva, patrocinio y legado urbano",
+      "objective": "Reconstruir las decisiones invisibles que moldean la atención cotidiana",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -5327,26 +5327,26 @@
         "polisemia, elipsis y ambigüedad sintáctica"
       ],
       "vocabulary": [
-        "afición",
-        "sede",
-        "patrocinio",
-        "identidad",
-        "legado",
-        "representación"
+        "algoritmo",
+        "recomendación",
+        "perfil",
+        "atención",
+        "sesgo",
+        "opacidad"
       ],
-      "scenario": "Analizar cómo un gran evento deportivo organiza identidad, negocio y ciudad"
+      "scenario": "Investigar cómo las plataformas ordenan noticias, videos y recomendaciones"
     }
   },
   {
     "slug": "humor-e-ironia",
     "target_language": "spanish",
     "level": "C2",
-    "title": "Videojuegos: jugar, gastar y pertenecer",
-    "title_es": "Videojuegos: jugar, gastar y pertenecer",
-    "description": "Examinar los incentivos de compra dentro de los videojuegos",
+    "title": "Dentro de una empresa de inteligencia artificial",
+    "title_es": "Dentro de una empresa de inteligencia artificial",
+    "description": "Entrar en las tensiones éticas y operativas de una compañía de IA",
     "order_index": 2,
     "unit_overview": {
-      "objective": "Reconocer diseño persuasivo, presión de grupo y consumo fragmentado",
+      "objective": "Interpretar innovación, competencia y responsabilidad desde dentro",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -5357,26 +5357,26 @@
         "ironía, eco y discurso polifónico"
       ],
       "vocabulary": [
-        "microtransacción",
-        "recompensa",
-        "azar",
-        "comunidad",
-        "impulso",
-        "pertenencia"
+        "modelo",
+        "entrenamiento",
+        "datos",
+        "despliegue",
+        "supervisión",
+        "riesgo"
       ],
-      "scenario": "Examinar los incentivos de compra dentro de los videojuegos"
+      "scenario": "Entrar en las tensiones éticas y operativas de una compañía de IA"
     }
   },
   {
     "slug": "traduccion-y-mediacion",
     "target_language": "spanish",
     "level": "C2",
-    "title": "La música en español viaja distinto",
-    "title_es": "La música en español viaja distinto",
-    "description": "Mediar entre una escena local y una audiencia global",
+    "title": "Un corresponsal de guerra cuenta lo que nunca salió en televisión",
+    "title_es": "Un corresponsal de guerra cuenta lo que nunca salió en televisión",
+    "description": "Escuchar el relato de quien informa desde un conflicto armado",
     "order_index": 3,
     "unit_overview": {
-      "objective": "Reformular identidad cultural sin convertirla en estereotipo",
+      "objective": "Distinguir testimonio, censura, seguridad y responsabilidad periodística",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -5387,26 +5387,26 @@
         "equivalencia pragmática y transposición"
       ],
       "vocabulary": [
-        "escena",
-        "colaboración",
-        "audiencia",
-        "circulación",
-        "repertorio",
-        "pertenencia"
+        "corresponsal",
+        "conflicto",
+        "testimonio",
+        "censura",
+        "fuente",
+        "riesgo"
       ],
-      "scenario": "Mediar entre una escena local y una audiencia global"
+      "scenario": "Escuchar el relato de quien informa desde un conflicto armado"
     }
   },
   {
     "slug": "filosofia-del-lenguaje",
     "target_language": "spanish",
     "level": "C2",
-    "title": "¿Quién tiene derecho a mirar hacia el espacio?",
-    "title_es": "¿Quién tiene derecho a mirar hacia el espacio?",
-    "description": "Examinar cómo la exploración espacial combina ciencia, negocio y cooperación internacional",
+    "title": "La nueva carrera espacial: ¿quién conquistará Marte primero?",
+    "title_es": "La nueva carrera espacial: ¿quién conquistará Marte primero?",
+    "description": "Examinar las ambiciones científicas, comerciales y geopolíticas de Marte",
     "order_index": 4,
     "unit_overview": {
-      "objective": "Detectar los supuestos que presentan el espacio como patrimonio común o como recurso explotable",
+      "objective": "Cuestionar la idea de conquista y sus implicaciones éticas",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -5417,26 +5417,26 @@
         "sustantivación y arquitectura argumental"
       ],
       "vocabulary": [
-        "órbita",
         "misión",
+        "órbita",
+        "exploración",
         "soberanía",
-        "recurso",
         "cooperación",
-        "exploración"
+        "colonización"
       ],
-      "scenario": "Examinar cómo la exploración espacial combina ciencia, negocio y cooperación internacional"
+      "scenario": "Examinar las ambiciones científicas, comerciales y geopolíticas de Marte"
     }
   },
   {
     "slug": "analisis-juridico",
     "target_language": "spanish",
     "level": "C2",
-    "title": "Pagar sin efectivo: comodidad, datos y exclusión",
-    "title_es": "Pagar sin efectivo: comodidad, datos y exclusión",
-    "description": "Interpretar derechos y responsabilidades en sistemas de pago digital",
+    "title": "Viví un año sin redes sociales: esto fue lo que aprendí",
+    "title_es": "Viví un año sin redes sociales: esto fue lo que aprendí",
+    "description": "Escuchar un testimonio sobre desconexión, atención y relaciones",
     "order_index": 5,
     "unit_overview": {
-      "objective": "Distinguir acceso, trazabilidad, comisiones y alternativas de pago",
+      "objective": "Evaluar qué cambia cuando desaparece la exposición permanente",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -5447,26 +5447,26 @@
         "modalidad deóntica y precisión restrictiva"
       ],
       "vocabulary": [
-        "billetera digital",
-        "comisión",
-        "trazabilidad",
-        "acceso",
-        "intermediario",
-        "exclusión"
+        "desconexión",
+        "notificación",
+        "atención",
+        "hábito",
+        "privacidad",
+        "presencia"
       ],
-      "scenario": "Interpretar derechos y responsabilidades en sistemas de pago digital"
+      "scenario": "Escuchar un testimonio sobre desconexión, atención y relaciones"
     }
   },
   {
     "slug": "edicion-de-estilo",
     "target_language": "spanish",
     "level": "C2",
-    "title": "Envejecer en una sociedad acelerada",
-    "title_es": "Envejecer en una sociedad acelerada",
-    "description": "Editar relatos públicos sobre longevidad, autonomía y generaciones",
+    "title": "¿La inteligencia artificial reemplazará las profesiones creativas?",
+    "title_es": "¿La inteligencia artificial reemplazará las profesiones creativas?",
+    "description": "Confrontar posiciones sobre autoría, trabajo y creación asistida",
     "order_index": 6,
     "unit_overview": {
-      "objective": "Mejorar precisión sin convertir la vejez en un problema uniforme",
+      "objective": "Defender una postura compleja sobre creatividad humana y automatización",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -5477,26 +5477,26 @@
         "cohesión avanzada y puntuación discursiva"
       ],
       "vocabulary": [
-        "longevidad",
-        "autonomía",
-        "dependencia",
-        "generación",
-        "cuidado",
-        "accesibilidad"
+        "autoría",
+        "creatividad",
+        "automatización",
+        "encargo",
+        "originalidad",
+        "criterio"
       ],
-      "scenario": "Editar relatos públicos sobre longevidad, autonomía y generaciones"
+      "scenario": "Confrontar posiciones sobre autoría, trabajo y creación asistida"
     }
   },
   {
     "slug": "debate-epistemico",
     "target_language": "spanish",
     "level": "C2",
-    "title": "La basura electrónica no desaparece",
-    "title_es": "La basura electrónica no desaparece",
-    "description": "Evaluar afirmaciones sobre reciclaje, reparación y obsolescencia tecnológica",
+    "title": "El descubrimiento que nadie creyó... hasta que cambió el mundo",
+    "title_es": "El descubrimiento que nadie creyó... hasta que cambió el mundo",
+    "description": "Narrar una hipótesis científica recibida con escepticismo",
     "order_index": 7,
     "unit_overview": {
-      "objective": "Graduar evidencia ambiental, responsabilidad empresarial y hábitos de uso",
+      "objective": "Evaluar evidencia, resistencia institucional y cambio de paradigma",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -5507,26 +5507,26 @@
         "evidencialidad y grados de compromiso"
       ],
       "vocabulary": [
-        "residuo electrónico",
-        "reparación",
-        "obsolescencia",
-        "reciclaje",
-        "cadena de suministro",
-        "responsabilidad"
+        "hipótesis",
+        "evidencia",
+        "experimento",
+        "réplica",
+        "paradigma",
+        "hallazgo"
       ],
-      "scenario": "Evaluar afirmaciones sobre reciclaje, reparación y obsolescencia tecnológica"
+      "scenario": "Narrar una hipótesis científica recibida con escepticismo"
     }
   },
   {
     "slug": "estetica-y-interpretacion",
     "target_language": "spanish",
     "level": "C2",
-    "title": "La transición verde también extrae",
-    "title_es": "La transición verde también extrae",
-    "description": "Comparar narrativas sobre baterías, minerales críticos y energías limpias",
+    "title": "La economía de los creadores: cómo YouTube, TikTok y Spotify generan millones",
+    "title_es": "La economía de los creadores: cómo YouTube, TikTok y Spotify generan millones",
+    "description": "Investigar quién gana y quién depende de las plataformas de contenido",
     "order_index": 8,
     "unit_overview": {
-      "objective": "Integrar reducción de emisiones, derechos laborales y efectos territoriales",
+      "objective": "Analizar visibilidad, monetización y precariedad en la economía digital",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -5537,26 +5537,26 @@
         "metáfora conceptual y lenguaje crítico"
       ],
       "vocabulary": [
-        "mineral crítico",
-        "extracción",
-        "refinación",
-        "transición",
-        "territorio",
-        "trazabilidad"
+        "audiencia",
+        "monetización",
+        "plataforma",
+        "patrocinio",
+        "alcance",
+        "precariedad"
       ],
-      "scenario": "Comparar narrativas sobre baterías, minerales críticos y energías limpias"
+      "scenario": "Investigar quién gana y quién depende de las plataformas de contenido"
     }
   },
   {
     "slug": "discurso-cientifico",
     "target_language": "spanish",
     "level": "C2",
-    "title": "El deporte y las apuestas en línea",
-    "title_es": "El deporte y las apuestas en línea",
-    "description": "Comunicar los riesgos de normalizar apuestas dentro del ocio deportivo",
+    "title": "Sobrevivir a un desastre natural: decisiones que salvan vidas",
+    "title_es": "Sobrevivir a un desastre natural: decisiones que salvan vidas",
+    "description": "Reconstruir decisiones críticas durante una emergencia real",
     "order_index": 9,
     "unit_overview": {
-      "objective": "Distinguir entretenimiento, probabilidad, publicidad y daño potencial",
+      "objective": "Explicar preparación, comunicación y cooperación bajo presión",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -5567,26 +5567,26 @@
         "reformulación explicativa y cautela"
       ],
       "vocabulary": [
-        "cuota",
-        "apuesta",
+        "evacuación",
+        "alerta",
+        "refugio",
         "riesgo",
-        "publicidad",
-        "adicción",
-        "regulación"
+        "coordinación",
+        "resiliencia"
       ],
-      "scenario": "Comunicar los riesgos de normalizar apuestas dentro del ocio deportivo"
+      "scenario": "Reconstruir decisiones críticas durante una emergencia real"
     }
   },
   {
     "slug": "mediacion-de-conflictos",
     "target_language": "spanish",
     "level": "C2",
-    "title": "Migrar para empezar de nuevo",
-    "title_es": "Migrar para empezar de nuevo",
-    "description": "Mediar entre experiencias de movilidad, pertenencia y acceso a servicios",
+    "title": "La vida secreta de un piloto comercial: decisiones a 12 000 metros de altura",
+    "title_es": "La vida secreta de un piloto comercial: decisiones a 12 000 metros de altura",
+    "description": "Conocer la cadena de decisiones detrás de un vuelo seguro",
     "order_index": 10,
     "unit_overview": {
-      "objective": "Detectar barreras administrativas, redes de apoyo y derechos urbanos",
+      "objective": "Interpretar procedimientos, incertidumbre y responsabilidad técnica",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -5597,26 +5597,26 @@
         "atenuación extrema y metapragmática"
       ],
       "vocabulary": [
-        "movilidad",
-        "acogida",
-        "documentación",
-        "arraigo",
-        "servicio",
-        "derecho"
+        "cabina",
+        "turbulencia",
+        "protocolo",
+        "tripulación",
+        "maniobra",
+        "seguridad"
       ],
-      "scenario": "Mediar entre experiencias de movilidad, pertenencia y acceso a servicios"
+      "scenario": "Conocer la cadena de decisiones detrás de un vuelo seguro"
     }
   },
   {
     "slug": "ensayo-de-alta-exigencia",
     "target_language": "spanish",
     "level": "C2",
-    "title": "El agua que llega a la mesa",
-    "title_es": "El agua que llega a la mesa",
-    "description": "Construir una tesis sobre agua, agricultura, alimentos y desigualdad",
+    "title": "¿Por qué algunos recuerdos permanecen para siempre?",
+    "title_es": "¿Por qué algunos recuerdos permanecen para siempre?",
+    "description": "Explorar la relación entre emoción, memoria y narrativa personal",
     "order_index": 11,
     "unit_overview": {
-      "objective": "Controlar evidencia, escalas territoriales y contraargumentación",
+      "objective": "Distinguir recuerdo fiable, reconstrucción y significado emocional",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -5627,26 +5627,26 @@
         "progresión temática y cohesión global"
       ],
       "vocabulary": [
-        "cuenca",
-        "sequía",
-        "riego",
-        "abastecimiento",
-        "desigualdad",
-        "prioridad"
+        "memoria",
+        "emoción",
+        "recuerdo",
+        "consolidación",
+        "evocación",
+        "sesgo"
       ],
-      "scenario": "Construir una tesis sobre agua, agricultura, alimentos y desigualdad"
+      "scenario": "Explorar la relación entre emoción, memoria y narrativa personal"
     }
   },
   {
     "slug": "defensa-y-sintesis",
     "target_language": "spanish",
     "level": "C2",
-    "title": "Cultura latina global: quién cuenta la historia",
-    "title_es": "Cultura latina global: quién cuenta la historia",
-    "description": "Sintetizar el papel de la música, el cine y la gastronomía en la proyección cultural",
+    "title": "Cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global",
+    "title_es": "Cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global",
+    "description": "Seguir la historia de una idea que se vuelve organización mundial",
     "order_index": 12,
     "unit_overview": {
-      "objective": "Defender una conclusión sobre representación, mercado y creación colectiva",
+      "objective": "Sintetizar innovación, estrategia, escala y consecuencias sociales",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -5657,14 +5657,14 @@
         "selección estratégica de todos los recursos C2"
       ],
       "vocabulary": [
-        "circulación",
-        "referente",
-        "industria cultural",
-        "visibilidad",
-        "autoría",
-        "proyección"
+        "idea",
+        "prototipo",
+        "escala",
+        "estrategia",
+        "inversión",
+        "impacto"
       ],
-      "scenario": "Sintetizar el papel de la música, el cine y la gastronomía en la proyección cultural"
+      "scenario": "Seguir la historia de una idea que se vuelve organización mundial"
     }
   }
 ]

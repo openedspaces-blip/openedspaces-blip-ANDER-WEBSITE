@@ -71,18 +71,18 @@ const LEVEL_CURRICULUM = {
     description:
       'Doce unidades avanzadas para interpretar discursos, modular el registro y argumentar con precisión.',
     units: [
-      ['memoria-y-relato', 'IA y educación', 'Analizar usos de inteligencia artificial en el aprendizaje', 'Evaluar una herramienta sin sustituir la autonomía intelectual', 'matización, subordinación concesiva y evidencialidad', ['autonomía', 'sesgo', 'verificar', 'evidencia', 'trazabilidad', 'criterio']],
-      ['retorica-publica', 'Español dominicano y registros', 'Examinar prejuicios sobre acentos y formas de hablar', 'Distinguir variedad, registro y adecuación sin establecer jerarquías', 'variación, registro y adecuación pragmática', ['variedad', 'rasgo', 'hablante', 'prestigio', 'regionalismo', 'adecuación']],
-      ['periodismo-de-investigacion', 'Clima, salud y resiliencia', 'Relacionar cambio climático, bienestar y educación', 'Interpretar riesgos climáticos y respuestas colectivas con perspectiva social', 'conectores causales, consecutivos y concesivos', ['vulnerabilidad', 'adaptación', 'resiliencia', 'infraestructura', 'prevención', 'desigualdad']],
-      ['justicia-y-reparacion', 'Memoria, justicia y reparación', 'Examinar cómo una sociedad responde a daños históricos', 'Distinguir reconocimiento simbólico, reparación material y garantías de no repetición', 'subjuntivo en construcciones valorativas', ['reparación', 'agravio', 'garantía', 'reconocimiento', 'responsabilidad', 'reconciliación']],
-      ['innovacion-responsable', 'Tecnología y decisiones públicas', 'Evaluar sistemas automatizados antes de adoptarlos', 'Ponderar utilidad, sesgo, supervisión y transparencia', 'condicionales mixtas y contrafactuales', ['precaución', 'impacto', 'despliegue', 'sesgo', 'supervisión', 'trazabilidad']],
-      ['literatura-y-voz', 'Salud mental en la conversación digital', 'Analizar cómo las redes presentan el malestar emocional', 'Distinguir apoyo, visibilidad y simplificación del sufrimiento', 'discurso referido libre y valores verbales', ['bienestar', 'estigma', 'acompañamiento', 'exposición', 'diagnóstico', 'cuidado']],
-      ['economia-y-cuidados', 'El tiempo de cuidar', 'Visibilizar trabajos de cuidado poco reconocidos', 'Relacionar tiempo, género, oportunidades y política pública', 'nominalización y densidad informativa', ['cuidados', 'remuneración', 'carga', 'corresponsabilidad', 'sostener', 'invisibilizado']],
-      ['diversidad-del-espanol', 'Lenguas, acentos y pertenencia', 'Comparar usos de comunidades hispanohablantes', 'Explicar variación sin establecer jerarquías', 'variación, registro y adecuación pragmática', ['variedad', 'rasgo', 'hablante', 'prestigio', 'regionalismo', 'adecuación']],
-      ['diplomacia-y-negociacion', 'Negociar en tiempos de polarización', 'Analizar desacuerdos públicos sin reducirlos a bandos', 'Reformular posiciones y construir criterios verificables', 'atenuación y cortesía avanzada', ['concesión', 'mediación', 'desacuerdo', 'margen', 'compromiso', 'postura']],
-      ['critica-cultural', 'La cultura del algoritmo', 'Examinar cómo las plataformas recomiendan música y audiovisual', 'Valorar diversidad cultural, visibilidad y concentración', 'adjetivación valorativa y conectores concesivos', ['recomendación', 'catálogo', 'visibilidad', 'tendencia', 'creador', 'algoritmo']],
-      ['politicas-publicas', '¿Qué significa que una política funcione?', 'Evaluar intervenciones dirigidas a jóvenes', 'Interpretar indicadores, cobertura y resultados sin simplificar', 'impersonales, pasivas y lenguaje técnico', ['indicador', 'cobertura', 'implementación', 'sesgo de selección', 'resultado', 'evaluación']],
-      ['coloquio-academico', 'Participar sin ser un adorno', 'Analizar formas de participación juvenil en decisiones públicas', 'Evaluar consulta, representación e incidencia real', 'conectores de reformulación y reserva', ['participación', 'consulta', 'incidencia', 'representación', 'propuesta', 'rendición de cuentas']]
+      ['memoria-y-relato', '¿La inteligencia artificial está cambiando nuestra manera de pensar?', 'Explorar cómo la IA transforma la memoria, el criterio y la toma de decisiones', 'Usar herramientas de IA sin renunciar al pensamiento crítico', 'matización, subordinación concesiva y evidencialidad', ['autonomía', 'sesgo', 'verificar', 'evidencia', 'trazabilidad', 'criterio']],
+      ['retorica-publica', 'De empleado a emprendedor digital: una historia de reinvención', 'Escuchar el recorrido de una persona que rediseñó su vida profesional', 'Interpretar decisiones, riesgos y cambios de identidad laboral', 'variación, registro y adecuación pragmática', ['reinventarse', 'incertidumbre', 'proyecto', 'riesgo', 'aprendizaje', 'trayectoria']],
+      ['periodismo-de-investigacion', 'El día que Internet desapareció durante 24 horas', 'Seguir las consecuencias cotidianas de una caída total de conexión', 'Relacionar dependencia digital, servicios esenciales y respuestas colectivas', 'conectores causales, consecutivos y concesivos', ['conexión', 'colapso', 'infraestructura', 'emergencia', 'alternativa', 'dependencia']],
+      ['justicia-y-reparacion', 'Vivir un año en otro país cambió mi forma de ver el mundo', 'Conocer un testimonio de adaptación cultural y distancia emocional', 'Reconocer cómo la experiencia intercultural modifica certezas y pertenencias', 'subjuntivo en construcciones valorativas', ['desarraigo', 'costumbre', 'pertenencia', 'perspectiva', 'adaptación', 'contraste']],
+      ['innovacion-responsable', '¿Por qué sufrimos el síndrome del impostor?', 'Examinar las dudas que aparecen incluso ante logros comprobables', 'Distinguir autoexigencia, inseguridad y evaluación realista', 'condicionales mixtas y contrafactuales', ['autoexigencia', 'mérito', 'inseguridad', 'validación', 'logro', 'percepción']],
+      ['literatura-y-voz', 'Cómo una pequeña startup terminó revolucionando una industria', 'Reconstruir el crecimiento inesperado de una empresa emergente', 'Analizar innovación, oportunidad y transformación de un mercado', 'discurso referido libre y valores verbales', ['startup', 'prototipo', 'inversión', 'escala', 'disrupción', 'mercado']],
+      ['economia-y-cuidados', '¿Trabajar cuatro días a la semana realmente funciona?', 'Contrastar productividad, descanso y organización laboral', 'Argumentar sobre condiciones y límites de una semana laboral más corta', 'nominalización y densidad informativa', ['jornada', 'productividad', 'descanso', 'flexibilidad', 'rendimiento', 'conciliación']],
+      ['diversidad-del-espanol', 'Dormimos menos que nunca: el costo invisible del cansancio', 'Explorar cómo el descanso insuficiente afecta decisiones y relaciones', 'Explicar hábitos, consecuencias y límites del autocuidado', 'variación, registro y adecuación pragmática', ['sueño', 'agotamiento', 'rutina', 'recuperación', 'atención', 'bienestar']],
+      ['diplomacia-y-negociacion', 'La presión mental detrás del deporte de alto rendimiento', 'Escuchar la experiencia de un atleta frente a la exigencia constante', 'Reconocer el vínculo entre rendimiento, expectativas y salud mental', 'atenuación y cortesía avanzada', ['presión', 'rendimiento', 'expectativa', 'lesión', 'equilibrio', 'acompañamiento']],
+      ['critica-cultural', 'La decisión que tomé en cinco segundos cambió mi vida', 'Seguir una narración sobre una elección breve y sus consecuencias', 'Interpretar azar, responsabilidad y decisiones bajo presión', 'adjetivación valorativa y conectores concesivos', ['instante', 'decisión', 'consecuencia', 'duda', 'oportunidad', 'rumbo']],
+      ['politicas-publicas', '¿Las redes sociales nos acercan o nos aíslan?', 'Contrastar vínculos digitales, atención y soledad contemporánea', 'Evaluar beneficios y riesgos de la conexión permanente', 'impersonales, pasivas y lenguaje técnico', ['vínculo', 'aislamiento', 'interacción', 'presencia', 'algoritmo', 'comunidad']],
+      ['coloquio-academico', 'Aprender un idioma después de los cincuenta años', 'Conocer una historia de aprendizaje adulto y persistencia', 'Cuestionar prejuicios sobre edad, memoria y aprendizaje', 'conectores de reformulación y reserva', ['constancia', 'memoria', 'fluidez', 'práctica', 'confianza', 'progreso']]
     ]
   },
   C2: {
@@ -90,18 +90,18 @@ const LEVEL_CURRICULUM = {
     description:
       'Doce unidades de dominio experto centradas en interpretación fina, mediación y producción de alta exigencia.',
     units: [
-      ['ambiguedad-y-sentido', 'El Mundial 2026: más que un partido', 'Analizar cómo un gran evento deportivo organiza identidad, negocio y ciudad', 'Distinguir celebración colectiva, patrocinio y legado urbano', 'polisemia, elipsis y ambigüedad sintáctica', ['afición', 'sede', 'patrocinio', 'identidad', 'legado', 'representación']],
-      ['humor-e-ironia', 'Videojuegos: jugar, gastar y pertenecer', 'Examinar los incentivos de compra dentro de los videojuegos', 'Reconocer diseño persuasivo, presión de grupo y consumo fragmentado', 'ironía, eco y discurso polifónico', ['microtransacción', 'recompensa', 'azar', 'comunidad', 'impulso', 'pertenencia']],
-      ['traduccion-y-mediacion', 'La música en español viaja distinto', 'Mediar entre una escena local y una audiencia global', 'Reformular identidad cultural sin convertirla en estereotipo', 'equivalencia pragmática y transposición', ['escena', 'colaboración', 'audiencia', 'circulación', 'repertorio', 'pertenencia']],
-      ['filosofia-del-lenguaje', '¿Quién tiene derecho a mirar hacia el espacio?', 'Examinar cómo la exploración espacial combina ciencia, negocio y cooperación internacional', 'Detectar los supuestos que presentan el espacio como patrimonio común o como recurso explotable', 'sustantivación y arquitectura argumental', ['órbita', 'misión', 'soberanía', 'recurso', 'cooperación', 'exploración']],
-      ['analisis-juridico', 'Pagar sin efectivo: comodidad, datos y exclusión', 'Interpretar derechos y responsabilidades en sistemas de pago digital', 'Distinguir acceso, trazabilidad, comisiones y alternativas de pago', 'modalidad deóntica y precisión restrictiva', ['billetera digital', 'comisión', 'trazabilidad', 'acceso', 'intermediario', 'exclusión']],
-      ['edicion-de-estilo', 'Envejecer en una sociedad acelerada', 'Editar relatos públicos sobre longevidad, autonomía y generaciones', 'Mejorar precisión sin convertir la vejez en un problema uniforme', 'cohesión avanzada y puntuación discursiva', ['longevidad', 'autonomía', 'dependencia', 'generación', 'cuidado', 'accesibilidad']],
-      ['debate-epistemico', 'La basura electrónica no desaparece', 'Evaluar afirmaciones sobre reciclaje, reparación y obsolescencia tecnológica', 'Graduar evidencia ambiental, responsabilidad empresarial y hábitos de uso', 'evidencialidad y grados de compromiso', ['residuo electrónico', 'reparación', 'obsolescencia', 'reciclaje', 'cadena de suministro', 'responsabilidad']],
-      ['estetica-y-interpretacion', 'La transición verde también extrae', 'Comparar narrativas sobre baterías, minerales críticos y energías limpias', 'Integrar reducción de emisiones, derechos laborales y efectos territoriales', 'metáfora conceptual y lenguaje crítico', ['mineral crítico', 'extracción', 'refinación', 'transición', 'territorio', 'trazabilidad']],
-      ['discurso-cientifico', 'El deporte y las apuestas en línea', 'Comunicar los riesgos de normalizar apuestas dentro del ocio deportivo', 'Distinguir entretenimiento, probabilidad, publicidad y daño potencial', 'reformulación explicativa y cautela', ['cuota', 'apuesta', 'riesgo', 'publicidad', 'adicción', 'regulación']],
-      ['mediacion-de-conflictos', 'Migrar para empezar de nuevo', 'Mediar entre experiencias de movilidad, pertenencia y acceso a servicios', 'Detectar barreras administrativas, redes de apoyo y derechos urbanos', 'atenuación extrema y metapragmática', ['movilidad', 'acogida', 'documentación', 'arraigo', 'servicio', 'derecho']],
-      ['ensayo-de-alta-exigencia', 'El agua que llega a la mesa', 'Construir una tesis sobre agua, agricultura, alimentos y desigualdad', 'Controlar evidencia, escalas territoriales y contraargumentación', 'progresión temática y cohesión global', ['cuenca', 'sequía', 'riego', 'abastecimiento', 'desigualdad', 'prioridad']],
-      ['defensa-y-sintesis', 'Cultura latina global: quién cuenta la historia', 'Sintetizar el papel de la música, el cine y la gastronomía en la proyección cultural', 'Defender una conclusión sobre representación, mercado y creación colectiva', 'selección estratégica de todos los recursos C2', ['circulación', 'referente', 'industria cultural', 'visibilidad', 'autoría', 'proyección']]
+      ['ambiguedad-y-sentido', 'Cómo los algoritmos deciden lo que ves cada día', 'Investigar cómo las plataformas ordenan noticias, videos y recomendaciones', 'Reconstruir las decisiones invisibles que moldean la atención cotidiana', 'polisemia, elipsis y ambigüedad sintáctica', ['algoritmo', 'recomendación', 'perfil', 'atención', 'sesgo', 'opacidad']],
+      ['humor-e-ironia', 'Dentro de una empresa de inteligencia artificial', 'Entrar en las tensiones éticas y operativas de una compañía de IA', 'Interpretar innovación, competencia y responsabilidad desde dentro', 'ironía, eco y discurso polifónico', ['modelo', 'entrenamiento', 'datos', 'despliegue', 'supervisión', 'riesgo']],
+      ['traduccion-y-mediacion', 'Un corresponsal de guerra cuenta lo que nunca salió en televisión', 'Escuchar el relato de quien informa desde un conflicto armado', 'Distinguir testimonio, censura, seguridad y responsabilidad periodística', 'equivalencia pragmática y transposición', ['corresponsal', 'conflicto', 'testimonio', 'censura', 'fuente', 'riesgo']],
+      ['filosofia-del-lenguaje', 'La nueva carrera espacial: ¿quién conquistará Marte primero?', 'Examinar las ambiciones científicas, comerciales y geopolíticas de Marte', 'Cuestionar la idea de conquista y sus implicaciones éticas', 'sustantivación y arquitectura argumental', ['misión', 'órbita', 'exploración', 'soberanía', 'cooperación', 'colonización']],
+      ['analisis-juridico', 'Viví un año sin redes sociales: esto fue lo que aprendí', 'Escuchar un testimonio sobre desconexión, atención y relaciones', 'Evaluar qué cambia cuando desaparece la exposición permanente', 'modalidad deóntica y precisión restrictiva', ['desconexión', 'notificación', 'atención', 'hábito', 'privacidad', 'presencia']],
+      ['edicion-de-estilo', '¿La inteligencia artificial reemplazará las profesiones creativas?', 'Confrontar posiciones sobre autoría, trabajo y creación asistida', 'Defender una postura compleja sobre creatividad humana y automatización', 'cohesión avanzada y puntuación discursiva', ['autoría', 'creatividad', 'automatización', 'encargo', 'originalidad', 'criterio']],
+      ['debate-epistemico', 'El descubrimiento que nadie creyó... hasta que cambió el mundo', 'Narrar una hipótesis científica recibida con escepticismo', 'Evaluar evidencia, resistencia institucional y cambio de paradigma', 'evidencialidad y grados de compromiso', ['hipótesis', 'evidencia', 'experimento', 'réplica', 'paradigma', 'hallazgo']],
+      ['estetica-y-interpretacion', 'La economía de los creadores: cómo YouTube, TikTok y Spotify generan millones', 'Investigar quién gana y quién depende de las plataformas de contenido', 'Analizar visibilidad, monetización y precariedad en la economía digital', 'metáfora conceptual y lenguaje crítico', ['audiencia', 'monetización', 'plataforma', 'patrocinio', 'alcance', 'precariedad']],
+      ['discurso-cientifico', 'Sobrevivir a un desastre natural: decisiones que salvan vidas', 'Reconstruir decisiones críticas durante una emergencia real', 'Explicar preparación, comunicación y cooperación bajo presión', 'reformulación explicativa y cautela', ['evacuación', 'alerta', 'refugio', 'riesgo', 'coordinación', 'resiliencia']],
+      ['mediacion-de-conflictos', 'La vida secreta de un piloto comercial: decisiones a 12 000 metros de altura', 'Conocer la cadena de decisiones detrás de un vuelo seguro', 'Interpretar procedimientos, incertidumbre y responsabilidad técnica', 'atenuación extrema y metapragmática', ['cabina', 'turbulencia', 'protocolo', 'tripulación', 'maniobra', 'seguridad']],
+      ['ensayo-de-alta-exigencia', '¿Por qué algunos recuerdos permanecen para siempre?', 'Explorar la relación entre emoción, memoria y narrativa personal', 'Distinguir recuerdo fiable, reconstrucción y significado emocional', 'progresión temática y cohesión global', ['memoria', 'emoción', 'recuerdo', 'consolidación', 'evocación', 'sesgo']],
+      ['defensa-y-sintesis', 'Cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global', 'Seguir la historia de una idea que se vuelve organización mundial', 'Sintetizar innovación, estrategia, escala y consecuencias sociales', 'selección estratégica de todos los recursos C2', ['idea', 'prototipo', 'escala', 'estrategia', 'inversión', 'impacto']]
     ]
   }
 };
@@ -139,32 +139,32 @@ const READING_PROFILES = {
     'foro-de-propuestas': ['discurso cívico', 'Una propuesta juvenil que resiste preguntas difíciles', 'Un foro escolar exige pasar de consignas atractivas a objetivos medibles, evidencias pertinentes, costes transparentes y objeciones legítimas.']
   },
   C1: {
-    'memoria-y-relato': ['ensayo testimonial', 'Recordar no es reproducir', 'Dos testimonios sobre una protesta estudiantil coinciden en los hechos centrales, pero difieren en silencios, emociones y responsabilidades.'],
-    'retorica-publica': ['análisis discursivo', 'La promesa detrás del pronombre “nosotros”', 'Un discurso dirigido a la juventud construye comunidad mediante metáforas, presuposiciones y oposiciones que deben analizarse antes de aceptar su conclusión.'],
-    'periodismo-de-investigacion': ['reportaje de investigación', 'Seguir el rastro de una decisión automatizada', 'Documentos, entrevistas y registros técnicos permiten examinar por qué una plataforma educativa clasificó de manera desigual a distintos estudiantes.'],
-    'justicia-y-reparacion': ['ensayo histórico-social', 'Cuando reconocer el daño no basta', 'Reparar exige memoria, responsabilidad institucional y garantías de no repetición.'],
-    'innovacion-responsable': ['artículo científico-social', 'Antes de automatizar una decisión', 'Un sistema útil debe ser también explicable, supervisable y corregible.'],
-    'literatura-y-voz': ['ensayo cultural', 'Hablar de salud mental sin convertirla en contenido', 'La visibilidad digital puede acompañar o simplificar experiencias complejas.'],
-    'economia-y-cuidados': ['ensayo social', 'El tiempo de cuidar también es trabajo', 'Las tareas de cuidado distribuyen oportunidades, ingresos y bienestar.'],
-    'diversidad-del-espanol': ['artículo sociolingüístico', 'Una lengua común no exige una sola voz', 'La comprensión mutua convive con acentos, registros y regionalismos.'],
-    'diplomacia-y-negociacion': ['análisis cívico', 'Discrepar sin dejar de escuchar', 'La polarización se reduce cuando se distinguen posiciones, intereses y pruebas.'],
-    'critica-cultural': ['crítica de medios', '¿Quién decide qué cultura aparece primero?', 'Los algoritmos ordenan visibilidad y condicionan el descubrimiento cultural.'],
-    'politicas-publicas': ['informe analítico', 'Medir una política sin confundir actividad con resultado', 'La cobertura no basta para demostrar un cambio en las oportunidades.'],
-    'coloquio-academico': ['ponencia cívica', 'Participar no es solo ser escuchado', 'La participación juvenil importa cuando puede modificar decisiones públicas.']
+    'memoria-y-relato': ['podcast de tecnología', '¿La inteligencia artificial está cambiando nuestra manera de pensar?', 'Una herramienta puede ampliar nuestras capacidades, pero no debe sustituir el criterio con que verificamos, dudamos y decidimos.'],
+    'retorica-publica': ['entrevista', 'De empleado a emprendedor digital: una historia de reinvención', 'Un cambio profesional empieza con una salida incierta y termina por transformar la forma de entender el trabajo.'],
+    'periodismo-de-investigacion': ['storytelling', 'El día que Internet desapareció durante 24 horas', 'Una ciudad descubre qué servicios, hábitos y vínculos dependen de una conexión que suele dar por hecha.'],
+    'justicia-y-reparacion': ['testimonio', 'Vivir un año en otro país cambió mi forma de ver el mundo', 'La distancia convierte los gestos cotidianos en preguntas sobre idioma, pertenencia y perspectiva.'],
+    'innovacion-responsable': ['podcast de psicología', '¿Por qué sufrimos el síndrome del impostor?', 'La sensación de no merecer un logro puede persistir incluso cuando la evidencia dice lo contrario.'],
+    'literatura-y-voz': ['documental corto', 'Cómo una pequeña startup terminó revolucionando una industria', 'Una idea mínima encuentra un problema real y altera las reglas de un mercado entero.'],
+    'economia-y-cuidados': ['mesa redonda', '¿Trabajar cuatro días a la semana realmente funciona?', 'La jornada más corta promete tiempo y productividad, pero exige rediseñar la organización del trabajo.'],
+    'diversidad-del-espanol': ['podcast de salud', 'Dormimos menos que nunca: el costo invisible del cansancio', 'Dormir poco parece una costumbre privada hasta que afecta la atención, el humor y las decisiones colectivas.'],
+    'diplomacia-y-negociacion': ['entrevista', 'La presión mental detrás del deporte de alto rendimiento', 'El aplauso público rara vez muestra la disciplina, el miedo y la soledad que sostienen una carrera deportiva.'],
+    'critica-cultural': ['narrativa', 'La decisión que tomé en cinco segundos cambió mi vida', 'Un instante de duda basta para que una persona descubra cuánto puede cambiar el rumbo de una vida.'],
+    'politicas-publicas': ['podcast de sociedad', '¿Las redes sociales nos acercan o nos aíslan?', 'La conexión constante puede multiplicar los contactos y, al mismo tiempo, debilitar la presencia compartida.'],
+    'coloquio-academico': ['historia inspiradora', 'Aprender un idioma después de los cincuenta años', 'Una estudiante adulta cuestiona la idea de que la edad decide quién puede aprender con fluidez.']
   },
   C2: {
-    'ambiguedad-y-sentido': ['crónica deportiva', 'El Mundial 2026: más que un partido', 'El fútbol convierte una sede en escaparate, negocio y espacio de pertenencia.'],
-    'humor-e-ironia': ['ensayo sobre ocio digital', 'Videojuegos: jugar, gastar y pertenecer', 'Las compras pequeñas, el azar y la comunidad cambian la experiencia de jugar.'],
-    'traduccion-y-mediacion': ['crónica cultural', 'La música en español viaja distinto', 'Una canción puede cruzar fronteras sin dejar de estar anclada a una escena local.'],
-    'filosofia-del-lenguaje': ['ensayo científico-político', '¿Quién tiene derecho a mirar hacia el espacio?', 'La exploración espacial obliga a decidir si una órbita es un bien común o un recurso estratégico.'],
-    'analisis-juridico': ['comentario jurídico-económico', 'Pagar sin efectivo: comodidad, datos y exclusión', 'Un pago digital puede simplificar una compra y, a la vez, dejar fuera a quien no tiene acceso o control sobre sus datos.'],
-    'edicion-de-estilo': ['ensayo intergeneracional', 'Envejecer en una sociedad acelerada', 'La longevidad transforma los vínculos entre autonomía, cuidados y espacio público.'],
-    'debate-epistemico': ['ensayo tecnológico', 'La basura electrónica no desaparece', 'Cambiar de dispositivo no elimina el residuo: desplaza materiales, trabajo y costos ambientales a otros lugares.'],
-    'estetica-y-interpretacion': ['ensayo socioambiental', 'La transición verde también extrae', 'Una tecnología limpia al usarse puede depender de una cadena de extracción con conflictos fuera de la vista.'],
-    'discurso-cientifico': ['artículo de salud pública', 'El deporte y las apuestas en línea', 'La publicidad convierte una práctica de riesgo en parte aparentemente normal del ocio deportivo.'],
-    'mediacion-de-conflictos': ['ensayo de movilidad', 'Migrar para empezar de nuevo', 'Llegar a una ciudad implica traducir trámites, redes y expectativas además de cambiar de lugar.'],
-    'ensayo-de-alta-exigencia': ['ensayo socioambiental', 'El agua que llega a la mesa', 'El agua conecta la agricultura, la alimentación y la desigualdad de forma difícil de separar.'],
-    'defensa-y-sintesis': ['defensa cultural', 'Cultura latina global: quién cuenta la historia', 'La expansión cultural abre oportunidades, pero también concentra visibilidad y poder de decisión.']
+    'ambiguedad-y-sentido': ['investigación periodística', 'Cómo los algoritmos deciden lo que ves cada día', 'Una recomendación aparentemente personal es el resultado de reglas, datos y objetivos que rara vez vemos.'],
+    'humor-e-ironia': ['podcast tecnológico', 'Dentro de una empresa de inteligencia artificial', 'El entusiasmo por lanzar productos convive con decisiones difíciles sobre datos, riesgos y competencia.'],
+    'traduccion-y-mediacion': ['entrevista exclusiva', 'Un corresponsal de guerra cuenta lo que nunca salió en televisión', 'Informar desde una guerra obliga a decidir qué se puede contar, qué se debe proteger y qué queda fuera de cámara.'],
+    'filosofia-del-lenguaje': ['documental', 'La nueva carrera espacial: ¿quién conquistará Marte primero?', 'La ambición de llegar a Marte combina ciencia, negocio y una pregunta incómoda sobre quién puede reclamar el futuro.'],
+    'analisis-juridico': ['testimonio', 'Viví un año sin redes sociales: esto fue lo que aprendí', 'Alejarse de las plataformas cambia el ritmo de la atención y revela hábitos que parecían inevitables.'],
+    'edicion-de-estilo': ['debate', '¿La inteligencia artificial reemplazará las profesiones creativas?', 'La discusión no termina en lo que una máquina puede producir, sino en quién decide qué tiene valor.'],
+    'debate-epistemico': ['storytelling científico', 'El descubrimiento que nadie creyó... hasta que cambió el mundo', 'Una idea rechazada obliga a preguntar por qué la evidencia tarda en cambiar una convicción.'],
+    'estetica-y-interpretacion': ['podcast económico', 'La economía de los creadores: cómo YouTube, TikTok y Spotify generan millones', 'Detrás de cada cifra de seguidores hay reglas de monetización, trabajo invisible y plataformas que fijan las condiciones.'],
+    'discurso-cientifico': ['historia real', 'Sobrevivir a un desastre natural: decisiones que salvan vidas', 'En una emergencia, una decisión informada y una red de apoyo pueden cambiar el desenlace.'],
+    'mediacion-de-conflictos': ['entrevista', 'La vida secreta de un piloto comercial: decisiones a 12 000 metros de altura', 'La calma de una cabina es el resultado de protocolos, entrenamiento y decisiones tomadas con información incompleta.'],
+    'ensayo-de-alta-exigencia': ['podcast de neurociencia', '¿Por qué algunos recuerdos permanecen para siempre?', 'La memoria conserva menos una grabación exacta que aquello que la emoción y el significado vuelven importante.'],
+    'defensa-y-sintesis': ['narrativa empresarial', 'Cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global', 'La escala convierte una intuición inicial en una empresa con nuevas responsabilidades, tensiones y efectos públicos.']
   }
 };
 
@@ -756,8 +756,64 @@ function grammarModel(grammar, words, scenario) {
 }
 
 const ADVANCED_LISTENING_FORMATS = {
-  C1: ['columna de análisis', 'podcast de sociedad', 'reportaje educativo', 'comentario jurídico', 'entrevista de radio resumida', 'crónica cultural', 'podcast de economía cotidiana', 'documental lingüístico', 'mediación pública', 'reseña cultural', 'informe ciudadano', 'ponencia académica'],
-  C2: ['editorial crítico', 'ensayo sonoro', 'crónica de mediación', 'seminario de ideas', 'análisis jurídico', 'taller de edición', 'debate epistemológico', 'crítica de arte', 'cápsula científica', 'mediación pública', 'ensayo argumentativo', 'defensa oral']
+  C1: ['podcast de tecnología', 'entrevista', 'storytelling', 'testimonio', 'podcast de psicología', 'documental corto', 'mesa redonda', 'podcast de salud', 'entrevista', 'narrativa', 'podcast de sociedad', 'historia inspiradora'],
+  C2: ['investigación periodística', 'podcast tecnológico', 'entrevista exclusiva', 'documental', 'testimonio', 'debate', 'storytelling científico', 'podcast económico', 'historia real', 'entrevista', 'podcast de neurociencia', 'narrativa empresarial']
+};
+
+// The opening episode establishes the editorial voice for the C1 series: a
+// natural podcast monologue, not an instructional template.
+const AUTHORED_ADVANCED_LISTENING = {
+  C1: {
+    'memoria-y-relato': `¿Alguna vez has sentido que ya no necesitas recordar tantas cosas como antes? Hace unos años era normal memorizar números de teléfono, direcciones o incluso el camino para llegar a un lugar. Hoy basta con sacar el móvil del bolsillo y dejar que una aplicación haga el trabajo por nosotros. Algo parecido está ocurriendo con la inteligencia artificial.
+
+Cada día millones de personas le piden ayuda para escribir correos electrónicos, resumir documentos, traducir textos, resolver ejercicios o generar ideas para un proyecto. En cuestión de segundos reciben una respuesta que, en muchos casos, parece perfectamente elaborada. La pregunta es inevitable: ¿estamos utilizando una herramienta que amplía nuestras capacidades o estamos dejando que piense por nosotros?
+
+La historia demuestra que cada gran avance tecnológico despertó preocupaciones similares. Cuando apareció la imprenta, algunos pensaban que la memoria humana se volvería menos importante. Más tarde ocurrió lo mismo con las calculadoras y, después, con Internet. Sin embargo, ninguna de esas tecnologías eliminó la necesidad de pensar. Lo que hicieron fue cambiar la forma en que utilizábamos nuestro conocimiento.
+
+La inteligencia artificial plantea un desafío distinto porque no solo almacena información; también puede organizarla, redactarla y presentarla como si fuera una persona. Eso explica por qué muchos estudiantes, profesionales y empresas la utilizan todos los días. El problema aparece cuando olvidamos que una respuesta bien escrita no siempre es una respuesta correcta.
+
+Imagina que dos médicos reciben exactamente los mismos síntomas de un paciente. Ambos consultan una herramienta de inteligencia artificial. El primero acepta el diagnóstico sin hacer preguntas adicionales. El segundo utiliza esa sugerencia como punto de partida, revisa el historial clínico, solicita pruebas complementarias y conversa con el paciente antes de tomar una decisión. Los dos utilizaron la misma tecnología, pero solo uno aplicó el criterio que su profesión exige.
+
+Lo mismo ocurre en nuestra vida cotidiana. La inteligencia artificial puede ayudarnos a ahorrar tiempo, descubrir nuevas ideas e incluso aprender más rápido. Pero sigue siendo nuestra responsabilidad verificar la información, identificar posibles errores y comprender el contexto. Ningún algoritmo conoce completamente nuestra realidad, nuestros valores o nuestras prioridades.
+
+Existe otro aspecto menos evidente. Cuanto más dependemos de respuestas instantáneas, menos acostumbrados estamos a convivir con la duda. Y, sin embargo, las mejores decisiones rara vez nacen de respuestas inmediatas. Nacen de preguntas bien formuladas, de la curiosidad y de la capacidad para analizar diferentes perspectivas antes de llegar a una conclusión.
+
+Quizá el verdadero cambio que estamos viviendo no sea tecnológico, sino educativo. Durante décadas aprendimos a memorizar datos. Ahora necesitamos aprender a interpretar información, evaluar fuentes y construir argumentos sólidos. En un mundo donde cualquiera puede generar miles de palabras en pocos segundos, el verdadero valor estará en quien sea capaz de pensar con profundidad.
+
+La inteligencia artificial no decidirá el futuro por nosotros. Lo decidirá la manera en que decidamos utilizarla. Si la convertimos en un sustituto de nuestro pensamiento, perderemos una habilidad esencial. Pero si la usamos como una herramienta para ampliar nuestra creatividad y nuestro razonamiento, puede convertirse en una de las mayores aliadas del aprendizaje.
+
+La próxima vez que una inteligencia artificial responda una de tus preguntas, no te conformes con leer la respuesta. Pregúntate de dónde proviene esa información, qué evidencia la respalda y qué otras interpretaciones podrían existir. Tal vez esa pequeña pausa sea la diferencia entre simplemente consumir información y desarrollar un pensamiento verdaderamente crítico.`
+  }
+};
+
+const ADVANCED_LISTENING_OPENINGS = {
+  C1: {
+    'retorica-publica': 'Cuando Lucía dejó un empleo estable para crear su propia tienda digital, no estaba buscando una historia de éxito rápido. Estaba aprendiendo a convertir una habilidad en un proyecto, a convivir con la incertidumbre y a tomar decisiones sin un manual.',
+    'periodismo-de-investigacion': 'A las ocho de la mañana, una ciudad entera descubrió que Internet había desaparecido. No funcionaban los pagos, las clases virtuales ni los mensajes; en pocas horas, una comodidad invisible se convirtió en una infraestructura esencial.',
+    'justicia-y-reparacion': 'Vivir fuera durante un año no le enseñó a Sofía una versión mejor del mundo, sino una versión más compleja. Las costumbres que antes le parecían naturales empezaron a revelar cuánto depende nuestra mirada del lugar desde el que hablamos.',
+    'innovacion-responsable': 'Hay personas que reciben un ascenso, terminan un proyecto difícil o son felicitadas por su trabajo y, aun así, creen que en cualquier momento alguien descubrirá que no merecían estar allí. Ese contraste tiene un nombre: síndrome del impostor.',
+    'literatura-y-voz': 'La empresa empezó en una mesa pequeña y con un prototipo que apenas funcionaba. Lo que la distinguió no fue una idea espectacular, sino haber entendido un problema cotidiano que una industria entera llevaba años ignorando.',
+    'economia-y-cuidados': 'Trabajar cuatro días por semana parece una promesa sencilla: más tiempo libre sin perder resultados. Pero cuando se prueba de verdad, aparecen preguntas sobre coordinación, horarios, salarios y el tipo de productividad que queremos medir.',
+    'diversidad-del-espanol': 'Dormir poco se ha convertido en una especie de medalla social. Sin embargo, el cansancio no solo se nota al despertar: cambia nuestra concentración, nuestra paciencia y la manera en que tomamos decisiones durante el día.',
+    'diplomacia-y-negociacion': 'Cuando vemos a un atleta ganar, solemos mirar el resultado final. Detrás hay una presión menos visible: lesiones, expectativas ajenas, miedo a fallar y la dificultad de descansar cuando el rendimiento define la identidad.',
+    'critica-cultural': 'La decisión duró cinco segundos. No parecía heroica ni especialmente importante, pero abrió una puerta que hasta entonces había permanecido cerrada. A veces una vida cambia antes de que tengamos tiempo de entender lo que hemos elegido.',
+    'politicas-publicas': 'Nunca había sido tan fácil hablar con personas que están lejos. Aun así, muchas personas describen una soledad que no desaparece con más mensajes, reacciones o seguidores. La conexión y la cercanía no siempre son lo mismo.',
+    'coloquio-academico': 'A los cincuenta y seis años, Elena decidió aprender un idioma que siempre había querido hablar. No buscaba demostrar que la edad no importa; quería descubrir qué ocurre cuando la práctica y la curiosidad ocupan el lugar del miedo a equivocarse.'
+  },
+  C2: {
+    'ambiguedad-y-sentido': 'Cada vez que una plataforma te recomienda un video, una noticia o una canción, toma una decisión basada en señales que rara vez ves. La investigación empieza cuando preguntamos qué datos se usan, qué se prioriza y quién define el objetivo.',
+    'humor-e-ironia': 'Dentro de una empresa de inteligencia artificial, la promesa de lanzar antes que la competencia convive con conversaciones mucho menos visibles: qué datos se aceptan, qué errores son tolerables y quién responde cuando el sistema falla.',
+    'traduccion-y-mediacion': 'Un corresponsal de guerra aprende pronto que la cámara no registra todo. Hay escenas que no se filman por seguridad, fuentes que no pueden ser nombradas y silencios que también forman parte de la historia.',
+    'filosofia-del-lenguaje': 'La nueva carrera hacia Marte se presenta como un triunfo de la ciencia, pero también reúne intereses empresariales, rivalidades nacionales y una palabra incómoda: conquista. Nombrar así el proyecto cambia la forma de imaginar su futuro.',
+    'analisis-juridico': 'Durante un año, Martín no abrió una sola red social. Al principio no sintió libertad, sino el vacío de un hábito: la mano buscaba el teléfono antes de que apareciera una pregunta real que responder.',
+    'edicion-de-estilo': 'La pregunta no es solo si una inteligencia artificial puede escribir una canción, diseñar una imagen o proponer una campaña. La pregunta difícil es quién conserva la autoría, el criterio y las condiciones de trabajo cuando una herramienta produce tanto tan rápido.',
+    'debate-epistemico': 'Cuando la científica presentó su hallazgo, casi nadie le creyó. La idea contradecía una explicación aceptada desde hacía décadas y las primeras pruebas parecían demasiado extrañas para cambiar un consenso.',
+    'estetica-y-interpretacion': 'La economía de los creadores suele contarse con cifras de seguidores y reproducciones. Sin embargo, detrás de esas cifras hay contratos, algoritmos, trabajo invisible y plataformas que pueden cambiar una regla sin negociar con quienes dependen de ella.',
+    'discurso-cientifico': 'En un desastre natural, una decisión tomada a tiempo puede salvar una vida. Pero esas decisiones no nacen del heroísmo individual: dependen de alertas claras, preparación previa, información confiable y personas dispuestas a coordinarse.',
+    'mediacion-de-conflictos': 'A doce mil metros de altura, un piloto comercial no improvisa la calma. Cada cambio de ruta, cada aviso meteorológico y cada conversación con la tripulación forma parte de un sistema diseñado para decidir con precisión bajo presión.',
+    'ensayo-de-alta-exigencia': 'Algunos recuerdos permanecen durante décadas con una intensidad sorprendente, aunque los detalles cambien con el tiempo. La neurociencia muestra que recordar no es reproducir una grabación: es reconstruir una experiencia que la emoción ha vuelto significativa.',
+    'defensa-y-sintesis': 'Muchas empresas globales empiezan con una idea pequeña, a veces en un garaje. Lo difícil no es solo crecer: es descubrir qué ocurre cuando una solución local se convierte en una organización que afecta a millones de personas.'
+  }
 };
 
 function countListeningWords(text) {
@@ -765,9 +821,11 @@ function countListeningWords(text) {
 }
 
 function buildAdvancedListening(level, spec, readingContent, index = 0) {
-  const [, unitTitle, scenario, objective, grammar, words] = spec;
+  const [slug, unitTitle, scenario, objective, grammar, words] = spec;
   const model = grammarModel(grammar, words, scenario);
-  const firstParagraph = String(readingContent.text || '').split(/\n\s*\n/)[0] || readingContent.angle;
+  const firstParagraph = ADVANCED_LISTENING_OPENINGS[level]?.[slug]
+    || String(readingContent.text || '').split(/\n\s*\n/)[0]
+    || readingContent.angle;
   const expertLens = level === 'C2'
     ? 'También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría.'
     : 'Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.';
@@ -775,7 +833,7 @@ function buildAdvancedListening(level, spec, readingContent, index = 0) {
     ? 'Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada.'
     : '';
   const format = ADVANCED_LISTENING_FORMATS[level][index] || 'análisis sonoro';
-  const progressiveTarget = level === 'C2' ? 335 + index * 10 : 305 + index * 10;
+  const progressiveTarget = level === 'C2' ? 650 : 550;
   const transcriptParts = [
     // English and French C1-C2 start with the subject itself, not with a
     // repeated instruction announcing what the audio will analyse. Keep the
@@ -788,15 +846,18 @@ function buildAdvancedListening(level, spec, readingContent, index = 0) {
     `La idea final es clara: hablar de ${unitTitle.toLowerCase()} implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«${words[3]}», «${words[4]}» y «${words[5]}»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla?`
   ];
   const progressionLayers = [
-    `En una pieza de tipo «${format}», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola.`,
-    `También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos.`,
-    `Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada.`
+    `En una pieza de tipo «${format}», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En ${scenario.toLowerCase()}, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación.`,
+    `También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «${words[0]}», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable.`,
+    `Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente.`,
+    `A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible.`,
+    `Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir.`,
+    `La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.`
   ];
   for (const layer of progressionLayers) {
     if (countListeningWords(transcriptParts.join(' ')) >= progressiveTarget) break;
     transcriptParts.push(layer);
   }
-  const transcript = transcriptParts.join(' ');
+  const transcript = AUTHORED_ADVANCED_LISTENING[level]?.[slug] || transcriptParts.join(' ');
   const exercises = [
     q('¿Cuál es el propósito principal del audio?', ['Analizar el tema con evidencia, contexto y matices', 'Memorizar una lista sin relación con la unidad', 'Contar una historia sin conexión con el Reading', 'Dar una única respuesta definitiva'], 0, 'El audio adapta el Reading para analizarlo de forma crítica.'),
     q('¿Qué recomienda hacer ante una afirmación convincente?', ['Aceptarla de inmediato', 'Preguntar por fuentes, personas afectadas y consecuencias', 'Evitar toda comparación', 'Copiarla sin revisar'], 1, 'El audio insiste en comprobar el origen, el impacto y el contexto de la información.'),
@@ -804,8 +865,8 @@ function buildAdvancedListening(level, spec, readingContent, index = 0) {
     q('¿Qué pregunta final propone el audio?', ['Qué aplicación es más rápida', 'Qué evidencia sostendría o modificaría una postura', 'Cómo evitar cualquier debate', 'Qué palabra es más difícil de pronunciar'], 1, 'La pregunta final invita a justificar y revisar una conclusión.')
   ];
   return {
-    title: `Escucha · ${readingContent.title}`,
-    description: `Crónica de audio conectada con el Reading «${readingContent.title}».`,
+    title: `Escucha · ${unitTitle}`,
+    description: `${format.charAt(0).toUpperCase()}${format.slice(1)} sobre «${unitTitle}».`,
     intro: 'Escucha una adaptación integral del tema antes de consultar la transcripción.',
     mission: `Reconoce cómo el vocabulario y ${grammar} organizan una explicación oral compleja.`,
     transcript,

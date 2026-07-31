@@ -225,10 +225,10 @@
         "title": "Listening",
         "text": "Español C1 · Expresión precisa: Reconoce cómo el vocabulario y conectores de reformulación y reserva organizan una explicación oral compleja.",
         "suggestions": [
-          "participación",
-          "consulta",
-          "incidencia",
-          "Aunque «participación» parece una decisión individual, conviene considerar «consulta» y «incidencia»."
+          "constancia",
+          "memoria",
+          "fluidez",
+          "Aunque «constancia» parece una decisión individual, conviene considerar «memoria» y «fluidez»."
         ]
       },
       "speaking": {
@@ -243,7 +243,7 @@
       },
       "writing": {
         "title": "Writing",
-        "text": "Español C1 · Expresión precisa: Escribe 230–300 palabras sobre «Analizar formas de participación juvenil en decisiones públicas». Incluye una idea principal, razones y una conclusión.",
+        "text": "Español C1 · Expresión precisa: Escribe 230–300 palabras sobre «Conocer una historia de aprendizaje adulto y persistencia». Incluye una idea principal, razones y una conclusión.",
         "suggestions": [
           "En primer lugar…",
           "Por otra parte…",
@@ -260,12 +260,12 @@
       ],
       [
         "Mission",
-        "Evaluar una herramienta sin sustituir la autonomía intelectual"
+        "Usar herramientas de IA sin renunciar al pensamiento crítico"
       ]
     ],
     "reading": {
       "title": "Español C1 Reading",
-      "text": "La participación juvenil aparece con frecuencia en foros, consultas y campañas institucionales.\n\nEl desafío es distinguir entre escuchar una opinión y permitir que esa opinión modifique una decisión, un presupuesto o una norma.\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «participación», «consulta» y «incidencia» no son adornos: permiten describir el problema con mayor precisión.\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, conectores de reformulación y reserva ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.\n\nEsto tiene consecuencias prácticas. Las decisiones sobre analizar formas de participación juvenil en decisiones públicas deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: evaluar consulta, representación e incidencia real. Hablar de incidencia real, representación y seguimiento público supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.",
+      "text": "La participación juvenil aparece con frecuencia en foros, consultas y campañas institucionales.\n\nEl desafío es distinguir entre escuchar una opinión y permitir que esa opinión modifique una decisión, un presupuesto o una norma.\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «constancia», «memoria» y «fluidez» no son adornos: permiten describir el problema con mayor precisión.\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, conectores de reformulación y reserva ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.\n\nEsto tiene consecuencias prácticas. Las decisiones sobre conocer una historia de aprendizaje adulto y persistencia deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: cuestionar prejuicios sobre edad, memoria y aprendizaje. Hablar de incidencia real, representación y seguimiento público supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.",
       "questions": [
         "¿Cuál es el problema central que analiza la lectura?",
         "¿Qué exige el texto antes de aceptar una conclusión?",
@@ -279,10 +279,10 @@
         "title": "Listening",
         "text": "Español C2 · Dominio superior: Reconoce cómo el vocabulario y selección estratégica de todos los recursos C2 organizan una explicación oral compleja.",
         "suggestions": [
-          "circulación",
-          "referente",
-          "industria cultural",
-          "Aunque «circulación» parece una decisión individual, conviene considerar «referente» y «industria cultural»."
+          "idea",
+          "prototipo",
+          "escala",
+          "Aunque «idea» parece una decisión individual, conviene considerar «prototipo» y «escala»."
         ]
       },
       "speaking": {
@@ -297,7 +297,7 @@
       },
       "writing": {
         "title": "Writing",
-        "text": "Español C2 · Dominio superior: Escribe 230–300 palabras sobre «Sintetizar el papel de la música, el cine y la gastronomía en la proyección cultural». Incluye una idea principal, razones y una conclusión.",
+        "text": "Español C2 · Dominio superior: Escribe 230–300 palabras sobre «Seguir la historia de una idea que se vuelve organización mundial». Incluye una idea principal, razones y una conclusión.",
         "suggestions": [
           "En primer lugar…",
           "Por otra parte…",
@@ -314,12 +314,12 @@
       ],
       [
         "Mission",
-        "Distinguir celebración colectiva, patrocinio y legado urbano"
+        "Reconstruir las decisiones invisibles que moldean la atención cotidiana"
       ]
     ],
     "reading": {
       "title": "Español C2 Reading",
-      "text": "Los desafíos climáticos, tecnológicos y sociales se presentan a menudo como si una solución única pudiera resolverlos.\n\nUna conclusión rigurosa debe integrar evidencia diversa, reconocer intereses en conflicto y explicar qué datos la modificarían sin renunciar por ello a una posición razonada.\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «circulación», «referente» y «industria cultural» no son adornos: permiten describir el problema con mayor precisión.\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, selección estratégica de todos los recursos C2 ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.\n\nHay además una dificultad de segundo orden: los marcos con que se mide el problema pueden inclinar la conclusión. Un indicador hace visible una parte de la realidad y puede dejar otra fuera; una fuente autorizada merece atención, pero no elimina la necesidad de examinar su método, su alcance y sus intereses. El lector experto no busca una neutralidad imposible, sino criterios explícitos para comparar argumentos.\n\nEsto tiene consecuencias prácticas. Las decisiones sobre sintetizar el papel de la música, el cine y la gastronomía en la proyección cultural deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: defender una conclusión sobre representación, mercado y creación colectiva. Hablar de síntesis, incertidumbre y responsabilidad pública supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.",
+      "text": "Los desafíos climáticos, tecnológicos y sociales se presentan a menudo como si una solución única pudiera resolverlos.\n\nUna conclusión rigurosa debe integrar evidencia diversa, reconocer intereses en conflicto y explicar qué datos la modificarían sin renunciar por ello a una posición razonada.\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «idea», «prototipo» y «escala» no son adornos: permiten describir el problema con mayor precisión.\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, selección estratégica de todos los recursos C2 ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.\n\nHay además una dificultad de segundo orden: los marcos con que se mide el problema pueden inclinar la conclusión. Un indicador hace visible una parte de la realidad y puede dejar otra fuera; una fuente autorizada merece atención, pero no elimina la necesidad de examinar su método, su alcance y sus intereses. El lector experto no busca una neutralidad imposible, sino criterios explícitos para comparar argumentos.\n\nEsto tiene consecuencias prácticas. Las decisiones sobre seguir la historia de una idea que se vuelve organización mundial deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: sintetizar innovación, estrategia, escala y consecuencias sociales. Hablar de síntesis, incertidumbre y responsabilidad pública supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.",
       "questions": [
         "¿Cuál es el problema central que analiza la lectura?",
         "¿Qué exige el texto antes de aceptar una conclusión?",
@@ -707,9 +707,9 @@
     "xpReward": 35,
     "orderIndex": 10,
     "estimatedMinutes": 18,
-    "description": "artículo de análisis: ia y educación.",
+    "description": "artículo de análisis: ¿la inteligencia artificial está cambiando nuestra manera de pensar?.",
     "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
-    "mission": "Evaluar una herramienta sin sustituir la autonomía intelectual",
+    "mission": "Usar herramientas de IA sin renunciar al pensamiento crítico",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
@@ -808,22 +808,22 @@
     "level": "C2",
     "skill": "reading",
     "unitId": "ambiguedad-y-sentido",
-    "title": "El Mundial 2026: más que un partido",
+    "title": "Cómo los algoritmos deciden lo que ves cada día",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 35,
     "orderIndex": 10,
     "estimatedMinutes": 18,
-    "description": "crónica deportiva: el mundial 2026: más que un partido.",
+    "description": "investigación periodística: cómo los algoritmos deciden lo que ves cada día.",
     "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
-    "mission": "Distinguir celebración colectiva, patrocinio y legado urbano",
+    "mission": "Reconstruir las decisiones invisibles que moldean la atención cotidiana",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "El Mundial 2026: más que un partido",
-      "text": "Durante una emergencia, un mensaje breve puede ser útil y, al mismo tiempo, peligroso si deja sin explicar qué se sabe, qué se infiere y qué sigue siendo incierto.\n\nLa comunicación responsable no elimina la incertidumbre: la nombra, sitúa sus fuentes y evita que una advertencia razonable se convierta en rumor.\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «afición», «sede» y «patrocinio» no son adornos: permiten describir el problema con mayor precisión.\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, polisemia, elipsis y ambigüedad sintáctica ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.\n\nHay además una dificultad de segundo orden: los marcos con que se mide el problema pueden inclinar la conclusión. Un indicador hace visible una parte de la realidad y puede dejar otra fuera; una fuente autorizada merece atención, pero no elimina la necesidad de examinar su método, su alcance y sus intereses. El lector experto no busca una neutralidad imposible, sino criterios explícitos para comparar argumentos.\n\nEsto tiene consecuencias prácticas. Las decisiones sobre analizar cómo un gran evento deportivo organiza identidad, negocio y ciudad deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: distinguir celebración colectiva, patrocinio y legado urbano. Hablar de precisión, incertidumbre y confianza pública supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.",
+      "title": "Cómo los algoritmos deciden lo que ves cada día",
+      "text": "Durante una emergencia, un mensaje breve puede ser útil y, al mismo tiempo, peligroso si deja sin explicar qué se sabe, qué se infiere y qué sigue siendo incierto.\n\nLa comunicación responsable no elimina la incertidumbre: la nombra, sitúa sus fuentes y evita que una advertencia razonable se convierta en rumor.\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «algoritmo», «recomendación» y «perfil» no son adornos: permiten describir el problema con mayor precisión.\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, polisemia, elipsis y ambigüedad sintáctica ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.\n\nHay además una dificultad de segundo orden: los marcos con que se mide el problema pueden inclinar la conclusión. Un indicador hace visible una parte de la realidad y puede dejar otra fuera; una fuente autorizada merece atención, pero no elimina la necesidad de examinar su método, su alcance y sus intereses. El lector experto no busca una neutralidad imposible, sino criterios explícitos para comparar argumentos.\n\nEsto tiene consecuencias prácticas. Las decisiones sobre investigar cómo las plataformas ordenan noticias, videos y recomendaciones deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: reconstruir las decisiones invisibles que moldean la atención cotidiana. Hablar de precisión, incertidumbre y confianza pública supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.",
       "questions": [
         "¿Cuál es el problema central que analiza la lectura?",
         "¿Qué exige el texto antes de aceptar una conclusión?",
@@ -1611,13 +1611,13 @@
     "level": "C1",
     "skill": "listening",
     "unitId": "memoria-y-relato",
-    "title": "Escucha · Aprender con IA sin entregar el pensamiento",
+    "title": "Escucha · ¿La inteligencia artificial está cambiando nuestra manera de pensar?",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 30,
     "orderIndex": 11,
     "estimatedMinutes": 14,
-    "description": "Crónica de audio conectada con el Reading «Aprender con IA sin entregar el pensamiento».",
+    "description": "Podcast de tecnología sobre «¿La inteligencia artificial está cambiando nuestra manera de pensar?».",
     "intro": "Escucha una adaptación integral del tema antes de consultar la transcripción.",
     "mission": "Reconoce cómo el vocabulario y matización, subordinación concesiva y evidencialidad organizan una explicación oral compleja.",
     "grammar": "",
@@ -1630,14 +1630,14 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "La escena ya forma parte de la vida académica: una consigna difícil, una pantalla abierta y la posibilidad de obtener en segundos un resumen, un esquema o un borrador completo. La inteligencia artificial generativa puede ayudar a ordenar ideas, explicar conceptos o revisar la claridad de un texto. Pero esa rapidez también obliga a plantear una pregunta más exigente: ¿qué ocurre cuando una herramienta produce una respuesta antes de que el estudiante haya tenido tiempo de formular su propia pregunta? El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «autonomía», «sesgo» y «verificar». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «autonomía» parece una decisión individual, conviene considerar «sesgo» y «verificar». Desde esta perspectiva, evaluar una herramienta sin sustituir la autonomía intelectual no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de ia y educación implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«evidencia», «trazabilidad» y «criterio»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «columna de análisis», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola.",
+    "transcript": "¿Alguna vez has sentido que ya no necesitas recordar tantas cosas como antes? Hace unos años era normal memorizar números de teléfono, direcciones o incluso el camino para llegar a un lugar. Hoy basta con sacar el móvil del bolsillo y dejar que una aplicación haga el trabajo por nosotros. Algo parecido está ocurriendo con la inteligencia artificial.\n\nCada día millones de personas le piden ayuda para escribir correos electrónicos, resumir documentos, traducir textos, resolver ejercicios o generar ideas para un proyecto. En cuestión de segundos reciben una respuesta que, en muchos casos, parece perfectamente elaborada. La pregunta es inevitable: ¿estamos utilizando una herramienta que amplía nuestras capacidades o estamos dejando que piense por nosotros?\n\nLa historia demuestra que cada gran avance tecnológico despertó preocupaciones similares. Cuando apareció la imprenta, algunos pensaban que la memoria humana se volvería menos importante. Más tarde ocurrió lo mismo con las calculadoras y, después, con Internet. Sin embargo, ninguna de esas tecnologías eliminó la necesidad de pensar. Lo que hicieron fue cambiar la forma en que utilizábamos nuestro conocimiento.\n\nLa inteligencia artificial plantea un desafío distinto porque no solo almacena información; también puede organizarla, redactarla y presentarla como si fuera una persona. Eso explica por qué muchos estudiantes, profesionales y empresas la utilizan todos los días. El problema aparece cuando olvidamos que una respuesta bien escrita no siempre es una respuesta correcta.\n\nImagina que dos médicos reciben exactamente los mismos síntomas de un paciente. Ambos consultan una herramienta de inteligencia artificial. El primero acepta el diagnóstico sin hacer preguntas adicionales. El segundo utiliza esa sugerencia como punto de partida, revisa el historial clínico, solicita pruebas complementarias y conversa con el paciente antes de tomar una decisión. Los dos utilizaron la misma tecnología, pero solo uno aplicó el criterio que su profesión exige.\n\nLo mismo ocurre en nuestra vida cotidiana. La inteligencia artificial puede ayudarnos a ahorrar tiempo, descubrir nuevas ideas e incluso aprender más rápido. Pero sigue siendo nuestra responsabilidad verificar la información, identificar posibles errores y comprender el contexto. Ningún algoritmo conoce completamente nuestra realidad, nuestros valores o nuestras prioridades.\n\nExiste otro aspecto menos evidente. Cuanto más dependemos de respuestas instantáneas, menos acostumbrados estamos a convivir con la duda. Y, sin embargo, las mejores decisiones rara vez nacen de respuestas inmediatas. Nacen de preguntas bien formuladas, de la curiosidad y de la capacidad para analizar diferentes perspectivas antes de llegar a una conclusión.\n\nQuizá el verdadero cambio que estamos viviendo no sea tecnológico, sino educativo. Durante décadas aprendimos a memorizar datos. Ahora necesitamos aprender a interpretar información, evaluar fuentes y construir argumentos sólidos. En un mundo donde cualquiera puede generar miles de palabras en pocos segundos, el verdadero valor estará en quien sea capaz de pensar con profundidad.\n\nLa inteligencia artificial no decidirá el futuro por nosotros. Lo decidirá la manera en que decidamos utilizarla. Si la convertimos en un sustituto de nuestro pensamiento, perderemos una habilidad esencial. Pero si la usamos como una herramienta para ampliar nuestra creatividad y nuestro razonamiento, puede convertirse en una de las mayores aliadas del aprendizaje.\n\nLa próxima vez que una inteligencia artificial responda una de tus preguntas, no te conformes con leer la respuesta. Pregúntate de dónde proviene esa información, qué evidencia la respalda y qué otras interpretaciones podrían existir. Tal vez esa pequeña pausa sea la diferencia entre simplemente consumir información y desarrollar un pensamiento verdaderamente crítico.",
     "extra": {
       "listeningType": "story",
       "difficulty": "C1",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "La escena ya forma parte de la vida académica: una consigna difícil, una pantalla abierta y la posibilidad de obtener en segundos un resumen, un esquema o un borrador completo. La inteligencia artificial generativa puede ayudar a ordenar ideas, explicar conceptos o revisar la claridad de un texto. Pero esa rapidez también obliga a plantear una pregunta más exigente: ¿qué ocurre cuando una herramienta produce una respuesta antes de que el estudiante haya tenido tiempo de formular su propia pregunta? El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «autonomía», «sesgo» y «verificar». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «autonomía» parece una decisión individual, conviene considerar «sesgo» y «verificar». Desde esta perspectiva, evaluar una herramienta sin sustituir la autonomía intelectual no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de ia y educación implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«evidencia», «trazabilidad» y «criterio»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «columna de análisis», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola.",
+      "transcript": "¿Alguna vez has sentido que ya no necesitas recordar tantas cosas como antes? Hace unos años era normal memorizar números de teléfono, direcciones o incluso el camino para llegar a un lugar. Hoy basta con sacar el móvil del bolsillo y dejar que una aplicación haga el trabajo por nosotros. Algo parecido está ocurriendo con la inteligencia artificial.\n\nCada día millones de personas le piden ayuda para escribir correos electrónicos, resumir documentos, traducir textos, resolver ejercicios o generar ideas para un proyecto. En cuestión de segundos reciben una respuesta que, en muchos casos, parece perfectamente elaborada. La pregunta es inevitable: ¿estamos utilizando una herramienta que amplía nuestras capacidades o estamos dejando que piense por nosotros?\n\nLa historia demuestra que cada gran avance tecnológico despertó preocupaciones similares. Cuando apareció la imprenta, algunos pensaban que la memoria humana se volvería menos importante. Más tarde ocurrió lo mismo con las calculadoras y, después, con Internet. Sin embargo, ninguna de esas tecnologías eliminó la necesidad de pensar. Lo que hicieron fue cambiar la forma en que utilizábamos nuestro conocimiento.\n\nLa inteligencia artificial plantea un desafío distinto porque no solo almacena información; también puede organizarla, redactarla y presentarla como si fuera una persona. Eso explica por qué muchos estudiantes, profesionales y empresas la utilizan todos los días. El problema aparece cuando olvidamos que una respuesta bien escrita no siempre es una respuesta correcta.\n\nImagina que dos médicos reciben exactamente los mismos síntomas de un paciente. Ambos consultan una herramienta de inteligencia artificial. El primero acepta el diagnóstico sin hacer preguntas adicionales. El segundo utiliza esa sugerencia como punto de partida, revisa el historial clínico, solicita pruebas complementarias y conversa con el paciente antes de tomar una decisión. Los dos utilizaron la misma tecnología, pero solo uno aplicó el criterio que su profesión exige.\n\nLo mismo ocurre en nuestra vida cotidiana. La inteligencia artificial puede ayudarnos a ahorrar tiempo, descubrir nuevas ideas e incluso aprender más rápido. Pero sigue siendo nuestra responsabilidad verificar la información, identificar posibles errores y comprender el contexto. Ningún algoritmo conoce completamente nuestra realidad, nuestros valores o nuestras prioridades.\n\nExiste otro aspecto menos evidente. Cuanto más dependemos de respuestas instantáneas, menos acostumbrados estamos a convivir con la duda. Y, sin embargo, las mejores decisiones rara vez nacen de respuestas inmediatas. Nacen de preguntas bien formuladas, de la curiosidad y de la capacidad para analizar diferentes perspectivas antes de llegar a una conclusión.\n\nQuizá el verdadero cambio que estamos viviendo no sea tecnológico, sino educativo. Durante décadas aprendimos a memorizar datos. Ahora necesitamos aprender a interpretar información, evaluar fuentes y construir argumentos sólidos. En un mundo donde cualquiera puede generar miles de palabras en pocos segundos, el verdadero valor estará en quien sea capaz de pensar con profundidad.\n\nLa inteligencia artificial no decidirá el futuro por nosotros. Lo decidirá la manera en que decidamos utilizarla. Si la convertimos en un sustituto de nuestro pensamiento, perderemos una habilidad esencial. Pero si la usamos como una herramienta para ampliar nuestra creatividad y nuestro razonamiento, puede convertirse en una de las mayores aliadas del aprendizaje.\n\nLa próxima vez que una inteligencia artificial responda una de tus preguntas, no te conformes con leer la respuesta. Pregúntate de dónde proviene esa información, qué evidencia la respalda y qué otras interpretaciones podrían existir. Tal vez esa pequeña pausa sea la diferencia entre simplemente consumir información y desarrollar un pensamiento verdaderamente crítico.",
       "listeningComprehension": {
         "id": "spanish-c1-memoria-y-relato-listening-comprehension",
         "passingScore": 70,
@@ -1790,33 +1790,33 @@
     "level": "C2",
     "skill": "listening",
     "unitId": "ambiguedad-y-sentido",
-    "title": "Escucha · El Mundial 2026: más que un partido",
+    "title": "Escucha · Cómo los algoritmos deciden lo que ves cada día",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 30,
     "orderIndex": 11,
     "estimatedMinutes": 14,
-    "description": "Crónica de audio conectada con el Reading «El Mundial 2026: más que un partido».",
+    "description": "Investigación periodística sobre «Cómo los algoritmos deciden lo que ves cada día».",
     "intro": "Escucha una adaptación integral del tema antes de consultar la transcripción.",
     "mission": "Reconoce cómo el vocabulario y polisemia, elipsis y ambigüedad sintáctica organizan una explicación oral compleja.",
     "grammar": "",
     "phrases": [
-      "afición",
-      "sede",
-      "patrocinio",
-      "Aunque «afición» parece una decisión individual, conviene considerar «sede» y «patrocinio»."
+      "algoritmo",
+      "recomendación",
+      "perfil",
+      "Aunque «algoritmo» parece una decisión individual, conviene considerar «recomendación» y «perfil»."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Durante una emergencia, un mensaje breve puede ser útil y, al mismo tiempo, peligroso si deja sin explicar qué se sabe, qué se infiere y qué sigue siendo incierto. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «afición», «sede» y «patrocinio». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «afición» parece una decisión individual, conviene considerar «sede» y «patrocinio». Desde esta perspectiva, distinguir celebración colectiva, patrocinio y legado urbano no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de el mundial 2026: más que un partido implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«identidad», «legado» y «representación»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «editorial crítico», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola.",
+    "transcript": "Cada vez que una plataforma te recomienda un video, una noticia o una canción, toma una decisión basada en señales que rara vez ves. La investigación empieza cuando preguntamos qué datos se usan, qué se prioriza y quién define el objetivo. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «algoritmo», «recomendación» y «perfil». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «algoritmo» parece una decisión individual, conviene considerar «recomendación» y «perfil». Desde esta perspectiva, reconstruir las decisiones invisibles que moldean la atención cotidiana no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de cómo los algoritmos deciden lo que ves cada día implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«atención», «sesgo» y «opacidad»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «investigación periodística», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En investigar cómo las plataformas ordenan noticias, videos y recomendaciones, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «algoritmo», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
     "extra": {
       "listeningType": "story",
       "difficulty": "C2",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "Durante una emergencia, un mensaje breve puede ser útil y, al mismo tiempo, peligroso si deja sin explicar qué se sabe, qué se infiere y qué sigue siendo incierto. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «afición», «sede» y «patrocinio». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «afición» parece una decisión individual, conviene considerar «sede» y «patrocinio». Desde esta perspectiva, distinguir celebración colectiva, patrocinio y legado urbano no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de el mundial 2026: más que un partido implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«identidad», «legado» y «representación»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «editorial crítico», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola.",
+      "transcript": "Cada vez que una plataforma te recomienda un video, una noticia o una canción, toma una decisión basada en señales que rara vez ves. La investigación empieza cuando preguntamos qué datos se usan, qué se prioriza y quién define el objetivo. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «algoritmo», «recomendación» y «perfil». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «algoritmo» parece una decisión individual, conviene considerar «recomendación» y «perfil». Desde esta perspectiva, reconstruir las decisiones invisibles que moldean la atención cotidiana no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de cómo los algoritmos deciden lo que ves cada día implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«atención», «sesgo» y «opacidad»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «investigación periodística», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En investigar cómo las plataformas ordenan noticias, videos y recomendaciones, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «algoritmo», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
       "listeningComprehension": {
         "id": "spanish-c2-ambiguedad-y-sentido-listening-comprehension",
         "passingScore": 70,
@@ -2172,14 +2172,14 @@
     "level": "C1",
     "skill": "speaking",
     "unitId": "memoria-y-relato",
-    "title": "Habla · IA y educación",
+    "title": "Habla · ¿La inteligencia artificial está cambiando nuestra manera de pensar?",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 30,
     "orderIndex": 12,
     "estimatedMinutes": 14,
     "description": "Responde oralmente dentro del escenario de la unidad.",
-    "intro": "Analizar usos de inteligencia artificial en el aprendizaje",
+    "intro": "Explorar cómo la IA transforma la memoria, el criterio y la toma de decisiones",
     "mission": "Graba una respuesta de 45–90 segundos: presenta tu propuesta, justifica dos razones y reconoce una posible dificultad.",
     "grammar": "",
     "phrases": [
@@ -2192,7 +2192,7 @@
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "¿Qué propones ante esta situación: analizar usos de inteligencia artificial en el aprendizaje?",
+        "line": "¿Qué propones ante esta situación: explorar cómo la ia transforma la memoria, el criterio y la toma de decisiones?",
         "translation": "What do you propose in this situation?"
       },
       {
@@ -2207,7 +2207,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Explica cómo resolverías este reto: Analizar usos de inteligencia artificial en el aprendizaje."
+        "prompt": "Explica cómo resolverías este reto: Explorar cómo la IA transforma la memoria, el criterio y la toma de decisiones."
       },
       {
         "type": "practice",
@@ -2220,14 +2220,14 @@
     "level": "C2",
     "skill": "speaking",
     "unitId": "ambiguedad-y-sentido",
-    "title": "Habla · El Mundial 2026: más que un partido",
+    "title": "Habla · Cómo los algoritmos deciden lo que ves cada día",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 30,
     "orderIndex": 12,
     "estimatedMinutes": 14,
     "description": "Responde oralmente dentro del escenario de la unidad.",
-    "intro": "Analizar cómo un gran evento deportivo organiza identidad, negocio y ciudad",
+    "intro": "Investigar cómo las plataformas ordenan noticias, videos y recomendaciones",
     "mission": "Graba una respuesta de 45–90 segundos: presenta tu propuesta, justifica dos razones y reconoce una posible dificultad.",
     "grammar": "",
     "phrases": [
@@ -2240,7 +2240,7 @@
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "¿Qué propones ante esta situación: analizar cómo un gran evento deportivo organiza identidad, negocio y ciudad?",
+        "line": "¿Qué propones ante esta situación: investigar cómo las plataformas ordenan noticias, videos y recomendaciones?",
         "translation": "What do you propose in this situation?"
       },
       {
@@ -2255,11 +2255,11 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Explica cómo resolverías este reto: Analizar cómo un gran evento deportivo organiza identidad, negocio y ciudad."
+        "prompt": "Explica cómo resolverías este reto: Investigar cómo las plataformas ordenan noticias, videos y recomendaciones."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos palabras: afición, sede, patrocinio."
+        "prompt": "Usa al menos dos palabras: algoritmo, recomendación, perfil."
       }
     ]
   },
@@ -2405,7 +2405,7 @@
     "level": "C1",
     "skill": "writing",
     "unitId": "memoria-y-relato",
-    "title": "Escribe · IA y educación",
+    "title": "Escribe · ¿La inteligencia artificial está cambiando nuestra manera de pensar?",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 35,
@@ -2413,7 +2413,7 @@
     "estimatedMinutes": 18,
     "description": "Produce un texto conectado con la misión de la unidad.",
     "intro": "Planifica, redacta y revisa antes de enviar tu texto.",
-    "mission": "Escribe 230–300 palabras sobre «Analizar usos de inteligencia artificial en el aprendizaje». Incluye una idea principal, razones y una conclusión.",
+    "mission": "Escribe 230–300 palabras sobre «Explorar cómo la IA transforma la memoria, el criterio y la toma de decisiones». Incluye una idea principal, razones y una conclusión.",
     "grammar": "matización, subordinación concesiva y evidencialidad",
     "phrases": [
       "En primer lugar…",
@@ -2429,7 +2429,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Redacta una respuesta organizada para: Analizar usos de inteligencia artificial en el aprendizaje."
+        "prompt": "Redacta una respuesta organizada para: Explorar cómo la IA transforma la memoria, el criterio y la toma de decisiones."
       }
     ]
   },
@@ -2438,7 +2438,7 @@
     "level": "C2",
     "skill": "writing",
     "unitId": "ambiguedad-y-sentido",
-    "title": "Escribe · El Mundial 2026: más que un partido",
+    "title": "Escribe · Cómo los algoritmos deciden lo que ves cada día",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 35,
@@ -2446,7 +2446,7 @@
     "estimatedMinutes": 18,
     "description": "Produce un texto conectado con la misión de la unidad.",
     "intro": "Planifica, redacta y revisa antes de enviar tu texto.",
-    "mission": "Escribe 230–300 palabras sobre «Analizar cómo un gran evento deportivo organiza identidad, negocio y ciudad». Incluye una idea principal, razones y una conclusión.",
+    "mission": "Escribe 230–300 palabras sobre «Investigar cómo las plataformas ordenan noticias, videos y recomendaciones». Incluye una idea principal, razones y una conclusión.",
     "grammar": "polisemia, elipsis y ambigüedad sintáctica",
     "phrases": [
       "En primer lugar…",
@@ -2462,7 +2462,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Redacta una respuesta organizada para: Analizar cómo un gran evento deportivo organiza identidad, negocio y ciudad."
+        "prompt": "Redacta una respuesta organizada para: Investigar cómo las plataformas ordenan noticias, videos y recomendaciones."
       }
     ]
   },
@@ -3063,7 +3063,7 @@
     "xpReward": 30,
     "orderIndex": 14,
     "estimatedMinutes": 14,
-    "description": "Aplica la forma gramatical dentro del tema «IA y educación».",
+    "description": "Aplica la forma gramatical dentro del tema «¿La inteligencia artificial está cambiando nuestra manera de pensar?».",
     "intro": "Observa cómo la gramática cambia la precisión y el matiz.",
     "mission": "Usa matización, subordinación concesiva y evidencialidad para explicar y justificar una propuesta.",
     "grammar": "Foco: matización, subordinación concesiva y evidencialidad.\n\nUso: permite explicar el tema «Aprender con IA sin entregar el pensamiento» con precisión y matiz.\n\nModelo: Aunque «autonomía» parece una decisión individual, conviene considerar «sesgo» y «verificar».",
@@ -3235,14 +3235,14 @@
     "xpReward": 30,
     "orderIndex": 14,
     "estimatedMinutes": 14,
-    "description": "Aplica la forma gramatical dentro del tema «El Mundial 2026: más que un partido».",
+    "description": "Aplica la forma gramatical dentro del tema «Cómo los algoritmos deciden lo que ves cada día».",
     "intro": "Observa cómo la gramática cambia la precisión y el matiz.",
     "mission": "Usa polisemia, elipsis y ambigüedad sintáctica para explicar y justificar una propuesta.",
-    "grammar": "Foco: polisemia, elipsis y ambigüedad sintáctica.\n\nUso: permite explicar el tema «El Mundial 2026: más que un partido» con precisión y matiz.\n\nModelo: Aunque «afición» parece una decisión individual, conviene considerar «sede» y «patrocinio».",
+    "grammar": "Foco: polisemia, elipsis y ambigüedad sintáctica.\n\nUso: permite explicar el tema «Cómo los algoritmos deciden lo que ves cada día» con precisión y matiz.\n\nModelo: Aunque «algoritmo» parece una decisión individual, conviene considerar «recomendación» y «perfil».",
     "phrases": [
-      "Aunque «afición» parece una decisión individual, conviene considerar «sede» y «patrocinio».",
-      "El texto relaciona «afición» con «sede».",
-      "Antes de concluir, conviene revisar «patrocinio»."
+      "Aunque «algoritmo» parece una decisión individual, conviene considerar «recomendación» y «perfil».",
+      "El texto relaciona «algoritmo» con «recomendación».",
+      "Antes de concluir, conviene revisar «perfil»."
     ],
     "vocabulary": [],
     "dialogue": [],
@@ -3283,19 +3283,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Aunque «afición» parece una decisión individual, conviene considerar «sede» y «patrocinio»."
+                "text": "Aunque «algoritmo» parece una decisión individual, conviene considerar «recomendación» y «perfil»."
               },
               {
                 "id": "o2",
-                "text": "afición sede patrocinio."
+                "text": "algoritmo recomendación perfil."
               },
               {
                 "id": "o3",
-                "text": "Porque afición y sede."
+                "text": "Porque algoritmo y recomendación."
               },
               {
                 "id": "o4",
-                "text": "patrocinio sin contexto decidir."
+                "text": "perfil sin contexto decidir."
               }
             ]
           },
@@ -3306,19 +3306,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "La evidencia ayuda a interpretar «afición» antes de concluir."
+                "text": "La evidencia ayuda a interpretar «algoritmo» antes de concluir."
               },
               {
                 "id": "o2",
-                "text": "La evidencia «afición» concluir antes."
+                "text": "La evidencia «algoritmo» concluir antes."
               },
               {
                 "id": "o3",
-                "text": "Interpretar evidencia porque «afición»."
+                "text": "Interpretar evidencia porque «algoritmo»."
               },
               {
                 "id": "o4",
-                "text": "«afición» evidencia sin."
+                "text": "«algoritmo» evidencia sin."
               }
             ]
           },
@@ -3365,10 +3365,10 @@
         "type": "mcq",
         "prompt": "¿Qué oración usa la estructura de la unidad para hablar del Reading?",
         "options": [
-          "Aunque «afición» parece una decisión individual, conviene considerar «sede» y «patrocinio».",
-          "afición sede patrocinio.",
-          "Porque afición y sede.",
-          "patrocinio sin contexto decidir."
+          "Aunque «algoritmo» parece una decisión individual, conviene considerar «recomendación» y «perfil».",
+          "algoritmo recomendación perfil.",
+          "Porque algoritmo y recomendación.",
+          "perfil sin contexto decidir."
         ],
         "explanation": "La primera opción relaciona la estructura gramatical con el tema y el vocabulario de la lección."
       },
@@ -3376,10 +3376,10 @@
         "type": "mcq",
         "prompt": "¿Qué opción mantiene mejor el sentido del texto?",
         "options": [
-          "La evidencia ayuda a interpretar «afición» antes de concluir.",
-          "La evidencia «afición» concluir antes.",
-          "Interpretar evidencia porque «afición».",
-          "«afición» evidencia sin."
+          "La evidencia ayuda a interpretar «algoritmo» antes de concluir.",
+          "La evidencia «algoritmo» concluir antes.",
+          "Interpretar evidencia porque «algoritmo».",
+          "«algoritmo» evidencia sin."
         ],
         "explanation": "La primera opción presenta una relación lógica y una idea completa."
       },
@@ -4130,7 +4130,7 @@
     "level": "C1",
     "skill": "vocabulary",
     "unitId": "memoria-y-relato",
-    "title": "Vocabulario · IA y educación",
+    "title": "Vocabulario · ¿La inteligencia artificial está cambiando nuestra manera de pensar?",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 25,
@@ -4145,7 +4145,7 @@
       {
         "word": "autonomía",
         "translation": "English support: autonomía",
-        "definition": "Término clave para comprender «Aprender con IA sin entregar el pensamiento» y analizar analizar usos de inteligencia artificial en el aprendizaje.",
+        "definition": "Término clave para comprender «Aprender con IA sin entregar el pensamiento» y analizar explorar cómo la ia transforma la memoria, el criterio y la toma de decisiones.",
         "example": "Aunque «autonomía» parece una decisión individual, conviene considerar «sesgo» y «verificar». Esta frase sitúa «autonomía» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 1
@@ -4153,7 +4153,7 @@
       {
         "word": "sesgo",
         "translation": "English support: sesgo",
-        "definition": "Término clave para comprender «Aprender con IA sin entregar el pensamiento» y analizar analizar usos de inteligencia artificial en el aprendizaje.",
+        "definition": "Término clave para comprender «Aprender con IA sin entregar el pensamiento» y analizar explorar cómo la ia transforma la memoria, el criterio y la toma de decisiones.",
         "example": "Aunque «autonomía» parece una decisión individual, conviene considerar «sesgo» y «verificar». Esta frase sitúa «sesgo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 2
@@ -4161,7 +4161,7 @@
       {
         "word": "verificar",
         "translation": "English support: verificar",
-        "definition": "Término clave para comprender «Aprender con IA sin entregar el pensamiento» y analizar analizar usos de inteligencia artificial en el aprendizaje.",
+        "definition": "Término clave para comprender «Aprender con IA sin entregar el pensamiento» y analizar explorar cómo la ia transforma la memoria, el criterio y la toma de decisiones.",
         "example": "Aunque «autonomía» parece una decisión individual, conviene considerar «sesgo» y «verificar». Esta frase sitúa «verificar» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 3
@@ -4169,7 +4169,7 @@
       {
         "word": "evidencia",
         "translation": "English support: evidencia",
-        "definition": "Término clave para comprender «Aprender con IA sin entregar el pensamiento» y analizar analizar usos de inteligencia artificial en el aprendizaje.",
+        "definition": "Término clave para comprender «Aprender con IA sin entregar el pensamiento» y analizar explorar cómo la ia transforma la memoria, el criterio y la toma de decisiones.",
         "example": "Aunque «autonomía» parece una decisión individual, conviene considerar «sesgo» y «verificar». Esta frase sitúa «evidencia» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 4
@@ -4177,7 +4177,7 @@
       {
         "word": "trazabilidad",
         "translation": "English support: trazabilidad",
-        "definition": "Término clave para comprender «Aprender con IA sin entregar el pensamiento» y analizar analizar usos de inteligencia artificial en el aprendizaje.",
+        "definition": "Término clave para comprender «Aprender con IA sin entregar el pensamiento» y analizar explorar cómo la ia transforma la memoria, el criterio y la toma de decisiones.",
         "example": "Aunque «autonomía» parece una decisión individual, conviene considerar «sesgo» y «verificar». Esta frase sitúa «trazabilidad» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 5
@@ -4185,7 +4185,7 @@
       {
         "word": "criterio",
         "translation": "English support: criterio",
-        "definition": "Término clave para comprender «Aprender con IA sin entregar el pensamiento» y analizar analizar usos de inteligencia artificial en el aprendizaje.",
+        "definition": "Término clave para comprender «Aprender con IA sin entregar el pensamiento» y analizar explorar cómo la ia transforma la memoria, el criterio y la toma de decisiones.",
         "example": "Aunque «autonomía» parece una decisión individual, conviene considerar «sesgo» y «verificar». Esta frase sitúa «criterio» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 6
@@ -4198,7 +4198,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «IA y educación»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «¿La inteligencia artificial está cambiando nuestra manera de pensar?»?",
         "options": [
           "desayuno",
           "autonomía",
@@ -4209,7 +4209,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «IA y educación»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «¿La inteligencia artificial está cambiando nuestra manera de pensar?»?",
         "options": [
           "desayuno",
           "sesgo",
@@ -4220,7 +4220,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «IA y educación»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «¿La inteligencia artificial está cambiando nuestra manera de pensar?»?",
         "options": [
           "desayuno",
           "verificar",
@@ -4231,7 +4231,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «IA y educación»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «¿La inteligencia artificial está cambiando nuestra manera de pensar?»?",
         "options": [
           "desayuno",
           "evidencia",
@@ -4242,7 +4242,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «IA y educación»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «¿La inteligencia artificial está cambiando nuestra manera de pensar?»?",
         "options": [
           "desayuno",
           "trazabilidad",
@@ -4253,7 +4253,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «IA y educación»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «¿La inteligencia artificial está cambiando nuestra manera de pensar?»?",
         "options": [
           "desayuno",
           "criterio",
@@ -4269,7 +4269,7 @@
     "level": "C2",
     "skill": "vocabulary",
     "unitId": "ambiguedad-y-sentido",
-    "title": "Vocabulario · El Mundial 2026: más que un partido",
+    "title": "Vocabulario · Cómo los algoritmos deciden lo que ves cada día",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 25,
@@ -4282,50 +4282,50 @@
     "phrases": [],
     "vocabulary": [
       {
-        "word": "afición",
-        "translation": "English support: afición",
-        "definition": "Término clave para comprender «El Mundial 2026: más que un partido» y analizar analizar cómo un gran evento deportivo organiza identidad, negocio y ciudad.",
-        "example": "Aunque «afición» parece una decisión individual, conviene considerar «sede» y «patrocinio». Esta frase sitúa «afición» dentro del tema de la unidad.",
+        "word": "algoritmo",
+        "translation": "English support: algoritmo",
+        "definition": "Término clave para comprender «Cómo los algoritmos deciden lo que ves cada día» y analizar investigar cómo las plataformas ordenan noticias, videos y recomendaciones.",
+        "example": "Aunque «algoritmo» parece una decisión individual, conviene considerar «recomendación» y «perfil». Esta frase sitúa «algoritmo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 1
       },
       {
-        "word": "sede",
-        "translation": "English support: sede",
-        "definition": "Término clave para comprender «El Mundial 2026: más que un partido» y analizar analizar cómo un gran evento deportivo organiza identidad, negocio y ciudad.",
-        "example": "Aunque «afición» parece una decisión individual, conviene considerar «sede» y «patrocinio». Esta frase sitúa «sede» dentro del tema de la unidad.",
+        "word": "recomendación",
+        "translation": "English support: recomendación",
+        "definition": "Término clave para comprender «Cómo los algoritmos deciden lo que ves cada día» y analizar investigar cómo las plataformas ordenan noticias, videos y recomendaciones.",
+        "example": "Aunque «algoritmo» parece una decisión individual, conviene considerar «recomendación» y «perfil». Esta frase sitúa «recomendación» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 2
       },
       {
-        "word": "patrocinio",
-        "translation": "English support: patrocinio",
-        "definition": "Término clave para comprender «El Mundial 2026: más que un partido» y analizar analizar cómo un gran evento deportivo organiza identidad, negocio y ciudad.",
-        "example": "Aunque «afición» parece una decisión individual, conviene considerar «sede» y «patrocinio». Esta frase sitúa «patrocinio» dentro del tema de la unidad.",
+        "word": "perfil",
+        "translation": "English support: perfil",
+        "definition": "Término clave para comprender «Cómo los algoritmos deciden lo que ves cada día» y analizar investigar cómo las plataformas ordenan noticias, videos y recomendaciones.",
+        "example": "Aunque «algoritmo» parece una decisión individual, conviene considerar «recomendación» y «perfil». Esta frase sitúa «perfil» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 3
       },
       {
-        "word": "identidad",
-        "translation": "English support: identidad",
-        "definition": "Término clave para comprender «El Mundial 2026: más que un partido» y analizar analizar cómo un gran evento deportivo organiza identidad, negocio y ciudad.",
-        "example": "Aunque «afición» parece una decisión individual, conviene considerar «sede» y «patrocinio». Esta frase sitúa «identidad» dentro del tema de la unidad.",
+        "word": "atención",
+        "translation": "English support: atención",
+        "definition": "Término clave para comprender «Cómo los algoritmos deciden lo que ves cada día» y analizar investigar cómo las plataformas ordenan noticias, videos y recomendaciones.",
+        "example": "Aunque «algoritmo» parece una decisión individual, conviene considerar «recomendación» y «perfil». Esta frase sitúa «atención» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 4
       },
       {
-        "word": "legado",
-        "translation": "English support: legado",
-        "definition": "Término clave para comprender «El Mundial 2026: más que un partido» y analizar analizar cómo un gran evento deportivo organiza identidad, negocio y ciudad.",
-        "example": "Aunque «afición» parece una decisión individual, conviene considerar «sede» y «patrocinio». Esta frase sitúa «legado» dentro del tema de la unidad.",
+        "word": "sesgo",
+        "translation": "English support: sesgo",
+        "definition": "Término clave para comprender «Cómo los algoritmos deciden lo que ves cada día» y analizar investigar cómo las plataformas ordenan noticias, videos y recomendaciones.",
+        "example": "Aunque «algoritmo» parece una decisión individual, conviene considerar «recomendación» y «perfil». Esta frase sitúa «sesgo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 5
       },
       {
-        "word": "representación",
-        "translation": "English support: representación",
-        "definition": "Término clave para comprender «El Mundial 2026: más que un partido» y analizar analizar cómo un gran evento deportivo organiza identidad, negocio y ciudad.",
-        "example": "Aunque «afición» parece una decisión individual, conviene considerar «sede» y «patrocinio». Esta frase sitúa «representación» dentro del tema de la unidad.",
+        "word": "opacidad",
+        "translation": "English support: opacidad",
+        "definition": "Término clave para comprender «Cómo los algoritmos deciden lo que ves cada día» y analizar investigar cómo las plataformas ordenan noticias, videos y recomendaciones.",
+        "example": "Aunque «algoritmo» parece una decisión individual, conviene considerar «recomendación» y «perfil». Esta frase sitúa «opacidad» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 6
       }
@@ -4337,69 +4337,69 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «El Mundial 2026: más que un partido»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Cómo los algoritmos deciden lo que ves cada día»?",
         "options": [
           "desayuno",
-          "afición",
+          "algoritmo",
           "zapato",
           "ventana"
         ],
-        "explanation": "«afición» forma parte del vocabulario de esta unidad."
+        "explanation": "«algoritmo» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «El Mundial 2026: más que un partido»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Cómo los algoritmos deciden lo que ves cada día»?",
         "options": [
           "desayuno",
-          "sede",
+          "recomendación",
           "zapato",
           "ventana"
         ],
-        "explanation": "«sede» forma parte del vocabulario de esta unidad."
+        "explanation": "«recomendación» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «El Mundial 2026: más que un partido»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Cómo los algoritmos deciden lo que ves cada día»?",
         "options": [
           "desayuno",
-          "patrocinio",
+          "perfil",
           "zapato",
           "ventana"
         ],
-        "explanation": "«patrocinio» forma parte del vocabulario de esta unidad."
+        "explanation": "«perfil» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «El Mundial 2026: más que un partido»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Cómo los algoritmos deciden lo que ves cada día»?",
         "options": [
           "desayuno",
-          "identidad",
+          "atención",
           "zapato",
           "ventana"
         ],
-        "explanation": "«identidad» forma parte del vocabulario de esta unidad."
+        "explanation": "«atención» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «El Mundial 2026: más que un partido»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Cómo los algoritmos deciden lo que ves cada día»?",
         "options": [
           "desayuno",
-          "legado",
+          "sesgo",
           "zapato",
           "ventana"
         ],
-        "explanation": "«legado» forma parte del vocabulario de esta unidad."
+        "explanation": "«sesgo» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «El Mundial 2026: más que un partido»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Cómo los algoritmos deciden lo que ves cada día»?",
         "options": [
           "desayuno",
-          "representación",
+          "opacidad",
           "zapato",
           "ventana"
         ],
-        "explanation": "«representación» forma parte del vocabulario de esta unidad."
+        "explanation": "«opacidad» forma parte del vocabulario de esta unidad."
       }
     ]
   },
@@ -4775,9 +4775,9 @@
     "xpReward": 35,
     "orderIndex": 20,
     "estimatedMinutes": 18,
-    "description": "artículo sociolingüístico: español dominicano y registros.",
+    "description": "artículo sociolingüístico: de empleado a emprendedor digital: una historia de reinvención.",
     "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
-    "mission": "Distinguir variedad, registro y adecuación sin establecer jerarquías",
+    "mission": "Interpretar decisiones, riesgos y cambios de identidad laboral",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
@@ -4864,22 +4864,22 @@
     "level": "C2",
     "skill": "reading",
     "unitId": "humor-e-ironia",
-    "title": "Videojuegos: jugar, gastar y pertenecer",
+    "title": "Dentro de una empresa de inteligencia artificial",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 35,
     "orderIndex": 20,
     "estimatedMinutes": 18,
-    "description": "ensayo sobre ocio digital: videojuegos: jugar, gastar y pertenecer.",
+    "description": "podcast tecnológico: dentro de una empresa de inteligencia artificial.",
     "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
-    "mission": "Reconocer diseño persuasivo, presión de grupo y consumo fragmentado",
+    "mission": "Interpretar innovación, competencia y responsabilidad desde dentro",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Videojuegos: jugar, gastar y pertenecer",
-      "text": "Una broma viaja por redes más rápido que el contexto que la hacía inteligible.\n\nLa ironía depende de quién habla, quién recibe el mensaje, qué desigualdades están en juego y si quienes son objeto de la burla pueden responder.\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «microtransacción», «recompensa» y «azar» no son adornos: permiten describir el problema con mayor precisión.\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, ironía, eco y discurso polifónico ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.\n\nHay además una dificultad de segundo orden: los marcos con que se mide el problema pueden inclinar la conclusión. Un indicador hace visible una parte de la realidad y puede dejar otra fuera; una fuente autorizada merece atención, pero no elimina la necesidad de examinar su método, su alcance y sus intereses. El lector experto no busca una neutralidad imposible, sino criterios explícitos para comparar argumentos.\n\nEsto tiene consecuencias prácticas. Las decisiones sobre examinar los incentivos de compra dentro de los videojuegos deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: reconocer diseño persuasivo, presión de grupo y consumo fragmentado. Hablar de humor, poder y responsabilidad comunicativa supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.",
+      "title": "Dentro de una empresa de inteligencia artificial",
+      "text": "Una broma viaja por redes más rápido que el contexto que la hacía inteligible.\n\nLa ironía depende de quién habla, quién recibe el mensaje, qué desigualdades están en juego y si quienes son objeto de la burla pueden responder.\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «modelo», «entrenamiento» y «datos» no son adornos: permiten describir el problema con mayor precisión.\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, ironía, eco y discurso polifónico ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.\n\nHay además una dificultad de segundo orden: los marcos con que se mide el problema pueden inclinar la conclusión. Un indicador hace visible una parte de la realidad y puede dejar otra fuera; una fuente autorizada merece atención, pero no elimina la necesidad de examinar su método, su alcance y sus intereses. El lector experto no busca una neutralidad imposible, sino criterios explícitos para comparar argumentos.\n\nEsto tiene consecuencias prácticas. Las decisiones sobre entrar en las tensiones éticas y operativas de una compañía de ia deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: interpretar innovación, competencia y responsabilidad desde dentro. Hablar de humor, poder y responsabilidad comunicativa supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.",
       "questions": [
         "¿Cuál es el problema central que analiza la lectura?",
         "¿Qué exige el texto antes de aceptar una conclusión?",
@@ -5667,33 +5667,33 @@
     "level": "C1",
     "skill": "listening",
     "unitId": "retorica-publica",
-    "title": "Escucha · Un acento no es una falta",
+    "title": "Escucha · De empleado a emprendedor digital: una historia de reinvención",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 30,
     "orderIndex": 21,
     "estimatedMinutes": 14,
-    "description": "Crónica de audio conectada con el Reading «Un acento no es una falta».",
+    "description": "Entrevista sobre «De empleado a emprendedor digital: una historia de reinvención».",
     "intro": "Escucha una adaptación integral del tema antes de consultar la transcripción.",
     "mission": "Reconoce cómo el vocabulario y variación, registro y adecuación pragmática organizan una explicación oral compleja.",
     "grammar": "",
     "phrases": [
-      "variedad",
-      "rasgo",
-      "hablante",
-      "Aunque «variedad» parece una decisión individual, conviene considerar «rasgo» y «hablante»."
+      "reinventarse",
+      "incertidumbre",
+      "proyecto",
+      "Aunque «reinventarse» parece una decisión individual, conviene considerar «incertidumbre» y «proyecto»."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Pocas cosas revelan tanto sobre una sociedad como la forma en que juzga una voz. En una entrevista, una exposición o un video publicado en redes, muchas personas no solo escuchan lo que alguien dice: también evalúan cómo pronuncia, qué palabras elige y si su manera de hablar se parece a la que consideran “correcta”. En República Dominicana, esa evaluación suele recaer sobre rasgos cotidianos del español dominicano. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «variedad», «rasgo» y «hablante». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «variedad» parece una decisión individual, conviene considerar «rasgo» y «hablante». Desde esta perspectiva, distinguir variedad, registro y adecuación sin establecer jerarquías no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de español dominicano y registros implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«prestigio», «regionalismo» y «adecuación»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «podcast de sociedad», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos.",
+    "transcript": "Cuando Lucía dejó un empleo estable para crear su propia tienda digital, no estaba buscando una historia de éxito rápido. Estaba aprendiendo a convertir una habilidad en un proyecto, a convivir con la incertidumbre y a tomar decisiones sin un manual. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «reinventarse», «incertidumbre» y «proyecto». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «reinventarse» parece una decisión individual, conviene considerar «incertidumbre» y «proyecto». Desde esta perspectiva, interpretar decisiones, riesgos y cambios de identidad laboral no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de de empleado a emprendedor digital: una historia de reinvención implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«riesgo», «aprendizaje» y «trayectoria»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «entrevista», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En escuchar el recorrido de una persona que rediseñó su vida profesional, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «reinventarse», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
     "extra": {
       "listeningType": "story",
       "difficulty": "C1",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "Pocas cosas revelan tanto sobre una sociedad como la forma en que juzga una voz. En una entrevista, una exposición o un video publicado en redes, muchas personas no solo escuchan lo que alguien dice: también evalúan cómo pronuncia, qué palabras elige y si su manera de hablar se parece a la que consideran “correcta”. En República Dominicana, esa evaluación suele recaer sobre rasgos cotidianos del español dominicano. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «variedad», «rasgo» y «hablante». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «variedad» parece una decisión individual, conviene considerar «rasgo» y «hablante». Desde esta perspectiva, distinguir variedad, registro y adecuación sin establecer jerarquías no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de español dominicano y registros implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«prestigio», «regionalismo» y «adecuación»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «podcast de sociedad», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos.",
+      "transcript": "Cuando Lucía dejó un empleo estable para crear su propia tienda digital, no estaba buscando una historia de éxito rápido. Estaba aprendiendo a convertir una habilidad en un proyecto, a convivir con la incertidumbre y a tomar decisiones sin un manual. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «reinventarse», «incertidumbre» y «proyecto». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «reinventarse» parece una decisión individual, conviene considerar «incertidumbre» y «proyecto». Desde esta perspectiva, interpretar decisiones, riesgos y cambios de identidad laboral no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de de empleado a emprendedor digital: una historia de reinvención implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«riesgo», «aprendizaje» y «trayectoria»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «entrevista», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En escuchar el recorrido de una persona que rediseñó su vida profesional, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «reinventarse», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
       "listeningComprehension": {
         "id": "spanish-c1-retorica-publica-listening-comprehension",
         "passingScore": 70,
@@ -5846,33 +5846,33 @@
     "level": "C2",
     "skill": "listening",
     "unitId": "humor-e-ironia",
-    "title": "Escucha · Videojuegos: jugar, gastar y pertenecer",
+    "title": "Escucha · Dentro de una empresa de inteligencia artificial",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 30,
     "orderIndex": 21,
     "estimatedMinutes": 14,
-    "description": "Crónica de audio conectada con el Reading «Videojuegos: jugar, gastar y pertenecer».",
+    "description": "Podcast tecnológico sobre «Dentro de una empresa de inteligencia artificial».",
     "intro": "Escucha una adaptación integral del tema antes de consultar la transcripción.",
     "mission": "Reconoce cómo el vocabulario y ironía, eco y discurso polifónico organizan una explicación oral compleja.",
     "grammar": "",
     "phrases": [
-      "microtransacción",
-      "recompensa",
-      "azar",
-      "Aunque «microtransacción» parece una decisión individual, conviene considerar «recompensa» y «azar»."
+      "modelo",
+      "entrenamiento",
+      "datos",
+      "Aunque «modelo» parece una decisión individual, conviene considerar «entrenamiento» y «datos»."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Una broma viaja por redes más rápido que el contexto que la hacía inteligible. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «microtransacción», «recompensa» y «azar». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «microtransacción» parece una decisión individual, conviene considerar «recompensa» y «azar». Desde esta perspectiva, reconocer diseño persuasivo, presión de grupo y consumo fragmentado no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de videojuegos: jugar, gastar y pertenecer implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«comunidad», «impulso» y «pertenencia»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «ensayo sonoro», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos.",
+    "transcript": "Dentro de una empresa de inteligencia artificial, la promesa de lanzar antes que la competencia convive con conversaciones mucho menos visibles: qué datos se aceptan, qué errores son tolerables y quién responde cuando el sistema falla. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «modelo», «entrenamiento» y «datos». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «modelo» parece una decisión individual, conviene considerar «entrenamiento» y «datos». Desde esta perspectiva, interpretar innovación, competencia y responsabilidad desde dentro no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de dentro de una empresa de inteligencia artificial implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«despliegue», «supervisión» y «riesgo»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «podcast tecnológico», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En entrar en las tensiones éticas y operativas de una compañía de ia, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «modelo», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
     "extra": {
       "listeningType": "story",
       "difficulty": "C2",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "Una broma viaja por redes más rápido que el contexto que la hacía inteligible. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «microtransacción», «recompensa» y «azar». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «microtransacción» parece una decisión individual, conviene considerar «recompensa» y «azar». Desde esta perspectiva, reconocer diseño persuasivo, presión de grupo y consumo fragmentado no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de videojuegos: jugar, gastar y pertenecer implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«comunidad», «impulso» y «pertenencia»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «ensayo sonoro», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos.",
+      "transcript": "Dentro de una empresa de inteligencia artificial, la promesa de lanzar antes que la competencia convive con conversaciones mucho menos visibles: qué datos se aceptan, qué errores son tolerables y quién responde cuando el sistema falla. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «modelo», «entrenamiento» y «datos». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «modelo» parece una decisión individual, conviene considerar «entrenamiento» y «datos». Desde esta perspectiva, interpretar innovación, competencia y responsabilidad desde dentro no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de dentro de una empresa de inteligencia artificial implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«despliegue», «supervisión» y «riesgo»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «podcast tecnológico», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En entrar en las tensiones éticas y operativas de una compañía de ia, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «modelo», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
       "listeningComprehension": {
         "id": "spanish-c2-humor-e-ironia-listening-comprehension",
         "passingScore": 70,
@@ -6222,14 +6222,14 @@
     "level": "C1",
     "skill": "speaking",
     "unitId": "retorica-publica",
-    "title": "Habla · Español dominicano y registros",
+    "title": "Habla · De empleado a emprendedor digital: una historia de reinvención",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 30,
     "orderIndex": 22,
     "estimatedMinutes": 14,
     "description": "Responde oralmente dentro del escenario de la unidad.",
-    "intro": "Examinar prejuicios sobre acentos y formas de hablar",
+    "intro": "Escuchar el recorrido de una persona que rediseñó su vida profesional",
     "mission": "Graba una respuesta de 45–90 segundos: presenta tu propuesta, justifica dos razones y reconoce una posible dificultad.",
     "grammar": "",
     "phrases": [
@@ -6242,7 +6242,7 @@
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "¿Qué propones ante esta situación: examinar prejuicios sobre acentos y formas de hablar?",
+        "line": "¿Qué propones ante esta situación: escuchar el recorrido de una persona que rediseñó su vida profesional?",
         "translation": "What do you propose in this situation?"
       },
       {
@@ -6257,11 +6257,11 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Explica cómo resolverías este reto: Examinar prejuicios sobre acentos y formas de hablar."
+        "prompt": "Explica cómo resolverías este reto: Escuchar el recorrido de una persona que rediseñó su vida profesional."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos palabras: variedad, rasgo, hablante."
+        "prompt": "Usa al menos dos palabras: reinventarse, incertidumbre, proyecto."
       }
     ]
   },
@@ -6270,14 +6270,14 @@
     "level": "C2",
     "skill": "speaking",
     "unitId": "humor-e-ironia",
-    "title": "Habla · Videojuegos: jugar, gastar y pertenecer",
+    "title": "Habla · Dentro de una empresa de inteligencia artificial",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 30,
     "orderIndex": 22,
     "estimatedMinutes": 14,
     "description": "Responde oralmente dentro del escenario de la unidad.",
-    "intro": "Examinar los incentivos de compra dentro de los videojuegos",
+    "intro": "Entrar en las tensiones éticas y operativas de una compañía de IA",
     "mission": "Graba una respuesta de 45–90 segundos: presenta tu propuesta, justifica dos razones y reconoce una posible dificultad.",
     "grammar": "",
     "phrases": [
@@ -6290,7 +6290,7 @@
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "¿Qué propones ante esta situación: examinar los incentivos de compra dentro de los videojuegos?",
+        "line": "¿Qué propones ante esta situación: entrar en las tensiones éticas y operativas de una compañía de ia?",
         "translation": "What do you propose in this situation?"
       },
       {
@@ -6305,11 +6305,11 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Explica cómo resolverías este reto: Examinar los incentivos de compra dentro de los videojuegos."
+        "prompt": "Explica cómo resolverías este reto: Entrar en las tensiones éticas y operativas de una compañía de IA."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos palabras: microtransacción, recompensa, azar."
+        "prompt": "Usa al menos dos palabras: modelo, entrenamiento, datos."
       }
     ]
   },
@@ -6457,7 +6457,7 @@
     "level": "C1",
     "skill": "writing",
     "unitId": "retorica-publica",
-    "title": "Escribe · Español dominicano y registros",
+    "title": "Escribe · De empleado a emprendedor digital: una historia de reinvención",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 35,
@@ -6465,7 +6465,7 @@
     "estimatedMinutes": 18,
     "description": "Produce un texto conectado con la misión de la unidad.",
     "intro": "Planifica, redacta y revisa antes de enviar tu texto.",
-    "mission": "Escribe 230–300 palabras sobre «Examinar prejuicios sobre acentos y formas de hablar». Incluye una idea principal, razones y una conclusión.",
+    "mission": "Escribe 230–300 palabras sobre «Escuchar el recorrido de una persona que rediseñó su vida profesional». Incluye una idea principal, razones y una conclusión.",
     "grammar": "variación, registro y adecuación pragmática",
     "phrases": [
       "En primer lugar…",
@@ -6481,7 +6481,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Redacta una respuesta organizada para: Examinar prejuicios sobre acentos y formas de hablar."
+        "prompt": "Redacta una respuesta organizada para: Escuchar el recorrido de una persona que rediseñó su vida profesional."
       }
     ]
   },
@@ -6490,7 +6490,7 @@
     "level": "C2",
     "skill": "writing",
     "unitId": "humor-e-ironia",
-    "title": "Escribe · Videojuegos: jugar, gastar y pertenecer",
+    "title": "Escribe · Dentro de una empresa de inteligencia artificial",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 35,
@@ -6498,7 +6498,7 @@
     "estimatedMinutes": 18,
     "description": "Produce un texto conectado con la misión de la unidad.",
     "intro": "Planifica, redacta y revisa antes de enviar tu texto.",
-    "mission": "Escribe 230–300 palabras sobre «Examinar los incentivos de compra dentro de los videojuegos». Incluye una idea principal, razones y una conclusión.",
+    "mission": "Escribe 230–300 palabras sobre «Entrar en las tensiones éticas y operativas de una compañía de IA». Incluye una idea principal, razones y una conclusión.",
     "grammar": "ironía, eco y discurso polifónico",
     "phrases": [
       "En primer lugar…",
@@ -6514,7 +6514,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Redacta una respuesta organizada para: Examinar los incentivos de compra dentro de los videojuegos."
+        "prompt": "Redacta una respuesta organizada para: Entrar en las tensiones éticas y operativas de una compañía de IA."
       }
     ]
   },
@@ -7114,14 +7114,14 @@
     "xpReward": 30,
     "orderIndex": 24,
     "estimatedMinutes": 14,
-    "description": "Aplica la forma gramatical dentro del tema «Español dominicano y registros».",
+    "description": "Aplica la forma gramatical dentro del tema «De empleado a emprendedor digital: una historia de reinvención».",
     "intro": "Observa cómo la gramática cambia la precisión y el matiz.",
     "mission": "Usa variación, registro y adecuación pragmática para explicar y justificar una propuesta.",
-    "grammar": "Foco: variación, registro y adecuación pragmática.\n\nUso: permite explicar el tema «Un acento no es una falta» con precisión y matiz.\n\nModelo: Aunque «variedad» parece una decisión individual, conviene considerar «rasgo» y «hablante».",
+    "grammar": "Foco: variación, registro y adecuación pragmática.\n\nUso: permite explicar el tema «Un acento no es una falta» con precisión y matiz.\n\nModelo: Aunque «reinventarse» parece una decisión individual, conviene considerar «incertidumbre» y «proyecto».",
     "phrases": [
-      "Aunque «variedad» parece una decisión individual, conviene considerar «rasgo» y «hablante».",
-      "El texto relaciona «variedad» con «rasgo».",
-      "Antes de concluir, conviene revisar «hablante»."
+      "Aunque «reinventarse» parece una decisión individual, conviene considerar «incertidumbre» y «proyecto».",
+      "El texto relaciona «reinventarse» con «incertidumbre».",
+      "Antes de concluir, conviene revisar «proyecto»."
     ],
     "vocabulary": [],
     "dialogue": [],
@@ -7162,19 +7162,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Aunque «variedad» parece una decisión individual, conviene considerar «rasgo» y «hablante»."
+                "text": "Aunque «reinventarse» parece una decisión individual, conviene considerar «incertidumbre» y «proyecto»."
               },
               {
                 "id": "o2",
-                "text": "variedad rasgo hablante."
+                "text": "reinventarse incertidumbre proyecto."
               },
               {
                 "id": "o3",
-                "text": "Porque variedad y rasgo."
+                "text": "Porque reinventarse y incertidumbre."
               },
               {
                 "id": "o4",
-                "text": "hablante sin contexto decidir."
+                "text": "proyecto sin contexto decidir."
               }
             ]
           },
@@ -7185,19 +7185,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "La evidencia ayuda a interpretar «variedad» antes de concluir."
+                "text": "La evidencia ayuda a interpretar «reinventarse» antes de concluir."
               },
               {
                 "id": "o2",
-                "text": "La evidencia «variedad» concluir antes."
+                "text": "La evidencia «reinventarse» concluir antes."
               },
               {
                 "id": "o3",
-                "text": "Interpretar evidencia porque «variedad»."
+                "text": "Interpretar evidencia porque «reinventarse»."
               },
               {
                 "id": "o4",
-                "text": "«variedad» evidencia sin."
+                "text": "«reinventarse» evidencia sin."
               }
             ]
           },
@@ -7244,10 +7244,10 @@
         "type": "mcq",
         "prompt": "¿Qué oración usa la estructura de la unidad para hablar del Reading?",
         "options": [
-          "Aunque «variedad» parece una decisión individual, conviene considerar «rasgo» y «hablante».",
-          "variedad rasgo hablante.",
-          "Porque variedad y rasgo.",
-          "hablante sin contexto decidir."
+          "Aunque «reinventarse» parece una decisión individual, conviene considerar «incertidumbre» y «proyecto».",
+          "reinventarse incertidumbre proyecto.",
+          "Porque reinventarse y incertidumbre.",
+          "proyecto sin contexto decidir."
         ],
         "explanation": "La primera opción relaciona la estructura gramatical con el tema y el vocabulario de la lección."
       },
@@ -7255,10 +7255,10 @@
         "type": "mcq",
         "prompt": "¿Qué opción mantiene mejor el sentido del texto?",
         "options": [
-          "La evidencia ayuda a interpretar «variedad» antes de concluir.",
-          "La evidencia «variedad» concluir antes.",
-          "Interpretar evidencia porque «variedad».",
-          "«variedad» evidencia sin."
+          "La evidencia ayuda a interpretar «reinventarse» antes de concluir.",
+          "La evidencia «reinventarse» concluir antes.",
+          "Interpretar evidencia porque «reinventarse».",
+          "«reinventarse» evidencia sin."
         ],
         "explanation": "La primera opción presenta una relación lógica y una idea completa."
       },
@@ -7286,14 +7286,14 @@
     "xpReward": 30,
     "orderIndex": 24,
     "estimatedMinutes": 14,
-    "description": "Aplica la forma gramatical dentro del tema «Videojuegos: jugar, gastar y pertenecer».",
+    "description": "Aplica la forma gramatical dentro del tema «Dentro de una empresa de inteligencia artificial».",
     "intro": "Observa cómo la gramática cambia la precisión y el matiz.",
     "mission": "Usa ironía, eco y discurso polifónico para explicar y justificar una propuesta.",
-    "grammar": "Foco: ironía, eco y discurso polifónico.\n\nUso: permite explicar el tema «Videojuegos: jugar, gastar y pertenecer» con precisión y matiz.\n\nModelo: Aunque «microtransacción» parece una decisión individual, conviene considerar «recompensa» y «azar».",
+    "grammar": "Foco: ironía, eco y discurso polifónico.\n\nUso: permite explicar el tema «Dentro de una empresa de inteligencia artificial» con precisión y matiz.\n\nModelo: Aunque «modelo» parece una decisión individual, conviene considerar «entrenamiento» y «datos».",
     "phrases": [
-      "Aunque «microtransacción» parece una decisión individual, conviene considerar «recompensa» y «azar».",
-      "El texto relaciona «microtransacción» con «recompensa».",
-      "Antes de concluir, conviene revisar «azar»."
+      "Aunque «modelo» parece una decisión individual, conviene considerar «entrenamiento» y «datos».",
+      "El texto relaciona «modelo» con «entrenamiento».",
+      "Antes de concluir, conviene revisar «datos»."
     ],
     "vocabulary": [],
     "dialogue": [],
@@ -7334,19 +7334,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Aunque «microtransacción» parece una decisión individual, conviene considerar «recompensa» y «azar»."
+                "text": "Aunque «modelo» parece una decisión individual, conviene considerar «entrenamiento» y «datos»."
               },
               {
                 "id": "o2",
-                "text": "microtransacción recompensa azar."
+                "text": "modelo entrenamiento datos."
               },
               {
                 "id": "o3",
-                "text": "Porque microtransacción y recompensa."
+                "text": "Porque modelo y entrenamiento."
               },
               {
                 "id": "o4",
-                "text": "azar sin contexto decidir."
+                "text": "datos sin contexto decidir."
               }
             ]
           },
@@ -7357,19 +7357,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "La evidencia ayuda a interpretar «microtransacción» antes de concluir."
+                "text": "La evidencia ayuda a interpretar «modelo» antes de concluir."
               },
               {
                 "id": "o2",
-                "text": "La evidencia «microtransacción» concluir antes."
+                "text": "La evidencia «modelo» concluir antes."
               },
               {
                 "id": "o3",
-                "text": "Interpretar evidencia porque «microtransacción»."
+                "text": "Interpretar evidencia porque «modelo»."
               },
               {
                 "id": "o4",
-                "text": "«microtransacción» evidencia sin."
+                "text": "«modelo» evidencia sin."
               }
             ]
           },
@@ -7416,10 +7416,10 @@
         "type": "mcq",
         "prompt": "¿Qué oración usa la estructura de la unidad para hablar del Reading?",
         "options": [
-          "Aunque «microtransacción» parece una decisión individual, conviene considerar «recompensa» y «azar».",
-          "microtransacción recompensa azar.",
-          "Porque microtransacción y recompensa.",
-          "azar sin contexto decidir."
+          "Aunque «modelo» parece una decisión individual, conviene considerar «entrenamiento» y «datos».",
+          "modelo entrenamiento datos.",
+          "Porque modelo y entrenamiento.",
+          "datos sin contexto decidir."
         ],
         "explanation": "La primera opción relaciona la estructura gramatical con el tema y el vocabulario de la lección."
       },
@@ -7427,10 +7427,10 @@
         "type": "mcq",
         "prompt": "¿Qué opción mantiene mejor el sentido del texto?",
         "options": [
-          "La evidencia ayuda a interpretar «microtransacción» antes de concluir.",
-          "La evidencia «microtransacción» concluir antes.",
-          "Interpretar evidencia porque «microtransacción».",
-          "«microtransacción» evidencia sin."
+          "La evidencia ayuda a interpretar «modelo» antes de concluir.",
+          "La evidencia «modelo» concluir antes.",
+          "Interpretar evidencia porque «modelo».",
+          "«modelo» evidencia sin."
         ],
         "explanation": "La primera opción presenta una relación lógica y una idea completa."
       },
@@ -8014,7 +8014,7 @@
     "level": "C1",
     "skill": "vocabulary",
     "unitId": "retorica-publica",
-    "title": "Vocabulario · Español dominicano y registros",
+    "title": "Vocabulario · De empleado a emprendedor digital: una historia de reinvención",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 25,
@@ -8027,50 +8027,50 @@
     "phrases": [],
     "vocabulary": [
       {
-        "word": "variedad",
-        "translation": "English support: variedad",
-        "definition": "Término clave para comprender «Un acento no es una falta» y analizar examinar prejuicios sobre acentos y formas de hablar.",
-        "example": "Aunque «variedad» parece una decisión individual, conviene considerar «rasgo» y «hablante». Esta frase sitúa «variedad» dentro del tema de la unidad.",
+        "word": "reinventarse",
+        "translation": "English support: reinventarse",
+        "definition": "Término clave para comprender «Un acento no es una falta» y analizar escuchar el recorrido de una persona que rediseñó su vida profesional.",
+        "example": "Aunque «reinventarse» parece una decisión individual, conviene considerar «incertidumbre» y «proyecto». Esta frase sitúa «reinventarse» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 1
       },
       {
-        "word": "rasgo",
-        "translation": "English support: rasgo",
-        "definition": "Término clave para comprender «Un acento no es una falta» y analizar examinar prejuicios sobre acentos y formas de hablar.",
-        "example": "Aunque «variedad» parece una decisión individual, conviene considerar «rasgo» y «hablante». Esta frase sitúa «rasgo» dentro del tema de la unidad.",
+        "word": "incertidumbre",
+        "translation": "English support: incertidumbre",
+        "definition": "Término clave para comprender «Un acento no es una falta» y analizar escuchar el recorrido de una persona que rediseñó su vida profesional.",
+        "example": "Aunque «reinventarse» parece una decisión individual, conviene considerar «incertidumbre» y «proyecto». Esta frase sitúa «incertidumbre» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 2
       },
       {
-        "word": "hablante",
-        "translation": "English support: hablante",
-        "definition": "Término clave para comprender «Un acento no es una falta» y analizar examinar prejuicios sobre acentos y formas de hablar.",
-        "example": "Aunque «variedad» parece una decisión individual, conviene considerar «rasgo» y «hablante». Esta frase sitúa «hablante» dentro del tema de la unidad.",
+        "word": "proyecto",
+        "translation": "English support: proyecto",
+        "definition": "Término clave para comprender «Un acento no es una falta» y analizar escuchar el recorrido de una persona que rediseñó su vida profesional.",
+        "example": "Aunque «reinventarse» parece una decisión individual, conviene considerar «incertidumbre» y «proyecto». Esta frase sitúa «proyecto» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 3
       },
       {
-        "word": "prestigio",
-        "translation": "English support: prestigio",
-        "definition": "Término clave para comprender «Un acento no es una falta» y analizar examinar prejuicios sobre acentos y formas de hablar.",
-        "example": "Aunque «variedad» parece una decisión individual, conviene considerar «rasgo» y «hablante». Esta frase sitúa «prestigio» dentro del tema de la unidad.",
+        "word": "riesgo",
+        "translation": "English support: riesgo",
+        "definition": "Término clave para comprender «Un acento no es una falta» y analizar escuchar el recorrido de una persona que rediseñó su vida profesional.",
+        "example": "Aunque «reinventarse» parece una decisión individual, conviene considerar «incertidumbre» y «proyecto». Esta frase sitúa «riesgo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 4
       },
       {
-        "word": "regionalismo",
-        "translation": "English support: regionalismo",
-        "definition": "Término clave para comprender «Un acento no es una falta» y analizar examinar prejuicios sobre acentos y formas de hablar.",
-        "example": "Aunque «variedad» parece una decisión individual, conviene considerar «rasgo» y «hablante». Esta frase sitúa «regionalismo» dentro del tema de la unidad.",
+        "word": "aprendizaje",
+        "translation": "English support: aprendizaje",
+        "definition": "Término clave para comprender «Un acento no es una falta» y analizar escuchar el recorrido de una persona que rediseñó su vida profesional.",
+        "example": "Aunque «reinventarse» parece una decisión individual, conviene considerar «incertidumbre» y «proyecto». Esta frase sitúa «aprendizaje» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 5
       },
       {
-        "word": "adecuación",
-        "translation": "English support: adecuación",
-        "definition": "Término clave para comprender «Un acento no es una falta» y analizar examinar prejuicios sobre acentos y formas de hablar.",
-        "example": "Aunque «variedad» parece una decisión individual, conviene considerar «rasgo» y «hablante». Esta frase sitúa «adecuación» dentro del tema de la unidad.",
+        "word": "trayectoria",
+        "translation": "English support: trayectoria",
+        "definition": "Término clave para comprender «Un acento no es una falta» y analizar escuchar el recorrido de una persona que rediseñó su vida profesional.",
+        "example": "Aunque «reinventarse» parece una decisión individual, conviene considerar «incertidumbre» y «proyecto». Esta frase sitúa «trayectoria» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 6
       }
@@ -8082,69 +8082,69 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Español dominicano y registros»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «De empleado a emprendedor digital: una historia de reinvención»?",
         "options": [
           "desayuno",
-          "variedad",
+          "reinventarse",
           "zapato",
           "ventana"
         ],
-        "explanation": "«variedad» forma parte del vocabulario de esta unidad."
+        "explanation": "«reinventarse» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Español dominicano y registros»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «De empleado a emprendedor digital: una historia de reinvención»?",
         "options": [
           "desayuno",
-          "rasgo",
+          "incertidumbre",
           "zapato",
           "ventana"
         ],
-        "explanation": "«rasgo» forma parte del vocabulario de esta unidad."
+        "explanation": "«incertidumbre» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Español dominicano y registros»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «De empleado a emprendedor digital: una historia de reinvención»?",
         "options": [
           "desayuno",
-          "hablante",
+          "proyecto",
           "zapato",
           "ventana"
         ],
-        "explanation": "«hablante» forma parte del vocabulario de esta unidad."
+        "explanation": "«proyecto» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Español dominicano y registros»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «De empleado a emprendedor digital: una historia de reinvención»?",
         "options": [
           "desayuno",
-          "prestigio",
+          "riesgo",
           "zapato",
           "ventana"
         ],
-        "explanation": "«prestigio» forma parte del vocabulario de esta unidad."
+        "explanation": "«riesgo» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Español dominicano y registros»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «De empleado a emprendedor digital: una historia de reinvención»?",
         "options": [
           "desayuno",
-          "regionalismo",
+          "aprendizaje",
           "zapato",
           "ventana"
         ],
-        "explanation": "«regionalismo» forma parte del vocabulario de esta unidad."
+        "explanation": "«aprendizaje» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Español dominicano y registros»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «De empleado a emprendedor digital: una historia de reinvención»?",
         "options": [
           "desayuno",
-          "adecuación",
+          "trayectoria",
           "zapato",
           "ventana"
         ],
-        "explanation": "«adecuación» forma parte del vocabulario de esta unidad."
+        "explanation": "«trayectoria» forma parte del vocabulario de esta unidad."
       }
     ]
   },
@@ -8153,7 +8153,7 @@
     "level": "C2",
     "skill": "vocabulary",
     "unitId": "humor-e-ironia",
-    "title": "Vocabulario · Videojuegos: jugar, gastar y pertenecer",
+    "title": "Vocabulario · Dentro de una empresa de inteligencia artificial",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 25,
@@ -8166,50 +8166,50 @@
     "phrases": [],
     "vocabulary": [
       {
-        "word": "microtransacción",
-        "translation": "English support: microtransacción",
-        "definition": "Término clave para comprender «Videojuegos: jugar, gastar y pertenecer» y analizar examinar los incentivos de compra dentro de los videojuegos.",
-        "example": "Aunque «microtransacción» parece una decisión individual, conviene considerar «recompensa» y «azar». Esta frase sitúa «microtransacción» dentro del tema de la unidad.",
+        "word": "modelo",
+        "translation": "English support: modelo",
+        "definition": "Término clave para comprender «Dentro de una empresa de inteligencia artificial» y analizar entrar en las tensiones éticas y operativas de una compañía de ia.",
+        "example": "Aunque «modelo» parece una decisión individual, conviene considerar «entrenamiento» y «datos». Esta frase sitúa «modelo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 1
       },
       {
-        "word": "recompensa",
-        "translation": "English support: recompensa",
-        "definition": "Término clave para comprender «Videojuegos: jugar, gastar y pertenecer» y analizar examinar los incentivos de compra dentro de los videojuegos.",
-        "example": "Aunque «microtransacción» parece una decisión individual, conviene considerar «recompensa» y «azar». Esta frase sitúa «recompensa» dentro del tema de la unidad.",
+        "word": "entrenamiento",
+        "translation": "English support: entrenamiento",
+        "definition": "Término clave para comprender «Dentro de una empresa de inteligencia artificial» y analizar entrar en las tensiones éticas y operativas de una compañía de ia.",
+        "example": "Aunque «modelo» parece una decisión individual, conviene considerar «entrenamiento» y «datos». Esta frase sitúa «entrenamiento» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 2
       },
       {
-        "word": "azar",
-        "translation": "English support: azar",
-        "definition": "Término clave para comprender «Videojuegos: jugar, gastar y pertenecer» y analizar examinar los incentivos de compra dentro de los videojuegos.",
-        "example": "Aunque «microtransacción» parece una decisión individual, conviene considerar «recompensa» y «azar». Esta frase sitúa «azar» dentro del tema de la unidad.",
+        "word": "datos",
+        "translation": "English support: datos",
+        "definition": "Término clave para comprender «Dentro de una empresa de inteligencia artificial» y analizar entrar en las tensiones éticas y operativas de una compañía de ia.",
+        "example": "Aunque «modelo» parece una decisión individual, conviene considerar «entrenamiento» y «datos». Esta frase sitúa «datos» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 3
       },
       {
-        "word": "comunidad",
-        "translation": "English support: comunidad",
-        "definition": "Término clave para comprender «Videojuegos: jugar, gastar y pertenecer» y analizar examinar los incentivos de compra dentro de los videojuegos.",
-        "example": "Aunque «microtransacción» parece una decisión individual, conviene considerar «recompensa» y «azar». Esta frase sitúa «comunidad» dentro del tema de la unidad.",
+        "word": "despliegue",
+        "translation": "English support: despliegue",
+        "definition": "Término clave para comprender «Dentro de una empresa de inteligencia artificial» y analizar entrar en las tensiones éticas y operativas de una compañía de ia.",
+        "example": "Aunque «modelo» parece una decisión individual, conviene considerar «entrenamiento» y «datos». Esta frase sitúa «despliegue» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 4
       },
       {
-        "word": "impulso",
-        "translation": "English support: impulso",
-        "definition": "Término clave para comprender «Videojuegos: jugar, gastar y pertenecer» y analizar examinar los incentivos de compra dentro de los videojuegos.",
-        "example": "Aunque «microtransacción» parece una decisión individual, conviene considerar «recompensa» y «azar». Esta frase sitúa «impulso» dentro del tema de la unidad.",
+        "word": "supervisión",
+        "translation": "English support: supervisión",
+        "definition": "Término clave para comprender «Dentro de una empresa de inteligencia artificial» y analizar entrar en las tensiones éticas y operativas de una compañía de ia.",
+        "example": "Aunque «modelo» parece una decisión individual, conviene considerar «entrenamiento» y «datos». Esta frase sitúa «supervisión» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 5
       },
       {
-        "word": "pertenencia",
-        "translation": "English support: pertenencia",
-        "definition": "Término clave para comprender «Videojuegos: jugar, gastar y pertenecer» y analizar examinar los incentivos de compra dentro de los videojuegos.",
-        "example": "Aunque «microtransacción» parece una decisión individual, conviene considerar «recompensa» y «azar». Esta frase sitúa «pertenencia» dentro del tema de la unidad.",
+        "word": "riesgo",
+        "translation": "English support: riesgo",
+        "definition": "Término clave para comprender «Dentro de una empresa de inteligencia artificial» y analizar entrar en las tensiones éticas y operativas de una compañía de ia.",
+        "example": "Aunque «modelo» parece una decisión individual, conviene considerar «entrenamiento» y «datos». Esta frase sitúa «riesgo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 6
       }
@@ -8221,69 +8221,69 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Videojuegos: jugar, gastar y pertenecer»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Dentro de una empresa de inteligencia artificial»?",
         "options": [
           "desayuno",
-          "microtransacción",
+          "modelo",
           "zapato",
           "ventana"
         ],
-        "explanation": "«microtransacción» forma parte del vocabulario de esta unidad."
+        "explanation": "«modelo» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Videojuegos: jugar, gastar y pertenecer»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Dentro de una empresa de inteligencia artificial»?",
         "options": [
           "desayuno",
-          "recompensa",
+          "entrenamiento",
           "zapato",
           "ventana"
         ],
-        "explanation": "«recompensa» forma parte del vocabulario de esta unidad."
+        "explanation": "«entrenamiento» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Videojuegos: jugar, gastar y pertenecer»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Dentro de una empresa de inteligencia artificial»?",
         "options": [
           "desayuno",
-          "azar",
+          "datos",
           "zapato",
           "ventana"
         ],
-        "explanation": "«azar» forma parte del vocabulario de esta unidad."
+        "explanation": "«datos» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Videojuegos: jugar, gastar y pertenecer»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Dentro de una empresa de inteligencia artificial»?",
         "options": [
           "desayuno",
-          "comunidad",
+          "despliegue",
           "zapato",
           "ventana"
         ],
-        "explanation": "«comunidad» forma parte del vocabulario de esta unidad."
+        "explanation": "«despliegue» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Videojuegos: jugar, gastar y pertenecer»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Dentro de una empresa de inteligencia artificial»?",
         "options": [
           "desayuno",
-          "impulso",
+          "supervisión",
           "zapato",
           "ventana"
         ],
-        "explanation": "«impulso» forma parte del vocabulario de esta unidad."
+        "explanation": "«supervisión» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Videojuegos: jugar, gastar y pertenecer»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Dentro de una empresa de inteligencia artificial»?",
         "options": [
           "desayuno",
-          "pertenencia",
+          "riesgo",
           "zapato",
           "ventana"
         ],
-        "explanation": "«pertenencia» forma parte del vocabulario de esta unidad."
+        "explanation": "«riesgo» forma parte del vocabulario de esta unidad."
       }
     ]
   },
@@ -8666,9 +8666,9 @@
     "xpReward": 35,
     "orderIndex": 30,
     "estimatedMinutes": 18,
-    "description": "artículo de divulgación: clima, salud y resiliencia.",
+    "description": "artículo de divulgación: el día que internet desapareció durante 24 horas.",
     "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
-    "mission": "Interpretar riesgos climáticos y respuestas colectivas con perspectiva social",
+    "mission": "Relacionar dependencia digital, servicios esenciales y respuestas colectivas",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
@@ -8761,22 +8761,22 @@
     "level": "C2",
     "skill": "reading",
     "unitId": "traduccion-y-mediacion",
-    "title": "La música en español viaja distinto",
+    "title": "Un corresponsal de guerra cuenta lo que nunca salió en televisión",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 30,
     "estimatedMinutes": 18,
-    "description": "crónica cultural: la música en español viaja distinto.",
+    "description": "entrevista exclusiva: un corresponsal de guerra cuenta lo que nunca salió en televisión.",
     "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
-    "mission": "Reformular identidad cultural sin convertirla en estereotipo",
+    "mission": "Distinguir testimonio, censura, seguridad y responsabilidad periodística",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "La música en español viaja distinto",
-      "text": "Migrar implica traducir formularios, normas, recuerdos y maneras de nombrar lo cotidiano.\n\nLa mediación de calidad no convierte las diferencias culturales en errores: explica lo necesario, conserva matices y reconoce qué pierde una equivalencia apresurada.\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «escena», «colaboración» y «audiencia» no son adornos: permiten describir el problema con mayor precisión.\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, equivalencia pragmática y transposición ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.\n\nHay además una dificultad de segundo orden: los marcos con que se mide el problema pueden inclinar la conclusión. Un indicador hace visible una parte de la realidad y puede dejar otra fuera; una fuente autorizada merece atención, pero no elimina la necesidad de examinar su método, su alcance y sus intereses. El lector experto no busca una neutralidad imposible, sino criterios explícitos para comparar argumentos.\n\nEsto tiene consecuencias prácticas. Las decisiones sobre mediar entre una escena local y una audiencia global deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: reformular identidad cultural sin convertirla en estereotipo. Hablar de traducción, dignidad y comprensión intercultural supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.",
+      "title": "Un corresponsal de guerra cuenta lo que nunca salió en televisión",
+      "text": "Migrar implica traducir formularios, normas, recuerdos y maneras de nombrar lo cotidiano.\n\nLa mediación de calidad no convierte las diferencias culturales en errores: explica lo necesario, conserva matices y reconoce qué pierde una equivalencia apresurada.\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «corresponsal», «conflicto» y «testimonio» no son adornos: permiten describir el problema con mayor precisión.\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, equivalencia pragmática y transposición ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.\n\nHay además una dificultad de segundo orden: los marcos con que se mide el problema pueden inclinar la conclusión. Un indicador hace visible una parte de la realidad y puede dejar otra fuera; una fuente autorizada merece atención, pero no elimina la necesidad de examinar su método, su alcance y sus intereses. El lector experto no busca una neutralidad imposible, sino criterios explícitos para comparar argumentos.\n\nEsto tiene consecuencias prácticas. Las decisiones sobre escuchar el relato de quien informa desde un conflicto armado deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: distinguir testimonio, censura, seguridad y responsabilidad periodística. Hablar de traducción, dignidad y comprensión intercultural supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.",
       "questions": [
         "¿Cuál es el problema central que analiza la lectura?",
         "¿Qué exige el texto antes de aceptar una conclusión?",
@@ -9566,33 +9566,33 @@
     "level": "C1",
     "skill": "listening",
     "unitId": "periodismo-de-investigacion",
-    "title": "Escucha · Cuando el calor también entra al aula",
+    "title": "Escucha · El día que Internet desapareció durante 24 horas",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
     "orderIndex": 31,
     "estimatedMinutes": 14,
-    "description": "Crónica de audio conectada con el Reading «Cuando el calor también entra al aula».",
+    "description": "Storytelling sobre «El día que Internet desapareció durante 24 horas».",
     "intro": "Escucha una adaptación integral del tema antes de consultar la transcripción.",
     "mission": "Reconoce cómo el vocabulario y conectores causales, consecutivos y concesivos organizan una explicación oral compleja.",
     "grammar": "",
     "phrases": [
-      "vulnerabilidad",
-      "adaptación",
-      "resiliencia",
-      "Aunque «vulnerabilidad» parece una decisión individual, conviene considerar «adaptación» y «resiliencia»."
+      "conexión",
+      "colapso",
+      "infraestructura",
+      "Aunque «conexión» parece una decisión individual, conviene considerar «colapso» y «infraestructura»."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "El cambio climático suele aparecer en conversaciones públicas a través de imágenes extremas: un huracán, una inundación o una playa cubierta de sargazo. Sin embargo, también se manifiesta de formas menos espectaculares y más cotidianas. Un aula con temperaturas difíciles de soportar, una familia que debe reorganizar su rutina por lluvias intensas o una comunidad que interrumpe sus actividades por falta de agua son experiencias que afectan directamente la educación, la salud y el bienestar. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «vulnerabilidad», «adaptación» y «resiliencia». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «vulnerabilidad» parece una decisión individual, conviene considerar «adaptación» y «resiliencia». Desde esta perspectiva, interpretar riesgos climáticos y respuestas colectivas con perspectiva social no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de clima, salud y resiliencia implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«infraestructura», «prevención» y «desigualdad»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «reportaje educativo», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos.",
+    "transcript": "A las ocho de la mañana, una ciudad entera descubrió que Internet había desaparecido. No funcionaban los pagos, las clases virtuales ni los mensajes; en pocas horas, una comodidad invisible se convirtió en una infraestructura esencial. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «conexión», «colapso» y «infraestructura». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «conexión» parece una decisión individual, conviene considerar «colapso» y «infraestructura». Desde esta perspectiva, relacionar dependencia digital, servicios esenciales y respuestas colectivas no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de el día que internet desapareció durante 24 horas implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«emergencia», «alternativa» y «dependencia»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «storytelling», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En seguir las consecuencias cotidianas de una caída total de conexión, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «conexión», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
     "extra": {
       "listeningType": "story",
       "difficulty": "C1",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "El cambio climático suele aparecer en conversaciones públicas a través de imágenes extremas: un huracán, una inundación o una playa cubierta de sargazo. Sin embargo, también se manifiesta de formas menos espectaculares y más cotidianas. Un aula con temperaturas difíciles de soportar, una familia que debe reorganizar su rutina por lluvias intensas o una comunidad que interrumpe sus actividades por falta de agua son experiencias que afectan directamente la educación, la salud y el bienestar. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «vulnerabilidad», «adaptación» y «resiliencia». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «vulnerabilidad» parece una decisión individual, conviene considerar «adaptación» y «resiliencia». Desde esta perspectiva, interpretar riesgos climáticos y respuestas colectivas con perspectiva social no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de clima, salud y resiliencia implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«infraestructura», «prevención» y «desigualdad»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «reportaje educativo», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos.",
+      "transcript": "A las ocho de la mañana, una ciudad entera descubrió que Internet había desaparecido. No funcionaban los pagos, las clases virtuales ni los mensajes; en pocas horas, una comodidad invisible se convirtió en una infraestructura esencial. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «conexión», «colapso» y «infraestructura». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «conexión» parece una decisión individual, conviene considerar «colapso» y «infraestructura». Desde esta perspectiva, relacionar dependencia digital, servicios esenciales y respuestas colectivas no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de el día que internet desapareció durante 24 horas implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«emergencia», «alternativa» y «dependencia»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «storytelling», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En seguir las consecuencias cotidianas de una caída total de conexión, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «conexión», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
       "listeningComprehension": {
         "id": "spanish-c1-periodismo-de-investigacion-listening-comprehension",
         "passingScore": 70,
@@ -9745,33 +9745,33 @@
     "level": "C2",
     "skill": "listening",
     "unitId": "traduccion-y-mediacion",
-    "title": "Escucha · La música en español viaja distinto",
+    "title": "Escucha · Un corresponsal de guerra cuenta lo que nunca salió en televisión",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
     "orderIndex": 31,
     "estimatedMinutes": 14,
-    "description": "Crónica de audio conectada con el Reading «La música en español viaja distinto».",
+    "description": "Entrevista exclusiva sobre «Un corresponsal de guerra cuenta lo que nunca salió en televisión».",
     "intro": "Escucha una adaptación integral del tema antes de consultar la transcripción.",
     "mission": "Reconoce cómo el vocabulario y equivalencia pragmática y transposición organizan una explicación oral compleja.",
     "grammar": "",
     "phrases": [
-      "escena",
-      "colaboración",
-      "audiencia",
-      "Aunque «escena» parece una decisión individual, conviene considerar «colaboración» y «audiencia»."
+      "corresponsal",
+      "conflicto",
+      "testimonio",
+      "Aunque «corresponsal» parece una decisión individual, conviene considerar «conflicto» y «testimonio»."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Migrar implica traducir formularios, normas, recuerdos y maneras de nombrar lo cotidiano. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «escena», «colaboración» y «audiencia». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «escena» parece una decisión individual, conviene considerar «colaboración» y «audiencia». Desde esta perspectiva, reformular identidad cultural sin convertirla en estereotipo no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de la música en español viaja distinto implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«circulación», «repertorio» y «pertenencia»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «crónica de mediación», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada.",
+    "transcript": "Un corresponsal de guerra aprende pronto que la cámara no registra todo. Hay escenas que no se filman por seguridad, fuentes que no pueden ser nombradas y silencios que también forman parte de la historia. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «corresponsal», «conflicto» y «testimonio». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «corresponsal» parece una decisión individual, conviene considerar «conflicto» y «testimonio». Desde esta perspectiva, distinguir testimonio, censura, seguridad y responsabilidad periodística no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de un corresponsal de guerra cuenta lo que nunca salió en televisión implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«censura», «fuente» y «riesgo»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «entrevista exclusiva», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En escuchar el relato de quien informa desde un conflicto armado, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «corresponsal», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
     "extra": {
       "listeningType": "story",
       "difficulty": "C2",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "Migrar implica traducir formularios, normas, recuerdos y maneras de nombrar lo cotidiano. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «escena», «colaboración» y «audiencia». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «escena» parece una decisión individual, conviene considerar «colaboración» y «audiencia». Desde esta perspectiva, reformular identidad cultural sin convertirla en estereotipo no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de la música en español viaja distinto implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«circulación», «repertorio» y «pertenencia»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «crónica de mediación», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada.",
+      "transcript": "Un corresponsal de guerra aprende pronto que la cámara no registra todo. Hay escenas que no se filman por seguridad, fuentes que no pueden ser nombradas y silencios que también forman parte de la historia. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «corresponsal», «conflicto» y «testimonio». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «corresponsal» parece una decisión individual, conviene considerar «conflicto» y «testimonio». Desde esta perspectiva, distinguir testimonio, censura, seguridad y responsabilidad periodística no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de un corresponsal de guerra cuenta lo que nunca salió en televisión implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«censura», «fuente» y «riesgo»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «entrevista exclusiva», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En escuchar el relato de quien informa desde un conflicto armado, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «corresponsal», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
       "listeningComprehension": {
         "id": "spanish-c2-traduccion-y-mediacion-listening-comprehension",
         "passingScore": 70,
@@ -10121,14 +10121,14 @@
     "level": "C1",
     "skill": "speaking",
     "unitId": "periodismo-de-investigacion",
-    "title": "Habla · Clima, salud y resiliencia",
+    "title": "Habla · El día que Internet desapareció durante 24 horas",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
     "orderIndex": 32,
     "estimatedMinutes": 14,
     "description": "Responde oralmente dentro del escenario de la unidad.",
-    "intro": "Relacionar cambio climático, bienestar y educación",
+    "intro": "Seguir las consecuencias cotidianas de una caída total de conexión",
     "mission": "Graba una respuesta de 45–90 segundos: presenta tu propuesta, justifica dos razones y reconoce una posible dificultad.",
     "grammar": "",
     "phrases": [
@@ -10141,7 +10141,7 @@
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "¿Qué propones ante esta situación: relacionar cambio climático, bienestar y educación?",
+        "line": "¿Qué propones ante esta situación: seguir las consecuencias cotidianas de una caída total de conexión?",
         "translation": "What do you propose in this situation?"
       },
       {
@@ -10156,11 +10156,11 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Explica cómo resolverías este reto: Relacionar cambio climático, bienestar y educación."
+        "prompt": "Explica cómo resolverías este reto: Seguir las consecuencias cotidianas de una caída total de conexión."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos palabras: vulnerabilidad, adaptación, resiliencia."
+        "prompt": "Usa al menos dos palabras: conexión, colapso, infraestructura."
       }
     ]
   },
@@ -10169,14 +10169,14 @@
     "level": "C2",
     "skill": "speaking",
     "unitId": "traduccion-y-mediacion",
-    "title": "Habla · La música en español viaja distinto",
+    "title": "Habla · Un corresponsal de guerra cuenta lo que nunca salió en televisión",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
     "orderIndex": 32,
     "estimatedMinutes": 14,
     "description": "Responde oralmente dentro del escenario de la unidad.",
-    "intro": "Mediar entre una escena local y una audiencia global",
+    "intro": "Escuchar el relato de quien informa desde un conflicto armado",
     "mission": "Graba una respuesta de 45–90 segundos: presenta tu propuesta, justifica dos razones y reconoce una posible dificultad.",
     "grammar": "",
     "phrases": [
@@ -10189,7 +10189,7 @@
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "¿Qué propones ante esta situación: mediar entre una escena local y una audiencia global?",
+        "line": "¿Qué propones ante esta situación: escuchar el relato de quien informa desde un conflicto armado?",
         "translation": "What do you propose in this situation?"
       },
       {
@@ -10204,11 +10204,11 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Explica cómo resolverías este reto: Mediar entre una escena local y una audiencia global."
+        "prompt": "Explica cómo resolverías este reto: Escuchar el relato de quien informa desde un conflicto armado."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos palabras: escena, colaboración, audiencia."
+        "prompt": "Usa al menos dos palabras: corresponsal, conflicto, testimonio."
       }
     ]
   },
@@ -10355,7 +10355,7 @@
     "level": "C1",
     "skill": "writing",
     "unitId": "periodismo-de-investigacion",
-    "title": "Escribe · Clima, salud y resiliencia",
+    "title": "Escribe · El día que Internet desapareció durante 24 horas",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
@@ -10363,7 +10363,7 @@
     "estimatedMinutes": 18,
     "description": "Produce un texto conectado con la misión de la unidad.",
     "intro": "Planifica, redacta y revisa antes de enviar tu texto.",
-    "mission": "Escribe 230–300 palabras sobre «Relacionar cambio climático, bienestar y educación». Incluye una idea principal, razones y una conclusión.",
+    "mission": "Escribe 230–300 palabras sobre «Seguir las consecuencias cotidianas de una caída total de conexión». Incluye una idea principal, razones y una conclusión.",
     "grammar": "conectores causales, consecutivos y concesivos",
     "phrases": [
       "En primer lugar…",
@@ -10379,7 +10379,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Redacta una respuesta organizada para: Relacionar cambio climático, bienestar y educación."
+        "prompt": "Redacta una respuesta organizada para: Seguir las consecuencias cotidianas de una caída total de conexión."
       }
     ]
   },
@@ -10388,7 +10388,7 @@
     "level": "C2",
     "skill": "writing",
     "unitId": "traduccion-y-mediacion",
-    "title": "Escribe · La música en español viaja distinto",
+    "title": "Escribe · Un corresponsal de guerra cuenta lo que nunca salió en televisión",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
@@ -10396,7 +10396,7 @@
     "estimatedMinutes": 18,
     "description": "Produce un texto conectado con la misión de la unidad.",
     "intro": "Planifica, redacta y revisa antes de enviar tu texto.",
-    "mission": "Escribe 230–300 palabras sobre «Mediar entre una escena local y una audiencia global». Incluye una idea principal, razones y una conclusión.",
+    "mission": "Escribe 230–300 palabras sobre «Escuchar el relato de quien informa desde un conflicto armado». Incluye una idea principal, razones y una conclusión.",
     "grammar": "equivalencia pragmática y transposición",
     "phrases": [
       "En primer lugar…",
@@ -10412,7 +10412,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Redacta una respuesta organizada para: Mediar entre una escena local y una audiencia global."
+        "prompt": "Redacta una respuesta organizada para: Escuchar el relato de quien informa desde un conflicto armado."
       }
     ]
   },
@@ -11012,14 +11012,14 @@
     "xpReward": 30,
     "orderIndex": 34,
     "estimatedMinutes": 14,
-    "description": "Aplica la forma gramatical dentro del tema «Clima, salud y resiliencia».",
+    "description": "Aplica la forma gramatical dentro del tema «El día que Internet desapareció durante 24 horas».",
     "intro": "Observa cómo la gramática cambia la precisión y el matiz.",
     "mission": "Usa conectores causales, consecutivos y concesivos para explicar y justificar una propuesta.",
-    "grammar": "Foco: conectores causales, consecutivos y concesivos.\n\nUso: permite explicar el tema «Cuando el calor también entra al aula» con precisión y matiz.\n\nModelo: Aunque «vulnerabilidad» parece una decisión individual, conviene considerar «adaptación» y «resiliencia».",
+    "grammar": "Foco: conectores causales, consecutivos y concesivos.\n\nUso: permite explicar el tema «Cuando el calor también entra al aula» con precisión y matiz.\n\nModelo: Aunque «conexión» parece una decisión individual, conviene considerar «colapso» y «infraestructura».",
     "phrases": [
-      "Aunque «vulnerabilidad» parece una decisión individual, conviene considerar «adaptación» y «resiliencia».",
-      "El texto relaciona «vulnerabilidad» con «adaptación».",
-      "Antes de concluir, conviene revisar «resiliencia»."
+      "Aunque «conexión» parece una decisión individual, conviene considerar «colapso» y «infraestructura».",
+      "El texto relaciona «conexión» con «colapso».",
+      "Antes de concluir, conviene revisar «infraestructura»."
     ],
     "vocabulary": [],
     "dialogue": [],
@@ -11060,19 +11060,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Aunque «vulnerabilidad» parece una decisión individual, conviene considerar «adaptación» y «resiliencia»."
+                "text": "Aunque «conexión» parece una decisión individual, conviene considerar «colapso» y «infraestructura»."
               },
               {
                 "id": "o2",
-                "text": "vulnerabilidad adaptación resiliencia."
+                "text": "conexión colapso infraestructura."
               },
               {
                 "id": "o3",
-                "text": "Porque vulnerabilidad y adaptación."
+                "text": "Porque conexión y colapso."
               },
               {
                 "id": "o4",
-                "text": "resiliencia sin contexto decidir."
+                "text": "infraestructura sin contexto decidir."
               }
             ]
           },
@@ -11083,19 +11083,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "La evidencia ayuda a interpretar «vulnerabilidad» antes de concluir."
+                "text": "La evidencia ayuda a interpretar «conexión» antes de concluir."
               },
               {
                 "id": "o2",
-                "text": "La evidencia «vulnerabilidad» concluir antes."
+                "text": "La evidencia «conexión» concluir antes."
               },
               {
                 "id": "o3",
-                "text": "Interpretar evidencia porque «vulnerabilidad»."
+                "text": "Interpretar evidencia porque «conexión»."
               },
               {
                 "id": "o4",
-                "text": "«vulnerabilidad» evidencia sin."
+                "text": "«conexión» evidencia sin."
               }
             ]
           },
@@ -11142,10 +11142,10 @@
         "type": "mcq",
         "prompt": "¿Qué oración usa la estructura de la unidad para hablar del Reading?",
         "options": [
-          "Aunque «vulnerabilidad» parece una decisión individual, conviene considerar «adaptación» y «resiliencia».",
-          "vulnerabilidad adaptación resiliencia.",
-          "Porque vulnerabilidad y adaptación.",
-          "resiliencia sin contexto decidir."
+          "Aunque «conexión» parece una decisión individual, conviene considerar «colapso» y «infraestructura».",
+          "conexión colapso infraestructura.",
+          "Porque conexión y colapso.",
+          "infraestructura sin contexto decidir."
         ],
         "explanation": "La primera opción relaciona la estructura gramatical con el tema y el vocabulario de la lección."
       },
@@ -11153,10 +11153,10 @@
         "type": "mcq",
         "prompt": "¿Qué opción mantiene mejor el sentido del texto?",
         "options": [
-          "La evidencia ayuda a interpretar «vulnerabilidad» antes de concluir.",
-          "La evidencia «vulnerabilidad» concluir antes.",
-          "Interpretar evidencia porque «vulnerabilidad».",
-          "«vulnerabilidad» evidencia sin."
+          "La evidencia ayuda a interpretar «conexión» antes de concluir.",
+          "La evidencia «conexión» concluir antes.",
+          "Interpretar evidencia porque «conexión».",
+          "«conexión» evidencia sin."
         ],
         "explanation": "La primera opción presenta una relación lógica y una idea completa."
       },
@@ -11184,14 +11184,14 @@
     "xpReward": 30,
     "orderIndex": 34,
     "estimatedMinutes": 14,
-    "description": "Aplica la forma gramatical dentro del tema «La música en español viaja distinto».",
+    "description": "Aplica la forma gramatical dentro del tema «Un corresponsal de guerra cuenta lo que nunca salió en televisión».",
     "intro": "Observa cómo la gramática cambia la precisión y el matiz.",
     "mission": "Usa equivalencia pragmática y transposición para explicar y justificar una propuesta.",
-    "grammar": "Foco: equivalencia pragmática y transposición.\n\nUso: permite explicar el tema «La música en español viaja distinto» con precisión y matiz.\n\nModelo: Aunque «escena» parece una decisión individual, conviene considerar «colaboración» y «audiencia».",
+    "grammar": "Foco: equivalencia pragmática y transposición.\n\nUso: permite explicar el tema «Un corresponsal de guerra cuenta lo que nunca salió en televisión» con precisión y matiz.\n\nModelo: Aunque «corresponsal» parece una decisión individual, conviene considerar «conflicto» y «testimonio».",
     "phrases": [
-      "Aunque «escena» parece una decisión individual, conviene considerar «colaboración» y «audiencia».",
-      "El texto relaciona «escena» con «colaboración».",
-      "Antes de concluir, conviene revisar «audiencia»."
+      "Aunque «corresponsal» parece una decisión individual, conviene considerar «conflicto» y «testimonio».",
+      "El texto relaciona «corresponsal» con «conflicto».",
+      "Antes de concluir, conviene revisar «testimonio»."
     ],
     "vocabulary": [],
     "dialogue": [],
@@ -11232,19 +11232,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Aunque «escena» parece una decisión individual, conviene considerar «colaboración» y «audiencia»."
+                "text": "Aunque «corresponsal» parece una decisión individual, conviene considerar «conflicto» y «testimonio»."
               },
               {
                 "id": "o2",
-                "text": "escena colaboración audiencia."
+                "text": "corresponsal conflicto testimonio."
               },
               {
                 "id": "o3",
-                "text": "Porque escena y colaboración."
+                "text": "Porque corresponsal y conflicto."
               },
               {
                 "id": "o4",
-                "text": "audiencia sin contexto decidir."
+                "text": "testimonio sin contexto decidir."
               }
             ]
           },
@@ -11255,19 +11255,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "La evidencia ayuda a interpretar «escena» antes de concluir."
+                "text": "La evidencia ayuda a interpretar «corresponsal» antes de concluir."
               },
               {
                 "id": "o2",
-                "text": "La evidencia «escena» concluir antes."
+                "text": "La evidencia «corresponsal» concluir antes."
               },
               {
                 "id": "o3",
-                "text": "Interpretar evidencia porque «escena»."
+                "text": "Interpretar evidencia porque «corresponsal»."
               },
               {
                 "id": "o4",
-                "text": "«escena» evidencia sin."
+                "text": "«corresponsal» evidencia sin."
               }
             ]
           },
@@ -11314,10 +11314,10 @@
         "type": "mcq",
         "prompt": "¿Qué oración usa la estructura de la unidad para hablar del Reading?",
         "options": [
-          "Aunque «escena» parece una decisión individual, conviene considerar «colaboración» y «audiencia».",
-          "escena colaboración audiencia.",
-          "Porque escena y colaboración.",
-          "audiencia sin contexto decidir."
+          "Aunque «corresponsal» parece una decisión individual, conviene considerar «conflicto» y «testimonio».",
+          "corresponsal conflicto testimonio.",
+          "Porque corresponsal y conflicto.",
+          "testimonio sin contexto decidir."
         ],
         "explanation": "La primera opción relaciona la estructura gramatical con el tema y el vocabulario de la lección."
       },
@@ -11325,10 +11325,10 @@
         "type": "mcq",
         "prompt": "¿Qué opción mantiene mejor el sentido del texto?",
         "options": [
-          "La evidencia ayuda a interpretar «escena» antes de concluir.",
-          "La evidencia «escena» concluir antes.",
-          "Interpretar evidencia porque «escena».",
-          "«escena» evidencia sin."
+          "La evidencia ayuda a interpretar «corresponsal» antes de concluir.",
+          "La evidencia «corresponsal» concluir antes.",
+          "Interpretar evidencia porque «corresponsal».",
+          "«corresponsal» evidencia sin."
         ],
         "explanation": "La primera opción presenta una relación lógica y una idea completa."
       },
@@ -11912,7 +11912,7 @@
     "level": "C1",
     "skill": "vocabulary",
     "unitId": "periodismo-de-investigacion",
-    "title": "Vocabulario · Clima, salud y resiliencia",
+    "title": "Vocabulario · El día que Internet desapareció durante 24 horas",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
@@ -11925,50 +11925,50 @@
     "phrases": [],
     "vocabulary": [
       {
-        "word": "vulnerabilidad",
-        "translation": "English support: vulnerabilidad",
-        "definition": "Término clave para comprender «Cuando el calor también entra al aula» y analizar relacionar cambio climático, bienestar y educación.",
-        "example": "Aunque «vulnerabilidad» parece una decisión individual, conviene considerar «adaptación» y «resiliencia». Esta frase sitúa «vulnerabilidad» dentro del tema de la unidad.",
+        "word": "conexión",
+        "translation": "English support: conexión",
+        "definition": "Término clave para comprender «Cuando el calor también entra al aula» y analizar seguir las consecuencias cotidianas de una caída total de conexión.",
+        "example": "Aunque «conexión» parece una decisión individual, conviene considerar «colapso» y «infraestructura». Esta frase sitúa «conexión» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 1
       },
       {
-        "word": "adaptación",
-        "translation": "English support: adaptación",
-        "definition": "Término clave para comprender «Cuando el calor también entra al aula» y analizar relacionar cambio climático, bienestar y educación.",
-        "example": "Aunque «vulnerabilidad» parece una decisión individual, conviene considerar «adaptación» y «resiliencia». Esta frase sitúa «adaptación» dentro del tema de la unidad.",
+        "word": "colapso",
+        "translation": "English support: colapso",
+        "definition": "Término clave para comprender «Cuando el calor también entra al aula» y analizar seguir las consecuencias cotidianas de una caída total de conexión.",
+        "example": "Aunque «conexión» parece una decisión individual, conviene considerar «colapso» y «infraestructura». Esta frase sitúa «colapso» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 2
       },
       {
-        "word": "resiliencia",
-        "translation": "English support: resiliencia",
-        "definition": "Término clave para comprender «Cuando el calor también entra al aula» y analizar relacionar cambio climático, bienestar y educación.",
-        "example": "Aunque «vulnerabilidad» parece una decisión individual, conviene considerar «adaptación» y «resiliencia». Esta frase sitúa «resiliencia» dentro del tema de la unidad.",
+        "word": "infraestructura",
+        "translation": "English support: infraestructura",
+        "definition": "Término clave para comprender «Cuando el calor también entra al aula» y analizar seguir las consecuencias cotidianas de una caída total de conexión.",
+        "example": "Aunque «conexión» parece una decisión individual, conviene considerar «colapso» y «infraestructura». Esta frase sitúa «infraestructura» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 3
       },
       {
-        "word": "infraestructura",
-        "translation": "English support: infraestructura",
-        "definition": "Término clave para comprender «Cuando el calor también entra al aula» y analizar relacionar cambio climático, bienestar y educación.",
-        "example": "Aunque «vulnerabilidad» parece una decisión individual, conviene considerar «adaptación» y «resiliencia». Esta frase sitúa «infraestructura» dentro del tema de la unidad.",
+        "word": "emergencia",
+        "translation": "English support: emergencia",
+        "definition": "Término clave para comprender «Cuando el calor también entra al aula» y analizar seguir las consecuencias cotidianas de una caída total de conexión.",
+        "example": "Aunque «conexión» parece una decisión individual, conviene considerar «colapso» y «infraestructura». Esta frase sitúa «emergencia» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 4
       },
       {
-        "word": "prevención",
-        "translation": "English support: prevención",
-        "definition": "Término clave para comprender «Cuando el calor también entra al aula» y analizar relacionar cambio climático, bienestar y educación.",
-        "example": "Aunque «vulnerabilidad» parece una decisión individual, conviene considerar «adaptación» y «resiliencia». Esta frase sitúa «prevención» dentro del tema de la unidad.",
+        "word": "alternativa",
+        "translation": "English support: alternativa",
+        "definition": "Término clave para comprender «Cuando el calor también entra al aula» y analizar seguir las consecuencias cotidianas de una caída total de conexión.",
+        "example": "Aunque «conexión» parece una decisión individual, conviene considerar «colapso» y «infraestructura». Esta frase sitúa «alternativa» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 5
       },
       {
-        "word": "desigualdad",
-        "translation": "English support: desigualdad",
-        "definition": "Término clave para comprender «Cuando el calor también entra al aula» y analizar relacionar cambio climático, bienestar y educación.",
-        "example": "Aunque «vulnerabilidad» parece una decisión individual, conviene considerar «adaptación» y «resiliencia». Esta frase sitúa «desigualdad» dentro del tema de la unidad.",
+        "word": "dependencia",
+        "translation": "English support: dependencia",
+        "definition": "Término clave para comprender «Cuando el calor también entra al aula» y analizar seguir las consecuencias cotidianas de una caída total de conexión.",
+        "example": "Aunque «conexión» parece una decisión individual, conviene considerar «colapso» y «infraestructura». Esta frase sitúa «dependencia» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 6
       }
@@ -11980,40 +11980,29 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Clima, salud y resiliencia»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «El día que Internet desapareció durante 24 horas»?",
         "options": [
           "desayuno",
-          "vulnerabilidad",
+          "conexión",
           "zapato",
           "ventana"
         ],
-        "explanation": "«vulnerabilidad» forma parte del vocabulario de esta unidad."
+        "explanation": "«conexión» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Clima, salud y resiliencia»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «El día que Internet desapareció durante 24 horas»?",
         "options": [
           "desayuno",
-          "adaptación",
+          "colapso",
           "zapato",
           "ventana"
         ],
-        "explanation": "«adaptación» forma parte del vocabulario de esta unidad."
+        "explanation": "«colapso» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Clima, salud y resiliencia»?",
-        "options": [
-          "desayuno",
-          "resiliencia",
-          "zapato",
-          "ventana"
-        ],
-        "explanation": "«resiliencia» forma parte del vocabulario de esta unidad."
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Clima, salud y resiliencia»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «El día que Internet desapareció durante 24 horas»?",
         "options": [
           "desayuno",
           "infraestructura",
@@ -12024,25 +12013,36 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Clima, salud y resiliencia»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «El día que Internet desapareció durante 24 horas»?",
         "options": [
           "desayuno",
-          "prevención",
+          "emergencia",
           "zapato",
           "ventana"
         ],
-        "explanation": "«prevención» forma parte del vocabulario de esta unidad."
+        "explanation": "«emergencia» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Clima, salud y resiliencia»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «El día que Internet desapareció durante 24 horas»?",
         "options": [
           "desayuno",
-          "desigualdad",
+          "alternativa",
           "zapato",
           "ventana"
         ],
-        "explanation": "«desigualdad» forma parte del vocabulario de esta unidad."
+        "explanation": "«alternativa» forma parte del vocabulario de esta unidad."
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué palabra pertenece a la unidad «El día que Internet desapareció durante 24 horas»?",
+        "options": [
+          "desayuno",
+          "dependencia",
+          "zapato",
+          "ventana"
+        ],
+        "explanation": "«dependencia» forma parte del vocabulario de esta unidad."
       }
     ]
   },
@@ -12051,7 +12051,7 @@
     "level": "C2",
     "skill": "vocabulary",
     "unitId": "traduccion-y-mediacion",
-    "title": "Vocabulario · La música en español viaja distinto",
+    "title": "Vocabulario · Un corresponsal de guerra cuenta lo que nunca salió en televisión",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
@@ -12064,50 +12064,50 @@
     "phrases": [],
     "vocabulary": [
       {
-        "word": "escena",
-        "translation": "English support: escena",
-        "definition": "Término clave para comprender «La música en español viaja distinto» y analizar mediar entre una escena local y una audiencia global.",
-        "example": "Aunque «escena» parece una decisión individual, conviene considerar «colaboración» y «audiencia». Esta frase sitúa «escena» dentro del tema de la unidad.",
+        "word": "corresponsal",
+        "translation": "English support: corresponsal",
+        "definition": "Término clave para comprender «Un corresponsal de guerra cuenta lo que nunca salió en televisión» y analizar escuchar el relato de quien informa desde un conflicto armado.",
+        "example": "Aunque «corresponsal» parece una decisión individual, conviene considerar «conflicto» y «testimonio». Esta frase sitúa «corresponsal» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 1
       },
       {
-        "word": "colaboración",
-        "translation": "English support: colaboración",
-        "definition": "Término clave para comprender «La música en español viaja distinto» y analizar mediar entre una escena local y una audiencia global.",
-        "example": "Aunque «escena» parece una decisión individual, conviene considerar «colaboración» y «audiencia». Esta frase sitúa «colaboración» dentro del tema de la unidad.",
+        "word": "conflicto",
+        "translation": "English support: conflicto",
+        "definition": "Término clave para comprender «Un corresponsal de guerra cuenta lo que nunca salió en televisión» y analizar escuchar el relato de quien informa desde un conflicto armado.",
+        "example": "Aunque «corresponsal» parece una decisión individual, conviene considerar «conflicto» y «testimonio». Esta frase sitúa «conflicto» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 2
       },
       {
-        "word": "audiencia",
-        "translation": "English support: audiencia",
-        "definition": "Término clave para comprender «La música en español viaja distinto» y analizar mediar entre una escena local y una audiencia global.",
-        "example": "Aunque «escena» parece una decisión individual, conviene considerar «colaboración» y «audiencia». Esta frase sitúa «audiencia» dentro del tema de la unidad.",
+        "word": "testimonio",
+        "translation": "English support: testimonio",
+        "definition": "Término clave para comprender «Un corresponsal de guerra cuenta lo que nunca salió en televisión» y analizar escuchar el relato de quien informa desde un conflicto armado.",
+        "example": "Aunque «corresponsal» parece una decisión individual, conviene considerar «conflicto» y «testimonio». Esta frase sitúa «testimonio» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 3
       },
       {
-        "word": "circulación",
-        "translation": "English support: circulación",
-        "definition": "Término clave para comprender «La música en español viaja distinto» y analizar mediar entre una escena local y una audiencia global.",
-        "example": "Aunque «escena» parece una decisión individual, conviene considerar «colaboración» y «audiencia». Esta frase sitúa «circulación» dentro del tema de la unidad.",
+        "word": "censura",
+        "translation": "English support: censura",
+        "definition": "Término clave para comprender «Un corresponsal de guerra cuenta lo que nunca salió en televisión» y analizar escuchar el relato de quien informa desde un conflicto armado.",
+        "example": "Aunque «corresponsal» parece una decisión individual, conviene considerar «conflicto» y «testimonio». Esta frase sitúa «censura» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 4
       },
       {
-        "word": "repertorio",
-        "translation": "English support: repertorio",
-        "definition": "Término clave para comprender «La música en español viaja distinto» y analizar mediar entre una escena local y una audiencia global.",
-        "example": "Aunque «escena» parece una decisión individual, conviene considerar «colaboración» y «audiencia». Esta frase sitúa «repertorio» dentro del tema de la unidad.",
+        "word": "fuente",
+        "translation": "English support: fuente",
+        "definition": "Término clave para comprender «Un corresponsal de guerra cuenta lo que nunca salió en televisión» y analizar escuchar el relato de quien informa desde un conflicto armado.",
+        "example": "Aunque «corresponsal» parece una decisión individual, conviene considerar «conflicto» y «testimonio». Esta frase sitúa «fuente» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 5
       },
       {
-        "word": "pertenencia",
-        "translation": "English support: pertenencia",
-        "definition": "Término clave para comprender «La música en español viaja distinto» y analizar mediar entre una escena local y una audiencia global.",
-        "example": "Aunque «escena» parece una decisión individual, conviene considerar «colaboración» y «audiencia». Esta frase sitúa «pertenencia» dentro del tema de la unidad.",
+        "word": "riesgo",
+        "translation": "English support: riesgo",
+        "definition": "Término clave para comprender «Un corresponsal de guerra cuenta lo que nunca salió en televisión» y analizar escuchar el relato de quien informa desde un conflicto armado.",
+        "example": "Aunque «corresponsal» parece una decisión individual, conviene considerar «conflicto» y «testimonio». Esta frase sitúa «riesgo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 6
       }
@@ -12119,69 +12119,69 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «La música en español viaja distinto»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Un corresponsal de guerra cuenta lo que nunca salió en televisión»?",
         "options": [
           "desayuno",
-          "escena",
+          "corresponsal",
           "zapato",
           "ventana"
         ],
-        "explanation": "«escena» forma parte del vocabulario de esta unidad."
+        "explanation": "«corresponsal» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «La música en español viaja distinto»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Un corresponsal de guerra cuenta lo que nunca salió en televisión»?",
         "options": [
           "desayuno",
-          "colaboración",
+          "conflicto",
           "zapato",
           "ventana"
         ],
-        "explanation": "«colaboración» forma parte del vocabulario de esta unidad."
+        "explanation": "«conflicto» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «La música en español viaja distinto»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Un corresponsal de guerra cuenta lo que nunca salió en televisión»?",
         "options": [
           "desayuno",
-          "audiencia",
+          "testimonio",
           "zapato",
           "ventana"
         ],
-        "explanation": "«audiencia» forma parte del vocabulario de esta unidad."
+        "explanation": "«testimonio» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «La música en español viaja distinto»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Un corresponsal de guerra cuenta lo que nunca salió en televisión»?",
         "options": [
           "desayuno",
-          "circulación",
+          "censura",
           "zapato",
           "ventana"
         ],
-        "explanation": "«circulación» forma parte del vocabulario de esta unidad."
+        "explanation": "«censura» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «La música en español viaja distinto»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Un corresponsal de guerra cuenta lo que nunca salió en televisión»?",
         "options": [
           "desayuno",
-          "repertorio",
+          "fuente",
           "zapato",
           "ventana"
         ],
-        "explanation": "«repertorio» forma parte del vocabulario de esta unidad."
+        "explanation": "«fuente» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «La música en español viaja distinto»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Un corresponsal de guerra cuenta lo que nunca salió en televisión»?",
         "options": [
           "desayuno",
-          "pertenencia",
+          "riesgo",
           "zapato",
           "ventana"
         ],
-        "explanation": "«pertenencia» forma parte del vocabulario de esta unidad."
+        "explanation": "«riesgo» forma parte del vocabulario de esta unidad."
       }
     ]
   },
@@ -12565,22 +12565,22 @@
     "level": "C1",
     "skill": "reading",
     "unitId": "justicia-y-reparacion",
-    "title": "Cuando reconocer el daño no basta",
+    "title": "Vivir un año en otro país cambió mi forma de ver el mundo",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 40,
     "estimatedMinutes": 18,
-    "description": "ensayo histórico-social: memoria, justicia y reparación.",
+    "description": "testimonio: vivir un año en otro país cambió mi forma de ver el mundo.",
     "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
-    "mission": "Distinguir reconocimiento simbólico, reparación material y garantías de no repetición",
+    "mission": "Reconocer cómo la experiencia intercultural modifica certezas y pertenencias",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Cuando reconocer el daño no basta",
-      "text": "Después de una vulneración de derechos, una disculpa pública puede ser necesaria, pero rara vez basta por sí sola.\n\nLa reparación exige discutir qué se reconoce, quién asume responsabilidades, cómo se repara un daño material y qué cambios impiden que vuelva a ocurrir.\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «reparación», «agravio» y «garantía» no son adornos: permiten describir el problema con mayor precisión.\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, subjuntivo en construcciones valorativas ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.\n\nEsto tiene consecuencias prácticas. Las decisiones sobre examinar cómo una sociedad responde a daños históricos deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: distinguir reconocimiento simbólico, reparación material y garantías de no repetición. Hablar de reparación, reconocimiento y garantías de no repetición supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.",
+      "title": "Vivir un año en otro país cambió mi forma de ver el mundo",
+      "text": "Después de una vulneración de derechos, una disculpa pública puede ser necesaria, pero rara vez basta por sí sola.\n\nLa reparación exige discutir qué se reconoce, quién asume responsabilidades, cómo se repara un daño material y qué cambios impiden que vuelva a ocurrir.\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «desarraigo», «costumbre» y «pertenencia» no son adornos: permiten describir el problema con mayor precisión.\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, subjuntivo en construcciones valorativas ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.\n\nEsto tiene consecuencias prácticas. Las decisiones sobre conocer un testimonio de adaptación cultural y distancia emocional deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: reconocer cómo la experiencia intercultural modifica certezas y pertenencias. Hablar de reparación, reconocimiento y garantías de no repetición supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.",
       "questions": [
         "¿Cuál es el problema central que analiza la lectura?",
         "¿Qué exige el texto antes de aceptar una conclusión?",
@@ -12660,22 +12660,22 @@
     "level": "C2",
     "skill": "reading",
     "unitId": "filosofia-del-lenguaje",
-    "title": "¿Quién tiene derecho a mirar hacia el espacio?",
+    "title": "La nueva carrera espacial: ¿quién conquistará Marte primero?",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 40,
     "estimatedMinutes": 18,
-    "description": "ensayo científico-político: ¿quién tiene derecho a mirar hacia el espacio?.",
+    "description": "documental: la nueva carrera espacial: ¿quién conquistará marte primero?.",
     "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
-    "mission": "Detectar los supuestos que presentan el espacio como patrimonio común o como recurso explotable",
+    "mission": "Cuestionar la idea de conquista y sus implicaciones éticas",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "¿Quién tiene derecho a mirar hacia el espacio?",
-      "text": "Palabras como seguridad, mérito, desarrollo o comunidad parecen transparentes hasta que se usan para decidir quién recibe recursos o protección.\n\nNombrar un problema no es un gesto neutral: cada categoría destaca relaciones, deja otras fuera y orienta las soluciones que parecen razonables.\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «órbita», «misión» y «soberanía» no son adornos: permiten describir el problema con mayor precisión.\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, sustantivación y arquitectura argumental ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.\n\nHay además una dificultad de segundo orden: los marcos con que se mide el problema pueden inclinar la conclusión. Un indicador hace visible una parte de la realidad y puede dejar otra fuera; una fuente autorizada merece atención, pero no elimina la necesidad de examinar su método, su alcance y sus intereses. El lector experto no busca una neutralidad imposible, sino criterios explícitos para comparar argumentos.\n\nEsto tiene consecuencias prácticas. Las decisiones sobre examinar cómo la exploración espacial combina ciencia, negocio y cooperación internacional deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: detectar los supuestos que presentan el espacio como patrimonio común o como recurso explotable. Hablar de lenguaje, poder e inferencias públicas supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.",
+      "title": "La nueva carrera espacial: ¿quién conquistará Marte primero?",
+      "text": "Palabras como seguridad, mérito, desarrollo o comunidad parecen transparentes hasta que se usan para decidir quién recibe recursos o protección.\n\nNombrar un problema no es un gesto neutral: cada categoría destaca relaciones, deja otras fuera y orienta las soluciones que parecen razonables.\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «misión», «órbita» y «exploración» no son adornos: permiten describir el problema con mayor precisión.\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, sustantivación y arquitectura argumental ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.\n\nHay además una dificultad de segundo orden: los marcos con que se mide el problema pueden inclinar la conclusión. Un indicador hace visible una parte de la realidad y puede dejar otra fuera; una fuente autorizada merece atención, pero no elimina la necesidad de examinar su método, su alcance y sus intereses. El lector experto no busca una neutralidad imposible, sino criterios explícitos para comparar argumentos.\n\nEsto tiene consecuencias prácticas. Las decisiones sobre examinar las ambiciones científicas, comerciales y geopolíticas de marte deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: cuestionar la idea de conquista y sus implicaciones éticas. Hablar de lenguaje, poder e inferencias públicas supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.",
       "questions": [
         "¿Cuál es el problema central que analiza la lectura?",
         "¿Qué exige el texto antes de aceptar una conclusión?",
@@ -13463,33 +13463,33 @@
     "level": "C1",
     "skill": "listening",
     "unitId": "justicia-y-reparacion",
-    "title": "Escucha · Cuando reconocer el daño no basta",
+    "title": "Escucha · Vivir un año en otro país cambió mi forma de ver el mundo",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
     "orderIndex": 41,
     "estimatedMinutes": 14,
-    "description": "Crónica de audio conectada con el Reading «Cuando reconocer el daño no basta».",
+    "description": "Testimonio sobre «Vivir un año en otro país cambió mi forma de ver el mundo».",
     "intro": "Escucha una adaptación integral del tema antes de consultar la transcripción.",
     "mission": "Reconoce cómo el vocabulario y subjuntivo en construcciones valorativas organizan una explicación oral compleja.",
     "grammar": "",
     "phrases": [
-      "reparación",
-      "agravio",
-      "garantía",
-      "Es importante que la comunidad considere «reparación» antes de examinar cómo una sociedad responde a daños históricos."
+      "desarraigo",
+      "costumbre",
+      "pertenencia",
+      "Es importante que la comunidad considere «desarraigo» antes de conocer un testimonio de adaptación cultural y distancia emocional."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Después de una vulneración de derechos, una disculpa pública puede ser necesaria, pero rara vez basta por sí sola. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «reparación», «agravio» y «garantía». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Es importante que la comunidad considere «reparación» antes de examinar cómo una sociedad responde a daños históricos. Desde esta perspectiva, distinguir reconocimiento simbólico, reparación material y garantías de no repetición no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de memoria, justicia y reparación implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«reconocimiento», «responsabilidad» y «reconciliación»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «comentario jurídico», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada.",
+    "transcript": "Vivir fuera durante un año no le enseñó a Sofía una versión mejor del mundo, sino una versión más compleja. Las costumbres que antes le parecían naturales empezaron a revelar cuánto depende nuestra mirada del lugar desde el que hablamos. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «desarraigo», «costumbre» y «pertenencia». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Es importante que la comunidad considere «desarraigo» antes de conocer un testimonio de adaptación cultural y distancia emocional. Desde esta perspectiva, reconocer cómo la experiencia intercultural modifica certezas y pertenencias no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de vivir un año en otro país cambió mi forma de ver el mundo implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«perspectiva», «adaptación» y «contraste»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «testimonio», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En conocer un testimonio de adaptación cultural y distancia emocional, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «desarraigo», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir.",
     "extra": {
       "listeningType": "story",
       "difficulty": "C1",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "Después de una vulneración de derechos, una disculpa pública puede ser necesaria, pero rara vez basta por sí sola. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «reparación», «agravio» y «garantía». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Es importante que la comunidad considere «reparación» antes de examinar cómo una sociedad responde a daños históricos. Desde esta perspectiva, distinguir reconocimiento simbólico, reparación material y garantías de no repetición no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de memoria, justicia y reparación implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«reconocimiento», «responsabilidad» y «reconciliación»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «comentario jurídico», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada.",
+      "transcript": "Vivir fuera durante un año no le enseñó a Sofía una versión mejor del mundo, sino una versión más compleja. Las costumbres que antes le parecían naturales empezaron a revelar cuánto depende nuestra mirada del lugar desde el que hablamos. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «desarraigo», «costumbre» y «pertenencia». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Es importante que la comunidad considere «desarraigo» antes de conocer un testimonio de adaptación cultural y distancia emocional. Desde esta perspectiva, reconocer cómo la experiencia intercultural modifica certezas y pertenencias no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de vivir un año en otro país cambió mi forma de ver el mundo implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«perspectiva», «adaptación» y «contraste»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «testimonio», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En conocer un testimonio de adaptación cultural y distancia emocional, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «desarraigo», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir.",
       "listeningComprehension": {
         "id": "spanish-c1-justicia-y-reparacion-listening-comprehension",
         "passingScore": 70,
@@ -13642,33 +13642,33 @@
     "level": "C2",
     "skill": "listening",
     "unitId": "filosofia-del-lenguaje",
-    "title": "Escucha · ¿Quién tiene derecho a mirar hacia el espacio?",
+    "title": "Escucha · La nueva carrera espacial: ¿quién conquistará Marte primero?",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
     "orderIndex": 41,
     "estimatedMinutes": 14,
-    "description": "Crónica de audio conectada con el Reading «¿Quién tiene derecho a mirar hacia el espacio?».",
+    "description": "Documental sobre «La nueva carrera espacial: ¿quién conquistará Marte primero?».",
     "intro": "Escucha una adaptación integral del tema antes de consultar la transcripción.",
     "mission": "Reconoce cómo el vocabulario y sustantivación y arquitectura argumental organizan una explicación oral compleja.",
     "grammar": "",
     "phrases": [
-      "órbita",
       "misión",
-      "soberanía",
-      "Aunque «órbita» parece una decisión individual, conviene considerar «misión» y «soberanía»."
+      "órbita",
+      "exploración",
+      "Aunque «misión» parece una decisión individual, conviene considerar «órbita» y «exploración»."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Palabras como seguridad, mérito, desarrollo o comunidad parecen transparentes hasta que se usan para decidir quién recibe recursos o protección. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «órbita», «misión» y «soberanía». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «órbita» parece una decisión individual, conviene considerar «misión» y «soberanía». Desde esta perspectiva, detectar los supuestos que presentan el espacio como patrimonio común o como recurso explotable no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de ¿quién tiene derecho a mirar hacia el espacio? implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«recurso», «cooperación» y «exploración»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «seminario de ideas», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos.",
+    "transcript": "La nueva carrera hacia Marte se presenta como un triunfo de la ciencia, pero también reúne intereses empresariales, rivalidades nacionales y una palabra incómoda: conquista. Nombrar así el proyecto cambia la forma de imaginar su futuro. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «misión», «órbita» y «exploración». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «misión» parece una decisión individual, conviene considerar «órbita» y «exploración». Desde esta perspectiva, cuestionar la idea de conquista y sus implicaciones éticas no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de la nueva carrera espacial: ¿quién conquistará marte primero? implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«soberanía», «cooperación» y «colonización»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «documental», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En examinar las ambiciones científicas, comerciales y geopolíticas de marte, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «misión», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
     "extra": {
       "listeningType": "story",
       "difficulty": "C2",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "Palabras como seguridad, mérito, desarrollo o comunidad parecen transparentes hasta que se usan para decidir quién recibe recursos o protección. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «órbita», «misión» y «soberanía». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «órbita» parece una decisión individual, conviene considerar «misión» y «soberanía». Desde esta perspectiva, detectar los supuestos que presentan el espacio como patrimonio común o como recurso explotable no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de ¿quién tiene derecho a mirar hacia el espacio? implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«recurso», «cooperación» y «exploración»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «seminario de ideas», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos.",
+      "transcript": "La nueva carrera hacia Marte se presenta como un triunfo de la ciencia, pero también reúne intereses empresariales, rivalidades nacionales y una palabra incómoda: conquista. Nombrar así el proyecto cambia la forma de imaginar su futuro. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «misión», «órbita» y «exploración». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «misión» parece una decisión individual, conviene considerar «órbita» y «exploración». Desde esta perspectiva, cuestionar la idea de conquista y sus implicaciones éticas no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de la nueva carrera espacial: ¿quién conquistará marte primero? implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«soberanía», «cooperación» y «colonización»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «documental», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En examinar las ambiciones científicas, comerciales y geopolíticas de marte, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «misión», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
       "listeningComprehension": {
         "id": "spanish-c2-filosofia-del-lenguaje-listening-comprehension",
         "passingScore": 70,
@@ -14018,14 +14018,14 @@
     "level": "C1",
     "skill": "speaking",
     "unitId": "justicia-y-reparacion",
-    "title": "Habla · Memoria, justicia y reparación",
+    "title": "Habla · Vivir un año en otro país cambió mi forma de ver el mundo",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
     "orderIndex": 42,
     "estimatedMinutes": 14,
     "description": "Responde oralmente dentro del escenario de la unidad.",
-    "intro": "Examinar cómo una sociedad responde a daños históricos",
+    "intro": "Conocer un testimonio de adaptación cultural y distancia emocional",
     "mission": "Graba una respuesta de 45–90 segundos: presenta tu propuesta, justifica dos razones y reconoce una posible dificultad.",
     "grammar": "",
     "phrases": [
@@ -14038,7 +14038,7 @@
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "¿Qué propones ante esta situación: examinar cómo una sociedad responde a daños históricos?",
+        "line": "¿Qué propones ante esta situación: conocer un testimonio de adaptación cultural y distancia emocional?",
         "translation": "What do you propose in this situation?"
       },
       {
@@ -14053,11 +14053,11 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Explica cómo resolverías este reto: Examinar cómo una sociedad responde a daños históricos."
+        "prompt": "Explica cómo resolverías este reto: Conocer un testimonio de adaptación cultural y distancia emocional."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos palabras: reparación, agravio, garantía."
+        "prompt": "Usa al menos dos palabras: desarraigo, costumbre, pertenencia."
       }
     ]
   },
@@ -14066,14 +14066,14 @@
     "level": "C2",
     "skill": "speaking",
     "unitId": "filosofia-del-lenguaje",
-    "title": "Habla · ¿Quién tiene derecho a mirar hacia el espacio?",
+    "title": "Habla · La nueva carrera espacial: ¿quién conquistará Marte primero?",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
     "orderIndex": 42,
     "estimatedMinutes": 14,
     "description": "Responde oralmente dentro del escenario de la unidad.",
-    "intro": "Examinar cómo la exploración espacial combina ciencia, negocio y cooperación internacional",
+    "intro": "Examinar las ambiciones científicas, comerciales y geopolíticas de Marte",
     "mission": "Graba una respuesta de 45–90 segundos: presenta tu propuesta, justifica dos razones y reconoce una posible dificultad.",
     "grammar": "",
     "phrases": [
@@ -14086,7 +14086,7 @@
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "¿Qué propones ante esta situación: examinar cómo la exploración espacial combina ciencia, negocio y cooperación internacional?",
+        "line": "¿Qué propones ante esta situación: examinar las ambiciones científicas, comerciales y geopolíticas de marte?",
         "translation": "What do you propose in this situation?"
       },
       {
@@ -14101,11 +14101,11 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Explica cómo resolverías este reto: Examinar cómo la exploración espacial combina ciencia, negocio y cooperación internacional."
+        "prompt": "Explica cómo resolverías este reto: Examinar las ambiciones científicas, comerciales y geopolíticas de Marte."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos palabras: órbita, misión, soberanía."
+        "prompt": "Usa al menos dos palabras: misión, órbita, exploración."
       }
     ]
   },
@@ -14252,7 +14252,7 @@
     "level": "C1",
     "skill": "writing",
     "unitId": "justicia-y-reparacion",
-    "title": "Escribe · Memoria, justicia y reparación",
+    "title": "Escribe · Vivir un año en otro país cambió mi forma de ver el mundo",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
@@ -14260,7 +14260,7 @@
     "estimatedMinutes": 18,
     "description": "Produce un texto conectado con la misión de la unidad.",
     "intro": "Planifica, redacta y revisa antes de enviar tu texto.",
-    "mission": "Escribe 230–300 palabras sobre «Examinar cómo una sociedad responde a daños históricos». Incluye una idea principal, razones y una conclusión.",
+    "mission": "Escribe 230–300 palabras sobre «Conocer un testimonio de adaptación cultural y distancia emocional». Incluye una idea principal, razones y una conclusión.",
     "grammar": "subjuntivo en construcciones valorativas",
     "phrases": [
       "En primer lugar…",
@@ -14276,7 +14276,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Redacta una respuesta organizada para: Examinar cómo una sociedad responde a daños históricos."
+        "prompt": "Redacta una respuesta organizada para: Conocer un testimonio de adaptación cultural y distancia emocional."
       }
     ]
   },
@@ -14285,7 +14285,7 @@
     "level": "C2",
     "skill": "writing",
     "unitId": "filosofia-del-lenguaje",
-    "title": "Escribe · ¿Quién tiene derecho a mirar hacia el espacio?",
+    "title": "Escribe · La nueva carrera espacial: ¿quién conquistará Marte primero?",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
@@ -14293,7 +14293,7 @@
     "estimatedMinutes": 18,
     "description": "Produce un texto conectado con la misión de la unidad.",
     "intro": "Planifica, redacta y revisa antes de enviar tu texto.",
-    "mission": "Escribe 230–300 palabras sobre «Examinar cómo la exploración espacial combina ciencia, negocio y cooperación internacional». Incluye una idea principal, razones y una conclusión.",
+    "mission": "Escribe 230–300 palabras sobre «Examinar las ambiciones científicas, comerciales y geopolíticas de Marte». Incluye una idea principal, razones y una conclusión.",
     "grammar": "sustantivación y arquitectura argumental",
     "phrases": [
       "En primer lugar…",
@@ -14309,7 +14309,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Redacta una respuesta organizada para: Examinar cómo la exploración espacial combina ciencia, negocio y cooperación internacional."
+        "prompt": "Redacta una respuesta organizada para: Examinar las ambiciones científicas, comerciales y geopolíticas de Marte."
       }
     ]
   },
@@ -14908,14 +14908,14 @@
     "xpReward": 30,
     "orderIndex": 44,
     "estimatedMinutes": 14,
-    "description": "Aplica la forma gramatical dentro del tema «Memoria, justicia y reparación».",
+    "description": "Aplica la forma gramatical dentro del tema «Vivir un año en otro país cambió mi forma de ver el mundo».",
     "intro": "Observa cómo la gramática cambia la precisión y el matiz.",
     "mission": "Usa subjuntivo en construcciones valorativas para explicar y justificar una propuesta.",
-    "grammar": "Foco: subjuntivo en construcciones valorativas.\n\nUso: permite explicar el tema «Cuando reconocer el daño no basta» con precisión y matiz.\n\nModelo: Es importante que la comunidad considere «reparación» antes de examinar cómo una sociedad responde a daños históricos.",
+    "grammar": "Foco: subjuntivo en construcciones valorativas.\n\nUso: permite explicar el tema «Vivir un año en otro país cambió mi forma de ver el mundo» con precisión y matiz.\n\nModelo: Es importante que la comunidad considere «desarraigo» antes de conocer un testimonio de adaptación cultural y distancia emocional.",
     "phrases": [
-      "Es importante que la comunidad considere «reparación» antes de examinar cómo una sociedad responde a daños históricos.",
-      "El texto relaciona «reparación» con «agravio».",
-      "Antes de concluir, conviene revisar «garantía»."
+      "Es importante que la comunidad considere «desarraigo» antes de conocer un testimonio de adaptación cultural y distancia emocional.",
+      "El texto relaciona «desarraigo» con «costumbre».",
+      "Antes de concluir, conviene revisar «pertenencia»."
     ],
     "vocabulary": [],
     "dialogue": [],
@@ -14956,19 +14956,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Es importante que la comunidad considere «reparación» antes de examinar cómo una sociedad responde a daños históricos."
+                "text": "Es importante que la comunidad considere «desarraigo» antes de conocer un testimonio de adaptación cultural y distancia emocional."
               },
               {
                 "id": "o2",
-                "text": "reparación agravio garantía."
+                "text": "desarraigo costumbre pertenencia."
               },
               {
                 "id": "o3",
-                "text": "Porque reparación y agravio."
+                "text": "Porque desarraigo y costumbre."
               },
               {
                 "id": "o4",
-                "text": "garantía sin contexto decidir."
+                "text": "pertenencia sin contexto decidir."
               }
             ]
           },
@@ -14979,19 +14979,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "La evidencia ayuda a interpretar «reparación» antes de concluir."
+                "text": "La evidencia ayuda a interpretar «desarraigo» antes de concluir."
               },
               {
                 "id": "o2",
-                "text": "La evidencia «reparación» concluir antes."
+                "text": "La evidencia «desarraigo» concluir antes."
               },
               {
                 "id": "o3",
-                "text": "Interpretar evidencia porque «reparación»."
+                "text": "Interpretar evidencia porque «desarraigo»."
               },
               {
                 "id": "o4",
-                "text": "«reparación» evidencia sin."
+                "text": "«desarraigo» evidencia sin."
               }
             ]
           },
@@ -15038,10 +15038,10 @@
         "type": "mcq",
         "prompt": "¿Qué oración usa la estructura de la unidad para hablar del Reading?",
         "options": [
-          "Es importante que la comunidad considere «reparación» antes de examinar cómo una sociedad responde a daños históricos.",
-          "reparación agravio garantía.",
-          "Porque reparación y agravio.",
-          "garantía sin contexto decidir."
+          "Es importante que la comunidad considere «desarraigo» antes de conocer un testimonio de adaptación cultural y distancia emocional.",
+          "desarraigo costumbre pertenencia.",
+          "Porque desarraigo y costumbre.",
+          "pertenencia sin contexto decidir."
         ],
         "explanation": "La primera opción relaciona la estructura gramatical con el tema y el vocabulario de la lección."
       },
@@ -15049,10 +15049,10 @@
         "type": "mcq",
         "prompt": "¿Qué opción mantiene mejor el sentido del texto?",
         "options": [
-          "La evidencia ayuda a interpretar «reparación» antes de concluir.",
-          "La evidencia «reparación» concluir antes.",
-          "Interpretar evidencia porque «reparación».",
-          "«reparación» evidencia sin."
+          "La evidencia ayuda a interpretar «desarraigo» antes de concluir.",
+          "La evidencia «desarraigo» concluir antes.",
+          "Interpretar evidencia porque «desarraigo».",
+          "«desarraigo» evidencia sin."
         ],
         "explanation": "La primera opción presenta una relación lógica y una idea completa."
       },
@@ -15080,14 +15080,14 @@
     "xpReward": 30,
     "orderIndex": 44,
     "estimatedMinutes": 14,
-    "description": "Aplica la forma gramatical dentro del tema «¿Quién tiene derecho a mirar hacia el espacio?».",
+    "description": "Aplica la forma gramatical dentro del tema «La nueva carrera espacial: ¿quién conquistará Marte primero?».",
     "intro": "Observa cómo la gramática cambia la precisión y el matiz.",
     "mission": "Usa sustantivación y arquitectura argumental para explicar y justificar una propuesta.",
-    "grammar": "Foco: sustantivación y arquitectura argumental.\n\nUso: permite explicar el tema «¿Quién tiene derecho a mirar hacia el espacio?» con precisión y matiz.\n\nModelo: Aunque «órbita» parece una decisión individual, conviene considerar «misión» y «soberanía».",
+    "grammar": "Foco: sustantivación y arquitectura argumental.\n\nUso: permite explicar el tema «La nueva carrera espacial: ¿quién conquistará Marte primero?» con precisión y matiz.\n\nModelo: Aunque «misión» parece una decisión individual, conviene considerar «órbita» y «exploración».",
     "phrases": [
-      "Aunque «órbita» parece una decisión individual, conviene considerar «misión» y «soberanía».",
-      "El texto relaciona «órbita» con «misión».",
-      "Antes de concluir, conviene revisar «soberanía»."
+      "Aunque «misión» parece una decisión individual, conviene considerar «órbita» y «exploración».",
+      "El texto relaciona «misión» con «órbita».",
+      "Antes de concluir, conviene revisar «exploración»."
     ],
     "vocabulary": [],
     "dialogue": [],
@@ -15128,19 +15128,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Aunque «órbita» parece una decisión individual, conviene considerar «misión» y «soberanía»."
+                "text": "Aunque «misión» parece una decisión individual, conviene considerar «órbita» y «exploración»."
               },
               {
                 "id": "o2",
-                "text": "órbita misión soberanía."
+                "text": "misión órbita exploración."
               },
               {
                 "id": "o3",
-                "text": "Porque órbita y misión."
+                "text": "Porque misión y órbita."
               },
               {
                 "id": "o4",
-                "text": "soberanía sin contexto decidir."
+                "text": "exploración sin contexto decidir."
               }
             ]
           },
@@ -15151,19 +15151,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "La evidencia ayuda a interpretar «órbita» antes de concluir."
+                "text": "La evidencia ayuda a interpretar «misión» antes de concluir."
               },
               {
                 "id": "o2",
-                "text": "La evidencia «órbita» concluir antes."
+                "text": "La evidencia «misión» concluir antes."
               },
               {
                 "id": "o3",
-                "text": "Interpretar evidencia porque «órbita»."
+                "text": "Interpretar evidencia porque «misión»."
               },
               {
                 "id": "o4",
-                "text": "«órbita» evidencia sin."
+                "text": "«misión» evidencia sin."
               }
             ]
           },
@@ -15210,10 +15210,10 @@
         "type": "mcq",
         "prompt": "¿Qué oración usa la estructura de la unidad para hablar del Reading?",
         "options": [
-          "Aunque «órbita» parece una decisión individual, conviene considerar «misión» y «soberanía».",
-          "órbita misión soberanía.",
-          "Porque órbita y misión.",
-          "soberanía sin contexto decidir."
+          "Aunque «misión» parece una decisión individual, conviene considerar «órbita» y «exploración».",
+          "misión órbita exploración.",
+          "Porque misión y órbita.",
+          "exploración sin contexto decidir."
         ],
         "explanation": "La primera opción relaciona la estructura gramatical con el tema y el vocabulario de la lección."
       },
@@ -15221,10 +15221,10 @@
         "type": "mcq",
         "prompt": "¿Qué opción mantiene mejor el sentido del texto?",
         "options": [
-          "La evidencia ayuda a interpretar «órbita» antes de concluir.",
-          "La evidencia «órbita» concluir antes.",
-          "Interpretar evidencia porque «órbita».",
-          "«órbita» evidencia sin."
+          "La evidencia ayuda a interpretar «misión» antes de concluir.",
+          "La evidencia «misión» concluir antes.",
+          "Interpretar evidencia porque «misión».",
+          "«misión» evidencia sin."
         ],
         "explanation": "La primera opción presenta una relación lógica y una idea completa."
       },
@@ -15808,7 +15808,7 @@
     "level": "C1",
     "skill": "vocabulary",
     "unitId": "justicia-y-reparacion",
-    "title": "Vocabulario · Memoria, justicia y reparación",
+    "title": "Vocabulario · Vivir un año en otro país cambió mi forma de ver el mundo",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
@@ -15821,50 +15821,50 @@
     "phrases": [],
     "vocabulary": [
       {
-        "word": "reparación",
-        "translation": "English support: reparación",
-        "definition": "Término clave para comprender «Cuando reconocer el daño no basta» y analizar examinar cómo una sociedad responde a daños históricos.",
-        "example": "Es importante que la comunidad considere «reparación» antes de examinar cómo una sociedad responde a daños históricos. Esta frase sitúa «reparación» dentro del tema de la unidad.",
+        "word": "desarraigo",
+        "translation": "English support: desarraigo",
+        "definition": "Término clave para comprender «Vivir un año en otro país cambió mi forma de ver el mundo» y analizar conocer un testimonio de adaptación cultural y distancia emocional.",
+        "example": "Es importante que la comunidad considere «desarraigo» antes de conocer un testimonio de adaptación cultural y distancia emocional. Esta frase sitúa «desarraigo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 1
       },
       {
-        "word": "agravio",
-        "translation": "English support: agravio",
-        "definition": "Término clave para comprender «Cuando reconocer el daño no basta» y analizar examinar cómo una sociedad responde a daños históricos.",
-        "example": "Es importante que la comunidad considere «reparación» antes de examinar cómo una sociedad responde a daños históricos. Esta frase sitúa «agravio» dentro del tema de la unidad.",
+        "word": "costumbre",
+        "translation": "English support: costumbre",
+        "definition": "Término clave para comprender «Vivir un año en otro país cambió mi forma de ver el mundo» y analizar conocer un testimonio de adaptación cultural y distancia emocional.",
+        "example": "Es importante que la comunidad considere «desarraigo» antes de conocer un testimonio de adaptación cultural y distancia emocional. Esta frase sitúa «costumbre» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 2
       },
       {
-        "word": "garantía",
-        "translation": "English support: garantía",
-        "definition": "Término clave para comprender «Cuando reconocer el daño no basta» y analizar examinar cómo una sociedad responde a daños históricos.",
-        "example": "Es importante que la comunidad considere «reparación» antes de examinar cómo una sociedad responde a daños históricos. Esta frase sitúa «garantía» dentro del tema de la unidad.",
+        "word": "pertenencia",
+        "translation": "English support: pertenencia",
+        "definition": "Término clave para comprender «Vivir un año en otro país cambió mi forma de ver el mundo» y analizar conocer un testimonio de adaptación cultural y distancia emocional.",
+        "example": "Es importante que la comunidad considere «desarraigo» antes de conocer un testimonio de adaptación cultural y distancia emocional. Esta frase sitúa «pertenencia» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 3
       },
       {
-        "word": "reconocimiento",
-        "translation": "English support: reconocimiento",
-        "definition": "Término clave para comprender «Cuando reconocer el daño no basta» y analizar examinar cómo una sociedad responde a daños históricos.",
-        "example": "Es importante que la comunidad considere «reparación» antes de examinar cómo una sociedad responde a daños históricos. Esta frase sitúa «reconocimiento» dentro del tema de la unidad.",
+        "word": "perspectiva",
+        "translation": "English support: perspectiva",
+        "definition": "Término clave para comprender «Vivir un año en otro país cambió mi forma de ver el mundo» y analizar conocer un testimonio de adaptación cultural y distancia emocional.",
+        "example": "Es importante que la comunidad considere «desarraigo» antes de conocer un testimonio de adaptación cultural y distancia emocional. Esta frase sitúa «perspectiva» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 4
       },
       {
-        "word": "responsabilidad",
-        "translation": "English support: responsabilidad",
-        "definition": "Término clave para comprender «Cuando reconocer el daño no basta» y analizar examinar cómo una sociedad responde a daños históricos.",
-        "example": "Es importante que la comunidad considere «reparación» antes de examinar cómo una sociedad responde a daños históricos. Esta frase sitúa «responsabilidad» dentro del tema de la unidad.",
+        "word": "adaptación",
+        "translation": "English support: adaptación",
+        "definition": "Término clave para comprender «Vivir un año en otro país cambió mi forma de ver el mundo» y analizar conocer un testimonio de adaptación cultural y distancia emocional.",
+        "example": "Es importante que la comunidad considere «desarraigo» antes de conocer un testimonio de adaptación cultural y distancia emocional. Esta frase sitúa «adaptación» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 5
       },
       {
-        "word": "reconciliación",
-        "translation": "English support: reconciliación",
-        "definition": "Término clave para comprender «Cuando reconocer el daño no basta» y analizar examinar cómo una sociedad responde a daños históricos.",
-        "example": "Es importante que la comunidad considere «reparación» antes de examinar cómo una sociedad responde a daños históricos. Esta frase sitúa «reconciliación» dentro del tema de la unidad.",
+        "word": "contraste",
+        "translation": "English support: contraste",
+        "definition": "Término clave para comprender «Vivir un año en otro país cambió mi forma de ver el mundo» y analizar conocer un testimonio de adaptación cultural y distancia emocional.",
+        "example": "Es importante que la comunidad considere «desarraigo» antes de conocer un testimonio de adaptación cultural y distancia emocional. Esta frase sitúa «contraste» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 6
       }
@@ -15876,69 +15876,69 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Memoria, justicia y reparación»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Vivir un año en otro país cambió mi forma de ver el mundo»?",
         "options": [
           "desayuno",
-          "reparación",
+          "desarraigo",
           "zapato",
           "ventana"
         ],
-        "explanation": "«reparación» forma parte del vocabulario de esta unidad."
+        "explanation": "«desarraigo» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Memoria, justicia y reparación»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Vivir un año en otro país cambió mi forma de ver el mundo»?",
         "options": [
           "desayuno",
-          "agravio",
+          "costumbre",
           "zapato",
           "ventana"
         ],
-        "explanation": "«agravio» forma parte del vocabulario de esta unidad."
+        "explanation": "«costumbre» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Memoria, justicia y reparación»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Vivir un año en otro país cambió mi forma de ver el mundo»?",
         "options": [
           "desayuno",
-          "garantía",
+          "pertenencia",
           "zapato",
           "ventana"
         ],
-        "explanation": "«garantía» forma parte del vocabulario de esta unidad."
+        "explanation": "«pertenencia» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Memoria, justicia y reparación»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Vivir un año en otro país cambió mi forma de ver el mundo»?",
         "options": [
           "desayuno",
-          "reconocimiento",
+          "perspectiva",
           "zapato",
           "ventana"
         ],
-        "explanation": "«reconocimiento» forma parte del vocabulario de esta unidad."
+        "explanation": "«perspectiva» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Memoria, justicia y reparación»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Vivir un año en otro país cambió mi forma de ver el mundo»?",
         "options": [
           "desayuno",
-          "responsabilidad",
+          "adaptación",
           "zapato",
           "ventana"
         ],
-        "explanation": "«responsabilidad» forma parte del vocabulario de esta unidad."
+        "explanation": "«adaptación» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Memoria, justicia y reparación»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Vivir un año en otro país cambió mi forma de ver el mundo»?",
         "options": [
           "desayuno",
-          "reconciliación",
+          "contraste",
           "zapato",
           "ventana"
         ],
-        "explanation": "«reconciliación» forma parte del vocabulario de esta unidad."
+        "explanation": "«contraste» forma parte del vocabulario de esta unidad."
       }
     ]
   },
@@ -15947,7 +15947,7 @@
     "level": "C2",
     "skill": "vocabulary",
     "unitId": "filosofia-del-lenguaje",
-    "title": "Vocabulario · ¿Quién tiene derecho a mirar hacia el espacio?",
+    "title": "Vocabulario · La nueva carrera espacial: ¿quién conquistará Marte primero?",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
@@ -15960,50 +15960,50 @@
     "phrases": [],
     "vocabulary": [
       {
-        "word": "órbita",
-        "translation": "English support: órbita",
-        "definition": "Término clave para comprender «¿Quién tiene derecho a mirar hacia el espacio?» y analizar examinar cómo la exploración espacial combina ciencia, negocio y cooperación internacional.",
-        "example": "Aunque «órbita» parece una decisión individual, conviene considerar «misión» y «soberanía». Esta frase sitúa «órbita» dentro del tema de la unidad.",
+        "word": "misión",
+        "translation": "English support: misión",
+        "definition": "Término clave para comprender «La nueva carrera espacial: ¿quién conquistará Marte primero?» y analizar examinar las ambiciones científicas, comerciales y geopolíticas de marte.",
+        "example": "Aunque «misión» parece una decisión individual, conviene considerar «órbita» y «exploración». Esta frase sitúa «misión» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 1
       },
       {
-        "word": "misión",
-        "translation": "English support: misión",
-        "definition": "Término clave para comprender «¿Quién tiene derecho a mirar hacia el espacio?» y analizar examinar cómo la exploración espacial combina ciencia, negocio y cooperación internacional.",
-        "example": "Aunque «órbita» parece una decisión individual, conviene considerar «misión» y «soberanía». Esta frase sitúa «misión» dentro del tema de la unidad.",
+        "word": "órbita",
+        "translation": "English support: órbita",
+        "definition": "Término clave para comprender «La nueva carrera espacial: ¿quién conquistará Marte primero?» y analizar examinar las ambiciones científicas, comerciales y geopolíticas de marte.",
+        "example": "Aunque «misión» parece una decisión individual, conviene considerar «órbita» y «exploración». Esta frase sitúa «órbita» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 2
       },
       {
-        "word": "soberanía",
-        "translation": "English support: soberanía",
-        "definition": "Término clave para comprender «¿Quién tiene derecho a mirar hacia el espacio?» y analizar examinar cómo la exploración espacial combina ciencia, negocio y cooperación internacional.",
-        "example": "Aunque «órbita» parece una decisión individual, conviene considerar «misión» y «soberanía». Esta frase sitúa «soberanía» dentro del tema de la unidad.",
+        "word": "exploración",
+        "translation": "English support: exploración",
+        "definition": "Término clave para comprender «La nueva carrera espacial: ¿quién conquistará Marte primero?» y analizar examinar las ambiciones científicas, comerciales y geopolíticas de marte.",
+        "example": "Aunque «misión» parece una decisión individual, conviene considerar «órbita» y «exploración». Esta frase sitúa «exploración» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 3
       },
       {
-        "word": "recurso",
-        "translation": "English support: recurso",
-        "definition": "Término clave para comprender «¿Quién tiene derecho a mirar hacia el espacio?» y analizar examinar cómo la exploración espacial combina ciencia, negocio y cooperación internacional.",
-        "example": "Aunque «órbita» parece una decisión individual, conviene considerar «misión» y «soberanía». Esta frase sitúa «recurso» dentro del tema de la unidad.",
+        "word": "soberanía",
+        "translation": "English support: soberanía",
+        "definition": "Término clave para comprender «La nueva carrera espacial: ¿quién conquistará Marte primero?» y analizar examinar las ambiciones científicas, comerciales y geopolíticas de marte.",
+        "example": "Aunque «misión» parece una decisión individual, conviene considerar «órbita» y «exploración». Esta frase sitúa «soberanía» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 4
       },
       {
         "word": "cooperación",
         "translation": "English support: cooperación",
-        "definition": "Término clave para comprender «¿Quién tiene derecho a mirar hacia el espacio?» y analizar examinar cómo la exploración espacial combina ciencia, negocio y cooperación internacional.",
-        "example": "Aunque «órbita» parece una decisión individual, conviene considerar «misión» y «soberanía». Esta frase sitúa «cooperación» dentro del tema de la unidad.",
+        "definition": "Término clave para comprender «La nueva carrera espacial: ¿quién conquistará Marte primero?» y analizar examinar las ambiciones científicas, comerciales y geopolíticas de marte.",
+        "example": "Aunque «misión» parece una decisión individual, conviene considerar «órbita» y «exploración». Esta frase sitúa «cooperación» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 5
       },
       {
-        "word": "exploración",
-        "translation": "English support: exploración",
-        "definition": "Término clave para comprender «¿Quién tiene derecho a mirar hacia el espacio?» y analizar examinar cómo la exploración espacial combina ciencia, negocio y cooperación internacional.",
-        "example": "Aunque «órbita» parece una decisión individual, conviene considerar «misión» y «soberanía». Esta frase sitúa «exploración» dentro del tema de la unidad.",
+        "word": "colonización",
+        "translation": "English support: colonización",
+        "definition": "Término clave para comprender «La nueva carrera espacial: ¿quién conquistará Marte primero?» y analizar examinar las ambiciones científicas, comerciales y geopolíticas de marte.",
+        "example": "Aunque «misión» parece una decisión individual, conviene considerar «órbita» y «exploración». Esta frase sitúa «colonización» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 6
       }
@@ -16015,18 +16015,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «¿Quién tiene derecho a mirar hacia el espacio?»?",
-        "options": [
-          "desayuno",
-          "órbita",
-          "zapato",
-          "ventana"
-        ],
-        "explanation": "«órbita» forma parte del vocabulario de esta unidad."
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «¿Quién tiene derecho a mirar hacia el espacio?»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «La nueva carrera espacial: ¿quién conquistará Marte primero?»?",
         "options": [
           "desayuno",
           "misión",
@@ -16037,7 +16026,29 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «¿Quién tiene derecho a mirar hacia el espacio?»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «La nueva carrera espacial: ¿quién conquistará Marte primero?»?",
+        "options": [
+          "desayuno",
+          "órbita",
+          "zapato",
+          "ventana"
+        ],
+        "explanation": "«órbita» forma parte del vocabulario de esta unidad."
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué palabra pertenece a la unidad «La nueva carrera espacial: ¿quién conquistará Marte primero?»?",
+        "options": [
+          "desayuno",
+          "exploración",
+          "zapato",
+          "ventana"
+        ],
+        "explanation": "«exploración» forma parte del vocabulario de esta unidad."
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué palabra pertenece a la unidad «La nueva carrera espacial: ¿quién conquistará Marte primero?»?",
         "options": [
           "desayuno",
           "soberanía",
@@ -16048,18 +16059,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «¿Quién tiene derecho a mirar hacia el espacio?»?",
-        "options": [
-          "desayuno",
-          "recurso",
-          "zapato",
-          "ventana"
-        ],
-        "explanation": "«recurso» forma parte del vocabulario de esta unidad."
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «¿Quién tiene derecho a mirar hacia el espacio?»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «La nueva carrera espacial: ¿quién conquistará Marte primero?»?",
         "options": [
           "desayuno",
           "cooperación",
@@ -16070,14 +16070,14 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «¿Quién tiene derecho a mirar hacia el espacio?»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «La nueva carrera espacial: ¿quién conquistará Marte primero?»?",
         "options": [
           "desayuno",
-          "exploración",
+          "colonización",
           "zapato",
           "ventana"
         ],
-        "explanation": "«exploración» forma parte del vocabulario de esta unidad."
+        "explanation": "«colonización» forma parte del vocabulario de esta unidad."
       }
     ]
   },
@@ -16447,22 +16447,22 @@
     "level": "C1",
     "skill": "reading",
     "unitId": "innovacion-responsable",
-    "title": "Antes de automatizar una decisión",
+    "title": "¿Por qué sufrimos el síndrome del impostor?",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 50,
     "estimatedMinutes": 18,
-    "description": "artículo científico-social: tecnología y decisiones públicas.",
+    "description": "podcast de psicología: ¿por qué sufrimos el síndrome del impostor?.",
     "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
-    "mission": "Ponderar utilidad, sesgo, supervisión y transparencia",
+    "mission": "Distinguir autoexigencia, inseguridad y evaluación realista",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Antes de automatizar una decisión",
-      "text": "Una institución anuncia un sistema automatizado para priorizar ayudas, admisiones o alertas tempranas.\n\nLa promesa de rapidez no responde por sí sola a preguntas sobre sesgo, explicaciones comprensibles, supervisión humana y posibilidad de corregir decisiones.\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «precaución», «impacto» y «despliegue» no son adornos: permiten describir el problema con mayor precisión.\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, condicionales mixtas y contrafactuales ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.\n\nEsto tiene consecuencias prácticas. Las decisiones sobre evaluar sistemas automatizados antes de adoptarlos deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: ponderar utilidad, sesgo, supervisión y transparencia. Hablar de utilidad, transparencia y supervisión humana supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.",
+      "title": "¿Por qué sufrimos el síndrome del impostor?",
+      "text": "Una institución anuncia un sistema automatizado para priorizar ayudas, admisiones o alertas tempranas.\n\nLa promesa de rapidez no responde por sí sola a preguntas sobre sesgo, explicaciones comprensibles, supervisión humana y posibilidad de corregir decisiones.\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «autoexigencia», «mérito» y «inseguridad» no son adornos: permiten describir el problema con mayor precisión.\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, condicionales mixtas y contrafactuales ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.\n\nEsto tiene consecuencias prácticas. Las decisiones sobre examinar las dudas que aparecen incluso ante logros comprobables deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: distinguir autoexigencia, inseguridad y evaluación realista. Hablar de utilidad, transparencia y supervisión humana supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.",
       "questions": [
         "¿Cuál es el problema central que analiza la lectura?",
         "¿Qué exige el texto antes de aceptar una conclusión?",
@@ -16548,22 +16548,22 @@
     "level": "C2",
     "skill": "reading",
     "unitId": "analisis-juridico",
-    "title": "Pagar sin efectivo: comodidad, datos y exclusión",
+    "title": "Viví un año sin redes sociales: esto fue lo que aprendí",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 50,
     "estimatedMinutes": 18,
-    "description": "comentario jurídico-económico: pagar sin efectivo: comodidad, datos y exclusión.",
+    "description": "testimonio: viví un año sin redes sociales: esto fue lo que aprendí.",
     "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
-    "mission": "Distinguir acceso, trazabilidad, comisiones y alternativas de pago",
+    "mission": "Evaluar qué cambia cuando desaparece la exposición permanente",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Pagar sin efectivo: comodidad, datos y exclusión",
-      "text": "Aceptar una política de privacidad con un clic suele sentirse como un acto menor, aunque autoriza usos de datos que pueden durar mucho más que la pantalla inicial.\n\nEl consentimiento solo es significativo cuando la finalidad, el alcance y las alternativas se explican de forma comprensible y proporcional.\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «billetera digital», «comisión» y «trazabilidad» no son adornos: permiten describir el problema con mayor precisión.\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, modalidad deóntica y precisión restrictiva ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.\n\nHay además una dificultad de segundo orden: los marcos con que se mide el problema pueden inclinar la conclusión. Un indicador hace visible una parte de la realidad y puede dejar otra fuera; una fuente autorizada merece atención, pero no elimina la necesidad de examinar su método, su alcance y sus intereses. El lector experto no busca una neutralidad imposible, sino criterios explícitos para comparar argumentos.\n\nEsto tiene consecuencias prácticas. Las decisiones sobre interpretar derechos y responsabilidades en sistemas de pago digital deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: distinguir acceso, trazabilidad, comisiones y alternativas de pago. Hablar de privacidad, consentimiento y proporcionalidad supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.",
+      "title": "Viví un año sin redes sociales: esto fue lo que aprendí",
+      "text": "Aceptar una política de privacidad con un clic suele sentirse como un acto menor, aunque autoriza usos de datos que pueden durar mucho más que la pantalla inicial.\n\nEl consentimiento solo es significativo cuando la finalidad, el alcance y las alternativas se explican de forma comprensible y proporcional.\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «desconexión», «notificación» y «atención» no son adornos: permiten describir el problema con mayor precisión.\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, modalidad deóntica y precisión restrictiva ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.\n\nHay además una dificultad de segundo orden: los marcos con que se mide el problema pueden inclinar la conclusión. Un indicador hace visible una parte de la realidad y puede dejar otra fuera; una fuente autorizada merece atención, pero no elimina la necesidad de examinar su método, su alcance y sus intereses. El lector experto no busca una neutralidad imposible, sino criterios explícitos para comparar argumentos.\n\nEsto tiene consecuencias prácticas. Las decisiones sobre escuchar un testimonio sobre desconexión, atención y relaciones deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: evaluar qué cambia cuando desaparece la exposición permanente. Hablar de privacidad, consentimiento y proporcionalidad supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.",
       "questions": [
         "¿Cuál es el problema central que analiza la lectura?",
         "¿Qué exige el texto antes de aceptar una conclusión?",
@@ -17351,33 +17351,33 @@
     "level": "C1",
     "skill": "listening",
     "unitId": "innovacion-responsable",
-    "title": "Escucha · Antes de automatizar una decisión",
+    "title": "Escucha · ¿Por qué sufrimos el síndrome del impostor?",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
     "orderIndex": 51,
     "estimatedMinutes": 14,
-    "description": "Crónica de audio conectada con el Reading «Antes de automatizar una decisión».",
+    "description": "Podcast de psicología sobre «¿Por qué sufrimos el síndrome del impostor?».",
     "intro": "Escucha una adaptación integral del tema antes de consultar la transcripción.",
     "mission": "Reconoce cómo el vocabulario y condicionales mixtas y contrafactuales organizan una explicación oral compleja.",
     "grammar": "",
     "phrases": [
-      "precaución",
-      "impacto",
-      "despliegue",
-      "Si existieran más apoyos, muchas personas podrían afrontar «precaución» de otra manera."
+      "autoexigencia",
+      "mérito",
+      "inseguridad",
+      "Si existieran más apoyos, muchas personas podrían afrontar «autoexigencia» de otra manera."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Una institución anuncia un sistema automatizado para priorizar ayudas, admisiones o alertas tempranas. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «precaución», «impacto» y «despliegue». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Si existieran más apoyos, muchas personas podrían afrontar «precaución» de otra manera. Desde esta perspectiva, ponderar utilidad, sesgo, supervisión y transparencia no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de tecnología y decisiones públicas implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«sesgo», «supervisión» y «trazabilidad»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «entrevista de radio resumida», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada.",
+    "transcript": "Hay personas que reciben un ascenso, terminan un proyecto difícil o son felicitadas por su trabajo y, aun así, creen que en cualquier momento alguien descubrirá que no merecían estar allí. Ese contraste tiene un nombre: síndrome del impostor. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «autoexigencia», «mérito» y «inseguridad». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Si existieran más apoyos, muchas personas podrían afrontar «autoexigencia» de otra manera. Desde esta perspectiva, distinguir autoexigencia, inseguridad y evaluación realista no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de ¿por qué sufrimos el síndrome del impostor? implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«validación», «logro» y «percepción»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «podcast de psicología», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En examinar las dudas que aparecen incluso ante logros comprobables, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «autoexigencia», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
     "extra": {
       "listeningType": "story",
       "difficulty": "C1",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "Una institución anuncia un sistema automatizado para priorizar ayudas, admisiones o alertas tempranas. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «precaución», «impacto» y «despliegue». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Si existieran más apoyos, muchas personas podrían afrontar «precaución» de otra manera. Desde esta perspectiva, ponderar utilidad, sesgo, supervisión y transparencia no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de tecnología y decisiones públicas implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«sesgo», «supervisión» y «trazabilidad»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «entrevista de radio resumida», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada.",
+      "transcript": "Hay personas que reciben un ascenso, terminan un proyecto difícil o son felicitadas por su trabajo y, aun así, creen que en cualquier momento alguien descubrirá que no merecían estar allí. Ese contraste tiene un nombre: síndrome del impostor. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «autoexigencia», «mérito» y «inseguridad». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Si existieran más apoyos, muchas personas podrían afrontar «autoexigencia» de otra manera. Desde esta perspectiva, distinguir autoexigencia, inseguridad y evaluación realista no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de ¿por qué sufrimos el síndrome del impostor? implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«validación», «logro» y «percepción»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «podcast de psicología», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En examinar las dudas que aparecen incluso ante logros comprobables, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «autoexigencia», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
       "listeningComprehension": {
         "id": "spanish-c1-innovacion-responsable-listening-comprehension",
         "passingScore": 70,
@@ -17530,33 +17530,33 @@
     "level": "C2",
     "skill": "listening",
     "unitId": "analisis-juridico",
-    "title": "Escucha · Pagar sin efectivo: comodidad, datos y exclusión",
+    "title": "Escucha · Viví un año sin redes sociales: esto fue lo que aprendí",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
     "orderIndex": 51,
     "estimatedMinutes": 14,
-    "description": "Crónica de audio conectada con el Reading «Pagar sin efectivo: comodidad, datos y exclusión».",
+    "description": "Testimonio sobre «Viví un año sin redes sociales: esto fue lo que aprendí».",
     "intro": "Escucha una adaptación integral del tema antes de consultar la transcripción.",
     "mission": "Reconoce cómo el vocabulario y modalidad deóntica y precisión restrictiva organizan una explicación oral compleja.",
     "grammar": "",
     "phrases": [
-      "billetera digital",
-      "comisión",
-      "trazabilidad",
-      "Aunque «billetera digital» parece una decisión individual, conviene considerar «comisión» y «trazabilidad»."
+      "desconexión",
+      "notificación",
+      "atención",
+      "Aunque «desconexión» parece una decisión individual, conviene considerar «notificación» y «atención»."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Aceptar una política de privacidad con un clic suele sentirse como un acto menor, aunque autoriza usos de datos que pueden durar mucho más que la pantalla inicial. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «billetera digital», «comisión» y «trazabilidad». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «billetera digital» parece una decisión individual, conviene considerar «comisión» y «trazabilidad». Desde esta perspectiva, distinguir acceso, trazabilidad, comisiones y alternativas de pago no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de pagar sin efectivo: comodidad, datos y exclusión implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«acceso», «intermediario» y «exclusión»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «análisis jurídico», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada.",
+    "transcript": "Durante un año, Martín no abrió una sola red social. Al principio no sintió libertad, sino el vacío de un hábito: la mano buscaba el teléfono antes de que apareciera una pregunta real que responder. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «desconexión», «notificación» y «atención». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «desconexión» parece una decisión individual, conviene considerar «notificación» y «atención». Desde esta perspectiva, evaluar qué cambia cuando desaparece la exposición permanente no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de viví un año sin redes sociales: esto fue lo que aprendí implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«hábito», «privacidad» y «presencia»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «testimonio», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En escuchar un testimonio sobre desconexión, atención y relaciones, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «desconexión», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
     "extra": {
       "listeningType": "story",
       "difficulty": "C2",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "Aceptar una política de privacidad con un clic suele sentirse como un acto menor, aunque autoriza usos de datos que pueden durar mucho más que la pantalla inicial. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «billetera digital», «comisión» y «trazabilidad». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «billetera digital» parece una decisión individual, conviene considerar «comisión» y «trazabilidad». Desde esta perspectiva, distinguir acceso, trazabilidad, comisiones y alternativas de pago no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de pagar sin efectivo: comodidad, datos y exclusión implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«acceso», «intermediario» y «exclusión»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «análisis jurídico», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada.",
+      "transcript": "Durante un año, Martín no abrió una sola red social. Al principio no sintió libertad, sino el vacío de un hábito: la mano buscaba el teléfono antes de que apareciera una pregunta real que responder. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «desconexión», «notificación» y «atención». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «desconexión» parece una decisión individual, conviene considerar «notificación» y «atención». Desde esta perspectiva, evaluar qué cambia cuando desaparece la exposición permanente no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de viví un año sin redes sociales: esto fue lo que aprendí implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«hábito», «privacidad» y «presencia»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «testimonio», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En escuchar un testimonio sobre desconexión, atención y relaciones, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «desconexión», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
       "listeningComprehension": {
         "id": "spanish-c2-analisis-juridico-listening-comprehension",
         "passingScore": 70,
@@ -17906,14 +17906,14 @@
     "level": "C1",
     "skill": "speaking",
     "unitId": "innovacion-responsable",
-    "title": "Habla · Tecnología y decisiones públicas",
+    "title": "Habla · ¿Por qué sufrimos el síndrome del impostor?",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
     "orderIndex": 52,
     "estimatedMinutes": 14,
     "description": "Responde oralmente dentro del escenario de la unidad.",
-    "intro": "Evaluar sistemas automatizados antes de adoptarlos",
+    "intro": "Examinar las dudas que aparecen incluso ante logros comprobables",
     "mission": "Graba una respuesta de 45–90 segundos: presenta tu propuesta, justifica dos razones y reconoce una posible dificultad.",
     "grammar": "",
     "phrases": [
@@ -17926,7 +17926,7 @@
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "¿Qué propones ante esta situación: evaluar sistemas automatizados antes de adoptarlos?",
+        "line": "¿Qué propones ante esta situación: examinar las dudas que aparecen incluso ante logros comprobables?",
         "translation": "What do you propose in this situation?"
       },
       {
@@ -17941,11 +17941,11 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Explica cómo resolverías este reto: Evaluar sistemas automatizados antes de adoptarlos."
+        "prompt": "Explica cómo resolverías este reto: Examinar las dudas que aparecen incluso ante logros comprobables."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos palabras: precaución, impacto, despliegue."
+        "prompt": "Usa al menos dos palabras: autoexigencia, mérito, inseguridad."
       }
     ]
   },
@@ -17954,14 +17954,14 @@
     "level": "C2",
     "skill": "speaking",
     "unitId": "analisis-juridico",
-    "title": "Habla · Pagar sin efectivo: comodidad, datos y exclusión",
+    "title": "Habla · Viví un año sin redes sociales: esto fue lo que aprendí",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
     "orderIndex": 52,
     "estimatedMinutes": 14,
     "description": "Responde oralmente dentro del escenario de la unidad.",
-    "intro": "Interpretar derechos y responsabilidades en sistemas de pago digital",
+    "intro": "Escuchar un testimonio sobre desconexión, atención y relaciones",
     "mission": "Graba una respuesta de 45–90 segundos: presenta tu propuesta, justifica dos razones y reconoce una posible dificultad.",
     "grammar": "",
     "phrases": [
@@ -17974,7 +17974,7 @@
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "¿Qué propones ante esta situación: interpretar derechos y responsabilidades en sistemas de pago digital?",
+        "line": "¿Qué propones ante esta situación: escuchar un testimonio sobre desconexión, atención y relaciones?",
         "translation": "What do you propose in this situation?"
       },
       {
@@ -17989,11 +17989,11 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Explica cómo resolverías este reto: Interpretar derechos y responsabilidades en sistemas de pago digital."
+        "prompt": "Explica cómo resolverías este reto: Escuchar un testimonio sobre desconexión, atención y relaciones."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos palabras: billetera digital, comisión, trazabilidad."
+        "prompt": "Usa al menos dos palabras: desconexión, notificación, atención."
       }
     ]
   },
@@ -18140,7 +18140,7 @@
     "level": "C1",
     "skill": "writing",
     "unitId": "innovacion-responsable",
-    "title": "Escribe · Tecnología y decisiones públicas",
+    "title": "Escribe · ¿Por qué sufrimos el síndrome del impostor?",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
@@ -18148,7 +18148,7 @@
     "estimatedMinutes": 18,
     "description": "Produce un texto conectado con la misión de la unidad.",
     "intro": "Planifica, redacta y revisa antes de enviar tu texto.",
-    "mission": "Escribe 230–300 palabras sobre «Evaluar sistemas automatizados antes de adoptarlos». Incluye una idea principal, razones y una conclusión.",
+    "mission": "Escribe 230–300 palabras sobre «Examinar las dudas que aparecen incluso ante logros comprobables». Incluye una idea principal, razones y una conclusión.",
     "grammar": "condicionales mixtas y contrafactuales",
     "phrases": [
       "En primer lugar…",
@@ -18164,7 +18164,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Redacta una respuesta organizada para: Evaluar sistemas automatizados antes de adoptarlos."
+        "prompt": "Redacta una respuesta organizada para: Examinar las dudas que aparecen incluso ante logros comprobables."
       }
     ]
   },
@@ -18173,7 +18173,7 @@
     "level": "C2",
     "skill": "writing",
     "unitId": "analisis-juridico",
-    "title": "Escribe · Pagar sin efectivo: comodidad, datos y exclusión",
+    "title": "Escribe · Viví un año sin redes sociales: esto fue lo que aprendí",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
@@ -18181,7 +18181,7 @@
     "estimatedMinutes": 18,
     "description": "Produce un texto conectado con la misión de la unidad.",
     "intro": "Planifica, redacta y revisa antes de enviar tu texto.",
-    "mission": "Escribe 230–300 palabras sobre «Interpretar derechos y responsabilidades en sistemas de pago digital». Incluye una idea principal, razones y una conclusión.",
+    "mission": "Escribe 230–300 palabras sobre «Escuchar un testimonio sobre desconexión, atención y relaciones». Incluye una idea principal, razones y una conclusión.",
     "grammar": "modalidad deóntica y precisión restrictiva",
     "phrases": [
       "En primer lugar…",
@@ -18197,7 +18197,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Redacta una respuesta organizada para: Interpretar derechos y responsabilidades en sistemas de pago digital."
+        "prompt": "Redacta una respuesta organizada para: Escuchar un testimonio sobre desconexión, atención y relaciones."
       }
     ]
   },
@@ -18797,14 +18797,14 @@
     "xpReward": 30,
     "orderIndex": 54,
     "estimatedMinutes": 14,
-    "description": "Aplica la forma gramatical dentro del tema «Tecnología y decisiones públicas».",
+    "description": "Aplica la forma gramatical dentro del tema «¿Por qué sufrimos el síndrome del impostor?».",
     "intro": "Observa cómo la gramática cambia la precisión y el matiz.",
     "mission": "Usa condicionales mixtas y contrafactuales para explicar y justificar una propuesta.",
-    "grammar": "Foco: condicionales mixtas y contrafactuales.\n\nUso: permite explicar el tema «Antes de automatizar una decisión» con precisión y matiz.\n\nModelo: Si existieran más apoyos, muchas personas podrían afrontar «precaución» de otra manera.",
+    "grammar": "Foco: condicionales mixtas y contrafactuales.\n\nUso: permite explicar el tema «¿Por qué sufrimos el síndrome del impostor?» con precisión y matiz.\n\nModelo: Si existieran más apoyos, muchas personas podrían afrontar «autoexigencia» de otra manera.",
     "phrases": [
-      "Si existieran más apoyos, muchas personas podrían afrontar «precaución» de otra manera.",
-      "El texto relaciona «precaución» con «impacto».",
-      "Antes de concluir, conviene revisar «despliegue»."
+      "Si existieran más apoyos, muchas personas podrían afrontar «autoexigencia» de otra manera.",
+      "El texto relaciona «autoexigencia» con «mérito».",
+      "Antes de concluir, conviene revisar «inseguridad»."
     ],
     "vocabulary": [],
     "dialogue": [],
@@ -18845,19 +18845,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Si existieran más apoyos, muchas personas podrían afrontar «precaución» de otra manera."
+                "text": "Si existieran más apoyos, muchas personas podrían afrontar «autoexigencia» de otra manera."
               },
               {
                 "id": "o2",
-                "text": "precaución impacto despliegue."
+                "text": "autoexigencia mérito inseguridad."
               },
               {
                 "id": "o3",
-                "text": "Porque precaución y impacto."
+                "text": "Porque autoexigencia y mérito."
               },
               {
                 "id": "o4",
-                "text": "despliegue sin contexto decidir."
+                "text": "inseguridad sin contexto decidir."
               }
             ]
           },
@@ -18868,19 +18868,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "La evidencia ayuda a interpretar «precaución» antes de concluir."
+                "text": "La evidencia ayuda a interpretar «autoexigencia» antes de concluir."
               },
               {
                 "id": "o2",
-                "text": "La evidencia «precaución» concluir antes."
+                "text": "La evidencia «autoexigencia» concluir antes."
               },
               {
                 "id": "o3",
-                "text": "Interpretar evidencia porque «precaución»."
+                "text": "Interpretar evidencia porque «autoexigencia»."
               },
               {
                 "id": "o4",
-                "text": "«precaución» evidencia sin."
+                "text": "«autoexigencia» evidencia sin."
               }
             ]
           },
@@ -18927,10 +18927,10 @@
         "type": "mcq",
         "prompt": "¿Qué oración usa la estructura de la unidad para hablar del Reading?",
         "options": [
-          "Si existieran más apoyos, muchas personas podrían afrontar «precaución» de otra manera.",
-          "precaución impacto despliegue.",
-          "Porque precaución y impacto.",
-          "despliegue sin contexto decidir."
+          "Si existieran más apoyos, muchas personas podrían afrontar «autoexigencia» de otra manera.",
+          "autoexigencia mérito inseguridad.",
+          "Porque autoexigencia y mérito.",
+          "inseguridad sin contexto decidir."
         ],
         "explanation": "La primera opción relaciona la estructura gramatical con el tema y el vocabulario de la lección."
       },
@@ -18938,10 +18938,10 @@
         "type": "mcq",
         "prompt": "¿Qué opción mantiene mejor el sentido del texto?",
         "options": [
-          "La evidencia ayuda a interpretar «precaución» antes de concluir.",
-          "La evidencia «precaución» concluir antes.",
-          "Interpretar evidencia porque «precaución».",
-          "«precaución» evidencia sin."
+          "La evidencia ayuda a interpretar «autoexigencia» antes de concluir.",
+          "La evidencia «autoexigencia» concluir antes.",
+          "Interpretar evidencia porque «autoexigencia».",
+          "«autoexigencia» evidencia sin."
         ],
         "explanation": "La primera opción presenta una relación lógica y una idea completa."
       },
@@ -18969,14 +18969,14 @@
     "xpReward": 30,
     "orderIndex": 54,
     "estimatedMinutes": 14,
-    "description": "Aplica la forma gramatical dentro del tema «Pagar sin efectivo: comodidad, datos y exclusión».",
+    "description": "Aplica la forma gramatical dentro del tema «Viví un año sin redes sociales: esto fue lo que aprendí».",
     "intro": "Observa cómo la gramática cambia la precisión y el matiz.",
     "mission": "Usa modalidad deóntica y precisión restrictiva para explicar y justificar una propuesta.",
-    "grammar": "Foco: modalidad deóntica y precisión restrictiva.\n\nUso: permite explicar el tema «Pagar sin efectivo: comodidad, datos y exclusión» con precisión y matiz.\n\nModelo: Aunque «billetera digital» parece una decisión individual, conviene considerar «comisión» y «trazabilidad».",
+    "grammar": "Foco: modalidad deóntica y precisión restrictiva.\n\nUso: permite explicar el tema «Viví un año sin redes sociales: esto fue lo que aprendí» con precisión y matiz.\n\nModelo: Aunque «desconexión» parece una decisión individual, conviene considerar «notificación» y «atención».",
     "phrases": [
-      "Aunque «billetera digital» parece una decisión individual, conviene considerar «comisión» y «trazabilidad».",
-      "El texto relaciona «billetera digital» con «comisión».",
-      "Antes de concluir, conviene revisar «trazabilidad»."
+      "Aunque «desconexión» parece una decisión individual, conviene considerar «notificación» y «atención».",
+      "El texto relaciona «desconexión» con «notificación».",
+      "Antes de concluir, conviene revisar «atención»."
     ],
     "vocabulary": [],
     "dialogue": [],
@@ -19017,19 +19017,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Aunque «billetera digital» parece una decisión individual, conviene considerar «comisión» y «trazabilidad»."
+                "text": "Aunque «desconexión» parece una decisión individual, conviene considerar «notificación» y «atención»."
               },
               {
                 "id": "o2",
-                "text": "billetera digital comisión trazabilidad."
+                "text": "desconexión notificación atención."
               },
               {
                 "id": "o3",
-                "text": "Porque billetera digital y comisión."
+                "text": "Porque desconexión y notificación."
               },
               {
                 "id": "o4",
-                "text": "trazabilidad sin contexto decidir."
+                "text": "atención sin contexto decidir."
               }
             ]
           },
@@ -19040,19 +19040,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "La evidencia ayuda a interpretar «billetera digital» antes de concluir."
+                "text": "La evidencia ayuda a interpretar «desconexión» antes de concluir."
               },
               {
                 "id": "o2",
-                "text": "La evidencia «billetera digital» concluir antes."
+                "text": "La evidencia «desconexión» concluir antes."
               },
               {
                 "id": "o3",
-                "text": "Interpretar evidencia porque «billetera digital»."
+                "text": "Interpretar evidencia porque «desconexión»."
               },
               {
                 "id": "o4",
-                "text": "«billetera digital» evidencia sin."
+                "text": "«desconexión» evidencia sin."
               }
             ]
           },
@@ -19099,10 +19099,10 @@
         "type": "mcq",
         "prompt": "¿Qué oración usa la estructura de la unidad para hablar del Reading?",
         "options": [
-          "Aunque «billetera digital» parece una decisión individual, conviene considerar «comisión» y «trazabilidad».",
-          "billetera digital comisión trazabilidad.",
-          "Porque billetera digital y comisión.",
-          "trazabilidad sin contexto decidir."
+          "Aunque «desconexión» parece una decisión individual, conviene considerar «notificación» y «atención».",
+          "desconexión notificación atención.",
+          "Porque desconexión y notificación.",
+          "atención sin contexto decidir."
         ],
         "explanation": "La primera opción relaciona la estructura gramatical con el tema y el vocabulario de la lección."
       },
@@ -19110,10 +19110,10 @@
         "type": "mcq",
         "prompt": "¿Qué opción mantiene mejor el sentido del texto?",
         "options": [
-          "La evidencia ayuda a interpretar «billetera digital» antes de concluir.",
-          "La evidencia «billetera digital» concluir antes.",
-          "Interpretar evidencia porque «billetera digital».",
-          "«billetera digital» evidencia sin."
+          "La evidencia ayuda a interpretar «desconexión» antes de concluir.",
+          "La evidencia «desconexión» concluir antes.",
+          "Interpretar evidencia porque «desconexión».",
+          "«desconexión» evidencia sin."
         ],
         "explanation": "La primera opción presenta una relación lógica y una idea completa."
       },
@@ -19697,7 +19697,7 @@
     "level": "C1",
     "skill": "vocabulary",
     "unitId": "innovacion-responsable",
-    "title": "Vocabulario · Tecnología y decisiones públicas",
+    "title": "Vocabulario · ¿Por qué sufrimos el síndrome del impostor?",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
@@ -19710,50 +19710,50 @@
     "phrases": [],
     "vocabulary": [
       {
-        "word": "precaución",
-        "translation": "English support: precaución",
-        "definition": "Término clave para comprender «Antes de automatizar una decisión» y analizar evaluar sistemas automatizados antes de adoptarlos.",
-        "example": "Si existieran más apoyos, muchas personas podrían afrontar «precaución» de otra manera. Esta frase sitúa «precaución» dentro del tema de la unidad.",
+        "word": "autoexigencia",
+        "translation": "English support: autoexigencia",
+        "definition": "Término clave para comprender «¿Por qué sufrimos el síndrome del impostor?» y analizar examinar las dudas que aparecen incluso ante logros comprobables.",
+        "example": "Si existieran más apoyos, muchas personas podrían afrontar «autoexigencia» de otra manera. Esta frase sitúa «autoexigencia» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 1
       },
       {
-        "word": "impacto",
-        "translation": "English support: impacto",
-        "definition": "Término clave para comprender «Antes de automatizar una decisión» y analizar evaluar sistemas automatizados antes de adoptarlos.",
-        "example": "Si existieran más apoyos, muchas personas podrían afrontar «precaución» de otra manera. Esta frase sitúa «impacto» dentro del tema de la unidad.",
+        "word": "mérito",
+        "translation": "English support: mérito",
+        "definition": "Término clave para comprender «¿Por qué sufrimos el síndrome del impostor?» y analizar examinar las dudas que aparecen incluso ante logros comprobables.",
+        "example": "Si existieran más apoyos, muchas personas podrían afrontar «autoexigencia» de otra manera. Esta frase sitúa «mérito» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 2
       },
       {
-        "word": "despliegue",
-        "translation": "English support: despliegue",
-        "definition": "Término clave para comprender «Antes de automatizar una decisión» y analizar evaluar sistemas automatizados antes de adoptarlos.",
-        "example": "Si existieran más apoyos, muchas personas podrían afrontar «precaución» de otra manera. Esta frase sitúa «despliegue» dentro del tema de la unidad.",
+        "word": "inseguridad",
+        "translation": "English support: inseguridad",
+        "definition": "Término clave para comprender «¿Por qué sufrimos el síndrome del impostor?» y analizar examinar las dudas que aparecen incluso ante logros comprobables.",
+        "example": "Si existieran más apoyos, muchas personas podrían afrontar «autoexigencia» de otra manera. Esta frase sitúa «inseguridad» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 3
       },
       {
-        "word": "sesgo",
-        "translation": "English support: sesgo",
-        "definition": "Término clave para comprender «Antes de automatizar una decisión» y analizar evaluar sistemas automatizados antes de adoptarlos.",
-        "example": "Si existieran más apoyos, muchas personas podrían afrontar «precaución» de otra manera. Esta frase sitúa «sesgo» dentro del tema de la unidad.",
+        "word": "validación",
+        "translation": "English support: validación",
+        "definition": "Término clave para comprender «¿Por qué sufrimos el síndrome del impostor?» y analizar examinar las dudas que aparecen incluso ante logros comprobables.",
+        "example": "Si existieran más apoyos, muchas personas podrían afrontar «autoexigencia» de otra manera. Esta frase sitúa «validación» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 4
       },
       {
-        "word": "supervisión",
-        "translation": "English support: supervisión",
-        "definition": "Término clave para comprender «Antes de automatizar una decisión» y analizar evaluar sistemas automatizados antes de adoptarlos.",
-        "example": "Si existieran más apoyos, muchas personas podrían afrontar «precaución» de otra manera. Esta frase sitúa «supervisión» dentro del tema de la unidad.",
+        "word": "logro",
+        "translation": "English support: logro",
+        "definition": "Término clave para comprender «¿Por qué sufrimos el síndrome del impostor?» y analizar examinar las dudas que aparecen incluso ante logros comprobables.",
+        "example": "Si existieran más apoyos, muchas personas podrían afrontar «autoexigencia» de otra manera. Esta frase sitúa «logro» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 5
       },
       {
-        "word": "trazabilidad",
-        "translation": "English support: trazabilidad",
-        "definition": "Término clave para comprender «Antes de automatizar una decisión» y analizar evaluar sistemas automatizados antes de adoptarlos.",
-        "example": "Si existieran más apoyos, muchas personas podrían afrontar «precaución» de otra manera. Esta frase sitúa «trazabilidad» dentro del tema de la unidad.",
+        "word": "percepción",
+        "translation": "English support: percepción",
+        "definition": "Término clave para comprender «¿Por qué sufrimos el síndrome del impostor?» y analizar examinar las dudas que aparecen incluso ante logros comprobables.",
+        "example": "Si existieran más apoyos, muchas personas podrían afrontar «autoexigencia» de otra manera. Esta frase sitúa «percepción» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 6
       }
@@ -19765,69 +19765,69 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Tecnología y decisiones públicas»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «¿Por qué sufrimos el síndrome del impostor?»?",
         "options": [
           "desayuno",
-          "precaución",
+          "autoexigencia",
           "zapato",
           "ventana"
         ],
-        "explanation": "«precaución» forma parte del vocabulario de esta unidad."
+        "explanation": "«autoexigencia» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Tecnología y decisiones públicas»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «¿Por qué sufrimos el síndrome del impostor?»?",
         "options": [
           "desayuno",
-          "impacto",
+          "mérito",
           "zapato",
           "ventana"
         ],
-        "explanation": "«impacto» forma parte del vocabulario de esta unidad."
+        "explanation": "«mérito» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Tecnología y decisiones públicas»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «¿Por qué sufrimos el síndrome del impostor?»?",
         "options": [
           "desayuno",
-          "despliegue",
+          "inseguridad",
           "zapato",
           "ventana"
         ],
-        "explanation": "«despliegue» forma parte del vocabulario de esta unidad."
+        "explanation": "«inseguridad» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Tecnología y decisiones públicas»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «¿Por qué sufrimos el síndrome del impostor?»?",
         "options": [
           "desayuno",
-          "sesgo",
+          "validación",
           "zapato",
           "ventana"
         ],
-        "explanation": "«sesgo» forma parte del vocabulario de esta unidad."
+        "explanation": "«validación» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Tecnología y decisiones públicas»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «¿Por qué sufrimos el síndrome del impostor?»?",
         "options": [
           "desayuno",
-          "supervisión",
+          "logro",
           "zapato",
           "ventana"
         ],
-        "explanation": "«supervisión» forma parte del vocabulario de esta unidad."
+        "explanation": "«logro» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Tecnología y decisiones públicas»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «¿Por qué sufrimos el síndrome del impostor?»?",
         "options": [
           "desayuno",
-          "trazabilidad",
+          "percepción",
           "zapato",
           "ventana"
         ],
-        "explanation": "«trazabilidad» forma parte del vocabulario de esta unidad."
+        "explanation": "«percepción» forma parte del vocabulario de esta unidad."
       }
     ]
   },
@@ -19836,7 +19836,7 @@
     "level": "C2",
     "skill": "vocabulary",
     "unitId": "analisis-juridico",
-    "title": "Vocabulario · Pagar sin efectivo: comodidad, datos y exclusión",
+    "title": "Vocabulario · Viví un año sin redes sociales: esto fue lo que aprendí",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
@@ -19849,50 +19849,50 @@
     "phrases": [],
     "vocabulary": [
       {
-        "word": "billetera digital",
-        "translation": "English support: billetera digital",
-        "definition": "Término clave para comprender «Pagar sin efectivo: comodidad, datos y exclusión» y analizar interpretar derechos y responsabilidades en sistemas de pago digital.",
-        "example": "Aunque «billetera digital» parece una decisión individual, conviene considerar «comisión» y «trazabilidad». Esta frase sitúa «billetera digital» dentro del tema de la unidad.",
-        "partOfSpeech": "locución",
+        "word": "desconexión",
+        "translation": "English support: desconexión",
+        "definition": "Término clave para comprender «Viví un año sin redes sociales: esto fue lo que aprendí» y analizar escuchar un testimonio sobre desconexión, atención y relaciones.",
+        "example": "Aunque «desconexión» parece una decisión individual, conviene considerar «notificación» y «atención». Esta frase sitúa «desconexión» dentro del tema de la unidad.",
+        "partOfSpeech": "sustantivo",
         "unitOrder": 1
       },
       {
-        "word": "comisión",
-        "translation": "English support: comisión",
-        "definition": "Término clave para comprender «Pagar sin efectivo: comodidad, datos y exclusión» y analizar interpretar derechos y responsabilidades en sistemas de pago digital.",
-        "example": "Aunque «billetera digital» parece una decisión individual, conviene considerar «comisión» y «trazabilidad». Esta frase sitúa «comisión» dentro del tema de la unidad.",
+        "word": "notificación",
+        "translation": "English support: notificación",
+        "definition": "Término clave para comprender «Viví un año sin redes sociales: esto fue lo que aprendí» y analizar escuchar un testimonio sobre desconexión, atención y relaciones.",
+        "example": "Aunque «desconexión» parece una decisión individual, conviene considerar «notificación» y «atención». Esta frase sitúa «notificación» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 2
       },
       {
-        "word": "trazabilidad",
-        "translation": "English support: trazabilidad",
-        "definition": "Término clave para comprender «Pagar sin efectivo: comodidad, datos y exclusión» y analizar interpretar derechos y responsabilidades en sistemas de pago digital.",
-        "example": "Aunque «billetera digital» parece una decisión individual, conviene considerar «comisión» y «trazabilidad». Esta frase sitúa «trazabilidad» dentro del tema de la unidad.",
+        "word": "atención",
+        "translation": "English support: atención",
+        "definition": "Término clave para comprender «Viví un año sin redes sociales: esto fue lo que aprendí» y analizar escuchar un testimonio sobre desconexión, atención y relaciones.",
+        "example": "Aunque «desconexión» parece una decisión individual, conviene considerar «notificación» y «atención». Esta frase sitúa «atención» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 3
       },
       {
-        "word": "acceso",
-        "translation": "English support: acceso",
-        "definition": "Término clave para comprender «Pagar sin efectivo: comodidad, datos y exclusión» y analizar interpretar derechos y responsabilidades en sistemas de pago digital.",
-        "example": "Aunque «billetera digital» parece una decisión individual, conviene considerar «comisión» y «trazabilidad». Esta frase sitúa «acceso» dentro del tema de la unidad.",
+        "word": "hábito",
+        "translation": "English support: hábito",
+        "definition": "Término clave para comprender «Viví un año sin redes sociales: esto fue lo que aprendí» y analizar escuchar un testimonio sobre desconexión, atención y relaciones.",
+        "example": "Aunque «desconexión» parece una decisión individual, conviene considerar «notificación» y «atención». Esta frase sitúa «hábito» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 4
       },
       {
-        "word": "intermediario",
-        "translation": "English support: intermediario",
-        "definition": "Término clave para comprender «Pagar sin efectivo: comodidad, datos y exclusión» y analizar interpretar derechos y responsabilidades en sistemas de pago digital.",
-        "example": "Aunque «billetera digital» parece una decisión individual, conviene considerar «comisión» y «trazabilidad». Esta frase sitúa «intermediario» dentro del tema de la unidad.",
+        "word": "privacidad",
+        "translation": "English support: privacidad",
+        "definition": "Término clave para comprender «Viví un año sin redes sociales: esto fue lo que aprendí» y analizar escuchar un testimonio sobre desconexión, atención y relaciones.",
+        "example": "Aunque «desconexión» parece una decisión individual, conviene considerar «notificación» y «atención». Esta frase sitúa «privacidad» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 5
       },
       {
-        "word": "exclusión",
-        "translation": "English support: exclusión",
-        "definition": "Término clave para comprender «Pagar sin efectivo: comodidad, datos y exclusión» y analizar interpretar derechos y responsabilidades en sistemas de pago digital.",
-        "example": "Aunque «billetera digital» parece una decisión individual, conviene considerar «comisión» y «trazabilidad». Esta frase sitúa «exclusión» dentro del tema de la unidad.",
+        "word": "presencia",
+        "translation": "English support: presencia",
+        "definition": "Término clave para comprender «Viví un año sin redes sociales: esto fue lo que aprendí» y analizar escuchar un testimonio sobre desconexión, atención y relaciones.",
+        "example": "Aunque «desconexión» parece una decisión individual, conviene considerar «notificación» y «atención». Esta frase sitúa «presencia» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 6
       }
@@ -19904,69 +19904,69 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Pagar sin efectivo: comodidad, datos y exclusión»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Viví un año sin redes sociales: esto fue lo que aprendí»?",
         "options": [
           "desayuno",
-          "billetera digital",
+          "desconexión",
           "zapato",
           "ventana"
         ],
-        "explanation": "«billetera digital» forma parte del vocabulario de esta unidad."
+        "explanation": "«desconexión» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Pagar sin efectivo: comodidad, datos y exclusión»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Viví un año sin redes sociales: esto fue lo que aprendí»?",
         "options": [
           "desayuno",
-          "comisión",
+          "notificación",
           "zapato",
           "ventana"
         ],
-        "explanation": "«comisión» forma parte del vocabulario de esta unidad."
+        "explanation": "«notificación» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Pagar sin efectivo: comodidad, datos y exclusión»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Viví un año sin redes sociales: esto fue lo que aprendí»?",
         "options": [
           "desayuno",
-          "trazabilidad",
+          "atención",
           "zapato",
           "ventana"
         ],
-        "explanation": "«trazabilidad» forma parte del vocabulario de esta unidad."
+        "explanation": "«atención» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Pagar sin efectivo: comodidad, datos y exclusión»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Viví un año sin redes sociales: esto fue lo que aprendí»?",
         "options": [
           "desayuno",
-          "acceso",
+          "hábito",
           "zapato",
           "ventana"
         ],
-        "explanation": "«acceso» forma parte del vocabulario de esta unidad."
+        "explanation": "«hábito» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Pagar sin efectivo: comodidad, datos y exclusión»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Viví un año sin redes sociales: esto fue lo que aprendí»?",
         "options": [
           "desayuno",
-          "intermediario",
+          "privacidad",
           "zapato",
           "ventana"
         ],
-        "explanation": "«intermediario» forma parte del vocabulario de esta unidad."
+        "explanation": "«privacidad» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Pagar sin efectivo: comodidad, datos y exclusión»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Viví un año sin redes sociales: esto fue lo que aprendí»?",
         "options": [
           "desayuno",
-          "exclusión",
+          "presencia",
           "zapato",
           "ventana"
         ],
-        "explanation": "«exclusión» forma parte del vocabulario de esta unidad."
+        "explanation": "«presencia» forma parte del vocabulario de esta unidad."
       }
     ]
   },
@@ -20343,22 +20343,22 @@
     "level": "C1",
     "skill": "reading",
     "unitId": "literatura-y-voz",
-    "title": "Hablar de salud mental sin convertirla en contenido",
+    "title": "Cómo una pequeña startup terminó revolucionando una industria",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 60,
     "estimatedMinutes": 18,
-    "description": "ensayo cultural: salud mental en la conversación digital.",
+    "description": "documental corto: cómo una pequeña startup terminó revolucionando una industria.",
     "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
-    "mission": "Distinguir apoyo, visibilidad y simplificación del sufrimiento",
+    "mission": "Analizar innovación, oportunidad y transformación de un mercado",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Hablar de salud mental sin convertirla en contenido",
-      "text": "Las redes han hecho más visible la conversación sobre ansiedad, agotamiento y bienestar emocional.\n\nEsa visibilidad puede reducir el estigma, pero también convierte experiencias complejas en etiquetas rápidas, consejos sin contexto o contenido diseñado para retener atención.\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «bienestar», «estigma» y «acompañamiento» no son adornos: permiten describir el problema con mayor precisión.\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, discurso referido libre y valores verbales ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.\n\nEsto tiene consecuencias prácticas. Las decisiones sobre analizar cómo las redes presentan el malestar emocional deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: distinguir apoyo, visibilidad y simplificación del sufrimiento. Hablar de apoyo, cuidado y límites de la exposición digital supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.",
+      "title": "Cómo una pequeña startup terminó revolucionando una industria",
+      "text": "Las redes han hecho más visible la conversación sobre ansiedad, agotamiento y bienestar emocional.\n\nEsa visibilidad puede reducir el estigma, pero también convierte experiencias complejas en etiquetas rápidas, consejos sin contexto o contenido diseñado para retener atención.\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «startup», «prototipo» y «inversión» no son adornos: permiten describir el problema con mayor precisión.\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, discurso referido libre y valores verbales ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.\n\nEsto tiene consecuencias prácticas. Las decisiones sobre reconstruir el crecimiento inesperado de una empresa emergente deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: analizar innovación, oportunidad y transformación de un mercado. Hablar de apoyo, cuidado y límites de la exposición digital supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.",
       "questions": [
         "¿Cuál es el problema central que analiza la lectura?",
         "¿Qué exige el texto antes de aceptar una conclusión?",
@@ -20444,22 +20444,22 @@
     "level": "C2",
     "skill": "reading",
     "unitId": "edicion-de-estilo",
-    "title": "Envejecer en una sociedad acelerada",
+    "title": "¿La inteligencia artificial reemplazará las profesiones creativas?",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 60,
     "estimatedMinutes": 18,
-    "description": "ensayo intergeneracional: envejecer en una sociedad acelerada.",
+    "description": "debate: ¿la inteligencia artificial reemplazará las profesiones creativas?.",
     "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
-    "mission": "Mejorar precisión sin convertir la vejez en un problema uniforme",
+    "mission": "Defender una postura compleja sobre creatividad humana y automatización",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Envejecer en una sociedad acelerada",
-      "text": "Una herramienta puede corregir una frase, resumir un párrafo o proponer una estructura en segundos.\n\nLa edición responsable no consiste en aceptar cada sugerencia, sino en decidir qué mejora la claridad y qué borra matices, autoría o posición argumentativa.\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «longevidad», «autonomía» y «dependencia» no son adornos: permiten describir el problema con mayor precisión.\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, cohesión avanzada y puntuación discursiva ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.\n\nHay además una dificultad de segundo orden: los marcos con que se mide el problema pueden inclinar la conclusión. Un indicador hace visible una parte de la realidad y puede dejar otra fuera; una fuente autorizada merece atención, pero no elimina la necesidad de examinar su método, su alcance y sus intereses. El lector experto no busca una neutralidad imposible, sino criterios explícitos para comparar argumentos.\n\nEsto tiene consecuencias prácticas. Las decisiones sobre editar relatos públicos sobre longevidad, autonomía y generaciones deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: mejorar precisión sin convertir la vejez en un problema uniforme. Hablar de autoría, revisión y criterio editorial supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.",
+      "title": "¿La inteligencia artificial reemplazará las profesiones creativas?",
+      "text": "Una herramienta puede corregir una frase, resumir un párrafo o proponer una estructura en segundos.\n\nLa edición responsable no consiste en aceptar cada sugerencia, sino en decidir qué mejora la claridad y qué borra matices, autoría o posición argumentativa.\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «autoría», «creatividad» y «automatización» no son adornos: permiten describir el problema con mayor precisión.\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, cohesión avanzada y puntuación discursiva ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.\n\nHay además una dificultad de segundo orden: los marcos con que se mide el problema pueden inclinar la conclusión. Un indicador hace visible una parte de la realidad y puede dejar otra fuera; una fuente autorizada merece atención, pero no elimina la necesidad de examinar su método, su alcance y sus intereses. El lector experto no busca una neutralidad imposible, sino criterios explícitos para comparar argumentos.\n\nEsto tiene consecuencias prácticas. Las decisiones sobre confrontar posiciones sobre autoría, trabajo y creación asistida deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: defender una postura compleja sobre creatividad humana y automatización. Hablar de autoría, revisión y criterio editorial supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.",
       "questions": [
         "¿Cuál es el problema central que analiza la lectura?",
         "¿Qué exige el texto antes de aceptar una conclusión?",
@@ -21247,33 +21247,33 @@
     "level": "C1",
     "skill": "listening",
     "unitId": "literatura-y-voz",
-    "title": "Escucha · Hablar de salud mental sin convertirla en contenido",
+    "title": "Escucha · Cómo una pequeña startup terminó revolucionando una industria",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
     "orderIndex": 61,
     "estimatedMinutes": 14,
-    "description": "Crónica de audio conectada con el Reading «Hablar de salud mental sin convertirla en contenido».",
+    "description": "Documental corto sobre «Cómo una pequeña startup terminó revolucionando una industria».",
     "intro": "Escucha una adaptación integral del tema antes de consultar la transcripción.",
     "mission": "Reconoce cómo el vocabulario y discurso referido libre y valores verbales organizan una explicación oral compleja.",
     "grammar": "",
     "phrases": [
-      "bienestar",
-      "estigma",
-      "acompañamiento",
-      "Aunque «bienestar» parece una decisión individual, conviene considerar «estigma» y «acompañamiento»."
+      "startup",
+      "prototipo",
+      "inversión",
+      "Aunque «startup» parece una decisión individual, conviene considerar «prototipo» y «inversión»."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Las redes han hecho más visible la conversación sobre ansiedad, agotamiento y bienestar emocional. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «bienestar», «estigma» y «acompañamiento». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «bienestar» parece una decisión individual, conviene considerar «estigma» y «acompañamiento». Desde esta perspectiva, distinguir apoyo, visibilidad y simplificación del sufrimiento no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de salud mental en la conversación digital implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«exposición», «diagnóstico» y «cuidado»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «crónica cultural», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada.",
+    "transcript": "La empresa empezó en una mesa pequeña y con un prototipo que apenas funcionaba. Lo que la distinguió no fue una idea espectacular, sino haber entendido un problema cotidiano que una industria entera llevaba años ignorando. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «startup», «prototipo» y «inversión». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «startup» parece una decisión individual, conviene considerar «prototipo» y «inversión». Desde esta perspectiva, analizar innovación, oportunidad y transformación de un mercado no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de cómo una pequeña startup terminó revolucionando una industria implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«escala», «disrupción» y «mercado»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «documental corto», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En reconstruir el crecimiento inesperado de una empresa emergente, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «startup», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
     "extra": {
       "listeningType": "story",
       "difficulty": "C1",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "Las redes han hecho más visible la conversación sobre ansiedad, agotamiento y bienestar emocional. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «bienestar», «estigma» y «acompañamiento». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «bienestar» parece una decisión individual, conviene considerar «estigma» y «acompañamiento». Desde esta perspectiva, distinguir apoyo, visibilidad y simplificación del sufrimiento no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de salud mental en la conversación digital implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«exposición», «diagnóstico» y «cuidado»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «crónica cultural», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada.",
+      "transcript": "La empresa empezó en una mesa pequeña y con un prototipo que apenas funcionaba. Lo que la distinguió no fue una idea espectacular, sino haber entendido un problema cotidiano que una industria entera llevaba años ignorando. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «startup», «prototipo» y «inversión». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «startup» parece una decisión individual, conviene considerar «prototipo» y «inversión». Desde esta perspectiva, analizar innovación, oportunidad y transformación de un mercado no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de cómo una pequeña startup terminó revolucionando una industria implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«escala», «disrupción» y «mercado»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «documental corto», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En reconstruir el crecimiento inesperado de una empresa emergente, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «startup», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
       "listeningComprehension": {
         "id": "spanish-c1-literatura-y-voz-listening-comprehension",
         "passingScore": 70,
@@ -21426,33 +21426,33 @@
     "level": "C2",
     "skill": "listening",
     "unitId": "edicion-de-estilo",
-    "title": "Escucha · Envejecer en una sociedad acelerada",
+    "title": "Escucha · ¿La inteligencia artificial reemplazará las profesiones creativas?",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
     "orderIndex": 61,
     "estimatedMinutes": 14,
-    "description": "Crónica de audio conectada con el Reading «Envejecer en una sociedad acelerada».",
+    "description": "Debate sobre «¿La inteligencia artificial reemplazará las profesiones creativas?».",
     "intro": "Escucha una adaptación integral del tema antes de consultar la transcripción.",
     "mission": "Reconoce cómo el vocabulario y cohesión avanzada y puntuación discursiva organizan una explicación oral compleja.",
     "grammar": "",
     "phrases": [
-      "longevidad",
-      "autonomía",
-      "dependencia",
-      "Aunque «longevidad» parece una decisión individual, conviene considerar «autonomía» y «dependencia»."
+      "autoría",
+      "creatividad",
+      "automatización",
+      "Aunque «autoría» parece una decisión individual, conviene considerar «creatividad» y «automatización»."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Una herramienta puede corregir una frase, resumir un párrafo o proponer una estructura en segundos. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «longevidad», «autonomía» y «dependencia». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «longevidad» parece una decisión individual, conviene considerar «autonomía» y «dependencia». Desde esta perspectiva, mejorar precisión sin convertir la vejez en un problema uniforme no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de envejecer en una sociedad acelerada implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«generación», «cuidado» y «accesibilidad»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «taller de edición», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada.",
+    "transcript": "La pregunta no es solo si una inteligencia artificial puede escribir una canción, diseñar una imagen o proponer una campaña. La pregunta difícil es quién conserva la autoría, el criterio y las condiciones de trabajo cuando una herramienta produce tanto tan rápido. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «autoría», «creatividad» y «automatización». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «autoría» parece una decisión individual, conviene considerar «creatividad» y «automatización». Desde esta perspectiva, defender una postura compleja sobre creatividad humana y automatización no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de ¿la inteligencia artificial reemplazará las profesiones creativas? implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«encargo», «originalidad» y «criterio»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «debate», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En confrontar posiciones sobre autoría, trabajo y creación asistida, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «autoría», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
     "extra": {
       "listeningType": "story",
       "difficulty": "C2",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "Una herramienta puede corregir una frase, resumir un párrafo o proponer una estructura en segundos. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «longevidad», «autonomía» y «dependencia». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «longevidad» parece una decisión individual, conviene considerar «autonomía» y «dependencia». Desde esta perspectiva, mejorar precisión sin convertir la vejez en un problema uniforme no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de envejecer en una sociedad acelerada implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«generación», «cuidado» y «accesibilidad»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «taller de edición», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada.",
+      "transcript": "La pregunta no es solo si una inteligencia artificial puede escribir una canción, diseñar una imagen o proponer una campaña. La pregunta difícil es quién conserva la autoría, el criterio y las condiciones de trabajo cuando una herramienta produce tanto tan rápido. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «autoría», «creatividad» y «automatización». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «autoría» parece una decisión individual, conviene considerar «creatividad» y «automatización». Desde esta perspectiva, defender una postura compleja sobre creatividad humana y automatización no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de ¿la inteligencia artificial reemplazará las profesiones creativas? implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«encargo», «originalidad» y «criterio»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «debate», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En confrontar posiciones sobre autoría, trabajo y creación asistida, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «autoría», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
       "listeningComprehension": {
         "id": "spanish-c2-edicion-de-estilo-listening-comprehension",
         "passingScore": 70,
@@ -21802,14 +21802,14 @@
     "level": "C1",
     "skill": "speaking",
     "unitId": "literatura-y-voz",
-    "title": "Habla · Salud mental en la conversación digital",
+    "title": "Habla · Cómo una pequeña startup terminó revolucionando una industria",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
     "orderIndex": 62,
     "estimatedMinutes": 14,
     "description": "Responde oralmente dentro del escenario de la unidad.",
-    "intro": "Analizar cómo las redes presentan el malestar emocional",
+    "intro": "Reconstruir el crecimiento inesperado de una empresa emergente",
     "mission": "Graba una respuesta de 45–90 segundos: presenta tu propuesta, justifica dos razones y reconoce una posible dificultad.",
     "grammar": "",
     "phrases": [
@@ -21822,7 +21822,7 @@
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "¿Qué propones ante esta situación: analizar cómo las redes presentan el malestar emocional?",
+        "line": "¿Qué propones ante esta situación: reconstruir el crecimiento inesperado de una empresa emergente?",
         "translation": "What do you propose in this situation?"
       },
       {
@@ -21837,11 +21837,11 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Explica cómo resolverías este reto: Analizar cómo las redes presentan el malestar emocional."
+        "prompt": "Explica cómo resolverías este reto: Reconstruir el crecimiento inesperado de una empresa emergente."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos palabras: bienestar, estigma, acompañamiento."
+        "prompt": "Usa al menos dos palabras: startup, prototipo, inversión."
       }
     ]
   },
@@ -21850,14 +21850,14 @@
     "level": "C2",
     "skill": "speaking",
     "unitId": "edicion-de-estilo",
-    "title": "Habla · Envejecer en una sociedad acelerada",
+    "title": "Habla · ¿La inteligencia artificial reemplazará las profesiones creativas?",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
     "orderIndex": 62,
     "estimatedMinutes": 14,
     "description": "Responde oralmente dentro del escenario de la unidad.",
-    "intro": "Editar relatos públicos sobre longevidad, autonomía y generaciones",
+    "intro": "Confrontar posiciones sobre autoría, trabajo y creación asistida",
     "mission": "Graba una respuesta de 45–90 segundos: presenta tu propuesta, justifica dos razones y reconoce una posible dificultad.",
     "grammar": "",
     "phrases": [
@@ -21870,7 +21870,7 @@
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "¿Qué propones ante esta situación: editar relatos públicos sobre longevidad, autonomía y generaciones?",
+        "line": "¿Qué propones ante esta situación: confrontar posiciones sobre autoría, trabajo y creación asistida?",
         "translation": "What do you propose in this situation?"
       },
       {
@@ -21885,11 +21885,11 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Explica cómo resolverías este reto: Editar relatos públicos sobre longevidad, autonomía y generaciones."
+        "prompt": "Explica cómo resolverías este reto: Confrontar posiciones sobre autoría, trabajo y creación asistida."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos palabras: longevidad, autonomía, dependencia."
+        "prompt": "Usa al menos dos palabras: autoría, creatividad, automatización."
       }
     ]
   },
@@ -22036,7 +22036,7 @@
     "level": "C1",
     "skill": "writing",
     "unitId": "literatura-y-voz",
-    "title": "Escribe · Salud mental en la conversación digital",
+    "title": "Escribe · Cómo una pequeña startup terminó revolucionando una industria",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
@@ -22044,7 +22044,7 @@
     "estimatedMinutes": 18,
     "description": "Produce un texto conectado con la misión de la unidad.",
     "intro": "Planifica, redacta y revisa antes de enviar tu texto.",
-    "mission": "Escribe 230–300 palabras sobre «Analizar cómo las redes presentan el malestar emocional». Incluye una idea principal, razones y una conclusión.",
+    "mission": "Escribe 230–300 palabras sobre «Reconstruir el crecimiento inesperado de una empresa emergente». Incluye una idea principal, razones y una conclusión.",
     "grammar": "discurso referido libre y valores verbales",
     "phrases": [
       "En primer lugar…",
@@ -22060,7 +22060,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Redacta una respuesta organizada para: Analizar cómo las redes presentan el malestar emocional."
+        "prompt": "Redacta una respuesta organizada para: Reconstruir el crecimiento inesperado de una empresa emergente."
       }
     ]
   },
@@ -22069,7 +22069,7 @@
     "level": "C2",
     "skill": "writing",
     "unitId": "edicion-de-estilo",
-    "title": "Escribe · Envejecer en una sociedad acelerada",
+    "title": "Escribe · ¿La inteligencia artificial reemplazará las profesiones creativas?",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
@@ -22077,7 +22077,7 @@
     "estimatedMinutes": 18,
     "description": "Produce un texto conectado con la misión de la unidad.",
     "intro": "Planifica, redacta y revisa antes de enviar tu texto.",
-    "mission": "Escribe 230–300 palabras sobre «Editar relatos públicos sobre longevidad, autonomía y generaciones». Incluye una idea principal, razones y una conclusión.",
+    "mission": "Escribe 230–300 palabras sobre «Confrontar posiciones sobre autoría, trabajo y creación asistida». Incluye una idea principal, razones y una conclusión.",
     "grammar": "cohesión avanzada y puntuación discursiva",
     "phrases": [
       "En primer lugar…",
@@ -22093,7 +22093,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Redacta una respuesta organizada para: Editar relatos públicos sobre longevidad, autonomía y generaciones."
+        "prompt": "Redacta una respuesta organizada para: Confrontar posiciones sobre autoría, trabajo y creación asistida."
       }
     ]
   },
@@ -22693,14 +22693,14 @@
     "xpReward": 30,
     "orderIndex": 64,
     "estimatedMinutes": 14,
-    "description": "Aplica la forma gramatical dentro del tema «Salud mental en la conversación digital».",
+    "description": "Aplica la forma gramatical dentro del tema «Cómo una pequeña startup terminó revolucionando una industria».",
     "intro": "Observa cómo la gramática cambia la precisión y el matiz.",
     "mission": "Usa discurso referido libre y valores verbales para explicar y justificar una propuesta.",
-    "grammar": "Foco: discurso referido libre y valores verbales.\n\nUso: permite explicar el tema «Hablar de salud mental sin convertirla en contenido» con precisión y matiz.\n\nModelo: Aunque «bienestar» parece una decisión individual, conviene considerar «estigma» y «acompañamiento».",
+    "grammar": "Foco: discurso referido libre y valores verbales.\n\nUso: permite explicar el tema «Cómo una pequeña startup terminó revolucionando una industria» con precisión y matiz.\n\nModelo: Aunque «startup» parece una decisión individual, conviene considerar «prototipo» y «inversión».",
     "phrases": [
-      "Aunque «bienestar» parece una decisión individual, conviene considerar «estigma» y «acompañamiento».",
-      "El texto relaciona «bienestar» con «estigma».",
-      "Antes de concluir, conviene revisar «acompañamiento»."
+      "Aunque «startup» parece una decisión individual, conviene considerar «prototipo» y «inversión».",
+      "El texto relaciona «startup» con «prototipo».",
+      "Antes de concluir, conviene revisar «inversión»."
     ],
     "vocabulary": [],
     "dialogue": [],
@@ -22741,19 +22741,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Aunque «bienestar» parece una decisión individual, conviene considerar «estigma» y «acompañamiento»."
+                "text": "Aunque «startup» parece una decisión individual, conviene considerar «prototipo» y «inversión»."
               },
               {
                 "id": "o2",
-                "text": "bienestar estigma acompañamiento."
+                "text": "startup prototipo inversión."
               },
               {
                 "id": "o3",
-                "text": "Porque bienestar y estigma."
+                "text": "Porque startup y prototipo."
               },
               {
                 "id": "o4",
-                "text": "acompañamiento sin contexto decidir."
+                "text": "inversión sin contexto decidir."
               }
             ]
           },
@@ -22764,19 +22764,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "La evidencia ayuda a interpretar «bienestar» antes de concluir."
+                "text": "La evidencia ayuda a interpretar «startup» antes de concluir."
               },
               {
                 "id": "o2",
-                "text": "La evidencia «bienestar» concluir antes."
+                "text": "La evidencia «startup» concluir antes."
               },
               {
                 "id": "o3",
-                "text": "Interpretar evidencia porque «bienestar»."
+                "text": "Interpretar evidencia porque «startup»."
               },
               {
                 "id": "o4",
-                "text": "«bienestar» evidencia sin."
+                "text": "«startup» evidencia sin."
               }
             ]
           },
@@ -22823,10 +22823,10 @@
         "type": "mcq",
         "prompt": "¿Qué oración usa la estructura de la unidad para hablar del Reading?",
         "options": [
-          "Aunque «bienestar» parece una decisión individual, conviene considerar «estigma» y «acompañamiento».",
-          "bienestar estigma acompañamiento.",
-          "Porque bienestar y estigma.",
-          "acompañamiento sin contexto decidir."
+          "Aunque «startup» parece una decisión individual, conviene considerar «prototipo» y «inversión».",
+          "startup prototipo inversión.",
+          "Porque startup y prototipo.",
+          "inversión sin contexto decidir."
         ],
         "explanation": "La primera opción relaciona la estructura gramatical con el tema y el vocabulario de la lección."
       },
@@ -22834,10 +22834,10 @@
         "type": "mcq",
         "prompt": "¿Qué opción mantiene mejor el sentido del texto?",
         "options": [
-          "La evidencia ayuda a interpretar «bienestar» antes de concluir.",
-          "La evidencia «bienestar» concluir antes.",
-          "Interpretar evidencia porque «bienestar».",
-          "«bienestar» evidencia sin."
+          "La evidencia ayuda a interpretar «startup» antes de concluir.",
+          "La evidencia «startup» concluir antes.",
+          "Interpretar evidencia porque «startup».",
+          "«startup» evidencia sin."
         ],
         "explanation": "La primera opción presenta una relación lógica y una idea completa."
       },
@@ -22865,14 +22865,14 @@
     "xpReward": 30,
     "orderIndex": 64,
     "estimatedMinutes": 14,
-    "description": "Aplica la forma gramatical dentro del tema «Envejecer en una sociedad acelerada».",
+    "description": "Aplica la forma gramatical dentro del tema «¿La inteligencia artificial reemplazará las profesiones creativas?».",
     "intro": "Observa cómo la gramática cambia la precisión y el matiz.",
     "mission": "Usa cohesión avanzada y puntuación discursiva para explicar y justificar una propuesta.",
-    "grammar": "Foco: cohesión avanzada y puntuación discursiva.\n\nUso: permite explicar el tema «Envejecer en una sociedad acelerada» con precisión y matiz.\n\nModelo: Aunque «longevidad» parece una decisión individual, conviene considerar «autonomía» y «dependencia».",
+    "grammar": "Foco: cohesión avanzada y puntuación discursiva.\n\nUso: permite explicar el tema «¿La inteligencia artificial reemplazará las profesiones creativas?» con precisión y matiz.\n\nModelo: Aunque «autoría» parece una decisión individual, conviene considerar «creatividad» y «automatización».",
     "phrases": [
-      "Aunque «longevidad» parece una decisión individual, conviene considerar «autonomía» y «dependencia».",
-      "El texto relaciona «longevidad» con «autonomía».",
-      "Antes de concluir, conviene revisar «dependencia»."
+      "Aunque «autoría» parece una decisión individual, conviene considerar «creatividad» y «automatización».",
+      "El texto relaciona «autoría» con «creatividad».",
+      "Antes de concluir, conviene revisar «automatización»."
     ],
     "vocabulary": [],
     "dialogue": [],
@@ -22913,19 +22913,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Aunque «longevidad» parece una decisión individual, conviene considerar «autonomía» y «dependencia»."
+                "text": "Aunque «autoría» parece una decisión individual, conviene considerar «creatividad» y «automatización»."
               },
               {
                 "id": "o2",
-                "text": "longevidad autonomía dependencia."
+                "text": "autoría creatividad automatización."
               },
               {
                 "id": "o3",
-                "text": "Porque longevidad y autonomía."
+                "text": "Porque autoría y creatividad."
               },
               {
                 "id": "o4",
-                "text": "dependencia sin contexto decidir."
+                "text": "automatización sin contexto decidir."
               }
             ]
           },
@@ -22936,19 +22936,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "La evidencia ayuda a interpretar «longevidad» antes de concluir."
+                "text": "La evidencia ayuda a interpretar «autoría» antes de concluir."
               },
               {
                 "id": "o2",
-                "text": "La evidencia «longevidad» concluir antes."
+                "text": "La evidencia «autoría» concluir antes."
               },
               {
                 "id": "o3",
-                "text": "Interpretar evidencia porque «longevidad»."
+                "text": "Interpretar evidencia porque «autoría»."
               },
               {
                 "id": "o4",
-                "text": "«longevidad» evidencia sin."
+                "text": "«autoría» evidencia sin."
               }
             ]
           },
@@ -22995,10 +22995,10 @@
         "type": "mcq",
         "prompt": "¿Qué oración usa la estructura de la unidad para hablar del Reading?",
         "options": [
-          "Aunque «longevidad» parece una decisión individual, conviene considerar «autonomía» y «dependencia».",
-          "longevidad autonomía dependencia.",
-          "Porque longevidad y autonomía.",
-          "dependencia sin contexto decidir."
+          "Aunque «autoría» parece una decisión individual, conviene considerar «creatividad» y «automatización».",
+          "autoría creatividad automatización.",
+          "Porque autoría y creatividad.",
+          "automatización sin contexto decidir."
         ],
         "explanation": "La primera opción relaciona la estructura gramatical con el tema y el vocabulario de la lección."
       },
@@ -23006,10 +23006,10 @@
         "type": "mcq",
         "prompt": "¿Qué opción mantiene mejor el sentido del texto?",
         "options": [
-          "La evidencia ayuda a interpretar «longevidad» antes de concluir.",
-          "La evidencia «longevidad» concluir antes.",
-          "Interpretar evidencia porque «longevidad».",
-          "«longevidad» evidencia sin."
+          "La evidencia ayuda a interpretar «autoría» antes de concluir.",
+          "La evidencia «autoría» concluir antes.",
+          "Interpretar evidencia porque «autoría».",
+          "«autoría» evidencia sin."
         ],
         "explanation": "La primera opción presenta una relación lógica y una idea completa."
       },
@@ -23593,7 +23593,7 @@
     "level": "C1",
     "skill": "vocabulary",
     "unitId": "literatura-y-voz",
-    "title": "Vocabulario · Salud mental en la conversación digital",
+    "title": "Vocabulario · Cómo una pequeña startup terminó revolucionando una industria",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
@@ -23606,50 +23606,50 @@
     "phrases": [],
     "vocabulary": [
       {
-        "word": "bienestar",
-        "translation": "English support: bienestar",
-        "definition": "Término clave para comprender «Hablar de salud mental sin convertirla en contenido» y analizar analizar cómo las redes presentan el malestar emocional.",
-        "example": "Aunque «bienestar» parece una decisión individual, conviene considerar «estigma» y «acompañamiento». Esta frase sitúa «bienestar» dentro del tema de la unidad.",
+        "word": "startup",
+        "translation": "English support: startup",
+        "definition": "Término clave para comprender «Cómo una pequeña startup terminó revolucionando una industria» y analizar reconstruir el crecimiento inesperado de una empresa emergente.",
+        "example": "Aunque «startup» parece una decisión individual, conviene considerar «prototipo» y «inversión». Esta frase sitúa «startup» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 1
       },
       {
-        "word": "estigma",
-        "translation": "English support: estigma",
-        "definition": "Término clave para comprender «Hablar de salud mental sin convertirla en contenido» y analizar analizar cómo las redes presentan el malestar emocional.",
-        "example": "Aunque «bienestar» parece una decisión individual, conviene considerar «estigma» y «acompañamiento». Esta frase sitúa «estigma» dentro del tema de la unidad.",
+        "word": "prototipo",
+        "translation": "English support: prototipo",
+        "definition": "Término clave para comprender «Cómo una pequeña startup terminó revolucionando una industria» y analizar reconstruir el crecimiento inesperado de una empresa emergente.",
+        "example": "Aunque «startup» parece una decisión individual, conviene considerar «prototipo» y «inversión». Esta frase sitúa «prototipo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 2
       },
       {
-        "word": "acompañamiento",
-        "translation": "English support: acompañamiento",
-        "definition": "Término clave para comprender «Hablar de salud mental sin convertirla en contenido» y analizar analizar cómo las redes presentan el malestar emocional.",
-        "example": "Aunque «bienestar» parece una decisión individual, conviene considerar «estigma» y «acompañamiento». Esta frase sitúa «acompañamiento» dentro del tema de la unidad.",
+        "word": "inversión",
+        "translation": "English support: inversión",
+        "definition": "Término clave para comprender «Cómo una pequeña startup terminó revolucionando una industria» y analizar reconstruir el crecimiento inesperado de una empresa emergente.",
+        "example": "Aunque «startup» parece una decisión individual, conviene considerar «prototipo» y «inversión». Esta frase sitúa «inversión» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 3
       },
       {
-        "word": "exposición",
-        "translation": "English support: exposición",
-        "definition": "Término clave para comprender «Hablar de salud mental sin convertirla en contenido» y analizar analizar cómo las redes presentan el malestar emocional.",
-        "example": "Aunque «bienestar» parece una decisión individual, conviene considerar «estigma» y «acompañamiento». Esta frase sitúa «exposición» dentro del tema de la unidad.",
+        "word": "escala",
+        "translation": "English support: escala",
+        "definition": "Término clave para comprender «Cómo una pequeña startup terminó revolucionando una industria» y analizar reconstruir el crecimiento inesperado de una empresa emergente.",
+        "example": "Aunque «startup» parece una decisión individual, conviene considerar «prototipo» y «inversión». Esta frase sitúa «escala» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 4
       },
       {
-        "word": "diagnóstico",
-        "translation": "English support: diagnóstico",
-        "definition": "Término clave para comprender «Hablar de salud mental sin convertirla en contenido» y analizar analizar cómo las redes presentan el malestar emocional.",
-        "example": "Aunque «bienestar» parece una decisión individual, conviene considerar «estigma» y «acompañamiento». Esta frase sitúa «diagnóstico» dentro del tema de la unidad.",
+        "word": "disrupción",
+        "translation": "English support: disrupción",
+        "definition": "Término clave para comprender «Cómo una pequeña startup terminó revolucionando una industria» y analizar reconstruir el crecimiento inesperado de una empresa emergente.",
+        "example": "Aunque «startup» parece una decisión individual, conviene considerar «prototipo» y «inversión». Esta frase sitúa «disrupción» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 5
       },
       {
-        "word": "cuidado",
-        "translation": "English support: cuidado",
-        "definition": "Término clave para comprender «Hablar de salud mental sin convertirla en contenido» y analizar analizar cómo las redes presentan el malestar emocional.",
-        "example": "Aunque «bienestar» parece una decisión individual, conviene considerar «estigma» y «acompañamiento». Esta frase sitúa «cuidado» dentro del tema de la unidad.",
+        "word": "mercado",
+        "translation": "English support: mercado",
+        "definition": "Término clave para comprender «Cómo una pequeña startup terminó revolucionando una industria» y analizar reconstruir el crecimiento inesperado de una empresa emergente.",
+        "example": "Aunque «startup» parece una decisión individual, conviene considerar «prototipo» y «inversión». Esta frase sitúa «mercado» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 6
       }
@@ -23661,69 +23661,69 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Salud mental en la conversación digital»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Cómo una pequeña startup terminó revolucionando una industria»?",
         "options": [
           "desayuno",
-          "bienestar",
+          "startup",
           "zapato",
           "ventana"
         ],
-        "explanation": "«bienestar» forma parte del vocabulario de esta unidad."
+        "explanation": "«startup» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Salud mental en la conversación digital»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Cómo una pequeña startup terminó revolucionando una industria»?",
         "options": [
           "desayuno",
-          "estigma",
+          "prototipo",
           "zapato",
           "ventana"
         ],
-        "explanation": "«estigma» forma parte del vocabulario de esta unidad."
+        "explanation": "«prototipo» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Salud mental en la conversación digital»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Cómo una pequeña startup terminó revolucionando una industria»?",
         "options": [
           "desayuno",
-          "acompañamiento",
+          "inversión",
           "zapato",
           "ventana"
         ],
-        "explanation": "«acompañamiento» forma parte del vocabulario de esta unidad."
+        "explanation": "«inversión» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Salud mental en la conversación digital»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Cómo una pequeña startup terminó revolucionando una industria»?",
         "options": [
           "desayuno",
-          "exposición",
+          "escala",
           "zapato",
           "ventana"
         ],
-        "explanation": "«exposición» forma parte del vocabulario de esta unidad."
+        "explanation": "«escala» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Salud mental en la conversación digital»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Cómo una pequeña startup terminó revolucionando una industria»?",
         "options": [
           "desayuno",
-          "diagnóstico",
+          "disrupción",
           "zapato",
           "ventana"
         ],
-        "explanation": "«diagnóstico» forma parte del vocabulario de esta unidad."
+        "explanation": "«disrupción» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Salud mental en la conversación digital»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Cómo una pequeña startup terminó revolucionando una industria»?",
         "options": [
           "desayuno",
-          "cuidado",
+          "mercado",
           "zapato",
           "ventana"
         ],
-        "explanation": "«cuidado» forma parte del vocabulario de esta unidad."
+        "explanation": "«mercado» forma parte del vocabulario de esta unidad."
       }
     ]
   },
@@ -23732,7 +23732,7 @@
     "level": "C2",
     "skill": "vocabulary",
     "unitId": "edicion-de-estilo",
-    "title": "Vocabulario · Envejecer en una sociedad acelerada",
+    "title": "Vocabulario · ¿La inteligencia artificial reemplazará las profesiones creativas?",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
@@ -23745,50 +23745,50 @@
     "phrases": [],
     "vocabulary": [
       {
-        "word": "longevidad",
-        "translation": "English support: longevidad",
-        "definition": "Término clave para comprender «Envejecer en una sociedad acelerada» y analizar editar relatos públicos sobre longevidad, autonomía y generaciones.",
-        "example": "Aunque «longevidad» parece una decisión individual, conviene considerar «autonomía» y «dependencia». Esta frase sitúa «longevidad» dentro del tema de la unidad.",
+        "word": "autoría",
+        "translation": "English support: autoría",
+        "definition": "Término clave para comprender «¿La inteligencia artificial reemplazará las profesiones creativas?» y analizar confrontar posiciones sobre autoría, trabajo y creación asistida.",
+        "example": "Aunque «autoría» parece una decisión individual, conviene considerar «creatividad» y «automatización». Esta frase sitúa «autoría» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 1
       },
       {
-        "word": "autonomía",
-        "translation": "English support: autonomía",
-        "definition": "Término clave para comprender «Envejecer en una sociedad acelerada» y analizar editar relatos públicos sobre longevidad, autonomía y generaciones.",
-        "example": "Aunque «longevidad» parece una decisión individual, conviene considerar «autonomía» y «dependencia». Esta frase sitúa «autonomía» dentro del tema de la unidad.",
+        "word": "creatividad",
+        "translation": "English support: creatividad",
+        "definition": "Término clave para comprender «¿La inteligencia artificial reemplazará las profesiones creativas?» y analizar confrontar posiciones sobre autoría, trabajo y creación asistida.",
+        "example": "Aunque «autoría» parece una decisión individual, conviene considerar «creatividad» y «automatización». Esta frase sitúa «creatividad» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 2
       },
       {
-        "word": "dependencia",
-        "translation": "English support: dependencia",
-        "definition": "Término clave para comprender «Envejecer en una sociedad acelerada» y analizar editar relatos públicos sobre longevidad, autonomía y generaciones.",
-        "example": "Aunque «longevidad» parece una decisión individual, conviene considerar «autonomía» y «dependencia». Esta frase sitúa «dependencia» dentro del tema de la unidad.",
+        "word": "automatización",
+        "translation": "English support: automatización",
+        "definition": "Término clave para comprender «¿La inteligencia artificial reemplazará las profesiones creativas?» y analizar confrontar posiciones sobre autoría, trabajo y creación asistida.",
+        "example": "Aunque «autoría» parece una decisión individual, conviene considerar «creatividad» y «automatización». Esta frase sitúa «automatización» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 3
       },
       {
-        "word": "generación",
-        "translation": "English support: generación",
-        "definition": "Término clave para comprender «Envejecer en una sociedad acelerada» y analizar editar relatos públicos sobre longevidad, autonomía y generaciones.",
-        "example": "Aunque «longevidad» parece una decisión individual, conviene considerar «autonomía» y «dependencia». Esta frase sitúa «generación» dentro del tema de la unidad.",
+        "word": "encargo",
+        "translation": "English support: encargo",
+        "definition": "Término clave para comprender «¿La inteligencia artificial reemplazará las profesiones creativas?» y analizar confrontar posiciones sobre autoría, trabajo y creación asistida.",
+        "example": "Aunque «autoría» parece una decisión individual, conviene considerar «creatividad» y «automatización». Esta frase sitúa «encargo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 4
       },
       {
-        "word": "cuidado",
-        "translation": "English support: cuidado",
-        "definition": "Término clave para comprender «Envejecer en una sociedad acelerada» y analizar editar relatos públicos sobre longevidad, autonomía y generaciones.",
-        "example": "Aunque «longevidad» parece una decisión individual, conviene considerar «autonomía» y «dependencia». Esta frase sitúa «cuidado» dentro del tema de la unidad.",
+        "word": "originalidad",
+        "translation": "English support: originalidad",
+        "definition": "Término clave para comprender «¿La inteligencia artificial reemplazará las profesiones creativas?» y analizar confrontar posiciones sobre autoría, trabajo y creación asistida.",
+        "example": "Aunque «autoría» parece una decisión individual, conviene considerar «creatividad» y «automatización». Esta frase sitúa «originalidad» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 5
       },
       {
-        "word": "accesibilidad",
-        "translation": "English support: accesibilidad",
-        "definition": "Término clave para comprender «Envejecer en una sociedad acelerada» y analizar editar relatos públicos sobre longevidad, autonomía y generaciones.",
-        "example": "Aunque «longevidad» parece una decisión individual, conviene considerar «autonomía» y «dependencia». Esta frase sitúa «accesibilidad» dentro del tema de la unidad.",
+        "word": "criterio",
+        "translation": "English support: criterio",
+        "definition": "Término clave para comprender «¿La inteligencia artificial reemplazará las profesiones creativas?» y analizar confrontar posiciones sobre autoría, trabajo y creación asistida.",
+        "example": "Aunque «autoría» parece una decisión individual, conviene considerar «creatividad» y «automatización». Esta frase sitúa «criterio» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 6
       }
@@ -23800,69 +23800,69 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Envejecer en una sociedad acelerada»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «¿La inteligencia artificial reemplazará las profesiones creativas?»?",
         "options": [
           "desayuno",
-          "longevidad",
+          "autoría",
           "zapato",
           "ventana"
         ],
-        "explanation": "«longevidad» forma parte del vocabulario de esta unidad."
+        "explanation": "«autoría» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Envejecer en una sociedad acelerada»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «¿La inteligencia artificial reemplazará las profesiones creativas?»?",
         "options": [
           "desayuno",
-          "autonomía",
+          "creatividad",
           "zapato",
           "ventana"
         ],
-        "explanation": "«autonomía» forma parte del vocabulario de esta unidad."
+        "explanation": "«creatividad» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Envejecer en una sociedad acelerada»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «¿La inteligencia artificial reemplazará las profesiones creativas?»?",
         "options": [
           "desayuno",
-          "dependencia",
+          "automatización",
           "zapato",
           "ventana"
         ],
-        "explanation": "«dependencia» forma parte del vocabulario de esta unidad."
+        "explanation": "«automatización» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Envejecer en una sociedad acelerada»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «¿La inteligencia artificial reemplazará las profesiones creativas?»?",
         "options": [
           "desayuno",
-          "generación",
+          "encargo",
           "zapato",
           "ventana"
         ],
-        "explanation": "«generación» forma parte del vocabulario de esta unidad."
+        "explanation": "«encargo» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Envejecer en una sociedad acelerada»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «¿La inteligencia artificial reemplazará las profesiones creativas?»?",
         "options": [
           "desayuno",
-          "cuidado",
+          "originalidad",
           "zapato",
           "ventana"
         ],
-        "explanation": "«cuidado» forma parte del vocabulario de esta unidad."
+        "explanation": "«originalidad» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Envejecer en una sociedad acelerada»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «¿La inteligencia artificial reemplazará las profesiones creativas?»?",
         "options": [
           "desayuno",
-          "accesibilidad",
+          "criterio",
           "zapato",
           "ventana"
         ],
-        "explanation": "«accesibilidad» forma parte del vocabulario de esta unidad."
+        "explanation": "«criterio» forma parte del vocabulario de esta unidad."
       }
     ]
   },
@@ -24232,22 +24232,22 @@
     "level": "C1",
     "skill": "reading",
     "unitId": "economia-y-cuidados",
-    "title": "El tiempo de cuidar también es trabajo",
+    "title": "¿Trabajar cuatro días a la semana realmente funciona?",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 70,
     "estimatedMinutes": 18,
-    "description": "ensayo social: el tiempo de cuidar.",
+    "description": "mesa redonda: ¿trabajar cuatro días a la semana realmente funciona?.",
     "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
-    "mission": "Relacionar tiempo, género, oportunidades y política pública",
+    "mission": "Argumentar sobre condiciones y límites de una semana laboral más corta",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "El tiempo de cuidar también es trabajo",
-      "text": "Muchas decisiones sobre estudio, empleo o descanso dependen de horas que no aparecen en una nómina: acompañar a un familiar, cuidar hermanos o sostener un hogar.\n\nCuando ese trabajo se presenta como una obligación privada, se ocultan sus efectos sobre tiempo disponible, ingresos, continuidad educativa y salud.\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «cuidados», «remuneración» y «carga» no son adornos: permiten describir el problema con mayor precisión.\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, nominalización y densidad informativa ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.\n\nEsto tiene consecuencias prácticas. Las decisiones sobre visibilizar trabajos de cuidado poco reconocidos deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: relacionar tiempo, género, oportunidades y política pública. Hablar de corresponsabilidad y reconocimiento del trabajo de cuidados supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.",
+      "title": "¿Trabajar cuatro días a la semana realmente funciona?",
+      "text": "Muchas decisiones sobre estudio, empleo o descanso dependen de horas que no aparecen en una nómina: acompañar a un familiar, cuidar hermanos o sostener un hogar.\n\nCuando ese trabajo se presenta como una obligación privada, se ocultan sus efectos sobre tiempo disponible, ingresos, continuidad educativa y salud.\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «jornada», «productividad» y «descanso» no son adornos: permiten describir el problema con mayor precisión.\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, nominalización y densidad informativa ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.\n\nEsto tiene consecuencias prácticas. Las decisiones sobre contrastar productividad, descanso y organización laboral deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: argumentar sobre condiciones y límites de una semana laboral más corta. Hablar de corresponsabilidad y reconocimiento del trabajo de cuidados supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.",
       "questions": [
         "¿Cuál es el problema central que analiza la lectura?",
         "¿Qué exige el texto antes de aceptar una conclusión?",
@@ -24327,22 +24327,22 @@
     "level": "C2",
     "skill": "reading",
     "unitId": "debate-epistemico",
-    "title": "La basura electrónica no desaparece",
+    "title": "El descubrimiento que nadie creyó... hasta que cambió el mundo",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 70,
     "estimatedMinutes": 18,
-    "description": "ensayo tecnológico: la basura electrónica no desaparece.",
+    "description": "storytelling científico: el descubrimiento que nadie creyó... hasta que cambió el mundo.",
     "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
-    "mission": "Graduar evidencia ambiental, responsabilidad empresarial y hábitos de uso",
+    "mission": "Evaluar evidencia, resistencia institucional y cambio de paradigma",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "La basura electrónica no desaparece",
-      "text": "Una publicación viral puede presentar un resultado científico como definitivo aunque proceda de una muestra pequeña, una correlación o un estudio aún no replicado.\n\nLa cautela no significa negar la ciencia: significa graduar lo que puede afirmarse, distinguir hallazgo de aplicación y dejar visibles los límites del método.\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «residuo electrónico», «reparación» y «obsolescencia» no son adornos: permiten describir el problema con mayor precisión.\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, evidencialidad y grados de compromiso ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.\n\nHay además una dificultad de segundo orden: los marcos con que se mide el problema pueden inclinar la conclusión. Un indicador hace visible una parte de la realidad y puede dejar otra fuera; una fuente autorizada merece atención, pero no elimina la necesidad de examinar su método, su alcance y sus intereses. El lector experto no busca una neutralidad imposible, sino criterios explícitos para comparar argumentos.\n\nEsto tiene consecuencias prácticas. Las decisiones sobre evaluar afirmaciones sobre reciclaje, reparación y obsolescencia tecnológica deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: graduar evidencia ambiental, responsabilidad empresarial y hábitos de uso. Hablar de evidencia, replicabilidad y responsabilidad discursiva supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.",
+      "title": "El descubrimiento que nadie creyó... hasta que cambió el mundo",
+      "text": "Una publicación viral puede presentar un resultado científico como definitivo aunque proceda de una muestra pequeña, una correlación o un estudio aún no replicado.\n\nLa cautela no significa negar la ciencia: significa graduar lo que puede afirmarse, distinguir hallazgo de aplicación y dejar visibles los límites del método.\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «hipótesis», «evidencia» y «experimento» no son adornos: permiten describir el problema con mayor precisión.\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, evidencialidad y grados de compromiso ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.\n\nHay además una dificultad de segundo orden: los marcos con que se mide el problema pueden inclinar la conclusión. Un indicador hace visible una parte de la realidad y puede dejar otra fuera; una fuente autorizada merece atención, pero no elimina la necesidad de examinar su método, su alcance y sus intereses. El lector experto no busca una neutralidad imposible, sino criterios explícitos para comparar argumentos.\n\nEsto tiene consecuencias prácticas. Las decisiones sobre narrar una hipótesis científica recibida con escepticismo deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: evaluar evidencia, resistencia institucional y cambio de paradigma. Hablar de evidencia, replicabilidad y responsabilidad discursiva supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.",
       "questions": [
         "¿Cuál es el problema central que analiza la lectura?",
         "¿Qué exige el texto antes de aceptar una conclusión?",
@@ -25130,33 +25130,33 @@
     "level": "C1",
     "skill": "listening",
     "unitId": "economia-y-cuidados",
-    "title": "Escucha · El tiempo de cuidar también es trabajo",
+    "title": "Escucha · ¿Trabajar cuatro días a la semana realmente funciona?",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
     "orderIndex": 71,
     "estimatedMinutes": 14,
-    "description": "Crónica de audio conectada con el Reading «El tiempo de cuidar también es trabajo».",
+    "description": "Mesa redonda sobre «¿Trabajar cuatro días a la semana realmente funciona?».",
     "intro": "Escucha una adaptación integral del tema antes de consultar la transcripción.",
     "mission": "Reconoce cómo el vocabulario y nominalización y densidad informativa organizan una explicación oral compleja.",
     "grammar": "",
     "phrases": [
-      "cuidados",
-      "remuneración",
-      "carga",
-      "Aunque «cuidados» parece una decisión individual, conviene considerar «remuneración» y «carga»."
+      "jornada",
+      "productividad",
+      "descanso",
+      "Aunque «jornada» parece una decisión individual, conviene considerar «productividad» y «descanso»."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Muchas decisiones sobre estudio, empleo o descanso dependen de horas que no aparecen en una nómina: acompañar a un familiar, cuidar hermanos o sostener un hogar. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «cuidados», «remuneración» y «carga». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «cuidados» parece una decisión individual, conviene considerar «remuneración» y «carga». Desde esta perspectiva, relacionar tiempo, género, oportunidades y política pública no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de el tiempo de cuidar implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«corresponsabilidad», «sostener» y «invisibilizado»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «podcast de economía cotidiana», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada.",
+    "transcript": "Trabajar cuatro días por semana parece una promesa sencilla: más tiempo libre sin perder resultados. Pero cuando se prueba de verdad, aparecen preguntas sobre coordinación, horarios, salarios y el tipo de productividad que queremos medir. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «jornada», «productividad» y «descanso». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «jornada» parece una decisión individual, conviene considerar «productividad» y «descanso». Desde esta perspectiva, argumentar sobre condiciones y límites de una semana laboral más corta no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de ¿trabajar cuatro días a la semana realmente funciona? implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«flexibilidad», «rendimiento» y «conciliación»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «mesa redonda», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En contrastar productividad, descanso y organización laboral, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «jornada», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
     "extra": {
       "listeningType": "story",
       "difficulty": "C1",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "Muchas decisiones sobre estudio, empleo o descanso dependen de horas que no aparecen en una nómina: acompañar a un familiar, cuidar hermanos o sostener un hogar. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «cuidados», «remuneración» y «carga». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «cuidados» parece una decisión individual, conviene considerar «remuneración» y «carga». Desde esta perspectiva, relacionar tiempo, género, oportunidades y política pública no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de el tiempo de cuidar implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«corresponsabilidad», «sostener» y «invisibilizado»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «podcast de economía cotidiana», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada.",
+      "transcript": "Trabajar cuatro días por semana parece una promesa sencilla: más tiempo libre sin perder resultados. Pero cuando se prueba de verdad, aparecen preguntas sobre coordinación, horarios, salarios y el tipo de productividad que queremos medir. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «jornada», «productividad» y «descanso». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «jornada» parece una decisión individual, conviene considerar «productividad» y «descanso». Desde esta perspectiva, argumentar sobre condiciones y límites de una semana laboral más corta no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de ¿trabajar cuatro días a la semana realmente funciona? implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«flexibilidad», «rendimiento» y «conciliación»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «mesa redonda», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En contrastar productividad, descanso y organización laboral, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «jornada», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
       "listeningComprehension": {
         "id": "spanish-c1-economia-y-cuidados-listening-comprehension",
         "passingScore": 70,
@@ -25309,33 +25309,33 @@
     "level": "C2",
     "skill": "listening",
     "unitId": "debate-epistemico",
-    "title": "Escucha · La basura electrónica no desaparece",
+    "title": "Escucha · El descubrimiento que nadie creyó... hasta que cambió el mundo",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
     "orderIndex": 71,
     "estimatedMinutes": 14,
-    "description": "Crónica de audio conectada con el Reading «La basura electrónica no desaparece».",
+    "description": "Storytelling científico sobre «El descubrimiento que nadie creyó... hasta que cambió el mundo».",
     "intro": "Escucha una adaptación integral del tema antes de consultar la transcripción.",
     "mission": "Reconoce cómo el vocabulario y evidencialidad y grados de compromiso organizan una explicación oral compleja.",
     "grammar": "",
     "phrases": [
-      "residuo electrónico",
-      "reparación",
-      "obsolescencia",
-      "Aunque «residuo electrónico» parece una decisión individual, conviene considerar «reparación» y «obsolescencia»."
+      "hipótesis",
+      "evidencia",
+      "experimento",
+      "Aunque «hipótesis» parece una decisión individual, conviene considerar «evidencia» y «experimento»."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Una publicación viral puede presentar un resultado científico como definitivo aunque proceda de una muestra pequeña, una correlación o un estudio aún no replicado. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «residuo electrónico», «reparación» y «obsolescencia». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «residuo electrónico» parece una decisión individual, conviene considerar «reparación» y «obsolescencia». Desde esta perspectiva, graduar evidencia ambiental, responsabilidad empresarial y hábitos de uso no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de la basura electrónica no desaparece implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«reciclaje», «cadena de suministro» y «responsabilidad»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «debate epistemológico», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada.",
+    "transcript": "Cuando la científica presentó su hallazgo, casi nadie le creyó. La idea contradecía una explicación aceptada desde hacía décadas y las primeras pruebas parecían demasiado extrañas para cambiar un consenso. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «hipótesis», «evidencia» y «experimento». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «hipótesis» parece una decisión individual, conviene considerar «evidencia» y «experimento». Desde esta perspectiva, evaluar evidencia, resistencia institucional y cambio de paradigma no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de el descubrimiento que nadie creyó... hasta que cambió el mundo implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«réplica», «paradigma» y «hallazgo»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «storytelling científico», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En narrar una hipótesis científica recibida con escepticismo, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «hipótesis», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
     "extra": {
       "listeningType": "story",
       "difficulty": "C2",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "Una publicación viral puede presentar un resultado científico como definitivo aunque proceda de una muestra pequeña, una correlación o un estudio aún no replicado. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «residuo electrónico», «reparación» y «obsolescencia». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «residuo electrónico» parece una decisión individual, conviene considerar «reparación» y «obsolescencia». Desde esta perspectiva, graduar evidencia ambiental, responsabilidad empresarial y hábitos de uso no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de la basura electrónica no desaparece implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«reciclaje», «cadena de suministro» y «responsabilidad»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «debate epistemológico», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada.",
+      "transcript": "Cuando la científica presentó su hallazgo, casi nadie le creyó. La idea contradecía una explicación aceptada desde hacía décadas y las primeras pruebas parecían demasiado extrañas para cambiar un consenso. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «hipótesis», «evidencia» y «experimento». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «hipótesis» parece una decisión individual, conviene considerar «evidencia» y «experimento». Desde esta perspectiva, evaluar evidencia, resistencia institucional y cambio de paradigma no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de el descubrimiento que nadie creyó... hasta que cambió el mundo implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«réplica», «paradigma» y «hallazgo»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «storytelling científico», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En narrar una hipótesis científica recibida con escepticismo, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «hipótesis», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
       "listeningComprehension": {
         "id": "spanish-c2-debate-epistemico-listening-comprehension",
         "passingScore": 70,
@@ -25690,14 +25690,14 @@
     "level": "C1",
     "skill": "speaking",
     "unitId": "economia-y-cuidados",
-    "title": "Habla · El tiempo de cuidar",
+    "title": "Habla · ¿Trabajar cuatro días a la semana realmente funciona?",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
     "orderIndex": 72,
     "estimatedMinutes": 14,
     "description": "Responde oralmente dentro del escenario de la unidad.",
-    "intro": "Visibilizar trabajos de cuidado poco reconocidos",
+    "intro": "Contrastar productividad, descanso y organización laboral",
     "mission": "Graba una respuesta de 45–90 segundos: presenta tu propuesta, justifica dos razones y reconoce una posible dificultad.",
     "grammar": "",
     "phrases": [
@@ -25710,7 +25710,7 @@
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "¿Qué propones ante esta situación: visibilizar trabajos de cuidado poco reconocidos?",
+        "line": "¿Qué propones ante esta situación: contrastar productividad, descanso y organización laboral?",
         "translation": "What do you propose in this situation?"
       },
       {
@@ -25725,11 +25725,11 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Explica cómo resolverías este reto: Visibilizar trabajos de cuidado poco reconocidos."
+        "prompt": "Explica cómo resolverías este reto: Contrastar productividad, descanso y organización laboral."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos palabras: cuidados, remuneración, carga."
+        "prompt": "Usa al menos dos palabras: jornada, productividad, descanso."
       }
     ]
   },
@@ -25738,14 +25738,14 @@
     "level": "C2",
     "skill": "speaking",
     "unitId": "debate-epistemico",
-    "title": "Habla · La basura electrónica no desaparece",
+    "title": "Habla · El descubrimiento que nadie creyó... hasta que cambió el mundo",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
     "orderIndex": 72,
     "estimatedMinutes": 14,
     "description": "Responde oralmente dentro del escenario de la unidad.",
-    "intro": "Evaluar afirmaciones sobre reciclaje, reparación y obsolescencia tecnológica",
+    "intro": "Narrar una hipótesis científica recibida con escepticismo",
     "mission": "Graba una respuesta de 45–90 segundos: presenta tu propuesta, justifica dos razones y reconoce una posible dificultad.",
     "grammar": "",
     "phrases": [
@@ -25758,7 +25758,7 @@
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "¿Qué propones ante esta situación: evaluar afirmaciones sobre reciclaje, reparación y obsolescencia tecnológica?",
+        "line": "¿Qué propones ante esta situación: narrar una hipótesis científica recibida con escepticismo?",
         "translation": "What do you propose in this situation?"
       },
       {
@@ -25773,11 +25773,11 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Explica cómo resolverías este reto: Evaluar afirmaciones sobre reciclaje, reparación y obsolescencia tecnológica."
+        "prompt": "Explica cómo resolverías este reto: Narrar una hipótesis científica recibida con escepticismo."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos palabras: residuo electrónico, reparación, obsolescencia."
+        "prompt": "Usa al menos dos palabras: hipótesis, evidencia, experimento."
       }
     ]
   },
@@ -25924,7 +25924,7 @@
     "level": "C1",
     "skill": "writing",
     "unitId": "economia-y-cuidados",
-    "title": "Escribe · El tiempo de cuidar",
+    "title": "Escribe · ¿Trabajar cuatro días a la semana realmente funciona?",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
@@ -25932,7 +25932,7 @@
     "estimatedMinutes": 18,
     "description": "Produce un texto conectado con la misión de la unidad.",
     "intro": "Planifica, redacta y revisa antes de enviar tu texto.",
-    "mission": "Escribe 230–300 palabras sobre «Visibilizar trabajos de cuidado poco reconocidos». Incluye una idea principal, razones y una conclusión.",
+    "mission": "Escribe 230–300 palabras sobre «Contrastar productividad, descanso y organización laboral». Incluye una idea principal, razones y una conclusión.",
     "grammar": "nominalización y densidad informativa",
     "phrases": [
       "En primer lugar…",
@@ -25948,7 +25948,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Redacta una respuesta organizada para: Visibilizar trabajos de cuidado poco reconocidos."
+        "prompt": "Redacta una respuesta organizada para: Contrastar productividad, descanso y organización laboral."
       }
     ]
   },
@@ -25957,7 +25957,7 @@
     "level": "C2",
     "skill": "writing",
     "unitId": "debate-epistemico",
-    "title": "Escribe · La basura electrónica no desaparece",
+    "title": "Escribe · El descubrimiento que nadie creyó... hasta que cambió el mundo",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
@@ -25965,7 +25965,7 @@
     "estimatedMinutes": 18,
     "description": "Produce un texto conectado con la misión de la unidad.",
     "intro": "Planifica, redacta y revisa antes de enviar tu texto.",
-    "mission": "Escribe 230–300 palabras sobre «Evaluar afirmaciones sobre reciclaje, reparación y obsolescencia tecnológica». Incluye una idea principal, razones y una conclusión.",
+    "mission": "Escribe 230–300 palabras sobre «Narrar una hipótesis científica recibida con escepticismo». Incluye una idea principal, razones y una conclusión.",
     "grammar": "evidencialidad y grados de compromiso",
     "phrases": [
       "En primer lugar…",
@@ -25981,7 +25981,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Redacta una respuesta organizada para: Evaluar afirmaciones sobre reciclaje, reparación y obsolescencia tecnológica."
+        "prompt": "Redacta una respuesta organizada para: Narrar una hipótesis científica recibida con escepticismo."
       }
     ]
   },
@@ -26581,14 +26581,14 @@
     "xpReward": 30,
     "orderIndex": 74,
     "estimatedMinutes": 14,
-    "description": "Aplica la forma gramatical dentro del tema «El tiempo de cuidar».",
+    "description": "Aplica la forma gramatical dentro del tema «¿Trabajar cuatro días a la semana realmente funciona?».",
     "intro": "Observa cómo la gramática cambia la precisión y el matiz.",
     "mission": "Usa nominalización y densidad informativa para explicar y justificar una propuesta.",
-    "grammar": "Foco: nominalización y densidad informativa.\n\nUso: permite explicar el tema «El tiempo de cuidar también es trabajo» con precisión y matiz.\n\nModelo: Aunque «cuidados» parece una decisión individual, conviene considerar «remuneración» y «carga».",
+    "grammar": "Foco: nominalización y densidad informativa.\n\nUso: permite explicar el tema «¿Trabajar cuatro días a la semana realmente funciona?» con precisión y matiz.\n\nModelo: Aunque «jornada» parece una decisión individual, conviene considerar «productividad» y «descanso».",
     "phrases": [
-      "Aunque «cuidados» parece una decisión individual, conviene considerar «remuneración» y «carga».",
-      "El texto relaciona «cuidados» con «remuneración».",
-      "Antes de concluir, conviene revisar «carga»."
+      "Aunque «jornada» parece una decisión individual, conviene considerar «productividad» y «descanso».",
+      "El texto relaciona «jornada» con «productividad».",
+      "Antes de concluir, conviene revisar «descanso»."
     ],
     "vocabulary": [],
     "dialogue": [],
@@ -26629,19 +26629,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Aunque «cuidados» parece una decisión individual, conviene considerar «remuneración» y «carga»."
+                "text": "Aunque «jornada» parece una decisión individual, conviene considerar «productividad» y «descanso»."
               },
               {
                 "id": "o2",
-                "text": "cuidados remuneración carga."
+                "text": "jornada productividad descanso."
               },
               {
                 "id": "o3",
-                "text": "Porque cuidados y remuneración."
+                "text": "Porque jornada y productividad."
               },
               {
                 "id": "o4",
-                "text": "carga sin contexto decidir."
+                "text": "descanso sin contexto decidir."
               }
             ]
           },
@@ -26652,19 +26652,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "La evidencia ayuda a interpretar «cuidados» antes de concluir."
+                "text": "La evidencia ayuda a interpretar «jornada» antes de concluir."
               },
               {
                 "id": "o2",
-                "text": "La evidencia «cuidados» concluir antes."
+                "text": "La evidencia «jornada» concluir antes."
               },
               {
                 "id": "o3",
-                "text": "Interpretar evidencia porque «cuidados»."
+                "text": "Interpretar evidencia porque «jornada»."
               },
               {
                 "id": "o4",
-                "text": "«cuidados» evidencia sin."
+                "text": "«jornada» evidencia sin."
               }
             ]
           },
@@ -26711,10 +26711,10 @@
         "type": "mcq",
         "prompt": "¿Qué oración usa la estructura de la unidad para hablar del Reading?",
         "options": [
-          "Aunque «cuidados» parece una decisión individual, conviene considerar «remuneración» y «carga».",
-          "cuidados remuneración carga.",
-          "Porque cuidados y remuneración.",
-          "carga sin contexto decidir."
+          "Aunque «jornada» parece una decisión individual, conviene considerar «productividad» y «descanso».",
+          "jornada productividad descanso.",
+          "Porque jornada y productividad.",
+          "descanso sin contexto decidir."
         ],
         "explanation": "La primera opción relaciona la estructura gramatical con el tema y el vocabulario de la lección."
       },
@@ -26722,10 +26722,10 @@
         "type": "mcq",
         "prompt": "¿Qué opción mantiene mejor el sentido del texto?",
         "options": [
-          "La evidencia ayuda a interpretar «cuidados» antes de concluir.",
-          "La evidencia «cuidados» concluir antes.",
-          "Interpretar evidencia porque «cuidados».",
-          "«cuidados» evidencia sin."
+          "La evidencia ayuda a interpretar «jornada» antes de concluir.",
+          "La evidencia «jornada» concluir antes.",
+          "Interpretar evidencia porque «jornada».",
+          "«jornada» evidencia sin."
         ],
         "explanation": "La primera opción presenta una relación lógica y una idea completa."
       },
@@ -26753,14 +26753,14 @@
     "xpReward": 30,
     "orderIndex": 74,
     "estimatedMinutes": 14,
-    "description": "Aplica la forma gramatical dentro del tema «La basura electrónica no desaparece».",
+    "description": "Aplica la forma gramatical dentro del tema «El descubrimiento que nadie creyó... hasta que cambió el mundo».",
     "intro": "Observa cómo la gramática cambia la precisión y el matiz.",
     "mission": "Usa evidencialidad y grados de compromiso para explicar y justificar una propuesta.",
-    "grammar": "Foco: evidencialidad y grados de compromiso.\n\nUso: permite explicar el tema «La basura electrónica no desaparece» con precisión y matiz.\n\nModelo: Aunque «residuo electrónico» parece una decisión individual, conviene considerar «reparación» y «obsolescencia».",
+    "grammar": "Foco: evidencialidad y grados de compromiso.\n\nUso: permite explicar el tema «El descubrimiento que nadie creyó... hasta que cambió el mundo» con precisión y matiz.\n\nModelo: Aunque «hipótesis» parece una decisión individual, conviene considerar «evidencia» y «experimento».",
     "phrases": [
-      "Aunque «residuo electrónico» parece una decisión individual, conviene considerar «reparación» y «obsolescencia».",
-      "El texto relaciona «residuo electrónico» con «reparación».",
-      "Antes de concluir, conviene revisar «obsolescencia»."
+      "Aunque «hipótesis» parece una decisión individual, conviene considerar «evidencia» y «experimento».",
+      "El texto relaciona «hipótesis» con «evidencia».",
+      "Antes de concluir, conviene revisar «experimento»."
     ],
     "vocabulary": [],
     "dialogue": [],
@@ -26801,19 +26801,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Aunque «residuo electrónico» parece una decisión individual, conviene considerar «reparación» y «obsolescencia»."
+                "text": "Aunque «hipótesis» parece una decisión individual, conviene considerar «evidencia» y «experimento»."
               },
               {
                 "id": "o2",
-                "text": "residuo electrónico reparación obsolescencia."
+                "text": "hipótesis evidencia experimento."
               },
               {
                 "id": "o3",
-                "text": "Porque residuo electrónico y reparación."
+                "text": "Porque hipótesis y evidencia."
               },
               {
                 "id": "o4",
-                "text": "obsolescencia sin contexto decidir."
+                "text": "experimento sin contexto decidir."
               }
             ]
           },
@@ -26824,19 +26824,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "La evidencia ayuda a interpretar «residuo electrónico» antes de concluir."
+                "text": "La evidencia ayuda a interpretar «hipótesis» antes de concluir."
               },
               {
                 "id": "o2",
-                "text": "La evidencia «residuo electrónico» concluir antes."
+                "text": "La evidencia «hipótesis» concluir antes."
               },
               {
                 "id": "o3",
-                "text": "Interpretar evidencia porque «residuo electrónico»."
+                "text": "Interpretar evidencia porque «hipótesis»."
               },
               {
                 "id": "o4",
-                "text": "«residuo electrónico» evidencia sin."
+                "text": "«hipótesis» evidencia sin."
               }
             ]
           },
@@ -26883,10 +26883,10 @@
         "type": "mcq",
         "prompt": "¿Qué oración usa la estructura de la unidad para hablar del Reading?",
         "options": [
-          "Aunque «residuo electrónico» parece una decisión individual, conviene considerar «reparación» y «obsolescencia».",
-          "residuo electrónico reparación obsolescencia.",
-          "Porque residuo electrónico y reparación.",
-          "obsolescencia sin contexto decidir."
+          "Aunque «hipótesis» parece una decisión individual, conviene considerar «evidencia» y «experimento».",
+          "hipótesis evidencia experimento.",
+          "Porque hipótesis y evidencia.",
+          "experimento sin contexto decidir."
         ],
         "explanation": "La primera opción relaciona la estructura gramatical con el tema y el vocabulario de la lección."
       },
@@ -26894,10 +26894,10 @@
         "type": "mcq",
         "prompt": "¿Qué opción mantiene mejor el sentido del texto?",
         "options": [
-          "La evidencia ayuda a interpretar «residuo electrónico» antes de concluir.",
-          "La evidencia «residuo electrónico» concluir antes.",
-          "Interpretar evidencia porque «residuo electrónico».",
-          "«residuo electrónico» evidencia sin."
+          "La evidencia ayuda a interpretar «hipótesis» antes de concluir.",
+          "La evidencia «hipótesis» concluir antes.",
+          "Interpretar evidencia porque «hipótesis».",
+          "«hipótesis» evidencia sin."
         ],
         "explanation": "La primera opción presenta una relación lógica y una idea completa."
       },
@@ -27481,7 +27481,7 @@
     "level": "C1",
     "skill": "vocabulary",
     "unitId": "economia-y-cuidados",
-    "title": "Vocabulario · El tiempo de cuidar",
+    "title": "Vocabulario · ¿Trabajar cuatro días a la semana realmente funciona?",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
@@ -27494,50 +27494,50 @@
     "phrases": [],
     "vocabulary": [
       {
-        "word": "cuidados",
-        "translation": "English support: cuidados",
-        "definition": "Término clave para comprender «El tiempo de cuidar también es trabajo» y analizar visibilizar trabajos de cuidado poco reconocidos.",
-        "example": "Aunque «cuidados» parece una decisión individual, conviene considerar «remuneración» y «carga». Esta frase sitúa «cuidados» dentro del tema de la unidad.",
+        "word": "jornada",
+        "translation": "English support: jornada",
+        "definition": "Término clave para comprender «¿Trabajar cuatro días a la semana realmente funciona?» y analizar contrastar productividad, descanso y organización laboral.",
+        "example": "Aunque «jornada» parece una decisión individual, conviene considerar «productividad» y «descanso». Esta frase sitúa «jornada» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 1
       },
       {
-        "word": "remuneración",
-        "translation": "English support: remuneración",
-        "definition": "Término clave para comprender «El tiempo de cuidar también es trabajo» y analizar visibilizar trabajos de cuidado poco reconocidos.",
-        "example": "Aunque «cuidados» parece una decisión individual, conviene considerar «remuneración» y «carga». Esta frase sitúa «remuneración» dentro del tema de la unidad.",
+        "word": "productividad",
+        "translation": "English support: productividad",
+        "definition": "Término clave para comprender «¿Trabajar cuatro días a la semana realmente funciona?» y analizar contrastar productividad, descanso y organización laboral.",
+        "example": "Aunque «jornada» parece una decisión individual, conviene considerar «productividad» y «descanso». Esta frase sitúa «productividad» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 2
       },
       {
-        "word": "carga",
-        "translation": "English support: carga",
-        "definition": "Término clave para comprender «El tiempo de cuidar también es trabajo» y analizar visibilizar trabajos de cuidado poco reconocidos.",
-        "example": "Aunque «cuidados» parece una decisión individual, conviene considerar «remuneración» y «carga». Esta frase sitúa «carga» dentro del tema de la unidad.",
+        "word": "descanso",
+        "translation": "English support: descanso",
+        "definition": "Término clave para comprender «¿Trabajar cuatro días a la semana realmente funciona?» y analizar contrastar productividad, descanso y organización laboral.",
+        "example": "Aunque «jornada» parece una decisión individual, conviene considerar «productividad» y «descanso». Esta frase sitúa «descanso» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 3
       },
       {
-        "word": "corresponsabilidad",
-        "translation": "English support: corresponsabilidad",
-        "definition": "Término clave para comprender «El tiempo de cuidar también es trabajo» y analizar visibilizar trabajos de cuidado poco reconocidos.",
-        "example": "Aunque «cuidados» parece una decisión individual, conviene considerar «remuneración» y «carga». Esta frase sitúa «corresponsabilidad» dentro del tema de la unidad.",
+        "word": "flexibilidad",
+        "translation": "English support: flexibilidad",
+        "definition": "Término clave para comprender «¿Trabajar cuatro días a la semana realmente funciona?» y analizar contrastar productividad, descanso y organización laboral.",
+        "example": "Aunque «jornada» parece una decisión individual, conviene considerar «productividad» y «descanso». Esta frase sitúa «flexibilidad» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 4
       },
       {
-        "word": "sostener",
-        "translation": "English support: sostener",
-        "definition": "Término clave para comprender «El tiempo de cuidar también es trabajo» y analizar visibilizar trabajos de cuidado poco reconocidos.",
-        "example": "Aunque «cuidados» parece una decisión individual, conviene considerar «remuneración» y «carga». Esta frase sitúa «sostener» dentro del tema de la unidad.",
+        "word": "rendimiento",
+        "translation": "English support: rendimiento",
+        "definition": "Término clave para comprender «¿Trabajar cuatro días a la semana realmente funciona?» y analizar contrastar productividad, descanso y organización laboral.",
+        "example": "Aunque «jornada» parece una decisión individual, conviene considerar «productividad» y «descanso». Esta frase sitúa «rendimiento» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 5
       },
       {
-        "word": "invisibilizado",
-        "translation": "English support: invisibilizado",
-        "definition": "Término clave para comprender «El tiempo de cuidar también es trabajo» y analizar visibilizar trabajos de cuidado poco reconocidos.",
-        "example": "Aunque «cuidados» parece una decisión individual, conviene considerar «remuneración» y «carga». Esta frase sitúa «invisibilizado» dentro del tema de la unidad.",
+        "word": "conciliación",
+        "translation": "English support: conciliación",
+        "definition": "Término clave para comprender «¿Trabajar cuatro días a la semana realmente funciona?» y analizar contrastar productividad, descanso y organización laboral.",
+        "example": "Aunque «jornada» parece una decisión individual, conviene considerar «productividad» y «descanso». Esta frase sitúa «conciliación» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 6
       }
@@ -27549,69 +27549,69 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «El tiempo de cuidar»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «¿Trabajar cuatro días a la semana realmente funciona?»?",
         "options": [
           "desayuno",
-          "cuidados",
+          "jornada",
           "zapato",
           "ventana"
         ],
-        "explanation": "«cuidados» forma parte del vocabulario de esta unidad."
+        "explanation": "«jornada» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «El tiempo de cuidar»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «¿Trabajar cuatro días a la semana realmente funciona?»?",
         "options": [
           "desayuno",
-          "remuneración",
+          "productividad",
           "zapato",
           "ventana"
         ],
-        "explanation": "«remuneración» forma parte del vocabulario de esta unidad."
+        "explanation": "«productividad» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «El tiempo de cuidar»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «¿Trabajar cuatro días a la semana realmente funciona?»?",
         "options": [
           "desayuno",
-          "carga",
+          "descanso",
           "zapato",
           "ventana"
         ],
-        "explanation": "«carga» forma parte del vocabulario de esta unidad."
+        "explanation": "«descanso» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «El tiempo de cuidar»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «¿Trabajar cuatro días a la semana realmente funciona?»?",
         "options": [
           "desayuno",
-          "corresponsabilidad",
+          "flexibilidad",
           "zapato",
           "ventana"
         ],
-        "explanation": "«corresponsabilidad» forma parte del vocabulario de esta unidad."
+        "explanation": "«flexibilidad» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «El tiempo de cuidar»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «¿Trabajar cuatro días a la semana realmente funciona?»?",
         "options": [
           "desayuno",
-          "sostener",
+          "rendimiento",
           "zapato",
           "ventana"
         ],
-        "explanation": "«sostener» forma parte del vocabulario de esta unidad."
+        "explanation": "«rendimiento» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «El tiempo de cuidar»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «¿Trabajar cuatro días a la semana realmente funciona?»?",
         "options": [
           "desayuno",
-          "invisibilizado",
+          "conciliación",
           "zapato",
           "ventana"
         ],
-        "explanation": "«invisibilizado» forma parte del vocabulario de esta unidad."
+        "explanation": "«conciliación» forma parte del vocabulario de esta unidad."
       }
     ]
   },
@@ -27620,7 +27620,7 @@
     "level": "C2",
     "skill": "vocabulary",
     "unitId": "debate-epistemico",
-    "title": "Vocabulario · La basura electrónica no desaparece",
+    "title": "Vocabulario · El descubrimiento que nadie creyó... hasta que cambió el mundo",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
@@ -27633,50 +27633,50 @@
     "phrases": [],
     "vocabulary": [
       {
-        "word": "residuo electrónico",
-        "translation": "English support: residuo electrónico",
-        "definition": "Término clave para comprender «La basura electrónica no desaparece» y analizar evaluar afirmaciones sobre reciclaje, reparación y obsolescencia tecnológica.",
-        "example": "Aunque «residuo electrónico» parece una decisión individual, conviene considerar «reparación» y «obsolescencia». Esta frase sitúa «residuo electrónico» dentro del tema de la unidad.",
-        "partOfSpeech": "locución",
+        "word": "hipótesis",
+        "translation": "English support: hipótesis",
+        "definition": "Término clave para comprender «El descubrimiento que nadie creyó... hasta que cambió el mundo» y analizar narrar una hipótesis científica recibida con escepticismo.",
+        "example": "Aunque «hipótesis» parece una decisión individual, conviene considerar «evidencia» y «experimento». Esta frase sitúa «hipótesis» dentro del tema de la unidad.",
+        "partOfSpeech": "sustantivo",
         "unitOrder": 1
       },
       {
-        "word": "reparación",
-        "translation": "English support: reparación",
-        "definition": "Término clave para comprender «La basura electrónica no desaparece» y analizar evaluar afirmaciones sobre reciclaje, reparación y obsolescencia tecnológica.",
-        "example": "Aunque «residuo electrónico» parece una decisión individual, conviene considerar «reparación» y «obsolescencia». Esta frase sitúa «reparación» dentro del tema de la unidad.",
+        "word": "evidencia",
+        "translation": "English support: evidencia",
+        "definition": "Término clave para comprender «El descubrimiento que nadie creyó... hasta que cambió el mundo» y analizar narrar una hipótesis científica recibida con escepticismo.",
+        "example": "Aunque «hipótesis» parece una decisión individual, conviene considerar «evidencia» y «experimento». Esta frase sitúa «evidencia» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 2
       },
       {
-        "word": "obsolescencia",
-        "translation": "English support: obsolescencia",
-        "definition": "Término clave para comprender «La basura electrónica no desaparece» y analizar evaluar afirmaciones sobre reciclaje, reparación y obsolescencia tecnológica.",
-        "example": "Aunque «residuo electrónico» parece una decisión individual, conviene considerar «reparación» y «obsolescencia». Esta frase sitúa «obsolescencia» dentro del tema de la unidad.",
+        "word": "experimento",
+        "translation": "English support: experimento",
+        "definition": "Término clave para comprender «El descubrimiento que nadie creyó... hasta que cambió el mundo» y analizar narrar una hipótesis científica recibida con escepticismo.",
+        "example": "Aunque «hipótesis» parece una decisión individual, conviene considerar «evidencia» y «experimento». Esta frase sitúa «experimento» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 3
       },
       {
-        "word": "reciclaje",
-        "translation": "English support: reciclaje",
-        "definition": "Término clave para comprender «La basura electrónica no desaparece» y analizar evaluar afirmaciones sobre reciclaje, reparación y obsolescencia tecnológica.",
-        "example": "Aunque «residuo electrónico» parece una decisión individual, conviene considerar «reparación» y «obsolescencia». Esta frase sitúa «reciclaje» dentro del tema de la unidad.",
+        "word": "réplica",
+        "translation": "English support: réplica",
+        "definition": "Término clave para comprender «El descubrimiento que nadie creyó... hasta que cambió el mundo» y analizar narrar una hipótesis científica recibida con escepticismo.",
+        "example": "Aunque «hipótesis» parece una decisión individual, conviene considerar «evidencia» y «experimento». Esta frase sitúa «réplica» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 4
       },
       {
-        "word": "cadena de suministro",
-        "translation": "English support: cadena de suministro",
-        "definition": "Término clave para comprender «La basura electrónica no desaparece» y analizar evaluar afirmaciones sobre reciclaje, reparación y obsolescencia tecnológica.",
-        "example": "Aunque «residuo electrónico» parece una decisión individual, conviene considerar «reparación» y «obsolescencia». Esta frase sitúa «cadena de suministro» dentro del tema de la unidad.",
-        "partOfSpeech": "locución",
+        "word": "paradigma",
+        "translation": "English support: paradigma",
+        "definition": "Término clave para comprender «El descubrimiento que nadie creyó... hasta que cambió el mundo» y analizar narrar una hipótesis científica recibida con escepticismo.",
+        "example": "Aunque «hipótesis» parece una decisión individual, conviene considerar «evidencia» y «experimento». Esta frase sitúa «paradigma» dentro del tema de la unidad.",
+        "partOfSpeech": "sustantivo",
         "unitOrder": 5
       },
       {
-        "word": "responsabilidad",
-        "translation": "English support: responsabilidad",
-        "definition": "Término clave para comprender «La basura electrónica no desaparece» y analizar evaluar afirmaciones sobre reciclaje, reparación y obsolescencia tecnológica.",
-        "example": "Aunque «residuo electrónico» parece una decisión individual, conviene considerar «reparación» y «obsolescencia». Esta frase sitúa «responsabilidad» dentro del tema de la unidad.",
+        "word": "hallazgo",
+        "translation": "English support: hallazgo",
+        "definition": "Término clave para comprender «El descubrimiento que nadie creyó... hasta que cambió el mundo» y analizar narrar una hipótesis científica recibida con escepticismo.",
+        "example": "Aunque «hipótesis» parece una decisión individual, conviene considerar «evidencia» y «experimento». Esta frase sitúa «hallazgo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 6
       }
@@ -27688,69 +27688,69 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «La basura electrónica no desaparece»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «El descubrimiento que nadie creyó... hasta que cambió el mundo»?",
         "options": [
           "desayuno",
-          "residuo electrónico",
+          "hipótesis",
           "zapato",
           "ventana"
         ],
-        "explanation": "«residuo electrónico» forma parte del vocabulario de esta unidad."
+        "explanation": "«hipótesis» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «La basura electrónica no desaparece»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «El descubrimiento que nadie creyó... hasta que cambió el mundo»?",
         "options": [
           "desayuno",
-          "reparación",
+          "evidencia",
           "zapato",
           "ventana"
         ],
-        "explanation": "«reparación» forma parte del vocabulario de esta unidad."
+        "explanation": "«evidencia» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «La basura electrónica no desaparece»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «El descubrimiento que nadie creyó... hasta que cambió el mundo»?",
         "options": [
           "desayuno",
-          "obsolescencia",
+          "experimento",
           "zapato",
           "ventana"
         ],
-        "explanation": "«obsolescencia» forma parte del vocabulario de esta unidad."
+        "explanation": "«experimento» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «La basura electrónica no desaparece»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «El descubrimiento que nadie creyó... hasta que cambió el mundo»?",
         "options": [
           "desayuno",
-          "reciclaje",
+          "réplica",
           "zapato",
           "ventana"
         ],
-        "explanation": "«reciclaje» forma parte del vocabulario de esta unidad."
+        "explanation": "«réplica» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «La basura electrónica no desaparece»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «El descubrimiento que nadie creyó... hasta que cambió el mundo»?",
         "options": [
           "desayuno",
-          "cadena de suministro",
+          "paradigma",
           "zapato",
           "ventana"
         ],
-        "explanation": "«cadena de suministro» forma parte del vocabulario de esta unidad."
+        "explanation": "«paradigma» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «La basura electrónica no desaparece»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «El descubrimiento que nadie creyó... hasta que cambió el mundo»?",
         "options": [
           "desayuno",
-          "responsabilidad",
+          "hallazgo",
           "zapato",
           "ventana"
         ],
-        "explanation": "«responsabilidad» forma parte del vocabulario de esta unidad."
+        "explanation": "«hallazgo» forma parte del vocabulario de esta unidad."
       }
     ]
   },
@@ -28120,22 +28120,22 @@
     "level": "C1",
     "skill": "reading",
     "unitId": "diversidad-del-espanol",
-    "title": "Una lengua común no exige una sola voz",
+    "title": "Dormimos menos que nunca: el costo invisible del cansancio",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 80,
     "estimatedMinutes": 18,
-    "description": "artículo sociolingüístico: lenguas, acentos y pertenencia.",
+    "description": "podcast de salud: dormimos menos que nunca: el costo invisible del cansancio.",
     "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
-    "mission": "Explicar variación sin establecer jerarquías",
+    "mission": "Explicar hábitos, consecuencias y límites del autocuidado",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Una lengua común no exige una sola voz",
-      "text": "Las plataformas conectan voces de distintos países, pero también amplifican la idea de que existe un único español neutral.\n\nLa comprensión mutua no requiere borrar acentos ni regionalismos; requiere reconocer el contexto, negociar significado y evitar convertir una variedad en medida de inteligencia.\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «variedad», «rasgo» y «hablante» no son adornos: permiten describir el problema con mayor precisión.\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, variación, registro y adecuación pragmática ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.\n\nEsto tiene consecuencias prácticas. Las decisiones sobre comparar usos de comunidades hispanohablantes deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: explicar variación sin establecer jerarquías. Hablar de diversidad, adecuación y respeto lingüístico supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.",
+      "title": "Dormimos menos que nunca: el costo invisible del cansancio",
+      "text": "Las plataformas conectan voces de distintos países, pero también amplifican la idea de que existe un único español neutral.\n\nLa comprensión mutua no requiere borrar acentos ni regionalismos; requiere reconocer el contexto, negociar significado y evitar convertir una variedad en medida de inteligencia.\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «sueño», «agotamiento» y «rutina» no son adornos: permiten describir el problema con mayor precisión.\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, variación, registro y adecuación pragmática ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.\n\nEsto tiene consecuencias prácticas. Las decisiones sobre explorar cómo el descanso insuficiente afecta decisiones y relaciones deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: explicar hábitos, consecuencias y límites del autocuidado. Hablar de diversidad, adecuación y respeto lingüístico supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.",
       "questions": [
         "¿Cuál es el problema central que analiza la lectura?",
         "¿Qué exige el texto antes de aceptar una conclusión?",
@@ -28215,22 +28215,22 @@
     "level": "C2",
     "skill": "reading",
     "unitId": "estetica-y-interpretacion",
-    "title": "La transición verde también extrae",
+    "title": "La economía de los creadores: cómo YouTube, TikTok y Spotify generan millones",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 80,
     "estimatedMinutes": 18,
-    "description": "ensayo socioambiental: la transición verde también extrae.",
+    "description": "podcast económico: la economía de los creadores: cómo youtube, tiktok y spotify generan millones.",
     "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
-    "mission": "Integrar reducción de emisiones, derechos laborales y efectos territoriales",
+    "mission": "Analizar visibilidad, monetización y precariedad en la economía digital",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "La transición verde también extrae",
-      "text": "El turismo puede sostener empleos y también transformar barrios, precios y prácticas culturales hasta volver difícil la vida cotidiana de quienes los habitan.\n\nUna mirada crítica debe comparar beneficios, costos y quién tiene capacidad de decidir cómo se conserva y se muestra el patrimonio.\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «mineral crítico», «extracción» y «refinación» no son adornos: permiten describir el problema con mayor precisión.\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, metáfora conceptual y lenguaje crítico ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.\n\nHay además una dificultad de segundo orden: los marcos con que se mide el problema pueden inclinar la conclusión. Un indicador hace visible una parte de la realidad y puede dejar otra fuera; una fuente autorizada merece atención, pero no elimina la necesidad de examinar su método, su alcance y sus intereses. El lector experto no busca una neutralidad imposible, sino criterios explícitos para comparar argumentos.\n\nEsto tiene consecuencias prácticas. Las decisiones sobre comparar narrativas sobre baterías, minerales críticos y energías limpias deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: integrar reducción de emisiones, derechos laborales y efectos territoriales. Hablar de patrimonio, sostenibilidad y derecho a habitar supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.",
+      "title": "La economía de los creadores: cómo YouTube, TikTok y Spotify generan millones",
+      "text": "El turismo puede sostener empleos y también transformar barrios, precios y prácticas culturales hasta volver difícil la vida cotidiana de quienes los habitan.\n\nUna mirada crítica debe comparar beneficios, costos y quién tiene capacidad de decidir cómo se conserva y se muestra el patrimonio.\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «audiencia», «monetización» y «plataforma» no son adornos: permiten describir el problema con mayor precisión.\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, metáfora conceptual y lenguaje crítico ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.\n\nHay además una dificultad de segundo orden: los marcos con que se mide el problema pueden inclinar la conclusión. Un indicador hace visible una parte de la realidad y puede dejar otra fuera; una fuente autorizada merece atención, pero no elimina la necesidad de examinar su método, su alcance y sus intereses. El lector experto no busca una neutralidad imposible, sino criterios explícitos para comparar argumentos.\n\nEsto tiene consecuencias prácticas. Las decisiones sobre investigar quién gana y quién depende de las plataformas de contenido deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: analizar visibilidad, monetización y precariedad en la economía digital. Hablar de patrimonio, sostenibilidad y derecho a habitar supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.",
       "questions": [
         "¿Cuál es el problema central que analiza la lectura?",
         "¿Qué exige el texto antes de aceptar una conclusión?",
@@ -29018,33 +29018,33 @@
     "level": "C1",
     "skill": "listening",
     "unitId": "diversidad-del-espanol",
-    "title": "Escucha · Una lengua común no exige una sola voz",
+    "title": "Escucha · Dormimos menos que nunca: el costo invisible del cansancio",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
     "orderIndex": 81,
     "estimatedMinutes": 14,
-    "description": "Crónica de audio conectada con el Reading «Una lengua común no exige una sola voz».",
+    "description": "Podcast de salud sobre «Dormimos menos que nunca: el costo invisible del cansancio».",
     "intro": "Escucha una adaptación integral del tema antes de consultar la transcripción.",
     "mission": "Reconoce cómo el vocabulario y variación, registro y adecuación pragmática organizan una explicación oral compleja.",
     "grammar": "",
     "phrases": [
-      "variedad",
-      "rasgo",
-      "hablante",
-      "Aunque «variedad» parece una decisión individual, conviene considerar «rasgo» y «hablante»."
+      "sueño",
+      "agotamiento",
+      "rutina",
+      "Aunque «sueño» parece una decisión individual, conviene considerar «agotamiento» y «rutina»."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Las plataformas conectan voces de distintos países, pero también amplifican la idea de que existe un único español neutral. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «variedad», «rasgo» y «hablante». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «variedad» parece una decisión individual, conviene considerar «rasgo» y «hablante». Desde esta perspectiva, explicar variación sin establecer jerarquías no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de lenguas, acentos y pertenencia implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«prestigio», «regionalismo» y «adecuación»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «documental lingüístico», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada.",
+    "transcript": "Dormir poco se ha convertido en una especie de medalla social. Sin embargo, el cansancio no solo se nota al despertar: cambia nuestra concentración, nuestra paciencia y la manera en que tomamos decisiones durante el día. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «sueño», «agotamiento» y «rutina». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «sueño» parece una decisión individual, conviene considerar «agotamiento» y «rutina». Desde esta perspectiva, explicar hábitos, consecuencias y límites del autocuidado no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de dormimos menos que nunca: el costo invisible del cansancio implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«recuperación», «atención» y «bienestar»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «podcast de salud», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En explorar cómo el descanso insuficiente afecta decisiones y relaciones, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «sueño», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
     "extra": {
       "listeningType": "story",
       "difficulty": "C1",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "Las plataformas conectan voces de distintos países, pero también amplifican la idea de que existe un único español neutral. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «variedad», «rasgo» y «hablante». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «variedad» parece una decisión individual, conviene considerar «rasgo» y «hablante». Desde esta perspectiva, explicar variación sin establecer jerarquías no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de lenguas, acentos y pertenencia implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«prestigio», «regionalismo» y «adecuación»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «documental lingüístico», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada.",
+      "transcript": "Dormir poco se ha convertido en una especie de medalla social. Sin embargo, el cansancio no solo se nota al despertar: cambia nuestra concentración, nuestra paciencia y la manera en que tomamos decisiones durante el día. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «sueño», «agotamiento» y «rutina». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «sueño» parece una decisión individual, conviene considerar «agotamiento» y «rutina». Desde esta perspectiva, explicar hábitos, consecuencias y límites del autocuidado no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de dormimos menos que nunca: el costo invisible del cansancio implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«recuperación», «atención» y «bienestar»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «podcast de salud», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En explorar cómo el descanso insuficiente afecta decisiones y relaciones, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «sueño», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
       "listeningComprehension": {
         "id": "spanish-c1-diversidad-del-espanol-listening-comprehension",
         "passingScore": 70,
@@ -29197,33 +29197,33 @@
     "level": "C2",
     "skill": "listening",
     "unitId": "estetica-y-interpretacion",
-    "title": "Escucha · La transición verde también extrae",
+    "title": "Escucha · La economía de los creadores: cómo YouTube, TikTok y Spotify generan millones",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
     "orderIndex": 81,
     "estimatedMinutes": 14,
-    "description": "Crónica de audio conectada con el Reading «La transición verde también extrae».",
+    "description": "Podcast económico sobre «La economía de los creadores: cómo YouTube, TikTok y Spotify generan millones».",
     "intro": "Escucha una adaptación integral del tema antes de consultar la transcripción.",
     "mission": "Reconoce cómo el vocabulario y metáfora conceptual y lenguaje crítico organizan una explicación oral compleja.",
     "grammar": "",
     "phrases": [
-      "mineral crítico",
-      "extracción",
-      "refinación",
-      "Aunque «mineral crítico» parece una decisión individual, conviene considerar «extracción» y «refinación»."
+      "audiencia",
+      "monetización",
+      "plataforma",
+      "Aunque «audiencia» parece una decisión individual, conviene considerar «monetización» y «plataforma»."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "El turismo puede sostener empleos y también transformar barrios, precios y prácticas culturales hasta volver difícil la vida cotidiana de quienes los habitan. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «mineral crítico», «extracción» y «refinación». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «mineral crítico» parece una decisión individual, conviene considerar «extracción» y «refinación». Desde esta perspectiva, integrar reducción de emisiones, derechos laborales y efectos territoriales no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de la transición verde también extrae implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«transición», «territorio» y «trazabilidad»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «crítica de arte», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada.",
+    "transcript": "La economía de los creadores suele contarse con cifras de seguidores y reproducciones. Sin embargo, detrás de esas cifras hay contratos, algoritmos, trabajo invisible y plataformas que pueden cambiar una regla sin negociar con quienes dependen de ella. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «audiencia», «monetización» y «plataforma». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «audiencia» parece una decisión individual, conviene considerar «monetización» y «plataforma». Desde esta perspectiva, analizar visibilidad, monetización y precariedad en la economía digital no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de la economía de los creadores: cómo youtube, tiktok y spotify generan millones implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«patrocinio», «alcance» y «precariedad»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «podcast económico», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En investigar quién gana y quién depende de las plataformas de contenido, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «audiencia», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
     "extra": {
       "listeningType": "story",
       "difficulty": "C2",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "El turismo puede sostener empleos y también transformar barrios, precios y prácticas culturales hasta volver difícil la vida cotidiana de quienes los habitan. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «mineral crítico», «extracción» y «refinación». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «mineral crítico» parece una decisión individual, conviene considerar «extracción» y «refinación». Desde esta perspectiva, integrar reducción de emisiones, derechos laborales y efectos territoriales no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de la transición verde también extrae implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«transición», «territorio» y «trazabilidad»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «crítica de arte», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada.",
+      "transcript": "La economía de los creadores suele contarse con cifras de seguidores y reproducciones. Sin embargo, detrás de esas cifras hay contratos, algoritmos, trabajo invisible y plataformas que pueden cambiar una regla sin negociar con quienes dependen de ella. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «audiencia», «monetización» y «plataforma». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «audiencia» parece una decisión individual, conviene considerar «monetización» y «plataforma». Desde esta perspectiva, analizar visibilidad, monetización y precariedad en la economía digital no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de la economía de los creadores: cómo youtube, tiktok y spotify generan millones implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«patrocinio», «alcance» y «precariedad»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «podcast económico», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En investigar quién gana y quién depende de las plataformas de contenido, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «audiencia», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
       "listeningComprehension": {
         "id": "spanish-c2-estetica-y-interpretacion-listening-comprehension",
         "passingScore": 70,
@@ -29573,14 +29573,14 @@
     "level": "C1",
     "skill": "speaking",
     "unitId": "diversidad-del-espanol",
-    "title": "Habla · Lenguas, acentos y pertenencia",
+    "title": "Habla · Dormimos menos que nunca: el costo invisible del cansancio",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
     "orderIndex": 82,
     "estimatedMinutes": 14,
     "description": "Responde oralmente dentro del escenario de la unidad.",
-    "intro": "Comparar usos de comunidades hispanohablantes",
+    "intro": "Explorar cómo el descanso insuficiente afecta decisiones y relaciones",
     "mission": "Graba una respuesta de 45–90 segundos: presenta tu propuesta, justifica dos razones y reconoce una posible dificultad.",
     "grammar": "",
     "phrases": [
@@ -29593,7 +29593,7 @@
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "¿Qué propones ante esta situación: comparar usos de comunidades hispanohablantes?",
+        "line": "¿Qué propones ante esta situación: explorar cómo el descanso insuficiente afecta decisiones y relaciones?",
         "translation": "What do you propose in this situation?"
       },
       {
@@ -29608,11 +29608,11 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Explica cómo resolverías este reto: Comparar usos de comunidades hispanohablantes."
+        "prompt": "Explica cómo resolverías este reto: Explorar cómo el descanso insuficiente afecta decisiones y relaciones."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos palabras: variedad, rasgo, hablante."
+        "prompt": "Usa al menos dos palabras: sueño, agotamiento, rutina."
       }
     ]
   },
@@ -29621,14 +29621,14 @@
     "level": "C2",
     "skill": "speaking",
     "unitId": "estetica-y-interpretacion",
-    "title": "Habla · La transición verde también extrae",
+    "title": "Habla · La economía de los creadores: cómo YouTube, TikTok y Spotify generan millones",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
     "orderIndex": 82,
     "estimatedMinutes": 14,
     "description": "Responde oralmente dentro del escenario de la unidad.",
-    "intro": "Comparar narrativas sobre baterías, minerales críticos y energías limpias",
+    "intro": "Investigar quién gana y quién depende de las plataformas de contenido",
     "mission": "Graba una respuesta de 45–90 segundos: presenta tu propuesta, justifica dos razones y reconoce una posible dificultad.",
     "grammar": "",
     "phrases": [
@@ -29641,7 +29641,7 @@
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "¿Qué propones ante esta situación: comparar narrativas sobre baterías, minerales críticos y energías limpias?",
+        "line": "¿Qué propones ante esta situación: investigar quién gana y quién depende de las plataformas de contenido?",
         "translation": "What do you propose in this situation?"
       },
       {
@@ -29656,11 +29656,11 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Explica cómo resolverías este reto: Comparar narrativas sobre baterías, minerales críticos y energías limpias."
+        "prompt": "Explica cómo resolverías este reto: Investigar quién gana y quién depende de las plataformas de contenido."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos palabras: mineral crítico, extracción, refinación."
+        "prompt": "Usa al menos dos palabras: audiencia, monetización, plataforma."
       }
     ]
   },
@@ -29807,7 +29807,7 @@
     "level": "C1",
     "skill": "writing",
     "unitId": "diversidad-del-espanol",
-    "title": "Escribe · Lenguas, acentos y pertenencia",
+    "title": "Escribe · Dormimos menos que nunca: el costo invisible del cansancio",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
@@ -29815,7 +29815,7 @@
     "estimatedMinutes": 18,
     "description": "Produce un texto conectado con la misión de la unidad.",
     "intro": "Planifica, redacta y revisa antes de enviar tu texto.",
-    "mission": "Escribe 230–300 palabras sobre «Comparar usos de comunidades hispanohablantes». Incluye una idea principal, razones y una conclusión.",
+    "mission": "Escribe 230–300 palabras sobre «Explorar cómo el descanso insuficiente afecta decisiones y relaciones». Incluye una idea principal, razones y una conclusión.",
     "grammar": "variación, registro y adecuación pragmática",
     "phrases": [
       "En primer lugar…",
@@ -29831,7 +29831,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Redacta una respuesta organizada para: Comparar usos de comunidades hispanohablantes."
+        "prompt": "Redacta una respuesta organizada para: Explorar cómo el descanso insuficiente afecta decisiones y relaciones."
       }
     ]
   },
@@ -29840,7 +29840,7 @@
     "level": "C2",
     "skill": "writing",
     "unitId": "estetica-y-interpretacion",
-    "title": "Escribe · La transición verde también extrae",
+    "title": "Escribe · La economía de los creadores: cómo YouTube, TikTok y Spotify generan millones",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
@@ -29848,7 +29848,7 @@
     "estimatedMinutes": 18,
     "description": "Produce un texto conectado con la misión de la unidad.",
     "intro": "Planifica, redacta y revisa antes de enviar tu texto.",
-    "mission": "Escribe 230–300 palabras sobre «Comparar narrativas sobre baterías, minerales críticos y energías limpias». Incluye una idea principal, razones y una conclusión.",
+    "mission": "Escribe 230–300 palabras sobre «Investigar quién gana y quién depende de las plataformas de contenido». Incluye una idea principal, razones y una conclusión.",
     "grammar": "metáfora conceptual y lenguaje crítico",
     "phrases": [
       "En primer lugar…",
@@ -29864,7 +29864,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Redacta una respuesta organizada para: Comparar narrativas sobre baterías, minerales críticos y energías limpias."
+        "prompt": "Redacta una respuesta organizada para: Investigar quién gana y quién depende de las plataformas de contenido."
       }
     ]
   },
@@ -30464,14 +30464,14 @@
     "xpReward": 30,
     "orderIndex": 84,
     "estimatedMinutes": 14,
-    "description": "Aplica la forma gramatical dentro del tema «Lenguas, acentos y pertenencia».",
+    "description": "Aplica la forma gramatical dentro del tema «Dormimos menos que nunca: el costo invisible del cansancio».",
     "intro": "Observa cómo la gramática cambia la precisión y el matiz.",
     "mission": "Usa variación, registro y adecuación pragmática para explicar y justificar una propuesta.",
-    "grammar": "Foco: variación, registro y adecuación pragmática.\n\nUso: permite explicar el tema «Una lengua común no exige una sola voz» con precisión y matiz.\n\nModelo: Aunque «variedad» parece una decisión individual, conviene considerar «rasgo» y «hablante».",
+    "grammar": "Foco: variación, registro y adecuación pragmática.\n\nUso: permite explicar el tema «Dormimos menos que nunca: el costo invisible del cansancio» con precisión y matiz.\n\nModelo: Aunque «sueño» parece una decisión individual, conviene considerar «agotamiento» y «rutina».",
     "phrases": [
-      "Aunque «variedad» parece una decisión individual, conviene considerar «rasgo» y «hablante».",
-      "El texto relaciona «variedad» con «rasgo».",
-      "Antes de concluir, conviene revisar «hablante»."
+      "Aunque «sueño» parece una decisión individual, conviene considerar «agotamiento» y «rutina».",
+      "El texto relaciona «sueño» con «agotamiento».",
+      "Antes de concluir, conviene revisar «rutina»."
     ],
     "vocabulary": [],
     "dialogue": [],
@@ -30512,19 +30512,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Aunque «variedad» parece una decisión individual, conviene considerar «rasgo» y «hablante»."
+                "text": "Aunque «sueño» parece una decisión individual, conviene considerar «agotamiento» y «rutina»."
               },
               {
                 "id": "o2",
-                "text": "variedad rasgo hablante."
+                "text": "sueño agotamiento rutina."
               },
               {
                 "id": "o3",
-                "text": "Porque variedad y rasgo."
+                "text": "Porque sueño y agotamiento."
               },
               {
                 "id": "o4",
-                "text": "hablante sin contexto decidir."
+                "text": "rutina sin contexto decidir."
               }
             ]
           },
@@ -30535,19 +30535,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "La evidencia ayuda a interpretar «variedad» antes de concluir."
+                "text": "La evidencia ayuda a interpretar «sueño» antes de concluir."
               },
               {
                 "id": "o2",
-                "text": "La evidencia «variedad» concluir antes."
+                "text": "La evidencia «sueño» concluir antes."
               },
               {
                 "id": "o3",
-                "text": "Interpretar evidencia porque «variedad»."
+                "text": "Interpretar evidencia porque «sueño»."
               },
               {
                 "id": "o4",
-                "text": "«variedad» evidencia sin."
+                "text": "«sueño» evidencia sin."
               }
             ]
           },
@@ -30594,10 +30594,10 @@
         "type": "mcq",
         "prompt": "¿Qué oración usa la estructura de la unidad para hablar del Reading?",
         "options": [
-          "Aunque «variedad» parece una decisión individual, conviene considerar «rasgo» y «hablante».",
-          "variedad rasgo hablante.",
-          "Porque variedad y rasgo.",
-          "hablante sin contexto decidir."
+          "Aunque «sueño» parece una decisión individual, conviene considerar «agotamiento» y «rutina».",
+          "sueño agotamiento rutina.",
+          "Porque sueño y agotamiento.",
+          "rutina sin contexto decidir."
         ],
         "explanation": "La primera opción relaciona la estructura gramatical con el tema y el vocabulario de la lección."
       },
@@ -30605,10 +30605,10 @@
         "type": "mcq",
         "prompt": "¿Qué opción mantiene mejor el sentido del texto?",
         "options": [
-          "La evidencia ayuda a interpretar «variedad» antes de concluir.",
-          "La evidencia «variedad» concluir antes.",
-          "Interpretar evidencia porque «variedad».",
-          "«variedad» evidencia sin."
+          "La evidencia ayuda a interpretar «sueño» antes de concluir.",
+          "La evidencia «sueño» concluir antes.",
+          "Interpretar evidencia porque «sueño».",
+          "«sueño» evidencia sin."
         ],
         "explanation": "La primera opción presenta una relación lógica y una idea completa."
       },
@@ -30636,14 +30636,14 @@
     "xpReward": 30,
     "orderIndex": 84,
     "estimatedMinutes": 14,
-    "description": "Aplica la forma gramatical dentro del tema «La transición verde también extrae».",
+    "description": "Aplica la forma gramatical dentro del tema «La economía de los creadores: cómo YouTube, TikTok y Spotify generan millones».",
     "intro": "Observa cómo la gramática cambia la precisión y el matiz.",
     "mission": "Usa metáfora conceptual y lenguaje crítico para explicar y justificar una propuesta.",
-    "grammar": "Foco: metáfora conceptual y lenguaje crítico.\n\nUso: permite explicar el tema «La transición verde también extrae» con precisión y matiz.\n\nModelo: Aunque «mineral crítico» parece una decisión individual, conviene considerar «extracción» y «refinación».",
+    "grammar": "Foco: metáfora conceptual y lenguaje crítico.\n\nUso: permite explicar el tema «La economía de los creadores: cómo YouTube, TikTok y Spotify generan millones» con precisión y matiz.\n\nModelo: Aunque «audiencia» parece una decisión individual, conviene considerar «monetización» y «plataforma».",
     "phrases": [
-      "Aunque «mineral crítico» parece una decisión individual, conviene considerar «extracción» y «refinación».",
-      "El texto relaciona «mineral crítico» con «extracción».",
-      "Antes de concluir, conviene revisar «refinación»."
+      "Aunque «audiencia» parece una decisión individual, conviene considerar «monetización» y «plataforma».",
+      "El texto relaciona «audiencia» con «monetización».",
+      "Antes de concluir, conviene revisar «plataforma»."
     ],
     "vocabulary": [],
     "dialogue": [],
@@ -30684,19 +30684,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Aunque «mineral crítico» parece una decisión individual, conviene considerar «extracción» y «refinación»."
+                "text": "Aunque «audiencia» parece una decisión individual, conviene considerar «monetización» y «plataforma»."
               },
               {
                 "id": "o2",
-                "text": "mineral crítico extracción refinación."
+                "text": "audiencia monetización plataforma."
               },
               {
                 "id": "o3",
-                "text": "Porque mineral crítico y extracción."
+                "text": "Porque audiencia y monetización."
               },
               {
                 "id": "o4",
-                "text": "refinación sin contexto decidir."
+                "text": "plataforma sin contexto decidir."
               }
             ]
           },
@@ -30707,19 +30707,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "La evidencia ayuda a interpretar «mineral crítico» antes de concluir."
+                "text": "La evidencia ayuda a interpretar «audiencia» antes de concluir."
               },
               {
                 "id": "o2",
-                "text": "La evidencia «mineral crítico» concluir antes."
+                "text": "La evidencia «audiencia» concluir antes."
               },
               {
                 "id": "o3",
-                "text": "Interpretar evidencia porque «mineral crítico»."
+                "text": "Interpretar evidencia porque «audiencia»."
               },
               {
                 "id": "o4",
-                "text": "«mineral crítico» evidencia sin."
+                "text": "«audiencia» evidencia sin."
               }
             ]
           },
@@ -30766,10 +30766,10 @@
         "type": "mcq",
         "prompt": "¿Qué oración usa la estructura de la unidad para hablar del Reading?",
         "options": [
-          "Aunque «mineral crítico» parece una decisión individual, conviene considerar «extracción» y «refinación».",
-          "mineral crítico extracción refinación.",
-          "Porque mineral crítico y extracción.",
-          "refinación sin contexto decidir."
+          "Aunque «audiencia» parece una decisión individual, conviene considerar «monetización» y «plataforma».",
+          "audiencia monetización plataforma.",
+          "Porque audiencia y monetización.",
+          "plataforma sin contexto decidir."
         ],
         "explanation": "La primera opción relaciona la estructura gramatical con el tema y el vocabulario de la lección."
       },
@@ -30777,10 +30777,10 @@
         "type": "mcq",
         "prompt": "¿Qué opción mantiene mejor el sentido del texto?",
         "options": [
-          "La evidencia ayuda a interpretar «mineral crítico» antes de concluir.",
-          "La evidencia «mineral crítico» concluir antes.",
-          "Interpretar evidencia porque «mineral crítico».",
-          "«mineral crítico» evidencia sin."
+          "La evidencia ayuda a interpretar «audiencia» antes de concluir.",
+          "La evidencia «audiencia» concluir antes.",
+          "Interpretar evidencia porque «audiencia».",
+          "«audiencia» evidencia sin."
         ],
         "explanation": "La primera opción presenta una relación lógica y una idea completa."
       },
@@ -31364,7 +31364,7 @@
     "level": "C1",
     "skill": "vocabulary",
     "unitId": "diversidad-del-espanol",
-    "title": "Vocabulario · Lenguas, acentos y pertenencia",
+    "title": "Vocabulario · Dormimos menos que nunca: el costo invisible del cansancio",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
@@ -31377,50 +31377,50 @@
     "phrases": [],
     "vocabulary": [
       {
-        "word": "variedad",
-        "translation": "English support: variedad",
-        "definition": "Término clave para comprender «Una lengua común no exige una sola voz» y analizar comparar usos de comunidades hispanohablantes.",
-        "example": "Aunque «variedad» parece una decisión individual, conviene considerar «rasgo» y «hablante». Esta frase sitúa «variedad» dentro del tema de la unidad.",
+        "word": "sueño",
+        "translation": "English support: sueño",
+        "definition": "Término clave para comprender «Dormimos menos que nunca: el costo invisible del cansancio» y analizar explorar cómo el descanso insuficiente afecta decisiones y relaciones.",
+        "example": "Aunque «sueño» parece una decisión individual, conviene considerar «agotamiento» y «rutina». Esta frase sitúa «sueño» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 1
       },
       {
-        "word": "rasgo",
-        "translation": "English support: rasgo",
-        "definition": "Término clave para comprender «Una lengua común no exige una sola voz» y analizar comparar usos de comunidades hispanohablantes.",
-        "example": "Aunque «variedad» parece una decisión individual, conviene considerar «rasgo» y «hablante». Esta frase sitúa «rasgo» dentro del tema de la unidad.",
+        "word": "agotamiento",
+        "translation": "English support: agotamiento",
+        "definition": "Término clave para comprender «Dormimos menos que nunca: el costo invisible del cansancio» y analizar explorar cómo el descanso insuficiente afecta decisiones y relaciones.",
+        "example": "Aunque «sueño» parece una decisión individual, conviene considerar «agotamiento» y «rutina». Esta frase sitúa «agotamiento» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 2
       },
       {
-        "word": "hablante",
-        "translation": "English support: hablante",
-        "definition": "Término clave para comprender «Una lengua común no exige una sola voz» y analizar comparar usos de comunidades hispanohablantes.",
-        "example": "Aunque «variedad» parece una decisión individual, conviene considerar «rasgo» y «hablante». Esta frase sitúa «hablante» dentro del tema de la unidad.",
+        "word": "rutina",
+        "translation": "English support: rutina",
+        "definition": "Término clave para comprender «Dormimos menos que nunca: el costo invisible del cansancio» y analizar explorar cómo el descanso insuficiente afecta decisiones y relaciones.",
+        "example": "Aunque «sueño» parece una decisión individual, conviene considerar «agotamiento» y «rutina». Esta frase sitúa «rutina» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 3
       },
       {
-        "word": "prestigio",
-        "translation": "English support: prestigio",
-        "definition": "Término clave para comprender «Una lengua común no exige una sola voz» y analizar comparar usos de comunidades hispanohablantes.",
-        "example": "Aunque «variedad» parece una decisión individual, conviene considerar «rasgo» y «hablante». Esta frase sitúa «prestigio» dentro del tema de la unidad.",
+        "word": "recuperación",
+        "translation": "English support: recuperación",
+        "definition": "Término clave para comprender «Dormimos menos que nunca: el costo invisible del cansancio» y analizar explorar cómo el descanso insuficiente afecta decisiones y relaciones.",
+        "example": "Aunque «sueño» parece una decisión individual, conviene considerar «agotamiento» y «rutina». Esta frase sitúa «recuperación» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 4
       },
       {
-        "word": "regionalismo",
-        "translation": "English support: regionalismo",
-        "definition": "Término clave para comprender «Una lengua común no exige una sola voz» y analizar comparar usos de comunidades hispanohablantes.",
-        "example": "Aunque «variedad» parece una decisión individual, conviene considerar «rasgo» y «hablante». Esta frase sitúa «regionalismo» dentro del tema de la unidad.",
+        "word": "atención",
+        "translation": "English support: atención",
+        "definition": "Término clave para comprender «Dormimos menos que nunca: el costo invisible del cansancio» y analizar explorar cómo el descanso insuficiente afecta decisiones y relaciones.",
+        "example": "Aunque «sueño» parece una decisión individual, conviene considerar «agotamiento» y «rutina». Esta frase sitúa «atención» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 5
       },
       {
-        "word": "adecuación",
-        "translation": "English support: adecuación",
-        "definition": "Término clave para comprender «Una lengua común no exige una sola voz» y analizar comparar usos de comunidades hispanohablantes.",
-        "example": "Aunque «variedad» parece una decisión individual, conviene considerar «rasgo» y «hablante». Esta frase sitúa «adecuación» dentro del tema de la unidad.",
+        "word": "bienestar",
+        "translation": "English support: bienestar",
+        "definition": "Término clave para comprender «Dormimos menos que nunca: el costo invisible del cansancio» y analizar explorar cómo el descanso insuficiente afecta decisiones y relaciones.",
+        "example": "Aunque «sueño» parece una decisión individual, conviene considerar «agotamiento» y «rutina». Esta frase sitúa «bienestar» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 6
       }
@@ -31432,69 +31432,69 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Lenguas, acentos y pertenencia»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Dormimos menos que nunca: el costo invisible del cansancio»?",
         "options": [
           "desayuno",
-          "variedad",
+          "sueño",
           "zapato",
           "ventana"
         ],
-        "explanation": "«variedad» forma parte del vocabulario de esta unidad."
+        "explanation": "«sueño» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Lenguas, acentos y pertenencia»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Dormimos menos que nunca: el costo invisible del cansancio»?",
         "options": [
           "desayuno",
-          "rasgo",
+          "agotamiento",
           "zapato",
           "ventana"
         ],
-        "explanation": "«rasgo» forma parte del vocabulario de esta unidad."
+        "explanation": "«agotamiento» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Lenguas, acentos y pertenencia»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Dormimos menos que nunca: el costo invisible del cansancio»?",
         "options": [
           "desayuno",
-          "hablante",
+          "rutina",
           "zapato",
           "ventana"
         ],
-        "explanation": "«hablante» forma parte del vocabulario de esta unidad."
+        "explanation": "«rutina» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Lenguas, acentos y pertenencia»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Dormimos menos que nunca: el costo invisible del cansancio»?",
         "options": [
           "desayuno",
-          "prestigio",
+          "recuperación",
           "zapato",
           "ventana"
         ],
-        "explanation": "«prestigio» forma parte del vocabulario de esta unidad."
+        "explanation": "«recuperación» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Lenguas, acentos y pertenencia»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Dormimos menos que nunca: el costo invisible del cansancio»?",
         "options": [
           "desayuno",
-          "regionalismo",
+          "atención",
           "zapato",
           "ventana"
         ],
-        "explanation": "«regionalismo» forma parte del vocabulario de esta unidad."
+        "explanation": "«atención» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Lenguas, acentos y pertenencia»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Dormimos menos que nunca: el costo invisible del cansancio»?",
         "options": [
           "desayuno",
-          "adecuación",
+          "bienestar",
           "zapato",
           "ventana"
         ],
-        "explanation": "«adecuación» forma parte del vocabulario de esta unidad."
+        "explanation": "«bienestar» forma parte del vocabulario de esta unidad."
       }
     ]
   },
@@ -31503,7 +31503,7 @@
     "level": "C2",
     "skill": "vocabulary",
     "unitId": "estetica-y-interpretacion",
-    "title": "Vocabulario · La transición verde también extrae",
+    "title": "Vocabulario · La economía de los creadores: cómo YouTube, TikTok y Spotify generan millones",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
@@ -31516,50 +31516,50 @@
     "phrases": [],
     "vocabulary": [
       {
-        "word": "mineral crítico",
-        "translation": "English support: mineral crítico",
-        "definition": "Término clave para comprender «La transición verde también extrae» y analizar comparar narrativas sobre baterías, minerales críticos y energías limpias.",
-        "example": "Aunque «mineral crítico» parece una decisión individual, conviene considerar «extracción» y «refinación». Esta frase sitúa «mineral crítico» dentro del tema de la unidad.",
-        "partOfSpeech": "locución",
+        "word": "audiencia",
+        "translation": "English support: audiencia",
+        "definition": "Término clave para comprender «La economía de los creadores: cómo YouTube, TikTok y Spotify generan millones» y analizar investigar quién gana y quién depende de las plataformas de contenido.",
+        "example": "Aunque «audiencia» parece una decisión individual, conviene considerar «monetización» y «plataforma». Esta frase sitúa «audiencia» dentro del tema de la unidad.",
+        "partOfSpeech": "sustantivo",
         "unitOrder": 1
       },
       {
-        "word": "extracción",
-        "translation": "English support: extracción",
-        "definition": "Término clave para comprender «La transición verde también extrae» y analizar comparar narrativas sobre baterías, minerales críticos y energías limpias.",
-        "example": "Aunque «mineral crítico» parece una decisión individual, conviene considerar «extracción» y «refinación». Esta frase sitúa «extracción» dentro del tema de la unidad.",
+        "word": "monetización",
+        "translation": "English support: monetización",
+        "definition": "Término clave para comprender «La economía de los creadores: cómo YouTube, TikTok y Spotify generan millones» y analizar investigar quién gana y quién depende de las plataformas de contenido.",
+        "example": "Aunque «audiencia» parece una decisión individual, conviene considerar «monetización» y «plataforma». Esta frase sitúa «monetización» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 2
       },
       {
-        "word": "refinación",
-        "translation": "English support: refinación",
-        "definition": "Término clave para comprender «La transición verde también extrae» y analizar comparar narrativas sobre baterías, minerales críticos y energías limpias.",
-        "example": "Aunque «mineral crítico» parece una decisión individual, conviene considerar «extracción» y «refinación». Esta frase sitúa «refinación» dentro del tema de la unidad.",
+        "word": "plataforma",
+        "translation": "English support: plataforma",
+        "definition": "Término clave para comprender «La economía de los creadores: cómo YouTube, TikTok y Spotify generan millones» y analizar investigar quién gana y quién depende de las plataformas de contenido.",
+        "example": "Aunque «audiencia» parece una decisión individual, conviene considerar «monetización» y «plataforma». Esta frase sitúa «plataforma» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 3
       },
       {
-        "word": "transición",
-        "translation": "English support: transición",
-        "definition": "Término clave para comprender «La transición verde también extrae» y analizar comparar narrativas sobre baterías, minerales críticos y energías limpias.",
-        "example": "Aunque «mineral crítico» parece una decisión individual, conviene considerar «extracción» y «refinación». Esta frase sitúa «transición» dentro del tema de la unidad.",
+        "word": "patrocinio",
+        "translation": "English support: patrocinio",
+        "definition": "Término clave para comprender «La economía de los creadores: cómo YouTube, TikTok y Spotify generan millones» y analizar investigar quién gana y quién depende de las plataformas de contenido.",
+        "example": "Aunque «audiencia» parece una decisión individual, conviene considerar «monetización» y «plataforma». Esta frase sitúa «patrocinio» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 4
       },
       {
-        "word": "territorio",
-        "translation": "English support: territorio",
-        "definition": "Término clave para comprender «La transición verde también extrae» y analizar comparar narrativas sobre baterías, minerales críticos y energías limpias.",
-        "example": "Aunque «mineral crítico» parece una decisión individual, conviene considerar «extracción» y «refinación». Esta frase sitúa «territorio» dentro del tema de la unidad.",
+        "word": "alcance",
+        "translation": "English support: alcance",
+        "definition": "Término clave para comprender «La economía de los creadores: cómo YouTube, TikTok y Spotify generan millones» y analizar investigar quién gana y quién depende de las plataformas de contenido.",
+        "example": "Aunque «audiencia» parece una decisión individual, conviene considerar «monetización» y «plataforma». Esta frase sitúa «alcance» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 5
       },
       {
-        "word": "trazabilidad",
-        "translation": "English support: trazabilidad",
-        "definition": "Término clave para comprender «La transición verde también extrae» y analizar comparar narrativas sobre baterías, minerales críticos y energías limpias.",
-        "example": "Aunque «mineral crítico» parece una decisión individual, conviene considerar «extracción» y «refinación». Esta frase sitúa «trazabilidad» dentro del tema de la unidad.",
+        "word": "precariedad",
+        "translation": "English support: precariedad",
+        "definition": "Término clave para comprender «La economía de los creadores: cómo YouTube, TikTok y Spotify generan millones» y analizar investigar quién gana y quién depende de las plataformas de contenido.",
+        "example": "Aunque «audiencia» parece una decisión individual, conviene considerar «monetización» y «plataforma». Esta frase sitúa «precariedad» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 6
       }
@@ -31571,69 +31571,69 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «La transición verde también extrae»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «La economía de los creadores: cómo YouTube, TikTok y Spotify generan millones»?",
         "options": [
           "desayuno",
-          "mineral crítico",
+          "audiencia",
           "zapato",
           "ventana"
         ],
-        "explanation": "«mineral crítico» forma parte del vocabulario de esta unidad."
+        "explanation": "«audiencia» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «La transición verde también extrae»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «La economía de los creadores: cómo YouTube, TikTok y Spotify generan millones»?",
         "options": [
           "desayuno",
-          "extracción",
+          "monetización",
           "zapato",
           "ventana"
         ],
-        "explanation": "«extracción» forma parte del vocabulario de esta unidad."
+        "explanation": "«monetización» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «La transición verde también extrae»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «La economía de los creadores: cómo YouTube, TikTok y Spotify generan millones»?",
         "options": [
           "desayuno",
-          "refinación",
+          "plataforma",
           "zapato",
           "ventana"
         ],
-        "explanation": "«refinación» forma parte del vocabulario de esta unidad."
+        "explanation": "«plataforma» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «La transición verde también extrae»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «La economía de los creadores: cómo YouTube, TikTok y Spotify generan millones»?",
         "options": [
           "desayuno",
-          "transición",
+          "patrocinio",
           "zapato",
           "ventana"
         ],
-        "explanation": "«transición» forma parte del vocabulario de esta unidad."
+        "explanation": "«patrocinio» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «La transición verde también extrae»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «La economía de los creadores: cómo YouTube, TikTok y Spotify generan millones»?",
         "options": [
           "desayuno",
-          "territorio",
+          "alcance",
           "zapato",
           "ventana"
         ],
-        "explanation": "«territorio» forma parte del vocabulario de esta unidad."
+        "explanation": "«alcance» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «La transición verde también extrae»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «La economía de los creadores: cómo YouTube, TikTok y Spotify generan millones»?",
         "options": [
           "desayuno",
-          "trazabilidad",
+          "precariedad",
           "zapato",
           "ventana"
         ],
-        "explanation": "«trazabilidad» forma parte del vocabulario de esta unidad."
+        "explanation": "«precariedad» forma parte del vocabulario de esta unidad."
       }
     ]
   },
@@ -32003,22 +32003,22 @@
     "level": "C1",
     "skill": "reading",
     "unitId": "diplomacia-y-negociacion",
-    "title": "Discrepar sin dejar de escuchar",
+    "title": "La presión mental detrás del deporte de alto rendimiento",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 90,
     "estimatedMinutes": 18,
-    "description": "análisis cívico: negociar en tiempos de polarización.",
+    "description": "entrevista: la presión mental detrás del deporte de alto rendimiento.",
     "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
-    "mission": "Reformular posiciones y construir criterios verificables",
+    "mission": "Reconocer el vínculo entre rendimiento, expectativas y salud mental",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Discrepar sin dejar de escuchar",
-      "text": "En debates públicos polarizados, el desacuerdo suele presentarse como una prueba de lealtad a un bando.\n\nUna negociación seria no pide fingir que no hay conflicto: obliga a separar posiciones, intereses, datos verificables y condiciones mínimas para cualquier acuerdo.\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «concesión», «mediación» y «desacuerdo» no son adornos: permiten describir el problema con mayor precisión.\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, atenuación y cortesía avanzada ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.\n\nEsto tiene consecuencias prácticas. Las decisiones sobre analizar desacuerdos públicos sin reducirlos a bandos deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: reformular posiciones y construir criterios verificables. Hablar de mediación, criterios compartidos y rendición de cuentas supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.",
+      "title": "La presión mental detrás del deporte de alto rendimiento",
+      "text": "En debates públicos polarizados, el desacuerdo suele presentarse como una prueba de lealtad a un bando.\n\nUna negociación seria no pide fingir que no hay conflicto: obliga a separar posiciones, intereses, datos verificables y condiciones mínimas para cualquier acuerdo.\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «presión», «rendimiento» y «expectativa» no son adornos: permiten describir el problema con mayor precisión.\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, atenuación y cortesía avanzada ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.\n\nEsto tiene consecuencias prácticas. Las decisiones sobre escuchar la experiencia de un atleta frente a la exigencia constante deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: reconocer el vínculo entre rendimiento, expectativas y salud mental. Hablar de mediación, criterios compartidos y rendición de cuentas supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.",
       "questions": [
         "¿Cuál es el problema central que analiza la lectura?",
         "¿Qué exige el texto antes de aceptar una conclusión?",
@@ -32098,22 +32098,22 @@
     "level": "C2",
     "skill": "reading",
     "unitId": "discurso-cientifico",
-    "title": "El deporte y las apuestas en línea",
+    "title": "Sobrevivir a un desastre natural: decisiones que salvan vidas",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 90,
     "estimatedMinutes": 18,
-    "description": "artículo de salud pública: el deporte y las apuestas en línea.",
+    "description": "historia real: sobrevivir a un desastre natural: decisiones que salvan vidas.",
     "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
-    "mission": "Distinguir entretenimiento, probabilidad, publicidad y daño potencial",
+    "mission": "Explicar preparación, comunicación y cooperación bajo presión",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "El deporte y las apuestas en línea",
-      "text": "La neuroplasticidad adulta se usa a menudo como una promesa absoluta: aprender siempre sería fácil si se aplica la técnica correcta.\n\nLa evidencia es más interesante y más exigente: el cerebro conserva capacidad de cambio, pero los resultados dependen de experiencia, práctica, condiciones de vida y tarea.\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «cuota», «apuesta» y «riesgo» no son adornos: permiten describir el problema con mayor precisión.\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, reformulación explicativa y cautela ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.\n\nHay además una dificultad de segundo orden: los marcos con que se mide el problema pueden inclinar la conclusión. Un indicador hace visible una parte de la realidad y puede dejar otra fuera; una fuente autorizada merece atención, pero no elimina la necesidad de examinar su método, su alcance y sus intereses. El lector experto no busca una neutralidad imposible, sino criterios explícitos para comparar argumentos.\n\nEsto tiene consecuencias prácticas. Las decisiones sobre comunicar los riesgos de normalizar apuestas dentro del ocio deportivo deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: distinguir entretenimiento, probabilidad, publicidad y daño potencial. Hablar de divulgación rigurosa y límites de la evidencia supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.",
+      "title": "Sobrevivir a un desastre natural: decisiones que salvan vidas",
+      "text": "La neuroplasticidad adulta se usa a menudo como una promesa absoluta: aprender siempre sería fácil si se aplica la técnica correcta.\n\nLa evidencia es más interesante y más exigente: el cerebro conserva capacidad de cambio, pero los resultados dependen de experiencia, práctica, condiciones de vida y tarea.\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «evacuación», «alerta» y «refugio» no son adornos: permiten describir el problema con mayor precisión.\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, reformulación explicativa y cautela ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.\n\nHay además una dificultad de segundo orden: los marcos con que se mide el problema pueden inclinar la conclusión. Un indicador hace visible una parte de la realidad y puede dejar otra fuera; una fuente autorizada merece atención, pero no elimina la necesidad de examinar su método, su alcance y sus intereses. El lector experto no busca una neutralidad imposible, sino criterios explícitos para comparar argumentos.\n\nEsto tiene consecuencias prácticas. Las decisiones sobre reconstruir decisiones críticas durante una emergencia real deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: explicar preparación, comunicación y cooperación bajo presión. Hablar de divulgación rigurosa y límites de la evidencia supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.",
       "questions": [
         "¿Cuál es el problema central que analiza la lectura?",
         "¿Qué exige el texto antes de aceptar una conclusión?",
@@ -32903,33 +32903,33 @@
     "level": "C1",
     "skill": "listening",
     "unitId": "diplomacia-y-negociacion",
-    "title": "Escucha · Discrepar sin dejar de escuchar",
+    "title": "Escucha · La presión mental detrás del deporte de alto rendimiento",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
     "orderIndex": 91,
     "estimatedMinutes": 14,
-    "description": "Crónica de audio conectada con el Reading «Discrepar sin dejar de escuchar».",
+    "description": "Entrevista sobre «La presión mental detrás del deporte de alto rendimiento».",
     "intro": "Escucha una adaptación integral del tema antes de consultar la transcripción.",
     "mission": "Reconoce cómo el vocabulario y atenuación y cortesía avanzada organizan una explicación oral compleja.",
     "grammar": "",
     "phrases": [
-      "concesión",
-      "mediación",
-      "desacuerdo",
-      "Aunque «concesión» parece una decisión individual, conviene considerar «mediación» y «desacuerdo»."
+      "presión",
+      "rendimiento",
+      "expectativa",
+      "Aunque «presión» parece una decisión individual, conviene considerar «rendimiento» y «expectativa»."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "En debates públicos polarizados, el desacuerdo suele presentarse como una prueba de lealtad a un bando. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «concesión», «mediación» y «desacuerdo». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «concesión» parece una decisión individual, conviene considerar «mediación» y «desacuerdo». Desde esta perspectiva, reformular posiciones y construir criterios verificables no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de negociar en tiempos de polarización implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«margen», «compromiso» y «postura»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «mediación pública», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada.",
+    "transcript": "Cuando vemos a un atleta ganar, solemos mirar el resultado final. Detrás hay una presión menos visible: lesiones, expectativas ajenas, miedo a fallar y la dificultad de descansar cuando el rendimiento define la identidad. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «presión», «rendimiento» y «expectativa». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «presión» parece una decisión individual, conviene considerar «rendimiento» y «expectativa». Desde esta perspectiva, reconocer el vínculo entre rendimiento, expectativas y salud mental no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de la presión mental detrás del deporte de alto rendimiento implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«lesión», «equilibrio» y «acompañamiento»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «entrevista», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En escuchar la experiencia de un atleta frente a la exigencia constante, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «presión», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
     "extra": {
       "listeningType": "story",
       "difficulty": "C1",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "En debates públicos polarizados, el desacuerdo suele presentarse como una prueba de lealtad a un bando. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «concesión», «mediación» y «desacuerdo». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «concesión» parece una decisión individual, conviene considerar «mediación» y «desacuerdo». Desde esta perspectiva, reformular posiciones y construir criterios verificables no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de negociar en tiempos de polarización implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«margen», «compromiso» y «postura»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «mediación pública», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada.",
+      "transcript": "Cuando vemos a un atleta ganar, solemos mirar el resultado final. Detrás hay una presión menos visible: lesiones, expectativas ajenas, miedo a fallar y la dificultad de descansar cuando el rendimiento define la identidad. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «presión», «rendimiento» y «expectativa». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «presión» parece una decisión individual, conviene considerar «rendimiento» y «expectativa». Desde esta perspectiva, reconocer el vínculo entre rendimiento, expectativas y salud mental no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de la presión mental detrás del deporte de alto rendimiento implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«lesión», «equilibrio» y «acompañamiento»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «entrevista», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En escuchar la experiencia de un atleta frente a la exigencia constante, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «presión», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
       "listeningComprehension": {
         "id": "spanish-c1-diplomacia-y-negociacion-listening-comprehension",
         "passingScore": 70,
@@ -33082,33 +33082,33 @@
     "level": "C2",
     "skill": "listening",
     "unitId": "discurso-cientifico",
-    "title": "Escucha · El deporte y las apuestas en línea",
+    "title": "Escucha · Sobrevivir a un desastre natural: decisiones que salvan vidas",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
     "orderIndex": 91,
     "estimatedMinutes": 14,
-    "description": "Crónica de audio conectada con el Reading «El deporte y las apuestas en línea».",
+    "description": "Historia real sobre «Sobrevivir a un desastre natural: decisiones que salvan vidas».",
     "intro": "Escucha una adaptación integral del tema antes de consultar la transcripción.",
     "mission": "Reconoce cómo el vocabulario y reformulación explicativa y cautela organizan una explicación oral compleja.",
     "grammar": "",
     "phrases": [
-      "cuota",
-      "apuesta",
-      "riesgo",
-      "Aunque «cuota» parece una decisión individual, conviene considerar «apuesta» y «riesgo»."
+      "evacuación",
+      "alerta",
+      "refugio",
+      "Aunque «evacuación» parece una decisión individual, conviene considerar «alerta» y «refugio»."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "La neuroplasticidad adulta se usa a menudo como una promesa absoluta: aprender siempre sería fácil si se aplica la técnica correcta. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «cuota», «apuesta» y «riesgo». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «cuota» parece una decisión individual, conviene considerar «apuesta» y «riesgo». Desde esta perspectiva, distinguir entretenimiento, probabilidad, publicidad y daño potencial no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de el deporte y las apuestas en línea implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«publicidad», «adicción» y «regulación»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «cápsula científica», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada.",
+    "transcript": "En un desastre natural, una decisión tomada a tiempo puede salvar una vida. Pero esas decisiones no nacen del heroísmo individual: dependen de alertas claras, preparación previa, información confiable y personas dispuestas a coordinarse. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «evacuación», «alerta» y «refugio». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «evacuación» parece una decisión individual, conviene considerar «alerta» y «refugio». Desde esta perspectiva, explicar preparación, comunicación y cooperación bajo presión no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de sobrevivir a un desastre natural: decisiones que salvan vidas implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«riesgo», «coordinación» y «resiliencia»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «historia real», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En reconstruir decisiones críticas durante una emergencia real, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «evacuación», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
     "extra": {
       "listeningType": "story",
       "difficulty": "C2",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "La neuroplasticidad adulta se usa a menudo como una promesa absoluta: aprender siempre sería fácil si se aplica la técnica correcta. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «cuota», «apuesta» y «riesgo». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «cuota» parece una decisión individual, conviene considerar «apuesta» y «riesgo». Desde esta perspectiva, distinguir entretenimiento, probabilidad, publicidad y daño potencial no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de el deporte y las apuestas en línea implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«publicidad», «adicción» y «regulación»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «cápsula científica», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada.",
+      "transcript": "En un desastre natural, una decisión tomada a tiempo puede salvar una vida. Pero esas decisiones no nacen del heroísmo individual: dependen de alertas claras, preparación previa, información confiable y personas dispuestas a coordinarse. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «evacuación», «alerta» y «refugio». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «evacuación» parece una decisión individual, conviene considerar «alerta» y «refugio». Desde esta perspectiva, explicar preparación, comunicación y cooperación bajo presión no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de sobrevivir a un desastre natural: decisiones que salvan vidas implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«riesgo», «coordinación» y «resiliencia»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «historia real», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En reconstruir decisiones críticas durante una emergencia real, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «evacuación», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
       "listeningComprehension": {
         "id": "spanish-c2-discurso-cientifico-listening-comprehension",
         "passingScore": 70,
@@ -33458,14 +33458,14 @@
     "level": "C1",
     "skill": "speaking",
     "unitId": "diplomacia-y-negociacion",
-    "title": "Habla · Negociar en tiempos de polarización",
+    "title": "Habla · La presión mental detrás del deporte de alto rendimiento",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
     "orderIndex": 92,
     "estimatedMinutes": 14,
     "description": "Responde oralmente dentro del escenario de la unidad.",
-    "intro": "Analizar desacuerdos públicos sin reducirlos a bandos",
+    "intro": "Escuchar la experiencia de un atleta frente a la exigencia constante",
     "mission": "Graba una respuesta de 45–90 segundos: presenta tu propuesta, justifica dos razones y reconoce una posible dificultad.",
     "grammar": "",
     "phrases": [
@@ -33478,7 +33478,7 @@
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "¿Qué propones ante esta situación: analizar desacuerdos públicos sin reducirlos a bandos?",
+        "line": "¿Qué propones ante esta situación: escuchar la experiencia de un atleta frente a la exigencia constante?",
         "translation": "What do you propose in this situation?"
       },
       {
@@ -33493,11 +33493,11 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Explica cómo resolverías este reto: Analizar desacuerdos públicos sin reducirlos a bandos."
+        "prompt": "Explica cómo resolverías este reto: Escuchar la experiencia de un atleta frente a la exigencia constante."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos palabras: concesión, mediación, desacuerdo."
+        "prompt": "Usa al menos dos palabras: presión, rendimiento, expectativa."
       }
     ]
   },
@@ -33506,14 +33506,14 @@
     "level": "C2",
     "skill": "speaking",
     "unitId": "discurso-cientifico",
-    "title": "Habla · El deporte y las apuestas en línea",
+    "title": "Habla · Sobrevivir a un desastre natural: decisiones que salvan vidas",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
     "orderIndex": 92,
     "estimatedMinutes": 14,
     "description": "Responde oralmente dentro del escenario de la unidad.",
-    "intro": "Comunicar los riesgos de normalizar apuestas dentro del ocio deportivo",
+    "intro": "Reconstruir decisiones críticas durante una emergencia real",
     "mission": "Graba una respuesta de 45–90 segundos: presenta tu propuesta, justifica dos razones y reconoce una posible dificultad.",
     "grammar": "",
     "phrases": [
@@ -33526,7 +33526,7 @@
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "¿Qué propones ante esta situación: comunicar los riesgos de normalizar apuestas dentro del ocio deportivo?",
+        "line": "¿Qué propones ante esta situación: reconstruir decisiones críticas durante una emergencia real?",
         "translation": "What do you propose in this situation?"
       },
       {
@@ -33541,11 +33541,11 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Explica cómo resolverías este reto: Comunicar los riesgos de normalizar apuestas dentro del ocio deportivo."
+        "prompt": "Explica cómo resolverías este reto: Reconstruir decisiones críticas durante una emergencia real."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos palabras: cuota, apuesta, riesgo."
+        "prompt": "Usa al menos dos palabras: evacuación, alerta, refugio."
       }
     ]
   },
@@ -33692,7 +33692,7 @@
     "level": "C1",
     "skill": "writing",
     "unitId": "diplomacia-y-negociacion",
-    "title": "Escribe · Negociar en tiempos de polarización",
+    "title": "Escribe · La presión mental detrás del deporte de alto rendimiento",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
@@ -33700,7 +33700,7 @@
     "estimatedMinutes": 18,
     "description": "Produce un texto conectado con la misión de la unidad.",
     "intro": "Planifica, redacta y revisa antes de enviar tu texto.",
-    "mission": "Escribe 230–300 palabras sobre «Analizar desacuerdos públicos sin reducirlos a bandos». Incluye una idea principal, razones y una conclusión.",
+    "mission": "Escribe 230–300 palabras sobre «Escuchar la experiencia de un atleta frente a la exigencia constante». Incluye una idea principal, razones y una conclusión.",
     "grammar": "atenuación y cortesía avanzada",
     "phrases": [
       "En primer lugar…",
@@ -33716,7 +33716,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Redacta una respuesta organizada para: Analizar desacuerdos públicos sin reducirlos a bandos."
+        "prompt": "Redacta una respuesta organizada para: Escuchar la experiencia de un atleta frente a la exigencia constante."
       }
     ]
   },
@@ -33725,7 +33725,7 @@
     "level": "C2",
     "skill": "writing",
     "unitId": "discurso-cientifico",
-    "title": "Escribe · El deporte y las apuestas en línea",
+    "title": "Escribe · Sobrevivir a un desastre natural: decisiones que salvan vidas",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
@@ -33733,7 +33733,7 @@
     "estimatedMinutes": 18,
     "description": "Produce un texto conectado con la misión de la unidad.",
     "intro": "Planifica, redacta y revisa antes de enviar tu texto.",
-    "mission": "Escribe 230–300 palabras sobre «Comunicar los riesgos de normalizar apuestas dentro del ocio deportivo». Incluye una idea principal, razones y una conclusión.",
+    "mission": "Escribe 230–300 palabras sobre «Reconstruir decisiones críticas durante una emergencia real». Incluye una idea principal, razones y una conclusión.",
     "grammar": "reformulación explicativa y cautela",
     "phrases": [
       "En primer lugar…",
@@ -33749,7 +33749,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Redacta una respuesta organizada para: Comunicar los riesgos de normalizar apuestas dentro del ocio deportivo."
+        "prompt": "Redacta una respuesta organizada para: Reconstruir decisiones críticas durante una emergencia real."
       }
     ]
   },
@@ -34349,14 +34349,14 @@
     "xpReward": 30,
     "orderIndex": 94,
     "estimatedMinutes": 14,
-    "description": "Aplica la forma gramatical dentro del tema «Negociar en tiempos de polarización».",
+    "description": "Aplica la forma gramatical dentro del tema «La presión mental detrás del deporte de alto rendimiento».",
     "intro": "Observa cómo la gramática cambia la precisión y el matiz.",
     "mission": "Usa atenuación y cortesía avanzada para explicar y justificar una propuesta.",
-    "grammar": "Foco: atenuación y cortesía avanzada.\n\nUso: permite explicar el tema «Discrepar sin dejar de escuchar» con precisión y matiz.\n\nModelo: Aunque «concesión» parece una decisión individual, conviene considerar «mediación» y «desacuerdo».",
+    "grammar": "Foco: atenuación y cortesía avanzada.\n\nUso: permite explicar el tema «La presión mental detrás del deporte de alto rendimiento» con precisión y matiz.\n\nModelo: Aunque «presión» parece una decisión individual, conviene considerar «rendimiento» y «expectativa».",
     "phrases": [
-      "Aunque «concesión» parece una decisión individual, conviene considerar «mediación» y «desacuerdo».",
-      "El texto relaciona «concesión» con «mediación».",
-      "Antes de concluir, conviene revisar «desacuerdo»."
+      "Aunque «presión» parece una decisión individual, conviene considerar «rendimiento» y «expectativa».",
+      "El texto relaciona «presión» con «rendimiento».",
+      "Antes de concluir, conviene revisar «expectativa»."
     ],
     "vocabulary": [],
     "dialogue": [],
@@ -34397,19 +34397,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Aunque «concesión» parece una decisión individual, conviene considerar «mediación» y «desacuerdo»."
+                "text": "Aunque «presión» parece una decisión individual, conviene considerar «rendimiento» y «expectativa»."
               },
               {
                 "id": "o2",
-                "text": "concesión mediación desacuerdo."
+                "text": "presión rendimiento expectativa."
               },
               {
                 "id": "o3",
-                "text": "Porque concesión y mediación."
+                "text": "Porque presión y rendimiento."
               },
               {
                 "id": "o4",
-                "text": "desacuerdo sin contexto decidir."
+                "text": "expectativa sin contexto decidir."
               }
             ]
           },
@@ -34420,19 +34420,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "La evidencia ayuda a interpretar «concesión» antes de concluir."
+                "text": "La evidencia ayuda a interpretar «presión» antes de concluir."
               },
               {
                 "id": "o2",
-                "text": "La evidencia «concesión» concluir antes."
+                "text": "La evidencia «presión» concluir antes."
               },
               {
                 "id": "o3",
-                "text": "Interpretar evidencia porque «concesión»."
+                "text": "Interpretar evidencia porque «presión»."
               },
               {
                 "id": "o4",
-                "text": "«concesión» evidencia sin."
+                "text": "«presión» evidencia sin."
               }
             ]
           },
@@ -34479,10 +34479,10 @@
         "type": "mcq",
         "prompt": "¿Qué oración usa la estructura de la unidad para hablar del Reading?",
         "options": [
-          "Aunque «concesión» parece una decisión individual, conviene considerar «mediación» y «desacuerdo».",
-          "concesión mediación desacuerdo.",
-          "Porque concesión y mediación.",
-          "desacuerdo sin contexto decidir."
+          "Aunque «presión» parece una decisión individual, conviene considerar «rendimiento» y «expectativa».",
+          "presión rendimiento expectativa.",
+          "Porque presión y rendimiento.",
+          "expectativa sin contexto decidir."
         ],
         "explanation": "La primera opción relaciona la estructura gramatical con el tema y el vocabulario de la lección."
       },
@@ -34490,10 +34490,10 @@
         "type": "mcq",
         "prompt": "¿Qué opción mantiene mejor el sentido del texto?",
         "options": [
-          "La evidencia ayuda a interpretar «concesión» antes de concluir.",
-          "La evidencia «concesión» concluir antes.",
-          "Interpretar evidencia porque «concesión».",
-          "«concesión» evidencia sin."
+          "La evidencia ayuda a interpretar «presión» antes de concluir.",
+          "La evidencia «presión» concluir antes.",
+          "Interpretar evidencia porque «presión».",
+          "«presión» evidencia sin."
         ],
         "explanation": "La primera opción presenta una relación lógica y una idea completa."
       },
@@ -34521,14 +34521,14 @@
     "xpReward": 30,
     "orderIndex": 94,
     "estimatedMinutes": 14,
-    "description": "Aplica la forma gramatical dentro del tema «El deporte y las apuestas en línea».",
+    "description": "Aplica la forma gramatical dentro del tema «Sobrevivir a un desastre natural: decisiones que salvan vidas».",
     "intro": "Observa cómo la gramática cambia la precisión y el matiz.",
     "mission": "Usa reformulación explicativa y cautela para explicar y justificar una propuesta.",
-    "grammar": "Foco: reformulación explicativa y cautela.\n\nUso: permite explicar el tema «El deporte y las apuestas en línea» con precisión y matiz.\n\nModelo: Aunque «cuota» parece una decisión individual, conviene considerar «apuesta» y «riesgo».",
+    "grammar": "Foco: reformulación explicativa y cautela.\n\nUso: permite explicar el tema «Sobrevivir a un desastre natural: decisiones que salvan vidas» con precisión y matiz.\n\nModelo: Aunque «evacuación» parece una decisión individual, conviene considerar «alerta» y «refugio».",
     "phrases": [
-      "Aunque «cuota» parece una decisión individual, conviene considerar «apuesta» y «riesgo».",
-      "El texto relaciona «cuota» con «apuesta».",
-      "Antes de concluir, conviene revisar «riesgo»."
+      "Aunque «evacuación» parece una decisión individual, conviene considerar «alerta» y «refugio».",
+      "El texto relaciona «evacuación» con «alerta».",
+      "Antes de concluir, conviene revisar «refugio»."
     ],
     "vocabulary": [],
     "dialogue": [],
@@ -34569,19 +34569,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Aunque «cuota» parece una decisión individual, conviene considerar «apuesta» y «riesgo»."
+                "text": "Aunque «evacuación» parece una decisión individual, conviene considerar «alerta» y «refugio»."
               },
               {
                 "id": "o2",
-                "text": "cuota apuesta riesgo."
+                "text": "evacuación alerta refugio."
               },
               {
                 "id": "o3",
-                "text": "Porque cuota y apuesta."
+                "text": "Porque evacuación y alerta."
               },
               {
                 "id": "o4",
-                "text": "riesgo sin contexto decidir."
+                "text": "refugio sin contexto decidir."
               }
             ]
           },
@@ -34592,19 +34592,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "La evidencia ayuda a interpretar «cuota» antes de concluir."
+                "text": "La evidencia ayuda a interpretar «evacuación» antes de concluir."
               },
               {
                 "id": "o2",
-                "text": "La evidencia «cuota» concluir antes."
+                "text": "La evidencia «evacuación» concluir antes."
               },
               {
                 "id": "o3",
-                "text": "Interpretar evidencia porque «cuota»."
+                "text": "Interpretar evidencia porque «evacuación»."
               },
               {
                 "id": "o4",
-                "text": "«cuota» evidencia sin."
+                "text": "«evacuación» evidencia sin."
               }
             ]
           },
@@ -34651,10 +34651,10 @@
         "type": "mcq",
         "prompt": "¿Qué oración usa la estructura de la unidad para hablar del Reading?",
         "options": [
-          "Aunque «cuota» parece una decisión individual, conviene considerar «apuesta» y «riesgo».",
-          "cuota apuesta riesgo.",
-          "Porque cuota y apuesta.",
-          "riesgo sin contexto decidir."
+          "Aunque «evacuación» parece una decisión individual, conviene considerar «alerta» y «refugio».",
+          "evacuación alerta refugio.",
+          "Porque evacuación y alerta.",
+          "refugio sin contexto decidir."
         ],
         "explanation": "La primera opción relaciona la estructura gramatical con el tema y el vocabulario de la lección."
       },
@@ -34662,10 +34662,10 @@
         "type": "mcq",
         "prompt": "¿Qué opción mantiene mejor el sentido del texto?",
         "options": [
-          "La evidencia ayuda a interpretar «cuota» antes de concluir.",
-          "La evidencia «cuota» concluir antes.",
-          "Interpretar evidencia porque «cuota».",
-          "«cuota» evidencia sin."
+          "La evidencia ayuda a interpretar «evacuación» antes de concluir.",
+          "La evidencia «evacuación» concluir antes.",
+          "Interpretar evidencia porque «evacuación».",
+          "«evacuación» evidencia sin."
         ],
         "explanation": "La primera opción presenta una relación lógica y una idea completa."
       },
@@ -35249,7 +35249,7 @@
     "level": "C1",
     "skill": "vocabulary",
     "unitId": "diplomacia-y-negociacion",
-    "title": "Vocabulario · Negociar en tiempos de polarización",
+    "title": "Vocabulario · La presión mental detrás del deporte de alto rendimiento",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
@@ -35262,50 +35262,50 @@
     "phrases": [],
     "vocabulary": [
       {
-        "word": "concesión",
-        "translation": "English support: concesión",
-        "definition": "Término clave para comprender «Discrepar sin dejar de escuchar» y analizar analizar desacuerdos públicos sin reducirlos a bandos.",
-        "example": "Aunque «concesión» parece una decisión individual, conviene considerar «mediación» y «desacuerdo». Esta frase sitúa «concesión» dentro del tema de la unidad.",
+        "word": "presión",
+        "translation": "English support: presión",
+        "definition": "Término clave para comprender «La presión mental detrás del deporte de alto rendimiento» y analizar escuchar la experiencia de un atleta frente a la exigencia constante.",
+        "example": "Aunque «presión» parece una decisión individual, conviene considerar «rendimiento» y «expectativa». Esta frase sitúa «presión» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 1
       },
       {
-        "word": "mediación",
-        "translation": "English support: mediación",
-        "definition": "Término clave para comprender «Discrepar sin dejar de escuchar» y analizar analizar desacuerdos públicos sin reducirlos a bandos.",
-        "example": "Aunque «concesión» parece una decisión individual, conviene considerar «mediación» y «desacuerdo». Esta frase sitúa «mediación» dentro del tema de la unidad.",
+        "word": "rendimiento",
+        "translation": "English support: rendimiento",
+        "definition": "Término clave para comprender «La presión mental detrás del deporte de alto rendimiento» y analizar escuchar la experiencia de un atleta frente a la exigencia constante.",
+        "example": "Aunque «presión» parece una decisión individual, conviene considerar «rendimiento» y «expectativa». Esta frase sitúa «rendimiento» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 2
       },
       {
-        "word": "desacuerdo",
-        "translation": "English support: desacuerdo",
-        "definition": "Término clave para comprender «Discrepar sin dejar de escuchar» y analizar analizar desacuerdos públicos sin reducirlos a bandos.",
-        "example": "Aunque «concesión» parece una decisión individual, conviene considerar «mediación» y «desacuerdo». Esta frase sitúa «desacuerdo» dentro del tema de la unidad.",
+        "word": "expectativa",
+        "translation": "English support: expectativa",
+        "definition": "Término clave para comprender «La presión mental detrás del deporte de alto rendimiento» y analizar escuchar la experiencia de un atleta frente a la exigencia constante.",
+        "example": "Aunque «presión» parece una decisión individual, conviene considerar «rendimiento» y «expectativa». Esta frase sitúa «expectativa» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 3
       },
       {
-        "word": "margen",
-        "translation": "English support: margen",
-        "definition": "Término clave para comprender «Discrepar sin dejar de escuchar» y analizar analizar desacuerdos públicos sin reducirlos a bandos.",
-        "example": "Aunque «concesión» parece una decisión individual, conviene considerar «mediación» y «desacuerdo». Esta frase sitúa «margen» dentro del tema de la unidad.",
+        "word": "lesión",
+        "translation": "English support: lesión",
+        "definition": "Término clave para comprender «La presión mental detrás del deporte de alto rendimiento» y analizar escuchar la experiencia de un atleta frente a la exigencia constante.",
+        "example": "Aunque «presión» parece una decisión individual, conviene considerar «rendimiento» y «expectativa». Esta frase sitúa «lesión» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 4
       },
       {
-        "word": "compromiso",
-        "translation": "English support: compromiso",
-        "definition": "Término clave para comprender «Discrepar sin dejar de escuchar» y analizar analizar desacuerdos públicos sin reducirlos a bandos.",
-        "example": "Aunque «concesión» parece una decisión individual, conviene considerar «mediación» y «desacuerdo». Esta frase sitúa «compromiso» dentro del tema de la unidad.",
+        "word": "equilibrio",
+        "translation": "English support: equilibrio",
+        "definition": "Término clave para comprender «La presión mental detrás del deporte de alto rendimiento» y analizar escuchar la experiencia de un atleta frente a la exigencia constante.",
+        "example": "Aunque «presión» parece una decisión individual, conviene considerar «rendimiento» y «expectativa». Esta frase sitúa «equilibrio» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 5
       },
       {
-        "word": "postura",
-        "translation": "English support: postura",
-        "definition": "Término clave para comprender «Discrepar sin dejar de escuchar» y analizar analizar desacuerdos públicos sin reducirlos a bandos.",
-        "example": "Aunque «concesión» parece una decisión individual, conviene considerar «mediación» y «desacuerdo». Esta frase sitúa «postura» dentro del tema de la unidad.",
+        "word": "acompañamiento",
+        "translation": "English support: acompañamiento",
+        "definition": "Término clave para comprender «La presión mental detrás del deporte de alto rendimiento» y analizar escuchar la experiencia de un atleta frente a la exigencia constante.",
+        "example": "Aunque «presión» parece una decisión individual, conviene considerar «rendimiento» y «expectativa». Esta frase sitúa «acompañamiento» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 6
       }
@@ -35317,69 +35317,69 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Negociar en tiempos de polarización»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «La presión mental detrás del deporte de alto rendimiento»?",
         "options": [
           "desayuno",
-          "concesión",
+          "presión",
           "zapato",
           "ventana"
         ],
-        "explanation": "«concesión» forma parte del vocabulario de esta unidad."
+        "explanation": "«presión» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Negociar en tiempos de polarización»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «La presión mental detrás del deporte de alto rendimiento»?",
         "options": [
           "desayuno",
-          "mediación",
+          "rendimiento",
           "zapato",
           "ventana"
         ],
-        "explanation": "«mediación» forma parte del vocabulario de esta unidad."
+        "explanation": "«rendimiento» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Negociar en tiempos de polarización»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «La presión mental detrás del deporte de alto rendimiento»?",
         "options": [
           "desayuno",
-          "desacuerdo",
+          "expectativa",
           "zapato",
           "ventana"
         ],
-        "explanation": "«desacuerdo» forma parte del vocabulario de esta unidad."
+        "explanation": "«expectativa» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Negociar en tiempos de polarización»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «La presión mental detrás del deporte de alto rendimiento»?",
         "options": [
           "desayuno",
-          "margen",
+          "lesión",
           "zapato",
           "ventana"
         ],
-        "explanation": "«margen» forma parte del vocabulario de esta unidad."
+        "explanation": "«lesión» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Negociar en tiempos de polarización»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «La presión mental detrás del deporte de alto rendimiento»?",
         "options": [
           "desayuno",
-          "compromiso",
+          "equilibrio",
           "zapato",
           "ventana"
         ],
-        "explanation": "«compromiso» forma parte del vocabulario de esta unidad."
+        "explanation": "«equilibrio» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Negociar en tiempos de polarización»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «La presión mental detrás del deporte de alto rendimiento»?",
         "options": [
           "desayuno",
-          "postura",
+          "acompañamiento",
           "zapato",
           "ventana"
         ],
-        "explanation": "«postura» forma parte del vocabulario de esta unidad."
+        "explanation": "«acompañamiento» forma parte del vocabulario de esta unidad."
       }
     ]
   },
@@ -35388,7 +35388,7 @@
     "level": "C2",
     "skill": "vocabulary",
     "unitId": "discurso-cientifico",
-    "title": "Vocabulario · El deporte y las apuestas en línea",
+    "title": "Vocabulario · Sobrevivir a un desastre natural: decisiones que salvan vidas",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
@@ -35401,50 +35401,50 @@
     "phrases": [],
     "vocabulary": [
       {
-        "word": "cuota",
-        "translation": "English support: cuota",
-        "definition": "Término clave para comprender «El deporte y las apuestas en línea» y analizar comunicar los riesgos de normalizar apuestas dentro del ocio deportivo.",
-        "example": "Aunque «cuota» parece una decisión individual, conviene considerar «apuesta» y «riesgo». Esta frase sitúa «cuota» dentro del tema de la unidad.",
+        "word": "evacuación",
+        "translation": "English support: evacuación",
+        "definition": "Término clave para comprender «Sobrevivir a un desastre natural: decisiones que salvan vidas» y analizar reconstruir decisiones críticas durante una emergencia real.",
+        "example": "Aunque «evacuación» parece una decisión individual, conviene considerar «alerta» y «refugio». Esta frase sitúa «evacuación» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 1
       },
       {
-        "word": "apuesta",
-        "translation": "English support: apuesta",
-        "definition": "Término clave para comprender «El deporte y las apuestas en línea» y analizar comunicar los riesgos de normalizar apuestas dentro del ocio deportivo.",
-        "example": "Aunque «cuota» parece una decisión individual, conviene considerar «apuesta» y «riesgo». Esta frase sitúa «apuesta» dentro del tema de la unidad.",
+        "word": "alerta",
+        "translation": "English support: alerta",
+        "definition": "Término clave para comprender «Sobrevivir a un desastre natural: decisiones que salvan vidas» y analizar reconstruir decisiones críticas durante una emergencia real.",
+        "example": "Aunque «evacuación» parece una decisión individual, conviene considerar «alerta» y «refugio». Esta frase sitúa «alerta» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 2
       },
       {
-        "word": "riesgo",
-        "translation": "English support: riesgo",
-        "definition": "Término clave para comprender «El deporte y las apuestas en línea» y analizar comunicar los riesgos de normalizar apuestas dentro del ocio deportivo.",
-        "example": "Aunque «cuota» parece una decisión individual, conviene considerar «apuesta» y «riesgo». Esta frase sitúa «riesgo» dentro del tema de la unidad.",
+        "word": "refugio",
+        "translation": "English support: refugio",
+        "definition": "Término clave para comprender «Sobrevivir a un desastre natural: decisiones que salvan vidas» y analizar reconstruir decisiones críticas durante una emergencia real.",
+        "example": "Aunque «evacuación» parece una decisión individual, conviene considerar «alerta» y «refugio». Esta frase sitúa «refugio» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 3
       },
       {
-        "word": "publicidad",
-        "translation": "English support: publicidad",
-        "definition": "Término clave para comprender «El deporte y las apuestas en línea» y analizar comunicar los riesgos de normalizar apuestas dentro del ocio deportivo.",
-        "example": "Aunque «cuota» parece una decisión individual, conviene considerar «apuesta» y «riesgo». Esta frase sitúa «publicidad» dentro del tema de la unidad.",
+        "word": "riesgo",
+        "translation": "English support: riesgo",
+        "definition": "Término clave para comprender «Sobrevivir a un desastre natural: decisiones que salvan vidas» y analizar reconstruir decisiones críticas durante una emergencia real.",
+        "example": "Aunque «evacuación» parece una decisión individual, conviene considerar «alerta» y «refugio». Esta frase sitúa «riesgo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 4
       },
       {
-        "word": "adicción",
-        "translation": "English support: adicción",
-        "definition": "Término clave para comprender «El deporte y las apuestas en línea» y analizar comunicar los riesgos de normalizar apuestas dentro del ocio deportivo.",
-        "example": "Aunque «cuota» parece una decisión individual, conviene considerar «apuesta» y «riesgo». Esta frase sitúa «adicción» dentro del tema de la unidad.",
+        "word": "coordinación",
+        "translation": "English support: coordinación",
+        "definition": "Término clave para comprender «Sobrevivir a un desastre natural: decisiones que salvan vidas» y analizar reconstruir decisiones críticas durante una emergencia real.",
+        "example": "Aunque «evacuación» parece una decisión individual, conviene considerar «alerta» y «refugio». Esta frase sitúa «coordinación» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 5
       },
       {
-        "word": "regulación",
-        "translation": "English support: regulación",
-        "definition": "Término clave para comprender «El deporte y las apuestas en línea» y analizar comunicar los riesgos de normalizar apuestas dentro del ocio deportivo.",
-        "example": "Aunque «cuota» parece una decisión individual, conviene considerar «apuesta» y «riesgo». Esta frase sitúa «regulación» dentro del tema de la unidad.",
+        "word": "resiliencia",
+        "translation": "English support: resiliencia",
+        "definition": "Término clave para comprender «Sobrevivir a un desastre natural: decisiones que salvan vidas» y analizar reconstruir decisiones críticas durante una emergencia real.",
+        "example": "Aunque «evacuación» parece una decisión individual, conviene considerar «alerta» y «refugio». Esta frase sitúa «resiliencia» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 6
       }
@@ -35456,29 +35456,40 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «El deporte y las apuestas en línea»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Sobrevivir a un desastre natural: decisiones que salvan vidas»?",
         "options": [
           "desayuno",
-          "cuota",
+          "evacuación",
           "zapato",
           "ventana"
         ],
-        "explanation": "«cuota» forma parte del vocabulario de esta unidad."
+        "explanation": "«evacuación» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «El deporte y las apuestas en línea»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Sobrevivir a un desastre natural: decisiones que salvan vidas»?",
         "options": [
           "desayuno",
-          "apuesta",
+          "alerta",
           "zapato",
           "ventana"
         ],
-        "explanation": "«apuesta» forma parte del vocabulario de esta unidad."
+        "explanation": "«alerta» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «El deporte y las apuestas en línea»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Sobrevivir a un desastre natural: decisiones que salvan vidas»?",
+        "options": [
+          "desayuno",
+          "refugio",
+          "zapato",
+          "ventana"
+        ],
+        "explanation": "«refugio» forma parte del vocabulario de esta unidad."
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué palabra pertenece a la unidad «Sobrevivir a un desastre natural: decisiones que salvan vidas»?",
         "options": [
           "desayuno",
           "riesgo",
@@ -35489,36 +35500,25 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «El deporte y las apuestas en línea»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Sobrevivir a un desastre natural: decisiones que salvan vidas»?",
         "options": [
           "desayuno",
-          "publicidad",
+          "coordinación",
           "zapato",
           "ventana"
         ],
-        "explanation": "«publicidad» forma parte del vocabulario de esta unidad."
+        "explanation": "«coordinación» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «El deporte y las apuestas en línea»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Sobrevivir a un desastre natural: decisiones que salvan vidas»?",
         "options": [
           "desayuno",
-          "adicción",
+          "resiliencia",
           "zapato",
           "ventana"
         ],
-        "explanation": "«adicción» forma parte del vocabulario de esta unidad."
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «El deporte y las apuestas en línea»?",
-        "options": [
-          "desayuno",
-          "regulación",
-          "zapato",
-          "ventana"
-        ],
-        "explanation": "«regulación» forma parte del vocabulario de esta unidad."
+        "explanation": "«resiliencia» forma parte del vocabulario de esta unidad."
       }
     ]
   },
@@ -35908,22 +35908,22 @@
     "level": "C1",
     "skill": "reading",
     "unitId": "critica-cultural",
-    "title": "¿Quién decide qué cultura aparece primero?",
+    "title": "La decisión que tomé en cinco segundos cambió mi vida",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 100,
     "estimatedMinutes": 18,
-    "description": "crítica de medios: la cultura del algoritmo.",
+    "description": "narrativa: la decisión que tomé en cinco segundos cambió mi vida.",
     "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
-    "mission": "Valorar diversidad cultural, visibilidad y concentración",
+    "mission": "Interpretar azar, responsabilidad y decisiones bajo presión",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "¿Quién decide qué cultura aparece primero?",
-      "text": "Una canción, una serie o un video puede alcanzar millones de reproducciones porque un algoritmo lo recomienda, no porque el público haya tenido acceso a un catálogo amplio.\n\nLas recomendaciones facilitan descubrir obras, pero también concentran visibilidad y vuelven opacos los criterios con que se decide qué aparece primero.\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «recomendación», «catálogo» y «visibilidad» no son adornos: permiten describir el problema con mayor precisión.\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, adjetivación valorativa y conectores concesivos ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.\n\nEsto tiene consecuencias prácticas. Las decisiones sobre examinar cómo las plataformas recomiendan música y audiovisual deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: valorar diversidad cultural, visibilidad y concentración. Hablar de diversidad cultural y transparencia de las recomendaciones supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.",
+      "title": "La decisión que tomé en cinco segundos cambió mi vida",
+      "text": "Una canción, una serie o un video puede alcanzar millones de reproducciones porque un algoritmo lo recomienda, no porque el público haya tenido acceso a un catálogo amplio.\n\nLas recomendaciones facilitan descubrir obras, pero también concentran visibilidad y vuelven opacos los criterios con que se decide qué aparece primero.\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «instante», «decisión» y «consecuencia» no son adornos: permiten describir el problema con mayor precisión.\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, adjetivación valorativa y conectores concesivos ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.\n\nEsto tiene consecuencias prácticas. Las decisiones sobre seguir una narración sobre una elección breve y sus consecuencias deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: interpretar azar, responsabilidad y decisiones bajo presión. Hablar de diversidad cultural y transparencia de las recomendaciones supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.",
       "questions": [
         "¿Cuál es el problema central que analiza la lectura?",
         "¿Qué exige el texto antes de aceptar una conclusión?",
@@ -36003,22 +36003,22 @@
     "level": "C2",
     "skill": "reading",
     "unitId": "mediacion-de-conflictos",
-    "title": "Migrar para empezar de nuevo",
+    "title": "La vida secreta de un piloto comercial: decisiones a 12 000 metros de altura",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 100,
     "estimatedMinutes": 18,
-    "description": "ensayo de movilidad: migrar para empezar de nuevo.",
+    "description": "entrevista: la vida secreta de un piloto comercial: decisiones a 12 000 metros de altura.",
     "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
-    "mission": "Detectar barreras administrativas, redes de apoyo y derechos urbanos",
+    "mission": "Interpretar procedimientos, incertidumbre y responsabilidad técnica",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Migrar para empezar de nuevo",
-      "text": "La gestión del agua reúne necesidades que no desaparecen al repetir consignas: consumo doméstico, agricultura, turismo, salud pública y protección de ecosistemas.\n\nUna negociación útil debe transformar la disputa por posiciones en preguntas sobre acceso, información, prioridades y responsabilidades compartidas.\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «movilidad», «acogida» y «documentación» no son adornos: permiten describir el problema con mayor precisión.\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, atenuación extrema y metapragmática ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.\n\nHay además una dificultad de segundo orden: los marcos con que se mide el problema pueden inclinar la conclusión. Un indicador hace visible una parte de la realidad y puede dejar otra fuera; una fuente autorizada merece atención, pero no elimina la necesidad de examinar su método, su alcance y sus intereses. El lector experto no busca una neutralidad imposible, sino criterios explícitos para comparar argumentos.\n\nEsto tiene consecuencias prácticas. Las decisiones sobre mediar entre experiencias de movilidad, pertenencia y acceso a servicios deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: detectar barreras administrativas, redes de apoyo y derechos urbanos. Hablar de agua, desigualdad y acuerdos verificables supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.",
+      "title": "La vida secreta de un piloto comercial: decisiones a 12 000 metros de altura",
+      "text": "La gestión del agua reúne necesidades que no desaparecen al repetir consignas: consumo doméstico, agricultura, turismo, salud pública y protección de ecosistemas.\n\nUna negociación útil debe transformar la disputa por posiciones en preguntas sobre acceso, información, prioridades y responsabilidades compartidas.\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «cabina», «turbulencia» y «protocolo» no son adornos: permiten describir el problema con mayor precisión.\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, atenuación extrema y metapragmática ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.\n\nHay además una dificultad de segundo orden: los marcos con que se mide el problema pueden inclinar la conclusión. Un indicador hace visible una parte de la realidad y puede dejar otra fuera; una fuente autorizada merece atención, pero no elimina la necesidad de examinar su método, su alcance y sus intereses. El lector experto no busca una neutralidad imposible, sino criterios explícitos para comparar argumentos.\n\nEsto tiene consecuencias prácticas. Las decisiones sobre conocer la cadena de decisiones detrás de un vuelo seguro deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: interpretar procedimientos, incertidumbre y responsabilidad técnica. Hablar de agua, desigualdad y acuerdos verificables supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.",
       "questions": [
         "¿Cuál es el problema central que analiza la lectura?",
         "¿Qué exige el texto antes de aceptar una conclusión?",
@@ -36812,33 +36812,33 @@
     "level": "C1",
     "skill": "listening",
     "unitId": "critica-cultural",
-    "title": "Escucha · ¿Quién decide qué cultura aparece primero?",
+    "title": "Escucha · La decisión que tomé en cinco segundos cambió mi vida",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
     "orderIndex": 101,
     "estimatedMinutes": 14,
-    "description": "Crónica de audio conectada con el Reading «¿Quién decide qué cultura aparece primero?».",
+    "description": "Narrativa sobre «La decisión que tomé en cinco segundos cambió mi vida».",
     "intro": "Escucha una adaptación integral del tema antes de consultar la transcripción.",
     "mission": "Reconoce cómo el vocabulario y adjetivación valorativa y conectores concesivos organizan una explicación oral compleja.",
     "grammar": "",
     "phrases": [
-      "recomendación",
-      "catálogo",
-      "visibilidad",
-      "Aunque «recomendación» parece una decisión individual, conviene considerar «catálogo» y «visibilidad»."
+      "instante",
+      "decisión",
+      "consecuencia",
+      "Aunque «instante» parece una decisión individual, conviene considerar «decisión» y «consecuencia»."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Una canción, una serie o un video puede alcanzar millones de reproducciones porque un algoritmo lo recomienda, no porque el público haya tenido acceso a un catálogo amplio. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «recomendación», «catálogo» y «visibilidad». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «recomendación» parece una decisión individual, conviene considerar «catálogo» y «visibilidad». Desde esta perspectiva, valorar diversidad cultural, visibilidad y concentración no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de la cultura del algoritmo implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«tendencia», «creador» y «algoritmo»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «reseña cultural», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada.",
+    "transcript": "La decisión duró cinco segundos. No parecía heroica ni especialmente importante, pero abrió una puerta que hasta entonces había permanecido cerrada. A veces una vida cambia antes de que tengamos tiempo de entender lo que hemos elegido. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «instante», «decisión» y «consecuencia». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «instante» parece una decisión individual, conviene considerar «decisión» y «consecuencia». Desde esta perspectiva, interpretar azar, responsabilidad y decisiones bajo presión no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de la decisión que tomé en cinco segundos cambió mi vida implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«duda», «oportunidad» y «rumbo»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «narrativa», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En seguir una narración sobre una elección breve y sus consecuencias, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «instante», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
     "extra": {
       "listeningType": "story",
       "difficulty": "C1",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "Una canción, una serie o un video puede alcanzar millones de reproducciones porque un algoritmo lo recomienda, no porque el público haya tenido acceso a un catálogo amplio. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «recomendación», «catálogo» y «visibilidad». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «recomendación» parece una decisión individual, conviene considerar «catálogo» y «visibilidad». Desde esta perspectiva, valorar diversidad cultural, visibilidad y concentración no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de la cultura del algoritmo implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«tendencia», «creador» y «algoritmo»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «reseña cultural», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada.",
+      "transcript": "La decisión duró cinco segundos. No parecía heroica ni especialmente importante, pero abrió una puerta que hasta entonces había permanecido cerrada. A veces una vida cambia antes de que tengamos tiempo de entender lo que hemos elegido. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «instante», «decisión» y «consecuencia». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «instante» parece una decisión individual, conviene considerar «decisión» y «consecuencia». Desde esta perspectiva, interpretar azar, responsabilidad y decisiones bajo presión no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de la decisión que tomé en cinco segundos cambió mi vida implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«duda», «oportunidad» y «rumbo»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «narrativa», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En seguir una narración sobre una elección breve y sus consecuencias, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «instante», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
       "listeningComprehension": {
         "id": "spanish-c1-critica-cultural-listening-comprehension",
         "passingScore": 70,
@@ -36991,33 +36991,33 @@
     "level": "C2",
     "skill": "listening",
     "unitId": "mediacion-de-conflictos",
-    "title": "Escucha · Migrar para empezar de nuevo",
+    "title": "Escucha · La vida secreta de un piloto comercial: decisiones a 12 000 metros de altura",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
     "orderIndex": 101,
     "estimatedMinutes": 14,
-    "description": "Crónica de audio conectada con el Reading «Migrar para empezar de nuevo».",
+    "description": "Entrevista sobre «La vida secreta de un piloto comercial: decisiones a 12 000 metros de altura».",
     "intro": "Escucha una adaptación integral del tema antes de consultar la transcripción.",
     "mission": "Reconoce cómo el vocabulario y atenuación extrema y metapragmática organizan una explicación oral compleja.",
     "grammar": "",
     "phrases": [
-      "movilidad",
-      "acogida",
-      "documentación",
-      "Aunque «movilidad» parece una decisión individual, conviene considerar «acogida» y «documentación»."
+      "cabina",
+      "turbulencia",
+      "protocolo",
+      "Aunque «cabina» parece una decisión individual, conviene considerar «turbulencia» y «protocolo»."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "La gestión del agua reúne necesidades que no desaparecen al repetir consignas: consumo doméstico, agricultura, turismo, salud pública y protección de ecosistemas. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «movilidad», «acogida» y «documentación». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «movilidad» parece una decisión individual, conviene considerar «acogida» y «documentación». Desde esta perspectiva, detectar barreras administrativas, redes de apoyo y derechos urbanos no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de migrar para empezar de nuevo implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«arraigo», «servicio» y «derecho»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «mediación pública», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada.",
+    "transcript": "A doce mil metros de altura, un piloto comercial no improvisa la calma. Cada cambio de ruta, cada aviso meteorológico y cada conversación con la tripulación forma parte de un sistema diseñado para decidir con precisión bajo presión. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «cabina», «turbulencia» y «protocolo». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «cabina» parece una decisión individual, conviene considerar «turbulencia» y «protocolo». Desde esta perspectiva, interpretar procedimientos, incertidumbre y responsabilidad técnica no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de la vida secreta de un piloto comercial: decisiones a 12 000 metros de altura implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«tripulación», «maniobra» y «seguridad»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «entrevista», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En conocer la cadena de decisiones detrás de un vuelo seguro, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «cabina», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
     "extra": {
       "listeningType": "story",
       "difficulty": "C2",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "La gestión del agua reúne necesidades que no desaparecen al repetir consignas: consumo doméstico, agricultura, turismo, salud pública y protección de ecosistemas. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «movilidad», «acogida» y «documentación». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «movilidad» parece una decisión individual, conviene considerar «acogida» y «documentación». Desde esta perspectiva, detectar barreras administrativas, redes de apoyo y derechos urbanos no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de migrar para empezar de nuevo implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«arraigo», «servicio» y «derecho»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «mediación pública», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada.",
+      "transcript": "A doce mil metros de altura, un piloto comercial no improvisa la calma. Cada cambio de ruta, cada aviso meteorológico y cada conversación con la tripulación forma parte de un sistema diseñado para decidir con precisión bajo presión. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «cabina», «turbulencia» y «protocolo». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «cabina» parece una decisión individual, conviene considerar «turbulencia» y «protocolo». Desde esta perspectiva, interpretar procedimientos, incertidumbre y responsabilidad técnica no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de la vida secreta de un piloto comercial: decisiones a 12 000 metros de altura implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«tripulación», «maniobra» y «seguridad»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «entrevista», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En conocer la cadena de decisiones detrás de un vuelo seguro, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «cabina», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
       "listeningComprehension": {
         "id": "spanish-c2-mediacion-de-conflictos-listening-comprehension",
         "passingScore": 70,
@@ -37367,14 +37367,14 @@
     "level": "C1",
     "skill": "speaking",
     "unitId": "critica-cultural",
-    "title": "Habla · La cultura del algoritmo",
+    "title": "Habla · La decisión que tomé en cinco segundos cambió mi vida",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
     "orderIndex": 102,
     "estimatedMinutes": 14,
     "description": "Responde oralmente dentro del escenario de la unidad.",
-    "intro": "Examinar cómo las plataformas recomiendan música y audiovisual",
+    "intro": "Seguir una narración sobre una elección breve y sus consecuencias",
     "mission": "Graba una respuesta de 45–90 segundos: presenta tu propuesta, justifica dos razones y reconoce una posible dificultad.",
     "grammar": "",
     "phrases": [
@@ -37387,7 +37387,7 @@
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "¿Qué propones ante esta situación: examinar cómo las plataformas recomiendan música y audiovisual?",
+        "line": "¿Qué propones ante esta situación: seguir una narración sobre una elección breve y sus consecuencias?",
         "translation": "What do you propose in this situation?"
       },
       {
@@ -37402,11 +37402,11 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Explica cómo resolverías este reto: Examinar cómo las plataformas recomiendan música y audiovisual."
+        "prompt": "Explica cómo resolverías este reto: Seguir una narración sobre una elección breve y sus consecuencias."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos palabras: recomendación, catálogo, visibilidad."
+        "prompt": "Usa al menos dos palabras: instante, decisión, consecuencia."
       }
     ]
   },
@@ -37415,14 +37415,14 @@
     "level": "C2",
     "skill": "speaking",
     "unitId": "mediacion-de-conflictos",
-    "title": "Habla · Migrar para empezar de nuevo",
+    "title": "Habla · La vida secreta de un piloto comercial: decisiones a 12 000 metros de altura",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
     "orderIndex": 102,
     "estimatedMinutes": 14,
     "description": "Responde oralmente dentro del escenario de la unidad.",
-    "intro": "Mediar entre experiencias de movilidad, pertenencia y acceso a servicios",
+    "intro": "Conocer la cadena de decisiones detrás de un vuelo seguro",
     "mission": "Graba una respuesta de 45–90 segundos: presenta tu propuesta, justifica dos razones y reconoce una posible dificultad.",
     "grammar": "",
     "phrases": [
@@ -37435,7 +37435,7 @@
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "¿Qué propones ante esta situación: mediar entre experiencias de movilidad, pertenencia y acceso a servicios?",
+        "line": "¿Qué propones ante esta situación: conocer la cadena de decisiones detrás de un vuelo seguro?",
         "translation": "What do you propose in this situation?"
       },
       {
@@ -37450,11 +37450,11 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Explica cómo resolverías este reto: Mediar entre experiencias de movilidad, pertenencia y acceso a servicios."
+        "prompt": "Explica cómo resolverías este reto: Conocer la cadena de decisiones detrás de un vuelo seguro."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos palabras: movilidad, acogida, documentación."
+        "prompt": "Usa al menos dos palabras: cabina, turbulencia, protocolo."
       }
     ]
   },
@@ -37601,7 +37601,7 @@
     "level": "C1",
     "skill": "writing",
     "unitId": "critica-cultural",
-    "title": "Escribe · La cultura del algoritmo",
+    "title": "Escribe · La decisión que tomé en cinco segundos cambió mi vida",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
@@ -37609,7 +37609,7 @@
     "estimatedMinutes": 18,
     "description": "Produce un texto conectado con la misión de la unidad.",
     "intro": "Planifica, redacta y revisa antes de enviar tu texto.",
-    "mission": "Escribe 230–300 palabras sobre «Examinar cómo las plataformas recomiendan música y audiovisual». Incluye una idea principal, razones y una conclusión.",
+    "mission": "Escribe 230–300 palabras sobre «Seguir una narración sobre una elección breve y sus consecuencias». Incluye una idea principal, razones y una conclusión.",
     "grammar": "adjetivación valorativa y conectores concesivos",
     "phrases": [
       "En primer lugar…",
@@ -37625,7 +37625,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Redacta una respuesta organizada para: Examinar cómo las plataformas recomiendan música y audiovisual."
+        "prompt": "Redacta una respuesta organizada para: Seguir una narración sobre una elección breve y sus consecuencias."
       }
     ]
   },
@@ -37634,7 +37634,7 @@
     "level": "C2",
     "skill": "writing",
     "unitId": "mediacion-de-conflictos",
-    "title": "Escribe · Migrar para empezar de nuevo",
+    "title": "Escribe · La vida secreta de un piloto comercial: decisiones a 12 000 metros de altura",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
@@ -37642,7 +37642,7 @@
     "estimatedMinutes": 18,
     "description": "Produce un texto conectado con la misión de la unidad.",
     "intro": "Planifica, redacta y revisa antes de enviar tu texto.",
-    "mission": "Escribe 230–300 palabras sobre «Mediar entre experiencias de movilidad, pertenencia y acceso a servicios». Incluye una idea principal, razones y una conclusión.",
+    "mission": "Escribe 230–300 palabras sobre «Conocer la cadena de decisiones detrás de un vuelo seguro». Incluye una idea principal, razones y una conclusión.",
     "grammar": "atenuación extrema y metapragmática",
     "phrases": [
       "En primer lugar…",
@@ -37658,7 +37658,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Redacta una respuesta organizada para: Mediar entre experiencias de movilidad, pertenencia y acceso a servicios."
+        "prompt": "Redacta una respuesta organizada para: Conocer la cadena de decisiones detrás de un vuelo seguro."
       }
     ]
   },
@@ -38258,14 +38258,14 @@
     "xpReward": 30,
     "orderIndex": 104,
     "estimatedMinutes": 14,
-    "description": "Aplica la forma gramatical dentro del tema «La cultura del algoritmo».",
+    "description": "Aplica la forma gramatical dentro del tema «La decisión que tomé en cinco segundos cambió mi vida».",
     "intro": "Observa cómo la gramática cambia la precisión y el matiz.",
     "mission": "Usa adjetivación valorativa y conectores concesivos para explicar y justificar una propuesta.",
-    "grammar": "Foco: adjetivación valorativa y conectores concesivos.\n\nUso: permite explicar el tema «¿Quién decide qué cultura aparece primero?» con precisión y matiz.\n\nModelo: Aunque «recomendación» parece una decisión individual, conviene considerar «catálogo» y «visibilidad».",
+    "grammar": "Foco: adjetivación valorativa y conectores concesivos.\n\nUso: permite explicar el tema «La decisión que tomé en cinco segundos cambió mi vida» con precisión y matiz.\n\nModelo: Aunque «instante» parece una decisión individual, conviene considerar «decisión» y «consecuencia».",
     "phrases": [
-      "Aunque «recomendación» parece una decisión individual, conviene considerar «catálogo» y «visibilidad».",
-      "El texto relaciona «recomendación» con «catálogo».",
-      "Antes de concluir, conviene revisar «visibilidad»."
+      "Aunque «instante» parece una decisión individual, conviene considerar «decisión» y «consecuencia».",
+      "El texto relaciona «instante» con «decisión».",
+      "Antes de concluir, conviene revisar «consecuencia»."
     ],
     "vocabulary": [],
     "dialogue": [],
@@ -38306,19 +38306,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Aunque «recomendación» parece una decisión individual, conviene considerar «catálogo» y «visibilidad»."
+                "text": "Aunque «instante» parece una decisión individual, conviene considerar «decisión» y «consecuencia»."
               },
               {
                 "id": "o2",
-                "text": "recomendación catálogo visibilidad."
+                "text": "instante decisión consecuencia."
               },
               {
                 "id": "o3",
-                "text": "Porque recomendación y catálogo."
+                "text": "Porque instante y decisión."
               },
               {
                 "id": "o4",
-                "text": "visibilidad sin contexto decidir."
+                "text": "consecuencia sin contexto decidir."
               }
             ]
           },
@@ -38329,19 +38329,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "La evidencia ayuda a interpretar «recomendación» antes de concluir."
+                "text": "La evidencia ayuda a interpretar «instante» antes de concluir."
               },
               {
                 "id": "o2",
-                "text": "La evidencia «recomendación» concluir antes."
+                "text": "La evidencia «instante» concluir antes."
               },
               {
                 "id": "o3",
-                "text": "Interpretar evidencia porque «recomendación»."
+                "text": "Interpretar evidencia porque «instante»."
               },
               {
                 "id": "o4",
-                "text": "«recomendación» evidencia sin."
+                "text": "«instante» evidencia sin."
               }
             ]
           },
@@ -38388,10 +38388,10 @@
         "type": "mcq",
         "prompt": "¿Qué oración usa la estructura de la unidad para hablar del Reading?",
         "options": [
-          "Aunque «recomendación» parece una decisión individual, conviene considerar «catálogo» y «visibilidad».",
-          "recomendación catálogo visibilidad.",
-          "Porque recomendación y catálogo.",
-          "visibilidad sin contexto decidir."
+          "Aunque «instante» parece una decisión individual, conviene considerar «decisión» y «consecuencia».",
+          "instante decisión consecuencia.",
+          "Porque instante y decisión.",
+          "consecuencia sin contexto decidir."
         ],
         "explanation": "La primera opción relaciona la estructura gramatical con el tema y el vocabulario de la lección."
       },
@@ -38399,10 +38399,10 @@
         "type": "mcq",
         "prompt": "¿Qué opción mantiene mejor el sentido del texto?",
         "options": [
-          "La evidencia ayuda a interpretar «recomendación» antes de concluir.",
-          "La evidencia «recomendación» concluir antes.",
-          "Interpretar evidencia porque «recomendación».",
-          "«recomendación» evidencia sin."
+          "La evidencia ayuda a interpretar «instante» antes de concluir.",
+          "La evidencia «instante» concluir antes.",
+          "Interpretar evidencia porque «instante».",
+          "«instante» evidencia sin."
         ],
         "explanation": "La primera opción presenta una relación lógica y una idea completa."
       },
@@ -38430,14 +38430,14 @@
     "xpReward": 30,
     "orderIndex": 104,
     "estimatedMinutes": 14,
-    "description": "Aplica la forma gramatical dentro del tema «Migrar para empezar de nuevo».",
+    "description": "Aplica la forma gramatical dentro del tema «La vida secreta de un piloto comercial: decisiones a 12 000 metros de altura».",
     "intro": "Observa cómo la gramática cambia la precisión y el matiz.",
     "mission": "Usa atenuación extrema y metapragmática para explicar y justificar una propuesta.",
-    "grammar": "Foco: atenuación extrema y metapragmática.\n\nUso: permite explicar el tema «Migrar para empezar de nuevo» con precisión y matiz.\n\nModelo: Aunque «movilidad» parece una decisión individual, conviene considerar «acogida» y «documentación».",
+    "grammar": "Foco: atenuación extrema y metapragmática.\n\nUso: permite explicar el tema «La vida secreta de un piloto comercial: decisiones a 12 000 metros de altura» con precisión y matiz.\n\nModelo: Aunque «cabina» parece una decisión individual, conviene considerar «turbulencia» y «protocolo».",
     "phrases": [
-      "Aunque «movilidad» parece una decisión individual, conviene considerar «acogida» y «documentación».",
-      "El texto relaciona «movilidad» con «acogida».",
-      "Antes de concluir, conviene revisar «documentación»."
+      "Aunque «cabina» parece una decisión individual, conviene considerar «turbulencia» y «protocolo».",
+      "El texto relaciona «cabina» con «turbulencia».",
+      "Antes de concluir, conviene revisar «protocolo»."
     ],
     "vocabulary": [],
     "dialogue": [],
@@ -38478,19 +38478,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Aunque «movilidad» parece una decisión individual, conviene considerar «acogida» y «documentación»."
+                "text": "Aunque «cabina» parece una decisión individual, conviene considerar «turbulencia» y «protocolo»."
               },
               {
                 "id": "o2",
-                "text": "movilidad acogida documentación."
+                "text": "cabina turbulencia protocolo."
               },
               {
                 "id": "o3",
-                "text": "Porque movilidad y acogida."
+                "text": "Porque cabina y turbulencia."
               },
               {
                 "id": "o4",
-                "text": "documentación sin contexto decidir."
+                "text": "protocolo sin contexto decidir."
               }
             ]
           },
@@ -38501,19 +38501,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "La evidencia ayuda a interpretar «movilidad» antes de concluir."
+                "text": "La evidencia ayuda a interpretar «cabina» antes de concluir."
               },
               {
                 "id": "o2",
-                "text": "La evidencia «movilidad» concluir antes."
+                "text": "La evidencia «cabina» concluir antes."
               },
               {
                 "id": "o3",
-                "text": "Interpretar evidencia porque «movilidad»."
+                "text": "Interpretar evidencia porque «cabina»."
               },
               {
                 "id": "o4",
-                "text": "«movilidad» evidencia sin."
+                "text": "«cabina» evidencia sin."
               }
             ]
           },
@@ -38560,10 +38560,10 @@
         "type": "mcq",
         "prompt": "¿Qué oración usa la estructura de la unidad para hablar del Reading?",
         "options": [
-          "Aunque «movilidad» parece una decisión individual, conviene considerar «acogida» y «documentación».",
-          "movilidad acogida documentación.",
-          "Porque movilidad y acogida.",
-          "documentación sin contexto decidir."
+          "Aunque «cabina» parece una decisión individual, conviene considerar «turbulencia» y «protocolo».",
+          "cabina turbulencia protocolo.",
+          "Porque cabina y turbulencia.",
+          "protocolo sin contexto decidir."
         ],
         "explanation": "La primera opción relaciona la estructura gramatical con el tema y el vocabulario de la lección."
       },
@@ -38571,10 +38571,10 @@
         "type": "mcq",
         "prompt": "¿Qué opción mantiene mejor el sentido del texto?",
         "options": [
-          "La evidencia ayuda a interpretar «movilidad» antes de concluir.",
-          "La evidencia «movilidad» concluir antes.",
-          "Interpretar evidencia porque «movilidad».",
-          "«movilidad» evidencia sin."
+          "La evidencia ayuda a interpretar «cabina» antes de concluir.",
+          "La evidencia «cabina» concluir antes.",
+          "Interpretar evidencia porque «cabina».",
+          "«cabina» evidencia sin."
         ],
         "explanation": "La primera opción presenta una relación lógica y una idea completa."
       },
@@ -39158,7 +39158,7 @@
     "level": "C1",
     "skill": "vocabulary",
     "unitId": "critica-cultural",
-    "title": "Vocabulario · La cultura del algoritmo",
+    "title": "Vocabulario · La decisión que tomé en cinco segundos cambió mi vida",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
@@ -39171,50 +39171,50 @@
     "phrases": [],
     "vocabulary": [
       {
-        "word": "recomendación",
-        "translation": "English support: recomendación",
-        "definition": "Término clave para comprender «¿Quién decide qué cultura aparece primero?» y analizar examinar cómo las plataformas recomiendan música y audiovisual.",
-        "example": "Aunque «recomendación» parece una decisión individual, conviene considerar «catálogo» y «visibilidad». Esta frase sitúa «recomendación» dentro del tema de la unidad.",
+        "word": "instante",
+        "translation": "English support: instante",
+        "definition": "Término clave para comprender «La decisión que tomé en cinco segundos cambió mi vida» y analizar seguir una narración sobre una elección breve y sus consecuencias.",
+        "example": "Aunque «instante» parece una decisión individual, conviene considerar «decisión» y «consecuencia». Esta frase sitúa «instante» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 1
       },
       {
-        "word": "catálogo",
-        "translation": "English support: catálogo",
-        "definition": "Término clave para comprender «¿Quién decide qué cultura aparece primero?» y analizar examinar cómo las plataformas recomiendan música y audiovisual.",
-        "example": "Aunque «recomendación» parece una decisión individual, conviene considerar «catálogo» y «visibilidad». Esta frase sitúa «catálogo» dentro del tema de la unidad.",
+        "word": "decisión",
+        "translation": "English support: decisión",
+        "definition": "Término clave para comprender «La decisión que tomé en cinco segundos cambió mi vida» y analizar seguir una narración sobre una elección breve y sus consecuencias.",
+        "example": "Aunque «instante» parece una decisión individual, conviene considerar «decisión» y «consecuencia». Esta frase sitúa «decisión» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 2
       },
       {
-        "word": "visibilidad",
-        "translation": "English support: visibilidad",
-        "definition": "Término clave para comprender «¿Quién decide qué cultura aparece primero?» y analizar examinar cómo las plataformas recomiendan música y audiovisual.",
-        "example": "Aunque «recomendación» parece una decisión individual, conviene considerar «catálogo» y «visibilidad». Esta frase sitúa «visibilidad» dentro del tema de la unidad.",
+        "word": "consecuencia",
+        "translation": "English support: consecuencia",
+        "definition": "Término clave para comprender «La decisión que tomé en cinco segundos cambió mi vida» y analizar seguir una narración sobre una elección breve y sus consecuencias.",
+        "example": "Aunque «instante» parece una decisión individual, conviene considerar «decisión» y «consecuencia». Esta frase sitúa «consecuencia» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 3
       },
       {
-        "word": "tendencia",
-        "translation": "English support: tendencia",
-        "definition": "Término clave para comprender «¿Quién decide qué cultura aparece primero?» y analizar examinar cómo las plataformas recomiendan música y audiovisual.",
-        "example": "Aunque «recomendación» parece una decisión individual, conviene considerar «catálogo» y «visibilidad». Esta frase sitúa «tendencia» dentro del tema de la unidad.",
+        "word": "duda",
+        "translation": "English support: duda",
+        "definition": "Término clave para comprender «La decisión que tomé en cinco segundos cambió mi vida» y analizar seguir una narración sobre una elección breve y sus consecuencias.",
+        "example": "Aunque «instante» parece una decisión individual, conviene considerar «decisión» y «consecuencia». Esta frase sitúa «duda» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 4
       },
       {
-        "word": "creador",
-        "translation": "English support: creador",
-        "definition": "Término clave para comprender «¿Quién decide qué cultura aparece primero?» y analizar examinar cómo las plataformas recomiendan música y audiovisual.",
-        "example": "Aunque «recomendación» parece una decisión individual, conviene considerar «catálogo» y «visibilidad». Esta frase sitúa «creador» dentro del tema de la unidad.",
+        "word": "oportunidad",
+        "translation": "English support: oportunidad",
+        "definition": "Término clave para comprender «La decisión que tomé en cinco segundos cambió mi vida» y analizar seguir una narración sobre una elección breve y sus consecuencias.",
+        "example": "Aunque «instante» parece una decisión individual, conviene considerar «decisión» y «consecuencia». Esta frase sitúa «oportunidad» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 5
       },
       {
-        "word": "algoritmo",
-        "translation": "English support: algoritmo",
-        "definition": "Término clave para comprender «¿Quién decide qué cultura aparece primero?» y analizar examinar cómo las plataformas recomiendan música y audiovisual.",
-        "example": "Aunque «recomendación» parece una decisión individual, conviene considerar «catálogo» y «visibilidad». Esta frase sitúa «algoritmo» dentro del tema de la unidad.",
+        "word": "rumbo",
+        "translation": "English support: rumbo",
+        "definition": "Término clave para comprender «La decisión que tomé en cinco segundos cambió mi vida» y analizar seguir una narración sobre una elección breve y sus consecuencias.",
+        "example": "Aunque «instante» parece una decisión individual, conviene considerar «decisión» y «consecuencia». Esta frase sitúa «rumbo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 6
       }
@@ -39226,69 +39226,69 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «La cultura del algoritmo»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «La decisión que tomé en cinco segundos cambió mi vida»?",
         "options": [
           "desayuno",
-          "recomendación",
+          "instante",
           "zapato",
           "ventana"
         ],
-        "explanation": "«recomendación» forma parte del vocabulario de esta unidad."
+        "explanation": "«instante» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «La cultura del algoritmo»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «La decisión que tomé en cinco segundos cambió mi vida»?",
         "options": [
           "desayuno",
-          "catálogo",
+          "decisión",
           "zapato",
           "ventana"
         ],
-        "explanation": "«catálogo» forma parte del vocabulario de esta unidad."
+        "explanation": "«decisión» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «La cultura del algoritmo»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «La decisión que tomé en cinco segundos cambió mi vida»?",
         "options": [
           "desayuno",
-          "visibilidad",
+          "consecuencia",
           "zapato",
           "ventana"
         ],
-        "explanation": "«visibilidad» forma parte del vocabulario de esta unidad."
+        "explanation": "«consecuencia» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «La cultura del algoritmo»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «La decisión que tomé en cinco segundos cambió mi vida»?",
         "options": [
           "desayuno",
-          "tendencia",
+          "duda",
           "zapato",
           "ventana"
         ],
-        "explanation": "«tendencia» forma parte del vocabulario de esta unidad."
+        "explanation": "«duda» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «La cultura del algoritmo»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «La decisión que tomé en cinco segundos cambió mi vida»?",
         "options": [
           "desayuno",
-          "creador",
+          "oportunidad",
           "zapato",
           "ventana"
         ],
-        "explanation": "«creador» forma parte del vocabulario de esta unidad."
+        "explanation": "«oportunidad» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «La cultura del algoritmo»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «La decisión que tomé en cinco segundos cambió mi vida»?",
         "options": [
           "desayuno",
-          "algoritmo",
+          "rumbo",
           "zapato",
           "ventana"
         ],
-        "explanation": "«algoritmo» forma parte del vocabulario de esta unidad."
+        "explanation": "«rumbo» forma parte del vocabulario de esta unidad."
       }
     ]
   },
@@ -39297,7 +39297,7 @@
     "level": "C2",
     "skill": "vocabulary",
     "unitId": "mediacion-de-conflictos",
-    "title": "Vocabulario · Migrar para empezar de nuevo",
+    "title": "Vocabulario · La vida secreta de un piloto comercial: decisiones a 12 000 metros de altura",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
@@ -39310,50 +39310,50 @@
     "phrases": [],
     "vocabulary": [
       {
-        "word": "movilidad",
-        "translation": "English support: movilidad",
-        "definition": "Término clave para comprender «Migrar para empezar de nuevo» y analizar mediar entre experiencias de movilidad, pertenencia y acceso a servicios.",
-        "example": "Aunque «movilidad» parece una decisión individual, conviene considerar «acogida» y «documentación». Esta frase sitúa «movilidad» dentro del tema de la unidad.",
+        "word": "cabina",
+        "translation": "English support: cabina",
+        "definition": "Término clave para comprender «La vida secreta de un piloto comercial: decisiones a 12 000 metros de altura» y analizar conocer la cadena de decisiones detrás de un vuelo seguro.",
+        "example": "Aunque «cabina» parece una decisión individual, conviene considerar «turbulencia» y «protocolo». Esta frase sitúa «cabina» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 1
       },
       {
-        "word": "acogida",
-        "translation": "English support: acogida",
-        "definition": "Término clave para comprender «Migrar para empezar de nuevo» y analizar mediar entre experiencias de movilidad, pertenencia y acceso a servicios.",
-        "example": "Aunque «movilidad» parece una decisión individual, conviene considerar «acogida» y «documentación». Esta frase sitúa «acogida» dentro del tema de la unidad.",
+        "word": "turbulencia",
+        "translation": "English support: turbulencia",
+        "definition": "Término clave para comprender «La vida secreta de un piloto comercial: decisiones a 12 000 metros de altura» y analizar conocer la cadena de decisiones detrás de un vuelo seguro.",
+        "example": "Aunque «cabina» parece una decisión individual, conviene considerar «turbulencia» y «protocolo». Esta frase sitúa «turbulencia» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 2
       },
       {
-        "word": "documentación",
-        "translation": "English support: documentación",
-        "definition": "Término clave para comprender «Migrar para empezar de nuevo» y analizar mediar entre experiencias de movilidad, pertenencia y acceso a servicios.",
-        "example": "Aunque «movilidad» parece una decisión individual, conviene considerar «acogida» y «documentación». Esta frase sitúa «documentación» dentro del tema de la unidad.",
+        "word": "protocolo",
+        "translation": "English support: protocolo",
+        "definition": "Término clave para comprender «La vida secreta de un piloto comercial: decisiones a 12 000 metros de altura» y analizar conocer la cadena de decisiones detrás de un vuelo seguro.",
+        "example": "Aunque «cabina» parece una decisión individual, conviene considerar «turbulencia» y «protocolo». Esta frase sitúa «protocolo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 3
       },
       {
-        "word": "arraigo",
-        "translation": "English support: arraigo",
-        "definition": "Término clave para comprender «Migrar para empezar de nuevo» y analizar mediar entre experiencias de movilidad, pertenencia y acceso a servicios.",
-        "example": "Aunque «movilidad» parece una decisión individual, conviene considerar «acogida» y «documentación». Esta frase sitúa «arraigo» dentro del tema de la unidad.",
+        "word": "tripulación",
+        "translation": "English support: tripulación",
+        "definition": "Término clave para comprender «La vida secreta de un piloto comercial: decisiones a 12 000 metros de altura» y analizar conocer la cadena de decisiones detrás de un vuelo seguro.",
+        "example": "Aunque «cabina» parece una decisión individual, conviene considerar «turbulencia» y «protocolo». Esta frase sitúa «tripulación» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 4
       },
       {
-        "word": "servicio",
-        "translation": "English support: servicio",
-        "definition": "Término clave para comprender «Migrar para empezar de nuevo» y analizar mediar entre experiencias de movilidad, pertenencia y acceso a servicios.",
-        "example": "Aunque «movilidad» parece una decisión individual, conviene considerar «acogida» y «documentación». Esta frase sitúa «servicio» dentro del tema de la unidad.",
+        "word": "maniobra",
+        "translation": "English support: maniobra",
+        "definition": "Término clave para comprender «La vida secreta de un piloto comercial: decisiones a 12 000 metros de altura» y analizar conocer la cadena de decisiones detrás de un vuelo seguro.",
+        "example": "Aunque «cabina» parece una decisión individual, conviene considerar «turbulencia» y «protocolo». Esta frase sitúa «maniobra» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 5
       },
       {
-        "word": "derecho",
-        "translation": "English support: derecho",
-        "definition": "Término clave para comprender «Migrar para empezar de nuevo» y analizar mediar entre experiencias de movilidad, pertenencia y acceso a servicios.",
-        "example": "Aunque «movilidad» parece una decisión individual, conviene considerar «acogida» y «documentación». Esta frase sitúa «derecho» dentro del tema de la unidad.",
+        "word": "seguridad",
+        "translation": "English support: seguridad",
+        "definition": "Término clave para comprender «La vida secreta de un piloto comercial: decisiones a 12 000 metros de altura» y analizar conocer la cadena de decisiones detrás de un vuelo seguro.",
+        "example": "Aunque «cabina» parece una decisión individual, conviene considerar «turbulencia» y «protocolo». Esta frase sitúa «seguridad» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 6
       }
@@ -39365,69 +39365,69 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Migrar para empezar de nuevo»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «La vida secreta de un piloto comercial: decisiones a 12 000 metros de altura»?",
         "options": [
           "desayuno",
-          "movilidad",
+          "cabina",
           "zapato",
           "ventana"
         ],
-        "explanation": "«movilidad» forma parte del vocabulario de esta unidad."
+        "explanation": "«cabina» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Migrar para empezar de nuevo»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «La vida secreta de un piloto comercial: decisiones a 12 000 metros de altura»?",
         "options": [
           "desayuno",
-          "acogida",
+          "turbulencia",
           "zapato",
           "ventana"
         ],
-        "explanation": "«acogida» forma parte del vocabulario de esta unidad."
+        "explanation": "«turbulencia» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Migrar para empezar de nuevo»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «La vida secreta de un piloto comercial: decisiones a 12 000 metros de altura»?",
         "options": [
           "desayuno",
-          "documentación",
+          "protocolo",
           "zapato",
           "ventana"
         ],
-        "explanation": "«documentación» forma parte del vocabulario de esta unidad."
+        "explanation": "«protocolo» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Migrar para empezar de nuevo»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «La vida secreta de un piloto comercial: decisiones a 12 000 metros de altura»?",
         "options": [
           "desayuno",
-          "arraigo",
+          "tripulación",
           "zapato",
           "ventana"
         ],
-        "explanation": "«arraigo» forma parte del vocabulario de esta unidad."
+        "explanation": "«tripulación» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Migrar para empezar de nuevo»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «La vida secreta de un piloto comercial: decisiones a 12 000 metros de altura»?",
         "options": [
           "desayuno",
-          "servicio",
+          "maniobra",
           "zapato",
           "ventana"
         ],
-        "explanation": "«servicio» forma parte del vocabulario de esta unidad."
+        "explanation": "«maniobra» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Migrar para empezar de nuevo»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «La vida secreta de un piloto comercial: decisiones a 12 000 metros de altura»?",
         "options": [
           "desayuno",
-          "derecho",
+          "seguridad",
           "zapato",
           "ventana"
         ],
-        "explanation": "«derecho» forma parte del vocabulario de esta unidad."
+        "explanation": "«seguridad» forma parte del vocabulario de esta unidad."
       }
     ]
   },
@@ -39797,22 +39797,22 @@
     "level": "C1",
     "skill": "reading",
     "unitId": "politicas-publicas",
-    "title": "Medir una política sin confundir actividad con resultado",
+    "title": "¿Las redes sociales nos acercan o nos aíslan?",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 110,
     "estimatedMinutes": 18,
-    "description": "informe analítico: ¿qué significa que una política funcione?.",
+    "description": "podcast de sociedad: ¿las redes sociales nos acercan o nos aíslan?.",
     "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
-    "mission": "Interpretar indicadores, cobertura y resultados sin simplificar",
+    "mission": "Evaluar beneficios y riesgos de la conexión permanente",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Medir una política sin confundir actividad con resultado",
-      "text": "Un programa juvenil puede anunciar miles de participantes y aun así no demostrar que transformó sus oportunidades.\n\nContar asistencia es distinto de medir continuidad, aprendizaje, acceso equitativo y efectos sostenidos; por eso una evaluación debe explicar qué indicador usa y qué no puede concluir.\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «indicador», «cobertura» y «implementación» no son adornos: permiten describir el problema con mayor precisión.\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, impersonales, pasivas y lenguaje técnico ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.\n\nEsto tiene consecuencias prácticas. Las decisiones sobre evaluar intervenciones dirigidas a jóvenes deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: interpretar indicadores, cobertura y resultados sin simplificar. Hablar de resultados, límites metodológicos y decisiones informadas supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.",
+      "title": "¿Las redes sociales nos acercan o nos aíslan?",
+      "text": "Un programa juvenil puede anunciar miles de participantes y aun así no demostrar que transformó sus oportunidades.\n\nContar asistencia es distinto de medir continuidad, aprendizaje, acceso equitativo y efectos sostenidos; por eso una evaluación debe explicar qué indicador usa y qué no puede concluir.\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «vínculo», «aislamiento» y «interacción» no son adornos: permiten describir el problema con mayor precisión.\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, impersonales, pasivas y lenguaje técnico ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.\n\nEsto tiene consecuencias prácticas. Las decisiones sobre contrastar vínculos digitales, atención y soledad contemporánea deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: evaluar beneficios y riesgos de la conexión permanente. Hablar de resultados, límites metodológicos y decisiones informadas supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.",
       "questions": [
         "¿Cuál es el problema central que analiza la lectura?",
         "¿Qué exige el texto antes de aceptar una conclusión?",
@@ -39892,22 +39892,22 @@
     "level": "C2",
     "skill": "reading",
     "unitId": "ensayo-de-alta-exigencia",
-    "title": "El agua que llega a la mesa",
+    "title": "¿Por qué algunos recuerdos permanecen para siempre?",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 110,
     "estimatedMinutes": 18,
-    "description": "ensayo socioambiental: el agua que llega a la mesa.",
+    "description": "podcast de neurociencia: ¿por qué algunos recuerdos permanecen para siempre?.",
     "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
-    "mission": "Controlar evidencia, escalas territoriales y contraargumentación",
+    "mission": "Distinguir recuerdo fiable, reconstrucción y significado emocional",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "El agua que llega a la mesa",
-      "text": "La atención humana se ha convertido en un recurso que plataformas, medios, escuelas y anunciantes intentan organizar.\n\nNo basta con atribuir la distracción a una debilidad individual: el diseño de notificaciones, métricas y recomendaciones puede condicionar qué se ve, cuánto tiempo se permanece y qué conversaciones se vuelven posibles.\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «cuenca», «sequía» y «riego» no son adornos: permiten describir el problema con mayor precisión.\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, progresión temática y cohesión global ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.\n\nHay además una dificultad de segundo orden: los marcos con que se mide el problema pueden inclinar la conclusión. Un indicador hace visible una parte de la realidad y puede dejar otra fuera; una fuente autorizada merece atención, pero no elimina la necesidad de examinar su método, su alcance y sus intereses. El lector experto no busca una neutralidad imposible, sino criterios explícitos para comparar argumentos.\n\nEsto tiene consecuencias prácticas. Las decisiones sobre construir una tesis sobre agua, agricultura, alimentos y desigualdad deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: controlar evidencia, escalas territoriales y contraargumentación. Hablar de atención, autonomía y diseño de plataformas supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.",
+      "title": "¿Por qué algunos recuerdos permanecen para siempre?",
+      "text": "La atención humana se ha convertido en un recurso que plataformas, medios, escuelas y anunciantes intentan organizar.\n\nNo basta con atribuir la distracción a una debilidad individual: el diseño de notificaciones, métricas y recomendaciones puede condicionar qué se ve, cuánto tiempo se permanece y qué conversaciones se vuelven posibles.\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «memoria», «emoción» y «recuerdo» no son adornos: permiten describir el problema con mayor precisión.\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, progresión temática y cohesión global ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.\n\nHay además una dificultad de segundo orden: los marcos con que se mide el problema pueden inclinar la conclusión. Un indicador hace visible una parte de la realidad y puede dejar otra fuera; una fuente autorizada merece atención, pero no elimina la necesidad de examinar su método, su alcance y sus intereses. El lector experto no busca una neutralidad imposible, sino criterios explícitos para comparar argumentos.\n\nEsto tiene consecuencias prácticas. Las decisiones sobre explorar la relación entre emoción, memoria y narrativa personal deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: distinguir recuerdo fiable, reconstrucción y significado emocional. Hablar de atención, autonomía y diseño de plataformas supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.",
       "questions": [
         "¿Cuál es el problema central que analiza la lectura?",
         "¿Qué exige el texto antes de aceptar una conclusión?",
@@ -40701,33 +40701,33 @@
     "level": "C1",
     "skill": "listening",
     "unitId": "politicas-publicas",
-    "title": "Escucha · Medir una política sin confundir actividad con resultado",
+    "title": "Escucha · ¿Las redes sociales nos acercan o nos aíslan?",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
     "orderIndex": 111,
     "estimatedMinutes": 14,
-    "description": "Crónica de audio conectada con el Reading «Medir una política sin confundir actividad con resultado».",
+    "description": "Podcast de sociedad sobre «¿Las redes sociales nos acercan o nos aíslan?».",
     "intro": "Escucha una adaptación integral del tema antes de consultar la transcripción.",
     "mission": "Reconoce cómo el vocabulario y impersonales, pasivas y lenguaje técnico organizan una explicación oral compleja.",
     "grammar": "",
     "phrases": [
-      "indicador",
-      "cobertura",
-      "implementación",
-      "En el artículo se analizan «indicador» y «cobertura» desde perspectivas distintas."
+      "vínculo",
+      "aislamiento",
+      "interacción",
+      "En el artículo se analizan «vínculo» y «aislamiento» desde perspectivas distintas."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Un programa juvenil puede anunciar miles de participantes y aun así no demostrar que transformó sus oportunidades. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «indicador», «cobertura» y «implementación». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. En el artículo se analizan «indicador» y «cobertura» desde perspectivas distintas. Desde esta perspectiva, interpretar indicadores, cobertura y resultados sin simplificar no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de ¿qué significa que una política funcione? implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«sesgo de selección», «resultado» y «evaluación»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «informe ciudadano», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada.",
+    "transcript": "Nunca había sido tan fácil hablar con personas que están lejos. Aun así, muchas personas describen una soledad que no desaparece con más mensajes, reacciones o seguidores. La conexión y la cercanía no siempre son lo mismo. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «vínculo», «aislamiento» y «interacción». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. En el artículo se analizan «vínculo» y «aislamiento» desde perspectivas distintas. Desde esta perspectiva, evaluar beneficios y riesgos de la conexión permanente no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de ¿las redes sociales nos acercan o nos aíslan? implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«presencia», «algoritmo» y «comunidad»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «podcast de sociedad», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En contrastar vínculos digitales, atención y soledad contemporánea, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «vínculo», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
     "extra": {
       "listeningType": "story",
       "difficulty": "C1",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "Un programa juvenil puede anunciar miles de participantes y aun así no demostrar que transformó sus oportunidades. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «indicador», «cobertura» y «implementación». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. En el artículo se analizan «indicador» y «cobertura» desde perspectivas distintas. Desde esta perspectiva, interpretar indicadores, cobertura y resultados sin simplificar no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de ¿qué significa que una política funcione? implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«sesgo de selección», «resultado» y «evaluación»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «informe ciudadano», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada.",
+      "transcript": "Nunca había sido tan fácil hablar con personas que están lejos. Aun así, muchas personas describen una soledad que no desaparece con más mensajes, reacciones o seguidores. La conexión y la cercanía no siempre son lo mismo. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «vínculo», «aislamiento» y «interacción». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. En el artículo se analizan «vínculo» y «aislamiento» desde perspectivas distintas. Desde esta perspectiva, evaluar beneficios y riesgos de la conexión permanente no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de ¿las redes sociales nos acercan o nos aíslan? implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«presencia», «algoritmo» y «comunidad»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «podcast de sociedad», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En contrastar vínculos digitales, atención y soledad contemporánea, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «vínculo», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
       "listeningComprehension": {
         "id": "spanish-c1-politicas-publicas-listening-comprehension",
         "passingScore": 70,
@@ -40880,33 +40880,33 @@
     "level": "C2",
     "skill": "listening",
     "unitId": "ensayo-de-alta-exigencia",
-    "title": "Escucha · El agua que llega a la mesa",
+    "title": "Escucha · ¿Por qué algunos recuerdos permanecen para siempre?",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
     "orderIndex": 111,
     "estimatedMinutes": 14,
-    "description": "Crónica de audio conectada con el Reading «El agua que llega a la mesa».",
+    "description": "Podcast de neurociencia sobre «¿Por qué algunos recuerdos permanecen para siempre?».",
     "intro": "Escucha una adaptación integral del tema antes de consultar la transcripción.",
     "mission": "Reconoce cómo el vocabulario y progresión temática y cohesión global organizan una explicación oral compleja.",
     "grammar": "",
     "phrases": [
-      "cuenca",
-      "sequía",
-      "riego",
-      "Aunque «cuenca» parece una decisión individual, conviene considerar «sequía» y «riego»."
+      "memoria",
+      "emoción",
+      "recuerdo",
+      "Aunque «memoria» parece una decisión individual, conviene considerar «emoción» y «recuerdo»."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "La atención humana se ha convertido en un recurso que plataformas, medios, escuelas y anunciantes intentan organizar. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «cuenca», «sequía» y «riego». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «cuenca» parece una decisión individual, conviene considerar «sequía» y «riego». Desde esta perspectiva, controlar evidencia, escalas territoriales y contraargumentación no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de el agua que llega a la mesa implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«abastecimiento», «desigualdad» y «prioridad»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «ensayo argumentativo», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada.",
+    "transcript": "Algunos recuerdos permanecen durante décadas con una intensidad sorprendente, aunque los detalles cambien con el tiempo. La neurociencia muestra que recordar no es reproducir una grabación: es reconstruir una experiencia que la emoción ha vuelto significativa. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «memoria», «emoción» y «recuerdo». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «memoria» parece una decisión individual, conviene considerar «emoción» y «recuerdo». Desde esta perspectiva, distinguir recuerdo fiable, reconstrucción y significado emocional no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de ¿por qué algunos recuerdos permanecen para siempre? implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«consolidación», «evocación» y «sesgo»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «podcast de neurociencia», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En explorar la relación entre emoción, memoria y narrativa personal, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «memoria», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
     "extra": {
       "listeningType": "story",
       "difficulty": "C2",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "La atención humana se ha convertido en un recurso que plataformas, medios, escuelas y anunciantes intentan organizar. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «cuenca», «sequía» y «riego». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «cuenca» parece una decisión individual, conviene considerar «sequía» y «riego». Desde esta perspectiva, controlar evidencia, escalas territoriales y contraargumentación no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de el agua que llega a la mesa implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«abastecimiento», «desigualdad» y «prioridad»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «ensayo argumentativo», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada.",
+      "transcript": "Algunos recuerdos permanecen durante décadas con una intensidad sorprendente, aunque los detalles cambien con el tiempo. La neurociencia muestra que recordar no es reproducir una grabación: es reconstruir una experiencia que la emoción ha vuelto significativa. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «memoria», «emoción» y «recuerdo». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «memoria» parece una decisión individual, conviene considerar «emoción» y «recuerdo». Desde esta perspectiva, distinguir recuerdo fiable, reconstrucción y significado emocional no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de ¿por qué algunos recuerdos permanecen para siempre? implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«consolidación», «evocación» y «sesgo»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «podcast de neurociencia», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En explorar la relación entre emoción, memoria y narrativa personal, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «memoria», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
       "listeningComprehension": {
         "id": "spanish-c2-ensayo-de-alta-exigencia-listening-comprehension",
         "passingScore": 70,
@@ -41256,14 +41256,14 @@
     "level": "C1",
     "skill": "speaking",
     "unitId": "politicas-publicas",
-    "title": "Habla · ¿Qué significa que una política funcione?",
+    "title": "Habla · ¿Las redes sociales nos acercan o nos aíslan?",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
     "orderIndex": 112,
     "estimatedMinutes": 14,
     "description": "Responde oralmente dentro del escenario de la unidad.",
-    "intro": "Evaluar intervenciones dirigidas a jóvenes",
+    "intro": "Contrastar vínculos digitales, atención y soledad contemporánea",
     "mission": "Graba una respuesta de 45–90 segundos: presenta tu propuesta, justifica dos razones y reconoce una posible dificultad.",
     "grammar": "",
     "phrases": [
@@ -41276,7 +41276,7 @@
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "¿Qué propones ante esta situación: evaluar intervenciones dirigidas a jóvenes?",
+        "line": "¿Qué propones ante esta situación: contrastar vínculos digitales, atención y soledad contemporánea?",
         "translation": "What do you propose in this situation?"
       },
       {
@@ -41291,11 +41291,11 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Explica cómo resolverías este reto: Evaluar intervenciones dirigidas a jóvenes."
+        "prompt": "Explica cómo resolverías este reto: Contrastar vínculos digitales, atención y soledad contemporánea."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos palabras: indicador, cobertura, implementación."
+        "prompt": "Usa al menos dos palabras: vínculo, aislamiento, interacción."
       }
     ]
   },
@@ -41304,14 +41304,14 @@
     "level": "C2",
     "skill": "speaking",
     "unitId": "ensayo-de-alta-exigencia",
-    "title": "Habla · El agua que llega a la mesa",
+    "title": "Habla · ¿Por qué algunos recuerdos permanecen para siempre?",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
     "orderIndex": 112,
     "estimatedMinutes": 14,
     "description": "Responde oralmente dentro del escenario de la unidad.",
-    "intro": "Construir una tesis sobre agua, agricultura, alimentos y desigualdad",
+    "intro": "Explorar la relación entre emoción, memoria y narrativa personal",
     "mission": "Graba una respuesta de 45–90 segundos: presenta tu propuesta, justifica dos razones y reconoce una posible dificultad.",
     "grammar": "",
     "phrases": [
@@ -41324,7 +41324,7 @@
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "¿Qué propones ante esta situación: construir una tesis sobre agua, agricultura, alimentos y desigualdad?",
+        "line": "¿Qué propones ante esta situación: explorar la relación entre emoción, memoria y narrativa personal?",
         "translation": "What do you propose in this situation?"
       },
       {
@@ -41339,11 +41339,11 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Explica cómo resolverías este reto: Construir una tesis sobre agua, agricultura, alimentos y desigualdad."
+        "prompt": "Explica cómo resolverías este reto: Explorar la relación entre emoción, memoria y narrativa personal."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos palabras: cuenca, sequía, riego."
+        "prompt": "Usa al menos dos palabras: memoria, emoción, recuerdo."
       }
     ]
   },
@@ -41490,7 +41490,7 @@
     "level": "C1",
     "skill": "writing",
     "unitId": "politicas-publicas",
-    "title": "Escribe · ¿Qué significa que una política funcione?",
+    "title": "Escribe · ¿Las redes sociales nos acercan o nos aíslan?",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
@@ -41498,7 +41498,7 @@
     "estimatedMinutes": 18,
     "description": "Produce un texto conectado con la misión de la unidad.",
     "intro": "Planifica, redacta y revisa antes de enviar tu texto.",
-    "mission": "Escribe 230–300 palabras sobre «Evaluar intervenciones dirigidas a jóvenes». Incluye una idea principal, razones y una conclusión.",
+    "mission": "Escribe 230–300 palabras sobre «Contrastar vínculos digitales, atención y soledad contemporánea». Incluye una idea principal, razones y una conclusión.",
     "grammar": "impersonales, pasivas y lenguaje técnico",
     "phrases": [
       "En primer lugar…",
@@ -41514,7 +41514,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Redacta una respuesta organizada para: Evaluar intervenciones dirigidas a jóvenes."
+        "prompt": "Redacta una respuesta organizada para: Contrastar vínculos digitales, atención y soledad contemporánea."
       }
     ]
   },
@@ -41523,7 +41523,7 @@
     "level": "C2",
     "skill": "writing",
     "unitId": "ensayo-de-alta-exigencia",
-    "title": "Escribe · El agua que llega a la mesa",
+    "title": "Escribe · ¿Por qué algunos recuerdos permanecen para siempre?",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
@@ -41531,7 +41531,7 @@
     "estimatedMinutes": 18,
     "description": "Produce un texto conectado con la misión de la unidad.",
     "intro": "Planifica, redacta y revisa antes de enviar tu texto.",
-    "mission": "Escribe 230–300 palabras sobre «Construir una tesis sobre agua, agricultura, alimentos y desigualdad». Incluye una idea principal, razones y una conclusión.",
+    "mission": "Escribe 230–300 palabras sobre «Explorar la relación entre emoción, memoria y narrativa personal». Incluye una idea principal, razones y una conclusión.",
     "grammar": "progresión temática y cohesión global",
     "phrases": [
       "En primer lugar…",
@@ -41547,7 +41547,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Redacta una respuesta organizada para: Construir una tesis sobre agua, agricultura, alimentos y desigualdad."
+        "prompt": "Redacta una respuesta organizada para: Explorar la relación entre emoción, memoria y narrativa personal."
       }
     ]
   },
@@ -42147,14 +42147,14 @@
     "xpReward": 30,
     "orderIndex": 114,
     "estimatedMinutes": 14,
-    "description": "Aplica la forma gramatical dentro del tema «¿Qué significa que una política funcione?».",
+    "description": "Aplica la forma gramatical dentro del tema «¿Las redes sociales nos acercan o nos aíslan?».",
     "intro": "Observa cómo la gramática cambia la precisión y el matiz.",
     "mission": "Usa impersonales, pasivas y lenguaje técnico para explicar y justificar una propuesta.",
-    "grammar": "Foco: impersonales, pasivas y lenguaje técnico.\n\nUso: permite explicar el tema «Medir una política sin confundir actividad con resultado» con precisión y matiz.\n\nModelo: En el artículo se analizan «indicador» y «cobertura» desde perspectivas distintas.",
+    "grammar": "Foco: impersonales, pasivas y lenguaje técnico.\n\nUso: permite explicar el tema «¿Las redes sociales nos acercan o nos aíslan?» con precisión y matiz.\n\nModelo: En el artículo se analizan «vínculo» y «aislamiento» desde perspectivas distintas.",
     "phrases": [
-      "En el artículo se analizan «indicador» y «cobertura» desde perspectivas distintas.",
-      "El texto relaciona «indicador» con «cobertura».",
-      "Antes de concluir, conviene revisar «implementación»."
+      "En el artículo se analizan «vínculo» y «aislamiento» desde perspectivas distintas.",
+      "El texto relaciona «vínculo» con «aislamiento».",
+      "Antes de concluir, conviene revisar «interacción»."
     ],
     "vocabulary": [],
     "dialogue": [],
@@ -42195,19 +42195,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "En el artículo se analizan «indicador» y «cobertura» desde perspectivas distintas."
+                "text": "En el artículo se analizan «vínculo» y «aislamiento» desde perspectivas distintas."
               },
               {
                 "id": "o2",
-                "text": "indicador cobertura implementación."
+                "text": "vínculo aislamiento interacción."
               },
               {
                 "id": "o3",
-                "text": "Porque indicador y cobertura."
+                "text": "Porque vínculo y aislamiento."
               },
               {
                 "id": "o4",
-                "text": "implementación sin contexto decidir."
+                "text": "interacción sin contexto decidir."
               }
             ]
           },
@@ -42218,19 +42218,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "La evidencia ayuda a interpretar «indicador» antes de concluir."
+                "text": "La evidencia ayuda a interpretar «vínculo» antes de concluir."
               },
               {
                 "id": "o2",
-                "text": "La evidencia «indicador» concluir antes."
+                "text": "La evidencia «vínculo» concluir antes."
               },
               {
                 "id": "o3",
-                "text": "Interpretar evidencia porque «indicador»."
+                "text": "Interpretar evidencia porque «vínculo»."
               },
               {
                 "id": "o4",
-                "text": "«indicador» evidencia sin."
+                "text": "«vínculo» evidencia sin."
               }
             ]
           },
@@ -42277,10 +42277,10 @@
         "type": "mcq",
         "prompt": "¿Qué oración usa la estructura de la unidad para hablar del Reading?",
         "options": [
-          "En el artículo se analizan «indicador» y «cobertura» desde perspectivas distintas.",
-          "indicador cobertura implementación.",
-          "Porque indicador y cobertura.",
-          "implementación sin contexto decidir."
+          "En el artículo se analizan «vínculo» y «aislamiento» desde perspectivas distintas.",
+          "vínculo aislamiento interacción.",
+          "Porque vínculo y aislamiento.",
+          "interacción sin contexto decidir."
         ],
         "explanation": "La primera opción relaciona la estructura gramatical con el tema y el vocabulario de la lección."
       },
@@ -42288,10 +42288,10 @@
         "type": "mcq",
         "prompt": "¿Qué opción mantiene mejor el sentido del texto?",
         "options": [
-          "La evidencia ayuda a interpretar «indicador» antes de concluir.",
-          "La evidencia «indicador» concluir antes.",
-          "Interpretar evidencia porque «indicador».",
-          "«indicador» evidencia sin."
+          "La evidencia ayuda a interpretar «vínculo» antes de concluir.",
+          "La evidencia «vínculo» concluir antes.",
+          "Interpretar evidencia porque «vínculo».",
+          "«vínculo» evidencia sin."
         ],
         "explanation": "La primera opción presenta una relación lógica y una idea completa."
       },
@@ -42319,14 +42319,14 @@
     "xpReward": 30,
     "orderIndex": 114,
     "estimatedMinutes": 14,
-    "description": "Aplica la forma gramatical dentro del tema «El agua que llega a la mesa».",
+    "description": "Aplica la forma gramatical dentro del tema «¿Por qué algunos recuerdos permanecen para siempre?».",
     "intro": "Observa cómo la gramática cambia la precisión y el matiz.",
     "mission": "Usa progresión temática y cohesión global para explicar y justificar una propuesta.",
-    "grammar": "Foco: progresión temática y cohesión global.\n\nUso: permite explicar el tema «El agua que llega a la mesa» con precisión y matiz.\n\nModelo: Aunque «cuenca» parece una decisión individual, conviene considerar «sequía» y «riego».",
+    "grammar": "Foco: progresión temática y cohesión global.\n\nUso: permite explicar el tema «¿Por qué algunos recuerdos permanecen para siempre?» con precisión y matiz.\n\nModelo: Aunque «memoria» parece una decisión individual, conviene considerar «emoción» y «recuerdo».",
     "phrases": [
-      "Aunque «cuenca» parece una decisión individual, conviene considerar «sequía» y «riego».",
-      "El texto relaciona «cuenca» con «sequía».",
-      "Antes de concluir, conviene revisar «riego»."
+      "Aunque «memoria» parece una decisión individual, conviene considerar «emoción» y «recuerdo».",
+      "El texto relaciona «memoria» con «emoción».",
+      "Antes de concluir, conviene revisar «recuerdo»."
     ],
     "vocabulary": [],
     "dialogue": [],
@@ -42367,19 +42367,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Aunque «cuenca» parece una decisión individual, conviene considerar «sequía» y «riego»."
+                "text": "Aunque «memoria» parece una decisión individual, conviene considerar «emoción» y «recuerdo»."
               },
               {
                 "id": "o2",
-                "text": "cuenca sequía riego."
+                "text": "memoria emoción recuerdo."
               },
               {
                 "id": "o3",
-                "text": "Porque cuenca y sequía."
+                "text": "Porque memoria y emoción."
               },
               {
                 "id": "o4",
-                "text": "riego sin contexto decidir."
+                "text": "recuerdo sin contexto decidir."
               }
             ]
           },
@@ -42390,19 +42390,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "La evidencia ayuda a interpretar «cuenca» antes de concluir."
+                "text": "La evidencia ayuda a interpretar «memoria» antes de concluir."
               },
               {
                 "id": "o2",
-                "text": "La evidencia «cuenca» concluir antes."
+                "text": "La evidencia «memoria» concluir antes."
               },
               {
                 "id": "o3",
-                "text": "Interpretar evidencia porque «cuenca»."
+                "text": "Interpretar evidencia porque «memoria»."
               },
               {
                 "id": "o4",
-                "text": "«cuenca» evidencia sin."
+                "text": "«memoria» evidencia sin."
               }
             ]
           },
@@ -42449,10 +42449,10 @@
         "type": "mcq",
         "prompt": "¿Qué oración usa la estructura de la unidad para hablar del Reading?",
         "options": [
-          "Aunque «cuenca» parece una decisión individual, conviene considerar «sequía» y «riego».",
-          "cuenca sequía riego.",
-          "Porque cuenca y sequía.",
-          "riego sin contexto decidir."
+          "Aunque «memoria» parece una decisión individual, conviene considerar «emoción» y «recuerdo».",
+          "memoria emoción recuerdo.",
+          "Porque memoria y emoción.",
+          "recuerdo sin contexto decidir."
         ],
         "explanation": "La primera opción relaciona la estructura gramatical con el tema y el vocabulario de la lección."
       },
@@ -42460,10 +42460,10 @@
         "type": "mcq",
         "prompt": "¿Qué opción mantiene mejor el sentido del texto?",
         "options": [
-          "La evidencia ayuda a interpretar «cuenca» antes de concluir.",
-          "La evidencia «cuenca» concluir antes.",
-          "Interpretar evidencia porque «cuenca».",
-          "«cuenca» evidencia sin."
+          "La evidencia ayuda a interpretar «memoria» antes de concluir.",
+          "La evidencia «memoria» concluir antes.",
+          "Interpretar evidencia porque «memoria».",
+          "«memoria» evidencia sin."
         ],
         "explanation": "La primera opción presenta una relación lógica y una idea completa."
       },
@@ -43047,7 +43047,7 @@
     "level": "C1",
     "skill": "vocabulary",
     "unitId": "politicas-publicas",
-    "title": "Vocabulario · ¿Qué significa que una política funcione?",
+    "title": "Vocabulario · ¿Las redes sociales nos acercan o nos aíslan?",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
@@ -43060,50 +43060,50 @@
     "phrases": [],
     "vocabulary": [
       {
-        "word": "indicador",
-        "translation": "English support: indicador",
-        "definition": "Término clave para comprender «Medir una política sin confundir actividad con resultado» y analizar evaluar intervenciones dirigidas a jóvenes.",
-        "example": "En el artículo se analizan «indicador» y «cobertura» desde perspectivas distintas. Esta frase sitúa «indicador» dentro del tema de la unidad.",
+        "word": "vínculo",
+        "translation": "English support: vínculo",
+        "definition": "Término clave para comprender «¿Las redes sociales nos acercan o nos aíslan?» y analizar contrastar vínculos digitales, atención y soledad contemporánea.",
+        "example": "En el artículo se analizan «vínculo» y «aislamiento» desde perspectivas distintas. Esta frase sitúa «vínculo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 1
       },
       {
-        "word": "cobertura",
-        "translation": "English support: cobertura",
-        "definition": "Término clave para comprender «Medir una política sin confundir actividad con resultado» y analizar evaluar intervenciones dirigidas a jóvenes.",
-        "example": "En el artículo se analizan «indicador» y «cobertura» desde perspectivas distintas. Esta frase sitúa «cobertura» dentro del tema de la unidad.",
+        "word": "aislamiento",
+        "translation": "English support: aislamiento",
+        "definition": "Término clave para comprender «¿Las redes sociales nos acercan o nos aíslan?» y analizar contrastar vínculos digitales, atención y soledad contemporánea.",
+        "example": "En el artículo se analizan «vínculo» y «aislamiento» desde perspectivas distintas. Esta frase sitúa «aislamiento» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 2
       },
       {
-        "word": "implementación",
-        "translation": "English support: implementación",
-        "definition": "Término clave para comprender «Medir una política sin confundir actividad con resultado» y analizar evaluar intervenciones dirigidas a jóvenes.",
-        "example": "En el artículo se analizan «indicador» y «cobertura» desde perspectivas distintas. Esta frase sitúa «implementación» dentro del tema de la unidad.",
+        "word": "interacción",
+        "translation": "English support: interacción",
+        "definition": "Término clave para comprender «¿Las redes sociales nos acercan o nos aíslan?» y analizar contrastar vínculos digitales, atención y soledad contemporánea.",
+        "example": "En el artículo se analizan «vínculo» y «aislamiento» desde perspectivas distintas. Esta frase sitúa «interacción» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 3
       },
       {
-        "word": "sesgo de selección",
-        "translation": "English support: sesgo de selección",
-        "definition": "Término clave para comprender «Medir una política sin confundir actividad con resultado» y analizar evaluar intervenciones dirigidas a jóvenes.",
-        "example": "En el artículo se analizan «indicador» y «cobertura» desde perspectivas distintas. Esta frase sitúa «sesgo de selección» dentro del tema de la unidad.",
-        "partOfSpeech": "locución",
+        "word": "presencia",
+        "translation": "English support: presencia",
+        "definition": "Término clave para comprender «¿Las redes sociales nos acercan o nos aíslan?» y analizar contrastar vínculos digitales, atención y soledad contemporánea.",
+        "example": "En el artículo se analizan «vínculo» y «aislamiento» desde perspectivas distintas. Esta frase sitúa «presencia» dentro del tema de la unidad.",
+        "partOfSpeech": "sustantivo",
         "unitOrder": 4
       },
       {
-        "word": "resultado",
-        "translation": "English support: resultado",
-        "definition": "Término clave para comprender «Medir una política sin confundir actividad con resultado» y analizar evaluar intervenciones dirigidas a jóvenes.",
-        "example": "En el artículo se analizan «indicador» y «cobertura» desde perspectivas distintas. Esta frase sitúa «resultado» dentro del tema de la unidad.",
+        "word": "algoritmo",
+        "translation": "English support: algoritmo",
+        "definition": "Término clave para comprender «¿Las redes sociales nos acercan o nos aíslan?» y analizar contrastar vínculos digitales, atención y soledad contemporánea.",
+        "example": "En el artículo se analizan «vínculo» y «aislamiento» desde perspectivas distintas. Esta frase sitúa «algoritmo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 5
       },
       {
-        "word": "evaluación",
-        "translation": "English support: evaluación",
-        "definition": "Término clave para comprender «Medir una política sin confundir actividad con resultado» y analizar evaluar intervenciones dirigidas a jóvenes.",
-        "example": "En el artículo se analizan «indicador» y «cobertura» desde perspectivas distintas. Esta frase sitúa «evaluación» dentro del tema de la unidad.",
+        "word": "comunidad",
+        "translation": "English support: comunidad",
+        "definition": "Término clave para comprender «¿Las redes sociales nos acercan o nos aíslan?» y analizar contrastar vínculos digitales, atención y soledad contemporánea.",
+        "example": "En el artículo se analizan «vínculo» y «aislamiento» desde perspectivas distintas. Esta frase sitúa «comunidad» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 6
       }
@@ -43115,69 +43115,69 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «¿Qué significa que una política funcione?»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «¿Las redes sociales nos acercan o nos aíslan?»?",
         "options": [
           "desayuno",
-          "indicador",
+          "vínculo",
           "zapato",
           "ventana"
         ],
-        "explanation": "«indicador» forma parte del vocabulario de esta unidad."
+        "explanation": "«vínculo» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «¿Qué significa que una política funcione?»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «¿Las redes sociales nos acercan o nos aíslan?»?",
         "options": [
           "desayuno",
-          "cobertura",
+          "aislamiento",
           "zapato",
           "ventana"
         ],
-        "explanation": "«cobertura» forma parte del vocabulario de esta unidad."
+        "explanation": "«aislamiento» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «¿Qué significa que una política funcione?»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «¿Las redes sociales nos acercan o nos aíslan?»?",
         "options": [
           "desayuno",
-          "implementación",
+          "interacción",
           "zapato",
           "ventana"
         ],
-        "explanation": "«implementación» forma parte del vocabulario de esta unidad."
+        "explanation": "«interacción» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «¿Qué significa que una política funcione?»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «¿Las redes sociales nos acercan o nos aíslan?»?",
         "options": [
           "desayuno",
-          "sesgo de selección",
+          "presencia",
           "zapato",
           "ventana"
         ],
-        "explanation": "«sesgo de selección» forma parte del vocabulario de esta unidad."
+        "explanation": "«presencia» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «¿Qué significa que una política funcione?»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «¿Las redes sociales nos acercan o nos aíslan?»?",
         "options": [
           "desayuno",
-          "resultado",
+          "algoritmo",
           "zapato",
           "ventana"
         ],
-        "explanation": "«resultado» forma parte del vocabulario de esta unidad."
+        "explanation": "«algoritmo» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «¿Qué significa que una política funcione?»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «¿Las redes sociales nos acercan o nos aíslan?»?",
         "options": [
           "desayuno",
-          "evaluación",
+          "comunidad",
           "zapato",
           "ventana"
         ],
-        "explanation": "«evaluación» forma parte del vocabulario de esta unidad."
+        "explanation": "«comunidad» forma parte del vocabulario de esta unidad."
       }
     ]
   },
@@ -43186,7 +43186,7 @@
     "level": "C2",
     "skill": "vocabulary",
     "unitId": "ensayo-de-alta-exigencia",
-    "title": "Vocabulario · El agua que llega a la mesa",
+    "title": "Vocabulario · ¿Por qué algunos recuerdos permanecen para siempre?",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
@@ -43199,50 +43199,50 @@
     "phrases": [],
     "vocabulary": [
       {
-        "word": "cuenca",
-        "translation": "English support: cuenca",
-        "definition": "Término clave para comprender «El agua que llega a la mesa» y analizar construir una tesis sobre agua, agricultura, alimentos y desigualdad.",
-        "example": "Aunque «cuenca» parece una decisión individual, conviene considerar «sequía» y «riego». Esta frase sitúa «cuenca» dentro del tema de la unidad.",
+        "word": "memoria",
+        "translation": "English support: memoria",
+        "definition": "Término clave para comprender «¿Por qué algunos recuerdos permanecen para siempre?» y analizar explorar la relación entre emoción, memoria y narrativa personal.",
+        "example": "Aunque «memoria» parece una decisión individual, conviene considerar «emoción» y «recuerdo». Esta frase sitúa «memoria» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 1
       },
       {
-        "word": "sequía",
-        "translation": "English support: sequía",
-        "definition": "Término clave para comprender «El agua que llega a la mesa» y analizar construir una tesis sobre agua, agricultura, alimentos y desigualdad.",
-        "example": "Aunque «cuenca» parece una decisión individual, conviene considerar «sequía» y «riego». Esta frase sitúa «sequía» dentro del tema de la unidad.",
+        "word": "emoción",
+        "translation": "English support: emoción",
+        "definition": "Término clave para comprender «¿Por qué algunos recuerdos permanecen para siempre?» y analizar explorar la relación entre emoción, memoria y narrativa personal.",
+        "example": "Aunque «memoria» parece una decisión individual, conviene considerar «emoción» y «recuerdo». Esta frase sitúa «emoción» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 2
       },
       {
-        "word": "riego",
-        "translation": "English support: riego",
-        "definition": "Término clave para comprender «El agua que llega a la mesa» y analizar construir una tesis sobre agua, agricultura, alimentos y desigualdad.",
-        "example": "Aunque «cuenca» parece una decisión individual, conviene considerar «sequía» y «riego». Esta frase sitúa «riego» dentro del tema de la unidad.",
+        "word": "recuerdo",
+        "translation": "English support: recuerdo",
+        "definition": "Término clave para comprender «¿Por qué algunos recuerdos permanecen para siempre?» y analizar explorar la relación entre emoción, memoria y narrativa personal.",
+        "example": "Aunque «memoria» parece una decisión individual, conviene considerar «emoción» y «recuerdo». Esta frase sitúa «recuerdo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 3
       },
       {
-        "word": "abastecimiento",
-        "translation": "English support: abastecimiento",
-        "definition": "Término clave para comprender «El agua que llega a la mesa» y analizar construir una tesis sobre agua, agricultura, alimentos y desigualdad.",
-        "example": "Aunque «cuenca» parece una decisión individual, conviene considerar «sequía» y «riego». Esta frase sitúa «abastecimiento» dentro del tema de la unidad.",
+        "word": "consolidación",
+        "translation": "English support: consolidación",
+        "definition": "Término clave para comprender «¿Por qué algunos recuerdos permanecen para siempre?» y analizar explorar la relación entre emoción, memoria y narrativa personal.",
+        "example": "Aunque «memoria» parece una decisión individual, conviene considerar «emoción» y «recuerdo». Esta frase sitúa «consolidación» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 4
       },
       {
-        "word": "desigualdad",
-        "translation": "English support: desigualdad",
-        "definition": "Término clave para comprender «El agua que llega a la mesa» y analizar construir una tesis sobre agua, agricultura, alimentos y desigualdad.",
-        "example": "Aunque «cuenca» parece una decisión individual, conviene considerar «sequía» y «riego». Esta frase sitúa «desigualdad» dentro del tema de la unidad.",
+        "word": "evocación",
+        "translation": "English support: evocación",
+        "definition": "Término clave para comprender «¿Por qué algunos recuerdos permanecen para siempre?» y analizar explorar la relación entre emoción, memoria y narrativa personal.",
+        "example": "Aunque «memoria» parece una decisión individual, conviene considerar «emoción» y «recuerdo». Esta frase sitúa «evocación» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 5
       },
       {
-        "word": "prioridad",
-        "translation": "English support: prioridad",
-        "definition": "Término clave para comprender «El agua que llega a la mesa» y analizar construir una tesis sobre agua, agricultura, alimentos y desigualdad.",
-        "example": "Aunque «cuenca» parece una decisión individual, conviene considerar «sequía» y «riego». Esta frase sitúa «prioridad» dentro del tema de la unidad.",
+        "word": "sesgo",
+        "translation": "English support: sesgo",
+        "definition": "Término clave para comprender «¿Por qué algunos recuerdos permanecen para siempre?» y analizar explorar la relación entre emoción, memoria y narrativa personal.",
+        "example": "Aunque «memoria» parece una decisión individual, conviene considerar «emoción» y «recuerdo». Esta frase sitúa «sesgo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 6
       }
@@ -43254,69 +43254,69 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «El agua que llega a la mesa»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «¿Por qué algunos recuerdos permanecen para siempre?»?",
         "options": [
           "desayuno",
-          "cuenca",
+          "memoria",
           "zapato",
           "ventana"
         ],
-        "explanation": "«cuenca» forma parte del vocabulario de esta unidad."
+        "explanation": "«memoria» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «El agua que llega a la mesa»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «¿Por qué algunos recuerdos permanecen para siempre?»?",
         "options": [
           "desayuno",
-          "sequía",
+          "emoción",
           "zapato",
           "ventana"
         ],
-        "explanation": "«sequía» forma parte del vocabulario de esta unidad."
+        "explanation": "«emoción» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «El agua que llega a la mesa»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «¿Por qué algunos recuerdos permanecen para siempre?»?",
         "options": [
           "desayuno",
-          "riego",
+          "recuerdo",
           "zapato",
           "ventana"
         ],
-        "explanation": "«riego» forma parte del vocabulario de esta unidad."
+        "explanation": "«recuerdo» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «El agua que llega a la mesa»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «¿Por qué algunos recuerdos permanecen para siempre?»?",
         "options": [
           "desayuno",
-          "abastecimiento",
+          "consolidación",
           "zapato",
           "ventana"
         ],
-        "explanation": "«abastecimiento» forma parte del vocabulario de esta unidad."
+        "explanation": "«consolidación» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «El agua que llega a la mesa»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «¿Por qué algunos recuerdos permanecen para siempre?»?",
         "options": [
           "desayuno",
-          "desigualdad",
+          "evocación",
           "zapato",
           "ventana"
         ],
-        "explanation": "«desigualdad» forma parte del vocabulario de esta unidad."
+        "explanation": "«evocación» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «El agua que llega a la mesa»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «¿Por qué algunos recuerdos permanecen para siempre?»?",
         "options": [
           "desayuno",
-          "prioridad",
+          "sesgo",
           "zapato",
           "ventana"
         ],
-        "explanation": "«prioridad» forma parte del vocabulario de esta unidad."
+        "explanation": "«sesgo» forma parte del vocabulario de esta unidad."
       }
     ]
   },
@@ -43686,22 +43686,22 @@
     "level": "C1",
     "skill": "reading",
     "unitId": "coloquio-academico",
-    "title": "Participar no es solo ser escuchado",
+    "title": "Aprender un idioma después de los cincuenta años",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 120,
     "estimatedMinutes": 18,
-    "description": "ponencia cívica: participar sin ser un adorno.",
+    "description": "historia inspiradora: aprender un idioma después de los cincuenta años.",
     "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
-    "mission": "Evaluar consulta, representación e incidencia real",
+    "mission": "Cuestionar prejuicios sobre edad, memoria y aprendizaje",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Participar no es solo ser escuchado",
-      "text": "La participación juvenil aparece con frecuencia en foros, consultas y campañas institucionales.\n\nEl desafío es distinguir entre escuchar una opinión y permitir que esa opinión modifique una decisión, un presupuesto o una norma.\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «participación», «consulta» y «incidencia» no son adornos: permiten describir el problema con mayor precisión.\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, conectores de reformulación y reserva ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.\n\nEsto tiene consecuencias prácticas. Las decisiones sobre analizar formas de participación juvenil en decisiones públicas deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: evaluar consulta, representación e incidencia real. Hablar de incidencia real, representación y seguimiento público supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.",
+      "title": "Aprender un idioma después de los cincuenta años",
+      "text": "La participación juvenil aparece con frecuencia en foros, consultas y campañas institucionales.\n\nEl desafío es distinguir entre escuchar una opinión y permitir que esa opinión modifique una decisión, un presupuesto o una norma.\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «constancia», «memoria» y «fluidez» no son adornos: permiten describir el problema con mayor precisión.\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, conectores de reformulación y reserva ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.\n\nEsto tiene consecuencias prácticas. Las decisiones sobre conocer una historia de aprendizaje adulto y persistencia deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: cuestionar prejuicios sobre edad, memoria y aprendizaje. Hablar de incidencia real, representación y seguimiento público supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.",
       "questions": [
         "¿Cuál es el problema central que analiza la lectura?",
         "¿Qué exige el texto antes de aceptar una conclusión?",
@@ -43781,22 +43781,22 @@
     "level": "C2",
     "skill": "reading",
     "unitId": "defensa-y-sintesis",
-    "title": "Cultura latina global: quién cuenta la historia",
+    "title": "Cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
     "orderIndex": 120,
     "estimatedMinutes": 18,
-    "description": "defensa cultural: cultura latina global: quién cuenta la historia.",
+    "description": "narrativa empresarial: cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global.",
     "intro": "Lee para identificar el tema, las perspectivas, la evidencia y la conclusión.",
-    "mission": "Defender una conclusión sobre representación, mercado y creación colectiva",
+    "mission": "Sintetizar innovación, estrategia, escala y consecuencias sociales",
     "grammar": "",
     "phrases": [],
     "vocabulary": [],
     "dialogue": [],
     "reading": {
-      "title": "Cultura latina global: quién cuenta la historia",
-      "text": "Los desafíos climáticos, tecnológicos y sociales se presentan a menudo como si una solución única pudiera resolverlos.\n\nUna conclusión rigurosa debe integrar evidencia diversa, reconocer intereses en conflicto y explicar qué datos la modificarían sin renunciar por ello a una posición razonada.\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «circulación», «referente» y «industria cultural» no son adornos: permiten describir el problema con mayor precisión.\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, selección estratégica de todos los recursos C2 ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.\n\nHay además una dificultad de segundo orden: los marcos con que se mide el problema pueden inclinar la conclusión. Un indicador hace visible una parte de la realidad y puede dejar otra fuera; una fuente autorizada merece atención, pero no elimina la necesidad de examinar su método, su alcance y sus intereses. El lector experto no busca una neutralidad imposible, sino criterios explícitos para comparar argumentos.\n\nEsto tiene consecuencias prácticas. Las decisiones sobre sintetizar el papel de la música, el cine y la gastronomía en la proyección cultural deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: defender una conclusión sobre representación, mercado y creación colectiva. Hablar de síntesis, incertidumbre y responsabilidad pública supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.",
+      "title": "Cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global",
+      "text": "Los desafíos climáticos, tecnológicos y sociales se presentan a menudo como si una solución única pudiera resolverlos.\n\nUna conclusión rigurosa debe integrar evidencia diversa, reconocer intereses en conflicto y explicar qué datos la modificarían sin renunciar por ello a una posición razonada.\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «idea», «prototipo» y «escala» no son adornos: permiten describir el problema con mayor precisión.\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, selección estratégica de todos los recursos C2 ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.\n\nHay además una dificultad de segundo orden: los marcos con que se mide el problema pueden inclinar la conclusión. Un indicador hace visible una parte de la realidad y puede dejar otra fuera; una fuente autorizada merece atención, pero no elimina la necesidad de examinar su método, su alcance y sus intereses. El lector experto no busca una neutralidad imposible, sino criterios explícitos para comparar argumentos.\n\nEsto tiene consecuencias prácticas. Las decisiones sobre seguir la historia de una idea que se vuelve organización mundial deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: sintetizar innovación, estrategia, escala y consecuencias sociales. Hablar de síntesis, incertidumbre y responsabilidad pública supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.",
       "questions": [
         "¿Cuál es el problema central que analiza la lectura?",
         "¿Qué exige el texto antes de aceptar una conclusión?",
@@ -44590,33 +44590,33 @@
     "level": "C1",
     "skill": "listening",
     "unitId": "coloquio-academico",
-    "title": "Escucha · Participar no es solo ser escuchado",
+    "title": "Escucha · Aprender un idioma después de los cincuenta años",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
     "orderIndex": 121,
     "estimatedMinutes": 14,
-    "description": "Crónica de audio conectada con el Reading «Participar no es solo ser escuchado».",
+    "description": "Historia inspiradora sobre «Aprender un idioma después de los cincuenta años».",
     "intro": "Escucha una adaptación integral del tema antes de consultar la transcripción.",
     "mission": "Reconoce cómo el vocabulario y conectores de reformulación y reserva organizan una explicación oral compleja.",
     "grammar": "",
     "phrases": [
-      "participación",
-      "consulta",
-      "incidencia",
-      "Aunque «participación» parece una decisión individual, conviene considerar «consulta» y «incidencia»."
+      "constancia",
+      "memoria",
+      "fluidez",
+      "Aunque «constancia» parece una decisión individual, conviene considerar «memoria» y «fluidez»."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "La participación juvenil aparece con frecuencia en foros, consultas y campañas institucionales. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «participación», «consulta» y «incidencia». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «participación» parece una decisión individual, conviene considerar «consulta» y «incidencia». Desde esta perspectiva, evaluar consulta, representación e incidencia real no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de participar sin ser un adorno implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«representación», «propuesta» y «rendición de cuentas»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «ponencia académica», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada.",
+    "transcript": "A los cincuenta y seis años, Elena decidió aprender un idioma que siempre había querido hablar. No buscaba demostrar que la edad no importa; quería descubrir qué ocurre cuando la práctica y la curiosidad ocupan el lugar del miedo a equivocarse. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «constancia», «memoria» y «fluidez». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «constancia» parece una decisión individual, conviene considerar «memoria» y «fluidez». Desde esta perspectiva, cuestionar prejuicios sobre edad, memoria y aprendizaje no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de aprender un idioma después de los cincuenta años implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«práctica», «confianza» y «progreso»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «historia inspiradora», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En conocer una historia de aprendizaje adulto y persistencia, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «constancia», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
     "extra": {
       "listeningType": "story",
       "difficulty": "C1",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "La participación juvenil aparece con frecuencia en foros, consultas y campañas institucionales. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «participación», «consulta» y «incidencia». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «participación» parece una decisión individual, conviene considerar «consulta» y «incidencia». Desde esta perspectiva, evaluar consulta, representación e incidencia real no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de participar sin ser un adorno implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«representación», «propuesta» y «rendición de cuentas»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «ponencia académica», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada.",
+      "transcript": "A los cincuenta y seis años, Elena decidió aprender un idioma que siempre había querido hablar. No buscaba demostrar que la edad no importa; quería descubrir qué ocurre cuando la práctica y la curiosidad ocupan el lugar del miedo a equivocarse. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «constancia», «memoria» y «fluidez». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «constancia» parece una decisión individual, conviene considerar «memoria» y «fluidez». Desde esta perspectiva, cuestionar prejuicios sobre edad, memoria y aprendizaje no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.  La idea final es clara: hablar de aprender un idioma después de los cincuenta años implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«práctica», «confianza» y «progreso»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «historia inspiradora», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En conocer una historia de aprendizaje adulto y persistencia, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «constancia», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
       "listeningComprehension": {
         "id": "spanish-c1-coloquio-academico-listening-comprehension",
         "passingScore": 70,
@@ -44769,33 +44769,33 @@
     "level": "C2",
     "skill": "listening",
     "unitId": "defensa-y-sintesis",
-    "title": "Escucha · Cultura latina global: quién cuenta la historia",
+    "title": "Escucha · Cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
     "orderIndex": 121,
     "estimatedMinutes": 14,
-    "description": "Crónica de audio conectada con el Reading «Cultura latina global: quién cuenta la historia».",
+    "description": "Narrativa empresarial sobre «Cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global».",
     "intro": "Escucha una adaptación integral del tema antes de consultar la transcripción.",
     "mission": "Reconoce cómo el vocabulario y selección estratégica de todos los recursos C2 organizan una explicación oral compleja.",
     "grammar": "",
     "phrases": [
-      "circulación",
-      "referente",
-      "industria cultural",
-      "Aunque «circulación» parece una decisión individual, conviene considerar «referente» y «industria cultural»."
+      "idea",
+      "prototipo",
+      "escala",
+      "Aunque «idea» parece una decisión individual, conviene considerar «prototipo» y «escala»."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Los desafíos climáticos, tecnológicos y sociales se presentan a menudo como si una solución única pudiera resolverlos. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «circulación», «referente» y «industria cultural». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «circulación» parece una decisión individual, conviene considerar «referente» y «industria cultural». Desde esta perspectiva, defender una conclusión sobre representación, mercado y creación colectiva no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de cultura latina global: quién cuenta la historia implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«visibilidad», «autoría» y «proyección»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «defensa oral», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada.",
+    "transcript": "Muchas empresas globales empiezan con una idea pequeña, a veces en un garaje. Lo difícil no es solo crecer: es descubrir qué ocurre cuando una solución local se convierte en una organización que afecta a millones de personas. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «idea», «prototipo» y «escala». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «idea» parece una decisión individual, conviene considerar «prototipo» y «escala». Desde esta perspectiva, sintetizar innovación, estrategia, escala y consecuencias sociales no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«estrategia», «inversión» y «impacto»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «narrativa empresarial», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En seguir la historia de una idea que se vuelve organización mundial, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «idea», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
     "extra": {
       "listeningType": "story",
       "difficulty": "C2",
       "speakers": [
         "Narrador"
       ],
-      "transcript": "Los desafíos climáticos, tecnológicos y sociales se presentan a menudo como si una solución única pudiera resolverlos. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «circulación», «referente» y «industria cultural». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «circulación» parece una decisión individual, conviene considerar «referente» y «industria cultural». Desde esta perspectiva, defender una conclusión sobre representación, mercado y creación colectiva no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de cultura latina global: quién cuenta la historia implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«visibilidad», «autoría» y «proyección»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «defensa oral», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada.",
+      "transcript": "Muchas empresas globales empiezan con una idea pequeña, a veces en un garaje. Lo difícil no es solo crecer: es descubrir qué ocurre cuando una solución local se convierte en una organización que afecta a millones de personas. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «idea», «prototipo» y «escala». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «idea» parece una decisión individual, conviene considerar «prototipo» y «escala». Desde esta perspectiva, sintetizar innovación, estrategia, escala y consecuencias sociales no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación. La precisión no debilita el mensaje: permite que una decisión pública sea discutida, evaluada y, si es necesario, rectificada. La idea final es clara: hablar de cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global implica tomar decisiones con responsabilidad pública. El vocabulario de la unidad —«estrategia», «inversión» y «impacto»— permite explicar esas decisiones sin simplificar el problema. Antes de cerrar, recuerda esta pregunta: ¿qué evidencia necesitarías para defender tu postura y qué evidencia te haría cambiarla? En una pieza de tipo «narrativa empresarial», importa distinguir entre el caso concreto y la afirmación general. Por eso, una experiencia puede abrir una pregunta sin pretender resolverla por sí sola. En seguir la historia de una idea que se vuelve organización mundial, lo decisivo no es buscar una respuesta cómoda, sino observar qué decisiones se vuelven posibles y cuáles quedan fuera de la conversación. También conviene identificar qué voces no aparecen todavía, qué dato sería necesario para contrastar la interpretación y qué efecto tendría la decisión sobre personas con recursos distintos. Cuando se habla de «idea», por ejemplo, conviene preguntarse quién define el término, desde qué experiencia y con qué interés se lo presenta como inevitable. Una objeción razonable no destruye un argumento: obliga a hacerlo mejor. Puede mostrar que una solución funciona en un contexto y falla en otro, o que una ventaja visible desplaza un costo hacia personas que no participaron en la decisión. Esa tensión es parte del tema, no un detalle que deba esconderse para cerrar la historia rápidamente. A la vez, el análisis no debe convertir toda incertidumbre en parálisis. Las personas toman decisiones con información incompleta todos los días; la diferencia está en declarar los límites, contrastar las fuentes y dejar abierta la posibilidad de corregir el rumbo. Esa actitud permite pasar de una opinión rápida a una postura realmente defendible. Explicar estas reservas no equivale a evitar una postura. Significa ofrecer criterios para que otras personas puedan revisar el razonamiento, discutirlo con respeto y proponer una alternativa mejor fundamentada. Al escuchar, presta atención a cómo se conectan los ejemplos con la tesis: ahí suele aparecer el matiz que separa una conclusión convincente de una frase fácil de repetir. La pregunta que queda no busca una respuesta automática. Invita a revisar qué parte del relato está respaldada por evidencia, qué parte depende de una interpretación y qué decisión tomarías tú si tuvieras que asumir sus consecuencias. Escuchar con esa atención transforma un tema popular en una conversación más útil.",
       "listeningComprehension": {
         "id": "spanish-c2-defensa-y-sintesis-listening-comprehension",
         "passingScore": 70,
@@ -45145,14 +45145,14 @@
     "level": "C1",
     "skill": "speaking",
     "unitId": "coloquio-academico",
-    "title": "Habla · Participar sin ser un adorno",
+    "title": "Habla · Aprender un idioma después de los cincuenta años",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
     "orderIndex": 122,
     "estimatedMinutes": 14,
     "description": "Responde oralmente dentro del escenario de la unidad.",
-    "intro": "Analizar formas de participación juvenil en decisiones públicas",
+    "intro": "Conocer una historia de aprendizaje adulto y persistencia",
     "mission": "Graba una respuesta de 45–90 segundos: presenta tu propuesta, justifica dos razones y reconoce una posible dificultad.",
     "grammar": "",
     "phrases": [
@@ -45165,7 +45165,7 @@
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "¿Qué propones ante esta situación: analizar formas de participación juvenil en decisiones públicas?",
+        "line": "¿Qué propones ante esta situación: conocer una historia de aprendizaje adulto y persistencia?",
         "translation": "What do you propose in this situation?"
       },
       {
@@ -45180,11 +45180,11 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Explica cómo resolverías este reto: Analizar formas de participación juvenil en decisiones públicas."
+        "prompt": "Explica cómo resolverías este reto: Conocer una historia de aprendizaje adulto y persistencia."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos palabras: participación, consulta, incidencia."
+        "prompt": "Usa al menos dos palabras: constancia, memoria, fluidez."
       }
     ]
   },
@@ -45193,14 +45193,14 @@
     "level": "C2",
     "skill": "speaking",
     "unitId": "defensa-y-sintesis",
-    "title": "Habla · Cultura latina global: quién cuenta la historia",
+    "title": "Habla · Cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 30,
     "orderIndex": 122,
     "estimatedMinutes": 14,
     "description": "Responde oralmente dentro del escenario de la unidad.",
-    "intro": "Sintetizar el papel de la música, el cine y la gastronomía en la proyección cultural",
+    "intro": "Seguir la historia de una idea que se vuelve organización mundial",
     "mission": "Graba una respuesta de 45–90 segundos: presenta tu propuesta, justifica dos razones y reconoce una posible dificultad.",
     "grammar": "",
     "phrases": [
@@ -45213,7 +45213,7 @@
     "dialogue": [
       {
         "speaker": "Tutor",
-        "line": "¿Qué propones ante esta situación: sintetizar el papel de la música, el cine y la gastronomía en la proyección cultural?",
+        "line": "¿Qué propones ante esta situación: seguir la historia de una idea que se vuelve organización mundial?",
         "translation": "What do you propose in this situation?"
       },
       {
@@ -45228,11 +45228,11 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Explica cómo resolverías este reto: Sintetizar el papel de la música, el cine y la gastronomía en la proyección cultural."
+        "prompt": "Explica cómo resolverías este reto: Seguir la historia de una idea que se vuelve organización mundial."
       },
       {
         "type": "practice",
-        "prompt": "Usa al menos dos palabras: circulación, referente, industria cultural."
+        "prompt": "Usa al menos dos palabras: idea, prototipo, escala."
       }
     ]
   },
@@ -45379,7 +45379,7 @@
     "level": "C1",
     "skill": "writing",
     "unitId": "coloquio-academico",
-    "title": "Escribe · Participar sin ser un adorno",
+    "title": "Escribe · Aprender un idioma después de los cincuenta años",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
@@ -45387,7 +45387,7 @@
     "estimatedMinutes": 18,
     "description": "Produce un texto conectado con la misión de la unidad.",
     "intro": "Planifica, redacta y revisa antes de enviar tu texto.",
-    "mission": "Escribe 230–300 palabras sobre «Analizar formas de participación juvenil en decisiones públicas». Incluye una idea principal, razones y una conclusión.",
+    "mission": "Escribe 230–300 palabras sobre «Conocer una historia de aprendizaje adulto y persistencia». Incluye una idea principal, razones y una conclusión.",
     "grammar": "conectores de reformulación y reserva",
     "phrases": [
       "En primer lugar…",
@@ -45403,7 +45403,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Redacta una respuesta organizada para: Analizar formas de participación juvenil en decisiones públicas."
+        "prompt": "Redacta una respuesta organizada para: Conocer una historia de aprendizaje adulto y persistencia."
       }
     ]
   },
@@ -45412,7 +45412,7 @@
     "level": "C2",
     "skill": "writing",
     "unitId": "defensa-y-sintesis",
-    "title": "Escribe · Cultura latina global: quién cuenta la historia",
+    "title": "Escribe · Cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 35,
@@ -45420,7 +45420,7 @@
     "estimatedMinutes": 18,
     "description": "Produce un texto conectado con la misión de la unidad.",
     "intro": "Planifica, redacta y revisa antes de enviar tu texto.",
-    "mission": "Escribe 230–300 palabras sobre «Sintetizar el papel de la música, el cine y la gastronomía en la proyección cultural». Incluye una idea principal, razones y una conclusión.",
+    "mission": "Escribe 230–300 palabras sobre «Seguir la historia de una idea que se vuelve organización mundial». Incluye una idea principal, razones y una conclusión.",
     "grammar": "selección estratégica de todos los recursos C2",
     "phrases": [
       "En primer lugar…",
@@ -45436,7 +45436,7 @@
     "exercises": [
       {
         "type": "practice",
-        "prompt": "Redacta una respuesta organizada para: Sintetizar el papel de la música, el cine y la gastronomía en la proyección cultural."
+        "prompt": "Redacta una respuesta organizada para: Seguir la historia de una idea que se vuelve organización mundial."
       }
     ]
   },
@@ -46036,14 +46036,14 @@
     "xpReward": 30,
     "orderIndex": 124,
     "estimatedMinutes": 14,
-    "description": "Aplica la forma gramatical dentro del tema «Participar sin ser un adorno».",
+    "description": "Aplica la forma gramatical dentro del tema «Aprender un idioma después de los cincuenta años».",
     "intro": "Observa cómo la gramática cambia la precisión y el matiz.",
     "mission": "Usa conectores de reformulación y reserva para explicar y justificar una propuesta.",
-    "grammar": "Foco: conectores de reformulación y reserva.\n\nUso: permite explicar el tema «Participar no es solo ser escuchado» con precisión y matiz.\n\nModelo: Aunque «participación» parece una decisión individual, conviene considerar «consulta» y «incidencia».",
+    "grammar": "Foco: conectores de reformulación y reserva.\n\nUso: permite explicar el tema «Aprender un idioma después de los cincuenta años» con precisión y matiz.\n\nModelo: Aunque «constancia» parece una decisión individual, conviene considerar «memoria» y «fluidez».",
     "phrases": [
-      "Aunque «participación» parece una decisión individual, conviene considerar «consulta» y «incidencia».",
-      "El texto relaciona «participación» con «consulta».",
-      "Antes de concluir, conviene revisar «incidencia»."
+      "Aunque «constancia» parece una decisión individual, conviene considerar «memoria» y «fluidez».",
+      "El texto relaciona «constancia» con «memoria».",
+      "Antes de concluir, conviene revisar «fluidez»."
     ],
     "vocabulary": [],
     "dialogue": [],
@@ -46084,19 +46084,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Aunque «participación» parece una decisión individual, conviene considerar «consulta» y «incidencia»."
+                "text": "Aunque «constancia» parece una decisión individual, conviene considerar «memoria» y «fluidez»."
               },
               {
                 "id": "o2",
-                "text": "participación consulta incidencia."
+                "text": "constancia memoria fluidez."
               },
               {
                 "id": "o3",
-                "text": "Porque participación y consulta."
+                "text": "Porque constancia y memoria."
               },
               {
                 "id": "o4",
-                "text": "incidencia sin contexto decidir."
+                "text": "fluidez sin contexto decidir."
               }
             ]
           },
@@ -46107,19 +46107,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "La evidencia ayuda a interpretar «participación» antes de concluir."
+                "text": "La evidencia ayuda a interpretar «constancia» antes de concluir."
               },
               {
                 "id": "o2",
-                "text": "La evidencia «participación» concluir antes."
+                "text": "La evidencia «constancia» concluir antes."
               },
               {
                 "id": "o3",
-                "text": "Interpretar evidencia porque «participación»."
+                "text": "Interpretar evidencia porque «constancia»."
               },
               {
                 "id": "o4",
-                "text": "«participación» evidencia sin."
+                "text": "«constancia» evidencia sin."
               }
             ]
           },
@@ -46166,10 +46166,10 @@
         "type": "mcq",
         "prompt": "¿Qué oración usa la estructura de la unidad para hablar del Reading?",
         "options": [
-          "Aunque «participación» parece una decisión individual, conviene considerar «consulta» y «incidencia».",
-          "participación consulta incidencia.",
-          "Porque participación y consulta.",
-          "incidencia sin contexto decidir."
+          "Aunque «constancia» parece una decisión individual, conviene considerar «memoria» y «fluidez».",
+          "constancia memoria fluidez.",
+          "Porque constancia y memoria.",
+          "fluidez sin contexto decidir."
         ],
         "explanation": "La primera opción relaciona la estructura gramatical con el tema y el vocabulario de la lección."
       },
@@ -46177,10 +46177,10 @@
         "type": "mcq",
         "prompt": "¿Qué opción mantiene mejor el sentido del texto?",
         "options": [
-          "La evidencia ayuda a interpretar «participación» antes de concluir.",
-          "La evidencia «participación» concluir antes.",
-          "Interpretar evidencia porque «participación».",
-          "«participación» evidencia sin."
+          "La evidencia ayuda a interpretar «constancia» antes de concluir.",
+          "La evidencia «constancia» concluir antes.",
+          "Interpretar evidencia porque «constancia».",
+          "«constancia» evidencia sin."
         ],
         "explanation": "La primera opción presenta una relación lógica y una idea completa."
       },
@@ -46208,14 +46208,14 @@
     "xpReward": 30,
     "orderIndex": 124,
     "estimatedMinutes": 14,
-    "description": "Aplica la forma gramatical dentro del tema «Cultura latina global: quién cuenta la historia».",
+    "description": "Aplica la forma gramatical dentro del tema «Cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global».",
     "intro": "Observa cómo la gramática cambia la precisión y el matiz.",
     "mission": "Usa selección estratégica de todos los recursos C2 para explicar y justificar una propuesta.",
-    "grammar": "Foco: selección estratégica de todos los recursos C2.\n\nUso: permite explicar el tema «Cultura latina global: quién cuenta la historia» con precisión y matiz.\n\nModelo: Aunque «circulación» parece una decisión individual, conviene considerar «referente» y «industria cultural».",
+    "grammar": "Foco: selección estratégica de todos los recursos C2.\n\nUso: permite explicar el tema «Cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global» con precisión y matiz.\n\nModelo: Aunque «idea» parece una decisión individual, conviene considerar «prototipo» y «escala».",
     "phrases": [
-      "Aunque «circulación» parece una decisión individual, conviene considerar «referente» y «industria cultural».",
-      "El texto relaciona «circulación» con «referente».",
-      "Antes de concluir, conviene revisar «industria cultural»."
+      "Aunque «idea» parece una decisión individual, conviene considerar «prototipo» y «escala».",
+      "El texto relaciona «idea» con «prototipo».",
+      "Antes de concluir, conviene revisar «escala»."
     ],
     "vocabulary": [],
     "dialogue": [],
@@ -46256,19 +46256,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Aunque «circulación» parece una decisión individual, conviene considerar «referente» y «industria cultural»."
+                "text": "Aunque «idea» parece una decisión individual, conviene considerar «prototipo» y «escala»."
               },
               {
                 "id": "o2",
-                "text": "circulación referente industria cultural."
+                "text": "idea prototipo escala."
               },
               {
                 "id": "o3",
-                "text": "Porque circulación y referente."
+                "text": "Porque idea y prototipo."
               },
               {
                 "id": "o4",
-                "text": "industria cultural sin contexto decidir."
+                "text": "escala sin contexto decidir."
               }
             ]
           },
@@ -46279,19 +46279,19 @@
             "options": [
               {
                 "id": "o1",
-                "text": "La evidencia ayuda a interpretar «circulación» antes de concluir."
+                "text": "La evidencia ayuda a interpretar «idea» antes de concluir."
               },
               {
                 "id": "o2",
-                "text": "La evidencia «circulación» concluir antes."
+                "text": "La evidencia «idea» concluir antes."
               },
               {
                 "id": "o3",
-                "text": "Interpretar evidencia porque «circulación»."
+                "text": "Interpretar evidencia porque «idea»."
               },
               {
                 "id": "o4",
-                "text": "«circulación» evidencia sin."
+                "text": "«idea» evidencia sin."
               }
             ]
           },
@@ -46338,10 +46338,10 @@
         "type": "mcq",
         "prompt": "¿Qué oración usa la estructura de la unidad para hablar del Reading?",
         "options": [
-          "Aunque «circulación» parece una decisión individual, conviene considerar «referente» y «industria cultural».",
-          "circulación referente industria cultural.",
-          "Porque circulación y referente.",
-          "industria cultural sin contexto decidir."
+          "Aunque «idea» parece una decisión individual, conviene considerar «prototipo» y «escala».",
+          "idea prototipo escala.",
+          "Porque idea y prototipo.",
+          "escala sin contexto decidir."
         ],
         "explanation": "La primera opción relaciona la estructura gramatical con el tema y el vocabulario de la lección."
       },
@@ -46349,10 +46349,10 @@
         "type": "mcq",
         "prompt": "¿Qué opción mantiene mejor el sentido del texto?",
         "options": [
-          "La evidencia ayuda a interpretar «circulación» antes de concluir.",
-          "La evidencia «circulación» concluir antes.",
-          "Interpretar evidencia porque «circulación».",
-          "«circulación» evidencia sin."
+          "La evidencia ayuda a interpretar «idea» antes de concluir.",
+          "La evidencia «idea» concluir antes.",
+          "Interpretar evidencia porque «idea».",
+          "«idea» evidencia sin."
         ],
         "explanation": "La primera opción presenta una relación lógica y una idea completa."
       },
@@ -46936,7 +46936,7 @@
     "level": "C1",
     "skill": "vocabulary",
     "unitId": "coloquio-academico",
-    "title": "Vocabulario · Participar sin ser un adorno",
+    "title": "Vocabulario · Aprender un idioma después de los cincuenta años",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
@@ -46949,51 +46949,51 @@
     "phrases": [],
     "vocabulary": [
       {
-        "word": "participación",
-        "translation": "English support: participación",
-        "definition": "Término clave para comprender «Participar no es solo ser escuchado» y analizar analizar formas de participación juvenil en decisiones públicas.",
-        "example": "Aunque «participación» parece una decisión individual, conviene considerar «consulta» y «incidencia». Esta frase sitúa «participación» dentro del tema de la unidad.",
+        "word": "constancia",
+        "translation": "English support: constancia",
+        "definition": "Término clave para comprender «Aprender un idioma después de los cincuenta años» y analizar conocer una historia de aprendizaje adulto y persistencia.",
+        "example": "Aunque «constancia» parece una decisión individual, conviene considerar «memoria» y «fluidez». Esta frase sitúa «constancia» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 1
       },
       {
-        "word": "consulta",
-        "translation": "English support: consulta",
-        "definition": "Término clave para comprender «Participar no es solo ser escuchado» y analizar analizar formas de participación juvenil en decisiones públicas.",
-        "example": "Aunque «participación» parece una decisión individual, conviene considerar «consulta» y «incidencia». Esta frase sitúa «consulta» dentro del tema de la unidad.",
+        "word": "memoria",
+        "translation": "English support: memoria",
+        "definition": "Término clave para comprender «Aprender un idioma después de los cincuenta años» y analizar conocer una historia de aprendizaje adulto y persistencia.",
+        "example": "Aunque «constancia» parece una decisión individual, conviene considerar «memoria» y «fluidez». Esta frase sitúa «memoria» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 2
       },
       {
-        "word": "incidencia",
-        "translation": "English support: incidencia",
-        "definition": "Término clave para comprender «Participar no es solo ser escuchado» y analizar analizar formas de participación juvenil en decisiones públicas.",
-        "example": "Aunque «participación» parece una decisión individual, conviene considerar «consulta» y «incidencia». Esta frase sitúa «incidencia» dentro del tema de la unidad.",
+        "word": "fluidez",
+        "translation": "English support: fluidez",
+        "definition": "Término clave para comprender «Aprender un idioma después de los cincuenta años» y analizar conocer una historia de aprendizaje adulto y persistencia.",
+        "example": "Aunque «constancia» parece una decisión individual, conviene considerar «memoria» y «fluidez». Esta frase sitúa «fluidez» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 3
       },
       {
-        "word": "representación",
-        "translation": "English support: representación",
-        "definition": "Término clave para comprender «Participar no es solo ser escuchado» y analizar analizar formas de participación juvenil en decisiones públicas.",
-        "example": "Aunque «participación» parece una decisión individual, conviene considerar «consulta» y «incidencia». Esta frase sitúa «representación» dentro del tema de la unidad.",
+        "word": "práctica",
+        "translation": "English support: práctica",
+        "definition": "Término clave para comprender «Aprender un idioma después de los cincuenta años» y analizar conocer una historia de aprendizaje adulto y persistencia.",
+        "example": "Aunque «constancia» parece una decisión individual, conviene considerar «memoria» y «fluidez». Esta frase sitúa «práctica» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 4
       },
       {
-        "word": "propuesta",
-        "translation": "English support: propuesta",
-        "definition": "Término clave para comprender «Participar no es solo ser escuchado» y analizar analizar formas de participación juvenil en decisiones públicas.",
-        "example": "Aunque «participación» parece una decisión individual, conviene considerar «consulta» y «incidencia». Esta frase sitúa «propuesta» dentro del tema de la unidad.",
+        "word": "confianza",
+        "translation": "English support: confianza",
+        "definition": "Término clave para comprender «Aprender un idioma después de los cincuenta años» y analizar conocer una historia de aprendizaje adulto y persistencia.",
+        "example": "Aunque «constancia» parece una decisión individual, conviene considerar «memoria» y «fluidez». Esta frase sitúa «confianza» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 5
       },
       {
-        "word": "rendición de cuentas",
-        "translation": "English support: rendición de cuentas",
-        "definition": "Término clave para comprender «Participar no es solo ser escuchado» y analizar analizar formas de participación juvenil en decisiones públicas.",
-        "example": "Aunque «participación» parece una decisión individual, conviene considerar «consulta» y «incidencia». Esta frase sitúa «rendición de cuentas» dentro del tema de la unidad.",
-        "partOfSpeech": "locución",
+        "word": "progreso",
+        "translation": "English support: progreso",
+        "definition": "Término clave para comprender «Aprender un idioma después de los cincuenta años» y analizar conocer una historia de aprendizaje adulto y persistencia.",
+        "example": "Aunque «constancia» parece una decisión individual, conviene considerar «memoria» y «fluidez». Esta frase sitúa «progreso» dentro del tema de la unidad.",
+        "partOfSpeech": "sustantivo",
         "unitOrder": 6
       }
     ],
@@ -47004,69 +47004,69 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Participar sin ser un adorno»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Aprender un idioma después de los cincuenta años»?",
         "options": [
           "desayuno",
-          "participación",
+          "constancia",
           "zapato",
           "ventana"
         ],
-        "explanation": "«participación» forma parte del vocabulario de esta unidad."
+        "explanation": "«constancia» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Participar sin ser un adorno»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Aprender un idioma después de los cincuenta años»?",
         "options": [
           "desayuno",
-          "consulta",
+          "memoria",
           "zapato",
           "ventana"
         ],
-        "explanation": "«consulta» forma parte del vocabulario de esta unidad."
+        "explanation": "«memoria» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Participar sin ser un adorno»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Aprender un idioma después de los cincuenta años»?",
         "options": [
           "desayuno",
-          "incidencia",
+          "fluidez",
           "zapato",
           "ventana"
         ],
-        "explanation": "«incidencia» forma parte del vocabulario de esta unidad."
+        "explanation": "«fluidez» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Participar sin ser un adorno»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Aprender un idioma después de los cincuenta años»?",
         "options": [
           "desayuno",
-          "representación",
+          "práctica",
           "zapato",
           "ventana"
         ],
-        "explanation": "«representación» forma parte del vocabulario de esta unidad."
+        "explanation": "«práctica» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Participar sin ser un adorno»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Aprender un idioma después de los cincuenta años»?",
         "options": [
           "desayuno",
-          "propuesta",
+          "confianza",
           "zapato",
           "ventana"
         ],
-        "explanation": "«propuesta» forma parte del vocabulario de esta unidad."
+        "explanation": "«confianza» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Participar sin ser un adorno»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Aprender un idioma después de los cincuenta años»?",
         "options": [
           "desayuno",
-          "rendición de cuentas",
+          "progreso",
           "zapato",
           "ventana"
         ],
-        "explanation": "«rendición de cuentas» forma parte del vocabulario de esta unidad."
+        "explanation": "«progreso» forma parte del vocabulario de esta unidad."
       }
     ]
   },
@@ -47075,7 +47075,7 @@
     "level": "C2",
     "skill": "vocabulary",
     "unitId": "defensa-y-sintesis",
-    "title": "Vocabulario · Cultura latina global: quién cuenta la historia",
+    "title": "Vocabulario · Cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
@@ -47088,50 +47088,50 @@
     "phrases": [],
     "vocabulary": [
       {
-        "word": "circulación",
-        "translation": "English support: circulación",
-        "definition": "Término clave para comprender «Cultura latina global: quién cuenta la historia» y analizar sintetizar el papel de la música, el cine y la gastronomía en la proyección cultural.",
-        "example": "Aunque «circulación» parece una decisión individual, conviene considerar «referente» y «industria cultural». Esta frase sitúa «circulación» dentro del tema de la unidad.",
+        "word": "idea",
+        "translation": "English support: idea",
+        "definition": "Término clave para comprender «Cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global» y analizar seguir la historia de una idea que se vuelve organización mundial.",
+        "example": "Aunque «idea» parece una decisión individual, conviene considerar «prototipo» y «escala». Esta frase sitúa «idea» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 1
       },
       {
-        "word": "referente",
-        "translation": "English support: referente",
-        "definition": "Término clave para comprender «Cultura latina global: quién cuenta la historia» y analizar sintetizar el papel de la música, el cine y la gastronomía en la proyección cultural.",
-        "example": "Aunque «circulación» parece una decisión individual, conviene considerar «referente» y «industria cultural». Esta frase sitúa «referente» dentro del tema de la unidad.",
+        "word": "prototipo",
+        "translation": "English support: prototipo",
+        "definition": "Término clave para comprender «Cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global» y analizar seguir la historia de una idea que se vuelve organización mundial.",
+        "example": "Aunque «idea» parece una decisión individual, conviene considerar «prototipo» y «escala». Esta frase sitúa «prototipo» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 2
       },
       {
-        "word": "industria cultural",
-        "translation": "English support: industria cultural",
-        "definition": "Término clave para comprender «Cultura latina global: quién cuenta la historia» y analizar sintetizar el papel de la música, el cine y la gastronomía en la proyección cultural.",
-        "example": "Aunque «circulación» parece una decisión individual, conviene considerar «referente» y «industria cultural». Esta frase sitúa «industria cultural» dentro del tema de la unidad.",
-        "partOfSpeech": "locución",
+        "word": "escala",
+        "translation": "English support: escala",
+        "definition": "Término clave para comprender «Cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global» y analizar seguir la historia de una idea que se vuelve organización mundial.",
+        "example": "Aunque «idea» parece una decisión individual, conviene considerar «prototipo» y «escala». Esta frase sitúa «escala» dentro del tema de la unidad.",
+        "partOfSpeech": "sustantivo",
         "unitOrder": 3
       },
       {
-        "word": "visibilidad",
-        "translation": "English support: visibilidad",
-        "definition": "Término clave para comprender «Cultura latina global: quién cuenta la historia» y analizar sintetizar el papel de la música, el cine y la gastronomía en la proyección cultural.",
-        "example": "Aunque «circulación» parece una decisión individual, conviene considerar «referente» y «industria cultural». Esta frase sitúa «visibilidad» dentro del tema de la unidad.",
+        "word": "estrategia",
+        "translation": "English support: estrategia",
+        "definition": "Término clave para comprender «Cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global» y analizar seguir la historia de una idea que se vuelve organización mundial.",
+        "example": "Aunque «idea» parece una decisión individual, conviene considerar «prototipo» y «escala». Esta frase sitúa «estrategia» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 4
       },
       {
-        "word": "autoría",
-        "translation": "English support: autoría",
-        "definition": "Término clave para comprender «Cultura latina global: quién cuenta la historia» y analizar sintetizar el papel de la música, el cine y la gastronomía en la proyección cultural.",
-        "example": "Aunque «circulación» parece una decisión individual, conviene considerar «referente» y «industria cultural». Esta frase sitúa «autoría» dentro del tema de la unidad.",
+        "word": "inversión",
+        "translation": "English support: inversión",
+        "definition": "Término clave para comprender «Cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global» y analizar seguir la historia de una idea que se vuelve organización mundial.",
+        "example": "Aunque «idea» parece una decisión individual, conviene considerar «prototipo» y «escala». Esta frase sitúa «inversión» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 5
       },
       {
-        "word": "proyección",
-        "translation": "English support: proyección",
-        "definition": "Término clave para comprender «Cultura latina global: quién cuenta la historia» y analizar sintetizar el papel de la música, el cine y la gastronomía en la proyección cultural.",
-        "example": "Aunque «circulación» parece una decisión individual, conviene considerar «referente» y «industria cultural». Esta frase sitúa «proyección» dentro del tema de la unidad.",
+        "word": "impacto",
+        "translation": "English support: impacto",
+        "definition": "Término clave para comprender «Cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global» y analizar seguir la historia de una idea que se vuelve organización mundial.",
+        "example": "Aunque «idea» parece una decisión individual, conviene considerar «prototipo» y «escala». Esta frase sitúa «impacto» dentro del tema de la unidad.",
         "partOfSpeech": "sustantivo",
         "unitOrder": 6
       }
@@ -47143,69 +47143,69 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Cultura latina global: quién cuenta la historia»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global»?",
         "options": [
           "desayuno",
-          "circulación",
+          "idea",
           "zapato",
           "ventana"
         ],
-        "explanation": "«circulación» forma parte del vocabulario de esta unidad."
+        "explanation": "«idea» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Cultura latina global: quién cuenta la historia»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global»?",
         "options": [
           "desayuno",
-          "referente",
+          "prototipo",
           "zapato",
           "ventana"
         ],
-        "explanation": "«referente» forma parte del vocabulario de esta unidad."
+        "explanation": "«prototipo» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Cultura latina global: quién cuenta la historia»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global»?",
         "options": [
           "desayuno",
-          "industria cultural",
+          "escala",
           "zapato",
           "ventana"
         ],
-        "explanation": "«industria cultural» forma parte del vocabulario de esta unidad."
+        "explanation": "«escala» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Cultura latina global: quién cuenta la historia»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global»?",
         "options": [
           "desayuno",
-          "visibilidad",
+          "estrategia",
           "zapato",
           "ventana"
         ],
-        "explanation": "«visibilidad» forma parte del vocabulario de esta unidad."
+        "explanation": "«estrategia» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Cultura latina global: quién cuenta la historia»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global»?",
         "options": [
           "desayuno",
-          "autoría",
+          "inversión",
           "zapato",
           "ventana"
         ],
-        "explanation": "«autoría» forma parte del vocabulario de esta unidad."
+        "explanation": "«inversión» forma parte del vocabulario de esta unidad."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad «Cultura latina global: quién cuenta la historia»?",
+        "prompt": "¿Qué palabra pertenece a la unidad «Cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global»?",
         "options": [
           "desayuno",
-          "proyección",
+          "impacto",
           "zapato",
           "ventana"
         ],
-        "explanation": "«proyección» forma parte del vocabulario de esta unidad."
+        "explanation": "«impacto» forma parte del vocabulario de esta unidad."
       }
     ]
   }
@@ -47337,12 +47337,12 @@
     "id": "memoria-y-relato",
     "slug": "memoria-y-relato",
     "level": "C1",
-    "title": "IA y educación",
-    "titleEs": "IA y educación",
-    "description": "Analizar usos de inteligencia artificial en el aprendizaje",
+    "title": "¿La inteligencia artificial está cambiando nuestra manera de pensar?",
+    "titleEs": "¿La inteligencia artificial está cambiando nuestra manera de pensar?",
+    "description": "Explorar cómo la IA transforma la memoria, el criterio y la toma de decisiones",
     "order": 1,
     "unitOverview": {
-      "objective": "Evaluar una herramienta sin sustituir la autonomía intelectual",
+      "objective": "Usar herramientas de IA sin renunciar al pensamiento crítico",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -47360,19 +47360,19 @@
         "trazabilidad",
         "criterio"
       ],
-      "scenario": "Analizar usos de inteligencia artificial en el aprendizaje"
+      "scenario": "Explorar cómo la IA transforma la memoria, el criterio y la toma de decisiones"
     }
   },
   {
     "id": "ambiguedad-y-sentido",
     "slug": "ambiguedad-y-sentido",
     "level": "C2",
-    "title": "El Mundial 2026: más que un partido",
-    "titleEs": "El Mundial 2026: más que un partido",
-    "description": "Analizar cómo un gran evento deportivo organiza identidad, negocio y ciudad",
+    "title": "Cómo los algoritmos deciden lo que ves cada día",
+    "titleEs": "Cómo los algoritmos deciden lo que ves cada día",
+    "description": "Investigar cómo las plataformas ordenan noticias, videos y recomendaciones",
     "order": 1,
     "unitOverview": {
-      "objective": "Distinguir celebración colectiva, patrocinio y legado urbano",
+      "objective": "Reconstruir las decisiones invisibles que moldean la atención cotidiana",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -47383,14 +47383,14 @@
         "polisemia, elipsis y ambigüedad sintáctica"
       ],
       "vocabulary": [
-        "afición",
-        "sede",
-        "patrocinio",
-        "identidad",
-        "legado",
-        "representación"
+        "algoritmo",
+        "recomendación",
+        "perfil",
+        "atención",
+        "sesgo",
+        "opacidad"
       ],
-      "scenario": "Analizar cómo un gran evento deportivo organiza identidad, negocio y ciudad"
+      "scenario": "Investigar cómo las plataformas ordenan noticias, videos y recomendaciones"
     }
   },
   {
@@ -47497,12 +47497,12 @@
     "id": "retorica-publica",
     "slug": "retorica-publica",
     "level": "C1",
-    "title": "Español dominicano y registros",
-    "titleEs": "Español dominicano y registros",
-    "description": "Examinar prejuicios sobre acentos y formas de hablar",
+    "title": "De empleado a emprendedor digital: una historia de reinvención",
+    "titleEs": "De empleado a emprendedor digital: una historia de reinvención",
+    "description": "Escuchar el recorrido de una persona que rediseñó su vida profesional",
     "order": 2,
     "unitOverview": {
-      "objective": "Distinguir variedad, registro y adecuación sin establecer jerarquías",
+      "objective": "Interpretar decisiones, riesgos y cambios de identidad laboral",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -47513,26 +47513,26 @@
         "variación, registro y adecuación pragmática"
       ],
       "vocabulary": [
-        "variedad",
-        "rasgo",
-        "hablante",
-        "prestigio",
-        "regionalismo",
-        "adecuación"
+        "reinventarse",
+        "incertidumbre",
+        "proyecto",
+        "riesgo",
+        "aprendizaje",
+        "trayectoria"
       ],
-      "scenario": "Examinar prejuicios sobre acentos y formas de hablar"
+      "scenario": "Escuchar el recorrido de una persona que rediseñó su vida profesional"
     }
   },
   {
     "id": "humor-e-ironia",
     "slug": "humor-e-ironia",
     "level": "C2",
-    "title": "Videojuegos: jugar, gastar y pertenecer",
-    "titleEs": "Videojuegos: jugar, gastar y pertenecer",
-    "description": "Examinar los incentivos de compra dentro de los videojuegos",
+    "title": "Dentro de una empresa de inteligencia artificial",
+    "titleEs": "Dentro de una empresa de inteligencia artificial",
+    "description": "Entrar en las tensiones éticas y operativas de una compañía de IA",
     "order": 2,
     "unitOverview": {
-      "objective": "Reconocer diseño persuasivo, presión de grupo y consumo fragmentado",
+      "objective": "Interpretar innovación, competencia y responsabilidad desde dentro",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -47543,14 +47543,14 @@
         "ironía, eco y discurso polifónico"
       ],
       "vocabulary": [
-        "microtransacción",
-        "recompensa",
-        "azar",
-        "comunidad",
-        "impulso",
-        "pertenencia"
+        "modelo",
+        "entrenamiento",
+        "datos",
+        "despliegue",
+        "supervisión",
+        "riesgo"
       ],
-      "scenario": "Examinar los incentivos de compra dentro de los videojuegos"
+      "scenario": "Entrar en las tensiones éticas y operativas de una compañía de IA"
     }
   },
   {
@@ -47657,12 +47657,12 @@
     "id": "periodismo-de-investigacion",
     "slug": "periodismo-de-investigacion",
     "level": "C1",
-    "title": "Clima, salud y resiliencia",
-    "titleEs": "Clima, salud y resiliencia",
-    "description": "Relacionar cambio climático, bienestar y educación",
+    "title": "El día que Internet desapareció durante 24 horas",
+    "titleEs": "El día que Internet desapareció durante 24 horas",
+    "description": "Seguir las consecuencias cotidianas de una caída total de conexión",
     "order": 3,
     "unitOverview": {
-      "objective": "Interpretar riesgos climáticos y respuestas colectivas con perspectiva social",
+      "objective": "Relacionar dependencia digital, servicios esenciales y respuestas colectivas",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -47673,26 +47673,26 @@
         "conectores causales, consecutivos y concesivos"
       ],
       "vocabulary": [
-        "vulnerabilidad",
-        "adaptación",
-        "resiliencia",
+        "conexión",
+        "colapso",
         "infraestructura",
-        "prevención",
-        "desigualdad"
+        "emergencia",
+        "alternativa",
+        "dependencia"
       ],
-      "scenario": "Relacionar cambio climático, bienestar y educación"
+      "scenario": "Seguir las consecuencias cotidianas de una caída total de conexión"
     }
   },
   {
     "id": "traduccion-y-mediacion",
     "slug": "traduccion-y-mediacion",
     "level": "C2",
-    "title": "La música en español viaja distinto",
-    "titleEs": "La música en español viaja distinto",
-    "description": "Mediar entre una escena local y una audiencia global",
+    "title": "Un corresponsal de guerra cuenta lo que nunca salió en televisión",
+    "titleEs": "Un corresponsal de guerra cuenta lo que nunca salió en televisión",
+    "description": "Escuchar el relato de quien informa desde un conflicto armado",
     "order": 3,
     "unitOverview": {
-      "objective": "Reformular identidad cultural sin convertirla en estereotipo",
+      "objective": "Distinguir testimonio, censura, seguridad y responsabilidad periodística",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -47703,14 +47703,14 @@
         "equivalencia pragmática y transposición"
       ],
       "vocabulary": [
-        "escena",
-        "colaboración",
-        "audiencia",
-        "circulación",
-        "repertorio",
-        "pertenencia"
+        "corresponsal",
+        "conflicto",
+        "testimonio",
+        "censura",
+        "fuente",
+        "riesgo"
       ],
-      "scenario": "Mediar entre una escena local y una audiencia global"
+      "scenario": "Escuchar el relato de quien informa desde un conflicto armado"
     }
   },
   {
@@ -47817,12 +47817,12 @@
     "id": "justicia-y-reparacion",
     "slug": "justicia-y-reparacion",
     "level": "C1",
-    "title": "Memoria, justicia y reparación",
-    "titleEs": "Memoria, justicia y reparación",
-    "description": "Examinar cómo una sociedad responde a daños históricos",
+    "title": "Vivir un año en otro país cambió mi forma de ver el mundo",
+    "titleEs": "Vivir un año en otro país cambió mi forma de ver el mundo",
+    "description": "Conocer un testimonio de adaptación cultural y distancia emocional",
     "order": 4,
     "unitOverview": {
-      "objective": "Distinguir reconocimiento simbólico, reparación material y garantías de no repetición",
+      "objective": "Reconocer cómo la experiencia intercultural modifica certezas y pertenencias",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -47833,26 +47833,26 @@
         "subjuntivo en construcciones valorativas"
       ],
       "vocabulary": [
-        "reparación",
-        "agravio",
-        "garantía",
-        "reconocimiento",
-        "responsabilidad",
-        "reconciliación"
+        "desarraigo",
+        "costumbre",
+        "pertenencia",
+        "perspectiva",
+        "adaptación",
+        "contraste"
       ],
-      "scenario": "Examinar cómo una sociedad responde a daños históricos"
+      "scenario": "Conocer un testimonio de adaptación cultural y distancia emocional"
     }
   },
   {
     "id": "filosofia-del-lenguaje",
     "slug": "filosofia-del-lenguaje",
     "level": "C2",
-    "title": "¿Quién tiene derecho a mirar hacia el espacio?",
-    "titleEs": "¿Quién tiene derecho a mirar hacia el espacio?",
-    "description": "Examinar cómo la exploración espacial combina ciencia, negocio y cooperación internacional",
+    "title": "La nueva carrera espacial: ¿quién conquistará Marte primero?",
+    "titleEs": "La nueva carrera espacial: ¿quién conquistará Marte primero?",
+    "description": "Examinar las ambiciones científicas, comerciales y geopolíticas de Marte",
     "order": 4,
     "unitOverview": {
-      "objective": "Detectar los supuestos que presentan el espacio como patrimonio común o como recurso explotable",
+      "objective": "Cuestionar la idea de conquista y sus implicaciones éticas",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -47863,14 +47863,14 @@
         "sustantivación y arquitectura argumental"
       ],
       "vocabulary": [
-        "órbita",
         "misión",
+        "órbita",
+        "exploración",
         "soberanía",
-        "recurso",
         "cooperación",
-        "exploración"
+        "colonización"
       ],
-      "scenario": "Examinar cómo la exploración espacial combina ciencia, negocio y cooperación internacional"
+      "scenario": "Examinar las ambiciones científicas, comerciales y geopolíticas de Marte"
     }
   },
   {
@@ -47977,12 +47977,12 @@
     "id": "innovacion-responsable",
     "slug": "innovacion-responsable",
     "level": "C1",
-    "title": "Tecnología y decisiones públicas",
-    "titleEs": "Tecnología y decisiones públicas",
-    "description": "Evaluar sistemas automatizados antes de adoptarlos",
+    "title": "¿Por qué sufrimos el síndrome del impostor?",
+    "titleEs": "¿Por qué sufrimos el síndrome del impostor?",
+    "description": "Examinar las dudas que aparecen incluso ante logros comprobables",
     "order": 5,
     "unitOverview": {
-      "objective": "Ponderar utilidad, sesgo, supervisión y transparencia",
+      "objective": "Distinguir autoexigencia, inseguridad y evaluación realista",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -47993,26 +47993,26 @@
         "condicionales mixtas y contrafactuales"
       ],
       "vocabulary": [
-        "precaución",
-        "impacto",
-        "despliegue",
-        "sesgo",
-        "supervisión",
-        "trazabilidad"
+        "autoexigencia",
+        "mérito",
+        "inseguridad",
+        "validación",
+        "logro",
+        "percepción"
       ],
-      "scenario": "Evaluar sistemas automatizados antes de adoptarlos"
+      "scenario": "Examinar las dudas que aparecen incluso ante logros comprobables"
     }
   },
   {
     "id": "analisis-juridico",
     "slug": "analisis-juridico",
     "level": "C2",
-    "title": "Pagar sin efectivo: comodidad, datos y exclusión",
-    "titleEs": "Pagar sin efectivo: comodidad, datos y exclusión",
-    "description": "Interpretar derechos y responsabilidades en sistemas de pago digital",
+    "title": "Viví un año sin redes sociales: esto fue lo que aprendí",
+    "titleEs": "Viví un año sin redes sociales: esto fue lo que aprendí",
+    "description": "Escuchar un testimonio sobre desconexión, atención y relaciones",
     "order": 5,
     "unitOverview": {
-      "objective": "Distinguir acceso, trazabilidad, comisiones y alternativas de pago",
+      "objective": "Evaluar qué cambia cuando desaparece la exposición permanente",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -48023,14 +48023,14 @@
         "modalidad deóntica y precisión restrictiva"
       ],
       "vocabulary": [
-        "billetera digital",
-        "comisión",
-        "trazabilidad",
-        "acceso",
-        "intermediario",
-        "exclusión"
+        "desconexión",
+        "notificación",
+        "atención",
+        "hábito",
+        "privacidad",
+        "presencia"
       ],
-      "scenario": "Interpretar derechos y responsabilidades en sistemas de pago digital"
+      "scenario": "Escuchar un testimonio sobre desconexión, atención y relaciones"
     }
   },
   {
@@ -48137,12 +48137,12 @@
     "id": "literatura-y-voz",
     "slug": "literatura-y-voz",
     "level": "C1",
-    "title": "Salud mental en la conversación digital",
-    "titleEs": "Salud mental en la conversación digital",
-    "description": "Analizar cómo las redes presentan el malestar emocional",
+    "title": "Cómo una pequeña startup terminó revolucionando una industria",
+    "titleEs": "Cómo una pequeña startup terminó revolucionando una industria",
+    "description": "Reconstruir el crecimiento inesperado de una empresa emergente",
     "order": 6,
     "unitOverview": {
-      "objective": "Distinguir apoyo, visibilidad y simplificación del sufrimiento",
+      "objective": "Analizar innovación, oportunidad y transformación de un mercado",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -48153,26 +48153,26 @@
         "discurso referido libre y valores verbales"
       ],
       "vocabulary": [
-        "bienestar",
-        "estigma",
-        "acompañamiento",
-        "exposición",
-        "diagnóstico",
-        "cuidado"
+        "startup",
+        "prototipo",
+        "inversión",
+        "escala",
+        "disrupción",
+        "mercado"
       ],
-      "scenario": "Analizar cómo las redes presentan el malestar emocional"
+      "scenario": "Reconstruir el crecimiento inesperado de una empresa emergente"
     }
   },
   {
     "id": "edicion-de-estilo",
     "slug": "edicion-de-estilo",
     "level": "C2",
-    "title": "Envejecer en una sociedad acelerada",
-    "titleEs": "Envejecer en una sociedad acelerada",
-    "description": "Editar relatos públicos sobre longevidad, autonomía y generaciones",
+    "title": "¿La inteligencia artificial reemplazará las profesiones creativas?",
+    "titleEs": "¿La inteligencia artificial reemplazará las profesiones creativas?",
+    "description": "Confrontar posiciones sobre autoría, trabajo y creación asistida",
     "order": 6,
     "unitOverview": {
-      "objective": "Mejorar precisión sin convertir la vejez en un problema uniforme",
+      "objective": "Defender una postura compleja sobre creatividad humana y automatización",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -48183,14 +48183,14 @@
         "cohesión avanzada y puntuación discursiva"
       ],
       "vocabulary": [
-        "longevidad",
-        "autonomía",
-        "dependencia",
-        "generación",
-        "cuidado",
-        "accesibilidad"
+        "autoría",
+        "creatividad",
+        "automatización",
+        "encargo",
+        "originalidad",
+        "criterio"
       ],
-      "scenario": "Editar relatos públicos sobre longevidad, autonomía y generaciones"
+      "scenario": "Confrontar posiciones sobre autoría, trabajo y creación asistida"
     }
   },
   {
@@ -48297,12 +48297,12 @@
     "id": "economia-y-cuidados",
     "slug": "economia-y-cuidados",
     "level": "C1",
-    "title": "El tiempo de cuidar",
-    "titleEs": "El tiempo de cuidar",
-    "description": "Visibilizar trabajos de cuidado poco reconocidos",
+    "title": "¿Trabajar cuatro días a la semana realmente funciona?",
+    "titleEs": "¿Trabajar cuatro días a la semana realmente funciona?",
+    "description": "Contrastar productividad, descanso y organización laboral",
     "order": 7,
     "unitOverview": {
-      "objective": "Relacionar tiempo, género, oportunidades y política pública",
+      "objective": "Argumentar sobre condiciones y límites de una semana laboral más corta",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -48313,26 +48313,26 @@
         "nominalización y densidad informativa"
       ],
       "vocabulary": [
-        "cuidados",
-        "remuneración",
-        "carga",
-        "corresponsabilidad",
-        "sostener",
-        "invisibilizado"
+        "jornada",
+        "productividad",
+        "descanso",
+        "flexibilidad",
+        "rendimiento",
+        "conciliación"
       ],
-      "scenario": "Visibilizar trabajos de cuidado poco reconocidos"
+      "scenario": "Contrastar productividad, descanso y organización laboral"
     }
   },
   {
     "id": "debate-epistemico",
     "slug": "debate-epistemico",
     "level": "C2",
-    "title": "La basura electrónica no desaparece",
-    "titleEs": "La basura electrónica no desaparece",
-    "description": "Evaluar afirmaciones sobre reciclaje, reparación y obsolescencia tecnológica",
+    "title": "El descubrimiento que nadie creyó... hasta que cambió el mundo",
+    "titleEs": "El descubrimiento que nadie creyó... hasta que cambió el mundo",
+    "description": "Narrar una hipótesis científica recibida con escepticismo",
     "order": 7,
     "unitOverview": {
-      "objective": "Graduar evidencia ambiental, responsabilidad empresarial y hábitos de uso",
+      "objective": "Evaluar evidencia, resistencia institucional y cambio de paradigma",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -48343,14 +48343,14 @@
         "evidencialidad y grados de compromiso"
       ],
       "vocabulary": [
-        "residuo electrónico",
-        "reparación",
-        "obsolescencia",
-        "reciclaje",
-        "cadena de suministro",
-        "responsabilidad"
+        "hipótesis",
+        "evidencia",
+        "experimento",
+        "réplica",
+        "paradigma",
+        "hallazgo"
       ],
-      "scenario": "Evaluar afirmaciones sobre reciclaje, reparación y obsolescencia tecnológica"
+      "scenario": "Narrar una hipótesis científica recibida con escepticismo"
     }
   },
   {
@@ -48457,12 +48457,12 @@
     "id": "diversidad-del-espanol",
     "slug": "diversidad-del-espanol",
     "level": "C1",
-    "title": "Lenguas, acentos y pertenencia",
-    "titleEs": "Lenguas, acentos y pertenencia",
-    "description": "Comparar usos de comunidades hispanohablantes",
+    "title": "Dormimos menos que nunca: el costo invisible del cansancio",
+    "titleEs": "Dormimos menos que nunca: el costo invisible del cansancio",
+    "description": "Explorar cómo el descanso insuficiente afecta decisiones y relaciones",
     "order": 8,
     "unitOverview": {
-      "objective": "Explicar variación sin establecer jerarquías",
+      "objective": "Explicar hábitos, consecuencias y límites del autocuidado",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -48473,26 +48473,26 @@
         "variación, registro y adecuación pragmática"
       ],
       "vocabulary": [
-        "variedad",
-        "rasgo",
-        "hablante",
-        "prestigio",
-        "regionalismo",
-        "adecuación"
+        "sueño",
+        "agotamiento",
+        "rutina",
+        "recuperación",
+        "atención",
+        "bienestar"
       ],
-      "scenario": "Comparar usos de comunidades hispanohablantes"
+      "scenario": "Explorar cómo el descanso insuficiente afecta decisiones y relaciones"
     }
   },
   {
     "id": "estetica-y-interpretacion",
     "slug": "estetica-y-interpretacion",
     "level": "C2",
-    "title": "La transición verde también extrae",
-    "titleEs": "La transición verde también extrae",
-    "description": "Comparar narrativas sobre baterías, minerales críticos y energías limpias",
+    "title": "La economía de los creadores: cómo YouTube, TikTok y Spotify generan millones",
+    "titleEs": "La economía de los creadores: cómo YouTube, TikTok y Spotify generan millones",
+    "description": "Investigar quién gana y quién depende de las plataformas de contenido",
     "order": 8,
     "unitOverview": {
-      "objective": "Integrar reducción de emisiones, derechos laborales y efectos territoriales",
+      "objective": "Analizar visibilidad, monetización y precariedad en la economía digital",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -48503,14 +48503,14 @@
         "metáfora conceptual y lenguaje crítico"
       ],
       "vocabulary": [
-        "mineral crítico",
-        "extracción",
-        "refinación",
-        "transición",
-        "territorio",
-        "trazabilidad"
+        "audiencia",
+        "monetización",
+        "plataforma",
+        "patrocinio",
+        "alcance",
+        "precariedad"
       ],
-      "scenario": "Comparar narrativas sobre baterías, minerales críticos y energías limpias"
+      "scenario": "Investigar quién gana y quién depende de las plataformas de contenido"
     }
   },
   {
@@ -48617,12 +48617,12 @@
     "id": "diplomacia-y-negociacion",
     "slug": "diplomacia-y-negociacion",
     "level": "C1",
-    "title": "Negociar en tiempos de polarización",
-    "titleEs": "Negociar en tiempos de polarización",
-    "description": "Analizar desacuerdos públicos sin reducirlos a bandos",
+    "title": "La presión mental detrás del deporte de alto rendimiento",
+    "titleEs": "La presión mental detrás del deporte de alto rendimiento",
+    "description": "Escuchar la experiencia de un atleta frente a la exigencia constante",
     "order": 9,
     "unitOverview": {
-      "objective": "Reformular posiciones y construir criterios verificables",
+      "objective": "Reconocer el vínculo entre rendimiento, expectativas y salud mental",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -48633,26 +48633,26 @@
         "atenuación y cortesía avanzada"
       ],
       "vocabulary": [
-        "concesión",
-        "mediación",
-        "desacuerdo",
-        "margen",
-        "compromiso",
-        "postura"
+        "presión",
+        "rendimiento",
+        "expectativa",
+        "lesión",
+        "equilibrio",
+        "acompañamiento"
       ],
-      "scenario": "Analizar desacuerdos públicos sin reducirlos a bandos"
+      "scenario": "Escuchar la experiencia de un atleta frente a la exigencia constante"
     }
   },
   {
     "id": "discurso-cientifico",
     "slug": "discurso-cientifico",
     "level": "C2",
-    "title": "El deporte y las apuestas en línea",
-    "titleEs": "El deporte y las apuestas en línea",
-    "description": "Comunicar los riesgos de normalizar apuestas dentro del ocio deportivo",
+    "title": "Sobrevivir a un desastre natural: decisiones que salvan vidas",
+    "titleEs": "Sobrevivir a un desastre natural: decisiones que salvan vidas",
+    "description": "Reconstruir decisiones críticas durante una emergencia real",
     "order": 9,
     "unitOverview": {
-      "objective": "Distinguir entretenimiento, probabilidad, publicidad y daño potencial",
+      "objective": "Explicar preparación, comunicación y cooperación bajo presión",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -48663,14 +48663,14 @@
         "reformulación explicativa y cautela"
       ],
       "vocabulary": [
-        "cuota",
-        "apuesta",
+        "evacuación",
+        "alerta",
+        "refugio",
         "riesgo",
-        "publicidad",
-        "adicción",
-        "regulación"
+        "coordinación",
+        "resiliencia"
       ],
-      "scenario": "Comunicar los riesgos de normalizar apuestas dentro del ocio deportivo"
+      "scenario": "Reconstruir decisiones críticas durante una emergencia real"
     }
   },
   {
@@ -48777,12 +48777,12 @@
     "id": "critica-cultural",
     "slug": "critica-cultural",
     "level": "C1",
-    "title": "La cultura del algoritmo",
-    "titleEs": "La cultura del algoritmo",
-    "description": "Examinar cómo las plataformas recomiendan música y audiovisual",
+    "title": "La decisión que tomé en cinco segundos cambió mi vida",
+    "titleEs": "La decisión que tomé en cinco segundos cambió mi vida",
+    "description": "Seguir una narración sobre una elección breve y sus consecuencias",
     "order": 10,
     "unitOverview": {
-      "objective": "Valorar diversidad cultural, visibilidad y concentración",
+      "objective": "Interpretar azar, responsabilidad y decisiones bajo presión",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -48793,26 +48793,26 @@
         "adjetivación valorativa y conectores concesivos"
       ],
       "vocabulary": [
-        "recomendación",
-        "catálogo",
-        "visibilidad",
-        "tendencia",
-        "creador",
-        "algoritmo"
+        "instante",
+        "decisión",
+        "consecuencia",
+        "duda",
+        "oportunidad",
+        "rumbo"
       ],
-      "scenario": "Examinar cómo las plataformas recomiendan música y audiovisual"
+      "scenario": "Seguir una narración sobre una elección breve y sus consecuencias"
     }
   },
   {
     "id": "mediacion-de-conflictos",
     "slug": "mediacion-de-conflictos",
     "level": "C2",
-    "title": "Migrar para empezar de nuevo",
-    "titleEs": "Migrar para empezar de nuevo",
-    "description": "Mediar entre experiencias de movilidad, pertenencia y acceso a servicios",
+    "title": "La vida secreta de un piloto comercial: decisiones a 12 000 metros de altura",
+    "titleEs": "La vida secreta de un piloto comercial: decisiones a 12 000 metros de altura",
+    "description": "Conocer la cadena de decisiones detrás de un vuelo seguro",
     "order": 10,
     "unitOverview": {
-      "objective": "Detectar barreras administrativas, redes de apoyo y derechos urbanos",
+      "objective": "Interpretar procedimientos, incertidumbre y responsabilidad técnica",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -48823,14 +48823,14 @@
         "atenuación extrema y metapragmática"
       ],
       "vocabulary": [
-        "movilidad",
-        "acogida",
-        "documentación",
-        "arraigo",
-        "servicio",
-        "derecho"
+        "cabina",
+        "turbulencia",
+        "protocolo",
+        "tripulación",
+        "maniobra",
+        "seguridad"
       ],
-      "scenario": "Mediar entre experiencias de movilidad, pertenencia y acceso a servicios"
+      "scenario": "Conocer la cadena de decisiones detrás de un vuelo seguro"
     }
   },
   {
@@ -48958,12 +48958,12 @@
     "id": "politicas-publicas",
     "slug": "politicas-publicas",
     "level": "C1",
-    "title": "¿Qué significa que una política funcione?",
-    "titleEs": "¿Qué significa que una política funcione?",
-    "description": "Evaluar intervenciones dirigidas a jóvenes",
+    "title": "¿Las redes sociales nos acercan o nos aíslan?",
+    "titleEs": "¿Las redes sociales nos acercan o nos aíslan?",
+    "description": "Contrastar vínculos digitales, atención y soledad contemporánea",
     "order": 11,
     "unitOverview": {
-      "objective": "Interpretar indicadores, cobertura y resultados sin simplificar",
+      "objective": "Evaluar beneficios y riesgos de la conexión permanente",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -48974,26 +48974,26 @@
         "impersonales, pasivas y lenguaje técnico"
       ],
       "vocabulary": [
-        "indicador",
-        "cobertura",
-        "implementación",
-        "sesgo de selección",
-        "resultado",
-        "evaluación"
+        "vínculo",
+        "aislamiento",
+        "interacción",
+        "presencia",
+        "algoritmo",
+        "comunidad"
       ],
-      "scenario": "Evaluar intervenciones dirigidas a jóvenes"
+      "scenario": "Contrastar vínculos digitales, atención y soledad contemporánea"
     }
   },
   {
     "id": "ensayo-de-alta-exigencia",
     "slug": "ensayo-de-alta-exigencia",
     "level": "C2",
-    "title": "El agua que llega a la mesa",
-    "titleEs": "El agua que llega a la mesa",
-    "description": "Construir una tesis sobre agua, agricultura, alimentos y desigualdad",
+    "title": "¿Por qué algunos recuerdos permanecen para siempre?",
+    "titleEs": "¿Por qué algunos recuerdos permanecen para siempre?",
+    "description": "Explorar la relación entre emoción, memoria y narrativa personal",
     "order": 11,
     "unitOverview": {
-      "objective": "Controlar evidencia, escalas territoriales y contraargumentación",
+      "objective": "Distinguir recuerdo fiable, reconstrucción y significado emocional",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -49004,14 +49004,14 @@
         "progresión temática y cohesión global"
       ],
       "vocabulary": [
-        "cuenca",
-        "sequía",
-        "riego",
-        "abastecimiento",
-        "desigualdad",
-        "prioridad"
+        "memoria",
+        "emoción",
+        "recuerdo",
+        "consolidación",
+        "evocación",
+        "sesgo"
       ],
-      "scenario": "Construir una tesis sobre agua, agricultura, alimentos y desigualdad"
+      "scenario": "Explorar la relación entre emoción, memoria y narrativa personal"
     }
   },
   {
@@ -49118,12 +49118,12 @@
     "id": "coloquio-academico",
     "slug": "coloquio-academico",
     "level": "C1",
-    "title": "Participar sin ser un adorno",
-    "titleEs": "Participar sin ser un adorno",
-    "description": "Analizar formas de participación juvenil en decisiones públicas",
+    "title": "Aprender un idioma después de los cincuenta años",
+    "titleEs": "Aprender un idioma después de los cincuenta años",
+    "description": "Conocer una historia de aprendizaje adulto y persistencia",
     "order": 12,
     "unitOverview": {
-      "objective": "Evaluar consulta, representación e incidencia real",
+      "objective": "Cuestionar prejuicios sobre edad, memoria y aprendizaje",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -49134,26 +49134,26 @@
         "conectores de reformulación y reserva"
       ],
       "vocabulary": [
-        "participación",
-        "consulta",
-        "incidencia",
-        "representación",
-        "propuesta",
-        "rendición de cuentas"
+        "constancia",
+        "memoria",
+        "fluidez",
+        "práctica",
+        "confianza",
+        "progreso"
       ],
-      "scenario": "Analizar formas de participación juvenil en decisiones públicas"
+      "scenario": "Conocer una historia de aprendizaje adulto y persistencia"
     }
   },
   {
     "id": "defensa-y-sintesis",
     "slug": "defensa-y-sintesis",
     "level": "C2",
-    "title": "Cultura latina global: quién cuenta la historia",
-    "titleEs": "Cultura latina global: quién cuenta la historia",
-    "description": "Sintetizar el papel de la música, el cine y la gastronomía en la proyección cultural",
+    "title": "Cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global",
+    "titleEs": "Cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global",
+    "description": "Seguir la historia de una idea que se vuelve organización mundial",
     "order": 12,
     "unitOverview": {
-      "objective": "Defender una conclusión sobre representación, mercado y creación colectiva",
+      "objective": "Sintetizar innovación, estrategia, escala y consecuencias sociales",
       "outcomes": [
         "comprender información oral y escrita dentro del mismo tema",
         "usar vocabulario específico en contexto",
@@ -49164,14 +49164,14 @@
         "selección estratégica de todos los recursos C2"
       ],
       "vocabulary": [
-        "circulación",
-        "referente",
-        "industria cultural",
-        "visibilidad",
-        "autoría",
-        "proyección"
+        "idea",
+        "prototipo",
+        "escala",
+        "estrategia",
+        "inversión",
+        "impacto"
       ],
-      "scenario": "Sintetizar el papel de la música, el cine y la gastronomía en la proyección cultural"
+      "scenario": "Seguir la historia de una idea que se vuelve organización mundial"
     }
   }
 ];
