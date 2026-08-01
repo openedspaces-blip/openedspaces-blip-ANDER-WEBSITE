@@ -53,6 +53,26 @@ function shapeExtra(a) {
   return Object.keys(extra).length ? extra : null;
 }
 
+// Every beginner Speaking task is a short role-play between exactly two
+// people. Some of the original unit scripts stopped after three turns; add a
+// contextual partner follow-up so the learner can answer and change roles.
+function shapeSpeakingDialogue(unit, activity) {
+  const dialogue = activity.dialogue || [];
+  const speakers = [...new Set(dialogue.map((line) => line.speaker))];
+  if (dialogue.length !== 3 || speakers.length !== 2) return dialogue;
+
+  const partner = dialogue[1].speaker;
+  const model = activity.phrases?.[0] || unit.title.toLowerCase();
+  return [
+    ...dialogue,
+    {
+      speaker: partner,
+      line: `Muy bien. Ahora añade una frase más sobre «${model}».`,
+      translation: 'Very good. Now add one more sentence about this topic.'
+    }
+  ];
+}
+
 function buildActivityRow(unit, skill, orderInUnit) {
   const a = unit.activities[skill];
   if (!a) throw new Error(`Unit "${unit.slug}" is missing a "${skill}" activity`);
@@ -79,7 +99,7 @@ function buildActivityRow(unit, skill, orderInUnit) {
       grammar: a.grammarNote || '',
       phrases: a.phrases || [],
       vocabulary: a.vocabulary || [],
-      dialogue: a.dialogue || [],
+      dialogue: skill === 'speaking' ? shapeSpeakingDialogue(unit, a) : a.dialogue || [],
       reading: shapeReading(a.reading),
       transcript: a.transcript || '',
       // dictation.segments here carries `text` - this is the AUTHORING

@@ -186,6 +186,68 @@ function activity(skill, fields) {
   return { skill, duration, xp, ...fields };
 }
 
+// Speaking must continue the situation introduced by the unit instead of
+// falling back to a generic Tutor/Student prompt. A2 keeps an accessible,
+// strictly two-person exchange; B1-C2 progressively add the questioning,
+// evidence and mediation moves expected at each level.
+function buildSpeakingDialogue(level, spec, index) {
+  const [slug, title, scenario, objective, grammar, words] = spec;
+
+  if (level === 'A2') {
+    return (A2_LISTENING_SCRIPTS[slug]?.dialogue || []).map(([speaker, line]) => ({
+      speaker,
+      line
+    }));
+  }
+
+  const person = index % 2 ? 'Lucía' : 'Mateo';
+  if (level === 'B1') {
+    return [
+      { speaker: 'Interlocutora', line: `En la unidad «${title}», necesitamos ${scenario.toLowerCase()}. ¿Qué situación concreta presentarías primero?` },
+      { speaker: person, line: `Explicaría el contexto y empezaría por ${words[0]} y ${words[1]}, porque ayudan a entender el problema sin simplificarlo.` },
+      { speaker: 'Interlocutora', line: `¿Qué alternativa valorarías y qué dificultad podría aparecer?` },
+      { speaker: person, line: `Propondría una solución realista, pero reconocería que ${words[2]} puede cambiar el resultado. Así puedo justificar mi decisión con un ejemplo.` }
+    ];
+  }
+
+  if (level === 'B2') {
+    return [
+      { speaker: 'Moderadora', line: `Abrimos el debate sobre «${title}». El reto es ${scenario.toLowerCase()}. ¿Qué postura defiendes?` },
+      { speaker: person, line: `Defiendo una propuesta que tenga en cuenta ${words[0]} y ${words[1]}; si ignoramos uno de los dos, la solución pierde equilibrio.` },
+      { speaker: 'Especialista', line: `Sin embargo, hay personas que priorizan ${words[2]}. ¿Cómo responderías a esa objeción?` },
+      { speaker: person, line: `La objeción es válida, aunque no basta por sí sola. Compararía sus consecuencias y pediría evidencia antes de decidir.` },
+      { speaker: 'Moderadora', line: `Resume tu conclusión y señala qué condición haría falta para aplicarla.` }
+    ];
+  }
+
+  if (level === 'C1') {
+    return [
+      { speaker: 'Conductora', line: `Hoy analizamos «${title}». La cuestión de fondo es ${scenario.toLowerCase()}. ¿Por dónde conviene empezar?` },
+      { speaker: 'Analista', line: `Conviene distinguir entre ${words[0]} y ${words[1]}; parecen próximos, pero llevan a decisiones y responsabilidades diferentes.` },
+      { speaker: person, line: `Estoy de acuerdo en parte. Añadiría que ${words[2]} obliga a mirar quién queda afectado y qué evidencia respalda cada interpretación.` },
+      { speaker: 'Conductora', line: `¿Qué límite pondrías a esa interpretación para no convertirla en una conclusión absoluta?` },
+      { speaker: person, line: `La formularía como una hipótesis razonada: aplicaría ${grammar} y dejaría claro qué datos podrían confirmarla, matizarla o refutarla.` }
+    ];
+  }
+
+  return [
+    { speaker: 'Moderadora', line: `Examinemos «${title}». Debemos ${scenario.toLowerCase()}, pero antes conviene revisar qué presupuestos organiza el debate.` },
+    { speaker: 'Investigadora', line: `El primer presupuesto aparece en ${words[0]}; no es una palabra neutral, porque selecciona qué problema se vuelve visible.` },
+    { speaker: person, line: `También habría que contrastarla con ${words[1]} y ${words[2]}. Si usamos esas categorías sin definirlas, podemos confundir una explicación con una justificación.` },
+    { speaker: 'Moderadora', line: `¿Qué evidencia aceptarías y qué voz podría quedar fuera de la discusión?` },
+    { speaker: person, line: `Combinaría datos, testimonios y contexto institucional. No presentaría una sola fuente como definitiva ni ocultaría sus límites.` },
+    { speaker: 'Investigadora', line: `Entonces, formula una conclusión provisional que mantenga el matiz y permita seguir investigando.` }
+  ];
+}
+
+function buildSpeakingPhrases(level, slug, words) {
+  if (level === 'A2') return A2_LISTENING_SCRIPTS[slug]?.phrases || [];
+  if (level === 'B1') return ['En esta situación...', 'Una alternativa sería...', 'La dificultad principal es...', 'Por eso considero que...'];
+  if (level === 'B2') return ['Mi postura parte de...', 'Sin embargo, hay que considerar...', 'La evidencia más relevante sería...', 'En consecuencia...'];
+  if (level === 'C1') return ['Conviene distinguir entre...', 'La interpretación depende de...', 'No afirmaría que..., sino que...', 'La evidencia podría matizar...'];
+  return ['El debate presupone que...', 'Esta categoría vuelve visible...', 'La conclusión es provisional porque...', 'Habría que contrastar esta lectura con...'];
+}
+
 // A2 needs concrete everyday situations, not one reusable dialogue with a
 // different unit title. These are the canonical scripts for the revealed
 // transcript, the future recorded audio and the comprehension questions.
@@ -1100,15 +1162,14 @@ function buildUnit(level, spec, index) {
         title: `Habla · ${title}`,
         description: `Responde oralmente dentro del escenario de la unidad.`,
         intro: scenario,
-        mission: `Graba una respuesta de 45–90 segundos: presenta tu propuesta, justifica dos razones y reconoce una posible dificultad.`,
-        phrases: ['Desde mi punto de vista…', 'La razón principal es…', 'Sin embargo, conviene considerar…', 'Por eso propongo…'],
-        dialogue: [
-          { speaker: 'Tutor', line: `¿Qué propones ante esta situación: ${scenario.toLowerCase()}?`, translation: 'What do you propose in this situation?' },
-          { speaker: 'Estudiante', line: 'Presento una opción, dos razones y una dificultad posible.', translation: 'I present one option, two reasons, and one possible difficulty.' }
-        ],
+        mission: level === 'A2'
+          ? `Representa este diálogo con otra persona y adapta un detalle de la situación: ${scenario.toLowerCase()}.`
+          : `Participa en un intercambio sobre ${scenario.toLowerCase()}; usa el vocabulario de la unidad, justifica tu postura y responde a una objeción.`,
+        phrases: buildSpeakingPhrases(level, slug, words),
+        dialogue: buildSpeakingDialogue(level, spec, index),
         exercises: [
-          { type: 'practice', prompt: `Explica cómo resolverías este reto: ${scenario}.`, answer: 'Respuesta oral abierta' },
-          { type: 'practice', prompt: `Usa al menos dos palabras: ${words.slice(0, 3).join(', ')}.`, answer: 'Respuesta oral abierta' }
+          { type: 'practice', prompt: level === 'A2' ? `Cambia un dato del diálogo y representa los dos papeles: ${scenario}.` : `Explica tu postura sobre este reto: ${scenario}.`, answer: 'Respuesta oral abierta' },
+          { type: 'practice', prompt: `Usa al menos dos palabras de la unidad: ${words.slice(0, 3).join(', ')}.`, answer: 'Respuesta oral abierta' }
         ]
       }),
       writing: activity('writing', {
