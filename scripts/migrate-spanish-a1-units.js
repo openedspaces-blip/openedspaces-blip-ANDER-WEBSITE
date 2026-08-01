@@ -140,7 +140,14 @@ async function main() {
           mission: content.mission || null,
           grammar_note: content.grammar || null,
           phrases: content.phrases && content.phrases.length ? content.phrases : null,
-          extra: content.extra || null
+          // The public Listening view reads the support text from `extra`.
+          // Keep the authored transcript there as well as in the seed so the
+          // title, player support and comprehension activities all share one
+          // source of truth after an A1 migration.
+          extra: {
+            ...(content.extra || {}),
+            ...(content.transcript ? { transcript: content.transcript } : {})
+          }
         },
         { onConflict: 'slug' }
       )
