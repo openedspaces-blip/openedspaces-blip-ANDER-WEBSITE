@@ -15234,6 +15234,119 @@ footer small {
   outline-offset: 2px;
 }
 
+/* Pronounceable catalogue list. Each row is deliberately short and can be
+   scanned in multiple columns; the L2 verb remains the clear entry point to
+   the full examples and conjugation panel. */
+.verb-tile-grid {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.75rem;
+}
+
+.verb-list-item {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.38rem 0.55rem;
+  padding: 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  box-shadow: var(--shadow-xs);
+}
+
+.verb-list-item:hover {
+  border-color: color-mix(in srgb, var(--blue) 55%, var(--line));
+}
+
+.verb-list-rank-row,
+.verb-list-actions,
+.verb-list-pron-row {
+  display: flex;
+  align-items: center;
+  gap: 0.36rem;
+}
+
+.verb-list-rank-row {
+  grid-column: 1 / -1;
+  color: var(--muted);
+  font-size: 0.72rem;
+}
+
+.verb-list-rank { font-weight: 700; }
+
+.verb-list-type,
+.verb-list-status {
+  padding: 0.1rem 0.38rem;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--blue);
+  font-size: 0.66rem;
+  font-weight: 750;
+}
+
+.verb-list-status { margin-left: auto; }
+.verb-list-status--mastered { background: #eafaf1; color: #0f8a4e; }
+.verb-list-status--practicing { background: #fff5df; color: #a45a00; }
+
+.verb-list-word {
+  align-self: center;
+  justify-self: start;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--navy-2);
+  cursor: pointer;
+  font-size: 1.25rem;
+  font-weight: 800;
+  text-align: left;
+}
+
+.verb-list-word:hover,
+.verb-list-word:focus-visible { color: var(--blue); text-decoration: underline; }
+
+.verb-list-pron-row { justify-self: end; }
+.verb-list-pron { color: var(--muted); font-size: 0.78rem; font-style: italic; }
+
+.verb-list-support {
+  grid-column: 1 / -1;
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.86rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.verb-list-actions {
+  grid-column: 1 / -1;
+  border-top: 1px solid var(--line);
+  padding-top: 0.55rem;
+}
+
+.verb-list-favorite-btn,
+.verb-list-detail-btn,
+.verb-list-practice-btn {
+  border: 1px solid var(--line);
+  border-radius: 0.62rem;
+  background: var(--white);
+  color: var(--navy-2);
+  cursor: pointer;
+  font: inherit;
+}
+
+.verb-list-favorite-btn { width: 2rem; height: 2rem; padding: 0; }
+.verb-list-detail-btn,
+.verb-list-practice-btn { padding: 0.36rem 0.55rem; font-size: 0.76rem; font-weight: 700; }
+.verb-list-practice-btn { margin-left: auto; color: var(--blue); }
+
+.verb-list-favorite-btn:hover,
+.verb-list-detail-btn:hover,
+.verb-list-practice-btn:hover { border-color: var(--blue); background: var(--accent-soft); }
+
+@media (max-width: 560px) {
+  .verb-tile-grid { grid-template-columns: 1fr; }
+  .verb-list-item { padding: 0.72rem; }
+}
+
 /* ---------------------------------------------------------------------
    "Ver detalles" modal - same open/close visual language as #authModal
    (fixed overlay, .open toggles opacity/pointer-events), scoped entirely
@@ -21294,6 +21407,343 @@ body {
     padding: 0.24rem 0.34rem;
     border-radius: 10px;
     font-size: 0.66rem;
+  }
+}
+
+/* Pre-A1 visual starter: image-led micro lessons, intentionally lighter than
+   the structured A1-C2 route. */
+.pre-a1-active .learning-path-layout {
+  display: block;
+}
+
+.pre-a1-active .skill-graph,
+.pre-a1-active .lesson-workspace {
+  max-width: 1120px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.pre-a1-active .skill-graph {
+  max-height: none;
+  overflow: visible;
+  padding: clamp(1rem, 3vw, 1.55rem);
+}
+
+.pre-a1-active .lesson-workspace {
+  margin-top: 1rem;
+}
+
+.pre-a1-hero {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid rgba(37, 99, 235, 0.15);
+}
+
+.pre-a1-kicker {
+  display: inline-block;
+  color: var(--blue);
+  font-size: 0.72rem;
+  font-weight: 850;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.pre-a1-hero h2,
+.pre-a1-detail-head h3,
+.pre-a1-challenge h4 {
+  color: var(--navy-2);
+}
+
+.pre-a1-hero h2 {
+  margin: 0.25rem 0 0.3rem;
+  font-size: clamp(1.45rem, 3.5vw, 2.15rem);
+}
+
+.pre-a1-hero p,
+.pre-a1-detail-head p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.pre-a1-progress {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.05rem 0.45rem;
+  min-width: 160px;
+  color: var(--muted);
+  font-size: 0.76rem;
+}
+
+.pre-a1-progress strong {
+  grid-row: 1 / 3;
+  color: var(--navy-2);
+  font-size: 1.45rem;
+}
+
+.pre-a1-progress div {
+  grid-column: 1 / -1;
+  height: 5px;
+  margin-top: 0.25rem;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #e9eff9;
+}
+
+.pre-a1-progress i {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--blue), var(--cyan));
+}
+
+.pre-a1-topic-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.pre-a1-topic {
+  position: relative;
+  display: grid;
+  grid-template-rows: 116px auto;
+  overflow: hidden;
+  padding: 0;
+  border: 1px solid rgba(37, 99, 235, 0.14);
+  border-radius: 17px;
+  background: var(--surface);
+  color: var(--navy-2);
+  text-align: left;
+  cursor: pointer;
+  box-shadow: var(--shadow-xs);
+  transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.pre-a1-topic:hover,
+.pre-a1-topic.is-selected {
+  border-color: var(--blue);
+  box-shadow: 0 10px 22px rgba(37, 99, 235, 0.14);
+  transform: translateY(-2px);
+}
+
+.pre-a1-topic:focus-visible,
+.pre-a1-choice:focus-visible,
+.pre-a1-word:focus-visible {
+  outline: 3px solid var(--cyan);
+  outline-offset: 2px;
+}
+
+.pre-a1-topic-image,
+.pre-a1-detail-image {
+  display: block;
+  background-color: #eaf4ff;
+  background-repeat: no-repeat;
+}
+
+.pre-a1-topic-image {
+  background-size: 400% 300% !important;
+}
+
+.pre-a1-topic-copy {
+  display: grid;
+  gap: 0.15rem;
+  padding: 0.65rem 0.7rem 0.75rem;
+}
+
+.pre-a1-topic-copy small {
+  color: var(--blue);
+  font-size: 0.66rem;
+  font-weight: 850;
+}
+
+.pre-a1-topic-copy strong {
+  font-size: 0.92rem;
+}
+
+.pre-a1-topic-copy em {
+  color: var(--muted);
+  font-size: 0.7rem;
+  font-style: normal;
+}
+
+.pre-a1-topic-state {
+  position: absolute;
+  right: 0.52rem;
+  bottom: 0.62rem;
+  display: grid;
+  width: 1.6rem;
+  height: 1.6rem;
+  place-items: center;
+  border-radius: 999px;
+  background: #edf3ff;
+  font-size: 0.85rem;
+}
+
+.pre-a1-topic.is-complete .pre-a1-topic-state {
+  background: #dcfce7;
+  color: #15803d;
+  font-weight: 900;
+}
+
+.pre-a1-workspace {
+  display: grid;
+  gap: 1rem;
+  padding: clamp(1rem, 3vw, 1.4rem);
+}
+
+.pre-a1-detail-head {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.pre-a1-detail-image {
+  flex: 0 0 116px;
+  width: 116px;
+  height: 88px;
+  border-radius: 15px;
+  background-size: 400% 300% !important;
+}
+
+.pre-a1-detail-head h3 {
+  margin: 0.16rem 0 0.2rem;
+  font-size: 1.35rem;
+}
+
+.pre-a1-word-row,
+.pre-a1-challenge > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.pre-a1-word,
+.pre-a1-choice {
+  border: 1px solid rgba(37, 99, 235, 0.2);
+  border-radius: 999px;
+  background: #f7faff;
+  color: var(--navy-2);
+  cursor: pointer;
+  font-weight: 750;
+}
+
+.pre-a1-word {
+  padding: 0.5rem 0.75rem;
+  font-size: 0.82rem;
+}
+
+.pre-a1-phrase,
+.pre-a1-challenge {
+  padding: 1rem;
+  border-radius: 16px;
+  background: linear-gradient(115deg, #f8fbff, #eff8ff);
+  border: 1px solid rgba(37, 99, 235, 0.12);
+}
+
+.pre-a1-phrase {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.65rem 0.9rem;
+}
+
+.pre-a1-phrase span {
+  color: var(--blue);
+  font-size: 0.74rem;
+  font-weight: 850;
+  text-transform: uppercase;
+}
+
+.pre-a1-phrase strong {
+  flex: 1 1 260px;
+  font-size: 1.05rem;
+}
+
+.pre-a1-phrase .secondary-btn {
+  min-height: 36px;
+  padding: 0.38rem 0.66rem;
+  font-size: 0.78rem;
+}
+
+.pre-a1-challenge h4 {
+  margin: 0.22rem 0 0.75rem;
+  font-size: 1rem;
+}
+
+.pre-a1-choice {
+  flex: 1 1 145px;
+  min-height: 42px;
+  padding: 0.5rem 0.65rem;
+  font-size: 0.88rem;
+}
+
+.pre-a1-choice.is-correct {
+  border-color: #22c55e;
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.pre-a1-choice.is-wrong {
+  border-color: #ef4444;
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.pre-a1-feedback {
+  min-height: 1.2em;
+  margin: 0.7rem 0 0;
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 650;
+}
+
+@media (max-width: 760px) {
+  .pre-a1-hero {
+    align-items: start;
+    flex-direction: column;
+  }
+
+  .pre-a1-progress {
+    width: 100%;
+  }
+
+  .pre-a1-topic-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.58rem;
+  }
+
+  .pre-a1-topic {
+    grid-template-rows: 94px auto;
+    border-radius: 14px;
+  }
+
+  .pre-a1-topic-copy {
+    padding: 0.52rem 0.55rem 0.62rem;
+  }
+
+  .pre-a1-topic-copy strong {
+    font-size: 0.82rem;
+  }
+
+  .pre-a1-topic-copy em {
+    font-size: 0.64rem;
+  }
+
+  .pre-a1-detail-head {
+    align-items: start;
+  }
+
+  .pre-a1-detail-image {
+    flex-basis: 84px;
+    width: 84px;
+    height: 76px;
+  }
+
+  .pre-a1-detail-head h3 {
+    font-size: 1.12rem;
   }
 }
 

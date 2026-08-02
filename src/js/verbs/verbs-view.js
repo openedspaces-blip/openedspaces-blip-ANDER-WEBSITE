@@ -35,7 +35,9 @@
 (function () {
   const VERB_FAVORITES_KEY = 'andergo_verb_favorites_v1';
   const VERB_PRACTICE_STATS_KEY = 'andergo_verb_practice_stats_v1';
-  const PAGE_SIZE = 20;
+  // Keeps the list comfortable now and when the catalogue reaches 1,000
+  // verified verbs: students can progressively reveal more, or all at once.
+  const PAGE_SIZE = 50;
   const VERB_LANGUAGES = new Set(['english', 'french', 'spanish']);
 
   function currentVerbLanguage() {
@@ -306,46 +308,43 @@
   function renderVerbTileHtml(item, raw, { canSpeak }) {
     const favLabel = item.isFavorite ? 'Quitar de favoritos' : 'Marcar como favorito';
     const supportText = item.learningMode === 'direct' ? item.simpleDefinition : item.translation;
-    const regLabel = raw.regular ? 'Reg' : 'Irr';
-    const regTitle = raw.regular ? 'Verbo regular' : 'Verbo irregular';
+    const isFrench = item.targetLanguage === 'french';
+    const regLabel = isFrench
+      ? (raw.group || '3e groupe').replace(' groupe', '')
+      : raw.regular ? 'Reg' : 'Irr';
+    const regTitle = isFrench
+      ? raw.group || '3e groupe'
+      : raw.regular ? 'Verbo regular' : 'Verbo irregular';
     const masteryLabel = TILE_MASTERY_LABEL[item.masteryStatus] || TILE_MASTERY_LABEL.new;
     const audioBtnHtml = canSpeak
       ? `<button type="button" class="vocab-example-audio-btn verb-tile-audio-btn" data-speak-text="${escapeHtml(item.audioText)}" data-speak-locale="${escapeHtml(item.pronunciationLocale)}" data-speak-rate="${item.pronunciationRate}" aria-label="Escuchar ${escapeHtml(item.targetWord)}" title="Escuchar">🔊</button>`
       : '';
 
     return `
-      <div
-        class="verb-tile"
+      <article
+        class="verb-list-item"
         data-verb-id="${escapeHtml(item.id)}"
         data-mastery="${escapeHtml(item.masteryStatus)}"
-        role="button"
-        tabindex="0"
-        aria-haspopup="dialog"
-        aria-label="Ver detalles de ${escapeHtml(item.targetWord)}"
       >
-        <div class="verb-tile-top-row">
-          <span class="verb-tile-rank">#${item.frequencyRank}</span>
-          <span class="verb-tile-reg-badge" title="${regTitle}">${regLabel}</span>
-          <span class="verb-tile-status-dot verb-tile-status-dot--${escapeHtml(item.masteryStatus)}" title="${escapeHtml(masteryLabel)}" aria-hidden="true"></span>
+        <div class="verb-list-rank-row">
+          <span class="verb-list-rank">#${item.frequencyRank}</span>
+          <span class="verb-list-type" title="${regTitle}">${regLabel}</span>
+          <span class="verb-list-status verb-list-status--${escapeHtml(item.masteryStatus)}">${escapeHtml(masteryLabel)}</span>
         </div>
-        <p class="verb-tile-word">${escapeHtml(item.targetWord)}</p>
-        <div class="verb-tile-pron-row">
-          ${item.phonetic ? `<span class="verb-tile-pron">${escapeHtml(item.phonetic)}</span>` : ''}
+        <button type="button" class="verb-list-word verb-open-detail-btn" data-verb-id="${escapeHtml(item.id)}" aria-haspopup="dialog" aria-label="Ver ejemplos y conjugación de ${escapeHtml(item.targetWord)}">${escapeHtml(item.targetWord)}</button>
+        <div class="verb-list-pron-row">
+          ${item.phonetic ? `<span class="verb-list-pron">${escapeHtml(item.phonetic)}</span>` : ''}
           ${audioBtnHtml}
         </div>
-        ${supportText ? `<p class="verb-tile-support" title="${escapeHtml(supportText)}">${escapeHtml(supportText)}</p>` : ''}
-        <div class="verb-tile-actions no-print" role="group" aria-label="Acciones de ${escapeHtml(item.targetWord)}">
-          <button type="button" class="verb-tile-action-btn verb-favorite-btn${item.isFavorite ? ' is-active' : ''}" data-verb-id="${escapeHtml(item.id)}" aria-pressed="${item.isFavorite}" aria-label="${favLabel}" title="${favLabel}">
+        ${supportText ? `<p class="verb-list-support" title="${escapeHtml(supportText)}">${escapeHtml(supportText)}</p>` : ''}
+        <div class="verb-list-actions no-print" role="group" aria-label="Acciones de ${escapeHtml(item.targetWord)}">
+          <button type="button" class="verb-list-favorite-btn verb-favorite-btn${item.isFavorite ? ' is-active' : ''}" data-verb-id="${escapeHtml(item.id)}" aria-pressed="${item.isFavorite}" aria-label="${favLabel}" title="${favLabel}">
             <span aria-hidden="true">${item.isFavorite ? '★' : '☆'}</span>
           </button>
-          <button type="button" class="verb-tile-action-btn verb-conjugate-btn" data-verb-id="${escapeHtml(item.id)}" aria-label="Ver conjugación de ${escapeHtml(item.targetWord)}" title="Ver conjugación">
-            <span aria-hidden="true">📖</span>
-          </button>
-          <button type="button" class="verb-tile-action-btn verb-practice-one-btn" data-verb-id="${escapeHtml(item.id)}" aria-label="Practicar ${escapeHtml(item.targetWord)}" title="Practicar">
-            <span aria-hidden="true">🎯</span>
-          </button>
+          <button type="button" class="verb-list-detail-btn verb-open-detail-btn" data-verb-id="${escapeHtml(item.id)}">Ver ejemplos</button>
+          <button type="button" class="verb-list-practice-btn verb-practice-one-btn" data-verb-id="${escapeHtml(item.id)}">Practicar</button>
         </div>
-      </div>`;
+      </article>`;
   }
 
   function cssEscapeId(id) {
@@ -395,7 +394,7 @@
       <div class="verb-detail-head">
         <div>
           <h3 id="verbDetailTitle">${escapeHtml(item.targetWord)} ${item.phonetic ? `<span class="vocab-card-phonetic">${escapeHtml(item.phonetic)}</span>` : ''}</h3>
-          <span class="vocab-card-tag">${raw.regular ? 'Regular' : 'Irregular'} · ${escapeHtml(raw.level || '')}</span>
+          <span class="vocab-card-tag">${escapeHtml(raw.group || (raw.regular ? 'Regular' : 'Irregular'))} · ${escapeHtml(raw.level || '')}</span>
         </div>
         ${conjugatorAudioBtnHtml(item.audioText, audioOpts)}
       </div>
@@ -440,7 +439,7 @@
     const item = normalizeVerbItem(raw, { bridgeLanguage, targetLanguage });
     content.innerHTML = renderVerbDetailContentHtml(raw, item);
 
-    verbDetailLastFocusedTile = document.querySelector(`.verb-tile[data-verb-id="${cssEscapeId(verbId)}"]`);
+    verbDetailLastFocusedTile = document.querySelector(`.verb-list-item[data-verb-id="${cssEscapeId(verbId)}"] .verb-open-detail-btn`);
     verbDetailLastFocusedTile?.setAttribute('aria-expanded', 'true');
 
     modal.classList.add('open');
@@ -554,6 +553,7 @@
   function renderVerbsDeck() {
     const deck = document.getElementById('verbsCardDeck');
     const loadMoreRow = document.getElementById('verbsLoadMoreRow');
+    const showAllBtn = document.getElementById('verbsShowAllBtn');
     if (!deck) return;
 
     try {
@@ -565,6 +565,7 @@
       if (!rawVerbs.length) {
         deck.innerHTML = `<p class="skill-graph-empty">${escapeHtml(LanguagePair.t('verbsEmpty', bridgeLanguage))}</p>`;
         if (loadMoreRow) loadMoreRow.hidden = true;
+        if (showAllBtn) showAllBtn.hidden = true;
         return;
       }
 
@@ -582,6 +583,7 @@
       if (!sorted.length) {
         deck.innerHTML = `<p class="skill-graph-empty">${escapeHtml(LanguagePair.t('verbsEmpty', bridgeLanguage))}</p>`;
         if (loadMoreRow) loadMoreRow.hidden = true;
+        if (showAllBtn) showAllBtn.hidden = true;
         return;
       }
 
@@ -590,6 +592,7 @@
       deck.innerHTML = visible.map(({ raw, item }) => renderVerbTileHtml(item, raw, { canSpeak })).join('');
 
       if (loadMoreRow) loadMoreRow.hidden = sorted.length <= visible.length;
+      if (showAllBtn) showAllBtn.hidden = sorted.length <= visible.length;
     } catch (error) {
       console.warn('[verbs] renderVerbsDeck failed', error);
       deck.innerHTML = `
@@ -602,6 +605,7 @@
           <button type="button" class="secondary-btn" id="verbsRetryBtn">Reintentar</button>
         </div>`;
       if (loadMoreRow) loadMoreRow.hidden = true;
+      if (showAllBtn) showAllBtn.hidden = true;
     }
   }
 
@@ -1478,16 +1482,16 @@
       targetLanguage;
     const copy = {
       spanish: {
-        title: `Los 100 verbos más frecuentes en ${languageName}`,
-        description: `Explora sus formas principales y grupos, consulta la conjugación completa y practica los verbos más frecuentes en ${languageName}.`,
+        title: `Verbos más frecuentes en ${languageName}`,
+        description: `Explora la lista pronunciable, consulta ejemplos y conjugación al pulsar cada verbo, y practica a tu ritmo.`,
       },
       english: {
-        title: `The 100 most frequent verbs in ${languageName}`,
+        title: `Most frequent verbs in ${languageName}`,
         description:
           'Explore their principal forms and groups, consult complete conjugations, and practise with immediate feedback.',
       },
       french: {
-        title: `Les 100 verbes les plus fréquents en ${languageName}`,
+        title: `Verbes les plus fréquents en ${languageName}`,
         description:
           'Découvrez leurs formes principales et leurs groupes, consultez la conjugaison complète et entraînez-vous.',
       },
@@ -1679,6 +1683,12 @@
       return;
     }
 
+    if (event.target.closest('#verbsShowAllBtn')) {
+      verbsVisibleCount = getVerbsForLanguage(currentVerbLanguage()).length;
+      renderVerbsDeck();
+      return;
+    }
+
     if (event.target.closest('#verbsRetryBtn')) {
       renderVerbsDeck();
       return;
@@ -1767,9 +1777,9 @@
       closeVerbDetail();
       return;
     }
-    const verbTile = event.target.closest('.verb-tile');
-    if (verbTile) {
-      openVerbDetail(verbTile.dataset.verbId);
+    const detailBtn = event.target.closest('.verb-open-detail-btn');
+    if (detailBtn) {
+      openVerbDetail(detailBtn.dataset.verbId);
       return;
     }
 
@@ -1855,11 +1865,5 @@
       return;
     }
 
-    const tile = event.target.closest?.('.verb-tile');
-    if (tile && (event.key === 'Enter' || event.key === ' ')) {
-      if (event.target.closest('button')) return;
-      event.preventDefault();
-      openVerbDetail(tile.dataset.verbId);
-    }
   });
 })();

@@ -1089,7 +1089,10 @@ function setTargetLanguage(lang, options = {}) {
   if (pathLanguageSelect) pathLanguageSelect.value = resolved;
   updateLanguagePreviewSelection();
 
-  const level = options.level || learningPathState.level;
+  const pathLevelSelect = document.getElementById('pathLevelSelect');
+  const requestedLevel = options.level || learningPathState.level;
+  const level = requestedLevel === 'PRE-A1' && resolved !== 'english' ? 'A1' : requestedLevel;
+  if (pathLevelSelect) pathLevelSelect.value = level;
   loadLearningPath({ language: resolved, level });
   updatePathPairPreview();
   updateAiTutorContext();
@@ -3537,6 +3540,125 @@ const learningPathState = {
   // never trusts this client-side copy.
   exerciseResults: {}
 };
+
+// Pre-A1 is a deliberately visual English starter, not another seven-skill
+// route. It lives locally so a first-time learner can begin immediately;
+// completing a mini challenge is remembered on this device.
+const PRE_A1_PROGRESS_STORAGE_KEY = 'andergo_pre_a1_visual_progress';
+const PRE_A1_VISUAL_COURSE = [
+  { id: 'hello', icon: '👋', title: 'Hello!', subtitle: 'Greetings', words: ['Hello', 'Hi', 'Good morning'], phrase: 'Hello! Nice to meet you.', prompt: 'Choose the greeting.', options: ['Hello!', 'Blue', 'Seven'], answer: 0, col: 0, row: 0 },
+  { id: 'goodbye', icon: '👋', title: 'See you!', subtitle: 'Goodbyes', words: ['Goodbye', 'Bye', 'See you soon'], phrase: 'Goodbye! See you tomorrow.', prompt: 'Choose the goodbye.', options: ['Goodbye!', 'Red', 'Monday'], answer: 0, col: 1, row: 0 },
+  { id: 'abc', icon: '🔤', title: 'The ABC', subtitle: 'Letters and sounds', words: ['A', 'B', 'C'], phrase: 'A, B, C. Spell your name.', prompt: 'Which is a letter?', options: ['B', 'Nine', 'Green'], answer: 0, col: 2, row: 0 },
+  { id: 'numbers', icon: '🔢', title: 'Numbers', subtitle: 'Zero to twenty', words: ['one', 'five', 'ten'], phrase: 'I have ten pencils.', prompt: 'Choose the number.', options: ['Ten', 'Tuesday', 'Yellow'], answer: 0, col: 3, row: 0 },
+  { id: 'days', icon: '📅', title: 'My week', subtitle: 'Days of the week', words: ['Monday', 'Friday', 'today'], phrase: 'Today is Monday.', prompt: 'Choose a day.', options: ['Friday', 'Purple', 'Bye'], answer: 0, col: 0, row: 1 },
+  { id: 'colours', icon: '🎨', title: 'Colours', subtitle: 'Colors around us', words: ['red', 'blue', 'yellow'], phrase: 'The ball is blue.', prompt: 'Choose a colour.', options: ['Blue', 'Hello', 'Twelve'], answer: 0, col: 1, row: 1 },
+  { id: 'classroom', icon: '🎒', title: 'In class', subtitle: 'My school things', words: ['book', 'pen', 'bag'], phrase: 'This is my book.', prompt: 'Choose a school thing.', options: ['Book', 'Sunday', 'Green'], answer: 0, col: 2, row: 1 },
+  { id: 'people', icon: '🧑‍🤝‍🧑', title: 'People', subtitle: 'Family and friends', words: ['mother', 'friend', 'teacher'], phrase: 'She is my friend.', prompt: 'Choose a person.', options: ['Teacher', 'Purple', 'Eight'], answer: 0, col: 3, row: 1 },
+  { id: 'feelings', icon: '😊', title: 'Feelings', subtitle: 'How are you?', words: ['happy', 'sad', 'tired'], phrase: 'I am happy today.', prompt: 'Choose a feeling.', options: ['Happy', 'Thursday', 'Pen'], answer: 0, col: 0, row: 2 },
+  { id: 'food', icon: '🍎', title: 'Food & drinks', subtitle: 'Everyday choices', words: ['water', 'apple', 'bread'], phrase: 'I like apples and water.', prompt: 'Choose food.', options: ['Apple', 'Goodbye', 'Blue'], answer: 0, col: 1, row: 2 },
+  { id: 'places', icon: '🏠', title: 'My places', subtitle: 'Home and neighbourhood', words: ['home', 'school', 'park'], phrase: 'My school is near the park.', prompt: 'Choose a place.', options: ['School', 'Seven', 'Hello'], answer: 0, col: 2, row: 2 },
+  { id: 'ready', icon: '🎉', title: 'Ready for A1', subtitle: 'A playful review', words: ['hello', 'blue', 'friend'], phrase: 'Hello, my friend! I am ready.', prompt: 'Choose the friendly phrase.', options: ['Hello, friend!', 'Red Monday', 'Ten book'], answer: 0, col: 3, row: 2 }
+];
+
+function isPreA1VisualCourse(language = learningPathState.language, level = learningPathState.level) {
+  return language === 'english' && level === 'PRE-A1';
+}
+
+function getPreA1Progress() {
+  try {
+    const stored = JSON.parse(localStorage.getItem(PRE_A1_PROGRESS_STORAGE_KEY) || '[]');
+    return new Set(Array.isArray(stored) ? stored : []);
+  } catch {
+    return new Set();
+  }
+}
+
+function savePreA1Progress(progress) {
+  try {
+    localStorage.setItem(PRE_A1_PROGRESS_STORAGE_KEY, JSON.stringify([...progress]));
+  } catch {
+    // The visual course remains usable if private browsing blocks storage.
+  }
+}
+
+function getPreA1SpriteStyle(topic) {
+  return `background-image:url('/images/pre-a1-visual-course-grid.png');background-size:400% 300%;background-position:${topic.col * 33.333}% ${topic.row * 50}%;`;
+}
+
+function renderPreA1VisualCourse(selectedTopicId = '') {
+  const section = document.getElementById('learning-path');
+  const graph = document.getElementById('skillGraph');
+  const workspace = document.getElementById('lessonWorkspace');
+  const context = document.getElementById('learningRouteContext');
+  const tabs = section?.querySelector('.level-tabs');
+  const routeToggle = section?.querySelector('.learn-route-toggle');
+  if (!section || !graph || !workspace) return;
+
+  const progress = getPreA1Progress();
+  const selected = PRE_A1_VISUAL_COURSE.find((topic) => topic.id === selectedTopicId) || PRE_A1_VISUAL_COURSE.find((topic) => !progress.has(topic.id)) || PRE_A1_VISUAL_COURSE[0];
+  const completed = progress.size;
+  const pct = Math.round((completed / PRE_A1_VISUAL_COURSE.length) * 100);
+
+  section.classList.add('pre-a1-active');
+  if (tabs) tabs.hidden = true;
+  if (routeToggle) routeToggle.hidden = true;
+  if (context) context.innerHTML = '<span>English</span><i aria-hidden="true"></i><span>Pre-A1</span><i aria-hidden="true"></i><span>Visual starter</span>';
+
+  graph.innerHTML = `
+    <div class="pre-a1-hero">
+      <div><span class="pre-a1-kicker">English · Pre-A1</span><h2>Start with what you can see.</h2><p>Listen, look, touch and learn one small idea at a time.</p></div>
+      <div class="pre-a1-progress" aria-label="${completed} of ${PRE_A1_VISUAL_COURSE.length} topics complete"><strong>${completed}/${PRE_A1_VISUAL_COURSE.length}</strong><span>topics complete</span><div><i style="width:${pct}%"></i></div></div>
+    </div>
+    <div class="pre-a1-topic-grid" aria-label="Pre-A1 visual topics">
+      ${PRE_A1_VISUAL_COURSE.map((topic, index) => `
+        <button type="button" class="pre-a1-topic${topic.id === selected.id ? ' is-selected' : ''}${progress.has(topic.id) ? ' is-complete' : ''}" data-pre-a1-topic="${topic.id}" aria-pressed="${topic.id === selected.id}">
+          <span class="pre-a1-topic-image" role="img" aria-label="Illustration: ${escapeHtml(topic.subtitle)}" style="${getPreA1SpriteStyle(topic)}"></span>
+          <span class="pre-a1-topic-copy"><small>${index + 1}</small><strong>${escapeHtml(topic.title)}</strong><em>${escapeHtml(topic.subtitle)}</em></span>
+          <span class="pre-a1-topic-state" aria-label="${progress.has(topic.id) ? 'Completed' : 'Not completed'}">${progress.has(topic.id) ? '✓' : topic.icon}</span>
+        </button>`).join('')}
+    </div>`;
+
+  workspace.className = 'lesson-workspace pre-a1-workspace';
+  workspace.innerHTML = `
+    <div class="pre-a1-detail-head"><span class="pre-a1-detail-image" role="img" aria-label="Illustration: ${escapeHtml(selected.subtitle)}" style="${getPreA1SpriteStyle(selected)}"></span><div><span class="pre-a1-kicker">Mini lesson</span><h3>${escapeHtml(selected.title)}</h3><p>${escapeHtml(selected.subtitle)} · Learn with pictures, sound and one short challenge.</p></div></div>
+    <div class="pre-a1-word-row">${selected.words.map((word) => `<button type="button" class="pre-a1-word pre-a1-listen" data-speech="${escapeHtml(word)}" aria-label="Listen to ${escapeHtml(word)}">🔊 ${escapeHtml(word)}</button>`).join('')}</div>
+    <div class="pre-a1-phrase"><span>Say it</span><strong>${escapeHtml(selected.phrase)}</strong><button type="button" class="secondary-btn pre-a1-listen" data-speech="${escapeHtml(selected.phrase)}">🔊 Listen</button></div>
+    <div class="pre-a1-challenge"><span class="pre-a1-kicker">Quick challenge</span><h4>${escapeHtml(selected.prompt)}</h4><div>${selected.options.map((option, index) => `<button type="button" class="pre-a1-choice" data-pre-a1-choice="${index}" data-pre-a1-answer="${selected.answer}">${escapeHtml(option)}</button>`).join('')}</div><p class="pre-a1-feedback" aria-live="polite">Choose one answer.</p></div>`;
+
+  graph.querySelectorAll('[data-pre-a1-topic]').forEach((button) => button.addEventListener('click', () => renderPreA1VisualCourse(button.dataset.preA1Topic)));
+  workspace.querySelectorAll('.pre-a1-listen').forEach((button) => button.addEventListener('click', () => {
+    if (!('speechSynthesis' in window)) return;
+    window.speechSynthesis.cancel();
+    const utterance = new SpeechSynthesisUtterance(button.dataset.speech || '');
+    utterance.lang = 'en-US';
+    utterance.rate = 0.82;
+    window.speechSynthesis.speak(utterance);
+  }));
+  workspace.querySelectorAll('[data-pre-a1-choice]').forEach((button) => button.addEventListener('click', () => {
+    const correct = Number(button.dataset.preA1Choice) === Number(button.dataset.preA1Answer);
+    const feedback = workspace.querySelector('.pre-a1-feedback');
+    workspace.querySelectorAll('[data-pre-a1-choice]').forEach((item) => item.classList.remove('is-correct', 'is-wrong'));
+    button.classList.add(correct ? 'is-correct' : 'is-wrong');
+    if (correct) {
+      progress.add(selected.id);
+      savePreA1Progress(progress);
+      feedback.textContent = 'Great job! This topic is complete.';
+      window.setTimeout(() => renderPreA1VisualCourse(selected.id), 550);
+    } else {
+      feedback.textContent = 'Try once more. Look at the picture and listen again.';
+    }
+  }));
+}
+
+function clearPreA1VisualCourse() {
+  const section = document.getElementById('learning-path');
+  if (!section) return;
+  section.classList.remove('pre-a1-active');
+  const tabs = section.querySelector('.level-tabs');
+  const routeToggle = section.querySelector('.learn-route-toggle');
+  if (tabs) tabs.hidden = false;
+  if (routeToggle) routeToggle.hidden = false;
+}
 
 // True only for language/level combos that have thematic units (English A1
 // today). Every unit-aware render path (unit accordion, skill libraries)
@@ -14877,9 +14999,22 @@ async function performLearningPathLoad(options = {}) {
   readingSpeechPlayer.teardown();
   learningPathState.language = options.language || learningPathState.language;
   learningPathState.level = options.level || learningPathState.level;
+  if (learningPathState.level === 'PRE-A1' && learningPathState.language !== 'english') {
+    learningPathState.level = 'A1';
+  }
   syncLearningMode();
   applyInterfaceLanguage(learningPathState.bridgeLanguage);
   updatePathPairPreview();
+  if (isPreA1VisualCourse()) {
+    learningPathState.units = [];
+    learningPathState.lessons = [];
+    learningPathState.unitId = null;
+    learningPathState.activeSlug = null;
+    renderPreA1VisualCourse();
+    updateLevelTabLabels();
+    return;
+  }
+  clearPreA1VisualCourse();
   try {
     await ensureLanguageWorld(learningPathState.language);
   } catch (error) {
@@ -17754,7 +17889,12 @@ function setupLearningPathControls() {
   });
   levelSelect?.addEventListener('change', () => {
     const language = languageSelect?.value || learningPathState.language;
-    const level = levelSelect.value;
+    const selectedLevel = levelSelect.value;
+    const level = selectedLevel === 'PRE-A1' && language !== 'english' ? 'A1' : selectedLevel;
+    if (level !== selectedLevel) {
+      levelSelect.value = level;
+      showHomeToast('Pre-A1 visual is available in English only.');
+    }
     loadLearningPath({ language, level });
     savePreferences(language, level);
   });
