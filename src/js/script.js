@@ -3546,19 +3546,37 @@ const learningPathState = {
 // completing a mini challenge is remembered on this device.
 const PRE_A1_PROGRESS_STORAGE_KEY = 'andergo_pre_a1_visual_progress';
 const PRE_A1_VISUAL_COURSE = [
-  { id: 'hello', icon: '👋', title: 'Hello!', subtitle: 'Greetings', words: ['Hello', 'Hi', 'Good morning'], phrase: 'Hello! Nice to meet you.', prompt: 'Choose the greeting.', options: ['Hello!', 'Blue', 'Seven'], answer: 0, col: 0, row: 0 },
-  { id: 'goodbye', icon: '👋', title: 'See you!', subtitle: 'Goodbyes', words: ['Goodbye', 'Bye', 'See you soon'], phrase: 'Goodbye! See you tomorrow.', prompt: 'Choose the goodbye.', options: ['Goodbye!', 'Red', 'Monday'], answer: 0, col: 1, row: 0 },
-  { id: 'abc', icon: '🔤', title: 'The ABC', subtitle: 'Letters and sounds', words: ['A', 'B', 'C'], phrase: 'A, B, C. Spell your name.', prompt: 'Which is a letter?', options: ['B', 'Nine', 'Green'], answer: 0, col: 2, row: 0 },
-  { id: 'numbers', icon: '🔢', title: 'Numbers', subtitle: 'Zero to twenty', words: ['one', 'five', 'ten'], phrase: 'I have ten pencils.', prompt: 'Choose the number.', options: ['Ten', 'Tuesday', 'Yellow'], answer: 0, col: 3, row: 0 },
-  { id: 'days', icon: '📅', title: 'My week', subtitle: 'Days of the week', words: ['Monday', 'Friday', 'today'], phrase: 'Today is Monday.', prompt: 'Choose a day.', options: ['Friday', 'Purple', 'Bye'], answer: 0, col: 0, row: 1 },
-  { id: 'colours', icon: '🎨', title: 'Colours', subtitle: 'Colors around us', words: ['red', 'blue', 'yellow'], phrase: 'The ball is blue.', prompt: 'Choose a colour.', options: ['Blue', 'Hello', 'Twelve'], answer: 0, col: 1, row: 1 },
-  { id: 'classroom', icon: '🎒', title: 'In class', subtitle: 'My school things', words: ['book', 'pen', 'bag'], phrase: 'This is my book.', prompt: 'Choose a school thing.', options: ['Book', 'Sunday', 'Green'], answer: 0, col: 2, row: 1 },
-  { id: 'people', icon: '🧑‍🤝‍🧑', title: 'People', subtitle: 'Family and friends', words: ['mother', 'friend', 'teacher'], phrase: 'She is my friend.', prompt: 'Choose a person.', options: ['Teacher', 'Purple', 'Eight'], answer: 0, col: 3, row: 1 },
-  { id: 'feelings', icon: '😊', title: 'Feelings', subtitle: 'How are you?', words: ['happy', 'sad', 'tired'], phrase: 'I am happy today.', prompt: 'Choose a feeling.', options: ['Happy', 'Thursday', 'Pen'], answer: 0, col: 0, row: 2 },
-  { id: 'food', icon: '🍎', title: 'Food & drinks', subtitle: 'Everyday choices', words: ['water', 'apple', 'bread'], phrase: 'I like apples and water.', prompt: 'Choose food.', options: ['Apple', 'Goodbye', 'Blue'], answer: 0, col: 1, row: 2 },
-  { id: 'places', icon: '🏠', title: 'My places', subtitle: 'Home and neighbourhood', words: ['home', 'school', 'park'], phrase: 'My school is near the park.', prompt: 'Choose a place.', options: ['School', 'Seven', 'Hello'], answer: 0, col: 2, row: 2 },
-  { id: 'ready', icon: '🎉', title: 'Ready for A1', subtitle: 'A playful review', words: ['hello', 'blue', 'friend'], phrase: 'Hello, my friend! I am ready.', prompt: 'Choose the friendly phrase.', options: ['Hello, friend!', 'Red Monday', 'Ten book'], answer: 0, col: 3, row: 2 }
+  { id: 'hello', icon: '👋', title: 'Hello!', subtitle: 'Greetings · Saludos', goal: 'Greet someone and say your name.', grammar: 'I am… / My name is…', words: [['Hello', 'Hola'], ['Hi', 'Hola'], ['Good morning', 'Buenos días'], ['Good afternoon', 'Buenas tardes'], ['Welcome', 'Bienvenido/a'], ['name', 'nombre']], phrases: ['Hello! My name is Ana.', 'Hi! Nice to meet you.'], prompt: 'What do you say when you meet someone?', options: ['Goodbye!', 'Hello!', 'Twelve'], answer: 1, col: 0, row: 0 },
+  { id: 'goodbye', icon: '👋', title: 'See you!', subtitle: 'Goodbyes · Despedidas', goal: 'End a short conversation politely.', grammar: 'See you + time', words: [['Goodbye', 'Adiós'], ['Bye', 'Adiós'], ['See you', 'Nos vemos'], ['soon', 'pronto'], ['tomorrow', 'mañana'], ['good night', 'buenas noches']], phrases: ['Goodbye! See you tomorrow.', 'Good night. See you soon.'], prompt: 'Which phrase is a goodbye?', options: ['Good morning!', 'My name is Leo.', 'See you soon!'], answer: 2, col: 1, row: 0 },
+  { id: 'abc', icon: '🔤', title: 'The ABC', subtitle: 'Letters · Letras', goal: 'Recognize letters and spell a short name.', grammar: 'How do you spell…?', words: [['A', 'a'], ['B', 'be'], ['C', 'ce'], ['D', 'de'], ['E', 'e'], ['spell', 'deletrear']], phrases: ['How do you spell Ana?', 'A-N-A. Ana.'], prompt: 'Which option contains only letters?', options: ['A, B, C', 'one, two, three', 'red, blue, green'], answer: 0, col: 2, row: 0 },
+  { id: 'numbers', icon: '🔢', title: 'Numbers', subtitle: '0–20 · Números', goal: 'Recognize numbers and say a simple age.', grammar: 'I am + number + years old.', words: [['zero', 'cero'], ['one', 'uno'], ['five', 'cinco'], ['ten', 'diez'], ['fifteen', 'quince'], ['twenty', 'veinte']], phrases: ['I am ten years old.', 'I have five pencils.'], prompt: 'Which word is a number?', options: ['Monday', 'Yellow', 'Fifteen'], answer: 2, col: 3, row: 0 },
+  { id: 'days', icon: '📅', title: 'My week', subtitle: 'Days · Días', goal: 'Identify today and common days of the week.', grammar: 'Today is…', words: [['Monday', 'lunes'], ['Tuesday', 'martes'], ['Wednesday', 'miércoles'], ['Friday', 'viernes'], ['today', 'hoy'], ['tomorrow', 'mañana']], phrases: ['Today is Monday.', 'Tomorrow is Tuesday.'], prompt: 'Complete: Today is ___.', options: ['Friday', 'Blue', 'Book'], answer: 0, col: 0, row: 1 },
+  { id: 'colours', icon: '🎨', title: 'Colours', subtitle: 'Colours · Colores', goal: 'Name the basic colours of familiar objects.', grammar: 'It is… / The ___ is…', words: [['red', 'rojo'], ['blue', 'azul'], ['yellow', 'amarillo'], ['green', 'verde'], ['black', 'negro'], ['white', 'blanco']], phrases: ['It is a red apple.', 'The bag is blue.'], prompt: 'Which option is a colour?', options: ['Teacher', 'Green', 'Seven'], answer: 1, col: 1, row: 1 },
+  { id: 'classroom', icon: '🎒', title: 'In class', subtitle: 'School things · La clase', goal: 'Recognize and name everyday classroom objects.', grammar: 'This is my…', words: [['book', 'libro'], ['pen', 'bolígrafo'], ['pencil', 'lápiz'], ['bag', 'mochila'], ['chair', 'silla'], ['desk', 'pupitre']], phrases: ['This is my book.', 'My pencil is on the desk.'], prompt: 'What can you write with?', options: ['A park', 'A teacher', 'A pencil'], answer: 2, col: 2, row: 1 },
+  { id: 'people', icon: '🧑‍🤝‍🧑', title: 'People', subtitle: 'Family & friends · Personas', goal: 'Identify important people around you.', grammar: 'He is… / She is…', words: [['mother', 'madre'], ['father', 'padre'], ['sister', 'hermana'], ['brother', 'hermano'], ['friend', 'amigo/a'], ['teacher', 'docente']], phrases: ['She is my sister.', 'He is my friend.'], prompt: 'Which word names a person?', options: ['Teacher', 'Purple', 'Monday'], answer: 0, col: 3, row: 1 },
+  { id: 'feelings', icon: '😊', title: 'Feelings', subtitle: 'How are you? · Emociones', goal: 'Say how you feel with one simple word.', grammar: 'I am + feeling.', words: [['happy', 'feliz'], ['sad', 'triste'], ['tired', 'cansado/a'], ['fine', 'bien'], ['hungry', 'hambriento/a'], ['okay', 'bien']], phrases: ['I am happy today.', 'I am tired, but I am okay.'], prompt: 'How do you say “feliz” in English?', options: ['Hungry', 'Happy', 'Tired'], answer: 1, col: 0, row: 2 },
+  { id: 'food', icon: '🍎', title: 'Food & drinks', subtitle: 'Food · Comida', goal: 'Name simple foods and say what you like.', grammar: 'I like… / I want…', words: [['water', 'agua'], ['milk', 'leche'], ['apple', 'manzana'], ['banana', 'banana'], ['bread', 'pan'], ['rice', 'arroz']], phrases: ['I like apples and bread.', 'I want water, please.'], prompt: 'Which option is a drink?', options: ['Water', 'Bread', 'Rice'], answer: 0, col: 1, row: 2 },
+  { id: 'places', icon: '🏠', title: 'My places', subtitle: 'Places · Lugares', goal: 'Recognize familiar places in your day.', grammar: 'This is… / I am at…', words: [['home', 'casa'], ['school', 'escuela'], ['park', 'parque'], ['shop', 'tienda'], ['street', 'calle'], ['classroom', 'aula']], phrases: ['I am at school.', 'The park is near my home.'], prompt: 'Where do students learn?', options: ['At school', 'At blue', 'At seven'], answer: 0, col: 2, row: 2 },
+  { id: 'ready', icon: '🎉', title: 'Ready for A1', subtitle: 'Review · Repaso', goal: 'Use familiar words in a tiny introduction.', grammar: 'Hello + name + feeling', words: [['hello', 'hola'], ['name', 'nombre'], ['friend', 'amigo/a'], ['happy', 'feliz'], ['school', 'escuela'], ['ready', 'listo/a']], phrases: ['Hello! My name is Mia.', 'I am happy and ready for A1.'], prompt: 'Choose the best mini introduction.', options: ['Blue, ten, Monday.', 'Goodbye, pencil!', 'Hello! My name is Mia.'], answer: 2, col: 3, row: 2 }
 ];
+
+// Each topic includes a tiny, meaningful exchange. At Pre-A1 the aim is not
+// free conversation yet: learners first notice a useful pattern, hear it in
+// context and safely repeat it before answering the check question.
+const PRE_A1_MICRO_DIALOGUES = {
+  hello: [['Ana', 'Hello! My name is Ana.'], ['Leo', 'Hi, Ana. I am Leo.'], ['Ana', 'Nice to meet you, Leo.']],
+  goodbye: [['Mia', 'Goodbye, Sam.'], ['Sam', 'Bye, Mia. See you tomorrow!'], ['Mia', 'See you!']],
+  abc: [['Teacher', 'How do you spell Leo?'], ['Leo', 'L-E-O.'], ['Teacher', 'Great job, Leo!']],
+  numbers: [['Mia', 'How old are you?'], ['Leo', 'I am ten years old.'], ['Mia', 'I am ten too.']],
+  days: [['Ana', 'What day is it today?'], ['Leo', 'Today is Monday.'], ['Ana', 'English class is on Monday.']],
+  colours: [['Mia', 'What colour is your bag?'], ['Sam', 'It is blue.'], ['Mia', 'My bag is red.']],
+  classroom: [['Teacher', 'Open your book, please.'], ['Ana', 'This is my book.'], ['Teacher', 'Thank you, Ana.']],
+  people: [['Leo', 'Who is she?'], ['Ana', 'She is my sister.'], ['Leo', 'Hello, Ana’s sister!']],
+  feelings: [['Teacher', 'How are you today?'], ['Mia', 'I am happy, thank you.'], ['Teacher', 'That is wonderful.']],
+  food: [['Ana', 'What do you want?'], ['Leo', 'Water, please.'], ['Ana', 'Here is your water.']],
+  places: [['Mia', 'Where are you?'], ['Sam', 'I am at school.'], ['Mia', 'I am at the park.']],
+  ready: [['Ana', 'Hello! My name is Ana.'], ['Leo', 'Hi, Ana. I am Leo.'], ['Ana', 'We are ready for A1!']]
+};
 
 function isPreA1VisualCourse(language = learningPathState.language, level = learningPathState.level) {
   return language === 'english' && level === 'PRE-A1';
@@ -3596,6 +3614,7 @@ function renderPreA1VisualCourse(selectedTopicId = '') {
 
   const progress = getPreA1Progress();
   const selected = PRE_A1_VISUAL_COURSE.find((topic) => topic.id === selectedTopicId) || PRE_A1_VISUAL_COURSE.find((topic) => !progress.has(topic.id)) || PRE_A1_VISUAL_COURSE[0];
+  const dialogue = PRE_A1_MICRO_DIALOGUES[selected.id] || [];
   const completed = progress.size;
   const pct = Math.round((completed / PRE_A1_VISUAL_COURSE.length) * 100);
 
@@ -3606,8 +3625,8 @@ function renderPreA1VisualCourse(selectedTopicId = '') {
 
   graph.innerHTML = `
     <div class="pre-a1-hero">
-      <div><span class="pre-a1-kicker">English · Pre-A1</span><h2>Start with what you can see.</h2><p>Listen, look, touch and learn one small idea at a time.</p></div>
-      <div class="pre-a1-progress" aria-label="${completed} of ${PRE_A1_VISUAL_COURSE.length} topics complete"><strong>${completed}/${PRE_A1_VISUAL_COURSE.length}</strong><span>topics complete</span><div><i style="width:${pct}%"></i></div></div>
+      <div><span class="pre-a1-kicker">English · Pre-A1</span><h2>Start with what you can see.</h2><p>Mira, escucha y aprende una idea pequeña a la vez.</p></div>
+      <div class="pre-a1-progress" aria-label="${completed} of ${PRE_A1_VISUAL_COURSE.length} topics complete"><strong>${completed}/${PRE_A1_VISUAL_COURSE.length}</strong><span>temas completados</span><div><i style="width:${pct}%"></i></div></div>
     </div>
     <div class="pre-a1-topic-grid" aria-label="Pre-A1 visual topics">
       ${PRE_A1_VISUAL_COURSE.map((topic, index) => `
@@ -3620,12 +3639,31 @@ function renderPreA1VisualCourse(selectedTopicId = '') {
 
   workspace.className = 'lesson-workspace pre-a1-workspace';
   workspace.innerHTML = `
-    <div class="pre-a1-detail-head"><span class="pre-a1-detail-image" role="img" aria-label="Illustration: ${escapeHtml(selected.subtitle)}" style="${getPreA1SpriteStyle(selected)}"></span><div><span class="pre-a1-kicker">Mini lesson</span><h3>${escapeHtml(selected.title)}</h3><p>${escapeHtml(selected.subtitle)} · Learn with pictures, sound and one short challenge.</p></div></div>
-    <div class="pre-a1-word-row">${selected.words.map((word) => `<button type="button" class="pre-a1-word pre-a1-listen" data-speech="${escapeHtml(word)}" aria-label="Listen to ${escapeHtml(word)}">🔊 ${escapeHtml(word)}</button>`).join('')}</div>
-    <div class="pre-a1-phrase"><span>Say it</span><strong>${escapeHtml(selected.phrase)}</strong><button type="button" class="secondary-btn pre-a1-listen" data-speech="${escapeHtml(selected.phrase)}">🔊 Listen</button></div>
-    <div class="pre-a1-challenge"><span class="pre-a1-kicker">Quick challenge</span><h4>${escapeHtml(selected.prompt)}</h4><div>${selected.options.map((option, index) => `<button type="button" class="pre-a1-choice" data-pre-a1-choice="${index}" data-pre-a1-answer="${selected.answer}">${escapeHtml(option)}</button>`).join('')}</div><p class="pre-a1-feedback" aria-live="polite">Choose one answer.</p></div>`;
+    <div class="pre-a1-detail-head"><span class="pre-a1-detail-image" role="img" aria-label="Illustration: ${escapeHtml(selected.subtitle)}" style="${getPreA1SpriteStyle(selected)}"></span><div><span class="pre-a1-kicker">Mini lección</span><h3>${escapeHtml(selected.title)}</h3><p>${escapeHtml(selected.goal)}</p></div></div>
+    <div class="pre-a1-mini-path" aria-label="Pasos de la lección"><span>1 · Mira</span><span>2 · Escucha</span><span>3 · Habla</span><span>4 · Comprueba</span></div>
+    <div class="pre-a1-word-row">${selected.words.map(([word, support]) => `<button type="button" class="pre-a1-word pre-a1-listen" data-speech="${escapeHtml(word)}" aria-label="Listen to ${escapeHtml(word)}"><span>🔊 ${escapeHtml(word)}</span><small>${escapeHtml(support)}</small></button>`).join('')}</div>
+    <div class="pre-a1-grammar-focus"><span>Simple pattern</span><strong>${escapeHtml(selected.grammar)}</strong></div>
+    <div class="pre-a1-phrase-list">${selected.phrases.map((phrase) => `<div class="pre-a1-phrase"><span>Say it</span><strong>${escapeHtml(phrase)}</strong><button type="button" class="secondary-btn pre-a1-listen" data-speech="${escapeHtml(phrase)}">🔊 Listen</button></div>`).join('')}</div>
+    <section class="pre-a1-dialogue" aria-label="Diálogo guiado">
+      <div class="pre-a1-dialogue-head"><span class="pre-a1-kicker">Diálogo guiado</span><p>Escucha cada turno y repítelo en voz alta.</p></div>
+      <div class="pre-a1-dialogue-lines">${dialogue.map(([speaker, line]) => `<div class="pre-a1-dialogue-line"><strong>${escapeHtml(speaker)}</strong><span>${escapeHtml(line)}</span><button type="button" class="pre-a1-listen" data-speech="${escapeHtml(line)}" aria-label="Escuchar a ${escapeHtml(speaker)}">🔊</button></div>`).join('')}</div>
+      <button type="button" class="secondary-btn pre-a1-repeat-confirm">✓ Ya lo repetí</button>
+      <p class="pre-a1-repeat-feedback" aria-live="polite"></p>
+    </section>
+    <div class="pre-a1-challenge"><span class="pre-a1-kicker">Reto rápido</span><h4>${escapeHtml(selected.prompt)}</h4><div>${selected.options.map((option, index) => `<button type="button" class="pre-a1-choice" data-pre-a1-choice="${index}" data-pre-a1-answer="${selected.answer}">${escapeHtml(option)}</button>`).join('')}</div><p class="pre-a1-feedback" aria-live="polite">Elige una respuesta.</p></div>`;
 
-  graph.querySelectorAll('[data-pre-a1-topic]').forEach((button) => button.addEventListener('click', () => renderPreA1VisualCourse(button.dataset.preA1Topic)));
+  graph.querySelectorAll('[data-pre-a1-topic]').forEach((button) => button.addEventListener('click', () => {
+    renderPreA1VisualCourse(button.dataset.preA1Topic);
+    // The mini lesson is rendered below the visual catalogue. Move to it
+    // immediately so selecting a card feels like opening a lesson, rather
+    // than merely changing an off-screen state.
+    window.requestAnimationFrame(() => {
+      document.getElementById('lessonWorkspace')?.scrollIntoView({
+        behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth',
+        block: 'start'
+      });
+    });
+  }));
   workspace.querySelectorAll('.pre-a1-listen').forEach((button) => button.addEventListener('click', () => {
     if (!('speechSynthesis' in window)) return;
     window.speechSynthesis.cancel();
@@ -3634,6 +3672,12 @@ function renderPreA1VisualCourse(selectedTopicId = '') {
     utterance.rate = 0.82;
     window.speechSynthesis.speak(utterance);
   }));
+  workspace.querySelector('.pre-a1-repeat-confirm')?.addEventListener('click', (event) => {
+    event.currentTarget.disabled = true;
+    event.currentTarget.textContent = '✓ ¡Muy bien!';
+    const feedback = workspace.querySelector('.pre-a1-repeat-feedback');
+    if (feedback) feedback.textContent = 'Excelente. Ahora completa el reto para terminar la lección.';
+  });
   workspace.querySelectorAll('[data-pre-a1-choice]').forEach((button) => button.addEventListener('click', () => {
     const correct = Number(button.dataset.preA1Choice) === Number(button.dataset.preA1Answer);
     const feedback = workspace.querySelector('.pre-a1-feedback');
@@ -3642,10 +3686,10 @@ function renderPreA1VisualCourse(selectedTopicId = '') {
     if (correct) {
       progress.add(selected.id);
       savePreA1Progress(progress);
-      feedback.textContent = 'Great job! This topic is complete.';
+      feedback.textContent = '¡Muy bien! Completaste este tema.';
       window.setTimeout(() => renderPreA1VisualCourse(selected.id), 550);
     } else {
-      feedback.textContent = 'Try once more. Look at the picture and listen again.';
+      feedback.textContent = 'Inténtalo otra vez. Mira la imagen y escucha de nuevo.';
     }
   }));
 }
@@ -3934,6 +3978,43 @@ function openUnitSequenceStep(skill, lessonSlug = '') {
   renderSkillView(skill);
 }
 
+// The skill tabs at the top of a route used to be plain hash links. That
+// changed the visible tab without choosing the equivalent activity in the
+// current unit, so a page could show Reading as active while its mission and
+// header still described Listening. Keep every route entry point on this
+// shared selection path instead.
+function getCurrentUnitActivityForSkill(skill) {
+  if (!SKILL_VIEWS.includes(skill) || !hasUnits()) return null;
+  const activeLesson = learningPathState.lessons.find(
+    (lesson) => lesson.slug === learningPathState.activeSlug
+  );
+  const unitId = activeLesson?.unitId || learningPathState.unitId;
+  if (!unitId) return null;
+  return learningPathState.lessons.find(
+    (lesson) => lesson.unitId === unitId && lesson.skill === skill
+  ) || null;
+}
+
+function openLearningRouteTab(skill) {
+  if (skill === 'learn') {
+    learningPathState.skillEntryContext = 'route';
+    updateLearnHash('learn');
+    showView('learn');
+    return;
+  }
+
+  const targetLesson = getCurrentUnitActivityForSkill(skill);
+  if (targetLesson) {
+    openUnitSequenceStep(skill, targetLesson.slug);
+    return;
+  }
+
+  // Keep the existing library behaviour for a language/level without units.
+  learningPathState.skillEntryContext = 'explore';
+  history.pushState(null, '', `#${skill}`);
+  showView(skill);
+}
+
 // Each activity used to expose every optional Tutor, translator and download
 // action in one long row. Keep the action that advances learning visible and
 // place the remaining helpers in a native disclosure without removing any
@@ -4178,13 +4259,25 @@ function buildLearningRouteContextHtml(activeLesson = null) {
   const lessonNumber =
     activeUnit?.order ||
     (activeLesson ? learningPathState.lessons.indexOf(activeLesson) + 1 : 1);
-  const lessonWord = {
-    french: 'Leçon',
-    english: 'Lesson',
-    spanish: 'Lección',
-    italian: 'Lezione',
-    german: 'Lektion'
-  }[learningPathState.language] || 'Lección';
+  // The title in this pill belongs to the thematic unit, while the mission
+  // below belongs to one of its activities. Calling both "Lesson" made the
+  // labels look contradictory (for example, "Lesson 1: Hello!" beside
+  // "Listening: Nice to Meet You"). Name the container accurately.
+  const lessonWord = (activeUnit
+    ? {
+        french: 'Unité',
+        english: 'Unit',
+        spanish: 'Unidad',
+        italian: 'Unità',
+        german: 'Einheit'
+      }
+    : {
+        french: 'Leçon',
+        english: 'Lesson',
+        spanish: 'Lección',
+        italian: 'Lezione',
+        german: 'Lektion'
+      })[learningPathState.language] || 'Lección';
   const lessonTitle = activeUnit?.title || activeLesson?.title || '';
   const lessonLabel = `${lessonWord} ${lessonNumber}${lessonTitle ? `: ${lessonTitle}` : ''}`;
   return `
@@ -8483,6 +8576,49 @@ function buildGenericIllustrationDataUri(seed) {
   return `data:image/svg+xml,${encodeURIComponent(svg)}`;
 }
 
+// A local 4 x 3 illustration atlas gives every Reading a real, topic-led
+// cover without requesting a separate large image for every lesson. The
+// matching is deliberately broad and multilingual: each title, description
+// and opening text is enough to choose an appropriate scene even when the
+// course author has not supplied a bespoke illustration yet.
+const READING_THEME_ATLAS = '/images/readings/reading-theme-grid.png';
+const READING_ILLUSTRATION_THEMES = [
+  { label: 'aprendizaje', terms: ['class', 'school', 'student', 'learn', 'lesson', 'école', 'classe', 'élève', 'appren', 'escuela', 'clase', 'estudiante'] },
+  { label: 'trabajo y carrera', terms: ['work', 'job', 'career', 'office', 'interview', 'emploi', 'travail', 'carrière', 'bureau', 'entretien', 'trabajo', 'empleo', 'carrera'] },
+  { label: 'vida digital', terms: ['social media', 'online', 'digital', 'internet', 'réseau', 'média', 'numérique', 'redes', 'digital'] },
+  { label: 'clima y ciudad', terms: ['climate', 'pollution', 'environment', 'green', 'écologie', 'climat', 'pollution', 'environnement', 'medio ambiente', 'clima'] },
+  { label: 'viajes', terms: ['travel', 'trip', 'train', 'airport', 'journey', 'voyage', 'train', 'aéroport', 'viaje', 'tren', 'aeropuerto'] },
+  { label: 'salud y bienestar', terms: ['health', 'wellbeing', 'well-being', 'stress', 'sport', 'santé', 'bien-être', 'stress', 'salud', 'bienestar'] },
+  { label: 'comunidad', terms: ['community', 'volunteer', 'neighbourhood', 'public', 'communauté', 'bénévole', 'quartier', 'comunidad', 'voluntario', 'barrio'] },
+  { label: 'arte y cultura', terms: ['culture', 'art', 'music', 'film', 'museum', 'culture', 'art', 'musique', 'cinéma', 'musée', 'cultura', 'arte', 'música', 'película'] },
+  { label: 'tecnología', terms: ['technology', 'artificial intelligence', 'ai ', 'automation', 'technologie', 'intelligence artificielle', 'technología', 'inteligencia artificial', 'automatización'] },
+  { label: 'ciencia', terms: ['science', 'research', 'study', 'brain', 'scientifique', 'recherche', 'cerveau', 'ciencia', 'investigación', 'cerebro'] },
+  { label: 'familia y amistades', terms: ['family', 'friend', 'relationship', 'famille', 'ami', 'amitié', 'relation', 'familia', 'amigo', 'amistad'] },
+  { label: 'vida cotidiana', terms: ['shop', 'market', 'price', 'food', 'service', 'magasin', 'marché', 'prix', 'recette', 'tienda', 'mercado', 'precio', 'comida'] }
+];
+
+function getReadingIllustrationTheme(lesson = {}) {
+  const source = [lesson.title, lesson.description, lesson.reading?.title, lesson.reading?.text]
+    .filter(Boolean)
+    .join(' ')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase();
+  let index = READING_ILLUSTRATION_THEMES.findIndex((theme) =>
+    theme.terms.some((term) => source.includes(term))
+  );
+  if (index < 0) {
+    const seed = String(lesson.unitId || lesson.slug || lesson.title || 'reading');
+    index = [...seed].reduce((total, character) => total + character.charCodeAt(0), 0) % READING_ILLUSTRATION_THEMES.length;
+  }
+  const column = index % 4;
+  const row = Math.floor(index / 4);
+  return {
+    label: READING_ILLUSTRATION_THEMES[index].label,
+    position: `${(column / 3) * 100}% ${(row / 2) * 100}%`
+  };
+}
+
 // Each reading can define its own illustration (lesson.reading.illustration
 // = { src, alt }, see scripts/content/*-a1-units.js), falling back to a
 // unit-level one (lesson.unitIllustration) and finally to the generated
@@ -8495,10 +8631,12 @@ function resolveReadingIllustration(lesson) {
       ? lesson.unitIllustration
       : null;
   const seed = lesson.unitId || lesson.slug || lesson.title || 'andergo';
+  const theme = getReadingIllustrationTheme(lesson);
   return {
     src: chosen?.src || null,
     fallbackSrc: buildGenericIllustrationDataUri(String(seed)),
-    alt: chosen?.alt || lesson.title || ''
+    alt: chosen?.alt || `${lesson.title || ''}: ${theme.label}`,
+    theme
   };
 }
 
@@ -8506,11 +8644,13 @@ function resolveReadingIllustration(lesson) {
 // uploaded yet, onerror swaps it for the generated placeholder instead of
 // showing a broken-image icon.
 function renderReadingIllustrationHtml(lesson) {
-  const { src, fallbackSrc, alt } = resolveReadingIllustration(lesson);
-  const onerror = src ? ` onerror="this.onerror=null;this.src='${fallbackSrc}';"` : '';
+  const { src, alt, theme } = resolveReadingIllustration(lesson);
+  const customImage = src
+    ? `<img class="reading-illustration-image" src="${escapeHtml(src)}" alt="" loading="lazy" onerror="this.remove();">`
+    : '';
   return `
     <figure class="reading-illustration no-print">
-      <img src="${escapeHtml(src || fallbackSrc)}" alt="${escapeHtml(alt)}" loading="lazy"${onerror}>
+      <span class="reading-illustration-sprite" role="img" aria-label="${escapeHtml(alt)}" style="--reading-illustration-position:${theme.position};">${customImage}</span>
     </figure>
   `;
 }
@@ -15977,6 +16117,19 @@ window.addEventListener('hashchange', () => {
       document.getElementById('premium')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }, 50);
   }
+});
+
+// A route tab is not merely a view switch: it means "open this skill for the
+// unit I am currently studying". Intercept the static anchors so they cannot
+// leave the hash/tab on one activity while the mission strip still refers to
+// another one.
+document.addEventListener('click', (event) => {
+  const tab = event.target.closest('.level-tab[data-tab]');
+  if (!tab || tab.closest('[hidden]')) return;
+  const skill = tab.dataset.tab;
+  if (skill !== 'learn' && !SKILL_VIEWS.includes(skill)) return;
+  event.preventDefault();
+  openLearningRouteTab(skill);
 });
 
 // goTo() (handleHomeAction) navigates via history.pushState, which never

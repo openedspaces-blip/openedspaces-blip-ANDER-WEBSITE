@@ -8182,22 +8182,30 @@ footer small {
   margin: 0.25rem 0 0;
 }
 
-/* Small icon card - a quiet accent next to the title, not a hero image:
-   a fixed, compact square with a soft pastel background and a simple
-   line-art glyph (see buildGenericIllustrationDataUri in script.js).
-   Deliberately static (no animation) - at this size motion reads as a
-   flicker, not as polish. */
+/* Reading cover: a crop from the local thematic illustration atlas. It keeps
+   the title compact while giving every text an immediate visual context. */
 .reading-illustration {
   flex: 0 0 auto;
-  width: 84px;
-  height: 84px;
+  width: 146px;
+  height: 104px;
   margin: 0;
-  border-radius: 18px;
+  border-radius: 16px;
   overflow: hidden;
   box-shadow: var(--shadow-soft);
 }
 
-.reading-illustration img {
+.reading-illustration-sprite {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-image: url('/images/readings/reading-theme-grid.png');
+  background-position: var(--reading-illustration-position, 0% 0%);
+  background-size: 400% 300%;
+  background-repeat: no-repeat;
+}
+
+.reading-illustration-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -8211,8 +8219,8 @@ footer small {
     gap: 0.85rem;
   }
   .reading-illustration {
-    width: 64px;
-    height: 64px;
+    width: min(100%, 180px);
+    height: 112px;
   }
 }
 
@@ -21822,7 +21830,34 @@ body {
 }
 
 .pre-a1-topic-image {
+  position: relative;
   background-size: 400% 300% !important;
+  background-position: center;
+  isolation: isolate;
+}
+
+.pre-a1-topic-image::after {
+  position: absolute;
+  z-index: 0;
+  inset: 0;
+  content: '';
+  background: linear-gradient(180deg, transparent 54%, rgba(16, 41, 88, 0.12));
+}
+
+.pre-a1-topic-image-mark {
+  position: absolute;
+  z-index: 1;
+  top: 0.48rem;
+  left: 0.5rem;
+  display: grid;
+  width: 1.85rem;
+  height: 1.85rem;
+  place-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.78);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 12px rgba(16, 41, 88, 0.12);
+  font-size: 0.93rem;
 }
 
 .pre-a1-topic-copy {
@@ -21909,8 +21944,130 @@ body {
 }
 
 .pre-a1-word {
-  padding: 0.5rem 0.75rem;
+  display: grid;
+  gap: 0.12rem;
+  min-width: 126px;
+  padding: 0.55rem 0.78rem;
   font-size: 0.82rem;
+  text-align: left;
+}
+
+.pre-a1-word span {
+  font-weight: 820;
+}
+
+.pre-a1-word small {
+  color: var(--muted);
+  font-size: 0.69rem;
+  font-weight: 650;
+}
+
+.pre-a1-mini-path {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.45rem;
+}
+
+.pre-a1-mini-path span {
+  padding: 0.48rem 0.6rem;
+  border-radius: 999px;
+  background: #edf5ff;
+  color: var(--blue);
+  font-size: 0.7rem;
+  font-weight: 850;
+  text-align: center;
+}
+
+.pre-a1-grammar-focus {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.8rem;
+  padding: 0.7rem 0.85rem;
+  border: 1px dashed rgba(37, 99, 235, 0.25);
+  border-radius: 14px;
+  background: #fff;
+}
+
+.pre-a1-grammar-focus span {
+  color: var(--blue);
+  font-size: 0.7rem;
+  font-weight: 850;
+  text-transform: uppercase;
+}
+
+.pre-a1-grammar-focus strong {
+  color: var(--navy-2);
+  font-size: 0.9rem;
+}
+
+.pre-a1-phrase-list {
+  display: grid;
+  gap: 0.55rem;
+}
+
+.pre-a1-dialogue {
+  display: grid;
+  gap: 0.7rem;
+  padding: 1rem;
+  border: 1px solid rgba(37, 99, 235, 0.14);
+  border-radius: 16px;
+  background: #fff;
+}
+
+.pre-a1-dialogue-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.25rem 1rem;
+}
+
+.pre-a1-dialogue-head p,
+.pre-a1-repeat-feedback {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 650;
+}
+
+.pre-a1-dialogue-lines {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.pre-a1-dialogue-line {
+  display: grid;
+  grid-template-columns: minmax(64px, 0.28fr) 1fr auto;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.64rem 0.72rem;
+  border-radius: 12px;
+  background: #f6f9ff;
+  color: var(--navy-2);
+  font-size: 0.88rem;
+}
+
+.pre-a1-dialogue-line strong {
+  color: var(--blue);
+  font-size: 0.76rem;
+}
+
+.pre-a1-dialogue-line button {
+  min-width: 34px;
+  min-height: 34px;
+  padding: 0.25rem;
+  border: 1px solid rgba(37, 99, 235, 0.2);
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+}
+
+.pre-a1-repeat-confirm {
+  justify-self: start;
+  min-height: 36px;
+  padding: 0.38rem 0.7rem;
+  font-size: 0.8rem;
 }
 
 .pre-a1-phrase,
@@ -22023,6 +22180,18 @@ body {
   .pre-a1-detail-head h3 {
     font-size: 1.12rem;
   }
+
+  .pre-a1-mini-path {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .pre-a1-dialogue-line {
+    grid-template-columns: 1fr auto;
+  }
+
+  .pre-a1-dialogue-line strong {
+    grid-column: 1 / -1;
+  }
 }
 
 /* Route progress: one calm course indicator, with compact activity counts.
@@ -22090,5 +22259,71 @@ body {
 
   .unit-overview-progress-label {
     font-size: 0.69rem;
+  }
+}
+
+/* Desktop route balance: give the route the left half of the workspace so
+   unit imagery and multi-line lesson titles can be scanned without crowding.
+   The detail panel remains equally wide and retains its existing activity
+   flow. */
+@media (min-width: 1025px) {
+  .learning-path-layout {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: clamp(20px, 2vw, 36px);
+  }
+
+  .skill-graph {
+    max-height: calc(100dvh - 104px);
+    padding: clamp(1.1rem, 1.45vw, 1.45rem);
+  }
+
+  .path-unit {
+    grid-template-columns: 4.1rem minmax(0, 1fr) auto;
+    grid-template-rows: auto minmax(1.25rem, auto) auto;
+    gap: 0.2rem 0.78rem;
+    min-height: 112px;
+    padding: 0.82rem 0.9rem 0.9rem;
+  }
+
+  .path-unit-artwork {
+    grid-row: 1 / 4;
+    width: 4.1rem;
+    height: 4.1rem;
+    border-radius: 17px;
+  }
+
+  .path-unit-title {
+    font-size: clamp(1rem, 1.15vw, 1.16rem);
+    line-height: 1.18;
+  }
+
+  .path-unit-title-es {
+    margin-top: 0.16rem;
+    font-size: 0.83rem;
+    line-height: 1.32;
+  }
+
+  .path-unit-journey {
+    font-size: 0.71rem;
+  }
+
+  .path-unit-reward {
+    font-size: 0.82rem;
+  }
+
+  .path-unit-progress-label {
+    min-width: 3rem;
+    padding: 0.22rem 0.38rem;
+    font-size: 0.72rem;
+  }
+
+  .path-unit-status {
+    font-size: 0.7rem;
+  }
+
+  .path-unit-progress-track {
+    right: 0.9rem;
+    bottom: 0.42rem;
+    left: 5.85rem;
   }
 }
