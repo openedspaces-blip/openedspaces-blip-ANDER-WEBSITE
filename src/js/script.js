@@ -3737,12 +3737,15 @@ function renderUnitSequenceStepsHtml(unitId, currentSkill = '') {
             : lesson.locked
               ? 'Premium'
               : skillHints[lesson.skill] || 'Abrir';
+      const evaluationLabel = lesson.completed && Number(lesson.bestScore || 0) > 0
+        ? `${Math.round(Number(lesson.bestScore))}/100`
+        : actionLabel;
       return `
         <button type="button" class="unit-sequence-step unit-sequence-step--${state}" data-sequence-skill="${escapeHtml(lesson.skill)}" data-lesson-slug="${escapeHtml(lesson.slug)}" ${isCurrent ? 'aria-current="step"' : ''} aria-label="${escapeHtml(`${getSkillLabel(lesson.skill)}: ${actionLabel}`)}">
           <span class="unit-sequence-number">${lesson.completed ? '✓' : isRecommended ? '★' : index + 1}</span>
           <span class="unit-sequence-label">
             <strong>${escapeHtml(getSkillLabel(lesson.skill))}</strong>
-            <small>${escapeHtml(actionLabel)}</small>
+            <small>${escapeHtml(evaluationLabel)}</small>
           </span>
         </button>
       `;
@@ -3914,6 +3917,9 @@ function renderUnitActivityFooter(section, lesson) {
       }
     </span>
     <div class="unit-activity-footer-actions">
+      <button type="button" class="secondary-btn unit-activity-change">
+        ${escapeHtml(routeCopy.changeLesson)}
+      </button>
       ${
         previousTarget
           ? `<button type="button" class="secondary-btn unit-activity-prev">← ${escapeHtml(routeCopy.previous)}</button>`
@@ -3939,6 +3945,9 @@ function renderUnitActivityFooter(section, lesson) {
     }
     if (previousLesson) openUnitSequenceStep(previousLesson.skill, previousLesson.slug);
   });
+  footer.querySelector('.unit-activity-change')?.addEventListener('click', () => {
+    returnToCurrentLearningRoute();
+  });
   footer.querySelector('.unit-activity-next')?.addEventListener('click', () => {
     if (nextTarget === 'reading-section') {
       readingSectionState.set(lesson.slug, readingState.current + 1);
@@ -3958,6 +3967,7 @@ function getUnitRouteCopy() {
     english: {
       previous: 'Previous',
       next: 'Next',
+      changeLesson: 'Change lesson',
       verbs: 'Verbs',
       retry: 'Retry lesson',
       nextLesson: 'Next lesson',
@@ -3967,6 +3977,7 @@ function getUnitRouteCopy() {
     french: {
       previous: 'Précédent',
       next: 'Suivant',
+      changeLesson: 'Changer de leçon',
       verbs: 'Verbes',
       retry: 'Refaire la leçon',
       nextLesson: 'Leçon suivante',
@@ -3976,6 +3987,7 @@ function getUnitRouteCopy() {
     spanish: {
       previous: 'Anterior',
       next: 'Siguiente',
+      changeLesson: 'Cambiar lección',
       verbs: 'Verbos',
       retry: 'Reintentar lección',
       nextLesson: 'Lección siguiente',
@@ -4107,6 +4119,7 @@ function renderSkillUnitSequence(section, lesson) {
       <small>${minutes ? `⏱ ${escapeHtml(String(minutes))} min · ` : ''}⭐ ${escapeHtml(String(xp))} XP · ${nextLesson ? `Después: ${escapeHtml(getSkillLabel(nextLesson.skill))}` : 'Última actividad antes de Verbos'}</small>
     </div>
     <button type="button" class="secondary-btn unit-mission-route-btn">Ver ruta</button>
+    <button type="button" class="secondary-btn unit-mission-reveal-btn" aria-expanded="true" hidden>Ver misión</button>
     <div class="unit-route-markers" style="--route-progress-width:${routeProgress * 0.86}%" aria-label="Progreso de la unidad">
       ${markersHtml}
     </div>
@@ -4121,6 +4134,34 @@ function renderSkillUnitSequence(section, lesson) {
   nav.querySelector('.unit-mission-route-btn')?.addEventListener('click', () => {
     returnToCurrentLearningRoute();
   });
+  wireMobileMissionStripAutoHide(nav);
+}
+
+let mobileMissionStripTimer = null;
+
+// On phones the fixed header and skill tabs already occupy two rows. The
+// mission strip is useful for orientation on arrival, then yields its space
+// so the actual lesson gets priority. A small control restores it on demand.
+function wireMobileMissionStripAutoHide(strip) {
+  if (!strip || !window.matchMedia('(max-width: 640px)').matches) return;
+  const revealButton = strip.querySelector('.unit-mission-reveal-btn');
+  const reveal = () => {
+    strip.classList.remove('is-auto-hidden');
+    revealButton.hidden = true;
+    revealButton.setAttribute('aria-expanded', 'true');
+    window.clearTimeout(mobileMissionStripTimer);
+    mobileMissionStripTimer = window.setTimeout(hide, 2000);
+  };
+  const hide = () => {
+    if (!strip.isConnected) return;
+    strip.classList.add('is-auto-hidden');
+    revealButton.hidden = false;
+    revealButton.setAttribute('aria-expanded', 'false');
+  };
+
+  window.clearTimeout(mobileMissionStripTimer);
+  mobileMissionStripTimer = window.setTimeout(hide, 2000);
+  revealButton?.addEventListener('click', reveal);
 }
 
 function renderUnitVerbContext() {
@@ -5237,12 +5278,40 @@ function updateTutorMessageBody(messageEl, container, text) {
   if (container) container.scrollTop = container.scrollHeight;
 }
 
+// Streaming can produce many tiny chunks. Rendering Markdown and forcing a
+// scroll for every one is especially expensive on phones, so group visual
+// updates into a single animation frame while preserving the streamed reply.
+function scheduleTutorMessageBodyUpdate(messageEl, container, text) {
+  if (!messageEl) return;
+  messageEl._pendingTutorText = text;
+  if (messageEl._tutorRenderFrame) return;
+  messageEl._tutorRenderFrame = window.requestAnimationFrame(() => {
+    messageEl._tutorRenderFrame = null;
+    updateTutorMessageBody(messageEl, container, messageEl._pendingTutorText || '');
+  });
+}
+
+function flushTutorMessageBodyUpdate(messageEl, container, text) {
+  if (!messageEl) return;
+  if (messageEl._tutorRenderFrame) {
+    window.cancelAnimationFrame(messageEl._tutorRenderFrame);
+    messageEl._tutorRenderFrame = null;
+  }
+  updateTutorMessageBody(messageEl, container, text);
+}
+
 // ---------------------------------------------------------------------
 // AI Tutor voice: browser/system speechSynthesis on top of the Tutor's text.
 // ---------------------------------------------------------------------
 
 // Whatever is currently audible for a tutor reply - at most one at a time.
 let currentTutorAudio = { element: null, messageEl: null };
+let activeTutorRequestController = null;
+
+function cancelActiveTutorRequest() {
+  activeTutorRequestController?.abort();
+  activeTutorRequestController = null;
+}
 
 function primeTutorAudioForAutoplay() {}
 
@@ -5611,6 +5680,32 @@ function showLearnState(state) {
   const isOpen = state === 'route';
   graph?.classList.toggle('is-drawer-open', isOpen);
   toggle?.setAttribute('aria-expanded', String(isOpen));
+  updateLearnRouteToggle(toggle, isOpen);
+}
+
+// On a phone the route is a focused picker, not a second page of lesson
+// cards. Its label always says what the learner can do next and identifies
+// the currently selected unit without repeating all course metadata.
+function updateLearnRouteToggle(toggle = document.querySelector('.learn-route-toggle'), isOpen = false) {
+  if (!toggle) return;
+  const unit = learningPathState.units.find((item) => item.id === learningPathState.unitId);
+  const language = learningPathState.language;
+  const copy = {
+    spanish: {
+      choose: 'Elegir una unidad',
+      change: 'Cambiar unidad',
+      close: 'Cerrar selector de unidades',
+      unit: 'Viaje'
+    },
+    english: { choose: 'Choose a unit', change: 'Change unit', close: 'Close unit picker', unit: 'Unit' },
+    french: { choose: 'Choisir une unité', change: 'Changer d’unité', close: 'Fermer le choix des unités', unit: 'Unité' }
+  }[language] || { choose: 'Elegir una unidad', change: 'Cambiar unidad', close: 'Cerrar selector de unidades', unit: 'Viaje' };
+  const selectedLabel = unit ? `${copy.change} · ${copy.unit} ${unit.order}` : copy.choose;
+  toggle.textContent = isOpen ? copy.close : selectedLabel;
+  toggle.setAttribute(
+    'aria-label',
+    unit && !isOpen ? `${copy.change}: ${unit.title}` : toggle.textContent
+  );
 }
 
 // Selects a lesson in the learning path and, for signed-in users, tells the
@@ -5860,6 +5955,36 @@ function getSpeechRecognitionCtor() {
   return window.SpeechRecognition || window.webkitSpeechRecognition || null;
 }
 
+function isMobileVoiceDevice() {
+  return window.matchMedia?.('(max-width: 768px), (pointer: coarse)')?.matches === true;
+}
+
+function microphonePermissionMessage(error) {
+  const code = String(error?.name || error?.message || '').toLowerCase();
+  if (code.includes('notallowed') || code.includes('permission') || code.includes('security')) {
+    return 'El micrófono está bloqueado. Actívalo para andergo.online en los permisos del navegador y vuelve a tocar “Hablar”.';
+  }
+  if (code.includes('notfound') || code.includes('devicesnotfound')) {
+    return 'No se encontró un micrófono disponible en este dispositivo.';
+  }
+  return 'No se pudo activar el micrófono. Revisa los permisos del navegador e intenta de nuevo.';
+}
+
+// Mobile browsers are much more reliable when microphone permission is
+// requested explicitly from the user's tap before SpeechRecognition starts.
+// The stream is released immediately: recognition opens its own audio input.
+let microphonePermissionConfirmed = false;
+
+async function ensureMicrophonePermission() {
+  if (!window.isSecureContext) {
+    throw new DOMException('El micrófono requiere una conexión segura (HTTPS).', 'SecurityError');
+  }
+  if (microphonePermissionConfirmed || !navigator.mediaDevices?.getUserMedia) return;
+  const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+  stream.getTracks().forEach((track) => track.stop());
+  microphonePermissionConfirmed = true;
+}
+
 function setDictationStatusText(textareaId, text) {
   const statusEl = document.getElementById(`${textareaId}DictateStatus`);
   if (statusEl) statusEl.textContent = text;
@@ -5927,7 +6052,7 @@ function stopTutorDictation() {
 // clicks the send button once a real transcript comes back instead of
 // leaving it for the student to review. All three default to the original
 // single-shot manual-dictation behavior when omitted.
-function startTutorDictation(textareaId, { continuous = false, silenceMs = null, autoSend = false } = {}) {
+async function startTutorDictation(textareaId, { continuous = false, silenceMs = null, autoSend = false } = {}) {
   const textarea = document.getElementById(textareaId);
   const Ctor = getSpeechRecognitionCtor();
   if (!Ctor || !textarea) {
@@ -5950,10 +6075,22 @@ function startTutorDictation(textareaId, { continuous = false, silenceMs = null,
   stopTranslatorDictation();
   stopDictationRecognizer();
 
+  setDictationStatusText(textareaId, 'Solicitando permiso para usar el micrófono…');
+  try {
+    await ensureMicrophonePermission();
+  } catch (error) {
+    setDictationStatusText(textareaId, microphonePermissionMessage(error));
+    resetDictationUI(textareaId);
+    return;
+  }
+
   const recognition = new Ctor();
   recognition.lang = DICTATION_LANGUAGE_CODES[learningPathState.language] || 'en-US';
   recognition.interimResults = true;
-  recognition.continuous = continuous;
+  // continuous=true is unreliable on mobile Safari/Chrome. A single mobile
+  // utterance still auto-sends on `end`; Premium conversation mode re-arms
+  // the mic after each Tutor reply through its existing loop.
+  recognition.continuous = continuous && !isMobileVoiceDevice();
 
   tutorDictation = { recognition, status: 'listening', textareaId, timeoutId: null };
 
@@ -6011,10 +6148,15 @@ function startTutorDictation(textareaId, { continuous = false, silenceMs = null,
   recognition.addEventListener('error', (event) => {
     hadError = true;
     lastErrorCode = event.error;
-    if (event.error === 'not-allowed' || event.error === 'permission-denied') {
+    if (
+      event.error === 'not-allowed' ||
+      event.error === 'permission-denied' ||
+      event.error === 'service-not-allowed'
+    ) {
+      microphonePermissionConfirmed = false;
       setDictationStatusText(
         textareaId,
-        'No se pudo acceder al micrófono. Revisa los permisos del navegador.'
+        'El micrófono está bloqueado. Actívalo para andergo.online en los permisos del navegador.'
       );
     } else if (event.error === 'no-speech') {
       // In conversation mode this is normal, not a real failure - the
@@ -6062,7 +6204,8 @@ function startTutorDictation(textareaId, { continuous = false, silenceMs = null,
       continuous &&
       tutorConversationMode &&
       lastErrorCode !== 'not-allowed' &&
-      lastErrorCode !== 'permission-denied'
+      lastErrorCode !== 'permission-denied' &&
+      lastErrorCode !== 'service-not-allowed'
     ) {
       setDictationStatusText(textareaId, 'Escuchando… habla cuando quieras.');
       window.setTimeout(() => resumeTutorConversationListening(), 400);
@@ -6163,7 +6306,7 @@ function stopTranslatorDictation() {
   stopTranslatorDictationRecognizer();
 }
 
-function startTranslatorDictation() {
+async function startTranslatorDictation() {
   const textarea = document.getElementById('translatorInput');
   const Ctor = getSpeechRecognitionCtor();
   if (!Ctor || !textarea) {
@@ -6182,6 +6325,15 @@ function startTranslatorDictation() {
   stopTutorDictation();
   stopTranslatorDictationRecognizer();
 
+  setTranslatorDictateStatusText('Solicitando permiso para usar el micrófono…');
+  try {
+    await ensureMicrophonePermission();
+  } catch (error) {
+    setTranslatorDictateStatusText(microphonePermissionMessage(error));
+    resetTranslatorDictateUI();
+    return;
+  }
+
   const sourceSelect = document.getElementById('translatorSourceLang');
   const recognition = new Ctor();
   // 'auto' (Detectar idioma) has no fixed language to give the recognizer,
@@ -6191,7 +6343,7 @@ function startTranslatorDictation() {
   // Stays open (instead of stopping after one phrase) so the ~2s-silence
   // timer below decides when the student is actually done talking, same
   // pattern as the Tutor's mic (startTutorDictation).
-  recognition.continuous = true;
+  recognition.continuous = !isMobileVoiceDevice();
 
   translatorDictation = { recognition, status: 'listening', timeoutId: null };
 
@@ -6230,9 +6382,14 @@ function startTranslatorDictation() {
 
   recognition.addEventListener('error', (event) => {
     hadError = true;
-    if (event.error === 'not-allowed' || event.error === 'permission-denied') {
+    if (
+      event.error === 'not-allowed' ||
+      event.error === 'permission-denied' ||
+      event.error === 'service-not-allowed'
+    ) {
+      microphonePermissionConfirmed = false;
       setTranslatorDictateStatusText(
-        'No se pudo acceder al micrófono. Revisa los permisos del navegador.'
+        'El micrófono está bloqueado. Actívalo para andergo.online en los permisos del navegador.'
       );
     } else if (event.error === 'no-speech') {
       setTranslatorDictateStatusText('No se entendió el audio. Intenta de nuevo.');
@@ -6500,10 +6657,12 @@ function renderUnitAccordionHtml(nextSlug) {
       const isPremiumUnit =
         unitLessons.length > 0 && unitLessons.every((lesson) => lesson.locked);
       const artwork = getUnitArtwork(unit);
+      const isCompleted = metrics.total > 0 && metrics.completedCount === metrics.total;
+      const statusLabel = isCompleted ? 'Completada' : isSelected ? 'Unidad actual' : 'Ver unidad';
 
       return `
       <div class="path-unit-group${isSelected ? ' path-unit-group--selected' : ''}">
-        <button type="button" class="path-unit path-unit-header${isSelected ? ' path-unit--selected' : ''}${isPremiumUnit ? ' path-unit--premium' : ''}" data-unit-id="${escapeHtml(unit.id)}" ${isSelected ? 'aria-current="true"' : ''}>
+        <button type="button" class="path-unit path-unit-header${isSelected ? ' path-unit--selected' : ''}${isPremiumUnit ? ' path-unit--premium' : ''}${isCompleted ? ' path-unit--completed' : ''}" data-unit-id="${escapeHtml(unit.id)}" ${isSelected ? 'aria-current="true"' : ''} aria-label="${escapeHtml(`Viaje ${unit.order}: ${unit.title}. ${statusLabel}. Progreso ${metrics.progressPercent}%`)}">
           <span class="path-unit-artwork path-unit-artwork--${artwork.tone}" role="img" aria-label="Ilustración de ${escapeHtml(artwork.label)}">
             <span class="path-unit-artwork-emoji" aria-hidden="true">${artwork.emoji}</span>
           </span>
@@ -6514,7 +6673,9 @@ function renderUnitAccordionHtml(nextSlug) {
           </span>
           <span class="path-unit-reward">⭐ ${reward} XP</span>
           ${isPremiumUnit ? '<span class="path-unit-premium">🔒 Premium</span>' : ''}
-          <span class="path-unit-progress-label">${metrics.progressPercent}%</span>
+          <span class="path-unit-progress-label">${isCompleted ? '✓' : `${metrics.completedCount}/${metrics.total}`}</span>
+          <span class="path-unit-status">${escapeHtml(statusLabel)}</span>
+          <span class="path-unit-progress-track" aria-hidden="true"><span style="width:${metrics.progressPercent}%"></span></span>
         </button>
       </div>
     `;
@@ -6557,15 +6718,28 @@ function renderSkillGraph() {
   `;
 
   container.innerHTML = `
+    <div class="path-guide-head">
+      <div>
+        <span class="path-guide-step">Paso 1</span>
+        <h2>Elige una unidad</h2>
+        <p>Selecciona un viaje; su próxima actividad aparecerá a la derecha.</p>
+      </div>
+      <span class="path-guide-count">${courseMetrics.completedCount}/${courseMetrics.total} actividades</span>
+    </div>
     <div class="path-summary">
       <span class="path-summary-lang">${escapeHtml(targetLabel)} · ${escapeHtml(level)}</span>
       <div class="path-summary-progress" role="progressbar" aria-valuenow="${courseMetrics.progressPercent}" aria-valuemin="0" aria-valuemax="100">
         <div style="width:${courseMetrics.progressPercent}%"></div>
       </div>
-      <span class="path-summary-detail">${courseMetrics.completedCount}/${courseMetrics.total} completadas · Score promedio: ${courseMetrics.progressPercent}/100 · Próximo: ${escapeHtml(nextSkillLabel)}</span>
+      <span class="path-summary-detail"><strong>${courseMetrics.completedCount}/${courseMetrics.total} actividades completadas</strong><span>Próximo: ${escapeHtml(nextSkillLabel)}</span></span>
     </div>
     ${bodyHtml}
   `;
+
+  updateLearnRouteToggle(
+    document.querySelector('.learn-route-toggle'),
+    container.classList.contains('is-drawer-open')
+  );
 
   // Clicking a unit selects it (see selectUnit()) and reveals its activities
   // in the right-hand overview. The route itself stays a clean unit index.
@@ -6576,6 +6750,15 @@ function renderSkillGraph() {
       if (!unitId) return;
       selectUnit(unitId);
       updateLearnHash('learn');
+      // The route picker is only a temporary mobile surface. Once a unit is
+      // chosen, return immediately to its single clear Continue action.
+      if (window.matchMedia('(max-width: 640px)').matches) {
+        showLearnState('lesson');
+        document.getElementById('lessonWorkspace')?.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        });
+      }
     });
   });
 
@@ -6588,6 +6771,16 @@ function renderLessonExercise(item, index, lesson) {
   const challengeLabel = french ? 'Défi' : 'Reto';
   const responseHint = french ? 'Choisissez la meilleure réponse.' : 'Elige la mejor respuesta.';
   const practiceLabel = french ? 'Pratique guidée' : 'Práctica guiada';
+  const selfCopy = {
+    title: exerciseFeedbackText('¿Cómo te fue?', 'How did it go?', 'Comment ça s’est passé ?', lesson.level),
+    retry: exerciseFeedbackText('Necesito practicar', 'I need more practice', 'Je dois encore pratiquer', lesson.level),
+    supported: exerciseFeedbackText('Lo logré con apoyo', 'I did it with support', 'J’ai réussi avec de l’aide', lesson.level),
+    independent: exerciseFeedbackText('Lo logré solo', 'I did it independently', 'J’ai réussi seul(e)', lesson.level),
+    evaluated: exerciseFeedbackText('Autoevaluación', 'Self-assessment', 'Autoévaluation', lesson.level),
+    independentResult: exerciseFeedbackText('Lo lograste de forma independiente.', 'You completed it independently.', 'Vous avez réussi de manière autonome.', lesson.level),
+    supportedResult: exerciseFeedbackText('Lo lograste con apoyo.', 'You completed it with support.', 'Vous avez réussi avec de l’aide.', lesson.level),
+    retryResult: exerciseFeedbackText('Ya identificaste lo que necesitas practicar.', 'You identified what to practise next.', 'Vous avez identifié ce qu’il faut encore pratiquer.', lesson.level)
+  };
 
   if (item.type === 'mcq' && Array.isArray(item.options)) {
     const optionsHtml = item.options
@@ -6626,12 +6819,21 @@ function renderLessonExercise(item, index, lesson) {
   }
 
   return `
-    <div class="lesson-exercise open-exercise" data-exercise-index="${index}" data-exercise-id="${escapeHtml(item.id || '')}" data-lesson-slug="${escapeHtml(lesson.slug || '')}" data-skill="${escapeHtml(lesson.skill || item.type || '')}" data-language="${escapeHtml(learningPathState.language)}">
+    <div class="lesson-exercise open-exercise${recorded ? ' is-self-evaluated' : ''}" data-exercise-index="${index}" data-exercise-id="${escapeHtml(item.id || '')}" data-lesson-slug="${escapeHtml(lesson.slug || '')}" data-skill="${escapeHtml(lesson.skill || item.type || '')}" data-language="${escapeHtml(learningPathState.language)}">
       <div>
         <div class="exercise-challenge-heading"><span class="exercise-challenge-kicker">${practiceLabel} ${index + 1}${total ? ` / ${total}` : ''}</span></div>
         <strong class="exercise-prompt">${escapeHtml(item.prompt)}</strong>
       </div>
-      <button type="button" class="practice-mark-btn" ${recorded ? 'disabled' : ''}>${recorded ? '✅ Práctica completada' : 'Completar práctica →'}</button>
+      ${
+        recorded
+          ? `<div class="practice-self-result"><span>🏅 ${escapeHtml(selfCopy.evaluated)}</span><strong>${escapeHtml(String(recorded.selfScore || 100))}/100</strong><small>${escapeHtml(recorded.selfScore >= 100 ? selfCopy.independentResult : recorded.selfScore >= 75 ? selfCopy.supportedResult : selfCopy.retryResult)}</small></div>`
+          : `<div class="practice-self-assessment" role="group" aria-label="Autoevaluación de la práctica">
+              <span>${escapeHtml(selfCopy.title)}</span>
+              <button type="button" class="practice-mark-btn" data-self-score="50">↻ ${escapeHtml(selfCopy.retry)}</button>
+              <button type="button" class="practice-mark-btn" data-self-score="75">🤝 ${escapeHtml(selfCopy.supported)}</button>
+              <button type="button" class="practice-mark-btn" data-self-score="100">🌟 ${escapeHtml(selfCopy.independent)}</button>
+            </div>`
+      }
     </div>
   `;
 }
@@ -6756,10 +6958,10 @@ function renderUnitOverviewCard(unit) {
   const artwork = getUnitArtwork(unit);
 
   return `
-    <div class="unit-overview-panel">
+    <div class="unit-overview-panel${pct >= 100 ? ' unit-overview-panel--complete' : ''}">
       <div class="unit-selection-intro">
-        <h3>Tu lección está lista</h3>
-        <p>Continúa con la siguiente actividad disponible y avanza paso a paso.</p>
+        <h3>1. Continúa por aquí</h3>
+        <p>Una actividad a la vez. Cuando termines, la siguiente quedará lista.</p>
       </div>
       <div class="unit-overview-header">
         <span class="unit-mission-kicker">${artwork.emoji} Viaje ${escapeHtml(String(unit.order))}</span>
@@ -6771,12 +6973,30 @@ function renderUnitOverviewCard(unit) {
         <div class="unit-overview-progress-bar" role="progressbar" aria-valuenow="${pct}" aria-valuemin="0" aria-valuemax="100">
           <div style="width:${pct}%"></div>
         </div>
-        <span class="unit-overview-progress-label"><strong>${pct}% completado</strong> · 🏆 Recompensa: hasta ${reward} XP</span>
+        <span class="unit-overview-progress-label"><strong>${action.completedCount}/${action.total} actividades completadas</strong> · 🏆 Hasta ${reward} XP</span>
+      </div>
+      <div class="unit-overview-actions unit-overview-actions--primary">
+        <span><strong>Paso 2</strong> · Sigue con la actividad recomendada</span>
+        <button type="button" class="primary-btn unit-action-btn" data-lesson-slug="${escapeHtml(action.targetSlug)}" data-lesson-skill="${escapeHtml(actionLesson?.skill || '')}">${escapeHtml(action.label)} <span aria-hidden="true">→</span></button>
+      </div>
+      <div class="unit-overview-dashboard" aria-label="Resumen evaluable de la unidad">
+        <article class="unit-overview-stat">
+          <span aria-hidden="true">🧩</span>
+          <div><strong>${action.completedCount}/${action.total}</strong><small>retos completados</small></div>
+        </article>
+        <article class="unit-overview-stat">
+          <span aria-hidden="true">🎯</span>
+          <div><strong>${pct}/100</strong><small>resultado de la unidad</small></div>
+        </article>
+        <article class="unit-overview-stat">
+          <span aria-hidden="true">⚡</span>
+          <div><strong>+${reward} XP</strong><small>recompensa posible</small></div>
+        </article>
       </div>
       <div class="unit-overview-sequence">
         <div class="unit-sequence-heading">
-          <strong>Tu aventura</strong>
-          <span>Viaje ${escapeHtml(String(unit.order))} · abre una actividad para continuar.</span>
+          <strong>Actividades de la unidad</strong>
+          <span>También puedes abrir directamente cualquier actividad disponible.</span>
         </div>
         <div class="unit-sequence-steps">${renderUnitSequenceStepsHtml(unit.id)}</div>
       </div>
@@ -6792,9 +7012,6 @@ function renderUnitOverviewCard(unit) {
       </details>`
           : ''
       }
-      <div class="unit-overview-actions">
-        <button type="button" class="primary-btn unit-action-btn" data-lesson-slug="${escapeHtml(action.targetSlug)}" data-lesson-skill="${escapeHtml(actionLesson?.skill || '')}">${escapeHtml(action.label)}</button>
-      </div>
     </div>
   `;
 }
@@ -8217,6 +8434,41 @@ function readingComprehensionScoreMessage(score) {
   return french ? 'Relisez le texte et réessayez.' : 'Repasa la lectura e inténtalo otra vez.';
 }
 
+function renderGamifiedEvaluationSummary({ score, label, detail = '', xp = 0, bestScore = null }) {
+  const normalizedScore = Math.max(0, Math.min(100, Math.round(Number(score) || 0)));
+  const band = gradeBandForScore(normalizedScore);
+  const missionLabel = exerciseFeedbackText(
+    'Misión evaluada',
+    'Mission evaluated',
+    'Mission évaluée',
+    learningPathState.level
+  );
+  const bestLabel = exerciseFeedbackText(
+    'Mejor',
+    'Best',
+    'Meilleur',
+    learningPathState.level
+  );
+  return `
+    <div class="evaluation-summary" style="--evaluation-score:${normalizedScore}" role="status" aria-label="${escapeHtml(`${label}: ${normalizedScore} de 100`)}">
+      <div class="evaluation-score-orb" aria-hidden="true">
+        <span>${band.emoji}</span>
+        <strong>${normalizedScore}</strong>
+        <small>/100</small>
+      </div>
+      <div class="evaluation-summary-copy">
+        <span class="evaluation-summary-kicker">${escapeHtml(missionLabel)}</span>
+        <h4>${escapeHtml(label)}</h4>
+        ${detail ? `<p>${escapeHtml(detail)}</p>` : ''}
+        <div class="evaluation-rewards">
+          <span>🏆 ${escapeHtml(band.label)}</span>
+          ${xp > 0 ? `<span>⭐ +${escapeHtml(String(xp))} XP</span>` : ''}
+          ${bestScore != null ? `<span>🥇 ${escapeHtml(bestLabel)}: ${escapeHtml(String(bestScore))}/100</span>` : ''}
+        </div>
+      </div>
+    </div>`;
+}
+
 function renderReadingComprehensionResultHtml(runtime, total) {
   const correctCount = Object.values(runtime.results).filter((r) => r.correct).length;
   const incorrectCount = total - correctCount;
@@ -8229,10 +8481,15 @@ function renderReadingComprehensionResultHtml(runtime, total) {
       : '';
   return `
     <div class="reading-comp-result">
-      <p class="reading-comp-result-score">${french ? 'Score' : 'Puntuación'} : ${score}/100</p>
-      <p class="reading-comp-result-detail">${correctCount} ${french ? 'sur' : 'de'} ${total} ${french ? 'bonnes réponses' : 'respuestas correctas'}</p>
-      <p class="reading-comp-result-detail">${incorrectCount} ${french ? `réponse${incorrectCount === 1 ? '' : 's'} incorrecte${incorrectCount === 1 ? '' : 's'}` : `incorrecta${incorrectCount === 1 ? '' : 's'}`} · ${score}%</p>
-      <p class="reading-comp-result-message">${escapeHtml(readingComprehensionScoreMessage(score))}</p>
+      ${renderGamifiedEvaluationSummary({
+        score,
+        label: readingComprehensionScoreMessage(score),
+        detail: french
+          ? `${correctCount} bonnes réponses sur ${total} · ${incorrectCount} à revoir`
+          : `${correctCount} respuestas correctas de ${total} · ${incorrectCount} por revisar`,
+        xp: runtime.serverResult?.earnedXp || 0,
+        bestScore: runtime.serverResult?.bestScore ?? null
+      })}
       ${persistenceHtml}
     </div>
   `;
@@ -8628,7 +8885,8 @@ function renderReadingView(section, lesson) {
       <button type="button" class="secondary-btn open-tutor-btn" data-tutor-prompt="${french ? 'Donne-moi un indice sans révéler la réponse.' : 'Dame una pista para responder las preguntas de comprensión, sin darme la respuesta.'}" data-support-mode="hint" data-tutor-transcript="${escapeHtml(readingTranscript)}">${french ? 'Demander un indice' : 'Pedir pista'}</button>
       <button type="button" class="secondary-btn open-tutor-btn" data-tutor-prompt="${french ? 'Crée une nouvelle question de compréhension sur ce texte.' : 'Crea otra pregunta de comprensión sobre este texto.'}" data-support-mode="practice" data-tutor-transcript="${escapeHtml(readingTranscript)}">${french ? 'Créer une autre question' : 'Crear otra pregunta'}</button>
       <button type="button" class="secondary-btn open-translator-btn" data-translate-text="${escapeHtml(readingTranscript)}" data-return-label="${french ? 'Retour à Reading' : 'Volver a Reading'}">${french ? 'Traduire ce texte' : 'Traducir este texto'}</button>
-      <button type="button" class="primary-btn reading-print-btn">${french ? 'Télécharger en PDF' : 'Descargar PDF'}</button>
+      <button type="button" class="secondary-btn open-phonetics-btn" data-phonetics-text="${escapeHtml(readingTranscript)}" data-return-label="${french ? 'Retour à Reading' : 'Volver a Reading'}">${french ? 'Voir la phonétique du texte' : 'Ver fonética del texto'}</button>
+      <button type="button" class="secondary-btn reading-print-btn">${french ? 'Télécharger en PDF' : 'Descargar PDF'}</button>
       <button type="button" class="secondary-btn reading-word-btn">${french ? 'Télécharger en Word' : 'Descargar Word'}</button>
     </div>
   `;
@@ -8812,6 +9070,7 @@ function renderWritingView(section, lesson) {
         <div class="writing-primary-actions">
           <button type="button" class="primary-btn writing-review-btn" data-support-mode="review-complete">${french ? 'Demander une révision' : 'Revisar mi microtexto'}</button>
           <button type="button" class="secondary-btn writing-review-btn" data-support-mode="hint">${french ? 'Demander un indice' : 'Darme una pista'}</button>
+          <button type="button" class="secondary-btn open-corrector-btn" data-return-label="${french ? 'Retour à Writing' : 'Volver a Writing'}">${french ? 'Corriger avec le Correcteur' : 'Corregir con el Corrector'}</button>
         </div>
         <div class="writing-tutor-panel" id="writingTutorPanel" hidden>
           <div class="writing-tutor-original"><strong>${french ? 'Original' : 'Original'}</strong><p></p></div>
@@ -8845,13 +9104,18 @@ function renderWritingView(section, lesson) {
       counter.textContent = `${practice.length} / ${practice.length}`;
       stage.innerHTML = `
         <div class="writing-practice-result">
-          <span aria-hidden="true">${score >= 70 ? '🎉' : '💪'}</span>
-          <p>${french ? 'Résultat de la pratique' : 'Resultado de la práctica'}</p>
-          <strong>${score}/100</strong>
-          <small>${french ? `${runtime.correct} activités correctes sur ${practice.length} · meilleure série : ${runtime.bestStreak}.` : `${runtime.correct} actividades correctas de ${practice.length} · mejor racha: ${runtime.bestStreak}.`}</small>
+          ${renderGamifiedEvaluationSummary({
+            score,
+            label: french ? 'Mission d’expression écrite terminée' : 'Misión de escritura completada',
+            detail: french
+              ? `${runtime.correct} activités correctes sur ${practice.length} · meilleure série : ${runtime.bestStreak}`
+              : `${runtime.correct} actividades correctas de ${practice.length} · mejor racha: ${runtime.bestStreak}`,
+            bestScore: storedBest
+          })}
           <button type="button" class="primary-btn writing-practice-retry">${french ? 'Recommencer' : 'Practicar de nuevo'}</button>
         </div>
       `;
+      window.AndergoGamification?.recordSkillTouched('writing', learningPathState.language);
       stage.querySelector('.writing-practice-retry')?.addEventListener('click', () => {
         runtime.index = 0;
         runtime.answers = {};
@@ -8936,6 +9200,8 @@ function renderWritingView(section, lesson) {
         runtime.correct += 1;
         runtime.streak += 1;
         runtime.bestStreak = Math.max(runtime.bestStreak, runtime.streak);
+        window.AndergoGamification?.recordCorrectAnswer();
+        window.AndergoGamification?.recordSkillTouched('writing', learningPathState.language);
       } else {
         runtime.streak = 0;
       }
@@ -9435,7 +9701,17 @@ function playModelPhrase(text, locale, targetLanguage) {
 // guests simply don't persist progress, same as the rest of the app. Only
 // completed/attempts-implicit/XP/date are ever sent - no audio, no
 // transcript.
-async function completeSpeakingActivity(lesson) {
+function extractSpeakingTextScore(text) {
+  const match = String(text || '').match(/\[TEXT_SCORE:\s*(\d{1,3})\s*\]/i);
+  if (!match) return null;
+  return Math.max(0, Math.min(100, Number(match[1])));
+}
+
+function stripSpeakingScoreMetadata(text) {
+  return String(text || '').replace(/\s*\[TEXT_SCORE:\s*\d{1,3}\s*\]\s*/gi, '\n').trim();
+}
+
+async function completeSpeakingActivity(lesson, evaluatedScore = null) {
   if (!lesson || lesson.completed || !authStatus.session?.access_token) return;
   try {
     const response = await fetch(`${backendBaseUrl}/api/lessons/${lesson.slug}/complete`, {
@@ -9451,7 +9727,7 @@ async function completeSpeakingActivity(lesson) {
       slug: lesson.slug,
       language: learningPathState.language,
       ...getLessonGamificationContext(lesson),
-      score: data.score ?? 100,
+      score: evaluatedScore ?? data.score ?? 100,
       xpReward: lesson.xpReward || 20
     });
     window.AndergoGamification?.syncFromServer(data);
@@ -9468,10 +9744,37 @@ function renderSpeakingCorrectionResult(container, lesson, text) {
   const targetLanguage = learningPathState.language;
   const locale = getPronunciationLocale(targetLanguage);
   const modelPhrase = extractCorrectedPhrase(text);
+  const textScore = extractSpeakingTextScore(text);
+  const visibleFeedback = stripSpeakingScoreMetadata(text);
+  const storedBest = Number(localStorage.getItem(`andergoSpeakingTextScore:${lesson.slug}`) || 0);
+  const bestScore = textScore == null ? storedBest : Math.max(storedBest, textScore);
+  if (textScore != null) {
+    localStorage.setItem(`andergoSpeakingTextScore:${lesson.slug}`, String(bestScore));
+  }
   resultEl.hidden = false;
   resultEl.innerHTML = `
     <div class="speaking-correction-card">
-      <p class="speaking-correction-text">${escapeHtml(text).replace(/\n/g, '<br>')}</p>
+      ${
+        textScore == null
+          ? ''
+          : renderGamifiedEvaluationSummary({
+              score: textScore,
+              label: exerciseFeedbackText(
+                'Respuesta comunicativa evaluada',
+                'Communicative response evaluated',
+                'Réponse communicative évaluée',
+                lesson.level
+              ),
+              detail: exerciseFeedbackText(
+                'Puntuación del texto transcrito; no incluye pronunciación ni acento.',
+                'Score for the transcribed text; it does not include pronunciation or accent.',
+                'Score du texte transcrit ; il n’inclut ni la prononciation ni l’accent.',
+                lesson.level
+              ),
+              bestScore
+            })
+      }
+      <p class="speaking-correction-text">${escapeHtml(visibleFeedback).replace(/\n/g, '<br>')}</p>
       <div class="speaking-correction-actions">
         <button type="button" class="secondary-btn speaking-listen-model-btn">🔊 Escuchar modelo</button>
         <button type="button" class="secondary-btn speaking-retry-btn">↻ Volver a intentarlo</button>
@@ -9484,6 +9787,10 @@ function renderSpeakingCorrectionResult(container, lesson, text) {
   resultEl.querySelector('.speaking-retry-btn')?.addEventListener('click', () => {
     redoSpeakingRecording(container);
   });
+  if (textScore != null) {
+    window.AndergoGamification?.recordSkillTouched('speaking', learningPathState.language);
+    if (textScore >= 70) window.AndergoGamification?.recordCorrectAnswer();
+  }
 }
 
 // Sends only the transcribed TEXT (never audio - §5/§12) to the Tutor IA's
@@ -9559,7 +9866,7 @@ async function requestSpeakingCorrection(container, lesson, context = {}) {
 
     r.correction = { status: 'done', text: fullText.trim(), error: '' };
     renderSpeakingCorrectionResult(container, lesson, fullText.trim());
-    completeSpeakingActivity(lesson);
+    completeSpeakingActivity(lesson, extractSpeakingTextScore(fullText));
   } catch (error) {
     r.correction = {
       status: 'error',
@@ -9659,13 +9966,71 @@ window.addEventListener('beforeunload', () => {
 // array (English/Español A1) - never hardcoded in this component.
 // ---------------------------------------------------------------------
 
-function playDialogueLinesSequentially(lines, locale, rate, index = 0) {
-  if (index >= lines.length) return;
-  speakText(lines[index], {
-    locale,
-    rate,
-    onEnd: () => playDialogueLinesSequentially(lines, locale, rate, index + 1)
+let dialoguePlayback = { token: 0, root: null };
+
+function stopDialoguePlayback() {
+  dialoguePlayback.token += 1;
+  if (supportsSpeech()) window.speechSynthesis.cancel();
+  dialoguePlayback.root?.querySelector('.dialogue-play-all-btn')?.toggleAttribute('hidden', false);
+  dialoguePlayback.root?.querySelector('.dialogue-stop-btn')?.toggleAttribute('hidden', true);
+  dialoguePlayback.root?.querySelectorAll('.dialogue-line.is-speaking').forEach((line) => {
+    line.classList.remove('is-speaking');
   });
+  dialoguePlayback.root = null;
+}
+
+// The browser supplies the voices, so an exact voice name cannot be assumed.
+// When two or more voices match the lesson language, map each speaker to a
+// stable different voice. On devices with one matching voice, playback still
+// works normally with that voice.
+function getDialogueVoiceBySpeaker(lines, locale) {
+  const voices = (getReadingVoicesForLocale(locale) || []).filter(
+    (voice, index, all) => all.findIndex((item) => item.voiceURI === voice.voiceURI) === index
+  );
+  const speakerVoices = new Map();
+  [...new Set(lines.map((line) => line.speaker || 'Narrador/a'))].forEach((speaker, index) => {
+    if (voices.length) speakerVoices.set(speaker, voices[index % voices.length]);
+  });
+  return { speakerVoices, alternating: voices.length > 1 };
+}
+
+function playDialogueLinesSequentially(lines, locale, rate, root) {
+  if (!supportsSpeech() || !lines.length) return false;
+  stopDialoguePlayback();
+  const token = dialoguePlayback.token;
+  const { speakerVoices, alternating } = getDialogueVoiceBySpeaker(lines, locale);
+  dialoguePlayback.root = root || null;
+
+  const playLine = (index) => {
+    if (token !== dialoguePlayback.token) return;
+    if (index >= lines.length) {
+      stopDialoguePlayback();
+      return;
+    }
+    const item = lines[index];
+    const lineElement = root?.querySelector(`.dialogue-line[data-index="${index}"]`);
+    root?.querySelectorAll('.dialogue-line.is-speaking').forEach((line) => line.classList.remove('is-speaking'));
+    lineElement?.classList.add('is-speaking');
+
+    const utterance = new SpeechSynthesisUtterance(item.line || '');
+    utterance.lang = locale;
+    utterance.rate = rate;
+    utterance.pitch = 1;
+    utterance.volume = 1;
+    const voice = speakerVoices.get(item.speaker || 'Narrador/a');
+    if (voice) utterance.voice = voice;
+    const next = () => {
+      if (token !== dialoguePlayback.token) return;
+      lineElement?.classList.remove('is-speaking');
+      playLine(index + 1);
+    };
+    utterance.onend = next;
+    utterance.onerror = next;
+    window.speechSynthesis.speak(utterance);
+  };
+
+  playLine(0);
+  return alternating;
 }
 
 // Per-lesson UI-only state for which Speaking mode/turn is showing - reset
@@ -9995,7 +10360,11 @@ function renderDialogueModeHtml(dialogueSource) {
       <span><b>3</b>${speakingUiText('Habla', 'Parle')}</span>
     </div>
     <div class="dialogue-panel dialogue-listen-panel">
-      ${canSpeak ? `<button type="button" class="primary-btn dialogue-play-all-btn">▶ ${speakingUiText('Escuchar todo el diálogo', 'Écouter tout le dialogue')}</button>` : ''}
+      ${canSpeak ? `<div class="dialogue-audio-player" aria-label="${speakingUiText('Reproductor del diálogo', 'Lecteur du dialogue')}">
+        <button type="button" class="primary-btn dialogue-play-all-btn">▶ ${speakingUiText('Reproducir diálogo', 'Lire le dialogue')}</button>
+        <button type="button" class="secondary-btn dialogue-stop-btn" hidden>■ ${speakingUiText('Detener', 'Arrêter')}</button>
+        <span class="dialogue-audio-hint">${speakingUiText('Alterna voces cuando el dispositivo las tiene disponibles.', 'Alterne les voix lorsque l’appareil en propose plusieurs.')}</span>
+      </div>` : ''}
       <ul class="dialogue-lines-list">${linesHtml}</ul>
       ${lines.some((line) => line.translation) ? `<button type="button" class="secondary-btn dialogue-toggle-translation-btn">${speakingUiText('Mostrar apoyo en español', 'Afficher l’aide en espagnol')}</button>` : ''}
     </div>
@@ -10028,12 +10397,30 @@ function wireDialogueMode(content, lesson, dialogueSource) {
     });
   });
 
-  content.querySelector('.dialogue-play-all-btn')?.addEventListener('click', () => {
-    playDialogueLinesSequentially(lines.map((line) => line.line), locale, rate);
+  const playAllButton = content.querySelector('.dialogue-play-all-btn');
+  const stopButton = content.querySelector('.dialogue-stop-btn');
+  playAllButton?.addEventListener('click', () => {
+    const alternating = playDialogueLinesSequentially(lines, locale, rate, content);
+    playAllButton.hidden = true;
+    stopButton.hidden = false;
+    const hint = content.querySelector('.dialogue-audio-hint');
+    if (hint) {
+      hint.textContent = alternating
+        ? speakingUiText('Voces alternadas activadas.', 'Voix alternées activées.')
+        : speakingUiText('Tu dispositivo usa una sola voz compatible.', 'Votre appareil utilise une seule voix compatible.');
+    }
+  });
+  stopButton?.addEventListener('click', () => {
+    stopDialoguePlayback();
+    stopButton.hidden = true;
+    playAllButton.hidden = false;
   });
 
   content.querySelectorAll('.dialogue-line-speak-btn').forEach((btn) => {
-    btn.addEventListener('click', () => speakText(btn.dataset.speakText, { locale, rate }));
+    btn.addEventListener('click', () => {
+      stopDialoguePlayback();
+      speakText(btn.dataset.speakText, { locale, rate });
+    });
   });
 
   content.querySelectorAll('.dialogue-practice-line-btn').forEach((btn) => {
@@ -12344,7 +12731,7 @@ function renderVocabularyView(section, lesson) {
     <div class="skill-view-tutor-cta no-print">
       <button type="button" class="primary-btn vocab-practice-start-btn">${french ? 'Pratiquer' : 'Practicar'} ${getVocabularyPracticeCount(lesson.level)} ${french ? 'mots' : 'palabras'}</button>
       <button type="button" class="secondary-btn open-tutor-btn" data-tutor-prompt="${french ? 'Aide-moi à pratiquer ce vocabulaire' : 'Ayúdame a practicar este vocabulario'} : ${escapeHtml(cards.map((c) => c.targetWord).join(', '))}" data-support-mode="practice" data-tutor-vocabulary="${escapeHtml(cards.map((c) => c.targetWord).join(', '))}">${french ? 'Pratiquer avec le Tutor IA' : 'Practicar con Tutor IA'}</button>
-      <button type="button" class="secondary-btn open-translator-btn" data-translate-text="${escapeHtml(cards.map((c) => c.targetWord).join(', '))}" data-return-label="${french ? 'Retour à Vocabulary' : 'Volver a Vocabulary'}">${french ? 'Traduire ces mots' : 'Traducir estas palabras'}</button>
+      <button type="button" class="secondary-btn open-translator-btn vocab-open-translator-btn" data-translate-text="${escapeHtml(cards.map((c) => c.targetWord).join(', '))}" data-return-label="${french ? 'Retour à Vocabulary' : 'Volver a Vocabulary'}">${french ? 'Ouvrir dans le Traducteur' : 'Abrir en el Traductor'}</button>
     </div>
     <div class="vocab-practice-panel no-print">${renderVocabularyPracticePanelHtml(lesson)}</div>
     <div class="vocab-test no-print">
@@ -12486,6 +12873,10 @@ document.addEventListener('click', (event) => {
     const correctCount = runtime.results.filter((result) => result.correct).length;
     runtime.score = Math.round((correctCount / runtime.questions.length) * 100);
     runtime.submitted = true;
+    for (let index = 0; index < correctCount; index += 1) {
+      window.AndergoGamification?.recordCorrectAnswer();
+    }
+    window.AndergoGamification?.recordSkillTouched('vocabulary', learningPathState.language);
     if (correctCount === runtime.questions.length) window.celebratePerfectPractice?.();
     else window.playExerciseFeedbackSound?.(false);
     renderVocabularyView(context.section, context.lesson);
@@ -13957,6 +14348,7 @@ function openTutorDrawer(overrides = {}) {
 function closeTutorDrawer() {
   const drawer = document.getElementById('tutorDrawer');
   if (!drawer || !drawer.classList.contains('open')) return;
+  cancelActiveTutorRequest();
   setTutorConversationMode(false);
   stopTutorDictation();
   stopAllTutorAudio();
@@ -14036,11 +14428,17 @@ async function sendTutorMessage({
   // lib/usageLimitService.js) - keeps the send button disabled past this
   // call's `finally`, since retrying won't help until next month/Premium.
   let lockedOut = false;
+  // There is only one active Tutor response at a time. This prevents an old
+  // streaming request from competing with a new message on low-powered phones.
+  cancelActiveTutorRequest();
+  const requestController = new AbortController();
+  activeTutorRequestController = requestController;
 
   try {
     const response = await fetch(`${backendBaseUrl}/api/ai/tutor`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', ...authHeaders() },
+      signal: requestController.signal,
       body: JSON.stringify({
         language,
         targetLanguage: language,
@@ -14133,7 +14531,7 @@ async function sendTutorMessage({
                   );
                 }
               } else {
-                updateTutorMessageBody(messageEl, conversationEl, fullText);
+                scheduleTutorMessageBodyUpdate(messageEl, conversationEl, fullText);
               }
               if (messageEl) {
                 // Cleaned, not raw, and L2-only (the optional L1 support
@@ -14147,6 +14545,10 @@ async function sendTutorMessage({
         }
       }
     }
+
+    // Ensure the final frame is on screen before attaching controls or
+    // starting optional text-to-speech.
+    if (messageEl) flushTutorMessageBodyUpdate(messageEl, conversationEl, fullText);
 
     // Voice controls (the "Escuchar" button) only appear once the full
     // reply has finished streaming - never mid-stream, so a click can never
@@ -14193,6 +14595,7 @@ async function sendTutorMessage({
 
     return { reply: fullText };
   } catch (error) {
+    if (requestController.signal.aborted) return null;
     if (conversationEl)
       appendTutorMessage(
         conversationEl,
@@ -14203,6 +14606,9 @@ async function sendTutorMessage({
     if (connectionStatusEl) connectionStatusEl.textContent = 'No disponible';
     return null;
   } finally {
+    if (activeTutorRequestController === requestController) {
+      activeTutorRequestController = null;
+    }
     if (thinkingEl) thinkingEl.hidden = true;
     // Stays disabled once the monthly free-query cap is hit - re-enabling
     // it would just let the student hit the same 403 again next click.
@@ -14732,7 +15138,13 @@ document.querySelectorAll('#goalsQuickStart .goal-card').forEach((card) => {
 
 document.querySelector('.learn-route-toggle')?.addEventListener('click', () => {
   const graph = document.getElementById('skillGraph');
-  showLearnState(graph?.classList.contains('is-drawer-open') ? 'lesson' : 'route');
+  const willOpen = !graph?.classList.contains('is-drawer-open');
+  showLearnState(willOpen ? 'route' : 'lesson');
+  if (willOpen && window.matchMedia('(max-width: 640px)').matches) {
+    window.requestAnimationFrame(() => {
+      graph?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    });
+  }
 });
 
 document.addEventListener('click', async (event) => {
@@ -14856,26 +15268,137 @@ brandLink?.addEventListener('click', (event) => {
 });
 
 if (menuToggle && siteMenu) {
+  const closeMobileMenu = () => {
+    siteMenu.classList.remove('is-open');
+    menuToggle.setAttribute('aria-expanded', 'false');
+    document.body.classList.remove('mobile-menu-open');
+    siteMenu.querySelectorAll('.nav-more[open]').forEach((item) => item.removeAttribute('open'));
+  };
+
   menuToggle.addEventListener('click', () => {
     const isOpen = siteMenu.classList.toggle('is-open');
     menuToggle.setAttribute('aria-expanded', String(isOpen));
+    document.body.classList.toggle('mobile-menu-open', isOpen);
   });
 
   siteMenu.querySelectorAll('a').forEach((link) => {
     link.addEventListener('click', () => {
-      siteMenu.classList.remove('is-open');
-      menuToggle.setAttribute('aria-expanded', 'false');
-      link.closest('.nav-more')?.removeAttribute('open');
+      closeMobileMenu();
     });
+  });
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && siteMenu.classList.contains('is-open')) {
+      closeMobileMenu();
+      menuToggle.focus();
+    }
+  });
+
+  document.addEventListener('click', (event) => {
+    if (
+      siteMenu.classList.contains('is-open') &&
+      !siteMenu.contains(event.target) &&
+      !menuToggle.contains(event.target)
+    ) {
+      closeMobileMenu();
+    }
   });
 
   window.addEventListener('resize', () => {
     if (window.innerWidth > 1280) {
-      siteMenu.classList.remove('is-open');
-      menuToggle.setAttribute('aria-expanded', 'false');
+      closeMobileMenu();
     }
   });
 }
+
+let desktopActivityFocusEnabled = sessionStorage.getItem('andergo-desktop-activity-view') !== 'normal';
+
+function syncMobileActivityFocus(viewId) {
+  const mobile = window.matchMedia('(max-width: 640px)').matches;
+  const isSkillActivity = SKILL_VIEWS.includes(viewId) && Boolean(learningPathState.activeSlug);
+  const isVerbActivity =
+    viewId === 'verbs' &&
+    learningPathState.skillEntryContext === 'route' &&
+    window.location.hash.includes('/practice');
+  const isActivity = isSkillActivity || isVerbActivity;
+  const mobileEnabled = mobile && isActivity;
+  const desktopEnabled = !mobile && isActivity && desktopActivityFocusEnabled;
+  const activeSection = isActivity
+    ? document.getElementById(isVerbActivity ? 'verbs' : viewId)
+    : null;
+
+  document.body.classList.toggle('mobile-activity-mode', mobileEnabled);
+  document.body.classList.toggle('desktop-activity-mode', desktopEnabled);
+  document
+    .querySelectorAll(
+      '.activity-session-section, .mobile-activity-focus-section, .desktop-activity-focus-section'
+    )
+    .forEach((section) => {
+      section.classList.remove('activity-session-section');
+      section.classList.remove('mobile-activity-focus-section');
+      section.classList.remove('desktop-activity-focus-section');
+    });
+
+  if (!activeSection) return;
+  activeSection.classList.add('activity-session-section');
+  if (mobileEnabled) {
+    activeSection.classList.add('mobile-activity-focus-section');
+  } else if (desktopEnabled) {
+    activeSection.classList.add('desktop-activity-focus-section');
+  }
+
+  let topbar = activeSection.querySelector(':scope > .mobile-activity-topbar');
+  if (!topbar) {
+    topbar = document.createElement('div');
+    topbar.className = 'mobile-activity-topbar no-print';
+    topbar.innerHTML = `
+      <span class="mobile-activity-topbar-title"></span>
+      <span class="activity-focus-actions">
+        <button type="button" class="activity-focus-toggle" aria-label="Cambiar vista de la actividad">
+          <span aria-hidden="true">↙</span> <span data-focus-label>Vista normal</span>
+        </button>
+        <button type="button" class="mobile-activity-exit" aria-label="Salir de la actividad">
+          <span aria-hidden="true">×</span> Salir
+        </button>
+      </span>
+    `;
+    activeSection.prepend(topbar);
+    topbar.querySelector('.mobile-activity-exit')?.addEventListener('click', () => {
+      if (viewId === 'reading') readingSpeechPlayer.teardown();
+      returnToCurrentLearningRoute();
+    });
+    topbar.querySelector('.activity-focus-toggle')?.addEventListener('click', () => {
+      desktopActivityFocusEnabled = !desktopActivityFocusEnabled;
+      sessionStorage.setItem(
+        'andergo-desktop-activity-view',
+        desktopActivityFocusEnabled ? 'focus' : 'normal'
+      );
+      syncMobileActivityFocus(viewId);
+    });
+  }
+
+  const title = topbar.querySelector('.mobile-activity-topbar-title');
+  if (title) {
+    const lesson = learningPathState.lessons.find(
+      (item) => item.slug === learningPathState.activeSlug
+    );
+    title.textContent = isVerbActivity
+      ? 'ANDERGO · Verbos'
+      : `ANDERGO · ${getSkillLabel(viewId)}${lesson?.title ? ` · ${lesson.title}` : ''}`;
+  }
+  const focusLabel = topbar.querySelector('[data-focus-label]');
+  if (focusLabel) focusLabel.textContent = desktopEnabled ? 'Vista normal' : 'Modo enfoque';
+  const focusToggle = topbar.querySelector('.activity-focus-toggle');
+  if (focusToggle) {
+    focusToggle.setAttribute('aria-pressed', String(desktopEnabled));
+    focusToggle.hidden = mobile;
+  }
+}
+
+const mobileActivityMedia = window.matchMedia('(max-width: 640px)');
+mobileActivityMedia.addEventListener?.('change', () => {
+  syncMobileActivityFocus(getViewFromHash());
+});
 
 // Single-view router: exactly one of these is visible at a time (everything
 // else keeps its .compact-hidden-section class). Header, footer and the auth
@@ -15132,6 +15655,7 @@ function showView(viewId) {
     renderUnitVerbContext();
   }
   if (SKILL_VIEWS.includes(resolved)) renderSkillView(resolved);
+  syncMobileActivityFocus(resolved);
 
   // Normalizes the hash to reflect the state that actually just rendered -
   // covers plain nav-tab clicks (<a href="#reading">, no unit/lesson
@@ -15339,14 +15863,22 @@ function handleHomeAction(action) {
     showView(view);
     if (toast) showHomeToast(toast);
   };
-  const openLanguageSelector = () => {
-    goTo('home');
-    window.setTimeout(() => {
+  const openLanguageSelector = async () => {
+    // The language chooser belongs to the learning flow. Sending a phone
+    // user back to Home was especially confusing because its compact cards
+    // are intentionally hidden there on small screens.
+    goTo('learn');
+    showLearnState('lesson');
+    await loadLearningPath({
+      language: learningPathState.language,
+      level: learningPathState.level
+    });
+    window.requestAnimationFrame(() => {
       document
         .querySelector('.language-preview-grid')
         ?.scrollIntoView({ behavior: 'smooth', block: 'center' });
       document.querySelector('.language-preview-btn')?.focus({ preventScroll: true });
-    }, 50);
+    });
   };
   const openLanguageRoute = async (language) => {
     if (language) {
@@ -15381,7 +15913,7 @@ function handleHomeAction(action) {
       goTo('learn', 'Ruta de lecciones abierta. Elige una lección y completa el reto.');
       break;
     case 'start-free':
-      openLanguageSelector();
+      void openLanguageSelector();
       showHomeToast('Elige el idioma que deseas aprender.');
       break;
     case 'goals':
@@ -15416,7 +15948,7 @@ function handleHomeAction(action) {
       goTo('tutor', 'Tutor IA abierto. Practica listening, speaking o writing.');
       break;
     case 'explore-languages':
-      openLanguageSelector();
+      void openLanguageSelector();
       showHomeToast('Elige un idioma para ver su ruta completa.');
       break;
     case 'explore-english':
@@ -16422,14 +16954,16 @@ function enableHomepageActions() {
       if (practiceButton.disabled || !slug) return;
 
       const exerciseIndex = Number(exerciseBlock.dataset.exerciseIndex);
+      const selfScore = Math.max(0, Math.min(100, Number(practiceButton.dataset.selfScore) || 50));
       learningPathState.exerciseResults[slug] = learningPathState.exerciseResults[slug] || {};
-      learningPathState.exerciseResults[slug][exerciseIndex] = { practiced: true };
+      learningPathState.exerciseResults[slug][exerciseIndex] = { practiced: true, selfScore };
 
-      window.AndergoGamification?.recordCorrectAnswer();
+      if (selfScore >= 75) window.AndergoGamification?.recordCorrectAnswer();
       window.AndergoGamification?.recordSkillTouched(
         exerciseBlock.dataset.skill,
         exerciseBlock.dataset.language || learningPathState.language
       );
+      window.playExerciseFeedbackSound?.(selfScore >= 75);
 
       renderLessonWorkspace();
       return;
@@ -16511,6 +17045,35 @@ function enableHomepageActions() {
     // openTranslator(). Always translates target-language content back into
     // the student's bridge language; data-return-label lets each view name
     // itself in "‹ Volver a ...".
+    const openCorrectorBtn = event.target.closest('.open-corrector-btn');
+    if (openCorrectorBtn) {
+      const editorText = document.getElementById('writingEditor')?.value.trim() || '';
+      if (!editorText) {
+        showHomeToast('Escribe tu texto antes de abrir el Corrector.');
+        return;
+      }
+      openTranslator({
+        mode: 'corrector',
+        text: editorText,
+        toolLanguage: learningPathState.language,
+        returnHash: window.location.hash || '#learn',
+        returnLabel: openCorrectorBtn.dataset.returnLabel || 'Volver a Writing'
+      });
+      return;
+    }
+
+    const openPhoneticsBtn = event.target.closest('.open-phonetics-btn');
+    if (openPhoneticsBtn) {
+      openTranslator({
+        mode: 'phonetics',
+        text: openPhoneticsBtn.dataset.phoneticsText || '',
+        toolLanguage: learningPathState.language,
+        returnHash: window.location.hash || '#learn',
+        returnLabel: openPhoneticsBtn.dataset.returnLabel || 'Volver a Reading'
+      });
+      return;
+    }
+
     const openTranslatorBtn = event.target.closest('.open-translator-btn');
     if (openTranslatorBtn) {
       openTranslator({
@@ -16869,6 +17432,7 @@ function enableHomepageActions() {
   document.getElementById('tutorDrawerSend')?.addEventListener('click', async () => {
     primeTutorAudioForAutoplay();
     const sendBtn = document.getElementById('tutorDrawerSend');
+    document.querySelector('#tutorDrawer .tutor-drawer-panel')?.classList.add('is-response-focused');
     await sendTutorMessage({
       conversationEl: document.getElementById('tutorDrawerConversation'),
       thinkingEl: document.getElementById('tutorDrawerThinking'),
@@ -16900,6 +17464,24 @@ function enableHomepageActions() {
       conversation.innerHTML = `<p class="tutor-welcome">${escapeHtml(
         tutorDrawerContext.welcomeMessage || '👋 Soy el Tutor IA ANDERGO Academy. Cuéntame qué quieres practicar.'
       )}</p>`;
+    document.querySelector('#tutorDrawer .tutor-drawer-panel')?.classList.remove('is-response-focused');
+  });
+
+  document.getElementById('tutorDrawerNewQuestion')?.addEventListener('click', () => {
+    document.querySelector('#tutorDrawer .tutor-drawer-panel')?.classList.remove('is-response-focused');
+    document.getElementById('tutorDrawerPrompt')?.focus();
+  });
+
+  document.querySelectorAll('.tutor-quick-action').forEach((button) => {
+    button.addEventListener('click', () => {
+      const prompt = button.closest('#tutor')
+        ? document.getElementById('aiTutorPrompt')
+        : document.getElementById('tutorDrawerPrompt');
+      if (!prompt) return;
+      prompt.value = button.dataset.tutorQuickPrompt || '';
+      prompt.focus();
+      prompt.setSelectionRange(prompt.value.length, prompt.value.length);
+    });
   });
 
   document.getElementById('tutorDrawerPrompt')?.addEventListener('keydown', (event) => {
@@ -17312,24 +17894,29 @@ function openTranslator(overrides = {}) {
   const targetSelect = document.getElementById('translatorTargetLang');
   const input = document.getElementById('translatorInput');
   const returnLink = document.getElementById('translatorReturnLink');
+  const mode = ['translate', 'corrector', 'phonetics'].includes(overrides.mode)
+    ? overrides.mode
+    : 'translate';
 
-  const sourceLang = overrides.sourceLanguage || learningPathState.language;
-  const targetLang = overrides.targetLanguage || learningPathState.bridgeLanguage;
-  if (sourceSelect && [...sourceSelect.options].some((opt) => opt.value === sourceLang)) {
-    sourceSelect.value = sourceLang;
-  }
-  if (targetSelect && [...targetSelect.options].some((opt) => opt.value === targetLang)) {
-    targetSelect.value = targetLang;
-  }
-  // An explicit shortcut always wins over the generic sync for the rest of
-  // this session - the student (or the lesson view on their behalf) just
-  // chose this pair on purpose.
-  translatorUserAdjustedPair = true;
+  if (mode === 'translate') {
+    const sourceLang = overrides.sourceLanguage || learningPathState.language;
+    const targetLang = overrides.targetLanguage || learningPathState.bridgeLanguage;
+    if (sourceSelect && [...sourceSelect.options].some((opt) => opt.value === sourceLang)) {
+      sourceSelect.value = sourceLang;
+    }
+    if (targetSelect && [...targetSelect.options].some((opt) => opt.value === targetLang)) {
+      targetSelect.value = targetLang;
+    }
+    // An explicit shortcut always wins over the generic sync for the rest of
+    // this session - the student (or the lesson view on their behalf) just
+    // chose this pair on purpose.
+    translatorUserAdjustedPair = true;
 
-  if (input && overrides.text) {
-    const maxLength = Number(input.getAttribute('maxlength')) || 1000;
-    input.value = String(overrides.text).slice(0, maxLength);
-    input.dispatchEvent(new Event('input'));
+    if (input && overrides.text) {
+      const maxLength = Number(input.getAttribute('maxlength')) || 1000;
+      input.value = String(overrides.text).slice(0, maxLength);
+      input.dispatchEvent(new Event('input'));
+    }
   }
 
   if (returnLink) {
@@ -17348,6 +17935,28 @@ function openTranslator(overrides = {}) {
 
   if (window.location.hash !== '#translator') history.pushState(null, '', '#translator');
   showView('translator');
+
+  const toolTab = document.querySelector(`#translatorTabs .skill-tab-button[data-skill="${mode}"]`);
+  if (toolTab) activateSkillTab(toolTab, { scroll: false });
+
+  if (mode === 'corrector' || mode === 'phonetics') {
+    const languageSelect = document.getElementById(
+      mode === 'corrector' ? 'correctorLangSelect' : 'phoneticsLangSelect'
+    );
+    const toolInput = document.getElementById(
+      mode === 'corrector' ? 'correctorInput' : 'phoneticsInput'
+    );
+    const toolLanguage = overrides.toolLanguage || learningPathState.language;
+    if (languageSelect && [...languageSelect.options].some((opt) => opt.value === toolLanguage)) {
+      languageSelect.value = toolLanguage;
+      languageSelect.dispatchEvent(new Event('change'));
+    }
+    if (toolInput && overrides.text) {
+      const maxLength = Number(toolInput.getAttribute('maxlength')) || 1000;
+      toolInput.value = String(overrides.text).slice(0, maxLength);
+      toolInput.dispatchEvent(new Event('input'));
+    }
+  }
 }
 
 // Builds the Traductor's source/target <option> lists from the central
@@ -18101,6 +18710,39 @@ function setupCorrector() {
   });
 }
 
+function splitPhoneticTextForDisplay(text) {
+  return String(text || '')
+    .replace(/\r\n/g, '\n')
+    .split(/\n+/)
+    .flatMap((paragraph) => paragraph.match(/[^.!?…]+(?:[.!?…]+|$)/g) || [paragraph])
+    .map((segment) => segment.trim())
+    .filter(Boolean);
+}
+
+function renderPhoneticParallelHtml(text, ipa, ipaSegments) {
+  const originalSegments = splitPhoneticTextForDisplay(text);
+  if (!Array.isArray(ipaSegments) || ipaSegments.length !== originalSegments.length) {
+    return `<p class="phonetics-ipa">${escapeHtml(ipa)}</p>`;
+  }
+  return `
+    <div class="phonetics-parallel-list">
+      ${originalSegments.map((original, index) => `
+        <article class="phonetics-parallel-row">
+          <span class="phonetics-parallel-number" aria-hidden="true">${index + 1}</span>
+          <div class="phonetics-parallel-source">
+            <span class="phonetics-parallel-label">Texto</span>
+            <p>${escapeHtml(original)}</p>
+          </div>
+          <div class="phonetics-parallel-ipa">
+            <span class="phonetics-parallel-label">IPA</span>
+            <p>${escapeHtml(ipaSegments[index])}</p>
+          </div>
+        </article>
+      `).join('')}
+    </div>
+  `;
+}
+
 function setupPhonetics() {
   const langSelect = document.getElementById('phoneticsLangSelect');
   const input = document.getElementById('phoneticsInput');
@@ -18124,6 +18766,7 @@ function setupPhonetics() {
 
   const MAX_LENGTH = Number(input.getAttribute('maxlength')) || 1000;
   let lastIpa = '';
+  let lastIpaSegments = [];
   let pronunciationPlaying = false;
   const setStatus = (text, mode) => {
     status.textContent = text;
@@ -18143,6 +18786,7 @@ function setupPhonetics() {
   const resetOutput = () => {
     stopPronunciation();
     lastIpa = '';
+    lastIpaSegments = [];
     output.innerHTML = '<p class="skill-graph-empty">La transcripción fonética aparecerá aquí.</p>';
     if (copyBtn) copyBtn.disabled = true;
     if (listenBtn) listenBtn.disabled = true;
@@ -18175,7 +18819,8 @@ function setupPhonetics() {
         return;
       }
       lastIpa = data.ipa || '';
-      output.innerHTML = `<p class="phonetics-ipa">${escapeHtml(lastIpa)}</p>`;
+      lastIpaSegments = Array.isArray(data.segments) ? data.segments : [];
+      output.innerHTML = renderPhoneticParallelHtml(text, lastIpa, lastIpaSegments);
       if (copyBtn) copyBtn.disabled = !lastIpa;
       if (listenBtn) listenBtn.disabled = !lastIpa;
       setStatus('Transcripción completada', 'is-success');

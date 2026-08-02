@@ -13880,12 +13880,15 @@ footer small {
   display: block;
   width: 100%;
   height: 100%;
+  aspect-ratio: 1 / 1;
   overflow: visible;
 }
 
 .tutor-bot-mark--fab {
-  width: 46px;
-  height: 46px;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1 / 1;
+  line-height: 0;
   transition: transform 0.2s ease;
 }
 
@@ -14138,7 +14141,96 @@ footer small {
     max-width: 100vw;
     max-height: 100dvh;
     border-radius: 0;
-    padding: 1rem;
+    padding: max(0.7rem, env(safe-area-inset-top)) 0.7rem max(0.7rem, env(safe-area-inset-bottom));
+    gap: 0.55rem;
+  }
+  .tutor-drawer-head {
+    gap: 0.45rem;
+  }
+  .tutor-drawer-head h2 {
+    min-width: 0;
+    font-size: 1.05rem;
+    line-height: 1.15;
+  }
+  .tutor-drawer-head .tutor-autoplay-toggle {
+    padding: 0.35rem 0.45rem;
+    font-size: 0.72rem;
+  }
+  .tutor-drawer .tutor-context {
+    flex-wrap: nowrap;
+    gap: 0.4rem;
+    overflow-x: auto;
+    padding: 0 0.1rem 0.25rem;
+    scrollbar-width: none;
+  }
+  .tutor-drawer .tutor-context::-webkit-scrollbar {
+    display: none;
+  }
+  .tutor-drawer .tutor-context-pill,
+  .tutor-drawer .tutor-connection-status {
+    flex: 0 0 auto;
+    padding: 0.42rem 0.6rem;
+    font-size: 0.76rem;
+  }
+  .tutor-panel-grid {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: minmax(0, 1fr) auto;
+    gap: 0.6rem;
+    overflow: hidden;
+  }
+  .tutor-panel-conversation {
+    min-height: 0;
+  }
+  .tutor-panel-conversation .tutor-conversation {
+    min-height: 0;
+    max-height: none;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+  }
+  .tutor-message {
+    max-width: 94%;
+    padding: 0.65rem 0.75rem;
+    font-size: 0.9rem;
+  }
+  .tutor-message--tutor {
+    padding: 0.8rem;
+    border-radius: 16px;
+  }
+  .tutor-message--tutor p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  .tutor-panel-controls {
+    gap: 0.45rem;
+    padding: 0.65rem;
+    border-radius: 14px;
+    overflow: visible;
+  }
+  .tutor-panel-controls .tutor-input {
+    min-height: 78px;
+    max-height: 22dvh;
+    padding: 0.65rem 0.75rem;
+    border-radius: 14px;
+    resize: none;
+  }
+  .tutor-panel-controls .tutor-dictate-note,
+  .tutor-panel-controls .tutor-dictate-status {
+    font-size: 0.72rem;
+  }
+  .tutor-panel-controls .tutor-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.45rem;
+  }
+  .tutor-panel-controls .tutor-buttons > button,
+  .tutor-panel-controls .tutor-clear-btn {
+    width: 100%;
+    min-height: 40px;
+    padding: 0.45rem 0.55rem;
+    font-size: 0.78rem;
+  }
+  .tutor-panel-controls .tutor-clear-btn {
+    align-self: stretch;
   }
   .tutor-fab {
     right: 1rem;
@@ -14373,6 +14465,52 @@ footer small {
   color: var(--muted);
 }
 
+.unit-overview-dashboard {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.65rem;
+}
+
+.unit-overview-stat {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  min-width: 0;
+  padding: 0.75rem;
+  border: 1px solid rgba(37, 99, 235, 0.13);
+  border-radius: 14px;
+  background: linear-gradient(145deg, #f8fbff, #f3f8ff);
+}
+
+.unit-overview-stat > span {
+  display: grid;
+  flex: 0 0 2rem;
+  width: 2rem;
+  height: 2rem;
+  place-items: center;
+  border-radius: 10px;
+  background: #e6f0ff;
+  font-size: 1rem;
+}
+
+.unit-overview-stat div {
+  display: grid;
+  min-width: 0;
+  gap: 0.1rem;
+}
+
+.unit-overview-stat strong {
+  color: var(--navy-2);
+  font-size: 1rem;
+  line-height: 1.1;
+}
+
+.unit-overview-stat small {
+  color: var(--muted);
+  font-size: 0.7rem;
+  line-height: 1.2;
+}
+
 .unit-overview-body {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -14456,6 +14594,415 @@ footer small {
   }
   .unit-overview-body {
     grid-template-columns: 1fr;
+  }
+  .unit-overview-dashboard {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* A desktop route is an overview, not a narrow mobile carousel. Every unit
+   step stays visible so learners can see the full journey, next action and
+   evaluation state without horizontal hunting. */
+@media (min-width: 1025px) {
+  .unit-overview-panel {
+    padding: 1.65rem;
+    gap: 1.1rem;
+  }
+
+  .unit-overview-sequence {
+    padding: 1.05rem;
+  }
+
+  .unit-sequence-steps {
+    display: grid;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    overflow: visible;
+  }
+
+  .unit-sequence-step {
+    min-width: 0;
+    padding: 0.7rem 0.45rem;
+  }
+
+  .unit-sequence-label {
+    min-width: 0;
+  }
+
+  .unit-sequence-label strong,
+  .unit-sequence-label small {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 100%;
+  }
+}
+
+/* On phones the header and skill navigation are already two fixed rows.
+   Briefly show the unit mission for orientation, then collapse it so the
+   exercise itself owns the useful part of the viewport. */
+@media (max-width: 640px) {
+  .skill-view-section .unit-mission-strip {
+    transition: margin 180ms ease, min-height 180ms ease, padding 180ms ease;
+  }
+
+  .skill-view-section .unit-mission-strip.is-auto-hidden {
+    min-height: 0;
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .skill-view-section .unit-mission-strip.is-auto-hidden .unit-mission-copy,
+  .skill-view-section .unit-mission-strip.is-auto-hidden .unit-mission-route-btn,
+  .skill-view-section .unit-mission-strip.is-auto-hidden .unit-route-markers {
+    display: none;
+  }
+
+  .unit-mission-reveal-btn {
+    min-height: 30px;
+    margin: 0 0 0.35rem auto;
+    padding: 0.28rem 0.55rem;
+    border-radius: 999px;
+    font-size: 0.68rem;
+  }
+}
+
+/* Tutor IA: conversational workspace refresh. The robot identity and
+   conversation lead; controls stay docked as a single calm composer. */
+.tutor-drawer-panel {
+  width: min(88vw, 1080px);
+  height: min(88dvh, 860px);
+  padding: 1.1rem;
+  gap: 0.6rem;
+  border: 1px solid rgba(255, 255, 255, 0.74);
+  background:
+    radial-gradient(circle at 92% 2%, rgba(6, 194, 255, 0.16), transparent 24%),
+    linear-gradient(145deg, #ffffff 0%, #f7faff 100%);
+}
+
+.tutor-drawer-head {
+  gap: 0.55rem;
+  padding: 0.2rem 0.25rem;
+}
+
+.tutor-drawer-brand {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  gap: 0.65rem;
+  margin-right: auto;
+}
+
+.tutor-drawer-orb {
+  position: relative;
+  display: grid;
+  flex: 0 0 2.8rem;
+  width: 2.8rem;
+  height: 2.8rem;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 15px;
+  background: linear-gradient(145deg, #2563eb, #00bde7);
+  box-shadow: 0 9px 20px rgba(37, 99, 235, 0.25), inset 0 1px 1px rgba(255, 255, 255, 0.42);
+}
+
+.tutor-drawer-orb::before {
+  content: '✦';
+  color: #fff;
+  font-size: 1.22rem;
+  text-shadow: 0 2px 8px rgba(15, 23, 42, 0.25);
+}
+
+.tutor-drawer-orb::after {
+  content: '';
+  position: absolute;
+  inset: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.42);
+  border-radius: 11px;
+}
+
+.tutor-drawer-eyebrow {
+  display: block;
+  color: var(--blue);
+  font-size: 0.63rem;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+}
+
+.tutor-drawer-head h2 {
+  margin: 0;
+  font-size: 1.15rem;
+}
+
+.tutor-drawer-brand small {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.32rem;
+  color: var(--muted);
+  font-size: 0.68rem;
+}
+
+.tutor-drawer-brand small i {
+  width: 0.42rem;
+  height: 0.42rem;
+  border-radius: 50%;
+  background: #22c55e;
+  box-shadow: 0 0 0 3px rgba(34, 197, 94, 0.13);
+}
+
+.tutor-drawer .tutor-context {
+  gap: 0.4rem;
+  padding: 0.1rem 0.25rem 0.15rem;
+}
+
+.tutor-panel-grid {
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: minmax(0, 1fr) auto;
+  gap: 0.7rem;
+}
+
+.tutor-panel-conversation {
+  min-height: 0;
+  padding: 0.8rem;
+  border: 1px solid rgba(37, 99, 235, 0.1);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.66);
+}
+
+.tutor-panel-conversation .tutor-conversation {
+  min-height: 0;
+  padding-right: 0.35rem;
+}
+
+.tutor-panel-controls {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  grid-template-areas:
+    'quick quick quick'
+    'dictate input send'
+    'note note clear';
+  align-items: end;
+  gap: 0.45rem 0.6rem;
+  padding: 0.72rem;
+  overflow: visible;
+  border-color: rgba(37, 99, 235, 0.14);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.88);
+  box-shadow: 0 10px 28px rgba(30, 64, 175, 0.09);
+}
+
+.tutor-quick-actions {
+  grid-area: quick;
+  display: flex;
+  gap: 0.4rem;
+  overflow-x: auto;
+  padding-bottom: 0.08rem;
+  scrollbar-width: none;
+}
+.tutor-quick-actions::-webkit-scrollbar { display: none; }
+
+.tutor-quick-action {
+  flex: 0 0 auto;
+  border: 1px solid rgba(37, 99, 235, 0.15);
+  border-radius: 999px;
+  padding: 0.4rem 0.62rem;
+  background: #f7faff;
+  color: #31557f;
+  font: inherit;
+  font-size: 0.72rem;
+  font-weight: 750;
+  cursor: pointer;
+  transition: transform 150ms ease, border-color 150ms ease, background 150ms ease;
+}
+.tutor-quick-action:hover { transform: translateY(-1px); border-color: var(--blue); background: #eef5ff; }
+.tutor-quick-action:focus-visible { outline: 3px solid rgba(37, 99, 235, 0.28); outline-offset: 2px; }
+
+.tutor-main-quick-actions {
+  margin: 0.15rem 0 0.65rem;
+  padding: 0.15rem 0 0.28rem;
+}
+
+.tutor-main-quick-actions .tutor-quick-action {
+  min-height: 2.2rem;
+  padding-inline: 0.72rem;
+}
+
+/* Main Tutor: keep the starting choices close to the composer so the first
+   action is obvious, while the conversation remains the visual priority. */
+#tutor .tutor-action {
+  gap: 0.65rem;
+  margin-top: 0.85rem;
+}
+
+#tutor .tutor-input {
+  min-height: 112px;
+  border-radius: 16px;
+}
+
+#tutor .tutor-buttons {
+  gap: 0.5rem;
+}
+
+#tutor .tutor-dictate-btn,
+#tutor .tutor-dictate-stop-btn,
+#tutor .tutor-clear-btn {
+  min-height: 2.55rem;
+  border-radius: 14px;
+}
+
+#tutor .tutor-chat-btn {
+  min-height: 2.65rem;
+  padding: 0.65rem 1rem;
+  border-radius: 14px;
+}
+
+@media (max-width: 640px) {
+  #tutor .tutor-action { margin-bottom: 1.1rem; }
+  #tutor .tutor-conversation { max-height: min(42dvh, 340px); }
+  #tutor .tutor-message--tutor { padding: 0.9rem; border-radius: 17px; }
+  #tutor .tutor-message--tutor p { font-size: 0.92rem; line-height: 1.5; }
+  #tutor .tutor-input { min-height: 82px; }
+  #tutor .tutor-chat-btn { flex: 1 1 10rem; }
+  #tutor .tutor-clear-btn { padding-inline: 0.7rem; font-size: 0.78rem; }
+}
+
+.tutor-panel-controls .tutor-input-group { grid-area: input; margin: 0; }
+.tutor-panel-controls .tutor-dictate-btn,
+.tutor-panel-controls .tutor-dictate-stop-btn { grid-area: dictate; }
+.tutor-panel-controls .tutor-buttons { display: contents; }
+.tutor-panel-controls #tutorDrawerSend { grid-area: send; min-height: 46px; white-space: nowrap; }
+.tutor-panel-controls .tutor-dictate-note,
+.tutor-panel-controls .tutor-dictate-status { grid-area: note; margin: 0; }
+.tutor-panel-controls .tutor-clear-btn { grid-area: clear; align-self: center; }
+.tutor-panel-controls .tutor-input { min-height: 56px; max-height: 124px; padding: 0.65rem 0.75rem; border-radius: 14px; resize: vertical; }
+.tutor-panel-controls .tutor-input-group > span { color: var(--muted); font-size: 0.7rem; font-weight: 750; }
+
+@media (max-width: 640px) {
+  .tutor-drawer-panel { padding: max(0.7rem, env(safe-area-inset-top)) 0.7rem max(0.7rem, env(safe-area-inset-bottom)); }
+  .tutor-drawer-brand { gap: 0.5rem; }
+  .tutor-drawer-orb { flex-basis: 2.35rem; width: 2.35rem; height: 2.35rem; border-radius: 12px; }
+  .tutor-drawer-orb::after { border-radius: 8px; }
+  .tutor-drawer-head .tutor-conversation-toggle {
+    min-width: 2.25rem;
+    min-height: 2.25rem;
+    padding: 0.35rem;
+    font-size: 0;
+  }
+  .tutor-drawer-head .tutor-conversation-toggle::before { content: '🎧'; font-size: 0.95rem; }
+  .tutor-drawer-head .tutor-conversation-toggle-badge { display: none; }
+  .tutor-drawer .tutor-context { padding-bottom: 0.1rem; }
+  .tutor-panel-conversation { padding: 0.55rem; border-radius: 16px; }
+  .tutor-panel-controls {
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    gap: 0.4rem;
+    padding: 0.58rem;
+    border-radius: 16px;
+  }
+  .tutor-quick-action { padding: 0.35rem 0.55rem; font-size: 0.68rem; }
+  .tutor-panel-controls .tutor-input { min-height: 52px; max-height: 16dvh; resize: none; }
+  .tutor-panel-controls .tutor-dictate-note { display: none; }
+  .tutor-panel-controls .tutor-clear-btn { padding: 0.35rem 0.45rem; font-size: 0.68rem; }
+}
+
+/* A compact decision point before the Verbos tabs: students can start a
+   short game, open a conjugation, or inspect their saved progress without
+   having to understand the four sub-sections first. */
+.verbs-launchpad {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 0.9rem 0 1.15rem;
+  padding: 0.8rem 0.9rem;
+  border: 1px solid rgba(37, 99, 235, 0.16);
+  border-radius: 18px;
+  background: linear-gradient(110deg, rgba(239, 246, 255, 0.96), rgba(236, 253, 255, 0.92));
+}
+
+.verbs-launchpad-copy {
+  display: grid;
+  gap: 0.14rem;
+}
+
+.verbs-launchpad-copy span {
+  color: var(--blue);
+  font-size: 0.72rem;
+  font-weight: 850;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.verbs-launchpad-copy strong {
+  color: var(--navy-2);
+  font-size: 0.92rem;
+}
+
+.verbs-launchpad-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.45rem;
+}
+
+.verbs-launchpad-btn {
+  min-height: 2.35rem;
+  padding: 0.48rem 0.72rem;
+  border: 1px solid rgba(37, 99, 235, 0.22);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.88);
+  color: var(--navy-2);
+  font: inherit;
+  font-size: 0.8rem;
+  font-weight: 800;
+  cursor: pointer;
+  transition: transform 150ms ease, border-color 150ms ease, box-shadow 150ms ease;
+}
+
+.verbs-launchpad-btn:hover {
+  border-color: var(--blue);
+  box-shadow: 0 5px 14px rgba(37, 99, 235, 0.14);
+  transform: translateY(-1px);
+}
+
+.verbs-launchpad-btn:focus-visible {
+  outline: 3px solid rgba(37, 99, 235, 0.28);
+  outline-offset: 2px;
+}
+
+.verbs-launchpad-btn.is-primary {
+  border-color: var(--blue);
+  background: linear-gradient(100deg, var(--blue), var(--cyan));
+  color: var(--white);
+}
+
+@media (max-width: 640px) {
+  .verbs-launchpad {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 0.65rem;
+    margin-block: 0.7rem 0.9rem;
+    padding: 0.72rem;
+  }
+
+  .verbs-launchpad-copy strong {
+    font-size: 0.88rem;
+  }
+
+  .verbs-launchpad-actions {
+    justify-content: stretch;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+
+  .verbs-launchpad-btn {
+    min-height: 2.65rem;
+    font-size: 0.76rem;
+  }
+
+  .verbs-launchpad-btn.is-primary {
+    grid-column: 1 / -1;
   }
 }
 
@@ -17625,6 +18172,13 @@ footer small {
     gap: 0.35rem;
   }
 
+  /* Make the three choices understandable at a glance on a phone: first
+     choose another lesson, then use the paired previous/next controls. */
+  .unit-activity-footer-actions .unit-activity-change {
+    grid-column: 1 / -1;
+    order: -1;
+  }
+
   .unit-activity-footer-actions button,
   .unit-activity-footer-actions a {
     min-height: 38px;
@@ -18118,6 +18672,107 @@ footer small {
 
 .reading-comp-mobile-hint {
   display: none;
+}
+
+/* Mobile route: one clear decision at a time. The selected unit and its
+   Continue action remain visible; the full unit list is a compact picker. */
+@media (max-width: 640px) {
+  #learning-path > .section-heading {
+    margin-bottom: 0.55rem;
+    text-align: left;
+  }
+
+  #learning-path > .section-heading span,
+  #learning-path > .section-heading p,
+  .learning-route-context {
+    display: none;
+  }
+
+  #learning-path > .section-heading h2 {
+    margin: 0;
+    font-size: 1.35rem;
+  }
+
+  .learn-route-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.65rem;
+    width: 100%;
+    min-height: 48px;
+    margin: 0 0 0.7rem;
+    padding: 0.7rem 0.85rem;
+    border-color: rgba(37, 99, 235, 0.18);
+    background: #f8fbff;
+    color: var(--blue);
+    font-size: 0.84rem;
+  }
+
+  .learn-route-toggle::after {
+    content: '⌄';
+    flex: 0 0 auto;
+    font-size: 1.15rem;
+    line-height: 1;
+    transition: transform 160ms ease;
+  }
+
+  .learn-route-toggle[aria-expanded='true']::after {
+    transform: rotate(180deg);
+  }
+
+  .skill-graph.is-drawer-open .path-summary {
+    margin-bottom: 0.55rem;
+  }
+
+  .skill-graph.is-drawer-open .path-summary-detail {
+    display: none;
+  }
+
+  .skill-graph.is-drawer-open .unit-accordion {
+    gap: 0.5rem;
+  }
+}
+
+/* Mobile website navigation
+   Keep the same website shell as desktop: one header, one expandable menu
+   and normal document flow. The former bottom app dock duplicated links and
+   made the site feel like separate screens instead of a responsive website. */
+@media (max-width: 640px) {
+  body {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  main {
+    min-height: auto;
+  }
+
+  .mobile-app-nav {
+    display: none !important;
+  }
+
+  .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 60;
+    background: rgba(255, 255, 255, 0.97);
+    backdrop-filter: blur(14px);
+  }
+
+  .menu.is-open {
+    max-height: calc(100dvh - 70px);
+    padding-bottom: 0.55rem;
+    border-top: 1px solid rgba(37, 99, 235, 0.1);
+  }
+
+  .menu.is-open a,
+  .menu.is-open summary {
+    min-height: 46px;
+    font-size: 0.8rem;
+  }
+
+  .tutor-fab {
+    bottom: max(0.8rem, env(safe-area-inset-bottom));
+  }
 }
 
 @media (max-width: 640px) {
@@ -18655,8 +19310,7 @@ footer small {
 }
 .phonetics-output {
   min-height: 172px;
-  display: flex;
-  align-items: center;
+  display: block;
 }
 .phonetics-ipa {
   width: 100%;
@@ -18667,6 +19321,54 @@ footer small {
   font-weight: 650;
   line-height: 1.75;
   overflow-wrap: anywhere;
+}
+.phonetics-parallel-list {
+  display: grid;
+  gap: 0.7rem;
+  width: 100%;
+}
+.phonetics-parallel-row {
+  display: grid;
+  grid-template-columns: auto minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: 0.7rem;
+  align-items: start;
+  padding: 0.8rem;
+  border: 1px solid #d8e6fb;
+  border-radius: 0.8rem;
+  background: #f8fbff;
+}
+.phonetics-parallel-number {
+  display: grid;
+  place-items: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  margin-top: 0.15rem;
+  border-radius: 999px;
+  color: #1554b6;
+  background: #dbeafe;
+  font-size: 0.76rem;
+  font-weight: 800;
+}
+.phonetics-parallel-label {
+  display: block;
+  margin-bottom: 0.28rem;
+  color: var(--text-muted);
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.phonetics-parallel-row p {
+  margin: 0;
+  overflow-wrap: anywhere;
+  line-height: 1.55;
+}
+.phonetics-parallel-source p { color: var(--ink); }
+.phonetics-parallel-ipa p {
+  color: #31557f;
+  font-family: "Noto Sans", "Segoe UI", Arial, sans-serif;
+  font-size: 1.04rem;
+  font-weight: 650;
 }
 #phoneticsStopBtn:not(:disabled) {
   color: #b42318;
@@ -18683,6 +19385,9 @@ footer small {
   .phonetics-controls { align-items: stretch; }
   .phonetics-controls > label, .phonetics-language-note { flex-basis: auto; }
   .phonetics-output { min-height: 130px; }
+  .phonetics-parallel-row { grid-template-columns: auto minmax(0, 1fr); }
+  .phonetics-parallel-source,
+  .phonetics-parallel-ipa { grid-column: 2; }
   .phonetics-panel .translator-field-actions {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -18690,5 +19395,1972 @@ footer small {
   .phonetics-panel .translator-field-actions > button {
     width: 100%;
     min-width: 0;
+  }
+}
+
+/* Phone density pass: keep touch targets comfortable without making the
+   responsive website feel oversized. This is deliberately a light rhythm
+   adjustment, not a separate “mobile app” visual system. */
+@media (max-width: 640px) {
+  .section,
+  .learning-path-section,
+  .skill-view-section,
+  .translator-section,
+  .tutor-section,
+  .progress-section,
+  .goals-section,
+  .about-section,
+  .security-section {
+    padding-top: 1.75rem;
+    padding-bottom: 2.25rem;
+  }
+
+  .section-heading {
+    margin-bottom: 1.15rem;
+  }
+
+  .section-heading h2 {
+    font-size: clamp(1.45rem, 7.2vw, 1.8rem);
+    line-height: 1.08;
+  }
+
+  .section-heading p {
+    font-size: 0.84rem;
+    line-height: 1.45;
+  }
+
+  .hero {
+    padding-top: 1.75rem;
+    padding-bottom: 2rem;
+  }
+
+  .hero-copy-carousel {
+    min-height: 205px;
+  }
+
+  .hero h1,
+  .hero h2 {
+    font-size: clamp(1.95rem, 9vw, 2.35rem);
+    line-height: 1.02;
+  }
+
+  .hero p {
+    font-size: 0.88rem;
+  }
+
+  .quick-stats {
+    grid-auto-columns: minmax(132px, 65vw);
+  }
+
+  .lesson-workspace,
+  .skill-view-content,
+  .translator-shell,
+  .tutor-shell,
+  .progress-card,
+  .goals-card,
+  .listening-content,
+  .reading-reader-card {
+    border-radius: 14px;
+  }
+
+  .lesson-workspace,
+  .skill-view-content,
+  .translator-shell,
+  .tutor-shell,
+  .listening-content {
+    padding: 0.7rem;
+  }
+
+  .path-unit,
+  .mcq-question,
+  .grammar-test-question-item,
+  .speaking-action-card,
+  .writing-practice-card,
+  .verb-tile,
+  .vocab-card-face {
+    border-radius: 14px;
+  }
+
+  main .primary-btn,
+  main .secondary-btn,
+  main .unit-action-btn,
+  main .practice-mark-btn {
+    min-height: 42px;
+    padding-block: 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  input,
+  select,
+  textarea {
+    font-size: 16px;
+  }
+
+  /* Keep language selection visible on phones. These are the entry points
+     for “Comenzar gratis” and “Explorar idiomas”, so they must never be
+     hidden in a mobile-only layout. Each card becomes one concise row. */
+  .language-picker-section > .language-preview-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+  }
+
+  .language-picker-section .language-preview-card {
+    display: grid;
+    grid-template-columns: 2rem minmax(0, 1fr) auto;
+    grid-template-rows: auto auto;
+    column-gap: 0.55rem;
+    align-items: center;
+    min-height: 68px;
+    padding: 0.6rem 0.7rem;
+    border-radius: 14px;
+    text-align: left;
+  }
+
+  .language-picker-section .language-preview-flag {
+    grid-row: 1 / -1;
+    margin: 0;
+    font-size: 1.45rem;
+  }
+
+  .language-picker-section .language-preview-card h3 {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+
+  .language-picker-section .language-preview-levels {
+    margin: 0.1rem 0 0;
+    font-size: 0.68rem;
+  }
+
+  .language-picker-section .language-preview-desc {
+    display: none;
+  }
+
+  .language-picker-section .language-preview-btn {
+    grid-column: 3;
+    grid-row: 1 / -1;
+    min-height: 40px;
+    margin: 0;
+    padding: 0.45rem 0.6rem;
+    font-size: 0.72rem;
+    white-space: nowrap;
+  }
+}
+
+/* ==========================================================================
+   Mobile flow refinement
+   Preserve the complete website while making its navigation predictable:
+   global menu -> skill strip -> current mission -> activity controls.
+   ========================================================================== */
+@media (max-width: 640px) {
+  body.mobile-menu-open {
+    overflow: hidden;
+  }
+
+  .navbar {
+    isolation: isolate;
+    box-shadow: 0 1px 0 rgba(15, 23, 42, 0.08);
+  }
+
+  .menu.is-open {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-height: calc(100dvh - 62px);
+    padding: 0.65rem 0.75rem calc(0.85rem + env(safe-area-inset-bottom));
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    border-top: 1px solid rgba(37, 99, 235, 0.1);
+    border-bottom: 1px solid rgba(37, 99, 235, 0.14);
+    background: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 18px 35px rgba(15, 23, 42, 0.16);
+    backdrop-filter: blur(16px);
+  }
+
+  .menu-toggle span {
+    transform-origin: center;
+    transition: transform 160ms ease, opacity 120ms ease;
+  }
+
+  .menu-toggle[aria-expanded='true'] span:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+
+  .menu-toggle[aria-expanded='true'] span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu-toggle[aria-expanded='true'] span:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+
+  .menu.is-open .nav-more-menu {
+    position: static;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.35rem;
+    margin-top: 0.35rem;
+    padding: 0;
+    border: 0;
+    box-shadow: none;
+  }
+
+  /* Keep every learning area reachable from every activity. */
+  #learning-path > .level-tabs,
+  .skill-view-section > .level-tabs {
+    position: sticky;
+    top: 62px;
+    z-index: 28;
+    display: flex !important;
+    width: calc(100% + 1.4rem);
+    margin: -0.25rem -0.7rem 0.7rem;
+    padding: 0.45rem 0.7rem;
+    overflow-x: auto;
+    scroll-padding-inline: 0.7rem;
+    border-bottom: 1px solid rgba(37, 99, 235, 0.12);
+    background: rgba(244, 248, 255, 0.96);
+    box-shadow: 0 6px 16px rgba(30, 64, 175, 0.06);
+    backdrop-filter: blur(12px);
+  }
+
+  #learning-path > .level-tabs .level-tab,
+  .skill-view-section > .level-tabs .level-tab {
+    min-height: 40px;
+    padding: 0.5rem 0.72rem;
+    font-size: 0.74rem;
+  }
+
+  /* Show the compact course breadcrumb instead of removing useful context. */
+  .skill-view-section .activity-route-context {
+    display: flex;
+    min-height: 32px;
+    margin: 0 0 0.45rem;
+    padding: 0.35rem 0.55rem;
+    overflow-x: auto;
+    font-size: 0.68rem;
+    scrollbar-width: none;
+  }
+
+  .skill-view-section .activity-route-context::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Keep the current task and route switch visible during long exercises. */
+  .skill-view-section .unit-mission-strip {
+    position: sticky;
+    top: 113px;
+    z-index: 24;
+    margin: 0 0 0.65rem;
+    background: rgba(255, 255, 255, 0.97);
+    box-shadow: 0 8px 22px rgba(30, 64, 175, 0.1);
+    backdrop-filter: blur(12px);
+  }
+
+  .skill-view-section .unit-mission-route-btn {
+    min-width: 76px;
+    min-height: 38px;
+    padding: 0.42rem 0.55rem;
+    font-size: 0.7rem;
+  }
+
+  /* When the picker opens it belongs before the lesson, not below it. */
+  .learning-path-layout .skill-graph.is-drawer-open {
+    order: 0;
+    max-height: min(68dvh, 760px);
+    margin: 0 0 0.7rem;
+  }
+
+  .learning-path-layout .lesson-workspace {
+    order: 1;
+  }
+
+  .skill-graph.is-drawer-open .unit-accordion {
+    padding-bottom: 0.25rem;
+  }
+
+  .path-unit {
+    scroll-margin-top: 122px;
+  }
+
+  /* Preserve the language-card explanations without returning to tall cards. */
+  .language-picker-section .language-preview-desc {
+    display: block;
+    grid-column: 2 / 4;
+    margin: 0.25rem 0 0;
+    color: var(--muted);
+    font-size: 0.68rem;
+    line-height: 1.35;
+  }
+
+  .language-picker-section .language-preview-card {
+    grid-template-rows: auto auto auto;
+  }
+
+  /* Compact but dependable touch behavior across controls and card decks. */
+  button,
+  a,
+  summary,
+  input,
+  select,
+  textarea {
+    touch-action: manipulation;
+  }
+
+  .reading-comp-question-track,
+  .grammar-quick-grid,
+  .grammar-quick-forms,
+  .level-tabs,
+  .quick-stats {
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .tutor-fab {
+    width: 48px;
+    height: 48px;
+    padding: 7px;
+  }
+}
+
+@media (max-width: 380px) {
+  .navbar {
+    grid-template-columns: minmax(0, 1fr) auto auto;
+    padding-inline: 0.55rem;
+  }
+
+  .brand-logo-symbol {
+    width: 38px;
+    height: 38px;
+  }
+
+  .brand-product-name {
+    font-size: 0.72rem;
+  }
+
+  .nav-actions .login,
+  .logout-btn {
+    padding-inline: 0.5rem;
+    font-size: 0.66rem;
+  }
+
+  #learning-path > .level-tabs,
+  .skill-view-section > .level-tabs {
+    top: 58px;
+  }
+
+  .skill-view-section .unit-mission-strip {
+    top: 109px;
+  }
+}
+
+/* ==========================================================================
+   Unified evaluated-practice experience
+   Grammar remains the reference: every skill now shares the same visual
+   language for progress, immediate feedback, score, reward and retry.
+   ========================================================================== */
+.evaluation-summary {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: center;
+  gap: clamp(0.9rem, 2vw, 1.35rem);
+  width: 100%;
+  margin: 0 0 1rem;
+  padding: clamp(0.9rem, 2vw, 1.25rem);
+  overflow: hidden;
+  border: 1px solid rgba(37, 99, 235, 0.2);
+  border-radius: 22px;
+  background:
+    radial-gradient(circle at 100% 0%, rgba(34, 193, 241, 0.16), transparent 35%),
+    linear-gradient(135deg, #ffffff, #f4f8ff);
+  box-shadow: 0 16px 40px rgba(30, 64, 175, 0.12);
+}
+
+.evaluation-score-orb {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-content: center;
+  justify-content: center;
+  width: 104px;
+  height: 104px;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at center, #ffffff 59%, transparent 61%),
+    conic-gradient(var(--blue) calc(var(--evaluation-score) * 1%), #dce8f8 0);
+  box-shadow: inset 0 0 0 1px rgba(37, 99, 235, 0.12), 0 10px 24px rgba(37, 99, 235, 0.14);
+  color: var(--navy-2);
+  font-variant-numeric: tabular-nums;
+}
+
+.evaluation-score-orb > span {
+  grid-column: 1 / -1;
+  font-size: 1.35rem;
+  line-height: 1;
+  text-align: center;
+}
+
+.evaluation-score-orb strong {
+  font-size: 1.55rem;
+  line-height: 1;
+}
+
+.evaluation-score-orb small {
+  align-self: end;
+  color: var(--muted);
+  font-size: 0.7rem;
+  font-weight: 800;
+}
+
+.evaluation-summary-copy {
+  min-width: 0;
+}
+
+.evaluation-summary-kicker {
+  display: block;
+  margin-bottom: 0.25rem;
+  color: var(--blue);
+  font-size: 0.68rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.evaluation-summary-copy h4 {
+  margin: 0;
+  color: var(--navy-2);
+  font-size: clamp(1rem, 2.4vw, 1.3rem);
+}
+
+.evaluation-summary-copy p {
+  margin: 0.35rem 0 0;
+  color: var(--muted);
+  font-size: 0.84rem;
+  line-height: 1.5;
+}
+
+.evaluation-rewards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.7rem;
+}
+
+.evaluation-rewards span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 30px;
+  padding: 0.35rem 0.58rem;
+  border-radius: 999px;
+  background: rgba(37, 99, 235, 0.08);
+  color: var(--navy-2);
+  font-size: 0.7rem;
+  font-weight: 850;
+}
+
+.practice-self-assessment {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem;
+  width: 100%;
+  margin-top: 0.75rem;
+  padding-top: 0.7rem;
+  border-top: 1px solid rgba(37, 99, 235, 0.12);
+}
+
+.practice-self-assessment > span {
+  flex: 1 0 100%;
+  color: var(--navy-2);
+  font-size: 0.75rem;
+  font-weight: 850;
+}
+
+.practice-self-assessment .practice-mark-btn {
+  flex: 1 1 150px;
+  min-height: 42px;
+  border-color: rgba(37, 99, 235, 0.16);
+  background: #f8fbff;
+  color: var(--navy-2);
+}
+
+.practice-self-assessment .practice-mark-btn:hover {
+  border-color: rgba(37, 99, 235, 0.38);
+  background: #eef5ff;
+}
+
+.practice-self-result {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  gap: 0.15rem 0.65rem;
+  min-width: min(100%, 260px);
+  padding: 0.65rem 0.75rem;
+  border: 1px solid rgba(22, 163, 74, 0.2);
+  border-radius: 14px;
+  background: rgba(22, 163, 74, 0.07);
+}
+
+.practice-self-result span,
+.practice-self-result small {
+  color: var(--muted);
+  font-size: 0.68rem;
+  font-weight: 750;
+}
+
+.practice-self-result strong {
+  grid-row: 1 / 3;
+  grid-column: 2;
+  color: #13763a;
+  font-size: 1.2rem;
+}
+
+.practice-self-result small {
+  max-width: 32ch;
+}
+
+.reading-comp-result,
+.writing-practice-result,
+.vocab-practice-results,
+.speaking-correction-card,
+.grammar-test-card {
+  border-color: rgba(37, 99, 235, 0.16);
+}
+
+.reading-comp-feedback,
+.writing-practice-feedback,
+.grammar-question-feedback,
+.mcq-feedback.is-result {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.45rem;
+  width: 100%;
+  margin-top: 0.7rem;
+  padding: 0.65rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 800;
+  line-height: 1.45;
+}
+
+.reading-comp-feedback.is-correct,
+.writing-practice-feedback.is-correct,
+.grammar-question-feedback.is-correct,
+.mcq-question.is-correct .mcq-feedback {
+  border: 1px solid rgba(22, 163, 74, 0.24);
+  background: rgba(22, 163, 74, 0.09);
+  color: #13763a;
+}
+
+.reading-comp-feedback.is-incorrect,
+.writing-practice-feedback.is-incorrect,
+.grammar-question-feedback.is-incorrect,
+.mcq-question.is-incorrect .mcq-feedback {
+  border: 1px solid rgba(220, 38, 38, 0.2);
+  background: rgba(220, 38, 38, 0.07);
+  color: #a82424;
+}
+
+/* A calmer, more cohesive visual shell across the complete site. */
+body {
+  background:
+    radial-gradient(circle at 8% 7%, rgba(37, 99, 235, 0.07), transparent 24rem),
+    radial-gradient(circle at 92% 24%, rgba(34, 193, 241, 0.06), transparent 28rem),
+    var(--bg);
+}
+
+.navbar {
+  border-bottom: 1px solid rgba(37, 99, 235, 0.1);
+  box-shadow: 0 8px 28px rgba(15, 23, 42, 0.05);
+}
+
+.primary-btn,
+.unit-action-btn {
+  border-color: transparent;
+  background: linear-gradient(135deg, var(--blue), #0ea5e9);
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.2);
+}
+
+.primary-btn:hover,
+.unit-action-btn:hover {
+  box-shadow: 0 12px 26px rgba(37, 99, 235, 0.28);
+}
+
+.lesson-workspace,
+.skill-view-content,
+.translator-shell,
+.tutor-shell,
+.progress-card,
+.goals-card,
+.listening-content,
+.reading-reader-card,
+.grammar-test-card {
+  border: 1px solid rgba(37, 99, 235, 0.13);
+  box-shadow: 0 16px 42px rgba(30, 64, 175, 0.08);
+}
+
+.mcq-question,
+.reading-comp-question,
+.grammar-test-question-item,
+.writing-practice-card,
+.speaking-action-card {
+  transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.mcq-question:focus-within,
+.reading-comp-question:focus-within,
+.grammar-test-question-item:focus-within,
+.writing-practice-card:focus-within,
+.speaking-action-card:focus-within {
+  border-color: rgba(37, 99, 235, 0.38);
+  box-shadow: 0 10px 28px rgba(37, 99, 235, 0.1);
+}
+
+@media (max-width: 640px) {
+  .evaluation-summary {
+    grid-template-columns: 78px minmax(0, 1fr);
+    gap: 0.7rem;
+    padding: 0.75rem;
+    border-radius: 16px;
+  }
+
+  .evaluation-score-orb {
+    width: 74px;
+    height: 74px;
+  }
+
+  .evaluation-score-orb > span {
+    font-size: 0.95rem;
+  }
+
+  .evaluation-score-orb strong {
+    font-size: 1.15rem;
+  }
+
+  .evaluation-summary-copy h4 {
+    font-size: 0.9rem;
+  }
+
+  .evaluation-summary-copy p {
+    font-size: 0.72rem;
+  }
+
+  .evaluation-rewards {
+    gap: 0.25rem;
+    margin-top: 0.45rem;
+  }
+
+  .evaluation-rewards span {
+    min-height: 26px;
+    padding: 0.28rem 0.42rem;
+    font-size: 0.62rem;
+  }
+
+  .practice-self-assessment {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .practice-self-assessment .practice-mark-btn {
+    width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mcq-question,
+  .reading-comp-question,
+  .grammar-test-question-item,
+  .writing-practice-card,
+  .speaking-action-card {
+    transition: none;
+  }
+}
+
+/* On phones the skill tabs and the activity footer already provide the
+   useful navigation. Hiding this repeated mission summary gives the exercise
+   the first visible position without removing any lesson controls. */
+@media (max-width: 640px) {
+  .skill-view-section .unit-mission-strip {
+    display: none !important;
+  }
+
+  .tutor-dictate-btn,
+  .tutor-dictate-stop-btn,
+  .translator-dictate-btn,
+  .translator-dictate-stop-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 7.25rem;
+    min-height: 44px;
+    touch-action: manipulation;
+  }
+
+  .translator-field-actions {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .translator-field-actions > button {
+    width: 100%;
+  }
+
+  .tutor-dictate-stop-btn[hidden],
+  .translator-dictate-stop-btn[hidden] {
+    display: none !important;
+  }
+}
+
+/* Learning route clarity pass: units remain the index, while the selected
+   unit panel owns the next action, activities, progress and curricular detail. */
+.learning-path-layout {
+  grid-template-columns: minmax(310px, 0.72fr) minmax(600px, 1.28fr);
+  gap: clamp(18px, 2vw, 32px);
+}
+
+.skill-graph {
+  position: sticky;
+  top: 88px;
+  max-height: calc(100dvh - 112px);
+  padding: 1rem;
+  border-radius: 24px;
+  scrollbar-gutter: stable;
+}
+
+.path-guide-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.8rem;
+  margin-bottom: 0.75rem;
+  padding: 0.3rem 0.25rem 0;
+}
+
+.path-guide-head h2 {
+  margin: 0.15rem 0 0.1rem;
+  color: var(--navy-2);
+  font-size: 1.08rem;
+  line-height: 1.2;
+}
+
+.path-guide-head p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.74rem;
+  line-height: 1.4;
+}
+
+.path-guide-step,
+.path-guide-count {
+  display: inline-flex;
+  align-items: center;
+  min-height: 25px;
+  padding: 0.28rem 0.55rem;
+  border-radius: 999px;
+  background: rgba(37, 99, 235, 0.1);
+  color: var(--blue);
+  font-size: 0.67rem;
+  font-weight: 850;
+  white-space: nowrap;
+}
+
+.path-guide-count {
+  margin-top: 0.1rem;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(30, 64, 175, 0.08);
+}
+
+.path-summary {
+  margin-bottom: 0.85rem;
+  padding: 0.7rem 0.75rem;
+  border-radius: 16px;
+  background: linear-gradient(135deg, rgba(239, 246, 255, 0.95), rgba(236, 254, 255, 0.88));
+}
+
+.path-summary-detail {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 0.65rem;
+  line-height: 1.35;
+}
+
+.path-summary-detail span {
+  color: var(--muted);
+}
+
+.unit-accordion {
+  gap: 0.55rem;
+}
+
+.path-unit {
+  position: relative;
+  grid-template-columns: 2.65rem minmax(0, 1fr) auto;
+  grid-template-rows: auto auto auto;
+  gap: 0.12rem 0.65rem;
+  min-height: 82px;
+  padding: 0.72rem 0.78rem;
+  border-radius: 18px;
+}
+
+.path-unit-artwork {
+  grid-column: 1;
+  grid-row: 1 / 4;
+  width: 2.65rem;
+  height: 2.65rem;
+  border-radius: 13px;
+}
+
+.path-unit-titles {
+  grid-column: 2;
+  grid-row: 1 / 3;
+}
+
+.path-unit-reward {
+  grid-column: 2;
+  grid-row: 3;
+  align-self: center;
+}
+
+.path-unit-premium {
+  grid-column: 3;
+  grid-row: 2;
+  justify-self: end;
+}
+
+.path-unit-progress-label {
+  grid-column: 3;
+  grid-row: 1;
+  min-width: 2.4rem;
+  justify-self: end;
+}
+
+.path-unit-status {
+  grid-column: 3;
+  grid-row: 3;
+  align-self: center;
+  justify-self: end;
+  color: var(--muted);
+  font-size: 0.64rem;
+  font-weight: 800;
+}
+
+.path-unit-progress-track {
+  position: absolute;
+  right: 0.8rem;
+  bottom: 0.35rem;
+  left: 4.1rem;
+  height: 3px;
+  overflow: hidden;
+  border-radius: 99px;
+  background: rgba(148, 163, 184, 0.18);
+}
+
+.path-unit-progress-track > span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--blue), var(--cyan));
+}
+
+.path-unit--selected {
+  border-color: rgba(37, 99, 235, 0.7);
+  background: linear-gradient(135deg, #fff, #eff6ff);
+  box-shadow: 0 12px 28px rgba(37, 99, 235, 0.16), inset 4px 0 0 var(--blue);
+}
+
+.path-unit--selected .path-unit-status {
+  color: var(--blue);
+}
+
+.path-unit--completed .path-unit-progress-label {
+  background: rgba(34, 197, 94, 0.13);
+  color: #15803d;
+}
+
+.lesson-workspace--unit-overview {
+  overflow: hidden;
+  padding: 0;
+  border-radius: 28px;
+}
+
+.unit-overview-panel {
+  padding: clamp(1rem, 2.4vw, 1.8rem);
+}
+
+.unit-selection-intro {
+  display: none;
+}
+
+.unit-overview-header {
+  position: relative;
+  margin: calc(clamp(1rem, 2.4vw, 1.8rem) * -1) calc(clamp(1rem, 2.4vw, 1.8rem) * -1) 1rem;
+  padding: clamp(1.2rem, 3vw, 2rem);
+  background:
+    radial-gradient(circle at 90% 10%, rgba(34, 211, 238, 0.23), transparent 35%),
+    linear-gradient(135deg, #eff6ff, #f8fafc 58%, #ecfeff);
+  border-bottom: 1px solid rgba(37, 99, 235, 0.12);
+}
+
+.unit-overview-header .unit-title {
+  max-width: 18ch;
+  margin: 0.25rem 0 0.45rem;
+  font-size: clamp(1.65rem, 3vw, 2.5rem);
+  line-height: 1.05;
+}
+
+.unit-overview-actions--primary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 1rem 0;
+  padding: 0.85rem 0.9rem;
+  border: 1px solid rgba(37, 99, 235, 0.16);
+  border-radius: 18px;
+  background: linear-gradient(135deg, rgba(239, 246, 255, 0.92), rgba(236, 254, 255, 0.82));
+}
+
+.unit-overview-actions--primary > span {
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.unit-overview-actions--primary > span strong {
+  color: var(--blue);
+}
+
+.unit-overview-actions--primary .unit-action-btn {
+  min-width: 190px;
+  min-height: 50px;
+  font-size: 0.9rem;
+}
+
+.unit-overview-dashboard {
+  margin-block: 0.75rem;
+}
+
+.unit-overview-sequence {
+  margin: 0.85rem 0;
+  background: rgba(248, 250, 252, 0.88);
+}
+
+@media (max-width: 1024px) {
+  .learning-path-layout {
+    grid-template-columns: minmax(280px, 0.72fr) minmax(0, 1.28fr);
+  }
+
+  .skill-graph {
+    position: relative;
+    top: auto;
+  }
+}
+
+@media (max-width: 640px) {
+  .learning-path-section {
+    padding-inline: 0.7rem;
+  }
+
+  .learn-route-toggle {
+    position: sticky;
+    top: 113px;
+    z-index: 23;
+    margin-bottom: 0.55rem;
+    border-color: rgba(37, 99, 235, 0.22);
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.96);
+    box-shadow: 0 8px 22px rgba(30, 64, 175, 0.1);
+    backdrop-filter: blur(12px);
+  }
+
+  .skill-graph.is-drawer-open {
+    padding: 0.7rem;
+    border-radius: 18px;
+  }
+
+  .path-guide-head h2 {
+    font-size: 0.98rem;
+  }
+
+  .path-guide-head p {
+    max-width: 28ch;
+    font-size: 0.68rem;
+  }
+
+  .path-summary {
+    padding: 0.6rem;
+  }
+
+  .path-summary-detail span:last-child {
+    display: none;
+  }
+
+  .path-unit {
+    min-height: 76px;
+    padding: 0.6rem;
+  }
+
+  .path-unit-progress-track {
+    right: 0.6rem;
+    left: 3.9rem;
+  }
+
+  .lesson-workspace--unit-overview {
+    border-radius: 18px;
+  }
+
+  .unit-overview-panel {
+    padding: 0.75rem;
+  }
+
+  .unit-overview-header {
+    margin: -0.75rem -0.75rem 0.7rem;
+    padding: 1rem 0.85rem;
+  }
+
+  .unit-overview-header .unit-title {
+    font-size: 1.45rem;
+  }
+
+  .unit-objective,
+  .unit-scenario {
+    font-size: 0.78rem;
+  }
+
+  .unit-overview-actions--primary {
+    position: sticky;
+    bottom: calc(0.45rem + env(safe-area-inset-bottom));
+    z-index: 8;
+    display: grid;
+    gap: 0.45rem;
+    margin: 0.7rem 0;
+    padding: 0.6rem;
+    background: rgba(255, 255, 255, 0.96);
+    box-shadow: 0 10px 30px rgba(30, 64, 175, 0.16);
+    backdrop-filter: blur(14px);
+  }
+
+  .unit-overview-actions--primary > span {
+    font-size: 0.68rem;
+  }
+
+  .unit-overview-actions--primary .unit-action-btn {
+    width: 100%;
+    min-width: 0;
+    min-height: 46px;
+  }
+
+  .unit-overview-dashboard {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.35rem;
+  }
+
+  .unit-overview-stat {
+    min-width: 0;
+    padding: 0.55rem 0.35rem;
+  }
+
+  .unit-overview-stat > span {
+    display: none;
+  }
+
+  .unit-overview-stat strong {
+    font-size: 0.82rem;
+  }
+
+  .unit-overview-stat small {
+    font-size: 0.57rem;
+  }
+
+  .unit-sequence-heading span {
+    font-size: 0.68rem;
+  }
+}
+
+/* ===========================================================================
+   ANDERGO desktop visual system
+   Shared proportions and surfaces keep Home, Ruta and every skill feeling
+   like one product without removing any existing content or controls.
+   ========================================================================== */
+@media (min-width: 1025px) {
+  :root {
+    --andergo-content-max: 1480px;
+    --andergo-page-gutter: max(3rem, calc((100vw - var(--andergo-content-max)) / 2));
+    --andergo-surface-border: rgba(37, 99, 235, 0.13);
+    --andergo-surface-shadow: 0 20px 55px rgba(30, 64, 175, 0.09);
+  }
+
+  .navbar {
+    min-height: 82px;
+    padding-inline: var(--andergo-page-gutter);
+    border-bottom-color: rgba(37, 99, 235, 0.09);
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 10px 36px rgba(15, 23, 42, 0.055);
+    backdrop-filter: blur(18px) saturate(145%);
+  }
+
+  .brand {
+    gap: 0.75rem;
+  }
+
+  .brand-logo-symbol {
+    width: 54px;
+    height: 54px;
+    border-radius: 17px;
+    filter: drop-shadow(0 8px 15px rgba(37, 99, 235, 0.15));
+  }
+
+  .brand-product-name {
+    font-size: 1.03rem;
+    letter-spacing: 0.08em;
+  }
+
+  .brand-academy-name {
+    font-size: 0.93rem;
+  }
+
+  .brand-name > p {
+    margin-top: 0.18rem;
+    font-size: 0.68rem;
+  }
+
+  .menu {
+    gap: 0.2rem;
+    padding: 0.3rem;
+    border: 1px solid rgba(37, 99, 235, 0.08);
+    border-radius: 999px;
+    background: rgba(248, 250, 252, 0.82);
+  }
+
+  .menu a,
+  .nav-more summary {
+    min-height: 40px;
+    padding: 0.62rem 0.82rem;
+    border-radius: 999px;
+    transition: color 160ms ease, background 160ms ease, box-shadow 160ms ease;
+  }
+
+  .menu a:hover,
+  .menu a.active,
+  .nav-more summary:hover {
+    background: #fff;
+    color: var(--blue);
+    box-shadow: 0 5px 15px rgba(37, 99, 235, 0.1);
+  }
+
+  .nav-actions .login,
+  .nav-actions .signup,
+  .logout-btn,
+  .user-chip {
+    min-height: 44px;
+    border-radius: 999px;
+  }
+
+  .hero {
+    grid-template-columns: minmax(0, 1.12fr) minmax(380px, 0.88fr);
+    gap: clamp(3rem, 5vw, 6.5rem);
+    min-height: calc(100dvh - 82px);
+    padding: clamp(4.5rem, 7vw, 7rem) var(--andergo-page-gutter);
+    background:
+      radial-gradient(circle at 12% 16%, rgba(37, 99, 235, 0.12), transparent 28rem),
+      radial-gradient(circle at 88% 72%, rgba(34, 211, 238, 0.13), transparent 26rem),
+      linear-gradient(145deg, #ffffff 0%, #f6f9ff 52%, #eef8ff 100%);
+  }
+
+  .hero-content {
+    max-width: 760px;
+  }
+
+  .hero-copy-carousel {
+    min-height: 330px;
+  }
+
+  .hero h1,
+  .hero h2 {
+    max-width: 720px;
+    font-size: clamp(3.4rem, 4.5vw, 5rem);
+    letter-spacing: -0.065em;
+    text-wrap: balance;
+  }
+
+  .hero-copy-slide p {
+    max-width: 640px;
+    color: #52647d;
+    font-size: clamp(1.02rem, 1.15vw, 1.16rem);
+  }
+
+  .hero-buttons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 52px;
+    padding-inline: 1.35rem;
+    border-radius: 15px;
+  }
+
+  .quick-stats {
+    max-width: 690px;
+    gap: 0.75rem;
+  }
+
+  .quick-stats div {
+    min-height: 94px;
+    padding: 1rem 1.05rem;
+    border-color: rgba(37, 99, 235, 0.1);
+    background: rgba(255, 255, 255, 0.76);
+    box-shadow: 0 12px 30px rgba(30, 64, 175, 0.07);
+    backdrop-filter: blur(12px);
+  }
+
+  .hero-card {
+    min-height: 500px;
+    padding: clamp(1.5rem, 3vw, 2.6rem);
+    border-radius: 38px;
+    border-color: rgba(255, 255, 255, 0.85);
+    background:
+      radial-gradient(circle at 78% 14%, rgba(255, 255, 255, 0.78), transparent 30%),
+      linear-gradient(145deg, rgba(219, 234, 254, 0.95), rgba(224, 242, 254, 0.86));
+    box-shadow: 0 36px 80px rgba(30, 64, 175, 0.17);
+  }
+
+  .course-card {
+    width: min(470px, 100%);
+    padding: 2rem;
+    border-radius: 25px;
+    border-color: rgba(37, 99, 235, 0.11);
+    background: rgba(255, 255, 255, 0.94);
+    box-shadow: 0 25px 60px rgba(15, 23, 42, 0.14);
+  }
+
+  .home-guest-preview {
+    display: grid;
+    gap: 0.55rem;
+    width: 100%;
+    margin: 0.3rem 0 1.15rem;
+  }
+
+  .home-guest-preview span {
+    display: grid;
+    grid-template-columns: 2rem minmax(0, 1fr);
+    align-items: center;
+    gap: 0.65rem;
+    min-height: 44px;
+    padding: 0.48rem 0.6rem;
+    border: 1px solid rgba(37, 99, 235, 0.1);
+    border-radius: 13px;
+    background: linear-gradient(135deg, rgba(239, 246, 255, 0.8), rgba(248, 250, 252, 0.9));
+  }
+
+  .home-guest-preview b {
+    display: grid;
+    width: 2rem;
+    height: 2rem;
+    place-items: center;
+    border-radius: 10px;
+    background: rgba(37, 99, 235, 0.1);
+    color: var(--blue);
+    font-size: 0.68rem;
+  }
+
+  .home-guest-preview i {
+    color: var(--navy-2);
+    font-size: 0.82rem;
+    font-style: normal;
+    font-weight: 750;
+  }
+
+  .home-guest-actions {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.7rem;
+  }
+
+  .home-guest-actions .home-guest-preview {
+    grid-column: 1 / -1;
+  }
+
+  .home-guest-actions > a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 46px;
+    padding-inline: 0.75rem;
+    font-size: 0.82rem;
+  }
+
+  .section,
+  .learning-path-section,
+  .skill-view-section {
+    padding-inline: var(--andergo-page-gutter);
+  }
+
+  .section-heading {
+    margin-inline: auto;
+    text-align: center;
+  }
+
+  .section-heading::before {
+    margin-inline: auto;
+  }
+
+  .language-picker-section {
+    padding-block: clamp(5rem, 7vw, 7.5rem);
+  }
+
+  .language-picker-section > .language-preview-grid,
+  .language-picker-section > .global-language-controls,
+  .language-picker-section > .current-plan-summary {
+    width: min(1180px, 100%);
+  }
+
+  .language-picker-section > .language-preview-grid {
+    gap: 1.15rem;
+  }
+
+  .language-picker-section .language-preview-card {
+    align-items: flex-start;
+    min-height: 250px;
+    padding: 1.55rem;
+    border-radius: 24px;
+    text-align: left;
+  }
+
+  .language-picker-section .language-preview-flag {
+    display: grid;
+    width: 3.3rem;
+    height: 3.3rem;
+    place-items: center;
+    margin-bottom: 1rem;
+    border-radius: 16px;
+    background: linear-gradient(145deg, #eff6ff, #ecfeff);
+    box-shadow: inset 0 0 0 1px rgba(37, 99, 235, 0.09);
+    font-size: 1.8rem;
+  }
+
+  .language-picker-section .language-preview-card h3 {
+    font-size: 1.3rem;
+  }
+
+  .language-picker-section .language-preview-desc {
+    max-width: none;
+    min-height: 3.9em;
+  }
+
+  .language-picker-section .language-preview-btn {
+    width: 100%;
+    border-radius: 12px;
+  }
+
+  .pricing-details,
+  .pricing-layout,
+  .current-plan-summary,
+  .account-plan-panel {
+    width: min(1180px, 100%);
+    max-width: 1180px;
+    margin-inline: auto;
+  }
+
+  .pricing-layout {
+    gap: 1.5rem;
+  }
+
+  .plan {
+    border-radius: 28px;
+    border-color: rgba(37, 99, 235, 0.13);
+    box-shadow: var(--andergo-surface-shadow);
+  }
+
+  .premium-plan {
+    transform: translateY(-8px);
+    background:
+      radial-gradient(circle at 92% 5%, rgba(34, 211, 238, 0.16), transparent 28%),
+      linear-gradient(160deg, #ffffff, #f2f7ff);
+  }
+
+  .learning-path-section,
+  .skill-view-section {
+    max-width: none;
+  }
+
+  .learning-path-layout,
+  .skill-view-content,
+  .translator-shell,
+  .tutor-shell,
+  .progress-card,
+  .goals-card {
+    width: min(var(--andergo-content-max), 100%);
+    margin-inline: auto;
+  }
+
+  .learning-route-context,
+  .route-path-controls,
+  .level-tabs {
+    margin-inline: auto;
+  }
+
+  .skill-view-content,
+  .lesson-workspace,
+  .translator-shell,
+  .tutor-shell,
+  .listening-content,
+  .reading-reader-card,
+  .grammar-test-card {
+    border-color: var(--andergo-surface-border);
+    box-shadow: var(--andergo-surface-shadow);
+  }
+
+  footer {
+    padding-inline: var(--andergo-page-gutter);
+  }
+
+  .footer-top {
+    width: min(1180px, 100%);
+    max-width: 1180px;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  .home-guest-preview {
+    display: none;
+  }
+}
+
+/* Mobile activity focus mode. The page remains intact underneath; only the
+   selected activity becomes an app-like, scrollable full-screen surface. */
+.mobile-activity-topbar {
+  display: none;
+}
+
+@media (min-width: 641px) {
+  .activity-session-section > .mobile-activity-topbar {
+    position: sticky;
+    top: 90px;
+    z-index: 240;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    width: min(1480px, 100%);
+    min-height: 58px;
+    margin: 0 auto 0.8rem;
+    padding: 0.55rem 0.65rem 0.55rem 1rem;
+    border: 1px solid rgba(37, 99, 235, 0.13);
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.96);
+    box-shadow: 0 12px 32px rgba(30, 64, 175, 0.11);
+    backdrop-filter: blur(16px) saturate(140%);
+  }
+
+  .mobile-activity-topbar-title {
+    min-width: 0;
+    overflow: hidden;
+    color: var(--navy-2);
+    font-size: 0.82rem;
+    font-weight: 850;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .activity-focus-actions {
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+    gap: 0.45rem;
+  }
+
+  .activity-focus-toggle,
+  .mobile-activity-exit {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.38rem;
+    min-height: 42px;
+    padding: 0.5rem 0.8rem;
+    border: 1px solid rgba(37, 99, 235, 0.18);
+    border-radius: 999px;
+    background: #fff;
+    color: var(--navy-2);
+    font: inherit;
+    font-size: 0.76rem;
+    font-weight: 850;
+    cursor: pointer;
+    box-shadow: 0 5px 14px rgba(30, 64, 175, 0.07);
+  }
+
+  .activity-focus-toggle:hover,
+  .mobile-activity-exit:hover {
+    border-color: rgba(37, 99, 235, 0.42);
+    color: var(--blue);
+  }
+
+  body.desktop-activity-mode {
+    overflow: hidden;
+    overscroll-behavior: none;
+  }
+
+  body.desktop-activity-mode .desktop-activity-focus-section {
+    position: fixed;
+    inset: 0;
+    z-index: 300;
+    display: block !important;
+    width: 100%;
+    height: 100dvh;
+    max-height: none;
+    margin: 0;
+    padding: 0 2rem 3rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    background:
+      radial-gradient(circle at 6% 2%, rgba(37, 99, 235, 0.09), transparent 28rem),
+      radial-gradient(circle at 96% 30%, rgba(34, 211, 238, 0.08), transparent 32rem),
+      linear-gradient(180deg, #f8fbff 0%, #eef6ff 100%);
+    scrollbar-gutter: stable;
+  }
+
+  .desktop-activity-focus-section > .mobile-activity-topbar {
+    top: 0;
+    width: calc(100% + 4rem);
+    max-width: none;
+    min-height: 68px;
+    margin: 0 -2rem 1rem;
+    padding-inline: max(2rem, calc((100vw - 1480px) / 2));
+    border-width: 0 0 1px;
+    border-radius: 0;
+  }
+
+  .desktop-activity-focus-section > .level-tabs {
+    position: sticky;
+    top: 68px;
+    z-index: 230;
+    display: flex;
+    width: min(1480px, 100%);
+    margin: 0 auto 0.8rem;
+    padding: 0.45rem;
+    border: 1px solid rgba(37, 99, 235, 0.12);
+    border-radius: 16px;
+    background: rgba(247, 250, 255, 0.96);
+    box-shadow: 0 8px 22px rgba(30, 64, 175, 0.08);
+    backdrop-filter: blur(14px);
+  }
+
+  /* Match the upper skill route to the full-width mission route below it.
+     Equal columns also make the relationship between both navigations clear. */
+  .desktop-activity-focus-section > .level-tabs .level-tab {
+    flex: 1 1 0;
+    min-width: 0;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .desktop-activity-focus-section > .skill-view-header,
+  .desktop-activity-focus-section > .activity-route-context,
+  .desktop-activity-focus-section > .unit-mission-strip,
+  .desktop-activity-focus-section > .skill-view-content,
+  .desktop-activity-focus-section > .verbs-language-switcher,
+  .desktop-activity-focus-section > .verbs-unit-context,
+  .desktop-activity-focus-section > .verbs-shell,
+  .desktop-activity-focus-section > .unit-activity-footer {
+    width: min(1480px, 100%);
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  body.desktop-activity-mode .tutor-fab {
+    z-index: 360;
+  }
+
+  body.desktop-activity-mode .tutor-drawer {
+    z-index: 500;
+  }
+}
+
+@media (max-width: 640px) {
+  body.mobile-activity-mode {
+    overflow: hidden;
+    overscroll-behavior: none;
+  }
+
+  body.mobile-activity-mode .mobile-activity-focus-section {
+    position: fixed;
+    inset: 0;
+    z-index: 300;
+    display: block !important;
+    width: 100%;
+    height: 100dvh;
+    max-height: none;
+    margin: 0;
+    padding: 0 0 calc(1rem + env(safe-area-inset-bottom));
+    overflow-x: hidden;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    background:
+      radial-gradient(circle at 8% 2%, rgba(37, 99, 235, 0.09), transparent 18rem),
+      linear-gradient(180deg, #f8fbff 0%, #eef6ff 100%);
+    scrollbar-width: thin;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .mobile-activity-focus-section > .mobile-activity-topbar {
+    position: sticky;
+    top: 0;
+    z-index: 340;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.65rem;
+    min-height: calc(54px + env(safe-area-inset-top));
+    padding: env(safe-area-inset-top) 0.7rem 0;
+    border-bottom: 1px solid rgba(37, 99, 235, 0.13);
+    background: rgba(255, 255, 255, 0.97);
+    box-shadow: 0 8px 24px rgba(30, 64, 175, 0.1);
+    backdrop-filter: blur(16px) saturate(140%);
+  }
+
+  .mobile-activity-topbar-title {
+    min-width: 0;
+    overflow: hidden;
+    color: var(--navy-2);
+    font-size: 0.72rem;
+    font-weight: 850;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .mobile-activity-exit {
+    display: inline-flex;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+    min-width: 78px;
+    min-height: 40px;
+    padding: 0.45rem 0.7rem;
+    border: 1px solid rgba(37, 99, 235, 0.2);
+    border-radius: 999px;
+    background: #fff;
+    color: var(--navy-2);
+    font: inherit;
+    font-size: 0.74rem;
+    font-weight: 850;
+    box-shadow: 0 5px 14px rgba(30, 64, 175, 0.09);
+    cursor: pointer;
+    touch-action: manipulation;
+  }
+
+  .mobile-activity-exit > span {
+    color: var(--blue);
+    font-size: 1.1rem;
+    line-height: 1;
+  }
+
+  .mobile-activity-focus-section > .level-tabs {
+    top: calc(54px + env(safe-area-inset-top));
+    z-index: 330;
+    width: 100%;
+    margin: 0 0 0.55rem;
+    padding-inline: 0.7rem;
+  }
+
+  .mobile-activity-focus-section > .skill-view-header,
+  .mobile-activity-focus-section > .activity-route-context,
+  .mobile-activity-focus-section > .unit-mission-strip,
+  .mobile-activity-focus-section > .skill-view-content,
+  .mobile-activity-focus-section > .verbs-language-switcher,
+  .mobile-activity-focus-section > .verbs-unit-context,
+  .mobile-activity-focus-section > .verbs-shell,
+  .mobile-activity-focus-section > .unit-activity-footer {
+    width: calc(100% - 1.4rem);
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .mobile-activity-focus-section > .skill-view-header {
+    margin-top: 0;
+  }
+
+  .mobile-activity-focus-section .unit-activity-footer {
+    margin-bottom: max(0.4rem, env(safe-area-inset-bottom));
+  }
+
+  body.mobile-activity-mode .tutor-fab {
+    z-index: 360;
+    right: 0.75rem;
+    bottom: calc(0.75rem + env(safe-area-inset-bottom));
+  }
+
+  body.mobile-activity-mode .tutor-drawer {
+    z-index: 500;
+  }
+}
+
+@media (max-width: 640px) {
+  .home-guest-preview {
+    display: none;
+  }
+}
+
+/* Tutor response focus: after sending a question, the answer becomes the
+   primary workspace. The compact composer remains available on desktop and
+   returns with one tap on mobile. */
+.tutor-drawer-panel .tutor-panel-grid {
+  transition: grid-template-columns 260ms ease;
+}
+
+.tutor-drawer-panel.is-response-focused {
+  width: min(94vw, 1480px);
+  max-width: 1480px;
+}
+
+.tutor-drawer-panel.is-response-focused .tutor-panel-grid {
+  grid-template-columns: minmax(0, 2.65fr) minmax(260px, 0.72fr);
+}
+
+.tutor-drawer-panel.is-response-focused .tutor-panel-controls {
+  padding: 0.75rem;
+}
+
+.tutor-drawer-panel.is-response-focused .tutor-quick-actions,
+.tutor-drawer-panel.is-response-focused .tutor-dictate-note {
+  display: none;
+}
+
+.tutor-drawer-panel.is-response-focused .tutor-panel-controls .tutor-input {
+  min-height: 92px;
+}
+
+.tutor-new-question-btn {
+  display: none;
+  align-self: flex-end;
+  min-height: 40px;
+  padding: 0.5rem 0.9rem;
+  border: 1px solid rgba(37, 99, 235, 0.22);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--blue);
+  font: inherit;
+  font-size: 0.8rem;
+  font-weight: 850;
+  cursor: pointer;
+  box-shadow: 0 6px 18px rgba(30, 64, 175, 0.08);
+}
+
+.tutor-drawer-panel.is-response-focused .tutor-new-question-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 860px) {
+  .tutor-drawer-panel.is-response-focused .tutor-panel-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .tutor-drawer-panel.is-response-focused {
+    width: 100vw;
+    max-width: 100vw;
+  }
+
+  .tutor-drawer-panel.is-response-focused .tutor-panel-grid {
+    grid-template-rows: minmax(0, 1fr) auto;
+  }
+
+  .tutor-drawer-panel.is-response-focused .tutor-panel-controls {
+    padding: 0.5rem;
+  }
+
+  .tutor-drawer-panel.is-response-focused .tutor-panel-controls .tutor-input-group,
+  .tutor-drawer-panel.is-response-focused .tutor-panel-controls .tutor-dictate-status,
+  .tutor-drawer-panel.is-response-focused .tutor-panel-controls .tutor-buttons,
+  .tutor-drawer-panel.is-response-focused .tutor-panel-controls .tutor-clear-btn {
+    display: none;
+  }
+
+  .tutor-drawer-panel.is-response-focused .tutor-new-question-btn {
+    width: 100%;
+    flex: 0 0 auto;
+  }
+}
+
+/* Mobile learning route: the route has many short labels together. A quieter
+   type scale and a little more line-height make each unit easier to scan
+   without turning the route into a long page. Kept at 12px+ for readability. */
+@media (max-width: 640px) {
+  .learning-path-section > .section-heading h2 {
+    font-size: clamp(1.32rem, 6.8vw, 1.6rem);
+    line-height: 1.16;
+  }
+
+  .learning-path-section > .section-heading p {
+    font-size: 0.78rem;
+    line-height: 1.45;
+  }
+
+  #learning-path > .learning-route-context {
+    min-height: 30px;
+    font-size: 0.68rem;
+    line-height: 1.25;
+  }
+
+  .path-guide-head h2 {
+    font-size: 0.92rem;
+    line-height: 1.22;
+  }
+
+  .path-guide-head p,
+  .path-summary-detail,
+  .path-unit-title-es {
+    font-size: 0.68rem;
+    line-height: 1.38;
+  }
+
+  .path-unit {
+    gap: 0.42rem;
+    min-height: 72px;
+    padding: 0.58rem;
+  }
+
+  .path-unit-title {
+    font-size: 0.84rem;
+    line-height: 1.22;
+  }
+
+  .path-unit-reward,
+  .path-unit-progress-label,
+  .path-unit-status {
+    font-size: 0.66rem;
+    line-height: 1.15;
+  }
+
+  .lesson-workspace {
+    padding: 0.82rem;
+  }
+}
+
+/* Mobile audio controls: compact utility buttons, with enough height for a
+   comfortable tap but without taking over the learning screen. */
+@media (max-width: 640px) {
+  .reading-audio-player {
+    padding: 0.42rem;
+    border-radius: 12px;
+  }
+
+  .reading-audio-controls {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.28rem;
+  }
+
+  .reading-audio-btn {
+    min-height: 37px;
+    padding: 0.28rem 0.24rem;
+    border-radius: 10px;
+    font-size: 0.68rem;
+  }
+
+  .reading-audio-voice-btn {
+    grid-column: auto;
+  }
+
+  .reading-audio-rate-group {
+    grid-column: 1 / -1;
+    gap: 0.28rem;
+  }
+
+  .reading-audio-rate-btn {
+    min-height: 34px;
+    padding: 0.2rem 0.38rem;
+    font-size: 0.68rem;
+  }
+
+  .reading-audio-meta {
+    font-size: 0.66rem;
+  }
+
+  .listening-player {
+    padding: 0.44rem;
+    border-radius: 12px;
+  }
+
+  .listening-player-controls {
+    gap: 0.26rem;
+  }
+
+  .listening-ctrl-btn {
+    min-height: 36px;
+    padding: 0.24rem 0.34rem;
+    border-radius: 10px;
+    font-size: 0.66rem;
+  }
+}
+
+/* Route progress: one calm course indicator, with compact activity counts.
+   Green is reserved for finished units; blue/cyan remains the active state. */
+.path-summary-progress {
+  height: 5px;
+}
+
+.path-summary-detail {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem 0.5rem;
+  align-items: baseline;
+}
+
+.path-summary-detail strong {
+  color: var(--navy-2);
+}
+
+.path-unit-progress-track {
+  height: 4px;
+  bottom: 0.3rem;
+}
+
+.path-unit-progress-label {
+  min-width: 2.7rem;
+  padding: 0.16rem 0.3rem;
+  border-radius: 999px;
+  background: #eef4ff;
+  color: var(--blue);
+  font-size: 0.66rem;
+  font-variant-numeric: tabular-nums;
+  text-align: center;
+}
+
+.path-unit--completed .path-unit-progress-track > span,
+.unit-overview-panel--complete .unit-overview-progress-bar div {
+  background: #22c55e;
+}
+
+.unit-overview-progress {
+  gap: 0.35rem;
+}
+
+.unit-overview-progress-bar {
+  height: 5px;
+}
+
+.unit-overview-progress-label {
+  font-size: 0.76rem;
+  line-height: 1.35;
+}
+
+@media (max-width: 640px) {
+  .path-summary-progress,
+  .unit-overview-progress-bar {
+    height: 4px;
+  }
+
+  .path-unit-progress-label {
+    min-width: 2.35rem;
+    padding: 0.13rem 0.24rem;
+    font-size: 0.61rem;
+  }
+
+  .unit-overview-progress-label {
+    font-size: 0.69rem;
   }
 }

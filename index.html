@@ -203,6 +203,11 @@
             </div>
 
             <div class="home-guest-actions" id="homeGuestActions">
+              <div class="home-guest-preview" aria-label="Vista previa de tu experiencia de aprendizaje">
+                <span><b>01</b><i>Elige idioma y nivel</i></span>
+                <span><b>02</b><i>Practica una habilidad</i></span>
+                <span><b>03</b><i>Mide tu avance</i></span>
+              </div>
               <a href="#" class="primary-btn" data-action="open-auth" data-panel="signup"
                 >Comenzar gratis</a
               >
@@ -749,6 +754,18 @@
           <p class="verbs-heading-meta" id="verbsHeadingMeta" aria-live="polite"></p>
         </div>
 
+        <div class="verbs-launchpad no-print" aria-label="Accesos rápidos de Verbos">
+          <div class="verbs-launchpad-copy">
+            <span>Empieza por donde quieras</span>
+            <strong>Explora, conjuga o completa un reto corto.</strong>
+          </div>
+          <div class="verbs-launchpad-actions" role="group" aria-label="Acciones rápidas">
+            <button type="button" class="verbs-launchpad-btn is-primary" data-verbs-jump="practice" data-verbs-practice-length="5">⚡ Reto de 5</button>
+            <button type="button" class="verbs-launchpad-btn" data-verbs-jump="conjugator">📖 Conjugar</button>
+            <button type="button" class="verbs-launchpad-btn" data-verbs-jump="progress">↗ Mi avance</button>
+          </div>
+        </div>
+
         <div class="skill-tabs is-open" id="verbsTabs">
           <div class="skill-tab-list">
             <button class="skill-tab-button active" type="button" data-skill="list">Verbos</button>
@@ -1120,6 +1137,13 @@
           <p class="tutor-thinking" id="tutorThinking" hidden aria-hidden="true">
             Tutor IA ANDERGO está escribiendo…
           </p>
+
+          <div class="tutor-quick-actions tutor-main-quick-actions" aria-label="Formas rápidas de empezar">
+            <button type="button" class="tutor-quick-action" data-tutor-quick-prompt="Explícame esta actividad de forma sencilla.">✨ Explícame</button>
+            <button type="button" class="tutor-quick-action" data-tutor-quick-prompt="Dame un ejemplo breve relacionado con esta actividad.">💡 Un ejemplo</button>
+            <button type="button" class="tutor-quick-action" data-tutor-quick-prompt="Hazme una pregunta corta para practicar.">🎯 Reto corto</button>
+            <button type="button" class="tutor-quick-action" data-tutor-quick-prompt="Ayúdame a corregir esta frase: ">✓ Corrige mi frase</button>
+          </div>
 
           <label class="tutor-input-group" for="aiTutorPrompt">
             <span>Escribe qué quieres practicar</span>
@@ -1742,29 +1766,6 @@
       </section>
     </main>
 
-    <nav class="mobile-app-nav" aria-label="Navegación principal móvil">
-      <a href="#home" data-app-view="home">
-        <span class="mobile-app-nav-icon" aria-hidden="true">⌂</span>
-        <span data-i18n="navHome">Inicio</span>
-      </a>
-      <a href="#learn" data-app-view="learn">
-        <span class="mobile-app-nav-icon" aria-hidden="true">▰</span>
-        <span data-i18n="navLearnMember">Aprender</span>
-      </a>
-      <a href="#tutor" data-app-view="tutor" class="mobile-app-nav-primary">
-        <span class="mobile-app-nav-icon" aria-hidden="true">✦</span>
-        <span data-i18n="navTutor">Tutor I.A.</span>
-      </a>
-      <a href="#progress" data-app-view="progress">
-        <span class="mobile-app-nav-icon" aria-hidden="true">↗</span>
-        <span data-i18n="navProgress">Progreso</span>
-      </a>
-      <a href="#about" data-app-view="about">
-        <span class="mobile-app-nav-icon" aria-hidden="true">•••</span>
-        <span data-i18n="navMore">Más</span>
-      </a>
-    </nav>
-
     <div class="auth-modal" id="authModal" aria-hidden="true" inert>
       <div class="auth-panel" role="dialog" aria-modal="true" aria-label="Autenticación en ANDERGO">
         <button class="close-modal" type="button" aria-label="Cerrar">×</button>
@@ -2204,7 +2205,7 @@
 
     <button type="button" class="tutor-fab" id="tutorFab" aria-label="Abrir Tutor IA ANDERGO">
       <span class="tutor-bot-mark tutor-bot-mark--fab" aria-hidden="true">
-        <svg viewBox="0 0 64 64" focusable="false">
+        <svg viewBox="0 0 64 64" preserveAspectRatio="xMidYMid meet" focusable="false">
           <path class="tutor-bot-antenna" d="M32 9v7" />
           <circle class="tutor-bot-signal" cx="32" cy="8" r="3" />
           <path
@@ -2230,7 +2231,14 @@
         aria-label="Tutor IA ANDERGO Academy"
       >
         <div class="tutor-drawer-head">
-          <h2 id="tutorDrawerTitle">Tutor IA ANDERGO</h2>
+          <div class="tutor-drawer-brand">
+            <span class="tutor-drawer-orb" aria-hidden="true"></span>
+            <div>
+              <span class="tutor-drawer-eyebrow">ANDERGO AI</span>
+              <h2 id="tutorDrawerTitle">Tutor IA ANDERGO</h2>
+              <small><i aria-hidden="true"></i>Listo para practicar</small>
+            </div>
+          </div>
           <button
             type="button"
             class="tutor-conversation-toggle"
@@ -2285,12 +2293,21 @@
             <p class="tutor-thinking" id="tutorDrawerThinking" hidden aria-hidden="true">
               Tutor IA ANDERGO está escribiendo…
             </p>
+            <button type="button" class="tutor-new-question-btn" id="tutorDrawerNewQuestion">
+              + Nueva pregunta
+            </button>
           </div>
 
           <div class="tutor-panel-controls">
+            <div class="tutor-quick-actions" aria-label="Sugerencias para practicar">
+              <button type="button" class="tutor-quick-action" data-tutor-quick-prompt="Explícame esta actividad de forma sencilla.">✨ Explícame</button>
+              <button type="button" class="tutor-quick-action" data-tutor-quick-prompt="Dame un ejemplo breve relacionado con esta actividad.">💡 Dame un ejemplo</button>
+              <button type="button" class="tutor-quick-action" data-tutor-quick-prompt="Hazme una pregunta corta para practicar.">🎯 Hazme una pregunta</button>
+              <button type="button" class="tutor-quick-action" data-tutor-quick-prompt="Ayúdame a corregir esta frase: ">✓ Corrige mi frase</button>
+            </div>
             <label class="tutor-input-group" for="tutorDrawerPrompt">
-              <span>Escribe qué quieres practicar</span>
-              <textarea id="tutorDrawerPrompt" class="tutor-input" rows="4"></textarea>
+              <span>Escribe o habla con tu Tutor</span>
+              <textarea id="tutorDrawerPrompt" class="tutor-input" rows="3" placeholder="Escribe una duda, una frase o el objetivo de tu práctica…"></textarea>
             </label>
             <p class="tutor-dictate-status" id="tutorDrawerPromptDictateStatus" aria-live="polite"></p>
             <p class="tutor-dictate-note" id="tutorDrawerDictateNote">

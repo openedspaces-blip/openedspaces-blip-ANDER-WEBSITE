@@ -440,7 +440,7 @@ test('desktop brand stays compact and switches navigation before overlap', () =>
   assert.match(html, /class="brand-product-name">ANDERGO<\/strong>/);
   assert.match(html, /class="brand-academy-name">Language Academy<\/span>/);
   assert.match(css, /\.brand\s*\{[^}]*flex:\s*0 0 auto;/s);
-  assert.match(css, /\.brand h1\s*\{[^}]*display:\s*grid;/s);
+  assert.match(css, /\.brand-heading\s*\{[^}]*display:\s*grid;/s);
   assert.match(css, /\.brand p\s*\{[^}]*font-size:\s*0\.68rem;[^}]*font-style:\s*italic;/s);
   assert.match(css, /@media \(max-width:\s*1280px\)\s*\{/);
 });
@@ -1103,7 +1103,7 @@ test('French A1 dialogues are integrated into Expression orale with one clear li
     source.match(/function renderDialogueModeHtml\(dialogueSource\) \{([\s\S]*?)\n\}/)?.[1] || '';
   assert.match(source, /item\.skill === 'dialogue'/);
   assert.match(source, /Dialogue de l’unité/);
-  assert.match(source, /Écouter tout le dialogue/);
+  assert.match(source, /Reproducir diálogo/);
   assert.doesNotMatch(dialogueMarkup, /dialogue-modes|Jouer un rôle|dialogue-roleplay-panel/);
   assert.match(source, /Afficher l’aide en espagnol/);
   assert.match(source, /Questions de compréhension/);
@@ -1440,7 +1440,7 @@ test('Grammar UI shows definition, structure, function and practical examples be
   assert.match(source, /result\.score\}\/100/);
   assert.match(source, /function renderGrammarQuickIntroHtml/);
   assert.match(source, /\$\{renderGrammarQuickIntroHtml\(lesson, test\)\}/);
-  assert.match(source, /preferredKeys = \['rule', 'use', 'goal', 'pattern', 'examples', 'common-mistakes'\]/);
+  assert.match(source, /profile\.definition \|\| profile\.explanation \|\| sectionBody\('rule', 'goal', 'use'\)/);
   assert.doesNotMatch(
     source.match(/function renderGrammarTestInstructionsHtml[\s\S]*?\n\}/)?.[0] || '',
     /renderGrammarLessonContentHtml/
@@ -3463,7 +3463,7 @@ test('a selected unit reveals its activity sequence in the overview and every sk
   assert.match(selectUnitBody, /learningPathState\.activeSlug = ''/);
   assert.match(source, /class="unit-overview-sequence"/);
   assert.match(source, /renderUnitSequenceStepsHtml\(unit\.id\)/);
-  assert.match(source, /Continúa con la siguiente actividad disponible/);
+  assert.match(source, /Sigue con la actividad recomendada/);
   assert.match(renderSkillBody, /if \(!selected && learningPathState\.unitId\)/);
   assert.match(renderSkillBody, /item\.unitId === learningPathState\.unitId/);
   assert.doesNotMatch(

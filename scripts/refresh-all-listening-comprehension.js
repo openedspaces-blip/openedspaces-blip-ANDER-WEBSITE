@@ -16,14 +16,9 @@ function refreshAllListeningComprehension() {
     // routes and stored in course_lessons. The 18 legacy language-lab
     // placeholders have no story or unit and are intentionally left alone.
     if (row.skill !== 'listening' || !row.unit_slug) continue;
-    // Advanced Spanish C1/C2 scripts have authored questions tied to their
-    // evidence-based narration. Keep those instead of replacing them with
-    // the generic chronology generator used as a fallback elsewhere.
-    if (row.content_json?.extra?.listeningComprehension?.editoriallyReviewed === true) continue;
-    // Spanish A1/A2 use their own short, level-appropriate banks: exactly
-    // three questions written from each recording. Do not replace them with
-    // the four-question generic fallback during a production build.
-    if (row.target_language === 'spanish' && ['A1', 'A2'].includes(row.level)) continue;
+    // Every routed Listening follows the same four-question format. The
+    // generator keeps A1 prompts concise while preserving a consistent
+    // evaluation and progress experience across the learning path.
     applyContextualListeningBank(row);
     updated += 1;
   }

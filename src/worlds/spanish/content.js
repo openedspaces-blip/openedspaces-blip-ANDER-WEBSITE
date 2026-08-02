@@ -331,6 +331,96 @@
   window.ANDERGO_LANGUAGE_WORLDS.lessons = window.ANDERGO_LANGUAGE_WORLDS.lessons || {};
   window.ANDERGO_LANGUAGE_WORLDS.lessons.spanish = [
   {
+    "slug": "spanish-a1-hola-mucho-gusto-reading",
+    "level": "A1",
+    "skill": "reading",
+    "unitId": "hola-mucho-gusto",
+    "title": "El primer día de clase",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 10,
+    "estimatedMinutes": 10,
+    "description": "Un texto breve sobre el primer día de clase de Valentina.",
+    "intro": "Un texto breve sobre el primer día de clase de Valentina.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "El primer día de clase",
+      "illustration": {
+        "src": "/assets/readings/spanish/a1/el-primer-dia-de-clase.webp",
+        "alt": "Valentina conoce a su profesor y a un compañero en su primer día de clase"
+      },
+      "parts": [
+        "Hola, me llamo Valentina. Hoy es mi primer día de clase de español. Estoy un poco nerviosa, pero también contenta.",
+        "Mi profesor se llama Diego. Él dice: \"¡Buenos días, clase!\" y nosotros respondemos: \"¡Buenos días, profesor!\".",
+        "Al lado de mi silla hay un chico. Él dice: \"Hola, soy Marco. Mucho gusto.\" Yo respondo: \"Igualmente. ¿Cómo te llamas otra vez?\" y él deletrea su nombre: M-A-R-C-O."
+      ],
+      "questions": [
+        "¿Cómo se llama la estudiante?",
+        "¿Cómo se llama el profesor?",
+        "¿Qué hace Marco para ayudar a Valentina a recordar su nombre?"
+      ],
+      "ordering": {
+        "prompt": "Ordena los eventos de la historia.",
+        "events": [
+          "Valentina llega a su primera clase de español.",
+          "El profesor Diego saluda a la clase.",
+          "Valentina conoce a Marco.",
+          "Marco deletrea su nombre."
+        ]
+      },
+      "text": "Hola, me llamo Valentina. Hoy es mi primer día de clase de español. Estoy un poco nerviosa, pero también contenta.\n\nMi profesor se llama Diego. Él dice: \"¡Buenos días, clase!\" y nosotros respondemos: \"¡Buenos días, profesor!\".\n\nAl lado de mi silla hay un chico. Él dice: \"Hola, soy Marco. Mucho gusto.\" Yo respondo: \"Igualmente. ¿Cómo te llamas otra vez?\" y él deletrea su nombre: M-A-R-C-O."
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Cómo se llama el profesor?",
+        "options": [
+          "Marco",
+          "Diego",
+          "Valentina",
+          "Andergo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Quién está al lado de Valentina?",
+        "options": [
+          "El profesor",
+          "Marco",
+          "Nadie",
+          "Otra profesora"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Cómo está Valentina al principio?",
+        "options": [
+          "Muy triste",
+          "Un poco nerviosa",
+          "Enojada",
+          "Cansada"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué hace Marco para ayudar con su nombre?",
+        "options": [
+          "Lo escribe en la pizarra",
+          "Lo deletrea",
+          "Lo canta",
+          "No dice nada"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "spanish-a2-compras-y-cantidades-reading",
     "level": "A2",
     "skill": "reading",
@@ -797,91 +887,207 @@
     ]
   },
   {
-    "slug": "spanish-a1-hola-mucho-gusto-reading",
+    "slug": "spanish-a1-hola-mucho-gusto-listening",
     "level": "A1",
-    "skill": "reading",
+    "skill": "listening",
     "unitId": "hola-mucho-gusto",
-    "title": "El primer día de clase",
+    "title": "Mucho gusto, ¿cómo te llamas?",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 25,
-    "orderIndex": 10,
+    "orderIndex": 11,
     "estimatedMinutes": 10,
-    "description": "Un texto breve sobre el primer día de clase de Valentina.",
-    "intro": "Un texto breve sobre el primer día de clase de Valentina.",
+    "description": "Dos personas se conocen por primera vez en la escuela.",
+    "intro": "Escucha a Valentina y Marco conociéndose el primer día de clase. Presta atención a cómo saludan y se presentan.",
     "mission": "",
     "grammar": "",
-    "phrases": [],
+    "phrases": [
+      "¿Cómo te llamas?",
+      "Mucho gusto.",
+      "¿Cómo estás?",
+      "Nos vemos."
+    ],
     "vocabulary": [],
     "dialogue": [],
-    "reading": {
-      "title": "El primer día de clase",
-      "illustration": {
-        "src": "/assets/readings/spanish/a1/el-primer-dia-de-clase.webp",
-        "alt": "Valentina conoce a su profesor y a un compañero en su primer día de clase"
+    "reading": null,
+    "transcript": "Hola, me llamo Valentina. Tengo diecinueve años y soy de Santo Domingo. Vivo con mi familia y estudio español por las tardes. Me gusta escuchar música y hablar con personas de otros países. Hoy es mi primer día de clase y estoy un poco nerviosa, pero muy contenta. Quiero aprender palabras nuevas y hacer amigos. Mucho gusto, espero conocerte pronto.",
+    "extra": {
+      "listeningType": "story",
+      "difficulty": "A1",
+      "durationSeconds": 40,
+      "speakers": [
+        "Narrador/a"
+      ],
+      "phoneticSupport": {
+        "enabled": true,
+        "locale": "es-419",
+        "focus": "Las cinco vocales /a e i o u/ tienen un solo sonido cada una; la \"h\" de \"hola\" no se pronuncia.",
+        "fullIpa": null,
+        "segments": [
+          {
+            "text": "Hola",
+            "ipa": "/ˈo.la/"
+          },
+          {
+            "text": "Mucho gusto",
+            "ipa": "/ˈmu.tʃo ˈɣus.to/"
+          }
+        ],
+        "stressedWords": [
+          "está",
+          "después"
+        ],
+        "syllabification": [
+          {
+            "word": "nombre",
+            "syllables": "nom-bre"
+          }
+        ],
+        "difficultSounds": [
+          "h muda"
+        ],
+        "reviewStatus": "pending-review"
       },
-      "parts": [
-        "Hola, me llamo Valentina. Hoy es mi primer día de clase de español. Estoy un poco nerviosa, pero también contenta.",
-        "Mi profesor se llama Diego. Él dice: \"¡Buenos días, clase!\" y nosotros respondemos: \"¡Buenos días, profesor!\".",
-        "Al lado de mi silla hay un chico. Él dice: \"Hola, soy Marco. Mucho gusto.\" Yo respondo: \"Igualmente. ¿Cómo te llamas otra vez?\" y él deletrea su nombre: M-A-R-C-O."
-      ],
-      "questions": [
-        "¿Cómo se llama la estudiante?",
-        "¿Cómo se llama el profesor?",
-        "¿Qué hace Marco para ayudar a Valentina a recordar su nombre?"
-      ],
-      "ordering": {
-        "prompt": "Ordena los eventos de la historia.",
-        "events": [
-          "Valentina llega a su primera clase de español.",
-          "El profesor Diego saluda a la clase.",
-          "Valentina conoce a Marco.",
-          "Marco deletrea su nombre."
+      "dictationSegmentCount": 3,
+      "listeningComprehension": {
+        "id": "spanish-a1-hola-mucho-gusto-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "En «Mucho gusto, ¿cómo te llamas?», ¿qué detalle presenta la situación?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Hola, me llamo Valentina."
+              },
+              {
+                "id": "o2",
+                "text": "Vivo con mi familia y estudio español por las tardes."
+              },
+              {
+                "id": "o3",
+                "text": "Hoy es mi primer día de clase y estoy un poco nerviosa, pero muy contenta."
+              },
+              {
+                "id": "o4",
+                "text": "Mucho gusto, espero conocerte pronto."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Después de «Hola, me llamo Valentina.», ¿qué sucede a continuación en «Mucho gusto, ¿cómo te llamas?»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Hola, me llamo Valentina."
+              },
+              {
+                "id": "o2",
+                "text": "Vivo con mi familia y estudio español por las tardes."
+              },
+              {
+                "id": "o3",
+                "text": "Hoy es mi primer día de clase y estoy un poco nerviosa, pero muy contenta."
+              },
+              {
+                "id": "o4",
+                "text": "Mucho gusto, espero conocerte pronto."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Mucho gusto, ¿cómo te llamas?»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Hola, me llamo Valentina."
+              },
+              {
+                "id": "o2",
+                "text": "Vivo con mi familia y estudio español por las tardes."
+              },
+              {
+                "id": "o3",
+                "text": "Hoy es mi primer día de clase y estoy un poco nerviosa, pero muy contenta."
+              },
+              {
+                "id": "o4",
+                "text": "Mucho gusto, espero conocerte pronto."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Mucho gusto, ¿cómo te llamas?» después de «Hoy es mi primer día de clase y estoy un poco nerviosa, pero muy…»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Hola, me llamo Valentina."
+              },
+              {
+                "id": "o2",
+                "text": "Vivo con mi familia y estudio español por las tardes."
+              },
+              {
+                "id": "o3",
+                "text": "Hoy es mi primer día de clase y estoy un poco nerviosa, pero muy contenta."
+              },
+              {
+                "id": "o4",
+                "text": "Mucho gusto, espero conocerte pronto."
+              }
+            ]
+          }
         ]
       },
-      "text": "Hola, me llamo Valentina. Hoy es mi primer día de clase de español. Estoy un poco nerviosa, pero también contenta.\n\nMi profesor se llama Diego. Él dice: \"¡Buenos días, clase!\" y nosotros respondemos: \"¡Buenos días, profesor!\".\n\nAl lado de mi silla hay un chico. Él dice: \"Hola, soy Marco. Mucho gusto.\" Yo respondo: \"Igualmente. ¿Cómo te llamas otra vez?\" y él deletrea su nombre: M-A-R-C-O."
+      "grammarTest": null
     },
-    "transcript": "",
-    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cómo se llama el profesor?",
+        "prompt": "En «Mucho gusto, ¿cómo te llamas?», ¿qué detalle presenta la situación?",
         "options": [
-          "Marco",
-          "Diego",
-          "Valentina",
-          "Andergo"
+          "Hola, me llamo Valentina.",
+          "Vivo con mi familia y estudio español por las tardes.",
+          "Hoy es mi primer día de clase y estoy un poco nerviosa, pero muy contenta.",
+          "Mucho gusto, espero conocerte pronto."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Quién está al lado de Valentina?",
+        "prompt": "Después de «Hola, me llamo Valentina.», ¿qué sucede a continuación en «Mucho gusto, ¿cómo te llamas?»?",
         "options": [
-          "El profesor",
-          "Marco",
-          "Nadie",
-          "Otra profesora"
+          "Hola, me llamo Valentina.",
+          "Vivo con mi familia y estudio español por las tardes.",
+          "Hoy es mi primer día de clase y estoy un poco nerviosa, pero muy contenta.",
+          "Mucho gusto, espero conocerte pronto."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo está Valentina al principio?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Mucho gusto, ¿cómo te llamas?»?",
         "options": [
-          "Muy triste",
-          "Un poco nerviosa",
-          "Enojada",
-          "Cansada"
+          "Hola, me llamo Valentina.",
+          "Vivo con mi familia y estudio español por las tardes.",
+          "Hoy es mi primer día de clase y estoy un poco nerviosa, pero muy contenta.",
+          "Mucho gusto, espero conocerte pronto."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace Marco para ayudar con su nombre?",
+        "prompt": "¿Qué resultado cierra «Mucho gusto, ¿cómo te llamas?» después de «Hoy es mi primer día de clase y estoy un poco nerviosa, pero muy…»?",
         "options": [
-          "Lo escribe en la pizarra",
-          "Lo deletrea",
-          "Lo canta",
-          "No dice nada"
+          "Hola, me llamo Valentina.",
+          "Vivo con mi familia y estudio español por las tardes.",
+          "Hoy es mi primer día de clase y estoy un poco nerviosa, pero muy contenta.",
+          "Mucho gusto, espero conocerte pronto."
         ]
       }
     ]
@@ -918,75 +1124,98 @@
       ],
       "transcript": "Esta mañana fui al mercado para comprar medio kilo de tomates, un kilo de arroz y una bolsa de naranjas. Los tomates costaban tres euros el kilo y el arroz costaba dos euros. El vendedor calculó el total y me explicó que la bolsa costaba un euro más. Decidí pagar con tarjeta. Antes de irme, comprobé el recibo y guardé bien mi compra. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.",
       "listeningComprehension": {
-        "id": "spanish-a2-compras-y-cantidades-listening-comprehension",
+        "id": "spanish-a2-compras-y-cantidades-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué compra Lucía?",
+            "prompt": "En «Escucha · Compras y cantidades», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Tomates, arroz y naranjas"
+                "text": "Esta mañana fui al mercado para comprar medio kilo de tomates, un kilo de arroz y una bolsa de naranjas."
               },
               {
                 "id": "o2",
-                "text": "Pan, leche y manzanas"
+                "text": "Decidí pagar con tarjeta."
               },
               {
                 "id": "o3",
-                "text": "Carne y queso"
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
               },
               {
                 "id": "o4",
-                "text": "Solo arroz"
+                "text": "Me gusta tener un plan claro antes de seguir."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cuánto cuestan los tomates?",
+            "prompt": "Después de «Esta mañana fui al mercado para comprar medio kilo de tomates, un kilo…», ¿qué sucede a continuación en «Escucha · Compras y cantidades»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Dos euros el kilo"
+                "text": "Esta mañana fui al mercado para comprar medio kilo de tomates, un kilo de arroz y una bolsa de naranjas."
               },
               {
                 "id": "o2",
-                "text": "Tres euros el kilo"
+                "text": "Decidí pagar con tarjeta."
               },
               {
                 "id": "o3",
-                "text": "Tres euros con cincuenta"
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
               },
               {
                 "id": "o4",
-                "text": "Medio euro"
+                "text": "Me gusta tener un plan claro antes de seguir."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué recibe Lucía al pagar?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Compras y cantidades»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Una receta"
+                "text": "Esta mañana fui al mercado para comprar medio kilo de tomates, un kilo de arroz y una bolsa de naranjas."
               },
               {
                 "id": "o2",
-                "text": "Un billete"
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
               },
               {
                 "id": "o3",
-                "text": "El cambio y el recibo"
+                "text": "Decidí pagar con tarjeta."
               },
               {
                 "id": "o4",
-                "text": "Una tarjeta"
+                "text": "Me gusta tener un plan claro antes de seguir."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Compras y cantidades» después de «Decidí pagar con tarjeta.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Esta mañana fui al mercado para comprar medio kilo de tomates, un kilo de arroz y una bolsa de naranjas."
+              },
+              {
+                "id": "o2",
+                "text": "Decidí pagar con tarjeta."
+              },
+              {
+                "id": "o3",
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+              },
+              {
+                "id": "o4",
+                "text": "Me gusta tener un plan claro antes de seguir."
               }
             ]
           }
@@ -997,36 +1226,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué compra Lucía?",
+        "prompt": "En «Escucha · Compras y cantidades», ¿qué detalle presenta la situación?",
         "options": [
-          "Tomates, arroz y naranjas",
-          "Pan, leche y manzanas",
-          "Carne y queso",
-          "Solo arroz"
-        ],
-        "explanation": "Lucía pide tomates y arroz, y después añade una bolsa de naranjas."
+          "Esta mañana fui al mercado para comprar medio kilo de tomates, un kilo de arroz y una bolsa de naranjas.",
+          "Decidí pagar con tarjeta.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cuánto cuestan los tomates?",
+        "prompt": "Después de «Esta mañana fui al mercado para comprar medio kilo de tomates, un kilo…», ¿qué sucede a continuación en «Escucha · Compras y cantidades»?",
         "options": [
-          "Dos euros el kilo",
-          "Tres euros el kilo",
-          "Tres euros con cincuenta",
-          "Medio euro"
-        ],
-        "explanation": "Mateo dice que los tomates cuestan tres euros el kilo."
+          "Esta mañana fui al mercado para comprar medio kilo de tomates, un kilo de arroz y una bolsa de naranjas.",
+          "Decidí pagar con tarjeta.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué recibe Lucía al pagar?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Compras y cantidades»?",
         "options": [
-          "Una receta",
-          "Un billete",
-          "El cambio y el recibo",
-          "Una tarjeta"
-        ],
-        "explanation": "Mateo le entrega el cambio y el recibo."
+          "Esta mañana fui al mercado para comprar medio kilo de tomates, un kilo de arroz y una bolsa de naranjas.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Decidí pagar con tarjeta.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Compras y cantidades» después de «Decidí pagar con tarjeta.»?",
+        "options": [
+          "Esta mañana fui al mercado para comprar medio kilo de tomates, un kilo de arroz y una bolsa de naranjas.",
+          "Decidí pagar con tarjeta.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
       }
     ]
   },
@@ -1469,15 +1705,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Para formular una idea con precisión y reservas"
-              },
-              {
-                "id": "o2",
                 "text": "Para eliminar toda postura"
               },
               {
-                "id": "o3",
+                "id": "o2",
                 "text": "Para repetir palabras aisladas"
+              },
+              {
+                "id": "o3",
+                "text": "Para formular una idea con precisión y reservas"
               },
               {
                 "id": "o4",
@@ -1496,15 +1732,15 @@
               },
               {
                 "id": "o2",
-                "text": "Qué evidencia sostendría o modificaría una postura"
-              },
-              {
-                "id": "o3",
                 "text": "Cómo evitar cualquier debate"
               },
               {
-                "id": "o4",
+                "id": "o3",
                 "text": "Qué palabra es más difícil de pronunciar"
+              },
+              {
+                "id": "o4",
+                "text": "Qué evidencia sostendría o modificaría una postura"
               }
             ]
           }
@@ -1539,9 +1775,9 @@
         "type": "mcq",
         "prompt": "¿Para qué se usa la gramática de la unidad?",
         "options": [
-          "Para formular una idea con precisión y reservas",
           "Para eliminar toda postura",
           "Para repetir palabras aisladas",
+          "Para formular una idea con precisión y reservas",
           "Para evitar reconocer límites"
         ],
         "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
@@ -1551,9 +1787,9 @@
         "prompt": "¿Qué pregunta final propone el audio?",
         "options": [
           "Qué aplicación es más rápida",
-          "Qué evidencia sostendría o modificaría una postura",
           "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar"
+          "Qué palabra es más difícil de pronunciar",
+          "Qué evidencia sostendría o modificaría una postura"
         ],
         "explanation": "La pregunta final invita a justificar y revisar una conclusión."
       }
@@ -1648,15 +1884,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Para formular una idea con precisión y reservas"
-              },
-              {
-                "id": "o2",
                 "text": "Para eliminar toda postura"
               },
               {
-                "id": "o3",
+                "id": "o2",
                 "text": "Para repetir palabras aisladas"
+              },
+              {
+                "id": "o3",
+                "text": "Para formular una idea con precisión y reservas"
               },
               {
                 "id": "o4",
@@ -1675,15 +1911,15 @@
               },
               {
                 "id": "o2",
-                "text": "Qué evidencia sostendría o modificaría una postura"
-              },
-              {
-                "id": "o3",
                 "text": "Cómo evitar cualquier debate"
               },
               {
-                "id": "o4",
+                "id": "o3",
                 "text": "Qué palabra es más difícil de pronunciar"
+              },
+              {
+                "id": "o4",
+                "text": "Qué evidencia sostendría o modificaría una postura"
               }
             ]
           }
@@ -1718,9 +1954,9 @@
         "type": "mcq",
         "prompt": "¿Para qué se usa la gramática de la unidad?",
         "options": [
-          "Para formular una idea con precisión y reservas",
           "Para eliminar toda postura",
           "Para repetir palabras aisladas",
+          "Para formular una idea con precisión y reservas",
           "Para evitar reconocer límites"
         ],
         "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
@@ -1730,187 +1966,70 @@
         "prompt": "¿Qué pregunta final propone el audio?",
         "options": [
           "Qué aplicación es más rápida",
-          "Qué evidencia sostendría o modificaría una postura",
           "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar"
+          "Qué palabra es más difícil de pronunciar",
+          "Qué evidencia sostendría o modificaría una postura"
         ],
         "explanation": "La pregunta final invita a justificar y revisar una conclusión."
       }
     ]
   },
   {
-    "slug": "spanish-a1-hola-mucho-gusto-listening",
+    "slug": "spanish-a1-hola-mucho-gusto-speaking",
     "level": "A1",
-    "skill": "listening",
+    "skill": "speaking",
     "unitId": "hola-mucho-gusto",
-    "title": "Mucho gusto, ¿cómo te llamas?",
+    "title": "Saluda y preséntate",
     "accessTier": "free",
     "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 11,
-    "estimatedMinutes": 10,
-    "description": "Dos personas se conocen por primera vez en la escuela.",
-    "intro": "Escucha a Valentina y Marco conociéndose el primer día de clase. Presta atención a cómo saludan y se presentan.",
-    "mission": "",
+    "xpReward": 20,
+    "orderIndex": 12,
+    "estimatedMinutes": 8,
+    "description": "Practica saludar a alguien y presentarte en voz alta.",
+    "intro": "Practica saludar a alguien y presentarte en voz alta.",
+    "mission": "Saluda a un compañero, di tu nombre y pregúntale cómo está.",
     "grammar": "",
     "phrases": [
-      "¿Cómo te llamas?",
+      "¡Hola! / Buenos días.",
+      "Me llamo...",
       "Mucho gusto.",
       "¿Cómo estás?",
-      "Nos vemos."
+      "Estoy bien, gracias."
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "Tú",
+        "line": "¡Hola! Me llamo...",
+        "translation": "Hi! My name is..."
+      },
+      {
+        "speaker": "Compañero/a",
+        "line": "Hola, soy... Mucho gusto.",
+        "translation": "Hi, I am... Nice to meet you."
+      },
+      {
+        "speaker": "Tú",
+        "line": "Mucho gusto. ¿Cómo estás?",
+        "translation": "Nice to meet you. How are you?"
+      },
+      {
+        "speaker": "Compañero/a",
+        "line": "Estoy bien, gracias. ¿Y tú?",
+        "translation": "I am fine, thanks. And you?"
+      }
+    ],
     "reading": null,
-    "transcript": "Hola, me llamo Valentina. Tengo diecinueve años y soy de Santo Domingo. Vivo con mi familia y estudio español por las tardes. Me gusta escuchar música y hablar con personas de otros países. Hoy es mi primer día de clase y estoy un poco nerviosa, pero muy contenta. Quiero aprender palabras nuevas y hacer amigos. Mucho gusto, espero conocerte pronto.",
-    "extra": {
-      "listeningType": "story",
-      "difficulty": "A1",
-      "durationSeconds": 40,
-      "speakers": [
-        "Narrador/a"
-      ],
-      "phoneticSupport": {
-        "enabled": true,
-        "locale": "es-419",
-        "focus": "Las cinco vocales /a e i o u/ tienen un solo sonido cada una; la \"h\" de \"hola\" no se pronuncia.",
-        "fullIpa": null,
-        "segments": [
-          {
-            "text": "Hola",
-            "ipa": "/ˈo.la/"
-          },
-          {
-            "text": "Mucho gusto",
-            "ipa": "/ˈmu.tʃo ˈɣus.to/"
-          }
-        ],
-        "stressedWords": [
-          "está",
-          "después"
-        ],
-        "syllabification": [
-          {
-            "word": "nombre",
-            "syllables": "nom-bre"
-          }
-        ],
-        "difficultSounds": [
-          "h muda"
-        ],
-        "reviewStatus": "pending-review"
-      },
-      "dictationSegmentCount": 3,
-      "listeningComprehension": {
-        "id": "spanish-a1-hola-mucho-gusto-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "¿Cómo se llama la persona?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Valentina"
-              },
-              {
-                "id": "o2",
-                "text": "Marco"
-              },
-              {
-                "id": "o3",
-                "text": "Sofía"
-              },
-              {
-                "id": "o4",
-                "text": "Carla"
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "¿De dónde es Valentina?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "De Santo Domingo"
-              },
-              {
-                "id": "o2",
-                "text": "De Italia"
-              },
-              {
-                "id": "o3",
-                "text": "De México"
-              },
-              {
-                "id": "o4",
-                "text": "De Santiago"
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "¿Qué quiere hacer en clase?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Aprender palabras y hacer amigos"
-              },
-              {
-                "id": "o2",
-                "text": "Comprar una camisa"
-              },
-              {
-                "id": "o3",
-                "text": "Ir a la playa"
-              },
-              {
-                "id": "o4",
-                "text": "Trabajar en una tienda"
-              }
-            ]
-          }
-        ]
-      },
-      "grammarTest": null
-    },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
-        "type": "mcq",
-        "prompt": "¿Cómo se llama la persona?",
-        "options": [
-          "Valentina",
-          "Marco",
-          "Sofía",
-          "Carla"
-        ],
-        "explanation": "La narradora dice: «Me llamo Valentina». "
+        "type": "speaking",
+        "prompt": "Di en voz alta: \"Hola, me llamo...\" y termina la frase con tu propio nombre."
       },
       {
-        "type": "mcq",
-        "prompt": "¿De dónde es Valentina?",
-        "options": [
-          "De Santo Domingo",
-          "De Italia",
-          "De México",
-          "De Santiago"
-        ],
-        "explanation": "Valentina dice que es de Santo Domingo."
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Qué quiere hacer en clase?",
-        "options": [
-          "Aprender palabras y hacer amigos",
-          "Comprar una camisa",
-          "Ir a la playa",
-          "Trabajar en una tienda"
-        ],
-        "explanation": "Quiere aprender palabras nuevas y hacer amigos."
+        "type": "practice",
+        "prompt": "Practica el diálogo de saludo con un compañero y luego cambien de rol. Si no tienes micrófono, escribe tus respuestas."
       }
     ]
   },
@@ -2212,48 +2331,31 @@
     ]
   },
   {
-    "slug": "spanish-a1-hola-mucho-gusto-speaking",
+    "slug": "spanish-a1-hola-mucho-gusto-writing",
     "level": "A1",
-    "skill": "speaking",
+    "skill": "writing",
     "unitId": "hola-mucho-gusto",
-    "title": "Saluda y preséntate",
+    "title": "Escribe tu presentación",
     "accessTier": "free",
     "isFree": true,
-    "xpReward": 20,
-    "orderIndex": 12,
-    "estimatedMinutes": 8,
-    "description": "Practica saludar a alguien y presentarte en voz alta.",
-    "intro": "Practica saludar a alguien y presentarte en voz alta.",
-    "mission": "Saluda a un compañero, di tu nombre y pregúntale cómo está.",
+    "xpReward": 25,
+    "orderIndex": 13,
+    "estimatedMinutes": 12,
+    "description": "Escribe tres oraciones simples para presentarte.",
+    "intro": "Escribe tres oraciones simples para presentarte.",
+    "mission": "Escribe 3 oraciones: tu nombre, cómo estás hoy y un saludo a un compañero.",
     "grammar": "",
     "phrases": [
-      "¡Hola! / Buenos días.",
       "Me llamo...",
-      "Mucho gusto.",
-      "¿Cómo estás?",
-      "Estoy bien, gracias."
+      "Estoy bien.",
+      "¡Hola,...!"
     ],
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Tú",
-        "line": "¡Hola! Me llamo...",
-        "translation": "Hi! My name is..."
-      },
-      {
-        "speaker": "Compañero/a",
-        "line": "Hola, soy... Mucho gusto.",
-        "translation": "Hi, I am... Nice to meet you."
-      },
-      {
-        "speaker": "Tú",
-        "line": "Mucho gusto. ¿Cómo estás?",
-        "translation": "Nice to meet you. How are you?"
-      },
-      {
-        "speaker": "Compañero/a",
-        "line": "Estoy bien, gracias. ¿Y tú?",
-        "translation": "I am fine, thanks. And you?"
+        "speaker": "Modelo",
+        "line": "Me llamo Valentina. Estoy bien hoy. ¡Hola, Marco!",
+        "translation": "My name is Valentina. I am fine today. Hello, Marco!"
       }
     ],
     "reading": null,
@@ -2261,12 +2363,8 @@
     "extra": null,
     "exercises": [
       {
-        "type": "speaking",
-        "prompt": "Di en voz alta: \"Hola, me llamo...\" y termina la frase con tu propio nombre."
-      },
-      {
-        "type": "practice",
-        "prompt": "Practica el diálogo de saludo con un compañero y luego cambien de rol. Si no tienes micrófono, escribe tus respuestas."
+        "type": "writing",
+        "prompt": "Escribe 3 oraciones cortas para presentarte, usando \"Me llamo...\", \"Estoy...\" y \"¡Hola, ...!\"."
       }
     ]
   },
@@ -2436,40 +2534,72 @@
     ]
   },
   {
-    "slug": "spanish-a1-hola-mucho-gusto-writing",
+    "slug": "spanish-a1-hola-mucho-gusto-grammar",
     "level": "A1",
-    "skill": "writing",
+    "skill": "grammar",
     "unitId": "hola-mucho-gusto",
-    "title": "Escribe tu presentación",
+    "title": "El verbo ser y llamarse",
     "accessTier": "free",
     "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 13,
-    "estimatedMinutes": 12,
-    "description": "Escribe tres oraciones simples para presentarte.",
-    "intro": "Escribe tres oraciones simples para presentarte.",
-    "mission": "Escribe 3 oraciones: tu nombre, cómo estás hoy y un saludo a un compañero.",
-    "grammar": "",
+    "xpReward": 20,
+    "orderIndex": 14,
+    "estimatedMinutes": 8,
+    "description": "Aprende a usar soy/eres/es y me llamo/te llamas/se llama.",
+    "intro": "Aprende a usar soy/eres/es y me llamo/te llamas/se llama.",
+    "mission": "",
+    "grammar": "El verbo \"ser\" cambia según la persona: yo soy, tú eres, él/ella es. Usamos \"llamarse\" para decir el nombre: yo me llamo, tú te llamas, él/ella se llama. Ejemplo: \"Yo soy Valentina. Tú eres mi amigo. Él se llama Marco.\" Errores frecuentes: no confundir \"soy\" (ser) con \"estoy\" (estar); \"estoy\" es para sentimientos y estados (Estoy bien), \"soy\" es para identidad (Soy Valentina).",
     "phrases": [
+      "Yo soy...",
+      "Tú eres...",
+      "Él/Ella es...",
       "Me llamo...",
-      "Estoy bien.",
-      "¡Hola,...!"
+      "¿Cómo te llamas?"
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Modelo",
-        "line": "Me llamo Valentina. Estoy bien hoy. ¡Hola, Marco!",
-        "translation": "My name is Valentina. I am fine today. Hello, Marco!"
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "type": "writing",
-        "prompt": "Escribe 3 oraciones cortas para presentarte, usando \"Me llamo...\", \"Estoy...\" y \"¡Hola, ...!\"."
+        "type": "mcq",
+        "prompt": "Yo ___ Valentina.",
+        "options": [
+          "soy",
+          "eres",
+          "es",
+          "somos"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Tú ___ mi amigo.",
+        "options": [
+          "soy",
+          "eres",
+          "es",
+          "son"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Él ___ Marco.",
+        "options": [
+          "soy",
+          "eres",
+          "se llama",
+          "te llamas"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Cómo ___ (tú)?",
+        "options": [
+          "me llamo",
+          "te llamas",
+          "se llama",
+          "soy"
+        ]
       }
     ]
   },
@@ -3334,28 +3464,280 @@
     ]
   },
   {
-    "slug": "spanish-a1-hola-mucho-gusto-grammar",
+    "slug": "spanish-a1-hola-mucho-gusto-vocabulary",
     "level": "A1",
-    "skill": "grammar",
+    "skill": "vocabulary",
     "unitId": "hola-mucho-gusto",
-    "title": "El verbo ser y llamarse",
+    "title": "Saludos y presentaciones",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 20,
-    "orderIndex": 14,
-    "estimatedMinutes": 8,
-    "description": "Aprende a usar soy/eres/es y me llamo/te llamas/se llama.",
-    "intro": "Aprende a usar soy/eres/es y me llamo/te llamas/se llama.",
+    "orderIndex": 15,
+    "estimatedMinutes": 6,
+    "description": "Palabras clave para saludar y presentarte.",
+    "intro": "Palabras clave para saludar y presentarte.",
     "mission": "",
-    "grammar": "El verbo \"ser\" cambia según la persona: yo soy, tú eres, él/ella es. Usamos \"llamarse\" para decir el nombre: yo me llamo, tú te llamas, él/ella se llama. Ejemplo: \"Yo soy Valentina. Tú eres mi amigo. Él se llama Marco.\" Errores frecuentes: no confundir \"soy\" (ser) con \"estoy\" (estar); \"estoy\" es para sentimientos y estados (Estoy bien), \"soy\" es para identidad (Soy Valentina).",
-    "phrases": [
-      "Yo soy...",
-      "Tú eres...",
-      "Él/Ella es...",
-      "Me llamo...",
-      "¿Cómo te llamas?"
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "Hola",
+        "category": "saludo",
+        "translation": "Hello",
+        "example": "Hola, ¿cómo estás?",
+        "directSupport": {
+          "definition": "Palabra que se usa para saludar a alguien.",
+          "simpleDefinition": "Una palabra para saludar.",
+          "opposites": [
+            "Adiós"
+          ],
+          "contextExamples": [
+            "Hola, ¿cómo estás?",
+            "Hola, buenos días."
+          ]
+        }
+      },
+      {
+        "word": "Buenos días",
+        "category": "saludo",
+        "translation": "Good morning",
+        "example": "Buenos días, profesor.",
+        "directSupport": {
+          "definition": "Saludo que se usa por la mañana, antes del mediodía.",
+          "simpleDefinition": "Hola, pero solo en la mañana.",
+          "opposites": [
+            "Buenas noches"
+          ],
+          "contextExamples": [
+            "Buenos días, profesor.",
+            "Buenos días a todos."
+          ]
+        }
+      },
+      {
+        "word": "Buenas tardes",
+        "category": "saludo",
+        "translation": "Good afternoon",
+        "example": "Buenas tardes a todos.",
+        "directSupport": {
+          "definition": "Saludo que se usa por la tarde.",
+          "simpleDefinition": "Hola, pero solo en la tarde.",
+          "contextExamples": [
+            "Buenas tardes a todos.",
+            "Buenas tardes, señora."
+          ]
+        }
+      },
+      {
+        "word": "Buenas noches",
+        "category": "saludo",
+        "translation": "Good evening/night",
+        "example": "Buenas noches, hasta mañana.",
+        "directSupport": {
+          "definition": "Saludo o despedida que se usa por la noche.",
+          "simpleDefinition": "Hola o adiós, pero solo de noche.",
+          "opposites": [
+            "Buenos días"
+          ],
+          "contextExamples": [
+            "Buenas noches, hasta mañana.",
+            "Buenas noches a todos."
+          ]
+        }
+      },
+      {
+        "word": "Adiós",
+        "category": "despedida",
+        "translation": "Goodbye",
+        "example": "Adiós, nos vemos mañana.",
+        "directSupport": {
+          "definition": "Palabra que se dice al despedirse de alguien.",
+          "simpleDefinition": "Una palabra para despedirse.",
+          "synonyms": [
+            "Hasta luego"
+          ],
+          "opposites": [
+            "Hola"
+          ],
+          "contextExamples": [
+            "Adiós, nos vemos mañana.",
+            "Adiós, que tengas buen día."
+          ]
+        }
+      },
+      {
+        "word": "Hasta luego",
+        "category": "despedida",
+        "translation": "See you later",
+        "example": "¡Hasta luego, Marco!",
+        "directSupport": {
+          "definition": "Expresión que se usa al despedirse, cuando vas a ver a la persona pronto.",
+          "simpleDefinition": "Adiós, hasta otro momento.",
+          "synonyms": [
+            "Adiós"
+          ],
+          "contextExamples": [
+            "¡Hasta luego, Marco!",
+            "Hasta luego, nos vemos mañana."
+          ]
+        }
+      },
+      {
+        "word": "Nombre",
+        "category": "presentación",
+        "translation": "Name",
+        "example": "Mi nombre es Valentina.",
+        "directSupport": {
+          "definition": "Palabra que usan las personas para llamarte.",
+          "simpleDefinition": "Cómo te llamas.",
+          "contextExamples": [
+            "Mi nombre es Valentina.",
+            "¿Cuál es tu nombre?"
+          ]
+        }
+      },
+      {
+        "word": "Mucho gusto",
+        "category": "presentación",
+        "translation": "Nice to meet you",
+        "example": "Mucho gusto, me llamo Diego.",
+        "directSupport": {
+          "definition": "Expresión cortés que se dice al conocer a alguien por primera vez.",
+          "simpleDefinition": "Lo que dices al conocer a alguien nuevo.",
+          "contextExamples": [
+            "Mucho gusto, me llamo Diego.",
+            "Mucho gusto en conocerte."
+          ]
+        }
+      },
+      {
+        "word": "Por favor",
+        "category": "cortesía",
+        "translation": "Please",
+        "example": "Repite, por favor.",
+        "directSupport": {
+          "definition": "Palabra cortés que se usa al pedir algo.",
+          "simpleDefinition": "Una palabra amable para pedir algo.",
+          "contextExamples": [
+            "Repite, por favor.",
+            "Ayúdame, por favor."
+          ]
+        }
+      },
+      {
+        "word": "Gracias",
+        "category": "cortesía",
+        "translation": "Thank you",
+        "example": "Gracias por tu ayuda.",
+        "directSupport": {
+          "definition": "Palabra que se usa para agradecer a alguien.",
+          "simpleDefinition": "Una palabra de agradecimiento.",
+          "opposites": [
+            "De nada"
+          ],
+          "contextExamples": [
+            "Gracias por tu ayuda.",
+            "Muchas gracias."
+          ]
+        }
+      },
+      {
+        "word": "De nada",
+        "category": "cortesía",
+        "translation": "You're welcome",
+        "example": "—Gracias. —De nada.",
+        "directSupport": {
+          "definition": "Respuesta cortés cuando alguien te da las gracias.",
+          "simpleDefinition": "Lo que dices cuando alguien te agradece.",
+          "opposites": [
+            "Gracias"
+          ],
+          "contextExamples": [
+            "—Gracias. —De nada.",
+            "De nada, fue un placer."
+          ]
+        }
+      },
+      {
+        "word": "Amigo/a",
+        "category": "personas",
+        "translation": "Friend",
+        "example": "Marco es mi amigo.",
+        "directSupport": {
+          "definition": "Persona que te cae bien y en quien confías.",
+          "simpleDefinition": "Alguien que te cae bien.",
+          "opposites": [
+            "Desconocido/a"
+          ],
+          "contextExamples": [
+            "Marco es mi amigo.",
+            "Ella es mi mejor amiga."
+          ]
+        }
+      },
+      {
+        "word": "Profesor/a",
+        "category": "personas",
+        "translation": "Teacher",
+        "example": "Mi profesor se llama Diego.",
+        "directSupport": {
+          "definition": "Persona que ayuda a los estudiantes a aprender.",
+          "simpleDefinition": "Alguien que enseña en la escuela.",
+          "synonyms": [
+            "Maestro/a"
+          ],
+          "opposites": [
+            "Estudiante"
+          ],
+          "contextExamples": [
+            "Mi profesor se llama Diego.",
+            "La profesora explica la lección."
+          ]
+        }
+      },
+      {
+        "word": "Uno, dos, tres",
+        "category": "números",
+        "translation": "One, two, three",
+        "example": "Uno, dos, tres, cuatro, cinco.",
+        "directSupport": {
+          "definition": "Los primeros tres números al contar.",
+          "simpleDefinition": "Los números 1, 2 y 3.",
+          "contextExamples": [
+            "Uno, dos, tres, cuatro, cinco.",
+            "Cuento uno, dos, tres."
+          ]
+        }
+      },
+      {
+        "word": "Diez",
+        "category": "números",
+        "translation": "Ten",
+        "example": "Tengo diez lápices.",
+        "directSupport": {
+          "definition": "El número que sigue después del nueve.",
+          "simpleDefinition": "El número 10.",
+          "contextExamples": [
+            "Tengo diez lápices.",
+            "Somos diez estudiantes."
+          ]
+        }
+      },
+      {
+        "word": "Veinte",
+        "category": "números",
+        "translation": "Twenty",
+        "example": "Hay veinte estudiantes.",
+        "directSupport": {
+          "definition": "El número que equivale a dos veces diez.",
+          "simpleDefinition": "El número 20.",
+          "contextExamples": [
+            "Hay veinte estudiantes.",
+            "Tengo veinte años."
+          ]
+        }
+      }
     ],
-    "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
@@ -3363,42 +3745,32 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Yo ___ Valentina.",
+        "prompt": "¿Qué significa \"Mucho gusto\"?",
         "options": [
-          "soy",
-          "eres",
-          "es",
-          "somos"
+          "Nice to meet you",
+          "Good morning",
+          "Thank you",
+          "See you later"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Tú ___ mi amigo.",
+        "prompt": "¿Qué significa \"Gracias\"?",
         "options": [
-          "soy",
-          "eres",
-          "es",
-          "son"
+          "Please",
+          "You're welcome",
+          "Thank you",
+          "Goodbye"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Él ___ Marco.",
+        "prompt": "¿Qué significa \"Profesor/a\"?",
         "options": [
-          "soy",
-          "eres",
-          "se llama",
-          "te llamas"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Cómo ___ (tú)?",
-        "options": [
-          "me llamo",
-          "te llamas",
-          "se llama",
-          "soy"
+          "Friend",
+          "Teacher",
+          "Name",
+          "Student"
         ]
       }
     ]
@@ -4099,313 +4471,87 @@
     ]
   },
   {
-    "slug": "spanish-a1-hola-mucho-gusto-vocabulary",
+    "slug": "spanish-a1-informacion-personal-reading",
     "level": "A1",
-    "skill": "vocabulary",
-    "unitId": "hola-mucho-gusto",
-    "title": "Saludos y presentaciones",
+    "skill": "reading",
+    "unitId": "informacion-personal",
+    "title": "Mi perfil",
     "accessTier": "free",
     "isFree": true,
-    "xpReward": 20,
-    "orderIndex": 15,
-    "estimatedMinutes": 6,
-    "description": "Palabras clave para saludar y presentarte.",
-    "intro": "Palabras clave para saludar y presentarte.",
+    "xpReward": 25,
+    "orderIndex": 20,
+    "estimatedMinutes": 10,
+    "description": "Un perfil breve de un estudiante de intercambio.",
+    "intro": "Un perfil breve de un estudiante de intercambio.",
     "mission": "",
     "grammar": "",
     "phrases": [],
-    "vocabulary": [
-      {
-        "word": "Hola",
-        "category": "saludo",
-        "translation": "Hello",
-        "example": "Hola, ¿cómo estás?",
-        "directSupport": {
-          "definition": "Palabra que se usa para saludar a alguien.",
-          "simpleDefinition": "Una palabra para saludar.",
-          "opposites": [
-            "Adiós"
-          ],
-          "contextExamples": [
-            "Hola, ¿cómo estás?",
-            "Hola, buenos días."
-          ]
-        }
-      },
-      {
-        "word": "Buenos días",
-        "category": "saludo",
-        "translation": "Good morning",
-        "example": "Buenos días, profesor.",
-        "directSupport": {
-          "definition": "Saludo que se usa por la mañana, antes del mediodía.",
-          "simpleDefinition": "Hola, pero solo en la mañana.",
-          "opposites": [
-            "Buenas noches"
-          ],
-          "contextExamples": [
-            "Buenos días, profesor.",
-            "Buenos días a todos."
-          ]
-        }
-      },
-      {
-        "word": "Buenas tardes",
-        "category": "saludo",
-        "translation": "Good afternoon",
-        "example": "Buenas tardes a todos.",
-        "directSupport": {
-          "definition": "Saludo que se usa por la tarde.",
-          "simpleDefinition": "Hola, pero solo en la tarde.",
-          "contextExamples": [
-            "Buenas tardes a todos.",
-            "Buenas tardes, señora."
-          ]
-        }
-      },
-      {
-        "word": "Buenas noches",
-        "category": "saludo",
-        "translation": "Good evening/night",
-        "example": "Buenas noches, hasta mañana.",
-        "directSupport": {
-          "definition": "Saludo o despedida que se usa por la noche.",
-          "simpleDefinition": "Hola o adiós, pero solo de noche.",
-          "opposites": [
-            "Buenos días"
-          ],
-          "contextExamples": [
-            "Buenas noches, hasta mañana.",
-            "Buenas noches a todos."
-          ]
-        }
-      },
-      {
-        "word": "Adiós",
-        "category": "despedida",
-        "translation": "Goodbye",
-        "example": "Adiós, nos vemos mañana.",
-        "directSupport": {
-          "definition": "Palabra que se dice al despedirse de alguien.",
-          "simpleDefinition": "Una palabra para despedirse.",
-          "synonyms": [
-            "Hasta luego"
-          ],
-          "opposites": [
-            "Hola"
-          ],
-          "contextExamples": [
-            "Adiós, nos vemos mañana.",
-            "Adiós, que tengas buen día."
-          ]
-        }
-      },
-      {
-        "word": "Hasta luego",
-        "category": "despedida",
-        "translation": "See you later",
-        "example": "¡Hasta luego, Marco!",
-        "directSupport": {
-          "definition": "Expresión que se usa al despedirse, cuando vas a ver a la persona pronto.",
-          "simpleDefinition": "Adiós, hasta otro momento.",
-          "synonyms": [
-            "Adiós"
-          ],
-          "contextExamples": [
-            "¡Hasta luego, Marco!",
-            "Hasta luego, nos vemos mañana."
-          ]
-        }
-      },
-      {
-        "word": "Nombre",
-        "category": "presentación",
-        "translation": "Name",
-        "example": "Mi nombre es Valentina.",
-        "directSupport": {
-          "definition": "Palabra que usan las personas para llamarte.",
-          "simpleDefinition": "Cómo te llamas.",
-          "contextExamples": [
-            "Mi nombre es Valentina.",
-            "¿Cuál es tu nombre?"
-          ]
-        }
-      },
-      {
-        "word": "Mucho gusto",
-        "category": "presentación",
-        "translation": "Nice to meet you",
-        "example": "Mucho gusto, me llamo Diego.",
-        "directSupport": {
-          "definition": "Expresión cortés que se dice al conocer a alguien por primera vez.",
-          "simpleDefinition": "Lo que dices al conocer a alguien nuevo.",
-          "contextExamples": [
-            "Mucho gusto, me llamo Diego.",
-            "Mucho gusto en conocerte."
-          ]
-        }
-      },
-      {
-        "word": "Por favor",
-        "category": "cortesía",
-        "translation": "Please",
-        "example": "Repite, por favor.",
-        "directSupport": {
-          "definition": "Palabra cortés que se usa al pedir algo.",
-          "simpleDefinition": "Una palabra amable para pedir algo.",
-          "contextExamples": [
-            "Repite, por favor.",
-            "Ayúdame, por favor."
-          ]
-        }
-      },
-      {
-        "word": "Gracias",
-        "category": "cortesía",
-        "translation": "Thank you",
-        "example": "Gracias por tu ayuda.",
-        "directSupport": {
-          "definition": "Palabra que se usa para agradecer a alguien.",
-          "simpleDefinition": "Una palabra de agradecimiento.",
-          "opposites": [
-            "De nada"
-          ],
-          "contextExamples": [
-            "Gracias por tu ayuda.",
-            "Muchas gracias."
-          ]
-        }
-      },
-      {
-        "word": "De nada",
-        "category": "cortesía",
-        "translation": "You're welcome",
-        "example": "—Gracias. —De nada.",
-        "directSupport": {
-          "definition": "Respuesta cortés cuando alguien te da las gracias.",
-          "simpleDefinition": "Lo que dices cuando alguien te agradece.",
-          "opposites": [
-            "Gracias"
-          ],
-          "contextExamples": [
-            "—Gracias. —De nada.",
-            "De nada, fue un placer."
-          ]
-        }
-      },
-      {
-        "word": "Amigo/a",
-        "category": "personas",
-        "translation": "Friend",
-        "example": "Marco es mi amigo.",
-        "directSupport": {
-          "definition": "Persona que te cae bien y en quien confías.",
-          "simpleDefinition": "Alguien que te cae bien.",
-          "opposites": [
-            "Desconocido/a"
-          ],
-          "contextExamples": [
-            "Marco es mi amigo.",
-            "Ella es mi mejor amiga."
-          ]
-        }
-      },
-      {
-        "word": "Profesor/a",
-        "category": "personas",
-        "translation": "Teacher",
-        "example": "Mi profesor se llama Diego.",
-        "directSupport": {
-          "definition": "Persona que ayuda a los estudiantes a aprender.",
-          "simpleDefinition": "Alguien que enseña en la escuela.",
-          "synonyms": [
-            "Maestro/a"
-          ],
-          "opposites": [
-            "Estudiante"
-          ],
-          "contextExamples": [
-            "Mi profesor se llama Diego.",
-            "La profesora explica la lección."
-          ]
-        }
-      },
-      {
-        "word": "Uno, dos, tres",
-        "category": "números",
-        "translation": "One, two, three",
-        "example": "Uno, dos, tres, cuatro, cinco.",
-        "directSupport": {
-          "definition": "Los primeros tres números al contar.",
-          "simpleDefinition": "Los números 1, 2 y 3.",
-          "contextExamples": [
-            "Uno, dos, tres, cuatro, cinco.",
-            "Cuento uno, dos, tres."
-          ]
-        }
-      },
-      {
-        "word": "Diez",
-        "category": "números",
-        "translation": "Ten",
-        "example": "Tengo diez lápices.",
-        "directSupport": {
-          "definition": "El número que sigue después del nueve.",
-          "simpleDefinition": "El número 10.",
-          "contextExamples": [
-            "Tengo diez lápices.",
-            "Somos diez estudiantes."
-          ]
-        }
-      },
-      {
-        "word": "Veinte",
-        "category": "números",
-        "translation": "Twenty",
-        "example": "Hay veinte estudiantes.",
-        "directSupport": {
-          "definition": "El número que equivale a dos veces diez.",
-          "simpleDefinition": "El número 20.",
-          "contextExamples": [
-            "Hay veinte estudiantes.",
-            "Tengo veinte años."
-          ]
-        }
-      }
-    ],
+    "vocabulary": [],
     "dialogue": [],
-    "reading": null,
+    "reading": {
+      "title": "Mi perfil",
+      "parts": [
+        "Me llamo Julián. Tengo veinte años y soy de Colombia, pero ahora vivo en Santo Domingo. Soy estudiante de inglés.",
+        "Mi número de teléfono es el 809-555-0123 y mi correo electrónico es julian@correo.com. Vivo cerca de la escuela.",
+        "Julián no es tímido; le gusta hablar con estudiantes de otros países. Su nacionalidad es colombiana y su idioma favorito para practicar es el inglés."
+      ],
+      "questions": [
+        "¿De dónde es Julián?",
+        "¿Cuántos años tiene?",
+        "¿Dónde vive ahora?"
+      ],
+      "ordering": {
+        "prompt": "Ordena los eventos de la historia.",
+        "events": [
+          "Julián se presenta con su nombre.",
+          "Julián dice su edad y su país de origen.",
+          "Julián comparte su teléfono y su correo.",
+          "Julián explica que le gusta hablar con otros estudiantes."
+        ]
+      },
+      "text": "Me llamo Julián. Tengo veinte años y soy de Colombia, pero ahora vivo en Santo Domingo. Soy estudiante de inglés.\n\nMi número de teléfono es el 809-555-0123 y mi correo electrónico es julian@correo.com. Vivo cerca de la escuela.\n\nJulián no es tímido; le gusta hablar con estudiantes de otros países. Su nacionalidad es colombiana y su idioma favorito para practicar es el inglés."
+    },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"Mucho gusto\"?",
+        "prompt": "¿Cuántos años tiene Julián?",
         "options": [
-          "Nice to meet you",
-          "Good morning",
-          "Thank you",
-          "See you later"
+          "Dieciocho",
+          "Diecinueve",
+          "Veinte",
+          "Veintiuno"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"Gracias\"?",
+        "prompt": "¿De dónde es Julián?",
         "options": [
-          "Please",
-          "You're welcome",
-          "Thank you",
-          "Goodbye"
+          "República Dominicana",
+          "Colombia",
+          "España",
+          "México"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"Profesor/a\"?",
+        "prompt": "¿Dónde vive ahora?",
         "options": [
-          "Friend",
-          "Teacher",
-          "Name",
-          "Student"
+          "Bogotá",
+          "Madrid",
+          "Santo Domingo",
+          "Nueva York"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué estudia Julián?",
+        "options": [
+          "Español",
+          "Inglés",
+          "Francés",
+          "Matemáticas"
         ]
       }
     ]
@@ -4865,87 +5011,207 @@
     ]
   },
   {
-    "slug": "spanish-a1-informacion-personal-reading",
+    "slug": "spanish-a1-informacion-personal-listening",
     "level": "A1",
-    "skill": "reading",
+    "skill": "listening",
     "unitId": "informacion-personal",
-    "title": "Mi perfil",
+    "title": "Un mensaje de voz",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 25,
-    "orderIndex": 20,
+    "orderIndex": 21,
     "estimatedMinutes": 10,
-    "description": "Un perfil breve de un estudiante de intercambio.",
-    "intro": "Un perfil breve de un estudiante de intercambio.",
+    "description": "Un estudiante deja un mensaje de voz con su información personal.",
+    "intro": "Escucha el mensaje de voz de Camila para un nuevo compañero de clase.",
     "mission": "",
     "grammar": "",
-    "phrases": [],
+    "phrases": [
+      "Tengo ... años.",
+      "Soy de...",
+      "Mi número de teléfono es...",
+      "Mi correo es..."
+    ],
     "vocabulary": [],
     "dialogue": [],
-    "reading": {
-      "title": "Mi perfil",
-      "parts": [
-        "Me llamo Julián. Tengo veinte años y soy de Colombia, pero ahora vivo en Santo Domingo. Soy estudiante de inglés.",
-        "Mi número de teléfono es el 809-555-0123 y mi correo electrónico es julian@correo.com. Vivo cerca de la escuela.",
-        "Julián no es tímido; le gusta hablar con estudiantes de otros países. Su nacionalidad es colombiana y su idioma favorito para practicar es el inglés."
+    "reading": null,
+    "transcript": "Este es mi compañero Marco. Tiene veinte años, es de Italia y ahora vive en Santiago. Estudia español porque quiere viajar por América Latina. Marco habla italiano e inglés, y también entiende un poco de francés. En clase se sienta cerca de mí y siempre trae una libreta azul. Es muy amable y le gusta ayudar cuando alguien tiene una pregunta.",
+    "extra": {
+      "listeningType": "story",
+      "difficulty": "A1",
+      "durationSeconds": 35,
+      "speakers": [
+        "Narrador/a"
       ],
-      "questions": [
-        "¿De dónde es Julián?",
-        "¿Cuántos años tiene?",
-        "¿Dónde vive ahora?"
-      ],
-      "ordering": {
-        "prompt": "Ordena los eventos de la historia.",
-        "events": [
-          "Julián se presenta con su nombre.",
-          "Julián dice su edad y su país de origen.",
-          "Julián comparte su teléfono y su correo.",
-          "Julián explica que le gusta hablar con otros estudiantes."
+      "phoneticSupport": {
+        "enabled": true,
+        "locale": "es-419",
+        "focus": "La \"g\" antes de e/i (Argentina no aplica aquí) y la \"j\" suenan como una \"h\" fuerte en inglés: jota, general.",
+        "fullIpa": null,
+        "segments": [
+          {
+            "text": "diecinueve",
+            "ipa": "/dje.si.ˈnwe.βe/"
+          },
+          {
+            "text": "correo",
+            "ipa": "/ko.ˈre.o/"
+          }
+        ],
+        "stressedWords": [
+          "México",
+          "teléfono"
+        ],
+        "syllabification": [
+          {
+            "word": "número",
+            "syllables": "nú-me-ro"
+          }
+        ],
+        "difficultSounds": [
+          "j / g suave"
+        ],
+        "reviewStatus": "pending-review"
+      },
+      "dictationSegmentCount": 3,
+      "listeningComprehension": {
+        "id": "spanish-a1-informacion-personal-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "En «Un mensaje de voz», ¿qué detalle presenta la situación?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Este es mi compañero Marco."
+              },
+              {
+                "id": "o2",
+                "text": "Estudia español porque quiere viajar por América Latina."
+              },
+              {
+                "id": "o3",
+                "text": "Marco habla italiano e inglés, y también entiende un poco de francés."
+              },
+              {
+                "id": "o4",
+                "text": "Es muy amable y le gusta ayudar cuando alguien tiene una pregunta."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Después de «Este es mi compañero Marco.», ¿qué sucede a continuación en «Un mensaje de voz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Este es mi compañero Marco."
+              },
+              {
+                "id": "o2",
+                "text": "Estudia español porque quiere viajar por América Latina."
+              },
+              {
+                "id": "o3",
+                "text": "Marco habla italiano e inglés, y también entiende un poco de francés."
+              },
+              {
+                "id": "o4",
+                "text": "Es muy amable y le gusta ayudar cuando alguien tiene una pregunta."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Un mensaje de voz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Este es mi compañero Marco."
+              },
+              {
+                "id": "o2",
+                "text": "Marco habla italiano e inglés, y también entiende un poco de francés."
+              },
+              {
+                "id": "o3",
+                "text": "Estudia español porque quiere viajar por América Latina."
+              },
+              {
+                "id": "o4",
+                "text": "Es muy amable y le gusta ayudar cuando alguien tiene una pregunta."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Un mensaje de voz» después de «Estudia español porque quiere viajar por América Latina.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Este es mi compañero Marco."
+              },
+              {
+                "id": "o2",
+                "text": "Estudia español porque quiere viajar por América Latina."
+              },
+              {
+                "id": "o3",
+                "text": "Marco habla italiano e inglés, y también entiende un poco de francés."
+              },
+              {
+                "id": "o4",
+                "text": "Es muy amable y le gusta ayudar cuando alguien tiene una pregunta."
+              }
+            ]
+          }
         ]
       },
-      "text": "Me llamo Julián. Tengo veinte años y soy de Colombia, pero ahora vivo en Santo Domingo. Soy estudiante de inglés.\n\nMi número de teléfono es el 809-555-0123 y mi correo electrónico es julian@correo.com. Vivo cerca de la escuela.\n\nJulián no es tímido; le gusta hablar con estudiantes de otros países. Su nacionalidad es colombiana y su idioma favorito para practicar es el inglés."
+      "grammarTest": null
     },
-    "transcript": "",
-    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuántos años tiene Julián?",
+        "prompt": "En «Un mensaje de voz», ¿qué detalle presenta la situación?",
         "options": [
-          "Dieciocho",
-          "Diecinueve",
-          "Veinte",
-          "Veintiuno"
+          "Este es mi compañero Marco.",
+          "Estudia español porque quiere viajar por América Latina.",
+          "Marco habla italiano e inglés, y también entiende un poco de francés.",
+          "Es muy amable y le gusta ayudar cuando alguien tiene una pregunta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿De dónde es Julián?",
+        "prompt": "Después de «Este es mi compañero Marco.», ¿qué sucede a continuación en «Un mensaje de voz»?",
         "options": [
-          "República Dominicana",
-          "Colombia",
-          "España",
-          "México"
+          "Este es mi compañero Marco.",
+          "Estudia español porque quiere viajar por América Latina.",
+          "Marco habla italiano e inglés, y también entiende un poco de francés.",
+          "Es muy amable y le gusta ayudar cuando alguien tiene una pregunta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Dónde vive ahora?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Un mensaje de voz»?",
         "options": [
-          "Bogotá",
-          "Madrid",
-          "Santo Domingo",
-          "Nueva York"
+          "Este es mi compañero Marco.",
+          "Marco habla italiano e inglés, y también entiende un poco de francés.",
+          "Estudia español porque quiere viajar por América Latina.",
+          "Es muy amable y le gusta ayudar cuando alguien tiene una pregunta."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué estudia Julián?",
+        "prompt": "¿Qué resultado cierra «Un mensaje de voz» después de «Estudia español porque quiere viajar por América Latina.»?",
         "options": [
-          "Español",
-          "Inglés",
-          "Francés",
-          "Matemáticas"
+          "Este es mi compañero Marco.",
+          "Estudia español porque quiere viajar por América Latina.",
+          "Marco habla italiano e inglés, y también entiende un poco de francés.",
+          "Es muy amable y le gusta ayudar cuando alguien tiene una pregunta."
         ]
       }
     ]
@@ -4982,75 +5248,98 @@
       ],
       "transcript": "Hoy necesito llegar a la estación de tren, pero no conozco bien esta parte de la ciudad. Debo seguir recto por la avenida hasta el semáforo, girar a la derecha y caminar dos cuadras. La estación queda a mi izquierda, detrás del museo y junto a la farmacia. No debo cruzar la plaza. Repito las indicaciones antes de continuar para no perderme. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.",
       "listeningComprehension": {
-        "id": "spanish-a2-orientarse-en-la-ciudad-listening-comprehension",
+        "id": "spanish-a2-orientarse-en-la-ciudad-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Adónde quiere ir Mateo?",
+            "prompt": "En «Escucha · Orientarse en la ciudad», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Al mercado"
+                "text": "Hoy necesito llegar a la estación de tren, pero no conozco bien esta parte de la ciudad."
               },
               {
                 "id": "o2",
-                "text": "A la estación de tren"
+                "text": "No debo cruzar la plaza."
               },
               {
                 "id": "o3",
-                "text": "Al banco"
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
               },
               {
                 "id": "o4",
-                "text": "Al hospital"
+                "text": "Me gusta tener un plan claro antes de seguir."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Qué debe hacer en el semáforo?",
+            "prompt": "Después de «Hoy necesito llegar a la estación de tren, pero no conozco bien esta…», ¿qué sucede a continuación en «Escucha · Orientarse en la ciudad»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Girar a la derecha"
+                "text": "Hoy necesito llegar a la estación de tren, pero no conozco bien esta parte de la ciudad."
               },
               {
                 "id": "o2",
-                "text": "Girar a la izquierda"
+                "text": "No debo cruzar la plaza."
               },
               {
                 "id": "o3",
-                "text": "Tomar un autobús"
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
               },
               {
                 "id": "o4",
-                "text": "Volver dos cuadras"
+                "text": "Me gusta tener un plan claro antes de seguir."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Dónde está la estación?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Orientarse en la ciudad»?",
             "options": [
               {
                 "id": "o1",
-                "text": "A la derecha"
+                "text": "Hoy necesito llegar a la estación de tren, pero no conozco bien esta parte de la ciudad."
               },
               {
                 "id": "o2",
-                "text": "Frente al semáforo"
+                "text": "No debo cruzar la plaza."
               },
               {
                 "id": "o3",
-                "text": "A dos cuadras, a la izquierda"
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
               },
               {
                 "id": "o4",
-                "text": "Junto al mercado"
+                "text": "Me gusta tener un plan claro antes de seguir."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Orientarse en la ciudad» después de «Al final, repaso la información y preparo el siguiente paso con calma.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Hoy necesito llegar a la estación de tren, pero no conozco bien esta parte de la ciudad."
+              },
+              {
+                "id": "o2",
+                "text": "No debo cruzar la plaza."
+              },
+              {
+                "id": "o3",
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+              },
+              {
+                "id": "o4",
+                "text": "Me gusta tener un plan claro antes de seguir."
               }
             ]
           }
@@ -5061,36 +5350,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Adónde quiere ir Mateo?",
+        "prompt": "En «Escucha · Orientarse en la ciudad», ¿qué detalle presenta la situación?",
         "options": [
-          "Al mercado",
-          "A la estación de tren",
-          "Al banco",
-          "Al hospital"
-        ],
-        "explanation": "Mateo pregunta cómo llegar a la estación de tren."
+          "Hoy necesito llegar a la estación de tren, pero no conozco bien esta parte de la ciudad.",
+          "No debo cruzar la plaza.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué debe hacer en el semáforo?",
+        "prompt": "Después de «Hoy necesito llegar a la estación de tren, pero no conozco bien esta…», ¿qué sucede a continuación en «Escucha · Orientarse en la ciudad»?",
         "options": [
-          "Girar a la derecha",
-          "Girar a la izquierda",
-          "Tomar un autobús",
-          "Volver dos cuadras"
-        ],
-        "explanation": "Lucía confirma que debe girar a la derecha."
+          "Hoy necesito llegar a la estación de tren, pero no conozco bien esta parte de la ciudad.",
+          "No debo cruzar la plaza.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Dónde está la estación?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Orientarse en la ciudad»?",
         "options": [
-          "A la derecha",
-          "Frente al semáforo",
-          "A dos cuadras, a la izquierda",
-          "Junto al mercado"
-        ],
-        "explanation": "Después de dos cuadras, la estación queda a la izquierda."
+          "Hoy necesito llegar a la estación de tren, pero no conozco bien esta parte de la ciudad.",
+          "No debo cruzar la plaza.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Orientarse en la ciudad» después de «Al final, repaso la información y preparo el siguiente paso con calma.»?",
+        "options": [
+          "Hoy necesito llegar a la estación de tren, pero no conozco bien esta parte de la ciudad.",
+          "No debo cruzar la plaza.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
       }
     ]
   },
@@ -5533,15 +5829,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Para formular una idea con precisión y reservas"
-              },
-              {
-                "id": "o2",
                 "text": "Para eliminar toda postura"
               },
               {
-                "id": "o3",
+                "id": "o2",
                 "text": "Para repetir palabras aisladas"
+              },
+              {
+                "id": "o3",
+                "text": "Para formular una idea con precisión y reservas"
               },
               {
                 "id": "o4",
@@ -5560,15 +5856,15 @@
               },
               {
                 "id": "o2",
-                "text": "Qué evidencia sostendría o modificaría una postura"
-              },
-              {
-                "id": "o3",
                 "text": "Cómo evitar cualquier debate"
               },
               {
-                "id": "o4",
+                "id": "o3",
                 "text": "Qué palabra es más difícil de pronunciar"
+              },
+              {
+                "id": "o4",
+                "text": "Qué evidencia sostendría o modificaría una postura"
               }
             ]
           }
@@ -5603,9 +5899,9 @@
         "type": "mcq",
         "prompt": "¿Para qué se usa la gramática de la unidad?",
         "options": [
-          "Para formular una idea con precisión y reservas",
           "Para eliminar toda postura",
           "Para repetir palabras aisladas",
+          "Para formular una idea con precisión y reservas",
           "Para evitar reconocer límites"
         ],
         "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
@@ -5615,9 +5911,9 @@
         "prompt": "¿Qué pregunta final propone el audio?",
         "options": [
           "Qué aplicación es más rápida",
-          "Qué evidencia sostendría o modificaría una postura",
           "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar"
+          "Qué palabra es más difícil de pronunciar",
+          "Qué evidencia sostendría o modificaría una postura"
         ],
         "explanation": "La pregunta final invita a justificar y revisar una conclusión."
       }
@@ -5712,15 +6008,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Para formular una idea con precisión y reservas"
-              },
-              {
-                "id": "o2",
                 "text": "Para eliminar toda postura"
               },
               {
-                "id": "o3",
+                "id": "o2",
                 "text": "Para repetir palabras aisladas"
+              },
+              {
+                "id": "o3",
+                "text": "Para formular una idea con precisión y reservas"
               },
               {
                 "id": "o4",
@@ -5739,15 +6035,15 @@
               },
               {
                 "id": "o2",
-                "text": "Qué evidencia sostendría o modificaría una postura"
-              },
-              {
-                "id": "o3",
                 "text": "Cómo evitar cualquier debate"
               },
               {
-                "id": "o4",
+                "id": "o3",
                 "text": "Qué palabra es más difícil de pronunciar"
+              },
+              {
+                "id": "o4",
+                "text": "Qué evidencia sostendría o modificaría una postura"
               }
             ]
           }
@@ -5782,9 +6078,9 @@
         "type": "mcq",
         "prompt": "¿Para qué se usa la gramática de la unidad?",
         "options": [
-          "Para formular una idea con precisión y reservas",
           "Para eliminar toda postura",
           "Para repetir palabras aisladas",
+          "Para formular una idea con precisión y reservas",
           "Para evitar reconocer límites"
         ],
         "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
@@ -5794,187 +6090,69 @@
         "prompt": "¿Qué pregunta final propone el audio?",
         "options": [
           "Qué aplicación es más rápida",
-          "Qué evidencia sostendría o modificaría una postura",
           "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar"
+          "Qué palabra es más difícil de pronunciar",
+          "Qué evidencia sostendría o modificaría una postura"
         ],
         "explanation": "La pregunta final invita a justificar y revisar una conclusión."
       }
     ]
   },
   {
-    "slug": "spanish-a1-informacion-personal-listening",
+    "slug": "spanish-a1-informacion-personal-speaking",
     "level": "A1",
-    "skill": "listening",
+    "skill": "speaking",
     "unitId": "informacion-personal",
-    "title": "Un mensaje de voz",
+    "title": "Comparte tu información",
     "accessTier": "free",
     "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 21,
-    "estimatedMinutes": 10,
-    "description": "Un estudiante deja un mensaje de voz con su información personal.",
-    "intro": "Escucha el mensaje de voz de Camila para un nuevo compañero de clase.",
-    "mission": "",
+    "xpReward": 20,
+    "orderIndex": 22,
+    "estimatedMinutes": 8,
+    "description": "Practica dar tu edad, tu país y tu procedencia en voz alta.",
+    "intro": "Practica dar tu edad, tu país y tu procedencia en voz alta.",
+    "mission": "Dile a un compañero tu nombre, tu edad, de dónde eres y dónde vives.",
     "grammar": "",
     "phrases": [
       "Tengo ... años.",
       "Soy de...",
-      "Mi número de teléfono es...",
-      "Mi correo es..."
+      "Vivo en...",
+      "¿Cuántos años tienes?"
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "Tú",
+        "line": "Tengo ... años y soy de...",
+        "translation": "I am ... years old and I am from..."
+      },
+      {
+        "speaker": "Compañero/a",
+        "line": "¿Dónde vives ahora?",
+        "translation": "Where do you live now?"
+      },
+      {
+        "speaker": "Tú",
+        "line": "Vivo en...",
+        "translation": "I live in..."
+      },
+      {
+        "speaker": "Compañero/a",
+        "line": "Muy bien. Ahora añade una frase más sobre «Tengo ... años.».",
+        "translation": "Very good. Now add one more sentence about this topic."
+      }
+    ],
     "reading": null,
-    "transcript": "Este es mi compañero Marco. Tiene veinte años, es de Italia y ahora vive en Santiago. Estudia español porque quiere viajar por América Latina. Marco habla italiano e inglés, y también entiende un poco de francés. En clase se sienta cerca de mí y siempre trae una libreta azul. Es muy amable y le gusta ayudar cuando alguien tiene una pregunta.",
-    "extra": {
-      "listeningType": "story",
-      "difficulty": "A1",
-      "durationSeconds": 35,
-      "speakers": [
-        "Narrador/a"
-      ],
-      "phoneticSupport": {
-        "enabled": true,
-        "locale": "es-419",
-        "focus": "La \"g\" antes de e/i (Argentina no aplica aquí) y la \"j\" suenan como una \"h\" fuerte en inglés: jota, general.",
-        "fullIpa": null,
-        "segments": [
-          {
-            "text": "diecinueve",
-            "ipa": "/dje.si.ˈnwe.βe/"
-          },
-          {
-            "text": "correo",
-            "ipa": "/ko.ˈre.o/"
-          }
-        ],
-        "stressedWords": [
-          "México",
-          "teléfono"
-        ],
-        "syllabification": [
-          {
-            "word": "número",
-            "syllables": "nú-me-ro"
-          }
-        ],
-        "difficultSounds": [
-          "j / g suave"
-        ],
-        "reviewStatus": "pending-review"
-      },
-      "dictationSegmentCount": 3,
-      "listeningComprehension": {
-        "id": "spanish-a1-informacion-personal-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "¿Cómo se llama el compañero?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Marco"
-              },
-              {
-                "id": "o2",
-                "text": "Kevin"
-              },
-              {
-                "id": "o3",
-                "text": "Tomás"
-              },
-              {
-                "id": "o4",
-                "text": "Rafael"
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "¿De qué país es Marco?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Italia"
-              },
-              {
-                "id": "o2",
-                "text": "México"
-              },
-              {
-                "id": "o3",
-                "text": "España"
-              },
-              {
-                "id": "o4",
-                "text": "República Dominicana"
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "¿Por qué estudia español?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Porque quiere viajar por América Latina"
-              },
-              {
-                "id": "o2",
-                "text": "Porque trabaja en una farmacia"
-              },
-              {
-                "id": "o3",
-                "text": "Porque vive en la playa"
-              },
-              {
-                "id": "o4",
-                "text": "Porque vende camisas"
-              }
-            ]
-          }
-        ]
-      },
-      "grammarTest": null
-    },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
-        "type": "mcq",
-        "prompt": "¿Cómo se llama el compañero?",
-        "options": [
-          "Marco",
-          "Kevin",
-          "Tomás",
-          "Rafael"
-        ],
-        "explanation": "El texto presenta al compañero Marco."
+        "type": "speaking",
+        "prompt": "Di en voz alta tu edad, tu país de origen y dónde vives ahora."
       },
       {
-        "type": "mcq",
-        "prompt": "¿De qué país es Marco?",
-        "options": [
-          "Italia",
-          "México",
-          "España",
-          "República Dominicana"
-        ],
-        "explanation": "Marco es de Italia."
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Por qué estudia español?",
-        "options": [
-          "Porque quiere viajar por América Latina",
-          "Porque trabaja en una farmacia",
-          "Porque vive en la playa",
-          "Porque vende camisas"
-        ],
-        "explanation": "Estudia español para viajar por América Latina."
+        "type": "practice",
+        "prompt": "Pregúntale a un compañero \"¿Cuántos años tienes?\" y \"¿De dónde eres?\". Si no tienes micrófono, responde por escrito."
       }
     ]
   },
@@ -6276,47 +6454,33 @@
     ]
   },
   {
-    "slug": "spanish-a1-informacion-personal-speaking",
+    "slug": "spanish-a1-informacion-personal-writing",
     "level": "A1",
-    "skill": "speaking",
+    "skill": "writing",
     "unitId": "informacion-personal",
-    "title": "Comparte tu información",
+    "title": "Escribe tu perfil",
     "accessTier": "free",
     "isFree": true,
-    "xpReward": 20,
-    "orderIndex": 22,
-    "estimatedMinutes": 8,
-    "description": "Practica dar tu edad, tu país y tu procedencia en voz alta.",
-    "intro": "Practica dar tu edad, tu país y tu procedencia en voz alta.",
-    "mission": "Dile a un compañero tu nombre, tu edad, de dónde eres y dónde vives.",
+    "xpReward": 25,
+    "orderIndex": 23,
+    "estimatedMinutes": 12,
+    "description": "Escribe un mini perfil con tus datos personales.",
+    "intro": "Escribe un mini perfil con tus datos personales.",
+    "mission": "Escribe 4-5 oraciones: nombre, edad, nacionalidad, dónde vives y tu correo electrónico.",
     "grammar": "",
     "phrases": [
+      "Me llamo...",
       "Tengo ... años.",
       "Soy de...",
       "Vivo en...",
-      "¿Cuántos años tienes?"
+      "Mi correo es..."
     ],
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Tú",
-        "line": "Tengo ... años y soy de...",
-        "translation": "I am ... years old and I am from..."
-      },
-      {
-        "speaker": "Compañero/a",
-        "line": "¿Dónde vives ahora?",
-        "translation": "Where do you live now?"
-      },
-      {
-        "speaker": "Tú",
-        "line": "Vivo en...",
-        "translation": "I live in..."
-      },
-      {
-        "speaker": "Compañero/a",
-        "line": "Muy bien. Ahora añade una frase más sobre «Tengo ... años.».",
-        "translation": "Very good. Now add one more sentence about this topic."
+        "speaker": "Modelo",
+        "line": "Me llamo Julián. Tengo veinte años. Soy de Colombia. Vivo en Santo Domingo. Mi correo es julian@correo.com.",
+        "translation": "My name is Julián. I am twenty years old. I am from Colombia. I live in Santo Domingo. My email is julian@correo.com."
       }
     ],
     "reading": null,
@@ -6324,12 +6488,8 @@
     "extra": null,
     "exercises": [
       {
-        "type": "speaking",
-        "prompt": "Di en voz alta tu edad, tu país de origen y dónde vives ahora."
-      },
-      {
-        "type": "practice",
-        "prompt": "Pregúntale a un compañero \"¿Cuántos años tienes?\" y \"¿De dónde eres?\". Si no tienes micrófono, responde por escrito."
+        "type": "writing",
+        "prompt": "Escribe un mini perfil de 4-5 oraciones sobre ti (nombre, edad, nacionalidad, ciudad, correo)."
       }
     ]
   },
@@ -6499,42 +6659,71 @@
     ]
   },
   {
-    "slug": "spanish-a1-informacion-personal-writing",
+    "slug": "spanish-a1-informacion-personal-grammar",
     "level": "A1",
-    "skill": "writing",
+    "skill": "grammar",
     "unitId": "informacion-personal",
-    "title": "Escribe tu perfil",
+    "title": "Tener, ser, vivir y las preguntas básicas",
     "accessTier": "free",
     "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 23,
-    "estimatedMinutes": 12,
-    "description": "Escribe un mini perfil con tus datos personales.",
-    "intro": "Escribe un mini perfil con tus datos personales.",
-    "mission": "Escribe 4-5 oraciones: nombre, edad, nacionalidad, dónde vives y tu correo electrónico.",
-    "grammar": "",
+    "xpReward": 20,
+    "orderIndex": 24,
+    "estimatedMinutes": 8,
+    "description": "Aprende a usar tener/ser/vivir y a formar preguntas con qué, cómo, dónde y cuántos.",
+    "intro": "Aprende a usar tener/ser/vivir y a formar preguntas con qué, cómo, dónde y cuántos.",
+    "mission": "",
+    "grammar": "Usamos \"tener\" para la edad: yo tengo, tú tienes, él/ella tiene. Usamos \"vivir\" para el lugar donde vives: yo vivo, tú vives. Preguntas: ¿Qué...?, ¿Cómo...?, ¿Dónde...?, ¿Cuántos años...? La negación se forma con \"no\" antes del verbo: No soy de España. Error frecuente: decir \"tengo veinte\" sin \"años\" suena incompleto; siempre se dice \"tengo veinte años\".",
     "phrases": [
-      "Me llamo...",
-      "Tengo ... años.",
-      "Soy de...",
-      "Vivo en...",
-      "Mi correo es..."
+      "Yo tengo ... años.",
+      "Yo vivo en...",
+      "¿Dónde vives?",
+      "No soy de..."
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Modelo",
-        "line": "Me llamo Julián. Tengo veinte años. Soy de Colombia. Vivo en Santo Domingo. Mi correo es julian@correo.com.",
-        "translation": "My name is Julián. I am twenty years old. I am from Colombia. I live in Santo Domingo. My email is julian@correo.com."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "type": "writing",
-        "prompt": "Escribe un mini perfil de 4-5 oraciones sobre ti (nombre, edad, nacionalidad, ciudad, correo)."
+        "type": "mcq",
+        "prompt": "Yo ___ veinte años.",
+        "options": [
+          "soy",
+          "tengo",
+          "vivo",
+          "es"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿___ eres, de Colombia o de México?",
+        "options": [
+          "Qué",
+          "Dónde",
+          "De dónde",
+          "Cuántos"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Yo no ___ de España.",
+        "options": [
+          "soy",
+          "tengo",
+          "vive",
+          "eres"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿___ vives ahora?",
+        "options": [
+          "Qué",
+          "Dónde",
+          "Cuántos",
+          "Cómo"
+        ]
       }
     ]
   },
@@ -7399,27 +7588,113 @@
     ]
   },
   {
-    "slug": "spanish-a1-informacion-personal-grammar",
+    "slug": "spanish-a1-informacion-personal-vocabulary",
     "level": "A1",
-    "skill": "grammar",
+    "skill": "vocabulary",
     "unitId": "informacion-personal",
-    "title": "Tener, ser, vivir y las preguntas básicas",
+    "title": "Países y datos personales",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 20,
-    "orderIndex": 24,
-    "estimatedMinutes": 8,
-    "description": "Aprende a usar tener/ser/vivir y a formar preguntas con qué, cómo, dónde y cuántos.",
-    "intro": "Aprende a usar tener/ser/vivir y a formar preguntas con qué, cómo, dónde y cuántos.",
+    "orderIndex": 25,
+    "estimatedMinutes": 6,
+    "description": "Palabras para hablar de nacionalidad, profesión y contacto.",
+    "intro": "Palabras para hablar de nacionalidad, profesión y contacto.",
     "mission": "",
-    "grammar": "Usamos \"tener\" para la edad: yo tengo, tú tienes, él/ella tiene. Usamos \"vivir\" para el lugar donde vives: yo vivo, tú vives. Preguntas: ¿Qué...?, ¿Cómo...?, ¿Dónde...?, ¿Cuántos años...? La negación se forma con \"no\" antes del verbo: No soy de España. Error frecuente: decir \"tengo veinte\" sin \"años\" suena incompleto; siempre se dice \"tengo veinte años\".",
-    "phrases": [
-      "Yo tengo ... años.",
-      "Yo vivo en...",
-      "¿Dónde vives?",
-      "No soy de..."
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "País",
+        "category": "lugar",
+        "translation": "Country",
+        "example": "¿De qué país eres?"
+      },
+      {
+        "word": "Colombia",
+        "category": "país",
+        "translation": "Colombia",
+        "example": "Julián es de Colombia."
+      },
+      {
+        "word": "México",
+        "category": "país",
+        "translation": "Mexico",
+        "example": "Camila es de México."
+      },
+      {
+        "word": "República Dominicana",
+        "category": "país",
+        "translation": "Dominican Republic",
+        "example": "Vivo en República Dominicana."
+      },
+      {
+        "word": "Nacionalidad",
+        "category": "identidad",
+        "translation": "Nationality",
+        "example": "Mi nacionalidad es colombiana."
+      },
+      {
+        "word": "Estudiante",
+        "category": "profesión",
+        "translation": "Student",
+        "example": "Soy estudiante de inglés."
+      },
+      {
+        "word": "Doctor/a",
+        "category": "profesión",
+        "translation": "Doctor",
+        "example": "Mi madre es doctora."
+      },
+      {
+        "word": "Dirección",
+        "category": "contacto",
+        "translation": "Address",
+        "example": "Mi dirección es la calle 5."
+      },
+      {
+        "word": "Teléfono",
+        "category": "contacto",
+        "translation": "Phone",
+        "example": "Mi teléfono es 809-555-0123."
+      },
+      {
+        "word": "Correo electrónico",
+        "category": "contacto",
+        "translation": "Email",
+        "example": "Mi correo es julian@correo.com."
+      },
+      {
+        "word": "Treinta",
+        "category": "número",
+        "translation": "Thirty",
+        "example": "Tengo treinta pesos."
+      },
+      {
+        "word": "Cincuenta",
+        "category": "número",
+        "translation": "Fifty",
+        "example": "Hay cincuenta estudiantes."
+      },
+      {
+        "word": "Cien",
+        "category": "número",
+        "translation": "One hundred",
+        "example": "Cuesta cien pesos."
+      },
+      {
+        "word": "Casado/a",
+        "category": "estado",
+        "translation": "Married",
+        "example": "Mi hermano está casado."
+      },
+      {
+        "word": "Soltero/a",
+        "category": "estado",
+        "translation": "Single",
+        "example": "Soy soltera."
+      }
     ],
-    "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
@@ -7427,42 +7702,32 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Yo ___ veinte años.",
+        "prompt": "¿Qué significa \"Nacionalidad\"?",
         "options": [
-          "soy",
-          "tengo",
-          "vivo",
-          "es"
+          "Nationality",
+          "Address",
+          "Phone",
+          "Country"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿___ eres, de Colombia o de México?",
+        "prompt": "¿Qué significa \"Correo electrónico\"?",
         "options": [
-          "Qué",
-          "Dónde",
-          "De dónde",
-          "Cuántos"
+          "Address",
+          "Email",
+          "Phone",
+          "Country"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Yo no ___ de España.",
+        "prompt": "¿Qué significa \"Soltero/a\"?",
         "options": [
-          "soy",
-          "tengo",
-          "vive",
-          "eres"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿___ vives ahora?",
-        "options": [
-          "Qué",
-          "Dónde",
-          "Cuántos",
-          "Cómo"
+          "Married",
+          "Single",
+          "Student",
+          "Doctor"
         ]
       }
     ]
@@ -8163,146 +8428,87 @@
     ]
   },
   {
-    "slug": "spanish-a1-informacion-personal-vocabulary",
+    "slug": "spanish-a1-mi-familia-y-mis-amigos-reading",
     "level": "A1",
-    "skill": "vocabulary",
-    "unitId": "informacion-personal",
-    "title": "Países y datos personales",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 20,
-    "orderIndex": 25,
-    "estimatedMinutes": 6,
-    "description": "Palabras para hablar de nacionalidad, profesión y contacto.",
-    "intro": "Palabras para hablar de nacionalidad, profesión y contacto.",
+    "skill": "reading",
+    "unitId": "mi-familia-y-mis-amigos",
+    "title": "Mi familia",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 30,
+    "estimatedMinutes": 10,
+    "description": "Un texto sobre la familia de Sofía.",
+    "intro": "Un texto sobre la familia de Sofía.",
     "mission": "",
     "grammar": "",
     "phrases": [],
-    "vocabulary": [
-      {
-        "word": "País",
-        "category": "lugar",
-        "translation": "Country",
-        "example": "¿De qué país eres?"
-      },
-      {
-        "word": "Colombia",
-        "category": "país",
-        "translation": "Colombia",
-        "example": "Julián es de Colombia."
-      },
-      {
-        "word": "México",
-        "category": "país",
-        "translation": "Mexico",
-        "example": "Camila es de México."
-      },
-      {
-        "word": "República Dominicana",
-        "category": "país",
-        "translation": "Dominican Republic",
-        "example": "Vivo en República Dominicana."
-      },
-      {
-        "word": "Nacionalidad",
-        "category": "identidad",
-        "translation": "Nationality",
-        "example": "Mi nacionalidad es colombiana."
-      },
-      {
-        "word": "Estudiante",
-        "category": "profesión",
-        "translation": "Student",
-        "example": "Soy estudiante de inglés."
-      },
-      {
-        "word": "Doctor/a",
-        "category": "profesión",
-        "translation": "Doctor",
-        "example": "Mi madre es doctora."
-      },
-      {
-        "word": "Dirección",
-        "category": "contacto",
-        "translation": "Address",
-        "example": "Mi dirección es la calle 5."
-      },
-      {
-        "word": "Teléfono",
-        "category": "contacto",
-        "translation": "Phone",
-        "example": "Mi teléfono es 809-555-0123."
-      },
-      {
-        "word": "Correo electrónico",
-        "category": "contacto",
-        "translation": "Email",
-        "example": "Mi correo es julian@correo.com."
-      },
-      {
-        "word": "Treinta",
-        "category": "número",
-        "translation": "Thirty",
-        "example": "Tengo treinta pesos."
-      },
-      {
-        "word": "Cincuenta",
-        "category": "número",
-        "translation": "Fifty",
-        "example": "Hay cincuenta estudiantes."
-      },
-      {
-        "word": "Cien",
-        "category": "número",
-        "translation": "One hundred",
-        "example": "Cuesta cien pesos."
-      },
-      {
-        "word": "Casado/a",
-        "category": "estado",
-        "translation": "Married",
-        "example": "Mi hermano está casado."
-      },
-      {
-        "word": "Soltero/a",
-        "category": "estado",
-        "translation": "Single",
-        "example": "Soy soltera."
-      }
-    ],
+    "vocabulary": [],
     "dialogue": [],
-    "reading": null,
+    "reading": {
+      "title": "Mi familia",
+      "parts": [
+        "Esta es mi familia. Mi madre se llama Carmen y mi padre se llama Rafael. Ellos trabajan cerca de la casa.",
+        "Tengo un hermano y una hermana. Mi hermana se llama Lucía; tiene dieciséis años y es alta y simpática. Mi hermano se llama Tomás; tiene nueve años.",
+        "Mi abuela Rosa vive con nosotros. Es una persona muy amable y cocina muy bien. Los domingos, toda la familia almuerza junta."
+      ],
+      "questions": [
+        "¿Cómo se llama la madre?",
+        "¿Cuántos hermanos tiene la escritora?",
+        "¿Quién vive con la familia además de los padres?"
+      ],
+      "ordering": {
+        "prompt": "Ordena los eventos de la historia.",
+        "events": [
+          "Sofía presenta a sus padres.",
+          "Sofía describe a su hermana Lucía.",
+          "Sofía describe a su hermano Tomás.",
+          "La familia almuerza junta el domingo."
+        ]
+      },
+      "text": "Esta es mi familia. Mi madre se llama Carmen y mi padre se llama Rafael. Ellos trabajan cerca de la casa.\n\nTengo un hermano y una hermana. Mi hermana se llama Lucía; tiene dieciséis años y es alta y simpática. Mi hermano se llama Tomás; tiene nueve años.\n\nMi abuela Rosa vive con nosotros. Es una persona muy amable y cocina muy bien. Los domingos, toda la familia almuerza junta."
+    },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"Nacionalidad\"?",
+        "prompt": "¿Cómo se llama el padre?",
         "options": [
-          "Nationality",
-          "Address",
-          "Phone",
-          "Country"
+          "Tomás",
+          "Rafael",
+          "Rosa",
+          "Lucía"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"Correo electrónico\"?",
+        "prompt": "¿Cuántos años tiene Lucía?",
         "options": [
-          "Address",
-          "Email",
-          "Phone",
-          "Country"
+          "Nueve",
+          "Doce",
+          "Dieciséis",
+          "Veinte"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"Soltero/a\"?",
+        "prompt": "¿Quién es Rosa?",
         "options": [
-          "Married",
-          "Single",
-          "Student",
-          "Doctor"
+          "La madre",
+          "La hermana",
+          "La abuela",
+          "Una amiga"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Cómo es Lucía?",
+        "options": [
+          "Baja y tímida",
+          "Alta y simpática",
+          "Alta y triste",
+          "Baja y seria"
         ]
       }
     ]
@@ -8775,87 +8981,209 @@
     ]
   },
   {
-    "slug": "spanish-a1-mi-familia-y-mis-amigos-reading",
+    "slug": "spanish-a1-mi-familia-y-mis-amigos-listening",
     "level": "A1",
-    "skill": "reading",
+    "skill": "listening",
     "unitId": "mi-familia-y-mis-amigos",
-    "title": "Mi familia",
+    "title": "Esta es mi hermana",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
-    "orderIndex": 30,
+    "orderIndex": 31,
     "estimatedMinutes": 10,
-    "description": "Un texto sobre la familia de Sofía.",
-    "intro": "Un texto sobre la familia de Sofía.",
+    "description": "Una persona describe a su familia a partir de una foto.",
+    "intro": "Escucha una descripción de la familia de Sofía mientras muestra una foto.",
     "mission": "",
     "grammar": "",
-    "phrases": [],
+    "phrases": [
+      "Esta es mi...",
+      "Se llama...",
+      "Tiene ... años.",
+      "Es alto/a, simpático/a..."
+    ],
     "vocabulary": [],
     "dialogue": [],
-    "reading": {
-      "title": "Mi familia",
-      "parts": [
-        "Esta es mi familia. Mi madre se llama Carmen y mi padre se llama Rafael. Ellos trabajan cerca de la casa.",
-        "Tengo un hermano y una hermana. Mi hermana se llama Lucía; tiene dieciséis años y es alta y simpática. Mi hermano se llama Tomás; tiene nueve años.",
-        "Mi abuela Rosa vive con nosotros. Es una persona muy amable y cocina muy bien. Los domingos, toda la familia almuerza junta."
+    "reading": null,
+    "transcript": "Quiero hablar de mi mejor amigo, Kevin. Lo conozco desde la escuela y vivimos en el mismo barrio. Tiene dieciocho años, es divertido y muy tranquilo. A Kevin le gusta jugar al fútbol, ver películas y cocinar pasta los domingos. Cuando tengo un problema, él escucha con atención y me da buenos consejos. Los sábados solemos ir al parque o tomar un jugo después de clase.",
+    "extra": {
+      "listeningType": "story",
+      "difficulty": "A1",
+      "durationSeconds": 45,
+      "speakers": [
+        "Narrador/a"
       ],
-      "questions": [
-        "¿Cómo se llama la madre?",
-        "¿Cuántos hermanos tiene la escritora?",
-        "¿Quién vive con la familia además de los padres?"
-      ],
-      "ordering": {
-        "prompt": "Ordena los eventos de la historia.",
-        "events": [
-          "Sofía presenta a sus padres.",
-          "Sofía describe a su hermana Lucía.",
-          "Sofía describe a su hermano Tomás.",
-          "La familia almuerza junta el domingo."
+      "phoneticSupport": {
+        "enabled": true,
+        "locale": "es-419",
+        "focus": "La \"r\" simple (una vibración: pero, cara) frente a la \"r\" múltiple (rr, o \"r\" al inicio de palabra: perro, Rafael); la \"ñ\" es un sonido distinto de \"n\".",
+        "fullIpa": null,
+        "segments": [
+          {
+            "text": "hermana",
+            "ipa": "/er.ˈma.na/"
+          },
+          {
+            "text": "Rafael",
+            "ipa": "/r̄a.fa.ˈel/"
+          }
+        ],
+        "stressedWords": [
+          "también",
+          "está"
+        ],
+        "syllabification": [
+          {
+            "word": "abuela",
+            "syllables": "a-bue-la"
+          }
+        ],
+        "difficultSounds": [
+          "r simple /ɾ/",
+          "r múltiple /r/",
+          "ñ /ɲ/"
+        ],
+        "reviewStatus": "pending-review"
+      },
+      "dictationSegmentCount": 3,
+      "listeningComprehension": {
+        "id": "spanish-a1-mi-familia-y-mis-amigos-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "En «Esta es mi hermana», ¿qué detalle presenta la situación?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Quiero hablar de mi mejor amigo, Kevin."
+              },
+              {
+                "id": "o2",
+                "text": "Tiene dieciocho años, es divertido y muy tranquilo."
+              },
+              {
+                "id": "o3",
+                "text": "A Kevin le gusta jugar al fútbol, ver películas y cocinar pasta los domingos."
+              },
+              {
+                "id": "o4",
+                "text": "Los sábados solemos ir al parque o tomar un jugo después de clase."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Después de «Quiero hablar de mi mejor amigo, Kevin.», ¿qué sucede a continuación en «Esta es mi hermana»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Quiero hablar de mi mejor amigo, Kevin."
+              },
+              {
+                "id": "o2",
+                "text": "Tiene dieciocho años, es divertido y muy tranquilo."
+              },
+              {
+                "id": "o3",
+                "text": "A Kevin le gusta jugar al fútbol, ver películas y cocinar pasta los domingos."
+              },
+              {
+                "id": "o4",
+                "text": "Los sábados solemos ir al parque o tomar un jugo después de clase."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Esta es mi hermana»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Quiero hablar de mi mejor amigo, Kevin."
+              },
+              {
+                "id": "o2",
+                "text": "Tiene dieciocho años, es divertido y muy tranquilo."
+              },
+              {
+                "id": "o3",
+                "text": "A Kevin le gusta jugar al fútbol, ver películas y cocinar pasta los domingos."
+              },
+              {
+                "id": "o4",
+                "text": "Los sábados solemos ir al parque o tomar un jugo después de clase."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Esta es mi hermana» después de «A Kevin le gusta jugar al fútbol, ver películas y cocinar pasta los…»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Quiero hablar de mi mejor amigo, Kevin."
+              },
+              {
+                "id": "o2",
+                "text": "Tiene dieciocho años, es divertido y muy tranquilo."
+              },
+              {
+                "id": "o3",
+                "text": "A Kevin le gusta jugar al fútbol, ver películas y cocinar pasta los domingos."
+              },
+              {
+                "id": "o4",
+                "text": "Los sábados solemos ir al parque o tomar un jugo después de clase."
+              }
+            ]
+          }
         ]
       },
-      "text": "Esta es mi familia. Mi madre se llama Carmen y mi padre se llama Rafael. Ellos trabajan cerca de la casa.\n\nTengo un hermano y una hermana. Mi hermana se llama Lucía; tiene dieciséis años y es alta y simpática. Mi hermano se llama Tomás; tiene nueve años.\n\nMi abuela Rosa vive con nosotros. Es una persona muy amable y cocina muy bien. Los domingos, toda la familia almuerza junta."
+      "grammarTest": null
     },
-    "transcript": "",
-    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cómo se llama el padre?",
+        "prompt": "En «Esta es mi hermana», ¿qué detalle presenta la situación?",
         "options": [
-          "Tomás",
-          "Rafael",
-          "Rosa",
-          "Lucía"
+          "Quiero hablar de mi mejor amigo, Kevin.",
+          "Tiene dieciocho años, es divertido y muy tranquilo.",
+          "A Kevin le gusta jugar al fútbol, ver películas y cocinar pasta los domingos.",
+          "Los sábados solemos ir al parque o tomar un jugo después de clase."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cuántos años tiene Lucía?",
+        "prompt": "Después de «Quiero hablar de mi mejor amigo, Kevin.», ¿qué sucede a continuación en «Esta es mi hermana»?",
         "options": [
-          "Nueve",
-          "Doce",
-          "Dieciséis",
-          "Veinte"
+          "Quiero hablar de mi mejor amigo, Kevin.",
+          "Tiene dieciocho años, es divertido y muy tranquilo.",
+          "A Kevin le gusta jugar al fútbol, ver películas y cocinar pasta los domingos.",
+          "Los sábados solemos ir al parque o tomar un jugo después de clase."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Quién es Rosa?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Esta es mi hermana»?",
         "options": [
-          "La madre",
-          "La hermana",
-          "La abuela",
-          "Una amiga"
+          "Quiero hablar de mi mejor amigo, Kevin.",
+          "Tiene dieciocho años, es divertido y muy tranquilo.",
+          "A Kevin le gusta jugar al fútbol, ver películas y cocinar pasta los domingos.",
+          "Los sábados solemos ir al parque o tomar un jugo después de clase."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es Lucía?",
+        "prompt": "¿Qué resultado cierra «Esta es mi hermana» después de «A Kevin le gusta jugar al fútbol, ver películas y cocinar pasta los…»?",
         "options": [
-          "Baja y tímida",
-          "Alta y simpática",
-          "Alta y triste",
-          "Baja y seria"
+          "Quiero hablar de mi mejor amigo, Kevin.",
+          "Tiene dieciocho años, es divertido y muy tranquilo.",
+          "A Kevin le gusta jugar al fútbol, ver películas y cocinar pasta los domingos.",
+          "Los sábados solemos ir al parque o tomar un jugo después de clase."
         ]
       }
     ]
@@ -8892,75 +9220,98 @@
       ],
       "transcript": "Normalmente entro a trabajar a las ocho, pero esta semana empiezo a las diez porque estoy haciendo un curso por las mañanas. El curso termina a las nueve y media. Para organizarme mejor, preparo mi agenda el domingo y dejo una tarde libre. Mientras estoy en clase, una compañera revisa los mensajes del trabajo. Después respondo lo más urgente y continúo con mi jornada. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.",
       "listeningComprehension": {
-        "id": "spanish-a2-rutinas-y-horarios-listening-comprehension",
+        "id": "spanish-a2-rutinas-y-horarios-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿A qué hora entra Lucía a trabajar esta semana?",
+            "prompt": "En «Escucha · Rutinas y horarios», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "A las ocho"
+                "text": "Normalmente entro a trabajar a las ocho, pero esta semana empiezo a las diez porque estoy haciendo un curso por las mañanas."
               },
               {
                 "id": "o2",
-                "text": "A las nueve y media"
+                "text": "Mientras estoy en clase, una compañera revisa los mensajes del trabajo."
               },
               {
                 "id": "o3",
-                "text": "A las diez"
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
               },
               {
                 "id": "o4",
-                "text": "A las doce"
+                "text": "Me gusta tener un plan claro antes de seguir."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Qué hace Lucía por las mañanas?",
+            "prompt": "Después de «Normalmente entro a trabajar a las ocho, pero esta semana empiezo a…», ¿qué sucede a continuación en «Escucha · Rutinas y horarios»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Un curso"
+                "text": "Normalmente entro a trabajar a las ocho, pero esta semana empiezo a las diez porque estoy haciendo un curso por las mañanas."
               },
               {
                 "id": "o2",
-                "text": "Ejercicio"
+                "text": "Mientras estoy en clase, una compañera revisa los mensajes del trabajo."
               },
               {
                 "id": "o3",
-                "text": "Compras"
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
               },
               {
                 "id": "o4",
-                "text": "Una reunión"
+                "text": "Me gusta tener un plan claro antes de seguir."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Cuándo organiza su agenda?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Rutinas y horarios»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Cada mañana"
+                "text": "Normalmente entro a trabajar a las ocho, pero esta semana empiezo a las diez porque estoy haciendo un curso por las mañanas."
               },
               {
                 "id": "o2",
-                "text": "El domingo"
+                "text": "Mientras estoy en clase, una compañera revisa los mensajes del trabajo."
               },
               {
                 "id": "o3",
-                "text": "Los viernes"
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
               },
               {
                 "id": "o4",
-                "text": "Después del curso"
+                "text": "Me gusta tener un plan claro antes de seguir."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Rutinas y horarios» después de «Al final, repaso la información y preparo el siguiente paso con calma.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Normalmente entro a trabajar a las ocho, pero esta semana empiezo a las diez porque estoy haciendo un curso por las mañanas."
+              },
+              {
+                "id": "o2",
+                "text": "Mientras estoy en clase, una compañera revisa los mensajes del trabajo."
+              },
+              {
+                "id": "o3",
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+              },
+              {
+                "id": "o4",
+                "text": "Me gusta tener un plan claro antes de seguir."
               }
             ]
           }
@@ -8971,36 +9322,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿A qué hora entra Lucía a trabajar esta semana?",
+        "prompt": "En «Escucha · Rutinas y horarios», ¿qué detalle presenta la situación?",
         "options": [
-          "A las ocho",
-          "A las nueve y media",
-          "A las diez",
-          "A las doce"
-        ],
-        "explanation": "Esta semana Lucía empieza a trabajar a las diez."
+          "Normalmente entro a trabajar a las ocho, pero esta semana empiezo a las diez porque estoy haciendo un curso por las mañanas.",
+          "Mientras estoy en clase, una compañera revisa los mensajes del trabajo.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace Lucía por las mañanas?",
+        "prompt": "Después de «Normalmente entro a trabajar a las ocho, pero esta semana empiezo a…», ¿qué sucede a continuación en «Escucha · Rutinas y horarios»?",
         "options": [
-          "Un curso",
-          "Ejercicio",
-          "Compras",
-          "Una reunión"
-        ],
-        "explanation": "Está haciendo un curso por las mañanas."
+          "Normalmente entro a trabajar a las ocho, pero esta semana empiezo a las diez porque estoy haciendo un curso por las mañanas.",
+          "Mientras estoy en clase, una compañera revisa los mensajes del trabajo.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cuándo organiza su agenda?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Rutinas y horarios»?",
         "options": [
-          "Cada mañana",
-          "El domingo",
-          "Los viernes",
-          "Después del curso"
-        ],
-        "explanation": "Lucía dice que organiza su agenda el domingo."
+          "Normalmente entro a trabajar a las ocho, pero esta semana empiezo a las diez porque estoy haciendo un curso por las mañanas.",
+          "Mientras estoy en clase, una compañera revisa los mensajes del trabajo.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Rutinas y horarios» después de «Al final, repaso la información y preparo el siguiente paso con calma.»?",
+        "options": [
+          "Normalmente entro a trabajar a las ocho, pero esta semana empiezo a las diez porque estoy haciendo un curso por las mañanas.",
+          "Mientras estoy en clase, una compañera revisa los mensajes del trabajo.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
       }
     ]
   },
@@ -9443,15 +9801,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Para formular una idea con precisión y reservas"
-              },
-              {
-                "id": "o2",
                 "text": "Para eliminar toda postura"
               },
               {
-                "id": "o3",
+                "id": "o2",
                 "text": "Para repetir palabras aisladas"
+              },
+              {
+                "id": "o3",
+                "text": "Para formular una idea con precisión y reservas"
               },
               {
                 "id": "o4",
@@ -9470,15 +9828,15 @@
               },
               {
                 "id": "o2",
-                "text": "Qué evidencia sostendría o modificaría una postura"
-              },
-              {
-                "id": "o3",
                 "text": "Cómo evitar cualquier debate"
               },
               {
-                "id": "o4",
+                "id": "o3",
                 "text": "Qué palabra es más difícil de pronunciar"
+              },
+              {
+                "id": "o4",
+                "text": "Qué evidencia sostendría o modificaría una postura"
               }
             ]
           }
@@ -9513,9 +9871,9 @@
         "type": "mcq",
         "prompt": "¿Para qué se usa la gramática de la unidad?",
         "options": [
-          "Para formular una idea con precisión y reservas",
           "Para eliminar toda postura",
           "Para repetir palabras aisladas",
+          "Para formular una idea con precisión y reservas",
           "Para evitar reconocer límites"
         ],
         "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
@@ -9525,9 +9883,9 @@
         "prompt": "¿Qué pregunta final propone el audio?",
         "options": [
           "Qué aplicación es más rápida",
-          "Qué evidencia sostendría o modificaría una postura",
           "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar"
+          "Qué palabra es más difícil de pronunciar",
+          "Qué evidencia sostendría o modificaría una postura"
         ],
         "explanation": "La pregunta final invita a justificar y revisar una conclusión."
       }
@@ -9622,15 +9980,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Para formular una idea con precisión y reservas"
-              },
-              {
-                "id": "o2",
                 "text": "Para eliminar toda postura"
               },
               {
-                "id": "o3",
+                "id": "o2",
                 "text": "Para repetir palabras aisladas"
+              },
+              {
+                "id": "o3",
+                "text": "Para formular una idea con precisión y reservas"
               },
               {
                 "id": "o4",
@@ -9649,15 +10007,15 @@
               },
               {
                 "id": "o2",
-                "text": "Qué evidencia sostendría o modificaría una postura"
-              },
-              {
-                "id": "o3",
                 "text": "Cómo evitar cualquier debate"
               },
               {
-                "id": "o4",
+                "id": "o3",
                 "text": "Qué palabra es más difícil de pronunciar"
+              },
+              {
+                "id": "o4",
+                "text": "Qué evidencia sostendría o modificaría una postura"
               }
             ]
           }
@@ -9692,9 +10050,9 @@
         "type": "mcq",
         "prompt": "¿Para qué se usa la gramática de la unidad?",
         "options": [
-          "Para formular una idea con precisión y reservas",
           "Para eliminar toda postura",
           "Para repetir palabras aisladas",
+          "Para formular una idea con precisión y reservas",
           "Para evitar reconocer límites"
         ],
         "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
@@ -9704,189 +10062,69 @@
         "prompt": "¿Qué pregunta final propone el audio?",
         "options": [
           "Qué aplicación es más rápida",
-          "Qué evidencia sostendría o modificaría una postura",
           "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar"
+          "Qué palabra es más difícil de pronunciar",
+          "Qué evidencia sostendría o modificaría una postura"
         ],
         "explanation": "La pregunta final invita a justificar y revisar una conclusión."
       }
     ]
   },
   {
-    "slug": "spanish-a1-mi-familia-y-mis-amigos-listening",
+    "slug": "spanish-a1-mi-familia-y-mis-amigos-speaking",
     "level": "A1",
-    "skill": "listening",
+    "skill": "speaking",
     "unitId": "mi-familia-y-mis-amigos",
-    "title": "Esta es mi hermana",
+    "title": "Describe a tu familia",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 25,
-    "orderIndex": 31,
-    "estimatedMinutes": 10,
-    "description": "Una persona describe a su familia a partir de una foto.",
-    "intro": "Escucha una descripción de la familia de Sofía mientras muestra una foto.",
-    "mission": "",
+    "xpReward": 20,
+    "orderIndex": 32,
+    "estimatedMinutes": 8,
+    "description": "Practica hablar sobre las personas de tu familia.",
+    "intro": "Practica hablar sobre las personas de tu familia.",
+    "mission": "Cuéntale a un compañero sobre dos personas de tu familia: quiénes son y un dato de cada una.",
     "grammar": "",
     "phrases": [
-      "Esta es mi...",
+      "Esta es mi madre/mi padre.",
+      "Tengo una hermana/un hermano.",
       "Se llama...",
-      "Tiene ... años.",
-      "Es alto/a, simpático/a..."
+      "Tiene ... años."
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "Tú",
+        "line": "Tengo una hermana. Se llama...",
+        "translation": "I have a sister. Her name is..."
+      },
+      {
+        "speaker": "Compañero/a",
+        "line": "¿Cuántos años tiene?",
+        "translation": "How old is she?"
+      },
+      {
+        "speaker": "Tú",
+        "line": "Tiene ... años.",
+        "translation": "She is ... years old."
+      },
+      {
+        "speaker": "Compañero/a",
+        "line": "Muy bien. Ahora añade una frase más sobre «Esta es mi madre/mi padre.».",
+        "translation": "Very good. Now add one more sentence about this topic."
+      }
+    ],
     "reading": null,
-    "transcript": "Quiero hablar de mi mejor amigo, Kevin. Lo conozco desde la escuela y vivimos en el mismo barrio. Tiene dieciocho años, es divertido y muy tranquilo. A Kevin le gusta jugar al fútbol, ver películas y cocinar pasta los domingos. Cuando tengo un problema, él escucha con atención y me da buenos consejos. Los sábados solemos ir al parque o tomar un jugo después de clase.",
-    "extra": {
-      "listeningType": "story",
-      "difficulty": "A1",
-      "durationSeconds": 45,
-      "speakers": [
-        "Narrador/a"
-      ],
-      "phoneticSupport": {
-        "enabled": true,
-        "locale": "es-419",
-        "focus": "La \"r\" simple (una vibración: pero, cara) frente a la \"r\" múltiple (rr, o \"r\" al inicio de palabra: perro, Rafael); la \"ñ\" es un sonido distinto de \"n\".",
-        "fullIpa": null,
-        "segments": [
-          {
-            "text": "hermana",
-            "ipa": "/er.ˈma.na/"
-          },
-          {
-            "text": "Rafael",
-            "ipa": "/r̄a.fa.ˈel/"
-          }
-        ],
-        "stressedWords": [
-          "también",
-          "está"
-        ],
-        "syllabification": [
-          {
-            "word": "abuela",
-            "syllables": "a-bue-la"
-          }
-        ],
-        "difficultSounds": [
-          "r simple /ɾ/",
-          "r múltiple /r/",
-          "ñ /ɲ/"
-        ],
-        "reviewStatus": "pending-review"
-      },
-      "dictationSegmentCount": 3,
-      "listeningComprehension": {
-        "id": "spanish-a1-mi-familia-y-mis-amigos-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "¿Cómo se llama el mejor amigo?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Kevin"
-              },
-              {
-                "id": "o2",
-                "text": "Marco"
-              },
-              {
-                "id": "o3",
-                "text": "Tomás"
-              },
-              {
-                "id": "o4",
-                "text": "Rafael"
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "¿Desde cuándo conoce a Kevin?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Desde la escuela"
-              },
-              {
-                "id": "o2",
-                "text": "Desde ayer"
-              },
-              {
-                "id": "o3",
-                "text": "Desde el trabajo"
-              },
-              {
-                "id": "o4",
-                "text": "Desde un viaje"
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "¿Qué le gusta hacer a Kevin?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Jugar al fútbol y ver películas"
-              },
-              {
-                "id": "o2",
-                "text": "Cocinar en una farmacia"
-              },
-              {
-                "id": "o3",
-                "text": "Trabajar en un banco"
-              },
-              {
-                "id": "o4",
-                "text": "Nadar cada mañana"
-              }
-            ]
-          }
-        ]
-      },
-      "grammarTest": null
-    },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
-        "type": "mcq",
-        "prompt": "¿Cómo se llama el mejor amigo?",
-        "options": [
-          "Kevin",
-          "Marco",
-          "Tomás",
-          "Rafael"
-        ],
-        "explanation": "La persona habla de su mejor amigo Kevin."
+        "type": "speaking",
+        "prompt": "Di en voz alta dos oraciones sobre un familiar (nombre y edad o una característica)."
       },
       {
-        "type": "mcq",
-        "prompt": "¿Desde cuándo conoce a Kevin?",
-        "options": [
-          "Desde la escuela",
-          "Desde ayer",
-          "Desde el trabajo",
-          "Desde un viaje"
-        ],
-        "explanation": "Lo conoce desde la escuela."
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Qué le gusta hacer a Kevin?",
-        "options": [
-          "Jugar al fútbol y ver películas",
-          "Cocinar en una farmacia",
-          "Trabajar en un banco",
-          "Nadar cada mañana"
-        ],
-        "explanation": "A Kevin le gusta jugar al fútbol y ver películas."
+        "type": "practice",
+        "prompt": "Pregúntale a un compañero \"¿Tienes hermanos?\" y escucha su respuesta. Si no tienes micrófono, responde por escrito."
       }
     ]
   },
@@ -10188,47 +10426,32 @@
     ]
   },
   {
-    "slug": "spanish-a1-mi-familia-y-mis-amigos-speaking",
+    "slug": "spanish-a1-mi-familia-y-mis-amigos-writing",
     "level": "A1",
-    "skill": "speaking",
+    "skill": "writing",
     "unitId": "mi-familia-y-mis-amigos",
-    "title": "Describe a tu familia",
+    "title": "Escribe sobre tu familia",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 20,
-    "orderIndex": 32,
-    "estimatedMinutes": 8,
-    "description": "Practica hablar sobre las personas de tu familia.",
-    "intro": "Practica hablar sobre las personas de tu familia.",
-    "mission": "Cuéntale a un compañero sobre dos personas de tu familia: quiénes son y un dato de cada una.",
+    "xpReward": 25,
+    "orderIndex": 33,
+    "estimatedMinutes": 12,
+    "description": "Escribe un párrafo corto describiendo a tu familia.",
+    "intro": "Escribe un párrafo corto describiendo a tu familia.",
+    "mission": "Escribe 4-5 oraciones sobre tu familia: quiénes son y un detalle de cada persona.",
     "grammar": "",
     "phrases": [
-      "Esta es mi madre/mi padre.",
-      "Tengo una hermana/un hermano.",
-      "Se llama...",
+      "Esta es mi familia.",
+      "Tengo un/una...",
+      "...se llama...",
       "Tiene ... años."
     ],
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Tú",
-        "line": "Tengo una hermana. Se llama...",
-        "translation": "I have a sister. Her name is..."
-      },
-      {
-        "speaker": "Compañero/a",
-        "line": "¿Cuántos años tiene?",
-        "translation": "How old is she?"
-      },
-      {
-        "speaker": "Tú",
-        "line": "Tiene ... años.",
-        "translation": "She is ... years old."
-      },
-      {
-        "speaker": "Compañero/a",
-        "line": "Muy bien. Ahora añade una frase más sobre «Esta es mi madre/mi padre.».",
-        "translation": "Very good. Now add one more sentence about this topic."
+        "speaker": "Modelo",
+        "line": "Esta es mi familia. Tengo una hermana. Mi hermana se llama Lucía. Tiene dieciséis años.",
+        "translation": "This is my family. I have a sister. My sister is called Lucía. She is sixteen years old."
       }
     ],
     "reading": null,
@@ -10236,12 +10459,8 @@
     "extra": null,
     "exercises": [
       {
-        "type": "speaking",
-        "prompt": "Di en voz alta dos oraciones sobre un familiar (nombre y edad o una característica)."
-      },
-      {
-        "type": "practice",
-        "prompt": "Pregúntale a un compañero \"¿Tienes hermanos?\" y escucha su respuesta. Si no tienes micrófono, responde por escrito."
+        "type": "writing",
+        "prompt": "Escribe 4-5 oraciones describiendo a los miembros de tu familia y un detalle de cada uno."
       }
     ]
   },
@@ -10411,41 +10630,71 @@
     ]
   },
   {
-    "slug": "spanish-a1-mi-familia-y-mis-amigos-writing",
+    "slug": "spanish-a1-mi-familia-y-mis-amigos-grammar",
     "level": "A1",
-    "skill": "writing",
+    "skill": "grammar",
     "unitId": "mi-familia-y-mis-amigos",
-    "title": "Escribe sobre tu familia",
+    "title": "Posesivos, género y número",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 25,
-    "orderIndex": 33,
-    "estimatedMinutes": 12,
-    "description": "Escribe un párrafo corto describiendo a tu familia.",
-    "intro": "Escribe un párrafo corto describiendo a tu familia.",
-    "mission": "Escribe 4-5 oraciones sobre tu familia: quiénes son y un detalle de cada persona.",
-    "grammar": "",
+    "xpReward": 20,
+    "orderIndex": 34,
+    "estimatedMinutes": 8,
+    "description": "Aprende a usar mi/mis, tu/tus, su/sus y la concordancia de artículos y adjetivos.",
+    "intro": "Aprende a usar mi/mis, tu/tus, su/sus y la concordancia de artículos y adjetivos.",
+    "mission": "",
+    "grammar": "Los posesivos concuerdan en número con lo que poseemos: mi hermano / mis hermanos. Los artículos y adjetivos concuerdan en género y número con el sustantivo: el hermano alto, la hermana alta, los hermanos altos. Error frecuente: usar \"mi\" con sustantivos plurales (decir \"mi hermanos\" en vez de \"mis hermanos\").",
     "phrases": [
-      "Esta es mi familia.",
-      "Tengo un/una...",
-      "...se llama...",
-      "Tiene ... años."
+      "mi hermano / mis hermanos",
+      "tu familia",
+      "su abuela",
+      "la hermana alta"
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Modelo",
-        "line": "Esta es mi familia. Tengo una hermana. Mi hermana se llama Lucía. Tiene dieciséis años.",
-        "translation": "This is my family. I have a sister. My sister is called Lucía. She is sixteen years old."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "type": "writing",
-        "prompt": "Escribe 4-5 oraciones describiendo a los miembros de tu familia y un detalle de cada uno."
+        "type": "mcq",
+        "prompt": "___ hermana se llama Lucía. (yo)",
+        "options": [
+          "Mi",
+          "Mis",
+          "Tu",
+          "Su"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Tengo dos hermanos: ___ hermanos son simpáticos.",
+        "options": [
+          "mi",
+          "mis",
+          "su",
+          "tu"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Lucía es ___ (alto, femenino).",
+        "options": [
+          "alto",
+          "alta",
+          "altos",
+          "altas"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Elige la oración correcta.",
+        "options": [
+          "Mi hermanos son altos.",
+          "Mis hermanos son altos.",
+          "Mi hermanos es alto.",
+          "Mis hermano son alto."
+        ]
       }
     ]
   },
@@ -11310,27 +11559,113 @@
     ]
   },
   {
-    "slug": "spanish-a1-mi-familia-y-mis-amigos-grammar",
+    "slug": "spanish-a1-mi-familia-y-mis-amigos-vocabulary",
     "level": "A1",
-    "skill": "grammar",
+    "skill": "vocabulary",
     "unitId": "mi-familia-y-mis-amigos",
-    "title": "Posesivos, género y número",
+    "title": "Miembros de la familia",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
-    "orderIndex": 34,
-    "estimatedMinutes": 8,
-    "description": "Aprende a usar mi/mis, tu/tus, su/sus y la concordancia de artículos y adjetivos.",
-    "intro": "Aprende a usar mi/mis, tu/tus, su/sus y la concordancia de artículos y adjetivos.",
+    "orderIndex": 35,
+    "estimatedMinutes": 6,
+    "description": "Palabras para las personas de tu familia y su apariencia.",
+    "intro": "Palabras para las personas de tu familia y su apariencia.",
     "mission": "",
-    "grammar": "Los posesivos concuerdan en número con lo que poseemos: mi hermano / mis hermanos. Los artículos y adjetivos concuerdan en género y número con el sustantivo: el hermano alto, la hermana alta, los hermanos altos. Error frecuente: usar \"mi\" con sustantivos plurales (decir \"mi hermanos\" en vez de \"mis hermanos\").",
-    "phrases": [
-      "mi hermano / mis hermanos",
-      "tu familia",
-      "su abuela",
-      "la hermana alta"
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "Madre",
+        "category": "familia",
+        "translation": "Mother",
+        "example": "Mi madre se llama Carmen."
+      },
+      {
+        "word": "Padre",
+        "category": "familia",
+        "translation": "Father",
+        "example": "Mi padre trabaja cerca de casa."
+      },
+      {
+        "word": "Hermana",
+        "category": "familia",
+        "translation": "Sister",
+        "example": "Mi hermana tiene dieciséis años."
+      },
+      {
+        "word": "Hermano",
+        "category": "familia",
+        "translation": "Brother",
+        "example": "Mi hermano tiene nueve años."
+      },
+      {
+        "word": "Abuela",
+        "category": "familia",
+        "translation": "Grandmother",
+        "example": "Mi abuela es muy amable."
+      },
+      {
+        "word": "Abuelo",
+        "category": "familia",
+        "translation": "Grandfather",
+        "example": "Mi abuelo cuenta buenas historias."
+      },
+      {
+        "word": "Primo/a",
+        "category": "familia",
+        "translation": "Cousin",
+        "example": "Mi primo vive en Santiago."
+      },
+      {
+        "word": "Alto/a",
+        "category": "apariencia",
+        "translation": "Tall",
+        "example": "Lucía es alta."
+      },
+      {
+        "word": "Bajo/a",
+        "category": "apariencia",
+        "translation": "Short",
+        "example": "Tomás es bajo."
+      },
+      {
+        "word": "Simpático/a",
+        "category": "personalidad",
+        "translation": "Friendly/nice",
+        "example": "Mi hermana es simpática."
+      },
+      {
+        "word": "Amable",
+        "category": "personalidad",
+        "translation": "Kind",
+        "example": "Mi abuela es amable."
+      },
+      {
+        "word": "Casado/a",
+        "category": "estado civil",
+        "translation": "Married",
+        "example": "Mis padres están casados."
+      },
+      {
+        "word": "Soltero/a",
+        "category": "estado civil",
+        "translation": "Single",
+        "example": "Mi tío es soltero."
+      },
+      {
+        "word": "Tío/a",
+        "category": "familia",
+        "translation": "Uncle/aunt",
+        "example": "Mi tío vive en Santiago."
+      },
+      {
+        "word": "Familia",
+        "category": "familia",
+        "translation": "Family",
+        "example": "Somos una familia feliz."
+      }
     ],
-    "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
@@ -11338,42 +11673,32 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "___ hermana se llama Lucía. (yo)",
+        "prompt": "¿Qué significa \"Hermano\"?",
         "options": [
-          "Mi",
-          "Mis",
-          "Tu",
-          "Su"
+          "Sister",
+          "Brother",
+          "Father",
+          "Cousin"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Tengo dos hermanos: ___ hermanos son simpáticos.",
+        "prompt": "¿Qué significa \"Abuela\"?",
         "options": [
-          "mi",
-          "mis",
-          "su",
-          "tu"
+          "Grandfather",
+          "Mother",
+          "Grandmother",
+          "Cousin"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Lucía es ___ (alto, femenino).",
+        "prompt": "¿Qué significa \"Simpático/a\"?",
         "options": [
-          "alto",
-          "alta",
-          "altos",
-          "altas"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Elige la oración correcta.",
-        "options": [
-          "Mi hermanos son altos.",
-          "Mis hermanos son altos.",
-          "Mi hermanos es alto.",
-          "Mis hermano son alto."
+          "Tall",
+          "Short",
+          "Friendly/nice",
+          "Married"
         ]
       }
     ]
@@ -12074,146 +12399,87 @@
     ]
   },
   {
-    "slug": "spanish-a1-mi-familia-y-mis-amigos-vocabulary",
+    "slug": "spanish-a1-mi-rutina-diaria-reading",
     "level": "A1",
-    "skill": "vocabulary",
-    "unitId": "mi-familia-y-mis-amigos",
-    "title": "Miembros de la familia",
+    "skill": "reading",
+    "unitId": "mi-rutina-diaria",
+    "title": "Un día normal",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 20,
-    "orderIndex": 35,
-    "estimatedMinutes": 6,
-    "description": "Palabras para las personas de tu familia y su apariencia.",
-    "intro": "Palabras para las personas de tu familia y su apariencia.",
+    "xpReward": 25,
+    "orderIndex": 40,
+    "estimatedMinutes": 10,
+    "description": "Un texto sobre la rutina diaria de Valentina.",
+    "intro": "Un texto sobre la rutina diaria de Valentina.",
     "mission": "",
     "grammar": "",
     "phrases": [],
-    "vocabulary": [
-      {
-        "word": "Madre",
-        "category": "familia",
-        "translation": "Mother",
-        "example": "Mi madre se llama Carmen."
-      },
-      {
-        "word": "Padre",
-        "category": "familia",
-        "translation": "Father",
-        "example": "Mi padre trabaja cerca de casa."
-      },
-      {
-        "word": "Hermana",
-        "category": "familia",
-        "translation": "Sister",
-        "example": "Mi hermana tiene dieciséis años."
-      },
-      {
-        "word": "Hermano",
-        "category": "familia",
-        "translation": "Brother",
-        "example": "Mi hermano tiene nueve años."
-      },
-      {
-        "word": "Abuela",
-        "category": "familia",
-        "translation": "Grandmother",
-        "example": "Mi abuela es muy amable."
-      },
-      {
-        "word": "Abuelo",
-        "category": "familia",
-        "translation": "Grandfather",
-        "example": "Mi abuelo cuenta buenas historias."
-      },
-      {
-        "word": "Primo/a",
-        "category": "familia",
-        "translation": "Cousin",
-        "example": "Mi primo vive en Santiago."
-      },
-      {
-        "word": "Alto/a",
-        "category": "apariencia",
-        "translation": "Tall",
-        "example": "Lucía es alta."
-      },
-      {
-        "word": "Bajo/a",
-        "category": "apariencia",
-        "translation": "Short",
-        "example": "Tomás es bajo."
-      },
-      {
-        "word": "Simpático/a",
-        "category": "personalidad",
-        "translation": "Friendly/nice",
-        "example": "Mi hermana es simpática."
-      },
-      {
-        "word": "Amable",
-        "category": "personalidad",
-        "translation": "Kind",
-        "example": "Mi abuela es amable."
-      },
-      {
-        "word": "Casado/a",
-        "category": "estado civil",
-        "translation": "Married",
-        "example": "Mis padres están casados."
-      },
-      {
-        "word": "Soltero/a",
-        "category": "estado civil",
-        "translation": "Single",
-        "example": "Mi tío es soltero."
-      },
-      {
-        "word": "Tío/a",
-        "category": "familia",
-        "translation": "Uncle/aunt",
-        "example": "Mi tío vive en Santiago."
-      },
-      {
-        "word": "Familia",
-        "category": "familia",
-        "translation": "Family",
-        "example": "Somos una familia feliz."
-      }
-    ],
+    "vocabulary": [],
     "dialogue": [],
-    "reading": null,
+    "reading": {
+      "title": "Un día normal",
+      "parts": [
+        "Todos los días me despierto a las seis y media. Primero me lavo la cara y luego desayuno con mi familia.",
+        "Camino a la escuela con mi amiga Camila. Las clases empiezan a las ocho de la mañana y terminan a las dos de la tarde.",
+        "Por la noche, ceno con mi familia a las siete. Después leo un poco y me acuesto a las nueve y media."
+      ],
+      "questions": [
+        "¿A qué hora se despierta la escritora?",
+        "¿Con quién camina a la escuela?",
+        "¿A qué hora se acuesta?"
+      ],
+      "ordering": {
+        "prompt": "Ordena los eventos de la historia.",
+        "events": [
+          "Valentina se despierta y desayuna.",
+          "Valentina camina a la escuela con Camila.",
+          "Las clases terminan a las dos.",
+          "Valentina cena y se acuesta a las nueve y media."
+        ]
+      },
+      "text": "Todos los días me despierto a las seis y media. Primero me lavo la cara y luego desayuno con mi familia.\n\nCamino a la escuela con mi amiga Camila. Las clases empiezan a las ocho de la mañana y terminan a las dos de la tarde.\n\nPor la noche, ceno con mi familia a las siete. Después leo un poco y me acuesto a las nueve y media."
+    },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"Hermano\"?",
+        "prompt": "¿A qué hora se despierta?",
         "options": [
-          "Sister",
-          "Brother",
-          "Father",
-          "Cousin"
+          "Seis",
+          "Seis y media",
+          "Siete",
+          "Ocho"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"Abuela\"?",
+        "prompt": "¿Con quién camina a la escuela?",
         "options": [
-          "Grandfather",
-          "Mother",
-          "Grandmother",
-          "Cousin"
+          "Con su hermana",
+          "Con Camila",
+          "Sola",
+          "Con su madre"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"Simpático/a\"?",
+        "prompt": "¿A qué hora empiezan las clases?",
         "options": [
-          "Tall",
-          "Short",
-          "Friendly/nice",
-          "Married"
+          "Siete",
+          "Ocho",
+          "Nueve",
+          "Diez"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿A qué hora se acuesta?",
+        "options": [
+          "Ocho y media",
+          "Nueve",
+          "Nueve y media",
+          "Diez"
         ]
       }
     ]
@@ -12687,87 +12953,207 @@
     ]
   },
   {
-    "slug": "spanish-a1-mi-rutina-diaria-reading",
+    "slug": "spanish-a1-mi-rutina-diaria-listening",
     "level": "A1",
-    "skill": "reading",
+    "skill": "listening",
     "unitId": "mi-rutina-diaria",
-    "title": "Un día normal",
+    "title": "¿A qué hora te levantas?",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
-    "orderIndex": 40,
+    "orderIndex": 41,
     "estimatedMinutes": 10,
-    "description": "Un texto sobre la rutina diaria de Valentina.",
-    "intro": "Un texto sobre la rutina diaria de Valentina.",
+    "description": "Dos amigos comparan sus rutinas diarias.",
+    "intro": "Escucha a Diego y Tomás hablando sobre lo que hacen todos los días.",
     "mission": "",
     "grammar": "",
-    "phrases": [],
+    "phrases": [
+      "¿A qué hora te levantas?",
+      "Me levanto a las...",
+      "Camino a la escuela.",
+      "Las clases empiezan a las..."
+    ],
     "vocabulary": [],
     "dialogue": [],
-    "reading": {
-      "title": "Un día normal",
-      "parts": [
-        "Todos los días me despierto a las seis y media. Primero me lavo la cara y luego desayuno con mi familia.",
-        "Camino a la escuela con mi amiga Camila. Las clases empiezan a las ocho de la mañana y terminan a las dos de la tarde.",
-        "Por la noche, ceno con mi familia a las siete. Después leo un poco y me acuesto a las nueve y media."
+    "reading": null,
+    "transcript": "Sofía vive con sus padres y sus dos hermanos. Su madre trabaja en una tienda y su padre es conductor. Su hermana Lucía tiene dieciséis años y su hermano Tomás tiene nueve. Los domingos la familia come junta en casa de la abuela Rosa. Después de comer, todos conversan y los niños juegan en el patio. Sofía dice que su familia es grande, pero muy cariñosa.",
+    "extra": {
+      "listeningType": "story",
+      "difficulty": "A1",
+      "durationSeconds": 45,
+      "speakers": [
+        "Narrador/a"
       ],
-      "questions": [
-        "¿A qué hora se despierta la escritora?",
-        "¿Con quién camina a la escuela?",
-        "¿A qué hora se acuesta?"
-      ],
-      "ordering": {
-        "prompt": "Ordena los eventos de la historia.",
-        "events": [
-          "Valentina se despierta y desayuna.",
-          "Valentina camina a la escuela con Camila.",
-          "Las clases terminan a las dos.",
-          "Valentina cena y se acuesta a las nueve y media."
+      "phoneticSupport": {
+        "enabled": true,
+        "locale": "es-419",
+        "focus": "Enlace natural entre palabras (me_levanto suena como una sola unidad); las terminaciones -o/-as/-a marcan la persona del verbo.",
+        "fullIpa": null,
+        "segments": [
+          {
+            "text": "me levanto",
+            "ipa": "/me le.ˈβan.to/"
+          },
+          {
+            "text": "desayuno",
+            "ipa": "/de.sa.ˈʝu.no/"
+          }
+        ],
+        "stressedWords": [
+          "después",
+          "también"
+        ],
+        "syllabification": [
+          {
+            "word": "escuela",
+            "syllables": "es-cue-la"
+          }
+        ],
+        "difficultSounds": [
+          "enlaces entre palabras"
+        ],
+        "reviewStatus": "pending-review"
+      },
+      "dictationSegmentCount": 3,
+      "listeningComprehension": {
+        "id": "spanish-a1-mi-rutina-diaria-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "En «¿A qué hora te levantas?», ¿qué detalle presenta la situación?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sofía vive con sus padres y sus dos hermanos."
+              },
+              {
+                "id": "o2",
+                "text": "Su hermana Lucía tiene dieciséis años y su hermano Tomás tiene nueve."
+              },
+              {
+                "id": "o3",
+                "text": "Los domingos la familia come junta en casa de la abuela Rosa."
+              },
+              {
+                "id": "o4",
+                "text": "Sofía dice que su familia es grande, pero muy cariñosa."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Después de «Sofía vive con sus padres y sus dos hermanos.», ¿qué sucede a continuación en «¿A qué hora te levantas?»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sofía vive con sus padres y sus dos hermanos."
+              },
+              {
+                "id": "o2",
+                "text": "Su hermana Lucía tiene dieciséis años y su hermano Tomás tiene nueve."
+              },
+              {
+                "id": "o3",
+                "text": "Los domingos la familia come junta en casa de la abuela Rosa."
+              },
+              {
+                "id": "o4",
+                "text": "Sofía dice que su familia es grande, pero muy cariñosa."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «¿A qué hora te levantas?»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sofía vive con sus padres y sus dos hermanos."
+              },
+              {
+                "id": "o2",
+                "text": "Su hermana Lucía tiene dieciséis años y su hermano Tomás tiene nueve."
+              },
+              {
+                "id": "o3",
+                "text": "Los domingos la familia come junta en casa de la abuela Rosa."
+              },
+              {
+                "id": "o4",
+                "text": "Sofía dice que su familia es grande, pero muy cariñosa."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «¿A qué hora te levantas?» después de «Los domingos la familia come junta en casa de la abuela Rosa.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sofía vive con sus padres y sus dos hermanos."
+              },
+              {
+                "id": "o2",
+                "text": "Su hermana Lucía tiene dieciséis años y su hermano Tomás tiene nueve."
+              },
+              {
+                "id": "o3",
+                "text": "Los domingos la familia come junta en casa de la abuela Rosa."
+              },
+              {
+                "id": "o4",
+                "text": "Sofía dice que su familia es grande, pero muy cariñosa."
+              }
+            ]
+          }
         ]
       },
-      "text": "Todos los días me despierto a las seis y media. Primero me lavo la cara y luego desayuno con mi familia.\n\nCamino a la escuela con mi amiga Camila. Las clases empiezan a las ocho de la mañana y terminan a las dos de la tarde.\n\nPor la noche, ceno con mi familia a las siete. Después leo un poco y me acuesto a las nueve y media."
+      "grammarTest": null
     },
-    "transcript": "",
-    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿A qué hora se despierta?",
+        "prompt": "En «¿A qué hora te levantas?», ¿qué detalle presenta la situación?",
         "options": [
-          "Seis",
-          "Seis y media",
-          "Siete",
-          "Ocho"
+          "Sofía vive con sus padres y sus dos hermanos.",
+          "Su hermana Lucía tiene dieciséis años y su hermano Tomás tiene nueve.",
+          "Los domingos la familia come junta en casa de la abuela Rosa.",
+          "Sofía dice que su familia es grande, pero muy cariñosa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Con quién camina a la escuela?",
+        "prompt": "Después de «Sofía vive con sus padres y sus dos hermanos.», ¿qué sucede a continuación en «¿A qué hora te levantas?»?",
         "options": [
-          "Con su hermana",
-          "Con Camila",
-          "Sola",
-          "Con su madre"
+          "Sofía vive con sus padres y sus dos hermanos.",
+          "Su hermana Lucía tiene dieciséis años y su hermano Tomás tiene nueve.",
+          "Los domingos la familia come junta en casa de la abuela Rosa.",
+          "Sofía dice que su familia es grande, pero muy cariñosa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿A qué hora empiezan las clases?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «¿A qué hora te levantas?»?",
         "options": [
-          "Siete",
-          "Ocho",
-          "Nueve",
-          "Diez"
+          "Sofía vive con sus padres y sus dos hermanos.",
+          "Su hermana Lucía tiene dieciséis años y su hermano Tomás tiene nueve.",
+          "Los domingos la familia come junta en casa de la abuela Rosa.",
+          "Sofía dice que su familia es grande, pero muy cariñosa."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿A qué hora se acuesta?",
+        "prompt": "¿Qué resultado cierra «¿A qué hora te levantas?» después de «Los domingos la familia come junta en casa de la abuela Rosa.»?",
         "options": [
-          "Ocho y media",
-          "Nueve",
-          "Nueve y media",
-          "Diez"
+          "Sofía vive con sus padres y sus dos hermanos.",
+          "Su hermana Lucía tiene dieciséis años y su hermano Tomás tiene nueve.",
+          "Los domingos la familia come junta en casa de la abuela Rosa.",
+          "Sofía dice que su familia es grande, pero muy cariñosa."
         ]
       }
     ]
@@ -12804,75 +13190,98 @@
       ],
       "transcript": "Desde ayer me duele la garganta y tengo un poco de fiebre. Esta semana he trabajado hasta tarde y no he descansado bien. Por eso fui a la doctora. Ella cree que tengo una infección leve y me recomienda beber agua, descansar y tomar la medicina. Si continúo con fiebre, debo pedir otra cita en tres días. Mañana no iré al trabajo si me siento peor. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.",
       "listeningComprehension": {
-        "id": "spanish-a2-salud-y-bienestar-listening-comprehension",
+        "id": "spanish-a2-salud-y-bienestar-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué le duele al paciente?",
+            "prompt": "En «Escucha · Salud y bienestar», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "La espalda"
+                "text": "Desde ayer me duele la garganta y tengo un poco de fiebre."
               },
               {
                 "id": "o2",
-                "text": "La garganta"
+                "text": "Ella cree que tengo una infección leve y me recomienda beber agua, descansar y tomar la medicina."
               },
               {
                 "id": "o3",
-                "text": "El estómago"
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
               },
               {
                 "id": "o4",
-                "text": "La pierna"
+                "text": "Me gusta tener un plan claro antes de seguir."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Qué recomienda la doctora?",
+            "prompt": "Después de «Desde ayer me duele la garganta y tengo un poco de fiebre.», ¿qué sucede a continuación en «Escucha · Salud y bienestar»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Hacer deporte"
+                "text": "Desde ayer me duele la garganta y tengo un poco de fiebre."
               },
               {
                 "id": "o2",
-                "text": "Trabajar más"
+                "text": "Ella cree que tengo una infección leve y me recomienda beber agua, descansar y tomar la medicina."
               },
               {
                 "id": "o3",
-                "text": "Beber agua y descansar"
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
               },
               {
                 "id": "o4",
-                "text": "No tomar medicina"
+                "text": "Me gusta tener un plan claro antes de seguir."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Cuándo debe volver el paciente?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Salud y bienestar»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Mañana"
+                "text": "Desde ayer me duele la garganta y tengo un poco de fiebre."
               },
               {
                 "id": "o2",
-                "text": "En una semana"
+                "text": "Ella cree que tengo una infección leve y me recomienda beber agua, descansar y tomar la medicina."
               },
               {
                 "id": "o3",
-                "text": "Si sigue con fiebre en tres días"
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
               },
               {
                 "id": "o4",
-                "text": "Nunca"
+                "text": "Me gusta tener un plan claro antes de seguir."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Salud y bienestar» después de «Al final, repaso la información y preparo el siguiente paso con calma.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Desde ayer me duele la garganta y tengo un poco de fiebre."
+              },
+              {
+                "id": "o2",
+                "text": "Ella cree que tengo una infección leve y me recomienda beber agua, descansar y tomar la medicina."
+              },
+              {
+                "id": "o3",
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+              },
+              {
+                "id": "o4",
+                "text": "Me gusta tener un plan claro antes de seguir."
               }
             ]
           }
@@ -12883,36 +13292,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué le duele al paciente?",
+        "prompt": "En «Escucha · Salud y bienestar», ¿qué detalle presenta la situación?",
         "options": [
-          "La espalda",
-          "La garganta",
-          "El estómago",
-          "La pierna"
-        ],
-        "explanation": "El paciente dice que le duele la garganta."
+          "Desde ayer me duele la garganta y tengo un poco de fiebre.",
+          "Ella cree que tengo una infección leve y me recomienda beber agua, descansar y tomar la medicina.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué recomienda la doctora?",
+        "prompt": "Después de «Desde ayer me duele la garganta y tengo un poco de fiebre.», ¿qué sucede a continuación en «Escucha · Salud y bienestar»?",
         "options": [
-          "Hacer deporte",
-          "Trabajar más",
-          "Beber agua y descansar",
-          "No tomar medicina"
-        ],
-        "explanation": "La doctora recomienda agua, descanso y medicina."
+          "Desde ayer me duele la garganta y tengo un poco de fiebre.",
+          "Ella cree que tengo una infección leve y me recomienda beber agua, descansar y tomar la medicina.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cuándo debe volver el paciente?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Salud y bienestar»?",
         "options": [
-          "Mañana",
-          "En una semana",
-          "Si sigue con fiebre en tres días",
-          "Nunca"
-        ],
-        "explanation": "Debe pedir otra cita si sigue con fiebre en tres días."
+          "Desde ayer me duele la garganta y tengo un poco de fiebre.",
+          "Ella cree que tengo una infección leve y me recomienda beber agua, descansar y tomar la medicina.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Salud y bienestar» después de «Al final, repaso la información y preparo el siguiente paso con calma.»?",
+        "options": [
+          "Desde ayer me duele la garganta y tengo un poco de fiebre.",
+          "Ella cree que tengo una infección leve y me recomienda beber agua, descansar y tomar la medicina.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
       }
     ]
   },
@@ -13355,15 +13771,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Para formular una idea con precisión y reservas"
-              },
-              {
-                "id": "o2",
                 "text": "Para eliminar toda postura"
               },
               {
-                "id": "o3",
+                "id": "o2",
                 "text": "Para repetir palabras aisladas"
+              },
+              {
+                "id": "o3",
+                "text": "Para formular una idea con precisión y reservas"
               },
               {
                 "id": "o4",
@@ -13382,15 +13798,15 @@
               },
               {
                 "id": "o2",
-                "text": "Qué evidencia sostendría o modificaría una postura"
-              },
-              {
-                "id": "o3",
                 "text": "Cómo evitar cualquier debate"
               },
               {
-                "id": "o4",
+                "id": "o3",
                 "text": "Qué palabra es más difícil de pronunciar"
+              },
+              {
+                "id": "o4",
+                "text": "Qué evidencia sostendría o modificaría una postura"
               }
             ]
           }
@@ -13425,9 +13841,9 @@
         "type": "mcq",
         "prompt": "¿Para qué se usa la gramática de la unidad?",
         "options": [
-          "Para formular una idea con precisión y reservas",
           "Para eliminar toda postura",
           "Para repetir palabras aisladas",
+          "Para formular una idea con precisión y reservas",
           "Para evitar reconocer límites"
         ],
         "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
@@ -13437,9 +13853,9 @@
         "prompt": "¿Qué pregunta final propone el audio?",
         "options": [
           "Qué aplicación es más rápida",
-          "Qué evidencia sostendría o modificaría una postura",
           "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar"
+          "Qué palabra es más difícil de pronunciar",
+          "Qué evidencia sostendría o modificaría una postura"
         ],
         "explanation": "La pregunta final invita a justificar y revisar una conclusión."
       }
@@ -13534,15 +13950,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Para formular una idea con precisión y reservas"
-              },
-              {
-                "id": "o2",
                 "text": "Para eliminar toda postura"
               },
               {
-                "id": "o3",
+                "id": "o2",
                 "text": "Para repetir palabras aisladas"
+              },
+              {
+                "id": "o3",
+                "text": "Para formular una idea con precisión y reservas"
               },
               {
                 "id": "o4",
@@ -13561,15 +13977,15 @@
               },
               {
                 "id": "o2",
-                "text": "Qué evidencia sostendría o modificaría una postura"
-              },
-              {
-                "id": "o3",
                 "text": "Cómo evitar cualquier debate"
               },
               {
-                "id": "o4",
+                "id": "o3",
                 "text": "Qué palabra es más difícil de pronunciar"
+              },
+              {
+                "id": "o4",
+                "text": "Qué evidencia sostendría o modificaría una postura"
               }
             ]
           }
@@ -13604,9 +14020,9 @@
         "type": "mcq",
         "prompt": "¿Para qué se usa la gramática de la unidad?",
         "options": [
-          "Para formular una idea con precisión y reservas",
           "Para eliminar toda postura",
           "Para repetir palabras aisladas",
+          "Para formular una idea con precisión y reservas",
           "Para evitar reconocer límites"
         ],
         "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
@@ -13616,187 +14032,69 @@
         "prompt": "¿Qué pregunta final propone el audio?",
         "options": [
           "Qué aplicación es más rápida",
-          "Qué evidencia sostendría o modificaría una postura",
           "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar"
+          "Qué palabra es más difícil de pronunciar",
+          "Qué evidencia sostendría o modificaría una postura"
         ],
         "explanation": "La pregunta final invita a justificar y revisar una conclusión."
       }
     ]
   },
   {
-    "slug": "spanish-a1-mi-rutina-diaria-listening",
+    "slug": "spanish-a1-mi-rutina-diaria-speaking",
     "level": "A1",
-    "skill": "listening",
+    "skill": "speaking",
     "unitId": "mi-rutina-diaria",
-    "title": "¿A qué hora te levantas?",
+    "title": "Habla de tu día",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 25,
-    "orderIndex": 41,
-    "estimatedMinutes": 10,
-    "description": "Dos amigos comparan sus rutinas diarias.",
-    "intro": "Escucha a Diego y Tomás hablando sobre lo que hacen todos los días.",
-    "mission": "",
+    "xpReward": 20,
+    "orderIndex": 42,
+    "estimatedMinutes": 8,
+    "description": "Practica describir tu rutina diaria.",
+    "intro": "Practica describir tu rutina diaria.",
+    "mission": "Cuéntale a un compañero tres cosas que haces todos los días y a qué hora las haces.",
     "grammar": "",
     "phrases": [
-      "¿A qué hora te levantas?",
       "Me levanto a las...",
-      "Camino a la escuela.",
-      "Las clases empiezan a las..."
+      "Voy a la escuela a las...",
+      "Hago mi tarea...",
+      "Me acuesto a las..."
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "Tú",
+        "line": "Me levanto a las... y desayuno a las...",
+        "translation": "I get up at... and I have breakfast at..."
+      },
+      {
+        "speaker": "Compañero/a",
+        "line": "¿A qué hora te acuestas?",
+        "translation": "What time do you go to bed?"
+      },
+      {
+        "speaker": "Tú",
+        "line": "Me acuesto a las...",
+        "translation": "I go to bed at..."
+      },
+      {
+        "speaker": "Compañero/a",
+        "line": "Muy bien. Ahora añade una frase más sobre «Me levanto a las...».",
+        "translation": "Very good. Now add one more sentence about this topic."
+      }
+    ],
     "reading": null,
-    "transcript": "Sofía vive con sus padres y sus dos hermanos. Su madre trabaja en una tienda y su padre es conductor. Su hermana Lucía tiene dieciséis años y su hermano Tomás tiene nueve. Los domingos la familia come junta en casa de la abuela Rosa. Después de comer, todos conversan y los niños juegan en el patio. Sofía dice que su familia es grande, pero muy cariñosa.",
-    "extra": {
-      "listeningType": "story",
-      "difficulty": "A1",
-      "durationSeconds": 45,
-      "speakers": [
-        "Narrador/a"
-      ],
-      "phoneticSupport": {
-        "enabled": true,
-        "locale": "es-419",
-        "focus": "Enlace natural entre palabras (me_levanto suena como una sola unidad); las terminaciones -o/-as/-a marcan la persona del verbo.",
-        "fullIpa": null,
-        "segments": [
-          {
-            "text": "me levanto",
-            "ipa": "/me le.ˈβan.to/"
-          },
-          {
-            "text": "desayuno",
-            "ipa": "/de.sa.ˈʝu.no/"
-          }
-        ],
-        "stressedWords": [
-          "después",
-          "también"
-        ],
-        "syllabification": [
-          {
-            "word": "escuela",
-            "syllables": "es-cue-la"
-          }
-        ],
-        "difficultSounds": [
-          "enlaces entre palabras"
-        ],
-        "reviewStatus": "pending-review"
-      },
-      "dictationSegmentCount": 3,
-      "listeningComprehension": {
-        "id": "spanish-a1-mi-rutina-diaria-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "¿Con quién vive Sofía?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Con sus padres y hermanos"
-              },
-              {
-                "id": "o2",
-                "text": "Con Marco y Kevin"
-              },
-              {
-                "id": "o3",
-                "text": "Con sus profesores"
-              },
-              {
-                "id": "o4",
-                "text": "Con una amiga italiana"
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "¿Qué hace la familia los domingos?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Come junta"
-              },
-              {
-                "id": "o2",
-                "text": "Viaja a Valencia"
-              },
-              {
-                "id": "o3",
-                "text": "Va al cine"
-              },
-              {
-                "id": "o4",
-                "text": "Compra ropa"
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "¿Dónde juega los niños?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "En el patio"
-              },
-              {
-                "id": "o2",
-                "text": "En la estación"
-              },
-              {
-                "id": "o3",
-                "text": "En la farmacia"
-              },
-              {
-                "id": "o4",
-                "text": "En la biblioteca"
-              }
-            ]
-          }
-        ]
-      },
-      "grammarTest": null
-    },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
-        "type": "mcq",
-        "prompt": "¿Con quién vive Sofía?",
-        "options": [
-          "Con sus padres y hermanos",
-          "Con Marco y Kevin",
-          "Con sus profesores",
-          "Con una amiga italiana"
-        ],
-        "explanation": "Sofía vive con sus padres y sus dos hermanos."
+        "type": "speaking",
+        "prompt": "Di en voz alta tres cosas que haces cada día, con la hora de cada una."
       },
       {
-        "type": "mcq",
-        "prompt": "¿Qué hace la familia los domingos?",
-        "options": [
-          "Come junta",
-          "Viaja a Valencia",
-          "Va al cine",
-          "Compra ropa"
-        ],
-        "explanation": "Los domingos la familia come junta."
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Dónde juega los niños?",
-        "options": [
-          "En el patio",
-          "En la estación",
-          "En la farmacia",
-          "En la biblioteca"
-        ],
-        "explanation": "Después de comer, los niños juegan en el patio."
+        "type": "practice",
+        "prompt": "Pregúntale a un compañero \"¿A qué hora te levantas?\" y compara tu respuesta. Si no tienes micrófono, responde por escrito."
       }
     ]
   },
@@ -14102,47 +14400,32 @@
     ]
   },
   {
-    "slug": "spanish-a1-mi-rutina-diaria-speaking",
+    "slug": "spanish-a1-mi-rutina-diaria-writing",
     "level": "A1",
-    "skill": "speaking",
+    "skill": "writing",
     "unitId": "mi-rutina-diaria",
-    "title": "Habla de tu día",
+    "title": "Escribe tu rutina diaria",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 20,
-    "orderIndex": 42,
-    "estimatedMinutes": 8,
-    "description": "Practica describir tu rutina diaria.",
-    "intro": "Practica describir tu rutina diaria.",
-    "mission": "Cuéntale a un compañero tres cosas que haces todos los días y a qué hora las haces.",
+    "xpReward": 25,
+    "orderIndex": 43,
+    "estimatedMinutes": 12,
+    "description": "Escribe un párrafo corto sobre tu día típico.",
+    "intro": "Escribe un párrafo corto sobre tu día típico.",
+    "mission": "Escribe 4-5 oraciones sobre tu rutina diaria, desde que te levantas hasta que te acuestas.",
     "grammar": "",
     "phrases": [
       "Me levanto a las...",
-      "Voy a la escuela a las...",
-      "Hago mi tarea...",
+      "Después...",
+      "Por la noche...",
       "Me acuesto a las..."
     ],
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Tú",
-        "line": "Me levanto a las... y desayuno a las...",
-        "translation": "I get up at... and I have breakfast at..."
-      },
-      {
-        "speaker": "Compañero/a",
-        "line": "¿A qué hora te acuestas?",
-        "translation": "What time do you go to bed?"
-      },
-      {
-        "speaker": "Tú",
-        "line": "Me acuesto a las...",
-        "translation": "I go to bed at..."
-      },
-      {
-        "speaker": "Compañero/a",
-        "line": "Muy bien. Ahora añade una frase más sobre «Me levanto a las...».",
-        "translation": "Very good. Now add one more sentence about this topic."
+        "speaker": "Modelo",
+        "line": "Me levanto a las seis y media. Desayuno y camino a la escuela. Después de la escuela, hago mi tarea. Me acuesto a las nueve y media.",
+        "translation": "I get up at six thirty. I have breakfast and walk to school. After school, I do my homework. I go to bed at nine thirty."
       }
     ],
     "reading": null,
@@ -14150,12 +14433,8 @@
     "extra": null,
     "exercises": [
       {
-        "type": "speaking",
-        "prompt": "Di en voz alta tres cosas que haces cada día, con la hora de cada una."
-      },
-      {
-        "type": "practice",
-        "prompt": "Pregúntale a un compañero \"¿A qué hora te levantas?\" y compara tu respuesta. Si no tienes micrófono, responde por escrito."
+        "type": "writing",
+        "prompt": "Escribe 4-5 oraciones describiendo tu rutina diaria, de la mañana a la noche."
       }
     ]
   },
@@ -14325,41 +14604,70 @@
     ]
   },
   {
-    "slug": "spanish-a1-mi-rutina-diaria-writing",
+    "slug": "spanish-a1-mi-rutina-diaria-grammar",
     "level": "A1",
-    "skill": "writing",
+    "skill": "grammar",
     "unitId": "mi-rutina-diaria",
-    "title": "Escribe tu rutina diaria",
+    "title": "Presente regular y verbos reflexivos",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 25,
-    "orderIndex": 43,
-    "estimatedMinutes": 12,
-    "description": "Escribe un párrafo corto sobre tu día típico.",
-    "intro": "Escribe un párrafo corto sobre tu día típico.",
-    "mission": "Escribe 4-5 oraciones sobre tu rutina diaria, desde que te levantas hasta que te acuestas.",
-    "grammar": "",
+    "xpReward": 20,
+    "orderIndex": 44,
+    "estimatedMinutes": 8,
+    "description": "Aprende el presente de indicativo y los verbos reflexivos frecuentes.",
+    "intro": "Aprende el presente de indicativo y los verbos reflexivos frecuentes.",
+    "mission": "",
+    "grammar": "El presente regular cambia la terminación según la persona: yo camino, tú caminas, él camina. Los verbos reflexivos usan un pronombre antes del verbo: yo me levanto, tú te levantas, él se levanta. Usamos \"primero, después, luego, finalmente\" para ordenar acciones. Error frecuente: olvidar el pronombre reflexivo (decir \"yo levanto\" en vez de \"yo me levanto\").",
     "phrases": [
-      "Me levanto a las...",
-      "Después...",
-      "Por la noche...",
-      "Me acuesto a las..."
+      "Yo me levanto...",
+      "Tú te levantas...",
+      "Primero..., después..., luego..., finalmente..."
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Modelo",
-        "line": "Me levanto a las seis y media. Desayuno y camino a la escuela. Después de la escuela, hago mi tarea. Me acuesto a las nueve y media.",
-        "translation": "I get up at six thirty. I have breakfast and walk to school. After school, I do my homework. I go to bed at nine thirty."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "type": "writing",
-        "prompt": "Escribe 4-5 oraciones describiendo tu rutina diaria, de la mañana a la noche."
+        "type": "mcq",
+        "prompt": "Yo ___ a las siete. (levantarse)",
+        "options": [
+          "levanto",
+          "me levanto",
+          "te levantas",
+          "se levanta"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Ella ___ a la escuela. (caminar)",
+        "options": [
+          "camino",
+          "caminas",
+          "camina",
+          "caminan"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "___ me despierto, ___ desayuno.",
+        "options": [
+          "Primero / después",
+          "Nunca / siempre",
+          "Ayer / hoy",
+          "Mañana / hoy"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Nosotros ___ a las nueve. (acostarse)",
+        "options": [
+          "acostamos",
+          "nos acostamos",
+          "te acuestas",
+          "se acuesta"
+        ]
       }
     ]
   },
@@ -15224,26 +15532,113 @@
     ]
   },
   {
-    "slug": "spanish-a1-mi-rutina-diaria-grammar",
+    "slug": "spanish-a1-mi-rutina-diaria-vocabulary",
     "level": "A1",
-    "skill": "grammar",
+    "skill": "vocabulary",
     "unitId": "mi-rutina-diaria",
-    "title": "Presente regular y verbos reflexivos",
+    "title": "Acciones diarias",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
-    "orderIndex": 44,
-    "estimatedMinutes": 8,
-    "description": "Aprende el presente de indicativo y los verbos reflexivos frecuentes.",
-    "intro": "Aprende el presente de indicativo y los verbos reflexivos frecuentes.",
+    "orderIndex": 45,
+    "estimatedMinutes": 6,
+    "description": "Verbos y palabras para la rutina diaria.",
+    "intro": "Verbos y palabras para la rutina diaria.",
     "mission": "",
-    "grammar": "El presente regular cambia la terminación según la persona: yo camino, tú caminas, él camina. Los verbos reflexivos usan un pronombre antes del verbo: yo me levanto, tú te levantas, él se levanta. Usamos \"primero, después, luego, finalmente\" para ordenar acciones. Error frecuente: olvidar el pronombre reflexivo (decir \"yo levanto\" en vez de \"yo me levanto\").",
-    "phrases": [
-      "Yo me levanto...",
-      "Tú te levantas...",
-      "Primero..., después..., luego..., finalmente..."
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "Despertarse",
+        "category": "rutina",
+        "translation": "To wake up",
+        "example": "Me despierto a las seis y media."
+      },
+      {
+        "word": "Levantarse",
+        "category": "rutina",
+        "translation": "To get up",
+        "example": "Me levanto a las siete."
+      },
+      {
+        "word": "Desayuno",
+        "category": "comida",
+        "translation": "Breakfast",
+        "example": "Desayuno todos los días."
+      },
+      {
+        "word": "Almuerzo",
+        "category": "comida",
+        "translation": "Lunch",
+        "example": "El almuerzo es a la una."
+      },
+      {
+        "word": "Cena",
+        "category": "comida",
+        "translation": "Dinner",
+        "example": "Cenamos a las siete."
+      },
+      {
+        "word": "Caminar",
+        "category": "rutina",
+        "translation": "To walk",
+        "example": "Camino a la escuela."
+      },
+      {
+        "word": "Tarea",
+        "category": "escuela",
+        "translation": "Homework",
+        "example": "Hago mi tarea después de la escuela."
+      },
+      {
+        "word": "Acostarse",
+        "category": "rutina",
+        "translation": "To go to bed",
+        "example": "Me acuesto a las nueve y media."
+      },
+      {
+        "word": "Todos los días",
+        "category": "frecuencia",
+        "translation": "Every day",
+        "example": "Me cepillo los dientes todos los días."
+      },
+      {
+        "word": "Mañana",
+        "category": "tiempo",
+        "translation": "Morning",
+        "example": "Por la mañana, desayuno."
+      },
+      {
+        "word": "Tarde",
+        "category": "tiempo",
+        "translation": "Afternoon",
+        "example": "Por la tarde, hago mi tarea."
+      },
+      {
+        "word": "Noche",
+        "category": "tiempo",
+        "translation": "Night",
+        "example": "Por la noche, ceno con mi familia."
+      },
+      {
+        "word": "Ducharse",
+        "category": "rutina",
+        "translation": "To shower",
+        "example": "Me ducho antes de desayunar."
+      },
+      {
+        "word": "Vestirse",
+        "category": "rutina",
+        "translation": "To get dressed",
+        "example": "Me visto después de ducharme."
+      },
+      {
+        "word": "Cepillarse los dientes",
+        "category": "rutina",
+        "translation": "To brush your teeth",
+        "example": "Me cepillo los dientes todos los días."
+      }
     ],
-    "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
@@ -15251,42 +15646,32 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Yo ___ a las siete. (levantarse)",
+        "prompt": "¿Qué significa \"Despertarse\"?",
         "options": [
-          "levanto",
-          "me levanto",
-          "te levantas",
-          "se levanta"
+          "To wake up",
+          "To go to bed",
+          "Breakfast",
+          "Homework"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Ella ___ a la escuela. (caminar)",
+        "prompt": "¿Qué significa \"Cena\"?",
         "options": [
-          "camino",
-          "caminas",
-          "camina",
-          "caminan"
+          "Breakfast",
+          "Dinner",
+          "Homework",
+          "School"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "___ me despierto, ___ desayuno.",
+        "prompt": "¿Qué significa \"Acostarse\"?",
         "options": [
-          "Primero / después",
-          "Nunca / siempre",
-          "Ayer / hoy",
-          "Mañana / hoy"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Nosotros ___ a las nueve. (acostarse)",
-        "options": [
-          "acostamos",
-          "nos acostamos",
-          "te acuestas",
-          "se acuesta"
+          "To get up",
+          "To wake up",
+          "To go to bed",
+          "To walk"
         ]
       }
     ]
@@ -15987,146 +16372,87 @@
     ]
   },
   {
-    "slug": "spanish-a1-mi-rutina-diaria-vocabulary",
+    "slug": "spanish-a1-mi-casa-reading",
     "level": "A1",
-    "skill": "vocabulary",
-    "unitId": "mi-rutina-diaria",
-    "title": "Acciones diarias",
+    "skill": "reading",
+    "unitId": "mi-casa",
+    "title": "Mi casa es pequeña pero cómoda",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 20,
-    "orderIndex": 45,
-    "estimatedMinutes": 6,
-    "description": "Verbos y palabras para la rutina diaria.",
-    "intro": "Verbos y palabras para la rutina diaria.",
+    "xpReward": 25,
+    "orderIndex": 50,
+    "estimatedMinutes": 10,
+    "description": "Una descripción de la casa de Andrés.",
+    "intro": "Una descripción de la casa de Andrés.",
     "mission": "",
     "grammar": "",
     "phrases": [],
-    "vocabulary": [
-      {
-        "word": "Despertarse",
-        "category": "rutina",
-        "translation": "To wake up",
-        "example": "Me despierto a las seis y media."
-      },
-      {
-        "word": "Levantarse",
-        "category": "rutina",
-        "translation": "To get up",
-        "example": "Me levanto a las siete."
-      },
-      {
-        "word": "Desayuno",
-        "category": "comida",
-        "translation": "Breakfast",
-        "example": "Desayuno todos los días."
-      },
-      {
-        "word": "Almuerzo",
-        "category": "comida",
-        "translation": "Lunch",
-        "example": "El almuerzo es a la una."
-      },
-      {
-        "word": "Cena",
-        "category": "comida",
-        "translation": "Dinner",
-        "example": "Cenamos a las siete."
-      },
-      {
-        "word": "Caminar",
-        "category": "rutina",
-        "translation": "To walk",
-        "example": "Camino a la escuela."
-      },
-      {
-        "word": "Tarea",
-        "category": "escuela",
-        "translation": "Homework",
-        "example": "Hago mi tarea después de la escuela."
-      },
-      {
-        "word": "Acostarse",
-        "category": "rutina",
-        "translation": "To go to bed",
-        "example": "Me acuesto a las nueve y media."
-      },
-      {
-        "word": "Todos los días",
-        "category": "frecuencia",
-        "translation": "Every day",
-        "example": "Me cepillo los dientes todos los días."
-      },
-      {
-        "word": "Mañana",
-        "category": "tiempo",
-        "translation": "Morning",
-        "example": "Por la mañana, desayuno."
-      },
-      {
-        "word": "Tarde",
-        "category": "tiempo",
-        "translation": "Afternoon",
-        "example": "Por la tarde, hago mi tarea."
-      },
-      {
-        "word": "Noche",
-        "category": "tiempo",
-        "translation": "Night",
-        "example": "Por la noche, ceno con mi familia."
-      },
-      {
-        "word": "Ducharse",
-        "category": "rutina",
-        "translation": "To shower",
-        "example": "Me ducho antes de desayunar."
-      },
-      {
-        "word": "Vestirse",
-        "category": "rutina",
-        "translation": "To get dressed",
-        "example": "Me visto después de ducharme."
-      },
-      {
-        "word": "Cepillarse los dientes",
-        "category": "rutina",
-        "translation": "To brush your teeth",
-        "example": "Me cepillo los dientes todos los días."
-      }
-    ],
+    "vocabulary": [],
     "dialogue": [],
-    "reading": null,
+    "reading": {
+      "title": "Mi casa es pequeña pero cómoda",
+      "parts": [
+        "Mi casa tiene tres habitaciones: mi dormitorio, el dormitorio de mis padres y la sala. También hay una cocina y un baño.",
+        "En la sala hay un sofá, una mesa y un televisor. En mi dormitorio hay una cama, un armario y un escritorio para estudiar.",
+        "Detrás de la casa hay un patio pequeño con plantas. No hay piscina, pero a mi familia le gusta sentarse afuera por la tarde."
+      ],
+      "questions": [
+        "¿Cuántas habitaciones tiene la casa?",
+        "¿Qué hay en la sala?",
+        "¿Qué hay detrás de la casa?"
+      ],
+      "ordering": {
+        "prompt": "Ordena los eventos de la historia.",
+        "events": [
+          "Andrés describe las habitaciones de la casa.",
+          "Andrés describe los muebles de la sala.",
+          "Andrés describe los muebles de su dormitorio.",
+          "Andrés describe el patio detrás de la casa."
+        ]
+      },
+      "text": "Mi casa tiene tres habitaciones: mi dormitorio, el dormitorio de mis padres y la sala. También hay una cocina y un baño.\n\nEn la sala hay un sofá, una mesa y un televisor. En mi dormitorio hay una cama, un armario y un escritorio para estudiar.\n\nDetrás de la casa hay un patio pequeño con plantas. No hay piscina, pero a mi familia le gusta sentarse afuera por la tarde."
+    },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"Despertarse\"?",
+        "prompt": "¿Cuántas habitaciones tiene la casa (sin contar cocina y baño)?",
         "options": [
-          "To wake up",
-          "To go to bed",
-          "Breakfast",
-          "Homework"
+          "Dos",
+          "Tres",
+          "Cuatro",
+          "Cinco"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"Cena\"?",
+        "prompt": "¿Qué hay en la sala?",
         "options": [
-          "Breakfast",
-          "Dinner",
-          "Homework",
-          "School"
+          "Una cama",
+          "Un sofá, una mesa y un televisor",
+          "Un escritorio",
+          "Plantas"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"Acostarse\"?",
+        "prompt": "¿Qué hay en el dormitorio de Andrés?",
         "options": [
-          "To get up",
-          "To wake up",
-          "To go to bed",
-          "To walk"
+          "Un sofá",
+          "Una cama, un armario y un escritorio",
+          "Una piscina",
+          "Un televisor"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué hay detrás de la casa?",
+        "options": [
+          "Un garaje",
+          "Una piscina",
+          "Un patio con plantas",
+          "Nada"
         ]
       }
     ]
@@ -16592,87 +16918,207 @@
     ]
   },
   {
-    "slug": "spanish-a1-mi-casa-reading",
+    "slug": "spanish-a1-mi-casa-listening",
     "level": "A1",
-    "skill": "reading",
+    "skill": "listening",
     "unitId": "mi-casa",
-    "title": "Mi casa es pequeña pero cómoda",
+    "title": "Así es mi casa",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
-    "orderIndex": 50,
+    "orderIndex": 51,
     "estimatedMinutes": 10,
-    "description": "Una descripción de la casa de Andrés.",
-    "intro": "Una descripción de la casa de Andrés.",
+    "description": "Una persona describe su casa habitación por habitación.",
+    "intro": "Escucha una descripción de una casa: sus habitaciones y sus muebles.",
     "mission": "",
     "grammar": "",
-    "phrases": [],
+    "phrases": [
+      "Hay un/una...",
+      "En la sala hay...",
+      "Mi dormitorio tiene...",
+      "Detrás de la casa hay..."
+    ],
     "vocabulary": [],
     "dialogue": [],
-    "reading": {
-      "title": "Mi casa es pequeña pero cómoda",
-      "parts": [
-        "Mi casa tiene tres habitaciones: mi dormitorio, el dormitorio de mis padres y la sala. También hay una cocina y un baño.",
-        "En la sala hay un sofá, una mesa y un televisor. En mi dormitorio hay una cama, un armario y un escritorio para estudiar.",
-        "Detrás de la casa hay un patio pequeño con plantas. No hay piscina, pero a mi familia le gusta sentarse afuera por la tarde."
+    "reading": null,
+    "transcript": "Vivo en una casa pequeña, pero cómoda. Tiene dos habitaciones, una sala, una cocina y un baño. En mi habitación hay una cama, un armario y una mesa para estudiar. La sala tiene un sofá grande y unas fotos de mi familia. Detrás de la casa hay un patio con plantas. Me gusta sentarme allí por la tarde porque es tranquilo y puedo leer o escuchar música.",
+    "extra": {
+      "listeningType": "story",
+      "difficulty": "A1",
+      "durationSeconds": 50,
+      "speakers": [
+        "Narrador/a"
       ],
-      "questions": [
-        "¿Cuántas habitaciones tiene la casa?",
-        "¿Qué hay en la sala?",
-        "¿Qué hay detrás de la casa?"
-      ],
-      "ordering": {
-        "prompt": "Ordena los eventos de la historia.",
-        "events": [
-          "Andrés describe las habitaciones de la casa.",
-          "Andrés describe los muebles de la sala.",
-          "Andrés describe los muebles de su dormitorio.",
-          "Andrés describe el patio detrás de la casa."
+      "phoneticSupport": {
+        "enabled": true,
+        "locale": "es-419",
+        "focus": "La \"y\" y la \"ll\" suenan igual en yeísmo (silla, yo); las sílabas pueden ser abiertas (ca-sa) o cerradas (ar-mario, cierran en consonante).",
+        "fullIpa": null,
+        "segments": [
+          {
+            "text": "silla",
+            "ipa": "/ˈsi.ʝa/"
+          },
+          {
+            "text": "armario",
+            "ipa": "/ar.ˈma.rjo/"
+          }
+        ],
+        "stressedWords": [
+          "está",
+          "también"
+        ],
+        "syllabification": [
+          {
+            "word": "cocina",
+            "syllables": "co-ci-na"
+          }
+        ],
+        "difficultSounds": [
+          "y/ll yeísmo"
+        ],
+        "reviewStatus": "pending-review"
+      },
+      "dictationSegmentCount": 3,
+      "listeningComprehension": {
+        "id": "spanish-a1-mi-casa-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "En «Así es mi casa», ¿qué detalle presenta la situación?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Vivo en una casa pequeña, pero cómoda."
+              },
+              {
+                "id": "o2",
+                "text": "En mi habitación hay una cama, un armario y una mesa para estudiar."
+              },
+              {
+                "id": "o3",
+                "text": "La sala tiene un sofá grande y unas fotos de mi familia."
+              },
+              {
+                "id": "o4",
+                "text": "Me gusta sentarme allí por la tarde porque es tranquilo y puedo leer o escuchar música."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Después de «Vivo en una casa pequeña, pero cómoda.», ¿qué sucede a continuación en «Así es mi casa»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Vivo en una casa pequeña, pero cómoda."
+              },
+              {
+                "id": "o2",
+                "text": "En mi habitación hay una cama, un armario y una mesa para estudiar."
+              },
+              {
+                "id": "o3",
+                "text": "La sala tiene un sofá grande y unas fotos de mi familia."
+              },
+              {
+                "id": "o4",
+                "text": "Me gusta sentarme allí por la tarde porque es tranquilo y puedo leer o escuchar música."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Así es mi casa»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Vivo en una casa pequeña, pero cómoda."
+              },
+              {
+                "id": "o2",
+                "text": "En mi habitación hay una cama, un armario y una mesa para estudiar."
+              },
+              {
+                "id": "o3",
+                "text": "La sala tiene un sofá grande y unas fotos de mi familia."
+              },
+              {
+                "id": "o4",
+                "text": "Me gusta sentarme allí por la tarde porque es tranquilo y puedo leer o escuchar música."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Así es mi casa» después de «La sala tiene un sofá grande y unas fotos de mi familia.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Vivo en una casa pequeña, pero cómoda."
+              },
+              {
+                "id": "o2",
+                "text": "En mi habitación hay una cama, un armario y una mesa para estudiar."
+              },
+              {
+                "id": "o3",
+                "text": "La sala tiene un sofá grande y unas fotos de mi familia."
+              },
+              {
+                "id": "o4",
+                "text": "Me gusta sentarme allí por la tarde porque es tranquilo y puedo leer o escuchar música."
+              }
+            ]
+          }
         ]
       },
-      "text": "Mi casa tiene tres habitaciones: mi dormitorio, el dormitorio de mis padres y la sala. También hay una cocina y un baño.\n\nEn la sala hay un sofá, una mesa y un televisor. En mi dormitorio hay una cama, un armario y un escritorio para estudiar.\n\nDetrás de la casa hay un patio pequeño con plantas. No hay piscina, pero a mi familia le gusta sentarse afuera por la tarde."
+      "grammarTest": null
     },
-    "transcript": "",
-    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuántas habitaciones tiene la casa (sin contar cocina y baño)?",
+        "prompt": "En «Así es mi casa», ¿qué detalle presenta la situación?",
         "options": [
-          "Dos",
-          "Tres",
-          "Cuatro",
-          "Cinco"
+          "Vivo en una casa pequeña, pero cómoda.",
+          "En mi habitación hay una cama, un armario y una mesa para estudiar.",
+          "La sala tiene un sofá grande y unas fotos de mi familia.",
+          "Me gusta sentarme allí por la tarde porque es tranquilo y puedo leer o escuchar música."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hay en la sala?",
+        "prompt": "Después de «Vivo en una casa pequeña, pero cómoda.», ¿qué sucede a continuación en «Así es mi casa»?",
         "options": [
-          "Una cama",
-          "Un sofá, una mesa y un televisor",
-          "Un escritorio",
-          "Plantas"
+          "Vivo en una casa pequeña, pero cómoda.",
+          "En mi habitación hay una cama, un armario y una mesa para estudiar.",
+          "La sala tiene un sofá grande y unas fotos de mi familia.",
+          "Me gusta sentarme allí por la tarde porque es tranquilo y puedo leer o escuchar música."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hay en el dormitorio de Andrés?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Así es mi casa»?",
         "options": [
-          "Un sofá",
-          "Una cama, un armario y un escritorio",
-          "Una piscina",
-          "Un televisor"
+          "Vivo en una casa pequeña, pero cómoda.",
+          "En mi habitación hay una cama, un armario y una mesa para estudiar.",
+          "La sala tiene un sofá grande y unas fotos de mi familia.",
+          "Me gusta sentarme allí por la tarde porque es tranquilo y puedo leer o escuchar música."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hay detrás de la casa?",
+        "prompt": "¿Qué resultado cierra «Así es mi casa» después de «La sala tiene un sofá grande y unas fotos de mi familia.»?",
         "options": [
-          "Un garaje",
-          "Una piscina",
-          "Un patio con plantas",
-          "Nada"
+          "Vivo en una casa pequeña, pero cómoda.",
+          "En mi habitación hay una cama, un armario y una mesa para estudiar.",
+          "La sala tiene un sofá grande y unas fotos de mi familia.",
+          "Me gusta sentarme allí por la tarde porque es tranquilo y puedo leer o escuchar música."
         ]
       }
     ]
@@ -16709,75 +17155,98 @@
       ],
       "transcript": "Hoy viajo a Valencia en un tren que sale a las seis. Mi billete indicaba el andén cuatro, pero han cambiado la salida al andén seis. La llegada sigue prevista para las ocho y veinte. Antes de subir, voy a dejar mi equipaje en la consigna y miraré el panel otra vez. Debo estar en el andén diez minutos antes para viajar con tranquilidad. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.",
       "listeningComprehension": {
-        "id": "spanish-a2-viajes-y-transporte-listening-comprehension",
+        "id": "spanish-a2-viajes-y-transporte-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿A qué ciudad viaja Lucía?",
+            "prompt": "En «Escucha · Viajes y transporte», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Madrid"
+                "text": "Hoy viajo a Valencia en un tren que sale a las seis."
               },
               {
                 "id": "o2",
-                "text": "Valencia"
+                "text": "Antes de subir, voy a dejar mi equipaje en la consigna y miraré el panel otra vez."
               },
               {
                 "id": "o3",
-                "text": "Sevilla"
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
               },
               {
                 "id": "o4",
-                "text": "Barcelona"
+                "text": "Me gusta tener un plan claro antes de seguir."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿De qué andén saldrá el tren?",
+            "prompt": "Después de «Hoy viajo a Valencia en un tren que sale a las seis.», ¿qué sucede a continuación en «Escucha · Viajes y transporte»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Del andén cuatro"
+                "text": "Hoy viajo a Valencia en un tren que sale a las seis."
               },
               {
                 "id": "o2",
-                "text": "Del andén cinco"
+                "text": "Antes de subir, voy a dejar mi equipaje en la consigna y miraré el panel otra vez."
               },
               {
                 "id": "o3",
-                "text": "Del andén seis"
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
               },
               {
                 "id": "o4",
-                "text": "Del andén ocho"
+                "text": "Me gusta tener un plan claro antes de seguir."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué hará Lucía antes de subir?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Viajes y transporte»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Comprará otro billete"
+                "text": "Hoy viajo a Valencia en un tren que sale a las seis."
               },
               {
                 "id": "o2",
-                "text": "Dejará su equipaje"
+                "text": "Antes de subir, voy a dejar mi equipaje en la consigna y miraré el panel otra vez."
               },
               {
                 "id": "o3",
-                "text": "Cambiará de tren"
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
               },
               {
                 "id": "o4",
-                "text": "Llamará al hotel"
+                "text": "Me gusta tener un plan claro antes de seguir."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Viajes y transporte» después de «Al final, repaso la información y preparo el siguiente paso con calma.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Hoy viajo a Valencia en un tren que sale a las seis."
+              },
+              {
+                "id": "o2",
+                "text": "Antes de subir, voy a dejar mi equipaje en la consigna y miraré el panel otra vez."
+              },
+              {
+                "id": "o3",
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+              },
+              {
+                "id": "o4",
+                "text": "Me gusta tener un plan claro antes de seguir."
               }
             ]
           }
@@ -16788,36 +17257,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿A qué ciudad viaja Lucía?",
+        "prompt": "En «Escucha · Viajes y transporte», ¿qué detalle presenta la situación?",
         "options": [
-          "Madrid",
-          "Valencia",
-          "Sevilla",
-          "Barcelona"
-        ],
-        "explanation": "Lucía pregunta por su tren a Valencia."
+          "Hoy viajo a Valencia en un tren que sale a las seis.",
+          "Antes de subir, voy a dejar mi equipaje en la consigna y miraré el panel otra vez.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿De qué andén saldrá el tren?",
+        "prompt": "Después de «Hoy viajo a Valencia en un tren que sale a las seis.», ¿qué sucede a continuación en «Escucha · Viajes y transporte»?",
         "options": [
-          "Del andén cuatro",
-          "Del andén cinco",
-          "Del andén seis",
-          "Del andén ocho"
-        ],
-        "explanation": "El empleado informa que saldrá del andén seis."
+          "Hoy viajo a Valencia en un tren que sale a las seis.",
+          "Antes de subir, voy a dejar mi equipaje en la consigna y miraré el panel otra vez.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hará Lucía antes de subir?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Viajes y transporte»?",
         "options": [
-          "Comprará otro billete",
-          "Dejará su equipaje",
-          "Cambiará de tren",
-          "Llamará al hotel"
-        ],
-        "explanation": "Lucía va a dejar el equipaje en la consigna."
+          "Hoy viajo a Valencia en un tren que sale a las seis.",
+          "Antes de subir, voy a dejar mi equipaje en la consigna y miraré el panel otra vez.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Viajes y transporte» después de «Al final, repaso la información y preparo el siguiente paso con calma.»?",
+        "options": [
+          "Hoy viajo a Valencia en un tren que sale a las seis.",
+          "Antes de subir, voy a dejar mi equipaje en la consigna y miraré el panel otra vez.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
       }
     ]
   },
@@ -17260,15 +17736,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Para formular una idea con precisión y reservas"
-              },
-              {
-                "id": "o2",
                 "text": "Para eliminar toda postura"
               },
               {
-                "id": "o3",
+                "id": "o2",
                 "text": "Para repetir palabras aisladas"
+              },
+              {
+                "id": "o3",
+                "text": "Para formular una idea con precisión y reservas"
               },
               {
                 "id": "o4",
@@ -17287,15 +17763,15 @@
               },
               {
                 "id": "o2",
-                "text": "Qué evidencia sostendría o modificaría una postura"
-              },
-              {
-                "id": "o3",
                 "text": "Cómo evitar cualquier debate"
               },
               {
-                "id": "o4",
+                "id": "o3",
                 "text": "Qué palabra es más difícil de pronunciar"
+              },
+              {
+                "id": "o4",
+                "text": "Qué evidencia sostendría o modificaría una postura"
               }
             ]
           }
@@ -17330,9 +17806,9 @@
         "type": "mcq",
         "prompt": "¿Para qué se usa la gramática de la unidad?",
         "options": [
-          "Para formular una idea con precisión y reservas",
           "Para eliminar toda postura",
           "Para repetir palabras aisladas",
+          "Para formular una idea con precisión y reservas",
           "Para evitar reconocer límites"
         ],
         "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
@@ -17342,9 +17818,9 @@
         "prompt": "¿Qué pregunta final propone el audio?",
         "options": [
           "Qué aplicación es más rápida",
-          "Qué evidencia sostendría o modificaría una postura",
           "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar"
+          "Qué palabra es más difícil de pronunciar",
+          "Qué evidencia sostendría o modificaría una postura"
         ],
         "explanation": "La pregunta final invita a justificar y revisar una conclusión."
       }
@@ -17439,15 +17915,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Para formular una idea con precisión y reservas"
-              },
-              {
-                "id": "o2",
                 "text": "Para eliminar toda postura"
               },
               {
-                "id": "o3",
+                "id": "o2",
                 "text": "Para repetir palabras aisladas"
+              },
+              {
+                "id": "o3",
+                "text": "Para formular una idea con precisión y reservas"
               },
               {
                 "id": "o4",
@@ -17466,15 +17942,15 @@
               },
               {
                 "id": "o2",
-                "text": "Qué evidencia sostendría o modificaría una postura"
-              },
-              {
-                "id": "o3",
                 "text": "Cómo evitar cualquier debate"
               },
               {
-                "id": "o4",
+                "id": "o3",
                 "text": "Qué palabra es más difícil de pronunciar"
+              },
+              {
+                "id": "o4",
+                "text": "Qué evidencia sostendría o modificaría una postura"
               }
             ]
           }
@@ -17509,9 +17985,9 @@
         "type": "mcq",
         "prompt": "¿Para qué se usa la gramática de la unidad?",
         "options": [
-          "Para formular una idea con precisión y reservas",
           "Para eliminar toda postura",
           "Para repetir palabras aisladas",
+          "Para formular una idea con precisión y reservas",
           "Para evitar reconocer límites"
         ],
         "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
@@ -17521,187 +17997,69 @@
         "prompt": "¿Qué pregunta final propone el audio?",
         "options": [
           "Qué aplicación es más rápida",
-          "Qué evidencia sostendría o modificaría una postura",
           "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar"
+          "Qué palabra es más difícil de pronunciar",
+          "Qué evidencia sostendría o modificaría una postura"
         ],
         "explanation": "La pregunta final invita a justificar y revisar una conclusión."
       }
     ]
   },
   {
-    "slug": "spanish-a1-mi-casa-listening",
+    "slug": "spanish-a1-mi-casa-speaking",
     "level": "A1",
-    "skill": "listening",
+    "skill": "speaking",
     "unitId": "mi-casa",
-    "title": "Así es mi casa",
+    "title": "Describe tu casa",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 25,
-    "orderIndex": 51,
-    "estimatedMinutes": 10,
-    "description": "Una persona describe su casa habitación por habitación.",
-    "intro": "Escucha una descripción de una casa: sus habitaciones y sus muebles.",
-    "mission": "",
+    "xpReward": 20,
+    "orderIndex": 52,
+    "estimatedMinutes": 8,
+    "description": "Practica describir las habitaciones de tu casa.",
+    "intro": "Practica describir las habitaciones de tu casa.",
+    "mission": "Descríbele a un compañero dos habitaciones de tu casa y qué hay en ellas.",
     "grammar": "",
     "phrases": [
-      "Hay un/una...",
+      "En mi casa hay...",
       "En la sala hay...",
       "Mi dormitorio tiene...",
-      "Detrás de la casa hay..."
+      "¿Qué hay en tu cocina?"
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "Tú",
+        "line": "En mi sala hay un sofá y una mesa.",
+        "translation": "In my living room there is a sofa and a table."
+      },
+      {
+        "speaker": "Compañero/a",
+        "line": "¿Qué hay en tu dormitorio?",
+        "translation": "What's in your bedroom?"
+      },
+      {
+        "speaker": "Tú",
+        "line": "Hay una cama y un armario.",
+        "translation": "There is a bed and a closet."
+      },
+      {
+        "speaker": "Compañero/a",
+        "line": "Muy bien. Ahora añade una frase más sobre «En mi casa hay...».",
+        "translation": "Very good. Now add one more sentence about this topic."
+      }
+    ],
     "reading": null,
-    "transcript": "Vivo en una casa pequeña, pero cómoda. Tiene dos habitaciones, una sala, una cocina y un baño. En mi habitación hay una cama, un armario y una mesa para estudiar. La sala tiene un sofá grande y unas fotos de mi familia. Detrás de la casa hay un patio con plantas. Me gusta sentarme allí por la tarde porque es tranquilo y puedo leer o escuchar música.",
-    "extra": {
-      "listeningType": "story",
-      "difficulty": "A1",
-      "durationSeconds": 50,
-      "speakers": [
-        "Narrador/a"
-      ],
-      "phoneticSupport": {
-        "enabled": true,
-        "locale": "es-419",
-        "focus": "La \"y\" y la \"ll\" suenan igual en yeísmo (silla, yo); las sílabas pueden ser abiertas (ca-sa) o cerradas (ar-mario, cierran en consonante).",
-        "fullIpa": null,
-        "segments": [
-          {
-            "text": "silla",
-            "ipa": "/ˈsi.ʝa/"
-          },
-          {
-            "text": "armario",
-            "ipa": "/ar.ˈma.rjo/"
-          }
-        ],
-        "stressedWords": [
-          "está",
-          "también"
-        ],
-        "syllabification": [
-          {
-            "word": "cocina",
-            "syllables": "co-ci-na"
-          }
-        ],
-        "difficultSounds": [
-          "y/ll yeísmo"
-        ],
-        "reviewStatus": "pending-review"
-      },
-      "dictationSegmentCount": 3,
-      "listeningComprehension": {
-        "id": "spanish-a1-mi-casa-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "¿Cuántas habitaciones tiene la casa?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Dos"
-              },
-              {
-                "id": "o2",
-                "text": "Una"
-              },
-              {
-                "id": "o3",
-                "text": "Tres"
-              },
-              {
-                "id": "o4",
-                "text": "Cuatro"
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "¿Qué hay en la habitación?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Una cama, un armario y una mesa"
-              },
-              {
-                "id": "o2",
-                "text": "Un banco y una farmacia"
-              },
-              {
-                "id": "o3",
-                "text": "Una estufa y un tren"
-              },
-              {
-                "id": "o4",
-                "text": "Un cine y un parque"
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "¿Dónde se sienta la persona por la tarde?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "En el patio"
-              },
-              {
-                "id": "o2",
-                "text": "En el metro"
-              },
-              {
-                "id": "o3",
-                "text": "En la tienda"
-              },
-              {
-                "id": "o4",
-                "text": "En la escuela"
-              }
-            ]
-          }
-        ]
-      },
-      "grammarTest": null
-    },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
-        "type": "mcq",
-        "prompt": "¿Cuántas habitaciones tiene la casa?",
-        "options": [
-          "Dos",
-          "Una",
-          "Tres",
-          "Cuatro"
-        ],
-        "explanation": "La casa tiene dos habitaciones."
+        "type": "speaking",
+        "prompt": "Describe en voz alta dos habitaciones de tu casa y los muebles que hay en cada una."
       },
       {
-        "type": "mcq",
-        "prompt": "¿Qué hay en la habitación?",
-        "options": [
-          "Una cama, un armario y una mesa",
-          "Un banco y una farmacia",
-          "Una estufa y un tren",
-          "Un cine y un parque"
-        ],
-        "explanation": "La habitación tiene una cama, un armario y una mesa."
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Dónde se sienta la persona por la tarde?",
-        "options": [
-          "En el patio",
-          "En el metro",
-          "En la tienda",
-          "En la escuela"
-        ],
-        "explanation": "Le gusta sentarse en el patio."
+        "type": "practice",
+        "prompt": "Pregúntale a un compañero \"¿Qué hay en tu casa?\" y escucha su respuesta. Si no tienes micrófono, responde por escrito."
       }
     ]
   },
@@ -18003,47 +18361,32 @@
     ]
   },
   {
-    "slug": "spanish-a1-mi-casa-speaking",
+    "slug": "spanish-a1-mi-casa-writing",
     "level": "A1",
-    "skill": "speaking",
+    "skill": "writing",
     "unitId": "mi-casa",
-    "title": "Describe tu casa",
+    "title": "Escribe sobre tu casa",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 20,
-    "orderIndex": 52,
-    "estimatedMinutes": 8,
-    "description": "Practica describir las habitaciones de tu casa.",
-    "intro": "Practica describir las habitaciones de tu casa.",
-    "mission": "Descríbele a un compañero dos habitaciones de tu casa y qué hay en ellas.",
+    "xpReward": 25,
+    "orderIndex": 53,
+    "estimatedMinutes": 12,
+    "description": "Escribe una descripción corta de tu casa.",
+    "intro": "Escribe una descripción corta de tu casa.",
+    "mission": "Escribe 5-6 oraciones describiendo tu casa: cuántas habitaciones tiene y qué hay en ellas.",
     "grammar": "",
     "phrases": [
-      "En mi casa hay...",
+      "Mi casa tiene...",
       "En la sala hay...",
       "Mi dormitorio tiene...",
-      "¿Qué hay en tu cocina?"
+      "Detrás/delante de la casa hay..."
     ],
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Tú",
-        "line": "En mi sala hay un sofá y una mesa.",
-        "translation": "In my living room there is a sofa and a table."
-      },
-      {
-        "speaker": "Compañero/a",
-        "line": "¿Qué hay en tu dormitorio?",
-        "translation": "What's in your bedroom?"
-      },
-      {
-        "speaker": "Tú",
-        "line": "Hay una cama y un armario.",
-        "translation": "There is a bed and a closet."
-      },
-      {
-        "speaker": "Compañero/a",
-        "line": "Muy bien. Ahora añade una frase más sobre «En mi casa hay...».",
-        "translation": "Very good. Now add one more sentence about this topic."
+        "speaker": "Modelo",
+        "line": "Mi casa tiene tres habitaciones. En la sala hay un sofá y un televisor. Mi dormitorio tiene una cama y un escritorio.",
+        "translation": "My house has three rooms. In the living room there is a sofa and a TV. My bedroom has a bed and a desk."
       }
     ],
     "reading": null,
@@ -18051,12 +18394,8 @@
     "extra": null,
     "exercises": [
       {
-        "type": "speaking",
-        "prompt": "Describe en voz alta dos habitaciones de tu casa y los muebles que hay en cada una."
-      },
-      {
-        "type": "practice",
-        "prompt": "Pregúntale a un compañero \"¿Qué hay en tu casa?\" y escucha su respuesta. Si no tienes micrófono, responde por escrito."
+        "type": "writing",
+        "prompt": "Escribe 5-6 oraciones describiendo tu casa y los muebles que hay en ella."
       }
     ]
   },
@@ -18226,41 +18565,71 @@
     ]
   },
   {
-    "slug": "spanish-a1-mi-casa-writing",
+    "slug": "spanish-a1-mi-casa-grammar",
     "level": "A1",
-    "skill": "writing",
+    "skill": "grammar",
     "unitId": "mi-casa",
-    "title": "Escribe sobre tu casa",
+    "title": "Hay, estar y las preposiciones de lugar",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 25,
-    "orderIndex": 53,
-    "estimatedMinutes": 12,
-    "description": "Escribe una descripción corta de tu casa.",
-    "intro": "Escribe una descripción corta de tu casa.",
-    "mission": "Escribe 5-6 oraciones describiendo tu casa: cuántas habitaciones tiene y qué hay en ellas.",
-    "grammar": "",
+    "xpReward": 20,
+    "orderIndex": 54,
+    "estimatedMinutes": 8,
+    "description": "Aprende a usar hay/estar y a decir dónde están las cosas.",
+    "intro": "Aprende a usar hay/estar y a decir dónde están las cosas.",
+    "mission": "",
+    "grammar": "\"Hay\" se usa para decir que algo existe: Hay un sofá en la sala. No cambia de forma. \"Estar\" se usa para decir dónde está algo específico: El sofá está en la sala. Preposiciones de lugar: en, cerca de, lejos de, detrás de, delante de. Error frecuente: confundir \"hay\" con \"está/están\" (decir \"el sofá hay en la sala\" en vez de \"el sofá está en la sala\").",
     "phrases": [
-      "Mi casa tiene...",
-      "En la sala hay...",
-      "Mi dormitorio tiene...",
-      "Detrás/delante de la casa hay..."
+      "Hay un/una...",
+      "El sofá está en...",
+      "detrás de la casa",
+      "cerca de la cocina"
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Modelo",
-        "line": "Mi casa tiene tres habitaciones. En la sala hay un sofá y un televisor. Mi dormitorio tiene una cama y un escritorio.",
-        "translation": "My house has three rooms. In the living room there is a sofa and a TV. My bedroom has a bed and a desk."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "type": "writing",
-        "prompt": "Escribe 5-6 oraciones describiendo tu casa y los muebles que hay en ella."
+        "type": "mcq",
+        "prompt": "___ un sofá en la sala.",
+        "options": [
+          "Hay",
+          "Está",
+          "Son",
+          "Es"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "El armario ___ en mi dormitorio.",
+        "options": [
+          "hay",
+          "está",
+          "son",
+          "es"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "El patio está ___ de la casa.",
+        "options": [
+          "detrás",
+          "es",
+          "hay",
+          "son"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "___ dos baños en mi casa.",
+        "options": [
+          "Está",
+          "Son",
+          "Hay",
+          "Es"
+        ]
       }
     ]
   },
@@ -19125,27 +19494,113 @@
     ]
   },
   {
-    "slug": "spanish-a1-mi-casa-grammar",
+    "slug": "spanish-a1-mi-casa-vocabulary",
     "level": "A1",
-    "skill": "grammar",
+    "skill": "vocabulary",
     "unitId": "mi-casa",
-    "title": "Hay, estar y las preposiciones de lugar",
+    "title": "La casa y los muebles",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
-    "orderIndex": 54,
-    "estimatedMinutes": 8,
-    "description": "Aprende a usar hay/estar y a decir dónde están las cosas.",
-    "intro": "Aprende a usar hay/estar y a decir dónde están las cosas.",
+    "orderIndex": 55,
+    "estimatedMinutes": 6,
+    "description": "Palabras para las habitaciones y los muebles de una casa.",
+    "intro": "Palabras para las habitaciones y los muebles de una casa.",
     "mission": "",
-    "grammar": "\"Hay\" se usa para decir que algo existe: Hay un sofá en la sala. No cambia de forma. \"Estar\" se usa para decir dónde está algo específico: El sofá está en la sala. Preposiciones de lugar: en, cerca de, lejos de, detrás de, delante de. Error frecuente: confundir \"hay\" con \"está/están\" (decir \"el sofá hay en la sala\" en vez de \"el sofá está en la sala\").",
-    "phrases": [
-      "Hay un/una...",
-      "El sofá está en...",
-      "detrás de la casa",
-      "cerca de la cocina"
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "Sala",
+        "category": "habitación",
+        "translation": "Living room",
+        "example": "En la sala hay un sofá."
+      },
+      {
+        "word": "Cocina",
+        "category": "habitación",
+        "translation": "Kitchen",
+        "example": "La cocina tiene una nevera."
+      },
+      {
+        "word": "Dormitorio",
+        "category": "habitación",
+        "translation": "Bedroom",
+        "example": "Mi dormitorio es pequeño."
+      },
+      {
+        "word": "Baño",
+        "category": "habitación",
+        "translation": "Bathroom",
+        "example": "El baño está al lado de la cocina."
+      },
+      {
+        "word": "Patio",
+        "category": "habitación",
+        "translation": "Yard/patio",
+        "example": "El patio tiene plantas."
+      },
+      {
+        "word": "Sofá",
+        "category": "mueble",
+        "translation": "Sofa",
+        "example": "El sofá es cómodo."
+      },
+      {
+        "word": "Cama",
+        "category": "mueble",
+        "translation": "Bed",
+        "example": "Mi cama es grande."
+      },
+      {
+        "word": "Armario",
+        "category": "mueble",
+        "translation": "Closet/wardrobe",
+        "example": "La ropa está en el armario."
+      },
+      {
+        "word": "Mesa",
+        "category": "mueble",
+        "translation": "Table",
+        "example": "La mesa está en la cocina."
+      },
+      {
+        "word": "Escritorio",
+        "category": "mueble",
+        "translation": "Desk",
+        "example": "Estudio en mi escritorio."
+      },
+      {
+        "word": "Nevera",
+        "category": "electrodoméstico",
+        "translation": "Refrigerator",
+        "example": "La nevera está en la cocina."
+      },
+      {
+        "word": "Televisor",
+        "category": "electrodoméstico",
+        "translation": "Television",
+        "example": "El televisor está en la sala."
+      },
+      {
+        "word": "Cerca de",
+        "category": "ubicación",
+        "translation": "Near",
+        "example": "La escuela está cerca de mi casa."
+      },
+      {
+        "word": "Lejos de",
+        "category": "ubicación",
+        "translation": "Far from",
+        "example": "El parque está lejos de aquí."
+      },
+      {
+        "word": "Ventana",
+        "category": "mueble",
+        "translation": "Window",
+        "example": "La ventana de mi dormitorio es grande."
+      }
     ],
-    "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
@@ -19153,42 +19608,32 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "___ un sofá en la sala.",
+        "prompt": "¿Qué significa \"Dormitorio\"?",
         "options": [
-          "Hay",
-          "Está",
-          "Son",
-          "Es"
+          "Kitchen",
+          "Bedroom",
+          "Bathroom",
+          "Living room"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "El armario ___ en mi dormitorio.",
+        "prompt": "¿Qué significa \"Armario\"?",
         "options": [
-          "hay",
-          "está",
-          "son",
-          "es"
+          "Bed",
+          "Table",
+          "Closet/wardrobe",
+          "Desk"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "El patio está ___ de la casa.",
+        "prompt": "¿Qué significa \"Cerca de\"?",
         "options": [
-          "detrás",
-          "es",
-          "hay",
-          "son"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "___ dos baños en mi casa.",
-        "options": [
-          "Está",
-          "Son",
-          "Hay",
-          "Es"
+          "Far from",
+          "Near",
+          "Behind",
+          "In front of"
         ]
       }
     ]
@@ -19889,146 +20334,87 @@
     ]
   },
   {
-    "slug": "spanish-a1-mi-casa-vocabulary",
+    "slug": "spanish-a1-mi-barrio-y-mi-ciudad-reading",
     "level": "A1",
-    "skill": "vocabulary",
-    "unitId": "mi-casa",
-    "title": "La casa y los muebles",
+    "skill": "reading",
+    "unitId": "mi-barrio-y-mi-ciudad",
+    "title": "Mi barrio",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 20,
-    "orderIndex": 55,
-    "estimatedMinutes": 6,
-    "description": "Palabras para las habitaciones y los muebles de una casa.",
-    "intro": "Palabras para las habitaciones y los muebles de una casa.",
+    "xpReward": 25,
+    "orderIndex": 60,
+    "estimatedMinutes": 10,
+    "description": "Una descripción del barrio donde vive Camila.",
+    "intro": "Una descripción del barrio donde vive Camila.",
     "mission": "",
     "grammar": "",
     "phrases": [],
-    "vocabulary": [
-      {
-        "word": "Sala",
-        "category": "habitación",
-        "translation": "Living room",
-        "example": "En la sala hay un sofá."
-      },
-      {
-        "word": "Cocina",
-        "category": "habitación",
-        "translation": "Kitchen",
-        "example": "La cocina tiene una nevera."
-      },
-      {
-        "word": "Dormitorio",
-        "category": "habitación",
-        "translation": "Bedroom",
-        "example": "Mi dormitorio es pequeño."
-      },
-      {
-        "word": "Baño",
-        "category": "habitación",
-        "translation": "Bathroom",
-        "example": "El baño está al lado de la cocina."
-      },
-      {
-        "word": "Patio",
-        "category": "habitación",
-        "translation": "Yard/patio",
-        "example": "El patio tiene plantas."
-      },
-      {
-        "word": "Sofá",
-        "category": "mueble",
-        "translation": "Sofa",
-        "example": "El sofá es cómodo."
-      },
-      {
-        "word": "Cama",
-        "category": "mueble",
-        "translation": "Bed",
-        "example": "Mi cama es grande."
-      },
-      {
-        "word": "Armario",
-        "category": "mueble",
-        "translation": "Closet/wardrobe",
-        "example": "La ropa está en el armario."
-      },
-      {
-        "word": "Mesa",
-        "category": "mueble",
-        "translation": "Table",
-        "example": "La mesa está en la cocina."
-      },
-      {
-        "word": "Escritorio",
-        "category": "mueble",
-        "translation": "Desk",
-        "example": "Estudio en mi escritorio."
-      },
-      {
-        "word": "Nevera",
-        "category": "electrodoméstico",
-        "translation": "Refrigerator",
-        "example": "La nevera está en la cocina."
-      },
-      {
-        "word": "Televisor",
-        "category": "electrodoméstico",
-        "translation": "Television",
-        "example": "El televisor está en la sala."
-      },
-      {
-        "word": "Cerca de",
-        "category": "ubicación",
-        "translation": "Near",
-        "example": "La escuela está cerca de mi casa."
-      },
-      {
-        "word": "Lejos de",
-        "category": "ubicación",
-        "translation": "Far from",
-        "example": "El parque está lejos de aquí."
-      },
-      {
-        "word": "Ventana",
-        "category": "mueble",
-        "translation": "Window",
-        "example": "La ventana de mi dormitorio es grande."
-      }
-    ],
+    "vocabulary": [],
     "dialogue": [],
-    "reading": null,
+    "reading": {
+      "title": "Mi barrio",
+      "parts": [
+        "Mi barrio tiene un parque, una farmacia y un supermercado. El parque está cerca de mi casa; voy allí todos los fines de semana.",
+        "La farmacia está en la calle principal, al lado del banco. El supermercado está lejos de mi casa, por eso vamos en carro.",
+        "Para ir a la escuela, tomo el autobús. La parada de autobús está a la derecha del parque. Me gusta mucho mi barrio porque es tranquilo."
+      ],
+      "questions": [
+        "¿Qué hay en el barrio de Camila?",
+        "¿Dónde está la farmacia?",
+        "¿Cómo va Camila a la escuela?"
+      ],
+      "ordering": {
+        "prompt": "Ordena los eventos de la historia.",
+        "events": [
+          "Camila describe los lugares de su barrio.",
+          "Camila explica dónde está la farmacia.",
+          "Camila explica cómo llegan al supermercado.",
+          "Camila explica cómo va a la escuela."
+        ]
+      },
+      "text": "Mi barrio tiene un parque, una farmacia y un supermercado. El parque está cerca de mi casa; voy allí todos los fines de semana.\n\nLa farmacia está en la calle principal, al lado del banco. El supermercado está lejos de mi casa, por eso vamos en carro.\n\nPara ir a la escuela, tomo el autobús. La parada de autobús está a la derecha del parque. Me gusta mucho mi barrio porque es tranquilo."
+    },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"Dormitorio\"?",
+        "prompt": "¿Qué hay cerca de la casa de Camila?",
         "options": [
-          "Kitchen",
-          "Bedroom",
-          "Bathroom",
-          "Living room"
+          "Un parque",
+          "Un hospital",
+          "Una playa",
+          "Un aeropuerto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"Armario\"?",
+        "prompt": "¿Dónde está la farmacia?",
         "options": [
-          "Bed",
-          "Table",
-          "Closet/wardrobe",
-          "Desk"
+          "Lejos de la casa",
+          "En la calle principal",
+          "Cerca del parque",
+          "En el supermercado"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"Cerca de\"?",
+        "prompt": "¿Cómo va Camila a la escuela?",
         "options": [
-          "Far from",
-          "Near",
-          "Behind",
-          "In front of"
+          "Caminando",
+          "En bicicleta",
+          "En autobús",
+          "En carro"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Dónde está la parada de autobús?",
+        "options": [
+          "A la izquierda del parque",
+          "A la derecha del parque",
+          "Lejos del barrio",
+          "Al lado del supermercado"
         ]
       }
     ]
@@ -20501,87 +20887,207 @@
     ]
   },
   {
-    "slug": "spanish-a1-mi-barrio-y-mi-ciudad-reading",
+    "slug": "spanish-a1-mi-barrio-y-mi-ciudad-listening",
     "level": "A1",
-    "skill": "reading",
+    "skill": "listening",
     "unitId": "mi-barrio-y-mi-ciudad",
-    "title": "Mi barrio",
+    "title": "Perdón, ¿dónde está el banco?",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
-    "orderIndex": 60,
+    "orderIndex": 61,
     "estimatedMinutes": 10,
-    "description": "Una descripción del barrio donde vive Camila.",
-    "intro": "Una descripción del barrio donde vive Camila.",
+    "description": "Alguien pregunta cómo llegar a un lugar en la calle.",
+    "intro": "Escucha a una persona preguntando una dirección en la calle.",
     "mission": "",
     "grammar": "",
-    "phrases": [],
+    "phrases": [
+      "¿Dónde está...?",
+      "Camina derecho.",
+      "Dobla a la derecha/izquierda.",
+      "Está cerca / lejos."
+    ],
     "vocabulary": [],
     "dialogue": [],
-    "reading": {
-      "title": "Mi barrio",
-      "parts": [
-        "Mi barrio tiene un parque, una farmacia y un supermercado. El parque está cerca de mi casa; voy allí todos los fines de semana.",
-        "La farmacia está en la calle principal, al lado del banco. El supermercado está lejos de mi casa, por eso vamos en carro.",
-        "Para ir a la escuela, tomo el autobús. La parada de autobús está a la derecha del parque. Me gusta mucho mi barrio porque es tranquilo."
+    "reading": null,
+    "transcript": "Cada día me levanto a las seis y media. Primero me ducho, desayuno y preparo mi mochila. Después camino a la escuela; las clases empiezan a las ocho. Por la tarde hago la tarea y ayudo un poco en casa. A veces veo una serie antes de cenar. Por la noche preparo mi ropa para el día siguiente y pongo la alarma. Así no tengo que correr por la mañana.",
+    "extra": {
+      "listeningType": "story",
+      "difficulty": "A1",
+      "durationSeconds": 45,
+      "speakers": [
+        "Narrador/a"
       ],
-      "questions": [
-        "¿Qué hay en el barrio de Camila?",
-        "¿Dónde está la farmacia?",
-        "¿Cómo va Camila a la escuela?"
-      ],
-      "ordering": {
-        "prompt": "Ordena los eventos de la historia.",
-        "events": [
-          "Camila describe los lugares de su barrio.",
-          "Camila explica dónde está la farmacia.",
-          "Camila explica cómo llegan al supermercado.",
-          "Camila explica cómo va a la escuela."
+      "phoneticSupport": {
+        "enabled": true,
+        "locale": "es-419",
+        "focus": "Grupos consonánticos (tr, pl, cerca) se pronuncian juntos sin pausa; la entonación interrogativa sube al final de la pregunta.",
+        "fullIpa": null,
+        "segments": [
+          {
+            "text": "¿Dónde está?",
+            "ipa": "/ˈdon.de es.ˈta/"
+          },
+          {
+            "text": "derecho",
+            "ipa": "/de.ˈɾe.tʃo/"
+          }
+        ],
+        "stressedWords": [
+          "está",
+          "aquí"
+        ],
+        "syllabification": [
+          {
+            "word": "farmacia",
+            "syllables": "far-ma-cia"
+          }
+        ],
+        "difficultSounds": [
+          "grupos consonánticos"
+        ],
+        "reviewStatus": "pending-review"
+      },
+      "dictationSegmentCount": 3,
+      "listeningComprehension": {
+        "id": "spanish-a1-mi-barrio-y-mi-ciudad-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "En «Perdón, ¿dónde está el banco?», ¿qué detalle presenta la situación?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Cada día me levanto a las seis y media."
+              },
+              {
+                "id": "o2",
+                "text": "Después camino a la escuela; las clases empiezan a las ocho."
+              },
+              {
+                "id": "o3",
+                "text": "A veces veo una serie antes de cenar."
+              },
+              {
+                "id": "o4",
+                "text": "Así no tengo que correr por la mañana."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Después de «Cada día me levanto a las seis y media.», ¿qué sucede a continuación en «Perdón, ¿dónde está el banco?»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Cada día me levanto a las seis y media."
+              },
+              {
+                "id": "o2",
+                "text": "Después camino a la escuela; las clases empiezan a las ocho."
+              },
+              {
+                "id": "o3",
+                "text": "A veces veo una serie antes de cenar."
+              },
+              {
+                "id": "o4",
+                "text": "Así no tengo que correr por la mañana."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Perdón, ¿dónde está el banco?»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Cada día me levanto a las seis y media."
+              },
+              {
+                "id": "o2",
+                "text": "Después camino a la escuela; las clases empiezan a las ocho."
+              },
+              {
+                "id": "o3",
+                "text": "A veces veo una serie antes de cenar."
+              },
+              {
+                "id": "o4",
+                "text": "Así no tengo que correr por la mañana."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Perdón, ¿dónde está el banco?» después de «A veces veo una serie antes de cenar.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Cada día me levanto a las seis y media."
+              },
+              {
+                "id": "o2",
+                "text": "Después camino a la escuela; las clases empiezan a las ocho."
+              },
+              {
+                "id": "o3",
+                "text": "A veces veo una serie antes de cenar."
+              },
+              {
+                "id": "o4",
+                "text": "Así no tengo que correr por la mañana."
+              }
+            ]
+          }
         ]
       },
-      "text": "Mi barrio tiene un parque, una farmacia y un supermercado. El parque está cerca de mi casa; voy allí todos los fines de semana.\n\nLa farmacia está en la calle principal, al lado del banco. El supermercado está lejos de mi casa, por eso vamos en carro.\n\nPara ir a la escuela, tomo el autobús. La parada de autobús está a la derecha del parque. Me gusta mucho mi barrio porque es tranquilo."
+      "grammarTest": null
     },
-    "transcript": "",
-    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué hay cerca de la casa de Camila?",
+        "prompt": "En «Perdón, ¿dónde está el banco?», ¿qué detalle presenta la situación?",
         "options": [
-          "Un parque",
-          "Un hospital",
-          "Una playa",
-          "Un aeropuerto"
+          "Cada día me levanto a las seis y media.",
+          "Después camino a la escuela; las clases empiezan a las ocho.",
+          "A veces veo una serie antes de cenar.",
+          "Así no tengo que correr por la mañana."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Dónde está la farmacia?",
+        "prompt": "Después de «Cada día me levanto a las seis y media.», ¿qué sucede a continuación en «Perdón, ¿dónde está el banco?»?",
         "options": [
-          "Lejos de la casa",
-          "En la calle principal",
-          "Cerca del parque",
-          "En el supermercado"
+          "Cada día me levanto a las seis y media.",
+          "Después camino a la escuela; las clases empiezan a las ocho.",
+          "A veces veo una serie antes de cenar.",
+          "Así no tengo que correr por la mañana."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo va Camila a la escuela?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Perdón, ¿dónde está el banco?»?",
         "options": [
-          "Caminando",
-          "En bicicleta",
-          "En autobús",
-          "En carro"
+          "Cada día me levanto a las seis y media.",
+          "Después camino a la escuela; las clases empiezan a las ocho.",
+          "A veces veo una serie antes de cenar.",
+          "Así no tengo que correr por la mañana."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Dónde está la parada de autobús?",
+        "prompt": "¿Qué resultado cierra «Perdón, ¿dónde está el banco?» después de «A veces veo una serie antes de cenar.»?",
         "options": [
-          "A la izquierda del parque",
-          "A la derecha del parque",
-          "Lejos del barrio",
-          "Al lado del supermercado"
+          "Cada día me levanto a las seis y media.",
+          "Después camino a la escuela; las clases empiezan a las ocho.",
+          "A veces veo una serie antes de cenar.",
+          "Así no tengo que correr por la mañana."
         ]
       }
     ]
@@ -20618,75 +21124,98 @@
       ],
       "transcript": "Estoy buscando un apartamento en la calle Mayor. Me interesa porque tiene muebles básicos y mucha luz por la mañana. Como trabajo desde casa, necesito tranquilidad. El barrio es seguro y hay poco ruido, aunque el alquiler es un poco más alto. La sala es más luminosa que la del otro apartamento y el metro está cerca. Voy a visitarlo el sábado antes de decidir. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.",
       "listeningComprehension": {
-        "id": "spanish-a2-casa-y-barrio-listening-comprehension",
+        "id": "spanish-a2-casa-y-barrio-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué busca Mateo?",
+            "prompt": "En «Escucha · Casa y barrio», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Un hotel"
+                "text": "Estoy buscando un apartamento en la calle Mayor."
               },
               {
                 "id": "o2",
-                "text": "Un apartamento"
+                "text": "El barrio es seguro y hay poco ruido, aunque el alquiler es un poco más alto."
               },
               {
                 "id": "o3",
-                "text": "Una oficina"
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
               },
               {
                 "id": "o4",
-                "text": "Una habitación de hospital"
+                "text": "Me gusta tener un plan claro antes de seguir."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Qué necesita Mateo para trabajar?",
+            "prompt": "Después de «Estoy buscando un apartamento en la calle Mayor.», ¿qué sucede a continuación en «Escucha · Casa y barrio»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Un balcón grande"
+                "text": "Estoy buscando un apartamento en la calle Mayor."
               },
               {
                 "id": "o2",
-                "text": "Tranquilidad"
+                "text": "El barrio es seguro y hay poco ruido, aunque el alquiler es un poco más alto."
               },
               {
                 "id": "o3",
-                "text": "Un garaje"
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
               },
               {
                 "id": "o4",
-                "text": "Una piscina"
+                "text": "Me gusta tener un plan claro antes de seguir."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué hará antes de decidir?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Casa y barrio»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Firmar hoy"
+                "text": "Estoy buscando un apartamento en la calle Mayor."
               },
               {
                 "id": "o2",
-                "text": "Hablar con su jefe"
+                "text": "El barrio es seguro y hay poco ruido, aunque el alquiler es un poco más alto."
               },
               {
                 "id": "o3",
-                "text": "Visitar el apartamento"
+                "text": "Me interesa porque tiene muebles básicos y mucha luz por la mañana."
               },
               {
                 "id": "o4",
-                "text": "Buscar otro barrio"
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Casa y barrio» después de «Me interesa porque tiene muebles básicos y mucha luz por la mañana.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Estoy buscando un apartamento en la calle Mayor."
+              },
+              {
+                "id": "o2",
+                "text": "El barrio es seguro y hay poco ruido, aunque el alquiler es un poco más alto."
+              },
+              {
+                "id": "o3",
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+              },
+              {
+                "id": "o4",
+                "text": "Me gusta tener un plan claro antes de seguir."
               }
             ]
           }
@@ -20697,36 +21226,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué busca Mateo?",
+        "prompt": "En «Escucha · Casa y barrio», ¿qué detalle presenta la situación?",
         "options": [
-          "Un hotel",
-          "Un apartamento",
-          "Una oficina",
-          "Una habitación de hospital"
-        ],
-        "explanation": "Mateo pregunta por un apartamento."
+          "Estoy buscando un apartamento en la calle Mayor.",
+          "El barrio es seguro y hay poco ruido, aunque el alquiler es un poco más alto.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué necesita Mateo para trabajar?",
+        "prompt": "Después de «Estoy buscando un apartamento en la calle Mayor.», ¿qué sucede a continuación en «Escucha · Casa y barrio»?",
         "options": [
-          "Un balcón grande",
-          "Tranquilidad",
-          "Un garaje",
-          "Una piscina"
-        ],
-        "explanation": "Trabaja desde casa y necesita tranquilidad."
+          "Estoy buscando un apartamento en la calle Mayor.",
+          "El barrio es seguro y hay poco ruido, aunque el alquiler es un poco más alto.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hará antes de decidir?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Casa y barrio»?",
         "options": [
-          "Firmar hoy",
-          "Hablar con su jefe",
-          "Visitar el apartamento",
-          "Buscar otro barrio"
-        ],
-        "explanation": "Mateo dice que va a visitarlo el sábado."
+          "Estoy buscando un apartamento en la calle Mayor.",
+          "El barrio es seguro y hay poco ruido, aunque el alquiler es un poco más alto.",
+          "Me interesa porque tiene muebles básicos y mucha luz por la mañana.",
+          "Al final, repaso la información y preparo el siguiente paso con calma."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Casa y barrio» después de «Me interesa porque tiene muebles básicos y mucha luz por la mañana.»?",
+        "options": [
+          "Estoy buscando un apartamento en la calle Mayor.",
+          "El barrio es seguro y hay poco ruido, aunque el alquiler es un poco más alto.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
       }
     ]
   },
@@ -21169,15 +21705,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Para formular una idea con precisión y reservas"
-              },
-              {
-                "id": "o2",
                 "text": "Para eliminar toda postura"
               },
               {
-                "id": "o3",
+                "id": "o2",
                 "text": "Para repetir palabras aisladas"
+              },
+              {
+                "id": "o3",
+                "text": "Para formular una idea con precisión y reservas"
               },
               {
                 "id": "o4",
@@ -21196,15 +21732,15 @@
               },
               {
                 "id": "o2",
-                "text": "Qué evidencia sostendría o modificaría una postura"
-              },
-              {
-                "id": "o3",
                 "text": "Cómo evitar cualquier debate"
               },
               {
-                "id": "o4",
+                "id": "o3",
                 "text": "Qué palabra es más difícil de pronunciar"
+              },
+              {
+                "id": "o4",
+                "text": "Qué evidencia sostendría o modificaría una postura"
               }
             ]
           }
@@ -21239,9 +21775,9 @@
         "type": "mcq",
         "prompt": "¿Para qué se usa la gramática de la unidad?",
         "options": [
-          "Para formular una idea con precisión y reservas",
           "Para eliminar toda postura",
           "Para repetir palabras aisladas",
+          "Para formular una idea con precisión y reservas",
           "Para evitar reconocer límites"
         ],
         "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
@@ -21251,9 +21787,9 @@
         "prompt": "¿Qué pregunta final propone el audio?",
         "options": [
           "Qué aplicación es más rápida",
-          "Qué evidencia sostendría o modificaría una postura",
           "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar"
+          "Qué palabra es más difícil de pronunciar",
+          "Qué evidencia sostendría o modificaría una postura"
         ],
         "explanation": "La pregunta final invita a justificar y revisar una conclusión."
       }
@@ -21348,15 +21884,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Para formular una idea con precisión y reservas"
-              },
-              {
-                "id": "o2",
                 "text": "Para eliminar toda postura"
               },
               {
-                "id": "o3",
+                "id": "o2",
                 "text": "Para repetir palabras aisladas"
+              },
+              {
+                "id": "o3",
+                "text": "Para formular una idea con precisión y reservas"
               },
               {
                 "id": "o4",
@@ -21375,15 +21911,15 @@
               },
               {
                 "id": "o2",
-                "text": "Qué evidencia sostendría o modificaría una postura"
-              },
-              {
-                "id": "o3",
                 "text": "Cómo evitar cualquier debate"
               },
               {
-                "id": "o4",
+                "id": "o3",
                 "text": "Qué palabra es más difícil de pronunciar"
+              },
+              {
+                "id": "o4",
+                "text": "Qué evidencia sostendría o modificaría una postura"
               }
             ]
           }
@@ -21418,9 +21954,9 @@
         "type": "mcq",
         "prompt": "¿Para qué se usa la gramática de la unidad?",
         "options": [
-          "Para formular una idea con precisión y reservas",
           "Para eliminar toda postura",
           "Para repetir palabras aisladas",
+          "Para formular una idea con precisión y reservas",
           "Para evitar reconocer límites"
         ],
         "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
@@ -21430,187 +21966,69 @@
         "prompt": "¿Qué pregunta final propone el audio?",
         "options": [
           "Qué aplicación es más rápida",
-          "Qué evidencia sostendría o modificaría una postura",
           "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar"
+          "Qué palabra es más difícil de pronunciar",
+          "Qué evidencia sostendría o modificaría una postura"
         ],
         "explanation": "La pregunta final invita a justificar y revisar una conclusión."
       }
     ]
   },
   {
-    "slug": "spanish-a1-mi-barrio-y-mi-ciudad-listening",
+    "slug": "spanish-a1-mi-barrio-y-mi-ciudad-speaking",
     "level": "A1",
-    "skill": "listening",
+    "skill": "speaking",
     "unitId": "mi-barrio-y-mi-ciudad",
-    "title": "Perdón, ¿dónde está el banco?",
+    "title": "Da una dirección",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 25,
-    "orderIndex": 61,
-    "estimatedMinutes": 10,
-    "description": "Alguien pregunta cómo llegar a un lugar en la calle.",
-    "intro": "Escucha a una persona preguntando una dirección en la calle.",
-    "mission": "",
+    "xpReward": 20,
+    "orderIndex": 62,
+    "estimatedMinutes": 8,
+    "description": "Practica preguntar y dar direcciones sencillas.",
+    "intro": "Practica preguntar y dar direcciones sencillas.",
+    "mission": "Pregúntale a un compañero cómo llegar a un lugar y dale una dirección sencilla.",
     "grammar": "",
     "phrases": [
       "¿Dónde está...?",
       "Camina derecho.",
       "Dobla a la derecha/izquierda.",
-      "Está cerca / lejos."
+      "Está cerca/lejos."
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "Tú",
+        "line": "Perdón, ¿dónde está el parque?",
+        "translation": "Excuse me, where is the park?"
+      },
+      {
+        "speaker": "Compañero/a",
+        "line": "Camina derecho y dobla a la izquierda.",
+        "translation": "Walk straight and turn left."
+      },
+      {
+        "speaker": "Tú",
+        "line": "¿Está lejos?",
+        "translation": "Is it far?"
+      },
+      {
+        "speaker": "Compañero/a",
+        "line": "Muy bien. Ahora añade una frase más sobre «¿Dónde está...?».",
+        "translation": "Very good. Now add one more sentence about this topic."
+      }
+    ],
     "reading": null,
-    "transcript": "Cada día me levanto a las seis y media. Primero me ducho, desayuno y preparo mi mochila. Después camino a la escuela; las clases empiezan a las ocho. Por la tarde hago la tarea y ayudo un poco en casa. A veces veo una serie antes de cenar. Por la noche preparo mi ropa para el día siguiente y pongo la alarma. Así no tengo que correr por la mañana.",
-    "extra": {
-      "listeningType": "story",
-      "difficulty": "A1",
-      "durationSeconds": 45,
-      "speakers": [
-        "Narrador/a"
-      ],
-      "phoneticSupport": {
-        "enabled": true,
-        "locale": "es-419",
-        "focus": "Grupos consonánticos (tr, pl, cerca) se pronuncian juntos sin pausa; la entonación interrogativa sube al final de la pregunta.",
-        "fullIpa": null,
-        "segments": [
-          {
-            "text": "¿Dónde está?",
-            "ipa": "/ˈdon.de es.ˈta/"
-          },
-          {
-            "text": "derecho",
-            "ipa": "/de.ˈɾe.tʃo/"
-          }
-        ],
-        "stressedWords": [
-          "está",
-          "aquí"
-        ],
-        "syllabification": [
-          {
-            "word": "farmacia",
-            "syllables": "far-ma-cia"
-          }
-        ],
-        "difficultSounds": [
-          "grupos consonánticos"
-        ],
-        "reviewStatus": "pending-review"
-      },
-      "dictationSegmentCount": 3,
-      "listeningComprehension": {
-        "id": "spanish-a1-mi-barrio-y-mi-ciudad-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "¿A qué hora se levanta la persona?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "A las seis y media"
-              },
-              {
-                "id": "o2",
-                "text": "A las ocho"
-              },
-              {
-                "id": "o3",
-                "text": "A las diez"
-              },
-              {
-                "id": "o4",
-                "text": "A las doce"
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "¿Cómo llega a la escuela?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Caminando"
-              },
-              {
-                "id": "o2",
-                "text": "En tren"
-              },
-              {
-                "id": "o3",
-                "text": "En avión"
-              },
-              {
-                "id": "o4",
-                "text": "En taxi"
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "¿Qué prepara por la noche?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "La ropa y la alarma"
-              },
-              {
-                "id": "o2",
-                "text": "Una sopa"
-              },
-              {
-                "id": "o3",
-                "text": "Un billete"
-              },
-              {
-                "id": "o4",
-                "text": "Una camisa"
-              }
-            ]
-          }
-        ]
-      },
-      "grammarTest": null
-    },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
-        "type": "mcq",
-        "prompt": "¿A qué hora se levanta la persona?",
-        "options": [
-          "A las seis y media",
-          "A las ocho",
-          "A las diez",
-          "A las doce"
-        ],
-        "explanation": "La persona se levanta a las seis y media."
+        "type": "speaking",
+        "prompt": "Da en voz alta una dirección sencilla desde tu casa hasta un lugar cercano."
       },
       {
-        "type": "mcq",
-        "prompt": "¿Cómo llega a la escuela?",
-        "options": [
-          "Caminando",
-          "En tren",
-          "En avión",
-          "En taxi"
-        ],
-        "explanation": "Camina a la escuela."
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Qué prepara por la noche?",
-        "options": [
-          "La ropa y la alarma",
-          "Una sopa",
-          "Un billete",
-          "Una camisa"
-        ],
-        "explanation": "Por la noche prepara la ropa y pone la alarma."
+        "type": "practice",
+        "prompt": "Pregúntale a un compañero \"¿Dónde está la escuela?\" y escucha su respuesta. Si no tienes micrófono, responde por escrito."
       }
     ]
   },
@@ -21912,47 +22330,32 @@
     ]
   },
   {
-    "slug": "spanish-a1-mi-barrio-y-mi-ciudad-speaking",
+    "slug": "spanish-a1-mi-barrio-y-mi-ciudad-writing",
     "level": "A1",
-    "skill": "speaking",
+    "skill": "writing",
     "unitId": "mi-barrio-y-mi-ciudad",
-    "title": "Da una dirección",
+    "title": "Escribe sobre tu barrio",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 20,
-    "orderIndex": 62,
-    "estimatedMinutes": 8,
-    "description": "Practica preguntar y dar direcciones sencillas.",
-    "intro": "Practica preguntar y dar direcciones sencillas.",
-    "mission": "Pregúntale a un compañero cómo llegar a un lugar y dale una dirección sencilla.",
+    "xpReward": 25,
+    "orderIndex": 63,
+    "estimatedMinutes": 12,
+    "description": "Escribe una descripción corta de tu barrio.",
+    "intro": "Escribe una descripción corta de tu barrio.",
+    "mission": "Escribe 5-6 oraciones sobre los lugares de tu barrio y cómo llegas a la escuela.",
     "grammar": "",
     "phrases": [
-      "¿Dónde está...?",
-      "Camina derecho.",
-      "Dobla a la derecha/izquierda.",
-      "Está cerca/lejos."
+      "En mi barrio hay...",
+      "Está cerca de...",
+      "Para ir a la escuela, tomo...",
+      "Me gusta mi barrio porque..."
     ],
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Tú",
-        "line": "Perdón, ¿dónde está el parque?",
-        "translation": "Excuse me, where is the park?"
-      },
-      {
-        "speaker": "Compañero/a",
-        "line": "Camina derecho y dobla a la izquierda.",
-        "translation": "Walk straight and turn left."
-      },
-      {
-        "speaker": "Tú",
-        "line": "¿Está lejos?",
-        "translation": "Is it far?"
-      },
-      {
-        "speaker": "Compañero/a",
-        "line": "Muy bien. Ahora añade una frase más sobre «¿Dónde está...?».",
-        "translation": "Very good. Now add one more sentence about this topic."
+        "speaker": "Modelo",
+        "line": "En mi barrio hay un parque y una farmacia. El parque está cerca de mi casa. Para ir a la escuela, camino.",
+        "translation": "In my neighborhood there is a park and a pharmacy. The park is near my house. To go to school, I walk."
       }
     ],
     "reading": null,
@@ -21960,12 +22363,8 @@
     "extra": null,
     "exercises": [
       {
-        "type": "speaking",
-        "prompt": "Da en voz alta una dirección sencilla desde tu casa hasta un lugar cercano."
-      },
-      {
-        "type": "practice",
-        "prompt": "Pregúntale a un compañero \"¿Dónde está la escuela?\" y escucha su respuesta. Si no tienes micrófono, responde por escrito."
+        "type": "writing",
+        "prompt": "Escribe 5-6 oraciones sobre tu barrio: los lugares que hay y cómo llegas a la escuela."
       }
     ]
   },
@@ -22135,41 +22534,71 @@
     ]
   },
   {
-    "slug": "spanish-a1-mi-barrio-y-mi-ciudad-writing",
+    "slug": "spanish-a1-mi-barrio-y-mi-ciudad-grammar",
     "level": "A1",
-    "skill": "writing",
+    "skill": "grammar",
     "unitId": "mi-barrio-y-mi-ciudad",
-    "title": "Escribe sobre tu barrio",
+    "title": "El verbo ir y las direcciones",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 25,
-    "orderIndex": 63,
-    "estimatedMinutes": 12,
-    "description": "Escribe una descripción corta de tu barrio.",
-    "intro": "Escribe una descripción corta de tu barrio.",
-    "mission": "Escribe 5-6 oraciones sobre los lugares de tu barrio y cómo llegas a la escuela.",
-    "grammar": "",
+    "xpReward": 20,
+    "orderIndex": 64,
+    "estimatedMinutes": 8,
+    "description": "Aprende a usar ir/ir a y expresiones para dar direcciones.",
+    "intro": "Aprende a usar ir/ir a y expresiones para dar direcciones.",
+    "mission": "",
+    "grammar": "El verbo \"ir\" es irregular: yo voy, tú vas, él/ella va. Usamos \"ir a + lugar\" para decir a dónde vamos: Voy a la escuela. Para dar direcciones usamos expresiones fijas como \"camina derecho\", \"dobla a la derecha/izquierda\", \"sigue recto\". Error frecuente: decir \"voy la escuela\" sin la preposición \"a\" (debe ser \"voy a la escuela\").",
     "phrases": [
-      "En mi barrio hay...",
-      "Está cerca de...",
-      "Para ir a la escuela, tomo...",
-      "Me gusta mi barrio porque..."
+      "Yo voy a...",
+      "Tú vas a...",
+      "Camina derecho.",
+      "Dobla a la derecha."
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Modelo",
-        "line": "En mi barrio hay un parque y una farmacia. El parque está cerca de mi casa. Para ir a la escuela, camino.",
-        "translation": "In my neighborhood there is a park and a pharmacy. The park is near my house. To go to school, I walk."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "type": "writing",
-        "prompt": "Escribe 5-6 oraciones sobre tu barrio: los lugares que hay y cómo llegas a la escuela."
+        "type": "mcq",
+        "prompt": "Yo ___ a la escuela todos los días.",
+        "options": [
+          "voy",
+          "vas",
+          "va",
+          "van"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿___ tú al parque los sábados?",
+        "options": [
+          "Voy",
+          "Vas",
+          "Va",
+          "Vamos"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Para llegar al banco, ___ a la derecha.",
+        "options": [
+          "camina",
+          "dobla",
+          "va",
+          "voy"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Elige la oración correcta.",
+        "options": [
+          "Voy la escuela.",
+          "Voy a la escuela.",
+          "Voy en la escuela.",
+          "Voy de la escuela."
+        ]
       }
     ]
   },
@@ -23034,27 +23463,113 @@
     ]
   },
   {
-    "slug": "spanish-a1-mi-barrio-y-mi-ciudad-grammar",
+    "slug": "spanish-a1-mi-barrio-y-mi-ciudad-vocabulary",
     "level": "A1",
-    "skill": "grammar",
+    "skill": "vocabulary",
     "unitId": "mi-barrio-y-mi-ciudad",
-    "title": "El verbo ir y las direcciones",
+    "title": "Lugares y transporte",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
-    "orderIndex": 64,
-    "estimatedMinutes": 8,
-    "description": "Aprende a usar ir/ir a y expresiones para dar direcciones.",
-    "intro": "Aprende a usar ir/ir a y expresiones para dar direcciones.",
+    "orderIndex": 65,
+    "estimatedMinutes": 6,
+    "description": "Palabras para lugares de la ciudad y medios de transporte.",
+    "intro": "Palabras para lugares de la ciudad y medios de transporte.",
     "mission": "",
-    "grammar": "El verbo \"ir\" es irregular: yo voy, tú vas, él/ella va. Usamos \"ir a + lugar\" para decir a dónde vamos: Voy a la escuela. Para dar direcciones usamos expresiones fijas como \"camina derecho\", \"dobla a la derecha/izquierda\", \"sigue recto\". Error frecuente: decir \"voy la escuela\" sin la preposición \"a\" (debe ser \"voy a la escuela\").",
-    "phrases": [
-      "Yo voy a...",
-      "Tú vas a...",
-      "Camina derecho.",
-      "Dobla a la derecha."
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "Parque",
+        "category": "lugar",
+        "translation": "Park",
+        "example": "El parque está cerca de mi casa."
+      },
+      {
+        "word": "Banco",
+        "category": "lugar",
+        "translation": "Bank",
+        "example": "El banco abre a las nueve."
+      },
+      {
+        "word": "Farmacia",
+        "category": "lugar",
+        "translation": "Pharmacy",
+        "example": "La farmacia está al lado del banco."
+      },
+      {
+        "word": "Supermercado",
+        "category": "lugar",
+        "translation": "Supermarket",
+        "example": "Compramos comida en el supermercado."
+      },
+      {
+        "word": "Calle",
+        "category": "lugar",
+        "translation": "Street",
+        "example": "Vivo en esta calle."
+      },
+      {
+        "word": "Autobús",
+        "category": "transporte",
+        "translation": "Bus",
+        "example": "Tomo el autobús a la escuela."
+      },
+      {
+        "word": "Carro",
+        "category": "transporte",
+        "translation": "Car",
+        "example": "Vamos en carro al supermercado."
+      },
+      {
+        "word": "Bicicleta",
+        "category": "transporte",
+        "translation": "Bicycle",
+        "example": "Voy al parque en bicicleta."
+      },
+      {
+        "word": "A pie",
+        "category": "transporte",
+        "translation": "On foot",
+        "example": "Voy a la escuela a pie."
+      },
+      {
+        "word": "Derecha",
+        "category": "dirección",
+        "translation": "Right",
+        "example": "Dobla a la derecha."
+      },
+      {
+        "word": "Izquierda",
+        "category": "dirección",
+        "translation": "Left",
+        "example": "Dobla a la izquierda."
+      },
+      {
+        "word": "Cerca",
+        "category": "dirección",
+        "translation": "Near/close",
+        "example": "La escuela está cerca."
+      },
+      {
+        "word": "Lejos",
+        "category": "dirección",
+        "translation": "Far",
+        "example": "El supermercado está lejos."
+      },
+      {
+        "word": "Hospital",
+        "category": "lugar",
+        "translation": "Hospital",
+        "example": "El hospital está cerca del parque."
+      },
+      {
+        "word": "Esquina",
+        "category": "lugar",
+        "translation": "Corner",
+        "example": "El banco está en la esquina."
+      }
     ],
-    "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
@@ -23062,42 +23577,32 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Yo ___ a la escuela todos los días.",
+        "prompt": "¿Qué significa \"Farmacia\"?",
         "options": [
-          "voy",
-          "vas",
-          "va",
-          "van"
+          "Bank",
+          "Pharmacy",
+          "Park",
+          "Supermarket"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿___ tú al parque los sábados?",
+        "prompt": "¿Qué significa \"Derecha\"?",
         "options": [
-          "Voy",
-          "Vas",
-          "Va",
-          "Vamos"
+          "Left",
+          "Right",
+          "Near",
+          "Far"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Para llegar al banco, ___ a la derecha.",
+        "prompt": "¿Qué significa \"A pie\"?",
         "options": [
-          "camina",
-          "dobla",
-          "va",
-          "voy"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Elige la oración correcta.",
-        "options": [
-          "Voy la escuela.",
-          "Voy a la escuela.",
-          "Voy en la escuela.",
-          "Voy de la escuela."
+          "By car",
+          "By bus",
+          "On foot",
+          "By bicycle"
         ]
       }
     ]
@@ -23798,146 +24303,87 @@
     ]
   },
   {
-    "slug": "spanish-a1-mi-barrio-y-mi-ciudad-vocabulary",
+    "slug": "spanish-a1-comida-y-bebida-reading",
     "level": "A1",
-    "skill": "vocabulary",
-    "unitId": "mi-barrio-y-mi-ciudad",
-    "title": "Lugares y transporte",
+    "skill": "reading",
+    "unitId": "comida-y-bebida",
+    "title": "El desayuno de Mariana",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 20,
-    "orderIndex": 65,
-    "estimatedMinutes": 6,
-    "description": "Palabras para lugares de la ciudad y medios de transporte.",
-    "intro": "Palabras para lugares de la ciudad y medios de transporte.",
+    "xpReward": 25,
+    "orderIndex": 70,
+    "estimatedMinutes": 10,
+    "description": "Un texto sobre lo que come Mariana en un café.",
+    "intro": "Un texto sobre lo que come Mariana en un café.",
     "mission": "",
     "grammar": "",
     "phrases": [],
-    "vocabulary": [
-      {
-        "word": "Parque",
-        "category": "lugar",
-        "translation": "Park",
-        "example": "El parque está cerca de mi casa."
-      },
-      {
-        "word": "Banco",
-        "category": "lugar",
-        "translation": "Bank",
-        "example": "El banco abre a las nueve."
-      },
-      {
-        "word": "Farmacia",
-        "category": "lugar",
-        "translation": "Pharmacy",
-        "example": "La farmacia está al lado del banco."
-      },
-      {
-        "word": "Supermercado",
-        "category": "lugar",
-        "translation": "Supermarket",
-        "example": "Compramos comida en el supermercado."
-      },
-      {
-        "word": "Calle",
-        "category": "lugar",
-        "translation": "Street",
-        "example": "Vivo en esta calle."
-      },
-      {
-        "word": "Autobús",
-        "category": "transporte",
-        "translation": "Bus",
-        "example": "Tomo el autobús a la escuela."
-      },
-      {
-        "word": "Carro",
-        "category": "transporte",
-        "translation": "Car",
-        "example": "Vamos en carro al supermercado."
-      },
-      {
-        "word": "Bicicleta",
-        "category": "transporte",
-        "translation": "Bicycle",
-        "example": "Voy al parque en bicicleta."
-      },
-      {
-        "word": "A pie",
-        "category": "transporte",
-        "translation": "On foot",
-        "example": "Voy a la escuela a pie."
-      },
-      {
-        "word": "Derecha",
-        "category": "dirección",
-        "translation": "Right",
-        "example": "Dobla a la derecha."
-      },
-      {
-        "word": "Izquierda",
-        "category": "dirección",
-        "translation": "Left",
-        "example": "Dobla a la izquierda."
-      },
-      {
-        "word": "Cerca",
-        "category": "dirección",
-        "translation": "Near/close",
-        "example": "La escuela está cerca."
-      },
-      {
-        "word": "Lejos",
-        "category": "dirección",
-        "translation": "Far",
-        "example": "El supermercado está lejos."
-      },
-      {
-        "word": "Hospital",
-        "category": "lugar",
-        "translation": "Hospital",
-        "example": "El hospital está cerca del parque."
-      },
-      {
-        "word": "Esquina",
-        "category": "lugar",
-        "translation": "Corner",
-        "example": "El banco está en la esquina."
-      }
-    ],
+    "vocabulary": [],
     "dialogue": [],
-    "reading": null,
+    "reading": {
+      "title": "El desayuno de Mariana",
+      "parts": [
+        "A Mariana le gusta desayunar en un café cerca de su casa. Ella siempre pide pan con queso y un jugo de naranja.",
+        "Hoy, el mesero le pregunta: \"¿Qué desea tomar?\". Mariana responde: \"Quiero un café con leche, por favor.\" También pide un poco de fruta.",
+        "A Mariana no le gusta el café solo; prefiere el café con leche. Después de desayunar, paga la cuenta y va a la escuela."
+      ],
+      "questions": [
+        "¿Qué pide Mariana normalmente?",
+        "¿Qué le pregunta el mesero?",
+        "¿Qué prefiere Mariana, el café solo o con leche?"
+      ],
+      "ordering": {
+        "prompt": "Ordena los eventos de la historia.",
+        "events": [
+          "Mariana llega al café.",
+          "El mesero le pregunta qué desea tomar.",
+          "Mariana pide café con leche y fruta.",
+          "Mariana paga la cuenta y va a la escuela."
+        ]
+      },
+      "text": "A Mariana le gusta desayunar en un café cerca de su casa. Ella siempre pide pan con queso y un jugo de naranja.\n\nHoy, el mesero le pregunta: \"¿Qué desea tomar?\". Mariana responde: \"Quiero un café con leche, por favor.\" También pide un poco de fruta.\n\nA Mariana no le gusta el café solo; prefiere el café con leche. Después de desayunar, paga la cuenta y va a la escuela."
+    },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"Farmacia\"?",
+        "prompt": "¿Qué pide Mariana para comer?",
         "options": [
-          "Bank",
-          "Pharmacy",
-          "Park",
-          "Supermarket"
+          "Pan con queso",
+          "Solo fruta",
+          "Arroz",
+          "Nada"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"Derecha\"?",
+        "prompt": "¿Qué pide Mariana para tomar?",
         "options": [
-          "Left",
-          "Right",
-          "Near",
-          "Far"
+          "Agua",
+          "Café con leche",
+          "Té",
+          "Jugo de manzana"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"A pie\"?",
+        "prompt": "¿Qué prefiere Mariana?",
         "options": [
-          "By car",
-          "By bus",
-          "On foot",
-          "By bicycle"
+          "Café solo",
+          "Café con leche",
+          "No toma café",
+          "Jugo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿A dónde va Mariana después de desayunar?",
+        "options": [
+          "A casa",
+          "A la escuela",
+          "Al parque",
+          "Al supermercado"
         ]
       }
     ]
@@ -24397,87 +24843,207 @@
     ]
   },
   {
-    "slug": "spanish-a1-comida-y-bebida-reading",
+    "slug": "spanish-a1-comida-y-bebida-listening",
     "level": "A1",
-    "skill": "reading",
+    "skill": "listening",
     "unitId": "comida-y-bebida",
-    "title": "El desayuno de Mariana",
+    "title": "¿Qué desea pedir?",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
-    "orderIndex": 70,
+    "orderIndex": 71,
     "estimatedMinutes": 10,
-    "description": "Un texto sobre lo que come Mariana en un café.",
-    "intro": "Un texto sobre lo que come Mariana en un café.",
+    "description": "Una conversación en una cafetería entre un mesero y un cliente.",
+    "intro": "Escucha una conversación en un café entre un mesero y un cliente.",
     "mission": "",
     "grammar": "",
-    "phrases": [],
+    "phrases": [
+      "¿Qué desea pedir?",
+      "Quiero...",
+      "Un poco de...",
+      "¿Algo más?"
+    ],
     "vocabulary": [],
     "dialogue": [],
-    "reading": {
-      "title": "El desayuno de Mariana",
-      "parts": [
-        "A Mariana le gusta desayunar en un café cerca de su casa. Ella siempre pide pan con queso y un jugo de naranja.",
-        "Hoy, el mesero le pregunta: \"¿Qué desea tomar?\". Mariana responde: \"Quiero un café con leche, por favor.\" También pide un poco de fruta.",
-        "A Mariana no le gusta el café solo; prefiere el café con leche. Después de desayunar, paga la cuenta y va a la escuela."
+    "reading": null,
+    "transcript": "Un estudiante nuevo quiere llegar a la biblioteca. Primero camina derecho por esta calle y dobla a la izquierda en el banco. La biblioteca está frente al parque, al lado de una farmacia. Si necesita comprar agua, hay una tienda pequeña cerca de la entrada. El estudiante repite las indicaciones antes de salir. Después agradece la ayuda y camina con más seguridad por el barrio.",
+    "extra": {
+      "listeningType": "story",
+      "difficulty": "A1",
+      "durationSeconds": 45,
+      "speakers": [
+        "Narrador/a"
       ],
-      "questions": [
-        "¿Qué pide Mariana normalmente?",
-        "¿Qué le pregunta el mesero?",
-        "¿Qué prefiere Mariana, el café solo o con leche?"
-      ],
-      "ordering": {
-        "prompt": "Ordena los eventos de la historia.",
-        "events": [
-          "Mariana llega al café.",
-          "El mesero le pregunta qué desea tomar.",
-          "Mariana pide café con leche y fruta.",
-          "Mariana paga la cuenta y va a la escuela."
+      "phoneticSupport": {
+        "enabled": true,
+        "locale": "es-419",
+        "focus": "Ritmo natural al pedir (Quiero un café, por favor) y la \"d\" entre vocales suena suave, casi como una \"th\" ligera: pedir, comida.",
+        "fullIpa": null,
+        "segments": [
+          {
+            "text": "pedir",
+            "ipa": "/pe.ˈðiɾ/"
+          },
+          {
+            "text": "comida",
+            "ipa": "/ko.ˈmi.ða/"
+          }
+        ],
+        "stressedWords": [
+          "café",
+          "algo"
+        ],
+        "syllabification": [
+          {
+            "word": "desayuno",
+            "syllables": "de-sa-yu-no"
+          }
+        ],
+        "difficultSounds": [
+          "d intervocálica"
+        ],
+        "reviewStatus": "pending-review"
+      },
+      "dictationSegmentCount": 3,
+      "listeningComprehension": {
+        "id": "spanish-a1-comida-y-bebida-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "En «¿Qué desea pedir?», ¿qué detalle presenta la situación?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Un estudiante nuevo quiere llegar a la biblioteca."
+              },
+              {
+                "id": "o2",
+                "text": "La biblioteca está frente al parque, al lado de una farmacia."
+              },
+              {
+                "id": "o3",
+                "text": "Si necesita comprar agua, hay una tienda pequeña cerca de la entrada."
+              },
+              {
+                "id": "o4",
+                "text": "Después agradece la ayuda y camina con más seguridad por el barrio."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Después de «Un estudiante nuevo quiere llegar a la biblioteca.», ¿qué sucede a continuación en «¿Qué desea pedir?»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Un estudiante nuevo quiere llegar a la biblioteca."
+              },
+              {
+                "id": "o2",
+                "text": "La biblioteca está frente al parque, al lado de una farmacia."
+              },
+              {
+                "id": "o3",
+                "text": "Si necesita comprar agua, hay una tienda pequeña cerca de la entrada."
+              },
+              {
+                "id": "o4",
+                "text": "Después agradece la ayuda y camina con más seguridad por el barrio."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «¿Qué desea pedir?»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Un estudiante nuevo quiere llegar a la biblioteca."
+              },
+              {
+                "id": "o2",
+                "text": "La biblioteca está frente al parque, al lado de una farmacia."
+              },
+              {
+                "id": "o3",
+                "text": "Si necesita comprar agua, hay una tienda pequeña cerca de la entrada."
+              },
+              {
+                "id": "o4",
+                "text": "Después agradece la ayuda y camina con más seguridad por el barrio."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «¿Qué desea pedir?» después de «Si necesita comprar agua, hay una tienda pequeña cerca de la entrada.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Un estudiante nuevo quiere llegar a la biblioteca."
+              },
+              {
+                "id": "o2",
+                "text": "La biblioteca está frente al parque, al lado de una farmacia."
+              },
+              {
+                "id": "o3",
+                "text": "Si necesita comprar agua, hay una tienda pequeña cerca de la entrada."
+              },
+              {
+                "id": "o4",
+                "text": "Después agradece la ayuda y camina con más seguridad por el barrio."
+              }
+            ]
+          }
         ]
       },
-      "text": "A Mariana le gusta desayunar en un café cerca de su casa. Ella siempre pide pan con queso y un jugo de naranja.\n\nHoy, el mesero le pregunta: \"¿Qué desea tomar?\". Mariana responde: \"Quiero un café con leche, por favor.\" También pide un poco de fruta.\n\nA Mariana no le gusta el café solo; prefiere el café con leche. Después de desayunar, paga la cuenta y va a la escuela."
+      "grammarTest": null
     },
-    "transcript": "",
-    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué pide Mariana para comer?",
+        "prompt": "En «¿Qué desea pedir?», ¿qué detalle presenta la situación?",
         "options": [
-          "Pan con queso",
-          "Solo fruta",
-          "Arroz",
-          "Nada"
+          "Un estudiante nuevo quiere llegar a la biblioteca.",
+          "La biblioteca está frente al parque, al lado de una farmacia.",
+          "Si necesita comprar agua, hay una tienda pequeña cerca de la entrada.",
+          "Después agradece la ayuda y camina con más seguridad por el barrio."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué pide Mariana para tomar?",
+        "prompt": "Después de «Un estudiante nuevo quiere llegar a la biblioteca.», ¿qué sucede a continuación en «¿Qué desea pedir?»?",
         "options": [
-          "Agua",
-          "Café con leche",
-          "Té",
-          "Jugo de manzana"
+          "Un estudiante nuevo quiere llegar a la biblioteca.",
+          "La biblioteca está frente al parque, al lado de una farmacia.",
+          "Si necesita comprar agua, hay una tienda pequeña cerca de la entrada.",
+          "Después agradece la ayuda y camina con más seguridad por el barrio."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué prefiere Mariana?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «¿Qué desea pedir?»?",
         "options": [
-          "Café solo",
-          "Café con leche",
-          "No toma café",
-          "Jugo"
+          "Un estudiante nuevo quiere llegar a la biblioteca.",
+          "La biblioteca está frente al parque, al lado de una farmacia.",
+          "Si necesita comprar agua, hay una tienda pequeña cerca de la entrada.",
+          "Después agradece la ayuda y camina con más seguridad por el barrio."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿A dónde va Mariana después de desayunar?",
+        "prompt": "¿Qué resultado cierra «¿Qué desea pedir?» después de «Si necesita comprar agua, hay una tienda pequeña cerca de la entrada.»?",
         "options": [
-          "A casa",
-          "A la escuela",
-          "Al parque",
-          "Al supermercado"
+          "Un estudiante nuevo quiere llegar a la biblioteca.",
+          "La biblioteca está frente al parque, al lado de una farmacia.",
+          "Si necesita comprar agua, hay una tienda pequeña cerca de la entrada.",
+          "Después agradece la ayuda y camina con más seguridad por el barrio."
         ]
       }
     ]
@@ -24514,75 +25080,98 @@
       ],
       "transcript": "Esta noche voy a preparar una sopa de verduras. Tengo papas, zanahorias y cebolla, pero me falta un poco de caldo. Primero corto las verduras y después las hiervo durante veinte minutos. Añado la sal al final para comprobar mejor el sabor. Prefiero dejar los trozos enteros y agregar el caldo poco a poco para que la sopa no quede demasiado líquida. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.",
       "listeningComprehension": {
-        "id": "spanish-a2-comidas-y-recetas-listening-comprehension",
+        "id": "spanish-a2-comidas-y-recetas-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué van a preparar?",
+            "prompt": "En «Escucha · Comidas y recetas», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Una ensalada"
+                "text": "Esta noche voy a preparar una sopa de verduras."
               },
               {
                 "id": "o2",
-                "text": "Una sopa de verduras"
+                "text": "Añado la sal al final para comprobar mejor el sabor."
               },
               {
                 "id": "o3",
-                "text": "Una pizza"
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
               },
               {
                 "id": "o4",
-                "text": "Un pastel"
+                "text": "Me gusta tener un plan claro antes de seguir."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Qué ingrediente falta?",
+            "prompt": "Después de «Esta noche voy a preparar una sopa de verduras.», ¿qué sucede a continuación en «Escucha · Comidas y recetas»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Papas"
+                "text": "Esta noche voy a preparar una sopa de verduras."
               },
               {
                 "id": "o2",
-                "text": "Zanahorias"
+                "text": "Añado la sal al final para comprobar mejor el sabor."
               },
               {
                 "id": "o3",
-                "text": "Cebolla"
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
               },
               {
                 "id": "o4",
-                "text": "Caldo"
+                "text": "Me gusta tener un plan claro antes de seguir."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Cuándo añaden la sal?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Comidas y recetas»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Al principio"
+                "text": "Esta noche voy a preparar una sopa de verduras."
               },
               {
                 "id": "o2",
-                "text": "Al final"
+                "text": "Añado la sal al final para comprobar mejor el sabor."
               },
               {
                 "id": "o3",
-                "text": "Antes de cortar las verduras"
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
               },
               {
                 "id": "o4",
-                "text": "No añaden sal"
+                "text": "Me gusta tener un plan claro antes de seguir."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Comidas y recetas» después de «Al final, repaso la información y preparo el siguiente paso con calma.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Esta noche voy a preparar una sopa de verduras."
+              },
+              {
+                "id": "o2",
+                "text": "Añado la sal al final para comprobar mejor el sabor."
+              },
+              {
+                "id": "o3",
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+              },
+              {
+                "id": "o4",
+                "text": "Me gusta tener un plan claro antes de seguir."
               }
             ]
           }
@@ -24593,36 +25182,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué van a preparar?",
+        "prompt": "En «Escucha · Comidas y recetas», ¿qué detalle presenta la situación?",
         "options": [
-          "Una ensalada",
-          "Una sopa de verduras",
-          "Una pizza",
-          "Un pastel"
-        ],
-        "explanation": "Lucía propone preparar una sopa de verduras."
+          "Esta noche voy a preparar una sopa de verduras.",
+          "Añado la sal al final para comprobar mejor el sabor.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué ingrediente falta?",
+        "prompt": "Después de «Esta noche voy a preparar una sopa de verduras.», ¿qué sucede a continuación en «Escucha · Comidas y recetas»?",
         "options": [
-          "Papas",
-          "Zanahorias",
-          "Cebolla",
-          "Caldo"
-        ],
-        "explanation": "Mateo dice que falta un poco de caldo."
+          "Esta noche voy a preparar una sopa de verduras.",
+          "Añado la sal al final para comprobar mejor el sabor.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cuándo añaden la sal?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Comidas y recetas»?",
         "options": [
-          "Al principio",
-          "Al final",
-          "Antes de cortar las verduras",
-          "No añaden sal"
-        ],
-        "explanation": "Lucía prefiere añadirla al final."
+          "Esta noche voy a preparar una sopa de verduras.",
+          "Añado la sal al final para comprobar mejor el sabor.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Comidas y recetas» después de «Al final, repaso la información y preparo el siguiente paso con calma.»?",
+        "options": [
+          "Esta noche voy a preparar una sopa de verduras.",
+          "Añado la sal al final para comprobar mejor el sabor.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
       }
     ]
   },
@@ -25065,15 +25661,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Para formular una idea con precisión y reservas"
-              },
-              {
-                "id": "o2",
                 "text": "Para eliminar toda postura"
               },
               {
-                "id": "o3",
+                "id": "o2",
                 "text": "Para repetir palabras aisladas"
+              },
+              {
+                "id": "o3",
+                "text": "Para formular una idea con precisión y reservas"
               },
               {
                 "id": "o4",
@@ -25092,15 +25688,15 @@
               },
               {
                 "id": "o2",
-                "text": "Qué evidencia sostendría o modificaría una postura"
-              },
-              {
-                "id": "o3",
                 "text": "Cómo evitar cualquier debate"
               },
               {
-                "id": "o4",
+                "id": "o3",
                 "text": "Qué palabra es más difícil de pronunciar"
+              },
+              {
+                "id": "o4",
+                "text": "Qué evidencia sostendría o modificaría una postura"
               }
             ]
           }
@@ -25135,9 +25731,9 @@
         "type": "mcq",
         "prompt": "¿Para qué se usa la gramática de la unidad?",
         "options": [
-          "Para formular una idea con precisión y reservas",
           "Para eliminar toda postura",
           "Para repetir palabras aisladas",
+          "Para formular una idea con precisión y reservas",
           "Para evitar reconocer límites"
         ],
         "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
@@ -25147,9 +25743,9 @@
         "prompt": "¿Qué pregunta final propone el audio?",
         "options": [
           "Qué aplicación es más rápida",
-          "Qué evidencia sostendría o modificaría una postura",
           "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar"
+          "Qué palabra es más difícil de pronunciar",
+          "Qué evidencia sostendría o modificaría una postura"
         ],
         "explanation": "La pregunta final invita a justificar y revisar una conclusión."
       }
@@ -25244,15 +25840,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Para formular una idea con precisión y reservas"
-              },
-              {
-                "id": "o2",
                 "text": "Para eliminar toda postura"
               },
               {
-                "id": "o3",
+                "id": "o2",
                 "text": "Para repetir palabras aisladas"
+              },
+              {
+                "id": "o3",
+                "text": "Para formular una idea con precisión y reservas"
               },
               {
                 "id": "o4",
@@ -25271,15 +25867,15 @@
               },
               {
                 "id": "o2",
-                "text": "Qué evidencia sostendría o modificaría una postura"
-              },
-              {
-                "id": "o3",
                 "text": "Cómo evitar cualquier debate"
               },
               {
-                "id": "o4",
+                "id": "o3",
                 "text": "Qué palabra es más difícil de pronunciar"
+              },
+              {
+                "id": "o4",
+                "text": "Qué evidencia sostendría o modificaría una postura"
               }
             ]
           }
@@ -25314,9 +25910,9 @@
         "type": "mcq",
         "prompt": "¿Para qué se usa la gramática de la unidad?",
         "options": [
-          "Para formular una idea con precisión y reservas",
           "Para eliminar toda postura",
           "Para repetir palabras aisladas",
+          "Para formular una idea con precisión y reservas",
           "Para evitar reconocer límites"
         ],
         "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
@@ -25326,187 +25922,69 @@
         "prompt": "¿Qué pregunta final propone el audio?",
         "options": [
           "Qué aplicación es más rápida",
-          "Qué evidencia sostendría o modificaría una postura",
           "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar"
+          "Qué palabra es más difícil de pronunciar",
+          "Qué evidencia sostendría o modificaría una postura"
         ],
         "explanation": "La pregunta final invita a justificar y revisar una conclusión."
       }
     ]
   },
   {
-    "slug": "spanish-a1-comida-y-bebida-listening",
+    "slug": "spanish-a1-comida-y-bebida-speaking",
     "level": "A1",
-    "skill": "listening",
+    "skill": "speaking",
     "unitId": "comida-y-bebida",
-    "title": "¿Qué desea pedir?",
+    "title": "Pide comida",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 25,
-    "orderIndex": 71,
-    "estimatedMinutes": 10,
-    "description": "Una conversación en una cafetería entre un mesero y un cliente.",
-    "intro": "Escucha una conversación en un café entre un mesero y un cliente.",
-    "mission": "",
+    "xpReward": 20,
+    "orderIndex": 72,
+    "estimatedMinutes": 8,
+    "description": "Practica pedir comida y bebida en un restaurante.",
+    "intro": "Practica pedir comida y bebida en un restaurante.",
+    "mission": "Pide en voz alta una comida y una bebida como si estuvieras en un café.",
     "grammar": "",
     "phrases": [
-      "¿Qué desea pedir?",
       "Quiero...",
-      "Un poco de...",
-      "¿Algo más?"
+      "Para tomar, quiero...",
+      "¿Qué desea pedir?",
+      "La cuenta, por favor."
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "Mesero",
+        "line": "¿Qué desea pedir?",
+        "translation": "What would you like to order?"
+      },
+      {
+        "speaker": "Tú",
+        "line": "Quiero un..., por favor.",
+        "translation": "I want a..., please."
+      },
+      {
+        "speaker": "Mesero",
+        "line": "¿Algo más?",
+        "translation": "Anything else?"
+      },
+      {
+        "speaker": "Tú",
+        "line": "No, gracias. La cuenta, por favor.",
+        "translation": "No, thank you. The check, please."
+      }
+    ],
     "reading": null,
-    "transcript": "Un estudiante nuevo quiere llegar a la biblioteca. Primero camina derecho por esta calle y dobla a la izquierda en el banco. La biblioteca está frente al parque, al lado de una farmacia. Si necesita comprar agua, hay una tienda pequeña cerca de la entrada. El estudiante repite las indicaciones antes de salir. Después agradece la ayuda y camina con más seguridad por el barrio.",
-    "extra": {
-      "listeningType": "story",
-      "difficulty": "A1",
-      "durationSeconds": 45,
-      "speakers": [
-        "Narrador/a"
-      ],
-      "phoneticSupport": {
-        "enabled": true,
-        "locale": "es-419",
-        "focus": "Ritmo natural al pedir (Quiero un café, por favor) y la \"d\" entre vocales suena suave, casi como una \"th\" ligera: pedir, comida.",
-        "fullIpa": null,
-        "segments": [
-          {
-            "text": "pedir",
-            "ipa": "/pe.ˈðiɾ/"
-          },
-          {
-            "text": "comida",
-            "ipa": "/ko.ˈmi.ða/"
-          }
-        ],
-        "stressedWords": [
-          "café",
-          "algo"
-        ],
-        "syllabification": [
-          {
-            "word": "desayuno",
-            "syllables": "de-sa-yu-no"
-          }
-        ],
-        "difficultSounds": [
-          "d intervocálica"
-        ],
-        "reviewStatus": "pending-review"
-      },
-      "dictationSegmentCount": 3,
-      "listeningComprehension": {
-        "id": "spanish-a1-comida-y-bebida-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "¿Dónde está la biblioteca?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Frente al parque"
-              },
-              {
-                "id": "o2",
-                "text": "Dentro de la estación"
-              },
-              {
-                "id": "o3",
-                "text": "Detrás de la playa"
-              },
-              {
-                "id": "o4",
-                "text": "En la escuela"
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "¿Qué hay al lado de la biblioteca?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Una farmacia"
-              },
-              {
-                "id": "o2",
-                "text": "Un cine"
-              },
-              {
-                "id": "o3",
-                "text": "Una casa"
-              },
-              {
-                "id": "o4",
-                "text": "Un mercado"
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "¿Qué hace el estudiante antes de salir?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Repite las indicaciones"
-              },
-              {
-                "id": "o2",
-                "text": "Compra una camisa"
-              },
-              {
-                "id": "o3",
-                "text": "Pide una sopa"
-              },
-              {
-                "id": "o4",
-                "text": "Llama a su abuela"
-              }
-            ]
-          }
-        ]
-      },
-      "grammarTest": null
-    },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
-        "type": "mcq",
-        "prompt": "¿Dónde está la biblioteca?",
-        "options": [
-          "Frente al parque",
-          "Dentro de la estación",
-          "Detrás de la playa",
-          "En la escuela"
-        ],
-        "explanation": "La biblioteca está frente al parque."
+        "type": "speaking",
+        "prompt": "Pide en voz alta una comida y una bebida usando \"Quiero...\"."
       },
       {
-        "type": "mcq",
-        "prompt": "¿Qué hay al lado de la biblioteca?",
-        "options": [
-          "Una farmacia",
-          "Un cine",
-          "Una casa",
-          "Un mercado"
-        ],
-        "explanation": "Está al lado de una farmacia."
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Qué hace el estudiante antes de salir?",
-        "options": [
-          "Repite las indicaciones",
-          "Compra una camisa",
-          "Pide una sopa",
-          "Llama a su abuela"
-        ],
-        "explanation": "Repite las indicaciones para no perderse."
+        "type": "practice",
+        "prompt": "Practica el diálogo de pedir comida con un compañero, cambiando de rol. Si no tienes micrófono, escribe tus respuestas."
       }
     ]
   },
@@ -25808,47 +26286,32 @@
     ]
   },
   {
-    "slug": "spanish-a1-comida-y-bebida-speaking",
+    "slug": "spanish-a1-comida-y-bebida-writing",
     "level": "A1",
-    "skill": "speaking",
+    "skill": "writing",
     "unitId": "comida-y-bebida",
-    "title": "Pide comida",
+    "title": "Escribe un pedido",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 20,
-    "orderIndex": 72,
-    "estimatedMinutes": 8,
-    "description": "Practica pedir comida y bebida en un restaurante.",
-    "intro": "Practica pedir comida y bebida en un restaurante.",
-    "mission": "Pide en voz alta una comida y una bebida como si estuvieras en un café.",
+    "xpReward": 25,
+    "orderIndex": 73,
+    "estimatedMinutes": 12,
+    "description": "Escribe un pequeño diálogo pidiendo comida en un restaurante.",
+    "intro": "Escribe un pequeño diálogo pidiendo comida en un restaurante.",
+    "mission": "Escribe 5-6 oraciones: qué comida y bebida pides, y qué te pregunta el mesero.",
     "grammar": "",
     "phrases": [
       "Quiero...",
-      "Para tomar, quiero...",
-      "¿Qué desea pedir?",
+      "Para tomar...",
+      "¿Algo más?",
       "La cuenta, por favor."
     ],
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Mesero",
-        "line": "¿Qué desea pedir?",
-        "translation": "What would you like to order?"
-      },
-      {
-        "speaker": "Tú",
-        "line": "Quiero un..., por favor.",
-        "translation": "I want a..., please."
-      },
-      {
-        "speaker": "Mesero",
-        "line": "¿Algo más?",
-        "translation": "Anything else?"
-      },
-      {
-        "speaker": "Tú",
-        "line": "No, gracias. La cuenta, por favor.",
-        "translation": "No, thank you. The check, please."
+        "speaker": "Modelo",
+        "line": "Buenos días. Quiero un café con leche y pan. Un poco de fruta también, por favor. La cuenta, por favor.",
+        "translation": "Good morning. I want a coffee with milk and bread. Some fruit too, please. The check, please."
       }
     ],
     "reading": null,
@@ -25856,12 +26319,8 @@
     "extra": null,
     "exercises": [
       {
-        "type": "speaking",
-        "prompt": "Pide en voz alta una comida y una bebida usando \"Quiero...\"."
-      },
-      {
-        "type": "practice",
-        "prompt": "Practica el diálogo de pedir comida con un compañero, cambiando de rol. Si no tienes micrófono, escribe tus respuestas."
+        "type": "writing",
+        "prompt": "Escribe un pequeño pedido de comida y bebida en un restaurante, de 5-6 oraciones."
       }
     ]
   },
@@ -26031,41 +26490,71 @@
     ]
   },
   {
-    "slug": "spanish-a1-comida-y-bebida-writing",
+    "slug": "spanish-a1-comida-y-bebida-grammar",
     "level": "A1",
-    "skill": "writing",
+    "skill": "grammar",
     "unitId": "comida-y-bebida",
-    "title": "Escribe un pedido",
+    "title": "Gustar, querer y las cantidades",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 25,
-    "orderIndex": 73,
-    "estimatedMinutes": 12,
-    "description": "Escribe un pequeño diálogo pidiendo comida en un restaurante.",
-    "intro": "Escribe un pequeño diálogo pidiendo comida en un restaurante.",
-    "mission": "Escribe 5-6 oraciones: qué comida y bebida pides, y qué te pregunta el mesero.",
-    "grammar": "",
+    "xpReward": 20,
+    "orderIndex": 74,
+    "estimatedMinutes": 8,
+    "description": "Aprende a usar gustar/querer y expresiones de cantidad.",
+    "intro": "Aprende a usar gustar/querer y expresiones de cantidad.",
+    "mission": "",
+    "grammar": "\"Gustar\" funciona diferente: me gusta el café (a mí), te gusta el té (a ti), le gusta la fruta (a él/ella). \"Querer\" es más directo para pedir: quiero un café. Cantidades: \"un poco de\" (pequeña cantidad), \"mucho/a\" (grande cantidad), \"poco/a\" (pequeña cantidad). Error frecuente: decir \"yo gusto el café\" en vez de \"me gusta el café\".",
     "phrases": [
+      "Me gusta / me gustan...",
       "Quiero...",
-      "Para tomar...",
-      "¿Algo más?",
-      "La cuenta, por favor."
+      "Un poco de...",
+      "Mucho / poco"
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Modelo",
-        "line": "Buenos días. Quiero un café con leche y pan. Un poco de fruta también, por favor. La cuenta, por favor.",
-        "translation": "Good morning. I want a coffee with milk and bread. Some fruit too, please. The check, please."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "type": "writing",
-        "prompt": "Escribe un pequeño pedido de comida y bebida en un restaurante, de 5-6 oraciones."
+        "type": "mcq",
+        "prompt": "A mí ___ el café con leche.",
+        "options": [
+          "gusto",
+          "me gusta",
+          "gustas",
+          "te gusta"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Yo ___ un café, por favor.",
+        "options": [
+          "quiero",
+          "quieres",
+          "quiere",
+          "queremos"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quiero ___ de azúcar, no mucha.",
+        "options": [
+          "un poco",
+          "mucho",
+          "nada",
+          "todo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "A Mariana ___ la fruta.",
+        "options": [
+          "gusto",
+          "me gusta",
+          "le gusta",
+          "te gusta"
+        ]
       }
     ]
   },
@@ -26930,27 +27419,113 @@
     ]
   },
   {
-    "slug": "spanish-a1-comida-y-bebida-grammar",
+    "slug": "spanish-a1-comida-y-bebida-vocabulary",
     "level": "A1",
-    "skill": "grammar",
+    "skill": "vocabulary",
     "unitId": "comida-y-bebida",
-    "title": "Gustar, querer y las cantidades",
+    "title": "Comida y bebida",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
-    "orderIndex": 74,
-    "estimatedMinutes": 8,
-    "description": "Aprende a usar gustar/querer y expresiones de cantidad.",
-    "intro": "Aprende a usar gustar/querer y expresiones de cantidad.",
+    "orderIndex": 75,
+    "estimatedMinutes": 6,
+    "description": "Palabras para alimentos, bebidas y el restaurante.",
+    "intro": "Palabras para alimentos, bebidas y el restaurante.",
     "mission": "",
-    "grammar": "\"Gustar\" funciona diferente: me gusta el café (a mí), te gusta el té (a ti), le gusta la fruta (a él/ella). \"Querer\" es más directo para pedir: quiero un café. Cantidades: \"un poco de\" (pequeña cantidad), \"mucho/a\" (grande cantidad), \"poco/a\" (pequeña cantidad). Error frecuente: decir \"yo gusto el café\" en vez de \"me gusta el café\".",
-    "phrases": [
-      "Me gusta / me gustan...",
-      "Quiero...",
-      "Un poco de...",
-      "Mucho / poco"
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "Pan",
+        "category": "comida",
+        "translation": "Bread",
+        "example": "Quiero pan con queso."
+      },
+      {
+        "word": "Queso",
+        "category": "comida",
+        "translation": "Cheese",
+        "example": "Me gusta el queso."
+      },
+      {
+        "word": "Fruta",
+        "category": "comida",
+        "translation": "Fruit",
+        "example": "La fruta es saludable."
+      },
+      {
+        "word": "Arroz",
+        "category": "comida",
+        "translation": "Rice",
+        "example": "Comemos arroz con pollo."
+      },
+      {
+        "word": "Pollo",
+        "category": "comida",
+        "translation": "Chicken",
+        "example": "El pollo está delicioso."
+      },
+      {
+        "word": "Agua",
+        "category": "bebida",
+        "translation": "Water",
+        "example": "Quiero un vaso de agua."
+      },
+      {
+        "word": "Jugo",
+        "category": "bebida",
+        "translation": "Juice",
+        "example": "El jugo de naranja es rico."
+      },
+      {
+        "word": "Café",
+        "category": "bebida",
+        "translation": "Coffee",
+        "example": "Tomo café todos los días."
+      },
+      {
+        "word": "Desayuno",
+        "category": "comida del día",
+        "translation": "Breakfast",
+        "example": "El desayuno es a las siete."
+      },
+      {
+        "word": "Almuerzo",
+        "category": "comida del día",
+        "translation": "Lunch",
+        "example": "El almuerzo es a la una."
+      },
+      {
+        "word": "Menú",
+        "category": "restaurante",
+        "translation": "Menu",
+        "example": "¿Puedo ver el menú?"
+      },
+      {
+        "word": "Mesero/a",
+        "category": "restaurante",
+        "translation": "Waiter/waitress",
+        "example": "El mesero es muy amable."
+      },
+      {
+        "word": "La cuenta",
+        "category": "restaurante",
+        "translation": "The check/bill",
+        "example": "La cuenta, por favor."
+      },
+      {
+        "word": "Leche",
+        "category": "comida",
+        "translation": "Milk",
+        "example": "Quiero café con leche."
+      },
+      {
+        "word": "Huevo",
+        "category": "comida",
+        "translation": "Egg",
+        "example": "Como huevo en el desayuno."
+      }
     ],
-    "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
@@ -26958,42 +27533,32 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "A mí ___ el café con leche.",
+        "prompt": "¿Qué significa \"Jugo\"?",
         "options": [
-          "gusto",
-          "me gusta",
-          "gustas",
-          "te gusta"
+          "Water",
+          "Juice",
+          "Coffee",
+          "Milk"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Yo ___ un café, por favor.",
+        "prompt": "¿Qué significa \"Mesero/a\"?",
         "options": [
-          "quiero",
-          "quieres",
-          "quiere",
-          "queremos"
+          "Menu",
+          "Waiter/waitress",
+          "The check",
+          "Kitchen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quiero ___ de azúcar, no mucha.",
+        "prompt": "¿Qué significa \"La cuenta\"?",
         "options": [
-          "un poco",
-          "mucho",
-          "nada",
-          "todo"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "A Mariana ___ la fruta.",
-        "options": [
-          "gusto",
-          "me gusta",
-          "le gusta",
-          "te gusta"
+          "The menu",
+          "The check/bill",
+          "Breakfast",
+          "Lunch"
         ]
       }
     ]
@@ -27694,146 +28259,87 @@
     ]
   },
   {
-    "slug": "spanish-a1-comida-y-bebida-vocabulary",
+    "slug": "spanish-a1-de-compras-reading",
     "level": "A1",
-    "skill": "vocabulary",
-    "unitId": "comida-y-bebida",
-    "title": "Comida y bebida",
+    "skill": "reading",
+    "unitId": "de-compras",
+    "title": "Una camisa nueva",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 20,
-    "orderIndex": 75,
-    "estimatedMinutes": 6,
-    "description": "Palabras para alimentos, bebidas y el restaurante.",
-    "intro": "Palabras para alimentos, bebidas y el restaurante.",
+    "xpReward": 25,
+    "orderIndex": 80,
+    "estimatedMinutes": 10,
+    "description": "Un texto sobre una compra en una tienda de ropa.",
+    "intro": "Un texto sobre una compra en una tienda de ropa.",
     "mission": "",
     "grammar": "",
     "phrases": [],
-    "vocabulary": [
-      {
-        "word": "Pan",
-        "category": "comida",
-        "translation": "Bread",
-        "example": "Quiero pan con queso."
-      },
-      {
-        "word": "Queso",
-        "category": "comida",
-        "translation": "Cheese",
-        "example": "Me gusta el queso."
-      },
-      {
-        "word": "Fruta",
-        "category": "comida",
-        "translation": "Fruit",
-        "example": "La fruta es saludable."
-      },
-      {
-        "word": "Arroz",
-        "category": "comida",
-        "translation": "Rice",
-        "example": "Comemos arroz con pollo."
-      },
-      {
-        "word": "Pollo",
-        "category": "comida",
-        "translation": "Chicken",
-        "example": "El pollo está delicioso."
-      },
-      {
-        "word": "Agua",
-        "category": "bebida",
-        "translation": "Water",
-        "example": "Quiero un vaso de agua."
-      },
-      {
-        "word": "Jugo",
-        "category": "bebida",
-        "translation": "Juice",
-        "example": "El jugo de naranja es rico."
-      },
-      {
-        "word": "Café",
-        "category": "bebida",
-        "translation": "Coffee",
-        "example": "Tomo café todos los días."
-      },
-      {
-        "word": "Desayuno",
-        "category": "comida del día",
-        "translation": "Breakfast",
-        "example": "El desayuno es a las siete."
-      },
-      {
-        "word": "Almuerzo",
-        "category": "comida del día",
-        "translation": "Lunch",
-        "example": "El almuerzo es a la una."
-      },
-      {
-        "word": "Menú",
-        "category": "restaurante",
-        "translation": "Menu",
-        "example": "¿Puedo ver el menú?"
-      },
-      {
-        "word": "Mesero/a",
-        "category": "restaurante",
-        "translation": "Waiter/waitress",
-        "example": "El mesero es muy amable."
-      },
-      {
-        "word": "La cuenta",
-        "category": "restaurante",
-        "translation": "The check/bill",
-        "example": "La cuenta, por favor."
-      },
-      {
-        "word": "Leche",
-        "category": "comida",
-        "translation": "Milk",
-        "example": "Quiero café con leche."
-      },
-      {
-        "word": "Huevo",
-        "category": "comida",
-        "translation": "Egg",
-        "example": "Como huevo en el desayuno."
-      }
-    ],
+    "vocabulary": [],
     "dialogue": [],
-    "reading": null,
+    "reading": {
+      "title": "Una camisa nueva",
+      "parts": [
+        "Andrea va a una tienda porque necesita una camisa nueva para una fiesta. Ella prefiere los colores claros, como el blanco o el azul.",
+        "La vendedora le muestra una camisa azul. Andrea pregunta: \"¿Cuánto cuesta?\" La vendedora responde: \"Cuesta ochocientos pesos.\"",
+        "Andrea pregunta si hay una talla mediana. La vendedora dice que sí. Andrea compra la camisa azul; está muy contenta con su compra."
+      ],
+      "questions": [
+        "¿Por qué necesita Andrea una camisa nueva?",
+        "¿De qué color es la camisa que compra?",
+        "¿Cuánto cuesta la camisa?"
+      ],
+      "ordering": {
+        "prompt": "Ordena los eventos de la historia.",
+        "events": [
+          "Andrea entra a la tienda.",
+          "La vendedora le muestra una camisa azul.",
+          "Andrea pregunta el precio y la talla.",
+          "Andrea compra la camisa."
+        ]
+      },
+      "text": "Andrea va a una tienda porque necesita una camisa nueva para una fiesta. Ella prefiere los colores claros, como el blanco o el azul.\n\nLa vendedora le muestra una camisa azul. Andrea pregunta: \"¿Cuánto cuesta?\" La vendedora responde: \"Cuesta ochocientos pesos.\"\n\nAndrea pregunta si hay una talla mediana. La vendedora dice que sí. Andrea compra la camisa azul; está muy contenta con su compra."
+    },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"Jugo\"?",
+        "prompt": "¿Por qué va Andrea a la tienda?",
         "options": [
-          "Water",
-          "Juice",
-          "Coffee",
-          "Milk"
+          "Necesita zapatos",
+          "Necesita una camisa",
+          "Necesita un pantalón",
+          "No dice por qué"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"Mesero/a\"?",
+        "prompt": "¿De qué color es la camisa?",
         "options": [
-          "Menu",
-          "Waiter/waitress",
-          "The check",
-          "Kitchen"
+          "Blanca",
+          "Roja",
+          "Azul",
+          "Negra"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"La cuenta\"?",
+        "prompt": "¿Cuánto cuesta la camisa?",
         "options": [
-          "The menu",
-          "The check/bill",
-          "Breakfast",
-          "Lunch"
+          "Quinientos pesos",
+          "Ochocientos pesos",
+          "Mil pesos",
+          "Doscientos pesos"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué talla pregunta Andrea?",
+        "options": [
+          "Pequeña",
+          "Mediana",
+          "Grande",
+          "No pregunta"
         ]
       }
     ]
@@ -28293,87 +28799,207 @@
     ]
   },
   {
-    "slug": "spanish-a1-de-compras-reading",
+    "slug": "spanish-a1-de-compras-listening",
     "level": "A1",
-    "skill": "reading",
+    "skill": "listening",
     "unitId": "de-compras",
-    "title": "Una camisa nueva",
+    "title": "¿Cuánto cuesta?",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
-    "orderIndex": 80,
+    "orderIndex": 81,
     "estimatedMinutes": 10,
-    "description": "Un texto sobre una compra en una tienda de ropa.",
-    "intro": "Un texto sobre una compra en una tienda de ropa.",
+    "description": "Una conversación entre una clienta y una vendedora en una tienda.",
+    "intro": "Escucha a una clienta comprando ropa en una tienda.",
     "mission": "",
     "grammar": "",
-    "phrases": [],
+    "phrases": [
+      "Busco un/una...",
+      "¿Cuánto cuesta?",
+      "Cuesta...",
+      "¿Qué talla necesita?"
+    ],
     "vocabulary": [],
     "dialogue": [],
-    "reading": {
-      "title": "Una camisa nueva",
-      "parts": [
-        "Andrea va a una tienda porque necesita una camisa nueva para una fiesta. Ella prefiere los colores claros, como el blanco o el azul.",
-        "La vendedora le muestra una camisa azul. Andrea pregunta: \"¿Cuánto cuesta?\" La vendedora responde: \"Cuesta ochocientos pesos.\"",
-        "Andrea pregunta si hay una talla mediana. La vendedora dice que sí. Andrea compra la camisa azul; está muy contenta con su compra."
+    "reading": null,
+    "transcript": "Hoy desayuno en una cafetería cerca de la escuela. Pido un café con leche, pan y una fruta. Para el almuerzo quiero una ensalada y un vaso de agua, porque no tengo mucha hambre. El mesero pregunta si deseo un jugo, pero prefiero agua. Mientras espero mi pedido, miro el menú y pienso que mañana voy a probar una sopa. La comida llega caliente y todo está delicioso.",
+    "extra": {
+      "listeningType": "story",
+      "difficulty": "A1",
+      "durationSeconds": 45,
+      "speakers": [
+        "Narrador/a"
       ],
-      "questions": [
-        "¿Por qué necesita Andrea una camisa nueva?",
-        "¿De qué color es la camisa que compra?",
-        "¿Cuánto cuesta la camisa?"
-      ],
-      "ordering": {
-        "prompt": "Ordena los eventos de la historia.",
-        "events": [
-          "Andrea entra a la tienda.",
-          "La vendedora le muestra una camisa azul.",
-          "Andrea pregunta el precio y la talla.",
-          "Andrea compra la camisa."
+      "phoneticSupport": {
+        "enabled": true,
+        "locale": "es-419",
+        "focus": "Los colores y las prendas suelen llevar el acento en la penúltima sílaba (a-ZUL es excepción, va en la última); los números de precios se dicen en bloques (ochocientos, no ocho-cero-cero).",
+        "fullIpa": null,
+        "segments": [
+          {
+            "text": "azul",
+            "ipa": "/a.ˈsul/"
+          },
+          {
+            "text": "ochocientos",
+            "ipa": "/o.tʃo.ˈsjen.tos/"
+          }
+        ],
+        "stressedWords": [
+          "azul",
+          "compró"
+        ],
+        "syllabification": [
+          {
+            "word": "camisa",
+            "syllables": "ca-mi-sa"
+          }
+        ],
+        "difficultSounds": [
+          "acentuación de números"
+        ],
+        "reviewStatus": "pending-review"
+      },
+      "dictationSegmentCount": 3,
+      "listeningComprehension": {
+        "id": "spanish-a1-de-compras-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "En «¿Cuánto cuesta?», ¿qué detalle presenta la situación?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Hoy desayuno en una cafetería cerca de la escuela."
+              },
+              {
+                "id": "o2",
+                "text": "Para el almuerzo quiero una ensalada y un vaso de agua, porque no tengo mucha hambre."
+              },
+              {
+                "id": "o3",
+                "text": "El mesero pregunta si deseo un jugo, pero prefiero agua."
+              },
+              {
+                "id": "o4",
+                "text": "La comida llega caliente y todo está delicioso."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Después de «Hoy desayuno en una cafetería cerca de la escuela.», ¿qué sucede a continuación en «¿Cuánto cuesta?»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Hoy desayuno en una cafetería cerca de la escuela."
+              },
+              {
+                "id": "o2",
+                "text": "Para el almuerzo quiero una ensalada y un vaso de agua, porque no tengo mucha hambre."
+              },
+              {
+                "id": "o3",
+                "text": "El mesero pregunta si deseo un jugo, pero prefiero agua."
+              },
+              {
+                "id": "o4",
+                "text": "La comida llega caliente y todo está delicioso."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «¿Cuánto cuesta?»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Hoy desayuno en una cafetería cerca de la escuela."
+              },
+              {
+                "id": "o2",
+                "text": "El mesero pregunta si deseo un jugo, pero prefiero agua."
+              },
+              {
+                "id": "o3",
+                "text": "Para el almuerzo quiero una ensalada y un vaso de agua, porque no tengo mucha hambre."
+              },
+              {
+                "id": "o4",
+                "text": "La comida llega caliente y todo está delicioso."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «¿Cuánto cuesta?» después de «Para el almuerzo quiero una ensalada y un vaso de agua, porque no…»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Hoy desayuno en una cafetería cerca de la escuela."
+              },
+              {
+                "id": "o2",
+                "text": "Para el almuerzo quiero una ensalada y un vaso de agua, porque no tengo mucha hambre."
+              },
+              {
+                "id": "o3",
+                "text": "El mesero pregunta si deseo un jugo, pero prefiero agua."
+              },
+              {
+                "id": "o4",
+                "text": "La comida llega caliente y todo está delicioso."
+              }
+            ]
+          }
         ]
       },
-      "text": "Andrea va a una tienda porque necesita una camisa nueva para una fiesta. Ella prefiere los colores claros, como el blanco o el azul.\n\nLa vendedora le muestra una camisa azul. Andrea pregunta: \"¿Cuánto cuesta?\" La vendedora responde: \"Cuesta ochocientos pesos.\"\n\nAndrea pregunta si hay una talla mediana. La vendedora dice que sí. Andrea compra la camisa azul; está muy contenta con su compra."
+      "grammarTest": null
     },
-    "transcript": "",
-    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Por qué va Andrea a la tienda?",
+        "prompt": "En «¿Cuánto cuesta?», ¿qué detalle presenta la situación?",
         "options": [
-          "Necesita zapatos",
-          "Necesita una camisa",
-          "Necesita un pantalón",
-          "No dice por qué"
+          "Hoy desayuno en una cafetería cerca de la escuela.",
+          "Para el almuerzo quiero una ensalada y un vaso de agua, porque no tengo mucha hambre.",
+          "El mesero pregunta si deseo un jugo, pero prefiero agua.",
+          "La comida llega caliente y todo está delicioso."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿De qué color es la camisa?",
+        "prompt": "Después de «Hoy desayuno en una cafetería cerca de la escuela.», ¿qué sucede a continuación en «¿Cuánto cuesta?»?",
         "options": [
-          "Blanca",
-          "Roja",
-          "Azul",
-          "Negra"
+          "Hoy desayuno en una cafetería cerca de la escuela.",
+          "Para el almuerzo quiero una ensalada y un vaso de agua, porque no tengo mucha hambre.",
+          "El mesero pregunta si deseo un jugo, pero prefiero agua.",
+          "La comida llega caliente y todo está delicioso."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cuánto cuesta la camisa?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «¿Cuánto cuesta?»?",
         "options": [
-          "Quinientos pesos",
-          "Ochocientos pesos",
-          "Mil pesos",
-          "Doscientos pesos"
+          "Hoy desayuno en una cafetería cerca de la escuela.",
+          "El mesero pregunta si deseo un jugo, pero prefiero agua.",
+          "Para el almuerzo quiero una ensalada y un vaso de agua, porque no tengo mucha hambre.",
+          "La comida llega caliente y todo está delicioso."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué talla pregunta Andrea?",
+        "prompt": "¿Qué resultado cierra «¿Cuánto cuesta?» después de «Para el almuerzo quiero una ensalada y un vaso de agua, porque no…»?",
         "options": [
-          "Pequeña",
-          "Mediana",
-          "Grande",
-          "No pregunta"
+          "Hoy desayuno en una cafetería cerca de la escuela.",
+          "Para el almuerzo quiero una ensalada y un vaso de agua, porque no tengo mucha hambre.",
+          "El mesero pregunta si deseo un jugo, pero prefiero agua.",
+          "La comida llega caliente y todo está delicioso."
         ]
       }
     ]
@@ -28410,75 +29036,98 @@
       ],
       "transcript": "El verano pasado viajé a Oaxaca con mi hermana y probamos muchos platos nuevos. Una tarde visitamos un mercado pequeño. Allí una señora nos enseñó a preparar chocolate. No volví a verla, pero le envié una foto cuando llegué a casa. Desde aquel viaje he preparado ese chocolate varias veces. Sin embargo, nunca sabe igual que el que probé en aquel mercado. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.",
       "listeningComprehension": {
-        "id": "spanish-a2-recuerdos-y-experiencias-listening-comprehension",
+        "id": "spanish-a2-recuerdos-y-experiencias-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Adónde viajó Mateo?",
+            "prompt": "En «Escucha · Recuerdos y experiencias», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "A Oaxaca"
+                "text": "El verano pasado viajé a Oaxaca con mi hermana y probamos muchos platos nuevos."
               },
               {
                 "id": "o2",
-                "text": "A Lima"
+                "text": "No volví a verla, pero le envié una foto cuando llegué a casa."
               },
               {
                 "id": "o3",
-                "text": "A Bogotá"
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
               },
               {
                 "id": "o4",
-                "text": "A Madrid"
+                "text": "Me gusta tener un plan claro antes de seguir."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Qué le enseñó una señora?",
+            "prompt": "Después de «El verano pasado viajé a Oaxaca con mi hermana y probamos muchos…», ¿qué sucede a continuación en «Escucha · Recuerdos y experiencias»?",
             "options": [
               {
                 "id": "o1",
-                "text": "A bailar"
+                "text": "El verano pasado viajé a Oaxaca con mi hermana y probamos muchos platos nuevos."
               },
               {
                 "id": "o2",
-                "text": "A preparar chocolate"
+                "text": "No volví a verla, pero le envié una foto cuando llegué a casa."
               },
               {
                 "id": "o3",
-                "text": "A hablar inglés"
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
               },
               {
                 "id": "o4",
-                "text": "A hacer una reserva"
+                "text": "Me gusta tener un plan claro antes de seguir."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué hizo Mateo al llegar a casa?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Recuerdos y experiencias»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Volvió al mercado"
+                "text": "El verano pasado viajé a Oaxaca con mi hermana y probamos muchos platos nuevos."
               },
               {
                 "id": "o2",
-                "text": "Envió una foto"
+                "text": "No volví a verla, pero le envié una foto cuando llegué a casa."
               },
               {
                 "id": "o3",
-                "text": "Compró chocolate"
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
               },
               {
                 "id": "o4",
-                "text": "Llamó a Lucía"
+                "text": "Me gusta tener un plan claro antes de seguir."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Recuerdos y experiencias» después de «Al final, repaso la información y preparo el siguiente paso con calma.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "El verano pasado viajé a Oaxaca con mi hermana y probamos muchos platos nuevos."
+              },
+              {
+                "id": "o2",
+                "text": "No volví a verla, pero le envié una foto cuando llegué a casa."
+              },
+              {
+                "id": "o3",
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+              },
+              {
+                "id": "o4",
+                "text": "Me gusta tener un plan claro antes de seguir."
               }
             ]
           }
@@ -28489,36 +29138,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Adónde viajó Mateo?",
+        "prompt": "En «Escucha · Recuerdos y experiencias», ¿qué detalle presenta la situación?",
         "options": [
-          "A Oaxaca",
-          "A Lima",
-          "A Bogotá",
-          "A Madrid"
-        ],
-        "explanation": "Mateo cuenta que viajó a Oaxaca."
+          "El verano pasado viajé a Oaxaca con mi hermana y probamos muchos platos nuevos.",
+          "No volví a verla, pero le envié una foto cuando llegué a casa.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué le enseñó una señora?",
+        "prompt": "Después de «El verano pasado viajé a Oaxaca con mi hermana y probamos muchos…», ¿qué sucede a continuación en «Escucha · Recuerdos y experiencias»?",
         "options": [
-          "A bailar",
-          "A preparar chocolate",
-          "A hablar inglés",
-          "A hacer una reserva"
-        ],
-        "explanation": "En el mercado una señora les enseñó a preparar chocolate."
+          "El verano pasado viajé a Oaxaca con mi hermana y probamos muchos platos nuevos.",
+          "No volví a verla, pero le envié una foto cuando llegué a casa.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hizo Mateo al llegar a casa?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Recuerdos y experiencias»?",
         "options": [
-          "Volvió al mercado",
-          "Envió una foto",
-          "Compró chocolate",
-          "Llamó a Lucía"
-        ],
-        "explanation": "Mateo dice que le envió una foto."
+          "El verano pasado viajé a Oaxaca con mi hermana y probamos muchos platos nuevos.",
+          "No volví a verla, pero le envié una foto cuando llegué a casa.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Recuerdos y experiencias» después de «Al final, repaso la información y preparo el siguiente paso con calma.»?",
+        "options": [
+          "El verano pasado viajé a Oaxaca con mi hermana y probamos muchos platos nuevos.",
+          "No volví a verla, pero le envié una foto cuando llegué a casa.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
       }
     ]
   },
@@ -28961,15 +29617,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Para formular una idea con precisión y reservas"
-              },
-              {
-                "id": "o2",
                 "text": "Para eliminar toda postura"
               },
               {
-                "id": "o3",
+                "id": "o2",
                 "text": "Para repetir palabras aisladas"
+              },
+              {
+                "id": "o3",
+                "text": "Para formular una idea con precisión y reservas"
               },
               {
                 "id": "o4",
@@ -28988,15 +29644,15 @@
               },
               {
                 "id": "o2",
-                "text": "Qué evidencia sostendría o modificaría una postura"
-              },
-              {
-                "id": "o3",
                 "text": "Cómo evitar cualquier debate"
               },
               {
-                "id": "o4",
+                "id": "o3",
                 "text": "Qué palabra es más difícil de pronunciar"
+              },
+              {
+                "id": "o4",
+                "text": "Qué evidencia sostendría o modificaría una postura"
               }
             ]
           }
@@ -29031,9 +29687,9 @@
         "type": "mcq",
         "prompt": "¿Para qué se usa la gramática de la unidad?",
         "options": [
-          "Para formular una idea con precisión y reservas",
           "Para eliminar toda postura",
           "Para repetir palabras aisladas",
+          "Para formular una idea con precisión y reservas",
           "Para evitar reconocer límites"
         ],
         "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
@@ -29043,9 +29699,9 @@
         "prompt": "¿Qué pregunta final propone el audio?",
         "options": [
           "Qué aplicación es más rápida",
-          "Qué evidencia sostendría o modificaría una postura",
           "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar"
+          "Qué palabra es más difícil de pronunciar",
+          "Qué evidencia sostendría o modificaría una postura"
         ],
         "explanation": "La pregunta final invita a justificar y revisar una conclusión."
       }
@@ -29140,15 +29796,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Para formular una idea con precisión y reservas"
-              },
-              {
-                "id": "o2",
                 "text": "Para eliminar toda postura"
               },
               {
-                "id": "o3",
+                "id": "o2",
                 "text": "Para repetir palabras aisladas"
+              },
+              {
+                "id": "o3",
+                "text": "Para formular una idea con precisión y reservas"
               },
               {
                 "id": "o4",
@@ -29167,15 +29823,15 @@
               },
               {
                 "id": "o2",
-                "text": "Qué evidencia sostendría o modificaría una postura"
-              },
-              {
-                "id": "o3",
                 "text": "Cómo evitar cualquier debate"
               },
               {
-                "id": "o4",
+                "id": "o3",
                 "text": "Qué palabra es más difícil de pronunciar"
+              },
+              {
+                "id": "o4",
+                "text": "Qué evidencia sostendría o modificaría una postura"
               }
             ]
           }
@@ -29210,9 +29866,9 @@
         "type": "mcq",
         "prompt": "¿Para qué se usa la gramática de la unidad?",
         "options": [
-          "Para formular una idea con precisión y reservas",
           "Para eliminar toda postura",
           "Para repetir palabras aisladas",
+          "Para formular una idea con precisión y reservas",
           "Para evitar reconocer límites"
         ],
         "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
@@ -29222,187 +29878,69 @@
         "prompt": "¿Qué pregunta final propone el audio?",
         "options": [
           "Qué aplicación es más rápida",
-          "Qué evidencia sostendría o modificaría una postura",
           "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar"
+          "Qué palabra es más difícil de pronunciar",
+          "Qué evidencia sostendría o modificaría una postura"
         ],
         "explanation": "La pregunta final invita a justificar y revisar una conclusión."
       }
     ]
   },
   {
-    "slug": "spanish-a1-de-compras-listening",
+    "slug": "spanish-a1-de-compras-speaking",
     "level": "A1",
-    "skill": "listening",
+    "skill": "speaking",
     "unitId": "de-compras",
-    "title": "¿Cuánto cuesta?",
+    "title": "Compra una prenda",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 25,
-    "orderIndex": 81,
-    "estimatedMinutes": 10,
-    "description": "Una conversación entre una clienta y una vendedora en una tienda.",
-    "intro": "Escucha a una clienta comprando ropa en una tienda.",
-    "mission": "",
+    "xpReward": 20,
+    "orderIndex": 82,
+    "estimatedMinutes": 8,
+    "description": "Practica comprar ropa: preguntar precio, color y talla.",
+    "intro": "Practica comprar ropa: preguntar precio, color y talla.",
+    "mission": "Pide una prenda de ropa en voz alta, pregunta el precio y la talla.",
     "grammar": "",
     "phrases": [
       "Busco un/una...",
       "¿Cuánto cuesta?",
-      "Cuesta...",
-      "¿Qué talla necesita?"
+      "¿Qué talla necesita?",
+      "Talla..."
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "Tú",
+        "line": "Busco un pantalón negro.",
+        "translation": "I am looking for black pants."
+      },
+      {
+        "speaker": "Vendedor/a",
+        "line": "¿Qué talla necesita?",
+        "translation": "What size do you need?"
+      },
+      {
+        "speaker": "Tú",
+        "line": "Talla mediana. ¿Cuánto cuesta?",
+        "translation": "Medium size. How much does it cost?"
+      },
+      {
+        "speaker": "Vendedor/a",
+        "line": "Muy bien. Ahora añade una frase más sobre «Busco un/una...».",
+        "translation": "Very good. Now add one more sentence about this topic."
+      }
+    ],
     "reading": null,
-    "transcript": "Hoy desayuno en una cafetería cerca de la escuela. Pido un café con leche, pan y una fruta. Para el almuerzo quiero una ensalada y un vaso de agua, porque no tengo mucha hambre. El mesero pregunta si deseo un jugo, pero prefiero agua. Mientras espero mi pedido, miro el menú y pienso que mañana voy a probar una sopa. La comida llega caliente y todo está delicioso.",
-    "extra": {
-      "listeningType": "story",
-      "difficulty": "A1",
-      "durationSeconds": 45,
-      "speakers": [
-        "Narrador/a"
-      ],
-      "phoneticSupport": {
-        "enabled": true,
-        "locale": "es-419",
-        "focus": "Los colores y las prendas suelen llevar el acento en la penúltima sílaba (a-ZUL es excepción, va en la última); los números de precios se dicen en bloques (ochocientos, no ocho-cero-cero).",
-        "fullIpa": null,
-        "segments": [
-          {
-            "text": "azul",
-            "ipa": "/a.ˈsul/"
-          },
-          {
-            "text": "ochocientos",
-            "ipa": "/o.tʃo.ˈsjen.tos/"
-          }
-        ],
-        "stressedWords": [
-          "azul",
-          "compró"
-        ],
-        "syllabification": [
-          {
-            "word": "camisa",
-            "syllables": "ca-mi-sa"
-          }
-        ],
-        "difficultSounds": [
-          "acentuación de números"
-        ],
-        "reviewStatus": "pending-review"
-      },
-      "dictationSegmentCount": 3,
-      "listeningComprehension": {
-        "id": "spanish-a1-de-compras-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "¿Qué pide para desayunar?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Café con leche, pan y fruta"
-              },
-              {
-                "id": "o2",
-                "text": "Sopa y arroz"
-              },
-              {
-                "id": "o3",
-                "text": "Una camisa azul"
-              },
-              {
-                "id": "o4",
-                "text": "Un helado"
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "¿Qué prefiere beber en el almuerzo?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Agua"
-              },
-              {
-                "id": "o2",
-                "text": "Jugo"
-              },
-              {
-                "id": "o3",
-                "text": "Café"
-              },
-              {
-                "id": "o4",
-                "text": "Leche"
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "¿Qué quiere probar mañana?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Una sopa"
-              },
-              {
-                "id": "o2",
-                "text": "Una camisa"
-              },
-              {
-                "id": "o3",
-                "text": "Un tren"
-              },
-              {
-                "id": "o4",
-                "text": "Una película"
-              }
-            ]
-          }
-        ]
-      },
-      "grammarTest": null
-    },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
-        "type": "mcq",
-        "prompt": "¿Qué pide para desayunar?",
-        "options": [
-          "Café con leche, pan y fruta",
-          "Sopa y arroz",
-          "Una camisa azul",
-          "Un helado"
-        ],
-        "explanation": "Pide café con leche, pan y una fruta."
+        "type": "speaking",
+        "prompt": "Pide en voz alta una prenda de ropa, su color y su talla."
       },
       {
-        "type": "mcq",
-        "prompt": "¿Qué prefiere beber en el almuerzo?",
-        "options": [
-          "Agua",
-          "Jugo",
-          "Café",
-          "Leche"
-        ],
-        "explanation": "Prefiere un vaso de agua."
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Qué quiere probar mañana?",
-        "options": [
-          "Una sopa",
-          "Una camisa",
-          "Un tren",
-          "Una película"
-        ],
-        "explanation": "Piensa que mañana probará una sopa."
+        "type": "practice",
+        "prompt": "Practica el diálogo de compra con un compañero, cambiando de rol. Si no tienes micrófono, escribe tus respuestas."
       }
     ]
   },
@@ -29704,47 +30242,32 @@
     ]
   },
   {
-    "slug": "spanish-a1-de-compras-speaking",
+    "slug": "spanish-a1-de-compras-writing",
     "level": "A1",
-    "skill": "speaking",
+    "skill": "writing",
     "unitId": "de-compras",
-    "title": "Compra una prenda",
+    "title": "Escribe una compra",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 20,
-    "orderIndex": 82,
-    "estimatedMinutes": 8,
-    "description": "Practica comprar ropa: preguntar precio, color y talla.",
-    "intro": "Practica comprar ropa: preguntar precio, color y talla.",
-    "mission": "Pide una prenda de ropa en voz alta, pregunta el precio y la talla.",
+    "xpReward": 25,
+    "orderIndex": 83,
+    "estimatedMinutes": 12,
+    "description": "Escribe un pequeño diálogo de compra de ropa.",
+    "intro": "Escribe un pequeño diálogo de compra de ropa.",
+    "mission": "Escribe 5-6 oraciones: qué prenda compras, de qué color, qué talla y cuánto cuesta.",
     "grammar": "",
     "phrases": [
       "Busco un/una...",
       "¿Cuánto cuesta?",
-      "¿Qué talla necesita?",
-      "Talla..."
+      "Cuesta...",
+      "La compro."
     ],
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Tú",
-        "line": "Busco un pantalón negro.",
-        "translation": "I am looking for black pants."
-      },
-      {
-        "speaker": "Vendedor/a",
-        "line": "¿Qué talla necesita?",
-        "translation": "What size do you need?"
-      },
-      {
-        "speaker": "Tú",
-        "line": "Talla mediana. ¿Cuánto cuesta?",
-        "translation": "Medium size. How much does it cost?"
-      },
-      {
-        "speaker": "Vendedor/a",
-        "line": "Muy bien. Ahora añade una frase más sobre «Busco un/una...».",
-        "translation": "Very good. Now add one more sentence about this topic."
+        "speaker": "Modelo",
+        "line": "Busco una camisa azul. La vendedora me muestra una. Cuesta ochocientos pesos. La compro.",
+        "translation": "I am looking for a blue shirt. The saleswoman shows me one. It costs eight hundred pesos. I buy it."
       }
     ],
     "reading": null,
@@ -29752,12 +30275,8 @@
     "extra": null,
     "exercises": [
       {
-        "type": "speaking",
-        "prompt": "Pide en voz alta una prenda de ropa, su color y su talla."
-      },
-      {
-        "type": "practice",
-        "prompt": "Practica el diálogo de compra con un compañero, cambiando de rol. Si no tienes micrófono, escribe tus respuestas."
+        "type": "writing",
+        "prompt": "Escribe un pequeño diálogo de compra de ropa, de 5-6 oraciones."
       }
     ]
   },
@@ -29927,41 +30446,71 @@
     ]
   },
   {
-    "slug": "spanish-a1-de-compras-writing",
+    "slug": "spanish-a1-de-compras-grammar",
     "level": "A1",
-    "skill": "writing",
+    "skill": "grammar",
     "unitId": "de-compras",
-    "title": "Escribe una compra",
+    "title": "Cuánto cuesta y la concordancia de colores",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 25,
-    "orderIndex": 83,
-    "estimatedMinutes": 12,
-    "description": "Escribe un pequeño diálogo de compra de ropa.",
-    "intro": "Escribe un pequeño diálogo de compra de ropa.",
-    "mission": "Escribe 5-6 oraciones: qué prenda compras, de qué color, qué talla y cuánto cuesta.",
-    "grammar": "",
+    "xpReward": 20,
+    "orderIndex": 84,
+    "estimatedMinutes": 8,
+    "description": "Aprende a preguntar precios y a hacer concordar los colores.",
+    "intro": "Aprende a preguntar precios y a hacer concordar los colores.",
+    "mission": "",
+    "grammar": "Para un objeto usamos \"¿Cuánto cuesta?\"; para varios objetos usamos \"¿Cuánto cuestan?\". Los colores concuerdan en género y número: la camisa azul, el pantalón azul, las camisas azules. Algunos colores no cambian de forma: azul, verde. Error frecuente: decir \"la camisa azula\" (los colores como \"azul\" y \"verde\" no tienen forma femenina).",
     "phrases": [
-      "Busco un/una...",
       "¿Cuánto cuesta?",
-      "Cuesta...",
-      "La compro."
+      "¿Cuánto cuestan?",
+      "la camisa azul",
+      "los pantalones negros"
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Modelo",
-        "line": "Busco una camisa azul. La vendedora me muestra una. Cuesta ochocientos pesos. La compro.",
-        "translation": "I am looking for a blue shirt. The saleswoman shows me one. It costs eight hundred pesos. I buy it."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "type": "writing",
-        "prompt": "Escribe un pequeño diálogo de compra de ropa, de 5-6 oraciones."
+        "type": "mcq",
+        "prompt": "¿Cuánto ___ esta camisa?",
+        "options": [
+          "cuesta",
+          "cuestan",
+          "cuestas",
+          "cuesto"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Cuánto ___ estos zapatos?",
+        "options": [
+          "cuesta",
+          "cuestan",
+          "cuestas",
+          "cuesto"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quiero la camisa ___ (rojo).",
+        "options": [
+          "rojo",
+          "roja",
+          "rojos",
+          "rojas"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Elige la oración correcta.",
+        "options": [
+          "La camisa es azula.",
+          "La camisa es azul.",
+          "La camisa es azules.",
+          "La camisa son azul."
+        ]
       }
     ]
   },
@@ -30826,27 +31375,113 @@
     ]
   },
   {
-    "slug": "spanish-a1-de-compras-grammar",
+    "slug": "spanish-a1-de-compras-vocabulary",
     "level": "A1",
-    "skill": "grammar",
+    "skill": "vocabulary",
     "unitId": "de-compras",
-    "title": "Cuánto cuesta y la concordancia de colores",
+    "title": "Ropa, colores y precios",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
-    "orderIndex": 84,
-    "estimatedMinutes": 8,
-    "description": "Aprende a preguntar precios y a hacer concordar los colores.",
-    "intro": "Aprende a preguntar precios y a hacer concordar los colores.",
+    "orderIndex": 85,
+    "estimatedMinutes": 6,
+    "description": "Palabras para prendas de vestir, colores y dinero.",
+    "intro": "Palabras para prendas de vestir, colores y dinero.",
     "mission": "",
-    "grammar": "Para un objeto usamos \"¿Cuánto cuesta?\"; para varios objetos usamos \"¿Cuánto cuestan?\". Los colores concuerdan en género y número: la camisa azul, el pantalón azul, las camisas azules. Algunos colores no cambian de forma: azul, verde. Error frecuente: decir \"la camisa azula\" (los colores como \"azul\" y \"verde\" no tienen forma femenina).",
-    "phrases": [
-      "¿Cuánto cuesta?",
-      "¿Cuánto cuestan?",
-      "la camisa azul",
-      "los pantalones negros"
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "Camisa",
+        "category": "ropa",
+        "translation": "Shirt",
+        "example": "La camisa es azul."
+      },
+      {
+        "word": "Pantalón",
+        "category": "ropa",
+        "translation": "Pants",
+        "example": "El pantalón es negro."
+      },
+      {
+        "word": "Zapatos",
+        "category": "ropa",
+        "translation": "Shoes",
+        "example": "Los zapatos son cómodos."
+      },
+      {
+        "word": "Vestido",
+        "category": "ropa",
+        "translation": "Dress",
+        "example": "El vestido es rojo."
+      },
+      {
+        "word": "Rojo/a",
+        "category": "color",
+        "translation": "Red",
+        "example": "Me gusta el color rojo."
+      },
+      {
+        "word": "Azul",
+        "category": "color",
+        "translation": "Blue",
+        "example": "La camisa azul es bonita."
+      },
+      {
+        "word": "Negro/a",
+        "category": "color",
+        "translation": "Black",
+        "example": "El pantalón negro es elegante."
+      },
+      {
+        "word": "Blanco/a",
+        "category": "color",
+        "translation": "White",
+        "example": "El vestido blanco es para la fiesta."
+      },
+      {
+        "word": "Talla",
+        "category": "compras",
+        "translation": "Size",
+        "example": "¿Qué talla necesita?"
+      },
+      {
+        "word": "Pequeño/a",
+        "category": "talla",
+        "translation": "Small",
+        "example": "Necesito una talla pequeña."
+      },
+      {
+        "word": "Grande",
+        "category": "talla",
+        "translation": "Large",
+        "example": "Uso talla grande."
+      },
+      {
+        "word": "Precio",
+        "category": "compras",
+        "translation": "Price",
+        "example": "¿Cuál es el precio?"
+      },
+      {
+        "word": "Tienda",
+        "category": "compras",
+        "translation": "Store",
+        "example": "La tienda está en el centro."
+      },
+      {
+        "word": "Verde",
+        "category": "color",
+        "translation": "Green",
+        "example": "Me gusta el pantalón verde."
+      },
+      {
+        "word": "Amarillo/a",
+        "category": "color",
+        "translation": "Yellow",
+        "example": "El vestido amarillo es bonito."
+      }
     ],
-    "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
@@ -30854,42 +31489,32 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuánto ___ esta camisa?",
+        "prompt": "¿Qué significa \"Talla\"?",
         "options": [
-          "cuesta",
-          "cuestan",
-          "cuestas",
-          "cuesto"
+          "Price",
+          "Size",
+          "Store",
+          "Color"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cuánto ___ estos zapatos?",
+        "prompt": "¿Qué significa \"Negro/a\"?",
         "options": [
-          "cuesta",
-          "cuestan",
-          "cuestas",
-          "cuesto"
+          "White",
+          "Red",
+          "Black",
+          "Blue"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quiero la camisa ___ (rojo).",
+        "prompt": "¿Qué significa \"Precio\"?",
         "options": [
-          "rojo",
-          "roja",
-          "rojos",
-          "rojas"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Elige la oración correcta.",
-        "options": [
-          "La camisa es azula.",
-          "La camisa es azul.",
-          "La camisa es azules.",
-          "La camisa son azul."
+          "Store",
+          "Size",
+          "Price",
+          "Color"
         ]
       }
     ]
@@ -31590,146 +32215,87 @@
     ]
   },
   {
-    "slug": "spanish-a1-de-compras-vocabulary",
+    "slug": "spanish-a1-estudios-y-trabajo-reading",
     "level": "A1",
-    "skill": "vocabulary",
-    "unitId": "de-compras",
-    "title": "Ropa, colores y precios",
+    "skill": "reading",
+    "unitId": "estudios-y-trabajo",
+    "title": "Un día de trabajo",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 20,
-    "orderIndex": 85,
-    "estimatedMinutes": 6,
-    "description": "Palabras para prendas de vestir, colores y dinero.",
-    "intro": "Palabras para prendas de vestir, colores y dinero.",
+    "xpReward": 25,
+    "orderIndex": 90,
+    "estimatedMinutes": 10,
+    "description": "Un texto sobre el trabajo de Roberto en un hospital.",
+    "intro": "Un texto sobre el trabajo de Roberto en un hospital.",
     "mission": "",
     "grammar": "",
     "phrases": [],
-    "vocabulary": [
-      {
-        "word": "Camisa",
-        "category": "ropa",
-        "translation": "Shirt",
-        "example": "La camisa es azul."
-      },
-      {
-        "word": "Pantalón",
-        "category": "ropa",
-        "translation": "Pants",
-        "example": "El pantalón es negro."
-      },
-      {
-        "word": "Zapatos",
-        "category": "ropa",
-        "translation": "Shoes",
-        "example": "Los zapatos son cómodos."
-      },
-      {
-        "word": "Vestido",
-        "category": "ropa",
-        "translation": "Dress",
-        "example": "El vestido es rojo."
-      },
-      {
-        "word": "Rojo/a",
-        "category": "color",
-        "translation": "Red",
-        "example": "Me gusta el color rojo."
-      },
-      {
-        "word": "Azul",
-        "category": "color",
-        "translation": "Blue",
-        "example": "La camisa azul es bonita."
-      },
-      {
-        "word": "Negro/a",
-        "category": "color",
-        "translation": "Black",
-        "example": "El pantalón negro es elegante."
-      },
-      {
-        "word": "Blanco/a",
-        "category": "color",
-        "translation": "White",
-        "example": "El vestido blanco es para la fiesta."
-      },
-      {
-        "word": "Talla",
-        "category": "compras",
-        "translation": "Size",
-        "example": "¿Qué talla necesita?"
-      },
-      {
-        "word": "Pequeño/a",
-        "category": "talla",
-        "translation": "Small",
-        "example": "Necesito una talla pequeña."
-      },
-      {
-        "word": "Grande",
-        "category": "talla",
-        "translation": "Large",
-        "example": "Uso talla grande."
-      },
-      {
-        "word": "Precio",
-        "category": "compras",
-        "translation": "Price",
-        "example": "¿Cuál es el precio?"
-      },
-      {
-        "word": "Tienda",
-        "category": "compras",
-        "translation": "Store",
-        "example": "La tienda está en el centro."
-      },
-      {
-        "word": "Verde",
-        "category": "color",
-        "translation": "Green",
-        "example": "Me gusta el pantalón verde."
-      },
-      {
-        "word": "Amarillo/a",
-        "category": "color",
-        "translation": "Yellow",
-        "example": "El vestido amarillo es bonito."
-      }
-    ],
+    "vocabulary": [],
     "dialogue": [],
-    "reading": null,
+    "reading": {
+      "title": "Un día de trabajo",
+      "parts": [
+        "Roberto trabaja en un hospital. Él es enfermero y trabaja de lunes a viernes, de siete de la mañana a tres de la tarde.",
+        "Antes de trabajar en el hospital, Roberto estudió tres años en la universidad. Ahora tiene que cuidar a los pacientes y ayudar a los doctores.",
+        "A Roberto le gusta su trabajo porque puede ayudar a otras personas. Los fines de semana, no trabaja; puede descansar con su familia."
+      ],
+      "questions": [
+        "¿Dónde trabaja Roberto?",
+        "¿Qué tiene que hacer en su trabajo?",
+        "¿Cuándo no trabaja Roberto?"
+      ],
+      "ordering": {
+        "prompt": "Ordena los eventos de la historia.",
+        "events": [
+          "Roberto estudia tres años en la universidad.",
+          "Roberto empieza a trabajar en el hospital.",
+          "Roberto cuida a los pacientes durante la semana.",
+          "Roberto descansa con su familia el fin de semana."
+        ]
+      },
+      "text": "Roberto trabaja en un hospital. Él es enfermero y trabaja de lunes a viernes, de siete de la mañana a tres de la tarde.\n\nAntes de trabajar en el hospital, Roberto estudió tres años en la universidad. Ahora tiene que cuidar a los pacientes y ayudar a los doctores.\n\nA Roberto le gusta su trabajo porque puede ayudar a otras personas. Los fines de semana, no trabaja; puede descansar con su familia."
+    },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"Talla\"?",
+        "prompt": "¿Dónde trabaja Roberto?",
         "options": [
-          "Price",
-          "Size",
-          "Store",
-          "Color"
+          "En una escuela",
+          "En un hospital",
+          "En una tienda",
+          "En un restaurante"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"Negro/a\"?",
+        "prompt": "¿Qué profesión tiene Roberto?",
         "options": [
-          "White",
-          "Red",
-          "Black",
-          "Blue"
+          "Doctor",
+          "Enfermero",
+          "Profesor",
+          "Vendedor"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"Precio\"?",
+        "prompt": "¿Cuánto tiempo estudió en la universidad?",
         "options": [
-          "Store",
-          "Size",
-          "Price",
-          "Color"
+          "Un año",
+          "Dos años",
+          "Tres años",
+          "Cinco años"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Cuándo no trabaja Roberto?",
+        "options": [
+          "Nunca descansa",
+          "Los fines de semana",
+          "Los lunes",
+          "Todos los días"
         ]
       }
     ]
@@ -32189,87 +32755,209 @@
     ]
   },
   {
-    "slug": "spanish-a1-estudios-y-trabajo-reading",
+    "slug": "spanish-a1-estudios-y-trabajo-listening",
     "level": "A1",
-    "skill": "reading",
+    "skill": "listening",
     "unitId": "estudios-y-trabajo",
-    "title": "Un día de trabajo",
+    "title": "Una entrevista breve",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
-    "orderIndex": 90,
+    "orderIndex": 91,
     "estimatedMinutes": 10,
-    "description": "Un texto sobre el trabajo de Roberto en un hospital.",
-    "intro": "Un texto sobre el trabajo de Roberto en un hospital.",
+    "description": "Una entrevista corta sobre estudios y trabajo.",
+    "intro": "Escucha una entrevista breve a Natalia sobre sus estudios y su trabajo.",
     "mission": "",
     "grammar": "",
-    "phrases": [],
+    "phrases": [
+      "¿Qué estudias?",
+      "Estudio...",
+      "Trabajo en...",
+      "Tengo que..."
+    ],
     "vocabulary": [],
     "dialogue": [],
-    "reading": {
-      "title": "Un día de trabajo",
-      "parts": [
-        "Roberto trabaja en un hospital. Él es enfermero y trabaja de lunes a viernes, de siete de la mañana a tres de la tarde.",
-        "Antes de trabajar en el hospital, Roberto estudió tres años en la universidad. Ahora tiene que cuidar a los pacientes y ayudar a los doctores.",
-        "A Roberto le gusta su trabajo porque puede ayudar a otras personas. Los fines de semana, no trabaja; puede descansar con su familia."
+    "reading": null,
+    "transcript": "Carla necesita comprar una camisa para una entrevista. En la tienda encuentra una camisa azul de talla mediana y pregunta cuánto cuesta. La vendedora dice que vale ochocientos pesos. Carla se la prueba, pero necesita una talla más grande. También ve una camisa verde, aunque prefiere la azul porque combina con sus pantalones. Al final paga con tarjeta y guarda el recibo en su cartera.",
+    "extra": {
+      "listeningType": "story",
+      "difficulty": "A1",
+      "durationSeconds": 50,
+      "speakers": [
+        "Narrador/a"
       ],
-      "questions": [
-        "¿Dónde trabaja Roberto?",
-        "¿Qué tiene que hacer en su trabajo?",
-        "¿Cuándo no trabaja Roberto?"
-      ],
-      "ordering": {
-        "prompt": "Ordena los eventos de la historia.",
-        "events": [
-          "Roberto estudia tres años en la universidad.",
-          "Roberto empieza a trabajar en el hospital.",
-          "Roberto cuida a los pacientes durante la semana.",
-          "Roberto descansa con su familia el fin de semana."
+      "phoneticSupport": {
+        "enabled": true,
+        "locale": "es-419",
+        "focus": "Contraste entre p/b (pan/van), t/d (tú/dos) y k/g (casa/gasa); pronunciar con claridad las profesiones evita confusiones.",
+        "fullIpa": null,
+        "segments": [
+          {
+            "text": "trabajo",
+            "ipa": "/tra.ˈβa.xo/"
+          },
+          {
+            "text": "administración",
+            "ipa": "/ad.mi.nis.tra.ˈsjon/"
+          }
+        ],
+        "stressedWords": [
+          "también",
+          "atención"
+        ],
+        "syllabification": [
+          {
+            "word": "universidad",
+            "syllables": "u-ni-ver-si-dad"
+          }
+        ],
+        "difficultSounds": [
+          "p/b",
+          "t/d",
+          "k/g"
+        ],
+        "reviewStatus": "pending-review"
+      },
+      "dictationSegmentCount": 3,
+      "listeningComprehension": {
+        "id": "spanish-a1-estudios-y-trabajo-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "En «Una entrevista breve», ¿qué detalle presenta la situación?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Carla necesita comprar una camisa para una entrevista."
+              },
+              {
+                "id": "o2",
+                "text": "La vendedora dice que vale ochocientos pesos."
+              },
+              {
+                "id": "o3",
+                "text": "Carla se la prueba, pero necesita una talla más grande."
+              },
+              {
+                "id": "o4",
+                "text": "Al final paga con tarjeta y guarda el recibo en su cartera."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Después de «Carla necesita comprar una camisa para una entrevista.», ¿qué sucede a continuación en «Una entrevista breve»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Carla necesita comprar una camisa para una entrevista."
+              },
+              {
+                "id": "o2",
+                "text": "La vendedora dice que vale ochocientos pesos."
+              },
+              {
+                "id": "o3",
+                "text": "Carla se la prueba, pero necesita una talla más grande."
+              },
+              {
+                "id": "o4",
+                "text": "Al final paga con tarjeta y guarda el recibo en su cartera."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Una entrevista breve»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Carla necesita comprar una camisa para una entrevista."
+              },
+              {
+                "id": "o2",
+                "text": "La vendedora dice que vale ochocientos pesos."
+              },
+              {
+                "id": "o3",
+                "text": "También ve una camisa verde, aunque prefiere la azul porque combina con sus pantalones."
+              },
+              {
+                "id": "o4",
+                "text": "Carla se la prueba, pero necesita una talla más grande."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Una entrevista breve» después de «También ve una camisa verde, aunque prefiere la azul porque combina…»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Carla necesita comprar una camisa para una entrevista."
+              },
+              {
+                "id": "o2",
+                "text": "La vendedora dice que vale ochocientos pesos."
+              },
+              {
+                "id": "o3",
+                "text": "Carla se la prueba, pero necesita una talla más grande."
+              },
+              {
+                "id": "o4",
+                "text": "Al final paga con tarjeta y guarda el recibo en su cartera."
+              }
+            ]
+          }
         ]
       },
-      "text": "Roberto trabaja en un hospital. Él es enfermero y trabaja de lunes a viernes, de siete de la mañana a tres de la tarde.\n\nAntes de trabajar en el hospital, Roberto estudió tres años en la universidad. Ahora tiene que cuidar a los pacientes y ayudar a los doctores.\n\nA Roberto le gusta su trabajo porque puede ayudar a otras personas. Los fines de semana, no trabaja; puede descansar con su familia."
+      "grammarTest": null
     },
-    "transcript": "",
-    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Dónde trabaja Roberto?",
+        "prompt": "En «Una entrevista breve», ¿qué detalle presenta la situación?",
         "options": [
-          "En una escuela",
-          "En un hospital",
-          "En una tienda",
-          "En un restaurante"
+          "Carla necesita comprar una camisa para una entrevista.",
+          "La vendedora dice que vale ochocientos pesos.",
+          "Carla se la prueba, pero necesita una talla más grande.",
+          "Al final paga con tarjeta y guarda el recibo en su cartera."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué profesión tiene Roberto?",
+        "prompt": "Después de «Carla necesita comprar una camisa para una entrevista.», ¿qué sucede a continuación en «Una entrevista breve»?",
         "options": [
-          "Doctor",
-          "Enfermero",
-          "Profesor",
-          "Vendedor"
+          "Carla necesita comprar una camisa para una entrevista.",
+          "La vendedora dice que vale ochocientos pesos.",
+          "Carla se la prueba, pero necesita una talla más grande.",
+          "Al final paga con tarjeta y guarda el recibo en su cartera."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cuánto tiempo estudió en la universidad?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Una entrevista breve»?",
         "options": [
-          "Un año",
-          "Dos años",
-          "Tres años",
-          "Cinco años"
+          "Carla necesita comprar una camisa para una entrevista.",
+          "La vendedora dice que vale ochocientos pesos.",
+          "También ve una camisa verde, aunque prefiere la azul porque combina con sus pantalones.",
+          "Carla se la prueba, pero necesita una talla más grande."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cuándo no trabaja Roberto?",
+        "prompt": "¿Qué resultado cierra «Una entrevista breve» después de «También ve una camisa verde, aunque prefiere la azul porque combina…»?",
         "options": [
-          "Nunca descansa",
-          "Los fines de semana",
-          "Los lunes",
-          "Todos los días"
+          "Carla necesita comprar una camisa para una entrevista.",
+          "La vendedora dice que vale ochocientos pesos.",
+          "Carla se la prueba, pero necesita una talla más grande.",
+          "Al final paga con tarjeta y guarda el recibo en su cartera."
         ]
       }
     ]
@@ -32306,75 +32994,98 @@
       ],
       "transcript": "El sábado celebramos el cumpleaños de mi abuela. La familia se reúne a las cinco en casa de mis tíos. He invitado a un amigo y le he explicado que no hace falta llevar un regalo. Él prefiere traer un postre para compartir y va a entregarlo antes de las cinco. Así no tengo que preparar todo sola. Creo que mi abuela estará muy contenta. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.",
       "listeningComprehension": {
-        "id": "spanish-a2-celebraciones-listening-comprehension",
+        "id": "spanish-a2-celebraciones-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué celebración organiza Lucía?",
+            "prompt": "En «Escucha · Celebraciones», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Una boda"
+                "text": "El sábado celebramos el cumpleaños de mi abuela."
               },
               {
                 "id": "o2",
-                "text": "El cumpleaños de su abuela"
+                "text": "Él prefiere traer un postre para compartir y va a entregarlo antes de las cinco."
               },
               {
                 "id": "o3",
-                "text": "Una graduación"
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
               },
               {
                 "id": "o4",
-                "text": "Una cena de trabajo"
+                "text": "Me gusta tener un plan claro antes de seguir."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿A qué hora es la reunión?",
+            "prompt": "Después de «El sábado celebramos el cumpleaños de mi abuela.», ¿qué sucede a continuación en «Escucha · Celebraciones»?",
             "options": [
               {
                 "id": "o1",
-                "text": "A las tres"
+                "text": "El sábado celebramos el cumpleaños de mi abuela."
               },
               {
                 "id": "o2",
-                "text": "A las cuatro"
+                "text": "Él prefiere traer un postre para compartir y va a entregarlo antes de las cinco."
               },
               {
                 "id": "o3",
-                "text": "A las cinco"
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
               },
               {
                 "id": "o4",
-                "text": "A las siete"
+                "text": "Me gusta tener un plan claro antes de seguir."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué llevará Mateo?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Celebraciones»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Un regalo caro"
+                "text": "El sábado celebramos el cumpleaños de mi abuela."
               },
               {
                 "id": "o2",
-                "text": "Un postre"
+                "text": "Él prefiere traer un postre para compartir y va a entregarlo antes de las cinco."
               },
               {
                 "id": "o3",
-                "text": "Flores"
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
               },
               {
                 "id": "o4",
-                "text": "Nada"
+                "text": "Me gusta tener un plan claro antes de seguir."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Celebraciones» después de «Al final, repaso la información y preparo el siguiente paso con calma.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "El sábado celebramos el cumpleaños de mi abuela."
+              },
+              {
+                "id": "o2",
+                "text": "Él prefiere traer un postre para compartir y va a entregarlo antes de las cinco."
+              },
+              {
+                "id": "o3",
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+              },
+              {
+                "id": "o4",
+                "text": "Me gusta tener un plan claro antes de seguir."
               }
             ]
           }
@@ -32385,36 +33096,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué celebración organiza Lucía?",
+        "prompt": "En «Escucha · Celebraciones», ¿qué detalle presenta la situación?",
         "options": [
-          "Una boda",
-          "El cumpleaños de su abuela",
-          "Una graduación",
-          "Una cena de trabajo"
-        ],
-        "explanation": "Lucía habla del cumpleaños de su abuela."
+          "El sábado celebramos el cumpleaños de mi abuela.",
+          "Él prefiere traer un postre para compartir y va a entregarlo antes de las cinco.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿A qué hora es la reunión?",
+        "prompt": "Después de «El sábado celebramos el cumpleaños de mi abuela.», ¿qué sucede a continuación en «Escucha · Celebraciones»?",
         "options": [
-          "A las tres",
-          "A las cuatro",
-          "A las cinco",
-          "A las siete"
-        ],
-        "explanation": "Quedan a las cinco."
+          "El sábado celebramos el cumpleaños de mi abuela.",
+          "Él prefiere traer un postre para compartir y va a entregarlo antes de las cinco.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué llevará Mateo?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Celebraciones»?",
         "options": [
-          "Un regalo caro",
-          "Un postre",
-          "Flores",
-          "Nada"
-        ],
-        "explanation": "Mateo propone llevar un postre para compartir."
+          "El sábado celebramos el cumpleaños de mi abuela.",
+          "Él prefiere traer un postre para compartir y va a entregarlo antes de las cinco.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Celebraciones» después de «Al final, repaso la información y preparo el siguiente paso con calma.»?",
+        "options": [
+          "El sábado celebramos el cumpleaños de mi abuela.",
+          "Él prefiere traer un postre para compartir y va a entregarlo antes de las cinco.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
       }
     ]
   },
@@ -32857,15 +33575,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Para formular una idea con precisión y reservas"
-              },
-              {
-                "id": "o2",
                 "text": "Para eliminar toda postura"
               },
               {
-                "id": "o3",
+                "id": "o2",
                 "text": "Para repetir palabras aisladas"
+              },
+              {
+                "id": "o3",
+                "text": "Para formular una idea con precisión y reservas"
               },
               {
                 "id": "o4",
@@ -32884,15 +33602,15 @@
               },
               {
                 "id": "o2",
-                "text": "Qué evidencia sostendría o modificaría una postura"
-              },
-              {
-                "id": "o3",
                 "text": "Cómo evitar cualquier debate"
               },
               {
-                "id": "o4",
+                "id": "o3",
                 "text": "Qué palabra es más difícil de pronunciar"
+              },
+              {
+                "id": "o4",
+                "text": "Qué evidencia sostendría o modificaría una postura"
               }
             ]
           }
@@ -32927,9 +33645,9 @@
         "type": "mcq",
         "prompt": "¿Para qué se usa la gramática de la unidad?",
         "options": [
-          "Para formular una idea con precisión y reservas",
           "Para eliminar toda postura",
           "Para repetir palabras aisladas",
+          "Para formular una idea con precisión y reservas",
           "Para evitar reconocer límites"
         ],
         "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
@@ -32939,9 +33657,9 @@
         "prompt": "¿Qué pregunta final propone el audio?",
         "options": [
           "Qué aplicación es más rápida",
-          "Qué evidencia sostendría o modificaría una postura",
           "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar"
+          "Qué palabra es más difícil de pronunciar",
+          "Qué evidencia sostendría o modificaría una postura"
         ],
         "explanation": "La pregunta final invita a justificar y revisar una conclusión."
       }
@@ -33036,15 +33754,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Para formular una idea con precisión y reservas"
-              },
-              {
-                "id": "o2",
                 "text": "Para eliminar toda postura"
               },
               {
-                "id": "o3",
+                "id": "o2",
                 "text": "Para repetir palabras aisladas"
+              },
+              {
+                "id": "o3",
+                "text": "Para formular una idea con precisión y reservas"
               },
               {
                 "id": "o4",
@@ -33063,15 +33781,15 @@
               },
               {
                 "id": "o2",
-                "text": "Qué evidencia sostendría o modificaría una postura"
-              },
-              {
-                "id": "o3",
                 "text": "Cómo evitar cualquier debate"
               },
               {
-                "id": "o4",
+                "id": "o3",
                 "text": "Qué palabra es más difícil de pronunciar"
+              },
+              {
+                "id": "o4",
+                "text": "Qué evidencia sostendría o modificaría una postura"
               }
             ]
           }
@@ -33106,9 +33824,9 @@
         "type": "mcq",
         "prompt": "¿Para qué se usa la gramática de la unidad?",
         "options": [
-          "Para formular una idea con precisión y reservas",
           "Para eliminar toda postura",
           "Para repetir palabras aisladas",
+          "Para formular una idea con precisión y reservas",
           "Para evitar reconocer límites"
         ],
         "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
@@ -33118,189 +33836,69 @@
         "prompt": "¿Qué pregunta final propone el audio?",
         "options": [
           "Qué aplicación es más rápida",
-          "Qué evidencia sostendría o modificaría una postura",
           "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar"
+          "Qué palabra es más difícil de pronunciar",
+          "Qué evidencia sostendría o modificaría una postura"
         ],
         "explanation": "La pregunta final invita a justificar y revisar una conclusión."
       }
     ]
   },
   {
-    "slug": "spanish-a1-estudios-y-trabajo-listening",
+    "slug": "spanish-a1-estudios-y-trabajo-speaking",
     "level": "A1",
-    "skill": "listening",
+    "skill": "speaking",
     "unitId": "estudios-y-trabajo",
-    "title": "Una entrevista breve",
+    "title": "Habla de tus estudios o tu trabajo",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 25,
-    "orderIndex": 91,
-    "estimatedMinutes": 10,
-    "description": "Una entrevista corta sobre estudios y trabajo.",
-    "intro": "Escucha una entrevista breve a Natalia sobre sus estudios y su trabajo.",
-    "mission": "",
+    "xpReward": 20,
+    "orderIndex": 92,
+    "estimatedMinutes": 8,
+    "description": "Practica hablar de qué estudias o dónde trabajas.",
+    "intro": "Practica hablar de qué estudias o dónde trabajas.",
+    "mission": "Cuéntale a un compañero qué estudias o dónde trabajas y una responsabilidad que tienes.",
     "grammar": "",
     "phrases": [
-      "¿Qué estudias?",
       "Estudio...",
       "Trabajo en...",
-      "Tengo que..."
+      "Tengo que...",
+      "¿Qué estudias/dónde trabajas?"
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "Tú",
+        "line": "Estudio... y trabajo en...",
+        "translation": "I study... and I work at..."
+      },
+      {
+        "speaker": "Compañero/a",
+        "line": "¿Qué tienes que hacer?",
+        "translation": "What do you have to do?"
+      },
+      {
+        "speaker": "Tú",
+        "line": "Tengo que...",
+        "translation": "I have to..."
+      },
+      {
+        "speaker": "Compañero/a",
+        "line": "Muy bien. Ahora añade una frase más sobre «Estudio...».",
+        "translation": "Very good. Now add one more sentence about this topic."
+      }
+    ],
     "reading": null,
-    "transcript": "Carla necesita comprar una camisa para una entrevista. En la tienda encuentra una camisa azul de talla mediana y pregunta cuánto cuesta. La vendedora dice que vale ochocientos pesos. Carla se la prueba, pero necesita una talla más grande. También ve una camisa verde, aunque prefiere la azul porque combina con sus pantalones. Al final paga con tarjeta y guarda el recibo en su cartera.",
-    "extra": {
-      "listeningType": "story",
-      "difficulty": "A1",
-      "durationSeconds": 50,
-      "speakers": [
-        "Narrador/a"
-      ],
-      "phoneticSupport": {
-        "enabled": true,
-        "locale": "es-419",
-        "focus": "Contraste entre p/b (pan/van), t/d (tú/dos) y k/g (casa/gasa); pronunciar con claridad las profesiones evita confusiones.",
-        "fullIpa": null,
-        "segments": [
-          {
-            "text": "trabajo",
-            "ipa": "/tra.ˈβa.xo/"
-          },
-          {
-            "text": "administración",
-            "ipa": "/ad.mi.nis.tra.ˈsjon/"
-          }
-        ],
-        "stressedWords": [
-          "también",
-          "atención"
-        ],
-        "syllabification": [
-          {
-            "word": "universidad",
-            "syllables": "u-ni-ver-si-dad"
-          }
-        ],
-        "difficultSounds": [
-          "p/b",
-          "t/d",
-          "k/g"
-        ],
-        "reviewStatus": "pending-review"
-      },
-      "dictationSegmentCount": 3,
-      "listeningComprehension": {
-        "id": "spanish-a1-estudios-y-trabajo-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "¿Qué necesita comprar Carla?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Una camisa"
-              },
-              {
-                "id": "o2",
-                "text": "Un billete"
-              },
-              {
-                "id": "o3",
-                "text": "Una mesa"
-              },
-              {
-                "id": "o4",
-                "text": "Un libro"
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "¿Qué color elige?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Azul"
-              },
-              {
-                "id": "o2",
-                "text": "Verde"
-              },
-              {
-                "id": "o3",
-                "text": "Rojo"
-              },
-              {
-                "id": "o4",
-                "text": "Amarillo"
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "¿Cómo paga la compra?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Con tarjeta"
-              },
-              {
-                "id": "o2",
-                "text": "Con un cheque"
-              },
-              {
-                "id": "o3",
-                "text": "Con un regalo"
-              },
-              {
-                "id": "o4",
-                "text": "No paga"
-              }
-            ]
-          }
-        ]
-      },
-      "grammarTest": null
-    },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
-        "type": "mcq",
-        "prompt": "¿Qué necesita comprar Carla?",
-        "options": [
-          "Una camisa",
-          "Un billete",
-          "Una mesa",
-          "Un libro"
-        ],
-        "explanation": "Carla necesita comprar una camisa."
+        "type": "speaking",
+        "prompt": "Di en voz alta qué estudias o dónde trabajas, y una responsabilidad que tienes."
       },
       {
-        "type": "mcq",
-        "prompt": "¿Qué color elige?",
-        "options": [
-          "Azul",
-          "Verde",
-          "Rojo",
-          "Amarillo"
-        ],
-        "explanation": "Prefiere la camisa azul."
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Cómo paga la compra?",
-        "options": [
-          "Con tarjeta",
-          "Con un cheque",
-          "Con un regalo",
-          "No paga"
-        ],
-        "explanation": "Al final paga con tarjeta."
+        "type": "practice",
+        "prompt": "Pregúntale a un compañero \"¿Qué estudias?\" y escucha su respuesta. Si no tienes micrófono, responde por escrito."
       }
     ]
   },
@@ -33602,47 +34200,32 @@
     ]
   },
   {
-    "slug": "spanish-a1-estudios-y-trabajo-speaking",
+    "slug": "spanish-a1-estudios-y-trabajo-writing",
     "level": "A1",
-    "skill": "speaking",
+    "skill": "writing",
     "unitId": "estudios-y-trabajo",
-    "title": "Habla de tus estudios o tu trabajo",
+    "title": "Escribe sobre tus estudios o tu trabajo",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 20,
-    "orderIndex": 92,
-    "estimatedMinutes": 8,
-    "description": "Practica hablar de qué estudias o dónde trabajas.",
-    "intro": "Practica hablar de qué estudias o dónde trabajas.",
-    "mission": "Cuéntale a un compañero qué estudias o dónde trabajas y una responsabilidad que tienes.",
+    "xpReward": 25,
+    "orderIndex": 93,
+    "estimatedMinutes": 12,
+    "description": "Escribe un párrafo corto sobre tus estudios o tu trabajo.",
+    "intro": "Escribe un párrafo corto sobre tus estudios o tu trabajo.",
+    "mission": "Escribe 6-7 oraciones sobre qué estudias o dónde trabajas y qué tienes que hacer.",
     "grammar": "",
     "phrases": [
       "Estudio...",
       "Trabajo en...",
       "Tengo que...",
-      "¿Qué estudias/dónde trabajas?"
+      "Puedo..."
     ],
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Tú",
-        "line": "Estudio... y trabajo en...",
-        "translation": "I study... and I work at..."
-      },
-      {
-        "speaker": "Compañero/a",
-        "line": "¿Qué tienes que hacer?",
-        "translation": "What do you have to do?"
-      },
-      {
-        "speaker": "Tú",
-        "line": "Tengo que...",
-        "translation": "I have to..."
-      },
-      {
-        "speaker": "Compañero/a",
-        "line": "Muy bien. Ahora añade una frase más sobre «Estudio...».",
-        "translation": "Very good. Now add one more sentence about this topic."
+        "speaker": "Modelo",
+        "line": "Estudio administración en la universidad. También trabajo en una tienda los fines de semana. Tengo que atender a los clientes.",
+        "translation": "I study business administration at the university. I also work at a store on weekends. I have to help customers."
       }
     ],
     "reading": null,
@@ -33650,12 +34233,8 @@
     "extra": null,
     "exercises": [
       {
-        "type": "speaking",
-        "prompt": "Di en voz alta qué estudias o dónde trabajas, y una responsabilidad que tienes."
-      },
-      {
-        "type": "practice",
-        "prompt": "Pregúntale a un compañero \"¿Qué estudias?\" y escucha su respuesta. Si no tienes micrófono, responde por escrito."
+        "type": "writing",
+        "prompt": "Escribe 6-7 oraciones sobre tus estudios o tu trabajo y tus responsabilidades."
       }
     ]
   },
@@ -33825,41 +34404,71 @@
     ]
   },
   {
-    "slug": "spanish-a1-estudios-y-trabajo-writing",
+    "slug": "spanish-a1-estudios-y-trabajo-grammar",
     "level": "A1",
-    "skill": "writing",
+    "skill": "grammar",
     "unitId": "estudios-y-trabajo",
-    "title": "Escribe sobre tus estudios o tu trabajo",
+    "title": "Tener que y poder + infinitivo",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 25,
-    "orderIndex": 93,
-    "estimatedMinutes": 12,
-    "description": "Escribe un párrafo corto sobre tus estudios o tu trabajo.",
-    "intro": "Escribe un párrafo corto sobre tus estudios o tu trabajo.",
-    "mission": "Escribe 6-7 oraciones sobre qué estudias o dónde trabajas y qué tienes que hacer.",
-    "grammar": "",
+    "xpReward": 20,
+    "orderIndex": 94,
+    "estimatedMinutes": 8,
+    "description": "Aprende a expresar obligación y posibilidad.",
+    "intro": "Aprende a expresar obligación y posibilidad.",
+    "mission": "",
+    "grammar": "\"Tener que + infinitivo\" expresa obligación: tengo que estudiar. \"Poder + infinitivo\" expresa posibilidad o capacidad: puedo trabajar los sábados. Ambos verbos son irregulares: yo tengo/puedo, tú tienes/puedes, él tiene/puede. Error frecuente: usar el infinitivo sin \"que\" después de \"tener\" (decir \"tengo estudiar\" en vez de \"tengo que estudiar\").",
     "phrases": [
-      "Estudio...",
-      "Trabajo en...",
       "Tengo que...",
-      "Puedo..."
+      "Puedo...",
+      "Tienes que...",
+      "No puedo..."
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Modelo",
-        "line": "Estudio administración en la universidad. También trabajo en una tienda los fines de semana. Tengo que atender a los clientes.",
-        "translation": "I study business administration at the university. I also work at a store on weekends. I have to help customers."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "type": "writing",
-        "prompt": "Escribe 6-7 oraciones sobre tus estudios o tu trabajo y tus responsabilidades."
+        "type": "mcq",
+        "prompt": "Yo ___ que trabajar hoy.",
+        "options": [
+          "tengo",
+          "tiene",
+          "tienes",
+          "tener"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Ella ___ estudiar todos los días.",
+        "options": [
+          "tiene que",
+          "tiene",
+          "tengo que",
+          "puede que"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Yo no ___ trabajar los domingos.",
+        "options": [
+          "puedo",
+          "puede",
+          "puedes",
+          "poder"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Elige la oración correcta.",
+        "options": [
+          "Tengo estudiar hoy.",
+          "Tengo que estudiar hoy.",
+          "Tengo a estudiar hoy.",
+          "Tengo de estudiar hoy."
+        ]
       }
     ]
   },
@@ -34724,27 +35333,113 @@
     ]
   },
   {
-    "slug": "spanish-a1-estudios-y-trabajo-grammar",
+    "slug": "spanish-a1-estudios-y-trabajo-vocabulary",
     "level": "A1",
-    "skill": "grammar",
+    "skill": "vocabulary",
     "unitId": "estudios-y-trabajo",
-    "title": "Tener que y poder + infinitivo",
+    "title": "Estudios y profesiones",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
-    "orderIndex": 94,
-    "estimatedMinutes": 8,
-    "description": "Aprende a expresar obligación y posibilidad.",
-    "intro": "Aprende a expresar obligación y posibilidad.",
+    "orderIndex": 95,
+    "estimatedMinutes": 6,
+    "description": "Palabras para hablar de la escuela, la universidad y el trabajo.",
+    "intro": "Palabras para hablar de la escuela, la universidad y el trabajo.",
     "mission": "",
-    "grammar": "\"Tener que + infinitivo\" expresa obligación: tengo que estudiar. \"Poder + infinitivo\" expresa posibilidad o capacidad: puedo trabajar los sábados. Ambos verbos son irregulares: yo tengo/puedo, tú tienes/puedes, él tiene/puede. Error frecuente: usar el infinitivo sin \"que\" después de \"tener\" (decir \"tengo estudiar\" en vez de \"tengo que estudiar\").",
-    "phrases": [
-      "Tengo que...",
-      "Puedo...",
-      "Tienes que...",
-      "No puedo..."
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "Universidad",
+        "category": "lugar",
+        "translation": "University",
+        "example": "Estudio en la universidad."
+      },
+      {
+        "word": "Escuela",
+        "category": "lugar",
+        "translation": "School",
+        "example": "Voy a la escuela todos los días."
+      },
+      {
+        "word": "Enfermero/a",
+        "category": "profesión",
+        "translation": "Nurse",
+        "example": "Roberto es enfermero."
+      },
+      {
+        "word": "Doctor/a",
+        "category": "profesión",
+        "translation": "Doctor",
+        "example": "El doctor trabaja en el hospital."
+      },
+      {
+        "word": "Vendedor/a",
+        "category": "profesión",
+        "translation": "Salesperson",
+        "example": "La vendedora trabaja en la tienda."
+      },
+      {
+        "word": "Ingeniero/a",
+        "category": "profesión",
+        "translation": "Engineer",
+        "example": "Mi tío es ingeniero."
+      },
+      {
+        "word": "Cuaderno",
+        "category": "materiales",
+        "translation": "Notebook",
+        "example": "Escribo en mi cuaderno."
+      },
+      {
+        "word": "Trabajo",
+        "category": "trabajo",
+        "translation": "Job/work",
+        "example": "Mi trabajo es interesante."
+      },
+      {
+        "word": "Horario",
+        "category": "trabajo",
+        "translation": "Schedule",
+        "example": "Mi horario es de siete a tres."
+      },
+      {
+        "word": "Cliente",
+        "category": "trabajo",
+        "translation": "Customer",
+        "example": "Atiendo a los clientes."
+      },
+      {
+        "word": "Hospital",
+        "category": "lugar de trabajo",
+        "translation": "Hospital",
+        "example": "Roberto trabaja en el hospital."
+      },
+      {
+        "word": "Profesor/a",
+        "category": "profesión",
+        "translation": "Teacher/professor",
+        "example": "Mi profesora enseña matemáticas."
+      },
+      {
+        "word": "Examen",
+        "category": "escuela",
+        "translation": "Exam",
+        "example": "Tengo un examen mañana."
+      },
+      {
+        "word": "Oficina",
+        "category": "lugar de trabajo",
+        "translation": "Office",
+        "example": "Trabajo en una oficina."
+      },
+      {
+        "word": "Reunión",
+        "category": "trabajo",
+        "translation": "Meeting",
+        "example": "Tengo una reunión a las diez."
+      }
     ],
-    "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
@@ -34752,42 +35447,32 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Yo ___ que trabajar hoy.",
+        "prompt": "¿Qué significa \"Enfermero/a\"?",
         "options": [
-          "tengo",
-          "tiene",
-          "tienes",
-          "tener"
+          "Doctor",
+          "Nurse",
+          "Engineer",
+          "Teacher"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Ella ___ estudiar todos los días.",
+        "prompt": "¿Qué significa \"Horario\"?",
         "options": [
-          "tiene que",
-          "tiene",
-          "tengo que",
-          "puede que"
+          "Job",
+          "Customer",
+          "Schedule",
+          "School"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Yo no ___ trabajar los domingos.",
+        "prompt": "¿Qué significa \"Cliente\"?",
         "options": [
-          "puedo",
-          "puede",
-          "puedes",
-          "poder"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Elige la oración correcta.",
-        "options": [
-          "Tengo estudiar hoy.",
-          "Tengo que estudiar hoy.",
-          "Tengo a estudiar hoy.",
-          "Tengo de estudiar hoy."
+          "Customer",
+          "Doctor",
+          "Notebook",
+          "Job"
         ]
       }
     ]
@@ -35488,146 +36173,87 @@
     ]
   },
   {
-    "slug": "spanish-a1-estudios-y-trabajo-vocabulary",
+    "slug": "spanish-a1-tiempo-libre-reading",
     "level": "A1",
-    "skill": "vocabulary",
-    "unitId": "estudios-y-trabajo",
-    "title": "Estudios y profesiones",
+    "skill": "reading",
+    "unitId": "tiempo-libre",
+    "title": "Mi fin de semana favorito",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 20,
-    "orderIndex": 95,
-    "estimatedMinutes": 6,
-    "description": "Palabras para hablar de la escuela, la universidad y el trabajo.",
-    "intro": "Palabras para hablar de la escuela, la universidad y el trabajo.",
+    "xpReward": 25,
+    "orderIndex": 100,
+    "estimatedMinutes": 10,
+    "description": "Un texto sobre las actividades de tiempo libre de Kevin.",
+    "intro": "Un texto sobre las actividades de tiempo libre de Kevin.",
     "mission": "",
     "grammar": "",
     "phrases": [],
-    "vocabulary": [
-      {
-        "word": "Universidad",
-        "category": "lugar",
-        "translation": "University",
-        "example": "Estudio en la universidad."
-      },
-      {
-        "word": "Escuela",
-        "category": "lugar",
-        "translation": "School",
-        "example": "Voy a la escuela todos los días."
-      },
-      {
-        "word": "Enfermero/a",
-        "category": "profesión",
-        "translation": "Nurse",
-        "example": "Roberto es enfermero."
-      },
-      {
-        "word": "Doctor/a",
-        "category": "profesión",
-        "translation": "Doctor",
-        "example": "El doctor trabaja en el hospital."
-      },
-      {
-        "word": "Vendedor/a",
-        "category": "profesión",
-        "translation": "Salesperson",
-        "example": "La vendedora trabaja en la tienda."
-      },
-      {
-        "word": "Ingeniero/a",
-        "category": "profesión",
-        "translation": "Engineer",
-        "example": "Mi tío es ingeniero."
-      },
-      {
-        "word": "Cuaderno",
-        "category": "materiales",
-        "translation": "Notebook",
-        "example": "Escribo en mi cuaderno."
-      },
-      {
-        "word": "Trabajo",
-        "category": "trabajo",
-        "translation": "Job/work",
-        "example": "Mi trabajo es interesante."
-      },
-      {
-        "word": "Horario",
-        "category": "trabajo",
-        "translation": "Schedule",
-        "example": "Mi horario es de siete a tres."
-      },
-      {
-        "word": "Cliente",
-        "category": "trabajo",
-        "translation": "Customer",
-        "example": "Atiendo a los clientes."
-      },
-      {
-        "word": "Hospital",
-        "category": "lugar de trabajo",
-        "translation": "Hospital",
-        "example": "Roberto trabaja en el hospital."
-      },
-      {
-        "word": "Profesor/a",
-        "category": "profesión",
-        "translation": "Teacher/professor",
-        "example": "Mi profesora enseña matemáticas."
-      },
-      {
-        "word": "Examen",
-        "category": "escuela",
-        "translation": "Exam",
-        "example": "Tengo un examen mañana."
-      },
-      {
-        "word": "Oficina",
-        "category": "lugar de trabajo",
-        "translation": "Office",
-        "example": "Trabajo en una oficina."
-      },
-      {
-        "word": "Reunión",
-        "category": "trabajo",
-        "translation": "Meeting",
-        "example": "Tengo una reunión a las diez."
-      }
-    ],
+    "vocabulary": [],
     "dialogue": [],
-    "reading": null,
+    "reading": {
+      "title": "Mi fin de semana favorito",
+      "parts": [
+        "A Kevin le gusta mucho el fútbol. Los sábados, juega con sus amigos en el parque cerca de su casa.",
+        "También le encanta la música; toca la guitarra un poco. Los domingos, prefiere ver una película con su familia.",
+        "A su hermana no le gusta el fútbol, pero a ella también le gusta la música. Los dos van juntos a conciertos a veces."
+      ],
+      "questions": [
+        "¿Qué le gusta hacer a Kevin los sábados?",
+        "¿Qué instrumento toca Kevin?",
+        "¿Qué le gusta hacer los domingos?"
+      ],
+      "ordering": {
+        "prompt": "Ordena los eventos de la historia.",
+        "events": [
+          "Kevin juega fútbol con sus amigos los sábados.",
+          "Kevin toca la guitarra en su tiempo libre.",
+          "Kevin ve una película con su familia los domingos.",
+          "Kevin y su hermana van juntos a un concierto."
+        ]
+      },
+      "text": "A Kevin le gusta mucho el fútbol. Los sábados, juega con sus amigos en el parque cerca de su casa.\n\nTambién le encanta la música; toca la guitarra un poco. Los domingos, prefiere ver una película con su familia.\n\nA su hermana no le gusta el fútbol, pero a ella también le gusta la música. Los dos van juntos a conciertos a veces."
+    },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"Enfermero/a\"?",
+        "prompt": "¿Qué deporte le gusta a Kevin?",
         "options": [
-          "Doctor",
-          "Nurse",
-          "Engineer",
-          "Teacher"
+          "Béisbol",
+          "Fútbol",
+          "Baloncesto",
+          "Tenis"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"Horario\"?",
+        "prompt": "¿Qué instrumento toca?",
         "options": [
-          "Job",
-          "Customer",
-          "Schedule",
-          "School"
+          "Piano",
+          "Guitarra",
+          "Batería",
+          "Violín"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"Cliente\"?",
+        "prompt": "¿Qué hace los domingos?",
         "options": [
-          "Customer",
-          "Doctor",
-          "Notebook",
-          "Job"
+          "Juega fútbol",
+          "Ve una película",
+          "Va a la escuela",
+          "Trabaja"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿A quién no le gusta el fútbol?",
+        "options": [
+          "A Kevin",
+          "A su hermana",
+          "A sus amigos",
+          "A nadie"
         ]
       }
     ]
@@ -36113,87 +36739,207 @@
     ]
   },
   {
-    "slug": "spanish-a1-tiempo-libre-reading",
+    "slug": "spanish-a1-tiempo-libre-listening",
     "level": "A1",
-    "skill": "reading",
+    "skill": "listening",
     "unitId": "tiempo-libre",
-    "title": "Mi fin de semana favorito",
+    "title": "¿Quieres ir al cine?",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
-    "orderIndex": 100,
+    "orderIndex": 101,
     "estimatedMinutes": 10,
-    "description": "Un texto sobre las actividades de tiempo libre de Kevin.",
-    "intro": "Un texto sobre las actividades de tiempo libre de Kevin.",
+    "description": "Una invitación para una actividad de tiempo libre.",
+    "intro": "Escucha a Kevin invitando a Ana a una actividad de tiempo libre.",
     "mission": "",
     "grammar": "",
-    "phrases": [],
+    "phrases": [
+      "¿Quieres ir a...?",
+      "Me encanta...",
+      "Prefiero...",
+      "¡Nos vemos!"
+    ],
     "vocabulary": [],
     "dialogue": [],
-    "reading": {
-      "title": "Mi fin de semana favorito",
-      "parts": [
-        "A Kevin le gusta mucho el fútbol. Los sábados, juega con sus amigos en el parque cerca de su casa.",
-        "También le encanta la música; toca la guitarra un poco. Los domingos, prefiere ver una película con su familia.",
-        "A su hermana no le gusta el fútbol, pero a ella también le gusta la música. Los dos van juntos a conciertos a veces."
+    "reading": null,
+    "transcript": "Los sábados me gusta descansar después de una semana ocupada. A veces voy al cine con mi mejor amiga y preferimos una comedia. Si hace buen tiempo, vamos al parque y comemos algo. También me gusta leer, escuchar música y jugar al fútbol con mis amigos. Este sábado quiero ver una película nueva y después tomar un helado. Me gustan los planes sencillos porque puedo conversar y descansar.",
+    "extra": {
+      "listeningType": "story",
+      "difficulty": "A1",
+      "durationSeconds": 40,
+      "speakers": [
+        "Narrador/a"
       ],
-      "questions": [
-        "¿Qué le gusta hacer a Kevin los sábados?",
-        "¿Qué instrumento toca Kevin?",
-        "¿Qué le gusta hacer los domingos?"
-      ],
-      "ordering": {
-        "prompt": "Ordena los eventos de la historia.",
-        "events": [
-          "Kevin juega fútbol con sus amigos los sábados.",
-          "Kevin toca la guitarra en su tiempo libre.",
-          "Kevin ve una película con su familia los domingos.",
-          "Kevin y su hermana van juntos a un concierto."
+      "phoneticSupport": {
+        "enabled": true,
+        "locale": "es-419",
+        "focus": "La entonación de una invitación sube ligeramente al final (¿Quieres ir al cine?); \"también\" y \"tampoco\" llevan el acento en la última sílaba.",
+        "fullIpa": null,
+        "segments": [
+          {
+            "text": "también",
+            "ipa": "/tam.ˈbjen/"
+          },
+          {
+            "text": "tampoco",
+            "ipa": "/tam.ˈpo.ko/"
+          }
+        ],
+        "stressedWords": [
+          "también",
+          "tampoco"
+        ],
+        "syllabification": [
+          {
+            "word": "película",
+            "syllables": "pe-lí-cu-la"
+          }
+        ],
+        "difficultSounds": [
+          "entonación de invitación"
+        ],
+        "reviewStatus": "pending-review"
+      },
+      "dictationSegmentCount": 3,
+      "listeningComprehension": {
+        "id": "spanish-a1-tiempo-libre-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "En «¿Quieres ir al cine?», ¿qué detalle presenta la situación?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Los sábados me gusta descansar después de una semana ocupada."
+              },
+              {
+                "id": "o2",
+                "text": "Si hace buen tiempo, vamos al parque y comemos algo."
+              },
+              {
+                "id": "o3",
+                "text": "También me gusta leer, escuchar música y jugar al fútbol con mis amigos."
+              },
+              {
+                "id": "o4",
+                "text": "Me gustan los planes sencillos porque puedo conversar y descansar."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Después de «Los sábados me gusta descansar después de una semana ocupada.», ¿qué sucede a continuación en «¿Quieres ir al cine?»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Los sábados me gusta descansar después de una semana ocupada."
+              },
+              {
+                "id": "o2",
+                "text": "Si hace buen tiempo, vamos al parque y comemos algo."
+              },
+              {
+                "id": "o3",
+                "text": "También me gusta leer, escuchar música y jugar al fútbol con mis amigos."
+              },
+              {
+                "id": "o4",
+                "text": "Me gustan los planes sencillos porque puedo conversar y descansar."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «¿Quieres ir al cine?»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Los sábados me gusta descansar después de una semana ocupada."
+              },
+              {
+                "id": "o2",
+                "text": "Si hace buen tiempo, vamos al parque y comemos algo."
+              },
+              {
+                "id": "o3",
+                "text": "También me gusta leer, escuchar música y jugar al fútbol con mis amigos."
+              },
+              {
+                "id": "o4",
+                "text": "Me gustan los planes sencillos porque puedo conversar y descansar."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «¿Quieres ir al cine?» después de «También me gusta leer, escuchar música y jugar al fútbol con mis amigos.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Los sábados me gusta descansar después de una semana ocupada."
+              },
+              {
+                "id": "o2",
+                "text": "Si hace buen tiempo, vamos al parque y comemos algo."
+              },
+              {
+                "id": "o3",
+                "text": "También me gusta leer, escuchar música y jugar al fútbol con mis amigos."
+              },
+              {
+                "id": "o4",
+                "text": "Me gustan los planes sencillos porque puedo conversar y descansar."
+              }
+            ]
+          }
         ]
       },
-      "text": "A Kevin le gusta mucho el fútbol. Los sábados, juega con sus amigos en el parque cerca de su casa.\n\nTambién le encanta la música; toca la guitarra un poco. Los domingos, prefiere ver una película con su familia.\n\nA su hermana no le gusta el fútbol, pero a ella también le gusta la música. Los dos van juntos a conciertos a veces."
+      "grammarTest": null
     },
-    "transcript": "",
-    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué deporte le gusta a Kevin?",
+        "prompt": "En «¿Quieres ir al cine?», ¿qué detalle presenta la situación?",
         "options": [
-          "Béisbol",
-          "Fútbol",
-          "Baloncesto",
-          "Tenis"
+          "Los sábados me gusta descansar después de una semana ocupada.",
+          "Si hace buen tiempo, vamos al parque y comemos algo.",
+          "También me gusta leer, escuchar música y jugar al fútbol con mis amigos.",
+          "Me gustan los planes sencillos porque puedo conversar y descansar."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué instrumento toca?",
+        "prompt": "Después de «Los sábados me gusta descansar después de una semana ocupada.», ¿qué sucede a continuación en «¿Quieres ir al cine?»?",
         "options": [
-          "Piano",
-          "Guitarra",
-          "Batería",
-          "Violín"
+          "Los sábados me gusta descansar después de una semana ocupada.",
+          "Si hace buen tiempo, vamos al parque y comemos algo.",
+          "También me gusta leer, escuchar música y jugar al fútbol con mis amigos.",
+          "Me gustan los planes sencillos porque puedo conversar y descansar."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace los domingos?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «¿Quieres ir al cine?»?",
         "options": [
-          "Juega fútbol",
-          "Ve una película",
-          "Va a la escuela",
-          "Trabaja"
+          "Los sábados me gusta descansar después de una semana ocupada.",
+          "Si hace buen tiempo, vamos al parque y comemos algo.",
+          "También me gusta leer, escuchar música y jugar al fútbol con mis amigos.",
+          "Me gustan los planes sencillos porque puedo conversar y descansar."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿A quién no le gusta el fútbol?",
+        "prompt": "¿Qué resultado cierra «¿Quieres ir al cine?» después de «También me gusta leer, escuchar música y jugar al fútbol con mis amigos.»?",
         "options": [
-          "A Kevin",
-          "A su hermana",
-          "A sus amigos",
-          "A nadie"
+          "Los sábados me gusta descansar después de una semana ocupada.",
+          "Si hace buen tiempo, vamos al parque y comemos algo.",
+          "También me gusta leer, escuchar música y jugar al fútbol con mis amigos.",
+          "Me gustan los planes sencillos porque puedo conversar y descansar."
         ]
       }
     ]
@@ -36230,75 +36976,98 @@
       ],
       "transcript": "Tengo un examen dentro de dos semanas y todavía no termino mis apuntes. Voy a repasar un tema cada día y dejaré el domingo para practicar. Llevo dos meses estudiando una hora después de cenar, así que ya tengo una rutina. Hoy organizaré el calendario y dividiré las tareas. Cuando complete cada tema, haré un ejercicio corto para comprobar mi progreso y llegar al examen con confianza. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.",
       "listeningComprehension": {
-        "id": "spanish-a2-estudio-y-aprendizaje-listening-comprehension",
+        "id": "spanish-a2-estudio-y-aprendizaje-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Cuándo tiene Mateo el examen?",
+            "prompt": "En «Escucha · Estudio y aprendizaje», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Mañana"
+                "text": "Tengo un examen dentro de dos semanas y todavía no termino mis apuntes."
               },
               {
                 "id": "o2",
-                "text": "Dentro de dos semanas"
+                "text": "Hoy organizaré el calendario y dividiré las tareas."
               },
               {
                 "id": "o3",
-                "text": "El domingo"
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
               },
               {
                 "id": "o4",
-                "text": "En enero"
+                "text": "Me gusta tener un plan claro antes de seguir."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Qué recomienda Lucía para el domingo?",
+            "prompt": "Después de «Tengo un examen dentro de dos semanas y todavía no termino mis apuntes.», ¿qué sucede a continuación en «Escucha · Estudio y aprendizaje»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Descansar todo el día"
+                "text": "Tengo un examen dentro de dos semanas y todavía no termino mis apuntes."
               },
               {
                 "id": "o2",
-                "text": "Practicar"
+                "text": "Hoy organizaré el calendario y dividiré las tareas."
               },
               {
                 "id": "o3",
-                "text": "Ir de compras"
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
               },
               {
                 "id": "o4",
-                "text": "Escribir apuntes nuevos"
+                "text": "Me gusta tener un plan claro antes de seguir."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué hará Mateo hoy?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Estudio y aprendizaje»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Organizar el calendario"
+                "text": "Tengo un examen dentro de dos semanas y todavía no termino mis apuntes."
               },
               {
                 "id": "o2",
-                "text": "Cambiar de curso"
+                "text": "Hoy organizaré el calendario y dividiré las tareas."
               },
               {
                 "id": "o3",
-                "text": "Cancelar el examen"
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
               },
               {
                 "id": "o4",
-                "text": "Comprar apuntes"
+                "text": "Me gusta tener un plan claro antes de seguir."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Estudio y aprendizaje» después de «Al final, repaso la información y preparo el siguiente paso con calma.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Tengo un examen dentro de dos semanas y todavía no termino mis apuntes."
+              },
+              {
+                "id": "o2",
+                "text": "Hoy organizaré el calendario y dividiré las tareas."
+              },
+              {
+                "id": "o3",
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+              },
+              {
+                "id": "o4",
+                "text": "Me gusta tener un plan claro antes de seguir."
               }
             ]
           }
@@ -36309,36 +37078,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuándo tiene Mateo el examen?",
+        "prompt": "En «Escucha · Estudio y aprendizaje», ¿qué detalle presenta la situación?",
         "options": [
-          "Mañana",
-          "Dentro de dos semanas",
-          "El domingo",
-          "En enero"
-        ],
-        "explanation": "Mateo tiene el examen dentro de dos semanas."
+          "Tengo un examen dentro de dos semanas y todavía no termino mis apuntes.",
+          "Hoy organizaré el calendario y dividiré las tareas.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué recomienda Lucía para el domingo?",
+        "prompt": "Después de «Tengo un examen dentro de dos semanas y todavía no termino mis apuntes.», ¿qué sucede a continuación en «Escucha · Estudio y aprendizaje»?",
         "options": [
-          "Descansar todo el día",
-          "Practicar",
-          "Ir de compras",
-          "Escribir apuntes nuevos"
-        ],
-        "explanation": "Lucía propone dejar el domingo para practicar."
+          "Tengo un examen dentro de dos semanas y todavía no termino mis apuntes.",
+          "Hoy organizaré el calendario y dividiré las tareas.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hará Mateo hoy?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Estudio y aprendizaje»?",
         "options": [
-          "Organizar el calendario",
-          "Cambiar de curso",
-          "Cancelar el examen",
-          "Comprar apuntes"
-        ],
-        "explanation": "Mateo dice que organizará el calendario."
+          "Tengo un examen dentro de dos semanas y todavía no termino mis apuntes.",
+          "Hoy organizaré el calendario y dividiré las tareas.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Estudio y aprendizaje» después de «Al final, repaso la información y preparo el siguiente paso con calma.»?",
+        "options": [
+          "Tengo un examen dentro de dos semanas y todavía no termino mis apuntes.",
+          "Hoy organizaré el calendario y dividiré las tareas.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
       }
     ]
   },
@@ -36781,15 +37557,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Para formular una idea con precisión y reservas"
-              },
-              {
-                "id": "o2",
                 "text": "Para eliminar toda postura"
               },
               {
-                "id": "o3",
+                "id": "o2",
                 "text": "Para repetir palabras aisladas"
+              },
+              {
+                "id": "o3",
+                "text": "Para formular una idea con precisión y reservas"
               },
               {
                 "id": "o4",
@@ -36808,15 +37584,15 @@
               },
               {
                 "id": "o2",
-                "text": "Qué evidencia sostendría o modificaría una postura"
-              },
-              {
-                "id": "o3",
                 "text": "Cómo evitar cualquier debate"
               },
               {
-                "id": "o4",
+                "id": "o3",
                 "text": "Qué palabra es más difícil de pronunciar"
+              },
+              {
+                "id": "o4",
+                "text": "Qué evidencia sostendría o modificaría una postura"
               }
             ]
           }
@@ -36851,9 +37627,9 @@
         "type": "mcq",
         "prompt": "¿Para qué se usa la gramática de la unidad?",
         "options": [
-          "Para formular una idea con precisión y reservas",
           "Para eliminar toda postura",
           "Para repetir palabras aisladas",
+          "Para formular una idea con precisión y reservas",
           "Para evitar reconocer límites"
         ],
         "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
@@ -36863,9 +37639,9 @@
         "prompt": "¿Qué pregunta final propone el audio?",
         "options": [
           "Qué aplicación es más rápida",
-          "Qué evidencia sostendría o modificaría una postura",
           "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar"
+          "Qué palabra es más difícil de pronunciar",
+          "Qué evidencia sostendría o modificaría una postura"
         ],
         "explanation": "La pregunta final invita a justificar y revisar una conclusión."
       }
@@ -36960,15 +37736,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Para formular una idea con precisión y reservas"
-              },
-              {
-                "id": "o2",
                 "text": "Para eliminar toda postura"
               },
               {
-                "id": "o3",
+                "id": "o2",
                 "text": "Para repetir palabras aisladas"
+              },
+              {
+                "id": "o3",
+                "text": "Para formular una idea con precisión y reservas"
               },
               {
                 "id": "o4",
@@ -36987,15 +37763,15 @@
               },
               {
                 "id": "o2",
-                "text": "Qué evidencia sostendría o modificaría una postura"
-              },
-              {
-                "id": "o3",
                 "text": "Cómo evitar cualquier debate"
               },
               {
-                "id": "o4",
+                "id": "o3",
                 "text": "Qué palabra es más difícil de pronunciar"
+              },
+              {
+                "id": "o4",
+                "text": "Qué evidencia sostendría o modificaría una postura"
               }
             ]
           }
@@ -37030,9 +37806,9 @@
         "type": "mcq",
         "prompt": "¿Para qué se usa la gramática de la unidad?",
         "options": [
-          "Para formular una idea con precisión y reservas",
           "Para eliminar toda postura",
           "Para repetir palabras aisladas",
+          "Para formular una idea con precisión y reservas",
           "Para evitar reconocer límites"
         ],
         "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
@@ -37042,187 +37818,69 @@
         "prompt": "¿Qué pregunta final propone el audio?",
         "options": [
           "Qué aplicación es más rápida",
-          "Qué evidencia sostendría o modificaría una postura",
           "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar"
+          "Qué palabra es más difícil de pronunciar",
+          "Qué evidencia sostendría o modificaría una postura"
         ],
         "explanation": "La pregunta final invita a justificar y revisar una conclusión."
       }
     ]
   },
   {
-    "slug": "spanish-a1-tiempo-libre-listening",
+    "slug": "spanish-a1-tiempo-libre-speaking",
     "level": "A1",
-    "skill": "listening",
+    "skill": "speaking",
     "unitId": "tiempo-libre",
-    "title": "¿Quieres ir al cine?",
+    "title": "Invita a un amigo",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 25,
-    "orderIndex": 101,
-    "estimatedMinutes": 10,
-    "description": "Una invitación para una actividad de tiempo libre.",
-    "intro": "Escucha a Kevin invitando a Ana a una actividad de tiempo libre.",
-    "mission": "",
+    "xpReward": 20,
+    "orderIndex": 102,
+    "estimatedMinutes": 8,
+    "description": "Practica invitar a alguien a una actividad y responder a una invitación.",
+    "intro": "Practica invitar a alguien a una actividad y responder a una invitación.",
+    "mission": "Invita a un compañero a hacer algo en su tiempo libre y responde a su invitación.",
     "grammar": "",
     "phrases": [
       "¿Quieres ir a...?",
       "Me encanta...",
       "Prefiero...",
-      "¡Nos vemos!"
+      "Sí, me gusta la idea. / No, gracias."
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "Tú",
+        "line": "¿Quieres ir al parque el sábado?",
+        "translation": "Do you want to go to the park on Saturday?"
+      },
+      {
+        "speaker": "Compañero/a",
+        "line": "Me gusta la idea. ¿A qué hora?",
+        "translation": "I like the idea. What time?"
+      },
+      {
+        "speaker": "Tú",
+        "line": "A las tres de la tarde.",
+        "translation": "At three in the afternoon."
+      },
+      {
+        "speaker": "Compañero/a",
+        "line": "Muy bien. Ahora añade una frase más sobre «¿Quieres ir a...?».",
+        "translation": "Very good. Now add one more sentence about this topic."
+      }
+    ],
     "reading": null,
-    "transcript": "Los sábados me gusta descansar después de una semana ocupada. A veces voy al cine con mi mejor amiga y preferimos una comedia. Si hace buen tiempo, vamos al parque y comemos algo. También me gusta leer, escuchar música y jugar al fútbol con mis amigos. Este sábado quiero ver una película nueva y después tomar un helado. Me gustan los planes sencillos porque puedo conversar y descansar.",
-    "extra": {
-      "listeningType": "story",
-      "difficulty": "A1",
-      "durationSeconds": 40,
-      "speakers": [
-        "Narrador/a"
-      ],
-      "phoneticSupport": {
-        "enabled": true,
-        "locale": "es-419",
-        "focus": "La entonación de una invitación sube ligeramente al final (¿Quieres ir al cine?); \"también\" y \"tampoco\" llevan el acento en la última sílaba.",
-        "fullIpa": null,
-        "segments": [
-          {
-            "text": "también",
-            "ipa": "/tam.ˈbjen/"
-          },
-          {
-            "text": "tampoco",
-            "ipa": "/tam.ˈpo.ko/"
-          }
-        ],
-        "stressedWords": [
-          "también",
-          "tampoco"
-        ],
-        "syllabification": [
-          {
-            "word": "película",
-            "syllables": "pe-lí-cu-la"
-          }
-        ],
-        "difficultSounds": [
-          "entonación de invitación"
-        ],
-        "reviewStatus": "pending-review"
-      },
-      "dictationSegmentCount": 3,
-      "listeningComprehension": {
-        "id": "spanish-a1-tiempo-libre-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "¿Qué tipo de película prefiere?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Una comedia"
-              },
-              {
-                "id": "o2",
-                "text": "Una película de terror"
-              },
-              {
-                "id": "o3",
-                "text": "Un documental"
-              },
-              {
-                "id": "o4",
-                "text": "Una película de acción"
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "¿Qué hace si hace buen tiempo?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Va al parque"
-              },
-              {
-                "id": "o2",
-                "text": "Se queda en la farmacia"
-              },
-              {
-                "id": "o3",
-                "text": "Trabaja en la tienda"
-              },
-              {
-                "id": "o4",
-                "text": "Toma el tren"
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "¿Qué quiere hacer este sábado?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Ver una película y tomar un helado"
-              },
-              {
-                "id": "o2",
-                "text": "Comprar un apartamento"
-              },
-              {
-                "id": "o3",
-                "text": "Preparar un examen"
-              },
-              {
-                "id": "o4",
-                "text": "Visitar un banco"
-              }
-            ]
-          }
-        ]
-      },
-      "grammarTest": null
-    },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
-        "type": "mcq",
-        "prompt": "¿Qué tipo de película prefiere?",
-        "options": [
-          "Una comedia",
-          "Una película de terror",
-          "Un documental",
-          "Una película de acción"
-        ],
-        "explanation": "Prefiere una comedia."
+        "type": "speaking",
+        "prompt": "Invita en voz alta a un amigo a una actividad de tiempo libre."
       },
       {
-        "type": "mcq",
-        "prompt": "¿Qué hace si hace buen tiempo?",
-        "options": [
-          "Va al parque",
-          "Se queda en la farmacia",
-          "Trabaja en la tienda",
-          "Toma el tren"
-        ],
-        "explanation": "Si hace buen tiempo, va al parque."
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Qué quiere hacer este sábado?",
-        "options": [
-          "Ver una película y tomar un helado",
-          "Comprar un apartamento",
-          "Preparar un examen",
-          "Visitar un banco"
-        ],
-        "explanation": "Quiere ver una película nueva y tomar un helado."
+        "type": "practice",
+        "prompt": "Practica el diálogo de invitación con un compañero, cambiando de rol. Si no tienes micrófono, escribe tus respuestas."
       }
     ]
   },
@@ -37524,47 +38182,32 @@
     ]
   },
   {
-    "slug": "spanish-a1-tiempo-libre-speaking",
+    "slug": "spanish-a1-tiempo-libre-writing",
     "level": "A1",
-    "skill": "speaking",
+    "skill": "writing",
     "unitId": "tiempo-libre",
-    "title": "Invita a un amigo",
+    "title": "Escribe una invitación",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 20,
-    "orderIndex": 102,
-    "estimatedMinutes": 8,
-    "description": "Practica invitar a alguien a una actividad y responder a una invitación.",
-    "intro": "Practica invitar a alguien a una actividad y responder a una invitación.",
-    "mission": "Invita a un compañero a hacer algo en su tiempo libre y responde a su invitación.",
+    "xpReward": 25,
+    "orderIndex": 103,
+    "estimatedMinutes": 12,
+    "description": "Escribe una invitación corta para una actividad de tiempo libre.",
+    "intro": "Escribe una invitación corta para una actividad de tiempo libre.",
+    "mission": "Escribe 6-7 oraciones invitando a un amigo a una actividad, con día, hora y qué prefieres hacer.",
     "grammar": "",
     "phrases": [
       "¿Quieres ir a...?",
       "Me encanta...",
       "Prefiero...",
-      "Sí, me gusta la idea. / No, gracias."
+      "Nos vemos..."
     ],
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Tú",
-        "line": "¿Quieres ir al parque el sábado?",
-        "translation": "Do you want to go to the park on Saturday?"
-      },
-      {
-        "speaker": "Compañero/a",
-        "line": "Me gusta la idea. ¿A qué hora?",
-        "translation": "I like the idea. What time?"
-      },
-      {
-        "speaker": "Tú",
-        "line": "A las tres de la tarde.",
-        "translation": "At three in the afternoon."
-      },
-      {
-        "speaker": "Compañero/a",
-        "line": "Muy bien. Ahora añade una frase más sobre «¿Quieres ir a...?».",
-        "translation": "Very good. Now add one more sentence about this topic."
+        "speaker": "Modelo",
+        "line": "¿Quieres ir al cine el sábado? Me encanta el cine. Podemos ver una comedia a las cuatro. ¡Nos vemos!",
+        "translation": "Do you want to go to the movies on Saturday? I love the movies. We can watch a comedy at four. See you!"
       }
     ],
     "reading": null,
@@ -37572,12 +38215,8 @@
     "extra": null,
     "exercises": [
       {
-        "type": "speaking",
-        "prompt": "Invita en voz alta a un amigo a una actividad de tiempo libre."
-      },
-      {
-        "type": "practice",
-        "prompt": "Practica el diálogo de invitación con un compañero, cambiando de rol. Si no tienes micrófono, escribe tus respuestas."
+        "type": "writing",
+        "prompt": "Escribe una invitación de 6-7 oraciones para una actividad de tiempo libre."
       }
     ]
   },
@@ -37747,41 +38386,71 @@
     ]
   },
   {
-    "slug": "spanish-a1-tiempo-libre-writing",
+    "slug": "spanish-a1-tiempo-libre-grammar",
     "level": "A1",
-    "skill": "writing",
+    "skill": "grammar",
     "unitId": "tiempo-libre",
-    "title": "Escribe una invitación",
+    "title": "Encantar, preferir y también/tampoco",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 25,
-    "orderIndex": 103,
-    "estimatedMinutes": 12,
-    "description": "Escribe una invitación corta para una actividad de tiempo libre.",
-    "intro": "Escribe una invitación corta para una actividad de tiempo libre.",
-    "mission": "Escribe 6-7 oraciones invitando a un amigo a una actividad, con día, hora y qué prefieres hacer.",
-    "grammar": "",
+    "xpReward": 20,
+    "orderIndex": 104,
+    "estimatedMinutes": 8,
+    "description": "Aprende a expresar preferencias fuertes y a usar también/tampoco.",
+    "intro": "Aprende a expresar preferencias fuertes y a usar también/tampoco.",
+    "mission": "",
+    "grammar": "\"Encantar\" es más fuerte que \"gustar\": me encanta el cine (me gusta mucho). \"Preferir\" compara dos opciones: prefiero una comedia (no una película de acción). Usamos \"también\" para afirmaciones (A mí también) y \"tampoco\" para negaciones (A mí tampoco). Error frecuente: usar \"también\" después de una negación (decir \"A mí también no me gusta\" en vez de \"A mí tampoco me gusta\").",
     "phrases": [
-      "¿Quieres ir a...?",
       "Me encanta...",
-      "Prefiero...",
-      "Nos vemos..."
+      "Prefiero... (a)...",
+      "A mí también.",
+      "A mí tampoco."
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Modelo",
-        "line": "¿Quieres ir al cine el sábado? Me encanta el cine. Podemos ver una comedia a las cuatro. ¡Nos vemos!",
-        "translation": "Do you want to go to the movies on Saturday? I love the movies. We can watch a comedy at four. See you!"
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "type": "writing",
-        "prompt": "Escribe una invitación de 6-7 oraciones para una actividad de tiempo libre."
+        "type": "mcq",
+        "prompt": "A mí ___ el cine. (me gusta mucho)",
+        "options": [
+          "me encanta",
+          "prefiero",
+          "tampoco",
+          "también"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Yo ___ una comedia, no una película de terror.",
+        "options": [
+          "encanto",
+          "prefiero",
+          "tampoco",
+          "también"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "—No me gusta el fútbol. —A mí ___.",
+        "options": [
+          "también",
+          "tampoco",
+          "prefiero",
+          "encanta"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "—Me gusta la música. —A mí ___.",
+        "options": [
+          "tampoco",
+          "también",
+          "prefiero",
+          "encanta"
+        ]
       }
     ]
   },
@@ -38646,27 +39315,113 @@
     ]
   },
   {
-    "slug": "spanish-a1-tiempo-libre-grammar",
+    "slug": "spanish-a1-tiempo-libre-vocabulary",
     "level": "A1",
-    "skill": "grammar",
+    "skill": "vocabulary",
     "unitId": "tiempo-libre",
-    "title": "Encantar, preferir y también/tampoco",
+    "title": "Pasatiempos y tiempo libre",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
-    "orderIndex": 104,
-    "estimatedMinutes": 8,
-    "description": "Aprende a expresar preferencias fuertes y a usar también/tampoco.",
-    "intro": "Aprende a expresar preferencias fuertes y a usar también/tampoco.",
+    "orderIndex": 105,
+    "estimatedMinutes": 6,
+    "description": "Palabras para deportes, música y actividades sociales.",
+    "intro": "Palabras para deportes, música y actividades sociales.",
     "mission": "",
-    "grammar": "\"Encantar\" es más fuerte que \"gustar\": me encanta el cine (me gusta mucho). \"Preferir\" compara dos opciones: prefiero una comedia (no una película de acción). Usamos \"también\" para afirmaciones (A mí también) y \"tampoco\" para negaciones (A mí tampoco). Error frecuente: usar \"también\" después de una negación (decir \"A mí también no me gusta\" en vez de \"A mí tampoco me gusta\").",
-    "phrases": [
-      "Me encanta...",
-      "Prefiero... (a)...",
-      "A mí también.",
-      "A mí tampoco."
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "Fútbol",
+        "category": "deporte",
+        "translation": "Soccer",
+        "example": "Juego fútbol los sábados."
+      },
+      {
+        "word": "Baloncesto",
+        "category": "deporte",
+        "translation": "Basketball",
+        "example": "Me gusta el baloncesto."
+      },
+      {
+        "word": "Música",
+        "category": "pasatiempo",
+        "translation": "Music",
+        "example": "Me encanta la música."
+      },
+      {
+        "word": "Guitarra",
+        "category": "pasatiempo",
+        "translation": "Guitar",
+        "example": "Toco la guitarra."
+      },
+      {
+        "word": "Cine",
+        "category": "lugar",
+        "translation": "Movies/cinema",
+        "example": "Vamos al cine el sábado."
+      },
+      {
+        "word": "Película",
+        "category": "entretenimiento",
+        "translation": "Movie",
+        "example": "Prefiero una comedia."
+      },
+      {
+        "word": "Leer",
+        "category": "pasatiempo",
+        "translation": "To read",
+        "example": "Me gusta leer los domingos."
+      },
+      {
+        "word": "Concierto",
+        "category": "actividad social",
+        "translation": "Concert",
+        "example": "Vamos a un concierto."
+      },
+      {
+        "word": "Fin de semana",
+        "category": "tiempo",
+        "translation": "Weekend",
+        "example": "El fin de semana descanso."
+      },
+      {
+        "word": "Amigos",
+        "category": "personas",
+        "translation": "Friends",
+        "example": "Juego con mis amigos."
+      },
+      {
+        "word": "Preferir",
+        "category": "verbo",
+        "translation": "To prefer",
+        "example": "Prefiero el cine al parque."
+      },
+      {
+        "word": "Nadar",
+        "category": "deporte",
+        "translation": "To swim",
+        "example": "Me gusta nadar en el verano."
+      },
+      {
+        "word": "Bailar",
+        "category": "pasatiempo",
+        "translation": "To dance",
+        "example": "Me encanta bailar los fines de semana."
+      },
+      {
+        "word": "Videojuego",
+        "category": "pasatiempo",
+        "translation": "Video game",
+        "example": "Juego videojuegos con mi hermano."
+      },
+      {
+        "word": "Dibujar",
+        "category": "pasatiempo",
+        "translation": "To draw",
+        "example": "Me gusta dibujar en mi tiempo libre."
+      }
     ],
-    "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
@@ -38674,42 +39429,32 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "A mí ___ el cine. (me gusta mucho)",
+        "prompt": "¿Qué significa \"Fin de semana\"?",
         "options": [
-          "me encanta",
-          "prefiero",
-          "tampoco",
-          "también"
+          "Weekday",
+          "Weekend",
+          "Morning",
+          "Concert"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Yo ___ una comedia, no una película de terror.",
+        "prompt": "¿Qué significa \"Preferir\"?",
         "options": [
-          "encanto",
-          "prefiero",
-          "tampoco",
-          "también"
+          "To prefer",
+          "To read",
+          "To play",
+          "To watch"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "—No me gusta el fútbol. —A mí ___.",
+        "prompt": "¿Qué significa \"Concierto\"?",
         "options": [
-          "también",
-          "tampoco",
-          "prefiero",
-          "encanta"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "—Me gusta la música. —A mí ___.",
-        "options": [
-          "tampoco",
-          "también",
-          "prefiero",
-          "encanta"
+          "Movie",
+          "Concert",
+          "Book",
+          "Sport"
         ]
       }
     ]
@@ -39410,146 +40155,87 @@
     ]
   },
   {
-    "slug": "spanish-a1-tiempo-libre-vocabulary",
+    "slug": "spanish-a1-salud-y-bienestar-a1-reading",
     "level": "A1",
-    "skill": "vocabulary",
-    "unitId": "tiempo-libre",
-    "title": "Pasatiempos y tiempo libre",
+    "skill": "reading",
+    "unitId": "salud-y-bienestar-a1",
+    "title": "No me siento bien",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 20,
-    "orderIndex": 105,
-    "estimatedMinutes": 6,
-    "description": "Palabras para deportes, música y actividades sociales.",
-    "intro": "Palabras para deportes, música y actividades sociales.",
+    "xpReward": 25,
+    "orderIndex": 110,
+    "estimatedMinutes": 10,
+    "description": "Isabel se siente mal y pide ayuda en una farmacia.",
+    "intro": "Isabel se siente mal y pide ayuda en una farmacia.",
     "mission": "",
     "grammar": "",
     "phrases": [],
-    "vocabulary": [
-      {
-        "word": "Fútbol",
-        "category": "deporte",
-        "translation": "Soccer",
-        "example": "Juego fútbol los sábados."
-      },
-      {
-        "word": "Baloncesto",
-        "category": "deporte",
-        "translation": "Basketball",
-        "example": "Me gusta el baloncesto."
-      },
-      {
-        "word": "Música",
-        "category": "pasatiempo",
-        "translation": "Music",
-        "example": "Me encanta la música."
-      },
-      {
-        "word": "Guitarra",
-        "category": "pasatiempo",
-        "translation": "Guitar",
-        "example": "Toco la guitarra."
-      },
-      {
-        "word": "Cine",
-        "category": "lugar",
-        "translation": "Movies/cinema",
-        "example": "Vamos al cine el sábado."
-      },
-      {
-        "word": "Película",
-        "category": "entretenimiento",
-        "translation": "Movie",
-        "example": "Prefiero una comedia."
-      },
-      {
-        "word": "Leer",
-        "category": "pasatiempo",
-        "translation": "To read",
-        "example": "Me gusta leer los domingos."
-      },
-      {
-        "word": "Concierto",
-        "category": "actividad social",
-        "translation": "Concert",
-        "example": "Vamos a un concierto."
-      },
-      {
-        "word": "Fin de semana",
-        "category": "tiempo",
-        "translation": "Weekend",
-        "example": "El fin de semana descanso."
-      },
-      {
-        "word": "Amigos",
-        "category": "personas",
-        "translation": "Friends",
-        "example": "Juego con mis amigos."
-      },
-      {
-        "word": "Preferir",
-        "category": "verbo",
-        "translation": "To prefer",
-        "example": "Prefiero el cine al parque."
-      },
-      {
-        "word": "Nadar",
-        "category": "deporte",
-        "translation": "To swim",
-        "example": "Me gusta nadar en el verano."
-      },
-      {
-        "word": "Bailar",
-        "category": "pasatiempo",
-        "translation": "To dance",
-        "example": "Me encanta bailar los fines de semana."
-      },
-      {
-        "word": "Videojuego",
-        "category": "pasatiempo",
-        "translation": "Video game",
-        "example": "Juego videojuegos con mi hermano."
-      },
-      {
-        "word": "Dibujar",
-        "category": "pasatiempo",
-        "translation": "To draw",
-        "example": "Me gusta dibujar en mi tiempo libre."
-      }
-    ],
+    "vocabulary": [],
     "dialogue": [],
-    "reading": null,
+    "reading": {
+      "title": "No me siento bien",
+      "parts": [
+        "Esta mañana, Isabel se despierta con dolor de cabeza y un poco de dolor de garganta. Está cansada y no se siente bien.",
+        "Como la farmacia está cerca de su casa, decide ir y pedir ayuda. El farmacéutico la saluda y pregunta: «Buenos días, ¿qué le duele?». Isabel responde: «Me duele la cabeza y también la garganta».",
+        "El farmacéutico le recomienda descansar, beber mucha agua y consultar a un médico si no mejora. Isabel le da las gracias y vuelve a casa para descansar."
+      ],
+      "questions": [
+        "¿Qué le duele a Isabel?",
+        "¿A dónde va Isabel?",
+        "¿Qué le recomienda el farmacéutico?"
+      ],
+      "ordering": {
+        "prompt": "Ordena los eventos de la historia.",
+        "events": [
+          "Isabel se despierta y no se siente bien.",
+          "Isabel va a la farmacia.",
+          "El farmacéutico le pregunta qué le duele.",
+          "Isabel vuelve a casa a descansar."
+        ]
+      },
+      "text": "Esta mañana, Isabel se despierta con dolor de cabeza y un poco de dolor de garganta. Está cansada y no se siente bien.\n\nComo la farmacia está cerca de su casa, decide ir y pedir ayuda. El farmacéutico la saluda y pregunta: «Buenos días, ¿qué le duele?». Isabel responde: «Me duele la cabeza y también la garganta».\n\nEl farmacéutico le recomienda descansar, beber mucha agua y consultar a un médico si no mejora. Isabel le da las gracias y vuelve a casa para descansar."
+    },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"Fin de semana\"?",
+        "prompt": "¿Qué le duele a Isabel?",
         "options": [
-          "Weekday",
-          "Weekend",
-          "Morning",
-          "Concert"
+          "El estómago",
+          "La cabeza",
+          "La pierna",
+          "El brazo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"Preferir\"?",
+        "prompt": "¿A dónde va Isabel?",
         "options": [
-          "To prefer",
-          "To read",
-          "To play",
-          "To watch"
+          "Al hospital",
+          "A la farmacia",
+          "A la escuela",
+          "Al parque"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"Concierto\"?",
+        "prompt": "¿Qué le pregunta el farmacéutico?",
         "options": [
-          "Movie",
-          "Concert",
-          "Book",
-          "Sport"
+          "¿Cómo se llama?",
+          "¿Qué le duele?",
+          "¿Dónde vive?",
+          "¿Cuántos años tiene?"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué le recomienda el farmacéutico?",
+        "options": [
+          "Descansar y beber agua",
+          "Hacer ejercicio",
+          "Comer mucho",
+          "Volver al trabajo"
         ]
       }
     ]
@@ -40015,87 +40701,207 @@
     ]
   },
   {
-    "slug": "spanish-a1-salud-y-bienestar-a1-reading",
+    "slug": "spanish-a1-salud-y-bienestar-a1-listening",
     "level": "A1",
-    "skill": "reading",
+    "skill": "listening",
     "unitId": "salud-y-bienestar-a1",
-    "title": "No me siento bien",
+    "title": "En la farmacia",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
-    "orderIndex": 110,
+    "orderIndex": 111,
     "estimatedMinutes": 10,
-    "description": "Isabel se siente mal y pide ayuda en una farmacia.",
-    "intro": "Isabel se siente mal y pide ayuda en una farmacia.",
+    "description": "Escucha cómo Isabel explica sus síntomas y recibe una recomendación.",
+    "intro": "Escucha una conversación básica entre Isabel y el farmacéutico.",
     "mission": "",
     "grammar": "",
-    "phrases": [],
+    "phrases": [
+      "¿Qué le duele?",
+      "Me duele / me duelen...",
+      "No tengo fiebre.",
+      "Le recomiendo descansar."
+    ],
     "vocabulary": [],
     "dialogue": [],
-    "reading": {
-      "title": "No me siento bien",
-      "parts": [
-        "Esta mañana, Isabel se despierta con dolor de cabeza y un poco de dolor de garganta. Está cansada y no se siente bien.",
-        "Como la farmacia está cerca de su casa, decide ir y pedir ayuda. El farmacéutico la saluda y pregunta: «Buenos días, ¿qué le duele?». Isabel responde: «Me duele la cabeza y también la garganta».",
-        "El farmacéutico le recomienda descansar, beber mucha agua y consultar a un médico si no mejora. Isabel le da las gracias y vuelve a casa para descansar."
+    "reading": null,
+    "transcript": "Esta mañana Isabel no se siente bien. Le duele la cabeza y también la garganta, aunque no tiene fiebre. Está cansada, por eso va a la farmacia. El farmacéutico le recomienda descansar, beber mucha agua y consultar a un médico si no mejora. Isabel decide quedarse en casa esta tarde. Si mañana se siente mejor, volverá a clase; si el dolor continúa, pedirá una cita médica.",
+    "extra": {
+      "listeningType": "story",
+      "difficulty": "A1",
+      "durationSeconds": 40,
+      "speakers": [
+        "Narrador/a"
       ],
-      "questions": [
-        "¿Qué le duele a Isabel?",
-        "¿A dónde va Isabel?",
-        "¿Qué le recomienda el farmacéutico?"
-      ],
-      "ordering": {
-        "prompt": "Ordena los eventos de la historia.",
-        "events": [
-          "Isabel se despierta y no se siente bien.",
-          "Isabel va a la farmacia.",
-          "El farmacéutico le pregunta qué le duele.",
-          "Isabel vuelve a casa a descansar."
+      "phoneticSupport": {
+        "enabled": true,
+        "locale": "es-419",
+        "focus": "Las partes del cuerpo suelen llevar el acento en la penúltima sílaba (CA-be-za, gar-GAN-ta); \"me duele\" (singular) frente a \"me duelen\" (plural: me duelen los pies).",
+        "fullIpa": null,
+        "segments": [
+          {
+            "text": "cabeza",
+            "ipa": "/ka.ˈβe.sa/"
+          },
+          {
+            "text": "garganta",
+            "ipa": "/ɡar.ˈɣan.ta/"
+          }
+        ],
+        "stressedWords": [
+          "duele",
+          "también"
+        ],
+        "syllabification": [
+          {
+            "word": "farmacéutico",
+            "syllables": "far-ma-céu-ti-co"
+          }
+        ],
+        "difficultSounds": [
+          "me duele / me duelen"
+        ],
+        "reviewStatus": "pending-review"
+      },
+      "dictationSegmentCount": 3,
+      "listeningComprehension": {
+        "id": "spanish-a1-salud-y-bienestar-a1-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "En «En la farmacia», ¿qué detalle presenta la situación?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Esta mañana Isabel no se siente bien."
+              },
+              {
+                "id": "o2",
+                "text": "Está cansada, por eso va a la farmacia."
+              },
+              {
+                "id": "o3",
+                "text": "El farmacéutico le recomienda descansar, beber mucha agua y consultar a un médico si no mejora."
+              },
+              {
+                "id": "o4",
+                "text": "Si mañana se siente mejor, volverá a clase; si el dolor continúa, pedirá una cita médica."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Después de «Esta mañana Isabel no se siente bien.», ¿qué sucede a continuación en «En la farmacia»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Esta mañana Isabel no se siente bien."
+              },
+              {
+                "id": "o2",
+                "text": "Está cansada, por eso va a la farmacia."
+              },
+              {
+                "id": "o3",
+                "text": "El farmacéutico le recomienda descansar, beber mucha agua y consultar a un médico si no mejora."
+              },
+              {
+                "id": "o4",
+                "text": "Si mañana se siente mejor, volverá a clase; si el dolor continúa, pedirá una cita médica."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «En la farmacia»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Esta mañana Isabel no se siente bien."
+              },
+              {
+                "id": "o2",
+                "text": "Está cansada, por eso va a la farmacia."
+              },
+              {
+                "id": "o3",
+                "text": "El farmacéutico le recomienda descansar, beber mucha agua y consultar a un médico si no mejora."
+              },
+              {
+                "id": "o4",
+                "text": "Si mañana se siente mejor, volverá a clase; si el dolor continúa, pedirá una cita médica."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «En la farmacia» después de «El farmacéutico le recomienda descansar, beber mucha agua y consultar…»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Esta mañana Isabel no se siente bien."
+              },
+              {
+                "id": "o2",
+                "text": "Está cansada, por eso va a la farmacia."
+              },
+              {
+                "id": "o3",
+                "text": "El farmacéutico le recomienda descansar, beber mucha agua y consultar a un médico si no mejora."
+              },
+              {
+                "id": "o4",
+                "text": "Si mañana se siente mejor, volverá a clase; si el dolor continúa, pedirá una cita médica."
+              }
+            ]
+          }
         ]
       },
-      "text": "Esta mañana, Isabel se despierta con dolor de cabeza y un poco de dolor de garganta. Está cansada y no se siente bien.\n\nComo la farmacia está cerca de su casa, decide ir y pedir ayuda. El farmacéutico la saluda y pregunta: «Buenos días, ¿qué le duele?». Isabel responde: «Me duele la cabeza y también la garganta».\n\nEl farmacéutico le recomienda descansar, beber mucha agua y consultar a un médico si no mejora. Isabel le da las gracias y vuelve a casa para descansar."
+      "grammarTest": null
     },
-    "transcript": "",
-    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué le duele a Isabel?",
+        "prompt": "En «En la farmacia», ¿qué detalle presenta la situación?",
         "options": [
-          "El estómago",
-          "La cabeza",
-          "La pierna",
-          "El brazo"
+          "Esta mañana Isabel no se siente bien.",
+          "Está cansada, por eso va a la farmacia.",
+          "El farmacéutico le recomienda descansar, beber mucha agua y consultar a un médico si no mejora.",
+          "Si mañana se siente mejor, volverá a clase; si el dolor continúa, pedirá una cita médica."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿A dónde va Isabel?",
+        "prompt": "Después de «Esta mañana Isabel no se siente bien.», ¿qué sucede a continuación en «En la farmacia»?",
         "options": [
-          "Al hospital",
-          "A la farmacia",
-          "A la escuela",
-          "Al parque"
+          "Esta mañana Isabel no se siente bien.",
+          "Está cansada, por eso va a la farmacia.",
+          "El farmacéutico le recomienda descansar, beber mucha agua y consultar a un médico si no mejora.",
+          "Si mañana se siente mejor, volverá a clase; si el dolor continúa, pedirá una cita médica."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué le pregunta el farmacéutico?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «En la farmacia»?",
         "options": [
-          "¿Cómo se llama?",
-          "¿Qué le duele?",
-          "¿Dónde vive?",
-          "¿Cuántos años tiene?"
+          "Esta mañana Isabel no se siente bien.",
+          "Está cansada, por eso va a la farmacia.",
+          "El farmacéutico le recomienda descansar, beber mucha agua y consultar a un médico si no mejora.",
+          "Si mañana se siente mejor, volverá a clase; si el dolor continúa, pedirá una cita médica."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué le recomienda el farmacéutico?",
+        "prompt": "¿Qué resultado cierra «En la farmacia» después de «El farmacéutico le recomienda descansar, beber mucha agua y consultar…»?",
         "options": [
-          "Descansar y beber agua",
-          "Hacer ejercicio",
-          "Comer mucho",
-          "Volver al trabajo"
+          "Esta mañana Isabel no se siente bien.",
+          "Está cansada, por eso va a la farmacia.",
+          "El farmacéutico le recomienda descansar, beber mucha agua y consultar a un médico si no mejora.",
+          "Si mañana se siente mejor, volverá a clase; si el dolor continúa, pedirá una cita médica."
         ]
       }
     ]
@@ -40132,75 +40938,98 @@
       ],
       "transcript": "No puedo entrar en mi cuenta porque olvidé la contraseña. Primero debo pulsar “Recuperar contraseña” en la pantalla de inicio. Después tengo que revisar mi correo y abrir el enlace recibido. Voy a comprobar que el mensaje llegó a la bandeja de entrada y no al spam. Finalmente crearé una clave segura, guardaré el acceso y no compartiré mi contraseña con nadie. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.",
       "listeningComprehension": {
-        "id": "spanish-a2-tecnologia-cotidiana-listening-comprehension",
+        "id": "spanish-a2-tecnologia-cotidiana-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Cuál es el problema de Lucía?",
+            "prompt": "En «Escucha · Tecnología cotidiana», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "No tiene teléfono"
+                "text": "No puedo entrar en mi cuenta porque olvidé la contraseña."
               },
               {
                 "id": "o2",
-                "text": "Olvidó la contraseña"
+                "text": "Voy a comprobar que el mensaje llegó a la bandeja de entrada y no al spam."
               },
               {
                 "id": "o3",
-                "text": "No encuentra un archivo"
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
               },
               {
                 "id": "o4",
-                "text": "Su pantalla está rota"
+                "text": "Me gusta tener un plan claro antes de seguir."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Qué debe pulsar Lucía?",
+            "prompt": "Después de «No puedo entrar en mi cuenta porque olvidé la contraseña.», ¿qué sucede a continuación en «Escucha · Tecnología cotidiana»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Crear una cuenta"
+                "text": "No puedo entrar en mi cuenta porque olvidé la contraseña."
               },
               {
                 "id": "o2",
-                "text": "Recuperar contraseña"
+                "text": "Voy a comprobar que el mensaje llegó a la bandeja de entrada y no al spam."
               },
               {
                 "id": "o3",
-                "text": "Cerrar sesión"
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
               },
               {
                 "id": "o4",
-                "text": "Descargar archivo"
+                "text": "Me gusta tener un plan claro antes de seguir."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué recomendación recibe?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Tecnología cotidiana»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Compartir la clave"
+                "text": "No puedo entrar en mi cuenta porque olvidé la contraseña."
               },
               {
                 "id": "o2",
-                "text": "Cambiar de correo"
+                "text": "Voy a comprobar que el mensaje llegó a la bandeja de entrada y no al spam."
               },
               {
                 "id": "o3",
-                "text": "No compartir la contraseña"
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
               },
               {
                 "id": "o4",
-                "text": "Apagar la pantalla"
+                "text": "Me gusta tener un plan claro antes de seguir."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Tecnología cotidiana» después de «Al final, repaso la información y preparo el siguiente paso con calma.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No puedo entrar en mi cuenta porque olvidé la contraseña."
+              },
+              {
+                "id": "o2",
+                "text": "Voy a comprobar que el mensaje llegó a la bandeja de entrada y no al spam."
+              },
+              {
+                "id": "o3",
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+              },
+              {
+                "id": "o4",
+                "text": "Me gusta tener un plan claro antes de seguir."
               }
             ]
           }
@@ -40211,36 +41040,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el problema de Lucía?",
+        "prompt": "En «Escucha · Tecnología cotidiana», ¿qué detalle presenta la situación?",
         "options": [
-          "No tiene teléfono",
-          "Olvidó la contraseña",
-          "No encuentra un archivo",
-          "Su pantalla está rota"
-        ],
-        "explanation": "Lucía no puede entrar porque olvidó la contraseña."
+          "No puedo entrar en mi cuenta porque olvidé la contraseña.",
+          "Voy a comprobar que el mensaje llegó a la bandeja de entrada y no al spam.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué debe pulsar Lucía?",
+        "prompt": "Después de «No puedo entrar en mi cuenta porque olvidé la contraseña.», ¿qué sucede a continuación en «Escucha · Tecnología cotidiana»?",
         "options": [
-          "Crear una cuenta",
-          "Recuperar contraseña",
-          "Cerrar sesión",
-          "Descargar archivo"
-        ],
-        "explanation": "Soporte le indica pulsar “Recuperar contraseña”."
+          "No puedo entrar en mi cuenta porque olvidé la contraseña.",
+          "Voy a comprobar que el mensaje llegó a la bandeja de entrada y no al spam.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué recomendación recibe?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Tecnología cotidiana»?",
         "options": [
-          "Compartir la clave",
-          "Cambiar de correo",
-          "No compartir la contraseña",
-          "Apagar la pantalla"
-        ],
-        "explanation": "Soporte indica que no comparta la contraseña."
+          "No puedo entrar en mi cuenta porque olvidé la contraseña.",
+          "Voy a comprobar que el mensaje llegó a la bandeja de entrada y no al spam.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Tecnología cotidiana» después de «Al final, repaso la información y preparo el siguiente paso con calma.»?",
+        "options": [
+          "No puedo entrar en mi cuenta porque olvidé la contraseña.",
+          "Voy a comprobar que el mensaje llegó a la bandeja de entrada y no al spam.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
       }
     ]
   },
@@ -40683,15 +41519,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Para formular una idea con precisión y reservas"
-              },
-              {
-                "id": "o2",
                 "text": "Para eliminar toda postura"
               },
               {
-                "id": "o3",
+                "id": "o2",
                 "text": "Para repetir palabras aisladas"
+              },
+              {
+                "id": "o3",
+                "text": "Para formular una idea con precisión y reservas"
               },
               {
                 "id": "o4",
@@ -40710,15 +41546,15 @@
               },
               {
                 "id": "o2",
-                "text": "Qué evidencia sostendría o modificaría una postura"
-              },
-              {
-                "id": "o3",
                 "text": "Cómo evitar cualquier debate"
               },
               {
-                "id": "o4",
+                "id": "o3",
                 "text": "Qué palabra es más difícil de pronunciar"
+              },
+              {
+                "id": "o4",
+                "text": "Qué evidencia sostendría o modificaría una postura"
               }
             ]
           }
@@ -40753,9 +41589,9 @@
         "type": "mcq",
         "prompt": "¿Para qué se usa la gramática de la unidad?",
         "options": [
-          "Para formular una idea con precisión y reservas",
           "Para eliminar toda postura",
           "Para repetir palabras aisladas",
+          "Para formular una idea con precisión y reservas",
           "Para evitar reconocer límites"
         ],
         "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
@@ -40765,9 +41601,9 @@
         "prompt": "¿Qué pregunta final propone el audio?",
         "options": [
           "Qué aplicación es más rápida",
-          "Qué evidencia sostendría o modificaría una postura",
           "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar"
+          "Qué palabra es más difícil de pronunciar",
+          "Qué evidencia sostendría o modificaría una postura"
         ],
         "explanation": "La pregunta final invita a justificar y revisar una conclusión."
       }
@@ -40862,15 +41698,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Para formular una idea con precisión y reservas"
-              },
-              {
-                "id": "o2",
                 "text": "Para eliminar toda postura"
               },
               {
-                "id": "o3",
+                "id": "o2",
                 "text": "Para repetir palabras aisladas"
+              },
+              {
+                "id": "o3",
+                "text": "Para formular una idea con precisión y reservas"
               },
               {
                 "id": "o4",
@@ -40889,15 +41725,15 @@
               },
               {
                 "id": "o2",
-                "text": "Qué evidencia sostendría o modificaría una postura"
-              },
-              {
-                "id": "o3",
                 "text": "Cómo evitar cualquier debate"
               },
               {
-                "id": "o4",
+                "id": "o3",
                 "text": "Qué palabra es más difícil de pronunciar"
+              },
+              {
+                "id": "o4",
+                "text": "Qué evidencia sostendría o modificaría una postura"
               }
             ]
           }
@@ -40932,9 +41768,9 @@
         "type": "mcq",
         "prompt": "¿Para qué se usa la gramática de la unidad?",
         "options": [
-          "Para formular una idea con precisión y reservas",
           "Para eliminar toda postura",
           "Para repetir palabras aisladas",
+          "Para formular una idea con precisión y reservas",
           "Para evitar reconocer límites"
         ],
         "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
@@ -40944,187 +41780,69 @@
         "prompt": "¿Qué pregunta final propone el audio?",
         "options": [
           "Qué aplicación es más rápida",
-          "Qué evidencia sostendría o modificaría una postura",
           "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar"
+          "Qué palabra es más difícil de pronunciar",
+          "Qué evidencia sostendría o modificaría una postura"
         ],
         "explanation": "La pregunta final invita a justificar y revisar una conclusión."
       }
     ]
   },
   {
-    "slug": "spanish-a1-salud-y-bienestar-a1-listening",
+    "slug": "spanish-a1-salud-y-bienestar-a1-speaking",
     "level": "A1",
-    "skill": "listening",
+    "skill": "speaking",
     "unitId": "salud-y-bienestar-a1",
-    "title": "En la farmacia",
+    "title": "Expresa un malestar",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 25,
-    "orderIndex": 111,
-    "estimatedMinutes": 10,
-    "description": "Escucha cómo Isabel explica sus síntomas y recibe una recomendación.",
-    "intro": "Escucha una conversación básica entre Isabel y el farmacéutico.",
-    "mission": "",
+    "xpReward": 20,
+    "orderIndex": 112,
+    "estimatedMinutes": 8,
+    "description": "Practica cómo explicar un malestar en una situación cotidiana.",
+    "intro": "Practica cómo explicar un malestar en una situación cotidiana.",
+    "mission": "Imagina que no te sientes bien. Graba una respuesta breve: explica cómo te sientes, qué te duele y si tienes fiebre.",
     "grammar": "",
     "phrases": [
-      "¿Qué le duele?",
       "Me duele / me duelen...",
-      "No tengo fiebre.",
-      "Le recomiendo descansar."
+      "No me siento bien.",
+      "Estoy cansado/a.",
+      "¿Qué te duele?"
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "Tú",
+        "line": "No me siento bien. Me duele la cabeza.",
+        "translation": "I don't feel well. My head hurts."
+      },
+      {
+        "speaker": "Compañero/a",
+        "line": "¿Tienes fiebre?",
+        "translation": "Do you have a fever?"
+      },
+      {
+        "speaker": "Tú",
+        "line": "No, solo estoy cansado/a.",
+        "translation": "No, I am just tired."
+      },
+      {
+        "speaker": "Compañero/a",
+        "line": "Muy bien. Ahora añade una frase más sobre «Me duele / me duelen...».",
+        "translation": "Very good. Now add one more sentence about this topic."
+      }
+    ],
     "reading": null,
-    "transcript": "Esta mañana Isabel no se siente bien. Le duele la cabeza y también la garganta, aunque no tiene fiebre. Está cansada, por eso va a la farmacia. El farmacéutico le recomienda descansar, beber mucha agua y consultar a un médico si no mejora. Isabel decide quedarse en casa esta tarde. Si mañana se siente mejor, volverá a clase; si el dolor continúa, pedirá una cita médica.",
-    "extra": {
-      "listeningType": "story",
-      "difficulty": "A1",
-      "durationSeconds": 40,
-      "speakers": [
-        "Narrador/a"
-      ],
-      "phoneticSupport": {
-        "enabled": true,
-        "locale": "es-419",
-        "focus": "Las partes del cuerpo suelen llevar el acento en la penúltima sílaba (CA-be-za, gar-GAN-ta); \"me duele\" (singular) frente a \"me duelen\" (plural: me duelen los pies).",
-        "fullIpa": null,
-        "segments": [
-          {
-            "text": "cabeza",
-            "ipa": "/ka.ˈβe.sa/"
-          },
-          {
-            "text": "garganta",
-            "ipa": "/ɡar.ˈɣan.ta/"
-          }
-        ],
-        "stressedWords": [
-          "duele",
-          "también"
-        ],
-        "syllabification": [
-          {
-            "word": "farmacéutico",
-            "syllables": "far-ma-céu-ti-co"
-          }
-        ],
-        "difficultSounds": [
-          "me duele / me duelen"
-        ],
-        "reviewStatus": "pending-review"
-      },
-      "dictationSegmentCount": 3,
-      "listeningComprehension": {
-        "id": "spanish-a1-salud-y-bienestar-a1-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "¿Qué le duele a Isabel?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "La cabeza y la garganta"
-              },
-              {
-                "id": "o2",
-                "text": "La mano y el pie"
-              },
-              {
-                "id": "o3",
-                "text": "Los ojos y la espalda"
-              },
-              {
-                "id": "o4",
-                "text": "El estómago y la pierna"
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "¿Qué le recomienda el farmacéutico?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Descansar y beber agua"
-              },
-              {
-                "id": "o2",
-                "text": "Ir al cine"
-              },
-              {
-                "id": "o3",
-                "text": "Comprar ropa"
-              },
-              {
-                "id": "o4",
-                "text": "Viajar a la playa"
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "¿Qué hará si el dolor continúa?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Pedir una cita médica"
-              },
-              {
-                "id": "o2",
-                "text": "Ir a clase"
-              },
-              {
-                "id": "o3",
-                "text": "Jugar al fútbol"
-              },
-              {
-                "id": "o4",
-                "text": "Preparar una sopa"
-              }
-            ]
-          }
-        ]
-      },
-      "grammarTest": null
-    },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
-        "type": "mcq",
-        "prompt": "¿Qué le duele a Isabel?",
-        "options": [
-          "La cabeza y la garganta",
-          "La mano y el pie",
-          "Los ojos y la espalda",
-          "El estómago y la pierna"
-        ],
-        "explanation": "Le duele la cabeza y la garganta."
+        "type": "speaking",
+        "prompt": "Imagina que estás en una farmacia. Di cómo te sientes y usa «me duele» o «me duelen» para describir un malestar."
       },
       {
-        "type": "mcq",
-        "prompt": "¿Qué le recomienda el farmacéutico?",
-        "options": [
-          "Descansar y beber agua",
-          "Ir al cine",
-          "Comprar ropa",
-          "Viajar a la playa"
-        ],
-        "explanation": "Le recomienda descansar y beber mucha agua."
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Qué hará si el dolor continúa?",
-        "options": [
-          "Pedir una cita médica",
-          "Ir a clase",
-          "Jugar al fútbol",
-          "Preparar una sopa"
-        ],
-        "explanation": "Si el dolor continúa, pedirá una cita médica."
+        "type": "practice",
+        "prompt": "Pregunta «¿Qué te duele?» y practica una respuesta completa. Si no tienes micrófono, escribe la respuesta."
       }
     ]
   },
@@ -41426,47 +42144,32 @@
     ]
   },
   {
-    "slug": "spanish-a1-salud-y-bienestar-a1-speaking",
+    "slug": "spanish-a1-salud-y-bienestar-a1-writing",
     "level": "A1",
-    "skill": "speaking",
+    "skill": "writing",
     "unitId": "salud-y-bienestar-a1",
-    "title": "Expresa un malestar",
+    "title": "Escribe sobre un malestar",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 20,
-    "orderIndex": 112,
-    "estimatedMinutes": 8,
-    "description": "Practica cómo explicar un malestar en una situación cotidiana.",
-    "intro": "Practica cómo explicar un malestar en una situación cotidiana.",
-    "mission": "Imagina que no te sientes bien. Graba una respuesta breve: explica cómo te sientes, qué te duele y si tienes fiebre.",
+    "xpReward": 25,
+    "orderIndex": 113,
+    "estimatedMinutes": 12,
+    "description": "Escribe un texto breve y guiado para explicar un malestar.",
+    "intro": "Escribe un texto breve y guiado para explicar un malestar.",
+    "mission": "Imagina que no te sientes bien. Escribe entre 6 y 7 oraciones: cómo te sientes, qué te duele, si tienes otro síntoma y qué vas a hacer para cuidarte.",
     "grammar": "",
     "phrases": [
       "Me duele / me duelen...",
       "No me siento bien.",
-      "Estoy cansado/a.",
-      "¿Qué te duele?"
+      "Debo...",
+      "Voy a..."
     ],
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Tú",
-        "line": "No me siento bien. Me duele la cabeza.",
-        "translation": "I don't feel well. My head hurts."
-      },
-      {
-        "speaker": "Compañero/a",
-        "line": "¿Tienes fiebre?",
-        "translation": "Do you have a fever?"
-      },
-      {
-        "speaker": "Tú",
-        "line": "No, solo estoy cansado/a.",
-        "translation": "No, I am just tired."
-      },
-      {
-        "speaker": "Compañero/a",
-        "line": "Muy bien. Ahora añade una frase más sobre «Me duele / me duelen...».",
-        "translation": "Very good. Now add one more sentence about this topic."
+        "speaker": "Modelo",
+        "line": "Hoy no me siento bien. Me duele la cabeza y la garganta. No tengo fiebre. Voy a descansar y tomar agua.",
+        "translation": "Today I don't feel well. My head and throat hurt. I don't have a fever. I am going to rest and drink water."
       }
     ],
     "reading": null,
@@ -41474,12 +42177,8 @@
     "extra": null,
     "exercises": [
       {
-        "type": "speaking",
-        "prompt": "Imagina que estás en una farmacia. Di cómo te sientes y usa «me duele» o «me duelen» para describir un malestar."
-      },
-      {
-        "type": "practice",
-        "prompt": "Pregunta «¿Qué te duele?» y practica una respuesta completa. Si no tienes micrófono, escribe la respuesta."
+        "type": "writing",
+        "prompt": "Escribe entre 6 y 7 oraciones. Sigue este orden: 1) cómo te sientes; 2) qué te duele; 3) otro síntoma; 4) qué vas a hacer para cuidarte."
       }
     ]
   },
@@ -41649,41 +42348,71 @@
     ]
   },
   {
-    "slug": "spanish-a1-salud-y-bienestar-a1-writing",
+    "slug": "spanish-a1-salud-y-bienestar-a1-grammar",
     "level": "A1",
-    "skill": "writing",
+    "skill": "grammar",
     "unitId": "salud-y-bienestar-a1",
-    "title": "Escribe sobre un malestar",
+    "title": "Me duele / me duelen",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 25,
-    "orderIndex": 113,
-    "estimatedMinutes": 12,
-    "description": "Escribe un texto breve y guiado para explicar un malestar.",
-    "intro": "Escribe un texto breve y guiado para explicar un malestar.",
-    "mission": "Imagina que no te sientes bien. Escribe entre 6 y 7 oraciones: cómo te sientes, qué te duele, si tienes otro síntoma y qué vas a hacer para cuidarte.",
-    "grammar": "",
+    "xpReward": 20,
+    "orderIndex": 114,
+    "estimatedMinutes": 8,
+    "description": "Distingue «me duele», «me duelen», «tengo» y «estoy».",
+    "intro": "Distingue «me duele», «me duelen», «tengo» y «estoy».",
+    "mission": "",
+    "grammar": "\"Doler\" funciona como \"gustar\": me duele la cabeza (singular), me duelen los pies (plural). Usamos \"tener\" con algunos síntomas: tengo fiebre, tengo tos. Usamos \"estar\" para estados: estoy cansado/a. Error frecuente: decir \"me duele los pies\" en vez de \"me duelen los pies\" (debe concordar en número con lo que duele).",
     "phrases": [
-      "Me duele / me duelen...",
-      "No me siento bien.",
-      "Debo...",
-      "Voy a..."
+      "Me duele la cabeza.",
+      "Me duelen los pies.",
+      "Tengo fiebre.",
+      "Estoy cansado/a."
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Modelo",
-        "line": "Hoy no me siento bien. Me duele la cabeza y la garganta. No tengo fiebre. Voy a descansar y tomar agua.",
-        "translation": "Today I don't feel well. My head and throat hurt. I don't have a fever. I am going to rest and drink water."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "type": "writing",
-        "prompt": "Escribe entre 6 y 7 oraciones. Sigue este orden: 1) cómo te sientes; 2) qué te duele; 3) otro síntoma; 4) qué vas a hacer para cuidarte."
+        "type": "mcq",
+        "prompt": "Me ___ la cabeza.",
+        "options": [
+          "duele",
+          "duelen",
+          "dueles",
+          "duelo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Me ___ los pies.",
+        "options": [
+          "duele",
+          "duelen",
+          "dueles",
+          "duelo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Yo ___ fiebre hoy.",
+        "options": [
+          "tengo",
+          "soy",
+          "estoy",
+          "duelo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Yo ___ muy cansado/a.",
+        "options": [
+          "tengo",
+          "soy",
+          "estoy",
+          "duelo"
+        ]
       }
     ]
   },
@@ -42548,27 +43277,113 @@
     ]
   },
   {
-    "slug": "spanish-a1-salud-y-bienestar-a1-grammar",
+    "slug": "spanish-a1-salud-y-bienestar-a1-vocabulary",
     "level": "A1",
-    "skill": "grammar",
+    "skill": "vocabulary",
     "unitId": "salud-y-bienestar-a1",
-    "title": "Me duele / me duelen",
+    "title": "El cuerpo y la salud",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
-    "orderIndex": 114,
-    "estimatedMinutes": 8,
-    "description": "Distingue «me duele», «me duelen», «tengo» y «estoy».",
-    "intro": "Distingue «me duele», «me duelen», «tengo» y «estoy».",
+    "orderIndex": 115,
+    "estimatedMinutes": 6,
+    "description": "Aprende palabras básicas para hablar del cuerpo, los síntomas y el cuidado personal.",
+    "intro": "Aprende palabras básicas para hablar del cuerpo, los síntomas y el cuidado personal.",
     "mission": "",
-    "grammar": "\"Doler\" funciona como \"gustar\": me duele la cabeza (singular), me duelen los pies (plural). Usamos \"tener\" con algunos síntomas: tengo fiebre, tengo tos. Usamos \"estar\" para estados: estoy cansado/a. Error frecuente: decir \"me duele los pies\" en vez de \"me duelen los pies\" (debe concordar en número con lo que duele).",
-    "phrases": [
-      "Me duele la cabeza.",
-      "Me duelen los pies.",
-      "Tengo fiebre.",
-      "Estoy cansado/a."
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "Cabeza",
+        "category": "cuerpo",
+        "translation": "Head",
+        "example": "Me duele la cabeza."
+      },
+      {
+        "word": "Garganta",
+        "category": "cuerpo",
+        "translation": "Throat",
+        "example": "Me duele la garganta."
+      },
+      {
+        "word": "Estómago",
+        "category": "cuerpo",
+        "translation": "Stomach",
+        "example": "Me duele el estómago."
+      },
+      {
+        "word": "Pies",
+        "category": "cuerpo",
+        "translation": "Feet",
+        "example": "Me duelen los pies."
+      },
+      {
+        "word": "Brazo",
+        "category": "cuerpo",
+        "translation": "Arm",
+        "example": "Me duele el brazo."
+      },
+      {
+        "word": "Fiebre",
+        "category": "síntoma",
+        "translation": "Fever",
+        "example": "No tengo fiebre."
+      },
+      {
+        "word": "Tos",
+        "category": "síntoma",
+        "translation": "Cough",
+        "example": "Tengo un poco de tos."
+      },
+      {
+        "word": "Cansado/a",
+        "category": "estado",
+        "translation": "Tired",
+        "example": "Estoy cansado hoy."
+      },
+      {
+        "word": "Farmacia",
+        "category": "lugar",
+        "translation": "Pharmacy",
+        "example": "Voy a la farmacia."
+      },
+      {
+        "word": "Médico/a",
+        "category": "persona",
+        "translation": "Doctor",
+        "example": "El médico me revisa."
+      },
+      {
+        "word": "Descansar",
+        "category": "verbo",
+        "translation": "To rest",
+        "example": "Debo descansar hoy."
+      },
+      {
+        "word": "Medicamento",
+        "category": "salud",
+        "translation": "Medicine",
+        "example": "Tomo el medicamento según la indicación médica."
+      },
+      {
+        "word": "Diente",
+        "category": "cuerpo",
+        "translation": "Tooth",
+        "example": "Me duele un diente."
+      },
+      {
+        "word": "Ojo",
+        "category": "cuerpo",
+        "translation": "Eye",
+        "example": "Me duele el ojo derecho."
+      },
+      {
+        "word": "Mano",
+        "category": "cuerpo",
+        "translation": "Hand",
+        "example": "Me lavo las manos antes de comer."
+      }
     ],
-    "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
@@ -42576,42 +43391,32 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Me ___ la cabeza.",
+        "prompt": "¿Qué significa \"Garganta\"?",
         "options": [
-          "duele",
-          "duelen",
-          "dueles",
-          "duelo"
+          "Head",
+          "Throat",
+          "Stomach",
+          "Arm"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Me ___ los pies.",
+        "prompt": "¿Qué significa \"Descansar\"?",
         "options": [
-          "duele",
-          "duelen",
-          "dueles",
-          "duelo"
+          "To rest",
+          "To work",
+          "To study",
+          "To walk"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Yo ___ fiebre hoy.",
+        "prompt": "¿Qué significa \"Fiebre\"?",
         "options": [
-          "tengo",
-          "soy",
-          "estoy",
-          "duelo"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Yo ___ muy cansado/a.",
-        "options": [
-          "tengo",
-          "soy",
-          "estoy",
-          "duelo"
+          "Cough",
+          "Fever",
+          "Medicine",
+          "Pharmacy"
         ]
       }
     ]
@@ -43312,146 +44117,87 @@
     ]
   },
   {
-    "slug": "spanish-a1-salud-y-bienestar-a1-vocabulary",
+    "slug": "spanish-a1-planes-y-repaso-reading",
     "level": "A1",
-    "skill": "vocabulary",
-    "unitId": "salud-y-bienestar-a1",
-    "title": "El cuerpo y la salud",
+    "skill": "reading",
+    "unitId": "planes-y-repaso",
+    "title": "Planes para el verano",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 20,
-    "orderIndex": 115,
-    "estimatedMinutes": 6,
-    "description": "Aprende palabras básicas para hablar del cuerpo, los síntomas y el cuidado personal.",
-    "intro": "Aprende palabras básicas para hablar del cuerpo, los síntomas y el cuidado personal.",
+    "xpReward": 25,
+    "orderIndex": 120,
+    "estimatedMinutes": 10,
+    "description": "Un texto sobre los planes de vacaciones de Sara.",
+    "intro": "Un texto sobre los planes de vacaciones de Sara.",
     "mission": "",
     "grammar": "",
     "phrases": [],
-    "vocabulary": [
-      {
-        "word": "Cabeza",
-        "category": "cuerpo",
-        "translation": "Head",
-        "example": "Me duele la cabeza."
-      },
-      {
-        "word": "Garganta",
-        "category": "cuerpo",
-        "translation": "Throat",
-        "example": "Me duele la garganta."
-      },
-      {
-        "word": "Estómago",
-        "category": "cuerpo",
-        "translation": "Stomach",
-        "example": "Me duele el estómago."
-      },
-      {
-        "word": "Pies",
-        "category": "cuerpo",
-        "translation": "Feet",
-        "example": "Me duelen los pies."
-      },
-      {
-        "word": "Brazo",
-        "category": "cuerpo",
-        "translation": "Arm",
-        "example": "Me duele el brazo."
-      },
-      {
-        "word": "Fiebre",
-        "category": "síntoma",
-        "translation": "Fever",
-        "example": "No tengo fiebre."
-      },
-      {
-        "word": "Tos",
-        "category": "síntoma",
-        "translation": "Cough",
-        "example": "Tengo un poco de tos."
-      },
-      {
-        "word": "Cansado/a",
-        "category": "estado",
-        "translation": "Tired",
-        "example": "Estoy cansado hoy."
-      },
-      {
-        "word": "Farmacia",
-        "category": "lugar",
-        "translation": "Pharmacy",
-        "example": "Voy a la farmacia."
-      },
-      {
-        "word": "Médico/a",
-        "category": "persona",
-        "translation": "Doctor",
-        "example": "El médico me revisa."
-      },
-      {
-        "word": "Descansar",
-        "category": "verbo",
-        "translation": "To rest",
-        "example": "Debo descansar hoy."
-      },
-      {
-        "word": "Medicamento",
-        "category": "salud",
-        "translation": "Medicine",
-        "example": "Tomo el medicamento según la indicación médica."
-      },
-      {
-        "word": "Diente",
-        "category": "cuerpo",
-        "translation": "Tooth",
-        "example": "Me duele un diente."
-      },
-      {
-        "word": "Ojo",
-        "category": "cuerpo",
-        "translation": "Eye",
-        "example": "Me duele el ojo derecho."
-      },
-      {
-        "word": "Mano",
-        "category": "cuerpo",
-        "translation": "Hand",
-        "example": "Me lavo las manos antes de comer."
-      }
-    ],
+    "vocabulary": [],
     "dialogue": [],
-    "reading": null,
+    "reading": {
+      "title": "Planes para el verano",
+      "parts": [
+        "En julio, Sara va a tener vacaciones. Ella va a viajar a la playa con su familia y quiere nadar todos los días.",
+        "El clima en julio es caluroso y soleado, perfecto para la playa. Sara también va a visitar a sus abuelos en agosto.",
+        "Para su cumpleaños, el quince de agosto, Sara va a celebrar con toda su familia. Está muy contenta con sus planes de verano."
+      ],
+      "questions": [
+        "¿A dónde va a viajar Sara?",
+        "¿Cómo es el clima en julio?",
+        "¿Cuándo es el cumpleaños de Sara?"
+      ],
+      "ordering": {
+        "prompt": "Ordena los eventos de la historia.",
+        "events": [
+          "Sara empieza sus vacaciones en julio.",
+          "Sara viaja a la playa con su familia.",
+          "Sara visita a sus abuelos en agosto.",
+          "Sara celebra su cumpleaños el quince de agosto."
+        ]
+      },
+      "text": "En julio, Sara va a tener vacaciones. Ella va a viajar a la playa con su familia y quiere nadar todos los días.\n\nEl clima en julio es caluroso y soleado, perfecto para la playa. Sara también va a visitar a sus abuelos en agosto.\n\nPara su cumpleaños, el quince de agosto, Sara va a celebrar con toda su familia. Está muy contenta con sus planes de verano."
+    },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"Garganta\"?",
+        "prompt": "¿A dónde va a viajar Sara?",
         "options": [
-          "Head",
-          "Throat",
-          "Stomach",
-          "Arm"
+          "A la montaña",
+          "A la playa",
+          "A la ciudad",
+          "No viaja"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"Descansar\"?",
+        "prompt": "¿Cómo es el clima en julio?",
         "options": [
-          "To rest",
-          "To work",
-          "To study",
-          "To walk"
+          "Frío",
+          "Caluroso y soleado",
+          "Lluvioso",
+          "Nublado"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"Fiebre\"?",
+        "prompt": "¿Cuándo es el cumpleaños de Sara?",
         "options": [
-          "Cough",
-          "Fever",
-          "Medicine",
-          "Pharmacy"
+          "El cinco de julio",
+          "El quince de agosto",
+          "El primero de julio",
+          "El veinte de agosto"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿A quién visita Sara en agosto?",
+        "options": [
+          "A sus amigos",
+          "A sus abuelos",
+          "A su profesor",
+          "A nadie"
         ]
       }
     ]
@@ -43917,87 +44663,207 @@
     ]
   },
   {
-    "slug": "spanish-a1-planes-y-repaso-reading",
+    "slug": "spanish-a1-planes-y-repaso-listening",
     "level": "A1",
-    "skill": "reading",
+    "skill": "listening",
     "unitId": "planes-y-repaso",
-    "title": "Planes para el verano",
+    "title": "Un mensaje sobre el fin de semana",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
-    "orderIndex": 120,
+    "orderIndex": 121,
     "estimatedMinutes": 10,
-    "description": "Un texto sobre los planes de vacaciones de Sara.",
-    "intro": "Un texto sobre los planes de vacaciones de Sara.",
+    "description": "Un mensaje de voz sobre planes para el fin de semana.",
+    "intro": "Escucha el mensaje de voz de Sara sobre sus planes para el fin de semana.",
     "mission": "",
     "grammar": "",
-    "phrases": [],
+    "phrases": [
+      "Voy a...",
+      "Vamos a...",
+      "Quiero...",
+      "¿Qué vas a hacer?"
+    ],
     "vocabulary": [],
     "dialogue": [],
-    "reading": {
-      "title": "Planes para el verano",
-      "parts": [
-        "En julio, Sara va a tener vacaciones. Ella va a viajar a la playa con su familia y quiere nadar todos los días.",
-        "El clima en julio es caluroso y soleado, perfecto para la playa. Sara también va a visitar a sus abuelos en agosto.",
-        "Para su cumpleaños, el quince de agosto, Sara va a celebrar con toda su familia. Está muy contenta con sus planes de verano."
+    "reading": null,
+    "transcript": "Este fin de semana voy a visitar la playa con mi familia. El sábado vamos a nadar, caminar junto al mar y comer algo sencillo. Mi hermano quiere jugar con una pelota y mi madre prepara unos sándwiches. El domingo pienso descansar en casa y llamar a mi abuela. Si hace buen tiempo, también voy a salir con mis amigos por la tarde. Ya estoy preparando una mochila con agua, toallas y protector solar.",
+    "extra": {
+      "listeningType": "story",
+      "difficulty": "A1",
+      "durationSeconds": 40,
+      "speakers": [
+        "Narrador/a"
       ],
-      "questions": [
-        "¿A dónde va a viajar Sara?",
-        "¿Cómo es el clima en julio?",
-        "¿Cuándo es el cumpleaños de Sara?"
-      ],
-      "ordering": {
-        "prompt": "Ordena los eventos de la historia.",
-        "events": [
-          "Sara empieza sus vacaciones en julio.",
-          "Sara viaja a la playa con su familia.",
-          "Sara visita a sus abuelos en agosto.",
-          "Sara celebra su cumpleaños el quince de agosto."
+      "phoneticSupport": {
+        "enabled": true,
+        "locale": "es-419",
+        "focus": "Repaso integrado: entonación declarativa (baja al final: Voy a la playa.) frente a entonación interrogativa (sube al final: ¿Qué vas a hacer?).",
+        "fullIpa": null,
+        "segments": [
+          {
+            "text": "voy a ir",
+            "ipa": "/ˈboj a iɾ/"
+          },
+          {
+            "text": "¿qué vas a hacer?",
+            "ipa": "/ke βas a a.ˈseɾ/"
+          }
+        ],
+        "stressedWords": [
+          "playa",
+          "después"
+        ],
+        "syllabification": [
+          {
+            "word": "domingo",
+            "syllables": "do-min-go"
+          }
+        ],
+        "difficultSounds": [
+          "entonación declarativa vs. interrogativa"
+        ],
+        "reviewStatus": "pending-review"
+      },
+      "dictationSegmentCount": 3,
+      "listeningComprehension": {
+        "id": "spanish-a1-planes-y-repaso-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "En «Un mensaje sobre el fin de semana», ¿qué detalle presenta la situación?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Este fin de semana voy a visitar la playa con mi familia."
+              },
+              {
+                "id": "o2",
+                "text": "Mi hermano quiere jugar con una pelota y mi madre prepara unos sándwiches."
+              },
+              {
+                "id": "o3",
+                "text": "El domingo pienso descansar en casa y llamar a mi abuela."
+              },
+              {
+                "id": "o4",
+                "text": "Ya estoy preparando una mochila con agua, toallas y protector solar."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Después de «Este fin de semana voy a visitar la playa con mi familia.», ¿qué sucede a continuación en «Un mensaje sobre el fin de semana»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Este fin de semana voy a visitar la playa con mi familia."
+              },
+              {
+                "id": "o2",
+                "text": "Mi hermano quiere jugar con una pelota y mi madre prepara unos sándwiches."
+              },
+              {
+                "id": "o3",
+                "text": "El domingo pienso descansar en casa y llamar a mi abuela."
+              },
+              {
+                "id": "o4",
+                "text": "Ya estoy preparando una mochila con agua, toallas y protector solar."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Un mensaje sobre el fin de semana»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Este fin de semana voy a visitar la playa con mi familia."
+              },
+              {
+                "id": "o2",
+                "text": "Mi hermano quiere jugar con una pelota y mi madre prepara unos sándwiches."
+              },
+              {
+                "id": "o3",
+                "text": "El domingo pienso descansar en casa y llamar a mi abuela."
+              },
+              {
+                "id": "o4",
+                "text": "Ya estoy preparando una mochila con agua, toallas y protector solar."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Un mensaje sobre el fin de semana» después de «El domingo pienso descansar en casa y llamar a mi abuela.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Este fin de semana voy a visitar la playa con mi familia."
+              },
+              {
+                "id": "o2",
+                "text": "Mi hermano quiere jugar con una pelota y mi madre prepara unos sándwiches."
+              },
+              {
+                "id": "o3",
+                "text": "El domingo pienso descansar en casa y llamar a mi abuela."
+              },
+              {
+                "id": "o4",
+                "text": "Ya estoy preparando una mochila con agua, toallas y protector solar."
+              }
+            ]
+          }
         ]
       },
-      "text": "En julio, Sara va a tener vacaciones. Ella va a viajar a la playa con su familia y quiere nadar todos los días.\n\nEl clima en julio es caluroso y soleado, perfecto para la playa. Sara también va a visitar a sus abuelos en agosto.\n\nPara su cumpleaños, el quince de agosto, Sara va a celebrar con toda su familia. Está muy contenta con sus planes de verano."
+      "grammarTest": null
     },
-    "transcript": "",
-    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿A dónde va a viajar Sara?",
+        "prompt": "En «Un mensaje sobre el fin de semana», ¿qué detalle presenta la situación?",
         "options": [
-          "A la montaña",
-          "A la playa",
-          "A la ciudad",
-          "No viaja"
+          "Este fin de semana voy a visitar la playa con mi familia.",
+          "Mi hermano quiere jugar con una pelota y mi madre prepara unos sándwiches.",
+          "El domingo pienso descansar en casa y llamar a mi abuela.",
+          "Ya estoy preparando una mochila con agua, toallas y protector solar."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo es el clima en julio?",
+        "prompt": "Después de «Este fin de semana voy a visitar la playa con mi familia.», ¿qué sucede a continuación en «Un mensaje sobre el fin de semana»?",
         "options": [
-          "Frío",
-          "Caluroso y soleado",
-          "Lluvioso",
-          "Nublado"
+          "Este fin de semana voy a visitar la playa con mi familia.",
+          "Mi hermano quiere jugar con una pelota y mi madre prepara unos sándwiches.",
+          "El domingo pienso descansar en casa y llamar a mi abuela.",
+          "Ya estoy preparando una mochila con agua, toallas y protector solar."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cuándo es el cumpleaños de Sara?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Un mensaje sobre el fin de semana»?",
         "options": [
-          "El cinco de julio",
-          "El quince de agosto",
-          "El primero de julio",
-          "El veinte de agosto"
+          "Este fin de semana voy a visitar la playa con mi familia.",
+          "Mi hermano quiere jugar con una pelota y mi madre prepara unos sándwiches.",
+          "El domingo pienso descansar en casa y llamar a mi abuela.",
+          "Ya estoy preparando una mochila con agua, toallas y protector solar."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿A quién visita Sara en agosto?",
+        "prompt": "¿Qué resultado cierra «Un mensaje sobre el fin de semana» después de «El domingo pienso descansar en casa y llamar a mi abuela.»?",
         "options": [
-          "A sus amigos",
-          "A sus abuelos",
-          "A su profesor",
-          "A nadie"
+          "Este fin de semana voy a visitar la playa con mi familia.",
+          "Mi hermano quiere jugar con una pelota y mi madre prepara unos sándwiches.",
+          "El domingo pienso descansar en casa y llamar a mi abuela.",
+          "Ya estoy preparando una mochila con agua, toallas y protector solar."
         ]
       }
     ]
@@ -44034,75 +44900,98 @@
       ],
       "transcript": "Tengo que presentar un proyecto con mi compañera el viernes. Yo voy a revisar los datos y ella preparará las diapositivas. El miércoles nos reuniremos para revisar el resultado y cambiar lo necesario. Si terminamos el borrador ese día, tendremos tiempo para ensayar la presentación. Hoy revisaré la información y mañana enviaré la versión final al equipo para que todos conozcan el acuerdo. Al final, repaso la información y preparo el siguiente paso con calma. Así puedo continuar con más seguridad. También pienso en lo que aprendí de esta situación y en lo que haré después. Me gusta tener un plan claro antes de seguir.",
       "listeningComprehension": {
-        "id": "spanish-a2-planes-y-proyectos-listening-comprehension",
+        "id": "spanish-a2-planes-y-proyectos-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Cuándo presentan el proyecto?",
+            "prompt": "En «Escucha · Planes y proyectos», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "El miércoles"
+                "text": "Tengo que presentar un proyecto con mi compañera el viernes."
               },
               {
                 "id": "o2",
-                "text": "El viernes"
+                "text": "Si terminamos el borrador ese día, tendremos tiempo para ensayar la presentación."
               },
               {
                 "id": "o3",
-                "text": "Esta tarde"
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
               },
               {
                 "id": "o4",
-                "text": "El lunes"
+                "text": "Me gusta tener un plan claro antes de seguir."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Qué tarea hará Lucía?",
+            "prompt": "Después de «Tengo que presentar un proyecto con mi compañera el viernes.», ¿qué sucede a continuación en «Escucha · Planes y proyectos»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Revisar los datos"
+                "text": "Tengo que presentar un proyecto con mi compañera el viernes."
               },
               {
                 "id": "o2",
-                "text": "Preparar las diapositivas"
+                "text": "Si terminamos el borrador ese día, tendremos tiempo para ensayar la presentación."
               },
               {
                 "id": "o3",
-                "text": "Enviar el acuerdo"
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
               },
               {
                 "id": "o4",
-                "text": "Cancelar la reunión"
+                "text": "Me gusta tener un plan claro antes de seguir."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Para qué quedan el miércoles?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Planes y proyectos»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Para celebrar"
+                "text": "Tengo que presentar un proyecto con mi compañera el viernes."
               },
               {
                 "id": "o2",
-                "text": "Para elegir otro proyecto"
+                "text": "Si terminamos el borrador ese día, tendremos tiempo para ensayar la presentación."
               },
               {
                 "id": "o3",
-                "text": "Para revisar el resultado"
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
               },
               {
                 "id": "o4",
-                "text": "Para viajar"
+                "text": "Me gusta tener un plan claro antes de seguir."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Escucha · Planes y proyectos» después de «Al final, repaso la información y preparo el siguiente paso con calma.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Tengo que presentar un proyecto con mi compañera el viernes."
+              },
+              {
+                "id": "o2",
+                "text": "Si terminamos el borrador ese día, tendremos tiempo para ensayar la presentación."
+              },
+              {
+                "id": "o3",
+                "text": "Al final, repaso la información y preparo el siguiente paso con calma."
+              },
+              {
+                "id": "o4",
+                "text": "Me gusta tener un plan claro antes de seguir."
               }
             ]
           }
@@ -44113,36 +45002,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuándo presentan el proyecto?",
+        "prompt": "En «Escucha · Planes y proyectos», ¿qué detalle presenta la situación?",
         "options": [
-          "El miércoles",
-          "El viernes",
-          "Esta tarde",
-          "El lunes"
-        ],
-        "explanation": "Mateo dice que presentan el proyecto el viernes."
+          "Tengo que presentar un proyecto con mi compañera el viernes.",
+          "Si terminamos el borrador ese día, tendremos tiempo para ensayar la presentación.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué tarea hará Lucía?",
+        "prompt": "Después de «Tengo que presentar un proyecto con mi compañera el viernes.», ¿qué sucede a continuación en «Escucha · Planes y proyectos»?",
         "options": [
-          "Revisar los datos",
-          "Preparar las diapositivas",
-          "Enviar el acuerdo",
-          "Cancelar la reunión"
-        ],
-        "explanation": "Lucía se ofrece a preparar las diapositivas."
+          "Tengo que presentar un proyecto con mi compañera el viernes.",
+          "Si terminamos el borrador ese día, tendremos tiempo para ensayar la presentación.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Para qué quedan el miércoles?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Planes y proyectos»?",
         "options": [
-          "Para celebrar",
-          "Para elegir otro proyecto",
-          "Para revisar el resultado",
-          "Para viajar"
-        ],
-        "explanation": "Quedan para ver el resultado y hacer cambios si hace falta."
+          "Tengo que presentar un proyecto con mi compañera el viernes.",
+          "Si terminamos el borrador ese día, tendremos tiempo para ensayar la presentación.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Escucha · Planes y proyectos» después de «Al final, repaso la información y preparo el siguiente paso con calma.»?",
+        "options": [
+          "Tengo que presentar un proyecto con mi compañera el viernes.",
+          "Si terminamos el borrador ese día, tendremos tiempo para ensayar la presentación.",
+          "Al final, repaso la información y preparo el siguiente paso con calma.",
+          "Me gusta tener un plan claro antes de seguir."
+        ]
       }
     ]
   },
@@ -44585,15 +45481,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Para formular una idea con precisión y reservas"
-              },
-              {
-                "id": "o2",
                 "text": "Para eliminar toda postura"
               },
               {
-                "id": "o3",
+                "id": "o2",
                 "text": "Para repetir palabras aisladas"
+              },
+              {
+                "id": "o3",
+                "text": "Para formular una idea con precisión y reservas"
               },
               {
                 "id": "o4",
@@ -44612,15 +45508,15 @@
               },
               {
                 "id": "o2",
-                "text": "Qué evidencia sostendría o modificaría una postura"
-              },
-              {
-                "id": "o3",
                 "text": "Cómo evitar cualquier debate"
               },
               {
-                "id": "o4",
+                "id": "o3",
                 "text": "Qué palabra es más difícil de pronunciar"
+              },
+              {
+                "id": "o4",
+                "text": "Qué evidencia sostendría o modificaría una postura"
               }
             ]
           }
@@ -44655,9 +45551,9 @@
         "type": "mcq",
         "prompt": "¿Para qué se usa la gramática de la unidad?",
         "options": [
-          "Para formular una idea con precisión y reservas",
           "Para eliminar toda postura",
           "Para repetir palabras aisladas",
+          "Para formular una idea con precisión y reservas",
           "Para evitar reconocer límites"
         ],
         "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
@@ -44667,9 +45563,9 @@
         "prompt": "¿Qué pregunta final propone el audio?",
         "options": [
           "Qué aplicación es más rápida",
-          "Qué evidencia sostendría o modificaría una postura",
           "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar"
+          "Qué palabra es más difícil de pronunciar",
+          "Qué evidencia sostendría o modificaría una postura"
         ],
         "explanation": "La pregunta final invita a justificar y revisar una conclusión."
       }
@@ -44764,15 +45660,15 @@
             "options": [
               {
                 "id": "o1",
-                "text": "Para formular una idea con precisión y reservas"
-              },
-              {
-                "id": "o2",
                 "text": "Para eliminar toda postura"
               },
               {
-                "id": "o3",
+                "id": "o2",
                 "text": "Para repetir palabras aisladas"
+              },
+              {
+                "id": "o3",
+                "text": "Para formular una idea con precisión y reservas"
               },
               {
                 "id": "o4",
@@ -44791,15 +45687,15 @@
               },
               {
                 "id": "o2",
-                "text": "Qué evidencia sostendría o modificaría una postura"
-              },
-              {
-                "id": "o3",
                 "text": "Cómo evitar cualquier debate"
               },
               {
-                "id": "o4",
+                "id": "o3",
                 "text": "Qué palabra es más difícil de pronunciar"
+              },
+              {
+                "id": "o4",
+                "text": "Qué evidencia sostendría o modificaría una postura"
               }
             ]
           }
@@ -44834,9 +45730,9 @@
         "type": "mcq",
         "prompt": "¿Para qué se usa la gramática de la unidad?",
         "options": [
-          "Para formular una idea con precisión y reservas",
           "Para eliminar toda postura",
           "Para repetir palabras aisladas",
+          "Para formular una idea con precisión y reservas",
           "Para evitar reconocer límites"
         ],
         "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
@@ -44846,187 +45742,69 @@
         "prompt": "¿Qué pregunta final propone el audio?",
         "options": [
           "Qué aplicación es más rápida",
-          "Qué evidencia sostendría o modificaría una postura",
           "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar"
+          "Qué palabra es más difícil de pronunciar",
+          "Qué evidencia sostendría o modificaría una postura"
         ],
         "explanation": "La pregunta final invita a justificar y revisar una conclusión."
       }
     ]
   },
   {
-    "slug": "spanish-a1-planes-y-repaso-listening",
+    "slug": "spanish-a1-planes-y-repaso-speaking",
     "level": "A1",
-    "skill": "listening",
+    "skill": "speaking",
     "unitId": "planes-y-repaso",
-    "title": "Un mensaje sobre el fin de semana",
+    "title": "Habla de tus planes",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 25,
-    "orderIndex": 121,
-    "estimatedMinutes": 10,
-    "description": "Un mensaje de voz sobre planes para el fin de semana.",
-    "intro": "Escucha el mensaje de voz de Sara sobre sus planes para el fin de semana.",
-    "mission": "",
+    "xpReward": 20,
+    "orderIndex": 122,
+    "estimatedMinutes": 8,
+    "description": "Practica hablar de tus planes para el futuro cercano.",
+    "intro": "Practica hablar de tus planes para el futuro cercano.",
+    "mission": "Cuéntale a un compañero tus planes para este fin de semana o tus próximas vacaciones.",
     "grammar": "",
     "phrases": [
       "Voy a...",
-      "Vamos a...",
       "Quiero...",
-      "¿Qué vas a hacer?"
+      "¿Qué vas a hacer?",
+      "Mis planes son..."
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "Tú",
+        "line": "Este fin de semana voy a...",
+        "translation": "This weekend I am going to..."
+      },
+      {
+        "speaker": "Compañero/a",
+        "line": "¿Qué más vas a hacer?",
+        "translation": "What else are you going to do?"
+      },
+      {
+        "speaker": "Tú",
+        "line": "También quiero...",
+        "translation": "I also want to..."
+      },
+      {
+        "speaker": "Compañero/a",
+        "line": "Muy bien. Ahora añade una frase más sobre «Voy a...».",
+        "translation": "Very good. Now add one more sentence about this topic."
+      }
+    ],
     "reading": null,
-    "transcript": "Este fin de semana voy a visitar la playa con mi familia. El sábado vamos a nadar, caminar junto al mar y comer algo sencillo. Mi hermano quiere jugar con una pelota y mi madre prepara unos sándwiches. El domingo pienso descansar en casa y llamar a mi abuela. Si hace buen tiempo, también voy a salir con mis amigos por la tarde. Ya estoy preparando una mochila con agua, toallas y protector solar.",
-    "extra": {
-      "listeningType": "story",
-      "difficulty": "A1",
-      "durationSeconds": 40,
-      "speakers": [
-        "Narrador/a"
-      ],
-      "phoneticSupport": {
-        "enabled": true,
-        "locale": "es-419",
-        "focus": "Repaso integrado: entonación declarativa (baja al final: Voy a la playa.) frente a entonación interrogativa (sube al final: ¿Qué vas a hacer?).",
-        "fullIpa": null,
-        "segments": [
-          {
-            "text": "voy a ir",
-            "ipa": "/ˈboj a iɾ/"
-          },
-          {
-            "text": "¿qué vas a hacer?",
-            "ipa": "/ke βas a a.ˈseɾ/"
-          }
-        ],
-        "stressedWords": [
-          "playa",
-          "después"
-        ],
-        "syllabification": [
-          {
-            "word": "domingo",
-            "syllables": "do-min-go"
-          }
-        ],
-        "difficultSounds": [
-          "entonación declarativa vs. interrogativa"
-        ],
-        "reviewStatus": "pending-review"
-      },
-      "dictationSegmentCount": 3,
-      "listeningComprehension": {
-        "id": "spanish-a1-planes-y-repaso-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "¿Adónde va la familia el sábado?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "A la playa"
-              },
-              {
-                "id": "o2",
-                "text": "A la estación"
-              },
-              {
-                "id": "o3",
-                "text": "A la farmacia"
-              },
-              {
-                "id": "o4",
-                "text": "A la biblioteca"
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "¿Qué prepara la madre?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Sándwiches"
-              },
-              {
-                "id": "o2",
-                "text": "Una camisa azul"
-              },
-              {
-                "id": "o3",
-                "text": "Un mapa"
-              },
-              {
-                "id": "o4",
-                "text": "Una película"
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "¿Qué lleva la persona en la mochila?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Agua, toallas y protector solar"
-              },
-              {
-                "id": "o2",
-                "text": "Libros y una computadora"
-              },
-              {
-                "id": "o3",
-                "text": "Arroz y tomates"
-              },
-              {
-                "id": "o4",
-                "text": "Un tren y un billete"
-              }
-            ]
-          }
-        ]
-      },
-      "grammarTest": null
-    },
+    "transcript": "",
+    "extra": null,
     "exercises": [
       {
-        "type": "mcq",
-        "prompt": "¿Adónde va la familia el sábado?",
-        "options": [
-          "A la playa",
-          "A la estación",
-          "A la farmacia",
-          "A la biblioteca"
-        ],
-        "explanation": "El sábado van a la playa."
+        "type": "speaking",
+        "prompt": "Di en voz alta tres planes para el fin de semana usando \"voy a...\"."
       },
       {
-        "type": "mcq",
-        "prompt": "¿Qué prepara la madre?",
-        "options": [
-          "Sándwiches",
-          "Una camisa azul",
-          "Un mapa",
-          "Una película"
-        ],
-        "explanation": "La madre prepara unos sándwiches."
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Qué lleva la persona en la mochila?",
-        "options": [
-          "Agua, toallas y protector solar",
-          "Libros y una computadora",
-          "Arroz y tomates",
-          "Un tren y un billete"
-        ],
-        "explanation": "Prepara una mochila con agua, toallas y protector solar."
+        "type": "practice",
+        "prompt": "Pregúntale a un compañero \"¿Qué vas a hacer este fin de semana?\" y escucha su respuesta. Si no tienes micrófono, responde por escrito."
       }
     ]
   },
@@ -45328,47 +46106,32 @@
     ]
   },
   {
-    "slug": "spanish-a1-planes-y-repaso-speaking",
+    "slug": "spanish-a1-planes-y-repaso-writing",
     "level": "A1",
-    "skill": "speaking",
+    "skill": "writing",
     "unitId": "planes-y-repaso",
-    "title": "Habla de tus planes",
+    "title": "Escribe tus planes",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 20,
-    "orderIndex": 122,
-    "estimatedMinutes": 8,
-    "description": "Practica hablar de tus planes para el futuro cercano.",
-    "intro": "Practica hablar de tus planes para el futuro cercano.",
-    "mission": "Cuéntale a un compañero tus planes para este fin de semana o tus próximas vacaciones.",
+    "xpReward": 25,
+    "orderIndex": 123,
+    "estimatedMinutes": 12,
+    "description": "Escribe un párrafo corto sobre tus planes y repasa lo aprendido en A1.",
+    "intro": "Escribe un párrafo corto sobre tus planes y repasa lo aprendido en A1.",
+    "mission": "Escribe 6-8 oraciones sobre tus planes para el fin de semana o las próximas vacaciones, incluyendo el clima y una fecha.",
     "grammar": "",
     "phrases": [
       "Voy a...",
-      "Quiero...",
-      "¿Qué vas a hacer?",
-      "Mis planes son..."
+      "El clima va a ser...",
+      "Mi cumpleaños es en...",
+      "Quiero..."
     ],
     "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Tú",
-        "line": "Este fin de semana voy a...",
-        "translation": "This weekend I am going to..."
-      },
-      {
-        "speaker": "Compañero/a",
-        "line": "¿Qué más vas a hacer?",
-        "translation": "What else are you going to do?"
-      },
-      {
-        "speaker": "Tú",
-        "line": "También quiero...",
-        "translation": "I also want to..."
-      },
-      {
-        "speaker": "Compañero/a",
-        "line": "Muy bien. Ahora añade una frase más sobre «Voy a...».",
-        "translation": "Very good. Now add one more sentence about this topic."
+        "speaker": "Modelo",
+        "line": "Este verano voy a viajar a la playa. Va a hacer calor y sol. Mi cumpleaños es el quince de agosto. Quiero celebrar con mi familia.",
+        "translation": "This summer I am going to travel to the beach. It's going to be hot and sunny. My birthday is on August fifteenth. I want to celebrate with my family."
       }
     ],
     "reading": null,
@@ -45376,12 +46139,8 @@
     "extra": null,
     "exercises": [
       {
-        "type": "speaking",
-        "prompt": "Di en voz alta tres planes para el fin de semana usando \"voy a...\"."
-      },
-      {
-        "type": "practice",
-        "prompt": "Pregúntale a un compañero \"¿Qué vas a hacer este fin de semana?\" y escucha su respuesta. Si no tienes micrófono, responde por escrito."
+        "type": "writing",
+        "prompt": "Escribe 6-8 oraciones sobre tus planes para el fin de semana o las vacaciones, incluyendo una fecha y el clima."
       }
     ]
   },
@@ -45551,41 +46310,71 @@
     ]
   },
   {
-    "slug": "spanish-a1-planes-y-repaso-writing",
+    "slug": "spanish-a1-planes-y-repaso-grammar",
     "level": "A1",
-    "skill": "writing",
+    "skill": "grammar",
     "unitId": "planes-y-repaso",
-    "title": "Escribe tus planes",
+    "title": "Ir a + infinitivo y repaso de A1",
     "accessTier": "premium",
     "isFree": false,
-    "xpReward": 25,
-    "orderIndex": 123,
-    "estimatedMinutes": 12,
-    "description": "Escribe un párrafo corto sobre tus planes y repasa lo aprendido en A1.",
-    "intro": "Escribe un párrafo corto sobre tus planes y repasa lo aprendido en A1.",
-    "mission": "Escribe 6-8 oraciones sobre tus planes para el fin de semana o las próximas vacaciones, incluyendo el clima y una fecha.",
-    "grammar": "",
+    "xpReward": 20,
+    "orderIndex": 124,
+    "estimatedMinutes": 8,
+    "description": "Aprende a hablar del futuro cercano y repasa el presente.",
+    "intro": "Aprende a hablar del futuro cercano y repasa el presente.",
+    "mission": "",
+    "grammar": "Usamos \"ir a + infinitivo\" para hablar de planes cercanos: voy a viajar, vamos a nadar. Para fechas usamos \"el + número + de + mes\": el quince de agosto. Este es un repaso final de A1: ser/estar, tener, presente regular, gustar/encantar, hay/estar, y ahora ir a + infinitivo para el futuro. Error frecuente: usar el presente simple para hablar de planes futuros específicos (decir \"viajo mañana a la playa\" en vez de \"voy a viajar mañana a la playa\" cuando se quiere enfatizar el plan).",
     "phrases": [
       "Voy a...",
-      "El clima va a ser...",
-      "Mi cumpleaños es en...",
-      "Quiero..."
+      "Vamos a...",
+      "el quince de agosto",
+      "¿Qué vas a hacer?"
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Modelo",
-        "line": "Este verano voy a viajar a la playa. Va a hacer calor y sol. Mi cumpleaños es el quince de agosto. Quiero celebrar con mi familia.",
-        "translation": "This summer I am going to travel to the beach. It's going to be hot and sunny. My birthday is on August fifteenth. I want to celebrate with my family."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "type": "writing",
-        "prompt": "Escribe 6-8 oraciones sobre tus planes para el fin de semana o las vacaciones, incluyendo una fecha y el clima."
+        "type": "mcq",
+        "prompt": "Yo ___ a viajar este verano.",
+        "options": [
+          "voy",
+          "vas",
+          "va",
+          "van"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Nosotros ___ a nadar el sábado.",
+        "options": [
+          "voy",
+          "va",
+          "vamos",
+          "van"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Mi cumpleaños es ___ quince de agosto.",
+        "options": [
+          "el",
+          "la",
+          "en",
+          "a"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué ___ a hacer este fin de semana?",
+        "options": [
+          "vas",
+          "va",
+          "voy",
+          "van"
+        ]
       }
     ]
   },
@@ -46450,27 +47239,113 @@
     ]
   },
   {
-    "slug": "spanish-a1-planes-y-repaso-grammar",
+    "slug": "spanish-a1-planes-y-repaso-vocabulary",
     "level": "A1",
-    "skill": "grammar",
+    "skill": "vocabulary",
     "unitId": "planes-y-repaso",
-    "title": "Ir a + infinitivo y repaso de A1",
+    "title": "Meses, clima y planes",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
-    "orderIndex": 124,
-    "estimatedMinutes": 8,
-    "description": "Aprende a hablar del futuro cercano y repasa el presente.",
-    "intro": "Aprende a hablar del futuro cercano y repasa el presente.",
+    "orderIndex": 125,
+    "estimatedMinutes": 6,
+    "description": "Palabras para meses, estaciones, clima y vacaciones.",
+    "intro": "Palabras para meses, estaciones, clima y vacaciones.",
     "mission": "",
-    "grammar": "Usamos \"ir a + infinitivo\" para hablar de planes cercanos: voy a viajar, vamos a nadar. Para fechas usamos \"el + número + de + mes\": el quince de agosto. Este es un repaso final de A1: ser/estar, tener, presente regular, gustar/encantar, hay/estar, y ahora ir a + infinitivo para el futuro. Error frecuente: usar el presente simple para hablar de planes futuros específicos (decir \"viajo mañana a la playa\" en vez de \"voy a viajar mañana a la playa\" cuando se quiere enfatizar el plan).",
-    "phrases": [
-      "Voy a...",
-      "Vamos a...",
-      "el quince de agosto",
-      "¿Qué vas a hacer?"
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "Enero",
+        "category": "mes",
+        "translation": "January",
+        "example": "Mi cumpleaños es en enero."
+      },
+      {
+        "word": "Julio",
+        "category": "mes",
+        "translation": "July",
+        "example": "Las vacaciones son en julio."
+      },
+      {
+        "word": "Agosto",
+        "category": "mes",
+        "translation": "August",
+        "example": "Voy a la playa en agosto."
+      },
+      {
+        "word": "Diciembre",
+        "category": "mes",
+        "translation": "December",
+        "example": "Celebramos en diciembre."
+      },
+      {
+        "word": "Verano",
+        "category": "estación",
+        "translation": "Summer",
+        "example": "Me gusta el verano."
+      },
+      {
+        "word": "Invierno",
+        "category": "estación",
+        "translation": "Winter",
+        "example": "El invierno es frío."
+      },
+      {
+        "word": "Calor",
+        "category": "clima",
+        "translation": "Heat",
+        "example": "Hace mucho calor hoy."
+      },
+      {
+        "word": "Frío",
+        "category": "clima",
+        "translation": "Cold",
+        "example": "Hace frío en invierno."
+      },
+      {
+        "word": "Sol",
+        "category": "clima",
+        "translation": "Sun",
+        "example": "Hoy hace sol."
+      },
+      {
+        "word": "Lluvia",
+        "category": "clima",
+        "translation": "Rain",
+        "example": "Hay mucha lluvia."
+      },
+      {
+        "word": "Vacaciones",
+        "category": "planes",
+        "translation": "Vacation",
+        "example": "Las vacaciones empiezan en julio."
+      },
+      {
+        "word": "Cumpleaños",
+        "category": "celebración",
+        "translation": "Birthday",
+        "example": "Mi cumpleaños es el quince de agosto."
+      },
+      {
+        "word": "Playa",
+        "category": "lugar",
+        "translation": "Beach",
+        "example": "Voy a la playa con mi familia."
+      },
+      {
+        "word": "Primavera",
+        "category": "estación",
+        "translation": "Spring",
+        "example": "Las flores salen en primavera."
+      },
+      {
+        "word": "Otoño",
+        "category": "estación",
+        "translation": "Fall/autumn",
+        "example": "En otoño hace un poco de frío."
+      }
     ],
-    "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
@@ -46478,42 +47353,32 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Yo ___ a viajar este verano.",
+        "prompt": "¿Qué significa \"Vacaciones\"?",
         "options": [
-          "voy",
-          "vas",
-          "va",
-          "van"
+          "Vacation",
+          "Birthday",
+          "Rain",
+          "Winter"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Nosotros ___ a nadar el sábado.",
+        "prompt": "¿Qué significa \"Calor\"?",
         "options": [
-          "voy",
-          "va",
-          "vamos",
-          "van"
+          "Cold",
+          "Heat",
+          "Rain",
+          "Sun"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Mi cumpleaños es ___ quince de agosto.",
+        "prompt": "¿Qué significa \"Cumpleaños\"?",
         "options": [
-          "el",
-          "la",
-          "en",
-          "a"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Qué ___ a hacer este fin de semana?",
-        "options": [
-          "vas",
-          "va",
-          "voy",
-          "van"
+          "Vacation",
+          "Summer",
+          "Birthday",
+          "Beach"
         ]
       }
     ]
@@ -47212,156 +48077,41 @@
         "explanation": "«impacto» forma parte del vocabulario de esta unidad."
       }
     ]
-  },
-  {
-    "slug": "spanish-a1-planes-y-repaso-vocabulary",
-    "level": "A1",
-    "skill": "vocabulary",
-    "unitId": "planes-y-repaso",
-    "title": "Meses, clima y planes",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 20,
-    "orderIndex": 125,
-    "estimatedMinutes": 6,
-    "description": "Palabras para meses, estaciones, clima y vacaciones.",
-    "intro": "Palabras para meses, estaciones, clima y vacaciones.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [
-      {
-        "word": "Enero",
-        "category": "mes",
-        "translation": "January",
-        "example": "Mi cumpleaños es en enero."
-      },
-      {
-        "word": "Julio",
-        "category": "mes",
-        "translation": "July",
-        "example": "Las vacaciones son en julio."
-      },
-      {
-        "word": "Agosto",
-        "category": "mes",
-        "translation": "August",
-        "example": "Voy a la playa en agosto."
-      },
-      {
-        "word": "Diciembre",
-        "category": "mes",
-        "translation": "December",
-        "example": "Celebramos en diciembre."
-      },
-      {
-        "word": "Verano",
-        "category": "estación",
-        "translation": "Summer",
-        "example": "Me gusta el verano."
-      },
-      {
-        "word": "Invierno",
-        "category": "estación",
-        "translation": "Winter",
-        "example": "El invierno es frío."
-      },
-      {
-        "word": "Calor",
-        "category": "clima",
-        "translation": "Heat",
-        "example": "Hace mucho calor hoy."
-      },
-      {
-        "word": "Frío",
-        "category": "clima",
-        "translation": "Cold",
-        "example": "Hace frío en invierno."
-      },
-      {
-        "word": "Sol",
-        "category": "clima",
-        "translation": "Sun",
-        "example": "Hoy hace sol."
-      },
-      {
-        "word": "Lluvia",
-        "category": "clima",
-        "translation": "Rain",
-        "example": "Hay mucha lluvia."
-      },
-      {
-        "word": "Vacaciones",
-        "category": "planes",
-        "translation": "Vacation",
-        "example": "Las vacaciones empiezan en julio."
-      },
-      {
-        "word": "Cumpleaños",
-        "category": "celebración",
-        "translation": "Birthday",
-        "example": "Mi cumpleaños es el quince de agosto."
-      },
-      {
-        "word": "Playa",
-        "category": "lugar",
-        "translation": "Beach",
-        "example": "Voy a la playa con mi familia."
-      },
-      {
-        "word": "Primavera",
-        "category": "estación",
-        "translation": "Spring",
-        "example": "Las flores salen en primavera."
-      },
-      {
-        "word": "Otoño",
-        "category": "estación",
-        "translation": "Fall/autumn",
-        "example": "En otoño hace un poco de frío."
-      }
-    ],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "¿Qué significa \"Vacaciones\"?",
-        "options": [
-          "Vacation",
-          "Birthday",
-          "Rain",
-          "Winter"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Qué significa \"Calor\"?",
-        "options": [
-          "Cold",
-          "Heat",
-          "Rain",
-          "Sun"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "¿Qué significa \"Cumpleaños\"?",
-        "options": [
-          "Vacation",
-          "Summer",
-          "Birthday",
-          "Beach"
-        ]
-      }
-    ]
   }
 ];
 
   window.ANDERGO_LANGUAGE_WORLDS.units = window.ANDERGO_LANGUAGE_WORLDS.units || {};
   window.ANDERGO_LANGUAGE_WORLDS.units.spanish = [
+  {
+    "id": "hola-mucho-gusto",
+    "slug": "hola-mucho-gusto",
+    "level": "A1",
+    "title": "¡Hola! Mucho gusto",
+    "titleEs": "",
+    "description": "Saludos, despedidas, presentarse y el alfabeto.",
+    "order": 1,
+    "unitOverview": {
+      "objective": "Presentarte, saludar y conocer a otras personas.",
+      "outcomes": [
+        "decir tu nombre",
+        "preguntar el nombre de otra persona",
+        "usar saludos formales e informales",
+        "deletrear información básica"
+      ],
+      "grammar": [
+        "verbo to be",
+        "subject pronouns",
+        "basic questions"
+      ],
+      "vocabulary": [
+        "greetings",
+        "names",
+        "classroom expressions",
+        "numbers 0–20"
+      ],
+      "scenario": "Tu primer día en una clase de inglés."
+    }
+  },
   {
     "id": "compras-y-cantidades",
     "slug": "compras-y-cantidades",
@@ -47513,34 +48263,14 @@
     }
   },
   {
-    "id": "hola-mucho-gusto",
-    "slug": "hola-mucho-gusto",
+    "id": "informacion-personal",
+    "slug": "informacion-personal",
     "level": "A1",
-    "title": "¡Hola! Mucho gusto",
+    "title": "Información personal",
     "titleEs": "",
-    "description": "Saludos, despedidas, presentarse y el alfabeto.",
-    "order": 1,
-    "unitOverview": {
-      "objective": "Presentarte, saludar y conocer a otras personas.",
-      "outcomes": [
-        "decir tu nombre",
-        "preguntar el nombre de otra persona",
-        "usar saludos formales e informales",
-        "deletrear información básica"
-      ],
-      "grammar": [
-        "verbo to be",
-        "subject pronouns",
-        "basic questions"
-      ],
-      "vocabulary": [
-        "greetings",
-        "names",
-        "classroom expressions",
-        "numbers 0–20"
-      ],
-      "scenario": "Tu primer día en una clase de inglés."
-    }
+    "description": "Edad, nacionalidad, procedencia y datos de contacto.",
+    "order": 2,
+    "unitOverview": null
   },
   {
     "id": "orientarse-en-la-ciudad",
@@ -47693,13 +48423,13 @@
     }
   },
   {
-    "id": "informacion-personal",
-    "slug": "informacion-personal",
+    "id": "mi-familia-y-mis-amigos",
+    "slug": "mi-familia-y-mis-amigos",
     "level": "A1",
-    "title": "Información personal",
+    "title": "Mi familia y mis amigos",
     "titleEs": "",
-    "description": "Edad, nacionalidad, procedencia y datos de contacto.",
-    "order": 2,
+    "description": "Miembros de la familia, posesivos y describir personas.",
+    "order": 3,
     "unitOverview": null
   },
   {
@@ -47853,13 +48583,13 @@
     }
   },
   {
-    "id": "mi-familia-y-mis-amigos",
-    "slug": "mi-familia-y-mis-amigos",
+    "id": "mi-rutina-diaria",
+    "slug": "mi-rutina-diaria",
     "level": "A1",
-    "title": "Mi familia y mis amigos",
+    "title": "Mi rutina diaria",
     "titleEs": "",
-    "description": "Miembros de la familia, posesivos y describir personas.",
-    "order": 3,
+    "description": "Actividades cotidianas, la hora y el presente de indicativo.",
+    "order": 4,
     "unitOverview": null
   },
   {
@@ -48013,13 +48743,13 @@
     }
   },
   {
-    "id": "mi-rutina-diaria",
-    "slug": "mi-rutina-diaria",
+    "id": "mi-casa",
+    "slug": "mi-casa",
     "level": "A1",
-    "title": "Mi rutina diaria",
+    "title": "Mi casa",
     "titleEs": "",
-    "description": "Actividades cotidianas, la hora y el presente de indicativo.",
-    "order": 4,
+    "description": "Habitaciones, muebles y describir una vivienda.",
+    "order": 5,
     "unitOverview": null
   },
   {
@@ -48173,13 +48903,13 @@
     }
   },
   {
-    "id": "mi-casa",
-    "slug": "mi-casa",
+    "id": "mi-barrio-y-mi-ciudad",
+    "slug": "mi-barrio-y-mi-ciudad",
     "level": "A1",
-    "title": "Mi casa",
+    "title": "Mi barrio y mi ciudad",
     "titleEs": "",
-    "description": "Habitaciones, muebles y describir una vivienda.",
-    "order": 5,
+    "description": "Lugares de la ciudad, direcciones y transporte.",
+    "order": 6,
     "unitOverview": null
   },
   {
@@ -48333,13 +49063,13 @@
     }
   },
   {
-    "id": "mi-barrio-y-mi-ciudad",
-    "slug": "mi-barrio-y-mi-ciudad",
+    "id": "comida-y-bebida",
+    "slug": "comida-y-bebida",
     "level": "A1",
-    "title": "Mi barrio y mi ciudad",
+    "title": "Comida y bebida",
     "titleEs": "",
-    "description": "Lugares de la ciudad, direcciones y transporte.",
-    "order": 6,
+    "description": "Alimentos, pedir comida y expresar gustos.",
+    "order": 7,
     "unitOverview": null
   },
   {
@@ -48493,13 +49223,13 @@
     }
   },
   {
-    "id": "comida-y-bebida",
-    "slug": "comida-y-bebida",
+    "id": "de-compras",
+    "slug": "de-compras",
     "level": "A1",
-    "title": "Comida y bebida",
+    "title": "De compras",
     "titleEs": "",
-    "description": "Alimentos, pedir comida y expresar gustos.",
-    "order": 7,
+    "description": "Ropa, colores, tallas y precios.",
+    "order": 8,
     "unitOverview": null
   },
   {
@@ -48653,13 +49383,13 @@
     }
   },
   {
-    "id": "de-compras",
-    "slug": "de-compras",
+    "id": "estudios-y-trabajo",
+    "slug": "estudios-y-trabajo",
     "level": "A1",
-    "title": "De compras",
+    "title": "Estudios y trabajo",
     "titleEs": "",
-    "description": "Ropa, colores, tallas y precios.",
-    "order": 8,
+    "description": "Estudios, profesiones y responsabilidades sencillas.",
+    "order": 9,
     "unitOverview": null
   },
   {
@@ -48813,13 +49543,13 @@
     }
   },
   {
-    "id": "estudios-y-trabajo",
-    "slug": "estudios-y-trabajo",
+    "id": "tiempo-libre",
+    "slug": "tiempo-libre",
     "level": "A1",
-    "title": "Estudios y trabajo",
+    "title": "Tiempo libre",
     "titleEs": "",
-    "description": "Estudios, profesiones y responsabilidades sencillas.",
-    "order": 9,
+    "description": "Pasatiempos, preferencias e invitaciones.",
+    "order": 10,
     "unitOverview": null
   },
   {
@@ -48973,14 +49703,35 @@
     }
   },
   {
-    "id": "tiempo-libre",
-    "slug": "tiempo-libre",
+    "id": "salud-y-bienestar-a1",
+    "slug": "salud-y-bienestar-a1",
     "level": "A1",
-    "title": "Tiempo libre",
+    "title": "No me siento bien",
     "titleEs": "",
-    "description": "Pasatiempos, preferencias e invitaciones.",
-    "order": 10,
-    "unitOverview": null
+    "description": "Partes del cuerpo, malestares frecuentes y cómo pedir ayuda en una farmacia.",
+    "order": 11,
+    "unitOverview": {
+      "objective": "Expresar cómo te sientes, decir qué te duele y pedir ayuda de forma sencilla.",
+      "outcomes": [
+        "nombrar partes básicas del cuerpo",
+        "expresar un dolor o un malestar",
+        "preguntar a otra persona qué le duele",
+        "comprender recomendaciones sencillas"
+      ],
+      "grammar": [
+        "me duele + singular",
+        "me duelen + plural",
+        "tener + síntoma",
+        "estar + estado"
+      ],
+      "vocabulary": [
+        "partes del cuerpo",
+        "síntomas frecuentes",
+        "la farmacia",
+        "recomendaciones básicas"
+      ],
+      "scenario": "No te sientes bien y explicas tus síntomas en una farmacia."
+    }
   },
   {
     "id": "tecnologia-cotidiana",
@@ -49133,35 +49884,14 @@
     }
   },
   {
-    "id": "salud-y-bienestar-a1",
-    "slug": "salud-y-bienestar-a1",
+    "id": "planes-y-repaso",
+    "slug": "planes-y-repaso",
     "level": "A1",
-    "title": "No me siento bien",
+    "title": "Planes y repaso",
     "titleEs": "",
-    "description": "Partes del cuerpo, malestares frecuentes y cómo pedir ayuda en una farmacia.",
-    "order": 11,
-    "unitOverview": {
-      "objective": "Expresar cómo te sientes, decir qué te duele y pedir ayuda de forma sencilla.",
-      "outcomes": [
-        "nombrar partes básicas del cuerpo",
-        "expresar un dolor o un malestar",
-        "preguntar a otra persona qué le duele",
-        "comprender recomendaciones sencillas"
-      ],
-      "grammar": [
-        "me duele + singular",
-        "me duelen + plural",
-        "tener + síntoma",
-        "estar + estado"
-      ],
-      "vocabulary": [
-        "partes del cuerpo",
-        "síntomas frecuentes",
-        "la farmacia",
-        "recomendaciones básicas"
-      ],
-      "scenario": "No te sientes bien y explicas tus síntomas en una farmacia."
-    }
+    "description": "Planes inmediatos, fechas, el clima y repaso general de A1.",
+    "order": 12,
+    "unitOverview": null
   },
   {
     "id": "planes-y-proyectos",
@@ -49312,16 +50042,6 @@
       ],
       "scenario": "Seguir la historia de una idea que se vuelve organización mundial"
     }
-  },
-  {
-    "id": "planes-y-repaso",
-    "slug": "planes-y-repaso",
-    "level": "A1",
-    "title": "Planes y repaso",
-    "titleEs": "",
-    "description": "Planes inmediatos, fechas, el clima y repaso general de A1.",
-    "order": 12,
-    "unitOverview": null
   }
 ];
 })();

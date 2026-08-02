@@ -107,6 +107,11 @@ function main() {
     stdio: 'inherit'
   });
 
+  console.log('Validating comprehension question limits...');
+  execSync(`node "${path.join(ROOT, 'scripts', 'validate-comprehension-question-counts.js')}"`, {
+    stdio: 'inherit'
+  });
+
   console.log('Syncing generated language worlds...');
   execSync(`node "${path.join(ROOT, 'scripts', 'sync-worlds-from-seed.js')}"`, {
     stdio: 'inherit'

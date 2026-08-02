@@ -1089,6 +1089,31 @@ function buildUnit(level, spec, index) {
   const text = readingContent.text;
   const readingExercises = buildReadingExercises(level, spec, readingContent);
   const listeningExercises = authoredListening?.exercises || alignedListening.exercises;
+  // Keep the correct response moving across A-D. This preserves each
+  // evidence-based answer while avoiding a predictable answer-position
+  // pattern in the listening assessment.
+  const listeningQuestions = listeningExercises.map((exercise, exerciseIndex) => {
+    const options = [...exercise.options];
+    const correctIndex = Number(exercise.answer);
+    const [correctOption] = options.splice(correctIndex, 1);
+    const targetIndex = Math.min(exerciseIndex, options.length);
+    options.splice(targetIndex, 0, correctOption);
+    return {
+      id: `l${exerciseIndex + 1}`,
+      type: 'mcq',
+      prompt: exercise.prompt,
+      options: options.map((option, optionIndex) => ({ id: `o${optionIndex + 1}`, text: option })),
+      correctOptionId: `o${targetIndex + 1}`,
+      explanation: exercise.explanation
+    };
+  });
+  const normalizedListeningExercises = listeningQuestions.map((question, exerciseIndex) => ({
+    type: 'mcq',
+    prompt: question.prompt,
+    options: question.options.map((option) => option.text),
+    answer: exerciseIndex,
+    explanation: question.explanation
+  }));
   const grammarExercises = buildAlignedGrammarExercises(spec);
   const vocabulary = words.map((word, wordIndex) => ({
     word,
@@ -1143,19 +1168,12 @@ function buildUnit(level, spec, index) {
         transcript: authoredListening?.transcript || alignedListening.transcript,
         dialogue: [],
         phrases: authoredListening?.phrases || alignedListening.phrases,
-        exercises: listeningExercises,
+        exercises: normalizedListeningExercises,
         listeningComprehension: {
           id: `spanish-${level.toLowerCase()}-${slug}-listening-comprehension`,
           passingScore: 70,
           editoriallyReviewed: level === 'C1' || level === 'C2',
-          questions: listeningExercises.map((exercise, exerciseIndex) => ({
-            id: `l${exerciseIndex + 1}`,
-            type: 'mcq',
-            prompt: exercise.prompt,
-            options: exercise.options.map((option, optionIndex) => ({ id: `o${optionIndex + 1}`, text: option })),
-            correctOptionId: `o${exercise.answer + 1}`,
-            explanation: exercise.explanation
-          }))
+          questions: listeningQuestions
         }
       }),
       speaking: activity('speaking', {
