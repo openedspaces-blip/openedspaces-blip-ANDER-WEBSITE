@@ -241,10 +241,10 @@ function test(topic, exercises) {
     questions:exercises.map((exercise,index)=>({
       id:`english-c2-${topic[0]}-grammar-q${index+1}`,
       type:'mcq',
-      prompt:exercise.prompt,
+      prompt:`🕵️ Grammar Detective — Challenge ${index+1}: ${exercise.prompt}`,
       options:exercise.options.map((text,optionIndex)=>({id:['a','b','c','d'][optionIndex],text})),
       correctOptionId:['a','b','c','d'][exercise.answer],
-      explanation:exercise.explanation
+      explanation:`✅ Case solved: ${exercise.explanation}`
     }))
   };
 }

@@ -343,13 +343,13 @@ function grammarTest(topic, exercises) {
     questions: exercises.map((exercise, index) => ({
       id: `french-c2-${topic.slug}-grammar-q${index + 1}`,
       type: 'mcq',
-      prompt: exercise.prompt,
+      prompt: `🕵️ Détective de la grammaire — Défi ${index + 1} : ${exercise.prompt}`,
       options: exercise.options.map((text, optionIndex) => ({
         id: ['a', 'b', 'c', 'd'][optionIndex],
         text
       })),
       correctOptionId: ['a', 'b', 'c', 'd'][exercise.answer],
-      explanation: exercise.explanation,
+      explanation: `✅ Enquête résolue : ${exercise.explanation}`,
       difficulty: index < 5 ? 'intermédiaire' : index < 12 ? 'avancé' : 'maîtrise'
     }))
   };

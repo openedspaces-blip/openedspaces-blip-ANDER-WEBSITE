@@ -586,10 +586,10 @@ function grammarTest(slug, exercises) {
     questions: exercises.map((exercise, index) => ({
       id: `q${index + 1}`,
       type: 'mcq',
-      prompt: exercise.prompt,
+      prompt: `🕵️ Détective de la grammaire — Défi ${index + 1} : ${exercise.prompt}`,
       options: exercise.options.map((text, optionIndex) => ({ id: `o${optionIndex + 1}`, text })),
       correctOptionId: `o${exercise.answer + 1}`,
-      explanation: exercise.explanation || 'La réponse respecte la structure grammaticale étudiée dans cette unité.',
+      explanation: `✅ Enquête résolue : ${exercise.explanation || 'La réponse respecte la structure grammaticale étudiée dans cette unité.'}`,
       difficulty: index < 2 ? 'easy' : index < 6 ? 'medium' : 'hard'
     }))
   };

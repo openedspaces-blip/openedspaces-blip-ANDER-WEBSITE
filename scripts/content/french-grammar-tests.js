@@ -10,15 +10,15 @@ function mcqQuestion(level, unitSlug, exercise, index) {
   return {
     id: `french-${level.toLowerCase()}-${unitSlug}-grammar-q${index + 1}`,
     type: 'mcq',
-    prompt: exercise.prompt,
+    prompt: `🕵️ Détective de la grammaire — Défi ${index + 1} : ${exercise.prompt}`,
     options: (exercise.options || []).map((text, optionIndex) => ({
       id: OPTION_IDS[optionIndex] || `o${optionIndex + 1}`,
       text
     })),
     correctOptionId: OPTION_IDS[exercise.answer] || `o${exercise.answer + 1}`,
     explanation:
-      exercise.explanation ||
-      `La bonne réponse est « ${(exercise.options || [])[exercise.answer]} » : elle respecte la structure étudiée dans cette leçon.`,
+      `✅ Enquête résolue : ${exercise.explanation ||
+      `La bonne réponse est « ${(exercise.options || [])[exercise.answer]} » : elle respecte la structure étudiée dans cette leçon.`}`,
     difficulty: index < 2 ? 'application' : 'consolidation'
   };
 }
@@ -35,8 +35,8 @@ function correctionQuestion(level, unitSlug, exercise, index) {
     id: `french-${level.toLowerCase()}-${unitSlug}-grammar-q${index + 5}`,
     type: 'fill_blank',
     prompt: hasSentence
-      ? `Corrige la phrase suivante : « ${incorrectSentence} »`
-      : `Remplace la réponse incorrecte « ${incorrect} » par la bonne réponse à cette question : « ${exercise.prompt} »`,
+      ? `🚨 Chasse à l'erreur ! Corrige la phrase suivante : « ${incorrectSentence} »`
+      : `🚨 Chasse à l'erreur ! Remplace la réponse incorrecte « ${incorrect} » par la bonne réponse à cette question : « ${exercise.prompt} »`,
     acceptedAnswers: hasSentence ? [correct, correctedSentence] : [correct],
     explanation: hasSentence
       ? `La phrase correcte est : « ${correctedSentence} »`

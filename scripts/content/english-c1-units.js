@@ -467,10 +467,10 @@ function grammarTest(topic, exercises) {
     questions: exercises.map((exercise, index) => ({
       id: `english-c1-${topic.slug}-grammar-q${index + 1}`,
       type: 'mcq',
-      prompt: exercise.prompt,
+      prompt: `🕵️ Grammar Detective — Challenge ${index + 1}: ${exercise.prompt}`,
       options: exercise.options.map((text, optionIndex) => ({ id: ['a','b','c','d'][optionIndex], text })),
       correctOptionId: ['a','b','c','d'][exercise.answer],
-      explanation: exercise.explanation || topic.rule,
+      explanation: `✅ Case solved: ${exercise.explanation || topic.rule}`,
       difficulty: index < 2 ? 'medium' : 'hard'
     }))
   };

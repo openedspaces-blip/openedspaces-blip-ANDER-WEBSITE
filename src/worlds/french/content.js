@@ -4280,7 +4280,7 @@
           {
             "id": "french-c1-la-rentree-universitaire-grammar-q1",
             "type": "mcq",
-            "prompt": "___ cette liberté qui l’impressionne le plus.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 1 : ___ cette liberté qui l’impressionne le plus.",
             "difficulty": "application",
             "options": [
               {
@@ -4304,7 +4304,7 @@
           {
             "id": "french-c1-la-rentree-universitaire-grammar-q2",
             "type": "mcq",
-            "prompt": "C’est à elle ___ il revient d’organiser son parcours.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 2 : C’est à elle ___ il revient d’organiser son parcours.",
             "difficulty": "application",
             "options": [
               {
@@ -4328,7 +4328,7 @@
           {
             "id": "french-c1-la-rentree-universitaire-grammar-q3",
             "type": "mcq",
-            "prompt": "Il semble que cette expérience lui ___ énormément appris.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 3 : Il semble que cette expérience lui ___ énormément appris.",
             "difficulty": "consolidation",
             "options": [
               {
@@ -4352,7 +4352,7 @@
           {
             "id": "french-c1-la-rentree-universitaire-grammar-q4",
             "type": "mcq",
-            "prompt": "Quelle structure met en relief le sujet de la phrase ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 4 : Quelle structure met en relief le sujet de la phrase ?",
             "difficulty": "consolidation",
             "options": [
               {
@@ -4376,7 +4376,7 @@
           {
             "id": "french-c1-la-rentree-universitaire-grammar-q5",
             "type": "ordering",
-            "prompt": "Corrige la phrase suivante : « Ça cette liberté qui l’impressionne le plus. »",
+            "prompt": "🚨 Chasse à l'erreur ! Corrige la phrase suivante : « Ça cette liberté qui l’impressionne le plus. »",
             "difficulty": "consolidation",
             "items": [
               {
@@ -4397,13 +4397,13 @@
           {
             "id": "french-c1-la-rentree-universitaire-grammar-q6",
             "type": "fill_blank",
-            "prompt": "Corrige la phrase suivante : « C’est à elle qui il revient d’organiser son parcours. »",
+            "prompt": "🚨 Chasse à l'erreur ! Corrige la phrase suivante : « C’est à elle qui il revient d’organiser son parcours. »",
             "difficulty": "consolidation"
           },
           {
             "id": "french-c1-la-rentree-universitaire-grammar-q7",
             "type": "ordering",
-            "prompt": "Corrige la phrase suivante : « Il semble que cette expérience lui a énormément appris. »",
+            "prompt": "🚨 Chasse à l'erreur ! Corrige la phrase suivante : « Il semble que cette expérience lui a énormément appris. »",
             "difficulty": "consolidation",
             "items": [
               {
@@ -4424,7 +4424,7 @@
           {
             "id": "french-c1-la-rentree-universitaire-grammar-q8",
             "type": "fill_blank",
-            "prompt": "Remplace la réponse incorrecte « C’est... que » par la bonne réponse à cette question : « Quelle structure met en relief le sujet de la phrase ? »",
+            "prompt": "🚨 Chasse à l'erreur ! Remplace la réponse incorrecte « C’est... que » par la bonne réponse à cette question : « Quelle structure met en relief le sujet de la phrase ? »",
             "difficulty": "consolidation"
           }
         ]
@@ -4507,7 +4507,7 @@
           {
             "id": "french-c2-neuroplasticite-adulte-grammar-q1",
             "type": "mcq",
-            "prompt": "Quelle phrase maîtrise correctement « La concession stratifiée et la contre-attente » ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 1 : Quelle phrase maîtrise correctement « La concession stratifiée et la contre-attente » ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -4531,7 +4531,7 @@
           {
             "id": "french-c2-neuroplasticite-adulte-grammar-q2",
             "type": "mcq",
-            "prompt": "Quelle formulation répond le mieux à l’objectif suivant : accorder une part de validité à une objection sans abandonner une conclusion délimitée ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 2 : Quelle formulation répond le mieux à l’objectif suivant : accorder une part de validité à une objection sans abandonner une conclusion délimitée ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -4555,7 +4555,7 @@
           {
             "id": "french-c2-neuroplasticite-adulte-grammar-q3",
             "type": "mcq",
-            "prompt": "Quelle phrase calibre le plus précisément le degré de certitude ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 3 : Quelle phrase calibre le plus précisément le degré de certitude ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -4579,7 +4579,7 @@
           {
             "id": "french-c2-neuroplasticite-adulte-grammar-q4",
             "type": "mcq",
-            "prompt": "Quelle option maintient un registre formel et maîtrisé ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 4 : Quelle option maintient un registre formel et maîtrisé ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -4603,7 +4603,7 @@
           {
             "id": "french-c2-neuroplasticite-adulte-grammar-q5",
             "type": "mcq",
-            "prompt": "Quelle phrase distingue clairement preuve et inférence ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 5 : Quelle phrase distingue clairement preuve et inférence ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -4627,7 +4627,7 @@
           {
             "id": "french-c2-neuroplasticite-adulte-grammar-q6",
             "type": "mcq",
-            "prompt": "Quelle formulation évite d’effacer la responsabilité ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 6 : Quelle formulation évite d’effacer la responsabilité ?",
             "difficulty": "avancé",
             "options": [
               {
@@ -4651,7 +4651,7 @@
           {
             "id": "french-c2-neuroplasticite-adulte-grammar-q7",
             "type": "mcq",
-            "prompt": "Quelle phrase intègre un contre-argument substantiel ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 7 : Quelle phrase intègre un contre-argument substantiel ?",
             "difficulty": "avancé",
             "options": [
               {
@@ -4675,7 +4675,7 @@
           {
             "id": "french-c2-neuroplasticite-adulte-grammar-q8",
             "type": "mcq",
-            "prompt": "Quelle conclusion est correctement nuancée ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 8 : Quelle conclusion est correctement nuancée ?",
             "difficulty": "avancé",
             "options": [
               {
@@ -10021,7 +10021,7 @@
           {
             "id": "french-c1-un-exposer-a-preparer-grammar-q1",
             "type": "mcq",
-            "prompt": "Le professeur avait répondu qu’il ___ pas exclu qu’un tel travail soit plus riche.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 1 : Le professeur avait répondu qu’il ___ pas exclu qu’un tel travail soit plus riche.",
             "difficulty": "application",
             "options": [
               {
@@ -10045,7 +10045,7 @@
           {
             "id": "french-c1-un-exposer-a-preparer-grammar-q2",
             "type": "mcq",
-            "prompt": "Il avait ajouté qu’il ___ cette compétence tout aussi précieuse.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 2 : Il avait ajouté qu’il ___ cette compétence tout aussi précieuse.",
             "difficulty": "application",
             "options": [
               {
@@ -10069,7 +10069,7 @@
           {
             "id": "french-c1-un-exposer-a-preparer-grammar-q3",
             "type": "mcq",
-            "prompt": "Il est probable que le groupe ___ un compromis.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 3 : Il est probable que le groupe ___ un compromis.",
             "difficulty": "consolidation",
             "options": [
               {
@@ -10093,7 +10093,7 @@
           {
             "id": "french-c1-un-exposer-a-preparer-grammar-q4",
             "type": "mcq",
-            "prompt": "Au discours rapporté au passé, le futur simple devient...",
+            "prompt": "🕵️ Détective de la grammaire — Défi 4 : Au discours rapporté au passé, le futur simple devient...",
             "difficulty": "consolidation",
             "options": [
               {
@@ -10117,7 +10117,7 @@
           {
             "id": "french-c1-un-exposer-a-preparer-grammar-q5",
             "type": "ordering",
-            "prompt": "Corrige la phrase suivante : « Le professeur avait répondu qu’il n’est pas exclu qu’un tel travail soit plus riche. »",
+            "prompt": "🚨 Chasse à l'erreur ! Corrige la phrase suivante : « Le professeur avait répondu qu’il n’est pas exclu qu’un tel travail soit plus riche. »",
             "difficulty": "consolidation",
             "items": [
               {
@@ -10146,13 +10146,13 @@
           {
             "id": "french-c1-un-exposer-a-preparer-grammar-q6",
             "type": "fill_blank",
-            "prompt": "Corrige la phrase suivante : « Il avait ajouté qu’il juge cette compétence tout aussi précieuse. »",
+            "prompt": "🚨 Chasse à l'erreur ! Corrige la phrase suivante : « Il avait ajouté qu’il juge cette compétence tout aussi précieuse. »",
             "difficulty": "consolidation"
           },
           {
             "id": "french-c1-un-exposer-a-preparer-grammar-q7",
             "type": "ordering",
-            "prompt": "Corrige la phrase suivante : « Il est probable que le groupe trouvera un compromis. »",
+            "prompt": "🚨 Chasse à l'erreur ! Corrige la phrase suivante : « Il est probable que le groupe trouvera un compromis. »",
             "difficulty": "consolidation",
             "items": [
               {
@@ -10173,7 +10173,7 @@
           {
             "id": "french-c1-un-exposer-a-preparer-grammar-q8",
             "type": "fill_blank",
-            "prompt": "Remplace la réponse incorrecte « Le passé composé » par la bonne réponse à cette question : « Au discours rapporté au passé, le futur simple devient... »",
+            "prompt": "🚨 Chasse à l'erreur ! Remplace la réponse incorrecte « Le passé composé » par la bonne réponse à cette question : « Au discours rapporté au passé, le futur simple devient... »",
             "difficulty": "consolidation"
           }
         ]
@@ -10256,7 +10256,7 @@
           {
             "id": "french-c2-recuperation-espacee-grammar-q1",
             "type": "mcq",
-            "prompt": "Quelle phrase maîtrise correctement « La modalisation épistémique de haute précision » ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 1 : Quelle phrase maîtrise correctement « La modalisation épistémique de haute précision » ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -10280,7 +10280,7 @@
           {
             "id": "french-c2-recuperation-espacee-grammar-q2",
             "type": "mcq",
-            "prompt": "Quelle formulation répond le mieux à l’objectif suivant : distinguer résultat robuste, probabilité, hypothèse et simple possibilité ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 2 : Quelle formulation répond le mieux à l’objectif suivant : distinguer résultat robuste, probabilité, hypothèse et simple possibilité ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -10304,7 +10304,7 @@
           {
             "id": "french-c2-recuperation-espacee-grammar-q3",
             "type": "mcq",
-            "prompt": "Quelle phrase calibre le plus précisément le degré de certitude ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 3 : Quelle phrase calibre le plus précisément le degré de certitude ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -10328,7 +10328,7 @@
           {
             "id": "french-c2-recuperation-espacee-grammar-q4",
             "type": "mcq",
-            "prompt": "Quelle option maintient un registre formel et maîtrisé ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 4 : Quelle option maintient un registre formel et maîtrisé ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -10352,7 +10352,7 @@
           {
             "id": "french-c2-recuperation-espacee-grammar-q5",
             "type": "mcq",
-            "prompt": "Quelle phrase distingue clairement preuve et inférence ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 5 : Quelle phrase distingue clairement preuve et inférence ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -10376,7 +10376,7 @@
           {
             "id": "french-c2-recuperation-espacee-grammar-q6",
             "type": "mcq",
-            "prompt": "Quelle formulation évite d’effacer la responsabilité ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 6 : Quelle formulation évite d’effacer la responsabilité ?",
             "difficulty": "avancé",
             "options": [
               {
@@ -10400,7 +10400,7 @@
           {
             "id": "french-c2-recuperation-espacee-grammar-q7",
             "type": "mcq",
-            "prompt": "Quelle phrase intègre un contre-argument substantiel ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 7 : Quelle phrase intègre un contre-argument substantiel ?",
             "difficulty": "avancé",
             "options": [
               {
@@ -10424,7 +10424,7 @@
           {
             "id": "french-c2-recuperation-espacee-grammar-q8",
             "type": "mcq",
-            "prompt": "Quelle conclusion est correctement nuancée ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 8 : Quelle conclusion est correctement nuancée ?",
             "difficulty": "avancé",
             "options": [
               {
@@ -15539,7 +15539,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "« Le ministère a annoncé la réforme » devient...",
+            "prompt": "🕵️ Détective de la grammaire — Défi 1 : « Le ministère a annoncé la réforme » devient...",
             "difficulty": "easy",
             "options": [
               {
@@ -15563,7 +15563,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "___ de comparer les sources avant de conclure.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 2 : ___ de comparer les sources avant de conclure.",
             "difficulty": "easy",
             "options": [
               {
@@ -15587,7 +15587,7 @@
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "___ que les titres orientent la lecture.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 3 : ___ que les titres orientent la lecture.",
             "difficulty": "medium",
             "options": [
               {
@@ -15611,7 +15611,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "« Les étudiants contestent la mesure » devient...",
+            "prompt": "🕵️ Détective de la grammaire — Défi 4 : « Les étudiants contestent la mesure » devient...",
             "difficulty": "medium",
             "options": [
               {
@@ -15635,7 +15635,7 @@
           {
             "id": "q5",
             "type": "mcq",
-            "prompt": "Force est de ___ que les angles diffèrent.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 5 : Force est de ___ que les angles diffèrent.",
             "difficulty": "medium",
             "options": [
               {
@@ -15659,7 +15659,7 @@
           {
             "id": "q6",
             "type": "mcq",
-            "prompt": "La ___ des informations influence leur réception.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 6 : La ___ des informations influence leur réception.",
             "difficulty": "medium",
             "options": [
               {
@@ -15683,7 +15683,7 @@
           {
             "id": "q7",
             "type": "mcq",
-            "prompt": "Quelle formulation appartient au registre analytique ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 7 : Quelle formulation appartient au registre analytique ?",
             "difficulty": "hard",
             "options": [
               {
@@ -15707,7 +15707,7 @@
           {
             "id": "q8",
             "type": "mcq",
-            "prompt": "Choisis la phrase correctement nominalisée.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 8 : Choisis la phrase correctement nominalisée.",
             "difficulty": "hard",
             "options": [
               {
@@ -15856,7 +15856,7 @@
           {
             "id": "french-c2-sommeil-consolidation-grammar-q1",
             "type": "mcq",
-            "prompt": "Quelle phrase maîtrise correctement « La temporalité complexe et le futur antérieur » ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 1 : Quelle phrase maîtrise correctement « La temporalité complexe et le futur antérieur » ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -15880,7 +15880,7 @@
           {
             "id": "french-c2-sommeil-consolidation-grammar-q2",
             "type": "mcq",
-            "prompt": "Quelle formulation répond le mieux à l’objectif suivant : ordonner encodage, consolidation et récupération sans confondre succession et causalité ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 2 : Quelle formulation répond le mieux à l’objectif suivant : ordonner encodage, consolidation et récupération sans confondre succession et causalité ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -15904,7 +15904,7 @@
           {
             "id": "french-c2-sommeil-consolidation-grammar-q3",
             "type": "mcq",
-            "prompt": "Quelle phrase calibre le plus précisément le degré de certitude ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 3 : Quelle phrase calibre le plus précisément le degré de certitude ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -15928,7 +15928,7 @@
           {
             "id": "french-c2-sommeil-consolidation-grammar-q4",
             "type": "mcq",
-            "prompt": "Quelle option maintient un registre formel et maîtrisé ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 4 : Quelle option maintient un registre formel et maîtrisé ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -15952,7 +15952,7 @@
           {
             "id": "french-c2-sommeil-consolidation-grammar-q5",
             "type": "mcq",
-            "prompt": "Quelle phrase distingue clairement preuve et inférence ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 5 : Quelle phrase distingue clairement preuve et inférence ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -15976,7 +15976,7 @@
           {
             "id": "french-c2-sommeil-consolidation-grammar-q6",
             "type": "mcq",
-            "prompt": "Quelle formulation évite d’effacer la responsabilité ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 6 : Quelle formulation évite d’effacer la responsabilité ?",
             "difficulty": "avancé",
             "options": [
               {
@@ -16000,7 +16000,7 @@
           {
             "id": "french-c2-sommeil-consolidation-grammar-q7",
             "type": "mcq",
-            "prompt": "Quelle phrase intègre un contre-argument substantiel ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 7 : Quelle phrase intègre un contre-argument substantiel ?",
             "difficulty": "avancé",
             "options": [
               {
@@ -16024,7 +16024,7 @@
           {
             "id": "french-c2-sommeil-consolidation-grammar-q8",
             "type": "mcq",
-            "prompt": "Quelle conclusion est correctement nuancée ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 8 : Quelle conclusion est correctement nuancée ?",
             "difficulty": "avancé",
             "options": [
               {
@@ -21344,7 +21344,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "___ l’outil soit rapide, il simplifie parfois le style.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 1 : ___ l’outil soit rapide, il simplifie parfois le style.",
             "difficulty": "easy",
             "options": [
               {
@@ -21368,7 +21368,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quand bien même la machine ___, une révision resterait nécessaire.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 2 : Quand bien même la machine ___, une révision resterait nécessaire.",
             "difficulty": "easy",
             "options": [
               {
@@ -21392,7 +21392,7 @@
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Camila a beau ___ le résultat, une nuance lui échappe.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 3 : Camila a beau ___ le résultat, une nuance lui échappe.",
             "difficulty": "medium",
             "options": [
               {
@@ -21416,7 +21416,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Quoique cette version ___ fluide, elle manque de rythme.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 4 : Quoique cette version ___ fluide, elle manque de rythme.",
             "difficulty": "medium",
             "options": [
               {
@@ -21440,7 +21440,7 @@
           {
             "id": "q5",
             "type": "mcq",
-            "prompt": "___ ses avantages, l’outil ne résout pas tout.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 5 : ___ ses avantages, l’outil ne résout pas tout.",
             "difficulty": "medium",
             "options": [
               {
@@ -21464,7 +21464,7 @@
           {
             "id": "q6",
             "type": "mcq",
-            "prompt": "Il a beau être correct, ce passage ___ la voix originale.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 6 : Il a beau être correct, ce passage ___ la voix originale.",
             "difficulty": "medium",
             "options": [
               {
@@ -21488,7 +21488,7 @@
           {
             "id": "q7",
             "type": "mcq",
-            "prompt": "Quelle phrase exprime une concession hypothétique ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 7 : Quelle phrase exprime une concession hypothétique ?",
             "difficulty": "hard",
             "options": [
               {
@@ -21512,7 +21512,7 @@
           {
             "id": "q8",
             "type": "mcq",
-            "prompt": "Choisis la construction correcte.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 8 : Choisis la construction correcte.",
             "difficulty": "hard",
             "options": [
               {
@@ -21661,7 +21661,7 @@
           {
             "id": "french-c2-input-comprehensible-grammar-q1",
             "type": "mcq",
-            "prompt": "Quelle phrase maîtrise correctement « La nominalisation critique et la restitution de l’agent » ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 1 : Quelle phrase maîtrise correctement « La nominalisation critique et la restitution de l’agent » ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -21685,7 +21685,7 @@
           {
             "id": "french-c2-input-comprehensible-grammar-q2",
             "type": "mcq",
-            "prompt": "Quelle formulation répond le mieux à l’objectif suivant : densifier un raisonnement sans effacer qui apprend, mesure ou intervient ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 2 : Quelle formulation répond le mieux à l’objectif suivant : densifier un raisonnement sans effacer qui apprend, mesure ou intervient ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -21709,7 +21709,7 @@
           {
             "id": "french-c2-input-comprehensible-grammar-q3",
             "type": "mcq",
-            "prompt": "Quelle phrase calibre le plus précisément le degré de certitude ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 3 : Quelle phrase calibre le plus précisément le degré de certitude ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -21733,7 +21733,7 @@
           {
             "id": "french-c2-input-comprehensible-grammar-q4",
             "type": "mcq",
-            "prompt": "Quelle option maintient un registre formel et maîtrisé ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 4 : Quelle option maintient un registre formel et maîtrisé ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -21757,7 +21757,7 @@
           {
             "id": "french-c2-input-comprehensible-grammar-q5",
             "type": "mcq",
-            "prompt": "Quelle phrase distingue clairement preuve et inférence ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 5 : Quelle phrase distingue clairement preuve et inférence ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -21781,7 +21781,7 @@
           {
             "id": "french-c2-input-comprehensible-grammar-q6",
             "type": "mcq",
-            "prompt": "Quelle formulation évite d’effacer la responsabilité ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 6 : Quelle formulation évite d’effacer la responsabilité ?",
             "difficulty": "avancé",
             "options": [
               {
@@ -21805,7 +21805,7 @@
           {
             "id": "french-c2-input-comprehensible-grammar-q7",
             "type": "mcq",
-            "prompt": "Quelle phrase intègre un contre-argument substantiel ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 7 : Quelle phrase intègre un contre-argument substantiel ?",
             "difficulty": "avancé",
             "options": [
               {
@@ -21829,7 +21829,7 @@
           {
             "id": "french-c2-input-comprehensible-grammar-q8",
             "type": "mcq",
-            "prompt": "Quelle conclusion est correctement nuancée ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 8 : Quelle conclusion est correctement nuancée ?",
             "difficulty": "avancé",
             "options": [
               {
@@ -27093,7 +27093,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "La grand-mère lui ___ une boîte, puis Camila l’ouvrit.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 1 : La grand-mère lui ___ une boîte, puis Camila l’ouvrit.",
             "difficulty": "easy",
             "options": [
               {
@@ -27117,7 +27117,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "La boîte ___ depuis des années dans l’armoire.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 2 : La boîte ___ depuis des années dans l’armoire.",
             "difficulty": "easy",
             "options": [
               {
@@ -27141,7 +27141,7 @@
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "La grande-tante ___ en France avant d’écrire ces lettres.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 3 : La grande-tante ___ en France avant d’écrire ces lettres.",
             "difficulty": "medium",
             "options": [
               {
@@ -27165,7 +27165,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "« Était-il possible que la famille n’ait rien su ? » relève...",
+            "prompt": "🕵️ Détective de la grammaire — Défi 4 : « Était-il possible que la famille n’ait rien su ? » relève...",
             "difficulty": "medium",
             "options": [
               {
@@ -27189,7 +27189,7 @@
           {
             "id": "q5",
             "type": "mcq",
-            "prompt": "Choisis la succession narrative correcte.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 5 : Choisis la succession narrative correcte.",
             "difficulty": "medium",
             "options": [
               {
@@ -27213,7 +27213,7 @@
           {
             "id": "q6",
             "type": "mcq",
-            "prompt": "L’imparfait sert principalement à...",
+            "prompt": "🕵️ Détective de la grammaire — Défi 6 : L’imparfait sert principalement à...",
             "difficulty": "medium",
             "options": [
               {
@@ -27237,7 +27237,7 @@
           {
             "id": "q7",
             "type": "mcq",
-            "prompt": "Le plus-que-parfait marque...",
+            "prompt": "🕵️ Détective de la grammaire — Défi 7 : Le plus-que-parfait marque...",
             "difficulty": "hard",
             "options": [
               {
@@ -27261,7 +27261,7 @@
           {
             "id": "q8",
             "type": "mcq",
-            "prompt": "Quelle phrase adopte la perspective intérieure sans guillemets ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 8 : Quelle phrase adopte la perspective intérieure sans guillemets ?",
             "difficulty": "hard",
             "options": [
               {
@@ -27410,7 +27410,7 @@
           {
             "id": "french-c2-apprentissage-multimodal-grammar-q1",
             "type": "mcq",
-            "prompt": "Quelle phrase maîtrise correctement « Les connecteurs de cause, corrélation et conséquence » ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 1 : Quelle phrase maîtrise correctement « Les connecteurs de cause, corrélation et conséquence » ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -27434,7 +27434,7 @@
           {
             "id": "french-c2-apprentissage-multimodal-grammar-q2",
             "type": "mcq",
-            "prompt": "Quelle formulation répond le mieux à l’objectif suivant : éviter de transformer une association statistique en mécanisme causal ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 2 : Quelle formulation répond le mieux à l’objectif suivant : éviter de transformer une association statistique en mécanisme causal ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -27458,7 +27458,7 @@
           {
             "id": "french-c2-apprentissage-multimodal-grammar-q3",
             "type": "mcq",
-            "prompt": "Quelle phrase calibre le plus précisément le degré de certitude ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 3 : Quelle phrase calibre le plus précisément le degré de certitude ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -27482,7 +27482,7 @@
           {
             "id": "french-c2-apprentissage-multimodal-grammar-q4",
             "type": "mcq",
-            "prompt": "Quelle option maintient un registre formel et maîtrisé ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 4 : Quelle option maintient un registre formel et maîtrisé ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -27506,7 +27506,7 @@
           {
             "id": "french-c2-apprentissage-multimodal-grammar-q5",
             "type": "mcq",
-            "prompt": "Quelle phrase distingue clairement preuve et inférence ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 5 : Quelle phrase distingue clairement preuve et inférence ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -27530,7 +27530,7 @@
           {
             "id": "french-c2-apprentissage-multimodal-grammar-q6",
             "type": "mcq",
-            "prompt": "Quelle formulation évite d’effacer la responsabilité ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 6 : Quelle formulation évite d’effacer la responsabilité ?",
             "difficulty": "avancé",
             "options": [
               {
@@ -27554,7 +27554,7 @@
           {
             "id": "french-c2-apprentissage-multimodal-grammar-q7",
             "type": "mcq",
-            "prompt": "Quelle phrase intègre un contre-argument substantiel ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 7 : Quelle phrase intègre un contre-argument substantiel ?",
             "difficulty": "avancé",
             "options": [
               {
@@ -27578,7 +27578,7 @@
           {
             "id": "french-c2-apprentissage-multimodal-grammar-q8",
             "type": "mcq",
-            "prompt": "Quelle conclusion est correctement nuancée ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 8 : Quelle conclusion est correctement nuancée ?",
             "difficulty": "avancé",
             "options": [
               {
@@ -32789,7 +32789,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "___ le mérite compte, il n’explique pas tout.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 1 : ___ le mérite compte, il n’explique pas tout.",
             "difficulty": "easy",
             "options": [
               {
@@ -32813,7 +32813,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "La procédure est identique ; ___, ses effets diffèrent.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 2 : La procédure est identique ; ___, ses effets diffèrent.",
             "difficulty": "easy",
             "options": [
               {
@@ -32837,7 +32837,7 @@
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Encore faut-il que les candidats ___ accès à l’information.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 3 : Encore faut-il que les candidats ___ accès à l’information.",
             "difficulty": "medium",
             "options": [
               {
@@ -32861,7 +32861,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Loin de ___ la responsabilité, cette analyse la précise.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 4 : Loin de ___ la responsabilité, cette analyse la précise.",
             "difficulty": "medium",
             "options": [
               {
@@ -32885,7 +32885,7 @@
           {
             "id": "q5",
             "type": "mcq",
-            "prompt": "Quel connecteur introduit une réfutation après concession ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 5 : Quel connecteur introduit une réfutation après concession ?",
             "difficulty": "medium",
             "options": [
               {
@@ -32909,7 +32909,7 @@
           {
             "id": "q6",
             "type": "mcq",
-            "prompt": "___ traiter chacun pareil, l’équité examine les obstacles.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 6 : ___ traiter chacun pareil, l’équité examine les obstacles.",
             "difficulty": "medium",
             "options": [
               {
@@ -32933,7 +32933,7 @@
           {
             "id": "q7",
             "type": "mcq",
-            "prompt": "Choisis la formulation la plus structurée.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 7 : Choisis la formulation la plus structurée.",
             "difficulty": "hard",
             "options": [
               {
@@ -32957,7 +32957,7 @@
           {
             "id": "q8",
             "type": "mcq",
-            "prompt": "« Non que l’effort soit inutile, mais... » exige...",
+            "prompt": "🕵️ Détective de la grammaire — Défi 8 : « Non que l’effort soit inutile, mais... » exige...",
             "difficulty": "hard",
             "options": [
               {
@@ -33106,7 +33106,7 @@
           {
             "id": "french-c2-interaction-production-grammar-q1",
             "type": "mcq",
-            "prompt": "Quelle phrase maîtrise correctement « La polyphonie et le discours rapporté complexe » ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 1 : Quelle phrase maîtrise correctement « La polyphonie et le discours rapporté complexe » ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -33130,7 +33130,7 @@
           {
             "id": "french-c2-interaction-production-grammar-q2",
             "type": "mcq",
-            "prompt": "Quelle formulation répond le mieux à l’objectif suivant : attribuer correctement résultats, interprétations et réserves aux chercheurs ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 2 : Quelle formulation répond le mieux à l’objectif suivant : attribuer correctement résultats, interprétations et réserves aux chercheurs ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -33154,7 +33154,7 @@
           {
             "id": "french-c2-interaction-production-grammar-q3",
             "type": "mcq",
-            "prompt": "Quelle phrase calibre le plus précisément le degré de certitude ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 3 : Quelle phrase calibre le plus précisément le degré de certitude ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -33178,7 +33178,7 @@
           {
             "id": "french-c2-interaction-production-grammar-q4",
             "type": "mcq",
-            "prompt": "Quelle option maintient un registre formel et maîtrisé ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 4 : Quelle option maintient un registre formel et maîtrisé ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -33202,7 +33202,7 @@
           {
             "id": "french-c2-interaction-production-grammar-q5",
             "type": "mcq",
-            "prompt": "Quelle phrase distingue clairement preuve et inférence ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 5 : Quelle phrase distingue clairement preuve et inférence ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -33226,7 +33226,7 @@
           {
             "id": "french-c2-interaction-production-grammar-q6",
             "type": "mcq",
-            "prompt": "Quelle formulation évite d’effacer la responsabilité ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 6 : Quelle formulation évite d’effacer la responsabilité ?",
             "difficulty": "avancé",
             "options": [
               {
@@ -33250,7 +33250,7 @@
           {
             "id": "french-c2-interaction-production-grammar-q7",
             "type": "mcq",
-            "prompt": "Quelle phrase intègre un contre-argument substantiel ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 7 : Quelle phrase intègre un contre-argument substantiel ?",
             "difficulty": "avancé",
             "options": [
               {
@@ -33274,7 +33274,7 @@
           {
             "id": "french-c2-interaction-production-grammar-q8",
             "type": "mcq",
-            "prompt": "Quelle conclusion est correctement nuancée ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 8 : Quelle conclusion est correctement nuancée ?",
             "difficulty": "avancé",
             "options": [
               {
@@ -38493,7 +38493,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Si l’université avait rénové plus tôt, elle ___ moins consommé.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 1 : Si l’université avait rénové plus tôt, elle ___ moins consommé.",
             "difficulty": "easy",
             "options": [
               {
@@ -38517,7 +38517,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Si la bibliothèque ___ fermé, certains étudiants auraient été exclus.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 2 : Si la bibliothèque ___ fermé, certains étudiants auraient été exclus.",
             "difficulty": "easy",
             "options": [
               {
@@ -38541,7 +38541,7 @@
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "D’après le rapport, les émissions ___ déjà diminué.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 3 : D’après le rapport, les émissions ___ déjà diminué.",
             "difficulty": "medium",
             "options": [
               {
@@ -38565,7 +38565,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Sans cette consultation, la mesure ___ moins équitable.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 4 : Sans cette consultation, la mesure ___ moins équitable.",
             "difficulty": "medium",
             "options": [
               {
@@ -38589,7 +38589,7 @@
           {
             "id": "q5",
             "type": "mcq",
-            "prompt": "Choisis l’hypothèse irréelle du passé.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 5 : Choisis l’hypothèse irréelle du passé.",
             "difficulty": "medium",
             "options": [
               {
@@ -38613,7 +38613,7 @@
           {
             "id": "q6",
             "type": "mcq",
-            "prompt": "Le conditionnel journalistique peut signaler...",
+            "prompt": "🕵️ Détective de la grammaire — Défi 6 : Le conditionnel journalistique peut signaler...",
             "difficulty": "medium",
             "options": [
               {
@@ -38637,7 +38637,7 @@
           {
             "id": "q7",
             "type": "mcq",
-            "prompt": "Si les efforts avaient été proportionnés, la réforme ___ mieux acceptée.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 7 : Si les efforts avaient été proportionnés, la réforme ___ mieux acceptée.",
             "difficulty": "hard",
             "options": [
               {
@@ -38661,7 +38661,7 @@
           {
             "id": "q8",
             "type": "mcq",
-            "prompt": "Quelle phrase est correcte ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 8 : Quelle phrase est correcte ?",
             "difficulty": "hard",
             "options": [
               {
@@ -38810,7 +38810,7 @@
           {
             "id": "french-c2-feedback-correctif-grammar-q1",
             "type": "mcq",
-            "prompt": "Quelle phrase maîtrise correctement « Le subjonctif dans l’évaluation, la restriction et le doute » ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 1 : Quelle phrase maîtrise correctement « Le subjonctif dans l’évaluation, la restriction et le doute » ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -38834,7 +38834,7 @@
           {
             "id": "french-c2-feedback-correctif-grammar-q2",
             "type": "mcq",
-            "prompt": "Quelle formulation répond le mieux à l’objectif suivant : formuler une correction exigeante sans présenter une préférence comme un fait ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 2 : Quelle formulation répond le mieux à l’objectif suivant : formuler une correction exigeante sans présenter une préférence comme un fait ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -38858,7 +38858,7 @@
           {
             "id": "french-c2-feedback-correctif-grammar-q3",
             "type": "mcq",
-            "prompt": "Quelle phrase calibre le plus précisément le degré de certitude ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 3 : Quelle phrase calibre le plus précisément le degré de certitude ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -38882,7 +38882,7 @@
           {
             "id": "french-c2-feedback-correctif-grammar-q4",
             "type": "mcq",
-            "prompt": "Quelle option maintient un registre formel et maîtrisé ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 4 : Quelle option maintient un registre formel et maîtrisé ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -38906,7 +38906,7 @@
           {
             "id": "french-c2-feedback-correctif-grammar-q5",
             "type": "mcq",
-            "prompt": "Quelle phrase distingue clairement preuve et inférence ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 5 : Quelle phrase distingue clairement preuve et inférence ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -38930,7 +38930,7 @@
           {
             "id": "french-c2-feedback-correctif-grammar-q6",
             "type": "mcq",
-            "prompt": "Quelle formulation évite d’effacer la responsabilité ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 6 : Quelle formulation évite d’effacer la responsabilité ?",
             "difficulty": "avancé",
             "options": [
               {
@@ -38954,7 +38954,7 @@
           {
             "id": "french-c2-feedback-correctif-grammar-q7",
             "type": "mcq",
-            "prompt": "Quelle phrase intègre un contre-argument substantiel ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 7 : Quelle phrase intègre un contre-argument substantiel ?",
             "difficulty": "avancé",
             "options": [
               {
@@ -38978,7 +38978,7 @@
           {
             "id": "french-c2-feedback-correctif-grammar-q8",
             "type": "mcq",
-            "prompt": "Quelle conclusion est correctement nuancée ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 8 : Quelle conclusion est correctement nuancée ?",
             "difficulty": "avancé",
             "options": [
               {
@@ -44288,7 +44288,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "La norme ___ elle se conforme dépend du contexte.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 1 : La norme ___ elle se conforme dépend du contexte.",
             "difficulty": "easy",
             "options": [
               {
@@ -44312,7 +44312,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Voilà ce ___ Camila doute.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 2 : Voilà ce ___ Camila doute.",
             "difficulty": "easy",
             "options": [
               {
@@ -44336,7 +44336,7 @@
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Le contexte dans ___ elle parle est formel.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 3 : Le contexte dans ___ elle parle est formel.",
             "difficulty": "medium",
             "options": [
               {
@@ -44360,7 +44360,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Ce ___ elle tient, c’est le respect des voix.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 4 : Ce ___ elle tient, c’est le respect des voix.",
             "difficulty": "medium",
             "options": [
               {
@@ -44384,7 +44384,7 @@
           {
             "id": "q5",
             "type": "mcq",
-            "prompt": "La variété ___ on se moque peut être parfaitement structurée.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 5 : La variété ___ on se moque peut être parfaitement structurée.",
             "difficulty": "medium",
             "options": [
               {
@@ -44408,7 +44408,7 @@
           {
             "id": "q6",
             "type": "mcq",
-            "prompt": "Le principe au nom ___ on corrige doit être explicite.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 6 : Le principe au nom ___ on corrige doit être explicite.",
             "difficulty": "medium",
             "options": [
               {
@@ -44432,7 +44432,7 @@
           {
             "id": "q7",
             "type": "mcq",
-            "prompt": "Choisis la phrase correcte.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 7 : Choisis la phrase correcte.",
             "difficulty": "hard",
             "options": [
               {
@@ -44456,7 +44456,7 @@
           {
             "id": "q8",
             "type": "mcq",
-            "prompt": "« La situation à laquelle... » remplace...",
+            "prompt": "🕵️ Détective de la grammaire — Défi 8 : « La situation à laquelle... » remplace...",
             "difficulty": "hard",
             "options": [
               {
@@ -44605,7 +44605,7 @@
           {
             "id": "french-c2-perception-prononciation-grammar-q1",
             "type": "mcq",
-            "prompt": "Quelle phrase maîtrise correctement « Le passif, l’agentivité et la responsabilité discursive » ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 1 : Quelle phrase maîtrise correctement « Le passif, l’agentivité et la responsabilité discursive » ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -44629,7 +44629,7 @@
           {
             "id": "french-c2-perception-prononciation-grammar-q2",
             "type": "mcq",
-            "prompt": "Quelle formulation répond le mieux à l’objectif suivant : mettre le processus perceptif au premier plan tout en conservant les acteurs nécessaires ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 2 : Quelle formulation répond le mieux à l’objectif suivant : mettre le processus perceptif au premier plan tout en conservant les acteurs nécessaires ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -44653,7 +44653,7 @@
           {
             "id": "french-c2-perception-prononciation-grammar-q3",
             "type": "mcq",
-            "prompt": "Quelle phrase calibre le plus précisément le degré de certitude ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 3 : Quelle phrase calibre le plus précisément le degré de certitude ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -44677,7 +44677,7 @@
           {
             "id": "french-c2-perception-prononciation-grammar-q4",
             "type": "mcq",
-            "prompt": "Quelle option maintient un registre formel et maîtrisé ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 4 : Quelle option maintient un registre formel et maîtrisé ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -44701,7 +44701,7 @@
           {
             "id": "french-c2-perception-prononciation-grammar-q5",
             "type": "mcq",
-            "prompt": "Quelle phrase distingue clairement preuve et inférence ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 5 : Quelle phrase distingue clairement preuve et inférence ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -44725,7 +44725,7 @@
           {
             "id": "french-c2-perception-prononciation-grammar-q6",
             "type": "mcq",
-            "prompt": "Quelle formulation évite d’effacer la responsabilité ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 6 : Quelle formulation évite d’effacer la responsabilité ?",
             "difficulty": "avancé",
             "options": [
               {
@@ -44749,7 +44749,7 @@
           {
             "id": "french-c2-perception-prononciation-grammar-q7",
             "type": "mcq",
-            "prompt": "Quelle phrase intègre un contre-argument substantiel ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 7 : Quelle phrase intègre un contre-argument substantiel ?",
             "difficulty": "avancé",
             "options": [
               {
@@ -44773,7 +44773,7 @@
           {
             "id": "french-c2-perception-prononciation-grammar-q8",
             "type": "mcq",
-            "prompt": "Quelle conclusion est correctement nuancée ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 8 : Quelle conclusion est correctement nuancée ?",
             "difficulty": "avancé",
             "options": [
               {
@@ -49996,7 +49996,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Il est établi que les données ___ évolué.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 1 : Il est établi que les données ___ évolué.",
             "difficulty": "easy",
             "options": [
               {
@@ -50020,7 +50020,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Il est peu probable que cette hypothèse ___ suffisante.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 2 : Il est peu probable que cette hypothèse ___ suffisante.",
             "difficulty": "easy",
             "options": [
               {
@@ -50044,7 +50044,7 @@
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Rien ne prouve que l’étude ___ fausse.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 3 : Rien ne prouve que l’étude ___ fausse.",
             "difficulty": "medium",
             "options": [
               {
@@ -50068,7 +50068,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Il semble que les résultats ___ être révisés.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 4 : Il semble que les résultats ___ être révisés.",
             "difficulty": "medium",
             "options": [
               {
@@ -50092,7 +50092,7 @@
           {
             "id": "q5",
             "type": "mcq",
-            "prompt": "Nous savons avec certitude que la méthode ___ documentée.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 5 : Nous savons avec certitude que la méthode ___ documentée.",
             "difficulty": "medium",
             "options": [
               {
@@ -50116,7 +50116,7 @@
           {
             "id": "q6",
             "type": "mcq",
-            "prompt": "Le subjonctif présente ici le fait comme...",
+            "prompt": "🕵️ Détective de la grammaire — Défi 6 : Le subjonctif présente ici le fait comme...",
             "difficulty": "medium",
             "options": [
               {
@@ -50140,7 +50140,7 @@
           {
             "id": "q7",
             "type": "mcq",
-            "prompt": "Choisis la formulation la plus prudente.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 7 : Choisis la formulation la plus prudente.",
             "difficulty": "hard",
             "options": [
               {
@@ -50164,7 +50164,7 @@
           {
             "id": "q8",
             "type": "mcq",
-            "prompt": "Quelle phrase est correcte ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 8 : Quelle phrase est correcte ?",
             "difficulty": "hard",
             "options": [
               {
@@ -50313,7 +50313,7 @@
           {
             "id": "french-c2-anxiete-attention-grammar-q1",
             "type": "mcq",
-            "prompt": "Quelle phrase maîtrise correctement « Les systèmes hypothétiques complexes et l’irréel » ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 1 : Quelle phrase maîtrise correctement « Les systèmes hypothétiques complexes et l’irréel » ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -50337,7 +50337,7 @@
           {
             "id": "french-c2-anxiete-attention-grammar-q2",
             "type": "mcq",
-            "prompt": "Quelle formulation répond le mieux à l’objectif suivant : raisonner sur les effets possibles de l’anxiété sans annoncer une causalité non démontrée ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 2 : Quelle formulation répond le mieux à l’objectif suivant : raisonner sur les effets possibles de l’anxiété sans annoncer une causalité non démontrée ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -50361,7 +50361,7 @@
           {
             "id": "french-c2-anxiete-attention-grammar-q3",
             "type": "mcq",
-            "prompt": "Quelle phrase calibre le plus précisément le degré de certitude ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 3 : Quelle phrase calibre le plus précisément le degré de certitude ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -50385,7 +50385,7 @@
           {
             "id": "french-c2-anxiete-attention-grammar-q4",
             "type": "mcq",
-            "prompt": "Quelle option maintient un registre formel et maîtrisé ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 4 : Quelle option maintient un registre formel et maîtrisé ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -50409,7 +50409,7 @@
           {
             "id": "french-c2-anxiete-attention-grammar-q5",
             "type": "mcq",
-            "prompt": "Quelle phrase distingue clairement preuve et inférence ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 5 : Quelle phrase distingue clairement preuve et inférence ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -50433,7 +50433,7 @@
           {
             "id": "french-c2-anxiete-attention-grammar-q6",
             "type": "mcq",
-            "prompt": "Quelle formulation évite d’effacer la responsabilité ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 6 : Quelle formulation évite d’effacer la responsabilité ?",
             "difficulty": "avancé",
             "options": [
               {
@@ -50457,7 +50457,7 @@
           {
             "id": "french-c2-anxiete-attention-grammar-q7",
             "type": "mcq",
-            "prompt": "Quelle phrase intègre un contre-argument substantiel ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 7 : Quelle phrase intègre un contre-argument substantiel ?",
             "difficulty": "avancé",
             "options": [
               {
@@ -50481,7 +50481,7 @@
           {
             "id": "french-c2-anxiete-attention-grammar-q8",
             "type": "mcq",
-            "prompt": "Quelle conclusion est correctement nuancée ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 8 : Quelle conclusion est correctement nuancée ?",
             "difficulty": "avancé",
             "options": [
               {
@@ -55724,7 +55724,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "L’exposition ___ par la direction.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 1 : L’exposition ___ par la direction.",
             "difficulty": "easy",
             "options": [
               {
@@ -55748,7 +55748,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Le musée a fait ___ l’affiche.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 2 : Le musée a fait ___ l’affiche.",
             "difficulty": "easy",
             "options": [
               {
@@ -55772,7 +55772,7 @@
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Cette œuvre ___ à plusieurs niveaux.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 3 : Cette œuvre ___ à plusieurs niveaux.",
             "difficulty": "medium",
             "options": [
               {
@@ -55796,7 +55796,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Les témoignages doivent ___ correctement.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 4 : Les témoignages doivent ___ correctement.",
             "difficulty": "medium",
             "options": [
               {
@@ -55820,7 +55820,7 @@
           {
             "id": "q5",
             "type": "mcq",
-            "prompt": "Dans « la direction a fait modifier le cartel », qui modifie ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 5 : Dans « la direction a fait modifier le cartel », qui modifie ?",
             "difficulty": "medium",
             "options": [
               {
@@ -55844,7 +55844,7 @@
           {
             "id": "q6",
             "type": "mcq",
-            "prompt": "Le passif met ici l’accent sur...",
+            "prompt": "🕵️ Détective de la grammaire — Défi 6 : Le passif met ici l’accent sur...",
             "difficulty": "medium",
             "options": [
               {
@@ -55868,7 +55868,7 @@
           {
             "id": "q7",
             "type": "mcq",
-            "prompt": "Choisis le passif pronominal correct.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 7 : Choisis le passif pronominal correct.",
             "difficulty": "hard",
             "options": [
               {
@@ -55892,7 +55892,7 @@
           {
             "id": "q8",
             "type": "mcq",
-            "prompt": "Transformation correcte : « On a reporté l’exposition. »",
+            "prompt": "🕵️ Détective de la grammaire — Défi 8 : Transformation correcte : « On a reporté l’exposition. »",
             "difficulty": "hard",
             "options": [
               {
@@ -56041,7 +56041,7 @@
           {
             "id": "french-c2-age-differences-individuelles-grammar-q1",
             "type": "mcq",
-            "prompt": "Quelle phrase maîtrise correctement « Les relatives complexes : dont, lequel et préposition + relatif » ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 1 : Quelle phrase maîtrise correctement « Les relatives complexes : dont, lequel et préposition + relatif » ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -56065,7 +56065,7 @@
           {
             "id": "french-c2-age-differences-individuelles-grammar-q2",
             "type": "mcq",
-            "prompt": "Quelle formulation répond le mieux à l’objectif suivant : enchaîner des précisions sur l’âge, l’aptitude et l’expérience sans perdre l’antécédent ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 2 : Quelle formulation répond le mieux à l’objectif suivant : enchaîner des précisions sur l’âge, l’aptitude et l’expérience sans perdre l’antécédent ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -56089,7 +56089,7 @@
           {
             "id": "french-c2-age-differences-individuelles-grammar-q3",
             "type": "mcq",
-            "prompt": "Quelle phrase calibre le plus précisément le degré de certitude ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 3 : Quelle phrase calibre le plus précisément le degré de certitude ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -56113,7 +56113,7 @@
           {
             "id": "french-c2-age-differences-individuelles-grammar-q4",
             "type": "mcq",
-            "prompt": "Quelle option maintient un registre formel et maîtrisé ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 4 : Quelle option maintient un registre formel et maîtrisé ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -56137,7 +56137,7 @@
           {
             "id": "french-c2-age-differences-individuelles-grammar-q5",
             "type": "mcq",
-            "prompt": "Quelle phrase distingue clairement preuve et inférence ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 5 : Quelle phrase distingue clairement preuve et inférence ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -56161,7 +56161,7 @@
           {
             "id": "french-c2-age-differences-individuelles-grammar-q6",
             "type": "mcq",
-            "prompt": "Quelle formulation évite d’effacer la responsabilité ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 6 : Quelle formulation évite d’effacer la responsabilité ?",
             "difficulty": "avancé",
             "options": [
               {
@@ -56185,7 +56185,7 @@
           {
             "id": "french-c2-age-differences-individuelles-grammar-q7",
             "type": "mcq",
-            "prompt": "Quelle phrase intègre un contre-argument substantiel ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 7 : Quelle phrase intègre un contre-argument substantiel ?",
             "difficulty": "avancé",
             "options": [
               {
@@ -56209,7 +56209,7 @@
           {
             "id": "french-c2-age-differences-individuelles-grammar-q8",
             "type": "mcq",
-            "prompt": "Quelle conclusion est correctement nuancée ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 8 : Quelle conclusion est correctement nuancée ?",
             "difficulty": "avancé",
             "options": [
               {
@@ -60839,7 +60839,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Quand elle ___ son année, elle partira.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 1 : Quand elle ___ son année, elle partira.",
             "difficulty": "easy",
             "options": [
               {
@@ -60863,7 +60863,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Elle savait qu’elle ___ choisir.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 2 : Elle savait qu’elle ___ choisir.",
             "difficulty": "easy",
             "options": [
               {
@@ -60887,7 +60887,7 @@
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "D’ici septembre, elle ___ tous les étudiants.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 3 : D’ici septembre, elle ___ tous les étudiants.",
             "difficulty": "medium",
             "options": [
               {
@@ -60911,7 +60911,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Le futur antérieur exprime...",
+            "prompt": "🕵️ Détective de la grammaire — Défi 4 : Le futur antérieur exprime...",
             "difficulty": "medium",
             "options": [
               {
@@ -60935,7 +60935,7 @@
           {
             "id": "q5",
             "type": "mcq",
-            "prompt": "Camila pensait que le départ ___ difficile.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 5 : Camila pensait que le départ ___ difficile.",
             "difficulty": "medium",
             "options": [
               {
@@ -60959,7 +60959,7 @@
           {
             "id": "q6",
             "type": "mcq",
-            "prompt": "Il ___ probablement oublié de répondre.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 6 : Il ___ probablement oublié de répondre.",
             "difficulty": "medium",
             "options": [
               {
@@ -60983,7 +60983,7 @@
           {
             "id": "q7",
             "type": "mcq",
-            "prompt": "Choisis le futur dans le passé.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 7 : Choisis le futur dans le passé.",
             "difficulty": "hard",
             "options": [
               {
@@ -61007,7 +61007,7 @@
           {
             "id": "q8",
             "type": "mcq",
-            "prompt": "Quelle phrase est correcte ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 8 : Quelle phrase est correcte ?",
             "difficulty": "hard",
             "options": [
               {
@@ -61156,7 +61156,7 @@
           {
             "id": "french-c2-lexique-contextuel-grammar-q1",
             "type": "mcq",
-            "prompt": "Quelle phrase maîtrise correctement « Les propositions participiales et la condensation maîtrisée » ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 1 : Quelle phrase maîtrise correctement « Les propositions participiales et la condensation maîtrisée » ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -61180,7 +61180,7 @@
           {
             "id": "french-c2-lexique-contextuel-grammar-q2",
             "type": "mcq",
-            "prompt": "Quelle formulation répond le mieux à l’objectif suivant : relier plusieurs opérations cognitives en maintenant un sujet non ambigu ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 2 : Quelle formulation répond le mieux à l’objectif suivant : relier plusieurs opérations cognitives en maintenant un sujet non ambigu ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -61204,7 +61204,7 @@
           {
             "id": "french-c2-lexique-contextuel-grammar-q3",
             "type": "mcq",
-            "prompt": "Quelle phrase calibre le plus précisément le degré de certitude ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 3 : Quelle phrase calibre le plus précisément le degré de certitude ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -61228,7 +61228,7 @@
           {
             "id": "french-c2-lexique-contextuel-grammar-q4",
             "type": "mcq",
-            "prompt": "Quelle option maintient un registre formel et maîtrisé ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 4 : Quelle option maintient un registre formel et maîtrisé ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -61252,7 +61252,7 @@
           {
             "id": "french-c2-lexique-contextuel-grammar-q5",
             "type": "mcq",
-            "prompt": "Quelle phrase distingue clairement preuve et inférence ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 5 : Quelle phrase distingue clairement preuve et inférence ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -61276,7 +61276,7 @@
           {
             "id": "french-c2-lexique-contextuel-grammar-q6",
             "type": "mcq",
-            "prompt": "Quelle formulation évite d’effacer la responsabilité ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 6 : Quelle formulation évite d’effacer la responsabilité ?",
             "difficulty": "avancé",
             "options": [
               {
@@ -61300,7 +61300,7 @@
           {
             "id": "french-c2-lexique-contextuel-grammar-q7",
             "type": "mcq",
-            "prompt": "Quelle phrase intègre un contre-argument substantiel ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 7 : Quelle phrase intègre un contre-argument substantiel ?",
             "difficulty": "avancé",
             "options": [
               {
@@ -61324,7 +61324,7 @@
           {
             "id": "french-c2-lexique-contextuel-grammar-q8",
             "type": "mcq",
-            "prompt": "Quelle conclusion est correctement nuancée ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 8 : Quelle conclusion est correctement nuancée ?",
             "difficulty": "avancé",
             "options": [
               {
@@ -65741,7 +65741,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "« Cette expérience » reprend...",
+            "prompt": "🕵️ Détective de la grammaire — Défi 1 : « Cette expérience » reprend...",
             "difficulty": "easy",
             "options": [
               {
@@ -65765,7 +65765,7 @@
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quel démonstratif synthétise un constat précédent ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 2 : Quel démonstratif synthétise un constat précédent ?",
             "difficulty": "easy",
             "options": [
               {
@@ -65789,7 +65789,7 @@
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Choisis la reprise la plus claire.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 3 : Choisis la reprise la plus claire.",
             "difficulty": "medium",
             "options": [
               {
@@ -65813,7 +65813,7 @@
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "« Un tel déplacement » signifie...",
+            "prompt": "🕵️ Détective de la grammaire — Défi 4 : « Un tel déplacement » signifie...",
             "difficulty": "medium",
             "options": [
               {
@@ -65837,7 +65837,7 @@
           {
             "id": "q5",
             "type": "mcq",
-            "prompt": "Pour éviter une ambiguïté, un pronom doit...",
+            "prompt": "🕵️ Détective de la grammaire — Défi 5 : Pour éviter une ambiguïté, un pronom doit...",
             "difficulty": "medium",
             "options": [
               {
@@ -65861,7 +65861,7 @@
           {
             "id": "q6",
             "type": "mcq",
-            "prompt": "Quel connecteur introduit une reformulation ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 6 : Quel connecteur introduit une reformulation ?",
             "difficulty": "medium",
             "options": [
               {
@@ -65885,7 +65885,7 @@
           {
             "id": "q7",
             "type": "mcq",
-            "prompt": "Quel connecteur marque une conséquence synthétique ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 7 : Quel connecteur marque une conséquence synthétique ?",
             "difficulty": "hard",
             "options": [
               {
@@ -65909,7 +65909,7 @@
           {
             "id": "q8",
             "type": "mcq",
-            "prompt": "Choisis la progression la plus cohérente.",
+            "prompt": "🕵️ Détective de la grammaire — Défi 8 : Choisis la progression la plus cohérente.",
             "difficulty": "hard",
             "options": [
               {
@@ -66058,7 +66058,7 @@
           {
             "id": "french-c2-intelligence-artificielle-tutorat-grammar-q1",
             "type": "mcq",
-            "prompt": "Quelle phrase maîtrise correctement « Le conditionnel de prudence et les tournures impersonnelles » ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 1 : Quelle phrase maîtrise correctement « Le conditionnel de prudence et les tournures impersonnelles » ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -66082,7 +66082,7 @@
           {
             "id": "french-c2-intelligence-artificielle-tutorat-grammar-q2",
             "type": "mcq",
-            "prompt": "Quelle formulation répond le mieux à l’objectif suivant : évaluer les promesses de l’intelligence artificielle sans certitude excessive ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 2 : Quelle formulation répond le mieux à l’objectif suivant : évaluer les promesses de l’intelligence artificielle sans certitude excessive ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -66106,7 +66106,7 @@
           {
             "id": "french-c2-intelligence-artificielle-tutorat-grammar-q3",
             "type": "mcq",
-            "prompt": "Quelle phrase calibre le plus précisément le degré de certitude ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 3 : Quelle phrase calibre le plus précisément le degré de certitude ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -66130,7 +66130,7 @@
           {
             "id": "french-c2-intelligence-artificielle-tutorat-grammar-q4",
             "type": "mcq",
-            "prompt": "Quelle option maintient un registre formel et maîtrisé ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 4 : Quelle option maintient un registre formel et maîtrisé ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -66154,7 +66154,7 @@
           {
             "id": "french-c2-intelligence-artificielle-tutorat-grammar-q5",
             "type": "mcq",
-            "prompt": "Quelle phrase distingue clairement preuve et inférence ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 5 : Quelle phrase distingue clairement preuve et inférence ?",
             "difficulty": "intermédiaire",
             "options": [
               {
@@ -66178,7 +66178,7 @@
           {
             "id": "french-c2-intelligence-artificielle-tutorat-grammar-q6",
             "type": "mcq",
-            "prompt": "Quelle formulation évite d’effacer la responsabilité ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 6 : Quelle formulation évite d’effacer la responsabilité ?",
             "difficulty": "avancé",
             "options": [
               {
@@ -66202,7 +66202,7 @@
           {
             "id": "french-c2-intelligence-artificielle-tutorat-grammar-q7",
             "type": "mcq",
-            "prompt": "Quelle phrase intègre un contre-argument substantiel ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 7 : Quelle phrase intègre un contre-argument substantiel ?",
             "difficulty": "avancé",
             "options": [
               {
@@ -66226,7 +66226,7 @@
           {
             "id": "french-c2-intelligence-artificielle-tutorat-grammar-q8",
             "type": "mcq",
-            "prompt": "Quelle conclusion est correctement nuancée ?",
+            "prompt": "🕵️ Détective de la grammaire — Défi 8 : Quelle conclusion est correctement nuancée ?",
             "difficulty": "avancé",
             "options": [
               {

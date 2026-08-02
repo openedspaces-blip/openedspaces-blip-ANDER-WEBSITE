@@ -4519,7 +4519,7 @@
           {
             "id": "english-c1-antimicrobial-resistance-grammar-q1",
             "type": "mcq",
-            "prompt": "What is the grammar focus of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 1: What is the grammar focus of this unit?",
             "difficulty": "medium",
             "options": [
               {
@@ -4543,7 +4543,7 @@
           {
             "id": "english-c1-antimicrobial-resistance-grammar-q2",
             "type": "mcq",
-            "prompt": "Why is Nominalisation and controlled agency useful in this article?",
+            "prompt": "🕵️ Grammar Detective — Challenge 2: Why is Nominalisation and controlled agency useful in this article?",
             "difficulty": "medium",
             "options": [
               {
@@ -4567,7 +4567,7 @@
           {
             "id": "english-c1-antimicrobial-resistance-grammar-q3",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Nominalisation and controlled agency: “Hospitals implemented the guidelines inconsistently.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 3: Choose the best C1 revision using Nominalisation and controlled agency: “Hospitals implemented the guidelines inconsistently.”",
             "difficulty": "hard",
             "options": [
               {
@@ -4591,7 +4591,7 @@
           {
             "id": "english-c1-antimicrobial-resistance-grammar-q4",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Nominalisation and controlled agency: “Bacteria resist treatment more frequently.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 4: Choose the best C1 revision using Nominalisation and controlled agency: “Bacteria resist treatment more frequently.”",
             "difficulty": "hard",
             "options": [
               {
@@ -4615,7 +4615,7 @@
           {
             "id": "english-c1-antimicrobial-resistance-grammar-q5",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Nominalisation and controlled agency: “Authorities monitor antibiotic use.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 5: Choose the best C1 revision using Nominalisation and controlled agency: “Authorities monitor antibiotic use.”",
             "difficulty": "hard",
             "options": [
               {
@@ -4639,7 +4639,7 @@
           {
             "id": "english-c1-antimicrobial-resistance-grammar-q6",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Nominalisation and controlled agency: “The plan does not identify who must finance diagnostics.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 6: Choose the best C1 revision using Nominalisation and controlled agency: “The plan does not identify who must finance diagnostics.”",
             "difficulty": "hard",
             "options": [
               {
@@ -4663,7 +4663,7 @@
           {
             "id": "english-c1-antimicrobial-resistance-grammar-q7",
             "type": "mcq",
-            "prompt": "Which revision principle best supports C1 academic accuracy?",
+            "prompt": "🕵️ Grammar Detective — Challenge 7: Which revision principle best supports C1 academic accuracy?",
             "difficulty": "hard",
             "options": [
               {
@@ -4687,7 +4687,7 @@
           {
             "id": "english-c1-antimicrobial-resistance-grammar-q8",
             "type": "mcq",
-            "prompt": "What should a final grammar check examine?",
+            "prompt": "🕵️ Grammar Detective — Challenge 8: What should a final grammar check examine?",
             "difficulty": "hard",
             "options": [
               {
@@ -4711,7 +4711,7 @@
           {
             "id": "english-c1-antimicrobial-resistance-grammar-q9",
             "type": "mcq",
-            "prompt": "Which sentence uses Nominalisation and controlled agency with the most accurate form and register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 9: Which sentence uses Nominalisation and controlled agency with the most accurate form and register?",
             "difficulty": "hard",
             "options": [
               {
@@ -4735,7 +4735,7 @@
           {
             "id": "english-c1-antimicrobial-resistance-grammar-q10",
             "type": "mcq",
-            "prompt": "Which revision applies Nominalisation and controlled agency without overstating the evidence?",
+            "prompt": "🕵️ Grammar Detective — Challenge 10: Which revision applies Nominalisation and controlled agency without overstating the evidence?",
             "difficulty": "hard",
             "options": [
               {
@@ -4759,7 +4759,7 @@
           {
             "id": "english-c1-antimicrobial-resistance-grammar-q11",
             "type": "mcq",
-            "prompt": "Which option best connects claim and qualification through Nominalisation and controlled agency?",
+            "prompt": "🕵️ Grammar Detective — Challenge 11: Which option best connects claim and qualification through Nominalisation and controlled agency?",
             "difficulty": "hard",
             "options": [
               {
@@ -4783,7 +4783,7 @@
           {
             "id": "english-c1-antimicrobial-resistance-grammar-q12",
             "type": "mcq",
-            "prompt": "Which sentence would be most appropriate in a formal discussion of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 12: Which sentence would be most appropriate in a formal discussion of this unit?",
             "difficulty": "hard",
             "options": [
               {
@@ -4807,7 +4807,7 @@
           {
             "id": "english-c1-antimicrobial-resistance-grammar-q13",
             "type": "mcq",
-            "prompt": "Which sentence uses Nominalisation and controlled agency with the most accurate form and register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 13: Which sentence uses Nominalisation and controlled agency with the most accurate form and register?",
             "difficulty": "hard",
             "options": [
               {
@@ -4831,7 +4831,7 @@
           {
             "id": "english-c1-antimicrobial-resistance-grammar-q14",
             "type": "mcq",
-            "prompt": "Which revision applies Nominalisation and controlled agency without overstating the evidence?",
+            "prompt": "🕵️ Grammar Detective — Challenge 14: Which revision applies Nominalisation and controlled agency without overstating the evidence?",
             "difficulty": "hard",
             "options": [
               {
@@ -4855,7 +4855,7 @@
           {
             "id": "english-c1-antimicrobial-resistance-grammar-q15",
             "type": "mcq",
-            "prompt": "Which option best connects claim and qualification through Nominalisation and controlled agency?",
+            "prompt": "🕵️ Grammar Detective — Challenge 15: Which option best connects claim and qualification through Nominalisation and controlled agency?",
             "difficulty": "hard",
             "options": [
               {
@@ -4879,7 +4879,7 @@
           {
             "id": "english-c1-antimicrobial-resistance-grammar-q16",
             "type": "mcq",
-            "prompt": "Which sentence would be most appropriate in a formal discussion of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 16: Which sentence would be most appropriate in a formal discussion of this unit?",
             "difficulty": "hard",
             "options": [
               {
@@ -4903,7 +4903,7 @@
           {
             "id": "english-c1-antimicrobial-resistance-grammar-q17",
             "type": "mcq",
-            "prompt": "Which sentence uses Nominalisation and controlled agency with the most accurate form and register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 17: Which sentence uses Nominalisation and controlled agency with the most accurate form and register?",
             "difficulty": "hard",
             "options": [
               {
@@ -4927,7 +4927,7 @@
           {
             "id": "english-c1-antimicrobial-resistance-grammar-q18",
             "type": "mcq",
-            "prompt": "Which revision applies Nominalisation and controlled agency without overstating the evidence?",
+            "prompt": "🕵️ Grammar Detective — Challenge 18: Which revision applies Nominalisation and controlled agency without overstating the evidence?",
             "difficulty": "hard",
             "options": [
               {
@@ -4951,7 +4951,7 @@
           {
             "id": "english-c1-antimicrobial-resistance-grammar-q19",
             "type": "mcq",
-            "prompt": "Which option best connects claim and qualification through Nominalisation and controlled agency?",
+            "prompt": "🕵️ Grammar Detective — Challenge 19: Which option best connects claim and qualification through Nominalisation and controlled agency?",
             "difficulty": "hard",
             "options": [
               {
@@ -4975,7 +4975,7 @@
           {
             "id": "english-c1-antimicrobial-resistance-grammar-q20",
             "type": "mcq",
-            "prompt": "Which sentence would be most appropriate in a formal discussion of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 20: Which sentence would be most appropriate in a formal discussion of this unit?",
             "difficulty": "hard",
             "options": [
               {
@@ -5139,7 +5139,7 @@
           {
             "id": "english-c2-adult-neuroplasticity-grammar-q1",
             "type": "mcq",
-            "prompt": "Which sentence best demonstrates controlled use of Calibrated comparison and concessive clauses?",
+            "prompt": "🕵️ Grammar Detective — Challenge 1: Which sentence best demonstrates controlled use of Calibrated comparison and concessive clauses?",
             "options": [
               {
                 "id": "a",
@@ -5162,7 +5162,7 @@
           {
             "id": "english-c2-adult-neuroplasticity-grammar-q2",
             "type": "mcq",
-            "prompt": "Which revision best serves the purpose “compare age-related tendencies without converting group averages into individual destinies”?",
+            "prompt": "🕵️ Grammar Detective — Challenge 2: Which revision best serves the purpose “compare age-related tendencies without converting group averages into individual destinies”?",
             "options": [
               {
                 "id": "a",
@@ -5185,7 +5185,7 @@
           {
             "id": "english-c2-adult-neuroplasticity-grammar-q3",
             "type": "mcq",
-            "prompt": "Which sentence most accurately calibrates certainty?",
+            "prompt": "🕵️ Grammar Detective — Challenge 3: Which sentence most accurately calibrates certainty?",
             "options": [
               {
                 "id": "a",
@@ -5208,7 +5208,7 @@
           {
             "id": "english-c2-adult-neuroplasticity-grammar-q4",
             "type": "mcq",
-            "prompt": "Which option maintains an appropriately formal C2 register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 4: Which option maintains an appropriately formal C2 register?",
             "options": [
               {
                 "id": "a",
@@ -5231,7 +5231,7 @@
           {
             "id": "english-c2-adult-neuroplasticity-grammar-q5",
             "type": "mcq",
-            "prompt": "Which sentence makes the relationship between evidence and inference clearest?",
+            "prompt": "🕵️ Grammar Detective — Challenge 5: Which sentence makes the relationship between evidence and inference clearest?",
             "options": [
               {
                 "id": "a",
@@ -5254,7 +5254,7 @@
           {
             "id": "english-c2-adult-neuroplasticity-grammar-q6",
             "type": "mcq",
-            "prompt": "Which option avoids concealing responsibility?",
+            "prompt": "🕵️ Grammar Detective — Challenge 6: Which option avoids concealing responsibility?",
             "options": [
               {
                 "id": "a",
@@ -5277,7 +5277,7 @@
           {
             "id": "english-c2-adult-neuroplasticity-grammar-q7",
             "type": "mcq",
-            "prompt": "Which sentence integrates a substantial counterargument?",
+            "prompt": "🕵️ Grammar Detective — Challenge 7: Which sentence integrates a substantial counterargument?",
             "options": [
               {
                 "id": "a",
@@ -5300,7 +5300,7 @@
           {
             "id": "english-c2-adult-neuroplasticity-grammar-q8",
             "type": "mcq",
-            "prompt": "Which conclusion is most appropriately qualified?",
+            "prompt": "🕵️ Grammar Detective — Challenge 8: Which conclusion is most appropriately qualified?",
             "options": [
               {
                 "id": "a",
@@ -5323,7 +5323,7 @@
           {
             "id": "english-c2-adult-neuroplasticity-grammar-q9",
             "type": "mcq",
-            "prompt": "Which sentence shows cohesive control across clauses?",
+            "prompt": "🕵️ Grammar Detective — Challenge 9: Which sentence shows cohesive control across clauses?",
             "options": [
               {
                 "id": "a",
@@ -5346,7 +5346,7 @@
           {
             "id": "english-c2-adult-neuroplasticity-grammar-q10",
             "type": "mcq",
-            "prompt": "Which statement accurately describes Calibrated comparison and concessive clauses?",
+            "prompt": "🕵️ Grammar Detective — Challenge 10: Which statement accurately describes Calibrated comparison and concessive clauses?",
             "options": [
               {
                 "id": "a",
@@ -5369,7 +5369,7 @@
           {
             "id": "english-c2-adult-neuroplasticity-grammar-q11",
             "type": "mcq",
-            "prompt": "Advanced application 11: Which sentence best demonstrates controlled use of Calibrated comparison and concessive clauses?",
+            "prompt": "🕵️ Grammar Detective — Challenge 11: Advanced application 11: Which sentence best demonstrates controlled use of Calibrated comparison and concessive clauses?",
             "options": [
               {
                 "id": "a",
@@ -5392,7 +5392,7 @@
           {
             "id": "english-c2-adult-neuroplasticity-grammar-q12",
             "type": "mcq",
-            "prompt": "Advanced application 12: Which revision best serves the purpose “compare age-related tendencies without converting group averages into individual destinies”?",
+            "prompt": "🕵️ Grammar Detective — Challenge 12: Advanced application 12: Which revision best serves the purpose “compare age-related tendencies without converting group averages into individual destinies”?",
             "options": [
               {
                 "id": "a",
@@ -5415,7 +5415,7 @@
           {
             "id": "english-c2-adult-neuroplasticity-grammar-q13",
             "type": "mcq",
-            "prompt": "Advanced application 13: Which sentence most accurately calibrates certainty?",
+            "prompt": "🕵️ Grammar Detective — Challenge 13: Advanced application 13: Which sentence most accurately calibrates certainty?",
             "options": [
               {
                 "id": "a",
@@ -5438,7 +5438,7 @@
           {
             "id": "english-c2-adult-neuroplasticity-grammar-q14",
             "type": "mcq",
-            "prompt": "Advanced application 14: Which option maintains an appropriately formal C2 register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 14: Advanced application 14: Which option maintains an appropriately formal C2 register?",
             "options": [
               {
                 "id": "a",
@@ -5461,7 +5461,7 @@
           {
             "id": "english-c2-adult-neuroplasticity-grammar-q15",
             "type": "mcq",
-            "prompt": "Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
+            "prompt": "🕵️ Grammar Detective — Challenge 15: Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
             "options": [
               {
                 "id": "a",
@@ -5484,7 +5484,7 @@
           {
             "id": "english-c2-adult-neuroplasticity-grammar-q16",
             "type": "mcq",
-            "prompt": "Advanced application 16: Which option avoids concealing responsibility?",
+            "prompt": "🕵️ Grammar Detective — Challenge 16: Advanced application 16: Which option avoids concealing responsibility?",
             "options": [
               {
                 "id": "a",
@@ -5507,7 +5507,7 @@
           {
             "id": "english-c2-adult-neuroplasticity-grammar-q17",
             "type": "mcq",
-            "prompt": "Advanced application 17: Which sentence integrates a substantial counterargument?",
+            "prompt": "🕵️ Grammar Detective — Challenge 17: Advanced application 17: Which sentence integrates a substantial counterargument?",
             "options": [
               {
                 "id": "a",
@@ -5530,7 +5530,7 @@
           {
             "id": "english-c2-adult-neuroplasticity-grammar-q18",
             "type": "mcq",
-            "prompt": "Advanced application 18: Which conclusion is most appropriately qualified?",
+            "prompt": "🕵️ Grammar Detective — Challenge 18: Advanced application 18: Which conclusion is most appropriately qualified?",
             "options": [
               {
                 "id": "a",
@@ -5553,7 +5553,7 @@
           {
             "id": "english-c2-adult-neuroplasticity-grammar-q19",
             "type": "mcq",
-            "prompt": "Advanced application 19: Which sentence shows cohesive control across clauses?",
+            "prompt": "🕵️ Grammar Detective — Challenge 19: Advanced application 19: Which sentence shows cohesive control across clauses?",
             "options": [
               {
                 "id": "a",
@@ -5576,7 +5576,7 @@
           {
             "id": "english-c2-adult-neuroplasticity-grammar-q20",
             "type": "mcq",
-            "prompt": "Advanced application 20: Which statement accurately describes Calibrated comparison and concessive clauses?",
+            "prompt": "🕵️ Grammar Detective — Challenge 20: Advanced application 20: Which statement accurately describes Calibrated comparison and concessive clauses?",
             "options": [
               {
                 "id": "a",
@@ -11836,7 +11836,7 @@
           {
             "id": "english-c1-ai-energy-demand-grammar-q1",
             "type": "mcq",
-            "prompt": "What is the grammar focus of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 1: What is the grammar focus of this unit?",
             "difficulty": "medium",
             "options": [
               {
@@ -11860,7 +11860,7 @@
           {
             "id": "english-c1-ai-energy-demand-grammar-q2",
             "type": "mcq",
-            "prompt": "Why is Hedging and epistemic modality useful in this article?",
+            "prompt": "🕵️ Grammar Detective — Challenge 2: Why is Hedging and epistemic modality useful in this article?",
             "difficulty": "medium",
             "options": [
               {
@@ -11884,7 +11884,7 @@
           {
             "id": "english-c1-ai-energy-demand-grammar-q3",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Hedging and epistemic modality: “AI will double global emissions.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 3: Choose the best C1 revision using Hedging and epistemic modality: “AI will double global emissions.”",
             "difficulty": "hard",
             "options": [
               {
@@ -11908,7 +11908,7 @@
           {
             "id": "english-c1-ai-energy-demand-grammar-q4",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Hedging and epistemic modality: “Efficiency solves the energy problem.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 4: Choose the best C1 revision using Hedging and epistemic modality: “Efficiency solves the energy problem.”",
             "difficulty": "hard",
             "options": [
               {
@@ -11932,7 +11932,7 @@
           {
             "id": "english-c1-ai-energy-demand-grammar-q5",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Hedging and epistemic modality: “Water use is irrelevant.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 5: Choose the best C1 revision using Hedging and epistemic modality: “Water use is irrelevant.”",
             "difficulty": "hard",
             "options": [
               {
@@ -11956,7 +11956,7 @@
           {
             "id": "english-c1-ai-energy-demand-grammar-q6",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Hedging and epistemic modality: “Every model has the same footprint.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 6: Choose the best C1 revision using Hedging and epistemic modality: “Every model has the same footprint.”",
             "difficulty": "hard",
             "options": [
               {
@@ -11980,7 +11980,7 @@
           {
             "id": "english-c1-ai-energy-demand-grammar-q7",
             "type": "mcq",
-            "prompt": "Which revision principle best supports C1 academic accuracy?",
+            "prompt": "🕵️ Grammar Detective — Challenge 7: Which revision principle best supports C1 academic accuracy?",
             "difficulty": "hard",
             "options": [
               {
@@ -12004,7 +12004,7 @@
           {
             "id": "english-c1-ai-energy-demand-grammar-q8",
             "type": "mcq",
-            "prompt": "What should a final grammar check examine?",
+            "prompt": "🕵️ Grammar Detective — Challenge 8: What should a final grammar check examine?",
             "difficulty": "hard",
             "options": [
               {
@@ -12028,7 +12028,7 @@
           {
             "id": "english-c1-ai-energy-demand-grammar-q9",
             "type": "mcq",
-            "prompt": "Which sentence uses Hedging and epistemic modality with the most accurate form and register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 9: Which sentence uses Hedging and epistemic modality with the most accurate form and register?",
             "difficulty": "hard",
             "options": [
               {
@@ -12052,7 +12052,7 @@
           {
             "id": "english-c1-ai-energy-demand-grammar-q10",
             "type": "mcq",
-            "prompt": "Which revision applies Hedging and epistemic modality without overstating the evidence?",
+            "prompt": "🕵️ Grammar Detective — Challenge 10: Which revision applies Hedging and epistemic modality without overstating the evidence?",
             "difficulty": "hard",
             "options": [
               {
@@ -12076,7 +12076,7 @@
           {
             "id": "english-c1-ai-energy-demand-grammar-q11",
             "type": "mcq",
-            "prompt": "Which option best connects claim and qualification through Hedging and epistemic modality?",
+            "prompt": "🕵️ Grammar Detective — Challenge 11: Which option best connects claim and qualification through Hedging and epistemic modality?",
             "difficulty": "hard",
             "options": [
               {
@@ -12100,7 +12100,7 @@
           {
             "id": "english-c1-ai-energy-demand-grammar-q12",
             "type": "mcq",
-            "prompt": "Which sentence would be most appropriate in a formal discussion of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 12: Which sentence would be most appropriate in a formal discussion of this unit?",
             "difficulty": "hard",
             "options": [
               {
@@ -12124,7 +12124,7 @@
           {
             "id": "english-c1-ai-energy-demand-grammar-q13",
             "type": "mcq",
-            "prompt": "Which sentence uses Hedging and epistemic modality with the most accurate form and register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 13: Which sentence uses Hedging and epistemic modality with the most accurate form and register?",
             "difficulty": "hard",
             "options": [
               {
@@ -12148,7 +12148,7 @@
           {
             "id": "english-c1-ai-energy-demand-grammar-q14",
             "type": "mcq",
-            "prompt": "Which revision applies Hedging and epistemic modality without overstating the evidence?",
+            "prompt": "🕵️ Grammar Detective — Challenge 14: Which revision applies Hedging and epistemic modality without overstating the evidence?",
             "difficulty": "hard",
             "options": [
               {
@@ -12172,7 +12172,7 @@
           {
             "id": "english-c1-ai-energy-demand-grammar-q15",
             "type": "mcq",
-            "prompt": "Which option best connects claim and qualification through Hedging and epistemic modality?",
+            "prompt": "🕵️ Grammar Detective — Challenge 15: Which option best connects claim and qualification through Hedging and epistemic modality?",
             "difficulty": "hard",
             "options": [
               {
@@ -12196,7 +12196,7 @@
           {
             "id": "english-c1-ai-energy-demand-grammar-q16",
             "type": "mcq",
-            "prompt": "Which sentence would be most appropriate in a formal discussion of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 16: Which sentence would be most appropriate in a formal discussion of this unit?",
             "difficulty": "hard",
             "options": [
               {
@@ -12220,7 +12220,7 @@
           {
             "id": "english-c1-ai-energy-demand-grammar-q17",
             "type": "mcq",
-            "prompt": "Which sentence uses Hedging and epistemic modality with the most accurate form and register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 17: Which sentence uses Hedging and epistemic modality with the most accurate form and register?",
             "difficulty": "hard",
             "options": [
               {
@@ -12244,7 +12244,7 @@
           {
             "id": "english-c1-ai-energy-demand-grammar-q18",
             "type": "mcq",
-            "prompt": "Which revision applies Hedging and epistemic modality without overstating the evidence?",
+            "prompt": "🕵️ Grammar Detective — Challenge 18: Which revision applies Hedging and epistemic modality without overstating the evidence?",
             "difficulty": "hard",
             "options": [
               {
@@ -12268,7 +12268,7 @@
           {
             "id": "english-c1-ai-energy-demand-grammar-q19",
             "type": "mcq",
-            "prompt": "Which option best connects claim and qualification through Hedging and epistemic modality?",
+            "prompt": "🕵️ Grammar Detective — Challenge 19: Which option best connects claim and qualification through Hedging and epistemic modality?",
             "difficulty": "hard",
             "options": [
               {
@@ -12292,7 +12292,7 @@
           {
             "id": "english-c1-ai-energy-demand-grammar-q20",
             "type": "mcq",
-            "prompt": "Which sentence would be most appropriate in a formal discussion of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 20: Which sentence would be most appropriate in a formal discussion of this unit?",
             "difficulty": "hard",
             "options": [
               {
@@ -12456,7 +12456,7 @@
           {
             "id": "english-c2-retrieval-spacing-grammar-q1",
             "type": "mcq",
-            "prompt": "Which sentence best demonstrates controlled use of Non-finite clauses and information compression?",
+            "prompt": "🕵️ Grammar Detective — Challenge 1: Which sentence best demonstrates controlled use of Non-finite clauses and information compression?",
             "options": [
               {
                 "id": "a",
@@ -12479,7 +12479,7 @@
           {
             "id": "english-c2-retrieval-spacing-grammar-q2",
             "type": "mcq",
-            "prompt": "Which revision best serves the purpose “explain sequences of study and recall without obscuring time or agency”?",
+            "prompt": "🕵️ Grammar Detective — Challenge 2: Which revision best serves the purpose “explain sequences of study and recall without obscuring time or agency”?",
             "options": [
               {
                 "id": "a",
@@ -12502,7 +12502,7 @@
           {
             "id": "english-c2-retrieval-spacing-grammar-q3",
             "type": "mcq",
-            "prompt": "Which sentence most accurately calibrates certainty?",
+            "prompt": "🕵️ Grammar Detective — Challenge 3: Which sentence most accurately calibrates certainty?",
             "options": [
               {
                 "id": "a",
@@ -12525,7 +12525,7 @@
           {
             "id": "english-c2-retrieval-spacing-grammar-q4",
             "type": "mcq",
-            "prompt": "Which option maintains an appropriately formal C2 register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 4: Which option maintains an appropriately formal C2 register?",
             "options": [
               {
                 "id": "a",
@@ -12548,7 +12548,7 @@
           {
             "id": "english-c2-retrieval-spacing-grammar-q5",
             "type": "mcq",
-            "prompt": "Which sentence makes the relationship between evidence and inference clearest?",
+            "prompt": "🕵️ Grammar Detective — Challenge 5: Which sentence makes the relationship between evidence and inference clearest?",
             "options": [
               {
                 "id": "a",
@@ -12571,7 +12571,7 @@
           {
             "id": "english-c2-retrieval-spacing-grammar-q6",
             "type": "mcq",
-            "prompt": "Which option avoids concealing responsibility?",
+            "prompt": "🕵️ Grammar Detective — Challenge 6: Which option avoids concealing responsibility?",
             "options": [
               {
                 "id": "a",
@@ -12594,7 +12594,7 @@
           {
             "id": "english-c2-retrieval-spacing-grammar-q7",
             "type": "mcq",
-            "prompt": "Which sentence integrates a substantial counterargument?",
+            "prompt": "🕵️ Grammar Detective — Challenge 7: Which sentence integrates a substantial counterargument?",
             "options": [
               {
                 "id": "a",
@@ -12617,7 +12617,7 @@
           {
             "id": "english-c2-retrieval-spacing-grammar-q8",
             "type": "mcq",
-            "prompt": "Which conclusion is most appropriately qualified?",
+            "prompt": "🕵️ Grammar Detective — Challenge 8: Which conclusion is most appropriately qualified?",
             "options": [
               {
                 "id": "a",
@@ -12640,7 +12640,7 @@
           {
             "id": "english-c2-retrieval-spacing-grammar-q9",
             "type": "mcq",
-            "prompt": "Which sentence shows cohesive control across clauses?",
+            "prompt": "🕵️ Grammar Detective — Challenge 9: Which sentence shows cohesive control across clauses?",
             "options": [
               {
                 "id": "a",
@@ -12663,7 +12663,7 @@
           {
             "id": "english-c2-retrieval-spacing-grammar-q10",
             "type": "mcq",
-            "prompt": "Which statement accurately describes Non-finite clauses and information compression?",
+            "prompt": "🕵️ Grammar Detective — Challenge 10: Which statement accurately describes Non-finite clauses and information compression?",
             "options": [
               {
                 "id": "a",
@@ -12686,7 +12686,7 @@
           {
             "id": "english-c2-retrieval-spacing-grammar-q11",
             "type": "mcq",
-            "prompt": "Advanced application 11: Which sentence best demonstrates controlled use of Non-finite clauses and information compression?",
+            "prompt": "🕵️ Grammar Detective — Challenge 11: Advanced application 11: Which sentence best demonstrates controlled use of Non-finite clauses and information compression?",
             "options": [
               {
                 "id": "a",
@@ -12709,7 +12709,7 @@
           {
             "id": "english-c2-retrieval-spacing-grammar-q12",
             "type": "mcq",
-            "prompt": "Advanced application 12: Which revision best serves the purpose “explain sequences of study and recall without obscuring time or agency”?",
+            "prompt": "🕵️ Grammar Detective — Challenge 12: Advanced application 12: Which revision best serves the purpose “explain sequences of study and recall without obscuring time or agency”?",
             "options": [
               {
                 "id": "a",
@@ -12732,7 +12732,7 @@
           {
             "id": "english-c2-retrieval-spacing-grammar-q13",
             "type": "mcq",
-            "prompt": "Advanced application 13: Which sentence most accurately calibrates certainty?",
+            "prompt": "🕵️ Grammar Detective — Challenge 13: Advanced application 13: Which sentence most accurately calibrates certainty?",
             "options": [
               {
                 "id": "a",
@@ -12755,7 +12755,7 @@
           {
             "id": "english-c2-retrieval-spacing-grammar-q14",
             "type": "mcq",
-            "prompt": "Advanced application 14: Which option maintains an appropriately formal C2 register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 14: Advanced application 14: Which option maintains an appropriately formal C2 register?",
             "options": [
               {
                 "id": "a",
@@ -12778,7 +12778,7 @@
           {
             "id": "english-c2-retrieval-spacing-grammar-q15",
             "type": "mcq",
-            "prompt": "Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
+            "prompt": "🕵️ Grammar Detective — Challenge 15: Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
             "options": [
               {
                 "id": "a",
@@ -12801,7 +12801,7 @@
           {
             "id": "english-c2-retrieval-spacing-grammar-q16",
             "type": "mcq",
-            "prompt": "Advanced application 16: Which option avoids concealing responsibility?",
+            "prompt": "🕵️ Grammar Detective — Challenge 16: Advanced application 16: Which option avoids concealing responsibility?",
             "options": [
               {
                 "id": "a",
@@ -12824,7 +12824,7 @@
           {
             "id": "english-c2-retrieval-spacing-grammar-q17",
             "type": "mcq",
-            "prompt": "Advanced application 17: Which sentence integrates a substantial counterargument?",
+            "prompt": "🕵️ Grammar Detective — Challenge 17: Advanced application 17: Which sentence integrates a substantial counterargument?",
             "options": [
               {
                 "id": "a",
@@ -12847,7 +12847,7 @@
           {
             "id": "english-c2-retrieval-spacing-grammar-q18",
             "type": "mcq",
-            "prompt": "Advanced application 18: Which conclusion is most appropriately qualified?",
+            "prompt": "🕵️ Grammar Detective — Challenge 18: Advanced application 18: Which conclusion is most appropriately qualified?",
             "options": [
               {
                 "id": "a",
@@ -12870,7 +12870,7 @@
           {
             "id": "english-c2-retrieval-spacing-grammar-q19",
             "type": "mcq",
-            "prompt": "Advanced application 19: Which sentence shows cohesive control across clauses?",
+            "prompt": "🕵️ Grammar Detective — Challenge 19: Advanced application 19: Which sentence shows cohesive control across clauses?",
             "options": [
               {
                 "id": "a",
@@ -12893,7 +12893,7 @@
           {
             "id": "english-c2-retrieval-spacing-grammar-q20",
             "type": "mcq",
-            "prompt": "Advanced application 20: Which statement accurately describes Non-finite clauses and information compression?",
+            "prompt": "🕵️ Grammar Detective — Challenge 20: Advanced application 20: Which statement accurately describes Non-finite clauses and information compression?",
             "options": [
               {
                 "id": "a",
@@ -19048,7 +19048,7 @@
           {
             "id": "english-c1-gene-editing-access-grammar-q1",
             "type": "mcq",
-            "prompt": "What is the grammar focus of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 1: What is the grammar focus of this unit?",
             "difficulty": "medium",
             "options": [
               {
@@ -19072,7 +19072,7 @@
           {
             "id": "english-c1-gene-editing-access-grammar-q2",
             "type": "mcq",
-            "prompt": "Why is Concession and qualification useful in this article?",
+            "prompt": "🕵️ Grammar Detective — Challenge 2: Why is Concession and qualification useful in this article?",
             "difficulty": "medium",
             "options": [
               {
@@ -19096,7 +19096,7 @@
           {
             "id": "english-c1-gene-editing-access-grammar-q3",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Concession and qualification: “The treatment is promising, but access is narrow.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 3: Choose the best C1 revision using Concession and qualification: “The treatment is promising, but access is narrow.”",
             "difficulty": "hard",
             "options": [
               {
@@ -19120,7 +19120,7 @@
           {
             "id": "english-c1-gene-editing-access-grammar-q4",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Concession and qualification: “The trials were successful. Follow-up is still short.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 4: Choose the best C1 revision using Concession and qualification: “The trials were successful. Follow-up is still short.”",
             "difficulty": "hard",
             "options": [
               {
@@ -19144,7 +19144,7 @@
           {
             "id": "english-c1-gene-editing-access-grammar-q5",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Concession and qualification: “Manufacturing is complex. Prices require scrutiny.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 5: Choose the best C1 revision using Concession and qualification: “Manufacturing is complex. Prices require scrutiny.”",
             "difficulty": "hard",
             "options": [
               {
@@ -19168,7 +19168,7 @@
           {
             "id": "english-c1-gene-editing-access-grammar-q6",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Concession and qualification: “The therapy may cure individuals. It will not replace prevention.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 6: Choose the best C1 revision using Concession and qualification: “The therapy may cure individuals. It will not replace prevention.”",
             "difficulty": "hard",
             "options": [
               {
@@ -19192,7 +19192,7 @@
           {
             "id": "english-c1-gene-editing-access-grammar-q7",
             "type": "mcq",
-            "prompt": "Which revision principle best supports C1 academic accuracy?",
+            "prompt": "🕵️ Grammar Detective — Challenge 7: Which revision principle best supports C1 academic accuracy?",
             "difficulty": "hard",
             "options": [
               {
@@ -19216,7 +19216,7 @@
           {
             "id": "english-c1-gene-editing-access-grammar-q8",
             "type": "mcq",
-            "prompt": "What should a final grammar check examine?",
+            "prompt": "🕵️ Grammar Detective — Challenge 8: What should a final grammar check examine?",
             "difficulty": "hard",
             "options": [
               {
@@ -19240,7 +19240,7 @@
           {
             "id": "english-c1-gene-editing-access-grammar-q9",
             "type": "mcq",
-            "prompt": "Which sentence uses Concession and qualification with the most accurate form and register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 9: Which sentence uses Concession and qualification with the most accurate form and register?",
             "difficulty": "hard",
             "options": [
               {
@@ -19264,7 +19264,7 @@
           {
             "id": "english-c1-gene-editing-access-grammar-q10",
             "type": "mcq",
-            "prompt": "Which revision applies Concession and qualification without overstating the evidence?",
+            "prompt": "🕵️ Grammar Detective — Challenge 10: Which revision applies Concession and qualification without overstating the evidence?",
             "difficulty": "hard",
             "options": [
               {
@@ -19288,7 +19288,7 @@
           {
             "id": "english-c1-gene-editing-access-grammar-q11",
             "type": "mcq",
-            "prompt": "Which option best connects claim and qualification through Concession and qualification?",
+            "prompt": "🕵️ Grammar Detective — Challenge 11: Which option best connects claim and qualification through Concession and qualification?",
             "difficulty": "hard",
             "options": [
               {
@@ -19312,7 +19312,7 @@
           {
             "id": "english-c1-gene-editing-access-grammar-q12",
             "type": "mcq",
-            "prompt": "Which sentence would be most appropriate in a formal discussion of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 12: Which sentence would be most appropriate in a formal discussion of this unit?",
             "difficulty": "hard",
             "options": [
               {
@@ -19336,7 +19336,7 @@
           {
             "id": "english-c1-gene-editing-access-grammar-q13",
             "type": "mcq",
-            "prompt": "Which sentence uses Concession and qualification with the most accurate form and register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 13: Which sentence uses Concession and qualification with the most accurate form and register?",
             "difficulty": "hard",
             "options": [
               {
@@ -19360,7 +19360,7 @@
           {
             "id": "english-c1-gene-editing-access-grammar-q14",
             "type": "mcq",
-            "prompt": "Which revision applies Concession and qualification without overstating the evidence?",
+            "prompt": "🕵️ Grammar Detective — Challenge 14: Which revision applies Concession and qualification without overstating the evidence?",
             "difficulty": "hard",
             "options": [
               {
@@ -19384,7 +19384,7 @@
           {
             "id": "english-c1-gene-editing-access-grammar-q15",
             "type": "mcq",
-            "prompt": "Which option best connects claim and qualification through Concession and qualification?",
+            "prompt": "🕵️ Grammar Detective — Challenge 15: Which option best connects claim and qualification through Concession and qualification?",
             "difficulty": "hard",
             "options": [
               {
@@ -19408,7 +19408,7 @@
           {
             "id": "english-c1-gene-editing-access-grammar-q16",
             "type": "mcq",
-            "prompt": "Which sentence would be most appropriate in a formal discussion of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 16: Which sentence would be most appropriate in a formal discussion of this unit?",
             "difficulty": "hard",
             "options": [
               {
@@ -19432,7 +19432,7 @@
           {
             "id": "english-c1-gene-editing-access-grammar-q17",
             "type": "mcq",
-            "prompt": "Which sentence uses Concession and qualification with the most accurate form and register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 17: Which sentence uses Concession and qualification with the most accurate form and register?",
             "difficulty": "hard",
             "options": [
               {
@@ -19456,7 +19456,7 @@
           {
             "id": "english-c1-gene-editing-access-grammar-q18",
             "type": "mcq",
-            "prompt": "Which revision applies Concession and qualification without overstating the evidence?",
+            "prompt": "🕵️ Grammar Detective — Challenge 18: Which revision applies Concession and qualification without overstating the evidence?",
             "difficulty": "hard",
             "options": [
               {
@@ -19480,7 +19480,7 @@
           {
             "id": "english-c1-gene-editing-access-grammar-q19",
             "type": "mcq",
-            "prompt": "Which option best connects claim and qualification through Concession and qualification?",
+            "prompt": "🕵️ Grammar Detective — Challenge 19: Which option best connects claim and qualification through Concession and qualification?",
             "difficulty": "hard",
             "options": [
               {
@@ -19504,7 +19504,7 @@
           {
             "id": "english-c1-gene-editing-access-grammar-q20",
             "type": "mcq",
-            "prompt": "Which sentence would be most appropriate in a formal discussion of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 20: Which sentence would be most appropriate in a formal discussion of this unit?",
             "difficulty": "hard",
             "options": [
               {
@@ -19668,7 +19668,7 @@
           {
             "id": "english-c2-sleep-consolidation-grammar-q1",
             "type": "mcq",
-            "prompt": "Which sentence best demonstrates controlled use of Temporal perspective and perfect aspect?",
+            "prompt": "🕵️ Grammar Detective — Challenge 1: Which sentence best demonstrates controlled use of Temporal perspective and perfect aspect?",
             "options": [
               {
                 "id": "a",
@@ -19691,7 +19691,7 @@
           {
             "id": "english-c2-sleep-consolidation-grammar-q2",
             "type": "mcq",
-            "prompt": "Which revision best serves the purpose “locate encoding, consolidation and later retrieval across carefully distinguished time frames”?",
+            "prompt": "🕵️ Grammar Detective — Challenge 2: Which revision best serves the purpose “locate encoding, consolidation and later retrieval across carefully distinguished time frames”?",
             "options": [
               {
                 "id": "a",
@@ -19714,7 +19714,7 @@
           {
             "id": "english-c2-sleep-consolidation-grammar-q3",
             "type": "mcq",
-            "prompt": "Which sentence most accurately calibrates certainty?",
+            "prompt": "🕵️ Grammar Detective — Challenge 3: Which sentence most accurately calibrates certainty?",
             "options": [
               {
                 "id": "a",
@@ -19737,7 +19737,7 @@
           {
             "id": "english-c2-sleep-consolidation-grammar-q4",
             "type": "mcq",
-            "prompt": "Which option maintains an appropriately formal C2 register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 4: Which option maintains an appropriately formal C2 register?",
             "options": [
               {
                 "id": "a",
@@ -19760,7 +19760,7 @@
           {
             "id": "english-c2-sleep-consolidation-grammar-q5",
             "type": "mcq",
-            "prompt": "Which sentence makes the relationship between evidence and inference clearest?",
+            "prompt": "🕵️ Grammar Detective — Challenge 5: Which sentence makes the relationship between evidence and inference clearest?",
             "options": [
               {
                 "id": "a",
@@ -19783,7 +19783,7 @@
           {
             "id": "english-c2-sleep-consolidation-grammar-q6",
             "type": "mcq",
-            "prompt": "Which option avoids concealing responsibility?",
+            "prompt": "🕵️ Grammar Detective — Challenge 6: Which option avoids concealing responsibility?",
             "options": [
               {
                 "id": "a",
@@ -19806,7 +19806,7 @@
           {
             "id": "english-c2-sleep-consolidation-grammar-q7",
             "type": "mcq",
-            "prompt": "Which sentence integrates a substantial counterargument?",
+            "prompt": "🕵️ Grammar Detective — Challenge 7: Which sentence integrates a substantial counterargument?",
             "options": [
               {
                 "id": "a",
@@ -19829,7 +19829,7 @@
           {
             "id": "english-c2-sleep-consolidation-grammar-q8",
             "type": "mcq",
-            "prompt": "Which conclusion is most appropriately qualified?",
+            "prompt": "🕵️ Grammar Detective — Challenge 8: Which conclusion is most appropriately qualified?",
             "options": [
               {
                 "id": "a",
@@ -19852,7 +19852,7 @@
           {
             "id": "english-c2-sleep-consolidation-grammar-q9",
             "type": "mcq",
-            "prompt": "Which sentence shows cohesive control across clauses?",
+            "prompt": "🕵️ Grammar Detective — Challenge 9: Which sentence shows cohesive control across clauses?",
             "options": [
               {
                 "id": "a",
@@ -19875,7 +19875,7 @@
           {
             "id": "english-c2-sleep-consolidation-grammar-q10",
             "type": "mcq",
-            "prompt": "Which statement accurately describes Temporal perspective and perfect aspect?",
+            "prompt": "🕵️ Grammar Detective — Challenge 10: Which statement accurately describes Temporal perspective and perfect aspect?",
             "options": [
               {
                 "id": "a",
@@ -19898,7 +19898,7 @@
           {
             "id": "english-c2-sleep-consolidation-grammar-q11",
             "type": "mcq",
-            "prompt": "Advanced application 11: Which sentence best demonstrates controlled use of Temporal perspective and perfect aspect?",
+            "prompt": "🕵️ Grammar Detective — Challenge 11: Advanced application 11: Which sentence best demonstrates controlled use of Temporal perspective and perfect aspect?",
             "options": [
               {
                 "id": "a",
@@ -19921,7 +19921,7 @@
           {
             "id": "english-c2-sleep-consolidation-grammar-q12",
             "type": "mcq",
-            "prompt": "Advanced application 12: Which revision best serves the purpose “locate encoding, consolidation and later retrieval across carefully distinguished time frames”?",
+            "prompt": "🕵️ Grammar Detective — Challenge 12: Advanced application 12: Which revision best serves the purpose “locate encoding, consolidation and later retrieval across carefully distinguished time frames”?",
             "options": [
               {
                 "id": "a",
@@ -19944,7 +19944,7 @@
           {
             "id": "english-c2-sleep-consolidation-grammar-q13",
             "type": "mcq",
-            "prompt": "Advanced application 13: Which sentence most accurately calibrates certainty?",
+            "prompt": "🕵️ Grammar Detective — Challenge 13: Advanced application 13: Which sentence most accurately calibrates certainty?",
             "options": [
               {
                 "id": "a",
@@ -19967,7 +19967,7 @@
           {
             "id": "english-c2-sleep-consolidation-grammar-q14",
             "type": "mcq",
-            "prompt": "Advanced application 14: Which option maintains an appropriately formal C2 register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 14: Advanced application 14: Which option maintains an appropriately formal C2 register?",
             "options": [
               {
                 "id": "a",
@@ -19990,7 +19990,7 @@
           {
             "id": "english-c2-sleep-consolidation-grammar-q15",
             "type": "mcq",
-            "prompt": "Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
+            "prompt": "🕵️ Grammar Detective — Challenge 15: Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
             "options": [
               {
                 "id": "a",
@@ -20013,7 +20013,7 @@
           {
             "id": "english-c2-sleep-consolidation-grammar-q16",
             "type": "mcq",
-            "prompt": "Advanced application 16: Which option avoids concealing responsibility?",
+            "prompt": "🕵️ Grammar Detective — Challenge 16: Advanced application 16: Which option avoids concealing responsibility?",
             "options": [
               {
                 "id": "a",
@@ -20036,7 +20036,7 @@
           {
             "id": "english-c2-sleep-consolidation-grammar-q17",
             "type": "mcq",
-            "prompt": "Advanced application 17: Which sentence integrates a substantial counterargument?",
+            "prompt": "🕵️ Grammar Detective — Challenge 17: Advanced application 17: Which sentence integrates a substantial counterargument?",
             "options": [
               {
                 "id": "a",
@@ -20059,7 +20059,7 @@
           {
             "id": "english-c2-sleep-consolidation-grammar-q18",
             "type": "mcq",
-            "prompt": "Advanced application 18: Which conclusion is most appropriately qualified?",
+            "prompt": "🕵️ Grammar Detective — Challenge 18: Advanced application 18: Which conclusion is most appropriately qualified?",
             "options": [
               {
                 "id": "a",
@@ -20082,7 +20082,7 @@
           {
             "id": "english-c2-sleep-consolidation-grammar-q19",
             "type": "mcq",
-            "prompt": "Advanced application 19: Which sentence shows cohesive control across clauses?",
+            "prompt": "🕵️ Grammar Detective — Challenge 19: Advanced application 19: Which sentence shows cohesive control across clauses?",
             "options": [
               {
                 "id": "a",
@@ -20105,7 +20105,7 @@
           {
             "id": "english-c2-sleep-consolidation-grammar-q20",
             "type": "mcq",
-            "prompt": "Advanced application 20: Which statement accurately describes Temporal perspective and perfect aspect?",
+            "prompt": "🕵️ Grammar Detective — Challenge 20: Advanced application 20: Which statement accurately describes Temporal perspective and perfect aspect?",
             "options": [
               {
                 "id": "a",
@@ -26270,7 +26270,7 @@
           {
             "id": "english-c1-climate-health-air-pollution-grammar-q1",
             "type": "mcq",
-            "prompt": "What is the grammar focus of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 1: What is the grammar focus of this unit?",
             "difficulty": "medium",
             "options": [
               {
@@ -26294,7 +26294,7 @@
           {
             "id": "english-c1-climate-health-air-pollution-grammar-q2",
             "type": "mcq",
-            "prompt": "Why is Participle clauses for cause and result useful in this article?",
+            "prompt": "🕵️ Grammar Detective — Challenge 2: Why is Participle clauses for cause and result useful in this article?",
             "difficulty": "medium",
             "options": [
               {
@@ -26318,7 +26318,7 @@
           {
             "id": "english-c1-climate-health-air-pollution-grammar-q3",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Participle clauses for cause and result: “Because fossil fuels release pollutants, they damage health.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 3: Choose the best C1 revision using Participle clauses for cause and result: “Because fossil fuels release pollutants, they damage health.”",
             "difficulty": "hard",
             "options": [
               {
@@ -26342,7 +26342,7 @@
           {
             "id": "english-c1-climate-health-air-pollution-grammar-q4",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Participle clauses for cause and result: “Communities are exposed to dirty air and face higher risk.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 4: Choose the best C1 revision using Participle clauses for cause and result: “Communities are exposed to dirty air and face higher risk.”",
             "difficulty": "hard",
             "options": [
               {
@@ -26366,7 +26366,7 @@
           {
             "id": "english-c1-climate-health-air-pollution-grammar-q5",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Participle clauses for cause and result: “The policy reduced combustion and improved air quality.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 5: Choose the best C1 revision using Participle clauses for cause and result: “The policy reduced combustion and improved air quality.”",
             "difficulty": "hard",
             "options": [
               {
@@ -26390,7 +26390,7 @@
           {
             "id": "english-c1-climate-health-air-pollution-grammar-q6",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Participle clauses for cause and result: “Officials considered household costs and redesigned the subsidy.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 6: Choose the best C1 revision using Participle clauses for cause and result: “Officials considered household costs and redesigned the subsidy.”",
             "difficulty": "hard",
             "options": [
               {
@@ -26414,7 +26414,7 @@
           {
             "id": "english-c1-climate-health-air-pollution-grammar-q7",
             "type": "mcq",
-            "prompt": "Which revision principle best supports C1 academic accuracy?",
+            "prompt": "🕵️ Grammar Detective — Challenge 7: Which revision principle best supports C1 academic accuracy?",
             "difficulty": "hard",
             "options": [
               {
@@ -26438,7 +26438,7 @@
           {
             "id": "english-c1-climate-health-air-pollution-grammar-q8",
             "type": "mcq",
-            "prompt": "What should a final grammar check examine?",
+            "prompt": "🕵️ Grammar Detective — Challenge 8: What should a final grammar check examine?",
             "difficulty": "hard",
             "options": [
               {
@@ -26462,7 +26462,7 @@
           {
             "id": "english-c1-climate-health-air-pollution-grammar-q9",
             "type": "mcq",
-            "prompt": "Which sentence uses Participle clauses for cause and result with the most accurate form and register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 9: Which sentence uses Participle clauses for cause and result with the most accurate form and register?",
             "difficulty": "hard",
             "options": [
               {
@@ -26486,7 +26486,7 @@
           {
             "id": "english-c1-climate-health-air-pollution-grammar-q10",
             "type": "mcq",
-            "prompt": "Which revision applies Participle clauses for cause and result without overstating the evidence?",
+            "prompt": "🕵️ Grammar Detective — Challenge 10: Which revision applies Participle clauses for cause and result without overstating the evidence?",
             "difficulty": "hard",
             "options": [
               {
@@ -26510,7 +26510,7 @@
           {
             "id": "english-c1-climate-health-air-pollution-grammar-q11",
             "type": "mcq",
-            "prompt": "Which option best connects claim and qualification through Participle clauses for cause and result?",
+            "prompt": "🕵️ Grammar Detective — Challenge 11: Which option best connects claim and qualification through Participle clauses for cause and result?",
             "difficulty": "hard",
             "options": [
               {
@@ -26534,7 +26534,7 @@
           {
             "id": "english-c1-climate-health-air-pollution-grammar-q12",
             "type": "mcq",
-            "prompt": "Which sentence would be most appropriate in a formal discussion of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 12: Which sentence would be most appropriate in a formal discussion of this unit?",
             "difficulty": "hard",
             "options": [
               {
@@ -26558,7 +26558,7 @@
           {
             "id": "english-c1-climate-health-air-pollution-grammar-q13",
             "type": "mcq",
-            "prompt": "Which sentence uses Participle clauses for cause and result with the most accurate form and register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 13: Which sentence uses Participle clauses for cause and result with the most accurate form and register?",
             "difficulty": "hard",
             "options": [
               {
@@ -26582,7 +26582,7 @@
           {
             "id": "english-c1-climate-health-air-pollution-grammar-q14",
             "type": "mcq",
-            "prompt": "Which revision applies Participle clauses for cause and result without overstating the evidence?",
+            "prompt": "🕵️ Grammar Detective — Challenge 14: Which revision applies Participle clauses for cause and result without overstating the evidence?",
             "difficulty": "hard",
             "options": [
               {
@@ -26606,7 +26606,7 @@
           {
             "id": "english-c1-climate-health-air-pollution-grammar-q15",
             "type": "mcq",
-            "prompt": "Which option best connects claim and qualification through Participle clauses for cause and result?",
+            "prompt": "🕵️ Grammar Detective — Challenge 15: Which option best connects claim and qualification through Participle clauses for cause and result?",
             "difficulty": "hard",
             "options": [
               {
@@ -26630,7 +26630,7 @@
           {
             "id": "english-c1-climate-health-air-pollution-grammar-q16",
             "type": "mcq",
-            "prompt": "Which sentence would be most appropriate in a formal discussion of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 16: Which sentence would be most appropriate in a formal discussion of this unit?",
             "difficulty": "hard",
             "options": [
               {
@@ -26654,7 +26654,7 @@
           {
             "id": "english-c1-climate-health-air-pollution-grammar-q17",
             "type": "mcq",
-            "prompt": "Which sentence uses Participle clauses for cause and result with the most accurate form and register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 17: Which sentence uses Participle clauses for cause and result with the most accurate form and register?",
             "difficulty": "hard",
             "options": [
               {
@@ -26678,7 +26678,7 @@
           {
             "id": "english-c1-climate-health-air-pollution-grammar-q18",
             "type": "mcq",
-            "prompt": "Which revision applies Participle clauses for cause and result without overstating the evidence?",
+            "prompt": "🕵️ Grammar Detective — Challenge 18: Which revision applies Participle clauses for cause and result without overstating the evidence?",
             "difficulty": "hard",
             "options": [
               {
@@ -26702,7 +26702,7 @@
           {
             "id": "english-c1-climate-health-air-pollution-grammar-q19",
             "type": "mcq",
-            "prompt": "Which option best connects claim and qualification through Participle clauses for cause and result?",
+            "prompt": "🕵️ Grammar Detective — Challenge 19: Which option best connects claim and qualification through Participle clauses for cause and result?",
             "difficulty": "hard",
             "options": [
               {
@@ -26726,7 +26726,7 @@
           {
             "id": "english-c1-climate-health-air-pollution-grammar-q20",
             "type": "mcq",
-            "prompt": "Which sentence would be most appropriate in a formal discussion of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 20: Which sentence would be most appropriate in a formal discussion of this unit?",
             "difficulty": "hard",
             "options": [
               {
@@ -26890,7 +26890,7 @@
           {
             "id": "english-c2-incidental-acquisition-grammar-q1",
             "type": "mcq",
-            "prompt": "Which sentence best demonstrates controlled use of Hedging and epistemic modality?",
+            "prompt": "🕵️ Grammar Detective — Challenge 1: Which sentence best demonstrates controlled use of Hedging and epistemic modality?",
             "options": [
               {
                 "id": "a",
@@ -26913,7 +26913,7 @@
           {
             "id": "english-c2-incidental-acquisition-grammar-q2",
             "type": "mcq",
-            "prompt": "Which revision best serves the purpose “distinguish plausible acquisition from demonstrated learning”?",
+            "prompt": "🕵️ Grammar Detective — Challenge 2: Which revision best serves the purpose “distinguish plausible acquisition from demonstrated learning”?",
             "options": [
               {
                 "id": "a",
@@ -26936,7 +26936,7 @@
           {
             "id": "english-c2-incidental-acquisition-grammar-q3",
             "type": "mcq",
-            "prompt": "Which sentence most accurately calibrates certainty?",
+            "prompt": "🕵️ Grammar Detective — Challenge 3: Which sentence most accurately calibrates certainty?",
             "options": [
               {
                 "id": "a",
@@ -26959,7 +26959,7 @@
           {
             "id": "english-c2-incidental-acquisition-grammar-q4",
             "type": "mcq",
-            "prompt": "Which option maintains an appropriately formal C2 register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 4: Which option maintains an appropriately formal C2 register?",
             "options": [
               {
                 "id": "a",
@@ -26982,7 +26982,7 @@
           {
             "id": "english-c2-incidental-acquisition-grammar-q5",
             "type": "mcq",
-            "prompt": "Which sentence makes the relationship between evidence and inference clearest?",
+            "prompt": "🕵️ Grammar Detective — Challenge 5: Which sentence makes the relationship between evidence and inference clearest?",
             "options": [
               {
                 "id": "a",
@@ -27005,7 +27005,7 @@
           {
             "id": "english-c2-incidental-acquisition-grammar-q6",
             "type": "mcq",
-            "prompt": "Which option avoids concealing responsibility?",
+            "prompt": "🕵️ Grammar Detective — Challenge 6: Which option avoids concealing responsibility?",
             "options": [
               {
                 "id": "a",
@@ -27028,7 +27028,7 @@
           {
             "id": "english-c2-incidental-acquisition-grammar-q7",
             "type": "mcq",
-            "prompt": "Which sentence integrates a substantial counterargument?",
+            "prompt": "🕵️ Grammar Detective — Challenge 7: Which sentence integrates a substantial counterargument?",
             "options": [
               {
                 "id": "a",
@@ -27051,7 +27051,7 @@
           {
             "id": "english-c2-incidental-acquisition-grammar-q8",
             "type": "mcq",
-            "prompt": "Which conclusion is most appropriately qualified?",
+            "prompt": "🕵️ Grammar Detective — Challenge 8: Which conclusion is most appropriately qualified?",
             "options": [
               {
                 "id": "a",
@@ -27074,7 +27074,7 @@
           {
             "id": "english-c2-incidental-acquisition-grammar-q9",
             "type": "mcq",
-            "prompt": "Which sentence shows cohesive control across clauses?",
+            "prompt": "🕵️ Grammar Detective — Challenge 9: Which sentence shows cohesive control across clauses?",
             "options": [
               {
                 "id": "a",
@@ -27097,7 +27097,7 @@
           {
             "id": "english-c2-incidental-acquisition-grammar-q10",
             "type": "mcq",
-            "prompt": "Which statement accurately describes Hedging and epistemic modality?",
+            "prompt": "🕵️ Grammar Detective — Challenge 10: Which statement accurately describes Hedging and epistemic modality?",
             "options": [
               {
                 "id": "a",
@@ -27120,7 +27120,7 @@
           {
             "id": "english-c2-incidental-acquisition-grammar-q11",
             "type": "mcq",
-            "prompt": "Advanced application 11: Which sentence best demonstrates controlled use of Hedging and epistemic modality?",
+            "prompt": "🕵️ Grammar Detective — Challenge 11: Advanced application 11: Which sentence best demonstrates controlled use of Hedging and epistemic modality?",
             "options": [
               {
                 "id": "a",
@@ -27143,7 +27143,7 @@
           {
             "id": "english-c2-incidental-acquisition-grammar-q12",
             "type": "mcq",
-            "prompt": "Advanced application 12: Which revision best serves the purpose “distinguish plausible acquisition from demonstrated learning”?",
+            "prompt": "🕵️ Grammar Detective — Challenge 12: Advanced application 12: Which revision best serves the purpose “distinguish plausible acquisition from demonstrated learning”?",
             "options": [
               {
                 "id": "a",
@@ -27166,7 +27166,7 @@
           {
             "id": "english-c2-incidental-acquisition-grammar-q13",
             "type": "mcq",
-            "prompt": "Advanced application 13: Which sentence most accurately calibrates certainty?",
+            "prompt": "🕵️ Grammar Detective — Challenge 13: Advanced application 13: Which sentence most accurately calibrates certainty?",
             "options": [
               {
                 "id": "a",
@@ -27189,7 +27189,7 @@
           {
             "id": "english-c2-incidental-acquisition-grammar-q14",
             "type": "mcq",
-            "prompt": "Advanced application 14: Which option maintains an appropriately formal C2 register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 14: Advanced application 14: Which option maintains an appropriately formal C2 register?",
             "options": [
               {
                 "id": "a",
@@ -27212,7 +27212,7 @@
           {
             "id": "english-c2-incidental-acquisition-grammar-q15",
             "type": "mcq",
-            "prompt": "Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
+            "prompt": "🕵️ Grammar Detective — Challenge 15: Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
             "options": [
               {
                 "id": "a",
@@ -27235,7 +27235,7 @@
           {
             "id": "english-c2-incidental-acquisition-grammar-q16",
             "type": "mcq",
-            "prompt": "Advanced application 16: Which option avoids concealing responsibility?",
+            "prompt": "🕵️ Grammar Detective — Challenge 16: Advanced application 16: Which option avoids concealing responsibility?",
             "options": [
               {
                 "id": "a",
@@ -27258,7 +27258,7 @@
           {
             "id": "english-c2-incidental-acquisition-grammar-q17",
             "type": "mcq",
-            "prompt": "Advanced application 17: Which sentence integrates a substantial counterargument?",
+            "prompt": "🕵️ Grammar Detective — Challenge 17: Advanced application 17: Which sentence integrates a substantial counterargument?",
             "options": [
               {
                 "id": "a",
@@ -27281,7 +27281,7 @@
           {
             "id": "english-c2-incidental-acquisition-grammar-q18",
             "type": "mcq",
-            "prompt": "Advanced application 18: Which conclusion is most appropriately qualified?",
+            "prompt": "🕵️ Grammar Detective — Challenge 18: Advanced application 18: Which conclusion is most appropriately qualified?",
             "options": [
               {
                 "id": "a",
@@ -27304,7 +27304,7 @@
           {
             "id": "english-c2-incidental-acquisition-grammar-q19",
             "type": "mcq",
-            "prompt": "Advanced application 19: Which sentence shows cohesive control across clauses?",
+            "prompt": "🕵️ Grammar Detective — Challenge 19: Advanced application 19: Which sentence shows cohesive control across clauses?",
             "options": [
               {
                 "id": "a",
@@ -27327,7 +27327,7 @@
           {
             "id": "english-c2-incidental-acquisition-grammar-q20",
             "type": "mcq",
-            "prompt": "Advanced application 20: Which statement accurately describes Hedging and epistemic modality?",
+            "prompt": "🕵️ Grammar Detective — Challenge 20: Advanced application 20: Which statement accurately describes Hedging and epistemic modality?",
             "options": [
               {
                 "id": "a",
@@ -33487,7 +33487,7 @@
           {
             "id": "english-c1-loneliness-public-health-grammar-q1",
             "type": "mcq",
-            "prompt": "What is the grammar focus of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 1: What is the grammar focus of this unit?",
             "difficulty": "medium",
             "options": [
               {
@@ -33511,7 +33511,7 @@
           {
             "id": "english-c1-loneliness-public-health-grammar-q2",
             "type": "mcq",
-            "prompt": "Why is Cleft and pseudo-cleft structures useful in this article?",
+            "prompt": "🕵️ Grammar Detective — Challenge 2: Why is Cleft and pseudo-cleft structures useful in this article?",
             "difficulty": "medium",
             "options": [
               {
@@ -33535,7 +33535,7 @@
           {
             "id": "english-c1-loneliness-public-health-grammar-q3",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Cleft and pseudo-cleft structures: “The quality of connection matters most.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 3: Choose the best C1 revision using Cleft and pseudo-cleft structures: “The quality of connection matters most.”",
             "difficulty": "hard",
             "options": [
               {
@@ -33559,7 +33559,7 @@
           {
             "id": "english-c1-loneliness-public-health-grammar-q4",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Cleft and pseudo-cleft structures: “Accessible transport enables participation.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 4: Choose the best C1 revision using Cleft and pseudo-cleft structures: “Accessible transport enables participation.”",
             "difficulty": "hard",
             "options": [
               {
@@ -33583,7 +33583,7 @@
           {
             "id": "english-c1-loneliness-public-health-grammar-q5",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Cleft and pseudo-cleft structures: “Policy often overlooks younger adults.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 5: Choose the best C1 revision using Cleft and pseudo-cleft structures: “Policy often overlooks younger adults.”",
             "difficulty": "hard",
             "options": [
               {
@@ -33607,7 +33607,7 @@
           {
             "id": "english-c1-loneliness-public-health-grammar-q6",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Cleft and pseudo-cleft structures: “Medical framing can hide social causes.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 6: Choose the best C1 revision using Cleft and pseudo-cleft structures: “Medical framing can hide social causes.”",
             "difficulty": "hard",
             "options": [
               {
@@ -33631,7 +33631,7 @@
           {
             "id": "english-c1-loneliness-public-health-grammar-q7",
             "type": "mcq",
-            "prompt": "Which revision principle best supports C1 academic accuracy?",
+            "prompt": "🕵️ Grammar Detective — Challenge 7: Which revision principle best supports C1 academic accuracy?",
             "difficulty": "hard",
             "options": [
               {
@@ -33655,7 +33655,7 @@
           {
             "id": "english-c1-loneliness-public-health-grammar-q8",
             "type": "mcq",
-            "prompt": "What should a final grammar check examine?",
+            "prompt": "🕵️ Grammar Detective — Challenge 8: What should a final grammar check examine?",
             "difficulty": "hard",
             "options": [
               {
@@ -33679,7 +33679,7 @@
           {
             "id": "english-c1-loneliness-public-health-grammar-q9",
             "type": "mcq",
-            "prompt": "Which sentence uses Cleft and pseudo-cleft structures with the most accurate form and register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 9: Which sentence uses Cleft and pseudo-cleft structures with the most accurate form and register?",
             "difficulty": "hard",
             "options": [
               {
@@ -33703,7 +33703,7 @@
           {
             "id": "english-c1-loneliness-public-health-grammar-q10",
             "type": "mcq",
-            "prompt": "Which revision applies Cleft and pseudo-cleft structures without overstating the evidence?",
+            "prompt": "🕵️ Grammar Detective — Challenge 10: Which revision applies Cleft and pseudo-cleft structures without overstating the evidence?",
             "difficulty": "hard",
             "options": [
               {
@@ -33727,7 +33727,7 @@
           {
             "id": "english-c1-loneliness-public-health-grammar-q11",
             "type": "mcq",
-            "prompt": "Which option best connects claim and qualification through Cleft and pseudo-cleft structures?",
+            "prompt": "🕵️ Grammar Detective — Challenge 11: Which option best connects claim and qualification through Cleft and pseudo-cleft structures?",
             "difficulty": "hard",
             "options": [
               {
@@ -33751,7 +33751,7 @@
           {
             "id": "english-c1-loneliness-public-health-grammar-q12",
             "type": "mcq",
-            "prompt": "Which sentence would be most appropriate in a formal discussion of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 12: Which sentence would be most appropriate in a formal discussion of this unit?",
             "difficulty": "hard",
             "options": [
               {
@@ -33775,7 +33775,7 @@
           {
             "id": "english-c1-loneliness-public-health-grammar-q13",
             "type": "mcq",
-            "prompt": "Which sentence uses Cleft and pseudo-cleft structures with the most accurate form and register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 13: Which sentence uses Cleft and pseudo-cleft structures with the most accurate form and register?",
             "difficulty": "hard",
             "options": [
               {
@@ -33799,7 +33799,7 @@
           {
             "id": "english-c1-loneliness-public-health-grammar-q14",
             "type": "mcq",
-            "prompt": "Which revision applies Cleft and pseudo-cleft structures without overstating the evidence?",
+            "prompt": "🕵️ Grammar Detective — Challenge 14: Which revision applies Cleft and pseudo-cleft structures without overstating the evidence?",
             "difficulty": "hard",
             "options": [
               {
@@ -33823,7 +33823,7 @@
           {
             "id": "english-c1-loneliness-public-health-grammar-q15",
             "type": "mcq",
-            "prompt": "Which option best connects claim and qualification through Cleft and pseudo-cleft structures?",
+            "prompt": "🕵️ Grammar Detective — Challenge 15: Which option best connects claim and qualification through Cleft and pseudo-cleft structures?",
             "difficulty": "hard",
             "options": [
               {
@@ -33847,7 +33847,7 @@
           {
             "id": "english-c1-loneliness-public-health-grammar-q16",
             "type": "mcq",
-            "prompt": "Which sentence would be most appropriate in a formal discussion of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 16: Which sentence would be most appropriate in a formal discussion of this unit?",
             "difficulty": "hard",
             "options": [
               {
@@ -33871,7 +33871,7 @@
           {
             "id": "english-c1-loneliness-public-health-grammar-q17",
             "type": "mcq",
-            "prompt": "Which sentence uses Cleft and pseudo-cleft structures with the most accurate form and register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 17: Which sentence uses Cleft and pseudo-cleft structures with the most accurate form and register?",
             "difficulty": "hard",
             "options": [
               {
@@ -33895,7 +33895,7 @@
           {
             "id": "english-c1-loneliness-public-health-grammar-q18",
             "type": "mcq",
-            "prompt": "Which revision applies Cleft and pseudo-cleft structures without overstating the evidence?",
+            "prompt": "🕵️ Grammar Detective — Challenge 18: Which revision applies Cleft and pseudo-cleft structures without overstating the evidence?",
             "difficulty": "hard",
             "options": [
               {
@@ -33919,7 +33919,7 @@
           {
             "id": "english-c1-loneliness-public-health-grammar-q19",
             "type": "mcq",
-            "prompt": "Which option best connects claim and qualification through Cleft and pseudo-cleft structures?",
+            "prompt": "🕵️ Grammar Detective — Challenge 19: Which option best connects claim and qualification through Cleft and pseudo-cleft structures?",
             "difficulty": "hard",
             "options": [
               {
@@ -33943,7 +33943,7 @@
           {
             "id": "english-c1-loneliness-public-health-grammar-q20",
             "type": "mcq",
-            "prompt": "Which sentence would be most appropriate in a formal discussion of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 20: Which sentence would be most appropriate in a formal discussion of this unit?",
             "difficulty": "hard",
             "options": [
               {
@@ -34107,7 +34107,7 @@
           {
             "id": "english-c2-multimodal-learning-grammar-q1",
             "type": "mcq",
-            "prompt": "Which sentence best demonstrates controlled use of Referencing, substitution and cohesive economy?",
+            "prompt": "🕵️ Grammar Detective — Challenge 1: Which sentence best demonstrates controlled use of Referencing, substitution and cohesive economy?",
             "options": [
               {
                 "id": "a",
@@ -34130,7 +34130,7 @@
           {
             "id": "english-c2-multimodal-learning-grammar-q2",
             "type": "mcq",
-            "prompt": "Which revision best serves the purpose “track information across modes without ambiguous repetition”?",
+            "prompt": "🕵️ Grammar Detective — Challenge 2: Which revision best serves the purpose “track information across modes without ambiguous repetition”?",
             "options": [
               {
                 "id": "a",
@@ -34153,7 +34153,7 @@
           {
             "id": "english-c2-multimodal-learning-grammar-q3",
             "type": "mcq",
-            "prompt": "Which sentence most accurately calibrates certainty?",
+            "prompt": "🕵️ Grammar Detective — Challenge 3: Which sentence most accurately calibrates certainty?",
             "options": [
               {
                 "id": "a",
@@ -34176,7 +34176,7 @@
           {
             "id": "english-c2-multimodal-learning-grammar-q4",
             "type": "mcq",
-            "prompt": "Which option maintains an appropriately formal C2 register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 4: Which option maintains an appropriately formal C2 register?",
             "options": [
               {
                 "id": "a",
@@ -34199,7 +34199,7 @@
           {
             "id": "english-c2-multimodal-learning-grammar-q5",
             "type": "mcq",
-            "prompt": "Which sentence makes the relationship between evidence and inference clearest?",
+            "prompt": "🕵️ Grammar Detective — Challenge 5: Which sentence makes the relationship between evidence and inference clearest?",
             "options": [
               {
                 "id": "a",
@@ -34222,7 +34222,7 @@
           {
             "id": "english-c2-multimodal-learning-grammar-q6",
             "type": "mcq",
-            "prompt": "Which option avoids concealing responsibility?",
+            "prompt": "🕵️ Grammar Detective — Challenge 6: Which option avoids concealing responsibility?",
             "options": [
               {
                 "id": "a",
@@ -34245,7 +34245,7 @@
           {
             "id": "english-c2-multimodal-learning-grammar-q7",
             "type": "mcq",
-            "prompt": "Which sentence integrates a substantial counterargument?",
+            "prompt": "🕵️ Grammar Detective — Challenge 7: Which sentence integrates a substantial counterargument?",
             "options": [
               {
                 "id": "a",
@@ -34268,7 +34268,7 @@
           {
             "id": "english-c2-multimodal-learning-grammar-q8",
             "type": "mcq",
-            "prompt": "Which conclusion is most appropriately qualified?",
+            "prompt": "🕵️ Grammar Detective — Challenge 8: Which conclusion is most appropriately qualified?",
             "options": [
               {
                 "id": "a",
@@ -34291,7 +34291,7 @@
           {
             "id": "english-c2-multimodal-learning-grammar-q9",
             "type": "mcq",
-            "prompt": "Which sentence shows cohesive control across clauses?",
+            "prompt": "🕵️ Grammar Detective — Challenge 9: Which sentence shows cohesive control across clauses?",
             "options": [
               {
                 "id": "a",
@@ -34314,7 +34314,7 @@
           {
             "id": "english-c2-multimodal-learning-grammar-q10",
             "type": "mcq",
-            "prompt": "Which statement accurately describes Referencing, substitution and cohesive economy?",
+            "prompt": "🕵️ Grammar Detective — Challenge 10: Which statement accurately describes Referencing, substitution and cohesive economy?",
             "options": [
               {
                 "id": "a",
@@ -34337,7 +34337,7 @@
           {
             "id": "english-c2-multimodal-learning-grammar-q11",
             "type": "mcq",
-            "prompt": "Advanced application 11: Which sentence best demonstrates controlled use of Referencing, substitution and cohesive economy?",
+            "prompt": "🕵️ Grammar Detective — Challenge 11: Advanced application 11: Which sentence best demonstrates controlled use of Referencing, substitution and cohesive economy?",
             "options": [
               {
                 "id": "a",
@@ -34360,7 +34360,7 @@
           {
             "id": "english-c2-multimodal-learning-grammar-q12",
             "type": "mcq",
-            "prompt": "Advanced application 12: Which revision best serves the purpose “track information across modes without ambiguous repetition”?",
+            "prompt": "🕵️ Grammar Detective — Challenge 12: Advanced application 12: Which revision best serves the purpose “track information across modes without ambiguous repetition”?",
             "options": [
               {
                 "id": "a",
@@ -34383,7 +34383,7 @@
           {
             "id": "english-c2-multimodal-learning-grammar-q13",
             "type": "mcq",
-            "prompt": "Advanced application 13: Which sentence most accurately calibrates certainty?",
+            "prompt": "🕵️ Grammar Detective — Challenge 13: Advanced application 13: Which sentence most accurately calibrates certainty?",
             "options": [
               {
                 "id": "a",
@@ -34406,7 +34406,7 @@
           {
             "id": "english-c2-multimodal-learning-grammar-q14",
             "type": "mcq",
-            "prompt": "Advanced application 14: Which option maintains an appropriately formal C2 register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 14: Advanced application 14: Which option maintains an appropriately formal C2 register?",
             "options": [
               {
                 "id": "a",
@@ -34429,7 +34429,7 @@
           {
             "id": "english-c2-multimodal-learning-grammar-q15",
             "type": "mcq",
-            "prompt": "Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
+            "prompt": "🕵️ Grammar Detective — Challenge 15: Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
             "options": [
               {
                 "id": "a",
@@ -34452,7 +34452,7 @@
           {
             "id": "english-c2-multimodal-learning-grammar-q16",
             "type": "mcq",
-            "prompt": "Advanced application 16: Which option avoids concealing responsibility?",
+            "prompt": "🕵️ Grammar Detective — Challenge 16: Advanced application 16: Which option avoids concealing responsibility?",
             "options": [
               {
                 "id": "a",
@@ -34475,7 +34475,7 @@
           {
             "id": "english-c2-multimodal-learning-grammar-q17",
             "type": "mcq",
-            "prompt": "Advanced application 17: Which sentence integrates a substantial counterargument?",
+            "prompt": "🕵️ Grammar Detective — Challenge 17: Advanced application 17: Which sentence integrates a substantial counterargument?",
             "options": [
               {
                 "id": "a",
@@ -34498,7 +34498,7 @@
           {
             "id": "english-c2-multimodal-learning-grammar-q18",
             "type": "mcq",
-            "prompt": "Advanced application 18: Which conclusion is most appropriately qualified?",
+            "prompt": "🕵️ Grammar Detective — Challenge 18: Advanced application 18: Which conclusion is most appropriately qualified?",
             "options": [
               {
                 "id": "a",
@@ -34521,7 +34521,7 @@
           {
             "id": "english-c2-multimodal-learning-grammar-q19",
             "type": "mcq",
-            "prompt": "Advanced application 19: Which sentence shows cohesive control across clauses?",
+            "prompt": "🕵️ Grammar Detective — Challenge 19: Advanced application 19: Which sentence shows cohesive control across clauses?",
             "options": [
               {
                 "id": "a",
@@ -34544,7 +34544,7 @@
           {
             "id": "english-c2-multimodal-learning-grammar-q20",
             "type": "mcq",
-            "prompt": "Advanced application 20: Which statement accurately describes Referencing, substitution and cohesive economy?",
+            "prompt": "🕵️ Grammar Detective — Challenge 20: Advanced application 20: Which statement accurately describes Referencing, substitution and cohesive economy?",
             "options": [
               {
                 "id": "a",
@@ -40718,7 +40718,7 @@
           {
             "id": "english-c1-ageing-care-economy-grammar-q1",
             "type": "mcq",
-            "prompt": "What is the grammar focus of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 1: What is the grammar focus of this unit?",
             "difficulty": "medium",
             "options": [
               {
@@ -40742,7 +40742,7 @@
           {
             "id": "english-c1-ageing-care-economy-grammar-q2",
             "type": "mcq",
-            "prompt": "Why is Inversion after limiting adverbials useful in this article?",
+            "prompt": "🕵️ Grammar Detective — Challenge 2: Why is Inversion after limiting adverbials useful in this article?",
             "difficulty": "medium",
             "options": [
               {
@@ -40766,7 +40766,7 @@
           {
             "id": "english-c1-ageing-care-economy-grammar-q3",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Inversion after limiting adverbials: “Governments rarely measure unpaid care accurately.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 3: Choose the best C1 revision using Inversion after limiting adverbials: “Governments rarely measure unpaid care accurately.”",
             "difficulty": "hard",
             "options": [
               {
@@ -40790,7 +40790,7 @@
           {
             "id": "english-c1-ageing-care-economy-grammar-q4",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Inversion after limiting adverbials: “The burden became visible only after the survey.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 4: Choose the best C1 revision using Inversion after limiting adverbials: “The burden became visible only after the survey.”",
             "difficulty": "hard",
             "options": [
               {
@@ -40814,7 +40814,7 @@
           {
             "id": "english-c1-ageing-care-economy-grammar-q5",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Inversion after limiting adverbials: “Care systems have never faced this combination of demand and labour shortage.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 5: Choose the best C1 revision using Inversion after limiting adverbials: “Care systems have never faced this combination of demand and labour shortage.”",
             "difficulty": "hard",
             "options": [
               {
@@ -40838,7 +40838,7 @@
           {
             "id": "english-c1-ageing-care-economy-grammar-q6",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Inversion after limiting adverbials: “Policy changed only then.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 6: Choose the best C1 revision using Inversion after limiting adverbials: “Policy changed only then.”",
             "difficulty": "hard",
             "options": [
               {
@@ -40862,7 +40862,7 @@
           {
             "id": "english-c1-ageing-care-economy-grammar-q7",
             "type": "mcq",
-            "prompt": "Which revision principle best supports C1 academic accuracy?",
+            "prompt": "🕵️ Grammar Detective — Challenge 7: Which revision principle best supports C1 academic accuracy?",
             "difficulty": "hard",
             "options": [
               {
@@ -40886,7 +40886,7 @@
           {
             "id": "english-c1-ageing-care-economy-grammar-q8",
             "type": "mcq",
-            "prompt": "What should a final grammar check examine?",
+            "prompt": "🕵️ Grammar Detective — Challenge 8: What should a final grammar check examine?",
             "difficulty": "hard",
             "options": [
               {
@@ -40910,7 +40910,7 @@
           {
             "id": "english-c1-ageing-care-economy-grammar-q9",
             "type": "mcq",
-            "prompt": "Which sentence uses Inversion after limiting adverbials with the most accurate form and register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 9: Which sentence uses Inversion after limiting adverbials with the most accurate form and register?",
             "difficulty": "hard",
             "options": [
               {
@@ -40934,7 +40934,7 @@
           {
             "id": "english-c1-ageing-care-economy-grammar-q10",
             "type": "mcq",
-            "prompt": "Which revision applies Inversion after limiting adverbials without overstating the evidence?",
+            "prompt": "🕵️ Grammar Detective — Challenge 10: Which revision applies Inversion after limiting adverbials without overstating the evidence?",
             "difficulty": "hard",
             "options": [
               {
@@ -40958,7 +40958,7 @@
           {
             "id": "english-c1-ageing-care-economy-grammar-q11",
             "type": "mcq",
-            "prompt": "Which option best connects claim and qualification through Inversion after limiting adverbials?",
+            "prompt": "🕵️ Grammar Detective — Challenge 11: Which option best connects claim and qualification through Inversion after limiting adverbials?",
             "difficulty": "hard",
             "options": [
               {
@@ -40982,7 +40982,7 @@
           {
             "id": "english-c1-ageing-care-economy-grammar-q12",
             "type": "mcq",
-            "prompt": "Which sentence would be most appropriate in a formal discussion of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 12: Which sentence would be most appropriate in a formal discussion of this unit?",
             "difficulty": "hard",
             "options": [
               {
@@ -41006,7 +41006,7 @@
           {
             "id": "english-c1-ageing-care-economy-grammar-q13",
             "type": "mcq",
-            "prompt": "Which sentence uses Inversion after limiting adverbials with the most accurate form and register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 13: Which sentence uses Inversion after limiting adverbials with the most accurate form and register?",
             "difficulty": "hard",
             "options": [
               {
@@ -41030,7 +41030,7 @@
           {
             "id": "english-c1-ageing-care-economy-grammar-q14",
             "type": "mcq",
-            "prompt": "Which revision applies Inversion after limiting adverbials without overstating the evidence?",
+            "prompt": "🕵️ Grammar Detective — Challenge 14: Which revision applies Inversion after limiting adverbials without overstating the evidence?",
             "difficulty": "hard",
             "options": [
               {
@@ -41054,7 +41054,7 @@
           {
             "id": "english-c1-ageing-care-economy-grammar-q15",
             "type": "mcq",
-            "prompt": "Which option best connects claim and qualification through Inversion after limiting adverbials?",
+            "prompt": "🕵️ Grammar Detective — Challenge 15: Which option best connects claim and qualification through Inversion after limiting adverbials?",
             "difficulty": "hard",
             "options": [
               {
@@ -41078,7 +41078,7 @@
           {
             "id": "english-c1-ageing-care-economy-grammar-q16",
             "type": "mcq",
-            "prompt": "Which sentence would be most appropriate in a formal discussion of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 16: Which sentence would be most appropriate in a formal discussion of this unit?",
             "difficulty": "hard",
             "options": [
               {
@@ -41102,7 +41102,7 @@
           {
             "id": "english-c1-ageing-care-economy-grammar-q17",
             "type": "mcq",
-            "prompt": "Which sentence uses Inversion after limiting adverbials with the most accurate form and register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 17: Which sentence uses Inversion after limiting adverbials with the most accurate form and register?",
             "difficulty": "hard",
             "options": [
               {
@@ -41126,7 +41126,7 @@
           {
             "id": "english-c1-ageing-care-economy-grammar-q18",
             "type": "mcq",
-            "prompt": "Which revision applies Inversion after limiting adverbials without overstating the evidence?",
+            "prompt": "🕵️ Grammar Detective — Challenge 18: Which revision applies Inversion after limiting adverbials without overstating the evidence?",
             "difficulty": "hard",
             "options": [
               {
@@ -41150,7 +41150,7 @@
           {
             "id": "english-c1-ageing-care-economy-grammar-q19",
             "type": "mcq",
-            "prompt": "Which option best connects claim and qualification through Inversion after limiting adverbials?",
+            "prompt": "🕵️ Grammar Detective — Challenge 19: Which option best connects claim and qualification through Inversion after limiting adverbials?",
             "difficulty": "hard",
             "options": [
               {
@@ -41174,7 +41174,7 @@
           {
             "id": "english-c1-ageing-care-economy-grammar-q20",
             "type": "mcq",
-            "prompt": "Which sentence would be most appropriate in a formal discussion of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 20: Which sentence would be most appropriate in a formal discussion of this unit?",
             "difficulty": "hard",
             "options": [
               {
@@ -41338,7 +41338,7 @@
           {
             "id": "english-c2-interaction-output-grammar-q1",
             "type": "mcq",
-            "prompt": "Which sentence best demonstrates controlled use of Reported speech and polyphonic stance?",
+            "prompt": "🕵️ Grammar Detective — Challenge 1: Which sentence best demonstrates controlled use of Reported speech and polyphonic stance?",
             "options": [
               {
                 "id": "a",
@@ -41361,7 +41361,7 @@
           {
             "id": "english-c2-interaction-output-grammar-q2",
             "type": "mcq",
-            "prompt": "Which revision best serves the purpose “represent several speakers while preserving responsibility for each claim”?",
+            "prompt": "🕵️ Grammar Detective — Challenge 2: Which revision best serves the purpose “represent several speakers while preserving responsibility for each claim”?",
             "options": [
               {
                 "id": "a",
@@ -41384,7 +41384,7 @@
           {
             "id": "english-c2-interaction-output-grammar-q3",
             "type": "mcq",
-            "prompt": "Which sentence most accurately calibrates certainty?",
+            "prompt": "🕵️ Grammar Detective — Challenge 3: Which sentence most accurately calibrates certainty?",
             "options": [
               {
                 "id": "a",
@@ -41407,7 +41407,7 @@
           {
             "id": "english-c2-interaction-output-grammar-q4",
             "type": "mcq",
-            "prompt": "Which option maintains an appropriately formal C2 register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 4: Which option maintains an appropriately formal C2 register?",
             "options": [
               {
                 "id": "a",
@@ -41430,7 +41430,7 @@
           {
             "id": "english-c2-interaction-output-grammar-q5",
             "type": "mcq",
-            "prompt": "Which sentence makes the relationship between evidence and inference clearest?",
+            "prompt": "🕵️ Grammar Detective — Challenge 5: Which sentence makes the relationship between evidence and inference clearest?",
             "options": [
               {
                 "id": "a",
@@ -41453,7 +41453,7 @@
           {
             "id": "english-c2-interaction-output-grammar-q6",
             "type": "mcq",
-            "prompt": "Which option avoids concealing responsibility?",
+            "prompt": "🕵️ Grammar Detective — Challenge 6: Which option avoids concealing responsibility?",
             "options": [
               {
                 "id": "a",
@@ -41476,7 +41476,7 @@
           {
             "id": "english-c2-interaction-output-grammar-q7",
             "type": "mcq",
-            "prompt": "Which sentence integrates a substantial counterargument?",
+            "prompt": "🕵️ Grammar Detective — Challenge 7: Which sentence integrates a substantial counterargument?",
             "options": [
               {
                 "id": "a",
@@ -41499,7 +41499,7 @@
           {
             "id": "english-c2-interaction-output-grammar-q8",
             "type": "mcq",
-            "prompt": "Which conclusion is most appropriately qualified?",
+            "prompt": "🕵️ Grammar Detective — Challenge 8: Which conclusion is most appropriately qualified?",
             "options": [
               {
                 "id": "a",
@@ -41522,7 +41522,7 @@
           {
             "id": "english-c2-interaction-output-grammar-q9",
             "type": "mcq",
-            "prompt": "Which sentence shows cohesive control across clauses?",
+            "prompt": "🕵️ Grammar Detective — Challenge 9: Which sentence shows cohesive control across clauses?",
             "options": [
               {
                 "id": "a",
@@ -41545,7 +41545,7 @@
           {
             "id": "english-c2-interaction-output-grammar-q10",
             "type": "mcq",
-            "prompt": "Which statement accurately describes Reported speech and polyphonic stance?",
+            "prompt": "🕵️ Grammar Detective — Challenge 10: Which statement accurately describes Reported speech and polyphonic stance?",
             "options": [
               {
                 "id": "a",
@@ -41568,7 +41568,7 @@
           {
             "id": "english-c2-interaction-output-grammar-q11",
             "type": "mcq",
-            "prompt": "Advanced application 11: Which sentence best demonstrates controlled use of Reported speech and polyphonic stance?",
+            "prompt": "🕵️ Grammar Detective — Challenge 11: Advanced application 11: Which sentence best demonstrates controlled use of Reported speech and polyphonic stance?",
             "options": [
               {
                 "id": "a",
@@ -41591,7 +41591,7 @@
           {
             "id": "english-c2-interaction-output-grammar-q12",
             "type": "mcq",
-            "prompt": "Advanced application 12: Which revision best serves the purpose “represent several speakers while preserving responsibility for each claim”?",
+            "prompt": "🕵️ Grammar Detective — Challenge 12: Advanced application 12: Which revision best serves the purpose “represent several speakers while preserving responsibility for each claim”?",
             "options": [
               {
                 "id": "a",
@@ -41614,7 +41614,7 @@
           {
             "id": "english-c2-interaction-output-grammar-q13",
             "type": "mcq",
-            "prompt": "Advanced application 13: Which sentence most accurately calibrates certainty?",
+            "prompt": "🕵️ Grammar Detective — Challenge 13: Advanced application 13: Which sentence most accurately calibrates certainty?",
             "options": [
               {
                 "id": "a",
@@ -41637,7 +41637,7 @@
           {
             "id": "english-c2-interaction-output-grammar-q14",
             "type": "mcq",
-            "prompt": "Advanced application 14: Which option maintains an appropriately formal C2 register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 14: Advanced application 14: Which option maintains an appropriately formal C2 register?",
             "options": [
               {
                 "id": "a",
@@ -41660,7 +41660,7 @@
           {
             "id": "english-c2-interaction-output-grammar-q15",
             "type": "mcq",
-            "prompt": "Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
+            "prompt": "🕵️ Grammar Detective — Challenge 15: Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
             "options": [
               {
                 "id": "a",
@@ -41683,7 +41683,7 @@
           {
             "id": "english-c2-interaction-output-grammar-q16",
             "type": "mcq",
-            "prompt": "Advanced application 16: Which option avoids concealing responsibility?",
+            "prompt": "🕵️ Grammar Detective — Challenge 16: Advanced application 16: Which option avoids concealing responsibility?",
             "options": [
               {
                 "id": "a",
@@ -41706,7 +41706,7 @@
           {
             "id": "english-c2-interaction-output-grammar-q17",
             "type": "mcq",
-            "prompt": "Advanced application 17: Which sentence integrates a substantial counterargument?",
+            "prompt": "🕵️ Grammar Detective — Challenge 17: Advanced application 17: Which sentence integrates a substantial counterargument?",
             "options": [
               {
                 "id": "a",
@@ -41729,7 +41729,7 @@
           {
             "id": "english-c2-interaction-output-grammar-q18",
             "type": "mcq",
-            "prompt": "Advanced application 18: Which conclusion is most appropriately qualified?",
+            "prompt": "🕵️ Grammar Detective — Challenge 18: Advanced application 18: Which conclusion is most appropriately qualified?",
             "options": [
               {
                 "id": "a",
@@ -41752,7 +41752,7 @@
           {
             "id": "english-c2-interaction-output-grammar-q19",
             "type": "mcq",
-            "prompt": "Advanced application 19: Which sentence shows cohesive control across clauses?",
+            "prompt": "🕵️ Grammar Detective — Challenge 19: Advanced application 19: Which sentence shows cohesive control across clauses?",
             "options": [
               {
                 "id": "a",
@@ -41775,7 +41775,7 @@
           {
             "id": "english-c2-interaction-output-grammar-q20",
             "type": "mcq",
-            "prompt": "Advanced application 20: Which statement accurately describes Reported speech and polyphonic stance?",
+            "prompt": "🕵️ Grammar Detective — Challenge 20: Advanced application 20: Which statement accurately describes Reported speech and polyphonic stance?",
             "options": [
               {
                 "id": "a",
@@ -47924,7 +47924,7 @@
           {
             "id": "english-c1-critical-minerals-transition-grammar-q1",
             "type": "mcq",
-            "prompt": "What is the grammar focus of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 1: What is the grammar focus of this unit?",
             "difficulty": "medium",
             "options": [
               {
@@ -47948,7 +47948,7 @@
           {
             "id": "english-c1-critical-minerals-transition-grammar-q2",
             "type": "mcq",
-            "prompt": "Why is Mixed and inverted conditionals useful in this article?",
+            "prompt": "🕵️ Grammar Detective — Challenge 2: Why is Mixed and inverted conditionals useful in this article?",
             "difficulty": "medium",
             "options": [
               {
@@ -47972,7 +47972,7 @@
           {
             "id": "english-c1-critical-minerals-transition-grammar-q3",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Mixed and inverted conditionals: “If recycling investment had started earlier, capacity would be higher now.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 3: Choose the best C1 revision using Mixed and inverted conditionals: “If recycling investment had started earlier, capacity would be higher now.”",
             "difficulty": "hard",
             "options": [
               {
@@ -47996,7 +47996,7 @@
           {
             "id": "english-c1-critical-minerals-transition-grammar-q4",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Mixed and inverted conditionals: “If supply were more diverse, disruption would be less severe.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 4: Choose the best C1 revision using Mixed and inverted conditionals: “If supply were more diverse, disruption would be less severe.”",
             "difficulty": "hard",
             "options": [
               {
@@ -48020,7 +48020,7 @@
           {
             "id": "english-c1-critical-minerals-transition-grammar-q5",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Mixed and inverted conditionals: “If demand should rise faster, shortages may appear.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 5: Choose the best C1 revision using Mixed and inverted conditionals: “If demand should rise faster, shortages may appear.”",
             "difficulty": "hard",
             "options": [
               {
@@ -48044,7 +48044,7 @@
           {
             "id": "english-c1-critical-minerals-transition-grammar-q6",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Mixed and inverted conditionals: “Past policy ignored refining, so present dependence is high.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 6: Choose the best C1 revision using Mixed and inverted conditionals: “Past policy ignored refining, so present dependence is high.”",
             "difficulty": "hard",
             "options": [
               {
@@ -48068,7 +48068,7 @@
           {
             "id": "english-c1-critical-minerals-transition-grammar-q7",
             "type": "mcq",
-            "prompt": "Which revision principle best supports C1 academic accuracy?",
+            "prompt": "🕵️ Grammar Detective — Challenge 7: Which revision principle best supports C1 academic accuracy?",
             "difficulty": "hard",
             "options": [
               {
@@ -48092,7 +48092,7 @@
           {
             "id": "english-c1-critical-minerals-transition-grammar-q8",
             "type": "mcq",
-            "prompt": "What should a final grammar check examine?",
+            "prompt": "🕵️ Grammar Detective — Challenge 8: What should a final grammar check examine?",
             "difficulty": "hard",
             "options": [
               {
@@ -48116,7 +48116,7 @@
           {
             "id": "english-c1-critical-minerals-transition-grammar-q9",
             "type": "mcq",
-            "prompt": "Which sentence uses Mixed and inverted conditionals with the most accurate form and register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 9: Which sentence uses Mixed and inverted conditionals with the most accurate form and register?",
             "difficulty": "hard",
             "options": [
               {
@@ -48140,7 +48140,7 @@
           {
             "id": "english-c1-critical-minerals-transition-grammar-q10",
             "type": "mcq",
-            "prompt": "Which revision applies Mixed and inverted conditionals without overstating the evidence?",
+            "prompt": "🕵️ Grammar Detective — Challenge 10: Which revision applies Mixed and inverted conditionals without overstating the evidence?",
             "difficulty": "hard",
             "options": [
               {
@@ -48164,7 +48164,7 @@
           {
             "id": "english-c1-critical-minerals-transition-grammar-q11",
             "type": "mcq",
-            "prompt": "Which option best connects claim and qualification through Mixed and inverted conditionals?",
+            "prompt": "🕵️ Grammar Detective — Challenge 11: Which option best connects claim and qualification through Mixed and inverted conditionals?",
             "difficulty": "hard",
             "options": [
               {
@@ -48188,7 +48188,7 @@
           {
             "id": "english-c1-critical-minerals-transition-grammar-q12",
             "type": "mcq",
-            "prompt": "Which sentence would be most appropriate in a formal discussion of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 12: Which sentence would be most appropriate in a formal discussion of this unit?",
             "difficulty": "hard",
             "options": [
               {
@@ -48212,7 +48212,7 @@
           {
             "id": "english-c1-critical-minerals-transition-grammar-q13",
             "type": "mcq",
-            "prompt": "Which sentence uses Mixed and inverted conditionals with the most accurate form and register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 13: Which sentence uses Mixed and inverted conditionals with the most accurate form and register?",
             "difficulty": "hard",
             "options": [
               {
@@ -48236,7 +48236,7 @@
           {
             "id": "english-c1-critical-minerals-transition-grammar-q14",
             "type": "mcq",
-            "prompt": "Which revision applies Mixed and inverted conditionals without overstating the evidence?",
+            "prompt": "🕵️ Grammar Detective — Challenge 14: Which revision applies Mixed and inverted conditionals without overstating the evidence?",
             "difficulty": "hard",
             "options": [
               {
@@ -48260,7 +48260,7 @@
           {
             "id": "english-c1-critical-minerals-transition-grammar-q15",
             "type": "mcq",
-            "prompt": "Which option best connects claim and qualification through Mixed and inverted conditionals?",
+            "prompt": "🕵️ Grammar Detective — Challenge 15: Which option best connects claim and qualification through Mixed and inverted conditionals?",
             "difficulty": "hard",
             "options": [
               {
@@ -48284,7 +48284,7 @@
           {
             "id": "english-c1-critical-minerals-transition-grammar-q16",
             "type": "mcq",
-            "prompt": "Which sentence would be most appropriate in a formal discussion of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 16: Which sentence would be most appropriate in a formal discussion of this unit?",
             "difficulty": "hard",
             "options": [
               {
@@ -48308,7 +48308,7 @@
           {
             "id": "english-c1-critical-minerals-transition-grammar-q17",
             "type": "mcq",
-            "prompt": "Which sentence uses Mixed and inverted conditionals with the most accurate form and register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 17: Which sentence uses Mixed and inverted conditionals with the most accurate form and register?",
             "difficulty": "hard",
             "options": [
               {
@@ -48332,7 +48332,7 @@
           {
             "id": "english-c1-critical-minerals-transition-grammar-q18",
             "type": "mcq",
-            "prompt": "Which revision applies Mixed and inverted conditionals without overstating the evidence?",
+            "prompt": "🕵️ Grammar Detective — Challenge 18: Which revision applies Mixed and inverted conditionals without overstating the evidence?",
             "difficulty": "hard",
             "options": [
               {
@@ -48356,7 +48356,7 @@
           {
             "id": "english-c1-critical-minerals-transition-grammar-q19",
             "type": "mcq",
-            "prompt": "Which option best connects claim and qualification through Mixed and inverted conditionals?",
+            "prompt": "🕵️ Grammar Detective — Challenge 19: Which option best connects claim and qualification through Mixed and inverted conditionals?",
             "difficulty": "hard",
             "options": [
               {
@@ -48380,7 +48380,7 @@
           {
             "id": "english-c1-critical-minerals-transition-grammar-q20",
             "type": "mcq",
-            "prompt": "Which sentence would be most appropriate in a formal discussion of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 20: Which sentence would be most appropriate in a formal discussion of this unit?",
             "difficulty": "hard",
             "options": [
               {
@@ -48544,7 +48544,7 @@
           {
             "id": "english-c2-corrective-feedback-grammar-q1",
             "type": "mcq",
-            "prompt": "Which sentence best demonstrates controlled use of Mandative structures and evaluative subjunctives?",
+            "prompt": "🕵️ Grammar Detective — Challenge 1: Which sentence best demonstrates controlled use of Mandative structures and evaluative subjunctives?",
             "options": [
               {
                 "id": "a",
@@ -48567,7 +48567,7 @@
           {
             "id": "english-c2-corrective-feedback-grammar-q2",
             "type": "mcq",
-            "prompt": "Which revision best serves the purpose “formulate correction criteria without presenting preference as incontrovertible fact”?",
+            "prompt": "🕵️ Grammar Detective — Challenge 2: Which revision best serves the purpose “formulate correction criteria without presenting preference as incontrovertible fact”?",
             "options": [
               {
                 "id": "a",
@@ -48590,7 +48590,7 @@
           {
             "id": "english-c2-corrective-feedback-grammar-q3",
             "type": "mcq",
-            "prompt": "Which sentence most accurately calibrates certainty?",
+            "prompt": "🕵️ Grammar Detective — Challenge 3: Which sentence most accurately calibrates certainty?",
             "options": [
               {
                 "id": "a",
@@ -48613,7 +48613,7 @@
           {
             "id": "english-c2-corrective-feedback-grammar-q4",
             "type": "mcq",
-            "prompt": "Which option maintains an appropriately formal C2 register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 4: Which option maintains an appropriately formal C2 register?",
             "options": [
               {
                 "id": "a",
@@ -48636,7 +48636,7 @@
           {
             "id": "english-c2-corrective-feedback-grammar-q5",
             "type": "mcq",
-            "prompt": "Which sentence makes the relationship between evidence and inference clearest?",
+            "prompt": "🕵️ Grammar Detective — Challenge 5: Which sentence makes the relationship between evidence and inference clearest?",
             "options": [
               {
                 "id": "a",
@@ -48659,7 +48659,7 @@
           {
             "id": "english-c2-corrective-feedback-grammar-q6",
             "type": "mcq",
-            "prompt": "Which option avoids concealing responsibility?",
+            "prompt": "🕵️ Grammar Detective — Challenge 6: Which option avoids concealing responsibility?",
             "options": [
               {
                 "id": "a",
@@ -48682,7 +48682,7 @@
           {
             "id": "english-c2-corrective-feedback-grammar-q7",
             "type": "mcq",
-            "prompt": "Which sentence integrates a substantial counterargument?",
+            "prompt": "🕵️ Grammar Detective — Challenge 7: Which sentence integrates a substantial counterargument?",
             "options": [
               {
                 "id": "a",
@@ -48705,7 +48705,7 @@
           {
             "id": "english-c2-corrective-feedback-grammar-q8",
             "type": "mcq",
-            "prompt": "Which conclusion is most appropriately qualified?",
+            "prompt": "🕵️ Grammar Detective — Challenge 8: Which conclusion is most appropriately qualified?",
             "options": [
               {
                 "id": "a",
@@ -48728,7 +48728,7 @@
           {
             "id": "english-c2-corrective-feedback-grammar-q9",
             "type": "mcq",
-            "prompt": "Which sentence shows cohesive control across clauses?",
+            "prompt": "🕵️ Grammar Detective — Challenge 9: Which sentence shows cohesive control across clauses?",
             "options": [
               {
                 "id": "a",
@@ -48751,7 +48751,7 @@
           {
             "id": "english-c2-corrective-feedback-grammar-q10",
             "type": "mcq",
-            "prompt": "Which statement accurately describes Mandative structures and evaluative subjunctives?",
+            "prompt": "🕵️ Grammar Detective — Challenge 10: Which statement accurately describes Mandative structures and evaluative subjunctives?",
             "options": [
               {
                 "id": "a",
@@ -48774,7 +48774,7 @@
           {
             "id": "english-c2-corrective-feedback-grammar-q11",
             "type": "mcq",
-            "prompt": "Advanced application 11: Which sentence best demonstrates controlled use of Mandative structures and evaluative subjunctives?",
+            "prompt": "🕵️ Grammar Detective — Challenge 11: Advanced application 11: Which sentence best demonstrates controlled use of Mandative structures and evaluative subjunctives?",
             "options": [
               {
                 "id": "a",
@@ -48797,7 +48797,7 @@
           {
             "id": "english-c2-corrective-feedback-grammar-q12",
             "type": "mcq",
-            "prompt": "Advanced application 12: Which revision best serves the purpose “formulate correction criteria without presenting preference as incontrovertible fact”?",
+            "prompt": "🕵️ Grammar Detective — Challenge 12: Advanced application 12: Which revision best serves the purpose “formulate correction criteria without presenting preference as incontrovertible fact”?",
             "options": [
               {
                 "id": "a",
@@ -48820,7 +48820,7 @@
           {
             "id": "english-c2-corrective-feedback-grammar-q13",
             "type": "mcq",
-            "prompt": "Advanced application 13: Which sentence most accurately calibrates certainty?",
+            "prompt": "🕵️ Grammar Detective — Challenge 13: Advanced application 13: Which sentence most accurately calibrates certainty?",
             "options": [
               {
                 "id": "a",
@@ -48843,7 +48843,7 @@
           {
             "id": "english-c2-corrective-feedback-grammar-q14",
             "type": "mcq",
-            "prompt": "Advanced application 14: Which option maintains an appropriately formal C2 register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 14: Advanced application 14: Which option maintains an appropriately formal C2 register?",
             "options": [
               {
                 "id": "a",
@@ -48866,7 +48866,7 @@
           {
             "id": "english-c2-corrective-feedback-grammar-q15",
             "type": "mcq",
-            "prompt": "Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
+            "prompt": "🕵️ Grammar Detective — Challenge 15: Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
             "options": [
               {
                 "id": "a",
@@ -48889,7 +48889,7 @@
           {
             "id": "english-c2-corrective-feedback-grammar-q16",
             "type": "mcq",
-            "prompt": "Advanced application 16: Which option avoids concealing responsibility?",
+            "prompt": "🕵️ Grammar Detective — Challenge 16: Advanced application 16: Which option avoids concealing responsibility?",
             "options": [
               {
                 "id": "a",
@@ -48912,7 +48912,7 @@
           {
             "id": "english-c2-corrective-feedback-grammar-q17",
             "type": "mcq",
-            "prompt": "Advanced application 17: Which sentence integrates a substantial counterargument?",
+            "prompt": "🕵️ Grammar Detective — Challenge 17: Advanced application 17: Which sentence integrates a substantial counterargument?",
             "options": [
               {
                 "id": "a",
@@ -48935,7 +48935,7 @@
           {
             "id": "english-c2-corrective-feedback-grammar-q18",
             "type": "mcq",
-            "prompt": "Advanced application 18: Which conclusion is most appropriately qualified?",
+            "prompt": "🕵️ Grammar Detective — Challenge 18: Advanced application 18: Which conclusion is most appropriately qualified?",
             "options": [
               {
                 "id": "a",
@@ -48958,7 +48958,7 @@
           {
             "id": "english-c2-corrective-feedback-grammar-q19",
             "type": "mcq",
-            "prompt": "Advanced application 19: Which sentence shows cohesive control across clauses?",
+            "prompt": "🕵️ Grammar Detective — Challenge 19: Advanced application 19: Which sentence shows cohesive control across clauses?",
             "options": [
               {
                 "id": "a",
@@ -48981,7 +48981,7 @@
           {
             "id": "english-c2-corrective-feedback-grammar-q20",
             "type": "mcq",
-            "prompt": "Advanced application 20: Which statement accurately describes Mandative structures and evaluative subjunctives?",
+            "prompt": "🕵️ Grammar Detective — Challenge 20: Advanced application 20: Which statement accurately describes Mandative structures and evaluative subjunctives?",
             "options": [
               {
                 "id": "a",
@@ -55130,7 +55130,7 @@
           {
             "id": "english-c1-deepfakes-democracy-grammar-q1",
             "type": "mcq",
-            "prompt": "What is the grammar focus of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 1: What is the grammar focus of this unit?",
             "difficulty": "medium",
             "options": [
               {
@@ -55154,7 +55154,7 @@
           {
             "id": "english-c1-deepfakes-democracy-grammar-q2",
             "type": "mcq",
-            "prompt": "Why is Complex reporting verbs useful in this article?",
+            "prompt": "🕵️ Grammar Detective — Challenge 2: Why is Complex reporting verbs useful in this article?",
             "difficulty": "medium",
             "options": [
               {
@@ -55178,7 +55178,7 @@
           {
             "id": "english-c1-deepfakes-democracy-grammar-q3",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Complex reporting verbs: “The candidate said the recording was fake.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 3: Choose the best C1 revision using Complex reporting verbs: “The candidate said the recording was fake.”",
             "difficulty": "hard",
             "options": [
               {
@@ -55202,7 +55202,7 @@
           {
             "id": "english-c1-deepfakes-democracy-grammar-q4",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Complex reporting verbs: “Investigators said the campaign created it.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 4: Choose the best C1 revision using Complex reporting verbs: “Investigators said the campaign created it.”",
             "difficulty": "hard",
             "options": [
               {
@@ -55226,7 +55226,7 @@
           {
             "id": "english-c1-deepfakes-democracy-grammar-q5",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Complex reporting verbs: “The platform said it did not remove authentic footage.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 5: Choose the best C1 revision using Complex reporting verbs: “The platform said it did not remove authentic footage.”",
             "difficulty": "hard",
             "options": [
               {
@@ -55250,7 +55250,7 @@
           {
             "id": "english-c1-deepfakes-democracy-grammar-q6",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Complex reporting verbs: “Researchers said not to trust detection alone.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 6: Choose the best C1 revision using Complex reporting verbs: “Researchers said not to trust detection alone.”",
             "difficulty": "hard",
             "options": [
               {
@@ -55274,7 +55274,7 @@
           {
             "id": "english-c1-deepfakes-democracy-grammar-q7",
             "type": "mcq",
-            "prompt": "Which revision principle best supports C1 academic accuracy?",
+            "prompt": "🕵️ Grammar Detective — Challenge 7: Which revision principle best supports C1 academic accuracy?",
             "difficulty": "hard",
             "options": [
               {
@@ -55298,7 +55298,7 @@
           {
             "id": "english-c1-deepfakes-democracy-grammar-q8",
             "type": "mcq",
-            "prompt": "What should a final grammar check examine?",
+            "prompt": "🕵️ Grammar Detective — Challenge 8: What should a final grammar check examine?",
             "difficulty": "hard",
             "options": [
               {
@@ -55322,7 +55322,7 @@
           {
             "id": "english-c1-deepfakes-democracy-grammar-q9",
             "type": "mcq",
-            "prompt": "Which sentence uses Complex reporting verbs with the most accurate form and register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 9: Which sentence uses Complex reporting verbs with the most accurate form and register?",
             "difficulty": "hard",
             "options": [
               {
@@ -55346,7 +55346,7 @@
           {
             "id": "english-c1-deepfakes-democracy-grammar-q10",
             "type": "mcq",
-            "prompt": "Which revision applies Complex reporting verbs without overstating the evidence?",
+            "prompt": "🕵️ Grammar Detective — Challenge 10: Which revision applies Complex reporting verbs without overstating the evidence?",
             "difficulty": "hard",
             "options": [
               {
@@ -55370,7 +55370,7 @@
           {
             "id": "english-c1-deepfakes-democracy-grammar-q11",
             "type": "mcq",
-            "prompt": "Which option best connects claim and qualification through Complex reporting verbs?",
+            "prompt": "🕵️ Grammar Detective — Challenge 11: Which option best connects claim and qualification through Complex reporting verbs?",
             "difficulty": "hard",
             "options": [
               {
@@ -55394,7 +55394,7 @@
           {
             "id": "english-c1-deepfakes-democracy-grammar-q12",
             "type": "mcq",
-            "prompt": "Which sentence would be most appropriate in a formal discussion of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 12: Which sentence would be most appropriate in a formal discussion of this unit?",
             "difficulty": "hard",
             "options": [
               {
@@ -55418,7 +55418,7 @@
           {
             "id": "english-c1-deepfakes-democracy-grammar-q13",
             "type": "mcq",
-            "prompt": "Which sentence uses Complex reporting verbs with the most accurate form and register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 13: Which sentence uses Complex reporting verbs with the most accurate form and register?",
             "difficulty": "hard",
             "options": [
               {
@@ -55442,7 +55442,7 @@
           {
             "id": "english-c1-deepfakes-democracy-grammar-q14",
             "type": "mcq",
-            "prompt": "Which revision applies Complex reporting verbs without overstating the evidence?",
+            "prompt": "🕵️ Grammar Detective — Challenge 14: Which revision applies Complex reporting verbs without overstating the evidence?",
             "difficulty": "hard",
             "options": [
               {
@@ -55466,7 +55466,7 @@
           {
             "id": "english-c1-deepfakes-democracy-grammar-q15",
             "type": "mcq",
-            "prompt": "Which option best connects claim and qualification through Complex reporting verbs?",
+            "prompt": "🕵️ Grammar Detective — Challenge 15: Which option best connects claim and qualification through Complex reporting verbs?",
             "difficulty": "hard",
             "options": [
               {
@@ -55490,7 +55490,7 @@
           {
             "id": "english-c1-deepfakes-democracy-grammar-q16",
             "type": "mcq",
-            "prompt": "Which sentence would be most appropriate in a formal discussion of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 16: Which sentence would be most appropriate in a formal discussion of this unit?",
             "difficulty": "hard",
             "options": [
               {
@@ -55514,7 +55514,7 @@
           {
             "id": "english-c1-deepfakes-democracy-grammar-q17",
             "type": "mcq",
-            "prompt": "Which sentence uses Complex reporting verbs with the most accurate form and register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 17: Which sentence uses Complex reporting verbs with the most accurate form and register?",
             "difficulty": "hard",
             "options": [
               {
@@ -55538,7 +55538,7 @@
           {
             "id": "english-c1-deepfakes-democracy-grammar-q18",
             "type": "mcq",
-            "prompt": "Which revision applies Complex reporting verbs without overstating the evidence?",
+            "prompt": "🕵️ Grammar Detective — Challenge 18: Which revision applies Complex reporting verbs without overstating the evidence?",
             "difficulty": "hard",
             "options": [
               {
@@ -55562,7 +55562,7 @@
           {
             "id": "english-c1-deepfakes-democracy-grammar-q19",
             "type": "mcq",
-            "prompt": "Which option best connects claim and qualification through Complex reporting verbs?",
+            "prompt": "🕵️ Grammar Detective — Challenge 19: Which option best connects claim and qualification through Complex reporting verbs?",
             "difficulty": "hard",
             "options": [
               {
@@ -55586,7 +55586,7 @@
           {
             "id": "english-c1-deepfakes-democracy-grammar-q20",
             "type": "mcq",
-            "prompt": "Which sentence would be most appropriate in a formal discussion of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 20: Which sentence would be most appropriate in a formal discussion of this unit?",
             "difficulty": "hard",
             "options": [
               {
@@ -55750,7 +55750,7 @@
           {
             "id": "english-c2-speech-perception-grammar-q1",
             "type": "mcq",
-            "prompt": "Which sentence best demonstrates controlled use of Passive voice and accountable agency?",
+            "prompt": "🕵️ Grammar Detective — Challenge 1: Which sentence best demonstrates controlled use of Passive voice and accountable agency?",
             "options": [
               {
                 "id": "a",
@@ -55773,7 +55773,7 @@
           {
             "id": "english-c2-speech-perception-grammar-q2",
             "type": "mcq",
-            "prompt": "Which revision best serves the purpose “foreground perceptual processes while retaining the researchers or systems responsible for interpretation”?",
+            "prompt": "🕵️ Grammar Detective — Challenge 2: Which revision best serves the purpose “foreground perceptual processes while retaining the researchers or systems responsible for interpretation”?",
             "options": [
               {
                 "id": "a",
@@ -55796,7 +55796,7 @@
           {
             "id": "english-c2-speech-perception-grammar-q3",
             "type": "mcq",
-            "prompt": "Which sentence most accurately calibrates certainty?",
+            "prompt": "🕵️ Grammar Detective — Challenge 3: Which sentence most accurately calibrates certainty?",
             "options": [
               {
                 "id": "a",
@@ -55819,7 +55819,7 @@
           {
             "id": "english-c2-speech-perception-grammar-q4",
             "type": "mcq",
-            "prompt": "Which option maintains an appropriately formal C2 register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 4: Which option maintains an appropriately formal C2 register?",
             "options": [
               {
                 "id": "a",
@@ -55842,7 +55842,7 @@
           {
             "id": "english-c2-speech-perception-grammar-q5",
             "type": "mcq",
-            "prompt": "Which sentence makes the relationship between evidence and inference clearest?",
+            "prompt": "🕵️ Grammar Detective — Challenge 5: Which sentence makes the relationship between evidence and inference clearest?",
             "options": [
               {
                 "id": "a",
@@ -55865,7 +55865,7 @@
           {
             "id": "english-c2-speech-perception-grammar-q6",
             "type": "mcq",
-            "prompt": "Which option avoids concealing responsibility?",
+            "prompt": "🕵️ Grammar Detective — Challenge 6: Which option avoids concealing responsibility?",
             "options": [
               {
                 "id": "a",
@@ -55888,7 +55888,7 @@
           {
             "id": "english-c2-speech-perception-grammar-q7",
             "type": "mcq",
-            "prompt": "Which sentence integrates a substantial counterargument?",
+            "prompt": "🕵️ Grammar Detective — Challenge 7: Which sentence integrates a substantial counterargument?",
             "options": [
               {
                 "id": "a",
@@ -55911,7 +55911,7 @@
           {
             "id": "english-c2-speech-perception-grammar-q8",
             "type": "mcq",
-            "prompt": "Which conclusion is most appropriately qualified?",
+            "prompt": "🕵️ Grammar Detective — Challenge 8: Which conclusion is most appropriately qualified?",
             "options": [
               {
                 "id": "a",
@@ -55934,7 +55934,7 @@
           {
             "id": "english-c2-speech-perception-grammar-q9",
             "type": "mcq",
-            "prompt": "Which sentence shows cohesive control across clauses?",
+            "prompt": "🕵️ Grammar Detective — Challenge 9: Which sentence shows cohesive control across clauses?",
             "options": [
               {
                 "id": "a",
@@ -55957,7 +55957,7 @@
           {
             "id": "english-c2-speech-perception-grammar-q10",
             "type": "mcq",
-            "prompt": "Which statement accurately describes Passive voice and accountable agency?",
+            "prompt": "🕵️ Grammar Detective — Challenge 10: Which statement accurately describes Passive voice and accountable agency?",
             "options": [
               {
                 "id": "a",
@@ -55980,7 +55980,7 @@
           {
             "id": "english-c2-speech-perception-grammar-q11",
             "type": "mcq",
-            "prompt": "Advanced application 11: Which sentence best demonstrates controlled use of Passive voice and accountable agency?",
+            "prompt": "🕵️ Grammar Detective — Challenge 11: Advanced application 11: Which sentence best demonstrates controlled use of Passive voice and accountable agency?",
             "options": [
               {
                 "id": "a",
@@ -56003,7 +56003,7 @@
           {
             "id": "english-c2-speech-perception-grammar-q12",
             "type": "mcq",
-            "prompt": "Advanced application 12: Which revision best serves the purpose “foreground perceptual processes while retaining the researchers or systems responsible for interpretation”?",
+            "prompt": "🕵️ Grammar Detective — Challenge 12: Advanced application 12: Which revision best serves the purpose “foreground perceptual processes while retaining the researchers or systems responsible for interpretation”?",
             "options": [
               {
                 "id": "a",
@@ -56026,7 +56026,7 @@
           {
             "id": "english-c2-speech-perception-grammar-q13",
             "type": "mcq",
-            "prompt": "Advanced application 13: Which sentence most accurately calibrates certainty?",
+            "prompt": "🕵️ Grammar Detective — Challenge 13: Advanced application 13: Which sentence most accurately calibrates certainty?",
             "options": [
               {
                 "id": "a",
@@ -56049,7 +56049,7 @@
           {
             "id": "english-c2-speech-perception-grammar-q14",
             "type": "mcq",
-            "prompt": "Advanced application 14: Which option maintains an appropriately formal C2 register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 14: Advanced application 14: Which option maintains an appropriately formal C2 register?",
             "options": [
               {
                 "id": "a",
@@ -56072,7 +56072,7 @@
           {
             "id": "english-c2-speech-perception-grammar-q15",
             "type": "mcq",
-            "prompt": "Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
+            "prompt": "🕵️ Grammar Detective — Challenge 15: Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
             "options": [
               {
                 "id": "a",
@@ -56095,7 +56095,7 @@
           {
             "id": "english-c2-speech-perception-grammar-q16",
             "type": "mcq",
-            "prompt": "Advanced application 16: Which option avoids concealing responsibility?",
+            "prompt": "🕵️ Grammar Detective — Challenge 16: Advanced application 16: Which option avoids concealing responsibility?",
             "options": [
               {
                 "id": "a",
@@ -56118,7 +56118,7 @@
           {
             "id": "english-c2-speech-perception-grammar-q17",
             "type": "mcq",
-            "prompt": "Advanced application 17: Which sentence integrates a substantial counterargument?",
+            "prompt": "🕵️ Grammar Detective — Challenge 17: Advanced application 17: Which sentence integrates a substantial counterargument?",
             "options": [
               {
                 "id": "a",
@@ -56141,7 +56141,7 @@
           {
             "id": "english-c2-speech-perception-grammar-q18",
             "type": "mcq",
-            "prompt": "Advanced application 18: Which conclusion is most appropriately qualified?",
+            "prompt": "🕵️ Grammar Detective — Challenge 18: Advanced application 18: Which conclusion is most appropriately qualified?",
             "options": [
               {
                 "id": "a",
@@ -56164,7 +56164,7 @@
           {
             "id": "english-c2-speech-perception-grammar-q19",
             "type": "mcq",
-            "prompt": "Advanced application 19: Which sentence shows cohesive control across clauses?",
+            "prompt": "🕵️ Grammar Detective — Challenge 19: Advanced application 19: Which sentence shows cohesive control across clauses?",
             "options": [
               {
                 "id": "a",
@@ -56187,7 +56187,7 @@
           {
             "id": "english-c2-speech-perception-grammar-q20",
             "type": "mcq",
-            "prompt": "Advanced application 20: Which statement accurately describes Passive voice and accountable agency?",
+            "prompt": "🕵️ Grammar Detective — Challenge 20: Advanced application 20: Which statement accurately describes Passive voice and accountable agency?",
             "options": [
               {
                 "id": "a",
@@ -62351,7 +62351,7 @@
           {
             "id": "english-c1-climate-migration-cities-grammar-q1",
             "type": "mcq",
-            "prompt": "What is the grammar focus of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 1: What is the grammar focus of this unit?",
             "difficulty": "medium",
             "options": [
               {
@@ -62375,7 +62375,7 @@
           {
             "id": "english-c1-climate-migration-cities-grammar-q2",
             "type": "mcq",
-            "prompt": "Why is Reduced relative and participle clauses useful in this article?",
+            "prompt": "🕵️ Grammar Detective — Challenge 2: Why is Reduced relative and participle clauses useful in this article?",
             "difficulty": "medium",
             "options": [
               {
@@ -62399,7 +62399,7 @@
           {
             "id": "english-c1-climate-migration-cities-grammar-q3",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Reduced relative and participle clauses: “Cities that receive displaced households need resources.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 3: Choose the best C1 revision using Reduced relative and participle clauses: “Cities that receive displaced households need resources.”",
             "difficulty": "hard",
             "options": [
               {
@@ -62423,7 +62423,7 @@
           {
             "id": "english-c1-climate-migration-cities-grammar-q4",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Reduced relative and participle clauses: “Families who are affected by repeated floods may move gradually.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 4: Choose the best C1 revision using Reduced relative and participle clauses: “Families who are affected by repeated floods may move gradually.”",
             "difficulty": "hard",
             "options": [
               {
@@ -62447,7 +62447,7 @@
           {
             "id": "english-c1-climate-migration-cities-grammar-q5",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Reduced relative and participle clauses: “The policy was introduced after the drought and supported rental access.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 5: Choose the best C1 revision using Reduced relative and participle clauses: “The policy was introduced after the drought and supported rental access.”",
             "difficulty": "hard",
             "options": [
               {
@@ -62471,7 +62471,7 @@
           {
             "id": "english-c1-climate-migration-cities-grammar-q6",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Reduced relative and participle clauses: “Researchers compared several pathways and rejected a single-cause model.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 6: Choose the best C1 revision using Reduced relative and participle clauses: “Researchers compared several pathways and rejected a single-cause model.”",
             "difficulty": "hard",
             "options": [
               {
@@ -62495,7 +62495,7 @@
           {
             "id": "english-c1-climate-migration-cities-grammar-q7",
             "type": "mcq",
-            "prompt": "Which revision principle best supports C1 academic accuracy?",
+            "prompt": "🕵️ Grammar Detective — Challenge 7: Which revision principle best supports C1 academic accuracy?",
             "difficulty": "hard",
             "options": [
               {
@@ -62519,7 +62519,7 @@
           {
             "id": "english-c1-climate-migration-cities-grammar-q8",
             "type": "mcq",
-            "prompt": "What should a final grammar check examine?",
+            "prompt": "🕵️ Grammar Detective — Challenge 8: What should a final grammar check examine?",
             "difficulty": "hard",
             "options": [
               {
@@ -62543,7 +62543,7 @@
           {
             "id": "english-c1-climate-migration-cities-grammar-q9",
             "type": "mcq",
-            "prompt": "Which sentence uses Reduced relative and participle clauses with the most accurate form and register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 9: Which sentence uses Reduced relative and participle clauses with the most accurate form and register?",
             "difficulty": "hard",
             "options": [
               {
@@ -62567,7 +62567,7 @@
           {
             "id": "english-c1-climate-migration-cities-grammar-q10",
             "type": "mcq",
-            "prompt": "Which revision applies Reduced relative and participle clauses without overstating the evidence?",
+            "prompt": "🕵️ Grammar Detective — Challenge 10: Which revision applies Reduced relative and participle clauses without overstating the evidence?",
             "difficulty": "hard",
             "options": [
               {
@@ -62591,7 +62591,7 @@
           {
             "id": "english-c1-climate-migration-cities-grammar-q11",
             "type": "mcq",
-            "prompt": "Which option best connects claim and qualification through Reduced relative and participle clauses?",
+            "prompt": "🕵️ Grammar Detective — Challenge 11: Which option best connects claim and qualification through Reduced relative and participle clauses?",
             "difficulty": "hard",
             "options": [
               {
@@ -62615,7 +62615,7 @@
           {
             "id": "english-c1-climate-migration-cities-grammar-q12",
             "type": "mcq",
-            "prompt": "Which sentence would be most appropriate in a formal discussion of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 12: Which sentence would be most appropriate in a formal discussion of this unit?",
             "difficulty": "hard",
             "options": [
               {
@@ -62639,7 +62639,7 @@
           {
             "id": "english-c1-climate-migration-cities-grammar-q13",
             "type": "mcq",
-            "prompt": "Which sentence uses Reduced relative and participle clauses with the most accurate form and register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 13: Which sentence uses Reduced relative and participle clauses with the most accurate form and register?",
             "difficulty": "hard",
             "options": [
               {
@@ -62663,7 +62663,7 @@
           {
             "id": "english-c1-climate-migration-cities-grammar-q14",
             "type": "mcq",
-            "prompt": "Which revision applies Reduced relative and participle clauses without overstating the evidence?",
+            "prompt": "🕵️ Grammar Detective — Challenge 14: Which revision applies Reduced relative and participle clauses without overstating the evidence?",
             "difficulty": "hard",
             "options": [
               {
@@ -62687,7 +62687,7 @@
           {
             "id": "english-c1-climate-migration-cities-grammar-q15",
             "type": "mcq",
-            "prompt": "Which option best connects claim and qualification through Reduced relative and participle clauses?",
+            "prompt": "🕵️ Grammar Detective — Challenge 15: Which option best connects claim and qualification through Reduced relative and participle clauses?",
             "difficulty": "hard",
             "options": [
               {
@@ -62711,7 +62711,7 @@
           {
             "id": "english-c1-climate-migration-cities-grammar-q16",
             "type": "mcq",
-            "prompt": "Which sentence would be most appropriate in a formal discussion of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 16: Which sentence would be most appropriate in a formal discussion of this unit?",
             "difficulty": "hard",
             "options": [
               {
@@ -62735,7 +62735,7 @@
           {
             "id": "english-c1-climate-migration-cities-grammar-q17",
             "type": "mcq",
-            "prompt": "Which sentence uses Reduced relative and participle clauses with the most accurate form and register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 17: Which sentence uses Reduced relative and participle clauses with the most accurate form and register?",
             "difficulty": "hard",
             "options": [
               {
@@ -62759,7 +62759,7 @@
           {
             "id": "english-c1-climate-migration-cities-grammar-q18",
             "type": "mcq",
-            "prompt": "Which revision applies Reduced relative and participle clauses without overstating the evidence?",
+            "prompt": "🕵️ Grammar Detective — Challenge 18: Which revision applies Reduced relative and participle clauses without overstating the evidence?",
             "difficulty": "hard",
             "options": [
               {
@@ -62783,7 +62783,7 @@
           {
             "id": "english-c1-climate-migration-cities-grammar-q19",
             "type": "mcq",
-            "prompt": "Which option best connects claim and qualification through Reduced relative and participle clauses?",
+            "prompt": "🕵️ Grammar Detective — Challenge 19: Which option best connects claim and qualification through Reduced relative and participle clauses?",
             "difficulty": "hard",
             "options": [
               {
@@ -62807,7 +62807,7 @@
           {
             "id": "english-c1-climate-migration-cities-grammar-q20",
             "type": "mcq",
-            "prompt": "Which sentence would be most appropriate in a formal discussion of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 20: Which sentence would be most appropriate in a formal discussion of this unit?",
             "difficulty": "hard",
             "options": [
               {
@@ -62971,7 +62971,7 @@
           {
             "id": "english-c2-anxiety-attention-grammar-q1",
             "type": "mcq",
-            "prompt": "Which sentence best demonstrates controlled use of Mixed and implicit conditionals?",
+            "prompt": "🕵️ Grammar Detective — Challenge 1: Which sentence best demonstrates controlled use of Mixed and implicit conditionals?",
             "options": [
               {
                 "id": "a",
@@ -62994,7 +62994,7 @@
           {
             "id": "english-c2-anxiety-attention-grammar-q2",
             "type": "mcq",
-            "prompt": "Which revision best serves the purpose “reason about possible effects without converting correlations into deterministic predictions”?",
+            "prompt": "🕵️ Grammar Detective — Challenge 2: Which revision best serves the purpose “reason about possible effects without converting correlations into deterministic predictions”?",
             "options": [
               {
                 "id": "a",
@@ -63017,7 +63017,7 @@
           {
             "id": "english-c2-anxiety-attention-grammar-q3",
             "type": "mcq",
-            "prompt": "Which sentence most accurately calibrates certainty?",
+            "prompt": "🕵️ Grammar Detective — Challenge 3: Which sentence most accurately calibrates certainty?",
             "options": [
               {
                 "id": "a",
@@ -63040,7 +63040,7 @@
           {
             "id": "english-c2-anxiety-attention-grammar-q4",
             "type": "mcq",
-            "prompt": "Which option maintains an appropriately formal C2 register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 4: Which option maintains an appropriately formal C2 register?",
             "options": [
               {
                 "id": "a",
@@ -63063,7 +63063,7 @@
           {
             "id": "english-c2-anxiety-attention-grammar-q5",
             "type": "mcq",
-            "prompt": "Which sentence makes the relationship between evidence and inference clearest?",
+            "prompt": "🕵️ Grammar Detective — Challenge 5: Which sentence makes the relationship between evidence and inference clearest?",
             "options": [
               {
                 "id": "a",
@@ -63086,7 +63086,7 @@
           {
             "id": "english-c2-anxiety-attention-grammar-q6",
             "type": "mcq",
-            "prompt": "Which option avoids concealing responsibility?",
+            "prompt": "🕵️ Grammar Detective — Challenge 6: Which option avoids concealing responsibility?",
             "options": [
               {
                 "id": "a",
@@ -63109,7 +63109,7 @@
           {
             "id": "english-c2-anxiety-attention-grammar-q7",
             "type": "mcq",
-            "prompt": "Which sentence integrates a substantial counterargument?",
+            "prompt": "🕵️ Grammar Detective — Challenge 7: Which sentence integrates a substantial counterargument?",
             "options": [
               {
                 "id": "a",
@@ -63132,7 +63132,7 @@
           {
             "id": "english-c2-anxiety-attention-grammar-q8",
             "type": "mcq",
-            "prompt": "Which conclusion is most appropriately qualified?",
+            "prompt": "🕵️ Grammar Detective — Challenge 8: Which conclusion is most appropriately qualified?",
             "options": [
               {
                 "id": "a",
@@ -63155,7 +63155,7 @@
           {
             "id": "english-c2-anxiety-attention-grammar-q9",
             "type": "mcq",
-            "prompt": "Which sentence shows cohesive control across clauses?",
+            "prompt": "🕵️ Grammar Detective — Challenge 9: Which sentence shows cohesive control across clauses?",
             "options": [
               {
                 "id": "a",
@@ -63178,7 +63178,7 @@
           {
             "id": "english-c2-anxiety-attention-grammar-q10",
             "type": "mcq",
-            "prompt": "Which statement accurately describes Mixed and implicit conditionals?",
+            "prompt": "🕵️ Grammar Detective — Challenge 10: Which statement accurately describes Mixed and implicit conditionals?",
             "options": [
               {
                 "id": "a",
@@ -63201,7 +63201,7 @@
           {
             "id": "english-c2-anxiety-attention-grammar-q11",
             "type": "mcq",
-            "prompt": "Advanced application 11: Which sentence best demonstrates controlled use of Mixed and implicit conditionals?",
+            "prompt": "🕵️ Grammar Detective — Challenge 11: Advanced application 11: Which sentence best demonstrates controlled use of Mixed and implicit conditionals?",
             "options": [
               {
                 "id": "a",
@@ -63224,7 +63224,7 @@
           {
             "id": "english-c2-anxiety-attention-grammar-q12",
             "type": "mcq",
-            "prompt": "Advanced application 12: Which revision best serves the purpose “reason about possible effects without converting correlations into deterministic predictions”?",
+            "prompt": "🕵️ Grammar Detective — Challenge 12: Advanced application 12: Which revision best serves the purpose “reason about possible effects without converting correlations into deterministic predictions”?",
             "options": [
               {
                 "id": "a",
@@ -63247,7 +63247,7 @@
           {
             "id": "english-c2-anxiety-attention-grammar-q13",
             "type": "mcq",
-            "prompt": "Advanced application 13: Which sentence most accurately calibrates certainty?",
+            "prompt": "🕵️ Grammar Detective — Challenge 13: Advanced application 13: Which sentence most accurately calibrates certainty?",
             "options": [
               {
                 "id": "a",
@@ -63270,7 +63270,7 @@
           {
             "id": "english-c2-anxiety-attention-grammar-q14",
             "type": "mcq",
-            "prompt": "Advanced application 14: Which option maintains an appropriately formal C2 register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 14: Advanced application 14: Which option maintains an appropriately formal C2 register?",
             "options": [
               {
                 "id": "a",
@@ -63293,7 +63293,7 @@
           {
             "id": "english-c2-anxiety-attention-grammar-q15",
             "type": "mcq",
-            "prompt": "Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
+            "prompt": "🕵️ Grammar Detective — Challenge 15: Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
             "options": [
               {
                 "id": "a",
@@ -63316,7 +63316,7 @@
           {
             "id": "english-c2-anxiety-attention-grammar-q16",
             "type": "mcq",
-            "prompt": "Advanced application 16: Which option avoids concealing responsibility?",
+            "prompt": "🕵️ Grammar Detective — Challenge 16: Advanced application 16: Which option avoids concealing responsibility?",
             "options": [
               {
                 "id": "a",
@@ -63339,7 +63339,7 @@
           {
             "id": "english-c2-anxiety-attention-grammar-q17",
             "type": "mcq",
-            "prompt": "Advanced application 17: Which sentence integrates a substantial counterargument?",
+            "prompt": "🕵️ Grammar Detective — Challenge 17: Advanced application 17: Which sentence integrates a substantial counterargument?",
             "options": [
               {
                 "id": "a",
@@ -63362,7 +63362,7 @@
           {
             "id": "english-c2-anxiety-attention-grammar-q18",
             "type": "mcq",
-            "prompt": "Advanced application 18: Which conclusion is most appropriately qualified?",
+            "prompt": "🕵️ Grammar Detective — Challenge 18: Advanced application 18: Which conclusion is most appropriately qualified?",
             "options": [
               {
                 "id": "a",
@@ -63385,7 +63385,7 @@
           {
             "id": "english-c2-anxiety-attention-grammar-q19",
             "type": "mcq",
-            "prompt": "Advanced application 19: Which sentence shows cohesive control across clauses?",
+            "prompt": "🕵️ Grammar Detective — Challenge 19: Advanced application 19: Which sentence shows cohesive control across clauses?",
             "options": [
               {
                 "id": "a",
@@ -63408,7 +63408,7 @@
           {
             "id": "english-c2-anxiety-attention-grammar-q20",
             "type": "mcq",
-            "prompt": "Advanced application 20: Which statement accurately describes Mixed and implicit conditionals?",
+            "prompt": "🕵️ Grammar Detective — Challenge 20: Advanced application 20: Which statement accurately describes Mixed and implicit conditionals?",
             "options": [
               {
                 "id": "a",
@@ -69552,7 +69552,7 @@
           {
             "id": "english-c1-neurotechnology-mental-privacy-grammar-q1",
             "type": "mcq",
-            "prompt": "What is the grammar focus of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 1: What is the grammar focus of this unit?",
             "difficulty": "medium",
             "options": [
               {
@@ -69576,7 +69576,7 @@
           {
             "id": "english-c1-neurotechnology-mental-privacy-grammar-q2",
             "type": "mcq",
-            "prompt": "Why is Mandative subjunctive useful in this article?",
+            "prompt": "🕵️ Grammar Detective — Challenge 2: Why is Mandative subjunctive useful in this article?",
             "difficulty": "medium",
             "options": [
               {
@@ -69600,7 +69600,7 @@
           {
             "id": "english-c1-neurotechnology-mental-privacy-grammar-q3",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Mandative subjunctive: “Experts recommend that neural data is protected.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 3: Choose the best C1 revision using Mandative subjunctive: “Experts recommend that neural data is protected.”",
             "difficulty": "hard",
             "options": [
               {
@@ -69624,7 +69624,7 @@
           {
             "id": "english-c1-neurotechnology-mental-privacy-grammar-q4",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Mandative subjunctive: “It is essential that every inference is challengeable.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 4: Choose the best C1 revision using Mandative subjunctive: “It is essential that every inference is challengeable.”",
             "difficulty": "hard",
             "options": [
               {
@@ -69648,7 +69648,7 @@
           {
             "id": "english-c1-neurotechnology-mental-privacy-grammar-q5",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Mandative subjunctive: “The panel proposed that companies limited collection.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 5: Choose the best C1 revision using Mandative subjunctive: “The panel proposed that companies limited collection.”",
             "difficulty": "hard",
             "options": [
               {
@@ -69672,7 +69672,7 @@
           {
             "id": "english-c1-neurotechnology-mental-privacy-grammar-q6",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Mandative subjunctive: “The framework requires that consent is renewed.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 6: Choose the best C1 revision using Mandative subjunctive: “The framework requires that consent is renewed.”",
             "difficulty": "hard",
             "options": [
               {
@@ -69696,7 +69696,7 @@
           {
             "id": "english-c1-neurotechnology-mental-privacy-grammar-q7",
             "type": "mcq",
-            "prompt": "Which revision principle best supports C1 academic accuracy?",
+            "prompt": "🕵️ Grammar Detective — Challenge 7: Which revision principle best supports C1 academic accuracy?",
             "difficulty": "hard",
             "options": [
               {
@@ -69720,7 +69720,7 @@
           {
             "id": "english-c1-neurotechnology-mental-privacy-grammar-q8",
             "type": "mcq",
-            "prompt": "What should a final grammar check examine?",
+            "prompt": "🕵️ Grammar Detective — Challenge 8: What should a final grammar check examine?",
             "difficulty": "hard",
             "options": [
               {
@@ -69744,7 +69744,7 @@
           {
             "id": "english-c1-neurotechnology-mental-privacy-grammar-q9",
             "type": "mcq",
-            "prompt": "Which sentence uses Mandative subjunctive with the most accurate form and register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 9: Which sentence uses Mandative subjunctive with the most accurate form and register?",
             "difficulty": "hard",
             "options": [
               {
@@ -69768,7 +69768,7 @@
           {
             "id": "english-c1-neurotechnology-mental-privacy-grammar-q10",
             "type": "mcq",
-            "prompt": "Which revision applies Mandative subjunctive without overstating the evidence?",
+            "prompt": "🕵️ Grammar Detective — Challenge 10: Which revision applies Mandative subjunctive without overstating the evidence?",
             "difficulty": "hard",
             "options": [
               {
@@ -69792,7 +69792,7 @@
           {
             "id": "english-c1-neurotechnology-mental-privacy-grammar-q11",
             "type": "mcq",
-            "prompt": "Which option best connects claim and qualification through Mandative subjunctive?",
+            "prompt": "🕵️ Grammar Detective — Challenge 11: Which option best connects claim and qualification through Mandative subjunctive?",
             "difficulty": "hard",
             "options": [
               {
@@ -69816,7 +69816,7 @@
           {
             "id": "english-c1-neurotechnology-mental-privacy-grammar-q12",
             "type": "mcq",
-            "prompt": "Which sentence would be most appropriate in a formal discussion of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 12: Which sentence would be most appropriate in a formal discussion of this unit?",
             "difficulty": "hard",
             "options": [
               {
@@ -69840,7 +69840,7 @@
           {
             "id": "english-c1-neurotechnology-mental-privacy-grammar-q13",
             "type": "mcq",
-            "prompt": "Which sentence uses Mandative subjunctive with the most accurate form and register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 13: Which sentence uses Mandative subjunctive with the most accurate form and register?",
             "difficulty": "hard",
             "options": [
               {
@@ -69864,7 +69864,7 @@
           {
             "id": "english-c1-neurotechnology-mental-privacy-grammar-q14",
             "type": "mcq",
-            "prompt": "Which revision applies Mandative subjunctive without overstating the evidence?",
+            "prompt": "🕵️ Grammar Detective — Challenge 14: Which revision applies Mandative subjunctive without overstating the evidence?",
             "difficulty": "hard",
             "options": [
               {
@@ -69888,7 +69888,7 @@
           {
             "id": "english-c1-neurotechnology-mental-privacy-grammar-q15",
             "type": "mcq",
-            "prompt": "Which option best connects claim and qualification through Mandative subjunctive?",
+            "prompt": "🕵️ Grammar Detective — Challenge 15: Which option best connects claim and qualification through Mandative subjunctive?",
             "difficulty": "hard",
             "options": [
               {
@@ -69912,7 +69912,7 @@
           {
             "id": "english-c1-neurotechnology-mental-privacy-grammar-q16",
             "type": "mcq",
-            "prompt": "Which sentence would be most appropriate in a formal discussion of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 16: Which sentence would be most appropriate in a formal discussion of this unit?",
             "difficulty": "hard",
             "options": [
               {
@@ -69936,7 +69936,7 @@
           {
             "id": "english-c1-neurotechnology-mental-privacy-grammar-q17",
             "type": "mcq",
-            "prompt": "Which sentence uses Mandative subjunctive with the most accurate form and register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 17: Which sentence uses Mandative subjunctive with the most accurate form and register?",
             "difficulty": "hard",
             "options": [
               {
@@ -69960,7 +69960,7 @@
           {
             "id": "english-c1-neurotechnology-mental-privacy-grammar-q18",
             "type": "mcq",
-            "prompt": "Which revision applies Mandative subjunctive without overstating the evidence?",
+            "prompt": "🕵️ Grammar Detective — Challenge 18: Which revision applies Mandative subjunctive without overstating the evidence?",
             "difficulty": "hard",
             "options": [
               {
@@ -69984,7 +69984,7 @@
           {
             "id": "english-c1-neurotechnology-mental-privacy-grammar-q19",
             "type": "mcq",
-            "prompt": "Which option best connects claim and qualification through Mandative subjunctive?",
+            "prompt": "🕵️ Grammar Detective — Challenge 19: Which option best connects claim and qualification through Mandative subjunctive?",
             "difficulty": "hard",
             "options": [
               {
@@ -70008,7 +70008,7 @@
           {
             "id": "english-c1-neurotechnology-mental-privacy-grammar-q20",
             "type": "mcq",
-            "prompt": "Which sentence would be most appropriate in a formal discussion of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 20: Which sentence would be most appropriate in a formal discussion of this unit?",
             "difficulty": "hard",
             "options": [
               {
@@ -70172,7 +70172,7 @@
           {
             "id": "english-c2-individual-differences-grammar-q1",
             "type": "mcq",
-            "prompt": "Which sentence best demonstrates controlled use of Complex relative and supplementary clauses?",
+            "prompt": "🕵️ Grammar Detective — Challenge 1: Which sentence best demonstrates controlled use of Complex relative and supplementary clauses?",
             "options": [
               {
                 "id": "a",
@@ -70195,7 +70195,7 @@
           {
             "id": "english-c2-individual-differences-grammar-q2",
             "type": "mcq",
-            "prompt": "Which revision best serves the purpose “add precise learner information without losing the antecedent or status of the evidence”?",
+            "prompt": "🕵️ Grammar Detective — Challenge 2: Which revision best serves the purpose “add precise learner information without losing the antecedent or status of the evidence”?",
             "options": [
               {
                 "id": "a",
@@ -70218,7 +70218,7 @@
           {
             "id": "english-c2-individual-differences-grammar-q3",
             "type": "mcq",
-            "prompt": "Which sentence most accurately calibrates certainty?",
+            "prompt": "🕵️ Grammar Detective — Challenge 3: Which sentence most accurately calibrates certainty?",
             "options": [
               {
                 "id": "a",
@@ -70241,7 +70241,7 @@
           {
             "id": "english-c2-individual-differences-grammar-q4",
             "type": "mcq",
-            "prompt": "Which option maintains an appropriately formal C2 register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 4: Which option maintains an appropriately formal C2 register?",
             "options": [
               {
                 "id": "a",
@@ -70264,7 +70264,7 @@
           {
             "id": "english-c2-individual-differences-grammar-q5",
             "type": "mcq",
-            "prompt": "Which sentence makes the relationship between evidence and inference clearest?",
+            "prompt": "🕵️ Grammar Detective — Challenge 5: Which sentence makes the relationship between evidence and inference clearest?",
             "options": [
               {
                 "id": "a",
@@ -70287,7 +70287,7 @@
           {
             "id": "english-c2-individual-differences-grammar-q6",
             "type": "mcq",
-            "prompt": "Which option avoids concealing responsibility?",
+            "prompt": "🕵️ Grammar Detective — Challenge 6: Which option avoids concealing responsibility?",
             "options": [
               {
                 "id": "a",
@@ -70310,7 +70310,7 @@
           {
             "id": "english-c2-individual-differences-grammar-q7",
             "type": "mcq",
-            "prompt": "Which sentence integrates a substantial counterargument?",
+            "prompt": "🕵️ Grammar Detective — Challenge 7: Which sentence integrates a substantial counterargument?",
             "options": [
               {
                 "id": "a",
@@ -70333,7 +70333,7 @@
           {
             "id": "english-c2-individual-differences-grammar-q8",
             "type": "mcq",
-            "prompt": "Which conclusion is most appropriately qualified?",
+            "prompt": "🕵️ Grammar Detective — Challenge 8: Which conclusion is most appropriately qualified?",
             "options": [
               {
                 "id": "a",
@@ -70356,7 +70356,7 @@
           {
             "id": "english-c2-individual-differences-grammar-q9",
             "type": "mcq",
-            "prompt": "Which sentence shows cohesive control across clauses?",
+            "prompt": "🕵️ Grammar Detective — Challenge 9: Which sentence shows cohesive control across clauses?",
             "options": [
               {
                 "id": "a",
@@ -70379,7 +70379,7 @@
           {
             "id": "english-c2-individual-differences-grammar-q10",
             "type": "mcq",
-            "prompt": "Which statement accurately describes Complex relative and supplementary clauses?",
+            "prompt": "🕵️ Grammar Detective — Challenge 10: Which statement accurately describes Complex relative and supplementary clauses?",
             "options": [
               {
                 "id": "a",
@@ -70402,7 +70402,7 @@
           {
             "id": "english-c2-individual-differences-grammar-q11",
             "type": "mcq",
-            "prompt": "Advanced application 11: Which sentence best demonstrates controlled use of Complex relative and supplementary clauses?",
+            "prompt": "🕵️ Grammar Detective — Challenge 11: Advanced application 11: Which sentence best demonstrates controlled use of Complex relative and supplementary clauses?",
             "options": [
               {
                 "id": "a",
@@ -70425,7 +70425,7 @@
           {
             "id": "english-c2-individual-differences-grammar-q12",
             "type": "mcq",
-            "prompt": "Advanced application 12: Which revision best serves the purpose “add precise learner information without losing the antecedent or status of the evidence”?",
+            "prompt": "🕵️ Grammar Detective — Challenge 12: Advanced application 12: Which revision best serves the purpose “add precise learner information without losing the antecedent or status of the evidence”?",
             "options": [
               {
                 "id": "a",
@@ -70448,7 +70448,7 @@
           {
             "id": "english-c2-individual-differences-grammar-q13",
             "type": "mcq",
-            "prompt": "Advanced application 13: Which sentence most accurately calibrates certainty?",
+            "prompt": "🕵️ Grammar Detective — Challenge 13: Advanced application 13: Which sentence most accurately calibrates certainty?",
             "options": [
               {
                 "id": "a",
@@ -70471,7 +70471,7 @@
           {
             "id": "english-c2-individual-differences-grammar-q14",
             "type": "mcq",
-            "prompt": "Advanced application 14: Which option maintains an appropriately formal C2 register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 14: Advanced application 14: Which option maintains an appropriately formal C2 register?",
             "options": [
               {
                 "id": "a",
@@ -70494,7 +70494,7 @@
           {
             "id": "english-c2-individual-differences-grammar-q15",
             "type": "mcq",
-            "prompt": "Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
+            "prompt": "🕵️ Grammar Detective — Challenge 15: Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
             "options": [
               {
                 "id": "a",
@@ -70517,7 +70517,7 @@
           {
             "id": "english-c2-individual-differences-grammar-q16",
             "type": "mcq",
-            "prompt": "Advanced application 16: Which option avoids concealing responsibility?",
+            "prompt": "🕵️ Grammar Detective — Challenge 16: Advanced application 16: Which option avoids concealing responsibility?",
             "options": [
               {
                 "id": "a",
@@ -70540,7 +70540,7 @@
           {
             "id": "english-c2-individual-differences-grammar-q17",
             "type": "mcq",
-            "prompt": "Advanced application 17: Which sentence integrates a substantial counterargument?",
+            "prompt": "🕵️ Grammar Detective — Challenge 17: Advanced application 17: Which sentence integrates a substantial counterargument?",
             "options": [
               {
                 "id": "a",
@@ -70563,7 +70563,7 @@
           {
             "id": "english-c2-individual-differences-grammar-q18",
             "type": "mcq",
-            "prompt": "Advanced application 18: Which conclusion is most appropriately qualified?",
+            "prompt": "🕵️ Grammar Detective — Challenge 18: Advanced application 18: Which conclusion is most appropriately qualified?",
             "options": [
               {
                 "id": "a",
@@ -70586,7 +70586,7 @@
           {
             "id": "english-c2-individual-differences-grammar-q19",
             "type": "mcq",
-            "prompt": "Advanced application 19: Which sentence shows cohesive control across clauses?",
+            "prompt": "🕵️ Grammar Detective — Challenge 19: Advanced application 19: Which sentence shows cohesive control across clauses?",
             "options": [
               {
                 "id": "a",
@@ -70609,7 +70609,7 @@
           {
             "id": "english-c2-individual-differences-grammar-q20",
             "type": "mcq",
-            "prompt": "Advanced application 20: Which statement accurately describes Complex relative and supplementary clauses?",
+            "prompt": "🕵️ Grammar Detective — Challenge 20: Advanced application 20: Which statement accurately describes Complex relative and supplementary clauses?",
             "options": [
               {
                 "id": "a",
@@ -76330,7 +76330,7 @@
           {
             "id": "english-c1-synthetic-biology-biosecurity-grammar-q1",
             "type": "mcq",
-            "prompt": "What is the grammar focus of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 1: What is the grammar focus of this unit?",
             "difficulty": "medium",
             "options": [
               {
@@ -76354,7 +76354,7 @@
           {
             "id": "english-c1-synthetic-biology-biosecurity-grammar-q2",
             "type": "mcq",
-            "prompt": "Why is Stance adverbials and evaluative language useful in this article?",
+            "prompt": "🕵️ Grammar Detective — Challenge 2: Why is Stance adverbials and evaluative language useful in this article?",
             "difficulty": "medium",
             "options": [
               {
@@ -76378,7 +76378,7 @@
           {
             "id": "english-c1-synthetic-biology-biosecurity-grammar-q3",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Stance adverbials and evaluative language: “The technology is dangerous.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 3: Choose the best C1 revision using Stance adverbials and evaluative language: “The technology is dangerous.”",
             "difficulty": "hard",
             "options": [
               {
@@ -76402,7 +76402,7 @@
           {
             "id": "english-c1-synthetic-biology-biosecurity-grammar-q4",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Stance adverbials and evaluative language: “Screening reduced some requests.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 4: Choose the best C1 revision using Stance adverbials and evaluative language: “Screening reduced some requests.”",
             "difficulty": "hard",
             "options": [
               {
@@ -76426,7 +76426,7 @@
           {
             "id": "english-c1-synthetic-biology-biosecurity-grammar-q5",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Stance adverbials and evaluative language: “The failure came from weak training.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 5: Choose the best C1 revision using Stance adverbials and evaluative language: “The failure came from weak training.”",
             "difficulty": "hard",
             "options": [
               {
@@ -76450,7 +76450,7 @@
           {
             "id": "english-c1-synthetic-biology-biosecurity-grammar-q6",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Stance adverbials and evaluative language: “International coordination matters most.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 6: Choose the best C1 revision using Stance adverbials and evaluative language: “International coordination matters most.”",
             "difficulty": "hard",
             "options": [
               {
@@ -76474,7 +76474,7 @@
           {
             "id": "english-c1-synthetic-biology-biosecurity-grammar-q7",
             "type": "mcq",
-            "prompt": "Which revision principle best supports C1 academic accuracy?",
+            "prompt": "🕵️ Grammar Detective — Challenge 7: Which revision principle best supports C1 academic accuracy?",
             "difficulty": "hard",
             "options": [
               {
@@ -76498,7 +76498,7 @@
           {
             "id": "english-c1-synthetic-biology-biosecurity-grammar-q8",
             "type": "mcq",
-            "prompt": "What should a final grammar check examine?",
+            "prompt": "🕵️ Grammar Detective — Challenge 8: What should a final grammar check examine?",
             "difficulty": "hard",
             "options": [
               {
@@ -76522,7 +76522,7 @@
           {
             "id": "english-c1-synthetic-biology-biosecurity-grammar-q9",
             "type": "mcq",
-            "prompt": "Which sentence uses Stance adverbials and evaluative language with the most accurate form and register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 9: Which sentence uses Stance adverbials and evaluative language with the most accurate form and register?",
             "difficulty": "hard",
             "options": [
               {
@@ -76546,7 +76546,7 @@
           {
             "id": "english-c1-synthetic-biology-biosecurity-grammar-q10",
             "type": "mcq",
-            "prompt": "Which revision applies Stance adverbials and evaluative language without overstating the evidence?",
+            "prompt": "🕵️ Grammar Detective — Challenge 10: Which revision applies Stance adverbials and evaluative language without overstating the evidence?",
             "difficulty": "hard",
             "options": [
               {
@@ -76570,7 +76570,7 @@
           {
             "id": "english-c1-synthetic-biology-biosecurity-grammar-q11",
             "type": "mcq",
-            "prompt": "Which option best connects claim and qualification through Stance adverbials and evaluative language?",
+            "prompt": "🕵️ Grammar Detective — Challenge 11: Which option best connects claim and qualification through Stance adverbials and evaluative language?",
             "difficulty": "hard",
             "options": [
               {
@@ -76594,7 +76594,7 @@
           {
             "id": "english-c1-synthetic-biology-biosecurity-grammar-q12",
             "type": "mcq",
-            "prompt": "Which sentence would be most appropriate in a formal discussion of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 12: Which sentence would be most appropriate in a formal discussion of this unit?",
             "difficulty": "hard",
             "options": [
               {
@@ -76618,7 +76618,7 @@
           {
             "id": "english-c1-synthetic-biology-biosecurity-grammar-q13",
             "type": "mcq",
-            "prompt": "Which sentence uses Stance adverbials and evaluative language with the most accurate form and register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 13: Which sentence uses Stance adverbials and evaluative language with the most accurate form and register?",
             "difficulty": "hard",
             "options": [
               {
@@ -76642,7 +76642,7 @@
           {
             "id": "english-c1-synthetic-biology-biosecurity-grammar-q14",
             "type": "mcq",
-            "prompt": "Which revision applies Stance adverbials and evaluative language without overstating the evidence?",
+            "prompt": "🕵️ Grammar Detective — Challenge 14: Which revision applies Stance adverbials and evaluative language without overstating the evidence?",
             "difficulty": "hard",
             "options": [
               {
@@ -76666,7 +76666,7 @@
           {
             "id": "english-c1-synthetic-biology-biosecurity-grammar-q15",
             "type": "mcq",
-            "prompt": "Which option best connects claim and qualification through Stance adverbials and evaluative language?",
+            "prompt": "🕵️ Grammar Detective — Challenge 15: Which option best connects claim and qualification through Stance adverbials and evaluative language?",
             "difficulty": "hard",
             "options": [
               {
@@ -76690,7 +76690,7 @@
           {
             "id": "english-c1-synthetic-biology-biosecurity-grammar-q16",
             "type": "mcq",
-            "prompt": "Which sentence would be most appropriate in a formal discussion of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 16: Which sentence would be most appropriate in a formal discussion of this unit?",
             "difficulty": "hard",
             "options": [
               {
@@ -76714,7 +76714,7 @@
           {
             "id": "english-c1-synthetic-biology-biosecurity-grammar-q17",
             "type": "mcq",
-            "prompt": "Which sentence uses Stance adverbials and evaluative language with the most accurate form and register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 17: Which sentence uses Stance adverbials and evaluative language with the most accurate form and register?",
             "difficulty": "hard",
             "options": [
               {
@@ -76738,7 +76738,7 @@
           {
             "id": "english-c1-synthetic-biology-biosecurity-grammar-q18",
             "type": "mcq",
-            "prompt": "Which revision applies Stance adverbials and evaluative language without overstating the evidence?",
+            "prompt": "🕵️ Grammar Detective — Challenge 18: Which revision applies Stance adverbials and evaluative language without overstating the evidence?",
             "difficulty": "hard",
             "options": [
               {
@@ -76762,7 +76762,7 @@
           {
             "id": "english-c1-synthetic-biology-biosecurity-grammar-q19",
             "type": "mcq",
-            "prompt": "Which option best connects claim and qualification through Stance adverbials and evaluative language?",
+            "prompt": "🕵️ Grammar Detective — Challenge 19: Which option best connects claim and qualification through Stance adverbials and evaluative language?",
             "difficulty": "hard",
             "options": [
               {
@@ -76786,7 +76786,7 @@
           {
             "id": "english-c1-synthetic-biology-biosecurity-grammar-q20",
             "type": "mcq",
-            "prompt": "Which sentence would be most appropriate in a formal discussion of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 20: Which sentence would be most appropriate in a formal discussion of this unit?",
             "difficulty": "hard",
             "options": [
               {
@@ -76950,7 +76950,7 @@
           {
             "id": "english-c2-contextual-vocabulary-grammar-q1",
             "type": "mcq",
-            "prompt": "Which sentence best demonstrates controlled use of Nominalisation and grammatical metaphor?",
+            "prompt": "🕵️ Grammar Detective — Challenge 1: Which sentence best demonstrates controlled use of Nominalisation and grammatical metaphor?",
             "options": [
               {
                 "id": "a",
@@ -76973,7 +76973,7 @@
           {
             "id": "english-c2-contextual-vocabulary-grammar-q2",
             "type": "mcq",
-            "prompt": "Which revision best serves the purpose “build lexical analysis while keeping agents, time and causal relations recoverable”?",
+            "prompt": "🕵️ Grammar Detective — Challenge 2: Which revision best serves the purpose “build lexical analysis while keeping agents, time and causal relations recoverable”?",
             "options": [
               {
                 "id": "a",
@@ -76996,7 +76996,7 @@
           {
             "id": "english-c2-contextual-vocabulary-grammar-q3",
             "type": "mcq",
-            "prompt": "Which sentence most accurately calibrates certainty?",
+            "prompt": "🕵️ Grammar Detective — Challenge 3: Which sentence most accurately calibrates certainty?",
             "options": [
               {
                 "id": "a",
@@ -77019,7 +77019,7 @@
           {
             "id": "english-c2-contextual-vocabulary-grammar-q4",
             "type": "mcq",
-            "prompt": "Which option maintains an appropriately formal C2 register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 4: Which option maintains an appropriately formal C2 register?",
             "options": [
               {
                 "id": "a",
@@ -77042,7 +77042,7 @@
           {
             "id": "english-c2-contextual-vocabulary-grammar-q5",
             "type": "mcq",
-            "prompt": "Which sentence makes the relationship between evidence and inference clearest?",
+            "prompt": "🕵️ Grammar Detective — Challenge 5: Which sentence makes the relationship between evidence and inference clearest?",
             "options": [
               {
                 "id": "a",
@@ -77065,7 +77065,7 @@
           {
             "id": "english-c2-contextual-vocabulary-grammar-q6",
             "type": "mcq",
-            "prompt": "Which option avoids concealing responsibility?",
+            "prompt": "🕵️ Grammar Detective — Challenge 6: Which option avoids concealing responsibility?",
             "options": [
               {
                 "id": "a",
@@ -77088,7 +77088,7 @@
           {
             "id": "english-c2-contextual-vocabulary-grammar-q7",
             "type": "mcq",
-            "prompt": "Which sentence integrates a substantial counterargument?",
+            "prompt": "🕵️ Grammar Detective — Challenge 7: Which sentence integrates a substantial counterargument?",
             "options": [
               {
                 "id": "a",
@@ -77111,7 +77111,7 @@
           {
             "id": "english-c2-contextual-vocabulary-grammar-q8",
             "type": "mcq",
-            "prompt": "Which conclusion is most appropriately qualified?",
+            "prompt": "🕵️ Grammar Detective — Challenge 8: Which conclusion is most appropriately qualified?",
             "options": [
               {
                 "id": "a",
@@ -77134,7 +77134,7 @@
           {
             "id": "english-c2-contextual-vocabulary-grammar-q9",
             "type": "mcq",
-            "prompt": "Which sentence shows cohesive control across clauses?",
+            "prompt": "🕵️ Grammar Detective — Challenge 9: Which sentence shows cohesive control across clauses?",
             "options": [
               {
                 "id": "a",
@@ -77157,7 +77157,7 @@
           {
             "id": "english-c2-contextual-vocabulary-grammar-q10",
             "type": "mcq",
-            "prompt": "Which statement accurately describes Nominalisation and grammatical metaphor?",
+            "prompt": "🕵️ Grammar Detective — Challenge 10: Which statement accurately describes Nominalisation and grammatical metaphor?",
             "options": [
               {
                 "id": "a",
@@ -77180,7 +77180,7 @@
           {
             "id": "english-c2-contextual-vocabulary-grammar-q11",
             "type": "mcq",
-            "prompt": "Advanced application 11: Which sentence best demonstrates controlled use of Nominalisation and grammatical metaphor?",
+            "prompt": "🕵️ Grammar Detective — Challenge 11: Advanced application 11: Which sentence best demonstrates controlled use of Nominalisation and grammatical metaphor?",
             "options": [
               {
                 "id": "a",
@@ -77203,7 +77203,7 @@
           {
             "id": "english-c2-contextual-vocabulary-grammar-q12",
             "type": "mcq",
-            "prompt": "Advanced application 12: Which revision best serves the purpose “build lexical analysis while keeping agents, time and causal relations recoverable”?",
+            "prompt": "🕵️ Grammar Detective — Challenge 12: Advanced application 12: Which revision best serves the purpose “build lexical analysis while keeping agents, time and causal relations recoverable”?",
             "options": [
               {
                 "id": "a",
@@ -77226,7 +77226,7 @@
           {
             "id": "english-c2-contextual-vocabulary-grammar-q13",
             "type": "mcq",
-            "prompt": "Advanced application 13: Which sentence most accurately calibrates certainty?",
+            "prompt": "🕵️ Grammar Detective — Challenge 13: Advanced application 13: Which sentence most accurately calibrates certainty?",
             "options": [
               {
                 "id": "a",
@@ -77249,7 +77249,7 @@
           {
             "id": "english-c2-contextual-vocabulary-grammar-q14",
             "type": "mcq",
-            "prompt": "Advanced application 14: Which option maintains an appropriately formal C2 register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 14: Advanced application 14: Which option maintains an appropriately formal C2 register?",
             "options": [
               {
                 "id": "a",
@@ -77272,7 +77272,7 @@
           {
             "id": "english-c2-contextual-vocabulary-grammar-q15",
             "type": "mcq",
-            "prompt": "Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
+            "prompt": "🕵️ Grammar Detective — Challenge 15: Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
             "options": [
               {
                 "id": "a",
@@ -77295,7 +77295,7 @@
           {
             "id": "english-c2-contextual-vocabulary-grammar-q16",
             "type": "mcq",
-            "prompt": "Advanced application 16: Which option avoids concealing responsibility?",
+            "prompt": "🕵️ Grammar Detective — Challenge 16: Advanced application 16: Which option avoids concealing responsibility?",
             "options": [
               {
                 "id": "a",
@@ -77318,7 +77318,7 @@
           {
             "id": "english-c2-contextual-vocabulary-grammar-q17",
             "type": "mcq",
-            "prompt": "Advanced application 17: Which sentence integrates a substantial counterargument?",
+            "prompt": "🕵️ Grammar Detective — Challenge 17: Advanced application 17: Which sentence integrates a substantial counterargument?",
             "options": [
               {
                 "id": "a",
@@ -77341,7 +77341,7 @@
           {
             "id": "english-c2-contextual-vocabulary-grammar-q18",
             "type": "mcq",
-            "prompt": "Advanced application 18: Which conclusion is most appropriately qualified?",
+            "prompt": "🕵️ Grammar Detective — Challenge 18: Advanced application 18: Which conclusion is most appropriately qualified?",
             "options": [
               {
                 "id": "a",
@@ -77364,7 +77364,7 @@
           {
             "id": "english-c2-contextual-vocabulary-grammar-q19",
             "type": "mcq",
-            "prompt": "Advanced application 19: Which sentence shows cohesive control across clauses?",
+            "prompt": "🕵️ Grammar Detective — Challenge 19: Advanced application 19: Which sentence shows cohesive control across clauses?",
             "options": [
               {
                 "id": "a",
@@ -77387,7 +77387,7 @@
           {
             "id": "english-c2-contextual-vocabulary-grammar-q20",
             "type": "mcq",
-            "prompt": "Advanced application 20: Which statement accurately describes Nominalisation and grammatical metaphor?",
+            "prompt": "🕵️ Grammar Detective — Challenge 20: Advanced application 20: Which statement accurately describes Nominalisation and grammatical metaphor?",
             "options": [
               {
                 "id": "a",
@@ -82404,7 +82404,7 @@
           {
             "id": "english-c1-global-health-inequality-grammar-q1",
             "type": "mcq",
-            "prompt": "What is the grammar focus of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 1: What is the grammar focus of this unit?",
             "difficulty": "medium",
             "options": [
               {
@@ -82428,7 +82428,7 @@
           {
             "id": "english-c1-global-health-inequality-grammar-q2",
             "type": "mcq",
-            "prompt": "Why is Cohesion through reference and connectors useful in this article?",
+            "prompt": "🕵️ Grammar Detective — Challenge 2: Why is Cohesion through reference and connectors useful in this article?",
             "difficulty": "medium",
             "options": [
               {
@@ -82452,7 +82452,7 @@
           {
             "id": "english-c1-global-health-inequality-grammar-q3",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Cohesion through reference and connectors: “Coverage improved. Financial hardship remained.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 3: Choose the best C1 revision using Cohesion through reference and connectors: “Coverage improved. Financial hardship remained.”",
             "difficulty": "hard",
             "options": [
               {
@@ -82476,7 +82476,7 @@
           {
             "id": "english-c1-global-health-inequality-grammar-q4",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Cohesion through reference and connectors: “Data systems are weak. Comparisons are uncertain.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 4: Choose the best C1 revision using Cohesion through reference and connectors: “Data systems are weak. Comparisons are uncertain.”",
             "difficulty": "hard",
             "options": [
               {
@@ -82500,7 +82500,7 @@
           {
             "id": "english-c1-global-health-inequality-grammar-q5",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Cohesion through reference and connectors: “Some regions improved faster. This matters for policy.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 5: Choose the best C1 revision using Cohesion through reference and connectors: “Some regions improved faster. This matters for policy.”",
             "difficulty": "hard",
             "options": [
               {
@@ -82524,7 +82524,7 @@
           {
             "id": "english-c1-global-health-inequality-grammar-q6",
             "type": "mcq",
-            "prompt": "Choose the best C1 revision using Cohesion through reference and connectors: “Progress is fragile. Investment must continue.”",
+            "prompt": "🕵️ Grammar Detective — Challenge 6: Choose the best C1 revision using Cohesion through reference and connectors: “Progress is fragile. Investment must continue.”",
             "difficulty": "hard",
             "options": [
               {
@@ -82548,7 +82548,7 @@
           {
             "id": "english-c1-global-health-inequality-grammar-q7",
             "type": "mcq",
-            "prompt": "Which revision principle best supports C1 academic accuracy?",
+            "prompt": "🕵️ Grammar Detective — Challenge 7: Which revision principle best supports C1 academic accuracy?",
             "difficulty": "hard",
             "options": [
               {
@@ -82572,7 +82572,7 @@
           {
             "id": "english-c1-global-health-inequality-grammar-q8",
             "type": "mcq",
-            "prompt": "What should a final grammar check examine?",
+            "prompt": "🕵️ Grammar Detective — Challenge 8: What should a final grammar check examine?",
             "difficulty": "hard",
             "options": [
               {
@@ -82596,7 +82596,7 @@
           {
             "id": "english-c1-global-health-inequality-grammar-q9",
             "type": "mcq",
-            "prompt": "Which sentence uses Cohesion through reference and connectors with the most accurate form and register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 9: Which sentence uses Cohesion through reference and connectors with the most accurate form and register?",
             "difficulty": "hard",
             "options": [
               {
@@ -82620,7 +82620,7 @@
           {
             "id": "english-c1-global-health-inequality-grammar-q10",
             "type": "mcq",
-            "prompt": "Which revision applies Cohesion through reference and connectors without overstating the evidence?",
+            "prompt": "🕵️ Grammar Detective — Challenge 10: Which revision applies Cohesion through reference and connectors without overstating the evidence?",
             "difficulty": "hard",
             "options": [
               {
@@ -82644,7 +82644,7 @@
           {
             "id": "english-c1-global-health-inequality-grammar-q11",
             "type": "mcq",
-            "prompt": "Which option best connects claim and qualification through Cohesion through reference and connectors?",
+            "prompt": "🕵️ Grammar Detective — Challenge 11: Which option best connects claim and qualification through Cohesion through reference and connectors?",
             "difficulty": "hard",
             "options": [
               {
@@ -82668,7 +82668,7 @@
           {
             "id": "english-c1-global-health-inequality-grammar-q12",
             "type": "mcq",
-            "prompt": "Which sentence would be most appropriate in a formal discussion of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 12: Which sentence would be most appropriate in a formal discussion of this unit?",
             "difficulty": "hard",
             "options": [
               {
@@ -82692,7 +82692,7 @@
           {
             "id": "english-c1-global-health-inequality-grammar-q13",
             "type": "mcq",
-            "prompt": "Which sentence uses Cohesion through reference and connectors with the most accurate form and register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 13: Which sentence uses Cohesion through reference and connectors with the most accurate form and register?",
             "difficulty": "hard",
             "options": [
               {
@@ -82716,7 +82716,7 @@
           {
             "id": "english-c1-global-health-inequality-grammar-q14",
             "type": "mcq",
-            "prompt": "Which revision applies Cohesion through reference and connectors without overstating the evidence?",
+            "prompt": "🕵️ Grammar Detective — Challenge 14: Which revision applies Cohesion through reference and connectors without overstating the evidence?",
             "difficulty": "hard",
             "options": [
               {
@@ -82740,7 +82740,7 @@
           {
             "id": "english-c1-global-health-inequality-grammar-q15",
             "type": "mcq",
-            "prompt": "Which option best connects claim and qualification through Cohesion through reference and connectors?",
+            "prompt": "🕵️ Grammar Detective — Challenge 15: Which option best connects claim and qualification through Cohesion through reference and connectors?",
             "difficulty": "hard",
             "options": [
               {
@@ -82764,7 +82764,7 @@
           {
             "id": "english-c1-global-health-inequality-grammar-q16",
             "type": "mcq",
-            "prompt": "Which sentence would be most appropriate in a formal discussion of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 16: Which sentence would be most appropriate in a formal discussion of this unit?",
             "difficulty": "hard",
             "options": [
               {
@@ -82788,7 +82788,7 @@
           {
             "id": "english-c1-global-health-inequality-grammar-q17",
             "type": "mcq",
-            "prompt": "Which sentence uses Cohesion through reference and connectors with the most accurate form and register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 17: Which sentence uses Cohesion through reference and connectors with the most accurate form and register?",
             "difficulty": "hard",
             "options": [
               {
@@ -82812,7 +82812,7 @@
           {
             "id": "english-c1-global-health-inequality-grammar-q18",
             "type": "mcq",
-            "prompt": "Which revision applies Cohesion through reference and connectors without overstating the evidence?",
+            "prompt": "🕵️ Grammar Detective — Challenge 18: Which revision applies Cohesion through reference and connectors without overstating the evidence?",
             "difficulty": "hard",
             "options": [
               {
@@ -82836,7 +82836,7 @@
           {
             "id": "english-c1-global-health-inequality-grammar-q19",
             "type": "mcq",
-            "prompt": "Which option best connects claim and qualification through Cohesion through reference and connectors?",
+            "prompt": "🕵️ Grammar Detective — Challenge 19: Which option best connects claim and qualification through Cohesion through reference and connectors?",
             "difficulty": "hard",
             "options": [
               {
@@ -82860,7 +82860,7 @@
           {
             "id": "english-c1-global-health-inequality-grammar-q20",
             "type": "mcq",
-            "prompt": "Which sentence would be most appropriate in a formal discussion of this unit?",
+            "prompt": "🕵️ Grammar Detective — Challenge 20: Which sentence would be most appropriate in a formal discussion of this unit?",
             "difficulty": "hard",
             "options": [
               {
@@ -83024,7 +83024,7 @@
           {
             "id": "english-c2-ai-language-tutoring-grammar-q1",
             "type": "mcq",
-            "prompt": "Which sentence best demonstrates controlled use of Distancing, evidentiality and qualified reporting?",
+            "prompt": "🕵️ Grammar Detective — Challenge 1: Which sentence best demonstrates controlled use of Distancing, evidentiality and qualified reporting?",
             "options": [
               {
                 "id": "a",
@@ -83047,7 +83047,7 @@
           {
             "id": "english-c2-ai-language-tutoring-grammar-q2",
             "type": "mcq",
-            "prompt": "Which revision best serves the purpose “evaluate technological claims without confusing reported performance with independently verified learning”?",
+            "prompt": "🕵️ Grammar Detective — Challenge 2: Which revision best serves the purpose “evaluate technological claims without confusing reported performance with independently verified learning”?",
             "options": [
               {
                 "id": "a",
@@ -83070,7 +83070,7 @@
           {
             "id": "english-c2-ai-language-tutoring-grammar-q3",
             "type": "mcq",
-            "prompt": "Which sentence most accurately calibrates certainty?",
+            "prompt": "🕵️ Grammar Detective — Challenge 3: Which sentence most accurately calibrates certainty?",
             "options": [
               {
                 "id": "a",
@@ -83093,7 +83093,7 @@
           {
             "id": "english-c2-ai-language-tutoring-grammar-q4",
             "type": "mcq",
-            "prompt": "Which option maintains an appropriately formal C2 register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 4: Which option maintains an appropriately formal C2 register?",
             "options": [
               {
                 "id": "a",
@@ -83116,7 +83116,7 @@
           {
             "id": "english-c2-ai-language-tutoring-grammar-q5",
             "type": "mcq",
-            "prompt": "Which sentence makes the relationship between evidence and inference clearest?",
+            "prompt": "🕵️ Grammar Detective — Challenge 5: Which sentence makes the relationship between evidence and inference clearest?",
             "options": [
               {
                 "id": "a",
@@ -83139,7 +83139,7 @@
           {
             "id": "english-c2-ai-language-tutoring-grammar-q6",
             "type": "mcq",
-            "prompt": "Which option avoids concealing responsibility?",
+            "prompt": "🕵️ Grammar Detective — Challenge 6: Which option avoids concealing responsibility?",
             "options": [
               {
                 "id": "a",
@@ -83162,7 +83162,7 @@
           {
             "id": "english-c2-ai-language-tutoring-grammar-q7",
             "type": "mcq",
-            "prompt": "Which sentence integrates a substantial counterargument?",
+            "prompt": "🕵️ Grammar Detective — Challenge 7: Which sentence integrates a substantial counterargument?",
             "options": [
               {
                 "id": "a",
@@ -83185,7 +83185,7 @@
           {
             "id": "english-c2-ai-language-tutoring-grammar-q8",
             "type": "mcq",
-            "prompt": "Which conclusion is most appropriately qualified?",
+            "prompt": "🕵️ Grammar Detective — Challenge 8: Which conclusion is most appropriately qualified?",
             "options": [
               {
                 "id": "a",
@@ -83208,7 +83208,7 @@
           {
             "id": "english-c2-ai-language-tutoring-grammar-q9",
             "type": "mcq",
-            "prompt": "Which sentence shows cohesive control across clauses?",
+            "prompt": "🕵️ Grammar Detective — Challenge 9: Which sentence shows cohesive control across clauses?",
             "options": [
               {
                 "id": "a",
@@ -83231,7 +83231,7 @@
           {
             "id": "english-c2-ai-language-tutoring-grammar-q10",
             "type": "mcq",
-            "prompt": "Which statement accurately describes Distancing, evidentiality and qualified reporting?",
+            "prompt": "🕵️ Grammar Detective — Challenge 10: Which statement accurately describes Distancing, evidentiality and qualified reporting?",
             "options": [
               {
                 "id": "a",
@@ -83254,7 +83254,7 @@
           {
             "id": "english-c2-ai-language-tutoring-grammar-q11",
             "type": "mcq",
-            "prompt": "Advanced application 11: Which sentence best demonstrates controlled use of Distancing, evidentiality and qualified reporting?",
+            "prompt": "🕵️ Grammar Detective — Challenge 11: Advanced application 11: Which sentence best demonstrates controlled use of Distancing, evidentiality and qualified reporting?",
             "options": [
               {
                 "id": "a",
@@ -83277,7 +83277,7 @@
           {
             "id": "english-c2-ai-language-tutoring-grammar-q12",
             "type": "mcq",
-            "prompt": "Advanced application 12: Which revision best serves the purpose “evaluate technological claims without confusing reported performance with independently verified learning”?",
+            "prompt": "🕵️ Grammar Detective — Challenge 12: Advanced application 12: Which revision best serves the purpose “evaluate technological claims without confusing reported performance with independently verified learning”?",
             "options": [
               {
                 "id": "a",
@@ -83300,7 +83300,7 @@
           {
             "id": "english-c2-ai-language-tutoring-grammar-q13",
             "type": "mcq",
-            "prompt": "Advanced application 13: Which sentence most accurately calibrates certainty?",
+            "prompt": "🕵️ Grammar Detective — Challenge 13: Advanced application 13: Which sentence most accurately calibrates certainty?",
             "options": [
               {
                 "id": "a",
@@ -83323,7 +83323,7 @@
           {
             "id": "english-c2-ai-language-tutoring-grammar-q14",
             "type": "mcq",
-            "prompt": "Advanced application 14: Which option maintains an appropriately formal C2 register?",
+            "prompt": "🕵️ Grammar Detective — Challenge 14: Advanced application 14: Which option maintains an appropriately formal C2 register?",
             "options": [
               {
                 "id": "a",
@@ -83346,7 +83346,7 @@
           {
             "id": "english-c2-ai-language-tutoring-grammar-q15",
             "type": "mcq",
-            "prompt": "Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
+            "prompt": "🕵️ Grammar Detective — Challenge 15: Advanced application 15: Which sentence makes the relationship between evidence and inference clearest?",
             "options": [
               {
                 "id": "a",
@@ -83369,7 +83369,7 @@
           {
             "id": "english-c2-ai-language-tutoring-grammar-q16",
             "type": "mcq",
-            "prompt": "Advanced application 16: Which option avoids concealing responsibility?",
+            "prompt": "🕵️ Grammar Detective — Challenge 16: Advanced application 16: Which option avoids concealing responsibility?",
             "options": [
               {
                 "id": "a",
@@ -83392,7 +83392,7 @@
           {
             "id": "english-c2-ai-language-tutoring-grammar-q17",
             "type": "mcq",
-            "prompt": "Advanced application 17: Which sentence integrates a substantial counterargument?",
+            "prompt": "🕵️ Grammar Detective — Challenge 17: Advanced application 17: Which sentence integrates a substantial counterargument?",
             "options": [
               {
                 "id": "a",
@@ -83415,7 +83415,7 @@
           {
             "id": "english-c2-ai-language-tutoring-grammar-q18",
             "type": "mcq",
-            "prompt": "Advanced application 18: Which conclusion is most appropriately qualified?",
+            "prompt": "🕵️ Grammar Detective — Challenge 18: Advanced application 18: Which conclusion is most appropriately qualified?",
             "options": [
               {
                 "id": "a",
@@ -83438,7 +83438,7 @@
           {
             "id": "english-c2-ai-language-tutoring-grammar-q19",
             "type": "mcq",
-            "prompt": "Advanced application 19: Which sentence shows cohesive control across clauses?",
+            "prompt": "🕵️ Grammar Detective — Challenge 19: Advanced application 19: Which sentence shows cohesive control across clauses?",
             "options": [
               {
                 "id": "a",
@@ -83461,7 +83461,7 @@
           {
             "id": "english-c2-ai-language-tutoring-grammar-q20",
             "type": "mcq",
-            "prompt": "Advanced application 20: Which statement accurately describes Distancing, evidentiality and qualified reporting?",
+            "prompt": "🕵️ Grammar Detective — Challenge 20: Advanced application 20: Which statement accurately describes Distancing, evidentiality and qualified reporting?",
             "options": [
               {
                 "id": "a",
