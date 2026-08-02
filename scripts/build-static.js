@@ -72,6 +72,20 @@ function copyFileEnsuringDir(srcPath, destPath) {
   fs.copyFileSync(srcPath, destPath);
 }
 
+function copyDirectoryEnsuringDir(srcDir, destDir) {
+  if (!fs.existsSync(srcDir)) return;
+  fs.mkdirSync(destDir, { recursive: true });
+  fs.readdirSync(srcDir, { withFileTypes: true }).forEach((entry) => {
+    const source = path.join(srcDir, entry.name);
+    const destination = path.join(destDir, entry.name);
+    if (entry.isDirectory()) {
+      copyDirectoryEnsuringDir(source, destination);
+      return;
+    }
+    if (entry.isFile()) copyFileEnsuringDir(source, destination);
+  });
+}
+
 function main() {
   console.log('Preparing canonical English B1-B2 Listening transcripts...');
   execSync(
@@ -161,6 +175,11 @@ function main() {
     const rel = path.join('src', 'worlds', lang, 'content.js');
     copyFileEnsuringDir(path.join(ROOT, rel), path.join(PUBLIC_DIR, rel));
   });
+
+  // Route artwork is source-controlled under /images. Mirror it explicitly so
+  // image-led lessons work whether Vercel serves the root or the static public
+  // directory. Without this, Pre-A1 cards render their empty fallback color.
+  copyDirectoryEnsuringDir(path.join(ROOT, 'images'), path.join(PUBLIC_DIR, 'images'));
 
   console.log('Build complete: root and public/ are in sync.');
 }

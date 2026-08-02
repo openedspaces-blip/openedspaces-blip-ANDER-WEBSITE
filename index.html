@@ -100,6 +100,7 @@
         <span class="nav-group nav-group-member" hidden>
           <a href="#learn" data-i18n="navLearnMember">Aprender</a>
           <a href="#verbs" data-i18n="navVerbs">Verbos</a>
+          <a href="#music">Music</a>
           <a href="#tutor" data-i18n="navTutor">Tutor I.A.</a>
           <a href="#translator" data-i18n="navTranslator">Traductor</a>
           <details class="nav-more">
@@ -893,6 +894,56 @@
             <button type="button" class="close-modal verb-detail-close-btn" aria-label="Cerrar detalles">×</button>
             <div id="verbDetailContent"></div>
           </div>
+        </div>
+      </section>
+
+      <section id="music" class="section music-section compact-hidden-section" aria-label="Music">
+        <div class="section-heading section-heading-compact">
+          <span>Music</span>
+          <h2 tabindex="-1">Escucha y sigue la letra</h2>
+          <p>Elige una canción y acompaña cada línea mientras suena.</p>
+        </div>
+
+        <div class="music-shell">
+          <aside class="music-library" aria-label="Canciones disponibles">
+            <div class="music-library-heading">
+              <span>Biblioteca</span>
+              <strong id="musicTrackCount">0 canciones</strong>
+            </div>
+            <div class="music-track-list" id="musicTrackList" aria-live="polite">
+              <p class="skill-graph-empty">Cargando canciones…</p>
+            </div>
+          </aside>
+
+          <article class="music-player-card" id="musicPlayerCard">
+            <div class="music-now-playing">
+              <div class="music-cover" id="musicCover" aria-hidden="true">♪</div>
+              <div>
+                <span>Ahora suena</span>
+                <h3 id="musicTitle">Selecciona una canción</h3>
+                <p id="musicArtist">Tu biblioteca aparecerá aquí.</p>
+              </div>
+            </div>
+
+            <audio id="musicAudio" controls preload="metadata"></audio>
+
+            <div class="music-controls">
+              <label for="musicSpeed">Velocidad
+                <select id="musicSpeed">
+                  <option value="0.75">0.75×</option>
+                  <option value="0.9">0.9×</option>
+                  <option value="1" selected>1×</option>
+                </select>
+              </label>
+              <button type="button" class="secondary-btn" id="musicLyricsToggle" aria-expanded="true">
+                Ocultar letra
+              </button>
+            </div>
+
+            <div class="music-lyrics" id="musicLyrics" aria-live="polite">
+              <p class="music-empty-lyrics">Selecciona una canción para ver la letra sincronizada.</p>
+            </div>
+          </article>
         </div>
       </section>
 
@@ -2355,6 +2406,7 @@
             <a href="#learn" data-i18n="navLearnVisitor">Idiomas</a>
             <a href="#premium" data-i18n="navPremium">Premium</a>
             <a href="#translator" data-i18n="navTranslator">Traductor</a>
+            <a href="#music">Music</a>
             <a href="#about" data-i18n="navAbout">Acerca de</a>
             <a href="#about" data-i18n="footerSupport">Soporte</a>
           </div>

@@ -3612,7 +3612,7 @@ function renderPreA1VisualCourse(selectedTopicId = '') {
     <div class="pre-a1-topic-grid" aria-label="Pre-A1 visual topics">
       ${PRE_A1_VISUAL_COURSE.map((topic, index) => `
         <button type="button" class="pre-a1-topic${topic.id === selected.id ? ' is-selected' : ''}${progress.has(topic.id) ? ' is-complete' : ''}" data-pre-a1-topic="${topic.id}" aria-pressed="${topic.id === selected.id}">
-          <span class="pre-a1-topic-image" role="img" aria-label="Illustration: ${escapeHtml(topic.subtitle)}" style="${getPreA1SpriteStyle(topic)}"></span>
+          <span class="pre-a1-topic-image" role="img" aria-label="Illustration: ${escapeHtml(topic.subtitle)}" style="${getPreA1SpriteStyle(topic)}"><span class="pre-a1-topic-image-mark" aria-hidden="true">${topic.icon}</span></span>
           <span class="pre-a1-topic-copy"><small>${index + 1}</small><strong>${escapeHtml(topic.title)}</strong><em>${escapeHtml(topic.subtitle)}</em></span>
           <span class="pre-a1-topic-state" aria-label="${progress.has(topic.id) ? 'Completed' : 'Not completed'}">${progress.has(topic.id) ? '✓' : topic.icon}</span>
         </button>`).join('')}
@@ -6733,6 +6733,35 @@ const UNIT_ARTWORK_FALLBACKS = [
   { emoji: '🧩', label: 'reto de aprendizaje', tone: 'violet' }
 ];
 
+// Original route illustrations are generated as compact 4x3 sheets. This
+// keeps the interface fast: one image covers all the cards in a course.
+// Other language routes retain their themed emoji fallback until their own
+// illustration sheets are added.
+const UNIT_ROUTE_ARTWORK_SHEETS = {
+  english: {
+    A1: '/images/route-artwork/english-a1-route-grid.png',
+    A2: '/images/route-artwork/english-a2-route-grid.png',
+    B1: '/images/route-artwork/english-b1-route-grid.png',
+    B2: '/images/route-artwork/english-b2-route-grid.png',
+    C1: '/images/route-artwork/english-c1-route-grid.png',
+    C2: '/images/route-artwork/english-c2-route-grid.png'
+  }
+};
+
+function getUnitRouteArtworkSprite(unit = {}) {
+  const sheet = UNIT_ROUTE_ARTWORK_SHEETS[learningPathState.language]?.[learningPathState.level];
+  const order = Number(unit.order ?? unit.order_index ?? 0);
+  if (!sheet || !Number.isFinite(order) || order < 1 || order > 12) return null;
+
+  const index = order - 1;
+  const column = index % 4;
+  const row = Math.floor(index / 4);
+  return {
+    image: sheet,
+    position: `${(column / 3) * 100}% ${(row / 2) * 100}%`
+  };
+}
+
 function getUnitArtwork(unit = {}) {
   const searchable = [unit.title, unit.titleEs, unit.description, unit.objective]
     .filter(Boolean)
@@ -6743,11 +6772,13 @@ function getUnitArtwork(unit = {}) {
   const themed = UNIT_ARTWORK_THEMES.find((theme) =>
     theme.terms.some((term) => searchable.includes(term))
   );
-  if (themed) return themed;
+  const artwork = themed || (() => {
+    const stableKey = `${unit.id || ''}:${unit.order || 0}:${searchable}`;
+    const hash = [...stableKey].reduce((total, character) => total + character.charCodeAt(0), 0);
+    return UNIT_ARTWORK_FALLBACKS[hash % UNIT_ARTWORK_FALLBACKS.length];
+  })();
 
-  const stableKey = `${unit.id || ''}:${unit.order || 0}:${searchable}`;
-  const hash = [...stableKey].reduce((total, character) => total + character.charCodeAt(0), 0);
-  return UNIT_ARTWORK_FALLBACKS[hash % UNIT_ARTWORK_FALLBACKS.length];
+  return { ...artwork, sprite: getUnitRouteArtworkSprite(unit) };
 }
 
 // The Ruta tab for a unit-aware language+level (English A1 today): 12
@@ -6781,12 +6812,15 @@ function renderUnitAccordionHtml(nextSlug) {
       const artwork = getUnitArtwork(unit);
       const isCompleted = metrics.total > 0 && metrics.completedCount === metrics.total;
       const statusLabel = isCompleted ? 'Completada' : isSelected ? 'Unidad actual' : 'Ver unidad';
+      const artworkStyle = artwork.sprite
+        ? ` style="--unit-artwork-image:url('${artwork.sprite.image}');--unit-artwork-position:${artwork.sprite.position};"`
+        : '';
 
       return `
       <div class="path-unit-group${isSelected ? ' path-unit-group--selected' : ''}">
         <button type="button" class="path-unit path-unit-header${isSelected ? ' path-unit--selected' : ''}${isPremiumUnit ? ' path-unit--premium' : ''}${isCompleted ? ' path-unit--completed' : ''}" data-unit-id="${escapeHtml(unit.id)}" ${isSelected ? 'aria-current="true"' : ''} aria-label="${escapeHtml(`Viaje ${unit.order}: ${unit.title}. ${statusLabel}. Progreso ${metrics.progressPercent}%`)}">
-          <span class="path-unit-artwork path-unit-artwork--${artwork.tone}" role="img" aria-label="Ilustración de ${escapeHtml(artwork.label)}">
-            <span class="path-unit-artwork-emoji" aria-hidden="true">${artwork.emoji}</span>
+          <span class="path-unit-artwork path-unit-artwork--${artwork.tone}" data-illustrated="${artwork.sprite ? 'true' : 'false'}" role="img" aria-label="Ilustración de ${escapeHtml(artwork.label)}"${artworkStyle}>
+            ${artwork.sprite ? '' : `<span class="path-unit-artwork-emoji" aria-hidden="true">${artwork.emoji}</span>`}
           </span>
           <span class="path-unit-titles">
             <span class="path-unit-journey">Viaje ${escapeHtml(String(unit.order))}</span>
@@ -15544,6 +15578,119 @@ mobileActivityMedia.addEventListener?.('change', () => {
 // renderer) all need to agree on the same set.
 const SKILL_VIEWS = ['listening', 'speaking', 'reading', 'writing', 'grammar', 'vocabulary'];
 
+const musicState = { tracks: [], activeId: null, loadedAt: 0, initialized: false };
+
+function selectMusicTrack(trackId) {
+  const track = musicState.tracks.find((item) => item.id === trackId);
+  if (!track) return;
+  musicState.activeId = track.id;
+  const audio = document.getElementById('musicAudio');
+  const title = document.getElementById('musicTitle');
+  const artist = document.getElementById('musicArtist');
+  const cover = document.getElementById('musicCover');
+  const lyrics = document.getElementById('musicLyrics');
+  if (title) title.textContent = track.title;
+  if (artist) artist.textContent = [track.artist, track.language, track.level].filter(Boolean).join(' · ');
+  if (cover) {
+    cover.textContent = track.coverUrl ? '' : '♪';
+    cover.style.backgroundImage = track.coverUrl ? `url("${track.coverUrl.replace(/["\\]/g, '')}")` : '';
+    cover.classList.toggle('has-cover', !!track.coverUrl);
+  }
+  if (audio) {
+    audio.src = track.audioUrl;
+    audio.load();
+  }
+  if (lyrics) {
+    lyrics.innerHTML = track.lyrics.length
+      ? track.lyrics
+          .map(
+            (line, index) =>
+              `<button type="button" class="music-lyric-line" data-lyric-index="${index}" data-time="${line.time}">${escapeHtml(line.text)}</button>`
+          )
+          .join('')
+      : '<p class="music-empty-lyrics">Esta canción todavía no tiene letra sincronizada.</p>';
+  }
+  document.querySelectorAll('.music-track-button').forEach((button) => {
+    const active = button.dataset.trackId === track.id;
+    button.classList.toggle('active', active);
+    button.setAttribute('aria-pressed', String(active));
+  });
+}
+
+function syncMusicLyrics() {
+  const audio = document.getElementById('musicAudio');
+  const track = musicState.tracks.find((item) => item.id === musicState.activeId);
+  if (!audio || !track?.lyrics.length) return;
+  let activeIndex = -1;
+  track.lyrics.forEach((line, index) => {
+    if (audio.currentTime + 0.08 >= line.time) activeIndex = index;
+  });
+  document.querySelectorAll('.music-lyric-line').forEach((line, index) => {
+    const active = index === activeIndex;
+    line.classList.toggle('active', active);
+    if (active) line.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+  });
+}
+
+function initMusicPlayer() {
+  if (musicState.initialized) return;
+  musicState.initialized = true;
+  const audio = document.getElementById('musicAudio');
+  const speed = document.getElementById('musicSpeed');
+  const lyrics = document.getElementById('musicLyrics');
+  const toggle = document.getElementById('musicLyricsToggle');
+  audio?.addEventListener('timeupdate', syncMusicLyrics);
+  speed?.addEventListener('change', () => {
+    if (audio) audio.playbackRate = Number(speed.value) || 1;
+  });
+  lyrics?.addEventListener('click', (event) => {
+    const line = event.target.closest('.music-lyric-line');
+    if (!line || !audio) return;
+    audio.currentTime = Number(line.dataset.time) || 0;
+    audio.play().catch(() => {});
+  });
+  toggle?.addEventListener('click', () => {
+    const hidden = lyrics?.toggleAttribute('hidden');
+    toggle.textContent = hidden ? 'Mostrar letra' : 'Ocultar letra';
+    toggle.setAttribute('aria-expanded', String(!hidden));
+  });
+}
+
+async function loadMusicLibrary() {
+  initMusicPlayer();
+  if (musicState.tracks.length && Date.now() - musicState.loadedAt < 50 * 60 * 1000) return;
+  const list = document.getElementById('musicTrackList');
+  if (list) list.innerHTML = '<p class="skill-graph-empty">Cargando canciones…</p>';
+  try {
+    const response = await fetch(`${backendBaseUrl}/api/music/tracks`, { headers: authHeaders() });
+    const data = await response.json().catch(() => ({}));
+    if (!response.ok) throw new Error(data.error || 'No se pudo cargar Music.');
+    musicState.tracks = Array.isArray(data.tracks) ? data.tracks : [];
+    musicState.loadedAt = Date.now();
+    const count = document.getElementById('musicTrackCount');
+    if (count) count.textContent = `${musicState.tracks.length} ${musicState.tracks.length === 1 ? 'canción' : 'canciones'}`;
+    if (!list) return;
+    if (!musicState.tracks.length) {
+      list.innerHTML = '<div class="music-empty-library"><strong>Aún no hay canciones publicadas.</strong><span>Después de subir tu primer MP3 en Supabase aparecerá aquí.</span></div>';
+      return;
+    }
+    list.innerHTML = musicState.tracks
+      .map(
+        (track) => `<button type="button" class="music-track-button" data-track-id="${escapeHtml(track.id)}" aria-pressed="false">
+          <span class="music-track-icon">♪</span>
+          <span><strong>${escapeHtml(track.title)}</strong><small>${escapeHtml(track.artist)}</small></span>
+        </button>`
+      )
+      .join('');
+    list.querySelectorAll('.music-track-button').forEach((button) => {
+      button.addEventListener('click', () => selectMusicTrack(button.dataset.trackId));
+    });
+    selectMusicTrack(musicState.activeId || musicState.tracks[0].id);
+  } catch (error) {
+    if (list) list.innerHTML = `<p class="skill-graph-empty">${escapeHtml(error.message)}</p>`;
+  }
+}
+
 const VIEW_SECTIONS = {
   // #premium (the Free/Premium plans section) lives at the end of the home
   // view now, not as its own nav destination - see handleHomeAction's
@@ -15556,6 +15703,7 @@ const VIEW_SECTIONS = {
   goals: ['#goals'],
   tutor: ['#tutor'],
   translator: ['#translator'],
+  music: ['#music'],
   about: ['#about'],
   verbs: ['#verbs'],
   listening: ['#listening'],
@@ -15581,6 +15729,7 @@ const VIEW_TITLE_SELECTORS = {
   goals: '#goals h2',
   tutor: '#tutor h2',
   translator: '#translator h2',
+  music: '#music h2',
   about: '#about h2',
   verbs: '#verbs h2',
   listening: '#listening .level-tab[data-tab="listening"]',
@@ -15770,6 +15919,7 @@ function showView(viewId) {
     refreshTutorUsageCounter();
   }
   if (resolved === 'translator') syncTranslatorLanguagesFromState();
+  if (resolved === 'music') loadMusicLibrary();
   if (resolved === 'progress' || resolved === 'goals') loadDashboard();
   if (resolved === 'security') loadSecurityStatus();
   if (resolved === 'teacher-curriculum') loadTeacherCurriculumPanel();
