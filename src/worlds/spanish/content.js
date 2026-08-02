@@ -1649,98 +1649,98 @@
       ],
       "transcript": "¿Alguna vez has sentido que ya no necesitas recordar tantas cosas como antes? Hace unos años era normal memorizar números de teléfono, direcciones o incluso el camino para llegar a un lugar. Hoy basta con sacar el móvil del bolsillo y dejar que una aplicación haga el trabajo por nosotros. Algo parecido está ocurriendo con la inteligencia artificial. Cada día millones de personas le piden ayuda para escribir correos electrónicos, resumir documentos, traducir textos, resolver ejercicios o generar ideas para un proyecto. En cuestión de segundos reciben una respuesta que, en muchos casos, parece perfectamente elaborada. La pregunta es inevitable: ¿estamos utilizando una herramienta que amplía nuestras capacidades o estamos dejando que piense por nosotros? La historia demuestra que cada gran avance tecnológico despertó preocupaciones similares. Cuando apareció la imprenta, algunos pensaban que la memoria humana se volvería menos importante. Más tarde ocurrió lo mismo con las calculadoras y, después, con Internet. Sin embargo, ninguna de esas tecnologías eliminó la necesidad de pensar. Lo que hicieron fue cambiar la forma en que utilizábamos nuestro conocimiento. La inteligencia artificial plantea un desafío distinto porque no solo almacena información; también puede organizarla, redactarla y presentarla como si fuera una persona. Eso explica por qué muchos estudiantes, profesionales y empresas la utilizan todos los días.",
       "listeningComprehension": {
-        "id": "spanish-c1-memoria-y-relato-listening-comprehension",
+        "id": "spanish-c1-memoria-y-relato-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Cuál es el propósito principal del audio?",
+            "prompt": "En «Escucha · ¿La inteligencia artificial está cambiando nuestra manera de pensar?», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Analizar el tema con evidencia, contexto y matices"
+                "text": "¿Alguna vez has sentido que ya no necesitas recordar tantas cosas como antes?"
               },
               {
                 "id": "o2",
-                "text": "Memorizar una lista sin relación con la unidad"
+                "text": "Cada día millones de personas le piden ayuda para escribir correos electrónicos, resumir documentos, traducir textos, resolver ejercicios o generar ideas para un proyecto."
               },
               {
                 "id": "o3",
-                "text": "Contar una historia sin conexión con el Reading"
+                "text": "Más tarde ocurrió lo mismo con las calculadoras y, después, con Internet."
               },
               {
                 "id": "o4",
-                "text": "Dar una única respuesta definitiva"
+                "text": "Eso explica por qué muchos estudiantes, profesionales y empresas la utilizan todos los días."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+            "prompt": "Después de «¿Alguna vez has sentido que ya no necesitas recordar tantas cosas como…», ¿qué sucede a continuación en «Escucha · ¿La inteligencia artificial está cambiando nuestra manera de pensar?»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Aceptarla de inmediato"
+                "text": "¿Alguna vez has sentido que ya no necesitas recordar tantas cosas como antes?"
               },
               {
                 "id": "o2",
-                "text": "Preguntar por fuentes, personas afectadas y consecuencias"
+                "text": "Cada día millones de personas le piden ayuda para escribir correos electrónicos, resumir documentos, traducir textos, resolver ejercicios o generar ideas para un proyecto."
               },
               {
                 "id": "o3",
-                "text": "Evitar toda comparación"
+                "text": "Más tarde ocurrió lo mismo con las calculadoras y, después, con Internet."
               },
               {
                 "id": "o4",
-                "text": "Copiarla sin revisar"
+                "text": "Eso explica por qué muchos estudiantes, profesionales y empresas la utilizan todos los días."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Para qué se usa la gramática de la unidad?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · ¿La inteligencia artificial está cambiando nuestra manera de pensar?»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Para eliminar toda postura"
+                "text": "¿Alguna vez has sentido que ya no necesitas recordar tantas cosas como antes?"
               },
               {
                 "id": "o2",
-                "text": "Para repetir palabras aisladas"
+                "text": "Cada día millones de personas le piden ayuda para escribir correos electrónicos, resumir documentos, traducir textos, resolver ejercicios o generar ideas para un proyecto."
               },
               {
                 "id": "o3",
-                "text": "Para formular una idea con precisión y reservas"
+                "text": "La inteligencia artificial plantea un desafío distinto porque no solo almacena información; también puede organizarla, redactarla y presentarla como si fuera una persona."
               },
               {
                 "id": "o4",
-                "text": "Para evitar reconocer límites"
+                "text": "Más tarde ocurrió lo mismo con las calculadoras y, después, con Internet."
               }
             ]
           },
           {
-            "id": "l4",
+            "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué pregunta final propone el audio?",
+            "prompt": "¿Qué resultado cierra «Escucha · ¿La inteligencia artificial está cambiando nuestra manera de pensar?» después de «La inteligencia artificial plantea un desafío distinto porque no solo…»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Qué aplicación es más rápida"
+                "text": "¿Alguna vez has sentido que ya no necesitas recordar tantas cosas como antes?"
               },
               {
                 "id": "o2",
-                "text": "Cómo evitar cualquier debate"
+                "text": "Cada día millones de personas le piden ayuda para escribir correos electrónicos, resumir documentos, traducir textos, resolver ejercicios o generar ideas para un proyecto."
               },
               {
                 "id": "o3",
-                "text": "Qué palabra es más difícil de pronunciar"
+                "text": "Más tarde ocurrió lo mismo con las calculadoras y, después, con Internet."
               },
               {
                 "id": "o4",
-                "text": "Qué evidencia sostendría o modificaría una postura"
+                "text": "Eso explica por qué muchos estudiantes, profesionales y empresas la utilizan todos los días."
               }
             ]
           }
@@ -1751,47 +1751,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal del audio?",
+        "prompt": "En «Escucha · ¿La inteligencia artificial está cambiando nuestra manera de pensar?», ¿qué detalle presenta la situación?",
         "options": [
-          "Analizar el tema con evidencia, contexto y matices",
-          "Memorizar una lista sin relación con la unidad",
-          "Contar una historia sin conexión con el Reading",
-          "Dar una única respuesta definitiva"
-        ],
-        "explanation": "El audio adapta el Reading para analizarlo de forma crítica."
+          "¿Alguna vez has sentido que ya no necesitas recordar tantas cosas como antes?",
+          "Cada día millones de personas le piden ayuda para escribir correos electrónicos, resumir documentos, traducir textos, resolver ejercicios o generar ideas para un proyecto.",
+          "Más tarde ocurrió lo mismo con las calculadoras y, después, con Internet.",
+          "Eso explica por qué muchos estudiantes, profesionales y empresas la utilizan todos los días."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+        "prompt": "Después de «¿Alguna vez has sentido que ya no necesitas recordar tantas cosas como…», ¿qué sucede a continuación en «Escucha · ¿La inteligencia artificial está cambiando nuestra manera de pensar?»?",
         "options": [
-          "Aceptarla de inmediato",
-          "Preguntar por fuentes, personas afectadas y consecuencias",
-          "Evitar toda comparación",
-          "Copiarla sin revisar"
-        ],
-        "explanation": "El audio insiste en comprobar el origen, el impacto y el contexto de la información."
+          "¿Alguna vez has sentido que ya no necesitas recordar tantas cosas como antes?",
+          "Cada día millones de personas le piden ayuda para escribir correos electrónicos, resumir documentos, traducir textos, resolver ejercicios o generar ideas para un proyecto.",
+          "Más tarde ocurrió lo mismo con las calculadoras y, después, con Internet.",
+          "Eso explica por qué muchos estudiantes, profesionales y empresas la utilizan todos los días."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Para qué se usa la gramática de la unidad?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · ¿La inteligencia artificial está cambiando nuestra manera de pensar?»?",
         "options": [
-          "Para eliminar toda postura",
-          "Para repetir palabras aisladas",
-          "Para formular una idea con precisión y reservas",
-          "Para evitar reconocer límites"
-        ],
-        "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
+          "¿Alguna vez has sentido que ya no necesitas recordar tantas cosas como antes?",
+          "Cada día millones de personas le piden ayuda para escribir correos electrónicos, resumir documentos, traducir textos, resolver ejercicios o generar ideas para un proyecto.",
+          "La inteligencia artificial plantea un desafío distinto porque no solo almacena información; también puede organizarla, redactarla y presentarla como si fuera una persona.",
+          "Más tarde ocurrió lo mismo con las calculadoras y, después, con Internet."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué pregunta final propone el audio?",
+        "prompt": "¿Qué resultado cierra «Escucha · ¿La inteligencia artificial está cambiando nuestra manera de pensar?» después de «La inteligencia artificial plantea un desafío distinto porque no solo…»?",
         "options": [
-          "Qué aplicación es más rápida",
-          "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar",
-          "Qué evidencia sostendría o modificaría una postura"
-        ],
-        "explanation": "La pregunta final invita a justificar y revisar una conclusión."
+          "¿Alguna vez has sentido que ya no necesitas recordar tantas cosas como antes?",
+          "Cada día millones de personas le piden ayuda para escribir correos electrónicos, resumir documentos, traducir textos, resolver ejercicios o generar ideas para un proyecto.",
+          "Más tarde ocurrió lo mismo con las calculadoras y, después, con Internet.",
+          "Eso explica por qué muchos estudiantes, profesionales y empresas la utilizan todos los días."
+        ]
       }
     ]
   },
@@ -1828,98 +1824,98 @@
       ],
       "transcript": "Cada vez que una plataforma te recomienda un video, una noticia o una canción, toma una decisión basada en señales que rara vez ves. La investigación empieza cuando preguntamos qué datos se usan, qué se prioriza y quién define el objetivo. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «algoritmo», «recomendación» y «perfil». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «algoritmo» parece una decisión individual, conviene considerar «recomendación» y «perfil». Desde esta perspectiva, reconstruir las decisiones invisibles que moldean la atención cotidiana no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal.",
       "listeningComprehension": {
-        "id": "spanish-c2-ambiguedad-y-sentido-listening-comprehension",
+        "id": "spanish-c2-ambiguedad-y-sentido-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Cuál es el propósito principal del audio?",
+            "prompt": "En «Escucha · Cómo los algoritmos deciden lo que ves cada día», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Analizar el tema con evidencia, contexto y matices"
+                "text": "Cada vez que una plataforma te recomienda un video, una noticia o una canción, toma una decisión basada en señales que rara vez ves."
               },
               {
                 "id": "o2",
-                "text": "Memorizar una lista sin relación con la unidad"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Contar una historia sin conexión con el Reading"
+                "text": "Desde esta perspectiva, reconstruir las decisiones invisibles que moldean la atención cotidiana no consiste en repetir una conclusión."
               },
               {
                 "id": "o4",
-                "text": "Dar una única respuesta definitiva"
+                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+            "prompt": "Después de «Cada vez que una plataforma te recomienda un video, una noticia o una…», ¿qué sucede a continuación en «Escucha · Cómo los algoritmos deciden lo que ves cada día»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Aceptarla de inmediato"
+                "text": "Cada vez que una plataforma te recomienda un video, una noticia o una canción, toma una decisión basada en señales que rara vez ves."
               },
               {
                 "id": "o2",
-                "text": "Preguntar por fuentes, personas afectadas y consecuencias"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Evitar toda comparación"
+                "text": "Desde esta perspectiva, reconstruir las decisiones invisibles que moldean la atención cotidiana no consiste en repetir una conclusión."
               },
               {
                 "id": "o4",
-                "text": "Copiarla sin revisar"
+                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Para qué se usa la gramática de la unidad?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Cómo los algoritmos deciden lo que ves cada día»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Para eliminar toda postura"
+                "text": "Cada vez que una plataforma te recomienda un video, una noticia o una canción, toma una decisión basada en señales que rara vez ves."
               },
               {
                 "id": "o2",
-                "text": "Para repetir palabras aisladas"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Para formular una idea con precisión y reservas"
+                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
               },
               {
                 "id": "o4",
-                "text": "Para evitar reconocer límites"
+                "text": "Desde esta perspectiva, reconstruir las decisiones invisibles que moldean la atención cotidiana no consiste en repetir una conclusión."
               }
             ]
           },
           {
-            "id": "l4",
+            "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué pregunta final propone el audio?",
+            "prompt": "¿Qué resultado cierra «Escucha · Cómo los algoritmos deciden lo que ves cada día» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Qué aplicación es más rápida"
+                "text": "Cada vez que una plataforma te recomienda un video, una noticia o una canción, toma una decisión basada en señales que rara vez ves."
               },
               {
                 "id": "o2",
-                "text": "Cómo evitar cualquier debate"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Qué palabra es más difícil de pronunciar"
+                "text": "Desde esta perspectiva, reconstruir las decisiones invisibles que moldean la atención cotidiana no consiste en repetir una conclusión."
               },
               {
                 "id": "o4",
-                "text": "Qué evidencia sostendría o modificaría una postura"
+                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
               }
             ]
           }
@@ -1930,47 +1926,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal del audio?",
+        "prompt": "En «Escucha · Cómo los algoritmos deciden lo que ves cada día», ¿qué detalle presenta la situación?",
         "options": [
-          "Analizar el tema con evidencia, contexto y matices",
-          "Memorizar una lista sin relación con la unidad",
-          "Contar una historia sin conexión con el Reading",
-          "Dar una única respuesta definitiva"
-        ],
-        "explanation": "El audio adapta el Reading para analizarlo de forma crítica."
+          "Cada vez que una plataforma te recomienda un video, una noticia o una canción, toma una decisión basada en señales que rara vez ves.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Desde esta perspectiva, reconstruir las decisiones invisibles que moldean la atención cotidiana no consiste en repetir una conclusión.",
+          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+        "prompt": "Después de «Cada vez que una plataforma te recomienda un video, una noticia o una…», ¿qué sucede a continuación en «Escucha · Cómo los algoritmos deciden lo que ves cada día»?",
         "options": [
-          "Aceptarla de inmediato",
-          "Preguntar por fuentes, personas afectadas y consecuencias",
-          "Evitar toda comparación",
-          "Copiarla sin revisar"
-        ],
-        "explanation": "El audio insiste en comprobar el origen, el impacto y el contexto de la información."
+          "Cada vez que una plataforma te recomienda un video, una noticia o una canción, toma una decisión basada en señales que rara vez ves.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Desde esta perspectiva, reconstruir las decisiones invisibles que moldean la atención cotidiana no consiste en repetir una conclusión.",
+          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Para qué se usa la gramática de la unidad?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Cómo los algoritmos deciden lo que ves cada día»?",
         "options": [
-          "Para eliminar toda postura",
-          "Para repetir palabras aisladas",
-          "Para formular una idea con precisión y reservas",
-          "Para evitar reconocer límites"
-        ],
-        "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
+          "Cada vez que una plataforma te recomienda un video, una noticia o una canción, toma una decisión basada en señales que rara vez ves.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
+          "Desde esta perspectiva, reconstruir las decisiones invisibles que moldean la atención cotidiana no consiste en repetir una conclusión."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué pregunta final propone el audio?",
+        "prompt": "¿Qué resultado cierra «Escucha · Cómo los algoritmos deciden lo que ves cada día» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
         "options": [
-          "Qué aplicación es más rápida",
-          "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar",
-          "Qué evidencia sostendría o modificaría una postura"
-        ],
-        "explanation": "La pregunta final invita a justificar y revisar una conclusión."
+          "Cada vez que una plataforma te recomienda un video, una noticia o una canción, toma una decisión basada en señales que rara vez ves.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Desde esta perspectiva, reconstruir las decisiones invisibles que moldean la atención cotidiana no consiste en repetir una conclusión.",
+          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+        ]
       }
     ]
   },
@@ -5773,98 +5765,98 @@
       ],
       "transcript": "Cuando Lucía dejó un empleo estable para crear su propia tienda digital, no estaba buscando una historia de éxito rápido. Estaba aprendiendo a convertir una habilidad en un proyecto, a convivir con la incertidumbre y a tomar decisiones sin un manual. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «reinventarse», «incertidumbre» y «proyecto». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «reinventarse» parece una decisión individual, conviene considerar «incertidumbre» y «proyecto». Desde esta perspectiva, interpretar decisiones, riesgos y cambios de identidad laboral no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.",
       "listeningComprehension": {
-        "id": "spanish-c1-retorica-publica-listening-comprehension",
+        "id": "spanish-c1-retorica-publica-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Cuál es el propósito principal del audio?",
+            "prompt": "En «Escucha · De empleado a emprendedor digital: una historia de reinvención», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Analizar el tema con evidencia, contexto y matices"
+                "text": "Cuando Lucía dejó un empleo estable para crear su propia tienda digital, no estaba buscando una historia de éxito rápido."
               },
               {
                 "id": "o2",
-                "text": "Memorizar una lista sin relación con la unidad"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Contar una historia sin conexión con el Reading"
+                "text": "Aunque «reinventarse» parece una decisión individual, conviene considerar «incertidumbre» y «proyecto»."
               },
               {
                 "id": "o4",
-                "text": "Dar una única respuesta definitiva"
+                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+            "prompt": "Después de «Cuando Lucía dejó un empleo estable para crear su propia tienda…», ¿qué sucede a continuación en «Escucha · De empleado a emprendedor digital: una historia de reinvención»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Aceptarla de inmediato"
+                "text": "Cuando Lucía dejó un empleo estable para crear su propia tienda digital, no estaba buscando una historia de éxito rápido."
               },
               {
                 "id": "o2",
-                "text": "Preguntar por fuentes, personas afectadas y consecuencias"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Evitar toda comparación"
+                "text": "Aunque «reinventarse» parece una decisión individual, conviene considerar «incertidumbre» y «proyecto»."
               },
               {
                 "id": "o4",
-                "text": "Copiarla sin revisar"
+                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Para qué se usa la gramática de la unidad?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · De empleado a emprendedor digital: una historia de reinvención»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Para eliminar toda postura"
+                "text": "Cuando Lucía dejó un empleo estable para crear su propia tienda digital, no estaba buscando una historia de éxito rápido."
               },
               {
                 "id": "o2",
-                "text": "Para repetir palabras aisladas"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Para formular una idea con precisión y reservas"
+                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
               },
               {
                 "id": "o4",
-                "text": "Para evitar reconocer límites"
+                "text": "Aunque «reinventarse» parece una decisión individual, conviene considerar «incertidumbre» y «proyecto»."
               }
             ]
           },
           {
-            "id": "l4",
+            "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué pregunta final propone el audio?",
+            "prompt": "¿Qué resultado cierra «Escucha · De empleado a emprendedor digital: una historia de reinvención» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Qué aplicación es más rápida"
+                "text": "Cuando Lucía dejó un empleo estable para crear su propia tienda digital, no estaba buscando una historia de éxito rápido."
               },
               {
                 "id": "o2",
-                "text": "Cómo evitar cualquier debate"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Qué palabra es más difícil de pronunciar"
+                "text": "Aunque «reinventarse» parece una decisión individual, conviene considerar «incertidumbre» y «proyecto»."
               },
               {
                 "id": "o4",
-                "text": "Qué evidencia sostendría o modificaría una postura"
+                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
               }
             ]
           }
@@ -5875,47 +5867,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal del audio?",
+        "prompt": "En «Escucha · De empleado a emprendedor digital: una historia de reinvención», ¿qué detalle presenta la situación?",
         "options": [
-          "Analizar el tema con evidencia, contexto y matices",
-          "Memorizar una lista sin relación con la unidad",
-          "Contar una historia sin conexión con el Reading",
-          "Dar una única respuesta definitiva"
-        ],
-        "explanation": "El audio adapta el Reading para analizarlo de forma crítica."
+          "Cuando Lucía dejó un empleo estable para crear su propia tienda digital, no estaba buscando una historia de éxito rápido.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Aunque «reinventarse» parece una decisión individual, conviene considerar «incertidumbre» y «proyecto».",
+          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+        "prompt": "Después de «Cuando Lucía dejó un empleo estable para crear su propia tienda…», ¿qué sucede a continuación en «Escucha · De empleado a emprendedor digital: una historia de reinvención»?",
         "options": [
-          "Aceptarla de inmediato",
-          "Preguntar por fuentes, personas afectadas y consecuencias",
-          "Evitar toda comparación",
-          "Copiarla sin revisar"
-        ],
-        "explanation": "El audio insiste en comprobar el origen, el impacto y el contexto de la información."
+          "Cuando Lucía dejó un empleo estable para crear su propia tienda digital, no estaba buscando una historia de éxito rápido.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Aunque «reinventarse» parece una decisión individual, conviene considerar «incertidumbre» y «proyecto».",
+          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Para qué se usa la gramática de la unidad?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · De empleado a emprendedor digital: una historia de reinvención»?",
         "options": [
-          "Para eliminar toda postura",
-          "Para repetir palabras aisladas",
-          "Para formular una idea con precisión y reservas",
-          "Para evitar reconocer límites"
-        ],
-        "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
+          "Cuando Lucía dejó un empleo estable para crear su propia tienda digital, no estaba buscando una historia de éxito rápido.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
+          "Aunque «reinventarse» parece una decisión individual, conviene considerar «incertidumbre» y «proyecto»."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué pregunta final propone el audio?",
+        "prompt": "¿Qué resultado cierra «Escucha · De empleado a emprendedor digital: una historia de reinvención» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
         "options": [
-          "Qué aplicación es más rápida",
-          "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar",
-          "Qué evidencia sostendría o modificaría una postura"
-        ],
-        "explanation": "La pregunta final invita a justificar y revisar una conclusión."
+          "Cuando Lucía dejó un empleo estable para crear su propia tienda digital, no estaba buscando una historia de éxito rápido.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Aunque «reinventarse» parece una decisión individual, conviene considerar «incertidumbre» y «proyecto».",
+          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+        ]
       }
     ]
   },
@@ -5952,98 +5940,98 @@
       ],
       "transcript": "Dentro de una empresa de inteligencia artificial, la promesa de lanzar antes que la competencia convive con conversaciones mucho menos visibles: qué datos se aceptan, qué errores son tolerables y quién responde cuando el sistema falla. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «modelo», «entrenamiento» y «datos». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «modelo» parece una decisión individual, conviene considerar «entrenamiento» y «datos». Desde esta perspectiva, interpretar innovación, competencia y responsabilidad desde dentro no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal.",
       "listeningComprehension": {
-        "id": "spanish-c2-humor-e-ironia-listening-comprehension",
+        "id": "spanish-c2-humor-e-ironia-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Cuál es el propósito principal del audio?",
+            "prompt": "En «Escucha · Dentro de una empresa de inteligencia artificial», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Analizar el tema con evidencia, contexto y matices"
+                "text": "Dentro de una empresa de inteligencia artificial, la promesa de lanzar antes que la competencia convive con conversaciones mucho menos visibles: qué datos se aceptan, qué errores son tolerables y quién responde cuando el sistema falla."
               },
               {
                 "id": "o2",
-                "text": "Memorizar una lista sin relación con la unidad"
+                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
               },
               {
                 "id": "o3",
-                "text": "Contar una historia sin conexión con el Reading"
+                "text": "Desde esta perspectiva, interpretar innovación, competencia y responsabilidad desde dentro no consiste en repetir una conclusión."
               },
               {
                 "id": "o4",
-                "text": "Dar una única respuesta definitiva"
+                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+            "prompt": "Después de «Dentro de una empresa de inteligencia artificial, la promesa de lanzar…», ¿qué sucede a continuación en «Escucha · Dentro de una empresa de inteligencia artificial»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Aceptarla de inmediato"
+                "text": "Dentro de una empresa de inteligencia artificial, la promesa de lanzar antes que la competencia convive con conversaciones mucho menos visibles: qué datos se aceptan, qué errores son tolerables y quién responde cuando el sistema falla."
               },
               {
                 "id": "o2",
-                "text": "Preguntar por fuentes, personas afectadas y consecuencias"
+                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
               },
               {
                 "id": "o3",
-                "text": "Evitar toda comparación"
+                "text": "Desde esta perspectiva, interpretar innovación, competencia y responsabilidad desde dentro no consiste en repetir una conclusión."
               },
               {
                 "id": "o4",
-                "text": "Copiarla sin revisar"
+                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Para qué se usa la gramática de la unidad?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Dentro de una empresa de inteligencia artificial»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Para eliminar toda postura"
+                "text": "Dentro de una empresa de inteligencia artificial, la promesa de lanzar antes que la competencia convive con conversaciones mucho menos visibles: qué datos se aceptan, qué errores son tolerables y quién responde cuando el sistema falla."
               },
               {
                 "id": "o2",
-                "text": "Para repetir palabras aisladas"
+                "text": "Desde esta perspectiva, interpretar innovación, competencia y responsabilidad desde dentro no consiste en repetir una conclusión."
               },
               {
                 "id": "o3",
-                "text": "Para formular una idea con precisión y reservas"
+                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
               },
               {
                 "id": "o4",
-                "text": "Para evitar reconocer límites"
+                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
               }
             ]
           },
           {
-            "id": "l4",
+            "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué pregunta final propone el audio?",
+            "prompt": "¿Qué resultado cierra «Escucha · Dentro de una empresa de inteligencia artificial» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Qué aplicación es más rápida"
+                "text": "Dentro de una empresa de inteligencia artificial, la promesa de lanzar antes que la competencia convive con conversaciones mucho menos visibles: qué datos se aceptan, qué errores son tolerables y quién responde cuando el sistema falla."
               },
               {
                 "id": "o2",
-                "text": "Cómo evitar cualquier debate"
+                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
               },
               {
                 "id": "o3",
-                "text": "Qué palabra es más difícil de pronunciar"
+                "text": "Desde esta perspectiva, interpretar innovación, competencia y responsabilidad desde dentro no consiste en repetir una conclusión."
               },
               {
                 "id": "o4",
-                "text": "Qué evidencia sostendría o modificaría una postura"
+                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
               }
             ]
           }
@@ -6054,47 +6042,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal del audio?",
+        "prompt": "En «Escucha · Dentro de una empresa de inteligencia artificial», ¿qué detalle presenta la situación?",
         "options": [
-          "Analizar el tema con evidencia, contexto y matices",
-          "Memorizar una lista sin relación con la unidad",
-          "Contar una historia sin conexión con el Reading",
-          "Dar una única respuesta definitiva"
-        ],
-        "explanation": "El audio adapta el Reading para analizarlo de forma crítica."
+          "Dentro de una empresa de inteligencia artificial, la promesa de lanzar antes que la competencia convive con conversaciones mucho menos visibles: qué datos se aceptan, qué errores son tolerables y quién responde cuando el sistema falla.",
+          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
+          "Desde esta perspectiva, interpretar innovación, competencia y responsabilidad desde dentro no consiste en repetir una conclusión.",
+          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+        "prompt": "Después de «Dentro de una empresa de inteligencia artificial, la promesa de lanzar…», ¿qué sucede a continuación en «Escucha · Dentro de una empresa de inteligencia artificial»?",
         "options": [
-          "Aceptarla de inmediato",
-          "Preguntar por fuentes, personas afectadas y consecuencias",
-          "Evitar toda comparación",
-          "Copiarla sin revisar"
-        ],
-        "explanation": "El audio insiste en comprobar el origen, el impacto y el contexto de la información."
+          "Dentro de una empresa de inteligencia artificial, la promesa de lanzar antes que la competencia convive con conversaciones mucho menos visibles: qué datos se aceptan, qué errores son tolerables y quién responde cuando el sistema falla.",
+          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
+          "Desde esta perspectiva, interpretar innovación, competencia y responsabilidad desde dentro no consiste en repetir una conclusión.",
+          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Para qué se usa la gramática de la unidad?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Dentro de una empresa de inteligencia artificial»?",
         "options": [
-          "Para eliminar toda postura",
-          "Para repetir palabras aisladas",
-          "Para formular una idea con precisión y reservas",
-          "Para evitar reconocer límites"
-        ],
-        "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
+          "Dentro de una empresa de inteligencia artificial, la promesa de lanzar antes que la competencia convive con conversaciones mucho menos visibles: qué datos se aceptan, qué errores son tolerables y quién responde cuando el sistema falla.",
+          "Desde esta perspectiva, interpretar innovación, competencia y responsabilidad desde dentro no consiste en repetir una conclusión.",
+          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
+          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué pregunta final propone el audio?",
+        "prompt": "¿Qué resultado cierra «Escucha · Dentro de una empresa de inteligencia artificial» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
         "options": [
-          "Qué aplicación es más rápida",
-          "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar",
-          "Qué evidencia sostendría o modificaría una postura"
-        ],
-        "explanation": "La pregunta final invita a justificar y revisar una conclusión."
+          "Dentro de una empresa de inteligencia artificial, la promesa de lanzar antes que la competencia convive con conversaciones mucho menos visibles: qué datos se aceptan, qué errores son tolerables y quién responde cuando el sistema falla.",
+          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
+          "Desde esta perspectiva, interpretar innovación, competencia y responsabilidad desde dentro no consiste en repetir una conclusión.",
+          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+        ]
       }
     ]
   },
@@ -9745,98 +9729,98 @@
       ],
       "transcript": "A las ocho de la mañana, una ciudad entera descubrió que Internet había desaparecido. No funcionaban los pagos, las clases virtuales ni los mensajes; en pocas horas, una comodidad invisible se convirtió en una infraestructura esencial. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «conexión», «colapso» y «infraestructura». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «conexión» parece una decisión individual, conviene considerar «colapso» y «infraestructura». Desde esta perspectiva, relacionar dependencia digital, servicios esenciales y respuestas colectivas no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.",
       "listeningComprehension": {
-        "id": "spanish-c1-periodismo-de-investigacion-listening-comprehension",
+        "id": "spanish-c1-periodismo-de-investigacion-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Cuál es el propósito principal del audio?",
+            "prompt": "En «Escucha · El día que Internet desapareció durante 24 horas», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Analizar el tema con evidencia, contexto y matices"
+                "text": "A las ocho de la mañana, una ciudad entera descubrió que Internet había desaparecido."
               },
               {
                 "id": "o2",
-                "text": "Memorizar una lista sin relación con la unidad"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Contar una historia sin conexión con el Reading"
+                "text": "Aunque «conexión» parece una decisión individual, conviene considerar «colapso» y «infraestructura»."
               },
               {
                 "id": "o4",
-                "text": "Dar una única respuesta definitiva"
+                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+            "prompt": "Después de «A las ocho de la mañana, una ciudad entera descubrió que Internet…», ¿qué sucede a continuación en «Escucha · El día que Internet desapareció durante 24 horas»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Aceptarla de inmediato"
+                "text": "A las ocho de la mañana, una ciudad entera descubrió que Internet había desaparecido."
               },
               {
                 "id": "o2",
-                "text": "Preguntar por fuentes, personas afectadas y consecuencias"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Evitar toda comparación"
+                "text": "Aunque «conexión» parece una decisión individual, conviene considerar «colapso» y «infraestructura»."
               },
               {
                 "id": "o4",
-                "text": "Copiarla sin revisar"
+                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Para qué se usa la gramática de la unidad?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · El día que Internet desapareció durante 24 horas»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Para eliminar toda postura"
+                "text": "A las ocho de la mañana, una ciudad entera descubrió que Internet había desaparecido."
               },
               {
                 "id": "o2",
-                "text": "Para repetir palabras aisladas"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Para formular una idea con precisión y reservas"
+                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
               },
               {
                 "id": "o4",
-                "text": "Para evitar reconocer límites"
+                "text": "Aunque «conexión» parece una decisión individual, conviene considerar «colapso» y «infraestructura»."
               }
             ]
           },
           {
-            "id": "l4",
+            "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué pregunta final propone el audio?",
+            "prompt": "¿Qué resultado cierra «Escucha · El día que Internet desapareció durante 24 horas» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Qué aplicación es más rápida"
+                "text": "A las ocho de la mañana, una ciudad entera descubrió que Internet había desaparecido."
               },
               {
                 "id": "o2",
-                "text": "Cómo evitar cualquier debate"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Qué palabra es más difícil de pronunciar"
+                "text": "Aunque «conexión» parece una decisión individual, conviene considerar «colapso» y «infraestructura»."
               },
               {
                 "id": "o4",
-                "text": "Qué evidencia sostendría o modificaría una postura"
+                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
               }
             ]
           }
@@ -9847,47 +9831,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal del audio?",
+        "prompt": "En «Escucha · El día que Internet desapareció durante 24 horas», ¿qué detalle presenta la situación?",
         "options": [
-          "Analizar el tema con evidencia, contexto y matices",
-          "Memorizar una lista sin relación con la unidad",
-          "Contar una historia sin conexión con el Reading",
-          "Dar una única respuesta definitiva"
-        ],
-        "explanation": "El audio adapta el Reading para analizarlo de forma crítica."
+          "A las ocho de la mañana, una ciudad entera descubrió que Internet había desaparecido.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Aunque «conexión» parece una decisión individual, conviene considerar «colapso» y «infraestructura».",
+          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+        "prompt": "Después de «A las ocho de la mañana, una ciudad entera descubrió que Internet…», ¿qué sucede a continuación en «Escucha · El día que Internet desapareció durante 24 horas»?",
         "options": [
-          "Aceptarla de inmediato",
-          "Preguntar por fuentes, personas afectadas y consecuencias",
-          "Evitar toda comparación",
-          "Copiarla sin revisar"
-        ],
-        "explanation": "El audio insiste en comprobar el origen, el impacto y el contexto de la información."
+          "A las ocho de la mañana, una ciudad entera descubrió que Internet había desaparecido.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Aunque «conexión» parece una decisión individual, conviene considerar «colapso» y «infraestructura».",
+          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Para qué se usa la gramática de la unidad?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · El día que Internet desapareció durante 24 horas»?",
         "options": [
-          "Para eliminar toda postura",
-          "Para repetir palabras aisladas",
-          "Para formular una idea con precisión y reservas",
-          "Para evitar reconocer límites"
-        ],
-        "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
+          "A las ocho de la mañana, una ciudad entera descubrió que Internet había desaparecido.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
+          "Aunque «conexión» parece una decisión individual, conviene considerar «colapso» y «infraestructura»."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué pregunta final propone el audio?",
+        "prompt": "¿Qué resultado cierra «Escucha · El día que Internet desapareció durante 24 horas» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
         "options": [
-          "Qué aplicación es más rápida",
-          "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar",
-          "Qué evidencia sostendría o modificaría una postura"
-        ],
-        "explanation": "La pregunta final invita a justificar y revisar una conclusión."
+          "A las ocho de la mañana, una ciudad entera descubrió que Internet había desaparecido.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Aunque «conexión» parece una decisión individual, conviene considerar «colapso» y «infraestructura».",
+          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+        ]
       }
     ]
   },
@@ -9924,98 +9904,98 @@
       ],
       "transcript": "Un corresponsal de guerra aprende pronto que la cámara no registra todo. Hay escenas que no se filman por seguridad, fuentes que no pueden ser nombradas y silencios que también forman parte de la historia. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «corresponsal», «conflicto» y «testimonio». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «corresponsal» parece una decisión individual, conviene considerar «conflicto» y «testimonio». Desde esta perspectiva, distinguir testimonio, censura, seguridad y responsabilidad periodística no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación.",
       "listeningComprehension": {
-        "id": "spanish-c2-traduccion-y-mediacion-listening-comprehension",
+        "id": "spanish-c2-traduccion-y-mediacion-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Cuál es el propósito principal del audio?",
+            "prompt": "En «Escucha · Un corresponsal de guerra cuenta lo que nunca salió en televisión», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Analizar el tema con evidencia, contexto y matices"
+                "text": "Un corresponsal de guerra aprende pronto que la cámara no registra todo."
               },
               {
                 "id": "o2",
-                "text": "Memorizar una lista sin relación con la unidad"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Contar una historia sin conexión con el Reading"
+                "text": "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos."
               },
               {
                 "id": "o4",
-                "text": "Dar una única respuesta definitiva"
+                "text": "Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+            "prompt": "Después de «Un corresponsal de guerra aprende pronto que la cámara no registra todo.», ¿qué sucede a continuación en «Escucha · Un corresponsal de guerra cuenta lo que nunca salió en televisión»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Aceptarla de inmediato"
+                "text": "Un corresponsal de guerra aprende pronto que la cámara no registra todo."
               },
               {
                 "id": "o2",
-                "text": "Preguntar por fuentes, personas afectadas y consecuencias"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Evitar toda comparación"
+                "text": "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos."
               },
               {
                 "id": "o4",
-                "text": "Copiarla sin revisar"
+                "text": "Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Para qué se usa la gramática de la unidad?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Un corresponsal de guerra cuenta lo que nunca salió en televisión»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Para eliminar toda postura"
+                "text": "Un corresponsal de guerra aprende pronto que la cámara no registra todo."
               },
               {
                 "id": "o2",
-                "text": "Para repetir palabras aisladas"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Para formular una idea con precisión y reservas"
+                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
               },
               {
                 "id": "o4",
-                "text": "Para evitar reconocer límites"
+                "text": "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos."
               }
             ]
           },
           {
-            "id": "l4",
+            "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué pregunta final propone el audio?",
+            "prompt": "¿Qué resultado cierra «Escucha · Un corresponsal de guerra cuenta lo que nunca salió en televisión» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Qué aplicación es más rápida"
+                "text": "Un corresponsal de guerra aprende pronto que la cámara no registra todo."
               },
               {
                 "id": "o2",
-                "text": "Cómo evitar cualquier debate"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Qué palabra es más difícil de pronunciar"
+                "text": "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos."
               },
               {
                 "id": "o4",
-                "text": "Qué evidencia sostendría o modificaría una postura"
+                "text": "Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación."
               }
             ]
           }
@@ -10026,47 +10006,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal del audio?",
+        "prompt": "En «Escucha · Un corresponsal de guerra cuenta lo que nunca salió en televisión», ¿qué detalle presenta la situación?",
         "options": [
-          "Analizar el tema con evidencia, contexto y matices",
-          "Memorizar una lista sin relación con la unidad",
-          "Contar una historia sin conexión con el Reading",
-          "Dar una única respuesta definitiva"
-        ],
-        "explanation": "El audio adapta el Reading para analizarlo de forma crítica."
+          "Un corresponsal de guerra aprende pronto que la cámara no registra todo.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos.",
+          "Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+        "prompt": "Después de «Un corresponsal de guerra aprende pronto que la cámara no registra todo.», ¿qué sucede a continuación en «Escucha · Un corresponsal de guerra cuenta lo que nunca salió en televisión»?",
         "options": [
-          "Aceptarla de inmediato",
-          "Preguntar por fuentes, personas afectadas y consecuencias",
-          "Evitar toda comparación",
-          "Copiarla sin revisar"
-        ],
-        "explanation": "El audio insiste en comprobar el origen, el impacto y el contexto de la información."
+          "Un corresponsal de guerra aprende pronto que la cámara no registra todo.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos.",
+          "Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Para qué se usa la gramática de la unidad?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Un corresponsal de guerra cuenta lo que nunca salió en televisión»?",
         "options": [
-          "Para eliminar toda postura",
-          "Para repetir palabras aisladas",
-          "Para formular una idea con precisión y reservas",
-          "Para evitar reconocer límites"
-        ],
-        "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
+          "Un corresponsal de guerra aprende pronto que la cámara no registra todo.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
+          "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué pregunta final propone el audio?",
+        "prompt": "¿Qué resultado cierra «Escucha · Un corresponsal de guerra cuenta lo que nunca salió en televisión» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
         "options": [
-          "Qué aplicación es más rápida",
-          "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar",
-          "Qué evidencia sostendría o modificaría una postura"
-        ],
-        "explanation": "La pregunta final invita a justificar y revisar una conclusión."
+          "Un corresponsal de guerra aprende pronto que la cámara no registra todo.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos.",
+          "Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación."
+        ]
       }
     ]
   },
@@ -13715,98 +13691,98 @@
       ],
       "transcript": "Vivir fuera durante un año no le enseñó a Sofía una versión mejor del mundo, sino una versión más compleja. Las costumbres que antes le parecían naturales empezaron a revelar cuánto depende nuestra mirada del lugar desde el que hablamos. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «desarraigo», «costumbre» y «pertenencia». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Es importante que la comunidad considere «desarraigo» antes de conocer un testimonio de adaptación cultural y distancia emocional. Desde esta perspectiva, reconocer cómo la experiencia intercultural modifica certezas y pertenencias no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.",
       "listeningComprehension": {
-        "id": "spanish-c1-justicia-y-reparacion-listening-comprehension",
+        "id": "spanish-c1-justicia-y-reparacion-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Cuál es el propósito principal del audio?",
+            "prompt": "En «Escucha · Vivir un año en otro país cambió mi forma de ver el mundo», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Analizar el tema con evidencia, contexto y matices"
+                "text": "Vivir fuera durante un año no le enseñó a Sofía una versión mejor del mundo, sino una versión más compleja."
               },
               {
                 "id": "o2",
-                "text": "Memorizar una lista sin relación con la unidad"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Contar una historia sin conexión con el Reading"
+                "text": "Es importante que la comunidad considere «desarraigo» antes de conocer un testimonio de adaptación cultural y distancia emocional."
               },
               {
                 "id": "o4",
-                "text": "Dar una única respuesta definitiva"
+                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+            "prompt": "Después de «Vivir fuera durante un año no le enseñó a Sofía una versión mejor del…», ¿qué sucede a continuación en «Escucha · Vivir un año en otro país cambió mi forma de ver el mundo»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Aceptarla de inmediato"
+                "text": "Vivir fuera durante un año no le enseñó a Sofía una versión mejor del mundo, sino una versión más compleja."
               },
               {
                 "id": "o2",
-                "text": "Preguntar por fuentes, personas afectadas y consecuencias"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Evitar toda comparación"
+                "text": "Es importante que la comunidad considere «desarraigo» antes de conocer un testimonio de adaptación cultural y distancia emocional."
               },
               {
                 "id": "o4",
-                "text": "Copiarla sin revisar"
+                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Para qué se usa la gramática de la unidad?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Vivir un año en otro país cambió mi forma de ver el mundo»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Para eliminar toda postura"
+                "text": "Vivir fuera durante un año no le enseñó a Sofía una versión mejor del mundo, sino una versión más compleja."
               },
               {
                 "id": "o2",
-                "text": "Para repetir palabras aisladas"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Para formular una idea con precisión y reservas"
+                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
               },
               {
                 "id": "o4",
-                "text": "Para evitar reconocer límites"
+                "text": "Es importante que la comunidad considere «desarraigo» antes de conocer un testimonio de adaptación cultural y distancia emocional."
               }
             ]
           },
           {
-            "id": "l4",
+            "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué pregunta final propone el audio?",
+            "prompt": "¿Qué resultado cierra «Escucha · Vivir un año en otro país cambió mi forma de ver el mundo» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Qué aplicación es más rápida"
+                "text": "Vivir fuera durante un año no le enseñó a Sofía una versión mejor del mundo, sino una versión más compleja."
               },
               {
                 "id": "o2",
-                "text": "Cómo evitar cualquier debate"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Qué palabra es más difícil de pronunciar"
+                "text": "Es importante que la comunidad considere «desarraigo» antes de conocer un testimonio de adaptación cultural y distancia emocional."
               },
               {
                 "id": "o4",
-                "text": "Qué evidencia sostendría o modificaría una postura"
+                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
               }
             ]
           }
@@ -13817,47 +13793,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal del audio?",
+        "prompt": "En «Escucha · Vivir un año en otro país cambió mi forma de ver el mundo», ¿qué detalle presenta la situación?",
         "options": [
-          "Analizar el tema con evidencia, contexto y matices",
-          "Memorizar una lista sin relación con la unidad",
-          "Contar una historia sin conexión con el Reading",
-          "Dar una única respuesta definitiva"
-        ],
-        "explanation": "El audio adapta el Reading para analizarlo de forma crítica."
+          "Vivir fuera durante un año no le enseñó a Sofía una versión mejor del mundo, sino una versión más compleja.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Es importante que la comunidad considere «desarraigo» antes de conocer un testimonio de adaptación cultural y distancia emocional.",
+          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+        "prompt": "Después de «Vivir fuera durante un año no le enseñó a Sofía una versión mejor del…», ¿qué sucede a continuación en «Escucha · Vivir un año en otro país cambió mi forma de ver el mundo»?",
         "options": [
-          "Aceptarla de inmediato",
-          "Preguntar por fuentes, personas afectadas y consecuencias",
-          "Evitar toda comparación",
-          "Copiarla sin revisar"
-        ],
-        "explanation": "El audio insiste en comprobar el origen, el impacto y el contexto de la información."
+          "Vivir fuera durante un año no le enseñó a Sofía una versión mejor del mundo, sino una versión más compleja.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Es importante que la comunidad considere «desarraigo» antes de conocer un testimonio de adaptación cultural y distancia emocional.",
+          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Para qué se usa la gramática de la unidad?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Vivir un año en otro país cambió mi forma de ver el mundo»?",
         "options": [
-          "Para eliminar toda postura",
-          "Para repetir palabras aisladas",
-          "Para formular una idea con precisión y reservas",
-          "Para evitar reconocer límites"
-        ],
-        "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
+          "Vivir fuera durante un año no le enseñó a Sofía una versión mejor del mundo, sino una versión más compleja.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
+          "Es importante que la comunidad considere «desarraigo» antes de conocer un testimonio de adaptación cultural y distancia emocional."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué pregunta final propone el audio?",
+        "prompt": "¿Qué resultado cierra «Escucha · Vivir un año en otro país cambió mi forma de ver el mundo» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
         "options": [
-          "Qué aplicación es más rápida",
-          "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar",
-          "Qué evidencia sostendría o modificaría una postura"
-        ],
-        "explanation": "La pregunta final invita a justificar y revisar una conclusión."
+          "Vivir fuera durante un año no le enseñó a Sofía una versión mejor del mundo, sino una versión más compleja.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Es importante que la comunidad considere «desarraigo» antes de conocer un testimonio de adaptación cultural y distancia emocional.",
+          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+        ]
       }
     ]
   },
@@ -13894,98 +13866,98 @@
       ],
       "transcript": "La nueva carrera hacia Marte se presenta como un triunfo de la ciencia, pero también reúne intereses empresariales, rivalidades nacionales y una palabra incómoda: conquista. Nombrar así el proyecto cambia la forma de imaginar su futuro. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «misión», «órbita» y «exploración». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «misión» parece una decisión individual, conviene considerar «órbita» y «exploración». Desde esta perspectiva, cuestionar la idea de conquista y sus implicaciones éticas no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal.",
       "listeningComprehension": {
-        "id": "spanish-c2-filosofia-del-lenguaje-listening-comprehension",
+        "id": "spanish-c2-filosofia-del-lenguaje-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Cuál es el propósito principal del audio?",
+            "prompt": "En «Escucha · La nueva carrera espacial: ¿quién conquistará Marte primero?», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Analizar el tema con evidencia, contexto y matices"
+                "text": "La nueva carrera hacia Marte se presenta como un triunfo de la ciencia, pero también reúne intereses empresariales, rivalidades nacionales y una palabra incómoda: conquista."
               },
               {
                 "id": "o2",
-                "text": "Memorizar una lista sin relación con la unidad"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Contar una historia sin conexión con el Reading"
+                "text": "Desde esta perspectiva, cuestionar la idea de conquista y sus implicaciones éticas no consiste en repetir una conclusión."
               },
               {
                 "id": "o4",
-                "text": "Dar una única respuesta definitiva"
+                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+            "prompt": "Después de «La nueva carrera hacia Marte se presenta como un triunfo de la…», ¿qué sucede a continuación en «Escucha · La nueva carrera espacial: ¿quién conquistará Marte primero?»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Aceptarla de inmediato"
+                "text": "La nueva carrera hacia Marte se presenta como un triunfo de la ciencia, pero también reúne intereses empresariales, rivalidades nacionales y una palabra incómoda: conquista."
               },
               {
                 "id": "o2",
-                "text": "Preguntar por fuentes, personas afectadas y consecuencias"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Evitar toda comparación"
+                "text": "Desde esta perspectiva, cuestionar la idea de conquista y sus implicaciones éticas no consiste en repetir una conclusión."
               },
               {
                 "id": "o4",
-                "text": "Copiarla sin revisar"
+                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Para qué se usa la gramática de la unidad?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · La nueva carrera espacial: ¿quién conquistará Marte primero?»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Para eliminar toda postura"
+                "text": "La nueva carrera hacia Marte se presenta como un triunfo de la ciencia, pero también reúne intereses empresariales, rivalidades nacionales y una palabra incómoda: conquista."
               },
               {
                 "id": "o2",
-                "text": "Para repetir palabras aisladas"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Para formular una idea con precisión y reservas"
+                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
               },
               {
                 "id": "o4",
-                "text": "Para evitar reconocer límites"
+                "text": "Desde esta perspectiva, cuestionar la idea de conquista y sus implicaciones éticas no consiste en repetir una conclusión."
               }
             ]
           },
           {
-            "id": "l4",
+            "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué pregunta final propone el audio?",
+            "prompt": "¿Qué resultado cierra «Escucha · La nueva carrera espacial: ¿quién conquistará Marte primero?» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Qué aplicación es más rápida"
+                "text": "La nueva carrera hacia Marte se presenta como un triunfo de la ciencia, pero también reúne intereses empresariales, rivalidades nacionales y una palabra incómoda: conquista."
               },
               {
                 "id": "o2",
-                "text": "Cómo evitar cualquier debate"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Qué palabra es más difícil de pronunciar"
+                "text": "Desde esta perspectiva, cuestionar la idea de conquista y sus implicaciones éticas no consiste en repetir una conclusión."
               },
               {
                 "id": "o4",
-                "text": "Qué evidencia sostendría o modificaría una postura"
+                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
               }
             ]
           }
@@ -13996,47 +13968,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal del audio?",
+        "prompt": "En «Escucha · La nueva carrera espacial: ¿quién conquistará Marte primero?», ¿qué detalle presenta la situación?",
         "options": [
-          "Analizar el tema con evidencia, contexto y matices",
-          "Memorizar una lista sin relación con la unidad",
-          "Contar una historia sin conexión con el Reading",
-          "Dar una única respuesta definitiva"
-        ],
-        "explanation": "El audio adapta el Reading para analizarlo de forma crítica."
+          "La nueva carrera hacia Marte se presenta como un triunfo de la ciencia, pero también reúne intereses empresariales, rivalidades nacionales y una palabra incómoda: conquista.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Desde esta perspectiva, cuestionar la idea de conquista y sus implicaciones éticas no consiste en repetir una conclusión.",
+          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+        "prompt": "Después de «La nueva carrera hacia Marte se presenta como un triunfo de la…», ¿qué sucede a continuación en «Escucha · La nueva carrera espacial: ¿quién conquistará Marte primero?»?",
         "options": [
-          "Aceptarla de inmediato",
-          "Preguntar por fuentes, personas afectadas y consecuencias",
-          "Evitar toda comparación",
-          "Copiarla sin revisar"
-        ],
-        "explanation": "El audio insiste en comprobar el origen, el impacto y el contexto de la información."
+          "La nueva carrera hacia Marte se presenta como un triunfo de la ciencia, pero también reúne intereses empresariales, rivalidades nacionales y una palabra incómoda: conquista.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Desde esta perspectiva, cuestionar la idea de conquista y sus implicaciones éticas no consiste en repetir una conclusión.",
+          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Para qué se usa la gramática de la unidad?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · La nueva carrera espacial: ¿quién conquistará Marte primero?»?",
         "options": [
-          "Para eliminar toda postura",
-          "Para repetir palabras aisladas",
-          "Para formular una idea con precisión y reservas",
-          "Para evitar reconocer límites"
-        ],
-        "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
+          "La nueva carrera hacia Marte se presenta como un triunfo de la ciencia, pero también reúne intereses empresariales, rivalidades nacionales y una palabra incómoda: conquista.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
+          "Desde esta perspectiva, cuestionar la idea de conquista y sus implicaciones éticas no consiste en repetir una conclusión."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué pregunta final propone el audio?",
+        "prompt": "¿Qué resultado cierra «Escucha · La nueva carrera espacial: ¿quién conquistará Marte primero?» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
         "options": [
-          "Qué aplicación es más rápida",
-          "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar",
-          "Qué evidencia sostendría o modificaría una postura"
-        ],
-        "explanation": "La pregunta final invita a justificar y revisar una conclusión."
+          "La nueva carrera hacia Marte se presenta como un triunfo de la ciencia, pero también reúne intereses empresariales, rivalidades nacionales y una palabra incómoda: conquista.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Desde esta perspectiva, cuestionar la idea de conquista y sus implicaciones éticas no consiste en repetir una conclusión.",
+          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+        ]
       }
     ]
   },
@@ -17680,98 +17648,98 @@
       ],
       "transcript": "Hay personas que reciben un ascenso, terminan un proyecto difícil o son felicitadas por su trabajo y, aun así, creen que en cualquier momento alguien descubrirá que no merecían estar allí. Ese contraste tiene un nombre: síndrome del impostor. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «autoexigencia», «mérito» y «inseguridad». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Si existieran más apoyos, muchas personas podrían afrontar «autoexigencia» de otra manera. Desde esta perspectiva, distinguir autoexigencia, inseguridad y evaluación realista no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla. La idea final es clara: hablar de ¿por qué sufrimos el síndrome del impostor?",
       "listeningComprehension": {
-        "id": "spanish-c1-innovacion-responsable-listening-comprehension",
+        "id": "spanish-c1-innovacion-responsable-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Cuál es el propósito principal del audio?",
+            "prompt": "En «Escucha · ¿Por qué sufrimos el síndrome del impostor?», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Analizar el tema con evidencia, contexto y matices"
+                "text": "Hay personas que reciben un ascenso, terminan un proyecto difícil o son felicitadas por su trabajo y, aun así, creen que en cualquier momento alguien descubrirá que no merecían estar allí."
               },
               {
                 "id": "o2",
-                "text": "Memorizar una lista sin relación con la unidad"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Contar una historia sin conexión con el Reading"
+                "text": "Desde esta perspectiva, distinguir autoexigencia, inseguridad y evaluación realista no consiste en repetir una conclusión."
               },
               {
                 "id": "o4",
-                "text": "Dar una única respuesta definitiva"
+                "text": "La idea final es clara: hablar de ¿por qué sufrimos el síndrome del impostor?"
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+            "prompt": "Después de «Hay personas que reciben un ascenso, terminan un proyecto difícil o…», ¿qué sucede a continuación en «Escucha · ¿Por qué sufrimos el síndrome del impostor?»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Aceptarla de inmediato"
+                "text": "Hay personas que reciben un ascenso, terminan un proyecto difícil o son felicitadas por su trabajo y, aun así, creen que en cualquier momento alguien descubrirá que no merecían estar allí."
               },
               {
                 "id": "o2",
-                "text": "Preguntar por fuentes, personas afectadas y consecuencias"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Evitar toda comparación"
+                "text": "Desde esta perspectiva, distinguir autoexigencia, inseguridad y evaluación realista no consiste en repetir una conclusión."
               },
               {
                 "id": "o4",
-                "text": "Copiarla sin revisar"
+                "text": "La idea final es clara: hablar de ¿por qué sufrimos el síndrome del impostor?"
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Para qué se usa la gramática de la unidad?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · ¿Por qué sufrimos el síndrome del impostor?»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Para eliminar toda postura"
+                "text": "Hay personas que reciben un ascenso, terminan un proyecto difícil o son felicitadas por su trabajo y, aun así, creen que en cualquier momento alguien descubrirá que no merecían estar allí."
               },
               {
                 "id": "o2",
-                "text": "Para repetir palabras aisladas"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Para formular una idea con precisión y reservas"
+                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
               },
               {
                 "id": "o4",
-                "text": "Para evitar reconocer límites"
+                "text": "Desde esta perspectiva, distinguir autoexigencia, inseguridad y evaluación realista no consiste en repetir una conclusión."
               }
             ]
           },
           {
-            "id": "l4",
+            "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué pregunta final propone el audio?",
+            "prompt": "¿Qué resultado cierra «Escucha · ¿Por qué sufrimos el síndrome del impostor?» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Qué aplicación es más rápida"
+                "text": "Hay personas que reciben un ascenso, terminan un proyecto difícil o son felicitadas por su trabajo y, aun así, creen que en cualquier momento alguien descubrirá que no merecían estar allí."
               },
               {
                 "id": "o2",
-                "text": "Cómo evitar cualquier debate"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Qué palabra es más difícil de pronunciar"
+                "text": "Desde esta perspectiva, distinguir autoexigencia, inseguridad y evaluación realista no consiste en repetir una conclusión."
               },
               {
                 "id": "o4",
-                "text": "Qué evidencia sostendría o modificaría una postura"
+                "text": "La idea final es clara: hablar de ¿por qué sufrimos el síndrome del impostor?"
               }
             ]
           }
@@ -17782,47 +17750,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal del audio?",
+        "prompt": "En «Escucha · ¿Por qué sufrimos el síndrome del impostor?», ¿qué detalle presenta la situación?",
         "options": [
-          "Analizar el tema con evidencia, contexto y matices",
-          "Memorizar una lista sin relación con la unidad",
-          "Contar una historia sin conexión con el Reading",
-          "Dar una única respuesta definitiva"
-        ],
-        "explanation": "El audio adapta el Reading para analizarlo de forma crítica."
+          "Hay personas que reciben un ascenso, terminan un proyecto difícil o son felicitadas por su trabajo y, aun así, creen que en cualquier momento alguien descubrirá que no merecían estar allí.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Desde esta perspectiva, distinguir autoexigencia, inseguridad y evaluación realista no consiste en repetir una conclusión.",
+          "La idea final es clara: hablar de ¿por qué sufrimos el síndrome del impostor?"
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+        "prompt": "Después de «Hay personas que reciben un ascenso, terminan un proyecto difícil o…», ¿qué sucede a continuación en «Escucha · ¿Por qué sufrimos el síndrome del impostor?»?",
         "options": [
-          "Aceptarla de inmediato",
-          "Preguntar por fuentes, personas afectadas y consecuencias",
-          "Evitar toda comparación",
-          "Copiarla sin revisar"
-        ],
-        "explanation": "El audio insiste en comprobar el origen, el impacto y el contexto de la información."
+          "Hay personas que reciben un ascenso, terminan un proyecto difícil o son felicitadas por su trabajo y, aun así, creen que en cualquier momento alguien descubrirá que no merecían estar allí.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Desde esta perspectiva, distinguir autoexigencia, inseguridad y evaluación realista no consiste en repetir una conclusión.",
+          "La idea final es clara: hablar de ¿por qué sufrimos el síndrome del impostor?"
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Para qué se usa la gramática de la unidad?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · ¿Por qué sufrimos el síndrome del impostor?»?",
         "options": [
-          "Para eliminar toda postura",
-          "Para repetir palabras aisladas",
-          "Para formular una idea con precisión y reservas",
-          "Para evitar reconocer límites"
-        ],
-        "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
+          "Hay personas que reciben un ascenso, terminan un proyecto difícil o son felicitadas por su trabajo y, aun así, creen que en cualquier momento alguien descubrirá que no merecían estar allí.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
+          "Desde esta perspectiva, distinguir autoexigencia, inseguridad y evaluación realista no consiste en repetir una conclusión."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué pregunta final propone el audio?",
+        "prompt": "¿Qué resultado cierra «Escucha · ¿Por qué sufrimos el síndrome del impostor?» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
         "options": [
-          "Qué aplicación es más rápida",
-          "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar",
-          "Qué evidencia sostendría o modificaría una postura"
-        ],
-        "explanation": "La pregunta final invita a justificar y revisar una conclusión."
+          "Hay personas que reciben un ascenso, terminan un proyecto difícil o son felicitadas por su trabajo y, aun así, creen que en cualquier momento alguien descubrirá que no merecían estar allí.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Desde esta perspectiva, distinguir autoexigencia, inseguridad y evaluación realista no consiste en repetir una conclusión.",
+          "La idea final es clara: hablar de ¿por qué sufrimos el síndrome del impostor?"
+        ]
       }
     ]
   },
@@ -17859,98 +17823,98 @@
       ],
       "transcript": "Durante un año, Martín no abrió una sola red social. Al principio no sintió libertad, sino el vacío de un hábito: la mano buscaba el teléfono antes de que apareciera una pregunta real que responder. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «desconexión», «notificación» y «atención». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «desconexión» parece una decisión individual, conviene considerar «notificación» y «atención». Desde esta perspectiva, evaluar qué cambia cuando desaparece la exposición permanente no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal.",
       "listeningComprehension": {
-        "id": "spanish-c2-analisis-juridico-listening-comprehension",
+        "id": "spanish-c2-analisis-juridico-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Cuál es el propósito principal del audio?",
+            "prompt": "En «Escucha · Viví un año sin redes sociales: esto fue lo que aprendí», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Analizar el tema con evidencia, contexto y matices"
+                "text": "Durante un año, Martín no abrió una sola red social."
               },
               {
                 "id": "o2",
-                "text": "Memorizar una lista sin relación con la unidad"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Contar una historia sin conexión con el Reading"
+                "text": "Desde esta perspectiva, evaluar qué cambia cuando desaparece la exposición permanente no consiste en repetir una conclusión."
               },
               {
                 "id": "o4",
-                "text": "Dar una única respuesta definitiva"
+                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+            "prompt": "Después de «Durante un año, Martín no abrió una sola red social.», ¿qué sucede a continuación en «Escucha · Viví un año sin redes sociales: esto fue lo que aprendí»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Aceptarla de inmediato"
+                "text": "Durante un año, Martín no abrió una sola red social."
               },
               {
                 "id": "o2",
-                "text": "Preguntar por fuentes, personas afectadas y consecuencias"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Evitar toda comparación"
+                "text": "Desde esta perspectiva, evaluar qué cambia cuando desaparece la exposición permanente no consiste en repetir una conclusión."
               },
               {
                 "id": "o4",
-                "text": "Copiarla sin revisar"
+                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Para qué se usa la gramática de la unidad?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Viví un año sin redes sociales: esto fue lo que aprendí»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Para eliminar toda postura"
+                "text": "Durante un año, Martín no abrió una sola red social."
               },
               {
                 "id": "o2",
-                "text": "Para repetir palabras aisladas"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Para formular una idea con precisión y reservas"
+                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
               },
               {
                 "id": "o4",
-                "text": "Para evitar reconocer límites"
+                "text": "Desde esta perspectiva, evaluar qué cambia cuando desaparece la exposición permanente no consiste en repetir una conclusión."
               }
             ]
           },
           {
-            "id": "l4",
+            "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué pregunta final propone el audio?",
+            "prompt": "¿Qué resultado cierra «Escucha · Viví un año sin redes sociales: esto fue lo que aprendí» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Qué aplicación es más rápida"
+                "text": "Durante un año, Martín no abrió una sola red social."
               },
               {
                 "id": "o2",
-                "text": "Cómo evitar cualquier debate"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Qué palabra es más difícil de pronunciar"
+                "text": "Desde esta perspectiva, evaluar qué cambia cuando desaparece la exposición permanente no consiste en repetir una conclusión."
               },
               {
                 "id": "o4",
-                "text": "Qué evidencia sostendría o modificaría una postura"
+                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
               }
             ]
           }
@@ -17961,47 +17925,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal del audio?",
+        "prompt": "En «Escucha · Viví un año sin redes sociales: esto fue lo que aprendí», ¿qué detalle presenta la situación?",
         "options": [
-          "Analizar el tema con evidencia, contexto y matices",
-          "Memorizar una lista sin relación con la unidad",
-          "Contar una historia sin conexión con el Reading",
-          "Dar una única respuesta definitiva"
-        ],
-        "explanation": "El audio adapta el Reading para analizarlo de forma crítica."
+          "Durante un año, Martín no abrió una sola red social.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Desde esta perspectiva, evaluar qué cambia cuando desaparece la exposición permanente no consiste en repetir una conclusión.",
+          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+        "prompt": "Después de «Durante un año, Martín no abrió una sola red social.», ¿qué sucede a continuación en «Escucha · Viví un año sin redes sociales: esto fue lo que aprendí»?",
         "options": [
-          "Aceptarla de inmediato",
-          "Preguntar por fuentes, personas afectadas y consecuencias",
-          "Evitar toda comparación",
-          "Copiarla sin revisar"
-        ],
-        "explanation": "El audio insiste en comprobar el origen, el impacto y el contexto de la información."
+          "Durante un año, Martín no abrió una sola red social.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Desde esta perspectiva, evaluar qué cambia cuando desaparece la exposición permanente no consiste en repetir una conclusión.",
+          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Para qué se usa la gramática de la unidad?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Viví un año sin redes sociales: esto fue lo que aprendí»?",
         "options": [
-          "Para eliminar toda postura",
-          "Para repetir palabras aisladas",
-          "Para formular una idea con precisión y reservas",
-          "Para evitar reconocer límites"
-        ],
-        "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
+          "Durante un año, Martín no abrió una sola red social.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
+          "Desde esta perspectiva, evaluar qué cambia cuando desaparece la exposición permanente no consiste en repetir una conclusión."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué pregunta final propone el audio?",
+        "prompt": "¿Qué resultado cierra «Escucha · Viví un año sin redes sociales: esto fue lo que aprendí» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
         "options": [
-          "Qué aplicación es más rápida",
-          "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar",
-          "Qué evidencia sostendría o modificaría una postura"
-        ],
-        "explanation": "La pregunta final invita a justificar y revisar una conclusión."
+          "Durante un año, Martín no abrió una sola red social.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Desde esta perspectiva, evaluar qué cambia cuando desaparece la exposición permanente no consiste en repetir una conclusión.",
+          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+        ]
       }
     ]
   },
@@ -21649,98 +21609,98 @@
       ],
       "transcript": "La empresa empezó en una mesa pequeña y con un prototipo que apenas funcionaba. Lo que la distinguió no fue una idea espectacular, sino haber entendido un problema cotidiano que una industria entera llevaba años ignorando. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «startup», «prototipo» y «inversión». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «startup» parece una decisión individual, conviene considerar «prototipo» y «inversión». Desde esta perspectiva, analizar innovación, oportunidad y transformación de un mercado no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.",
       "listeningComprehension": {
-        "id": "spanish-c1-literatura-y-voz-listening-comprehension",
+        "id": "spanish-c1-literatura-y-voz-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Cuál es el propósito principal del audio?",
+            "prompt": "En «Escucha · Cómo una pequeña startup terminó revolucionando una industria», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Analizar el tema con evidencia, contexto y matices"
+                "text": "La empresa empezó en una mesa pequeña y con un prototipo que apenas funcionaba."
               },
               {
                 "id": "o2",
-                "text": "Memorizar una lista sin relación con la unidad"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Contar una historia sin conexión con el Reading"
+                "text": "Aunque «startup» parece una decisión individual, conviene considerar «prototipo» y «inversión»."
               },
               {
                 "id": "o4",
-                "text": "Dar una única respuesta definitiva"
+                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+            "prompt": "Después de «La empresa empezó en una mesa pequeña y con un prototipo que apenas…», ¿qué sucede a continuación en «Escucha · Cómo una pequeña startup terminó revolucionando una industria»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Aceptarla de inmediato"
+                "text": "La empresa empezó en una mesa pequeña y con un prototipo que apenas funcionaba."
               },
               {
                 "id": "o2",
-                "text": "Preguntar por fuentes, personas afectadas y consecuencias"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Evitar toda comparación"
+                "text": "Aunque «startup» parece una decisión individual, conviene considerar «prototipo» y «inversión»."
               },
               {
                 "id": "o4",
-                "text": "Copiarla sin revisar"
+                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Para qué se usa la gramática de la unidad?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Cómo una pequeña startup terminó revolucionando una industria»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Para eliminar toda postura"
+                "text": "La empresa empezó en una mesa pequeña y con un prototipo que apenas funcionaba."
               },
               {
                 "id": "o2",
-                "text": "Para repetir palabras aisladas"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Para formular una idea con precisión y reservas"
+                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
               },
               {
                 "id": "o4",
-                "text": "Para evitar reconocer límites"
+                "text": "Aunque «startup» parece una decisión individual, conviene considerar «prototipo» y «inversión»."
               }
             ]
           },
           {
-            "id": "l4",
+            "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué pregunta final propone el audio?",
+            "prompt": "¿Qué resultado cierra «Escucha · Cómo una pequeña startup terminó revolucionando una industria» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Qué aplicación es más rápida"
+                "text": "La empresa empezó en una mesa pequeña y con un prototipo que apenas funcionaba."
               },
               {
                 "id": "o2",
-                "text": "Cómo evitar cualquier debate"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Qué palabra es más difícil de pronunciar"
+                "text": "Aunque «startup» parece una decisión individual, conviene considerar «prototipo» y «inversión»."
               },
               {
                 "id": "o4",
-                "text": "Qué evidencia sostendría o modificaría una postura"
+                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
               }
             ]
           }
@@ -21751,47 +21711,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal del audio?",
+        "prompt": "En «Escucha · Cómo una pequeña startup terminó revolucionando una industria», ¿qué detalle presenta la situación?",
         "options": [
-          "Analizar el tema con evidencia, contexto y matices",
-          "Memorizar una lista sin relación con la unidad",
-          "Contar una historia sin conexión con el Reading",
-          "Dar una única respuesta definitiva"
-        ],
-        "explanation": "El audio adapta el Reading para analizarlo de forma crítica."
+          "La empresa empezó en una mesa pequeña y con un prototipo que apenas funcionaba.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Aunque «startup» parece una decisión individual, conviene considerar «prototipo» y «inversión».",
+          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+        "prompt": "Después de «La empresa empezó en una mesa pequeña y con un prototipo que apenas…», ¿qué sucede a continuación en «Escucha · Cómo una pequeña startup terminó revolucionando una industria»?",
         "options": [
-          "Aceptarla de inmediato",
-          "Preguntar por fuentes, personas afectadas y consecuencias",
-          "Evitar toda comparación",
-          "Copiarla sin revisar"
-        ],
-        "explanation": "El audio insiste en comprobar el origen, el impacto y el contexto de la información."
+          "La empresa empezó en una mesa pequeña y con un prototipo que apenas funcionaba.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Aunque «startup» parece una decisión individual, conviene considerar «prototipo» y «inversión».",
+          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Para qué se usa la gramática de la unidad?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Cómo una pequeña startup terminó revolucionando una industria»?",
         "options": [
-          "Para eliminar toda postura",
-          "Para repetir palabras aisladas",
-          "Para formular una idea con precisión y reservas",
-          "Para evitar reconocer límites"
-        ],
-        "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
+          "La empresa empezó en una mesa pequeña y con un prototipo que apenas funcionaba.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
+          "Aunque «startup» parece una decisión individual, conviene considerar «prototipo» y «inversión»."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué pregunta final propone el audio?",
+        "prompt": "¿Qué resultado cierra «Escucha · Cómo una pequeña startup terminó revolucionando una industria» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
         "options": [
-          "Qué aplicación es más rápida",
-          "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar",
-          "Qué evidencia sostendría o modificaría una postura"
-        ],
-        "explanation": "La pregunta final invita a justificar y revisar una conclusión."
+          "La empresa empezó en una mesa pequeña y con un prototipo que apenas funcionaba.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Aunque «startup» parece una decisión individual, conviene considerar «prototipo» y «inversión».",
+          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+        ]
       }
     ]
   },
@@ -21828,98 +21784,98 @@
       ],
       "transcript": "La pregunta no es solo si una inteligencia artificial puede escribir una canción, diseñar una imagen o proponer una campaña. La pregunta difícil es quién conserva la autoría, el criterio y las condiciones de trabajo cuando una herramienta produce tanto tan rápido. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «autoría», «creatividad» y «automatización». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «autoría» parece una decisión individual, conviene considerar «creatividad» y «automatización». Desde esta perspectiva, defender una postura compleja sobre creatividad humana y automatización no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal.",
       "listeningComprehension": {
-        "id": "spanish-c2-edicion-de-estilo-listening-comprehension",
+        "id": "spanish-c2-edicion-de-estilo-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Cuál es el propósito principal del audio?",
+            "prompt": "En «Escucha · ¿La inteligencia artificial reemplazará las profesiones creativas?», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Analizar el tema con evidencia, contexto y matices"
+                "text": "La pregunta no es solo si una inteligencia artificial puede escribir una canción, diseñar una imagen o proponer una campaña."
               },
               {
                 "id": "o2",
-                "text": "Memorizar una lista sin relación con la unidad"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Contar una historia sin conexión con el Reading"
+                "text": "Desde esta perspectiva, defender una postura compleja sobre creatividad humana y automatización no consiste en repetir una conclusión."
               },
               {
                 "id": "o4",
-                "text": "Dar una única respuesta definitiva"
+                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+            "prompt": "Después de «La pregunta no es solo si una inteligencia artificial puede escribir…», ¿qué sucede a continuación en «Escucha · ¿La inteligencia artificial reemplazará las profesiones creativas?»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Aceptarla de inmediato"
+                "text": "La pregunta no es solo si una inteligencia artificial puede escribir una canción, diseñar una imagen o proponer una campaña."
               },
               {
                 "id": "o2",
-                "text": "Preguntar por fuentes, personas afectadas y consecuencias"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Evitar toda comparación"
+                "text": "Desde esta perspectiva, defender una postura compleja sobre creatividad humana y automatización no consiste en repetir una conclusión."
               },
               {
                 "id": "o4",
-                "text": "Copiarla sin revisar"
+                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Para qué se usa la gramática de la unidad?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · ¿La inteligencia artificial reemplazará las profesiones creativas?»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Para eliminar toda postura"
+                "text": "La pregunta no es solo si una inteligencia artificial puede escribir una canción, diseñar una imagen o proponer una campaña."
               },
               {
                 "id": "o2",
-                "text": "Para repetir palabras aisladas"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Para formular una idea con precisión y reservas"
+                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
               },
               {
                 "id": "o4",
-                "text": "Para evitar reconocer límites"
+                "text": "Desde esta perspectiva, defender una postura compleja sobre creatividad humana y automatización no consiste en repetir una conclusión."
               }
             ]
           },
           {
-            "id": "l4",
+            "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué pregunta final propone el audio?",
+            "prompt": "¿Qué resultado cierra «Escucha · ¿La inteligencia artificial reemplazará las profesiones creativas?» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Qué aplicación es más rápida"
+                "text": "La pregunta no es solo si una inteligencia artificial puede escribir una canción, diseñar una imagen o proponer una campaña."
               },
               {
                 "id": "o2",
-                "text": "Cómo evitar cualquier debate"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Qué palabra es más difícil de pronunciar"
+                "text": "Desde esta perspectiva, defender una postura compleja sobre creatividad humana y automatización no consiste en repetir una conclusión."
               },
               {
                 "id": "o4",
-                "text": "Qué evidencia sostendría o modificaría una postura"
+                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
               }
             ]
           }
@@ -21930,47 +21886,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal del audio?",
+        "prompt": "En «Escucha · ¿La inteligencia artificial reemplazará las profesiones creativas?», ¿qué detalle presenta la situación?",
         "options": [
-          "Analizar el tema con evidencia, contexto y matices",
-          "Memorizar una lista sin relación con la unidad",
-          "Contar una historia sin conexión con el Reading",
-          "Dar una única respuesta definitiva"
-        ],
-        "explanation": "El audio adapta el Reading para analizarlo de forma crítica."
+          "La pregunta no es solo si una inteligencia artificial puede escribir una canción, diseñar una imagen o proponer una campaña.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Desde esta perspectiva, defender una postura compleja sobre creatividad humana y automatización no consiste en repetir una conclusión.",
+          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+        "prompt": "Después de «La pregunta no es solo si una inteligencia artificial puede escribir…», ¿qué sucede a continuación en «Escucha · ¿La inteligencia artificial reemplazará las profesiones creativas?»?",
         "options": [
-          "Aceptarla de inmediato",
-          "Preguntar por fuentes, personas afectadas y consecuencias",
-          "Evitar toda comparación",
-          "Copiarla sin revisar"
-        ],
-        "explanation": "El audio insiste en comprobar el origen, el impacto y el contexto de la información."
+          "La pregunta no es solo si una inteligencia artificial puede escribir una canción, diseñar una imagen o proponer una campaña.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Desde esta perspectiva, defender una postura compleja sobre creatividad humana y automatización no consiste en repetir una conclusión.",
+          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Para qué se usa la gramática de la unidad?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · ¿La inteligencia artificial reemplazará las profesiones creativas?»?",
         "options": [
-          "Para eliminar toda postura",
-          "Para repetir palabras aisladas",
-          "Para formular una idea con precisión y reservas",
-          "Para evitar reconocer límites"
-        ],
-        "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
+          "La pregunta no es solo si una inteligencia artificial puede escribir una canción, diseñar una imagen o proponer una campaña.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
+          "Desde esta perspectiva, defender una postura compleja sobre creatividad humana y automatización no consiste en repetir una conclusión."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué pregunta final propone el audio?",
+        "prompt": "¿Qué resultado cierra «Escucha · ¿La inteligencia artificial reemplazará las profesiones creativas?» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
         "options": [
-          "Qué aplicación es más rápida",
-          "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar",
-          "Qué evidencia sostendría o modificaría una postura"
-        ],
-        "explanation": "La pregunta final invita a justificar y revisar una conclusión."
+          "La pregunta no es solo si una inteligencia artificial puede escribir una canción, diseñar una imagen o proponer una campaña.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Desde esta perspectiva, defender una postura compleja sobre creatividad humana y automatización no consiste en repetir una conclusión.",
+          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+        ]
       }
     ]
   },
@@ -25605,98 +25557,98 @@
       ],
       "transcript": "Trabajar cuatro días por semana parece una promesa sencilla: más tiempo libre sin perder resultados. Pero cuando se prueba de verdad, aparecen preguntas sobre coordinación, horarios, salarios y el tipo de productividad que queremos medir. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «jornada», «productividad» y «descanso». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «jornada» parece una decisión individual, conviene considerar «productividad» y «descanso». Desde esta perspectiva, argumentar sobre condiciones y límites de una semana laboral más corta no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla. La idea final es clara: hablar de ¿trabajar cuatro días a la semana realmente funciona?",
       "listeningComprehension": {
-        "id": "spanish-c1-economia-y-cuidados-listening-comprehension",
+        "id": "spanish-c1-economia-y-cuidados-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Cuál es el propósito principal del audio?",
+            "prompt": "En «Escucha · ¿Trabajar cuatro días a la semana realmente funciona?», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Analizar el tema con evidencia, contexto y matices"
+                "text": "Trabajar cuatro días por semana parece una promesa sencilla: más tiempo libre sin perder resultados."
               },
               {
                 "id": "o2",
-                "text": "Memorizar una lista sin relación con la unidad"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Contar una historia sin conexión con el Reading"
+                "text": "Desde esta perspectiva, argumentar sobre condiciones y límites de una semana laboral más corta no consiste en repetir una conclusión."
               },
               {
                 "id": "o4",
-                "text": "Dar una única respuesta definitiva"
+                "text": "La idea final es clara: hablar de ¿trabajar cuatro días a la semana realmente funciona?"
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+            "prompt": "Después de «Trabajar cuatro días por semana parece una promesa sencilla: más…», ¿qué sucede a continuación en «Escucha · ¿Trabajar cuatro días a la semana realmente funciona?»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Aceptarla de inmediato"
+                "text": "Trabajar cuatro días por semana parece una promesa sencilla: más tiempo libre sin perder resultados."
               },
               {
                 "id": "o2",
-                "text": "Preguntar por fuentes, personas afectadas y consecuencias"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Evitar toda comparación"
+                "text": "Desde esta perspectiva, argumentar sobre condiciones y límites de una semana laboral más corta no consiste en repetir una conclusión."
               },
               {
                 "id": "o4",
-                "text": "Copiarla sin revisar"
+                "text": "La idea final es clara: hablar de ¿trabajar cuatro días a la semana realmente funciona?"
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Para qué se usa la gramática de la unidad?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · ¿Trabajar cuatro días a la semana realmente funciona?»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Para eliminar toda postura"
+                "text": "Trabajar cuatro días por semana parece una promesa sencilla: más tiempo libre sin perder resultados."
               },
               {
                 "id": "o2",
-                "text": "Para repetir palabras aisladas"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Para formular una idea con precisión y reservas"
+                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
               },
               {
                 "id": "o4",
-                "text": "Para evitar reconocer límites"
+                "text": "Desde esta perspectiva, argumentar sobre condiciones y límites de una semana laboral más corta no consiste en repetir una conclusión."
               }
             ]
           },
           {
-            "id": "l4",
+            "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué pregunta final propone el audio?",
+            "prompt": "¿Qué resultado cierra «Escucha · ¿Trabajar cuatro días a la semana realmente funciona?» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Qué aplicación es más rápida"
+                "text": "Trabajar cuatro días por semana parece una promesa sencilla: más tiempo libre sin perder resultados."
               },
               {
                 "id": "o2",
-                "text": "Cómo evitar cualquier debate"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Qué palabra es más difícil de pronunciar"
+                "text": "Desde esta perspectiva, argumentar sobre condiciones y límites de una semana laboral más corta no consiste en repetir una conclusión."
               },
               {
                 "id": "o4",
-                "text": "Qué evidencia sostendría o modificaría una postura"
+                "text": "La idea final es clara: hablar de ¿trabajar cuatro días a la semana realmente funciona?"
               }
             ]
           }
@@ -25707,47 +25659,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal del audio?",
+        "prompt": "En «Escucha · ¿Trabajar cuatro días a la semana realmente funciona?», ¿qué detalle presenta la situación?",
         "options": [
-          "Analizar el tema con evidencia, contexto y matices",
-          "Memorizar una lista sin relación con la unidad",
-          "Contar una historia sin conexión con el Reading",
-          "Dar una única respuesta definitiva"
-        ],
-        "explanation": "El audio adapta el Reading para analizarlo de forma crítica."
+          "Trabajar cuatro días por semana parece una promesa sencilla: más tiempo libre sin perder resultados.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Desde esta perspectiva, argumentar sobre condiciones y límites de una semana laboral más corta no consiste en repetir una conclusión.",
+          "La idea final es clara: hablar de ¿trabajar cuatro días a la semana realmente funciona?"
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+        "prompt": "Después de «Trabajar cuatro días por semana parece una promesa sencilla: más…», ¿qué sucede a continuación en «Escucha · ¿Trabajar cuatro días a la semana realmente funciona?»?",
         "options": [
-          "Aceptarla de inmediato",
-          "Preguntar por fuentes, personas afectadas y consecuencias",
-          "Evitar toda comparación",
-          "Copiarla sin revisar"
-        ],
-        "explanation": "El audio insiste en comprobar el origen, el impacto y el contexto de la información."
+          "Trabajar cuatro días por semana parece una promesa sencilla: más tiempo libre sin perder resultados.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Desde esta perspectiva, argumentar sobre condiciones y límites de una semana laboral más corta no consiste en repetir una conclusión.",
+          "La idea final es clara: hablar de ¿trabajar cuatro días a la semana realmente funciona?"
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Para qué se usa la gramática de la unidad?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · ¿Trabajar cuatro días a la semana realmente funciona?»?",
         "options": [
-          "Para eliminar toda postura",
-          "Para repetir palabras aisladas",
-          "Para formular una idea con precisión y reservas",
-          "Para evitar reconocer límites"
-        ],
-        "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
+          "Trabajar cuatro días por semana parece una promesa sencilla: más tiempo libre sin perder resultados.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
+          "Desde esta perspectiva, argumentar sobre condiciones y límites de una semana laboral más corta no consiste en repetir una conclusión."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué pregunta final propone el audio?",
+        "prompt": "¿Qué resultado cierra «Escucha · ¿Trabajar cuatro días a la semana realmente funciona?» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
         "options": [
-          "Qué aplicación es más rápida",
-          "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar",
-          "Qué evidencia sostendría o modificaría una postura"
-        ],
-        "explanation": "La pregunta final invita a justificar y revisar una conclusión."
+          "Trabajar cuatro días por semana parece una promesa sencilla: más tiempo libre sin perder resultados.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Desde esta perspectiva, argumentar sobre condiciones y límites de una semana laboral más corta no consiste en repetir una conclusión.",
+          "La idea final es clara: hablar de ¿trabajar cuatro días a la semana realmente funciona?"
+        ]
       }
     ]
   },
@@ -25784,98 +25732,98 @@
       ],
       "transcript": "Cuando la científica presentó su hallazgo, casi nadie le creyó. La idea contradecía una explicación aceptada desde hacía décadas y las primeras pruebas parecían demasiado extrañas para cambiar un consenso. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «hipótesis», «evidencia» y «experimento». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «hipótesis» parece una decisión individual, conviene considerar «evidencia» y «experimento». Desde esta perspectiva, evaluar evidencia, resistencia institucional y cambio de paradigma no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación.",
       "listeningComprehension": {
-        "id": "spanish-c2-debate-epistemico-listening-comprehension",
+        "id": "spanish-c2-debate-epistemico-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Cuál es el propósito principal del audio?",
+            "prompt": "En «Escucha · El descubrimiento que nadie creyó... hasta que cambió el mundo», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Analizar el tema con evidencia, contexto y matices"
+                "text": "Cuando la científica presentó su hallazgo, casi nadie le creyó."
               },
               {
                 "id": "o2",
-                "text": "Memorizar una lista sin relación con la unidad"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Contar una historia sin conexión con el Reading"
+                "text": "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos."
               },
               {
                 "id": "o4",
-                "text": "Dar una única respuesta definitiva"
+                "text": "Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+            "prompt": "Después de «Cuando la científica presentó su hallazgo, casi nadie le creyó.», ¿qué sucede a continuación en «Escucha · El descubrimiento que nadie creyó... hasta que cambió el mundo»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Aceptarla de inmediato"
+                "text": "Cuando la científica presentó su hallazgo, casi nadie le creyó."
               },
               {
                 "id": "o2",
-                "text": "Preguntar por fuentes, personas afectadas y consecuencias"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Evitar toda comparación"
+                "text": "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos."
               },
               {
                 "id": "o4",
-                "text": "Copiarla sin revisar"
+                "text": "Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Para qué se usa la gramática de la unidad?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · El descubrimiento que nadie creyó... hasta que cambió el mundo»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Para eliminar toda postura"
+                "text": "Cuando la científica presentó su hallazgo, casi nadie le creyó."
               },
               {
                 "id": "o2",
-                "text": "Para repetir palabras aisladas"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Para formular una idea con precisión y reservas"
+                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
               },
               {
                 "id": "o4",
-                "text": "Para evitar reconocer límites"
+                "text": "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos."
               }
             ]
           },
           {
-            "id": "l4",
+            "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué pregunta final propone el audio?",
+            "prompt": "¿Qué resultado cierra «Escucha · El descubrimiento que nadie creyó... hasta que cambió el mundo» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Qué aplicación es más rápida"
+                "text": "Cuando la científica presentó su hallazgo, casi nadie le creyó."
               },
               {
                 "id": "o2",
-                "text": "Cómo evitar cualquier debate"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Qué palabra es más difícil de pronunciar"
+                "text": "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos."
               },
               {
                 "id": "o4",
-                "text": "Qué evidencia sostendría o modificaría una postura"
+                "text": "Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación."
               }
             ]
           }
@@ -25886,47 +25834,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal del audio?",
+        "prompt": "En «Escucha · El descubrimiento que nadie creyó... hasta que cambió el mundo», ¿qué detalle presenta la situación?",
         "options": [
-          "Analizar el tema con evidencia, contexto y matices",
-          "Memorizar una lista sin relación con la unidad",
-          "Contar una historia sin conexión con el Reading",
-          "Dar una única respuesta definitiva"
-        ],
-        "explanation": "El audio adapta el Reading para analizarlo de forma crítica."
+          "Cuando la científica presentó su hallazgo, casi nadie le creyó.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos.",
+          "Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+        "prompt": "Después de «Cuando la científica presentó su hallazgo, casi nadie le creyó.», ¿qué sucede a continuación en «Escucha · El descubrimiento que nadie creyó... hasta que cambió el mundo»?",
         "options": [
-          "Aceptarla de inmediato",
-          "Preguntar por fuentes, personas afectadas y consecuencias",
-          "Evitar toda comparación",
-          "Copiarla sin revisar"
-        ],
-        "explanation": "El audio insiste en comprobar el origen, el impacto y el contexto de la información."
+          "Cuando la científica presentó su hallazgo, casi nadie le creyó.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos.",
+          "Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Para qué se usa la gramática de la unidad?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · El descubrimiento que nadie creyó... hasta que cambió el mundo»?",
         "options": [
-          "Para eliminar toda postura",
-          "Para repetir palabras aisladas",
-          "Para formular una idea con precisión y reservas",
-          "Para evitar reconocer límites"
-        ],
-        "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
+          "Cuando la científica presentó su hallazgo, casi nadie le creyó.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
+          "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué pregunta final propone el audio?",
+        "prompt": "¿Qué resultado cierra «Escucha · El descubrimiento que nadie creyó... hasta que cambió el mundo» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
         "options": [
-          "Qué aplicación es más rápida",
-          "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar",
-          "Qué evidencia sostendría o modificaría una postura"
-        ],
-        "explanation": "La pregunta final invita a justificar y revisar una conclusión."
+          "Cuando la científica presentó su hallazgo, casi nadie le creyó.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos.",
+          "Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación."
+        ]
       }
     ]
   },
@@ -29561,98 +29505,98 @@
       ],
       "transcript": "Dormir poco se ha convertido en una especie de medalla social. Sin embargo, el cansancio no solo se nota al despertar: cambia nuestra concentración, nuestra paciencia y la manera en que tomamos decisiones durante el día. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «sueño», «agotamiento» y «rutina». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «sueño» parece una decisión individual, conviene considerar «agotamiento» y «rutina». Desde esta perspectiva, explicar hábitos, consecuencias y límites del autocuidado no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.",
       "listeningComprehension": {
-        "id": "spanish-c1-diversidad-del-espanol-listening-comprehension",
+        "id": "spanish-c1-diversidad-del-espanol-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Cuál es el propósito principal del audio?",
+            "prompt": "En «Escucha · Dormimos menos que nunca: el costo invisible del cansancio», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Analizar el tema con evidencia, contexto y matices"
+                "text": "Dormir poco se ha convertido en una especie de medalla social."
               },
               {
                 "id": "o2",
-                "text": "Memorizar una lista sin relación con la unidad"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Contar una historia sin conexión con el Reading"
+                "text": "Aunque «sueño» parece una decisión individual, conviene considerar «agotamiento» y «rutina»."
               },
               {
                 "id": "o4",
-                "text": "Dar una única respuesta definitiva"
+                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+            "prompt": "Después de «Dormir poco se ha convertido en una especie de medalla social.», ¿qué sucede a continuación en «Escucha · Dormimos menos que nunca: el costo invisible del cansancio»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Aceptarla de inmediato"
+                "text": "Dormir poco se ha convertido en una especie de medalla social."
               },
               {
                 "id": "o2",
-                "text": "Preguntar por fuentes, personas afectadas y consecuencias"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Evitar toda comparación"
+                "text": "Aunque «sueño» parece una decisión individual, conviene considerar «agotamiento» y «rutina»."
               },
               {
                 "id": "o4",
-                "text": "Copiarla sin revisar"
+                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Para qué se usa la gramática de la unidad?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Dormimos menos que nunca: el costo invisible del cansancio»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Para eliminar toda postura"
+                "text": "Dormir poco se ha convertido en una especie de medalla social."
               },
               {
                 "id": "o2",
-                "text": "Para repetir palabras aisladas"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Para formular una idea con precisión y reservas"
+                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
               },
               {
                 "id": "o4",
-                "text": "Para evitar reconocer límites"
+                "text": "Aunque «sueño» parece una decisión individual, conviene considerar «agotamiento» y «rutina»."
               }
             ]
           },
           {
-            "id": "l4",
+            "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué pregunta final propone el audio?",
+            "prompt": "¿Qué resultado cierra «Escucha · Dormimos menos que nunca: el costo invisible del cansancio» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Qué aplicación es más rápida"
+                "text": "Dormir poco se ha convertido en una especie de medalla social."
               },
               {
                 "id": "o2",
-                "text": "Cómo evitar cualquier debate"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Qué palabra es más difícil de pronunciar"
+                "text": "Aunque «sueño» parece una decisión individual, conviene considerar «agotamiento» y «rutina»."
               },
               {
                 "id": "o4",
-                "text": "Qué evidencia sostendría o modificaría una postura"
+                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
               }
             ]
           }
@@ -29663,47 +29607,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal del audio?",
+        "prompt": "En «Escucha · Dormimos menos que nunca: el costo invisible del cansancio», ¿qué detalle presenta la situación?",
         "options": [
-          "Analizar el tema con evidencia, contexto y matices",
-          "Memorizar una lista sin relación con la unidad",
-          "Contar una historia sin conexión con el Reading",
-          "Dar una única respuesta definitiva"
-        ],
-        "explanation": "El audio adapta el Reading para analizarlo de forma crítica."
+          "Dormir poco se ha convertido en una especie de medalla social.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Aunque «sueño» parece una decisión individual, conviene considerar «agotamiento» y «rutina».",
+          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+        "prompt": "Después de «Dormir poco se ha convertido en una especie de medalla social.», ¿qué sucede a continuación en «Escucha · Dormimos menos que nunca: el costo invisible del cansancio»?",
         "options": [
-          "Aceptarla de inmediato",
-          "Preguntar por fuentes, personas afectadas y consecuencias",
-          "Evitar toda comparación",
-          "Copiarla sin revisar"
-        ],
-        "explanation": "El audio insiste en comprobar el origen, el impacto y el contexto de la información."
+          "Dormir poco se ha convertido en una especie de medalla social.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Aunque «sueño» parece una decisión individual, conviene considerar «agotamiento» y «rutina».",
+          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Para qué se usa la gramática de la unidad?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Dormimos menos que nunca: el costo invisible del cansancio»?",
         "options": [
-          "Para eliminar toda postura",
-          "Para repetir palabras aisladas",
-          "Para formular una idea con precisión y reservas",
-          "Para evitar reconocer límites"
-        ],
-        "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
+          "Dormir poco se ha convertido en una especie de medalla social.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
+          "Aunque «sueño» parece una decisión individual, conviene considerar «agotamiento» y «rutina»."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué pregunta final propone el audio?",
+        "prompt": "¿Qué resultado cierra «Escucha · Dormimos menos que nunca: el costo invisible del cansancio» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
         "options": [
-          "Qué aplicación es más rápida",
-          "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar",
-          "Qué evidencia sostendría o modificaría una postura"
-        ],
-        "explanation": "La pregunta final invita a justificar y revisar una conclusión."
+          "Dormir poco se ha convertido en una especie de medalla social.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Aunque «sueño» parece una decisión individual, conviene considerar «agotamiento» y «rutina».",
+          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+        ]
       }
     ]
   },
@@ -29740,98 +29680,98 @@
       ],
       "transcript": "La economía de los creadores suele contarse con cifras de seguidores y reproducciones. Sin embargo, detrás de esas cifras hay contratos, algoritmos, trabajo invisible y plataformas que pueden cambiar una regla sin negociar con quienes dependen de ella. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «audiencia», «monetización» y «plataforma». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «audiencia» parece una decisión individual, conviene considerar «monetización» y «plataforma». Desde esta perspectiva, analizar visibilidad, monetización y precariedad en la economía digital no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal.",
       "listeningComprehension": {
-        "id": "spanish-c2-estetica-y-interpretacion-listening-comprehension",
+        "id": "spanish-c2-estetica-y-interpretacion-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Cuál es el propósito principal del audio?",
+            "prompt": "En «Escucha · La economía de los creadores: cómo YouTube, TikTok y Spotify generan millones», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Analizar el tema con evidencia, contexto y matices"
+                "text": "La economía de los creadores suele contarse con cifras de seguidores y reproducciones."
               },
               {
                 "id": "o2",
-                "text": "Memorizar una lista sin relación con la unidad"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Contar una historia sin conexión con el Reading"
+                "text": "Desde esta perspectiva, analizar visibilidad, monetización y precariedad en la economía digital no consiste en repetir una conclusión."
               },
               {
                 "id": "o4",
-                "text": "Dar una única respuesta definitiva"
+                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+            "prompt": "Después de «La economía de los creadores suele contarse con cifras de seguidores y…», ¿qué sucede a continuación en «Escucha · La economía de los creadores: cómo YouTube, TikTok y Spotify generan millones»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Aceptarla de inmediato"
+                "text": "La economía de los creadores suele contarse con cifras de seguidores y reproducciones."
               },
               {
                 "id": "o2",
-                "text": "Preguntar por fuentes, personas afectadas y consecuencias"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Evitar toda comparación"
+                "text": "Desde esta perspectiva, analizar visibilidad, monetización y precariedad en la economía digital no consiste en repetir una conclusión."
               },
               {
                 "id": "o4",
-                "text": "Copiarla sin revisar"
+                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Para qué se usa la gramática de la unidad?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · La economía de los creadores: cómo YouTube, TikTok y Spotify generan millones»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Para eliminar toda postura"
+                "text": "La economía de los creadores suele contarse con cifras de seguidores y reproducciones."
               },
               {
                 "id": "o2",
-                "text": "Para repetir palabras aisladas"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Para formular una idea con precisión y reservas"
+                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
               },
               {
                 "id": "o4",
-                "text": "Para evitar reconocer límites"
+                "text": "Desde esta perspectiva, analizar visibilidad, monetización y precariedad en la economía digital no consiste en repetir una conclusión."
               }
             ]
           },
           {
-            "id": "l4",
+            "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué pregunta final propone el audio?",
+            "prompt": "¿Qué resultado cierra «Escucha · La economía de los creadores: cómo YouTube, TikTok y Spotify generan millones» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Qué aplicación es más rápida"
+                "text": "La economía de los creadores suele contarse con cifras de seguidores y reproducciones."
               },
               {
                 "id": "o2",
-                "text": "Cómo evitar cualquier debate"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Qué palabra es más difícil de pronunciar"
+                "text": "Desde esta perspectiva, analizar visibilidad, monetización y precariedad en la economía digital no consiste en repetir una conclusión."
               },
               {
                 "id": "o4",
-                "text": "Qué evidencia sostendría o modificaría una postura"
+                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
               }
             ]
           }
@@ -29842,47 +29782,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal del audio?",
+        "prompt": "En «Escucha · La economía de los creadores: cómo YouTube, TikTok y Spotify generan millones», ¿qué detalle presenta la situación?",
         "options": [
-          "Analizar el tema con evidencia, contexto y matices",
-          "Memorizar una lista sin relación con la unidad",
-          "Contar una historia sin conexión con el Reading",
-          "Dar una única respuesta definitiva"
-        ],
-        "explanation": "El audio adapta el Reading para analizarlo de forma crítica."
+          "La economía de los creadores suele contarse con cifras de seguidores y reproducciones.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Desde esta perspectiva, analizar visibilidad, monetización y precariedad en la economía digital no consiste en repetir una conclusión.",
+          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+        "prompt": "Después de «La economía de los creadores suele contarse con cifras de seguidores y…», ¿qué sucede a continuación en «Escucha · La economía de los creadores: cómo YouTube, TikTok y Spotify generan millones»?",
         "options": [
-          "Aceptarla de inmediato",
-          "Preguntar por fuentes, personas afectadas y consecuencias",
-          "Evitar toda comparación",
-          "Copiarla sin revisar"
-        ],
-        "explanation": "El audio insiste en comprobar el origen, el impacto y el contexto de la información."
+          "La economía de los creadores suele contarse con cifras de seguidores y reproducciones.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Desde esta perspectiva, analizar visibilidad, monetización y precariedad en la economía digital no consiste en repetir una conclusión.",
+          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Para qué se usa la gramática de la unidad?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · La economía de los creadores: cómo YouTube, TikTok y Spotify generan millones»?",
         "options": [
-          "Para eliminar toda postura",
-          "Para repetir palabras aisladas",
-          "Para formular una idea con precisión y reservas",
-          "Para evitar reconocer límites"
-        ],
-        "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
+          "La economía de los creadores suele contarse con cifras de seguidores y reproducciones.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
+          "Desde esta perspectiva, analizar visibilidad, monetización y precariedad en la economía digital no consiste en repetir una conclusión."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué pregunta final propone el audio?",
+        "prompt": "¿Qué resultado cierra «Escucha · La economía de los creadores: cómo YouTube, TikTok y Spotify generan millones» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
         "options": [
-          "Qué aplicación es más rápida",
-          "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar",
-          "Qué evidencia sostendría o modificaría una postura"
-        ],
-        "explanation": "La pregunta final invita a justificar y revisar una conclusión."
+          "La economía de los creadores suele contarse con cifras de seguidores y reproducciones.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Desde esta perspectiva, analizar visibilidad, monetización y precariedad en la economía digital no consiste en repetir una conclusión.",
+          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+        ]
       }
     ]
   },
@@ -33519,98 +33455,98 @@
       ],
       "transcript": "Cuando vemos a un atleta ganar, solemos mirar el resultado final. Detrás hay una presión menos visible: lesiones, expectativas ajenas, miedo a fallar y la dificultad de descansar cuando el rendimiento define la identidad. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «presión», «rendimiento» y «expectativa». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «presión» parece una decisión individual, conviene considerar «rendimiento» y «expectativa». Desde esta perspectiva, reconocer el vínculo entre rendimiento, expectativas y salud mental no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.",
       "listeningComprehension": {
-        "id": "spanish-c1-diplomacia-y-negociacion-listening-comprehension",
+        "id": "spanish-c1-diplomacia-y-negociacion-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Cuál es el propósito principal del audio?",
+            "prompt": "En «Escucha · La presión mental detrás del deporte de alto rendimiento», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Analizar el tema con evidencia, contexto y matices"
+                "text": "Cuando vemos a un atleta ganar, solemos mirar el resultado final."
               },
               {
                 "id": "o2",
-                "text": "Memorizar una lista sin relación con la unidad"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Contar una historia sin conexión con el Reading"
+                "text": "Aunque «presión» parece una decisión individual, conviene considerar «rendimiento» y «expectativa»."
               },
               {
                 "id": "o4",
-                "text": "Dar una única respuesta definitiva"
+                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+            "prompt": "Después de «Cuando vemos a un atleta ganar, solemos mirar el resultado final.», ¿qué sucede a continuación en «Escucha · La presión mental detrás del deporte de alto rendimiento»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Aceptarla de inmediato"
+                "text": "Cuando vemos a un atleta ganar, solemos mirar el resultado final."
               },
               {
                 "id": "o2",
-                "text": "Preguntar por fuentes, personas afectadas y consecuencias"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Evitar toda comparación"
+                "text": "Aunque «presión» parece una decisión individual, conviene considerar «rendimiento» y «expectativa»."
               },
               {
                 "id": "o4",
-                "text": "Copiarla sin revisar"
+                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Para qué se usa la gramática de la unidad?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · La presión mental detrás del deporte de alto rendimiento»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Para eliminar toda postura"
+                "text": "Cuando vemos a un atleta ganar, solemos mirar el resultado final."
               },
               {
                 "id": "o2",
-                "text": "Para repetir palabras aisladas"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Para formular una idea con precisión y reservas"
+                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
               },
               {
                 "id": "o4",
-                "text": "Para evitar reconocer límites"
+                "text": "Aunque «presión» parece una decisión individual, conviene considerar «rendimiento» y «expectativa»."
               }
             ]
           },
           {
-            "id": "l4",
+            "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué pregunta final propone el audio?",
+            "prompt": "¿Qué resultado cierra «Escucha · La presión mental detrás del deporte de alto rendimiento» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Qué aplicación es más rápida"
+                "text": "Cuando vemos a un atleta ganar, solemos mirar el resultado final."
               },
               {
                 "id": "o2",
-                "text": "Cómo evitar cualquier debate"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Qué palabra es más difícil de pronunciar"
+                "text": "Aunque «presión» parece una decisión individual, conviene considerar «rendimiento» y «expectativa»."
               },
               {
                 "id": "o4",
-                "text": "Qué evidencia sostendría o modificaría una postura"
+                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
               }
             ]
           }
@@ -33621,47 +33557,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal del audio?",
+        "prompt": "En «Escucha · La presión mental detrás del deporte de alto rendimiento», ¿qué detalle presenta la situación?",
         "options": [
-          "Analizar el tema con evidencia, contexto y matices",
-          "Memorizar una lista sin relación con la unidad",
-          "Contar una historia sin conexión con el Reading",
-          "Dar una única respuesta definitiva"
-        ],
-        "explanation": "El audio adapta el Reading para analizarlo de forma crítica."
+          "Cuando vemos a un atleta ganar, solemos mirar el resultado final.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Aunque «presión» parece una decisión individual, conviene considerar «rendimiento» y «expectativa».",
+          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+        "prompt": "Después de «Cuando vemos a un atleta ganar, solemos mirar el resultado final.», ¿qué sucede a continuación en «Escucha · La presión mental detrás del deporte de alto rendimiento»?",
         "options": [
-          "Aceptarla de inmediato",
-          "Preguntar por fuentes, personas afectadas y consecuencias",
-          "Evitar toda comparación",
-          "Copiarla sin revisar"
-        ],
-        "explanation": "El audio insiste en comprobar el origen, el impacto y el contexto de la información."
+          "Cuando vemos a un atleta ganar, solemos mirar el resultado final.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Aunque «presión» parece una decisión individual, conviene considerar «rendimiento» y «expectativa».",
+          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Para qué se usa la gramática de la unidad?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · La presión mental detrás del deporte de alto rendimiento»?",
         "options": [
-          "Para eliminar toda postura",
-          "Para repetir palabras aisladas",
-          "Para formular una idea con precisión y reservas",
-          "Para evitar reconocer límites"
-        ],
-        "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
+          "Cuando vemos a un atleta ganar, solemos mirar el resultado final.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
+          "Aunque «presión» parece una decisión individual, conviene considerar «rendimiento» y «expectativa»."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué pregunta final propone el audio?",
+        "prompt": "¿Qué resultado cierra «Escucha · La presión mental detrás del deporte de alto rendimiento» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
         "options": [
-          "Qué aplicación es más rápida",
-          "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar",
-          "Qué evidencia sostendría o modificaría una postura"
-        ],
-        "explanation": "La pregunta final invita a justificar y revisar una conclusión."
+          "Cuando vemos a un atleta ganar, solemos mirar el resultado final.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Aunque «presión» parece una decisión individual, conviene considerar «rendimiento» y «expectativa».",
+          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+        ]
       }
     ]
   },
@@ -33698,98 +33630,98 @@
       ],
       "transcript": "En un desastre natural, una decisión tomada a tiempo puede salvar una vida. Pero esas decisiones no nacen del heroísmo individual: dependen de alertas claras, preparación previa, información confiable y personas dispuestas a coordinarse. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «evacuación», «alerta» y «refugio». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «evacuación» parece una decisión individual, conviene considerar «alerta» y «refugio». Desde esta perspectiva, explicar preparación, comunicación y cooperación bajo presión no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal. Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación.",
       "listeningComprehension": {
-        "id": "spanish-c2-discurso-cientifico-listening-comprehension",
+        "id": "spanish-c2-discurso-cientifico-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Cuál es el propósito principal del audio?",
+            "prompt": "En «Escucha · Sobrevivir a un desastre natural: decisiones que salvan vidas», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Analizar el tema con evidencia, contexto y matices"
+                "text": "En un desastre natural, una decisión tomada a tiempo puede salvar una vida."
               },
               {
                 "id": "o2",
-                "text": "Memorizar una lista sin relación con la unidad"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Contar una historia sin conexión con el Reading"
+                "text": "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos."
               },
               {
                 "id": "o4",
-                "text": "Dar una única respuesta definitiva"
+                "text": "Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+            "prompt": "Después de «En un desastre natural, una decisión tomada a tiempo puede salvar una…», ¿qué sucede a continuación en «Escucha · Sobrevivir a un desastre natural: decisiones que salvan vidas»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Aceptarla de inmediato"
+                "text": "En un desastre natural, una decisión tomada a tiempo puede salvar una vida."
               },
               {
                 "id": "o2",
-                "text": "Preguntar por fuentes, personas afectadas y consecuencias"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Evitar toda comparación"
+                "text": "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos."
               },
               {
                 "id": "o4",
-                "text": "Copiarla sin revisar"
+                "text": "Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Para qué se usa la gramática de la unidad?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Sobrevivir a un desastre natural: decisiones que salvan vidas»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Para eliminar toda postura"
+                "text": "En un desastre natural, una decisión tomada a tiempo puede salvar una vida."
               },
               {
                 "id": "o2",
-                "text": "Para repetir palabras aisladas"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Para formular una idea con precisión y reservas"
+                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
               },
               {
                 "id": "o4",
-                "text": "Para evitar reconocer límites"
+                "text": "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos."
               }
             ]
           },
           {
-            "id": "l4",
+            "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué pregunta final propone el audio?",
+            "prompt": "¿Qué resultado cierra «Escucha · Sobrevivir a un desastre natural: decisiones que salvan vidas» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Qué aplicación es más rápida"
+                "text": "En un desastre natural, una decisión tomada a tiempo puede salvar una vida."
               },
               {
                 "id": "o2",
-                "text": "Cómo evitar cualquier debate"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Qué palabra es más difícil de pronunciar"
+                "text": "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos."
               },
               {
                 "id": "o4",
-                "text": "Qué evidencia sostendría o modificaría una postura"
+                "text": "Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación."
               }
             ]
           }
@@ -33800,47 +33732,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal del audio?",
+        "prompt": "En «Escucha · Sobrevivir a un desastre natural: decisiones que salvan vidas», ¿qué detalle presenta la situación?",
         "options": [
-          "Analizar el tema con evidencia, contexto y matices",
-          "Memorizar una lista sin relación con la unidad",
-          "Contar una historia sin conexión con el Reading",
-          "Dar una única respuesta definitiva"
-        ],
-        "explanation": "El audio adapta el Reading para analizarlo de forma crítica."
+          "En un desastre natural, una decisión tomada a tiempo puede salvar una vida.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos.",
+          "Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+        "prompt": "Después de «En un desastre natural, una decisión tomada a tiempo puede salvar una…», ¿qué sucede a continuación en «Escucha · Sobrevivir a un desastre natural: decisiones que salvan vidas»?",
         "options": [
-          "Aceptarla de inmediato",
-          "Preguntar por fuentes, personas afectadas y consecuencias",
-          "Evitar toda comparación",
-          "Copiarla sin revisar"
-        ],
-        "explanation": "El audio insiste en comprobar el origen, el impacto y el contexto de la información."
+          "En un desastre natural, una decisión tomada a tiempo puede salvar una vida.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos.",
+          "Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Para qué se usa la gramática de la unidad?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Sobrevivir a un desastre natural: decisiones que salvan vidas»?",
         "options": [
-          "Para eliminar toda postura",
-          "Para repetir palabras aisladas",
-          "Para formular una idea con precisión y reservas",
-          "Para evitar reconocer límites"
-        ],
-        "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
+          "En un desastre natural, una decisión tomada a tiempo puede salvar una vida.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
+          "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué pregunta final propone el audio?",
+        "prompt": "¿Qué resultado cierra «Escucha · Sobrevivir a un desastre natural: decisiones que salvan vidas» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
         "options": [
-          "Qué aplicación es más rápida",
-          "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar",
-          "Qué evidencia sostendría o modificaría una postura"
-        ],
-        "explanation": "La pregunta final invita a justificar y revisar una conclusión."
+          "En un desastre natural, una decisión tomada a tiempo puede salvar una vida.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos.",
+          "Debe reconocer qué presuposición sostiene el argumento, qué alternativa queda descartada y qué grado de certeza expresa cada formulación."
+        ]
       }
     ]
   },
@@ -37501,98 +37429,98 @@
       ],
       "transcript": "La decisión duró cinco segundos. No parecía heroica ni especialmente importante, pero abrió una puerta que hasta entonces había permanecido cerrada. A veces una vida cambia antes de que tengamos tiempo de entender lo que hemos elegido. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «instante», «decisión» y «consecuencia». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «instante» parece una decisión individual, conviene considerar «decisión» y «consecuencia». Desde esta perspectiva, interpretar azar, responsabilidad y decisiones bajo presión no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.",
       "listeningComprehension": {
-        "id": "spanish-c1-critica-cultural-listening-comprehension",
+        "id": "spanish-c1-critica-cultural-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Cuál es el propósito principal del audio?",
+            "prompt": "En «Escucha · La decisión que tomé en cinco segundos cambió mi vida», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Analizar el tema con evidencia, contexto y matices"
+                "text": "La decisión duró cinco segundos."
               },
               {
                 "id": "o2",
-                "text": "Memorizar una lista sin relación con la unidad"
+                "text": "Para interpretarlo, debemos distinguir entre «instante», «decisión» y «consecuencia»."
               },
               {
                 "id": "o3",
-                "text": "Contar una historia sin conexión con el Reading"
+                "text": "Aunque «instante» parece una decisión individual, conviene considerar «decisión» y «consecuencia»."
               },
               {
                 "id": "o4",
-                "text": "Dar una única respuesta definitiva"
+                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+            "prompt": "Después de «La decisión duró cinco segundos.», ¿qué sucede a continuación en «Escucha · La decisión que tomé en cinco segundos cambió mi vida»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Aceptarla de inmediato"
+                "text": "La decisión duró cinco segundos."
               },
               {
                 "id": "o2",
-                "text": "Preguntar por fuentes, personas afectadas y consecuencias"
+                "text": "Para interpretarlo, debemos distinguir entre «instante», «decisión» y «consecuencia»."
               },
               {
                 "id": "o3",
-                "text": "Evitar toda comparación"
+                "text": "Aunque «instante» parece una decisión individual, conviene considerar «decisión» y «consecuencia»."
               },
               {
                 "id": "o4",
-                "text": "Copiarla sin revisar"
+                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Para qué se usa la gramática de la unidad?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · La decisión que tomé en cinco segundos cambió mi vida»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Para eliminar toda postura"
+                "text": "La decisión duró cinco segundos."
               },
               {
                 "id": "o2",
-                "text": "Para repetir palabras aisladas"
+                "text": "Para interpretarlo, debemos distinguir entre «instante», «decisión» y «consecuencia»."
               },
               {
                 "id": "o3",
-                "text": "Para formular una idea con precisión y reservas"
+                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
               },
               {
                 "id": "o4",
-                "text": "Para evitar reconocer límites"
+                "text": "Aunque «instante» parece una decisión individual, conviene considerar «decisión» y «consecuencia»."
               }
             ]
           },
           {
-            "id": "l4",
+            "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué pregunta final propone el audio?",
+            "prompt": "¿Qué resultado cierra «Escucha · La decisión que tomé en cinco segundos cambió mi vida» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Qué aplicación es más rápida"
+                "text": "La decisión duró cinco segundos."
               },
               {
                 "id": "o2",
-                "text": "Cómo evitar cualquier debate"
+                "text": "Para interpretarlo, debemos distinguir entre «instante», «decisión» y «consecuencia»."
               },
               {
                 "id": "o3",
-                "text": "Qué palabra es más difícil de pronunciar"
+                "text": "Aunque «instante» parece una decisión individual, conviene considerar «decisión» y «consecuencia»."
               },
               {
                 "id": "o4",
-                "text": "Qué evidencia sostendría o modificaría una postura"
+                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
               }
             ]
           }
@@ -37603,47 +37531,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal del audio?",
+        "prompt": "En «Escucha · La decisión que tomé en cinco segundos cambió mi vida», ¿qué detalle presenta la situación?",
         "options": [
-          "Analizar el tema con evidencia, contexto y matices",
-          "Memorizar una lista sin relación con la unidad",
-          "Contar una historia sin conexión con el Reading",
-          "Dar una única respuesta definitiva"
-        ],
-        "explanation": "El audio adapta el Reading para analizarlo de forma crítica."
+          "La decisión duró cinco segundos.",
+          "Para interpretarlo, debemos distinguir entre «instante», «decisión» y «consecuencia».",
+          "Aunque «instante» parece una decisión individual, conviene considerar «decisión» y «consecuencia».",
+          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+        "prompt": "Después de «La decisión duró cinco segundos.», ¿qué sucede a continuación en «Escucha · La decisión que tomé en cinco segundos cambió mi vida»?",
         "options": [
-          "Aceptarla de inmediato",
-          "Preguntar por fuentes, personas afectadas y consecuencias",
-          "Evitar toda comparación",
-          "Copiarla sin revisar"
-        ],
-        "explanation": "El audio insiste en comprobar el origen, el impacto y el contexto de la información."
+          "La decisión duró cinco segundos.",
+          "Para interpretarlo, debemos distinguir entre «instante», «decisión» y «consecuencia».",
+          "Aunque «instante» parece una decisión individual, conviene considerar «decisión» y «consecuencia».",
+          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Para qué se usa la gramática de la unidad?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · La decisión que tomé en cinco segundos cambió mi vida»?",
         "options": [
-          "Para eliminar toda postura",
-          "Para repetir palabras aisladas",
-          "Para formular una idea con precisión y reservas",
-          "Para evitar reconocer límites"
-        ],
-        "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
+          "La decisión duró cinco segundos.",
+          "Para interpretarlo, debemos distinguir entre «instante», «decisión» y «consecuencia».",
+          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
+          "Aunque «instante» parece una decisión individual, conviene considerar «decisión» y «consecuencia»."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué pregunta final propone el audio?",
+        "prompt": "¿Qué resultado cierra «Escucha · La decisión que tomé en cinco segundos cambió mi vida» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
         "options": [
-          "Qué aplicación es más rápida",
-          "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar",
-          "Qué evidencia sostendría o modificaría una postura"
-        ],
-        "explanation": "La pregunta final invita a justificar y revisar una conclusión."
+          "La decisión duró cinco segundos.",
+          "Para interpretarlo, debemos distinguir entre «instante», «decisión» y «consecuencia».",
+          "Aunque «instante» parece una decisión individual, conviene considerar «decisión» y «consecuencia».",
+          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+        ]
       }
     ]
   },
@@ -37680,98 +37604,98 @@
       ],
       "transcript": "A doce mil metros de altura, un piloto comercial no improvisa la calma. Cada cambio de ruta, cada aviso meteorológico y cada conversación con la tripulación forma parte de un sistema diseñado para decidir con precisión bajo presión. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «cabina», «turbulencia» y «protocolo». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «cabina» parece una decisión individual, conviene considerar «turbulencia» y «protocolo». Desde esta perspectiva, interpretar procedimientos, incertidumbre y responsabilidad técnica no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal.",
       "listeningComprehension": {
-        "id": "spanish-c2-mediacion-de-conflictos-listening-comprehension",
+        "id": "spanish-c2-mediacion-de-conflictos-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Cuál es el propósito principal del audio?",
+            "prompt": "En «Escucha · La vida secreta de un piloto comercial: decisiones a 12 000 metros de altura», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Analizar el tema con evidencia, contexto y matices"
+                "text": "A doce mil metros de altura, un piloto comercial no improvisa la calma."
               },
               {
                 "id": "o2",
-                "text": "Memorizar una lista sin relación con la unidad"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Contar una historia sin conexión con el Reading"
+                "text": "Desde esta perspectiva, interpretar procedimientos, incertidumbre y responsabilidad técnica no consiste en repetir una conclusión."
               },
               {
                 "id": "o4",
-                "text": "Dar una única respuesta definitiva"
+                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+            "prompt": "Después de «A doce mil metros de altura, un piloto comercial no improvisa la calma.», ¿qué sucede a continuación en «Escucha · La vida secreta de un piloto comercial: decisiones a 12 000 metros de altura»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Aceptarla de inmediato"
+                "text": "A doce mil metros de altura, un piloto comercial no improvisa la calma."
               },
               {
                 "id": "o2",
-                "text": "Preguntar por fuentes, personas afectadas y consecuencias"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Evitar toda comparación"
+                "text": "Desde esta perspectiva, interpretar procedimientos, incertidumbre y responsabilidad técnica no consiste en repetir una conclusión."
               },
               {
                 "id": "o4",
-                "text": "Copiarla sin revisar"
+                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Para qué se usa la gramática de la unidad?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · La vida secreta de un piloto comercial: decisiones a 12 000 metros de altura»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Para eliminar toda postura"
+                "text": "A doce mil metros de altura, un piloto comercial no improvisa la calma."
               },
               {
                 "id": "o2",
-                "text": "Para repetir palabras aisladas"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Para formular una idea con precisión y reservas"
+                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
               },
               {
                 "id": "o4",
-                "text": "Para evitar reconocer límites"
+                "text": "Desde esta perspectiva, interpretar procedimientos, incertidumbre y responsabilidad técnica no consiste en repetir una conclusión."
               }
             ]
           },
           {
-            "id": "l4",
+            "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué pregunta final propone el audio?",
+            "prompt": "¿Qué resultado cierra «Escucha · La vida secreta de un piloto comercial: decisiones a 12 000 metros de altura» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Qué aplicación es más rápida"
+                "text": "A doce mil metros de altura, un piloto comercial no improvisa la calma."
               },
               {
                 "id": "o2",
-                "text": "Cómo evitar cualquier debate"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Qué palabra es más difícil de pronunciar"
+                "text": "Desde esta perspectiva, interpretar procedimientos, incertidumbre y responsabilidad técnica no consiste en repetir una conclusión."
               },
               {
                 "id": "o4",
-                "text": "Qué evidencia sostendría o modificaría una postura"
+                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
               }
             ]
           }
@@ -37782,47 +37706,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal del audio?",
+        "prompt": "En «Escucha · La vida secreta de un piloto comercial: decisiones a 12 000 metros de altura», ¿qué detalle presenta la situación?",
         "options": [
-          "Analizar el tema con evidencia, contexto y matices",
-          "Memorizar una lista sin relación con la unidad",
-          "Contar una historia sin conexión con el Reading",
-          "Dar una única respuesta definitiva"
-        ],
-        "explanation": "El audio adapta el Reading para analizarlo de forma crítica."
+          "A doce mil metros de altura, un piloto comercial no improvisa la calma.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Desde esta perspectiva, interpretar procedimientos, incertidumbre y responsabilidad técnica no consiste en repetir una conclusión.",
+          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+        "prompt": "Después de «A doce mil metros de altura, un piloto comercial no improvisa la calma.», ¿qué sucede a continuación en «Escucha · La vida secreta de un piloto comercial: decisiones a 12 000 metros de altura»?",
         "options": [
-          "Aceptarla de inmediato",
-          "Preguntar por fuentes, personas afectadas y consecuencias",
-          "Evitar toda comparación",
-          "Copiarla sin revisar"
-        ],
-        "explanation": "El audio insiste en comprobar el origen, el impacto y el contexto de la información."
+          "A doce mil metros de altura, un piloto comercial no improvisa la calma.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Desde esta perspectiva, interpretar procedimientos, incertidumbre y responsabilidad técnica no consiste en repetir una conclusión.",
+          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Para qué se usa la gramática de la unidad?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · La vida secreta de un piloto comercial: decisiones a 12 000 metros de altura»?",
         "options": [
-          "Para eliminar toda postura",
-          "Para repetir palabras aisladas",
-          "Para formular una idea con precisión y reservas",
-          "Para evitar reconocer límites"
-        ],
-        "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
+          "A doce mil metros de altura, un piloto comercial no improvisa la calma.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
+          "Desde esta perspectiva, interpretar procedimientos, incertidumbre y responsabilidad técnica no consiste en repetir una conclusión."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué pregunta final propone el audio?",
+        "prompt": "¿Qué resultado cierra «Escucha · La vida secreta de un piloto comercial: decisiones a 12 000 metros de altura» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
         "options": [
-          "Qué aplicación es más rápida",
-          "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar",
-          "Qué evidencia sostendría o modificaría una postura"
-        ],
-        "explanation": "La pregunta final invita a justificar y revisar una conclusión."
+          "A doce mil metros de altura, un piloto comercial no improvisa la calma.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Desde esta perspectiva, interpretar procedimientos, incertidumbre y responsabilidad técnica no consiste en repetir una conclusión.",
+          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+        ]
       }
     ]
   },
@@ -41463,98 +41383,98 @@
       ],
       "transcript": "Nunca había sido tan fácil hablar con personas que están lejos. Aun así, muchas personas describen una soledad que no desaparece con más mensajes, reacciones o seguidores. La conexión y la cercanía no siempre son lo mismo. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «vínculo», «aislamiento» y «interacción». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. En el artículo se analizan «vínculo» y «aislamiento» desde perspectivas distintas. Desde esta perspectiva, evaluar beneficios y riesgos de la conexión permanente no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla. La idea final es clara: hablar de ¿las redes sociales nos acercan o nos aíslan?",
       "listeningComprehension": {
-        "id": "spanish-c1-politicas-publicas-listening-comprehension",
+        "id": "spanish-c1-politicas-publicas-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Cuál es el propósito principal del audio?",
+            "prompt": "En «Escucha · ¿Las redes sociales nos acercan o nos aíslan?», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Analizar el tema con evidencia, contexto y matices"
+                "text": "Nunca había sido tan fácil hablar con personas que están lejos."
               },
               {
                 "id": "o2",
-                "text": "Memorizar una lista sin relación con la unidad"
+                "text": "Para interpretarlo, debemos distinguir entre «vínculo», «aislamiento» y «interacción»."
               },
               {
                 "id": "o3",
-                "text": "Contar una historia sin conexión con el Reading"
+                "text": "Desde esta perspectiva, evaluar beneficios y riesgos de la conexión permanente no consiste en repetir una conclusión."
               },
               {
                 "id": "o4",
-                "text": "Dar una única respuesta definitiva"
+                "text": "La idea final es clara: hablar de ¿las redes sociales nos acercan o nos aíslan?"
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+            "prompt": "Después de «Nunca había sido tan fácil hablar con personas que están lejos.», ¿qué sucede a continuación en «Escucha · ¿Las redes sociales nos acercan o nos aíslan?»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Aceptarla de inmediato"
+                "text": "Nunca había sido tan fácil hablar con personas que están lejos."
               },
               {
                 "id": "o2",
-                "text": "Preguntar por fuentes, personas afectadas y consecuencias"
+                "text": "Para interpretarlo, debemos distinguir entre «vínculo», «aislamiento» y «interacción»."
               },
               {
                 "id": "o3",
-                "text": "Evitar toda comparación"
+                "text": "Desde esta perspectiva, evaluar beneficios y riesgos de la conexión permanente no consiste en repetir una conclusión."
               },
               {
                 "id": "o4",
-                "text": "Copiarla sin revisar"
+                "text": "La idea final es clara: hablar de ¿las redes sociales nos acercan o nos aíslan?"
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Para qué se usa la gramática de la unidad?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · ¿Las redes sociales nos acercan o nos aíslan?»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Para eliminar toda postura"
+                "text": "Nunca había sido tan fácil hablar con personas que están lejos."
               },
               {
                 "id": "o2",
-                "text": "Para repetir palabras aisladas"
+                "text": "Para interpretarlo, debemos distinguir entre «vínculo», «aislamiento» y «interacción»."
               },
               {
                 "id": "o3",
-                "text": "Para formular una idea con precisión y reservas"
+                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
               },
               {
                 "id": "o4",
-                "text": "Para evitar reconocer límites"
+                "text": "Desde esta perspectiva, evaluar beneficios y riesgos de la conexión permanente no consiste en repetir una conclusión."
               }
             ]
           },
           {
-            "id": "l4",
+            "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué pregunta final propone el audio?",
+            "prompt": "¿Qué resultado cierra «Escucha · ¿Las redes sociales nos acercan o nos aíslan?» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Qué aplicación es más rápida"
+                "text": "Nunca había sido tan fácil hablar con personas que están lejos."
               },
               {
                 "id": "o2",
-                "text": "Cómo evitar cualquier debate"
+                "text": "Para interpretarlo, debemos distinguir entre «vínculo», «aislamiento» y «interacción»."
               },
               {
                 "id": "o3",
-                "text": "Qué palabra es más difícil de pronunciar"
+                "text": "Desde esta perspectiva, evaluar beneficios y riesgos de la conexión permanente no consiste en repetir una conclusión."
               },
               {
                 "id": "o4",
-                "text": "Qué evidencia sostendría o modificaría una postura"
+                "text": "La idea final es clara: hablar de ¿las redes sociales nos acercan o nos aíslan?"
               }
             ]
           }
@@ -41565,47 +41485,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal del audio?",
+        "prompt": "En «Escucha · ¿Las redes sociales nos acercan o nos aíslan?», ¿qué detalle presenta la situación?",
         "options": [
-          "Analizar el tema con evidencia, contexto y matices",
-          "Memorizar una lista sin relación con la unidad",
-          "Contar una historia sin conexión con el Reading",
-          "Dar una única respuesta definitiva"
-        ],
-        "explanation": "El audio adapta el Reading para analizarlo de forma crítica."
+          "Nunca había sido tan fácil hablar con personas que están lejos.",
+          "Para interpretarlo, debemos distinguir entre «vínculo», «aislamiento» y «interacción».",
+          "Desde esta perspectiva, evaluar beneficios y riesgos de la conexión permanente no consiste en repetir una conclusión.",
+          "La idea final es clara: hablar de ¿las redes sociales nos acercan o nos aíslan?"
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+        "prompt": "Después de «Nunca había sido tan fácil hablar con personas que están lejos.», ¿qué sucede a continuación en «Escucha · ¿Las redes sociales nos acercan o nos aíslan?»?",
         "options": [
-          "Aceptarla de inmediato",
-          "Preguntar por fuentes, personas afectadas y consecuencias",
-          "Evitar toda comparación",
-          "Copiarla sin revisar"
-        ],
-        "explanation": "El audio insiste en comprobar el origen, el impacto y el contexto de la información."
+          "Nunca había sido tan fácil hablar con personas que están lejos.",
+          "Para interpretarlo, debemos distinguir entre «vínculo», «aislamiento» y «interacción».",
+          "Desde esta perspectiva, evaluar beneficios y riesgos de la conexión permanente no consiste en repetir una conclusión.",
+          "La idea final es clara: hablar de ¿las redes sociales nos acercan o nos aíslan?"
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Para qué se usa la gramática de la unidad?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · ¿Las redes sociales nos acercan o nos aíslan?»?",
         "options": [
-          "Para eliminar toda postura",
-          "Para repetir palabras aisladas",
-          "Para formular una idea con precisión y reservas",
-          "Para evitar reconocer límites"
-        ],
-        "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
+          "Nunca había sido tan fácil hablar con personas que están lejos.",
+          "Para interpretarlo, debemos distinguir entre «vínculo», «aislamiento» y «interacción».",
+          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
+          "Desde esta perspectiva, evaluar beneficios y riesgos de la conexión permanente no consiste en repetir una conclusión."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué pregunta final propone el audio?",
+        "prompt": "¿Qué resultado cierra «Escucha · ¿Las redes sociales nos acercan o nos aíslan?» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
         "options": [
-          "Qué aplicación es más rápida",
-          "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar",
-          "Qué evidencia sostendría o modificaría una postura"
-        ],
-        "explanation": "La pregunta final invita a justificar y revisar una conclusión."
+          "Nunca había sido tan fácil hablar con personas que están lejos.",
+          "Para interpretarlo, debemos distinguir entre «vínculo», «aislamiento» y «interacción».",
+          "Desde esta perspectiva, evaluar beneficios y riesgos de la conexión permanente no consiste en repetir una conclusión.",
+          "La idea final es clara: hablar de ¿las redes sociales nos acercan o nos aíslan?"
+        ]
       }
     ]
   },
@@ -41642,98 +41558,98 @@
       ],
       "transcript": "Algunos recuerdos permanecen durante décadas con una intensidad sorprendente, aunque los detalles cambien con el tiempo. La neurociencia muestra que recordar no es reproducir una grabación: es reconstruir una experiencia que la emoción ha vuelto significativa. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «memoria», «emoción» y «recuerdo». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «memoria» parece una decisión individual, conviene considerar «emoción» y «recuerdo». Desde esta perspectiva, distinguir recuerdo fiable, reconstrucción y significado emocional no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal.",
       "listeningComprehension": {
-        "id": "spanish-c2-ensayo-de-alta-exigencia-listening-comprehension",
+        "id": "spanish-c2-ensayo-de-alta-exigencia-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Cuál es el propósito principal del audio?",
+            "prompt": "En «Escucha · ¿Por qué algunos recuerdos permanecen para siempre?», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Analizar el tema con evidencia, contexto y matices"
+                "text": "Algunos recuerdos permanecen durante décadas con una intensidad sorprendente, aunque los detalles cambien con el tiempo."
               },
               {
                 "id": "o2",
-                "text": "Memorizar una lista sin relación con la unidad"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Contar una historia sin conexión con el Reading"
+                "text": "Desde esta perspectiva, distinguir recuerdo fiable, reconstrucción y significado emocional no consiste en repetir una conclusión."
               },
               {
                 "id": "o4",
-                "text": "Dar una única respuesta definitiva"
+                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+            "prompt": "Después de «Algunos recuerdos permanecen durante décadas con una intensidad…», ¿qué sucede a continuación en «Escucha · ¿Por qué algunos recuerdos permanecen para siempre?»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Aceptarla de inmediato"
+                "text": "Algunos recuerdos permanecen durante décadas con una intensidad sorprendente, aunque los detalles cambien con el tiempo."
               },
               {
                 "id": "o2",
-                "text": "Preguntar por fuentes, personas afectadas y consecuencias"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Evitar toda comparación"
+                "text": "Desde esta perspectiva, distinguir recuerdo fiable, reconstrucción y significado emocional no consiste en repetir una conclusión."
               },
               {
                 "id": "o4",
-                "text": "Copiarla sin revisar"
+                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Para qué se usa la gramática de la unidad?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · ¿Por qué algunos recuerdos permanecen para siempre?»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Para eliminar toda postura"
+                "text": "Algunos recuerdos permanecen durante décadas con una intensidad sorprendente, aunque los detalles cambien con el tiempo."
               },
               {
                 "id": "o2",
-                "text": "Para repetir palabras aisladas"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Para formular una idea con precisión y reservas"
+                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
               },
               {
                 "id": "o4",
-                "text": "Para evitar reconocer límites"
+                "text": "Desde esta perspectiva, distinguir recuerdo fiable, reconstrucción y significado emocional no consiste en repetir una conclusión."
               }
             ]
           },
           {
-            "id": "l4",
+            "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué pregunta final propone el audio?",
+            "prompt": "¿Qué resultado cierra «Escucha · ¿Por qué algunos recuerdos permanecen para siempre?» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Qué aplicación es más rápida"
+                "text": "Algunos recuerdos permanecen durante décadas con una intensidad sorprendente, aunque los detalles cambien con el tiempo."
               },
               {
                 "id": "o2",
-                "text": "Cómo evitar cualquier debate"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Qué palabra es más difícil de pronunciar"
+                "text": "Desde esta perspectiva, distinguir recuerdo fiable, reconstrucción y significado emocional no consiste en repetir una conclusión."
               },
               {
                 "id": "o4",
-                "text": "Qué evidencia sostendría o modificaría una postura"
+                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
               }
             ]
           }
@@ -41744,47 +41660,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal del audio?",
+        "prompt": "En «Escucha · ¿Por qué algunos recuerdos permanecen para siempre?», ¿qué detalle presenta la situación?",
         "options": [
-          "Analizar el tema con evidencia, contexto y matices",
-          "Memorizar una lista sin relación con la unidad",
-          "Contar una historia sin conexión con el Reading",
-          "Dar una única respuesta definitiva"
-        ],
-        "explanation": "El audio adapta el Reading para analizarlo de forma crítica."
+          "Algunos recuerdos permanecen durante décadas con una intensidad sorprendente, aunque los detalles cambien con el tiempo.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Desde esta perspectiva, distinguir recuerdo fiable, reconstrucción y significado emocional no consiste en repetir una conclusión.",
+          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+        "prompt": "Después de «Algunos recuerdos permanecen durante décadas con una intensidad…», ¿qué sucede a continuación en «Escucha · ¿Por qué algunos recuerdos permanecen para siempre?»?",
         "options": [
-          "Aceptarla de inmediato",
-          "Preguntar por fuentes, personas afectadas y consecuencias",
-          "Evitar toda comparación",
-          "Copiarla sin revisar"
-        ],
-        "explanation": "El audio insiste en comprobar el origen, el impacto y el contexto de la información."
+          "Algunos recuerdos permanecen durante décadas con una intensidad sorprendente, aunque los detalles cambien con el tiempo.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Desde esta perspectiva, distinguir recuerdo fiable, reconstrucción y significado emocional no consiste en repetir una conclusión.",
+          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Para qué se usa la gramática de la unidad?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · ¿Por qué algunos recuerdos permanecen para siempre?»?",
         "options": [
-          "Para eliminar toda postura",
-          "Para repetir palabras aisladas",
-          "Para formular una idea con precisión y reservas",
-          "Para evitar reconocer límites"
-        ],
-        "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
+          "Algunos recuerdos permanecen durante décadas con una intensidad sorprendente, aunque los detalles cambien con el tiempo.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
+          "Desde esta perspectiva, distinguir recuerdo fiable, reconstrucción y significado emocional no consiste en repetir una conclusión."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué pregunta final propone el audio?",
+        "prompt": "¿Qué resultado cierra «Escucha · ¿Por qué algunos recuerdos permanecen para siempre?» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
         "options": [
-          "Qué aplicación es más rápida",
-          "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar",
-          "Qué evidencia sostendría o modificaría una postura"
-        ],
-        "explanation": "La pregunta final invita a justificar y revisar una conclusión."
+          "Algunos recuerdos permanecen durante décadas con una intensidad sorprendente, aunque los detalles cambien con el tiempo.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Desde esta perspectiva, distinguir recuerdo fiable, reconstrucción y significado emocional no consiste en repetir una conclusión.",
+          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+        ]
       }
     ]
   },
@@ -45425,98 +45337,98 @@
       ],
       "transcript": "A los cincuenta y seis años, Elena decidió aprender un idioma que siempre había querido hablar. No buscaba demostrar que la edad no importa; quería descubrir qué ocurre cuando la práctica y la curiosidad ocupan el lugar del miedo a equivocarse. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «constancia», «memoria» y «fluidez». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «constancia» parece una decisión individual, conviene considerar «memoria» y «fluidez». Desde esta perspectiva, cuestionar prejuicios sobre edad, memoria y aprendizaje no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. Una postura informada no necesita fingir que dispone de todos los datos. Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla.",
       "listeningComprehension": {
-        "id": "spanish-c1-coloquio-academico-listening-comprehension",
+        "id": "spanish-c1-coloquio-academico-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Cuál es el propósito principal del audio?",
+            "prompt": "En «Escucha · Aprender un idioma después de los cincuenta años», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Analizar el tema con evidencia, contexto y matices"
+                "text": "A los cincuenta y seis años, Elena decidió aprender un idioma que siempre había querido hablar."
               },
               {
                 "id": "o2",
-                "text": "Memorizar una lista sin relación con la unidad"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Contar una historia sin conexión con el Reading"
+                "text": "Aunque «constancia» parece una decisión individual, conviene considerar «memoria» y «fluidez»."
               },
               {
                 "id": "o4",
-                "text": "Dar una única respuesta definitiva"
+                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+            "prompt": "Después de «A los cincuenta y seis años, Elena decidió aprender un idioma que…», ¿qué sucede a continuación en «Escucha · Aprender un idioma después de los cincuenta años»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Aceptarla de inmediato"
+                "text": "A los cincuenta y seis años, Elena decidió aprender un idioma que siempre había querido hablar."
               },
               {
                 "id": "o2",
-                "text": "Preguntar por fuentes, personas afectadas y consecuencias"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Evitar toda comparación"
+                "text": "Aunque «constancia» parece una decisión individual, conviene considerar «memoria» y «fluidez»."
               },
               {
                 "id": "o4",
-                "text": "Copiarla sin revisar"
+                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Para qué se usa la gramática de la unidad?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Aprender un idioma después de los cincuenta años»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Para eliminar toda postura"
+                "text": "A los cincuenta y seis años, Elena decidió aprender un idioma que siempre había querido hablar."
               },
               {
                 "id": "o2",
-                "text": "Para repetir palabras aisladas"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Para formular una idea con precisión y reservas"
+                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
               },
               {
                 "id": "o4",
-                "text": "Para evitar reconocer límites"
+                "text": "Aunque «constancia» parece una decisión individual, conviene considerar «memoria» y «fluidez»."
               }
             ]
           },
           {
-            "id": "l4",
+            "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué pregunta final propone el audio?",
+            "prompt": "¿Qué resultado cierra «Escucha · Aprender un idioma después de los cincuenta años» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Qué aplicación es más rápida"
+                "text": "A los cincuenta y seis años, Elena decidió aprender un idioma que siempre había querido hablar."
               },
               {
                 "id": "o2",
-                "text": "Cómo evitar cualquier debate"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Qué palabra es más difícil de pronunciar"
+                "text": "Aunque «constancia» parece una decisión individual, conviene considerar «memoria» y «fluidez»."
               },
               {
                 "id": "o4",
-                "text": "Qué evidencia sostendría o modificaría una postura"
+                "text": "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
               }
             ]
           }
@@ -45527,47 +45439,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal del audio?",
+        "prompt": "En «Escucha · Aprender un idioma después de los cincuenta años», ¿qué detalle presenta la situación?",
         "options": [
-          "Analizar el tema con evidencia, contexto y matices",
-          "Memorizar una lista sin relación con la unidad",
-          "Contar una historia sin conexión con el Reading",
-          "Dar una única respuesta definitiva"
-        ],
-        "explanation": "El audio adapta el Reading para analizarlo de forma crítica."
+          "A los cincuenta y seis años, Elena decidió aprender un idioma que siempre había querido hablar.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Aunque «constancia» parece una decisión individual, conviene considerar «memoria» y «fluidez».",
+          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+        "prompt": "Después de «A los cincuenta y seis años, Elena decidió aprender un idioma que…», ¿qué sucede a continuación en «Escucha · Aprender un idioma después de los cincuenta años»?",
         "options": [
-          "Aceptarla de inmediato",
-          "Preguntar por fuentes, personas afectadas y consecuencias",
-          "Evitar toda comparación",
-          "Copiarla sin revisar"
-        ],
-        "explanation": "El audio insiste en comprobar el origen, el impacto y el contexto de la información."
+          "A los cincuenta y seis años, Elena decidió aprender un idioma que siempre había querido hablar.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Aunque «constancia» parece una decisión individual, conviene considerar «memoria» y «fluidez».",
+          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Para qué se usa la gramática de la unidad?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Aprender un idioma después de los cincuenta años»?",
         "options": [
-          "Para eliminar toda postura",
-          "Para repetir palabras aisladas",
-          "Para formular una idea con precisión y reservas",
-          "Para evitar reconocer límites"
-        ],
-        "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
+          "A los cincuenta y seis años, Elena decidió aprender un idioma que siempre había querido hablar.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
+          "Aunque «constancia» parece una decisión individual, conviene considerar «memoria» y «fluidez»."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué pregunta final propone el audio?",
+        "prompt": "¿Qué resultado cierra «Escucha · Aprender un idioma después de los cincuenta años» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
         "options": [
-          "Qué aplicación es más rápida",
-          "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar",
-          "Qué evidencia sostendría o modificaría una postura"
-        ],
-        "explanation": "La pregunta final invita a justificar y revisar una conclusión."
+          "A los cincuenta y seis años, Elena decidió aprender un idioma que siempre había querido hablar.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Aunque «constancia» parece una decisión individual, conviene considerar «memoria» y «fluidez».",
+          "Puede sostener una conclusión provisional, identificar una objeción razonable y explicar qué nueva información obligaría a revisarla."
+        ]
       }
     ]
   },
@@ -45604,98 +45512,98 @@
       ],
       "transcript": "Muchas empresas globales empiezan con una idea pequeña, a veces en un garaje. Lo difícil no es solo crecer: es descubrir qué ocurre cuando una solución local se convierte en una organización que afecta a millones de personas. El asunto no se comprende si se reduce a una decisión individual. Para interpretarlo, debemos distinguir entre «idea», «prototipo» y «escala». Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional. La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones. En su lugar, conviene preguntar quién produce la información, a quién afecta la decisión y cómo se distribuyen sus posibles beneficios y costos. Aunque «idea» parece una decisión individual, conviene considerar «prototipo» y «escala». Desde esta perspectiva, sintetizar innovación, estrategia, escala y consecuencias sociales no consiste en repetir una conclusión. Exige argumentar con precisión, reconocer límites y escuchar perspectivas que quizá no aparezcan en la primera versión de los hechos. También conviene observar cómo se construye el propio marco del debate: qué indicador se elige, qué definición se adopta y qué experiencia puede quedar fuera de la medición. Una conclusión rigurosa no oculta esa selección; la explica y señala bajo qué condiciones cambiaría. Por eso, una escucha avanzada no se limita a localizar una respuesta literal.",
       "listeningComprehension": {
-        "id": "spanish-c2-defensa-y-sintesis-listening-comprehension",
+        "id": "spanish-c2-defensa-y-sintesis-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
-            "id": "l1",
+            "id": "q1",
             "type": "mcq",
-            "prompt": "¿Cuál es el propósito principal del audio?",
+            "prompt": "En «Escucha · Cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Analizar el tema con evidencia, contexto y matices"
+                "text": "Muchas empresas globales empiezan con una idea pequeña, a veces en un garaje."
               },
               {
                 "id": "o2",
-                "text": "Memorizar una lista sin relación con la unidad"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Contar una historia sin conexión con el Reading"
+                "text": "Desde esta perspectiva, sintetizar innovación, estrategia, escala y consecuencias sociales no consiste en repetir una conclusión."
               },
               {
                 "id": "o4",
-                "text": "Dar una única respuesta definitiva"
+                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
               }
             ]
           },
           {
-            "id": "l2",
+            "id": "q2",
             "type": "mcq",
-            "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+            "prompt": "Después de «Muchas empresas globales empiezan con una idea pequeña, a veces en un…», ¿qué sucede a continuación en «Escucha · Cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Aceptarla de inmediato"
+                "text": "Muchas empresas globales empiezan con una idea pequeña, a veces en un garaje."
               },
               {
                 "id": "o2",
-                "text": "Preguntar por fuentes, personas afectadas y consecuencias"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Evitar toda comparación"
+                "text": "Desde esta perspectiva, sintetizar innovación, estrategia, escala y consecuencias sociales no consiste en repetir una conclusión."
               },
               {
                 "id": "o4",
-                "text": "Copiarla sin revisar"
+                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
               }
             ]
           },
           {
-            "id": "l3",
+            "id": "q3",
             "type": "mcq",
-            "prompt": "¿Para qué se usa la gramática de la unidad?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Para eliminar toda postura"
+                "text": "Muchas empresas globales empiezan con una idea pequeña, a veces en un garaje."
               },
               {
                 "id": "o2",
-                "text": "Para repetir palabras aisladas"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Para formular una idea con precisión y reservas"
+                "text": "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones."
               },
               {
                 "id": "o4",
-                "text": "Para evitar reconocer límites"
+                "text": "Desde esta perspectiva, sintetizar innovación, estrategia, escala y consecuencias sociales no consiste en repetir una conclusión."
               }
             ]
           },
           {
-            "id": "l4",
+            "id": "q4",
             "type": "mcq",
-            "prompt": "¿Qué pregunta final propone el audio?",
+            "prompt": "¿Qué resultado cierra «Escucha · Cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Qué aplicación es más rápida"
+                "text": "Muchas empresas globales empiezan con una idea pequeña, a veces en un garaje."
               },
               {
                 "id": "o2",
-                "text": "Cómo evitar cualquier debate"
+                "text": "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional."
               },
               {
                 "id": "o3",
-                "text": "Qué palabra es más difícil de pronunciar"
+                "text": "Desde esta perspectiva, sintetizar innovación, estrategia, escala y consecuencias sociales no consiste en repetir una conclusión."
               },
               {
                 "id": "o4",
-                "text": "Qué evidencia sostendría o modificaría una postura"
+                "text": "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
               }
             ]
           }
@@ -45706,47 +45614,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuál es el propósito principal del audio?",
+        "prompt": "En «Escucha · Cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global», ¿qué detalle presenta la situación?",
         "options": [
-          "Analizar el tema con evidencia, contexto y matices",
-          "Memorizar una lista sin relación con la unidad",
-          "Contar una historia sin conexión con el Reading",
-          "Dar una única respuesta definitiva"
-        ],
-        "explanation": "El audio adapta el Reading para analizarlo de forma crítica."
+          "Muchas empresas globales empiezan con una idea pequeña, a veces en un garaje.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Desde esta perspectiva, sintetizar innovación, estrategia, escala y consecuencias sociales no consiste en repetir una conclusión.",
+          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué recomienda hacer ante una afirmación convincente?",
+        "prompt": "Después de «Muchas empresas globales empiezan con una idea pequeña, a veces en un…», ¿qué sucede a continuación en «Escucha · Cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global»?",
         "options": [
-          "Aceptarla de inmediato",
-          "Preguntar por fuentes, personas afectadas y consecuencias",
-          "Evitar toda comparación",
-          "Copiarla sin revisar"
-        ],
-        "explanation": "El audio insiste en comprobar el origen, el impacto y el contexto de la información."
+          "Muchas empresas globales empiezan con una idea pequeña, a veces en un garaje.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Desde esta perspectiva, sintetizar innovación, estrategia, escala y consecuencias sociales no consiste en repetir una conclusión.",
+          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Para qué se usa la gramática de la unidad?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Escucha · Cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global»?",
         "options": [
-          "Para eliminar toda postura",
-          "Para repetir palabras aisladas",
-          "Para formular una idea con precisión y reservas",
-          "Para evitar reconocer límites"
-        ],
-        "explanation": "La estructura gramatical sirve para matizar hipótesis y conclusiones."
+          "Muchas empresas globales empiezan con una idea pequeña, a veces en un garaje.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "La lectura propone evitar dos respuestas fáciles: aceptar una afirmación porque parece convincente o rechazarla sin examinar sus razones.",
+          "Desde esta perspectiva, sintetizar innovación, estrategia, escala y consecuencias sociales no consiste en repetir una conclusión."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué pregunta final propone el audio?",
+        "prompt": "¿Qué resultado cierra «Escucha · Cómo una idea nacida en un garaje terminó convirtiéndose en una empresa global» después de «La lectura propone evitar dos respuestas fáciles: aceptar una…»?",
         "options": [
-          "Qué aplicación es más rápida",
-          "Cómo evitar cualquier debate",
-          "Qué palabra es más difícil de pronunciar",
-          "Qué evidencia sostendría o modificaría una postura"
-        ],
-        "explanation": "La pregunta final invita a justificar y revisar una conclusión."
+          "Muchas empresas globales empiezan con una idea pequeña, a veces en un garaje.",
+          "Estos conceptos ayudan a separar lo que puede comprobarse de lo que todavía requiere contexto, contraste o una fuente adicional.",
+          "Desde esta perspectiva, sintetizar innovación, estrategia, escala y consecuencias sociales no consiste en repetir una conclusión.",
+          "Por eso, una escucha avanzada no se limita a localizar una respuesta literal."
+        ]
       }
     ]
   },
