@@ -325,6 +325,10 @@
         class="verb-list-item"
         data-verb-id="${escapeHtml(item.id)}"
         data-mastery="${escapeHtml(item.masteryStatus)}"
+        data-speak-text="${escapeHtml(item.audioText)}"
+        data-speak-locale="${escapeHtml(item.pronunciationLocale)}"
+        data-speak-rate="${item.pronunciationRate}"
+        title="Toca la tarjeta para escuchar la pronunciación"
       >
         <div class="verb-list-rank-row">
           <span class="verb-list-rank">#${item.frequencyRank}</span>
@@ -1757,6 +1761,19 @@
     const detailBtn = event.target.closest('.verb-open-detail-btn');
     if (detailBtn) {
       openVerbDetail(detailBtn.dataset.verbId);
+      return;
+    }
+
+    // The open area of a verb card is a pronunciation shortcut. Specific
+    // controls above retain their own actions (favorite, examples, practice
+    // and the explicit audio button), so tapping anywhere else on the card
+    // only plays its target word.
+    const verbTile = event.target.closest('.verb-list-item[data-speak-text]');
+    if (verbTile) {
+      speakText(verbTile.dataset.speakText, {
+        locale: verbTile.dataset.speakLocale,
+        rate: Number(verbTile.dataset.speakRate) || 1
+      });
       return;
     }
 

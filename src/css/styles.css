@@ -15156,10 +15156,17 @@ footer small {
   border-radius: var(--radius-md);
   background: var(--surface);
   box-shadow: var(--shadow-xs);
+  cursor: pointer;
+  transition: border-color 150ms ease, box-shadow 150ms ease, transform 150ms ease;
 }
 
 .verb-list-item:hover {
   border-color: color-mix(in srgb, var(--blue) 55%, var(--line));
+  box-shadow: 0 7px 18px rgba(37, 99, 235, 0.1);
+}
+
+.verb-list-item:active {
+  transform: scale(0.99);
 }
 
 .verb-list-rank-row,
