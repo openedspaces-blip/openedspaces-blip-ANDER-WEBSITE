@@ -15,7 +15,7 @@ const topics = [
   ['community-action','Community Action and Local Change','The Street That Organised','Sarah and Daniel help residents turn repeated complaints into a practical neighbourhood plan.','local action produces visible knowledge and trust','volunteers cannot replace adequately funded public services','connect community initiative with institutional responsibility',['grassroots','volunteer','petition','stakeholder','local council','initiative','public service','collective action'],'Emphatic cleft structures']
 ];
 
-const q=(prompt,options,answer)=>({type:'mcq',prompt,options,answer});
+const q=(prompt,options,answer,explanation)=>({type:'mcq',prompt,options,answer,explanation});
 const activity=(skill,fields)=>({skill,duration:skill==='reading'?20:16,xp:skill==='reading'?40:35,...fields});
 const grammarTest=(slug,title,exercises)=>({
   id:`english-b2-${slug}-grammar-test`,
@@ -26,7 +26,8 @@ const grammarTest=(slug,title,exercises)=>({
     prompt:exercise.prompt,
     options:exercise.options.map((text,optionIndex)=>({id:['a','b','c','d'][optionIndex],text})),
     correctOptionId:['a','b','c','d'][exercise.answer],
-    explanation:exercise.explanation||`Review ${title} and compare the form, meaning and register of all four options.`
+    explanation:exercise.explanation||`Review ${title} and compare the form, meaning and register of all four options.`,
+    difficulty:index<2?'application':index<6?'analysis':'precision'
   }))
 });
 
@@ -42,7 +43,7 @@ function buildReading(t) {
     ].join('\n\n');
   }
   return [
-    `${scene} What begins as a personal situation soon becomes a wider B2 question. Sarah and Daniel collect examples, speak to people affected by the issue and compare what they hear with information from reliable reports. They notice that the language used to describe the problem often determines which solutions appear reasonable.`,
+    `${scene} What begins as a personal situation soon becomes a wider public question. Sarah and Daniel collect examples, speak to people affected by the issue and compare what they hear with information from reliable reports. They notice that the language used to describe the problem often determines which solutions appear reasonable.`,
     `One side argues that ${claim}. Supporters point to practical examples and insist that waiting for a perfect solution would allow the problem to grow. Their position is persuasive because it identifies real consequences, although some of the evidence describes correlation rather than direct cause.`,
     `A different group replies that ${counter}. This objection does not necessarily reject the first concern; instead, it questions who carries the cost, whose experience is missing and whether the proposed response addresses a symptom rather than the underlying system.`,
     `Sarah and Daniel resist choosing a simple winner. They check the source of each claim, distinguish measurable facts from predictions and ask what evidence could change their minds. The disagreement becomes more useful once everyone states not only what they believe but also the assumptions behind that belief.`,
@@ -61,19 +62,12 @@ function buildUnit(t,index){
     q('How do Sarah and Daniel evaluate the debate?',['They choose the loudest speaker','They compare sources, facts and assumptions','They avoid all disagreement','They accept every prediction'],1),
     q('Which conclusion best represents the text?',['Only individuals are responsible',conclusion,'The issue has no solution','Evidence should be ignored'],1),
     q('What is the writer’s attitude?',['Completely dismissive','Critical but open to competing evidence','Unquestioningly enthusiastic','Unrelated to the topic'],1),
-    q('Which B2 skill is most important here?',['Evaluating argument and evidence','Listing isolated words','Copying one sentence','Memorising dates only'],0),
+    q('Which approach is most important here?',['Evaluating argument and evidence','Listing isolated words','Copying one sentence','Memorising dates only'],0),
     q('Why is the conclusion open to revision?',['The writer forgot the topic','New evidence may change a responsible judgement','Facts never exist','Every opinion is equally strong'],1),
     q('What function does the counterargument serve?',['It adds complexity and tests the first claim','It repeats the title','It ends the article immediately','It changes the language'],0),
     q(`Which term belongs most directly to this topic?`,['breakfast',words[0],'bedroom','weekend'],1)
   ];
-  const grammarExercises=Array.from({length:8},(_,i)=>q(
-    i===0?`What is the grammar focus of this unit?`:`Choose the sentence that uses ${grammar} appropriately in a formal B2 discussion.`,
-    i===0?['Basic spelling',grammar,'The alphabet','Numbers only']:[
-      `The issue is discussed without a clear structure.`,
-      `This example demonstrates controlled use of ${grammar} in context.`,
-      `This sentence no grammar.`,
-      `Using words random the issue.`
-    ],1));
+  const grammarExercises=buildB2GrammarExercises({ title, readingTitle, grammar, claim, counter, conclusion });
   return {slug,title,titleEs:title,description:scene,order:index+1,accessTier:index<2?'free':'premium',unitOverview:{objective:`Evaluate arguments about ${title.toLowerCase()}.`,outcomes:['identify a writer’s position','evaluate evidence and counterarguments','use topic vocabulary','apply advanced grammar'],grammar:[grammar],vocabulary:words.slice(0,4),scenario:scene},activities:{
     reading:activity('reading',{title:readingTitle,description:scene,reading:{title:readingTitle,text,questions:readingExercises.slice(0,3).map(x=>x.prompt)},exercises:readingExercises}),
     vocabulary:activity('vocabulary',{title:`Vocabulary: ${title}`,description:`Key language for ${title.toLowerCase()}.`,vocabulary,exercises:vocabulary.map((v,i)=>q(`Which term matches this definition: ${v.definition}`,[words[(i+1)%8],v.word,words[(i+2)%8],words[(i+3)%8]],1))}),
@@ -96,6 +90,144 @@ function buildUnit(t,index){
       grammarTest:grammarTest(slug,grammar,grammarExercises)
     })
   }};
+}
+
+function buildB2GrammarExercises({title,readingTitle,grammar,claim,counter,conclusion}) {
+  const contexts={
+    'Passive reporting structures':[
+      [`Which report sentence presents an unconfirmed claim cautiously in “${readingTitle}”?`,`The misleading post is believed to have reached thousands of local users before it was corrected.`],
+      ['Which option separates evidence from attribution?','Several residents are said to have shared the story without checking its source.'],
+      ['Which sentence is appropriate for a formal media-literacy report?','The platform is reported to be reviewing its moderation policy.'],
+      ['Which wording avoids claiming more evidence than is available?','The algorithm is thought to favour highly emotional content, although the available data are incomplete.'],
+      ['Which sentence correctly uses a passive reporting verb with an infinitive?','The original claim was considered to be misleading by independent fact-checkers.'],
+      ['Which sentence best reports a later development?','The correction is expected to receive less attention than the original post.'],
+      ['Which sentence uses the perfect infinitive accurately?','The rumour is believed to have originated in a private messaging group.'],
+      ['Which conclusion uses a reporting structure with suitable caution?','Greater transparency is widely regarded as necessary for restoring public trust.']
+    ],
+    'Causative and passive forms':[
+      ['Which sentence shows that the organisers arranged for someone else to do the work?','Festival organisers had the riverbank cleaned before volunteers arrived.'],
+      ['Which option focuses appropriately on the object affected by the action?','Thousands of plastic cups were collected during the clean-up.'],
+      ['Which sentence uses the causative form to describe a service?','The council is having new recycling bins installed near the station.'],
+      ['Which report sentence avoids hiding the responsible institution?','The city required retailers to reduce unnecessary packaging.'],
+      ['Which passive sentence describes an ongoing policy change?','Single-use containers are being replaced by reusable alternatives in several cafés.'],
+      ['Which sentence uses have something done correctly?','Residents can have damaged collection bins replaced through the local service.'],
+      ['Which option is most suitable for a formal environmental report?','The cost of waste disposal is often passed on to local communities.'],
+      ['Which sentence distinguishes a planned action from an accidental result?','The organisers had extra water stations provided for volunteers.']
+    ],
+    'Mixed conditionals':[
+      ['Which sentence links a past policy decision to its present consequence?','If cities had invested in public transport earlier, residents would rely less on private cars today.'],
+      ['Which option expresses a present condition with a past result?','If companies were more transparent now, they would have earned greater public trust during the crisis.'],
+      ['Which sentence makes a plausible mixed conditional argument?','If households had received clearer information, they would be making lower-carbon choices now.'],
+      ['Which sentence correctly combines a past cause with a current outcome?','If the infrastructure had not been neglected, the neighbourhood would be better prepared for extreme weather today.'],
+      ['Which option avoids confusing a real future possibility with a counterfactual?','If governments had acted sooner, adaptation costs would be lower now.'],
+      ['Which sentence is best for evaluating responsibility?','If major emitters took the issue more seriously today, earlier commitments would not have been abandoned so quickly.'],
+      ['Which conclusion uses a mixed conditional accurately?','If the subsidy had been designed more fairly, public support would be stronger now.'],
+      ['Which sentence keeps the time relationship clear?','If consumers were less dependent on cheap fuel now, last year’s price rise would have caused less disruption.']
+    ],
+    'Modals of deduction in the past':[
+      ['Which sentence makes a strong, evidence-based deduction about the contract?','The company must have known about the deadline, because it submitted the same documents in two municipalities.'],
+      ['Which option expresses a possible explanation without presenting it as fact?','Political connections may have influenced the decision, but the records do not prove this.'],
+      ['Which sentence draws a negative deduction from the evidence?','The officials cannot have reviewed every invoice carefully; several identical errors remained.'],
+      ['Which wording is most appropriate for investigative reporting?','The contractor might have underestimated the cost, although deliberate overpricing is also possible.'],
+      ['Which sentence avoids accusing someone without sufficient evidence?','The delay could have resulted from weak oversight rather than bribery.'],
+      ['Which sentence uses must have correctly?','The whistleblower must have had access to internal records to identify the missing payments.'],
+      ['Which option uses can’t have correctly?','The audit cannot have been completed before the emergency repairs began.'],
+      ['Which conclusion is suitably cautious?','The missing documents may have been removed, but the investigation has not established who removed them.']
+    ],
+    'Participle clauses':[
+      ['Which sentence uses a participle clause to add background information concisely?','Celebrating the holiday with friends, Sarah also listened to their criticisms of its history.'],
+      ['Which option avoids a dangling participle?','Raised during the discussion, the question of unequal freedom required a careful response.'],
+      ['Which sentence links cause and result clearly?','Having read several historical accounts, Daniel understood why the celebration meant different things to different families.'],
+      ['Which sentence uses a past participle clause accurately?','Founded on ideals of liberty, the national narrative has also been challenged by excluded voices.'],
+      ['Which option is suitable for a balanced B2 reflection?','Recognising both pride and contradiction, the group discussed the holiday respectfully.'],
+      ['Which sentence shows a completed earlier action?','Having spoken to local historians, Sarah revised her first impression.'],
+      ['Which option places the participle clause with the correct subject?','Watching the fireworks, the children asked why some neighbours chose not to celebrate.'],
+      ['Which conclusion uses a participle clause naturally?','Remembered differently across communities, the holiday invites both celebration and reflection.']
+    ],
+    'Advanced relative clauses':[
+      ['Which sentence identifies the person connected to the question of belonging?','Daniel spoke to a neighbour whose question made him reflect on his identity.'],
+      ['Which option uses a preposition before a relative pronoun correctly?','The community centre in which the meeting took place offered language classes.'],
+      ['Which sentence adds non-essential but relevant information?','His grandmother, from whom he learned the family stories, had migrated decades earlier.'],
+      ['Which option is most appropriate in a formal discussion?','The assumption that identity must be singular is one with which many migrants disagree.'],
+      ['Which sentence uses whose correctly?','She described the traditions whose meaning had changed after migration.'],
+      ['Which option avoids ending a formal relative clause with an unnecessary preposition?','The city to which they moved offered support for new arrivals.'],
+      ['Which sentence refers to an entire preceding idea?','Daniel described his mixed feelings, which surprised some of the listeners.'],
+      ['Which conclusion connects belonging and place accurately?','The neighbourhood where several languages are spoken has become a shared home.']
+    ],
+    'Comparatives with modifiers':[
+      ['Which sentence compares the two areas precisely?','Rent in the city centre is considerably higher than it was five years ago.'],
+      ['Which option uses a modifier with a comparative correctly?','New tenants are finding it far more difficult to secure affordable housing than long-term residents did.'],
+      ['Which sentence makes a measured comparison?','The proposed scheme is slightly less expensive, but it serves fewer families.'],
+      ['Which option strengthens a comparison appropriately?','Investment pressure has made the area much less accessible to lower-income workers.'],
+      ['Which sentence compares change over time accurately?','Wages have risen nowhere near as quickly as local rents.'],
+      ['Which option uses as … as correctly?','The outer district is not nearly as well connected as the city centre.'],
+      ['Which sentence makes a balanced policy comparison?','Building more homes is no less important than protecting existing tenants.'],
+      ['Which conclusion is suitable for a B2 report?','The new regulation is marginally more protective of renters than the previous one.']
+    ],
+    'Future perfect and future continuous':[
+      ['Which sentence describes a completed action by a future deadline?','By next summer, the hotel will have introduced a transparent system for allocating shifts.'],
+      ['Which option describes an action in progress at a future time?','This time next year, staff will be using the new scheduling platform every day.'],
+      ['Which sentence combines future planning with a clear deadline?','By 2030, the company will have trained every manager to review automated decisions.'],
+      ['Which option is appropriate for forecasting change?','In five years, workers will still be adapting to new forms of automation.'],
+      ['Which sentence uses the future perfect to evaluate progress?','By the end of the trial, the team will have collected enough feedback to assess the system.'],
+      ['Which option avoids using the present perfect for a future deadline?','By next month, the hotel will have published its fairness guidelines.'],
+      ['Which sentence describes a temporary future activity?','During the pilot, managers will be monitoring how the algorithm affects weekend shifts.'],
+      ['Which conclusion uses both forms coherently?','By the time the review begins, employees will have submitted comments and the panel will be examining them.']
+    ],
+    'Concession clauses':[
+      ['Which sentence concedes a benefit while keeping the main criticism clear?','Although low prices make fashion accessible, they can conceal serious labour costs.'],
+      ['Which option uses even though correctly?','Even though the shirt was cheap, its environmental cost was not insignificant.'],
+      ['Which sentence uses despite correctly?','Despite improving transparency, the company did not disclose the wages paid to suppliers.'],
+      ['Which option presents a contrast in a formal register?','While consumers may value convenience, regulation can still require better traceability.'],
+      ['Which sentence uses much as appropriately?','Much as the campaign raised awareness, it did not change purchasing habits overnight.'],
+      ['Which option avoids treating a concession as a contradiction?','Although the brand published a code of conduct, independent monitoring remained necessary.'],
+      ['Which sentence is best for a balanced conclusion?','Even if demand remains high, companies should reduce avoidable waste.'],
+      ['Which option maintains a clear logical relationship?','Despite the promise of cheaper clothing, the hidden costs are borne elsewhere.']
+    ],
+    'Inversion for emphasis':[
+      ['Which sentence uses inversion after a negative adverbial correctly?','Rarely do students receive clear guidance about every stage of a scholarship application.'],
+      ['Which option adds emphasis to a key finding?','Not only did mentoring improve the application, but it also made the student more confident.'],
+      ['Which sentence is grammatically correct after only when?','Only when the deadline approached did Daniel realise how much support the student needed.'],
+      ['Which option uses under no circumstances correctly?','Under no circumstances should financial barriers be treated as evidence of low ability.'],
+      ['Which sentence makes a formal contrast?','Little did the committee know that one missing document would delay the decision.'],
+      ['Which option is suitable for an academic conclusion?','No sooner had the guidance been published than students began asking for individual advice.'],
+      ['Which sentence uses scarcely correctly?','Scarcely had the mentoring programme started when demand exceeded expectations.'],
+      ['Which conclusion uses inversion without sounding theatrical?','Not until practical support is available can access become genuinely fair.']
+    ],
+    'Reported speech and reporting verbs':[
+      ['Which sentence reports the moderator’s warning accurately?','The moderator warned that the false claim could cause real harm.'],
+      ['Which option uses a reporting verb with the correct pattern?','Sarah urged forum members to check a source before sharing it.'],
+      ['Which sentence reports a request appropriately?','A resident asked whether the post could be removed while it was reviewed.'],
+      ['Which option distinguishes allegation from evidence?','The journalist alleged that the account had spread misinformation deliberately.'],
+      ['Which sentence uses advise correctly?','The policy team advised users not to repost unverified claims.'],
+      ['Which option reports an explanation rather than a direct quotation?','The platform explained that its appeal process allowed users to challenge decisions.'],
+      ['Which sentence uses deny accurately?','The account owner denied having intended to mislead readers.'],
+      ['Which conclusion reports a recommendation in a formal register?','The panel recommended that clear rules and appeal procedures be published.']
+    ],
+    'Emphatic cleft structures':[
+      ['Which sentence uses a wh-cleft to focus on the community’s need?','What residents need is a clear route from complaint to action.'],
+      ['Which option uses an it-cleft accurately?','It was the lack of coordination that delayed the neighbourhood plan.'],
+      ['Which sentence focuses on time appropriately?','What changed the discussion was the meeting held after work.'],
+      ['Which option highlights the responsible group?','It was local volunteers who first mapped the dangerous crossings.'],
+      ['Which sentence uses all correctly for emphasis?','All the residents wanted was a safe place for children to play.'],
+      ['Which option keeps the focus and verb agreement correct?','What the council needs to provide is reliable information about the timetable.'],
+      ['Which sentence draws attention to a specific action?','It was by sharing evidence that the group persuaded the council to respond.'],
+      ['Which conclusion uses a cleft naturally?','What makes local action effective is the connection between experience and public responsibility.']
+    ]
+  };
+  const items=contexts[grammar] || [];
+  return items.map(([prompt,correct],index)=>{
+    const options=[
+      `The discussion of ${title.toLowerCase()} includes several important viewpoints.`,
+      `The issue matters, but the report does not make its relationship clear.`,
+      `People have opinions about ${title.toLowerCase()}, and the situation is complicated.`,
+      correct
+    ];
+    const answer=index%4;
+    options.splice(3,1);
+    options.splice(answer,0,correct);
+    return q(prompt,options,answer,`The correct option applies ${grammar} accurately and keeps the argument connected to “${readingTitle}”.`);
+  });
 }
 
 const units = topics.map(buildUnit);

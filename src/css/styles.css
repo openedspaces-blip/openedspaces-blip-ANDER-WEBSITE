@@ -23133,6 +23133,164 @@ body {
   }
 }
 
+/* Vocabulary study cards: one calmer visual language for every course.
+   The front makes the L2 word feel like the focal point; the reverse keeps
+   meaning and review actions quietly structured instead of button-heavy. */
+.vocab-card-deck {
+  grid-template-columns: repeat(auto-fit, minmax(236px, 1fr));
+  gap: 1rem;
+}
+
+.vocab-card {
+  min-height: 224px;
+  border-radius: 20px;
+  transition: transform 180ms ease;
+}
+
+.vocab-card:hover {
+  transform: translateY(-3px);
+}
+
+.vocab-card-face {
+  gap: 0.55rem;
+  padding: 1.05rem;
+  border-color: rgba(37, 99, 235, 0.13);
+  border-radius: 20px;
+  background:
+    radial-gradient(circle at 92% 8%, rgba(34, 211, 238, 0.12), transparent 27%),
+    linear-gradient(145deg, #ffffff 0%, #fbfdff 68%, #f2f7ff 100%);
+  box-shadow: 0 8px 22px rgba(30, 64, 175, 0.07);
+}
+
+.vocab-card:hover .vocab-card-face {
+  border-color: rgba(37, 99, 235, 0.3);
+  box-shadow: 0 14px 30px rgba(30, 64, 175, 0.12);
+}
+
+.vocab-card-header {
+  min-height: 2rem;
+}
+
+.vocab-card-side-label {
+  padding: 0.27rem 0.52rem;
+  border: 1px solid rgba(37, 99, 235, 0.1);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.8);
+  color: #64748b;
+  font-size: 0.61rem;
+}
+
+.vocab-card-audio-btn {
+  width: 2.2rem;
+  height: 2.2rem;
+  border-color: rgba(37, 99, 235, 0.18);
+  background: linear-gradient(135deg, #eff6ff, #ecfeff);
+  box-shadow: 0 5px 12px rgba(37, 99, 235, 0.1);
+}
+
+.vocab-card-word-block {
+  gap: 0.48rem;
+}
+
+.vocab-card-target {
+  color: #13213d;
+  font-size: clamp(1.28rem, 1.55vw, 1.55rem);
+  letter-spacing: -0.025em;
+  line-height: 1.12;
+}
+
+.vocab-card-target--medium {
+  font-size: clamp(1.08rem, 1.3vw, 1.28rem);
+}
+
+.vocab-card-target--long {
+  font-size: 1rem;
+  line-height: 1.22;
+}
+
+.vocab-card-front-support {
+  color: #64748b;
+  font-size: 0.88rem;
+  font-weight: 650;
+}
+
+.vocab-card-phonetic {
+  padding: 0.2rem 0.48rem;
+  border-radius: 999px;
+  background: rgba(37, 99, 235, 0.06);
+  color: #526886;
+  font-size: 0.8rem;
+}
+
+.vocab-card-tag {
+  padding: 0.24rem 0.52rem;
+  border: 1px solid rgba(37, 99, 235, 0.12);
+  background: rgba(219, 234, 254, 0.58);
+  font-size: 0.63rem;
+}
+
+.vocab-card-front-footer {
+  padding-top: 0.52rem;
+  border-top: 1px solid rgba(37, 99, 235, 0.1);
+}
+
+.vocab-card-status {
+  padding: 0.25rem 0.5rem;
+  background: rgba(248, 250, 252, 0.9);
+  font-size: 0.64rem;
+}
+
+.vocab-card-hint {
+  font-size: 0.68rem;
+  font-weight: 700;
+}
+
+.vocab-card-back {
+  background:
+    radial-gradient(circle at 92% 6%, rgba(139, 92, 246, 0.1), transparent 27%),
+    linear-gradient(145deg, #f8fbff, #ffffff 72%);
+}
+
+.vocab-card-translation {
+  color: #2563eb;
+  font-size: 0.66rem;
+}
+
+.vocab-card-context {
+  padding: 0.62rem 0.68rem;
+  border-color: rgba(37, 99, 235, 0.12);
+  border-radius: 12px;
+  background: rgba(239, 246, 255, 0.58);
+}
+
+.vocab-card-actions {
+  gap: 0.34rem;
+  padding-top: 0.45rem;
+  border-top: 1px solid rgba(37, 99, 235, 0.1);
+}
+
+.vocab-know-btn,
+.vocab-retry-btn,
+.vocab-back-btn {
+  min-height: 2rem;
+  padding: 0.32rem 0.5rem;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.84);
+  font-size: 0.62rem;
+}
+
+.vocab-know-btn:hover { background: #ecfdf5; border-color: rgba(34, 197, 94, 0.45); }
+.vocab-retry-btn:hover { background: #fff7ed; border-color: rgba(245, 158, 11, 0.45); }
+.vocab-back-btn:hover { background: #eff6ff; border-color: rgba(37, 99, 235, 0.35); }
+
+@media (max-width: 640px) {
+  .vocab-card-deck { gap: 0.75rem; }
+  .vocab-card { min-height: 206px; }
+  .vocab-card:hover { transform: none; }
+  .vocab-card-face { padding: 0.9rem; }
+  .vocab-card-target { font-size: 1.24rem; }
+}
+
 /* Phone navigation stays deliberately compact: the complete navigation lives
    behind the menu button instead of forcing duplicate product tabs into the
    header. This leaves room for the account action and prevents clipped labels. */
@@ -23250,5 +23408,218 @@ body {
 
   .nav-actions .user-chip {
     max-width: 6.5rem;
+  }
+}
+
+/* Tutor IA on phones: keep attention on the conversation. The header becomes
+   a small app bar, context stays informative without becoming a second
+   toolbar, and the composer is a compact, thumb-friendly dock. */
+@media (max-width: 640px) {
+  .tutor-drawer-panel,
+  .tutor-drawer-panel.is-response-focused {
+    height: 100dvh;
+    max-height: 100dvh;
+    padding: max(0.55rem, env(safe-area-inset-top)) 0.55rem max(0.55rem, env(safe-area-inset-bottom));
+    gap: 0.4rem;
+  }
+
+  .tutor-drawer-head {
+    min-height: 44px;
+    padding: 0.05rem 0.1rem;
+  }
+
+  .tutor-drawer-eyebrow,
+  .tutor-drawer-brand small {
+    display: none;
+  }
+
+  .tutor-drawer-brand {
+    gap: 0.42rem;
+  }
+
+  .tutor-drawer-orb {
+    flex-basis: 2.15rem;
+    width: 2.15rem;
+    height: 2.15rem;
+    border-radius: 10px;
+  }
+
+  .tutor-drawer-head h2 {
+    font-size: 0.98rem;
+    line-height: 1.1;
+  }
+
+  .tutor-drawer-head .close-modal,
+  .tutor-drawer-head .tutor-conversation-toggle {
+    width: 2.35rem;
+    min-width: 2.35rem;
+    height: 2.35rem;
+    min-height: 2.35rem;
+    border-radius: 12px;
+  }
+
+  .tutor-drawer .tutor-context {
+    gap: 0.28rem;
+    padding: 0.05rem 0 0.1rem;
+  }
+
+  .tutor-drawer .tutor-context-pill {
+    padding: 0.3rem 0.48rem;
+    font-size: 0.68rem;
+  }
+
+  .tutor-drawer .tutor-connection-status {
+    display: none;
+  }
+
+  .tutor-panel-grid,
+  .tutor-drawer-panel.is-response-focused .tutor-panel-grid {
+    grid-template-rows: minmax(0, 1fr) auto;
+    gap: 0.45rem;
+  }
+
+  .tutor-panel-conversation {
+    min-height: 0;
+    padding: 0.5rem;
+    border-radius: 14px;
+    box-shadow: none;
+  }
+
+  .tutor-panel-conversation .tutor-conversation {
+    min-height: 0;
+    padding-right: 0.18rem;
+    touch-action: pan-y;
+  }
+
+  .tutor-welcome,
+  .tutor-message--tutor {
+    border-radius: 12px;
+  }
+
+  .tutor-welcome {
+    padding: 0.58rem 0.65rem;
+    font-size: 0.82rem;
+    line-height: 1.42;
+  }
+
+  .tutor-message {
+    max-width: 96%;
+    padding: 0.56rem 0.65rem;
+    font-size: 0.84rem;
+  }
+
+  .tutor-message--tutor p {
+    font-size: 0.84rem;
+    line-height: 1.45;
+  }
+
+  .tutor-new-question-btn {
+    min-height: 36px;
+    padding: 0.4rem 0.65rem;
+    font-size: 0.72rem;
+  }
+
+  .tutor-panel-controls,
+  .tutor-drawer-panel.is-response-focused .tutor-panel-controls {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-areas:
+      'quick quick'
+      'input input'
+      'dictate send'
+      'note clear';
+    gap: 0.38rem;
+    padding: 0.5rem;
+    border-radius: 14px;
+    box-shadow: 0 -6px 18px rgba(30, 64, 175, 0.07);
+  }
+
+  .tutor-quick-actions {
+    gap: 0.32rem;
+    padding-bottom: 0.05rem;
+  }
+
+  .tutor-quick-action {
+    min-height: 30px;
+    padding: 0.28rem 0.46rem;
+    font-size: 0.64rem;
+  }
+
+  .tutor-panel-controls .tutor-input-group > span {
+    display: none;
+  }
+
+  .tutor-panel-controls .tutor-input {
+    min-height: 52px;
+    max-height: 13dvh;
+    padding: 0.55rem 0.62rem;
+    font-size: 0.84rem;
+  }
+
+  .tutor-panel-controls .tutor-dictate-btn,
+  .tutor-panel-controls #tutorDrawerSend,
+  .tutor-panel-controls .tutor-dictate-stop-btn {
+    width: 100%;
+    min-height: 40px;
+    padding: 0.42rem 0.55rem;
+    font-size: 0.78rem;
+  }
+
+  .tutor-panel-controls .tutor-dictate-status {
+    min-height: 0;
+    align-self: center;
+    font-size: 0.66rem;
+    line-height: 1.25;
+  }
+
+  .tutor-panel-controls .tutor-dictate-status:empty {
+    display: none;
+  }
+
+  .tutor-panel-controls .tutor-clear-btn {
+    min-height: 30px;
+    padding: 0.25rem 0.4rem;
+    font-size: 0.64rem;
+  }
+
+  /* A reply must never leave the learner at a dead end on a phone. Keep the
+     compact composer available after each answer; quick prompts may stay out
+     of the way, but a follow-up can be typed or dictated immediately. */
+  .tutor-drawer-panel.is-response-focused .tutor-panel-controls .tutor-input-group,
+  .tutor-drawer-panel.is-response-focused .tutor-panel-controls .tutor-dictate-status,
+  .tutor-drawer-panel.is-response-focused .tutor-panel-controls .tutor-clear-btn {
+    display: grid;
+  }
+
+  .tutor-drawer-panel.is-response-focused .tutor-panel-controls .tutor-buttons {
+    display: contents;
+  }
+
+  .tutor-drawer-panel.is-response-focused .tutor-panel-controls .tutor-clear-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #tutor .tutor-hero {
+    grid-template-columns: minmax(0, 1fr) 58px;
+    gap: 0.55rem;
+    padding: 0.75rem;
+    border-radius: 18px;
+  }
+
+  #tutor .tutor-section-heading h2 {
+    font-size: 1.25rem;
+  }
+
+  #tutor .tutor-section-heading p,
+  #tutor .tutor-start-label {
+    font-size: 0.76rem;
+  }
+
+  .tutor-bot-mark--hero {
+    width: 54px;
+    height: 54px;
+    padding: 0.38rem;
+    border-radius: 18px;
   }
 }

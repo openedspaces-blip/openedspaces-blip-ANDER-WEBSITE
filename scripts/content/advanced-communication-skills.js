@@ -460,7 +460,10 @@ function frenchActivities(unit, level) {
 }
 
 function ensureEnglishGrammarExam(unit, level) {
-  const targetSize = { B2: 15, C1: 20, C2: 20 }[level];
+  // A test is a concise checkpoint. Extended item banks belong to guided
+  // practice; eight varied questions give B2-C2 learners a focused,
+  // assessable review without template-driven repetition.
+  const targetSize = { B2: 8, C1: 8, C2: 8 }[level];
   const grammar = unit.activities.grammar;
   const test = grammar?.grammarTest;
   const profile = grammar.grammarProfile || {};
@@ -478,7 +481,11 @@ function ensureEnglishGrammarExam(unit, level) {
     function: profile.function || profile.purpose || `Use ${name} to express precise relationships between ideas.`,
     examples: profile.examples || grammar.phrases || []
   };
-  if (!test || test.questions.length >= targetSize) return;
+  if (!test) return;
+  if (test.questions.length > targetSize) {
+    test.questions = test.questions.slice(0, targetSize);
+  }
+  if (test.questions.length >= targetSize) return;
 
   const stems = [
     `Which sentence uses ${name} with the most accurate form and register?`,

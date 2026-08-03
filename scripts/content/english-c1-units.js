@@ -397,9 +397,9 @@ const activity = (skill, fields) => ({ skill, duration: skill === 'reading' ? 24
 
 function buildReading(topic) {
   return [
-    `${topic.caseStudy} The case belongs to a recognisably current debate, but the central C1 task is not to repeat a headline. It is to determine which claim the available evidence supports, which causal mechanisms are plausible and whose interests or risks may disappear inside an average.`,
+    `${topic.caseStudy} The case belongs to a recognisably current debate, but the central task is not to repeat a headline. It is to determine which claim the available evidence supports, which causal mechanisms are plausible and whose interests or risks may disappear inside an average.`,
     `The strongest finding is that ${topic.finding} This matters because public discussion often treats a visible outcome as if it had a single cause. Scientific and social analysis instead asks how systems interact, what is being compared and whether the measurement captures the concept that policy is supposed to address.`,
-    `A genuine tension complicates the response: ${topic.tension} The second position does not erase the first. It identifies a cost, trade-off or distributional effect that a technically successful intervention may create. At C1, acknowledging that objection should refine the argument rather than reduce it to “both sides” without judgement.`,
+    `A genuine tension complicates the response: ${topic.tension} The second position does not erase the first. It identifies a cost, trade-off or distributional effect that a technically successful intervention may create. Acknowledging that objection should refine the argument rather than reduce it to “both sides” without judgement.`,
     `The most defensible response is therefore institutional as well as individual: ${topic.response} Such a programme requires measurable objectives, responsible organisations and a way to revise decisions when outcomes differ from expectations. It also requires language precise enough to separate observed results from forecasts and ethical preferences.`,
     `One limitation remains: ${topic.caution} The conclusion is consequently conditional rather than weak. A responsible reader can support action while specifying uncertainty, monitoring unequal effects and stating what future evidence would justify a different decision. That combination of judgement and revisability defines advanced scientific-social literacy.`
   ].join('\n\n');
@@ -407,7 +407,7 @@ function buildReading(topic) {
 
 function buildReadingExercises(topic) {
   return [
-    q('What is the main C1 task established in paragraph one?', ['Repeating the most recent headline', 'Evaluating claims, mechanisms and hidden distributional effects', 'Memorising every statistic', 'Rejecting public policy'], 1),
+    q('What analytical task is established in paragraph one?', ['Repeating the most recent headline', 'Evaluating claims, mechanisms and hidden distributional effects', 'Memorising every statistic', 'Rejecting public policy'], 1),
     q('Which finding anchors the article?', [topic.finding, topic.tension, topic.response, topic.caution], 0),
     q('Why does the writer reject single-cause explanations?', ['They are always grammatically incorrect', 'Current scientific-social problems emerge through interacting systems', 'They contain too much evidence', 'Policy never addresses causes'], 1),
     q('What function does the tension serve?', ['It adds a credible trade-off that the response must address', 'It cancels the evidence completely', 'It introduces an unrelated historical detail', 'It proves that no decision is possible'], 0),
@@ -444,9 +444,9 @@ function buildGrammarExercises(topic) {
     const answer = index % 4;
     const options = [
       source,
-      `${target} This being incorrect.`,
-      `Because ${source.toLowerCase()} therefore.`,
-      `The text uses words but not the target structure.`
+      `The evidence is relevant, but this version does not express the required relationship precisely.`,
+      `The claim may be persuasive; however, the target structure is not used accurately.`,
+      `The wording remains understandable, yet it does not achieve the intended formal emphasis.`
     ];
     options.splice(answer, 0, target);
     return q(`Choose the best C1 revision using ${topic.grammar}: “${source}”`, options.slice(0, 4), answer, topic.rule);
@@ -461,17 +461,18 @@ function buildGrammarExercises(topic) {
 }
 
 function grammarTest(topic, exercises) {
+  const assessment = exercises.slice(0, 8);
   return {
     id: `english-c1-${topic.slug}-grammar-test`,
     passingScore: 75,
-    questions: exercises.map((exercise, index) => ({
+    questions: assessment.map((exercise, index) => ({
       id: `english-c1-${topic.slug}-grammar-q${index + 1}`,
       type: 'mcq',
-      prompt: `🕵️ Grammar Detective — Challenge ${index + 1}: ${exercise.prompt}`,
+      prompt: exercise.prompt,
       options: exercise.options.map((text, optionIndex) => ({ id: ['a','b','c','d'][optionIndex], text })),
       correctOptionId: ['a','b','c','d'][exercise.answer],
-      explanation: `✅ Case solved: ${exercise.explanation || topic.rule}`,
-      difficulty: index < 2 ? 'medium' : 'hard'
+      explanation: exercise.explanation || topic.rule,
+      difficulty: index < 2 ? 'application' : index < 6 ? 'analysis' : 'precision'
     }))
   };
 }

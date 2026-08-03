@@ -273,7 +273,7 @@ function readingParts(topic) {
     `La mise en œuvre produit enfin des connaissances au lieu de se contenter d’appliquer un plan. Les règles sont interprétées par des agents, les techniques adaptées par leurs utilisateurs et les groupes concernés découvrent des conséquences imprévues. Sans mécanisme de retour, les hypothèses initiales deviennent des faits administratifs et l’incertitude est transférée vers celles et ceux qui disposent du moins de moyens pour la contester.`,
     `${topic.response} Cette orientation demeure volontairement conditionnelle. Elle formule une direction tout en conservant des critères de révision. Une institution responsable annonce les résultats attendus, les preuves qui infirmeraient son approche et l’autorité habilitée à la modifier ou à l’interrompre.`,
     `La leçon plus générale concerne la posture intellectuelle. L’humilité épistémique n’est pas l’indécision, pas plus que la confiance ne constitue une certitude. Un jugement mûr peut être ferme sur les éléments établis, explicite sur les mécanismes encore discutés et provisoire sur les prévisions. Cette combinaison rend visible la structure de l’engagement au lieu de la masquer sous une assurance rhétorique.`,
-    `Lire au niveau C2 revient ainsi à suivre un raisonnement à plusieurs échelles : phrase, paragraphe, institution et vision du monde. La maîtrise ne réside pas dans une complexité maximale, mais dans une complexité contrôlée : savoir ce qui doit être explicité, ce qui peut rester implicite, quelle objection mérite une réponse et à quel moment une conclusion soigneusement nuancée est plus forte qu’une affirmation absolue.`
+    `Suivre ce raisonnement revient ainsi à le considérer à plusieurs échelles : phrase, paragraphe, institution et vision du monde. La maîtrise ne réside pas dans une complexité maximale, mais dans une complexité contrôlée : savoir ce qui doit être explicité, ce qui peut rester implicite, quelle objection mérite une réponse et à quel moment une conclusion soigneusement nuancée est plus forte qu’une affirmation absolue.`
   ];
   return Array.from({ length: 6 }, (_, index) =>
     paragraphs.slice(index * 2, index * 2 + 2).join('\n\n')
@@ -321,10 +321,10 @@ function grammarExercises(topic) {
   return examples.slice(0, 8).map(([prompt, correct], index) => {
     const answer = index % 4;
     const options = [
-      'La complexité prouve automatiquement la validité de l’argument.',
-      'Les données étant conclusion, la certitude pourrait devoir être absolue.',
-      'Le sujet est important et il faudrait simplement le résoudre.',
-      'Ayant été considéré par les preuves, le résultat doit peut-être réussir.'
+      'Les données sont pertinentes ; la conclusion est donc certaine.',
+      'L’argument est recevable, mais il ne distingue pas suffisamment l’observation de l’inférence.',
+      'La proposition paraît utile, sans que ses conditions institutionnelles soient précisées.',
+      'La conclusion est prudente, mais la relation entre l’agent, la cause et l’effet reste imprécise.'
     ];
     options[answer] = correct;
     return mcq(
@@ -343,14 +343,14 @@ function grammarTest(topic, exercises) {
     questions: exercises.map((exercise, index) => ({
       id: `french-c2-${topic.slug}-grammar-q${index + 1}`,
       type: 'mcq',
-      prompt: `🕵️ Détective de la grammaire — Défi ${index + 1} : ${exercise.prompt}`,
+      prompt: exercise.prompt,
       options: exercise.options.map((text, optionIndex) => ({
         id: ['a', 'b', 'c', 'd'][optionIndex],
         text
       })),
       correctOptionId: ['a', 'b', 'c', 'd'][exercise.answer],
-      explanation: `✅ Enquête résolue : ${exercise.explanation}`,
-      difficulty: index < 5 ? 'intermédiaire' : index < 12 ? 'avancé' : 'maîtrise'
+      explanation: exercise.explanation,
+      difficulty: index < 2 ? 'application' : index < 6 ? 'analysis' : 'precision'
     }))
   };
 }
@@ -371,7 +371,7 @@ function buildUnit(topic, index) {
         );
       })
     : [
-    mcq('Quelle exigence analytique centrale le texte associe-t-il au niveau C2 ?', ['Reconstruire les présupposés, les voix et la portée des conclusions', 'Choisir systématiquement l’argument le plus long', 'Écarter toute donnée qualitative', 'Traduire chaque phrase isolément'], 0),
+    mcq('Quelle exigence analytique centrale le texte met-il en avant ?', ['Reconstruire les présupposés, les voix et la portée des conclusions', 'Choisir systématiquement l’argument le plus long', 'Écarter toute donnée qualitative', 'Traduire chaque phrase isolément'], 0),
     mcq('Pourquoi la présentation binaire d’un débat est-elle jugée insuffisante ?', ['Elle ne contient aucun exemple', 'Elle masque l’histoire, la distribution des risques et la question de l’autorité', 'Elle appartient uniquement à la littérature', 'Elle interdit toute conclusion'], 1),
     mcq('Que faut-il distinguer même lorsque ces éléments interagissent ?', ['Les paragraphes longs et courts', 'Les titres et les sous-titres', 'Les constats, prévisions, classifications et jugements normatifs', 'Les noms propres et les verbes'], 2),
     mcq('Comment le texte compare-t-il données quantitatives et enquêtes qualitatives ?', ['Leur pertinence dépend de la question et de la qualité de l’inférence', 'Les nombres sont toujours supérieurs', 'Les témoignages remplacent toute mesure', 'Les deux formes sont inutiles'], 0),

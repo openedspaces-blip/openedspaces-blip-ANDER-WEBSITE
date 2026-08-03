@@ -167,7 +167,7 @@ topics.forEach((topic, index) => {
 function essay(topic) {
   const [,,title,problem,tension,response]=topic;
   return [
-    `${title} begins with a difficulty that resists the usual demand for a simple position. ${problem} At C2 level, the central task is not merely to identify arguments but to reconstruct the assumptions that allow those arguments to count as reasonable in the first place.`,
+    `${title} begins with a difficulty that resists the usual demand for a simple position. ${problem} The central task is not merely to identify arguments but to reconstruct the assumptions that allow those arguments to count as reasonable in the first place.`,
     `The issue is frequently narrated as a conflict between innovation and restraint. That framing is useful, yet incomplete. It compresses institutional history, unequal exposure to risk and disagreement about legitimate authority into two apparently symmetrical choices. Once those suppressed dimensions are restored, the vocabulary of “progress” and “delay” becomes less neutral than it initially appears.`,
     `${tension} The apparent contradiction is not evidence that analysis has failed. It indicates that the object of analysis contains values that cannot be maximised simultaneously. Precision therefore requires a distinction between empirical claims, forecasts, legal classifications and ethical judgements, even when a single paragraph moves among all four.`,
     `Evidence in such debates is rarely absent; it is unevenly distributed and differently interpreted. Quantitative models can reveal scale and sensitivity, while qualitative accounts disclose mechanisms, lived consequences and categories the model may have assumed rather than tested. Neither form should be treated as automatically superior. Their relevance depends on the question, the quality of collection and the inferential distance between observation and conclusion.`,
@@ -178,7 +178,7 @@ function essay(topic) {
     `Implementation also produces knowledge rather than simply applying it. Rules are interpreted by administrators, technologies are adapted by users and affected groups discover consequences that designers did not anticipate. Feedback mechanisms must therefore be treated as part of the intervention itself. Without them, initial assumptions harden into administrative facts and uncertainty is transferred to those least able to contest it.`,
     `${response} This conclusion is deliberately conditional. It identifies a direction while preserving criteria for revision. Responsible institutions should announce what outcomes they expect, what evidence would count against their approach and who possesses the authority to alter or terminate it.`,
     `The broader lesson concerns intellectual posture. Epistemic humility is not indecision, just as confidence is not certainty. A mature judgement can be firm about established evidence, explicit about unresolved mechanisms and provisional about forecasts. That combination is more demanding than either scepticism or advocacy because it makes the structure of commitment visible.`,
-    `Ultimately, C2 reading asks the learner to follow argument across levels: sentence, paragraph, institution and worldview. The achievement lies not in producing maximal complexity but in controlling complexity—deciding what must be stated, what can be implied, which alternative must be answered and where a carefully qualified conclusion is stronger than an absolute one.`
+    `Ultimately, the analysis follows argument across several scales: sentence, paragraph, institution and worldview. Its achievement lies not in producing maximal complexity but in controlling complexity—deciding what must be stated, what can be implied, which alternative must be answered and where a carefully qualified conclusion is stronger than an absolute one.`
   ].join('\n\n');
 }
 
@@ -224,10 +224,10 @@ function grammarExercises(topic) {
   return questionStems.map(([prompt,correct],index)=>q(
     prompt,
     [
-      index % 4 === 0 ? correct : 'The claim proves itself because complexity always guarantees accuracy.',
-      index % 4 === 1 ? correct : 'Evidence is being perhaps conclusion without any stated limitation.',
-      index % 4 === 2 ? correct : 'The issue is very big and people should basically fix it somehow.',
-      index % 4 === 3 ? correct : 'Having considered by the evidence, the policy definitely must perhaps succeed.'
+      index % 4 === 0 ? correct : 'The evidence is relevant, so the conclusion is certainly correct.',
+      index % 4 === 1 ? correct : 'The evidence may be useful, but no distinction is made between observation and inference.',
+      index % 4 === 2 ? correct : 'The policy seems promising; however, its institutional and distributional conditions are not specified.',
+      index % 4 === 3 ? correct : 'The proposal deserves attention, although the claim is stated more strongly than the available evidence permits.'
     ],
     index % 4,
     `The correct option applies ${name} with controlled form, scope, register and evidential commitment.`
@@ -235,16 +235,18 @@ function grammarExercises(topic) {
 }
 
 function test(topic, exercises) {
+  const assessment=exercises.slice(0,8);
   return {
     id:`english-c2-${topic[0]}-grammar-test`,
     passingScore:70,
-    questions:exercises.map((exercise,index)=>({
+    questions:assessment.map((exercise,index)=>({
       id:`english-c2-${topic[0]}-grammar-q${index+1}`,
       type:'mcq',
-      prompt:`🕵️ Grammar Detective — Challenge ${index+1}: ${exercise.prompt}`,
+      prompt:exercise.prompt,
       options:exercise.options.map((text,optionIndex)=>({id:['a','b','c','d'][optionIndex],text})),
       correctOptionId:['a','b','c','d'][exercise.answer],
-      explanation:`✅ Case solved: ${exercise.explanation}`
+      explanation:exercise.explanation,
+      difficulty:index<2?'application':index<6?'analysis':'precision'
     }))
   };
 }
@@ -256,7 +258,7 @@ function buildUnit(topic,index) {
   const readingExercises=[
     q('What is the essay’s central analytical demand?',['To reconstruct the assumptions that make arguments appear reasonable','To select the longest argument','To reject every model','To avoid ethical judgement'],0),
     q('Why is the innovation-versus-restraint framing incomplete?',['It contains no verbs','It suppresses history, unequal risk and questions of authority','It is always scientifically false','It only applies to literature'],1),
-    q('What does the essay say about empirical and ethical claims?',['They are identical','Ethical claims replace evidence','They should be distinguished even when they interact','Neither belongs in C2 writing'],2),
+    q('What does the essay say about empirical and ethical claims?',['They are identical','Ethical claims replace evidence','They should be distinguished even when they interact','Neither belongs in rigorous analysis'],2),
     q('How are quantitative and qualitative evidence compared?',['Relevance depends on the question and quality of inference','Numbers are always superior','Accounts are always superior','Both are rejected'],0),
     q('What risk can nominalisation create?',['It always makes prose informal','It can conceal time, causation or disagreement','It prevents paragraphing','It removes vocabulary'],1),
     q('What makes a counterargument serious?',['It merely mentions disagreement','It identifies the strongest alternative and the premise challenged','It treats every view as equal','It avoids evidence'],1),

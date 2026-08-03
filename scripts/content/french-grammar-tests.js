@@ -10,16 +10,16 @@ function mcqQuestion(level, unitSlug, exercise, index) {
   return {
     id: `french-${level.toLowerCase()}-${unitSlug}-grammar-q${index + 1}`,
     type: 'mcq',
-    prompt: `🕵️ Détective de la grammaire — Défi ${index + 1} : ${exercise.prompt}`,
+    prompt: exercise.prompt,
     options: (exercise.options || []).map((text, optionIndex) => ({
       id: OPTION_IDS[optionIndex] || `o${optionIndex + 1}`,
       text
     })),
     correctOptionId: OPTION_IDS[exercise.answer] || `o${exercise.answer + 1}`,
     explanation:
-      `✅ Enquête résolue : ${exercise.explanation ||
+      `${exercise.explanation ||
       `La bonne réponse est « ${(exercise.options || [])[exercise.answer]} » : elle respecte la structure étudiée dans cette leçon.`}`,
-    difficulty: index < 2 ? 'application' : 'consolidation'
+    difficulty: index < 2 ? 'application' : index < 6 ? 'analysis' : 'precision'
   };
 }
 
@@ -41,7 +41,7 @@ function correctionQuestion(level, unitSlug, exercise, index) {
     explanation: hasSentence
       ? `La phrase correcte est : « ${correctedSentence} »`
       : `La bonne réponse est « ${correct} ».`,
-    difficulty: 'consolidation'
+    difficulty: 'precision'
   };
 }
 
