@@ -76,6 +76,15 @@
         </div>
       </a>
 
+      <nav class="mobile-header-tabs" aria-label="Pestañas principales">
+        <a href="#learn"><span aria-hidden="true">📘</span>Aprender</a>
+        <a href="#tests"><span aria-hidden="true">✓</span>Tests</a>
+        <a href="#verbs"><span aria-hidden="true">Aa</span>Verbos</a>
+        <a href="#music"><span aria-hidden="true">♪</span>Music</a>
+        <a href="#tutor"><span aria-hidden="true">✦</span>Tutor</a>
+        <a href="#translator"><span aria-hidden="true">文</span>Traductor</a>
+      </nav>
+
       <button
         class="menu-toggle"
         type="button"
@@ -99,6 +108,7 @@
         </span>
         <span class="nav-group nav-group-member" hidden>
           <a href="#learn" data-i18n="navLearnMember">Aprender</a>
+          <a href="#tests">Tests</a>
           <a href="#verbs" data-i18n="navVerbs">Verbos</a>
           <a href="#music">Music</a>
           <a href="#tutor" data-i18n="navTutor">Tutor I.A.</a>
@@ -885,6 +895,42 @@
         </div>
       </section>
 
+      <section id="tests" class="section tests-section compact-hidden-section" aria-label="Tests por idioma y nivel">
+        <div class="section-heading section-heading-compact">
+          <span>Tests</span>
+          <h2 tabindex="-1">Demuestra lo que aprendiste</h2>
+          <p>Exámenes de Grammar y Vocabulary organizados por nivel y lección.</p>
+        </div>
+        <div class="tests-shell">
+          <aside class="tests-sidebar">
+            <span class="tests-eyebrow" id="testsLanguageEyebrow">English assessment</span>
+            <h3>Elige tu examen</h3>
+            <label for="testLanguageSelect">Idioma
+              <select id="testLanguageSelect">
+                <option value="english">English</option>
+                <option value="french">Français</option>
+                <option value="spanish">Español · Próximamente</option>
+              </select>
+            </label>
+            <label for="testLevelSelect">Nivel
+              <select id="testLevelSelect">
+                <option value="A1">A1</option><option value="A2">A2</option>
+                <option value="B1">B1</option><option value="B2">B2</option>
+                <option value="C1">C1</option><option value="C2">C2</option>
+              </select>
+            </label>
+            <label for="testLessonSelect">Lección
+              <select id="testLessonSelect"><option>Cargando lecciones…</option></select>
+            </label>
+            <button type="button" class="primary-btn" id="startLessonTestBtn">Comenzar test</button>
+            <div class="tests-spec"><strong>12 preguntas</strong><span>Grammar + Vocabulary + Verbs</span><span>Corrección inmediata · Nota sobre 100</span></div>
+          </aside>
+          <article class="tests-stage" id="testsStage" aria-live="polite">
+            <div class="tests-welcome"><span aria-hidden="true">✓</span><h3>Un examen a tu medida</h3><p>Selecciona un nivel y una lección. Podrás responder aquí, revisar tu resultado y descargarlo.</p></div>
+          </article>
+        </div>
+      </section>
+
       <section id="music" class="section music-section compact-hidden-section" aria-label="Music">
         <div class="section-heading section-heading-compact">
           <span>Music</span>
@@ -1309,6 +1355,7 @@
         <div class="skill-tabs is-open" id="translatorTabs">
           <div class="skill-tab-list">
             <button class="skill-tab-button active" type="button" data-skill="translate">Traducir</button>
+            <button class="skill-tab-button" type="button" data-skill="interpreter">Intérprete</button>
             <button class="skill-tab-button" type="button" data-skill="corrector">Corrector</button>
             <button class="skill-tab-button" type="button" data-skill="phonetics">Fonética</button>
           </div>
@@ -1339,6 +1386,19 @@
               <!-- Populated at runtime, same as translatorSourceLang above. -->
               <select id="translatorTargetLang"></select>
             </label>
+          </div>
+
+          <div class="translator-primary-actions" aria-label="Acciones del traductor">
+            <button type="button" class="primary-btn" id="translatorSubmitBtn">Traducir →</button>
+            <button
+              type="button"
+              class="secondary-btn translator-stop-btn"
+              id="translatorStopBtn"
+              aria-label="Detener audio o dictado"
+            >
+              ⏹ Detener
+            </button>
+            <span class="translator-status" id="translatorStatus" role="status" aria-live="polite">Listo</span>
           </div>
 
           <div class="translator-grid">
@@ -1404,12 +1464,6 @@
               <p class="translator-char-count" id="translatorCharCount" aria-live="polite">
                 0 / 1000
               </p>
-              <div class="translator-actions">
-                <button type="button" class="primary-btn" id="translatorSubmitBtn">Traducir →</button>
-                <span class="translator-status" id="translatorStatus" role="status" aria-live="polite"
-                  >Listo</span
-                >
-              </div>
               <label class="translator-suggestions-toggle">
                 <input type="checkbox" id="translatorSuggestionsToggle" checked />
                 Sugerencias predictivas
@@ -1453,6 +1507,50 @@
         </div>
         </div>
 
+        <div class="skill-panel" data-skill="interpreter">
+          <div class="translator-panel interpreter-panel">
+            <div class="interpreter-heading">
+              <div>
+                <span class="tests-eyebrow">Conversación por voz</span>
+                <h3>Modo intérprete</h3>
+                <p>Habla por turnos. ANDERGO traduce y pronuncia cada intervención.</p>
+              </div>
+              <button type="button" class="secondary-btn" id="interpreterClearBtn">Limpiar conversación</button>
+            </div>
+            <div class="translator-controls interpreter-controls">
+              <label for="interpreterLangA">Primera persona
+                <select id="interpreterLangA"></select>
+              </label>
+              <button type="button" class="translator-swap-btn" id="interpreterSwapBtn" aria-label="Intercambiar idiomas">⇄</button>
+              <label for="interpreterLangB">Segunda persona
+                <select id="interpreterLangB"></select>
+              </label>
+            </div>
+            <div class="interpreter-talk-grid">
+              <button type="button" class="interpreter-talk-btn interpreter-talk-btn--a" id="interpreterTalkA">
+                <span aria-hidden="true">🎙</span>
+                <strong>Hablar</strong>
+                <small id="interpreterTalkALabel">Primer idioma</small>
+              </button>
+              <button type="button" class="interpreter-talk-btn interpreter-talk-btn--b" id="interpreterTalkB">
+                <span aria-hidden="true">🎙</span>
+                <strong>Hablar</strong>
+                <small id="interpreterTalkBLabel">Segundo idioma</small>
+              </button>
+            </div>
+            <div class="interpreter-actions">
+              <button type="button" class="secondary-btn translator-stop-btn" id="interpreterStopBtn">⏹ Detener</button>
+              <span class="translator-status" id="interpreterStatus" role="status" aria-live="polite">Listo para interpretar.</span>
+            </div>
+            <div class="interpreter-conversation" id="interpreterConversation" aria-live="polite">
+              <div class="interpreter-empty">
+                <span aria-hidden="true">🎧</span>
+                <p>Elige el botón del idioma que va a hablar para comenzar.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div class="skill-panel" data-skill="corrector">
           <div class="translator-panel corrector-panel">
             <div class="translator-controls">
@@ -1481,6 +1579,9 @@
                 </p>
                 <div class="translator-field-actions corrector-input-actions">
                   <button type="button" class="secondary-btn" id="correctorClearBtn">Limpiar</button>
+                  <button type="button" class="secondary-btn" id="correctorTalkBtn" aria-label="Hablar el texto para corregir">
+                    🎙 Hablar
+                  </button>
                   <div class="corrector-submit-stack">
                     <button type="button" class="primary-btn" id="correctorSubmitBtn">Corregir →</button>
                     <span class="translator-status" id="correctorStatus" role="status" aria-live="polite">Listo</span>
@@ -1504,7 +1605,7 @@
                     aria-label="Escuchar corrección"
                     disabled
                   >
-                    🔊 Escuchar
+                    🔊 Repetir
                   </button>
                   <button type="button" class="primary-btn" id="correctorApplyBtn" disabled>
                     Aplicar corrección

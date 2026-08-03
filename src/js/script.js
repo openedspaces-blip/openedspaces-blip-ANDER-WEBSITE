@@ -3743,6 +3743,42 @@ function renderPreA1VisualCourse(selectedTopicId = '') {
         : [1, 3, 5];
   const completed = progress.size;
   const pct = Math.round((completed / course.length) * 100);
+  const starterGreetingSets = {
+    english: {
+      greetings: ['Hello!', 'Hi!', 'Good morning!'],
+      goodbyes: ['Goodbye!', 'Bye!', 'See you soon!'],
+      check: 'Which expression is a goodbye?',
+      options: ['Good morning!', 'See you soon!', 'Hello!'],
+      answer: 1
+    },
+    french: {
+      greetings: ['Bonjour !', 'Salut !', 'Bonsoir !'],
+      goodbyes: ['Au revoir !', 'À bientôt !', 'À demain !'],
+      check: 'Quelle expression est une despedida ?',
+      options: ['Bonjour !', 'À demain !', 'Merci !'],
+      answer: 1
+    },
+    spanish: {
+      greetings: ['¡Hola!', '¡Buenos días!', '¡Buenas tardes!'],
+      goodbyes: ['¡Adiós!', '¡Chao!', '¡Hasta luego!'],
+      check: '¿Cuál expresión es una despedida?',
+      options: ['¡Buenos días!', '¡Hasta luego!', '¡Hola!'],
+      answer: 1
+    }
+  };
+  const starterGreetingSet = ['hello', 'bonjour', 'hola'].includes(selected.id)
+    ? starterGreetingSets[language]
+    : null;
+  const starterGreetingExercise = starterGreetingSet
+    ? `<section class="pre-a1-greeting-sort" aria-label="Saludos y despedidas">
+        <div class="pre-a1-greeting-sort-head"><span class="pre-a1-kicker">Mini ejercicio</span><h4>Saludos a un lado, despedidas al otro</h4><p>Escucha cada expresión y descubre cuándo la usarías.</p></div>
+        <div class="pre-a1-greeting-columns">
+          <div><strong>👋 Saludos</strong>${starterGreetingSet.greetings.map((word) => `<button type="button" class="pre-a1-greeting-word pre-a1-listen" data-speech="${escapeHtml(word)}">🔊 ${escapeHtml(word)}</button>`).join('')}</div>
+          <div><strong>👋 Despedidas</strong>${starterGreetingSet.goodbyes.map((word) => `<button type="button" class="pre-a1-greeting-word pre-a1-listen" data-speech="${escapeHtml(word)}">🔊 ${escapeHtml(word)}</button>`).join('')}</div>
+        </div>
+        <div class="pre-a1-greeting-check"><span>${escapeHtml(starterGreetingSet.check)}</span><div>${starterGreetingSet.options.map((option, index) => `<button type="button" class="pre-a1-greeting-choice" data-pre-a1-greeting-choice="${index}" data-pre-a1-greeting-answer="${starterGreetingSet.answer}">${escapeHtml(option)}</button>`).join('')}</div><p aria-live="polite">Elige una respuesta.</p></div>
+      </section>`
+    : '';
 
   section.classList.add('pre-a1-active');
   section.classList.toggle('pre-a1-lesson-open', lessonOpen);
@@ -3778,6 +3814,7 @@ function renderPreA1VisualCourse(selectedTopicId = '') {
     <div class="pre-a1-detail-head"><span class="pre-a1-detail-image" role="img" aria-label="Illustration: ${escapeHtml(selected.subtitle)}" style="${getPreA1SpriteStyle(selected)}"></span><div><span class="pre-a1-kicker">Mini lección</span><h3>${escapeHtml(selected.title)}</h3><p>${escapeHtml(selected.goal)}</p></div></div>
     <div class="pre-a1-mini-path" aria-label="Pasos de la lección"><span>1 · Mira</span><span>2 · Escucha</span><span>3 · Habla</span><span>4 · Comprueba</span></div>
     <div class="pre-a1-word-row">${selected.words.map(([word, support], index) => `<button type="button" class="pre-a1-word pre-a1-listen" data-speech="${escapeHtml(word)}" aria-label="Listen to ${escapeHtml(word)}"><b aria-hidden="true">${visuals[index]}</b><span>🔊 ${escapeHtml(word)}</span><small>${escapeHtml(support)}</small></button>`).join('')}</div>
+    ${starterGreetingExercise}
     <section class="pre-a1-review" aria-label="Repaso rápido"><span class="pre-a1-kicker">Repaso rápido</span><div>${reviewIndices.map((index) => `<button type="button" class="pre-a1-review-word pre-a1-listen" data-speech="${escapeHtml(selected.words[index][0])}"><b aria-hidden="true">${visuals[index]}</b><span>${escapeHtml(selected.words[index][0])}</span><small>${escapeHtml(selected.words[index][1])}</small></button>`).join('')}</div></section>
     <section class="pre-a1-picture-check" aria-label="Escucha y toca la imagen correcta">
       <div class="pre-a1-picture-check-head"><div><span class="pre-a1-kicker">Escucha y toca</span><h4>¿Qué imagen corresponde a la palabra?</h4></div><button type="button" class="secondary-btn pre-a1-listen" data-speech="${escapeHtml(selected.words[visualTargetIndex][0])}">🔊 Escuchar palabra</button></div>
@@ -3830,6 +3867,13 @@ function renderPreA1VisualCourse(selectedTopicId = '') {
     workspace.querySelectorAll('[data-pre-a1-visual-choice]').forEach((item) => item.classList.remove('is-correct', 'is-wrong'));
     button.classList.add(correct ? 'is-correct' : 'is-wrong');
     if (feedback) feedback.textContent = correct ? `¡Correcto! ${selected.words[visualTargetIndex][0]} significa ${selected.words[visualTargetIndex][1]}.` : 'Escucha otra vez y prueba con otra imagen.';
+  }));
+  workspace.querySelectorAll('[data-pre-a1-greeting-choice]').forEach((button) => button.addEventListener('click', () => {
+    const correct = Number(button.dataset.preA1GreetingChoice) === Number(button.dataset.preA1GreetingAnswer);
+    const feedback = workspace.querySelector('.pre-a1-greeting-check p');
+    workspace.querySelectorAll('[data-pre-a1-greeting-choice]').forEach((item) => item.classList.remove('is-correct', 'is-wrong'));
+    button.classList.add(correct ? 'is-correct' : 'is-wrong');
+    if (feedback) feedback.textContent = correct ? '¡Exacto! Esa expresión se usa para despedirse.' : 'Pista: una despedida se usa cuando la conversación termina.';
   }));
   workspace.querySelector('.pre-a1-repeat-confirm')?.addEventListener('click', (event) => {
     event.currentTarget.disabled = true;
@@ -6653,6 +6697,7 @@ function setTranslatorDictateStatusText(text) {
 function resetTranslatorDictateUI() {
   const micBtn = document.getElementById('translatorDictateBtn');
   const stopBtn = document.getElementById('translatorDictateStopBtn');
+  document.getElementById('translatorStopBtn')?.classList.remove('is-active');
   if (micBtn && translatorDictation.status !== 'unsupported') {
     micBtn.disabled = false;
     micBtn.classList.remove('is-listening');
@@ -6742,6 +6787,7 @@ async function startTranslatorDictation() {
     micBtn.setAttribute('aria-pressed', 'true');
   }
   if (stopBtn) stopBtn.hidden = false;
+  document.getElementById('translatorStopBtn')?.classList.add('is-active');
   setTranslatorDictateStatusText('Escuchando…');
 
   recognition.addEventListener('result', (event) => {
@@ -14829,6 +14875,67 @@ function closeTutorDrawer() {
   tutorDrawerReturnFocus = null;
 }
 
+// A topic session is shared by the full Tutor tab and the floating drawer.
+// It intentionally lives only in memory: changing or clearing topic starts a
+// fresh conversation, while opening the other Tutor surface keeps the thread.
+const TUTOR_TOPIC_MAX_INTERACTIONS = 10;
+const tutorTopicSessions = new Map();
+
+function getTutorTopicKey({ language, level, skill, lessonSlug, lessonTitle }) {
+  return [language || 'english', level || 'A1', skill || 'practice', lessonSlug || lessonTitle || 'general']
+    .map((part) => String(part).trim().toLowerCase())
+    .join('|');
+}
+
+function getTutorTopicSession(context) {
+  const key = getTutorTopicKey(context);
+  if (!tutorTopicSessions.has(key)) tutorTopicSessions.set(key, { turns: [] });
+  return { key, session: tutorTopicSessions.get(key) };
+}
+
+function resetTutorTopicSessions() {
+  tutorTopicSessions.clear();
+}
+
+function finishTutorTopic(conversationEl, promptEl, sendBtn) {
+  if (conversationEl && !conversationEl.querySelector('.tutor-topic-complete')) {
+    const note = document.createElement('p');
+    note.className = 'tutor-topic-complete';
+    note.textContent = 'Tema completado. Pulsa “Nuevo tema” cuando quieras continuar.';
+    conversationEl.appendChild(note);
+    conversationEl.scrollTop = conversationEl.scrollHeight;
+  }
+  if (promptEl) {
+    promptEl.value = '';
+    promptEl.disabled = true;
+    promptEl.placeholder = 'Este tema ya está cerrado. Pulsa “Nuevo tema” para continuar.';
+  }
+  if (sendBtn) {
+    sendBtn.disabled = true;
+    sendBtn.textContent = 'Tema completado';
+  }
+  const clearBtn = conversationEl?.id === 'tutorDrawerConversation'
+    ? document.getElementById('tutorDrawerClear')
+    : document.querySelector('#tutor .tutor-clear-btn');
+  if (clearBtn) clearBtn.textContent = 'Nuevo tema';
+  if (tutorConversationMode) setTutorConversationMode(false);
+}
+
+function restoreTutorTopicComposer(promptEl, sendBtn) {
+  if (promptEl) {
+    promptEl.disabled = false;
+    promptEl.placeholder = 'Ej.: Corrige este texto y dame una mini práctica para seguir.';
+  }
+  if (sendBtn) {
+    sendBtn.disabled = false;
+    sendBtn.textContent = sendBtn.id === 'tutorDrawerSend' ? 'Enviar' : 'Hablar con el tutor';
+  }
+  const clearBtn = promptEl?.id === 'tutorDrawerPrompt'
+    ? document.getElementById('tutorDrawerClear')
+    : document.querySelector('#tutor .tutor-clear-btn');
+  if (clearBtn) clearBtn.textContent = 'Limpiar conversación';
+}
+
 // Shared core behind both the full #tutor view's chat and the drawer's chat -
 // same request contract (§5: bridgeLanguage/targetLanguage/level/skill/
 // lessonSlug/lessonTitle/currentActivity/userMessage/supportMode), same
@@ -14884,6 +14991,13 @@ async function sendTutorMessage({
   const finalPrompt =
     customPrompt || selectedSuggestion || fallbackPrompt || 'Quiero practicar esta habilidad.';
   if (!finalPrompt) return null;
+  const topicContext = { language, level, skill, lessonSlug, lessonTitle };
+  const topicState = conversationEl ? getTutorTopicSession(topicContext) : null;
+  const topicTurn = topicState ? topicState.session.turns.filter((turn) => turn.role === 'user').length + 1 : 1;
+  if (topicState && topicTurn > TUTOR_TOPIC_MAX_INTERACTIONS) {
+    finishTutorTopic(conversationEl, promptEl, sendBtn);
+    return null;
+  }
   tutorLastAutoSentTranscript = customPrompt;
 
   if (conversationEl) appendTutorMessage(conversationEl, 'user', finalPrompt);
@@ -14926,6 +15040,9 @@ async function sendTutorMessage({
         currentActivity: currentActivity || '',
         supportMode: supportMode || 'practice',
         selectedSuggestion: selectedSuggestion || '',
+        history: topicState ? topicState.session.turns.slice(-12) : undefined,
+        topicTurn,
+        topicLimit: TUTOR_TOPIC_MAX_INTERACTIONS,
         transcript: transcript || '',
         vocabulary: vocabulary || '',
         currentQuestion: currentQuestion || '',
@@ -15033,6 +15150,14 @@ async function sendTutorMessage({
 
     if (streamError && !fullText) throw new Error(streamError);
 
+    if (topicState && fullText.trim()) {
+      topicState.session.turns.push(
+        { role: 'user', content: finalPrompt },
+        { role: 'tutor', content: fullText.trim() }
+      );
+      topicState.session.turns = topicState.session.turns.slice(-20);
+    }
+
     if (connectionStatusEl) connectionStatusEl.textContent = 'Conectado';
 
     // Fire-and-forget: starts the reply's audio as soon as it's ready
@@ -15061,6 +15186,10 @@ async function sendTutorMessage({
       resumeTutorConversationListening();
     }
 
+    if (topicState && topicTurn >= TUTOR_TOPIC_MAX_INTERACTIONS) {
+      finishTutorTopic(conversationEl, promptEl, sendBtn);
+    }
+
     return { reply: fullText };
   } catch (error) {
     if (requestController.signal.aborted) return null;
@@ -15080,7 +15209,7 @@ async function sendTutorMessage({
     if (thinkingEl) thinkingEl.hidden = true;
     // Stays disabled once the monthly free-query cap is hit - re-enabling
     // it would just let the student hit the same 403 again next click.
-    if (sendBtn && !lockedOut) sendBtn.disabled = false;
+    if (sendBtn && !lockedOut && !(topicState && topicTurn >= TUTOR_TOPIC_MAX_INTERACTIONS)) sendBtn.disabled = false;
   }
 }
 
@@ -15890,6 +16019,228 @@ mobileActivityMedia.addEventListener?.('change', () => {
 // renderer) all need to agree on the same set.
 const SKILL_VIEWS = ['listening', 'speaking', 'reading', 'writing', 'grammar', 'vocabulary'];
 
+const lessonTestState = { language: 'english', level: 'A1', units: [], lessons: [], unitId: '', questions: [], result: null };
+
+function shuffleTestItems(items, seed = 0) {
+  return [...items].sort((a, b) => {
+    const score = (value) => [...String(value)].reduce((sum, char) => sum + char.charCodeAt(0), seed);
+    return (score(a) % 17) - (score(b) % 17);
+  });
+}
+
+function getLessonTestQuestions(unitId) {
+  const unitLessons = lessonTestState.lessons.filter((item) => item.unitId === unitId || item.unit_slug === unitId);
+  const grammar = unitLessons.find((item) => item.skill === 'grammar');
+  const vocabulary = unitLessons.find((item) => item.skill === 'vocabulary');
+  const grammarQuestions = (grammar?.exercises || grammar?.grammarTest?.questions || [])
+    .filter((item) => item.type === 'mcq' && Array.isArray(item.options) && item.options.length >= 2)
+    .slice(0, 5)
+    .map((item, index) => ({
+      id: `g-${index}`,
+      area: 'Grammar',
+      prompt: item.prompt,
+      options: item.options.map((option) => optionLabel(option)),
+      answer: Number(item.answer ?? item.correctOption ?? 0)
+    }));
+  const words = (vocabulary?.vocabulary || vocabulary?.words || [])
+    .map((item, index) => normalizeVocabularyItem(item, { language: 'english', level: lessonTestState.level, bridgeLanguage: 'spanish', index, lessonSlug: vocabulary?.slug || '' }))
+    .filter((item) => item?.targetWord && item?.translation);
+  const vocabularyQuestions = words.slice(0, 5).map((item, index) => {
+    const distractors = words.filter((word) => word.id !== item.id).map((word) => word.translation).filter(Boolean);
+    const ordered = shuffleTestItems([item.translation, ...distractors.slice(index, index + 3)], index).slice(0, 4);
+    if (!ordered.includes(item.translation)) ordered[0] = item.translation;
+    return { id: `v-${index}`, area: 'Vocabulary', prompt: `What does “${item.targetWord}” mean?`, options: ordered, answer: ordered.indexOf(item.translation) };
+  });
+  return [...grammarQuestions, ...vocabularyQuestions];
+}
+
+function renderLessonTest() {
+  const stage = document.getElementById('testsStage');
+  const unit = lessonTestState.units.find((item) => item.id === lessonTestState.unitId);
+  if (!stage || !unit) return;
+  lessonTestState.questions = Array.isArray(unit.questions) ? unit.questions : [];
+  lessonTestState.result = null;
+  if (!lessonTestState.questions.length) {
+    stage.innerHTML = '<div class="tests-welcome"><h3>Este examen se está preparando</h3><p>La lección todavía no tiene suficientes preguntas publicadas.</p></div>';
+    return;
+  }
+  stage.innerHTML = `<div class="tests-paper" id="lessonTestPaper">
+    <header class="tests-paper-head"><div><span>${lessonTestState.language === 'french' ? 'Français' : 'English'} · ${escapeHtml(lessonTestState.level)}</span><h3>${escapeHtml(unit.title || `Lesson ${unit.order}`)}</h3><p>${lessonTestState.language === 'french' ? 'Grammaire + Vocabulaire + Verbes' : 'Grammar + Vocabulary + Verbs'} · ${lessonTestState.questions.length} ${lessonTestState.language === 'french' ? 'questions' : 'questions'}</p></div><strong>100<small>puntos</small></strong></header>
+    <form id="lessonTestForm" class="tests-question-list">${lessonTestState.questions.map((question, index) => `<fieldset class="tests-question" data-question-index="${index}" data-question-id="${escapeHtml(question.id)}"><legend><span>${index + 1}</span>${escapeHtml(question.prompt)}</legend><div>${question.options.map((option, optionIndex) => `<label><input type="radio" name="test-${index}" value="${optionIndex}"><span>${escapeHtml(option)}</span></label>`).join('')}</div><p class="tests-item-feedback" aria-live="polite">Selecciona una respuesta.</p></fieldset>`).join('')}
+      <button type="submit" class="primary-btn tests-submit" disabled>Evaluar resultado total · 0/${lessonTestState.questions.length}</button>
+    </form></div>`;
+  stage.querySelector('#lessonTestForm')?.addEventListener('submit', gradeLessonTest);
+  stage.querySelector('#lessonTestForm')?.addEventListener('change', handleLessonTestAnswer);
+}
+
+function playTestFeedbackSound(correct) {
+  const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+  if (!AudioContextClass) return;
+  const context = new AudioContextClass();
+  const oscillator = context.createOscillator();
+  const gain = context.createGain();
+  oscillator.type = correct ? 'sine' : 'triangle';
+  oscillator.frequency.setValueAtTime(correct ? 660 : 210, context.currentTime);
+  if (correct) oscillator.frequency.exponentialRampToValueAtTime(880, context.currentTime + 0.13);
+  else oscillator.frequency.exponentialRampToValueAtTime(150, context.currentTime + 0.16);
+  gain.gain.setValueAtTime(0.0001, context.currentTime);
+  gain.gain.exponentialRampToValueAtTime(0.12, context.currentTime + 0.015);
+  gain.gain.exponentialRampToValueAtTime(0.0001, context.currentTime + 0.2);
+  oscillator.connect(gain); gain.connect(context.destination); oscillator.start(); oscillator.stop(context.currentTime + 0.21);
+  oscillator.addEventListener('ended', () => context.close().catch(() => {}), { once: true });
+}
+
+async function handleLessonTestAnswer(event) {
+  const input = event.target.closest('input[type="radio"]');
+  const fieldset = input?.closest('.tests-question');
+  const form = input?.closest('#lessonTestForm');
+  if (!input || !fieldset || !form || fieldset.dataset.checked === 'true') return;
+  fieldset.dataset.checked = 'pending';
+  fieldset.querySelectorAll('input').forEach((item) => { item.disabled = true; });
+  const feedback = fieldset.querySelector('.tests-item-feedback');
+  if (feedback) feedback.textContent = 'Comprobando…';
+  try {
+    const response = await fetch(`${backendBaseUrl}/api/tests/check`, {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ language: lessonTestState.language, level: lessonTestState.level, unitSlug: lessonTestState.unitId, questionId: fieldset.dataset.questionId, answer: Number(input.value) })
+    });
+    const data = await response.json().catch(() => ({}));
+    if (!response.ok) throw new Error(data.error || 'No se pudo comprobar la respuesta.');
+    fieldset.dataset.checked = 'true';
+    fieldset.dataset.selectedAnswer = input.value;
+    fieldset.classList.add(data.correct ? 'is-correct' : 'is-wrong');
+    input.closest('label')?.classList.add(data.correct ? 'is-correct-choice' : 'is-wrong-choice');
+    if (feedback) feedback.innerHTML = data.correct ? '<strong>¡Muy bien!</strong> Respuesta correcta.' : `Aún no. La respuesta correcta es <strong>${escapeHtml(data.correctAnswer)}</strong>.`;
+    playTestFeedbackSound(data.correct);
+    const checked = form.querySelectorAll('.tests-question[data-checked="true"]').length;
+    const submit = form.querySelector('.tests-submit');
+    if (submit) { submit.disabled = checked !== lessonTestState.questions.length; submit.textContent = checked === lessonTestState.questions.length ? 'Ver mi evaluación total' : `Evaluar resultado total · ${checked}/${lessonTestState.questions.length}`; }
+  } catch (error) {
+    fieldset.dataset.checked = 'false';
+    fieldset.querySelectorAll('input').forEach((item) => { item.disabled = false; });
+    if (feedback) feedback.textContent = error.message;
+  }
+}
+
+async function gradeLessonTest(event) {
+  event.preventDefault();
+  const form = event.currentTarget;
+  const answers = [...form.querySelectorAll('.tests-question')].map((item) => Number(item.dataset.selectedAnswer));
+  if (answers.some((answer) => Number.isNaN(answer))) {
+    showHomeToast('Responde todas las preguntas antes de evaluar.');
+    return;
+  }
+  const submit = form.querySelector('.tests-submit');
+  if (submit) { submit.disabled = true; submit.textContent = 'Evaluando…'; }
+  let data;
+  try {
+    const response = await fetch(`${backendBaseUrl}/api/tests/grade`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ language: lessonTestState.language, level: lessonTestState.level, unitSlug: lessonTestState.unitId, answers: lessonTestState.questions.map((question, index) => ({ questionId: question.id, answer: answers[index] })) })
+    });
+    data = await response.json().catch(() => ({}));
+    if (!response.ok) throw new Error(data.error || 'No se pudo evaluar el test.');
+  } catch (error) {
+    if (submit) { submit.disabled = false; submit.textContent = 'Evaluar mi test'; }
+    showHomeToast(error.message);
+    return;
+  }
+  const { score, correct, total, results } = data;
+  lessonTestState.result = { score, correct, total, answers };
+  form.querySelectorAll('.tests-question').forEach((question, index) => {
+    question.classList.add(results?.[index]?.correct ? 'is-correct' : 'is-wrong');
+    question.querySelectorAll('input').forEach((input) => { input.disabled = true; });
+    if (!results?.[index]?.correct && results?.[index]?.correctAnswer) question.insertAdjacentHTML('beforeend', `<p class="tests-correct-answer">Correct answer: <strong>${escapeHtml(results[index].correctAnswer)}</strong></p>`);
+  });
+  form.querySelector('.tests-submit')?.remove();
+  form.insertAdjacentHTML('beforeend', `<section class="tests-result"><span>Resultado</span><strong>${score}/100</strong><p>${correct} de ${lessonTestState.questions.length} respuestas correctas.</p><div><button type="button" class="secondary-btn" data-test-action="pdf">Descargar PDF</button><button type="button" class="secondary-btn" data-test-action="word">Descargar Word</button><button type="button" class="primary-btn" data-test-action="share">Compartir resultado</button></div></section>`);
+  form.querySelector('[data-test-action="pdf"]')?.addEventListener('click', printLessonTest);
+  form.querySelector('[data-test-action="word"]')?.addEventListener('click', downloadLessonTestWord);
+  form.querySelector('[data-test-action="share"]')?.addEventListener('click', shareLessonTestResult);
+  form.querySelector('.tests-result')?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
+function getLessonTestShareUrl() {
+  const unit = lessonTestState.units.find((item) => item.id === lessonTestState.unitId);
+  const payload = { language: lessonTestState.language, level: lessonTestState.level, lesson: unit?.title || '', score: lessonTestState.result?.score, total: 100 };
+  const url = new URL(window.location.href);
+  url.hash = 'tests';
+  url.searchParams.set('testResult', btoa(unescape(encodeURIComponent(JSON.stringify(payload)))));
+  return url.toString();
+}
+
+async function shareLessonTestResult() {
+  const unit = lessonTestState.units.find((item) => item.id === lessonTestState.unitId);
+  const text = `Completé ${unit?.title || 'mi test'} (${lessonTestState.language === 'french' ? 'Français' : 'English'} ${lessonTestState.level}) en ANDERGO con ${lessonTestState.result?.score}/100.`;
+  const url = getLessonTestShareUrl();
+  if (navigator.share) {
+    await navigator.share({ title: 'Mi resultado ANDERGO', text, url }).catch(() => {});
+  } else {
+    await navigator.clipboard?.writeText(`${text} ${url}`);
+    showHomeToast('Enlace del resultado copiado.');
+  }
+}
+
+function printLessonTest() {
+  document.body.classList.add('printing-tests');
+  window.addEventListener('afterprint', () => document.body.classList.remove('printing-tests'), { once: true });
+  window.print();
+}
+
+function downloadLessonTestWord() {
+  const paper = document.getElementById('lessonTestPaper');
+  if (!paper) return;
+  const html = `<!doctype html><html><head><meta charset="utf-8"><style>body{font-family:Arial;color:#10203c;margin:2cm}h1{color:#2563eb}fieldset{margin:18px 0;padding:14px;border:1px solid #cbd5e1}label{display:block;margin:8px 0}.tests-result{margin-top:24px;font-size:18px}</style></head><body><h1>ANDERGO · ${lessonTestState.language === 'french' ? 'Test de français' : 'English Test'}</h1>${paper.innerHTML}</body></html>`;
+  const url = URL.createObjectURL(new Blob(['\ufeff', html], { type: 'application/msword;charset=utf-8' }));
+  const link = document.createElement('a'); link.href = url; link.download = `andergo-${lessonTestState.language}-${lessonTestState.level}-${lessonTestState.unitId}-test.doc`; document.body.appendChild(link); link.click(); link.remove(); URL.revokeObjectURL(url);
+}
+
+async function loadTestsView() {
+  const levelSelect = document.getElementById('testLevelSelect');
+  const languageSelect = document.getElementById('testLanguageSelect');
+  const lessonSelect = document.getElementById('testLessonSelect');
+  if (!levelSelect || !languageSelect || !lessonSelect) return;
+  lessonTestState.language = languageSelect.value || 'english';
+  lessonTestState.level = levelSelect.value || 'A1';
+  const startButton = document.getElementById('startLessonTestBtn');
+  const eyebrow = document.getElementById('testsLanguageEyebrow');
+  if (eyebrow) eyebrow.textContent = lessonTestState.language === 'french' ? 'Évaluation de français' : lessonTestState.language === 'spanish' ? 'Evaluación de español' : 'English assessment';
+  const response = await fetch(`${backendBaseUrl}/api/tests?language=${encodeURIComponent(lessonTestState.language)}&level=${encodeURIComponent(lessonTestState.level)}`);
+  const data = await response.json().catch(() => ({}));
+  if (!response.ok) {
+    lessonSelect.innerHTML = '<option value="">Próximamente</option>';
+    lessonSelect.disabled = true;
+    if (startButton) startButton.disabled = true;
+    document.getElementById('testsStage').innerHTML = `<div class="tests-welcome"><h3>No pudimos cargar los tests</h3><p>${escapeHtml(data.error || 'Intenta nuevamente.')}</p></div>`;
+    return;
+  }
+  lessonSelect.disabled = false;
+  if (startButton) startButton.disabled = false;
+  lessonTestState.units = data.units || [];
+  lessonTestState.lessons = [];
+  lessonSelect.innerHTML = lessonTestState.units.map((unit) => `<option value="${escapeHtml(unit.id)}">Lesson ${escapeHtml(String(unit.order))}: ${escapeHtml(unit.title)}</option>`).join('');
+  lessonTestState.unitId = lessonSelect.value || lessonTestState.units[0]?.id || '';
+  const shared = new URLSearchParams(window.location.search).get('testResult');
+  if (shared) {
+    try {
+      const data = JSON.parse(decodeURIComponent(escape(atob(shared))));
+      document.getElementById('testsStage').innerHTML = `<div class="tests-shared-result"><span>Resultado compartido</span><strong>${escapeHtml(String(data.score))}/100</strong><h3>${escapeHtml(data.lesson)}</h3><p>${data.language === 'french' ? 'Français' : 'English'} · ${escapeHtml(data.level)}</p><button type="button" class="primary-btn" id="takeSharedTestBtn">Tomar un test</button></div>`;
+      document.getElementById('takeSharedTestBtn')?.addEventListener('click', renderLessonTest);
+    } catch { /* Ignore malformed public result links. */ }
+  }
+}
+
+function setupTestsView() {
+  const level = document.getElementById('testLevelSelect');
+  const language = document.getElementById('testLanguageSelect');
+  const lesson = document.getElementById('testLessonSelect');
+  language?.addEventListener('change', loadTestsView);
+  level?.addEventListener('change', loadTestsView);
+  lesson?.addEventListener('change', () => { lessonTestState.unitId = lesson.value; });
+  document.getElementById('startLessonTestBtn')?.addEventListener('click', () => { lessonTestState.unitId = lesson?.value || ''; renderLessonTest(); });
+}
+
 const musicState = { tracks: [], activeId: null, loadedAt: 0, initialized: false };
 
 function selectMusicTrack(trackId) {
@@ -16015,6 +16366,7 @@ const VIEW_SECTIONS = {
   goals: ['#goals'],
   tutor: ['#tutor'],
   translator: ['#translator'],
+  tests: ['#tests'],
   music: ['#music'],
   about: ['#about'],
   verbs: ['#verbs'],
@@ -16041,6 +16393,7 @@ const VIEW_TITLE_SELECTORS = {
   goals: '#goals h2',
   tutor: '#tutor h2',
   translator: '#translator h2',
+  tests: '#tests h2',
   music: '#music h2',
   about: '#about h2',
   verbs: '#verbs h2',
@@ -16144,7 +16497,7 @@ function showView(viewId) {
     element.setAttribute('aria-hidden', String(!active));
   });
 
-  document.querySelectorAll('.nav-group a[href^="#"], .mobile-app-nav a[href^="#"]').forEach((link) => {
+  document.querySelectorAll('.nav-group a[href^="#"], .mobile-app-nav a[href^="#"], .mobile-header-tabs a[href^="#"]').forEach((link) => {
     const linkView = link.getAttribute('href')?.slice(1);
     const isLearningAppDestination =
       link.closest('.mobile-app-nav') &&
@@ -16231,6 +16584,7 @@ function showView(viewId) {
     refreshTutorUsageCounter();
   }
   if (resolved === 'translator') syncTranslatorLanguagesFromState();
+  if (resolved === 'tests') loadTestsView();
   if (resolved === 'music') loadMusicLibrary();
   if (resolved === 'progress' || resolved === 'goals') loadDashboard();
   if (resolved === 'security') loadSecurityStatus();
@@ -17581,11 +17935,13 @@ function enableHomepageActions() {
 
     const tutorClearButton = event.target.closest('.tutor-clear-btn');
     if (tutorClearButton) {
+      resetTutorTopicSessions();
       const conversation = document.getElementById('tutorConversation');
       if (conversation) {
         conversation.innerHTML =
           '<p class="tutor-welcome">👋 Soy el Tutor IA ANDERGO Academy. Pregúntame lo que quieras sobre esta habilidad, nivel o lección, y te ayudo con correcciones, ejemplos y práctica.</p>';
       }
+      restoreTutorTopicComposer(document.getElementById('aiTutorPrompt'), tutorClearButton.closest('.tutor-action')?.querySelector('.tutor-chat-btn'));
       return;
     }
 
@@ -18069,11 +18425,13 @@ function enableHomepageActions() {
   });
 
   document.getElementById('tutorDrawerClear')?.addEventListener('click', () => {
+    resetTutorTopicSessions();
     const conversation = document.getElementById('tutorDrawerConversation');
     if (conversation)
       conversation.innerHTML = `<p class="tutor-welcome">${escapeHtml(
         tutorDrawerContext.welcomeMessage || '👋 Soy el Tutor IA ANDERGO Academy. Cuéntame qué quieres practicar.'
       )}</p>`;
+    restoreTutorTopicComposer(document.getElementById('tutorDrawerPrompt'), document.getElementById('tutorDrawerSend'));
     document.querySelector('#tutorDrawer .tutor-drawer-panel')?.classList.remove('is-response-focused');
   });
 
@@ -18617,6 +18975,7 @@ function setupTranslator() {
   const copyBtn = document.getElementById('translatorCopyBtn');
   const listenSourceBtn = document.getElementById('translatorListenSourceBtn');
   const listenOutputBtn = document.getElementById('translatorListenOutputBtn');
+  const stopBtn = document.getElementById('translatorStopBtn');
   const submitBtn = document.getElementById('translatorSubmitBtn');
   const status = document.getElementById('translatorStatus');
   const detectedEl = document.getElementById('translatorDetected');
@@ -18645,11 +19004,16 @@ function setupTranslator() {
   }
 
   function stopTranslatorPlayback() {
-    if (!translatorPlayback) return;
+    if (!translatorPlayback) {
+      window.speechSynthesis?.cancel();
+      stopBtn?.classList.remove('is-active');
+      return;
+    }
     const current = translatorPlayback;
     translatorPlayback = null;
     window.speechSynthesis?.cancel();
     setTranslatorListenState(current.button, false);
+    stopBtn?.classList.remove('is-active');
   }
 
   function toggleTranslatorPlayback(button, text, locale) {
@@ -18675,6 +19039,7 @@ function setupTranslator() {
     const playback = { button };
     translatorPlayback = playback;
     setTranslatorListenState(button, true);
+    stopBtn?.classList.add('is-active');
     const utterance = speakText(text, {
       locale: effectiveLocale,
       onEnd: () => {
@@ -19003,6 +19368,14 @@ function setupTranslator() {
     toggleTranslatorPlayback(listenOutputBtn, output.value, LANGUAGE_LOCALES[targetSelect?.value]);
   });
 
+  stopBtn?.addEventListener('click', () => {
+    const wasActive = Boolean(translatorPlayback) || translatorDictation.status === 'listening';
+    stopTranslatorPlayback();
+    stopTranslatorDictation();
+    stopBtn.classList.remove('is-active');
+    if (wasActive) setStatus('Reproducción detenida.');
+  });
+
   historyClearBtn?.addEventListener('click', () => {
     clearTranslatorHistory();
     renderHistory();
@@ -19181,12 +19554,228 @@ function renderCorrectorHighlighted(correctedText, changes) {
   return escaped;
 }
 
+function setupInterpreter() {
+  const langA = document.getElementById('interpreterLangA');
+  const langB = document.getElementById('interpreterLangB');
+  const swapBtn = document.getElementById('interpreterSwapBtn');
+  const talkA = document.getElementById('interpreterTalkA');
+  const talkB = document.getElementById('interpreterTalkB');
+  const labelA = document.getElementById('interpreterTalkALabel');
+  const labelB = document.getElementById('interpreterTalkBLabel');
+  const stopBtn = document.getElementById('interpreterStopBtn');
+  const clearBtn = document.getElementById('interpreterClearBtn');
+  const status = document.getElementById('interpreterStatus');
+  const conversation = document.getElementById('interpreterConversation');
+  if (!langA || !langB || !talkA || !talkB || !status || !conversation || talkA.dataset.ready) return;
+  talkA.dataset.ready = 'true';
+
+  const languages = window.AndergoTranslatorLanguages?.getSelectableLanguages() || [];
+  const optionHtml = languages
+    .map((lang) => `<option value="${escapeHtml(lang.key)}">${lang.flag} ${escapeHtml(lang.label)}</option>`)
+    .join('');
+  langA.innerHTML = optionHtml;
+  langB.innerHTML = optionHtml;
+  langA.value = languages.some((lang) => lang.key === 'spanish') ? 'spanish' : languages[0]?.key;
+  langB.value = languages.some((lang) => lang.key === 'english') ? 'english' : languages[1]?.key;
+
+  let recognition = null;
+  let activeButton = null;
+  let busy = false;
+  let turns = [];
+  let playbackToken = 0;
+
+  const languageLabel = (key) =>
+    languages.find((lang) => lang.key === key)?.label || languageDisplayNames[key] || key;
+
+  const setStatus = (message, mode = '') => {
+    status.textContent = message;
+    status.classList.remove('is-loading', 'is-success', 'is-unavailable');
+    if (mode) status.classList.add(mode);
+  };
+
+  const updateLabels = () => {
+    labelA.textContent = languageLabel(langA.value);
+    labelB.textContent = languageLabel(langB.value);
+    talkA.setAttribute('aria-label', `Hablar en ${languageLabel(langA.value)}`);
+    talkB.setAttribute('aria-label', `Hablar en ${languageLabel(langB.value)}`);
+  };
+
+  const renderTurns = () => {
+    if (!turns.length) {
+      conversation.innerHTML = '<div class="interpreter-empty"><span aria-hidden="true">🎧</span><p>Elige el botón del idioma que va a hablar para comenzar.</p></div>';
+      return;
+    }
+    conversation.innerHTML = turns
+      .map(
+        (turn, index) => `<article class="interpreter-turn interpreter-turn--${turn.side}">
+          <div class="interpreter-turn-head"><span>${escapeHtml(languageLabel(turn.sourceLanguage))}</span><span>→ ${escapeHtml(languageLabel(turn.targetLanguage))}</span></div>
+          <p class="interpreter-turn-original">${escapeHtml(turn.original)}</p>
+          <p class="interpreter-turn-translation">${escapeHtml(turn.translation)}</p>
+          <div class="interpreter-turn-footer"><button type="button" class="secondary-btn interpreter-turn-repeat" data-interpreter-repeat="${index}" aria-label="Repetir la pronunciación en ${escapeHtml(languageLabel(turn.targetLanguage))}">🔊 Repetir</button></div>
+        </article>`
+      )
+      .join('');
+    conversation.scrollTop = conversation.scrollHeight;
+  };
+
+  const stop = () => {
+    // Invalidate the end callback of an interrupted L2 utterance before
+    // cancelling it. Otherwise a stale callback could re-open a turn after
+    // the learner explicitly pressed Stop.
+    playbackToken += 1;
+    try { recognition?.stop(); } catch { /* inactive */ }
+    recognition = null;
+    activeButton?.classList.remove('is-listening');
+    activeButton = null;
+    window.speechSynthesis?.cancel();
+    busy = false;
+    talkA.disabled = false;
+    talkB.disabled = false;
+    setStatus('Detenido.');
+  };
+
+  async function translateTurn(text, sourceLanguage, targetLanguage, side) {
+    busy = true;
+    const turnToken = ++playbackToken;
+    setStatus('Interpretando…', 'is-loading');
+    talkA.disabled = true;
+    talkB.disabled = true;
+    try {
+      const data = await postJson('/api/translate', { text, sourceLanguage, targetLanguage }, { auth: true });
+      if (turnToken !== playbackToken) return;
+      if (!data.ok || !data.translatedText) throw new Error(data.message || 'No se pudo interpretar.');
+      turns.push({ side, original: text, translation: data.translatedText, sourceLanguage, targetLanguage });
+      renderTurns();
+      setStatus(`Reproduciendo ${languageLabel(targetLanguage)}…`, 'is-success');
+      const sourceButton = side === 'a' ? talkA : talkB;
+      const finishTurn = () => {
+        if (turnToken !== playbackToken) return;
+        busy = false;
+        talkA.disabled = false;
+        talkB.disabled = false;
+        setStatus(`Listo. Puedes hablar en ${languageLabel(sourceLanguage)}.`, 'is-success');
+        // Return the conversation to the person whose turn it is without
+        // automatically opening the microphone or requiring another tap to
+        // enable the control.
+        sourceButton.focus({ preventScroll: true });
+      };
+      speakText(data.translatedText, {
+        locale: LANGUAGE_LOCALES[targetLanguage],
+        onEnd: finishTurn
+      });
+    } catch (error) {
+      if (turnToken !== playbackToken) return;
+      busy = false;
+      talkA.disabled = false;
+      talkB.disabled = false;
+      setStatus(error.message || 'No se pudo interpretar. Inténtalo de nuevo.', 'is-unavailable');
+    }
+  }
+
+  function repeatTranslation(index) {
+    if (busy) return;
+    const turn = turns[index];
+    if (!turn?.translation) return;
+    busy = true;
+    const turnToken = ++playbackToken;
+    talkA.disabled = true;
+    talkB.disabled = true;
+    setStatus(`Reproduciendo ${languageLabel(turn.targetLanguage)}…`, 'is-success');
+    const sourceButton = turn.side === 'a' ? talkA : talkB;
+    speakText(turn.translation, {
+      locale: LANGUAGE_LOCALES[turn.targetLanguage],
+      onEnd: () => {
+        if (turnToken !== playbackToken) return;
+        busy = false;
+        talkA.disabled = false;
+        talkB.disabled = false;
+        setStatus(`Listo. Puedes hablar en ${languageLabel(turn.sourceLanguage)}.`, 'is-success');
+        sourceButton.focus({ preventScroll: true });
+      }
+    });
+  }
+
+  async function startTurn(side) {
+    if (busy) return;
+    const Ctor = getSpeechRecognitionCtor();
+    if (!Ctor) {
+      setStatus('El reconocimiento de voz no está disponible en este navegador.', 'is-unavailable');
+      return;
+    }
+    stop();
+    try {
+      await ensureMicrophonePermission();
+    } catch (error) {
+      setStatus(microphonePermissionMessage(error), 'is-unavailable');
+      return;
+    }
+    const sourceLanguage = side === 'a' ? langA.value : langB.value;
+    const targetLanguage = side === 'a' ? langB.value : langA.value;
+    if (sourceLanguage === targetLanguage) {
+      setStatus('Selecciona dos idiomas diferentes.', 'is-unavailable');
+      return;
+    }
+    const button = side === 'a' ? talkA : talkB;
+    const instance = new Ctor();
+    instance.lang = DICTATION_LANGUAGE_CODES[sourceLanguage] || LANGUAGE_LOCALES[sourceLanguage] || 'es-ES';
+    instance.interimResults = true;
+    instance.continuous = false;
+    recognition = instance;
+    activeButton = button;
+    button.classList.add('is-listening');
+    setStatus(`Escuchando ${languageLabel(sourceLanguage)}…`, 'is-loading');
+    let transcript = '';
+    instance.addEventListener('result', (event) => {
+      transcript = Array.from(event.results).map((result) => result[0].transcript).join(' ').trim();
+      setStatus(transcript || `Escuchando ${languageLabel(sourceLanguage)}…`, 'is-loading');
+    });
+    instance.addEventListener('error', (event) => {
+      if (event.error !== 'aborted') setStatus('No pude escuchar con claridad. Inténtalo de nuevo.', 'is-unavailable');
+    });
+    instance.addEventListener('end', () => {
+      button.classList.remove('is-listening');
+      if (recognition !== instance) return;
+      recognition = null;
+      activeButton = null;
+      if (transcript) translateTurn(transcript, sourceLanguage, targetLanguage, side);
+      else setStatus('Toca Hablar e inténtalo de nuevo.');
+    });
+    instance.start();
+  }
+
+  talkA.addEventListener('click', () => startTurn('a'));
+  talkB.addEventListener('click', () => startTurn('b'));
+  conversation.addEventListener('click', (event) => {
+    const repeatButton = event.target.closest('[data-interpreter-repeat]');
+    if (!repeatButton) return;
+    repeatTranslation(Number(repeatButton.dataset.interpreterRepeat));
+  });
+  stopBtn?.addEventListener('click', stop);
+  clearBtn?.addEventListener('click', () => {
+    stop();
+    turns = [];
+    renderTurns();
+    setStatus('Conversación limpia.');
+  });
+  swapBtn?.addEventListener('click', () => {
+    const value = langA.value;
+    langA.value = langB.value;
+    langB.value = value;
+    updateLabels();
+  });
+  langA.addEventListener('change', updateLabels);
+  langB.addEventListener('change', updateLabels);
+  updateLabels();
+  renderTurns();
+}
+
 function setupCorrector() {
   const langSelect = document.getElementById('correctorLangSelect');
   const input = document.getElementById('correctorInput');
   const output = document.getElementById('correctorOutput');
   const charCount = document.getElementById('correctorCharCount');
   const clearBtn = document.getElementById('correctorClearBtn');
+  const talkBtn = document.getElementById('correctorTalkBtn');
   const copyBtn = document.getElementById('correctorCopyBtn');
   const listenBtn = document.getElementById('correctorListenBtn');
   const applyBtn = document.getElementById('correctorApplyBtn');
@@ -19196,6 +19785,7 @@ function setupCorrector() {
 
   const MAX_LENGTH = Number(input.getAttribute('maxlength')) || 1000;
   let lastCorrection = null; // { correctedText, explanation, changes } from the last successful call
+  let recognition = null;
 
   const setStatus = (text, mode) => {
     status.textContent = text;
@@ -19230,7 +19820,7 @@ function setupCorrector() {
     if (lastCorrection) resetOutput();
   });
 
-  async function runCorrection() {
+  async function runCorrection({ speakResult = false } = {}) {
     if (submitBtn.disabled) return; // already in flight - never a second request
 
     const text = input.value.trim();
@@ -19267,7 +19857,17 @@ function setupCorrector() {
           ${lastCorrection.explanation ? `<p class="corrector-explanation">${escapeHtml(lastCorrection.explanation)}</p>` : ''}
         `;
         setResultActionsEnabled(true);
-        setStatus('Completada', 'is-success');
+        if (speakResult && lastCorrection.correctedText) {
+          setStatus(`Corrección completada. Reproduciendo ${languageDisplayNames[language] || language}…`, 'is-success');
+          speakText(lastCorrection.correctedText, {
+            locale: LANGUAGE_LOCALES[language],
+            onEnd: () => setStatus('Corrección completada.', 'is-success')
+          });
+        } else {
+          // Typed corrections remain quiet by default. The learner can use
+          // Repetir when they explicitly want to hear the final L2 text.
+          setStatus('Completada', 'is-success');
+        }
       } else if (data.configured === false) {
         resetOutput();
         setStatus('El corrector está temporalmente en configuración.', 'is-unavailable');
@@ -19291,6 +19891,13 @@ function setupCorrector() {
   });
 
   clearBtn?.addEventListener('click', () => {
+    try { recognition?.stop(); } catch { /* inactive */ }
+    recognition = null;
+    talkBtn?.classList.remove('is-listening');
+    if (talkBtn) {
+      talkBtn.disabled = false;
+      talkBtn.innerHTML = '🎙 Hablar';
+    }
     input.value = '';
     updateCharCount();
     resetOutput();
@@ -19310,6 +19917,57 @@ function setupCorrector() {
   listenBtn?.addEventListener('click', () => {
     if (!lastCorrection?.correctedText) return;
     speakText(lastCorrection.correctedText, { locale: LANGUAGE_LOCALES[langSelect?.value] });
+  });
+
+  // Dictation is intentionally separate from typing: only a spoken L1 input
+  // triggers an automatic spoken L2 correction. Written drafts always return
+  // quietly, with Repetir available as an explicit choice.
+  talkBtn?.addEventListener('click', async () => {
+    if (recognition) {
+      try { recognition.stop(); } catch { /* inactive */ }
+      return;
+    }
+    const Ctor = getSpeechRecognitionCtor();
+    if (!Ctor) {
+      setStatus('El reconocimiento de voz no está disponible en este navegador.', 'is-unavailable');
+      return;
+    }
+    try {
+      await ensureMicrophonePermission();
+    } catch (error) {
+      setStatus(microphonePermissionMessage(error), 'is-unavailable');
+      return;
+    }
+
+    const language = langSelect?.value || 'english';
+    const instance = new Ctor();
+    instance.lang = DICTATION_LANGUAGE_CODES[language] || LANGUAGE_LOCALES[language] || 'en-US';
+    instance.interimResults = true;
+    instance.continuous = false;
+    recognition = instance;
+    talkBtn.classList.add('is-listening');
+    talkBtn.innerHTML = '⏹ Detener';
+    setStatus(`Escuchando ${languageDisplayNames[language] || language}…`, 'is-loading');
+    let transcript = '';
+
+    instance.addEventListener('result', (event) => {
+      transcript = Array.from(event.results).map((result) => result[0].transcript).join(' ').trim();
+      input.value = transcript.slice(0, MAX_LENGTH);
+      updateCharCount();
+      setStatus(transcript || 'Escuchando…', 'is-loading');
+    });
+    instance.addEventListener('error', (event) => {
+      if (event.error !== 'aborted') setStatus('No pude escuchar con claridad. Inténtalo de nuevo.', 'is-unavailable');
+    });
+    instance.addEventListener('end', () => {
+      if (recognition !== instance) return;
+      recognition = null;
+      talkBtn.classList.remove('is-listening');
+      talkBtn.innerHTML = '🎙 Hablar';
+      if (transcript) runCorrection({ speakResult: true });
+      else if (!status.classList.contains('is-unavailable')) setStatus('Toca Hablar e inténtalo de nuevo.');
+    });
+    instance.start();
   });
 
   // "Aplicar corrección": replaces the student's own draft with the
@@ -19561,7 +20219,9 @@ enableHomepageActions();
 initHeroCopyCarousel();
 loadProgress();
 setupLearningPathControls();
+setupTestsView();
 setupTranslator();
+setupInterpreter();
 setupCorrector();
 setupPhonetics();
 setupReadingSelectionTranslator();
