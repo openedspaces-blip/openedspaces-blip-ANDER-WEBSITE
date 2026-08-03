@@ -3580,7 +3580,7 @@ const PRE_A1_SPANISH_VISUAL_COURSE = [
   { id: 'hola', icon: '👋', title: '¡Hola!', subtitle: 'Saludos · Greetings', goal: 'Greet someone and say your name in Spanish.', grammar: 'Soy… / Me llamo…', words: [['hola', 'hello'], ['buenos días', 'good morning'], ['buenas tardes', 'good afternoon'], ['bienvenido/a', 'welcome'], ['nombre', 'name'], ['gracias', 'thank you']], phrases: ['¡Hola! Me llamo Ana.', 'Buenos días. Mucho gusto.'], prompt: 'Which word is a greeting?', options: ['Adiós', 'Hola', 'Doce'], answer: 1, col: 0, row: 0 },
   { id: 'adios', icon: '👋', title: '¡Adiós!', subtitle: 'Despedidas · Goodbyes', goal: 'End a short conversation politely in Spanish.', grammar: 'Hasta + moment', words: [['adiós', 'goodbye'], ['chao', 'bye'], ['hasta luego', 'see you later'], ['hasta mañana', 'see you tomorrow'], ['buenas noches', 'good night'], ['gracias', 'thank you']], phrases: ['¡Adiós! Hasta mañana.', 'Chao. Hasta luego.'], prompt: 'Which phrase is a goodbye?', options: ['Buenos días', 'Me llamo Leo', 'Hasta luego'], answer: 2, col: 1, row: 0 },
   { id: 'abecedario', icon: '🔤', title: 'El abecedario', subtitle: 'Letras · Letters', goal: 'Recognize all Spanish letters and spell a short name.', grammar: '¿Cómo se escribe…?', words: [['A', 'a'], ['B', 'be'], ['C', 'ce'], ['D', 'de'], ['E', 'e'], ['F', 'efe'], ['G', 'ge'], ['H', 'hache'], ['I', 'i'], ['J', 'jota'], ['K', 'ka'], ['L', 'ele'], ['M', 'eme'], ['N', 'ene'], ['Ñ', 'eñe'], ['O', 'o'], ['P', 'pe'], ['Q', 'cu'], ['R', 'erre'], ['S', 'ese'], ['T', 'te'], ['U', 'u'], ['V', 'uve'], ['W', 'uve doble'], ['X', 'equis'], ['Y', 'i griega'], ['Z', 'zeta']], phrases: ['¿Cómo se escribe Ana?', 'A-N-A. Ana.'], prompt: 'Which option contains only letters?', options: ['A, B, C', 'uno, dos, tres', 'rojo, azul, verde'], answer: 0, col: 2, row: 0 },
-  { id: 'numeros', icon: '🔢', title: 'Los números', subtitle: '0–20 · Numbers', goal: 'Recognize numbers and say a simple age.', grammar: 'Tengo + number + años.', words: [['cero', 'zero'], ['uno', 'one'], ['cinco', 'five'], ['diez', 'ten'], ['quince', 'fifteen'], ['veinte', 'twenty']], phrases: ['Tengo diez años.', 'Tengo cinco lápices.'], prompt: 'Which word is a number?', options: ['Lunes', 'Amarillo', 'Quince'], answer: 2, col: 3, row: 0 },
+  { id: 'numeros', icon: '🔢', title: 'Los números', subtitle: '0–20 · Numbers', goal: 'Recognize every number from zero to twenty and say a simple age.', grammar: 'Tengo + número + años.', words: [['cero', 'zero'], ['uno', 'one'], ['dos', 'two'], ['tres', 'three'], ['cuatro', 'four'], ['cinco', 'five'], ['seis', 'six'], ['siete', 'seven'], ['ocho', 'eight'], ['nueve', 'nine'], ['diez', 'ten'], ['once', 'eleven'], ['doce', 'twelve'], ['trece', 'thirteen'], ['catorce', 'fourteen'], ['quince', 'fifteen'], ['dieciséis', 'sixteen'], ['diecisiete', 'seventeen'], ['dieciocho', 'eighteen'], ['diecinueve', 'nineteen'], ['veinte', 'twenty']], phrases: ['Tengo diez años.', 'Tengo cinco lápices.'], prompt: 'Which word is a number?', options: ['Lunes', 'Amarillo', 'Quince'], answer: 2, col: 3, row: 0 },
   { id: 'dias', icon: '🗓️', title: 'Mi calendario', subtitle: 'Días y meses · Days and months', goal: 'Recognize every day of the week and every month of the year.', grammar: 'Hoy es… / Mi cumpleaños es en…', words: [['lunes', 'Monday'], ['martes', 'Tuesday'], ['miércoles', 'Wednesday'], ['jueves', 'Thursday'], ['viernes', 'Friday'], ['sábado', 'Saturday'], ['domingo', 'Sunday'], ['enero', 'January'], ['febrero', 'February'], ['marzo', 'March'], ['abril', 'April'], ['mayo', 'May'], ['junio', 'June'], ['julio', 'July'], ['agosto', 'August'], ['septiembre', 'September'], ['octubre', 'October'], ['noviembre', 'November'], ['diciembre', 'December']], phrases: ['Hoy es lunes.', 'Mi cumpleaños es en julio.'], prompt: 'Completa: Hoy es ___.', options: ['Viernes', 'Azul', 'Libro'], answer: 0, col: 0, row: 1 },
   { id: 'colores', icon: '🎨', title: 'Los colores', subtitle: 'Colores · Colours', goal: 'Name the most useful colours of familiar objects.', grammar: 'Es… / El ___ es…', words: [['rojo', 'red'], ['azul', 'blue'], ['amarillo', 'yellow'], ['verde', 'green'], ['naranja', 'orange'], ['morado', 'purple'], ['rosado', 'pink'], ['marrón', 'brown'], ['gris', 'grey'], ['negro', 'black'], ['blanco', 'white']], phrases: ['Es una manzana roja.', 'La mochila es azul.'], prompt: 'Which option is a colour?', options: ['Profesor', 'Verde', 'Siete'], answer: 1, col: 1, row: 1 },
   { id: 'clase', icon: '🎒', title: 'En clase', subtitle: 'Objetos escolares · School things', goal: 'Recognize and name everyday classroom objects.', grammar: 'Este es mi / Esta es mi…', words: [['libro', 'book'], ['bolígrafo', 'pen'], ['lápiz', 'pencil'], ['mochila', 'bag'], ['silla', 'chair'], ['mesa', 'table']], phrases: ['Este es mi libro.', 'Mi lápiz está en la mesa.'], prompt: 'What can you write with?', options: ['Un parque', 'Un profesor', 'Un lápiz'], answer: 2, col: 2, row: 1 },
@@ -3711,7 +3711,16 @@ function renderPreA1VisualCourse(selectedTopicId = '') {
   const isCalendarTopic = ['days', 'semaine', 'dias'].includes(selected.id);
   const isColourTopic = ['colours', 'couleurs', 'colores'].includes(selected.id);
   const colourVisuals = ['🔴', '🔵', '🟡', '🟢', '🟠', '🟣', '🩷', '🟤', '⚪', '⚫', '⬜'];
-  const configuredVisuals = PRE_A1_WORD_VISUALS[selected.id] || [];
+  // Spanish and French use the same visual vocabulary as the English starter
+  // when the idea is shared (greetings, numbers, school things, etc.). This
+  // keeps every language route equally pictorial without duplicating assets.
+  const sharedVisualTopic = {
+    hola: 'hello', adios: 'goodbye', numeros: 'numbers', clase: 'classroom',
+    personas: 'people', emociones: 'feelings', comida: 'food', lugares: 'places', listo: 'ready',
+    bonjour: 'hello', aurevoir: 'goodbye', nombres: 'numbers', classe: 'classroom',
+    personnes: 'people', emotions: 'feelings', repas: 'food', lieux: 'places', pret: 'ready'
+  }[selected.id] || selected.id;
+  const configuredVisuals = PRE_A1_WORD_VISUALS[sharedVisualTopic] || [];
   const visuals = selected.words.map(
     ([word], index) =>
       configuredVisuals[index] ||
@@ -3723,7 +3732,7 @@ function renderPreA1VisualCourse(selectedTopicId = '') {
   const rotation = topicIndex % visualOptionIndices.length;
   const orderedVisualOptions = [...visualOptionIndices.slice(rotation), ...visualOptionIndices.slice(0, rotation)];
   const reviewIndices =
-    selected.id === 'numbers'
+    ['numbers', 'nombres', 'numeros'].includes(selected.id)
       ? [0, 9, 19]
       : isAlphabetTopic
         ? [0, Math.floor(selected.words.length / 2), selected.words.length - 1]

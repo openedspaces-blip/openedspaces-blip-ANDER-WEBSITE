@@ -595,10 +595,19 @@
       const visible = sorted.slice(0, verbsVisibleCount);
       deck.innerHTML = visible.map(({ raw, item }) => renderVerbTileHtml(item, raw, { canSpeak })).join('');
 
-      // Keep the examples action independent from the card's pronunciation
-      // shortcut.  This direct listener runs before the document delegate,
-      // so the card never absorbs a click intended for "Ver ejemplos".
-      deck.querySelectorAll('.verb-open-detail-btn').forEach((button) => {
+      // "Ver ejemplos" is a shortcut to the full Conjugador for that verb.
+      // It is handled directly before the card's pronunciation shortcut, so
+      // the button always selects its verb, changes tab and reveals its forms.
+      deck.querySelectorAll('.verb-list-detail-btn').forEach((button) => {
+        button.addEventListener('click', (event) => {
+          event.stopPropagation();
+          openConjugatorForVerb(button.dataset.verbId);
+        });
+      });
+
+      // The word itself still opens the compact detail panel for students who
+      // want a quick look without leaving the verb list.
+      deck.querySelectorAll('.verb-list-word.verb-open-detail-btn').forEach((button) => {
         button.addEventListener('click', (event) => {
           event.stopPropagation();
           openVerbDetail(button.dataset.verbId);
@@ -1770,7 +1779,11 @@
     }
     const detailBtn = event.target.closest('.verb-open-detail-btn');
     if (detailBtn) {
-      openVerbDetail(detailBtn.dataset.verbId);
+      if (detailBtn.classList.contains('verb-list-detail-btn')) {
+        openConjugatorForVerb(detailBtn.dataset.verbId);
+      } else {
+        openVerbDetail(detailBtn.dataset.verbId);
+      }
       return;
     }
 

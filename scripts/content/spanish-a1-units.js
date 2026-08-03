@@ -76,7 +76,7 @@ const units = [
           parts: [
             'Hola, me llamo Valentina. Hoy es mi primer día de clase de español. Estoy un poco nerviosa, pero también contenta.',
             'Mi profesor se llama Diego. Él dice: "¡Buenos días, clase!" y nosotros respondemos: "¡Buenos días, profesor!".',
-            'Al lado de mi silla hay un chico. Él dice: "Hola, soy Marco. Mucho gusto." Yo respondo: "Igualmente. ¿Cómo te llamas otra vez?" y él deletrea su nombre: M-A-R-C-O.'
+            'Al lado de mi silla hay un chico. Él dice: "Hola, soy Marco. Mucho gusto." Yo respondo: "Igualmente. ¿Cómo se escribe tu nombre?" y él deletrea su nombre: M-A-R-C-O.'
           ],
           questions: [
             '¿Cómo se llama la estudiante?',
