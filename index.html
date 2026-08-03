@@ -1567,13 +1567,26 @@
             <div class="translator-grid">
               <div class="translator-field">
                 <label for="correctorInput">Tu texto</label>
-                <textarea
-                  id="correctorInput"
-                  class="tutor-input"
-                  rows="6"
-                  maxlength="1000"
-                  placeholder="Escribe el texto que quieres corregir…"
-                ></textarea>
+                <div class="translator-input-wrap corrector-input-wrap">
+                  <textarea
+                    id="correctorInput"
+                    class="tutor-input"
+                    rows="6"
+                    maxlength="1000"
+                    placeholder="Escribe el texto que quieres corregir…"
+                    role="combobox"
+                    aria-expanded="false"
+                    aria-controls="correctorSuggestions"
+                    aria-autocomplete="list"
+                  ></textarea>
+                  <ul
+                    id="correctorSuggestions"
+                    class="translator-suggestions corrector-suggestions"
+                    role="listbox"
+                    aria-label="Sugerencias de escritura"
+                    hidden
+                  ></ul>
+                </div>
                 <p class="translator-char-count" id="correctorCharCount" aria-live="polite">
                   0 / 1000
                 </p>

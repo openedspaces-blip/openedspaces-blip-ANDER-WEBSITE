@@ -19569,7 +19569,10 @@ function setupInterpreter() {
   if (!langA || !langB || !talkA || !talkB || !status || !conversation || talkA.dataset.ready) return;
   talkA.dataset.ready = 'true';
 
-  const languages = window.AndergoTranslatorLanguages?.getSelectableLanguages() || [];
+  // IPA is intentionally scoped to the two languages for which this tool is
+  // currently curated and reviewed in ANDERGO: English and French.
+  const languages = (window.AndergoTranslatorLanguages?.getSelectableLanguages() || [])
+    .filter((lang) => ['english', 'french'].includes(lang.key));
   const optionHtml = languages
     .map((lang) => `<option value="${escapeHtml(lang.key)}">${lang.flag} ${escapeHtml(lang.label)}</option>`)
     .join('');
@@ -19781,11 +19784,15 @@ function setupCorrector() {
   const applyBtn = document.getElementById('correctorApplyBtn');
   const submitBtn = document.getElementById('correctorSubmitBtn');
   const status = document.getElementById('correctorStatus');
+  const suggestionsList = document.getElementById('correctorSuggestions');
   if (!input || !output || !submitBtn || !status) return;
 
   const MAX_LENGTH = Number(input.getAttribute('maxlength')) || 1000;
   let lastCorrection = null; // { correctedText, explanation, changes } from the last successful call
   let recognition = null;
+  let suggestionItems = [];
+  let activeSuggestionIndex = -1;
+  let suggestionsDebounceId = null;
 
   const setStatus = (text, mode) => {
     status.textContent = text;
@@ -19809,13 +19816,92 @@ function setupCorrector() {
     setResultActionsEnabled(false);
   };
 
+  // The Corrector shares the translator's local prediction engine: it offers
+  // word completions, spelling fixes and a likely next word without sending a
+  // request on every keystroke. The full correction still happens only after
+  // the learner chooses Corregir (or finishes dictating).
+  const hideSuggestions = () => {
+    suggestionItems = [];
+    activeSuggestionIndex = -1;
+    if (!suggestionsList) return;
+    suggestionsList.hidden = true;
+    suggestionsList.innerHTML = '';
+    input.setAttribute('aria-expanded', 'false');
+  };
+
+  const renderSuggestions = (items) => {
+    suggestionItems = items;
+    activeSuggestionIndex = -1;
+    if (!suggestionsList) return;
+    if (!items.length) {
+      hideSuggestions();
+      return;
+    }
+    const typeGlyph = { spelling: '✎ ', contextual: '→ ' };
+    suggestionsList.innerHTML = items
+      .map((item, index) => `
+        <li class="translator-suggestion-item" data-index="${index}" data-type="${escapeHtml(item.type)}" role="option" aria-selected="false">${typeGlyph[item.type] || ''}${escapeHtml(item.text)}</li>`)
+      .join('');
+    suggestionsList.hidden = false;
+    input.setAttribute('aria-expanded', 'true');
+  };
+
+  const updateSuggestionHighlight = () => {
+    suggestionsList?.querySelectorAll('.translator-suggestion-item').forEach((element, index) => {
+      const active = index === activeSuggestionIndex;
+      element.classList.toggle('is-active', active);
+      element.setAttribute('aria-selected', String(active));
+    });
+  };
+
+  const acceptSuggestion = (index) => {
+    const item = suggestionItems[index];
+    if (!item) return;
+    const caret = input.selectionStart ?? input.value.length;
+    const before = input.value.slice(0, caret);
+    const after = input.value.slice(caret);
+    const wordMatch = /(\S*)$/.exec(before);
+    const wordStart = caret - (wordMatch ? wordMatch[1].length : 0);
+    const nextBefore = `${before.slice(0, wordStart)}${item.text} `;
+    input.value = nextBefore + after;
+    input.setSelectionRange(nextBefore.length, nextBefore.length);
+    hideSuggestions();
+    input.dispatchEvent(new Event('input'));
+    input.focus();
+  };
+
+  const scheduleSuggestions = () => {
+    window.clearTimeout(suggestionsDebounceId);
+    const engine = window.AndergoTranslatorPredictive;
+    const language = langSelect?.value || 'english';
+    if (!engine || !['english', 'spanish', 'french'].includes(language)) {
+      hideSuggestions();
+      return;
+    }
+    suggestionsDebounceId = window.setTimeout(() => {
+      const caret = input.selectionStart ?? input.value.length;
+      renderSuggestions(engine.getSuggestions(language, input.value.slice(0, caret)));
+    }, 180);
+  };
+
   input.addEventListener('input', updateCharCount);
+  input.addEventListener('input', scheduleSuggestions);
+  input.addEventListener('blur', () => window.setTimeout(hideSuggestions, 100));
+  suggestionsList?.addEventListener('mousedown', (event) => {
+    const item = event.target.closest('.translator-suggestion-item');
+    if (!item) return;
+    event.preventDefault();
+    acceptSuggestion(Number(item.dataset.index));
+  });
   updateCharCount();
 
   // A new language or a freshly-edited text invalidates whatever correction
   // is currently shown - never let a stale "Aplicar corrección"/"Escuchar"
   // apply text from a previous language or a previous version of the input.
-  langSelect?.addEventListener('change', resetOutput);
+  langSelect?.addEventListener('change', () => {
+    resetOutput();
+    hideSuggestions();
+  });
   input.addEventListener('input', () => {
     if (lastCorrection) resetOutput();
   });
@@ -19858,8 +19944,14 @@ function setupCorrector() {
         `;
         setResultActionsEnabled(true);
         if (speakResult && lastCorrection.correctedText) {
+          const spokenIntroductions = {
+            english: 'A more natural way to say it is:',
+            spanish: 'Una forma más natural de decirlo es:',
+            french: 'Une façon plus naturelle de le dire est :'
+          };
+          const spokenCorrection = `${spokenIntroductions[language] || spokenIntroductions.english} ${lastCorrection.correctedText}`;
           setStatus(`Corrección completada. Reproduciendo ${languageDisplayNames[language] || language}…`, 'is-success');
-          speakText(lastCorrection.correctedText, {
+          speakText(spokenCorrection, {
             locale: LANGUAGE_LOCALES[language],
             onEnd: () => setStatus('Corrección completada.', 'is-success')
           });
@@ -19885,6 +19977,23 @@ function setupCorrector() {
 
   submitBtn.addEventListener('click', runCorrection);
   input.addEventListener('keydown', (event) => {
+    if (event.key === 'ArrowDown' && suggestionItems.length) {
+      event.preventDefault();
+      activeSuggestionIndex = (activeSuggestionIndex + 1) % suggestionItems.length;
+      updateSuggestionHighlight();
+      return;
+    }
+    if (event.key === 'ArrowUp' && suggestionItems.length) {
+      event.preventDefault();
+      activeSuggestionIndex = (activeSuggestionIndex - 1 + suggestionItems.length) % suggestionItems.length;
+      updateSuggestionHighlight();
+      return;
+    }
+    if ((event.key === 'Tab' || (event.key === 'Enter' && !event.shiftKey)) && activeSuggestionIndex >= 0) {
+      event.preventDefault();
+      acceptSuggestion(activeSuggestionIndex);
+      return;
+    }
     if (event.key !== 'Enter' || event.shiftKey) return;
     event.preventDefault();
     runCorrection();
@@ -19900,6 +20009,7 @@ function setupCorrector() {
     }
     input.value = '';
     updateCharCount();
+    hideSuggestions();
     resetOutput();
     setStatus('Listo');
   });
