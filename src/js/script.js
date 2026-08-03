@@ -1091,7 +1091,7 @@ function setTargetLanguage(lang, options = {}) {
 
   const pathLevelSelect = document.getElementById('pathLevelSelect');
   const requestedLevel = options.level || learningPathState.level;
-  const level = requestedLevel === 'PRE-A1' && resolved !== 'english' ? 'A1' : requestedLevel;
+  const level = requestedLevel === 'PRE-A1' && !['english', 'french', 'spanish'].includes(resolved) ? 'A1' : requestedLevel;
   if (pathLevelSelect) pathLevelSelect.value = level;
   loadLearningPath({ language: resolved, level });
   updatePathPairPreview();
@@ -3545,11 +3545,12 @@ const learningPathState = {
 // route. It lives locally so a first-time learner can begin immediately;
 // completing a mini challenge is remembered on this device.
 const PRE_A1_PROGRESS_STORAGE_KEY = 'andergo_pre_a1_visual_progress';
+let preA1SelectedTopicId = '';
 const PRE_A1_VISUAL_COURSE = [
   { id: 'hello', icon: '👋', title: 'Hello!', subtitle: 'Greetings · Saludos', goal: 'Greet someone and say your name.', grammar: 'I am… / My name is…', words: [['Hello', 'Hola'], ['Hi', 'Hola'], ['Good morning', 'Buenos días'], ['Good afternoon', 'Buenas tardes'], ['Welcome', 'Bienvenido/a'], ['name', 'nombre']], phrases: ['Hello! My name is Ana.', 'Hi! Nice to meet you.'], prompt: 'What do you say when you meet someone?', options: ['Goodbye!', 'Hello!', 'Twelve'], answer: 1, col: 0, row: 0 },
   { id: 'goodbye', icon: '👋', title: 'See you!', subtitle: 'Goodbyes · Despedidas', goal: 'End a short conversation politely.', grammar: 'See you + time', words: [['Goodbye', 'Adiós'], ['Bye', 'Adiós'], ['See you', 'Nos vemos'], ['soon', 'pronto'], ['tomorrow', 'mañana'], ['good night', 'buenas noches']], phrases: ['Goodbye! See you tomorrow.', 'Good night. See you soon.'], prompt: 'Which phrase is a goodbye?', options: ['Good morning!', 'My name is Leo.', 'See you soon!'], answer: 2, col: 1, row: 0 },
   { id: 'abc', icon: '🔤', title: 'The ABC', subtitle: 'Letters · Letras', goal: 'Recognize letters and spell a short name.', grammar: 'How do you spell…?', words: [['A', 'a'], ['B', 'be'], ['C', 'ce'], ['D', 'de'], ['E', 'e'], ['spell', 'deletrear']], phrases: ['How do you spell Ana?', 'A-N-A. Ana.'], prompt: 'Which option contains only letters?', options: ['A, B, C', 'one, two, three', 'red, blue, green'], answer: 0, col: 2, row: 0 },
-  { id: 'numbers', icon: '🔢', title: 'Numbers', subtitle: '0–20 · Números', goal: 'Recognize numbers and say a simple age.', grammar: 'I am + number + years old.', words: [['zero', 'cero'], ['one', 'uno'], ['five', 'cinco'], ['ten', 'diez'], ['fifteen', 'quince'], ['twenty', 'veinte']], phrases: ['I am ten years old.', 'I have five pencils.'], prompt: 'Which word is a number?', options: ['Monday', 'Yellow', 'Fifteen'], answer: 2, col: 3, row: 0 },
+  { id: 'numbers', icon: '🔢', title: 'Numbers', subtitle: '1–20 · Números', goal: 'Recognize numbers from one to twenty and say a simple age.', grammar: 'I am + number + years old.', words: [['one', 'uno'], ['two', 'dos'], ['three', 'tres'], ['four', 'cuatro'], ['five', 'cinco'], ['six', 'seis'], ['seven', 'siete'], ['eight', 'ocho'], ['nine', 'nueve'], ['ten', 'diez'], ['eleven', 'once'], ['twelve', 'doce'], ['thirteen', 'trece'], ['fourteen', 'catorce'], ['fifteen', 'quince'], ['sixteen', 'dieciséis'], ['seventeen', 'diecisiete'], ['eighteen', 'dieciocho'], ['nineteen', 'diecinueve'], ['twenty', 'veinte']], phrases: ['I am ten years old.', 'I have five pencils.'], prompt: 'Which word is a number?', options: ['Monday', 'Yellow', 'Fifteen'], answer: 2, col: 3, row: 0 },
   { id: 'days', icon: '📅', title: 'My week', subtitle: 'Days · Días', goal: 'Identify today and common days of the week.', grammar: 'Today is…', words: [['Monday', 'lunes'], ['Tuesday', 'martes'], ['Wednesday', 'miércoles'], ['Friday', 'viernes'], ['today', 'hoy'], ['tomorrow', 'mañana']], phrases: ['Today is Monday.', 'Tomorrow is Tuesday.'], prompt: 'Complete: Today is ___.', options: ['Friday', 'Blue', 'Book'], answer: 0, col: 0, row: 1 },
   { id: 'colours', icon: '🎨', title: 'Colours', subtitle: 'Colours · Colores', goal: 'Name the basic colours of familiar objects.', grammar: 'It is… / The ___ is…', words: [['red', 'rojo'], ['blue', 'azul'], ['yellow', 'amarillo'], ['green', 'verde'], ['black', 'negro'], ['white', 'blanco']], phrases: ['It is a red apple.', 'The bag is blue.'], prompt: 'Which option is a colour?', options: ['Teacher', 'Green', 'Seven'], answer: 1, col: 1, row: 1 },
   { id: 'classroom', icon: '🎒', title: 'In class', subtitle: 'School things · La clase', goal: 'Recognize and name everyday classroom objects.', grammar: 'This is my…', words: [['book', 'libro'], ['pen', 'bolígrafo'], ['pencil', 'lápiz'], ['bag', 'mochila'], ['chair', 'silla'], ['desk', 'pupitre']], phrases: ['This is my book.', 'My pencil is on the desk.'], prompt: 'What can you write with?', options: ['A park', 'A teacher', 'A pencil'], answer: 2, col: 2, row: 1 },
@@ -3558,6 +3559,36 @@ const PRE_A1_VISUAL_COURSE = [
   { id: 'food', icon: '🍎', title: 'Food & drinks', subtitle: 'Food · Comida', goal: 'Name simple foods and say what you like.', grammar: 'I like… / I want…', words: [['water', 'agua'], ['milk', 'leche'], ['apple', 'manzana'], ['banana', 'banana'], ['bread', 'pan'], ['rice', 'arroz']], phrases: ['I like apples and bread.', 'I want water, please.'], prompt: 'Which option is a drink?', options: ['Water', 'Bread', 'Rice'], answer: 0, col: 1, row: 2 },
   { id: 'places', icon: '🏠', title: 'My places', subtitle: 'Places · Lugares', goal: 'Recognize familiar places in your day.', grammar: 'This is… / I am at…', words: [['home', 'casa'], ['school', 'escuela'], ['park', 'parque'], ['shop', 'tienda'], ['street', 'calle'], ['classroom', 'aula']], phrases: ['I am at school.', 'The park is near my home.'], prompt: 'Where do students learn?', options: ['At school', 'At blue', 'At seven'], answer: 0, col: 2, row: 2 },
   { id: 'ready', icon: '🎉', title: 'Ready for A1', subtitle: 'Review · Repaso', goal: 'Use familiar words in a tiny introduction.', grammar: 'Hello + name + feeling', words: [['hello', 'hola'], ['name', 'nombre'], ['friend', 'amigo/a'], ['happy', 'feliz'], ['school', 'escuela'], ['ready', 'listo/a']], phrases: ['Hello! My name is Mia.', 'I am happy and ready for A1.'], prompt: 'Choose the best mini introduction.', options: ['Blue, ten, Monday.', 'Goodbye, pencil!', 'Hello! My name is Mia.'], answer: 2, col: 3, row: 2 }
+];
+
+const PRE_A1_FRENCH_VISUAL_COURSE = [
+  { id: 'bonjour', icon: '👋', title: 'Bonjour !', subtitle: 'Saluer · Saludos', goal: 'Saluda a alguien y di tu nombre.', grammar: 'Je suis… / Je m’appelle…', words: [['bonjour', 'hola'], ['salut', 'hola informal'], ['bonsoir', 'buenas tardes/noches'], ['bienvenue', 'bienvenido/a'], ['nom', 'nombre'], ['merci', 'gracias']], phrases: ['Bonjour ! Je m’appelle Ana.', 'Salut ! Enchanté(e).'], prompt: '¿Qué dices para saludar?', options: ['Au revoir !', 'Bonjour !', 'Douze'], answer: 1, col: 0, row: 0 },
+  { id: 'aurevoir', icon: '👋', title: 'Au revoir !', subtitle: 'Se dire au revoir · Despedidas', goal: 'Termina una conversación corta con cortesía.', grammar: 'À + moment', words: [['au revoir', 'adiós'], ['salut', 'chao'], ['à bientôt', 'hasta pronto'], ['à demain', 'hasta mañana'], ['bonne nuit', 'buenas noches'], ['merci', 'gracias']], phrases: ['Au revoir ! À demain.', 'Salut ! À bientôt.'], prompt: '¿Cuál es una despedida?', options: ['Bonjour !', 'Je m’appelle Léo.', 'À bientôt !'], answer: 2, col: 1, row: 0 },
+  { id: 'alphabet', icon: '🔤', title: 'L’alphabet', subtitle: 'Lettres · Letras', goal: 'Reconoce letras y deletrea un nombre corto.', grammar: 'Comment ça s’écrit ?', words: [['A', 'a'], ['B', 'be'], ['C', 'ce'], ['D', 'de'], ['E', 'e'], ['épeler', 'deletrear']], phrases: ['Comment ça s’écrit, Ana ?', 'A-N-A. Ana.'], prompt: '¿Qué opción contiene solo letras?', options: ['A, B, C', 'un, deux, trois', 'rouge, bleu, vert'], answer: 0, col: 2, row: 0 },
+  { id: 'nombres', icon: '🔢', title: 'Les nombres', subtitle: '0–20 · Números', goal: 'Reconoce números y dice una edad sencilla.', grammar: 'J’ai + nombre + ans.', words: [['zéro', 'cero'], ['un', 'uno'], ['cinq', 'cinco'], ['dix', 'diez'], ['quinze', 'quince'], ['vingt', 'veinte']], phrases: ['J’ai dix ans.', 'J’ai cinq crayons.'], prompt: '¿Qué palabra es un número?', options: ['Lundi', 'Jaune', 'Quinze'], answer: 2, col: 3, row: 0 },
+  { id: 'semaine', icon: '🗓️', title: 'Ma semaine', subtitle: 'Les jours · Días', goal: 'Identifica hoy y los días más comunes.', grammar: 'Aujourd’hui, c’est…', words: [['lundi', 'lunes'], ['mardi', 'martes'], ['mercredi', 'miércoles'], ['vendredi', 'viernes'], ['aujourd’hui', 'hoy'], ['demain', 'mañana']], phrases: ['Aujourd’hui, c’est lundi.', 'Demain, c’est mardi.'], prompt: 'Completa: Aujourd’hui, c’est ___.', options: ['Vendredi', 'Bleu', 'Livre'], answer: 0, col: 0, row: 1 },
+  { id: 'couleurs', icon: '🎨', title: 'Les couleurs', subtitle: 'Couleurs · Colores', goal: 'Nombra colores básicos de objetos conocidos.', grammar: 'C’est… / Le ___ est…', words: [['rouge', 'rojo'], ['bleu', 'azul'], ['jaune', 'amarillo'], ['vert', 'verde'], ['noir', 'negro'], ['blanc', 'blanco']], phrases: ['C’est une pomme rouge.', 'Le sac est bleu.'], prompt: '¿Cuál opción es un color?', options: ['Professeur', 'Vert', 'Sept'], answer: 1, col: 1, row: 1 },
+  { id: 'classe', icon: '🎒', title: 'En classe', subtitle: 'Les affaires · La clase', goal: 'Reconoce y nombra objetos escolares cotidianos.', grammar: 'C’est mon / ma…', words: [['livre', 'libro'], ['stylo', 'bolígrafo'], ['crayon', 'lápiz'], ['sac', 'mochila'], ['chaise', 'silla'], ['table', 'mesa']], phrases: ['C’est mon livre.', 'Mon crayon est sur la table.'], prompt: '¿Con qué puedes escribir?', options: ['Un parc', 'Un professeur', 'Un crayon'], answer: 2, col: 2, row: 1 },
+  { id: 'personnes', icon: '🧑‍🤝‍🧑', title: 'Les personnes', subtitle: 'Famille et amis · Personas', goal: 'Identifica personas importantes a tu alrededor.', grammar: 'C’est mon / ma…', words: [['mère', 'madre'], ['père', 'padre'], ['sœur', 'hermana'], ['frère', 'hermano'], ['ami(e)', 'amigo/a'], ['professeur', 'docente']], phrases: ['C’est ma sœur.', 'C’est mon ami.'], prompt: '¿Qué palabra nombra una persona?', options: ['Professeur', 'Violet', 'Lundi'], answer: 0, col: 3, row: 1 },
+  { id: 'emotions', icon: '😊', title: 'Comment ça va ?', subtitle: 'Les émotions · Emociones', goal: 'Expresa cómo te sientes con una palabra sencilla.', grammar: 'Je suis + émotion.', words: [['content(e)', 'feliz'], ['triste', 'triste'], ['fatigué(e)', 'cansado/a'], ['bien', 'bien'], ['faim', 'hambre'], ['ça va', 'estoy bien']], phrases: ['Je suis content(e) aujourd’hui.', 'Je suis fatigué(e), mais ça va.'], prompt: '¿Cómo se dice “feliz” en francés?', options: ['Fatigué(e)', 'Content(e)', 'Triste'], answer: 1, col: 0, row: 2 },
+  { id: 'repas', icon: '🍎', title: 'Manger et boire', subtitle: 'Aliments · Comida', goal: 'Nombra alimentos sencillos y dice qué quieres.', grammar: 'J’aime… / Je veux…', words: [['eau', 'agua'], ['lait', 'leche'], ['pomme', 'manzana'], ['banane', 'banana'], ['pain', 'pan'], ['riz', 'arroz']], phrases: ['J’aime les pommes et le pain.', 'Je veux de l’eau, s’il vous plaît.'], prompt: '¿Cuál opción es una bebida?', options: ['Eau', 'Pain', 'Riz'], answer: 0, col: 1, row: 2 },
+  { id: 'lieux', icon: '🏠', title: 'Mes lieux', subtitle: 'Les lieux · Lugares', goal: 'Reconoce lugares familiares en tu día.', grammar: 'Je suis à…', words: [['maison', 'casa'], ['école', 'escuela'], ['parc', 'parque'], ['magasin', 'tienda'], ['rue', 'calle'], ['classe', 'aula']], phrases: ['Je suis à l’école.', 'Le parc est près de ma maison.'], prompt: '¿Dónde aprenden los estudiantes?', options: ['À l’école', 'À bleu', 'À sept'], answer: 0, col: 2, row: 2 },
+  { id: 'pret', icon: '🎉', title: 'Prêt pour A1', subtitle: 'Révision · Repaso', goal: 'Usa palabras conocidas en una presentación muy corta.', grammar: 'Bonjour + nom + émotion', words: [['bonjour', 'hola'], ['nom', 'nombre'], ['ami(e)', 'amigo/a'], ['content(e)', 'feliz'], ['école', 'escuela'], ['prêt(e)', 'listo/a']], phrases: ['Bonjour ! Je m’appelle Mia.', 'Je suis contente et prête pour A1.'], prompt: 'Elige la mejor mini presentación.', options: ['Bleu, dix, lundi.', 'Au revoir, crayon !', 'Bonjour ! Je m’appelle Mia.'], answer: 2, col: 3, row: 2 }
+];
+
+const PRE_A1_SPANISH_VISUAL_COURSE = [
+  { id: 'hola', icon: '👋', title: '¡Hola!', subtitle: 'Saludos · Greetings', goal: 'Greet someone and say your name in Spanish.', grammar: 'Soy… / Me llamo…', words: [['hola', 'hello'], ['buenos días', 'good morning'], ['buenas tardes', 'good afternoon'], ['bienvenido/a', 'welcome'], ['nombre', 'name'], ['gracias', 'thank you']], phrases: ['¡Hola! Me llamo Ana.', 'Buenos días. Mucho gusto.'], prompt: 'Which word is a greeting?', options: ['Adiós', 'Hola', 'Doce'], answer: 1, col: 0, row: 0 },
+  { id: 'adios', icon: '👋', title: '¡Adiós!', subtitle: 'Despedidas · Goodbyes', goal: 'End a short conversation politely in Spanish.', grammar: 'Hasta + moment', words: [['adiós', 'goodbye'], ['chao', 'bye'], ['hasta luego', 'see you later'], ['hasta mañana', 'see you tomorrow'], ['buenas noches', 'good night'], ['gracias', 'thank you']], phrases: ['¡Adiós! Hasta mañana.', 'Chao. Hasta luego.'], prompt: 'Which phrase is a goodbye?', options: ['Buenos días', 'Me llamo Leo', 'Hasta luego'], answer: 2, col: 1, row: 0 },
+  { id: 'abecedario', icon: '🔤', title: 'El abecedario', subtitle: 'Letras · Letters', goal: 'Recognize letters and spell a short name.', grammar: '¿Cómo se escribe…?', words: [['A', 'a'], ['B', 'be'], ['C', 'ce'], ['D', 'de'], ['E', 'e'], ['deletrear', 'to spell']], phrases: ['¿Cómo se escribe Ana?', 'A-N-A. Ana.'], prompt: 'Which option contains only letters?', options: ['A, B, C', 'uno, dos, tres', 'rojo, azul, verde'], answer: 0, col: 2, row: 0 },
+  { id: 'numeros', icon: '🔢', title: 'Los números', subtitle: '0–20 · Numbers', goal: 'Recognize numbers and say a simple age.', grammar: 'Tengo + number + años.', words: [['cero', 'zero'], ['uno', 'one'], ['cinco', 'five'], ['diez', 'ten'], ['quince', 'fifteen'], ['veinte', 'twenty']], phrases: ['Tengo diez años.', 'Tengo cinco lápices.'], prompt: 'Which word is a number?', options: ['Lunes', 'Amarillo', 'Quince'], answer: 2, col: 3, row: 0 },
+  { id: 'dias', icon: '🗓️', title: 'Mi semana', subtitle: 'Días · Days', goal: 'Identify today and common days of the week.', grammar: 'Hoy es…', words: [['lunes', 'Monday'], ['martes', 'Tuesday'], ['miércoles', 'Wednesday'], ['viernes', 'Friday'], ['hoy', 'today'], ['mañana', 'tomorrow']], phrases: ['Hoy es lunes.', 'Mañana es martes.'], prompt: 'Complete: Hoy es ___.', options: ['Viernes', 'Azul', 'Libro'], answer: 0, col: 0, row: 1 },
+  { id: 'colores', icon: '🎨', title: 'Los colores', subtitle: 'Colores · Colours', goal: 'Name basic colours of familiar objects.', grammar: 'Es… / El ___ es…', words: [['rojo', 'red'], ['azul', 'blue'], ['amarillo', 'yellow'], ['verde', 'green'], ['negro', 'black'], ['blanco', 'white']], phrases: ['Es una manzana roja.', 'La mochila es azul.'], prompt: 'Which option is a colour?', options: ['Profesor', 'Verde', 'Siete'], answer: 1, col: 1, row: 1 },
+  { id: 'clase', icon: '🎒', title: 'En clase', subtitle: 'Objetos escolares · School things', goal: 'Recognize and name everyday classroom objects.', grammar: 'Este es mi / Esta es mi…', words: [['libro', 'book'], ['bolígrafo', 'pen'], ['lápiz', 'pencil'], ['mochila', 'bag'], ['silla', 'chair'], ['mesa', 'table']], phrases: ['Este es mi libro.', 'Mi lápiz está en la mesa.'], prompt: 'What can you write with?', options: ['Un parque', 'Un profesor', 'Un lápiz'], answer: 2, col: 2, row: 1 },
+  { id: 'personas', icon: '🧑‍🤝‍🧑', title: 'Las personas', subtitle: 'Familia y amigos · People', goal: 'Identify important people around you.', grammar: 'Él es… / Ella es…', words: [['madre', 'mother'], ['padre', 'father'], ['hermana', 'sister'], ['hermano', 'brother'], ['amigo/a', 'friend'], ['profesor/a', 'teacher']], phrases: ['Ella es mi hermana.', 'Él es mi amigo.'], prompt: 'Which word names a person?', options: ['Profesor', 'Violeta', 'Lunes'], answer: 0, col: 3, row: 1 },
+  { id: 'emociones', icon: '😊', title: '¿Cómo estás?', subtitle: 'Emociones · Feelings', goal: 'Say how you feel with one simple word.', grammar: 'Estoy + feeling.', words: [['feliz', 'happy'], ['triste', 'sad'], ['cansado/a', 'tired'], ['bien', 'well'], ['hambre', 'hungry'], ['muy bien', 'very well']], phrases: ['Estoy feliz hoy.', 'Estoy cansado, pero estoy bien.'], prompt: 'How do you say “happy” in Spanish?', options: ['Cansado', 'Feliz', 'Triste'], answer: 1, col: 0, row: 2 },
+  { id: 'comida', icon: '🍎', title: 'Comida y bebida', subtitle: 'Alimentos · Food', goal: 'Name simple food and say what you want.', grammar: 'Me gusta… / Quiero…', words: [['agua', 'water'], ['leche', 'milk'], ['manzana', 'apple'], ['banana', 'banana'], ['pan', 'bread'], ['arroz', 'rice']], phrases: ['Me gustan las manzanas y el pan.', 'Quiero agua, por favor.'], prompt: 'Which option is a drink?', options: ['Agua', 'Pan', 'Arroz'], answer: 0, col: 1, row: 2 },
+  { id: 'lugares', icon: '🏠', title: 'Mis lugares', subtitle: 'Lugares · Places', goal: 'Recognize familiar places in your day.', grammar: 'Estoy en…', words: [['casa', 'home'], ['escuela', 'school'], ['parque', 'park'], ['tienda', 'shop'], ['calle', 'street'], ['aula', 'classroom']], phrases: ['Estoy en la escuela.', 'El parque está cerca de mi casa.'], prompt: 'Where do students learn?', options: ['En la escuela', 'En azul', 'En siete'], answer: 0, col: 2, row: 2 },
+  { id: 'listo', icon: '🎉', title: 'Listo para A1', subtitle: 'Repaso · Review', goal: 'Use familiar words in a tiny introduction.', grammar: 'Hola + nombre + feeling', words: [['hola', 'hello'], ['nombre', 'name'], ['amigo/a', 'friend'], ['feliz', 'happy'], ['escuela', 'school'], ['listo/a', 'ready']], phrases: ['¡Hola! Me llamo Mia.', 'Estoy feliz y lista para A1.'], prompt: 'Choose the best mini introduction.', options: ['Azul, diez, lunes.', 'Adiós, lápiz.', '¡Hola! Me llamo Mia.'], answer: 2, col: 3, row: 2 }
 ];
 
 // Each topic includes a tiny, meaningful exchange. At Pre-A1 the aim is not
@@ -3578,22 +3609,73 @@ const PRE_A1_MICRO_DIALOGUES = {
   ready: [['Ana', 'Hello! My name is Ana.'], ['Leo', 'Hi, Ana. I am Leo.'], ['Ana', 'We are ready for A1!']]
 };
 
+const PRE_A1_FRENCH_MICRO_DIALOGUES = {
+  bonjour: [['Ana', 'Bonjour ! Je m’appelle Ana.'], ['Léo', 'Salut, Ana. Je suis Léo.'], ['Ana', 'Enchantée, Léo.']],
+  aurevoir: [['Mia', 'Au revoir, Sam.'], ['Sam', 'Salut, Mia. À demain !'], ['Mia', 'À demain !']],
+  alphabet: [['Professeur', 'Comment ça s’écrit, Léo ?'], ['Léo', 'L-E-O.'], ['Professeur', 'Très bien, Léo !']],
+  nombres: [['Mia', 'Tu as quel âge ?'], ['Léo', 'J’ai dix ans.'], ['Mia', 'Moi aussi, j’ai dix ans.']],
+  semaine: [['Ana', 'Quel jour sommes-nous ?'], ['Léo', 'Aujourd’hui, c’est lundi.'], ['Ana', 'Le français est le lundi.']],
+  couleurs: [['Mia', 'De quelle couleur est ton sac ?'], ['Sam', 'Il est bleu.'], ['Mia', 'Mon sac est rouge.']],
+  classe: [['Professeur', 'Ouvre ton livre, s’il te plaît.'], ['Ana', 'C’est mon livre.'], ['Professeur', 'Merci, Ana.']],
+  personnes: [['Léo', 'Qui est-ce ?'], ['Ana', 'C’est ma sœur.'], ['Léo', 'Bonjour, la sœur d’Ana !']],
+  emotions: [['Professeur', 'Comment ça va aujourd’hui ?'], ['Mia', 'Je suis contente, merci.'], ['Professeur', 'C’est super.']],
+  repas: [['Ana', 'Tu veux quoi ?'], ['Léo', 'De l’eau, s’il te plaît.'], ['Ana', 'Voilà ton eau.']],
+  lieux: [['Mia', 'Tu es où ?'], ['Sam', 'Je suis à l’école.'], ['Mia', 'Je suis au parc.']],
+  pret: [['Ana', 'Bonjour ! Je m’appelle Ana.'], ['Léo', 'Salut, Ana. Je suis Léo.'], ['Ana', 'Nous sommes prêts pour A1 !']]
+};
+
+const PRE_A1_SPANISH_MICRO_DIALOGUES = {
+  hola: [['Ana', '¡Hola! Me llamo Ana.'], ['Leo', 'Hola, Ana. Soy Leo.'], ['Ana', 'Mucho gusto, Leo.']],
+  adios: [['Mia', 'Adiós, Sam.'], ['Sam', 'Chao, Mia. Hasta mañana.'], ['Mia', '¡Hasta mañana!']],
+  abecedario: [['Profesor', '¿Cómo se escribe Leo?'], ['Leo', 'L-E-O.'], ['Profesor', '¡Muy bien, Leo!']],
+  numeros: [['Mia', '¿Cuántos años tienes?'], ['Leo', 'Tengo diez años.'], ['Mia', 'Yo también tengo diez años.']],
+  dias: [['Ana', '¿Qué día es hoy?'], ['Leo', 'Hoy es lunes.'], ['Ana', 'La clase de español es el lunes.']],
+  colores: [['Mia', '¿De qué color es tu mochila?'], ['Sam', 'Es azul.'], ['Mia', 'Mi mochila es roja.']],
+  clase: [['Profesora', 'Abre tu libro, por favor.'], ['Ana', 'Este es mi libro.'], ['Profesora', 'Gracias, Ana.']],
+  personas: [['Leo', '¿Quién es ella?'], ['Ana', 'Ella es mi hermana.'], ['Leo', '¡Hola, hermana de Ana!']],
+  emociones: [['Profesora', '¿Cómo estás hoy?'], ['Mia', 'Estoy feliz, gracias.'], ['Profesora', '¡Qué bien!']],
+  comida: [['Ana', '¿Qué quieres?'], ['Leo', 'Agua, por favor.'], ['Ana', 'Aquí tienes tu agua.']],
+  lugares: [['Mia', '¿Dónde estás?'], ['Sam', 'Estoy en la escuela.'], ['Mia', 'Estoy en el parque.']],
+  listo: [['Ana', '¡Hola! Me llamo Ana.'], ['Leo', 'Hola, Ana. Soy Leo.'], ['Ana', '¡Estamos listos para A1!']]
+};
+
+const PRE_A1_WORD_VISUALS = {
+  hello: ['👋', '🙂', '🌅', '☀️', '🏠', '🏷️'],
+  goodbye: ['👋', '🙂', '👀', '⏳', '🌄', '🌙'],
+  abc: ['🅰️', '🅱️', '©️', '🇩', '📧', '🔤'],
+  numbers: ['1️⃣', '2️⃣', '3️⃣', '4️⃣', '5️⃣', '6️⃣', '7️⃣', '8️⃣', '9️⃣', '🔟', '1️⃣1️⃣', '1️⃣2️⃣', '1️⃣3️⃣', '1️⃣4️⃣', '1️⃣5️⃣', '1️⃣6️⃣', '1️⃣7️⃣', '1️⃣8️⃣', '1️⃣9️⃣', '2️⃣0️⃣'],
+  days: ['1️⃣', '2️⃣', '3️⃣', '5️⃣', '📍', '➡️'],
+  colours: ['🔴', '🔵', '🟡', '🟢', '⚫', '⚪'],
+  classroom: ['📘', '🖊️', '✏️', '🎒', '🪑', '🗄️'],
+  people: ['👩', '👨', '👧', '👦', '🧑‍🤝‍🧑', '🧑‍🏫'],
+  feelings: ['😊', '😢', '😴', '🙂', '😋', '👌'],
+  food: ['💧', '🥛', '🍎', '🍌', '🍞', '🍚'],
+  places: ['🏠', '🏫', '🌳', '🏪', '🛣️', '🪑'],
+  ready: ['👋', '🏷️', '🧑‍🤝‍🧑', '😊', '🏫', '🎉']
+};
+
 function isPreA1VisualCourse(language = learningPathState.language, level = learningPathState.level) {
-  return language === 'english' && level === 'PRE-A1';
+  return ['english', 'french', 'spanish'].includes(language) && level === 'PRE-A1';
 }
 
-function getPreA1Progress() {
+function getPreA1Course(language = learningPathState.language) {
+  if (language === 'french') return PRE_A1_FRENCH_VISUAL_COURSE;
+  if (language === 'spanish') return PRE_A1_SPANISH_VISUAL_COURSE;
+  return PRE_A1_VISUAL_COURSE;
+}
+
+function getPreA1Progress(language = learningPathState.language) {
   try {
-    const stored = JSON.parse(localStorage.getItem(PRE_A1_PROGRESS_STORAGE_KEY) || '[]');
+    const stored = JSON.parse(localStorage.getItem(`${PRE_A1_PROGRESS_STORAGE_KEY}_${language}`) || '[]');
     return new Set(Array.isArray(stored) ? stored : []);
   } catch {
     return new Set();
   }
 }
 
-function savePreA1Progress(progress) {
+function savePreA1Progress(progress, language = learningPathState.language) {
   try {
-    localStorage.setItem(PRE_A1_PROGRESS_STORAGE_KEY, JSON.stringify([...progress]));
+    localStorage.setItem(`${PRE_A1_PROGRESS_STORAGE_KEY}_${language}`, JSON.stringify([...progress]));
   } catch {
     // The visual course remains usable if private browsing blocks storage.
   }
@@ -3612,36 +3694,70 @@ function renderPreA1VisualCourse(selectedTopicId = '') {
   const routeToggle = section?.querySelector('.learn-route-toggle');
   if (!section || !graph || !workspace) return;
 
-  const progress = getPreA1Progress();
-  const selected = PRE_A1_VISUAL_COURSE.find((topic) => topic.id === selectedTopicId) || PRE_A1_VISUAL_COURSE.find((topic) => !progress.has(topic.id)) || PRE_A1_VISUAL_COURSE[0];
-  const dialogue = PRE_A1_MICRO_DIALOGUES[selected.id] || [];
+  preA1SelectedTopicId = selectedTopicId;
+  const lessonOpen = Boolean(selectedTopicId);
+  const course = getPreA1Course();
+  const language = learningPathState.language;
+  const isFrenchPreA1 = language === 'french';
+  const isSpanishPreA1 = language === 'spanish';
+  const progress = getPreA1Progress(language);
+  const selected = course.find((topic) => topic.id === selectedTopicId) || course.find((topic) => !progress.has(topic.id)) || course[0];
+  const dialogueMap = isFrenchPreA1
+    ? PRE_A1_FRENCH_MICRO_DIALOGUES
+    : isSpanishPreA1
+      ? PRE_A1_SPANISH_MICRO_DIALOGUES
+      : PRE_A1_MICRO_DIALOGUES;
+  const dialogue = dialogueMap[selected.id] || [];
+  const visuals = PRE_A1_WORD_VISUALS[selected.id] || selected.words.map(() => '🔹');
+  const topicIndex = Math.max(0, course.findIndex((topic) => topic.id === selected.id));
+  const visualTargetIndex = topicIndex % selected.words.length;
+  const visualOptionIndices = [visualTargetIndex, (visualTargetIndex + 2) % selected.words.length, (visualTargetIndex + 4) % selected.words.length];
+  const rotation = topicIndex % visualOptionIndices.length;
+  const orderedVisualOptions = [...visualOptionIndices.slice(rotation), ...visualOptionIndices.slice(0, rotation)];
+  const reviewIndices = selected.id === 'numbers' ? [0, 9, 19] : [1, 3, 5];
   const completed = progress.size;
-  const pct = Math.round((completed / PRE_A1_VISUAL_COURSE.length) * 100);
+  const pct = Math.round((completed / course.length) * 100);
 
   section.classList.add('pre-a1-active');
+  section.classList.toggle('pre-a1-lesson-open', lessonOpen);
   if (tabs) tabs.hidden = true;
   if (routeToggle) routeToggle.hidden = true;
-  if (context) context.innerHTML = '<span>English</span><i aria-hidden="true"></i><span>Pre-A1</span><i aria-hidden="true"></i><span>Visual starter</span>';
+  const courseName = isFrenchPreA1 ? 'Français' : isSpanishPreA1 ? 'Español' : 'English';
+  const heroTitle = isFrenchPreA1
+    ? 'Commence par ce que tu peux voir.'
+    : isSpanishPreA1
+      ? 'Empieza por lo que puedes ver.'
+      : 'Start with what you can see.';
+  if (context) context.innerHTML = `<span>${courseName}</span><i aria-hidden="true"></i><span>Pre-A1</span><i aria-hidden="true"></i><span>Visual starter</span>`;
 
   graph.innerHTML = `
     <div class="pre-a1-hero">
-      <div><span class="pre-a1-kicker">English · Pre-A1</span><h2>Start with what you can see.</h2><p>Mira, escucha y aprende una idea pequeña a la vez.</p></div>
-      <div class="pre-a1-progress" aria-label="${completed} of ${PRE_A1_VISUAL_COURSE.length} topics complete"><strong>${completed}/${PRE_A1_VISUAL_COURSE.length}</strong><span>temas completados</span><div><i style="width:${pct}%"></i></div></div>
+      <div><span class="pre-a1-kicker">${courseName} · Pre-A1</span><h2>${heroTitle}</h2><p>Mira, escucha y aprende una idea pequeña a la vez.</p></div>
+      <div class="pre-a1-progress" aria-label="${completed} of ${course.length} topics complete"><strong>${completed}/${course.length}</strong><span>temas completados</span><div><i style="width:${pct}%"></i></div></div>
     </div>
     <div class="pre-a1-topic-grid" aria-label="Pre-A1 visual topics">
-      ${PRE_A1_VISUAL_COURSE.map((topic, index) => `
+      ${course.map((topic, index) => `
         <button type="button" class="pre-a1-topic${topic.id === selected.id ? ' is-selected' : ''}${progress.has(topic.id) ? ' is-complete' : ''}" data-pre-a1-topic="${topic.id}" aria-pressed="${topic.id === selected.id}">
           <span class="pre-a1-topic-image" role="img" aria-label="Illustration: ${escapeHtml(topic.subtitle)}" style="${getPreA1SpriteStyle(topic)}"><span class="pre-a1-topic-image-mark" aria-hidden="true">${topic.icon}</span></span>
           <span class="pre-a1-topic-copy"><small>${index + 1}</small><strong>${escapeHtml(topic.title)}</strong><em>${escapeHtml(topic.subtitle)}</em></span>
           <span class="pre-a1-topic-state" aria-label="${progress.has(topic.id) ? 'Completed' : 'Not completed'}">${progress.has(topic.id) ? '✓' : topic.icon}</span>
         </button>`).join('')}
     </div>`;
+  graph.hidden = lessonOpen;
 
   workspace.className = 'lesson-workspace pre-a1-workspace';
+  workspace.hidden = !lessonOpen;
   workspace.innerHTML = `
+    <div class="pre-a1-lesson-nav"><button type="button" class="secondary-btn pre-a1-back-topics">← Volver a los temas</button><span>${course.findIndex((topic) => topic.id === selected.id) + 1} de ${course.length}</span></div>
     <div class="pre-a1-detail-head"><span class="pre-a1-detail-image" role="img" aria-label="Illustration: ${escapeHtml(selected.subtitle)}" style="${getPreA1SpriteStyle(selected)}"></span><div><span class="pre-a1-kicker">Mini lección</span><h3>${escapeHtml(selected.title)}</h3><p>${escapeHtml(selected.goal)}</p></div></div>
     <div class="pre-a1-mini-path" aria-label="Pasos de la lección"><span>1 · Mira</span><span>2 · Escucha</span><span>3 · Habla</span><span>4 · Comprueba</span></div>
-    <div class="pre-a1-word-row">${selected.words.map(([word, support]) => `<button type="button" class="pre-a1-word pre-a1-listen" data-speech="${escapeHtml(word)}" aria-label="Listen to ${escapeHtml(word)}"><span>🔊 ${escapeHtml(word)}</span><small>${escapeHtml(support)}</small></button>`).join('')}</div>
+    <div class="pre-a1-word-row">${selected.words.map(([word, support], index) => `<button type="button" class="pre-a1-word pre-a1-listen" data-speech="${escapeHtml(word)}" aria-label="Listen to ${escapeHtml(word)}"><b aria-hidden="true">${visuals[index]}</b><span>🔊 ${escapeHtml(word)}</span><small>${escapeHtml(support)}</small></button>`).join('')}</div>
+    <section class="pre-a1-review" aria-label="Repaso rápido"><span class="pre-a1-kicker">Repaso rápido</span><div>${reviewIndices.map((index) => `<button type="button" class="pre-a1-review-word pre-a1-listen" data-speech="${escapeHtml(selected.words[index][0])}"><b aria-hidden="true">${visuals[index]}</b><span>${escapeHtml(selected.words[index][0])}</span><small>${escapeHtml(selected.words[index][1])}</small></button>`).join('')}</div></section>
+    <section class="pre-a1-picture-check" aria-label="Escucha y toca la imagen correcta">
+      <div class="pre-a1-picture-check-head"><div><span class="pre-a1-kicker">Escucha y toca</span><h4>¿Qué imagen corresponde a la palabra?</h4></div><button type="button" class="secondary-btn pre-a1-listen" data-speech="${escapeHtml(selected.words[visualTargetIndex][0])}">🔊 Escuchar palabra</button></div>
+      <div class="pre-a1-picture-options">${orderedVisualOptions.map((index) => `<button type="button" class="pre-a1-picture-option" data-pre-a1-visual-choice="${index}" data-pre-a1-visual-answer="${visualTargetIndex}" aria-label="${escapeHtml(selected.words[index][1])}"><b aria-hidden="true">${visuals[index]}</b><small>${escapeHtml(selected.words[index][1])}</small></button>`).join('')}</div>
+      <p class="pre-a1-picture-feedback" aria-live="polite">Escucha y selecciona una imagen.</p>
+    </section>
     <div class="pre-a1-grammar-focus"><span>Simple pattern</span><strong>${escapeHtml(selected.grammar)}</strong></div>
     <div class="pre-a1-phrase-list">${selected.phrases.map((phrase) => `<div class="pre-a1-phrase"><span>Say it</span><strong>${escapeHtml(phrase)}</strong><button type="button" class="secondary-btn pre-a1-listen" data-speech="${escapeHtml(phrase)}">🔊 Listen</button></div>`).join('')}</div>
     <section class="pre-a1-dialogue" aria-label="Diálogo guiado">
@@ -3651,6 +3767,14 @@ function renderPreA1VisualCourse(selectedTopicId = '') {
       <p class="pre-a1-repeat-feedback" aria-live="polite"></p>
     </section>
     <div class="pre-a1-challenge"><span class="pre-a1-kicker">Reto rápido</span><h4>${escapeHtml(selected.prompt)}</h4><div>${selected.options.map((option, index) => `<button type="button" class="pre-a1-choice" data-pre-a1-choice="${index}" data-pre-a1-answer="${selected.answer}">${escapeHtml(option)}</button>`).join('')}</div><p class="pre-a1-feedback" aria-live="polite">Elige una respuesta.</p></div>`;
+
+  workspace.querySelector('.pre-a1-back-topics')?.addEventListener('click', () => {
+    window.speechSynthesis?.cancel();
+    renderPreA1VisualCourse();
+    window.requestAnimationFrame(() => {
+      document.getElementById('skillGraph')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  });
 
   graph.querySelectorAll('[data-pre-a1-topic]').forEach((button) => button.addEventListener('click', () => {
     renderPreA1VisualCourse(button.dataset.preA1Topic);
@@ -3668,9 +3792,18 @@ function renderPreA1VisualCourse(selectedTopicId = '') {
     if (!('speechSynthesis' in window)) return;
     window.speechSynthesis.cancel();
     const utterance = new SpeechSynthesisUtterance(button.dataset.speech || '');
-    utterance.lang = 'en-US';
+    utterance.lang = isFrenchPreA1 ? 'fr-FR' : isSpanishPreA1 ? 'es-ES' : 'en-US';
     utterance.rate = 0.82;
+    button.classList.add('is-speaking');
+    utterance.onend = utterance.onerror = () => button.classList.remove('is-speaking');
     window.speechSynthesis.speak(utterance);
+  }));
+  workspace.querySelectorAll('[data-pre-a1-visual-choice]').forEach((button) => button.addEventListener('click', () => {
+    const correct = Number(button.dataset.preA1VisualChoice) === Number(button.dataset.preA1VisualAnswer);
+    const feedback = workspace.querySelector('.pre-a1-picture-feedback');
+    workspace.querySelectorAll('[data-pre-a1-visual-choice]').forEach((item) => item.classList.remove('is-correct', 'is-wrong'));
+    button.classList.add(correct ? 'is-correct' : 'is-wrong');
+    if (feedback) feedback.textContent = correct ? `¡Correcto! ${selected.words[visualTargetIndex][0]} significa ${selected.words[visualTargetIndex][1]}.` : 'Escucha otra vez y prueba con otra imagen.';
   }));
   workspace.querySelector('.pre-a1-repeat-confirm')?.addEventListener('click', (event) => {
     event.currentTarget.disabled = true;
@@ -3697,7 +3830,12 @@ function renderPreA1VisualCourse(selectedTopicId = '') {
 function clearPreA1VisualCourse() {
   const section = document.getElementById('learning-path');
   if (!section) return;
-  section.classList.remove('pre-a1-active');
+  preA1SelectedTopicId = '';
+  section.classList.remove('pre-a1-active', 'pre-a1-lesson-open');
+  const graph = document.getElementById('skillGraph');
+  const workspace = document.getElementById('lessonWorkspace');
+  if (graph) graph.hidden = false;
+  if (workspace) workspace.hidden = false;
   const tabs = section.querySelector('.level-tabs');
   const routeToggle = section.querySelector('.learn-route-toggle');
   if (tabs) tabs.hidden = false;
@@ -7407,6 +7545,14 @@ function renderLessonWorkspace() {
 }
 
 function renderLearningPath() {
+  // Pre-A1 is a visual mini-course rather than a conventional lesson list.
+  // General progress/auth refreshes also call renderLearningPath(); keep those
+  // refreshes from replacing the visual catalogue with the empty-list state.
+  if (isPreA1VisualCourse()) {
+    renderPreA1VisualCourse(preA1SelectedTopicId);
+    updateAiTutorContext();
+    return;
+  }
   renderLearningRouteContext();
   renderSkillGraph();
   renderLessonWorkspace();
@@ -15173,7 +15319,7 @@ async function performLearningPathLoad(options = {}) {
   readingSpeechPlayer.teardown();
   learningPathState.language = options.language || learningPathState.language;
   learningPathState.level = options.level || learningPathState.level;
-  if (learningPathState.level === 'PRE-A1' && learningPathState.language !== 'english') {
+  if (learningPathState.level === 'PRE-A1' && !['english', 'french', 'spanish'].includes(learningPathState.language)) {
     learningPathState.level = 'A1';
   }
   syncLearningMode();
@@ -18193,10 +18339,10 @@ function setupLearningPathControls() {
   levelSelect?.addEventListener('change', () => {
     const language = languageSelect?.value || learningPathState.language;
     const selectedLevel = levelSelect.value;
-    const level = selectedLevel === 'PRE-A1' && language !== 'english' ? 'A1' : selectedLevel;
+    const level = selectedLevel === 'PRE-A1' && !['english', 'french', 'spanish'].includes(language) ? 'A1' : selectedLevel;
     if (level !== selectedLevel) {
       levelSelect.value = level;
-      showHomeToast('Pre-A1 visual is available in English only.');
+      showHomeToast('Pre-A1 visual está disponible en inglés, francés y español.');
     }
     loadLearningPath({ language, level });
     savePreferences(language, level);

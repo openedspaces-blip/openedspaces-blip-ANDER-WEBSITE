@@ -1602,29 +1602,6 @@
   });
 
   document.addEventListener('click', (event) => {
-    const launchpadButton = event.target.closest('.verbs-launchpad-btn[data-verbs-jump]');
-    if (launchpadButton) {
-      const feature = launchpadButton.dataset.verbsJump;
-      const targetTab = document.querySelector(`#verbsTabs .skill-tab-button[data-skill="${feature}"]`);
-      if (!targetTab) return;
-
-      if ((feature === 'practice' || feature === 'progress') && !requireAuthForVerbFeature(feature)) {
-        return;
-      }
-
-      if (feature === 'practice') {
-        const lengthSelect = document.getElementById('verbsPracticeLengthSelect');
-        const presetLength = launchpadButton.dataset.verbsPracticeLength;
-        if (lengthSelect && presetLength) lengthSelect.value = presetLength;
-        document.querySelectorAll('.verb-practice-preset').forEach((preset) => {
-          preset.classList.toggle('is-active', preset.dataset.practiceLength === presetLength);
-        });
-      }
-
-      activateSkillTab?.(targetTab, { scroll: true });
-      return;
-    }
-
     // Intercept the shared Vocabulary mastery buttons (renderVocabCardHtml/
     // script.js's own document click listener, registered after this one)
     // only when the card is a verb card (id prefix 'verb-english-') - never

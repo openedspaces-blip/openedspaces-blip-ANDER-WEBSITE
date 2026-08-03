@@ -13503,32 +13503,6 @@ footer small {
   color: var(--blue);
 }
 
-#verbsTabs .skill-tab-button[data-skill='practice']:not(.active) {
-  position: relative;
-  color: var(--blue);
-  background: rgba(37, 99, 235, 0.08);
-  box-shadow: inset 0 -3px 0 rgba(37, 99, 235, 0.42);
-}
-
-#verbsTabs .skill-tab-button[data-skill='practice']::after {
-  content: 'Recomendado';
-  display: inline-block;
-  margin-left: 0.45rem;
-  padding: 0.15rem 0.4rem;
-  border-radius: 999px;
-  background: var(--blue);
-  color: #fff;
-  font-size: 0.58rem;
-  font-weight: 850;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  vertical-align: middle;
-}
-
-#verbsTabs .skill-tab-button[data-skill='practice'].active::after {
-  background: rgba(255, 255, 255, 0.22);
-}
-
 .dictation-segment {
   display: flex;
   flex-direction: column;
@@ -14935,106 +14909,6 @@ footer small {
   .tutor-panel-controls .tutor-input { min-height: 52px; max-height: 16dvh; resize: none; }
   .tutor-panel-controls .tutor-dictate-note { display: none; }
   .tutor-panel-controls .tutor-clear-btn { padding: 0.35rem 0.45rem; font-size: 0.68rem; }
-}
-
-/* A compact decision point before the Verbos tabs: students can start a
-   short game, open a conjugation, or inspect their saved progress without
-   having to understand the four sub-sections first. */
-.verbs-launchpad {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-  margin: 0.9rem 0 1.15rem;
-  padding: 0.8rem 0.9rem;
-  border: 1px solid rgba(37, 99, 235, 0.16);
-  border-radius: 18px;
-  background: linear-gradient(110deg, rgba(239, 246, 255, 0.96), rgba(236, 253, 255, 0.92));
-}
-
-.verbs-launchpad-copy {
-  display: grid;
-  gap: 0.14rem;
-}
-
-.verbs-launchpad-copy span {
-  color: var(--blue);
-  font-size: 0.72rem;
-  font-weight: 850;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-}
-
-.verbs-launchpad-copy strong {
-  color: var(--navy-2);
-  font-size: 0.92rem;
-}
-
-.verbs-launchpad-actions {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  gap: 0.45rem;
-}
-
-.verbs-launchpad-btn {
-  min-height: 2.35rem;
-  padding: 0.48rem 0.72rem;
-  border: 1px solid rgba(37, 99, 235, 0.22);
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.88);
-  color: var(--navy-2);
-  font: inherit;
-  font-size: 0.8rem;
-  font-weight: 800;
-  cursor: pointer;
-  transition: transform 150ms ease, border-color 150ms ease, box-shadow 150ms ease;
-}
-
-.verbs-launchpad-btn:hover {
-  border-color: var(--blue);
-  box-shadow: 0 5px 14px rgba(37, 99, 235, 0.14);
-  transform: translateY(-1px);
-}
-
-.verbs-launchpad-btn:focus-visible {
-  outline: 3px solid rgba(37, 99, 235, 0.28);
-  outline-offset: 2px;
-}
-
-.verbs-launchpad-btn.is-primary {
-  border-color: var(--blue);
-  background: linear-gradient(100deg, var(--blue), var(--cyan));
-  color: var(--white);
-}
-
-@media (max-width: 640px) {
-  .verbs-launchpad {
-    align-items: stretch;
-    flex-direction: column;
-    gap: 0.65rem;
-    margin-block: 0.7rem 0.9rem;
-    padding: 0.72rem;
-  }
-
-  .verbs-launchpad-copy strong {
-    font-size: 0.88rem;
-  }
-
-  .verbs-launchpad-actions {
-    justify-content: stretch;
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-  }
-
-  .verbs-launchpad-btn {
-    min-height: 2.65rem;
-    font-size: 0.76rem;
-  }
-
-  .verbs-launchpad-btn.is-primary {
-    grid-column: 1 / -1;
-  }
 }
 
 /* Verbos (Fase 2 pilot) - the card deck and sub-tabs reuse .vocab-card and
@@ -21719,6 +21593,26 @@ body {
   margin-top: 1rem;
 }
 
+.pre-a1-active.pre-a1-lesson-open .lesson-workspace {
+  max-width: 1240px;
+  margin-top: 0;
+}
+
+.pre-a1-lesson-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid rgba(37, 99, 235, 0.13);
+}
+
+.pre-a1-lesson-nav span {
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 750;
+}
+
 .pre-a1-hero {
   display: flex;
   align-items: end;
@@ -21907,6 +21801,11 @@ body {
   padding: clamp(1rem, 3vw, 1.4rem);
 }
 
+.pre-a1-active .skill-graph,
+.pre-a1-active .lesson-workspace {
+  max-width: 1240px;
+}
+
 .pre-a1-detail-head {
   display: flex;
   align-items: center;
@@ -21933,6 +21832,11 @@ body {
   gap: 0.55rem;
 }
 
+.pre-a1-word-row {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .pre-a1-word,
 .pre-a1-choice {
   border: 1px solid rgba(37, 99, 235, 0.2);
@@ -21945,11 +21849,26 @@ body {
 
 .pre-a1-word {
   display: grid;
-  gap: 0.12rem;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 0.08rem 0.65rem;
   min-width: 126px;
-  padding: 0.55rem 0.78rem;
+  min-height: 72px;
+  padding: 0.65rem 0.78rem;
+  border-radius: 16px;
   font-size: 0.82rem;
   text-align: left;
+}
+
+.pre-a1-word b {
+  grid-row: 1 / span 2;
+  display: grid;
+  width: 42px;
+  height: 42px;
+  place-items: center;
+  border-radius: 13px;
+  background: #eaf3ff;
+  font-size: 1.45rem;
 }
 
 .pre-a1-word span {
@@ -21960,6 +21879,124 @@ body {
   color: var(--muted);
   font-size: 0.69rem;
   font-weight: 650;
+}
+
+.pre-a1-listen.is-speaking {
+  border-color: rgba(14, 165, 233, 0.65);
+  animation: preA1SpeakPulse 620ms ease;
+}
+
+@keyframes preA1SpeakPulse {
+  50% {
+    transform: translateY(-2px) scale(1.018);
+    box-shadow: 0 10px 24px rgba(37, 99, 235, 0.15);
+  }
+}
+
+.pre-a1-review,
+.pre-a1-picture-check {
+  display: grid;
+  gap: 0.72rem;
+  padding: 0.92rem;
+  border: 1px solid rgba(37, 99, 235, 0.14);
+  border-radius: 16px;
+  background: #fff;
+}
+
+.pre-a1-review h4,
+.pre-a1-picture-check h4 {
+  margin: 0;
+  color: var(--navy-2);
+  font-size: 0.9rem;
+}
+
+.pre-a1-review > div,
+.pre-a1-picture-options {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.55rem;
+}
+
+.pre-a1-review-word,
+.pre-a1-picture-option {
+  border: 1px solid rgba(37, 99, 235, 0.17);
+  border-radius: 14px;
+  background: #f7faff;
+  color: var(--navy-2);
+  cursor: pointer;
+}
+
+.pre-a1-review-word {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 0.06rem 0.58rem;
+  min-height: 62px;
+  padding: 0.55rem 0.68rem;
+  text-align: left;
+}
+
+.pre-a1-review-word b {
+  grid-row: 1 / span 2;
+  font-size: 1.35rem;
+}
+
+.pre-a1-review-word span {
+  font-size: 0.8rem;
+  font-weight: 820;
+}
+
+.pre-a1-review-word small {
+  color: var(--muted);
+  font-size: 0.67rem;
+}
+
+.pre-a1-picture-check-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.7rem;
+}
+
+.pre-a1-picture-check-head .secondary-btn {
+  min-height: 38px;
+  padding: 0.42rem 0.72rem;
+  white-space: nowrap;
+}
+
+.pre-a1-picture-option {
+  display: grid;
+  min-height: 105px;
+  padding: 0.72rem;
+  place-items: center;
+  transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
+}
+
+.pre-a1-picture-option:hover {
+  transform: translateY(-2px);
+  border-color: rgba(37, 99, 235, 0.48);
+}
+
+.pre-a1-picture-option b {
+  font-size: 2.45rem;
+}
+
+.pre-a1-picture-option.is-correct {
+  border-color: #22c55e;
+  background: #dcfce7;
+}
+
+.pre-a1-picture-option.is-wrong {
+  border-color: #ef4444;
+  background: #fee2e2;
+}
+
+.pre-a1-picture-feedback {
+  min-height: 1.1em;
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 700;
 }
 
 .pre-a1-mini-path {
@@ -22185,12 +22222,50 @@ body {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .pre-a1-word-row {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .pre-a1-word {
+    min-height: 66px;
+    padding: 0.52rem;
+  }
+
+  .pre-a1-word b {
+    width: 36px;
+    height: 36px;
+    font-size: 1.2rem;
+  }
+
+  .pre-a1-picture-check-head {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .pre-a1-picture-option {
+    min-height: 84px;
+  }
+
+  .pre-a1-picture-option b {
+    font-size: 2rem;
+  }
+
   .pre-a1-dialogue-line {
     grid-template-columns: 1fr auto;
   }
 
   .pre-a1-dialogue-line strong {
     grid-column: 1 / -1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pre-a1-listen.is-speaking {
+    animation: none;
+  }
+
+  .pre-a1-picture-option {
+    transition: none;
   }
 }
 
