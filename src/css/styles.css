@@ -14841,6 +14841,144 @@ footer small {
   margin-top: 0.85rem;
 }
 
+/* The main Tutor is a single conversation surface: choose a tiny mission and
+   begin. The former mode panels remain available to the existing scripts but
+   no longer compete with the chat as a second, dense control area. */
+#tutor.tutor-section {
+  max-width: 1040px;
+}
+
+#tutor .tutor-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 172px;
+  align-items: center;
+  gap: 1.25rem;
+  padding: clamp(1rem, 3vw, 1.55rem);
+  border: 1px solid rgba(37, 99, 235, 0.15);
+  border-radius: 26px;
+  background:
+    radial-gradient(circle at 90% 18%, rgba(34, 211, 238, 0.2), transparent 33%),
+    linear-gradient(135deg, #f8fbff 0%, #eef5ff 100%);
+}
+
+#tutor .tutor-section-heading {
+  margin: 0 0 0.65rem;
+}
+
+#tutor .tutor-section-heading h2 {
+  margin-bottom: 0.28rem;
+}
+
+#tutor .tutor-section-heading p {
+  max-width: 43rem;
+}
+
+#tutor .tutor-context {
+  gap: 0.4rem;
+}
+
+#tutor .tutor-context-pill,
+#tutor .tutor-connection-status {
+  padding: 0.38rem 0.6rem;
+  font-size: 0.78rem;
+}
+
+#tutor .tutor-context-pill:nth-of-type(3) {
+  display: none;
+}
+
+#tutor .tutor-voice-controls-row {
+  margin: 0.65rem 0 0;
+}
+
+#tutor .tutor-hero-bot {
+  display: grid;
+  justify-items: center;
+  gap: 0.4rem;
+  color: #1e3a8a;
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.tutor-bot-mark--hero {
+  width: 104px;
+  height: 104px;
+  padding: 0.75rem;
+  border-radius: 32px;
+  color: var(--blue);
+  background: linear-gradient(145deg, #dbeafe, #ecfeff);
+  box-shadow: 0 14px 30px rgba(37, 99, 235, 0.18);
+  animation: tutor-hero-float 4s ease-in-out infinite;
+}
+
+.tutor-bot-mark--hero .tutor-bot-shell {
+  fill: #fff;
+  stroke: rgba(37, 99, 235, 0.24);
+}
+
+@keyframes tutor-hero-float {
+  50% { transform: translateY(-6px) rotate(-2deg); }
+}
+
+#tutor .tutor-start-label {
+  margin: 0.1rem 0 -0.15rem;
+  color: var(--navy-2);
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
+#tutor .tutor-main-quick-actions {
+  margin: 0.1rem 0 0.45rem;
+}
+
+#tutor .tutor-quick-action {
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.06);
+}
+
+#tutor .tutor-input {
+  min-height: 84px;
+  border-radius: 16px;
+}
+
+#tutor .tutor-helper,
+#tutor .tutor-dictate-note {
+  font-size: 0.78rem;
+}
+
+@media (max-width: 640px) {
+  #tutor .tutor-hero {
+    grid-template-columns: minmax(0, 1fr) 74px;
+    gap: 0.7rem;
+    padding: 0.9rem;
+    border-radius: 20px;
+  }
+
+  .tutor-bot-mark--hero {
+    width: 66px;
+    height: 66px;
+    padding: 0.46rem;
+    border-radius: 22px;
+  }
+
+  #tutor .tutor-hero-bot > span:last-child {
+    display: none;
+  }
+
+  #tutor .tutor-section-heading h2 {
+    font-size: 1.45rem;
+  }
+
+  #tutor .tutor-conversation {
+    max-height: 300px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tutor-bot-mark--hero { animation: none; }
+}
+
 #tutor .tutor-input {
   min-height: 112px;
   border-radius: 16px;
@@ -15167,6 +15305,27 @@ footer small {
 
 .verb-list-item:active {
   transform: scale(0.99);
+}
+
+/* A brief response confirms that touching the open area has started the
+   pronunciation. It is deliberately subtle so scanning a long verb list
+   stays calm and the real buttons retain their own visual hierarchy. */
+.verb-list-item.is-pronouncing {
+  animation: verb-card-pronunciation 620ms ease-out;
+}
+
+@keyframes verb-card-pronunciation {
+  0% { transform: translateY(0); box-shadow: var(--shadow-xs); }
+  40% { transform: translateY(-4px); border-color: var(--blue); box-shadow: 0 12px 26px rgba(37, 99, 235, 0.2); }
+  100% { transform: translateY(0); box-shadow: var(--shadow-xs); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .verb-list-item,
+  .verb-list-item.is-pronouncing {
+    animation: none;
+    transition: none;
+  }
 }
 
 .verb-list-rank-row,

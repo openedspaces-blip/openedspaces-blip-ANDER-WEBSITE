@@ -595,6 +595,16 @@
       const visible = sorted.slice(0, verbsVisibleCount);
       deck.innerHTML = visible.map(({ raw, item }) => renderVerbTileHtml(item, raw, { canSpeak })).join('');
 
+      // Keep the examples action independent from the card's pronunciation
+      // shortcut.  This direct listener runs before the document delegate,
+      // so the card never absorbs a click intended for "Ver ejemplos".
+      deck.querySelectorAll('.verb-open-detail-btn').forEach((button) => {
+        button.addEventListener('click', (event) => {
+          event.stopPropagation();
+          openVerbDetail(button.dataset.verbId);
+        });
+      });
+
       if (loadMoreRow) loadMoreRow.hidden = sorted.length <= visible.length;
       if (showAllBtn) showAllBtn.hidden = sorted.length <= visible.length;
     } catch (error) {
@@ -1770,6 +1780,10 @@
     // only plays its target word.
     const verbTile = event.target.closest('.verb-list-item[data-speak-text]');
     if (verbTile) {
+      verbTile.classList.remove('is-pronouncing');
+      // Restart the short visual cue on repeated taps without delaying TTS.
+      window.requestAnimationFrame(() => verbTile.classList.add('is-pronouncing'));
+      window.setTimeout(() => verbTile.classList.remove('is-pronouncing'), 650);
       speakText(verbTile.dataset.speakText, {
         locale: verbTile.dataset.speakLocale,
         rate: Number(verbTile.dataset.speakRate) || 1
