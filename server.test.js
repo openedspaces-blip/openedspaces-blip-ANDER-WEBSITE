@@ -1339,6 +1339,18 @@ test('advanced English and French readings keep their CEFR level implicit inside
   }
 });
 
+test('English B2 readings use evidence-led editorial prose instead of the Sarah and Daniel storyline', () => {
+  const readings = seedLessons.filter(
+    (lesson) => lesson.target_language === 'english' && lesson.level === 'B2' && lesson.skill === 'reading'
+  );
+  assert.equal(readings.length, 12);
+  for (const lesson of readings) {
+    const text = lesson.content_json?.reading?.text || '';
+    assert.doesNotMatch(text, /\bSarah\b|\bDaniel\b/, `${lesson.slug} must not use the old fictional storyline`);
+    assert.match(text, /evidence|sources|claim|argument|consequences/i);
+  }
+});
+
 test('English B1 has 12 complete units with assessed Reading, Grammar and Vocabulary', () => {
   const units = seedUnits
     .filter((row) => row.target_language === 'english' && row.level === 'B1')

@@ -751,342 +751,6 @@
     }
   },
   {
-    "slug": "social-media-public-opinion",
-    "target_language": "english",
-    "level": "B2",
-    "title": "Social Media and Public Opinion",
-    "title_es": "Social Media and Public Opinion",
-    "description": "Sarah investigates why a misleading local story spread faster than its correction.",
-    "order_index": 1,
-    "unit_overview": {
-      "objective": "Evaluate arguments about social media and public opinion.",
-      "outcomes": [
-        "identify a writer’s position",
-        "evaluate evidence and counterarguments",
-        "use topic vocabulary",
-        "apply advanced grammar"
-      ],
-      "grammar": [
-        "Passive reporting structures"
-      ],
-      "vocabulary": [
-        "viral",
-        "misleading",
-        "echo chamber",
-        "fact-check"
-      ],
-      "scenario": "Sarah investigates why a misleading local story spread faster than its correction."
-    }
-  },
-  {
-    "slug": "plastic-pollution-cities",
-    "target_language": "english",
-    "level": "B2",
-    "title": "Plastic Pollution in Our Cities",
-    "title_es": "Plastic Pollution in Our Cities",
-    "description": "Daniel joins a clean-up and discovers why collecting rubbish cannot solve plastic pollution alone.",
-    "order_index": 2,
-    "unit_overview": {
-      "objective": "Evaluate arguments about plastic pollution in our cities.",
-      "outcomes": [
-        "identify a writer’s position",
-        "evaluate evidence and counterarguments",
-        "use topic vocabulary",
-        "apply advanced grammar"
-      ],
-      "grammar": [
-        "Causative and passive forms"
-      ],
-      "vocabulary": [
-        "single-use",
-        "waste stream",
-        "microplastic",
-        "reusable"
-      ],
-      "scenario": "Daniel joins a clean-up and discovers why collecting rubbish cannot solve plastic pollution alone."
-    }
-  },
-  {
-    "slug": "climate-change-daily-decisions",
-    "target_language": "english",
-    "level": "B2",
-    "title": "Climate Change and Everyday Decisions",
-    "title_es": "Climate Change and Everyday Decisions",
-    "description": "Sarah compares personal climate choices with decisions made by companies and governments.",
-    "order_index": 3,
-    "unit_overview": {
-      "objective": "Evaluate arguments about climate change and everyday decisions.",
-      "outcomes": [
-        "identify a writer’s position",
-        "evaluate evidence and counterarguments",
-        "use topic vocabulary",
-        "apply advanced grammar"
-      ],
-      "grammar": [
-        "Mixed conditionals"
-      ],
-      "vocabulary": [
-        "carbon footprint",
-        "emissions",
-        "renewable",
-        "adaptation"
-      ],
-      "scenario": "Sarah compares personal climate choices with decisions made by companies and governments."
-    }
-  },
-  {
-    "slug": "corruption-public-trust",
-    "target_language": "english",
-    "level": "B2",
-    "title": "Corruption and Public Trust in Latin America and the Caribbean",
-    "title_es": "Corruption and Public Trust in Latin America and the Caribbean",
-    "description": "Daniel follows a cross-border investigation into public contracts in several Latin American and Caribbean communities.",
-    "order_index": 4,
-    "unit_overview": {
-      "objective": "Evaluate arguments about corruption and public trust in latin america and the caribbean.",
-      "outcomes": [
-        "identify a writer’s position",
-        "evaluate evidence and counterarguments",
-        "use topic vocabulary",
-        "apply advanced grammar"
-      ],
-      "grammar": [
-        "Modals of deduction in the past"
-      ],
-      "vocabulary": [
-        "clientelism",
-        "bribery",
-        "conflict of interest",
-        "public procurement"
-      ],
-      "scenario": "Daniel follows a cross-border investigation into public contracts in several Latin American and Caribbean communities."
-    }
-  },
-  {
-    "slug": "fourth-of-july",
-    "target_language": "english",
-    "level": "B2",
-    "title": "The Fourth of July: Freedom and Contradictions",
-    "title_es": "The Fourth of July: Freedom and Contradictions",
-    "description": "Sarah and Daniel spend July 4th with American friends and discuss how national celebrations hold pride and criticism together.",
-    "order_index": 5,
-    "unit_overview": {
-      "objective": "Evaluate arguments about the fourth of july: freedom and contradictions.",
-      "outcomes": [
-        "identify a writer’s position",
-        "evaluate evidence and counterarguments",
-        "use topic vocabulary",
-        "apply advanced grammar"
-      ],
-      "grammar": [
-        "Participle clauses"
-      ],
-      "vocabulary": [
-        "independence",
-        "founding document",
-        "civil rights",
-        "patriotism"
-      ],
-      "scenario": "Sarah and Daniel spend July 4th with American friends and discuss how national celebrations hold pride and criticism together."
-    }
-  },
-  {
-    "slug": "migration-cultural-identity",
-    "target_language": "english",
-    "level": "B2",
-    "title": "Migration and Cultural Identity",
-    "title_es": "Migration and Cultural Identity",
-    "description": "A neighbour asks Daniel where he is really from, beginning a difficult but generous conversation.",
-    "order_index": 6,
-    "unit_overview": {
-      "objective": "Evaluate arguments about migration and cultural identity.",
-      "outcomes": [
-        "identify a writer’s position",
-        "evaluate evidence and counterarguments",
-        "use topic vocabulary",
-        "apply advanced grammar"
-      ],
-      "grammar": [
-        "Advanced relative clauses"
-      ],
-      "vocabulary": [
-        "belonging",
-        "heritage",
-        "integration",
-        "assimilation"
-      ],
-      "scenario": "A neighbour asks Daniel where he is really from, beginning a difficult but generous conversation."
-    }
-  },
-  {
-    "slug": "housing-inequality",
-    "target_language": "english",
-    "level": "B2",
-    "title": "Housing Inequality",
-    "title_es": "Housing Inequality",
-    "description": "Sarah helps a colleague understand why wages have not kept pace with local rents.",
-    "order_index": 7,
-    "unit_overview": {
-      "objective": "Evaluate arguments about housing inequality.",
-      "outcomes": [
-        "identify a writer’s position",
-        "evaluate evidence and counterarguments",
-        "use topic vocabulary",
-        "apply advanced grammar"
-      ],
-      "grammar": [
-        "Comparatives with modifiers"
-      ],
-      "vocabulary": [
-        "affordable housing",
-        "rent increase",
-        "tenant",
-        "landlord"
-      ],
-      "scenario": "Sarah helps a colleague understand why wages have not kept pace with local rents."
-    }
-  },
-  {
-    "slug": "ai-and-employment",
-    "target_language": "english",
-    "level": "B2",
-    "title": "Artificial Intelligence and Employment",
-    "title_es": "Artificial Intelligence and Employment",
-    "description": "Daniel’s hotel introduces an AI scheduling system that saves time but creates unexpected problems.",
-    "order_index": 8,
-    "unit_overview": {
-      "objective": "Evaluate arguments about artificial intelligence and employment.",
-      "outcomes": [
-        "identify a writer’s position",
-        "evaluate evidence and counterarguments",
-        "use topic vocabulary",
-        "apply advanced grammar"
-      ],
-      "grammar": [
-        "Future perfect and future continuous"
-      ],
-      "vocabulary": [
-        "automation",
-        "algorithmic bias",
-        "oversight",
-        "retraining"
-      ],
-      "scenario": "Daniel’s hotel introduces an AI scheduling system that saves time but creates unexpected problems."
-    }
-  },
-  {
-    "slug": "fast-fashion-hidden-costs",
-    "target_language": "english",
-    "level": "B2",
-    "title": "Fast Fashion and Hidden Costs",
-    "title_es": "Fast Fashion and Hidden Costs",
-    "description": "Sarah traces the social and environmental cost of an extremely cheap shirt.",
-    "order_index": 9,
-    "unit_overview": {
-      "objective": "Evaluate arguments about fast fashion and hidden costs.",
-      "outcomes": [
-        "identify a writer’s position",
-        "evaluate evidence and counterarguments",
-        "use topic vocabulary",
-        "apply advanced grammar"
-      ],
-      "grammar": [
-        "Concession clauses"
-      ],
-      "vocabulary": [
-        "fast fashion",
-        "supply chain",
-        "garment worker",
-        "traceability"
-      ],
-      "scenario": "Sarah traces the social and environmental cost of an extremely cheap shirt."
-    }
-  },
-  {
-    "slug": "education-social-mobility",
-    "target_language": "english",
-    "level": "B2",
-    "title": "Education and Social Mobility",
-    "title_es": "Education and Social Mobility",
-    "description": "Daniel mentors a student whose ability is clear but whose application is incomplete.",
-    "order_index": 10,
-    "unit_overview": {
-      "objective": "Evaluate arguments about education and social mobility.",
-      "outcomes": [
-        "identify a writer’s position",
-        "evaluate evidence and counterarguments",
-        "use topic vocabulary",
-        "apply advanced grammar"
-      ],
-      "grammar": [
-        "Inversion for emphasis"
-      ],
-      "vocabulary": [
-        "social mobility",
-        "scholarship",
-        "tuition",
-        "mentoring"
-      ],
-      "scenario": "Daniel mentors a student whose ability is clear but whose application is incomplete."
-    }
-  },
-  {
-    "slug": "free-speech-misinformation",
-    "target_language": "english",
-    "level": "B2",
-    "title": "Freedom of Speech and Misinformation",
-    "title_es": "Freedom of Speech and Misinformation",
-    "description": "Sarah moderates a community forum after a harmful false claim appears.",
-    "order_index": 11,
-    "unit_overview": {
-      "objective": "Evaluate arguments about freedom of speech and misinformation.",
-      "outcomes": [
-        "identify a writer’s position",
-        "evaluate evidence and counterarguments",
-        "use topic vocabulary",
-        "apply advanced grammar"
-      ],
-      "grammar": [
-        "Reported speech and reporting verbs"
-      ],
-      "vocabulary": [
-        "free speech",
-        "misinformation",
-        "censorship",
-        "harmful claim"
-      ],
-      "scenario": "Sarah moderates a community forum after a harmful false claim appears."
-    }
-  },
-  {
-    "slug": "community-action",
-    "target_language": "english",
-    "level": "B2",
-    "title": "Community Action and Local Change",
-    "title_es": "Community Action and Local Change",
-    "description": "Sarah and Daniel help residents turn repeated complaints into a practical neighbourhood plan.",
-    "order_index": 12,
-    "unit_overview": {
-      "objective": "Evaluate arguments about community action and local change.",
-      "outcomes": [
-        "identify a writer’s position",
-        "evaluate evidence and counterarguments",
-        "use topic vocabulary",
-        "apply advanced grammar"
-      ],
-      "grammar": [
-        "Emphatic cleft structures"
-      ],
-      "vocabulary": [
-        "grassroots",
-        "volunteer",
-        "petition",
-        "stakeholder"
-      ],
-      "scenario": "Sarah and Daniel help residents turn repeated complaints into a practical neighbourhood plan."
-    }
-  },
-  {
     "slug": "antimicrobial-resistance",
     "target_language": "english",
     "level": "C1",
@@ -5665,6 +5329,342 @@
         "étendue et contrôle du vocabulaire",
         "correction grammaticale constante"
       ]
+    }
+  },
+  {
+    "slug": "social-media-public-opinion",
+    "target_language": "english",
+    "level": "B2",
+    "title": "Social Media and Public Opinion",
+    "title_es": "Social Media and Public Opinion",
+    "description": "An evidence-led reading on social media and public opinion, examining competing claims, consequences and possible responses.",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "Evaluate arguments about social media and public opinion.",
+      "outcomes": [
+        "identify a writer’s position",
+        "evaluate evidence and counterarguments",
+        "use topic vocabulary",
+        "apply advanced grammar"
+      ],
+      "grammar": [
+        "Passive reporting structures"
+      ],
+      "vocabulary": [
+        "viral",
+        "misleading",
+        "echo chamber",
+        "fact-check"
+      ],
+      "scenario": "An evidence-led reading on social media and public opinion, examining competing claims, consequences and possible responses."
+    }
+  },
+  {
+    "slug": "plastic-pollution-cities",
+    "target_language": "english",
+    "level": "B2",
+    "title": "Plastic Pollution in Our Cities",
+    "title_es": "Plastic Pollution in Our Cities",
+    "description": "An evidence-led reading on plastic pollution in our cities, examining competing claims, consequences and possible responses.",
+    "order_index": 2,
+    "unit_overview": {
+      "objective": "Evaluate arguments about plastic pollution in our cities.",
+      "outcomes": [
+        "identify a writer’s position",
+        "evaluate evidence and counterarguments",
+        "use topic vocabulary",
+        "apply advanced grammar"
+      ],
+      "grammar": [
+        "Causative and passive forms"
+      ],
+      "vocabulary": [
+        "single-use",
+        "waste stream",
+        "microplastic",
+        "reusable"
+      ],
+      "scenario": "An evidence-led reading on plastic pollution in our cities, examining competing claims, consequences and possible responses."
+    }
+  },
+  {
+    "slug": "climate-change-daily-decisions",
+    "target_language": "english",
+    "level": "B2",
+    "title": "Climate Change and Everyday Decisions",
+    "title_es": "Climate Change and Everyday Decisions",
+    "description": "An evidence-led reading on climate change and everyday decisions, examining competing claims, consequences and possible responses.",
+    "order_index": 3,
+    "unit_overview": {
+      "objective": "Evaluate arguments about climate change and everyday decisions.",
+      "outcomes": [
+        "identify a writer’s position",
+        "evaluate evidence and counterarguments",
+        "use topic vocabulary",
+        "apply advanced grammar"
+      ],
+      "grammar": [
+        "Mixed conditionals"
+      ],
+      "vocabulary": [
+        "carbon footprint",
+        "emissions",
+        "renewable",
+        "adaptation"
+      ],
+      "scenario": "An evidence-led reading on climate change and everyday decisions, examining competing claims, consequences and possible responses."
+    }
+  },
+  {
+    "slug": "corruption-public-trust",
+    "target_language": "english",
+    "level": "B2",
+    "title": "Corruption and Public Trust in Latin America and the Caribbean",
+    "title_es": "Corruption and Public Trust in Latin America and the Caribbean",
+    "description": "An evidence-led reading on corruption and public trust in latin america and the caribbean, examining competing claims, consequences and possible responses.",
+    "order_index": 4,
+    "unit_overview": {
+      "objective": "Evaluate arguments about corruption and public trust in latin america and the caribbean.",
+      "outcomes": [
+        "identify a writer’s position",
+        "evaluate evidence and counterarguments",
+        "use topic vocabulary",
+        "apply advanced grammar"
+      ],
+      "grammar": [
+        "Modals of deduction in the past"
+      ],
+      "vocabulary": [
+        "clientelism",
+        "bribery",
+        "conflict of interest",
+        "public procurement"
+      ],
+      "scenario": "An evidence-led reading on corruption and public trust in latin america and the caribbean, examining competing claims, consequences and possible responses."
+    }
+  },
+  {
+    "slug": "fourth-of-july",
+    "target_language": "english",
+    "level": "B2",
+    "title": "The Fourth of July: Freedom and Contradictions",
+    "title_es": "The Fourth of July: Freedom and Contradictions",
+    "description": "An evidence-led reading on the fourth of july: freedom and contradictions, examining competing claims, consequences and possible responses.",
+    "order_index": 5,
+    "unit_overview": {
+      "objective": "Evaluate arguments about the fourth of july: freedom and contradictions.",
+      "outcomes": [
+        "identify a writer’s position",
+        "evaluate evidence and counterarguments",
+        "use topic vocabulary",
+        "apply advanced grammar"
+      ],
+      "grammar": [
+        "Participle clauses"
+      ],
+      "vocabulary": [
+        "independence",
+        "founding document",
+        "civil rights",
+        "patriotism"
+      ],
+      "scenario": "An evidence-led reading on the fourth of july: freedom and contradictions, examining competing claims, consequences and possible responses."
+    }
+  },
+  {
+    "slug": "migration-cultural-identity",
+    "target_language": "english",
+    "level": "B2",
+    "title": "Migration and Cultural Identity",
+    "title_es": "Migration and Cultural Identity",
+    "description": "An evidence-led reading on migration and cultural identity, examining competing claims, consequences and possible responses.",
+    "order_index": 6,
+    "unit_overview": {
+      "objective": "Evaluate arguments about migration and cultural identity.",
+      "outcomes": [
+        "identify a writer’s position",
+        "evaluate evidence and counterarguments",
+        "use topic vocabulary",
+        "apply advanced grammar"
+      ],
+      "grammar": [
+        "Advanced relative clauses"
+      ],
+      "vocabulary": [
+        "belonging",
+        "heritage",
+        "integration",
+        "assimilation"
+      ],
+      "scenario": "An evidence-led reading on migration and cultural identity, examining competing claims, consequences and possible responses."
+    }
+  },
+  {
+    "slug": "housing-inequality",
+    "target_language": "english",
+    "level": "B2",
+    "title": "Housing Inequality",
+    "title_es": "Housing Inequality",
+    "description": "An evidence-led reading on housing inequality, examining competing claims, consequences and possible responses.",
+    "order_index": 7,
+    "unit_overview": {
+      "objective": "Evaluate arguments about housing inequality.",
+      "outcomes": [
+        "identify a writer’s position",
+        "evaluate evidence and counterarguments",
+        "use topic vocabulary",
+        "apply advanced grammar"
+      ],
+      "grammar": [
+        "Comparatives with modifiers"
+      ],
+      "vocabulary": [
+        "affordable housing",
+        "rent increase",
+        "tenant",
+        "landlord"
+      ],
+      "scenario": "An evidence-led reading on housing inequality, examining competing claims, consequences and possible responses."
+    }
+  },
+  {
+    "slug": "ai-and-employment",
+    "target_language": "english",
+    "level": "B2",
+    "title": "Artificial Intelligence and Employment",
+    "title_es": "Artificial Intelligence and Employment",
+    "description": "An evidence-led reading on artificial intelligence and employment, examining competing claims, consequences and possible responses.",
+    "order_index": 8,
+    "unit_overview": {
+      "objective": "Evaluate arguments about artificial intelligence and employment.",
+      "outcomes": [
+        "identify a writer’s position",
+        "evaluate evidence and counterarguments",
+        "use topic vocabulary",
+        "apply advanced grammar"
+      ],
+      "grammar": [
+        "Future perfect and future continuous"
+      ],
+      "vocabulary": [
+        "automation",
+        "algorithmic bias",
+        "oversight",
+        "retraining"
+      ],
+      "scenario": "An evidence-led reading on artificial intelligence and employment, examining competing claims, consequences and possible responses."
+    }
+  },
+  {
+    "slug": "fast-fashion-hidden-costs",
+    "target_language": "english",
+    "level": "B2",
+    "title": "Fast Fashion and Hidden Costs",
+    "title_es": "Fast Fashion and Hidden Costs",
+    "description": "An evidence-led reading on fast fashion and hidden costs, examining competing claims, consequences and possible responses.",
+    "order_index": 9,
+    "unit_overview": {
+      "objective": "Evaluate arguments about fast fashion and hidden costs.",
+      "outcomes": [
+        "identify a writer’s position",
+        "evaluate evidence and counterarguments",
+        "use topic vocabulary",
+        "apply advanced grammar"
+      ],
+      "grammar": [
+        "Concession clauses"
+      ],
+      "vocabulary": [
+        "fast fashion",
+        "supply chain",
+        "garment worker",
+        "traceability"
+      ],
+      "scenario": "An evidence-led reading on fast fashion and hidden costs, examining competing claims, consequences and possible responses."
+    }
+  },
+  {
+    "slug": "education-social-mobility",
+    "target_language": "english",
+    "level": "B2",
+    "title": "Education and Social Mobility",
+    "title_es": "Education and Social Mobility",
+    "description": "An evidence-led reading on education and social mobility, examining competing claims, consequences and possible responses.",
+    "order_index": 10,
+    "unit_overview": {
+      "objective": "Evaluate arguments about education and social mobility.",
+      "outcomes": [
+        "identify a writer’s position",
+        "evaluate evidence and counterarguments",
+        "use topic vocabulary",
+        "apply advanced grammar"
+      ],
+      "grammar": [
+        "Inversion for emphasis"
+      ],
+      "vocabulary": [
+        "social mobility",
+        "scholarship",
+        "tuition",
+        "mentoring"
+      ],
+      "scenario": "An evidence-led reading on education and social mobility, examining competing claims, consequences and possible responses."
+    }
+  },
+  {
+    "slug": "free-speech-misinformation",
+    "target_language": "english",
+    "level": "B2",
+    "title": "Freedom of Speech and Misinformation",
+    "title_es": "Freedom of Speech and Misinformation",
+    "description": "An evidence-led reading on freedom of speech and misinformation, examining competing claims, consequences and possible responses.",
+    "order_index": 11,
+    "unit_overview": {
+      "objective": "Evaluate arguments about freedom of speech and misinformation.",
+      "outcomes": [
+        "identify a writer’s position",
+        "evaluate evidence and counterarguments",
+        "use topic vocabulary",
+        "apply advanced grammar"
+      ],
+      "grammar": [
+        "Reported speech and reporting verbs"
+      ],
+      "vocabulary": [
+        "free speech",
+        "misinformation",
+        "censorship",
+        "harmful claim"
+      ],
+      "scenario": "An evidence-led reading on freedom of speech and misinformation, examining competing claims, consequences and possible responses."
+    }
+  },
+  {
+    "slug": "community-action",
+    "target_language": "english",
+    "level": "B2",
+    "title": "Community Action and Local Change",
+    "title_es": "Community Action and Local Change",
+    "description": "An evidence-led reading on community action and local change, examining competing claims, consequences and possible responses.",
+    "order_index": 12,
+    "unit_overview": {
+      "objective": "Evaluate arguments about community action and local change.",
+      "outcomes": [
+        "identify a writer’s position",
+        "evaluate evidence and counterarguments",
+        "use topic vocabulary",
+        "apply advanced grammar"
+      ],
+      "grammar": [
+        "Emphatic cleft structures"
+      ],
+      "vocabulary": [
+        "grassroots",
+        "volunteer",
+        "petition",
+        "stakeholder"
+      ],
+      "scenario": "An evidence-led reading on community action and local change, examining competing claims, consequences and possible responses."
     }
   }
 ]
