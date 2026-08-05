@@ -1735,7 +1735,7 @@ const units = [
             'From Barcelona, they travelled to Rome by bus, which took almost twenty hours. "It was long and tiring, but we met some interesting people and played cards for hours," Sarah explains. In Rome, they visited ancient ruins, threw coins in a famous fountain, and ate the best pizza of their lives.\n\n' +
             'One night in Rome, they got lost after dinner and walked for two hours before they finally found their hostel. "We laughed so much that night," Sarah remembers. "We were exhausted, but it\'s one of my favourite memories."\n\n' +
             'Their last stop was Florence, where they saw incredible art and climbed to the top of a cathedral for an amazing view of the city. "That was the perfect end to the trip," Sarah says.\n\n' +
-            'After five weeks, they flew home, tired but full of stories. "We spent almost no money, we didn\'t plan very well, and everything sometimes went wrong," Sarah tells Daniel, "but it was one of the best summers of my life."\n\n' +
+            'After five weeks, they flew home, tired but full of stories. "We spent almost no money, we didn\'t plan very well, and sometimes everything went wrong," Sarah tells Daniel, "but it was one of the best summers of my life."\n\n' +
             'Daniel smiles. "Maybe we should have our own adventure like that one day." Sarah looks at him and grins. "I like that idea."',
           questions: [
             'Cuenta tu experiencia de viaje más memorable usando el Past Simple.',
@@ -2963,12 +2963,12 @@ const units = [
             'On Wednesday, Sarah calls Daniel\'s best friend, Marcus. "We\'re going to surprise Daniel on Saturday," she explains. "Can you come at six, but don\'t tell him?" Marcus agrees immediately. "I won\'t say a word," he promises. "I\'ll bring some music too - I\'ve got a great playlist."\n\n' +
             'By Friday, everything is almost ready. Sarah is going to pick up balloons in the morning, and Lucy is going to collect the cake in the afternoon. "What if it rains?" Lucy asks, worried. "Then we\'ll have the party inside," Sarah decides quickly. "I\'ll move the furniture if we need to."\n\n' +
             'On Saturday morning, Sarah tells Daniel they\'re just going to relax at home. "Are we going to do anything special?" he asks, a little suspicious. "Not really," Sarah says, trying not to smile too much. "Maybe I\'ll cook something simple."\n\n' +
-            'At five o\'clock, Jake arrives and takes Daniel outside to look at some old bicycle he "needs help fixing." While they\'re in the garden, everyone else arrives quietly: Lucy with the cake, Marcus with his speaker, Sarah\'s parents with the trifle, and a dozen friends with presents and balloons.\n\n' +
+            'At five o\'clock, Jake arrives and takes Daniel outside to look at an old bicycle he "needs help fixing." While they\'re in the garden, everyone else arrives quietly: Lucy with the cake, Marcus with his speaker, Sarah\'s parents with the trifle, and a dozen friends with presents and balloons.\n\n' +
             'At exactly six o\'clock, Sarah calls Daniel inside. "Surprise!" everyone shouts as he walks through the door. Daniel freezes for a second, completely shocked, then starts laughing. "I really didn\'t expect this," he says. "You\'re all going to get me back for this one day, I promise."\n\n' +
             'Later that evening, as everyone eats cake and dances to Marcus\'s playlist, Daniel finds Sarah in the kitchen. "Thank you for this," he says quietly. "I\'ll never forget it." Sarah smiles. "We\'re going to have many more birthdays like this one."',
           questions: [
             '¿Qué planes tienes para tu próximo cumpleaños o el de alguien cercano? Usa going to.',
-            'Escribe dos frases sobre una decisión espontánea que tomaste recientemente, usando will.'
+            'Imagina que el teléfono está sonando o alguien necesita ayuda. Escribe dos decisiones espontáneas usando will.'
           ]
         },
         exercises: [
@@ -4158,6 +4158,19 @@ const units = [
     }
   }
 ];
+
+// Keep the canonical comprehension prompts aligned with the authored reading
+// exercises. Earlier versions stored only two Spanish reflection prompts here,
+// so the build had to invent missing questions later and the source itself did
+// not accurately represent the assessment shown to learners.
+units.forEach((unit) => {
+  const readingActivity = unit.activities?.reading;
+  if (readingActivity?.reading && Array.isArray(readingActivity.exercises)) {
+    readingActivity.reading.questions = readingActivity.exercises
+      .slice(0, 5)
+      .map((exercise) => exercise.prompt);
+  }
+});
 
 require('./official-listening-utils').enrichOfficialListening(units, {
   language: 'english',

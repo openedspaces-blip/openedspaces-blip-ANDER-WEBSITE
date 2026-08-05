@@ -86,7 +86,7 @@ const units = [
         },
         exercises: [
           { type: 'mcq', prompt: "Comment s'appelle la professeure ?", options: ['Madame Dubois', 'Madame Lambert', 'Madame Camila', 'Madame Karim'], answer: 0 },
-          { type: 'mcq', prompt: "D'où vient Camila ?", options: ['De France', 'De République dominicaine', 'Du Maroc', "D'Espagne"], answer: 1 },
+          { type: 'mcq', prompt: "D'où vient Camila ?", options: ['De France', 'De la République dominicaine', 'Du Maroc', "D'Espagne"], answer: 1 },
           { type: 'mcq', prompt: 'Qui est Léa ?', options: ['La professeure', 'La fille de la famille Lambert', 'La sœur de Karim', "La directrice de l'école"], answer: 1 },
           { type: 'mcq', prompt: "Qu'est-ce que les élèves font à la fin du cours ?", options: ['Ils chantent une chanson', 'Ils épellent leur prénom', 'Ils dessinent', 'Ils mangent un gâteau'], answer: 1 },
           { type: 'mcq', prompt: 'Vrai ou faux : Camila est un peu nerveuse le premier jour.', options: ['Vrai', 'Faux'], answer: 0 },
@@ -417,7 +417,7 @@ const units = [
           { speaker: 'Karim', line: 'Camila, quel âge as-tu ?', translation: 'Camila, ¿cuántos años tienes?' },
           { speaker: 'Camila', line: "J'ai seize ans. Et toi, quel âge as-tu ?", translation: 'Tengo dieciséis años. ¿Y tú, cuántos años tienes?' },
           { speaker: 'Karim', line: "J'ai quinze ans. D'où viens-tu, Camila ?", translation: 'Tengo quince años. ¿De dónde vienes, Camila?' },
-          { speaker: 'Camila', line: 'Je viens de République dominicaine. Et toi ?', translation: 'Vengo de República Dominicana. ¿Y tú?' },
+          { speaker: 'Camila', line: 'Je viens de la République dominicaine. Et toi ?', translation: 'Vengo de República Dominicana. ¿Y tú?' },
           { speaker: 'Karim', line: 'Ma famille vient du Maroc, mais je suis né ici, à Tours.', translation: 'Mi familia viene de Marruecos, pero yo nací aquí, en Tours.' },
           { speaker: 'Camila', line: "C'est intéressant ! Tu parles arabe aussi ?", translation: '¡Qué interesante! ¿Hablas árabe también?' },
           { speaker: 'Karim', line: 'Oui, un peu. Je parle français, arabe et anglais.', translation: 'Sí, un poco. Hablo francés, árabe e inglés.' }
@@ -505,7 +505,7 @@ const units = [
           { speaker: 'Secrétaire', line: 'Quel âge as-tu ?', translation: '¿Cuántos años tienes?' },
           { speaker: 'Camila', line: "J'ai seize ans.", translation: 'Tengo dieciséis años.' },
           { speaker: 'Secrétaire', line: "D'où viens-tu ?", translation: '¿De dónde vienes?' },
-          { speaker: 'Camila', line: 'Je viens de République dominicaine.', translation: 'Vengo de República Dominicana.' },
+          { speaker: 'Camila', line: 'Je viens de la République dominicaine.', translation: 'Vengo de República Dominicana.' },
           { speaker: 'Secrétaire', line: 'Parfait, merci. Bienvenue à l\'école !', translation: 'Perfecto, gracias. ¡Bienvenida a la escuela!' }
         ],
         phrases: ["Comment tu t'appelles ?", 'Quel âge as-tu ?', "D'où viens-tu ?", 'Je viens de...'],
@@ -515,7 +515,7 @@ const units = [
         exercises: [
           { type: 'mcq', prompt: 'Où se passe ce dialogue ?', options: ['Dans la classe', "À l'accueil de l'école", 'Chez Léa', 'Au café'], answer: 1 },
           { type: 'mcq', prompt: 'Quel âge dit Camila ?', options: ['Quinze ans', 'Seize ans', 'Dix-sept ans', 'Quatorze ans'], answer: 1 },
-          { type: 'mcq', prompt: 'D\'où vient Camila ?', options: ['Du Maroc', 'De France', 'De République dominicaine', "D'Espagne"], answer: 2 }
+          { type: 'mcq', prompt: 'D\'où vient Camila ?', options: ['Du Maroc', 'De France', 'De la République dominicaine', "D'Espagne"], answer: 2 }
         ]
       })
     }
@@ -536,7 +536,7 @@ const units = [
         reading: {
           title: "Ma famille et ma famille d'accueil",
           parts: [
-            "Aujourd'hui, je vais vous présenter ma famille. À Saint-Domingue, j'habite avec mes parents et mon frère et ma sœur. Ma mère s'appelle Rosa. Elle est infirmière et elle est très patiente. Mon père s'appelle Miguel. Il est professeur de mathématiques. J'ai un petit frère, Diego. Il a dix ans et il adore le football. J'ai aussi une grande sœur, Sofía. Elle a dix-neuf ans et elle étudie à l'université. Ma famille me manque un peu, mais nous parlons par vidéo tous les dimanches.",
+            "Aujourd'hui, je vais vous présenter ma famille. À Saint-Domingue, j'habite avec mes parents, mon frère et ma sœur. Ma mère s'appelle Rosa. Elle est infirmière et elle est très patiente. Mon père s'appelle Miguel. Il est professeur de mathématiques. J'ai un petit frère, Diego. Il a dix ans et il adore le football. J'ai aussi une grande sœur, Sofía. Elle a dix-neuf ans et elle étudie à l'université. Ma famille me manque un peu, mais nous parlons par vidéo tous les dimanches.",
             "Ici, à Tours, j'habite avec ma famille d'accueil, la famille Lambert. Madame Lambert est la mère de Léa. Elle est architecte et elle est très accueillante. Monsieur Lambert est le père de Léa. Il est cuisinier dans un restaurant, alors les repas chez eux sont délicieux ! Léa est fille unique, donc elle est très contente d'avoir « une sœur » pendant cette année. Son chat s'appelle Minou et il dort toujours sur mon lit.",
             "Mes deux familles sont très différentes, mais toutes les deux sont importantes pour moi. Ma famille dominicaine me donne des racines, et ma famille d'accueil me donne un nouveau foyer. Léa dit souvent : « Ta famille est loin, mais ici, tu as aussi une famille. » J'aime cette phrase. Maintenant, j'ai deux familles et deux maisons, une à Saint-Domingue et une à Tours."
           ],
@@ -688,7 +688,7 @@ const units = [
           title: 'Mon emploi du temps',
           parts: [
             "Le collège de Tours est très différent de mon ancienne école à Saint-Domingue. Il y a une grande cour, une bibliothèque, un gymnase et une cantine. Karim me fait visiter le collège pendant la pause. « Regarde, dans cette salle, il y a un tableau, des tables et des chaises pour trente élèves », dit-il. Sur mon bureau, j'ai un cahier, un stylo, une trousse et un livre de français. Dans mon sac, il y a aussi une calculatrice pour les cours de mathématiques.",
-            "Après la visite, nous allons à la bibliothèque. « Il y a beaucoup de livres ici, » dit Karim, « et un ordinateur pour chercher des informations. » Je vois une affiche avec l'emploi du temps de la semaine. Le lundi, il y a français, mathématiques et sport. Le mercredi après-midi, il n'y a pas de cours ; c'est libre pour les activités. Karim me demande : « Tu as combien de cours par jour ? » Je réponds : « Ici, j'ai six cours, comme toi ! »",
+            "Après la visite, nous allons à la bibliothèque. « Il y a beaucoup de livres ici, » dit Karim, « et un ordinateur pour chercher des informations. » Je vois une affiche avec l'emploi du temps de la semaine. Le lundi, il y a français, mathématiques et sport. Le mercredi après-midi, il n'y a pas de cours ; ce temps est réservé aux activités. Karim me demande : « Tu as combien de cours par jour ? » Je réponds : « Ici, j'ai six cours, comme toi ! »",
             "À la fin de la journée, je retourne dans la salle de classe pour prendre mon sac. Madame Dubois pose une question à la classe : « Qu'est-ce qu'il y a dans une trousse ? » Les élèves répondent : « Un stylo, un crayon, une gomme et une règle ! » Je souris, parce que maintenant je connais bien le vocabulaire de l'école. Ce collège commence à devenir ma deuxième maison."
           ],
           questions: ["Qu'est-ce qu'il y a à la bibliothèque du collège ?", 'Qu\'est-ce que Camila a sur son bureau ?', 'Combien de cours a Camila par jour ?'],
@@ -1846,9 +1846,9 @@ const units = [
         reading: {
           title: 'Un voyage à Paris',
           parts: [
-            "Le mois prochain, je vais voyager à Paris avec la famille Lambert. Nous allons visiter la tour Eiffel, le Louvre et Notre-Dame. Avant de partir, je regarde la météo sur mon téléphone. « Il va faire beau et il va faire seize degrés, » dit l'application. « Parfait, » dit Madame Lambert, « nous n'allons pas avoir besoin de parapluie ! » Karim, un peu jaloux, me dit : « Tu vas adorer Paris, c'est une ville magnifique. »",
+            "Le mois prochain, je vais voyager à Paris avec la famille Lambert. Nous allons visiter la tour Eiffel, le Louvre et Notre-Dame. Avant de partir, je regarde la météo sur mon téléphone. « Il va faire beau et il va faire seize degrés, » dit l'application. « Parfait, » dit Madame Lambert, « mais nous allons quand même prendre des parapluies, au cas où ! » Karim, un peu jaloux, me dit : « Tu vas adorer Paris, c'est une ville magnifique. »",
             "Le jour du départ, il fait beau, mais un peu frais le matin. Nous allons prendre le train à la gare de Tours. Le voyage va durer environ une heure. Dans le train, Léa et moi regardons le paysage : des champs, des rivières et de petits villages. « Nous allons arriver à Paris vers midi, » dit Monsieur Lambert en regardant sa montre. Léa est très excitée, parce que c'est aussi son premier voyage à Paris cette année.",
-            "À Paris, il commence à pleuvoir un peu l'après-midi, mais cela ne nous empêche pas de visiter la tour Eiffel. « Il pleut, mais ce n'est pas grave, » dit Léa en riant, « nous avons des parapluies ! » Ce voyage à Paris va être un des meilleurs souvenirs de mon année en France. Bientôt, je vais retourner à Saint-Domingue, mais je sais que je vais garder ces moments dans mon cœur pour toujours."
+            "À Paris, il commence à pleuvoir un peu l'après-midi, mais cela ne nous empêche pas de visiter la tour Eiffel. « Il pleut, mais ce n'est pas grave, » dit Léa en riant, « nous avons des parapluies ! » Ce voyage à Paris sera l’un des meilleurs souvenirs de mon année en France. Bientôt, je vais retourner à Saint-Domingue, mais je sais que je vais garder ces moments dans mon cœur pour toujours."
           ],
           questions: ['Où vont-ils voyager le mois prochain ?', 'Quel temps va-t-il faire le jour du départ ?', 'Comment vont-ils voyager jusqu\'à Paris ?'],
           ordering: {
@@ -1974,6 +1974,13 @@ const units = [
     }
   }
 ];
+
+units.forEach((unit) => {
+  const activity = unit.activities?.reading;
+  if (activity?.reading && Array.isArray(activity.exercises)) {
+    activity.reading.questions = activity.exercises.slice(0, 4).map((exercise) => exercise.prompt);
+  }
+});
 
 require('./french-a1-official-listening').applyFrenchA1OfficialListening(units);
 require('./french-listening-story-scripts').applyFrenchListeningStories(units, 'A1', [

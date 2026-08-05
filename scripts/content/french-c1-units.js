@@ -210,6 +210,12 @@ const units = [
 ];
 
 units.push(...require('./french-c1-advanced-units'));
+units.forEach((unit) => {
+  const activity = unit.activities?.reading;
+  if (activity?.reading && Array.isArray(activity.exercises)) {
+    activity.reading.questions = activity.exercises.slice(0, 5).map((exercise) => exercise.prompt);
+  }
+});
 require('./french-grammar-tests').ensureFrenchGrammarTests(units, 'C1');
 require('./advanced-communication-skills').ensureAdvancedCommunicationSkills(units, {
   language: 'french',

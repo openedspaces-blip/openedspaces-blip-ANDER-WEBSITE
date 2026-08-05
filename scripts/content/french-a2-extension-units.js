@@ -300,7 +300,7 @@ const units = [
       reading: lesson('reading', {
         title: 'Un samedi pour partager',
         description:
-          'Des habitants organisent une collecte de vêtements et de produits scolaires.',
+          'Des habitants organisent une collecte de vêtements et de fournitures scolaires.',
         reading: {
           title: 'Un samedi pour partager',
           parts: [
@@ -538,5 +538,12 @@ const units = [
     }
   }
 ];
+
+units.forEach((unit) => {
+  const activity = unit.activities?.reading;
+  if (activity?.reading && Array.isArray(activity.exercises)) {
+    activity.reading.questions = activity.exercises.slice(0, 5).map((exercise) => exercise.prompt);
+  }
+});
 
 module.exports = { units };

@@ -75,7 +75,7 @@ const units = [
           },
           parts: [
             'Hola, me llamo Valentina. Hoy es mi primer día de clase de español. Estoy un poco nerviosa, pero también contenta.',
-            'Mi profesor se llama Diego. Él dice: "¡Buenos días, clase!" y nosotros respondemos: "¡Buenos días, profesor!".',
+            'Mi profesor se llama Diego. Él dice: "¡Buenos días, clase!" y nosotros respondemos: "¡Buenos días, profesor!"',
             'Al lado de mi silla hay un chico. Él dice: "Hola, soy Marco. Mucho gusto." Yo respondo: "Igualmente. ¿Cómo se escribe tu nombre?" y él deletrea su nombre: M-A-R-C-O.'
           ],
           questions: [
@@ -950,7 +950,7 @@ const units = [
         reading: {
           title: 'Mi casa es pequeña pero cómoda',
           parts: [
-            'Mi casa tiene tres habitaciones: mi dormitorio, el dormitorio de mis padres y la sala. También hay una cocina y un baño.',
+            'Me llamo Andrés y vivo con mis padres. Mi casa tiene tres habitaciones: mi dormitorio, el dormitorio de mis padres y la sala. También hay una cocina y un baño.',
             'En la sala hay un sofá, una mesa y un televisor. En mi dormitorio hay una cama, un armario y un escritorio para estudiar.',
             'Detrás de la casa hay un patio pequeño con plantas. No hay piscina, pero a mi familia le gusta sentarse afuera por la tarde.'
           ],
@@ -1102,7 +1102,7 @@ const units = [
         reading: {
           title: 'Mi barrio',
           parts: [
-            'Mi barrio tiene un parque, una farmacia y un supermercado. El parque está cerca de mi casa; voy allí todos los fines de semana.',
+            'Me llamo Camila y vivo en un barrio tranquilo. Mi barrio tiene un parque, una farmacia y un supermercado. El parque está cerca de mi casa; voy allí todos los fines de semana.',
             'La farmacia está en la calle principal, al lado del banco. El supermercado está lejos de mi casa, por eso vamos en carro.',
             'Para ir a la escuela, tomo el autobús. La parada de autobús está a la derecha del parque. Me gusta mucho mi barrio porque es tranquilo.'
           ],
@@ -1262,7 +1262,7 @@ const units = [
           title: 'El desayuno de Mariana',
           parts: [
             'A Mariana le gusta desayunar en un café cerca de su casa. Ella siempre pide pan con queso y un jugo de naranja.',
-            'Hoy, el mesero le pregunta: "¿Qué desea tomar?". Mariana responde: "Quiero un café con leche, por favor." También pide un poco de fruta.',
+            'Hoy, el mesero le pregunta: "¿Qué desea tomar?" Mariana responde: "Quiero un café con leche, por favor." También pide un poco de fruta.',
             'A Mariana no le gusta el café solo; prefiere el café con leche. Después de desayunar, paga la cuenta y va a la escuela.'
           ],
           questions: [
@@ -2458,6 +2458,18 @@ A1_FIRST_UNIT.activities.reading.exercises = A1_FIRST_UNIT.activities.reading.ex
 
 for (const unit of units) {
   unit.activities.reading.exercises = unit.activities.reading.exercises.slice(0, 4);
+  unit.activities.reading.exercises.forEach((question, questionIndex) => {
+    const targetIndex = questionIndex % 4;
+    if (question.answer === targetIndex) return;
+    const options = [...question.options];
+    const [correctOption] = options.splice(question.answer, 1);
+    options.splice(targetIndex, 0, correctOption);
+    question.options = options;
+    question.answer = targetIndex;
+  });
+  unit.activities.reading.reading.questions = unit.activities.reading.exercises.map(
+    (question) => question.prompt
+  );
 }
 
 module.exports = { units, language, level, courseTitle, courseDescription };

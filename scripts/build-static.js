@@ -12,12 +12,14 @@ const PUBLIC_DIR = path.join(ROOT, 'public');
 
 const REQUIRED_FILES = [
   'index.html',
+  'welcome.html',
   'terms.html',
   'privacy.html',
   'refund-policy.html',
   'src/css/styles.css',
   'src/css/legal.css',
   'src/js/script.js',
+  'src/js/paddle-pricing.js',
   'src/js/username-rules.js',
   'src/js/language-pair.js',
   // translator-languages.js/translator-predictive.js were referenced by
@@ -121,6 +123,11 @@ function main() {
     stdio: 'inherit'
   });
 
+  console.log('Aligning B1-C2 Grammar with each level and unit...');
+  execSync(`node "${path.join(ROOT, 'scripts', 'align-upper-level-grammar.js')}"`, {
+    stdio: 'inherit'
+  });
+
   console.log('Validating comprehension question limits...');
   execSync(`node "${path.join(ROOT, 'scripts', 'validate-comprehension-question-counts.js')}"`, {
     stdio: 'inherit'
@@ -180,6 +187,18 @@ function main() {
   // image-led lessons work whether Vercel serves the root or the static public
   // directory. Without this, Pre-A1 cards render their empty fallback color.
   copyDirectoryEnsuringDir(path.join(ROOT, 'images'), path.join(PUBLIC_DIR, 'images'));
+
+  // Homepage and editorial artwork lives under /assets. Mirror the whole
+  // directory so newly added cover images cannot silently resolve to the
+  // SPA HTML fallback in production.
+  copyDirectoryEnsuringDir(path.join(ROOT, 'assets'), path.join(PUBLIC_DIR, 'assets'));
+
+  // @paddle/paddle-js is the official loader/type-safe wrapper. The app has
+  // no bundler, so publish its ESM build as a first-party static dependency.
+  copyFileEnsuringDir(
+    path.join(ROOT, 'node_modules', '@paddle', 'paddle-js', 'dist', 'index.esm.js'),
+    path.join(PUBLIC_DIR, 'vendor', 'paddle', 'index.esm.js')
+  );
 
   console.log('Build complete: root and public/ are in sync.');
 }

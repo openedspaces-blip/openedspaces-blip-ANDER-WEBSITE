@@ -1518,6 +1518,13 @@ const units = [
   }
 ];
 
+units.forEach((unit) => {
+  const activity = unit.activities?.reading;
+  if (activity?.reading && Array.isArray(activity.exercises)) {
+    activity.reading.questions = activity.exercises.slice(0, 5).map((exercise) => exercise.prompt);
+  }
+});
+
 require('./french-b1-b2-listening-scripts').applyFrenchUpperListening(units, 'B1');
 require('./french-grammar-tests').ensureFrenchGrammarTests(units, 'B1');
 

@@ -440,6 +440,39 @@ function buildVocabularyExercises(items) {
 }
 
 function buildGrammarExercises(topic) {
+  const revisions = topic.examples.map(([source, target], index) => {
+    const answer = index % 4;
+    const alternatives = topic.examples
+      .filter((_, exampleIndex) => exampleIndex !== index)
+      .map(([, otherTarget]) => otherTarget);
+    const options = [source, ...alternatives.slice(0, 2)];
+    options.splice(answer, 0, target);
+    return q(
+      `Revise this claim using ${topic.grammar} without changing its meaning: "${source}"`,
+      options,
+      answer,
+      topic.rule
+    );
+  });
+  const analysis = topic.examples.map(([source, target], index) => {
+    const answer = (index + 1) % 4;
+    const correct = `It ${topic.purpose}; the resulting revision is: "${target}"`;
+    const options = [
+      'It makes the sentence informal and removes the original claim.',
+      'It changes the evidence into a certainty that the source did not express.',
+      'It shortens the sentence but leaves the grammatical relationship unclear.'
+    ];
+    options.splice(answer, 0, correct);
+    return q(
+      `Why is the revision of "${source}" effective in this unit?`,
+      options,
+      answer,
+      topic.rule
+    );
+  });
+  return revisions.flatMap((exercise, index) => [exercise, analysis[index]]);
+
+  /* Legacy generic bank retained below for source-history context. */
   const applied = topic.examples.map(([source, target], index) => {
     const answer = index % 4;
     const options = [
@@ -502,7 +535,13 @@ function buildUnit(topic, index) {
         reading: {
           title: topic.readingTitle,
           text: buildReading(topic),
-          questions: readingExercises.slice(0, 3).map((item) => item.prompt),
+          questions: [
+            `What analytical problem does “${topic.readingTitle}” establish?`,
+            `Which finding anchors the argument in “${topic.readingTitle}”?`,
+            `Which trade-off qualifies the main argument about ${topic.title.toLowerCase()}?`,
+            `Which institutional response does the text defend, and why?`,
+            `How does the stated limitation affect the conclusion of “${topic.readingTitle}”?`
+          ],
           references: referencesByTopic[topic.slug] || []
         },
         exercises: readingExercises

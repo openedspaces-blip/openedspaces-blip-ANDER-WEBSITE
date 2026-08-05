@@ -23,6 +23,8 @@ const {
   missingPublicCheckoutVariables,
   missingServerCheckoutVariables,
   normalizeEventData,
+  normalizeCountryCode,
+  priceIdForTier,
   priceIdForBillingCycle
 } = require('./lib/billingService');
 
@@ -36,11 +38,13 @@ test('Free access is unit-based across every CEFR level', () => {
   for (const level of ['A1', 'A2', 'B1', 'B2']) {
     assert.equal(accessPolicy.isFreeUnit(level, 1), true);
     assert.equal(accessPolicy.isFreeUnit(level, 2), true);
-    assert.equal(accessPolicy.isFreeUnit(level, 3), false);
+    assert.equal(accessPolicy.isFreeUnit(level, 3), true);
+    assert.equal(accessPolicy.isFreeUnit(level, 4), false);
   }
   for (const level of ['C1', 'C2']) {
     assert.equal(accessPolicy.isFreeUnit(level, 1), true);
-    assert.equal(accessPolicy.isFreeUnit(level, 2), false);
+    assert.equal(accessPolicy.isFreeUnit(level, 2), true);
+    assert.equal(accessPolicy.isFreeUnit(level, 3), false);
   }
   assert.equal(
     accessPolicy.canAccessLesson({
@@ -52,7 +56,7 @@ test('Free access is unit-based across every CEFR level', () => {
   );
 });
 
-test('Tutor quotas are finite and plan-selected at 30 Free and 500 Premium', () => {
+test('Tutor monthly quotas are 30 Free and 500 Premium for every consultation', () => {
   assert.equal(plansConfig.getFeatureLimit('free', 'tutor_query'), 30);
   assert.equal(plansConfig.getFeatureLimit('premium', 'tutor_query'), 500);
 });
@@ -64,6 +68,19 @@ test('Premium lock and exhausted Tutor quota use the required friendly copy', ()
     source,
     /Has utilizado todas las consultas incluidas en tu plan\. Tu cuota se renovará automáticamente el próximo ciclo\./
   );
+  assert.match(source, /getFeatureLimit\(planSlug, 'tutor_query'\)/);
+  assert.match(source, /recordUsage\(\{ userId: req\.user\.id, feature: 'tutor_query' \}\)/);
+});
+
+test('Tutor supports language detection in free queries outside lessons', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'lib', 'aiTutorService.js'), 'utf8');
+  assert.match(source, /contextScope === 'general'/);
+  assert.match(source, /detecta el idioma predominante de la solicitud del estudiante/);
+});
+
+test('Tutor answers in the learner request language while retaining lesson context', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'lib', 'aiTutorService.js'), 'utf8');
+  assert.match(source, /detecta el idioma predominante de la solicitud del estudiante/);
 });
 
 // The default suite validates the application contract against its bundled
@@ -366,7 +383,6 @@ test('single-view router sections exist for every nav destination', () => {
 
   for (const id of [
     'progress',
-    'language-picker',
     'learning-path',
     'achievements',
     'goals',
@@ -375,6 +391,7 @@ test('single-view router sections exist for every nav destination', () => {
   ]) {
     assert.match(html, new RegExp(`id="${id}"`), `expected a section with id="${id}"`);
   }
+  assert.match(html, /class="hero-language-tabs"/);
   assert.match(html, /class="nav-group nav-group-visitor"/);
   assert.match(html, /class="nav-group nav-group-member"/);
 });
@@ -649,6 +666,34 @@ test('isPremiumActive rejects a free-tier profile', () => {
 const seedUnits = require('./lib/seed-units.json');
 const seedLessons = require('./lib/seed-lessons.json');
 
+test('English A1 My Family reading has four verifiable server-side answers', () => {
+  const lesson = seedLessons.find(
+    (row) => row.slug === 'english-a1-family-and-friends-reading'
+  );
+  assert.ok(lesson);
+  const questions = (lesson.content_json.exercises || []).filter(
+    (exercise) => exercise.type === 'mcq' && exercise.options?.length === 4
+  );
+  assert.equal(questions.length, 4);
+  assert.deepEqual(
+    questions.map((question) => question.options[question.answer]),
+    ['Julio', 'Sixteen', 'The grandmother', 'Soccer']
+  );
+});
+
+test('normalized answer checking resolves UUID-free bundled reading choices by stable index', () => {
+  const serverSource = fs.readFileSync(path.join(__dirname, 'lib/server.js'), 'utf8');
+  const serviceSource = fs.readFileSync(
+    path.join(__dirname, 'lib/courseLessonsService.js'),
+    'utf8'
+  );
+  assert.match(serverSource, /exerciseIndex:\s*index/);
+  assert.match(serverSource, /selectedOptionIndex:\s*selectedOption/);
+  assert.match(serviceSource, /\.order\('order_index'\)/);
+  assert.match(serviceSource, /\(data \|\| \[\]\)\[Number\(exerciseIndex\)\]/);
+  assert.match(serviceSource, /\(options \|\| \[\]\)\[Number\(selectedOptionIndex\)\]\?\.id/);
+});
+
 test('French A1 has exactly 12 units, in order, units 1-2 free and 3-12 premium', () => {
   const units = seedUnits
     .filter((row) => row.target_language === 'french' && row.level === 'A1')
@@ -849,15 +894,15 @@ test('English A2 grammar/vocabulary have the required question-bank sizes, and n
   });
 });
 
-test('pricing UI always renders Free and recommended Premium plans with Paddle checkout choices', () => {
+test('pricing UI clearly compares Free with the live Premium monthly and quarterly catalogue', () => {
   const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
+  const tierSource = fs.readFileSync(path.join(__dirname, 'lib/paddleTiers.js'), 'utf8');
   assert.match(html, /class="plan free-plan"/);
   assert.match(html, /class="plan premium-plan"/);
-  assert.match(html, /data-premium-plan-badge>Recomendado/);
   assert.match(html, /data-billing-cycle="monthly"/);
   assert.match(html, /data-billing-cycle="quarterly"/);
-  assert.doesNotMatch(html, /class="current-plan-summary"/);
-  assert.doesNotMatch(html, /class="secondary-btn current-plan-toggle"/);
+  assert.match(tierSource, /name: 'ANDERGO Premium'/);
+  assert.doesNotMatch(tierSource, /name: '(Starter|Pro|Advanced)'/);
 });
 
 test('signed-in account UI exposes plan status and secure Premium management actions', () => {
@@ -913,7 +958,7 @@ test('public Paddle config exposes checkout identifiers but never server secrets
   }
 });
 
-test('Paddle reads the documented environment variables without legacy aliases', () => {
+test('Paddle reads the live Premium price variables and never defaults its environment', () => {
   const source = fs.readFileSync(path.join(__dirname, 'lib/config.js'), 'utf8');
   [
     'NEXT_PUBLIC_PADDLE_ENV',
@@ -923,13 +968,11 @@ test('Paddle reads the documented environment variables without legacy aliases',
     'PADDLE_API_KEY',
     'PADDLE_WEBHOOK_SECRET'
   ].forEach((variableName) => assert.match(source, new RegExp(`process\\.env\\.${variableName}`)));
-  assert.doesNotMatch(
-    source,
-    /process\.env\.(?:PADDLE_ENVIRONMENT|PADDLE_CLIENT_SIDE_TOKEN|PADDLE_MONTHLY_PRICE_ID|PADDLE_QUARTERLY_PRICE_ID)/
-  );
+  assert.match(source, /NEXT_PUBLIC_PADDLE_ENV \|\| ''/);
+  assert.doesNotMatch(source, /NEXT_PUBLIC_PADDLE_ENV \|\| 'sandbox'/);
 });
 
-test('four public Paddle variables enable checkout independently of server secrets', () => {
+test('four public Paddle variables enable previews independently of server secrets', () => {
   const previousPaddle = { ...config.paddle };
   try {
     Object.assign(config.paddle, {
@@ -950,6 +993,28 @@ test('four public Paddle variables enable checkout independently of server secre
   } finally {
     Object.assign(config.paddle, previousPaddle);
   }
+});
+
+test('Paddle country localization accepts only real two-letter country codes', () => {
+  assert.equal(normalizeCountryCode('do'), 'DO');
+  assert.equal(normalizeCountryCode('US'), 'US');
+  assert.equal(normalizeCountryCode('OTHERS'), null);
+  assert.equal(normalizeCountryCode(''), null);
+  assert.equal(Object.hasOwn(getPublicPaddleConfig({ countryCode: 'OTHERS' }), 'countryCode'), false);
+  assert.equal(getPublicPaddleConfig({ countryCode: 'fr' }).countryCode, 'FR');
+});
+
+test('Paddle pricing uses official localized totals and one-page overlay checkout', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src/js/paddle-pricing.js'), 'utf8');
+  assert.match(source, /initializePaddle/);
+  assert.match(source, /paddle\.PricePreview\(/);
+  assert.match(source, /lineItem\.formattedTotals\.total/);
+  assert.doesNotMatch(source, /new\s+Intl\.NumberFormat/);
+  assert.match(source, /paddle\.Checkout\.open\(/);
+  assert.match(source, /displayMode:\s*'overlay'/);
+  assert.match(source, /variant:\s*'one-page'/);
+  assert.match(source, /successUrl:\s*`\$\{window\.location\.origin\}\/welcome`/);
+  assert.match(source, /state\.config\.countryCode\s*\?\s*\{ address:/);
 });
 
 test('Paddle maintenance messaging is limited to missing configuration', () => {
@@ -978,10 +1043,11 @@ test('Paddle checkout is authenticated and the browser opens only a server-creat
     });
     assert.equal(response.status, 401);
 
-    const source = fs.readFileSync(path.join(__dirname, 'src/js/script.js'), 'utf8');
+    const source = fs.readFileSync(path.join(__dirname, 'src/js/paddle-pricing.js'), 'utf8');
     assert.match(source, /\/api\/billing\/checkout/);
     assert.match(source, /transactionId:\s*transaction\.transactionId/);
-    assert.doesNotMatch(source, /customData:\s*\{\s*user_id:\s*authStatus\.user\.id/);
+    assert.doesNotMatch(source, /customData:/);
+    assert.match(source, /customer:\s*customer\.email \? \{ email: customer\.email \}/);
   } finally {
     server.close();
   }
@@ -1012,8 +1078,8 @@ test('Paddle Premium states fail closed for past due, paused, canceled and unkno
 });
 
 test('Paddle event normalization preserves authenticated user and subscription references', () => {
-  const previousMonthlyPriceId = config.paddle.monthlyPriceId;
-  const previousQuarterlyPriceId = config.paddle.quarterlyPriceId;
+  const previousMonthly = config.paddle.monthlyPriceId;
+  const previousQuarterly = config.paddle.quarterlyPriceId;
   config.paddle.monthlyPriceId = 'pri_monthly';
   config.paddle.quarterlyPriceId = 'pri_quarterly';
   const userId = '1b2c3d4e-5f60-4789-8abc-def012345678';
@@ -1043,8 +1109,8 @@ test('Paddle event normalization preserves authenticated user and subscription r
     assert.equal(normalized.plan, 'quarterly');
     assert.equal(normalized.status, 'active');
   } finally {
-    config.paddle.monthlyPriceId = previousMonthlyPriceId;
-    config.paddle.quarterlyPriceId = previousQuarterlyPriceId;
+    config.paddle.monthlyPriceId = previousMonthly;
+    config.paddle.quarterlyPriceId = previousQuarterly;
   }
 });
 
@@ -1096,7 +1162,7 @@ test('French C1 has 12 units organized across all six core skills', () => {
   });
 });
 
-test('French A1 dialogues are integrated into Expression orale with one clear listening action, optional L1 support and comprehension', () => {
+test('French A1 dialogues are integrated into Expression orale with complete and personalized practice versions', () => {
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
   const css = fs.readFileSync(path.join(__dirname, 'src', 'css', 'styles.css'), 'utf8');
   const dialogueMarkup =
@@ -1108,12 +1174,12 @@ test('French A1 dialogues are integrated into Expression orale with one clear li
   assert.match(source, /Afficher l’aide en espagnol/);
   assert.match(source, /Questions de compréhension/);
   assert.match(css, /\.dialogue-section-header/);
-  assert.match(dialogueMarkup, /dialogue-practical-guide/);
-  assert.match(dialogueMarkup, /dialogue-practice-line-btn/);
+  assert.match(dialogueMarkup, /renderDialoguePracticeSkeletonHtml/);
+  assert.match(source, /dialogue-practice-blank/);
   assert.doesNotMatch(dialogueMarkup, /dialogue-final-challenge/);
-  assert.match(dialogueMarkup, /<details class="dialogue-phrases">/);
+  assert.match(source, /Practicar diálogo/);
   assert.match(source, /pronunciationOverride/);
-  assert.match(css, /\.dialogue-practical-guide/);
+  assert.match(css, /\.dialogue-practice-lines/);
 });
 
 test('Reading route navigation is placed beside evaluation before tutor tools', () => {
@@ -1170,16 +1236,34 @@ test('Reading and Tutor use system TTS without paid speech endpoints', () => {
   assert.match(source, /if \(!supportsSpeech\(\)\) return;/);
 });
 
-test('homepage visibly restores the Free and Premium plan comparison', () => {
+test('homepage visibly exposes Free and Premium without technical Paddle configuration copy', () => {
   const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
-  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
   assert.match(html, /<section id="premium" class="section pricing-section">/);
   assert.match(html, /<div class="pricing-details">/);
-  assert.match(html, /<h3>ANDERGO Premium<\/h3>/);
-  assert.match(html, /data-premium-monthly-price/);
-  assert.match(html, /plan trimestral disponible/);
-  assert.match(source, /home:\s*\['\.hero', '#language-picker', '#premium'\]/);
-  assert.match(source, /setPricingExpanded\(resolved === 'home'\)/);
+  assert.match(html, /class="plan free-plan"/);
+  assert.match(html, /class="plan premium-plan"/);
+  assert.match(html, /data-billing-cycle="monthly"/);
+  assert.match(html, /data-billing-cycle="quarterly"/);
+  assert.doesNotMatch(html, /NEXT_PUBLIC_PADDLE_ENV/);
+  assert.doesNotMatch(html, /src="\/src\/js\/paddle-pricing\.js/);
+});
+
+test('Games provide graded, thematic and measurable rounds in all three languages', () => {
+  const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
+  const script = fs.readFileSync(path.join(__dirname, 'src/js/script.js'), 'utf8');
+  const styles = fs.readFileSync(path.join(__dirname, 'src/css/styles.css'), 'utf8');
+  assert.match(html, /id="gamesApp"/);
+  assert.match(script, /english: 'Inglés', french: 'Francés', spanish: 'Español'/);
+  assert.match(script, /const GAME_DIFFICULTIES =/);
+  assert.match(script, /easy: \{ label: 'Fácil'/);
+  assert.match(script, /challenge: \{ label: 'Desafío'/);
+  assert.match(script, /games-round-progress/);
+  assert.match(script, /No hay palabras al revés/);
+  assert.match(script, /target\.positions\.join\(','\) === selected/);
+  assert.match(script, /Pista progresiva:/);
+  assert.match(script, /previous\.dataset\.cardKind !== button\.dataset\.cardKind/);
+  assert.match(styles, /\.games-themed-stage\.is-paused/);
+  assert.match(styles, /\.games-word-grid[^}]*aspect-ratio:1/s);
 });
 
 test('French C2 has 12 CEFR mastery units entirely in French across all six core skills', () => {
@@ -1249,7 +1333,7 @@ test('English B1 has 12 complete units with assessed Reading, Grammar and Vocabu
     assert.equal(grammar.content_json.exercises.length, 8, `${unit.slug} grammar`);
     assert.equal(vocabulary.content_json.vocabulary.length, 12, `${unit.slug} vocabulary`);
     assert.equal(vocabulary.content_json.exercises.length, 12, `${unit.slug} vocabulary exercises`);
-    assert.equal(grammar.content_json.extra.grammarTest.questions.length, 15, `${unit.slug} test`);
+    assert.equal(grammar.content_json.extra.grammarTest.questions.length, 8, `${unit.slug} test`);
     vocabulary.content_json.vocabulary.forEach((item) => {
       assert.equal(item.contexts.length, 3, `${unit.slug} ${item.word} subflashcards`);
     });
@@ -1293,7 +1377,7 @@ test('English C1 has 12 scientific-social units across all six core skills', () 
     assert.equal(vocabulary.content_json.vocabulary.length, 8);
     assert.equal(vocabulary.content_json.exercises.length, 8);
     assert.equal(grammar.content_json.exercises.length, 8);
-    assert.equal(grammar.content_json.extra.grammarTest.questions.length, 20);
+    assert.equal(grammar.content_json.extra.grammarTest.questions.length, 8);
     assert.ok(grammar.content_json.extra.grammarProfile);
     [reading, vocabulary, grammar].forEach((row) => {
       row.content_json.exercises.forEach((exercise) => {
@@ -1349,7 +1433,7 @@ test('English C2 has 12 mastery units with all six core skills', () => {
     assert.equal(reading.content_json.exercises.length, 5);
     assert.equal(vocabulary.content_json.vocabulary.length, 12);
     assert.equal(vocabulary.content_json.exercises.length, 12);
-    assert.equal(grammar.content_json.extra.grammarTest.questions.length, 20);
+    assert.equal(grammar.content_json.extra.grammarTest.questions.length, 8);
     assert.ok(grammar.content_json.extra.grammarProfile);
     grammar.content_json.extra.grammarTest.questions.forEach((question) => {
       assert.equal(question.type, 'mcq');
@@ -1409,7 +1493,7 @@ test('B2, C1 and C2 force the effective interface language and learning mode to 
 });
 
 test('English Grammar A1-C2 follows the unified profile and exact exam sizes', () => {
-  const expected = { A1: 10, A2: 10, B1: 15, B2: 15, C1: 20, C2: 20 };
+  const expected = { A1: 10, A2: 10, B1: 8, B2: 8, C1: 8, C2: 8 };
   for (const [level, questionCount] of Object.entries(expected)) {
     const rows = seedLessons.filter(
       (row) => row.target_language === 'english' && row.level === level && row.skill === 'grammar'
@@ -2059,15 +2143,31 @@ test('Spanish Reading grows in length and academic depth from A2 through C2', ()
   });
 });
 
-test('Speaking presents three practical choices: dialogue, recorded pronunciation and Premium Tutor', () => {
+test('Paddle Premium maps only monthly and quarterly server-configured prices', () => {
+  const previousMonthly = config.paddle.monthlyPriceId;
+  const previousQuarterly = config.paddle.quarterlyPriceId;
+  config.paddle.monthlyPriceId = 'pri_monthly';
+  config.paddle.quarterlyPriceId = 'pri_quarterly';
+  try {
+    assert.equal(priceIdForTier('premium', 'monthly'), 'pri_monthly');
+    assert.equal(priceIdForTier('Premium', 'quarterly'), 'pri_quarterly');
+    assert.equal(priceIdForTier('premium', 'yearly'), null);
+    assert.equal(priceIdForTier('unknown', 'monthly'), null);
+  } finally {
+    config.paddle.monthlyPriceId = previousMonthly;
+    config.paddle.quarterlyPriceId = previousQuarterly;
+  }
+});
+
+test('Speaking presents complete conversations and a lesson-context Tutor for text or voice', () => {
   const script = fs.readFileSync(path.join(__dirname, 'src/js/script.js'), 'utf8');
   const tabs = script.match(/function renderSpeakingModeTabsHtml\(activeMode\) \{([\s\S]*?)\n\}/)?.[1] || '';
-  assert.match(tabs, /label: 'Dialogues'/);
-  assert.match(tabs, /label: 'Grabar y practicar'/);
-  assert.match(script, /label: 'Conversar con Tutor IA'/);
-  assert.match(script, /activityType: 'pronunciation'/);
-  assert.match(script, /La conversación libre con Tutor IA es Premium/);
-  assert.doesNotMatch(tabs, /label: 'Grabar mi voz'|label: 'Hablar a texto'/);
+  assert.match(tabs, /label: 'Conversaciones'/);
+  assert.match(tabs, /label: 'Tutor de esta lección'/);
+  assert.match(tabs, /Chat ilimitado · Voz 30\/500 al mes/);
+  assert.doesNotMatch(tabs, /premium: true|Grabar y practicar/);
+  assert.match(script, /inputMode: sentByVoice \? 'voice' : 'text'/);
+  assert.match(script, /messageEl && sentByVoice/);
 });
 
 test('advanced routes paint bundled content immediately while progress synchronizes in parallel', () => {
@@ -2085,7 +2185,9 @@ test('advanced routes paint bundled content immediately while progress synchroni
 test('Writing uses guided micro-practice, a concise editor and simplified review actions', () => {
   const script = fs.readFileSync(path.join(__dirname, 'src/js/script.js'), 'utf8');
   assert.match(script, /class="writing-practice-shell"/);
-  assert.match(script, /Cuatro actividades cortas antes de una microproducción opcional/);
+  assert.match(script, /Cinco actividades cortas y variadas antes de una microproducción opcional/);
+  assert.match(script, /type: 'correct-word'/);
+  assert.match(script, /type: 'find-mistake'/);
   assert.match(script, /class="writing-editor writing-editor--compact"/);
   assert.match(script, /data-support-mode="review-complete"/);
   assert.match(script, /data-support-mode="hint"/);

@@ -53,7 +53,7 @@
         ]
       }
     </script>
-    <link rel="stylesheet" href="/src/css/styles.css?v=20260730-mobile-content-access" />
+    <link rel="stylesheet" href="/src/css/styles.css?v=20260805-games-upgrade" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -80,7 +80,8 @@
         <a href="#learn"><span aria-hidden="true">📘</span>Aprender</a>
         <a href="#tests"><span aria-hidden="true">✓</span>Tests</a>
         <a href="#verbs"><span aria-hidden="true">Aa</span>Verbos</a>
-        <a href="#music"><span aria-hidden="true">♪</span>Music</a>
+        <a href="#music"><span aria-hidden="true">♪</span>Música</a>
+        <a href="#games"><span aria-hidden="true">♟</span>Juegos</a>
         <a href="#tutor"><span aria-hidden="true">✦</span>Tutor</a>
         <a href="#translator"><span aria-hidden="true">文</span>Traductor</a>
       </nav>
@@ -110,7 +111,8 @@
           <a href="#learn" data-i18n="navLearnMember">Aprender</a>
           <a href="#tests">Tests</a>
           <a href="#verbs" data-i18n="navVerbs">Verbos</a>
-          <a href="#music">Music</a>
+          <a href="#music">Música</a>
+          <a href="#games">Juegos</a>
           <a href="#tutor" data-i18n="navTutor">Tutor I.A.</a>
           <a href="#translator" data-i18n="navTranslator">Traductor</a>
           <details class="nav-more">
@@ -118,8 +120,8 @@
             <span class="nav-more-menu">
               <a href="#progress" data-i18n="navProgress">Progreso</a>
               <a href="#goals" data-i18n="navGoals">Objetivos</a>
-              <a href="#about" data-i18n="navAbout">Acerca de</a>
               <a href="#security" data-i18n="navSecurity">Seguridad</a>
+              <a href="#about" data-i18n="navAbout">Acerca de</a>
               <a href="#teacher-curriculum" class="teacher-only-nav" hidden>Panel docente</a>
             </span>
           </details>
@@ -137,10 +139,10 @@
     <main id="content">
       <section class="hero">
         <div class="hero-content">
-          <span class="pill">Lecciones guiadas y ejercicios prácticos</span>
+          <span class="pill"><span aria-hidden="true">✦</span> Una academia. Tres idiomas. Un mundo por descubrir.</span>
           <div class="hero-copy-carousel" aria-roledescription="carrusel" aria-label="Características de ANDERGO">
             <article class="hero-copy-slide is-active" data-hero-slide aria-hidden="false">
-              <h1 tabindex="-1">Aprende inglés, francés y español con IA</h1>
+              <h1 tabindex="-1">Aprende inglés, francés y español <span class="hero-title-accent">con IA</span></h1>
               <p>
                 Avanza desde A1 hasta C2 con rutas guiadas, ejercicios reales, práctica de Listening,
                 Speaking, Reading, Writing, Grammar y Vocabulary, además de un Tutor IA disponible
@@ -182,10 +184,19 @@
 
           <div class="hero-buttons">
             <a href="#learn" class="primary-btn" data-home-action="start-free">Comenzar gratis</a>
-            <a href="#language-picker" class="secondary-btn" data-home-action="explore-languages"
-              >Explorar idiomas</a
-            >
           </div>
+
+          <nav class="hero-language-tabs" aria-label="Explorar un idioma">
+            <button type="button" data-home-action="explore-english" data-preview-language="english">
+              <b>US</b><span><strong>English</strong><small>Ruta A1–C2</small></span><i aria-hidden="true">→</i>
+            </button>
+            <button type="button" data-home-action="explore-frances" data-preview-language="french">
+              <b>FR</b><span><strong>Français</strong><small>Parcours A1–C2</small></span><i aria-hidden="true">→</i>
+            </button>
+            <button type="button" data-home-action="explore-espanol" data-preview-language="spanish">
+              <b>ES</b><span><strong>Español</strong><small>Ruta A1–C2</small></span><i aria-hidden="true">→</i>
+            </button>
+          </nav>
 
           <div class="quick-stats" id="homeBenefits">
             <div><strong>Niveles A1–C2</strong><span>en cada idioma</span></div>
@@ -195,6 +206,22 @@
         </div>
 
         <div class="hero-card">
+          <div class="hero-cover-art" aria-hidden="true">
+            <img
+              src="assets/home/andergo-cover-treasure.png?v=20260803"
+              alt=""
+              width="1152"
+              height="1402"
+              decoding="async"
+              fetchpriority="high"
+            />
+            <div class="hero-cover-shine"></div>
+            <span class="hero-cover-edition">EDICIÓN 2026</span>
+            <div class="hero-cover-caption">
+              <span>ANDERGO ACADEMY</span>
+              <strong>Abre el mundo.<br />Habla sin fronteras.</strong>
+            </div>
+          </div>
           <article class="course-card">
             <span class="hero-card-kicker">TU ESPACIO DE APRENDIZAJE</span>
             <p class="student-greeting">Inicia sesión para ver tu progreso, racha y objetivo.</p>
@@ -272,59 +299,6 @@
             Cambiar idioma o nivel
           </button>
         </div>
-      </section>
-
-      <section
-        id="language-picker"
-        class="section language-picker-section"
-        aria-label="Elige tu idioma"
-      >
-        <div class="section-heading">
-          <span>Idiomas disponibles</span>
-          <h2>Elige tu idioma y empieza a practicar hoy.</h2>
-          <p>
-            Cada idioma tiene una ruta completa de A1 a C2, con vocabulario, diálogos y ejercicios
-            guiados.
-          </p>
-        </div>
-
-        <div class="language-preview-grid">
-          <article class="language-preview-card" data-preview-language="english">
-            <span class="language-preview-flag" aria-hidden="true">🇺🇸</span>
-            <h3>English</h3>
-            <p class="language-preview-levels">Niveles A1 - C2</p>
-            <p class="language-preview-desc">
-              Vocabulario, diálogos y ejercicios de listening, speaking, reading y writing en cada
-              nivel.
-            </p>
-            <button type="button" class="language-preview-btn" data-home-action="explore-english">
-              Explorar ruta
-            </button>
-          </article>
-          <article class="language-preview-card" data-preview-language="french">
-            <span class="language-preview-flag" aria-hidden="true">🇫🇷</span>
-            <h3>Français</h3>
-            <p class="language-preview-levels">Niveles A1 - C2</p>
-            <p class="language-preview-desc">
-              Aprende francés con rutas guiadas, pronunciación y práctica diaria.
-            </p>
-            <button type="button" class="language-preview-btn" data-home-action="explore-frances">
-              Explorar ruta
-            </button>
-          </article>
-          <article class="language-preview-card" data-preview-language="spanish">
-            <span class="language-preview-flag" aria-hidden="true">🇪🇸</span>
-            <h3>Español</h3>
-            <p class="language-preview-levels">Niveles A1 - C2</p>
-            <p class="language-preview-desc">
-              Perfecciona tu español con ejercicios de comprensión y expresión oral.
-            </p>
-            <button type="button" class="language-preview-btn" data-home-action="explore-espanol">
-              Explorar ruta
-            </button>
-          </article>
-        </div>
-
       </section>
 
       <section id="premium" class="section pricing-section">
@@ -816,7 +790,7 @@
               <p class="skill-graph-empty">Cargando verbos…</p>
             </div>
             <div class="verbs-load-more-row no-print" id="verbsLoadMoreRow" hidden>
-              <button type="button" class="secondary-btn" id="verbsLoadMoreBtn">Mostrar 50 más</button>
+              <button type="button" class="secondary-btn" id="verbsLoadMoreBtn">Mostrar 60 más</button>
               <button type="button" class="secondary-btn" id="verbsShowAllBtn">Mostrar todos</button>
             </div>
           </div>
@@ -899,7 +873,7 @@
         <div class="section-heading section-heading-compact">
           <span>Tests</span>
           <h2 tabindex="-1">Demuestra lo que aprendiste</h2>
-          <p>Exámenes de Grammar y Vocabulary organizados por nivel y lección.</p>
+          <p>Pruebas de gramática, vocabulario y verbos correspondientes a cada nivel y lección.</p>
         </div>
         <div class="tests-shell">
           <aside class="tests-sidebar">
@@ -909,7 +883,7 @@
               <select id="testLanguageSelect">
                 <option value="english">English</option>
                 <option value="french">Français</option>
-                <option value="spanish">Español · Próximamente</option>
+                <option value="spanish">Español</option>
               </select>
             </label>
             <label for="testLevelSelect">Nivel
@@ -923,7 +897,7 @@
               <select id="testLessonSelect"><option>Cargando lecciones…</option></select>
             </label>
             <button type="button" class="primary-btn" id="startLessonTestBtn">Comenzar test</button>
-            <div class="tests-spec"><strong>12 preguntas</strong><span>Grammar + Vocabulary + Verbs</span><span>Corrección inmediata · Nota sobre 100</span></div>
+            <div class="tests-spec"><strong id="testQuestionCount">15 preguntas</strong><span>Gramática + vocabulario + verbos</span><span>Sin depender del Reading · Nota sobre 100</span></div>
           </aside>
           <article class="tests-stage" id="testsStage" aria-live="polite">
             <div class="tests-welcome"><span aria-hidden="true">✓</span><h3>Un examen a tu medida</h3><p>Selecciona un nivel y una lección. Podrás responder aquí, revisar tu resultado y descargarlo.</p></div>
@@ -931,9 +905,9 @@
         </div>
       </section>
 
-      <section id="music" class="section music-section compact-hidden-section" aria-label="Music">
+      <section id="music" class="section music-section compact-hidden-section" aria-label="Música">
         <div class="section-heading section-heading-compact">
-          <span>Music</span>
+          <span>Música</span>
           <h2 tabindex="-1">Escucha y sigue la letra</h2>
           <p>Elige una canción y acompaña cada línea mientras suena.</p>
         </div>
@@ -979,6 +953,15 @@
             </div>
           </article>
         </div>
+      </section>
+
+      <section id="games" class="section games-section compact-hidden-section" aria-label="Juegos de idiomas">
+        <div class="section-heading section-heading-compact">
+          <span>Juegos</span>
+          <h2 tabindex="-1">Juega y refuerza tu idioma</h2>
+          <p>Elige inglés, francés o español y practica con retos cortos.</p>
+        </div>
+        <div id="gamesApp" class="games-app" aria-live="polite"></div>
       </section>
 
       <section id="security" class="section security-section compact-hidden-section">
@@ -1100,6 +1083,13 @@
         class="section tutor-section compact-hidden-section"
         aria-label="Tutor IA ANDERGO Academy"
       >
+        <div class="tutor-page-navigation" id="tutorPageNavigation" hidden>
+          <button type="button" class="tutor-page-return" id="tutorPageReturn">
+            <span aria-hidden="true">←</span>
+            <span id="tutorPageReturnLabel">Volver a la lección</span>
+          </button>
+          <span class="tutor-page-navigation-note">Tu conversación queda abierta mientras practicas.</span>
+        </div>
         <div class="tutor-hero">
           <div class="tutor-hero-copy">
             <div class="section-heading tutor-section-heading">
@@ -1130,11 +1120,11 @@
             class="tutor-conversation-toggle"
             id="tutorMainConversationToggle"
             aria-pressed="false"
-            title="Conversar por voz (Premium)"
+            title="Conversar por voz con cupo mensual"
           >
-            🎧 Conversar <span class="tutor-conversation-toggle-badge">Premium</span>
+            🎧 Conversar <span class="tutor-conversation-toggle-badge">30/500 al mes</span>
           </button>
-          <label class="tutor-autoplay-toggle" title="Reproducir respuestas automáticamente">
+          <label class="tutor-autoplay-toggle" title="Las respuestas habladas se leen automáticamente" hidden>
             <input
               type="checkbox"
               id="tutorMainAutoplayToggle"
@@ -1148,23 +1138,32 @@
           </div>
           <div class="tutor-hero-bot" aria-hidden="true">
             <span class="tutor-bot-mark tutor-bot-mark--hero">
-              <svg viewBox="0 0 64 64" preserveAspectRatio="xMidYMid meet" focusable="false">
-                <path class="tutor-bot-antenna" d="M32 9v7" />
-                <circle class="tutor-bot-signal" cx="32" cy="8" r="3" />
-                <path class="tutor-bot-shell" d="M19 17h26c6.1 0 11 4.9 11 11v12c0 6.1-4.9 11-11 11H19C12.9 51 8 46.1 8 40V28c0-6.1 4.9-11 11-11Z" />
-                <path class="tutor-bot-ear" d="M8 29H5v10h3m48-10h3v10h-3" />
-                <rect class="tutor-bot-screen" x="17" y="24" width="30" height="19" rx="8" />
-                <circle class="tutor-bot-eye" cx="26" cy="33" r="2.2" />
-                <circle class="tutor-bot-eye" cx="38" cy="33" r="2.2" />
-                <path class="tutor-bot-smile" d="M27 38c1.5 1.4 3.2 2 5 2s3.5-.6 5-2" />
+              <svg viewBox="0 0 80 96" focusable="false">
+                <path class="tutor-bot-antenna" d="M40 8v8" />
+                <circle class="tutor-bot-signal" cx="40" cy="7" r="4" />
+                <path class="tutor-bot-cap" d="M16 27c2-11 11-17 24-17s22 6 24 17H16Z" />
+                <path class="tutor-bot-cap-visor" d="M40 25h27c-2 5-8 7-17 7H40Z" />
+                <path class="tutor-bot-cap-logo" d="M34 23l6-10 6 10h-4l-2-4-2 4Z" />
+                <path class="tutor-bot-shell" d="M18 24h44c6 0 11 5 11 11v18c0 7-5 12-12 12H19C12 65 7 60 7 53V35c0-6 5-11 11-11Z" />
+                <path class="tutor-bot-ear" d="M7 38H3v14h4m66-14h4v14h-4" />
+                <rect class="tutor-bot-screen" x="17" y="34" width="46" height="22" rx="10" />
+                <g class="tutor-bot-eyes">
+                  <circle class="tutor-bot-eye" cx="31" cy="44" r="3" />
+                  <circle class="tutor-bot-eye" cx="49" cy="44" r="3" />
+                </g>
+                <path class="tutor-bot-smile" d="M34 50c2 2 4 3 6 3s4-1 6-3" />
+                <rect class="tutor-bot-mouth" x="36" y="49" width="8" height="2" rx="1" />
+                <path class="tutor-bot-arm" d="M18 75L7 84m55-9 11 9" />
+                <path class="tutor-bot-body" d="M22 64h36c6 0 10 5 10 11v18H12V75c0-6 4-11 10-11Z" />
+                <path class="tutor-bot-chest-logo" d="M32 87l8-18 8 18h-5l-3-7-3 7Z" />
               </svg>
               <span class="tutor-bot-status"></span>
             </span>
-            <span>Listo para practicar</span>
+            <span><strong>Tutor ANDERGO</strong><small>Listo para practicar</small></span>
           </div>
         </div>
 
-        <p class="tutor-usage-counter" id="tutorUsageCounter" aria-live="polite"></p>
+        <p class="tutor-usage-counter" id="tutorUsageCounter" data-tutor-usage-counter aria-live="polite"></p>
 
         <div class="skill-tabs is-open" hidden>
           <div class="skill-tab-list">
@@ -1236,8 +1235,7 @@
             aria-label="Conversación con el tutor IA"
           >
             <p class="tutor-welcome">
-              👋 Soy el Tutor IA ANDERGO Academy. Pregúntame lo que quieras sobre esta habilidad,
-              nivel o lección, y te ayudo con correcciones, ejemplos y práctica.
+              👋 Soy el Tutor IA ANDERGO Academy. Puedes preguntarme lo que quieras, en el idioma que prefieras.
             </p>
           </div>
           <p class="tutor-thinking" id="tutorThinking" hidden aria-hidden="true">
@@ -1287,7 +1285,7 @@
             >
               ⏹ Detener
             </button>
-            <button class="primary-btn tutor-chat-btn" type="button">Hablar con el tutor</button>
+            <button class="primary-btn tutor-chat-btn" type="button">Enviar mensaje →</button>
             <button
               class="tutor-clear-btn"
               type="button"
@@ -1356,7 +1354,6 @@
           <div class="skill-tab-list">
             <button class="skill-tab-button active" type="button" data-skill="translate">Traducir</button>
             <button class="skill-tab-button" type="button" data-skill="interpreter">Intérprete</button>
-            <button class="skill-tab-button" type="button" data-skill="corrector">Corrector</button>
             <button class="skill-tab-button" type="button" data-skill="phonetics">Fonética</button>
           </div>
 
@@ -1513,30 +1510,27 @@
               <div>
                 <span class="tests-eyebrow">Conversación por voz</span>
                 <h3>Modo intérprete</h3>
-                <p>Habla por turnos. ANDERGO traduce y pronuncia cada intervención.</p>
+                <p>Elige el idioma de destino y toca el idioma de quien va a hablar.</p>
               </div>
               <button type="button" class="secondary-btn" id="interpreterClearBtn">Limpiar conversación</button>
             </div>
-            <div class="translator-controls interpreter-controls">
-              <label for="interpreterLangA">Primera persona
-                <select id="interpreterLangA"></select>
-              </label>
-              <button type="button" class="translator-swap-btn" id="interpreterSwapBtn" aria-label="Intercambiar idiomas">⇄</button>
-              <label for="interpreterLangB">Segunda persona
-                <select id="interpreterLangB"></select>
+            <div class="interpreter-target-row">
+              <label for="interpreterTargetLang">Interpretar todo hacia
+                <select id="interpreterTargetLang">
+                  <option value="english">🇺🇸 English</option>
+                  <option value="spanish" selected>🇪🇸 Español</option>
+                  <option value="french">🇫🇷 Français</option>
+                  <option value="italian">🇮🇹 Italiano</option>
+                  <option value="portuguese">🇵🇹 Português</option>
+                </select>
               </label>
             </div>
-            <div class="interpreter-talk-grid">
-              <button type="button" class="interpreter-talk-btn interpreter-talk-btn--a" id="interpreterTalkA">
-                <span aria-hidden="true">🎙</span>
-                <strong>Hablar</strong>
-                <small id="interpreterTalkALabel">Primer idioma</small>
-              </button>
-              <button type="button" class="interpreter-talk-btn interpreter-talk-btn--b" id="interpreterTalkB">
-                <span aria-hidden="true">🎙</span>
-                <strong>Hablar</strong>
-                <small id="interpreterTalkBLabel">Segundo idioma</small>
-              </button>
+            <div class="interpreter-language-grid" id="interpreterLanguageGrid" aria-label="Selecciona el idioma que vas a hablar">
+              <button type="button" class="interpreter-language-btn" data-interpreter-language="english"><span>🇺🇸</span><strong>English</strong><small>Tap to speak</small></button>
+              <button type="button" class="interpreter-language-btn" data-interpreter-language="spanish"><span>🇪🇸</span><strong>Español</strong><small>Toca para hablar</small></button>
+              <button type="button" class="interpreter-language-btn" data-interpreter-language="french"><span>🇫🇷</span><strong>Français</strong><small>Appuyez pour parler</small></button>
+              <button type="button" class="interpreter-language-btn" data-interpreter-language="italian"><span>🇮🇹</span><strong>Italiano</strong><small>Tocca per parlare</small></button>
+              <button type="button" class="interpreter-language-btn" data-interpreter-language="portuguese"><span>🇵🇹</span><strong>Português</strong><small>Toque para falar</small></button>
             </div>
             <div class="interpreter-actions">
               <button type="button" class="secondary-btn translator-stop-btn" id="interpreterStopBtn">⏹ Detener</button>
@@ -1548,85 +1542,6 @@
                 <p>Elige el botón del idioma que va a hablar para comenzar.</p>
               </div>
             </div>
-          </div>
-        </div>
-
-        <div class="skill-panel" data-skill="corrector">
-          <div class="translator-panel corrector-panel">
-            <div class="translator-controls">
-              <label for="correctorLangSelect"
-                >Idioma del texto
-                <select id="correctorLangSelect">
-                  <option value="english">🇺🇸 English</option>
-                  <option value="spanish">🇪🇸 Español</option>
-                  <option value="french">🇫🇷 Français</option>
-                </select>
-              </label>
-            </div>
-
-            <div class="translator-grid">
-              <div class="translator-field">
-                <label for="correctorInput">Tu texto</label>
-                <div class="translator-input-wrap corrector-input-wrap">
-                  <textarea
-                    id="correctorInput"
-                    class="tutor-input"
-                    rows="6"
-                    maxlength="1000"
-                    placeholder="Escribe el texto que quieres corregir…"
-                    role="combobox"
-                    aria-expanded="false"
-                    aria-controls="correctorSuggestions"
-                    aria-autocomplete="list"
-                  ></textarea>
-                  <ul
-                    id="correctorSuggestions"
-                    class="translator-suggestions corrector-suggestions"
-                    role="listbox"
-                    aria-label="Sugerencias de escritura"
-                    hidden
-                  ></ul>
-                </div>
-                <p class="translator-char-count" id="correctorCharCount" aria-live="polite">
-                  0 / 1000
-                </p>
-                <div class="translator-field-actions corrector-input-actions">
-                  <button type="button" class="secondary-btn" id="correctorClearBtn">Limpiar</button>
-                  <button type="button" class="secondary-btn" id="correctorTalkBtn" aria-label="Hablar el texto para corregir">
-                    🎙 Hablar
-                  </button>
-                  <div class="corrector-submit-stack">
-                    <button type="button" class="primary-btn" id="correctorSubmitBtn">Corregir →</button>
-                    <span class="translator-status" id="correctorStatus" role="status" aria-live="polite">Listo</span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="translator-field">
-                <span class="corrector-result-label">Resultado</span>
-                <div class="corrector-output" id="correctorOutput" aria-live="polite">
-                  <p class="skill-graph-empty">La corrección aparecerá aquí.</p>
-                </div>
-                <div class="translator-field-actions">
-                  <button type="button" class="secondary-btn" id="correctorCopyBtn" disabled>
-                    Copiar
-                  </button>
-                  <button
-                    type="button"
-                    class="secondary-btn translator-listen-btn"
-                    id="correctorListenBtn"
-                    aria-label="Escuchar corrección"
-                    disabled
-                  >
-                    🔊 Repetir
-                  </button>
-                  <button type="button" class="primary-btn" id="correctorApplyBtn" disabled>
-                    Aplicar corrección
-                  </button>
-                </div>
-              </div>
-            </div>
-
           </div>
         </div>
 
@@ -1709,7 +1624,7 @@
               <article class="how-it-works-step">
                 <div class="icon" aria-hidden="true">
                   <span class="tutor-bot-mark tutor-bot-mark--inline">
-                    <svg viewBox="0 0 64 64" focusable="false">
+                    <svg viewBox="0 0 80 96" focusable="false">
                       <path class="tutor-bot-antenna" d="M32 9v7" />
                       <circle class="tutor-bot-signal" cx="32" cy="8" r="3" />
                       <path
@@ -1721,6 +1636,10 @@
                       <circle class="tutor-bot-eye" cx="26" cy="33" r="2.2" />
                       <circle class="tutor-bot-eye" cx="38" cy="33" r="2.2" />
                       <path class="tutor-bot-smile" d="M27 38c1.5 1.4 3.2 2 5 2s3.5-.6 5-2" />
+                      <path class="tutor-bot-cap" d="M14 25c2-10 10-15 22-15s20 5 22 15H14Z" />
+                      <path class="tutor-bot-cap-logo" d="M32 20l4-7 4 7h-3l-1-2-1 2Z" />
+                      <path class="tutor-bot-body" d="M21 52h30c5 0 9 4 9 9v25H12V61c0-5 4-9 9-9Z" />
+                      <path class="tutor-bot-chest-logo" d="M30 78l6-13 6 13h-4l-2-5-2 5Z" />
                     </svg>
                   </span>
                 </div>
@@ -2380,7 +2299,7 @@
 
     <button type="button" class="tutor-fab" id="tutorFab" aria-label="Abrir Tutor IA ANDERGO">
       <span class="tutor-bot-mark tutor-bot-mark--fab" aria-hidden="true">
-        <svg viewBox="0 0 64 64" preserveAspectRatio="xMidYMid meet" focusable="false">
+        <svg viewBox="0 0 80 96" preserveAspectRatio="xMidYMid meet" focusable="false">
           <path class="tutor-bot-antenna" d="M32 9v7" />
           <circle class="tutor-bot-signal" cx="32" cy="8" r="3" />
           <path
@@ -2392,6 +2311,10 @@
           <circle class="tutor-bot-eye" cx="26" cy="33" r="2.2" />
           <circle class="tutor-bot-eye" cx="38" cy="33" r="2.2" />
           <path class="tutor-bot-smile" d="M27 38c1.5 1.4 3.2 2 5 2s3.5-.6 5-2" />
+          <path class="tutor-bot-cap" d="M14 25c2-10 10-15 22-15s20 5 22 15H14Z" />
+          <path class="tutor-bot-cap-logo" d="M32 20l4-7 4 7h-3l-1-2-1 2Z" />
+          <path class="tutor-bot-body" d="M21 52h30c5 0 9 4 9 9v25H12V61c0-5 4-9 9-9Z" />
+          <path class="tutor-bot-chest-logo" d="M30 78l6-13 6 13h-4l-2-5-2 5Z" />
         </svg>
         <span class="tutor-bot-status"></span>
       </span>
@@ -2419,11 +2342,11 @@
             class="tutor-conversation-toggle"
             id="tutorConversationToggle"
             aria-pressed="false"
-            title="Conversar por voz (Premium)"
+            title="Conversar por voz con cupo mensual"
           >
-            🎧 Conversar <span class="tutor-conversation-toggle-badge">Premium</span>
+            🎧 Conversar <span class="tutor-conversation-toggle-badge">30/500 al mes</span>
           </button>
-          <label class="tutor-autoplay-toggle" title="Reproducir respuestas automáticamente">
+          <label class="tutor-autoplay-toggle" title="Las respuestas habladas se leen automáticamente" hidden>
             <input
               type="checkbox"
               id="tutorAutoplayToggle"
@@ -2454,6 +2377,8 @@
           >
         </div>
 
+        <p class="tutor-usage-counter" data-tutor-usage-counter aria-live="polite"></p>
+
         <div class="tutor-panel-grid">
           <div class="tutor-panel-conversation">
             <div
@@ -2463,7 +2388,7 @@
               aria-live="polite"
               aria-label="Conversación con el tutor IA"
             >
-              <p class="tutor-welcome">👋 Soy el Tutor IA ANDERGO Academy. Cuéntame qué quieres practicar.</p>
+              <p class="tutor-welcome">👋 Soy el Tutor IA ANDERGO Academy. Puedes preguntarme lo que quieras, en el idioma que prefieras.</p>
             </div>
             <p class="tutor-thinking" id="tutorDrawerThinking" hidden aria-hidden="true">
               Tutor IA ANDERGO está escribiendo…
@@ -2530,7 +2455,8 @@
             <a href="#learn" data-i18n="navLearnVisitor">Idiomas</a>
             <a href="#premium" data-i18n="navPremium">Premium</a>
             <a href="#translator" data-i18n="navTranslator">Traductor</a>
-            <a href="#music">Music</a>
+            <a href="#music">Música</a>
+            <a href="#games">Juegos</a>
             <a href="#about" data-i18n="navAbout">Acerca de</a>
             <a href="#about" data-i18n="footerSupport">Soporte</a>
           </div>
@@ -2567,6 +2493,6 @@
     <script src="/src/js/translator-languages.js"></script>
     <script src="/src/js/translator-predictive.js"></script>
     <!-- Verb data and its view are loaded when #verbs is opened. -->
-    <script src="/src/js/script.js?v=20260730-verbs-header-order"></script>
+    <script src="/src/js/script.js?v=20260805-games-upgrade"></script>
   </body>
 </html>

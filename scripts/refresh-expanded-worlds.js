@@ -24,7 +24,7 @@ const MINUTES_BY_SKILL = {
   vocabulary: 10
 };
 const XP_BY_LEVEL = { A1: 20, A2: 20, B1: 25, B2: 25, C1: 30, C2: 30 };
-const FREE_SKILL_COUNTS = { A1: 3, A2: 3, B1: 3, B2: 3, C1: 1, C2: 1 };
+const FREE_SKILL_COUNTS = { A1: 3, A2: 3, B1: 3, B2: 3, C1: 2, C2: 2 };
 const ACCESS_POLICY = {
   free_lessons_per_level: 3,
   is_free_preview: true,

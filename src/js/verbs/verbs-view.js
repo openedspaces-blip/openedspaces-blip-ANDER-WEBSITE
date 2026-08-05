@@ -37,7 +37,9 @@
   const VERB_PRACTICE_STATS_KEY = 'andergo_verb_practice_stats_v1';
   // Keeps the list comfortable now and when the catalogue reaches 1,000
   // verified verbs: students can progressively reveal more, or all at once.
-  const PAGE_SIZE = 50;
+  // A scan-first catalogue benefits from showing a substantial portion of
+  // each 100-verb language list immediately, while the grid keeps it compact.
+  const PAGE_SIZE = 60;
   const VERB_LANGUAGES = new Set(['english', 'french', 'spanish']);
 
   function currentVerbLanguage() {
@@ -335,7 +337,7 @@
           <span class="verb-list-type" title="${regTitle}">${regLabel}</span>
           <span class="verb-list-status verb-list-status--${escapeHtml(item.masteryStatus)}">${escapeHtml(masteryLabel)}</span>
         </div>
-        <button type="button" class="verb-list-word verb-open-detail-btn" data-verb-id="${escapeHtml(item.id)}" aria-haspopup="dialog" aria-label="Ver ejemplos y conjugación de ${escapeHtml(item.targetWord)}">${escapeHtml(item.targetWord)}</button>
+        <button type="button" class="verb-list-word verb-open-detail-btn" data-verb-id="${escapeHtml(item.id)}" aria-label="Abrir ejemplos y conjugación de ${escapeHtml(item.targetWord)}">${escapeHtml(item.targetWord)}</button>
         <div class="verb-list-pron-row">
           ${item.phonetic ? `<span class="verb-list-pron">${escapeHtml(item.phonetic)}</span>` : ''}
           ${audioBtnHtml}
@@ -605,12 +607,12 @@
         });
       });
 
-      // The word itself still opens the compact detail panel for students who
-      // want a quick look without leaving the verb list.
+      // The verb itself is the clearest route to its examples and complete
+      // conjugation; the surrounding card remains the pronunciation shortcut.
       deck.querySelectorAll('.verb-list-word.verb-open-detail-btn').forEach((button) => {
         button.addEventListener('click', (event) => {
           event.stopPropagation();
-          openVerbDetail(button.dataset.verbId);
+          openConjugatorForVerb(button.dataset.verbId);
         });
       });
 
@@ -1779,11 +1781,7 @@
     }
     const detailBtn = event.target.closest('.verb-open-detail-btn');
     if (detailBtn) {
-      if (detailBtn.classList.contains('verb-list-detail-btn')) {
-        openConjugatorForVerb(detailBtn.dataset.verbId);
-      } else {
-        openVerbDetail(detailBtn.dataset.verbId);
-      }
+      openConjugatorForVerb(detailBtn.dataset.verbId);
       return;
     }
 

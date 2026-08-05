@@ -306,6 +306,113 @@ function vocabularyExercises(items) {
 }
 
 function grammarExercises(topic) {
+  const contextualExamples = {
+    'neuroplasticite-adulte': [
+      'Quand bien même les adultes progresseraient moins vite en moyenne, les trajectoires individuelles resteraient très variables.',
+      'Pour marquée qu’elle soit, la différence moyenne ne détermine pas le potentiel d’un apprenant.',
+      'Tout en reconnaissant un effet de l’âge, l’étude refuse d’en faire une échéance biologique absolue.',
+      'Les plus jeunes obtiennent certes un avantage moyen ; encore faut-il ne pas confondre tendance collective et destin individuel.'
+    ],
+    'recuperation-espacee': [
+      'Les résultats semblent indiquer un avantage de l’espacement, sans que son ampleur puisse encore être tenue pour certaine.',
+      'La récupération répétée pourrait renforcer la rétention différée, quoique d’autres mécanismes ne puissent être exclus.',
+      'Il est hautement probable que la familiarité ait influencé le jugement, mais ce biais n’est pas directement mesuré.',
+      'Rien ne permet d’affirmer que le même calendrier conviendrait à tous les apprentissages.'
+    ],
+    'sommeil-consolidation': [
+      'Au moment du test différé, les participants auront déjà accompli une nuit complète de sommeil.',
+      'Les mots avaient été encodés avant que la consolidation nocturne ne soit mesurée.',
+      'D’ici la fin du protocole, l’équipe aura recueilli trois mesures de rétention.',
+      'Les chercheurs pensaient que le groupe reposé aurait consolidé davantage d’items avant le rappel.'
+    ],
+    'input-comprehensible': [
+      'L’augmentation de la fréquence d’exposition a favorisé la reconnaissance, mais les chercheurs ont organisé cette exposition.',
+      'La mesure de l’acquisition incidente exige que l’on précise qui mesure quoi et à quel moment.',
+      'La transformation de l’input en connaissance ne saurait être présupposée : les apprenants doivent encore établir les associations.',
+      'Le recours à la nominalisation condense l’analyse ; la proposition verbale restitue ensuite l’agent et la causalité.'
+    ],
+    'apprentissage-multimodal': [
+      'Les signaux visuels ont guidé l’attention ; par conséquent, les apprenants ont repéré plus vite les étapes pertinentes.',
+      'La présence simultanée de deux modes est corrélée à de meilleurs scores, sans pour autant en constituer nécessairement la cause.',
+      'Puisque les légendes répétaient exactement la narration, elles ont pu accroître la charge cognitive.',
+      'Les résultats diffèrent selon la complexité du support, de sorte qu’une recommandation unique serait prématurée.'
+    ],
+    'interaction-production': [
+      'Les apprenants ont expliqué qu’ils avaient demandé une clarification lorsque la consigne était devenue ambiguë.',
+      'Selon l’enseignante, la négociation avait facilité la compréhension ; les auteurs, eux, attribuent une partie du gain à la répétition.',
+      'Un participant affirme avoir remarqué ses lacunes, tandis qu’un autre dit avoir seulement reformulé pour terminer la tâche.',
+      'Les chercheurs rappellent que ce que les apprenants déclarent ne se confond pas avec ce que l’analyse permet d’inférer.'
+    ],
+    'feedback-correctif': [
+      'Il est essentiel que l’apprenant dispose d’un temps de réponse avant que l’enseignant ne fournisse la forme.',
+      'Les auteurs recommandent que chaque correction soit codée selon sa fonction interactionnelle.',
+      'Bien que la reformulation soit fréquente, rien ne garantit qu’elle soit toujours perçue comme corrective.',
+      'Il convient que l’évaluation distingue la reprise immédiate de l’acquisition durable.'
+    ],
+    'perception-prononciation': [
+      'Le contraste a été identifié plus précisément après que les chercheurs ont accru la variabilité des voix.',
+      'Les enregistrements ont été normalisés par les techniciens avant la passation du test.',
+      'Une amélioration a été observée, mais les analystes demeurent responsables de l’interprétation de ce gain.',
+      'Les catégories ont été générées par le modèle, puis vérifiées par deux phonéticiennes.'
+    ],
+    'anxiete-attention': [
+      'Si l’anxiété avait mobilisé moins de ressources attentionnelles, les performances auraient peut-être été plus régulières.',
+      'La tâche serait-elle moins évaluative que l’écart observé pourrait disparaître.',
+      'À supposer que l’effet varie selon la tâche, un score unique en masquerait les mécanismes.',
+      'Sans pression temporelle, certains apprenants auraient pu consacrer davantage d’attention au sens.'
+    ],
+    'age-differences-individuelles': [
+      'Les apprenants dont la mémoire phonologique était plus forte ont rappelé davantage de formes nouvelles.',
+      'Le test d’aptitude, lequel avait été administré avant l’enseignement, n’expliquait qu’une partie de la variation.',
+      'Les participants pour lesquels la tâche était nouvelle ont demandé davantage d’entraînement.',
+      'Plusieurs profils ont émergé, dont aucun ne justifiait une interprétation déficitaire.'
+    ],
+    'lexique-contextuel': [
+      'Les mots ayant été rencontrés dans plusieurs contextes, leurs associations sémantiques se sont enrichies.',
+      'Ayant comparé les réponses, les chercheurs ont distingué connaissance réceptive et emploi productif.',
+      'Les collocations recyclées dans des tâches variées ont été mieux retenues au test différé.',
+      'La fréquence demeurant constante, la richesse du contexte pouvait être examinée plus précisément.'
+    ],
+    'intelligence-artificielle-tutorat': [
+      'Le tuteur améliorerait la fluidité, selon son concepteur, mais aucun gain indépendant n’a encore été établi.',
+      'Il semblerait que les rappels augmentent la quantité de pratique, sans que leur effet pédagogique soit démontré.',
+      'Les explications auraient été jugées utiles par les participants ; le protocole complet reste toutefois indisponible.',
+      'Il conviendrait donc de qualifier l’outil de prometteur plutôt que d’efficace.'
+    ]
+  }[topic.slug];
+  if (contextualExamples) {
+    const applications = contextualExamples.map((correct, index) => {
+      const answer = index % 4;
+      const options = [
+        'Les données prouve donc certainement toutes les conclusions possibles.',
+        'Parce que la question complexe, alors le résultat forcément.',
+        'La thèse est étant vraie par les mots qui ont utilisé.'
+      ];
+      options.splice(answer, 0, correct);
+      return mcq(
+        `Dans le contexte grammatical ${index + 1} de « ${topic.readingTitle} », quelle phrase maîtrise « ${topic.grammar} » ?`,
+        options,
+        answer,
+        `La phrase respecte la règle suivante : ${topic.rule}`
+      );
+    });
+    const analyses = contextualExamples.map((example, index) => {
+      const answer = (index + 1) % 4;
+      const options = [
+        'Elle remplace les preuves par une affirmation absolue.',
+        'Elle adopte un registre familier sans relation grammaticale précise.',
+        'Elle change de sujet sans clarifier la portée ni la responsabilité.'
+      ];
+      options.splice(answer, 0, `Elle emploie ${topic.grammar.toLowerCase()} afin de ${topic.purpose} : « ${example} »`);
+      return mcq(
+        `Pourquoi l’exemple ${index + 1} convient-il à cette unité ?`,
+        options,
+        answer,
+        topic.rule
+      );
+    });
+    return applications.flatMap((exercise, index) => [exercise, analyses[index]]);
+  }
   const examples = [
     [`Quelle phrase maîtrise correctement « ${topic.grammar} » ?`, 'Quand bien même les preuves resteraient incomplètes, la conclusion pourrait être provisoirement défendue.'],
     [`Quelle formulation répond le mieux à l’objectif suivant : ${topic.purpose} ?`, 'Tout en reconnaissant la portée de l’objection, l’analyse en circonscrit les conséquences.'],
@@ -442,6 +549,12 @@ function buildUnit(topic, index) {
 }
 
 const units = topics.map(buildUnit);
+units.forEach((unit) => {
+  const activity = unit.activities?.reading;
+  if (activity?.reading && Array.isArray(activity.exercises)) {
+    activity.reading.questions = activity.exercises.slice(0, 5).map((exercise) => exercise.prompt);
+  }
+});
 require('./advanced-communication-skills').ensureAdvancedCommunicationSkills(units, {
   language: 'french',
   level: 'C2'

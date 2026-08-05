@@ -253,7 +253,7 @@ const unitPlans = [
       'Priya invited Sarah and Daniel to a film club at a small independent cinema. The film was a quiet drama about a family restaurant, and Sarah was not sure Daniel would enjoy it. He usually preferred faster stories with more action. However, by the end of the film, he was the first person to start the discussion.\n\n' +
       'Sarah thought the film was much more emotional than she had expected. The plot was simple, but the characters felt real. Daniel agreed, although he said the middle section was slightly too slow. Another person in the group argued that the slow rhythm was the point because it showed ordinary life honestly.\n\n' +
       'The discussion became more interesting than the film itself. People compared it with other dramas, talked about the music and disagreed politely about the ending. Sarah noticed that giving an opinion was easier when she included a reason and an example.\n\n' +
-      'On the way home, Daniel said he might try more independent films. It was not by far his favourite type of cinema, but he had enjoyed hearing different interpretations. Sarah smiled because that was exactly why she liked cultural events: they made familiar things feel new.',
+      'On the way home, Daniel said he might try more independent films. It was still far from his favourite type of cinema, but he had enjoyed hearing different interpretations. Sarah smiled because that was exactly why she liked cultural events: they made familiar things feel new.',
     listeningTitle: 'After the Film',
     transcript:
       'Sarah says the film was more moving than she expected. Daniel says it was slower than his usual choice, but the main character was interesting. Priya asks them whether they would recommend it. Sarah says yes, especially to people who enjoy realistic stories.',
@@ -537,11 +537,7 @@ function buildUnit(plan, index) {
         reading: {
           title: plan.readingTitle,
           text: extendReadingText(plan),
-          questions: [
-            'What is the main challenge in this text?',
-            'How do Sarah and Daniel respond to the situation?',
-            'What lesson or change appears at the end?'
-          ]
+          questions: readingExercises.slice(0, 5).map((exercise) => exercise.prompt)
         },
         exercises: readingExercises
       }),

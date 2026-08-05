@@ -215,7 +215,7 @@ const units = [
           title: 'L’anniversaire de Léa',
           parts: [
             "Pour l'anniversaire de Léa, Monsieur Lambert a réservé une table au restaurant « Le Petit Jardin ». Il a appelé la semaine précédente : « Je voudrais réserver une table pour cinq personnes, samedi soir. » À vingt heures, le restaurant était complet, mais il restait de la place à vingt et une heures trente. Monsieur Lambert a accepté sans hésiter, car l'important était de fêter l'anniversaire ensemble.",
-            "Le samedi soir, toute la famille arrive au restaurant, avec Camila. Le serveur leur apporte la carte et explique les spécialités du jour. « Il faut absolument goûter les pâtes maison », dit-il en souriant. Léa hésite entre le poisson et les pâtes, mais elle décide finalement de suivre le conseil du serveur. Camila, elle, commande le poulet aux légumes, et Karim, invité pour l'occasion, choisit une pizza.",
+            "Le samedi soir, toute la famille arrive au restaurant, avec Camila. Le serveur leur apporte la carte et explique les spécialités du jour. « Il faut absolument goûter les pâtes maison », dit-il en souriant. Léa hésite entre le poisson et les pâtes, mais elle décide finalement de suivre le conseil du serveur. Camila choisit une soupe en entrée, puis le poulet aux légumes, et Karim, invité pour l'occasion, commande une pizza.",
             "Pendant le repas, tout le monde discute et rit. Mais quand les plats arrivent, Camila remarque que sa soupe n'est plus très chaude. Elle appelle poliment le serveur : « Excusez-moi, mais ma soupe n'est plus chaude, pourriez-vous la réchauffer ? » Le serveur s'excuse immédiatement et l'emporte en cuisine. Quelques minutes plus tard, la soupe revient, parfaite. À la fin du repas, le serveur offre un dessert gratuit pour l'anniversaire de Léa, avec une bougie. Toute la table chante « Joyeux anniversaire », et Léa souffle la bougie en souriant, entourée de sa famille et de ses amis."
           ],
           questions: [
@@ -237,7 +237,7 @@ const units = [
           { type: 'mcq', prompt: 'Pour combien de personnes Monsieur Lambert réserve-t-il ?', options: ['Trois', 'Quatre', 'Cinq', 'Six'], answer: 2 },
           { type: 'mcq', prompt: 'À quelle heure la famille a-t-elle finalement une table ?', options: ['Vingt heures', 'Vingt et une heures trente', 'Dix-neuf heures', 'Vingt-deux heures'], answer: 1 },
           { type: 'mcq', prompt: 'Que recommande le serveur ?', options: ['La pizza', 'Les pâtes maison', 'La soupe', 'Le poulet'], answer: 1 },
-          { type: 'mcq', prompt: 'Que commande Camila ?', options: ['Une pizza', 'Des pâtes', 'Le poulet aux légumes', 'Le poisson'], answer: 2 },
+          { type: 'mcq', prompt: 'Quel plat principal Camila commande-t-elle ?', options: ['Une pizza', 'Des pâtes', 'Le poulet aux légumes', 'Le poisson'], answer: 2 },
           { type: 'mcq', prompt: 'Pourquoi Camila appelle-t-elle le serveur ?', options: ['Pour demander l’addition', 'Parce que sa soupe n’est plus chaude', 'Pour changer de table', 'Pour commander un dessert'], answer: 1 },
           { type: 'mcq', prompt: 'Comment le serveur réagit-il à la remarque de Camila ?', options: ['Il l’ignore', 'Il s’excuse et réchauffe la soupe', 'Il se fâche', 'Il annule la commande'], answer: 1 },
           { type: 'mcq', prompt: 'Que fait le serveur à la fin du repas ?', options: ['Il demande l’addition immédiatement', 'Il offre un dessert gratuit pour l’anniversaire', 'Il propose une autre table', 'Il ferme le restaurant'], answer: 1 },
@@ -1543,6 +1543,12 @@ const units = [
 ];
 
 units.push(...require('./french-a2-extension-units').units);
+units.forEach((unit) => {
+  const activity = unit.activities?.reading;
+  if (activity?.reading && Array.isArray(activity.exercises)) {
+    activity.reading.questions = activity.exercises.slice(0, 5).map((exercise) => exercise.prompt);
+  }
+});
 require('./french-listening-story-scripts').applyFrenchListeningStories(units, 'A2');
 require('./french-grammar-tests').ensureFrenchGrammarTests(units, 'A2');
 

@@ -31,6 +31,28 @@ function correctionQuestion(level, unitSlug, exercise, index) {
   const incorrectSentence = completedPrompt(exercise.prompt, incorrect);
   const hasSentence = Boolean(correctedSentence && incorrectSentence);
 
+  const candidateTexts = hasSentence
+    ? options.map((option) => completedPrompt(exercise.prompt, option))
+    : options.map((option) => String(option));
+  return {
+    id: `french-${level.toLowerCase()}-${unitSlug}-grammar-q${index + 5}`,
+    type: 'mcq',
+    prompt: hasSentence
+      ? `Quelle version corrige entièrement la phrase « ${incorrectSentence} » ?`
+      : `Quelle réponse corrige l’erreur « ${incorrect} » dans ce contexte : « ${exercise.prompt} » ?`,
+    options: candidateTexts.map((text, optionIndex) => ({
+      id: OPTION_IDS[optionIndex] || `o${optionIndex + 1}`,
+      text
+    })),
+    correctOptionId: OPTION_IDS[exercise.answer] || `o${exercise.answer + 1}`,
+    explanation: hasSentence
+      ? `La phrase correcte est : « ${correctedSentence} »`
+      : `La bonne réponse est « ${correct} ».`,
+    difficulty: 'precision'
+  };
+
+  /* Legacy written-correction shape retained below for source history. */
+
   return {
     id: `french-${level.toLowerCase()}-${unitSlug}-grammar-q${index + 5}`,
     type: 'fill_blank',

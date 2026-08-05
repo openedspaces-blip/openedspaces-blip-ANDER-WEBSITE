@@ -72,11 +72,11 @@ const LEVEL_CURRICULUM = {
       'Doce unidades avanzadas para interpretar discursos, modular el registro y argumentar con precisión.',
     units: [
       ['memoria-y-relato', '¿La inteligencia artificial está cambiando nuestra manera de pensar?', 'Explorar cómo la IA transforma la memoria, el criterio y la toma de decisiones', 'Usar herramientas de IA sin renunciar al pensamiento crítico', 'matización, subordinación concesiva y evidencialidad', ['autonomía', 'sesgo', 'verificar', 'evidencia', 'trazabilidad', 'criterio']],
-      ['retorica-publica', 'De empleado a emprendedor digital: una historia de reinvención', 'Escuchar el recorrido de una persona que rediseñó su vida profesional', 'Interpretar decisiones, riesgos y cambios de identidad laboral', 'variación, registro y adecuación pragmática', ['reinventarse', 'incertidumbre', 'proyecto', 'riesgo', 'aprendizaje', 'trayectoria']],
+      ['retorica-publica', 'De empleado a emprendedor digital: una historia de reinvención', 'Escuchar el recorrido de una persona que rediseñó su vida profesional', 'Interpretar decisiones, riesgos y cambios de identidad laboral', 'focalización, estructuras escindidas y énfasis discursivo', ['reinventarse', 'incertidumbre', 'proyecto', 'riesgo', 'aprendizaje', 'trayectoria']],
       ['periodismo-de-investigacion', 'El día que Internet desapareció durante 24 horas', 'Seguir las consecuencias cotidianas de una caída total de conexión', 'Relacionar dependencia digital, servicios esenciales y respuestas colectivas', 'conectores causales, consecutivos y concesivos', ['conexión', 'colapso', 'infraestructura', 'emergencia', 'alternativa', 'dependencia']],
       ['justicia-y-reparacion', 'Vivir un año en otro país cambió mi forma de ver el mundo', 'Conocer un testimonio de adaptación cultural y distancia emocional', 'Reconocer cómo la experiencia intercultural modifica certezas y pertenencias', 'subjuntivo en construcciones valorativas', ['desarraigo', 'costumbre', 'pertenencia', 'perspectiva', 'adaptación', 'contraste']],
       ['innovacion-responsable', '¿Por qué sufrimos el síndrome del impostor?', 'Examinar las dudas que aparecen incluso ante logros comprobables', 'Distinguir autoexigencia, inseguridad y evaluación realista', 'condicionales mixtas y contrafactuales', ['autoexigencia', 'mérito', 'inseguridad', 'validación', 'logro', 'percepción']],
-      ['literatura-y-voz', 'Cómo una pequeña startup terminó revolucionando una industria', 'Reconstruir el crecimiento inesperado de una empresa emergente', 'Analizar innovación, oportunidad y transformación de un mercado', 'discurso referido libre y valores verbales', ['startup', 'prototipo', 'inversión', 'escala', 'disrupción', 'mercado']],
+      ['literatura-y-voz', 'Cómo una pequeña empresa emergente revolucionó una industria', 'Reconstruir el crecimiento inesperado de una empresa emergente', 'Analizar innovación, oportunidad y transformación de un mercado', 'discurso referido libre y valores verbales', ['empresa emergente', 'prototipo', 'inversión', 'escala', 'disrupción', 'mercado']],
       ['economia-y-cuidados', '¿Trabajar cuatro días a la semana realmente funciona?', 'Contrastar productividad, descanso y organización laboral', 'Argumentar sobre condiciones y límites de una semana laboral más corta', 'nominalización y densidad informativa', ['jornada', 'productividad', 'descanso', 'flexibilidad', 'rendimiento', 'conciliación']],
       ['diversidad-del-espanol', 'Dormimos menos que nunca: el costo invisible del cansancio', 'Explorar cómo el descanso insuficiente afecta decisiones y relaciones', 'Explicar hábitos, consecuencias y límites del autocuidado', 'variación, registro y adecuación pragmática', ['sueño', 'agotamiento', 'rutina', 'recuperación', 'atención', 'bienestar']],
       ['diplomacia-y-negociacion', 'La presión mental detrás del deporte de alto rendimiento', 'Escuchar la experiencia de un atleta frente a la exigencia constante', 'Reconocer el vínculo entre rendimiento, expectativas y salud mental', 'atenuación y cortesía avanzada', ['presión', 'rendimiento', 'expectativa', 'lesión', 'equilibrio', 'acompañamiento']],
@@ -144,7 +144,7 @@ const READING_PROFILES = {
     'periodismo-de-investigacion': ['storytelling', 'El día que Internet desapareció durante 24 horas', 'Una ciudad descubre qué servicios, hábitos y vínculos dependen de una conexión que suele dar por hecha.'],
     'justicia-y-reparacion': ['testimonio', 'Vivir un año en otro país cambió mi forma de ver el mundo', 'La distancia convierte los gestos cotidianos en preguntas sobre idioma, pertenencia y perspectiva.'],
     'innovacion-responsable': ['podcast de psicología', '¿Por qué sufrimos el síndrome del impostor?', 'La sensación de no merecer un logro puede persistir incluso cuando la evidencia dice lo contrario.'],
-    'literatura-y-voz': ['documental corto', 'Cómo una pequeña startup terminó revolucionando una industria', 'Una idea mínima encuentra un problema real y altera las reglas de un mercado entero.'],
+    'literatura-y-voz': ['documental corto', 'Cómo una pequeña empresa emergente revolucionó una industria', 'Una idea mínima encuentra un problema real y altera las reglas de un mercado entero.'],
     'economia-y-cuidados': ['mesa redonda', '¿Trabajar cuatro días a la semana realmente funciona?', 'La jornada más corta promete tiempo y productividad, pero exige rediseñar la organización del trabajo.'],
     'diversidad-del-espanol': ['podcast de salud', 'Dormimos menos que nunca: el costo invisible del cansancio', 'Dormir poco parece una costumbre privada hasta que afecta la atención, el humor y las decisiones colectivas.'],
     'diplomacia-y-negociacion': ['entrevista', 'La presión mental detrás del deporte de alto rendimiento', 'El aplauso público rara vez muestra la disciplina, el miedo y la soledad que sostienen una carrera deportiva.'],
@@ -179,6 +179,20 @@ const SKILL_DEFAULTS = {
 
 function q(prompt, options, answer, explanation) {
   return { type: 'mcq', prompt, options, answer, explanation };
+}
+
+function balanceMcqAnswers(exercises) {
+  exercises.forEach((exercise, index) => {
+    if (exercise.type !== 'mcq' || !Array.isArray(exercise.options)) return;
+    const targetIndex = index % exercise.options.length;
+    if (exercise.answer === targetIndex) return;
+    const options = [...exercise.options];
+    const [correctOption] = options.splice(exercise.answer, 1);
+    options.splice(targetIndex, 0, correctOption);
+    exercise.options = options;
+    exercise.answer = targetIndex;
+  });
+  return exercises;
 }
 
 function activity(skill, fields) {
@@ -732,13 +746,13 @@ function buildBlueprintReading(level, slug, spec) {
     : '';
   const evidenceLens = `\n\nUna dificultad frecuente es confundir la abundancia de información con calidad de evidencia. Una cifra puede ser relevante y, aun así, necesitar contexto: quién la produjo, con qué método, durante cuánto tiempo y para qué población. Del mismo modo, un testimonio no prueba por sí solo una tendencia general, pero puede mostrar un efecto que las mediciones todavía no registran. El análisis avanzado compara ambas clases de evidencia en vez de obligarlas a competir.`;
   const actionLens = `\n\nEsto tiene consecuencias prácticas. Las decisiones sobre ${scenario.toLowerCase()} deberían explicitar criterios, abrir espacios para quienes recibirán sus efectos y prever mecanismos de revisión. No se trata de exigir unanimidad ni de aplazar toda acción hasta contar con datos perfectos. Se trata de actuar con razones públicas, reconocer incertidumbres y corregir cuando la experiencia contradiga una expectativa inicial.`;
-  const text = `${opening}\n\n${tension}\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «${words[0]}», «${words[1]}» y «${words[2]}» no son adornos: permiten describir el problema con mayor precisión.${evidenceLens}\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, ${grammar} ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.${expertLens}${actionLens}\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: ${objective.toLowerCase()}. Hablar de ${focus} supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.`;
+  const text = `${opening}\n\n${tension}\n\nLa discusión exige una lectura que vaya más allá de una reacción inmediata. Conviene identificar qué afirmaciones están respaldadas por fuentes verificables, qué experiencias individuales iluminan una tendencia sin representarla por completo y qué preguntas siguen abiertas. En ese análisis, términos como «${words[0]}», «${words[1]}» y «${words[2]}» no son adornos: permiten describir el problema con mayor precisión.${evidenceLens}\n\nTambién importa evitar dos simplificaciones opuestas. La primera convierte cualquier innovación o cambio social en una amenaza inevitable; la segunda lo presenta como una mejora automática. Una posición responsable compara beneficios posibles, costos distribuidos de forma desigual y condiciones concretas de aplicación. Por eso, el recurso gramatical de la unidad —${grammar}— ayuda a formular reservas, hipótesis y consecuencias sin abandonar una tesis.${expertLens}${actionLens}\n\nEl objetivo no es cerrar el debate, sino sostener una conclusión revisable: ${objective.toLowerCase()}. Hablar de ${focus} supone reconocer que las decisiones no son puramente técnicas. Definen quién participa, qué riesgos se consideran aceptables y qué evidencia será necesaria para corregir el rumbo.`;
   const exercises = [
-    q('¿Cuál es el problema central que analiza la lectura?', [focus, 'Un asunto sin relación con la unidad', 'Una anécdota privada sin consecuencias', 'Una definición aislada'], 0, 'La lectura organiza el análisis alrededor de ese problema público.'),
-    q('¿Qué exige el texto antes de aceptar una conclusión?', ['Distinguir fuentes, experiencias y preguntas abiertas', 'Elegir la primera opinión disponible', 'Evitar cualquier dato', 'Reducir el tema a una sola causa'], 0, 'El texto propone una lectura crítica y verificable.'),
-    q('¿Qué simplificación rechaza explícitamente?', ['Considerar beneficios, costos y condiciones', 'Tratar todo cambio como amenaza o como mejora automática', 'Usar vocabulario preciso', 'Reconocer incertidumbre'], 1, 'El texto rechaza tanto el alarmismo automático como el entusiasmo sin condiciones.'),
-    q('¿Qué función cumple la gramática de la unidad?', ['Formular reservas, hipótesis y consecuencias con precisión', 'Eliminar toda postura del texto', 'Sustituir el análisis de fuentes', 'Memorizar palabras sin contexto'], 0, 'La estructura gramatical permite matizar una tesis compleja.'),
-    q('¿Cómo se presenta la conclusión?', ['Como una certeza que no admite revisión', 'Como una posición revisable basada en evidencia y responsabilidades', 'Como una opinión sin razones', 'Como una decisión exclusivamente técnica'], 1, 'La lectura defiende una conclusión razonada, abierta a nueva evidencia.')
+    q(`¿Cuál es el problema central de «${title}»?`, [focus, 'Un asunto sin relación con la unidad', 'Una anécdota privada sin consecuencias', 'Una definición aislada'], 0, 'La lectura organiza el análisis alrededor de ese problema público.'),
+    q(`¿Qué exige «${title}» antes de aceptar una conclusión?`, ['Distinguir fuentes, experiencias y preguntas abiertas', 'Elegir la primera opinión disponible', 'Evitar cualquier dato', 'Reducir el tema a una sola causa'], 0, 'El texto propone una lectura crítica y verificable.'),
+    q(`¿Qué simplificación rechaza explícitamente «${title}»?`, ['Considerar beneficios, costos y condiciones', 'Tratar todo cambio como amenaza o como mejora automática', 'Usar vocabulario preciso', 'Reconocer incertidumbre'], 1, 'El texto rechaza tanto el alarmismo automático como el entusiasmo sin condiciones.'),
+    q(`¿Qué función cumple el recurso «${grammar}» en «${title}»?`, ['Formular reservas, hipótesis y consecuencias con precisión', 'Eliminar toda postura del texto', 'Sustituir el análisis de fuentes', 'Memorizar palabras sin contexto'], 0, 'La estructura gramatical permite matizar una tesis compleja.'),
+    q(`¿Cómo se presenta la conclusión de «${title}»?`, ['Como una certeza que no admite revisión', 'Como una posición revisable basada en evidencia y responsabilidades', 'Como una opinión sin razones', 'Como una decisión exclusivamente técnica'], 1, 'La lectura defiende una conclusión razonada, abierta a nueva evidencia.')
   ];
   return { title, genre, angle: opening, text, references: referenceKeys.map((key) => SPANISH_REFERENCE_LIBRARY[key]), exercises };
 }
@@ -788,7 +802,7 @@ function buildProgressiveReading(level, spec, index) {
       text: [
         `Me llamo ${narrator} y esta semana necesito ${scenario.toLowerCase()}. No quiero resolverlo con prisa, porque también deseo ${objective.toLowerCase()}. Primero observo la situación, anoto lo que ya sé y preparo las preguntas que debo hacer.`,
         `Durante la actividad uso palabras importantes como «${words[0]}», «${words[1]}» y «${words[2]}». También aparecen «${words[3]}», «${words[4]}» y «${words[5]}» cuando explico los detalles. La primera opción no funciona como esperaba, así que comparo otra posibilidad y pido una aclaración antes de decidir.`,
-        `Al final encuentro una solución práctica y explico los pasos en orden. Para hacerlo aplico ${grammar}. La experiencia me ayuda a hablar con más seguridad y a comprobar que pedir información clara puede evitar errores. La próxima vez podré actuar con mayor autonomía.`
+        `Al final encuentro una solución práctica y explico los pasos en orden. Para hacerlo aplico este recurso gramatical: ${grammar}. La experiencia me ayuda a hablar con más seguridad y a comprobar que pedir información clara puede evitar errores. La próxima vez podré actuar con mayor autonomía.`
       ].join('\n\n')
     };
   }
@@ -808,7 +822,7 @@ function buildProgressiveReading(level, spec, index) {
     `${person} empezó por anotar lo que podía comprobar y por preguntar a quienes estaban implicados. En la conversación aparecieron «${words[0]}», «${words[1]}» y «${words[2]}». Cada palabra nombraba algo reconocible: una necesidad, una duda o una decisión que no podía resolverse con una frase rápida.`,
     `La primera solución parecía cómoda, pero dejaba fuera un dato importante. Por eso ${person} volvió a leer los mensajes, comparó horarios, costes o responsabilidades y escuchó una versión que al principio no había considerado. El problema no desapareció, aunque cambió la pregunta: ya no era solo qué hacer, sino quién podía asumir el coste de hacerlo.`,
     `En ese momento cobraron sentido «${words[3]}», «${words[4]}» y «${words[5]}». El texto no presenta a ${person} como héroe ni como culpable: muestra una decisión pequeña dentro de reglas, recursos y expectativas que otras personas también reconocen en su vida diaria.`,
-    `La salida fue ${objective.toLowerCase()}. ${person} no obtuvo una respuesta perfecta, pero pudo explicar sus razones, señalar una limitación y proponer un paso siguiente. Para narrar y matizar ese proceso se emplean ${grammar}.`
+    `La salida fue ${objective.toLowerCase()}. ${person} no obtuvo una respuesta perfecta, pero pudo explicar sus razones, señalar una limitación y proponer un paso siguiente. Para narrar y matizar ese proceso se emplea el siguiente recurso gramatical: ${grammar}.`
   ];
   if (['B2', 'C1', 'C2'].includes(level)) {
     paragraphs.push('También es necesario evaluar la evidencia. Un testimonio puede revelar una experiencia ignorada, pero no representa automáticamente a toda una generación; una cifra puede describir una tendencia, pero depende de la muestra y de la forma de medir. La lectura combina voces y datos sin tratarlos como pruebas intercambiables.');
@@ -846,6 +860,95 @@ function grammarModel(grammar, words, scenario) {
     return `La propuesta incluye «${words[0]}»; este elemento cambia la decisión final.`;
   }
   return `Aunque «${words[0]}» parece una decisión individual, conviene considerar «${words[1]}» y «${words[2]}».`;
+}
+
+function grammarModelVariants(grammar, words, scenario) {
+  const lower = grammar.toLowerCase();
+  const [first, second, third] = words;
+  if (/(subjuntivo|recomendación|valoración|opiniones negadas)/.test(lower)) return [
+    `Es importante que la comunidad considere «${first}» antes de decidir.`,
+    `No creo que «${second}» deba analizarse sin contexto.`,
+    `La especialista recomienda que se revise «${third}» con nueva evidencia.`,
+    `Aunque la propuesta sea valiosa, conviene que el equipo evalúe sus límites.`
+  ];
+  if (/(condicional|hipótesis|contrafactual|irreal)/.test(lower)) return [
+    `Si existieran más apoyos, muchas personas podrían afrontar «${first}» de otra manera.`,
+    `Si el equipo hubiera revisado «${second}», habría evitado una conclusión precipitada.`,
+    `La propuesta sería más sólida si incluyera «${third}».`,
+    `De mantenerse estas condiciones, el resultado podría cambiar.`
+  ];
+  if (/(pretérito|pasado|imperfecto|indefinido|perfecto)/.test(lower)) return [
+    `Cuando surgió «${first}», el grupo revisó lo ocurrido.`,
+    `Mientras analizaban «${second}», apareció una evidencia nueva.`,
+    `El equipo ya había examinado «${third}» antes de decidir.`,
+    `Esta semana hemos comparado los datos con los que reunimos el año pasado.`
+  ];
+  if (/(futuro|prospectiva|probabilidad)/.test(lower)) return [
+    `La propuesta permitirá revisar «${first}» y anticipar sus consecuencias.`,
+    `Para el próximo informe, el equipo habrá evaluado «${second}».`,
+    `Probablemente «${third}» influirá en la decisión final.`,
+    `Dentro de un año se estarán comparando los primeros resultados.`
+  ];
+  if (/(pasiva|impersonal|se impersonal)/.test(lower)) return [
+    `En el artículo se analizan «${first}» y «${second}» desde perspectivas distintas.`,
+    `La propuesta fue revisada por un equipo independiente.`,
+    `Se necesitan datos comparables antes de generalizar «${third}».`,
+    `Los resultados se publicaron junto con sus limitaciones metodológicas.`
+  ];
+  if (/(estilo indirecto|discurso referido|transmisión|polifónico)/.test(lower)) return [
+    `Una estudiante explicó que «${first}» no podía entenderse sin contexto.`,
+    `La investigadora afirmó que habían revisado «${second}» el día anterior.`,
+    `El informe advierte que «${third}» podría interpretarse de varias maneras.`,
+    `Según la comunidad, la propuesta no responde todavía a todas sus necesidades.`
+  ];
+  if (/(pronombre|complemento|referencia|elipsis|cohesión)/.test(lower)) return [
+    `La propuesta incluye «${first}»; este elemento cambia la decisión final.`,
+    `El equipo revisó las recomendaciones y luego las incorporó al informe.`,
+    `Algunas personas aceptaron «${second}»; otras, no.`,
+    `La primera medida aborda «${third}» y la segunda lo desarrolla con mayor detalle.`
+  ];
+  if (/(imperativo|cortesía|atenuación|pragmática)/.test(lower)) return [
+    `Revise «${first}» antes de confirmar la decisión, por favor.`,
+    `¿Podría aclarar cómo se relaciona «${second}» con la propuesta?`,
+    `Quizá convendría matizar la afirmación sobre «${third}».`,
+    `Si no le importa, examinemos primero la evidencia disponible.`
+  ];
+  if (/(relativo|relativas)/.test(lower)) return [
+    `La medida que aborda «${first}» necesita una evaluación independiente.`,
+    `El informe, cuyas fuentes son públicas, analiza «${second}».`,
+    `La comunidad con la que se consultó propuso revisar «${third}».`,
+    `El momento en que se recogieron los datos también afecta la conclusión.`
+  ];
+  if (/(conces|aunque|contraste|pese a)/.test(lower)) return [
+    `Aunque «${first}» aporta beneficios, sus efectos no se distribuyen por igual.`,
+    `Pese a la evidencia sobre «${second}», la conclusión debe seguir siendo provisional.`,
+    `Aun cuando «${third}» mejore, persistirán algunas limitaciones.`,
+    `La propuesta es viable; sin embargo, requiere controles independientes.`
+  ];
+  if (/(nominalización|sustantivación|densidad)/.test(lower)) return [
+    `La evaluación de «${first}» permitió identificar sus efectos.`,
+    `El informe describe la ampliación de «${second}» sin ocultar quién la autorizó.`,
+    `La revisión de «${third}» fue realizada por especialistas independientes.`,
+    `Al desempaquetar la nominalización, recuperamos la agencia: el comité modificó la norma.`
+  ];
+  if (/(evidencialidad|modal|cautela|compromiso)/.test(lower)) return [
+    `Los datos parecen indicar que «${first}» influye en el resultado.`,
+    `Según el informe, «${second}» podría haber aumentado durante el periodo estudiado.`,
+    `No puede descartarse que «${third}» explique parte de la diferencia.`,
+    `La evidencia disponible respalda una hipótesis plausible, no una certeza definitiva.`
+  ];
+  if (/(conector|reformulación|progresión|argumental|puntuación)/.test(lower)) return [
+    `«${first}» aporta un beneficio; sin embargo, también plantea un riesgo.`,
+    `La evidencia es limitada; por consiguiente, la conclusión debe matizarse.`,
+    `Dicho de otro modo, «${second}» modifica el alcance de la propuesta.`,
+    `El primer argumento presenta «${third}»; el segundo explica sus consecuencias.`
+  ];
+  return [
+    grammarModel(grammar, words, scenario),
+    `La evidencia permite interpretar «${first}» antes de formular una conclusión.`,
+    `Conviene distinguir «${second}» de «${third}» para evitar una ambigüedad.`,
+    `La conclusión es provisional porque todavía faltan datos comparables.`
+  ];
 }
 
 const ADVANCED_LISTENING_FORMATS = {
@@ -1035,6 +1138,40 @@ function buildAlignedListening(level, spec, readingContent, index = 0) {
 
 function buildAlignedGrammarExercises(spec) {
   const [, , scenario, , grammar, words] = spec;
+  const contextualExamples = grammarModelVariants(grammar, words, scenario);
+  const applications = contextualExamples.map((correct, index) => {
+    const answer = index % 4;
+    const options = [
+      `${words[0]} ${words[1]} porque sin revisar.`,
+      'La evidencia siendo concluir definitivamente todo.',
+      'Aunque el tema explicar, entonces el resultado.'
+    ];
+    options.splice(answer, 0, correct);
+    return q(
+      `Aplicación ${index + 1}: ¿qué oración emplea correctamente ${grammar}?`,
+      options,
+      answer,
+      `La oración aplica ${grammar} con forma, significado y registro adecuados.`
+    );
+  });
+  const analyses = contextualExamples.map((example, index) => {
+    const answer = (index + 1) % 4;
+    const options = [
+      'Elimina la relación entre las ideas.',
+      'Convierte cualquier posibilidad en una certeza.',
+      'Repite vocabulario sin construir una oración completa.'
+    ];
+    options.splice(answer, 0, `Usa ${grammar} para expresar una relación precisa: «${example}»`);
+    return q(
+      `Análisis ${index + 1}: ¿por qué funciona este ejemplo dentro de la unidad?`,
+      options,
+      answer,
+      'El ejemplo integra el recurso gramatical con el tema y conserva el matiz.'
+    );
+  });
+  return applications.flatMap((exercise, index) => [exercise, analyses[index]]);
+
+  /* Legacy generic four-item bank retained below for source history. */
   const model = grammarModel(grammar, words, scenario);
   return [
     q('¿Cuál es el foco gramatical de esta unidad?', [grammar, 'El alfabeto aislado', 'Los números cardinales', 'La ortografía de nombres propios'], 0, `La unidad trabaja ${grammar}.`),
@@ -1052,7 +1189,7 @@ function buildReadingExercises(level, spec, readingContent) {
   if (blueprintReading) return blueprintReading.exercises;
   if (level === 'A2') {
     return [
-      q('¿Qué situación necesita resolver la persona que narra?', [scenario, 'Preparar un examen sin instrucciones', 'Organizar una competición deportiva', 'Cambiar de escuela'], 0, 'El primer párrafo presenta la situación cotidiana de la unidad.'),
+      q(`¿Qué situación necesita resolver la persona en «${readingContent.title}»?`, [scenario, 'Preparar un examen sin instrucciones', 'Organizar una competición deportiva', 'Cambiar de escuela'], 0, 'El primer párrafo presenta la situación cotidiana de la unidad.'),
       q('¿Qué hace antes de decidir?', ['Elige la primera opción', 'Observa, anota y prepara preguntas', 'Pide a otra persona que decida', 'Abandona la actividad'], 1, 'La persona organiza la información antes de actuar.'),
       q('¿Por qué compara otra posibilidad?', ['La primera opción no funciona como esperaba', 'Quiere gastar más dinero', 'Olvida el objetivo', 'No comprende ninguna palabra'], 0, 'El segundo párrafo explica por qué cambia de estrategia.'),
       q('¿Qué consigue al final?', ['Una solución práctica y más autonomía', 'Una respuesta memorizada', 'Evitar toda conversación', 'Resolver un problema diferente'], 0, 'La conclusión relaciona la solución con mayor seguridad y autonomía.'),
@@ -1061,8 +1198,8 @@ function buildReadingExercises(level, spec, readingContent) {
   }
 
   const exercises = [
-    q('¿Qué tipo de texto estás leyendo?', [readingContent.genre, 'manual de instrucciones', 'anuncio comercial', 'diálogo teatral'], 0, `La lectura se presenta como ${readingContent.genre}.`),
-    q('¿Qué enfoque adopta el texto?', ['Relaciona decisiones personales, condiciones sociales y contexto', 'Culpa únicamente a una persona', 'Presenta una solución sin examinarla', 'Enumera palabras sin conectarlas'], 0, 'La lectura estudia el problema desde más de una escala.'),
+    q(`¿Qué tipo de texto es «${readingContent.title}»?`, [readingContent.genre, 'manual de instrucciones', 'anuncio comercial', 'diálogo teatral'], 0, `La lectura se presenta como ${readingContent.genre}.`),
+    q(`¿Qué enfoque adopta «${readingContent.title}»?`, ['Relaciona decisiones personales, condiciones sociales y contexto', 'Culpa únicamente a una persona', 'Presenta una solución sin examinarla', 'Enumera palabras sin conectarlas'], 0, 'La lectura estudia el problema desde más de una escala.'),
     q('¿Para qué incorpora un contexto histórico o social?', ['Para evitar explicaciones aisladas y distinguir causas', 'Para sustituir el tema principal', 'Para añadir fechas sin función', 'Para demostrar que nada puede cambiar'], 0, 'El contexto permite comprender cómo se formaron las condiciones actuales.'),
     q('¿Cómo relaciona responsabilidad personal y factores estructurales?', ['Considera ambos sin tratarlos como opuestos', 'Elimina toda responsabilidad personal', 'Niega la influencia institucional', 'Afirma que son exactamente lo mismo'], 0, 'El texto combina acciones concretas con cambios en las condiciones.'),
     q('¿Qué propósito tiene la conclusión?', [objective, `Definir de memoria el tema «${unitTitle}»`, 'Cerrar el debate sin razones', 'Repetir literalmente el primer párrafo'], 0, 'La conclusión recupera el objetivo comunicativo de la unidad.')
@@ -1087,7 +1224,9 @@ function buildUnit(level, spec, index) {
   const readingContent = buildProgressiveReading(level, spec, index);
   const alignedListening = authoredListening ? null : buildAlignedListening(level, spec, readingContent, index);
   const text = readingContent.text;
-  const readingExercises = buildReadingExercises(level, spec, readingContent);
+  const readingExercises = balanceMcqAnswers(
+    buildReadingExercises(level, spec, readingContent)
+  );
   const listeningExercises = authoredListening?.exercises || alignedListening.exercises;
   // Keep the correct response moving across A-D. This preserves each
   // evidence-based answer while avoiding a predictable answer-position
@@ -1152,7 +1291,7 @@ function buildUnit(level, spec, index) {
         reading: {
           title: readingContent.title,
           text,
-          questions: readingExercises.slice(0, 3).map((item) => item.prompt),
+          questions: readingExercises.slice(0, 5).map((item) => item.prompt),
           references: readingContent.references
         },
         exercises: readingExercises

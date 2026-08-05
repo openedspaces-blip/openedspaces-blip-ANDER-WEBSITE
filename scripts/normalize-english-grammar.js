@@ -7,7 +7,10 @@ const path = require('path');
 
 const seedPath = path.join(__dirname, '..', 'lib', 'seed-lessons.json');
 const levels = new Set(['A1', 'A2', 'B1', 'B2', 'C1', 'C2']);
-const questionCountByLevel = { A1: 10, A2: 10, B1: 15, B2: 15, C1: 20, C2: 20 };
+// Beginner tests keep ten short items. From B1 onwards, eight distinct,
+// authored applications are more useful than padding a bank by cloning and
+// rotating questions the learner has already answered.
+const questionCountByLevel = { A1: 10, A2: 10, B1: 8, B2: 8, C1: 8, C2: 8 };
 
 function labelledSection(note, label) {
   const paragraph = String(note || '')
@@ -97,19 +100,10 @@ function resizeQuestionBank(test, targetCount, slug) {
   if (!test?.questions?.length) return test;
   const source = test.questions;
   const questions = [];
-  for (let index = 0; index < targetCount; index += 1) {
+  for (let index = 0; index < Math.min(targetCount, source.length); index += 1) {
     const original = source[index % source.length];
-    const cycle = Math.floor(index / source.length);
     const clone = JSON.parse(JSON.stringify(original));
     clone.id = `${slug}-q${index + 1}`;
-    if (cycle > 0) {
-      clone.prompt = `Application ${index + 1}: ${clone.prompt}`;
-      if (clone.type === 'mcq' && clone.options?.length === 4) {
-        const rotation = cycle % 4;
-        clone.options = [...clone.options.slice(rotation), ...clone.options.slice(0, rotation)];
-      }
-      clone.explanation = `${clone.explanation || ''} This application checks the same grammar in a new option order.`.trim();
-    }
     questions.push(clone);
   }
   return { ...test, questions };

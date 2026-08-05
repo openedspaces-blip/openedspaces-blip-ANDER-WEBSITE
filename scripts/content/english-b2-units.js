@@ -42,12 +42,70 @@ function buildReading(t) {
       `The article concludes that reducing impunity requires more than arresting one famous official. Open public procurement, protection for whistleblowers, independent courts, investigative journalism and civic oversight must work together. Daniel’s main lesson is methodological: public trust grows when institutions make decisions visible and evidence can be examined. Regional comparison is useful only when it respects national differences and avoids turning a complex institutional problem into a stereotype about Latin America and the Caribbean.`
     ].join('\n\n');
   }
+  const details = {
+    'social-media-public-opinion': [
+      'The original post claims that the council has secretly approved a major development beside the park. By lunchtime it has been shared hundreds of times, although the linked document is an old consultation paper rather than a final decision.',
+      'Sarah traces the story back to a cropped screenshot. A local journalist shows her the complete document, while residents explain that the rumour spread because it confirmed fears they already had.',
+      'When the council publishes a correction, it attracts much less attention. Sarah therefore argues that accurate information needs clear explanations and timely distribution, not merely a quiet factual update.'
+    ],
+    'plastic-pollution-cities': [
+      'After a weekend festival, volunteers remove bags of cups, wrappers and bottles from the riverbank. Daniel notices that the same branded packaging appears again and again, even though visitors used the bins provided.',
+      'A waste officer explains that lightweight plastic can escape during collection and that contaminated material is often impossible to recycle. A food-stall owner adds that affordable alternatives are not always available from suppliers.',
+      'The clean-up restores the riverbank for a day, but it does not change what will be sold at the next event. Daniel concludes that organisers, producers and local authorities must redesign the system before rubbish reaches the water.'
+    ],
+    'climate-change-daily-decisions': [
+      'Sarah begins by comparing the emissions from her commute, heating and food. The exercise helps her identify practical changes, but it also reveals that some options depend on rents, transport networks and energy policy.',
+      'Daniel can take a bus to work, whereas a colleague on the night shift has no service available. Their different circumstances show why the same advice can be easy for one household and unrealistic for another.',
+      'They decide to reduce avoidable consumption while supporting better public transport and cleaner energy. Personal action matters most, Sarah argues, when it also creates demand for structural change.'
+    ],
+    'fourth-of-july': [
+      'At a neighbourhood barbecue, one guest describes the holiday as a celebration of political independence. Another points out that the declaration\'s language of equality did not include everyone living in the new nation.',
+      'The discussion moves from fireworks to civil rights, Indigenous history and the different meanings of patriotism. Sarah notices that criticism is not necessarily rejection; for several guests, it expresses a demand that national ideals be applied more consistently.',
+      'The group keeps the celebration but adds a local history display and a collection for a voting-rights organisation. Pride and scrutiny remain in tension, yet neither has to silence the other.'
+    ],
+    'migration-cultural-identity': [
+      'Daniel explains that a simple answer cannot contain his family history, accent and sense of belonging. The neighbour apologises for the word “really” and asks what a better question might sound like.',
+      'At a community event, migrants describe maintaining family traditions while forming new friendships and habits. Their experiences differ: some value a strong connection to one homeland, while others feel at home in several places.',
+      'Daniel comes to see identity as layered rather than divided. Integration can involve participation in a shared society without requiring people to erase language, memory or heritage.'
+    ],
+    'housing-inequality': [
+      'Priya receives a rent increase shortly after salaries at the company remain almost unchanged. Flats farther from the centre are cheaper, but the additional travel time and cost would cancel much of the saving.',
+      'Sarah compares local wage data, vacancy rates and planning applications. She finds that new construction is slow, while some recently completed flats are marketed beyond the budgets of ordinary workers.',
+      'At a tenants\' meeting, residents support more building but also request longer leases and protection from sudden displacement. Supply matters, they agree, but so do the type, location and price of the homes created.'
+    ],
+    'ai-and-employment': [
+      'The hotel\'s new system predicts staffing needs and assigns shifts automatically. It reduces the manager\'s paperwork, but Daniel receives several late shifts followed by early starts because the software treats each day separately.',
+      'Employees cannot see why particular schedules were chosen or correct inaccurate availability data. Management initially calls the problem a technical exception, until staff collect examples showing a consistent pattern.',
+      'The hotel keeps the tool but introduces human review, written explanations and a way to challenge decisions. Automation remains useful only when workers can understand and contest its effects.'
+    ],
+    'fast-fashion-hidden-costs': [
+      'Sarah buys a very cheap shirt, then searches the label and discovers a supply chain crossing several countries. The brand publishes environmental promises but gives little information about the factory or wages.',
+      'A labour-rights report explains how short deadlines and changing orders transfer risk to suppliers and garment workers. The retail price looks efficient partly because pollution, insecure work and discarded clothing are paid for elsewhere.',
+      'Sarah cannot verify every product, but she can buy fewer items, repair what she owns and ask brands for traceable information. Consumer choices alone are insufficient, so she also supports stronger disclosure and labour standards.'
+    ],
+    'education-social-mobility': [
+      'Daniel\'s student has strong grades but has left the financial section of a scholarship form blank. No one in the family has applied to university before, and the instructions assume knowledge that the student has never been taught.',
+      'Daniel helps gather documents and arrange a reference, but he avoids writing the application for the student. The aim is to remove an information barrier while preserving the applicant\'s own voice and responsibility.',
+      'The completed form demonstrates ability that was present from the beginning. The experience shows that merit cannot be judged fairly when some candidates lack time, guidance or money to make their achievements visible.'
+    ],
+    'free-speech-misinformation': [
+      'A forum post falsely claims that a local vaccination clinic has injured several children. The message names a nurse and encourages readers to confront staff, so Sarah temporarily hides it while checking the evidence.',
+      'Some members accuse her of censorship; others demand a permanent ban. Sarah publishes the rule she applied, links to verified health information and allows the author to appeal after removing the personal accusation.',
+      'The response distinguishes unpopular opinion from a demonstrably false claim linked to a risk of harm. Clear standards and proportionate action make moderation more accountable than either automatic removal or complete inaction.'
+    ],
+    'community-action': [
+      'Residents have complained for months about dangerous crossings and broken streetlights, but their messages describe separate incidents. Sarah helps them map each location and record when the problems are most serious.',
+      'The evidence turns frustration into a proposal with priorities, costs and named responsibilities. Volunteers can survey the area and consult neighbours, whereas only the council can change signals or repair public lighting.',
+      'Officials agree to a trial after residents present the plan at a public meeting. The result comes from combining local knowledge with institutional authority, not from pretending that unpaid volunteers can provide public services alone.'
+    ]
+  }[slug];
   return [
-    `${scene} What begins as a personal situation soon becomes a wider public question. Sarah and Daniel collect examples, speak to people affected by the issue and compare what they hear with information from reliable reports. They notice that the language used to describe the problem often determines which solutions appear reasonable.`,
-    `One side argues that ${claim}. Supporters point to practical examples and insist that waiting for a perfect solution would allow the problem to grow. Their position is persuasive because it identifies real consequences, although some of the evidence describes correlation rather than direct cause.`,
-    `A different group replies that ${counter}. This objection does not necessarily reject the first concern; instead, it questions who carries the cost, whose experience is missing and whether the proposed response addresses a symptom rather than the underlying system.`,
-    `Sarah and Daniel resist choosing a simple winner. They check the source of each claim, distinguish measurable facts from predictions and ask what evidence could change their minds. The disagreement becomes more useful once everyone states not only what they believe but also the assumptions behind that belief.`,
-    `By the end, they support a balanced direction: ${conclusion}. The experience teaches them that informed citizenship requires more than having an opinion. It involves listening across disagreement, evaluating evidence and accepting that a responsible conclusion may remain open to revision.`
+    scene,
+    details?.[0] || `The issue raises a concrete disagreement about ${title.toLowerCase()}.`,
+    details?.[1] || `Sarah and Daniel compare testimony with reliable evidence before evaluating the competing claims.`,
+    `The debate has two credible concerns. One side argues that ${claim}. The other replies that ${counter}. Instead of treating these positions as slogans, Sarah and Daniel ask what evidence supports each one, who carries the cost and which important experiences may be missing.`,
+    details?.[2] || `They ultimately support this direction: ${conclusion}.`,
+    `Their conclusion is not a convenient compromise but a reasoned proposal: ${conclusion}. It remains open to revision if stronger evidence emerges.`
   ].join('\n\n');
 }
 
@@ -69,7 +127,13 @@ function buildUnit(t,index){
   ];
   const grammarExercises=buildB2GrammarExercises({ title, readingTitle, grammar, claim, counter, conclusion });
   return {slug,title,titleEs:title,description:scene,order:index+1,accessTier:index<2?'free':'premium',unitOverview:{objective:`Evaluate arguments about ${title.toLowerCase()}.`,outcomes:['identify a writer’s position','evaluate evidence and counterarguments','use topic vocabulary','apply advanced grammar'],grammar:[grammar],vocabulary:words.slice(0,4),scenario:scene},activities:{
-    reading:activity('reading',{title:readingTitle,description:scene,reading:{title:readingTitle,text,questions:readingExercises.slice(0,3).map(x=>x.prompt)},exercises:readingExercises}),
+    reading:activity('reading',{title:readingTitle,description:scene,reading:{title:readingTitle,text,questions:[
+      `What specific event introduces the debate in “${readingTitle}”?`,
+      `What evidence supports the claim that ${claim}?`,
+      `How does the text respond to the concern that ${counter}?`,
+      `Why do Sarah and Daniel support the following direction: ${conclusion}?`,
+      `What new evidence could reasonably change the conclusion in “${readingTitle}”?`
+    ]},exercises:readingExercises}),
     vocabulary:activity('vocabulary',{title:`Vocabulary: ${title}`,description:`Key language for ${title.toLowerCase()}.`,vocabulary,exercises:vocabulary.map((v,i)=>q(`Which term matches this definition: ${v.definition}`,[words[(i+1)%8],v.word,words[(i+2)%8],words[(i+3)%8]],1))}),
     grammar:activity('grammar',{
       title:grammar,

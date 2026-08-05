@@ -348,14 +348,14 @@ const rawTopics = [
 
 function articleParts(topic) {
   const paragraphs = [
-    `${topic.readingTitle} pose une question centrale pour la science contemporaine de l’apprentissage. ${topic.problem} Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et la recommandation pédagogique que l’on souhaite en tirer. Ces trois niveaux se soutiennent, mais ils ne sont pas interchangeables : une observation cérébrale ne prescrit pas directement une méthode, et une activité appréciée ne prouve pas à elle seule un apprentissage durable.`,
+    `La question « ${topic.readingTitle} » occupe une place centrale dans la science contemporaine de l’apprentissage. ${topic.problem} Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et la recommandation pédagogique que l’on souhaite en tirer. Ces trois niveaux se soutiennent, mais ils ne sont pas interchangeables : une observation cérébrale ne prescrit pas directement une méthode, et une activité appréciée ne prouve pas à elle seule un apprentissage durable.`,
     topic.evidence,
     topic.mechanism,
     topic.method,
     topic.debate,
     topic.limits,
     topic.practice,
-    `${topic.conclusion} En définitive, ${topic.response.toLowerCase()} Cette conclusion reste révisable : elle vaut dans les limites des populations, des tâches et des mesures étudiées. Pour le lecteur C2, l’enjeu consiste précisément à conserver ensemble la force d’un résultat et les conditions qui en bornent la portée, sans réduire l’incertitude à l’ignorance ni transformer une moyenne en destin individuel.`
+    `${topic.conclusion} En définitive, ${topic.response.charAt(0).toLowerCase() + topic.response.slice(1)} Cette conclusion reste révisable : elle vaut dans les limites des populations, des tâches et des mesures étudiées. Pour le lecteur C2, l’enjeu consiste précisément à conserver ensemble la force d’un résultat et les conditions qui en bornent la portée, sans réduire l’incertitude à l’ignorance ni transformer une moyenne en destin individuel.`
   ];
   // Six reading cards keep the long C2 article manageable without cutting
   // sentences or duplicating content: 2 + 1 + 1 + 2 + 1 + 1 paragraphs.
