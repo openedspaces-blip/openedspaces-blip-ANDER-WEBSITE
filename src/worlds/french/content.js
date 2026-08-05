@@ -271,7 +271,7 @@
     ],
     "reading": {
       "title": "Français C1 Reading",
-      "text": "Avant de quitter Tours, Camila accepte d’animer un atelier destiné aux étudiants internationaux. On lui demande des conseils pratiques, mais elle hésite devant le titre proposé : « Réussir son intégration ». Le mot réussite suggère un parcours mesurable et presque uniforme, alors que son expérience a été faite d’avancées, de retours en arrière et de liens qui ne se laissent pas réduire à une méthode.\n\nElle construit donc l’atelier autour de situations plutôt que de règles. Comment demander de l’aide lorsqu’on ne maîtrise pas les codes ? Que faire quand une correction linguistique devient humiliante ? Comment préserver les liens avec son pays sans vivre uniquement à distance ? À chaque fois, elle présente plusieurs réponses possibles et précise les conditions dans lesquelles elles lui ont été utiles.\n\nUn étudiant lui demande finalement quelle est la principale leçon de son parcours. Camila pourrait répondre l’autonomie, la persévérance ou l’ouverture. Elle choisit un terme moins spectaculaire : l’attention. Attention aux mots qui cadrent un débat, aux personnes absentes d’une décision, aux limites que le corps signale, aux histoires que les documents ne racontent qu’à moitié.\n\nCette réponse rassemble des expériences qui lui semblaient jusque-là séparées. Elle ne transforme pas son parcours en modèle ; elle en dégage une manière de regarder. Au terme de l’atelier, les étudiants repartent sans liste définitive, mais avec des questions qu’ils pourront adapter à leur propre situation. Camila comprend alors que transmettre ne consiste pas à reproduire son chemin chez les autres, mais à leur donner des outils pour reconnaître le leur.\n\nPour approfondir la question, le groupe reprend le dossier en distinguant trois niveaux souvent confondus : les faits observables, l’interprétation qu’on en propose et les valeurs au nom desquelles on juge la situation. Cette méthode oblige chacun à préciser ses termes. Un parcours uniforme ne peut plus servir de formule vague ; un retour en arrière doit être relié à un exemple, et un code implicite à une conséquence vérifiable. Camila remarque que le désaccord devient plus fécond dès que les participants cessent de défendre une conclusion globale et examinent séparément les prémisses qui la soutiennent. Ils ne parviennent pas toujours au même jugement, mais ils comprennent mieux le point exact où leurs raisonnements se séparent.\n\nCette reprise modifie aussi la position de Camila. Elle était entrée dans la discussion avec une intuition forte, qu’elle prenait presque pour une évidence. En confrontant cette intuition aux objections, elle ne l’abandonne pas nécessairement ; elle apprend à en limiter la portée et à reconnaître ce qu’elle ne permet pas d’affirmer. Dégager une idée devient ainsi moins un mot à mémoriser qu’un outil pour penser. À la fin, Camila rédige une synthèse qui conserve les tensions au lieu de les résoudre artificiellement. C’est précisément cette capacité à articuler des données, des voix et des incertitudes qui caractérise désormais son travail de niveau C1.",
+      "text": "Avant de quitter Tours, Camila accepte d’animer un atelier destiné aux étudiants internationaux. On lui demande des conseils pratiques, mais elle hésite devant le titre proposé : « Réussir son intégration ». Le mot réussite suggère un parcours mesurable et presque uniforme, alors que son expérience a été faite d’avancées, de retours en arrière et de liens qui ne se laissent pas réduire à une méthode.\n\nElle construit donc l’atelier autour de situations plutôt que de règles. Comment demander de l’aide lorsqu’on ne maîtrise pas les codes ? Que faire quand une correction linguistique devient humiliante ? Comment préserver les liens avec son pays sans vivre uniquement à distance ? À chaque fois, elle présente plusieurs réponses possibles et précise les conditions dans lesquelles elles lui ont été utiles.\n\nUn étudiant lui demande finalement quelle est la principale leçon de son parcours. Camila pourrait répondre l’autonomie, la persévérance ou l’ouverture. Elle choisit un terme moins spectaculaire : l’attention. Attention aux mots qui cadrent un débat, aux personnes absentes d’une décision, aux limites que le corps signale, aux histoires que les documents ne racontent qu’à moitié.\n\nCette réponse rassemble des expériences qui lui semblaient jusque-là séparées. Elle ne transforme pas son parcours en modèle ; elle en dégage une manière de regarder. Au terme de l’atelier, les étudiants repartent sans liste définitive, mais avec des questions qu’ils pourront adapter à leur propre situation. Camila comprend alors que transmettre ne consiste pas à reproduire son chemin chez les autres, mais à leur donner des outils pour reconnaître le leur.\n\nPour approfondir la question, le groupe reprend le dossier en distinguant trois niveaux souvent confondus : les faits observables, l’interprétation qu’on en propose et les valeurs au nom desquelles on juge la situation. Cette méthode oblige chacun à préciser ses termes. Un parcours uniforme ne peut plus servir de formule vague ; un retour en arrière doit être relié à un exemple, et un code implicite à une conséquence vérifiable. Camila remarque que le désaccord devient plus fécond dès que les participants cessent de défendre une conclusion globale et examinent séparément les prémisses qui la soutiennent. Ils ne parviennent pas toujours au même jugement, mais ils comprennent mieux le point exact où leurs raisonnements se séparent.\n\nCette reprise modifie aussi la position de Camila. Elle était entrée dans la discussion avec une intuition forte, qu’elle prenait presque pour une évidence. En confrontant cette intuition aux objections, elle ne l’abandonne pas nécessairement ; elle apprend à en limiter la portée et à reconnaître ce qu’elle ne permet pas d’affirmer. Dégager une idée devient ainsi moins un mot à mémoriser qu’un outil pour penser. À la fin, Camila rédige une synthèse qui conserve les tensions au lieu de les résoudre artificiellement. Cette capacité à articuler des données, des voix et des incertitudes devient peu à peu une méthode de travail.",
       "questions": [
         "Pourquoi Camila critique-t-elle le titre initial ?",
         "Comment organise-t-elle l’atelier ?",
@@ -4402,12 +4402,12 @@
             "difficulty": "application",
             "options": [
               {
-                "id": "b",
-                "text": "C’est"
-              },
-              {
                 "id": "a",
                 "text": "Ça"
+              },
+              {
+                "id": "b",
+                "text": "C’est"
               },
               {
                 "id": "c",
@@ -4454,12 +4454,12 @@
                 "text": "a"
               },
               {
-                "id": "c",
-                "text": "avait"
-              },
-              {
                 "id": "b",
                 "text": "ait"
+              },
+              {
+                "id": "c",
+                "text": "avait"
               },
               {
                 "id": "d",
@@ -4478,16 +4478,16 @@
                 "text": "C’est... que"
               },
               {
+                "id": "b",
+                "text": "C’est... qui"
+              },
+              {
                 "id": "c",
                 "text": "C’est... dont"
               },
               {
                 "id": "d",
                 "text": "C’est... où"
-              },
-              {
-                "id": "b",
-                "text": "C’est... qui"
               }
             ]
           },
@@ -4498,12 +4498,12 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "b",
-                "text": "C’est cette liberté qui l’impressionne le plus."
-              },
-              {
                 "id": "a",
                 "text": "Ça cette liberté qui l’impressionne le plus."
+              },
+              {
+                "id": "b",
+                "text": "C’est cette liberté qui l’impressionne le plus."
               },
               {
                 "id": "c",
@@ -4550,12 +4550,12 @@
                 "text": "Il semble que cette expérience lui a énormément appris."
               },
               {
-                "id": "c",
-                "text": "Il semble que cette expérience lui avait énormément appris."
-              },
-              {
                 "id": "b",
                 "text": "Il semble que cette expérience lui ait énormément appris."
+              },
+              {
+                "id": "c",
+                "text": "Il semble que cette expérience lui avait énormément appris."
               },
               {
                 "id": "d",
@@ -4574,16 +4574,16 @@
                 "text": "C’est... que"
               },
               {
+                "id": "b",
+                "text": "C’est... qui"
+              },
+              {
                 "id": "c",
                 "text": "C’est... dont"
               },
               {
                 "id": "d",
                 "text": "C’est... où"
-              },
-              {
-                "id": "b",
-                "text": "C’est... qui"
               }
             ]
           }
@@ -4592,18 +4592,18 @@
       "grammarProfile": {
         "name": "La mise en relief (c’est... qui/que) et le subjonctif d’opinion nuancée",
         "definition": "La mise en relief avec « c’est... qui » (pour un sujet) ou « c’est... que » (pour un complément) permet d’insister sur un élément précis de la phrase à l’écrit soutenu : « C’est cette différence d’échelle qui la déstabilise. » « C’est à elle qu’il revient d’organiser son parcours. » Après certains verbes d’opinion nuancée (il semble que, il se peut que, il n’est pas certain que), on utilise le subjonctif pour marquer un degré d’incertitude, même en registre soutenu.",
-        "structure": "Forme à observer : La mise en relief (c’est... qui/que) et le subjonctif d’opinion nuancée. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
-        "function": "Mettre en valeur un élément de la phrase et exprimer une opinion nuancée avec le subjonctif.",
+        "explanation": "La mise en relief avec « c’est... qui » (pour un sujet) ou « c’est... que » (pour un complément) permet d’insister sur un élément précis de la phrase à l’écrit soutenu : « C’est cette différence d’échelle qui la déstabilise. » « C’est à elle qu’il revient d’organiser son parcours. » Après certains verbes d’opinion nuancée (il semble que, il se peut que, il n’est pas certain que), on utilise le subjonctif pour marquer un degré d’incertitude, même en registre soutenu.",
+        "structure": "Estructura central: La mise en relief (c’est... qui/que) et le subjonctif d’opinion nuancée.",
+        "purpose": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
+        "function": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
+        "cefrLevel": "C1",
+        "unitContext": "Mettre en valeur un élément de la phrase et exprimer une opinion nuancée avec le subjonctif.",
         "examples": [
           "C’est cette liberté qui l’impressionne le plus.",
           "C’est à elle que il revient d’organiser son parcours.",
           "Il semble que cette expérience lui ait énormément appris.",
           "C’est... qui"
-        ],
-        "explanation": "La mise en relief avec « c’est... qui » (pour un sujet) ou « c’est... que » (pour un complément) permet d’insister sur un élément précis de la phrase à l’écrit soutenu : « C’est cette différence d’échelle qui la déstabilise. » « C’est à elle qu’il revient d’organiser son parcours. » Après certains verbes d’opinion nuancée (il semble que, il se peut que, il n’est pas certain que), on utilise le subjonctif pour marquer un degré d’incertitude, même en registre soutenu.",
-        "purpose": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
-        "cefrLevel": "C1",
-        "unitContext": "Mettre en valeur un élément de la phrase et exprimer une opinion nuancée avec le subjonctif."
+        ]
       },
       "listeningComprehension": null
     },
@@ -4612,8 +4612,8 @@
         "type": "mcq",
         "prompt": "___ cette liberté qui l’impressionne le plus.",
         "options": [
-          "C’est",
           "Ça",
+          "C’est",
           "Il est",
           "Elle est"
         ],
@@ -4635,8 +4635,8 @@
         "prompt": "Il semble que cette expérience lui ___ énormément appris.",
         "options": [
           "a",
-          "avait",
           "ait",
+          "avait",
           "aura"
         ],
         "explanation": "La bonne réponse est « ait » : elle respecte la structure étudiée dans cette leçon."
@@ -4646,9 +4646,9 @@
         "prompt": "Quelle structure met en relief le sujet de la phrase ?",
         "options": [
           "C’est... que",
+          "C’est... qui",
           "C’est... dont",
-          "C’est... où",
-          "C’est... qui"
+          "C’est... où"
         ],
         "explanation": "La bonne réponse est « C’est... qui » : elle respecte la structure étudiée dans cette leçon."
       },
@@ -4656,8 +4656,8 @@
         "type": "mcq",
         "prompt": "Quelle version corrige entièrement la phrase « Ça cette liberté qui l’impressionne le plus. » ?",
         "options": [
-          "C’est cette liberté qui l’impressionne le plus.",
           "Ça cette liberté qui l’impressionne le plus.",
+          "C’est cette liberté qui l’impressionne le plus.",
           "Il est cette liberté qui l’impressionne le plus.",
           "Elle est cette liberté qui l’impressionne le plus."
         ],
@@ -4679,8 +4679,8 @@
         "prompt": "Quelle version corrige entièrement la phrase « Il semble que cette expérience lui a énormément appris. » ?",
         "options": [
           "Il semble que cette expérience lui a énormément appris.",
-          "Il semble que cette expérience lui avait énormément appris.",
           "Il semble que cette expérience lui ait énormément appris.",
+          "Il semble que cette expérience lui avait énormément appris.",
           "Il semble que cette expérience lui aura énormément appris."
         ],
         "explanation": "La phrase correcte est : « Il semble que cette expérience lui ait énormément appris. »"
@@ -4690,9 +4690,9 @@
         "prompt": "Quelle réponse corrige l’erreur « C’est... que » dans ce contexte : « Quelle structure met en relief le sujet de la phrase ? » ?",
         "options": [
           "C’est... que",
+          "C’est... qui",
           "C’est... dont",
-          "C’est... où",
-          "C’est... qui"
+          "C’est... où"
         ],
         "explanation": "La bonne réponse est « C’est... qui »."
       }
@@ -4787,12 +4787,12 @@
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
-                "id": "c",
-                "text": "Parce que la question complexe, alors le résultat forcément."
-              },
-              {
                 "id": "b",
                 "text": "Pour marquée qu’elle soit, la différence moyenne ne détermine pas le potentiel d’un apprenant."
+              },
+              {
+                "id": "c",
+                "text": "Parce que la question complexe, alors le résultat forcément."
               },
               {
                 "id": "d",
@@ -4815,12 +4815,12 @@
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
-                "id": "d",
-                "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
-              },
-              {
                 "id": "c",
                 "text": "Elle emploie la concession stratifiée et la contre-attente afin de accorder une part de validité à une objection sans abandonner une conclusion délimitée : « Pour marquée qu’elle soit, la différence moyenne ne détermine pas le potentiel d’un apprenant. »"
+              },
+              {
+                "id": "d",
+                "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
               }
             ]
           },
@@ -4831,16 +4831,16 @@
             "difficulty": "analysis",
             "options": [
               {
-                "id": "c",
-                "text": "Tout en reconnaissant un effet de l’âge, l’étude refuse d’en faire une échéance biologique absolue."
-              },
-              {
                 "id": "a",
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
                 "id": "b",
                 "text": "Parce que la question complexe, alors le résultat forcément."
+              },
+              {
+                "id": "c",
+                "text": "Tout en reconnaissant un effet de l’âge, l’étude refuse d’en faire une échéance biologique absolue."
               },
               {
                 "id": "d",
@@ -4859,16 +4859,16 @@
                 "text": "Elle remplace les preuves par une affirmation absolue."
               },
               {
-                "id": "d",
-                "text": "Elle emploie la concession stratifiée et la contre-attente afin de accorder une part de validité à une objection sans abandonner une conclusion délimitée : « Tout en reconnaissant un effet de l’âge, l’étude refuse d’en faire une échéance biologique absolue. »"
-              },
-              {
                 "id": "b",
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
                 "id": "c",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
+              },
+              {
+                "id": "d",
+                "text": "Elle emploie la concession stratifiée et la contre-attente afin de accorder une part de validité à une objection sans abandonner une conclusion délimitée : « Tout en reconnaissant un effet de l’âge, l’étude refuse d’en faire une échéance biologique absolue. »"
               }
             ]
           },
@@ -4887,12 +4887,12 @@
                 "text": "Parce que la question complexe, alors le résultat forcément."
               },
               {
-                "id": "d",
-                "text": "Les plus jeunes obtiennent certes un avantage moyen ; encore faut-il ne pas confondre tendance collective et destin individuel."
-              },
-              {
                 "id": "c",
                 "text": "La thèse est étant vraie par les mots qui ont utilisé."
+              },
+              {
+                "id": "d",
+                "text": "Les plus jeunes obtiennent certes un avantage moyen ; encore faut-il ne pas confondre tendance collective et destin individuel."
               }
             ]
           },
@@ -4902,6 +4902,10 @@
             "prompt": "Pourquoi l’exemple 4 convient-il à cette unité ?",
             "difficulty": "precision",
             "options": [
+              {
+                "id": "a",
+                "text": "Elle emploie la concession stratifiée et la contre-attente afin de accorder une part de validité à une objection sans abandonner une conclusion délimitée : « Les plus jeunes obtiennent certes un avantage moyen ; encore faut-il ne pas confondre tendance collective et destin individuel. »"
+              },
               {
                 "id": "b",
                 "text": "Elle remplace les preuves par une affirmation absolue."
@@ -4913,10 +4917,6 @@
               {
                 "id": "d",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
-              },
-              {
-                "id": "a",
-                "text": "Elle emploie la concession stratifiée et la contre-attente afin de accorder une part de validité à une objection sans abandonner une conclusion délimitée : « Les plus jeunes obtiennent certes un avantage moyen ; encore faut-il ne pas confondre tendance collective et destin individuel. »"
               }
             ]
           }
@@ -10347,12 +10347,12 @@
             "difficulty": "application",
             "options": [
               {
-                "id": "b",
-                "text": "n’était"
-              },
-              {
                 "id": "a",
                 "text": "n’est"
+              },
+              {
+                "id": "b",
+                "text": "n’était"
               },
               {
                 "id": "c",
@@ -10395,16 +10395,16 @@
             "difficulty": "analysis",
             "options": [
               {
+                "id": "a",
+                "text": "trouve"
+              },
+              {
                 "id": "b",
                 "text": "trouvera"
               },
               {
                 "id": "c",
                 "text": "a trouvé"
-              },
-              {
-                "id": "a",
-                "text": "trouve"
               },
               {
                 "id": "d",
@@ -10423,16 +10423,16 @@
                 "text": "Le passé composé"
               },
               {
+                "id": "b",
+                "text": "Le conditionnel présent"
+              },
+              {
                 "id": "c",
                 "text": "L’imparfait"
               },
               {
                 "id": "d",
                 "text": "Le subjonctif"
-              },
-              {
-                "id": "b",
-                "text": "Le conditionnel présent"
               }
             ]
           },
@@ -10443,12 +10443,12 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "b",
-                "text": "Le professeur avait répondu qu’il n’était pas exclu qu’un tel travail soit plus riche."
-              },
-              {
                 "id": "a",
                 "text": "Le professeur avait répondu qu’il n’est pas exclu qu’un tel travail soit plus riche."
+              },
+              {
+                "id": "b",
+                "text": "Le professeur avait répondu qu’il n’était pas exclu qu’un tel travail soit plus riche."
               },
               {
                 "id": "c",
@@ -10491,16 +10491,16 @@
             "difficulty": "precision",
             "options": [
               {
+                "id": "a",
+                "text": "Il est probable que le groupe trouve un compromis."
+              },
+              {
                 "id": "b",
                 "text": "Il est probable que le groupe trouvera un compromis."
               },
               {
                 "id": "c",
                 "text": "Il est probable que le groupe a trouvé un compromis."
-              },
-              {
-                "id": "a",
-                "text": "Il est probable que le groupe trouve un compromis."
               },
               {
                 "id": "d",
@@ -10519,16 +10519,16 @@
                 "text": "Le passé composé"
               },
               {
+                "id": "b",
+                "text": "Le conditionnel présent"
+              },
+              {
                 "id": "c",
                 "text": "L’imparfait"
               },
               {
                 "id": "d",
                 "text": "Le subjonctif"
-              },
-              {
-                "id": "b",
-                "text": "Le conditionnel présent"
               }
             ]
           }
@@ -10537,18 +10537,18 @@
       "grammarProfile": {
         "name": "Le discours rapporté complexe et l’expression de la probabilité soutenue",
         "definition": "Au discours rapporté avec un verbe introducteur au passé, la concordance des temps est complète : présent → imparfait, passé composé → plus-que-parfait, futur → conditionnel présent : « Il avait répondu qu’il n’était pas exclu qu’un travail interdisciplinaire produise un résultat plus riche. » En registre soutenu, la probabilité s’exprime avec des tournures comme « il est probable que », « il n’est pas exclu que » (suivies du subjonctif ou de l’indicatif selon le degré de certitude).",
-        "structure": "Forme à observer : Le discours rapporté complexe et l’expression de la probabilité soutenue. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
-        "function": "Rapporter des propos avec une concordance des temps complète et exprimer la probabilité en registre soutenu.",
+        "explanation": "Au discours rapporté avec un verbe introducteur au passé, la concordance des temps est complète : présent → imparfait, passé composé → plus-que-parfait, futur → conditionnel présent : « Il avait répondu qu’il n’était pas exclu qu’un travail interdisciplinaire produise un résultat plus riche. » En registre soutenu, la probabilité s’exprime avec des tournures comme « il est probable que », « il n’est pas exclu que » (suivies du subjonctif ou de l’indicatif selon le degré de certitude).",
+        "structure": "Estructura central: Le discours rapporté complexe et l’expression de la probabilité soutenue.",
+        "purpose": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
+        "function": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
+        "cefrLevel": "C1",
+        "unitContext": "Rapporter des propos avec une concordance des temps complète et exprimer la probabilité en registre soutenu.",
         "examples": [
           "Le professeur avait répondu qu’il n’était pas exclu qu’un tel travail soit plus riche.",
           "Il avait ajouté qu’il jugeait cette compétence tout aussi précieuse.",
           "Il est probable que le groupe trouve un compromis.",
           "Le conditionnel présent"
-        ],
-        "explanation": "Au discours rapporté avec un verbe introducteur au passé, la concordance des temps est complète : présent → imparfait, passé composé → plus-que-parfait, futur → conditionnel présent : « Il avait répondu qu’il n’était pas exclu qu’un travail interdisciplinaire produise un résultat plus riche. » En registre soutenu, la probabilité s’exprime avec des tournures comme « il est probable que », « il n’est pas exclu que » (suivies du subjonctif ou de l’indicatif selon le degré de certitude).",
-        "purpose": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
-        "cefrLevel": "C1",
-        "unitContext": "Rapporter des propos avec une concordance des temps complète et exprimer la probabilité en registre soutenu."
+        ]
       },
       "listeningComprehension": null
     },
@@ -10557,8 +10557,8 @@
         "type": "mcq",
         "prompt": "Le professeur avait répondu qu’il ___ pas exclu qu’un tel travail soit plus riche.",
         "options": [
-          "n’était",
           "n’est",
+          "n’était",
           "ne sera",
           "ne soit"
         ],
@@ -10579,9 +10579,9 @@
         "type": "mcq",
         "prompt": "Il est probable que le groupe ___ un compromis.",
         "options": [
+          "trouve",
           "trouvera",
           "a trouvé",
-          "trouve",
           "trouverait"
         ],
         "explanation": "La bonne réponse est « trouve » : elle respecte la structure étudiée dans cette leçon."
@@ -10591,9 +10591,9 @@
         "prompt": "Au discours rapporté au passé, le futur simple devient...",
         "options": [
           "Le passé composé",
+          "Le conditionnel présent",
           "L’imparfait",
-          "Le subjonctif",
-          "Le conditionnel présent"
+          "Le subjonctif"
         ],
         "explanation": "La bonne réponse est « Le conditionnel présent » : elle respecte la structure étudiée dans cette leçon."
       },
@@ -10601,8 +10601,8 @@
         "type": "mcq",
         "prompt": "Quelle version corrige entièrement la phrase « Le professeur avait répondu qu’il n’est pas exclu qu’un tel travail soit plus riche. » ?",
         "options": [
-          "Le professeur avait répondu qu’il n’était pas exclu qu’un tel travail soit plus riche.",
           "Le professeur avait répondu qu’il n’est pas exclu qu’un tel travail soit plus riche.",
+          "Le professeur avait répondu qu’il n’était pas exclu qu’un tel travail soit plus riche.",
           "Le professeur avait répondu qu’il ne sera pas exclu qu’un tel travail soit plus riche.",
           "Le professeur avait répondu qu’il ne soit pas exclu qu’un tel travail soit plus riche."
         ],
@@ -10623,9 +10623,9 @@
         "type": "mcq",
         "prompt": "Quelle version corrige entièrement la phrase « Il est probable que le groupe trouvera un compromis. » ?",
         "options": [
+          "Il est probable que le groupe trouve un compromis.",
           "Il est probable que le groupe trouvera un compromis.",
           "Il est probable que le groupe a trouvé un compromis.",
-          "Il est probable que le groupe trouve un compromis.",
           "Il est probable que le groupe trouverait un compromis."
         ],
         "explanation": "La phrase correcte est : « Il est probable que le groupe trouve un compromis. »"
@@ -10635,9 +10635,9 @@
         "prompt": "Quelle réponse corrige l’erreur « Le passé composé » dans ce contexte : « Au discours rapporté au passé, le futur simple devient... » ?",
         "options": [
           "Le passé composé",
+          "Le conditionnel présent",
           "L’imparfait",
-          "Le subjonctif",
-          "Le conditionnel présent"
+          "Le subjonctif"
         ],
         "explanation": "La bonne réponse est « Le conditionnel présent »."
       }
@@ -10732,12 +10732,12 @@
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
-                "id": "c",
-                "text": "Parce que la question complexe, alors le résultat forcément."
-              },
-              {
                 "id": "b",
                 "text": "La récupération répétée pourrait renforcer la rétention différée, quoique d’autres mécanismes ne puissent être exclus."
+              },
+              {
+                "id": "c",
+                "text": "Parce que la question complexe, alors le résultat forcément."
               },
               {
                 "id": "d",
@@ -10760,12 +10760,12 @@
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
-                "id": "d",
-                "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
-              },
-              {
                 "id": "c",
                 "text": "Elle emploie la modalisation épistémique de haute précision afin de distinguer résultat robuste, probabilité, hypothèse et simple possibilité : « La récupération répétée pourrait renforcer la rétention différée, quoique d’autres mécanismes ne puissent être exclus. »"
+              },
+              {
+                "id": "d",
+                "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
               }
             ]
           },
@@ -10776,16 +10776,16 @@
             "difficulty": "analysis",
             "options": [
               {
-                "id": "c",
-                "text": "Il est hautement probable que la familiarité ait influencé le jugement, mais ce biais n’est pas directement mesuré."
-              },
-              {
                 "id": "a",
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
                 "id": "b",
                 "text": "Parce que la question complexe, alors le résultat forcément."
+              },
+              {
+                "id": "c",
+                "text": "Il est hautement probable que la familiarité ait influencé le jugement, mais ce biais n’est pas directement mesuré."
               },
               {
                 "id": "d",
@@ -10804,16 +10804,16 @@
                 "text": "Elle remplace les preuves par une affirmation absolue."
               },
               {
-                "id": "d",
-                "text": "Elle emploie la modalisation épistémique de haute précision afin de distinguer résultat robuste, probabilité, hypothèse et simple possibilité : « Il est hautement probable que la familiarité ait influencé le jugement, mais ce biais n’est pas directement mesuré. »"
-              },
-              {
                 "id": "b",
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
                 "id": "c",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
+              },
+              {
+                "id": "d",
+                "text": "Elle emploie la modalisation épistémique de haute précision afin de distinguer résultat robuste, probabilité, hypothèse et simple possibilité : « Il est hautement probable que la familiarité ait influencé le jugement, mais ce biais n’est pas directement mesuré. »"
               }
             ]
           },
@@ -10832,12 +10832,12 @@
                 "text": "Parce que la question complexe, alors le résultat forcément."
               },
               {
-                "id": "d",
-                "text": "Rien ne permet d’affirmer que le même calendrier conviendrait à tous les apprentissages."
-              },
-              {
                 "id": "c",
                 "text": "La thèse est étant vraie par les mots qui ont utilisé."
+              },
+              {
+                "id": "d",
+                "text": "Rien ne permet d’affirmer que le même calendrier conviendrait à tous les apprentissages."
               }
             ]
           },
@@ -10847,6 +10847,10 @@
             "prompt": "Pourquoi l’exemple 4 convient-il à cette unité ?",
             "difficulty": "precision",
             "options": [
+              {
+                "id": "a",
+                "text": "Elle emploie la modalisation épistémique de haute précision afin de distinguer résultat robuste, probabilité, hypothèse et simple possibilité : « Rien ne permet d’affirmer que le même calendrier conviendrait à tous les apprentissages. »"
+              },
               {
                 "id": "b",
                 "text": "Elle remplace les preuves par une affirmation absolue."
@@ -10858,10 +10862,6 @@
               {
                 "id": "d",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
-              },
-              {
-                "id": "a",
-                "text": "Elle emploie la modalisation épistémique de haute précision afin de distinguer résultat robuste, probabilité, hypothèse et simple possibilité : « Rien ne permet d’affirmer que le même calendrier conviendrait à tous les apprentissages. »"
               }
             ]
           }
@@ -12464,7 +12464,7 @@
         "Karim lui conseille toutefois de ne pas transformer son analyse en procès d’intention. Les journalistes travaillent sous contraintes, s’adressent à des publics différents et s’appuient sur des lignes éditoriales identifiables. Ce qui importe, selon lui, est de distinguer une perspective assumée d’une manipulation qui dissimule ses procédés. Camila ajoute donc une colonne à son tableau : sources citées, voix absentes, données contextualisées et degré de certitude des affirmations.",
         "Dans sa conclusion, elle refuse de désigner un article comme définitivement neutre. Elle soutient plutôt qu’une lecture informée exige de croiser les récits et d’observer leurs angles morts. Cette prudence ne la conduit pas au relativisme : certains faits restent vérifiables et certaines affirmations sont mieux étayées que d’autres. Elle comprend néanmoins que l’esprit critique ne consiste pas seulement à douter, mais à demander comment une version du réel a été construite.",
         "Pour approfondir la question, le groupe reprend le dossier en distinguant trois niveaux souvent confondus : les faits observables, l’interprétation qu’on en propose et les valeurs au nom desquelles on juge la situation. Cette méthode oblige chacun à préciser ses termes. Le cadrage ne peut plus servir de formule vague ; un présupposé doit être relié à un exemple, et une ligne éditoriale à une conséquence vérifiable. Camila remarque que le désaccord devient plus fécond dès que les participants cessent de défendre une conclusion globale et examinent séparément les prémisses qui la soutiennent. Ils ne parviennent pas toujours au même jugement, mais ils comprennent mieux le point exact où leurs raisonnements se séparent.",
-        "Cette reprise modifie aussi la position de Camila. Elle était entrée dans la discussion avec une intuition forte, qu’elle prenait presque pour une évidence. En confrontant cette intuition aux objections, elle ne l’abandonne pas nécessairement ; elle apprend à en limiter la portée et à reconnaître ce qu’elle ne permet pas d’affirmer. Un angle mort devient ainsi moins un mot à mémoriser qu’un outil pour penser. À la fin, Camila rédige une synthèse qui conserve les tensions au lieu de les résoudre artificiellement. C’est précisément cette capacité à articuler des données, des voix et des incertitudes qui caractérise désormais son travail de niveau C1."
+        "Cette reprise modifie aussi la position de Camila. Elle était entrée dans la discussion avec une intuition forte, qu’elle prenait presque pour une évidence. En confrontant cette intuition aux objections, elle ne l’abandonne pas nécessairement ; elle apprend à en limiter la portée et à reconnaître ce qu’elle ne permet pas d’affirmer. Un angle mort devient ainsi moins un mot à mémoriser qu’un outil pour penser. À la fin, Camila rédige une synthèse qui conserve les tensions au lieu de les résoudre artificiellement. Cette capacité à articuler des données, des voix et des incertitudes devient peu à peu une méthode de travail."
       ],
       "questions": [
         "Pourquoi les trois articles produisent-ils des récits différents ?",
@@ -12473,7 +12473,7 @@
         "Que place Camila dans son tableau comparatif ?",
         "Quelle nuance apparaît dans la conclusion ?"
       ],
-      "text": "Lorsque son enseignante demande une revue de presse consacrée à la réforme du financement universitaire, Camila croit d’abord qu’il suffira de résumer trois articles. Elle découvre vite que les faits bruts occupent une place étonnamment réduite. Un quotidien national insiste sur la modernisation promise par le ministère ; un média étudiant décrit surtout la précarisation redoutée ; une chronique économique présente la mesure comme une rationalisation devenue inévitable. Tous citent les mêmes chiffres, mais aucun ne raconte exactement la même histoire.\n\nCamila relève alors les choix lexicaux. Là où le communiqué officiel parle d’« autonomie renforcée », le journal étudiant évoque un « désengagement financier ». Le premier place en ouverture la souplesse administrative accordée aux établissements ; le second commence par le témoignage d’une étudiante qui travaille la nuit. Ce décalage ne prouve pas nécessairement qu’un article ment. Il montre plutôt que sélectionner, ordonner et nommer les faits revient déjà à leur donner une orientation.\n\nKarim lui conseille toutefois de ne pas transformer son analyse en procès d’intention. Les journalistes travaillent sous contraintes, s’adressent à des publics différents et s’appuient sur des lignes éditoriales identifiables. Ce qui importe, selon lui, est de distinguer une perspective assumée d’une manipulation qui dissimule ses procédés. Camila ajoute donc une colonne à son tableau : sources citées, voix absentes, données contextualisées et degré de certitude des affirmations.\n\nDans sa conclusion, elle refuse de désigner un article comme définitivement neutre. Elle soutient plutôt qu’une lecture informée exige de croiser les récits et d’observer leurs angles morts. Cette prudence ne la conduit pas au relativisme : certains faits restent vérifiables et certaines affirmations sont mieux étayées que d’autres. Elle comprend néanmoins que l’esprit critique ne consiste pas seulement à douter, mais à demander comment une version du réel a été construite.\n\nPour approfondir la question, le groupe reprend le dossier en distinguant trois niveaux souvent confondus : les faits observables, l’interprétation qu’on en propose et les valeurs au nom desquelles on juge la situation. Cette méthode oblige chacun à préciser ses termes. Le cadrage ne peut plus servir de formule vague ; un présupposé doit être relié à un exemple, et une ligne éditoriale à une conséquence vérifiable. Camila remarque que le désaccord devient plus fécond dès que les participants cessent de défendre une conclusion globale et examinent séparément les prémisses qui la soutiennent. Ils ne parviennent pas toujours au même jugement, mais ils comprennent mieux le point exact où leurs raisonnements se séparent.\n\nCette reprise modifie aussi la position de Camila. Elle était entrée dans la discussion avec une intuition forte, qu’elle prenait presque pour une évidence. En confrontant cette intuition aux objections, elle ne l’abandonne pas nécessairement ; elle apprend à en limiter la portée et à reconnaître ce qu’elle ne permet pas d’affirmer. Un angle mort devient ainsi moins un mot à mémoriser qu’un outil pour penser. À la fin, Camila rédige une synthèse qui conserve les tensions au lieu de les résoudre artificiellement. C’est précisément cette capacité à articuler des données, des voix et des incertitudes qui caractérise désormais son travail de niveau C1."
+      "text": "Lorsque son enseignante demande une revue de presse consacrée à la réforme du financement universitaire, Camila croit d’abord qu’il suffira de résumer trois articles. Elle découvre vite que les faits bruts occupent une place étonnamment réduite. Un quotidien national insiste sur la modernisation promise par le ministère ; un média étudiant décrit surtout la précarisation redoutée ; une chronique économique présente la mesure comme une rationalisation devenue inévitable. Tous citent les mêmes chiffres, mais aucun ne raconte exactement la même histoire.\n\nCamila relève alors les choix lexicaux. Là où le communiqué officiel parle d’« autonomie renforcée », le journal étudiant évoque un « désengagement financier ». Le premier place en ouverture la souplesse administrative accordée aux établissements ; le second commence par le témoignage d’une étudiante qui travaille la nuit. Ce décalage ne prouve pas nécessairement qu’un article ment. Il montre plutôt que sélectionner, ordonner et nommer les faits revient déjà à leur donner une orientation.\n\nKarim lui conseille toutefois de ne pas transformer son analyse en procès d’intention. Les journalistes travaillent sous contraintes, s’adressent à des publics différents et s’appuient sur des lignes éditoriales identifiables. Ce qui importe, selon lui, est de distinguer une perspective assumée d’une manipulation qui dissimule ses procédés. Camila ajoute donc une colonne à son tableau : sources citées, voix absentes, données contextualisées et degré de certitude des affirmations.\n\nDans sa conclusion, elle refuse de désigner un article comme définitivement neutre. Elle soutient plutôt qu’une lecture informée exige de croiser les récits et d’observer leurs angles morts. Cette prudence ne la conduit pas au relativisme : certains faits restent vérifiables et certaines affirmations sont mieux étayées que d’autres. Elle comprend néanmoins que l’esprit critique ne consiste pas seulement à douter, mais à demander comment une version du réel a été construite.\n\nPour approfondir la question, le groupe reprend le dossier en distinguant trois niveaux souvent confondus : les faits observables, l’interprétation qu’on en propose et les valeurs au nom desquelles on juge la situation. Cette méthode oblige chacun à préciser ses termes. Le cadrage ne peut plus servir de formule vague ; un présupposé doit être relié à un exemple, et une ligne éditoriale à une conséquence vérifiable. Camila remarque que le désaccord devient plus fécond dès que les participants cessent de défendre une conclusion globale et examinent séparément les prémisses qui la soutiennent. Ils ne parviennent pas toujours au même jugement, mais ils comprennent mieux le point exact où leurs raisonnements se séparent.\n\nCette reprise modifie aussi la position de Camila. Elle était entrée dans la discussion avec une intuition forte, qu’elle prenait presque pour une évidence. En confrontant cette intuition aux objections, elle ne l’abandonne pas nécessairement ; elle apprend à en limiter la portée et à reconnaître ce qu’elle ne permet pas d’affirmer. Un angle mort devient ainsi moins un mot à mémoriser qu’un outil pour penser. À la fin, Camila rédige une synthèse qui conserve les tensions au lieu de les résoudre artificiellement. Cette capacité à articuler des données, des voix et des incertitudes devient peu à peu une méthode de travail."
     },
     "transcript": "",
     "extra": null,
@@ -16100,12 +16100,12 @@
             "difficulty": "easy",
             "options": [
               {
-                "id": "o2",
-                "text": "l’annonce de la réforme par le ministère"
-              },
-              {
                 "id": "o1",
                 "text": "l’annoncer de la réforme"
+              },
+              {
+                "id": "o2",
+                "text": "l’annonce de la réforme par le ministère"
               },
               {
                 "id": "o3",
@@ -16124,12 +16124,12 @@
             "difficulty": "easy",
             "options": [
               {
-                "id": "o2",
-                "text": "Il convient que"
-              },
-              {
                 "id": "o1",
                 "text": "Il convient"
+              },
+              {
+                "id": "o2",
+                "text": "Il convient que"
               },
               {
                 "id": "o3",
@@ -16148,16 +16148,16 @@
             "difficulty": "medium",
             "options": [
               {
+                "id": "o1",
+                "text": "Il ressort de l’analyse"
+              },
+              {
                 "id": "o2",
                 "text": "Il sort analyse"
               },
               {
                 "id": "o3",
                 "text": "Il résulte les"
-              },
-              {
-                "id": "o1",
-                "text": "Il ressort de l’analyse"
               },
               {
                 "id": "o4",
@@ -16172,6 +16172,10 @@
             "difficulty": "medium",
             "options": [
               {
+                "id": "o1",
+                "text": "la contestation de la mesure par les étudiants"
+              },
+              {
                 "id": "o2",
                 "text": "les étudiants de contestation"
               },
@@ -16182,10 +16186,6 @@
               {
                 "id": "o4",
                 "text": "la mesure à contester"
-              },
-              {
-                "id": "o1",
-                "text": "la contestation de la mesure par les étudiants"
               }
             ]
           },
@@ -16196,12 +16196,12 @@
             "difficulty": "medium",
             "options": [
               {
-                "id": "o2",
-                "text": "constater"
-              },
-              {
                 "id": "o1",
                 "text": "constaté"
+              },
+              {
+                "id": "o2",
+                "text": "constater"
               },
               {
                 "id": "o3",
@@ -16248,12 +16248,12 @@
                 "text": "On voit bien que ça ne va pas."
               },
               {
-                "id": "o3",
-                "text": "Ce truc est faux."
-              },
-              {
                 "id": "o2",
                 "text": "Il apparaît que cette lecture omet plusieurs facteurs."
+              },
+              {
+                "id": "o3",
+                "text": "Ce truc est faux."
               },
               {
                 "id": "o4",
@@ -16268,6 +16268,10 @@
             "difficulty": "hard",
             "options": [
               {
+                "id": "o1",
+                "text": "La sélection des sources révèle un cadrage."
+              },
+              {
                 "id": "o2",
                 "text": "La sélectionner des sources révèle."
               },
@@ -16278,10 +16282,6 @@
               {
                 "id": "o4",
                 "text": "Sélection des sources révèlent."
-              },
-              {
-                "id": "o1",
-                "text": "La sélection des sources révèle un cadrage."
               }
             ]
           }
@@ -16290,18 +16290,18 @@
       "grammarProfile": {
         "name": "La nominalisation et les tournures impersonnelles",
         "definition": "La nominalisation condense une proposition et densifie le registre analytique : « le gouvernement réforme » devient « la réforme gouvernementale ». Les tournures « il ressort que », « il convient de » et « force est de constater que » permettent de structurer une analyse sans effacer la responsabilité des acteurs.",
-        "structure": "Forme à observer : La nominalisation et les tournures impersonnelles. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
-        "function": "Maîtriser la nominalisation et les tournures impersonnelles dans un contexte argumentatif C1.",
+        "explanation": "La nominalisation condense une proposition et densifie le registre analytique : « le gouvernement réforme » devient « la réforme gouvernementale ». Les tournures « il ressort que », « il convient de » et « force est de constater que » permettent de structurer une analyse sans effacer la responsabilité des acteurs.",
+        "structure": "Estructura central: La nominalisation et les tournures impersonnelles.",
+        "purpose": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
+        "function": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
+        "cefrLevel": "C1",
+        "unitContext": "Maîtriser la nominalisation et les tournures impersonnelles dans un contexte argumentatif C1.",
         "examples": [
           "l’annonce de la réforme par le ministère",
           "Il convient de comparer les sources avant de conclure.",
           "Il ressort de l’analyse que les titres orientent la lecture.",
           "la contestation de la mesure par les étudiants"
-        ],
-        "explanation": "La nominalisation condense une proposition et densifie le registre analytique : « le gouvernement réforme » devient « la réforme gouvernementale ». Les tournures « il ressort que », « il convient de » et « force est de constater que » permettent de structurer une analyse sans effacer la responsabilité des acteurs.",
-        "purpose": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
-        "cefrLevel": "C1",
-        "unitContext": "Maîtriser la nominalisation et les tournures impersonnelles dans un contexte argumentatif C1."
+        ]
       },
       "listeningComprehension": null
     },
@@ -16485,12 +16485,12 @@
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
-                "id": "c",
-                "text": "Parce que la question complexe, alors le résultat forcément."
-              },
-              {
                 "id": "b",
                 "text": "Les mots avaient été encodés avant que la consolidation nocturne ne soit mesurée."
+              },
+              {
+                "id": "c",
+                "text": "Parce que la question complexe, alors le résultat forcément."
               },
               {
                 "id": "d",
@@ -16513,12 +16513,12 @@
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
-                "id": "d",
-                "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
-              },
-              {
                 "id": "c",
                 "text": "Elle emploie la temporalité complexe et le futur antérieur afin de ordonner encodage, consolidation et récupération sans confondre succession et causalité : « Les mots avaient été encodés avant que la consolidation nocturne ne soit mesurée. »"
+              },
+              {
+                "id": "d",
+                "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
               }
             ]
           },
@@ -16529,16 +16529,16 @@
             "difficulty": "analysis",
             "options": [
               {
-                "id": "c",
-                "text": "D’ici la fin du protocole, l’équipe aura recueilli trois mesures de rétention."
-              },
-              {
                 "id": "a",
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
                 "id": "b",
                 "text": "Parce que la question complexe, alors le résultat forcément."
+              },
+              {
+                "id": "c",
+                "text": "D’ici la fin du protocole, l’équipe aura recueilli trois mesures de rétention."
               },
               {
                 "id": "d",
@@ -16557,16 +16557,16 @@
                 "text": "Elle remplace les preuves par une affirmation absolue."
               },
               {
-                "id": "d",
-                "text": "Elle emploie la temporalité complexe et le futur antérieur afin de ordonner encodage, consolidation et récupération sans confondre succession et causalité : « D’ici la fin du protocole, l’équipe aura recueilli trois mesures de rétention. »"
-              },
-              {
                 "id": "b",
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
                 "id": "c",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
+              },
+              {
+                "id": "d",
+                "text": "Elle emploie la temporalité complexe et le futur antérieur afin de ordonner encodage, consolidation et récupération sans confondre succession et causalité : « D’ici la fin du protocole, l’équipe aura recueilli trois mesures de rétention. »"
               }
             ]
           },
@@ -16585,12 +16585,12 @@
                 "text": "Parce que la question complexe, alors le résultat forcément."
               },
               {
-                "id": "d",
-                "text": "Les chercheurs pensaient que le groupe reposé aurait consolidé davantage d’items avant le rappel."
-              },
-              {
                 "id": "c",
                 "text": "La thèse est étant vraie par les mots qui ont utilisé."
+              },
+              {
+                "id": "d",
+                "text": "Les chercheurs pensaient que le groupe reposé aurait consolidé davantage d’items avant le rappel."
               }
             ]
           },
@@ -16600,6 +16600,10 @@
             "prompt": "Pourquoi l’exemple 4 convient-il à cette unité ?",
             "difficulty": "precision",
             "options": [
+              {
+                "id": "a",
+                "text": "Elle emploie la temporalité complexe et le futur antérieur afin de ordonner encodage, consolidation et récupération sans confondre succession et causalité : « Les chercheurs pensaient que le groupe reposé aurait consolidé davantage d’items avant le rappel. »"
+              },
               {
                 "id": "b",
                 "text": "Elle remplace les preuves par une affirmation absolue."
@@ -16611,10 +16615,6 @@
               {
                 "id": "d",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
-              },
-              {
-                "id": "a",
-                "text": "Elle emploie la temporalité complexe et le futur antérieur afin de ordonner encodage, consolidation et récupération sans confondre succession et causalité : « Les chercheurs pensaient que le groupe reposé aurait consolidé davantage d’items avant le rappel. »"
               }
             ]
           }
@@ -18343,7 +18343,7 @@
         "L’enseignante leur demande alors de comparer trois versions : celle de la machine, celle de Camila et une version collective. Le débat ne porte bientôt plus sur les erreurs évidentes, mais sur des décisions interprétatives. Faut-il conserver le mot créole et ajouter une note ? Reproduire une syntaxe inhabituelle au risque de troubler le lecteur ? Rendre explicite une allusion culturelle que le texte original laisse volontairement implicite ?",
         "Camila conclut que la technologie ne supprime pas la responsabilité du traducteur ; elle la déplace. Plus l’outil produit un texte vraisemblable, plus la vigilance doit porter sur ce qui ne se voit pas immédiatement : le rythme, le sous-entendu et la position de la voix. Quand bien même les systèmes deviendraient plus performants, choisir entre plusieurs fidélités resterait un acte humain, discutable et situé.",
         "Pour approfondir la question, le groupe reprend le dossier en distinguant trois niveaux souvent confondus : les faits observables, l’interprétation qu’on en propose et les valeurs au nom desquelles on juge la situation. Cette méthode oblige chacun à préciser ses termes. Aplatir une voix ne peut plus servir de formule vague ; un sous-entendu doit être relié à un exemple, et vraisemblable à une conséquence vérifiable. Camila remarque que le désaccord devient plus fécond dès que les participants cessent de défendre une conclusion globale et examinent séparément les prémisses qui la soutiennent. Ils ne parviennent pas toujours au même jugement, mais ils comprennent mieux le point exact où leurs raisonnements se séparent.",
-        "Cette reprise modifie aussi la position de Camila. Elle était entrée dans la discussion avec une intuition forte, qu’elle prenait presque pour une évidence. En confrontant cette intuition aux objections, elle ne l’abandonne pas nécessairement ; elle apprend à en limiter la portée et à reconnaître ce qu’elle ne permet pas d’affirmer. Une décision interprétative devient ainsi moins un mot à mémoriser qu’un outil pour penser. À la fin, Camila rédige une synthèse qui conserve les tensions au lieu de les résoudre artificiellement. C’est précisément cette capacité à articuler des données, des voix et des incertitudes qui caractérise désormais son travail de niveau C1."
+        "Cette reprise modifie aussi la position de Camila. Elle était entrée dans la discussion avec une intuition forte, qu’elle prenait presque pour une évidence. En confrontant cette intuition aux objections, elle ne l’abandonne pas nécessairement ; elle apprend à en limiter la portée et à reconnaître ce qu’elle ne permet pas d’affirmer. Une décision interprétative devient ainsi moins un mot à mémoriser qu’un outil pour penser. À la fin, Camila rédige une synthèse qui conserve les tensions au lieu de les résoudre artificiellement. Cette capacité à articuler des données, des voix et des incertitudes devient peu à peu une méthode de travail."
       ],
       "questions": [
         "Qu’est-ce que la machine fait disparaître ?",
@@ -18352,7 +18352,7 @@
         "Pourquoi la version collective est-elle utile ?",
         "Comment la technologie déplace-t-elle la responsabilité ?"
       ],
-      "text": "Dans le cadre d’un atelier, Camila reçoit un extrait où une autrice caribéenne mêle français standard, créole et souvenirs familiaux. Par curiosité, elle soumet le passage à un outil de traduction automatique. Le résultat est grammaticalement propre, fluide et presque instantané. Pourtant, quelque chose s’est aplati : les hésitations de la narratrice disparaissent, une expression créole devient une formule neutre et l’ironie d’une phrase se transforme en affirmation sérieuse.\n\nSon camarade Hugo défend l’outil en rappelant le temps qu’il fait gagner. Pour des documents répétitifs, des notices ou une première compréhension, son utilité lui paraît incontestable. Camila l’admet volontiers. Ce qu’elle conteste, c’est le glissement qui consiste à confondre une traduction acceptable avec une traduction fidèle à une voix. Une phrase peut transmettre une information correcte tout en modifiant la relation que le texte entretient avec son lecteur.\n\nL’enseignante leur demande alors de comparer trois versions : celle de la machine, celle de Camila et une version collective. Le débat ne porte bientôt plus sur les erreurs évidentes, mais sur des décisions interprétatives. Faut-il conserver le mot créole et ajouter une note ? Reproduire une syntaxe inhabituelle au risque de troubler le lecteur ? Rendre explicite une allusion culturelle que le texte original laisse volontairement implicite ?\n\nCamila conclut que la technologie ne supprime pas la responsabilité du traducteur ; elle la déplace. Plus l’outil produit un texte vraisemblable, plus la vigilance doit porter sur ce qui ne se voit pas immédiatement : le rythme, le sous-entendu et la position de la voix. Quand bien même les systèmes deviendraient plus performants, choisir entre plusieurs fidélités resterait un acte humain, discutable et situé.\n\nPour approfondir la question, le groupe reprend le dossier en distinguant trois niveaux souvent confondus : les faits observables, l’interprétation qu’on en propose et les valeurs au nom desquelles on juge la situation. Cette méthode oblige chacun à préciser ses termes. Aplatir une voix ne peut plus servir de formule vague ; un sous-entendu doit être relié à un exemple, et vraisemblable à une conséquence vérifiable. Camila remarque que le désaccord devient plus fécond dès que les participants cessent de défendre une conclusion globale et examinent séparément les prémisses qui la soutiennent. Ils ne parviennent pas toujours au même jugement, mais ils comprennent mieux le point exact où leurs raisonnements se séparent.\n\nCette reprise modifie aussi la position de Camila. Elle était entrée dans la discussion avec une intuition forte, qu’elle prenait presque pour une évidence. En confrontant cette intuition aux objections, elle ne l’abandonne pas nécessairement ; elle apprend à en limiter la portée et à reconnaître ce qu’elle ne permet pas d’affirmer. Une décision interprétative devient ainsi moins un mot à mémoriser qu’un outil pour penser. À la fin, Camila rédige une synthèse qui conserve les tensions au lieu de les résoudre artificiellement. C’est précisément cette capacité à articuler des données, des voix et des incertitudes qui caractérise désormais son travail de niveau C1."
+      "text": "Dans le cadre d’un atelier, Camila reçoit un extrait où une autrice caribéenne mêle français standard, créole et souvenirs familiaux. Par curiosité, elle soumet le passage à un outil de traduction automatique. Le résultat est grammaticalement propre, fluide et presque instantané. Pourtant, quelque chose s’est aplati : les hésitations de la narratrice disparaissent, une expression créole devient une formule neutre et l’ironie d’une phrase se transforme en affirmation sérieuse.\n\nSon camarade Hugo défend l’outil en rappelant le temps qu’il fait gagner. Pour des documents répétitifs, des notices ou une première compréhension, son utilité lui paraît incontestable. Camila l’admet volontiers. Ce qu’elle conteste, c’est le glissement qui consiste à confondre une traduction acceptable avec une traduction fidèle à une voix. Une phrase peut transmettre une information correcte tout en modifiant la relation que le texte entretient avec son lecteur.\n\nL’enseignante leur demande alors de comparer trois versions : celle de la machine, celle de Camila et une version collective. Le débat ne porte bientôt plus sur les erreurs évidentes, mais sur des décisions interprétatives. Faut-il conserver le mot créole et ajouter une note ? Reproduire une syntaxe inhabituelle au risque de troubler le lecteur ? Rendre explicite une allusion culturelle que le texte original laisse volontairement implicite ?\n\nCamila conclut que la technologie ne supprime pas la responsabilité du traducteur ; elle la déplace. Plus l’outil produit un texte vraisemblable, plus la vigilance doit porter sur ce qui ne se voit pas immédiatement : le rythme, le sous-entendu et la position de la voix. Quand bien même les systèmes deviendraient plus performants, choisir entre plusieurs fidélités resterait un acte humain, discutable et situé.\n\nPour approfondir la question, le groupe reprend le dossier en distinguant trois niveaux souvent confondus : les faits observables, l’interprétation qu’on en propose et les valeurs au nom desquelles on juge la situation. Cette méthode oblige chacun à préciser ses termes. Aplatir une voix ne peut plus servir de formule vague ; un sous-entendu doit être relié à un exemple, et vraisemblable à une conséquence vérifiable. Camila remarque que le désaccord devient plus fécond dès que les participants cessent de défendre une conclusion globale et examinent séparément les prémisses qui la soutiennent. Ils ne parviennent pas toujours au même jugement, mais ils comprennent mieux le point exact où leurs raisonnements se séparent.\n\nCette reprise modifie aussi la position de Camila. Elle était entrée dans la discussion avec une intuition forte, qu’elle prenait presque pour une évidence. En confrontant cette intuition aux objections, elle ne l’abandonne pas nécessairement ; elle apprend à en limiter la portée et à reconnaître ce qu’elle ne permet pas d’affirmer. Une décision interprétative devient ainsi moins un mot à mémoriser qu’un outil pour penser. À la fin, Camila rédige une synthèse qui conserve les tensions au lieu de les résoudre artificiellement. Cette capacité à articuler des données, des voix et des incertitudes devient peu à peu une méthode de travail."
     },
     "transcript": "",
     "extra": null,
@@ -22035,12 +22035,12 @@
                 "text": "relit"
               },
               {
-                "id": "o3",
-                "text": "relu"
-              },
-              {
                 "id": "o2",
                 "text": "relire"
+              },
+              {
+                "id": "o3",
+                "text": "relu"
               },
               {
                 "id": "o4",
@@ -22059,16 +22059,16 @@
                 "text": "est"
               },
               {
+                "id": "o2",
+                "text": "soit"
+              },
+              {
                 "id": "o3",
                 "text": "sera"
               },
               {
                 "id": "o4",
                 "text": "était toujours"
-              },
-              {
-                "id": "o2",
-                "text": "soit"
               }
             ]
           },
@@ -22127,16 +22127,16 @@
             "difficulty": "hard",
             "options": [
               {
+                "id": "o1",
+                "text": "Quand bien même il réussirait, le débat resterait ouvert."
+              },
+              {
                 "id": "o2",
                 "text": "Parce qu’il réussit, le débat cesse."
               },
               {
                 "id": "o3",
                 "text": "Il réussit afin que le débat continue."
-              },
-              {
-                "id": "o1",
-                "text": "Quand bien même il réussirait, le débat resterait ouvert."
               },
               {
                 "id": "o4",
@@ -22155,16 +22155,16 @@
                 "text": "Bien que le texte est fluide"
               },
               {
+                "id": "o2",
+                "text": "Bien que le texte soit fluide"
+              },
+              {
                 "id": "o3",
                 "text": "Bien que le texte sera fluide"
               },
               {
                 "id": "o4",
                 "text": "Bien que le texte être fluide"
-              },
-              {
-                "id": "o2",
-                "text": "Bien que le texte soit fluide"
               }
             ]
           }
@@ -22173,18 +22173,18 @@
       "grammarProfile": {
         "name": "La concession avancée : quoique, quand bien même, avoir beau",
         "definition": "La concession met en relation deux faits dont le second résiste au premier : « Quoique l’outil soit rapide, il simplifie le style. » « Quand bien même il progresserait, une révision resterait nécessaire. » « Elle a beau corriger le texte, certaines nuances lui échappent. »",
-        "structure": "Forme à observer : La concession avancée : quoique, quand bien même, avoir beau. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
-        "function": "Maîtriser la concession avancée : quoique, quand bien même, avoir beau dans un contexte argumentatif C1.",
+        "explanation": "La concession met en relation deux faits dont le second résiste au premier : « Quoique l’outil soit rapide, il simplifie le style. » « Quand bien même il progresserait, une révision resterait nécessaire. » « Elle a beau corriger le texte, certaines nuances lui échappent. »",
+        "structure": "Estructura central: La concession avancée : quoique, quand bien même, avoir beau.",
+        "purpose": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
+        "function": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
+        "cefrLevel": "C1",
+        "unitContext": "Maîtriser la concession avancée : quoique, quand bien même, avoir beau dans un contexte argumentatif C1.",
         "examples": [
           "Quoique l’outil soit rapide, il simplifie parfois le style.",
           "Quand bien même la machine progresserait, une révision resterait nécessaire.",
           "Camila a beau relire le résultat, une nuance lui échappe.",
           "Quoique cette version soit fluide, elle manque de rythme."
-        ],
-        "explanation": "La concession met en relation deux faits dont le second résiste au premier : « Quoique l’outil soit rapide, il simplifie le style. » « Quand bien même il progresserait, une révision resterait nécessaire. » « Elle a beau corriger le texte, certaines nuances lui échappent. »",
-        "purpose": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
-        "cefrLevel": "C1",
-        "unitContext": "Maîtriser la concession avancée : quoique, quand bien même, avoir beau dans un contexte argumentatif C1."
+        ]
       },
       "listeningComprehension": null
     },
@@ -22368,12 +22368,12 @@
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
-                "id": "c",
-                "text": "Parce que la question complexe, alors le résultat forcément."
-              },
-              {
                 "id": "b",
                 "text": "La mesure de l’acquisition incidente exige que l’on précise qui mesure quoi et à quel moment."
+              },
+              {
+                "id": "c",
+                "text": "Parce que la question complexe, alors le résultat forcément."
               },
               {
                 "id": "d",
@@ -22396,12 +22396,12 @@
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
-                "id": "d",
-                "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
-              },
-              {
                 "id": "c",
                 "text": "Elle emploie la nominalisation critique et la restitution de l’agent afin de densifier un raisonnement sans effacer qui apprend, mesure ou intervient : « La mesure de l’acquisition incidente exige que l’on précise qui mesure quoi et à quel moment. »"
+              },
+              {
+                "id": "d",
+                "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
               }
             ]
           },
@@ -22412,16 +22412,16 @@
             "difficulty": "analysis",
             "options": [
               {
-                "id": "c",
-                "text": "La transformation de l’input en connaissance ne saurait être présupposée : les apprenants doivent encore établir les associations."
-              },
-              {
                 "id": "a",
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
                 "id": "b",
                 "text": "Parce que la question complexe, alors le résultat forcément."
+              },
+              {
+                "id": "c",
+                "text": "La transformation de l’input en connaissance ne saurait être présupposée : les apprenants doivent encore établir les associations."
               },
               {
                 "id": "d",
@@ -22440,16 +22440,16 @@
                 "text": "Elle remplace les preuves par une affirmation absolue."
               },
               {
-                "id": "d",
-                "text": "Elle emploie la nominalisation critique et la restitution de l’agent afin de densifier un raisonnement sans effacer qui apprend, mesure ou intervient : « La transformation de l’input en connaissance ne saurait être présupposée : les apprenants doivent encore établir les associations. »"
-              },
-              {
                 "id": "b",
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
                 "id": "c",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
+              },
+              {
+                "id": "d",
+                "text": "Elle emploie la nominalisation critique et la restitution de l’agent afin de densifier un raisonnement sans effacer qui apprend, mesure ou intervient : « La transformation de l’input en connaissance ne saurait être présupposée : les apprenants doivent encore établir les associations. »"
               }
             ]
           },
@@ -22468,12 +22468,12 @@
                 "text": "Parce que la question complexe, alors le résultat forcément."
               },
               {
-                "id": "d",
-                "text": "Le recours à la nominalisation condense l’analyse ; la proposition verbale restitue ensuite l’agent et la causalité."
-              },
-              {
                 "id": "c",
                 "text": "La thèse est étant vraie par les mots qui ont utilisé."
+              },
+              {
+                "id": "d",
+                "text": "Le recours à la nominalisation condense l’analyse ; la proposition verbale restitue ensuite l’agent et la causalité."
               }
             ]
           },
@@ -22483,6 +22483,10 @@
             "prompt": "Pourquoi l’exemple 4 convient-il à cette unité ?",
             "difficulty": "precision",
             "options": [
+              {
+                "id": "a",
+                "text": "Elle emploie la nominalisation critique et la restitution de l’agent afin de densifier un raisonnement sans effacer qui apprend, mesure ou intervient : « Le recours à la nominalisation condense l’analyse ; la proposition verbale restitue ensuite l’agent et la causalité. »"
+              },
               {
                 "id": "b",
                 "text": "Elle remplace les preuves par une affirmation absolue."
@@ -22494,10 +22498,6 @@
               {
                 "id": "d",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
-              },
-              {
-                "id": "a",
-                "text": "Elle emploie la nominalisation critique et la restitution de l’agent afin de densifier un raisonnement sans effacer qui apprend, mesure ou intervient : « Le recours à la nominalisation condense l’analyse ; la proposition verbale restitue ensuite l’agent et la causalité. »"
               }
             ]
           }
@@ -24219,7 +24219,7 @@
         "Sa grand-mère complète parfois le récit, mais sa mémoire hésite. Elle corrige une date, revient sur un nom, admet qu’à l’époque les adultes ne disaient pas tout aux enfants. Camila comprend que l’archive ne livre pas une vérité intacte : elle conserve des fragments produits dans une situation particulière. Le silence lui-même devient une donnée, à condition de ne pas prétendre le remplir avec certitude.",
         "En numérisant les documents, Camila cesse de chercher une origine simple qui expliquerait qui elle est. Elle découvre plutôt une constellation de départs, d’attachements et de récits révisés. Cette histoire familiale ne lui dicte aucune identité définitive. Elle lui donne des questions plus précises et une responsabilité : transmettre les lettres sans effacer leurs contradictions.",
         "Pour approfondir la question, le groupe reprend le dossier en distinguant trois niveaux souvent confondus : les faits observables, l’interprétation qu’on en propose et les valeurs au nom desquelles on juge la situation. Cette méthode oblige chacun à préciser ses termes. Une archive ne peut plus servir de formule vague ; un récit linéaire doit être relié à un exemple, et minimiser à une conséquence vérifiable. Camila remarque que le désaccord devient plus fécond dès que les participants cessent de défendre une conclusion globale et examinent séparément les prémisses qui la soutiennent. Ils ne parviennent pas toujours au même jugement, mais ils comprennent mieux le point exact où leurs raisonnements se séparent.",
-        "Cette reprise modifie aussi la position de Camila. Elle était entrée dans la discussion avec une intuition forte, qu’elle prenait presque pour une évidence. En confrontant cette intuition aux objections, elle ne l’abandonne pas nécessairement ; elle apprend à en limiter la portée et à reconnaître ce qu’elle ne permet pas d’affirmer. Un fragment devient ainsi moins un mot à mémoriser qu’un outil pour penser. À la fin, Camila rédige une synthèse qui conserve les tensions au lieu de les résoudre artificiellement. C’est précisément cette capacité à articuler des données, des voix et des incertitudes qui caractérise désormais son travail de niveau C1."
+        "Cette reprise modifie aussi la position de Camila. Elle était entrée dans la discussion avec une intuition forte, qu’elle prenait presque pour une évidence. En confrontant cette intuition aux objections, elle ne l’abandonne pas nécessairement ; elle apprend à en limiter la portée et à reconnaître ce qu’elle ne permet pas d’affirmer. Un fragment devient ainsi moins un mot à mémoriser qu’un outil pour penser. À la fin, Camila rédige une synthèse qui conserve les tensions au lieu de les résoudre artificiellement. Cette capacité à articuler des données, des voix et des incertitudes devient peu à peu une méthode de travail."
       ],
       "questions": [
         "Quelle version familiale les lettres compliquent-elles ?",
@@ -24228,7 +24228,7 @@
         "Que devient le silence pour Camila ?",
         "Comment sa conception de l’identité évolue-t-elle ?"
       ],
-      "text": "Pendant les vacances, la grand-mère de Camila lui confie une boîte dont le carton a jauni. Elle contient des lettres écrites par une grande-tante partie travailler en France dans les années soixante-dix. La famille avait toujours résumé cette histoire en quelques mots : elle était partie, avait réussi, puis était revenue. Les lettres révèlent un parcours moins linéaire, traversé par la solitude, les emplois précaires et la crainte de décevoir ceux qui attendaient des nouvelles rassurantes.\n\nCamila remarque surtout ce que les lettres taisent. Certaines périodes de plusieurs mois ne laissent aucune trace ; des difficultés sont évoquées puis aussitôt minimisées. Dans une lettre, la grande-tante affirme que « tout va pour le mieux », avant de demander discrètement qu’on lui envoie un remède qu’elle ne peut pas acheter. L’optimisme n’était-il qu’une protection destinée à la famille, ou une manière de se convaincre elle-même de tenir bon ?\n\nSa grand-mère complète parfois le récit, mais sa mémoire hésite. Elle corrige une date, revient sur un nom, admet qu’à l’époque les adultes ne disaient pas tout aux enfants. Camila comprend que l’archive ne livre pas une vérité intacte : elle conserve des fragments produits dans une situation particulière. Le silence lui-même devient une donnée, à condition de ne pas prétendre le remplir avec certitude.\n\nEn numérisant les documents, Camila cesse de chercher une origine simple qui expliquerait qui elle est. Elle découvre plutôt une constellation de départs, d’attachements et de récits révisés. Cette histoire familiale ne lui dicte aucune identité définitive. Elle lui donne des questions plus précises et une responsabilité : transmettre les lettres sans effacer leurs contradictions.\n\nPour approfondir la question, le groupe reprend le dossier en distinguant trois niveaux souvent confondus : les faits observables, l’interprétation qu’on en propose et les valeurs au nom desquelles on juge la situation. Cette méthode oblige chacun à préciser ses termes. Une archive ne peut plus servir de formule vague ; un récit linéaire doit être relié à un exemple, et minimiser à une conséquence vérifiable. Camila remarque que le désaccord devient plus fécond dès que les participants cessent de défendre une conclusion globale et examinent séparément les prémisses qui la soutiennent. Ils ne parviennent pas toujours au même jugement, mais ils comprennent mieux le point exact où leurs raisonnements se séparent.\n\nCette reprise modifie aussi la position de Camila. Elle était entrée dans la discussion avec une intuition forte, qu’elle prenait presque pour une évidence. En confrontant cette intuition aux objections, elle ne l’abandonne pas nécessairement ; elle apprend à en limiter la portée et à reconnaître ce qu’elle ne permet pas d’affirmer. Un fragment devient ainsi moins un mot à mémoriser qu’un outil pour penser. À la fin, Camila rédige une synthèse qui conserve les tensions au lieu de les résoudre artificiellement. C’est précisément cette capacité à articuler des données, des voix et des incertitudes qui caractérise désormais son travail de niveau C1."
+      "text": "Pendant les vacances, la grand-mère de Camila lui confie une boîte dont le carton a jauni. Elle contient des lettres écrites par une grande-tante partie travailler en France dans les années soixante-dix. La famille avait toujours résumé cette histoire en quelques mots : elle était partie, avait réussi, puis était revenue. Les lettres révèlent un parcours moins linéaire, traversé par la solitude, les emplois précaires et la crainte de décevoir ceux qui attendaient des nouvelles rassurantes.\n\nCamila remarque surtout ce que les lettres taisent. Certaines périodes de plusieurs mois ne laissent aucune trace ; des difficultés sont évoquées puis aussitôt minimisées. Dans une lettre, la grande-tante affirme que « tout va pour le mieux », avant de demander discrètement qu’on lui envoie un remède qu’elle ne peut pas acheter. L’optimisme n’était-il qu’une protection destinée à la famille, ou une manière de se convaincre elle-même de tenir bon ?\n\nSa grand-mère complète parfois le récit, mais sa mémoire hésite. Elle corrige une date, revient sur un nom, admet qu’à l’époque les adultes ne disaient pas tout aux enfants. Camila comprend que l’archive ne livre pas une vérité intacte : elle conserve des fragments produits dans une situation particulière. Le silence lui-même devient une donnée, à condition de ne pas prétendre le remplir avec certitude.\n\nEn numérisant les documents, Camila cesse de chercher une origine simple qui expliquerait qui elle est. Elle découvre plutôt une constellation de départs, d’attachements et de récits révisés. Cette histoire familiale ne lui dicte aucune identité définitive. Elle lui donne des questions plus précises et une responsabilité : transmettre les lettres sans effacer leurs contradictions.\n\nPour approfondir la question, le groupe reprend le dossier en distinguant trois niveaux souvent confondus : les faits observables, l’interprétation qu’on en propose et les valeurs au nom desquelles on juge la situation. Cette méthode oblige chacun à préciser ses termes. Une archive ne peut plus servir de formule vague ; un récit linéaire doit être relié à un exemple, et minimiser à une conséquence vérifiable. Camila remarque que le désaccord devient plus fécond dès que les participants cessent de défendre une conclusion globale et examinent séparément les prémisses qui la soutiennent. Ils ne parviennent pas toujours au même jugement, mais ils comprennent mieux le point exact où leurs raisonnements se séparent.\n\nCette reprise modifie aussi la position de Camila. Elle était entrée dans la discussion avec une intuition forte, qu’elle prenait presque pour une évidence. En confrontant cette intuition aux objections, elle ne l’abandonne pas nécessairement ; elle apprend à en limiter la portée et à reconnaître ce qu’elle ne permet pas d’affirmer. Un fragment devient ainsi moins un mot à mémoriser qu’un outil pour penser. À la fin, Camila rédige une synthèse qui conserve les tensions au lieu de les résoudre artificiellement. Cette capacité à articuler des données, des voix et des incertitudes devient peu à peu une méthode de travail."
     },
     "transcript": "",
     "extra": null,
@@ -27883,16 +27883,16 @@
             "difficulty": "medium",
             "options": [
               {
+                "id": "o1",
+                "text": "était partie"
+              },
+              {
                 "id": "o2",
                 "text": "partit demain"
               },
               {
                 "id": "o3",
                 "text": "partait après"
-              },
-              {
-                "id": "o1",
-                "text": "était partie"
               },
               {
                 "id": "o4",
@@ -27907,6 +27907,10 @@
             "difficulty": "medium",
             "options": [
               {
+                "id": "o1",
+                "text": "du discours indirect libre"
+              },
+              {
                 "id": "o2",
                 "text": "d’un ordre direct"
               },
@@ -27917,10 +27921,6 @@
               {
                 "id": "o4",
                 "text": "d’un dialogue cité"
-              },
-              {
-                "id": "o1",
-                "text": "du discours indirect libre"
               }
             ]
           },
@@ -27955,12 +27955,12 @@
             "difficulty": "medium",
             "options": [
               {
-                "id": "o2",
-                "text": "annoncer un événement futur"
-              },
-              {
                 "id": "o1",
                 "text": "installer un cadre ou une durée"
+              },
+              {
+                "id": "o2",
+                "text": "annoncer un événement futur"
               },
               {
                 "id": "o3",
@@ -27979,16 +27979,16 @@
             "difficulty": "hard",
             "options": [
               {
+                "id": "o1",
+                "text": "une action antérieure à un autre passé"
+              },
+              {
                 "id": "o2",
                 "text": "une hypothèse future"
               },
               {
                 "id": "o3",
                 "text": "un fait simultané présent"
-              },
-              {
-                "id": "o1",
-                "text": "une action antérieure à un autre passé"
               },
               {
                 "id": "o4",
@@ -28007,16 +28007,16 @@
                 "text": "Camila pensa : « Je dois comprendre. »"
               },
               {
+                "id": "o2",
+                "text": "Pourquoi avait-on tant simplifié cette histoire ? Camila referma la lettre."
+              },
+              {
                 "id": "o3",
                 "text": "Camila dit qu’elle comprenait."
               },
               {
                 "id": "o4",
                 "text": "La lettre était ancienne."
-              },
-              {
-                "id": "o2",
-                "text": "Pourquoi avait-on tant simplifié cette histoire ? Camila referma la lettre."
               }
             ]
           }
@@ -28025,18 +28025,18 @@
       "grammarProfile": {
         "name": "Les temps du récit et le discours indirect libre",
         "definition": "Le passé simple structure les événements d’un récit soutenu, l’imparfait installe le cadre et le plus-que-parfait marque l’antériorité. Le discours indirect libre rapporte une pensée sans verbe introducteur ni guillemets, en conservant la perspective du personnage.",
-        "structure": "Forme à observer : Les temps du récit et le discours indirect libre. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
-        "function": "Maîtriser les temps du récit et le discours indirect libre dans un contexte argumentatif C1.",
+        "explanation": "Le passé simple structure les événements d’un récit soutenu, l’imparfait installe le cadre et le plus-que-parfait marque l’antériorité. Le discours indirect libre rapporte une pensée sans verbe introducteur ni guillemets, en conservant la perspective du personnage.",
+        "structure": "Estructura central: Les temps du récit et le discours indirect libre.",
+        "purpose": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
+        "function": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
+        "cefrLevel": "C1",
+        "unitContext": "Maîtriser les temps du récit et le discours indirect libre dans un contexte argumentatif C1.",
         "examples": [
           "La grand-mère lui confia une boîte, puis Camila l’ouvrit.",
           "La boîte attendait depuis des années dans l’armoire.",
           "La grande-tante était partie en France avant d’écrire ces lettres.",
           "du discours indirect libre"
-        ],
-        "explanation": "Le passé simple structure les événements d’un récit soutenu, l’imparfait installe le cadre et le plus-que-parfait marque l’antériorité. Le discours indirect libre rapporte une pensée sans verbe introducteur ni guillemets, en conservant la perspective du personnage.",
-        "purpose": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
-        "cefrLevel": "C1",
-        "unitContext": "Maîtriser les temps du récit et le discours indirect libre dans un contexte argumentatif C1."
+        ]
       },
       "listeningComprehension": null
     },
@@ -28220,12 +28220,12 @@
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
-                "id": "c",
-                "text": "Parce que la question complexe, alors le résultat forcément."
-              },
-              {
                 "id": "b",
                 "text": "La présence simultanée de deux modes est corrélée à de meilleurs scores, sans pour autant en constituer nécessairement la cause."
+              },
+              {
+                "id": "c",
+                "text": "Parce que la question complexe, alors le résultat forcément."
               },
               {
                 "id": "d",
@@ -28248,12 +28248,12 @@
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
-                "id": "d",
-                "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
-              },
-              {
                 "id": "c",
                 "text": "Elle emploie les connecteurs de cause, corrélation et conséquence afin de éviter de transformer une association statistique en mécanisme causal : « La présence simultanée de deux modes est corrélée à de meilleurs scores, sans pour autant en constituer nécessairement la cause. »"
+              },
+              {
+                "id": "d",
+                "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
               }
             ]
           },
@@ -28264,16 +28264,16 @@
             "difficulty": "analysis",
             "options": [
               {
-                "id": "c",
-                "text": "Puisque les légendes répétaient exactement la narration, elles ont pu accroître la charge cognitive."
-              },
-              {
                 "id": "a",
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
                 "id": "b",
                 "text": "Parce que la question complexe, alors le résultat forcément."
+              },
+              {
+                "id": "c",
+                "text": "Puisque les légendes répétaient exactement la narration, elles ont pu accroître la charge cognitive."
               },
               {
                 "id": "d",
@@ -28292,16 +28292,16 @@
                 "text": "Elle remplace les preuves par une affirmation absolue."
               },
               {
-                "id": "d",
-                "text": "Elle emploie les connecteurs de cause, corrélation et conséquence afin de éviter de transformer une association statistique en mécanisme causal : « Puisque les légendes répétaient exactement la narration, elles ont pu accroître la charge cognitive. »"
-              },
-              {
                 "id": "b",
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
                 "id": "c",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
+              },
+              {
+                "id": "d",
+                "text": "Elle emploie les connecteurs de cause, corrélation et conséquence afin de éviter de transformer une association statistique en mécanisme causal : « Puisque les légendes répétaient exactement la narration, elles ont pu accroître la charge cognitive. »"
               }
             ]
           },
@@ -28320,12 +28320,12 @@
                 "text": "Parce que la question complexe, alors le résultat forcément."
               },
               {
-                "id": "d",
-                "text": "Les résultats diffèrent selon la complexité du support, de sorte qu’une recommandation unique serait prématurée."
-              },
-              {
                 "id": "c",
                 "text": "La thèse est étant vraie par les mots qui ont utilisé."
+              },
+              {
+                "id": "d",
+                "text": "Les résultats diffèrent selon la complexité du support, de sorte qu’une recommandation unique serait prématurée."
               }
             ]
           },
@@ -28335,6 +28335,10 @@
             "prompt": "Pourquoi l’exemple 4 convient-il à cette unité ?",
             "difficulty": "precision",
             "options": [
+              {
+                "id": "a",
+                "text": "Elle emploie les connecteurs de cause, corrélation et conséquence afin de éviter de transformer une association statistique en mécanisme causal : « Les résultats diffèrent selon la complexité du support, de sorte qu’une recommandation unique serait prématurée. »"
+              },
               {
                 "id": "b",
                 "text": "Elle remplace les preuves par une affirmation absolue."
@@ -28346,10 +28350,6 @@
               {
                 "id": "d",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
-              },
-              {
-                "id": "a",
-                "text": "Elle emploie les connecteurs de cause, corrélation et conséquence afin de éviter de transformer une association statistique en mécanisme causal : « Les résultats diffèrent selon la complexité du support, de sorte qu’une recommandation unique serait prématurée. »"
               }
             ]
           }
@@ -30067,7 +30067,7 @@
         "Le groupe examine ensuite un programme de bourses. Son règlement traite tous les candidats de manière identique, mais exige des justificatifs complexes que certaines familles ont du mal à fournir. L’égalité formelle de la procédure produit donc des effets inégaux. Une simplification ciblée constituerait-elle un privilège injuste ou une correction nécessaire ? Le débat révèle que l’équité ne consiste pas forcément à distribuer la même chose à chacun.",
         "Camila conclut que le mérite peut rester une notion utile à condition de ne pas devenir une explication totale. Les parcours résultent d’initiatives personnelles, d’institutions et de circonstances parfois invisibles. Loin d’abolir la responsabilité individuelle, cette lecture la replace dans un cadre plus honnête, où l’on peut demander à la fois ce que chacun fait et ce que la collectivité rend possible.",
         "Pour approfondir la question, le groupe reprend le dossier en distinguant trois niveaux souvent confondus : les faits observables, l’interprétation qu’on en propose et les valeurs au nom desquelles on juge la situation. Cette méthode oblige chacun à préciser ses termes. La méritocratie ne peut plus servir de formule vague ; l’équité doit être relié à un exemple, et déterministe à une conséquence vérifiable. Camila remarque que le désaccord devient plus fécond dès que les participants cessent de défendre une conclusion globale et examinent séparément les prémisses qui la soutiennent. Ils ne parviennent pas toujours au même jugement, mais ils comprennent mieux le point exact où leurs raisonnements se séparent.",
-        "Cette reprise modifie aussi la position de Camila. Elle était entrée dans la discussion avec une intuition forte, qu’elle prenait presque pour une évidence. En confrontant cette intuition aux objections, elle ne l’abandonne pas nécessairement ; elle apprend à en limiter la portée et à reconnaître ce qu’elle ne permet pas d’affirmer. Un justificatif devient ainsi moins un mot à mémoriser qu’un outil pour penser. À la fin, Camila rédige une synthèse qui conserve les tensions au lieu de les résoudre artificiellement. C’est précisément cette capacité à articuler des données, des voix et des incertitudes qui caractérise désormais son travail de niveau C1."
+        "Cette reprise modifie aussi la position de Camila. Elle était entrée dans la discussion avec une intuition forte, qu’elle prenait presque pour une évidence. En confrontant cette intuition aux objections, elle ne l’abandonne pas nécessairement ; elle apprend à en limiter la portée et à reconnaître ce qu’elle ne permet pas d’affirmer. Un justificatif devient ainsi moins un mot à mémoriser qu’un outil pour penser. À la fin, Camila rédige une synthèse qui conserve les tensions au lieu de les résoudre artificiellement. Cette capacité à articuler des données, des voix et des incertitudes devient peu à peu une méthode de travail."
       ],
       "questions": [
         "Quelle limite du mérite est présentée au début ?",
@@ -30076,7 +30076,7 @@
         "Pourquoi la procédure de bourse pose-t-elle problème ?",
         "Comment le texte définit-il implicitement l’équité ?"
       ],
-      "text": "Le séminaire commence par une affirmation apparemment consensuelle : chacun devrait réussir grâce à son travail. La discussion se tend lorsqu’une étudiante ajoute que les résultats scolaires reflètent aussi les ressources disponibles avant même l’entrée à l’université. Certains disposent d’un logement calme, de temps et de réseaux informés ; d’autres cumulent emploi, transport et démarches administratives.\n\nThomas redoute qu’insister sur ces écarts ne décourage l’effort individuel. Selon lui, reconnaître le mérite protège les étudiants contre une vision déterministe de leur avenir. Camila comprend cette inquiétude, mais elle remarque que l’argument change de sens lorsqu’il sert à présenter toute difficulté comme un manque de volonté. Valoriser l’effort n’oblige pas à nier les conditions qui le rendent plus ou moins coûteux.\n\nLe groupe examine ensuite un programme de bourses. Son règlement traite tous les candidats de manière identique, mais exige des justificatifs complexes que certaines familles ont du mal à fournir. L’égalité formelle de la procédure produit donc des effets inégaux. Une simplification ciblée constituerait-elle un privilège injuste ou une correction nécessaire ? Le débat révèle que l’équité ne consiste pas forcément à distribuer la même chose à chacun.\n\nCamila conclut que le mérite peut rester une notion utile à condition de ne pas devenir une explication totale. Les parcours résultent d’initiatives personnelles, d’institutions et de circonstances parfois invisibles. Loin d’abolir la responsabilité individuelle, cette lecture la replace dans un cadre plus honnête, où l’on peut demander à la fois ce que chacun fait et ce que la collectivité rend possible.\n\nPour approfondir la question, le groupe reprend le dossier en distinguant trois niveaux souvent confondus : les faits observables, l’interprétation qu’on en propose et les valeurs au nom desquelles on juge la situation. Cette méthode oblige chacun à préciser ses termes. La méritocratie ne peut plus servir de formule vague ; l’équité doit être relié à un exemple, et déterministe à une conséquence vérifiable. Camila remarque que le désaccord devient plus fécond dès que les participants cessent de défendre une conclusion globale et examinent séparément les prémisses qui la soutiennent. Ils ne parviennent pas toujours au même jugement, mais ils comprennent mieux le point exact où leurs raisonnements se séparent.\n\nCette reprise modifie aussi la position de Camila. Elle était entrée dans la discussion avec une intuition forte, qu’elle prenait presque pour une évidence. En confrontant cette intuition aux objections, elle ne l’abandonne pas nécessairement ; elle apprend à en limiter la portée et à reconnaître ce qu’elle ne permet pas d’affirmer. Un justificatif devient ainsi moins un mot à mémoriser qu’un outil pour penser. À la fin, Camila rédige une synthèse qui conserve les tensions au lieu de les résoudre artificiellement. C’est précisément cette capacité à articuler des données, des voix et des incertitudes qui caractérise désormais son travail de niveau C1."
+      "text": "Le séminaire commence par une affirmation apparemment consensuelle : chacun devrait réussir grâce à son travail. La discussion se tend lorsqu’une étudiante ajoute que les résultats scolaires reflètent aussi les ressources disponibles avant même l’entrée à l’université. Certains disposent d’un logement calme, de temps et de réseaux informés ; d’autres cumulent emploi, transport et démarches administratives.\n\nThomas redoute qu’insister sur ces écarts ne décourage l’effort individuel. Selon lui, reconnaître le mérite protège les étudiants contre une vision déterministe de leur avenir. Camila comprend cette inquiétude, mais elle remarque que l’argument change de sens lorsqu’il sert à présenter toute difficulté comme un manque de volonté. Valoriser l’effort n’oblige pas à nier les conditions qui le rendent plus ou moins coûteux.\n\nLe groupe examine ensuite un programme de bourses. Son règlement traite tous les candidats de manière identique, mais exige des justificatifs complexes que certaines familles ont du mal à fournir. L’égalité formelle de la procédure produit donc des effets inégaux. Une simplification ciblée constituerait-elle un privilège injuste ou une correction nécessaire ? Le débat révèle que l’équité ne consiste pas forcément à distribuer la même chose à chacun.\n\nCamila conclut que le mérite peut rester une notion utile à condition de ne pas devenir une explication totale. Les parcours résultent d’initiatives personnelles, d’institutions et de circonstances parfois invisibles. Loin d’abolir la responsabilité individuelle, cette lecture la replace dans un cadre plus honnête, où l’on peut demander à la fois ce que chacun fait et ce que la collectivité rend possible.\n\nPour approfondir la question, le groupe reprend le dossier en distinguant trois niveaux souvent confondus : les faits observables, l’interprétation qu’on en propose et les valeurs au nom desquelles on juge la situation. Cette méthode oblige chacun à préciser ses termes. La méritocratie ne peut plus servir de formule vague ; l’équité doit être relié à un exemple, et déterministe à une conséquence vérifiable. Camila remarque que le désaccord devient plus fécond dès que les participants cessent de défendre une conclusion globale et examinent séparément les prémisses qui la soutiennent. Ils ne parviennent pas toujours au même jugement, mais ils comprennent mieux le point exact où leurs raisonnements se séparent.\n\nCette reprise modifie aussi la position de Camila. Elle était entrée dans la discussion avec une intuition forte, qu’elle prenait presque pour une évidence. En confrontant cette intuition aux objections, elle ne l’abandonne pas nécessairement ; elle apprend à en limiter la portée et à reconnaître ce qu’elle ne permet pas d’affirmer. Un justificatif devient ainsi moins un mot à mémoriser qu’un outil pour penser. À la fin, Camila rédige une synthèse qui conserve les tensions au lieu de les résoudre artificiellement. Cette capacité à articuler des données, des voix et des incertitudes devient peu à peu une méthode de travail."
     },
     "transcript": "",
     "extra": null,
@@ -33701,12 +33701,12 @@
             "difficulty": "easy",
             "options": [
               {
-                "id": "o2",
-                "text": "parce que"
-              },
-              {
                 "id": "o1",
                 "text": "néanmoins"
+              },
+              {
+                "id": "o2",
+                "text": "parce que"
               },
               {
                 "id": "o3",
@@ -33729,12 +33729,12 @@
                 "text": "ont"
               },
               {
-                "id": "o3",
-                "text": "auront"
-              },
-              {
                 "id": "o2",
                 "text": "aient"
+              },
+              {
+                "id": "o3",
+                "text": "auront"
               },
               {
                 "id": "o4",
@@ -33753,16 +33753,16 @@
                 "text": "supprime"
               },
               {
+                "id": "o2",
+                "text": "supprimer"
+              },
+              {
                 "id": "o3",
                 "text": "supprimé"
               },
               {
                 "id": "o4",
                 "text": "supprimant que"
-              },
-              {
-                "id": "o2",
-                "text": "supprimer"
               }
             ]
           },
@@ -33797,12 +33797,12 @@
             "difficulty": "medium",
             "options": [
               {
-                "id": "o2",
-                "text": "Bien que de"
-              },
-              {
                 "id": "o1",
                 "text": "Au lieu de"
+              },
+              {
+                "id": "o2",
+                "text": "Bien que de"
               },
               {
                 "id": "o3",
@@ -33825,12 +33825,12 @@
                 "text": "C’est vrai mais bon."
               },
               {
-                "id": "o3",
-                "text": "La règle est pareille et voilà."
-              },
-              {
                 "id": "o2",
                 "text": "Certes la règle est uniforme ; néanmoins, ses effets restent inégaux."
+              },
+              {
+                "id": "o3",
+                "text": "La règle est pareille et voilà."
               },
               {
                 "id": "o4",
@@ -33845,6 +33845,10 @@
             "difficulty": "hard",
             "options": [
               {
+                "id": "o1",
+                "text": "le subjonctif après non que"
+              },
+              {
                 "id": "o2",
                 "text": "le futur après non que"
               },
@@ -33855,10 +33859,6 @@
               {
                 "id": "o4",
                 "text": "l’indicatif obligatoire"
-              },
-              {
-                "id": "o1",
-                "text": "le subjonctif après non que"
               }
             ]
           }
@@ -33867,18 +33867,18 @@
       "grammarProfile": {
         "name": "Les articulateurs logiques et la réfutation",
         "definition": "Une argumentation C1 articule concession, réfutation et reformulation : « certes..., néanmoins... », « encore faut-il que... », « loin de..., cette mesure... ». Ces structures évitent la juxtaposition d’opinions et rendent explicite le rapport logique entre les propositions.",
-        "structure": "Forme à observer : Les articulateurs logiques et la réfutation. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
-        "function": "Maîtriser les articulateurs logiques et la réfutation dans un contexte argumentatif C1.",
+        "explanation": "Une argumentation C1 articule concession, réfutation et reformulation : « certes..., néanmoins... », « encore faut-il que... », « loin de..., cette mesure... ». Ces structures évitent la juxtaposition d’opinions et rendent explicite le rapport logique entre les propositions.",
+        "structure": "Estructura central: Les articulateurs logiques et la réfutation.",
+        "purpose": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
+        "function": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
+        "cefrLevel": "C1",
+        "unitContext": "Maîtriser les articulateurs logiques et la réfutation dans un contexte argumentatif C1.",
         "examples": [
           "Certes le mérite compte, il n’explique pas tout.",
           "La procédure est identique ; néanmoins, ses effets diffèrent.",
           "Encore faut-il que les candidats aient accès à l’information.",
           "Loin de supprimer la responsabilité, cette analyse la précise."
-        ],
-        "explanation": "Une argumentation C1 articule concession, réfutation et reformulation : « certes..., néanmoins... », « encore faut-il que... », « loin de..., cette mesure... ». Ces structures évitent la juxtaposition d’opinions et rendent explicite le rapport logique entre les propositions.",
-        "purpose": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
-        "cefrLevel": "C1",
-        "unitContext": "Maîtriser les articulateurs logiques et la réfutation dans un contexte argumentatif C1."
+        ]
       },
       "listeningComprehension": null
     },
@@ -34062,12 +34062,12 @@
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
-                "id": "c",
-                "text": "Parce que la question complexe, alors le résultat forcément."
-              },
-              {
                 "id": "b",
                 "text": "Selon l’enseignante, la négociation avait facilité la compréhension ; les auteurs, eux, attribuent une partie du gain à la répétition."
+              },
+              {
+                "id": "c",
+                "text": "Parce que la question complexe, alors le résultat forcément."
               },
               {
                 "id": "d",
@@ -34090,12 +34090,12 @@
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
-                "id": "d",
-                "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
-              },
-              {
                 "id": "c",
                 "text": "Elle emploie la polyphonie et le discours rapporté complexe afin de attribuer correctement résultats, interprétations et réserves aux chercheurs : « Selon l’enseignante, la négociation avait facilité la compréhension ; les auteurs, eux, attribuent une partie du gain à la répétition. »"
+              },
+              {
+                "id": "d",
+                "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
               }
             ]
           },
@@ -34106,16 +34106,16 @@
             "difficulty": "analysis",
             "options": [
               {
-                "id": "c",
-                "text": "Un participant affirme avoir remarqué ses lacunes, tandis qu’un autre dit avoir seulement reformulé pour terminer la tâche."
-              },
-              {
                 "id": "a",
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
                 "id": "b",
                 "text": "Parce que la question complexe, alors le résultat forcément."
+              },
+              {
+                "id": "c",
+                "text": "Un participant affirme avoir remarqué ses lacunes, tandis qu’un autre dit avoir seulement reformulé pour terminer la tâche."
               },
               {
                 "id": "d",
@@ -34134,16 +34134,16 @@
                 "text": "Elle remplace les preuves par une affirmation absolue."
               },
               {
-                "id": "d",
-                "text": "Elle emploie la polyphonie et le discours rapporté complexe afin de attribuer correctement résultats, interprétations et réserves aux chercheurs : « Un participant affirme avoir remarqué ses lacunes, tandis qu’un autre dit avoir seulement reformulé pour terminer la tâche. »"
-              },
-              {
                 "id": "b",
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
                 "id": "c",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
+              },
+              {
+                "id": "d",
+                "text": "Elle emploie la polyphonie et le discours rapporté complexe afin de attribuer correctement résultats, interprétations et réserves aux chercheurs : « Un participant affirme avoir remarqué ses lacunes, tandis qu’un autre dit avoir seulement reformulé pour terminer la tâche. »"
               }
             ]
           },
@@ -34162,12 +34162,12 @@
                 "text": "Parce que la question complexe, alors le résultat forcément."
               },
               {
-                "id": "d",
-                "text": "Les chercheurs rappellent que ce que les apprenants déclarent ne se confond pas avec ce que l’analyse permet d’inférer."
-              },
-              {
                 "id": "c",
                 "text": "La thèse est étant vraie par les mots qui ont utilisé."
+              },
+              {
+                "id": "d",
+                "text": "Les chercheurs rappellent que ce que les apprenants déclarent ne se confond pas avec ce que l’analyse permet d’inférer."
               }
             ]
           },
@@ -34177,6 +34177,10 @@
             "prompt": "Pourquoi l’exemple 4 convient-il à cette unité ?",
             "difficulty": "precision",
             "options": [
+              {
+                "id": "a",
+                "text": "Elle emploie la polyphonie et le discours rapporté complexe afin de attribuer correctement résultats, interprétations et réserves aux chercheurs : « Les chercheurs rappellent que ce que les apprenants déclarent ne se confond pas avec ce que l’analyse permet d’inférer. »"
+              },
               {
                 "id": "b",
                 "text": "Elle remplace les preuves par une affirmation absolue."
@@ -34188,10 +34192,6 @@
               {
                 "id": "d",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
-              },
-              {
-                "id": "a",
-                "text": "Elle emploie la polyphonie et le discours rapporté complexe afin de attribuer correctement résultats, interprétations et réserves aux chercheurs : « Les chercheurs rappellent que ce que les apprenants déclarent ne se confond pas avec ce que l’analyse permet d’inférer. »"
               }
             ]
           }
@@ -35883,7 +35883,7 @@
         "Une association répond qu’opposer comportements et infrastructures serait une erreur. Les habitudes peuvent changer rapidement, tandis que les travaux prennent des années. Encore faut-il que les efforts demandés soient proportionnés et que l’institution publie ses propres progrès. Sans indicateurs transparents, la responsabilité collective devient un slogan qui exige beaucoup des individus sans permettre d’évaluer les décideurs.",
         "Le rapport final combine rénovation prioritaire, horaires adaptés et accompagnement des usages. Camila retient surtout que la sobriété n’est pas une simple réduction uniforme. Elle suppose de distinguer ce qui est superflu de ce qui garantit l’accès aux études. Une politique écologique crédible ne mesure donc pas seulement l’énergie économisée ; elle examine aussi qui supporte le coût de la transition.",
         "Pour approfondir la question, le groupe reprend le dossier en distinguant trois niveaux souvent confondus : les faits observables, l’interprétation qu’on en propose et les valeurs au nom desquelles on juge la situation. Cette méthode oblige chacun à préciser ses termes. La sobriété énergétique ne peut plus servir de formule vague ; énergivore doit être relié à un exemple, et un arbitrage à une conséquence vérifiable. Camila remarque que le désaccord devient plus fécond dès que les participants cessent de défendre une conclusion globale et examinent séparément les prémisses qui la soutiennent. Ils ne parviennent pas toujours au même jugement, mais ils comprennent mieux le point exact où leurs raisonnements se séparent.",
-        "Cette reprise modifie aussi la position de Camila. Elle était entrée dans la discussion avec une intuition forte, qu’elle prenait presque pour une évidence. En confrontant cette intuition aux objections, elle ne l’abandonne pas nécessairement ; elle apprend à en limiter la portée et à reconnaître ce qu’elle ne permet pas d’affirmer. Structurel(le) devient ainsi moins un mot à mémoriser qu’un outil pour penser. À la fin, Camila rédige une synthèse qui conserve les tensions au lieu de les résoudre artificiellement. C’est précisément cette capacité à articuler des données, des voix et des incertitudes qui caractérise désormais son travail de niveau C1."
+        "Cette reprise modifie aussi la position de Camila. Elle était entrée dans la discussion avec une intuition forte, qu’elle prenait presque pour une évidence. En confrontant cette intuition aux objections, elle ne l’abandonne pas nécessairement ; elle apprend à en limiter la portée et à reconnaître ce qu’elle ne permet pas d’affirmer. Structurel(le) devient ainsi moins un mot à mémoriser qu’un outil pour penser. À la fin, Camila rédige une synthèse qui conserve les tensions au lieu de les résoudre artificiellement. Cette capacité à articuler des données, des voix et des incertitudes devient peu à peu une méthode de travail."
       ],
       "questions": [
         "Pourquoi fermer la bibliothèque pose-t-il problème ?",
@@ -35892,7 +35892,7 @@
         "Quelle position adopte l’association ?",
         "Pourquoi les indicateurs sont-ils importants ?"
       ],
-      "text": "L’université annonce un objectif ambitieux : réduire de moitié ses émissions en dix ans. Les premières propositions paraissent simples — baisser le chauffage, limiter les déplacements, fermer certains bâtiments le soir — jusqu’à ce que les étudiants décrivent leurs conséquences concrètes. La bibliothèque tardive accueille ceux qui ne peuvent pas travailler chez eux ; certaines formations exigent des laboratoires énergivores ; les étudiants éloignés dépendent de transports encore peu fréquents.\n\nCamila rejoint un groupe chargé d’étudier les usages plutôt que de défendre une solution unique. Les relevés montrent que deux bâtiments mal isolés consomment davantage que plusieurs résidences réunies. Pourtant, leur rénovation coûte cher et produira des résultats moins visibles qu’une campagne demandant à chacun d’éteindre la lumière. Le groupe s’interroge : privilégier les gestes individuels ne risque-t-il pas de détourner l’attention des décisions structurelles ?\n\nUne association répond qu’opposer comportements et infrastructures serait une erreur. Les habitudes peuvent changer rapidement, tandis que les travaux prennent des années. Encore faut-il que les efforts demandés soient proportionnés et que l’institution publie ses propres progrès. Sans indicateurs transparents, la responsabilité collective devient un slogan qui exige beaucoup des individus sans permettre d’évaluer les décideurs.\n\nLe rapport final combine rénovation prioritaire, horaires adaptés et accompagnement des usages. Camila retient surtout que la sobriété n’est pas une simple réduction uniforme. Elle suppose de distinguer ce qui est superflu de ce qui garantit l’accès aux études. Une politique écologique crédible ne mesure donc pas seulement l’énergie économisée ; elle examine aussi qui supporte le coût de la transition.\n\nPour approfondir la question, le groupe reprend le dossier en distinguant trois niveaux souvent confondus : les faits observables, l’interprétation qu’on en propose et les valeurs au nom desquelles on juge la situation. Cette méthode oblige chacun à préciser ses termes. La sobriété énergétique ne peut plus servir de formule vague ; énergivore doit être relié à un exemple, et un arbitrage à une conséquence vérifiable. Camila remarque que le désaccord devient plus fécond dès que les participants cessent de défendre une conclusion globale et examinent séparément les prémisses qui la soutiennent. Ils ne parviennent pas toujours au même jugement, mais ils comprennent mieux le point exact où leurs raisonnements se séparent.\n\nCette reprise modifie aussi la position de Camila. Elle était entrée dans la discussion avec une intuition forte, qu’elle prenait presque pour une évidence. En confrontant cette intuition aux objections, elle ne l’abandonne pas nécessairement ; elle apprend à en limiter la portée et à reconnaître ce qu’elle ne permet pas d’affirmer. Structurel(le) devient ainsi moins un mot à mémoriser qu’un outil pour penser. À la fin, Camila rédige une synthèse qui conserve les tensions au lieu de les résoudre artificiellement. C’est précisément cette capacité à articuler des données, des voix et des incertitudes qui caractérise désormais son travail de niveau C1."
+      "text": "L’université annonce un objectif ambitieux : réduire de moitié ses émissions en dix ans. Les premières propositions paraissent simples — baisser le chauffage, limiter les déplacements, fermer certains bâtiments le soir — jusqu’à ce que les étudiants décrivent leurs conséquences concrètes. La bibliothèque tardive accueille ceux qui ne peuvent pas travailler chez eux ; certaines formations exigent des laboratoires énergivores ; les étudiants éloignés dépendent de transports encore peu fréquents.\n\nCamila rejoint un groupe chargé d’étudier les usages plutôt que de défendre une solution unique. Les relevés montrent que deux bâtiments mal isolés consomment davantage que plusieurs résidences réunies. Pourtant, leur rénovation coûte cher et produira des résultats moins visibles qu’une campagne demandant à chacun d’éteindre la lumière. Le groupe s’interroge : privilégier les gestes individuels ne risque-t-il pas de détourner l’attention des décisions structurelles ?\n\nUne association répond qu’opposer comportements et infrastructures serait une erreur. Les habitudes peuvent changer rapidement, tandis que les travaux prennent des années. Encore faut-il que les efforts demandés soient proportionnés et que l’institution publie ses propres progrès. Sans indicateurs transparents, la responsabilité collective devient un slogan qui exige beaucoup des individus sans permettre d’évaluer les décideurs.\n\nLe rapport final combine rénovation prioritaire, horaires adaptés et accompagnement des usages. Camila retient surtout que la sobriété n’est pas une simple réduction uniforme. Elle suppose de distinguer ce qui est superflu de ce qui garantit l’accès aux études. Une politique écologique crédible ne mesure donc pas seulement l’énergie économisée ; elle examine aussi qui supporte le coût de la transition.\n\nPour approfondir la question, le groupe reprend le dossier en distinguant trois niveaux souvent confondus : les faits observables, l’interprétation qu’on en propose et les valeurs au nom desquelles on juge la situation. Cette méthode oblige chacun à préciser ses termes. La sobriété énergétique ne peut plus servir de formule vague ; énergivore doit être relié à un exemple, et un arbitrage à une conséquence vérifiable. Camila remarque que le désaccord devient plus fécond dès que les participants cessent de défendre une conclusion globale et examinent séparément les prémisses qui la soutiennent. Ils ne parviennent pas toujours au même jugement, mais ils comprennent mieux le point exact où leurs raisonnements se séparent.\n\nCette reprise modifie aussi la position de Camila. Elle était entrée dans la discussion avec une intuition forte, qu’elle prenait presque pour une évidence. En confrontant cette intuition aux objections, elle ne l’abandonne pas nécessairement ; elle apprend à en limiter la portée et à reconnaître ce qu’elle ne permet pas d’affirmer. Structurel(le) devient ainsi moins un mot à mémoriser qu’un outil pour penser. À la fin, Camila rédige une synthèse qui conserve les tensions au lieu de les résoudre artificiellement. Cette capacité à articuler des données, des voix et des incertitudes devient peu à peu une méthode de travail."
     },
     "transcript": "",
     "extra": null,
@@ -35978,7 +35978,7 @@
         "La question « Corriger davantage signifie-t-il enseigner mieux ? » occupe une place centrale dans la science contemporaine de l’apprentissage. Une correction peut rendre une forme immédiatement visible, mais une accumulation de remarques peut aussi saturer l’attention et réduire la volonté de communiquer. Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et la recommandation pédagogique que l’on souhaite en tirer. Ces trois niveaux se soutiennent, mais ils ne sont pas interchangeables : une observation cérébrale ne prescrit pas directement une méthode, et une activité appréciée ne prouve pas à elle seule un apprentissage durable.\n\nLa méta-analyse de Lyster et Saito, fondée sur quinze études de classe et 827 apprenants, a trouvé des effets significatifs et durables du feedback oral. Les invitations à produire une correction obtenaient en moyenne des effets plus importants que les reformulations fournies par l’enseignant, notamment dans des tâches exigeant une réponse construite. Ce résultat ne transforme pas une technique en gagnante universelle : l’âge, la durée, la cible linguistique et la possibilité de percevoir l’erreur modifiaient les résultats.",
         "Une reformulation implicite conserve le rythme de la conversation, mais l’apprenant peut l’interpréter comme une simple confirmation du sens. Une correction explicite réduit cette ambiguïté, au risque d’interrompre davantage. Une invite — « Peux-tu le dire autrement ? » — engage la récupération et révèle si la forme est disponible. Pour apprendre, le feedback doit être remarqué, compris puis réutilisé. Sa valeur ne réside donc pas seulement dans la justesse de l’information, mais dans le traitement cognitif et affectif qu’il déclenche.",
         "Les études distinguent uptake immédiat, réparation réussie et acquisition différée. Répéter correctement après l’enseignant peut n’être qu’une imitation momentanée ; employer la structure dans une nouvelle situation fournit une preuve plus forte. Les chercheurs doivent aussi vérifier que les groupes ont reçu une quantité comparable de pratique. Sans cette précaution, l’avantage attribué au feedback peut provenir du temps supplémentaire consacré à la forme. Les conclusions dépendent enfin de la fiabilité avec laquelle les erreurs et réactions sont codées.",
-        "La norme ciblée mérite elle-même examen. Corriger une forme qui bloque le sens n’a pas le même enjeu que supprimer une variante sociale ou régionale intelligible. Un enseignement responsable distingue erreur développementale, choix de registre et diversité linguistique. À un niveau C2, le feedback peut porter sur la portée d’un modal, la cohésion ou une connotation, plutôt que sur une conformité abstraite au locuteur natif. La précision recherchée doit servir l’intention et le contexte.\n\nLe feedback automatisé ajoute une difficulté : un système peut signaler rapidement des motifs, mais manquer le but discursif ou proposer une correction erronée. Même un enseignant humain doit sélectionner. Trop d’informations simultanées empêchent l’apprenant d’établir une priorité, tandis qu’une correction sans explication peut devenir dépendance. Les préférences déclarées ne prédisent pas toujours les gains : certains souhaitent une correction exhaustive qu’ils ne peuvent réellement traiter pendant une conversation.",
+        "La norme ciblée mérite elle-même examen. Corriger une forme qui bloque le sens n’a pas le même enjeu que supprimer une variante sociale ou régionale intelligible. Un enseignement responsable distingue erreur développementale, choix de registre et diversité linguistique. Dans une pratique avancée, le feedback peut porter sur la portée d’un modal, la cohésion ou une connotation, plutôt que sur une conformité abstraite au locuteur natif. La précision recherchée doit servir l’intention et le contexte.\n\nLe feedback automatisé ajoute une difficulté : un système peut signaler rapidement des motifs, mais manquer le but discursif ou proposer une correction erronée. Même un enseignant humain doit sélectionner. Trop d’informations simultanées empêchent l’apprenant d’établir une priorité, tandis qu’une correction sans explication peut devenir dépendance. Les préférences déclarées ne prédisent pas toujours les gains : certains souhaitent une correction exhaustive qu’ils ne peuvent réellement traiter pendant une conversation.",
         "Une procédure efficace annonce d’abord le contrat : quelle dimension sera observée et à quel moment le feedback arrivera-t-il ? Pendant la tâche, on collecte quelques exemples. Après la première tentative, l’apprenant identifie le problème, reçoit un indice gradué, reformule et réemploie la structure dans un nouveau message. Les autres erreurs sont conservées pour une séance ultérieure. Cette sélection protège la communication tout en donnant à la correction une trajectoire complète, du repérage au transfert.",
         "Corriger davantage ne signifie donc pas enseigner mieux. Le feedback devient apprentissage lorsqu’il cible une priorité, respecte la diversité, exige un traitement actif et vérifie le réemploi. Une correction parfaite mais oubliée vaut moins qu’un indice compris et mobilisé. L’enseignant — ou le tuteur numérique — doit ainsi agir moins comme un détecteur permanent que comme un guide capable de choisir le moment, le niveau d’explication et la prochaine occasion de pratique. En définitive, le feedback est efficace lorsqu’il est sélectif, compréhensible, actif et suivi d’une occasion de transfert. Cette conclusion reste révisable : elle vaut dans les limites des populations, des tâches et des mesures étudiées. Pour le lecteur C2, l’enjeu consiste précisément à conserver ensemble la force d’un résultat et les conditions qui en bornent la portée, sans réduire l’incertitude à l’ignorance ni transformer une moyenne en destin individuel."
       ],
@@ -36009,7 +36009,7 @@
           "url": "https://www.cambridge.org/core/journals/recall/article/effectiveness-of-automatic-speech-recognition-in-eslefl-pronunciation-a-metaanalysis/A915444CF252B61D14961D2FE733822D"
         }
       ],
-      "text": "La question « Corriger davantage signifie-t-il enseigner mieux ? » occupe une place centrale dans la science contemporaine de l’apprentissage. Une correction peut rendre une forme immédiatement visible, mais une accumulation de remarques peut aussi saturer l’attention et réduire la volonté de communiquer. Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et la recommandation pédagogique que l’on souhaite en tirer. Ces trois niveaux se soutiennent, mais ils ne sont pas interchangeables : une observation cérébrale ne prescrit pas directement une méthode, et une activité appréciée ne prouve pas à elle seule un apprentissage durable.\n\nLa méta-analyse de Lyster et Saito, fondée sur quinze études de classe et 827 apprenants, a trouvé des effets significatifs et durables du feedback oral. Les invitations à produire une correction obtenaient en moyenne des effets plus importants que les reformulations fournies par l’enseignant, notamment dans des tâches exigeant une réponse construite. Ce résultat ne transforme pas une technique en gagnante universelle : l’âge, la durée, la cible linguistique et la possibilité de percevoir l’erreur modifiaient les résultats.\n\nUne reformulation implicite conserve le rythme de la conversation, mais l’apprenant peut l’interpréter comme une simple confirmation du sens. Une correction explicite réduit cette ambiguïté, au risque d’interrompre davantage. Une invite — « Peux-tu le dire autrement ? » — engage la récupération et révèle si la forme est disponible. Pour apprendre, le feedback doit être remarqué, compris puis réutilisé. Sa valeur ne réside donc pas seulement dans la justesse de l’information, mais dans le traitement cognitif et affectif qu’il déclenche.\n\nLes études distinguent uptake immédiat, réparation réussie et acquisition différée. Répéter correctement après l’enseignant peut n’être qu’une imitation momentanée ; employer la structure dans une nouvelle situation fournit une preuve plus forte. Les chercheurs doivent aussi vérifier que les groupes ont reçu une quantité comparable de pratique. Sans cette précaution, l’avantage attribué au feedback peut provenir du temps supplémentaire consacré à la forme. Les conclusions dépendent enfin de la fiabilité avec laquelle les erreurs et réactions sont codées.\n\nLa norme ciblée mérite elle-même examen. Corriger une forme qui bloque le sens n’a pas le même enjeu que supprimer une variante sociale ou régionale intelligible. Un enseignement responsable distingue erreur développementale, choix de registre et diversité linguistique. À un niveau C2, le feedback peut porter sur la portée d’un modal, la cohésion ou une connotation, plutôt que sur une conformité abstraite au locuteur natif. La précision recherchée doit servir l’intention et le contexte.\n\nLe feedback automatisé ajoute une difficulté : un système peut signaler rapidement des motifs, mais manquer le but discursif ou proposer une correction erronée. Même un enseignant humain doit sélectionner. Trop d’informations simultanées empêchent l’apprenant d’établir une priorité, tandis qu’une correction sans explication peut devenir dépendance. Les préférences déclarées ne prédisent pas toujours les gains : certains souhaitent une correction exhaustive qu’ils ne peuvent réellement traiter pendant une conversation.\n\nUne procédure efficace annonce d’abord le contrat : quelle dimension sera observée et à quel moment le feedback arrivera-t-il ? Pendant la tâche, on collecte quelques exemples. Après la première tentative, l’apprenant identifie le problème, reçoit un indice gradué, reformule et réemploie la structure dans un nouveau message. Les autres erreurs sont conservées pour une séance ultérieure. Cette sélection protège la communication tout en donnant à la correction une trajectoire complète, du repérage au transfert.\n\nCorriger davantage ne signifie donc pas enseigner mieux. Le feedback devient apprentissage lorsqu’il cible une priorité, respecte la diversité, exige un traitement actif et vérifie le réemploi. Une correction parfaite mais oubliée vaut moins qu’un indice compris et mobilisé. L’enseignant — ou le tuteur numérique — doit ainsi agir moins comme un détecteur permanent que comme un guide capable de choisir le moment, le niveau d’explication et la prochaine occasion de pratique. En définitive, le feedback est efficace lorsqu’il est sélectif, compréhensible, actif et suivi d’une occasion de transfert. Cette conclusion reste révisable : elle vaut dans les limites des populations, des tâches et des mesures étudiées. Pour le lecteur C2, l’enjeu consiste précisément à conserver ensemble la force d’un résultat et les conditions qui en bornent la portée, sans réduire l’incertitude à l’ignorance ni transformer une moyenne en destin individuel."
+      "text": "La question « Corriger davantage signifie-t-il enseigner mieux ? » occupe une place centrale dans la science contemporaine de l’apprentissage. Une correction peut rendre une forme immédiatement visible, mais une accumulation de remarques peut aussi saturer l’attention et réduire la volonté de communiquer. Une réponse sérieuse doit distinguer ce que les données montrent, le mécanisme proposé pour l’expliquer et la recommandation pédagogique que l’on souhaite en tirer. Ces trois niveaux se soutiennent, mais ils ne sont pas interchangeables : une observation cérébrale ne prescrit pas directement une méthode, et une activité appréciée ne prouve pas à elle seule un apprentissage durable.\n\nLa méta-analyse de Lyster et Saito, fondée sur quinze études de classe et 827 apprenants, a trouvé des effets significatifs et durables du feedback oral. Les invitations à produire une correction obtenaient en moyenne des effets plus importants que les reformulations fournies par l’enseignant, notamment dans des tâches exigeant une réponse construite. Ce résultat ne transforme pas une technique en gagnante universelle : l’âge, la durée, la cible linguistique et la possibilité de percevoir l’erreur modifiaient les résultats.\n\nUne reformulation implicite conserve le rythme de la conversation, mais l’apprenant peut l’interpréter comme une simple confirmation du sens. Une correction explicite réduit cette ambiguïté, au risque d’interrompre davantage. Une invite — « Peux-tu le dire autrement ? » — engage la récupération et révèle si la forme est disponible. Pour apprendre, le feedback doit être remarqué, compris puis réutilisé. Sa valeur ne réside donc pas seulement dans la justesse de l’information, mais dans le traitement cognitif et affectif qu’il déclenche.\n\nLes études distinguent uptake immédiat, réparation réussie et acquisition différée. Répéter correctement après l’enseignant peut n’être qu’une imitation momentanée ; employer la structure dans une nouvelle situation fournit une preuve plus forte. Les chercheurs doivent aussi vérifier que les groupes ont reçu une quantité comparable de pratique. Sans cette précaution, l’avantage attribué au feedback peut provenir du temps supplémentaire consacré à la forme. Les conclusions dépendent enfin de la fiabilité avec laquelle les erreurs et réactions sont codées.\n\nLa norme ciblée mérite elle-même examen. Corriger une forme qui bloque le sens n’a pas le même enjeu que supprimer une variante sociale ou régionale intelligible. Un enseignement responsable distingue erreur développementale, choix de registre et diversité linguistique. Dans une pratique avancée, le feedback peut porter sur la portée d’un modal, la cohésion ou une connotation, plutôt que sur une conformité abstraite au locuteur natif. La précision recherchée doit servir l’intention et le contexte.\n\nLe feedback automatisé ajoute une difficulté : un système peut signaler rapidement des motifs, mais manquer le but discursif ou proposer une correction erronée. Même un enseignant humain doit sélectionner. Trop d’informations simultanées empêchent l’apprenant d’établir une priorité, tandis qu’une correction sans explication peut devenir dépendance. Les préférences déclarées ne prédisent pas toujours les gains : certains souhaitent une correction exhaustive qu’ils ne peuvent réellement traiter pendant une conversation.\n\nUne procédure efficace annonce d’abord le contrat : quelle dimension sera observée et à quel moment le feedback arrivera-t-il ? Pendant la tâche, on collecte quelques exemples. Après la première tentative, l’apprenant identifie le problème, reçoit un indice gradué, reformule et réemploie la structure dans un nouveau message. Les autres erreurs sont conservées pour une séance ultérieure. Cette sélection protège la communication tout en donnant à la correction une trajectoire complète, du repérage au transfert.\n\nCorriger davantage ne signifie donc pas enseigner mieux. Le feedback devient apprentissage lorsqu’il cible une priorité, respecte la diversité, exige un traitement actif et vérifie le réemploi. Une correction parfaite mais oubliée vaut moins qu’un indice compris et mobilisé. L’enseignant — ou le tuteur numérique — doit ainsi agir moins comme un détecteur permanent que comme un guide capable de choisir le moment, le niveau d’explication et la prochaine occasion de pratique. En définitive, le feedback est efficace lorsqu’il est sélectif, compréhensible, actif et suivi d’une occasion de transfert. Cette conclusion reste révisable : elle vaut dans les limites des populations, des tâches et des mesures étudiées. Pour le lecteur C2, l’enjeu consiste précisément à conserver ensemble la force d’un résultat et les conditions qui en bornent la portée, sans réduire l’incertitude à l’ignorance ni transformer une moyenne en destin individuel."
     },
     "transcript": "",
     "extra": {
@@ -39532,12 +39532,12 @@
             "difficulty": "easy",
             "options": [
               {
-                "id": "o2",
-                "text": "aurait"
-              },
-              {
                 "id": "o1",
                 "text": "avait"
+              },
+              {
+                "id": "o2",
+                "text": "aurait"
               },
               {
                 "id": "o3",
@@ -39556,16 +39556,16 @@
             "difficulty": "medium",
             "options": [
               {
+                "id": "o1",
+                "text": "auraient"
+              },
+              {
                 "id": "o2",
                 "text": "avaient certainement"
               },
               {
                 "id": "o3",
                 "text": "ont que"
-              },
-              {
-                "id": "o1",
-                "text": "auraient"
               },
               {
                 "id": "o4",
@@ -39580,6 +39580,10 @@
             "difficulty": "medium",
             "options": [
               {
+                "id": "o1",
+                "text": "aurait été"
+              },
+              {
                 "id": "o2",
                 "text": "avait été demain"
               },
@@ -39590,10 +39594,6 @@
               {
                 "id": "o4",
                 "text": "serait eu"
-              },
-              {
-                "id": "o1",
-                "text": "aurait été"
               }
             ]
           },
@@ -39628,12 +39628,12 @@
             "difficulty": "medium",
             "options": [
               {
-                "id": "o2",
-                "text": "un ordre absolu"
-              },
-              {
                 "id": "o1",
                 "text": "une information non confirmée"
+              },
+              {
+                "id": "o2",
+                "text": "un ordre absolu"
               },
               {
                 "id": "o3",
@@ -39652,16 +39652,16 @@
             "difficulty": "hard",
             "options": [
               {
+                "id": "o1",
+                "text": "aurait été"
+              },
+              {
                 "id": "o2",
                 "text": "sera"
               },
               {
                 "id": "o3",
                 "text": "est"
-              },
-              {
-                "id": "o1",
-                "text": "aurait été"
               },
               {
                 "id": "o4",
@@ -39680,16 +39680,16 @@
                 "text": "Si elle aurait investi, elle aurait économisé."
               },
               {
+                "id": "o2",
+                "text": "Si elle avait investi, elle aurait économisé."
+              },
+              {
                 "id": "o3",
                 "text": "Si elle avait investi, elle économisera hier."
               },
               {
                 "id": "o4",
                 "text": "Si elle investissait hier, elle avait économisé demain."
-              },
-              {
-                "id": "o2",
-                "text": "Si elle avait investi, elle aurait économisé."
               }
             ]
           }
@@ -39698,18 +39698,18 @@
       "grammarProfile": {
         "name": "L’hypothèse complexe et le conditionnel passé",
         "definition": "Les hypothèses irréelles du passé utilisent si + plus-que-parfait, puis conditionnel passé : « Si l’université avait isolé les bâtiments, elle aurait réduit sa consommation. » Le conditionnel peut aussi rapporter une information non confirmée.",
-        "structure": "Forme à observer : L’hypothèse complexe et le conditionnel passé. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
-        "function": "Maîtriser l’hypothèse complexe et le conditionnel passé dans un contexte argumentatif C1.",
+        "explanation": "Les hypothèses irréelles du passé utilisent si + plus-que-parfait, puis conditionnel passé : « Si l’université avait isolé les bâtiments, elle aurait réduit sa consommation. » Le conditionnel peut aussi rapporter une information non confirmée.",
+        "structure": "Estructura central: L’hypothèse complexe et le conditionnel passé.",
+        "purpose": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
+        "function": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
+        "cefrLevel": "C1",
+        "unitContext": "Maîtriser l’hypothèse complexe et le conditionnel passé dans un contexte argumentatif C1.",
         "examples": [
           "Si l’université avait rénové plus tôt, elle aurait moins consommé.",
           "Si la bibliothèque avait fermé, certains étudiants auraient été exclus.",
           "D’après le rapport, les émissions auraient déjà diminué.",
           "Sans cette consultation, la mesure aurait été moins équitable."
-        ],
-        "explanation": "Les hypothèses irréelles du passé utilisent si + plus-que-parfait, puis conditionnel passé : « Si l’université avait isolé les bâtiments, elle aurait réduit sa consommation. » Le conditionnel peut aussi rapporter une information non confirmée.",
-        "purpose": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
-        "cefrLevel": "C1",
-        "unitContext": "Maîtriser l’hypothèse complexe et le conditionnel passé dans un contexte argumentatif C1."
+        ]
       },
       "listeningComprehension": null
     },
@@ -39893,12 +39893,12 @@
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
-                "id": "c",
-                "text": "Parce que la question complexe, alors le résultat forcément."
-              },
-              {
                 "id": "b",
                 "text": "Les auteurs recommandent que chaque correction soit codée selon sa fonction interactionnelle."
+              },
+              {
+                "id": "c",
+                "text": "Parce que la question complexe, alors le résultat forcément."
               },
               {
                 "id": "d",
@@ -39921,12 +39921,12 @@
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
-                "id": "d",
-                "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
-              },
-              {
                 "id": "c",
                 "text": "Elle emploie le subjonctif dans l’évaluation, la restriction et le doute afin de formuler une correction exigeante sans présenter une préférence comme un fait : « Les auteurs recommandent que chaque correction soit codée selon sa fonction interactionnelle. »"
+              },
+              {
+                "id": "d",
+                "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
               }
             ]
           },
@@ -39937,16 +39937,16 @@
             "difficulty": "analysis",
             "options": [
               {
-                "id": "c",
-                "text": "Bien que la reformulation soit fréquente, rien ne garantit qu’elle soit toujours perçue comme corrective."
-              },
-              {
                 "id": "a",
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
                 "id": "b",
                 "text": "Parce que la question complexe, alors le résultat forcément."
+              },
+              {
+                "id": "c",
+                "text": "Bien que la reformulation soit fréquente, rien ne garantit qu’elle soit toujours perçue comme corrective."
               },
               {
                 "id": "d",
@@ -39965,16 +39965,16 @@
                 "text": "Elle remplace les preuves par une affirmation absolue."
               },
               {
-                "id": "d",
-                "text": "Elle emploie le subjonctif dans l’évaluation, la restriction et le doute afin de formuler une correction exigeante sans présenter une préférence comme un fait : « Bien que la reformulation soit fréquente, rien ne garantit qu’elle soit toujours perçue comme corrective. »"
-              },
-              {
                 "id": "b",
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
                 "id": "c",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
+              },
+              {
+                "id": "d",
+                "text": "Elle emploie le subjonctif dans l’évaluation, la restriction et le doute afin de formuler une correction exigeante sans présenter une préférence comme un fait : « Bien que la reformulation soit fréquente, rien ne garantit qu’elle soit toujours perçue comme corrective. »"
               }
             ]
           },
@@ -39993,12 +39993,12 @@
                 "text": "Parce que la question complexe, alors le résultat forcément."
               },
               {
-                "id": "d",
-                "text": "Il convient que l’évaluation distingue la reprise immédiate de l’acquisition durable."
-              },
-              {
                 "id": "c",
                 "text": "La thèse est étant vraie par les mots qui ont utilisé."
+              },
+              {
+                "id": "d",
+                "text": "Il convient que l’évaluation distingue la reprise immédiate de l’acquisition durable."
               }
             ]
           },
@@ -40008,6 +40008,10 @@
             "prompt": "Pourquoi l’exemple 4 convient-il à cette unité ?",
             "difficulty": "precision",
             "options": [
+              {
+                "id": "a",
+                "text": "Elle emploie le subjonctif dans l’évaluation, la restriction et le doute afin de formuler une correction exigeante sans présenter une préférence comme un fait : « Il convient que l’évaluation distingue la reprise immédiate de l’acquisition durable. »"
+              },
               {
                 "id": "b",
                 "text": "Elle remplace les preuves par une affirmation absolue."
@@ -40019,10 +40023,6 @@
               {
                 "id": "d",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
-              },
-              {
-                "id": "a",
-                "text": "Elle emploie le subjonctif dans l’évaluation, la restriction et le doute afin de formuler une correction exigeante sans présenter une préférence comme un fait : « Il convient que l’évaluation distingue la reprise immédiate de l’acquisition durable. »"
               }
             ]
           }
@@ -41735,7 +41735,7 @@
         "Camila pense à son propre français. Elle a longtemps cherché à effacer toute trace d’espagnol pour prouver sa compétence. Avec le temps, elle comprend que maîtriser plusieurs registres ne signifie pas renoncer à sa voix. Il s’agit plutôt de pouvoir choisir, en connaissance de cause, la forme adaptée à une situation, sans accepter que les autres réduisent sa valeur à un écart de prononciation.",
         "Le groupe rédige finalement une charte : corriger ce qui gêne la compréhension, expliquer les attentes de registre et ne jamais utiliser la norme comme prétexte à l’humiliation. Le texte ne résout pas tous les rapports de pouvoir. Il rend toutefois visible ce à quoi chacun peut contribuer : créer un espace où apprendre une forme nouvelle n’exige pas de mépriser celles que l’on possède déjà.",
         "Pour approfondir la question, le groupe reprend le dossier en distinguant trois niveaux souvent confondus : les faits observables, l’interprétation qu’on en propose et les valeurs au nom desquelles on juge la situation. Cette méthode oblige chacun à préciser ses termes. Une norme linguistique ne peut plus servir de formule vague ; une variété doit être relié à un exemple, et la légitimité à une conséquence vérifiable. Camila remarque que le désaccord devient plus fécond dès que les participants cessent de défendre une conclusion globale et examinent séparément les prémisses qui la soutiennent. Ils ne parviennent pas toujours au même jugement, mais ils comprennent mieux le point exact où leurs raisonnements se séparent.",
-        "Cette reprise modifie aussi la position de Camila. Elle était entrée dans la discussion avec une intuition forte, qu’elle prenait presque pour une évidence. En confrontant cette intuition aux objections, elle ne l’abandonne pas nécessairement ; elle apprend à en limiter la portée et à reconnaître ce qu’elle ne permet pas d’affirmer. Stigmatiser devient ainsi moins un mot à mémoriser qu’un outil pour penser. À la fin, Camila rédige une synthèse qui conserve les tensions au lieu de les résoudre artificiellement. C’est précisément cette capacité à articuler des données, des voix et des incertitudes qui caractérise désormais son travail de niveau C1."
+        "Cette reprise modifie aussi la position de Camila. Elle était entrée dans la discussion avec une intuition forte, qu’elle prenait presque pour une évidence. En confrontant cette intuition aux objections, elle ne l’abandonne pas nécessairement ; elle apprend à en limiter la portée et à reconnaître ce qu’elle ne permet pas d’affirmer. Stigmatiser devient ainsi moins un mot à mémoriser qu’un outil pour penser. À la fin, Camila rédige une synthèse qui conserve les tensions au lieu de les résoudre artificiellement. Cette capacité à articuler des données, des voix et des incertitudes devient peu à peu une méthode de travail."
       ],
       "questions": [
         "Pourquoi la camarade cesse-t-elle de participer ?",
@@ -41744,7 +41744,7 @@
         "Comment Camila redéfinit-elle la maîtrise linguistique ?",
         "Que prévoit la charte ?"
       ],
-      "text": "Lors d’un atelier de phonétique, un étudiant imite plusieurs accents pour faire rire le groupe. La scène semble légère, mais une camarade cesse de participer. Elle explique ensuite que son accent régional a souvent été corrigé dans des situations où personne ne remettait réellement en cause la compréhension. Ce n’était pas seulement sa prononciation qu’on évaluait : on associait sa manière de parler à un manque de sérieux.\n\nL’enseignante distingue alors la norme utile à certains contextes de l’idée qu’une seule variété serait naturellement supérieure. Une convention peut faciliter la rédaction administrative ou l’enseignement ; elle devient problématique lorsqu’elle se transforme en mesure générale de l’intelligence. Les accents, les usages populaires et les langues familiales portent des histoires que la correction systématique risque de rendre invisibles.\n\nCamila pense à son propre français. Elle a longtemps cherché à effacer toute trace d’espagnol pour prouver sa compétence. Avec le temps, elle comprend que maîtriser plusieurs registres ne signifie pas renoncer à sa voix. Il s’agit plutôt de pouvoir choisir, en connaissance de cause, la forme adaptée à une situation, sans accepter que les autres réduisent sa valeur à un écart de prononciation.\n\nLe groupe rédige finalement une charte : corriger ce qui gêne la compréhension, expliquer les attentes de registre et ne jamais utiliser la norme comme prétexte à l’humiliation. Le texte ne résout pas tous les rapports de pouvoir. Il rend toutefois visible ce à quoi chacun peut contribuer : créer un espace où apprendre une forme nouvelle n’exige pas de mépriser celles que l’on possède déjà.\n\nPour approfondir la question, le groupe reprend le dossier en distinguant trois niveaux souvent confondus : les faits observables, l’interprétation qu’on en propose et les valeurs au nom desquelles on juge la situation. Cette méthode oblige chacun à préciser ses termes. Une norme linguistique ne peut plus servir de formule vague ; une variété doit être relié à un exemple, et la légitimité à une conséquence vérifiable. Camila remarque que le désaccord devient plus fécond dès que les participants cessent de défendre une conclusion globale et examinent séparément les prémisses qui la soutiennent. Ils ne parviennent pas toujours au même jugement, mais ils comprennent mieux le point exact où leurs raisonnements se séparent.\n\nCette reprise modifie aussi la position de Camila. Elle était entrée dans la discussion avec une intuition forte, qu’elle prenait presque pour une évidence. En confrontant cette intuition aux objections, elle ne l’abandonne pas nécessairement ; elle apprend à en limiter la portée et à reconnaître ce qu’elle ne permet pas d’affirmer. Stigmatiser devient ainsi moins un mot à mémoriser qu’un outil pour penser. À la fin, Camila rédige une synthèse qui conserve les tensions au lieu de les résoudre artificiellement. C’est précisément cette capacité à articuler des données, des voix et des incertitudes qui caractérise désormais son travail de niveau C1."
+      "text": "Lors d’un atelier de phonétique, un étudiant imite plusieurs accents pour faire rire le groupe. La scène semble légère, mais une camarade cesse de participer. Elle explique ensuite que son accent régional a souvent été corrigé dans des situations où personne ne remettait réellement en cause la compréhension. Ce n’était pas seulement sa prononciation qu’on évaluait : on associait sa manière de parler à un manque de sérieux.\n\nL’enseignante distingue alors la norme utile à certains contextes de l’idée qu’une seule variété serait naturellement supérieure. Une convention peut faciliter la rédaction administrative ou l’enseignement ; elle devient problématique lorsqu’elle se transforme en mesure générale de l’intelligence. Les accents, les usages populaires et les langues familiales portent des histoires que la correction systématique risque de rendre invisibles.\n\nCamila pense à son propre français. Elle a longtemps cherché à effacer toute trace d’espagnol pour prouver sa compétence. Avec le temps, elle comprend que maîtriser plusieurs registres ne signifie pas renoncer à sa voix. Il s’agit plutôt de pouvoir choisir, en connaissance de cause, la forme adaptée à une situation, sans accepter que les autres réduisent sa valeur à un écart de prononciation.\n\nLe groupe rédige finalement une charte : corriger ce qui gêne la compréhension, expliquer les attentes de registre et ne jamais utiliser la norme comme prétexte à l’humiliation. Le texte ne résout pas tous les rapports de pouvoir. Il rend toutefois visible ce à quoi chacun peut contribuer : créer un espace où apprendre une forme nouvelle n’exige pas de mépriser celles que l’on possède déjà.\n\nPour approfondir la question, le groupe reprend le dossier en distinguant trois niveaux souvent confondus : les faits observables, l’interprétation qu’on en propose et les valeurs au nom desquelles on juge la situation. Cette méthode oblige chacun à préciser ses termes. Une norme linguistique ne peut plus servir de formule vague ; une variété doit être relié à un exemple, et la légitimité à une conséquence vérifiable. Camila remarque que le désaccord devient plus fécond dès que les participants cessent de défendre une conclusion globale et examinent séparément les prémisses qui la soutiennent. Ils ne parviennent pas toujours au même jugement, mais ils comprennent mieux le point exact où leurs raisonnements se séparent.\n\nCette reprise modifie aussi la position de Camila. Elle était entrée dans la discussion avec une intuition forte, qu’elle prenait presque pour une évidence. En confrontant cette intuition aux objections, elle ne l’abandonne pas nécessairement ; elle apprend à en limiter la portée et à reconnaître ce qu’elle ne permet pas d’affirmer. Stigmatiser devient ainsi moins un mot à mémoriser qu’un outil pour penser. À la fin, Camila rédige une synthèse qui conserve les tensions au lieu de les résoudre artificiellement. Cette capacité à articuler des données, des voix et des incertitudes devient peu à peu une méthode de travail."
     },
     "transcript": "",
     "extra": null,
@@ -45397,12 +45397,12 @@
                 "text": "dont"
               },
               {
-                "id": "o3",
-                "text": "que"
-              },
-              {
                 "id": "o2",
                 "text": "lequel"
+              },
+              {
+                "id": "o3",
+                "text": "que"
               },
               {
                 "id": "o4",
@@ -45417,6 +45417,10 @@
             "difficulty": "medium",
             "options": [
               {
+                "id": "o1",
+                "text": "à quoi"
+              },
+              {
                 "id": "o2",
                 "text": "dont à"
               },
@@ -45427,10 +45431,6 @@
               {
                 "id": "o4",
                 "text": "où"
-              },
-              {
-                "id": "o1",
-                "text": "à quoi"
               }
             ]
           },
@@ -45465,12 +45465,12 @@
             "difficulty": "medium",
             "options": [
               {
-                "id": "o2",
-                "text": "dont du"
-              },
-              {
                 "id": "o1",
                 "text": "duquel"
+              },
+              {
+                "id": "o2",
+                "text": "dont du"
               },
               {
                 "id": "o3",
@@ -45489,16 +45489,16 @@
             "difficulty": "hard",
             "options": [
               {
+                "id": "o1",
+                "text": "C’est ce dont nous avons besoin."
+              },
+              {
                 "id": "o2",
                 "text": "C’est ce que nous avons besoin."
               },
               {
                 "id": "o3",
                 "text": "C’est ce auquel nous avons besoin."
-              },
-              {
-                "id": "o1",
-                "text": "C’est ce dont nous avons besoin."
               },
               {
                 "id": "o4",
@@ -45513,6 +45513,10 @@
             "difficulty": "hard",
             "options": [
               {
+                "id": "o1",
+                "text": "la situation à cette situation"
+              },
+              {
                 "id": "o2",
                 "text": "la situation dont à"
               },
@@ -45523,10 +45527,6 @@
               {
                 "id": "o4",
                 "text": "la situation où de"
-              },
-              {
-                "id": "o1",
-                "text": "la situation à cette situation"
               }
             ]
           }
@@ -45535,18 +45535,18 @@
       "grammarProfile": {
         "name": "Les relatives complexes : dont, lequel, ce à quoi, ce dont",
         "definition": "Les pronoms relatifs complexes évitent les répétitions et précisent les rapports syntaxiques : « la norme à laquelle on se conforme », « ce dont elle doute », « le contexte dans lequel elle parle ». Le choix dépend de la préposition exigée.",
-        "structure": "Forme à observer : Les relatives complexes : dont, lequel, ce à quoi, ce dont. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
-        "function": "Maîtriser les relatives complexes : dont, lequel, ce à quoi, ce dont dans un contexte argumentatif C1.",
+        "explanation": "Les pronoms relatifs complexes évitent les répétitions et précisent les rapports syntaxiques : « la norme à laquelle on se conforme », « ce dont elle doute », « le contexte dans lequel elle parle ». Le choix dépend de la préposition exigée.",
+        "structure": "Estructura central: Les relatives complexes : dont, lequel, ce à quoi, ce dont.",
+        "purpose": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
+        "function": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
+        "cefrLevel": "C1",
+        "unitContext": "Maîtriser les relatives complexes : dont, lequel, ce à quoi, ce dont dans un contexte argumentatif C1.",
         "examples": [
           "La norme à laquelle elle se conforme dépend du contexte.",
           "Voilà ce dont Camila doute.",
           "Le contexte dans lequel elle parle est formel.",
           "Ce à quoi elle tient, c’est le respect des voix."
-        ],
-        "explanation": "Les pronoms relatifs complexes évitent les répétitions et précisent les rapports syntaxiques : « la norme à laquelle on se conforme », « ce dont elle doute », « le contexte dans lequel elle parle ». Le choix dépend de la préposition exigée.",
-        "purpose": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
-        "cefrLevel": "C1",
-        "unitContext": "Maîtriser les relatives complexes : dont, lequel, ce à quoi, ce dont dans un contexte argumentatif C1."
+        ]
       },
       "listeningComprehension": null
     },
@@ -45730,12 +45730,12 @@
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
-                "id": "c",
-                "text": "Parce que la question complexe, alors le résultat forcément."
-              },
-              {
                 "id": "b",
                 "text": "Les enregistrements ont été normalisés par les techniciens avant la passation du test."
+              },
+              {
+                "id": "c",
+                "text": "Parce que la question complexe, alors le résultat forcément."
               },
               {
                 "id": "d",
@@ -45758,12 +45758,12 @@
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
-                "id": "d",
-                "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
-              },
-              {
                 "id": "c",
                 "text": "Elle emploie le passif, l’agentivité et la responsabilité discursive afin de mettre le processus perceptif au premier plan tout en conservant les acteurs nécessaires : « Les enregistrements ont été normalisés par les techniciens avant la passation du test. »"
+              },
+              {
+                "id": "d",
+                "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
               }
             ]
           },
@@ -45774,16 +45774,16 @@
             "difficulty": "analysis",
             "options": [
               {
-                "id": "c",
-                "text": "Une amélioration a été observée, mais les analystes demeurent responsables de l’interprétation de ce gain."
-              },
-              {
                 "id": "a",
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
                 "id": "b",
                 "text": "Parce que la question complexe, alors le résultat forcément."
+              },
+              {
+                "id": "c",
+                "text": "Une amélioration a été observée, mais les analystes demeurent responsables de l’interprétation de ce gain."
               },
               {
                 "id": "d",
@@ -45802,16 +45802,16 @@
                 "text": "Elle remplace les preuves par une affirmation absolue."
               },
               {
-                "id": "d",
-                "text": "Elle emploie le passif, l’agentivité et la responsabilité discursive afin de mettre le processus perceptif au premier plan tout en conservant les acteurs nécessaires : « Une amélioration a été observée, mais les analystes demeurent responsables de l’interprétation de ce gain. »"
-              },
-              {
                 "id": "b",
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
                 "id": "c",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
+              },
+              {
+                "id": "d",
+                "text": "Elle emploie le passif, l’agentivité et la responsabilité discursive afin de mettre le processus perceptif au premier plan tout en conservant les acteurs nécessaires : « Une amélioration a été observée, mais les analystes demeurent responsables de l’interprétation de ce gain. »"
               }
             ]
           },
@@ -45830,12 +45830,12 @@
                 "text": "Parce que la question complexe, alors le résultat forcément."
               },
               {
-                "id": "d",
-                "text": "Les catégories ont été générées par le modèle, puis vérifiées par deux phonéticiennes."
-              },
-              {
                 "id": "c",
                 "text": "La thèse est étant vraie par les mots qui ont utilisé."
+              },
+              {
+                "id": "d",
+                "text": "Les catégories ont été générées par le modèle, puis vérifiées par deux phonéticiennes."
               }
             ]
           },
@@ -45845,6 +45845,10 @@
             "prompt": "Pourquoi l’exemple 4 convient-il à cette unité ?",
             "difficulty": "precision",
             "options": [
+              {
+                "id": "a",
+                "text": "Elle emploie le passif, l’agentivité et la responsabilité discursive afin de mettre le processus perceptif au premier plan tout en conservant les acteurs nécessaires : « Les catégories ont été générées par le modèle, puis vérifiées par deux phonéticiennes. »"
+              },
               {
                 "id": "b",
                 "text": "Elle remplace les preuves par une affirmation absolue."
@@ -45856,10 +45860,6 @@
               {
                 "id": "d",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
-              },
-              {
-                "id": "a",
-                "text": "Elle emploie le passif, l’agentivité et la responsabilité discursive afin de mettre le processus perceptif au premier plan tout en conservant les acteurs nécessaires : « Les catégories ont été générées par le modèle, puis vérifiées par deux phonéticiennes. »"
               }
             ]
           }
@@ -47567,7 +47567,7 @@
         "Camila demande comment communiquer l’incertitude sans affaiblir la confiance. La conférencière reconnaît la difficulté : multiplier les précautions peut rendre un message illisible, tandis qu’une certitude simplifiée crée des attentes irréalistes. Elle recommande de préciser ce qui est solidement établi, ce qui reste probable et quelles observations pourraient modifier l’évaluation.",
         "En sortant, Camila comprend que l’esprit critique ne consiste ni à croire automatiquement une autorité ni à rejeter toute expertise. Il exige d’examiner la qualité des preuves, les limites annoncées et la possibilité réelle de révision. Dire « nous ne savons pas encore » peut alors devenir une information rigoureuse, à condition d’expliquer ce que l’on sait déjà et comment on cherche la suite.",
         "Pour approfondir la question, le groupe reprend le dossier en distinguant trois niveaux souvent confondus : les faits observables, l’interprétation qu’on en propose et les valeurs au nom desquelles on juge la situation. Cette méthode oblige chacun à préciser ses termes. Une hypothèse ne peut plus servir de formule vague ; la réfutation doit être relié à un exemple, et provisoire à une conséquence vérifiable. Camila remarque que le désaccord devient plus fécond dès que les participants cessent de défendre une conclusion globale et examinent séparément les prémisses qui la soutiennent. Ils ne parviennent pas toujours au même jugement, mais ils comprennent mieux le point exact où leurs raisonnements se séparent.",
-        "Cette reprise modifie aussi la position de Camila. Elle était entrée dans la discussion avec une intuition forte, qu’elle prenait presque pour une évidence. En confrontant cette intuition aux objections, elle ne l’abandonne pas nécessairement ; elle apprend à en limiter la portée et à reconnaître ce qu’elle ne permet pas d’affirmer. Une donnée devient ainsi moins un mot à mémoriser qu’un outil pour penser. À la fin, Camila rédige une synthèse qui conserve les tensions au lieu de les résoudre artificiellement. C’est précisément cette capacité à articuler des données, des voix et des incertitudes qui caractérise désormais son travail de niveau C1."
+        "Cette reprise modifie aussi la position de Camila. Elle était entrée dans la discussion avec une intuition forte, qu’elle prenait presque pour une évidence. En confrontant cette intuition aux objections, elle ne l’abandonne pas nécessairement ; elle apprend à en limiter la portée et à reconnaître ce qu’elle ne permet pas d’affirmer. Une donnée devient ainsi moins un mot à mémoriser qu’un outil pour penser. À la fin, Camila rédige une synthèse qui conserve les tensions au lieu de les résoudre artificiellement. Cette capacité à articuler des données, des voix et des incertitudes devient peu à peu une méthode de travail."
       ],
       "questions": [
         "Pourquoi les deux phrases initiales diffèrent-elles ?",
@@ -47576,7 +47576,7 @@
         "Quel dilemme pose la communication de l’incertitude ?",
         "Quelle solution propose la conférencière ?"
       ],
-      "text": "La conférencière commence par projeter deux phrases : « Les chercheurs ne savent pas » et « Les chercheurs évaluent plusieurs hypothèses ». Pour le public, elles semblent presque équivalentes ; pour elle, elles décrivent des situations radicalement différentes. La première suggère un vide, la seconde un savoir en construction, organisé par des méthodes, des données et des critères de réfutation.\n\nElle présente une étude dont les résultats initiaux ont été corrigés après l’arrivée de nouvelles données. Sur les réseaux sociaux, cette révision avait été utilisée comme preuve que la science se contredisait. Or, explique-t-elle, la capacité de corriger une conclusion constitue précisément une force du processus scientifique. Une hypothèse qui ne pourrait jamais être remise en cause relèverait davantage de la croyance que de l’enquête.\n\nCamila demande comment communiquer l’incertitude sans affaiblir la confiance. La conférencière reconnaît la difficulté : multiplier les précautions peut rendre un message illisible, tandis qu’une certitude simplifiée crée des attentes irréalistes. Elle recommande de préciser ce qui est solidement établi, ce qui reste probable et quelles observations pourraient modifier l’évaluation.\n\nEn sortant, Camila comprend que l’esprit critique ne consiste ni à croire automatiquement une autorité ni à rejeter toute expertise. Il exige d’examiner la qualité des preuves, les limites annoncées et la possibilité réelle de révision. Dire « nous ne savons pas encore » peut alors devenir une information rigoureuse, à condition d’expliquer ce que l’on sait déjà et comment on cherche la suite.\n\nPour approfondir la question, le groupe reprend le dossier en distinguant trois niveaux souvent confondus : les faits observables, l’interprétation qu’on en propose et les valeurs au nom desquelles on juge la situation. Cette méthode oblige chacun à préciser ses termes. Une hypothèse ne peut plus servir de formule vague ; la réfutation doit être relié à un exemple, et provisoire à une conséquence vérifiable. Camila remarque que le désaccord devient plus fécond dès que les participants cessent de défendre une conclusion globale et examinent séparément les prémisses qui la soutiennent. Ils ne parviennent pas toujours au même jugement, mais ils comprennent mieux le point exact où leurs raisonnements se séparent.\n\nCette reprise modifie aussi la position de Camila. Elle était entrée dans la discussion avec une intuition forte, qu’elle prenait presque pour une évidence. En confrontant cette intuition aux objections, elle ne l’abandonne pas nécessairement ; elle apprend à en limiter la portée et à reconnaître ce qu’elle ne permet pas d’affirmer. Une donnée devient ainsi moins un mot à mémoriser qu’un outil pour penser. À la fin, Camila rédige une synthèse qui conserve les tensions au lieu de les résoudre artificiellement. C’est précisément cette capacité à articuler des données, des voix et des incertitudes qui caractérise désormais son travail de niveau C1."
+      "text": "La conférencière commence par projeter deux phrases : « Les chercheurs ne savent pas » et « Les chercheurs évaluent plusieurs hypothèses ». Pour le public, elles semblent presque équivalentes ; pour elle, elles décrivent des situations radicalement différentes. La première suggère un vide, la seconde un savoir en construction, organisé par des méthodes, des données et des critères de réfutation.\n\nElle présente une étude dont les résultats initiaux ont été corrigés après l’arrivée de nouvelles données. Sur les réseaux sociaux, cette révision avait été utilisée comme preuve que la science se contredisait. Or, explique-t-elle, la capacité de corriger une conclusion constitue précisément une force du processus scientifique. Une hypothèse qui ne pourrait jamais être remise en cause relèverait davantage de la croyance que de l’enquête.\n\nCamila demande comment communiquer l’incertitude sans affaiblir la confiance. La conférencière reconnaît la difficulté : multiplier les précautions peut rendre un message illisible, tandis qu’une certitude simplifiée crée des attentes irréalistes. Elle recommande de préciser ce qui est solidement établi, ce qui reste probable et quelles observations pourraient modifier l’évaluation.\n\nEn sortant, Camila comprend que l’esprit critique ne consiste ni à croire automatiquement une autorité ni à rejeter toute expertise. Il exige d’examiner la qualité des preuves, les limites annoncées et la possibilité réelle de révision. Dire « nous ne savons pas encore » peut alors devenir une information rigoureuse, à condition d’expliquer ce que l’on sait déjà et comment on cherche la suite.\n\nPour approfondir la question, le groupe reprend le dossier en distinguant trois niveaux souvent confondus : les faits observables, l’interprétation qu’on en propose et les valeurs au nom desquelles on juge la situation. Cette méthode oblige chacun à préciser ses termes. Une hypothèse ne peut plus servir de formule vague ; la réfutation doit être relié à un exemple, et provisoire à une conséquence vérifiable. Camila remarque que le désaccord devient plus fécond dès que les participants cessent de défendre une conclusion globale et examinent séparément les prémisses qui la soutiennent. Ils ne parviennent pas toujours au même jugement, mais ils comprennent mieux le point exact où leurs raisonnements se séparent.\n\nCette reprise modifie aussi la position de Camila. Elle était entrée dans la discussion avec une intuition forte, qu’elle prenait presque pour une évidence. En confrontant cette intuition aux objections, elle ne l’abandonne pas nécessairement ; elle apprend à en limiter la portée et à reconnaître ce qu’elle ne permet pas d’affirmer. Une donnée devient ainsi moins un mot à mémoriser qu’un outil pour penser. À la fin, Camila rédige une synthèse qui conserve les tensions au lieu de les résoudre artificiellement. Cette capacité à articuler des données, des voix et des incertitudes devient peu à peu une méthode de travail."
     },
     "transcript": "",
     "extra": null,
@@ -51243,12 +51243,12 @@
                 "text": "est"
               },
               {
-                "id": "o3",
-                "text": "sera"
-              },
-              {
                 "id": "o2",
                 "text": "soit"
+              },
+              {
+                "id": "o3",
+                "text": "sera"
               },
               {
                 "id": "o4",
@@ -51263,6 +51263,10 @@
             "difficulty": "medium",
             "options": [
               {
+                "id": "o1",
+                "text": "doivent"
+              },
+              {
                 "id": "o2",
                 "text": "doive"
               },
@@ -51273,10 +51277,6 @@
               {
                 "id": "o4",
                 "text": "devaient que"
-              },
-              {
-                "id": "o1",
-                "text": "doivent"
               }
             ]
           },
@@ -51311,12 +51311,12 @@
             "difficulty": "medium",
             "options": [
               {
-                "id": "o2",
-                "text": "nécessairement faux"
-              },
-              {
                 "id": "o1",
                 "text": "incertain ou évalué"
+              },
+              {
+                "id": "o2",
+                "text": "nécessairement faux"
               },
               {
                 "id": "o3",
@@ -51339,12 +51339,12 @@
                 "text": "Cette étude prouve tout."
               },
               {
-                "id": "o3",
-                "text": "Il est certain sans données."
-              },
-              {
                 "id": "o2",
                 "text": "Ces résultats suggèrent une tendance qui reste à confirmer."
+              },
+              {
+                "id": "o3",
+                "text": "Il est certain sans données."
               },
               {
                 "id": "o4",
@@ -51363,16 +51363,16 @@
                 "text": "Il est incontestable que la méthode soit utile."
               },
               {
+                "id": "o2",
+                "text": "Il est incontestable que la méthode est utile."
+              },
+              {
                 "id": "o3",
                 "text": "Il est incontestable la méthode utile."
               },
               {
                 "id": "o4",
                 "text": "Il est incontestable que méthode être utile."
-              },
-              {
-                "id": "o2",
-                "text": "Il est incontestable que la méthode est utile."
               }
             ]
           }
@@ -51381,18 +51381,18 @@
       "grammarProfile": {
         "name": "Les modalisateurs de certitude et le subjonctif",
         "definition": "Les modalisateurs calibrent l’engagement du locuteur : « il est établi que » + indicatif ; « il est peu probable que », « rien ne prouve que » + subjonctif. Le choix du mode dépend de la manière dont le fait est présenté, non d’une simple liste mécanique.",
-        "structure": "Forme à observer : Les modalisateurs de certitude et le subjonctif. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
-        "function": "Maîtriser les modalisateurs de certitude et le subjonctif dans un contexte argumentatif C1.",
+        "explanation": "Les modalisateurs calibrent l’engagement du locuteur : « il est établi que » + indicatif ; « il est peu probable que », « rien ne prouve que » + subjonctif. Le choix du mode dépend de la manière dont le fait est présenté, non d’une simple liste mécanique.",
+        "structure": "Estructura central: Les modalisateurs de certitude et le subjonctif.",
+        "purpose": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
+        "function": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
+        "cefrLevel": "C1",
+        "unitContext": "Maîtriser les modalisateurs de certitude et le subjonctif dans un contexte argumentatif C1.",
         "examples": [
           "Il est établi que les données ont évolué.",
           "Il est peu probable que cette hypothèse soit suffisante.",
           "Rien ne prouve que l’étude soit fausse.",
           "Il semble que les résultats doivent être révisés."
-        ],
-        "explanation": "Les modalisateurs calibrent l’engagement du locuteur : « il est établi que » + indicatif ; « il est peu probable que », « rien ne prouve que » + subjonctif. Le choix du mode dépend de la manière dont le fait est présenté, non d’une simple liste mécanique.",
-        "purpose": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
-        "cefrLevel": "C1",
-        "unitContext": "Maîtriser les modalisateurs de certitude et le subjonctif dans un contexte argumentatif C1."
+        ]
       },
       "listeningComprehension": null
     },
@@ -51576,12 +51576,12 @@
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
-                "id": "c",
-                "text": "Parce que la question complexe, alors le résultat forcément."
-              },
-              {
                 "id": "b",
                 "text": "La tâche serait-elle moins évaluative que l’écart observé pourrait disparaître."
+              },
+              {
+                "id": "c",
+                "text": "Parce que la question complexe, alors le résultat forcément."
               },
               {
                 "id": "d",
@@ -51604,12 +51604,12 @@
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
-                "id": "d",
-                "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
-              },
-              {
                 "id": "c",
                 "text": "Elle emploie les systèmes hypothétiques complexes et l’irréel afin de raisonner sur les effets possibles de l’anxiété sans annoncer une causalité non démontrée : « La tâche serait-elle moins évaluative que l’écart observé pourrait disparaître. »"
+              },
+              {
+                "id": "d",
+                "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
               }
             ]
           },
@@ -51620,16 +51620,16 @@
             "difficulty": "analysis",
             "options": [
               {
-                "id": "c",
-                "text": "À supposer que l’effet varie selon la tâche, un score unique en masquerait les mécanismes."
-              },
-              {
                 "id": "a",
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
                 "id": "b",
                 "text": "Parce que la question complexe, alors le résultat forcément."
+              },
+              {
+                "id": "c",
+                "text": "À supposer que l’effet varie selon la tâche, un score unique en masquerait les mécanismes."
               },
               {
                 "id": "d",
@@ -51648,16 +51648,16 @@
                 "text": "Elle remplace les preuves par une affirmation absolue."
               },
               {
-                "id": "d",
-                "text": "Elle emploie les systèmes hypothétiques complexes et l’irréel afin de raisonner sur les effets possibles de l’anxiété sans annoncer une causalité non démontrée : « À supposer que l’effet varie selon la tâche, un score unique en masquerait les mécanismes. »"
-              },
-              {
                 "id": "b",
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
                 "id": "c",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
+              },
+              {
+                "id": "d",
+                "text": "Elle emploie les systèmes hypothétiques complexes et l’irréel afin de raisonner sur les effets possibles de l’anxiété sans annoncer une causalité non démontrée : « À supposer que l’effet varie selon la tâche, un score unique en masquerait les mécanismes. »"
               }
             ]
           },
@@ -51676,12 +51676,12 @@
                 "text": "Parce que la question complexe, alors le résultat forcément."
               },
               {
-                "id": "d",
-                "text": "Sans pression temporelle, certains apprenants auraient pu consacrer davantage d’attention au sens."
-              },
-              {
                 "id": "c",
                 "text": "La thèse est étant vraie par les mots qui ont utilisé."
+              },
+              {
+                "id": "d",
+                "text": "Sans pression temporelle, certains apprenants auraient pu consacrer davantage d’attention au sens."
               }
             ]
           },
@@ -51691,6 +51691,10 @@
             "prompt": "Pourquoi l’exemple 4 convient-il à cette unité ?",
             "difficulty": "precision",
             "options": [
+              {
+                "id": "a",
+                "text": "Elle emploie les systèmes hypothétiques complexes et l’irréel afin de raisonner sur les effets possibles de l’anxiété sans annoncer une causalité non démontrée : « Sans pression temporelle, certains apprenants auraient pu consacrer davantage d’attention au sens. »"
+              },
               {
                 "id": "b",
                 "text": "Elle remplace les preuves par une affirmation absolue."
@@ -51702,10 +51706,6 @@
               {
                 "id": "d",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
-              },
-              {
-                "id": "a",
-                "text": "Elle emploie les systèmes hypothétiques complexes et l’irréel afin de raisonner sur les effets possibles de l’anxiété sans annoncer une causalité non démontrée : « Sans pression temporelle, certains apprenants auraient pu consacrer davantage d’attention au sens. »"
               }
             ]
           }
@@ -53408,7 +53408,7 @@
         "La direction affirme avoir reporté l’exposition pour permettre une médiation. Pourtant, les artistes n’ont reçu ni nouveau calendrier ni proposition précise. Le mot « report » semble donc fonctionner comme un adoucissement administratif. Camila refuse malgré tout de réduire l’affaire à un affrontement entre courageux créateurs et bureaucrates hostiles : les objections éthiques méritent une réponse, mais une décision opaque empêche justement cette discussion.",
         "Son article propose une issue : présenter l’œuvre avec les critiques, documenter l’origine des témoignages et organiser un débat public. La liberté artistique ne garantit pas l’absence de contestation ; elle suppose que la contestation puisse répondre à l’œuvre sans la faire disparaître silencieusement. Quelques jours plus tard, la direction accepte une nouvelle date. L’exposition n’est plus tout à fait la même : elle inclut désormais le conflit dont elle a été l’objet.",
         "Pour approfondir la question, le groupe reprend le dossier en distinguant trois niveaux souvent confondus : les faits observables, l’interprétation qu’on en propose et les valeurs au nom desquelles on juge la situation. Cette méthode oblige chacun à préciser ses termes. Déprogrammer ne peut plus servir de formule vague ; une médiation doit être relié à un exemple, et un adoucissement à une conséquence vérifiable. Camila remarque que le désaccord devient plus fécond dès que les participants cessent de défendre une conclusion globale et examinent séparément les prémisses qui la soutiennent. Ils ne parviennent pas toujours au même jugement, mais ils comprennent mieux le point exact où leurs raisonnements se séparent.",
-        "Cette reprise modifie aussi la position de Camila. Elle était entrée dans la discussion avec une intuition forte, qu’elle prenait presque pour une évidence. En confrontant cette intuition aux objections, elle ne l’abandonne pas nécessairement ; elle apprend à en limiter la portée et à reconnaître ce qu’elle ne permet pas d’affirmer. Opaque devient ainsi moins un mot à mémoriser qu’un outil pour penser. À la fin, Camila rédige une synthèse qui conserve les tensions au lieu de les résoudre artificiellement. C’est précisément cette capacité à articuler des données, des voix et des incertitudes qui caractérise désormais son travail de niveau C1."
+        "Cette reprise modifie aussi la position de Camila. Elle était entrée dans la discussion avec une intuition forte, qu’elle prenait presque pour une évidence. En confrontant cette intuition aux objections, elle ne l’abandonne pas nécessairement ; elle apprend à en limiter la portée et à reconnaître ce qu’elle ne permet pas d’affirmer. Opaque devient ainsi moins un mot à mémoriser qu’un outil pour penser. À la fin, Camila rédige une synthèse qui conserve les tensions au lieu de les résoudre artificiellement. Cette capacité à articuler des données, des voix et des incertitudes devient peu à peu une méthode de travail."
       ],
       "questions": [
         "Quelle justification donne le communiqué ?",
@@ -53417,7 +53417,7 @@
         "Pourquoi le mot « report » paraît-il suspect ?",
         "Quelle fausse opposition Camila évite-t-elle ?"
       ],
-      "text": "Une semaine avant son ouverture, une exposition étudiante consacrée aux frontières est retirée du programme. Le communiqué invoque un risque de conflit, sans préciser quelles œuvres posent problème. Pour son journal universitaire, Camila interroge la direction, les artistes et deux associations qui ont formulé des critiques opposées : l’une juge une installation offensante, l’autre considère son retrait comme une censure.\n\nL’artiste concernée explique que son œuvre reproduit des formulaires administratifs sur lesquels des phrases personnelles ont été brodées. Elle voulait montrer comment une existence complexe se trouve réduite à des cases. Une association estime cependant que l’installation utilise des témoignages de migrants sans leur donner assez de contexte. La critique ne demande pas nécessairement l’interdiction ; elle questionne la manière dont la souffrance d’autrui devient matériau artistique.\n\nLa direction affirme avoir reporté l’exposition pour permettre une médiation. Pourtant, les artistes n’ont reçu ni nouveau calendrier ni proposition précise. Le mot « report » semble donc fonctionner comme un adoucissement administratif. Camila refuse malgré tout de réduire l’affaire à un affrontement entre courageux créateurs et bureaucrates hostiles : les objections éthiques méritent une réponse, mais une décision opaque empêche justement cette discussion.\n\nSon article propose une issue : présenter l’œuvre avec les critiques, documenter l’origine des témoignages et organiser un débat public. La liberté artistique ne garantit pas l’absence de contestation ; elle suppose que la contestation puisse répondre à l’œuvre sans la faire disparaître silencieusement. Quelques jours plus tard, la direction accepte une nouvelle date. L’exposition n’est plus tout à fait la même : elle inclut désormais le conflit dont elle a été l’objet.\n\nPour approfondir la question, le groupe reprend le dossier en distinguant trois niveaux souvent confondus : les faits observables, l’interprétation qu’on en propose et les valeurs au nom desquelles on juge la situation. Cette méthode oblige chacun à préciser ses termes. Déprogrammer ne peut plus servir de formule vague ; une médiation doit être relié à un exemple, et un adoucissement à une conséquence vérifiable. Camila remarque que le désaccord devient plus fécond dès que les participants cessent de défendre une conclusion globale et examinent séparément les prémisses qui la soutiennent. Ils ne parviennent pas toujours au même jugement, mais ils comprennent mieux le point exact où leurs raisonnements se séparent.\n\nCette reprise modifie aussi la position de Camila. Elle était entrée dans la discussion avec une intuition forte, qu’elle prenait presque pour une évidence. En confrontant cette intuition aux objections, elle ne l’abandonne pas nécessairement ; elle apprend à en limiter la portée et à reconnaître ce qu’elle ne permet pas d’affirmer. Opaque devient ainsi moins un mot à mémoriser qu’un outil pour penser. À la fin, Camila rédige une synthèse qui conserve les tensions au lieu de les résoudre artificiellement. C’est précisément cette capacité à articuler des données, des voix et des incertitudes qui caractérise désormais son travail de niveau C1."
+      "text": "Une semaine avant son ouverture, une exposition étudiante consacrée aux frontières est retirée du programme. Le communiqué invoque un risque de conflit, sans préciser quelles œuvres posent problème. Pour son journal universitaire, Camila interroge la direction, les artistes et deux associations qui ont formulé des critiques opposées : l’une juge une installation offensante, l’autre considère son retrait comme une censure.\n\nL’artiste concernée explique que son œuvre reproduit des formulaires administratifs sur lesquels des phrases personnelles ont été brodées. Elle voulait montrer comment une existence complexe se trouve réduite à des cases. Une association estime cependant que l’installation utilise des témoignages de migrants sans leur donner assez de contexte. La critique ne demande pas nécessairement l’interdiction ; elle questionne la manière dont la souffrance d’autrui devient matériau artistique.\n\nLa direction affirme avoir reporté l’exposition pour permettre une médiation. Pourtant, les artistes n’ont reçu ni nouveau calendrier ni proposition précise. Le mot « report » semble donc fonctionner comme un adoucissement administratif. Camila refuse malgré tout de réduire l’affaire à un affrontement entre courageux créateurs et bureaucrates hostiles : les objections éthiques méritent une réponse, mais une décision opaque empêche justement cette discussion.\n\nSon article propose une issue : présenter l’œuvre avec les critiques, documenter l’origine des témoignages et organiser un débat public. La liberté artistique ne garantit pas l’absence de contestation ; elle suppose que la contestation puisse répondre à l’œuvre sans la faire disparaître silencieusement. Quelques jours plus tard, la direction accepte une nouvelle date. L’exposition n’est plus tout à fait la même : elle inclut désormais le conflit dont elle a été l’objet.\n\nPour approfondir la question, le groupe reprend le dossier en distinguant trois niveaux souvent confondus : les faits observables, l’interprétation qu’on en propose et les valeurs au nom desquelles on juge la situation. Cette méthode oblige chacun à préciser ses termes. Déprogrammer ne peut plus servir de formule vague ; une médiation doit être relié à un exemple, et un adoucissement à une conséquence vérifiable. Camila remarque que le désaccord devient plus fécond dès que les participants cessent de défendre une conclusion globale et examinent séparément les prémisses qui la soutiennent. Ils ne parviennent pas toujours au même jugement, mais ils comprennent mieux le point exact où leurs raisonnements se séparent.\n\nCette reprise modifie aussi la position de Camila. Elle était entrée dans la discussion avec une intuition forte, qu’elle prenait presque pour une évidence. En confrontant cette intuition aux objections, elle ne l’abandonne pas nécessairement ; elle apprend à en limiter la portée et à reconnaître ce qu’elle ne permet pas d’affirmer. Opaque devient ainsi moins un mot à mémoriser qu’un outil pour penser. À la fin, Camila rédige une synthèse qui conserve les tensions au lieu de les résoudre artificiellement. Cette capacité à articuler des données, des voix et des incertitudes devient peu à peu une méthode de travail."
     },
     "transcript": "",
     "extra": null,
@@ -57061,16 +57061,16 @@
             "difficulty": "medium",
             "options": [
               {
+                "id": "o1",
+                "text": "se lit"
+              },
+              {
                 "id": "o2",
                 "text": "est lire"
               },
               {
                 "id": "o3",
                 "text": "fait lu"
-              },
-              {
-                "id": "o1",
-                "text": "se lit"
               },
               {
                 "id": "o4",
@@ -57085,6 +57085,10 @@
             "difficulty": "medium",
             "options": [
               {
+                "id": "o1",
+                "text": "être documentés"
+              },
+              {
                 "id": "o2",
                 "text": "documenter"
               },
@@ -57095,10 +57099,6 @@
               {
                 "id": "o4",
                 "text": "se documenté"
-              },
-              {
-                "id": "o1",
-                "text": "être documentés"
               }
             ]
           },
@@ -57109,12 +57109,12 @@
             "difficulty": "medium",
             "options": [
               {
-                "id": "o2",
-                "text": "Une autre personne à la demande de la direction"
-              },
-              {
                 "id": "o1",
                 "text": "La direction nécessairement"
+              },
+              {
+                "id": "o2",
+                "text": "Une autre personne à la demande de la direction"
               },
               {
                 "id": "o3",
@@ -57133,12 +57133,12 @@
             "difficulty": "medium",
             "options": [
               {
-                "id": "o2",
-                "text": "l’auteur uniquement"
-              },
-              {
                 "id": "o1",
                 "text": "l’action subie et son résultat"
+              },
+              {
+                "id": "o2",
+                "text": "l’auteur uniquement"
               },
               {
                 "id": "o3",
@@ -57157,16 +57157,16 @@
             "difficulty": "hard",
             "options": [
               {
+                "id": "o1",
+                "text": "Ce livre se vend bien."
+              },
+              {
                 "id": "o2",
                 "text": "Ce livre est vendre bien."
               },
               {
                 "id": "o3",
                 "text": "Ce livre se vendu bien."
-              },
-              {
-                "id": "o1",
-                "text": "Ce livre se vend bien."
               },
               {
                 "id": "o4",
@@ -57181,6 +57181,10 @@
             "difficulty": "hard",
             "options": [
               {
+                "id": "o1",
+                "text": "L’exposition a été reportée."
+              },
+              {
                 "id": "o2",
                 "text": "L’exposition est reporté par on."
               },
@@ -57191,10 +57195,6 @@
               {
                 "id": "o4",
                 "text": "On s’est exposition reportée."
-              },
-              {
-                "id": "o1",
-                "text": "L’exposition a été reportée."
               }
             ]
           }
@@ -57203,18 +57203,18 @@
       "grammarProfile": {
         "name": "La voix passive, le passif pronominal et faire + infinitif",
         "definition": "Le passif met l’accent sur le résultat ou l’objet : « l’exposition a été annulée ». Le passif pronominal décrit un usage : « cette œuvre se lit à plusieurs niveaux ». Faire + infinitif distingue le commanditaire de l’exécutant : « le musée a fait retirer l’affiche ».",
-        "structure": "Forme à observer : La voix passive, le passif pronominal et faire + infinitif. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
-        "function": "Maîtriser la voix passive, le passif pronominal et faire + infinitif dans un contexte argumentatif C1.",
+        "explanation": "Le passif met l’accent sur le résultat ou l’objet : « l’exposition a été annulée ». Le passif pronominal décrit un usage : « cette œuvre se lit à plusieurs niveaux ». Faire + infinitif distingue le commanditaire de l’exécutant : « le musée a fait retirer l’affiche ».",
+        "structure": "Estructura central: La voix passive, le passif pronominal et faire + infinitif.",
+        "purpose": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
+        "function": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
+        "cefrLevel": "C1",
+        "unitContext": "Maîtriser la voix passive, le passif pronominal et faire + infinitif dans un contexte argumentatif C1.",
         "examples": [
           "L’exposition a été retirée par la direction.",
           "Le musée a fait retirer l’affiche.",
           "Cette œuvre se lit à plusieurs niveaux.",
           "Les témoignages doivent être documentés correctement."
-        ],
-        "explanation": "Le passif met l’accent sur le résultat ou l’objet : « l’exposition a été annulée ». Le passif pronominal décrit un usage : « cette œuvre se lit à plusieurs niveaux ». Faire + infinitif distingue le commanditaire de l’exécutant : « le musée a fait retirer l’affiche ».",
-        "purpose": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
-        "cefrLevel": "C1",
-        "unitContext": "Maîtriser la voix passive, le passif pronominal et faire + infinitif dans un contexte argumentatif C1."
+        ]
       },
       "listeningComprehension": null
     },
@@ -57398,12 +57398,12 @@
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
-                "id": "c",
-                "text": "Parce que la question complexe, alors le résultat forcément."
-              },
-              {
                 "id": "b",
                 "text": "Le test d’aptitude, lequel avait été administré avant l’enseignement, n’expliquait qu’une partie de la variation."
+              },
+              {
+                "id": "c",
+                "text": "Parce que la question complexe, alors le résultat forcément."
               },
               {
                 "id": "d",
@@ -57426,12 +57426,12 @@
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
-                "id": "d",
-                "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
-              },
-              {
                 "id": "c",
                 "text": "Elle emploie les relatives complexes : dont, lequel et préposition + relatif afin de enchaîner des précisions sur l’âge, l’aptitude et l’expérience sans perdre l’antécédent : « Le test d’aptitude, lequel avait été administré avant l’enseignement, n’expliquait qu’une partie de la variation. »"
+              },
+              {
+                "id": "d",
+                "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
               }
             ]
           },
@@ -57442,16 +57442,16 @@
             "difficulty": "analysis",
             "options": [
               {
-                "id": "c",
-                "text": "Les participants pour lesquels la tâche était nouvelle ont demandé davantage d’entraînement."
-              },
-              {
                 "id": "a",
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
                 "id": "b",
                 "text": "Parce que la question complexe, alors le résultat forcément."
+              },
+              {
+                "id": "c",
+                "text": "Les participants pour lesquels la tâche était nouvelle ont demandé davantage d’entraînement."
               },
               {
                 "id": "d",
@@ -57470,16 +57470,16 @@
                 "text": "Elle remplace les preuves par une affirmation absolue."
               },
               {
-                "id": "d",
-                "text": "Elle emploie les relatives complexes : dont, lequel et préposition + relatif afin de enchaîner des précisions sur l’âge, l’aptitude et l’expérience sans perdre l’antécédent : « Les participants pour lesquels la tâche était nouvelle ont demandé davantage d’entraînement. »"
-              },
-              {
                 "id": "b",
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
                 "id": "c",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
+              },
+              {
+                "id": "d",
+                "text": "Elle emploie les relatives complexes : dont, lequel et préposition + relatif afin de enchaîner des précisions sur l’âge, l’aptitude et l’expérience sans perdre l’antécédent : « Les participants pour lesquels la tâche était nouvelle ont demandé davantage d’entraînement. »"
               }
             ]
           },
@@ -57498,12 +57498,12 @@
                 "text": "Parce que la question complexe, alors le résultat forcément."
               },
               {
-                "id": "d",
-                "text": "Plusieurs profils ont émergé, dont aucun ne justifiait une interprétation déficitaire."
-              },
-              {
                 "id": "c",
                 "text": "La thèse est étant vraie par les mots qui ont utilisé."
+              },
+              {
+                "id": "d",
+                "text": "Plusieurs profils ont émergé, dont aucun ne justifiait une interprétation déficitaire."
               }
             ]
           },
@@ -57513,6 +57513,10 @@
             "prompt": "Pourquoi l’exemple 4 convient-il à cette unité ?",
             "difficulty": "precision",
             "options": [
+              {
+                "id": "a",
+                "text": "Elle emploie les relatives complexes : dont, lequel et préposition + relatif afin de enchaîner des précisions sur l’âge, l’aptitude et l’expérience sans perdre l’antécédent : « Plusieurs profils ont émergé, dont aucun ne justifiait une interprétation déficitaire. »"
+              },
               {
                 "id": "b",
                 "text": "Elle remplace les preuves par une affirmation absolue."
@@ -57524,10 +57528,6 @@
               {
                 "id": "d",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
-              },
-              {
-                "id": "a",
-                "text": "Elle emploie les relatives complexes : dont, lequel et préposition + relatif afin de enchaîner des précisions sur l’âge, l’aptitude et l’expérience sans perdre l’antécédent : « Plusieurs profils ont émergé, dont aucun ne justifiait une interprétation déficitaire. »"
               }
             ]
           }
@@ -59122,7 +59122,7 @@
         "Karim lui fait remarquer qu’elle cherche une option sans perte. Or tout choix sérieux renonce à quelque chose, même provisoirement. Il lui conseille de distinguer l’irréversible du révisable. Partir un an ne signifie pas abandonner définitivement Tours ; refuser cette offre n’interdit pas toute carrière internationale. Cette distinction réduit la dramatisation sans rendre la décision facile.",
         "Camila demande un délai et contacte d’anciens étudiants du programme. Elle finit par accepter, non parce que toutes ses incertitudes ont disparu, mais parce qu’elle sait mieux lesquelles elle est prête à assumer. Quand elle aura terminé son année à Tours, elle partira avec le sentiment paradoxal de quitter un lieu devenu familier précisément parce qu’elle y a appris à ne plus confondre stabilité et immobilité.",
         "Pour approfondir la question, le groupe reprend le dossier en distinguant trois niveaux souvent confondus : les faits observables, l’interprétation qu’on en propose et les valeurs au nom desquelles on juge la situation. Cette méthode oblige chacun à préciser ses termes. Une voie ne peut plus servir de formule vague ; une unité de comparaison doit être relié à un exemple, et irréversible à une conséquence vérifiable. Camila remarque que le désaccord devient plus fécond dès que les participants cessent de défendre une conclusion globale et examinent séparément les prémisses qui la soutiennent. Ils ne parviennent pas toujours au même jugement, mais ils comprennent mieux le point exact où leurs raisonnements se séparent.",
-        "Cette reprise modifie aussi la position de Camila. Elle était entrée dans la discussion avec une intuition forte, qu’elle prenait presque pour une évidence. En confrontant cette intuition aux objections, elle ne l’abandonne pas nécessairement ; elle apprend à en limiter la portée et à reconnaître ce qu’elle ne permet pas d’affirmer. Révisable devient ainsi moins un mot à mémoriser qu’un outil pour penser. À la fin, Camila rédige une synthèse qui conserve les tensions au lieu de les résoudre artificiellement. C’est précisément cette capacité à articuler des données, des voix et des incertitudes qui caractérise désormais son travail de niveau C1."
+        "Cette reprise modifie aussi la position de Camila. Elle était entrée dans la discussion avec une intuition forte, qu’elle prenait presque pour une évidence. En confrontant cette intuition aux objections, elle ne l’abandonne pas nécessairement ; elle apprend à en limiter la portée et à reconnaître ce qu’elle ne permet pas d’affirmer. Révisable devient ainsi moins un mot à mémoriser qu’un outil pour penser. À la fin, Camila rédige une synthèse qui conserve les tensions au lieu de les résoudre artificiellement. Cette capacité à articuler des données, des voix et des incertitudes devient peu à peu une méthode de travail."
       ],
       "questions": [
         "Pourquoi l’offre est-elle difficile à accepter ?",
@@ -59131,7 +59131,7 @@
         "Quelle distinction réduit la dramatisation ?",
         "Pourquoi Camila accepte-t-elle finalement ?"
       ],
-      "text": "À quelques semaines de la fin de l’année, Camila reçoit une proposition de Montréal : un master orienté vers les technologies linguistiques, accompagné d’un stage. L’offre correspond à plusieurs de ses intérêts, mais elle arrive au moment où son réseau à Tours devient enfin solide. Accepter signifierait recommencer ailleurs ; refuser pourrait fermer une voie qu’elle ne retrouvera pas facilement.\n\nElle construit d’abord un tableau rationnel : coût, contenu des cours, perspectives professionnelles, distance. Les colonnes se remplissent sans produire de décision. Certains éléments ne se comparent pas dans une même unité : comment mesurer la proximité de ses amis face à une spécialisation rare ? Comment évaluer un risque dont les conséquences ne seront visibles que plusieurs années plus tard ?\n\nKarim lui fait remarquer qu’elle cherche une option sans perte. Or tout choix sérieux renonce à quelque chose, même provisoirement. Il lui conseille de distinguer l’irréversible du révisable. Partir un an ne signifie pas abandonner définitivement Tours ; refuser cette offre n’interdit pas toute carrière internationale. Cette distinction réduit la dramatisation sans rendre la décision facile.\n\nCamila demande un délai et contacte d’anciens étudiants du programme. Elle finit par accepter, non parce que toutes ses incertitudes ont disparu, mais parce qu’elle sait mieux lesquelles elle est prête à assumer. Quand elle aura terminé son année à Tours, elle partira avec le sentiment paradoxal de quitter un lieu devenu familier précisément parce qu’elle y a appris à ne plus confondre stabilité et immobilité.\n\nPour approfondir la question, le groupe reprend le dossier en distinguant trois niveaux souvent confondus : les faits observables, l’interprétation qu’on en propose et les valeurs au nom desquelles on juge la situation. Cette méthode oblige chacun à préciser ses termes. Une voie ne peut plus servir de formule vague ; une unité de comparaison doit être relié à un exemple, et irréversible à une conséquence vérifiable. Camila remarque que le désaccord devient plus fécond dès que les participants cessent de défendre une conclusion globale et examinent séparément les prémisses qui la soutiennent. Ils ne parviennent pas toujours au même jugement, mais ils comprennent mieux le point exact où leurs raisonnements se séparent.\n\nCette reprise modifie aussi la position de Camila. Elle était entrée dans la discussion avec une intuition forte, qu’elle prenait presque pour une évidence. En confrontant cette intuition aux objections, elle ne l’abandonne pas nécessairement ; elle apprend à en limiter la portée et à reconnaître ce qu’elle ne permet pas d’affirmer. Révisable devient ainsi moins un mot à mémoriser qu’un outil pour penser. À la fin, Camila rédige une synthèse qui conserve les tensions au lieu de les résoudre artificiellement. C’est précisément cette capacité à articuler des données, des voix et des incertitudes qui caractérise désormais son travail de niveau C1."
+      "text": "À quelques semaines de la fin de l’année, Camila reçoit une proposition de Montréal : un master orienté vers les technologies linguistiques, accompagné d’un stage. L’offre correspond à plusieurs de ses intérêts, mais elle arrive au moment où son réseau à Tours devient enfin solide. Accepter signifierait recommencer ailleurs ; refuser pourrait fermer une voie qu’elle ne retrouvera pas facilement.\n\nElle construit d’abord un tableau rationnel : coût, contenu des cours, perspectives professionnelles, distance. Les colonnes se remplissent sans produire de décision. Certains éléments ne se comparent pas dans une même unité : comment mesurer la proximité de ses amis face à une spécialisation rare ? Comment évaluer un risque dont les conséquences ne seront visibles que plusieurs années plus tard ?\n\nKarim lui fait remarquer qu’elle cherche une option sans perte. Or tout choix sérieux renonce à quelque chose, même provisoirement. Il lui conseille de distinguer l’irréversible du révisable. Partir un an ne signifie pas abandonner définitivement Tours ; refuser cette offre n’interdit pas toute carrière internationale. Cette distinction réduit la dramatisation sans rendre la décision facile.\n\nCamila demande un délai et contacte d’anciens étudiants du programme. Elle finit par accepter, non parce que toutes ses incertitudes ont disparu, mais parce qu’elle sait mieux lesquelles elle est prête à assumer. Quand elle aura terminé son année à Tours, elle partira avec le sentiment paradoxal de quitter un lieu devenu familier précisément parce qu’elle y a appris à ne plus confondre stabilité et immobilité.\n\nPour approfondir la question, le groupe reprend le dossier en distinguant trois niveaux souvent confondus : les faits observables, l’interprétation qu’on en propose et les valeurs au nom desquelles on juge la situation. Cette méthode oblige chacun à préciser ses termes. Une voie ne peut plus servir de formule vague ; une unité de comparaison doit être relié à un exemple, et irréversible à une conséquence vérifiable. Camila remarque que le désaccord devient plus fécond dès que les participants cessent de défendre une conclusion globale et examinent séparément les prémisses qui la soutiennent. Ils ne parviennent pas toujours au même jugement, mais ils comprennent mieux le point exact où leurs raisonnements se séparent.\n\nCette reprise modifie aussi la position de Camila. Elle était entrée dans la discussion avec une intuition forte, qu’elle prenait presque pour une évidence. En confrontant cette intuition aux objections, elle ne l’abandonne pas nécessairement ; elle apprend à en limiter la portée et à reconnaître ce qu’elle ne permet pas d’affirmer. Révisable devient ainsi moins un mot à mémoriser qu’un outil pour penser. À la fin, Camila rédige une synthèse qui conserve les tensions au lieu de les résoudre artificiellement. Cette capacité à articuler des données, des voix et des incertitudes devient peu à peu une méthode de travail."
     },
     "transcript": "",
     "extra": null,
@@ -62159,16 +62159,16 @@
             "difficulty": "medium",
             "options": [
               {
+                "id": "o1",
+                "text": "aura contacté"
+              },
+              {
                 "id": "o2",
                 "text": "avait contacté"
               },
               {
                 "id": "o3",
                 "text": "contacterait hier"
-              },
-              {
-                "id": "o1",
-                "text": "aura contacté"
               },
               {
                 "id": "o4",
@@ -62183,6 +62183,10 @@
             "difficulty": "medium",
             "options": [
               {
+                "id": "o1",
+                "text": "un accomplissement avant un repère futur"
+              },
+              {
                 "id": "o2",
                 "text": "une habitude passée"
               },
@@ -62193,10 +62197,6 @@
               {
                 "id": "o4",
                 "text": "une concession"
-              },
-              {
-                "id": "o1",
-                "text": "un accomplissement avant un repère futur"
               }
             ]
           },
@@ -62207,12 +62207,12 @@
             "difficulty": "medium",
             "options": [
               {
-                "id": "o2",
-                "text": "serait"
-              },
-              {
                 "id": "o1",
                 "text": "sera"
+              },
+              {
+                "id": "o2",
+                "text": "serait"
               },
               {
                 "id": "o3",
@@ -62231,12 +62231,12 @@
             "difficulty": "medium",
             "options": [
               {
-                "id": "o2",
-                "text": "aurait hier certain"
-              },
-              {
                 "id": "o1",
                 "text": "aura"
+              },
+              {
+                "id": "o2",
+                "text": "aurait hier certain"
               },
               {
                 "id": "o3",
@@ -62259,12 +62259,12 @@
                 "text": "Elle dit qu’elle partira."
               },
               {
-                "id": "o3",
-                "text": "Elle dira qu’elle partait."
-              },
-              {
                 "id": "o2",
                 "text": "Elle disait qu’elle partirait."
+              },
+              {
+                "id": "o3",
+                "text": "Elle dira qu’elle partait."
               },
               {
                 "id": "o4",
@@ -62279,6 +62279,10 @@
             "difficulty": "hard",
             "options": [
               {
+                "id": "o1",
+                "text": "Quand elle finira, elle aura déjà préparé son dossier."
+              },
+              {
                 "id": "o2",
                 "text": "Quand elle aura fini, elle préparerait hier."
               },
@@ -62289,10 +62293,6 @@
               {
                 "id": "o4",
                 "text": "Quand elle avait fini demain."
-              },
-              {
-                "id": "o1",
-                "text": "Quand elle finira, elle aura déjà préparé son dossier."
               }
             ]
           }
@@ -62301,18 +62301,18 @@
       "grammarProfile": {
         "name": "Le futur antérieur et les projections dans le passé",
         "definition": "Le futur antérieur marque l’accomplissement avant un repère futur ou une supposition : « quand elle aura terminé ». Dans un récit au passé, le conditionnel exprime le futur dans le passé : « elle savait qu’elle devrait choisir ». Ces temps structurent les projections complexes.",
-        "structure": "Forme à observer : Le futur antérieur et les projections dans le passé. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
-        "function": "Maîtriser le futur antérieur et les projections dans le passé dans un contexte argumentatif C1.",
+        "explanation": "Le futur antérieur marque l’accomplissement avant un repère futur ou une supposition : « quand elle aura terminé ». Dans un récit au passé, le conditionnel exprime le futur dans le passé : « elle savait qu’elle devrait choisir ». Ces temps structurent les projections complexes.",
+        "structure": "Estructura central: Le futur antérieur et les projections dans le passé.",
+        "purpose": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
+        "function": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
+        "cefrLevel": "C1",
+        "unitContext": "Maîtriser le futur antérieur et les projections dans le passé dans un contexte argumentatif C1.",
         "examples": [
           "Quand elle aura terminé son année, elle partira.",
           "Elle savait qu’elle devrait choisir.",
           "D’ici septembre, elle aura contacté tous les étudiants.",
           "un accomplissement avant un repère futur"
-        ],
-        "explanation": "Le futur antérieur marque l’accomplissement avant un repère futur ou une supposition : « quand elle aura terminé ». Dans un récit au passé, le conditionnel exprime le futur dans le passé : « elle savait qu’elle devrait choisir ». Ces temps structurent les projections complexes.",
-        "purpose": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
-        "cefrLevel": "C1",
-        "unitContext": "Maîtriser le futur antérieur et les projections dans le passé dans un contexte argumentatif C1."
+        ]
       },
       "listeningComprehension": null
     },
@@ -62496,12 +62496,12 @@
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
-                "id": "c",
-                "text": "Parce que la question complexe, alors le résultat forcément."
-              },
-              {
                 "id": "b",
                 "text": "Ayant comparé les réponses, les chercheurs ont distingué connaissance réceptive et emploi productif."
+              },
+              {
+                "id": "c",
+                "text": "Parce que la question complexe, alors le résultat forcément."
               },
               {
                 "id": "d",
@@ -62524,12 +62524,12 @@
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
-                "id": "d",
-                "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
-              },
-              {
                 "id": "c",
                 "text": "Elle emploie les propositions participiales et la condensation maîtrisée afin de relier plusieurs opérations cognitives en maintenant un sujet non ambigu : « Ayant comparé les réponses, les chercheurs ont distingué connaissance réceptive et emploi productif. »"
+              },
+              {
+                "id": "d",
+                "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
               }
             ]
           },
@@ -62540,16 +62540,16 @@
             "difficulty": "analysis",
             "options": [
               {
-                "id": "c",
-                "text": "Les collocations recyclées dans des tâches variées ont été mieux retenues au test différé."
-              },
-              {
                 "id": "a",
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
                 "id": "b",
                 "text": "Parce que la question complexe, alors le résultat forcément."
+              },
+              {
+                "id": "c",
+                "text": "Les collocations recyclées dans des tâches variées ont été mieux retenues au test différé."
               },
               {
                 "id": "d",
@@ -62568,16 +62568,16 @@
                 "text": "Elle remplace les preuves par une affirmation absolue."
               },
               {
-                "id": "d",
-                "text": "Elle emploie les propositions participiales et la condensation maîtrisée afin de relier plusieurs opérations cognitives en maintenant un sujet non ambigu : « Les collocations recyclées dans des tâches variées ont été mieux retenues au test différé. »"
-              },
-              {
                 "id": "b",
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
                 "id": "c",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
+              },
+              {
+                "id": "d",
+                "text": "Elle emploie les propositions participiales et la condensation maîtrisée afin de relier plusieurs opérations cognitives en maintenant un sujet non ambigu : « Les collocations recyclées dans des tâches variées ont été mieux retenues au test différé. »"
               }
             ]
           },
@@ -62596,12 +62596,12 @@
                 "text": "Parce que la question complexe, alors le résultat forcément."
               },
               {
-                "id": "d",
-                "text": "La fréquence demeurant constante, la richesse du contexte pouvait être examinée plus précisément."
-              },
-              {
                 "id": "c",
                 "text": "La thèse est étant vraie par les mots qui ont utilisé."
+              },
+              {
+                "id": "d",
+                "text": "La fréquence demeurant constante, la richesse du contexte pouvait être examinée plus précisément."
               }
             ]
           },
@@ -62611,6 +62611,10 @@
             "prompt": "Pourquoi l’exemple 4 convient-il à cette unité ?",
             "difficulty": "precision",
             "options": [
+              {
+                "id": "a",
+                "text": "Elle emploie les propositions participiales et la condensation maîtrisée afin de relier plusieurs opérations cognitives en maintenant un sujet non ambigu : « La fréquence demeurant constante, la richesse du contexte pouvait être examinée plus précisément. »"
+              },
               {
                 "id": "b",
                 "text": "Elle remplace les preuves par une affirmation absolue."
@@ -62622,10 +62626,6 @@
               {
                 "id": "d",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
-              },
-              {
-                "id": "a",
-                "text": "Elle emploie les propositions participiales et la condensation maîtrisée afin de relier plusieurs opérations cognitives en maintenant un sujet non ambigu : « La fréquence demeurant constante, la richesse du contexte pouvait être examinée plus précisément. »"
               }
             ]
           }
@@ -64060,7 +64060,7 @@
         "Un étudiant lui demande finalement quelle est la principale leçon de son parcours. Camila pourrait répondre l’autonomie, la persévérance ou l’ouverture. Elle choisit un terme moins spectaculaire : l’attention. Attention aux mots qui cadrent un débat, aux personnes absentes d’une décision, aux limites que le corps signale, aux histoires que les documents ne racontent qu’à moitié.",
         "Cette réponse rassemble des expériences qui lui semblaient jusque-là séparées. Elle ne transforme pas son parcours en modèle ; elle en dégage une manière de regarder. Au terme de l’atelier, les étudiants repartent sans liste définitive, mais avec des questions qu’ils pourront adapter à leur propre situation. Camila comprend alors que transmettre ne consiste pas à reproduire son chemin chez les autres, mais à leur donner des outils pour reconnaître le leur.",
         "Pour approfondir la question, le groupe reprend le dossier en distinguant trois niveaux souvent confondus : les faits observables, l’interprétation qu’on en propose et les valeurs au nom desquelles on juge la situation. Cette méthode oblige chacun à préciser ses termes. Un parcours uniforme ne peut plus servir de formule vague ; un retour en arrière doit être relié à un exemple, et un code implicite à une conséquence vérifiable. Camila remarque que le désaccord devient plus fécond dès que les participants cessent de défendre une conclusion globale et examinent séparément les prémisses qui la soutiennent. Ils ne parviennent pas toujours au même jugement, mais ils comprennent mieux le point exact où leurs raisonnements se séparent.",
-        "Cette reprise modifie aussi la position de Camila. Elle était entrée dans la discussion avec une intuition forte, qu’elle prenait presque pour une évidence. En confrontant cette intuition aux objections, elle ne l’abandonne pas nécessairement ; elle apprend à en limiter la portée et à reconnaître ce qu’elle ne permet pas d’affirmer. Dégager une idée devient ainsi moins un mot à mémoriser qu’un outil pour penser. À la fin, Camila rédige une synthèse qui conserve les tensions au lieu de les résoudre artificiellement. C’est précisément cette capacité à articuler des données, des voix et des incertitudes qui caractérise désormais son travail de niveau C1."
+        "Cette reprise modifie aussi la position de Camila. Elle était entrée dans la discussion avec une intuition forte, qu’elle prenait presque pour une évidence. En confrontant cette intuition aux objections, elle ne l’abandonne pas nécessairement ; elle apprend à en limiter la portée et à reconnaître ce qu’elle ne permet pas d’affirmer. Dégager une idée devient ainsi moins un mot à mémoriser qu’un outil pour penser. À la fin, Camila rédige une synthèse qui conserve les tensions au lieu de les résoudre artificiellement. Cette capacité à articuler des données, des voix et des incertitudes devient peu à peu une méthode de travail."
       ],
       "questions": [
         "Pourquoi Camila critique-t-elle le titre initial ?",
@@ -64069,7 +64069,7 @@
         "Que refuse-t-elle de faire de son parcours ?",
         "Avec quoi les étudiants repartent-ils ?"
       ],
-      "text": "Avant de quitter Tours, Camila accepte d’animer un atelier destiné aux étudiants internationaux. On lui demande des conseils pratiques, mais elle hésite devant le titre proposé : « Réussir son intégration ». Le mot réussite suggère un parcours mesurable et presque uniforme, alors que son expérience a été faite d’avancées, de retours en arrière et de liens qui ne se laissent pas réduire à une méthode.\n\nElle construit donc l’atelier autour de situations plutôt que de règles. Comment demander de l’aide lorsqu’on ne maîtrise pas les codes ? Que faire quand une correction linguistique devient humiliante ? Comment préserver les liens avec son pays sans vivre uniquement à distance ? À chaque fois, elle présente plusieurs réponses possibles et précise les conditions dans lesquelles elles lui ont été utiles.\n\nUn étudiant lui demande finalement quelle est la principale leçon de son parcours. Camila pourrait répondre l’autonomie, la persévérance ou l’ouverture. Elle choisit un terme moins spectaculaire : l’attention. Attention aux mots qui cadrent un débat, aux personnes absentes d’une décision, aux limites que le corps signale, aux histoires que les documents ne racontent qu’à moitié.\n\nCette réponse rassemble des expériences qui lui semblaient jusque-là séparées. Elle ne transforme pas son parcours en modèle ; elle en dégage une manière de regarder. Au terme de l’atelier, les étudiants repartent sans liste définitive, mais avec des questions qu’ils pourront adapter à leur propre situation. Camila comprend alors que transmettre ne consiste pas à reproduire son chemin chez les autres, mais à leur donner des outils pour reconnaître le leur.\n\nPour approfondir la question, le groupe reprend le dossier en distinguant trois niveaux souvent confondus : les faits observables, l’interprétation qu’on en propose et les valeurs au nom desquelles on juge la situation. Cette méthode oblige chacun à préciser ses termes. Un parcours uniforme ne peut plus servir de formule vague ; un retour en arrière doit être relié à un exemple, et un code implicite à une conséquence vérifiable. Camila remarque que le désaccord devient plus fécond dès que les participants cessent de défendre une conclusion globale et examinent séparément les prémisses qui la soutiennent. Ils ne parviennent pas toujours au même jugement, mais ils comprennent mieux le point exact où leurs raisonnements se séparent.\n\nCette reprise modifie aussi la position de Camila. Elle était entrée dans la discussion avec une intuition forte, qu’elle prenait presque pour une évidence. En confrontant cette intuition aux objections, elle ne l’abandonne pas nécessairement ; elle apprend à en limiter la portée et à reconnaître ce qu’elle ne permet pas d’affirmer. Dégager une idée devient ainsi moins un mot à mémoriser qu’un outil pour penser. À la fin, Camila rédige une synthèse qui conserve les tensions au lieu de les résoudre artificiellement. C’est précisément cette capacité à articuler des données, des voix et des incertitudes qui caractérise désormais son travail de niveau C1."
+      "text": "Avant de quitter Tours, Camila accepte d’animer un atelier destiné aux étudiants internationaux. On lui demande des conseils pratiques, mais elle hésite devant le titre proposé : « Réussir son intégration ». Le mot réussite suggère un parcours mesurable et presque uniforme, alors que son expérience a été faite d’avancées, de retours en arrière et de liens qui ne se laissent pas réduire à une méthode.\n\nElle construit donc l’atelier autour de situations plutôt que de règles. Comment demander de l’aide lorsqu’on ne maîtrise pas les codes ? Que faire quand une correction linguistique devient humiliante ? Comment préserver les liens avec son pays sans vivre uniquement à distance ? À chaque fois, elle présente plusieurs réponses possibles et précise les conditions dans lesquelles elles lui ont été utiles.\n\nUn étudiant lui demande finalement quelle est la principale leçon de son parcours. Camila pourrait répondre l’autonomie, la persévérance ou l’ouverture. Elle choisit un terme moins spectaculaire : l’attention. Attention aux mots qui cadrent un débat, aux personnes absentes d’une décision, aux limites que le corps signale, aux histoires que les documents ne racontent qu’à moitié.\n\nCette réponse rassemble des expériences qui lui semblaient jusque-là séparées. Elle ne transforme pas son parcours en modèle ; elle en dégage une manière de regarder. Au terme de l’atelier, les étudiants repartent sans liste définitive, mais avec des questions qu’ils pourront adapter à leur propre situation. Camila comprend alors que transmettre ne consiste pas à reproduire son chemin chez les autres, mais à leur donner des outils pour reconnaître le leur.\n\nPour approfondir la question, le groupe reprend le dossier en distinguant trois niveaux souvent confondus : les faits observables, l’interprétation qu’on en propose et les valeurs au nom desquelles on juge la situation. Cette méthode oblige chacun à préciser ses termes. Un parcours uniforme ne peut plus servir de formule vague ; un retour en arrière doit être relié à un exemple, et un code implicite à une conséquence vérifiable. Camila remarque que le désaccord devient plus fécond dès que les participants cessent de défendre une conclusion globale et examinent séparément les prémisses qui la soutiennent. Ils ne parviennent pas toujours au même jugement, mais ils comprennent mieux le point exact où leurs raisonnements se séparent.\n\nCette reprise modifie aussi la position de Camila. Elle était entrée dans la discussion avec une intuition forte, qu’elle prenait presque pour une évidence. En confrontant cette intuition aux objections, elle ne l’abandonne pas nécessairement ; elle apprend à en limiter la portée et à reconnaître ce qu’elle ne permet pas d’affirmer. Dégager une idée devient ainsi moins un mot à mémoriser qu’un outil pour penser. À la fin, Camila rédige une synthèse qui conserve les tensions au lieu de les résoudre artificiellement. Cette capacité à articuler des données, des voix et des incertitudes devient peu à peu une méthode de travail."
     },
     "transcript": "",
     "extra": null,
@@ -67053,12 +67053,12 @@
             "difficulty": "easy",
             "options": [
               {
-                "id": "o2",
-                "text": "Lequel que"
-              },
-              {
                 "id": "o1",
                 "text": "Ce constat"
+              },
+              {
+                "id": "o2",
+                "text": "Lequel que"
               },
               {
                 "id": "o3",
@@ -67077,16 +67077,16 @@
             "difficulty": "medium",
             "options": [
               {
+                "id": "o1",
+                "text": "Camila anime un atelier. Cette rencontre lui permet de transmettre."
+              },
+              {
                 "id": "o2",
                 "text": "Camila anime un atelier. Ça fait ça."
               },
               {
                 "id": "o3",
                 "text": "Camila anime un atelier. Elle ceci."
-              },
-              {
-                "id": "o1",
-                "text": "Camila anime un atelier. Cette rencontre lui permet de transmettre."
               },
               {
                 "id": "o4",
@@ -67101,6 +67101,10 @@
             "difficulty": "medium",
             "options": [
               {
+                "id": "o1",
+                "text": "un déplacement de cette nature"
+              },
+              {
                 "id": "o2",
                 "text": "un déplacement très proche"
               },
@@ -67111,10 +67115,6 @@
               {
                 "id": "o4",
                 "text": "un lieu précis"
-              },
-              {
-                "id": "o1",
-                "text": "un déplacement de cette nature"
               }
             ]
           },
@@ -67149,12 +67149,12 @@
             "difficulty": "medium",
             "options": [
               {
-                "id": "o2",
-                "text": "Pourtant que"
-              },
-              {
                 "id": "o1",
                 "text": "Autrement dit"
+              },
+              {
+                "id": "o2",
+                "text": "Pourtant que"
               },
               {
                 "id": "o3",
@@ -67173,16 +67173,16 @@
             "difficulty": "hard",
             "options": [
               {
+                "id": "o1",
+                "text": "Dès lors"
+              },
+              {
                 "id": "o2",
                 "text": "En revanche"
               },
               {
                 "id": "o3",
                 "text": "Certes"
-              },
-              {
-                "id": "o1",
-                "text": "Dès lors"
               },
               {
                 "id": "o4",
@@ -67197,6 +67197,10 @@
             "difficulty": "hard",
             "options": [
               {
+                "id": "o1",
+                "text": "Elle observe plusieurs situations. De ce constat naît une méthode d’attention."
+              },
+              {
                 "id": "o2",
                 "text": "Elle observe. Celui-ci sans nom devient."
               },
@@ -67207,10 +67211,6 @@
               {
                 "id": "o4",
                 "text": "Elle observe et le ceci conclut."
-              },
-              {
-                "id": "o1",
-                "text": "Elle observe plusieurs situations. De ce constat naît une méthode d’attention."
               }
             ]
           }
@@ -67219,18 +67219,18 @@
       "grammarProfile": {
         "name": "La reprise et la cohésion d’un texte complexe",
         "definition": "Un texte C1 évite la répétition par des reprises nominales, pronominales et conceptuelles : « cette expérience », « un tel déplacement », « ce constat ». Les connecteurs organisent la progression sans devenir mécaniques. Chaque reprise doit avoir un antécédent clair.",
-        "structure": "Forme à observer : La reprise et la cohésion d’un texte complexe. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
-        "function": "Maîtriser la reprise et la cohésion d’un texte complexe dans un contexte argumentatif C1.",
+        "explanation": "Un texte C1 évite la répétition par des reprises nominales, pronominales et conceptuelles : « cette expérience », « un tel déplacement », « ce constat ». Les connecteurs organisent la progression sans devenir mécaniques. Chaque reprise doit avoir un antécédent clair.",
+        "structure": "Estructura central: La reprise et la cohésion d’un texte complexe.",
+        "purpose": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
+        "function": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
+        "cefrLevel": "C1",
+        "unitContext": "Maîtriser la reprise et la cohésion d’un texte complexe dans un contexte argumentatif C1.",
         "examples": [
           "un parcours décrit précédemment",
           "Ce constat",
           "Camila anime un atelier. Cette rencontre lui permet de transmettre.",
           "un déplacement de cette nature"
-        ],
-        "explanation": "Un texte C1 évite la répétition par des reprises nominales, pronominales et conceptuelles : « cette expérience », « un tel déplacement », « ce constat ». Les connecteurs organisent la progression sans devenir mécaniques. Chaque reprise doit avoir un antécédent clair.",
-        "purpose": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
-        "cefrLevel": "C1",
-        "unitContext": "Maîtriser la reprise et la cohésion d’un texte complexe dans un contexte argumentatif C1."
+        ]
       },
       "listeningComprehension": null
     },
@@ -67414,12 +67414,12 @@
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
-                "id": "c",
-                "text": "Parce que la question complexe, alors le résultat forcément."
-              },
-              {
                 "id": "b",
                 "text": "Il semblerait que les rappels augmentent la quantité de pratique, sans que leur effet pédagogique soit démontré."
+              },
+              {
+                "id": "c",
+                "text": "Parce que la question complexe, alors le résultat forcément."
               },
               {
                 "id": "d",
@@ -67442,12 +67442,12 @@
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
-                "id": "d",
-                "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
-              },
-              {
                 "id": "c",
                 "text": "Elle emploie le conditionnel de prudence et les tournures impersonnelles afin de évaluer les promesses de l’intelligence artificielle sans certitude excessive : « Il semblerait que les rappels augmentent la quantité de pratique, sans que leur effet pédagogique soit démontré. »"
+              },
+              {
+                "id": "d",
+                "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
               }
             ]
           },
@@ -67458,16 +67458,16 @@
             "difficulty": "analysis",
             "options": [
               {
-                "id": "c",
-                "text": "Les explications auraient été jugées utiles par les participants ; le protocole complet reste toutefois indisponible."
-              },
-              {
                 "id": "a",
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
                 "id": "b",
                 "text": "Parce que la question complexe, alors le résultat forcément."
+              },
+              {
+                "id": "c",
+                "text": "Les explications auraient été jugées utiles par les participants ; le protocole complet reste toutefois indisponible."
               },
               {
                 "id": "d",
@@ -67486,16 +67486,16 @@
                 "text": "Elle remplace les preuves par une affirmation absolue."
               },
               {
-                "id": "d",
-                "text": "Elle emploie le conditionnel de prudence et les tournures impersonnelles afin de évaluer les promesses de l’intelligence artificielle sans certitude excessive : « Les explications auraient été jugées utiles par les participants ; le protocole complet reste toutefois indisponible. »"
-              },
-              {
                 "id": "b",
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
                 "id": "c",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
+              },
+              {
+                "id": "d",
+                "text": "Elle emploie le conditionnel de prudence et les tournures impersonnelles afin de évaluer les promesses de l’intelligence artificielle sans certitude excessive : « Les explications auraient été jugées utiles par les participants ; le protocole complet reste toutefois indisponible. »"
               }
             ]
           },
@@ -67514,12 +67514,12 @@
                 "text": "Parce que la question complexe, alors le résultat forcément."
               },
               {
-                "id": "d",
-                "text": "Il conviendrait donc de qualifier l’outil de prometteur plutôt que d’efficace."
-              },
-              {
                 "id": "c",
                 "text": "La thèse est étant vraie par les mots qui ont utilisé."
+              },
+              {
+                "id": "d",
+                "text": "Il conviendrait donc de qualifier l’outil de prometteur plutôt que d’efficace."
               }
             ]
           },
@@ -67529,6 +67529,10 @@
             "prompt": "Pourquoi l’exemple 4 convient-il à cette unité ?",
             "difficulty": "precision",
             "options": [
+              {
+                "id": "a",
+                "text": "Elle emploie le conditionnel de prudence et les tournures impersonnelles afin de évaluer les promesses de l’intelligence artificielle sans certitude excessive : « Il conviendrait donc de qualifier l’outil de prometteur plutôt que d’efficace. »"
+              },
               {
                 "id": "b",
                 "text": "Elle remplace les preuves par une affirmation absolue."
@@ -67540,10 +67544,6 @@
               {
                 "id": "d",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
-              },
-              {
-                "id": "a",
-                "text": "Elle emploie le conditionnel de prudence et les tournures impersonnelles afin de évaluer les promesses de l’intelligence artificielle sans certitude excessive : « Il conviendrait donc de qualifier l’outil de prometteur plutôt que d’efficace. »"
               }
             ]
           }

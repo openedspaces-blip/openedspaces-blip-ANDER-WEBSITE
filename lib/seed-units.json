@@ -2947,766 +2947,6 @@
     }
   },
   {
-    "slug": "la-rentree-universitaire",
-    "target_language": "french",
-    "level": "C1",
-    "title": "La rentrée universitaire",
-    "title_es": "El inicio del curso universitario",
-    "description": "Camila commence sa licence de langues étrangères appliquées à l’université de Tours et retrouve Léa et Karim.",
-    "order_index": 1,
-    "unit_overview": {
-      "objective": "Comprendre un récit universitaire complexe et maîtriser des nuances grammaticales de haut niveau.",
-      "outcomes": [
-        "comprendre un texte long à registre soutenu",
-        "analyser des nuances lexicales fines à l’université",
-        "utiliser les structures de mise en relief (c’est... qui/que)",
-        "reconnaître l’usage du subjonctif dans des tournures nuancées d’opinion"
-      ],
-      "grammar": [
-        "la mise en relief (c’est... qui/que)",
-        "subjonctif après verbes d’opinion nuancée",
-        "registre soutenu à l’écrit universitaire"
-      ],
-      "vocabulary": [
-        "un amphithéâtre",
-        "une unité d’enseignement",
-        "un syllabus",
-        "l’autonomie académique"
-      ],
-      "scenario": "Camila arrive pour son premier jour de cours à l’université de Tours, où elle retrouve Léa et Karim."
-    }
-  },
-  {
-    "slug": "un-exposer-a-preparer",
-    "target_language": "french",
-    "level": "C1",
-    "title": "Un exposé à préparer",
-    "title_es": "Una exposición por preparar",
-    "description": "Camila prépare, avec un groupe d’étudiants internationaux, un exposé complexe sur la diversité linguistique dans les Caraïbes.",
-    "order_index": 2,
-    "unit_overview": {
-      "objective": "Comprendre un travail de groupe académique complexe et maîtriser le discours rapporté nuancé.",
-      "outcomes": [
-        "comprendre les dynamiques d’un travail de groupe universitaire",
-        "analyser un vocabulaire académique spécialisé",
-        "utiliser le discours rapporté avec concordance des temps complète",
-        "reconnaître les nuances de l’expression de la probabilité en français soutenu"
-      ],
-      "grammar": [
-        "discours rapporté avec concordance des temps complète",
-        "expression de la probabilité (registre soutenu : il est probable que, il n’est pas exclu que)",
-        "accord et cohérence dans un texte académique long"
-      ],
-      "vocabulary": [
-        "une soutenance",
-        "la diversité linguistique",
-        "un consensus",
-        "une problématique"
-      ],
-      "scenario": "Camila collabore avec un groupe international pour préparer un exposé sur la diversité linguistique caribéenne, un sujet qui la touche personnellement."
-    }
-  },
-  {
-    "slug": "les-medias-et-la-fabrique-de-lopinion",
-    "target_language": "french",
-    "level": "C1",
-    "title": "Les médias et la fabrique de l’opinion",
-    "title_es": "Los medios y la construcción de la opinión",
-    "description": "Camila compare le traitement d’une même réforme universitaire dans différents médias.",
-    "order_index": 3,
-    "unit_overview": {
-      "objective": "Analyser le cadrage médiatique, les présupposés et la hiérarchie de l’information.",
-      "outcomes": [
-        "comprendre un texte long et conceptuellement dense",
-        "identifier les implicites et les nuances argumentatives",
-        "réutiliser un lexique précis en contexte",
-        "maîtriser une structure grammaticale de niveau C1"
-      ],
-      "grammar": [
-        "La nominalisation et les tournures impersonnelles"
-      ],
-      "vocabulary": [
-        "le cadrage",
-        "un présupposé",
-        "une ligne éditoriale",
-        "un angle mort"
-      ],
-      "scenario": "Camila prépare une revue de presse sur une réforme des universités."
-    }
-  },
-  {
-    "slug": "intelligence-artificielle-et-traduction",
-    "target_language": "french",
-    "level": "C1",
-    "title": "Intelligence artificielle et traduction",
-    "title_es": "Inteligencia artificial y traducción",
-    "description": "Camila évalue un outil de traduction automatique et s’interroge sur ses limites.",
-    "order_index": 4,
-    "unit_overview": {
-      "objective": "Évaluer une technologie en distinguant efficacité, responsabilité et perte de nuance.",
-      "outcomes": [
-        "comprendre un texte long et conceptuellement dense",
-        "identifier les implicites et les nuances argumentatives",
-        "réutiliser un lexique précis en contexte",
-        "maîtriser une structure grammaticale de niveau C1"
-      ],
-      "grammar": [
-        "La concession avancée : quoique, quand bien même, avoir beau"
-      ],
-      "vocabulary": [
-        "aplatir une voix",
-        "un sous-entendu",
-        "vraisemblable",
-        "une décision interprétative"
-      ],
-      "scenario": "Camila doit traduire le témoignage littéraire d’une autrice caribéenne."
-    }
-  },
-  {
-    "slug": "memoire-migration-et-identite",
-    "target_language": "french",
-    "level": "C1",
-    "title": "Mémoire, migration et identité",
-    "title_es": "Memoria, migración e identidad",
-    "description": "Une boîte de lettres familiales oblige Camila à reconsidérer son histoire.",
-    "order_index": 5,
-    "unit_overview": {
-      "objective": "Interpréter un récit mémoriel où documents, silences et identité se répondent.",
-      "outcomes": [
-        "comprendre un texte long et conceptuellement dense",
-        "identifier les implicites et les nuances argumentatives",
-        "réutiliser un lexique précis en contexte",
-        "maîtriser une structure grammaticale de niveau C1"
-      ],
-      "grammar": [
-        "Les temps du récit et le discours indirect libre"
-      ],
-      "vocabulary": [
-        "une archive",
-        "un récit linéaire",
-        "minimiser",
-        "un fragment"
-      ],
-      "scenario": "Camila classe des lettres envoyées entre la République dominicaine et la France."
-    }
-  },
-  {
-    "slug": "justice-sociale-et-inegalites",
-    "target_language": "french",
-    "level": "C1",
-    "title": "Justice sociale et inégalités",
-    "title_es": "Justicia social y desigualdades",
-    "description": "Un séminaire pousse Camila à examiner les limites du discours méritocratique.",
-    "order_index": 6,
-    "unit_overview": {
-      "objective": "Suivre une argumentation contradictoire et distinguer égalité formelle et équité.",
-      "outcomes": [
-        "comprendre un texte long et conceptuellement dense",
-        "identifier les implicites et les nuances argumentatives",
-        "réutiliser un lexique précis en contexte",
-        "maîtriser une structure grammaticale de niveau C1"
-      ],
-      "grammar": [
-        "Les articulateurs logiques et la réfutation"
-      ],
-      "vocabulary": [
-        "la méritocratie",
-        "l’équité",
-        "déterministe",
-        "un justificatif"
-      ],
-      "scenario": "Des étudiants débattent de la sélection et des bourses universitaires."
-    }
-  },
-  {
-    "slug": "ecologie-et-responsabilite-collective",
-    "target_language": "french",
-    "level": "C1",
-    "title": "Écologie et responsabilité collective",
-    "title_es": "Ecología y responsabilidad colectiva",
-    "description": "Camila participe à une consultation sur la transition écologique du campus.",
-    "order_index": 7,
-    "unit_overview": {
-      "objective": "Évaluer une politique écologique en identifiant arbitrages, indicateurs et effets indirects.",
-      "outcomes": [
-        "comprendre un texte long et conceptuellement dense",
-        "identifier les implicites et les nuances argumentatives",
-        "réutiliser un lexique précis en contexte",
-        "maîtriser une structure grammaticale de niveau C1"
-      ],
-      "grammar": [
-        "L’hypothèse complexe et le conditionnel passé"
-      ],
-      "vocabulary": [
-        "la sobriété énergétique",
-        "énergivore",
-        "un arbitrage",
-        "structurel(le)"
-      ],
-      "scenario": "L’université doit réduire sa consommation énergétique sans exclure les étudiants."
-    }
-  },
-  {
-    "slug": "langues-pouvoir-et-inclusion",
-    "target_language": "french",
-    "level": "C1",
-    "title": "Langues, pouvoir et inclusion",
-    "title_es": "Lenguas, poder e inclusión",
-    "description": "Camila observe comment les normes linguistiques peuvent inclure ou marginaliser.",
-    "order_index": 8,
-    "unit_overview": {
-      "objective": "Analyser le rapport entre norme, variation linguistique et légitimité sociale.",
-      "outcomes": [
-        "comprendre un texte long et conceptuellement dense",
-        "identifier les implicites et les nuances argumentatives",
-        "réutiliser un lexique précis en contexte",
-        "maîtriser une structure grammaticale de niveau C1"
-      ],
-      "grammar": [
-        "Les relatives complexes : dont, lequel, ce à quoi, ce dont"
-      ],
-      "vocabulary": [
-        "une norme linguistique",
-        "une variété",
-        "la légitimité",
-        "stigmatiser"
-      ],
-      "scenario": "Un atelier examine les accents et la légitimité linguistique."
-    }
-  },
-  {
-    "slug": "science-doute-et-esprit-critique",
-    "target_language": "french",
-    "level": "C1",
-    "title": "Science, doute et esprit critique",
-    "title_es": "Ciencia, duda y pensamiento crítico",
-    "description": "Une conférence apprend à Camila à distinguer incertitude scientifique et ignorance.",
-    "order_index": 9,
-    "unit_overview": {
-      "objective": "Comprendre la valeur méthodologique du doute et la communication des résultats provisoires.",
-      "outcomes": [
-        "comprendre un texte long et conceptuellement dense",
-        "identifier les implicites et les nuances argumentatives",
-        "réutiliser un lexique précis en contexte",
-        "maîtriser une structure grammaticale de niveau C1"
-      ],
-      "grammar": [
-        "Les modalisateurs de certitude et le subjonctif"
-      ],
-      "vocabulary": [
-        "une hypothèse",
-        "la réfutation",
-        "provisoire",
-        "une donnée"
-      ],
-      "scenario": "Camila assiste à une conférence sur la communication scientifique."
-    }
-  },
-  {
-    "slug": "art-censure-et-liberte",
-    "target_language": "french",
-    "level": "C1",
-    "title": "Art, censure et liberté",
-    "title_es": "Arte, censura y libertad",
-    "description": "Camila enquête sur la déprogrammation controversée d’une exposition.",
-    "order_index": 10,
-    "unit_overview": {
-      "objective": "Analyser un conflit entre liberté artistique, responsabilité institutionnelle et réception publique.",
-      "outcomes": [
-        "comprendre un texte long et conceptuellement dense",
-        "identifier les implicites et les nuances argumentatives",
-        "réutiliser un lexique précis en contexte",
-        "maîtriser une structure grammaticale de niveau C1"
-      ],
-      "grammar": [
-        "La voix passive, le passif pronominal et faire + infinitif"
-      ],
-      "vocabulary": [
-        "déprogrammer",
-        "une médiation",
-        "un adoucissement",
-        "opaque"
-      ],
-      "scenario": "Une exposition universitaire est retirée après des plaintes contradictoires."
-    }
-  },
-  {
-    "slug": "avenir-incertitude-et-choix",
-    "target_language": "french",
-    "level": "C1",
-    "title": "Avenir, incertitude et choix",
-    "title_es": "Futuro, incertidumbre y decisiones",
-    "description": "Une offre inattendue oblige Camila à choisir sans disposer de toutes les garanties.",
-    "order_index": 11,
-    "unit_overview": {
-      "objective": "Comprendre une décision complexe où valeurs, risques et temporalités s’opposent.",
-      "outcomes": [
-        "comprendre un texte long et conceptuellement dense",
-        "identifier les implicites et les nuances argumentatives",
-        "réutiliser un lexique précis en contexte",
-        "maîtriser une structure grammaticale de niveau C1"
-      ],
-      "grammar": [
-        "Le futur antérieur et les projections dans le passé"
-      ],
-      "vocabulary": [
-        "une voie",
-        "une unité de comparaison",
-        "irréversible",
-        "révisable"
-      ],
-      "scenario": "Camila reçoit une proposition de master et de stage à Montréal."
-    }
-  },
-  {
-    "slug": "bilan-identite-et-transmission",
-    "target_language": "french",
-    "level": "C1",
-    "title": "Bilan, identité et transmission",
-    "title_es": "Balance, identidad y transmisión",
-    "description": "Avant son départ, Camila prépare un atelier pour les nouveaux étudiants internationaux.",
-    "order_index": 12,
-    "unit_overview": {
-      "objective": "Synthétiser un parcours, transmettre une expérience et interroger la position de celui qui conseille.",
-      "outcomes": [
-        "comprendre un texte long et conceptuellement dense",
-        "identifier les implicites et les nuances argumentatives",
-        "réutiliser un lexique précis en contexte",
-        "maîtriser une structure grammaticale de niveau C1"
-      ],
-      "grammar": [
-        "La reprise et la cohésion d’un texte complexe"
-      ],
-      "vocabulary": [
-        "un parcours uniforme",
-        "un retour en arrière",
-        "un code implicite",
-        "dégager une idée"
-      ],
-      "scenario": "Camila transforme son expérience en atelier sans en faire une recette universelle."
-    }
-  },
-  {
-    "slug": "neuroplasticite-adulte",
-    "target_language": "french",
-    "level": "C2",
-    "title": "Neuroplasticité et apprentissage linguistique adulte",
-    "title_es": "Neuroplasticité et apprentissage linguistique adulte",
-    "description": "Enquête interdisciplinaire C2 : Le cerveau adulte a-t-il vraiment perdu sa capacité d’apprendre ?.",
-    "order_index": 1,
-    "unit_overview": {
-      "objective": "Évaluer des cadres concurrents dans le domaine suivant : neuroplasticité et apprentissage linguistique adulte.",
-      "outcomes": [
-        "inférer les présupposés et les liens laissés implicites",
-        "évaluer des preuves hétérogènes et leurs limites",
-        "maîtriser un lexique précis, idiomatique et connoté",
-        "maintenir un contrôle grammatical constant dans une argumentation complexe"
-      ],
-      "grammar": [
-        "La concession stratifiée et la contre-attente"
-      ],
-      "vocabulary": [
-        "la neuroplasticité",
-        "un réseau fonctionnel",
-        "la matière grise",
-        "une étude transversale",
-        "une période sensible",
-        "une inférence causale"
-      ],
-      "scenario": "Le cerveau adulte a-t-il vraiment perdu sa capacité d’apprendre ?",
-      "cefrTargets": [
-        "compréhension approfondie et inférence",
-        "étendue et contrôle du vocabulaire",
-        "correction grammaticale constante"
-      ]
-    }
-  },
-  {
-    "slug": "recuperation-espacee",
-    "target_language": "french",
-    "level": "C2",
-    "title": "Récupération active et répétition espacée",
-    "title_es": "Récupération active et répétition espacée",
-    "description": "Enquête interdisciplinaire C2 : Relire ou se tester : quelle pratique construit une mémoire durable ?.",
-    "order_index": 2,
-    "unit_overview": {
-      "objective": "Évaluer des cadres concurrents dans le domaine suivant : récupération active et répétition espacée.",
-      "outcomes": [
-        "inférer les présupposés et les liens laissés implicites",
-        "évaluer des preuves hétérogènes et leurs limites",
-        "maîtriser un lexique précis, idiomatique et connoté",
-        "maintenir un contrôle grammatical constant dans une argumentation complexe"
-      ],
-      "grammar": [
-        "La modalisation épistémique de haute précision"
-      ],
-      "vocabulary": [
-        "la récupération active",
-        "l’espacement",
-        "une trace mnésique",
-        "la familiarité",
-        "une interférence",
-        "un critère de maîtrise"
-      ],
-      "scenario": "Relire ou se tester : quelle pratique construit une mémoire durable ?",
-      "cefrTargets": [
-        "compréhension approfondie et inférence",
-        "étendue et contrôle du vocabulaire",
-        "correction grammaticale constante"
-      ]
-    }
-  },
-  {
-    "slug": "sommeil-consolidation",
-    "target_language": "french",
-    "level": "C2",
-    "title": "Sommeil et consolidation du vocabulaire",
-    "title_es": "Sommeil et consolidation du vocabulaire",
-    "description": "Enquête interdisciplinaire C2 : Apprend-on une langue pendant que l’on dort ?.",
-    "order_index": 3,
-    "unit_overview": {
-      "objective": "Évaluer des cadres concurrents dans le domaine suivant : sommeil et consolidation du vocabulaire.",
-      "outcomes": [
-        "inférer les présupposés et les liens laissés implicites",
-        "évaluer des preuves hétérogènes et leurs limites",
-        "maîtriser un lexique précis, idiomatique et connoté",
-        "maintenir un contrôle grammatical constant dans une argumentation complexe"
-      ],
-      "grammar": [
-        "La temporalité complexe et le futur antérieur"
-      ],
-      "vocabulary": [
-        "la consolidation",
-        "l’encodage",
-        "le sommeil lent",
-        "le sommeil paradoxal",
-        "une réactivation ciblée",
-        "une analyse préenregistrée"
-      ],
-      "scenario": "Apprend-on une langue pendant que l’on dort ?",
-      "cefrTargets": [
-        "compréhension approfondie et inférence",
-        "étendue et contrôle du vocabulaire",
-        "correction grammaticale constante"
-      ]
-    }
-  },
-  {
-    "slug": "input-comprehensible",
-    "target_language": "french",
-    "level": "C2",
-    "title": "Input compréhensible et apprentissage incident",
-    "title_es": "Input compréhensible et apprentissage incident",
-    "description": "Enquête interdisciplinaire C2 : Comprendre beaucoup suffit-il pour apprendre à parler ?.",
-    "order_index": 4,
-    "unit_overview": {
-      "objective": "Évaluer des cadres concurrents dans le domaine suivant : input compréhensible et apprentissage incident.",
-      "outcomes": [
-        "inférer les présupposés et les liens laissés implicites",
-        "évaluer des preuves hétérogènes et leurs limites",
-        "maîtriser un lexique précis, idiomatique et connoté",
-        "maintenir un contrôle grammatical constant dans une argumentation complexe"
-      ],
-      "grammar": [
-        "La nominalisation critique et la restitution de l’agent"
-      ],
-      "vocabulary": [
-        "l’input compréhensible",
-        "l’apprentissage incident",
-        "une connaissance réceptive",
-        "une connaissance productive",
-        "le repérage",
-        "un savoir inerte"
-      ],
-      "scenario": "Comprendre beaucoup suffit-il pour apprendre à parler ?",
-      "cefrTargets": [
-        "compréhension approfondie et inférence",
-        "étendue et contrôle du vocabulaire",
-        "correction grammaticale constante"
-      ]
-    }
-  },
-  {
-    "slug": "apprentissage-multimodal",
-    "target_language": "french",
-    "level": "C2",
-    "title": "Lecture, écoute et vidéo dans l’apprentissage",
-    "title_es": "Lecture, écoute et vidéo dans l’apprentissage",
-    "description": "Enquête interdisciplinaire C2 : Texte, son ou image : faut-il choisir un seul canal ?.",
-    "order_index": 5,
-    "unit_overview": {
-      "objective": "Évaluer des cadres concurrents dans le domaine suivant : lecture, écoute et vidéo dans l’apprentissage.",
-      "outcomes": [
-        "inférer les présupposés et les liens laissés implicites",
-        "évaluer des preuves hétérogènes et leurs limites",
-        "maîtriser un lexique précis, idiomatique et connoté",
-        "maintenir un contrôle grammatical constant dans une argumentation complexe"
-      ],
-      "grammar": [
-        "Les connecteurs de cause, corrélation et conséquence"
-      ],
-      "vocabulary": [
-        "la multimodalité",
-        "un indice prosodique",
-        "la segmentation",
-        "la surcharge cognitive",
-        "un test différé",
-        "l’étayage"
-      ],
-      "scenario": "Texte, son ou image : faut-il choisir un seul canal ?",
-      "cefrTargets": [
-        "compréhension approfondie et inférence",
-        "étendue et contrôle du vocabulaire",
-        "correction grammaticale constante"
-      ]
-    }
-  },
-  {
-    "slug": "interaction-production",
-    "target_language": "french",
-    "level": "C2",
-    "title": "Interaction, production et négociation du sens",
-    "title_es": "Interaction, production et négociation du sens",
-    "description": "Enquête interdisciplinaire C2 : Pourquoi parler avant de se sentir prêt ?.",
-    "order_index": 6,
-    "unit_overview": {
-      "objective": "Évaluer des cadres concurrents dans le domaine suivant : interaction, production et négociation du sens.",
-      "outcomes": [
-        "inférer les présupposés et les liens laissés implicites",
-        "évaluer des preuves hétérogènes et leurs limites",
-        "maîtriser un lexique précis, idiomatique et connoté",
-        "maintenir un contrôle grammatical constant dans une argumentation complexe"
-      ],
-      "grammar": [
-        "La polyphonie et le discours rapporté complexe"
-      ],
-      "vocabulary": [
-        "la négociation du sens",
-        "une demande de clarification",
-        "une reformulation",
-        "une périphrase",
-        "l’intelligibilité",
-        "une tâche d’écart d’information"
-      ],
-      "scenario": "Pourquoi parler avant de se sentir prêt ?",
-      "cefrTargets": [
-        "compréhension approfondie et inférence",
-        "étendue et contrôle du vocabulaire",
-        "correction grammaticale constante"
-      ]
-    }
-  },
-  {
-    "slug": "feedback-correctif",
-    "target_language": "french",
-    "level": "C2",
-    "title": "Feedback correctif et traitement de l’erreur",
-    "title_es": "Feedback correctif et traitement de l’erreur",
-    "description": "Enquête interdisciplinaire C2 : Corriger davantage signifie-t-il enseigner mieux ?.",
-    "order_index": 7,
-    "unit_overview": {
-      "objective": "Évaluer des cadres concurrents dans le domaine suivant : feedback correctif et traitement de l’erreur.",
-      "outcomes": [
-        "inférer les présupposés et les liens laissés implicites",
-        "évaluer des preuves hétérogènes et leurs limites",
-        "maîtriser un lexique précis, idiomatique et connoté",
-        "maintenir un contrôle grammatical constant dans une argumentation complexe"
-      ],
-      "grammar": [
-        "Le subjonctif dans l’évaluation, la restriction et le doute"
-      ],
-      "vocabulary": [
-        "le feedback correctif",
-        "une reformulation implicite",
-        "une invite",
-        "la réparation",
-        "le transfert",
-        "une erreur développementale"
-      ],
-      "scenario": "Corriger davantage signifie-t-il enseigner mieux ?",
-      "cefrTargets": [
-        "compréhension approfondie et inférence",
-        "étendue et contrôle du vocabulaire",
-        "correction grammaticale constante"
-      ]
-    }
-  },
-  {
-    "slug": "perception-prononciation",
-    "target_language": "french",
-    "level": "C2",
-    "title": "Perception auditive et prononciation",
-    "title_es": "Perception auditive et prononciation",
-    "description": "Enquête interdisciplinaire C2 : Faut-il rééduquer l’oreille avant la bouche ?.",
-    "order_index": 8,
-    "unit_overview": {
-      "objective": "Évaluer des cadres concurrents dans le domaine suivant : perception auditive et prononciation.",
-      "outcomes": [
-        "inférer les présupposés et les liens laissés implicites",
-        "évaluer des preuves hétérogènes et leurs limites",
-        "maîtriser un lexique précis, idiomatique et connoté",
-        "maintenir un contrôle grammatical constant dans une argumentation complexe"
-      ],
-      "grammar": [
-        "Le passif, l’agentivité et la responsabilité discursive"
-      ],
-      "vocabulary": [
-        "un contraste phonémique",
-        "un indice acoustique",
-        "la haute variabilité",
-        "la généralisation",
-        "la compréhensibilité",
-        "un trait suprasegmental"
-      ],
-      "scenario": "Faut-il rééduquer l’oreille avant la bouche ?",
-      "cefrTargets": [
-        "compréhension approfondie et inférence",
-        "étendue et contrôle du vocabulaire",
-        "correction grammaticale constante"
-      ]
-    }
-  },
-  {
-    "slug": "anxiete-attention",
-    "target_language": "french",
-    "level": "C2",
-    "title": "Anxiété linguistique, attention et mémoire de travail",
-    "title_es": "Anxiété linguistique, attention et mémoire de travail",
-    "description": "Enquête interdisciplinaire C2 : Quand la peur de l’erreur occupe la mémoire.",
-    "order_index": 9,
-    "unit_overview": {
-      "objective": "Évaluer des cadres concurrents dans le domaine suivant : anxiété linguistique, attention et mémoire de travail.",
-      "outcomes": [
-        "inférer les présupposés et les liens laissés implicites",
-        "évaluer des preuves hétérogènes et leurs limites",
-        "maîtriser un lexique précis, idiomatique et connoté",
-        "maintenir un contrôle grammatical constant dans une argumentation complexe"
-      ],
-      "grammar": [
-        "Les systèmes hypothétiques complexes et l’irréel"
-      ],
-      "vocabulary": [
-        "l’anxiété langagière",
-        "la mémoire de travail",
-        "l’autosurveillance",
-        "l’évitement",
-        "une exposition graduée",
-        "la réciprocité causale"
-      ],
-      "scenario": "Quand la peur de l’erreur occupe la mémoire",
-      "cefrTargets": [
-        "compréhension approfondie et inférence",
-        "étendue et contrôle du vocabulaire",
-        "correction grammaticale constante"
-      ]
-    }
-  },
-  {
-    "slug": "age-differences-individuelles",
-    "target_language": "french",
-    "level": "C2",
-    "title": "Âge, aptitude et différences individuelles",
-    "title_es": "Âge, aptitude et différences individuelles",
-    "description": "Enquête interdisciplinaire C2 : Existe-t-il une méthode universelle pour tous les cerveaux ?.",
-    "order_index": 10,
-    "unit_overview": {
-      "objective": "Évaluer des cadres concurrents dans le domaine suivant : âge, aptitude et différences individuelles.",
-      "outcomes": [
-        "inférer les présupposés et les liens laissés implicites",
-        "évaluer des preuves hétérogènes et leurs limites",
-        "maîtriser un lexique précis, idiomatique et connoté",
-        "maintenir un contrôle grammatical constant dans une argumentation complexe"
-      ],
-      "grammar": [
-        "Les relatives complexes : dont, lequel et préposition + relatif"
-      ],
-      "vocabulary": [
-        "une différence individuelle",
-        "l’aptitude linguistique",
-        "le transfert interlinguistique",
-        "une interaction statistique",
-        "un style d’apprentissage",
-        "une adaptation révisable"
-      ],
-      "scenario": "Existe-t-il une méthode universelle pour tous les cerveaux ?",
-      "cefrTargets": [
-        "compréhension approfondie et inférence",
-        "étendue et contrôle du vocabulaire",
-        "correction grammaticale constante"
-      ]
-    }
-  },
-  {
-    "slug": "lexique-contextuel",
-    "target_language": "french",
-    "level": "C2",
-    "title": "Apprentissage lexical, gloses et contexte",
-    "title_es": "Apprentissage lexical, gloses et contexte",
-    "description": "Enquête interdisciplinaire C2 : Traduire un mot empêche-t-il vraiment de le maîtriser ?.",
-    "order_index": 11,
-    "unit_overview": {
-      "objective": "Évaluer des cadres concurrents dans le domaine suivant : apprentissage lexical, gloses et contexte.",
-      "outcomes": [
-        "inférer les présupposés et les liens laissés implicites",
-        "évaluer des preuves hétérogènes et leurs limites",
-        "maîtriser un lexique précis, idiomatique et connoté",
-        "maintenir un contrôle grammatical constant dans une argumentation complexe"
-      ],
-      "grammar": [
-        "Les propositions participiales et la condensation maîtrisée"
-      ],
-      "vocabulary": [
-        "une glose",
-        "la polysémie",
-        "une collocation",
-        "une équivalence",
-        "la profondeur lexicale",
-        "une méta-régression"
-      ],
-      "scenario": "Traduire un mot empêche-t-il vraiment de le maîtriser ?",
-      "cefrTargets": [
-        "compréhension approfondie et inférence",
-        "étendue et contrôle du vocabulaire",
-        "correction grammaticale constante"
-      ]
-    }
-  },
-  {
-    "slug": "intelligence-artificielle-tutorat",
-    "target_language": "french",
-    "level": "C2",
-    "title": "Intelligence artificielle et tutorat linguistique",
-    "title_es": "Intelligence artificielle et tutorat linguistique",
-    "description": "Enquête interdisciplinaire C2 : Un tuteur artificiel peut-il personnaliser sans inventer ?.",
-    "order_index": 12,
-    "unit_overview": {
-      "objective": "Évaluer des cadres concurrents dans le domaine suivant : intelligence artificielle et tutorat linguistique.",
-      "outcomes": [
-        "inférer les présupposés et les liens laissés implicites",
-        "évaluer des preuves hétérogènes et leurs limites",
-        "maîtriser un lexique précis, idiomatique et connoté",
-        "maintenir un contrôle grammatical constant dans une argumentation complexe"
-      ],
-      "grammar": [
-        "Le conditionnel de prudence et les tournures impersonnelles"
-      ],
-      "vocabulary": [
-        "un modèle génératif",
-        "une hallucination",
-        "l’ancrage contextuel",
-        "la traçabilité",
-        "un effet de nouveauté",
-        "une supervision humaine"
-      ],
-      "scenario": "Un tuteur artificiel peut-il personnaliser sans inventer ?",
-      "cefrTargets": [
-        "compréhension approfondie et inférence",
-        "étendue et contrôle du vocabulaire",
-        "correction grammaticale constante"
-      ]
-    }
-  },
-  {
     "slug": "hola-mucho-gusto",
     "target_language": "spanish",
     "level": "A1",
@@ -5665,6 +4905,766 @@
         "impacto"
       ],
       "scenario": "Seguir la historia de una idea que se vuelve organización mundial"
+    }
+  },
+  {
+    "slug": "la-rentree-universitaire",
+    "target_language": "french",
+    "level": "C1",
+    "title": "La rentrée universitaire",
+    "title_es": "El inicio del curso universitario",
+    "description": "Camila commence sa licence de langues étrangères appliquées à l’université de Tours et retrouve Léa et Karim.",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "Comprendre un récit universitaire complexe et maîtriser des nuances grammaticales de haut niveau.",
+      "outcomes": [
+        "comprendre un texte long à registre soutenu",
+        "analyser des nuances lexicales fines à l’université",
+        "utiliser les structures de mise en relief (c’est... qui/que)",
+        "reconnaître l’usage du subjonctif dans des tournures nuancées d’opinion"
+      ],
+      "grammar": [
+        "la mise en relief (c’est... qui/que)",
+        "subjonctif après verbes d’opinion nuancée",
+        "registre soutenu à l’écrit universitaire"
+      ],
+      "vocabulary": [
+        "un amphithéâtre",
+        "une unité d’enseignement",
+        "un syllabus",
+        "l’autonomie académique"
+      ],
+      "scenario": "Camila arrive pour son premier jour de cours à l’université de Tours, où elle retrouve Léa et Karim."
+    }
+  },
+  {
+    "slug": "un-exposer-a-preparer",
+    "target_language": "french",
+    "level": "C1",
+    "title": "Un exposé à préparer",
+    "title_es": "Una exposición por preparar",
+    "description": "Camila prépare, avec un groupe d’étudiants internationaux, un exposé complexe sur la diversité linguistique dans les Caraïbes.",
+    "order_index": 2,
+    "unit_overview": {
+      "objective": "Comprendre un travail de groupe académique complexe et maîtriser le discours rapporté nuancé.",
+      "outcomes": [
+        "comprendre les dynamiques d’un travail de groupe universitaire",
+        "analyser un vocabulaire académique spécialisé",
+        "utiliser le discours rapporté avec concordance des temps complète",
+        "reconnaître les nuances de l’expression de la probabilité en français soutenu"
+      ],
+      "grammar": [
+        "discours rapporté avec concordance des temps complète",
+        "expression de la probabilité (registre soutenu : il est probable que, il n’est pas exclu que)",
+        "accord et cohérence dans un texte académique long"
+      ],
+      "vocabulary": [
+        "une soutenance",
+        "la diversité linguistique",
+        "un consensus",
+        "une problématique"
+      ],
+      "scenario": "Camila collabore avec un groupe international pour préparer un exposé sur la diversité linguistique caribéenne, un sujet qui la touche personnellement."
+    }
+  },
+  {
+    "slug": "les-medias-et-la-fabrique-de-lopinion",
+    "target_language": "french",
+    "level": "C1",
+    "title": "Les médias et la fabrique de l’opinion",
+    "title_es": "Los medios y la construcción de la opinión",
+    "description": "Camila compare le traitement d’une même réforme universitaire dans différents médias.",
+    "order_index": 3,
+    "unit_overview": {
+      "objective": "Analyser le cadrage médiatique, les présupposés et la hiérarchie de l’information.",
+      "outcomes": [
+        "comprendre un texte long et conceptuellement dense",
+        "identifier les implicites et les nuances argumentatives",
+        "réutiliser un lexique précis en contexte",
+        "maîtriser une structure grammaticale de niveau C1"
+      ],
+      "grammar": [
+        "La nominalisation et les tournures impersonnelles"
+      ],
+      "vocabulary": [
+        "le cadrage",
+        "un présupposé",
+        "une ligne éditoriale",
+        "un angle mort"
+      ],
+      "scenario": "Camila prépare une revue de presse sur une réforme des universités."
+    }
+  },
+  {
+    "slug": "intelligence-artificielle-et-traduction",
+    "target_language": "french",
+    "level": "C1",
+    "title": "Intelligence artificielle et traduction",
+    "title_es": "Inteligencia artificial y traducción",
+    "description": "Camila évalue un outil de traduction automatique et s’interroge sur ses limites.",
+    "order_index": 4,
+    "unit_overview": {
+      "objective": "Évaluer une technologie en distinguant efficacité, responsabilité et perte de nuance.",
+      "outcomes": [
+        "comprendre un texte long et conceptuellement dense",
+        "identifier les implicites et les nuances argumentatives",
+        "réutiliser un lexique précis en contexte",
+        "maîtriser une structure grammaticale de niveau C1"
+      ],
+      "grammar": [
+        "La concession avancée : quoique, quand bien même, avoir beau"
+      ],
+      "vocabulary": [
+        "aplatir une voix",
+        "un sous-entendu",
+        "vraisemblable",
+        "une décision interprétative"
+      ],
+      "scenario": "Camila doit traduire le témoignage littéraire d’une autrice caribéenne."
+    }
+  },
+  {
+    "slug": "memoire-migration-et-identite",
+    "target_language": "french",
+    "level": "C1",
+    "title": "Mémoire, migration et identité",
+    "title_es": "Memoria, migración e identidad",
+    "description": "Une boîte de lettres familiales oblige Camila à reconsidérer son histoire.",
+    "order_index": 5,
+    "unit_overview": {
+      "objective": "Interpréter un récit mémoriel où documents, silences et identité se répondent.",
+      "outcomes": [
+        "comprendre un texte long et conceptuellement dense",
+        "identifier les implicites et les nuances argumentatives",
+        "réutiliser un lexique précis en contexte",
+        "maîtriser une structure grammaticale de niveau C1"
+      ],
+      "grammar": [
+        "Les temps du récit et le discours indirect libre"
+      ],
+      "vocabulary": [
+        "une archive",
+        "un récit linéaire",
+        "minimiser",
+        "un fragment"
+      ],
+      "scenario": "Camila classe des lettres envoyées entre la République dominicaine et la France."
+    }
+  },
+  {
+    "slug": "justice-sociale-et-inegalites",
+    "target_language": "french",
+    "level": "C1",
+    "title": "Justice sociale et inégalités",
+    "title_es": "Justicia social y desigualdades",
+    "description": "Un séminaire pousse Camila à examiner les limites du discours méritocratique.",
+    "order_index": 6,
+    "unit_overview": {
+      "objective": "Suivre une argumentation contradictoire et distinguer égalité formelle et équité.",
+      "outcomes": [
+        "comprendre un texte long et conceptuellement dense",
+        "identifier les implicites et les nuances argumentatives",
+        "réutiliser un lexique précis en contexte",
+        "maîtriser une structure grammaticale de niveau C1"
+      ],
+      "grammar": [
+        "Les articulateurs logiques et la réfutation"
+      ],
+      "vocabulary": [
+        "la méritocratie",
+        "l’équité",
+        "déterministe",
+        "un justificatif"
+      ],
+      "scenario": "Des étudiants débattent de la sélection et des bourses universitaires."
+    }
+  },
+  {
+    "slug": "ecologie-et-responsabilite-collective",
+    "target_language": "french",
+    "level": "C1",
+    "title": "Écologie et responsabilité collective",
+    "title_es": "Ecología y responsabilidad colectiva",
+    "description": "Camila participe à une consultation sur la transition écologique du campus.",
+    "order_index": 7,
+    "unit_overview": {
+      "objective": "Évaluer une politique écologique en identifiant arbitrages, indicateurs et effets indirects.",
+      "outcomes": [
+        "comprendre un texte long et conceptuellement dense",
+        "identifier les implicites et les nuances argumentatives",
+        "réutiliser un lexique précis en contexte",
+        "maîtriser une structure grammaticale de niveau C1"
+      ],
+      "grammar": [
+        "L’hypothèse complexe et le conditionnel passé"
+      ],
+      "vocabulary": [
+        "la sobriété énergétique",
+        "énergivore",
+        "un arbitrage",
+        "structurel(le)"
+      ],
+      "scenario": "L’université doit réduire sa consommation énergétique sans exclure les étudiants."
+    }
+  },
+  {
+    "slug": "langues-pouvoir-et-inclusion",
+    "target_language": "french",
+    "level": "C1",
+    "title": "Langues, pouvoir et inclusion",
+    "title_es": "Lenguas, poder e inclusión",
+    "description": "Camila observe comment les normes linguistiques peuvent inclure ou marginaliser.",
+    "order_index": 8,
+    "unit_overview": {
+      "objective": "Analyser le rapport entre norme, variation linguistique et légitimité sociale.",
+      "outcomes": [
+        "comprendre un texte long et conceptuellement dense",
+        "identifier les implicites et les nuances argumentatives",
+        "réutiliser un lexique précis en contexte",
+        "maîtriser une structure grammaticale de niveau C1"
+      ],
+      "grammar": [
+        "Les relatives complexes : dont, lequel, ce à quoi, ce dont"
+      ],
+      "vocabulary": [
+        "une norme linguistique",
+        "une variété",
+        "la légitimité",
+        "stigmatiser"
+      ],
+      "scenario": "Un atelier examine les accents et la légitimité linguistique."
+    }
+  },
+  {
+    "slug": "science-doute-et-esprit-critique",
+    "target_language": "french",
+    "level": "C1",
+    "title": "Science, doute et esprit critique",
+    "title_es": "Ciencia, duda y pensamiento crítico",
+    "description": "Une conférence apprend à Camila à distinguer incertitude scientifique et ignorance.",
+    "order_index": 9,
+    "unit_overview": {
+      "objective": "Comprendre la valeur méthodologique du doute et la communication des résultats provisoires.",
+      "outcomes": [
+        "comprendre un texte long et conceptuellement dense",
+        "identifier les implicites et les nuances argumentatives",
+        "réutiliser un lexique précis en contexte",
+        "maîtriser une structure grammaticale de niveau C1"
+      ],
+      "grammar": [
+        "Les modalisateurs de certitude et le subjonctif"
+      ],
+      "vocabulary": [
+        "une hypothèse",
+        "la réfutation",
+        "provisoire",
+        "une donnée"
+      ],
+      "scenario": "Camila assiste à une conférence sur la communication scientifique."
+    }
+  },
+  {
+    "slug": "art-censure-et-liberte",
+    "target_language": "french",
+    "level": "C1",
+    "title": "Art, censure et liberté",
+    "title_es": "Arte, censura y libertad",
+    "description": "Camila enquête sur la déprogrammation controversée d’une exposition.",
+    "order_index": 10,
+    "unit_overview": {
+      "objective": "Analyser un conflit entre liberté artistique, responsabilité institutionnelle et réception publique.",
+      "outcomes": [
+        "comprendre un texte long et conceptuellement dense",
+        "identifier les implicites et les nuances argumentatives",
+        "réutiliser un lexique précis en contexte",
+        "maîtriser une structure grammaticale de niveau C1"
+      ],
+      "grammar": [
+        "La voix passive, le passif pronominal et faire + infinitif"
+      ],
+      "vocabulary": [
+        "déprogrammer",
+        "une médiation",
+        "un adoucissement",
+        "opaque"
+      ],
+      "scenario": "Une exposition universitaire est retirée après des plaintes contradictoires."
+    }
+  },
+  {
+    "slug": "avenir-incertitude-et-choix",
+    "target_language": "french",
+    "level": "C1",
+    "title": "Avenir, incertitude et choix",
+    "title_es": "Futuro, incertidumbre y decisiones",
+    "description": "Une offre inattendue oblige Camila à choisir sans disposer de toutes les garanties.",
+    "order_index": 11,
+    "unit_overview": {
+      "objective": "Comprendre une décision complexe où valeurs, risques et temporalités s’opposent.",
+      "outcomes": [
+        "comprendre un texte long et conceptuellement dense",
+        "identifier les implicites et les nuances argumentatives",
+        "réutiliser un lexique précis en contexte",
+        "maîtriser une structure grammaticale de niveau C1"
+      ],
+      "grammar": [
+        "Le futur antérieur et les projections dans le passé"
+      ],
+      "vocabulary": [
+        "une voie",
+        "une unité de comparaison",
+        "irréversible",
+        "révisable"
+      ],
+      "scenario": "Camila reçoit une proposition de master et de stage à Montréal."
+    }
+  },
+  {
+    "slug": "bilan-identite-et-transmission",
+    "target_language": "french",
+    "level": "C1",
+    "title": "Bilan, identité et transmission",
+    "title_es": "Balance, identidad y transmisión",
+    "description": "Avant son départ, Camila prépare un atelier pour les nouveaux étudiants internationaux.",
+    "order_index": 12,
+    "unit_overview": {
+      "objective": "Synthétiser un parcours, transmettre une expérience et interroger la position de celui qui conseille.",
+      "outcomes": [
+        "comprendre un texte long et conceptuellement dense",
+        "identifier les implicites et les nuances argumentatives",
+        "réutiliser un lexique précis en contexte",
+        "maîtriser une structure grammaticale de niveau C1"
+      ],
+      "grammar": [
+        "La reprise et la cohésion d’un texte complexe"
+      ],
+      "vocabulary": [
+        "un parcours uniforme",
+        "un retour en arrière",
+        "un code implicite",
+        "dégager une idée"
+      ],
+      "scenario": "Camila transforme son expérience en atelier sans en faire une recette universelle."
+    }
+  },
+  {
+    "slug": "neuroplasticite-adulte",
+    "target_language": "french",
+    "level": "C2",
+    "title": "Neuroplasticité et apprentissage linguistique adulte",
+    "title_es": "Neuroplasticité et apprentissage linguistique adulte",
+    "description": "Enquête interdisciplinaire C2 : Le cerveau adulte a-t-il vraiment perdu sa capacité d’apprendre ?.",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "Évaluer des cadres concurrents dans le domaine suivant : neuroplasticité et apprentissage linguistique adulte.",
+      "outcomes": [
+        "inférer les présupposés et les liens laissés implicites",
+        "évaluer des preuves hétérogènes et leurs limites",
+        "maîtriser un lexique précis, idiomatique et connoté",
+        "maintenir un contrôle grammatical constant dans une argumentation complexe"
+      ],
+      "grammar": [
+        "La concession stratifiée et la contre-attente"
+      ],
+      "vocabulary": [
+        "la neuroplasticité",
+        "un réseau fonctionnel",
+        "la matière grise",
+        "une étude transversale",
+        "une période sensible",
+        "une inférence causale"
+      ],
+      "scenario": "Le cerveau adulte a-t-il vraiment perdu sa capacité d’apprendre ?",
+      "cefrTargets": [
+        "compréhension approfondie et inférence",
+        "étendue et contrôle du vocabulaire",
+        "correction grammaticale constante"
+      ]
+    }
+  },
+  {
+    "slug": "recuperation-espacee",
+    "target_language": "french",
+    "level": "C2",
+    "title": "Récupération active et répétition espacée",
+    "title_es": "Récupération active et répétition espacée",
+    "description": "Enquête interdisciplinaire C2 : Relire ou se tester : quelle pratique construit une mémoire durable ?.",
+    "order_index": 2,
+    "unit_overview": {
+      "objective": "Évaluer des cadres concurrents dans le domaine suivant : récupération active et répétition espacée.",
+      "outcomes": [
+        "inférer les présupposés et les liens laissés implicites",
+        "évaluer des preuves hétérogènes et leurs limites",
+        "maîtriser un lexique précis, idiomatique et connoté",
+        "maintenir un contrôle grammatical constant dans une argumentation complexe"
+      ],
+      "grammar": [
+        "La modalisation épistémique de haute précision"
+      ],
+      "vocabulary": [
+        "la récupération active",
+        "l’espacement",
+        "une trace mnésique",
+        "la familiarité",
+        "une interférence",
+        "un critère de maîtrise"
+      ],
+      "scenario": "Relire ou se tester : quelle pratique construit une mémoire durable ?",
+      "cefrTargets": [
+        "compréhension approfondie et inférence",
+        "étendue et contrôle du vocabulaire",
+        "correction grammaticale constante"
+      ]
+    }
+  },
+  {
+    "slug": "sommeil-consolidation",
+    "target_language": "french",
+    "level": "C2",
+    "title": "Sommeil et consolidation du vocabulaire",
+    "title_es": "Sommeil et consolidation du vocabulaire",
+    "description": "Enquête interdisciplinaire C2 : Apprend-on une langue pendant que l’on dort ?.",
+    "order_index": 3,
+    "unit_overview": {
+      "objective": "Évaluer des cadres concurrents dans le domaine suivant : sommeil et consolidation du vocabulaire.",
+      "outcomes": [
+        "inférer les présupposés et les liens laissés implicites",
+        "évaluer des preuves hétérogènes et leurs limites",
+        "maîtriser un lexique précis, idiomatique et connoté",
+        "maintenir un contrôle grammatical constant dans une argumentation complexe"
+      ],
+      "grammar": [
+        "La temporalité complexe et le futur antérieur"
+      ],
+      "vocabulary": [
+        "la consolidation",
+        "l’encodage",
+        "le sommeil lent",
+        "le sommeil paradoxal",
+        "une réactivation ciblée",
+        "une analyse préenregistrée"
+      ],
+      "scenario": "Apprend-on une langue pendant que l’on dort ?",
+      "cefrTargets": [
+        "compréhension approfondie et inférence",
+        "étendue et contrôle du vocabulaire",
+        "correction grammaticale constante"
+      ]
+    }
+  },
+  {
+    "slug": "input-comprehensible",
+    "target_language": "french",
+    "level": "C2",
+    "title": "Input compréhensible et apprentissage incident",
+    "title_es": "Input compréhensible et apprentissage incident",
+    "description": "Enquête interdisciplinaire C2 : Comprendre beaucoup suffit-il pour apprendre à parler ?.",
+    "order_index": 4,
+    "unit_overview": {
+      "objective": "Évaluer des cadres concurrents dans le domaine suivant : input compréhensible et apprentissage incident.",
+      "outcomes": [
+        "inférer les présupposés et les liens laissés implicites",
+        "évaluer des preuves hétérogènes et leurs limites",
+        "maîtriser un lexique précis, idiomatique et connoté",
+        "maintenir un contrôle grammatical constant dans une argumentation complexe"
+      ],
+      "grammar": [
+        "La nominalisation critique et la restitution de l’agent"
+      ],
+      "vocabulary": [
+        "l’input compréhensible",
+        "l’apprentissage incident",
+        "une connaissance réceptive",
+        "une connaissance productive",
+        "le repérage",
+        "un savoir inerte"
+      ],
+      "scenario": "Comprendre beaucoup suffit-il pour apprendre à parler ?",
+      "cefrTargets": [
+        "compréhension approfondie et inférence",
+        "étendue et contrôle du vocabulaire",
+        "correction grammaticale constante"
+      ]
+    }
+  },
+  {
+    "slug": "apprentissage-multimodal",
+    "target_language": "french",
+    "level": "C2",
+    "title": "Lecture, écoute et vidéo dans l’apprentissage",
+    "title_es": "Lecture, écoute et vidéo dans l’apprentissage",
+    "description": "Enquête interdisciplinaire C2 : Texte, son ou image : faut-il choisir un seul canal ?.",
+    "order_index": 5,
+    "unit_overview": {
+      "objective": "Évaluer des cadres concurrents dans le domaine suivant : lecture, écoute et vidéo dans l’apprentissage.",
+      "outcomes": [
+        "inférer les présupposés et les liens laissés implicites",
+        "évaluer des preuves hétérogènes et leurs limites",
+        "maîtriser un lexique précis, idiomatique et connoté",
+        "maintenir un contrôle grammatical constant dans une argumentation complexe"
+      ],
+      "grammar": [
+        "Les connecteurs de cause, corrélation et conséquence"
+      ],
+      "vocabulary": [
+        "la multimodalité",
+        "un indice prosodique",
+        "la segmentation",
+        "la surcharge cognitive",
+        "un test différé",
+        "l’étayage"
+      ],
+      "scenario": "Texte, son ou image : faut-il choisir un seul canal ?",
+      "cefrTargets": [
+        "compréhension approfondie et inférence",
+        "étendue et contrôle du vocabulaire",
+        "correction grammaticale constante"
+      ]
+    }
+  },
+  {
+    "slug": "interaction-production",
+    "target_language": "french",
+    "level": "C2",
+    "title": "Interaction, production et négociation du sens",
+    "title_es": "Interaction, production et négociation du sens",
+    "description": "Enquête interdisciplinaire C2 : Pourquoi parler avant de se sentir prêt ?.",
+    "order_index": 6,
+    "unit_overview": {
+      "objective": "Évaluer des cadres concurrents dans le domaine suivant : interaction, production et négociation du sens.",
+      "outcomes": [
+        "inférer les présupposés et les liens laissés implicites",
+        "évaluer des preuves hétérogènes et leurs limites",
+        "maîtriser un lexique précis, idiomatique et connoté",
+        "maintenir un contrôle grammatical constant dans une argumentation complexe"
+      ],
+      "grammar": [
+        "La polyphonie et le discours rapporté complexe"
+      ],
+      "vocabulary": [
+        "la négociation du sens",
+        "une demande de clarification",
+        "une reformulation",
+        "une périphrase",
+        "l’intelligibilité",
+        "une tâche d’écart d’information"
+      ],
+      "scenario": "Pourquoi parler avant de se sentir prêt ?",
+      "cefrTargets": [
+        "compréhension approfondie et inférence",
+        "étendue et contrôle du vocabulaire",
+        "correction grammaticale constante"
+      ]
+    }
+  },
+  {
+    "slug": "feedback-correctif",
+    "target_language": "french",
+    "level": "C2",
+    "title": "Feedback correctif et traitement de l’erreur",
+    "title_es": "Feedback correctif et traitement de l’erreur",
+    "description": "Enquête interdisciplinaire C2 : Corriger davantage signifie-t-il enseigner mieux ?.",
+    "order_index": 7,
+    "unit_overview": {
+      "objective": "Évaluer des cadres concurrents dans le domaine suivant : feedback correctif et traitement de l’erreur.",
+      "outcomes": [
+        "inférer les présupposés et les liens laissés implicites",
+        "évaluer des preuves hétérogènes et leurs limites",
+        "maîtriser un lexique précis, idiomatique et connoté",
+        "maintenir un contrôle grammatical constant dans une argumentation complexe"
+      ],
+      "grammar": [
+        "Le subjonctif dans l’évaluation, la restriction et le doute"
+      ],
+      "vocabulary": [
+        "le feedback correctif",
+        "une reformulation implicite",
+        "une invite",
+        "la réparation",
+        "le transfert",
+        "une erreur développementale"
+      ],
+      "scenario": "Corriger davantage signifie-t-il enseigner mieux ?",
+      "cefrTargets": [
+        "compréhension approfondie et inférence",
+        "étendue et contrôle du vocabulaire",
+        "correction grammaticale constante"
+      ]
+    }
+  },
+  {
+    "slug": "perception-prononciation",
+    "target_language": "french",
+    "level": "C2",
+    "title": "Perception auditive et prononciation",
+    "title_es": "Perception auditive et prononciation",
+    "description": "Enquête interdisciplinaire C2 : Faut-il rééduquer l’oreille avant la bouche ?.",
+    "order_index": 8,
+    "unit_overview": {
+      "objective": "Évaluer des cadres concurrents dans le domaine suivant : perception auditive et prononciation.",
+      "outcomes": [
+        "inférer les présupposés et les liens laissés implicites",
+        "évaluer des preuves hétérogènes et leurs limites",
+        "maîtriser un lexique précis, idiomatique et connoté",
+        "maintenir un contrôle grammatical constant dans une argumentation complexe"
+      ],
+      "grammar": [
+        "Le passif, l’agentivité et la responsabilité discursive"
+      ],
+      "vocabulary": [
+        "un contraste phonémique",
+        "un indice acoustique",
+        "la haute variabilité",
+        "la généralisation",
+        "la compréhensibilité",
+        "un trait suprasegmental"
+      ],
+      "scenario": "Faut-il rééduquer l’oreille avant la bouche ?",
+      "cefrTargets": [
+        "compréhension approfondie et inférence",
+        "étendue et contrôle du vocabulaire",
+        "correction grammaticale constante"
+      ]
+    }
+  },
+  {
+    "slug": "anxiete-attention",
+    "target_language": "french",
+    "level": "C2",
+    "title": "Anxiété linguistique, attention et mémoire de travail",
+    "title_es": "Anxiété linguistique, attention et mémoire de travail",
+    "description": "Enquête interdisciplinaire C2 : Quand la peur de l’erreur occupe la mémoire.",
+    "order_index": 9,
+    "unit_overview": {
+      "objective": "Évaluer des cadres concurrents dans le domaine suivant : anxiété linguistique, attention et mémoire de travail.",
+      "outcomes": [
+        "inférer les présupposés et les liens laissés implicites",
+        "évaluer des preuves hétérogènes et leurs limites",
+        "maîtriser un lexique précis, idiomatique et connoté",
+        "maintenir un contrôle grammatical constant dans une argumentation complexe"
+      ],
+      "grammar": [
+        "Les systèmes hypothétiques complexes et l’irréel"
+      ],
+      "vocabulary": [
+        "l’anxiété langagière",
+        "la mémoire de travail",
+        "l’autosurveillance",
+        "l’évitement",
+        "une exposition graduée",
+        "la réciprocité causale"
+      ],
+      "scenario": "Quand la peur de l’erreur occupe la mémoire",
+      "cefrTargets": [
+        "compréhension approfondie et inférence",
+        "étendue et contrôle du vocabulaire",
+        "correction grammaticale constante"
+      ]
+    }
+  },
+  {
+    "slug": "age-differences-individuelles",
+    "target_language": "french",
+    "level": "C2",
+    "title": "Âge, aptitude et différences individuelles",
+    "title_es": "Âge, aptitude et différences individuelles",
+    "description": "Enquête interdisciplinaire C2 : Existe-t-il une méthode universelle pour tous les cerveaux ?.",
+    "order_index": 10,
+    "unit_overview": {
+      "objective": "Évaluer des cadres concurrents dans le domaine suivant : âge, aptitude et différences individuelles.",
+      "outcomes": [
+        "inférer les présupposés et les liens laissés implicites",
+        "évaluer des preuves hétérogènes et leurs limites",
+        "maîtriser un lexique précis, idiomatique et connoté",
+        "maintenir un contrôle grammatical constant dans une argumentation complexe"
+      ],
+      "grammar": [
+        "Les relatives complexes : dont, lequel et préposition + relatif"
+      ],
+      "vocabulary": [
+        "une différence individuelle",
+        "l’aptitude linguistique",
+        "le transfert interlinguistique",
+        "une interaction statistique",
+        "un style d’apprentissage",
+        "une adaptation révisable"
+      ],
+      "scenario": "Existe-t-il une méthode universelle pour tous les cerveaux ?",
+      "cefrTargets": [
+        "compréhension approfondie et inférence",
+        "étendue et contrôle du vocabulaire",
+        "correction grammaticale constante"
+      ]
+    }
+  },
+  {
+    "slug": "lexique-contextuel",
+    "target_language": "french",
+    "level": "C2",
+    "title": "Apprentissage lexical, gloses et contexte",
+    "title_es": "Apprentissage lexical, gloses et contexte",
+    "description": "Enquête interdisciplinaire C2 : Traduire un mot empêche-t-il vraiment de le maîtriser ?.",
+    "order_index": 11,
+    "unit_overview": {
+      "objective": "Évaluer des cadres concurrents dans le domaine suivant : apprentissage lexical, gloses et contexte.",
+      "outcomes": [
+        "inférer les présupposés et les liens laissés implicites",
+        "évaluer des preuves hétérogènes et leurs limites",
+        "maîtriser un lexique précis, idiomatique et connoté",
+        "maintenir un contrôle grammatical constant dans une argumentation complexe"
+      ],
+      "grammar": [
+        "Les propositions participiales et la condensation maîtrisée"
+      ],
+      "vocabulary": [
+        "une glose",
+        "la polysémie",
+        "une collocation",
+        "une équivalence",
+        "la profondeur lexicale",
+        "une méta-régression"
+      ],
+      "scenario": "Traduire un mot empêche-t-il vraiment de le maîtriser ?",
+      "cefrTargets": [
+        "compréhension approfondie et inférence",
+        "étendue et contrôle du vocabulaire",
+        "correction grammaticale constante"
+      ]
+    }
+  },
+  {
+    "slug": "intelligence-artificielle-tutorat",
+    "target_language": "french",
+    "level": "C2",
+    "title": "Intelligence artificielle et tutorat linguistique",
+    "title_es": "Intelligence artificielle et tutorat linguistique",
+    "description": "Enquête interdisciplinaire C2 : Un tuteur artificiel peut-il personnaliser sans inventer ?.",
+    "order_index": 12,
+    "unit_overview": {
+      "objective": "Évaluer des cadres concurrents dans le domaine suivant : intelligence artificielle et tutorat linguistique.",
+      "outcomes": [
+        "inférer les présupposés et les liens laissés implicites",
+        "évaluer des preuves hétérogènes et leurs limites",
+        "maîtriser un lexique précis, idiomatique et connoté",
+        "maintenir un contrôle grammatical constant dans une argumentation complexe"
+      ],
+      "grammar": [
+        "Le conditionnel de prudence et les tournures impersonnelles"
+      ],
+      "vocabulary": [
+        "un modèle génératif",
+        "une hallucination",
+        "l’ancrage contextuel",
+        "la traçabilité",
+        "un effet de nouveauté",
+        "une supervision humaine"
+      ],
+      "scenario": "Un tuteur artificiel peut-il personnaliser sans inventer ?",
+      "cefrTargets": [
+        "compréhension approfondie et inférence",
+        "étendue et contrôle du vocabulaire",
+        "correction grammaticale constante"
+      ]
     }
   }
 ]

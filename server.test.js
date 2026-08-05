@@ -1325,6 +1325,20 @@ test('French C2 has 12 CEFR mastery units entirely in French across all six core
   });
 });
 
+test('advanced English and French readings keep their CEFR level implicit inside the text', () => {
+  const advancedReadings = seedLessons.filter(
+    (lesson) =>
+      ['english', 'french'].includes(lesson.target_language) &&
+      ['B1', 'B2', 'C1', 'C2'].includes(lesson.level) &&
+      lesson.skill === 'reading'
+  );
+  const explicitLevel = /\b(level|nivel|niveau)\s+(B1|B2|C1|C2)\b/i;
+  for (const lesson of advancedReadings) {
+    const text = (lesson.content_json?.reading?.parts || []).join(' ');
+    assert.doesNotMatch(text, explicitLevel, `${lesson.slug} must not state its CEFR level inside the reading`);
+  }
+});
+
 test('English B1 has 12 complete units with assessed Reading, Grammar and Vocabulary', () => {
   const units = seedUnits
     .filter((row) => row.target_language === 'english' && row.level === 'B1')
@@ -3378,15 +3392,17 @@ test('signed-in greeting prioritizes username and never derives identity from em
   assert.doesNotMatch(displayNameBody, /email|split\('@'\)/);
 });
 
-test('index.html: the homepage offers L2 languages as cards and the route owns the L1 selector', () => {
+test('index.html: the homepage offers L2 languages as cards and the route owns both language selectors', () => {
   const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
   const bridgeOptions = html.match(/<select id="pathBridgeSelect">([\s\S]*?)<\/select>/)?.[1];
+  const targetOptions = html.match(/<select id="pathLanguageSelect">([\s\S]*?)<\/select>/)?.[1];
   assert.ok(bridgeOptions, 'expected the route L1 selector in index.html');
+  assert.ok(targetOptions, 'expected the route target-language selector in index.html');
 
   const valuesOf = (block) => [...block.matchAll(/<option value="(\w+)"/g)].map((m) => m[1]).sort();
   assert.deepEqual(valuesOf(bridgeOptions), ['english', 'french', 'spanish']);
   assert.doesNotMatch(bridgeOptions, /disabled|hidden/);
-  assert.doesNotMatch(html, /id="pathLanguageSelect"/);
+  assert.deepEqual(valuesOf(targetOptions), ['english', 'french', 'german', 'italian', 'spanish']);
   assert.deepEqual(
     [...html.matchAll(/data-preview-language="(\w+)"/g)].map((match) => match[1]).sort(),
     ['english', 'french', 'spanish']

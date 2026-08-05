@@ -8958,11 +8958,20 @@ function getReadingIllustrationTheme(lesson = {}) {
   };
 }
 
-// Each reading can define its own illustration (lesson.reading.illustration
-// = { src, alt }, see scripts/content/*-a1-units.js), falling back to a
-// unit-level one (lesson.unitIllustration) and finally to the generated
-// placeholder above, so the figure is never a broken image while real
-// artwork hasn't been authored for a given lesson yet.
+// Reuse the exact artwork shown for the lesson's unit in the learning route.
+// A Reading header must reinforce where the learner is, rather than selecting
+// a different generic theme from a separate atlas.
+function getLessonRouteArtworkSprite(lesson = {}) {
+  const unit = learningPathState.units.find(
+    (item) => item.id === lesson.unitId || item.slug === lesson.unitId || item.id === lesson.unitSlug
+  );
+  return unit ? getUnitRouteArtworkSprite(unit) : null;
+}
+
+// Each reading can still define its own illustration (lesson.reading.illustration
+// = { src, alt }) when a bespoke lesson asset exists. Otherwise it uses the
+// same route artwork for its unit, falling back to the themed atlas only when
+// there is no route image available.
 function resolveReadingIllustration(lesson) {
   const chosen = lesson.reading?.illustration?.src
     ? lesson.reading.illustration
@@ -8971,11 +8980,13 @@ function resolveReadingIllustration(lesson) {
       : null;
   const seed = lesson.unitId || lesson.slug || lesson.title || 'andergo';
   const theme = getReadingIllustrationTheme(lesson);
+  const routeSprite = getLessonRouteArtworkSprite(lesson);
   return {
     src: chosen?.src || null,
     fallbackSrc: buildGenericIllustrationDataUri(String(seed)),
     alt: chosen?.alt || `${lesson.title || ''}: ${theme.label}`,
-    theme
+    theme,
+    routeSprite
   };
 }
 
@@ -8983,13 +8994,15 @@ function resolveReadingIllustration(lesson) {
 // uploaded yet, onerror swaps it for the generated placeholder instead of
 // showing a broken-image icon.
 function renderReadingIllustrationHtml(lesson) {
-  const { src, alt, theme } = resolveReadingIllustration(lesson);
+  const { src, alt, theme, routeSprite } = resolveReadingIllustration(lesson);
   const customImage = src
     ? `<img class="reading-illustration-image" src="${escapeHtml(src)}" alt="" loading="lazy" onerror="this.remove();">`
     : '';
+  const spriteImage = routeSprite?.image || READING_THEME_ATLAS;
+  const spritePosition = routeSprite?.position || theme.position;
   return `
     <figure class="reading-illustration no-print">
-      <span class="reading-illustration-sprite" role="img" aria-label="${escapeHtml(alt)}" style="--reading-illustration-position:${theme.position};">${customImage}</span>
+      <span class="reading-illustration-sprite" role="img" aria-label="${escapeHtml(alt)}" style="--reading-illustration-image:url('${escapeHtml(spriteImage)}');--reading-illustration-position:${spritePosition};">${customImage}</span>
     </figure>
   `;
 }
@@ -9384,6 +9397,63 @@ function renderReadingReferencesHtml(references) {
   `;
 }
 
+const ADVANCED_READING_LEVELS = new Set(['B1', 'B2', 'C1', 'C2']);
+
+function renderReadingEditorialPrelude(lesson) {
+  if (!ADVANCED_READING_LEVELS.has(String(lesson.level || '').toUpperCase())) return '';
+
+  const uiLanguage = getEffectiveInterfaceLanguage();
+  const copy = {
+    spanish: {
+      eyebrow: 'Antes de leer',
+      title: 'Conceptos para seguir el debate',
+      hook: (topic) => `¿Qué está realmente en juego cuando se debate sobre ${topic}? Lee buscando la evidencia, los intereses y las consecuencias que sostienen cada postura.`
+    },
+    english: {
+      eyebrow: 'Before you read',
+      title: 'Concepts to follow the debate',
+      hook: (topic) => `What is really at stake when people debate ${topic}? Read for the evidence, interests, and consequences behind each position.`
+    },
+    french: {
+      eyebrow: 'Avant de lire',
+      title: 'Notions pour suivre le débat',
+      hook: (topic) => `Qu’est-ce qui est réellement en jeu lorsqu’on débat de ${topic} ? Repérez les preuves, les intérêts et les conséquences qui soutiennent chaque position.`
+    }
+  }[uiLanguage] || null;
+  const labels = copy || {
+    eyebrow: 'Before you read',
+    title: 'Key concepts',
+    hook: (topic) => `Read for the evidence, interests, and consequences behind ${topic}.`
+  };
+  const concepts = (lesson.reading?.concepts || lesson.vocabulary || [])
+    .slice(0, 3)
+    .map((item) => ({
+      term: item.term || item.word || '',
+      explanation: item.explanation || item.definition || item.translation || ''
+    }))
+    .filter((item) => item.term && item.explanation);
+
+  if (!concepts.length) return '';
+  const topic = String(lesson.title || lesson.reading?.title || 'this topic').toLowerCase();
+  return `
+    <aside class="reading-editorial-prelude" aria-label="${escapeHtml(labels.title)}">
+      <div class="reading-editorial-prelude-heading">
+        <span>${escapeHtml(labels.eyebrow)}</span>
+        <strong>${escapeHtml(labels.title)}</strong>
+      </div>
+      <p>${escapeHtml(labels.hook(topic))}</p>
+      <dl class="reading-concepts">
+        ${concepts
+          .map(
+            ({ term, explanation }) =>
+              `<div><dt>${escapeHtml(term)}</dt><dd>${escapeHtml(explanation)}</dd></div>`
+          )
+          .join('')}
+      </dl>
+    </aside>
+  `;
+}
+
 function renderReadingView(section, lesson) {
   const content = section.querySelector('.skill-view-content');
   if (!content) return;
@@ -9438,6 +9508,7 @@ function renderReadingView(section, lesson) {
   const audioSnapshot = readingSpeechPlayer.getSnapshot();
   const audioPlayerHtml = renderReadingAudioPlayerHtml(audioSnapshot);
   const illustrationHtml = renderReadingIllustrationHtml(lesson);
+  const editorialPreludeHtml = renderReadingEditorialPrelude(lesson);
   const durationLabel = lesson.estimatedMinutes ? `${lesson.estimatedMinutes} min · ` : '';
   // Full reading text + vocabulary word list, reused as context for both the
   // Tutor shortcuts (data-tutor-transcript/-vocabulary) and the "Traducir
@@ -9497,6 +9568,7 @@ function renderReadingView(section, lesson) {
           </div>
           ${illustrationHtml}
         </div>
+        ${editorialPreludeHtml}
         <article class="reading-text">${renderReadingParagraphsHtml(paragraphs)}</article>
         ${referencesHtml}
         <p class="reading-selection-hint reading-selection-hint--footer no-print">

@@ -8789,6 +8789,76 @@ footer small {
   margin: 0.25rem 0 0;
 }
 
+.reading-editorial-prelude {
+  margin: 0.85rem auto 1.25rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid rgba(37, 99, 235, 0.14);
+  border-radius: 14px;
+  background: linear-gradient(135deg, rgba(239, 246, 255, 0.78), rgba(236, 254, 255, 0.68));
+}
+
+.reading-editorial-prelude-heading {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.65rem;
+}
+
+.reading-editorial-prelude-heading span {
+  color: var(--blue);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.reading-editorial-prelude-heading strong {
+  color: var(--navy-2);
+  font-size: 0.92rem;
+}
+
+.reading-editorial-prelude > p {
+  margin: 0.4rem 0 0.75rem;
+  color: var(--muted);
+  font-size: 0.87rem;
+  line-height: 1.45;
+}
+
+.reading-concepts {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.6rem;
+  margin: 0;
+}
+
+.reading-concepts > div {
+  min-width: 0;
+}
+
+.reading-concepts dt {
+  color: var(--navy-2);
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
+.reading-concepts dd {
+  margin: 0.2rem 0 0;
+  color: var(--muted);
+  font-size: 0.76rem;
+  line-height: 1.38;
+}
+
+@media (max-width: 640px) {
+  .reading-editorial-prelude {
+    padding: 0.75rem;
+  }
+
+  .reading-concepts {
+    grid-template-columns: 1fr;
+    gap: 0.48rem;
+  }
+}
+
 /* On desktop, let the Reading cover occupy the full visual band between the
    display toolbar and the divider below the introduction. */
 @media (min-width: 721px) {
@@ -8817,7 +8887,7 @@ footer small {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background-image: url('/images/readings/reading-theme-grid.png');
+  background-image: var(--reading-illustration-image, url('/images/readings/reading-theme-grid.png'));
   background-position: var(--reading-illustration-position, 0% 0%);
   background-size: 400% 300%;
   background-repeat: no-repeat;
@@ -20487,7 +20557,18 @@ footer small {
 }
 
 .route-path-controls .language-pair-bar {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 0.7rem;
+}
+
+@media (max-width: 840px) and (min-width: 641px) {
+  .route-path-controls .language-pair-bar {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .route-path-controls .route-target-level {
+    grid-column: 1 / -1;
+  }
 }
 
 .route-path-controls .language-pair-field,
