@@ -538,6 +538,91 @@ window.AndergoBillingContext = {
   }
 };
 
+let paypalBillingConfig = null;
+
+function setPayPalStatus(message = '') {
+  const status = document.querySelector('[data-paypal-status]');
+  if (status) status.textContent = message;
+}
+
+function loadPayPalSdk(clientId) {
+  if (window.paypal) return Promise.resolve(window.paypal);
+  return new Promise((resolve, reject) => {
+    const existing = document.querySelector('script[data-andergo-paypal]');
+    if (existing) {
+      existing.addEventListener('load', () => resolve(window.paypal), { once: true });
+      existing.addEventListener('error', () => reject(new Error('No se pudo cargar PayPal.')), { once: true });
+      return;
+    }
+    const script = document.createElement('script');
+    script.src = `https://www.paypal.com/sdk/js?client-id=${encodeURIComponent(clientId)}&vault=true&intent=subscription&currency=USD`;
+    script.async = true;
+    script.dataset.andergoPaypal = 'true';
+    script.addEventListener('load', () => resolve(window.paypal), { once: true });
+    script.addEventListener('error', () => reject(new Error('No se pudo cargar PayPal.')), { once: true });
+    document.head.appendChild(script);
+  });
+}
+
+async function activatePayPalSubscription(subscriptionId) {
+  const response = await window.AndergoBillingContext.authFetch('/api/billing/paypal/activate', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ subscriptionId })
+  });
+  const result = await response.json().catch(() => ({}));
+  if (!response.ok) throw new Error(result.error || 'No se pudo confirmar la suscripción con PayPal.');
+  await loadCurrentSubscription({ attempts: 4, delayMs: 1200 });
+}
+
+async function initializePayPalFallback() {
+  const section = document.querySelector('[data-paypal-fallback]');
+  if (!section) return;
+  try {
+    const response = await fetch('/api/billing/paypal/config', { headers: { Accept: 'application/json' } });
+    paypalBillingConfig = await response.json();
+    if (!response.ok || !paypalBillingConfig?.configured) return;
+    const paypal = await loadPayPalSdk(paypalBillingConfig.clientId);
+    for (const billingCycle of ['monthly', 'quarterly']) {
+      const container = section.querySelector(`[data-paypal-button="${billingCycle}"]`);
+      const planId = paypalBillingConfig.plans?.[billingCycle];
+      if (!container || !planId) continue;
+      paypal
+        .Buttons({
+          style: { layout: 'vertical', label: 'subscribe', shape: 'rect' },
+          onClick() {
+            const customer = window.AndergoBillingContext.getCustomer();
+            if (customer.signedIn) return true;
+            window.AndergoBillingContext.requestSignIn();
+            return false;
+          },
+          createSubscription(_data, actions) {
+            const customer = window.AndergoBillingContext.getCustomer();
+            return actions.subscription.create({ plan_id: planId, custom_id: customer.id });
+          },
+          async onApprove(data) {
+            setPayPalStatus('Confirmando tu suscripción Premium…');
+            try {
+              await activatePayPalSubscription(data.subscriptionID);
+              setPayPalStatus('Premium está activo. ¡Bienvenido a ANDERGO!');
+            } catch (error) {
+              setPayPalStatus(error.message || 'No se pudo confirmar la suscripción con PayPal.');
+            }
+          },
+          onError() {
+            setPayPalStatus('PayPal no pudo completar el proceso. Inténtalo de nuevo.');
+          }
+        })
+        .render(container);
+    }
+    section.hidden = false;
+  } catch (error) {
+    console.error('[paypal-fallback]', error);
+  }
+}
+
+void initializePayPalFallback();
+
 // Exercise checks are saved to the learner's progress, so a guest needs a
 // clear invitation to sign in while a learner whose saved token could not be
 // renewed needs a different, actionable message. Keep this separate from the
@@ -7147,6 +7232,79 @@ const SPANISH_A1_UNIT_ARTWORK = {
   12: { emoji: '🌤️', label: 'planes, fechas y clima', tone: 'blue' }
 };
 
+// French B1/B2/C1 and Spanish B1/B2 readings were rewritten from fictional
+// narratives to real, factual articles (see scripts/content/french-*-units.js
+// and scripts/content/spanish-expanded-units.js). Their unit title/description
+// text wasn't changed, but several topics (media literacy, remote work,
+// AI/translation, ethics, science...) don't hit any UNIT_ARTWORK_THEMES term,
+// or hit the wrong one - so these units get a fixed, slug-keyed icon instead
+// of relying on keyword matching or the random generic fallback.
+const UNIT_SLUG_ARTWORK = {
+  // French B1
+  'projets-et-avenir': { emoji: '🚀', label: 'proyectos y futuro', tone: 'blue' },
+  'identite-et-parcours-personnel': { emoji: '🙂', label: 'identidad personal', tone: 'sky' },
+  'etudes-et-apprentissage': { emoji: '🎓', label: 'estudios y aprendizaje', tone: 'violet' },
+  'monde-du-travail': { emoji: '💼', label: 'trabajo y vida profesional', tone: 'blue' },
+  'voyages-et-interculturalite': { emoji: '🚆', label: 'viajes e interculturalidad', tone: 'blue' },
+  'technologie-et-societe': { emoji: '📱', label: 'tecnología y sociedad', tone: 'violet' },
+  'sante-et-mode-de-vie': { emoji: '🩺', label: 'salud y estilo de vida', tone: 'mint' },
+  'environnement-et-consommation': { emoji: '🌱', label: 'medioambiente y consumo', tone: 'mint' },
+  'medias-et-information': { emoji: '📰', label: 'medios e información', tone: 'sky' },
+  'relations-et-conflits': { emoji: '🤝', label: 'relaciones y conflictos', tone: 'orange' },
+  // French B2
+  'retour-a-saint-domingue': { emoji: '🙂', label: 'identidad y retorno', tone: 'sky' },
+  'candidature-universitaire': { emoji: '🎓', label: 'candidatura universitaria', tone: 'violet' },
+  'debats-de-societe': { emoji: '🤝', label: 'debates de sociedad', tone: 'orange' },
+  'le-teletravail-et-lavenir-professionnel': { emoji: '💼', label: 'teletrabajo y futuro profesional', tone: 'blue' },
+  'litterature-francophone': { emoji: '📚', label: 'literatura francófona', tone: 'violet' },
+  'cinema-et-critique': { emoji: '🎬', label: 'cine y crítica', tone: 'violet' },
+  'dilemmes-ethiques': { emoji: '⚖️', label: 'dilemas éticos', tone: 'sky' },
+  'sciences-et-innovations': { emoji: '🔬', label: 'ciencia e innovación', tone: 'mint' },
+  'histoire-et-memoire': { emoji: '🏛️', label: 'historia y memoria', tone: 'sun' },
+  'ecologie-et-engagement-citoyen': { emoji: '🌱', label: 'ecología y compromiso ciudadano', tone: 'mint' },
+  'art-et-creativite': { emoji: '🎨', label: 'arte y creatividad', tone: 'violet' },
+  'bilan-et-projets-davenir': { emoji: '🚀', label: 'balance y proyectos de futuro', tone: 'blue' },
+  // French C1
+  'la-rentree-universitaire': { emoji: '🎓', label: 'inicio universitario', tone: 'violet' },
+  'un-exposer-a-preparer': { emoji: '🎤', label: 'exposición académica', tone: 'sky' },
+  'les-medias-et-la-fabrique-de-lopinion': { emoji: '📰', label: 'medios y opinión pública', tone: 'sky' },
+  'intelligence-artificielle-et-traduction': { emoji: '🤖', label: 'inteligencia artificial y traducción', tone: 'violet' },
+  'memoire-migration-et-identite': { emoji: '🧳', label: 'memoria, migración e identidad', tone: 'sun' },
+  'justice-sociale-et-inegalites': { emoji: '⚖️', label: 'justicia social e igualdad', tone: 'sky' },
+  'ecologie-et-responsabilite-collective': { emoji: '🌱', label: 'ecología y responsabilidad colectiva', tone: 'mint' },
+  'langues-pouvoir-et-inclusion': { emoji: '🗣️', label: 'lenguas, poder e inclusión', tone: 'violet' },
+  'science-doute-et-esprit-critique': { emoji: '🔬', label: 'ciencia y pensamiento crítico', tone: 'mint' },
+  'art-censure-et-liberte': { emoji: '🎨', label: 'arte, censura y libertad', tone: 'violet' },
+  'avenir-incertitude-et-choix': { emoji: '🚀', label: 'futuro, incertidumbre y decisiones', tone: 'blue' },
+  'bilan-identite-et-transmission': { emoji: '🙂', label: 'identidad y transmisión', tone: 'sky' },
+  // Spanish B1
+  'historias-personales': { emoji: '🙂', label: 'historias personales', tone: 'sky' },
+  'trabajo-y-talento': { emoji: '💼', label: 'trabajo y talento', tone: 'blue' },
+  'viajes-con-imprevistos': { emoji: '🚆', label: 'viajes con imprevistos', tone: 'blue' },
+  'medios-y-noticias': { emoji: '📰', label: 'medios y noticias', tone: 'sky' },
+  'relaciones-y-convivencia': { emoji: '🤝', label: 'relaciones y convivencia', tone: 'orange' },
+  'consumo-responsable': { emoji: '🛍️', label: 'consumo responsable', tone: 'rose' },
+  'cultura-y-tradiciones': { emoji: '🎭', label: 'cultura y tradiciones', tone: 'violet' },
+  'educacion-y-metas': { emoji: '🎓', label: 'educación y metas', tone: 'violet' },
+  'medioambiente-local': { emoji: '🌱', label: 'medioambiente local', tone: 'mint' },
+  'salud-y-habitos': { emoji: '🩺', label: 'salud y hábitos', tone: 'mint' },
+  'servicios-y-reclamaciones': { emoji: '📋', label: 'servicios y reclamaciones', tone: 'sky' },
+  'proyecto-comunitario': { emoji: '🤝', label: 'proyecto comunitario', tone: 'orange' },
+  // Spanish B2
+  'identidad-digital': { emoji: '📱', label: 'identidad digital', tone: 'violet' },
+  'ciudades-sostenibles': { emoji: '🏙️', label: 'ciudades sostenibles', tone: 'sky' },
+  'trabajo-del-futuro': { emoji: '💼', label: 'trabajo del futuro', tone: 'blue' },
+  'desinformacion': { emoji: '📰', label: 'desinformación', tone: 'sky' },
+  'turismo-y-comunidad': { emoji: '🧳', label: 'turismo y comunidad', tone: 'sun' },
+  'educacion-digital': { emoji: '📱', label: 'educación digital', tone: 'violet' },
+  'alimentacion-y-sociedad': { emoji: '🍽️', label: 'alimentación y sociedad', tone: 'orange' },
+  'arte-y-espacio-publico': { emoji: '🎨', label: 'arte y espacio público', tone: 'violet' },
+  'ciencia-y-etica': { emoji: '🔬', label: 'ciencia y ética', tone: 'mint' },
+  'vivienda-y-desigualdad': { emoji: '🏡', label: 'vivienda y desigualdad', tone: 'mint' },
+  'lenguaje-e-inclusion': { emoji: '🗣️', label: 'lenguaje e inclusión', tone: 'violet' },
+  'foro-de-propuestas': { emoji: '💡', label: 'foro de propuestas', tone: 'sun' }
+};
+
 // Original route illustrations are generated as compact 4x3 sheets. This
 // keeps the interface fast: one image covers all the cards in a course.
 // Other language routes retain their themed emoji fallback until their own
@@ -7186,6 +7344,7 @@ function getUnitArtwork(unit = {}) {
     learningPathState.language === 'spanish' && learningPathState.level === 'A1'
       ? SPANISH_A1_UNIT_ARTWORK[unitOrder]
       : null;
+  const slugArtwork = unit.slug ? UNIT_SLUG_ARTWORK[unit.slug] : null;
   const searchable = [unit.title, unit.titleEs, unit.description, unit.objective]
     .filter(Boolean)
     .join(' ')
@@ -7195,7 +7354,7 @@ function getUnitArtwork(unit = {}) {
   const themed = UNIT_ARTWORK_THEMES.find((theme) =>
     theme.terms.some((term) => searchable.includes(term))
   );
-  const artwork = frenchA1Artwork || spanishA1Artwork || themed || (() => {
+  const artwork = frenchA1Artwork || spanishA1Artwork || slugArtwork || themed || (() => {
     const stableKey = `${unit.id || ''}:${unit.order || 0}:${searchable}`;
     const hash = [...stableKey].reduce((total, character) => total + character.charCodeAt(0), 0);
     return UNIT_ARTWORK_FALLBACKS[hash % UNIT_ARTWORK_FALLBACKS.length];
@@ -21571,7 +21730,8 @@ function setupPhonetics() {
   const status = document.getElementById('phoneticsStatus');
   if (!langSelect || !input || !output || !submitBtn || !status) return;
 
-  const languages = window.AndergoTranslatorLanguages?.getSelectableLanguages() || [];
+  const allLanguages = window.AndergoTranslatorLanguages?.getSelectableLanguages() || [];
+  const languages = allLanguages.filter((lang) => lang.key === 'english' || lang.key === 'french');
   langSelect.innerHTML = languages.map((lang) =>
     `<option value="${escapeHtml(lang.key)}">${lang.flag} ${escapeHtml(lang.label)}</option>`
   ).join('');

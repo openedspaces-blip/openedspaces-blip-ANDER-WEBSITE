@@ -703,6 +703,544 @@ Para una generación que crecerá con estos cambios, la educación climática no
   }
 };
 
+// B1 readings replace the former fictional-character fallback with real,
+// factual prose (testimonials, reportage and editorials grounded in verifiable
+// institutions and practices) calibrated to independent-user Spanish.
+const AUTHORED_B1_READINGS = {
+  'historias-personales': {
+    genre: 'testimonio',
+    title: 'El día en que cambié de opinión',
+    angle: 'Una estudiante cuenta cómo llegar a una escuela nueva transformó su idea de pertenencia.',
+    text: `Cuando me cambiaron de colegio a mitad de curso, pensaba que la experiencia sería un desastre. Ya tenía amigas, conocía a mis profesores y entendía las reglas del lugar donde estudiaba. El primer día en el colegio nuevo, mientras buscaba mi aula, me perdí dos veces y llegué tarde a la primera clase. Nadie me saludó y pasé el recreo sola, sentada cerca de la biblioteca.
+
+Sin embargo, esa misma semana ocurrió algo que no esperaba. Una compañera se acercó porque me vio con un libro que también le gustaba a ella. Hablamos de la historia, después de la clase de matemáticas y, poco a poco, empezamos a comer juntas. Al principio pensaba que hacer amigos en un lugar nuevo era imposible después de los quince años, pero mientras pasaban las semanas descubrí que solo necesitaba una conversación honesta para empezar.
+
+Lo que más cambió mi opinión fue conocer a estudiantes que venían de otras provincias y de otros países. Antes creía que la pertenencia dependía de llevar mucho tiempo en un lugar. Ahora pienso que depende más de la disposición a escuchar experiencias distintas de la propia. Una compañera dominico-haitiana me explicó cómo vivía entre dos idiomas y dos culturas todos los días, y entendí que mi incomodidad de unas semanas no se parecía en nada a lo que ella enfrentaba constantemente.
+
+Al final del curso, cuando otra estudiante llegó nueva al aula, fui yo quien se acercó primero. Recordé lo que había sentido y no quise que ella pasara sola el recreo. Esa decisión, tan pequeña, me hizo entender que cambiar de colegio no fue solo un problema que tuve que resolver, sino una oportunidad que, sin buscarla, me enseñó a mirar de otra manera a las personas que llegan por primera vez a un lugar.`,
+    referenceKeys: [],
+    exercises: [
+      q('¿Qué pensaba la protagonista antes de cambiar de colegio?', ['Que la experiencia sería un desastre', 'Que sería muy fácil', 'Que no le importaba', 'Que volvería pronto a su colegio anterior'], 0, 'El texto dice que pensaba que sería un desastre.'),
+      q('¿Cómo empezó su primera amistad en el colegio nuevo?', ['Un profesor las presentó', 'Una compañera se acercó por un libro en común', 'Se conocieron en el autobús', 'Eran vecinas'], 1, 'Una compañera se acercó porque compartían el gusto por un libro.'),
+      q('¿Qué cambió su idea sobre la pertenencia?', ['Conocer a estudiantes de otras provincias y países', 'Volver a su colegio anterior', 'Dejar de hablar con nadie', 'Cambiar de casa'], 0, 'Conocer otras experiencias amplió su idea de pertenencia.'),
+      q('¿Qué hizo al final del curso?', ['Ignoró a la nueva estudiante', 'Se acercó primero a una estudiante nueva', 'Cambió de colegio otra vez', 'Dejó de estudiar'], 1, 'Repitió, en sentido inverso, el gesto que ella había necesitado.'),
+      q('¿Qué tiempo verbal predomina para narrar hechos puntuales frente a describir el contexto?', ['Presente y futuro', 'Indefinido para hechos y imperfecto para el contexto', 'Solo el gerundio', 'Solo el imperativo'], 1, 'El testimonio combina indefinido e imperfecto para narrar con matiz.')
+    ]
+  },
+  'trabajo-y-talento': {
+    genre: 'reportaje',
+    title: '¿Qué cuenta como experiencia en el primer empleo?',
+    angle: 'Jóvenes comparan prácticas, voluntariado y proyectos personales antes de entrar a un mercado laboral incierto.',
+    text: `Muchas ofertas de trabajo piden experiencia previa, incluso para el primer empleo. Esta contradicción preocupa a jóvenes que buscan su primera oportunidad laboral. Sin embargo, quienes ya han pasado por procesos de selección coinciden en algo: la experiencia no siempre significa un contrato formal.
+
+Un grupo de estudiantes de último año de bachillerato compartió sus historias para este reportaje. Uno de ellos ha ayudado en la tienda familiar los fines de semana desde los catorce años; aunque nunca ha recibido un salario fijo, ha aprendido a atender clientes, organizar inventario y resolver quejas. Otra estudiante ha participado como voluntaria en un programa de alfabetización comunitaria; esa experiencia le enseñó a explicar ideas complejas con paciencia, una habilidad que ahora menciona en sus entrevistas.
+
+Los especialistas en recursos humanos han empezado a valorar este tipo de trayectorias. Según explican, lo importante no es solo el título del puesto, sino las responsabilidades reales que una persona ha asumido: coordinar un equipo pequeño, cumplir plazos, manejar dinero o comunicarse con público diverso. Por eso recomiendan que, en una entrevista, los candidatos jóvenes describan tareas concretas en lugar de repetir frases genéricas como "tengo buenas habilidades sociales".
+
+Otro punto que mencionan los estudiantes es la preparación para la entrevista misma. Practicar respuestas, investigar la empresa y preparar preguntas propias marca una diferencia notable frente a llegar sin ninguna idea del puesto. Uno de los jóvenes cuenta que ha practicado varias veces con su hermana mayor, quien le hace preguntas difíciles a propósito para que no se sorprenda el día real.
+
+Al final, el reportaje deja una conclusión compartida por todos los entrevistados: nadie llega a su primer empleo formal sin ninguna experiencia previa. La tarea consiste en reconocer, nombrar y presentar con seguridad lo que ya se ha aprendido, aunque no aparezca todavía en ningún contrato firmado.`,
+    referenceKeys: [],
+    exercises: [
+      q('¿Qué contradicción menciona el texto sobre las ofertas de trabajo?', ['Piden experiencia incluso para el primer empleo', 'Nunca piden experiencia', 'Solo aceptan mayores de treinta años', 'No piden entrevista'], 0, 'El texto señala esa contradicción desde el inicio.'),
+      q('¿Qué aprendió la voluntaria del programa de alfabetización?', ['A manejar inventario', 'A explicar ideas complejas con paciencia', 'A programar computadoras', 'A conducir un vehículo'], 1, 'La experiencia de voluntariado le dio esa habilidad.'),
+      q('¿Qué valoran actualmente los especialistas en recursos humanos?', ['Solo el título formal del puesto', 'Las responsabilidades reales asumidas', 'La edad del candidato', 'El número de diplomas'], 1, 'Valoran tareas y responsabilidades concretas, no solo el título.'),
+      q('¿Qué recomiendan los especialistas para una entrevista?', ['Repetir frases genéricas', 'Describir tareas concretas', 'No prepararse', 'Evitar hablar de experiencia'], 1, 'Recomiendan ejemplos concretos en vez de frases vacías.'),
+      q('¿Cuál es la conclusión final del reportaje?', ['Nadie tiene experiencia útil sin contrato formal', 'Hay que reconocer y presentar lo ya aprendido', 'La entrevista no importa', 'El voluntariado no cuenta como experiencia'], 1, 'El reportaje concluye que hay que nombrar con seguridad lo ya aprendido.')
+    ]
+  },
+  'viajes-con-imprevistos': {
+    genre: 'crónica',
+    title: 'Veinticuatro horas lejos de casa',
+    angle: 'La cancelación de un viaje obliga a organizarse, reclamar información y ayudar a otras personas sin idealizar el problema.',
+    text: `A las cinco de la mañana, la pantalla del aeropuerto mostraba una sola palabra junto al vuelo hacia Santiago: cancelado. Decenas de pasajeros se quedaron mirando el letrero sin entender qué debían hacer a continuación. No había ningún anuncio adicional, y las filas frente al mostrador de la aerolínea crecían cada minuto.
+
+Según explicaron después los empleados, un problema técnico en la aeronave obligó a suspender todos los vuelos de esa ruta durante la mañana. La aerolínea ofreció dos alternativas: esperar un vuelo reprogramado por la tarde o aceptar un reembolso completo. Muchos pasajeros preferirían viajar en autobús antes que esperar tantas horas sin información clara, pero la distancia hacía que esa opción resultara poco práctica para la mayoría.
+
+Mientras esperaban, un grupo de viajeros empezó a compartir información: algunos habían escrito directamente al servicio de atención al cliente, otros habían encontrado el reglamento de derechos del pasajero publicado por la autoridad de aeronáutica civil, que establece compensaciones cuando una cancelación no se debe a causas de fuerza mayor. Una señora mayor, que viajaba sola por primera vez, no sabía cómo reclamar; varios pasajeros jóvenes la ayudaron a completar el formulario y a entender qué documentos debía guardar.
+
+El vuelo finalmente salió doce horas después de lo previsto. Nadie llegó feliz a su destino, pero tampoco se trató de una aventura extraordinaria: fue, sobre todo, un ejercicio de paciencia, información y cooperación entre desconocidos. Los pasajeros que reclamaron con los documentos correctos recibieron su compensación semanas después; quienes no guardaron ningún comprobante tuvieron más dificultades para probar lo ocurrido.
+
+Esta crónica no pretende convertir una cancelación en una historia inspiradora. Más bien, muestra algo más útil: conocer los propios derechos, guardar la documentación y pedir ayuda cuando algo sale mal puede cambiar por completo el resultado de un contratiempo.`,
+    referenceKeys: [],
+    exercises: [
+      q('¿Qué causó la cancelación del vuelo?', ['Un problema técnico en la aeronave', 'Una huelga de pilotos', 'El mal tiempo', 'Un error del pasajero'], 0, 'Los empleados explicaron que fue un problema técnico.'),
+      q('¿Qué alternativas ofreció la aerolínea?', ['Solo un reembolso', 'Esperar un vuelo reprogramado o aceptar reembolso', 'Viajar en barco', 'Ninguna alternativa'], 1, 'Ofreció esperar la tarde o el reembolso completo.'),
+      q('¿Qué documento mencionan los pasajeros como útil para reclamar?', ['El reglamento de derechos del pasajero', 'Un mapa turístico', 'Una guía de restaurantes', 'El horario de trenes'], 0, 'Ese reglamento establece compensaciones en ciertos casos.'),
+      q('¿Qué diferencia hubo entre quienes guardaron comprobantes y quienes no?', ['Ninguna diferencia', 'Quienes guardaron documentos recibieron compensación más fácilmente', 'Todos perdieron su dinero', 'Solo importó la hora de llegada'], 1, 'Guardar comprobantes facilitó el proceso de reclamación.'),
+      q('¿Qué forma verbal se usa para pedir o sugerir con cortesía en la crónica?', ['El imperativo directo', 'El condicional de cortesía', 'El futuro simple', 'El gerundio'], 1, 'El texto usa el condicional para suavizar preferencias y sugerencias.')
+    ]
+  },
+  'medios-y-noticias': {
+    genre: 'editorial',
+    title: 'Antes de compartir ese titular',
+    angle: 'Una noticia viral cambia de significado cuando se localiza la fuente original, la fecha y el contexto ausente.',
+    text: `Un titular puede recorrer miles de teléfonos en minutos. Esa velocidad, que antes parecía imposible, hoy es habitual: basta con presionar "compartir" para que una frase, verdadera o no, llegue a personas que nunca revisarán la fuente original. Esta editorial no pretende asustar a nadie con la tecnología, sino proponer un hábito sencillo antes de reenviar cualquier noticia.
+
+Hace poco circuló, en varios grupos escolares, un mensaje que afirmaba que un instituto cercano cerraría permanentemente por falta de fondos. El mensaje generó preocupación entre familias y estudiantes durante todo un día. Cuando finalmente alguien buscó la fuente, descubrió que la noticia original hablaba de un cierre temporal de tres días por reparaciones, ocurrido dos años antes, en una ciudad distinta. El titular circulaba sin fecha ni contexto, y cada persona que lo compartía agregaba una capa más de alarma.
+
+Según organismos internacionales dedicados a la educación mediática, tres preguntas simples pueden evitar buena parte de esta confusión: ¿quién publicó esta información?, ¿cuándo ocurrió realmente? y ¿existe otra fuente que confirme lo mismo? Estas preguntas no requieren conocimientos técnicos avanzados; solo exigen un minuto antes de reenviar algo.
+
+También es importante distinguir entre un hecho y una opinión presentada como hecho. Un titular como "expertos advierten" debería llevar a preguntar quiénes son esos expertos y dónde publicaron su declaración. Cuando esa información no aparece, conviene tratar la noticia con cautela, sin descartarla por completo ni aceptarla sin más.
+
+Compartir información responsablemente no significa dejar de comentar noticias ni volverse desconfiado de todo. Significa dedicar un momento breve a verificar antes de contribuir, sin darse cuenta, a que una preocupación innecesaria se multiplique entre compañeros, familiares y vecinos.`,
+    referenceKeys: ['mediaLiteracy'],
+    exercises: [
+      q('¿Qué decía originalmente la noticia del instituto?', ['Que cerraría permanentemente', 'Que cerraría temporalmente por reparaciones', 'Que abriría una nueva sede', 'Que cambiaría de director'], 1, 'La noticia original hablaba de un cierre temporal por reparaciones.'),
+      q('¿Qué faltaba en el mensaje que circuló?', ['El nombre del instituto', 'La fecha y el contexto', 'El número de estudiantes', 'El idioma del mensaje'], 1, 'Circulaba sin fecha ni contexto, lo que generó confusión.'),
+      q('¿Qué tres preguntas propone el texto antes de compartir una noticia?', ['Quién la publicó, cuándo ocurrió y si hay otra fuente', 'Cuánto cuesta, dónde se vende y quién la compró', 'Es larga, es corta o es antigua', 'Es divertida, es triste o es seria'], 0, 'Esas tres preguntas ayudan a verificar la información.'),
+      q('¿Qué distinción propone el texto sobre "expertos advierten"?', ['Distinguir un hecho de una opinión presentada como hecho', 'No hay ninguna distinción necesaria', 'Toda opinión de un experto es un hecho', 'Nunca se debe citar a expertos'], 0, 'El texto pide identificar quién habla y dónde lo publicó.'),
+      q('¿Qué estructura gramatical se usa para reportar lo que decía el mensaje original?', ['Estilo indirecto', 'Imperativo', 'Futuro compuesto', 'Subjuntivo de deseo'], 0, 'El texto reformula lo dicho por otros usando estilo indirecto.')
+    ]
+  },
+  'relaciones-y-convivencia': {
+    genre: 'testimonio',
+    title: 'Cuando el grupo de chat nunca se calla',
+    angle: 'Una adolescente aprende a establecer límites digitales sin abandonar a sus amistades ni interpretar cada silencio como rechazo.',
+    text: `Durante meses, mi teléfono no dejaba de vibrar. El grupo de chat del curso enviaba mensajes desde las siete de la mañana hasta pasada la medianoche: tareas, bromas, discusiones y, a veces, comentarios que herían a alguien sin que la persona respondiera nada en público. Yo revisaba cada mensaje por miedo a perderme algo importante, aunque eso significara dejar el celular sobre la mesa incluso durante la cena familiar.
+
+Un fin de semana, mi madre me preguntó por qué parecía tan cansada últimamente. Al principio le dije que era por los exámenes, pero mientras hablábamos, entendí que el chat también me agotaba. No quería admitirlo porque temía que, si silenciaba las notificaciones, mis amigas pensaran que las estaba ignorando o que ya no me importaban.
+
+Decidí hablar con dos compañeras cercanas antes de hacer cualquier cambio. Les expliqué que necesitaba desconectarme del chat después de las nueve de la noche, no porque quisiera alejarme de ellas, sino porque necesitaba descansar. Me sorprendió que una de ellas confesara sentir lo mismo, pero no se había atrevido a decirlo por miedo a la misma reacción que yo temía.
+
+Organizaciones internacionales de salud han señalado que el uso constante de pantallas y notificaciones puede afectar el sueño y el bienestar emocional de adolescentes, especialmente cuando la presión social impide desconectarse. Leer sobre esto me ayudó a entender que mi cansancio no era una exageración personal, sino una experiencia compartida por muchos jóvenes de mi edad.
+
+Ahora silencio el chat por las noches y, si alguien realmente necesita algo urgente, sabe que puede llamarme. Al principio temí que mis amistades cambiaran, pero descubrí algo distinto: quienes valoran de verdad la amistad entienden un límite razonable, y quienes no lo entienden, probablemente no dependían tanto de mi disponibilidad constante como yo creía.`,
+    referenceKeys: ['teensScreens', 'adolescentMentalHealth'],
+    exercises: [
+      q('¿Qué le costaba a la protagonista al principio del testimonio?', ['Encontrar el grupo de chat', 'Dejar de revisar cada mensaje', 'Hacer las tareas escolares', 'Hablar con su madre'], 1, 'Revisaba cada mensaje por miedo a perderse algo.'),
+      q('¿Qué temía que pensaran sus amigas si silenciaba el chat?', ['Que estaba enferma', 'Que las ignoraba o ya no le importaban', 'Que había cambiado de escuela', 'Que estaba de vacaciones'], 1, 'Temía parecer indiferente hacia sus amistades.'),
+      q('¿Qué descubrió al hablar con sus compañeras?', ['Que era la única cansada', 'Que otra compañera sentía lo mismo', 'Que nadie usaba el chat', 'Que debía dejar la escuela'], 1, 'Una compañera confesó sentir el mismo agotamiento.'),
+      q('¿Qué señalan organismos de salud sobre el uso constante de notificaciones?', ['Que no afecta a nadie', 'Que puede afectar el sueño y el bienestar emocional', 'Que mejora siempre la concentración', 'Que es obligatorio para estudiar'], 1, 'El texto cita esa preocupación de salud pública.'),
+      q('¿Qué recurso gramatical predomina al expresar la emoción y la valoración del cambio?', ['Subjuntivo con emoción y valoración', 'Solo indicativo', 'Imperativo negativo', 'Futuro simple'], 0, 'El testimonio usa estructuras de emoción y valoración propias del subjuntivo.')
+    ]
+  },
+  'consumo-responsable': {
+    genre: 'reportaje',
+    title: 'La camiseta barata tiene una historia',
+    angle: 'Un club escolar sigue el recorrido de una prenda y descubre que precio, duración y residuos forman parte de una misma decisión.',
+    text: `Una camiseta que cuesta el equivalente a un almuerzo escolar parece una buena oferta. Pero, ¿qué explica ese precio tan bajo? Un club de estudiantes interesados en consumo responsable decidió investigarlo, siguiendo el recorrido habitual de una prenda desde la fábrica hasta la tienda.
+
+Según organismos internacionales que estudian la industria textil, la producción masiva y rápida de ropa ha crecido enormemente en las últimas décadas, mientras que muchas prendas se usan durante poco tiempo antes de desecharse. Este modelo permite precios bajos, pero también genera grandes cantidades de residuos textiles cada año, además de un uso intensivo de agua y energía en las fábricas.
+
+El club comparó dos camisetas: una de bajo costo, comprada en una tienda de descuento, y otra más cara, elaborada con algodón orgánico certificado. Después de diez lavados, la primera camiseta ya mostraba hilos sueltos y había perdido su forma original; la segunda seguía prácticamente intacta. Al calcular el costo por uso, no por precio inicial, la prenda más cara resultó, sorprendentemente, más económica a largo plazo.
+
+También investigaron las etiquetas. Muchas prendas indican el país de fabricación, pero pocas explican las condiciones laborales de quienes las cosieron. Los estudiantes entrevistaron a una profesora de economía, quien les explicó que exigir información clara sobre origen y condiciones de producción es una forma legítima de presión ciudadana, aunque reconoció que no todas las personas pueden pagar precios más altos, y que la responsabilidad no recae solo en el consumidor individual.
+
+El reportaje concluye con una reflexión que el propio club discutió durante semanas: comprar menos, elegir prendas duraderas y reutilizar cuando sea posible no resuelve todos los problemas de la industria, pero sí representa una decisión informada, muy distinta de comprar por impulso sin conocer el recorrido completo de lo que se lleva puesto.`,
+    referenceKeys: [],
+    exercises: [
+      q('¿Qué investigó el club de estudiantes?', ['El recorrido de una prenda desde la fábrica hasta la tienda', 'El horario de una tienda', 'La historia de un uniforme escolar', 'El precio del transporte público'], 0, 'Investigaron el recorrido completo de una prenda de vestir.'),
+      q('¿Qué diferencia encontraron entre las dos camisetas tras diez lavados?', ['Ninguna diferencia', 'La barata se deterioró más rápido', 'La cara se rompió primero', 'Ambas se rompieron igual'], 1, 'La camiseta barata mostró desgaste después de diez lavados.'),
+      q('¿Qué información suele faltar en las etiquetas, según el texto?', ['El país de fabricación', 'Las condiciones laborales de quienes cosieron la prenda', 'El color de la prenda', 'La talla disponible'], 1, 'Las etiquetas rara vez explican las condiciones laborales.'),
+      q('¿Qué reconoce la profesora de economía entrevistada?', ['Que todos pueden pagar precios altos', 'Que la responsabilidad no recae solo en el consumidor individual', 'Que el consumo no afecta a nadie', 'Que las etiquetas siempre son completas'], 1, 'Reconoce que la responsabilidad es compartida, no solo individual.'),
+      q('¿Qué estructura gramatical usa el texto para describir la prenda o la fábrica con precisión?', ['Oraciones de relativo', 'Solo imperativo', 'Futuro compuesto', 'Condicional irreal'], 0, 'El reportaje usa relativas para especificar detalles del producto y el proceso.')
+    ]
+  },
+  'cultura-y-tradiciones': {
+    genre: 'crónica histórica',
+    title: 'Una tradición que cambia para seguir viva',
+    angle: 'Tres generaciones describen la transformación de una celebración local y debaten qué representa memoria compartida.',
+    text: `En muchas comunidades dominicanas, las celebraciones de Carnaval reúnen cada año a familias enteras, con comparsas, máscaras y personajes que se transmiten de generación en generación. Para esta crónica se entrevistó a tres personas de una misma familia: una abuela de ochenta años, su hija y su nieta adolescente, todas participantes activas del Carnaval de su ciudad.
+
+La abuela recuerda un carnaval más pequeño, organizado principalmente por los vecinos del barrio, con trajes confeccionados a mano durante meses. "Se cosía todo el año pensando en un solo domingo de febrero", cuenta. En su época, la música se tocaba en vivo con tambores e instrumentos tradicionales, y los personajes representaban figuras muy antiguas, como el Diablo Cojuelo, cuyo origen se remonta a leyendas coloniales.
+
+Su hija describe un carnaval distinto: más organizado por comités municipales, con patrocinios, mayor seguridad y también más turistas. Para ella, esta transformación no debilitó la tradición, sino que permitió que más personas la conocieran, incluso fuera del país. Sin embargo, admite que se preocupa cuando algunos elementos parecen pensados exclusivamente para las cámaras, en lugar de para la comunidad que los originó.
+
+La nieta, que este año participó por primera vez confeccionando su propio traje, aporta otra mirada. Para ella, usar redes sociales para mostrar el proceso de creación no le resta valor a la tradición: al contrario, permite que jóvenes de otras ciudades se interesen en aprender las técnicas y en investigar el origen histórico de cada personaje.
+
+Las tres coinciden en algo importante: una tradición que nunca cambia corre el riesgo de perder a las nuevas generaciones, pero una tradición que cambia sin memoria puede perder su significado original. Entre esos dos riesgos, cada comunidad decide, año tras año, qué conservar y qué transformar.`,
+    referenceKeys: [],
+    exercises: [
+      q('¿A quiénes entrevistó la crónica?', ['A tres desconocidos', 'A tres generaciones de una misma familia', 'A un solo historiador', 'A turistas extranjeros'], 1, 'La crónica reúne a abuela, hija y nieta de la misma familia.'),
+      q('¿Cómo describe la abuela el carnaval de su época?', ['Organizado por comités municipales', 'Más pequeño, con trajes hechos a mano por vecinos', 'Sin música en vivo', 'Sin ningún personaje tradicional'], 1, 'Recuerda un carnaval de barrio con trajes confeccionados a mano.'),
+      q('¿Qué preocupa a la hija sobre los cambios actuales?', ['Que haya más turistas', 'Que algunos elementos parezcan pensados solo para las cámaras', 'Que ya no exista el carnaval', 'Que los trajes sean más baratos'], 1, 'Le preocupa que se pierda el sentido comunitario original.'),
+      q('¿Qué aporta la nieta con las redes sociales?', ['Elimina la tradición', 'Permite que otros jóvenes se interesen en aprender las técnicas', 'Sustituye los trajes tradicionales', 'Prohíbe la participación de mayores'], 1, 'Las redes ayudan a difundir el proceso y el interés por la tradición.'),
+      q('¿Qué construcción gramatical predomina al describir prácticas sin señalar quién actúa?', ['Se impersonal y pasiva refleja', 'Imperativo', 'Futuro compuesto', 'Subjuntivo de deseo'], 0, 'El texto describe prácticas colectivas con se impersonal y pasiva refleja.')
+    ]
+  },
+  'educacion-y-metas': {
+    genre: 'editorial',
+    title: 'Elegir una carrera sin tener toda la vida resuelta',
+    angle: 'El texto cuestiona que una decisión tomada a los diecisiete años deba fijar para siempre el futuro académico.',
+    text: `Cada año, miles de estudiantes de último curso enfrentan la misma pregunta con una presión desproporcionada: ¿qué vas a estudiar? La forma en que se plantea esta pregunta sugiere que existe una única respuesta correcta y definitiva, cuando la realidad del mundo laboral actual es mucho menos rígida.
+
+Organismos internacionales que analizan tendencias educativas han documentado que las trayectorias profesionales actuales rara vez son lineales. Muchas personas cambian de área de estudio, combinan formaciones distintas o descubren, años después de graduarse, un interés que no habían considerado a los diecisiete años. Esta información contrasta con la manera en que muchas familias e instituciones presentan la elección de carrera, como si fuera una decisión irreversible.
+
+Existen alternativas que reducen esa presión. Algunas instituciones ofrecen programas técnicos más cortos antes de una carrera universitaria completa, lo que permite adquirir experiencia laboral temprana mientras se sigue explorando. Otras facilitan becas específicas para quienes desean cambiar de área después de haber empezado otra formación. Conocer estas opciones no elimina la dificultad de decidir, pero sí amplía las posibilidades reales disponibles.
+
+Por supuesto, esto no significa que la elección inicial no importe. Requiere informarse sobre requisitos, duración, costos y salidas laborales antes de matricularse. Sin embargo, tratar cada decisión como si fuera definitiva genera una ansiedad innecesaria en estudiantes que todavía están descubriendo sus propios intereses.
+
+Esta editorial propone un cambio de enfoque: en lugar de preguntar "¿qué vas a ser el resto de tu vida?", sería más honesto preguntar "¿qué formación te interesa explorar en los próximos años?". Esa diferencia, aparentemente pequeña, podría aliviar la presión de una generación que, según las mismas tendencias educativas, probablemente cambiará de dirección profesional más de una vez a lo largo de su vida.`,
+    referenceKeys: ['educationTrends'],
+    exercises: [
+      q('¿Qué presión menciona el texto sobre elegir carrera?', ['Que parece una decisión irreversible y definitiva', 'Que nadie la considera importante', 'Que solo importa el dinero', 'Que se decide en la infancia'], 0, 'El texto cuestiona esa presión de decisión definitiva.'),
+      q('¿Qué documentan las tendencias educativas internacionales?', ['Que las trayectorias son siempre lineales', 'Que muchas personas cambian de área con el tiempo', 'Que nadie cambia de carrera', 'Que solo hay una carrera correcta'], 1, 'Muestran trayectorias flexibles y no lineales.'),
+      q('¿Qué alternativas menciona el texto para reducir la presión?', ['Programas técnicos cortos y becas para cambiar de área', 'Eliminar toda formación universitaria', 'Prohibir cambiar de carrera', 'No informarse antes de decidir'], 0, 'Menciona programas cortos y becas de reconversión.'),
+      q('¿Qué propone la editorial como cambio de pregunta?', ['Preguntar qué formación interesa explorar en los próximos años', 'Dejar de estudiar', 'Preguntar solo por el salario', 'No informarse sobre requisitos'], 0, 'Propone una pregunta menos definitiva y más exploratoria.'),
+      q('¿Qué tiempos verbales predominan al hablar de posibilidades futuras y condiciones?', ['Futuro y condicional', 'Solo pretérito', 'Solo imperativo', 'Solo gerundio'], 0, 'El editorial usa futuro y condicional para plantear posibilidades.')
+    ]
+  },
+  'medioambiente-local': {
+    genre: 'reportaje comunitario',
+    title: 'El patio escolar que dejó de ser una isla de calor',
+    angle: 'Estudiantes miden sombra, temperatura y uso del espacio antes de proponer árboles y zonas de descanso.',
+    text: `A mediodía, el patio de un liceo público alcanzaba temperaturas tan altas que muchos estudiantes preferían quedarse dentro del aula durante el recreo. Un grupo de ciencias decidió investigar por qué ocurría esto y qué se podía hacer al respecto, en lugar de aceptarlo como algo normal.
+
+Durante dos semanas, midieron la temperatura del patio en distintos puntos y a distintas horas, usando termómetros sencillos y una aplicación de su teléfono. Descubrieron que las zonas cubiertas de cemento sin ningún árbol alcanzaban hasta ocho grados más que las zonas con sombra natural. Este fenómeno, conocido como isla de calor urbana, ocurre cuando superficies como el cemento y el asfalto absorben y retienen calor durante el día.
+
+Con estos datos, los estudiantes prepararon una propuesta para la dirección del liceo: sembrar árboles nativos de crecimiento rápido en tres zonas del patio, instalar un bebedero de agua accesible y crear un área de descanso con bancas bajo la sombra futura. Calcularon un presupuesto aproximado y buscaron información sobre especies de árboles adecuadas para el clima local, que no requirieran mucho mantenimiento.
+
+La propuesta no se aprobó de inmediato. La dirección pidió que los estudiantes presentaran también un plan de riego durante los primeros meses, ya que los árboles jóvenes necesitan cuidado constante. El grupo organizó turnos de riego entre distintos cursos y consiguió el apoyo de un vecino con experiencia en jardinería, quien donó parte de las plantas.
+
+Un año después, aunque los árboles todavía son pequeños, la temperatura en la zona sembrada ya bajó de forma medible. Más importante aún, el proyecto demostró que un problema aparentemente permanente —el calor del patio— podía convertirse en una oportunidad de aprendizaje, organización comunitaria y mejora concreta del espacio compartido.`,
+    referenceKeys: ['undpClimateDominicanRepublic'],
+    exercises: [
+      q('¿Qué investigó el grupo de ciencias?', ['Por qué el patio alcanzaba temperaturas altas', 'El horario de clases', 'El precio de los uniformes', 'La cantidad de estudiantes del liceo'], 0, 'Investigaron las causas del calor excesivo del patio.'),
+      q('¿Qué diferencia de temperatura encontraron entre zonas con y sin sombra?', ['Ninguna diferencia', 'Hasta ocho grados más en zonas sin sombra', 'Un grado menos en zonas sin sombra', 'No pudieron medirlo'], 1, 'Las zonas de cemento sin árboles eran hasta ocho grados más calientes.'),
+      q('¿Qué pidió la dirección antes de aprobar la propuesta?', ['Un plan de riego para los primeros meses', 'Cancelar el proyecto', 'Cambiar de liceo', 'Eliminar el recreo'], 0, 'Pidió garantizar el cuidado de los árboles jóvenes.'),
+      q('¿Quién ayudó con las plantas?', ['Un vecino con experiencia en jardinería', 'Un ministerio', 'Una empresa extranjera', 'Nadie ayudó'], 0, 'Un vecino donó parte de las plantas y aportó experiencia.'),
+      q('¿Qué conectores predominan al explicar causas y consecuencias del calor?', ['Conectores causales y condicional real', 'Solo interjecciones', 'Solo imperativo', 'Solo presente habitual'], 0, 'El texto explica causas, consecuencias y condiciones con esos recursos.')
+    ]
+  },
+  'salud-y-habitos': {
+    genre: 'artículo divulgativo',
+    title: 'Dormir no es perder el tiempo',
+    angle: 'La presión académica, las notificaciones y los horarios irregulares se examinan como problema colectivo.',
+    text: `"Ya dormiré cuando termine los exámenes." Esta frase, repetida por muchos estudiantes, refleja una idea extendida: que el sueño es un lujo que se puede posponer sin consecuencias. Sin embargo, la evidencia disponible sugiere algo distinto, y este artículo busca explicar por qué.
+
+Organismos internacionales de salud han señalado que dormir poco de manera constante afecta la concentración, el estado de ánimo y la capacidad de tomar decisiones, especialmente durante la adolescencia, cuando el cuerpo todavía necesita horas de sueño suficientes para su desarrollo. No se trata de una recomendación aislada, sino de un patrón observado en distintos países y contextos educativos.
+
+Varios factores dificultan dormir bien durante esta etapa. La carga de tareas y exámenes suele concentrarse en las últimas semanas del período académico, lo que empuja a muchos estudiantes a quedarse despiertos hasta tarde. Al mismo tiempo, el uso prolongado de pantallas antes de dormir puede retrasar la sensación de sueño, incluso cuando la persona ya se siente cansada. A esto se suma la presión social de estar disponible en redes o grupos de chat a cualquier hora.
+
+Es importante aclarar que este no es solo un problema de fuerza de voluntad individual. Los horarios escolares muy tempranos, combinados con actividades extracurriculares y responsabilidades familiares, generan un conflicto real de tiempo que una sola persona no puede resolver sola. Por eso, algunos especialistas recomiendan que las familias y las escuelas trabajen juntas: revisar cargas de tareas, fomentar rutinas nocturnas más consistentes y evitar programar exámenes importantes muy temprano en la mañana.
+
+Dormir bien no debería tratarse como un premio que se gana después de cumplir con todo lo demás. Es, más bien, una condición necesaria para poder cumplir con lo demás de manera sostenible, sin llegar agotado a cada nueva semana.`,
+    referenceKeys: ['teensScreens', 'adolescentMentalHealth'],
+    exercises: [
+      q('¿Qué idea extendida cuestiona el artículo?', ['Que el sueño es un lujo que se puede posponer', 'Que dormir es obligatorio', 'Que el sueño no afecta la salud', 'Que solo los adultos necesitan dormir'], 0, 'El artículo cuestiona esa creencia extendida.'),
+      q('¿Qué efectos señalan los organismos de salud sobre dormir poco?', ['Mejora la concentración', 'Afecta la concentración, el ánimo y las decisiones', 'No tiene ningún efecto', 'Solo afecta a los adultos'], 1, 'Señalan efectos negativos en concentración, ánimo y decisiones.'),
+      q('¿Qué factor menciona el texto sobre las pantallas antes de dormir?', ['Ayudan a dormir mejor', 'Pueden retrasar la sensación de sueño', 'No tienen ningún efecto', 'Solo afectan a los niños pequeños'], 1, 'El uso prolongado de pantallas puede retrasar el sueño.'),
+      q('¿Por qué el texto dice que no es solo un problema individual?', ['Porque horarios y responsabilidades generan un conflicto real de tiempo', 'Porque nadie duerme mal', 'Porque el sueño no importa', 'Porque solo depende de la voluntad'], 0, 'Señala factores estructurales, no solo individuales.'),
+      q('¿Qué recurso gramatical se usa para dar consejos razonados en el texto?', ['Subjuntivo con recomendación', 'Solo indicativo', 'Solo pretérito', 'Imperativo negativo exclusivamente'], 0, 'El artículo recomienda acciones usando estructuras de recomendación.')
+    ]
+  },
+  'servicios-y-reclamaciones': {
+    genre: 'crónica de consumo',
+    title: 'La suscripción que era fácil activar y difícil cancelar',
+    angle: 'Una joven documenta cargos, capturas y respuestas automáticas para convertir su frustración en una reclamación verificable.',
+    text: `Activar la suscripción tomó menos de dos minutos: un formulario, una tarjeta y un botón grande que decía "empezar prueba gratuita". Cancelarla, en cambio, le tomó a la usuaria de este relato casi tres semanas, varios correos y una llamada de cuarenta minutos.
+
+Todo comenzó cuando decidió probar un servicio de streaming durante el mes gratuito ofrecido. Marcó en su calendario la fecha límite para cancelar, pero cuando entró a la aplicación ese día, no encontró ningún botón de cancelación visible. Después de buscar en varios menús, encontró un enlace pequeño que la llevaba a una página que solo funcionaba desde una computadora, no desde el teléfono.
+
+Al día siguiente, ya desde una computadora, completó el proceso de cancelación y guardó una captura de pantalla como comprobante, un hábito que había aprendido después de una experiencia similar anterior. Sin embargo, el mes siguiente igual apareció un cargo en su tarjeta. Escribió al servicio de atención al cliente adjuntando la captura; recibió, primero, una respuesta automática que no mencionaba su reclamo específico.
+
+Insistió con un segundo correo, esta vez citando la fecha exacta de la cancelación y solicitando explícitamente un reembolso. Finalmente, un representante humano revisó el caso y confirmó que hubo un error del sistema; le devolvieron el dinero una semana después.
+
+Instituciones dedicadas a la defensa del consumidor recomiendan, precisamente, este tipo de documentación: guardar capturas, anotar fechas y conservar la comunicación escrita antes de aceptar un cargo injustificado. La joven decidió compartir su experiencia porque, según explicó, muchas personas simplemente pagan el cargo sin reclamar porque el proceso les parece demasiado complicado. Su caso demuestra que, con paciencia y evidencia ordenada, una reclamación bien presentada puede tener resultado.`,
+    referenceKeys: [],
+    exercises: [
+      q('¿Cuánto tiempo tomó activar la suscripción?', ['Menos de dos minutos', 'Tres semanas', 'Un mes completo', 'Cuarenta minutos'], 0, 'Activar la suscripción fue rápido, según el texto.'),
+      q('¿Qué problema encontró al intentar cancelar?', ['No había ningún servicio de streaming', 'No encontró un botón de cancelación visible', 'Perdió su contraseña', 'La aplicación no existía'], 1, 'Tuvo dificultad para encontrar la opción de cancelación.'),
+      q('¿Qué hábito la ayudó a reclamar con éxito?', ['Guardar una captura de pantalla como comprobante', 'Llamar todos los días', 'Cambiar de banco', 'Borrar la aplicación'], 0, 'Guardar el comprobante fue clave para su reclamo.'),
+      q('¿Qué recomiendan las instituciones de defensa del consumidor?', ['No reclamar nunca', 'Guardar capturas, fechas y comunicación escrita', 'Pagar sin cuestionar', 'Cancelar la tarjeta de inmediato'], 1, 'Recomiendan documentar todo antes de reclamar.'),
+      q('¿Qué recurso lingüístico predomina al narrar el proceso de reclamación con cortesía?', ['Pronombres y fórmulas de cortesía', 'Solo imperativo', 'Solo futuro', 'Solo gerundio'], 0, 'La crónica usa cortesía y pronombres para narrar el reclamo.')
+    ]
+  },
+  'proyecto-comunitario': {
+    genre: 'reportaje',
+    title: 'Una biblioteca vacía vuelve a tener voz',
+    angle: 'Un grupo juvenil transforma un espacio infrautilizado en lugar de estudio, creación y encuentro mediante una propuesta con presupuesto.',
+    text: `La biblioteca comunitaria del barrio llevaba más de un año prácticamente cerrada. Faltaba personal, los libros estaban desordenados y muchos vecinos ni siquiera sabían que el espacio seguía existiendo. Un grupo de jóvenes, reunidos originalmente para un proyecto escolar, decidió que valía la pena intentar reabrirla con la colaboración de la comunidad.
+
+El primer paso fue diagnosticar la situación real: contaron los libros disponibles, revisaron el estado del techo y las instalaciones eléctricas, y encuestaron a vecinos sobre qué actividades les gustaría encontrar allí. Descubrieron que muchos padres buscaban un lugar seguro donde sus hijos pudieran hacer tareas después de la escuela, y que varios adultos mayores extrañaban los clubes de lectura que antes se organizaban en ese mismo espacio.
+
+Con esa información, el grupo preparó una propuesta formal dirigida a la junta vecinal y al ayuntamiento local. Incluyeron un presupuesto detallado para reparaciones básicas, un cronograma de voluntariado para organizar los libros y una lista de posibles actividades: apoyo escolar dos tardes por semana, un club de lectura mensual y un taller de manualidades para adultos mayores.
+
+La respuesta inicial no fue completamente favorable. El ayuntamiento aprobó financiar las reparaciones eléctricas, pero no el resto del presupuesto solicitado. Ante esa limitación, los jóvenes organizaron una jornada de recolección de libros usados y consiguieron que una ferretería local donara pintura para renovar las paredes.
+
+Tres meses después, la biblioteca reabrió con un horario reducido pero constante. El grupo de jóvenes continúa coordinando los turnos de voluntariado, y la iniciativa ha inspirado a otro barrio cercano a intentar un proyecto similar. Más allá de los libros recuperados, el reportaje destaca algo igual de importante: la capacidad de un grupo pequeño para convertir una propuesta ordenada en un beneficio verificable para toda la comunidad.`,
+    referenceKeys: [],
+    exercises: [
+      q('¿En qué estado estaba la biblioteca al inicio?', ['Completamente nueva', 'Prácticamente cerrada, sin personal ni orden', 'Llena de visitantes', 'Recién construida'], 1, 'Estaba casi cerrada y desorganizada.'),
+      q('¿Qué hicieron los jóvenes como primer paso?', ['Pedir dinero sin ningún plan', 'Diagnosticar la situación real', 'Cerrar el espacio definitivamente', 'Ignorar a los vecinos'], 1, 'Diagnosticaron la situación antes de proponer soluciones.'),
+      q('¿Qué aprobó el ayuntamiento?', ['Todo el presupuesto solicitado', 'Solo las reparaciones eléctricas', 'Nada', 'Solo los libros'], 1, 'Aprobó financiar únicamente las reparaciones eléctricas.'),
+      q('¿Cómo resolvieron la falta de presupuesto completo?', ['Cancelaron el proyecto', 'Organizaron una jornada de recolección y consiguieron donaciones', 'Pidieron un préstamo bancario', 'Cerraron la biblioteca otra vez'], 1, 'Consiguieron libros donados y pintura donada.'),
+      q('¿Qué conectores predominan al integrar información y persuadir en la propuesta?', ['Conectores de finalidad y contraste', 'Solo interjecciones', 'Solo presente habitual', 'Solo imperativo'], 0, 'El reportaje muestra una propuesta con conectores de finalidad y contraste.')
+    ]
+  }
+};
+
+// B2 readings apply the same real-content principle with denser argumentation
+// and explicit contrast/concession structures appropriate to upper-intermediate
+// Spanish, matching each unit's editorial angle defined in READING_PROFILES.B2.
+const AUTHORED_B2_READINGS = {
+  'identidad-digital': {
+    genre: 'ensayo argumentativo',
+    title: '¿Somos nuestro perfil?',
+    angle: 'La identidad digital amplía la expresión personal, pero convierte gustos, errores y relaciones en datos persistentes.',
+    text: `Cada publicación, cada "me gusta" y cada comentario contribuye a construir una versión de nosotros mismos que existe fuera de nuestro control directo. Aunque esta versión digital se basa en decisiones propias, con el tiempo adquiere una vida independiente: otras personas la interpretan, la archivan y, en ocasiones, la usan para formarse una opinión que puede no coincidir con quienes realmente somos.
+
+Esta dinámica no es completamente negativa. Para muchos jóvenes, las redes sociales han funcionado como un espacio donde explorar intereses, encontrar comunidades afines y expresar aspectos de su identidad que no siempre encuentran lugar en su entorno inmediato. Alguien interesado en un tema poco común en su ciudad puede, gracias a internet, conectar con personas de todo el mundo que comparten esa misma pasión. Pese a que estas conexiones ocurren a través de una pantalla, su valor emocional puede ser tan real como cualquier vínculo presencial.
+
+Sin embargo, existe una tensión importante entre esta libertad expresiva y la persistencia de la información. Una publicación escrita a los quince años, pensada como una broma entre amigos, puede reaparecer años después en un proceso de selección laboral, sin el contexto original que le daba sentido. A pesar de que las plataformas ofrecen opciones de privacidad, pocas personas revisan con regularidad quién puede ver su información ni comprenden completamente cómo se utilizan sus datos.
+
+A pesar de esta persistencia, tampoco resulta razonable exigir una identidad digital perfecta desde la adolescencia. Cometer errores, cambiar de opinión y experimentar públicamente forman parte del desarrollo de cualquier persona joven; el problema surge cuando la tecnología elimina la posibilidad de ese margen de error al conservarlo todo indefinidamente.
+
+Construir una identidad digital saludable no significa dejar de participar en internet ni proyectar una imagen artificialmente perfecta. Implica, más bien, entender que cada publicación puede tener una vida más larga de lo esperado y decidir, con esa información, qué se comparte, con quién y bajo qué condiciones. La responsabilidad no recae solo en el usuario individual: las plataformas también deberían facilitar controles de privacidad claros y opciones reales de eliminar contenido pasado.`,
+    referenceKeys: [],
+    exercises: [
+      q('¿Qué aspecto positivo reconoce el ensayo sobre la identidad digital?', ['Permite explorar intereses y encontrar comunidades afines', 'Elimina toda posibilidad de error', 'Garantiza privacidad total', 'Sustituye completamente las relaciones presenciales'], 0, 'El texto reconoce el valor de las conexiones basadas en intereses compartidos.'),
+      q('¿Qué tensión central plantea el ensayo?', ['Entre libertad expresiva y persistencia de la información', 'Entre estudiar y trabajar', 'Entre dos plataformas distintas', 'Entre el pasado y el presente sin relación alguna'], 0, 'La tensión central es la persistencia de datos frente a la libertad de expresarse.'),
+      q('¿Qué ejemplo usa el texto sobre publicaciones antiguas?', ['Una foto familiar', 'Una broma adolescente que reaparece en un proceso laboral', 'Un video viral positivo', 'Una publicación borrada sin consecuencias'], 1, 'El ejemplo muestra cómo el contexto original se pierde con el tiempo.'),
+      q('¿Qué responsabilidad menciona el texto además de la del usuario?', ['Ninguna otra responsabilidad', 'La de las plataformas, que deberían ofrecer controles claros', 'La de los padres exclusivamente', 'La del gobierno exclusivamente'], 1, 'El texto reparte la responsabilidad entre usuarios y plataformas.'),
+      q('¿Qué estructuras concesivas aparecen para matizar los argumentos?', ['Aunque, pese a y a pesar de', 'Solo conectores causales', 'Solo el futuro simple', 'Solo el imperativo'], 0, 'El ensayo usa concesivas para equilibrar beneficios y riesgos.')
+    ]
+  },
+  'ciudades-sostenibles': {
+    genre: 'editorial urbano',
+    title: 'Moverse por la ciudad sin quedar fuera',
+    angle: 'Una propuesta de movilidad juvenil confronta emisiones, seguridad, accesibilidad y desigualdad entre barrios.',
+    text: `Si una ciudad ampliara sus aceras, reduciría el espacio destinado a los vehículos privados. Si redujera ese espacio, probablemente generaría protestas de comerciantes y automovilistas antes de que los beneficios se hicieran visibles. Este tipo de razonamiento condicional atraviesa buena parte de los debates actuales sobre movilidad urbana, y explica por qué tantos planes bien intencionados avanzan con lentitud.
+
+Un plan reciente propuesto por autoridades municipales busca ampliar las ciclovías, mejorar la iluminación de las paradas de transporte público y crear corredores peatonales en zonas escolares. Sus defensores argumentan que estas medidas reducirían las emisiones asociadas al transporte, mejorarían la seguridad de estudiantes que caminan diariamente y facilitarían el acceso de personas con movilidad reducida, un grupo frecuentemente olvidado en el diseño urbano tradicional.
+
+Los críticos, sin embargo, señalan que estas mejoras suelen concentrarse en barrios centrales, mientras las zonas periféricas —donde vive buena parte de la población trabajadora— continúan dependiendo de un transporte público insuficiente y de calles sin aceras adecuadas. Si la sostenibilidad urbana se limita a embellecer el centro de la ciudad, advierten, el plan repetiría un patrón conocido de desigualdad territorial en lugar de corregirlo.
+
+Esta objeción resulta difícil de rebatir con datos disponibles. Un estudio del propio ayuntamiento reconoce que los barrios periféricos concentran menos infraestructura peatonal y ciclista por habitante que las zonas centrales, aunque el documento no explica con precisión cómo se distribuirá la inversión futura entre unas y otras.
+
+La discusión, entonces, no debería limitarse a estar a favor o en contra de la movilidad sostenible en abstracto. La pregunta relevante es más específica: si los recursos son limitados, ¿qué zonas deberían recibir prioridad primero, y con qué criterios se tomará esa decisión? Sin una respuesta transparente a esa pregunta, cualquier plan de movilidad corre el riesgo de mejorar la ciudad para quienes ya tenían más opciones, dejando fuera precisamente a quienes más necesitan alternativas seguras y accesibles.`,
+    referenceKeys: ['undpClimateDominicanRepublic'],
+    exercises: [
+      q('¿Qué medidas incluye el plan de movilidad descrito?', ['Ampliar ciclovías, mejorar iluminación y crear corredores peatonales', 'Eliminar todo el transporte público', 'Prohibir caminar en la ciudad', 'Construir solo autopistas'], 0, 'El plan combina infraestructura ciclista, peatonal y de transporte.'),
+      q('¿Qué crítica principal señalan los opositores?', ['Que las mejoras se concentran en barrios centrales', 'Que el plan es demasiado barato', 'Que no existe ningún plan', 'Que solo afecta a turistas'], 0, 'Advierten sobre una desigualdad territorial en la distribución de mejoras.'),
+      q('¿Qué reconoce el estudio del propio ayuntamiento?', ['Que todos los barrios tienen la misma infraestructura', 'Que los barrios periféricos tienen menos infraestructura por habitante', 'Que no existen barrios periféricos', 'Que el plan ya se completó'], 1, 'El estudio admite una brecha de infraestructura entre zonas.'),
+      q('¿Cuál es la pregunta que propone el editorial como más relevante?', ['Si se debe estar a favor o en contra en abstracto', 'Qué zonas deberían recibir prioridad y con qué criterios', 'Cuántos autos existen en la ciudad', 'Qué colores usar en las ciclovías'], 1, 'Propone una pregunta concreta sobre prioridad y criterios de inversión.'),
+      q('¿Qué tipo de condicionales estructuran el argumento inicial del texto?', ['Condicionales reales e hipotéticas', 'Solo el presente simple', 'Solo el pretérito', 'Solo el imperativo'], 0, 'El editorial usa condicionales para razonar sobre consecuencias de decisiones.')
+    ]
+  },
+  'trabajo-del-futuro': {
+    genre: 'artículo de análisis',
+    title: 'Prepararse para empleos que todavía están cambiando',
+    angle: 'La automatización no sustituye todas las tareas de la misma manera; evaluar herramientas importa tanto como utilizarlas.',
+    text: `Para cuando esta generación de estudiantes termine su formación, es probable que varias de las herramientas digitales que hoy consideran novedosas ya hayan sido reemplazadas por otras más avanzadas. Esta velocidad de cambio genera una pregunta legítima: ¿tiene sentido especializarse en una habilidad técnica concreta si es posible que quede obsoleta en pocos años?
+
+Análisis internacionales sobre tendencias educativas y laborales sugieren una respuesta matizada. La automatización probablemente habrá sustituido, para la próxima década, tareas repetitivas y predecibles en sectores como la administración, el transporte y parte de la manufactura. Sin embargo, esas mismas fuentes señalan que las tareas que requieren juicio contextual, creatividad aplicada, comunicación compleja y coordinación entre personas resultan mucho más difíciles de automatizar por completo.
+
+Esto no significa que estas profesiones permanecerán exactamente iguales. Es más probable que la automatización transforme el contenido de muchos empleos en lugar de eliminarlos por completo: un contador seguirá siendo necesario, pero probablemente dedicará menos tiempo a cálculos repetitivos y más a interpretar resultados y asesorar decisiones. Para cuando esa transformación se complete en la mayoría de los sectores, quienes hayan desarrollado capacidad de aprender herramientas nuevas con rapidez tendrán una ventaja considerable sobre quienes dominan solo un conjunto fijo de procedimientos.
+
+Aquí surge un matiz importante: aprender a usar una herramienta específica es útil, pero aprender a evaluar críticamente sus resultados es todavía más valioso. Una persona que sabe usar un programa de análisis de datos, pero no sabe cuestionar si esos datos son representativos o si el resultado tiene sentido, corre el riesgo de repetir errores automatizados a mayor escala.
+
+Prepararse para el trabajo del futuro no exige adivinar exactamente qué profesiones sobrevivirán. Exige, más bien, desarrollar una combinación de competencias técnicas actualizables y capacidades difíciles de automatizar: pensamiento crítico, comunicación clara y disposición constante a seguir aprendiendo, incluso después de terminar la etapa formal de estudios.`,
+    referenceKeys: ['educationTrends'],
+    exercises: [
+      q('¿Qué pregunta plantea el artículo al inicio?', ['Si vale la pena especializarse en algo que podría quedar obsoleto', 'Si conviene dejar de estudiar', 'Si la tecnología siempre mejora la vida', 'Si el trabajo desaparecerá por completo'], 0, 'Esa es la pregunta que organiza el análisis.'),
+      q('¿Qué tareas señalan las fuentes como más difíciles de automatizar?', ['Las repetitivas y predecibles', 'Las que requieren juicio contextual y creatividad', 'Ninguna tarea es difícil de automatizar', 'Solo las tareas manuales'], 1, 'El juicio contextual y la creatividad resultan más difíciles de sustituir.'),
+      q('¿Qué ejemplo usa el texto sobre la contabilidad?', ['Que el trabajo contable desaparecerá por completo', 'Que dedicará menos tiempo a cálculos y más a interpretar resultados', 'Que ya no existirán contadores', 'Que la automatización no afecta esa profesión'], 1, 'El ejemplo muestra transformación de tareas, no eliminación total.'),
+      q('¿Qué matiz destaca el artículo sobre usar herramientas?', ['Basta con saber usarlas técnicamente', 'Es más valioso saber evaluar críticamente sus resultados', 'No es necesario aprender ninguna herramienta', 'Solo importa la velocidad de uso'], 1, 'Evaluar críticamente los resultados es la habilidad más valorada.'),
+      q('¿Qué construcción verbal predomina al hablar de procesos que se completarán en el futuro?', ['Futuro compuesto y expresiones de probabilidad', 'Solo pretérito', 'Solo presente habitual', 'Solo imperativo'], 0, 'El texto proyecta procesos futuros con matices de probabilidad.')
+    ]
+  },
+  desinformacion: {
+    genre: 'investigación breve',
+    title: 'La anatomía de un video viral',
+    angle: 'Un video recortado parece demostrar una acusación hasta que se comparan la grabación completa, la fuente y los incentivos de difusión.',
+    text: `El video duraba apenas quince segundos: una persona pronunciaba una frase que, sacada de contexto, parecía confirmar una acusación grave contra una institución educativa. En pocas horas, el clip acumuló cientos de miles de reproducciones y miles de comentarios indignados. Solo un pequeño porcentaje de quienes lo compartieron se detuvo a preguntar de dónde procedía originalmente.
+
+Un grupo de estudiantes de periodismo decidió investigar el origen del video como ejercicio de clase. Localizaron la grabación completa, de casi diez minutos, publicada meses antes en un canal institucional oficial. En el contexto completo, la frase citada respondía a una pregunta hipotética planteada por un periodista, y la persona explicaba, inmediatamente después, por qué esa situación no ocurría en la práctica. El recorte de quince segundos había eliminado precisamente esa aclaración.
+
+Este caso ilustra un patrón que investigadores de comunicación han descrito repetidamente: el contenido descontextualizado se difunde con más rapidez que las correcciones posteriores. Cuando finalmente se publicó una aclaración con la grabación completa, ya había alcanzado una fracción mínima del alcance que tuvo el video original recortado. Para entonces, muchas personas ya habían formado una opinión basada en la versión incompleta.
+
+También resultó revelador identificar quién compartió el video inicialmente. No se trataba de una cuenta anónima cualquiera, sino de una cuenta con miles de seguidores dedicada a generar controversia mediante titulares alarmantes, un modelo que genera ingresos publicitarios proporcionales a la cantidad de interacciones que consigue, independientemente de la exactitud del contenido.
+
+Los estudiantes concluyeron su investigación con una recomendación práctica: antes de indignarse con un video breve, conviene buscar la fuente original, verificar la duración completa y preguntarse quién se beneficia de que ese contenido específico se difunda ampliamente. La indignación instantánea, explicaron, rara vez deja tiempo para hacer esas preguntas.`,
+    referenceKeys: ['mediaLiteracy'],
+    exercises: [
+      q('¿Qué descubrieron los estudiantes al buscar la grabación completa?', ['Que el video recortado eliminó una aclaración importante', 'Que el video era completamente falso', 'Que no existía ninguna grabación original', 'Que la acusación era cierta en todo sentido'], 0, 'El recorte omitió la explicación posterior de la persona.'),
+      q('¿Qué patrón describen los investigadores de comunicación?', ['Las correcciones se difunden más rápido que el contenido original', 'El contenido descontextualizado se difunde más rápido que las correcciones', 'Nadie comparte contenido sin verificar', 'Las aclaraciones siempre llegan a tiempo'], 1, 'Las correcciones llegan tarde y alcanzan menos personas.'),
+      q('¿Qué tipo de cuenta compartió inicialmente el video?', ['Una cuenta anónima sin seguidores', 'Una cuenta con miles de seguidores dedicada a generar controversia', 'Una cuenta institucional oficial', 'Ninguna cuenta, se compartió por correo'], 1, 'Se trataba de una cuenta orientada a maximizar interacciones.'),
+      q('¿Qué recomendación práctica concluye la investigación?', ['Compartir de inmediato cualquier video indignante', 'Buscar la fuente, verificar la duración y preguntar quién se beneficia', 'Ignorar toda noticia sobre instituciones', 'Confiar siempre en el primer video visto'], 1, 'Recomiendan verificar antes de reaccionar o compartir.'),
+      q('¿Qué recurso se usa para reportar lo dicho por la persona en el video?', ['Estilo indirecto y verbos de transmisión', 'Solo diálogo directo entre comillas', 'Solo el imperativo', 'Solo adjetivos calificativos'], 0, 'El texto reformula lo dicho mediante estilo indirecto.')
+    ]
+  },
+  'turismo-y-comunidad': {
+    genre: 'editorial',
+    title: 'La ciudad que todos visitan y pocos pueden habitar',
+    angle: 'El éxito turístico aumenta ingresos y empleo, pero también presiona alquileres, servicios y espacios cotidianos de la población residente.',
+    text: `Cada temporada alta, la zona colonial recibe miles de visitantes que llenan restaurantes, generan empleo temporal y dejan ingresos considerables para comercios locales. Sin embargo, para los residentes de siempre, esa misma temporada trae también un aumento notable en el costo del alquiler, largas filas en servicios básicos y calles tan congestionadas que resulta difícil llegar a tiempo al trabajo.
+
+Este contraste no es exclusivo de esta ciudad. Aunque el turismo aporta beneficios económicos innegables, numerosas ciudades con alta afluencia turística enfrentan tensiones similares entre el bienestar de sus visitantes y la calidad de vida de quienes habitan allí todo el año. El problema surge cuando las decisiones de planificación priorizan casi exclusivamente la experiencia turística, sin evaluar con la misma atención el impacto sobre la población residente.
+
+Un caso concreto ilustra esta tensión. En los últimos años, varios edificios del centro histórico se transformaron en alojamientos de corta estancia para visitantes, lo que redujo significativamente la oferta de vivienda disponible para alquiler tradicional. Como consecuencia, familias que habían vivido en esa zona durante generaciones se vieron obligadas a mudarse a barrios periféricos, mientras que los espacios que antes ocupaban ahora reciben turistas que permanecen apenas unos días.
+
+Quienes defienden el modelo turístico actual argumentan que sin esa actividad económica, muchos comercios y empleos simplemente no existirían, y que restringir el alquiler turístico afectaría directamente a familias que dependen de esos ingresos. Esta objeción tiene fundamento y no debería descartarse sin más. El desafío, entonces, no consiste en elegir entre turismo y comunidad, como si fueran opciones excluyentes, sino en diseñar regulaciones que distribuyan mejor los beneficios y limiten los efectos más perjudiciales sobre la vivienda y los servicios locales.
+
+Algunas ciudades han empezado a experimentar con límites al número de alojamientos turísticos por zona y con impuestos específicos destinados a mejorar infraestructura para residentes. Estas medidas no resuelven la tensión por completo, pero reconocen algo esencial: una ciudad que solo funciona para quienes la visitan, y cada vez menos para quienes la habitan, termina perdiendo precisamente lo que la hacía atractiva en primer lugar.`,
+    referenceKeys: [],
+    exercises: [
+      q('¿Qué contraste describe el editorial en la temporada alta?', ['Beneficios económicos junto a presión sobre alquileres y servicios', 'Solo beneficios sin ningún costo', 'Solo problemas sin ningún beneficio', 'Ausencia total de turistas'], 0, 'El texto describe beneficios y costos simultáneos.'),
+      q('¿Qué ocurrió con varios edificios del centro histórico?', ['Se convirtieron en alojamientos de corta estancia', 'Se demolieron por completo', 'Permanecieron vacíos', 'Se convirtieron en oficinas gubernamentales'], 0, 'Se transformaron en alojamientos turísticos, reduciendo vivienda residencial.'),
+      q('¿Qué argumento presentan los defensores del modelo actual?', ['Que el turismo no genera ningún empleo', 'Que restringir el alquiler turístico afectaría a familias que dependen de esos ingresos', 'Que el turismo debe prohibirse', 'Que no existe ninguna tensión'], 1, 'Reconocen que muchas familias dependen económicamente de esa actividad.'),
+      q('¿Qué propone el editorial como solución, en lugar de elegir entre opciones excluyentes?', ['Diseñar regulaciones que distribuyan mejor los beneficios', 'Eliminar por completo el turismo', 'Ignorar el problema', 'Aumentar sin límite los alojamientos turísticos'], 0, 'Propone regular en lugar de optar por un extremo u otro.'),
+      q('¿Qué estructuras de contraste y concesión predominan en el editorial?', ['Aunque, sin embargo y mientras que', 'Solo conectores de tiempo', 'Solo el imperativo', 'Solo el futuro simple'], 0, 'El texto equilibra posiciones con conectores de contraste y concesión.')
+    ]
+  },
+  'educacion-digital': {
+    genre: 'debate educativo',
+    title: 'Aprender con IA sin entregar el pensamiento',
+    angle: 'La inteligencia artificial ofrece apoyo personalizado junto a riesgos de dependencia, privacidad, sesgo y desigualdad de acceso.',
+    text: `Una escuela secundaria introdujo, como programa piloto, una herramienta de inteligencia artificial que adapta ejercicios de matemáticas según el nivel de cada estudiante. Los resultados iniciales fueron alentadores: quienes tenían más dificultades avanzaban a su propio ritmo, sin la presión de compararse constantemente con compañeros más rápidos. Sin embargo, tras un semestre, algunos profesores notaron un efecto secundario preocupante.
+
+Varios estudiantes que antes participaban activamente en clase, formulando preguntas y explicando su razonamiento en voz alta, empezaron a depender casi exclusivamente de las sugerencias automáticas de la herramienta antes de intentar resolver un problema por sí mismos. La plataforma, diseñada para personalizar el aprendizaje, terminó reduciendo, en algunos casos, la disposición a tolerar la frustración inicial que forma parte natural de aprender algo nuevo.
+
+Este dilema refleja un debate más amplio sobre educación e inteligencia artificial. Por un lado, estas herramientas pueden identificar patrones de error específicos que un profesor con treinta estudiantes difícilmente detectaría de manera individual, lo cual representa un beneficio real, especialmente en aulas con recursos limitados. Por otro lado, existe el riesgo de que la personalización automática sustituya procesos cognitivos importantes, como el ensayo, el error y la explicación propia, que son precisamente los que consolidan el aprendizaje a largo plazo.
+
+Además, no todas las escuelas tienen el mismo acceso a estas tecnologías. Instituciones con más recursos pueden implementar herramientas sofisticadas junto con formación docente adecuada, mientras que escuelas con menos presupuesto quedan, en el mejor de los casos, con versiones básicas y sin el acompañamiento necesario para usarlas críticamente. Esta brecha podría, paradójicamente, ampliar las desigualdades educativas que la tecnología promete reducir.
+
+La escuela del caso descrito decidió mantener el programa, pero con una condición: los estudiantes deben intentar resolver cada ejercicio por sí mismos antes de acceder a cualquier sugerencia automática, y los profesores revisan periódicamente el razonamiento escrito, no solo la respuesta final. Esta adaptación no resuelve todas las tensiones del debate, pero reconoce que la tecnología educativa exige criterios explícitos, no solo entusiasmo inicial.`,
+    referenceKeys: ['aiStudents', 'unescoAiStudentsSpanish'],
+    exercises: [
+      q('¿Qué efecto secundario notaron los profesores tras un semestre?', ['Los estudiantes participaban más en clase', 'Algunos estudiantes dependían demasiado de las sugerencias automáticas', 'La herramienta dejó de funcionar', 'Nadie usó la herramienta'], 1, 'Notaron una dependencia excesiva de las sugerencias antes de intentar resolver por sí mismos.'),
+      q('¿Qué beneficio real reconoce el texto sobre estas herramientas?', ['Pueden identificar patrones de error específicos por estudiante', 'Eliminan por completo la necesidad de profesores', 'Garantizan resultados idénticos para todos', 'No requieren ningún ajuste'], 0, 'Ese es el beneficio explícito mencionado en el debate.'),
+      q('¿Qué riesgo de desigualdad menciona el texto?', ['Que todas las escuelas tienen el mismo acceso', 'Que escuelas con menos recursos quedan con herramientas básicas y sin acompañamiento', 'Que la tecnología es gratuita para todos', 'Que no existe ninguna brecha'], 1, 'El acceso desigual podría ampliar la desigualdad educativa existente.'),
+      q('¿Qué condición impuso la escuela para mantener el programa?', ['Ninguna condición', 'Intentar resolver cada ejercicio antes de acceder a sugerencias', 'Prohibir el uso de la herramienta', 'Usarla sin supervisión docente'], 1, 'Exigen un intento previo y revisión del razonamiento, no solo la respuesta.'),
+      q('¿Qué tipo de estructuras relativas predominan al distinguir información esencial de información añadida?', ['Relativas explicativas y especificativas', 'Solo el imperativo', 'Solo el gerundio', 'Solo el futuro simple'], 0, 'El texto distingue matices con relativas explicativas y especificativas.')
+    ]
+  },
+  'alimentacion-y-sociedad': {
+    genre: 'reportaje social',
+    title: 'Comer bien no depende solo de elegir bien',
+    angle: 'Precio, tiempo, transporte, publicidad y oferta local condicionan decisiones alimentarias presentadas como exclusivamente individuales.',
+    text: `"Coma frutas y verduras" es una recomendación que se repite en campañas de salud pública desde hace décadas. Sin embargo, cuando un reportaje se propuso comparar el acceso real a alimentos frescos en distintos barrios de una misma ciudad, encontró diferencias que la recomendación general no contempla.
+
+En un barrio central, tres supermercados y un mercado de productores ofrecían frutas y verduras frescas a pocos minutos caminando de las viviendas. En un barrio periférico, en cambio, el establecimiento más cercano con oferta variada de productos frescos quedaba a cuarenta minutos en transporte público, mientras que colmados pequeños, con espacio limitado, concentraban su oferta en productos procesados de larga duración, más fáciles de almacenar y transportar.
+
+Esta diferencia se refleja también en el tiempo disponible. Familias donde varios adultos trabajan largas jornadas, a menudo en más de un empleo, cuentan con menos tiempo para cocinar desde cero, lo que favorece opciones rápidas, aunque sean menos nutritivas. Se necesitaría, para revertir esta tendencia, algo más que información sobre nutrición: haría falta tiempo, cercanía y precios accesibles, tres condiciones que no dependen únicamente de la voluntad individual.
+
+El reportaje también documentó el papel de la publicidad. Los productos ultraprocesados suelen contar con presupuestos publicitarios mucho mayores que las campañas de alimentación saludable, y se promocionan con mensajes que asocian rapidez, sabor y bajo costo, exactamente las prioridades de familias con recursos y tiempo limitados.
+
+Especialistas en salud pública entrevistados para este reportaje coinciden en que responsabilizar únicamente a las decisiones individuales ignora estas condiciones estructurales. Proponen, en cambio, políticas que faciliten el acceso a mercados de productores en barrios periféricos, regulen la publicidad dirigida a productos poco saludables y consideren el tiempo real disponible de las familias trabajadoras. Comer bien, concluye el reportaje, no es solo una cuestión de conocimiento nutricional, sino también de condiciones materiales concretas que varían considerablemente según el barrio donde una persona vive.`,
+    referenceKeys: [],
+    exercises: [
+      q('¿Qué diferencia encontró el reportaje entre barrios?', ['Ninguna diferencia en el acceso a alimentos frescos', 'El barrio periférico tenía menos acceso a productos frescos', 'El barrio central no tenía supermercados', 'Ambos barrios tenían exactamente la misma oferta'], 1, 'El barrio periférico enfrentaba mayor distancia y menor variedad de productos frescos.'),
+      q('¿Qué factor de tiempo menciona el reportaje?', ['Todas las familias tienen el mismo tiempo para cocinar', 'Familias con jornadas largas tienen menos tiempo para cocinar desde cero', 'El tiempo no influye en la alimentación', 'Cocinar siempre es más rápido que comprar comida procesada'], 1, 'Menos tiempo disponible favorece opciones rápidas y menos nutritivas.'),
+      q('¿Qué documenta el reportaje sobre la publicidad?', ['Que no existe publicidad de alimentos', 'Que los productos ultraprocesados cuentan con presupuestos publicitarios mayores', 'Que la publicidad saludable domina el mercado', 'Que la publicidad no influye en las decisiones'], 1, 'Los ultraprocesados reciben mucha más inversión publicitaria.'),
+      q('¿Qué proponen los especialistas en salud pública entrevistados?', ['Culpar únicamente a las decisiones individuales', 'Políticas que faciliten acceso, regulen publicidad y consideren el tiempo disponible', 'Eliminar toda regulación', 'Ignorar las diferencias entre barrios'], 1, 'Proponen abordar condiciones estructurales, no solo el comportamiento individual.'),
+      q('¿Qué construcción predomina al describir estas condiciones sin señalar un responsable individual?', ['Pasiva refleja y construcciones impersonales', 'Solo el imperativo', 'Solo el pretérito', 'Solo el futuro simple'], 0, 'El reportaje describe condiciones estructurales con construcciones impersonales.')
+    ]
+  },
+  'arte-y-espacio-publico': {
+    genre: 'crítica cultural',
+    title: '¿De quién es la pared?',
+    angle: 'La creación de un mural abre una discusión sobre memoria barrial, libertad artística, financiación y participación en el paisaje común.',
+    text: `Cuando un colectivo de artistas propuso pintar un mural en la fachada lateral de un mercado municipal, esperaba encontrar entusiasmo generalizado. En cambio, la propuesta generó un debate vecinal que se prolongó durante semanas, con opiniones divididas incluso entre quienes coincidían en valorar el arte urbano.
+
+El diseño inicial representaba escenas de la historia del barrio: la llegada de las primeras familias, oficios tradicionales que fueron desapareciendo y un homenaje a un músico local reconocido. Algunos vecinos consideraron que el mural celebraba adecuadamente una memoria compartida que rara vez aparece en espacios públicos formales. Otros, sin embargo, cuestionaron que el colectivo de artistas, en su mayoría no residente del barrio, hubiera decidido qué elementos de esa historia merecían representación sin una consulta comunitaria más amplia.
+
+La discusión se complicó aún más al conocerse que el proyecto contaba con financiación de una empresa de bebidas, cuyo logotipo aparecería discretamente en una esquina del mural. Para algunos, esta financiación resultaba razonable y necesaria: sin ella, el proyecto simplemente no habría contado con presupuesto para materiales. Para otros, convertía un posible homenaje comunitario en un espacio publicitario disfrazado de arte, planteando la pregunta de si la audiencia real del mural eran los vecinos o los consumidores que verían el logotipo.
+
+Finalmente, la junta vecinal organizó una asamblea abierta donde se presentaron ambas posturas junto con una tercera opción: modificar el diseño para incluir un proceso de consulta con adultos mayores del barrio, reducir el tamaño del logotipo patrocinador y establecer que futuras intervenciones en espacios públicos del sector requerirían un mecanismo similar de participación.
+
+Este caso, aparentemente local, plantea una pregunta más amplia sobre el arte en espacios compartidos: quién decide qué se representa, quién financia esa representación y quién tiene derecho a opinar sobre una pared que, aunque pintada por unas pocas manos, será observada a diario por cientos de personas que no participaron en su creación.`,
+    referenceKeys: [],
+    exercises: [
+      q('¿Qué representaba el diseño inicial del mural?', ['Escenas publicitarias', 'Escenas de la historia del barrio y un homenaje a un músico local', 'Un paisaje sin relación con el barrio', 'Un mapa de la ciudad'], 1, 'El mural representaba memoria histórica y comunitaria del barrio.'),
+      q('¿Qué cuestionaron algunos vecinos sobre los artistas?', ['Que fueran demasiado jóvenes', 'Que decidieran qué representar sin consulta comunitaria amplia', 'Que no supieran pintar', 'Que no tuvieran materiales'], 1, 'Cuestionaron la falta de participación comunitaria en las decisiones.'),
+      q('¿Qué generó controversia sobre la financiación?', ['Que no hubiera ninguna financiación', 'Que una empresa de bebidas incluiría su logotipo en el mural', 'Que el gobierno prohibiera el proyecto', 'Que los artistas rechazaran todo apoyo económico'], 1, 'El patrocinio comercial generó dudas sobre el propósito real del mural.'),
+      q('¿Qué acordó finalmente la asamblea vecinal?', ['Cancelar el proyecto por completo', 'Modificar el diseño, reducir el logotipo y establecer un mecanismo de consulta', 'Aceptar el diseño original sin cambios', 'Prohibir todo arte urbano en el barrio'], 1, 'Se llegó a un acuerdo intermedio con participación futura garantizada.'),
+      q('¿Qué recurso gramatical predomina al valorar propuestas e interpretar posturas?', ['Subjuntivo en relativas y valoración', 'Solo el imperativo', 'Solo el futuro simple', 'Solo el gerundio'], 0, 'El texto valora e interpreta posturas usando subjuntivo en relativas.')
+    ]
+  },
+  'ciencia-y-etica': {
+    genre: 'artículo de divulgación',
+    title: 'Innovar antes de conocer todas las consecuencias',
+    angle: 'Una tecnología prometedora obliga a distinguir capacidad técnica, beneficio probable, riesgo, consentimiento y distribución justa.',
+    text: `Un laboratorio anuncia una nueva técnica capaz de identificar, con meses de anticipación, señales tempranas de una enfermedad crónica común. La noticia genera entusiasmo inmediato: detectar algo antes permite, en teoría, tratarlo con mayor eficacia. Sin embargo, entre el anuncio y la aplicación responsable de cualquier innovación médica existe una distancia que merece atención cuidadosa.
+
+La técnica podría haber sido probada en un grupo reducido de participantes, con resultados prometedores pero todavía no confirmados en poblaciones más amplias y diversas. Los investigadores responsables suelen ser los primeros en advertir sobre esta limitación, aunque los titulares periodísticos frecuentemente omiten ese matiz al presentar el hallazgo como un avance ya consolidado.
+
+Distinguir capacidad técnica de beneficio real resulta fundamental en estos casos. Que una prueba pueda detectar una señal no significa automáticamente que exista un tratamiento efectivo disponible para actuar sobre esa detección temprana, ni que el sistema de salud tenga capacidad suficiente para atender a todas las personas que resulten identificadas con riesgo. Sin esa capacidad de respuesta, una detección temprana podría generar ansiedad innecesaria sin ofrecer, a cambio, una solución concreta.
+
+También surge una pregunta sobre acceso y costo. Si la técnica resulta efectiva pero costosa, es probable que inicialmente solo esté disponible para quienes puedan pagarla, ampliando desigualdades existentes en el acceso a la salud. Los defensores de la innovación argumentan que los costos suelen reducirse con el tiempo, mientras que los críticos señalan que, sin políticas específicas, ese proceso de reducción puede tardar años, dejando fuera a poblaciones que más necesitarían la tecnología.
+
+El consentimiento informado añade otra capa de complejidad. Antes de someterse a cualquier prueba de este tipo, una persona debería comprender qué implica un resultado positivo, qué opciones tendrá disponibles y qué margen de incertidumbre acompaña al diagnóstico temprano. Innovar responsablemente no significa detener el avance científico, sino acompañarlo con las mismas preguntas rigurosas que hicieron posible el hallazgo en primer lugar.`,
+    referenceKeys: ['aiStudents'],
+    exercises: [
+      q('¿Qué anuncia el laboratorio al inicio del artículo?', ['Una técnica para detectar señales tempranas de una enfermedad crónica', 'Una vacuna ya aprobada mundialmente', 'Un tratamiento sin ningún costo', 'Una cura definitiva confirmada'], 0, 'El artículo describe una técnica de detección temprana, no una cura confirmada.'),
+      q('¿Qué matiz suelen omitir los titulares periodísticos?', ['Que la técnica no existe', 'Que los resultados aún no están confirmados en poblaciones amplias y diversas', 'Que el laboratorio es falso', 'Que la técnica es gratuita'], 1, 'Los titulares presentan el hallazgo como más consolidado de lo que realmente está.'),
+      q('¿Por qué la detección temprana podría no ser suficiente por sí sola?', ['Porque siempre existe tratamiento disponible', 'Porque puede faltar tratamiento efectivo o capacidad del sistema de salud', 'Porque nunca genera ansiedad', 'Porque no requiere ningún seguimiento'], 1, 'Sin tratamiento o capacidad de respuesta, la detección puede no traducirse en beneficio real.'),
+      q('¿Qué preocupación plantean los críticos sobre el costo?', ['Que la reducción de costos podría tardar años, dejando fuera a poblaciones vulnerables', 'Que la técnica siempre será gratuita', 'Que el costo no importa en absoluto', 'Que todos tendrán acceso inmediato'], 0, 'Advierten sobre una desigualdad de acceso mientras el costo se mantiene alto.'),
+      q('¿Qué recurso modal predomina al expresar deducción y probabilidad en el texto?', ['Modales de deducción y probabilidad', 'Solo el imperativo', 'Solo el pretérito simple', 'Solo el gerundio'], 0, 'El artículo pondera hipótesis y probabilidades con verbos modales.')
+    ]
+  },
+  'vivienda-y-desigualdad': {
+    genre: 'editorial económico',
+    title: 'Empezar la vida adulta sin poder salir de casa',
+    angle: 'El alquiler, los salarios iniciales y la concentración de oportunidades urbanas retrasan la independencia de muchos jóvenes.',
+    text: `La independencia residencial, entendida como el momento en que una persona joven deja el hogar familiar, ha dejado de ser un hito predecible ligado a una edad determinada. En su lugar, se ha convertido en una decisión condicionada por factores económicos que muchas familias enfrentan con creciente dificultad.
+
+El principal obstáculo es la desproporción entre salarios iniciales y precios de alquiler. Un recién graduado que consigue su primer empleo formal suele recibir un salario calculado para cubrir necesidades básicas individuales, no diseñado para asumir, además, el costo completo de una vivienda independiente en zonas urbanas con buena conectividad de transporte y empleo. Esta desproporción obliga a muchos jóvenes a posponer la mudanza, compartir vivienda con varios compañeros o aceptar trayectos largos hacia zonas más económicas mal conectadas.
+
+La concentración de oportunidades laborales en pocas zonas urbanas agrava el problema. Cuando la mayoría de los empleos disponibles se ubican en el centro de la ciudad, mientras la vivienda accesible se encuentra principalmente en la periferia, la elección se reduce a dos alternativas poco satisfactorias: pagar un alquiler elevado por cercanía o aceptar largos desplazamientos diarios que reducen el tiempo disponible para descansar, estudiar o socializar.
+
+Este retraso en la independencia no debería interpretarse simplemente como falta de esfuerzo individual. La nominalización del problema —hablar de "la crisis de vivienda asequible" en lugar de culpar a decisiones personales— permite entender que se trata de una dinámica estructural, no de una serie de fracasos aislados y coincidentes entre millones de jóvenes en distintas ciudades.
+
+Algunas ciudades han empezado a experimentar con vivienda asequible destinada específicamente a personas jóvenes que inician su vida laboral, así como con incentivos fiscales para propietarios que ofrezcan alquileres por debajo del precio de mercado. Estas medidas, todavía limitadas en alcance, reconocen al menos que la independencia residencial no debería depender exclusivamente de la suerte de nacer en una familia con recursos suficientes para acompañar esa transición.`,
+    referenceKeys: ['educationTrends'],
+    exercises: [
+      q('¿Qué ha dejado de ser la independencia residencial, según el editorial?', ['Un hito predecible ligado a una edad determinada', 'Un derecho garantizado por ley', 'Una decisión tomada siempre a los dieciocho años', 'Un tema sin importancia social'], 0, 'Se ha convertido en una decisión condicionada por factores económicos.'),
+      q('¿Cuál es el principal obstáculo que señala el editorial?', ['La desproporción entre salarios iniciales y precios de alquiler', 'La falta de interés de los jóvenes en mudarse', 'El exceso de vivienda disponible', 'La ausencia total de empleo'], 0, 'Los salarios iniciales no alcanzan para cubrir el alquiler en zonas bien conectadas.'),
+      q('¿Qué agrava el problema según el texto?', ['La concentración de empleos en pocas zonas urbanas', 'La abundancia de vivienda accesible en el centro', 'La falta de transporte público en cualquier ciudad', 'La ausencia de empleos en general'], 0, 'Los empleos se concentran donde la vivienda es más cara.'),
+      q('¿Qué permite entender la nominalización "crisis de vivienda asequible"?', ['Que se trata de fracasos individuales', 'Que es una dinámica estructural, no una serie de fracasos personales', 'Que no existe ningún problema', 'Que solo afecta a una ciudad'], 1, 'Nombrar el problema como estructural cambia su interpretación.'),
+      q('¿Qué conectores argumentativos organizan la comparación de alternativas poco satisfactorias?', ['Conectores argumentativos y nominalización', 'Solo el imperativo', 'Solo el gerundio', 'Solo interjecciones'], 0, 'El editorial usa nominalización y conectores argumentativos para su análisis.')
+    ]
+  },
+  'lenguaje-e-inclusion': {
+    genre: 'ensayo',
+    title: 'Las palabras también negocian pertenencia',
+    angle: 'Los cambios lingüísticos expresan identidad y reconocimiento, pero su aceptación depende del contexto, la comunidad y las relaciones de poder.',
+    text: `No creo que el lenguaje cambie por capricho ni por moda pasajera, como a veces se afirma en debates públicos sobre nuevas expresiones o formas de nombrar identidades antes invisibilizadas. Cada cambio lingüístico documentado por la lingüística responde, casi siempre, a una necesidad de nombrar algo que antes carecía de palabra propia o que había sido nombrado desde una perspectiva ajena a quienes lo vivían.
+
+Consideremos un ejemplo cotidiano: expresiones que antes se usaban sin cuestionamiento y que hoy generan debate porque un grupo específico señala que esa forma de nombrarlos no refleja cómo se perciben a sí mismos. No niego que estos cambios generan incomodidad en quienes aprendieron una norma distinta durante décadas; sin embargo, esa incomodidad no equivale automáticamente a que el cambio carezca de fundamento.
+
+La Academia Dominicana de la Lengua ha documentado que las actitudes hacia rasgos y usos lingüísticos varían considerablemente según el contexto social, generacional y geográfico, lo que sugiere que no existe una única "corrección" universal, sino negociaciones constantes sobre qué formas de hablar resultan aceptables en cada comunidad y momento histórico.
+
+Tampoco resulta razonable exigir que cualquier cambio propuesto se adopte de inmediato en todos los contextos. Un texto legal, un examen formal o un discurso institucional pueden requerir un registro más conservador que una conversación cotidiana entre amigos, sin que esto implique invalidar el cambio en sí. La cuestión no es si el lenguaje debe cambiar —eso es inevitable y ha ocurrido siempre—, sino quién tiene autoridad para decidir qué cambios se reconocen oficialmente y con qué velocidad se incorporan a los usos considerados formales.
+
+Dudo que exista una respuesta única y permanente a esa pregunta. Lo que sí parece razonable es escuchar con atención a las comunidades que proponen un cambio, entender qué necesidad de reconocimiento están expresando, y distinguir esa negociación legítima de un simple rechazo a cualquier forma de adaptación lingüística.`,
+    referenceKeys: ['academyDominicanSpanish'],
+    exercises: [
+      q('¿Qué rechaza el ensayo sobre los cambios lingüísticos?', ['Que respondan a una necesidad real', 'Que ocurran por capricho o moda pasajera', 'Que generen ningún debate', 'Que existan comunidades lingüísticas distintas'], 1, 'El ensayo cuestiona la idea de que los cambios sean caprichosos.'),
+      q('¿Qué documenta la Academia Dominicana de la Lengua, según el texto?', ['Que existe una única corrección universal', 'Que las actitudes lingüísticas varían según contexto, generación y geografía', 'Que el idioma nunca cambia', 'Que solo hay una forma correcta de hablar'], 1, 'Documenta variación de actitudes según distintos factores.'),
+      q('¿Qué distinción hace el ensayo sobre los registros formales?', ['Que un registro formal invalida el cambio lingüístico en sí', 'Que un texto legal puede requerir un registro más conservador sin invalidar el cambio', 'Que todos los contextos deben usar el mismo registro', 'Que el registro formal no existe'], 1, 'Distingue la necesidad de un registro conservador de la validez del cambio.'),
+      q('¿Cuál es la pregunta central que plantea el ensayo?', ['Si el lenguaje debe cambiar o no', 'Quién tiene autoridad para decidir qué cambios se reconocen y con qué velocidad', 'Cuántas palabras nuevas existen', 'Si el idioma español es difícil'], 1, 'La pregunta central es sobre autoridad y ritmo de reconocimiento, no sobre si cambiar.'),
+      q('¿Qué recurso gramatical predomina al expresar duda u opinión negada por el autor?', ['Subjuntivo en opiniones negadas', 'Solo el futuro simple', 'Solo el imperativo', 'Solo el gerundio'], 0, 'El ensayo usa subjuntivo tras expresiones como "no creo que" o "dudo que".')
+    ]
+  },
+  'foro-de-propuestas': {
+    genre: 'discurso cívico',
+    title: 'Una propuesta juvenil que resiste preguntas difíciles',
+    angle: 'Un foro escolar exige pasar de consignas atractivas a objetivos medibles, evidencias pertinentes, costes transparentes y objeciones legítimas.',
+    text: `El foro juvenil comenzó con una consigna llamativa proyectada en pantalla: "Más espacios verdes para nuestra comunidad." Aplausos, buena disposición general y, sin embargo, una pregunta incómoda formulada por uno de los jueces invitados: "¿Qué significa exactamente 'más' y cómo sabremos si lo lograron?"
+
+Ese momento marcó el tono del resto de la sesión. Los organizadores del foro habían diseñado, precisamente, un formato que exigía a cada grupo participante ir más allá de consignas atractivas y presentar propuestas con objetivos medibles. En consecuencia, el grupo que defendía los espacios verdes tuvo que reformular su planteamiento: no bastaba con "más árboles", sino que debían especificar cuántos, en qué ubicaciones concretas y en qué plazo esperaban conseguirlo.
+
+Otro grupo propuso instalar bebederos de agua potable en parques públicos para reducir el uso de botellas plásticas desechables. Su propuesta incluía evidencia pertinente: habían contactado a un fabricante local para estimar costos de instalación y mantenimiento, y habían calculado, con datos aproximados, cuántas botellas plásticas podrían evitarse anualmente si el proyecto se implementaba en cinco parques.
+
+Sin embargo, un miembro del jurado planteó una objeción legítima: ¿quién garantizaría el mantenimiento de esos bebederos a largo plazo, una vez terminado el entusiasmo inicial del proyecto? El grupo no tenía una respuesta completamente satisfactoria preparada, lo cual, en lugar de descalificar la propuesta, generó una discusión productiva sobre alianzas posibles con el ayuntamiento para sostener el mantenimiento más allá del impulso juvenil inicial.
+
+El foro concluyó con una reflexión compartida entre organizadores y participantes: una propuesta cívica convincente no es aquella que evita las preguntas difíciles, sino la que las anticipa, ofrece evidencia verificable y reconoce honestamente qué aspectos todavía requieren resolverse. Entre consignas y compromisos concretos, admitieron los propios jóvenes, existe una distancia que solo se recorre respondiendo, con seriedad, a preguntas como la que abrió la sesión.`,
+    referenceKeys: [],
+    exercises: [
+      q('¿Qué pregunta incómoda formuló el juez al inicio?', ['Qué significa "más" espacios verdes y cómo se medirá el logro', 'Cuántos jueces participan en el foro', 'Cuál es el color favorito del jurado', 'Cuánto dura el foro'], 0, 'Cuestionó la falta de un objetivo medible en la consigna inicial.'),
+      q('¿Qué evidencia presentó el grupo de los bebederos de agua?', ['Ninguna evidencia', 'Costos estimados y cálculo aproximado de botellas evitadas', 'Solo una opinión personal', 'Un dibujo sin datos'], 1, 'Presentaron estimaciones de costo e impacto ambiental.'),
+      q('¿Qué objeción legítima planteó un miembro del jurado?', ['Quién garantizaría el mantenimiento a largo plazo', 'Que el proyecto era demasiado barato', 'Que el agua no es necesaria', 'Que el proyecto ya existía en otra ciudad'], 0, 'Cuestionó la sostenibilidad del proyecto más allá del entusiasmo inicial.'),
+      q('¿Qué generó la falta de respuesta completa del grupo?', ['La descalificación inmediata de la propuesta', 'Una discusión productiva sobre alianzas con el ayuntamiento', 'El fin del foro', 'La cancelación del proyecto'], 1, 'La objeción abrió una conversación constructiva, no una descalificación.'),
+      q('¿Qué marcadores discursivos complejos predominan al conectar consignas, evidencia y objeciones?', ['Marcadores discursivos complejos como "en consecuencia" y "sin embargo"', 'Solo el imperativo', 'Solo el gerundio', 'Solo interjecciones'], 0, 'El discurso enlaza ideas con marcadores complejos propios del nivel B2.')
+    ]
+  }
+};
+
 // Remaining C1/C2 readings use distinct public-interest cases rather than a
 // recurring fictional cast. The shared editorial frame keeps evidence and
 // limitations visible while each entry supplies its own factual tension.
@@ -781,7 +1319,13 @@ function readingReferences(slug) {
 
 function buildProgressiveReading(level, spec, index) {
   const [slug, unitTitle, scenario, objective, grammar, words] = spec;
-  const authoredReading = level === 'C1' ? AUTHORED_C1_READINGS[slug] : null;
+  const authoredReading = level === 'C1'
+    ? AUTHORED_C1_READINGS[slug]
+    : level === 'B1'
+      ? AUTHORED_B1_READINGS[slug]
+      : level === 'B2'
+        ? AUTHORED_B2_READINGS[slug]
+        : null;
   if (authoredReading) {
     return {
       title: authoredReading.title,
@@ -1183,7 +1727,13 @@ function buildAlignedGrammarExercises(spec) {
 
 function buildReadingExercises(level, spec, readingContent) {
   const [slug, unitTitle, scenario, objective, grammar, words] = spec;
-  const authoredReading = level === 'C1' ? AUTHORED_C1_READINGS[slug] : null;
+  const authoredReading = level === 'C1'
+    ? AUTHORED_C1_READINGS[slug]
+    : level === 'B1'
+      ? AUTHORED_B1_READINGS[slug]
+      : level === 'B2'
+        ? AUTHORED_B2_READINGS[slug]
+        : null;
   if (authoredReading) return authoredReading.exercises;
   const blueprintReading = buildBlueprintReading(level, slug, spec);
   if (blueprintReading) return blueprintReading.exercises;

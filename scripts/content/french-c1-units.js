@@ -42,42 +42,42 @@ const units = [
     },
     activities: {
       reading: activity('reading', {
-        title: 'Premier jour à l’université',
-        description: 'Camila découvre le monde universitaire français lors de sa première semaine de cours à Tours.',
+        title: 'L’autonomie, pierre angulaire de l’université française',
+        description: 'Un dossier d’analyse sur les réformes qui ont fait de l’autonomie étudiante le principe central du premier cycle universitaire en France.',
         reading: {
-          title: 'Premier jour à l’université',
+          title: 'L’autonomie, pierre angulaire de l’université française',
           parts: [
-            "C'est dans un amphithéâtre bondé, où résonnent les murmures de centaines d'étudiants qu'elle ne connaît pas encore, que Camila s'installe pour son tout premier cours de licence. L'université de Tours, avec son architecture qui mêle bâtiments historiques et infrastructures modernes, n'a que peu à voir avec le lycée qu'elle fréquentait deux ans plus tôt lors de son année d'échange. C'est précisément cette différence d'échelle, autant que la liberté qui l'accompagne, qui la déstabilise légèrement en ce premier jour. Personne ne vérifie sa présence, personne ne lui rappelle la date des examens : c'est à elle, désormais, qu'il revient d'organiser son propre parcours académique.",
-            "Le professeur de linguistique, dès les premières minutes de son cours magistral, distribue un syllabus détaillé, expliquant qu'il attend de ses étudiants une véritable autonomie intellectuelle, bien loin des méthodes plus encadrées qu'elle avait connues auparavant. « Ici, ce n'est pas moi qui viendrai vous chercher si vous décrochez », prévient-il avec un sourire à la fois bienveillant et exigeant. « C'est à vous qu'il incombe de solliciter de l'aide en cas de difficulté, et c'est cette responsabilité individuelle qui, à terme, fera toute la différence entre un parcours réussi et un parcours simplement subi. » Camila, tout en prenant des notes fébrilement, sent une pointe d'anxiété se mêler à son enthousiasme.",
-            "À la pause déjeuner, elle retrouve enfin Léa et Karim, tous deux inscrits dans des filières différentes de la sienne, mais présents sur le même campus. « Alors, comment tu trouves ta première matinée ? » demande Karim, un sandwich à la main. « C'est vertigineux », avoue Camila avec un sourire nerveux. « Je crois que c'est justement cette liberté qui m'impressionne le plus, presque autant qu'elle m'effraie. » Léa, plus habituée au système, la rassure : « C'est normal de se sentir un peu perdue au début. C'est avec le temps que tu trouveras ton propre rythme de travail, et crois-moi, ça viendra plus vite que tu ne le penses. »",
-            "En fin de journée, épuisée mais galvanisée par cette première immersion, Camila rentre dans le petit studio qu'elle a loué près du centre-ville, celui-là même qu'elle avait comparé, deux ans plus tôt, à un autre logement plus spacieux mais moins central. Assise à son bureau, elle relit ses notes de la journée et réalise, non sans une certaine fierté, à quel point le chemin parcouru depuis son arrivée initiale en France, hésitante et pleine d'appréhension, l'a menée jusqu'à ce moment précis : celui où elle s'apprête enfin à construire, pierre par pierre, le projet professionnel dont elle rêve depuis des années."
+            "C'est en 2007, avec la loi relative aux libertés et responsabilités des universités, que la France a engagé une transformation profonde de son enseignement supérieur, dont les effets se font encore sentir aujourd'hui dans chaque amphithéâtre du pays. Contrairement au lycée, où l'élève est suivi de près, encadré par des professeurs principaux et des conseils de classe réguliers, l'université repose sur un principe radicalement différent : c'est à l'étudiant lui-même qu'il revient d'organiser son travail, de solliciter de l'aide en cas de difficulté et de construire, semestre après semestre, son propre parcours au sein d'unités d'enseignement souvent peu coordonnées entre elles.",
+            "Cette autonomie, présentée par les textes officiels comme une préparation à la vie professionnelle, produit des effets contrastés selon les profils étudiants. Les enquêtes menées par le ministère de l'Enseignement supérieur montrent qu'environ un tiers des étudiants de première année ne poursuivent pas directement en deuxième année, un taux qui reste, malgré plusieurs réformes successives, l'un des plus élevés d'Europe occidentale. Les chercheurs qui étudient ce phénomène s'accordent sur un constat : ce n'est pas nécessairement le niveau académique qui fait défaut, mais bien la capacité à s'orienter seul dans un système qui suppose, dès les premières semaines, une maturité méthodologique que le secondaire ne prépare pas toujours suffisamment.",
+            "Face à ce constat, de nombreux établissements ont mis en place des dispositifs d'accompagnement : tutorat entre pairs, semaines de méthodologie, référents pédagogiques joignables par courriel. Il n'est pas exclu que ces mesures expliquent en partie l'amélioration progressive des taux de réussite observée depuis une décennie. Il reste cependant que l'efficacité de ces dispositifs dépend largement de la manière dont les étudiants eux-mêmes en font usage, ce qui replace, une fois encore, la question de l'autonomie au centre du débat : peut-on réellement enseigner l'autonomie, ou celle-ci ne s'acquiert-elle que par l'expérience, parfois douloureuse, de la difficulté ?",
+            "C'est cette tension, entre liberté accordée et accompagnement nécessaire, qui définit aujourd'hui l'identité de l'université française. Il semble peu probable qu'un modèle unique de soutien convienne à l'ensemble d'un public aussi hétérogène que celui des premiers cycles, où se côtoient bacheliers généraux, technologiques et professionnels. C'est précisément cette diversité de parcours antérieurs qui explique, selon plusieurs rapports parlementaires récents, la nécessité de repenser continuellement l'équilibre entre exigence académique et droit à l'erreur pendant les premières années d'études supérieures."
           ],
           questions: [
-            'Qu’est-ce qui déstabilise Camila lors de son premier jour à l’université ?',
-            'Que réclame le professeur de linguistique de ses étudiants ?',
-            'Comment Léa rassure-t-elle Camila à la pause déjeuner ?'
+            'Quel principe distingue fondamentalement l’université du lycée en France ?',
+            'Que révèlent les enquêtes ministérielles sur la première année d’université ?',
+            'Quels dispositifs les établissements ont-ils mis en place pour accompagner les étudiants ?'
           ],
           ordering: {
-            prompt: 'Remets les moments de la journée de Camila dans l’ordre.',
+            prompt: 'Remets les étapes de ce dossier d’analyse dans l’ordre.',
             events: [
-              'Camila s’installe dans l’amphithéâtre pour son premier cours.',
-              'Le professeur distribue le syllabus et explique ses attentes.',
-              'Camila retrouve Léa et Karim à la pause déjeuner.',
-              'Elle rentre dans son studio et relit ses notes, fière du chemin parcouru.'
+              'La loi de 2007 transforme l’organisation de l’enseignement supérieur français.',
+              'Les enquêtes ministérielles révèlent un taux élevé d’échec en première année.',
+              'Les établissements créent des dispositifs d’accompagnement.',
+              'Le dossier interroge la possibilité même d’enseigner l’autonomie.'
             ]
           }
         },
         exercises: [
-          { type: 'mcq', prompt: 'Idée principale : de quoi parle ce texte ?', options: ['D’un voyage touristique', 'Du premier jour de Camila à l’université de Tours', 'D’une dispute avec un professeur', 'D’un déménagement raté'], answer: 1 },
-          { type: 'mcq', prompt: 'Information explicite : dans quelle filière Camila est-elle inscrite ?', options: ['Linguistique pure', 'Langues étrangères appliquées', 'Histoire de l’art', 'Sciences politiques'], answer: 1 },
-          { type: 'mcq', prompt: 'Qu’est-ce qui différencie principalement l’université du lycée, selon le texte ?', options: ['Le prix des cours', 'Le degré d’autonomie exigé des étudiants', 'La distance depuis chez elle', 'La couleur des bâtiments'], answer: 1 },
-          { type: 'mcq', prompt: 'Que prévient le professeur de linguistique ?', options: ['Qu’il viendra chercher les étudiants en difficulté', 'Que la responsabilité de solliciter de l’aide revient à l’étudiant', 'Qu’il n’y aura pas d’examens', 'Que la présence est obligatoire chaque jour'], answer: 1 },
-          { type: 'mcq', prompt: 'Comment Camila se sent-elle en toute fin de matinée ?', options: ['Complètement indifférente', 'Un mélange d’anxiété et d’enthousiasme', 'Totalement confiante', 'En colère'], answer: 1 },
-          { type: 'mcq', prompt: 'Inférence : pourquoi Léa peut-elle rassurer Camila avec autant d’assurance ?', options: ['Parce qu’elle ment', 'Parce qu’elle est déjà plus habituée au système universitaire', 'Parce qu’elle n’a jamais eu de difficulté', 'Par pure politesse'], answer: 1 },
-          { type: 'mcq', prompt: 'Signification en contexte : que signifie « il incombe à » ?', options: ['Il est interdit à', 'C’est la responsabilité de', 'Il est impossible pour', 'Il est facultatif pour'], answer: 1 },
-          { type: 'mcq', prompt: 'Opinion vs fait : quelle phrase exprime une opinion, et non un fait ?', options: ['Le professeur distribue un syllabus détaillé.', 'C’est vertigineux, avoue Camila.', 'Camila retrouve Léa et Karim à la pause déjeuner.', 'Camila loue un studio près du centre-ville.'], answer: 1 },
-          { type: 'mcq', prompt: 'Comparaison d’informations : en quoi le studio actuel de Camila diffère-t-il de celui évoqué deux ans plus tôt ?', options: ['Il est identique en tout point', 'Il est plus central mais moins spacieux', 'Il est plus spacieux mais moins central', 'Il n’y a aucune comparaison dans le texte'], answer: 1 },
-          { type: 'mcq', prompt: 'Conclusion : quel sentiment domine à la fin du texte ?', options: ['Le regret d’être partie', 'La fierté du chemin parcouru', 'La peur de l’échec', 'L’indifférence totale'], answer: 1 }
+          { type: 'mcq', prompt: 'Idée principale : de quoi parle ce texte ?', options: ['D’un voyage touristique en France', 'Du principe d’autonomie dans l’enseignement supérieur français', 'D’une réforme du baccalauréat', 'D’un classement international des universités'], answer: 1 },
+          { type: 'mcq', prompt: 'Information explicite : que change la loi de 2007 ?', options: ['Elle supprime les examens', 'Elle engage une transformation vers davantage d’autonomie des universités', 'Elle rend le lycée obligatoire jusqu’à 20 ans', 'Elle finance la construction de nouveaux amphithéâtres'], answer: 1 },
+          { type: 'mcq', prompt: 'Qu’est-ce qui différencie principalement l’université du lycée, selon le texte ?', options: ['Le prix des études', 'Le degré d’autonomie exigé des étudiants', 'La durée des vacances', 'La couleur des bâtiments'], answer: 1 },
+          { type: 'mcq', prompt: 'Que montrent les enquêtes du ministère ?', options: ['Que tous les étudiants réussissent leur première année', 'Qu’environ un tiers des étudiants ne passent pas directement en deuxième année', 'Que la France a le meilleur taux de réussite d’Europe', 'Que les cours magistraux ont disparu'], answer: 1 },
+          { type: 'mcq', prompt: 'Selon les chercheurs cités, quelle est la cause principale de l’échec en première année ?', options: ['Le manque de niveau académique uniquement', 'La difficulté à s’orienter seul dans un système autonome', 'Le prix des logements étudiants', 'L’absence totale de cours'], answer: 1 },
+          { type: 'mcq', prompt: 'Inférence : pourquoi l’efficacité des dispositifs d’accompagnement reste-t-elle incertaine ?', options: ['Parce qu’ils sont interdits', 'Parce qu’elle dépend de l’usage qu’en font les étudiants', 'Parce qu’aucun établissement n’en propose', 'Parce que les professeurs les refusent'], answer: 1 },
+          { type: 'mcq', prompt: 'Signification en contexte : que signifie « il n’est pas exclu que » ?', options: ['C’est totalement impossible', 'C’est une possibilité envisageable', 'C’est absolument certain', 'C’est formellement interdit'], answer: 1 },
+          { type: 'mcq', prompt: 'Opinion vs fait : quelle phrase exprime une opinion, et non un fait établi ?', options: ['La loi de 2007 réforme l’enseignement supérieur.', 'Il semble peu probable qu’un modèle unique convienne à tous.', 'Les établissements proposent du tutorat entre pairs.', 'Le texte cite des rapports parlementaires.'], answer: 1 },
+          { type: 'mcq', prompt: 'Quelle diversité le texte évoque-t-il parmi les nouveaux étudiants ?', options: ['Une diversité de nationalités uniquement', 'Une diversité de baccalauréats antérieurs (généraux, technologiques, professionnels)', 'Une diversité de langues uniquement', 'Aucune diversité n’est mentionnée'], answer: 1 },
+          { type: 'mcq', prompt: 'Conclusion : quelle question centrale le texte laisse-t-il ouverte ?', options: ['Faut-il supprimer l’université ?', 'L’autonomie peut-elle vraiment s’enseigner, ou s’acquiert-elle par l’expérience ?', 'Faut-il rendre le lycée plus court ?', 'Faut-il interdire le tutorat ?'], answer: 1 }
         ]
       }),
       vocabulary: activity('vocabulary', {
@@ -135,43 +135,42 @@ const units = [
     },
     activities: {
       reading: activity('reading', {
-        title: 'Un travail de groupe exigeant',
-        description: 'Camila collabore avec des étudiants internationaux sur un exposé académique concernant la diversité linguistique des Caraïbes.',
+        title: 'Créoles caribéens : d’une langue de la plantation à une langue de la nation',
+        description: 'Un dossier documentaire sur la formation historique et le statut actuel des langues créoles dans les Caraïbes.',
         reading: {
-          title: 'Un travail de groupe exigeant',
+          title: 'Créoles caribéens : d’une langue de la plantation à une langue de la nation',
           parts: [
-            "Pour son premier grand exposé universitaire, Camila se retrouve associée à trois autres étudiants d'origines très différentes : Yuki, japonaise, spécialiste en sociolinguistique ; Ahmed, tunisien, passionné d'histoire coloniale ; et Clara, française, dont c'est le premier contact réel avec des perspectives extra-européennes sur la langue. Leur sujet, imposé par le professeur, porte sur la diversité linguistique dans les Caraïbes, une problématique que Camila connaît intimement, mais qu'elle n'avait encore jamais eu l'occasion d'analyser avec une telle rigueur académique.",
-            "Dès la première réunion de préparation, des tensions méthodologiques apparaissent. Ahmed insiste pour que le groupe adopte une approche essentiellement historique, centrée sur l'héritage colonial des langues créoles, tandis que Yuki, elle, souhaiterait davantage explorer les mécanismes linguistiques contemporains de contact entre langues. Clara, plus hésitante, avait initialement proposé une approche purement descriptive, avant d'admettre, après discussion, qu'elle manquait sans doute de recul sur un sujet aussi complexe. « Il est probable que nous devions combiner ces trois perspectives plutôt que d'en privilégier une seule », suggère finalement Camila, consciente qu'aucun consensus rapide ne semble se dessiner naturellement.",
-            "Le professeur, consulté par e-mail sur cette difficulté méthodologique, avait répondu qu'il n'était pas exclu qu'un travail véritablement interdisciplinaire produise, en définitive, un résultat plus riche qu'une approche unique et univoque. Il avait ajouté, dans son message, qu'il attendait précisément de ses étudiants qu'ils apprennent à négocier entre des perspectives divergentes, une compétence qu'il jugeait tout aussi précieuse que la maîtrise du contenu académique lui-même. Cette réponse, transmise par Camila au reste du groupe, contribue à apaiser sensiblement les tensions initiales.",
-            "Après plusieurs semaines de travail acharné, incluant de nombreuses visioconférences tardives et des débats parfois houleux sur la structure finale de leur présentation, le groupe parvient enfin à un exposé cohérent, combinant habilement les perspectives historique, linguistique et descriptive initialement défendues par chacun. Le jour de la soutenance, alors que Camila prend la parole pour présenter la partie consacrée à son expérience personnelle du multilinguisme caribéen, elle ressent une fierté particulière : celle d'avoir transformé un désaccord méthodologique initial en une véritable richesse collective, une leçon qu'elle sait devoir dépasser largement le cadre de ce seul exposé universitaire.",
-            "À l'issue de la présentation, le jury, composé de deux professeurs de linguistique, salue unanimement la qualité de l'articulation entre les trois approches défendues par le groupe, soulignant en particulier la rareté d'un tel exercice de synthèse chez des étudiants de première année. Camila, en recevant ces félicitations, songe avec émotion à quel point ce travail collectif a fini par ressembler, presque malgré elle, à sa propre existence entre plusieurs cultures : un espace où la tension entre des perspectives divergentes, loin d'être un obstacle, devient précisément la source d'une compréhension plus profonde et plus nuancée du monde."
+            "C'est au cours des dix-septième et dix-huitième siècles, sur les habitations sucrières des Caraïbes, que sont nés les créoles à base lexicale française, notamment en Haïti, en Guadeloupe, en Martinique et dans les Petites Antilles. Confrontées à un français administratif qu'elles ne maîtrisaient pas et entre elles souvent dépourvues d'une langue commune, les populations réduites en esclavage ont élaboré des systèmes linguistiques nouveaux, empruntant leur lexique en grande partie au français tout en développant une grammaire propre, largement influencée par les langues d'Afrique de l'Ouest. C'est cette double origine qui explique pourquoi les créoles ne peuvent être réduits, comme on l'a longtemps affirmé à tort, à un français simplifié ou déformé.",
+            "Les linguistes qui étudient ces langues insistent aujourd'hui sur leur cohérence grammaticale interne : le créole haïtien, par exemple, possède un système verbal fondé sur des marqueurs de temps et d'aspect placés avant le verbe, une structure radicalement différente de la conjugaison française. Il est donc probable que les préjugés persistants envers les créoles tiennent moins à une réalité linguistique qu'à l'héritage social de la colonisation, qui associait la langue des maîtres au prestige et celle des esclaves à l'infériorité — une hiérarchie que la sociolinguistique contemporaine s'attache précisément à déconstruire.",
+            "Le statut institutionnel des créoles reste néanmoins très inégal selon les territoires. En Haïti, la Constitution de 1987 a fait du créole une langue officielle à part entière, aux côtés du français, et son enseignement s'est progressivement généralisé à l'école primaire. Dans les départements français d'Amérique, en revanche, le créole demeure une langue régionale reconnue mais non officielle, enseignée de façon optionnelle, alors même qu'il reste la langue la plus couramment parlée dans la vie quotidienne d'une majorité d'habitants. Il n'est pas exclu que cet écart entre pratique sociale et reconnaissance institutionnelle continue d'alimenter les débats sur l'identité linguistique de ces territoires.",
+            "Cette question dépasse largement le seul cadre scolaire. Reconnaître pleinement une langue créole, c'est aussi interroger la manière dont une société hiérarchise ses propres formes d'expression et transmet sa mémoire collective. De nombreux écrivains caribéens, de Patrick Chamoiseau à Frankétienne, ont ainsi fait du créole un instrument littéraire à part entière, démontrant qu'une langue née dans la contrainte peut devenir, plusieurs siècles plus tard, un espace de création et de souveraineté culturelle pleinement assumé."
           ],
           questions: [
-            'Qui compose le groupe de travail de Camila, et quelles sont leurs spécialités respectives ?',
-            'Quelle tension méthodologique apparaît lors de la première réunion ?',
-            'Comment le professeur répond-il à la difficulté rencontrée par le groupe ?'
+            'Dans quel contexte historique les créoles caribéens sont-ils nés ?',
+            'Qu’est-ce qui distingue grammaticalement le créole haïtien du français ?',
+            'Quel est le statut officiel du créole en Haïti, et dans les départements français d’Amérique ?'
           ],
           ordering: {
-            prompt: 'Remets les étapes du travail de groupe dans l’ordre.',
+            prompt: 'Remets les étapes de ce dossier documentaire dans l’ordre.',
             events: [
-              'Le groupe de quatre étudiants est formé autour du sujet de la diversité linguistique caribéenne.',
-              'Des tensions méthodologiques apparaissent lors de la première réunion.',
-              'Le professeur répond par e-mail, encourageant une approche interdisciplinaire.',
-              'Le groupe présente un exposé cohérent lors de la soutenance finale.'
+              'Les créoles naissent sur les habitations sucrières aux dix-septième et dix-huitième siècles.',
+              'Les linguistes démontrent la cohérence grammaticale propre aux créoles.',
+              'Haïti reconnaît le créole comme langue officielle en 1987.',
+              'Des écrivains caribéens font du créole un instrument littéraire.'
             ]
           }
         },
         exercises: [
-          { type: 'mcq', prompt: 'Idée principale : de quoi parle ce texte ?', options: ['D’un examen individuel de Camila', 'De la préparation collective d’un exposé universitaire complexe', 'D’un voyage au Japon', 'D’une dispute personnelle entre Camila et Clara'], answer: 1 },
-          { type: 'mcq', prompt: 'Information explicite : quelle est la spécialité d’Ahmed ?', options: ['La sociolinguistique', 'L’histoire coloniale', 'La littérature comparée', 'La linguistique contemporaine'], answer: 1 },
-          { type: 'mcq', prompt: 'Quelle approche Yuki souhaite-t-elle privilégier ?', options: ['Une approche purement historique', 'Les mécanismes contemporains de contact entre langues', 'Une approche uniquement descriptive', 'Aucune approche académique'], answer: 1 },
-          { type: 'mcq', prompt: 'Que suggère finalement Camila face au désaccord méthodologique ?', options: ['D’abandonner le sujet', 'De combiner les trois perspectives plutôt que d’en choisir une seule', 'De changer complètement de groupe', 'De demander un autre sujet au professeur'], answer: 1 },
-          { type: 'mcq', prompt: 'Que répond le professeur, consulté sur cette difficulté ?', options: ['Qu’il faut choisir une seule approche', 'Qu’une approche interdisciplinaire peut être plus riche', 'Qu’il refuse de répondre', 'Qu’il faut changer de sujet'], answer: 1 },
-          { type: 'mcq', prompt: 'Inférence : pourquoi le professeur valorise-t-il autant la négociation entre perspectives divergentes ?', options: ['Parce que c’est plus facile à noter', 'Parce qu’il la considère comme une compétence aussi précieuse que le contenu académique', 'Parce qu’il n’a pas d’autre choix', 'Par simple habitude administrative'], answer: 1 },
-          { type: 'mcq', prompt: 'Signification en contexte : que signifie « il n’était pas exclu que » ?', options: ['C’était impossible', 'C’était une possibilité envisageable', 'C’était certain', 'C’était interdit'], answer: 1 },
-          { type: 'mcq', prompt: 'Opinion vs fait : quelle phrase exprime une opinion, et non un fait ?', options: ['Le groupe est composé de quatre étudiants.', 'Il est probable que nous devions combiner ces trois perspectives.', 'Le professeur a répondu par e-mail.', 'La soutenance a eu lieu après plusieurs semaines de travail.'], answer: 1 },
-          { type: 'mcq', prompt: 'Quel sentiment Camila ressent-elle le jour de la soutenance ?', options: ['Le regret d’avoir participé', 'Une fierté particulière liée à la transformation du désaccord en richesse collective', 'L’indifférence totale', 'La peur de parler en public'], answer: 1 },
-          { type: 'mcq', prompt: 'Conclusion : quelle leçon générale Camila tire-t-elle de cette expérience ?', options: ['Il vaut mieux travailler seul', 'Un désaccord initial peut se transformer en richesse collective', 'Les travaux de groupe sont toujours inutiles', 'Il faut toujours imposer son propre point de vue'], answer: 1 }
+          { type: 'mcq', prompt: 'Idée principale : de quoi parle ce texte ?', options: ['D’un voyage touristique aux Caraïbes', 'De la formation historique et du statut des langues créoles caribéennes', 'D’une recette de cuisine antillaise', 'D’un conflit politique récent'], answer: 1 },
+          { type: 'mcq', prompt: 'Information explicite : où et quand naissent les créoles à base française ?', options: ['En Europe au vingtième siècle', 'Sur les habitations sucrières des Caraïbes aux dix-septième et dix-huitième siècles', 'En Afrique avant la colonisation', 'Au Canada au dix-neuvième siècle'], answer: 1 },
+          { type: 'mcq', prompt: 'Quelle idée reçue le texte réfute-t-il explicitement ?', options: ['Que les créoles ont un lexique français', 'Que les créoles seraient un français simplifié ou déformé', 'Que les créoles existent aux Caraïbes', 'Que les linguistes étudient les créoles'], answer: 1 },
+          { type: 'mcq', prompt: 'Qu’est-ce qui caractérise le système verbal du créole haïtien ?', options: ['Il est identique à la conjugaison française', 'Il utilise des marqueurs de temps et d’aspect placés avant le verbe', 'Il n’a aucune structure grammaticale', 'Il n’existe qu’à l’écrit'], answer: 1 },
+          { type: 'mcq', prompt: 'Depuis quand le créole est-il langue officielle en Haïti ?', options: ['Depuis la Constitution de 1987', 'Depuis le dix-huitième siècle', 'Il ne l’est pas', 'Depuis 2010'], answer: 0 },
+          { type: 'mcq', prompt: 'Inférence : pourquoi les préjugés envers le créole persistent-ils selon le texte ?', options: ['Parce que le créole est réellement une langue inférieure', 'Parce qu’ils tiennent à l’héritage social de la colonisation plutôt qu’à des faits linguistiques', 'Parce qu’aucun linguiste ne l’étudie', 'Parce que le créole n’a pas de grammaire'], answer: 1 },
+          { type: 'mcq', prompt: 'Signification en contexte : que signifie « il n’est pas exclu que » ?', options: ['C’est impossible', 'C’est une possibilité envisageable', 'C’est certain', 'C’est interdit'], answer: 1 },
+          { type: 'mcq', prompt: 'Opinion vs fait : quelle phrase exprime une probabilité analytique, et non un fait établi ?', options: ['La Constitution de 1987 fait du créole une langue officielle en Haïti.', 'Il est probable que les préjugés tiennent à l’héritage colonial.', 'Le créole haïtien possède des marqueurs de temps et d’aspect.', 'Patrick Chamoiseau écrit en créole.'], answer: 1 },
+          { type: 'mcq', prompt: 'Quelle différence le texte établit-il entre Haïti et les départements français d’Amérique ?', options: ['Aucune différence n’existe', 'Le créole y est langue officielle en Haïti, seulement régionale reconnue ailleurs', 'Le créole n’est parlé qu’en Haïti', 'Le créole est interdit dans les départements français'], answer: 1 },
+          { type: 'mcq', prompt: 'Conclusion : quel rôle les écrivains caribéens jouent-ils selon le texte ?', options: ['Ils rejettent le créole', 'Ils transforment le créole en instrument littéraire et de souveraineté culturelle', 'Ils écrivent uniquement en français', 'Ils ignorent la question linguistique'], answer: 1 }
         ]
       }),
       vocabulary: activity('vocabulary', {
@@ -210,6 +209,11 @@ const units = [
 ];
 
 units.push(...require('./french-c1-advanced-units'));
+
+// Each unit's activities.reading now carries its own real, factual C1 essay
+// (see french-c1-units.js units 1-2 above and french-c1-advanced-units.js
+// for units 3-14). We only resync the reading.questions preview from the
+// unit's own exercises so it always reflects that unit's specific text.
 units.forEach((unit) => {
   const activity = unit.activities?.reading;
   if (activity?.reading && Array.isArray(activity.exercises)) {

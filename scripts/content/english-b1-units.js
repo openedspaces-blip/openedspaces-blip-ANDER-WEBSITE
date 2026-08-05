@@ -488,8 +488,112 @@ function expandVocabulary(plan) {
   ];
 }
 
+// Readings are documentary mini-articles, not serial fiction.  Each brief is
+// anchored to the unit's practical topic and deliberately uses examples that
+// learners can encounter in public reports, services and everyday life.
+const REAL_READING_BRIEFS = {
+  'new-challenges': {
+    title: 'Learning Through a New Responsibility',
+    description: 'How workplaces use feedback and gradual responsibility to help people develop new skills.',
+    text: 'Many organisations give new staff a small responsibility before asking them to lead a larger project. This approach is often called gradual responsibility. A new coordinator may begin by preparing one meeting, collecting feedback and checking a deadline. Later, the same person can manage a schedule or present a plan to a client.\n\nFeedback is most useful when it is specific. “Be more confident” is difficult to act on, but “summarise the decision at the end of the meeting” gives a clear next step. Workers also need time to ask questions and correct mistakes. A short review after a task can show what worked and what needs to change.\n\nA new challenge does not require people to know everything immediately. It requires a clear goal, support and the chance to improve after real experience.'
+  },
+  'work-and-ambition': {
+    title: 'Choosing a Next Step at Work',
+    description: 'A practical look at how people compare professional opportunities before applying.',
+    text: 'A promotion can bring more responsibility, but it can also change a person’s timetable, workload and training needs. Career advisers often recommend comparing the work itself, the support available and the skills that the role requires instead of looking only at the salary.\n\nA useful application shows evidence. Applicants can describe a project they completed, a problem they helped solve or feedback they received. If a skill is new, they can explain how they plan to learn it. Employers do not expect every candidate to have identical experience; they look for relevant preparation and a realistic understanding of the role.\n\nBefore making a decision, people can ask for the job description, arrange an information meeting and consider how the change fits their longer-term goals.'
+  },
+  'community-life': {
+    title: 'When a Neighbourhood Works Together',
+    description: 'How local participation can complement public services in shared spaces.',
+    text: 'Parks, libraries and public squares need both public investment and community participation. Local authorities are responsible for safety, maintenance and long-term planning. Residents, schools and local groups can also report problems, attend consultations and organise activities that make a space feel used and welcoming.\n\nSuccessful projects usually begin with clear information. A council may publish a map of planned repairs; residents may collect photographs or record where a problem appears most often. This helps a discussion move from general complaints to practical priorities.\n\nVolunteers should not replace essential public services. However, when communities and authorities share information and responsibilities, a small improvement can become the first step in a stronger local network.'
+  },
+  'travel-with-purpose': {
+    title: 'Planning a More Responsible Journey',
+    description: 'Why flexible travel plans and local information matter for visitors and residents.',
+    text: 'Travel planning is not only about booking transport and accommodation. Visitors can check local opening times, public-transport options and rules for protected places before they arrive. This reduces pressure on busy areas and helps travellers make better decisions when plans change.\n\nDelays and closures are common. A flexible itinerary leaves time for a second option, such as a museum, a walking route or a local market. Official transport alerts and visitor-information centres are often more reliable than an old social-media post.\n\nResponsible travel also includes respect for the people who live in a destination. Using local businesses, following access rules and avoiding crowded times can make a trip more useful for both visitors and the community.'
+  },
+  'health-and-balance': {
+    title: 'Small Habits and Everyday Health',
+    description: 'How sleep, movement and realistic routines support health over time.',
+    text: 'Health advice is most effective when it fits a person’s real routine. A short walk, a regular bedtime or a planned break from screens may seem simple, but repeating a habit makes it easier to maintain. Public-health guidance usually focuses on patterns over time rather than one perfect day.\n\nSleep is a good example. Late work, family responsibilities and transport can make a fixed schedule difficult, so people may begin with one small change: reducing bright screens before bed or preparing for the next day earlier. Physical activity can work in the same way. Walking part of a journey or taking the stairs can add movement without needing special equipment.\n\nIf stress or tiredness becomes serious, professional advice is important. Everyday habits help, but they are not a replacement for medical support.'
+  },
+  'money-and-choices': {
+    title: 'Making a Simple Personal Budget',
+    description: 'How a budget can turn daily spending into clearer choices.',
+    text: 'A personal budget begins with information, not with guilt. People can list regular income, fixed costs such as rent or transport, and smaller expenses that happen during the week. Seeing the full pattern makes it easier to decide what can change and what cannot.\n\nMany consumer organisations suggest separating needs, planned savings and flexible spending. The categories are not identical for every household. A night-shift worker may spend more on transport, while a student may have changing course costs. The important point is to make a plan that reflects real circumstances.\n\nComparing prices, avoiding unnecessary fees and keeping a small emergency amount can improve confidence. A budget is useful when it supports decisions, rather than when it punishes people for every purchase.'
+  },
+  'digital-life': {
+    title: 'Using Digital Tools Without Losing Focus',
+    description: 'How attention settings and thoughtful habits can improve digital wellbeing.',
+    text: 'Phones and online platforms make communication faster, but they also compete for attention. Notifications are designed to be noticed, so a person may check a device without deciding to do so. Digital-wellbeing settings can group alerts, silence them during study time or show how much time an app uses.\n\nThe goal is not to reject technology. Maps, messages and learning tools are useful. The question is whether a device supports the task a person wants to complete. Turning off non-essential alerts during a conversation, meal or class creates space for concentration.\n\nA healthy digital habit is usually specific: check messages at a planned time, keep a phone away from the bed, or choose one trusted source before sharing a claim.'
+  },
+  'culture-and-media': {
+    title: 'How Media Shapes Cultural Conversation',
+    description: 'Why audiences benefit from comparing context, authorship and different voices.',
+    text: 'Films, music and news reports do more than entertain. They can introduce audiences to a language, a place or a historical debate. At the same time, one programme cannot represent every experience within a community. Viewers benefit from asking who created a work, whose voice is included and what context is missing.\n\nPublic libraries, cultural centres and broadcasters often provide interviews, archives or discussion guides that add context. Comparing more than one source can reveal whether an image is repeated because it is accurate or simply because it is familiar.\n\nCultural discussion becomes stronger when people can enjoy a work and still question its perspective. Curiosity is not the same as criticism; it is a way of understanding more carefully.'
+  },
+  'relationships-and-decisions': {
+    title: 'Making Decisions With Other People',
+    description: 'How clear communication helps groups reach fairer agreements.',
+    text: 'Shared decisions are common at home, at work and in study groups. Problems often appear when people assume that others know their priorities. A short conversation about time, cost and responsibilities can prevent frustration later.\n\nA useful agreement is specific. Instead of saying “we will help more”, a group can decide who will do each task and when they will review the plan. Listening also matters: a solution that works for one person may create a difficulty for someone else.\n\nDisagreement is not always a failure. When people explain their reasons, ask questions and look for a workable compromise, they can make a decision without pretending that every preference is identical.'
+  },
+  'looking-ahead': {
+    title: 'Planning for Change',
+    description: 'How people can set realistic goals while keeping room for uncertainty.',
+    text: 'Long-term plans help people connect today’s actions with a future goal. A learner who wants to work abroad may identify language practice, a qualification and information about visas as separate steps. Breaking a large plan into smaller actions makes progress easier to see.\n\nPlans also need flexibility. Economic conditions, family needs and new opportunities can change the best route. Reviewing a goal every few months allows a person to keep the main direction while adjusting the details.\n\nGood planning combines ambition with evidence. It asks what resources are available now, what support is needed and which next action is realistic this week.'
+  },
+  'sustainable-futures': {
+    title: 'Reducing Waste Before It Appears',
+    description: 'Why prevention, repair and better systems matter alongside recycling.',
+    text: 'Recycling is important, but it happens after a product has already been made, transported and used. Waste-prevention strategies begin earlier: choosing durable items, repairing equipment, sharing tools and reducing unnecessary packaging. These actions can lower the amount of material that enters the waste system.\n\nIndividual choices have limits. Shops, producers and local authorities influence what is available, how products are designed and whether repair services are accessible. Deposit schemes and refill systems work best when they are easy to use and clearly explained.\n\nA sustainable future depends on both daily habits and public decisions. The question is not only “What should one person do?” but also “What systems make the better option possible?”'
+  },
+  'learning-and-communication': {
+    title: 'Learning by Explaining',
+    description: 'Why speaking, feedback and revision help knowledge become more durable.',
+    text: 'Explaining an idea to another person is a useful test of understanding. When learners try to describe a process in clear steps, they notice which parts are still uncertain. Teachers often use short discussions, peer feedback and retrieval practice because these activities require learners to actively use information.\n\nFeedback is most helpful when it identifies one clear strength and one next step. A learner may know many words but need help organising an answer; another may communicate clearly but need more accurate verb forms. Specific feedback gives each person something practical to practise.\n\nCommunication improves through revision. A first answer does not need to be perfect. Listening to a response, asking a follow-up question and trying again are all part of learning.'
+  }
+};
+
 function extendReadingText(plan) {
-  return plan.story;
+  const brief = REAL_READING_BRIEFS[plan.slug];
+  if (!brief) throw new Error(`Missing real reading brief for "${plan.slug}"`);
+  return brief.text;
+}
+
+function buildRealReadingExercises(plan) {
+  const brief = REAL_READING_BRIEFS[plan.slug];
+  return [
+    mcq('What is the main purpose of the article?', [
+      `To explain a practical issue connected with ${plan.title.toLowerCase()}`,
+      'To tell a fictional adventure',
+      'To advertise one product',
+      'To teach an unrelated grammar rule'
+    ], 0),
+    mcq('Which approach does the article support?', [
+      'Using clear information before making a decision',
+      'Ignoring local conditions',
+      'Expecting one solution to fit everyone',
+      'Making decisions without evidence'
+    ], 0),
+    mcq('What does the text say about small actions?', [
+      'They can be useful when they are realistic and repeated',
+      'They are always enough on their own',
+      'They have no value',
+      'They should replace public services'
+    ], 0),
+    mcq('Which statement best matches the conclusion?', [
+      'Better results combine personal action, information and support',
+      'The issue has one simple answer',
+      'Only experts can take part',
+      'Change is impossible'
+    ], 0),
+    mcq('What kind of text is this?', [
+      'A short factual article with practical recommendations',
+      'A fictional dialogue between characters',
+      'A poem',
+      'A restaurant menu'
+    ], 0)
+  ];
 }
 
 function transcriptSegments(text) {
@@ -505,7 +609,7 @@ function transcriptSegments(text) {
 function buildUnit(plan, index) {
   const order = index + 1;
   const vocabItems = expandVocabulary(plan);
-  const readingExercises = readingExerciseBanks[plan.slug];
+  const readingExercises = buildRealReadingExercises(plan);
   const grammarExercises = grammarExerciseBanks[plan.slug];
   if (!readingExercises || !grammarExercises) {
     throw new Error(`Missing English B1 exercise bank for "${plan.slug}"`);
@@ -532,10 +636,10 @@ function buildUnit(plan, index) {
     },
     activities: {
       reading: activity('reading', {
-        title: plan.readingTitle,
-        description: `Read a B1 story about ${plan.title.toLowerCase()} and answer comprehension questions.`,
+        title: REAL_READING_BRIEFS[plan.slug].title,
+        description: REAL_READING_BRIEFS[plan.slug].description,
         reading: {
-          title: plan.readingTitle,
+          title: REAL_READING_BRIEFS[plan.slug].title,
           text: extendReadingText(plan),
           questions: readingExercises.slice(0, 5).map((exercise) => exercise.prompt)
         },
@@ -602,6 +706,6 @@ module.exports = {
   level: 'B1',
   courseTitle: 'English B1',
   courseDescription:
-    'Intermediate English (B1): work, community, travel, health, money, digital life, culture, relationships and future goals through a continuous Sarah and Daniel storyline.',
+    'Intermediate English (B1): real-world readings and practical communication about work, community, travel, health, money, digital life, culture and future goals.',
   units
 };

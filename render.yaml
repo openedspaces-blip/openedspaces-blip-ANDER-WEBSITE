@@ -1,0 +1,44 @@
+services:
+  - type: web
+    name: andergo-web
+    runtime: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_ANON_KEY
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false
+      - key: SUPABASE_DATABASE_URL
+        sync: false
+      - key: PORT
+        sync: false
+      - key: DEV_TOKEN_SECRET
+        sync: false
+      - key: NEXT_PUBLIC_PADDLE_ENV
+        sync: false
+      - key: NEXT_PUBLIC_PADDLE_CLIENT_TOKEN
+        sync: false
+      - key: NEXT_PUBLIC_PADDLE_MONTHLY_PRICE_ID
+        sync: false
+      - key: NEXT_PUBLIC_PADDLE_QUARTERLY_PRICE_ID
+        sync: false
+      - key: PADDLE_API_KEY
+        sync: false
+      - key: PADDLE_CHECKOUT_URL
+        sync: false
+      - key: PADDLE_WEBHOOK_SECRET
+        sync: false
+      - key: CEREBRAS_API_KEY
+        sync: false
+      - key: GROQ_API_KEY
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: DEEPL_API_KEY
+        sync: false
+      - key: ALLOWED_ORIGINS
+        sync: false

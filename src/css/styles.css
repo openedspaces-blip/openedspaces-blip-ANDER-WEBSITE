@@ -8789,6 +8789,36 @@ footer small {
   margin: 0.25rem 0 0;
 }
 
+.paypal-fallback {
+  margin-top: 0.85rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid rgba(37, 99, 235, 0.14);
+}
+
+.paypal-fallback > p:first-child {
+  margin: 0 0 0.55rem;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.paypal-fallback-buttons {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.65rem;
+}
+
+.paypal-fallback [data-paypal-status] {
+  margin: 0.45rem 0 0;
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+@media (max-width: 520px) {
+  .paypal-fallback-buttons {
+    grid-template-columns: 1fr;
+  }
+}
+
 .reading-editorial-prelude {
   margin: 0.85rem auto 1.25rem;
   padding: 0.9rem 1rem;
