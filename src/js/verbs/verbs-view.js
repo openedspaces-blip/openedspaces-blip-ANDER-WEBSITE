@@ -1046,6 +1046,122 @@
 
   let practiceRuntime = null;
 
+  const ROULETTE_COLORS = ['#2563eb', '#06b6d4', '#14b8a6', '#22c55e', '#f59e0b', '#f97316', '#ef4444', '#ec4899', '#8b5cf6', '#4f46e5', '#0284c7', '#10b981'];
+  let rouletteRotation = 0;
+  let rouletteChallenge = null;
+  let rouletteCorrect = 0;
+
+  function rouletteLevel() {
+    return (typeof learningPathState !== 'undefined' && learningPathState.level) || 'A1';
+  }
+
+  function rouletteTenses(engine, level) {
+    const allowedByLevel = {
+      'PRE-A1': ['presentSimple'],
+      A1: ['presentSimple'],
+      A2: ['presentSimple', 'pastSimple', 'futureSimple'],
+      B1: ['presentSimple', 'pastSimple', 'imperfect', 'presentContinuous', 'presentPerfect', 'futureSimple'],
+      B2: ['presentSimple', 'pastSimple', 'imperfect', 'presentContinuous', 'presentPerfect', 'pastPerfect', 'futureSimple', 'conditional'],
+      C1: ['presentSimple', 'pastSimple', 'imperfect', 'presentContinuous', 'presentPerfect', 'pastPerfect', 'futureSimple', 'conditional', 'subjunctive'],
+      C2: null
+    };
+    const allowed = allowedByLevel[level] || allowedByLevel.A1;
+    return engine.TENSES.filter((tense) => tense.id !== 'imperative' && (!allowed || allowed.includes(tense.id)));
+  }
+
+  function renderVerbRoulette() {
+    const wheel = document.getElementById('verbRouletteWheel');
+    if (!wheel) return;
+    const verbs = getVerbsForLanguage(currentVerbLanguage()).slice().sort((a, b) => (a.rank || 0) - (b.rank || 0)).slice(0, 12);
+    const segment = 360 / Math.max(verbs.length, 1);
+    const gradient = verbs.map((_, index) => `${ROULETTE_COLORS[index % ROULETTE_COLORS.length]} ${index * segment}deg ${(index + 1) * segment}deg`).join(',');
+    wheel.style.background = `conic-gradient(from -${segment / 2}deg, ${gradient})`;
+    wheel.dataset.verbIds = verbs.map((verb) => verb.id).join(',');
+    wheel.innerHTML = verbs.map((verb, index) => {
+      const angle = index * segment;
+      return `<span class="verb-roulette-segment" style="--segment-angle:${angle}deg">${escapeHtml(verb.infinitive)}</span>`;
+    }).join('');
+    const level = rouletteLevel();
+    const levelBadge = document.getElementById('verbRouletteLevel');
+    const score = document.getElementById('verbRouletteScore');
+    if (levelBadge) levelBadge.textContent = `Nivel ${level}`;
+    if (score) score.textContent = `${rouletteCorrect} ${rouletteCorrect === 1 ? 'acierto' : 'aciertos'}`;
+    rouletteChallenge = null;
+    const task = document.getElementById('verbRouletteTask');
+    if (task) task.hidden = true;
+  }
+
+  function spinVerbRoulette() {
+    const wheel = document.getElementById('verbRouletteWheel');
+    const button = document.getElementById('verbRouletteSpinBtn');
+    if (!wheel || button?.disabled) return;
+    const ids = (wheel.dataset.verbIds || '').split(',').filter(Boolean);
+    if (!ids.length) return;
+    const selectedIndex = Math.floor(Math.random() * ids.length);
+    const segment = 360 / ids.length;
+    // Bring the selected segment to the pointer on the wheel's left edge.
+    rouletteRotation += 1440 + (180 - selectedIndex * segment);
+    wheel.style.setProperty('--roulette-rotation', `${rouletteRotation}deg`);
+    wheel.classList.add('is-spinning');
+    button.disabled = true;
+    button.textContent = 'Girando…';
+    window.setTimeout(() => {
+      wheel.classList.remove('is-spinning');
+      button.disabled = false;
+      button.textContent = 'Otra vez';
+      createRouletteChallenge(ids[selectedIndex]);
+    }, 1700);
+  }
+
+  function createRouletteChallenge(verbId) {
+    const verb = getVerbById(verbId, currentVerbLanguage());
+    const engine = currentConjugationEngine();
+    const tenses = engine ? rouletteTenses(engine, rouletteLevel()) : [];
+    const tense = tenses[Math.floor(Math.random() * tenses.length)];
+    const data = verb && tense ? engine.conjugateTense(verb, tense.id) : null;
+    if (!data?.rows?.length) return;
+    const row = data.rows[Math.floor(Math.random() * data.rows.length)];
+    rouletteChallenge = { verb, tense, row };
+    const prompt = document.getElementById('verbRoulettePrompt');
+    const answer = document.getElementById('verbRouletteAnswer');
+    const feedback = document.getElementById('verbRouletteFeedback');
+    const task = document.getElementById('verbRouletteTask');
+    if (prompt) prompt.textContent = `${verb.infinitive} · ${row.label} · ${tense.label}`;
+    if (answer) {
+      answer.value = '';
+      answer.placeholder = row.label;
+      answer.disabled = false;
+    }
+    if (feedback) {
+      feedback.textContent = '';
+      feedback.className = 'verb-roulette-feedback';
+    }
+    if (task) task.hidden = false;
+    answer?.focus();
+  }
+
+  function checkRouletteAnswer() {
+    if (!rouletteChallenge) return;
+    const input = document.getElementById('verbRouletteAnswer');
+    const feedback = document.getElementById('verbRouletteFeedback');
+    const expected = rouletteChallenge.row.affirmative;
+    const actual = input?.value || '';
+    const correct = normalizeSearchText(actual) === normalizeSearchText(expected);
+    if (!actual.trim()) {
+      if (feedback) feedback.textContent = 'Escribe tu respuesta antes de comprobar.';
+      return;
+    }
+    if (correct) rouletteCorrect += 1;
+    recordVerbAttempt(rouletteChallenge.verb.id, correct);
+    if (feedback) {
+      feedback.className = `verb-roulette-feedback ${correct ? 'is-correct' : 'is-incorrect'}`;
+      feedback.textContent = correct ? '✅ ¡Correcto! Gira otra vez.' : `❌ La forma correcta es: ${expected}`;
+    }
+    if (input) input.disabled = true;
+    const score = document.getElementById('verbRouletteScore');
+    if (score) score.textContent = `${rouletteCorrect} ${rouletteCorrect === 1 ? 'acierto' : 'aciertos'}`;
+  }
+
   function showVerbsPracticeSetup() {
     practiceRuntime = null;
     const setup = document.getElementById('verbsPracticeSetup');
@@ -1576,6 +1692,7 @@
     resetVerbsPagination();
     renderVerbsDeck();
     renderVerbsConjugator();
+    renderVerbRoulette();
     const resetRow = document.querySelector('.verb-progress-reset-row');
     if (resetRow) resetRow.hidden = false;
     const setup = document.getElementById('verbsPracticeSetup');
@@ -1605,6 +1722,13 @@
       resetVerbsPagination();
       renderVerbsDeck();
     }, 250);
+  });
+
+  document.addEventListener('keydown', (event) => {
+    if (event.target.id === 'verbRouletteAnswer' && event.key === 'Enter') {
+      event.preventDefault();
+      checkRouletteAnswer();
+    }
   });
 
   document.addEventListener('change', (event) => {
@@ -1816,6 +1940,26 @@
       if (!requireAuthForVerbFeature('practice')) return;
       const poolSelect = document.getElementById('verbsPracticePoolSelect');
       startVerbsPractice(poolSelect?.value || 'all');
+      return;
+    }
+
+    if (event.target.closest('#verbRouletteSpinBtn')) {
+      if (!requireAuthForVerbFeature('practice')) return;
+      spinVerbRoulette();
+      return;
+    }
+
+    if (event.target.closest('#verbRouletteCheckBtn')) {
+      checkRouletteAnswer();
+      return;
+    }
+
+    if (event.target.closest('#verbRouletteHearBtn')) {
+      if (!rouletteChallenge) return;
+      speakText(rouletteChallenge.verb.infinitive, {
+        locale: getPronunciationLocale(currentVerbLanguage()),
+        rate: 0.82
+      });
       return;
     }
 

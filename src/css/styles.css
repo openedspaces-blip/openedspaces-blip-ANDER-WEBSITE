@@ -8789,6 +8789,17 @@ footer small {
   margin: 0.25rem 0 0;
 }
 
+/* On desktop, let the Reading cover occupy the full visual band between the
+   display toolbar and the divider below the introduction. */
+@media (min-width: 721px) {
+  .reading-reader-card .reading-hero--near-text .reading-illustration {
+    align-self: stretch;
+    width: 170px;
+    height: auto;
+    margin-block: -1rem -0.75rem;
+  }
+}
+
 /* Reading cover: a crop from the local thematic illustration atlas. It keeps
    the title compact while giving every text an immediate visual context. */
 .reading-illustration {
@@ -16681,6 +16692,45 @@ body.tutor-robot-listening .tutor-bot-signal { animation:tutor-bot-listen 1s eas
    as-is; only the setup screen, inline feedback and the correct/incorrect
    option states (Grammar's own test defers that to a separate results
    screen instead of inline) are new. */
+.verb-roulette-card {
+  display: grid;
+  grid-template-columns: minmax(230px, 0.8fr) minmax(290px, 1fr) minmax(260px, 0.9fr);
+  align-items: center;
+  gap: clamp(1rem, 3vw, 2.4rem);
+  margin-bottom: 1rem;
+  padding: clamp(1.1rem, 2.5vw, 2rem);
+  overflow: hidden;
+  border: 1px solid rgba(37, 99, 235, 0.18);
+  border-radius: 24px;
+  background: radial-gradient(circle at 52% 45%, rgba(14, 165, 233, 0.14), transparent 34%), linear-gradient(135deg, #f8fbff, #f4f0ff);
+}
+
+.verb-roulette-kicker, .verb-roulette-task-label { color: var(--blue); font-size: 0.76rem; font-weight: 900; letter-spacing: 0.08em; text-transform: uppercase; }
+.verb-roulette-copy h3 { margin: 0.35rem 0 0.5rem; color: var(--navy-2); font-size: clamp(1.65rem, 3vw, 2.4rem); }
+.verb-roulette-copy p { margin: 0; color: var(--muted); line-height: 1.55; }
+.verb-roulette-meta { display: flex; flex-wrap: wrap; gap: 0.45rem; margin-top: 0.9rem; }
+.verb-roulette-meta span { padding: 0.38rem 0.65rem; border-radius: 999px; background: #fff; color: var(--navy-2); font-size: 0.78rem; font-weight: 800; box-shadow: 0 5px 16px rgba(15, 23, 42, 0.06); }
+
+.verb-roulette-stage { position: relative; width: min(100%, 330px); aspect-ratio: 1; margin: auto; }
+.verb-roulette-wheel { position: absolute; inset: 5%; border: 8px solid #fff; border-radius: 50%; box-shadow: 0 18px 40px rgba(37, 99, 235, 0.2), inset 0 0 0 2px rgba(15, 23, 42, 0.08); transform: rotate(var(--roulette-rotation, 0deg)); transition: transform 1.65s cubic-bezier(.12,.72,.12,1); }
+.verb-roulette-wheel::after { content: ''; position: absolute; inset: 33%; border: 5px solid rgba(255,255,255,.92); border-radius: 50%; background: linear-gradient(135deg, #fff, #eaf2ff); box-shadow: 0 5px 18px rgba(15,23,42,.15); }
+.verb-roulette-segment { position: absolute; z-index: 1; top: 50%; left: 50%; width: 42%; color: #fff; font-size: clamp(.58rem, 1.1vw, .72rem); font-weight: 900; text-align: right; text-shadow: 0 1px 2px rgba(0,0,0,.3); transform-origin: left center; transform: rotate(var(--segment-angle)) translateX(49%) rotate(90deg); }
+.verb-roulette-pointer { position: absolute; z-index: 4; top: 46%; left: -1%; width: 0; height: 0; border-top: 15px solid transparent; border-bottom: 15px solid transparent; border-left: 27px solid var(--navy-2); filter: drop-shadow(0 3px 4px rgba(15,23,42,.2)); }
+.verb-roulette-spin { position: absolute; z-index: 5; inset: 40%; display: grid; place-items: center; padding: 0; border: 0; border-radius: 50%; background: linear-gradient(135deg, var(--blue), #7c3aed); color: #fff; cursor: pointer; font: inherit; font-size: .78rem; font-weight: 900; box-shadow: 0 8px 22px rgba(37,99,235,.35); }
+.verb-roulette-spin:hover { transform: scale(1.06); }
+.verb-roulette-spin:disabled { cursor: wait; opacity: .85; }
+
+.verb-roulette-task { display: grid; gap: 0.65rem; padding: 1rem; border: 1px solid rgba(37,99,235,.14); border-radius: 18px; background: rgba(255,255,255,.82); box-shadow: 0 12px 30px rgba(15,23,42,.06); }
+.verb-roulette-task[hidden] { display: none; }
+.verb-roulette-task strong { color: var(--navy-2); font-size: 1.05rem; }
+.verb-roulette-answer-field { display: grid; gap: .35rem; color: var(--muted); font-size: .78rem; font-weight: 800; }
+.verb-roulette-answer-field input { width: 100%; min-height: 46px; padding: .7rem .8rem; border: 1px solid #bfdbfe; border-radius: 12px; background: #fff; color: var(--navy-2); font: inherit; }
+.verb-roulette-answer-field input:focus { border-color: var(--blue); outline: 3px solid rgba(37,99,235,.12); }
+.verb-roulette-actions { display: flex; flex-wrap: wrap; gap: .45rem; }
+.verb-roulette-feedback { min-height: 1.2rem; margin: 0; color: var(--muted); font-size: .88rem; font-weight: 800; }
+.verb-roulette-feedback.is-correct { color: #15803d; }
+.verb-roulette-feedback.is-incorrect { color: #b91c1c; }
+
 .verb-practice-setup {
   display: flex;
   flex-wrap: wrap;
@@ -20601,6 +20651,22 @@ footer small {
   gap: 1rem;
 }
 
+@media (max-width: 900px) {
+  .verb-roulette-card { grid-template-columns: 1fr 1fr; }
+  .verb-roulette-copy { grid-column: 1 / -1; text-align: center; }
+  .verb-roulette-meta { justify-content: center; }
+}
+
+@media (max-width: 620px) {
+  .verb-roulette-card { grid-template-columns: 1fr; padding: 1rem; }
+  .verb-roulette-stage { width: min(88vw, 310px); }
+  .verb-roulette-actions > * { flex: 1 1 130px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .verb-roulette-wheel { transition-duration: .01ms; }
+}
+
 .interpreter-heading,
 .interpreter-actions {
   display: flex;
@@ -24222,18 +24288,20 @@ body {
   }
 
   .path-unit {
-    grid-template-columns: 5.35rem minmax(0, 1fr) auto;
+    grid-template-columns: 7.15rem minmax(0, 1fr) auto;
     grid-template-rows: auto minmax(1.25rem, auto) auto;
     gap: 0.2rem 0.78rem;
     min-height: 118px;
-    padding: 0.82rem 0.9rem 0.9rem;
+    padding: 0.55rem 0.9rem 0.65rem 0;
   }
 
   .path-unit-artwork {
     grid-row: 1 / 4;
-    width: 5.35rem;
-    height: 5.35rem;
-    border-radius: 18px;
+    align-self: stretch;
+    width: 7.15rem;
+    height: auto;
+    margin-block: -0.55rem -0.65rem;
+    border-radius: 17px 0 0 17px;
   }
 
   .path-unit-title {
@@ -24268,7 +24336,7 @@ body {
   .path-unit-progress-track {
     right: 0.9rem;
     bottom: 0.42rem;
-    left: 7.1rem;
+    left: 8rem;
   }
 }
 

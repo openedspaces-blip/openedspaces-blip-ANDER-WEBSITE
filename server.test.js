@@ -1266,6 +1266,20 @@ test('Games provide graded, thematic and measurable rounds in all three language
   assert.match(styles, /\.games-word-grid[^}]*aspect-ratio:1/s);
 });
 
+test('Verbs practice includes a level-adapted conjugation roulette in all three languages', () => {
+  const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
+  const script = fs.readFileSync(path.join(__dirname, 'src/js/verbs/verbs-view.js'), 'utf8');
+  const styles = fs.readFileSync(path.join(__dirname, 'src/css/styles.css'), 'utf8');
+  assert.match(html, /id="verbRouletteWheel"/);
+  assert.match(html, /id="verbRouletteAnswer"/);
+  assert.match(script, /function rouletteTenses\(engine, level\)/);
+  assert.match(script, /getVerbsForLanguage\(currentVerbLanguage\(\)\)/);
+  assert.match(script, /engine\.conjugateTense\(verb, tense\.id\)/);
+  assert.match(script, /normalizeSearchText\(actual\) === normalizeSearchText\(expected\)/);
+  assert.match(styles, /\.verb-roulette-stage[^}]*aspect-ratio: 1/s);
+  assert.match(styles, /@media \(max-width: 620px\)[^{]*\{[^}]*\.verb-roulette-card/s);
+});
+
 test('French C2 has 12 CEFR mastery units entirely in French across all six core skills', () => {
   const units = seedUnits
     .filter((row) => row.target_language === 'french' && row.level === 'C2')

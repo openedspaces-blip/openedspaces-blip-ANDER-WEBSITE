@@ -808,6 +808,37 @@
           </div>
 
           <div class="skill-panel" data-skill="practice">
+            <section class="verb-roulette-card" aria-labelledby="verbRouletteTitle">
+              <div class="verb-roulette-copy">
+                <span class="verb-roulette-kicker">Reto de conjugación</span>
+                <h3 id="verbRouletteTitle">Gira la ruleta</h3>
+                <p>La suerte elige el verbo. ANDERGO añade una persona y un tiempo verbal para que lo conjugues.</p>
+                <div class="verb-roulette-meta" aria-label="Estado de la ruleta">
+                  <span id="verbRouletteLevel">Nivel A1</span>
+                  <span id="verbRouletteScore">0 aciertos</span>
+                </div>
+              </div>
+              <div class="verb-roulette-stage">
+                <div class="verb-roulette-pointer" aria-hidden="true"></div>
+                <div class="verb-roulette-wheel" id="verbRouletteWheel" aria-label="Ruleta de verbos"></div>
+                <button type="button" class="verb-roulette-spin" id="verbRouletteSpinBtn" aria-label="Girar la ruleta">
+                  Girar
+                </button>
+              </div>
+              <div class="verb-roulette-task" id="verbRouletteTask" hidden aria-live="polite">
+                <span class="verb-roulette-task-label">Tu reto</span>
+                <strong id="verbRoulettePrompt"></strong>
+                <label class="verb-roulette-answer-field">
+                  <span>Escribe la forma completa</span>
+                  <input id="verbRouletteAnswer" type="text" autocomplete="off" spellcheck="false" />
+                </label>
+                <div class="verb-roulette-actions">
+                  <button type="button" class="primary-btn" id="verbRouletteCheckBtn">Comprobar</button>
+                  <button type="button" class="secondary-btn" id="verbRouletteHearBtn">🔊 Escuchar verbo</button>
+                </div>
+                <p class="verb-roulette-feedback" id="verbRouletteFeedback"></p>
+              </div>
+            </section>
             <div id="verbsPracticeSetup" class="verb-practice-setup">
               <div class="verb-practice-challenge" aria-label="Elige un reto rápido">
                 <span class="verb-practice-challenge-label">Reto rápido</span>
