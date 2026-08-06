@@ -2566,16 +2566,18 @@ async function afterAuthSuccess() {
   closeAllAuthUI();
 
   try {
-    await loadProgress();
-
+    // loadProgress and loadPreferences read independent endpoints - running
+    // them together instead of one after another roughly halves this part
+    // of the post-login wait, which used to keep the login button disabled
+    // ("Entrando...") for several extra seconds.
+    profileStatus = 'loading';
+    const [, preferences] = await Promise.all([loadProgress(), loadPreferences()]);
     // profileStatus gates maybeShowUsernameOnboarding() below - it must reach
     // 'loaded' (a real preferences object, username included) before the
     // onboarding modal is even considered, never while the fetch is still
     // 'loading' or ended in 'error' (loadPreferences() only ever returns null
     // on a genuine fetch/parse failure here, since every profile row already
     // has language/level defaults - see preferencesService.js).
-    profileStatus = 'loading';
-    const preferences = await loadPreferences();
     profileStatus = preferences ? 'loaded' : 'error';
     if (preferences?.username && authStatus.user) {
       authStatus.user.username = preferences.username;
@@ -2583,7 +2585,21 @@ async function afterAuthSuccess() {
     }
 
     applyPreferencesToSelects(preferences);
-    await loadLearningPath(preferences || {});
+    // bootstrapLearningPath() already loads a language+level on first paint
+    // (the account's saved pair, read from localStorage while still signed
+    // out - see its own comment). If sign-in resolves to that same pair,
+    // lessons/verb-progress/etc. were just fetched a moment ago: reloading
+    // them again here only adds several redundant seconds to every login
+    // without changing what's on screen. Only reload when the authenticated
+    // preferences actually differ from what's already loaded.
+    const samePairAlreadyLoaded =
+      preferences &&
+      learningPathState.language === preferences.language &&
+      learningPathState.level === preferences.level &&
+      learningPathState.lessons.length > 0;
+    if (!samePairAlreadyLoaded) {
+      await loadLearningPath(preferences || {});
+    }
     await maybeShowUsernameOnboarding(preferences);
   } catch (error) {
     // The signed-in UI itself (header/dashboard) is already showing - never
