@@ -2563,346 +2563,6 @@
     }
   },
   {
-    "slug": "la-rentree-universitaire",
-    "target_language": "french",
-    "level": "C1",
-    "title": "La rentrée universitaire",
-    "title_es": "El inicio del curso universitario",
-    "description": "Camila commence sa licence de langues étrangères appliquées à l’université de Tours et retrouve Léa et Karim.",
-    "order_index": 1,
-    "unit_overview": {
-      "objective": "Comprendre un récit universitaire complexe et maîtriser des nuances grammaticales de haut niveau.",
-      "outcomes": [
-        "comprendre un texte long à registre soutenu",
-        "analyser des nuances lexicales fines à l’université",
-        "utiliser les structures de mise en relief (c’est... qui/que)",
-        "reconnaître l’usage du subjonctif dans des tournures nuancées d’opinion"
-      ],
-      "grammar": [
-        "la mise en relief (c’est... qui/que)",
-        "subjonctif après verbes d’opinion nuancée",
-        "registre soutenu à l’écrit universitaire"
-      ],
-      "vocabulary": [
-        "un amphithéâtre",
-        "une unité d’enseignement",
-        "un syllabus",
-        "l’autonomie académique"
-      ],
-      "scenario": "Camila arrive pour son premier jour de cours à l’université de Tours, où elle retrouve Léa et Karim."
-    }
-  },
-  {
-    "slug": "un-exposer-a-preparer",
-    "target_language": "french",
-    "level": "C1",
-    "title": "Un exposé à préparer",
-    "title_es": "Una exposición por preparar",
-    "description": "Camila prépare, avec un groupe d’étudiants internationaux, un exposé complexe sur la diversité linguistique dans les Caraïbes.",
-    "order_index": 2,
-    "unit_overview": {
-      "objective": "Comprendre un travail de groupe académique complexe et maîtriser le discours rapporté nuancé.",
-      "outcomes": [
-        "comprendre les dynamiques d’un travail de groupe universitaire",
-        "analyser un vocabulaire académique spécialisé",
-        "utiliser le discours rapporté avec concordance des temps complète",
-        "reconnaître les nuances de l’expression de la probabilité en français soutenu"
-      ],
-      "grammar": [
-        "discours rapporté avec concordance des temps complète",
-        "expression de la probabilité (registre soutenu : il est probable que, il n’est pas exclu que)",
-        "accord et cohérence dans un texte académique long"
-      ],
-      "vocabulary": [
-        "une soutenance",
-        "la diversité linguistique",
-        "un consensus",
-        "une problématique"
-      ],
-      "scenario": "Camila collabore avec un groupe international pour préparer un exposé sur la diversité linguistique caribéenne, un sujet qui la touche personnellement."
-    }
-  },
-  {
-    "slug": "les-medias-et-la-fabrique-de-lopinion",
-    "target_language": "french",
-    "level": "C1",
-    "title": "Les médias et la fabrique de l’opinion",
-    "title_es": "Los medios y la construcción de la opinión",
-    "description": "Comment une même réforme universitaire est racontée différemment selon les médias.",
-    "order_index": 3,
-    "unit_overview": {
-      "objective": "Analyser le cadrage médiatique, les présupposés et la hiérarchie de l’information.",
-      "outcomes": [
-        "comprendre un texte long et conceptuellement dense",
-        "identifier les implicites et les nuances argumentatives",
-        "réutiliser un lexique précis en contexte",
-        "maîtriser une structure grammaticale de niveau C1"
-      ],
-      "grammar": [
-        "La nominalisation et les tournures impersonnelles"
-      ],
-      "vocabulary": [
-        "le cadrage",
-        "un présupposé",
-        "une ligne éditoriale",
-        "un angle mort"
-      ],
-      "scenario": "Camila prépare une revue de presse sur une réforme des universités."
-    }
-  },
-  {
-    "slug": "intelligence-artificielle-et-traduction",
-    "target_language": "french",
-    "level": "C1",
-    "title": "Intelligence artificielle et traduction",
-    "title_es": "Inteligencia artificial y traducción",
-    "description": "Ce que la traduction automatique révèle, et ce qu’elle efface, face à un texte littéraire.",
-    "order_index": 4,
-    "unit_overview": {
-      "objective": "Évaluer une technologie en distinguant efficacité, responsabilité et perte de nuance.",
-      "outcomes": [
-        "comprendre un texte long et conceptuellement dense",
-        "identifier les implicites et les nuances argumentatives",
-        "réutiliser un lexique précis en contexte",
-        "maîtriser une structure grammaticale de niveau C1"
-      ],
-      "grammar": [
-        "La concession avancée : quoique, quand bien même, avoir beau"
-      ],
-      "vocabulary": [
-        "aplatir une voix",
-        "un sous-entendu",
-        "vraisemblable",
-        "une décision interprétative"
-      ],
-      "scenario": "Camila doit traduire le témoignage littéraire d’une autrice caribéenne."
-    }
-  },
-  {
-    "slug": "memoire-migration-et-identite",
-    "target_language": "french",
-    "level": "C1",
-    "title": "Mémoire, migration et identité",
-    "title_es": "Memoria, migración e identidad",
-    "description": "Ce que les correspondances familiales migratoires révèlent, et taisent, aux historiens.",
-    "order_index": 5,
-    "unit_overview": {
-      "objective": "Interpréter un récit mémoriel où documents, silences et identité se répondent.",
-      "outcomes": [
-        "comprendre un texte long et conceptuellement dense",
-        "identifier les implicites et les nuances argumentatives",
-        "réutiliser un lexique précis en contexte",
-        "maîtriser une structure grammaticale de niveau C1"
-      ],
-      "grammar": [
-        "Les temps du récit et le discours indirect libre"
-      ],
-      "vocabulary": [
-        "une archive",
-        "un récit linéaire",
-        "minimiser",
-        "un fragment"
-      ],
-      "scenario": "Camila classe des lettres envoyées entre la République dominicaine et la France."
-    }
-  },
-  {
-    "slug": "justice-sociale-et-inegalites",
-    "target_language": "french",
-    "level": "C1",
-    "title": "Justice sociale et inégalités",
-    "title_es": "Justicia social y desigualdades",
-    "description": "Les limites du discours méritocratique face aux inégalités de départ.",
-    "order_index": 6,
-    "unit_overview": {
-      "objective": "Suivre une argumentation contradictoire et distinguer égalité formelle et équité.",
-      "outcomes": [
-        "comprendre un texte long et conceptuellement dense",
-        "identifier les implicites et les nuances argumentatives",
-        "réutiliser un lexique précis en contexte",
-        "maîtriser une structure grammaticale de niveau C1"
-      ],
-      "grammar": [
-        "Les articulateurs logiques et la réfutation"
-      ],
-      "vocabulary": [
-        "la méritocratie",
-        "l’équité",
-        "déterministe",
-        "un justificatif"
-      ],
-      "scenario": "Des étudiants débattent de la sélection et des bourses universitaires."
-    }
-  },
-  {
-    "slug": "ecologie-et-responsabilite-collective",
-    "target_language": "french",
-    "level": "C1",
-    "title": "Écologie et responsabilité collective",
-    "title_es": "Ecología y responsabilidad colectiva",
-    "description": "Les arbitrages d’une politique de sobriété énergétique sur un campus universitaire.",
-    "order_index": 7,
-    "unit_overview": {
-      "objective": "Évaluer une politique écologique en identifiant arbitrages, indicateurs et effets indirects.",
-      "outcomes": [
-        "comprendre un texte long et conceptuellement dense",
-        "identifier les implicites et les nuances argumentatives",
-        "réutiliser un lexique précis en contexte",
-        "maîtriser une structure grammaticale de niveau C1"
-      ],
-      "grammar": [
-        "L’hypothèse complexe et le conditionnel passé"
-      ],
-      "vocabulary": [
-        "la sobriété énergétique",
-        "énergivore",
-        "un arbitrage",
-        "structurel(le)"
-      ],
-      "scenario": "L’université doit réduire sa consommation énergétique sans exclure les étudiants."
-    }
-  },
-  {
-    "slug": "langues-pouvoir-et-inclusion",
-    "target_language": "french",
-    "level": "C1",
-    "title": "Langues, pouvoir et inclusion",
-    "title_es": "Lenguas, poder e inclusión",
-    "description": "Comment les normes linguistiques peuvent inclure ou marginaliser selon les contextes.",
-    "order_index": 8,
-    "unit_overview": {
-      "objective": "Analyser le rapport entre norme, variation linguistique et légitimité sociale.",
-      "outcomes": [
-        "comprendre un texte long et conceptuellement dense",
-        "identifier les implicites et les nuances argumentatives",
-        "réutiliser un lexique précis en contexte",
-        "maîtriser une structure grammaticale de niveau C1"
-      ],
-      "grammar": [
-        "Les relatives complexes : dont, lequel, ce à quoi, ce dont"
-      ],
-      "vocabulary": [
-        "une norme linguistique",
-        "une variété",
-        "la légitimité",
-        "stigmatiser"
-      ],
-      "scenario": "Un atelier examine les accents et la légitimité linguistique."
-    }
-  },
-  {
-    "slug": "science-doute-et-esprit-critique",
-    "target_language": "french",
-    "level": "C1",
-    "title": "Science, doute et esprit critique",
-    "title_es": "Ciencia, duda y pensamiento crítico",
-    "description": "Ce qui distingue l’incertitude scientifique méthodique de la simple ignorance.",
-    "order_index": 9,
-    "unit_overview": {
-      "objective": "Comprendre la valeur méthodologique du doute et la communication des résultats provisoires.",
-      "outcomes": [
-        "comprendre un texte long et conceptuellement dense",
-        "identifier les implicites et les nuances argumentatives",
-        "réutiliser un lexique précis en contexte",
-        "maîtriser une structure grammaticale de niveau C1"
-      ],
-      "grammar": [
-        "Les modalisateurs de certitude et le subjonctif"
-      ],
-      "vocabulary": [
-        "une hypothèse",
-        "la réfutation",
-        "provisoire",
-        "une donnée"
-      ],
-      "scenario": "Camila assiste à une conférence sur la communication scientifique."
-    }
-  },
-  {
-    "slug": "art-censure-et-liberte",
-    "target_language": "french",
-    "level": "C1",
-    "title": "Art, censure et liberté",
-    "title_es": "Arte, censura y libertad",
-    "description": "Une déprogrammation controversée d’exposition interroge liberté artistique et responsabilité.",
-    "order_index": 10,
-    "unit_overview": {
-      "objective": "Analyser un conflit entre liberté artistique, responsabilité institutionnelle et réception publique.",
-      "outcomes": [
-        "comprendre un texte long et conceptuellement dense",
-        "identifier les implicites et les nuances argumentatives",
-        "réutiliser un lexique précis en contexte",
-        "maîtriser une structure grammaticale de niveau C1"
-      ],
-      "grammar": [
-        "La voix passive, le passif pronominal et faire + infinitif"
-      ],
-      "vocabulary": [
-        "déprogrammer",
-        "une médiation",
-        "un adoucissement",
-        "opaque"
-      ],
-      "scenario": "Une exposition universitaire est retirée après des plaintes contradictoires."
-    }
-  },
-  {
-    "slug": "avenir-incertitude-et-choix",
-    "target_language": "french",
-    "level": "C1",
-    "title": "Avenir, incertitude et choix",
-    "title_es": "Futuro, incertidumbre y decisiones",
-    "description": "Comment décider face à une offre de mobilité internationale sans disposer de toutes les garanties.",
-    "order_index": 11,
-    "unit_overview": {
-      "objective": "Comprendre une décision complexe où valeurs, risques et temporalités s’opposent.",
-      "outcomes": [
-        "comprendre un texte long et conceptuellement dense",
-        "identifier les implicites et les nuances argumentatives",
-        "réutiliser un lexique précis en contexte",
-        "maîtriser une structure grammaticale de niveau C1"
-      ],
-      "grammar": [
-        "Le futur antérieur et les projections dans le passé"
-      ],
-      "vocabulary": [
-        "une voie",
-        "une unité de comparaison",
-        "irréversible",
-        "révisable"
-      ],
-      "scenario": "Camila reçoit une proposition de master et de stage à Montréal."
-    }
-  },
-  {
-    "slug": "bilan-identite-et-transmission",
-    "target_language": "french",
-    "level": "C1",
-    "title": "Bilan, identité et transmission",
-    "title_es": "Balance, identidad y transmisión",
-    "description": "Ce que les ateliers d’accueil pour étudiants internationaux choisissent de transmettre.",
-    "order_index": 12,
-    "unit_overview": {
-      "objective": "Synthétiser un parcours, transmettre une expérience et interroger la position de celui qui conseille.",
-      "outcomes": [
-        "comprendre un texte long et conceptuellement dense",
-        "identifier les implicites et les nuances argumentatives",
-        "réutiliser un lexique précis en contexte",
-        "maîtriser une structure grammaticale de niveau C1"
-      ],
-      "grammar": [
-        "La reprise et la cohésion d’un texte complexe"
-      ],
-      "vocabulary": [
-        "un parcours uniforme",
-        "un retour en arrière",
-        "un code implicite",
-        "dégager une idée"
-      ],
-      "scenario": "Camila transforme son expérience en atelier sans en faire une recette universelle."
-    }
-  },
-  {
     "slug": "compras-y-cantidades",
     "target_language": "spanish",
     "level": "A2",
@@ -5666,5 +5326,345 @@
     "description": "Planes inmediatos, fechas, el clima y repaso general de A1.",
     "order_index": 12,
     "unit_overview": null
+  },
+  {
+    "slug": "la-rentree-universitaire",
+    "target_language": "french",
+    "level": "C1",
+    "title": "La rentrée universitaire",
+    "title_es": "El inicio del curso universitario",
+    "description": "Camila commence sa licence de langues étrangères appliquées à l’université de Tours et retrouve Léa et Karim.",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "Comprendre un récit universitaire complexe et maîtriser des nuances grammaticales de haut niveau.",
+      "outcomes": [
+        "comprendre un texte long à registre soutenu",
+        "analyser des nuances lexicales fines à l’université",
+        "utiliser les structures de mise en relief (c’est... qui/que)",
+        "reconnaître l’usage du subjonctif dans des tournures nuancées d’opinion"
+      ],
+      "grammar": [
+        "la mise en relief (c’est... qui/que)",
+        "subjonctif après verbes d’opinion nuancée",
+        "registre soutenu à l’écrit universitaire"
+      ],
+      "vocabulary": [
+        "un amphithéâtre",
+        "une unité d’enseignement",
+        "un syllabus",
+        "l’autonomie académique"
+      ],
+      "scenario": "Camila arrive pour son premier jour de cours à l’université de Tours, où elle retrouve Léa et Karim."
+    }
+  },
+  {
+    "slug": "un-exposer-a-preparer",
+    "target_language": "french",
+    "level": "C1",
+    "title": "Un exposé à préparer",
+    "title_es": "Una exposición por preparar",
+    "description": "Camila prépare, avec un groupe d’étudiants internationaux, un exposé complexe sur la diversité linguistique dans les Caraïbes.",
+    "order_index": 2,
+    "unit_overview": {
+      "objective": "Comprendre un travail de groupe académique complexe et maîtriser le discours rapporté nuancé.",
+      "outcomes": [
+        "comprendre les dynamiques d’un travail de groupe universitaire",
+        "analyser un vocabulaire académique spécialisé",
+        "utiliser le discours rapporté avec concordance des temps complète",
+        "reconnaître les nuances de l’expression de la probabilité en français soutenu"
+      ],
+      "grammar": [
+        "discours rapporté avec concordance des temps complète",
+        "expression de la probabilité (registre soutenu : il est probable que, il n’est pas exclu que)",
+        "accord et cohérence dans un texte académique long"
+      ],
+      "vocabulary": [
+        "une soutenance",
+        "la diversité linguistique",
+        "un consensus",
+        "une problématique"
+      ],
+      "scenario": "Camila collabore avec un groupe international pour préparer un exposé sur la diversité linguistique caribéenne, un sujet qui la touche personnellement."
+    }
+  },
+  {
+    "slug": "les-medias-et-la-fabrique-de-lopinion",
+    "target_language": "french",
+    "level": "C1",
+    "title": "Les médias et la fabrique de l’opinion",
+    "title_es": "Los medios y la construcción de la opinión",
+    "description": "Comment une même réforme universitaire est racontée différemment selon les médias.",
+    "order_index": 3,
+    "unit_overview": {
+      "objective": "Analyser le cadrage médiatique, les présupposés et la hiérarchie de l’information.",
+      "outcomes": [
+        "comprendre un texte long et conceptuellement dense",
+        "identifier les implicites et les nuances argumentatives",
+        "réutiliser un lexique précis en contexte",
+        "maîtriser une structure grammaticale de niveau C1"
+      ],
+      "grammar": [
+        "La nominalisation et les tournures impersonnelles"
+      ],
+      "vocabulary": [
+        "le cadrage",
+        "un présupposé",
+        "une ligne éditoriale",
+        "un angle mort"
+      ],
+      "scenario": "Camila prépare une revue de presse sur une réforme des universités."
+    }
+  },
+  {
+    "slug": "intelligence-artificielle-et-traduction",
+    "target_language": "french",
+    "level": "C1",
+    "title": "Intelligence artificielle et traduction",
+    "title_es": "Inteligencia artificial y traducción",
+    "description": "Ce que la traduction automatique révèle, et ce qu’elle efface, face à un texte littéraire.",
+    "order_index": 4,
+    "unit_overview": {
+      "objective": "Évaluer une technologie en distinguant efficacité, responsabilité et perte de nuance.",
+      "outcomes": [
+        "comprendre un texte long et conceptuellement dense",
+        "identifier les implicites et les nuances argumentatives",
+        "réutiliser un lexique précis en contexte",
+        "maîtriser une structure grammaticale de niveau C1"
+      ],
+      "grammar": [
+        "La concession avancée : quoique, quand bien même, avoir beau"
+      ],
+      "vocabulary": [
+        "aplatir une voix",
+        "un sous-entendu",
+        "vraisemblable",
+        "une décision interprétative"
+      ],
+      "scenario": "Camila doit traduire le témoignage littéraire d’une autrice caribéenne."
+    }
+  },
+  {
+    "slug": "memoire-migration-et-identite",
+    "target_language": "french",
+    "level": "C1",
+    "title": "Mémoire, migration et identité",
+    "title_es": "Memoria, migración e identidad",
+    "description": "Ce que les correspondances familiales migratoires révèlent, et taisent, aux historiens.",
+    "order_index": 5,
+    "unit_overview": {
+      "objective": "Interpréter un récit mémoriel où documents, silences et identité se répondent.",
+      "outcomes": [
+        "comprendre un texte long et conceptuellement dense",
+        "identifier les implicites et les nuances argumentatives",
+        "réutiliser un lexique précis en contexte",
+        "maîtriser une structure grammaticale de niveau C1"
+      ],
+      "grammar": [
+        "Les temps du récit et le discours indirect libre"
+      ],
+      "vocabulary": [
+        "une archive",
+        "un récit linéaire",
+        "minimiser",
+        "un fragment"
+      ],
+      "scenario": "Camila classe des lettres envoyées entre la République dominicaine et la France."
+    }
+  },
+  {
+    "slug": "justice-sociale-et-inegalites",
+    "target_language": "french",
+    "level": "C1",
+    "title": "Justice sociale et inégalités",
+    "title_es": "Justicia social y desigualdades",
+    "description": "Les limites du discours méritocratique face aux inégalités de départ.",
+    "order_index": 6,
+    "unit_overview": {
+      "objective": "Suivre une argumentation contradictoire et distinguer égalité formelle et équité.",
+      "outcomes": [
+        "comprendre un texte long et conceptuellement dense",
+        "identifier les implicites et les nuances argumentatives",
+        "réutiliser un lexique précis en contexte",
+        "maîtriser une structure grammaticale de niveau C1"
+      ],
+      "grammar": [
+        "Les articulateurs logiques et la réfutation"
+      ],
+      "vocabulary": [
+        "la méritocratie",
+        "l’équité",
+        "déterministe",
+        "un justificatif"
+      ],
+      "scenario": "Des étudiants débattent de la sélection et des bourses universitaires."
+    }
+  },
+  {
+    "slug": "ecologie-et-responsabilite-collective",
+    "target_language": "french",
+    "level": "C1",
+    "title": "Écologie et responsabilité collective",
+    "title_es": "Ecología y responsabilidad colectiva",
+    "description": "Les arbitrages d’une politique de sobriété énergétique sur un campus universitaire.",
+    "order_index": 7,
+    "unit_overview": {
+      "objective": "Évaluer une politique écologique en identifiant arbitrages, indicateurs et effets indirects.",
+      "outcomes": [
+        "comprendre un texte long et conceptuellement dense",
+        "identifier les implicites et les nuances argumentatives",
+        "réutiliser un lexique précis en contexte",
+        "maîtriser une structure grammaticale de niveau C1"
+      ],
+      "grammar": [
+        "L’hypothèse complexe et le conditionnel passé"
+      ],
+      "vocabulary": [
+        "la sobriété énergétique",
+        "énergivore",
+        "un arbitrage",
+        "structurel(le)"
+      ],
+      "scenario": "L’université doit réduire sa consommation énergétique sans exclure les étudiants."
+    }
+  },
+  {
+    "slug": "langues-pouvoir-et-inclusion",
+    "target_language": "french",
+    "level": "C1",
+    "title": "Langues, pouvoir et inclusion",
+    "title_es": "Lenguas, poder e inclusión",
+    "description": "Comment les normes linguistiques peuvent inclure ou marginaliser selon les contextes.",
+    "order_index": 8,
+    "unit_overview": {
+      "objective": "Analyser le rapport entre norme, variation linguistique et légitimité sociale.",
+      "outcomes": [
+        "comprendre un texte long et conceptuellement dense",
+        "identifier les implicites et les nuances argumentatives",
+        "réutiliser un lexique précis en contexte",
+        "maîtriser une structure grammaticale de niveau C1"
+      ],
+      "grammar": [
+        "Les relatives complexes : dont, lequel, ce à quoi, ce dont"
+      ],
+      "vocabulary": [
+        "une norme linguistique",
+        "une variété",
+        "la légitimité",
+        "stigmatiser"
+      ],
+      "scenario": "Un atelier examine les accents et la légitimité linguistique."
+    }
+  },
+  {
+    "slug": "science-doute-et-esprit-critique",
+    "target_language": "french",
+    "level": "C1",
+    "title": "Science, doute et esprit critique",
+    "title_es": "Ciencia, duda y pensamiento crítico",
+    "description": "Ce qui distingue l’incertitude scientifique méthodique de la simple ignorance.",
+    "order_index": 9,
+    "unit_overview": {
+      "objective": "Comprendre la valeur méthodologique du doute et la communication des résultats provisoires.",
+      "outcomes": [
+        "comprendre un texte long et conceptuellement dense",
+        "identifier les implicites et les nuances argumentatives",
+        "réutiliser un lexique précis en contexte",
+        "maîtriser une structure grammaticale de niveau C1"
+      ],
+      "grammar": [
+        "Les modalisateurs de certitude et le subjonctif"
+      ],
+      "vocabulary": [
+        "une hypothèse",
+        "la réfutation",
+        "provisoire",
+        "une donnée"
+      ],
+      "scenario": "Camila assiste à une conférence sur la communication scientifique."
+    }
+  },
+  {
+    "slug": "art-censure-et-liberte",
+    "target_language": "french",
+    "level": "C1",
+    "title": "Art, censure et liberté",
+    "title_es": "Arte, censura y libertad",
+    "description": "Une déprogrammation controversée d’exposition interroge liberté artistique et responsabilité.",
+    "order_index": 10,
+    "unit_overview": {
+      "objective": "Analyser un conflit entre liberté artistique, responsabilité institutionnelle et réception publique.",
+      "outcomes": [
+        "comprendre un texte long et conceptuellement dense",
+        "identifier les implicites et les nuances argumentatives",
+        "réutiliser un lexique précis en contexte",
+        "maîtriser une structure grammaticale de niveau C1"
+      ],
+      "grammar": [
+        "La voix passive, le passif pronominal et faire + infinitif"
+      ],
+      "vocabulary": [
+        "déprogrammer",
+        "une médiation",
+        "un adoucissement",
+        "opaque"
+      ],
+      "scenario": "Une exposition universitaire est retirée après des plaintes contradictoires."
+    }
+  },
+  {
+    "slug": "avenir-incertitude-et-choix",
+    "target_language": "french",
+    "level": "C1",
+    "title": "Avenir, incertitude et choix",
+    "title_es": "Futuro, incertidumbre y decisiones",
+    "description": "Comment décider face à une offre de mobilité internationale sans disposer de toutes les garanties.",
+    "order_index": 11,
+    "unit_overview": {
+      "objective": "Comprendre une décision complexe où valeurs, risques et temporalités s’opposent.",
+      "outcomes": [
+        "comprendre un texte long et conceptuellement dense",
+        "identifier les implicites et les nuances argumentatives",
+        "réutiliser un lexique précis en contexte",
+        "maîtriser une structure grammaticale de niveau C1"
+      ],
+      "grammar": [
+        "Le futur antérieur et les projections dans le passé"
+      ],
+      "vocabulary": [
+        "une voie",
+        "une unité de comparaison",
+        "irréversible",
+        "révisable"
+      ],
+      "scenario": "Camila reçoit une proposition de master et de stage à Montréal."
+    }
+  },
+  {
+    "slug": "bilan-identite-et-transmission",
+    "target_language": "french",
+    "level": "C1",
+    "title": "Bilan, identité et transmission",
+    "title_es": "Balance, identidad y transmisión",
+    "description": "Ce que les ateliers d’accueil pour étudiants internationaux choisissent de transmettre.",
+    "order_index": 12,
+    "unit_overview": {
+      "objective": "Synthétiser un parcours, transmettre une expérience et interroger la position de celui qui conseille.",
+      "outcomes": [
+        "comprendre un texte long et conceptuellement dense",
+        "identifier les implicites et les nuances argumentatives",
+        "réutiliser un lexique précis en contexte",
+        "maîtriser une structure grammaticale de niveau C1"
+      ],
+      "grammar": [
+        "La reprise et la cohésion d’un texte complexe"
+      ],
+      "vocabulary": [
+        "un parcours uniforme",
+        "un retour en arrière",
+        "un code implicite",
+        "dégager une idée"
+      ],
+      "scenario": "Camila transforme son expérience en atelier sans en faire une recette universelle."
+    }
   }
 ]

@@ -1846,75 +1846,98 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "spanish-a1-hola-mucho-gusto-listening-comprehension",
+        "id": "spanish-a1-hola-mucho-gusto-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "¿Cómo se llama la persona?",
+            "prompt": "En «Mucho gusto, ¿cómo te llamas?», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Valentina"
+                "text": "Hola, me llamo Valentina."
               },
               {
                 "id": "o2",
-                "text": "Marco"
+                "text": "Vivo con mi familia y estudio español por las tardes."
               },
               {
                 "id": "o3",
-                "text": "Sofía"
+                "text": "Hoy es mi primer día de clase y estoy un poco nerviosa, pero muy contenta."
               },
               {
                 "id": "o4",
-                "text": "Carla"
+                "text": "Mucho gusto, espero conocerte pronto."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "¿De dónde es Valentina?",
+            "prompt": "Después de «Hola, me llamo Valentina.», ¿qué sucede a continuación en «Mucho gusto, ¿cómo te llamas?»?",
             "options": [
               {
                 "id": "o1",
-                "text": "De Santo Domingo"
+                "text": "Hola, me llamo Valentina."
               },
               {
                 "id": "o2",
-                "text": "De Italia"
+                "text": "Vivo con mi familia y estudio español por las tardes."
               },
               {
                 "id": "o3",
-                "text": "De México"
+                "text": "Hoy es mi primer día de clase y estoy un poco nerviosa, pero muy contenta."
               },
               {
                 "id": "o4",
-                "text": "De Santiago"
+                "text": "Mucho gusto, espero conocerte pronto."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué quiere hacer en clase?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Mucho gusto, ¿cómo te llamas?»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Aprender palabras y hacer amigos"
+                "text": "Hola, me llamo Valentina."
               },
               {
                 "id": "o2",
-                "text": "Comprar una camisa"
+                "text": "Vivo con mi familia y estudio español por las tardes."
               },
               {
                 "id": "o3",
-                "text": "Ir a la playa"
+                "text": "Hoy es mi primer día de clase y estoy un poco nerviosa, pero muy contenta."
               },
               {
                 "id": "o4",
-                "text": "Trabajar en una tienda"
+                "text": "Mucho gusto, espero conocerte pronto."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Mucho gusto, ¿cómo te llamas?» después de «Hoy es mi primer día de clase y estoy un poco nerviosa, pero muy…»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Hola, me llamo Valentina."
+              },
+              {
+                "id": "o2",
+                "text": "Vivo con mi familia y estudio español por las tardes."
+              },
+              {
+                "id": "o3",
+                "text": "Hoy es mi primer día de clase y estoy un poco nerviosa, pero muy contenta."
+              },
+              {
+                "id": "o4",
+                "text": "Mucho gusto, espero conocerte pronto."
               }
             ]
           }
@@ -1925,36 +1948,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cómo se llama la persona?",
+        "prompt": "En «Mucho gusto, ¿cómo te llamas?», ¿qué detalle presenta la situación?",
         "options": [
-          "Valentina",
-          "Marco",
-          "Sofía",
-          "Carla"
-        ],
-        "explanation": "La narradora dice: «Me llamo Valentina». "
+          "Hola, me llamo Valentina.",
+          "Vivo con mi familia y estudio español por las tardes.",
+          "Hoy es mi primer día de clase y estoy un poco nerviosa, pero muy contenta.",
+          "Mucho gusto, espero conocerte pronto."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿De dónde es Valentina?",
+        "prompt": "Después de «Hola, me llamo Valentina.», ¿qué sucede a continuación en «Mucho gusto, ¿cómo te llamas?»?",
         "options": [
-          "De Santo Domingo",
-          "De Italia",
-          "De México",
-          "De Santiago"
-        ],
-        "explanation": "Valentina dice que es de Santo Domingo."
+          "Hola, me llamo Valentina.",
+          "Vivo con mi familia y estudio español por las tardes.",
+          "Hoy es mi primer día de clase y estoy un poco nerviosa, pero muy contenta.",
+          "Mucho gusto, espero conocerte pronto."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué quiere hacer en clase?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Mucho gusto, ¿cómo te llamas?»?",
         "options": [
-          "Aprender palabras y hacer amigos",
-          "Comprar una camisa",
-          "Ir a la playa",
-          "Trabajar en una tienda"
-        ],
-        "explanation": "Quiere aprender palabras nuevas y hacer amigos."
+          "Hola, me llamo Valentina.",
+          "Vivo con mi familia y estudio español por las tardes.",
+          "Hoy es mi primer día de clase y estoy un poco nerviosa, pero muy contenta.",
+          "Mucho gusto, espero conocerte pronto."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Mucho gusto, ¿cómo te llamas?» después de «Hoy es mi primer día de clase y estoy un poco nerviosa, pero muy…»?",
+        "options": [
+          "Hola, me llamo Valentina.",
+          "Vivo con mi familia y estudio español por las tardes.",
+          "Hoy es mi primer día de clase y estoy un poco nerviosa, pero muy contenta.",
+          "Mucho gusto, espero conocerte pronto."
+        ]
       }
     ]
   },
@@ -6694,75 +6724,98 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "spanish-a1-informacion-personal-listening-comprehension",
+        "id": "spanish-a1-informacion-personal-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "¿Cómo se llama el compañero?",
+            "prompt": "En «Un mensaje de voz», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Marco"
+                "text": "Este es mi compañero Marco."
               },
               {
                 "id": "o2",
-                "text": "Kevin"
+                "text": "Estudia español porque quiere viajar por América Latina."
               },
               {
                 "id": "o3",
-                "text": "Tomás"
+                "text": "Marco habla italiano e inglés, y también entiende un poco de francés."
               },
               {
                 "id": "o4",
-                "text": "Rafael"
+                "text": "Es muy amable y le gusta ayudar cuando alguien tiene una pregunta."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "¿De qué país es Marco?",
+            "prompt": "Después de «Este es mi compañero Marco.», ¿qué sucede a continuación en «Un mensaje de voz»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Italia"
+                "text": "Este es mi compañero Marco."
               },
               {
                 "id": "o2",
-                "text": "México"
+                "text": "Estudia español porque quiere viajar por América Latina."
               },
               {
                 "id": "o3",
-                "text": "España"
+                "text": "Marco habla italiano e inglés, y también entiende un poco de francés."
               },
               {
                 "id": "o4",
-                "text": "República Dominicana"
+                "text": "Es muy amable y le gusta ayudar cuando alguien tiene una pregunta."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Por qué estudia español?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Un mensaje de voz»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Porque quiere viajar por América Latina"
+                "text": "Este es mi compañero Marco."
               },
               {
                 "id": "o2",
-                "text": "Porque trabaja en una farmacia"
+                "text": "Marco habla italiano e inglés, y también entiende un poco de francés."
               },
               {
                 "id": "o3",
-                "text": "Porque vive en la playa"
+                "text": "Estudia español porque quiere viajar por América Latina."
               },
               {
                 "id": "o4",
-                "text": "Porque vende camisas"
+                "text": "Es muy amable y le gusta ayudar cuando alguien tiene una pregunta."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Un mensaje de voz» después de «Estudia español porque quiere viajar por América Latina.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Este es mi compañero Marco."
+              },
+              {
+                "id": "o2",
+                "text": "Estudia español porque quiere viajar por América Latina."
+              },
+              {
+                "id": "o3",
+                "text": "Marco habla italiano e inglés, y también entiende un poco de francés."
+              },
+              {
+                "id": "o4",
+                "text": "Es muy amable y le gusta ayudar cuando alguien tiene una pregunta."
               }
             ]
           }
@@ -6773,36 +6826,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cómo se llama el compañero?",
+        "prompt": "En «Un mensaje de voz», ¿qué detalle presenta la situación?",
         "options": [
-          "Marco",
-          "Kevin",
-          "Tomás",
-          "Rafael"
-        ],
-        "explanation": "El texto presenta al compañero Marco."
+          "Este es mi compañero Marco.",
+          "Estudia español porque quiere viajar por América Latina.",
+          "Marco habla italiano e inglés, y también entiende un poco de francés.",
+          "Es muy amable y le gusta ayudar cuando alguien tiene una pregunta."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿De qué país es Marco?",
+        "prompt": "Después de «Este es mi compañero Marco.», ¿qué sucede a continuación en «Un mensaje de voz»?",
         "options": [
-          "Italia",
-          "México",
-          "España",
-          "República Dominicana"
-        ],
-        "explanation": "Marco es de Italia."
+          "Este es mi compañero Marco.",
+          "Estudia español porque quiere viajar por América Latina.",
+          "Marco habla italiano e inglés, y también entiende un poco de francés.",
+          "Es muy amable y le gusta ayudar cuando alguien tiene una pregunta."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Por qué estudia español?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Un mensaje de voz»?",
         "options": [
-          "Porque quiere viajar por América Latina",
-          "Porque trabaja en una farmacia",
-          "Porque vive en la playa",
-          "Porque vende camisas"
-        ],
-        "explanation": "Estudia español para viajar por América Latina."
+          "Este es mi compañero Marco.",
+          "Marco habla italiano e inglés, y también entiende un poco de francés.",
+          "Estudia español porque quiere viajar por América Latina.",
+          "Es muy amable y le gusta ayudar cuando alguien tiene una pregunta."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Un mensaje de voz» después de «Estudia español porque quiere viajar por América Latina.»?",
+        "options": [
+          "Este es mi compañero Marco.",
+          "Estudia español porque quiere viajar por América Latina.",
+          "Marco habla italiano e inglés, y también entiende un poco de francés.",
+          "Es muy amable y le gusta ayudar cuando alguien tiene una pregunta."
+        ]
       }
     ]
   },
@@ -11383,75 +11443,98 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "spanish-a1-mi-familia-y-mis-amigos-listening-comprehension",
+        "id": "spanish-a1-mi-familia-y-mis-amigos-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "¿Cómo se llama el mejor amigo?",
+            "prompt": "En «Esta es mi hermana», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Kevin"
+                "text": "Quiero hablar de mi mejor amigo, Kevin."
               },
               {
                 "id": "o2",
-                "text": "Marco"
+                "text": "Tiene dieciocho años, es divertido y muy tranquilo."
               },
               {
                 "id": "o3",
-                "text": "Tomás"
+                "text": "A Kevin le gusta jugar al fútbol, ver películas y cocinar pasta los domingos."
               },
               {
                 "id": "o4",
-                "text": "Rafael"
+                "text": "Los sábados solemos ir al parque o tomar un jugo después de clase."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "¿Desde cuándo conoce a Kevin?",
+            "prompt": "Después de «Quiero hablar de mi mejor amigo, Kevin.», ¿qué sucede a continuación en «Esta es mi hermana»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Desde la escuela"
+                "text": "Quiero hablar de mi mejor amigo, Kevin."
               },
               {
                 "id": "o2",
-                "text": "Desde ayer"
+                "text": "Tiene dieciocho años, es divertido y muy tranquilo."
               },
               {
                 "id": "o3",
-                "text": "Desde el trabajo"
+                "text": "A Kevin le gusta jugar al fútbol, ver películas y cocinar pasta los domingos."
               },
               {
                 "id": "o4",
-                "text": "Desde un viaje"
+                "text": "Los sábados solemos ir al parque o tomar un jugo después de clase."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué le gusta hacer a Kevin?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Esta es mi hermana»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Jugar al fútbol y ver películas"
+                "text": "Quiero hablar de mi mejor amigo, Kevin."
               },
               {
                 "id": "o2",
-                "text": "Cocinar en una farmacia"
+                "text": "Tiene dieciocho años, es divertido y muy tranquilo."
               },
               {
                 "id": "o3",
-                "text": "Trabajar en un banco"
+                "text": "A Kevin le gusta jugar al fútbol, ver películas y cocinar pasta los domingos."
               },
               {
                 "id": "o4",
-                "text": "Nadar cada mañana"
+                "text": "Los sábados solemos ir al parque o tomar un jugo después de clase."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Esta es mi hermana» después de «A Kevin le gusta jugar al fútbol, ver películas y cocinar pasta los…»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Quiero hablar de mi mejor amigo, Kevin."
+              },
+              {
+                "id": "o2",
+                "text": "Tiene dieciocho años, es divertido y muy tranquilo."
+              },
+              {
+                "id": "o3",
+                "text": "A Kevin le gusta jugar al fútbol, ver películas y cocinar pasta los domingos."
+              },
+              {
+                "id": "o4",
+                "text": "Los sábados solemos ir al parque o tomar un jugo después de clase."
               }
             ]
           }
@@ -11462,36 +11545,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cómo se llama el mejor amigo?",
+        "prompt": "En «Esta es mi hermana», ¿qué detalle presenta la situación?",
         "options": [
-          "Kevin",
-          "Marco",
-          "Tomás",
-          "Rafael"
-        ],
-        "explanation": "La persona habla de su mejor amigo Kevin."
+          "Quiero hablar de mi mejor amigo, Kevin.",
+          "Tiene dieciocho años, es divertido y muy tranquilo.",
+          "A Kevin le gusta jugar al fútbol, ver películas y cocinar pasta los domingos.",
+          "Los sábados solemos ir al parque o tomar un jugo después de clase."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Desde cuándo conoce a Kevin?",
+        "prompt": "Después de «Quiero hablar de mi mejor amigo, Kevin.», ¿qué sucede a continuación en «Esta es mi hermana»?",
         "options": [
-          "Desde la escuela",
-          "Desde ayer",
-          "Desde el trabajo",
-          "Desde un viaje"
-        ],
-        "explanation": "Lo conoce desde la escuela."
+          "Quiero hablar de mi mejor amigo, Kevin.",
+          "Tiene dieciocho años, es divertido y muy tranquilo.",
+          "A Kevin le gusta jugar al fútbol, ver películas y cocinar pasta los domingos.",
+          "Los sábados solemos ir al parque o tomar un jugo después de clase."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué le gusta hacer a Kevin?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Esta es mi hermana»?",
         "options": [
-          "Jugar al fútbol y ver películas",
-          "Cocinar en una farmacia",
-          "Trabajar en un banco",
-          "Nadar cada mañana"
-        ],
-        "explanation": "A Kevin le gusta jugar al fútbol y ver películas."
+          "Quiero hablar de mi mejor amigo, Kevin.",
+          "Tiene dieciocho años, es divertido y muy tranquilo.",
+          "A Kevin le gusta jugar al fútbol, ver películas y cocinar pasta los domingos.",
+          "Los sábados solemos ir al parque o tomar un jugo después de clase."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Esta es mi hermana» después de «A Kevin le gusta jugar al fútbol, ver películas y cocinar pasta los…»?",
+        "options": [
+          "Quiero hablar de mi mejor amigo, Kevin.",
+          "Tiene dieciocho años, es divertido y muy tranquilo.",
+          "A Kevin le gusta jugar al fútbol, ver películas y cocinar pasta los domingos.",
+          "Los sábados solemos ir al parque o tomar un jugo después de clase."
+        ]
       }
     ]
   },
@@ -16070,75 +16160,98 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "spanish-a1-mi-rutina-diaria-listening-comprehension",
+        "id": "spanish-a1-mi-rutina-diaria-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "¿Con quién vive Sofía?",
+            "prompt": "En «¿A qué hora te levantas?», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Con sus padres y hermanos"
+                "text": "Sofía vive con sus padres y sus dos hermanos."
               },
               {
                 "id": "o2",
-                "text": "Con Marco y Kevin"
+                "text": "Su hermana Lucía tiene dieciséis años y su hermano Tomás tiene nueve."
               },
               {
                 "id": "o3",
-                "text": "Con sus profesores"
+                "text": "Los domingos la familia come junta en casa de la abuela Rosa."
               },
               {
                 "id": "o4",
-                "text": "Con una amiga italiana"
+                "text": "Sofía dice que su familia es grande, pero muy cariñosa."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "¿Qué hace la familia los domingos?",
+            "prompt": "Después de «Sofía vive con sus padres y sus dos hermanos.», ¿qué sucede a continuación en «¿A qué hora te levantas?»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Come junta"
+                "text": "Sofía vive con sus padres y sus dos hermanos."
               },
               {
                 "id": "o2",
-                "text": "Viaja a Valencia"
+                "text": "Su hermana Lucía tiene dieciséis años y su hermano Tomás tiene nueve."
               },
               {
                 "id": "o3",
-                "text": "Va al cine"
+                "text": "Los domingos la familia come junta en casa de la abuela Rosa."
               },
               {
                 "id": "o4",
-                "text": "Compra ropa"
+                "text": "Sofía dice que su familia es grande, pero muy cariñosa."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Dónde juega los niños?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «¿A qué hora te levantas?»?",
             "options": [
               {
                 "id": "o1",
-                "text": "En el patio"
+                "text": "Sofía vive con sus padres y sus dos hermanos."
               },
               {
                 "id": "o2",
-                "text": "En la estación"
+                "text": "Su hermana Lucía tiene dieciséis años y su hermano Tomás tiene nueve."
               },
               {
                 "id": "o3",
-                "text": "En la farmacia"
+                "text": "Los domingos la familia come junta en casa de la abuela Rosa."
               },
               {
                 "id": "o4",
-                "text": "En la biblioteca"
+                "text": "Sofía dice que su familia es grande, pero muy cariñosa."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «¿A qué hora te levantas?» después de «Los domingos la familia come junta en casa de la abuela Rosa.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Sofía vive con sus padres y sus dos hermanos."
+              },
+              {
+                "id": "o2",
+                "text": "Su hermana Lucía tiene dieciséis años y su hermano Tomás tiene nueve."
+              },
+              {
+                "id": "o3",
+                "text": "Los domingos la familia come junta en casa de la abuela Rosa."
+              },
+              {
+                "id": "o4",
+                "text": "Sofía dice que su familia es grande, pero muy cariñosa."
               }
             ]
           }
@@ -16149,36 +16262,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Con quién vive Sofía?",
+        "prompt": "En «¿A qué hora te levantas?», ¿qué detalle presenta la situación?",
         "options": [
-          "Con sus padres y hermanos",
-          "Con Marco y Kevin",
-          "Con sus profesores",
-          "Con una amiga italiana"
-        ],
-        "explanation": "Sofía vive con sus padres y sus dos hermanos."
+          "Sofía vive con sus padres y sus dos hermanos.",
+          "Su hermana Lucía tiene dieciséis años y su hermano Tomás tiene nueve.",
+          "Los domingos la familia come junta en casa de la abuela Rosa.",
+          "Sofía dice que su familia es grande, pero muy cariñosa."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace la familia los domingos?",
+        "prompt": "Después de «Sofía vive con sus padres y sus dos hermanos.», ¿qué sucede a continuación en «¿A qué hora te levantas?»?",
         "options": [
-          "Come junta",
-          "Viaja a Valencia",
-          "Va al cine",
-          "Compra ropa"
-        ],
-        "explanation": "Los domingos la familia come junta."
+          "Sofía vive con sus padres y sus dos hermanos.",
+          "Su hermana Lucía tiene dieciséis años y su hermano Tomás tiene nueve.",
+          "Los domingos la familia come junta en casa de la abuela Rosa.",
+          "Sofía dice que su familia es grande, pero muy cariñosa."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Dónde juega los niños?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «¿A qué hora te levantas?»?",
         "options": [
-          "En el patio",
-          "En la estación",
-          "En la farmacia",
-          "En la biblioteca"
-        ],
-        "explanation": "Después de comer, los niños juegan en el patio."
+          "Sofía vive con sus padres y sus dos hermanos.",
+          "Su hermana Lucía tiene dieciséis años y su hermano Tomás tiene nueve.",
+          "Los domingos la familia come junta en casa de la abuela Rosa.",
+          "Sofía dice que su familia es grande, pero muy cariñosa."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «¿A qué hora te levantas?» después de «Los domingos la familia come junta en casa de la abuela Rosa.»?",
+        "options": [
+          "Sofía vive con sus padres y sus dos hermanos.",
+          "Su hermana Lucía tiene dieciséis años y su hermano Tomás tiene nueve.",
+          "Los domingos la familia come junta en casa de la abuela Rosa.",
+          "Sofía dice que su familia es grande, pero muy cariñosa."
+        ]
       }
     ]
   },
@@ -20765,75 +20885,98 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "spanish-a1-mi-casa-listening-comprehension",
+        "id": "spanish-a1-mi-casa-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "¿Cuántas habitaciones tiene la casa?",
+            "prompt": "En «Así es mi casa», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Dos"
+                "text": "Vivo en una casa pequeña, pero cómoda."
               },
               {
                 "id": "o2",
-                "text": "Una"
+                "text": "En mi habitación hay una cama, un armario y una mesa para estudiar."
               },
               {
                 "id": "o3",
-                "text": "Tres"
+                "text": "La sala tiene un sofá grande y unas fotos de mi familia."
               },
               {
                 "id": "o4",
-                "text": "Cuatro"
+                "text": "Me gusta sentarme allí por la tarde porque es tranquilo y puedo leer o escuchar música."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "¿Qué hay en la habitación?",
+            "prompt": "Después de «Vivo en una casa pequeña, pero cómoda.», ¿qué sucede a continuación en «Así es mi casa»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Una cama, un armario y una mesa"
+                "text": "Vivo en una casa pequeña, pero cómoda."
               },
               {
                 "id": "o2",
-                "text": "Un banco y una farmacia"
+                "text": "En mi habitación hay una cama, un armario y una mesa para estudiar."
               },
               {
                 "id": "o3",
-                "text": "Una estufa y un tren"
+                "text": "La sala tiene un sofá grande y unas fotos de mi familia."
               },
               {
                 "id": "o4",
-                "text": "Un cine y un parque"
+                "text": "Me gusta sentarme allí por la tarde porque es tranquilo y puedo leer o escuchar música."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Dónde se sienta la persona por la tarde?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Así es mi casa»?",
             "options": [
               {
                 "id": "o1",
-                "text": "En el patio"
+                "text": "Vivo en una casa pequeña, pero cómoda."
               },
               {
                 "id": "o2",
-                "text": "En el metro"
+                "text": "En mi habitación hay una cama, un armario y una mesa para estudiar."
               },
               {
                 "id": "o3",
-                "text": "En la tienda"
+                "text": "La sala tiene un sofá grande y unas fotos de mi familia."
               },
               {
                 "id": "o4",
-                "text": "En la escuela"
+                "text": "Me gusta sentarme allí por la tarde porque es tranquilo y puedo leer o escuchar música."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Así es mi casa» después de «La sala tiene un sofá grande y unas fotos de mi familia.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Vivo en una casa pequeña, pero cómoda."
+              },
+              {
+                "id": "o2",
+                "text": "En mi habitación hay una cama, un armario y una mesa para estudiar."
+              },
+              {
+                "id": "o3",
+                "text": "La sala tiene un sofá grande y unas fotos de mi familia."
+              },
+              {
+                "id": "o4",
+                "text": "Me gusta sentarme allí por la tarde porque es tranquilo y puedo leer o escuchar música."
               }
             ]
           }
@@ -20844,36 +20987,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Cuántas habitaciones tiene la casa?",
+        "prompt": "En «Así es mi casa», ¿qué detalle presenta la situación?",
         "options": [
-          "Dos",
-          "Una",
-          "Tres",
-          "Cuatro"
-        ],
-        "explanation": "La casa tiene dos habitaciones."
+          "Vivo en una casa pequeña, pero cómoda.",
+          "En mi habitación hay una cama, un armario y una mesa para estudiar.",
+          "La sala tiene un sofá grande y unas fotos de mi familia.",
+          "Me gusta sentarme allí por la tarde porque es tranquilo y puedo leer o escuchar música."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hay en la habitación?",
+        "prompt": "Después de «Vivo en una casa pequeña, pero cómoda.», ¿qué sucede a continuación en «Así es mi casa»?",
         "options": [
-          "Una cama, un armario y una mesa",
-          "Un banco y una farmacia",
-          "Una estufa y un tren",
-          "Un cine y un parque"
-        ],
-        "explanation": "La habitación tiene una cama, un armario y una mesa."
+          "Vivo en una casa pequeña, pero cómoda.",
+          "En mi habitación hay una cama, un armario y una mesa para estudiar.",
+          "La sala tiene un sofá grande y unas fotos de mi familia.",
+          "Me gusta sentarme allí por la tarde porque es tranquilo y puedo leer o escuchar música."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Dónde se sienta la persona por la tarde?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Así es mi casa»?",
         "options": [
-          "En el patio",
-          "En el metro",
-          "En la tienda",
-          "En la escuela"
-        ],
-        "explanation": "Le gusta sentarse en el patio."
+          "Vivo en una casa pequeña, pero cómoda.",
+          "En mi habitación hay una cama, un armario y una mesa para estudiar.",
+          "La sala tiene un sofá grande y unas fotos de mi familia.",
+          "Me gusta sentarme allí por la tarde porque es tranquilo y puedo leer o escuchar música."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Así es mi casa» después de «La sala tiene un sofá grande y unas fotos de mi familia.»?",
+        "options": [
+          "Vivo en una casa pequeña, pero cómoda.",
+          "En mi habitación hay una cama, un armario y una mesa para estudiar.",
+          "La sala tiene un sofá grande y unas fotos de mi familia.",
+          "Me gusta sentarme allí por la tarde porque es tranquilo y puedo leer o escuchar música."
+        ]
       }
     ]
   },
@@ -25457,75 +25607,98 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "spanish-a1-mi-barrio-y-mi-ciudad-listening-comprehension",
+        "id": "spanish-a1-mi-barrio-y-mi-ciudad-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "¿A qué hora se levanta la persona?",
+            "prompt": "En «Perdón, ¿dónde está el banco?», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "A las seis y media"
+                "text": "Cada día me levanto a las seis y media."
               },
               {
                 "id": "o2",
-                "text": "A las ocho"
+                "text": "Después camino a la escuela; las clases empiezan a las ocho."
               },
               {
                 "id": "o3",
-                "text": "A las diez"
+                "text": "A veces veo una serie antes de cenar."
               },
               {
                 "id": "o4",
-                "text": "A las doce"
+                "text": "Así no tengo que correr por la mañana."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "¿Cómo llega a la escuela?",
+            "prompt": "Después de «Cada día me levanto a las seis y media.», ¿qué sucede a continuación en «Perdón, ¿dónde está el banco?»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Caminando"
+                "text": "Cada día me levanto a las seis y media."
               },
               {
                 "id": "o2",
-                "text": "En tren"
+                "text": "Después camino a la escuela; las clases empiezan a las ocho."
               },
               {
                 "id": "o3",
-                "text": "En avión"
+                "text": "A veces veo una serie antes de cenar."
               },
               {
                 "id": "o4",
-                "text": "En taxi"
+                "text": "Así no tengo que correr por la mañana."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué prepara por la noche?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Perdón, ¿dónde está el banco?»?",
             "options": [
               {
                 "id": "o1",
-                "text": "La ropa y la alarma"
+                "text": "Cada día me levanto a las seis y media."
               },
               {
                 "id": "o2",
-                "text": "Una sopa"
+                "text": "Después camino a la escuela; las clases empiezan a las ocho."
               },
               {
                 "id": "o3",
-                "text": "Un billete"
+                "text": "A veces veo una serie antes de cenar."
               },
               {
                 "id": "o4",
-                "text": "Una camisa"
+                "text": "Así no tengo que correr por la mañana."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Perdón, ¿dónde está el banco?» después de «A veces veo una serie antes de cenar.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Cada día me levanto a las seis y media."
+              },
+              {
+                "id": "o2",
+                "text": "Después camino a la escuela; las clases empiezan a las ocho."
+              },
+              {
+                "id": "o3",
+                "text": "A veces veo una serie antes de cenar."
+              },
+              {
+                "id": "o4",
+                "text": "Así no tengo que correr por la mañana."
               }
             ]
           }
@@ -25536,36 +25709,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿A qué hora se levanta la persona?",
+        "prompt": "En «Perdón, ¿dónde está el banco?», ¿qué detalle presenta la situación?",
         "options": [
-          "A las seis y media",
-          "A las ocho",
-          "A las diez",
-          "A las doce"
-        ],
-        "explanation": "La persona se levanta a las seis y media."
+          "Cada día me levanto a las seis y media.",
+          "Después camino a la escuela; las clases empiezan a las ocho.",
+          "A veces veo una serie antes de cenar.",
+          "Así no tengo que correr por la mañana."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo llega a la escuela?",
+        "prompt": "Después de «Cada día me levanto a las seis y media.», ¿qué sucede a continuación en «Perdón, ¿dónde está el banco?»?",
         "options": [
-          "Caminando",
-          "En tren",
-          "En avión",
-          "En taxi"
-        ],
-        "explanation": "Camina a la escuela."
+          "Cada día me levanto a las seis y media.",
+          "Después camino a la escuela; las clases empiezan a las ocho.",
+          "A veces veo una serie antes de cenar.",
+          "Así no tengo que correr por la mañana."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué prepara por la noche?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Perdón, ¿dónde está el banco?»?",
         "options": [
-          "La ropa y la alarma",
-          "Una sopa",
-          "Un billete",
-          "Una camisa"
-        ],
-        "explanation": "Por la noche prepara la ropa y pone la alarma."
+          "Cada día me levanto a las seis y media.",
+          "Después camino a la escuela; las clases empiezan a las ocho.",
+          "A veces veo una serie antes de cenar.",
+          "Así no tengo que correr por la mañana."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Perdón, ¿dónde está el banco?» después de «A veces veo una serie antes de cenar.»?",
+        "options": [
+          "Cada día me levanto a las seis y media.",
+          "Después camino a la escuela; las clases empiezan a las ocho.",
+          "A veces veo una serie antes de cenar.",
+          "Así no tengo que correr por la mañana."
+        ]
       }
     ]
   },
@@ -30130,75 +30310,98 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "spanish-a1-comida-y-bebida-listening-comprehension",
+        "id": "spanish-a1-comida-y-bebida-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "¿Dónde está la biblioteca?",
+            "prompt": "En «¿Qué desea pedir?», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Frente al parque"
+                "text": "Un estudiante nuevo quiere llegar a la biblioteca."
               },
               {
                 "id": "o2",
-                "text": "Dentro de la estación"
+                "text": "La biblioteca está frente al parque, al lado de una farmacia."
               },
               {
                 "id": "o3",
-                "text": "Detrás de la playa"
+                "text": "Si necesita comprar agua, hay una tienda pequeña cerca de la entrada."
               },
               {
                 "id": "o4",
-                "text": "En la escuela"
+                "text": "Después agradece la ayuda y camina con más seguridad por el barrio."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "¿Qué hay al lado de la biblioteca?",
+            "prompt": "Después de «Un estudiante nuevo quiere llegar a la biblioteca.», ¿qué sucede a continuación en «¿Qué desea pedir?»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Una farmacia"
+                "text": "Un estudiante nuevo quiere llegar a la biblioteca."
               },
               {
                 "id": "o2",
-                "text": "Un cine"
+                "text": "La biblioteca está frente al parque, al lado de una farmacia."
               },
               {
                 "id": "o3",
-                "text": "Una casa"
+                "text": "Si necesita comprar agua, hay una tienda pequeña cerca de la entrada."
               },
               {
                 "id": "o4",
-                "text": "Un mercado"
+                "text": "Después agradece la ayuda y camina con más seguridad por el barrio."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué hace el estudiante antes de salir?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «¿Qué desea pedir?»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Repite las indicaciones"
+                "text": "Un estudiante nuevo quiere llegar a la biblioteca."
               },
               {
                 "id": "o2",
-                "text": "Compra una camisa"
+                "text": "La biblioteca está frente al parque, al lado de una farmacia."
               },
               {
                 "id": "o3",
-                "text": "Pide una sopa"
+                "text": "Si necesita comprar agua, hay una tienda pequeña cerca de la entrada."
               },
               {
                 "id": "o4",
-                "text": "Llama a su abuela"
+                "text": "Después agradece la ayuda y camina con más seguridad por el barrio."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «¿Qué desea pedir?» después de «Si necesita comprar agua, hay una tienda pequeña cerca de la entrada.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Un estudiante nuevo quiere llegar a la biblioteca."
+              },
+              {
+                "id": "o2",
+                "text": "La biblioteca está frente al parque, al lado de una farmacia."
+              },
+              {
+                "id": "o3",
+                "text": "Si necesita comprar agua, hay una tienda pequeña cerca de la entrada."
+              },
+              {
+                "id": "o4",
+                "text": "Después agradece la ayuda y camina con más seguridad por el barrio."
               }
             ]
           }
@@ -30209,36 +30412,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Dónde está la biblioteca?",
+        "prompt": "En «¿Qué desea pedir?», ¿qué detalle presenta la situación?",
         "options": [
-          "Frente al parque",
-          "Dentro de la estación",
-          "Detrás de la playa",
-          "En la escuela"
-        ],
-        "explanation": "La biblioteca está frente al parque."
+          "Un estudiante nuevo quiere llegar a la biblioteca.",
+          "La biblioteca está frente al parque, al lado de una farmacia.",
+          "Si necesita comprar agua, hay una tienda pequeña cerca de la entrada.",
+          "Después agradece la ayuda y camina con más seguridad por el barrio."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hay al lado de la biblioteca?",
+        "prompt": "Después de «Un estudiante nuevo quiere llegar a la biblioteca.», ¿qué sucede a continuación en «¿Qué desea pedir?»?",
         "options": [
-          "Una farmacia",
-          "Un cine",
-          "Una casa",
-          "Un mercado"
-        ],
-        "explanation": "Está al lado de una farmacia."
+          "Un estudiante nuevo quiere llegar a la biblioteca.",
+          "La biblioteca está frente al parque, al lado de una farmacia.",
+          "Si necesita comprar agua, hay una tienda pequeña cerca de la entrada.",
+          "Después agradece la ayuda y camina con más seguridad por el barrio."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace el estudiante antes de salir?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «¿Qué desea pedir?»?",
         "options": [
-          "Repite las indicaciones",
-          "Compra una camisa",
-          "Pide una sopa",
-          "Llama a su abuela"
-        ],
-        "explanation": "Repite las indicaciones para no perderse."
+          "Un estudiante nuevo quiere llegar a la biblioteca.",
+          "La biblioteca está frente al parque, al lado de una farmacia.",
+          "Si necesita comprar agua, hay una tienda pequeña cerca de la entrada.",
+          "Después agradece la ayuda y camina con más seguridad por el barrio."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «¿Qué desea pedir?» después de «Si necesita comprar agua, hay una tienda pequeña cerca de la entrada.»?",
+        "options": [
+          "Un estudiante nuevo quiere llegar a la biblioteca.",
+          "La biblioteca está frente al parque, al lado de una farmacia.",
+          "Si necesita comprar agua, hay una tienda pequeña cerca de la entrada.",
+          "Después agradece la ayuda y camina con más seguridad por el barrio."
+        ]
       }
     ]
   },
@@ -34810,75 +35020,98 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "spanish-a1-de-compras-listening-comprehension",
+        "id": "spanish-a1-de-compras-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué pide para desayunar?",
+            "prompt": "En «¿Cuánto cuesta?», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Café con leche, pan y fruta"
+                "text": "Hoy desayuno en una cafetería cerca de la escuela."
               },
               {
                 "id": "o2",
-                "text": "Sopa y arroz"
+                "text": "Para el almuerzo quiero una ensalada y un vaso de agua, porque no tengo mucha hambre."
               },
               {
                 "id": "o3",
-                "text": "Una camisa azul"
+                "text": "El mesero pregunta si deseo un jugo, pero prefiero agua."
               },
               {
                 "id": "o4",
-                "text": "Un helado"
+                "text": "La comida llega caliente y todo está delicioso."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "¿Qué prefiere beber en el almuerzo?",
+            "prompt": "Después de «Hoy desayuno en una cafetería cerca de la escuela.», ¿qué sucede a continuación en «¿Cuánto cuesta?»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Agua"
+                "text": "Hoy desayuno en una cafetería cerca de la escuela."
               },
               {
                 "id": "o2",
-                "text": "Jugo"
+                "text": "Para el almuerzo quiero una ensalada y un vaso de agua, porque no tengo mucha hambre."
               },
               {
                 "id": "o3",
-                "text": "Café"
+                "text": "El mesero pregunta si deseo un jugo, pero prefiero agua."
               },
               {
                 "id": "o4",
-                "text": "Leche"
+                "text": "La comida llega caliente y todo está delicioso."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué quiere probar mañana?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «¿Cuánto cuesta?»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Una sopa"
+                "text": "Hoy desayuno en una cafetería cerca de la escuela."
               },
               {
                 "id": "o2",
-                "text": "Una camisa"
+                "text": "El mesero pregunta si deseo un jugo, pero prefiero agua."
               },
               {
                 "id": "o3",
-                "text": "Un tren"
+                "text": "Para el almuerzo quiero una ensalada y un vaso de agua, porque no tengo mucha hambre."
               },
               {
                 "id": "o4",
-                "text": "Una película"
+                "text": "La comida llega caliente y todo está delicioso."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «¿Cuánto cuesta?» después de «Para el almuerzo quiero una ensalada y un vaso de agua, porque no…»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Hoy desayuno en una cafetería cerca de la escuela."
+              },
+              {
+                "id": "o2",
+                "text": "Para el almuerzo quiero una ensalada y un vaso de agua, porque no tengo mucha hambre."
+              },
+              {
+                "id": "o3",
+                "text": "El mesero pregunta si deseo un jugo, pero prefiero agua."
+              },
+              {
+                "id": "o4",
+                "text": "La comida llega caliente y todo está delicioso."
               }
             ]
           }
@@ -34889,36 +35122,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué pide para desayunar?",
+        "prompt": "En «¿Cuánto cuesta?», ¿qué detalle presenta la situación?",
         "options": [
-          "Café con leche, pan y fruta",
-          "Sopa y arroz",
-          "Una camisa azul",
-          "Un helado"
-        ],
-        "explanation": "Pide café con leche, pan y una fruta."
+          "Hoy desayuno en una cafetería cerca de la escuela.",
+          "Para el almuerzo quiero una ensalada y un vaso de agua, porque no tengo mucha hambre.",
+          "El mesero pregunta si deseo un jugo, pero prefiero agua.",
+          "La comida llega caliente y todo está delicioso."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué prefiere beber en el almuerzo?",
+        "prompt": "Después de «Hoy desayuno en una cafetería cerca de la escuela.», ¿qué sucede a continuación en «¿Cuánto cuesta?»?",
         "options": [
-          "Agua",
-          "Jugo",
-          "Café",
-          "Leche"
-        ],
-        "explanation": "Prefiere un vaso de agua."
+          "Hoy desayuno en una cafetería cerca de la escuela.",
+          "Para el almuerzo quiero una ensalada y un vaso de agua, porque no tengo mucha hambre.",
+          "El mesero pregunta si deseo un jugo, pero prefiero agua.",
+          "La comida llega caliente y todo está delicioso."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué quiere probar mañana?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «¿Cuánto cuesta?»?",
         "options": [
-          "Una sopa",
-          "Una camisa",
-          "Un tren",
-          "Una película"
-        ],
-        "explanation": "Piensa que mañana probará una sopa."
+          "Hoy desayuno en una cafetería cerca de la escuela.",
+          "El mesero pregunta si deseo un jugo, pero prefiero agua.",
+          "Para el almuerzo quiero una ensalada y un vaso de agua, porque no tengo mucha hambre.",
+          "La comida llega caliente y todo está delicioso."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «¿Cuánto cuesta?» después de «Para el almuerzo quiero una ensalada y un vaso de agua, porque no…»?",
+        "options": [
+          "Hoy desayuno en una cafetería cerca de la escuela.",
+          "Para el almuerzo quiero una ensalada y un vaso de agua, porque no tengo mucha hambre.",
+          "El mesero pregunta si deseo un jugo, pero prefiero agua.",
+          "La comida llega caliente y todo está delicioso."
+        ]
       }
     ]
   },
@@ -39499,75 +39739,98 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "spanish-a1-estudios-y-trabajo-listening-comprehension",
+        "id": "spanish-a1-estudios-y-trabajo-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué necesita comprar Carla?",
+            "prompt": "En «Una entrevista breve», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Una camisa"
+                "text": "Carla necesita comprar una camisa para una entrevista."
               },
               {
                 "id": "o2",
-                "text": "Un billete"
+                "text": "La vendedora dice que vale ochocientos pesos."
               },
               {
                 "id": "o3",
-                "text": "Una mesa"
+                "text": "Carla se la prueba, pero necesita una talla más grande."
               },
               {
                 "id": "o4",
-                "text": "Un libro"
+                "text": "Al final paga con tarjeta y guarda el recibo en su cartera."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "¿Qué color elige?",
+            "prompt": "Después de «Carla necesita comprar una camisa para una entrevista.», ¿qué sucede a continuación en «Una entrevista breve»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Azul"
+                "text": "Carla necesita comprar una camisa para una entrevista."
               },
               {
                 "id": "o2",
-                "text": "Verde"
+                "text": "La vendedora dice que vale ochocientos pesos."
               },
               {
                 "id": "o3",
-                "text": "Rojo"
+                "text": "Carla se la prueba, pero necesita una talla más grande."
               },
               {
                 "id": "o4",
-                "text": "Amarillo"
+                "text": "Al final paga con tarjeta y guarda el recibo en su cartera."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Cómo paga la compra?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Una entrevista breve»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Con tarjeta"
+                "text": "Carla necesita comprar una camisa para una entrevista."
               },
               {
                 "id": "o2",
-                "text": "Con un cheque"
+                "text": "La vendedora dice que vale ochocientos pesos."
               },
               {
                 "id": "o3",
-                "text": "Con un regalo"
+                "text": "También ve una camisa verde, aunque prefiere la azul porque combina con sus pantalones."
               },
               {
                 "id": "o4",
-                "text": "No paga"
+                "text": "Carla se la prueba, pero necesita una talla más grande."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Una entrevista breve» después de «También ve una camisa verde, aunque prefiere la azul porque combina…»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Carla necesita comprar una camisa para una entrevista."
+              },
+              {
+                "id": "o2",
+                "text": "La vendedora dice que vale ochocientos pesos."
+              },
+              {
+                "id": "o3",
+                "text": "Carla se la prueba, pero necesita una talla más grande."
+              },
+              {
+                "id": "o4",
+                "text": "Al final paga con tarjeta y guarda el recibo en su cartera."
               }
             ]
           }
@@ -39578,36 +39841,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué necesita comprar Carla?",
+        "prompt": "En «Una entrevista breve», ¿qué detalle presenta la situación?",
         "options": [
-          "Una camisa",
-          "Un billete",
-          "Una mesa",
-          "Un libro"
-        ],
-        "explanation": "Carla necesita comprar una camisa."
+          "Carla necesita comprar una camisa para una entrevista.",
+          "La vendedora dice que vale ochocientos pesos.",
+          "Carla se la prueba, pero necesita una talla más grande.",
+          "Al final paga con tarjeta y guarda el recibo en su cartera."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué color elige?",
+        "prompt": "Después de «Carla necesita comprar una camisa para una entrevista.», ¿qué sucede a continuación en «Una entrevista breve»?",
         "options": [
-          "Azul",
-          "Verde",
-          "Rojo",
-          "Amarillo"
-        ],
-        "explanation": "Prefiere la camisa azul."
+          "Carla necesita comprar una camisa para una entrevista.",
+          "La vendedora dice que vale ochocientos pesos.",
+          "Carla se la prueba, pero necesita una talla más grande.",
+          "Al final paga con tarjeta y guarda el recibo en su cartera."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Cómo paga la compra?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Una entrevista breve»?",
         "options": [
-          "Con tarjeta",
-          "Con un cheque",
-          "Con un regalo",
-          "No paga"
-        ],
-        "explanation": "Al final paga con tarjeta."
+          "Carla necesita comprar una camisa para una entrevista.",
+          "La vendedora dice que vale ochocientos pesos.",
+          "También ve una camisa verde, aunque prefiere la azul porque combina con sus pantalones.",
+          "Carla se la prueba, pero necesita una talla más grande."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Una entrevista breve» después de «También ve una camisa verde, aunque prefiere la azul porque combina…»?",
+        "options": [
+          "Carla necesita comprar una camisa para una entrevista.",
+          "La vendedora dice que vale ochocientos pesos.",
+          "Carla se la prueba, pero necesita una talla más grande.",
+          "Al final paga con tarjeta y guarda el recibo en su cartera."
+        ]
       }
     ]
   },
@@ -44198,75 +44468,98 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "spanish-a1-tiempo-libre-listening-comprehension",
+        "id": "spanish-a1-tiempo-libre-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué tipo de película prefiere?",
+            "prompt": "En «¿Quieres ir al cine?», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "Una comedia"
+                "text": "Los sábados me gusta descansar después de una semana ocupada."
               },
               {
                 "id": "o2",
-                "text": "Una película de terror"
+                "text": "Si hace buen tiempo, vamos al parque y comemos algo."
               },
               {
                 "id": "o3",
-                "text": "Un documental"
+                "text": "También me gusta leer, escuchar música y jugar al fútbol con mis amigos."
               },
               {
                 "id": "o4",
-                "text": "Una película de acción"
+                "text": "Me gustan los planes sencillos porque puedo conversar y descansar."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "¿Qué hace si hace buen tiempo?",
+            "prompt": "Después de «Los sábados me gusta descansar después de una semana ocupada.», ¿qué sucede a continuación en «¿Quieres ir al cine?»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Va al parque"
+                "text": "Los sábados me gusta descansar después de una semana ocupada."
               },
               {
                 "id": "o2",
-                "text": "Se queda en la farmacia"
+                "text": "Si hace buen tiempo, vamos al parque y comemos algo."
               },
               {
                 "id": "o3",
-                "text": "Trabaja en la tienda"
+                "text": "También me gusta leer, escuchar música y jugar al fútbol con mis amigos."
               },
               {
                 "id": "o4",
-                "text": "Toma el tren"
+                "text": "Me gustan los planes sencillos porque puedo conversar y descansar."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué quiere hacer este sábado?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «¿Quieres ir al cine?»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Ver una película y tomar un helado"
+                "text": "Los sábados me gusta descansar después de una semana ocupada."
               },
               {
                 "id": "o2",
-                "text": "Comprar un apartamento"
+                "text": "Si hace buen tiempo, vamos al parque y comemos algo."
               },
               {
                 "id": "o3",
-                "text": "Preparar un examen"
+                "text": "También me gusta leer, escuchar música y jugar al fútbol con mis amigos."
               },
               {
                 "id": "o4",
-                "text": "Visitar un banco"
+                "text": "Me gustan los planes sencillos porque puedo conversar y descansar."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «¿Quieres ir al cine?» después de «También me gusta leer, escuchar música y jugar al fútbol con mis amigos.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Los sábados me gusta descansar después de una semana ocupada."
+              },
+              {
+                "id": "o2",
+                "text": "Si hace buen tiempo, vamos al parque y comemos algo."
+              },
+              {
+                "id": "o3",
+                "text": "También me gusta leer, escuchar música y jugar al fútbol con mis amigos."
+              },
+              {
+                "id": "o4",
+                "text": "Me gustan los planes sencillos porque puedo conversar y descansar."
               }
             ]
           }
@@ -44277,36 +44570,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué tipo de película prefiere?",
+        "prompt": "En «¿Quieres ir al cine?», ¿qué detalle presenta la situación?",
         "options": [
-          "Una comedia",
-          "Una película de terror",
-          "Un documental",
-          "Una película de acción"
-        ],
-        "explanation": "Prefiere una comedia."
+          "Los sábados me gusta descansar después de una semana ocupada.",
+          "Si hace buen tiempo, vamos al parque y comemos algo.",
+          "También me gusta leer, escuchar música y jugar al fútbol con mis amigos.",
+          "Me gustan los planes sencillos porque puedo conversar y descansar."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace si hace buen tiempo?",
+        "prompt": "Después de «Los sábados me gusta descansar después de una semana ocupada.», ¿qué sucede a continuación en «¿Quieres ir al cine?»?",
         "options": [
-          "Va al parque",
-          "Se queda en la farmacia",
-          "Trabaja en la tienda",
-          "Toma el tren"
-        ],
-        "explanation": "Si hace buen tiempo, va al parque."
+          "Los sábados me gusta descansar después de una semana ocupada.",
+          "Si hace buen tiempo, vamos al parque y comemos algo.",
+          "También me gusta leer, escuchar música y jugar al fútbol con mis amigos.",
+          "Me gustan los planes sencillos porque puedo conversar y descansar."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué quiere hacer este sábado?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «¿Quieres ir al cine?»?",
         "options": [
-          "Ver una película y tomar un helado",
-          "Comprar un apartamento",
-          "Preparar un examen",
-          "Visitar un banco"
-        ],
-        "explanation": "Quiere ver una película nueva y tomar un helado."
+          "Los sábados me gusta descansar después de una semana ocupada.",
+          "Si hace buen tiempo, vamos al parque y comemos algo.",
+          "También me gusta leer, escuchar música y jugar al fútbol con mis amigos.",
+          "Me gustan los planes sencillos porque puedo conversar y descansar."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «¿Quieres ir al cine?» después de «También me gusta leer, escuchar música y jugar al fútbol con mis amigos.»?",
+        "options": [
+          "Los sábados me gusta descansar después de una semana ocupada.",
+          "Si hace buen tiempo, vamos al parque y comemos algo.",
+          "También me gusta leer, escuchar música y jugar al fútbol con mis amigos.",
+          "Me gustan los planes sencillos porque puedo conversar y descansar."
+        ]
       }
     ]
   },
@@ -48884,75 +49184,98 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "spanish-a1-salud-y-bienestar-a1-listening-comprehension",
+        "id": "spanish-a1-salud-y-bienestar-a1-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "¿Qué le duele a Isabel?",
+            "prompt": "En «En la farmacia», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "La cabeza y la garganta"
+                "text": "Esta mañana Isabel no se siente bien."
               },
               {
                 "id": "o2",
-                "text": "La mano y el pie"
+                "text": "Está cansada, por eso va a la farmacia."
               },
               {
                 "id": "o3",
-                "text": "Los ojos y la espalda"
+                "text": "El farmacéutico le recomienda descansar, beber mucha agua y consultar a un médico si no mejora."
               },
               {
                 "id": "o4",
-                "text": "El estómago y la pierna"
+                "text": "Si mañana se siente mejor, volverá a clase; si el dolor continúa, pedirá una cita médica."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "¿Qué le recomienda el farmacéutico?",
+            "prompt": "Después de «Esta mañana Isabel no se siente bien.», ¿qué sucede a continuación en «En la farmacia»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Descansar y beber agua"
+                "text": "Esta mañana Isabel no se siente bien."
               },
               {
                 "id": "o2",
-                "text": "Ir al cine"
+                "text": "Está cansada, por eso va a la farmacia."
               },
               {
                 "id": "o3",
-                "text": "Comprar ropa"
+                "text": "El farmacéutico le recomienda descansar, beber mucha agua y consultar a un médico si no mejora."
               },
               {
                 "id": "o4",
-                "text": "Viajar a la playa"
+                "text": "Si mañana se siente mejor, volverá a clase; si el dolor continúa, pedirá una cita médica."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué hará si el dolor continúa?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «En la farmacia»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Pedir una cita médica"
+                "text": "Esta mañana Isabel no se siente bien."
               },
               {
                 "id": "o2",
-                "text": "Ir a clase"
+                "text": "Está cansada, por eso va a la farmacia."
               },
               {
                 "id": "o3",
-                "text": "Jugar al fútbol"
+                "text": "El farmacéutico le recomienda descansar, beber mucha agua y consultar a un médico si no mejora."
               },
               {
                 "id": "o4",
-                "text": "Preparar una sopa"
+                "text": "Si mañana se siente mejor, volverá a clase; si el dolor continúa, pedirá una cita médica."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «En la farmacia» después de «El farmacéutico le recomienda descansar, beber mucha agua y consultar…»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Esta mañana Isabel no se siente bien."
+              },
+              {
+                "id": "o2",
+                "text": "Está cansada, por eso va a la farmacia."
+              },
+              {
+                "id": "o3",
+                "text": "El farmacéutico le recomienda descansar, beber mucha agua y consultar a un médico si no mejora."
+              },
+              {
+                "id": "o4",
+                "text": "Si mañana se siente mejor, volverá a clase; si el dolor continúa, pedirá una cita médica."
               }
             ]
           }
@@ -48963,36 +49286,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué le duele a Isabel?",
+        "prompt": "En «En la farmacia», ¿qué detalle presenta la situación?",
         "options": [
-          "La cabeza y la garganta",
-          "La mano y el pie",
-          "Los ojos y la espalda",
-          "El estómago y la pierna"
-        ],
-        "explanation": "Le duele la cabeza y la garganta."
+          "Esta mañana Isabel no se siente bien.",
+          "Está cansada, por eso va a la farmacia.",
+          "El farmacéutico le recomienda descansar, beber mucha agua y consultar a un médico si no mejora.",
+          "Si mañana se siente mejor, volverá a clase; si el dolor continúa, pedirá una cita médica."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué le recomienda el farmacéutico?",
+        "prompt": "Después de «Esta mañana Isabel no se siente bien.», ¿qué sucede a continuación en «En la farmacia»?",
         "options": [
-          "Descansar y beber agua",
-          "Ir al cine",
-          "Comprar ropa",
-          "Viajar a la playa"
-        ],
-        "explanation": "Le recomienda descansar y beber mucha agua."
+          "Esta mañana Isabel no se siente bien.",
+          "Está cansada, por eso va a la farmacia.",
+          "El farmacéutico le recomienda descansar, beber mucha agua y consultar a un médico si no mejora.",
+          "Si mañana se siente mejor, volverá a clase; si el dolor continúa, pedirá una cita médica."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hará si el dolor continúa?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «En la farmacia»?",
         "options": [
-          "Pedir una cita médica",
-          "Ir a clase",
-          "Jugar al fútbol",
-          "Preparar una sopa"
-        ],
-        "explanation": "Si el dolor continúa, pedirá una cita médica."
+          "Esta mañana Isabel no se siente bien.",
+          "Está cansada, por eso va a la farmacia.",
+          "El farmacéutico le recomienda descansar, beber mucha agua y consultar a un médico si no mejora.",
+          "Si mañana se siente mejor, volverá a clase; si el dolor continúa, pedirá una cita médica."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «En la farmacia» después de «El farmacéutico le recomienda descansar, beber mucha agua y consultar…»?",
+        "options": [
+          "Esta mañana Isabel no se siente bien.",
+          "Está cansada, por eso va a la farmacia.",
+          "El farmacéutico le recomienda descansar, beber mucha agua y consultar a un médico si no mejora.",
+          "Si mañana se siente mejor, volverá a clase; si el dolor continúa, pedirá una cita médica."
+        ]
       }
     ]
   },
@@ -53563,75 +53893,98 @@
       },
       "dictationSegmentCount": 3,
       "listeningComprehension": {
-        "id": "spanish-a1-planes-y-repaso-listening-comprehension",
+        "id": "spanish-a1-planes-y-repaso-listening-listening-comprehension",
         "passingScore": 70,
         "questions": [
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "¿Adónde va la familia el sábado?",
+            "prompt": "En «Un mensaje sobre el fin de semana», ¿qué detalle presenta la situación?",
             "options": [
               {
                 "id": "o1",
-                "text": "A la playa"
+                "text": "Este fin de semana voy a visitar la playa con mi familia."
               },
               {
                 "id": "o2",
-                "text": "A la estación"
+                "text": "Mi hermano quiere jugar con una pelota y mi madre prepara unos sándwiches."
               },
               {
                 "id": "o3",
-                "text": "A la farmacia"
+                "text": "El domingo pienso descansar en casa y llamar a mi abuela."
               },
               {
                 "id": "o4",
-                "text": "A la biblioteca"
+                "text": "Ya estoy preparando una mochila con agua, toallas y protector solar."
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "¿Qué prepara la madre?",
+            "prompt": "Después de «Este fin de semana voy a visitar la playa con mi familia.», ¿qué sucede a continuación en «Un mensaje sobre el fin de semana»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Sándwiches"
+                "text": "Este fin de semana voy a visitar la playa con mi familia."
               },
               {
                 "id": "o2",
-                "text": "Una camisa azul"
+                "text": "Mi hermano quiere jugar con una pelota y mi madre prepara unos sándwiches."
               },
               {
                 "id": "o3",
-                "text": "Un mapa"
+                "text": "El domingo pienso descansar en casa y llamar a mi abuela."
               },
               {
                 "id": "o4",
-                "text": "Una película"
+                "text": "Ya estoy preparando una mochila con agua, toallas y protector solar."
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "¿Qué lleva la persona en la mochila?",
+            "prompt": "¿Qué frase revela mejor una intención o una decisión en «Un mensaje sobre el fin de semana»?",
             "options": [
               {
                 "id": "o1",
-                "text": "Agua, toallas y protector solar"
+                "text": "Este fin de semana voy a visitar la playa con mi familia."
               },
               {
                 "id": "o2",
-                "text": "Libros y una computadora"
+                "text": "Mi hermano quiere jugar con una pelota y mi madre prepara unos sándwiches."
               },
               {
                 "id": "o3",
-                "text": "Arroz y tomates"
+                "text": "El domingo pienso descansar en casa y llamar a mi abuela."
               },
               {
                 "id": "o4",
-                "text": "Un tren y un billete"
+                "text": "Ya estoy preparando una mochila con agua, toallas y protector solar."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "¿Qué resultado cierra «Un mensaje sobre el fin de semana» después de «El domingo pienso descansar en casa y llamar a mi abuela.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Este fin de semana voy a visitar la playa con mi familia."
+              },
+              {
+                "id": "o2",
+                "text": "Mi hermano quiere jugar con una pelota y mi madre prepara unos sándwiches."
+              },
+              {
+                "id": "o3",
+                "text": "El domingo pienso descansar en casa y llamar a mi abuela."
+              },
+              {
+                "id": "o4",
+                "text": "Ya estoy preparando una mochila con agua, toallas y protector solar."
               }
             ]
           }
@@ -53642,36 +53995,43 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Adónde va la familia el sábado?",
+        "prompt": "En «Un mensaje sobre el fin de semana», ¿qué detalle presenta la situación?",
         "options": [
-          "A la playa",
-          "A la estación",
-          "A la farmacia",
-          "A la biblioteca"
-        ],
-        "explanation": "El sábado van a la playa."
+          "Este fin de semana voy a visitar la playa con mi familia.",
+          "Mi hermano quiere jugar con una pelota y mi madre prepara unos sándwiches.",
+          "El domingo pienso descansar en casa y llamar a mi abuela.",
+          "Ya estoy preparando una mochila con agua, toallas y protector solar."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué prepara la madre?",
+        "prompt": "Después de «Este fin de semana voy a visitar la playa con mi familia.», ¿qué sucede a continuación en «Un mensaje sobre el fin de semana»?",
         "options": [
-          "Sándwiches",
-          "Una camisa azul",
-          "Un mapa",
-          "Una película"
-        ],
-        "explanation": "La madre prepara unos sándwiches."
+          "Este fin de semana voy a visitar la playa con mi familia.",
+          "Mi hermano quiere jugar con una pelota y mi madre prepara unos sándwiches.",
+          "El domingo pienso descansar en casa y llamar a mi abuela.",
+          "Ya estoy preparando una mochila con agua, toallas y protector solar."
+        ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué lleva la persona en la mochila?",
+        "prompt": "¿Qué frase revela mejor una intención o una decisión en «Un mensaje sobre el fin de semana»?",
         "options": [
-          "Agua, toallas y protector solar",
-          "Libros y una computadora",
-          "Arroz y tomates",
-          "Un tren y un billete"
-        ],
-        "explanation": "Prepara una mochila con agua, toallas y protector solar."
+          "Este fin de semana voy a visitar la playa con mi familia.",
+          "Mi hermano quiere jugar con una pelota y mi madre prepara unos sándwiches.",
+          "El domingo pienso descansar en casa y llamar a mi abuela.",
+          "Ya estoy preparando una mochila con agua, toallas y protector solar."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué resultado cierra «Un mensaje sobre el fin de semana» después de «El domingo pienso descansar en casa y llamar a mi abuela.»?",
+        "options": [
+          "Este fin de semana voy a visitar la playa con mi familia.",
+          "Mi hermano quiere jugar con una pelota y mi madre prepara unos sándwiches.",
+          "El domingo pienso descansar en casa y llamar a mi abuela.",
+          "Ya estoy preparando una mochila con agua, toallas y protector solar."
+        ]
       }
     ]
   },
