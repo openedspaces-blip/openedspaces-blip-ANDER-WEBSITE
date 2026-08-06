@@ -23195,15 +23195,22 @@ body {
 .games-theme-banner span { grid-row:1 / span 2; padding:.3rem .55rem; border-radius:999px; background:var(--blue); color:#fff; font-size:.68rem; font-weight:900; letter-spacing:.05em; text-transform:uppercase; }
 .games-theme-banner strong { color:var(--navy-2); font-size:1.05rem; }
 .games-theme-banner small { color:var(--muted); font-size:.76rem; }
-.games-word-grid { display:grid; grid-template-columns:repeat(var(--word-grid-size,12),minmax(0,1fr)); grid-template-rows:repeat(var(--word-grid-size,12),minmax(0,1fr)); gap:.25rem; width:min(100%,620px); aspect-ratio:1; margin:1rem auto; touch-action:none; user-select:none; -webkit-user-select:none; }
-.games-letter-cell { width:100%; height:100%; aspect-ratio:1; min-width:0; min-height:0; padding:0; border:1px solid #d6e4fb; border-radius:9px; background:#f7fbff; color:var(--navy-2); font:inherit; font-weight:900; line-height:1; cursor:pointer; transition:background .12s ease,color .12s ease,transform .12s ease; }
+.games-word-search-layout { display:grid; grid-template-columns:minmax(0,1.35fr) minmax(160px,.65fr); gap:1.25rem; align-items:start; margin:1rem 0; }
+.games-word-grid { display:grid; grid-template-columns:repeat(var(--word-grid-size,15),minmax(0,1fr)); grid-template-rows:repeat(var(--word-grid-size,15),minmax(0,1fr)); gap:.2rem; width:100%; max-width:620px; aspect-ratio:1; margin:0; touch-action:none; user-select:none; -webkit-user-select:none; }
+.games-letter-cell { width:100%; height:100%; aspect-ratio:1; min-width:0; min-height:0; padding:0; border:1px solid #d6e4fb; border-radius:6px; background:#f7fbff; color:var(--navy-2); font:inherit; font-size:clamp(.65rem,2vw,.95rem); font-weight:900; line-height:1; cursor:pointer; transition:background .12s ease,color .12s ease,transform .12s ease; }
 .games-word-grid.is-selecting .games-letter-cell { cursor:grabbing; }
 .games-word-grid.is-selecting .games-letter-cell.is-selected { transform:scale(.94); }
 .games-letter-cell.is-picked,
 .games-letter-cell.is-selected { color:#fff; border-color:var(--blue); background:var(--blue); }
-.games-word-bank { display:flex; justify-content:center; gap:.55rem; flex-wrap:wrap; }
-.games-word-bank span { padding:.35rem .6rem; border-radius:999px; background:#eef5ff; color:#4d6383; font-size:.8rem; font-weight:800; }
-.games-word-bank span.is-found { color:#16855b; background:#e6f8f0; text-decoration:line-through; }
+.games-word-bank { display:flex; flex-direction:column; align-items:flex-start; gap:.5rem; padding:1rem; border:1px solid #d8e6fb; border-radius:15px; background:#f9fbff; align-self:stretch; }
+.games-word-bank span { padding:.2rem 0; color:#4d6383; font-size:.88rem; font-weight:800; letter-spacing:.02em; text-transform:uppercase; }
+.games-word-bank span.is-found { color:#16855b; text-decoration:line-through; }
+@media (max-width:720px) {
+  .games-word-search-layout { grid-template-columns:1fr; }
+  .games-word-bank { flex-direction:row; flex-wrap:wrap; gap:.55rem; }
+  .games-word-bank span { padding:.35rem .6rem; border-radius:999px; background:#eef5ff; text-transform:none; }
+  .games-word-bank span.is-found { background:#e6f8f0; }
+}
 .games-search-directions { margin:.2rem 0 .65rem; color:var(--muted); font-size:.82rem; font-weight:750; text-align:center; }
 .games-clues { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:.75rem; }
 .games-clue { display:grid; gap:.55rem; padding: .85rem; border:1px solid #d8e6fb; border-radius:15px; background:#f9fbff; }

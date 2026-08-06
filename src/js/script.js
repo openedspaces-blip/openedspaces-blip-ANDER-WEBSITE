@@ -17065,9 +17065,9 @@ const gamesState = {
   timerFinished: false, timerInterval: null, timerAutoPaused: false
 };
 const GAME_DIFFICULTIES = {
-  easy: { label: 'Fácil', wordSearchSize: 10, wordSearchWords: 5, crosswordWords: 5, hangmanLives: 8, matchPairs: 4 },
-  normal: { label: 'Normal', wordSearchSize: 12, wordSearchWords: 6, crosswordWords: 6, hangmanLives: 6, matchPairs: 5 },
-  challenge: { label: 'Desafío', wordSearchSize: 14, wordSearchWords: 8, crosswordWords: 8, hangmanLives: 5, matchPairs: 6 }
+  easy: { label: 'Fácil', wordSearchSize: 15, wordSearchWords: 5, crosswordWords: 5, hangmanLives: 8, matchPairs: 4 },
+  normal: { label: 'Normal', wordSearchSize: 15, wordSearchWords: 6, crosswordWords: 6, hangmanLives: 6, matchPairs: 5 },
+  challenge: { label: 'Desafío', wordSearchSize: 15, wordSearchWords: 8, crosswordWords: 8, hangmanLives: 5, matchPairs: 6 }
 };
 
 function getGamesDifficulty() {
@@ -17409,7 +17409,7 @@ function renderWordSearchGame(content, words) {
   const picked = new Set();
   const found = new Set();
   setGamesRoundProgress(0, puzzle.targets.length);
-  content.innerHTML = `<p class="games-search-directions">Encuentra ${puzzle.targets.length} palabras de izquierda a derecha, de arriba abajo o en diagonal. No hay palabras al revés.</p><div class="games-word-grid" style="--word-grid-size:${puzzle.size}" aria-label="Sopa de letras">${puzzle.letters.map((letter, index) => `<button type="button" class="games-letter-cell" data-letter-index="${index}" aria-label="Letra ${letter}">${letter}</button>`).join('')}</div><div class="games-word-bank">${puzzle.targets.map((target, index) => `<span data-word-index="${index}">${escapeHtml(target.term)}</span>`).join('')}</div><div class="games-action-row"><button type="button" class="secondary-btn games-clear-search">Limpiar selección</button><button type="button" class="secondary-btn games-speak-target">🔊 Pista de audio</button></div>`;
+  content.innerHTML = `<p class="games-search-directions">Encuentra ${puzzle.targets.length} palabras de izquierda a derecha, de arriba abajo o en diagonal. No hay palabras al revés.</p><div class="games-word-search-layout"><div class="games-word-grid" style="--word-grid-size:${puzzle.size}" aria-label="Sopa de letras">${puzzle.letters.map((letter, index) => `<button type="button" class="games-letter-cell" data-letter-index="${index}" aria-label="Letra ${letter}">${letter}</button>`).join('')}</div><div class="games-word-bank">${puzzle.targets.map((target, index) => `<span data-word-index="${index}">${escapeHtml(target.term)}</span>`).join('')}</div></div><div class="games-action-row"><button type="button" class="secondary-btn games-clear-search">Limpiar selección</button><button type="button" class="secondary-btn games-speak-target">🔊 Pista de audio</button></div>`;
   const check = () => {
     const selected = [...picked].join(',');
     const targetIndex = puzzle.targets.findIndex((target) => target.positions.join(',') === selected);
