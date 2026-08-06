@@ -125,6 +125,20 @@ JOIN public.levels lv ON lv.id = c.level_id
 WHERE l.code = 'french' AND lv.code = 'A2'
 ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, description = EXCLUDED.description, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_units (course_id, slug, title, description, order_index)
+SELECT c.id, 'services-et-demarches', 'Services et démarches', 'Comprendre une démarche simple, demander des informations et préparer un dossier.', 11
+FROM public.courses c
+JOIN public.languages l ON l.id = c.language_id
+JOIN public.levels lv ON lv.id = c.level_id
+WHERE l.code = 'french' AND lv.code = 'A2'
+ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, description = EXCLUDED.description, order_index = EXCLUDED.order_index;
+INSERT INTO public.course_units (course_id, slug, title, description, order_index)
+SELECT c.id, 'projets-solidaires', 'Projets solidaires', 'Proposer une action collective, inviter des participants et organiser un projet local.', 12
+FROM public.courses c
+JOIN public.languages l ON l.id = c.language_id
+JOIN public.levels lv ON lv.id = c.level_id
+WHERE l.code = 'french' AND lv.code = 'A2'
+ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, description = EXCLUDED.description, order_index = EXCLUDED.order_index;
+INSERT INTO public.course_units (course_id, slug, title, description, order_index)
 SELECT c.id, 'projets-et-avenir', 'Projets et avenir', 'Camila réfléchit à son avenir et discute de ses projets avec Léa et Karim.', 1
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
@@ -200,7 +214,7 @@ ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, description = EXCLUDED.
 -- ---------------------------------------------------------------------
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-a2-les-achats-reading', 'reading', 'Une matinée au marché', 'Camila découvre le marché de Tours avec Léa et achète des fruits pour la famille Lambert.', 10, 25, 'free', 12, true, NULL, NULL, NULL
+SELECT c.id, u.id, 'french-a2-les-achats-reading', 'reading', 'Une matinée au marché de Tours', 'Un guide pratique pour découvrir le célèbre marché de Tours et comparer les prix.', 10, 25, 'free', 12, true, NULL, NULL, NULL
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -213,7 +227,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-a2-les-achats-listening', 'listening', 'Combien ça coûte ?', 'Écoute Camila qui achète des fraises au marché.', 11, 25, 'free', 10, true, NULL, NULL, '["Combien ça coûte ?","J’en voudrais...","Ça fait combien ?","Voici l’argent."]'::jsonb
+SELECT c.id, u.id, 'french-a2-les-achats-listening', 'listening', 'Le panier oublié', 'Écoute l’histoire « Le panier oublié » et repère les détails importants.', 11, 25, 'free', 10, true, NULL, NULL, '["Combien ça coûte ?","J’en voudrais...","Ça fait combien ?","Voici l’argent."]'::jsonb
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -291,7 +305,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-a2-au-restaurant-reading', 'reading', 'L’anniversaire de Léa', 'La famille Lambert célèbre l’anniversaire de Léa au restaurant « Le Petit Jardin ».', 20, 25, 'free', 12, true, NULL, NULL, NULL
+SELECT c.id, u.id, 'french-a2-au-restaurant-reading', 'reading', 'Fêter un anniversaire au restaurant', 'Comment les Français réservent une table et fêtent un anniversaire au restaurant.', 20, 25, 'free', 12, true, NULL, NULL, NULL
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -304,7 +318,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-a2-au-restaurant-listening', 'listening', 'Je voudrais réserver une table', 'Écoute Monsieur Lambert qui réserve une table par téléphone.', 21, 25, 'free', 10, true, NULL, NULL, '["Je voudrais réserver...","C’est pour combien de personnes ?","Nous sommes complets.","Au nom de..."]'::jsonb
+SELECT c.id, u.id, 'french-a2-au-restaurant-listening', 'listening', 'Une surprise pour Léa', 'Écoute l’histoire « Une surprise pour Léa » et repère les détails importants.', 21, 25, 'free', 10, true, NULL, NULL, '["Je voudrais réserver...","C’est pour combien de personnes ?","Nous sommes complets.","Au nom de..."]'::jsonb
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -382,7 +396,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-a2-se-deplacer-reading', 'reading', 'Perdue dans Tours', 'Camila prend le bus toute seule pour la première fois et doit demander son chemin.', 30, 25, 'free', 12, true, NULL, NULL, NULL
+SELECT c.id, u.id, 'french-a2-se-deplacer-reading', 'reading', 'Se déplacer dans Tours', 'Comment utiliser le réseau de bus et de tram pour se déplacer dans Tours.', 30, 25, 'free', 12, true, NULL, NULL, NULL
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -395,7 +409,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-a2-se-deplacer-listening', 'listening', 'Pour aller à... ?', 'Écoute Camila qui demande son chemin dans la rue.', 31, 25, 'free', 10, true, NULL, NULL, '["Pour aller à... ?","Tout droit","Tournez à gauche/à droite","C’est loin ?"]'::jsonb
+SELECT c.id, u.id, 'french-a2-se-deplacer-listening', 'listening', 'Le mauvais arrêt', 'Écoute l’histoire « Le mauvais arrêt » et repère les détails importants.', 31, 25, 'free', 10, true, NULL, NULL, '["Pour aller à... ?","Tout droit","Tournez à gauche/à droite","C’est loin ?"]'::jsonb
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -473,7 +487,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-a2-la-sante-reading', 'reading', 'Chez le médecin', 'Camila ne se sent pas bien et Madame Lambert l’emmène chez le médecin.', 40, 25, 'free', 12, true, NULL, NULL, NULL
+SELECT c.id, u.id, 'french-a2-la-sante-reading', 'reading', 'Une visite chez le médecin en France', 'Comment se passe une consultation médicale typique en France.', 40, 25, 'free', 12, true, NULL, NULL, NULL
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -486,7 +500,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-a2-la-sante-listening', 'listening', 'Qu’est-ce qui ne va pas ?', 'Écoute la consultation de Camila chez le médecin.', 41, 25, 'free', 10, true, NULL, NULL, '["Qu’est-ce qui ne va pas ?","J’ai mal à...","Depuis combien de temps ?","Vous devez..."]'::jsonb
+SELECT c.id, u.id, 'french-a2-la-sante-listening', 'listening', 'Une journée pour se reposer', 'Écoute l’histoire « Une journée pour se reposer » et repère les détails importants.', 41, 25, 'free', 10, true, NULL, NULL, '["Qu’est-ce qui ne va pas ?","J’ai mal à...","Depuis combien de temps ?","Vous devez..."]'::jsonb
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -564,7 +578,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-a2-la-vie-quotidienne-reading', 'reading', 'Ma nouvelle routine à Tours', 'Camila explique à sa mère comment se passe une journée typique chez les Lambert.', 50, 25, 'free', 12, true, NULL, NULL, NULL
+SELECT c.id, u.id, 'french-a2-la-vie-quotidienne-reading', 'reading', 'La routine d’un(e) élève en échange scolaire', 'Comment se passe une journée typique pour un(e) élève en échange scolaire en France.', 50, 25, 'free', 12, true, NULL, NULL, NULL
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -577,7 +591,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-a2-la-vie-quotidienne-listening', 'listening', 'L’emploi du temps de Camila', 'Écoute Camila qui décrit son emploi du temps de la semaine à Karim.', 51, 25, 'free', 10, true, NULL, NULL, '["un emploi du temps chargé","jusqu’à...","toujours / jamais","comme d’habitude"]'::jsonb
+SELECT c.id, u.id, 'french-a2-la-vie-quotidienne-listening', 'listening', 'Une semaine bien organisée', 'Écoute l’histoire « Une semaine bien organisée » et repère les détails importants.', 51, 25, 'free', 10, true, NULL, NULL, '["un emploi du temps chargé","jusqu’à...","toujours / jamais","comme d’habitude"]'::jsonb
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -655,7 +669,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-a2-les-experiences-passees-reading', 'reading', 'Mon premier mois en France', 'Camila raconte, dans son journal, les expériences marquantes de son premier mois à Tours.', 60, 25, 'free', 12, true, NULL, NULL, NULL
+SELECT c.id, u.id, 'french-a2-les-experiences-passees-reading', 'reading', 'Un premier mois d’échange scolaire', 'Le journal d’un(e) élève en échange scolaire pendant son premier mois en France.', 60, 25, 'free', 12, true, NULL, NULL, NULL
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -668,7 +682,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-a2-les-experiences-passees-listening', 'listening', 'Le week-end à Paris', 'Écoute Camila raconter son week-end à Paris à sa mère.', 61, 25, 'free', 10, true, NULL, NULL, '["On est allés à...","Nous sommes montés à...","J’ai goûté...","C’était incroyable !"]'::jsonb
+SELECT c.id, u.id, 'french-a2-les-experiences-passees-listening', 'listening', 'Le premier voyage de Mamadou', 'Écoute l’histoire « Le premier voyage de Mamadou » et repère les détails importants.', 61, 25, 'free', 10, true, NULL, NULL, '["On est allés à...","Nous sommes montés à...","J’ai goûté...","C’était incroyable !"]'::jsonb
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -746,7 +760,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-a2-les-voyages-et-les-vacances-reading', 'reading', 'Un voyage dans le sud', 'La famille Lambert organise un voyage de printemps et réserve un hôtel à Nice.', 70, 25, 'free', 12, true, NULL, NULL, NULL
+SELECT c.id, u.id, 'french-a2-les-voyages-et-les-vacances-reading', 'reading', 'Un voyage dans le sud de la France', 'Un guide de voyage pour visiter Nice et la Côte d’Azur pendant les vacances de printemps.', 70, 25, 'free', 12, true, NULL, NULL, NULL
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -759,7 +773,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-a2-les-voyages-et-les-vacances-listening', 'listening', 'Réserver une chambre d’hôtel', 'Écoute Madame Lambert qui réserve une chambre d’hôtel par téléphone.', 71, 25, 'free', 10, true, NULL, NULL, '["Je voudrais réserver...","Pour quelles dates ?","Du... au...","Une chambre avec vue sur..."]'::jsonb
+SELECT c.id, u.id, 'french-a2-les-voyages-et-les-vacances-listening', 'listening', 'Découvrez Saint-Louis du Sénégal', 'Écoute l’histoire « Découvrez Saint-Louis du Sénégal » et repère les détails importants.', 71, 25, 'free', 10, true, NULL, NULL, '["Je voudrais réserver...","Pour quelles dates ?","Du... au...","Une chambre avec vue sur..."]'::jsonb
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -837,7 +851,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-a2-le-logement-reading', 'reading', 'Deux appartements à comparer', 'Pour un projet d’école, Camila et Karim comparent deux annonces d’appartements à louer.', 80, 25, 'free', 12, true, NULL, NULL, NULL
+SELECT c.id, u.id, 'french-a2-le-logement-reading', 'reading', 'Deux appartements à comparer', 'Pour un projet d’école, des élèves comparent deux annonces d’appartements à louer à Tours.', 80, 25, 'free', 12, true, NULL, NULL, NULL
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -850,7 +864,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-a2-le-logement-listening', 'listening', 'Une visite d’appartement', 'Écoute une agente immobilière qui décrit un appartement à visiter.', 81, 25, 'free', 10, true, NULL, NULL, '["Il y a...","La cuisine est séparée.","C’est lumineux.","complètement équipé(e)"]'::jsonb
+SELECT c.id, u.id, 'french-a2-le-logement-listening', 'listening', 'Deux logements à louer à Nantes', 'Écoute l’histoire « Deux logements à louer à Nantes » et repère les détails importants.', 81, 25, 'free', 10, true, NULL, NULL, '["Il y a...","La cuisine est séparée.","C’est lumineux.","complètement équipé(e)"]'::jsonb
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -928,7 +942,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-a2-les-loisirs-et-les-medias-reading', 'reading', 'Quel film regarder ce soir ?', 'Camila, Léa et Karim n’arrivent pas à se mettre d’accord sur le film à regarder.', 90, 25, 'free', 12, true, NULL, NULL, NULL
+SELECT c.id, u.id, 'french-a2-les-loisirs-et-les-medias-reading', 'reading', 'Quel film regarder ce soir ?', 'Un groupe d’amis n’arrive pas à se mettre d’accord sur le film à regarder.', 90, 25, 'free', 12, true, NULL, NULL, NULL
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -941,7 +955,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-a2-les-loisirs-et-les-medias-listening', 'listening', 'Mon film préféré', 'Écoute Léa parler de son film préféré à Camila.', 91, 25, 'free', 10, true, NULL, NULL, '["Mon film préféré, c’est...","Il/elle me fait rire.","Je ne l’ai jamais vu(e).","Avec plaisir !"]'::jsonb
+SELECT c.id, u.id, 'french-a2-les-loisirs-et-les-medias-listening', 'listening', 'Le club média lance sa première émission', 'Écoute l’histoire « Le club média lance sa première émission » et repère les détails importants.', 91, 25, 'free', 10, true, NULL, NULL, '["Mon film préféré, c’est...","Il/elle me fait rire.","Je ne l’ai jamais vu(e).","Avec plaisir !"]'::jsonb
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -1019,7 +1033,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-a2-relations-et-communication-reading', 'reading', 'Un e-mail à Sofía', 'Camila écrit à sa meilleure amie de Saint-Domingue pour lui raconter sa nouvelle vie.', 100, 25, 'free', 12, true, NULL, NULL, NULL
+SELECT c.id, u.id, 'french-a2-relations-et-communication-reading', 'reading', 'Un e-mail pendant un échange scolaire', 'Un modèle d’e-mail qu’un(e) élève en échange scolaire pourrait écrire à un(e) ami(e) resté(e) dans son pays.', 100, 25, 'free', 12, true, NULL, NULL, NULL
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -1032,7 +1046,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-a2-relations-et-communication-listening', 'listening', 'Un appel vidéo entre amies', 'Écoute Camila et Sofía qui se parlent enfin par appel vidéo.', 101, 25, 'free', 10, true, NULL, NULL, '["Tu m’as manqué.","Raconte-moi tout.","On pense souvent à toi.","Je te les présente bientôt."]'::jsonb
+SELECT c.id, u.id, 'french-a2-relations-et-communication-listening', 'listening', 'Comment garder une amitié à distance', 'Écoute l’histoire « Comment garder une amitié à distance » et repère les détails importants.', 101, 25, 'free', 10, true, NULL, NULL, '["Tu m’as manqué.","Raconte-moi tout.","On pense souvent à toi.","Je te les présente bientôt."]'::jsonb
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -1110,7 +1124,189 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-b1-projets-et-avenir-reading', 'reading', 'Rester ou repartir ?', 'Camila hésite entre prolonger son échange en France ou rentrer en République dominicaine.', 10, 30, 'free', 15, true, NULL, NULL, NULL
+SELECT c.id, u.id, 'french-a2-services-et-demarches-reading', 'reading', 'Une carte pour la médiathèque', 'Nora découvre comment s’inscrire à la nouvelle médiathèque de son quartier.', 110, 25, 'premium', 12, true, NULL, NULL, NULL
+FROM public.courses c
+JOIN public.languages l ON l.id = c.language_id
+JOIN public.levels lv ON lv.id = c.level_id
+JOIN public.course_units u ON u.course_id = c.id AND u.slug = 'services-et-demarches'
+WHERE l.code = 'french' AND lv.code = 'A2'
+ON CONFLICT (slug) DO UPDATE SET
+  unit_id = EXCLUDED.unit_id, skill = EXCLUDED.skill, title = EXCLUDED.title, description = EXCLUDED.description,
+  order_index = EXCLUDED.order_index, xp_reward = EXCLUDED.xp_reward, access_tier = EXCLUDED.access_tier,
+  estimated_minutes = EXCLUDED.estimated_minutes, is_published = true,
+  mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
+INSERT INTO public.course_lessons
+  (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
+SELECT c.id, u.id, 'french-a2-services-et-demarches-listening', 'listening', 'Information de la mairie', 'Écoute l’histoire « Information de la mairie » et repère les détails importants.', 111, 25, 'premium', 10, true, NULL, NULL, '["Vous pouvez y accéder...","Il faut apporter...","Vous en aurez besoin.","Prenez rendez-vous."]'::jsonb
+FROM public.courses c
+JOIN public.languages l ON l.id = c.language_id
+JOIN public.levels lv ON lv.id = c.level_id
+JOIN public.course_units u ON u.course_id = c.id AND u.slug = 'services-et-demarches'
+WHERE l.code = 'french' AND lv.code = 'A2'
+ON CONFLICT (slug) DO UPDATE SET
+  unit_id = EXCLUDED.unit_id, skill = EXCLUDED.skill, title = EXCLUDED.title, description = EXCLUDED.description,
+  order_index = EXCLUDED.order_index, xp_reward = EXCLUDED.xp_reward, access_tier = EXCLUDED.access_tier,
+  estimated_minutes = EXCLUDED.estimated_minutes, is_published = true,
+  mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
+INSERT INTO public.course_lessons
+  (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
+SELECT c.id, u.id, 'french-a2-services-et-demarches-speaking', 'speaking', 'Au guichet municipal', 'Demande les informations nécessaires pour effectuer une démarche.', 112, 20, 'premium', 10, true, 'Explique la raison de ta visite, demande les documents nécessaires et vérifie les horaires.', NULL, '["Je voudrais des informations sur...","Quels documents faut-il apporter ?","Est-ce qu’il faut prendre rendez-vous ?","Je peux le faire en ligne ?"]'::jsonb
+FROM public.courses c
+JOIN public.languages l ON l.id = c.language_id
+JOIN public.levels lv ON lv.id = c.level_id
+JOIN public.course_units u ON u.course_id = c.id AND u.slug = 'services-et-demarches'
+WHERE l.code = 'french' AND lv.code = 'A2'
+ON CONFLICT (slug) DO UPDATE SET
+  unit_id = EXCLUDED.unit_id, skill = EXCLUDED.skill, title = EXCLUDED.title, description = EXCLUDED.description,
+  order_index = EXCLUDED.order_index, xp_reward = EXCLUDED.xp_reward, access_tier = EXCLUDED.access_tier,
+  estimated_minutes = EXCLUDED.estimated_minutes, is_published = true,
+  mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
+INSERT INTO public.course_lessons
+  (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
+SELECT c.id, u.id, 'french-a2-services-et-demarches-writing', 'writing', 'Demander une information par e-mail', 'Rédige un message clair à un service municipal.', 113, 25, 'premium', 14, true, 'Écris 80 à 100 mots pour demander les horaires, les documents nécessaires et la possibilité de faire la démarche en ligne.', NULL, '["Madame, Monsieur,","Je souhaiterais obtenir des informations...","Pourriez-vous m’indiquer...","Je vous remercie par avance."]'::jsonb
+FROM public.courses c
+JOIN public.languages l ON l.id = c.language_id
+JOIN public.levels lv ON lv.id = c.level_id
+JOIN public.course_units u ON u.course_id = c.id AND u.slug = 'services-et-demarches'
+WHERE l.code = 'french' AND lv.code = 'A2'
+ON CONFLICT (slug) DO UPDATE SET
+  unit_id = EXCLUDED.unit_id, skill = EXCLUDED.skill, title = EXCLUDED.title, description = EXCLUDED.description,
+  order_index = EXCLUDED.order_index, xp_reward = EXCLUDED.xp_reward, access_tier = EXCLUDED.access_tier,
+  estimated_minutes = EXCLUDED.estimated_minutes, is_published = true,
+  mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
+INSERT INTO public.course_lessons
+  (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
+SELECT c.id, u.id, 'french-a2-services-et-demarches-grammar', 'grammar', 'Les pronoms y et en', 'Éviter les répétitions avec y et en.', 114, 20, 'premium', 10, true, NULL, '« Y » remplace généralement un lieu introduit par à, dans ou chez : « Je vais à la mairie → J’y vais. » « En » remplace un complément introduit par de ou une quantité : « J’ai besoin de deux documents → J’en ai besoin de deux. »', '["J’y vais demain.","Vous pouvez y accéder.","J’en ai besoin.","Il faut en apporter deux."]'::jsonb
+FROM public.courses c
+JOIN public.languages l ON l.id = c.language_id
+JOIN public.levels lv ON lv.id = c.level_id
+JOIN public.course_units u ON u.course_id = c.id AND u.slug = 'services-et-demarches'
+WHERE l.code = 'french' AND lv.code = 'A2'
+ON CONFLICT (slug) DO UPDATE SET
+  unit_id = EXCLUDED.unit_id, skill = EXCLUDED.skill, title = EXCLUDED.title, description = EXCLUDED.description,
+  order_index = EXCLUDED.order_index, xp_reward = EXCLUDED.xp_reward, access_tier = EXCLUDED.access_tier,
+  estimated_minutes = EXCLUDED.estimated_minutes, is_published = true,
+  mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
+INSERT INTO public.course_lessons
+  (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
+SELECT c.id, u.id, 'french-a2-services-et-demarches-vocabulary', 'vocabulary', 'Le vocabulaire des démarches', 'Les mots utiles pour comprendre et effectuer une démarche simple.', 115, 20, 'premium', 8, true, NULL, NULL, NULL
+FROM public.courses c
+JOIN public.languages l ON l.id = c.language_id
+JOIN public.levels lv ON lv.id = c.level_id
+JOIN public.course_units u ON u.course_id = c.id AND u.slug = 'services-et-demarches'
+WHERE l.code = 'french' AND lv.code = 'A2'
+ON CONFLICT (slug) DO UPDATE SET
+  unit_id = EXCLUDED.unit_id, skill = EXCLUDED.skill, title = EXCLUDED.title, description = EXCLUDED.description,
+  order_index = EXCLUDED.order_index, xp_reward = EXCLUDED.xp_reward, access_tier = EXCLUDED.access_tier,
+  estimated_minutes = EXCLUDED.estimated_minutes, is_published = true,
+  mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
+INSERT INTO public.course_lessons
+  (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
+SELECT c.id, u.id, 'french-a2-services-et-demarches-dialogue', 'dialogue', 'Un dossier incomplet', 'Un agent aide une personne à compléter son dossier.', 116, 20, 'premium', 10, true, NULL, NULL, '["Il manque...","Je peux l’envoyer...","Vous pouvez le déposer...","Je vais le faire."]'::jsonb
+FROM public.courses c
+JOIN public.languages l ON l.id = c.language_id
+JOIN public.levels lv ON lv.id = c.level_id
+JOIN public.course_units u ON u.course_id = c.id AND u.slug = 'services-et-demarches'
+WHERE l.code = 'french' AND lv.code = 'A2'
+ON CONFLICT (slug) DO UPDATE SET
+  unit_id = EXCLUDED.unit_id, skill = EXCLUDED.skill, title = EXCLUDED.title, description = EXCLUDED.description,
+  order_index = EXCLUDED.order_index, xp_reward = EXCLUDED.xp_reward, access_tier = EXCLUDED.access_tier,
+  estimated_minutes = EXCLUDED.estimated_minutes, is_published = true,
+  mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
+INSERT INTO public.course_lessons
+  (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
+SELECT c.id, u.id, 'french-a2-projets-solidaires-reading', 'reading', 'Un samedi pour partager', 'Des habitants organisent une collecte de vêtements et de fournitures scolaires.', 120, 25, 'premium', 12, true, NULL, NULL, NULL
+FROM public.courses c
+JOIN public.languages l ON l.id = c.language_id
+JOIN public.levels lv ON lv.id = c.level_id
+JOIN public.course_units u ON u.course_id = c.id AND u.slug = 'projets-solidaires'
+WHERE l.code = 'french' AND lv.code = 'A2'
+ON CONFLICT (slug) DO UPDATE SET
+  unit_id = EXCLUDED.unit_id, skill = EXCLUDED.skill, title = EXCLUDED.title, description = EXCLUDED.description,
+  order_index = EXCLUDED.order_index, xp_reward = EXCLUDED.xp_reward, access_tier = EXCLUDED.access_tier,
+  estimated_minutes = EXCLUDED.estimated_minutes, is_published = true,
+  mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
+INSERT INTO public.course_lessons
+  (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
+SELECT c.id, u.id, 'french-a2-projets-solidaires-listening', 'listening', 'Appel aux bénévoles', 'Écoute l’histoire « Appel aux bénévoles » et repère les détails importants.', 121, 25, 'premium', 10, true, NULL, NULL, '["Nous recherchons des bénévoles.","Vous pourriez apporter...","La collecte va avoir lieu...","Merci de votre participation."]'::jsonb
+FROM public.courses c
+JOIN public.languages l ON l.id = c.language_id
+JOIN public.levels lv ON lv.id = c.level_id
+JOIN public.course_units u ON u.course_id = c.id AND u.slug = 'projets-solidaires'
+WHERE l.code = 'french' AND lv.code = 'A2'
+ON CONFLICT (slug) DO UPDATE SET
+  unit_id = EXCLUDED.unit_id, skill = EXCLUDED.skill, title = EXCLUDED.title, description = EXCLUDED.description,
+  order_index = EXCLUDED.order_index, xp_reward = EXCLUDED.xp_reward, access_tier = EXCLUDED.access_tier,
+  estimated_minutes = EXCLUDED.estimated_minutes, is_published = true,
+  mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
+INSERT INTO public.course_lessons
+  (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
+SELECT c.id, u.id, 'french-a2-projets-solidaires-speaking', 'speaking', 'Présenter une action solidaire', 'Propose une activité utile à ton école ou à ton quartier.', 122, 20, 'premium', 10, true, 'Présente l’objectif, le lieu, la date et les tâches. Invite ensuite les autres à participer.', NULL, '["On pourrait organiser...","Est-ce que vous pourriez...","La journée va avoir lieu...","Nous avons besoin de..."]'::jsonb
+FROM public.courses c
+JOIN public.languages l ON l.id = c.language_id
+JOIN public.levels lv ON lv.id = c.level_id
+JOIN public.course_units u ON u.course_id = c.id AND u.slug = 'projets-solidaires'
+WHERE l.code = 'french' AND lv.code = 'A2'
+ON CONFLICT (slug) DO UPDATE SET
+  unit_id = EXCLUDED.unit_id, skill = EXCLUDED.skill, title = EXCLUDED.title, description = EXCLUDED.description,
+  order_index = EXCLUDED.order_index, xp_reward = EXCLUDED.xp_reward, access_tier = EXCLUDED.access_tier,
+  estimated_minutes = EXCLUDED.estimated_minutes, is_published = true,
+  mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
+INSERT INTO public.course_lessons
+  (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
+SELECT c.id, u.id, 'french-a2-projets-solidaires-writing', 'writing', 'Une invitation solidaire', 'Rédige une annonce pour inviter des participants.', 123, 25, 'premium', 14, true, 'Écris une annonce de 90 à 110 mots avec l’objectif, la date, le lieu, les objets recherchés et un contact.', NULL, '["Nous organisons...","Vous pourriez apporter...","Nous recherchons...","Pour participer, contactez..."]'::jsonb
+FROM public.courses c
+JOIN public.languages l ON l.id = c.language_id
+JOIN public.levels lv ON lv.id = c.level_id
+JOIN public.course_units u ON u.course_id = c.id AND u.slug = 'projets-solidaires'
+WHERE l.code = 'french' AND lv.code = 'A2'
+ON CONFLICT (slug) DO UPDATE SET
+  unit_id = EXCLUDED.unit_id, skill = EXCLUDED.skill, title = EXCLUDED.title, description = EXCLUDED.description,
+  order_index = EXCLUDED.order_index, xp_reward = EXCLUDED.xp_reward, access_tier = EXCLUDED.access_tier,
+  estimated_minutes = EXCLUDED.estimated_minutes, is_published = true,
+  mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
+INSERT INTO public.course_lessons
+  (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
+SELECT c.id, u.id, 'french-a2-projets-solidaires-grammar', 'grammar', 'Proposer et demander poliment', 'Utiliser le conditionnel pour faire une proposition ou une demande.', 124, 20, 'premium', 10, true, NULL, 'Pour proposer une action, on peut utiliser « on pourrait + infinitif ». Pour demander poliment, on emploie souvent « pourriez-vous + infinitif ? » ou « je voudrais + nom/infinitif ». Ces formes sont plus douces que l’impératif.', '["On pourrait organiser...","Pourriez-vous participer ?","Je voudrais aider.","Tu pourrais préparer..."]'::jsonb
+FROM public.courses c
+JOIN public.languages l ON l.id = c.language_id
+JOIN public.levels lv ON lv.id = c.level_id
+JOIN public.course_units u ON u.course_id = c.id AND u.slug = 'projets-solidaires'
+WHERE l.code = 'french' AND lv.code = 'A2'
+ON CONFLICT (slug) DO UPDATE SET
+  unit_id = EXCLUDED.unit_id, skill = EXCLUDED.skill, title = EXCLUDED.title, description = EXCLUDED.description,
+  order_index = EXCLUDED.order_index, xp_reward = EXCLUDED.xp_reward, access_tier = EXCLUDED.access_tier,
+  estimated_minutes = EXCLUDED.estimated_minutes, is_published = true,
+  mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
+INSERT INTO public.course_lessons
+  (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
+SELECT c.id, u.id, 'french-a2-projets-solidaires-vocabulary', 'vocabulary', 'Le vocabulaire de la solidarité', 'Les mots utiles pour organiser une action collective.', 125, 20, 'premium', 8, true, NULL, NULL, NULL
+FROM public.courses c
+JOIN public.languages l ON l.id = c.language_id
+JOIN public.levels lv ON lv.id = c.level_id
+JOIN public.course_units u ON u.course_id = c.id AND u.slug = 'projets-solidaires'
+WHERE l.code = 'french' AND lv.code = 'A2'
+ON CONFLICT (slug) DO UPDATE SET
+  unit_id = EXCLUDED.unit_id, skill = EXCLUDED.skill, title = EXCLUDED.title, description = EXCLUDED.description,
+  order_index = EXCLUDED.order_index, xp_reward = EXCLUDED.xp_reward, access_tier = EXCLUDED.access_tier,
+  estimated_minutes = EXCLUDED.estimated_minutes, is_published = true,
+  mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
+INSERT INTO public.course_lessons
+  (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
+SELECT c.id, u.id, 'french-a2-projets-solidaires-dialogue', 'dialogue', 'Répartir les tâches', 'Deux bénévoles organisent le travail avant une collecte.', 126, 20, 'premium', 10, true, NULL, NULL, '["Tu pourrais...","Oui, bien sûr.","Je vais aussi...","Notre projet avance."]'::jsonb
+FROM public.courses c
+JOIN public.languages l ON l.id = c.language_id
+JOIN public.levels lv ON lv.id = c.level_id
+JOIN public.course_units u ON u.course_id = c.id AND u.slug = 'projets-solidaires'
+WHERE l.code = 'french' AND lv.code = 'A2'
+ON CONFLICT (slug) DO UPDATE SET
+  unit_id = EXCLUDED.unit_id, skill = EXCLUDED.skill, title = EXCLUDED.title, description = EXCLUDED.description,
+  order_index = EXCLUDED.order_index, xp_reward = EXCLUDED.xp_reward, access_tier = EXCLUDED.access_tier,
+  estimated_minutes = EXCLUDED.estimated_minutes, is_published = true,
+  mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
+INSERT INTO public.course_lessons
+  (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
+SELECT c.id, u.id, 'french-b1-projets-et-avenir-reading', 'reading', 'Construire un projet d’avenir', 'Comment transformer une ambition en étapes réalistes, avec l’aide de conseillers d’orientation.', 10, 30, 'free', 15, true, NULL, NULL, NULL
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -1123,7 +1319,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-b1-projets-et-avenir-listening', 'listening', 'Une conversation entre amies', 'Écoute Camila et Léa discuter de l’avenir de Camila.', 11, 30, 'free', 12, true, NULL, NULL, '["Si je reste...","Si tu pars...","À mon avis...","Ça m’aide de..."]'::jsonb
+SELECT c.id, u.id, 'french-b1-projets-et-avenir-listening', 'listening', 'Choisir son prochain projet', 'Écoute ce contenu de niveau B1 et identifie les idées, les nuances et les preuves.', 11, 30, 'free', 12, true, NULL, NULL, '["Si je reste...","Si tu pars...","À mon avis...","Ça m’aide de..."]'::jsonb
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -1201,7 +1397,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-b1-identite-et-parcours-personnel-reading', 'reading', 'Comment j’ai changé', 'Camila réfléchit, dans un texte pour l’école, à la façon dont son séjour en France l’a transformée.', 20, 30, 'free', 15, true, NULL, NULL, NULL
+SELECT c.id, u.id, 'french-b1-identite-et-parcours-personnel-reading', 'reading', 'Identité et parcours personnel', 'Pourquoi l’identité se construit à travers plusieurs expériences, selon les chercheurs en psychologie sociale.', 20, 30, 'free', 15, true, NULL, NULL, NULL
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -1214,7 +1410,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-b1-identite-et-parcours-personnel-listening', 'listening', 'Avant et maintenant', 'Écoute Camila comparer sa vie avant et après son arrivée en France.', 21, 30, 'free', 12, true, NULL, NULL, '["Tu étais comment, avant ?","J’étais...","Je n’aurais jamais deviné.","J’ai beaucoup changé."]'::jsonb
+SELECT c.id, u.id, 'french-b1-identite-et-parcours-personnel-listening', 'listening', 'Avant, je n’osais pas', 'Écoute ce contenu de niveau B1 et identifie les idées, les nuances et les preuves.', 21, 30, 'free', 12, true, NULL, NULL, '["Tu étais comment, avant ?","J’étais...","Je n’aurais jamais deviné.","J’ai beaucoup changé."]'::jsonb
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -1292,7 +1488,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-b1-etudes-et-apprentissage-reading', 'reading', 'Réviser pour l’examen', 'Camila prépare un examen difficile et demande conseil à Karim, qui est très bon élève.', 30, 30, 'free', 15, true, NULL, NULL, NULL
+SELECT c.id, u.id, 'french-b1-etudes-et-apprentissage-reading', 'reading', 'Apprendre de façon active', 'Les habitudes qui rendent l’apprentissage plus durable, selon les spécialistes des sciences cognitives.', 30, 30, 'free', 15, true, NULL, NULL, NULL
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -1305,7 +1501,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-b1-etudes-et-apprentissage-listening', 'listening', 'Un conseil de révision', 'Écoute Karim donner un conseil de méthode de travail à Camila.', 31, 30, 'free', 12, true, NULL, NULL, '["J’ai l’impression que...","À ta place, je...","Essaie de...","Bonne idée !"]'::jsonb
+SELECT c.id, u.id, 'french-b1-etudes-et-apprentissage-listening', 'listening', 'Cinq conseils pour mieux réviser', 'Écoute ce contenu de niveau B1 et identifie les idées, les nuances et les preuves.', 31, 30, 'free', 12, true, NULL, NULL, '["J’ai l’impression que...","À ta place, je...","Essaie de...","Bonne idée !"]'::jsonb
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -1383,7 +1579,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-b1-monde-du-travail-reading', 'reading', 'Se préparer à un entretien', 'Karim se prépare pour son premier entretien d’embauche, avec l’aide de Camila.', 40, 30, 'free', 15, true, NULL, NULL, NULL
+SELECT c.id, u.id, 'french-b1-monde-du-travail-reading', 'reading', 'Comprendre une offre d’emploi', 'Comment lire les responsabilités, les compétences et les conditions d’un poste avant de postuler.', 40, 30, 'free', 15, true, NULL, NULL, NULL
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -1396,7 +1592,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-b1-monde-du-travail-listening', 'listening', 'Simulation d’entretien', 'Écoute la simulation d’entretien entre Camila et Karim.', 41, 30, 'free', 12, true, NULL, NULL, '["Pourquoi voudriez-vous... ?","Je voudrais... parce que...","Quelles sont vos qualités ?","Je suis... et je..."]'::jsonb
+SELECT c.id, u.id, 'french-b1-monde-du-travail-listening', 'listening', 'Réussir un premier entretien', 'Écoute ce contenu de niveau B1 et identifie les idées, les nuances et les preuves.', 41, 30, 'free', 12, true, NULL, NULL, '["Pourquoi voudriez-vous... ?","Je voudrais... parce que...","Quelles sont vos qualités ?","Je suis... et je..."]'::jsonb
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -1474,7 +1670,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-b1-voyages-et-interculturalite-reading', 'reading', 'Deux cultures, un exposé', 'Camila prépare un exposé de classe sur les différences culturelles entre la France et son pays.', 50, 30, 'free', 15, true, NULL, NULL, NULL
+SELECT c.id, u.id, 'french-b1-voyages-et-interculturalite-reading', 'reading', 'Voyager en respectant les lieux', 'Des choix simples qui améliorent l’expérience des visiteurs et des habitants, selon les offices de tourisme.', 50, 30, 'free', 15, true, NULL, NULL, NULL
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -1487,7 +1683,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-b1-voyages-et-interculturalite-listening', 'listening', 'Un choc culturel', 'Écoute Camila raconter un moment de choc culturel à Léa.', 51, 30, 'free', 12, true, NULL, NULL, '["Qu’est-ce qui t’a surpris(e) ?","Chez moi, on...","Ça dépend de...","J’aime bien les deux."]'::jsonb
+SELECT c.id, u.id, 'french-b1-voyages-et-interculturalite-listening', 'listening', 'Ce qui m’a surpris au Québec', 'Écoute ce contenu de niveau B1 et identifie les idées, les nuances et les preuves.', 51, 30, 'free', 12, true, NULL, NULL, '["Qu’est-ce qui t’a surpris(e) ?","Chez moi, on...","Ça dépend de...","J’aime bien les deux."]'::jsonb
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -1565,7 +1761,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-b1-technologie-et-societe-reading', 'reading', 'Le débat sur les réseaux sociaux', 'La classe de Camila débat des avantages et des risques des réseaux sociaux.', 60, 30, 'free', 15, true, NULL, NULL, NULL
+SELECT c.id, u.id, 'french-b1-technologie-et-societe-reading', 'reading', 'Choisir ses usages numériques', 'Comment utiliser les outils numériques sans perdre son attention, selon les chercheurs en psychologie du numérique.', 60, 30, 'free', 15, true, NULL, NULL, NULL
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -1578,7 +1774,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-b1-technologie-et-societe-listening', 'listening', 'Mon avis sur les réseaux sociaux', 'Écoute Karim et Léa continuer leur débat après le cours.', 61, 30, 'free', 12, true, NULL, NULL, '["D’une part... cependant...","Il est important de...","Ça dépend de...","L’équilibre est la clé."]'::jsonb
+SELECT c.id, u.id, 'french-b1-technologie-et-societe-listening', 'listening', 'Réseaux sociaux : trouver l’équilibre', 'Écoute ce contenu de niveau B1 et identifie les idées, les nuances et les preuves.', 61, 30, 'free', 12, true, NULL, NULL, '["D’une part... cependant...","Il est important de...","Ça dépend de...","L’équilibre est la clé."]'::jsonb
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -1656,7 +1852,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-b1-sante-et-mode-de-vie-reading', 'reading', 'Gérer le stress des examens', 'Camila se sent stressée par les examens de fin d’année et Madame Lambert lui donne des conseils.', 70, 30, 'free', 15, true, NULL, NULL, NULL
+SELECT c.id, u.id, 'french-b1-sante-et-mode-de-vie-reading', 'reading', 'Des habitudes de santé réalistes', 'Pourquoi les routines simples comptent sur la durée, selon les recommandations de santé publique.', 70, 30, 'free', 15, true, NULL, NULL, NULL
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -1669,7 +1865,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-b1-sante-et-mode-de-vie-listening', 'listening', 'Conseils de bien-être', 'Écoute Madame Lambert donner des conseils de bien-être à Camila.', 71, 30, 'free', 12, true, NULL, NULL, '["Il faut que tu...","Il vaut mieux que tu...","Plutôt que de...","Je vais essayer de..."]'::jsonb
+SELECT c.id, u.id, 'french-b1-sante-et-mode-de-vie-listening', 'listening', 'Une minute santé : apprivoiser le stress', 'Écoute ce contenu de niveau B1 et identifie les idées, les nuances et les preuves.', 71, 30, 'free', 12, true, NULL, NULL, '["Il faut que tu...","Il vaut mieux que tu...","Plutôt que de...","Je vais essayer de..."]'::jsonb
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -1747,7 +1943,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-b1-environnement-et-consommation-reading', 'reading', 'Un projet pour l’environnement', 'La classe de Camila lance un projet pour réduire les déchets au lycée.', 80, 30, 'free', 15, true, NULL, NULL, NULL
+SELECT c.id, u.id, 'french-b1-environnement-et-consommation-reading', 'reading', 'Consommer avec moins de déchets', 'Pourquoi prévenir les déchets est aussi important que les recycler, selon les experts en économie circulaire.', 80, 30, 'free', 15, true, NULL, NULL, NULL
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -1760,7 +1956,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-b1-environnement-et-consommation-listening', 'listening', 'Présenter le projet à la direction', 'Écoute Camila et Karim présenter leur projet écologique à la direction.', 81, 30, 'free', 12, true, NULL, NULL, '["Nous produisons trop de...","Quelle solution proposez-vous ?","Nous proposons...","Nous allons l’étudier."]'::jsonb
+SELECT c.id, u.id, 'french-b1-environnement-et-consommation-listening', 'listening', 'Une école réduit ses déchets', 'Écoute ce contenu de niveau B1 et identifie les idées, les nuances et les preuves.', 81, 30, 'free', 12, true, NULL, NULL, '["Nous produisons trop de...","Quelle solution proposez-vous ?","Nous proposons...","Nous allons l’étudier."]'::jsonb
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -1838,7 +2034,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-b1-medias-et-information-reading', 'reading', 'Vrai ou faux ?', 'La classe de Camila apprend à vérifier la fiabilité d’une information trouvée en ligne.', 90, 30, 'free', 15, true, NULL, NULL, NULL
+SELECT c.id, u.id, 'french-b1-medias-et-information-reading', 'reading', 'Vérifier avant de partager', 'Les réflexes utiles face à une information en ligne, selon les journalistes spécialisés en vérification des faits.', 90, 30, 'free', 15, true, NULL, NULL, NULL
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -1851,7 +2047,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-b1-medias-et-information-listening', 'listening', 'Vérifier une information', 'Écoute Camila et Karim discuter d’un article qu’ils ont vu en ligne.', 91, 30, 'free', 12, true, NULL, NULL, '["Je doute que...","Il n’y a pas de source.","Vérifions sur...","C’est de la désinformation."]'::jsonb
+SELECT c.id, u.id, 'french-b1-medias-et-information-listening', 'listening', 'Les trois réflexes contre la désinformation', 'Écoute ce contenu de niveau B1 et identifie les idées, les nuances et les preuves.', 91, 30, 'free', 12, true, NULL, NULL, '["Je doute que...","Il n’y a pas de source.","Vérifions sur...","C’est de la désinformation."]'::jsonb
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -1929,7 +2125,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-b1-relations-et-conflits-reading', 'reading', 'Notre premier désaccord', 'Camila et Léa se disputent pour la première fois à propos d’un projet scolaire.', 100, 30, 'free', 15, true, NULL, NULL, NULL
+SELECT c.id, u.id, 'french-b1-relations-et-conflits-reading', 'reading', 'Parler pour trouver un accord', 'Comment exprimer un désaccord sans rompre le dialogue, selon les spécialistes de la communication et de la médiation.', 100, 30, 'free', 15, true, NULL, NULL, NULL
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -1942,7 +2138,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-b1-relations-et-conflits-listening', 'listening', 'Résoudre un désaccord', 'Écoute Camila et Léa résoudre leur désaccord calmement.', 101, 30, 'free', 12, true, NULL, NULL, '["Excuse-moi, je crois que...","Je comprends.","On pourrait trouver un compromis ?","Bonne idée."]'::jsonb
+SELECT c.id, u.id, 'french-b1-relations-et-conflits-listening', 'listening', 'Quand un désaccord devient utile', 'Écoute ce contenu de niveau B1 et identifie les idées, les nuances et les preuves.', 101, 30, 'free', 12, true, NULL, NULL, '["Excuse-moi, je crois que...","Je comprends.","On pourrait trouver un compromis ?","Bonne idée."]'::jsonb
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -2037,23 +2233,13 @@ WHERE lesson_id IN (
 -- 7. lesson_sections (intro / vocabulary_item / dialogue_line / reading)
 -- ---------------------------------------------------------------------
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, reading_title, reading_text, reading_questions, reading_parts, reading_ordering)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-achats-reading'), 'reading', 0, 'Une matinée au marché', 'Le samedi matin, Léa emmène Camila au marché du quartier. « On achète les fruits et légumes de la semaine ici, c''est moins cher qu''au supermarché », explique Léa. Elles marchent entre les étals colorés. Un vendeur leur sourit : « Bonjour, mesdemoiselles ! Vous cherchez quelque chose de particulier ? » Camila demande : « Combien ça coûte, un kilo de fraises ? » Le vendeur répond : « Trois euros le kilo, elles sont très bonnes cette semaine. »
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-achats-reading'), 'reading', 0, 'Une matinée au marché de Tours', 'Le samedi matin, beaucoup d''habitants de Tours vont au marché du quartier. « On achète les fruits et légumes de la semaine ici, c''est moins cher qu''au supermarché », expliquent souvent les habitués. On marche entre les étals colorés. Un vendeur sourit aux clients : « Bonjour ! Vous cherchez quelque chose de particulier ? » Une question fréquente est : « Combien ça coûte, un kilo de fraises ? » Le vendeur répond souvent : « Trois euros le kilo, elles sont très bonnes cette semaine. »
 
-Camila goûte une fraise et elle adore. « On en prend deux kilos ! » dit-elle. Léa ajoute des tomates et des pommes dans le panier. Ensuite, elles s''arrêtent chez le fromager. Camila n''a jamais goûté autant de fromages différents. Léa lui explique la différence entre un fromage doux et un fromage plus fort. Elles choisissent finalement un fromage de chèvre, moins fort que le roquefort mais très savoureux.
+Beaucoup de clients goûtent une fraise et l''adorent. « On en prend deux kilos ! » dit-on souvent. On ajoute des tomates et des pommes dans le panier. Ensuite, beaucoup de visiteurs s''arrêtent chez le fromager. Certains n''ont jamais goûté autant de fromages différents avant leur premier marché à Tours. Le fromager explique la différence entre un fromage doux et un fromage plus fort. Un fromage de chèvre, moins fort que le roquefort mais très savoureux, reste un choix très populaire.
 
-À la fin, elles ont dépensé vingt-cinq euros pour toute la semaine. « C''est vraiment moins cher qu''au supermarché », remarque Camila. Léa sourit : « Et en plus, c''est plus frais et plus sympa ! On parle avec les vendeurs, on découvre de nouveaux produits. » Sur le chemin du retour, Camila pense qu''elle va proposer ce marché à sa propre famille, un jour, à Saint-Domingue. Elle a adoré cette matinée pleine de couleurs, d''odeurs et de nouvelles découvertes.', '["Pourquoi Léa préfère-t-elle faire les courses au marché ?","Qu’est-ce que Camila et Léa achètent chez le fromager ?","Combien ont-elles dépensé au total ?"]'::jsonb, '["Le samedi matin, Léa emmène Camila au marché du quartier. « On achète les fruits et légumes de la semaine ici, c''est moins cher qu''au supermarché », explique Léa. Elles marchent entre les étals colorés. Un vendeur leur sourit : « Bonjour, mesdemoiselles ! Vous cherchez quelque chose de particulier ? » Camila demande : « Combien ça coûte, un kilo de fraises ? » Le vendeur répond : « Trois euros le kilo, elles sont très bonnes cette semaine. »","Camila goûte une fraise et elle adore. « On en prend deux kilos ! » dit-elle. Léa ajoute des tomates et des pommes dans le panier. Ensuite, elles s''arrêtent chez le fromager. Camila n''a jamais goûté autant de fromages différents. Léa lui explique la différence entre un fromage doux et un fromage plus fort. Elles choisissent finalement un fromage de chèvre, moins fort que le roquefort mais très savoureux.","À la fin, elles ont dépensé vingt-cinq euros pour toute la semaine. « C''est vraiment moins cher qu''au supermarché », remarque Camila. Léa sourit : « Et en plus, c''est plus frais et plus sympa ! On parle avec les vendeurs, on découvre de nouveaux produits. » Sur le chemin du retour, Camila pense qu''elle va proposer ce marché à sa propre famille, un jour, à Saint-Domingue. Elle a adoré cette matinée pleine de couleurs, d''odeurs et de nouvelles découvertes."]'::jsonb, '{"prompt":"Remets les événements de l’histoire dans l’ordre.","events":["Léa emmène Camila au marché du quartier.","Camila demande le prix des fraises et en achète deux kilos.","Elles choisissent un fromage de chèvre chez le fromager.","Elles rentrent chez elles, satisfaites de leurs achats."]}'::jsonb);
+À la fin, une famille dépense en moyenne vingt-cinq euros pour toute la semaine. « C''est vraiment moins cher qu''au supermarché », remarquent souvent les clients. Les vendeurs ajoutent : « Et en plus, c''est plus frais et plus sympa ! On parle avec les clients, on fait découvrir de nouveaux produits. » Le marché de Tours reste, pour beaucoup d''habitants et de visiteurs, une matinée pleine de couleurs, d''odeurs et de nouvelles découvertes.', '["Pourquoi les habitants vont-ils au marché ?","Combien coûte un kilo de fraises ?","Quel fromage est un choix très populaire ?","Combien dépense en moyenne une famille pour toute la semaine ?","Pourquoi le marché est-il mieux que le supermarché, selon le texte ?"]'::jsonb, '["Le samedi matin, beaucoup d''habitants de Tours vont au marché du quartier. « On achète les fruits et légumes de la semaine ici, c''est moins cher qu''au supermarché », expliquent souvent les habitués. On marche entre les étals colorés. Un vendeur sourit aux clients : « Bonjour ! Vous cherchez quelque chose de particulier ? » Une question fréquente est : « Combien ça coûte, un kilo de fraises ? » Le vendeur répond souvent : « Trois euros le kilo, elles sont très bonnes cette semaine. »","Beaucoup de clients goûtent une fraise et l''adorent. « On en prend deux kilos ! » dit-on souvent. On ajoute des tomates et des pommes dans le panier. Ensuite, beaucoup de visiteurs s''arrêtent chez le fromager. Certains n''ont jamais goûté autant de fromages différents avant leur premier marché à Tours. Le fromager explique la différence entre un fromage doux et un fromage plus fort. Un fromage de chèvre, moins fort que le roquefort mais très savoureux, reste un choix très populaire.","À la fin, une famille dépense en moyenne vingt-cinq euros pour toute la semaine. « C''est vraiment moins cher qu''au supermarché », remarquent souvent les clients. Les vendeurs ajoutent : « Et en plus, c''est plus frais et plus sympa ! On parle avec les clients, on fait découvrir de nouveaux produits. » Le marché de Tours reste, pour beaucoup d''habitants et de visiteurs, une matinée pleine de couleurs, d''odeurs et de nouvelles découvertes."]'::jsonb, '{"prompt":"Remets les événements de la visite au marché dans l’ordre.","events":["Les visiteurs arrivent au marché du quartier.","Ils demandent le prix des fraises et en achètent deux kilos.","Ils choisissent un fromage de chèvre chez le fromager.","Ils rentrent chez eux, satisfaits de leurs achats."]}'::jsonb);
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, line)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-achats-listening'), 'intro', 0, 'Écoute le dialogue entre Camila et le vendeur de fruits au marché.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-achats-listening'), 'dialogue_line', 0, 'Camila', 'Bonjour ! Combien ça coûte, un kilo de fraises ?', 'Hola. ¿Cuánto cuesta un kilo de fresas?');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-achats-listening'), 'dialogue_line', 1, 'Le vendeur', 'Trois euros le kilo, elles sont très bonnes cette semaine.', 'Tres euros el kilo, están muy buenas esta semana.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-achats-listening'), 'dialogue_line', 2, 'Camila', 'D’accord, j’en voudrais deux kilos, s’il vous plaît.', 'De acuerdo, quisiera dos kilos, por favor.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-achats-listening'), 'dialogue_line', 3, 'Le vendeur', 'Voilà. Ça fait six euros.', 'Aquí tiene. Son seis euros.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-achats-listening'), 'dialogue_line', 4, 'Camila', 'Merci, voici l’argent.', 'Gracias, aquí tiene el dinero.');
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-achats-listening'), 'intro', 0, 'Écoute une première fois pour comprendre la situation, puis une deuxième fois pour vérifier les détails.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-achats-speaking'), 'dialogue_line', 0, 'Toi', 'Bonjour, combien coûtent les tomates ?', 'Hola, ¿cuánto cuestan los tomates?');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
@@ -2099,23 +2285,13 @@ VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-achats
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-achats-dialogue'), 'dialogue_line', 5, 'Camila', 'Parfait, je la prends !', '¡Perfecto, me la llevo!');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, reading_title, reading_text, reading_questions, reading_parts, reading_ordering)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-au-restaurant-reading'), 'reading', 0, 'L’anniversaire de Léa', 'Pour l''anniversaire de Léa, Monsieur Lambert a réservé une table au restaurant « Le Petit Jardin ». Il a appelé la semaine précédente : « Je voudrais réserver une table pour cinq personnes, samedi soir. » À vingt heures, le restaurant était complet, mais il restait de la place à vingt et une heures trente. Monsieur Lambert a accepté sans hésiter, car l''important était de fêter l''anniversaire ensemble.
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-au-restaurant-reading'), 'reading', 0, 'Fêter un anniversaire au restaurant', 'Pour fêter un anniversaire, beaucoup de familles françaises réservent une table de restaurant. On appelle souvent la semaine précédente : « Je voudrais réserver une table pour cinq personnes, samedi soir. » Les grands restaurants sont souvent complets à vingt heures, mais il reste parfois de la place à vingt et une heures trente. Beaucoup de familles acceptent cet horaire sans hésiter, car l''important est de fêter l''anniversaire ensemble.
 
-Le samedi soir, toute la famille arrive au restaurant, avec Camila. Le serveur leur apporte la carte et explique les spécialités du jour. « Il faut absolument goûter les pâtes maison », dit-il en souriant. Léa hésite entre le poisson et les pâtes, mais elle décide finalement de suivre le conseil du serveur. Camila, elle, commande le poulet aux légumes, et Karim, invité pour l''occasion, choisit une pizza.
+Le samedi soir, la famille arrive au restaurant. Le serveur apporte la carte et explique les spécialités du jour. « Il faut absolument goûter les pâtes maison », dit-il souvent en souriant. Les invités hésitent parfois entre le poisson et les pâtes, mais suivent finalement le conseil du serveur. D''autres choisissent une soupe en entrée, puis le poulet aux légumes, ou une pizza pour les plus jeunes.
 
-Pendant le repas, tout le monde discute et rit. Mais quand les plats arrivent, Camila remarque que sa soupe n''est plus très chaude. Elle appelle poliment le serveur : « Excusez-moi, mais ma soupe n''est plus chaude, pourriez-vous la réchauffer ? » Le serveur s''excuse immédiatement et l''emporte en cuisine. Quelques minutes plus tard, la soupe revient, parfaite. À la fin du repas, le serveur offre un dessert gratuit pour l''anniversaire de Léa, avec une bougie. Toute la table chante « Joyeux anniversaire », et Léa souffle la bougie en souriant, entourée de sa famille et de ses amis.', '["Pourquoi Monsieur Lambert a-t-il dû accepter une heure plus tardive ?","Que recommande le serveur ?","Comment Camila réagit-elle quand sa soupe n’est plus chaude ?"]'::jsonb, '["Pour l''anniversaire de Léa, Monsieur Lambert a réservé une table au restaurant « Le Petit Jardin ». Il a appelé la semaine précédente : « Je voudrais réserver une table pour cinq personnes, samedi soir. » À vingt heures, le restaurant était complet, mais il restait de la place à vingt et une heures trente. Monsieur Lambert a accepté sans hésiter, car l''important était de fêter l''anniversaire ensemble.","Le samedi soir, toute la famille arrive au restaurant, avec Camila. Le serveur leur apporte la carte et explique les spécialités du jour. « Il faut absolument goûter les pâtes maison », dit-il en souriant. Léa hésite entre le poisson et les pâtes, mais elle décide finalement de suivre le conseil du serveur. Camila, elle, commande le poulet aux légumes, et Karim, invité pour l''occasion, choisit une pizza.","Pendant le repas, tout le monde discute et rit. Mais quand les plats arrivent, Camila remarque que sa soupe n''est plus très chaude. Elle appelle poliment le serveur : « Excusez-moi, mais ma soupe n''est plus chaude, pourriez-vous la réchauffer ? » Le serveur s''excuse immédiatement et l''emporte en cuisine. Quelques minutes plus tard, la soupe revient, parfaite. À la fin du repas, le serveur offre un dessert gratuit pour l''anniversaire de Léa, avec une bougie. Toute la table chante « Joyeux anniversaire », et Léa souffle la bougie en souriant, entourée de sa famille et de ses amis."]'::jsonb, '{"prompt":"Remets les événements de l’histoire dans l’ordre.","events":["Monsieur Lambert réserve une table pour cinq personnes.","Le serveur recommande les pâtes maison.","Camila signale poliment que sa soupe n’est plus chaude.","Le serveur offre un dessert gratuit pour l’anniversaire de Léa."]}'::jsonb);
+Pendant le repas, tout le monde discute et rit. Mais il arrive parfois qu''un plat arrive un peu froid. Un client poli dira alors : « Excusez-moi, mais ma soupe n''est plus chaude, pourriez-vous la réchauffer ? » Le serveur s''excuse immédiatement et l''emporte en cuisine. Quelques minutes plus tard, le plat revient, parfait. Beaucoup de restaurants offrent aussi un dessert gratuit pour un anniversaire, avec une bougie. Toute la table chante « Joyeux anniversaire », et le fêté souffle la bougie en souriant, entouré de sa famille et de ses amis.', '["Pour combien de personnes réserve-t-on dans ce texte ?","À quelle heure reste-t-il parfois de la place ?","Que recommande souvent le serveur ?","Quel plat principal certains invités commandent-ils ?","Pourquoi un client appelle-t-il le serveur ?"]'::jsonb, '["Pour fêter un anniversaire, beaucoup de familles françaises réservent une table de restaurant. On appelle souvent la semaine précédente : « Je voudrais réserver une table pour cinq personnes, samedi soir. » Les grands restaurants sont souvent complets à vingt heures, mais il reste parfois de la place à vingt et une heures trente. Beaucoup de familles acceptent cet horaire sans hésiter, car l''important est de fêter l''anniversaire ensemble.","Le samedi soir, la famille arrive au restaurant. Le serveur apporte la carte et explique les spécialités du jour. « Il faut absolument goûter les pâtes maison », dit-il souvent en souriant. Les invités hésitent parfois entre le poisson et les pâtes, mais suivent finalement le conseil du serveur. D''autres choisissent une soupe en entrée, puis le poulet aux légumes, ou une pizza pour les plus jeunes.","Pendant le repas, tout le monde discute et rit. Mais il arrive parfois qu''un plat arrive un peu froid. Un client poli dira alors : « Excusez-moi, mais ma soupe n''est plus chaude, pourriez-vous la réchauffer ? » Le serveur s''excuse immédiatement et l''emporte en cuisine. Quelques minutes plus tard, le plat revient, parfait. Beaucoup de restaurants offrent aussi un dessert gratuit pour un anniversaire, avec une bougie. Toute la table chante « Joyeux anniversaire », et le fêté souffle la bougie en souriant, entouré de sa famille et de ses amis."]'::jsonb, '{"prompt":"Remets les événements dans l’ordre.","events":["La famille réserve une table pour l’anniversaire.","Le serveur recommande les pâtes maison.","Un client signale poliment qu’un plat n’est plus chaud.","Le restaurant offre un dessert gratuit pour l’anniversaire."]}'::jsonb);
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, line)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-au-restaurant-listening'), 'intro', 0, 'Écoute l’appel de Monsieur Lambert au restaurant « Le Petit Jardin ».');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-au-restaurant-listening'), 'dialogue_line', 0, 'M. Lambert', 'Bonjour, je voudrais réserver une table pour ce week-end.', 'Hola, quisiera reservar una mesa para este fin de semana.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-au-restaurant-listening'), 'dialogue_line', 1, 'Le restaurant', 'Bien sûr, c’est pour combien de personnes ?', 'Claro, ¿para cuántas personas?');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-au-restaurant-listening'), 'dialogue_line', 2, 'M. Lambert', 'Pour cinq personnes, samedi soir à vingt heures.', 'Para cinco personas, el sábado por la noche a las ocho.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-au-restaurant-listening'), 'dialogue_line', 3, 'Le restaurant', 'Désolé, nous sommes complets à vingt heures. Il reste de la place à vingt et une heures trente.', 'Lo siento, estamos completos a las ocho. Queda lugar a las nueve y media.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-au-restaurant-listening'), 'dialogue_line', 4, 'M. Lambert', 'D’accord, c’est parfait. Au nom de Lambert, merci.', 'De acuerdo, está perfecto. A nombre de Lambert, gracias.');
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-au-restaurant-listening'), 'intro', 0, 'Écoute une première fois pour comprendre la situation, puis une deuxième fois pour vérifier les détails.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-au-restaurant-speaking'), 'dialogue_line', 0, 'Le serveur', 'Bonsoir, vous avez choisi ?', 'Buenas noches, ¿ya eligió?');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
@@ -2151,23 +2327,13 @@ VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-au-restaur
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-au-restaurant-dialogue'), 'dialogue_line', 4, 'Léa', 'Tu as bien fait de le signaler poliment, Camila.', 'Hiciste bien en decirlo con amabilidad, Camila.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, reading_title, reading_text, reading_questions, reading_parts, reading_ordering)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-se-deplacer-reading'), 'reading', 0, 'Perdue dans Tours', 'Aujourd''hui, Camila doit aller chez Karim pour réviser ensemble, mais Léa est malade et ne peut pas l''accompagner. C''est la première fois que Camila prend le bus toute seule à Tours. Elle regarde le plan sur son téléphone : il faut prendre le bus numéro sept jusqu''à l''arrêt « Place Plumereau », puis marcher dix minutes.
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-se-deplacer-reading'), 'reading', 0, 'Se déplacer dans Tours', 'Pour beaucoup de nouveaux habitants de Tours, prendre le bus tout seul pour la première fois est une petite aventure. Avant de partir, il est utile de regarder le plan sur son téléphone : il faut souvent prendre le bus numéro sept jusqu''à l''arrêt « Place Plumereau », puis marcher dix minutes.
 
-À l''arrêt de bus, Camila achète un ticket au distributeur automatique. Le bus arrive, elle monte et elle valide son ticket. Après quinze minutes, elle descend à l''arrêt « Place Plumereau », mais elle ne reconnaît pas la rue. Elle demande à une dame : « Excusez-moi, madame, pour aller rue des Tanneurs, s''il vous plaît ? » La dame répond gentiment : « Continuez tout droit, puis tournez à gauche après la boulangerie. C''est à environ cinq minutes. »
+À l''arrêt de bus, on achète un ticket au distributeur automatique. Le bus arrive, on monte et on valide son ticket. Après quinze minutes, on descend à l''arrêt « Place Plumereau », mais on ne reconnaît pas toujours la rue. On demande alors à un passant : « Excusez-moi, madame, pour aller rue des Tanneurs, s''il vous plaît ? » La personne répond souvent gentiment : « Continuez tout droit, puis tournez à gauche après la boulangerie. C''est à environ cinq minutes. »
 
-Camila suit les indications avec attention : tout droit, puis à gauche après la boulangerie. Elle reconnaît enfin l''immeuble de Karim. Elle sonne, un peu fière d''elle-même. « Tu as trouvé sans problème ? » demande Karim en ouvrant la porte. « Presque ! Une dame très gentille m''a aidée », répond Camila en souriant. Elle est contente d''avoir réussi à se déplacer toute seule dans une nouvelle ville, en français, sans l''aide de Léa.', '["Pourquoi Camila prend-elle le bus toute seule aujourd’hui ?","Quel bus doit-elle prendre ?","Qui l’aide à trouver son chemin ?"]'::jsonb, '["Aujourd''hui, Camila doit aller chez Karim pour réviser ensemble, mais Léa est malade et ne peut pas l''accompagner. C''est la première fois que Camila prend le bus toute seule à Tours. Elle regarde le plan sur son téléphone : il faut prendre le bus numéro sept jusqu''à l''arrêt « Place Plumereau », puis marcher dix minutes.","À l''arrêt de bus, Camila achète un ticket au distributeur automatique. Le bus arrive, elle monte et elle valide son ticket. Après quinze minutes, elle descend à l''arrêt « Place Plumereau », mais elle ne reconnaît pas la rue. Elle demande à une dame : « Excusez-moi, madame, pour aller rue des Tanneurs, s''il vous plaît ? » La dame répond gentiment : « Continuez tout droit, puis tournez à gauche après la boulangerie. C''est à environ cinq minutes. »","Camila suit les indications avec attention : tout droit, puis à gauche après la boulangerie. Elle reconnaît enfin l''immeuble de Karim. Elle sonne, un peu fière d''elle-même. « Tu as trouvé sans problème ? » demande Karim en ouvrant la porte. « Presque ! Une dame très gentille m''a aidée », répond Camila en souriant. Elle est contente d''avoir réussi à se déplacer toute seule dans une nouvelle ville, en français, sans l''aide de Léa."]'::jsonb, '{"prompt":"Remets les événements de l’histoire dans l’ordre.","events":["Camila regarde le plan sur son téléphone.","Elle achète un ticket et monte dans le bus.","Elle demande son chemin à une dame.","Elle arrive enfin chez Karim."]}'::jsonb);
+En suivant les indications avec attention, tout droit puis à gauche après la boulangerie, on arrive généralement sans problème à destination. Beaucoup de nouveaux habitants sont un peu fiers d''eux-mêmes après ce premier trajet. « Une personne très gentille m''a aidé », dit-on souvent en souriant. Réussir à se déplacer tout seul dans une nouvelle ville, en français, reste une étape importante pour beaucoup d''expatriés à Tours.', '["Quel numéro de bus faut-il prendre pour aller Place Plumereau ?","Où achète-t-on son ticket ?","Que faut-il faire après la boulangerie ?","Qui aide souvent à trouver son chemin ?","Comment se sentent souvent les nouveaux habitants à la fin du trajet ?"]'::jsonb, '["Pour beaucoup de nouveaux habitants de Tours, prendre le bus tout seul pour la première fois est une petite aventure. Avant de partir, il est utile de regarder le plan sur son téléphone : il faut souvent prendre le bus numéro sept jusqu''à l''arrêt « Place Plumereau », puis marcher dix minutes.","À l''arrêt de bus, on achète un ticket au distributeur automatique. Le bus arrive, on monte et on valide son ticket. Après quinze minutes, on descend à l''arrêt « Place Plumereau », mais on ne reconnaît pas toujours la rue. On demande alors à un passant : « Excusez-moi, madame, pour aller rue des Tanneurs, s''il vous plaît ? » La personne répond souvent gentiment : « Continuez tout droit, puis tournez à gauche après la boulangerie. C''est à environ cinq minutes. »","En suivant les indications avec attention, tout droit puis à gauche après la boulangerie, on arrive généralement sans problème à destination. Beaucoup de nouveaux habitants sont un peu fiers d''eux-mêmes après ce premier trajet. « Une personne très gentille m''a aidé », dit-on souvent en souriant. Réussir à se déplacer tout seul dans une nouvelle ville, en français, reste une étape importante pour beaucoup d''expatriés à Tours."]'::jsonb, '{"prompt":"Remets les étapes du trajet dans l’ordre.","events":["On regarde le plan sur son téléphone.","On achète un ticket et on monte dans le bus.","On demande son chemin à un passant.","On arrive enfin à destination."]}'::jsonb);
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, line)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-se-deplacer-listening'), 'intro', 0, 'Écoute le dialogue entre Camila et une passante à Tours.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-se-deplacer-listening'), 'dialogue_line', 0, 'Camila', 'Excusez-moi, madame, pour aller rue des Tanneurs, s’il vous plaît ?', 'Disculpe, señora, ¿para ir a la calle des Tanneurs, por favor?');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-se-deplacer-listening'), 'dialogue_line', 1, 'La dame', 'Continuez tout droit, puis tournez à gauche après la boulangerie.', 'Continúe todo recto y luego gire a la izquierda después de la panadería.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-se-deplacer-listening'), 'dialogue_line', 2, 'Camila', 'D’accord, tout droit, puis à gauche. C’est loin ?', 'De acuerdo, todo recto y luego a la izquierda. ¿Está lejos?');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-se-deplacer-listening'), 'dialogue_line', 3, 'La dame', 'Non, c’est à environ cinq minutes à pied.', 'No, está a unos cinco minutos a pie.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-se-deplacer-listening'), 'dialogue_line', 4, 'Camila', 'Merci beaucoup, madame !', '¡Muchas gracias, señora!');
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-se-deplacer-listening'), 'intro', 0, 'Écoute une première fois pour comprendre la situation, puis une deuxième fois pour vérifier les détails.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-se-deplacer-speaking'), 'dialogue_line', 0, 'Toi', 'Excusez-moi, pour aller à la gare, s’il vous plaît ?', 'Disculpe, ¿para ir a la estación, por favor?');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
@@ -2199,23 +2365,13 @@ VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-se-deplace
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-se-deplacer-dialogue'), 'dialogue_line', 3, 'Camila', 'Ha ha, pas encore, mais je suis fière d’avoir réussi toute seule.', 'Ja ja, todavía no, pero estoy orgullosa de haberlo logrado sola.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, reading_title, reading_text, reading_questions, reading_parts, reading_ordering)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-sante-reading'), 'reading', 0, 'Chez le médecin', 'Depuis deux jours, Camila se sent fatiguée. Elle a mal à la gorge et un peu de fièvre. Madame Lambert remarque que Camila ne mange presque rien au dîner. « Ça ne va pas, Camila ? » demande-t-elle. « J''ai mal à la gorge et je me sens très fatiguée », répond Camila. Madame Lambert décide de prendre rendez-vous chez le médecin pour le lendemain matin.
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-sante-reading'), 'reading', 0, 'Une visite chez le médecin en France', 'Quand on se sent fatigué pendant plusieurs jours, avec mal à la gorge et un peu de fièvre, il est conseillé de prendre rendez-vous chez le médecin. En France, on peut souvent obtenir un rendez-vous rapidement, parfois dès le lendemain matin. « Ça ne va pas ? » demande-t-on souvent en famille. « J''ai mal à la gorge et je me sens très fatigué », répond le patient.
 
-Le lendemain, elles arrivent chez le docteur Martin. « Bonjour, qu''est-ce qui ne va pas ? » demande-t-il. Camila explique : « J''ai mal à la gorge depuis deux jours, et j''ai un peu de fièvre. Je me sens très fatiguée aussi. » Le médecin l''examine, regarde sa gorge et prend sa température. « Vous avez une petite angine, rien de grave », dit-il. « Vous devez vous reposer, boire beaucoup d''eau et prendre ce médicament trois fois par jour. »
+Chez le médecin généraliste, la consultation commence toujours de la même façon : « Bonjour, qu''est-ce qui ne va pas ? » demande le docteur. Le patient explique ses symptômes depuis combien de temps ils durent. Le médecin l''examine, regarde sa gorge et prend sa température. « Vous avez une petite angine, rien de grave », dit-il souvent. « Vous devez vous reposer, boire beaucoup d''eau et prendre ce médicament trois fois par jour. »
 
-Le médecin ajoute : « Il faut aussi éviter l''école pendant deux ou trois jours pour ne pas contaminer vos camarades. » Camila est un peu déçue de manquer les cours, mais elle est rassurée que ce ne soit pas grave. En sortant, Madame Lambert lui achète le médicament à la pharmacie et lui prépare une soupe chaude pour le soir. Camila se repose tout le week-end, et le lundi suivant, elle se sent enfin beaucoup mieux et peut retourner à l''école avec Léa et Karim.', '["Depuis combien de temps Camila se sent-elle fatiguée ?","Que dit le médecin à Camila ?","Pourquoi Camila doit-elle éviter l’école ?"]'::jsonb, '["Depuis deux jours, Camila se sent fatiguée. Elle a mal à la gorge et un peu de fièvre. Madame Lambert remarque que Camila ne mange presque rien au dîner. « Ça ne va pas, Camila ? » demande-t-elle. « J''ai mal à la gorge et je me sens très fatiguée », répond Camila. Madame Lambert décide de prendre rendez-vous chez le médecin pour le lendemain matin.","Le lendemain, elles arrivent chez le docteur Martin. « Bonjour, qu''est-ce qui ne va pas ? » demande-t-il. Camila explique : « J''ai mal à la gorge depuis deux jours, et j''ai un peu de fièvre. Je me sens très fatiguée aussi. » Le médecin l''examine, regarde sa gorge et prend sa température. « Vous avez une petite angine, rien de grave », dit-il. « Vous devez vous reposer, boire beaucoup d''eau et prendre ce médicament trois fois par jour. »","Le médecin ajoute : « Il faut aussi éviter l''école pendant deux ou trois jours pour ne pas contaminer vos camarades. » Camila est un peu déçue de manquer les cours, mais elle est rassurée que ce ne soit pas grave. En sortant, Madame Lambert lui achète le médicament à la pharmacie et lui prépare une soupe chaude pour le soir. Camila se repose tout le week-end, et le lundi suivant, elle se sent enfin beaucoup mieux et peut retourner à l''école avec Léa et Karim."]'::jsonb, '{"prompt":"Remets les événements de l’histoire dans l’ordre.","events":["Madame Lambert remarque que Camila ne mange presque rien.","Elle prend rendez-vous chez le médecin.","Le docteur Martin examine Camila et lui donne des conseils.","Camila se repose et retourne à l’école le lundi suivant."]}'::jsonb);
+Le médecin ajoute généralement : « Il faut aussi éviter l''école ou le travail pendant deux ou trois jours pour ne pas contaminer les autres. » Beaucoup de patients sont un peu déçus de manquer des activités, mais rassurés que ce ne soit pas grave. Après la consultation, on achète le médicament à la pharmacie et on se repose à la maison. Grâce à ce système de soins accessible, la plupart des patients se sentent bien mieux après quelques jours de repos.', '["Quels symptômes sont décrits dans le texte ?","Comment commence toujours la consultation ?","Que diagnostique souvent le médecin dans ce genre de cas ?","Combien de fois par jour faut-il prendre le médicament ?","Pourquoi faut-il éviter l’école ou le travail ?"]'::jsonb, '["Quand on se sent fatigué pendant plusieurs jours, avec mal à la gorge et un peu de fièvre, il est conseillé de prendre rendez-vous chez le médecin. En France, on peut souvent obtenir un rendez-vous rapidement, parfois dès le lendemain matin. « Ça ne va pas ? » demande-t-on souvent en famille. « J''ai mal à la gorge et je me sens très fatigué », répond le patient.","Chez le médecin généraliste, la consultation commence toujours de la même façon : « Bonjour, qu''est-ce qui ne va pas ? » demande le docteur. Le patient explique ses symptômes depuis combien de temps ils durent. Le médecin l''examine, regarde sa gorge et prend sa température. « Vous avez une petite angine, rien de grave », dit-il souvent. « Vous devez vous reposer, boire beaucoup d''eau et prendre ce médicament trois fois par jour. »","Le médecin ajoute généralement : « Il faut aussi éviter l''école ou le travail pendant deux ou trois jours pour ne pas contaminer les autres. » Beaucoup de patients sont un peu déçus de manquer des activités, mais rassurés que ce ne soit pas grave. Après la consultation, on achète le médicament à la pharmacie et on se repose à la maison. Grâce à ce système de soins accessible, la plupart des patients se sentent bien mieux après quelques jours de repos."]'::jsonb, '{"prompt":"Remets les étapes de la consultation dans l’ordre.","events":["On remarque que le patient ne va pas bien.","On prend rendez-vous chez le médecin.","Le médecin examine le patient et donne des conseils.","Le patient se repose et va mieux après quelques jours."]}'::jsonb);
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, line)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-sante-listening'), 'intro', 0, 'Écoute le dialogue entre Camila et le docteur Martin.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-sante-listening'), 'dialogue_line', 0, 'Le médecin', 'Bonjour, qu’est-ce qui ne va pas ?', 'Hola, ¿qué le pasa?');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-sante-listening'), 'dialogue_line', 1, 'Camila', 'J’ai mal à la gorge et un peu de fièvre.', 'Me duele la garganta y tengo un poco de fiebre.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-sante-listening'), 'dialogue_line', 2, 'Le médecin', 'Depuis combien de temps ?', '¿Desde hace cuánto tiempo?');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-sante-listening'), 'dialogue_line', 3, 'Camila', 'Depuis deux jours.', 'Desde hace dos días.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-sante-listening'), 'dialogue_line', 4, 'Le médecin', 'Vous devez vous reposer et prendre ce médicament trois fois par jour.', 'Debe descansar y tomar este medicamento tres veces al día.');
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-sante-listening'), 'intro', 0, 'Écoute une première fois pour comprendre la situation, puis une deuxième fois pour vérifier les détails.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-sante-speaking'), 'dialogue_line', 0, 'Le médecin', 'Qu’est-ce qui ne va pas ?', '¿Qué le pasa?');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
@@ -2247,23 +2403,13 @@ VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-sante-d
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-sante-dialogue'), 'dialogue_line', 3, 'Camila', 'Merci beaucoup, vous êtes de vrais amis !', '¡Muchas gracias, son verdaderos amigos!');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, reading_title, reading_text, reading_questions, reading_parts, reading_ordering)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-vie-quotidienne-reading'), 'reading', 0, 'Ma nouvelle routine à Tours', '« Alors, raconte-moi ta journée typique ! » demande la mère de Camila pendant leur appel vidéo du dimanche. Camila sourit et commence : « D''habitude, je me réveille à sept heures. Je me lave, je m''habille, puis je prends le petit-déjeuner avec toute la famille Lambert. On mange souvent des tartines et on boit toujours du chocolat chaud. Ensuite, je pars à l''école avec Léa vers huit heures moins le quart. »
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-vie-quotidienne-reading'), 'reading', 0, 'La routine d’un(e) élève en échange scolaire', 'Chaque année, des milliers de jeunes participent à un échange scolaire en France, souvent grâce à des programmes comme Erasmus+. « Raconte-moi ta journée typique ! » demande-t-on souvent aux élèves pendant un appel vidéo avec leur famille. La réponse est presque toujours la même : « D''habitude, je me réveille à sept heures. Je me lave, je m''habille, puis je prends le petit-déjeuner avec ma famille d''accueil. On mange souvent des tartines et on boit toujours du chocolat chaud. Ensuite, je pars à l''école vers huit heures moins le quart. »
 
-« Et l''après-midi ? » demande sa mère, curieuse. « Les cours finissent généralement vers dix-sept heures. Après, je fais souvent mes devoirs avec Karim à la bibliothèque, puis je rentre à la maison vers dix-huit heures trente. Le mercredi, par contre, je ne rentre jamais directement : j''ai un cours de danse avec Léa. C''est mon activité préférée de la semaine ! » Camila continue : « Le soir, on dîne tous ensemble vers dix-neuf heures trente, on discute, et je me couche généralement vers vingt-deux heures. »
+« Et l''après-midi ? » demande-t-on, curieux. « Les cours finissent généralement vers dix-sept heures. Après, je fais souvent mes devoirs à la bibliothèque, puis je rentre à la maison vers dix-huit heures trente. Un jour par semaine, par contre, je ne rentre jamais directement : j''ai une activité extrascolaire, souvent un cours de danse ou de sport. C''est mon activité préférée de la semaine ! » Beaucoup d''élèves ajoutent : « Le soir, on dîne tous ensemble vers dix-neuf heures trente, on discute, et je me couche généralement vers vingt-deux heures. »
 
-« Tu ne t''ennuies jamais ? » demande sa mère en riant. « Jamais ! Parfois, le week-end, on sort avec Karim et Léa, on va au cinéma ou on se promène en ville. J''adore cette routine, elle est différente de celle que j''avais à Saint-Domingue, mais je m''y suis vite habituée. » Sa mère, rassurée, sourit à l''écran : « Je vois que tu es vraiment bien organisée maintenant ! »', '["À quelle heure Camila se réveille-t-elle ?","Que fait-elle le mercredi après les cours ?","Comment Camila décrit-elle sa nouvelle routine ?"]'::jsonb, '["« Alors, raconte-moi ta journée typique ! » demande la mère de Camila pendant leur appel vidéo du dimanche. Camila sourit et commence : « D''habitude, je me réveille à sept heures. Je me lave, je m''habille, puis je prends le petit-déjeuner avec toute la famille Lambert. On mange souvent des tartines et on boit toujours du chocolat chaud. Ensuite, je pars à l''école avec Léa vers huit heures moins le quart. »","« Et l''après-midi ? » demande sa mère, curieuse. « Les cours finissent généralement vers dix-sept heures. Après, je fais souvent mes devoirs avec Karim à la bibliothèque, puis je rentre à la maison vers dix-huit heures trente. Le mercredi, par contre, je ne rentre jamais directement : j''ai un cours de danse avec Léa. C''est mon activité préférée de la semaine ! » Camila continue : « Le soir, on dîne tous ensemble vers dix-neuf heures trente, on discute, et je me couche généralement vers vingt-deux heures. »","« Tu ne t''ennuies jamais ? » demande sa mère en riant. « Jamais ! Parfois, le week-end, on sort avec Karim et Léa, on va au cinéma ou on se promène en ville. J''adore cette routine, elle est différente de celle que j''avais à Saint-Domingue, mais je m''y suis vite habituée. » Sa mère, rassurée, sourit à l''écran : « Je vois que tu es vraiment bien organisée maintenant ! »"]'::jsonb, '{"prompt":"Remets les événements de la journée de Camila dans l’ordre.","events":["Camila se réveille et prend le petit-déjeuner.","Elle va à l’école avec Léa.","Elle fait ses devoirs avec Karim à la bibliothèque.","Toute la famille dîne ensemble le soir."]}'::jsonb);
+« Tu ne t''ennuies jamais ? » demande-t-on souvent en riant. « Jamais ! Parfois, le week-end, on sort avec des amis, on va au cinéma ou on se promène en ville. J''adore cette routine, elle est différente de celle que j''avais chez moi, mais je m''y suis vite habitué(e). » De nombreuses familles, rassurées, remarquent : « On voit que tu es vraiment bien organisé(e) maintenant ! »', '["À quelle heure se réveillent souvent ces élèves ?","Que boit-on souvent au petit-déjeuner en France ?","À quelle heure finissent généralement les cours ?","Que font ces élèves un jour par semaine après les cours ?","À quelle heure dîne souvent la famille d’accueil ?"]'::jsonb, '["Chaque année, des milliers de jeunes participent à un échange scolaire en France, souvent grâce à des programmes comme Erasmus+. « Raconte-moi ta journée typique ! » demande-t-on souvent aux élèves pendant un appel vidéo avec leur famille. La réponse est presque toujours la même : « D''habitude, je me réveille à sept heures. Je me lave, je m''habille, puis je prends le petit-déjeuner avec ma famille d''accueil. On mange souvent des tartines et on boit toujours du chocolat chaud. Ensuite, je pars à l''école vers huit heures moins le quart. »","« Et l''après-midi ? » demande-t-on, curieux. « Les cours finissent généralement vers dix-sept heures. Après, je fais souvent mes devoirs à la bibliothèque, puis je rentre à la maison vers dix-huit heures trente. Un jour par semaine, par contre, je ne rentre jamais directement : j''ai une activité extrascolaire, souvent un cours de danse ou de sport. C''est mon activité préférée de la semaine ! » Beaucoup d''élèves ajoutent : « Le soir, on dîne tous ensemble vers dix-neuf heures trente, on discute, et je me couche généralement vers vingt-deux heures. »","« Tu ne t''ennuies jamais ? » demande-t-on souvent en riant. « Jamais ! Parfois, le week-end, on sort avec des amis, on va au cinéma ou on se promène en ville. J''adore cette routine, elle est différente de celle que j''avais chez moi, mais je m''y suis vite habitué(e). » De nombreuses familles, rassurées, remarquent : « On voit que tu es vraiment bien organisé(e) maintenant ! »"]'::jsonb, '{"prompt":"Remets les événements de la journée dans l’ordre.","events":["L’élève se réveille et prend le petit-déjeuner.","Il/elle va à l’école.","Il/elle fait ses devoirs à la bibliothèque.","Toute la famille dîne ensemble le soir."]}'::jsonb);
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, line)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-vie-quotidienne-listening'), 'intro', 0, 'Écoute Camila expliquer à Karim comment s’organise sa semaine.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-vie-quotidienne-listening'), 'dialogue_line', 0, 'Karim', 'Tu as un emploi du temps chargé cette semaine ?', '¿Tienes un horario cargado esta semana?');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-vie-quotidienne-listening'), 'dialogue_line', 1, 'Camila', 'Assez, oui. Le lundi et le jeudi, j’ai cours jusqu’à dix-sept heures.', 'Bastante, sí. Los lunes y jueves tengo clases hasta las cinco.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-vie-quotidienne-listening'), 'dialogue_line', 2, 'Karim', 'Et le mercredi, tu as toujours ton cours de danse ?', '¿Y los miércoles siempre tienes tu clase de baile?');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-vie-quotidienne-listening'), 'dialogue_line', 3, 'Camila', 'Oui, toujours ! Je ne le rate jamais, j’adore ça.', 'Sí, ¡siempre! Nunca me la pierdo, me encanta.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-vie-quotidienne-listening'), 'dialogue_line', 4, 'Karim', 'D’accord, alors on se voit à la bibliothèque le vendredi comme d’habitude ?', 'De acuerdo, ¿entonces nos vemos en la biblioteca el viernes como siempre?');
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-vie-quotidienne-listening'), 'intro', 0, 'Écoute une première fois pour comprendre la situation, puis une deuxième fois pour vérifier les détails.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-vie-quotidienne-speaking'), 'dialogue_line', 0, 'Toi', 'D’habitude, je me réveille à sept heures et je prends toujours un café.', 'Normalmente me despierto a las siete y siempre tomo un café.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
@@ -2291,23 +2437,13 @@ VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-vie-quo
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-vie-quotidienne-dialogue'), 'dialogue_line', 3, 'Camila', 'J’adore cette routine du dimanche, elle est très différente de la semaine !', '¡Me encanta esta rutina del domingo, es muy diferente de la semana!');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, reading_title, reading_text, reading_questions, reading_parts, reading_ordering)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-experiences-passees-reading'), 'reading', 0, 'Mon premier mois en France', 'Cher journal, ça fait maintenant un mois que je suis arrivée en France, et tellement de choses se sont passées ! Le premier jour, je suis arrivée à l''aéroport de Paris, fatiguée mais très excitée. La famille Lambert est venue me chercher, et nous avons pris le train ensemble jusqu''à Tours. J''ai tout de suite aimé la ville, avec ses vieilles rues et sa rivière.
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-experiences-passees-reading'), 'reading', 0, 'Un premier mois d’échange scolaire', 'Cher journal, ça fait maintenant un mois que je suis arrivé(e) en France, et tellement de choses se sont passées ! Le premier jour, je suis arrivé(e) à l''aéroport de Paris, fatigué(e) mais très excité(e). Ma famille d''accueil est venue me chercher, et nous avons pris le train ensemble jusqu''à Tours. J''ai tout de suite aimé la ville, avec ses vieilles rues et sa rivière.
 
-La semaine suivante, je suis allée à l''école pour la première fois. J''ai rencontré Léa et Karim, qui sont devenus mes meilleurs amis ici. Nous avons visité le château de Chenonceau ensemble, et j''ai pris des centaines de photos ! Un week-end, toute la famille est partie à Paris en train : nous sommes montés à la tour Eiffel, nous avons marché le long de la Seine, et j''ai goûté mon premier vrai croissant parisien, c''était délicieux.
+La semaine suivante, je suis allé(e) à l''école pour la première fois. J''ai rencontré deux camarades de classe, qui sont devenus mes meilleurs amis ici. Nous avons visité le château de Chenonceau ensemble, et j''ai pris des centaines de photos ! Un week-end, toute la famille d''accueil est partie à Paris en train : nous sommes montés à la tour Eiffel, nous avons marché le long de la Seine, et j''ai goûté mon premier vrai croissant parisien, c''était délicieux.
 
-Il y a deux semaines, j''ai eu un petit accident : je suis tombée de vélo devant l''école et je me suis fait mal au genou ! Heureusement, ce n''était pas grave. Léa m''a aidée à rentrer et Madame Lambert m''a soignée avec beaucoup de gentillesse. Cette expérience m''a montré à quel point cette famille est devenue importante pour moi. En un mois seulement, j''ai appris tellement de choses : une nouvelle langue, une nouvelle ville, et surtout, de nouvelles amitiés inoubliables.', '["Comment Camila et la famille Lambert sont-elles allées de Paris à Tours ?","Qu’est-ce que Camila et ses amis ont visité ensemble ?","Que s’est-il passé il y a deux semaines ?"]'::jsonb, '["Cher journal, ça fait maintenant un mois que je suis arrivée en France, et tellement de choses se sont passées ! Le premier jour, je suis arrivée à l''aéroport de Paris, fatiguée mais très excitée. La famille Lambert est venue me chercher, et nous avons pris le train ensemble jusqu''à Tours. J''ai tout de suite aimé la ville, avec ses vieilles rues et sa rivière.","La semaine suivante, je suis allée à l''école pour la première fois. J''ai rencontré Léa et Karim, qui sont devenus mes meilleurs amis ici. Nous avons visité le château de Chenonceau ensemble, et j''ai pris des centaines de photos ! Un week-end, toute la famille est partie à Paris en train : nous sommes montés à la tour Eiffel, nous avons marché le long de la Seine, et j''ai goûté mon premier vrai croissant parisien, c''était délicieux.","Il y a deux semaines, j''ai eu un petit accident : je suis tombée de vélo devant l''école et je me suis fait mal au genou ! Heureusement, ce n''était pas grave. Léa m''a aidée à rentrer et Madame Lambert m''a soignée avec beaucoup de gentillesse. Cette expérience m''a montré à quel point cette famille est devenue importante pour moi. En un mois seulement, j''ai appris tellement de choses : une nouvelle langue, une nouvelle ville, et surtout, de nouvelles amitiés inoubliables."]'::jsonb, '{"prompt":"Remets les événements du mois de Camila dans l’ordre.","events":["Camila arrive à l’aéroport de Paris.","Elle rencontre Léa et Karim à l’école.","Toute la famille visite Paris en train.","Camila tombe de vélo devant l’école."]}'::jsonb);
+Il y a deux semaines, j''ai eu un petit accident : je suis tombé(e) de vélo devant l''école et je me suis fait mal au genou ! Heureusement, ce n''était pas grave. Mes amis m''ont aidé(e) à rentrer et ma famille d''accueil m''a soigné(e) avec beaucoup de gentillesse. Cette expérience m''a montré à quel point cette famille est devenue importante pour moi. En un mois seulement, j''ai appris tellement de choses : une nouvelle langue, une nouvelle ville, et surtout, de nouvelles amitiés inoubliables.', '["Comment cet(te) élève est-il/elle arrivé(e) en France ?","Qu’ont visité l’élève et ses amis ensemble ?","Qu’a goûté l’élève à Paris ?","Que s’est-il passé il y a deux semaines ?","Qui a aidé l’élève après son accident ?"]'::jsonb, '["Cher journal, ça fait maintenant un mois que je suis arrivé(e) en France, et tellement de choses se sont passées ! Le premier jour, je suis arrivé(e) à l''aéroport de Paris, fatigué(e) mais très excité(e). Ma famille d''accueil est venue me chercher, et nous avons pris le train ensemble jusqu''à Tours. J''ai tout de suite aimé la ville, avec ses vieilles rues et sa rivière.","La semaine suivante, je suis allé(e) à l''école pour la première fois. J''ai rencontré deux camarades de classe, qui sont devenus mes meilleurs amis ici. Nous avons visité le château de Chenonceau ensemble, et j''ai pris des centaines de photos ! Un week-end, toute la famille d''accueil est partie à Paris en train : nous sommes montés à la tour Eiffel, nous avons marché le long de la Seine, et j''ai goûté mon premier vrai croissant parisien, c''était délicieux.","Il y a deux semaines, j''ai eu un petit accident : je suis tombé(e) de vélo devant l''école et je me suis fait mal au genou ! Heureusement, ce n''était pas grave. Mes amis m''ont aidé(e) à rentrer et ma famille d''accueil m''a soigné(e) avec beaucoup de gentillesse. Cette expérience m''a montré à quel point cette famille est devenue importante pour moi. En un mois seulement, j''ai appris tellement de choses : une nouvelle langue, une nouvelle ville, et surtout, de nouvelles amitiés inoubliables."]'::jsonb, '{"prompt":"Remets les événements du mois dans l’ordre.","events":["L’élève arrive à l’aéroport de Paris.","Il/elle rencontre deux camarades à l’école.","Toute la famille d’accueil visite Paris en train.","L’élève tombe de vélo devant l’école."]}'::jsonb);
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, line)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-experiences-passees-listening'), 'intro', 0, 'Écoute Camila décrire, par téléphone, son week-end à Paris avec la famille Lambert.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-experiences-passees-listening'), 'dialogue_line', 0, 'Camila', 'Maman, on est allés à Paris ce week-end, c’était incroyable !', 'Mamá, fuimos a París este fin de semana, ¡fue increíble!');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-experiences-passees-listening'), 'dialogue_line', 1, 'La mère', 'Raconte-moi ! Qu’est-ce que vous avez fait ?', '¡Cuéntame! ¿Qué hicieron?');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-experiences-passees-listening'), 'dialogue_line', 2, 'Camila', 'Nous sommes montés à la tour Eiffel et nous avons marché le long de la Seine.', 'Subimos a la torre Eiffel y caminamos junto al Sena.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-experiences-passees-listening'), 'dialogue_line', 3, 'La mère', 'Et vous avez mangé quelque chose de spécial ?', '¿Y comieron algo especial?');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-experiences-passees-listening'), 'dialogue_line', 4, 'Camila', 'Oui, j’ai goûté mon premier vrai croissant parisien, c’était délicieux !', 'Sí, probé mi primer croissant parisino de verdad, ¡estaba delicioso!');
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-experiences-passees-listening'), 'intro', 0, 'Écoute une première fois pour comprendre la situation, puis une deuxième fois pour vérifier les détails.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-experiences-passees-speaking'), 'dialogue_line', 0, 'Toi', 'L’année dernière, je suis allé(e) en France pour la première fois. J’ai visité Paris et j’ai adoré la tour Eiffel.', 'El año pasado fui a Francia por primera vez. Visité París y me encantó la torre Eiffel.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
@@ -2333,23 +2469,13 @@ VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-experi
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-experiences-passees-dialogue'), 'dialogue_line', 3, 'Camila', 'Merci, Léa. Heureusement, tu étais là !', 'Gracias, Léa. ¡Menos mal que estabas ahí!');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, reading_title, reading_text, reading_questions, reading_parts, reading_ordering)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-voyages-et-les-vacances-reading'), 'reading', 0, 'Un voyage dans le sud', 'Pour les vacances de printemps, la famille Lambert a décidé d''organiser un voyage dans le sud de la France, à Nice. « On va prendre le train jusqu''à Nice, ça va prendre environ six heures », explique Monsieur Lambert en regardant les horaires sur son ordinateur. Camila est très excitée : elle n''a jamais vu la mer Méditerranée ! Madame Lambert s''occupe de réserver une chambre d''hôtel avec vue sur la mer, pour cinq personnes.
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-voyages-et-les-vacances-reading'), 'reading', 0, 'Un voyage dans le sud de la France', 'Pour les vacances de printemps, beaucoup de familles organisent un voyage dans le sud de la France, à Nice. « On peut prendre le train jusqu''à Nice, ça prend environ six heures », expliquent souvent les guides de voyage. Beaucoup de touristes sont très excités : c''est parfois leur première fois devant la mer Méditerranée ! Il est conseillé de réserver une chambre d''hôtel avec vue sur la mer à l''avance.
 
-Le soir, toute la famille prépare les valises ensemble. « N''oublie pas ton maillot de bain, Camila, on va se baigner tous les jours ! » dit Léa en riant. Camila fait sa valise avec soin : des vêtements légers, de la crème solaire, et un appareil photo pour capturer tous les moments de ce voyage. Le lendemain matin, ils prennent le train très tôt, avec beaucoup d''excitation et un peu de fatigue.
+Avant le départ, toute la famille prépare les valises ensemble. « N''oublie pas ton maillot de bain, on va se baigner tous les jours ! » dit-on souvent en riant. On prépare sa valise avec soin : des vêtements légers, de la crème solaire, et un appareil photo pour capturer tous les moments du voyage. Le matin du départ, beaucoup de voyageurs prennent le train très tôt, avec beaucoup d''excitation et un peu de fatigue.
 
-Après six heures de voyage, ils arrivent enfin à Nice. La vue depuis leur hôtel est magnifique : la mer bleue s''étend à perte de vue. Pendant leur séjour, ils vont se baigner tous les jours, visiter la vieille ville, et goûter la cuisine locale, notamment la fameuse salade niçoise. Camila prend des centaines de photos pour les montrer à sa famille à Saint-Domingue. Ce voyage restera l''un des plus beaux souvenirs de son année en France, et elle espère revenir un jour dans cette magnifique région.', '["Comment la famille Lambert va-t-elle voyager jusqu’à Nice ?","Que réserve Madame Lambert ?","Que font-ils pendant leur séjour à Nice ?"]'::jsonb, '["Pour les vacances de printemps, la famille Lambert a décidé d''organiser un voyage dans le sud de la France, à Nice. « On va prendre le train jusqu''à Nice, ça va prendre environ six heures », explique Monsieur Lambert en regardant les horaires sur son ordinateur. Camila est très excitée : elle n''a jamais vu la mer Méditerranée ! Madame Lambert s''occupe de réserver une chambre d''hôtel avec vue sur la mer, pour cinq personnes.","Le soir, toute la famille prépare les valises ensemble. « N''oublie pas ton maillot de bain, Camila, on va se baigner tous les jours ! » dit Léa en riant. Camila fait sa valise avec soin : des vêtements légers, de la crème solaire, et un appareil photo pour capturer tous les moments de ce voyage. Le lendemain matin, ils prennent le train très tôt, avec beaucoup d''excitation et un peu de fatigue.","Après six heures de voyage, ils arrivent enfin à Nice. La vue depuis leur hôtel est magnifique : la mer bleue s''étend à perte de vue. Pendant leur séjour, ils vont se baigner tous les jours, visiter la vieille ville, et goûter la cuisine locale, notamment la fameuse salade niçoise. Camila prend des centaines de photos pour les montrer à sa famille à Saint-Domingue. Ce voyage restera l''un des plus beaux souvenirs de son année en France, et elle espère revenir un jour dans cette magnifique région."]'::jsonb, '{"prompt":"Remets les événements du voyage dans l’ordre.","events":["La famille décide d’organiser un voyage à Nice.","Ils préparent leurs valises ensemble.","Ils prennent le train tôt le matin.","Ils arrivent à Nice et découvrent la vue sur la mer."]}'::jsonb);
+Après six heures de voyage, les visiteurs arrivent enfin à Nice. La vue depuis l''hôtel est souvent magnifique : la mer bleue s''étend à perte de vue. Pendant leur séjour, beaucoup de touristes se baignent tous les jours, visitent la vieille ville, et goûtent la cuisine locale, notamment la fameuse salade niçoise. Beaucoup de voyageurs prennent des centaines de photos pour les montrer à leur famille restée loin. Ce genre de voyage reste, pour beaucoup, l''un des plus beaux souvenirs de l''année, et donne envie de revenir un jour dans cette magnifique région.', '["Où voyage-t-on dans ce texte ?","Combien de temps dure le voyage en train ?","Que conseille-t-on de réserver à l’avance ?","Que rappelle-t-on souvent d’emporter ?","Que font les touristes tous les jours pendant leur séjour ?"]'::jsonb, '["Pour les vacances de printemps, beaucoup de familles organisent un voyage dans le sud de la France, à Nice. « On peut prendre le train jusqu''à Nice, ça prend environ six heures », expliquent souvent les guides de voyage. Beaucoup de touristes sont très excités : c''est parfois leur première fois devant la mer Méditerranée ! Il est conseillé de réserver une chambre d''hôtel avec vue sur la mer à l''avance.","Avant le départ, toute la famille prépare les valises ensemble. « N''oublie pas ton maillot de bain, on va se baigner tous les jours ! » dit-on souvent en riant. On prépare sa valise avec soin : des vêtements légers, de la crème solaire, et un appareil photo pour capturer tous les moments du voyage. Le matin du départ, beaucoup de voyageurs prennent le train très tôt, avec beaucoup d''excitation et un peu de fatigue.","Après six heures de voyage, les visiteurs arrivent enfin à Nice. La vue depuis l''hôtel est souvent magnifique : la mer bleue s''étend à perte de vue. Pendant leur séjour, beaucoup de touristes se baignent tous les jours, visitent la vieille ville, et goûtent la cuisine locale, notamment la fameuse salade niçoise. Beaucoup de voyageurs prennent des centaines de photos pour les montrer à leur famille restée loin. Ce genre de voyage reste, pour beaucoup, l''un des plus beaux souvenirs de l''année, et donne envie de revenir un jour dans cette magnifique région."]'::jsonb, '{"prompt":"Remets les événements du voyage dans l’ordre.","events":["La famille décide d’organiser un voyage à Nice.","Elle prépare ses valises.","Elle prend le train tôt le matin.","Elle arrive à Nice et découvre la vue sur la mer."]}'::jsonb);
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, line)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-voyages-et-les-vacances-listening'), 'intro', 0, 'Écoute l’appel de Madame Lambert à l’hôtel de Nice.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-voyages-et-les-vacances-listening'), 'dialogue_line', 0, 'Mme Lambert', 'Bonjour, je voudrais réserver une chambre pour cinq personnes.', 'Hola, quisiera reservar una habitación para cinco personas.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-voyages-et-les-vacances-listening'), 'dialogue_line', 1, 'L’hôtel', 'Bien sûr, pour quelles dates ?', 'Claro, ¿para qué fechas?');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-voyages-et-les-vacances-listening'), 'dialogue_line', 2, 'Mme Lambert', 'Du quinze au vingt avril, s’il vous plaît.', 'Del quince al veinte de abril, por favor.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-voyages-et-les-vacances-listening'), 'dialogue_line', 3, 'L’hôtel', 'Parfait, nous avons une chambre avec vue sur la mer.', 'Perfecto, tenemos una habitación con vista al mar.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-voyages-et-les-vacances-listening'), 'dialogue_line', 4, 'Mme Lambert', 'C’est exactement ce que nous cherchions, merci !', '¡Eso es exactamente lo que buscábamos, gracias!');
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-voyages-et-les-vacances-listening'), 'intro', 0, 'Écoute une première fois pour comprendre la situation, puis une deuxième fois pour vérifier les détails.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-voyages-et-les-vacances-speaking'), 'dialogue_line', 0, 'Toi', 'Cet été, je vais aller à Nice avec ma famille. On va prendre le train et on va se baigner tous les jours.', 'Este verano voy a ir a Niza con mi familia. Vamos a tomar el tren y nos vamos a bañar todos los días.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
@@ -2375,23 +2501,13 @@ VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-voyage
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-voyages-et-les-vacances-dialogue'), 'dialogue_line', 3, 'Camila', 'Bien sûr, je vais prendre des centaines de photos pour ma famille !', '¡Claro, voy a tomar cientos de fotos para mi familia!');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, reading_title, reading_text, reading_questions, reading_parts, reading_ordering)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-le-logement-reading'), 'reading', 0, 'Deux appartements à comparer', 'Pour un projet d''école sur la vie quotidienne en France, Camila et Karim doivent comparer deux annonces d''appartements à louer à Tours. La première annonce décrit un studio meublé au centre-ville : une seule pièce avec un coin cuisine, une salle de bain, et un petit balcon. Le loyer est de quatre cents euros par mois, charges comprises. « C''est petit, mais c''est très bien situé, près de tout », remarque Karim.
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-le-logement-reading'), 'reading', 0, 'Deux appartements à comparer', 'Pour un projet d''école sur la vie quotidienne en France, des élèves doivent comparer deux annonces d''appartements à louer à Tours. La première annonce décrit un studio meublé au centre-ville : une seule pièce avec un coin cuisine, une salle de bain, et un petit balcon. Le loyer est de quatre cents euros par mois, charges comprises. « C''est petit, mais c''est très bien situé, près de tout », remarquent les élèves.
 
-La deuxième annonce présente un appartement plus grand, avec deux chambres, un salon, une cuisine séparée et une salle de bain, dans un quartier plus calme, un peu éloigné du centre-ville. Le loyer est de six cents euros par mois, mais les charges ne sont pas comprises. « Cet appartement est plus grand que le studio, mais il est aussi plus cher », observe Camila. « Et il est moins bien situé, il faut prendre le bus pour aller au centre. »
+La deuxième annonce présente un appartement plus grand, avec deux chambres, un salon, une cuisine séparée et une salle de bain, dans un quartier plus calme, un peu éloigné du centre-ville. Le loyer est de six cents euros par mois, mais les charges ne sont pas comprises. « Cet appartement est plus grand que le studio, mais il est aussi plus cher », observent-ils. « Et il est moins bien situé, il faut prendre le bus pour aller au centre. »
 
-Après avoir comparé les deux annonces, Camila et Karim discutent des avantages et des inconvénients de chaque option pour leur projet. Le studio est moins cher et très central, mais il est petit et n''a pas de vraie chambre séparée. L''appartement est plus spacieux et plus confortable pour une famille, mais il est plus cher et moins pratique pour se déplacer. « Ça dépend vraiment des besoins de chaque personne », conclut Karim. « Pour un étudiant seul, je choisirais le studio ; pour une famille, l''appartement est mieux. » Camila est d''accord et ils décident de présenter les deux options dans leur projet, avec cette conclusion.', '["Que doivent faire Camila et Karim pour leur projet d’école ?","Quelle est la différence de loyer entre les deux logements ?","Quelle conclusion tirent-ils à la fin de leur comparaison ?"]'::jsonb, '["Pour un projet d''école sur la vie quotidienne en France, Camila et Karim doivent comparer deux annonces d''appartements à louer à Tours. La première annonce décrit un studio meublé au centre-ville : une seule pièce avec un coin cuisine, une salle de bain, et un petit balcon. Le loyer est de quatre cents euros par mois, charges comprises. « C''est petit, mais c''est très bien situé, près de tout », remarque Karim.","La deuxième annonce présente un appartement plus grand, avec deux chambres, un salon, une cuisine séparée et une salle de bain, dans un quartier plus calme, un peu éloigné du centre-ville. Le loyer est de six cents euros par mois, mais les charges ne sont pas comprises. « Cet appartement est plus grand que le studio, mais il est aussi plus cher », observe Camila. « Et il est moins bien situé, il faut prendre le bus pour aller au centre. »","Après avoir comparé les deux annonces, Camila et Karim discutent des avantages et des inconvénients de chaque option pour leur projet. Le studio est moins cher et très central, mais il est petit et n''a pas de vraie chambre séparée. L''appartement est plus spacieux et plus confortable pour une famille, mais il est plus cher et moins pratique pour se déplacer. « Ça dépend vraiment des besoins de chaque personne », conclut Karim. « Pour un étudiant seul, je choisirais le studio ; pour une famille, l''appartement est mieux. » Camila est d''accord et ils décident de présenter les deux options dans leur projet, avec cette conclusion."]'::jsonb, '{"prompt":"Remets les événements dans l’ordre.","events":["Camila et Karim lisent la première annonce, un studio meublé.","Ils lisent la deuxième annonce, un appartement plus grand.","Ils comparent les avantages et les inconvénients de chaque option.","Ils décident de présenter les deux options dans leur projet."]}'::jsonb);
+Après avoir comparé les deux annonces, les élèves discutent des avantages et des inconvénients de chaque option pour leur projet. Le studio est moins cher et très central, mais il est petit et n''a pas de vraie chambre séparée. L''appartement est plus spacieux et plus confortable pour une famille, mais il est plus cher et moins pratique pour se déplacer. « Ça dépend vraiment des besoins de chaque personne », concluent-ils. « Pour un étudiant seul, le studio est un bon choix ; pour une famille, l''appartement est mieux. » Ils décident de présenter les deux options dans leur projet, avec cette conclusion.', '["Combien de pièces a le studio meublé ?","Combien coûte le loyer du studio ?","Combien de chambres a le deuxième appartement ?","Pourquoi le deuxième appartement est-il moins pratique pour se déplacer ?","Les charges sont-elles comprises dans le loyer du studio ?"]'::jsonb, '["Pour un projet d''école sur la vie quotidienne en France, des élèves doivent comparer deux annonces d''appartements à louer à Tours. La première annonce décrit un studio meublé au centre-ville : une seule pièce avec un coin cuisine, une salle de bain, et un petit balcon. Le loyer est de quatre cents euros par mois, charges comprises. « C''est petit, mais c''est très bien situé, près de tout », remarquent les élèves.","La deuxième annonce présente un appartement plus grand, avec deux chambres, un salon, une cuisine séparée et une salle de bain, dans un quartier plus calme, un peu éloigné du centre-ville. Le loyer est de six cents euros par mois, mais les charges ne sont pas comprises. « Cet appartement est plus grand que le studio, mais il est aussi plus cher », observent-ils. « Et il est moins bien situé, il faut prendre le bus pour aller au centre. »","Après avoir comparé les deux annonces, les élèves discutent des avantages et des inconvénients de chaque option pour leur projet. Le studio est moins cher et très central, mais il est petit et n''a pas de vraie chambre séparée. L''appartement est plus spacieux et plus confortable pour une famille, mais il est plus cher et moins pratique pour se déplacer. « Ça dépend vraiment des besoins de chaque personne », concluent-ils. « Pour un étudiant seul, le studio est un bon choix ; pour une famille, l''appartement est mieux. » Ils décident de présenter les deux options dans leur projet, avec cette conclusion."]'::jsonb, '{"prompt":"Remets les événements dans l’ordre.","events":["Les élèves lisent la première annonce, un studio meublé.","Ils lisent la deuxième annonce, un appartement plus grand.","Ils comparent les avantages et les inconvénients de chaque option.","Ils décident de présenter les deux options dans leur projet."]}'::jsonb);
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, line)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-le-logement-listening'), 'intro', 0, 'Écoute la description d’un appartement par une agente immobilière.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-le-logement-listening'), 'dialogue_line', 0, 'L’agente', 'Voici le salon : il est grand et très lumineux.', 'Aquí está el salón: es grande y muy luminoso.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-le-logement-listening'), 'dialogue_line', 1, 'Karim', 'Il y a combien de chambres ?', '¿Cuántas habitaciones hay?');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-le-logement-listening'), 'dialogue_line', 2, 'L’agente', 'Il y a deux chambres, et une salle de bain avec une baignoire.', 'Hay dos habitaciones, y un baño con bañera.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-le-logement-listening'), 'dialogue_line', 3, 'Camila', 'Et la cuisine, elle est séparée ?', '¿Y la cocina, está separada?');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-le-logement-listening'), 'dialogue_line', 4, 'L’agente', 'Oui, la cuisine est séparée et complètement équipée.', 'Sí, la cocina está separada y completamente equipada.');
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-le-logement-listening'), 'intro', 0, 'Écoute une première fois pour comprendre la situation, puis une deuxième fois pour vérifier les détails.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-le-logement-speaking'), 'dialogue_line', 0, 'Toi', 'Mon appartement a deux chambres et un grand salon. Le quartier est calme et j’aime beaucoup ça.', 'Mi apartamento tiene dos habitaciones y un gran salón. El barrio es tranquilo y me gusta mucho.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
@@ -2417,23 +2533,13 @@ VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-le-logemen
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-le-logement-dialogue'), 'dialogue_line', 3, 'Camila', 'C’est vrai, mais pour une famille, je pense que c’est le meilleur choix.', 'Es verdad, pero para una familia, creo que es la mejor opción.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, reading_title, reading_text, reading_questions, reading_parts, reading_ordering)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-loisirs-et-les-medias-reading'), 'reading', 0, 'Quel film regarder ce soir ?', 'Vendredi soir, Camila, Léa et Karim se retrouvent chez les Lambert pour une soirée cinéma. Le problème, c''est qu''ils n''arrivent pas à se mettre d''accord sur le film à regarder. « Moi, je préfère les comédies, elles me font toujours rire », dit Léa. « Personnellement, je préfère les films d''action, ils sont plus intéressants », répond Karim. Camila, elle, n''aime ni les comédies ni les films d''action : « Moi, j''aime mieux les films romantiques, mais je sais que vous n''aimez pas ça du tout. »
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-loisirs-et-les-medias-reading'), 'reading', 0, 'Quel film regarder ce soir ?', 'Vendredi soir, un groupe d''amis se retrouve pour une soirée cinéma. Le problème, c''est qu''ils n''arrivent pas à se mettre d''accord sur le film à regarder. « Moi, je préfère les comédies, elles me font toujours rire », dit l''un d''eux. « Personnellement, je préfère les films d''action, ils sont plus intéressants », répond un autre. Une troisième amie n''aime ni les comédies ni les films d''action : « Moi, j''aime mieux les films romantiques, mais je sais que vous n''aimez pas ça du tout. »
 
-Après quelques minutes de discussion, ils décident de regarder les avis sur leurs téléphones. Léa propose une série qu''elle suit sur les réseaux sociaux : « Tout le monde en parle en ce moment, ça a l''air très bien ! » Karim n''est pas très convaincu : « Je ne fais jamais confiance aux réseaux sociaux pour choisir un film, les avis sont souvent faux. » Camila propose alors une solution : « Et si on regardait un documentaire ? Ce n''est ni une comédie, ni un film d''action, ni un film romantique, ça devrait convenir à tout le monde ! »
+Après quelques minutes de discussion, ils décident de regarder les avis sur leurs téléphones. L''un d''eux propose une série vue sur les réseaux sociaux : « Tout le monde en parle en ce moment, ça a l''air très bien ! » Un autre n''est pas très convaincu : « Je ne fais jamais confiance aux réseaux sociaux pour choisir un film, les avis sont souvent faux. » Quelqu''un propose alors une solution : « Et si on regardait un documentaire ? Ce n''est ni une comédie, ni un film d''action, ni un film romantique, ça devrait convenir à tout le monde ! »
 
-Finalement, tous les trois acceptent l''idée de Camila et choisissent un documentaire sur les océans. Après le film, ils sont tous surpris : ils l''ont adoré, même Karim qui n''aime jamais les documentaires d''habitude ! « À mon avis, on devrait regarder plus de documentaires ensemble », dit Léa en riant. Cette soirée leur montre qu''il n''est pas toujours facile de se mettre d''accord, mais qu''il existe toujours une solution qui satisfait tout le monde.', '["Pourquoi Camila, Léa et Karim ont-ils du mal à choisir un film ?","Que propose Camila comme solution ?","Comment se termine la soirée ?"]'::jsonb, '["Vendredi soir, Camila, Léa et Karim se retrouvent chez les Lambert pour une soirée cinéma. Le problème, c''est qu''ils n''arrivent pas à se mettre d''accord sur le film à regarder. « Moi, je préfère les comédies, elles me font toujours rire », dit Léa. « Personnellement, je préfère les films d''action, ils sont plus intéressants », répond Karim. Camila, elle, n''aime ni les comédies ni les films d''action : « Moi, j''aime mieux les films romantiques, mais je sais que vous n''aimez pas ça du tout. »","Après quelques minutes de discussion, ils décident de regarder les avis sur leurs téléphones. Léa propose une série qu''elle suit sur les réseaux sociaux : « Tout le monde en parle en ce moment, ça a l''air très bien ! » Karim n''est pas très convaincu : « Je ne fais jamais confiance aux réseaux sociaux pour choisir un film, les avis sont souvent faux. » Camila propose alors une solution : « Et si on regardait un documentaire ? Ce n''est ni une comédie, ni un film d''action, ni un film romantique, ça devrait convenir à tout le monde ! »","Finalement, tous les trois acceptent l''idée de Camila et choisissent un documentaire sur les océans. Après le film, ils sont tous surpris : ils l''ont adoré, même Karim qui n''aime jamais les documentaires d''habitude ! « À mon avis, on devrait regarder plus de documentaires ensemble », dit Léa en riant. Cette soirée leur montre qu''il n''est pas toujours facile de se mettre d''accord, mais qu''il existe toujours une solution qui satisfait tout le monde."]'::jsonb, '{"prompt":"Remets les événements de la soirée dans l’ordre.","events":["Chacun exprime sa préférence de film.","Léa propose une série vue sur les réseaux sociaux.","Camila propose de regarder un documentaire.","Tous les trois adorent le documentaire sur les océans."]}'::jsonb);
+Finalement, tout le groupe accepte cette idée et choisit un documentaire sur les océans. Après le film, ils sont tous surpris : ils l''ont adoré, même celui qui n''aime jamais les documentaires d''habitude ! « À mon avis, on devrait regarder plus de documentaires ensemble », dit l''un d''eux en riant. Cette soirée leur montre qu''il n''est pas toujours facile de se mettre d''accord, mais qu''il existe toujours une solution qui satisfait tout le monde.', '["Quel genre de film préfère le premier ami ?","Quel genre de film préfère le deuxième ami ?","Pourquoi ne fait-on pas confiance aux réseaux sociaux, selon un des amis ?","Que propose-t-on comme solution ?","Sur quel sujet est le documentaire qu’ils regardent ?"]'::jsonb, '["Vendredi soir, un groupe d''amis se retrouve pour une soirée cinéma. Le problème, c''est qu''ils n''arrivent pas à se mettre d''accord sur le film à regarder. « Moi, je préfère les comédies, elles me font toujours rire », dit l''un d''eux. « Personnellement, je préfère les films d''action, ils sont plus intéressants », répond un autre. Une troisième amie n''aime ni les comédies ni les films d''action : « Moi, j''aime mieux les films romantiques, mais je sais que vous n''aimez pas ça du tout. »","Après quelques minutes de discussion, ils décident de regarder les avis sur leurs téléphones. L''un d''eux propose une série vue sur les réseaux sociaux : « Tout le monde en parle en ce moment, ça a l''air très bien ! » Un autre n''est pas très convaincu : « Je ne fais jamais confiance aux réseaux sociaux pour choisir un film, les avis sont souvent faux. » Quelqu''un propose alors une solution : « Et si on regardait un documentaire ? Ce n''est ni une comédie, ni un film d''action, ni un film romantique, ça devrait convenir à tout le monde ! »","Finalement, tout le groupe accepte cette idée et choisit un documentaire sur les océans. Après le film, ils sont tous surpris : ils l''ont adoré, même celui qui n''aime jamais les documentaires d''habitude ! « À mon avis, on devrait regarder plus de documentaires ensemble », dit l''un d''eux en riant. Cette soirée leur montre qu''il n''est pas toujours facile de se mettre d''accord, mais qu''il existe toujours une solution qui satisfait tout le monde."]'::jsonb, '{"prompt":"Remets les événements de la soirée dans l’ordre.","events":["Chacun exprime sa préférence de film.","On propose une série vue sur les réseaux sociaux.","Quelqu’un propose de regarder un documentaire.","Tout le groupe adore le documentaire sur les océans."]}'::jsonb);
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, line)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-loisirs-et-les-medias-listening'), 'intro', 0, 'Écoute Léa expliquer pourquoi elle aime tant ce film en particulier.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-loisirs-et-les-medias-listening'), 'dialogue_line', 0, 'Léa', 'Mon film préféré, c’est une comédie française avec des acteurs incroyables.', 'Mi película favorita es una comedia francesa con actores increíbles.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-loisirs-et-les-medias-listening'), 'dialogue_line', 1, 'Camila', 'Pourquoi tu l’aimes autant ?', '¿Por qué te gusta tanto?');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-loisirs-et-les-medias-listening'), 'dialogue_line', 2, 'Léa', 'Parce qu’elle me fait toujours rire, même après l’avoir vue dix fois.', 'Porque siempre me hace reír, incluso después de haberla visto diez veces.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-loisirs-et-les-medias-listening'), 'dialogue_line', 3, 'Camila', 'Moi, je ne l’ai jamais vue. On peut la regarder ensemble ?', 'Yo nunca la he visto. ¿Podemos verla juntas?');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-loisirs-et-les-medias-listening'), 'dialogue_line', 4, 'Léa', 'Bien sûr, avec plaisir !', '¡Claro, con mucho gusto!');
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-loisirs-et-les-medias-listening'), 'intro', 0, 'Écoute une première fois pour comprendre la situation, puis une deuxième fois pour vérifier les détails.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-loisirs-et-les-medias-speaking'), 'dialogue_line', 0, 'Toi', 'Ma série préférée, c’est une série française. Je l’aime parce que l’histoire est passionnante.', 'Mi serie favorita es una serie francesa. Me gusta porque la historia es apasionante.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
@@ -2459,21 +2565,13 @@ VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-loisir
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-loisirs-et-les-medias-dialogue'), 'dialogue_line', 3, 'Karim', 'La prochaine fois, c’est moi qui choisis, promis !', '¡La próxima vez, elijo yo, lo prometo!');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, reading_title, reading_text, reading_questions, reading_parts, reading_ordering)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-relations-et-communication-reading'), 'reading', 0, 'Un e-mail à Sofía', 'Chère Sofía, ça fait longtemps que je ne t''ai pas écrit, excuse-moi ! La vie ici, en France, est tellement différente de celle qu''on avait à Saint-Domingue. Je me suis fait deux amis formidables : Léa, la fille de la famille qui m''héberge, et Karim, un garçon de ma classe qui est toujours prêt à m''aider. Ce sont des amis avec qui je passe presque tout mon temps libre, et je crois que je ne les oublierai jamais.
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-relations-et-communication-reading'), 'reading', 0, 'Un e-mail pendant un échange scolaire', 'Cher/Chère ami(e), ça fait longtemps que je ne t''ai pas écrit, excuse-moi ! La vie ici, en France, est tellement différente de celle qu''on avait chez nous. Je me suis fait deux amis formidables : la fille de la famille qui m''héberge, et un camarade de classe qui est toujours prêt à m''aider. Ce sont des amis avec qui je passe presque tout mon temps libre, et je crois que je ne les oublierai jamais.
 
-Je dois t''avouer que tu me manques énormément, ainsi que le reste de notre groupe d''amies. Je pense souvent aux moments qu''on passait ensemble, dans le quartier où on a grandi. Mais je suis aussi très heureuse ici : j''apprends une nouvelle langue, je découvre une nouvelle culture, et j''ai rencontré des personnes qui, comme toi, sont devenues très importantes pour moi. Léa et moi, on n''est pas toujours d''accord sur tout (elle adore les comédies romantiques, alors que moi, je préfère les documentaires !), mais on se respecte et on rigole beaucoup ensemble.
+Je dois t''avouer que tu me manques énormément, ainsi que le reste de notre groupe d''amis. Je pense souvent aux moments qu''on passait ensemble, dans le quartier où on a grandi. Mais je suis aussi très heureux/heureuse ici : j''apprends une nouvelle langue, je découvre une nouvelle culture, et j''ai rencontré des personnes qui, comme toi, sont devenues très importantes pour moi. Mes nouveaux amis et moi, on n''est pas toujours d''accord sur tout (l''un adore les comédies romantiques, alors que moi, je préfère les documentaires !), mais on se respecte et on rigole beaucoup ensemble.
 
-J''espère qu''on pourra garder contact, même quand je rentrerai à Saint-Domingue. Peut-être que tu pourrais venir me rendre visite en France un jour, ou que je pourrais te présenter Léa et Karim par appel vidéo ! En attendant, je t''envoie plein de photos de Tours, la ville où j''habite maintenant. Réponds-moi vite, j''ai hâte d''avoir de tes nouvelles. Je t''embrasse très fort, Camila.', '["Qui sont les deux nouveaux amis de Camila en France ?","Sur quoi Camila et Léa ne sont-elles pas toujours d’accord ?","Que propose Camila pour garder contact avec Sofía ?"]'::jsonb, '["Chère Sofía, ça fait longtemps que je ne t''ai pas écrit, excuse-moi ! La vie ici, en France, est tellement différente de celle qu''on avait à Saint-Domingue. Je me suis fait deux amis formidables : Léa, la fille de la famille qui m''héberge, et Karim, un garçon de ma classe qui est toujours prêt à m''aider. Ce sont des amis avec qui je passe presque tout mon temps libre, et je crois que je ne les oublierai jamais.","Je dois t''avouer que tu me manques énormément, ainsi que le reste de notre groupe d''amies. Je pense souvent aux moments qu''on passait ensemble, dans le quartier où on a grandi. Mais je suis aussi très heureuse ici : j''apprends une nouvelle langue, je découvre une nouvelle culture, et j''ai rencontré des personnes qui, comme toi, sont devenues très importantes pour moi. Léa et moi, on n''est pas toujours d''accord sur tout (elle adore les comédies romantiques, alors que moi, je préfère les documentaires !), mais on se respecte et on rigole beaucoup ensemble.","J''espère qu''on pourra garder contact, même quand je rentrerai à Saint-Domingue. Peut-être que tu pourrais venir me rendre visite en France un jour, ou que je pourrais te présenter Léa et Karim par appel vidéo ! En attendant, je t''envoie plein de photos de Tours, la ville où j''habite maintenant. Réponds-moi vite, j''ai hâte d''avoir de tes nouvelles. Je t''embrasse très fort, Camila."]'::jsonb, '{"prompt":"Remets les idées de l’e-mail dans l’ordre.","events":["Camila s’excuse de ne pas avoir écrit depuis longtemps.","Elle raconte comment elle s’est fait deux nouveaux amis.","Elle avoue que Sofía et ses amies lui manquent.","Elle propose de garder contact avec Sofía."]}'::jsonb);
+J''espère qu''on pourra garder contact, même quand je rentrerai chez nous. Peut-être que tu pourrais venir me rendre visite en France un jour, ou que je pourrais te présenter mes nouveaux amis par appel vidéo ! En attendant, je t''envoie plein de photos de Tours, la ville où j''habite maintenant. Réponds-moi vite, j''ai hâte d''avoir de tes nouvelles. Je t''embrasse très fort.', '["Qui sont les deux nouveaux amis mentionnés ?","Qui manque énormément à l’auteur ?","Sur quoi ne sont-ils pas d’accord ?","Que propose l’auteur pour rester en contact ?","Que dit l’auteur à propos de la ville où il/elle habite ?"]'::jsonb, '["Cher/Chère ami(e), ça fait longtemps que je ne t''ai pas écrit, excuse-moi ! La vie ici, en France, est tellement différente de celle qu''on avait chez nous. Je me suis fait deux amis formidables : la fille de la famille qui m''héberge, et un camarade de classe qui est toujours prêt à m''aider. Ce sont des amis avec qui je passe presque tout mon temps libre, et je crois que je ne les oublierai jamais.","Je dois t''avouer que tu me manques énormément, ainsi que le reste de notre groupe d''amis. Je pense souvent aux moments qu''on passait ensemble, dans le quartier où on a grandi. Mais je suis aussi très heureux/heureuse ici : j''apprends une nouvelle langue, je découvre une nouvelle culture, et j''ai rencontré des personnes qui, comme toi, sont devenues très importantes pour moi. Mes nouveaux amis et moi, on n''est pas toujours d''accord sur tout (l''un adore les comédies romantiques, alors que moi, je préfère les documentaires !), mais on se respecte et on rigole beaucoup ensemble.","J''espère qu''on pourra garder contact, même quand je rentrerai chez nous. Peut-être que tu pourrais venir me rendre visite en France un jour, ou que je pourrais te présenter mes nouveaux amis par appel vidéo ! En attendant, je t''envoie plein de photos de Tours, la ville où j''habite maintenant. Réponds-moi vite, j''ai hâte d''avoir de tes nouvelles. Je t''embrasse très fort."]'::jsonb, '{"prompt":"Remets les idées de l’e-mail dans l’ordre.","events":["L’auteur s’excuse de ne pas avoir écrit depuis longtemps.","Il/elle raconte comment il/elle s’est fait deux nouveaux amis.","Il/elle avoue que son ami(e) et le groupe lui manquent.","Il/elle propose de garder contact."]}'::jsonb);
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, line)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-relations-et-communication-listening'), 'intro', 0, 'Écoute la conversation vidéo entre Camila et Sofía, après plusieurs semaines sans se parler.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-relations-et-communication-listening'), 'dialogue_line', 0, 'Sofía', 'Camila ! Enfin, on se voit ! Tu m’as tellement manqué.', '¡Camila! ¡Por fin nos vemos! Te he extrañado muchísimo.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-relations-et-communication-listening'), 'dialogue_line', 1, 'Camila', 'Toi aussi ! Raconte-moi tout, comment vont les autres filles ?', '¡Tú también! Cuéntame todo, ¿cómo están las demás chicas?');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-relations-et-communication-listening'), 'dialogue_line', 2, 'Sofía', 'Elles vont bien, on pense souvent à toi. Et toi, comment vas-tu là-bas ?', 'Están bien, pensamos mucho en ti. ¿Y tú, cómo estás allá?');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-relations-et-communication-listening'), 'dialogue_line', 3, 'Camila', 'Très bien ! Je me suis fait des amis formidables, je te les présente bientôt.', '¡Muy bien! Me hice amigos formidables, te los presento pronto.');
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-relations-et-communication-listening'), 'intro', 0, 'Écoute une première fois pour comprendre la situation, puis une deuxième fois pour vérifier les détails.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-relations-et-communication-speaking'), 'dialogue_line', 0, 'Toi', 'Ma meilleure amie est une personne qui me comprend toujours. Nous ne sommes pas toujours d’accord, mais notre amitié est très importante pour moi.', 'Mi mejor amiga es una persona que siempre me entiende. No siempre estamos de acuerdo, pero nuestra amistad es muy importante para mí.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
@@ -2499,23 +2597,91 @@ VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-relations-
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-relations-et-communication-dialogue'), 'dialogue_line', 3, 'Camila', 'Avec plaisir ! C’est une bonne solution pour nous deux.', '¡Con mucho gusto! Es una buena solución para las dos.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, reading_title, reading_text, reading_questions, reading_parts, reading_ordering)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-projets-et-avenir-reading'), 'reading', 0, 'Rester ou repartir ?', 'À quelques mois de la fin de son année scolaire à Tours, Camila doit prendre une décision importante : rester une année de plus en France, ou rentrer chez elle, à Saint-Domingue. Ses parents lui ont proposé de prolonger son échange si elle le souhaite vraiment, mais elle hésite. D''un côté, elle adore sa vie à Tours : ses amis Léa et Karim, la famille Lambert, le lycée, et tout ce qu''elle a appris en français. De l''autre côté, sa famille et ses amis d''enfance lui manquent énormément, surtout sa grand-mère, qu''elle n''a pas vue depuis presque un an.
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-services-et-demarches-reading'), 'reading', 0, 'Une carte pour la médiathèque', 'Nora vient de s’installer dans un nouveau quartier de Rennes. Elle aime lire, travailler au calme et participer à des activités culturelles. En passant devant la médiathèque municipale, elle voit une affiche qui annonce des ateliers gratuits. Elle décide d’entrer pour demander une carte. À l’accueil, un agent lui explique qu’il faut remplir un formulaire et présenter une pièce d’identité ainsi qu’un justificatif de domicile.
 
-Un soir, elle en parle avec Léa. « Si je reste, je vais continuer à progresser en français et je pourrai peut-être étudier dans une université française plus tard », explique Camila. « Mais si je rentre maintenant, je vais retrouver ma famille, mais je vais aussi devoir tout recommencer avec mes amis là-bas, qui ont continué leur vie sans moi. » Léa l''écoute attentivement, puis lui répond : « À mon avis, il n''y a pas de mauvaise décision ici. Si tu restes, on continuera à être amies ; si tu pars, on s''écrira et je viendrai peut-être te rendre visite un jour ! »
+Nora n’a pas son justificatif avec elle. L’agent lui montre le site de la mairie : elle peut y télécharger le formulaire et envoyer certains documents en ligne. Pour terminer l’inscription, elle devra cependant revenir au guichet avec les originaux. Nora demande s’il faut prendre rendez-vous. L’agent répond qu’il n’est pas nécessaire d’en prendre le matin, mais que l’après-midi est souvent plus chargé.
 
-Cette conversation aide Camila à voir la situation plus clairement. Elle réalise que, quelle que soit sa décision, elle ne perdra pas ce qu''elle a construit cette année : une nouvelle langue, de nouveaux amis, une nouvelle façon de voir le monde. Finalement, après avoir longuement réfléchi et parlé avec ses parents au téléphone, elle décide de rentrer à Saint-Domingue à la fin de l''année scolaire, mais avec le projet de revenir étudier en France après le lycée, si tout se passe bien. Léa et Karim promettent de venir la voir un jour dans les Caraïbes, et tous les trois savent que cette amitié durera bien au-delà de cette année d''échange.', '["Quelle décision Camila doit-elle prendre ?","Que lui manque le plus si elle reste en France ?","Quelle décision prend-elle finalement, et avec quel projet ?"]'::jsonb, '["À quelques mois de la fin de son année scolaire à Tours, Camila doit prendre une décision importante : rester une année de plus en France, ou rentrer chez elle, à Saint-Domingue. Ses parents lui ont proposé de prolonger son échange si elle le souhaite vraiment, mais elle hésite. D''un côté, elle adore sa vie à Tours : ses amis Léa et Karim, la famille Lambert, le lycée, et tout ce qu''elle a appris en français. De l''autre côté, sa famille et ses amis d''enfance lui manquent énormément, surtout sa grand-mère, qu''elle n''a pas vue depuis presque un an.","Un soir, elle en parle avec Léa. « Si je reste, je vais continuer à progresser en français et je pourrai peut-être étudier dans une université française plus tard », explique Camila. « Mais si je rentre maintenant, je vais retrouver ma famille, mais je vais aussi devoir tout recommencer avec mes amis là-bas, qui ont continué leur vie sans moi. » Léa l''écoute attentivement, puis lui répond : « À mon avis, il n''y a pas de mauvaise décision ici. Si tu restes, on continuera à être amies ; si tu pars, on s''écrira et je viendrai peut-être te rendre visite un jour ! »","Cette conversation aide Camila à voir la situation plus clairement. Elle réalise que, quelle que soit sa décision, elle ne perdra pas ce qu''elle a construit cette année : une nouvelle langue, de nouveaux amis, une nouvelle façon de voir le monde. Finalement, après avoir longuement réfléchi et parlé avec ses parents au téléphone, elle décide de rentrer à Saint-Domingue à la fin de l''année scolaire, mais avec le projet de revenir étudier en France après le lycée, si tout se passe bien. Léa et Karim promettent de venir la voir un jour dans les Caraïbes, et tous les trois savent que cette amitié durera bien au-delà de cette année d''échange."]'::jsonb, '{"prompt":"Remets les événements de l’histoire dans l’ordre.","events":["Les parents de Camila lui proposent de prolonger son échange.","Camila parle de son hésitation avec Léa un soir.","Camila réfléchit et parle avec ses parents au téléphone.","Elle décide de rentrer, avec le projet de revenir étudier en France plus tard."]}'::jsonb);
+Le lendemain, Nora prépare son dossier. Elle y met son passeport, une facture récente et le formulaire complété. Elle retourne à la médiathèque avant midi. Cette fois, son dossier est complet. Elle reçoit sa carte et emprunte deux romans. Elle s’inscrit aussi à un atelier de conversation qui aura lieu le samedi suivant. Grâce aux explications claires de l’agent, la démarche a été rapide et Nora connaît maintenant un lieu utile dans son quartier.', '["Pourquoi Nora entre-t-elle dans la médiathèque ?","Quels documents doit-elle présenter ?","Que peut-elle télécharger sur le site ?","Pourquoi Nora revient-elle le lendemain ?","Quand le guichet est-il généralement moins chargé ?"]'::jsonb, '["Nora vient de s’installer dans un nouveau quartier de Rennes. Elle aime lire, travailler au calme et participer à des activités culturelles. En passant devant la médiathèque municipale, elle voit une affiche qui annonce des ateliers gratuits. Elle décide d’entrer pour demander une carte. À l’accueil, un agent lui explique qu’il faut remplir un formulaire et présenter une pièce d’identité ainsi qu’un justificatif de domicile.","Nora n’a pas son justificatif avec elle. L’agent lui montre le site de la mairie : elle peut y télécharger le formulaire et envoyer certains documents en ligne. Pour terminer l’inscription, elle devra cependant revenir au guichet avec les originaux. Nora demande s’il faut prendre rendez-vous. L’agent répond qu’il n’est pas nécessaire d’en prendre le matin, mais que l’après-midi est souvent plus chargé.","Le lendemain, Nora prépare son dossier. Elle y met son passeport, une facture récente et le formulaire complété. Elle retourne à la médiathèque avant midi. Cette fois, son dossier est complet. Elle reçoit sa carte et emprunte deux romans. Elle s’inscrit aussi à un atelier de conversation qui aura lieu le samedi suivant. Grâce aux explications claires de l’agent, la démarche a été rapide et Nora connaît maintenant un lieu utile dans son quartier."]'::jsonb, NULL);
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, line)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-projets-et-avenir-listening'), 'intro', 0, 'Écoute la conversation entre Camila et Léa au sujet de la décision de Camila.');
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-services-et-demarches-listening'), 'intro', 0, 'Écoute une première fois pour comprendre la situation, puis une deuxième fois pour vérifier les détails.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-projets-et-avenir-listening'), 'dialogue_line', 0, 'Camila', 'Si je reste, je vais continuer à progresser en français.', 'Si me quedo, voy a seguir progresando en francés.');
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-services-et-demarches-speaking'), 'dialogue_line', 0, 'Usager', 'Bonjour, je voudrais renouveler ma carte. Quels documents faut-il apporter ?', 'Buenos días, quisiera renovar mi tarjeta. ¿Qué documentos hay que llevar?');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-projets-et-avenir-listening'), 'dialogue_line', 1, 'Léa', 'Et si tu pars, tu vas retrouver ta famille.', 'Y si te vas, vas a reencontrarte con tu familia.');
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-services-et-demarches-speaking'), 'dialogue_line', 1, 'Agent', 'Il faut une pièce d’identité et un justificatif de domicile.', 'Se necesita un documento de identidad y un comprobante de domicilio.');
+INSERT INTO public.lesson_sections (lesson_id, type, order_index, word, translation, example)
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-services-et-demarches-vocabulary'), 'vocabulary_item', 0, 'la mairie', 'el ayuntamiento', 'Je vais à la mairie demain.');
+INSERT INTO public.lesson_sections (lesson_id, type, order_index, word, translation, example)
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-services-et-demarches-vocabulary'), 'vocabulary_item', 1, 'un formulaire', 'un formulario', 'Remplissez ce formulaire.');
+INSERT INTO public.lesson_sections (lesson_id, type, order_index, word, translation, example)
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-services-et-demarches-vocabulary'), 'vocabulary_item', 2, 'un dossier', 'un expediente', 'Votre dossier est complet.');
+INSERT INTO public.lesson_sections (lesson_id, type, order_index, word, translation, example)
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-services-et-demarches-vocabulary'), 'vocabulary_item', 3, 'un justificatif de domicile', 'un comprobante de domicilio', 'Apportez un justificatif récent.');
+INSERT INTO public.lesson_sections (lesson_id, type, order_index, word, translation, example)
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-services-et-demarches-vocabulary'), 'vocabulary_item', 4, 'une pièce d’identité', 'un documento de identidad', 'Présentez votre pièce d’identité.');
+INSERT INTO public.lesson_sections (lesson_id, type, order_index, word, translation, example)
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-services-et-demarches-vocabulary'), 'vocabulary_item', 5, 'le guichet', 'la ventanilla', 'Le guichet ouvre à neuf heures.');
+INSERT INTO public.lesson_sections (lesson_id, type, order_index, word, translation, example)
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-services-et-demarches-vocabulary'), 'vocabulary_item', 6, 'prendre rendez-vous', 'pedir una cita', 'Il faut prendre rendez-vous en ligne.');
+INSERT INTO public.lesson_sections (lesson_id, type, order_index, word, translation, example)
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-services-et-demarches-vocabulary'), 'vocabulary_item', 7, 'renouveler', 'renovar', 'Je dois renouveler ma carte.');
+INSERT INTO public.lesson_sections (lesson_id, type, order_index, line)
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-services-et-demarches-dialogue'), 'intro', 0, 'Au guichet, un usager découvre qu’il manque un document.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-projets-et-avenir-listening'), 'dialogue_line', 2, 'Camila', 'C’est vrai, mais je vais devoir tout recommencer avec mes amis là-bas.', 'Es verdad, pero voy a tener que empezar de nuevo con mis amigos allá.');
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-services-et-demarches-dialogue'), 'dialogue_line', 0, 'Agent', 'Votre formulaire est rempli, mais il manque un justificatif de domicile.', 'Su formulario está completo, pero falta un comprobante de domicilio.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-projets-et-avenir-listening'), 'dialogue_line', 3, 'Léa', 'À mon avis, il n’y a pas de mauvaise décision.', 'En mi opinión, no hay una mala decisión aquí.');
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-services-et-demarches-dialogue'), 'dialogue_line', 1, 'Usager', 'Je peux vous l’envoyer en ligne cet après-midi ?', '¿Puedo enviárselo en línea esta tarde?');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-projets-et-avenir-listening'), 'dialogue_line', 4, 'Camila', 'Merci, Léa. Ça m’aide vraiment d’en parler avec toi.', 'Gracias, Léa. Realmente me ayuda hablar de esto contigo.');
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-services-et-demarches-dialogue'), 'dialogue_line', 2, 'Agent', 'Oui, vous pouvez le déposer dans votre espace personnel.', 'Sí, puede subirlo a su espacio personal.');
+INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-services-et-demarches-dialogue'), 'dialogue_line', 3, 'Usager', 'Parfait, je vais le faire dès mon retour.', 'Perfecto, lo haré en cuanto regrese.');
+INSERT INTO public.lesson_sections (lesson_id, type, order_index, reading_title, reading_text, reading_questions, reading_parts, reading_ordering)
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-projets-solidaires-reading'), 'reading', 0, 'Un samedi pour partager', 'Dans le quartier des Fleurs, une petite association prépare une journée solidaire. Plusieurs familles ont besoin de vêtements chauds et de matériel scolaire avant l’hiver. Lina, une étudiante qui fait du bénévolat, propose d’organiser une collecte le samedi suivant. Elle réserve la salle du centre culturel et publie une invitation sur les réseaux sociaux du quartier.
+
+Pendant la réunion, les bénévoles répartissent les tâches. On pourrait installer une table pour les vêtements, une autre pour les cahiers et les livres, suggère Lina. Hugo va préparer des affiches, Samira va contacter les écoles et Monsieur Petit va chercher des cartons. L’association demande aux habitants d’apporter uniquement des objets propres et en bon état. Elle précise aussi qu’un petit don financier est possible, mais jamais obligatoire.
+
+Le samedi, beaucoup de personnes participent. Les bénévoles trient les dons, notent les quantités et préparent des sacs adaptés à chaque famille. À la fin de la journée, ils ont collecté cent vingt vêtements, quatre-vingts livres et de nombreuses fournitures scolaires. Lina remercie tout le monde et propose une nouvelle action pour le printemps. Les habitants repartent fatigués, mais heureux d’avoir réalisé ensemble un projet utile.', '["Quel est l’objectif de la journée ?","Où la collecte a-t-elle lieu ?","Que va préparer Hugo ?","Quels objets l’association accepte-t-elle ?","Le don financier est-il obligatoire ?"]'::jsonb, '["Dans le quartier des Fleurs, une petite association prépare une journée solidaire. Plusieurs familles ont besoin de vêtements chauds et de matériel scolaire avant l’hiver. Lina, une étudiante qui fait du bénévolat, propose d’organiser une collecte le samedi suivant. Elle réserve la salle du centre culturel et publie une invitation sur les réseaux sociaux du quartier.","Pendant la réunion, les bénévoles répartissent les tâches. On pourrait installer une table pour les vêtements, une autre pour les cahiers et les livres, suggère Lina. Hugo va préparer des affiches, Samira va contacter les écoles et Monsieur Petit va chercher des cartons. L’association demande aux habitants d’apporter uniquement des objets propres et en bon état. Elle précise aussi qu’un petit don financier est possible, mais jamais obligatoire.","Le samedi, beaucoup de personnes participent. Les bénévoles trient les dons, notent les quantités et préparent des sacs adaptés à chaque famille. À la fin de la journée, ils ont collecté cent vingt vêtements, quatre-vingts livres et de nombreuses fournitures scolaires. Lina remercie tout le monde et propose une nouvelle action pour le printemps. Les habitants repartent fatigués, mais heureux d’avoir réalisé ensemble un projet utile."]'::jsonb, NULL);
+INSERT INTO public.lesson_sections (lesson_id, type, order_index, line)
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-projets-solidaires-listening'), 'intro', 0, 'Écoute une première fois pour comprendre la situation, puis une deuxième fois pour vérifier les détails.');
+INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-projets-solidaires-speaking'), 'dialogue_line', 0, 'Organisateur', 'On pourrait organiser une collecte de livres samedi.', 'Podríamos organizar una colecta de libros el sábado.');
+INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-projets-solidaires-speaking'), 'dialogue_line', 1, 'Bénévole', 'Bonne idée. Je pourrais préparer les affiches.', 'Buena idea. Yo podría preparar los carteles.');
+INSERT INTO public.lesson_sections (lesson_id, type, order_index, word, translation, example)
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-projets-solidaires-vocabulary'), 'vocabulary_item', 0, 'une collecte', 'una colecta', 'Nous organisons une collecte de livres.');
+INSERT INTO public.lesson_sections (lesson_id, type, order_index, word, translation, example)
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-projets-solidaires-vocabulary'), 'vocabulary_item', 1, 'un bénévole', 'un voluntario', 'Les bénévoles arrivent à neuf heures.');
+INSERT INTO public.lesson_sections (lesson_id, type, order_index, word, translation, example)
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-projets-solidaires-vocabulary'), 'vocabulary_item', 2, 'faire un don', 'hacer una donación', 'Vous pouvez faire un don en ligne.');
+INSERT INTO public.lesson_sections (lesson_id, type, order_index, word, translation, example)
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-projets-solidaires-vocabulary'), 'vocabulary_item', 3, 'distribuer', 'distribuir', 'Nous allons distribuer les vêtements.');
+INSERT INTO public.lesson_sections (lesson_id, type, order_index, word, translation, example)
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-projets-solidaires-vocabulary'), 'vocabulary_item', 4, 'trier', 'clasificar', 'Il faut trier les objets.');
+INSERT INTO public.lesson_sections (lesson_id, type, order_index, word, translation, example)
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-projets-solidaires-vocabulary'), 'vocabulary_item', 5, 'participer', 'participar', 'Tout le quartier peut participer.');
+INSERT INTO public.lesson_sections (lesson_id, type, order_index, word, translation, example)
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-projets-solidaires-vocabulary'), 'vocabulary_item', 6, 'une association', 'una asociación', 'Cette association aide les familles.');
+INSERT INTO public.lesson_sections (lesson_id, type, order_index, word, translation, example)
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-projets-solidaires-vocabulary'), 'vocabulary_item', 7, 'en bon état', 'en buen estado', 'Apportez des livres en bon état.');
+INSERT INTO public.lesson_sections (lesson_id, type, order_index, line)
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-projets-solidaires-dialogue'), 'intro', 0, 'Lina et Hugo décident qui va préparer chaque élément.');
+INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-projets-solidaires-dialogue'), 'dialogue_line', 0, 'Lina', 'Tu pourrais préparer les affiches pour la collecte ?', '¿Podrías preparar los carteles para la colecta?');
+INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-projets-solidaires-dialogue'), 'dialogue_line', 1, 'Hugo', 'Oui, bien sûr. Et toi, tu pourrais contacter les écoles ?', 'Sí, claro. ¿Y tú podrías contactar a las escuelas?');
+INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-projets-solidaires-dialogue'), 'dialogue_line', 2, 'Lina', 'D’accord. Je vais aussi réserver la salle.', 'De acuerdo. También voy a reservar la sala.');
+INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-projets-solidaires-dialogue'), 'dialogue_line', 3, 'Hugo', 'Parfait, notre projet avance bien.', 'Perfecto, nuestro proyecto avanza bien.');
+INSERT INTO public.lesson_sections (lesson_id, type, order_index, reading_title, reading_text, reading_questions, reading_parts, reading_ordering)
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-projets-et-avenir-reading'), 'reading', 0, 'Construire un projet d’avenir', 'Un projet d’avenir devient plus clair lorsqu’on distingue le but final et les étapes nécessaires pour y parvenir. Une personne qui souhaite étudier, travailler ou s’installer dans un autre pays peut d’abord identifier les compétences, les documents et les ressources dont elle aura besoin. Les conseillers d’orientation le rappellent souvent : si on écrit un objectif de façon vague, on aura beaucoup de mal à savoir par où commencer. À l’inverse, si on le formule de façon précise, chaque étape suivante deviendra plus facile à planifier.
+
+Les centres d’information jeunesse, présents dans la plupart des grandes villes françaises, reçoivent chaque année des milliers de lycéens et d’étudiants qui hésitent entre plusieurs voies. Leur méthode est presque toujours la même : elle consiste à fixer des objectifs mesurables et à les revoir régulièrement. Si un jeune veut étudier à l’étranger, un conseiller l’aidera à établir un calendrier réaliste, avec les délais d’inscription, les tests de langue et les demandes de bourse. Ce calendrier ne sera utile que si on le consulte souvent, car les dates limites changent parfois d’une année à l’autre.
+
+Les études montrent aussi qu’un projet trop rigide s’effondre facilement dès qu’un imprévu survient. C’est pourquoi les conseillers recommandent de prévoir, dès le départ, un plan B : si la première option ne fonctionne pas, quelle autre voie restera possible ? Cette flexibilité ne signifie pas qu’on manque d’ambition ; elle permet au contraire de continuer à avancer même quand les circonstances changent, par exemple en cas de refus de dossier ou de changement financier dans la famille.
+
+Prévoir ne signifie donc pas tout contrôler à l’avance. Selon les spécialistes de l’orientation, un bon projet d’avenir combine trois éléments simples : une action concrète à réaliser cette semaine, une échéance réaliste dans les prochains mois, et la volonté de demander conseil lorsque c’est utile. Si l’on applique ces trois principes avec régularité, la plupart des grands projets, même les plus ambitieux, deviendront progressivement accessibles, une étape après l’autre.', '["Selon le texte, que doit-on faire en premier pour clarifier un projet d’avenir ?","Que font les centres d’information jeunesse, selon le texte ?","Pourquoi le calendrier doit-il être consulté souvent ?","Pourquoi les conseillers recommandent-ils de prévoir un plan B ?","Selon les spécialistes, quels sont les trois éléments d’un bon projet d’avenir ?"]'::jsonb, '["Un projet d’avenir devient plus clair lorsqu’on distingue le but final et les étapes nécessaires pour y parvenir. Une personne qui souhaite étudier, travailler ou s’installer dans un autre pays peut d’abord identifier les compétences, les documents et les ressources dont elle aura besoin. Les conseillers d’orientation le rappellent souvent : si on écrit un objectif de façon vague, on aura beaucoup de mal à savoir par où commencer. À l’inverse, si on le formule de façon précise, chaque étape suivante deviendra plus facile à planifier.","Les centres d’information jeunesse, présents dans la plupart des grandes villes françaises, reçoivent chaque année des milliers de lycéens et d’étudiants qui hésitent entre plusieurs voies. Leur méthode est presque toujours la même : elle consiste à fixer des objectifs mesurables et à les revoir régulièrement. Si un jeune veut étudier à l’étranger, un conseiller l’aidera à établir un calendrier réaliste, avec les délais d’inscription, les tests de langue et les demandes de bourse. Ce calendrier ne sera utile que si on le consulte souvent, car les dates limites changent parfois d’une année à l’autre.","Les études montrent aussi qu’un projet trop rigide s’effondre facilement dès qu’un imprévu survient. C’est pourquoi les conseillers recommandent de prévoir, dès le départ, un plan B : si la première option ne fonctionne pas, quelle autre voie restera possible ? Cette flexibilité ne signifie pas qu’on manque d’ambition ; elle permet au contraire de continuer à avancer même quand les circonstances changent, par exemple en cas de refus de dossier ou de changement financier dans la famille.","Prévoir ne signifie donc pas tout contrôler à l’avance. Selon les spécialistes de l’orientation, un bon projet d’avenir combine trois éléments simples : une action concrète à réaliser cette semaine, une échéance réaliste dans les prochains mois, et la volonté de demander conseil lorsque c’est utile. Si l’on applique ces trois principes avec régularité, la plupart des grands projets, même les plus ambitieux, deviendront progressivement accessibles, une étape après l’autre."]'::jsonb, NULL);
+INSERT INTO public.lesson_sections (lesson_id, type, order_index, line)
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-projets-et-avenir-listening'), 'intro', 0, 'Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-projets-et-avenir-speaking'), 'dialogue_line', 0, 'Toi', 'D’un côté, si je reste, je vais progresser encore plus. De l’autre côté, si je pars, je vais retrouver ma famille.', 'Por un lado, si me quedo, voy a progresar aún más. Por otro lado, si me voy, voy a reencontrarme con mi familia.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
@@ -2545,23 +2711,15 @@ VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-projets-et
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-projets-et-avenir-dialogue'), 'dialogue_line', 3, 'Léa', 'Et qui sait, peut-être que tu reviendras étudier ici un jour.', 'Y quién sabe, quizás vuelvas a estudiar aquí algún día.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, reading_title, reading_text, reading_questions, reading_parts, reading_ordering)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-identite-et-parcours-personnel-reading'), 'reading', 0, 'Comment j’ai changé', 'Avant, quand j''étais à Saint-Domingue, j''étais une personne plutôt timide. Je parlais peu en public, et l''idée de déménager seule dans un autre pays me terrifiait. Je passais mon temps libre avec le même petit groupe d''amies depuis l''école primaire, et je n''aimais pas beaucoup sortir de ma zone de confort. Ma famille et mes professeurs disaient souvent que j''étais « la fille sage et discrète » de la classe.
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-identite-et-parcours-personnel-reading'), 'reading', 0, 'Identité et parcours personnel', 'L’identité d’une personne ne se résume ni à une nationalité ni à une seule langue. Les chercheurs en psychologie sociale rappellent régulièrement que la famille, les études, les voyages, le quartier et les rencontres participent tous à la manière dont chacun se décrit. Avant même de partir vivre ailleurs, une personne possédait déjà plusieurs facettes d’identité : elle était peut-être élève, sportive, membre d’une association, tout en appartenant à une culture familiale précise. Ces différentes appartenances ne disparaissent pas quand une nouvelle expérience s’ajoute ; elles se combinent.
 
-Depuis mon arrivée en France, il y a maintenant huit mois, j''ai beaucoup changé. Au début, c''était très difficile : je ne comprenais presque rien en français, et je me sentais souvent seule, même entourée de la famille Lambert. Mais petit à petit, j''ai commencé à prendre confiance en moi. J''ai dû parler français tous les jours, poser des questions même quand j''avais peur de me tromper, et me faire de nouveaux amis dans une culture complètement différente de la mienne.
+Vivre entre plusieurs cultures, par exemple lors d’une mobilité étudiante ou d’une immigration, demande souvent des ajustements concrets : choisir une langue dans une conversation, expliquer une tradition à des personnes qui ne la connaissent pas, ou répondre à des questions répétées sur ses origines. Des enquêtes menées auprès de jeunes ayant vécu une mobilité internationale montrent que la majorité d’entre eux décrivaient leur identité comme « plurielle » plutôt que « divisée » : ils ne sentaient pas qu’il fallait choisir une seule appartenance, mais plutôt qu’ils avaient gagné une nouvelle dimension.
 
-Aujourd''hui, je suis une personne beaucoup plus sûre d''elle. Je participe activement en classe, je n''ai plus peur de faire des erreurs quand je parle, et j''ai appris à sortir de ma zone de confort régulièrement. Mes amis français, Léa et Karim, disent en riant que je suis devenue « plus bavarde qu''eux » ! Ce voyage m''a appris que le changement est parfois difficile, mais qu''il nous rend plus forts. Je ne suis plus la même personne qu''avant mon départ, et je pense que c''est une très bonne chose.
+Cette pluralité peut néanmoins créer des tensions, en particulier lorsque l’entourage pose sans cesse la même question : « Mais tu es d’où, vraiment ? » Les spécialistes de l’interculturalité expliquent que cette question, bien qu’en général posée avec curiosité, peut donner l’impression qu’il faut absolument se ranger dans une seule catégorie. Reconnaître la pluralité des parcours, au contraire, aide à mieux écouter les autres et à comprendre que l’identité évolue tout au long de la vie, sans qu’il y ait besoin de renoncer à une partie de soi-même.
 
-Quand je repense à la Camila timide qui est arrivée à l''aéroport de Paris il y a huit mois, j''ai presque du mal à me reconnaître. Bien sûr, il me reste encore des progrès à faire en français, et il y aura sans doute d''autres défis à surmonter avant la fin de l''année scolaire. Mais je sais maintenant que je suis capable de m''adapter à des situations nouvelles, même difficiles. Cette confiance en moi, je la garderai bien après mon retour à Saint-Domingue.', '["Comment Camila se décrivait-elle avant son départ pour la France ?","Quelles difficultés a-t-elle rencontrées au début de son séjour ?","Comment Camila a-t-elle changé depuis son arrivée en France ?"]'::jsonb, '["Avant, quand j''étais à Saint-Domingue, j''étais une personne plutôt timide. Je parlais peu en public, et l''idée de déménager seule dans un autre pays me terrifiait. Je passais mon temps libre avec le même petit groupe d''amies depuis l''école primaire, et je n''aimais pas beaucoup sortir de ma zone de confort. Ma famille et mes professeurs disaient souvent que j''étais « la fille sage et discrète » de la classe.","Depuis mon arrivée en France, il y a maintenant huit mois, j''ai beaucoup changé. Au début, c''était très difficile : je ne comprenais presque rien en français, et je me sentais souvent seule, même entourée de la famille Lambert. Mais petit à petit, j''ai commencé à prendre confiance en moi. J''ai dû parler français tous les jours, poser des questions même quand j''avais peur de me tromper, et me faire de nouveaux amis dans une culture complètement différente de la mienne.","Aujourd''hui, je suis une personne beaucoup plus sûre d''elle. Je participe activement en classe, je n''ai plus peur de faire des erreurs quand je parle, et j''ai appris à sortir de ma zone de confort régulièrement. Mes amis français, Léa et Karim, disent en riant que je suis devenue « plus bavarde qu''eux » ! Ce voyage m''a appris que le changement est parfois difficile, mais qu''il nous rend plus forts. Je ne suis plus la même personne qu''avant mon départ, et je pense que c''est une très bonne chose.","Quand je repense à la Camila timide qui est arrivée à l''aéroport de Paris il y a huit mois, j''ai presque du mal à me reconnaître. Bien sûr, il me reste encore des progrès à faire en français, et il y aura sans doute d''autres défis à surmonter avant la fin de l''année scolaire. Mais je sais maintenant que je suis capable de m''adapter à des situations nouvelles, même difficiles. Cette confiance en moi, je la garderai bien après mon retour à Saint-Domingue."]'::jsonb, '{"prompt":"Remets les étapes du parcours de Camila dans l’ordre.","events":["Camila était une personne timide à Saint-Domingue.","Au début en France, elle se sentait seule et perdue.","Petit à petit, elle a pris confiance en elle.","Aujourd’hui, elle est devenue une personne plus sûre d’elle."]}'::jsonb);
+Une société qui reconnaît cette diversité de parcours permet aux personnes de participer pleinement sans abandonner leur histoire personnelle. C’est le cas dans de nombreux établissements scolaires qui organisent aujourd’hui des projets interculturels, où les élèves présentent une tradition familiale, une langue ou une recette venue d’ailleurs. Ces initiatives montrent que l’identité ne se construit pas contre une culture d’origine, mais plutôt à travers l’accumulation d’expériences qui, ensemble, forment un parcours unique.', '["Selon le texte, à quoi se résume l’identité d’une personne ?","Que montrent les enquêtes menées auprès de jeunes ayant vécu une mobilité internationale ?","Quelle question peut créer une tension, selon les spécialistes de l’interculturalité ?","Pourquoi cette question peut-elle être problématique ?","Que font certains établissements scolaires pour valoriser la pluralité des parcours ?"]'::jsonb, '["L’identité d’une personne ne se résume ni à une nationalité ni à une seule langue. Les chercheurs en psychologie sociale rappellent régulièrement que la famille, les études, les voyages, le quartier et les rencontres participent tous à la manière dont chacun se décrit. Avant même de partir vivre ailleurs, une personne possédait déjà plusieurs facettes d’identité : elle était peut-être élève, sportive, membre d’une association, tout en appartenant à une culture familiale précise. Ces différentes appartenances ne disparaissent pas quand une nouvelle expérience s’ajoute ; elles se combinent.","Vivre entre plusieurs cultures, par exemple lors d’une mobilité étudiante ou d’une immigration, demande souvent des ajustements concrets : choisir une langue dans une conversation, expliquer une tradition à des personnes qui ne la connaissent pas, ou répondre à des questions répétées sur ses origines. Des enquêtes menées auprès de jeunes ayant vécu une mobilité internationale montrent que la majorité d’entre eux décrivaient leur identité comme « plurielle » plutôt que « divisée » : ils ne sentaient pas qu’il fallait choisir une seule appartenance, mais plutôt qu’ils avaient gagné une nouvelle dimension.","Cette pluralité peut néanmoins créer des tensions, en particulier lorsque l’entourage pose sans cesse la même question : « Mais tu es d’où, vraiment ? » Les spécialistes de l’interculturalité expliquent que cette question, bien qu’en général posée avec curiosité, peut donner l’impression qu’il faut absolument se ranger dans une seule catégorie. Reconnaître la pluralité des parcours, au contraire, aide à mieux écouter les autres et à comprendre que l’identité évolue tout au long de la vie, sans qu’il y ait besoin de renoncer à une partie de soi-même.","Une société qui reconnaît cette diversité de parcours permet aux personnes de participer pleinement sans abandonner leur histoire personnelle. C’est le cas dans de nombreux établissements scolaires qui organisent aujourd’hui des projets interculturels, où les élèves présentent une tradition familiale, une langue ou une recette venue d’ailleurs. Ces initiatives montrent que l’identité ne se construit pas contre une culture d’origine, mais plutôt à travers l’accumulation d’expériences qui, ensemble, forment un parcours unique."]'::jsonb, NULL);
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, line)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-identite-et-parcours-personnel-listening'), 'intro', 0, 'Écoute Camila expliquer à Karim comment elle était avant de venir en France.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-identite-et-parcours-personnel-listening'), 'dialogue_line', 0, 'Karim', 'Tu étais comment, avant de venir en France ?', '¿Cómo eras antes de venir a Francia?');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-identite-et-parcours-personnel-listening'), 'dialogue_line', 1, 'Camila', 'J’étais beaucoup plus timide, je parlais très peu en public.', 'Era mucho más tímida, hablaba muy poco en público.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-identite-et-parcours-personnel-listening'), 'dialogue_line', 2, 'Karim', 'Vraiment ? Je n’aurais jamais deviné !', '¿En serio? ¡Nunca lo hubiera adivinado!');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-identite-et-parcours-personnel-listening'), 'dialogue_line', 3, 'Camila', 'Oui, j’ai beaucoup changé depuis mon arrivée ici.', 'Sí, he cambiado mucho desde que llegué aquí.');
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-identite-et-parcours-personnel-listening'), 'intro', 0, 'Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-identite-et-parcours-personnel-speaking'), 'dialogue_line', 0, 'Toi', 'Avant, j’avais peur de parler en public. Maintenant, je suis beaucoup plus confiant(e), grâce à la pratique.', 'Antes tenía miedo de hablar en público. Ahora soy mucho más seguro/a, gracias a la práctica.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
@@ -2587,25 +2745,15 @@ VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-identite-e
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-identite-et-parcours-personnel-dialogue'), 'dialogue_line', 3, 'Camila', 'C’est grâce à vous tous. Vous m’avez beaucoup aidée.', 'Es gracias a todos ustedes. Me han ayudado mucho.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, reading_title, reading_text, reading_questions, reading_parts, reading_ordering)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-etudes-et-apprentissage-reading'), 'reading', 0, 'Réviser pour l’examen', 'Camila a un examen de mathématiques important dans une semaine, et elle est très inquiète. « Je comprends les explications en classe, mais dès que je suis seule pour faire les exercices, j''ai l''impression de tout oublier », explique-t-elle à Karim pendant la pause déjeuner. Karim, qui a toujours de très bonnes notes en mathématiques, lui propose de l''aider. « À ta place, je commencerais par refaire les exercices les plus simples, pour bien comprendre la base avant de passer aux exercices difficiles », suggère-t-il.
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-etudes-et-apprentissage-reading'), 'reading', 0, 'Apprendre de façon active', 'Lire un cours une seule fois ne suffit pas toujours pour le retenir durablement. Les spécialistes des sciences cognitives recommandent plutôt de reformuler une idée avec ses propres mots, de se poser des questions sur le contenu, et d’y revenir après un certain temps plutôt que de tout réviser la veille d’un examen. Cette méthode, appelée « rappel actif », oblige le cerveau à retrouver l’information lui-même, ce qui renforce la mémoire beaucoup plus efficacement qu’une simple relecture passive.
 
-Camila décide de suivre son conseil. Chaque soir, en rentrant de l''école, elle passe trente minutes à réviser calmement, en refaisant d''abord les exercices simples, puis en essayant progressivement des exercices plus complexes. Karim lui montre aussi une technique utile : en expliquant à voix haute comment résoudre un problème, on comprend souvent mieux qu''en le lisant silencieusement. Camila trouve cette méthode très efficace, même si elle se sent un peu ridicule à parler toute seule dans sa chambre au début !
+Le travail en groupe peut aussi être utile, à condition que chaque personne prépare une partie du contenu et explique son raisonnement aux autres. À ta place, un bon élève commencerait par les notions les plus simples avant de passer aux exercices complexes, car cette progression permet de construire une base solide. Expliquer un problème à voix haute, même seul dans sa chambre, révèle souvent ce qui reste flou : si on n’arrive pas à formuler clairement une explication, c’est en général le signe qu’il faut retravailler cette partie du cours.
 
-Après une semaine de révisions régulières, Camila se sent beaucoup plus confiante. Le jour de l''examen, elle reconnaît plusieurs types d''exercices qu''elle a pratiqués et parvient à les résoudre sans trop de difficulté. Quelques jours plus tard, elle reçoit sa note : dix-sept sur vingt, sa meilleure note de l''année en mathématiques ! Elle remercie chaleureusement Karim pour ses conseils et comprend maintenant qu''avec une bonne méthode et de la régularité, même les matières les plus difficiles deviennent plus faciles à maîtriser.
+Le retour d’un enseignant ou d’un camarade joue également un rôle important. Un commentaire précis, comme « revois la formule utilisée à l’étape trois », aide beaucoup plus qu’un simple « continue tes efforts ». Les chercheurs en pédagogie insistent sur ce point : plus le retour est concret, plus il devient facile de savoir exactement quoi améliorer avant la prochaine évaluation. Sans ce type de retour, un élève peut répéter la même erreur pendant des semaines sans même s’en rendre compte.
 
-Depuis cette expérience, Camila applique la même méthode à ses autres matières : le français, l''histoire, et même les sciences. Elle a compris que la difficulté n''était pas dans la matière elle-même, mais dans sa façon d''étudier auparavant. Elle propose maintenant à son tour d''aider d''autres élèves qui rencontrent des difficultés similaires, en leur transmettant les conseils que Karim lui avait donnés. Comme elle le dit souvent : « Un bon conseil, ça se partage ! »', '["Quelle difficulté Camila rencontre-t-elle avec les mathématiques ?","Quel conseil Karim lui donne-t-il ?","Quel résultat Camila obtient-elle à l’examen ?"]'::jsonb, '["Camila a un examen de mathématiques important dans une semaine, et elle est très inquiète. « Je comprends les explications en classe, mais dès que je suis seule pour faire les exercices, j''ai l''impression de tout oublier », explique-t-elle à Karim pendant la pause déjeuner. Karim, qui a toujours de très bonnes notes en mathématiques, lui propose de l''aider. « À ta place, je commencerais par refaire les exercices les plus simples, pour bien comprendre la base avant de passer aux exercices difficiles », suggère-t-il.","Camila décide de suivre son conseil. Chaque soir, en rentrant de l''école, elle passe trente minutes à réviser calmement, en refaisant d''abord les exercices simples, puis en essayant progressivement des exercices plus complexes. Karim lui montre aussi une technique utile : en expliquant à voix haute comment résoudre un problème, on comprend souvent mieux qu''en le lisant silencieusement. Camila trouve cette méthode très efficace, même si elle se sent un peu ridicule à parler toute seule dans sa chambre au début !","Après une semaine de révisions régulières, Camila se sent beaucoup plus confiante. Le jour de l''examen, elle reconnaît plusieurs types d''exercices qu''elle a pratiqués et parvient à les résoudre sans trop de difficulté. Quelques jours plus tard, elle reçoit sa note : dix-sept sur vingt, sa meilleure note de l''année en mathématiques ! Elle remercie chaleureusement Karim pour ses conseils et comprend maintenant qu''avec une bonne méthode et de la régularité, même les matières les plus difficiles deviennent plus faciles à maîtriser.","Depuis cette expérience, Camila applique la même méthode à ses autres matières : le français, l''histoire, et même les sciences. Elle a compris que la difficulté n''était pas dans la matière elle-même, mais dans sa façon d''étudier auparavant. Elle propose maintenant à son tour d''aider d''autres élèves qui rencontrent des difficultés similaires, en leur transmettant les conseils que Karim lui avait donnés. Comme elle le dit souvent : « Un bon conseil, ça se partage ! »"]'::jsonb, '{"prompt":"Remets les événements dans l’ordre.","events":["Camila explique sa difficulté en mathématiques à Karim.","Karim lui conseille de commencer par les exercices simples.","Camila révise régulièrement chaque soir pendant une semaine.","Camila obtient sa meilleure note de l’année à l’examen."]}'::jsonb);
+Apprendre activement demande donc de la régularité, plutôt qu’une perfection immédiate. Une courte séance de vingt à trente minutes, bien organisée autour d’un objectif précis, sera souvent plus efficace qu’une longue soirée de révision sans plan clair. Les enseignants qui appliquent ces méthodes en classe rapportent que leurs élèves progressent plus rapidement, et surtout, retiennent l’information beaucoup plus longtemps après l’évaluation.', '["Pourquoi la simple relecture d’un cours est-elle jugée insuffisante ?","Qu’est-ce que le « rappel actif » ?","Que révèle le fait d’expliquer un problème à voix haute ?","Quel type de retour est le plus utile, selon les chercheurs en pédagogie ?","Que recommande le texte pour organiser ses révisions ?"]'::jsonb, '["Lire un cours une seule fois ne suffit pas toujours pour le retenir durablement. Les spécialistes des sciences cognitives recommandent plutôt de reformuler une idée avec ses propres mots, de se poser des questions sur le contenu, et d’y revenir après un certain temps plutôt que de tout réviser la veille d’un examen. Cette méthode, appelée « rappel actif », oblige le cerveau à retrouver l’information lui-même, ce qui renforce la mémoire beaucoup plus efficacement qu’une simple relecture passive.","Le travail en groupe peut aussi être utile, à condition que chaque personne prépare une partie du contenu et explique son raisonnement aux autres. À ta place, un bon élève commencerait par les notions les plus simples avant de passer aux exercices complexes, car cette progression permet de construire une base solide. Expliquer un problème à voix haute, même seul dans sa chambre, révèle souvent ce qui reste flou : si on n’arrive pas à formuler clairement une explication, c’est en général le signe qu’il faut retravailler cette partie du cours.","Le retour d’un enseignant ou d’un camarade joue également un rôle important. Un commentaire précis, comme « revois la formule utilisée à l’étape trois », aide beaucoup plus qu’un simple « continue tes efforts ». Les chercheurs en pédagogie insistent sur ce point : plus le retour est concret, plus il devient facile de savoir exactement quoi améliorer avant la prochaine évaluation. Sans ce type de retour, un élève peut répéter la même erreur pendant des semaines sans même s’en rendre compte.","Apprendre activement demande donc de la régularité, plutôt qu’une perfection immédiate. Une courte séance de vingt à trente minutes, bien organisée autour d’un objectif précis, sera souvent plus efficace qu’une longue soirée de révision sans plan clair. Les enseignants qui appliquent ces méthodes en classe rapportent que leurs élèves progressent plus rapidement, et surtout, retiennent l’information beaucoup plus longtemps après l’évaluation."]'::jsonb, NULL);
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, line)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-etudes-et-apprentissage-listening'), 'intro', 0, 'Écoute la conversation entre Karim et Camila au sujet des révisions.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-etudes-et-apprentissage-listening'), 'dialogue_line', 0, 'Camila', 'J’ai l’impression de tout oublier quand je suis seule pour réviser.', 'Tengo la impresión de olvidarlo todo cuando estoy sola para repasar.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-etudes-et-apprentissage-listening'), 'dialogue_line', 1, 'Karim', 'À ta place, je commencerais par les exercices les plus simples.', 'Yo en tu lugar empezaría por los ejercicios más simples.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-etudes-et-apprentissage-listening'), 'dialogue_line', 2, 'Camila', 'D’accord, et ensuite ?', 'De acuerdo, ¿y luego?');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-etudes-et-apprentissage-listening'), 'dialogue_line', 3, 'Karim', 'Essaie d’expliquer à voix haute comment tu résous chaque problème.', 'Intenta explicar en voz alta cómo resuelves cada problema.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-etudes-et-apprentissage-listening'), 'dialogue_line', 4, 'Camila', 'Bonne idée, je vais essayer ce soir !', '¡Buena idea, lo voy a intentar esta noche!');
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-etudes-et-apprentissage-listening'), 'intro', 0, 'Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-etudes-et-apprentissage-speaking'), 'dialogue_line', 0, 'Toi', 'À ta place, je réviserais un peu chaque jour, plutôt que tout la veille de l’examen.', 'Yo en tu lugar repasaría un poco cada día, en vez de todo la víspera del examen.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
@@ -2631,23 +2779,15 @@ VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-etudes-et-
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-etudes-et-apprentissage-dialogue'), 'dialogue_line', 3, 'Karim', 'De rien ! C’est toi qui as fait tout le travail.', '¡De nada! Fuiste tú quien hizo todo el trabajo.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, reading_title, reading_text, reading_questions, reading_parts, reading_ordering)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-monde-du-travail-reading'), 'reading', 0, 'Se préparer à un entretien', 'Karim a postulé pour un stage d''été à la bibliothèque municipale de Tours, et il a été convoqué pour un entretien la semaine prochaine. C''est son premier entretien d''embauche, et il est très nerveux. « Je ne sais pas quoi répondre s''ils me demandent pourquoi je veux ce stage », avoue-t-il à Camila pendant la pause. Camila, qui a déjà préparé un entretien pour un club de bénévolat, décide de l''aider à s''entraîner.
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-monde-du-travail-reading'), 'reading', 0, 'Comprendre une offre d’emploi', 'Une offre d’emploi ou de stage présente généralement des missions, des compétences attendues et des conditions de travail. Avant de postuler, il est utile de relever les tâches essentielles et de comparer son expérience avec les critères demandés. Si une annonce mentionne plusieurs compétences que le candidat ne possède pas encore, cela ne signifie pas nécessairement qu’il faut renoncer : il vaudrait mieux, dans ce cas, expliquer clairement sa motivation à apprendre plutôt que de rester silencieux sur ce point.
 
-« D''abord, il faut que tu expliques clairement tes motivations », explique Camila. « Par exemple, tu pourrais dire que tu adores lire et que tu voudrais aider les autres à découvrir de bons livres. » Ensemble, ils préparent aussi des réponses aux questions les plus courantes : « Quelles sont vos qualités ? » et « Pourquoi devrions-nous vous choisir vous, plutôt qu''un autre candidat ? » Karim s''entraîne à répondre calmement, en utilisant un langage plus formel que d''habitude.
+Les conseillers en insertion professionnelle recommandent de préparer une candidature qui donne des exemples concrets : un projet mené à terme, une difficulté résolue en équipe, ou une compétence acquise pendant une formation ou un stage précédent. Les recruteurs le confirment régulièrement dans les enquêtes sur le recrutement des jeunes : ils n’attendent pas que chaque candidat ait une expérience identique, mais ils recherchent une préparation sérieuse et une compréhension réaliste du poste proposé.
 
-Camila lui rappelle aussi l''importance de la politesse dans ce contexte : utiliser « vous » plutôt que « tu », dire « je voudrais » plutôt que « je veux », et remercier la personne à la fin de l''entretien. Le jour de l''entretien, Karim se sent bien préparé grâce à cet entraînement. Une semaine plus tard, il reçoit un e-mail : il a obtenu le stage ! Il remercie chaleureusement Camila pour son aide précieuse, sans laquelle, dit-il, il n''aurait probablement pas été aussi confiant devant le recruteur.
+L’entretien d’embauche sert également à poser des questions sur l’équipe, les horaires, l’accompagnement proposé aux nouveaux arrivants et les possibilités d’évolution. Dans un contexte professionnel, on préfère généralement un langage plus formel : on dira « je voudrais » plutôt que « je veux », et « pourriez-vous » plutôt que « peux-tu ». Ce registre poli n’est pas une simple formalité ; il montre au recruteur que le candidat comprend les codes du monde professionnel, même s’il débute.
 
-Le premier jour de son stage, Karim est encore un peu nerveux, mais il se sent beaucoup plus à l''aise que pendant l''entretien. La responsable de la bibliothèque le félicite pour son sérieux et sa motivation, exactement les qualités qu''il avait mises en avant lors de l''entretien. En rentrant chez lui ce soir-là, il envoie un message à Camila : « Merci encore, sans toi, je n''aurais jamais osé postuler pour quelque chose d''aussi important. »', '["Pour quel poste Karim a-t-il postulé ?","Quels conseils Camila lui donne-t-elle sur le langage à utiliser ?","Quel est le résultat final de l’entretien de Karim ?"]'::jsonb, '["Karim a postulé pour un stage d''été à la bibliothèque municipale de Tours, et il a été convoqué pour un entretien la semaine prochaine. C''est son premier entretien d''embauche, et il est très nerveux. « Je ne sais pas quoi répondre s''ils me demandent pourquoi je veux ce stage », avoue-t-il à Camila pendant la pause. Camila, qui a déjà préparé un entretien pour un club de bénévolat, décide de l''aider à s''entraîner.","« D''abord, il faut que tu expliques clairement tes motivations », explique Camila. « Par exemple, tu pourrais dire que tu adores lire et que tu voudrais aider les autres à découvrir de bons livres. » Ensemble, ils préparent aussi des réponses aux questions les plus courantes : « Quelles sont vos qualités ? » et « Pourquoi devrions-nous vous choisir vous, plutôt qu''un autre candidat ? » Karim s''entraîne à répondre calmement, en utilisant un langage plus formel que d''habitude.","Camila lui rappelle aussi l''importance de la politesse dans ce contexte : utiliser « vous » plutôt que « tu », dire « je voudrais » plutôt que « je veux », et remercier la personne à la fin de l''entretien. Le jour de l''entretien, Karim se sent bien préparé grâce à cet entraînement. Une semaine plus tard, il reçoit un e-mail : il a obtenu le stage ! Il remercie chaleureusement Camila pour son aide précieuse, sans laquelle, dit-il, il n''aurait probablement pas été aussi confiant devant le recruteur.","Le premier jour de son stage, Karim est encore un peu nerveux, mais il se sent beaucoup plus à l''aise que pendant l''entretien. La responsable de la bibliothèque le félicite pour son sérieux et sa motivation, exactement les qualités qu''il avait mises en avant lors de l''entretien. En rentrant chez lui ce soir-là, il envoie un message à Camila : « Merci encore, sans toi, je n''aurais jamais osé postuler pour quelque chose d''aussi important. »"]'::jsonb, '{"prompt":"Remets les événements dans l’ordre.","events":["Karim postule pour un stage à la bibliothèque.","Camila l’aide à préparer ses réponses.","Karim passe l’entretien, bien préparé.","Karim reçoit un e-mail confirmant qu’il a obtenu le stage."]}'::jsonb);
+Choisir un emploi ou un stage demande donc autant d’information que de motivation. Un candidat bien préparé arrivera à l’entretien en ayant déjà réfléchi à ses réponses aux questions les plus fréquentes, comme « pourquoi ce poste vous intéresse-t-il ? » ou « quelles sont vos principales qualités ? ». Cette préparation réduit considérablement le stress le jour de l’entretien et permet de répondre avec plus de clarté et de confiance.', '["Que doit-on relever avant de postuler à une offre d’emploi, selon le texte ?","Que faut-il faire si l’on ne possède pas encore toutes les compétences demandées ?","Que recherchent les recruteurs, selon les enquêtes citées dans le texte ?","Pourquoi préfère-t-on un langage plus formel pendant un entretien ?","À quoi sert aussi l’entretien d’embauche, selon le texte ?"]'::jsonb, '["Une offre d’emploi ou de stage présente généralement des missions, des compétences attendues et des conditions de travail. Avant de postuler, il est utile de relever les tâches essentielles et de comparer son expérience avec les critères demandés. Si une annonce mentionne plusieurs compétences que le candidat ne possède pas encore, cela ne signifie pas nécessairement qu’il faut renoncer : il vaudrait mieux, dans ce cas, expliquer clairement sa motivation à apprendre plutôt que de rester silencieux sur ce point.","Les conseillers en insertion professionnelle recommandent de préparer une candidature qui donne des exemples concrets : un projet mené à terme, une difficulté résolue en équipe, ou une compétence acquise pendant une formation ou un stage précédent. Les recruteurs le confirment régulièrement dans les enquêtes sur le recrutement des jeunes : ils n’attendent pas que chaque candidat ait une expérience identique, mais ils recherchent une préparation sérieuse et une compréhension réaliste du poste proposé.","L’entretien d’embauche sert également à poser des questions sur l’équipe, les horaires, l’accompagnement proposé aux nouveaux arrivants et les possibilités d’évolution. Dans un contexte professionnel, on préfère généralement un langage plus formel : on dira « je voudrais » plutôt que « je veux », et « pourriez-vous » plutôt que « peux-tu ». Ce registre poli n’est pas une simple formalité ; il montre au recruteur que le candidat comprend les codes du monde professionnel, même s’il débute.","Choisir un emploi ou un stage demande donc autant d’information que de motivation. Un candidat bien préparé arrivera à l’entretien en ayant déjà réfléchi à ses réponses aux questions les plus fréquentes, comme « pourquoi ce poste vous intéresse-t-il ? » ou « quelles sont vos principales qualités ? ». Cette préparation réduit considérablement le stress le jour de l’entretien et permet de répondre avec plus de clarté et de confiance."]'::jsonb, NULL);
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, line)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-monde-du-travail-listening'), 'intro', 0, 'Écoute Camila jouer le rôle du recruteur pendant que Karim s’entraîne pour son entretien.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-monde-du-travail-listening'), 'dialogue_line', 0, 'Camila (recruteuse)', 'Pourquoi voudriez-vous faire ce stage avec nous ?', '¿Por qué querría hacer esta pasantía con nosotros?');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-monde-du-travail-listening'), 'dialogue_line', 1, 'Karim', 'Je voudrais faire ce stage parce que j’adore la lecture et aider les autres.', 'Quisiera hacer esta pasantía porque me encanta la lectura y ayudar a los demás.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-monde-du-travail-listening'), 'dialogue_line', 2, 'Camila (recruteuse)', 'Quelles sont vos principales qualités ?', '¿Cuáles son sus principales cualidades?');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-monde-du-travail-listening'), 'dialogue_line', 3, 'Karim', 'Je suis organisé et je travaille bien en équipe.', 'Soy organizado y trabajo bien en equipo.');
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-monde-du-travail-listening'), 'intro', 0, 'Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-monde-du-travail-speaking'), 'dialogue_line', 0, 'Toi', 'Je voudrais ce stage parce que je suis passionné(e) par ce domaine. Mes qualités principales sont l’organisation et la motivation.', 'Quisiera esta pasantía porque me apasiona este campo. Mis principales cualidades son la organización y la motivación.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
@@ -2673,21 +2813,15 @@ VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-monde-du-t
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-monde-du-travail-dialogue'), 'dialogue_line', 3, 'Camila', 'De rien ! Tu as travaillé dur pour ça.', '¡De nada! Trabajaste duro para lograrlo.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, reading_title, reading_text, reading_questions, reading_parts, reading_ordering)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-voyages-et-interculturalite-reading'), 'reading', 0, 'Deux cultures, un exposé', 'Pour son cours de vie sociale et culturelle, Camila doit préparer un exposé de trois minutes comparant une habitude culturelle française et une habitude dominicaine. Elle choisit de parler des repas, un sujet qu''elle connaît bien depuis son arrivée. « En France, les repas sont souvent des moments assez calmes, avec des horaires fixes : le déjeuner vers midi, le dîner vers dix-neuf ou vingt heures », explique-t-elle à sa classe. « Tandis qu''à Saint-Domingue, les repas sont généralement plus bruyants, avec de la musique en fond, et les horaires sont beaucoup plus flexibles. »
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-voyages-et-interculturalite-reading'), 'reading', 0, 'Voyager en respectant les lieux', 'Préparer un voyage ne consiste pas seulement à réserver un transport et un logement. Les visiteurs peuvent consulter les règles locales, les horaires et les solutions de mobilité avant de partir. Cette préparation évite des malentendus et limite la pression sur les sites les plus fréquentés, alors que l’improvisation totale mène souvent à des files d’attente interminables ou à des lieux fermés au moment de l’arrivée. Tandis que certains voyageurs pensent que la spontanéité rend un voyage plus authentique, les guides touristiques rappellent qu’un minimum d’organisation permet justement de profiter davantage de la spontanéité, une fois sur place.
 
-Camila raconte aussi ce qui l''a le plus surprise à son arrivée : « Ce qui m''a le plus étonnée, c''est que les Français passent souvent plus de deux heures à table pendant les grandes occasions, alors que chez moi, les repas sont généralement plus rapides, sauf lors des fêtes. Au début, j''ai trouvé ça un peu long, mais maintenant, j''apprécie vraiment ces longs moments en famille. » Elle explique aussi que, contrairement à ce qu''elle pensait avant son départ, les Français ne sont pas toujours « froids » : une fois qu''on les connaît bien, ils sont très chaleureux.
+Les imprévus font partie du voyage : une grève de transport, une fermeture exceptionnelle ou un changement météorologique peuvent bouleverser un itinéraire en quelques heures. Un itinéraire flexible laisse toujours de la place pour une deuxième option, comme un musée voisin, une promenade dans un quartier proche ou un marché local. Les offices de tourisme et les sites d’information officiels restent généralement plus fiables qu’une vieille publication trouvée sur les réseaux sociaux, tandis que ces dernières circulent parfois pendant des années sans être mises à jour.
 
-À la fin de son exposé, un camarade lui demande : « Est-ce que tu préfères la culture française ou dominicaine ? » Camila réfléchit un instant avant de répondre : « Je ne dirais pas que je préfère l''une à l''autre, elles sont juste différentes, et j''ai appris à apprécier les deux. La culture dominicaine me manque parfois, mais je suis reconnaissante d''avoir découvert une nouvelle façon de vivre. » Sa réponse impressionne la classe, et la professeure la félicite pour sa capacité à comparer les deux cultures sans les juger.', '["Quel sujet Camila choisit-elle pour son exposé ?","Qu’est-ce qui a le plus surpris Camila à son arrivée en France ?","Comment Camila répond-elle à la question sur sa préférence culturelle ?"]'::jsonb, '["Pour son cours de vie sociale et culturelle, Camila doit préparer un exposé de trois minutes comparant une habitude culturelle française et une habitude dominicaine. Elle choisit de parler des repas, un sujet qu''elle connaît bien depuis son arrivée. « En France, les repas sont souvent des moments assez calmes, avec des horaires fixes : le déjeuner vers midi, le dîner vers dix-neuf ou vingt heures », explique-t-elle à sa classe. « Tandis qu''à Saint-Domingue, les repas sont généralement plus bruyants, avec de la musique en fond, et les horaires sont beaucoup plus flexibles. »","Camila raconte aussi ce qui l''a le plus surprise à son arrivée : « Ce qui m''a le plus étonnée, c''est que les Français passent souvent plus de deux heures à table pendant les grandes occasions, alors que chez moi, les repas sont généralement plus rapides, sauf lors des fêtes. Au début, j''ai trouvé ça un peu long, mais maintenant, j''apprécie vraiment ces longs moments en famille. » Elle explique aussi que, contrairement à ce qu''elle pensait avant son départ, les Français ne sont pas toujours « froids » : une fois qu''on les connaît bien, ils sont très chaleureux.","À la fin de son exposé, un camarade lui demande : « Est-ce que tu préfères la culture française ou dominicaine ? » Camila réfléchit un instant avant de répondre : « Je ne dirais pas que je préfère l''une à l''autre, elles sont juste différentes, et j''ai appris à apprécier les deux. La culture dominicaine me manque parfois, mais je suis reconnaissante d''avoir découvert une nouvelle façon de vivre. » Sa réponse impressionne la classe, et la professeure la félicite pour sa capacité à comparer les deux cultures sans les juger."]'::jsonb, '{"prompt":"Remets les idées de l’exposé de Camila dans l’ordre.","events":["Camila compare les horaires de repas français et dominicains.","Elle explique ce qui l’a surprise sur la durée des repas français.","Elle mentionne que les Français ne sont pas toujours « froids ».","Elle répond à la question d’un camarade sur sa préférence culturelle."]}'::jsonb);
+Le comportement des visiteurs a également un impact direct sur les habitants d’une destination. Dans certaines villes très fréquentées, la présence massive de touristes a fait augmenter le prix des loyers, tandis que les commerces traditionnels ont parfois dû fermer pour laisser place à des boutiques destinées uniquement aux visiteurs. Cette situation, appelée « surtourisme » par les chercheurs, pousse de plus en plus de destinations à limiter le nombre de visiteurs journaliers dans certains sites, alors qu’il y a encore dix ans cette pratique restait très rare.
+
+Respecter un lieu, c’est donc aussi respecter les personnes qui y vivent : suivre les consignes affichées, privilégier les commerces locaux plutôt que les grandes chaînes internationales, et éviter les horaires de forte affluence lorsque c’est possible. Les voyageurs qui adaptent leurs habitudes de cette façon rapportent souvent une expérience plus riche, tandis que ceux qui se contentent des lieux les plus connus manquent parfois l’essentiel d’une culture locale.', '["Selon le texte, que peuvent faire les visiteurs avant de partir ?","Pourquoi un itinéraire flexible est-il recommandé ?","Pourquoi les sites officiels sont-ils plus fiables que certaines publications sur les réseaux sociaux ?","Qu’appelle-t-on « surtourisme » ?","Que font certaines destinations pour limiter le surtourisme ?"]'::jsonb, '["Préparer un voyage ne consiste pas seulement à réserver un transport et un logement. Les visiteurs peuvent consulter les règles locales, les horaires et les solutions de mobilité avant de partir. Cette préparation évite des malentendus et limite la pression sur les sites les plus fréquentés, alors que l’improvisation totale mène souvent à des files d’attente interminables ou à des lieux fermés au moment de l’arrivée. Tandis que certains voyageurs pensent que la spontanéité rend un voyage plus authentique, les guides touristiques rappellent qu’un minimum d’organisation permet justement de profiter davantage de la spontanéité, une fois sur place.","Les imprévus font partie du voyage : une grève de transport, une fermeture exceptionnelle ou un changement météorologique peuvent bouleverser un itinéraire en quelques heures. Un itinéraire flexible laisse toujours de la place pour une deuxième option, comme un musée voisin, une promenade dans un quartier proche ou un marché local. Les offices de tourisme et les sites d’information officiels restent généralement plus fiables qu’une vieille publication trouvée sur les réseaux sociaux, tandis que ces dernières circulent parfois pendant des années sans être mises à jour.","Le comportement des visiteurs a également un impact direct sur les habitants d’une destination. Dans certaines villes très fréquentées, la présence massive de touristes a fait augmenter le prix des loyers, tandis que les commerces traditionnels ont parfois dû fermer pour laisser place à des boutiques destinées uniquement aux visiteurs. Cette situation, appelée « surtourisme » par les chercheurs, pousse de plus en plus de destinations à limiter le nombre de visiteurs journaliers dans certains sites, alors qu’il y a encore dix ans cette pratique restait très rare.","Respecter un lieu, c’est donc aussi respecter les personnes qui y vivent : suivre les consignes affichées, privilégier les commerces locaux plutôt que les grandes chaînes internationales, et éviter les horaires de forte affluence lorsque c’est possible. Les voyageurs qui adaptent leurs habitudes de cette façon rapportent souvent une expérience plus riche, tandis que ceux qui se contentent des lieux les plus connus manquent parfois l’essentiel d’une culture locale."]'::jsonb, NULL);
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, line)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-voyages-et-interculturalite-listening'), 'intro', 0, 'Écoute Camila expliquer à Léa un moment surprenant de son adaptation en France.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-voyages-et-interculturalite-listening'), 'dialogue_line', 0, 'Léa', 'Qu’est-ce qui t’a le plus surprise en arrivant ici ?', '¿Qué fue lo que más te sorprendió al llegar aquí?');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-voyages-et-interculturalite-listening'), 'dialogue_line', 1, 'Camila', 'La durée des repas ! Chez moi, on mange beaucoup plus vite.', '¡La duración de las comidas! En mi casa comemos mucho más rápido.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-voyages-et-interculturalite-listening'), 'dialogue_line', 2, 'Léa', 'Vraiment ? Et maintenant, tu préfères quoi ?', '¿En serio? ¿Y ahora qué prefieres?');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-voyages-et-interculturalite-listening'), 'dialogue_line', 3, 'Camila', 'J’aime bien les deux, en fait, ça dépend de l’occasion.', 'Me gustan ambas, de hecho, depende de la ocasión.');
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-voyages-et-interculturalite-listening'), 'intro', 0, 'Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-voyages-et-interculturalite-speaking'), 'dialogue_line', 0, 'Toi', 'Dans mon pays, les fêtes commencent tard, tandis que dans d’autres cultures, elles commencent plus tôt. Ce qui m’a surpris, c’est la différence d’horaires.', 'En mi país, las fiestas empiezan tarde, mientras que en otras culturas empiezan más temprano. Lo que me sorprendió fue la diferencia de horarios.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
@@ -2713,23 +2847,15 @@ VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-voyages-et
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-voyages-et-interculturalite-dialogue'), 'dialogue_line', 3, 'Léa', 'On devrait organiser une vraie soirée dominicaine un jour !', '¡Deberíamos organizar una verdadera noche dominicana algún día!');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, reading_title, reading_text, reading_questions, reading_parts, reading_ordering)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-technologie-et-societe-reading'), 'reading', 0, 'Le débat sur les réseaux sociaux', 'En cours d''éducation civique, la professeure propose un débat sur un sujet d''actualité : l''impact des réseaux sociaux sur les jeunes. « D''une part, les réseaux sociaux permettent de rester en contact avec des amis éloignés et de découvrir de nouvelles idées », commence Karim. « Grâce à eux, je peux parler avec ma cousine qui habite au Maroc presque tous les jours. » Plusieurs élèves acquiescent, d''accord avec cet argument.
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-technologie-et-societe-reading'), 'reading', 0, 'Choisir ses usages numériques', 'Les outils numériques facilitent l’accès à l’information, aux services et à la communication. D’une part, ils permettent de rester en contact avec des proches éloignés et de découvrir de nouvelles idées en quelques secondes. D’autre part, ils peuvent aussi interrompre une tâche par des alertes très fréquentes : une étude menée auprès de lycéens français a montré qu’un smartphone reçoit en moyenne plus de soixante-dix notifications par jour, la majorité n’étant pas réellement urgente.
 
-Cependant, Léa n''est pas complètement d''accord : « D''autre part, il est important que les jeunes fassent attention à leur vie privée. Beaucoup de personnes partagent trop d''informations personnelles sans réfléchir aux risques. » Camila ajoute un autre point de vue : « Je pense aussi que ça dépend de la façon dont on les utilise. Si on passe trop de temps à comparer sa vie à celle des autres, ça peut créer du stress et de l''anxiété. Mais si on les utilise avec modération, pour s''informer ou garder contact, c''est plutôt positif. »
+Les réglages de notification permettent de choisir ce qui mérite réellement une attention immédiate. Il est important que les utilisateurs, notamment les plus jeunes, comprennent le fonctionnement de ces outils, car de nombreuses applications sont conçues volontairement pour capter l’attention le plus longtemps possible. Cependant, la question n’est pas de supprimer toute technologie : les cartes, les messageries et les outils d’apprentissage en ligne restent très utiles au quotidien.
 
-La professeure résume le débat à la fin du cours : « Vous avez tous raison, d''une certaine façon. Les réseaux sociaux ne sont ni complètement bons ni complètement mauvais ; tout dépend de l''usage qu''on en fait. » Elle propose alors à la classe de réfléchir, pour le prochain cours, à des règles personnelles pour une utilisation plus équilibrée des réseaux sociaux. Camila, en particulier, décide de limiter son temps d''écran le soir, pour mieux profiter de ses moments en famille.
+Certains établissements scolaires ont commencé à intégrer des règles collectives sur l’usage du numérique, comme le rangement obligatoire des téléphones pendant les cours. Il est également important que chaque personne prévoie des moments précis pour consulter ses réseaux, plutôt que de les vérifier de façon compulsive tout au long de la journée. Vérifier une source avant de partager un message, désactiver les alertes non essentielles pendant un cours ou un repas, ou encore couper les notifications la nuit sont des habitudes simples mais efficaces.
 
-Quelques jours plus tard, la classe se retrouve pour partager les règles personnelles que chacun a choisies. Certains décident de ne plus regarder leur téléphone avant de dormir, d''autres préfèrent limiter le nombre d''applications installées. La professeure est impressionnée par la maturité des réponses et propose d''afficher les meilleures idées dans la salle de classe, pour que d''autres élèves puissent s''en inspirer tout au long de l''année.', '["Quel argument Karim présente-t-il en faveur des réseaux sociaux ?","Quelle inquiétude Léa exprime-t-elle ?","Quelle conclusion la professeure tire-t-elle du débat ?"]'::jsonb, '["En cours d''éducation civique, la professeure propose un débat sur un sujet d''actualité : l''impact des réseaux sociaux sur les jeunes. « D''une part, les réseaux sociaux permettent de rester en contact avec des amis éloignés et de découvrir de nouvelles idées », commence Karim. « Grâce à eux, je peux parler avec ma cousine qui habite au Maroc presque tous les jours. » Plusieurs élèves acquiescent, d''accord avec cet argument.","Cependant, Léa n''est pas complètement d''accord : « D''autre part, il est important que les jeunes fassent attention à leur vie privée. Beaucoup de personnes partagent trop d''informations personnelles sans réfléchir aux risques. » Camila ajoute un autre point de vue : « Je pense aussi que ça dépend de la façon dont on les utilise. Si on passe trop de temps à comparer sa vie à celle des autres, ça peut créer du stress et de l''anxiété. Mais si on les utilise avec modération, pour s''informer ou garder contact, c''est plutôt positif. »","La professeure résume le débat à la fin du cours : « Vous avez tous raison, d''une certaine façon. Les réseaux sociaux ne sont ni complètement bons ni complètement mauvais ; tout dépend de l''usage qu''on en fait. » Elle propose alors à la classe de réfléchir, pour le prochain cours, à des règles personnelles pour une utilisation plus équilibrée des réseaux sociaux. Camila, en particulier, décide de limiter son temps d''écran le soir, pour mieux profiter de ses moments en famille.","Quelques jours plus tard, la classe se retrouve pour partager les règles personnelles que chacun a choisies. Certains décident de ne plus regarder leur téléphone avant de dormir, d''autres préfèrent limiter le nombre d''applications installées. La professeure est impressionnée par la maturité des réponses et propose d''afficher les meilleures idées dans la salle de classe, pour que d''autres élèves puissent s''en inspirer tout au long de l''année."]'::jsonb, '{"prompt":"Remets les interventions du débat dans l’ordre.","events":["Karim présente l’avantage de rester en contact avec des proches éloignés.","Léa exprime son inquiétude sur la vie privée.","Camila explique que tout dépend de l’usage qu’on en fait.","La professeure résume le débat et propose une réflexion personnelle."]}'::jsonb);
+Un usage responsable dépend aussi des plateformes elles-mêmes et des politiques mises en place par les écoles et les gouvernements. Plusieurs pays européens ont d’ailleurs adopté des règles plus strictes sur la protection des données des mineurs en ligne. Des règles claires sur les données personnelles, le respect entre utilisateurs et la vérification de l’information aident chacun à utiliser ces outils avec plus de confiance, sans pour autant renoncer à leurs nombreux avantages.', '["D’après l’étude citée, combien de notifications un smartphone reçoit-il en moyenne par jour chez un lycéen ?","Pourquoi de nombreuses applications sont-elles conçues pour capter l’attention ?","Que font certains établissements scolaires concernant les téléphones ?","Quelle habitude simple le texte recommande-t-il pour un usage plus équilibré ?","Que mentionne le texte à propos des politiques gouvernementales ?"]'::jsonb, '["Les outils numériques facilitent l’accès à l’information, aux services et à la communication. D’une part, ils permettent de rester en contact avec des proches éloignés et de découvrir de nouvelles idées en quelques secondes. D’autre part, ils peuvent aussi interrompre une tâche par des alertes très fréquentes : une étude menée auprès de lycéens français a montré qu’un smartphone reçoit en moyenne plus de soixante-dix notifications par jour, la majorité n’étant pas réellement urgente.","Les réglages de notification permettent de choisir ce qui mérite réellement une attention immédiate. Il est important que les utilisateurs, notamment les plus jeunes, comprennent le fonctionnement de ces outils, car de nombreuses applications sont conçues volontairement pour capter l’attention le plus longtemps possible. Cependant, la question n’est pas de supprimer toute technologie : les cartes, les messageries et les outils d’apprentissage en ligne restent très utiles au quotidien.","Certains établissements scolaires ont commencé à intégrer des règles collectives sur l’usage du numérique, comme le rangement obligatoire des téléphones pendant les cours. Il est également important que chaque personne prévoie des moments précis pour consulter ses réseaux, plutôt que de les vérifier de façon compulsive tout au long de la journée. Vérifier une source avant de partager un message, désactiver les alertes non essentielles pendant un cours ou un repas, ou encore couper les notifications la nuit sont des habitudes simples mais efficaces.","Un usage responsable dépend aussi des plateformes elles-mêmes et des politiques mises en place par les écoles et les gouvernements. Plusieurs pays européens ont d’ailleurs adopté des règles plus strictes sur la protection des données des mineurs en ligne. Des règles claires sur les données personnelles, le respect entre utilisateurs et la vérification de l’information aident chacun à utiliser ces outils avec plus de confiance, sans pour autant renoncer à leurs nombreux avantages."]'::jsonb, NULL);
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, line)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-technologie-et-societe-listening'), 'intro', 0, 'Écoute la suite du débat entre Karim et Léa, à la sortie des cours.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-technologie-et-societe-listening'), 'dialogue_line', 0, 'Karim', 'D’une part, je pense que les réseaux sociaux nous aident à rester connectés.', 'Por un lado, creo que las redes sociales nos ayudan a mantenernos conectados.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-technologie-et-societe-listening'), 'dialogue_line', 1, 'Léa', 'Cependant, il est important de faire attention aux informations qu’on partage.', 'Sin embargo, es importante tener cuidado con la información que compartimos.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-technologie-et-societe-listening'), 'dialogue_line', 2, 'Karim', 'Tu as raison, ça dépend vraiment de la façon dont on les utilise.', 'Tienes razón, realmente depende de cómo las usemos.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-technologie-et-societe-listening'), 'dialogue_line', 3, 'Léa', 'Exactement, l’équilibre est la clé.', 'Exactamente, el equilibrio es la clave.');
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-technologie-et-societe-listening'), 'intro', 0, 'Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-technologie-et-societe-speaking'), 'dialogue_line', 0, 'Toi', 'D’une part, le téléphone facilite la communication. D’autre part, il peut créer une dépendance. À mon avis, ça dépend de la façon dont on l’utilise.', 'Por un lado, el teléfono facilita la comunicación. Por otro lado, puede crear dependencia. En mi opinión, depende de cómo se use.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
@@ -2755,23 +2881,15 @@ VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-technologi
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-technologie-et-societe-dialogue'), 'dialogue_line', 3, 'Léa', 'J’aime beaucoup cette idée, on pourrait le faire ensemble.', 'Me gusta mucho esa idea, podríamos hacerlo juntas.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, reading_title, reading_text, reading_questions, reading_parts, reading_ordering)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-sante-et-mode-de-vie-reading'), 'reading', 0, 'Gérer le stress des examens', 'À l''approche des examens de fin d''année, Camila se sent de plus en plus stressée. Elle dort mal, elle a du mal à se concentrer, et elle se sent tendue en permanence. Un soir, Madame Lambert la trouve en train de réviser tard, l''air fatiguée, et décide de lui parler. « Tu sembles très stressée ces derniers temps, Camila. Il faut que tu prennes soin de toi aussi, pas seulement de tes études. »
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-sante-et-mode-de-vie-reading'), 'reading', 0, 'Des habitudes de santé réalistes', 'Le sommeil, l’activité physique et l’alimentation influencent fortement la santé, mais les conseils doivent tenir compte de la vie réelle de chacun. Les horaires de cours ou de travail, les transports et les responsabilités familiales ne sont pas les mêmes pour tout le monde, et un conseil trop général risque de rester inutile s’il ne peut pas s’appliquer concrètement au quotidien d’une personne. Il est donc important que chacun adapte ces recommandations à sa propre situation plutôt que de suivre un modèle unique.
 
-Madame Lambert lui propose plusieurs conseils pour mieux gérer son stress. « Il est important que tu fasses des pauses régulières pendant tes révisions, même courtes. Il vaut mieux que tu dormes suffisamment plutôt que de réviser jusqu''à minuit. » Elle lui suggère aussi de reprendre une activité physique régulière : « Ça t''aiderait beaucoup de faire une petite promenade ou du sport, même vingt minutes par jour, ça réduit vraiment le stress. » Camila écoute attentivement, un peu surprise que quelqu''un remarque son état.
+Une amélioration peut commencer par un changement modeste : marcher une partie du trajet vers l’école ou le travail, préparer un repas à l’avance pour éviter la restauration rapide, ou réduire les écrans avant le coucher. Les agences de santé publique insistent sur ce point : il vaut mieux répéter une petite action réaliste chaque jour plutôt que de viser un changement radical impossible à maintenir. Il faut aussi que les jeunes en particulier fassent attention à leur rythme de sommeil, souvent perturbé par les examens et les écrans le soir.
 
-Camila décide de suivre ces conseils : elle commence à faire une courte promenade chaque après-midi avec Léa, elle limite ses révisions à vingt et une heures, et elle essaie de dormir au moins sept heures par nuit. Après une semaine, elle se sent déjà plus calme et plus concentrée pendant ses révisions. Elle comprend alors une leçon importante : réussir ses examens ne veut pas dire sacrifier sa santé, mais plutôt trouver un équilibre entre le travail et le repos. Elle remercie Madame Lambert pour son attention et sa bienveillance.
+L’activité physique peut fonctionner selon le même principe. Il n’est pas nécessaire de s’inscrire immédiatement dans une salle de sport : marcher, prendre les escaliers ou faire une courte séance de vingt minutes suffit déjà à réduire sensiblement le niveau de stress, selon plusieurs études en médecine du sport. Il est essentiel que cette activité reste régulière, car les bénéfices sur l’humeur et la concentration diminuent rapidement dès qu’on arrête complètement pendant plusieurs semaines.
 
-Le jour du premier examen, Camila se sent nerveuse, comme toujours, mais d''une façon différente : plus légère, plus gérable. Pendant la pause avant l''épreuve, elle prend cinq minutes pour respirer calmement, comme Madame Lambert le lui avait suggéré. Cette petite habitude, presque insignifiante en apparence, l''aide à se concentrer pleinement une fois l''examen commencé. Camila se promet de continuer ces nouvelles habitudes bien après la fin des examens de fin d''année.', '["Quels symptômes de stress Camila ressent-elle ?","Quels conseils Madame Lambert lui donne-t-elle ?","Quelle leçon Camila tire-t-elle de cette expérience ?"]'::jsonb, '["À l''approche des examens de fin d''année, Camila se sent de plus en plus stressée. Elle dort mal, elle a du mal à se concentrer, et elle se sent tendue en permanence. Un soir, Madame Lambert la trouve en train de réviser tard, l''air fatiguée, et décide de lui parler. « Tu sembles très stressée ces derniers temps, Camila. Il faut que tu prennes soin de toi aussi, pas seulement de tes études. »","Madame Lambert lui propose plusieurs conseils pour mieux gérer son stress. « Il est important que tu fasses des pauses régulières pendant tes révisions, même courtes. Il vaut mieux que tu dormes suffisamment plutôt que de réviser jusqu''à minuit. » Elle lui suggère aussi de reprendre une activité physique régulière : « Ça t''aiderait beaucoup de faire une petite promenade ou du sport, même vingt minutes par jour, ça réduit vraiment le stress. » Camila écoute attentivement, un peu surprise que quelqu''un remarque son état.","Camila décide de suivre ces conseils : elle commence à faire une courte promenade chaque après-midi avec Léa, elle limite ses révisions à vingt et une heures, et elle essaie de dormir au moins sept heures par nuit. Après une semaine, elle se sent déjà plus calme et plus concentrée pendant ses révisions. Elle comprend alors une leçon importante : réussir ses examens ne veut pas dire sacrifier sa santé, mais plutôt trouver un équilibre entre le travail et le repos. Elle remercie Madame Lambert pour son attention et sa bienveillance.","Le jour du premier examen, Camila se sent nerveuse, comme toujours, mais d''une façon différente : plus légère, plus gérable. Pendant la pause avant l''épreuve, elle prend cinq minutes pour respirer calmement, comme Madame Lambert le lui avait suggéré. Cette petite habitude, presque insignifiante en apparence, l''aide à se concentrer pleinement une fois l''examen commencé. Camila se promet de continuer ces nouvelles habitudes bien après la fin des examens de fin d''année."]'::jsonb, '{"prompt":"Remets les événements dans l’ordre.","events":["Camila se sent de plus en plus stressée avant les examens.","Madame Lambert remarque son état et lui parle.","Elle lui donne des conseils sur les pauses, le sommeil et le sport.","Camila applique ces conseils et se sent plus calme."]}'::jsonb);
+Lorsque la fatigue, le stress ou une douleur deviennent importants et durables, les conseils du quotidien ne remplacent évidemment pas un avis médical professionnel. Il est important que chacun sache reconnaître le moment où demander de l’aide devient nécessaire, plutôt que d’essayer de tout résoudre seul. Demander de l’aide, dans ce contexte, n’est pas un signe de faiblesse, mais une décision responsable qui permet souvent d’éviter que la situation ne s’aggrave.', '["Pourquoi les conseils de santé trop généraux risquent-ils d’être inutiles ?","Que recommandent les agences de santé publique concernant le changement d’habitudes ?","Que peut perturber le sommeil des jeunes, selon le texte ?","Combien de temps d’activité physique suffit-il, selon plusieurs études citées, pour réduire le stress ?","Que se passe-t-il si on arrête complètement l’activité physique pendant plusieurs semaines ?"]'::jsonb, '["Le sommeil, l’activité physique et l’alimentation influencent fortement la santé, mais les conseils doivent tenir compte de la vie réelle de chacun. Les horaires de cours ou de travail, les transports et les responsabilités familiales ne sont pas les mêmes pour tout le monde, et un conseil trop général risque de rester inutile s’il ne peut pas s’appliquer concrètement au quotidien d’une personne. Il est donc important que chacun adapte ces recommandations à sa propre situation plutôt que de suivre un modèle unique.","Une amélioration peut commencer par un changement modeste : marcher une partie du trajet vers l’école ou le travail, préparer un repas à l’avance pour éviter la restauration rapide, ou réduire les écrans avant le coucher. Les agences de santé publique insistent sur ce point : il vaut mieux répéter une petite action réaliste chaque jour plutôt que de viser un changement radical impossible à maintenir. Il faut aussi que les jeunes en particulier fassent attention à leur rythme de sommeil, souvent perturbé par les examens et les écrans le soir.","L’activité physique peut fonctionner selon le même principe. Il n’est pas nécessaire de s’inscrire immédiatement dans une salle de sport : marcher, prendre les escaliers ou faire une courte séance de vingt minutes suffit déjà à réduire sensiblement le niveau de stress, selon plusieurs études en médecine du sport. Il est essentiel que cette activité reste régulière, car les bénéfices sur l’humeur et la concentration diminuent rapidement dès qu’on arrête complètement pendant plusieurs semaines.","Lorsque la fatigue, le stress ou une douleur deviennent importants et durables, les conseils du quotidien ne remplacent évidemment pas un avis médical professionnel. Il est important que chacun sache reconnaître le moment où demander de l’aide devient nécessaire, plutôt que d’essayer de tout résoudre seul. Demander de l’aide, dans ce contexte, n’est pas un signe de faiblesse, mais une décision responsable qui permet souvent d’éviter que la situation ne s’aggrave."]'::jsonb, NULL);
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, line)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-sante-et-mode-de-vie-listening'), 'intro', 0, 'Écoute la conversation entre Madame Lambert et Camila au sujet du stress.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-sante-et-mode-de-vie-listening'), 'dialogue_line', 0, 'Mme Lambert', 'Il faut que tu fasses des pauses pendant tes révisions.', 'Es necesario que hagas pausas durante tus repasos.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-sante-et-mode-de-vie-listening'), 'dialogue_line', 1, 'Camila', 'D’accord, et pour le sommeil ?', 'De acuerdo, ¿y para el sueño?');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-sante-et-mode-de-vie-listening'), 'dialogue_line', 2, 'Mme Lambert', 'Il vaut mieux que tu dormes sept heures, plutôt que de réviser tard.', 'Es mejor que duermas siete horas, en vez de repasar hasta tarde.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-sante-et-mode-de-vie-listening'), 'dialogue_line', 3, 'Camila', 'Merci, je vais essayer de suivre ces conseils.', 'Gracias, voy a intentar seguir estos consejos.');
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-sante-et-mode-de-vie-listening'), 'intro', 0, 'Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-sante-et-mode-de-vie-speaking'), 'dialogue_line', 0, 'Toi', 'Il faut que tu fasses des pauses régulières. Il est important que tu dormes suffisamment avant l’examen.', 'Es necesario que hagas pausas regulares. Es importante que duermas lo suficiente antes del examen.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
@@ -2797,23 +2915,15 @@ VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-sante-et-m
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-sante-et-mode-de-vie-dialogue'), 'dialogue_line', 3, 'Camila', 'Oui, je me concentre beaucoup mieux pendant mes révisions maintenant.', 'Sí, ahora me concentro mucho mejor durante mis repasos.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, reading_title, reading_text, reading_questions, reading_parts, reading_ordering)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-environnement-et-consommation-reading'), 'reading', 0, 'Un projet pour l’environnement', 'Ce trimestre, la classe de Camila participe à un projet écologique : réduire la quantité de déchets produits au lycée. « Nous produisons trop de déchets à la cantine, surtout du plastique à usage unique », explique la professeure de sciences. « C''est pourquoi nous devons trouver des solutions ensemble. » La classe se divise en petits groupes pour réfléchir à des idées concrètes.
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-environnement-et-consommation-reading'), 'reading', 0, 'Consommer avec moins de déchets', 'Le recyclage est utile, mais il intervient après la fabrication et le transport d’un produit, c’est-à-dire à la toute fin de son cycle de vie. C’est pourquoi de nombreux spécialistes de l’environnement insistent sur la prévention des déchets, une étape qui intervient beaucoup plus tôt : choisir un objet durable plutôt que jetable, réparer un appareil qui fonctionne encore, ou refuser un emballage inutile à la caisse d’un magasin. Ces gestes, pris individuellement, semblent modestes, mais ils réduisent directement la quantité de matière qui entrera un jour dans le système de traitement des déchets.
 
-Le groupe de Camila propose d''installer des poubelles de tri sélectif dans toute l''école, parce que beaucoup d''élèves ne savent pas où jeter le plastique, le verre et le papier séparément. « Si on installe des poubelles claires et bien identifiées, le recyclage sera beaucoup plus simple », explique Camila au reste de la classe. Le groupe de Karim propose une autre idée : remplacer les bouteilles en plastique par des gourdes réutilisables, puisque beaucoup d''élèves achètent une bouteille chaque jour à la cantine.
+Plusieurs établissements scolaires en France ont déjà mis en place des systèmes de tri sélectif dans leurs cantines, parce que la restauration collective produit une quantité importante de déchets plastiques à usage unique. Dans certains lycées ayant adopté des gourdes réutilisables et des poubelles de tri clairement identifiées, la quantité de bouteilles jetées a diminué de façon mesurable en quelques mois seulement. C’est pourquoi les responsables de ces établissements considèrent que des mesures simples, bien expliquées, peuvent avoir un effet réel et rapide.
 
-Après avoir présenté toutes les propositions, la classe vote pour les deux meilleures idées : le tri sélectif et les gourdes réutilisables. Il faut maintenant que les élèves convainquent la direction du lycée d''accepter ces changements. Camila et Karim préparent ensemble une présentation avec des chiffres sur la quantité de déchets économisée. Quelques semaines plus tard, la direction accepte le projet, et de nouvelles poubelles de tri apparaissent dans les couloirs. Camila est fière d''avoir contribué à un changement concret, même petit, pour l''environnement de son lycée.
+Ces décisions ne reposent cependant pas uniquement sur les individus. Les entreprises, les commerces et les collectivités locales influencent fortement la disponibilité des produits, l’accès à la réparation et l’organisation de la collecte des déchets. Un système de consigne pour les bouteilles, par exemple, ne fonctionne que si les commerces acceptent facilement de les reprendre ; c’est pourquoi plusieurs villes ont commencé à installer des points de collecte automatiques, faciles d’accès pour les habitants.
 
-Quelques mois plus tard, la classe remarque déjà une différence : la quantité de bouteilles en plastique jetées à la cantine a nettement diminué, et de plus en plus d''élèves utilisent leur gourde réutilisable chaque jour. Encouragée par ce succès, la classe décide de proposer un nouveau projet pour l''année suivante : organiser un compost pour les déchets alimentaires de la cantine. Camila comprend que même les petites actions, quand elles sont bien organisées, peuvent avoir un impact réel.', '["Quel problème la professeure identifie-t-elle à la cantine ?","Quelle solution propose le groupe de Camila ?","Quel résultat obtient la classe à la fin du projet ?"]'::jsonb, '["Ce trimestre, la classe de Camila participe à un projet écologique : réduire la quantité de déchets produits au lycée. « Nous produisons trop de déchets à la cantine, surtout du plastique à usage unique », explique la professeure de sciences. « C''est pourquoi nous devons trouver des solutions ensemble. » La classe se divise en petits groupes pour réfléchir à des idées concrètes.","Le groupe de Camila propose d''installer des poubelles de tri sélectif dans toute l''école, parce que beaucoup d''élèves ne savent pas où jeter le plastique, le verre et le papier séparément. « Si on installe des poubelles claires et bien identifiées, le recyclage sera beaucoup plus simple », explique Camila au reste de la classe. Le groupe de Karim propose une autre idée : remplacer les bouteilles en plastique par des gourdes réutilisables, puisque beaucoup d''élèves achètent une bouteille chaque jour à la cantine.","Après avoir présenté toutes les propositions, la classe vote pour les deux meilleures idées : le tri sélectif et les gourdes réutilisables. Il faut maintenant que les élèves convainquent la direction du lycée d''accepter ces changements. Camila et Karim préparent ensemble une présentation avec des chiffres sur la quantité de déchets économisée. Quelques semaines plus tard, la direction accepte le projet, et de nouvelles poubelles de tri apparaissent dans les couloirs. Camila est fière d''avoir contribué à un changement concret, même petit, pour l''environnement de son lycée.","Quelques mois plus tard, la classe remarque déjà une différence : la quantité de bouteilles en plastique jetées à la cantine a nettement diminué, et de plus en plus d''élèves utilisent leur gourde réutilisable chaque jour. Encouragée par ce succès, la classe décide de proposer un nouveau projet pour l''année suivante : organiser un compost pour les déchets alimentaires de la cantine. Camila comprend que même les petites actions, quand elles sont bien organisées, peuvent avoir un impact réel."]'::jsonb, '{"prompt":"Remets les événements du projet dans l’ordre.","events":["La professeure explique le problème des déchets à la cantine.","Les groupes réfléchissent à des solutions.","La classe vote pour le tri sélectif et les gourdes réutilisables.","La direction accepte le projet et installe de nouvelles poubelles."]}'::jsonb);
+Une consommation plus responsable associe donc les gestes quotidiens et des règles collectives établies par les institutions. L’objectif, selon les experts en économie circulaire, n’est pas de faire porter toute la responsabilité à une seule personne, mais de rendre le meilleur choix le plus simple possible pour tout le monde. Quand les systèmes sont bien conçus, les habitudes durables deviennent presque automatiques, sans effort supplémentaire pour les habitants.', '["À quel moment le recyclage intervient-il dans le cycle de vie d’un produit ?","Que recommandent les spécialistes de l’environnement avant même le recyclage ?","Que s’est-il passé dans les lycées ayant adopté gourdes réutilisables et poubelles de tri ?","Pourquoi un système de consigne pour les bouteilles ne fonctionne-t-il que dans certaines conditions ?","Selon les experts en économie circulaire, sur qui repose la responsabilité de la consommation durable ?"]'::jsonb, '["Le recyclage est utile, mais il intervient après la fabrication et le transport d’un produit, c’est-à-dire à la toute fin de son cycle de vie. C’est pourquoi de nombreux spécialistes de l’environnement insistent sur la prévention des déchets, une étape qui intervient beaucoup plus tôt : choisir un objet durable plutôt que jetable, réparer un appareil qui fonctionne encore, ou refuser un emballage inutile à la caisse d’un magasin. Ces gestes, pris individuellement, semblent modestes, mais ils réduisent directement la quantité de matière qui entrera un jour dans le système de traitement des déchets.","Plusieurs établissements scolaires en France ont déjà mis en place des systèmes de tri sélectif dans leurs cantines, parce que la restauration collective produit une quantité importante de déchets plastiques à usage unique. Dans certains lycées ayant adopté des gourdes réutilisables et des poubelles de tri clairement identifiées, la quantité de bouteilles jetées a diminué de façon mesurable en quelques mois seulement. C’est pourquoi les responsables de ces établissements considèrent que des mesures simples, bien expliquées, peuvent avoir un effet réel et rapide.","Ces décisions ne reposent cependant pas uniquement sur les individus. Les entreprises, les commerces et les collectivités locales influencent fortement la disponibilité des produits, l’accès à la réparation et l’organisation de la collecte des déchets. Un système de consigne pour les bouteilles, par exemple, ne fonctionne que si les commerces acceptent facilement de les reprendre ; c’est pourquoi plusieurs villes ont commencé à installer des points de collecte automatiques, faciles d’accès pour les habitants.","Une consommation plus responsable associe donc les gestes quotidiens et des règles collectives établies par les institutions. L’objectif, selon les experts en économie circulaire, n’est pas de faire porter toute la responsabilité à une seule personne, mais de rendre le meilleur choix le plus simple possible pour tout le monde. Quand les systèmes sont bien conçus, les habitudes durables deviennent presque automatiques, sans effort supplémentaire pour les habitants."]'::jsonb, NULL);
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, line)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-environnement-et-consommation-listening'), 'intro', 0, 'Écoute la présentation de Camila et Karim devant le directeur du lycée.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-environnement-et-consommation-listening'), 'dialogue_line', 0, 'Camila', 'Nous produisons trop de déchets plastiques à la cantine.', 'Producimos demasiados residuos plásticos en el comedor.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-environnement-et-consommation-listening'), 'dialogue_line', 1, 'Le directeur', 'Quelle solution proposez-vous ?', '¿Qué solución proponen?');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-environnement-et-consommation-listening'), 'dialogue_line', 2, 'Karim', 'Des poubelles de tri sélectif et des gourdes réutilisables.', 'Contenedores de reciclaje selectivo y botellas reutilizables.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-environnement-et-consommation-listening'), 'dialogue_line', 3, 'Le directeur', 'C’est une excellente idée, nous allons l’étudier.', 'Es una excelente idea, la vamos a estudiar.');
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-environnement-et-consommation-listening'), 'intro', 0, 'Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-environnement-et-consommation-speaking'), 'dialogue_line', 0, 'Toi', 'Le problème, c’est que nous utilisons trop de plastique. C’est pourquoi il faut que nous installions des poubelles de tri.', 'El problema es que usamos demasiado plástico. Por eso es necesario que instalemos contenedores de reciclaje.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
@@ -2839,23 +2949,15 @@ VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-environnem
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-environnement-et-consommation-dialogue'), 'dialogue_line', 3, 'Le directeur', 'Les nouvelles poubelles seront installées la semaine prochaine.', 'Los nuevos contenedores se instalarán la próxima semana.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, reading_title, reading_text, reading_questions, reading_parts, reading_ordering)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-medias-et-information-reading'), 'reading', 0, 'Vrai ou faux ?', 'En cours de français, la professeure propose un exercice inhabituel : elle montre à la classe un article partagé des centaines de fois sur les réseaux sociaux, qui affirme qu''un nouveau fruit exotique guérit toutes les maladies. « Que pensez-vous de cet article ? » demande-t-elle. Léa répond immédiatement : « Il a l''air très convaincant, avec beaucoup de partages ! » Mais Karim n''est pas si sûr : « Je doute que ce soit vrai, aucune source scientifique n''est citée. »
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-medias-et-information-reading'), 'reading', 0, 'Vérifier avant de partager', 'Une information peut circuler très vite, surtout lorsqu’elle provoque une réaction forte comme la surprise, la colère ou la peur. Les journalistes spécialisés en vérification des faits, appelés « fact-checkers », expliquent qu’avant de partager un contenu, il est utile de vérifier la date de publication, l’auteur, la source originale et les éléments qui soutiennent réellement l’affirmation. Beaucoup de fausses informations reposent d’ailleurs sur un fait ancien présenté comme s’il venait de se produire.
 
-La professeure explique alors comment vérifier une information : regarder qui a écrit l''article, chercher si d''autres sources fiables confirment l''information, et vérifier la date de publication. Camila remarque que l''article ne mentionne aucun auteur ni aucune étude scientifique précise. « En effet, c''est-à-dire qu''on ne sait même pas qui a écrit ça », observe-t-elle. « C''est exactement le genre de signal qui doit nous alerter », confirme la professeure. Ensemble, ils cherchent l''information sur un site d''actualités reconnu, et ne trouvent rien qui confirme cette affirmation.
+Comparer plusieurs sources aide à distinguer un fait établi, une opinion et une simple rumeur. Une organisation de vérification des faits a expliqué avoir reçu que le nombre de messages douteux augmentait fortement lors des périodes électorales ou des grandes crises internationales. Une image ou une citation sortie de son contexte d’origine peut modifier complètement le sens d’un message, même si l’image elle-même est authentique.
 
-La professeure leur explique que ce type de fausse nouvelle est appelé « désinformation », et qu''il devient de plus en plus fréquent en ligne. Elle leur donne un conseil simple : avant de partager une information, il faut toujours se demander si la source est fiable et vérifier auprès d''au moins une autre source. Karim résume la leçon du jour : « On a dit que ce fruit guérissait tout, mais en réalité, personne ne peut le prouver. » La classe termine le cours en comprenant mieux l''importance d''un regard critique sur les informations qu''ils reçoivent chaque jour.
+Les plateformes numériques ont progressivement mis en place des outils pour limiter la propagation de la désinformation, comme des étiquettes signalant un contenu contesté ou des liens vers des sources fiables. Cependant, ces outils automatiques ne remplacent pas la vigilance de chaque utilisateur, car les nouvelles formes de désinformation évoluent constamment pour contourner ces systèmes de détection.
 
-Pour aller plus loin, la professeure demande à chaque élève de trouver, avant le prochain cours, un exemple de désinformation qu''il a vu circuler récemment, et d''expliquer pourquoi il ne fallait pas y faire confiance. Camila choisit un message qu''elle avait reçu affirmant qu''une application populaire allait devenir payante du jour au lendemain. En cherchant sur le site officiel de l''application, elle découvre rapidement que l''information est totalement fausse, une bonne occasion de mettre en pratique ce qu''elle vient d''apprendre.', '["Quelle affirmation l’article partagé fait-il ?","Comment Camila et la professeure vérifient-elles l’information ?","Comment s’appelle ce type de fausse information, selon la professeure ?"]'::jsonb, '["En cours de français, la professeure propose un exercice inhabituel : elle montre à la classe un article partagé des centaines de fois sur les réseaux sociaux, qui affirme qu''un nouveau fruit exotique guérit toutes les maladies. « Que pensez-vous de cet article ? » demande-t-elle. Léa répond immédiatement : « Il a l''air très convaincant, avec beaucoup de partages ! » Mais Karim n''est pas si sûr : « Je doute que ce soit vrai, aucune source scientifique n''est citée. »","La professeure explique alors comment vérifier une information : regarder qui a écrit l''article, chercher si d''autres sources fiables confirment l''information, et vérifier la date de publication. Camila remarque que l''article ne mentionne aucun auteur ni aucune étude scientifique précise. « En effet, c''est-à-dire qu''on ne sait même pas qui a écrit ça », observe-t-elle. « C''est exactement le genre de signal qui doit nous alerter », confirme la professeure. Ensemble, ils cherchent l''information sur un site d''actualités reconnu, et ne trouvent rien qui confirme cette affirmation.","La professeure leur explique que ce type de fausse nouvelle est appelé « désinformation », et qu''il devient de plus en plus fréquent en ligne. Elle leur donne un conseil simple : avant de partager une information, il faut toujours se demander si la source est fiable et vérifier auprès d''au moins une autre source. Karim résume la leçon du jour : « On a dit que ce fruit guérissait tout, mais en réalité, personne ne peut le prouver. » La classe termine le cours en comprenant mieux l''importance d''un regard critique sur les informations qu''ils reçoivent chaque jour.","Pour aller plus loin, la professeure demande à chaque élève de trouver, avant le prochain cours, un exemple de désinformation qu''il a vu circuler récemment, et d''expliquer pourquoi il ne fallait pas y faire confiance. Camila choisit un message qu''elle avait reçu affirmant qu''une application populaire allait devenir payante du jour au lendemain. En cherchant sur le site officiel de l''application, elle découvre rapidement que l''information est totalement fausse, une bonne occasion de mettre en pratique ce qu''elle vient d''apprendre."]'::jsonb, '{"prompt":"Remets les étapes de la leçon dans l’ordre.","events":["La professeure montre un article sur un fruit miracle.","Karim exprime son doute sur la véracité de l’article.","La classe cherche l’information sur un site fiable.","La professeure explique le concept de désinformation."]}'::jsonb);
+Prendre quelques minutes pour vérifier une information protège aussi les autres personnes du réseau. Un échange public devient plus utile lorsque les participants expliquent leurs sources et acceptent de corriger une erreur plutôt que de la défendre à tout prix. Les spécialistes de l’éducation aux médias rappellent que ce réflexe de vérification, une fois acquis, devient rapidement une habitude presque automatique, comme regarder à gauche et à droite avant de traverser une rue.', '["Pourquoi une information circule-t-elle souvent très vite, selon le texte ?","Que recommandent les « fact-checkers » avant de partager un contenu ?","Que se passe-t-il souvent avec une image authentique sortie de son contexte ?","Que font certaines plateformes numériques pour limiter la désinformation ?","Pourquoi les outils automatiques ne suffisent-ils pas à eux seuls ?"]'::jsonb, '["Une information peut circuler très vite, surtout lorsqu’elle provoque une réaction forte comme la surprise, la colère ou la peur. Les journalistes spécialisés en vérification des faits, appelés « fact-checkers », expliquent qu’avant de partager un contenu, il est utile de vérifier la date de publication, l’auteur, la source originale et les éléments qui soutiennent réellement l’affirmation. Beaucoup de fausses informations reposent d’ailleurs sur un fait ancien présenté comme s’il venait de se produire.","Comparer plusieurs sources aide à distinguer un fait établi, une opinion et une simple rumeur. Une organisation de vérification des faits a expliqué avoir reçu que le nombre de messages douteux augmentait fortement lors des périodes électorales ou des grandes crises internationales. Une image ou une citation sortie de son contexte d’origine peut modifier complètement le sens d’un message, même si l’image elle-même est authentique.","Les plateformes numériques ont progressivement mis en place des outils pour limiter la propagation de la désinformation, comme des étiquettes signalant un contenu contesté ou des liens vers des sources fiables. Cependant, ces outils automatiques ne remplacent pas la vigilance de chaque utilisateur, car les nouvelles formes de désinformation évoluent constamment pour contourner ces systèmes de détection.","Prendre quelques minutes pour vérifier une information protège aussi les autres personnes du réseau. Un échange public devient plus utile lorsque les participants expliquent leurs sources et acceptent de corriger une erreur plutôt que de la défendre à tout prix. Les spécialistes de l’éducation aux médias rappellent que ce réflexe de vérification, une fois acquis, devient rapidement une habitude presque automatique, comme regarder à gauche et à droite avant de traverser une rue."]'::jsonb, NULL);
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, line)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-medias-et-information-listening'), 'intro', 0, 'Écoute Camila et Karim analyser ensemble un article suspect.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-medias-et-information-listening'), 'dialogue_line', 0, 'Camila', 'Tu as vu cet article ? Il dit que ce fruit guérit tout.', '¿Viste este artículo? Dice que esta fruta lo cura todo.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-medias-et-information-listening'), 'dialogue_line', 1, 'Karim', 'Je doute que ce soit vrai, il n’y a pas de source citée.', 'Dudo que sea verdad, no hay ninguna fuente citada.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-medias-et-information-listening'), 'dialogue_line', 2, 'Camila', 'Tu as raison, vérifions sur un site fiable.', 'Tienes razón, verifiquémoslo en un sitio confiable.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-medias-et-information-listening'), 'dialogue_line', 3, 'Karim', 'En effet, aucun autre site ne confirme ça, c’est de la désinformation.', 'En efecto, ningún otro sitio confirma eso, es desinformación.');
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-medias-et-information-listening'), 'intro', 0, 'Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-medias-et-information-speaking'), 'dialogue_line', 0, 'Toi', 'J’ai vu un article qui dit que... Je doute que ce soit vrai, parce qu’il n’y a pas de source citée. Il faudrait vérifier sur un site officiel.', 'Vi un artículo que dice que... Dudo que sea verdad, porque no hay fuente citada. Habría que verificarlo en un sitio oficial.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
@@ -2881,23 +2983,15 @@ VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-medias-et-
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-medias-et-information-dialogue'), 'dialogue_line', 3, 'Léa', 'D’accord, je vais faire plus attention maintenant !', '¡De acuerdo, voy a prestar más atención ahora!');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, reading_title, reading_text, reading_questions, reading_parts, reading_ordering)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-relations-et-conflits-reading'), 'reading', 0, 'Notre premier désaccord', 'Camila et Léa doivent préparer un exposé ensemble sur la francophonie, mais elles ne sont pas d''accord sur la façon de s''organiser. Léa veut tout préparer à l''avance et suivre un plan très structuré, tandis que Camila préfère improviser et laisser de la place à la créativité. « Ça me dérange que tu changes toujours le plan au dernier moment », dit Léa, un peu frustrée. Camila, surprise par ce ton inhabituel, répond : « Je suis triste que tu penses que je ne prends pas ce projet au sérieux, ce n''est pas vrai du tout ! »
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-relations-et-conflits-reading'), 'reading', 0, 'Parler pour trouver un accord', 'Les désaccords apparaissent dans les relations personnelles, à l’école et au travail ; ils font partie de toute relation durable, même les plus solides. Les spécialistes de la communication expliquent qu’un conflit devient plus facile à résoudre lorsque chaque personne exprime son propre besoin sans accuser directement l’autre. Une phrase comme « ça me dérange que tu changes toujours le plan au dernier moment » exprime une émotion précise, alors qu’une accusation directe pousse souvent l’autre personne à se défendre plutôt qu’à écouter.
 
-La tension monte pendant quelques minutes, et les deux amies se sentent un peu blessées. Après un moment de silence, Léa prend une grande respiration et dit : « Excuse-moi, je crois que je suis juste stressée par cet exposé, ce n''est pas contre toi. » Camila, soulagée, répond : « Je comprends, moi aussi je suis stressée. Peut-être qu''on pourrait trouver un compromis ? Toi, tu prépares la structure, et moi, j''ajoute des idées créatives dans ce cadre. » Léa sourit : « Ça me semble être une excellente idée, même si ça demande qu''on communique bien tout au long du projet. »
+Les médiateurs professionnels, formés pour aider à résoudre des conflits au travail ou à l’école, utilisent une méthode simple : ils demandent d’abord à chaque personne de décrire la situation sans interruption, puis d’exprimer ce qu’elle ressent, avant de proposer une solution concrète. Cette méthode fonctionne aussi bien pour un désaccord scolaire que pour un conflit entre collègues, parce qu’elle empêche la conversation de se transformer immédiatement en dispute.
 
-Grâce à cette conversation honnête, Camila et Léa trouvent un équilibre qui respecte leurs deux façons de travailler. Elles terminent leur exposé ensemble, sans autre dispute, et obtiennent même une très bonne note. Cette expérience leur apprend une leçon importante sur l''amitié : même les meilleures amies ne sont pas toujours d''accord, mais parler calmement de ses émotions et chercher un compromis permet souvent de résoudre un conflit sans abîmer la relation.
+Un compromis n’oblige pas tout le monde à abandonner son opinion. Il consiste plutôt à identifier les priorités de chaque personne, à proposer une solution précise, et à vérifier ensemble qu’elle reste équitable pour les deux parties. Dire clairement qui fera quoi et à quel moment évite souvent de nouveaux malentendus, alors qu’un accord resté trop vague, comme « on va faire un effort », se termine généralement par une nouvelle frustration quelques jours plus tard.
 
-Quelques semaines plus tard, quand un nouveau projet de groupe est annoncé en classe, Camila et Léa demandent immédiatement à travailler ensemble à nouveau, sans la moindre hésitation. Cette fois, elles décident de discuter de leur méthode de travail dès le début, avant même de commencer, pour éviter que les mêmes tensions ne réapparaissent. Leur professeure remarque avec plaisir à quel point leur collaboration s''est améliorée depuis leur premier projet ensemble.', '["Pourquoi Léa et Camila se disputent-elles ?","Quel compromis trouvent-elles ?","Quelle leçon tirent-elles de cette expérience ?"]'::jsonb, '["Camila et Léa doivent préparer un exposé ensemble sur la francophonie, mais elles ne sont pas d''accord sur la façon de s''organiser. Léa veut tout préparer à l''avance et suivre un plan très structuré, tandis que Camila préfère improviser et laisser de la place à la créativité. « Ça me dérange que tu changes toujours le plan au dernier moment », dit Léa, un peu frustrée. Camila, surprise par ce ton inhabituel, répond : « Je suis triste que tu penses que je ne prends pas ce projet au sérieux, ce n''est pas vrai du tout ! »","La tension monte pendant quelques minutes, et les deux amies se sentent un peu blessées. Après un moment de silence, Léa prend une grande respiration et dit : « Excuse-moi, je crois que je suis juste stressée par cet exposé, ce n''est pas contre toi. » Camila, soulagée, répond : « Je comprends, moi aussi je suis stressée. Peut-être qu''on pourrait trouver un compromis ? Toi, tu prépares la structure, et moi, j''ajoute des idées créatives dans ce cadre. » Léa sourit : « Ça me semble être une excellente idée, même si ça demande qu''on communique bien tout au long du projet. »","Grâce à cette conversation honnête, Camila et Léa trouvent un équilibre qui respecte leurs deux façons de travailler. Elles terminent leur exposé ensemble, sans autre dispute, et obtiennent même une très bonne note. Cette expérience leur apprend une leçon importante sur l''amitié : même les meilleures amies ne sont pas toujours d''accord, mais parler calmement de ses émotions et chercher un compromis permet souvent de résoudre un conflit sans abîmer la relation.","Quelques semaines plus tard, quand un nouveau projet de groupe est annoncé en classe, Camila et Léa demandent immédiatement à travailler ensemble à nouveau, sans la moindre hésitation. Cette fois, elles décident de discuter de leur méthode de travail dès le début, avant même de commencer, pour éviter que les mêmes tensions ne réapparaissent. Leur professeure remarque avec plaisir à quel point leur collaboration s''est améliorée depuis leur premier projet ensemble."]'::jsonb, '{"prompt":"Remets les événements du conflit dans l’ordre.","events":["Léa exprime sa frustration sur l’organisation du projet.","Camila se sent blessée par le commentaire de Léa.","Léa s’excuse et explique qu’elle est stressée.","Elles trouvent un compromis pour travailler ensemble."]}'::jsonb);
+Écouter activement, reformuler ce que l’autre personne vient de dire et reconnaître son émotion sont des compétences concrètes que l’on peut apprendre et pratiquer, un peu comme n’importe quelle autre compétence. Les formations à la gestion de conflit, de plus en plus proposées dans les établissements scolaires, montrent que ces compétences permettent de garder le dialogue ouvert même lorsqu’un accord immédiat semble impossible, et qu’elles renforcent souvent la relation plutôt que de l’affaiblir.', '["Selon les spécialistes de la communication, quand un conflit devient-il plus facile à résoudre ?","Que fait une accusation directe, selon le texte ?","Quelle méthode utilisent les médiateurs professionnels ?","Qu’est-ce qu’un compromis, selon le texte ?","Pourquoi un accord trop vague, comme « on va faire un effort », pose-t-il souvent problème ?"]'::jsonb, '["Les désaccords apparaissent dans les relations personnelles, à l’école et au travail ; ils font partie de toute relation durable, même les plus solides. Les spécialistes de la communication expliquent qu’un conflit devient plus facile à résoudre lorsque chaque personne exprime son propre besoin sans accuser directement l’autre. Une phrase comme « ça me dérange que tu changes toujours le plan au dernier moment » exprime une émotion précise, alors qu’une accusation directe pousse souvent l’autre personne à se défendre plutôt qu’à écouter.","Les médiateurs professionnels, formés pour aider à résoudre des conflits au travail ou à l’école, utilisent une méthode simple : ils demandent d’abord à chaque personne de décrire la situation sans interruption, puis d’exprimer ce qu’elle ressent, avant de proposer une solution concrète. Cette méthode fonctionne aussi bien pour un désaccord scolaire que pour un conflit entre collègues, parce qu’elle empêche la conversation de se transformer immédiatement en dispute.","Un compromis n’oblige pas tout le monde à abandonner son opinion. Il consiste plutôt à identifier les priorités de chaque personne, à proposer une solution précise, et à vérifier ensemble qu’elle reste équitable pour les deux parties. Dire clairement qui fera quoi et à quel moment évite souvent de nouveaux malentendus, alors qu’un accord resté trop vague, comme « on va faire un effort », se termine généralement par une nouvelle frustration quelques jours plus tard.","Écouter activement, reformuler ce que l’autre personne vient de dire et reconnaître son émotion sont des compétences concrètes que l’on peut apprendre et pratiquer, un peu comme n’importe quelle autre compétence. Les formations à la gestion de conflit, de plus en plus proposées dans les établissements scolaires, montrent que ces compétences permettent de garder le dialogue ouvert même lorsqu’un accord immédiat semble impossible, et qu’elles renforcent souvent la relation plutôt que de l’affaiblir."]'::jsonb, NULL);
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, line)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-relations-et-conflits-listening'), 'intro', 0, 'Écoute la conversation entre Camila et Léa au moment où elles trouvent un compromis.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-relations-et-conflits-listening'), 'dialogue_line', 0, 'Léa', 'Excuse-moi, je crois que je suis juste stressée par cet exposé.', 'Perdona, creo que solo estoy estresada por esta exposición.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-relations-et-conflits-listening'), 'dialogue_line', 1, 'Camila', 'Je comprends, moi aussi je suis stressée.', 'Entiendo, yo también estoy estresada.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-relations-et-conflits-listening'), 'dialogue_line', 2, 'Léa', 'Peut-être qu’on pourrait trouver un compromis ?', '¿Quizás podríamos encontrar un compromiso?');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-relations-et-conflits-listening'), 'dialogue_line', 3, 'Camila', 'Bonne idée, toi la structure, moi les idées créatives.', 'Buena idea, tú la estructura, yo las ideas creativas.');
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-relations-et-conflits-listening'), 'intro', 0, 'Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-relations-et-conflits-speaking'), 'dialogue_line', 0, 'Toi', 'Ça me dérange un peu que tu changes toujours nos plans. Peut-être qu’on pourrait décider ensemble la prochaine fois ?', 'Me molesta un poco que siempre cambies nuestros planes. ¿Quizás podríamos decidir juntos la próxima vez?');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
@@ -2929,7 +3023,7 @@ VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-relations-
 -- ---------------------------------------------------------------------
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-achats-reading'), 'mcq', 'Pourquoi Léa emmène-t-elle Camila au marché ?', 0)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-achats-reading'), 'mcq', 'Pourquoi les habitants vont-ils au marché ?', 0)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -2955,7 +3049,7 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-achats-reading'), 'mcq', 'Quel fromage choisissent-elles finalement ?', 2)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-achats-reading'), 'mcq', 'Quel fromage est un choix très populaire ?', 2)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -2968,7 +3062,7 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-achats-reading'), 'mcq', 'Combien ont-elles dépensé pour toute la semaine ?', 3)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-achats-reading'), 'mcq', 'Combien dépense en moyenne une famille pour toute la semaine ?', 3)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -2981,7 +3075,7 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-achats-reading'), 'mcq', 'D’après Léa, pourquoi le marché est-il mieux que le supermarché ?', 4)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-achats-reading'), 'mcq', 'Pourquoi le marché est-il mieux que le supermarché, selon le texte ?', 4)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -2994,27 +3088,27 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-achats-reading'), 'mcq', 'Que pense faire Camila à la fin du texte ?', 5)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-achats-reading'), 'mcq', 'Que font les vendeurs, selon le texte ?', 5)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Ne plus jamais retourner au marché', false, 0),
-  ('Proposer ce marché à sa famille à Saint-Domingue', true, 1),
-  ('Travailler comme vendeuse', false, 2),
-  ('Acheter un fromage tous les jours', false, 3)
+  ('Ils ignorent les clients', false, 0),
+  ('Ils font découvrir de nouveaux produits', true, 1),
+  ('Ils vendent seulement des vêtements', false, 2),
+  ('Ils travaillent seulement le dimanche', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-achats-reading'), 'mcq', 'Vrai ou faux : Camila avait déjà goûté beaucoup de fromages avant ce jour.', 6)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-achats-reading'), 'mcq', 'Vrai ou faux : Certains visiteurs n’ont jamais goûté autant de fromages avant leur premier marché.', 6)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Vrai', false, 0),
-  ('Faux', true, 1)
+  ('Vrai', true, 0),
+  ('Faux', false, 1)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
@@ -3232,7 +3326,7 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-au-restaurant-reading'), 'mcq', 'Pour combien de personnes Monsieur Lambert réserve-t-il ?', 0)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-au-restaurant-reading'), 'mcq', 'Pour combien de personnes réserve-t-on dans ce texte ?', 0)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -3245,7 +3339,7 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-au-restaurant-reading'), 'mcq', 'À quelle heure la famille a-t-elle finalement une table ?', 1)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-au-restaurant-reading'), 'mcq', 'À quelle heure reste-t-il parfois de la place ?', 1)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -3258,7 +3352,7 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-au-restaurant-reading'), 'mcq', 'Que recommande le serveur ?', 2)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-au-restaurant-reading'), 'mcq', 'Que recommande souvent le serveur ?', 2)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -3271,7 +3365,7 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-au-restaurant-reading'), 'mcq', 'Que commande Camila ?', 3)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-au-restaurant-reading'), 'mcq', 'Quel plat principal certains invités commandent-ils ?', 3)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -3284,7 +3378,7 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-au-restaurant-reading'), 'mcq', 'Pourquoi Camila appelle-t-elle le serveur ?', 4)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-au-restaurant-reading'), 'mcq', 'Pourquoi un client appelle-t-il le serveur ?', 4)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -3297,33 +3391,33 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-au-restaurant-reading'), 'mcq', 'Comment le serveur réagit-il à la remarque de Camila ?', 5)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-au-restaurant-reading'), 'mcq', 'Comment le serveur réagit-il à cette remarque ?', 5)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
   ('Il l’ignore', false, 0),
-  ('Il s’excuse et réchauffe la soupe', true, 1),
+  ('Il s’excuse et réchauffe le plat', true, 1),
   ('Il se fâche', false, 2),
   ('Il annule la commande', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-au-restaurant-reading'), 'mcq', 'Que fait le serveur à la fin du repas ?', 6)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-au-restaurant-reading'), 'mcq', 'Que font souvent les restaurants pour un anniversaire ?', 6)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Il demande l’addition immédiatement', false, 0),
-  ('Il offre un dessert gratuit pour l’anniversaire', true, 1),
-  ('Il propose une autre table', false, 2),
-  ('Il ferme le restaurant', false, 3)
+  ('Ils demandent l’addition immédiatement', false, 0),
+  ('Ils offrent un dessert gratuit', true, 1),
+  ('Ils proposent une autre table', false, 2),
+  ('Ils ferment le restaurant', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-au-restaurant-reading'), 'mcq', 'Vrai ou faux : Karim est invité pour l’occasion.', 7)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-au-restaurant-reading'), 'mcq', 'Vrai ou faux : Il est fréquent que les plus jeunes commandent une pizza.', 7)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -3535,20 +3629,7 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-se-deplacer-reading'), 'mcq', 'Pourquoi Léa n’accompagne-t-elle pas Camila ?', 0)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Elle est en voyage', false, 0),
-  ('Elle est malade', true, 1),
-  ('Elle ne veut pas y aller', false, 2),
-  ('Elle travaille', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-se-deplacer-reading'), 'mcq', 'Quel numéro de bus Camila doit-elle prendre ?', 1)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-se-deplacer-reading'), 'mcq', 'Quel numéro de bus faut-il prendre pour aller Place Plumereau ?', 0)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -3561,7 +3642,7 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-se-deplacer-reading'), 'mcq', 'Où Camila achète-t-elle son ticket ?', 2)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-se-deplacer-reading'), 'mcq', 'Où achète-t-on son ticket ?', 1)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -3569,12 +3650,12 @@ SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
   ('Dans le bus', false, 0),
   ('Au distributeur automatique', true, 1),
-  ('Chez Karim', false, 2),
+  ('À la boulangerie', false, 2),
   ('À l’école', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-se-deplacer-reading'), 'mcq', 'Que doit faire Camila après la boulangerie ?', 3)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-se-deplacer-reading'), 'mcq', 'Que faut-il faire après la boulangerie ?', 2)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -3587,44 +3668,44 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-se-deplacer-reading'), 'mcq', 'Qui aide Camila à trouver son chemin ?', 4)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-se-deplacer-reading'), 'mcq', 'Qui aide souvent à trouver son chemin ?', 3)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Karim', false, 0),
-  ('Une dame dans la rue', true, 1),
-  ('Un chauffeur de bus', false, 2),
-  ('Léa par téléphone', false, 3)
+  ('Le chauffeur seulement', false, 0),
+  ('Un passant dans la rue', true, 1),
+  ('Un policier', false, 2),
+  ('Personne', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-se-deplacer-reading'), 'mcq', 'Comment se sent Camila à la fin du texte ?', 5)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-se-deplacer-reading'), 'mcq', 'Comment se sentent souvent les nouveaux habitants à la fin du trajet ?', 4)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Fâchée', false, 0),
-  ('Fière d’elle-même', true, 1),
-  ('Triste', false, 2),
-  ('Fatiguée', false, 3)
+  ('Fâchés', false, 0),
+  ('Fiers d’eux-mêmes', true, 1),
+  ('Tristes', false, 2),
+  ('Fatigués', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-se-deplacer-reading'), 'mcq', 'Vrai ou faux : Camila avait déjà pris le bus seule avant.', 6)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-se-deplacer-reading'), 'mcq', 'Vrai ou faux : Prendre le bus seul pour la première fois est une petite aventure.', 5)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Vrai', false, 0),
-  ('Faux', true, 1)
+  ('Vrai', true, 0),
+  ('Faux', false, 1)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-se-deplacer-reading'), 'mcq', 'Dans le texte, « valider son ticket » signifie...', 7)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-se-deplacer-reading'), 'mcq', 'Dans le texte, « valider son ticket » signifie...', 6)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -3637,16 +3718,29 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-se-deplacer-reading'), 'mcq', 'Quelle est l’intention de Camila en racontant « presque » à Karim ?', 8)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-se-deplacer-reading'), 'mcq', 'Combien de minutes dure le trajet en bus jusqu’à l’arrêt ?', 7)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Se plaindre', false, 0),
-  ('Minimiser l’aide qu’elle a reçue avec humour', true, 1),
-  ('Mentir sur son trajet', false, 2),
-  ('Se fâcher contre la dame', false, 3)
+  ('Cinq minutes', false, 0),
+  ('Dix minutes', false, 1),
+  ('Quinze minutes', true, 2),
+  ('Trente minutes', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-se-deplacer-reading'), 'mcq', 'Combien de temps faut-il marcher après l’arrêt de bus ?', 8)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Cinq minutes', false, 0),
+  ('Dix minutes', true, 1),
+  ('Vingt minutes', false, 2),
+  ('Une heure', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
@@ -3657,7 +3751,7 @@ INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
   ('Un problème de bus non résolu', false, 0),
-  ('L’autonomie de Camila dans une nouvelle ville', true, 1),
+  ('L’autonomie dans une nouvelle ville', true, 1),
   ('Une dispute entre amis', false, 2),
   ('Un cours de géographie', false, 3)
 ) AS v(option_text, is_correct, order_index);
@@ -3838,33 +3932,33 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-sante-reading'), 'mcq', 'Depuis combien de temps Camila a-t-elle mal à la gorge ?', 0)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-sante-reading'), 'mcq', 'Quels symptômes sont décrits dans le texte ?', 0)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Un jour', false, 0),
-  ('Deux jours', true, 1),
-  ('Une semaine', false, 2),
-  ('Un mois', false, 3)
+  ('Mal au ventre', false, 0),
+  ('Mal à la gorge et fièvre', true, 1),
+  ('Mal à la tête', false, 2),
+  ('Mal au dos', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-sante-reading'), 'mcq', 'Qui remarque que Camila ne va pas bien ?', 1)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-sante-reading'), 'mcq', 'Comment commence toujours la consultation ?', 1)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Léa', false, 0),
-  ('Madame Lambert', true, 1),
-  ('Karim', false, 2),
-  ('Le médecin', false, 3)
+  ('Par une question sur les symptômes', true, 0),
+  ('Par une prise de sang', false, 1),
+  ('Par un paiement', false, 2),
+  ('Par un examen des yeux', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-sante-reading'), 'mcq', 'Que diagnostique le docteur Martin ?', 2)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-sante-reading'), 'mcq', 'Que diagnostique souvent le médecin dans ce genre de cas ?', 2)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -3877,7 +3971,7 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-sante-reading'), 'mcq', 'Combien de fois par jour Camila doit-elle prendre le médicament ?', 3)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-sante-reading'), 'mcq', 'Combien de fois par jour faut-il prendre le médicament ?', 3)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -3890,33 +3984,33 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-sante-reading'), 'mcq', 'Pourquoi Camila doit-elle éviter l’école ?', 4)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-sante-reading'), 'mcq', 'Pourquoi faut-il éviter l’école ou le travail ?', 4)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
   ('Pour se reposer davantage seulement', false, 0),
-  ('Pour ne pas contaminer ses camarades', true, 1),
+  ('Pour ne pas contaminer les autres', true, 1),
   ('Parce que l’école est fermée', false, 2),
-  ('Parce qu’elle est punie', false, 3)
+  ('Parce que c’est obligatoire', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-sante-reading'), 'mcq', 'Que fait Madame Lambert après la visite chez le médecin ?', 5)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-sante-reading'), 'mcq', 'Que fait-on après la consultation ?', 5)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Elle rentre directement à la maison', false, 0),
-  ('Elle achète le médicament et prépare une soupe', true, 1),
-  ('Elle emmène Camila au restaurant', false, 2),
-  ('Elle appelle Léa', false, 3)
+  ('On rentre directement sans rien faire', false, 0),
+  ('On achète le médicament à la pharmacie', true, 1),
+  ('On va au restaurant', false, 2),
+  ('On appelle un ami', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-sante-reading'), 'mcq', 'Vrai ou faux : Camila est contente de manquer l’école.', 6)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-sante-reading'), 'mcq', 'Vrai ou faux : Beaucoup de patients sont contents de manquer l’école ou le travail.', 6)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -3940,7 +4034,7 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-sante-reading'), 'mcq', 'Quand Camila retourne-t-elle à l’école ?', 8)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-sante-reading'), 'mcq', 'Après combien de jours la plupart des patients se sentent-ils mieux ?', 8)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -3948,12 +4042,12 @@ SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
   ('Le jour même', false, 0),
   ('Le lendemain', false, 1),
-  ('Le lundi suivant', true, 2),
+  ('Après quelques jours de repos', true, 2),
   ('Jamais', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-sante-reading'), 'mcq', 'Quel est le ton général de l’histoire ?', 9)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-sante-reading'), 'mcq', 'Quel est le ton général du texte ?', 9)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -4141,7 +4235,7 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-vie-quotidienne-reading'), 'mcq', 'À quelle heure Camila se réveille-t-elle d’habitude ?', 0)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-vie-quotidienne-reading'), 'mcq', 'À quelle heure se réveillent souvent ces élèves ?', 0)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -4154,7 +4248,7 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-vie-quotidienne-reading'), 'mcq', 'Que boit toujours la famille au petit-déjeuner ?', 1)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-vie-quotidienne-reading'), 'mcq', 'Que boit-on souvent au petit-déjeuner en France ?', 1)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -4180,20 +4274,20 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-vie-quotidienne-reading'), 'mcq', 'Que fait Camila le mercredi après les cours ?', 3)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-vie-quotidienne-reading'), 'mcq', 'Que font ces élèves un jour par semaine après les cours ?', 3)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Elle fait ses devoirs', false, 0),
-  ('Elle a un cours de danse', true, 1),
-  ('Elle rentre directement', false, 2),
-  ('Elle regarde la télévision', false, 3)
+  ('Ils font leurs devoirs seulement', false, 0),
+  ('Ils ont une activité extrascolaire', true, 1),
+  ('Ils rentrent directement', false, 2),
+  ('Ils regardent la télévision', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-vie-quotidienne-reading'), 'mcq', 'À quelle heure la famille dîne-t-elle ?', 4)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-vie-quotidienne-reading'), 'mcq', 'À quelle heure dîne souvent la famille d’accueil ?', 4)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -4206,20 +4300,20 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-vie-quotidienne-reading'), 'mcq', 'Que fait Camila le week-end, selon le texte ?', 5)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-vie-quotidienne-reading'), 'mcq', 'Que font ces élèves le week-end, selon le texte ?', 5)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Elle reste toujours seule', false, 0),
-  ('Elle sort parfois avec Karim et Léa', true, 1),
-  ('Elle travaille', false, 2),
-  ('Elle voyage chaque semaine', false, 3)
+  ('Ils restent toujours seuls', false, 0),
+  ('Ils sortent parfois avec des amis', true, 1),
+  ('Ils travaillent', false, 2),
+  ('Ils voyagent chaque semaine', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-vie-quotidienne-reading'), 'mcq', 'Vrai ou faux : Camila s’ennuie souvent dans sa nouvelle routine.', 6)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-vie-quotidienne-reading'), 'mcq', 'Vrai ou faux : Ces élèves s’ennuient souvent dans leur nouvelle routine.', 6)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -4230,20 +4324,20 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-vie-quotidienne-reading'), 'mcq', 'Dans le texte, « je m’y suis vite habituée » signifie...', 7)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-vie-quotidienne-reading'), 'mcq', 'Dans le texte, « je m’y suis vite habitué(e) » signifie...', 7)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Elle a mis longtemps à s’adapter', false, 0),
-  ('Elle s’est adaptée rapidement', true, 1),
-  ('Elle n’aime pas sa routine', false, 2),
-  ('Elle a changé de routine', false, 3)
+  ('J’ai mis longtemps à m’adapter', false, 0),
+  ('Je me suis adapté(e) rapidement', true, 1),
+  ('Je n’aime pas ma routine', false, 2),
+  ('J’ai changé de routine', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-vie-quotidienne-reading'), 'mcq', 'Quelle est l’activité préférée de la semaine de Camila ?', 8)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-la-vie-quotidienne-reading'), 'mcq', 'Quelle est souvent l’activité préférée de la semaine ?', 8)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -4251,7 +4345,7 @@ SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
   ('Les devoirs à la bibliothèque', false, 0),
   ('Le dîner en famille', false, 1),
-  ('Le cours de danse du mercredi', true, 2),
+  ('L’activité extrascolaire', true, 2),
   ('Le petit-déjeuner', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
@@ -4457,7 +4551,7 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-experiences-passees-reading'), 'mcq', 'Comment Camila est-elle arrivée en France ?', 0)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-experiences-passees-reading'), 'mcq', 'Comment cet(te) élève est-il/elle arrivé(e) en France ?', 0)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -4470,7 +4564,7 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-experiences-passees-reading'), 'mcq', 'Qu’ont visité Camila et ses amis ensemble ?', 1)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-experiences-passees-reading'), 'mcq', 'Qu’ont visité l’élève et ses amis ensemble ?', 1)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -4483,7 +4577,7 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-experiences-passees-reading'), 'mcq', 'Qu’a goûté Camila à Paris ?', 2)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-experiences-passees-reading'), 'mcq', 'Qu’a goûté l’élève à Paris ?', 2)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -4502,27 +4596,27 @@ WITH ex AS (
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Camila est tombée de vélo', true, 0),
-  ('Camila est tombée malade', false, 1),
-  ('Camila a perdu son téléphone', false, 2),
-  ('Camila s’est disputée avec Léa', false, 3)
+  ('L’élève est tombé(e) de vélo', true, 0),
+  ('L’élève est tombé(e) malade', false, 1),
+  ('L’élève a perdu son téléphone', false, 2),
+  ('L’élève s’est disputé(e) avec un ami', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-experiences-passees-reading'), 'mcq', 'Qui a aidé Camila après son accident ?', 4)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-experiences-passees-reading'), 'mcq', 'Qui a aidé l’élève après son accident ?', 4)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Karim', false, 0),
-  ('Léa et Madame Lambert', true, 1),
-  ('Personne', false, 2),
+  ('Personne', false, 0),
+  ('Ses amis et sa famille d’accueil', true, 1),
+  ('Le directeur de l’école', false, 2),
   ('Le médecin seulement', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-experiences-passees-reading'), 'mcq', 'Comment Camila décrit-elle ses nouvelles amitiés ?', 5)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-experiences-passees-reading'), 'mcq', 'Comment l’élève décrit-il/elle ses nouvelles amitiés ?', 5)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -4572,16 +4666,16 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-experiences-passees-reading'), 'mcq', 'Quelle inférence peut-on faire sur la relation de Camila avec la famille Lambert ?', 9)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-experiences-passees-reading'), 'mcq', 'Quelle inférence peut-on faire sur la relation de l’élève avec sa famille d’accueil ?', 9)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
   ('Elle est distante', false, 0),
-  ('Elle est devenue proche et importante pour elle', true, 1),
-  ('Elle veut déménager', false, 2),
-  ('Elle ne les voit presque jamais', false, 3)
+  ('Elle est devenue proche et importante', true, 1),
+  ('L’élève veut déménager', false, 2),
+  ('Il/elle ne la voit presque jamais', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
@@ -4760,7 +4854,7 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-voyages-et-les-vacances-reading'), 'mcq', 'Où la famille Lambert va-t-elle en vacances ?', 0)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-voyages-et-les-vacances-reading'), 'mcq', 'Où voyage-t-on dans ce texte ?', 0)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -4786,7 +4880,7 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-voyages-et-les-vacances-reading'), 'mcq', 'Que réserve Madame Lambert ?', 2)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-voyages-et-les-vacances-reading'), 'mcq', 'Que conseille-t-on de réserver à l’avance ?', 2)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -4799,7 +4893,7 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-voyages-et-les-vacances-reading'), 'mcq', 'Qu’est-ce que Léa rappelle à Camila d’emporter ?', 3)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-voyages-et-les-vacances-reading'), 'mcq', 'Que rappelle-t-on souvent d’emporter ?', 3)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -4812,7 +4906,7 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-voyages-et-les-vacances-reading'), 'mcq', 'Que font-ils tous les jours pendant leur séjour ?', 4)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-voyages-et-les-vacances-reading'), 'mcq', 'Que font les touristes tous les jours pendant leur séjour ?', 4)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -4838,14 +4932,14 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-voyages-et-les-vacances-reading'), 'mcq', 'Vrai ou faux : Camila avait déjà vu la mer Méditerranée avant ce voyage.', 6)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-voyages-et-les-vacances-reading'), 'mcq', 'Vrai ou faux : pour certains touristes, c’est leur première fois devant la mer Méditerranée.', 6)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Vrai', false, 0),
-  ('Faux', true, 1)
+  ('Vrai', true, 0),
+  ('Faux', false, 1)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
@@ -4862,20 +4956,20 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-voyages-et-les-vacances-reading'), 'mcq', 'Pourquoi Camila prend-elle beaucoup de photos ?', 8)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-voyages-et-les-vacances-reading'), 'mcq', 'Pourquoi les voyageurs prennent-ils beaucoup de photos ?', 8)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
   ('Pour les vendre', false, 0),
-  ('Pour les montrer à sa famille à Saint-Domingue', true, 1),
+  ('Pour les montrer à leur famille', true, 1),
   ('Parce que c’est obligatoire', false, 2),
   ('Pour un devoir scolaire', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-voyages-et-les-vacances-reading'), 'mcq', 'Quel est le sentiment général de Camila à propos de ce voyage ?', 9)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-voyages-et-les-vacances-reading'), 'mcq', 'Quel est le sentiment général décrit à propos de ce voyage ?', 9)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -5128,7 +5222,7 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-le-logement-reading'), 'mcq', 'Que recommande Karim pour un étudiant seul ?', 5)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-le-logement-reading'), 'mcq', 'Que recommandent les élèves pour un étudiant seul ?', 5)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -5165,7 +5259,7 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-le-logement-reading'), 'mcq', 'Quelle est l’intention principale de Camila et Karim dans ce texte ?', 8)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-le-logement-reading'), 'mcq', 'Quelle est l’intention principale des élèves dans ce texte ?', 8)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -5366,7 +5460,7 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-loisirs-et-les-medias-reading'), 'mcq', 'Quel genre de film Léa préfère-t-elle ?', 0)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-loisirs-et-les-medias-reading'), 'mcq', 'Quel genre de film préfère le premier ami ?', 0)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -5379,7 +5473,7 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-loisirs-et-les-medias-reading'), 'mcq', 'Quel genre de film Karim préfère-t-il ?', 1)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-loisirs-et-les-medias-reading'), 'mcq', 'Quel genre de film préfère le deuxième ami ?', 1)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -5392,20 +5486,20 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-loisirs-et-les-medias-reading'), 'mcq', 'Pourquoi Karim ne fait-il pas confiance aux réseaux sociaux ?', 2)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-loisirs-et-les-medias-reading'), 'mcq', 'Pourquoi ne fait-on pas confiance aux réseaux sociaux, selon un des amis ?', 2)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Il ne les utilise jamais', false, 0),
+  ('On ne les utilise jamais', false, 0),
   ('Les avis sont souvent faux', true, 1),
   ('Ils sont trop lents', false, 2),
-  ('Il préfère les livres', false, 3)
+  ('On préfère les livres', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-loisirs-et-les-medias-reading'), 'mcq', 'Que propose Camila comme solution ?', 3)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-loisirs-et-les-medias-reading'), 'mcq', 'Que propose-t-on comme solution ?', 3)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -5431,7 +5525,7 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-loisirs-et-les-medias-reading'), 'mcq', 'Comment réagit Karim après le documentaire ?', 5)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-loisirs-et-les-medias-reading'), 'mcq', 'Comment réagit le groupe après le documentaire ?', 5)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -5444,7 +5538,7 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-loisirs-et-les-medias-reading'), 'mcq', 'Vrai ou faux : Karim aime habituellement les documentaires.', 6)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-les-loisirs-et-les-medias-reading'), 'mcq', 'Vrai ou faux : tout le groupe aime habituellement les documentaires.', 6)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -5487,10 +5581,10 @@ WITH ex AS (
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Ils se retrouvent chez les Lambert.', false, 0),
+  ('Ils se retrouvent pour une soirée cinéma.', false, 0),
   ('Personnellement, je préfère les films d’action.', true, 1),
   ('Ils regardent un documentaire sur les océans.', false, 2),
-  ('Léa propose une série.', false, 3)
+  ('On propose une série.', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
@@ -5669,72 +5763,72 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-relations-et-communication-reading'), 'mcq', 'Qui sont les deux nouveaux amis de Camila ?', 0)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-relations-et-communication-reading'), 'mcq', 'Qui sont les deux nouveaux amis mentionnés ?', 0)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Léa et Karim', true, 0),
-  ('Sofía et Karim', false, 1),
-  ('Madame et Monsieur Lambert', false, 2),
-  ('Léa et Madame Lambert', false, 3)
+  ('La fille de la famille d’accueil et un camarade de classe', true, 0),
+  ('Deux professeurs', false, 1),
+  ('Les parents de la famille d’accueil', false, 2),
+  ('Deux voisins', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-relations-et-communication-reading'), 'mcq', 'Qui manque énormément à Camila ?', 1)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-relations-et-communication-reading'), 'mcq', 'Qui manque énormément à l’auteur ?', 1)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Léa', false, 0),
-  ('Karim', false, 1),
-  ('Sofía et son groupe d’amies', true, 2),
-  ('Madame Lambert', false, 3)
+  ('Sa famille d’accueil', false, 0),
+  ('Son professeur', false, 1),
+  ('Son ami(e) et son groupe d’amis', true, 2),
+  ('Personne', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-relations-et-communication-reading'), 'mcq', 'Sur quoi Camila et Léa ne sont-elles pas d’accord ?', 2)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-relations-et-communication-reading'), 'mcq', 'Sur quoi ne sont-ils pas d’accord ?', 2)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Le type de films qu’elles préfèrent', true, 0),
+  ('Le type de films qu’ils préfèrent', true, 0),
   ('La routine du matin', false, 1),
   ('Le choix de l’école', false, 2),
   ('Le pays où voyager', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-relations-et-communication-reading'), 'mcq', 'Que propose Camila pour rester en contact avec Sofía ?', 3)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-relations-et-communication-reading'), 'mcq', 'Que propose l’auteur pour rester en contact ?', 3)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Ne plus jamais lui écrire', false, 0),
+  ('Ne plus jamais écrire', false, 0),
   ('Se voir en France ou par appel vidéo', true, 1),
-  ('Attendre son retour définitif', false, 2),
+  ('Attendre le retour définitif', false, 2),
   ('Écrire seulement une fois par an', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-relations-et-communication-reading'), 'mcq', 'Que dit Camila à propos de la ville où elle habite ?', 4)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-relations-et-communication-reading'), 'mcq', 'Que dit l’auteur à propos de la ville où il/elle habite ?', 4)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Elle la déteste', false, 0),
-  ('Elle envoie des photos de Tours à Sofía', true, 1),
-  ('Elle veut déménager', false, 2),
-  ('Elle n’en parle pas', false, 3)
+  ('Il/elle la déteste', false, 0),
+  ('Il/elle envoie des photos de Tours', true, 1),
+  ('Il/elle veut déménager', false, 2),
+  ('Il/elle n’en parle pas', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-relations-et-communication-reading'), 'mcq', 'Comment Camila décrit-elle sa relation avec Léa et Karim ?', 5)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-relations-et-communication-reading'), 'mcq', 'Comment l’auteur décrit-il/elle sa relation avec ses nouveaux amis ?', 5)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -5747,7 +5841,7 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-relations-et-communication-reading'), 'mcq', 'Vrai ou faux : Camila regrette d’être partie en France.', 6)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-relations-et-communication-reading'), 'mcq', 'Vrai ou faux : l’auteur regrette d’être parti(e) en France.', 6)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -5790,9 +5884,9 @@ WITH ex AS (
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Léa est la fille de la famille qui m’héberge.', false, 0),
+  ('C’est la fille de la famille qui m’héberge.', false, 0),
   ('Tu me manques énormément.', true, 1),
-  ('Karim est un garçon de ma classe.', false, 2),
+  ('C’est un camarade de ma classe.', false, 2),
   ('J’habite à Tours maintenant.', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
@@ -5972,133 +6066,531 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-projets-et-avenir-reading'), 'mcq', 'Quel est le sujet principal du texte ?', 0)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-services-et-demarches-reading'), 'mcq', 'Pourquoi Nora entre-t-elle dans la médiathèque ?', 0)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Un voyage touristique', false, 0),
-  ('Une décision importante sur l’avenir de Camila', true, 1),
-  ('Un problème de santé', false, 2),
-  ('Un examen scolaire', false, 3)
+  ('Pour chercher un emploi', false, 0),
+  ('Pour demander une carte', true, 1),
+  ('Pour payer une facture', false, 2),
+  ('Pour rencontrer la mairie', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-projets-et-avenir-reading'), 'mcq', 'Que lui proposent ses parents ?', 1)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-services-et-demarches-reading'), 'mcq', 'Quels documents doit-elle présenter ?', 1)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('De rentrer immédiatement', false, 0),
-  ('De prolonger son échange si elle le souhaite', true, 1),
-  ('De changer de famille d’accueil', false, 2),
-  ('De changer de ville en France', false, 3)
+  ('Un billet et une photo', false, 0),
+  ('Une pièce d’identité et un justificatif de domicile', true, 1),
+  ('Un diplôme et un CV', false, 2),
+  ('Une ordonnance et une carte bancaire', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-projets-et-avenir-reading'), 'mcq', 'Qui manque le plus à Camila si elle reste en France ?', 2)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-services-et-demarches-reading'), 'mcq', 'Que peut-elle télécharger sur le site ?', 2)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Ses amis d’enfance seulement', false, 0),
-  ('Sa grand-mère et sa famille', true, 1),
-  ('Ses professeurs', false, 2),
-  ('Personne en particulier', false, 3)
+  ('Le formulaire', true, 0),
+  ('Les romans', false, 1),
+  ('Sa pièce d’identité', false, 2),
+  ('Sa carte définitive', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-projets-et-avenir-reading'), 'mcq', 'Que dit Léa pour rassurer Camila ?', 3)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-services-et-demarches-reading'), 'mcq', 'Pourquoi Nora revient-elle le lendemain ?', 3)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Qu’elle doit absolument rester', false, 0),
-  ('Qu’il n’y a pas de mauvaise décision', true, 1),
-  ('Qu’elle doit absolument partir', false, 2),
-  ('Qu’elle ne la reverra jamais', false, 3)
+  ('Pour annuler son inscription', false, 0),
+  ('Pour apporter les documents originaux', true, 1),
+  ('Pour changer de quartier', false, 2),
+  ('Pour rendre un livre', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-projets-et-avenir-reading'), 'mcq', 'Quelle est la décision finale de Camila ?', 4)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-services-et-demarches-reading'), 'mcq', 'Quand le guichet est-il généralement moins chargé ?', 4)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Rester définitivement en France', false, 0),
-  ('Rentrer à Saint-Domingue avec le projet de revenir plus tard', true, 1),
-  ('Ne jamais revenir en France', false, 2),
-  ('Changer de pays d’échange', false, 3)
+  ('Le matin', true, 0),
+  ('L’après-midi', false, 1),
+  ('Le soir', false, 2),
+  ('Le dimanche', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-projets-et-avenir-reading'), 'mcq', 'Dans le texte, « quelle que soit sa décision » signifie...', 5)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-services-et-demarches-reading'), 'mcq', 'Qu’emprunte Nora après son inscription ?', 5)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Peu importe ce qu’elle choisit', true, 0),
-  ('Elle doit absolument choisir la France', false, 1),
-  ('Elle n’a pas le droit de choisir', false, 2),
-  ('Sa décision est déjà annulée', false, 3)
+  ('Deux films', false, 0),
+  ('Deux romans', true, 1),
+  ('Un ordinateur', false, 2),
+  ('Un formulaire', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-projets-et-avenir-reading'), 'mcq', 'Quel connecteur le texte utilise-t-il pour opposer deux idées ?', 6)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-services-et-demarches-reading'), 'mcq', 'À quelle activité s’inscrit-elle ?', 6)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Parce que', false, 0),
-  ('D’un côté / de l’autre côté', true, 1),
-  ('Donc', false, 2),
-  ('Ensuite', false, 3)
+  ('Un cours de cuisine', false, 0),
+  ('Un atelier de conversation', true, 1),
+  ('Une visite de la mairie', false, 2),
+  ('Un club sportif', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-projets-et-avenir-reading'), 'mcq', 'Quelle inférence peut-on faire sur l’amitié entre Camila et Léa ?', 7)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-services-et-demarches-reading'), 'mcq', 'Quelle conclusion correspond au texte ?', 7)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Elle va probablement se terminer', false, 0),
-  ('Elle va probablement continuer malgré la distance', true, 1),
-  ('Elle n’a jamais été sincère', false, 2),
-  ('Léa est en colère contre Camila', false, 3)
+  ('La démarche reste impossible', false, 0),
+  ('Les explications rendent la démarche plus simple', true, 1),
+  ('Nora préfère renoncer', false, 2),
+  ('La médiathèque est fermée', false, 3)
+) AS v(option_text, is_correct, order_index);
+INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-services-et-demarches-speaking'), 'speaking', 'Simule une demande au guichet : présente ta démarche et pose au moins trois questions pratiques.', 0);
+INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-services-et-demarches-writing'), 'writing', 'Écris un e-mail de 80 à 100 mots à un service public en utilisant y ou en au moins une fois.', 0);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-services-et-demarches-grammar'), 'mcq', 'Tu vas à la mairie ? Oui, j’___ vais demain.', 0)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('y', true, 0),
+  ('en', false, 1),
+  ('le', false, 2),
+  ('lui', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-projets-et-avenir-reading'), 'mcq', 'Quelle phrase exprime une opinion, et non un fait ?', 8)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-services-et-demarches-grammar'), 'mcq', 'Vous avez besoin de ce formulaire ? Oui, j’___ ai besoin.', 1)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Camila vit à Tours depuis un an.', false, 0),
-  ('À mon avis, il n’y a pas de mauvaise décision ici.', true, 1),
-  ('Camila parle avec Léa un soir.', false, 2),
-  ('Ses parents lui ont proposé de prolonger son échange.', false, 3)
+  ('y', false, 0),
+  ('en', true, 1),
+  ('la', false, 2),
+  ('les', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-projets-et-avenir-reading'), 'mcq', 'Quel est le ton général de la fin du texte ?', 9)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-services-et-demarches-grammar'), 'mcq', 'Combien de justificatifs faut-il ? Il faut ___ apporter deux.', 2)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Pessimiste et froid', false, 0),
-  ('Nostalgique mais plein d’espoir', true, 1),
-  ('Fâché et déçu', false, 2),
-  ('Indifférent', false, 3)
+  ('y', false, 0),
+  ('en', true, 1),
+  ('leur', false, 2),
+  ('les', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-services-et-demarches-grammar'), 'mcq', 'Elle est au guichet et elle ___ attend son tour.', 3)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('y', true, 0),
+  ('en', false, 1),
+  ('le', false, 2),
+  ('lui', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-services-et-demarches-vocabulary'), 'mcq', 'Où parle-t-on avec un agent ?', 0)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Au guichet', true, 0),
+  ('Dans un panier', false, 1),
+  ('À la caisse du marché', false, 2),
+  ('Sur un quai', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-services-et-demarches-vocabulary'), 'mcq', 'Quel document prouve votre adresse ?', 1)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Un menu', false, 0),
+  ('Un justificatif de domicile', true, 1),
+  ('Un ticket de bus', false, 2),
+  ('Une carte postale', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-services-et-demarches-vocabulary'), 'mcq', 'Que signifie « renouveler » ?', 2)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Annuler définitivement', false, 0),
+  ('Rendre de nouveau valable', true, 1),
+  ('Comparer deux prix', false, 2),
+  ('Changer de logement', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-services-et-demarches-dialogue'), 'mcq', 'Quel document manque-t-il ?', 0)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Le formulaire', false, 0),
+  ('Le justificatif de domicile', true, 1),
+  ('La carte définitive', false, 2),
+  ('Le reçu', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-services-et-demarches-dialogue'), 'mcq', 'Comment l’usager va-t-il transmettre le document ?', 1)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Par la poste', false, 0),
+  ('En ligne', true, 1),
+  ('Par un voisin', false, 2),
+  ('Il ne va pas le transmettre', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-projets-solidaires-reading'), 'mcq', 'Quel est l’objectif de la journée ?', 0)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Vendre des vêtements', false, 0),
+  ('Organiser une collecte solidaire', true, 1),
+  ('Préparer un concert', false, 2),
+  ('Nettoyer une gare', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-projets-solidaires-reading'), 'mcq', 'Où la collecte a-t-elle lieu ?', 1)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('À la mairie', false, 0),
+  ('Au centre culturel', true, 1),
+  ('Dans une école', false, 2),
+  ('Au marché', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-projets-solidaires-reading'), 'mcq', 'Que va préparer Hugo ?', 2)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Des affiches', true, 0),
+  ('Des repas', false, 1),
+  ('Des billets', false, 2),
+  ('Des médicaments', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-projets-solidaires-reading'), 'mcq', 'Quels objets l’association accepte-t-elle ?', 3)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Tous les objets sans condition', false, 0),
+  ('Des objets propres et en bon état', true, 1),
+  ('Seulement de l’argent', false, 2),
+  ('Uniquement des meubles', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-projets-solidaires-reading'), 'mcq', 'Le don financier est-il obligatoire ?', 4)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Oui, toujours', false, 0),
+  ('Non, il est facultatif', true, 1),
+  ('Seulement pour les bénévoles', false, 2),
+  ('Le texte ne le précise pas', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-projets-solidaires-reading'), 'mcq', 'Que font les bénévoles avec les dons ?', 5)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Ils les jettent', false, 0),
+  ('Ils les trient et préparent des sacs', true, 1),
+  ('Ils les vendent en ligne', false, 2),
+  ('Ils les renvoient', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-projets-solidaires-reading'), 'mcq', 'Combien de vêtements ont-ils collectés ?', 6)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Quarante', false, 0),
+  ('Quatre-vingts', false, 1),
+  ('Cent', false, 2),
+  ('Cent vingt', true, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-projets-solidaires-reading'), 'mcq', 'Comment les participants se sentent-ils à la fin ?', 7)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Fatigués mais heureux', true, 0),
+  ('Déçus et en colère', false, 1),
+  ('Indifférents', false, 2),
+  ('Inquiets', false, 3)
+) AS v(option_text, is_correct, order_index);
+INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-projets-solidaires-speaking'), 'speaking', 'Présente une action solidaire pendant une minute et formule au moins deux demandes polies.', 0);
+INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-projets-solidaires-writing'), 'writing', 'Rédige une annonce de 90 à 110 mots en utilisant « on pourrait » et une demande au conditionnel.', 0);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-projets-solidaires-grammar'), 'mcq', 'Pour faire une proposition polie : On ___ organiser une collecte.', 0)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('pourrait', true, 0),
+  ('peut', false, 1),
+  ('devait', false, 2),
+  ('va', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-projets-solidaires-grammar'), 'mcq', '___-vous apporter des cartons, s’il vous plaît ?', 1)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Pouvez', false, 0),
+  ('Pourriez', true, 1),
+  ('Pourrez', false, 2),
+  ('Deviez', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-projets-solidaires-grammar'), 'mcq', 'Je ___ participer comme bénévole.', 2)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('voudrais', true, 0),
+  ('veux de', false, 1),
+  ('voudrait', false, 2),
+  ('voulais de', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-projets-solidaires-grammar'), 'mcq', 'Tu ___ préparer une affiche pour demain.', 3)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('pourrais', true, 0),
+  ('pourriez', false, 1),
+  ('pourrait', false, 2),
+  ('pourrions', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-projets-solidaires-vocabulary'), 'mcq', 'Comment appelle-t-on une personne qui aide gratuitement ?', 0)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Un vendeur', false, 0),
+  ('Un bénévole', true, 1),
+  ('Un locataire', false, 2),
+  ('Un agent immobilier', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-projets-solidaires-vocabulary'), 'mcq', 'Que signifie « trier » ?', 1)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Classer par catégories', true, 0),
+  ('Acheter à crédit', false, 1),
+  ('Réserver une chambre', false, 2),
+  ('Remplir un formulaire', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-projets-solidaires-vocabulary'), 'mcq', 'Quel objet peut être donné ?', 2)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Un livre en bon état', true, 0),
+  ('Un vêtement sale et déchiré', false, 1),
+  ('Un dossier administratif', false, 2),
+  ('Un ticket utilisé', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-projets-solidaires-dialogue'), 'mcq', 'Que va préparer Hugo ?', 0)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Les affiches', true, 0),
+  ('La salle', false, 1),
+  ('Les repas', false, 2),
+  ('Les cartes', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-a2-projets-solidaires-dialogue'), 'mcq', 'Que va réserver Lina ?', 1)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Un hôtel', false, 0),
+  ('La salle', true, 1),
+  ('Un billet', false, 2),
+  ('Un appartement', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-projets-et-avenir-reading'), 'mcq', 'Selon le texte, que doit-on faire en premier pour clarifier un projet d’avenir ?', 0)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Distinguer le but final des étapes nécessaires', true, 0),
+  ('Attendre que les circonstances changent', false, 1),
+  ('Éviter de fixer une date', false, 2),
+  ('Ne rien planifier à l’avance', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-projets-et-avenir-reading'), 'mcq', 'Que font les centres d’information jeunesse, selon le texte ?', 1)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Ils interdisent les projets à l’étranger', false, 0),
+  ('Ils aident à fixer des objectifs mesurables et un calendrier réaliste', true, 1),
+  ('Ils choisissent le projet à la place du jeune', false, 2),
+  ('Ils ne travaillent qu’avec les universités', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-projets-et-avenir-reading'), 'mcq', 'Pourquoi le calendrier doit-il être consulté souvent ?', 2)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Parce que les dates limites changent parfois d’une année à l’autre', true, 0),
+  ('Parce qu’il est obligatoire de le réviser chaque jour', false, 1),
+  ('Parce qu’il ne sert à rien autrement', false, 2),
+  ('Parce que les conseillers le demandent par politesse', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-projets-et-avenir-reading'), 'mcq', 'Pourquoi les conseillers recommandent-ils de prévoir un plan B ?', 3)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Parce qu’un projet trop rigide s’effondre facilement en cas d’imprévu', true, 0),
+  ('Parce qu’un seul plan est toujours suffisant', false, 1),
+  ('Parce que le plan B remplace toujours le plan A', false, 2),
+  ('Parce que cela n’a aucune utilité réelle', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-projets-et-avenir-reading'), 'mcq', 'Selon les spécialistes, quels sont les trois éléments d’un bon projet d’avenir ?', 4)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Une action concrète, une échéance réaliste et la volonté de demander conseil', true, 0),
+  ('Un objectif secret, un budget illimité et beaucoup de chance', false, 1),
+  ('Un plan figé, l’absence de délai et l’indépendance totale', false, 2),
+  ('Un diplôme, un visa et un logement', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-projets-et-avenir-reading'), 'mcq', 'Quel est le ton général de cet article ?', 5)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Informatif et pratique', true, 0),
+  ('Critique et pessimiste', false, 1),
+  ('Humoristique', false, 2),
+  ('Publicitaire', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
@@ -6277,131 +6769,81 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-identite-et-parcours-personnel-reading'), 'mcq', 'Comment Camila se décrivait-elle avant son départ ?', 0)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-identite-et-parcours-personnel-reading'), 'mcq', 'Selon le texte, à quoi se résume l’identité d’une personne ?', 0)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Bavarde et confiante', false, 0),
-  ('Timide et discrète', true, 1),
-  ('Fâchée et froide', false, 2),
-  ('Paresseuse', false, 3)
+  ('À une seule nationalité ou une seule langue', false, 0),
+  ('À plusieurs facettes qui se combinent (famille, études, voyages, rencontres)', true, 1),
+  ('Uniquement au pays de naissance', false, 2),
+  ('Uniquement à la langue maternelle', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-identite-et-parcours-personnel-reading'), 'mcq', 'Depuis combien de temps Camila est-elle en France ?', 1)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-identite-et-parcours-personnel-reading'), 'mcq', 'Que montrent les enquêtes menées auprès de jeunes ayant vécu une mobilité internationale ?', 1)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Deux mois', false, 0),
-  ('Cinq mois', false, 1),
-  ('Huit mois', true, 2),
-  ('Un an', false, 3)
+  ('Qu’ils se sentent divisés entre deux cultures', false, 0),
+  ('Qu’ils décrivent leur identité comme « plurielle » plutôt que « divisée »', true, 1),
+  ('Qu’ils rejettent leur culture d’origine', false, 2),
+  ('Qu’ils préfèrent ne jamais voyager à nouveau', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-identite-et-parcours-personnel-reading'), 'mcq', 'Quelle difficulté Camila a-t-elle rencontrée au début ?', 2)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-identite-et-parcours-personnel-reading'), 'mcq', 'Quelle question peut créer une tension, selon les spécialistes de l’interculturalité ?', 2)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Elle n’aimait pas la nourriture', false, 0),
-  ('Elle ne comprenait presque rien en français', true, 1),
-  ('Elle n’avait pas de famille d’accueil', false, 2),
-  ('Elle voulait rentrer immédiatement', false, 3)
+  ('« Comment vas-tu ? »', false, 0),
+  ('« Mais tu es d’où, vraiment ? »', true, 1),
+  ('« Quel est ton plat préféré ? »', false, 2),
+  ('« Quelle heure est-il ? »', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-identite-et-parcours-personnel-reading'), 'mcq', 'Comment Camila a-t-elle progressivement pris confiance en elle ?', 3)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-identite-et-parcours-personnel-reading'), 'mcq', 'Pourquoi cette question peut-elle être problématique ?', 3)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('En évitant de parler français', false, 0),
-  ('En parlant français tous les jours, malgré la peur de se tromper', true, 1),
-  ('En restant seule tout le temps', false, 2),
-  ('En changeant de famille d’accueil', false, 3)
+  ('Parce qu’elle donne l’impression qu’il faut choisir une seule catégorie', true, 0),
+  ('Parce qu’elle est toujours posée avec méchanceté', false, 1),
+  ('Parce qu’elle est interdite dans certains pays', false, 2),
+  ('Parce qu’elle n’a aucun rapport avec l’identité', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-identite-et-parcours-personnel-reading'), 'mcq', 'Que disent Léa et Karim de Camila aujourd’hui ?', 4)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-identite-et-parcours-personnel-reading'), 'mcq', 'Que font certains établissements scolaires pour valoriser la pluralité des parcours ?', 4)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Qu’elle est toujours aussi timide', false, 0),
-  ('Qu’elle est devenue plus bavarde qu’eux', true, 1),
-  ('Qu’elle ne parle jamais en classe', false, 2),
-  ('Qu’elle veut rentrer chez elle', false, 3)
+  ('Ils interdisent de parler d’une autre culture', false, 0),
+  ('Ils organisent des projets interculturels sur les traditions et les langues', true, 1),
+  ('Ils demandent aux élèves de cacher leurs origines', false, 2),
+  ('Ils n’en parlent jamais', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-identite-et-parcours-personnel-reading'), 'mcq', 'Quel temps grammatical domine la description de la vie de Camila « avant » ?', 5)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-identite-et-parcours-personnel-reading'), 'mcq', 'Quelle est l’idée principale du dernier paragraphe ?', 5)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Le futur simple', false, 0),
-  ('L’imparfait', true, 1),
-  ('Le conditionnel', false, 2),
-  ('Le subjonctif', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-identite-et-parcours-personnel-reading'), 'mcq', 'Vrai ou faux : Camila pense que le changement est une mauvaise chose.', 6)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Vrai', false, 0),
-  ('Faux', true, 1)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-identite-et-parcours-personnel-reading'), 'mcq', 'Dans le texte, « sortir de sa zone de confort » signifie...', 7)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Rester dans ses habitudes', false, 0),
-  ('Faire des choses qui nous mettent mal à l’aise mais nous font grandir', true, 1),
-  ('Voyager souvent', false, 2),
-  ('Éviter les problèmes', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-identite-et-parcours-personnel-reading'), 'mcq', 'Quelle est l’intention principale de ce texte ?', 8)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Se plaindre de la vie en France', false, 0),
-  ('Réfléchir sur son évolution personnelle', true, 1),
-  ('Décrire la ville de Tours', false, 2),
-  ('Expliquer un problème de logement', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-identite-et-parcours-personnel-reading'), 'mcq', 'Quelle conclusion Camila tire-t-elle de son expérience ?', 9)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Le changement est toujours facile', false, 0),
-  ('Le changement peut être difficile mais nous rend plus forts', true, 1),
-  ('Il ne faut jamais changer', false, 2),
-  ('Elle regrette d’être partie', false, 3)
+  ('L’identité se construit à travers l’accumulation d’expériences diverses', true, 0),
+  ('Il faut choisir une seule culture pour être accepté', false, 1),
+  ('Les traditions familiales doivent être oubliées', false, 2),
+  ('Voyager efface toujours l’identité d’origine', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
@@ -6580,131 +7022,81 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-etudes-et-apprentissage-reading'), 'mcq', 'Quelle difficulté Camila décrit-elle ?', 0)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-etudes-et-apprentissage-reading'), 'mcq', 'Pourquoi la simple relecture d’un cours est-elle jugée insuffisante ?', 0)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Elle ne comprend rien en classe', false, 0),
-  ('Elle oublie tout quand elle est seule pour les exercices', true, 1),
-  ('Elle n’aime pas les mathématiques', false, 2),
-  ('Elle n’a pas de livre', false, 3)
+  ('Parce qu’elle prend trop de temps', false, 0),
+  ('Parce qu’elle est passive et ne renforce pas autant la mémoire que le rappel actif', true, 1),
+  ('Parce qu’elle est interdite à l’école', false, 2),
+  ('Parce qu’elle demande un ordinateur', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-etudes-et-apprentissage-reading'), 'mcq', 'Que suggère Karim en premier ?', 1)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-etudes-et-apprentissage-reading'), 'mcq', 'Qu’est-ce que le « rappel actif » ?', 1)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('D’abandonner les mathématiques', false, 0),
-  ('De commencer par les exercices simples', true, 1),
-  ('D’étudier seulement la veille', false, 2),
-  ('De changer de classe', false, 3)
+  ('Une méthode où le cerveau doit retrouver l’information lui-même', true, 0),
+  ('Une technique pour dormir plus longtemps', false, 1),
+  ('Un logiciel de révision', false, 2),
+  ('Une façon de copier un cours plusieurs fois', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-etudes-et-apprentissage-reading'), 'mcq', 'Quelle technique Karim montre-t-il à Camila ?', 2)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-etudes-et-apprentissage-reading'), 'mcq', 'Que révèle le fait d’expliquer un problème à voix haute ?', 2)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Écouter de la musique en étudiant', false, 0),
-  ('Expliquer à voix haute comment résoudre un problème', true, 1),
-  ('Copier les réponses d’un ami', false, 2),
-  ('Étudier seulement le matin', false, 3)
+  ('Rien d’utile', false, 0),
+  ('Ce qui reste flou dans la compréhension', true, 1),
+  ('Le niveau de bruit dans la pièce', false, 2),
+  ('Le temps qu’il faudra pour finir l’exercice', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-etudes-et-apprentissage-reading'), 'mcq', 'Combien de temps Camila révise-t-elle chaque soir ?', 3)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-etudes-et-apprentissage-reading'), 'mcq', 'Quel type de retour est le plus utile, selon les chercheurs en pédagogie ?', 3)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Quinze minutes', false, 0),
-  ('Trente minutes', true, 1),
-  ('Une heure', false, 2),
-  ('Deux heures', false, 3)
+  ('Un retour vague comme « continue tes efforts »', false, 0),
+  ('Un retour précis, comme indiquer l’étape exacte à revoir', true, 1),
+  ('Aucun retour', false, 2),
+  ('Un retour donné seulement en fin d’année', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-etudes-et-apprentissage-reading'), 'mcq', 'Quelle note Camila obtient-elle à l’examen ?', 4)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-etudes-et-apprentissage-reading'), 'mcq', 'Que recommande le texte pour organiser ses révisions ?', 4)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Douze sur vingt', false, 0),
-  ('Quinze sur vingt', false, 1),
-  ('Dix-sept sur vingt', true, 2),
-  ('Vingt sur vingt', false, 3)
+  ('Une seule longue soirée de révision sans plan', false, 0),
+  ('De courtes séances régulières et bien organisées', true, 1),
+  ('De ne réviser que la veille de l’examen', false, 2),
+  ('De ne jamais faire de pause', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-etudes-et-apprentissage-reading'), 'mcq', 'Comment Camila se sent-elle avant l’examen, après une semaine de révisions ?', 5)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-etudes-et-apprentissage-reading'), 'mcq', 'Quel est l’objectif principal de cet article ?', 5)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Toujours très inquiète', false, 0),
-  ('Plus confiante', true, 1),
-  ('Indifférente', false, 2),
-  ('Fâchée', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-etudes-et-apprentissage-reading'), 'mcq', 'Vrai ou faux : c’était la première fois que Camila avait une si bonne note en mathématiques.', 6)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Vrai', true, 0),
-  ('Faux', false, 1)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-etudes-et-apprentissage-reading'), 'mcq', 'Dans le texte, « à ta place » signifie...', 7)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Dans ta maison', false, 0),
-  ('Si j’étais toi', true, 1),
-  ('À ton école', false, 2),
-  ('Devant toi', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-etudes-et-apprentissage-reading'), 'mcq', 'Quelle est la conclusion principale du texte ?', 8)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Les mathématiques sont impossibles à apprendre', false, 0),
-  ('Avec une bonne méthode et de la régularité, on progresse', true, 1),
-  ('Il faut toujours étudier seul', false, 2),
-  ('Les conseils des amis ne servent à rien', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-etudes-et-apprentissage-reading'), 'mcq', 'Pourquoi Camila se sent-elle « un peu ridicule » au début ?', 9)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Parce qu’elle échoue à l’examen', false, 0),
-  ('Parce qu’elle parle toute seule dans sa chambre', true, 1),
-  ('Parce que Karim se moque d’elle', false, 2),
-  ('Parce qu’elle n’a pas de livre', false, 3)
+  ('Présenter des méthodes d’apprentissage efficaces et durables', true, 0),
+  ('Décourager les élèves de réviser', false, 1),
+  ('Vendre un logiciel éducatif', false, 2),
+  ('Décrire un examen particulier', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
@@ -6883,131 +7275,81 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-monde-du-travail-reading'), 'mcq', 'Pour quel poste Karim a-t-il postulé ?', 0)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-monde-du-travail-reading'), 'mcq', 'Que doit-on relever avant de postuler à une offre d’emploi, selon le texte ?', 0)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Un stage dans un restaurant', false, 0),
-  ('Un stage à la bibliothèque municipale', true, 1),
-  ('Un emploi dans un magasin', false, 2),
-  ('Un poste de professeur', false, 3)
+  ('Uniquement le salaire proposé', false, 0),
+  ('Les tâches essentielles et les critères demandés', true, 1),
+  ('Le nom du recruteur seulement', false, 2),
+  ('La couleur du logo de l’entreprise', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-monde-du-travail-reading'), 'mcq', 'Pourquoi Karim est-il nerveux ?', 1)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-monde-du-travail-reading'), 'mcq', 'Que faut-il faire si l’on ne possède pas encore toutes les compétences demandées ?', 1)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('C’est son premier entretien d’embauche', true, 0),
-  ('Il n’aime pas lire', false, 1),
-  ('Il n’a pas préparé son CV', false, 2),
-  ('Il ne veut pas ce stage', false, 3)
+  ('Renoncer immédiatement à postuler', false, 0),
+  ('Expliquer clairement sa motivation à apprendre', true, 1),
+  ('Mentir sur son expérience', false, 2),
+  ('Ne rien mentionner du tout', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-monde-du-travail-reading'), 'mcq', 'Quel conseil Camila donne-t-elle sur le langage à utiliser ?', 2)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-monde-du-travail-reading'), 'mcq', 'Que recherchent les recruteurs, selon les enquêtes citées dans le texte ?', 2)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Utiliser « tu » pour être amical', false, 0),
-  ('Utiliser « vous » et un langage plus formel', true, 1),
-  ('Parler très vite', false, 2),
-  ('Ne pas remercier le recruteur', false, 3)
+  ('Une expérience identique chez chaque candidat', false, 0),
+  ('Une préparation sérieuse et une compréhension réaliste du poste', true, 1),
+  ('Uniquement un diplôme prestigieux', false, 2),
+  ('Aucune préparation particulière', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-monde-du-travail-reading'), 'mcq', 'Quelle question Camila prépare-t-elle avec Karim ?', 3)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-monde-du-travail-reading'), 'mcq', 'Pourquoi préfère-t-on un langage plus formel pendant un entretien ?', 3)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Quel est votre plat préféré ?', false, 0),
-  ('Pourquoi devrions-nous vous choisir ?', true, 1),
-  ('Où habitez-vous ?', false, 2),
-  ('Quel âge avez-vous ?', false, 3)
+  ('Parce que cela montre qu’on comprend les codes du monde professionnel', true, 0),
+  ('Parce que c’est obligatoire par la loi', false, 1),
+  ('Parce que le langage familier est interdit partout', false, 2),
+  ('Parce que cela impressionne uniquement les recruteurs âgés', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-monde-du-travail-reading'), 'mcq', 'Comment Karim se sent-il le jour de l’entretien ?', 4)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-monde-du-travail-reading'), 'mcq', 'À quoi sert aussi l’entretien d’embauche, selon le texte ?', 4)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Complètement paniqué', false, 0),
-  ('Bien préparé', true, 1),
-  ('Indifférent', false, 2),
-  ('En retard', false, 3)
+  ('Seulement à évaluer le candidat', false, 0),
+  ('À poser des questions sur l’équipe, les horaires et l’évolution possible', true, 1),
+  ('À signer immédiatement un contrat', false, 2),
+  ('À discuter de sujets sans rapport avec le poste', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-monde-du-travail-reading'), 'mcq', 'Quel est le résultat final ?', 5)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-monde-du-travail-reading'), 'mcq', 'Quel est l’avantage principal de bien se préparer avant un entretien ?', 5)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Karim n’obtient pas le stage', false, 0),
-  ('Karim obtient le stage', true, 1),
-  ('L’entretien est annulé', false, 2),
-  ('Karim change d’avis', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-monde-du-travail-reading'), 'mcq', 'Vrai ou faux : Camila avait déjà de l’expérience avec les entretiens.', 6)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Vrai', true, 0),
-  ('Faux', false, 1)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-monde-du-travail-reading'), 'mcq', 'Dans le texte, « sans laquelle » fait référence à...', 7)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('La bibliothèque', false, 0),
-  ('L’aide de Camila', true, 1),
-  ('La question du recruteur', false, 2),
-  ('Sa motivation', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-monde-du-travail-reading'), 'mcq', 'Quelle est l’intention principale du texte ?', 8)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Décrire une bibliothèque', false, 0),
-  ('Montrer comment bien se préparer à un entretien', true, 1),
-  ('Se plaindre d’un employeur', false, 2),
-  ('Expliquer un problème scolaire', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-monde-du-travail-reading'), 'mcq', 'Quelle inférence peut-on faire sur l’amitié entre Karim et Camila ?', 9)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Ils sont rivaux', false, 0),
-  ('Ils s’entraident dans les moments importants', true, 1),
-  ('Ils ne se parlent presque jamais', false, 2),
-  ('Camila est jalouse de Karim', false, 3)
+  ('Cela réduit le stress et permet de répondre avec plus de clarté', true, 0),
+  ('Cela garantit automatiquement le poste', false, 1),
+  ('Cela évite de devoir répondre aux questions', false, 2),
+  ('Cela remplace l’expérience professionnelle', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
@@ -7186,131 +7528,81 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-voyages-et-interculturalite-reading'), 'mcq', 'Sur quel sujet porte l’exposé de Camila ?', 0)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-voyages-et-interculturalite-reading'), 'mcq', 'Selon le texte, que peuvent faire les visiteurs avant de partir ?', 0)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Les vêtements', false, 0),
-  ('Les repas', true, 1),
-  ('Les transports', false, 2),
-  ('Les fêtes', false, 3)
+  ('Consulter les règles locales, les horaires et les solutions de mobilité', true, 0),
+  ('Ne rien préparer du tout', false, 1),
+  ('Réserver uniquement le vol', false, 2),
+  ('Éviter tout contact avec les offices de tourisme', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-voyages-et-interculturalite-reading'), 'mcq', 'Comment sont généralement les repas dominicains, selon Camila ?', 1)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-voyages-et-interculturalite-reading'), 'mcq', 'Pourquoi un itinéraire flexible est-il recommandé ?', 1)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Silencieux et rapides', false, 0),
-  ('Bruyants, avec de la musique, et flexibles', true, 1),
-  ('Toujours à heure fixe', false, 2),
-  ('Sans importance', false, 3)
+  ('Parce que les imprévus font partie du voyage', true, 0),
+  ('Parce que les visiteurs n’aiment pas planifier', false, 1),
+  ('Parce que les musées sont toujours fermés', false, 2),
+  ('Parce que la flexibilité coûte moins cher', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-voyages-et-interculturalite-reading'), 'mcq', 'Qu’est-ce qui a le plus surpris Camila en France ?', 2)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-voyages-et-interculturalite-reading'), 'mcq', 'Pourquoi les sites officiels sont-ils plus fiables que certaines publications sur les réseaux sociaux ?', 2)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('La nourriture française', false, 0),
-  ('La durée des repas lors des grandes occasions', true, 1),
-  ('Le prix des restaurants', false, 2),
-  ('Le manque de repas en famille', false, 3)
+  ('Parce qu’ils sont plus récents et mis à jour, tandis que d’anciennes publications circulent sans actualisation', true, 0),
+  ('Parce qu’ils sont toujours gratuits', false, 1),
+  ('Parce que les réseaux sociaux sont interdits pour les touristes', false, 2),
+  ('Parce qu’ils ne concernent que les transports', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-voyages-et-interculturalite-reading'), 'mcq', 'Que pensait Camila des Français avant son arrivée ?', 3)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-voyages-et-interculturalite-reading'), 'mcq', 'Qu’appelle-t-on « surtourisme » ?', 3)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Qu’ils étaient très chaleureux', false, 0),
-  ('Qu’ils étaient froids', true, 1),
-  ('Qu’ils ne mangeaient jamais ensemble', false, 2),
-  ('Elle n’avait pas d’opinion', false, 3)
+  ('Un voyage organisé sans guide', false, 0),
+  ('Une présence massive de touristes qui affecte le logement et les commerces locaux', true, 1),
+  ('Un voyage effectué en avion uniquement', false, 2),
+  ('Un type de visa touristique', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-voyages-et-interculturalite-reading'), 'mcq', 'Comment Camila répond-elle à la question sur sa préférence ?', 4)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-voyages-et-interculturalite-reading'), 'mcq', 'Que font certaines destinations pour limiter le surtourisme ?', 4)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Elle préfère clairement la culture française', false, 0),
-  ('Elle préfère clairement la culture dominicaine', false, 1),
-  ('Elle dit apprécier les deux différemment', true, 2),
-  ('Elle refuse de répondre', false, 3)
+  ('Elles limitent le nombre de visiteurs journaliers dans certains sites', true, 0),
+  ('Elles interdisent tous les visiteurs', false, 1),
+  ('Elles augmentent uniquement les prix des vols', false, 2),
+  ('Elles ne font rien de particulier', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-voyages-et-interculturalite-reading'), 'mcq', 'Comment réagit la professeure à la réponse de Camila ?', 5)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-voyages-et-interculturalite-reading'), 'mcq', 'Que recommande le texte pour respecter les habitants d’un lieu visité ?', 5)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Elle la critique', false, 0),
-  ('Elle la félicite', true, 1),
-  ('Elle l’ignore', false, 2),
-  ('Elle change de sujet', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-voyages-et-interculturalite-reading'), 'mcq', 'Vrai ou faux : Camila pense que la culture dominicaine est meilleure que la culture française.', 6)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Vrai', false, 0),
-  ('Faux', true, 1)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-voyages-et-interculturalite-reading'), 'mcq', 'Dans le texte, « tandis que » exprime...', 7)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Une cause', false, 0),
-  ('Une opposition/contraste', true, 1),
-  ('Une conséquence', false, 2),
-  ('Un but', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-voyages-et-interculturalite-reading'), 'mcq', 'Quelle est l’intention principale de l’exposé de Camila ?', 8)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Critiquer la culture française', false, 0),
-  ('Comparer deux cultures sans les juger', true, 1),
-  ('Convaincre la classe de voyager', false, 2),
-  ('Se plaindre de son pays d’origine', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-voyages-et-interculturalite-reading'), 'mcq', 'Quelle inférence peut-on faire sur l’évolution de Camila ?', 9)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Elle a du mal à s’adapter à la France', false, 0),
-  ('Elle a appris à voir la richesse des deux cultures', true, 1),
-  ('Elle veut oublier son pays d’origine', false, 2),
-  ('Elle rejette la culture française', false, 3)
+  ('Privilégier les commerces locaux et éviter les heures de forte affluence', true, 0),
+  ('Ignorer les consignes locales', false, 1),
+  ('Visiter uniquement les lieux les plus connus', false, 2),
+  ('Éviter tout contact avec la population locale', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
@@ -7489,131 +7781,81 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-technologie-et-societe-reading'), 'mcq', 'Quel avantage des réseaux sociaux Karim mentionne-t-il ?', 0)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-technologie-et-societe-reading'), 'mcq', 'D’après l’étude citée, combien de notifications un smartphone reçoit-il en moyenne par jour chez un lycéen ?', 0)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Ils sont gratuits', false, 0),
-  ('Ils permettent de rester en contact avec des proches éloignés', true, 1),
-  ('Ils remplacent l’école', false, 2),
-  ('Ils n’ont aucun avantage', false, 3)
+  ('Plus de soixante-dix', true, 0),
+  ('Environ cinq', false, 1),
+  ('Exactement dix', false, 2),
+  ('Aucune', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-technologie-et-societe-reading'), 'mcq', 'Quelle est l’inquiétude principale de Léa ?', 1)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-technologie-et-societe-reading'), 'mcq', 'Pourquoi de nombreuses applications sont-elles conçues pour capter l’attention ?', 1)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Le prix des téléphones', false, 0),
-  ('La vie privée', true, 1),
-  ('La vitesse d’internet', false, 2),
-  ('Le manque de réseaux sociaux', false, 3)
+  ('Par accident', false, 0),
+  ('Volontairement, pour garder les utilisateurs connectés le plus longtemps possible', true, 1),
+  ('Parce que la loi l’exige', false, 2),
+  ('Parce que les écoles le demandent', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-technologie-et-societe-reading'), 'mcq', 'Que dit Camila sur l’effet des réseaux sociaux ?', 2)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-technologie-et-societe-reading'), 'mcq', 'Que font certains établissements scolaires concernant les téléphones ?', 2)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Ils sont toujours mauvais', false, 0),
-  ('Ils sont toujours excellents', false, 1),
-  ('Ça dépend de la façon dont on les utilise', true, 2),
-  ('Elle n’a pas d’opinion', false, 3)
+  ('Ils les interdisent totalement dans le pays', false, 0),
+  ('Ils imposent un rangement obligatoire pendant les cours', true, 1),
+  ('Ils les distribuent gratuitement', false, 2),
+  ('Ils n’ont adopté aucune règle', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-technologie-et-societe-reading'), 'mcq', 'Quel risque Camila mentionne-t-elle spécifiquement ?', 3)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-technologie-et-societe-reading'), 'mcq', 'Quelle habitude simple le texte recommande-t-il pour un usage plus équilibré ?', 3)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('La perte d’argent', false, 0),
-  ('Le stress de se comparer aux autres', true, 1),
-  ('Les virus informatiques', false, 2),
-  ('La perte de mémoire', false, 3)
+  ('Vérifier ses réseaux sociaux en continu', false, 0),
+  ('Prévoir des moments précis pour consulter ses réseaux', true, 1),
+  ('Ne jamais utiliser d’application utile', false, 2),
+  ('Supprimer tout accès à internet', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-technologie-et-societe-reading'), 'mcq', 'Quelle est la conclusion de la professeure ?', 4)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-technologie-et-societe-reading'), 'mcq', 'Que mentionne le texte à propos des politiques gouvernementales ?', 4)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Les réseaux sociaux sont interdits', false, 0),
-  ('Tout dépend de l’usage qu’on en fait', true, 1),
-  ('Il faut les utiliser tout le temps', false, 2),
-  ('Ils sont inutiles', false, 3)
+  ('Plusieurs pays européens ont adopté des règles sur la protection des données des mineurs', true, 0),
+  ('Aucun pays ne réglemente le numérique', false, 1),
+  ('Ces règles concernent uniquement les adultes', false, 2),
+  ('Ces règles n’existent qu’en dehors de l’Europe', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-technologie-et-societe-reading'), 'mcq', 'Que décide de faire Camila après ce débat ?', 5)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-technologie-et-societe-reading'), 'mcq', 'Quelle est la position générale du texte sur la technologie ?', 5)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Supprimer tous ses réseaux sociaux', false, 0),
-  ('Limiter son temps d’écran le soir', true, 1),
-  ('Passer plus de temps en ligne', false, 2),
-  ('Ne rien changer', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-technologie-et-societe-reading'), 'mcq', 'Vrai ou faux : tous les élèves sont d’accord dès le début du débat.', 6)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Vrai', false, 0),
-  ('Faux', true, 1)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-technologie-et-societe-reading'), 'mcq', 'Dans le texte, « d’une part... d’autre part... » sert à...', 7)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Donner deux exemples opposés ou complémentaires', true, 0),
-  ('Exprimer une cause', false, 1),
-  ('Poser une question', false, 2),
-  ('Terminer un texte', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-technologie-et-societe-reading'), 'mcq', 'Quel est le ton général du débat ?', 8)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Agressif et fermé', false, 0),
-  ('Ouvert et nuancé', true, 1),
-  ('Indifférent', false, 2),
-  ('Moqueur', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-technologie-et-societe-reading'), 'mcq', 'Quelle inférence peut-on faire sur l’attitude de la professeure ?', 9)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Elle impose son opinion', false, 0),
-  ('Elle encourage la réflexion personnelle de ses élèves', true, 1),
-  ('Elle est contre les réseaux sociaux', false, 2),
-  ('Elle ignore le débat', false, 3)
+  ('Il faut la rejeter complètement', false, 0),
+  ('Il faut l’utiliser avec intention plutôt que de la rejeter', true, 1),
+  ('Elle n’a aucun inconvénient', false, 2),
+  ('Elle doit être réservée aux adultes uniquement', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
@@ -7792,131 +8034,81 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-sante-et-mode-de-vie-reading'), 'mcq', 'Quels symptômes Camila ressent-elle à cause du stress ?', 0)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-sante-et-mode-de-vie-reading'), 'mcq', 'Pourquoi les conseils de santé trop généraux risquent-ils d’être inutiles ?', 0)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Elle dort trop', false, 0),
-  ('Elle dort mal et a du mal à se concentrer', true, 1),
-  ('Elle n’a aucun symptôme', false, 2),
-  ('Elle est toujours calme', false, 3)
+  ('Parce qu’ils ne tiennent pas compte de la vie réelle de chacun', true, 0),
+  ('Parce qu’ils sont toujours faux', false, 1),
+  ('Parce que personne ne les lit', false, 2),
+  ('Parce qu’ils coûtent trop cher', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-sante-et-mode-de-vie-reading'), 'mcq', 'Que remarque Madame Lambert un soir ?', 1)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-sante-et-mode-de-vie-reading'), 'mcq', 'Que recommandent les agences de santé publique concernant le changement d’habitudes ?', 1)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Que Camila est très joyeuse', false, 0),
-  ('Que Camila révise tard, l’air fatiguée', true, 1),
-  ('Que Camila ne révise jamais', false, 2),
-  ('Que Camila veut arrêter l’école', false, 3)
+  ('Viser un changement radical immédiat', false, 0),
+  ('Répéter une petite action réaliste chaque jour', true, 1),
+  ('Ne rien changer du tout', false, 2),
+  ('Changer d’habitude chaque semaine', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-sante-et-mode-de-vie-reading'), 'mcq', 'Quel conseil Madame Lambert donne-t-elle sur le sommeil ?', 2)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-sante-et-mode-de-vie-reading'), 'mcq', 'Que peut perturber le sommeil des jeunes, selon le texte ?', 2)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Réviser jusqu’à minuit', false, 0),
-  ('Dormir suffisamment plutôt que réviser tard', true, 1),
-  ('Ne pas dormir avant les examens', false, 2),
-  ('Dormir toute la journée', false, 3)
+  ('Les examens et les écrans le soir', true, 0),
+  ('Le sport uniquement', false, 1),
+  ('La nourriture saine', false, 2),
+  ('Les vacances scolaires', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-sante-et-mode-de-vie-reading'), 'mcq', 'Quelle activité Madame Lambert recommande-t-elle ?', 3)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-sante-et-mode-de-vie-reading'), 'mcq', 'Combien de temps d’activité physique suffit-il, selon plusieurs études citées, pour réduire le stress ?', 3)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Regarder la télévision', false, 0),
-  ('Une activité physique régulière', true, 1),
-  ('Manger davantage', false, 2),
-  ('Étudier plus longtemps', false, 3)
+  ('Une courte séance de vingt minutes', true, 0),
+  ('Trois heures par jour', false, 1),
+  ('Une semaine complète', false, 2),
+  ('Il n’y a pas de durée précise mentionnée', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-sante-et-mode-de-vie-reading'), 'mcq', 'Que fait Camila avec Léa chaque après-midi ?', 4)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-sante-et-mode-de-vie-reading'), 'mcq', 'Que se passe-t-il si on arrête complètement l’activité physique pendant plusieurs semaines ?', 4)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Elle révise', false, 0),
-  ('Elle fait une courte promenade', true, 1),
-  ('Elle regarde des films', false, 2),
-  ('Elle dort', false, 3)
+  ('Les bénéfices sur l’humeur et la concentration diminuent rapidement', true, 0),
+  ('Rien ne change', false, 1),
+  ('Le sommeil s’améliore automatiquement', false, 2),
+  ('Le stress disparaît complètement', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-sante-et-mode-de-vie-reading'), 'mcq', 'Jusqu’à quelle heure Camila décide-t-elle de limiter ses révisions ?', 5)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-sante-et-mode-de-vie-reading'), 'mcq', 'Que doit-on faire quand la fatigue ou le stress deviennent importants et durables ?', 5)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Dix-neuf heures', false, 0),
-  ('Vingt et une heures', true, 1),
-  ('Vingt-trois heures', false, 2),
-  ('Minuit', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-sante-et-mode-de-vie-reading'), 'mcq', 'Vrai ou faux : après une semaine, Camila se sent plus stressée qu’avant.', 6)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Vrai', false, 0),
-  ('Faux', true, 1)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-sante-et-mode-de-vie-reading'), 'mcq', 'Dans le texte, « bienveillance » signifie...', 7)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Indifférence', false, 0),
-  ('Gentillesse et attention envers les autres', true, 1),
-  ('Colère', false, 2),
-  ('Jalousie', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-sante-et-mode-de-vie-reading'), 'mcq', 'Quelle est la leçon principale que Camila retient ?', 8)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Il faut sacrifier sa santé pour réussir', false, 0),
-  ('Il faut trouver un équilibre entre travail et repos', true, 1),
-  ('Le sport n’aide pas contre le stress', false, 2),
-  ('Il ne faut jamais réviser', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-sante-et-mode-de-vie-reading'), 'mcq', 'Quelle est l’intention principale du texte ?', 9)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Décrire un examen difficile', false, 0),
-  ('Montrer l’importance de l’équilibre entre études et bien-être', true, 1),
-  ('Se plaindre du système scolaire', false, 2),
-  ('Décrire une dispute familiale', false, 3)
+  ('Continuer seul sans en parler', false, 0),
+  ('Reconnaître qu’il est temps de demander un avis médical professionnel', true, 1),
+  ('Ignorer complètement le problème', false, 2),
+  ('Attendre que cela disparaisse tout seul', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
@@ -8095,131 +8287,81 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-environnement-et-consommation-reading'), 'mcq', 'Quel problème la professeure identifie-t-elle ?', 0)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-environnement-et-consommation-reading'), 'mcq', 'À quel moment le recyclage intervient-il dans le cycle de vie d’un produit ?', 0)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Trop de bruit à la cantine', false, 0),
-  ('Trop de déchets plastiques à la cantine', true, 1),
-  ('Pas assez de nourriture', false, 2),
-  ('Trop d’élèves absents', false, 3)
+  ('Avant sa fabrication', false, 0),
+  ('À la toute fin, après la fabrication et le transport', true, 1),
+  ('Pendant sa conception uniquement', false, 2),
+  ('Il n’intervient jamais', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-environnement-et-consommation-reading'), 'mcq', 'Que propose le groupe de Camila ?', 1)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-environnement-et-consommation-reading'), 'mcq', 'Que recommandent les spécialistes de l’environnement avant même le recyclage ?', 1)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Fermer la cantine', false, 0),
-  ('Installer des poubelles de tri sélectif', true, 1),
-  ('Interdire le plastique complètement', false, 2),
-  ('Réduire les heures de cours', false, 3)
+  ('La prévention des déchets (objets durables, réparation, refus d’emballages)', true, 0),
+  ('D’acheter plus de produits jetables', false, 1),
+  ('De ne rien changer à ses habitudes', false, 2),
+  ('De brûler les déchets', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-environnement-et-consommation-reading'), 'mcq', 'Que propose le groupe de Karim ?', 2)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-environnement-et-consommation-reading'), 'mcq', 'Que s’est-il passé dans les lycées ayant adopté gourdes réutilisables et poubelles de tri ?', 2)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Des gourdes réutilisables', true, 0),
-  ('Des assiettes en carton', false, 1),
-  ('Des sacs en papier', false, 2),
-  ('Rien de spécial', false, 3)
+  ('La quantité de bouteilles jetées a diminué de façon mesurable', true, 0),
+  ('Rien n’a changé', false, 1),
+  ('Les déchets ont augmenté', false, 2),
+  ('Les élèves ont refusé de participer', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-environnement-et-consommation-reading'), 'mcq', 'Pourquoi Karim propose-t-il cette solution ?', 3)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-environnement-et-consommation-reading'), 'mcq', 'Pourquoi un système de consigne pour les bouteilles ne fonctionne-t-il que dans certaines conditions ?', 3)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Parce que les bouteilles sont trop chères', false, 0),
-  ('Parce que beaucoup d’élèves achètent une bouteille chaque jour', true, 1),
-  ('Parce que c’est obligatoire', false, 2),
-  ('Parce que la cantine va fermer', false, 3)
+  ('Parce que les commerces doivent accepter de les reprendre facilement', true, 0),
+  ('Parce que c’est interdit par la loi', false, 1),
+  ('Parce que les bouteilles en verre n’existent plus', false, 2),
+  ('Parce que cela ne dépend d’aucune institution', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-environnement-et-consommation-reading'), 'mcq', 'Que doivent faire les élèves après le vote ?', 4)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-environnement-et-consommation-reading'), 'mcq', 'Selon les experts en économie circulaire, sur qui repose la responsabilité de la consommation durable ?', 4)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Rien de plus', false, 0),
-  ('Convaincre la direction d’accepter les changements', true, 1),
-  ('Changer d’école', false, 2),
-  ('Annuler le projet', false, 3)
+  ('Uniquement sur les individus', false, 0),
+  ('Sur une combinaison de gestes individuels et de règles collectives', true, 1),
+  ('Uniquement sur les gouvernements', false, 2),
+  ('Sur personne en particulier', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-environnement-et-consommation-reading'), 'mcq', 'Que préparent Camila et Karim pour convaincre la direction ?', 5)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-environnement-et-consommation-reading'), 'mcq', 'Quel est l’objectif final décrit dans le dernier paragraphe ?', 5)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Une pétition', false, 0),
-  ('Une présentation avec des chiffres', true, 1),
-  ('Une manifestation', false, 2),
-  ('Une lettre anonyme', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-environnement-et-consommation-reading'), 'mcq', 'Vrai ou faux : la direction refuse le projet.', 6)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Vrai', false, 0),
-  ('Faux', true, 1)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-environnement-et-consommation-reading'), 'mcq', 'Dans le texte, « c’est pourquoi » exprime...', 7)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Une cause', false, 0),
-  ('Une conséquence', true, 1),
-  ('Une opposition', false, 2),
-  ('Un but', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-environnement-et-consommation-reading'), 'mcq', 'Comment Camila se sent-elle à la fin du texte ?', 8)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Déçue', false, 0),
-  ('Fière', true, 1),
-  ('Indifférente', false, 2),
-  ('Fâchée', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-environnement-et-consommation-reading'), 'mcq', 'Quelle est l’intention principale du texte ?', 9)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Critiquer l’école', false, 0),
-  ('Montrer comment un projet collectif peut créer un changement concret', true, 1),
-  ('Décrire un examen', false, 2),
-  ('Parler d’un voyage scolaire', false, 3)
+  ('Rendre le meilleur choix plus simple pour tout le monde', true, 0),
+  ('Punir les personnes qui produisent des déchets', false, 1),
+  ('Supprimer totalement la consommation', false, 2),
+  ('Rendre le recyclage obligatoire uniquement', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
@@ -8398,131 +8540,81 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-medias-et-information-reading'), 'mcq', 'Que prétend l’article partagé sur les réseaux sociaux ?', 0)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-medias-et-information-reading'), 'mcq', 'Pourquoi une information circule-t-elle souvent très vite, selon le texte ?', 0)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Qu’un fruit guérit toutes les maladies', true, 0),
-  ('Qu’il va neiger demain', false, 1),
-  ('Qu’une nouvelle école ouvre', false, 2),
-  ('Qu’un examen est annulé', false, 3)
+  ('Parce qu’elle provoque une réaction forte, comme la peur ou la colère', true, 0),
+  ('Parce qu’elle est toujours vraie', false, 1),
+  ('Parce que les journalistes la republient plusieurs fois', false, 2),
+  ('Parce qu’elle est toujours ancienne', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-medias-et-information-reading'), 'mcq', 'Qui doute en premier de la véracité de l’article ?', 1)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-medias-et-information-reading'), 'mcq', 'Que recommandent les « fact-checkers » avant de partager un contenu ?', 1)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Léa', false, 0),
-  ('Karim', true, 1),
-  ('La professeure', false, 2),
-  ('Personne', false, 3)
+  ('Vérifier la date, l’auteur, la source et les éléments qui soutiennent l’affirmation', true, 0),
+  ('Partager immédiatement sans réfléchir', false, 1),
+  ('Ignorer la source', false, 2),
+  ('Ne jamais lire l’article en entier', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-medias-et-information-reading'), 'mcq', 'Que remarque Camila à propos de l’article ?', 2)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-medias-et-information-reading'), 'mcq', 'Que se passe-t-il souvent avec une image authentique sortie de son contexte ?', 2)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Il cite plusieurs études', false, 0),
-  ('Il ne mentionne aucun auteur ni étude scientifique', true, 1),
-  ('Il est très récent', false, 2),
-  ('Il vient d’un site officiel', false, 3)
+  ('Elle devient automatiquement fausse', false, 0),
+  ('Son sens peut être complètement modifié même si elle reste authentique', true, 1),
+  ('Elle ne peut plus être partagée du tout', false, 2),
+  ('Elle disparaît automatiquement d’internet', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-medias-et-information-reading'), 'mcq', 'Que trouve la classe en cherchant sur un site d’actualités reconnu ?', 3)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-medias-et-information-reading'), 'mcq', 'Que font certaines plateformes numériques pour limiter la désinformation ?', 3)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Une confirmation de l’article', false, 0),
-  ('Rien qui confirme l’affirmation', true, 1),
-  ('Un article encore plus convaincant', false, 2),
-  ('Une interdiction du fruit', false, 3)
+  ('Elles suppriment tout internet', false, 0),
+  ('Elles ajoutent des étiquettes signalant un contenu contesté', true, 1),
+  ('Elles ignorent totalement le problème', false, 2),
+  ('Elles interdisent tous les partages', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-medias-et-information-reading'), 'mcq', 'Comment s’appelle ce type de fausse information ?', 4)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-medias-et-information-reading'), 'mcq', 'Pourquoi les outils automatiques ne suffisent-ils pas à eux seuls ?', 4)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('La publicité', false, 0),
-  ('La désinformation', true, 1),
-  ('La fiction', false, 2),
-  ('La biographie', false, 3)
+  ('Parce que les formes de désinformation évoluent pour les contourner', true, 0),
+  ('Parce qu’ils sont payants', false, 1),
+  ('Parce qu’ils n’existent pas encore', false, 2),
+  ('Parce que personne ne les utilise', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-medias-et-information-reading'), 'mcq', 'Quel conseil la professeure donne-t-elle avant de partager une information ?', 5)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-medias-et-information-reading'), 'mcq', 'Selon les spécialistes de l’éducation aux médias, que devient le réflexe de vérification une fois acquis ?', 5)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Toujours la partager rapidement', false, 0),
-  ('Vérifier la fiabilité de la source', true, 1),
-  ('Ne jamais lire les articles', false, 2),
-  ('Croire tout ce qu’on lit', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-medias-et-information-reading'), 'mcq', 'Vrai ou faux : l’article contenait des preuves scientifiques solides.', 6)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Vrai', false, 0),
-  ('Faux', true, 1)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-medias-et-information-reading'), 'mcq', 'Dans le texte, « c’est-à-dire » sert à...', 7)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Reformuler ou préciser une idée', true, 0),
-  ('Poser une question', false, 1),
-  ('Exprimer une opposition', false, 2),
-  ('Terminer un texte', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-medias-et-information-reading'), 'mcq', 'Quelle est l’intention principale de ce cours ?', 8)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Se moquer des réseaux sociaux', false, 0),
-  ('Apprendre à évaluer la fiabilité d’une information', true, 1),
-  ('Interdire internet', false, 2),
-  ('Décourager la lecture', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-medias-et-information-reading'), 'mcq', 'Quelle inférence peut-on faire sur l’attitude de Karim face à l’information en ligne ?', 9)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Il croit tout ce qu’il lit', false, 0),
-  ('Il a un regard critique et prudent', true, 1),
-  ('Il n’utilise jamais internet', false, 2),
-  ('Il partage tout sans vérifier', false, 3)
+  ('Une habitude presque automatique', true, 0),
+  ('Une tâche impossible', false, 1),
+  ('Un métier obligatoire', false, 2),
+  ('Une perte de temps inutile', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
@@ -8701,131 +8793,81 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-relations-et-conflits-reading'), 'mcq', 'Pourquoi Léa et Camila ne sont-elles pas d’accord ?', 0)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-relations-et-conflits-reading'), 'mcq', 'Selon les spécialistes de la communication, quand un conflit devient-il plus facile à résoudre ?', 0)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Sur le sujet de l’exposé', false, 0),
-  ('Sur la façon de s’organiser', true, 1),
-  ('Sur la note qu’elles veulent avoir', false, 2),
-  ('Sur le jour de la présentation', false, 3)
+  ('Quand chaque personne exprime son besoin sans accuser directement l’autre', true, 0),
+  ('Quand personne ne parle du problème', false, 1),
+  ('Quand une seule personne décide de tout', false, 2),
+  ('Quand les deux personnes évitent de se revoir', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-relations-et-conflits-reading'), 'mcq', 'Que reproche Léa à Camila ?', 1)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-relations-et-conflits-reading'), 'mcq', 'Que fait une accusation directe, selon le texte ?', 1)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('De ne jamais travailler', false, 0),
-  ('De changer toujours le plan au dernier moment', true, 1),
-  ('D’être en retard', false, 2),
-  ('De ne pas parler français', false, 3)
+  ('Elle aide toujours à résoudre le conflit', false, 0),
+  ('Elle pousse souvent l’autre personne à se défendre plutôt qu’à écouter', true, 1),
+  ('Elle n’a aucun effet', false, 2),
+  ('Elle rend la conversation plus calme', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-relations-et-conflits-reading'), 'mcq', 'Comment se sent Camila après le commentaire de Léa ?', 2)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-relations-et-conflits-reading'), 'mcq', 'Quelle méthode utilisent les médiateurs professionnels ?', 2)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Indifférente', false, 0),
-  ('Blessée et triste', true, 1),
-  ('Heureuse', false, 2),
-  ('Fâchée contre elle-même', false, 3)
+  ('Décrire la situation, exprimer son ressenti, puis proposer une solution', true, 0),
+  ('Ignorer complètement le problème', false, 1),
+  ('Choisir immédiatement qui a raison', false, 2),
+  ('Interrompre chaque personne rapidement', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-relations-et-conflits-reading'), 'mcq', 'Pourquoi Léa était-elle si frustrée, en réalité ?', 3)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-relations-et-conflits-reading'), 'mcq', 'Qu’est-ce qu’un compromis, selon le texte ?', 3)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Parce qu’elle n’aime pas Camila', false, 0),
-  ('Parce qu’elle était stressée par l’exposé', true, 1),
-  ('Parce qu’elle voulait changer de partenaire', false, 2),
-  ('Parce qu’elle avait raté un examen', false, 3)
+  ('Abandonner complètement son opinion', false, 0),
+  ('Identifier les priorités et proposer une solution équitable pour les deux parties', true, 1),
+  ('Ignorer l’avis de l’autre personne', false, 2),
+  ('Refuser toute discussion', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-relations-et-conflits-reading'), 'mcq', 'Quel compromis trouvent-elles ?', 4)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-relations-et-conflits-reading'), 'mcq', 'Pourquoi un accord trop vague, comme « on va faire un effort », pose-t-il souvent problème ?', 4)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Elles arrêtent le projet', false, 0),
-  ('Léa prépare la structure, Camila ajoute des idées créatives', true, 1),
-  ('Elles travaillent séparément', false, 2),
-  ('Une troisième personne les remplace', false, 3)
+  ('Parce qu’il se termine généralement par une nouvelle frustration', true, 0),
+  ('Parce qu’il est toujours efficace', false, 1),
+  ('Parce qu’il est interdit dans les entreprises', false, 2),
+  ('Parce que personne ne s’en souvient', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-relations-et-conflits-reading'), 'mcq', 'Comment se termine l’histoire ?', 5)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-relations-et-conflits-reading'), 'mcq', 'Que montrent les formations à la gestion de conflit proposées dans les écoles ?', 5)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Elles arrêtent d’être amies', false, 0),
-  ('Elles terminent l’exposé ensemble avec une bonne note', true, 1),
-  ('Elles échouent à l’exposé', false, 2),
-  ('Elles changent de sujet', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-relations-et-conflits-reading'), 'mcq', 'Vrai ou faux : Léa et Camila ne se réconcilient jamais.', 6)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Vrai', false, 0),
-  ('Faux', true, 1)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-relations-et-conflits-reading'), 'mcq', 'Dans le texte, « ça me dérange que » exprime...', 7)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Une joie', false, 0),
-  ('Un dérangement/une gêne', true, 1),
-  ('Une certitude', false, 2),
-  ('Une indifférence', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-relations-et-conflits-reading'), 'mcq', 'Quelle est la leçon principale de ce texte ?', 8)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Il ne faut jamais se disputer', false, 0),
-  ('Parler calmement de ses émotions aide à résoudre un conflit', true, 1),
-  ('Les amitiés se terminent toujours mal', false, 2),
-  ('Il faut toujours avoir raison', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b1-relations-et-conflits-reading'), 'mcq', 'Quelle inférence peut-on faire sur la relation entre Camila et Léa après ce conflit ?', 9)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Elle est plus fragile', false, 0),
-  ('Elle est renforcée par une communication honnête', true, 1),
-  ('Elle est terminée', false, 2),
-  ('Elle est ignorée par les deux', false, 3)
+  ('Que ces compétences renforcent souvent la relation plutôt que de l’affaiblir', true, 0),
+  ('Qu’elles sont inutiles', false, 1),
+  ('Qu’elles créent plus de disputes', false, 2),
+  ('Qu’elles ne fonctionnent qu’entre adultes', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)

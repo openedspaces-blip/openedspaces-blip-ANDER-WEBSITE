@@ -66,42 +66,42 @@ const units = [
     activities: {
       reading: activity('reading', {
         title: 'El primer día de clase',
-        description: 'Un texto breve sobre el primer día de clase de Valentina.',
+        description: 'Un texto breve sobre un primer día típico de clase de español.',
         reading: {
           title: 'El primer día de clase',
           illustration: {
             src: '/assets/readings/spanish/a1/el-primer-dia-de-clase.webp',
-            alt: 'Valentina conoce a su profesor y a un compañero en su primer día de clase'
+            alt: 'Un estudiante conoce a su profesor y a un compañero en su primer día de clase'
           },
           parts: [
-            'Hola, me llamo Valentina. Hoy es mi primer día de clase de español. Estoy un poco nerviosa, pero también contenta.',
+            'Hola, hoy es mi primer día de clase de español. Estoy un poco nervioso/a, pero también contento/a.',
             'Mi profesor se llama Diego. Él dice: "¡Buenos días, clase!" y nosotros respondemos: "¡Buenos días, profesor!"',
-            'Al lado de mi silla hay un chico. Él dice: "Hola, soy Marco. Mucho gusto." Yo respondo: "Igualmente. ¿Cómo se escribe tu nombre?" y él deletrea su nombre: M-A-R-C-O.'
+            'Al lado de mi silla hay un compañero. Él dice: "Hola, soy Marco. Mucho gusto." Yo respondo: "Igualmente. ¿Cómo se escribe tu nombre?" y él deletrea su nombre: M-A-R-C-O.'
           ],
           questions: [
-            '¿Cómo se llama la estudiante?',
             '¿Cómo se llama el profesor?',
-            '¿Qué hace Marco para ayudar a Valentina a recordar su nombre?'
+            '¿Cómo se siente el/la estudiante al principio?',
+            '¿Qué hace Marco para ayudar a recordar su nombre?'
           ],
           ordering: {
             prompt: 'Ordena los eventos de la historia.',
             events: [
-              'Valentina llega a su primera clase de español.',
+              'El/la estudiante llega a su primera clase de español.',
               'El profesor Diego saluda a la clase.',
-              'Valentina conoce a Marco.',
+              'El/la estudiante conoce a Marco.',
               'Marco deletrea su nombre.'
             ]
           }
         },
         exercises: [
-          { type: 'mcq', prompt: '¿Cómo se llama el profesor?', options: ['Marco', 'Diego', 'Valentina', 'Andergo'], answer: 1 },
-          { type: 'mcq', prompt: '¿Quién está al lado de Valentina?', options: ['El profesor', 'Marco', 'Nadie', 'Otra profesora'], answer: 1 },
-          { type: 'mcq', prompt: '¿Cómo está Valentina al principio?', options: ['Muy triste', 'Un poco nerviosa', 'Enojada', 'Cansada'], answer: 1 },
+          { type: 'mcq', prompt: '¿Cómo se llama el profesor?', options: ['Marco', 'Diego', 'Ana', 'Andergo'], answer: 1 },
+          { type: 'mcq', prompt: '¿Quién está al lado del/de la estudiante?', options: ['El profesor', 'Marco', 'Nadie', 'Otra profesora'], answer: 1 },
+          { type: 'mcq', prompt: '¿Cómo está el/la estudiante al principio?', options: ['Muy triste', 'Un poco nervioso/a', 'Enojado/a', 'Cansado/a'], answer: 1 },
           { type: 'mcq', prompt: '¿Qué hace Marco para ayudar con su nombre?', options: ['Lo escribe en la pizarra', 'Lo deletrea', 'Lo canta', 'No dice nada'], answer: 1 },
-          { type: 'mcq', prompt: 'Verdadero o falso: Valentina y Marco se conocen antes de la clase.', options: ['Verdadero', 'Falso'], answer: 1 },
+          { type: 'mcq', prompt: 'Verdadero o falso: el/la estudiante y Marco se conocen antes de la clase.', options: ['Verdadero', 'Falso'], answer: 1 },
           { type: 'mcq', prompt: 'Verdadero o falso: la clase responde "Buenos días" al profesor.', options: ['Verdadero', 'Falso'], answer: 0 },
-          { type: 'mcq', prompt: 'Verdadero o falso: Valentina está enojada en su primer día.', options: ['Verdadero', 'Falso'], answer: 1 },
-          { type: 'mcq', prompt: 'Elige la mejor palabra: Valentina está un poco nerviosa, pero también ___.', options: ['contenta', 'triste', 'cansada', 'enojada'], answer: 0 }
+          { type: 'mcq', prompt: 'Verdadero o falso: el/la estudiante está enojado/a en su primer día.', options: ['Verdadero', 'Falso'], answer: 1 },
+          { type: 'mcq', prompt: 'Elige la mejor palabra: el/la estudiante está un poco nervioso/a, pero también ___.', options: ['contento/a', 'triste', 'cansado/a', 'enojado/a'], answer: 0 }
         ]
       }),
       listening: activity('listening', {
@@ -634,39 +634,39 @@ const units = [
     accessTier: 'premium',
     activities: {
       reading: activity('reading', {
-        title: 'Mi familia',
-        description: 'Un texto sobre la familia de Sofía.',
+        title: 'La familia de Shakira',
+        description: 'Un texto sobre la familia de la cantante colombiana Shakira.',
         reading: {
-          title: 'Mi familia',
+          title: 'La familia de Shakira',
           parts: [
-            'Esta es mi familia. Mi madre se llama Carmen y mi padre se llama Rafael. Ellos trabajan cerca de la casa.',
-            'Tengo un hermano y una hermana. Mi hermana se llama Lucía; tiene dieciséis años y es alta y simpática. Mi hermano se llama Tomás; tiene nueve años.',
-            'Mi abuela Rosa vive con nosotros. Es una persona muy amable y cocina muy bien. Los domingos, toda la familia almuerza junta.'
+            'Esta es la familia de Shakira, la cantante colombiana. Su madre se llama Nidia y su padre se llama William. Ellos viven en Barranquilla, Colombia.',
+            'Shakira tiene un hermano y una hermana. Su hermana se llama Lucila; es alta y simpática. Su hermano se llama Tonino.',
+            'Shakira tiene dos hijos, Milan y Sasha. Son creativos como su madre. Los domingos, a Shakira le gusta pasar tiempo en familia.'
           ],
           questions: [
-            '¿Cómo se llama la madre?',
-            '¿Cuántos hermanos tiene la escritora?',
-            '¿Quién vive con la familia además de los padres?'
+            '¿Cómo se llama la madre de Shakira?',
+            '¿De dónde es la familia de Shakira?',
+            '¿Cuántos hijos tiene Shakira?'
           ],
           ordering: {
             prompt: 'Ordena los eventos de la historia.',
             events: [
-              'Sofía presenta a sus padres.',
-              'Sofía describe a su hermana Lucía.',
-              'Sofía describe a su hermano Tomás.',
-              'La familia almuerza junta el domingo.'
+              'El texto presenta a los padres de Shakira.',
+              'El texto describe a su hermana Lucila.',
+              'El texto describe a su hermano Tonino.',
+              'El texto habla de los hijos de Shakira, Milan y Sasha.'
             ]
           }
         },
         exercises: [
-          { type: 'mcq', prompt: '¿Cómo se llama el padre?', options: ['Tomás', 'Rafael', 'Rosa', 'Lucía'], answer: 1 },
-          { type: 'mcq', prompt: '¿Cuántos años tiene Lucía?', options: ['Nueve', 'Doce', 'Dieciséis', 'Veinte'], answer: 2 },
-          { type: 'mcq', prompt: '¿Quién es Rosa?', options: ['La madre', 'La hermana', 'La abuela', 'Una amiga'], answer: 2 },
-          { type: 'mcq', prompt: '¿Cómo es Lucía?', options: ['Baja y tímida', 'Alta y simpática', 'Alta y triste', 'Baja y seria'], answer: 1 },
-          { type: 'mcq', prompt: 'Verdadero o falso: Tomás tiene nueve años.', options: ['Verdadero', 'Falso'], answer: 0 },
-          { type: 'mcq', prompt: 'Verdadero o falso: la familia almuerza junta los lunes.', options: ['Verdadero', 'Falso'], answer: 1 },
-          { type: 'mcq', prompt: 'Verdadero o falso: la abuela cocina muy bien.', options: ['Verdadero', 'Falso'], answer: 0 },
-          { type: 'mcq', prompt: 'Elige la mejor palabra: Rosa es una persona muy ___ y cocina muy bien.', options: ['amable', 'enojada', 'perezosa', 'triste'], answer: 0 }
+          { type: 'mcq', prompt: '¿Cómo se llama el padre de Shakira?', options: ['Tonino', 'William', 'Milan', 'Lucila'], answer: 1 },
+          { type: 'mcq', prompt: '¿De dónde es la familia de Shakira?', options: ['México', 'Colombia', 'España', 'Argentina'], answer: 1 },
+          { type: 'mcq', prompt: '¿Cómo se llama la hermana de Shakira?', options: ['Nidia', 'Sasha', 'Lucila', 'Milan'], answer: 2 },
+          { type: 'mcq', prompt: '¿Cómo es Lucila?', options: ['Baja y tímida', 'Alta y simpática', 'Alta y triste', 'Baja y seria'], answer: 1 },
+          { type: 'mcq', prompt: 'Verdadero o falso: Shakira tiene dos hijos.', options: ['Verdadero', 'Falso'], answer: 0 },
+          { type: 'mcq', prompt: 'Verdadero o falso: la familia vive en México.', options: ['Verdadero', 'Falso'], answer: 1 },
+          { type: 'mcq', prompt: 'Verdadero o falso: a Shakira le gusta pasar tiempo en familia.', options: ['Verdadero', 'Falso'], answer: 0 },
+          { type: 'mcq', prompt: 'Elige la mejor palabra: los hijos de Shakira son ___ como su madre.', options: ['creativos', 'enojados', 'perezosos', 'tristes'], answer: 0 }
         ]
       }),
       listening: activity('listening', {
@@ -786,33 +786,33 @@ const units = [
     accessTier: 'premium',
     activities: {
       reading: activity('reading', {
-        title: 'Un día normal',
-        description: 'Un texto sobre la rutina diaria de Valentina.',
+        title: 'Un día normal de un estudiante',
+        description: 'Un texto sobre la rutina diaria típica de un estudiante.',
         reading: {
-          title: 'Un día normal',
+          title: 'Un día normal de un estudiante',
           parts: [
             'Todos los días me despierto a las seis y media. Primero me lavo la cara y luego desayuno con mi familia.',
-            'Camino a la escuela con mi amiga Camila. Las clases empiezan a las ocho de la mañana y terminan a las dos de la tarde.',
+            'Camino a la escuela con un amigo. Las clases empiezan a las ocho de la mañana y terminan a las dos de la tarde.',
             'Por la noche, ceno con mi familia a las siete. Después leo un poco y me acuesto a las nueve y media.'
           ],
           questions: [
-            '¿A qué hora se despierta la escritora?',
+            '¿A qué hora se despierta la persona del texto?',
             '¿Con quién camina a la escuela?',
             '¿A qué hora se acuesta?'
           ],
           ordering: {
             prompt: 'Ordena los eventos de la historia.',
             events: [
-              'Valentina se despierta y desayuna.',
-              'Valentina camina a la escuela con Camila.',
+              'La persona se despierta y desayuna.',
+              'Camina a la escuela con un amigo.',
               'Las clases terminan a las dos.',
-              'Valentina cena y se acuesta a las nueve y media.'
+              'Cena y se acuesta a las nueve y media.'
             ]
           }
         },
         exercises: [
           { type: 'mcq', prompt: '¿A qué hora se despierta?', options: ['Seis', 'Seis y media', 'Siete', 'Ocho'], answer: 1 },
-          { type: 'mcq', prompt: '¿Con quién camina a la escuela?', options: ['Con su hermana', 'Con Camila', 'Sola', 'Con su madre'], answer: 1 },
+          { type: 'mcq', prompt: '¿Con quién camina a la escuela?', options: ['Con su hermana', 'Con un amigo', 'Sola', 'Con su madre'], answer: 1 },
           { type: 'mcq', prompt: '¿A qué hora empiezan las clases?', options: ['Siete', 'Ocho', 'Nueve', 'Diez'], answer: 1 },
           { type: 'mcq', prompt: '¿A qué hora se acuesta?', options: ['Ocho y media', 'Nueve', 'Nueve y media', 'Diez'], answer: 2 },
           { type: 'mcq', prompt: 'Verdadero o falso: cena con su familia.', options: ['Verdadero', 'Falso'], answer: 0 },
@@ -1098,37 +1098,37 @@ const units = [
     activities: {
       reading: activity('reading', {
         title: 'Mi barrio',
-        description: 'Una descripción del barrio donde vive Camila.',
+        description: 'Una descripción de un barrio típico y sus lugares importantes.',
         reading: {
           title: 'Mi barrio',
           parts: [
-            'Me llamo Camila y vivo en un barrio tranquilo. Mi barrio tiene un parque, una farmacia y un supermercado. El parque está cerca de mi casa; voy allí todos los fines de semana.',
+            'Vivo en un barrio tranquilo. Mi barrio tiene un parque, una farmacia y un supermercado. El parque está cerca de mi casa; voy allí todos los fines de semana.',
             'La farmacia está en la calle principal, al lado del banco. El supermercado está lejos de mi casa, por eso vamos en carro.',
             'Para ir a la escuela, tomo el autobús. La parada de autobús está a la derecha del parque. Me gusta mucho mi barrio porque es tranquilo.'
           ],
           questions: [
-            '¿Qué hay en el barrio de Camila?',
+            '¿Qué hay en este barrio?',
             '¿Dónde está la farmacia?',
-            '¿Cómo va Camila a la escuela?'
+            '¿Cómo va la persona del texto a la escuela?'
           ],
           ordering: {
             prompt: 'Ordena los eventos de la historia.',
             events: [
-              'Camila describe los lugares de su barrio.',
-              'Camila explica dónde está la farmacia.',
-              'Camila explica cómo llegan al supermercado.',
-              'Camila explica cómo va a la escuela.'
+              'El texto describe los lugares del barrio.',
+              'El texto explica dónde está la farmacia.',
+              'El texto explica cómo llegan al supermercado.',
+              'El texto explica cómo va a la escuela.'
             ]
           }
         },
         exercises: [
-          { type: 'mcq', prompt: '¿Qué hay cerca de la casa de Camila?', options: ['Un parque', 'Un hospital', 'Una playa', 'Un aeropuerto'], answer: 0 },
+          { type: 'mcq', prompt: '¿Qué hay cerca de la casa?', options: ['Un parque', 'Un hospital', 'Una playa', 'Un aeropuerto'], answer: 0 },
           { type: 'mcq', prompt: '¿Dónde está la farmacia?', options: ['Lejos de la casa', 'En la calle principal', 'Cerca del parque', 'En el supermercado'], answer: 1 },
-          { type: 'mcq', prompt: '¿Cómo va Camila a la escuela?', options: ['Caminando', 'En bicicleta', 'En autobús', 'En carro'], answer: 2 },
+          { type: 'mcq', prompt: '¿Cómo va la persona del texto a la escuela?', options: ['Caminando', 'En bicicleta', 'En autobús', 'En carro'], answer: 2 },
           { type: 'mcq', prompt: '¿Dónde está la parada de autobús?', options: ['A la izquierda del parque', 'A la derecha del parque', 'Lejos del barrio', 'Al lado del supermercado'], answer: 1 },
           { type: 'mcq', prompt: 'Verdadero o falso: el supermercado está cerca de la casa.', options: ['Verdadero', 'Falso'], answer: 1 },
           { type: 'mcq', prompt: 'Verdadero o falso: la farmacia está al lado del banco.', options: ['Verdadero', 'Falso'], answer: 0 },
-          { type: 'mcq', prompt: 'Verdadero o falso: a Camila no le gusta su barrio.', options: ['Verdadero', 'Falso'], answer: 1 },
+          { type: 'mcq', prompt: 'Verdadero o falso: no le gusta su barrio.', options: ['Verdadero', 'Falso'], answer: 1 },
           { type: 'mcq', prompt: 'Elige la mejor palabra: me gusta mi barrio porque es muy ___.', options: ['tranquilo', 'ruidoso', 'peligroso', 'aburrido'], answer: 0 }
         ]
       }),

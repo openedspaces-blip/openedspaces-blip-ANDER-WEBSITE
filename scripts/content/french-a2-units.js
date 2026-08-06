@@ -50,38 +50,38 @@ const units = [
     },
     activities: {
       reading: activity('reading', {
-        title: 'Une matinée au marché',
-        description: 'Camila découvre le marché de Tours avec Léa et achète des fruits pour la famille Lambert.',
+        title: 'Une matinée au marché de Tours',
+        description: 'Un guide pratique pour découvrir le célèbre marché de Tours et comparer les prix.',
         reading: {
-          title: 'Une matinée au marché',
+          title: 'Une matinée au marché de Tours',
           parts: [
-            "Le samedi matin, Léa emmène Camila au marché du quartier. « On achète les fruits et légumes de la semaine ici, c'est moins cher qu'au supermarché », explique Léa. Elles marchent entre les étals colorés. Un vendeur leur sourit : « Bonjour, mesdemoiselles ! Vous cherchez quelque chose de particulier ? » Camila demande : « Combien ça coûte, un kilo de fraises ? » Le vendeur répond : « Trois euros le kilo, elles sont très bonnes cette semaine. »",
-            "Camila goûte une fraise et elle adore. « On en prend deux kilos ! » dit-elle. Léa ajoute des tomates et des pommes dans le panier. Ensuite, elles s'arrêtent chez le fromager. Camila n'a jamais goûté autant de fromages différents. Léa lui explique la différence entre un fromage doux et un fromage plus fort. Elles choisissent finalement un fromage de chèvre, moins fort que le roquefort mais très savoureux.",
-            "À la fin, elles ont dépensé vingt-cinq euros pour toute la semaine. « C'est vraiment moins cher qu'au supermarché », remarque Camila. Léa sourit : « Et en plus, c'est plus frais et plus sympa ! On parle avec les vendeurs, on découvre de nouveaux produits. » Sur le chemin du retour, Camila pense qu'elle va proposer ce marché à sa propre famille, un jour, à Saint-Domingue. Elle a adoré cette matinée pleine de couleurs, d'odeurs et de nouvelles découvertes."
+            "Le samedi matin, beaucoup d'habitants de Tours vont au marché du quartier. « On achète les fruits et légumes de la semaine ici, c'est moins cher qu'au supermarché », expliquent souvent les habitués. On marche entre les étals colorés. Un vendeur sourit aux clients : « Bonjour ! Vous cherchez quelque chose de particulier ? » Une question fréquente est : « Combien ça coûte, un kilo de fraises ? » Le vendeur répond souvent : « Trois euros le kilo, elles sont très bonnes cette semaine. »",
+            "Beaucoup de clients goûtent une fraise et l'adorent. « On en prend deux kilos ! » dit-on souvent. On ajoute des tomates et des pommes dans le panier. Ensuite, beaucoup de visiteurs s'arrêtent chez le fromager. Certains n'ont jamais goûté autant de fromages différents avant leur premier marché à Tours. Le fromager explique la différence entre un fromage doux et un fromage plus fort. Un fromage de chèvre, moins fort que le roquefort mais très savoureux, reste un choix très populaire.",
+            "À la fin, une famille dépense en moyenne vingt-cinq euros pour toute la semaine. « C'est vraiment moins cher qu'au supermarché », remarquent souvent les clients. Les vendeurs ajoutent : « Et en plus, c'est plus frais et plus sympa ! On parle avec les clients, on fait découvrir de nouveaux produits. » Le marché de Tours reste, pour beaucoup d'habitants et de visiteurs, une matinée pleine de couleurs, d'odeurs et de nouvelles découvertes."
           ],
           questions: [
-            'Pourquoi Léa préfère-t-elle faire les courses au marché ?',
-            'Qu’est-ce que Camila et Léa achètent chez le fromager ?',
-            'Combien ont-elles dépensé au total ?'
+            'Pourquoi les habitants préfèrent-ils faire les courses au marché ?',
+            'Quel fromage est un choix très populaire au marché ?',
+            'Combien dépense en moyenne une famille au marché par semaine ?'
           ],
           ordering: {
-            prompt: 'Remets les événements de l’histoire dans l’ordre.',
+            prompt: 'Remets les événements de la visite au marché dans l’ordre.',
             events: [
-              'Léa emmène Camila au marché du quartier.',
-              'Camila demande le prix des fraises et en achète deux kilos.',
-              'Elles choisissent un fromage de chèvre chez le fromager.',
-              'Elles rentrent chez elles, satisfaites de leurs achats.'
+              'Les visiteurs arrivent au marché du quartier.',
+              'Ils demandent le prix des fraises et en achètent deux kilos.',
+              'Ils choisissent un fromage de chèvre chez le fromager.',
+              'Ils rentrent chez eux, satisfaits de leurs achats.'
             ]
           }
         },
         exercises: [
-          { type: 'mcq', prompt: 'Pourquoi Léa emmène-t-elle Camila au marché ?', options: ['Pour visiter la ville', 'Pour acheter les fruits et légumes de la semaine', 'Pour rencontrer des amis', 'Pour acheter des vêtements'], answer: 1 },
+          { type: 'mcq', prompt: 'Pourquoi les habitants vont-ils au marché ?', options: ['Pour visiter la ville', 'Pour acheter les fruits et légumes de la semaine', 'Pour rencontrer des amis', 'Pour acheter des vêtements'], answer: 1 },
           { type: 'mcq', prompt: 'Combien coûte un kilo de fraises ?', options: ['Deux euros', 'Trois euros', 'Cinq euros', 'Dix euros'], answer: 1 },
-          { type: 'mcq', prompt: 'Quel fromage choisissent-elles finalement ?', options: ['Du roquefort', 'Du fromage de chèvre', 'Du camembert', 'Aucun fromage'], answer: 1 },
-          { type: 'mcq', prompt: 'Combien ont-elles dépensé pour toute la semaine ?', options: ['Quinze euros', 'Vingt euros', 'Vingt-cinq euros', 'Trente euros'], answer: 2 },
-          { type: 'mcq', prompt: 'D’après Léa, pourquoi le marché est-il mieux que le supermarché ?', options: ['C’est plus rapide', 'C’est plus frais et plus sympa', 'C’est plus proche de l’école', 'Il n’y a personne'], answer: 1 },
-          { type: 'mcq', prompt: 'Que pense faire Camila à la fin du texte ?', options: ['Ne plus jamais retourner au marché', 'Proposer ce marché à sa famille à Saint-Domingue', 'Travailler comme vendeuse', 'Acheter un fromage tous les jours'], answer: 1 },
-          { type: 'mcq', prompt: 'Vrai ou faux : Camila avait déjà goûté beaucoup de fromages avant ce jour.', options: ['Vrai', 'Faux'], answer: 1 },
+          { type: 'mcq', prompt: 'Quel fromage est un choix très populaire ?', options: ['Du roquefort', 'Du fromage de chèvre', 'Du camembert', 'Aucun fromage'], answer: 1 },
+          { type: 'mcq', prompt: 'Combien dépense en moyenne une famille pour toute la semaine ?', options: ['Quinze euros', 'Vingt euros', 'Vingt-cinq euros', 'Trente euros'], answer: 2 },
+          { type: 'mcq', prompt: 'Pourquoi le marché est-il mieux que le supermarché, selon le texte ?', options: ['C’est plus rapide', 'C’est plus frais et plus sympa', 'C’est plus proche de l’école', 'Il n’y a personne'], answer: 1 },
+          { type: 'mcq', prompt: 'Que font les vendeurs, selon le texte ?', options: ['Ils ignorent les clients', 'Ils font découvrir de nouveaux produits', 'Ils vendent seulement des vêtements', 'Ils travaillent seulement le dimanche'], answer: 1 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Certains visiteurs n’ont jamais goûté autant de fromages avant leur premier marché.', options: ['Vrai', 'Faux'], answer: 0 },
           { type: 'mcq', prompt: 'Dans le texte, « savoureux » signifie...', options: ['Cher', 'Qui a bon goût', 'Froid', 'Difficile à trouver'], answer: 1 },
           { type: 'mcq', prompt: 'Quelle expression montre que les fraises sont de bonne qualité cette semaine ?', options: ['« C’est moins cher »', '« Elles sont très bonnes cette semaine »', '« On en prend deux kilos »', '« Un fromage plus fort »'], answer: 1 },
           { type: 'mcq', prompt: 'Quel est le ton général du texte ?', options: ['Triste et déçu', 'Joyeux et curieux', 'Fâché et pressé', 'Ennuyé et indifférent'], answer: 1 }
@@ -209,39 +209,39 @@ const units = [
     },
     activities: {
       reading: activity('reading', {
-        title: 'L’anniversaire de Léa',
-        description: 'La famille Lambert célèbre l’anniversaire de Léa au restaurant « Le Petit Jardin ».',
+        title: 'Fêter un anniversaire au restaurant',
+        description: 'Comment les Français réservent une table et fêtent un anniversaire au restaurant.',
         reading: {
-          title: 'L’anniversaire de Léa',
+          title: 'Fêter un anniversaire au restaurant',
           parts: [
-            "Pour l'anniversaire de Léa, Monsieur Lambert a réservé une table au restaurant « Le Petit Jardin ». Il a appelé la semaine précédente : « Je voudrais réserver une table pour cinq personnes, samedi soir. » À vingt heures, le restaurant était complet, mais il restait de la place à vingt et une heures trente. Monsieur Lambert a accepté sans hésiter, car l'important était de fêter l'anniversaire ensemble.",
-            "Le samedi soir, toute la famille arrive au restaurant, avec Camila. Le serveur leur apporte la carte et explique les spécialités du jour. « Il faut absolument goûter les pâtes maison », dit-il en souriant. Léa hésite entre le poisson et les pâtes, mais elle décide finalement de suivre le conseil du serveur. Camila choisit une soupe en entrée, puis le poulet aux légumes, et Karim, invité pour l'occasion, commande une pizza.",
-            "Pendant le repas, tout le monde discute et rit. Mais quand les plats arrivent, Camila remarque que sa soupe n'est plus très chaude. Elle appelle poliment le serveur : « Excusez-moi, mais ma soupe n'est plus chaude, pourriez-vous la réchauffer ? » Le serveur s'excuse immédiatement et l'emporte en cuisine. Quelques minutes plus tard, la soupe revient, parfaite. À la fin du repas, le serveur offre un dessert gratuit pour l'anniversaire de Léa, avec une bougie. Toute la table chante « Joyeux anniversaire », et Léa souffle la bougie en souriant, entourée de sa famille et de ses amis."
+            "Pour fêter un anniversaire, beaucoup de familles françaises réservent une table de restaurant. On appelle souvent la semaine précédente : « Je voudrais réserver une table pour cinq personnes, samedi soir. » Les grands restaurants sont souvent complets à vingt heures, mais il reste parfois de la place à vingt et une heures trente. Beaucoup de familles acceptent cet horaire sans hésiter, car l'important est de fêter l'anniversaire ensemble.",
+            "Le samedi soir, la famille arrive au restaurant. Le serveur apporte la carte et explique les spécialités du jour. « Il faut absolument goûter les pâtes maison », dit-il souvent en souriant. Les invités hésitent parfois entre le poisson et les pâtes, mais suivent finalement le conseil du serveur. D'autres choisissent une soupe en entrée, puis le poulet aux légumes, ou une pizza pour les plus jeunes.",
+            "Pendant le repas, tout le monde discute et rit. Mais il arrive parfois qu'un plat arrive un peu froid. Un client poli dira alors : « Excusez-moi, mais ma soupe n'est plus chaude, pourriez-vous la réchauffer ? » Le serveur s'excuse immédiatement et l'emporte en cuisine. Quelques minutes plus tard, le plat revient, parfait. Beaucoup de restaurants offrent aussi un dessert gratuit pour un anniversaire, avec une bougie. Toute la table chante « Joyeux anniversaire », et le fêté souffle la bougie en souriant, entouré de sa famille et de ses amis."
           ],
           questions: [
-            'Pourquoi Monsieur Lambert a-t-il dû accepter une heure plus tardive ?',
-            'Que recommande le serveur ?',
-            'Comment Camila réagit-elle quand sa soupe n’est plus chaude ?'
+            'Pourquoi les familles acceptent-elles parfois une heure plus tardive ?',
+            'Que recommande souvent le serveur ?',
+            'Que fait un client poli quand un plat n’est plus chaud ?'
           ],
           ordering: {
-            prompt: 'Remets les événements de l’histoire dans l’ordre.',
+            prompt: 'Remets les événements dans l’ordre.',
             events: [
-              'Monsieur Lambert réserve une table pour cinq personnes.',
+              'La famille réserve une table pour l’anniversaire.',
               'Le serveur recommande les pâtes maison.',
-              'Camila signale poliment que sa soupe n’est plus chaude.',
-              'Le serveur offre un dessert gratuit pour l’anniversaire de Léa.'
+              'Un client signale poliment qu’un plat n’est plus chaud.',
+              'Le restaurant offre un dessert gratuit pour l’anniversaire.'
             ]
           }
         },
         exercises: [
-          { type: 'mcq', prompt: 'Pour combien de personnes Monsieur Lambert réserve-t-il ?', options: ['Trois', 'Quatre', 'Cinq', 'Six'], answer: 2 },
-          { type: 'mcq', prompt: 'À quelle heure la famille a-t-elle finalement une table ?', options: ['Vingt heures', 'Vingt et une heures trente', 'Dix-neuf heures', 'Vingt-deux heures'], answer: 1 },
-          { type: 'mcq', prompt: 'Que recommande le serveur ?', options: ['La pizza', 'Les pâtes maison', 'La soupe', 'Le poulet'], answer: 1 },
-          { type: 'mcq', prompt: 'Quel plat principal Camila commande-t-elle ?', options: ['Une pizza', 'Des pâtes', 'Le poulet aux légumes', 'Le poisson'], answer: 2 },
-          { type: 'mcq', prompt: 'Pourquoi Camila appelle-t-elle le serveur ?', options: ['Pour demander l’addition', 'Parce que sa soupe n’est plus chaude', 'Pour changer de table', 'Pour commander un dessert'], answer: 1 },
-          { type: 'mcq', prompt: 'Comment le serveur réagit-il à la remarque de Camila ?', options: ['Il l’ignore', 'Il s’excuse et réchauffe la soupe', 'Il se fâche', 'Il annule la commande'], answer: 1 },
-          { type: 'mcq', prompt: 'Que fait le serveur à la fin du repas ?', options: ['Il demande l’addition immédiatement', 'Il offre un dessert gratuit pour l’anniversaire', 'Il propose une autre table', 'Il ferme le restaurant'], answer: 1 },
-          { type: 'mcq', prompt: 'Vrai ou faux : Karim est invité pour l’occasion.', options: ['Vrai', 'Faux'], answer: 0 },
+          { type: 'mcq', prompt: 'Pour combien de personnes réserve-t-on dans ce texte ?', options: ['Trois', 'Quatre', 'Cinq', 'Six'], answer: 2 },
+          { type: 'mcq', prompt: 'À quelle heure reste-t-il parfois de la place ?', options: ['Vingt heures', 'Vingt et une heures trente', 'Dix-neuf heures', 'Vingt-deux heures'], answer: 1 },
+          { type: 'mcq', prompt: 'Que recommande souvent le serveur ?', options: ['La pizza', 'Les pâtes maison', 'La soupe', 'Le poulet'], answer: 1 },
+          { type: 'mcq', prompt: 'Quel plat principal certains invités commandent-ils ?', options: ['Une pizza', 'Des pâtes', 'Le poulet aux légumes', 'Le poisson'], answer: 2 },
+          { type: 'mcq', prompt: 'Pourquoi un client appelle-t-il le serveur ?', options: ['Pour demander l’addition', 'Parce que sa soupe n’est plus chaude', 'Pour changer de table', 'Pour commander un dessert'], answer: 1 },
+          { type: 'mcq', prompt: 'Comment le serveur réagit-il à cette remarque ?', options: ['Il l’ignore', 'Il s’excuse et réchauffe le plat', 'Il se fâche', 'Il annule la commande'], answer: 1 },
+          { type: 'mcq', prompt: 'Que font souvent les restaurants pour un anniversaire ?', options: ['Ils demandent l’addition immédiatement', 'Ils offrent un dessert gratuit', 'Ils proposent une autre table', 'Ils ferment le restaurant'], answer: 1 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Il est fréquent que les plus jeunes commandent une pizza.', options: ['Vrai', 'Faux'], answer: 0 },
           { type: 'mcq', prompt: 'Dans le texte, « sans hésiter » signifie...', options: ['Après beaucoup de réflexion', 'Immédiatement, sans doute', 'En refusant', 'En pleurant'], answer: 1 },
           { type: 'mcq', prompt: 'Quel est le sentiment général à la fin du texte ?', options: ['La déception', 'La joie et la célébration', 'La colère', 'L’ennui'], answer: 1 }
         ]
@@ -363,41 +363,41 @@ const units = [
     },
     activities: {
       reading: activity('reading', {
-        title: 'Perdue dans Tours',
-        description: 'Camila prend le bus toute seule pour la première fois et doit demander son chemin.',
+        title: 'Se déplacer dans Tours',
+        description: 'Comment utiliser le réseau de bus et de tram pour se déplacer dans Tours.',
         reading: {
-          title: 'Perdue dans Tours',
+          title: 'Se déplacer dans Tours',
           parts: [
-            "Aujourd'hui, Camila doit aller chez Karim pour réviser ensemble, mais Léa est malade et ne peut pas l'accompagner. C'est la première fois que Camila prend le bus toute seule à Tours. Elle regarde le plan sur son téléphone : il faut prendre le bus numéro sept jusqu'à l'arrêt « Place Plumereau », puis marcher dix minutes.",
-            "À l'arrêt de bus, Camila achète un ticket au distributeur automatique. Le bus arrive, elle monte et elle valide son ticket. Après quinze minutes, elle descend à l'arrêt « Place Plumereau », mais elle ne reconnaît pas la rue. Elle demande à une dame : « Excusez-moi, madame, pour aller rue des Tanneurs, s'il vous plaît ? » La dame répond gentiment : « Continuez tout droit, puis tournez à gauche après la boulangerie. C'est à environ cinq minutes. »",
-            "Camila suit les indications avec attention : tout droit, puis à gauche après la boulangerie. Elle reconnaît enfin l'immeuble de Karim. Elle sonne, un peu fière d'elle-même. « Tu as trouvé sans problème ? » demande Karim en ouvrant la porte. « Presque ! Une dame très gentille m'a aidée », répond Camila en souriant. Elle est contente d'avoir réussi à se déplacer toute seule dans une nouvelle ville, en français, sans l'aide de Léa."
+            "Pour beaucoup de nouveaux habitants de Tours, prendre le bus tout seul pour la première fois est une petite aventure. Avant de partir, il est utile de regarder le plan sur son téléphone : il faut souvent prendre le bus numéro sept jusqu'à l'arrêt « Place Plumereau », puis marcher dix minutes.",
+            "À l'arrêt de bus, on achète un ticket au distributeur automatique. Le bus arrive, on monte et on valide son ticket. Après quinze minutes, on descend à l'arrêt « Place Plumereau », mais on ne reconnaît pas toujours la rue. On demande alors à un passant : « Excusez-moi, madame, pour aller rue des Tanneurs, s'il vous plaît ? » La personne répond souvent gentiment : « Continuez tout droit, puis tournez à gauche après la boulangerie. C'est à environ cinq minutes. »",
+            "En suivant les indications avec attention, tout droit puis à gauche après la boulangerie, on arrive généralement sans problème à destination. Beaucoup de nouveaux habitants sont un peu fiers d'eux-mêmes après ce premier trajet. « Une personne très gentille m'a aidé », dit-on souvent en souriant. Réussir à se déplacer tout seul dans une nouvelle ville, en français, reste une étape importante pour beaucoup d'expatriés à Tours."
           ],
           questions: [
-            'Pourquoi Camila prend-elle le bus toute seule aujourd’hui ?',
-            'Quel bus doit-elle prendre ?',
-            'Qui l’aide à trouver son chemin ?'
+            'Quel numéro de bus faut-il prendre pour aller Place Plumereau ?',
+            'Où achète-t-on son ticket de bus ?',
+            'Qui aide souvent les nouveaux habitants à trouver leur chemin ?'
           ],
           ordering: {
-            prompt: 'Remets les événements de l’histoire dans l’ordre.',
+            prompt: 'Remets les étapes du trajet dans l’ordre.',
             events: [
-              'Camila regarde le plan sur son téléphone.',
-              'Elle achète un ticket et monte dans le bus.',
-              'Elle demande son chemin à une dame.',
-              'Elle arrive enfin chez Karim.'
+              'On regarde le plan sur son téléphone.',
+              'On achète un ticket et on monte dans le bus.',
+              'On demande son chemin à un passant.',
+              'On arrive enfin à destination.'
             ]
           }
         },
         exercises: [
-          { type: 'mcq', prompt: 'Pourquoi Léa n’accompagne-t-elle pas Camila ?', options: ['Elle est en voyage', 'Elle est malade', 'Elle ne veut pas y aller', 'Elle travaille'], answer: 1 },
-          { type: 'mcq', prompt: 'Quel numéro de bus Camila doit-elle prendre ?', options: ['Le cinq', 'Le sept', 'Le neuf', 'Le douze'], answer: 1 },
-          { type: 'mcq', prompt: 'Où Camila achète-t-elle son ticket ?', options: ['Dans le bus', 'Au distributeur automatique', 'Chez Karim', 'À l’école'], answer: 1 },
-          { type: 'mcq', prompt: 'Que doit faire Camila après la boulangerie ?', options: ['Tourner à droite', 'Continuer tout droit', 'Tourner à gauche', 'S’arrêter'], answer: 2 },
-          { type: 'mcq', prompt: 'Qui aide Camila à trouver son chemin ?', options: ['Karim', 'Une dame dans la rue', 'Un chauffeur de bus', 'Léa par téléphone'], answer: 1 },
-          { type: 'mcq', prompt: 'Comment se sent Camila à la fin du texte ?', options: ['Fâchée', 'Fière d’elle-même', 'Triste', 'Fatiguée'], answer: 1 },
-          { type: 'mcq', prompt: 'Vrai ou faux : Camila avait déjà pris le bus seule avant.', options: ['Vrai', 'Faux'], answer: 1 },
+          { type: 'mcq', prompt: 'Quel numéro de bus faut-il prendre pour aller Place Plumereau ?', options: ['Le cinq', 'Le sept', 'Le neuf', 'Le douze'], answer: 1 },
+          { type: 'mcq', prompt: 'Où achète-t-on son ticket ?', options: ['Dans le bus', 'Au distributeur automatique', 'À la boulangerie', 'À l’école'], answer: 1 },
+          { type: 'mcq', prompt: 'Que faut-il faire après la boulangerie ?', options: ['Tourner à droite', 'Continuer tout droit', 'Tourner à gauche', 'S’arrêter'], answer: 2 },
+          { type: 'mcq', prompt: 'Qui aide souvent à trouver son chemin ?', options: ['Le chauffeur seulement', 'Un passant dans la rue', 'Un policier', 'Personne'], answer: 1 },
+          { type: 'mcq', prompt: 'Comment se sentent souvent les nouveaux habitants à la fin du trajet ?', options: ['Fâchés', 'Fiers d’eux-mêmes', 'Tristes', 'Fatigués'], answer: 1 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Prendre le bus seul pour la première fois est une petite aventure.', options: ['Vrai', 'Faux'], answer: 0 },
           { type: 'mcq', prompt: 'Dans le texte, « valider son ticket » signifie...', options: ['Acheter un ticket', 'Composter/activer le ticket', 'Jeter le ticket', 'Perdre le ticket'], answer: 1 },
-          { type: 'mcq', prompt: 'Quelle est l’intention de Camila en racontant « presque » à Karim ?', options: ['Se plaindre', 'Minimiser l’aide qu’elle a reçue avec humour', 'Mentir sur son trajet', 'Se fâcher contre la dame'], answer: 1 },
-          { type: 'mcq', prompt: 'Quel est le thème principal du texte ?', options: ['Un problème de bus non résolu', 'L’autonomie de Camila dans une nouvelle ville', 'Une dispute entre amis', 'Un cours de géographie'], answer: 1 }
+          { type: 'mcq', prompt: 'Combien de minutes dure le trajet en bus jusqu’à l’arrêt ?', options: ['Cinq minutes', 'Dix minutes', 'Quinze minutes', 'Trente minutes'], answer: 2 },
+          { type: 'mcq', prompt: 'Combien de temps faut-il marcher après l’arrêt de bus ?', options: ['Cinq minutes', 'Dix minutes', 'Vingt minutes', 'Une heure'], answer: 1 },
+          { type: 'mcq', prompt: 'Quel est le thème principal du texte ?', options: ['Un problème de bus non résolu', 'L’autonomie dans une nouvelle ville', 'Une dispute entre amis', 'Un cours de géographie'], answer: 1 }
         ]
       }),
       listening: activity('listening', {
@@ -515,41 +515,41 @@ const units = [
     },
     activities: {
       reading: activity('reading', {
-        title: 'Chez le médecin',
-        description: 'Camila ne se sent pas bien et Madame Lambert l’emmène chez le médecin.',
+        title: 'Une visite chez le médecin en France',
+        description: 'Comment se passe une consultation médicale typique en France.',
         reading: {
-          title: 'Chez le médecin',
+          title: 'Une visite chez le médecin en France',
           parts: [
-            "Depuis deux jours, Camila se sent fatiguée. Elle a mal à la gorge et un peu de fièvre. Madame Lambert remarque que Camila ne mange presque rien au dîner. « Ça ne va pas, Camila ? » demande-t-elle. « J'ai mal à la gorge et je me sens très fatiguée », répond Camila. Madame Lambert décide de prendre rendez-vous chez le médecin pour le lendemain matin.",
-            "Le lendemain, elles arrivent chez le docteur Martin. « Bonjour, qu'est-ce qui ne va pas ? » demande-t-il. Camila explique : « J'ai mal à la gorge depuis deux jours, et j'ai un peu de fièvre. Je me sens très fatiguée aussi. » Le médecin l'examine, regarde sa gorge et prend sa température. « Vous avez une petite angine, rien de grave », dit-il. « Vous devez vous reposer, boire beaucoup d'eau et prendre ce médicament trois fois par jour. »",
-            "Le médecin ajoute : « Il faut aussi éviter l'école pendant deux ou trois jours pour ne pas contaminer vos camarades. » Camila est un peu déçue de manquer les cours, mais elle est rassurée que ce ne soit pas grave. En sortant, Madame Lambert lui achète le médicament à la pharmacie et lui prépare une soupe chaude pour le soir. Camila se repose tout le week-end, et le lundi suivant, elle se sent enfin beaucoup mieux et peut retourner à l'école avec Léa et Karim."
+            "Quand on se sent fatigué pendant plusieurs jours, avec mal à la gorge et un peu de fièvre, il est conseillé de prendre rendez-vous chez le médecin. En France, on peut souvent obtenir un rendez-vous rapidement, parfois dès le lendemain matin. « Ça ne va pas ? » demande-t-on souvent en famille. « J'ai mal à la gorge et je me sens très fatigué », répond le patient.",
+            "Chez le médecin généraliste, la consultation commence toujours de la même façon : « Bonjour, qu'est-ce qui ne va pas ? » demande le docteur. Le patient explique ses symptômes depuis combien de temps ils durent. Le médecin l'examine, regarde sa gorge et prend sa température. « Vous avez une petite angine, rien de grave », dit-il souvent. « Vous devez vous reposer, boire beaucoup d'eau et prendre ce médicament trois fois par jour. »",
+            "Le médecin ajoute généralement : « Il faut aussi éviter l'école ou le travail pendant deux ou trois jours pour ne pas contaminer les autres. » Beaucoup de patients sont un peu déçus de manquer des activités, mais rassurés que ce ne soit pas grave. Après la consultation, on achète le médicament à la pharmacie et on se repose à la maison. Grâce à ce système de soins accessible, la plupart des patients se sentent bien mieux après quelques jours de repos."
           ],
           questions: [
-            'Depuis combien de temps Camila se sent-elle fatiguée ?',
-            'Que dit le médecin à Camila ?',
-            'Pourquoi Camila doit-elle éviter l’école ?'
+            'Quand faut-il prendre rendez-vous chez le médecin ?',
+            'Que dit souvent le médecin après avoir examiné le patient ?',
+            'Pourquoi faut-il éviter l’école ou le travail ?'
           ],
           ordering: {
-            prompt: 'Remets les événements de l’histoire dans l’ordre.',
+            prompt: 'Remets les étapes de la consultation dans l’ordre.',
             events: [
-              'Madame Lambert remarque que Camila ne mange presque rien.',
-              'Elle prend rendez-vous chez le médecin.',
-              'Le docteur Martin examine Camila et lui donne des conseils.',
-              'Camila se repose et retourne à l’école le lundi suivant.'
+              'On remarque que le patient ne va pas bien.',
+              'On prend rendez-vous chez le médecin.',
+              'Le médecin examine le patient et donne des conseils.',
+              'Le patient se repose et va mieux après quelques jours.'
             ]
           }
         },
         exercises: [
-          { type: 'mcq', prompt: 'Depuis combien de temps Camila a-t-elle mal à la gorge ?', options: ['Un jour', 'Deux jours', 'Une semaine', 'Un mois'], answer: 1 },
-          { type: 'mcq', prompt: 'Qui remarque que Camila ne va pas bien ?', options: ['Léa', 'Madame Lambert', 'Karim', 'Le médecin'], answer: 1 },
-          { type: 'mcq', prompt: 'Que diagnostique le docteur Martin ?', options: ['Une grippe grave', 'Une petite angine', 'Rien du tout', 'Une allergie'], answer: 1 },
-          { type: 'mcq', prompt: 'Combien de fois par jour Camila doit-elle prendre le médicament ?', options: ['Une fois', 'Deux fois', 'Trois fois', 'Quatre fois'], answer: 2 },
-          { type: 'mcq', prompt: 'Pourquoi Camila doit-elle éviter l’école ?', options: ['Pour se reposer davantage seulement', 'Pour ne pas contaminer ses camarades', 'Parce que l’école est fermée', 'Parce qu’elle est punie'], answer: 1 },
-          { type: 'mcq', prompt: 'Que fait Madame Lambert après la visite chez le médecin ?', options: ['Elle rentre directement à la maison', 'Elle achète le médicament et prépare une soupe', 'Elle emmène Camila au restaurant', 'Elle appelle Léa'], answer: 1 },
-          { type: 'mcq', prompt: 'Vrai ou faux : Camila est contente de manquer l’école.', options: ['Vrai', 'Faux'], answer: 1 },
+          { type: 'mcq', prompt: 'Quels symptômes sont décrits dans le texte ?', options: ['Mal au ventre', 'Mal à la gorge et fièvre', 'Mal à la tête', 'Mal au dos'], answer: 1 },
+          { type: 'mcq', prompt: 'Comment commence toujours la consultation ?', options: ['Par une question sur les symptômes', 'Par une prise de sang', 'Par un paiement', 'Par un examen des yeux'], answer: 0 },
+          { type: 'mcq', prompt: 'Que diagnostique souvent le médecin dans ce genre de cas ?', options: ['Une grippe grave', 'Une petite angine', 'Rien du tout', 'Une allergie'], answer: 1 },
+          { type: 'mcq', prompt: 'Combien de fois par jour faut-il prendre le médicament ?', options: ['Une fois', 'Deux fois', 'Trois fois', 'Quatre fois'], answer: 2 },
+          { type: 'mcq', prompt: 'Pourquoi faut-il éviter l’école ou le travail ?', options: ['Pour se reposer davantage seulement', 'Pour ne pas contaminer les autres', 'Parce que l’école est fermée', 'Parce que c’est obligatoire'], answer: 1 },
+          { type: 'mcq', prompt: 'Que fait-on après la consultation ?', options: ['On rentre directement sans rien faire', 'On achète le médicament à la pharmacie', 'On va au restaurant', 'On appelle un ami'], answer: 1 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Beaucoup de patients sont contents de manquer l’école ou le travail.', options: ['Vrai', 'Faux'], answer: 1 },
           { type: 'mcq', prompt: 'Dans le texte, « rassurée » signifie...', options: ['Encore plus inquiète', 'Soulagée, moins inquiète', 'En colère', 'Fatiguée'], answer: 1 },
-          { type: 'mcq', prompt: 'Quand Camila retourne-t-elle à l’école ?', options: ['Le jour même', 'Le lendemain', 'Le lundi suivant', 'Jamais'], answer: 2 },
-          { type: 'mcq', prompt: 'Quel est le ton général de l’histoire ?', options: ['Inquiétant du début à la fin', 'Rassurant, avec une bonne résolution', 'Triste et sans espoir', 'Comique'], answer: 1 }
+          { type: 'mcq', prompt: 'Après combien de jours la plupart des patients se sentent-ils mieux ?', options: ['Le jour même', 'Le lendemain', 'Après quelques jours de repos', 'Jamais'], answer: 2 },
+          { type: 'mcq', prompt: 'Quel est le ton général du texte ?', options: ['Inquiétant du début à la fin', 'Rassurant, avec une bonne résolution', 'Triste et sans espoir', 'Comique'], answer: 1 }
         ]
       }),
       listening: activity('listening', {
@@ -667,40 +667,40 @@ const units = [
     },
     activities: {
       reading: activity('reading', {
-        title: 'Ma nouvelle routine à Tours',
-        description: 'Camila explique à sa mère comment se passe une journée typique chez les Lambert.',
+        title: 'La routine d’un(e) élève en échange scolaire',
+        description: 'Comment se passe une journée typique pour un(e) élève en échange scolaire en France.',
         reading: {
-          title: 'Ma nouvelle routine à Tours',
+          title: 'La routine d’un(e) élève en échange scolaire',
           parts: [
-            "« Alors, raconte-moi ta journée typique ! » demande la mère de Camila pendant leur appel vidéo du dimanche. Camila sourit et commence : « D'habitude, je me réveille à sept heures. Je me lave, je m'habille, puis je prends le petit-déjeuner avec toute la famille Lambert. On mange souvent des tartines et on boit toujours du chocolat chaud. Ensuite, je pars à l'école avec Léa vers huit heures moins le quart. »",
-            "« Et l'après-midi ? » demande sa mère, curieuse. « Les cours finissent généralement vers dix-sept heures. Après, je fais souvent mes devoirs avec Karim à la bibliothèque, puis je rentre à la maison vers dix-huit heures trente. Le mercredi, par contre, je ne rentre jamais directement : j'ai un cours de danse avec Léa. C'est mon activité préférée de la semaine ! » Camila continue : « Le soir, on dîne tous ensemble vers dix-neuf heures trente, on discute, et je me couche généralement vers vingt-deux heures. »",
-            "« Tu ne t'ennuies jamais ? » demande sa mère en riant. « Jamais ! Parfois, le week-end, on sort avec Karim et Léa, on va au cinéma ou on se promène en ville. J'adore cette routine, elle est différente de celle que j'avais à Saint-Domingue, mais je m'y suis vite habituée. » Sa mère, rassurée, sourit à l'écran : « Je vois que tu es vraiment bien organisée maintenant ! »"
+            "Chaque année, des milliers de jeunes participent à un échange scolaire en France, souvent grâce à des programmes comme Erasmus+. « Raconte-moi ta journée typique ! » demande-t-on souvent aux élèves pendant un appel vidéo avec leur famille. La réponse est presque toujours la même : « D'habitude, je me réveille à sept heures. Je me lave, je m'habille, puis je prends le petit-déjeuner avec ma famille d'accueil. On mange souvent des tartines et on boit toujours du chocolat chaud. Ensuite, je pars à l'école vers huit heures moins le quart. »",
+            "« Et l'après-midi ? » demande-t-on, curieux. « Les cours finissent généralement vers dix-sept heures. Après, je fais souvent mes devoirs à la bibliothèque, puis je rentre à la maison vers dix-huit heures trente. Un jour par semaine, par contre, je ne rentre jamais directement : j'ai une activité extrascolaire, souvent un cours de danse ou de sport. C'est mon activité préférée de la semaine ! » Beaucoup d'élèves ajoutent : « Le soir, on dîne tous ensemble vers dix-neuf heures trente, on discute, et je me couche généralement vers vingt-deux heures. »",
+            "« Tu ne t'ennuies jamais ? » demande-t-on souvent en riant. « Jamais ! Parfois, le week-end, on sort avec des amis, on va au cinéma ou on se promène en ville. J'adore cette routine, elle est différente de celle que j'avais chez moi, mais je m'y suis vite habitué(e). » De nombreuses familles, rassurées, remarquent : « On voit que tu es vraiment bien organisé(e) maintenant ! »"
           ],
           questions: [
-            'À quelle heure Camila se réveille-t-elle ?',
-            'Que fait-elle le mercredi après les cours ?',
-            'Comment Camila décrit-elle sa nouvelle routine ?'
+            'À quelle heure se réveillent souvent les élèves en échange scolaire ?',
+            'Que font-ils un jour par semaine après les cours ?',
+            'Comment décrivent-ils souvent leur nouvelle routine ?'
           ],
           ordering: {
-            prompt: 'Remets les événements de la journée de Camila dans l’ordre.',
+            prompt: 'Remets les événements de la journée dans l’ordre.',
             events: [
-              'Camila se réveille et prend le petit-déjeuner.',
-              'Elle va à l’école avec Léa.',
-              'Elle fait ses devoirs avec Karim à la bibliothèque.',
+              'L’élève se réveille et prend le petit-déjeuner.',
+              'Il/elle va à l’école.',
+              'Il/elle fait ses devoirs à la bibliothèque.',
               'Toute la famille dîne ensemble le soir.'
             ]
           }
         },
         exercises: [
-          { type: 'mcq', prompt: 'À quelle heure Camila se réveille-t-elle d’habitude ?', options: ['Six heures', 'Sept heures', 'Huit heures', 'Neuf heures'], answer: 1 },
-          { type: 'mcq', prompt: 'Que boit toujours la famille au petit-déjeuner ?', options: ['Du café', 'Du jus d’orange', 'Du chocolat chaud', 'Du thé'], answer: 2 },
+          { type: 'mcq', prompt: 'À quelle heure se réveillent souvent ces élèves ?', options: ['Six heures', 'Sept heures', 'Huit heures', 'Neuf heures'], answer: 1 },
+          { type: 'mcq', prompt: 'Que boit-on souvent au petit-déjeuner en France ?', options: ['Du café', 'Du jus d’orange', 'Du chocolat chaud', 'Du thé'], answer: 2 },
           { type: 'mcq', prompt: 'À quelle heure finissent généralement les cours ?', options: ['Seize heures', 'Dix-sept heures', 'Dix-huit heures', 'Dix-neuf heures'], answer: 1 },
-          { type: 'mcq', prompt: 'Que fait Camila le mercredi après les cours ?', options: ['Elle fait ses devoirs', 'Elle a un cours de danse', 'Elle rentre directement', 'Elle regarde la télévision'], answer: 1 },
-          { type: 'mcq', prompt: 'À quelle heure la famille dîne-t-elle ?', options: ['Dix-huit heures', 'Dix-neuf heures trente', 'Vingt et une heures', 'Vingt-deux heures'], answer: 1 },
-          { type: 'mcq', prompt: 'Que fait Camila le week-end, selon le texte ?', options: ['Elle reste toujours seule', 'Elle sort parfois avec Karim et Léa', 'Elle travaille', 'Elle voyage chaque semaine'], answer: 1 },
-          { type: 'mcq', prompt: 'Vrai ou faux : Camila s’ennuie souvent dans sa nouvelle routine.', options: ['Vrai', 'Faux'], answer: 1 },
-          { type: 'mcq', prompt: 'Dans le texte, « je m’y suis vite habituée » signifie...', options: ['Elle a mis longtemps à s’adapter', 'Elle s’est adaptée rapidement', 'Elle n’aime pas sa routine', 'Elle a changé de routine'], answer: 1 },
-          { type: 'mcq', prompt: 'Quelle est l’activité préférée de la semaine de Camila ?', options: ['Les devoirs à la bibliothèque', 'Le dîner en famille', 'Le cours de danse du mercredi', 'Le petit-déjeuner'], answer: 2 },
+          { type: 'mcq', prompt: 'Que font ces élèves un jour par semaine après les cours ?', options: ['Ils font leurs devoirs seulement', 'Ils ont une activité extrascolaire', 'Ils rentrent directement', 'Ils regardent la télévision'], answer: 1 },
+          { type: 'mcq', prompt: 'À quelle heure dîne souvent la famille d’accueil ?', options: ['Dix-huit heures', 'Dix-neuf heures trente', 'Vingt et une heures', 'Vingt-deux heures'], answer: 1 },
+          { type: 'mcq', prompt: 'Que font ces élèves le week-end, selon le texte ?', options: ['Ils restent toujours seuls', 'Ils sortent parfois avec des amis', 'Ils travaillent', 'Ils voyagent chaque semaine'], answer: 1 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Ces élèves s’ennuient souvent dans leur nouvelle routine.', options: ['Vrai', 'Faux'], answer: 1 },
+          { type: 'mcq', prompt: 'Dans le texte, « je m’y suis vite habitué(e) » signifie...', options: ['J’ai mis longtemps à m’adapter', 'Je me suis adapté(e) rapidement', 'Je n’aime pas ma routine', 'J’ai changé de routine'], answer: 1 },
+          { type: 'mcq', prompt: 'Quelle est souvent l’activité préférée de la semaine ?', options: ['Les devoirs à la bibliothèque', 'Le dîner en famille', 'L’activité extrascolaire', 'Le petit-déjeuner'], answer: 2 },
           { type: 'mcq', prompt: 'Quel est le ton général de la conversation ?', options: ['Inquiet et tendu', 'Chaleureux et rassurant', 'Fâché', 'Indifférent'], answer: 1 }
         ]
       }),
@@ -818,41 +818,41 @@ const units = [
     },
     activities: {
       reading: activity('reading', {
-        title: 'Mon premier mois en France',
-        description: 'Camila raconte, dans son journal, les expériences marquantes de son premier mois à Tours.',
+        title: 'Un premier mois d’échange scolaire',
+        description: 'Le journal d’un(e) élève en échange scolaire pendant son premier mois en France.',
         reading: {
-          title: 'Mon premier mois en France',
+          title: 'Un premier mois d’échange scolaire',
           parts: [
-            "Cher journal, ça fait maintenant un mois que je suis arrivée en France, et tellement de choses se sont passées ! Le premier jour, je suis arrivée à l'aéroport de Paris, fatiguée mais très excitée. La famille Lambert est venue me chercher, et nous avons pris le train ensemble jusqu'à Tours. J'ai tout de suite aimé la ville, avec ses vieilles rues et sa rivière.",
-            "La semaine suivante, je suis allée à l'école pour la première fois. J'ai rencontré Léa et Karim, qui sont devenus mes meilleurs amis ici. Nous avons visité le château de Chenonceau ensemble, et j'ai pris des centaines de photos ! Un week-end, toute la famille est partie à Paris en train : nous sommes montés à la tour Eiffel, nous avons marché le long de la Seine, et j'ai goûté mon premier vrai croissant parisien, c'était délicieux.",
-            "Il y a deux semaines, j'ai eu un petit accident : je suis tombée de vélo devant l'école et je me suis fait mal au genou ! Heureusement, ce n'était pas grave. Léa m'a aidée à rentrer et Madame Lambert m'a soignée avec beaucoup de gentillesse. Cette expérience m'a montré à quel point cette famille est devenue importante pour moi. En un mois seulement, j'ai appris tellement de choses : une nouvelle langue, une nouvelle ville, et surtout, de nouvelles amitiés inoubliables."
+            "Cher journal, ça fait maintenant un mois que je suis arrivé(e) en France, et tellement de choses se sont passées ! Le premier jour, je suis arrivé(e) à l'aéroport de Paris, fatigué(e) mais très excité(e). Ma famille d'accueil est venue me chercher, et nous avons pris le train ensemble jusqu'à Tours. J'ai tout de suite aimé la ville, avec ses vieilles rues et sa rivière.",
+            "La semaine suivante, je suis allé(e) à l'école pour la première fois. J'ai rencontré deux camarades de classe, qui sont devenus mes meilleurs amis ici. Nous avons visité le château de Chenonceau ensemble, et j'ai pris des centaines de photos ! Un week-end, toute la famille d'accueil est partie à Paris en train : nous sommes montés à la tour Eiffel, nous avons marché le long de la Seine, et j'ai goûté mon premier vrai croissant parisien, c'était délicieux.",
+            "Il y a deux semaines, j'ai eu un petit accident : je suis tombé(e) de vélo devant l'école et je me suis fait mal au genou ! Heureusement, ce n'était pas grave. Mes amis m'ont aidé(e) à rentrer et ma famille d'accueil m'a soigné(e) avec beaucoup de gentillesse. Cette expérience m'a montré à quel point cette famille est devenue importante pour moi. En un mois seulement, j'ai appris tellement de choses : une nouvelle langue, une nouvelle ville, et surtout, de nouvelles amitiés inoubliables."
           ],
           questions: [
-            'Comment Camila et la famille Lambert sont-elles allées de Paris à Tours ?',
-            'Qu’est-ce que Camila et ses amis ont visité ensemble ?',
+            'Comment cet(te) élève est-il/elle arrivé(e) en France ?',
+            'Qu’ont visité l’élève et ses amis ensemble ?',
             'Que s’est-il passé il y a deux semaines ?'
           ],
           ordering: {
-            prompt: 'Remets les événements du mois de Camila dans l’ordre.',
+            prompt: 'Remets les événements du mois dans l’ordre.',
             events: [
-              'Camila arrive à l’aéroport de Paris.',
-              'Elle rencontre Léa et Karim à l’école.',
-              'Toute la famille visite Paris en train.',
-              'Camila tombe de vélo devant l’école.'
+              'L’élève arrive à l’aéroport de Paris.',
+              'Il/elle rencontre deux camarades à l’école.',
+              'Toute la famille d’accueil visite Paris en train.',
+              'L’élève tombe de vélo devant l’école.'
             ]
           }
         },
         exercises: [
-          { type: 'mcq', prompt: 'Comment Camila est-elle arrivée en France ?', options: ['En bateau', 'En avion', 'En voiture', 'En train depuis l’Espagne'], answer: 1 },
-          { type: 'mcq', prompt: 'Qu’ont visité Camila et ses amis ensemble ?', options: ['Le Louvre', 'Le château de Chenonceau', 'La tour Eiffel seulement', 'Un musée à Tours'], answer: 1 },
-          { type: 'mcq', prompt: 'Qu’a goûté Camila à Paris ?', options: ['Une baguette', 'Un croissant', 'Un macaron', 'Une crêpe'], answer: 1 },
-          { type: 'mcq', prompt: 'Que s’est-il passé il y a deux semaines ?', options: ['Camila est tombée de vélo', 'Camila est tombée malade', 'Camila a perdu son téléphone', 'Camila s’est disputée avec Léa'], answer: 0 },
-          { type: 'mcq', prompt: 'Qui a aidé Camila après son accident ?', options: ['Karim', 'Léa et Madame Lambert', 'Personne', 'Le médecin seulement'], answer: 1 },
-          { type: 'mcq', prompt: 'Comment Camila décrit-elle ses nouvelles amitiés ?', options: ['Ennuyeuses', 'Inoubliables', 'Difficiles', 'Sans importance'], answer: 1 },
+          { type: 'mcq', prompt: 'Comment cet(te) élève est-il/elle arrivé(e) en France ?', options: ['En bateau', 'En avion', 'En voiture', 'En train depuis l’Espagne'], answer: 1 },
+          { type: 'mcq', prompt: 'Qu’ont visité l’élève et ses amis ensemble ?', options: ['Le Louvre', 'Le château de Chenonceau', 'La tour Eiffel seulement', 'Un musée à Tours'], answer: 1 },
+          { type: 'mcq', prompt: 'Qu’a goûté l’élève à Paris ?', options: ['Une baguette', 'Un croissant', 'Un macaron', 'Une crêpe'], answer: 1 },
+          { type: 'mcq', prompt: 'Que s’est-il passé il y a deux semaines ?', options: ['L’élève est tombé(e) de vélo', 'L’élève est tombé(e) malade', 'L’élève a perdu son téléphone', 'L’élève s’est disputé(e) avec un ami'], answer: 0 },
+          { type: 'mcq', prompt: 'Qui a aidé l’élève après son accident ?', options: ['Personne', 'Ses amis et sa famille d’accueil', 'Le directeur de l’école', 'Le médecin seulement'], answer: 1 },
+          { type: 'mcq', prompt: 'Comment l’élève décrit-il/elle ses nouvelles amitiés ?', options: ['Ennuyeuses', 'Inoubliables', 'Difficiles', 'Sans importance'], answer: 1 },
           { type: 'mcq', prompt: 'Vrai ou faux : l’accident de vélo était très grave.', options: ['Vrai', 'Faux'], answer: 1 },
           { type: 'mcq', prompt: 'Dans le texte, « à quel point » signifie...', options: ['Combien / à quel degré', 'À quel endroit', 'Quand exactement', 'Pourquoi'], answer: 0 },
           { type: 'mcq', prompt: 'Quel sentiment domine ce journal ?', options: ['La déception', 'La gratitude et l’enthousiasme', 'La colère', 'L’indifférence'], answer: 1 },
-          { type: 'mcq', prompt: 'Quelle inférence peut-on faire sur la relation de Camila avec la famille Lambert ?', options: ['Elle est distante', 'Elle est devenue proche et importante pour elle', 'Elle veut déménager', 'Elle ne les voit presque jamais'], answer: 1 }
+          { type: 'mcq', prompt: 'Quelle inférence peut-on faire sur la relation de l’élève avec sa famille d’accueil ?', options: ['Elle est distante', 'Elle est devenue proche et importante', 'L’élève veut déménager', 'Il/elle ne la voit presque jamais'], answer: 1 }
         ]
       }),
       listening: activity('listening', {
@@ -967,41 +967,41 @@ const units = [
     },
     activities: {
       reading: activity('reading', {
-        title: 'Un voyage dans le sud',
-        description: 'La famille Lambert organise un voyage de printemps et réserve un hôtel à Nice.',
+        title: 'Un voyage dans le sud de la France',
+        description: 'Un guide de voyage pour visiter Nice et la Côte d’Azur pendant les vacances de printemps.',
         reading: {
-          title: 'Un voyage dans le sud',
+          title: 'Un voyage dans le sud de la France',
           parts: [
-            "Pour les vacances de printemps, la famille Lambert a décidé d'organiser un voyage dans le sud de la France, à Nice. « On va prendre le train jusqu'à Nice, ça va prendre environ six heures », explique Monsieur Lambert en regardant les horaires sur son ordinateur. Camila est très excitée : elle n'a jamais vu la mer Méditerranée ! Madame Lambert s'occupe de réserver une chambre d'hôtel avec vue sur la mer, pour cinq personnes.",
-            "Le soir, toute la famille prépare les valises ensemble. « N'oublie pas ton maillot de bain, Camila, on va se baigner tous les jours ! » dit Léa en riant. Camila fait sa valise avec soin : des vêtements légers, de la crème solaire, et un appareil photo pour capturer tous les moments de ce voyage. Le lendemain matin, ils prennent le train très tôt, avec beaucoup d'excitation et un peu de fatigue.",
-            "Après six heures de voyage, ils arrivent enfin à Nice. La vue depuis leur hôtel est magnifique : la mer bleue s'étend à perte de vue. Pendant leur séjour, ils vont se baigner tous les jours, visiter la vieille ville, et goûter la cuisine locale, notamment la fameuse salade niçoise. Camila prend des centaines de photos pour les montrer à sa famille à Saint-Domingue. Ce voyage restera l'un des plus beaux souvenirs de son année en France, et elle espère revenir un jour dans cette magnifique région."
+            "Pour les vacances de printemps, beaucoup de familles organisent un voyage dans le sud de la France, à Nice. « On peut prendre le train jusqu'à Nice, ça prend environ six heures », expliquent souvent les guides de voyage. Beaucoup de touristes sont très excités : c'est parfois leur première fois devant la mer Méditerranée ! Il est conseillé de réserver une chambre d'hôtel avec vue sur la mer à l'avance.",
+            "Avant le départ, toute la famille prépare les valises ensemble. « N'oublie pas ton maillot de bain, on va se baigner tous les jours ! » dit-on souvent en riant. On prépare sa valise avec soin : des vêtements légers, de la crème solaire, et un appareil photo pour capturer tous les moments du voyage. Le matin du départ, beaucoup de voyageurs prennent le train très tôt, avec beaucoup d'excitation et un peu de fatigue.",
+            "Après six heures de voyage, les visiteurs arrivent enfin à Nice. La vue depuis l'hôtel est souvent magnifique : la mer bleue s'étend à perte de vue. Pendant leur séjour, beaucoup de touristes se baignent tous les jours, visitent la vieille ville, et goûtent la cuisine locale, notamment la fameuse salade niçoise. Beaucoup de voyageurs prennent des centaines de photos pour les montrer à leur famille restée loin. Ce genre de voyage reste, pour beaucoup, l'un des plus beaux souvenirs de l'année, et donne envie de revenir un jour dans cette magnifique région."
           ],
           questions: [
-            'Comment la famille Lambert va-t-elle voyager jusqu’à Nice ?',
-            'Que réserve Madame Lambert ?',
-            'Que font-ils pendant leur séjour à Nice ?'
+            'Comment peut-on voyager jusqu’à Nice ?',
+            'Que doit-on emporter, selon le texte ?',
+            'Que font les touristes pendant leur séjour à Nice ?'
           ],
           ordering: {
             prompt: 'Remets les événements du voyage dans l’ordre.',
             events: [
               'La famille décide d’organiser un voyage à Nice.',
-              'Ils préparent leurs valises ensemble.',
-              'Ils prennent le train tôt le matin.',
-              'Ils arrivent à Nice et découvrent la vue sur la mer.'
+              'Elle prépare ses valises.',
+              'Elle prend le train tôt le matin.',
+              'Elle arrive à Nice et découvre la vue sur la mer.'
             ]
           }
         },
         exercises: [
-          { type: 'mcq', prompt: 'Où la famille Lambert va-t-elle en vacances ?', options: ['À Paris', 'À Nice', 'À Tours', 'En Espagne'], answer: 1 },
+          { type: 'mcq', prompt: 'Où voyage-t-on dans ce texte ?', options: ['À Paris', 'À Nice', 'À Tours', 'En Espagne'], answer: 1 },
           { type: 'mcq', prompt: 'Combien de temps dure le voyage en train ?', options: ['Deux heures', 'Quatre heures', 'Six heures', 'Huit heures'], answer: 2 },
-          { type: 'mcq', prompt: 'Que réserve Madame Lambert ?', options: ['Un restaurant', 'Une chambre d’hôtel avec vue sur la mer', 'Une voiture', 'Des billets d’avion'], answer: 1 },
-          { type: 'mcq', prompt: 'Qu’est-ce que Léa rappelle à Camila d’emporter ?', options: ['Son passeport', 'Son maillot de bain', 'Son ordinateur', 'Ses livres d’école'], answer: 1 },
-          { type: 'mcq', prompt: 'Que font-ils tous les jours pendant leur séjour ?', options: ['Ils vont au musée', 'Ils se baignent', 'Ils font du shopping', 'Ils restent à l’hôtel'], answer: 1 },
+          { type: 'mcq', prompt: 'Que conseille-t-on de réserver à l’avance ?', options: ['Un restaurant', 'Une chambre d’hôtel avec vue sur la mer', 'Une voiture', 'Des billets d’avion'], answer: 1 },
+          { type: 'mcq', prompt: 'Que rappelle-t-on souvent d’emporter ?', options: ['Son passeport', 'Son maillot de bain', 'Son ordinateur', 'Ses livres d’école'], answer: 1 },
+          { type: 'mcq', prompt: 'Que font les touristes tous les jours pendant leur séjour ?', options: ['Ils vont au musée', 'Ils se baignent', 'Ils font du shopping', 'Ils restent à l’hôtel'], answer: 1 },
           { type: 'mcq', prompt: 'Quel plat local goûtent-ils ?', options: ['La bouillabaisse', 'La salade niçoise', 'La ratatouille', 'La quiche lorraine'], answer: 1 },
-          { type: 'mcq', prompt: 'Vrai ou faux : Camila avait déjà vu la mer Méditerranée avant ce voyage.', options: ['Vrai', 'Faux'], answer: 1 },
+          { type: 'mcq', prompt: 'Vrai ou faux : pour certains touristes, c’est leur première fois devant la mer Méditerranée.', options: ['Vrai', 'Faux'], answer: 0 },
           { type: 'mcq', prompt: 'Dans le texte, « à perte de vue » signifie...', options: ['Très petite', 'Aussi loin que l’œil peut voir', 'Cachée', 'Dangereuse'], answer: 1 },
-          { type: 'mcq', prompt: 'Pourquoi Camila prend-elle beaucoup de photos ?', options: ['Pour les vendre', 'Pour les montrer à sa famille à Saint-Domingue', 'Parce que c’est obligatoire', 'Pour un devoir scolaire'], answer: 1 },
-          { type: 'mcq', prompt: 'Quel est le sentiment général de Camila à propos de ce voyage ?', options: ['La déception', 'L’enthousiasme et la joie', 'L’ennui', 'La peur'], answer: 1 }
+          { type: 'mcq', prompt: 'Pourquoi les voyageurs prennent-ils beaucoup de photos ?', options: ['Pour les vendre', 'Pour les montrer à leur famille', 'Parce que c’est obligatoire', 'Pour un devoir scolaire'], answer: 1 },
+          { type: 'mcq', prompt: 'Quel est le sentiment général décrit à propos de ce voyage ?', options: ['La déception', 'L’enthousiasme et la joie', 'L’ennui', 'La peur'], answer: 1 }
         ]
       }),
       listening: activity('listening', {
@@ -1117,23 +1117,23 @@ const units = [
     activities: {
       reading: activity('reading', {
         title: 'Deux appartements à comparer',
-        description: 'Pour un projet d’école, Camila et Karim comparent deux annonces d’appartements à louer.',
+        description: 'Pour un projet d’école, des élèves comparent deux annonces d’appartements à louer à Tours.',
         reading: {
           title: 'Deux appartements à comparer',
           parts: [
-            "Pour un projet d'école sur la vie quotidienne en France, Camila et Karim doivent comparer deux annonces d'appartements à louer à Tours. La première annonce décrit un studio meublé au centre-ville : une seule pièce avec un coin cuisine, une salle de bain, et un petit balcon. Le loyer est de quatre cents euros par mois, charges comprises. « C'est petit, mais c'est très bien situé, près de tout », remarque Karim.",
-            "La deuxième annonce présente un appartement plus grand, avec deux chambres, un salon, une cuisine séparée et une salle de bain, dans un quartier plus calme, un peu éloigné du centre-ville. Le loyer est de six cents euros par mois, mais les charges ne sont pas comprises. « Cet appartement est plus grand que le studio, mais il est aussi plus cher », observe Camila. « Et il est moins bien situé, il faut prendre le bus pour aller au centre. »",
-            "Après avoir comparé les deux annonces, Camila et Karim discutent des avantages et des inconvénients de chaque option pour leur projet. Le studio est moins cher et très central, mais il est petit et n'a pas de vraie chambre séparée. L'appartement est plus spacieux et plus confortable pour une famille, mais il est plus cher et moins pratique pour se déplacer. « Ça dépend vraiment des besoins de chaque personne », conclut Karim. « Pour un étudiant seul, je choisirais le studio ; pour une famille, l'appartement est mieux. » Camila est d'accord et ils décident de présenter les deux options dans leur projet, avec cette conclusion."
+            "Pour un projet d'école sur la vie quotidienne en France, des élèves doivent comparer deux annonces d'appartements à louer à Tours. La première annonce décrit un studio meublé au centre-ville : une seule pièce avec un coin cuisine, une salle de bain, et un petit balcon. Le loyer est de quatre cents euros par mois, charges comprises. « C'est petit, mais c'est très bien situé, près de tout », remarquent les élèves.",
+            "La deuxième annonce présente un appartement plus grand, avec deux chambres, un salon, une cuisine séparée et une salle de bain, dans un quartier plus calme, un peu éloigné du centre-ville. Le loyer est de six cents euros par mois, mais les charges ne sont pas comprises. « Cet appartement est plus grand que le studio, mais il est aussi plus cher », observent-ils. « Et il est moins bien situé, il faut prendre le bus pour aller au centre. »",
+            "Après avoir comparé les deux annonces, les élèves discutent des avantages et des inconvénients de chaque option pour leur projet. Le studio est moins cher et très central, mais il est petit et n'a pas de vraie chambre séparée. L'appartement est plus spacieux et plus confortable pour une famille, mais il est plus cher et moins pratique pour se déplacer. « Ça dépend vraiment des besoins de chaque personne », concluent-ils. « Pour un étudiant seul, le studio est un bon choix ; pour une famille, l'appartement est mieux. » Ils décident de présenter les deux options dans leur projet, avec cette conclusion."
           ],
           questions: [
-            'Que doivent faire Camila et Karim pour leur projet d’école ?',
+            'Que doivent faire les élèves pour leur projet d’école ?',
             'Quelle est la différence de loyer entre les deux logements ?',
             'Quelle conclusion tirent-ils à la fin de leur comparaison ?'
           ],
           ordering: {
             prompt: 'Remets les événements dans l’ordre.',
             events: [
-              'Camila et Karim lisent la première annonce, un studio meublé.',
+              'Les élèves lisent la première annonce, un studio meublé.',
               'Ils lisent la deuxième annonce, un appartement plus grand.',
               'Ils comparent les avantages et les inconvénients de chaque option.',
               'Ils décident de présenter les deux options dans leur projet.'
@@ -1146,10 +1146,10 @@ const units = [
           { type: 'mcq', prompt: 'Combien de chambres a le deuxième appartement ?', options: ['Une', 'Deux', 'Trois', 'Quatre'], answer: 1 },
           { type: 'mcq', prompt: 'Pourquoi le deuxième appartement est-il moins pratique pour se déplacer ?', options: ['Il est au centre-ville', 'Il est dans un quartier calme, éloigné du centre', 'Il n’a pas de bus proche jamais', 'Il n’a pas de rue'], answer: 1 },
           { type: 'mcq', prompt: 'Les charges sont-elles comprises dans le loyer du studio ?', options: ['Oui', 'Non', 'Le texte ne le dit pas', 'Seulement en hiver'], answer: 0 },
-          { type: 'mcq', prompt: 'Que recommande Karim pour un étudiant seul ?', options: ['L’appartement', 'Le studio', 'Aucun des deux', 'Un troisième logement'], answer: 1 },
+          { type: 'mcq', prompt: 'Que recommandent les élèves pour un étudiant seul ?', options: ['L’appartement', 'Le studio', 'Aucun des deux', 'Un troisième logement'], answer: 1 },
           { type: 'mcq', prompt: 'Vrai ou faux : le studio a un balcon.', options: ['Vrai', 'Faux'], answer: 0 },
           { type: 'mcq', prompt: 'Dans le texte, « charges comprises » signifie...', options: ['Les charges sont en plus du loyer', 'Les charges sont incluses dans le prix', 'Il n’y a pas de charges', 'Les charges sont très élevées'], answer: 1 },
-          { type: 'mcq', prompt: 'Quelle est l’intention principale de Camila et Karim dans ce texte ?', options: ['Choisir un logement pour eux-mêmes', 'Comparer deux annonces pour un projet scolaire', 'Vendre un appartement', 'Se plaindre d’un logement'], answer: 1 },
+          { type: 'mcq', prompt: 'Quelle est l’intention principale des élèves dans ce texte ?', options: ['Choisir un logement pour eux-mêmes', 'Comparer deux annonces pour un projet scolaire', 'Vendre un appartement', 'Se plaindre d’un logement'], answer: 1 },
           { type: 'mcq', prompt: 'Quelle conclusion tirent-ils finalement ?', options: ['Le studio est toujours meilleur', 'L’appartement est toujours meilleur', 'Le meilleur choix dépend des besoins de chaque personne', 'Aucun des deux logements n’est bon'], answer: 2 }
         ]
       }),
@@ -1266,40 +1266,40 @@ const units = [
     activities: {
       reading: activity('reading', {
         title: 'Quel film regarder ce soir ?',
-        description: 'Camila, Léa et Karim n’arrivent pas à se mettre d’accord sur le film à regarder.',
+        description: 'Un groupe d’amis n’arrive pas à se mettre d’accord sur le film à regarder.',
         reading: {
           title: 'Quel film regarder ce soir ?',
           parts: [
-            "Vendredi soir, Camila, Léa et Karim se retrouvent chez les Lambert pour une soirée cinéma. Le problème, c'est qu'ils n'arrivent pas à se mettre d'accord sur le film à regarder. « Moi, je préfère les comédies, elles me font toujours rire », dit Léa. « Personnellement, je préfère les films d'action, ils sont plus intéressants », répond Karim. Camila, elle, n'aime ni les comédies ni les films d'action : « Moi, j'aime mieux les films romantiques, mais je sais que vous n'aimez pas ça du tout. »",
-            "Après quelques minutes de discussion, ils décident de regarder les avis sur leurs téléphones. Léa propose une série qu'elle suit sur les réseaux sociaux : « Tout le monde en parle en ce moment, ça a l'air très bien ! » Karim n'est pas très convaincu : « Je ne fais jamais confiance aux réseaux sociaux pour choisir un film, les avis sont souvent faux. » Camila propose alors une solution : « Et si on regardait un documentaire ? Ce n'est ni une comédie, ni un film d'action, ni un film romantique, ça devrait convenir à tout le monde ! »",
-            "Finalement, tous les trois acceptent l'idée de Camila et choisissent un documentaire sur les océans. Après le film, ils sont tous surpris : ils l'ont adoré, même Karim qui n'aime jamais les documentaires d'habitude ! « À mon avis, on devrait regarder plus de documentaires ensemble », dit Léa en riant. Cette soirée leur montre qu'il n'est pas toujours facile de se mettre d'accord, mais qu'il existe toujours une solution qui satisfait tout le monde."
+            "Vendredi soir, un groupe d'amis se retrouve pour une soirée cinéma. Le problème, c'est qu'ils n'arrivent pas à se mettre d'accord sur le film à regarder. « Moi, je préfère les comédies, elles me font toujours rire », dit l'un d'eux. « Personnellement, je préfère les films d'action, ils sont plus intéressants », répond un autre. Une troisième amie n'aime ni les comédies ni les films d'action : « Moi, j'aime mieux les films romantiques, mais je sais que vous n'aimez pas ça du tout. »",
+            "Après quelques minutes de discussion, ils décident de regarder les avis sur leurs téléphones. L'un d'eux propose une série vue sur les réseaux sociaux : « Tout le monde en parle en ce moment, ça a l'air très bien ! » Un autre n'est pas très convaincu : « Je ne fais jamais confiance aux réseaux sociaux pour choisir un film, les avis sont souvent faux. » Quelqu'un propose alors une solution : « Et si on regardait un documentaire ? Ce n'est ni une comédie, ni un film d'action, ni un film romantique, ça devrait convenir à tout le monde ! »",
+            "Finalement, tout le groupe accepte cette idée et choisit un documentaire sur les océans. Après le film, ils sont tous surpris : ils l'ont adoré, même celui qui n'aime jamais les documentaires d'habitude ! « À mon avis, on devrait regarder plus de documentaires ensemble », dit l'un d'eux en riant. Cette soirée leur montre qu'il n'est pas toujours facile de se mettre d'accord, mais qu'il existe toujours une solution qui satisfait tout le monde."
           ],
           questions: [
-            'Pourquoi Camila, Léa et Karim ont-ils du mal à choisir un film ?',
-            'Que propose Camila comme solution ?',
+            'Pourquoi ce groupe d’amis a-t-il du mal à choisir un film ?',
+            'Que propose-t-on comme solution ?',
             'Comment se termine la soirée ?'
           ],
           ordering: {
             prompt: 'Remets les événements de la soirée dans l’ordre.',
             events: [
               'Chacun exprime sa préférence de film.',
-              'Léa propose une série vue sur les réseaux sociaux.',
-              'Camila propose de regarder un documentaire.',
-              'Tous les trois adorent le documentaire sur les océans.'
+              'On propose une série vue sur les réseaux sociaux.',
+              'Quelqu’un propose de regarder un documentaire.',
+              'Tout le groupe adore le documentaire sur les océans.'
             ]
           }
         },
         exercises: [
-          { type: 'mcq', prompt: 'Quel genre de film Léa préfère-t-elle ?', options: ['Les films d’action', 'Les comédies', 'Les films romantiques', 'Les documentaires'], answer: 1 },
-          { type: 'mcq', prompt: 'Quel genre de film Karim préfère-t-il ?', options: ['Les comédies', 'Les films d’action', 'Les films romantiques', 'Les documentaires'], answer: 1 },
-          { type: 'mcq', prompt: 'Pourquoi Karim ne fait-il pas confiance aux réseaux sociaux ?', options: ['Il ne les utilise jamais', 'Les avis sont souvent faux', 'Ils sont trop lents', 'Il préfère les livres'], answer: 1 },
-          { type: 'mcq', prompt: 'Que propose Camila comme solution ?', options: ['Ne rien regarder', 'Regarder un documentaire', 'Regarder trois films différents', 'Aller au cinéma'], answer: 1 },
+          { type: 'mcq', prompt: 'Quel genre de film préfère le premier ami ?', options: ['Les films d’action', 'Les comédies', 'Les films romantiques', 'Les documentaires'], answer: 1 },
+          { type: 'mcq', prompt: 'Quel genre de film préfère le deuxième ami ?', options: ['Les comédies', 'Les films d’action', 'Les films romantiques', 'Les documentaires'], answer: 1 },
+          { type: 'mcq', prompt: 'Pourquoi ne fait-on pas confiance aux réseaux sociaux, selon un des amis ?', options: ['On ne les utilise jamais', 'Les avis sont souvent faux', 'Ils sont trop lents', 'On préfère les livres'], answer: 1 },
+          { type: 'mcq', prompt: 'Que propose-t-on comme solution ?', options: ['Ne rien regarder', 'Regarder un documentaire', 'Regarder trois films différents', 'Aller au cinéma'], answer: 1 },
           { type: 'mcq', prompt: 'Sur quel sujet est le documentaire qu’ils regardent ?', options: ['L’espace', 'Les océans', 'Les animaux d’Afrique', 'L’histoire de France'], answer: 1 },
-          { type: 'mcq', prompt: 'Comment réagit Karim après le documentaire ?', options: ['Il n’aime pas du tout', 'Il est surpris et il adore', 'Il s’endort', 'Il refuse de commenter'], answer: 1 },
-          { type: 'mcq', prompt: 'Vrai ou faux : Karim aime habituellement les documentaires.', options: ['Vrai', 'Faux'], answer: 1 },
+          { type: 'mcq', prompt: 'Comment réagit le groupe après le documentaire ?', options: ['Il n’aime pas du tout', 'Il est surpris et il adore', 'Il s’endort', 'Il refuse de commenter'], answer: 1 },
+          { type: 'mcq', prompt: 'Vrai ou faux : tout le groupe aime habituellement les documentaires.', options: ['Vrai', 'Faux'], answer: 1 },
           { type: 'mcq', prompt: 'Dans le texte, « ça devrait convenir à tout le monde » signifie...', options: ['Ça ne va plaire à personne', 'Ça devrait satisfaire tout le monde', 'C’est interdit', 'Personne ne le sait'], answer: 1 },
           { type: 'mcq', prompt: 'Quelle leçon peut-on tirer de cette soirée ?', options: ['Il est impossible de se mettre d’accord', 'Il existe toujours une solution qui satisfait tout le monde', 'Il faut toujours choisir seul', 'Les documentaires sont ennuyeux'], answer: 1 },
-          { type: 'mcq', prompt: 'Quelle phrase exprime une opinion, pas un fait ?', options: ['Ils se retrouvent chez les Lambert.', 'Personnellement, je préfère les films d’action.', 'Ils regardent un documentaire sur les océans.', 'Léa propose une série.'], answer: 1 }
+          { type: 'mcq', prompt: 'Quelle phrase exprime une opinion, pas un fait ?', options: ['Ils se retrouvent pour une soirée cinéma.', 'Personnellement, je préfère les films d’action.', 'Ils regardent un documentaire sur les océans.', 'On propose une série.'], answer: 1 }
         ]
       }),
       listening: activity('listening', {
@@ -1414,41 +1414,41 @@ const units = [
     },
     activities: {
       reading: activity('reading', {
-        title: 'Un e-mail à Sofía',
-        description: 'Camila écrit à sa meilleure amie de Saint-Domingue pour lui raconter sa nouvelle vie.',
+        title: 'Un e-mail pendant un échange scolaire',
+        description: 'Un modèle d’e-mail qu’un(e) élève en échange scolaire pourrait écrire à un(e) ami(e) resté(e) dans son pays.',
         reading: {
-          title: 'Un e-mail à Sofía',
+          title: 'Un e-mail pendant un échange scolaire',
           parts: [
-            "Chère Sofía, ça fait longtemps que je ne t'ai pas écrit, excuse-moi ! La vie ici, en France, est tellement différente de celle qu'on avait à Saint-Domingue. Je me suis fait deux amis formidables : Léa, la fille de la famille qui m'héberge, et Karim, un garçon de ma classe qui est toujours prêt à m'aider. Ce sont des amis avec qui je passe presque tout mon temps libre, et je crois que je ne les oublierai jamais.",
-            "Je dois t'avouer que tu me manques énormément, ainsi que le reste de notre groupe d'amies. Je pense souvent aux moments qu'on passait ensemble, dans le quartier où on a grandi. Mais je suis aussi très heureuse ici : j'apprends une nouvelle langue, je découvre une nouvelle culture, et j'ai rencontré des personnes qui, comme toi, sont devenues très importantes pour moi. Léa et moi, on n'est pas toujours d'accord sur tout (elle adore les comédies romantiques, alors que moi, je préfère les documentaires !), mais on se respecte et on rigole beaucoup ensemble.",
-            "J'espère qu'on pourra garder contact, même quand je rentrerai à Saint-Domingue. Peut-être que tu pourrais venir me rendre visite en France un jour, ou que je pourrais te présenter Léa et Karim par appel vidéo ! En attendant, je t'envoie plein de photos de Tours, la ville où j'habite maintenant. Réponds-moi vite, j'ai hâte d'avoir de tes nouvelles. Je t'embrasse très fort, Camila."
+            "Cher/Chère ami(e), ça fait longtemps que je ne t'ai pas écrit, excuse-moi ! La vie ici, en France, est tellement différente de celle qu'on avait chez nous. Je me suis fait deux amis formidables : la fille de la famille qui m'héberge, et un camarade de classe qui est toujours prêt à m'aider. Ce sont des amis avec qui je passe presque tout mon temps libre, et je crois que je ne les oublierai jamais.",
+            "Je dois t'avouer que tu me manques énormément, ainsi que le reste de notre groupe d'amis. Je pense souvent aux moments qu'on passait ensemble, dans le quartier où on a grandi. Mais je suis aussi très heureux/heureuse ici : j'apprends une nouvelle langue, je découvre une nouvelle culture, et j'ai rencontré des personnes qui, comme toi, sont devenues très importantes pour moi. Mes nouveaux amis et moi, on n'est pas toujours d'accord sur tout (l'un adore les comédies romantiques, alors que moi, je préfère les documentaires !), mais on se respecte et on rigole beaucoup ensemble.",
+            "J'espère qu'on pourra garder contact, même quand je rentrerai chez nous. Peut-être que tu pourrais venir me rendre visite en France un jour, ou que je pourrais te présenter mes nouveaux amis par appel vidéo ! En attendant, je t'envoie plein de photos de Tours, la ville où j'habite maintenant. Réponds-moi vite, j'ai hâte d'avoir de tes nouvelles. Je t'embrasse très fort."
           ],
           questions: [
-            'Qui sont les deux nouveaux amis de Camila en France ?',
-            'Sur quoi Camila et Léa ne sont-elles pas toujours d’accord ?',
-            'Que propose Camila pour garder contact avec Sofía ?'
+            'Qui sont les deux nouveaux amis mentionnés dans l’e-mail ?',
+            'Sur quoi l’auteur et ses nouveaux amis ne sont-ils pas toujours d’accord ?',
+            'Que propose l’auteur pour garder contact ?'
           ],
           ordering: {
             prompt: 'Remets les idées de l’e-mail dans l’ordre.',
             events: [
-              'Camila s’excuse de ne pas avoir écrit depuis longtemps.',
-              'Elle raconte comment elle s’est fait deux nouveaux amis.',
-              'Elle avoue que Sofía et ses amies lui manquent.',
-              'Elle propose de garder contact avec Sofía.'
+              'L’auteur s’excuse de ne pas avoir écrit depuis longtemps.',
+              'Il/elle raconte comment il/elle s’est fait deux nouveaux amis.',
+              'Il/elle avoue que son ami(e) et le groupe lui manquent.',
+              'Il/elle propose de garder contact.'
             ]
           }
         },
         exercises: [
-          { type: 'mcq', prompt: 'Qui sont les deux nouveaux amis de Camila ?', options: ['Léa et Karim', 'Sofía et Karim', 'Madame et Monsieur Lambert', 'Léa et Madame Lambert'], answer: 0 },
-          { type: 'mcq', prompt: 'Qui manque énormément à Camila ?', options: ['Léa', 'Karim', 'Sofía et son groupe d’amies', 'Madame Lambert'], answer: 2 },
-          { type: 'mcq', prompt: 'Sur quoi Camila et Léa ne sont-elles pas d’accord ?', options: ['Le type de films qu’elles préfèrent', 'La routine du matin', 'Le choix de l’école', 'Le pays où voyager'], answer: 0 },
-          { type: 'mcq', prompt: 'Que propose Camila pour rester en contact avec Sofía ?', options: ['Ne plus jamais lui écrire', 'Se voir en France ou par appel vidéo', 'Attendre son retour définitif', 'Écrire seulement une fois par an'], answer: 1 },
-          { type: 'mcq', prompt: 'Que dit Camila à propos de la ville où elle habite ?', options: ['Elle la déteste', 'Elle envoie des photos de Tours à Sofía', 'Elle veut déménager', 'Elle n’en parle pas'], answer: 1 },
-          { type: 'mcq', prompt: 'Comment Camila décrit-elle sa relation avec Léa et Karim ?', options: ['Distante et froide', 'Proche, malgré quelques désaccords', 'Conflictuelle', 'Sans importance'], answer: 1 },
-          { type: 'mcq', prompt: 'Vrai ou faux : Camila regrette d’être partie en France.', options: ['Vrai', 'Faux'], answer: 1 },
+          { type: 'mcq', prompt: 'Qui sont les deux nouveaux amis mentionnés ?', options: ['La fille de la famille d’accueil et un camarade de classe', 'Deux professeurs', 'Les parents de la famille d’accueil', 'Deux voisins'], answer: 0 },
+          { type: 'mcq', prompt: 'Qui manque énormément à l’auteur ?', options: ['Sa famille d’accueil', 'Son professeur', 'Son ami(e) et son groupe d’amis', 'Personne'], answer: 2 },
+          { type: 'mcq', prompt: 'Sur quoi ne sont-ils pas d’accord ?', options: ['Le type de films qu’ils préfèrent', 'La routine du matin', 'Le choix de l’école', 'Le pays où voyager'], answer: 0 },
+          { type: 'mcq', prompt: 'Que propose l’auteur pour rester en contact ?', options: ['Ne plus jamais écrire', 'Se voir en France ou par appel vidéo', 'Attendre le retour définitif', 'Écrire seulement une fois par an'], answer: 1 },
+          { type: 'mcq', prompt: 'Que dit l’auteur à propos de la ville où il/elle habite ?', options: ['Il/elle la déteste', 'Il/elle envoie des photos de Tours', 'Il/elle veut déménager', 'Il/elle n’en parle pas'], answer: 1 },
+          { type: 'mcq', prompt: 'Comment l’auteur décrit-il/elle sa relation avec ses nouveaux amis ?', options: ['Distante et froide', 'Proche, malgré quelques désaccords', 'Conflictuelle', 'Sans importance'], answer: 1 },
+          { type: 'mcq', prompt: 'Vrai ou faux : l’auteur regrette d’être parti(e) en France.', options: ['Vrai', 'Faux'], answer: 1 },
           { type: 'mcq', prompt: 'Dans le texte, « j’ai hâte de » signifie...', options: ['Je n’ai pas envie de', 'J’attends avec impatience', 'J’ai peur de', 'Je refuse de'], answer: 1 },
           { type: 'mcq', prompt: 'Quelle est l’intention principale de cet e-mail ?', options: ['Se plaindre de la France', 'Partager des nouvelles et maintenir le lien d’amitié', 'Demander de l’argent', 'Annoncer un retour définitif'], answer: 1 },
-          { type: 'mcq', prompt: 'Quelle phrase du texte exprime un sentiment, et non un fait ?', options: ['Léa est la fille de la famille qui m’héberge.', 'Tu me manques énormément.', 'Karim est un garçon de ma classe.', 'J’habite à Tours maintenant.'], answer: 1 }
+          { type: 'mcq', prompt: 'Quelle phrase du texte exprime un sentiment, et non un fait ?', options: ['C’est la fille de la famille qui m’héberge.', 'Tu me manques énormément.', 'C’est un camarade de ma classe.', 'J’habite à Tours maintenant.'], answer: 1 }
         ]
       }),
       listening: activity('listening', {

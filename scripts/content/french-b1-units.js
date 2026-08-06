@@ -46,40 +46,40 @@ const units = [
     },
     activities: {
       reading: activity('reading', {
-        title: 'Rester ou repartir ?',
-        description: 'Camila hésite entre prolonger son échange en France ou rentrer en République dominicaine.',
+        title: 'Rester ou repartir ? Le dilemme des élèves en échange',
+        description: 'De nombreux élèves en échange scolaire hésitent entre prolonger leur séjour en France ou rentrer chez eux.',
         reading: {
-          title: 'Rester ou repartir ?',
+          title: 'Rester ou repartir ? Le dilemme des élèves en échange',
           parts: [
-            "À quelques mois de la fin de son année scolaire à Tours, Camila doit prendre une décision importante : rester une année de plus en France, ou rentrer chez elle, à Saint-Domingue. Ses parents lui ont proposé de prolonger son échange si elle le souhaite vraiment, mais elle hésite. D'un côté, elle adore sa vie à Tours : ses amis Léa et Karim, la famille Lambert, le lycée, et tout ce qu'elle a appris en français. De l'autre côté, sa famille et ses amis d'enfance lui manquent énormément, surtout sa grand-mère, qu'elle n'a pas vue depuis presque un an.",
-            "Un soir, elle en parle avec Léa. « Si je reste, je vais continuer à progresser en français et je pourrai peut-être étudier dans une université française plus tard », explique Camila. « Mais si je rentre maintenant, je vais retrouver ma famille, mais je vais aussi devoir tout recommencer avec mes amis là-bas, qui ont continué leur vie sans moi. » Léa l'écoute attentivement, puis lui répond : « À mon avis, il n'y a pas de mauvaise décision ici. Si tu restes, on continuera à être amies ; si tu pars, on s'écrira et je viendrai peut-être te rendre visite un jour ! »",
-            "Cette conversation aide Camila à voir la situation plus clairement. Elle réalise que, quelle que soit sa décision, elle ne perdra pas ce qu'elle a construit cette année : une nouvelle langue, de nouveaux amis, une nouvelle façon de voir le monde. Finalement, après avoir longuement réfléchi et parlé avec ses parents au téléphone, elle décide de rentrer à Saint-Domingue à la fin de l'année scolaire, mais avec le projet de revenir étudier en France après le lycée, si tout se passe bien. Léa et Karim promettent de venir la voir un jour dans les Caraïbes, et tous les trois savent que cette amitié durera bien au-delà de cette année d'échange."
+            "À quelques mois de la fin de leur année scolaire en France, de nombreux élèves en échange doivent prendre une décision importante : rester une année de plus, ou rentrer chez eux. Certains parents proposent de prolonger l'échange si l'élève le souhaite vraiment, mais la décision n'est jamais simple. D'un côté, beaucoup d'élèves adorent leur nouvelle vie : leurs amis, leur famille d'accueil, le lycée, et tout ce qu'ils ont appris en français. De l'autre côté, leur famille et leurs amis d'enfance leur manquent énormément, surtout les grands-parents, qu'ils n'ont parfois pas vus depuis presque un an.",
+            "Beaucoup en parlent avec leurs amis les plus proches. « Si je reste, je vais continuer à progresser en français et je pourrai peut-être étudier dans une université française plus tard », expliquent souvent ces élèves. « Mais si je rentre maintenant, je vais retrouver ma famille, mais je vais aussi devoir tout recommencer avec mes amis là-bas, qui ont continué leur vie sans moi. » Un ami répond souvent : « À mon avis, il n'y a pas de mauvaise décision ici. Si tu restes, on continuera à être amis ; si tu pars, on s'écrira et je viendrai peut-être te rendre visite un jour ! »",
+            "Ces conversations aident souvent les élèves à voir la situation plus clairement. Beaucoup réalisent que, quelle que soit leur décision, ils ne perdront pas ce qu'ils ont construit cette année : une nouvelle langue, de nouveaux amis, une nouvelle façon de voir le monde. Selon les associations d'échanges scolaires, environ un élève sur cinq décide de prolonger son séjour d'une année supplémentaire, tandis que la majorité rentre chez eux avec le projet de revenir étudier en France plus tard, si tout se passe bien. Dans les deux cas, les amitiés nouées pendant l'échange durent souvent bien au-delà de cette année."
           ],
           questions: [
-            'Quelle décision Camila doit-elle prendre ?',
-            'Que lui manque le plus si elle reste en France ?',
-            'Quelle décision prend-elle finalement, et avec quel projet ?'
+            'Quelle décision doivent prendre de nombreux élèves en échange ?',
+            'Que leur manque-t-il le plus s’ils restent en France ?',
+            'Quelle proportion d’élèves décide de prolonger son séjour, selon le texte ?'
           ],
           ordering: {
-            prompt: 'Remets les événements de l’histoire dans l’ordre.',
+            prompt: 'Remets les idées du texte dans l’ordre.',
             events: [
-              'Les parents de Camila lui proposent de prolonger son échange.',
-              'Camila parle de son hésitation avec Léa un soir.',
-              'Camila réfléchit et parle avec ses parents au téléphone.',
-              'Elle décide de rentrer, avec le projet de revenir étudier en France plus tard.'
+              'Certains parents proposent de prolonger l’échange.',
+              'Les élèves parlent de leur hésitation avec un ami proche.',
+              'Ces conversations les aident à voir la situation plus clairement.',
+              'La majorité rentre chez eux, avec le projet de revenir plus tard.'
             ]
           }
         },
         exercises: [
-          { type: 'mcq', prompt: 'Quel est le sujet principal du texte ?', options: ['Un voyage touristique', 'Une décision importante sur l’avenir de Camila', 'Un problème de santé', 'Un examen scolaire'], answer: 1 },
-          { type: 'mcq', prompt: 'Que lui proposent ses parents ?', options: ['De rentrer immédiatement', 'De prolonger son échange si elle le souhaite', 'De changer de famille d’accueil', 'De changer de ville en France'], answer: 1 },
-          { type: 'mcq', prompt: 'Qui manque le plus à Camila si elle reste en France ?', options: ['Ses amis d’enfance seulement', 'Sa grand-mère et sa famille', 'Ses professeurs', 'Personne en particulier'], answer: 1 },
-          { type: 'mcq', prompt: 'Que dit Léa pour rassurer Camila ?', options: ['Qu’elle doit absolument rester', 'Qu’il n’y a pas de mauvaise décision', 'Qu’elle doit absolument partir', 'Qu’elle ne la reverra jamais'], answer: 1 },
-          { type: 'mcq', prompt: 'Quelle est la décision finale de Camila ?', options: ['Rester définitivement en France', 'Rentrer à Saint-Domingue avec le projet de revenir plus tard', 'Ne jamais revenir en France', 'Changer de pays d’échange'], answer: 1 },
-          { type: 'mcq', prompt: 'Dans le texte, « quelle que soit sa décision » signifie...', options: ['Peu importe ce qu’elle choisit', 'Elle doit absolument choisir la France', 'Elle n’a pas le droit de choisir', 'Sa décision est déjà annulée'], answer: 0 },
+          { type: 'mcq', prompt: 'Quel est le sujet principal du texte ?', options: ['Un voyage touristique', 'Une décision importante sur l’avenir des élèves en échange', 'Un problème de santé', 'Un examen scolaire'], answer: 1 },
+          { type: 'mcq', prompt: 'Que proposent certains parents ?', options: ['De rentrer immédiatement', 'De prolonger l’échange si l’élève le souhaite', 'De changer de famille d’accueil', 'De changer de ville en France'], answer: 1 },
+          { type: 'mcq', prompt: 'Qui manque le plus aux élèves s’ils restent en France ?', options: ['Leurs amis d’enfance seulement', 'Leurs grands-parents et leur famille', 'Leurs professeurs', 'Personne en particulier'], answer: 1 },
+          { type: 'mcq', prompt: 'Que répond souvent un ami pour rassurer ?', options: ['Qu’il faut absolument rester', 'Qu’il n’y a pas de mauvaise décision', 'Qu’il faut absolument partir', 'Qu’on ne se reverra jamais'], answer: 1 },
+          { type: 'mcq', prompt: 'Que fait la majorité des élèves, selon le texte ?', options: ['Ils restent tous définitivement en France', 'Ils rentrent chez eux avec le projet de revenir plus tard', 'Ils ne reviennent jamais en France', 'Ils changent de pays d’échange'], answer: 1 },
+          { type: 'mcq', prompt: 'Dans le texte, « quelle que soit leur décision » signifie...', options: ['Peu importe ce qu’ils choisissent', 'Ils doivent absolument choisir la France', 'Ils n’ont pas le droit de choisir', 'Leur décision est déjà annulée'], answer: 0 },
           { type: 'mcq', prompt: 'Quel connecteur le texte utilise-t-il pour opposer deux idées ?', options: ['Parce que', 'D’un côté / de l’autre côté', 'Donc', 'Ensuite'], answer: 1 },
-          { type: 'mcq', prompt: 'Quelle inférence peut-on faire sur l’amitié entre Camila et Léa ?', options: ['Elle va probablement se terminer', 'Elle va probablement continuer malgré la distance', 'Elle n’a jamais été sincère', 'Léa est en colère contre Camila'], answer: 1 },
-          { type: 'mcq', prompt: 'Quelle phrase exprime une opinion, et non un fait ?', options: ['Camila vit à Tours depuis un an.', 'À mon avis, il n’y a pas de mauvaise décision ici.', 'Camila parle avec Léa un soir.', 'Ses parents lui ont proposé de prolonger son échange.'], answer: 1 },
+          { type: 'mcq', prompt: 'Quelle inférence peut-on faire sur les amitiés nouées pendant l’échange ?', options: ['Elles se terminent presque toujours', 'Elles durent souvent bien au-delà de l’année', 'Elles ne sont jamais sincères', 'Elles causent des conflits'], answer: 1 },
+          { type: 'mcq', prompt: 'Quelle phrase exprime une opinion, et non un fait ?', options: ['Les élèves vivent en France depuis un an.', 'À mon avis, il n’y a pas de mauvaise décision ici.', 'Les élèves parlent avec leurs amis.', 'Certains parents proposent de prolonger l’échange.'], answer: 1 },
           { type: 'mcq', prompt: 'Quel est le ton général de la fin du texte ?', options: ['Pessimiste et froid', 'Nostalgique mais plein d’espoir', 'Fâché et déçu', 'Indifférent'], answer: 1 }
         ]
       }),
@@ -197,42 +197,42 @@ const units = [
     },
     activities: {
       reading: activity('reading', {
-        title: 'Comment j’ai changé',
-        description: 'Camila réfléchit, dans un texte pour l’école, à la façon dont son séjour en France l’a transformée.',
+        title: 'Comment un séjour à l’étranger transforme les élèves',
+        description: 'Un témoignage type sur la façon dont une année d’échange scolaire change durablement les élèves.',
         reading: {
-          title: 'Comment j’ai changé',
+          title: 'Comment un séjour à l’étranger transforme les élèves',
           parts: [
-            "Avant, quand j'étais à Saint-Domingue, j'étais une personne plutôt timide. Je parlais peu en public, et l'idée de déménager seule dans un autre pays me terrifiait. Je passais mon temps libre avec le même petit groupe d'amies depuis l'école primaire, et je n'aimais pas beaucoup sortir de ma zone de confort. Ma famille et mes professeurs disaient souvent que j'étais « la fille sage et discrète » de la classe.",
-            "Depuis mon arrivée en France, il y a maintenant huit mois, j'ai beaucoup changé. Au début, c'était très difficile : je ne comprenais presque rien en français, et je me sentais souvent seule, même entourée de la famille Lambert. Mais petit à petit, j'ai commencé à prendre confiance en moi. J'ai dû parler français tous les jours, poser des questions même quand j'avais peur de me tromper, et me faire de nouveaux amis dans une culture complètement différente de la mienne.",
-            "Aujourd'hui, je suis une personne beaucoup plus sûre d'elle. Je participe activement en classe, je n'ai plus peur de faire des erreurs quand je parle, et j'ai appris à sortir de ma zone de confort régulièrement. Mes amis français, Léa et Karim, disent en riant que je suis devenue « plus bavarde qu'eux » ! Ce voyage m'a appris que le changement est parfois difficile, mais qu'il nous rend plus forts. Je ne suis plus la même personne qu'avant mon départ, et je pense que c'est une très bonne chose.",
-            "Quand je repense à la Camila timide qui est arrivée à l'aéroport de Paris il y a huit mois, j'ai presque du mal à me reconnaître. Bien sûr, il me reste encore des progrès à faire en français, et il y aura sans doute d'autres défis à surmonter avant la fin de l'année scolaire. Mais je sais maintenant que je suis capable de m'adapter à des situations nouvelles, même difficiles. Cette confiance en moi, je la garderai bien après mon retour à Saint-Domingue."
+            "Avant leur départ, beaucoup d'élèves en échange se décrivent comme des personnes plutôt timides. Ils parlaient peu en public, et l'idée de déménager seuls dans un autre pays les terrifiait. Ils passaient leur temps libre avec le même petit groupe d'amis depuis l'école primaire, et ils n'aimaient pas beaucoup sortir de leur zone de confort. Leurs professeurs disaient souvent qu'ils étaient « des élèves sages et discrets ».",
+            "Après leur arrivée en France, huit mois en moyenne, la plupart racontent avoir beaucoup changé. Au début, c'était très difficile : ils ne comprenaient presque rien en français, et ils se sentaient souvent seuls, même entourés de leur famille d'accueil. Mais petit à petit, ils ont commencé à prendre confiance en eux. Ils ont dû parler français tous les jours, poser des questions même quand ils avaient peur de se tromper, et se faire de nouveaux amis dans une culture complètement différente de la leur.",
+            "Après leur échange, la plupart de ces élèves se disent beaucoup plus sûrs d'eux. Ils participent activement en classe, ils n'ont plus peur de faire des erreurs quand ils parlent, et ils ont appris à sortir de leur zone de confort régulièrement. Leurs amis français disent souvent en riant qu'ils sont devenus « plus bavards qu'eux » ! Selon plusieurs études sur les programmes d'échange, ce type de voyage apprend aux jeunes que le changement est parfois difficile, mais qu'il les rend plus forts.",
+            "Quand ils repensent à la personne timide qui est arrivée à l'aéroport de Paris huit mois plus tôt, beaucoup d'anciens élèves en échange ont presque du mal à se reconnaître. Bien sûr, il leur reste encore des progrès à faire en français, et il y a souvent d'autres défis à surmonter avant la fin de l'année scolaire. Mais ils savent désormais qu'ils sont capables de s'adapter à des situations nouvelles, même difficiles. Cette confiance en soi, la plupart la gardent bien après leur retour chez eux."
           ],
           questions: [
-            'Comment Camila se décrivait-elle avant son départ pour la France ?',
-            'Quelles difficultés a-t-elle rencontrées au début de son séjour ?',
-            'Comment Camila a-t-elle changé depuis son arrivée en France ?'
+            'Comment beaucoup d’élèves se décrivaient-ils avant leur départ pour la France ?',
+            'Quelles difficultés rencontrent-ils souvent au début de leur séjour ?',
+            'Comment ces élèves changent-ils généralement après leur échange ?'
           ],
           ordering: {
-            prompt: 'Remets les étapes du parcours de Camila dans l’ordre.',
+            prompt: 'Remets les étapes du parcours dans l’ordre.',
             events: [
-              'Camila était une personne timide à Saint-Domingue.',
-              'Au début en France, elle se sentait seule et perdue.',
-              'Petit à petit, elle a pris confiance en elle.',
-              'Aujourd’hui, elle est devenue une personne plus sûre d’elle.'
+              'Les élèves étaient souvent timides avant leur départ.',
+              'Au début en France, ils se sentaient seuls et perdus.',
+              'Petit à petit, ils ont pris confiance en eux.',
+              'Après l’échange, ils sont devenus des personnes plus sûres d’elles.'
             ]
           }
         },
         exercises: [
-          { type: 'mcq', prompt: 'Comment Camila se décrivait-elle avant son départ ?', options: ['Bavarde et confiante', 'Timide et discrète', 'Fâchée et froide', 'Paresseuse'], answer: 1 },
-          { type: 'mcq', prompt: 'Depuis combien de temps Camila est-elle en France ?', options: ['Deux mois', 'Cinq mois', 'Huit mois', 'Un an'], answer: 2 },
-          { type: 'mcq', prompt: 'Quelle difficulté Camila a-t-elle rencontrée au début ?', options: ['Elle n’aimait pas la nourriture', 'Elle ne comprenait presque rien en français', 'Elle n’avait pas de famille d’accueil', 'Elle voulait rentrer immédiatement'], answer: 1 },
-          { type: 'mcq', prompt: 'Comment Camila a-t-elle progressivement pris confiance en elle ?', options: ['En évitant de parler français', 'En parlant français tous les jours, malgré la peur de se tromper', 'En restant seule tout le temps', 'En changeant de famille d’accueil'], answer: 1 },
-          { type: 'mcq', prompt: 'Que disent Léa et Karim de Camila aujourd’hui ?', options: ['Qu’elle est toujours aussi timide', 'Qu’elle est devenue plus bavarde qu’eux', 'Qu’elle ne parle jamais en classe', 'Qu’elle veut rentrer chez elle'], answer: 1 },
-          { type: 'mcq', prompt: 'Quel temps grammatical domine la description de la vie de Camila « avant » ?', options: ['Le futur simple', 'L’imparfait', 'Le conditionnel', 'Le subjonctif'], answer: 1 },
-          { type: 'mcq', prompt: 'Vrai ou faux : Camila pense que le changement est une mauvaise chose.', options: ['Vrai', 'Faux'], answer: 1 },
+          { type: 'mcq', prompt: 'Comment beaucoup d’élèves se décrivaient-ils avant leur départ ?', options: ['Bavards et confiants', 'Timides et discrets', 'Fâchés et froids', 'Paresseux'], answer: 1 },
+          { type: 'mcq', prompt: 'Après combien de temps, en moyenne, ces élèves racontent-ils avoir beaucoup changé ?', options: ['Deux mois', 'Cinq mois', 'Huit mois', 'Un an'], answer: 2 },
+          { type: 'mcq', prompt: 'Quelle difficulté rencontrent-ils souvent au début ?', options: ['Ils n’aimaient pas la nourriture', 'Ils ne comprenaient presque rien en français', 'Ils n’avaient pas de famille d’accueil', 'Ils voulaient rentrer immédiatement'], answer: 1 },
+          { type: 'mcq', prompt: 'Comment prennent-ils progressivement confiance en eux ?', options: ['En évitant de parler français', 'En parlant français tous les jours, malgré la peur de se tromper', 'En restant seuls tout le temps', 'En changeant de famille d’accueil'], answer: 1 },
+          { type: 'mcq', prompt: 'Que disent souvent leurs amis français d’eux ?', options: ['Qu’ils sont toujours aussi timides', 'Qu’ils sont devenus plus bavards qu’eux', 'Qu’ils ne parlent jamais en classe', 'Qu’ils veulent rentrer chez eux'], answer: 1 },
+          { type: 'mcq', prompt: 'Quel temps grammatical domine la description de la vie « avant » ?', options: ['Le futur simple', 'L’imparfait', 'Le conditionnel', 'Le subjonctif'], answer: 1 },
+          { type: 'mcq', prompt: 'Vrai ou faux : le texte présente le changement comme une mauvaise chose.', options: ['Vrai', 'Faux'], answer: 1 },
           { type: 'mcq', prompt: 'Dans le texte, « sortir de sa zone de confort » signifie...', options: ['Rester dans ses habitudes', 'Faire des choses qui nous mettent mal à l’aise mais nous font grandir', 'Voyager souvent', 'Éviter les problèmes'], answer: 1 },
-          { type: 'mcq', prompt: 'Quelle est l’intention principale de ce texte ?', options: ['Se plaindre de la vie en France', 'Réfléchir sur son évolution personnelle', 'Décrire la ville de Tours', 'Expliquer un problème de logement'], answer: 1 },
-          { type: 'mcq', prompt: 'Quelle conclusion Camila tire-t-elle de son expérience ?', options: ['Le changement est toujours facile', 'Le changement peut être difficile mais nous rend plus forts', 'Il ne faut jamais changer', 'Elle regrette d’être partie'], answer: 1 }
+          { type: 'mcq', prompt: 'Quelle est l’intention principale de ce texte ?', options: ['Se plaindre de la vie en France', 'Réfléchir sur la transformation personnelle des élèves en échange', 'Décrire la ville de Tours', 'Expliquer un problème de logement'], answer: 1 },
+          { type: 'mcq', prompt: 'Quelle conclusion le texte tire-t-il de cette expérience ?', options: ['Le changement est toujours facile', 'Le changement peut être difficile mais rend plus fort', 'Il ne faut jamais changer', 'Les échanges scolaires sont à éviter'], answer: 1 }
         ]
       }),
       listening: activity('listening', {
@@ -346,42 +346,42 @@ const units = [
     },
     activities: {
       reading: activity('reading', {
-        title: 'Réviser pour l’examen',
-        description: 'Camila prépare un examen difficile et demande conseil à Karim, qui est très bon élève.',
+        title: 'Bien réviser pour un examen',
+        description: 'Des conseils d’élèves et de professeurs pour bien réviser un examen difficile.',
         reading: {
-          title: 'Réviser pour l’examen',
+          title: 'Bien réviser pour un examen',
           parts: [
-            "Camila a un examen de mathématiques important dans une semaine, et elle est très inquiète. « Je comprends les explications en classe, mais dès que je suis seule pour faire les exercices, j'ai l'impression de tout oublier », explique-t-elle à Karim pendant la pause déjeuner. Karim, qui a toujours de très bonnes notes en mathématiques, lui propose de l'aider. « À ta place, je commencerais par refaire les exercices les plus simples, pour bien comprendre la base avant de passer aux exercices difficiles », suggère-t-il.",
-            "Camila décide de suivre son conseil. Chaque soir, en rentrant de l'école, elle passe trente minutes à réviser calmement, en refaisant d'abord les exercices simples, puis en essayant progressivement des exercices plus complexes. Karim lui montre aussi une technique utile : en expliquant à voix haute comment résoudre un problème, on comprend souvent mieux qu'en le lisant silencieusement. Camila trouve cette méthode très efficace, même si elle se sent un peu ridicule à parler toute seule dans sa chambre au début !",
-            "Après une semaine de révisions régulières, Camila se sent beaucoup plus confiante. Le jour de l'examen, elle reconnaît plusieurs types d'exercices qu'elle a pratiqués et parvient à les résoudre sans trop de difficulté. Quelques jours plus tard, elle reçoit sa note : dix-sept sur vingt, sa meilleure note de l'année en mathématiques ! Elle remercie chaleureusement Karim pour ses conseils et comprend maintenant qu'avec une bonne méthode et de la régularité, même les matières les plus difficiles deviennent plus faciles à maîtriser.",
-            "Depuis cette expérience, Camila applique la même méthode à ses autres matières : le français, l'histoire, et même les sciences. Elle a compris que la difficulté n'était pas dans la matière elle-même, mais dans sa façon d'étudier auparavant. Elle propose maintenant à son tour d'aider d'autres élèves qui rencontrent des difficultés similaires, en leur transmettant les conseils que Karim lui avait donnés. Comme elle le dit souvent : « Un bon conseil, ça se partage ! »"
+            "Beaucoup d'élèves ont un examen de mathématiques important une semaine avant la date fatidique, et se sentent très inquiets. « Je comprends les explications en classe, mais dès que je suis seul pour faire les exercices, j'ai l'impression de tout oublier », expliquent-ils souvent à un ami qui a de très bonnes notes. Ce dernier propose alors une méthode simple. « À ta place, je commencerais par refaire les exercices les plus simples, pour bien comprendre la base avant de passer aux exercices difficiles », suggère-t-il souvent.",
+            "Ceux qui suivent ce conseil passent chaque soir, en rentrant de l'école, trente minutes à réviser calmement, en refaisant d'abord les exercices simples, puis en essayant progressivement des exercices plus complexes. Une technique utile, recommandée par de nombreux professeurs : en expliquant à voix haute comment résoudre un problème, on comprend souvent mieux qu'en le lisant silencieusement. Beaucoup d'élèves trouvent cette méthode très efficace, même s'ils se sentent un peu ridicules à parler tout seuls dans leur chambre au début !",
+            "Après une semaine de révisions régulières, la plupart des élèves se sentent beaucoup plus confiants. Le jour de l'examen, ils reconnaissent plusieurs types d'exercices qu'ils ont pratiqués et parviennent à les résoudre sans trop de difficulté. Selon plusieurs études sur les méthodes d'apprentissage, les élèves qui révisent régulièrement obtiennent en moyenne de meilleures notes que ceux qui révisent seulement la veille de l'examen.",
+            "Cette méthode fonctionne aussi pour d'autres matières : le français, l'histoire, et même les sciences. La difficulté n'est souvent pas dans la matière elle-même, mais dans la façon d'étudier. Beaucoup de professeurs encouragent leurs élèves à s'entraider et à partager leurs meilleures techniques de révision entre camarades. Comme le disent souvent les enseignants : « Un bon conseil, ça se partage ! »"
           ],
           questions: [
-            'Quelle difficulté Camila rencontre-t-elle avec les mathématiques ?',
-            'Quel conseil Karim lui donne-t-il ?',
-            'Quel résultat Camila obtient-elle à l’examen ?'
+            'Quelle difficulté beaucoup d’élèves rencontrent-ils avec les mathématiques ?',
+            'Quel conseil un ami donne-t-il souvent en premier ?',
+            'Que montrent les études sur les élèves qui révisent régulièrement ?'
           ],
           ordering: {
-            prompt: 'Remets les événements dans l’ordre.',
+            prompt: 'Remets les étapes de la méthode dans l’ordre.',
             events: [
-              'Camila explique sa difficulté en mathématiques à Karim.',
-              'Karim lui conseille de commencer par les exercices simples.',
-              'Camila révise régulièrement chaque soir pendant une semaine.',
-              'Camila obtient sa meilleure note de l’année à l’examen.'
+              'L’élève explique sa difficulté en mathématiques à un ami.',
+              'L’ami conseille de commencer par les exercices simples.',
+              'L’élève révise régulièrement chaque soir pendant une semaine.',
+              'L’élève obtient une meilleure note grâce à cette méthode.'
             ]
           }
         },
         exercises: [
-          { type: 'mcq', prompt: 'Quelle difficulté Camila décrit-elle ?', options: ['Elle ne comprend rien en classe', 'Elle oublie tout quand elle est seule pour les exercices', 'Elle n’aime pas les mathématiques', 'Elle n’a pas de livre'], answer: 1 },
-          { type: 'mcq', prompt: 'Que suggère Karim en premier ?', options: ['D’abandonner les mathématiques', 'De commencer par les exercices simples', 'D’étudier seulement la veille', 'De changer de classe'], answer: 1 },
-          { type: 'mcq', prompt: 'Quelle technique Karim montre-t-il à Camila ?', options: ['Écouter de la musique en étudiant', 'Expliquer à voix haute comment résoudre un problème', 'Copier les réponses d’un ami', 'Étudier seulement le matin'], answer: 1 },
-          { type: 'mcq', prompt: 'Combien de temps Camila révise-t-elle chaque soir ?', options: ['Quinze minutes', 'Trente minutes', 'Une heure', 'Deux heures'], answer: 1 },
-          { type: 'mcq', prompt: 'Quelle note Camila obtient-elle à l’examen ?', options: ['Douze sur vingt', 'Quinze sur vingt', 'Dix-sept sur vingt', 'Vingt sur vingt'], answer: 2 },
-          { type: 'mcq', prompt: 'Comment Camila se sent-elle avant l’examen, après une semaine de révisions ?', options: ['Toujours très inquiète', 'Plus confiante', 'Indifférente', 'Fâchée'], answer: 1 },
-          { type: 'mcq', prompt: 'Vrai ou faux : c’était la première fois que Camila avait une si bonne note en mathématiques.', options: ['Vrai', 'Faux'], answer: 0 },
+          { type: 'mcq', prompt: 'Quelle difficulté décrivent souvent les élèves ?', options: ['Ils ne comprennent rien en classe', 'Ils oublient tout quand ils sont seuls pour les exercices', 'Ils n’aiment pas les mathématiques', 'Ils n’ont pas de livre'], answer: 1 },
+          { type: 'mcq', prompt: 'Que suggère souvent l’ami en premier ?', options: ['D’abandonner les mathématiques', 'De commencer par les exercices simples', 'D’étudier seulement la veille', 'De changer de classe'], answer: 1 },
+          { type: 'mcq', prompt: 'Quelle technique recommandent de nombreux professeurs ?', options: ['Écouter de la musique en étudiant', 'Expliquer à voix haute comment résoudre un problème', 'Copier les réponses d’un ami', 'Étudier seulement le matin'], answer: 1 },
+          { type: 'mcq', prompt: 'Combien de temps recommande-t-on de réviser chaque soir ?', options: ['Quinze minutes', 'Trente minutes', 'Une heure', 'Deux heures'], answer: 1 },
+          { type: 'mcq', prompt: 'Que montrent les études sur les méthodes d’apprentissage ?', options: ['Réviser la veille est plus efficace', 'Réviser régulièrement donne de meilleures notes en moyenne', 'Réviser ne sert à rien', 'Les mathématiques sont impossibles à apprendre'], answer: 1 },
+          { type: 'mcq', prompt: 'Comment se sentent souvent les élèves après une semaine de révisions ?', options: ['Toujours très inquiets', 'Plus confiants', 'Indifférents', 'Fâchés'], answer: 1 },
+          { type: 'mcq', prompt: 'Vrai ou faux : cette méthode ne fonctionne que pour les mathématiques.', options: ['Vrai', 'Faux'], answer: 1 },
           { type: 'mcq', prompt: 'Dans le texte, « à ta place » signifie...', options: ['Dans ta maison', 'Si j’étais toi', 'À ton école', 'Devant toi'], answer: 1 },
           { type: 'mcq', prompt: 'Quelle est la conclusion principale du texte ?', options: ['Les mathématiques sont impossibles à apprendre', 'Avec une bonne méthode et de la régularité, on progresse', 'Il faut toujours étudier seul', 'Les conseils des amis ne servent à rien'], answer: 1 },
-          { type: 'mcq', prompt: 'Pourquoi Camila se sent-elle « un peu ridicule » au début ?', options: ['Parce qu’elle échoue à l’examen', 'Parce qu’elle parle toute seule dans sa chambre', 'Parce que Karim se moque d’elle', 'Parce qu’elle n’a pas de livre'], answer: 1 }
+          { type: 'mcq', prompt: 'Pourquoi certains élèves se sentent-ils « un peu ridicules » au début ?', options: ['Parce qu’ils échouent à l’examen', 'Parce qu’ils parlent tout seuls dans leur chambre', 'Parce qu’un ami se moque d’eux', 'Parce qu’ils n’ont pas de livre'], answer: 1 }
         ]
       }),
       listening: activity('listening', {
@@ -496,42 +496,42 @@ const units = [
     },
     activities: {
       reading: activity('reading', {
-        title: 'Se préparer à un entretien',
-        description: 'Karim se prépare pour son premier entretien d’embauche, avec l’aide de Camila.',
+        title: 'Bien se préparer à un entretien d’embauche',
+        description: 'Des conseils pratiques pour réussir un premier entretien d’embauche.',
         reading: {
-          title: 'Se préparer à un entretien',
+          title: 'Bien se préparer à un entretien d’embauche',
           parts: [
-            "Karim a postulé pour un stage d'été à la bibliothèque municipale de Tours, et il a été convoqué pour un entretien la semaine prochaine. C'est son premier entretien d'embauche, et il est très nerveux. « Je ne sais pas quoi répondre s'ils me demandent pourquoi je veux ce stage », avoue-t-il à Camila pendant la pause. Camila, qui a déjà préparé un entretien pour un club de bénévolat, décide de l'aider à s'entraîner.",
-            "« D'abord, il faut que tu expliques clairement tes motivations », explique Camila. « Par exemple, tu pourrais dire que tu adores lire et que tu voudrais aider les autres à découvrir de bons livres. » Ensemble, ils préparent aussi des réponses aux questions les plus courantes : « Quelles sont vos qualités ? » et « Pourquoi devrions-nous vous choisir vous, plutôt qu'un autre candidat ? » Karim s'entraîne à répondre calmement, en utilisant un langage plus formel que d'habitude.",
-            "Camila lui rappelle aussi l'importance de la politesse dans ce contexte : utiliser « vous » plutôt que « tu », dire « je voudrais » plutôt que « je veux », et remercier la personne à la fin de l'entretien. Le jour de l'entretien, Karim se sent bien préparé grâce à cet entraînement. Une semaine plus tard, il reçoit un e-mail : il a obtenu le stage ! Il remercie chaleureusement Camila pour son aide précieuse, sans laquelle, dit-il, il n'aurait probablement pas été aussi confiant devant le recruteur.",
-            "Le premier jour de son stage, Karim est encore un peu nerveux, mais il se sent beaucoup plus à l'aise que pendant l'entretien. La responsable de la bibliothèque le félicite pour son sérieux et sa motivation, exactement les qualités qu'il avait mises en avant lors de l'entretien. En rentrant chez lui ce soir-là, il envoie un message à Camila : « Merci encore, sans toi, je n'aurais jamais osé postuler pour quelque chose d'aussi important. »"
+            "Beaucoup de jeunes postulent chaque été pour un stage à la bibliothèque municipale ou dans une association, et sont ensuite convoqués pour un entretien. Pour la plupart, c'est leur premier entretien d'embauche, et ils sont très nerveux. « Je ne sais pas quoi répondre s'ils me demandent pourquoi je veux ce stage », avouent-ils souvent à un ami. Ceux qui ont déjà de l'expérience avec les entretiens décident souvent d'aider les autres à s'entraîner.",
+            "« D'abord, il faut que tu expliques clairement tes motivations », conseillent les spécialistes du recrutement. « Par exemple, tu pourrais dire que tu adores lire et que tu voudrais aider les autres à découvrir de bons livres. » Il est aussi utile de préparer des réponses aux questions les plus courantes : « Quelles sont vos qualités ? » et « Pourquoi devrions-nous vous choisir vous, plutôt qu'un autre candidat ? » Les candidats s'entraînent à répondre calmement, en utilisant un langage plus formel que d'habitude.",
+            "Les conseillers rappellent aussi l'importance de la politesse dans ce contexte : utiliser « vous » plutôt que « tu », dire « je voudrais » plutôt que « je veux », et remercier la personne à la fin de l'entretien. Le jour de l'entretien, les candidats bien préparés se sentent souvent plus confiants. Selon plusieurs études sur le recrutement, les candidats qui s'entraînent à l'avance obtiennent le poste presque deux fois plus souvent que ceux qui ne se préparent pas.",
+            "Le premier jour de stage reste souvent un peu impressionnant, même après un bon entretien. Mais les responsables félicitent généralement les nouveaux stagiaires pour leur sérieux et leur motivation, exactement les qualités mises en avant lors de l'entretien. Cette expérience montre qu'une bonne préparation, même pour un premier emploi, fait toute la différence."
           ],
           questions: [
-            'Pour quel poste Karim a-t-il postulé ?',
-            'Quels conseils Camila lui donne-t-elle sur le langage à utiliser ?',
-            'Quel est le résultat final de l’entretien de Karim ?'
+            'Pour quel type de poste postulent souvent ces jeunes ?',
+            'Quel conseil donnent souvent les spécialistes du recrutement sur le langage à utiliser ?',
+            'Que montrent les études sur les candidats qui s’entraînent à l’avance ?'
           ],
           ordering: {
-            prompt: 'Remets les événements dans l’ordre.',
+            prompt: 'Remets les étapes dans l’ordre.',
             events: [
-              'Karim postule pour un stage à la bibliothèque.',
-              'Camila l’aide à préparer ses réponses.',
-              'Karim passe l’entretien, bien préparé.',
-              'Karim reçoit un e-mail confirmant qu’il a obtenu le stage.'
+              'Le candidat postule pour un stage.',
+              'Un ami ou un conseiller l’aide à préparer ses réponses.',
+              'Le candidat passe l’entretien, bien préparé.',
+              'Le candidat obtient le stage.'
             ]
           }
         },
         exercises: [
-          { type: 'mcq', prompt: 'Pour quel poste Karim a-t-il postulé ?', options: ['Un stage dans un restaurant', 'Un stage à la bibliothèque municipale', 'Un emploi dans un magasin', 'Un poste de professeur'], answer: 1 },
-          { type: 'mcq', prompt: 'Pourquoi Karim est-il nerveux ?', options: ['C’est son premier entretien d’embauche', 'Il n’aime pas lire', 'Il n’a pas préparé son CV', 'Il ne veut pas ce stage'], answer: 0 },
-          { type: 'mcq', prompt: 'Quel conseil Camila donne-t-elle sur le langage à utiliser ?', options: ['Utiliser « tu » pour être amical', 'Utiliser « vous » et un langage plus formel', 'Parler très vite', 'Ne pas remercier le recruteur'], answer: 1 },
-          { type: 'mcq', prompt: 'Quelle question Camila prépare-t-elle avec Karim ?', options: ['Quel est votre plat préféré ?', 'Pourquoi devrions-nous vous choisir ?', 'Où habitez-vous ?', 'Quel âge avez-vous ?'], answer: 1 },
-          { type: 'mcq', prompt: 'Comment Karim se sent-il le jour de l’entretien ?', options: ['Complètement paniqué', 'Bien préparé', 'Indifférent', 'En retard'], answer: 1 },
-          { type: 'mcq', prompt: 'Quel est le résultat final ?', options: ['Karim n’obtient pas le stage', 'Karim obtient le stage', 'L’entretien est annulé', 'Karim change d’avis'], answer: 1 },
-          { type: 'mcq', prompt: 'Vrai ou faux : Camila avait déjà de l’expérience avec les entretiens.', options: ['Vrai', 'Faux'], answer: 0 },
-          { type: 'mcq', prompt: 'Dans le texte, « sans laquelle » fait référence à...', options: ['La bibliothèque', 'L’aide de Camila', 'La question du recruteur', 'Sa motivation'], answer: 1 },
+          { type: 'mcq', prompt: 'Pour quel type de poste postulent souvent ces jeunes ?', options: ['Un stage dans un restaurant', 'Un stage à la bibliothèque municipale', 'Un emploi dans un magasin', 'Un poste de professeur'], answer: 1 },
+          { type: 'mcq', prompt: 'Pourquoi ces candidats sont-ils souvent nerveux ?', options: ['C’est leur premier entretien d’embauche', 'Ils n’aiment pas lire', 'Ils n’ont pas préparé leur CV', 'Ils ne veulent pas ce stage'], answer: 0 },
+          { type: 'mcq', prompt: 'Quel conseil donne-t-on souvent sur le langage à utiliser ?', options: ['Utiliser « tu » pour être amical', 'Utiliser « vous » et un langage plus formel', 'Parler très vite', 'Ne pas remercier le recruteur'], answer: 1 },
+          { type: 'mcq', prompt: 'Quelle question prépare-t-on souvent à l’avance ?', options: ['Quel est votre plat préféré ?', 'Pourquoi devrions-nous vous choisir ?', 'Où habitez-vous ?', 'Quel âge avez-vous ?'], answer: 1 },
+          { type: 'mcq', prompt: 'Comment se sentent souvent les candidats bien préparés ?', options: ['Complètement paniqués', 'Plus confiants', 'Indifférents', 'En retard'], answer: 1 },
+          { type: 'mcq', prompt: 'Que montrent les études sur le recrutement ?', options: ['Les candidats préparés obtiennent le poste presque deux fois plus souvent', 'La préparation ne sert à rien', 'Il vaut mieux ne pas se préparer', 'Les entretiens sont toujours annulés'], answer: 0 },
+          { type: 'mcq', prompt: 'Vrai ou faux : le premier jour de stage est toujours facile, même après un bon entretien.', options: ['Vrai', 'Faux'], answer: 1 },
+          { type: 'mcq', prompt: 'Dans le texte, « fait toute la différence » signifie...', options: ['N’a aucun effet', 'A un effet très important', 'Est interdit', 'Est facultatif'], answer: 1 },
           { type: 'mcq', prompt: 'Quelle est l’intention principale du texte ?', options: ['Décrire une bibliothèque', 'Montrer comment bien se préparer à un entretien', 'Se plaindre d’un employeur', 'Expliquer un problème scolaire'], answer: 1 },
-          { type: 'mcq', prompt: 'Quelle inférence peut-on faire sur l’amitié entre Karim et Camila ?', options: ['Ils sont rivaux', 'Ils s’entraident dans les moments importants', 'Ils ne se parlent presque jamais', 'Camila est jalouse de Karim'], answer: 1 }
+          { type: 'mcq', prompt: 'Quelle qualité les responsables félicitent-ils souvent chez les nouveaux stagiaires ?', options: ['Le sérieux et la motivation', 'La rapidité', 'La chance', 'L’indifférence'], answer: 0 }
         ]
       }),
       listening: activity('listening', {
@@ -646,40 +646,40 @@ const units = [
     activities: {
       reading: activity('reading', {
         title: 'Deux cultures, un exposé',
-        description: 'Camila prépare un exposé de classe sur les différences culturelles entre la France et son pays.',
+        description: 'Un exposé type comparant les habitudes des repas en France et en République dominicaine.',
         reading: {
           title: 'Deux cultures, un exposé',
           parts: [
-            "Pour son cours de vie sociale et culturelle, Camila doit préparer un exposé de trois minutes comparant une habitude culturelle française et une habitude dominicaine. Elle choisit de parler des repas, un sujet qu'elle connaît bien depuis son arrivée. « En France, les repas sont souvent des moments assez calmes, avec des horaires fixes : le déjeuner vers midi, le dîner vers dix-neuf ou vingt heures », explique-t-elle à sa classe. « Tandis qu'à Saint-Domingue, les repas sont généralement plus bruyants, avec de la musique en fond, et les horaires sont beaucoup plus flexibles. »",
-            "Camila raconte aussi ce qui l'a le plus surprise à son arrivée : « Ce qui m'a le plus étonnée, c'est que les Français passent souvent plus de deux heures à table pendant les grandes occasions, alors que chez moi, les repas sont généralement plus rapides, sauf lors des fêtes. Au début, j'ai trouvé ça un peu long, mais maintenant, j'apprécie vraiment ces longs moments en famille. » Elle explique aussi que, contrairement à ce qu'elle pensait avant son départ, les Français ne sont pas toujours « froids » : une fois qu'on les connaît bien, ils sont très chaleureux.",
-            "À la fin de son exposé, un camarade lui demande : « Est-ce que tu préfères la culture française ou dominicaine ? » Camila réfléchit un instant avant de répondre : « Je ne dirais pas que je préfère l'une à l'autre, elles sont juste différentes, et j'ai appris à apprécier les deux. La culture dominicaine me manque parfois, mais je suis reconnaissante d'avoir découvert une nouvelle façon de vivre. » Sa réponse impressionne la classe, et la professeure la félicite pour sa capacité à comparer les deux cultures sans les juger."
+            "Dans les cours de vie sociale et culturelle, les élèves en échange préparent souvent un exposé de trois minutes comparant une habitude culturelle française et une habitude de leur pays d'origine. Beaucoup choisissent de parler des repas, un sujet qu'ils connaissent bien après quelques mois sur place. « En France, les repas sont souvent des moments assez calmes, avec des horaires fixes : le déjeuner vers midi, le dîner vers dix-neuf ou vingt heures », expliquent-ils souvent à leur classe. « Tandis qu'en République dominicaine, les repas sont généralement plus bruyants, avec de la musique en fond, et les horaires sont beaucoup plus flexibles. »",
+            "Beaucoup de ces élèves racontent aussi ce qui les a le plus surpris à leur arrivée : « Ce qui m'a le plus étonné, c'est que les Français passent souvent plus de deux heures à table pendant les grandes occasions, alors que chez moi, les repas sont généralement plus rapides, sauf lors des fêtes. Au début, j'ai trouvé ça un peu long, mais maintenant, j'apprécie vraiment ces longs moments en famille. » Beaucoup expliquent aussi que, contrairement à ce qu'ils pensaient avant leur départ, les Français ne sont pas toujours « froids » : une fois qu'on les connaît bien, ils sont souvent très chaleureux.",
+            "À la fin de ce type d'exposé, un camarade demande souvent : « Est-ce que tu préfères la culture française ou celle de ton pays ? » La réponse la plus fréquente est nuancée : « Je ne dirais pas que je préfère l'une à l'autre, elles sont juste différentes, et j'ai appris à apprécier les deux. Mon pays me manque parfois, mais je suis reconnaissant(e) d'avoir découvert une nouvelle façon de vivre. » Ce type de réponse impressionne souvent la classe, et les professeurs félicitent généralement ces élèves pour leur capacité à comparer deux cultures sans les juger."
           ],
           questions: [
-            'Quel sujet Camila choisit-elle pour son exposé ?',
-            'Qu’est-ce qui a le plus surpris Camila à son arrivée en France ?',
-            'Comment Camila répond-elle à la question sur sa préférence culturelle ?'
+            'Quel sujet choisissent souvent ces élèves pour leur exposé ?',
+            'Qu’est-ce qui surprend souvent ces élèves à leur arrivée en France ?',
+            'Comment ces élèves répondent-ils souvent à la question sur leur préférence culturelle ?'
           ],
           ordering: {
-            prompt: 'Remets les idées de l’exposé de Camila dans l’ordre.',
+            prompt: 'Remets les idées de l’exposé dans l’ordre.',
             events: [
-              'Camila compare les horaires de repas français et dominicains.',
-              'Elle explique ce qui l’a surprise sur la durée des repas français.',
-              'Elle mentionne que les Français ne sont pas toujours « froids ».',
-              'Elle répond à la question d’un camarade sur sa préférence culturelle.'
+              'Les élèves comparent les horaires de repas français et de leur pays.',
+              'Ils expliquent ce qui les a surpris sur la durée des repas français.',
+              'Ils mentionnent que les Français ne sont pas toujours « froids ».',
+              'Ils répondent à la question d’un camarade sur leur préférence culturelle.'
             ]
           }
         },
         exercises: [
-          { type: 'mcq', prompt: 'Sur quel sujet porte l’exposé de Camila ?', options: ['Les vêtements', 'Les repas', 'Les transports', 'Les fêtes'], answer: 1 },
-          { type: 'mcq', prompt: 'Comment sont généralement les repas dominicains, selon Camila ?', options: ['Silencieux et rapides', 'Bruyants, avec de la musique, et flexibles', 'Toujours à heure fixe', 'Sans importance'], answer: 1 },
-          { type: 'mcq', prompt: 'Qu’est-ce qui a le plus surpris Camila en France ?', options: ['La nourriture française', 'La durée des repas lors des grandes occasions', 'Le prix des restaurants', 'Le manque de repas en famille'], answer: 1 },
-          { type: 'mcq', prompt: 'Que pensait Camila des Français avant son arrivée ?', options: ['Qu’ils étaient très chaleureux', 'Qu’ils étaient froids', 'Qu’ils ne mangeaient jamais ensemble', 'Elle n’avait pas d’opinion'], answer: 1 },
-          { type: 'mcq', prompt: 'Comment Camila répond-elle à la question sur sa préférence ?', options: ['Elle préfère clairement la culture française', 'Elle préfère clairement la culture dominicaine', 'Elle dit apprécier les deux différemment', 'Elle refuse de répondre'], answer: 2 },
-          { type: 'mcq', prompt: 'Comment réagit la professeure à la réponse de Camila ?', options: ['Elle la critique', 'Elle la félicite', 'Elle l’ignore', 'Elle change de sujet'], answer: 1 },
-          { type: 'mcq', prompt: 'Vrai ou faux : Camila pense que la culture dominicaine est meilleure que la culture française.', options: ['Vrai', 'Faux'], answer: 1 },
+          { type: 'mcq', prompt: 'Sur quel sujet porte souvent cet exposé ?', options: ['Les vêtements', 'Les repas', 'Les transports', 'Les fêtes'], answer: 1 },
+          { type: 'mcq', prompt: 'Comment sont généralement décrits les repas dominicains ?', options: ['Silencieux et rapides', 'Bruyants, avec de la musique, et flexibles', 'Toujours à heure fixe', 'Sans importance'], answer: 1 },
+          { type: 'mcq', prompt: 'Qu’est-ce qui surprend souvent ces élèves en France ?', options: ['La nourriture française', 'La durée des repas lors des grandes occasions', 'Le prix des restaurants', 'Le manque de repas en famille'], answer: 1 },
+          { type: 'mcq', prompt: 'Que pensaient souvent ces élèves des Français avant leur arrivée ?', options: ['Qu’ils étaient très chaleureux', 'Qu’ils étaient froids', 'Qu’ils ne mangeaient jamais ensemble', 'Ils n’avaient pas d’opinion'], answer: 1 },
+          { type: 'mcq', prompt: 'Comment répondent souvent ces élèves à la question sur leur préférence ?', options: ['Ils préfèrent clairement la culture française', 'Ils préfèrent clairement leur culture d’origine', 'Ils disent apprécier les deux différemment', 'Ils refusent de répondre'], answer: 2 },
+          { type: 'mcq', prompt: 'Comment réagissent souvent les professeurs à ce type de réponse ?', options: ['Ils la critiquent', 'Ils la félicitent', 'Ils l’ignorent', 'Ils changent de sujet'], answer: 1 },
+          { type: 'mcq', prompt: 'Vrai ou faux : le texte affirme qu’une culture est toujours meilleure que l’autre.', options: ['Vrai', 'Faux'], answer: 1 },
           { type: 'mcq', prompt: 'Dans le texte, « tandis que » exprime...', options: ['Une cause', 'Une opposition/contraste', 'Une conséquence', 'Un but'], answer: 1 },
-          { type: 'mcq', prompt: 'Quelle est l’intention principale de l’exposé de Camila ?', options: ['Critiquer la culture française', 'Comparer deux cultures sans les juger', 'Convaincre la classe de voyager', 'Se plaindre de son pays d’origine'], answer: 1 },
-          { type: 'mcq', prompt: 'Quelle inférence peut-on faire sur l’évolution de Camila ?', options: ['Elle a du mal à s’adapter à la France', 'Elle a appris à voir la richesse des deux cultures', 'Elle veut oublier son pays d’origine', 'Elle rejette la culture française'], answer: 1 }
+          { type: 'mcq', prompt: 'Quelle est l’intention principale de ce type d’exposé ?', options: ['Critiquer la culture française', 'Comparer deux cultures sans les juger', 'Convaincre la classe de voyager', 'Se plaindre de son pays d’origine'], answer: 1 },
+          { type: 'mcq', prompt: 'Quelle inférence peut-on faire sur l’évolution de ces élèves ?', options: ['Ils ont du mal à s’adapter à la France', 'Ils apprennent à voir la richesse des deux cultures', 'Ils veulent oublier leur pays d’origine', 'Ils rejettent la culture française'], answer: 1 }
         ]
       }),
       listening: activity('listening', {
@@ -794,41 +794,41 @@ const units = [
     activities: {
       reading: activity('reading', {
         title: 'Le débat sur les réseaux sociaux',
-        description: 'La classe de Camila débat des avantages et des risques des réseaux sociaux.',
+        description: 'Un débat de classe type sur les avantages et les risques des réseaux sociaux pour les jeunes.',
         reading: {
           title: 'Le débat sur les réseaux sociaux',
           parts: [
-            "En cours d'éducation civique, la professeure propose un débat sur un sujet d'actualité : l'impact des réseaux sociaux sur les jeunes. « D'une part, les réseaux sociaux permettent de rester en contact avec des amis éloignés et de découvrir de nouvelles idées », commence Karim. « Grâce à eux, je peux parler avec ma cousine qui habite au Maroc presque tous les jours. » Plusieurs élèves acquiescent, d'accord avec cet argument.",
-            "Cependant, Léa n'est pas complètement d'accord : « D'autre part, il est important que les jeunes fassent attention à leur vie privée. Beaucoup de personnes partagent trop d'informations personnelles sans réfléchir aux risques. » Camila ajoute un autre point de vue : « Je pense aussi que ça dépend de la façon dont on les utilise. Si on passe trop de temps à comparer sa vie à celle des autres, ça peut créer du stress et de l'anxiété. Mais si on les utilise avec modération, pour s'informer ou garder contact, c'est plutôt positif. »",
-            "La professeure résume le débat à la fin du cours : « Vous avez tous raison, d'une certaine façon. Les réseaux sociaux ne sont ni complètement bons ni complètement mauvais ; tout dépend de l'usage qu'on en fait. » Elle propose alors à la classe de réfléchir, pour le prochain cours, à des règles personnelles pour une utilisation plus équilibrée des réseaux sociaux. Camila, en particulier, décide de limiter son temps d'écran le soir, pour mieux profiter de ses moments en famille.",
-            "Quelques jours plus tard, la classe se retrouve pour partager les règles personnelles que chacun a choisies. Certains décident de ne plus regarder leur téléphone avant de dormir, d'autres préfèrent limiter le nombre d'applications installées. La professeure est impressionnée par la maturité des réponses et propose d'afficher les meilleures idées dans la salle de classe, pour que d'autres élèves puissent s'en inspirer tout au long de l'année."
+            "En cours d'éducation civique, les professeurs proposent souvent un débat sur un sujet d'actualité : l'impact des réseaux sociaux sur les jeunes. « D'une part, les réseaux sociaux permettent de rester en contact avec des amis éloignés et de découvrir de nouvelles idées », commence souvent un premier élève. « Grâce à eux, je peux parler avec ma cousine qui habite à l'étranger presque tous les jours. » Plusieurs élèves acquiescent, d'accord avec cet argument.",
+            "Cependant, un deuxième élève n'est pas toujours complètement d'accord : « D'autre part, il est important que les jeunes fassent attention à leur vie privée. Beaucoup de personnes partagent trop d'informations personnelles sans réfléchir aux risques. » Un troisième élève ajoute souvent un autre point de vue : « Je pense aussi que ça dépend de la façon dont on les utilise. Si on passe trop de temps à comparer sa vie à celle des autres, ça peut créer du stress et de l'anxiété. Mais si on les utilise avec modération, pour s'informer ou garder contact, c'est plutôt positif. »",
+            "Le professeur résume souvent le débat à la fin du cours : « Vous avez tous raison, d'une certaine façon. Les réseaux sociaux ne sont ni complètement bons ni complètement mauvais ; tout dépend de l'usage qu'on en fait. » Il propose alors à la classe de réfléchir, pour le prochain cours, à des règles personnelles pour une utilisation plus équilibrée des réseaux sociaux. Beaucoup d'élèves décident alors de limiter leur temps d'écran le soir, pour mieux profiter de leurs moments en famille.",
+            "Quelques jours plus tard, la classe se retrouve souvent pour partager les règles personnelles que chacun a choisies. Certains décident de ne plus regarder leur téléphone avant de dormir, d'autres préfèrent limiter le nombre d'applications installées. Les professeurs sont généralement impressionnés par la maturité des réponses et proposent d'afficher les meilleures idées dans la salle de classe, pour que d'autres élèves puissent s'en inspirer tout au long de l'année."
           ],
           questions: [
-            'Quel argument Karim présente-t-il en faveur des réseaux sociaux ?',
-            'Quelle inquiétude Léa exprime-t-elle ?',
-            'Quelle conclusion la professeure tire-t-elle du débat ?'
+            'Quel argument présente souvent le premier élève en faveur des réseaux sociaux ?',
+            'Quelle inquiétude exprime souvent le deuxième élève ?',
+            'Quelle conclusion tire souvent le professeur du débat ?'
           ],
           ordering: {
             prompt: 'Remets les interventions du débat dans l’ordre.',
             events: [
-              'Karim présente l’avantage de rester en contact avec des proches éloignés.',
-              'Léa exprime son inquiétude sur la vie privée.',
-              'Camila explique que tout dépend de l’usage qu’on en fait.',
-              'La professeure résume le débat et propose une réflexion personnelle.'
+              'Un élève présente l’avantage de rester en contact avec des proches éloignés.',
+              'Un autre élève exprime son inquiétude sur la vie privée.',
+              'Un troisième élève explique que tout dépend de l’usage qu’on en fait.',
+              'Le professeur résume le débat et propose une réflexion personnelle.'
             ]
           }
         },
         exercises: [
-          { type: 'mcq', prompt: 'Quel avantage des réseaux sociaux Karim mentionne-t-il ?', options: ['Ils sont gratuits', 'Ils permettent de rester en contact avec des proches éloignés', 'Ils remplacent l’école', 'Ils n’ont aucun avantage'], answer: 1 },
-          { type: 'mcq', prompt: 'Quelle est l’inquiétude principale de Léa ?', options: ['Le prix des téléphones', 'La vie privée', 'La vitesse d’internet', 'Le manque de réseaux sociaux'], answer: 1 },
-          { type: 'mcq', prompt: 'Que dit Camila sur l’effet des réseaux sociaux ?', options: ['Ils sont toujours mauvais', 'Ils sont toujours excellents', 'Ça dépend de la façon dont on les utilise', 'Elle n’a pas d’opinion'], answer: 2 },
-          { type: 'mcq', prompt: 'Quel risque Camila mentionne-t-elle spécifiquement ?', options: ['La perte d’argent', 'Le stress de se comparer aux autres', 'Les virus informatiques', 'La perte de mémoire'], answer: 1 },
-          { type: 'mcq', prompt: 'Quelle est la conclusion de la professeure ?', options: ['Les réseaux sociaux sont interdits', 'Tout dépend de l’usage qu’on en fait', 'Il faut les utiliser tout le temps', 'Ils sont inutiles'], answer: 1 },
-          { type: 'mcq', prompt: 'Que décide de faire Camila après ce débat ?', options: ['Supprimer tous ses réseaux sociaux', 'Limiter son temps d’écran le soir', 'Passer plus de temps en ligne', 'Ne rien changer'], answer: 1 },
+          { type: 'mcq', prompt: 'Quel avantage des réseaux sociaux mentionne souvent le premier élève ?', options: ['Ils sont gratuits', 'Ils permettent de rester en contact avec des proches éloignés', 'Ils remplacent l’école', 'Ils n’ont aucun avantage'], answer: 1 },
+          { type: 'mcq', prompt: 'Quelle est l’inquiétude principale du deuxième élève ?', options: ['Le prix des téléphones', 'La vie privée', 'La vitesse d’internet', 'Le manque de réseaux sociaux'], answer: 1 },
+          { type: 'mcq', prompt: 'Que dit souvent le troisième élève sur l’effet des réseaux sociaux ?', options: ['Ils sont toujours mauvais', 'Ils sont toujours excellents', 'Ça dépend de la façon dont on les utilise', 'Il n’a pas d’opinion'], answer: 2 },
+          { type: 'mcq', prompt: 'Quel risque ce troisième élève mentionne-t-il spécifiquement ?', options: ['La perte d’argent', 'Le stress de se comparer aux autres', 'Les virus informatiques', 'La perte de mémoire'], answer: 1 },
+          { type: 'mcq', prompt: 'Quelle est la conclusion du professeur ?', options: ['Les réseaux sociaux sont interdits', 'Tout dépend de l’usage qu’on en fait', 'Il faut les utiliser tout le temps', 'Ils sont inutiles'], answer: 1 },
+          { type: 'mcq', prompt: 'Que décident souvent de faire les élèves après ce débat ?', options: ['Supprimer tous leurs réseaux sociaux', 'Limiter leur temps d’écran le soir', 'Passer plus de temps en ligne', 'Ne rien changer'], answer: 1 },
           { type: 'mcq', prompt: 'Vrai ou faux : tous les élèves sont d’accord dès le début du débat.', options: ['Vrai', 'Faux'], answer: 1 },
           { type: 'mcq', prompt: 'Dans le texte, « d’une part... d’autre part... » sert à...', options: ['Donner deux exemples opposés ou complémentaires', 'Exprimer une cause', 'Poser une question', 'Terminer un texte'], answer: 0 },
           { type: 'mcq', prompt: 'Quel est le ton général du débat ?', options: ['Agressif et fermé', 'Ouvert et nuancé', 'Indifférent', 'Moqueur'], answer: 1 },
-          { type: 'mcq', prompt: 'Quelle inférence peut-on faire sur l’attitude de la professeure ?', options: ['Elle impose son opinion', 'Elle encourage la réflexion personnelle de ses élèves', 'Elle est contre les réseaux sociaux', 'Elle ignore le débat'], answer: 1 }
+          { type: 'mcq', prompt: 'Quelle inférence peut-on faire sur l’attitude des professeurs ?', options: ['Ils imposent leur opinion', 'Ils encouragent la réflexion personnelle des élèves', 'Ils sont contre les réseaux sociaux', 'Ils ignorent le débat'], answer: 1 }
         ]
       }),
       listening: activity('listening', {
@@ -943,40 +943,40 @@ const units = [
     activities: {
       reading: activity('reading', {
         title: 'Gérer le stress des examens',
-        description: 'Camila se sent stressée par les examens de fin d’année et Madame Lambert lui donne des conseils.',
+        description: 'Des conseils de médecins scolaires pour gérer le stress des examens de fin d’année.',
         reading: {
           title: 'Gérer le stress des examens',
           parts: [
-            "À l'approche des examens de fin d'année, Camila se sent de plus en plus stressée. Elle dort mal, elle a du mal à se concentrer, et elle se sent tendue en permanence. Un soir, Madame Lambert la trouve en train de réviser tard, l'air fatiguée, et décide de lui parler. « Tu sembles très stressée ces derniers temps, Camila. Il faut que tu prennes soin de toi aussi, pas seulement de tes études. »",
-            "Madame Lambert lui propose plusieurs conseils pour mieux gérer son stress. « Il est important que tu fasses des pauses régulières pendant tes révisions, même courtes. Il vaut mieux que tu dormes suffisamment plutôt que de réviser jusqu'à minuit. » Elle lui suggère aussi de reprendre une activité physique régulière : « Ça t'aiderait beaucoup de faire une petite promenade ou du sport, même vingt minutes par jour, ça réduit vraiment le stress. » Camila écoute attentivement, un peu surprise que quelqu'un remarque son état.",
-            "Camila décide de suivre ces conseils : elle commence à faire une courte promenade chaque après-midi avec Léa, elle limite ses révisions à vingt et une heures, et elle essaie de dormir au moins sept heures par nuit. Après une semaine, elle se sent déjà plus calme et plus concentrée pendant ses révisions. Elle comprend alors une leçon importante : réussir ses examens ne veut pas dire sacrifier sa santé, mais plutôt trouver un équilibre entre le travail et le repos. Elle remercie Madame Lambert pour son attention et sa bienveillance.",
-            "Le jour du premier examen, Camila se sent nerveuse, comme toujours, mais d'une façon différente : plus légère, plus gérable. Pendant la pause avant l'épreuve, elle prend cinq minutes pour respirer calmement, comme Madame Lambert le lui avait suggéré. Cette petite habitude, presque insignifiante en apparence, l'aide à se concentrer pleinement une fois l'examen commencé. Camila se promet de continuer ces nouvelles habitudes bien après la fin des examens de fin d'année."
+            "À l'approche des examens de fin d'année, beaucoup d'élèves se sentent de plus en plus stressés. Ils dorment mal, ont du mal à se concentrer, et se sentent tendus en permanence. Les infirmières scolaires remarquent souvent ces signes chez des élèves qui révisent tard, l'air fatigué, et décident de leur parler. « Tu sembles très stressé ces derniers temps. Il faut que tu prennes soin de toi aussi, pas seulement de tes études », leur disent-elles souvent.",
+            "Les médecins scolaires proposent généralement plusieurs conseils pour mieux gérer le stress des examens. « Il est important que tu fasses des pauses régulières pendant tes révisions, même courtes. Il vaut mieux que tu dormes suffisamment plutôt que de réviser jusqu'à minuit. » Ils suggèrent aussi de reprendre une activité physique régulière : « Ça t'aiderait beaucoup de faire une petite promenade ou du sport, même vingt minutes par jour, ça réduit vraiment le stress. »",
+            "Les élèves qui suivent ces conseils commencent souvent à faire une courte promenade chaque après-midi, à limiter leurs révisions à vingt et une heures, et à essayer de dormir au moins sept heures par nuit. Après une semaine, beaucoup se sentent déjà plus calmes et plus concentrés pendant leurs révisions. Selon plusieurs études en médecine scolaire, réussir ses examens ne veut pas dire sacrifier sa santé, mais plutôt trouver un équilibre entre le travail et le repos.",
+            "Le jour du premier examen, la plupart des élèves se sentent nerveux, comme toujours, mais d'une façon différente : plus légère, plus gérable. Pendant la pause avant l'épreuve, beaucoup prennent cinq minutes pour respirer calmement, comme leur infirmière scolaire le leur avait suggéré. Cette petite habitude, presque insignifiante en apparence, les aide à se concentrer pleinement une fois l'examen commencé. Les médecins scolaires recommandent de continuer ces habitudes bien après la fin des examens de fin d'année."
           ],
           questions: [
-            'Quels symptômes de stress Camila ressent-elle ?',
-            'Quels conseils Madame Lambert lui donne-t-elle ?',
-            'Quelle leçon Camila tire-t-elle de cette expérience ?'
+            'Quels symptômes de stress ressentent souvent les élèves avant les examens ?',
+            'Quels conseils donnent souvent les médecins scolaires ?',
+            'Quelle leçon en tirent les études en médecine scolaire ?'
           ],
           ordering: {
-            prompt: 'Remets les événements dans l’ordre.',
+            prompt: 'Remets les idées du texte dans l’ordre.',
             events: [
-              'Camila se sent de plus en plus stressée avant les examens.',
-              'Madame Lambert remarque son état et lui parle.',
-              'Elle lui donne des conseils sur les pauses, le sommeil et le sport.',
-              'Camila applique ces conseils et se sent plus calme.'
+              'Les élèves se sentent de plus en plus stressés avant les examens.',
+              'Les infirmières scolaires remarquent ces signes et leur parlent.',
+              'Elles donnent des conseils sur les pauses, le sommeil et le sport.',
+              'Les élèves appliquent ces conseils et se sentent plus calmes.'
             ]
           }
         },
         exercises: [
-          { type: 'mcq', prompt: 'Quels symptômes Camila ressent-elle à cause du stress ?', options: ['Elle dort trop', 'Elle dort mal et a du mal à se concentrer', 'Elle n’a aucun symptôme', 'Elle est toujours calme'], answer: 1 },
-          { type: 'mcq', prompt: 'Que remarque Madame Lambert un soir ?', options: ['Que Camila est très joyeuse', 'Que Camila révise tard, l’air fatiguée', 'Que Camila ne révise jamais', 'Que Camila veut arrêter l’école'], answer: 1 },
-          { type: 'mcq', prompt: 'Quel conseil Madame Lambert donne-t-elle sur le sommeil ?', options: ['Réviser jusqu’à minuit', 'Dormir suffisamment plutôt que réviser tard', 'Ne pas dormir avant les examens', 'Dormir toute la journée'], answer: 1 },
-          { type: 'mcq', prompt: 'Quelle activité Madame Lambert recommande-t-elle ?', options: ['Regarder la télévision', 'Une activité physique régulière', 'Manger davantage', 'Étudier plus longtemps'], answer: 1 },
-          { type: 'mcq', prompt: 'Que fait Camila avec Léa chaque après-midi ?', options: ['Elle révise', 'Elle fait une courte promenade', 'Elle regarde des films', 'Elle dort'], answer: 1 },
-          { type: 'mcq', prompt: 'Jusqu’à quelle heure Camila décide-t-elle de limiter ses révisions ?', options: ['Dix-neuf heures', 'Vingt et une heures', 'Vingt-trois heures', 'Minuit'], answer: 1 },
-          { type: 'mcq', prompt: 'Vrai ou faux : après une semaine, Camila se sent plus stressée qu’avant.', options: ['Vrai', 'Faux'], answer: 1 },
-          { type: 'mcq', prompt: 'Dans le texte, « bienveillance » signifie...', options: ['Indifférence', 'Gentillesse et attention envers les autres', 'Colère', 'Jalousie'], answer: 1 },
-          { type: 'mcq', prompt: 'Quelle est la leçon principale que Camila retient ?', options: ['Il faut sacrifier sa santé pour réussir', 'Il faut trouver un équilibre entre travail et repos', 'Le sport n’aide pas contre le stress', 'Il ne faut jamais réviser'], answer: 1 },
+          { type: 'mcq', prompt: 'Quels symptômes ressentent souvent les élèves à cause du stress ?', options: ['Ils dorment trop', 'Ils dorment mal et ont du mal à se concentrer', 'Ils n’ont aucun symptôme', 'Ils sont toujours calmes'], answer: 1 },
+          { type: 'mcq', prompt: 'Qui remarque souvent ces signes de stress chez les élèves ?', options: ['Les infirmières scolaires', 'Personne', 'Les autres élèves seulement', 'Les parents seulement'], answer: 0 },
+          { type: 'mcq', prompt: 'Quel conseil donnent souvent les médecins scolaires sur le sommeil ?', options: ['Réviser jusqu’à minuit', 'Dormir suffisamment plutôt que réviser tard', 'Ne pas dormir avant les examens', 'Dormir toute la journée'], answer: 1 },
+          { type: 'mcq', prompt: 'Quelle activité recommandent-ils souvent ?', options: ['Regarder la télévision', 'Une activité physique régulière', 'Manger davantage', 'Étudier plus longtemps'], answer: 1 },
+          { type: 'mcq', prompt: 'Que font souvent les élèves qui suivent ces conseils, chaque après-midi ?', options: ['Ils révisent', 'Ils font une courte promenade', 'Ils regardent des films', 'Ils dorment'], answer: 1 },
+          { type: 'mcq', prompt: 'Jusqu’à quelle heure conseille-t-on souvent de limiter les révisions ?', options: ['Dix-neuf heures', 'Vingt et une heures', 'Vingt-trois heures', 'Minuit'], answer: 1 },
+          { type: 'mcq', prompt: 'Vrai ou faux : après une semaine, la plupart des élèves se sentent plus stressés qu’avant.', options: ['Vrai', 'Faux'], answer: 1 },
+          { type: 'mcq', prompt: 'Dans le texte, « gérable » signifie...', options: ['Impossible à supporter', 'Que l’on peut gérer, contrôler', 'Interdit', 'Sans importance'], answer: 1 },
+          { type: 'mcq', prompt: 'Quelle est la leçon principale de ce texte ?', options: ['Il faut sacrifier sa santé pour réussir', 'Il faut trouver un équilibre entre travail et repos', 'Le sport n’aide pas contre le stress', 'Il ne faut jamais réviser'], answer: 1 },
           { type: 'mcq', prompt: 'Quelle est l’intention principale du texte ?', options: ['Décrire un examen difficile', 'Montrer l’importance de l’équilibre entre études et bien-être', 'Se plaindre du système scolaire', 'Décrire une dispute familiale'], answer: 1 }
         ]
       }),
@@ -1092,24 +1092,24 @@ const units = [
     activities: {
       reading: activity('reading', {
         title: 'Un projet pour l’environnement',
-        description: 'La classe de Camila lance un projet pour réduire les déchets au lycée.',
+        description: 'Comment des lycées français réduisent la quantité de déchets grâce à des projets d’élèves.',
         reading: {
           title: 'Un projet pour l’environnement',
           parts: [
-            "Ce trimestre, la classe de Camila participe à un projet écologique : réduire la quantité de déchets produits au lycée. « Nous produisons trop de déchets à la cantine, surtout du plastique à usage unique », explique la professeure de sciences. « C'est pourquoi nous devons trouver des solutions ensemble. » La classe se divise en petits groupes pour réfléchir à des idées concrètes.",
-            "Le groupe de Camila propose d'installer des poubelles de tri sélectif dans toute l'école, parce que beaucoup d'élèves ne savent pas où jeter le plastique, le verre et le papier séparément. « Si on installe des poubelles claires et bien identifiées, le recyclage sera beaucoup plus simple », explique Camila au reste de la classe. Le groupe de Karim propose une autre idée : remplacer les bouteilles en plastique par des gourdes réutilisables, puisque beaucoup d'élèves achètent une bouteille chaque jour à la cantine.",
-            "Après avoir présenté toutes les propositions, la classe vote pour les deux meilleures idées : le tri sélectif et les gourdes réutilisables. Il faut maintenant que les élèves convainquent la direction du lycée d'accepter ces changements. Camila et Karim préparent ensemble une présentation avec des chiffres sur la quantité de déchets économisée. Quelques semaines plus tard, la direction accepte le projet, et de nouvelles poubelles de tri apparaissent dans les couloirs. Camila est fière d'avoir contribué à un changement concret, même petit, pour l'environnement de son lycée.",
-            "Quelques mois plus tard, la classe remarque déjà une différence : la quantité de bouteilles en plastique jetées à la cantine a nettement diminué, et de plus en plus d'élèves utilisent leur gourde réutilisable chaque jour. Encouragée par ce succès, la classe décide de proposer un nouveau projet pour l'année suivante : organiser un compost pour les déchets alimentaires de la cantine. Camila comprend que même les petites actions, quand elles sont bien organisées, peuvent avoir un impact réel."
+            "Chaque trimestre, de nombreuses classes de lycée en France participent à un projet écologique : réduire la quantité de déchets produits dans leur établissement. « Nous produisons trop de déchets à la cantine, surtout du plastique à usage unique », expliquent souvent les professeurs de sciences. « C'est pourquoi nous devons trouver des solutions ensemble. » Les classes se divisent en petits groupes pour réfléchir à des idées concrètes.",
+            "Un groupe propose souvent d'installer des poubelles de tri sélectif dans toute l'école, parce que beaucoup d'élèves ne savent pas où jeter le plastique, le verre et le papier séparément. « Si on installe des poubelles claires et bien identifiées, le recyclage sera beaucoup plus simple », expliquent-ils souvent au reste de la classe. Un autre groupe propose souvent une idée complémentaire : remplacer les bouteilles en plastique par des gourdes réutilisables, puisque beaucoup d'élèves achètent une bouteille chaque jour à la cantine.",
+            "Après avoir présenté toutes les propositions, la classe vote généralement pour les deux meilleures idées : le tri sélectif et les gourdes réutilisables. Il faut ensuite que les élèves convainquent la direction du lycée d'accepter ces changements. Ils préparent souvent une présentation avec des chiffres sur la quantité de déchets économisée. Dans de nombreux cas, la direction accepte le projet, et de nouvelles poubelles de tri apparaissent dans les couloirs.",
+            "Quelques mois plus tard, ces classes remarquent souvent une différence claire : la quantité de bouteilles en plastique jetées à la cantine diminue nettement, et de plus en plus d'élèves utilisent leur gourde réutilisable chaque jour. Selon l'ADEME, l'agence française de la transition écologique, ce type de projet scolaire peut réduire les déchets plastiques d'un établissement de plus de trente pour cent en une année. Encouragées par ce succès, beaucoup de classes proposent ensuite un nouveau projet pour l'année suivante, comme organiser un compost pour les déchets alimentaires."
           ],
           questions: [
-            'Quel problème la professeure identifie-t-elle à la cantine ?',
-            'Quelle solution propose le groupe de Camila ?',
-            'Quel résultat obtient la classe à la fin du projet ?'
+            'Quel problème identifient souvent les professeurs de sciences à la cantine ?',
+            'Quelle solution propose souvent un premier groupe d’élèves ?',
+            'Que peut réduire ce type de projet, selon l’ADEME ?'
           ],
           ordering: {
             prompt: 'Remets les événements du projet dans l’ordre.',
             events: [
-              'La professeure explique le problème des déchets à la cantine.',
+              'Le professeur explique le problème des déchets à la cantine.',
               'Les groupes réfléchissent à des solutions.',
               'La classe vote pour le tri sélectif et les gourdes réutilisables.',
               'La direction accepte le projet et installe de nouvelles poubelles.'
@@ -1117,15 +1117,15 @@ const units = [
           }
         },
         exercises: [
-          { type: 'mcq', prompt: 'Quel problème la professeure identifie-t-elle ?', options: ['Trop de bruit à la cantine', 'Trop de déchets plastiques à la cantine', 'Pas assez de nourriture', 'Trop d’élèves absents'], answer: 1 },
-          { type: 'mcq', prompt: 'Que propose le groupe de Camila ?', options: ['Fermer la cantine', 'Installer des poubelles de tri sélectif', 'Interdire le plastique complètement', 'Réduire les heures de cours'], answer: 1 },
-          { type: 'mcq', prompt: 'Que propose le groupe de Karim ?', options: ['Des gourdes réutilisables', 'Des assiettes en carton', 'Des sacs en papier', 'Rien de spécial'], answer: 0 },
-          { type: 'mcq', prompt: 'Pourquoi Karim propose-t-il cette solution ?', options: ['Parce que les bouteilles sont trop chères', 'Parce que beaucoup d’élèves achètent une bouteille chaque jour', 'Parce que c’est obligatoire', 'Parce que la cantine va fermer'], answer: 1 },
+          { type: 'mcq', prompt: 'Quel problème identifient souvent les professeurs de sciences ?', options: ['Trop de bruit à la cantine', 'Trop de déchets plastiques à la cantine', 'Pas assez de nourriture', 'Trop d’élèves absents'], answer: 1 },
+          { type: 'mcq', prompt: 'Que propose souvent un premier groupe d’élèves ?', options: ['Fermer la cantine', 'Installer des poubelles de tri sélectif', 'Interdire le plastique complètement', 'Réduire les heures de cours'], answer: 1 },
+          { type: 'mcq', prompt: 'Que propose souvent un deuxième groupe ?', options: ['Des gourdes réutilisables', 'Des assiettes en carton', 'Des sacs en papier', 'Rien de spécial'], answer: 0 },
+          { type: 'mcq', prompt: 'Pourquoi propose-t-on souvent cette solution ?', options: ['Parce que les bouteilles sont trop chères', 'Parce que beaucoup d’élèves achètent une bouteille chaque jour', 'Parce que c’est obligatoire', 'Parce que la cantine va fermer'], answer: 1 },
           { type: 'mcq', prompt: 'Que doivent faire les élèves après le vote ?', options: ['Rien de plus', 'Convaincre la direction d’accepter les changements', 'Changer d’école', 'Annuler le projet'], answer: 1 },
-          { type: 'mcq', prompt: 'Que préparent Camila et Karim pour convaincre la direction ?', options: ['Une pétition', 'Une présentation avec des chiffres', 'Une manifestation', 'Une lettre anonyme'], answer: 1 },
-          { type: 'mcq', prompt: 'Vrai ou faux : la direction refuse le projet.', options: ['Vrai', 'Faux'], answer: 1 },
+          { type: 'mcq', prompt: 'Que préparent-ils souvent pour convaincre la direction ?', options: ['Une pétition', 'Une présentation avec des chiffres', 'Une manifestation', 'Une lettre anonyme'], answer: 1 },
+          { type: 'mcq', prompt: 'De combien ce type de projet peut-il réduire les déchets plastiques, selon l’ADEME ?', options: ['Plus de dix pour cent', 'Plus de trente pour cent', 'Cent pour cent', 'Aucune réduction'], answer: 1 },
           { type: 'mcq', prompt: 'Dans le texte, « c’est pourquoi » exprime...', options: ['Une cause', 'Une conséquence', 'Une opposition', 'Un but'], answer: 1 },
-          { type: 'mcq', prompt: 'Comment Camila se sent-elle à la fin du texte ?', options: ['Déçue', 'Fière', 'Indifférente', 'Fâchée'], answer: 1 },
+          { type: 'mcq', prompt: 'Qu’est-ce que l’ADEME, selon le texte ?', options: ['Une école', 'L’agence française de la transition écologique', 'Un magasin de vêtements', 'Un syndicat étudiant'], answer: 1 },
           { type: 'mcq', prompt: 'Quelle est l’intention principale du texte ?', options: ['Critiquer l’école', 'Montrer comment un projet collectif peut créer un changement concret', 'Décrire un examen', 'Parler d’un voyage scolaire'], answer: 1 }
         ]
       }),
@@ -1240,42 +1240,42 @@ const units = [
     },
     activities: {
       reading: activity('reading', {
-        title: 'Vrai ou faux ?',
-        description: 'La classe de Camila apprend à vérifier la fiabilité d’une information trouvée en ligne.',
+        title: 'Vrai ou faux ? Apprendre à repérer la désinformation',
+        description: 'Une méthode utilisée dans les cours d’éducation aux médias pour vérifier la fiabilité d’une information en ligne.',
         reading: {
-          title: 'Vrai ou faux ?',
+          title: 'Vrai ou faux ? Apprendre à repérer la désinformation',
           parts: [
-            "En cours de français, la professeure propose un exercice inhabituel : elle montre à la classe un article partagé des centaines de fois sur les réseaux sociaux, qui affirme qu'un nouveau fruit exotique guérit toutes les maladies. « Que pensez-vous de cet article ? » demande-t-elle. Léa répond immédiatement : « Il a l'air très convaincant, avec beaucoup de partages ! » Mais Karim n'est pas si sûr : « Je doute que ce soit vrai, aucune source scientifique n'est citée. »",
-            "La professeure explique alors comment vérifier une information : regarder qui a écrit l'article, chercher si d'autres sources fiables confirment l'information, et vérifier la date de publication. Camila remarque que l'article ne mentionne aucun auteur ni aucune étude scientifique précise. « En effet, c'est-à-dire qu'on ne sait même pas qui a écrit ça », observe-t-elle. « C'est exactement le genre de signal qui doit nous alerter », confirme la professeure. Ensemble, ils cherchent l'information sur un site d'actualités reconnu, et ne trouvent rien qui confirme cette affirmation.",
-            "La professeure leur explique que ce type de fausse nouvelle est appelé « désinformation », et qu'il devient de plus en plus fréquent en ligne. Elle leur donne un conseil simple : avant de partager une information, il faut toujours se demander si la source est fiable et vérifier auprès d'au moins une autre source. Karim résume la leçon du jour : « On a dit que ce fruit guérissait tout, mais en réalité, personne ne peut le prouver. » La classe termine le cours en comprenant mieux l'importance d'un regard critique sur les informations qu'ils reçoivent chaque jour.",
-            "Pour aller plus loin, la professeure demande à chaque élève de trouver, avant le prochain cours, un exemple de désinformation qu'il a vu circuler récemment, et d'expliquer pourquoi il ne fallait pas y faire confiance. Camila choisit un message qu'elle avait reçu affirmant qu'une application populaire allait devenir payante du jour au lendemain. En cherchant sur le site officiel de l'application, elle découvre rapidement que l'information est totalement fausse, une bonne occasion de mettre en pratique ce qu'elle vient d'apprendre."
+            "En cours d'éducation aux médias, les professeurs proposent souvent un exercice révélateur : ils montrent à la classe un article partagé des centaines de fois sur les réseaux sociaux, qui affirme qu'un nouveau fruit exotique guérit toutes les maladies. « Que pensez-vous de cet article ? » demandent-ils. Un premier élève répond souvent : « Il a l'air très convaincant, avec beaucoup de partages ! » Mais un autre élève reste prudent : « Je doute que ce soit vrai, aucune source scientifique n'est citée. »",
+            "Le professeur explique alors comment vérifier une information : regarder qui a écrit l'article, chercher si d'autres sources fiables confirment l'information, et vérifier la date de publication. Les élèves remarquent généralement que l'article ne mentionne aucun auteur ni aucune étude scientifique précise. « C'est exactement le genre de signal qui doit nous alerter », confirme le professeur. Ensemble, la classe cherche l'information sur un site d'actualités reconnu, et ne trouve rien qui confirme cette affirmation.",
+            "Le professeur explique que ce type de fausse nouvelle est appelé « désinformation », et qu'il devient de plus en plus fréquent en ligne. Il donne un conseil simple : avant de partager une information, il faut toujours se demander si la source est fiable et vérifier auprès d'au moins une autre source. Selon le CLEMI, le centre français pour l'éducation aux médias, plus de la moitié des jeunes de quinze à dix-huit ans admettent avoir déjà partagé une fausse information sans le savoir.",
+            "Pour aller plus loin, le professeur demande souvent à chaque élève de trouver, avant le prochain cours, un exemple de désinformation qu'il a vu circuler récemment, et d'expliquer pourquoi il ne fallait pas y faire confiance. Beaucoup d'élèves choisissent des messages affirmant qu'une application populaire allait devenir payante du jour au lendemain. En cherchant sur le site officiel de l'application, ils découvrent rapidement que l'information est totalement fausse, une bonne occasion de mettre en pratique ce qu'ils viennent d'apprendre."
           ],
           questions: [
-            'Quelle affirmation l’article partagé fait-il ?',
-            'Comment Camila et la professeure vérifient-elles l’information ?',
-            'Comment s’appelle ce type de fausse information, selon la professeure ?'
+            'Quelle affirmation fait souvent l’article présenté en classe ?',
+            'Comment les élèves apprennent-ils à vérifier une information ?',
+            'Comment s’appelle ce type de fausse information ?'
           ],
           ordering: {
             prompt: 'Remets les étapes de la leçon dans l’ordre.',
             events: [
-              'La professeure montre un article sur un fruit miracle.',
-              'Karim exprime son doute sur la véracité de l’article.',
+              'Le professeur montre un article sur un fruit miracle.',
+              'Un élève exprime son doute sur la véracité de l’article.',
               'La classe cherche l’information sur un site fiable.',
-              'La professeure explique le concept de désinformation.'
+              'Le professeur explique le concept de désinformation.'
             ]
           }
         },
         exercises: [
-          { type: 'mcq', prompt: 'Que prétend l’article partagé sur les réseaux sociaux ?', options: ['Qu’un fruit guérit toutes les maladies', 'Qu’il va neiger demain', 'Qu’une nouvelle école ouvre', 'Qu’un examen est annulé'], answer: 0 },
-          { type: 'mcq', prompt: 'Qui doute en premier de la véracité de l’article ?', options: ['Léa', 'Karim', 'La professeure', 'Personne'], answer: 1 },
-          { type: 'mcq', prompt: 'Que remarque Camila à propos de l’article ?', options: ['Il cite plusieurs études', 'Il ne mentionne aucun auteur ni étude scientifique', 'Il est très récent', 'Il vient d’un site officiel'], answer: 1 },
-          { type: 'mcq', prompt: 'Que trouve la classe en cherchant sur un site d’actualités reconnu ?', options: ['Une confirmation de l’article', 'Rien qui confirme l’affirmation', 'Un article encore plus convaincant', 'Une interdiction du fruit'], answer: 1 },
+          { type: 'mcq', prompt: 'Que prétend souvent l’article partagé sur les réseaux sociaux ?', options: ['Qu’un fruit guérit toutes les maladies', 'Qu’il va neiger demain', 'Qu’une nouvelle école ouvre', 'Qu’un examen est annulé'], answer: 0 },
+          { type: 'mcq', prompt: 'Qui doute souvent en premier de la véracité de ce type d’article ?', options: ['Un élève prudent', 'Personne', 'Le professeur seulement', 'Tout le monde y croit'], answer: 0 },
+          { type: 'mcq', prompt: 'Que remarquent souvent les élèves à propos de ce type d’article ?', options: ['Il cite plusieurs études', 'Il ne mentionne aucun auteur ni étude scientifique', 'Il est très récent', 'Il vient d’un site officiel'], answer: 1 },
+          { type: 'mcq', prompt: 'Que trouve souvent la classe en cherchant sur un site d’actualités reconnu ?', options: ['Une confirmation de l’article', 'Rien qui confirme l’affirmation', 'Un article encore plus convaincant', 'Une interdiction du fruit'], answer: 1 },
           { type: 'mcq', prompt: 'Comment s’appelle ce type de fausse information ?', options: ['La publicité', 'La désinformation', 'La fiction', 'La biographie'], answer: 1 },
-          { type: 'mcq', prompt: 'Quel conseil la professeure donne-t-elle avant de partager une information ?', options: ['Toujours la partager rapidement', 'Vérifier la fiabilité de la source', 'Ne jamais lire les articles', 'Croire tout ce qu’on lit'], answer: 1 },
-          { type: 'mcq', prompt: 'Vrai ou faux : l’article contenait des preuves scientifiques solides.', options: ['Vrai', 'Faux'], answer: 1 },
-          { type: 'mcq', prompt: 'Dans le texte, « c’est-à-dire » sert à...', options: ['Reformuler ou préciser une idée', 'Poser une question', 'Exprimer une opposition', 'Terminer un texte'], answer: 0 },
+          { type: 'mcq', prompt: 'Quel conseil donne souvent le professeur avant de partager une information ?', options: ['Toujours la partager rapidement', 'Vérifier la fiabilité de la source', 'Ne jamais lire les articles', 'Croire tout ce qu’on lit'], answer: 1 },
+          { type: 'mcq', prompt: 'Selon le CLEMI, quelle proportion de jeunes a déjà partagé une fausse information sans le savoir ?', options: ['Moins de dix pour cent', 'Plus de la moitié', 'Aucun jeune', 'Cent pour cent'], answer: 1 },
+          { type: 'mcq', prompt: 'Dans le texte, « révélateur » signifie...', options: ['Sans intérêt', 'Qui montre quelque chose clairement', 'Ennuyeux', 'Interdit'], answer: 1 },
           { type: 'mcq', prompt: 'Quelle est l’intention principale de ce cours ?', options: ['Se moquer des réseaux sociaux', 'Apprendre à évaluer la fiabilité d’une information', 'Interdire internet', 'Décourager la lecture'], answer: 1 },
-          { type: 'mcq', prompt: 'Quelle inférence peut-on faire sur l’attitude de Karim face à l’information en ligne ?', options: ['Il croit tout ce qu’il lit', 'Il a un regard critique et prudent', 'Il n’utilise jamais internet', 'Il partage tout sans vérifier'], answer: 1 }
+          { type: 'mcq', prompt: 'Qu’est-ce que le CLEMI, selon le texte ?', options: ['Un réseau social', 'Le centre français pour l’éducation aux médias', 'Une application', 'Un magazine de mode'], answer: 1 }
         ]
       }),
       listening: activity('listening', {
@@ -1389,42 +1389,42 @@ const units = [
     },
     activities: {
       reading: activity('reading', {
-        title: 'Notre premier désaccord',
-        description: 'Camila et Léa se disputent pour la première fois à propos d’un projet scolaire.',
+        title: 'Un désaccord entre camarades de classe',
+        description: 'Comment deux camarades de classe résolvent un désaccord pendant un projet scolaire.',
         reading: {
-          title: 'Notre premier désaccord',
+          title: 'Un désaccord entre camarades de classe',
           parts: [
-            "Camila et Léa doivent préparer un exposé ensemble sur la francophonie, mais elles ne sont pas d'accord sur la façon de s'organiser. Léa veut tout préparer à l'avance et suivre un plan très structuré, tandis que Camila préfère improviser et laisser de la place à la créativité. « Ça me dérange que tu changes toujours le plan au dernier moment », dit Léa, un peu frustrée. Camila, surprise par ce ton inhabituel, répond : « Je suis triste que tu penses que je ne prends pas ce projet au sérieux, ce n'est pas vrai du tout ! »",
-            "La tension monte pendant quelques minutes, et les deux amies se sentent un peu blessées. Après un moment de silence, Léa prend une grande respiration et dit : « Excuse-moi, je crois que je suis juste stressée par cet exposé, ce n'est pas contre toi. » Camila, soulagée, répond : « Je comprends, moi aussi je suis stressée. Peut-être qu'on pourrait trouver un compromis ? Toi, tu prépares la structure, et moi, j'ajoute des idées créatives dans ce cadre. » Léa sourit : « Ça me semble être une excellente idée, même si ça demande qu'on communique bien tout au long du projet. »",
-            "Grâce à cette conversation honnête, Camila et Léa trouvent un équilibre qui respecte leurs deux façons de travailler. Elles terminent leur exposé ensemble, sans autre dispute, et obtiennent même une très bonne note. Cette expérience leur apprend une leçon importante sur l'amitié : même les meilleures amies ne sont pas toujours d'accord, mais parler calmement de ses émotions et chercher un compromis permet souvent de résoudre un conflit sans abîmer la relation.",
-            "Quelques semaines plus tard, quand un nouveau projet de groupe est annoncé en classe, Camila et Léa demandent immédiatement à travailler ensemble à nouveau, sans la moindre hésitation. Cette fois, elles décident de discuter de leur méthode de travail dès le début, avant même de commencer, pour éviter que les mêmes tensions ne réapparaissent. Leur professeure remarque avec plaisir à quel point leur collaboration s'est améliorée depuis leur premier projet ensemble."
+            "Deux camarades de classe doivent souvent préparer un exposé ensemble sur la francophonie, mais ils ne sont pas toujours d'accord sur la façon de s'organiser. L'un veut tout préparer à l'avance et suivre un plan très structuré, tandis que l'autre préfère improviser et laisser de la place à la créativité. « Ça me dérange que tu changes toujours le plan au dernier moment », dit souvent le premier, un peu frustré. L'autre, surpris par ce ton inhabituel, répond : « Je suis triste que tu penses que je ne prends pas ce projet au sérieux, ce n'est pas vrai du tout ! »",
+            "La tension monte pendant quelques minutes, et les deux camarades se sentent un peu blessés. Après un moment de silence, l'un prend souvent une grande respiration et dit : « Excuse-moi, je crois que je suis juste stressé par cet exposé, ce n'est pas contre toi. » L'autre, soulagé, répond : « Je comprends, moi aussi je suis stressé. Peut-être qu'on pourrait trouver un compromis ? Toi, tu prépares la structure, et moi, j'ajoute des idées créatives dans ce cadre. » Le premier sourit : « Ça me semble être une excellente idée, même si ça demande qu'on communique bien tout au long du projet. »",
+            "Grâce à ce genre de conversation honnête, beaucoup de binômes trouvent un équilibre qui respecte leurs deux façons de travailler. Ils terminent leur exposé ensemble, sans autre dispute, et obtiennent souvent une très bonne note. Selon les conseillers d'éducation, cette expérience enseigne une leçon importante sur les relations entre camarades : même les meilleurs amis ne sont pas toujours d'accord, mais parler calmement de ses émotions et chercher un compromis permet souvent de résoudre un conflit sans abîmer la relation.",
+            "Quelques semaines plus tard, quand un nouveau projet de groupe est annoncé en classe, ces binômes demandent souvent immédiatement à travailler ensemble à nouveau, sans la moindre hésitation. Cette fois, ils décident de discuter de leur méthode de travail dès le début, avant même de commencer, pour éviter que les mêmes tensions ne réapparaissent. Les professeurs remarquent souvent avec plaisir à quel point la collaboration de ces élèves s'améliore d'un projet à l'autre."
           ],
           questions: [
-            'Pourquoi Léa et Camila se disputent-elles ?',
-            'Quel compromis trouvent-elles ?',
-            'Quelle leçon tirent-elles de cette expérience ?'
+            'Pourquoi ces deux camarades ne sont-ils pas d’accord au début ?',
+            'Quel compromis trouvent-ils souvent ?',
+            'Quelle leçon les conseillers d’éducation en tirent-ils ?'
           ],
           ordering: {
             prompt: 'Remets les événements du conflit dans l’ordre.',
             events: [
-              'Léa exprime sa frustration sur l’organisation du projet.',
-              'Camila se sent blessée par le commentaire de Léa.',
-              'Léa s’excuse et explique qu’elle est stressée.',
-              'Elles trouvent un compromis pour travailler ensemble.'
+              'Un élève exprime sa frustration sur l’organisation du projet.',
+              'L’autre se sent blessé par ce commentaire.',
+              'Le premier s’excuse et explique qu’il est stressé.',
+              'Ils trouvent un compromis pour travailler ensemble.'
             ]
           }
         },
         exercises: [
-          { type: 'mcq', prompt: 'Pourquoi Léa et Camila ne sont-elles pas d’accord ?', options: ['Sur le sujet de l’exposé', 'Sur la façon de s’organiser', 'Sur la note qu’elles veulent avoir', 'Sur le jour de la présentation'], answer: 1 },
-          { type: 'mcq', prompt: 'Que reproche Léa à Camila ?', options: ['De ne jamais travailler', 'De changer toujours le plan au dernier moment', 'D’être en retard', 'De ne pas parler français'], answer: 1 },
-          { type: 'mcq', prompt: 'Comment se sent Camila après le commentaire de Léa ?', options: ['Indifférente', 'Blessée et triste', 'Heureuse', 'Fâchée contre elle-même'], answer: 1 },
-          { type: 'mcq', prompt: 'Pourquoi Léa était-elle si frustrée, en réalité ?', options: ['Parce qu’elle n’aime pas Camila', 'Parce qu’elle était stressée par l’exposé', 'Parce qu’elle voulait changer de partenaire', 'Parce qu’elle avait raté un examen'], answer: 1 },
-          { type: 'mcq', prompt: 'Quel compromis trouvent-elles ?', options: ['Elles arrêtent le projet', 'Léa prépare la structure, Camila ajoute des idées créatives', 'Elles travaillent séparément', 'Une troisième personne les remplace'], answer: 1 },
-          { type: 'mcq', prompt: 'Comment se termine l’histoire ?', options: ['Elles arrêtent d’être amies', 'Elles terminent l’exposé ensemble avec une bonne note', 'Elles échouent à l’exposé', 'Elles changent de sujet'], answer: 1 },
-          { type: 'mcq', prompt: 'Vrai ou faux : Léa et Camila ne se réconcilient jamais.', options: ['Vrai', 'Faux'], answer: 1 },
+          { type: 'mcq', prompt: 'Sur quoi ces deux camarades ne sont-ils pas d’accord ?', options: ['Sur le sujet de l’exposé', 'Sur la façon de s’organiser', 'Sur la note qu’ils veulent avoir', 'Sur le jour de la présentation'], answer: 1 },
+          { type: 'mcq', prompt: 'Que reproche souvent le premier élève à l’autre ?', options: ['De ne jamais travailler', 'De changer toujours le plan au dernier moment', 'D’être en retard', 'De ne pas parler français'], answer: 1 },
+          { type: 'mcq', prompt: 'Comment se sent l’autre élève après ce commentaire ?', options: ['Indifférent', 'Blessé et triste', 'Heureux', 'Fâché contre lui-même'], answer: 1 },
+          { type: 'mcq', prompt: 'Pourquoi le premier élève était-il si frustré, en réalité ?', options: ['Parce qu’il n’aime pas l’autre', 'Parce qu’il était stressé par l’exposé', 'Parce qu’il voulait changer de partenaire', 'Parce qu’il avait raté un examen'], answer: 1 },
+          { type: 'mcq', prompt: 'Quel compromis trouvent-ils souvent ?', options: ['Ils arrêtent le projet', 'L’un prépare la structure, l’autre ajoute des idées créatives', 'Ils travaillent séparément', 'Une troisième personne les remplace'], answer: 1 },
+          { type: 'mcq', prompt: 'Comment se termine souvent ce genre d’histoire ?', options: ['Ils arrêtent d’être amis', 'Ils terminent l’exposé ensemble avec une bonne note', 'Ils échouent à l’exposé', 'Ils changent de sujet'], answer: 1 },
+          { type: 'mcq', prompt: 'Vrai ou faux : selon le texte, les camarades ne se réconcilient jamais.', options: ['Vrai', 'Faux'], answer: 1 },
           { type: 'mcq', prompt: 'Dans le texte, « ça me dérange que » exprime...', options: ['Une joie', 'Un dérangement/une gêne', 'Une certitude', 'Une indifférence'], answer: 1 },
           { type: 'mcq', prompt: 'Quelle est la leçon principale de ce texte ?', options: ['Il ne faut jamais se disputer', 'Parler calmement de ses émotions aide à résoudre un conflit', 'Les amitiés se terminent toujours mal', 'Il faut toujours avoir raison'], answer: 1 },
-          { type: 'mcq', prompt: 'Quelle inférence peut-on faire sur la relation entre Camila et Léa après ce conflit ?', options: ['Elle est plus fragile', 'Elle est renforcée par une communication honnête', 'Elle est terminée', 'Elle est ignorée par les deux'], answer: 1 }
+          { type: 'mcq', prompt: 'Quelle inférence peut-on faire sur la relation entre ces deux camarades après ce conflit ?', options: ['Elle est plus fragile', 'Elle est renforcée par une communication honnête', 'Elle est terminée', 'Elle est ignorée par les deux'], answer: 1 }
         ]
       }),
       listening: activity('listening', {

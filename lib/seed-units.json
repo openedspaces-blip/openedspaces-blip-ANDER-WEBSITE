@@ -1111,670 +1111,6 @@
     }
   },
   {
-    "slug": "bonjour-et-bienvenue",
-    "target_language": "french",
-    "level": "A1",
-    "title": "Bonjour et bienvenue",
-    "title_es": "Hola y bienvenida",
-    "description": "Salutations, présentations et l'alphabet, avec Camila à son premier jour à Tours.",
-    "order_index": 1,
-    "unit_overview": {
-      "objective": "Se présenter, saluer et rencontrer d'autres personnes.",
-      "outcomes": [
-        "dire ton nom",
-        "demander le nom de quelqu'un d'autre",
-        "utiliser des salutations formelles et informelles",
-        "épeler des informations de base"
-      ],
-      "grammar": [
-        "verbe être",
-        "pronoms sujets",
-        "questions de base"
-      ],
-      "vocabulary": [
-        "salutations",
-        "noms",
-        "expressions de classe",
-        "nombres 0–20"
-      ],
-      "scenario": "Ton premier jour dans un cours de français."
-    }
-  },
-  {
-    "slug": "je-me-presente",
-    "target_language": "french",
-    "level": "A1",
-    "title": "Je me présente",
-    "title_es": "Me presento",
-    "description": "Âge, nationalité et centres d'intérêt : Camila et ses camarades se présentent.",
-    "order_index": 2,
-    "unit_overview": null
-  },
-  {
-    "slug": "ma-famille-et-mes-amis",
-    "target_language": "french",
-    "level": "A1",
-    "title": "Ma famille et mes amis",
-    "title_es": "Mi familia y mis amigos",
-    "description": "Camila présente sa famille de Saint-Domingue et sa famille d'accueil à Tours.",
-    "order_index": 3,
-    "unit_overview": null
-  },
-  {
-    "slug": "a-l-ecole",
-    "target_language": "french",
-    "level": "A1",
-    "title": "À l'école",
-    "title_es": "En la escuela",
-    "description": "Karim fait visiter le collège de Tours à Camila.",
-    "order_index": 4,
-    "unit_overview": null
-  },
-  {
-    "slug": "ma-journee",
-    "target_language": "french",
-    "level": "A1",
-    "title": "Ma journée",
-    "title_es": "Mi día",
-    "description": "La routine quotidienne de Camila chez la famille Lambert.",
-    "order_index": 5,
-    "unit_overview": null
-  },
-  {
-    "slug": "l-heure-et-les-dates",
-    "target_language": "french",
-    "level": "A1",
-    "title": "L'heure et les dates",
-    "title_es": "La hora y las fechas",
-    "description": "Camila et Karim organisent une fête surprise pour l'anniversaire de Léa.",
-    "order_index": 6,
-    "unit_overview": null
-  },
-  {
-    "slug": "a-table",
-    "target_language": "french",
-    "level": "A1",
-    "title": "À table",
-    "title_es": "A la mesa",
-    "description": "Camila découvre les repas en famille et la nourriture française.",
-    "order_index": 7,
-    "unit_overview": null
-  },
-  {
-    "slug": "chez-moi",
-    "target_language": "french",
-    "level": "A1",
-    "title": "Chez moi",
-    "title_es": "En mi casa",
-    "description": "Camila décrit sa chambre chez la famille Lambert.",
-    "order_index": 8,
-    "unit_overview": null
-  },
-  {
-    "slug": "dans-ma-ville",
-    "target_language": "french",
-    "level": "A1",
-    "title": "Dans ma ville",
-    "title_es": "En mi ciudad",
-    "description": "Camila et Léa se promènent dans Tours et demandent leur chemin.",
-    "order_index": 9,
-    "unit_overview": null
-  },
-  {
-    "slug": "mes-loisirs",
-    "target_language": "french",
-    "level": "A1",
-    "title": "Mes loisirs",
-    "title_es": "Mis pasatiempos",
-    "description": "Camila, Léa et Karim partagent leurs loisirs le week-end.",
-    "order_index": 10,
-    "unit_overview": null
-  },
-  {
-    "slug": "les-vetements-et-les-achats",
-    "target_language": "french",
-    "level": "A1",
-    "title": "Les vêtements et les achats",
-    "title_es": "La ropa y las compras",
-    "description": "Léa et Camila font du shopping dans le centre-ville de Tours.",
-    "order_index": 11,
-    "unit_overview": null
-  },
-  {
-    "slug": "la-meteo-et-les-voyages",
-    "target_language": "french",
-    "level": "A1",
-    "title": "La météo et les voyages",
-    "title_es": "El clima y los viajes",
-    "description": "Camila prépare un voyage à Paris avec la famille Lambert.",
-    "order_index": 12,
-    "unit_overview": null
-  },
-  {
-    "slug": "les-achats",
-    "target_language": "french",
-    "level": "A2",
-    "title": "Les achats",
-    "title_es": "Las compras",
-    "description": "Camila et Léa font des courses au marché et achètent des vêtements en ville.",
-    "order_index": 1,
-    "unit_overview": {
-      "objective": "Demander un prix, comparer deux articles et payer dans un magasin.",
-      "outcomes": [
-        "demander le prix d’un produit",
-        "comparer deux articles avec plus/moins/aussi... que",
-        "utiliser le passé composé pour raconter un achat",
-        "remplacer un nom par le/la/les"
-      ],
-      "grammar": [
-        "passé composé avec avoir",
-        "comparatifs",
-        "pronoms d’objet direct"
-      ],
-      "vocabulary": [
-        "le marché",
-        "la taille",
-        "la caisse",
-        "le reçu",
-        "échanger"
-      ],
-      "scenario": "Camila accompagne Léa faire des courses un samedi matin."
-    }
-  },
-  {
-    "slug": "au-restaurant",
-    "target_language": "french",
-    "level": "A2",
-    "title": "Au restaurant",
-    "title_es": "En el restaurante",
-    "description": "La famille Lambert fête l’anniversaire de Léa au restaurant et Camila apprend à commander et à réclamer poliment.",
-    "order_index": 2,
-    "unit_overview": {
-      "objective": "Réserver une table, commander un repas et exprimer poliment une préférence ou une plainte.",
-      "outcomes": [
-        "réserver une table par téléphone",
-        "commander un repas et poser des questions sur un plat",
-        "exprimer une obligation avec devoir/il faut",
-        "faire une réclamation polie avec « pourriez-vous »"
-      ],
-      "grammar": [
-        "vouloir/pouvoir au conditionnel de politesse",
-        "devoir et il faut",
-        "négations ne... jamais/plus/rien"
-      ],
-      "vocabulary": [
-        "réserver une table",
-        "la carte",
-        "l’addition",
-        "pourriez-vous..."
-      ],
-      "scenario": "La famille Lambert fête l’anniversaire de Léa dans un restaurant du centre-ville."
-    }
-  },
-  {
-    "slug": "se-deplacer",
-    "target_language": "french",
-    "level": "A2",
-    "title": "Se déplacer",
-    "title_es": "Desplazarse",
-    "description": "Camila apprend à prendre le bus et à demander son chemin dans Tours.",
-    "order_index": 3,
-    "unit_overview": {
-      "objective": "Demander et comprendre un itinéraire, utiliser les transports en commun.",
-      "outcomes": [
-        "demander son chemin",
-        "comprendre des indications simples",
-        "acheter un ticket de bus",
-        "utiliser l’impératif pour donner une indication"
-      ],
-      "grammar": [
-        "impératif",
-        "prépositions de lieu",
-        "futur proche (révision)"
-      ],
-      "vocabulary": [
-        "l’arrêt de bus",
-        "tout droit",
-        "tournez à gauche/à droite",
-        "le ticket"
-      ],
-      "scenario": "Camila doit se rendre seule chez Karim pour la première fois."
-    }
-  },
-  {
-    "slug": "la-sante",
-    "target_language": "french",
-    "level": "A2",
-    "title": "La santé",
-    "title_es": "La salud",
-    "description": "Camila ne se sent pas bien et va consulter un médecin avec Madame Lambert.",
-    "order_index": 4,
-    "unit_overview": {
-      "objective": "Décrire des symptômes simples et comprendre les conseils d’un médecin.",
-      "outcomes": [
-        "décrire un symptôme",
-        "prendre rendez-vous chez le médecin",
-        "comprendre des conseils de santé",
-        "utiliser les verbes pronominaux liés au corps"
-      ],
-      "grammar": [
-        "verbes pronominaux",
-        "avoir mal à...",
-        "devoir + infinitif"
-      ],
-      "vocabulary": [
-        "avoir mal à la tête/gorge",
-        "la fièvre",
-        "le rendez-vous médical",
-        "le médicament"
-      ],
-      "scenario": "Camila se sent fatiguée et a mal à la gorge depuis deux jours."
-    }
-  },
-  {
-    "slug": "la-vie-quotidienne",
-    "target_language": "french",
-    "level": "A2",
-    "title": "La vie quotidienne",
-    "title_es": "La vida cotidiana",
-    "description": "Camila décrit sa routine chez les Lambert, ses horaires et l’organisation de sa semaine.",
-    "order_index": 5,
-    "unit_overview": {
-      "objective": "Décrire une routine détaillée avec des horaires et des adverbes de fréquence.",
-      "outcomes": [
-        "décrire une routine avec précision",
-        "utiliser les adverbes de fréquence",
-        "utiliser les verbes pronominaux du quotidien",
-        "organiser un récit avec des connecteurs temporels"
-      ],
-      "grammar": [
-        "verbes pronominaux",
-        "adverbes de fréquence",
-        "prépositions de temps"
-      ],
-      "vocabulary": [
-        "se réveiller",
-        "toujours / souvent / parfois / jamais",
-        "l’emploi du temps",
-        "d’habitude"
-      ],
-      "scenario": "Camila explique sa nouvelle routine à sa mère, par appel vidéo depuis Tours."
-    }
-  },
-  {
-    "slug": "les-experiences-passees",
-    "target_language": "french",
-    "level": "A2",
-    "title": "Les expériences passées",
-    "title_es": "Las experiencias pasadas",
-    "description": "Camila raconte son premier mois en France et les expériences marquantes qu’elle a vécues.",
-    "order_index": 6,
-    "unit_overview": {
-      "objective": "Raconter des expériences passées avec le passé composé (avoir et être).",
-      "outcomes": [
-        "utiliser le passé composé avec avoir",
-        "utiliser le passé composé avec être",
-        "reconnaître les participes passés fréquents",
-        "faire l’accord du participe passé avec être"
-      ],
-      "grammar": [
-        "passé composé avec avoir",
-        "passé composé avec être",
-        "accord du participe passé avec être"
-      ],
-      "vocabulary": [
-        "une expérience",
-        "inoubliable",
-        "la première fois",
-        "se souvenir de"
-      ],
-      "scenario": "Camila écrit dans son journal les expériences les plus marquantes de son premier mois en France."
-    }
-  },
-  {
-    "slug": "les-voyages-et-les-vacances",
-    "target_language": "french",
-    "level": "A2",
-    "title": "Les voyages et les vacances",
-    "title_es": "Los viajes y las vacaciones",
-    "description": "Camila et la famille Lambert préparent leurs vacances de printemps et réservent un hôtel.",
-    "order_index": 7,
-    "unit_overview": {
-      "objective": "Organiser un voyage, réserver un hôtel et raconter une expérience de voyage.",
-      "outcomes": [
-        "réserver une chambre d’hôtel",
-        "parler de transport et de destinations",
-        "décrire une expérience de voyage",
-        "utiliser le futur proche pour planifier"
-      ],
-      "grammar": [
-        "futur proche",
-        "prépositions de lieu (à, en, au)",
-        "passé composé (révision)"
-      ],
-      "vocabulary": [
-        "réserver une chambre",
-        "la destination",
-        "faire les valises",
-        "un séjour"
-      ],
-      "scenario": "La famille Lambert prépare un voyage de printemps dans le sud de la France."
-    }
-  },
-  {
-    "slug": "le-logement",
-    "target_language": "french",
-    "level": "A2",
-    "title": "Le logement",
-    "title_es": "La vivienda",
-    "description": "Karim aide Camila à comprendre comment on cherche un appartement en France, pour un projet d’école.",
-    "order_index": 8,
-    "unit_overview": {
-      "objective": "Décrire un logement, comparer deux appartements et comprendre une annonce immobilière.",
-      "outcomes": [
-        "décrire les pièces d’un logement",
-        "comparer deux logements",
-        "comprendre une petite annonce immobilière",
-        "parler des meubles et des services d’un appartement"
-      ],
-      "grammar": [
-        "comparatifs (révision)",
-        "il y a / il n’y a pas de",
-        "prépositions de lieu dans la maison"
-      ],
-      "vocabulary": [
-        "la chambre",
-        "le loyer",
-        "meublé",
-        "le quartier"
-      ],
-      "scenario": "Pour un projet d’école, Camila et Karim comparent deux annonces d’appartements à louer à Tours."
-    }
-  },
-  {
-    "slug": "les-loisirs-et-les-medias",
-    "target_language": "french",
-    "level": "A2",
-    "title": "Les loisirs et les médias",
-    "title_es": "El ocio y los medios",
-    "description": "Camila, Léa et Karim discutent de leurs films, séries et réseaux sociaux préférés.",
-    "order_index": 9,
-    "unit_overview": {
-      "objective": "Exprimer une préférence culturelle et discuter d’un film ou d’une série.",
-      "outcomes": [
-        "parler de ses loisirs préférés",
-        "donner son opinion sur un film ou une série",
-        "comparer deux préférences",
-        "parler des réseaux sociaux de façon simple"
-      ],
-      "grammar": [
-        "pronoms toniques (moi, toi, lui...)",
-        "expression de préférence (préférer, aimer mieux)",
-        "négation ne... rien / ne... personne"
-      ],
-      "vocabulary": [
-        "un film",
-        "une série",
-        "les réseaux sociaux",
-        "à mon avis"
-      ],
-      "scenario": "Un vendredi soir, Camila, Léa et Karim débattent de quel film regarder ensemble."
-    }
-  },
-  {
-    "slug": "relations-et-communication",
-    "target_language": "french",
-    "level": "A2",
-    "title": "Relations et communication",
-    "title_es": "Relaciones y comunicación",
-    "description": "Camila écrit un e-mail à sa meilleure amie de Saint-Domingue pour lui raconter sa vie en France.",
-    "order_index": 10,
-    "unit_overview": {
-      "objective": "Parler de ses relations personnelles et écrire un message informel.",
-      "outcomes": [
-        "décrire une relation d’amitié ou de famille",
-        "exprimer un accord ou un désaccord poliment",
-        "utiliser les pronoms relatifs qui, que et où",
-        "écrire un e-mail personnel"
-      ],
-      "grammar": [
-        "pronoms relatifs qui, que, où",
-        "expressions d’accord/désaccord",
-        "présent + passé composé (révision combinée)"
-      ],
-      "vocabulary": [
-        "la meilleure amie",
-        "être d’accord / ne pas être d’accord",
-        "manquer à quelqu’un",
-        "garder contact"
-      ],
-      "scenario": "Camila écrit à Sofía, sa meilleure amie restée à Saint-Domingue, pour lui raconter sa vie et ses nouvelles amitiés."
-    }
-  },
-  {
-    "slug": "services-et-demarches",
-    "target_language": "french",
-    "level": "A2",
-    "title": "Services et démarches",
-    "title_es": "Servicios y trámites",
-    "description": "Comprendre une démarche simple, demander des informations et préparer un dossier.",
-    "order_index": 11,
-    "unit_overview": {
-      "objective": "Demander un service, comprendre des instructions administratives simples et utiliser les pronoms y et en.",
-      "outcomes": [
-        "identifier les étapes d’une démarche",
-        "demander une information à un guichet",
-        "indiquer les documents nécessaires",
-        "remplacer un complément par y ou en"
-      ],
-      "grammar": [
-        "les pronoms y et en",
-        "il faut + infinitif",
-        "les quantités"
-      ],
-      "vocabulary": [
-        "la mairie",
-        "un formulaire",
-        "un dossier",
-        "un justificatif",
-        "un guichet"
-      ],
-      "scenario": "Une habitante prépare son inscription à la médiathèque municipale."
-    }
-  },
-  {
-    "slug": "projets-solidaires",
-    "target_language": "french",
-    "level": "A2",
-    "title": "Projets solidaires",
-    "title_es": "Proyectos solidarios",
-    "description": "Proposer une action collective, inviter des participants et organiser un projet local.",
-    "order_index": 12,
-    "unit_overview": {
-      "objective": "Comprendre et présenter un projet solidaire en utilisant des propositions et des demandes polies.",
-      "outcomes": [
-        "identifier l’objectif d’une action collective",
-        "proposer une activité",
-        "accepter ou refuser poliment",
-        "répartir des tâches simples"
-      ],
-      "grammar": [
-        "le conditionnel de politesse",
-        "on pourrait + infinitif",
-        "le futur proche"
-      ],
-      "vocabulary": [
-        "une collecte",
-        "un bénévole",
-        "faire un don",
-        "distribuer",
-        "participer"
-      ],
-      "scenario": "Une association de quartier organise une collecte solidaire."
-    }
-  },
-  {
-    "slug": "hola-mucho-gusto",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "¡Hola! Mucho gusto",
-    "title_es": "",
-    "description": "Saludos, despedidas, presentarse y el alfabeto.",
-    "order_index": 1,
-    "unit_overview": {
-      "objective": "Presentarte, saludar y conocer a otras personas.",
-      "outcomes": [
-        "decir tu nombre",
-        "preguntar el nombre de otra persona",
-        "usar saludos formales e informales",
-        "deletrear información básica"
-      ],
-      "grammar": [
-        "verbo to be",
-        "subject pronouns",
-        "basic questions"
-      ],
-      "vocabulary": [
-        "greetings",
-        "names",
-        "classroom expressions",
-        "numbers 0–20"
-      ],
-      "scenario": "Tu primer día en una clase de inglés."
-    }
-  },
-  {
-    "slug": "informacion-personal",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "Información personal",
-    "title_es": "",
-    "description": "Edad, nacionalidad, procedencia y datos de contacto.",
-    "order_index": 2,
-    "unit_overview": null
-  },
-  {
-    "slug": "mi-familia-y-mis-amigos",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "Mi familia y mis amigos",
-    "title_es": "",
-    "description": "Miembros de la familia, posesivos y describir personas.",
-    "order_index": 3,
-    "unit_overview": null
-  },
-  {
-    "slug": "mi-rutina-diaria",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "Mi rutina diaria",
-    "title_es": "",
-    "description": "Actividades cotidianas, la hora y el presente de indicativo.",
-    "order_index": 4,
-    "unit_overview": null
-  },
-  {
-    "slug": "mi-casa",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "Mi casa",
-    "title_es": "",
-    "description": "Habitaciones, muebles y describir una vivienda.",
-    "order_index": 5,
-    "unit_overview": null
-  },
-  {
-    "slug": "mi-barrio-y-mi-ciudad",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "Mi barrio y mi ciudad",
-    "title_es": "",
-    "description": "Lugares de la ciudad, direcciones y transporte.",
-    "order_index": 6,
-    "unit_overview": null
-  },
-  {
-    "slug": "comida-y-bebida",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "Comida y bebida",
-    "title_es": "",
-    "description": "Alimentos, pedir comida y expresar gustos.",
-    "order_index": 7,
-    "unit_overview": null
-  },
-  {
-    "slug": "de-compras",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "De compras",
-    "title_es": "",
-    "description": "Ropa, colores, tallas y precios.",
-    "order_index": 8,
-    "unit_overview": null
-  },
-  {
-    "slug": "estudios-y-trabajo",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "Estudios y trabajo",
-    "title_es": "",
-    "description": "Estudios, profesiones y responsabilidades sencillas.",
-    "order_index": 9,
-    "unit_overview": null
-  },
-  {
-    "slug": "tiempo-libre",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "Tiempo libre",
-    "title_es": "",
-    "description": "Pasatiempos, preferencias e invitaciones.",
-    "order_index": 10,
-    "unit_overview": null
-  },
-  {
-    "slug": "salud-y-bienestar-a1",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "No me siento bien",
-    "title_es": "",
-    "description": "Partes del cuerpo, malestares frecuentes y cómo pedir ayuda en una farmacia.",
-    "order_index": 11,
-    "unit_overview": {
-      "objective": "Expresar cómo te sientes, decir qué te duele y pedir ayuda de forma sencilla.",
-      "outcomes": [
-        "nombrar partes básicas del cuerpo",
-        "expresar un dolor o un malestar",
-        "preguntar a otra persona qué le duele",
-        "comprender recomendaciones sencillas"
-      ],
-      "grammar": [
-        "me duele + singular",
-        "me duelen + plural",
-        "tener + síntoma",
-        "estar + estado"
-      ],
-      "vocabulary": [
-        "partes del cuerpo",
-        "síntomas frecuentes",
-        "la farmacia",
-        "recomendaciones básicas"
-      ],
-      "scenario": "No te sientes bien y explicas tus síntomas en una farmacia."
-    }
-  },
-  {
-    "slug": "planes-y-repaso",
-    "target_language": "spanish",
-    "level": "A1",
-    "title": "Planes y repaso",
-    "title_es": "",
-    "description": "Planes inmediatos, fechas, el clima y repaso general de A1.",
-    "order_index": 12,
-    "unit_overview": null
-  },
-  {
     "slug": "neuroplasticite-adulte",
     "target_language": "french",
     "level": "C2",
@@ -2864,307 +2200,6 @@
         "stakeholder"
       ],
       "scenario": "An evidence-led reading on community action and local change, examining competing claims, consequences and possible responses."
-    }
-  },
-  {
-    "slug": "projets-et-avenir",
-    "target_language": "french",
-    "level": "B1",
-    "title": "Projets et avenir",
-    "title_es": "Proyectos y futuro",
-    "description": "Camila réfléchit à son avenir et discute de ses projets avec Léa et Karim.",
-    "order_index": 1,
-    "unit_overview": {
-      "objective": "Exprimer un projet, formuler une hypothèse et justifier un choix.",
-      "outcomes": [
-        "parler de projets avec le futur simple",
-        "exprimer une hypothèse avec si + présent",
-        "donner son opinion et la justifier",
-        "comparer deux options avec nuance"
-      ],
-      "grammar": [
-        "futur simple",
-        "hypothèse avec si + présent",
-        "conditionnel présent (politesse et hypothèse)",
-        "connecteurs d’opinion"
-      ],
-      "vocabulary": [
-        "le projet",
-        "l’avenir",
-        "à mon avis",
-        "d’un côté / de l’autre côté"
-      ],
-      "scenario": "À quelques mois de la fin de son année d’échange, Camila doit décider si elle prolonge son séjour en France."
-    }
-  },
-  {
-    "slug": "identite-et-parcours-personnel",
-    "target_language": "french",
-    "level": "B1",
-    "title": "Identité et parcours personnel",
-    "title_es": "Identidad y trayectoria personal",
-    "description": "Camila écrit une courte biographie pour un projet scolaire sur son parcours et les changements vécus depuis son arrivée en France.",
-    "order_index": 2,
-    "unit_overview": {
-      "objective": "Raconter son parcours personnel et décrire comment on a changé.",
-      "outcomes": [
-        "raconter une biographie simple",
-        "décrire un changement personnel",
-        "consolider l’usage du passé composé et de l’imparfait",
-        "exprimer une évolution dans le temps"
-      ],
-      "grammar": [
-        "imparfait (introduction)",
-        "contraste passé composé / imparfait",
-        "expressions de temps (avant, maintenant, depuis)"
-      ],
-      "vocabulary": [
-        "le parcours",
-        "changer",
-        "grandir",
-        "devenir"
-      ],
-      "scenario": "Pour un projet scolaire, Camila écrit une courte biographie sur son parcours et sur la façon dont elle a changé depuis son arrivée en France."
-    }
-  },
-  {
-    "slug": "etudes-et-apprentissage",
-    "target_language": "french",
-    "level": "B1",
-    "title": "Études et apprentissage",
-    "title_es": "Estudios y aprendizaje",
-    "description": "Camila partage ses stratégies pour apprendre le français et discute de ses difficultés scolaires avec Karim.",
-    "order_index": 3,
-    "unit_overview": {
-      "objective": "Parler de stratégies d’apprentissage et exprimer des difficultés et des progrès scolaires.",
-      "outcomes": [
-        "décrire des stratégies d’apprentissage",
-        "exprimer une difficulté et un progrès",
-        "donner un conseil académique",
-        "utiliser le conditionnel présent pour suggérer"
-      ],
-      "grammar": [
-        "conditionnel présent (suggestion)",
-        "expressions de difficulté et de progrès",
-        "gérondif introductoire (en + participe présent)"
-      ],
-      "vocabulary": [
-        "réviser",
-        "progresser",
-        "une difficulté",
-        "un conseil"
-      ],
-      "scenario": "Camila a un examen de mathématiques important et demande des conseils d’étude à Karim."
-    }
-  },
-  {
-    "slug": "monde-du-travail",
-    "target_language": "french",
-    "level": "B1",
-    "title": "Monde du travail",
-    "title_es": "El mundo laboral",
-    "description": "Karim prépare un entretien pour un stage d’été et demande à Camila de l’aider à s’entraîner.",
-    "order_index": 4,
-    "unit_overview": {
-      "objective": "Comprendre et simuler un entretien d’embauche, écrire un e-mail formel.",
-      "outcomes": [
-        "parler de professions et de compétences",
-        "simuler un entretien d’embauche",
-        "écrire un e-mail formel",
-        "utiliser le conditionnel de politesse dans un contexte professionnel"
-      ],
-      "grammar": [
-        "conditionnel de politesse (révision approfondie)",
-        "vocabulaire formel vs informel",
-        "structure d’un e-mail formel"
-      ],
-      "vocabulary": [
-        "le CV",
-        "un entretien d’embauche",
-        "les compétences",
-        "postuler"
-      ],
-      "scenario": "Karim a un entretien pour un stage d’été dans une bibliothèque et demande à Camila de l’aider à se préparer."
-    }
-  },
-  {
-    "slug": "voyages-et-interculturalite",
-    "target_language": "french",
-    "level": "B1",
-    "title": "Voyages et interculturalité",
-    "title_es": "Viajes e interculturalidad",
-    "description": "Camila compare les habitudes culturelles françaises et dominicaines lors d’un exposé pour sa classe.",
-    "order_index": 5,
-    "unit_overview": {
-      "objective": "Comparer des habitudes culturelles et raconter une expérience interculturelle.",
-      "outcomes": [
-        "comparer deux cultures",
-        "décrire un choc culturel",
-        "raconter une expérience de voyage marquante",
-        "exprimer une opinion sur d’autres pays avec nuance"
-      ],
-      "grammar": [
-        "comparaison avancée",
-        "connecteurs d’opposition (alors que, tandis que)",
-        "discours rapporté simple"
-      ],
-      "vocabulary": [
-        "une habitude culturelle",
-        "un choc culturel",
-        "ce qui m’a surpris",
-        "tandis que"
-      ],
-      "scenario": "Camila prépare un exposé pour sa classe sur les différences culturelles entre la France et la République dominicaine."
-    }
-  },
-  {
-    "slug": "technologie-et-societe",
-    "target_language": "french",
-    "level": "B1",
-    "title": "Technologie et société",
-    "title_es": "Tecnología y sociedad",
-    "description": "La classe de Camila débat des avantages et des risques des réseaux sociaux chez les jeunes.",
-    "order_index": 6,
-    "unit_overview": {
-      "objective": "Argumenter sur les avantages et les risques de la technologie de façon simple.",
-      "outcomes": [
-        "présenter des avantages et des inconvénients",
-        "exprimer un accord/désaccord nuancé",
-        "utiliser des connecteurs d’argumentation",
-        "comprendre un débat simple"
-      ],
-      "grammar": [
-        "connecteurs d’argumentation (d’une part/d’autre part, cependant)",
-        "expression de l’opinion nuancée",
-        "subjonctif présent introductorio (il est important que)"
-      ],
-      "vocabulary": [
-        "un avantage / un inconvénient",
-        "dépendre de",
-        "un risque",
-        "la vie privée"
-      ],
-      "scenario": "En cours d’éducation civique, la classe de Camila débat de l’impact des réseaux sociaux sur les jeunes."
-    }
-  },
-  {
-    "slug": "sante-et-mode-de-vie",
-    "target_language": "french",
-    "level": "B1",
-    "title": "Santé et mode de vie",
-    "title_es": "Salud y estilo de vida",
-    "description": "Camila remarque qu’elle est souvent stressée avant les examens et cherche des habitudes plus saines avec Madame Lambert.",
-    "order_index": 7,
-    "unit_overview": {
-      "objective": "Parler du stress, des habitudes saines et donner des recommandations de bien-être.",
-      "outcomes": [
-        "décrire le stress et ses causes",
-        "proposer des habitudes de vie saines",
-        "donner des recommandations avec le subjonctif",
-        "comprendre un conseil médical simple"
-      ],
-      "grammar": [
-        "subjonctif présent (recommandations)",
-        "expressions liées au bien-être",
-        "impératif (révision, conseils)"
-      ],
-      "vocabulary": [
-        "le stress",
-        "se détendre",
-        "une habitude saine",
-        "l’activité physique"
-      ],
-      "scenario": "À l’approche des examens de fin d’année, Camila se sent de plus en plus stressée et en parle avec Madame Lambert."
-    }
-  },
-  {
-    "slug": "environnement-et-consommation",
-    "target_language": "french",
-    "level": "B1",
-    "title": "Environnement et consommation",
-    "title_es": "Medioambiente y consumo",
-    "description": "La classe de Camila organise un projet de réduction des déchets pour protéger l’environnement.",
-    "order_index": 8,
-    "unit_overview": {
-      "objective": "Discuter de problèmes environnementaux et proposer des solutions concrètes.",
-      "outcomes": [
-        "parler des problèmes environnementaux",
-        "proposer des solutions et des projets écologiques",
-        "exprimer la cause et la conséquence",
-        "utiliser il faut que pour proposer une action collective"
-      ],
-      "grammar": [
-        "cause et conséquence (parce que, donc, c’est pourquoi)",
-        "subjonctif (proposition d’action)",
-        "quantificateurs (trop de, moins de)"
-      ],
-      "vocabulary": [
-        "le recyclage",
-        "les déchets",
-        "l’environnement",
-        "réduire"
-      ],
-      "scenario": "La classe de Camila organise un projet écologique pour réduire les déchets au lycée."
-    }
-  },
-  {
-    "slug": "medias-et-information",
-    "target_language": "french",
-    "level": "B1",
-    "title": "Médias et information",
-    "title_es": "Medios e información",
-    "description": "La classe de Camila apprend à distinguer une information fiable d’une fausse nouvelle sur internet.",
-    "order_index": 9,
-    "unit_overview": {
-      "objective": "Distinguer une source fiable d’une désinformation et exprimer une opinion sur une information.",
-      "outcomes": [
-        "identifier une source d’information fiable",
-        "exprimer un doute ou une certitude",
-        "reformuler une information au discours indirect",
-        "donner son opinion sur une nouvelle"
-      ],
-      "grammar": [
-        "discours indirect simple (il a dit que)",
-        "expression du doute et de la certitude",
-        "connecteurs d’explication (c’est-à-dire, en effet)"
-      ],
-      "vocabulary": [
-        "une source fiable",
-        "une fausse nouvelle",
-        "vérifier",
-        "douter de"
-      ],
-      "scenario": "En cours de français, la classe de Camila analyse un article partagé sur les réseaux sociaux pour vérifier s’il est fiable."
-    }
-  },
-  {
-    "slug": "relations-et-conflits",
-    "target_language": "french",
-    "level": "B1",
-    "title": "Relations et conflits",
-    "title_es": "Relaciones y conflictos",
-    "description": "Camila et Léa ont leur premier vrai désaccord depuis l’arrivée de Camila, et apprennent à le résoudre calmement.",
-    "order_index": 10,
-    "unit_overview": {
-      "objective": "Exprimer un désaccord, une émotion, et négocier une solution à un conflit.",
-      "outcomes": [
-        "exprimer une émotion avec précision",
-        "exposer un désaccord respectueusement",
-        "négocier une solution à un petit conflit",
-        "utiliser le subjonctif après des expressions d’émotion"
-      ],
-      "grammar": [
-        "subjonctif après les expressions d’émotion (je suis triste que, ça me dérange que)",
-        "expressions de négociation",
-        "connecteurs de concession (même si)"
-      ],
-      "vocabulary": [
-        "un désaccord",
-        "se sentir blessé(e)",
-        "trouver un compromis",
-        "se réconcilier"
-      ],
-      "scenario": "Camila et Léa se disputent pour la première fois à propos d’un projet scolaire commun, et doivent apprendre à résoudre le conflit."
     }
   },
   {
@@ -5666,5 +4701,970 @@
       ],
       "scenario": "Seguir la historia de una idea que se vuelve organización mundial"
     }
+  },
+  {
+    "slug": "bonjour-et-bienvenue",
+    "target_language": "french",
+    "level": "A1",
+    "title": "Bonjour et bienvenue",
+    "title_es": "Hola y bienvenida",
+    "description": "Salutations, présentations et l'alphabet, avec Camila à son premier jour à Tours.",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "Se présenter, saluer et rencontrer d'autres personnes.",
+      "outcomes": [
+        "dire ton nom",
+        "demander le nom de quelqu'un d'autre",
+        "utiliser des salutations formelles et informelles",
+        "épeler des informations de base"
+      ],
+      "grammar": [
+        "verbe être",
+        "pronoms sujets",
+        "questions de base"
+      ],
+      "vocabulary": [
+        "salutations",
+        "noms",
+        "expressions de classe",
+        "nombres 0–20"
+      ],
+      "scenario": "Ton premier jour dans un cours de français."
+    }
+  },
+  {
+    "slug": "je-me-presente",
+    "target_language": "french",
+    "level": "A1",
+    "title": "Je me présente",
+    "title_es": "Me presento",
+    "description": "Âge, nationalité et centres d'intérêt : Camila et ses camarades se présentent.",
+    "order_index": 2,
+    "unit_overview": null
+  },
+  {
+    "slug": "ma-famille-et-mes-amis",
+    "target_language": "french",
+    "level": "A1",
+    "title": "Ma famille et mes amis",
+    "title_es": "Mi familia y mis amigos",
+    "description": "Camila présente sa famille de Saint-Domingue et sa famille d'accueil à Tours.",
+    "order_index": 3,
+    "unit_overview": null
+  },
+  {
+    "slug": "a-l-ecole",
+    "target_language": "french",
+    "level": "A1",
+    "title": "À l'école",
+    "title_es": "En la escuela",
+    "description": "Karim fait visiter le collège de Tours à Camila.",
+    "order_index": 4,
+    "unit_overview": null
+  },
+  {
+    "slug": "ma-journee",
+    "target_language": "french",
+    "level": "A1",
+    "title": "Ma journée",
+    "title_es": "Mi día",
+    "description": "La routine quotidienne de Camila chez la famille Lambert.",
+    "order_index": 5,
+    "unit_overview": null
+  },
+  {
+    "slug": "l-heure-et-les-dates",
+    "target_language": "french",
+    "level": "A1",
+    "title": "L'heure et les dates",
+    "title_es": "La hora y las fechas",
+    "description": "Camila et Karim organisent une fête surprise pour l'anniversaire de Léa.",
+    "order_index": 6,
+    "unit_overview": null
+  },
+  {
+    "slug": "a-table",
+    "target_language": "french",
+    "level": "A1",
+    "title": "À table",
+    "title_es": "A la mesa",
+    "description": "Camila découvre les repas en famille et la nourriture française.",
+    "order_index": 7,
+    "unit_overview": null
+  },
+  {
+    "slug": "chez-moi",
+    "target_language": "french",
+    "level": "A1",
+    "title": "Chez moi",
+    "title_es": "En mi casa",
+    "description": "Camila décrit sa chambre chez la famille Lambert.",
+    "order_index": 8,
+    "unit_overview": null
+  },
+  {
+    "slug": "dans-ma-ville",
+    "target_language": "french",
+    "level": "A1",
+    "title": "Dans ma ville",
+    "title_es": "En mi ciudad",
+    "description": "Camila et Léa se promènent dans Tours et demandent leur chemin.",
+    "order_index": 9,
+    "unit_overview": null
+  },
+  {
+    "slug": "mes-loisirs",
+    "target_language": "french",
+    "level": "A1",
+    "title": "Mes loisirs",
+    "title_es": "Mis pasatiempos",
+    "description": "Camila, Léa et Karim partagent leurs loisirs le week-end.",
+    "order_index": 10,
+    "unit_overview": null
+  },
+  {
+    "slug": "les-vetements-et-les-achats",
+    "target_language": "french",
+    "level": "A1",
+    "title": "Les vêtements et les achats",
+    "title_es": "La ropa y las compras",
+    "description": "Léa et Camila font du shopping dans le centre-ville de Tours.",
+    "order_index": 11,
+    "unit_overview": null
+  },
+  {
+    "slug": "la-meteo-et-les-voyages",
+    "target_language": "french",
+    "level": "A1",
+    "title": "La météo et les voyages",
+    "title_es": "El clima y los viajes",
+    "description": "Camila prépare un voyage à Paris avec la famille Lambert.",
+    "order_index": 12,
+    "unit_overview": null
+  },
+  {
+    "slug": "les-achats",
+    "target_language": "french",
+    "level": "A2",
+    "title": "Les achats",
+    "title_es": "Las compras",
+    "description": "Camila et Léa font des courses au marché et achètent des vêtements en ville.",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "Demander un prix, comparer deux articles et payer dans un magasin.",
+      "outcomes": [
+        "demander le prix d’un produit",
+        "comparer deux articles avec plus/moins/aussi... que",
+        "utiliser le passé composé pour raconter un achat",
+        "remplacer un nom par le/la/les"
+      ],
+      "grammar": [
+        "passé composé avec avoir",
+        "comparatifs",
+        "pronoms d’objet direct"
+      ],
+      "vocabulary": [
+        "le marché",
+        "la taille",
+        "la caisse",
+        "le reçu",
+        "échanger"
+      ],
+      "scenario": "Camila accompagne Léa faire des courses un samedi matin."
+    }
+  },
+  {
+    "slug": "au-restaurant",
+    "target_language": "french",
+    "level": "A2",
+    "title": "Au restaurant",
+    "title_es": "En el restaurante",
+    "description": "La famille Lambert fête l’anniversaire de Léa au restaurant et Camila apprend à commander et à réclamer poliment.",
+    "order_index": 2,
+    "unit_overview": {
+      "objective": "Réserver une table, commander un repas et exprimer poliment une préférence ou une plainte.",
+      "outcomes": [
+        "réserver une table par téléphone",
+        "commander un repas et poser des questions sur un plat",
+        "exprimer une obligation avec devoir/il faut",
+        "faire une réclamation polie avec « pourriez-vous »"
+      ],
+      "grammar": [
+        "vouloir/pouvoir au conditionnel de politesse",
+        "devoir et il faut",
+        "négations ne... jamais/plus/rien"
+      ],
+      "vocabulary": [
+        "réserver une table",
+        "la carte",
+        "l’addition",
+        "pourriez-vous..."
+      ],
+      "scenario": "La famille Lambert fête l’anniversaire de Léa dans un restaurant du centre-ville."
+    }
+  },
+  {
+    "slug": "se-deplacer",
+    "target_language": "french",
+    "level": "A2",
+    "title": "Se déplacer",
+    "title_es": "Desplazarse",
+    "description": "Camila apprend à prendre le bus et à demander son chemin dans Tours.",
+    "order_index": 3,
+    "unit_overview": {
+      "objective": "Demander et comprendre un itinéraire, utiliser les transports en commun.",
+      "outcomes": [
+        "demander son chemin",
+        "comprendre des indications simples",
+        "acheter un ticket de bus",
+        "utiliser l’impératif pour donner une indication"
+      ],
+      "grammar": [
+        "impératif",
+        "prépositions de lieu",
+        "futur proche (révision)"
+      ],
+      "vocabulary": [
+        "l’arrêt de bus",
+        "tout droit",
+        "tournez à gauche/à droite",
+        "le ticket"
+      ],
+      "scenario": "Camila doit se rendre seule chez Karim pour la première fois."
+    }
+  },
+  {
+    "slug": "la-sante",
+    "target_language": "french",
+    "level": "A2",
+    "title": "La santé",
+    "title_es": "La salud",
+    "description": "Camila ne se sent pas bien et va consulter un médecin avec Madame Lambert.",
+    "order_index": 4,
+    "unit_overview": {
+      "objective": "Décrire des symptômes simples et comprendre les conseils d’un médecin.",
+      "outcomes": [
+        "décrire un symptôme",
+        "prendre rendez-vous chez le médecin",
+        "comprendre des conseils de santé",
+        "utiliser les verbes pronominaux liés au corps"
+      ],
+      "grammar": [
+        "verbes pronominaux",
+        "avoir mal à...",
+        "devoir + infinitif"
+      ],
+      "vocabulary": [
+        "avoir mal à la tête/gorge",
+        "la fièvre",
+        "le rendez-vous médical",
+        "le médicament"
+      ],
+      "scenario": "Camila se sent fatiguée et a mal à la gorge depuis deux jours."
+    }
+  },
+  {
+    "slug": "la-vie-quotidienne",
+    "target_language": "french",
+    "level": "A2",
+    "title": "La vie quotidienne",
+    "title_es": "La vida cotidiana",
+    "description": "Camila décrit sa routine chez les Lambert, ses horaires et l’organisation de sa semaine.",
+    "order_index": 5,
+    "unit_overview": {
+      "objective": "Décrire une routine détaillée avec des horaires et des adverbes de fréquence.",
+      "outcomes": [
+        "décrire une routine avec précision",
+        "utiliser les adverbes de fréquence",
+        "utiliser les verbes pronominaux du quotidien",
+        "organiser un récit avec des connecteurs temporels"
+      ],
+      "grammar": [
+        "verbes pronominaux",
+        "adverbes de fréquence",
+        "prépositions de temps"
+      ],
+      "vocabulary": [
+        "se réveiller",
+        "toujours / souvent / parfois / jamais",
+        "l’emploi du temps",
+        "d’habitude"
+      ],
+      "scenario": "Camila explique sa nouvelle routine à sa mère, par appel vidéo depuis Tours."
+    }
+  },
+  {
+    "slug": "les-experiences-passees",
+    "target_language": "french",
+    "level": "A2",
+    "title": "Les expériences passées",
+    "title_es": "Las experiencias pasadas",
+    "description": "Camila raconte son premier mois en France et les expériences marquantes qu’elle a vécues.",
+    "order_index": 6,
+    "unit_overview": {
+      "objective": "Raconter des expériences passées avec le passé composé (avoir et être).",
+      "outcomes": [
+        "utiliser le passé composé avec avoir",
+        "utiliser le passé composé avec être",
+        "reconnaître les participes passés fréquents",
+        "faire l’accord du participe passé avec être"
+      ],
+      "grammar": [
+        "passé composé avec avoir",
+        "passé composé avec être",
+        "accord du participe passé avec être"
+      ],
+      "vocabulary": [
+        "une expérience",
+        "inoubliable",
+        "la première fois",
+        "se souvenir de"
+      ],
+      "scenario": "Camila écrit dans son journal les expériences les plus marquantes de son premier mois en France."
+    }
+  },
+  {
+    "slug": "les-voyages-et-les-vacances",
+    "target_language": "french",
+    "level": "A2",
+    "title": "Les voyages et les vacances",
+    "title_es": "Los viajes y las vacaciones",
+    "description": "Camila et la famille Lambert préparent leurs vacances de printemps et réservent un hôtel.",
+    "order_index": 7,
+    "unit_overview": {
+      "objective": "Organiser un voyage, réserver un hôtel et raconter une expérience de voyage.",
+      "outcomes": [
+        "réserver une chambre d’hôtel",
+        "parler de transport et de destinations",
+        "décrire une expérience de voyage",
+        "utiliser le futur proche pour planifier"
+      ],
+      "grammar": [
+        "futur proche",
+        "prépositions de lieu (à, en, au)",
+        "passé composé (révision)"
+      ],
+      "vocabulary": [
+        "réserver une chambre",
+        "la destination",
+        "faire les valises",
+        "un séjour"
+      ],
+      "scenario": "La famille Lambert prépare un voyage de printemps dans le sud de la France."
+    }
+  },
+  {
+    "slug": "le-logement",
+    "target_language": "french",
+    "level": "A2",
+    "title": "Le logement",
+    "title_es": "La vivienda",
+    "description": "Karim aide Camila à comprendre comment on cherche un appartement en France, pour un projet d’école.",
+    "order_index": 8,
+    "unit_overview": {
+      "objective": "Décrire un logement, comparer deux appartements et comprendre une annonce immobilière.",
+      "outcomes": [
+        "décrire les pièces d’un logement",
+        "comparer deux logements",
+        "comprendre une petite annonce immobilière",
+        "parler des meubles et des services d’un appartement"
+      ],
+      "grammar": [
+        "comparatifs (révision)",
+        "il y a / il n’y a pas de",
+        "prépositions de lieu dans la maison"
+      ],
+      "vocabulary": [
+        "la chambre",
+        "le loyer",
+        "meublé",
+        "le quartier"
+      ],
+      "scenario": "Pour un projet d’école, Camila et Karim comparent deux annonces d’appartements à louer à Tours."
+    }
+  },
+  {
+    "slug": "les-loisirs-et-les-medias",
+    "target_language": "french",
+    "level": "A2",
+    "title": "Les loisirs et les médias",
+    "title_es": "El ocio y los medios",
+    "description": "Camila, Léa et Karim discutent de leurs films, séries et réseaux sociaux préférés.",
+    "order_index": 9,
+    "unit_overview": {
+      "objective": "Exprimer une préférence culturelle et discuter d’un film ou d’une série.",
+      "outcomes": [
+        "parler de ses loisirs préférés",
+        "donner son opinion sur un film ou une série",
+        "comparer deux préférences",
+        "parler des réseaux sociaux de façon simple"
+      ],
+      "grammar": [
+        "pronoms toniques (moi, toi, lui...)",
+        "expression de préférence (préférer, aimer mieux)",
+        "négation ne... rien / ne... personne"
+      ],
+      "vocabulary": [
+        "un film",
+        "une série",
+        "les réseaux sociaux",
+        "à mon avis"
+      ],
+      "scenario": "Un vendredi soir, Camila, Léa et Karim débattent de quel film regarder ensemble."
+    }
+  },
+  {
+    "slug": "relations-et-communication",
+    "target_language": "french",
+    "level": "A2",
+    "title": "Relations et communication",
+    "title_es": "Relaciones y comunicación",
+    "description": "Camila écrit un e-mail à sa meilleure amie de Saint-Domingue pour lui raconter sa vie en France.",
+    "order_index": 10,
+    "unit_overview": {
+      "objective": "Parler de ses relations personnelles et écrire un message informel.",
+      "outcomes": [
+        "décrire une relation d’amitié ou de famille",
+        "exprimer un accord ou un désaccord poliment",
+        "utiliser les pronoms relatifs qui, que et où",
+        "écrire un e-mail personnel"
+      ],
+      "grammar": [
+        "pronoms relatifs qui, que, où",
+        "expressions d’accord/désaccord",
+        "présent + passé composé (révision combinée)"
+      ],
+      "vocabulary": [
+        "la meilleure amie",
+        "être d’accord / ne pas être d’accord",
+        "manquer à quelqu’un",
+        "garder contact"
+      ],
+      "scenario": "Camila écrit à Sofía, sa meilleure amie restée à Saint-Domingue, pour lui raconter sa vie et ses nouvelles amitiés."
+    }
+  },
+  {
+    "slug": "services-et-demarches",
+    "target_language": "french",
+    "level": "A2",
+    "title": "Services et démarches",
+    "title_es": "Servicios y trámites",
+    "description": "Comprendre une démarche simple, demander des informations et préparer un dossier.",
+    "order_index": 11,
+    "unit_overview": {
+      "objective": "Demander un service, comprendre des instructions administratives simples et utiliser les pronoms y et en.",
+      "outcomes": [
+        "identifier les étapes d’une démarche",
+        "demander une information à un guichet",
+        "indiquer les documents nécessaires",
+        "remplacer un complément par y ou en"
+      ],
+      "grammar": [
+        "les pronoms y et en",
+        "il faut + infinitif",
+        "les quantités"
+      ],
+      "vocabulary": [
+        "la mairie",
+        "un formulaire",
+        "un dossier",
+        "un justificatif",
+        "un guichet"
+      ],
+      "scenario": "Une habitante prépare son inscription à la médiathèque municipale."
+    }
+  },
+  {
+    "slug": "projets-solidaires",
+    "target_language": "french",
+    "level": "A2",
+    "title": "Projets solidaires",
+    "title_es": "Proyectos solidarios",
+    "description": "Proposer une action collective, inviter des participants et organiser un projet local.",
+    "order_index": 12,
+    "unit_overview": {
+      "objective": "Comprendre et présenter un projet solidaire en utilisant des propositions et des demandes polies.",
+      "outcomes": [
+        "identifier l’objectif d’une action collective",
+        "proposer une activité",
+        "accepter ou refuser poliment",
+        "répartir des tâches simples"
+      ],
+      "grammar": [
+        "le conditionnel de politesse",
+        "on pourrait + infinitif",
+        "le futur proche"
+      ],
+      "vocabulary": [
+        "une collecte",
+        "un bénévole",
+        "faire un don",
+        "distribuer",
+        "participer"
+      ],
+      "scenario": "Une association de quartier organise une collecte solidaire."
+    }
+  },
+  {
+    "slug": "projets-et-avenir",
+    "target_language": "french",
+    "level": "B1",
+    "title": "Projets et avenir",
+    "title_es": "Proyectos y futuro",
+    "description": "Camila réfléchit à son avenir et discute de ses projets avec Léa et Karim.",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "Exprimer un projet, formuler une hypothèse et justifier un choix.",
+      "outcomes": [
+        "parler de projets avec le futur simple",
+        "exprimer une hypothèse avec si + présent",
+        "donner son opinion et la justifier",
+        "comparer deux options avec nuance"
+      ],
+      "grammar": [
+        "futur simple",
+        "hypothèse avec si + présent",
+        "conditionnel présent (politesse et hypothèse)",
+        "connecteurs d’opinion"
+      ],
+      "vocabulary": [
+        "le projet",
+        "l’avenir",
+        "à mon avis",
+        "d’un côté / de l’autre côté"
+      ],
+      "scenario": "À quelques mois de la fin de son année d’échange, Camila doit décider si elle prolonge son séjour en France."
+    }
+  },
+  {
+    "slug": "identite-et-parcours-personnel",
+    "target_language": "french",
+    "level": "B1",
+    "title": "Identité et parcours personnel",
+    "title_es": "Identidad y trayectoria personal",
+    "description": "Camila écrit une courte biographie pour un projet scolaire sur son parcours et les changements vécus depuis son arrivée en France.",
+    "order_index": 2,
+    "unit_overview": {
+      "objective": "Raconter son parcours personnel et décrire comment on a changé.",
+      "outcomes": [
+        "raconter une biographie simple",
+        "décrire un changement personnel",
+        "consolider l’usage du passé composé et de l’imparfait",
+        "exprimer une évolution dans le temps"
+      ],
+      "grammar": [
+        "imparfait (introduction)",
+        "contraste passé composé / imparfait",
+        "expressions de temps (avant, maintenant, depuis)"
+      ],
+      "vocabulary": [
+        "le parcours",
+        "changer",
+        "grandir",
+        "devenir"
+      ],
+      "scenario": "Pour un projet scolaire, Camila écrit une courte biographie sur son parcours et sur la façon dont elle a changé depuis son arrivée en France."
+    }
+  },
+  {
+    "slug": "etudes-et-apprentissage",
+    "target_language": "french",
+    "level": "B1",
+    "title": "Études et apprentissage",
+    "title_es": "Estudios y aprendizaje",
+    "description": "Camila partage ses stratégies pour apprendre le français et discute de ses difficultés scolaires avec Karim.",
+    "order_index": 3,
+    "unit_overview": {
+      "objective": "Parler de stratégies d’apprentissage et exprimer des difficultés et des progrès scolaires.",
+      "outcomes": [
+        "décrire des stratégies d’apprentissage",
+        "exprimer une difficulté et un progrès",
+        "donner un conseil académique",
+        "utiliser le conditionnel présent pour suggérer"
+      ],
+      "grammar": [
+        "conditionnel présent (suggestion)",
+        "expressions de difficulté et de progrès",
+        "gérondif introductoire (en + participe présent)"
+      ],
+      "vocabulary": [
+        "réviser",
+        "progresser",
+        "une difficulté",
+        "un conseil"
+      ],
+      "scenario": "Camila a un examen de mathématiques important et demande des conseils d’étude à Karim."
+    }
+  },
+  {
+    "slug": "monde-du-travail",
+    "target_language": "french",
+    "level": "B1",
+    "title": "Monde du travail",
+    "title_es": "El mundo laboral",
+    "description": "Karim prépare un entretien pour un stage d’été et demande à Camila de l’aider à s’entraîner.",
+    "order_index": 4,
+    "unit_overview": {
+      "objective": "Comprendre et simuler un entretien d’embauche, écrire un e-mail formel.",
+      "outcomes": [
+        "parler de professions et de compétences",
+        "simuler un entretien d’embauche",
+        "écrire un e-mail formel",
+        "utiliser le conditionnel de politesse dans un contexte professionnel"
+      ],
+      "grammar": [
+        "conditionnel de politesse (révision approfondie)",
+        "vocabulaire formel vs informel",
+        "structure d’un e-mail formel"
+      ],
+      "vocabulary": [
+        "le CV",
+        "un entretien d’embauche",
+        "les compétences",
+        "postuler"
+      ],
+      "scenario": "Karim a un entretien pour un stage d’été dans une bibliothèque et demande à Camila de l’aider à se préparer."
+    }
+  },
+  {
+    "slug": "voyages-et-interculturalite",
+    "target_language": "french",
+    "level": "B1",
+    "title": "Voyages et interculturalité",
+    "title_es": "Viajes e interculturalidad",
+    "description": "Camila compare les habitudes culturelles françaises et dominicaines lors d’un exposé pour sa classe.",
+    "order_index": 5,
+    "unit_overview": {
+      "objective": "Comparer des habitudes culturelles et raconter une expérience interculturelle.",
+      "outcomes": [
+        "comparer deux cultures",
+        "décrire un choc culturel",
+        "raconter une expérience de voyage marquante",
+        "exprimer une opinion sur d’autres pays avec nuance"
+      ],
+      "grammar": [
+        "comparaison avancée",
+        "connecteurs d’opposition (alors que, tandis que)",
+        "discours rapporté simple"
+      ],
+      "vocabulary": [
+        "une habitude culturelle",
+        "un choc culturel",
+        "ce qui m’a surpris",
+        "tandis que"
+      ],
+      "scenario": "Camila prépare un exposé pour sa classe sur les différences culturelles entre la France et la République dominicaine."
+    }
+  },
+  {
+    "slug": "technologie-et-societe",
+    "target_language": "french",
+    "level": "B1",
+    "title": "Technologie et société",
+    "title_es": "Tecnología y sociedad",
+    "description": "La classe de Camila débat des avantages et des risques des réseaux sociaux chez les jeunes.",
+    "order_index": 6,
+    "unit_overview": {
+      "objective": "Argumenter sur les avantages et les risques de la technologie de façon simple.",
+      "outcomes": [
+        "présenter des avantages et des inconvénients",
+        "exprimer un accord/désaccord nuancé",
+        "utiliser des connecteurs d’argumentation",
+        "comprendre un débat simple"
+      ],
+      "grammar": [
+        "connecteurs d’argumentation (d’une part/d’autre part, cependant)",
+        "expression de l’opinion nuancée",
+        "subjonctif présent introductorio (il est important que)"
+      ],
+      "vocabulary": [
+        "un avantage / un inconvénient",
+        "dépendre de",
+        "un risque",
+        "la vie privée"
+      ],
+      "scenario": "En cours d’éducation civique, la classe de Camila débat de l’impact des réseaux sociaux sur les jeunes."
+    }
+  },
+  {
+    "slug": "sante-et-mode-de-vie",
+    "target_language": "french",
+    "level": "B1",
+    "title": "Santé et mode de vie",
+    "title_es": "Salud y estilo de vida",
+    "description": "Camila remarque qu’elle est souvent stressée avant les examens et cherche des habitudes plus saines avec Madame Lambert.",
+    "order_index": 7,
+    "unit_overview": {
+      "objective": "Parler du stress, des habitudes saines et donner des recommandations de bien-être.",
+      "outcomes": [
+        "décrire le stress et ses causes",
+        "proposer des habitudes de vie saines",
+        "donner des recommandations avec le subjonctif",
+        "comprendre un conseil médical simple"
+      ],
+      "grammar": [
+        "subjonctif présent (recommandations)",
+        "expressions liées au bien-être",
+        "impératif (révision, conseils)"
+      ],
+      "vocabulary": [
+        "le stress",
+        "se détendre",
+        "une habitude saine",
+        "l’activité physique"
+      ],
+      "scenario": "À l’approche des examens de fin d’année, Camila se sent de plus en plus stressée et en parle avec Madame Lambert."
+    }
+  },
+  {
+    "slug": "environnement-et-consommation",
+    "target_language": "french",
+    "level": "B1",
+    "title": "Environnement et consommation",
+    "title_es": "Medioambiente y consumo",
+    "description": "La classe de Camila organise un projet de réduction des déchets pour protéger l’environnement.",
+    "order_index": 8,
+    "unit_overview": {
+      "objective": "Discuter de problèmes environnementaux et proposer des solutions concrètes.",
+      "outcomes": [
+        "parler des problèmes environnementaux",
+        "proposer des solutions et des projets écologiques",
+        "exprimer la cause et la conséquence",
+        "utiliser il faut que pour proposer une action collective"
+      ],
+      "grammar": [
+        "cause et conséquence (parce que, donc, c’est pourquoi)",
+        "subjonctif (proposition d’action)",
+        "quantificateurs (trop de, moins de)"
+      ],
+      "vocabulary": [
+        "le recyclage",
+        "les déchets",
+        "l’environnement",
+        "réduire"
+      ],
+      "scenario": "La classe de Camila organise un projet écologique pour réduire les déchets au lycée."
+    }
+  },
+  {
+    "slug": "medias-et-information",
+    "target_language": "french",
+    "level": "B1",
+    "title": "Médias et information",
+    "title_es": "Medios e información",
+    "description": "La classe de Camila apprend à distinguer une information fiable d’une fausse nouvelle sur internet.",
+    "order_index": 9,
+    "unit_overview": {
+      "objective": "Distinguer une source fiable d’une désinformation et exprimer une opinion sur une information.",
+      "outcomes": [
+        "identifier une source d’information fiable",
+        "exprimer un doute ou une certitude",
+        "reformuler une information au discours indirect",
+        "donner son opinion sur une nouvelle"
+      ],
+      "grammar": [
+        "discours indirect simple (il a dit que)",
+        "expression du doute et de la certitude",
+        "connecteurs d’explication (c’est-à-dire, en effet)"
+      ],
+      "vocabulary": [
+        "une source fiable",
+        "une fausse nouvelle",
+        "vérifier",
+        "douter de"
+      ],
+      "scenario": "En cours de français, la classe de Camila analyse un article partagé sur les réseaux sociaux pour vérifier s’il est fiable."
+    }
+  },
+  {
+    "slug": "relations-et-conflits",
+    "target_language": "french",
+    "level": "B1",
+    "title": "Relations et conflits",
+    "title_es": "Relaciones y conflictos",
+    "description": "Camila et Léa ont leur premier vrai désaccord depuis l’arrivée de Camila, et apprennent à le résoudre calmement.",
+    "order_index": 10,
+    "unit_overview": {
+      "objective": "Exprimer un désaccord, une émotion, et négocier une solution à un conflit.",
+      "outcomes": [
+        "exprimer une émotion avec précision",
+        "exposer un désaccord respectueusement",
+        "négocier une solution à un petit conflit",
+        "utiliser le subjonctif après des expressions d’émotion"
+      ],
+      "grammar": [
+        "subjonctif après les expressions d’émotion (je suis triste que, ça me dérange que)",
+        "expressions de négociation",
+        "connecteurs de concession (même si)"
+      ],
+      "vocabulary": [
+        "un désaccord",
+        "se sentir blessé(e)",
+        "trouver un compromis",
+        "se réconcilier"
+      ],
+      "scenario": "Camila et Léa se disputent pour la première fois à propos d’un projet scolaire commun, et doivent apprendre à résoudre le conflit."
+    }
+  },
+  {
+    "slug": "hola-mucho-gusto",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "¡Hola! Mucho gusto",
+    "title_es": "",
+    "description": "Saludos, despedidas, presentarse y el alfabeto.",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "Presentarte, saludar y conocer a otras personas.",
+      "outcomes": [
+        "decir tu nombre",
+        "preguntar el nombre de otra persona",
+        "usar saludos formales e informales",
+        "deletrear información básica"
+      ],
+      "grammar": [
+        "verbo to be",
+        "subject pronouns",
+        "basic questions"
+      ],
+      "vocabulary": [
+        "greetings",
+        "names",
+        "classroom expressions",
+        "numbers 0–20"
+      ],
+      "scenario": "Tu primer día en una clase de inglés."
+    }
+  },
+  {
+    "slug": "informacion-personal",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "Información personal",
+    "title_es": "",
+    "description": "Edad, nacionalidad, procedencia y datos de contacto.",
+    "order_index": 2,
+    "unit_overview": null
+  },
+  {
+    "slug": "mi-familia-y-mis-amigos",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "Mi familia y mis amigos",
+    "title_es": "",
+    "description": "Miembros de la familia, posesivos y describir personas.",
+    "order_index": 3,
+    "unit_overview": null
+  },
+  {
+    "slug": "mi-rutina-diaria",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "Mi rutina diaria",
+    "title_es": "",
+    "description": "Actividades cotidianas, la hora y el presente de indicativo.",
+    "order_index": 4,
+    "unit_overview": null
+  },
+  {
+    "slug": "mi-casa",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "Mi casa",
+    "title_es": "",
+    "description": "Habitaciones, muebles y describir una vivienda.",
+    "order_index": 5,
+    "unit_overview": null
+  },
+  {
+    "slug": "mi-barrio-y-mi-ciudad",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "Mi barrio y mi ciudad",
+    "title_es": "",
+    "description": "Lugares de la ciudad, direcciones y transporte.",
+    "order_index": 6,
+    "unit_overview": null
+  },
+  {
+    "slug": "comida-y-bebida",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "Comida y bebida",
+    "title_es": "",
+    "description": "Alimentos, pedir comida y expresar gustos.",
+    "order_index": 7,
+    "unit_overview": null
+  },
+  {
+    "slug": "de-compras",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "De compras",
+    "title_es": "",
+    "description": "Ropa, colores, tallas y precios.",
+    "order_index": 8,
+    "unit_overview": null
+  },
+  {
+    "slug": "estudios-y-trabajo",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "Estudios y trabajo",
+    "title_es": "",
+    "description": "Estudios, profesiones y responsabilidades sencillas.",
+    "order_index": 9,
+    "unit_overview": null
+  },
+  {
+    "slug": "tiempo-libre",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "Tiempo libre",
+    "title_es": "",
+    "description": "Pasatiempos, preferencias e invitaciones.",
+    "order_index": 10,
+    "unit_overview": null
+  },
+  {
+    "slug": "salud-y-bienestar-a1",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "No me siento bien",
+    "title_es": "",
+    "description": "Partes del cuerpo, malestares frecuentes y cómo pedir ayuda en una farmacia.",
+    "order_index": 11,
+    "unit_overview": {
+      "objective": "Expresar cómo te sientes, decir qué te duele y pedir ayuda de forma sencilla.",
+      "outcomes": [
+        "nombrar partes básicas del cuerpo",
+        "expresar un dolor o un malestar",
+        "preguntar a otra persona qué le duele",
+        "comprender recomendaciones sencillas"
+      ],
+      "grammar": [
+        "me duele + singular",
+        "me duelen + plural",
+        "tener + síntoma",
+        "estar + estado"
+      ],
+      "vocabulary": [
+        "partes del cuerpo",
+        "síntomas frecuentes",
+        "la farmacia",
+        "recomendaciones básicas"
+      ],
+      "scenario": "No te sientes bien y explicas tus síntomas en una farmacia."
+    }
+  },
+  {
+    "slug": "planes-y-repaso",
+    "target_language": "spanish",
+    "level": "A1",
+    "title": "Planes y repaso",
+    "title_es": "",
+    "description": "Planes inmediatos, fechas, el clima y repaso general de A1.",
+    "order_index": 12,
+    "unit_overview": null
   }
 ]

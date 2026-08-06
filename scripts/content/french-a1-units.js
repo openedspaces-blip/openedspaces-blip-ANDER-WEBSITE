@@ -56,43 +56,43 @@ const units = [
     },
     activities: {
       reading: activity('reading', {
-        title: 'Bienvenue à Tours !',
-        description: "Le premier jour de Camila à l'école, en trois parties.",
+        title: 'Zinédine Zidane, un champion français',
+        description: 'Une courte biographie de Zinédine Zidane, en trois parties.',
         reading: {
-          title: 'Bienvenue à Tours !',
+          title: 'Zinédine Zidane, un champion français',
           illustration: {
             src: '/assets/readings/french/a1/bienvenue-a-tours.webp',
-            alt: 'Camila llega a su nueva escuela en Tours, Francia'
+            alt: 'Zinédine Zidane, footballeur français'
           },
           parts: [
-            "Bonjour ! Je m'appelle Camila. Je viens de Saint-Domingue, en République dominicaine. Aujourd'hui, c'est mon premier jour à l'école, à Tours, en France. Je suis un peu nerveuse, mais je suis très contente. J'habite chez une famille française, la famille Lambert. Le matin, je prends mon sac et je marche vers l'école avec Léa, la fille de la famille. Léa a quinze ans, comme moi. Elle est sympathique et elle parle lentement pour m'aider. Devant l'école, il y a beaucoup d'élèves. Ils parlent, ils rient, et moi, j'observe tout en silence.",
-            "Dans la salle de classe, la professeure s'appelle Madame Dubois. Elle a un grand sourire et une voix calme. Elle dit : « Bonjour, la classe ! Bienvenue ! » et les élèves répondent : « Bonjour, madame ! » Je m'assois à côté d'un garçon sympathique. Il s'appelle Karim. « Salut ! Tu es nouvelle ? » demande-t-il. « Oui, je m'appelle Camila. Je suis dominicaine », je réponds. « Enchanté, Camila ! Bienvenue à Tours », dit Karim avec un grand sourire. Léa est assise juste derrière nous. Elle chuchote : « Ne t'inquiète pas, tout va bien se passer ! »",
-            "Madame Dubois demande à chaque élève d'épeler son prénom avec l'alphabet. J'épelle mon prénom : C-A-M-I-L-A. Karim épelle le sien : K-A-R-I-M. Tout le monde applaudit. À la fin du cours, Léa me dit : « Bravo, Camila ! C'est un bon début. » Je souris. J'ai déjà deux nouveaux amis, Léa et Karim, et j'ai envie d'apprendre encore plus de français. Ce premier jour à Tours restera un très bon souvenir."
+            "Bonjour ! Voici l'histoire de Zinédine Zidane. Il s'appelle Zinédine, mais tout le monde dit « Zizou ». Il vient de Marseille, une grande ville en France. Sa famille vient d'Algérie. Zinédine est né en 1972. Aujourd'hui, il est très célèbre. Il est footballeur et entraîneur. Quand il est jeune, il joue au football dans la rue avec ses amis, dans le quartier de La Castellane, à Marseille. Il est timide, mais sur le terrain, il est déjà très fort. Les gens du quartier disent : « Ce garçon est spécial. »",
+            "À dix-sept ans, Zinédine quitte Marseille pour jouer dans un grand club, à Cannes. Plus tard, il joue pour la France, à la Coupe du Monde. En 1998, la France est championne du monde de football ! Zinédine marque deux buts dans le match final. Toute la France est heureuse. Il dit : « Bonjour à tous, merci pour votre soutien ! » Les journalistes l'appellent un héros national. Il est fier de sa famille et de ses origines.",
+            "Après sa carrière de joueur, Zinédine devient entraîneur. Il travaille en Espagne, avec un grand club, le Real Madrid. Sous sa direction, l'équipe gagne plusieurs titres importants. Zinédine est un exemple pour beaucoup de jeunes en France : un enfant d'un quartier populaire qui devient une légende du sport. Aujourd'hui, son nom reste un symbole de réussite et de travail."
           ],
           questions: [
-            "Comment s'appelle la nouvelle élève ?",
-            'Qui est la professeure ?',
-            'Que font les élèves pour se présenter ?'
+            "Comment s'appelle le champion de cette histoire ?",
+            'De quelle ville vient Zinédine Zidane ?',
+            'Que fait Zidane après sa carrière de joueur ?'
           ],
           ordering: {
             prompt: 'Remets les événements de l\'histoire dans l\'ordre.',
             events: [
-              "Camila arrive devant l'école avec Léa.",
-              'Madame Dubois accueille la classe.',
-              'Camila rencontre Karim et ils se présentent.',
-              'Les élèves épellent leur prénom avec l\'alphabet.'
+              'Zinédine joue au football dans la rue, à Marseille.',
+              'Il quitte Marseille pour jouer à Cannes.',
+              'La France est championne du monde en 1998.',
+              'Zinédine devient entraîneur du Real Madrid.'
             ]
           }
         },
         exercises: [
-          { type: 'mcq', prompt: "Comment s'appelle la professeure ?", options: ['Madame Dubois', 'Madame Lambert', 'Madame Camila', 'Madame Karim'], answer: 0 },
-          { type: 'mcq', prompt: "D'où vient Camila ?", options: ['De France', 'De la République dominicaine', 'Du Maroc', "D'Espagne"], answer: 1 },
-          { type: 'mcq', prompt: 'Qui est Léa ?', options: ['La professeure', 'La fille de la famille Lambert', 'La sœur de Karim', "La directrice de l'école"], answer: 1 },
-          { type: 'mcq', prompt: "Qu'est-ce que les élèves font à la fin du cours ?", options: ['Ils chantent une chanson', 'Ils épellent leur prénom', 'Ils dessinent', 'Ils mangent un gâteau'], answer: 1 },
-          { type: 'mcq', prompt: 'Vrai ou faux : Camila est un peu nerveuse le premier jour.', options: ['Vrai', 'Faux'], answer: 0 },
-          { type: 'mcq', prompt: 'Vrai ou faux : Karim est la professeure de la classe.', options: ['Vrai', 'Faux'], answer: 1 },
-          { type: 'mcq', prompt: 'Vrai ou faux : Camila habite chez la famille de Léa.', options: ['Vrai', 'Faux'], answer: 0 },
-          { type: 'mcq', prompt: 'Choisis le bon mot : Madame Dubois a un grand sourire et une voix ___.', options: ['fâchée', 'calme', 'triste', 'fatiguée'], answer: 1 }
+          { type: 'mcq', prompt: 'Comment appelle-t-on Zinédine Zidane ?', options: ['Zizou', 'Zizo', 'Zidou', 'Zizi'], answer: 0 },
+          { type: 'mcq', prompt: "D'où vient la famille de Zinédine Zidane ?", options: ['De France', "D'Algérie", 'Du Maroc', "D'Espagne"], answer: 1 },
+          { type: 'mcq', prompt: 'Dans quel quartier joue-t-il au football, enfant ?', options: ['La Castellane, à Marseille', 'Le centre de Cannes', 'Le centre de Tours', 'Un quartier de Madrid'], answer: 0 },
+          { type: 'mcq', prompt: "Qu'est-ce que Zidane fait en 1998 ?", options: ['Il devient entraîneur', 'Il marque deux buts en finale de Coupe du Monde', 'Il quitte le football', 'Il déménage en Algérie'], answer: 1 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Zinédine Zidane est timide quand il est jeune.', options: ['Vrai', 'Faux'], answer: 0 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Zidane est entraîneur avant d\'être joueur.', options: ['Vrai', 'Faux'], answer: 1 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Zidane entraîne le Real Madrid, en Espagne.', options: ['Vrai', 'Faux'], answer: 0 },
+          { type: 'mcq', prompt: 'Choisis le bon mot : Les gens du quartier disent que ce garçon est ___.', options: ['fâché', 'spécial', 'triste', 'fatigué'], answer: 1 }
         ]
       }),
       listening: activity('listening', {
@@ -378,35 +378,35 @@ const units = [
     accessTier: 'free',
     activities: {
       reading: activity('reading', {
-        title: 'Ma fiche de présentation',
-        description: 'Camila, Karim et Léa remplissent une fiche de présentation en classe, en trois parties.',
+        title: 'Kylian Mbappé, une fiche de présentation',
+        description: 'La fiche de présentation du footballeur Kylian Mbappé, en trois parties.',
         reading: {
-          title: 'Ma fiche de présentation',
+          title: 'Kylian Mbappé, une fiche de présentation',
           parts: [
-            "Aujourd'hui, dans la classe de Madame Dubois, nous avons une activité amusante : remplir une fiche de présentation. J'écris mon prénom, mon âge et ma nationalité. Je m'appelle Camila Ramírez. J'ai seize ans. Je suis dominicaine, mais j'habite maintenant à Tours, en France. Sur ma fiche, j'écris aussi mes centres d'intérêt : la musique, la danse et les langues. Madame Dubois demande : « Qui a une fiche originale ? » Karim lève la main tout de suite.",
-            "Karim se présente : « Je m'appelle Karim Haddad. J'ai quinze ans. Je suis marocain et français, parce que ma famille vient du Maroc, mais je suis né à Tours. » Léa continue : « Moi, je m'appelle Léa Lambert. J'ai quinze ans aussi. Je suis française, de Tours. » Madame Dubois pose une question à toute la classe : « D'où venez-vous ? » Nous répondons chacun notre tour, avec notre pays d'origine et notre ville.",
-            "À la fin de l'activité, Madame Dubois affiche toutes les fiches sur le mur de la classe. « Vous n'êtes pas seuls », dit-elle. « Cette classe a des élèves de plusieurs pays, et c'est une richesse. » Je regarde ma fiche à côté de celle de Karim et de Léa. Je ne suis pas triste d'être loin de Saint-Domingue, parce que j'ai déjà de nouveaux amis à Tours. Ce jour-là, je comprends que ma nouvelle vie en France commence vraiment bien."
+            "Aujourd'hui, nous allons faire la fiche de présentation d'un footballeur célèbre. Il s'appelle Kylian Mbappé. Il a vingt-cinq ans. Il est français, né à Paris, mais sa famille a des origines camerounaises et algériennes. Sur sa fiche, on peut écrire aussi ses centres d'intérêt : le football, bien sûr, mais aussi les jeux vidéo et la mode. Beaucoup de jeunes admirent sa fiche, parce qu'elle montre un parcours impressionnant.",
+            "Voici comment Kylian se présenterait lui-même : « Je m'appelle Kylian Mbappé. J'ai vingt-cinq ans. Je suis français, de Paris, mais ma famille vient aussi du Cameroun et d'Algérie. » Ses parents posent souvent une question aux jeunes joueurs : « D'où venez-vous, et quel est votre rêve ? » Kylian répond toujours : « Mon pays d'origine, c'est la France, et mon rêve, c'est le football. »",
+            "Sur les fiches des grands clubs de football, le nom de Kylian Mbappé apparaît souvent en premier. « Il n'est pas seul », disent ses entraîneurs. « Le football français a beaucoup de joueurs de plusieurs origines, et c'est une richesse. » Sa fiche de présentation ressemble à celle de nombreux champions français : des origines variées, un travail sérieux et une grande passion pour le sport."
           ],
-          questions: ['Quel âge a Camila ?', 'Quelle est la nationalité de Karim ?', 'Que fait Madame Dubois à la fin de l\'activité ?'],
+          questions: ['Quel âge a Kylian Mbappé ?', 'Quelle est la nationalité de Kylian Mbappé ?', 'Que disent les entraîneurs sur le football français ?'],
           ordering: {
             prompt: 'Remets les événements de l\'histoire dans l\'ordre.',
             events: [
-              'Madame Dubois demande de remplir une fiche de présentation.',
-              'Karim se présente à la classe.',
-              'Léa se présente à la classe.',
-              'Madame Dubois affiche les fiches sur le mur.'
+              'On présente la fiche de Kylian Mbappé.',
+              'Kylian se présente lui-même.',
+              'Ses parents posent une question aux jeunes joueurs.',
+              'Les entraîneurs parlent de la richesse du football français.'
             ]
           }
         },
         exercises: [
-          { type: 'mcq', prompt: 'Quel âge a Camila ?', options: ['Quinze ans', 'Seize ans', 'Dix-sept ans', 'Quatorze ans'], answer: 1 },
-          { type: 'mcq', prompt: 'Quelle est la nationalité de Karim ?', options: ['Français seulement', 'Marocain seulement', 'Marocain et français', 'Dominicain'], answer: 2 },
-          { type: 'mcq', prompt: 'Où est né Karim ?', options: ['Au Maroc', 'À Tours', 'À Saint-Domingue', 'À Paris'], answer: 1 },
-          { type: 'mcq', prompt: 'Que fait Madame Dubois avec les fiches ?', options: ['Elle les jette', 'Elle les affiche sur le mur', 'Elle les corrige en rouge', 'Elle les envoie aux parents'], answer: 1 },
-          { type: 'mcq', prompt: 'Vrai ou faux : Léa est française, de Tours.', options: ['Vrai', 'Faux'], answer: 0 },
-          { type: 'mcq', prompt: 'Vrai ou faux : Camila est triste d\'être loin de Saint-Domingue à la fin du texte.', options: ['Vrai', 'Faux'], answer: 1 },
-          { type: 'mcq', prompt: 'Vrai ou faux : Karim a quinze ans, comme Léa.', options: ['Vrai', 'Faux'], answer: 0 },
-          { type: 'mcq', prompt: 'Choisis le bon mot : La classe a des élèves de plusieurs pays, et c\'est une ___.', options: ['problème', 'richesse', 'erreur', 'surprise triste'], answer: 1 }
+          { type: 'mcq', prompt: 'Quel âge a Kylian Mbappé dans ce texte ?', options: ['Quinze ans', 'Vingt ans', 'Vingt-cinq ans', 'Trente ans'], answer: 2 },
+          { type: 'mcq', prompt: 'Quelle est la nationalité de Kylian Mbappé ?', options: ['Camerounais seulement', 'Algérien seulement', 'Français, avec des origines camerounaises et algériennes', 'Espagnol'], answer: 2 },
+          { type: 'mcq', prompt: 'Où est né Kylian Mbappé ?', options: ['Au Cameroun', 'À Paris', 'En Algérie', 'À Marseille'], answer: 1 },
+          { type: 'mcq', prompt: 'Quel est le métier de Kylian Mbappé ?', options: ['Footballeur', 'Professeur', 'Cuisinier', 'Musicien'], answer: 0 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Kylian Mbappé est né à Paris.', options: ['Vrai', 'Faux'], answer: 0 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Sa famille n\'a pas d\'origines étrangères.', options: ['Vrai', 'Faux'], answer: 1 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Kylian a vingt-cinq ans.', options: ['Vrai', 'Faux'], answer: 0 },
+          { type: 'mcq', prompt: 'Choisis le bon mot : Le football français a des joueurs de plusieurs origines, et c\'est une ___.', options: ['problème', 'richesse', 'erreur', 'surprise triste'], answer: 1 }
         ]
       }),
       listening: activity('listening', {
@@ -531,35 +531,35 @@ const units = [
     accessTier: 'premium',
     activities: {
       reading: activity('reading', {
-        title: "Ma famille et ma famille d'accueil",
-        description: "Camila décrit sa famille dominicaine et sa famille d'accueil française, en trois parties.",
+        title: 'La famille Curie, une famille de savants',
+        description: 'La famille Curie, célèbre pour ses découvertes scientifiques, en trois parties.',
         reading: {
-          title: "Ma famille et ma famille d'accueil",
+          title: 'La famille Curie, une famille de savants',
           parts: [
-            "Aujourd'hui, je vais vous présenter ma famille. À Saint-Domingue, j'habite avec mes parents, mon frère et ma sœur. Ma mère s'appelle Rosa. Elle est infirmière et elle est très patiente. Mon père s'appelle Miguel. Il est professeur de mathématiques. J'ai un petit frère, Diego. Il a dix ans et il adore le football. J'ai aussi une grande sœur, Sofía. Elle a dix-neuf ans et elle étudie à l'université. Ma famille me manque un peu, mais nous parlons par vidéo tous les dimanches.",
-            "Ici, à Tours, j'habite avec ma famille d'accueil, la famille Lambert. Madame Lambert est la mère de Léa. Elle est architecte et elle est très accueillante. Monsieur Lambert est le père de Léa. Il est cuisinier dans un restaurant, alors les repas chez eux sont délicieux ! Léa est fille unique, donc elle est très contente d'avoir « une sœur » pendant cette année. Son chat s'appelle Minou et il dort toujours sur mon lit.",
-            "Mes deux familles sont très différentes, mais toutes les deux sont importantes pour moi. Ma famille dominicaine me donne des racines, et ma famille d'accueil me donne un nouveau foyer. Léa dit souvent : « Ta famille est loin, mais ici, tu as aussi une famille. » J'aime cette phrase. Maintenant, j'ai deux familles et deux maisons, une à Saint-Domingue et une à Tours."
+            "Aujourd'hui, nous allons présenter une famille très célèbre en France : la famille Curie. Marie Curie est née en Pologne, mais elle habite en France avec sa famille. Son mari s'appelle Pierre Curie. Il est physicien et il est très patient. Marie est aussi physicienne et chimiste. Ensemble, ils ont deux filles : Irène et Ève. Irène a dix-sept ans et elle adore les sciences, comme ses parents. Ève, elle, préfère la musique et l'écriture.",
+            "Marie Curie est très accueillante avec ses étudiants à l'université. Elle est professeure de physique, la première femme professeure à la Sorbonne, à Paris ! Pierre Curie est chercheur dans un laboratoire, alors les journées de la famille sont toujours très occupées. Irène est fille studieuse, donc elle est très contente d'apprendre les sciences avec ses parents. Le chien de la famille s'appelle Cannelle et il dort toujours près du laboratoire.",
+            "Les deux filles de Marie et Pierre sont très différentes, mais toutes les deux sont importantes pour la famille. Irène devient plus tard une grande scientifique, comme sa mère. Marie dit souvent à ses filles : « La science n'a pas de patrie, mais elle donne une grande famille dans le monde entier. » Aujourd'hui, la famille Curie reste un symbole de travail et de découverte en France."
           ],
-          questions: ["Comment s'appelle la mère de Camila ?", 'Qui est Madame Lambert ?', "Comment s'appelle le chat de Léa ?"],
+          questions: ["Comment s'appelle le mari de Marie Curie ?", 'Quel est le métier de Marie Curie ?', "Comment s'appelle le chien de la famille ?"],
           ordering: {
             prompt: 'Remets les événements de l\'histoire dans l\'ordre.',
             events: [
-              'Camila présente sa famille de Saint-Domingue.',
-              "Camila présente sa famille d'accueil à Tours.",
-              'Camila compare ses deux familles.',
-              "Léa dit à Camila qu'elle a aussi une famille à Tours."
+              'On présente la famille Curie.',
+              'On décrit le métier de Marie et de Pierre.',
+              'On présente les deux filles, Irène et Ève.',
+              'Marie parle de la science à ses filles.'
             ]
           }
         },
         exercises: [
-          { type: 'mcq', prompt: 'Comment s\'appelle le petit frère de Camila ?', options: ['Diego', 'Miguel', 'Karim', 'Léa'], answer: 0 },
-          { type: 'mcq', prompt: 'Quel est le métier de Monsieur Lambert ?', options: ['Professeur', 'Infirmier', 'Cuisinier', 'Architecte'], answer: 2 },
-          { type: 'mcq', prompt: 'Quel âge a Sofía, la sœur de Camila ?', options: ['Dix ans', 'Seize ans', 'Dix-neuf ans', 'Vingt ans'], answer: 2 },
-          { type: 'mcq', prompt: 'Comment s\'appelle le chat de la famille Lambert ?', options: ['Minou', 'Diego', 'Rosa', 'Karim'], answer: 0 },
-          { type: 'mcq', prompt: 'Vrai ou faux : Madame Lambert est infirmière.', options: ['Vrai', 'Faux'], answer: 1 },
-          { type: 'mcq', prompt: 'Vrai ou faux : Léa est fille unique.', options: ['Vrai', 'Faux'], answer: 0 },
-          { type: 'mcq', prompt: 'Vrai ou faux : La famille de Camila lui manque un peu.', options: ['Vrai', 'Faux'], answer: 0 },
-          { type: 'mcq', prompt: 'Choisis le bon mot : Madame Lambert est très ___, elle aime recevoir des invités.', options: ['accueillante', 'fâchée', 'fatiguée', 'triste'], answer: 0 }
+          { type: 'mcq', prompt: 'Comment s\'appelle la fille aînée de Marie Curie ?', options: ['Irène', 'Ève', 'Cannelle', 'Rosa'], answer: 0 },
+          { type: 'mcq', prompt: 'Quel est le métier de Pierre Curie ?', options: ['Professeur de musique', 'Physicien', 'Cuisinier', 'Architecte'], answer: 1 },
+          { type: 'mcq', prompt: 'Quel âge a Irène dans le texte ?', options: ['Dix ans', 'Seize ans', 'Dix-sept ans', 'Vingt ans'], answer: 2 },
+          { type: 'mcq', prompt: 'Comment s\'appelle le chien de la famille Curie ?', options: ['Minou', 'Rex', 'Cannelle', 'Fido'], answer: 2 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Marie Curie est la première femme professeure à la Sorbonne.', options: ['Vrai', 'Faux'], answer: 0 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Ève préfère les sciences à la musique.', options: ['Vrai', 'Faux'], answer: 1 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Marie Curie est née en France.', options: ['Vrai', 'Faux'], answer: 1 },
+          { type: 'mcq', prompt: 'Choisis le bon mot : Marie Curie est très ___ avec ses étudiants.', options: ['accueillante', 'fâchée', 'fatiguée', 'triste'], answer: 0 }
         ]
       }),
       listening: activity('listening', {
@@ -682,33 +682,33 @@ const units = [
     accessTier: 'premium',
     activities: {
       reading: activity('reading', {
-        title: 'Mon emploi du temps',
-        description: 'Karim fait découvrir le collège de Tours à Camila, en trois parties.',
+        title: 'Un collège en France',
+        description: 'Une visite guidée d\'un collège français typique, en trois parties.',
         reading: {
-          title: 'Mon emploi du temps',
+          title: 'Un collège en France',
           parts: [
-            "Le collège de Tours est très différent de mon ancienne école à Saint-Domingue. Il y a une grande cour, une bibliothèque, un gymnase et une cantine. Karim me fait visiter le collège pendant la pause. « Regarde, dans cette salle, il y a un tableau, des tables et des chaises pour trente élèves », dit-il. Sur mon bureau, j'ai un cahier, un stylo, une trousse et un livre de français. Dans mon sac, il y a aussi une calculatrice pour les cours de mathématiques.",
-            "Après la visite, nous allons à la bibliothèque. « Il y a beaucoup de livres ici, » dit Karim, « et un ordinateur pour chercher des informations. » Je vois une affiche avec l'emploi du temps de la semaine. Le lundi, il y a français, mathématiques et sport. Le mercredi après-midi, il n'y a pas de cours ; ce temps est réservé aux activités. Karim me demande : « Tu as combien de cours par jour ? » Je réponds : « Ici, j'ai six cours, comme toi ! »",
-            "À la fin de la journée, je retourne dans la salle de classe pour prendre mon sac. Madame Dubois pose une question à la classe : « Qu'est-ce qu'il y a dans une trousse ? » Les élèves répondent : « Un stylo, un crayon, une gomme et une règle ! » Je souris, parce que maintenant je connais bien le vocabulaire de l'école. Ce collège commence à devenir ma deuxième maison."
+            "En France, un collège est très différent d'une école primaire. Il y a une grande cour, une bibliothèque, un gymnase et une cantine. Pendant une visite guidée, le directeur explique : « Regardez, dans cette salle, il y a un tableau, des tables et des chaises pour trente élèves. » Sur chaque bureau, les élèves ont un cahier, un stylo, une trousse et un livre de français. Dans leur sac, ils ont aussi une calculatrice pour les cours de mathématiques.",
+            "Après la visite de la salle de classe, le groupe va à la bibliothèque. « Il y a beaucoup de livres ici, » dit le directeur, « et des ordinateurs pour chercher des informations. » Sur le mur, il y a une affiche avec l'emploi du temps de la semaine. Le lundi, il y a français, mathématiques et sport. Le mercredi après-midi, il n'y a pas de cours ; ce temps est réservé aux activités. En moyenne, un collégien français a six cours par jour.",
+            "À la fin de la visite, le directeur pose une question aux nouveaux élèves : « Qu'est-ce qu'il y a dans une trousse ? » Les élèves répondent : « Un stylo, un crayon, une gomme et une règle ! » Chaque année, des milliers de nouveaux élèves découvrent ainsi le vocabulaire et le fonctionnement d'un collège français, qui devient vite une deuxième maison."
           ],
-          questions: ["Qu'est-ce qu'il y a à la bibliothèque du collège ?", 'Qu\'est-ce que Camila a sur son bureau ?', 'Combien de cours a Camila par jour ?'],
+          questions: ["Qu'est-ce qu'il y a à la bibliothèque du collège ?", "Qu'est-ce que les élèves ont sur leur bureau ?", 'Combien de cours par jour a un collégien en moyenne ?'],
           ordering: {
             prompt: 'Remets les événements de l\'histoire dans l\'ordre.',
             events: [
-              'Karim fait visiter le collège à Camila.',
-              'Ils vont à la bibliothèque.',
-              "Camila regarde l'emploi du temps.",
-              'Madame Dubois pose une question sur la trousse.'
+              'Le directeur fait visiter le collège.',
+              'Le groupe va à la bibliothèque.',
+              "Les élèves regardent l'emploi du temps.",
+              'Le directeur pose une question sur la trousse.'
             ]
           }
         },
         exercises: [
-          { type: 'mcq', prompt: 'Qui fait visiter le collège à Camila ?', options: ['Madame Dubois', 'Karim', 'Léa', 'Monsieur Lambert'], answer: 1 },
-          { type: 'mcq', prompt: "Qu'est-ce qu'il y a à la bibliothèque ?", options: ['Un terrain de foot', 'Des livres et un ordinateur', 'Une cuisine', 'Un jardin'], answer: 1 },
+          { type: 'mcq', prompt: 'Qui fait visiter le collège ?', options: ['Le directeur', 'Un élève', 'Une secrétaire', 'Un parent'], answer: 0 },
+          { type: 'mcq', prompt: "Qu'est-ce qu'il y a à la bibliothèque ?", options: ['Un terrain de foot', 'Des livres et des ordinateurs', 'Une cuisine', 'Un jardin'], answer: 1 },
           { type: 'mcq', prompt: "Quel jour n'y a-t-il pas de cours l'après-midi ?", options: ['Le lundi', 'Le mercredi', 'Le vendredi', 'Le dimanche'], answer: 1 },
-          { type: 'mcq', prompt: 'Combien de cours Camila a-t-elle par jour ?', options: ['Quatre', 'Cinq', 'Six', 'Sept'], answer: 2 },
+          { type: 'mcq', prompt: 'Combien de cours par jour a un collégien en moyenne ?', options: ['Quatre', 'Cinq', 'Six', 'Sept'], answer: 2 },
           { type: 'mcq', prompt: 'Vrai ou faux : Il y a un gymnase dans le collège.', options: ['Vrai', 'Faux'], answer: 0 },
-          { type: 'mcq', prompt: 'Vrai ou faux : Camila a une calculatrice dans son sac.', options: ['Vrai', 'Faux'], answer: 0 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Les élèves ont une calculatrice dans leur sac.', options: ['Vrai', 'Faux'], answer: 0 },
           { type: 'mcq', prompt: "Vrai ou faux : Il y a cours le mercredi après-midi.", options: ['Vrai', 'Faux'], answer: 1 },
           { type: 'mcq', prompt: "Choisis le bon mot : Dans une trousse, il y a un stylo, un crayon, une gomme et une ___.", options: ['règle', 'chaise', 'cantine', 'bibliothèque'], answer: 0 }
         ]
@@ -830,35 +830,35 @@ const units = [
     accessTier: 'premium',
     activities: {
       reading: activity('reading', {
-        title: 'Ma journée à Tours',
-        description: "Camila décrit sa routine quotidienne, du réveil au coucher, en trois parties.",
+        title: 'La journée de Teddy Riner',
+        description: "La routine quotidienne du judoka français Teddy Riner, en trois parties.",
         reading: {
-          title: 'Ma journée à Tours',
+          title: 'La journée de Teddy Riner',
           parts: [
-            "Ma journée à Tours commence tôt. Je me réveille à six heures et demie. Je me lève tout de suite, parce que j'aime avoir du temps le matin. Je me lave et je m'habille rapidement. Ensuite, je descends dans la cuisine pour prendre le petit-déjeuner avec la famille Lambert. Madame Lambert prépare toujours du pain, du beurre et de la confiture. Je mange avec Léa et nous parlons un peu en français. À sept heures et demie, nous partons pour le collège, à pied, parce que l'école n'est pas loin de la maison.",
-            "Les cours commencent à huit heures et finissent à seize heures trente. Entre les cours, il y a une pause de dix minutes. À midi, je mange à la cantine avec Karim et Léa. Nous parlons souvent de nos activités préférées. Après les cours, je rentre à la maison avec Léa. Je fais mes devoirs pendant une heure, puis je me repose un peu. Le soir, je dîne avec la famille Lambert, et parfois, j'aide Madame Lambert à préparer le repas.",
-            "Avant de dormir, j'écris toujours quelques lignes dans mon journal, en français. J'écris sur ma journée, mes émotions et mes progrès. Je me couche généralement à vingt-deux heures, parce que je me lève tôt le lendemain. Ma routine à Tours est différente de ma routine à Saint-Domingue, mais je commence à m'habituer. Chaque jour, j'apprends un peu plus de français, et chaque jour, je me sens un peu plus chez moi."
+            "La journée de Teddy Riner, champion olympique de judo, commence tôt. Il se réveille à six heures et demie. Il se lève tout de suite, parce qu'il aime avoir du temps le matin pour s'étirer. Il se lave et il s'habille rapidement. Ensuite, il descend dans la cuisine pour prendre le petit-déjeuner avec sa famille. Il mange souvent des œufs, du pain et des fruits. À sept heures et demie, il part pour le club de judo, en voiture, parce que l'entraînement n'est pas loin de la maison.",
+            "Les entraînements commencent à huit heures et finissent à seize heures trente. Entre les séances, il y a une pause de vingt minutes. À midi, il mange avec son équipe, dans un centre sportif. Ils parlent souvent de leurs compétitions préférées. Après l'entraînement, il rentre à la maison. Il fait des exercices pendant une heure, puis il se repose un peu. Le soir, il dîne en famille, et parfois, il aide à préparer le repas.",
+            "Avant de dormir, Teddy Riner écrit souvent quelques notes sur son entraînement, pour suivre ses progrès. Il se couche généralement à vingt-deux heures, parce qu'il se lève tôt le lendemain. Sa routine d'athlète de haut niveau est exigeante, mais il l'aime beaucoup. Chaque jour, il progresse un peu plus, et chaque jour, il se rapproche un peu plus de ses objectifs."
           ],
-          questions: ['À quelle heure Camila se réveille-t-elle ?', 'Où mange-t-elle à midi ?', 'Que fait Camila avant de dormir ?'],
+          questions: ['À quelle heure Teddy Riner se réveille-t-il ?', 'Où mange-t-il à midi ?', 'Que fait Teddy Riner avant de dormir ?'],
           ordering: {
             prompt: "Remets les événements de l'histoire dans l'ordre.",
             events: [
-              'Camila se réveille et se lève.',
-              'Elle prend le petit-déjeuner avec la famille Lambert.',
-              'Elle mange à la cantine avec Karim et Léa.',
-              'Elle écrit dans son journal avant de dormir.'
+              'Teddy Riner se réveille et se lève.',
+              'Il prend le petit-déjeuner avec sa famille.',
+              'Il mange avec son équipe au centre sportif.',
+              'Il écrit des notes avant de dormir.'
             ]
           }
         },
         exercises: [
-          { type: 'mcq', prompt: 'À quelle heure Camila se réveille-t-elle ?', options: ['Six heures et demie', 'Sept heures', 'Huit heures', 'Neuf heures'], answer: 0 },
-          { type: 'mcq', prompt: 'Qui prépare le petit-déjeuner ?', options: ['Léa', 'Madame Lambert', 'Camila', 'Karim'], answer: 1 },
-          { type: 'mcq', prompt: 'Avec qui Camila mange-t-elle à la cantine ?', options: ['Seule', 'Karim et Léa', 'Madame Dubois', 'Sofía'], answer: 1 },
-          { type: 'mcq', prompt: 'Que fait Camila avant de dormir ?', options: ['Elle regarde la télévision', 'Elle écrit dans son journal', 'Elle téléphone à sa mère', 'Elle fait du sport'], answer: 1 },
-          { type: 'mcq', prompt: 'Vrai ou faux : Camila va au collège en voiture.', options: ['Vrai', 'Faux'], answer: 1 },
-          { type: 'mcq', prompt: 'Vrai ou faux : Les cours finissent à seize heures trente.', options: ['Vrai', 'Faux'], answer: 0 },
-          { type: 'mcq', prompt: 'Vrai ou faux : Camila se couche à minuit.', options: ['Vrai', 'Faux'], answer: 1 },
-          { type: 'mcq', prompt: 'Choisis le bon mot : Le soir, Camila ___ avec la famille Lambert.', options: ['dîne', 'se lève', "s'habille", 'se réveille'], answer: 0 }
+          { type: 'mcq', prompt: 'À quelle heure Teddy Riner se réveille-t-il ?', options: ['Six heures et demie', 'Sept heures', 'Huit heures', 'Neuf heures'], answer: 0 },
+          { type: 'mcq', prompt: 'Quel sport pratique Teddy Riner ?', options: ['Le football', 'Le judo', 'La natation', 'Le tennis'], answer: 1 },
+          { type: 'mcq', prompt: 'Avec qui Teddy Riner mange-t-il à midi ?', options: ['Seul', 'Avec son équipe', 'Avec sa professeure', 'Avec des touristes'], answer: 1 },
+          { type: 'mcq', prompt: 'Que fait Teddy Riner avant de dormir ?', options: ['Il regarde la télévision', 'Il écrit des notes sur son entraînement', 'Il téléphone à sa mère', 'Il fait du sport'], answer: 1 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Teddy Riner va à l\'entraînement en voiture.', options: ['Vrai', 'Faux'], answer: 0 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Les entraînements finissent à seize heures trente.', options: ['Vrai', 'Faux'], answer: 0 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Teddy Riner se couche à minuit.', options: ['Vrai', 'Faux'], answer: 1 },
+          { type: 'mcq', prompt: 'Choisis le bon mot : Le soir, Teddy Riner ___ en famille.', options: ['dîne', 'se lève', "s'habille", 'se réveille'], answer: 0 }
         ]
       }),
       listening: activity('listening', {
@@ -977,35 +977,35 @@ const units = [
     accessTier: 'premium',
     activities: {
       reading: activity('reading', {
-        title: "L'anniversaire de Léa",
-        description: "Camila et Karim préparent une fête surprise, en trois parties.",
+        title: 'Le 14 juillet, la fête nationale française',
+        description: "La fête nationale française du 14 juillet, en trois parties.",
         reading: {
-          title: "L'anniversaire de Léa",
+          title: 'Le 14 juillet, la fête nationale française',
           parts: [
-            "Le quinze octobre, c'est l'anniversaire de Léa. Elle va avoir seize ans. Avec Karim, nous décidons d'organiser une petite fête surprise. La fête commence à dix-huit heures, chez la famille Lambert, mais Léa ne le sait pas encore ! Nous devons tout préparer avant son retour du collège. Karim s'occupe de la musique, et moi, je m'occupe des décorations et du gâteau.",
-            "Madame Lambert nous aide à organiser l'emploi du temps de la journée. « Léa rentre du collège à seize heures trente, » dit-elle. « Vous avez deux heures pour tout préparer. » Nous accrochons des ballons dans le salon et nous préparons un gâteau au chocolat. À dix-sept heures quarante-cinq, les premiers invités arrivent : trois camarades de classe. Tout le monde se cache derrière le canapé pour la surprise.",
-            "À dix-huit heures précises, la porte s'ouvre. Léa entre, fatiguée après sa journée. Tout le monde crie : « Joyeux anniversaire ! » Léa est très surprise et très heureuse. « Merci beaucoup ! Quelle belle surprise ! » dit-elle en riant. Nous mangeons le gâteau, nous dansons et nous parlons jusqu'à vingt et une heures. C'est le premier anniversaire de Léa que je célèbre avec elle, et c'est un moment inoubliable."
+            "Le quatorze juillet, c'est la fête nationale en France. Cette date rappelle un événement historique de 1789. Chaque année, toute la France organise une grande fête. À Paris, le défilé militaire commence à dix heures du matin, sur les Champs-Élysées. Beaucoup de familles se préparent pour la journée : elles s'occupent des drapeaux, des décorations et du pique-nique.",
+            "Le matin, les habitants installent des chaises dans les rues pour regarder le défilé. « Le défilé commence à dix heures, » disent les organisateurs, « et il dure environ deux heures. » Les enfants agitent des petits drapeaux bleus, blancs et rouges. L'après-midi, dans les villages, il y a souvent un bal populaire, avec de la musique et de la danse pour tous les âges.",
+            "Le soir, à vingt-deux heures précises, un magnifique feu d'artifice illumine le ciel, près de la tour Eiffel et dans toutes les grandes villes. Les habitants regardent le spectacle, très heureux. « Quelle belle soirée ! » disent les gens autour. Les familles restent dehors, mangent une glace et regardent les lumières jusqu'à vingt-trois heures. C'est un moment inoubliable pour des millions de Français chaque année."
           ],
-          questions: ["Quelle est la date de l'anniversaire de Léa ?", 'À quelle heure commence la fête ?', 'Qui organise la fête avec Camila ?'],
+          questions: ["Quelle est la date de la fête nationale française ?", 'À quelle heure commence le défilé à Paris ?', 'Que se passe-t-il le soir, à vingt-deux heures ?'],
           ordering: {
             prompt: "Remets les événements de l'histoire dans l'ordre.",
             events: [
-              "Camila et Karim décident d'organiser une fête surprise.",
-              'Ils préparent les décorations et le gâteau.',
-              'Les invités arrivent et se cachent.',
-              "Léa arrive et tout le monde crie « Joyeux anniversaire ! »"
+              'Les familles se préparent pour la fête nationale.',
+              'Le défilé militaire a lieu le matin.',
+              'Le bal populaire a lieu l\'après-midi.',
+              "Le feu d'artifice illumine le ciel le soir."
             ]
           }
         },
         exercises: [
-          { type: 'mcq', prompt: "Quelle est la date de l'anniversaire de Léa ?", options: ['Le premier octobre', 'Le quinze octobre', 'Le vingt octobre', 'Le quinze novembre'], answer: 1 },
-          { type: 'mcq', prompt: 'Quel âge va avoir Léa ?', options: ['Quinze ans', 'Seize ans', 'Dix-sept ans', 'Dix-huit ans'], answer: 1 },
-          { type: 'mcq', prompt: 'À quelle heure Léa rentre-t-elle du collège ?', options: ['Seize heures', 'Seize heures trente', 'Dix-sept heures', 'Dix-huit heures'], answer: 1 },
-          { type: 'mcq', prompt: 'Qui s\'occupe de la musique ?', options: ['Camila', 'Karim', 'Madame Lambert', 'Léa'], answer: 1 },
-          { type: 'mcq', prompt: 'Vrai ou faux : La fête commence à dix-huit heures.', options: ['Vrai', 'Faux'], answer: 0 },
-          { type: 'mcq', prompt: 'Vrai ou faux : Léa sait qu\'il y a une fête surprise.', options: ['Vrai', 'Faux'], answer: 1 },
-          { type: 'mcq', prompt: 'Vrai ou faux : Ils mangent un gâteau au chocolat.', options: ['Vrai', 'Faux'], answer: 0 },
-          { type: 'mcq', prompt: 'Choisis le bon mot : Quand Léa arrive, tout le monde ___ : « Joyeux anniversaire ! »', options: ['crie', 'dort', 'pleure', 'part'], answer: 0 }
+          { type: 'mcq', prompt: "Quelle est la date de la fête nationale française ?", options: ['Le premier juillet', 'Le quatorze juillet', 'Le vingt juillet', 'Le quatorze août'], answer: 1 },
+          { type: 'mcq', prompt: 'Quel événement rappelle cette date ?', options: ['Un événement de 1789', 'Un événement de 1900', 'Un événement de 2000', 'Un événement de 1950'], answer: 0 },
+          { type: 'mcq', prompt: 'À quelle heure commence le défilé à Paris ?', options: ['Neuf heures', 'Dix heures', 'Onze heures', 'Midi'], answer: 1 },
+          { type: 'mcq', prompt: 'Combien de temps dure le défilé ?', options: ['Une heure', 'Deux heures', 'Trois heures', 'Quatre heures'], answer: 1 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Le feu d\'artifice commence à vingt-deux heures.', options: ['Vrai', 'Faux'], answer: 0 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Il n\'y a jamais de bal populaire le 14 juillet.', options: ['Vrai', 'Faux'], answer: 1 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Le feu d\'artifice a lieu près de la tour Eiffel.', options: ['Vrai', 'Faux'], answer: 0 },
+          { type: 'mcq', prompt: 'Choisis le bon mot : Le soir, un feu d\'artifice ___ le ciel.', options: ['illumine', 'dort', 'pleure', 'part'], answer: 0 }
         ]
       }),
       listening: activity('listening', {
@@ -1119,35 +1119,35 @@ const units = [
     accessTier: 'premium',
     activities: {
       reading: activity('reading', {
-        title: 'À table avec la famille Lambert',
-        description: 'Camila décrit un dîner chez la famille Lambert, en trois parties.',
+        title: 'Le dîner traditionnel français',
+        description: 'Les habitudes du dîner en famille en France, en trois parties.',
         reading: {
-          title: 'À table avec la famille Lambert',
+          title: 'Le dîner traditionnel français',
           parts: [
-            "Le dîner chez la famille Lambert est un moment que j'adore. Chaque soir, nous mangeons tous ensemble autour de la table. Monsieur Lambert, qui est cuisinier, prépare souvent des plats délicieux. Ce soir, il y a du poulet, des légumes et du riz. « Tu veux du pain, Camila ? » demande Madame Lambert. « Oui, merci, j'adore le pain français ! » je réponds. Léa n'aime pas beaucoup les légumes, mais elle adore le fromage. Moi, je préfère les fruits pour le dessert.",
-            "Après le plat principal, Madame Lambert apporte du fromage et de la salade. « Tu veux de la salade ? » me demande-t-elle. « Un peu, s'il vous plaît, » je réponds. Léa prend beaucoup de fromage, mais elle ne prend pas de salade du tout. « Je n'aime pas la salade, » dit-elle en riant. Pour le dessert, il y a des fruits et un gâteau au chocolat. Je voudrais un peu des deux, s'il vous plaît !",
-            "Après le repas, nous aidons tous à débarrasser la table. J'apprends beaucoup de mots nouveaux pendant les repas : le pain, le fromage, les légumes, les fruits. Madame Lambert dit toujours : « Bon appétit ! » avant de manger, et nous répondons « Merci, vous aussi ! » Ces repas en famille sont devenus mon moment préféré de la journée, parce que nous parlons, nous rions et nous partageons beaucoup de choses ensemble."
+            "Dans beaucoup de familles françaises, le dîner est un moment important de la journée. Chaque soir, les membres de la famille mangent ensemble autour de la table. Un repas typique commence souvent par une entrée, puis un plat principal avec de la viande ou du poisson, des légumes et du riz ou des pâtes. « Tu veux du pain ? » demande-t-on souvent à table, parce que le pain accompagne presque tous les repas. Beaucoup d'enfants n'aiment pas beaucoup les légumes, mais ils adorent le fromage.",
+            "Après le plat principal, les Français mangent souvent du fromage et de la salade. « Tu veux de la salade ? » est une question courante. Certaines personnes prennent beaucoup de fromage, mais pas de salade du tout ! Pour le dessert, il y a souvent des fruits ou un gâteau. La France compte plus de mille variétés de fromages différentes, et le fromage reste un plat très apprécié à la fin du repas.",
+            "Après le repas, toute la famille aide souvent à débarrasser la table. Les enfants apprennent ainsi beaucoup de mots utiles : le pain, le fromage, les légumes, les fruits. Avant de manger, les Français disent toujours : « Bon appétit ! » et on répond « Merci, vous aussi ! » Ces repas en famille restent, pour beaucoup, le moment préféré de la journée, parce qu'on parle, on rit et on partage beaucoup de choses ensemble."
           ],
-          questions: ['Qui prépare le dîner chez la famille Lambert ?', "Qu'est-ce que Léa n'aime pas ?", 'Que dit Madame Lambert avant de manger ?'],
+          questions: ['Que mange-t-on souvent au plat principal en France ?', "Qu'est-ce que beaucoup d'enfants n'aiment pas ?", 'Que dit-on avant de manger en France ?'],
           ordering: {
             prompt: "Remets les événements de l'histoire dans l'ordre.",
             events: [
-              'La famille Lambert se réunit pour le dîner.',
-              'Madame Lambert propose du pain et de la salade.',
-              'Léa prend du fromage mais pas de salade.',
-              'Tout le monde aide à débarrasser la table.'
+              'La famille se réunit pour le dîner.',
+              'On mange le plat principal.',
+              'On propose du fromage et de la salade.',
+              'Toute la famille aide à débarrasser la table.'
             ]
           }
         },
         exercises: [
-          { type: 'mcq', prompt: 'Qui prépare souvent les plats chez la famille Lambert ?', options: ['Madame Lambert', 'Monsieur Lambert', 'Léa', 'Camila'], answer: 1 },
-          { type: 'mcq', prompt: "Qu'est-ce que Léa n'aime pas ?", options: ['Le fromage', 'Les légumes', 'Les fruits', 'Le pain'], answer: 1 },
-          { type: 'mcq', prompt: 'Qu\'est-ce que Camila préfère pour le dessert ?', options: ['Le fromage', 'La salade', 'Les fruits', 'Le pain'], answer: 2 },
-          { type: 'mcq', prompt: 'Que dit la famille avant de manger ?', options: ['Au revoir', 'Bon appétit', 'À bientôt', 'Bonne nuit'], answer: 1 },
-          { type: 'mcq', prompt: 'Vrai ou faux : Léa prend beaucoup de fromage.', options: ['Vrai', 'Faux'], answer: 0 },
-          { type: 'mcq', prompt: 'Vrai ou faux : Léa aime beaucoup la salade.', options: ['Vrai', 'Faux'], answer: 1 },
-          { type: 'mcq', prompt: 'Vrai ou faux : Camila aide à débarrasser la table.', options: ['Vrai', 'Faux'], answer: 0 },
-          { type: 'mcq', prompt: 'Choisis le bon mot : Madame Lambert apporte du fromage et de la ___.', options: ['salade', 'chaise', 'trousse', 'cour'], answer: 0 }
+          { type: 'mcq', prompt: 'Que mange-t-on souvent avant le plat principal ?', options: ['Une entrée', 'Un dessert', 'Du café', 'Rien'], answer: 0 },
+          { type: 'mcq', prompt: "Qu'est-ce que beaucoup d'enfants n'aiment pas ?", options: ['Le fromage', 'Les légumes', 'Les fruits', 'Le pain'], answer: 1 },
+          { type: 'mcq', prompt: 'Combien de variétés de fromages compte la France ?', options: ['Une centaine', 'Plus de mille', 'Dix', 'Cinquante'], answer: 1 },
+          { type: 'mcq', prompt: 'Que dit-on avant de manger ?', options: ['Au revoir', 'Bon appétit', 'À bientôt', 'Bonne nuit'], answer: 1 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Le pain accompagne souvent les repas français.', options: ['Vrai', 'Faux'], answer: 0 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Personne ne prend de fromage en France.', options: ['Vrai', 'Faux'], answer: 1 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Toute la famille aide à débarrasser la table.', options: ['Vrai', 'Faux'], answer: 0 },
+          { type: 'mcq', prompt: 'Choisis le bon mot : On mange souvent du fromage et de la ___.', options: ['salade', 'chaise', 'trousse', 'cour'], answer: 0 }
         ]
       }),
       listening: activity('listening', {
@@ -1265,35 +1265,35 @@ const units = [
     accessTier: 'premium',
     activities: {
       reading: activity('reading', {
-        title: 'Ma chambre à Tours',
-        description: 'Camila décrit sa chambre chez la famille Lambert, en trois parties.',
+        title: 'La chambre de Van Gogh à Arles',
+        description: 'La célèbre chambre peinte par Vincent van Gogh, à Arles, en trois parties.',
         reading: {
-          title: 'Ma chambre à Tours',
+          title: 'La chambre de Van Gogh à Arles',
           parts: [
-            "Ma chambre, chez la famille Lambert, est petite mais très confortable. Il y a un lit, une armoire et un bureau. Sur le bureau, il y a mon ordinateur et des photos de ma famille dominicaine. Devant la fenêtre, il y a une jolie plante verte que Madame Lambert m'a offerte. Le lit est à côté de la fenêtre, et l'armoire est en face du lit.",
-            "Sous mon lit, il y a une grande valise avec des souvenirs de Saint-Domingue. Entre le bureau et l'armoire, il y a une petite étagère avec mes livres de français. Le chat de Léa, Minou, aime dormir sur mon lit, à côté de mon oreiller. Derrière la porte, il y a un miroir où je me regarde avant de partir à l'école.",
-            "Ma chambre à Saint-Domingue était plus grande, avec des couleurs vives, mais celle-ci est calme et chaleureuse. Léa m'a aidée à décorer les murs avec des photos et des dessins. « C'est ta chambre maintenant, » dit-elle souvent. J'aime beaucoup cet espace : c'est un petit coin de chez moi, ici, à Tours."
+            "En 1888, le peintre Vincent van Gogh habite dans une petite maison jaune, à Arles, dans le sud de la France. Sa chambre est petite mais confortable pour lui. Il y a un lit, une armoire et une petite table. Sur la table, il y a une cuvette et des objets personnels. Devant la fenêtre, il y a deux chaises simples. Le lit est à côté de la fenêtre, et l'armoire est en face du lit.",
+            "Van Gogh peint cette chambre trois fois, parce qu'il aime beaucoup cet espace calme. Entre la table et l'armoire, il y a un petit miroir sur le mur. Aux murs, il y a plusieurs tableaux : des portraits et des paysages. Van Gogh écrit dans une lettre à son frère Théo : « Cette fois, c'est tout simplement ma chambre à coucher. »",
+            "La chambre de Saint-Rémy, où Van Gogh habite plus tard, est différente, plus simple, mais celle d'Arles reste calme et chaleureuse dans ses tableaux. Aujourd'hui, ce tableau célèbre s'appelle « La Chambre à Arles » et il est exposé dans plusieurs grands musées. Des millions de visiteurs admirent chaque année cette chambre si simple, devenue un chef-d'œuvre de l'art."
           ],
-          questions: ['Qu\'est-ce qu\'il y a sur le bureau de Camila ?', 'Où dort le chat Minou ?', 'Comment est la chambre de Camila à Saint-Domingue ?'],
+          questions: ["Qu'est-ce qu'il y a sur la table de Van Gogh ?", 'Combien de fois Van Gogh peint-il sa chambre ?', 'Comment s\'appelle le tableau aujourd\'hui ?'],
           ordering: {
             prompt: "Remets les événements de l'histoire dans l'ordre.",
             events: [
-              'Camila décrit les meubles de sa chambre.',
-              'Elle parle de la valise sous son lit.',
-              'Le chat Minou dort sur son lit.',
-              'Léa aide Camila à décorer les murs.'
+              'Van Gogh habite dans une maison jaune, à Arles.',
+              'Il décrit les meubles de sa chambre.',
+              'Il peint sa chambre trois fois.',
+              'Le tableau devient un chef-d\'œuvre célèbre.'
             ]
           }
         },
         exercises: [
-          { type: 'mcq', prompt: 'Qu\'est-ce qu\'il y a sur le bureau de Camila ?', options: ['Un lit', 'Un ordinateur et des photos', 'Une valise', 'Un miroir'], answer: 1 },
+          { type: 'mcq', prompt: 'Où habite Van Gogh en 1888 ?', options: ['À Paris', 'À Arles', 'À Tours', 'À Saint-Rémy'], answer: 1 },
           { type: 'mcq', prompt: "Où est l'armoire par rapport au lit ?", options: ['Sous le lit', 'À côté du lit', 'En face du lit', 'Derrière le lit'], answer: 2 },
-          { type: 'mcq', prompt: 'Qu\'est-ce qu\'il y a sous le lit de Camila ?', options: ['Un chat', 'Une valise', 'Des livres', 'Un miroir'], answer: 1 },
-          { type: 'mcq', prompt: 'Où dort le chat Minou ?', options: ['Sous le lit', 'Sur le lit de Camila', "Dans l'armoire", 'Sur le bureau'], answer: 1 },
-          { type: 'mcq', prompt: 'Vrai ou faux : La chambre de Camila à Tours est très grande.', options: ['Vrai', 'Faux'], answer: 1 },
-          { type: 'mcq', prompt: 'Vrai ou faux : Léa a aidé Camila à décorer sa chambre.', options: ['Vrai', 'Faux'], answer: 0 },
-          { type: 'mcq', prompt: "Vrai ou faux : Il y a un miroir derrière la porte.", options: ['Vrai', 'Faux'], answer: 0 },
-          { type: 'mcq', prompt: 'Choisis le bon mot : La chambre de Camila est petite mais très ___.', options: ['confortable', 'fâchée', 'triste', 'fermée'], answer: 0 }
+          { type: 'mcq', prompt: 'Combien de fois Van Gogh peint-il sa chambre ?', options: ['Une fois', 'Deux fois', 'Trois fois', 'Quatre fois'], answer: 2 },
+          { type: 'mcq', prompt: 'Comment s\'appelle le tableau aujourd\'hui ?', options: ['La Chambre à Arles', 'La Nuit étoilée', 'Les Tournesols', 'Le Café de nuit'], answer: 0 },
+          { type: 'mcq', prompt: 'Vrai ou faux : La chambre de Van Gogh à Arles est très grande.', options: ['Vrai', 'Faux'], answer: 1 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Van Gogh écrit à son frère Théo.', options: ['Vrai', 'Faux'], answer: 0 },
+          { type: 'mcq', prompt: "Vrai ou faux : Il y a un miroir entre la table et l'armoire.", options: ['Vrai', 'Faux'], answer: 0 },
+          { type: 'mcq', prompt: 'Choisis le bon mot : La chambre de Van Gogh est petite mais très ___.', options: ['confortable', 'fâchée', 'triste', 'fermée'], answer: 0 }
         ]
       }),
       listening: activity('listening', {
@@ -1411,33 +1411,33 @@ const units = [
     activities: {
       reading: activity('reading', {
         title: 'Une promenade dans Tours',
-        description: 'Camila et Léa explorent le centre-ville de Tours, en trois parties.',
+        description: 'Un guide touristique pour explorer le centre-ville de Tours, en trois parties.',
         reading: {
           title: 'Une promenade dans Tours',
           parts: [
-            "Le samedi après-midi, Léa et moi aimons nous promener dans Tours. Nous allons souvent au parc, à la piscine ou au cinéma. Aujourd'hui, nous allons à la médiathèque pour emprunter des livres. Le centre-ville de Tours est joli, avec de vieilles maisons et de petites rues. Nous passons devant la cathédrale, qui est très grande et impressionnante.",
-            "Ensuite, nous voulons aller au marché pour acheter des fruits. « Excusez-moi, où se trouve le marché ? » demande Léa à une dame. « Tournez à droite, puis continuez tout droit jusqu'à la place. Le marché est juste là, » répond la dame. Nous suivons ses indications et nous arrivons rapidement au marché. Il y a beaucoup de fruits, de légumes et de fleurs.",
-            "Après le marché, nous allons à la boulangerie pour acheter du pain, puis nous rentrons à la maison. Sur le chemin, nous croisons Karim, qui va à la piscine avec son frère. « À demain, à l'école ! » nous dit-il. Cette promenade dans Tours me permet de mieux connaître la ville, et chaque semaine, je découvre un nouvel endroit intéressant."
+            "Le samedi après-midi, beaucoup d'habitants aiment se promener dans Tours. On peut aller au parc, à la piscine ou au cinéma. Une bonne idée est d'aller à la médiathèque pour emprunter des livres. Le centre-ville de Tours est joli, avec de vieilles maisons et de petites rues. Sur le chemin, on passe souvent devant la cathédrale Saint-Gatien, qui est très grande et impressionnante.",
+            "Ensuite, beaucoup de visiteurs vont au marché pour acheter des fruits. « Excusez-moi, où se trouve le marché ? » demande-t-on souvent à une personne dans la rue. « Tournez à droite, puis continuez tout droit jusqu'à la place. Le marché est juste là, » répond-on généralement. Le célèbre marché de Tours propose beaucoup de fruits, de légumes et de fleurs, chaque samedi matin.",
+            "Après le marché, les visiteurs vont souvent à une boulangerie pour acheter du pain, avant de rentrer. Sur le chemin, on croise parfois des habitants qui vont à la piscine avec leur famille. Cette promenade dans Tours permet de mieux connaître la ville, et chaque semaine, les visiteurs découvrent un nouvel endroit intéressant."
           ],
-          questions: ['Où vont Léa et Camila en premier ?', 'Comment trouvent-elles le marché ?', 'Qui croisent-elles sur le chemin ?'],
+          questions: ['Où vont les habitants en premier, dans cette promenade ?', 'Comment trouve-t-on le marché ?', 'Que font les visiteurs après le marché ?'],
           ordering: {
             prompt: "Remets les événements de l'histoire dans l'ordre.",
             events: [
-              'Léa et Camila vont à la médiathèque.',
-              'Elles demandent où se trouve le marché.',
-              'Elles achètent des fruits au marché.',
-              'Elles croisent Karim sur le chemin du retour.'
+              'On va à la médiathèque.',
+              'On demande où se trouve le marché.',
+              'On achète des fruits au marché.',
+              'On va à la boulangerie avant de rentrer.'
             ]
           }
         },
         exercises: [
-          { type: 'mcq', prompt: 'Où vont Léa et Camila au début de la promenade ?', options: ['Au cinéma', 'À la médiathèque', 'À la piscine', 'Au marché'], answer: 1 },
-          { type: 'mcq', prompt: 'Que font-elles au marché ?', options: ['Elles achètent des fruits et des légumes', 'Elles regardent un film', 'Elles nagent', 'Elles empruntent des livres'], answer: 0 },
-          { type: 'mcq', prompt: 'Qui donne des indications à Léa ?', options: ['Karim', 'Une dame dans la rue', 'Madame Dubois', 'Un vendeur'], answer: 1 },
-          { type: 'mcq', prompt: 'Qui croisent-elles sur le chemin du retour ?', options: ['Madame Lambert', 'Karim', 'Madame Dubois', 'Sofía'], answer: 1 },
-          { type: 'mcq', prompt: 'Vrai ou faux : Elles passent devant la cathédrale.', options: ['Vrai', 'Faux'], answer: 0 },
-          { type: 'mcq', prompt: 'Vrai ou faux : Elles vont au marché en voiture.', options: ['Vrai', 'Faux'], answer: 1 },
-          { type: 'mcq', prompt: 'Vrai ou faux : Elles achètent du pain à la boulangerie.', options: ['Vrai', 'Faux'], answer: 0 },
+          { type: 'mcq', prompt: 'Où va-t-on au début de la promenade ?', options: ['Au cinéma', 'À la médiathèque', 'À la piscine', 'Au marché'], answer: 1 },
+          { type: 'mcq', prompt: 'Que fait-on au marché ?', options: ['On achète des fruits et des légumes', 'On regarde un film', 'On nage', 'On emprunte des livres'], answer: 0 },
+          { type: 'mcq', prompt: 'Comment appelle-t-on la cathédrale de Tours ?', options: ['Cathédrale Saint-Gatien', 'Cathédrale Notre-Dame', 'Cathédrale Saint-Martin', 'Cathédrale Saint-Paul'], answer: 0 },
+          { type: 'mcq', prompt: 'Quel jour a lieu le marché ?', options: ['Le lundi', 'Le samedi matin', 'Le dimanche soir', 'Le mercredi'], answer: 1 },
+          { type: 'mcq', prompt: 'Vrai ou faux : On passe devant la cathédrale.', options: ['Vrai', 'Faux'], answer: 0 },
+          { type: 'mcq', prompt: 'Vrai ou faux : On va au marché en voiture.', options: ['Vrai', 'Faux'], answer: 1 },
+          { type: 'mcq', prompt: 'Vrai ou faux : On achète du pain à la boulangerie.', options: ['Vrai', 'Faux'], answer: 0 },
           { type: 'mcq', prompt: 'Choisis le bon mot : Le centre-ville de Tours est joli, avec de vieilles maisons et de petites ___.', options: ['rues', 'piscines', 'voitures', 'écoles'], answer: 0 }
         ]
       }),
@@ -1554,35 +1554,35 @@ const units = [
     accessTier: 'premium',
     activities: {
       reading: activity('reading', {
-        title: 'Mes loisirs à Tours',
-        description: 'Camila décrit ses loisirs du week-end avec Léa et Karim, en trois parties.',
+        title: 'Juan Luis Guerra et la bachata',
+        description: 'Le musicien dominicain Juan Luis Guerra et la bachata dans le monde, en trois parties.',
         reading: {
-          title: 'Mes loisirs à Tours',
+          title: 'Juan Luis Guerra et la bachata',
           parts: [
-            "Le week-end, j'aime faire beaucoup d'activités différentes avec mes amis de Tours. Le samedi matin, je fais du sport avec Léa : nous faisons du vélo au bord de la Loire, et nous nous arrêtons pour prendre des photos du fleuve. L'après-midi, je joue au volley avec des amis du collège, sur le terrain près de chez nous. Karim, lui, préfère jouer de la guitare ; il en joue depuis quatre ans et il sait jouer plusieurs chansons françaises et même quelques chansons espagnoles pour me faire plaisir.",
-            "Le dimanche, je fais souvent de la danse, parce que c'est ma passion depuis toujours, même avant mon départ pour la France. Léa ne sait pas danser la bachata, alors je lui apprends quelques pas simples dans le salon de la maison. « Tu peux venir avec moi au cours de danse dimanche prochain ? » je lui demande. « Bien sûr, j'adore essayer de nouvelles choses ! » répond-elle avec un grand sourire. Karim, lui, ne peut pas venir parce qu'il a un match de football tous les dimanches matin, avec son équipe du quartier.",
-            "Grâce à mes amis, je découvre de nouveaux loisirs à Tours : le vélo au bord de la Loire, le volley entre copains, la guitare de Karim le soir. Et grâce à moi, Léa découvre petit à petit la danse dominicaine, et elle adore ça ! Nous partageons nos passions et nous apprenons les uns des autres, toutes les semaines. Ce mélange de cultures rend ma vie à Tours vraiment riche, amusante, et pleine de nouvelles découvertes."
+            "Juan Luis Guerra est un musicien dominicain très célèbre. Le samedi, beaucoup de personnes aiment faire des activités différentes : le sport, la musique ou la danse. Juan Luis Guerra, lui, fait de la musique depuis très jeune : il chante et il joue de la guitare. Il aime aussi le merengue et la bachata, deux styles de musique de la République dominicaine. Il en joue depuis plus de quarante ans, et il sait chanter dans plusieurs langues, dont le français.",
+            "La bachata est une danse et une musique très populaires dans le monde entier. En France aussi, beaucoup de personnes apprennent à danser la bachata dans des cours de danse. « Tu peux venir avec moi au cours de danse dimanche prochain ? » demande-t-on souvent entre amis. « Bien sûr, j'adore essayer de nouvelles choses ! » répond-on avec plaisir. La musique de Juan Luis Guerra aide beaucoup de gens à découvrir cette danse dominicaine.",
+            "Grâce à des artistes comme Juan Luis Guerra, la culture dominicaine voyage dans le monde entier : la bachata au bord de la Loire, en France, la guitare le soir, la danse entre amis. Et grâce à la musique, les gens de différents pays découvrent petit à petit la danse dominicaine, et ils adorent ça ! On partage ses passions et on apprend des autres, toutes les semaines. Ce mélange de cultures rend la musique vraiment riche, amusante, et pleine de nouvelles découvertes."
           ],
-          questions: ['Que fait Camila le samedi matin ?', 'Que sait bien faire Karim ?', 'Pourquoi Karim ne peut-il pas venir au cours de danse ?'],
+          questions: ['D\'où vient Juan Luis Guerra ?', 'Que sait bien faire Juan Luis Guerra ?', 'Pourquoi la bachata voyage-t-elle dans le monde entier ?'],
           ordering: {
             prompt: "Remets les événements de l'histoire dans l'ordre.",
             events: [
-              'Camila fait du vélo avec Léa le samedi matin.',
-              "Elle joue au volley l'après-midi.",
-              'Elle propose à Léa de venir au cours de danse.',
-              'Karim explique qu\'il a un match de football le dimanche.'
+              'On présente Juan Luis Guerra, musicien dominicain.',
+              'On explique ce qu\'est la bachata.',
+              'On parle des cours de danse en France.',
+              'La culture dominicaine voyage dans le monde.'
             ]
           }
         },
         exercises: [
-          { type: 'mcq', prompt: 'Que fait Camila le samedi matin ?', options: ['Elle joue de la guitare', 'Elle fait du vélo avec Léa', 'Elle regarde un match', 'Elle fait ses devoirs'], answer: 1 },
-          { type: 'mcq', prompt: 'Que sait bien faire Karim ?', options: ['Danser la bachata', 'Jouer de la guitare', 'Faire du vélo', 'Nager'], answer: 1 },
-          { type: 'mcq', prompt: 'Quelle est la passion de Camila depuis toujours ?', options: ['Le football', 'La guitare', 'La danse', 'Le vélo'], answer: 2 },
-          { type: 'mcq', prompt: 'Pourquoi Karim ne peut-il pas venir au cours de danse ?', options: ["Il n'aime pas danser", 'Il a un match de football', 'Il est malade', 'Il travaille'], answer: 1 },
-          { type: 'mcq', prompt: 'Vrai ou faux : Léa sait déjà danser la bachata.', options: ['Vrai', 'Faux'], answer: 1 },
-          { type: 'mcq', prompt: 'Vrai ou faux : Camila joue au volley l\'après-midi.', options: ['Vrai', 'Faux'], answer: 0 },
-          { type: 'mcq', prompt: 'Vrai ou faux : Karim joue de la guitare depuis quatre ans.', options: ['Vrai', 'Faux'], answer: 0 },
-          { type: 'mcq', prompt: 'Choisis le bon mot : Camila et Léa ___ leurs passions et apprennent les unes des autres.', options: ['partagent', 'détestent', 'oublient', 'cachent'], answer: 0 }
+          { type: 'mcq', prompt: 'D\'où vient Juan Luis Guerra ?', options: ['De France', 'De la République dominicaine', 'Du Maroc', "D'Espagne"], answer: 1 },
+          { type: 'mcq', prompt: 'Que sait bien faire Juan Luis Guerra ?', options: ['Danser la bachata', 'Chanter et jouer de la guitare', 'Faire du vélo', 'Nager'], answer: 1 },
+          { type: 'mcq', prompt: 'Quels styles de musique aime Juan Luis Guerra ?', options: ['Le rock et le jazz', 'Le merengue et la bachata', 'La musique classique', 'Le rap'], answer: 1 },
+          { type: 'mcq', prompt: 'Depuis combien de temps Juan Luis Guerra fait-il de la musique ?', options: ['Dix ans', 'Vingt ans', 'Plus de quarante ans', 'Cinq ans'], answer: 2 },
+          { type: 'mcq', prompt: 'Vrai ou faux : La bachata n\'est pas populaire en dehors de la République dominicaine.', options: ['Vrai', 'Faux'], answer: 1 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Juan Luis Guerra chante seulement en espagnol.', options: ['Vrai', 'Faux'], answer: 1 },
+          { type: 'mcq', prompt: 'Vrai ou faux : On peut apprendre la bachata dans des cours de danse en France.', options: ['Vrai', 'Faux'], answer: 0 },
+          { type: 'mcq', prompt: 'Choisis le bon mot : Les gens ___ leurs passions et apprennent des autres.', options: ['partagent', 'détestent', 'oublient', 'cachent'], answer: 0 }
         ]
       }),
       listening: activity('listening', {
@@ -1698,34 +1698,34 @@ const units = [
     accessTier: 'premium',
     activities: {
       reading: activity('reading', {
-        title: 'Une sortie shopping à Tours',
-        description: 'Léa et Camila cherchent une tenue pour une fête à l\'école, en trois parties.',
+        title: 'Coco Chanel et la mode française',
+        description: 'Une courte histoire de Coco Chanel, créatrice de mode française, en trois parties.',
         reading: {
-          title: 'Une sortie shopping à Tours',
+          title: 'Coco Chanel et la mode française',
           parts: [
-            "Léa m'invite à faire du shopping dans le centre-ville de Tours, pour chercher une tenue pour une fête à l'école. Nous entrons dans un magasin de vêtements près de la place. « Regarde cette robe bleue, elle est jolie ! » dit Léa. Je préfère ce pull rouge et ce jean noir. La vendeuse nous demande : « Vous cherchez quelque chose de particulier ? » « Je cherche une tenue simple mais élégante, » je réponds. Elle me montre plusieurs vêtements de différentes couleurs : vert, jaune, blanc et violet.",
-            "J'essaie cette robe verte et ces chaussures blanches. « Combien coûte cette robe ? » je demande à la vendeuse. « Elle coûte quarante-cinq euros, » répond-elle. C'est un peu cher pour moi, alors je cherche autre chose. Finalement, je trouve un beau chemisier jaune à vingt euros. Léa, elle, prend cette jupe noire et ce chapeau blanc. « Ces vêtements te vont très bien ! » me dit-elle en souriant.",
-            "À la caisse, je prends mon chemisier jaune, et Léa prend sa jupe et son chapeau. « Merci pour votre visite ! » nous dit la vendeuse. En sortant du magasin, nous sommes très contentes de nos achats. Cette sortie shopping avec Léa était amusante, et maintenant, j'ai une nouvelle tenue pour la fête de l'école. J'adore découvrir la mode française avec mon amie."
+            "Coco Chanel est une créatrice de mode très célèbre, née en France en 1883. Au début du vingtième siècle, elle ouvre un petit magasin de vêtements à Paris. « Regardez cette robe noire, elle est simple et élégante ! » disent souvent les clientes de son magasin. Coco Chanel préfère des couleurs simples : le noir, le blanc et le beige. Une vendeuse demande toujours aux clientes : « Vous cherchez quelque chose de particulier ? »",
+            "Coco Chanel invente la fameuse « petite robe noire », une robe simple que toutes les femmes peuvent porter. « Combien coûte cette robe ? » demandent les clientes. À l'époque, ses vêtements coûtent assez cher, mais ils deviennent très populaires. Elle crée aussi des chapeaux, des chaussures et un parfum célèbre, le Chanel N°5. « Ces vêtements vont très bien à toutes les femmes ! » disent les journalistes de mode.",
+            "Aujourd'hui, la maison Chanel vend encore des vêtements, des chapeaux et des parfums dans le monde entier. Beaucoup de gens vont à Paris pour découvrir la mode française et visiter les magasins Chanel. Cette histoire de Coco Chanel montre comment une idée simple, la petite robe noire, peut changer la mode pour toujours. Elle reste un symbole important de l'élégance française."
           ],
-          questions: ['Pourquoi Léa et Camila font-elles du shopping ?', 'Combien coûte la robe verte ?', 'Qu\'est-ce que Camila achète finalement ?'],
+          questions: ['Où Coco Chanel ouvre-t-elle son magasin ?', 'Comment s\'appelle la robe inventée par Coco Chanel ?', 'Que crée aussi Coco Chanel, en plus des vêtements ?'],
           ordering: {
             prompt: "Remets les événements de l'histoire dans l'ordre.",
             events: [
-              'Léa invite Camila à faire du shopping.',
-              'Camila essaie une robe verte et des chaussures blanches.',
-              'La vendeuse annonce le prix de la robe.',
-              'Camila achète un chemisier jaune à la caisse.'
+              'Coco Chanel ouvre un magasin à Paris.',
+              'Elle invente la petite robe noire.',
+              'Elle crée un parfum célèbre.',
+              'La maison Chanel devient connue dans le monde entier.'
             ]
           }
         },
         exercises: [
-          { type: 'mcq', prompt: 'Pourquoi vont-elles faire du shopping ?', options: ["Pour une fête à l'école", "Pour l'anniversaire de Léa", 'Pour un voyage', "Pour l'école de musique"], answer: 0 },
-          { type: 'mcq', prompt: 'Combien coûte la robe verte ?', options: ['Vingt euros', 'Trente euros', 'Quarante-cinq euros', 'Cinquante euros'], answer: 2 },
-          { type: 'mcq', prompt: 'Qu\'est-ce que Camila achète finalement ?', options: ['Une robe verte', 'Un chemisier jaune', 'Un jean noir', 'Un chapeau blanc'], answer: 1 },
-          { type: 'mcq', prompt: 'Qu\'est-ce que Léa achète ?', options: ['Une robe et des chaussures', 'Une jupe et un chapeau', 'Un pull et un jean', 'Rien'], answer: 1 },
-          { type: 'mcq', prompt: 'Vrai ou faux : La robe verte coûte vingt euros.', options: ['Vrai', 'Faux'], answer: 1 },
-          { type: 'mcq', prompt: 'Vrai ou faux : Camila trouve la robe verte un peu chère.', options: ['Vrai', 'Faux'], answer: 0 },
-          { type: 'mcq', prompt: 'Vrai ou faux : Léa achète un chapeau blanc.', options: ['Vrai', 'Faux'], answer: 0 },
+          { type: 'mcq', prompt: 'Où Coco Chanel ouvre-t-elle son magasin ?', options: ["À l'école", 'À Paris', 'Pour un voyage', 'À Tours'], answer: 1 },
+          { type: 'mcq', prompt: 'Quelles couleurs préfère Coco Chanel ?', options: ['Le rouge et le violet', 'Le noir, le blanc et le beige', 'Le vert et le jaune', 'Le rose'], answer: 1 },
+          { type: 'mcq', prompt: 'Comment s\'appelle la robe inventée par Coco Chanel ?', options: ['La robe verte', 'La petite robe noire', 'La robe bleue', 'La robe blanche'], answer: 1 },
+          { type: 'mcq', prompt: 'Que crée aussi Coco Chanel ?', options: ['Un parfum célèbre', 'Une école de musique', 'Un restaurant', 'Un journal'], answer: 0 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Coco Chanel préfère des couleurs simples.', options: ['Vrai', 'Faux'], answer: 0 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Coco Chanel n\'a jamais créé de parfum.', options: ['Vrai', 'Faux'], answer: 1 },
+          { type: 'mcq', prompt: 'Vrai ou faux : La maison Chanel existe encore aujourd\'hui.', options: ['Vrai', 'Faux'], answer: 0 },
           { type: 'mcq', prompt: 'Choisis le bon mot : Combien ___ cette robe ?', options: ['coûte', 'cherche', 'prend', 'porte'], answer: 0 }
         ]
       }),
@@ -1841,35 +1841,35 @@ const units = [
     accessTier: 'premium',
     activities: {
       reading: activity('reading', {
-        title: 'Un voyage à Paris',
-        description: 'Camila raconte son voyage à Paris avec la famille Lambert, en trois parties.',
+        title: 'Un voyage à Paris en train',
+        description: 'Un guide pratique pour visiter Paris en train depuis Tours, en trois parties.',
         reading: {
-          title: 'Un voyage à Paris',
+          title: 'Un voyage à Paris en train',
           parts: [
-            "Le mois prochain, je vais voyager à Paris avec la famille Lambert. Nous allons visiter la tour Eiffel, le Louvre et Notre-Dame. Avant de partir, je regarde la météo sur mon téléphone. « Il va faire beau et il va faire seize degrés, » dit l'application. « Parfait, » dit Madame Lambert, « mais nous allons quand même prendre des parapluies, au cas où ! » Karim, un peu jaloux, me dit : « Tu vas adorer Paris, c'est une ville magnifique. »",
-            "Le jour du départ, il fait beau, mais un peu frais le matin. Nous allons prendre le train à la gare de Tours. Le voyage va durer environ une heure. Dans le train, Léa et moi regardons le paysage : des champs, des rivières et de petits villages. « Nous allons arriver à Paris vers midi, » dit Monsieur Lambert en regardant sa montre. Léa est très excitée, parce que c'est aussi son premier voyage à Paris cette année.",
-            "À Paris, il commence à pleuvoir un peu l'après-midi, mais cela ne nous empêche pas de visiter la tour Eiffel. « Il pleut, mais ce n'est pas grave, » dit Léa en riant, « nous avons des parapluies ! » Ce voyage à Paris sera l’un des meilleurs souvenirs de mon année en France. Bientôt, je vais retourner à Saint-Domingue, mais je sais que je vais garder ces moments dans mon cœur pour toujours."
+            "Chaque mois, des milliers de visiteurs voyagent de Tours à Paris. Beaucoup de touristes vont visiter la tour Eiffel, le Louvre et Notre-Dame. Avant de partir, il est utile de regarder la météo sur son téléphone. « Il va faire beau et il va faire seize degrés, » dit souvent l'application. « Parfait, » disent les voyageurs prudents, « mais nous allons quand même prendre des parapluies, au cas où ! » La tour Eiffel, disent les guides touristiques, est magnifique à toutes les saisons.",
+            "Le jour du départ, il fait souvent beau, mais un peu frais le matin. Les voyageurs prennent le train à la gare de Tours. Le voyage dure environ une heure. Dans le train, on peut regarder le paysage : des champs, des rivières et de petits villages. « Le train arrive à Paris vers midi, » annonce souvent le contrôleur. Beaucoup de jeunes voyageurs sont très excités, parce que c'est parfois leur premier voyage à Paris.",
+            "À Paris, il commence parfois à pleuvoir un peu l'après-midi, mais cela n'empêche pas les visiteurs de voir la tour Eiffel. « Il pleut, mais ce n'est pas grave, » disent souvent les touristes en riant, « nous avons des parapluies ! » Pour beaucoup de voyageurs, ce trajet Tours-Paris devient l'un des meilleurs souvenirs de leur année, un moment qu'ils gardent dans leur cœur pour toujours."
           ],
-          questions: ['Où vont-ils voyager le mois prochain ?', 'Quel temps va-t-il faire le jour du départ ?', 'Comment vont-ils voyager jusqu\'à Paris ?'],
+          questions: ['Où voyagent les touristes chaque mois ?', 'Quel temps fait-il souvent le jour du départ ?', 'Comment voyagent les visiteurs jusqu\'à Paris ?'],
           ordering: {
             prompt: "Remets les événements de l'histoire dans l'ordre.",
             events: [
-              'Camila regarde la météo avant de partir.',
-              'La famille prend le train à la gare de Tours.',
+              'Les voyageurs regardent la météo avant de partir.',
+              'Ils prennent le train à la gare de Tours.',
               'Ils arrivent à Paris vers midi.',
-              "Il commence à pleuvoir l'après-midi à Paris."
+              "Il commence parfois à pleuvoir l'après-midi à Paris."
             ]
           }
         },
         exercises: [
-          { type: 'mcq', prompt: 'Où la famille va-t-elle voyager ?', options: ['À Tours', 'À Paris', 'À Saint-Domingue', 'Au Maroc'], answer: 1 },
-          { type: 'mcq', prompt: 'Comment vont-ils voyager ?', options: ['En avion', 'En train', 'En voiture', 'À vélo'], answer: 1 },
+          { type: 'mcq', prompt: 'Où voyagent les touristes dans ce texte ?', options: ['À Tours', 'À Paris', 'À Saint-Domingue', 'Au Maroc'], answer: 1 },
+          { type: 'mcq', prompt: 'Comment voyagent-ils de Tours à Paris ?', options: ['En avion', 'En train', 'En voiture', 'À vélo'], answer: 1 },
           { type: 'mcq', prompt: 'Combien de temps dure le voyage en train ?', options: ['Trente minutes', 'Une heure', 'Deux heures', 'Trois heures'], answer: 1 },
-          { type: 'mcq', prompt: "Quel temps fait-il l'après-midi à Paris ?", options: ['Il fait très chaud', 'Il neige', 'Il pleut un peu', 'Il fait très froid'], answer: 2 },
-          { type: 'mcq', prompt: 'Vrai ou faux : C\'est le premier voyage de Léa à Paris cette année.', options: ['Vrai', 'Faux'], answer: 0 },
-          { type: 'mcq', prompt: 'Vrai ou faux : Ils prennent le parapluie parce qu\'il va neiger.', options: ['Vrai', 'Faux'], answer: 1 },
-          { type: 'mcq', prompt: 'Vrai ou faux : Karim est un peu jaloux du voyage.', options: ['Vrai', 'Faux'], answer: 0 },
-          { type: 'mcq', prompt: 'Choisis le bon mot : Nous allons ___ à Paris vers midi.', options: ['arriver', 'pleuvoir', 'voyager', 'partir'], answer: 0 }
+          { type: 'mcq', prompt: "Quel temps fait-il parfois l'après-midi à Paris ?", options: ['Il fait très chaud', 'Il neige', 'Il pleut un peu', 'Il fait très froid'], answer: 2 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Pour beaucoup de jeunes voyageurs, c\'est parfois leur premier voyage à Paris.', options: ['Vrai', 'Faux'], answer: 0 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Les voyageurs prennent un parapluie parce qu\'il va neiger.', options: ['Vrai', 'Faux'], answer: 1 },
+          { type: 'mcq', prompt: 'Vrai ou faux : Le train part de la gare de Tours.', options: ['Vrai', 'Faux'], answer: 0 },
+          { type: 'mcq', prompt: 'Choisis le bon mot : Le train va ___ à Paris vers midi.', options: ['arriver', 'pleuvoir', 'voyager', 'partir'], answer: 0 }
         ]
       }),
       listening: activity('listening', {

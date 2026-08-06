@@ -136,7 +136,7 @@ ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, description = EXCLUDED.
 -- ---------------------------------------------------------------------
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-b2-retour-a-saint-domingue-reading', 'reading', 'L’aéroport des retrouvailles', 'Camila atterrit à Saint-Domingue après un an en France et retrouve sa famille et Sofía.', 10, 35, 'free', 18, true, NULL, NULL, NULL
+SELECT c.id, u.id, 'french-b2-retour-a-saint-domingue-reading', 'reading', 'Le choc culturel du retour', 'Pourquoi revenir chez soi après un séjour à l’étranger peut être plus déstabilisant que le départ, selon les chercheurs en psychologie interculturelle.', 10, 35, 'free', 18, true, NULL, NULL, NULL
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -149,7 +149,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-b2-retour-a-saint-domingue-listening', 'listening', 'Une conversation à l’aéroport', 'Écoute Camila et Sofía se retrouver à l’aéroport de Saint-Domingue.', 11, 35, 'free', 14, true, NULL, NULL, '["Tu m’as manqué.","C’est étrange de...","On dirait que...","J’ai dû..."]'::jsonb
+SELECT c.id, u.id, 'french-b2-retour-a-saint-domingue-listening', 'listening', 'Le retour que j’avais imaginé', 'Écoute ce contenu de niveau B2 et identifie les idées, les nuances et les preuves.', 11, 35, 'free', 14, true, NULL, NULL, '["Tu m’as manqué.","C’est étrange de...","On dirait que...","J’ai dû..."]'::jsonb
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -227,7 +227,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-b2-candidature-universitaire-reading', 'reading', 'La lettre de motivation de Camila', 'Camila rédige sa candidature pour étudier à l’université de Tours, avec l’aide de Karim par appel vidéo.', 20, 35, 'free', 18, true, NULL, NULL, NULL
+SELECT c.id, u.id, 'french-b2-candidature-universitaire-reading', 'reading', 'Bien rédiger sa lettre de motivation', 'Les conseils des services d’orientation universitaire pour structurer une candidature convaincante.', 20, 35, 'free', 18, true, NULL, NULL, NULL
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -240,7 +240,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-b2-candidature-universitaire-listening', 'listening', 'Un conseil de rédaction', 'Écoute Karim expliquer à Camila comment structurer sa lettre de motivation.', 21, 35, 'free', 14, true, NULL, NULL, '["Je ne sais pas comment...","Commence par...","Donne des exemples concrets.","Ce que tu apporteras..."]'::jsonb
+SELECT c.id, u.id, 'french-b2-candidature-universitaire-listening', 'listening', 'Construire une candidature convaincante', 'Écoute ce contenu de niveau B2 et identifie les idées, les nuances et les preuves.', 21, 35, 'free', 14, true, NULL, NULL, '["Je ne sais pas comment...","Commence par...","Donne des exemples concrets.","Ce que tu apporteras..."]'::jsonb
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -318,7 +318,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-b2-debats-de-societe-reading', 'reading', 'Le club de discussion', 'Camila participe pour la première fois à un débat en ligne sur l’usage des écrans chez les jeunes.', 30, 35, 'free', 18, true, NULL, NULL, NULL
+SELECT c.id, u.id, 'french-b2-debats-de-societe-reading', 'reading', 'Écrans et adolescence : un débat loin d’être tranché', 'Ce que disent réellement les recherches sur le temps d’écran chez les jeunes, entre inquiétudes légitimes et nuances scientifiques.', 30, 35, 'free', 18, true, NULL, NULL, NULL
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -331,7 +331,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-b2-debats-de-societe-listening', 'listening', 'Un échange d’arguments', 'Écoute deux participants du club de discussion échanger leurs points de vue.', 31, 35, 'free', 14, true, NULL, NULL, '["Il me semble que...","Néanmoins...","Le vrai problème, c’est...","Dans une certaine mesure..."]'::jsonb
+SELECT c.id, u.id, 'french-b2-debats-de-societe-listening', 'listening', 'Le débat public et ses règles', 'Écoute ce contenu de niveau B2 et identifie les idées, les nuances et les preuves.', 31, 35, 'free', 14, true, NULL, NULL, '["Il me semble que...","Néanmoins...","Le vrai problème, c’est...","Dans une certaine mesure..."]'::jsonb
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -409,7 +409,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-b2-le-teletravail-et-lavenir-professionnel-reading', 'reading', 'Travailler seule chez soi', 'Camila commence un emploi de traduction à distance et découvre les avantages et les difficultés du télétravail.', 40, 35, 'free', 18, true, NULL, NULL, NULL
+SELECT c.id, u.id, 'french-b2-le-teletravail-et-lavenir-professionnel-reading', 'reading', 'Le télétravail, une révolution encore incomplète', 'Ce que les études sur le travail à distance révèlent sur la productivité, l’isolement et l’avenir du bureau.', 40, 35, 'free', 18, true, NULL, NULL, NULL
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -422,7 +422,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-b2-le-teletravail-et-lavenir-professionnel-listening', 'listening', 'Un appel avec Karim sur le télétravail', 'Écoute Camila expliquer à Karim ses impressions sur le télétravail.', 41, 35, 'free', 14, true, NULL, NULL, '["Comment se passe... ?","C’est étrange de...","Ce dont tu as besoin...","Je vais essayer..."]'::jsonb
+SELECT c.id, u.id, 'french-b2-le-teletravail-et-lavenir-professionnel-listening', 'listening', 'Télétravail : autonomie ou isolement ?', 'Écoute ce contenu de niveau B2 et identifie les idées, les nuances et les preuves.', 41, 35, 'free', 14, true, NULL, NULL, '["Comment se passe... ?","C’est étrange de...","Ce dont tu as besoin...","Je vais essayer..."]'::jsonb
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -500,7 +500,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-b2-litterature-francophone-reading', 'reading', 'Le club de lecture', 'Camila découvre un roman francophone caribéen dans un club de lecture en ligne, et son thème résonne particulièrement avec son expérience.', 50, 35, 'free', 18, true, NULL, NULL, NULL
+SELECT c.id, u.id, 'french-b2-litterature-francophone-reading', 'reading', 'La créolité, un courant littéraire caribéen', 'Comment des écrivains martiniquais ont théorisé une identité culturelle plurielle à travers la littérature.', 50, 35, 'free', 18, true, NULL, NULL, NULL
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -513,7 +513,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-b2-litterature-francophone-listening', 'listening', 'L’interview de l’autrice', 'Écoute l’animatrice rapporter les propos de l’autrice du roman.', 51, 35, 'free', 14, true, NULL, NULL, '["Elle a dit que...","Elle a expliqué que...","Ça résonne avec...","C’est exactement ce que..."]'::jsonb
+SELECT c.id, u.id, 'french-b2-litterature-francophone-listening', 'listening', 'Pourquoi ce roman résonne encore', 'Écoute ce contenu de niveau B2 et identifie les idées, les nuances et les preuves.', 51, 35, 'free', 14, true, NULL, NULL, '["Elle a dit que...","Elle a expliqué que...","Ça résonne avec...","C’est exactement ce que..."]'::jsonb
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -591,7 +591,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-b2-cinema-et-critique-reading', 'reading', 'Ma première critique de cinéma', 'Camila regarde un film français avec Sofía et rédige, pour son blog, sa première vraie critique de cinéma.', 60, 35, 'free', 18, true, NULL, NULL, NULL
+SELECT c.id, u.id, 'french-b2-cinema-et-critique-reading', 'reading', 'Anatomie d’une chute : la Palme d’or qui a divisé', 'Retour sur le film de Justine Triet, récompensé à Cannes en 2023, et sur les débats qu’il a suscités.', 60, 35, 'free', 18, true, NULL, NULL, NULL
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -604,7 +604,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-b2-cinema-et-critique-listening', 'listening', 'Discuter du film', 'Écoute Camila et Sofía discuter de leurs impressions juste après le film.', 61, 35, 'free', 14, true, NULL, NULL, '["Qu’est-ce que tu en as pensé ?","Ce qui m’a marqué(e), c’est...","J’ai trouvé... un peu...","Ça valait la peine."]'::jsonb
+SELECT c.id, u.id, 'french-b2-cinema-et-critique-listening', 'listening', 'Une ville en silence : notre critique', 'Écoute ce contenu de niveau B2 et identifie les idées, les nuances et les preuves.', 61, 35, 'free', 14, true, NULL, NULL, '["Qu’est-ce que tu en as pensé ?","Ce qui m’a marqué(e), c’est...","J’ai trouvé... un peu...","Ça valait la peine."]'::jsonb
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -682,7 +682,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-b2-dilemmes-ethiques-reading', 'reading', 'Le dilemme du forum', 'Camila participe à un débat philosophique en ligne autour d’un dilemme moral classique.', 70, 35, 'free', 18, true, NULL, NULL, NULL
+SELECT c.id, u.id, 'french-b2-dilemmes-ethiques-reading', 'reading', 'Le dilemme du tramway : une expérience de pensée toujours discutée', 'Pourquoi cette expérience philosophique imaginée dans les années 1960 continue d’alimenter les débats en éthique et en intelligence artificielle.', 70, 35, 'free', 18, true, NULL, NULL, NULL
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -695,7 +695,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-b2-dilemmes-ethiques-listening', 'listening', 'Deux points de vue opposés', 'Écoute deux étudiants du forum exposer des points de vue différents sur le dilemme.', 71, 35, 'free', 14, true, NULL, NULL, '["Si j’avais découvert...","J’aurais confronté...","Tout dépendrait de...","Chacun réagit différemment."]'::jsonb
+SELECT c.id, u.id, 'french-b2-dilemmes-ethiques-listening', 'listening', 'Aurais-je dû intervenir ?', 'Écoute ce contenu de niveau B2 et identifie les idées, les nuances et les preuves.', 71, 35, 'free', 14, true, NULL, NULL, '["Si j’avais découvert...","J’aurais confronté...","Tout dépendrait de...","Chacun réagit différemment."]'::jsonb
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -773,7 +773,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-b2-sciences-et-innovations-reading', 'reading', 'L’article de Karim', 'Karim partage avec Camila un article de vulgarisation scientifique sur l’intelligence artificielle.', 80, 35, 'free', 18, true, NULL, NULL, NULL
+SELECT c.id, u.id, 'french-b2-sciences-et-innovations-reading', 'reading', 'Intelligence artificielle : quelles répercussions sur l’emploi ?', 'Ce que les études économiques récentes disent des effets de l’automatisation par IA sur le marché du travail.', 80, 35, 'free', 18, true, NULL, NULL, NULL
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -786,7 +786,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-b2-sciences-et-innovations-listening', 'listening', 'Un débat sur l’IA', 'Écoute Karim et Camila débattre des avantages et des risques de l’intelligence artificielle.', 81, 35, 'free', 14, true, NULL, NULL, '["Dans la mesure où...","Il est possible que...","Il faut rester vigilant.","Tout dépend de..."]'::jsonb
+SELECT c.id, u.id, 'french-b2-sciences-et-innovations-listening', 'listening', 'L’intelligence artificielle transforme le diagnostic', 'Écoute ce contenu de niveau B2 et identifie les idées, les nuances et les preuves.', 81, 35, 'free', 14, true, NULL, NULL, '["Dans la mesure où...","Il est possible que...","Il faut rester vigilant.","Tout dépend de..."]'::jsonb
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -864,7 +864,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-b2-histoire-et-memoire-reading', 'reading', 'Le documentaire avec grand-mère', 'Camila regarde un documentaire historique avec sa grand-mère, qui partage ses propres souvenirs familiaux.', 90, 35, 'free', 18, true, NULL, NULL, NULL
+SELECT c.id, u.id, 'french-b2-histoire-et-memoire-reading', 'reading', 'Haïti et la République dominicaine : une île, deux mémoires', 'Comment un passé commun et douloureux continue de façonner les relations entre les deux pays qui se partagent Hispaniola.', 90, 35, 'free', 18, true, NULL, NULL, NULL
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -877,7 +877,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-b2-histoire-et-memoire-listening', 'listening', 'Le récit de grand-mère', 'Écoute la grand-mère de Camila raconter un souvenir familial.', 91, 35, 'free', 14, true, NULL, NULL, '["Celle dont je me souviens le mieux...","Raconte-moi, s’il te plaît.","Elle avait accueilli...","Merci de me la raconter."]'::jsonb
+SELECT c.id, u.id, 'french-b2-histoire-et-memoire-listening', 'listening', 'La voix conservée dans une cassette', 'Écoute ce contenu de niveau B2 et identifie les idées, les nuances et les preuves.', 91, 35, 'free', 14, true, NULL, NULL, '["Celle dont je me souviens le mieux...","Raconte-moi, s’il te plaît.","Elle avait accueilli...","Merci de me la raconter."]'::jsonb
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -955,7 +955,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-b2-ecologie-et-engagement-citoyen-reading', 'reading', 'Sauver les mangroves', 'Camila rejoint un groupe de bénévoles engagés dans la protection des mangroves et rédige une demande de partenariat en français.', 100, 35, 'free', 18, true, NULL, NULL, NULL
+SELECT c.id, u.id, 'french-b2-ecologie-et-engagement-citoyen-reading', 'reading', 'Les mangroves des Caraïbes, un rempart naturel menacé', 'Pourquoi la protection de ces écosystèmes côtiers est devenue une priorité pour les organisations environnementales de la région.', 100, 35, 'free', 18, true, NULL, NULL, NULL
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -968,7 +968,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-b2-ecologie-et-engagement-citoyen-listening', 'listening', 'Une sortie sur le terrain', 'Écoute Ana expliquer à Camila l’importance des mangroves lors de leur première sortie.', 101, 35, 'free', 14, true, NULL, NULL, '["Elles protègent...","Je ne savais pas que...","Elles sont menacées par...","Comment puis-je m’impliquer ?"]'::jsonb
+SELECT c.id, u.id, 'french-b2-ecologie-et-engagement-citoyen-listening', 'listening', 'Une coalition pour restaurer la mangrove', 'Écoute ce contenu de niveau B2 et identifie les idées, les nuances et les preuves.', 101, 35, 'free', 14, true, NULL, NULL, '["Elles protègent...","Je ne savais pas que...","Elles sont menacées par...","Comment puis-je m’impliquer ?"]'::jsonb
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -1046,7 +1046,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-b2-art-et-creativite-reading', 'reading', 'L’interview de l’artiste', 'Camila interviewe une artiste peintre franco-dominicaine pour son blog, et découvre son processus créatif.', 110, 35, 'free', 18, true, NULL, NULL, NULL
+SELECT c.id, u.id, 'french-b2-art-et-creativite-reading', 'reading', 'Wifredo Lam, peintre de l’identité caribéenne plurielle', 'Comment ce peintre cubain d’origine chinoise, africaine et européenne a transformé la question de l’identité en langage pictural.', 110, 35, 'free', 18, true, NULL, NULL, NULL
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -1059,7 +1059,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-b2-art-et-creativite-listening', 'listening', 'Le processus créatif de Mireille', 'Écoute Mireille expliquer comment elle travaille avant de commencer une œuvre.', 111, 35, 'free', 14, true, NULL, NULL, '["Comment commence votre processus... ?","Toujours par...","Qu’est-ce qui vous inspire ?","Je m’inspire de..."]'::jsonb
+SELECT c.id, u.id, 'french-b2-art-et-creativite-listening', 'listening', 'Le portrait sonore de Mireille', 'Écoute ce contenu de niveau B2 et identifie les idées, les nuances et les preuves.', 111, 35, 'free', 14, true, NULL, NULL, '["Comment commence votre processus... ?","Toujours par...","Qu’est-ce qui vous inspire ?","Je m’inspire de..."]'::jsonb
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -1137,7 +1137,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-b2-bilan-et-projets-davenir-reading', 'reading', 'La lettre à mon ancien moi', 'Camila reçoit la réponse de l’université de Tours et écrit une lettre à la version d’elle-même d’il y a deux ans.', 120, 35, 'free', 18, true, NULL, NULL, NULL
+SELECT c.id, u.id, 'french-b2-bilan-et-projets-davenir-reading', 'reading', 'Ce que les études disent des bénéfices d’une mobilité internationale', 'Pourquoi un séjour académique à l’étranger continue de transformer durablement les parcours des jeunes qui l’entreprennent.', 120, 35, 'free', 18, true, NULL, NULL, NULL
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -1150,7 +1150,7 @@ ON CONFLICT (slug) DO UPDATE SET
   mission = EXCLUDED.mission, grammar_note = EXCLUDED.grammar_note, phrases = EXCLUDED.phrases;
 INSERT INTO public.course_lessons
   (course_id, unit_id, slug, skill, title, description, order_index, xp_reward, access_tier, estimated_minutes, is_published, mission, grammar_note, phrases)
-SELECT c.id, u.id, 'french-b2-bilan-et-projets-davenir-listening', 'listening', 'L’appel avec Léa et Karim', 'Écoute Camila annoncer la bonne nouvelle à Léa et Karim en visioconférence.', 121, 35, 'free', 14, true, NULL, NULL, '["J’ai une nouvelle incroyable.","C’est fantastique !","On va enfin pouvoir...","Je n’arrive pas à y croire."]'::jsonb
+SELECT c.id, u.id, 'french-b2-bilan-et-projets-davenir-listening', 'listening', 'Avec le recul', 'Écoute ce contenu de niveau B2 et identifie les idées, les nuances et les preuves.', 121, 35, 'free', 14, true, NULL, NULL, '["J’ai une nouvelle incroyable.","C’est fantastique !","On va enfin pouvoir...","Je n’arrive pas à y croire."]'::jsonb
 FROM public.courses c
 JOIN public.languages l ON l.id = c.language_id
 JOIN public.levels lv ON lv.id = c.level_id
@@ -1245,23 +1245,15 @@ WHERE lesson_id IN (
 -- 7. lesson_sections (intro / vocabulary_item / dialogue_line / reading)
 -- ---------------------------------------------------------------------
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, reading_title, reading_text, reading_questions, reading_parts, reading_ordering)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-retour-a-saint-domingue-reading'), 'reading', 0, 'L’aéroport des retrouvailles', 'Quand l''avion atterrit à Saint-Domingue, Camila sent son cœur battre plus vite qu''à l''accoutumée. Un an s''était écoulé depuis son départ, et elle avait presque oublié à quel point la chaleur humide des Caraïbes pouvait la saisir dès la sortie de l''appareil. En traversant le hall des arrivées, elle aperçoit une pancarte tenue par sa petite sœur : « Bienvenue chez toi, Camila ! », avec des fautes d''orthographe qui la font sourire aux larmes. Sa mère, son père et Sofía, sa meilleure amie, l''attendent également, tous les quatre agitant les bras avec un enthousiasme qu''elle avait presque oublié.
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-retour-a-saint-domingue-reading'), 'reading', 0, 'Le choc culturel du retour', 'Les conseillers en mobilité internationale le répètent depuis longtemps : le départ à l’étranger est préparé avec soin, mais le retour, lui, prend souvent les voyageurs au dépourvu. Ce phénomène, que les chercheurs en psychologie interculturelle avaient déjà décrit dès les années 1960 sous le nom de « choc culturel inversé », touche une proportion importante des étudiants, des expatriés et des volontaires internationaux qui rentrent dans leur pays d’origine après une longue absence. Alors que l’on s’attend généralement à retrouver un environnement familier, beaucoup constatent que ce sont eux-mêmes qui avaient changé, bien plus que le lieu auquel ils reviennent.
 
-Les retrouvailles sont un mélange étrange d''émotions. D''un côté, Camila ressent une joie immense de serrer sa famille dans ses bras après tant de mois passés à communiquer uniquement par écran interposé. De l''autre, elle a l''étrange sensation d''être devenue, en quelque sorte, une étrangère dans son propre pays. Sofía le remarque immédiatement : « Tu parles différemment maintenant, tu fais des pauses bizarres, comme si tu traduisais dans ta tête avant de parler espagnol ! » Camila rit, un peu gênée, mais elle sait que son amie a raison : après un an immergée dans une autre langue et une autre culture, quelque chose en elle a changé, sans qu''elle sache exactement quoi.
+Plusieurs études menées auprès d’anciens étudiants Erasmus et d’autres programmes d’échange montrent que ce trouble se manifeste par des symptômes proches de ceux d’une adaptation classique : irritabilité, sentiment de décalage, difficulté à partager une expérience que l’entourage n’avait pas vécue. Un jeune qui avait passé une année entière immergé dans une autre langue découvre parfois qu’il pense, réagit et s’exprime différemment, sans que ses proches ne comprennent immédiatement ce changement. Certains rapportent même avoir eu l’impression, une fois rentrés, d’être devenus des étrangers dans leur propre pays.
 
-Dans la voiture qui les ramène à la maison, Camila observe par la fenêtre les rues qu''elle connaissait par cœur avant son départ. Tout lui semble à la fois familier et légèrement différent, comme si elle regardait sa propre vie à travers un objectif légèrement décalé. Elle se surprend à comparer inconsciemment : la façon dont on klaxonne dans la circulation, l''odeur de la cuisine dominicaine qui s''échappe des fenêtres ouvertes, la musique qui joue plus fort que dans les rues tranquilles de Tours. Elle n''avait pas anticipé que revenir chez elle demanderait, lui aussi, un temps d''adaptation, presque comme si elle avait deux maisons désormais, et qu''aucune des deux ne lui appartenait plus complètement.
+Les spécialistes recommandent plusieurs stratégies pour atténuer ce phénomène. Il est conseillé de garder un contact régulier avec les amitiés nouées à l’étranger, de continuer à pratiquer la langue apprise, et surtout, de ne pas minimiser l’expérience vécue au prétexte qu’elle serait terminée. Une association ne devrait pas non plus négliger l’accompagnement au retour : plusieurs universités et organismes d’échange proposent désormais des ateliers spécifiquement conçus pour aider les anciens participants à mettre des mots sur cette transition, souvent plus longue et plus complexe qu’on ne l’avait imaginé avant de partir.
 
-Ce soir-là, allongée dans son ancienne chambre restée exactement comme elle l''avait laissée, Camila repense à sa dernière conversation avec Léa avant de partir. « Tu vas voir, m''avait-elle dit, revenir chez toi ne sera pas aussi simple que tu le penses. » Sur le moment, Camila n''avait pas vraiment compris ce que son amie voulait dire. Maintenant, allongée dans le noir, elle comprend enfin : elle n''est plus tout à fait la même personne qui était partie un an plus tôt, et il lui faudra du temps pour réapprendre à habiter pleinement cette vie qu''elle avait quittée avec tant d''appréhension, et qu''elle retrouve aujourd''hui avec un mélange de joie sincère et de trouble inattendu.', '["Comment Camila se sent-elle en sortant de l’avion ?","Que remarque Sofía chez Camila ?","Pourquoi Camila se sent-elle « étrangère dans son propre pays » ?"]'::jsonb, '["Quand l''avion atterrit à Saint-Domingue, Camila sent son cœur battre plus vite qu''à l''accoutumée. Un an s''était écoulé depuis son départ, et elle avait presque oublié à quel point la chaleur humide des Caraïbes pouvait la saisir dès la sortie de l''appareil. En traversant le hall des arrivées, elle aperçoit une pancarte tenue par sa petite sœur : « Bienvenue chez toi, Camila ! », avec des fautes d''orthographe qui la font sourire aux larmes. Sa mère, son père et Sofía, sa meilleure amie, l''attendent également, tous les quatre agitant les bras avec un enthousiasme qu''elle avait presque oublié.","Les retrouvailles sont un mélange étrange d''émotions. D''un côté, Camila ressent une joie immense de serrer sa famille dans ses bras après tant de mois passés à communiquer uniquement par écran interposé. De l''autre, elle a l''étrange sensation d''être devenue, en quelque sorte, une étrangère dans son propre pays. Sofía le remarque immédiatement : « Tu parles différemment maintenant, tu fais des pauses bizarres, comme si tu traduisais dans ta tête avant de parler espagnol ! » Camila rit, un peu gênée, mais elle sait que son amie a raison : après un an immergée dans une autre langue et une autre culture, quelque chose en elle a changé, sans qu''elle sache exactement quoi.","Dans la voiture qui les ramène à la maison, Camila observe par la fenêtre les rues qu''elle connaissait par cœur avant son départ. Tout lui semble à la fois familier et légèrement différent, comme si elle regardait sa propre vie à travers un objectif légèrement décalé. Elle se surprend à comparer inconsciemment : la façon dont on klaxonne dans la circulation, l''odeur de la cuisine dominicaine qui s''échappe des fenêtres ouvertes, la musique qui joue plus fort que dans les rues tranquilles de Tours. Elle n''avait pas anticipé que revenir chez elle demanderait, lui aussi, un temps d''adaptation, presque comme si elle avait deux maisons désormais, et qu''aucune des deux ne lui appartenait plus complètement.","Ce soir-là, allongée dans son ancienne chambre restée exactement comme elle l''avait laissée, Camila repense à sa dernière conversation avec Léa avant de partir. « Tu vas voir, m''avait-elle dit, revenir chez toi ne sera pas aussi simple que tu le penses. » Sur le moment, Camila n''avait pas vraiment compris ce que son amie voulait dire. Maintenant, allongée dans le noir, elle comprend enfin : elle n''est plus tout à fait la même personne qui était partie un an plus tôt, et il lui faudra du temps pour réapprendre à habiter pleinement cette vie qu''elle avait quittée avec tant d''appréhension, et qu''elle retrouve aujourd''hui avec un mélange de joie sincère et de trouble inattendu."]'::jsonb, '{"prompt":"Remets les moments du retour de Camila dans l’ordre.","events":["L’avion de Camila atterrit à Saint-Domingue.","Sofía remarque que Camila parle différemment.","Camila observe les rues familières depuis la voiture.","Camila repense, le soir, à ce que Léa lui avait dit avant son départ."]}'::jsonb);
+Ce qui ressort surtout de ces recherches, c’est que le retour ne doit pas être vécu comme un échec ou un simple retour à la normale, mais comme une étape à part entière du parcours de mobilité. Les personnes qui avaient anticipé cette difficulté, ne serait-ce qu’en en discutant avant leur départ, s’adaptent généralement plus rapidement que celles qui pensaient que rien n’aurait vraiment changé entre-temps. Comprendre ce mécanisme permet, in fine, de transformer une période potentiellement déstabilisante en une occasion supplémentaire de mieux se connaître soi-même.', '["Comment les chercheurs appellent-ils la difficulté ressentie au retour d’un séjour à l’étranger ?","Depuis quand ce phénomène est-il décrit par les chercheurs, selon le texte ?","Qu’est-ce qui a le plus souvent changé, selon les études citées ?","Quelle stratégie les spécialistes recommandent-ils pour atténuer ce trouble ?","Que proposent désormais certaines universités et organismes d’échange ?"]'::jsonb, '["Les conseillers en mobilité internationale le répètent depuis longtemps : le départ à l’étranger est préparé avec soin, mais le retour, lui, prend souvent les voyageurs au dépourvu. Ce phénomène, que les chercheurs en psychologie interculturelle avaient déjà décrit dès les années 1960 sous le nom de « choc culturel inversé », touche une proportion importante des étudiants, des expatriés et des volontaires internationaux qui rentrent dans leur pays d’origine après une longue absence. Alors que l’on s’attend généralement à retrouver un environnement familier, beaucoup constatent que ce sont eux-mêmes qui avaient changé, bien plus que le lieu auquel ils reviennent.","Plusieurs études menées auprès d’anciens étudiants Erasmus et d’autres programmes d’échange montrent que ce trouble se manifeste par des symptômes proches de ceux d’une adaptation classique : irritabilité, sentiment de décalage, difficulté à partager une expérience que l’entourage n’avait pas vécue. Un jeune qui avait passé une année entière immergé dans une autre langue découvre parfois qu’il pense, réagit et s’exprime différemment, sans que ses proches ne comprennent immédiatement ce changement. Certains rapportent même avoir eu l’impression, une fois rentrés, d’être devenus des étrangers dans leur propre pays.","Les spécialistes recommandent plusieurs stratégies pour atténuer ce phénomène. Il est conseillé de garder un contact régulier avec les amitiés nouées à l’étranger, de continuer à pratiquer la langue apprise, et surtout, de ne pas minimiser l’expérience vécue au prétexte qu’elle serait terminée. Une association ne devrait pas non plus négliger l’accompagnement au retour : plusieurs universités et organismes d’échange proposent désormais des ateliers spécifiquement conçus pour aider les anciens participants à mettre des mots sur cette transition, souvent plus longue et plus complexe qu’on ne l’avait imaginé avant de partir.","Ce qui ressort surtout de ces recherches, c’est que le retour ne doit pas être vécu comme un échec ou un simple retour à la normale, mais comme une étape à part entière du parcours de mobilité. Les personnes qui avaient anticipé cette difficulté, ne serait-ce qu’en en discutant avant leur départ, s’adaptent généralement plus rapidement que celles qui pensaient que rien n’aurait vraiment changé entre-temps. Comprendre ce mécanisme permet, in fine, de transformer une période potentiellement déstabilisante en une occasion supplémentaire de mieux se connaître soi-même."]'::jsonb, NULL);
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, line)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-retour-a-saint-domingue-listening'), 'intro', 0, 'Écoute les premiers échanges entre Camila et Sofía après un an de séparation.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-retour-a-saint-domingue-listening'), 'dialogue_line', 0, 'Sofía', 'Camila ! Tu m’as tellement manqué, je n’arrive pas à y croire !', '¡Camila! Te extrañé tanto, ¡no puedo creerlo!');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-retour-a-saint-domingue-listening'), 'dialogue_line', 1, 'Camila', 'Toi aussi, Sofía. C’est tellement étrange d’être enfin de retour.', 'Tú también, Sofía. Es tan extraño estar por fin de vuelta.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-retour-a-saint-domingue-listening'), 'dialogue_line', 2, 'Sofía', 'Tu parles bizarrement, on dirait que tu réfléchis avant chaque mot !', '¡Hablas raro, parece que piensas antes de cada palabra!');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-retour-a-saint-domingue-listening'), 'dialogue_line', 3, 'Camila', 'Ha ha, c’est vrai, j’ai dû traduire dans ma tête pendant si longtemps.', 'Ja ja, es verdad, tuve que traducir en mi cabeza durante tanto tiempo.');
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-retour-a-saint-domingue-listening'), 'intro', 0, 'Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-retour-a-saint-domingue-speaking'), 'dialogue_line', 0, 'Toi', 'D’un côté, j’étais heureux/heureuse de retrouver ma famille. De l’autre, j’avais le sentiment étrange d’avoir changé plus que prévu.', 'Por un lado, estaba feliz de reencontrarme con mi familia. Por otro, tenía la extraña sensación de haber cambiado más de lo esperado.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
@@ -1287,23 +1279,15 @@ VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-retour-a-s
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-retour-a-saint-domingue-dialogue'), 'dialogue_line', 3, 'Camila', 'Oui, je crois que oui, même si ça me fait un peu peur de repartir si loin.', 'Sí, creo que sí, aunque me da un poco de miedo irme tan lejos de nuevo.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, reading_title, reading_text, reading_questions, reading_parts, reading_ordering)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-candidature-universitaire-reading'), 'reading', 0, 'La lettre de motivation de Camila', 'Assise devant son ordinateur, Camila fixe la page blanche depuis presque une heure. Elle doit rédiger sa lettre de motivation pour candidater à une licence de langues étrangères appliquées à l''université de Tours, la même ville où elle a passé son année d''échange. « C''est plus difficile que je ne le pensais », avoue-t-elle à Karim, qu''elle a appelé en visioconférence pour obtenir de l''aide. « Je ne sais pas comment expliquer pourquoi je veux étudier là-bas sans avoir l''air prétentieuse ou, au contraire, trop timide. »
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-candidature-universitaire-reading'), 'reading', 0, 'Bien rédiger sa lettre de motivation', 'Chaque année, les services d’orientation des universités françaises reçoivent des milliers de questions de candidats qui se demandent comment rédiger une lettre de motivation efficace. Contrairement à une idée répandue, il ne s’agit pas de multiplier les formules élogieuses ni de résumer l’ensemble de son parcours scolaire : la lettre doit avant tout démontrer que le candidat a compris les spécificités de la formation visée et qu’il est capable d’expliquer, avec des exemples précis, ce qui motive réellement son choix.
 
-Karim, qui a lui-même rédigé plusieurs lettres de motivation pour des stages, lui propose une structure simple : commencer par expliquer concrètement ce qui a déclenché son intérêt, puis développer des exemples précis de son expérience, et terminer en expliquant ce qu''elle compte apporter à l''université, et non seulement ce qu''elle espère en recevoir. « Il ne suffit pas que tu dises que tu as aimé la France », précise-t-il. « Il faut que tu montres, avec des exemples concrets, pourquoi cette expérience t''a changée. »
+Les conseillers pédagogiques insistent sur une structure en trois temps, désormais largement recommandée par les guides d’orientation : présenter d’abord l’élément déclencheur de l’intérêt pour la discipline, développer ensuite une ou deux expériences concrètes qui l’illustrent, puis conclure en expliquant ce que le candidat compte apporter à la formation, et non pas seulement ce qu’il espère en retirer. Cette dernière étape est souvent négligée, alors qu’elle permet aux jurys d’admission de distinguer un projet réfléchi d’une simple liste de vœux. Les erreurs les plus fréquentes relevées par les responsables d’admission concernent le manque de spécificité : une lettre trop générale, qui pourrait être envoyée à n’importe quelle formation sans modification, laisse penser que le candidat n’a pas mené de véritable recherche préalable. À l’inverse, mentionner un enseignant particulier, un projet de recherche du département ou une spécialisation précise démontre un engagement authentique, à condition, bien sûr, que ces informations correspondent réellement au dossier envoyé.
 
-Suivant ces conseils, Camila commence à écrire différemment. Elle raconte comment, après avoir vécu un an immergée dans la langue française, elle a découvert une véritable passion pour la traduction et la médiation interculturelle. Elle mentionne des moments précis : le jour où elle a aidé une touriste perdue à Tours en traduisant entre le français et l''espagnol, ou celui où elle a présenté un exposé comparant les cultures dominicaine et française devant toute sa classe. Par ailleurs, elle explique qu''elle souhaite, à terme, devenir traductrice ou interprète, pour aider d''autres personnes à franchir les barrières linguistiques qu''elle a elle-même dû surmonter.
+Un dernier conseil, souvent répété par les conseillers d’orientation, concerne l’équilibre entre confiance et humilité. Il est essentiel que le candidat sache valoriser ses réussites sans en exagérer la portée, et qu’il reconnaisse aussi, le cas échéant, les difficultés qu’il a rencontrées et surmontées. Une lettre honnête, dans laquelle transparaît une véritable réflexion personnelle, reste, selon la plupart des responsables de recrutement universitaire interrogés, bien plus convaincante qu’un texte parfaitement formaté mais impersonnel.
 
-Après plusieurs relectures et un dernier appel avec Léa pour corriger quelques fautes de français, Camila envoie enfin sa candidature, le cœur battant. Elle sait que le résultat n''est pas garanti, mais pour la première fois depuis qu''elle a commencé à écrire cette lettre, elle a le sentiment d''avoir exprimé honnêtement qui elle est devenue et ce qu''elle souhaite construire pour son avenir. Quelle que soit la réponse de l''université, elle est fière du chemin parcouru depuis cette première journée nerveuse à l''école de Tours, un an plus tôt.', '["Pourquoi Camila trouve-t-elle cet exercice difficile au début ?","Quelle structure Karim lui propose-t-il pour sa lettre ?","Que souhaite faire Camila professionnellement à l’avenir ?"]'::jsonb, '["Assise devant son ordinateur, Camila fixe la page blanche depuis presque une heure. Elle doit rédiger sa lettre de motivation pour candidater à une licence de langues étrangères appliquées à l''université de Tours, la même ville où elle a passé son année d''échange. « C''est plus difficile que je ne le pensais », avoue-t-elle à Karim, qu''elle a appelé en visioconférence pour obtenir de l''aide. « Je ne sais pas comment expliquer pourquoi je veux étudier là-bas sans avoir l''air prétentieuse ou, au contraire, trop timide. »","Karim, qui a lui-même rédigé plusieurs lettres de motivation pour des stages, lui propose une structure simple : commencer par expliquer concrètement ce qui a déclenché son intérêt, puis développer des exemples précis de son expérience, et terminer en expliquant ce qu''elle compte apporter à l''université, et non seulement ce qu''elle espère en recevoir. « Il ne suffit pas que tu dises que tu as aimé la France », précise-t-il. « Il faut que tu montres, avec des exemples concrets, pourquoi cette expérience t''a changée. »","Suivant ces conseils, Camila commence à écrire différemment. Elle raconte comment, après avoir vécu un an immergée dans la langue française, elle a découvert une véritable passion pour la traduction et la médiation interculturelle. Elle mentionne des moments précis : le jour où elle a aidé une touriste perdue à Tours en traduisant entre le français et l''espagnol, ou celui où elle a présenté un exposé comparant les cultures dominicaine et française devant toute sa classe. Par ailleurs, elle explique qu''elle souhaite, à terme, devenir traductrice ou interprète, pour aider d''autres personnes à franchir les barrières linguistiques qu''elle a elle-même dû surmonter.","Après plusieurs relectures et un dernier appel avec Léa pour corriger quelques fautes de français, Camila envoie enfin sa candidature, le cœur battant. Elle sait que le résultat n''est pas garanti, mais pour la première fois depuis qu''elle a commencé à écrire cette lettre, elle a le sentiment d''avoir exprimé honnêtement qui elle est devenue et ce qu''elle souhaite construire pour son avenir. Quelle que soit la réponse de l''université, elle est fière du chemin parcouru depuis cette première journée nerveuse à l''école de Tours, un an plus tôt."]'::jsonb, '{"prompt":"Remets les étapes de la rédaction de la lettre dans l’ordre.","events":["Camila fixe une page blanche, sans savoir comment commencer.","Karim lui propose une structure en trois parties.","Camila écrit des exemples concrets de son expérience en France.","Elle envoie sa candidature après relecture avec Léa."]}'::jsonb);
+En définitive, une bonne lettre de motivation ne cherche pas à impressionner à tout prix, mais à établir une cohérence claire entre le passé du candidat, ses expériences vécues et le projet qu’il présente. C’est cette cohérence, davantage que le style ou la longueur du texte, que les commissions d’admission cherchent avant tout à identifier lorsqu’elles examinent des centaines de dossiers chaque année.', '["Que doit avant tout démontrer une lettre de motivation, selon le texte ?","Quelle est la structure en trois temps recommandée par les conseillers pédagogiques ?","Pourquoi la dernière étape (ce que le candidat apportera) est-elle souvent négligée mais importante ?","Quelle est l’erreur la plus fréquente relevée par les responsables d’admission ?","Que recommandent les conseillers concernant l’équilibre entre confiance et humilité ?"]'::jsonb, '["Chaque année, les services d’orientation des universités françaises reçoivent des milliers de questions de candidats qui se demandent comment rédiger une lettre de motivation efficace. Contrairement à une idée répandue, il ne s’agit pas de multiplier les formules élogieuses ni de résumer l’ensemble de son parcours scolaire : la lettre doit avant tout démontrer que le candidat a compris les spécificités de la formation visée et qu’il est capable d’expliquer, avec des exemples précis, ce qui motive réellement son choix.","Les conseillers pédagogiques insistent sur une structure en trois temps, désormais largement recommandée par les guides d’orientation : présenter d’abord l’élément déclencheur de l’intérêt pour la discipline, développer ensuite une ou deux expériences concrètes qui l’illustrent, puis conclure en expliquant ce que le candidat compte apporter à la formation, et non pas seulement ce qu’il espère en retirer. Cette dernière étape est souvent négligée, alors qu’elle permet aux jurys d’admission de distinguer un projet réfléchi d’une simple liste de vœux. Les erreurs les plus fréquentes relevées par les responsables d’admission concernent le manque de spécificité : une lettre trop générale, qui pourrait être envoyée à n’importe quelle formation sans modification, laisse penser que le candidat n’a pas mené de véritable recherche préalable. À l’inverse, mentionner un enseignant particulier, un projet de recherche du département ou une spécialisation précise démontre un engagement authentique, à condition, bien sûr, que ces informations correspondent réellement au dossier envoyé.","Un dernier conseil, souvent répété par les conseillers d’orientation, concerne l’équilibre entre confiance et humilité. Il est essentiel que le candidat sache valoriser ses réussites sans en exagérer la portée, et qu’il reconnaisse aussi, le cas échéant, les difficultés qu’il a rencontrées et surmontées. Une lettre honnête, dans laquelle transparaît une véritable réflexion personnelle, reste, selon la plupart des responsables de recrutement universitaire interrogés, bien plus convaincante qu’un texte parfaitement formaté mais impersonnel.","En définitive, une bonne lettre de motivation ne cherche pas à impressionner à tout prix, mais à établir une cohérence claire entre le passé du candidat, ses expériences vécues et le projet qu’il présente. C’est cette cohérence, davantage que le style ou la longueur du texte, que les commissions d’admission cherchent avant tout à identifier lorsqu’elles examinent des centaines de dossiers chaque année."]'::jsonb, NULL);
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, line)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-candidature-universitaire-listening'), 'intro', 0, 'Écoute la conversation en visioconférence entre Camila et Karim.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-candidature-universitaire-listening'), 'dialogue_line', 0, 'Camila', 'Je ne sais pas comment commencer cette lettre sans avoir l’air prétentieuse.', 'No sé cómo empezar esta carta sin parecer pretenciosa.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-candidature-universitaire-listening'), 'dialogue_line', 1, 'Karim', 'Commence par expliquer ce qui a vraiment déclenché ton intérêt.', 'Empieza explicando qué fue lo que realmente despertó tu interés.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-candidature-universitaire-listening'), 'dialogue_line', 2, 'Camila', 'D’accord, et ensuite ?', 'De acuerdo, ¿y después?');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-candidature-universitaire-listening'), 'dialogue_line', 3, 'Karim', 'Donne des exemples concrets, puis explique ce que tu apporteras à l’université.', 'Da ejemplos concretos, luego explica lo que aportarás a la universidad.');
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-candidature-universitaire-listening'), 'intro', 0, 'Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-candidature-universitaire-speaking'), 'dialogue_line', 0, 'Toi', 'Ce qui a déclenché mon intérêt pour ce domaine, c’est une expérience précise. Par exemple, j’ai... Par ailleurs, je pense pouvoir apporter...', 'Lo que despertó mi interés en este campo fue una experiencia concreta. Por ejemplo, yo... Además, creo que puedo aportar...');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
@@ -1329,23 +1313,15 @@ VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-candidatur
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-candidature-universitaire-dialogue'), 'dialogue_line', 3, 'Léa', 'Tu as raison d’être fière de ce que tu as écrit, c’est sincère et convaincant.', 'Tienes razón en estar orgullosa de lo que escribiste, es sincero y convincente.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, reading_title, reading_text, reading_questions, reading_parts, reading_ordering)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-debats-de-societe-reading'), 'reading', 0, 'Le club de discussion', 'Pour continuer à pratiquer son français après son retour à Saint-Domingue, Camila rejoint un club de discussion en ligne organisé par d''anciens élèves d''échange scolaire, où l''on débat chaque semaine d''un sujet de société différent. Ce soir, le thème est : « Faut-il limiter l''usage des écrans chez les adolescents ? » Camila, un peu nerveuse à l''idée de débattre devant des inconnus, écoute d''abord attentivement les arguments des autres participants avant de prendre la parole.
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-debats-de-societe-reading'), 'reading', 0, 'Écrans et adolescence : un débat loin d’être tranché', 'Depuis plusieurs années, l’usage des écrans chez les adolescents fait l’objet d’un débat récurrent dans les médias, les établissements scolaires et les familles. En France, des agences sanitaires comme l’ANSES ont publié des recommandations invitant à limiter le temps passé devant les écrans, en particulier avant le coucher, en raison de ses effets potentiels sur le sommeil et la concentration. Ces recommandations, largement relayées, ont contribué à installer dans l’opinion publique l’idée que les écrans seraient, par nature, néfastes pour les jeunes.
 
-Un étudiant belge ouvre le débat : « Il me semble que les écrans, utilisés avec modération, peuvent être un formidable outil éducatif. Néanmoins, il ne faut pas ignorer les risques d''addiction, particulièrement documentés chez les plus jeunes. » Une autre participante, française, nuance : « Dans une certaine mesure, je suis d''accord, mais je pense que le vrai problème n''est pas l''écran en lui-même, mais le contenu qui y est consommé. Or, ce contenu est rarement contrôlé par les parents. »
+Or, une partie de la communauté scientifique invite à nuancer ce constat. Plusieurs chercheurs en psychologie du développement soulignent que ce n’est pas tant la durée d’exposition qui importe que le type de contenu consommé et le contexte dans lequel il l’est. Un adolescent qui utilise un écran pour échanger avec des amis, apprendre une langue ou créer du contenu ne se trouve pas, selon ces travaux, dans la même situation qu’un autre qui consulte de façon compulsive des contenus conçus pour capter l’attention le plus longtemps possible. Cette distinction, souvent absente des discours alarmistes, complique nettement l’établissement de recommandations universelles.
 
-Camila, encouragée par ce ton respectueux et nuancé, décide finalement de partager son propre point de vue. « D''après mon expérience personnelle, les réseaux sociaux m''ont aidée à garder le contact avec mes amis pendant mon année à l''étranger. Ils ne peuvent donc pas être considérés uniquement comme négatifs. Cependant, je reconnais qu''ils peuvent aussi devenir une source de stress, notamment quand on compare sa vie à celle des autres. » Son intervention est bien accueillie, et plusieurs participants la remercient d''avoir apporté une perspective différente, fondée sur une expérience vécue plutôt que sur des généralités.
+Les partisans d’une régulation plus stricte rappellent, quant à eux, que l’architecture même de nombreuses plateformes numériques est pensée pour maximiser le temps de connexion, indépendamment de l’intérêt réel du contenu proposé. Certains pays ont d’ailleurs commencé à légiférer sur l’accès des mineurs aux réseaux sociaux, tandis que d’autres préfèrent miser sur l’éducation aux médias plutôt que sur des interdictions strictes, dont l’efficacité réelle reste, à ce jour, difficile à mesurer précisément.
 
-À la fin de la session, l''animateur du club résume les positions exprimées : selon lui, aucun argument n''a été complètement réfuté, mais chacun a permis d''affiner la réflexion collective. Camila raccroche son ordinateur avec un sentiment de satisfaction inédit : pour la première fois, elle a réussi à argumenter en français sur un sujet complexe, devant des inconnus, sans se sentir dépassée par la difficulté de la tâche. Elle comprend que ce type d''exercice, bien plus que la simple mémorisation de vocabulaire, est ce qui lui permettra réellement de progresser vers la maîtrise complète de cette langue qu''elle a apprise à aimer.', '["Quel est le sujet du débat de ce soir-là ?","Quel argument la participante française apporte-t-elle ?","Quelle expérience personnelle Camila partage-t-elle ?"]'::jsonb, '["Pour continuer à pratiquer son français après son retour à Saint-Domingue, Camila rejoint un club de discussion en ligne organisé par d''anciens élèves d''échange scolaire, où l''on débat chaque semaine d''un sujet de société différent. Ce soir, le thème est : « Faut-il limiter l''usage des écrans chez les adolescents ? » Camila, un peu nerveuse à l''idée de débattre devant des inconnus, écoute d''abord attentivement les arguments des autres participants avant de prendre la parole.","Un étudiant belge ouvre le débat : « Il me semble que les écrans, utilisés avec modération, peuvent être un formidable outil éducatif. Néanmoins, il ne faut pas ignorer les risques d''addiction, particulièrement documentés chez les plus jeunes. » Une autre participante, française, nuance : « Dans une certaine mesure, je suis d''accord, mais je pense que le vrai problème n''est pas l''écran en lui-même, mais le contenu qui y est consommé. Or, ce contenu est rarement contrôlé par les parents. »","Camila, encouragée par ce ton respectueux et nuancé, décide finalement de partager son propre point de vue. « D''après mon expérience personnelle, les réseaux sociaux m''ont aidée à garder le contact avec mes amis pendant mon année à l''étranger. Ils ne peuvent donc pas être considérés uniquement comme négatifs. Cependant, je reconnais qu''ils peuvent aussi devenir une source de stress, notamment quand on compare sa vie à celle des autres. » Son intervention est bien accueillie, et plusieurs participants la remercient d''avoir apporté une perspective différente, fondée sur une expérience vécue plutôt que sur des généralités.","À la fin de la session, l''animateur du club résume les positions exprimées : selon lui, aucun argument n''a été complètement réfuté, mais chacun a permis d''affiner la réflexion collective. Camila raccroche son ordinateur avec un sentiment de satisfaction inédit : pour la première fois, elle a réussi à argumenter en français sur un sujet complexe, devant des inconnus, sans se sentir dépassée par la difficulté de la tâche. Elle comprend que ce type d''exercice, bien plus que la simple mémorisation de vocabulaire, est ce qui lui permettra réellement de progresser vers la maîtrise complète de cette langue qu''elle a apprise à aimer."]'::jsonb, '{"prompt":"Remets les interventions du débat dans l’ordre.","events":["L’étudiant belge présente l’écran comme un outil éducatif avec des risques.","La participante française nuance en parlant du contenu consommé.","Camila partage son expérience personnelle des réseaux sociaux.","L’animateur résume les positions à la fin de la session."]}'::jsonb);
+Ce débat, loin d’être clos, illustre une difficulté plus large : celle de légiférer sur un phénomène qui évolue plus vite que les études scientifiques censées l’évaluer. Ce que confirment néanmoins la plupart des experts consultés, c’est qu’un dialogue ouvert entre parents et adolescents, davantage qu’une interdiction rigide et unilatérale, reste la stratégie la plus souvent associée à un usage équilibré des outils numériques chez les jeunes.', '["Que recommandent des agences sanitaires comme l’ANSES concernant les écrans ?","Selon certains chercheurs en psychologie du développement, qu’est-ce qui importe le plus que la durée d’exposition ?","Que soulignent les partisans d’une régulation plus stricte ?","Que font certains pays face à ce débat ?","Quelle difficulté plus large ce débat illustre-t-il, selon le texte ?"]'::jsonb, '["Depuis plusieurs années, l’usage des écrans chez les adolescents fait l’objet d’un débat récurrent dans les médias, les établissements scolaires et les familles. En France, des agences sanitaires comme l’ANSES ont publié des recommandations invitant à limiter le temps passé devant les écrans, en particulier avant le coucher, en raison de ses effets potentiels sur le sommeil et la concentration. Ces recommandations, largement relayées, ont contribué à installer dans l’opinion publique l’idée que les écrans seraient, par nature, néfastes pour les jeunes.","Or, une partie de la communauté scientifique invite à nuancer ce constat. Plusieurs chercheurs en psychologie du développement soulignent que ce n’est pas tant la durée d’exposition qui importe que le type de contenu consommé et le contexte dans lequel il l’est. Un adolescent qui utilise un écran pour échanger avec des amis, apprendre une langue ou créer du contenu ne se trouve pas, selon ces travaux, dans la même situation qu’un autre qui consulte de façon compulsive des contenus conçus pour capter l’attention le plus longtemps possible. Cette distinction, souvent absente des discours alarmistes, complique nettement l’établissement de recommandations universelles.","Les partisans d’une régulation plus stricte rappellent, quant à eux, que l’architecture même de nombreuses plateformes numériques est pensée pour maximiser le temps de connexion, indépendamment de l’intérêt réel du contenu proposé. Certains pays ont d’ailleurs commencé à légiférer sur l’accès des mineurs aux réseaux sociaux, tandis que d’autres préfèrent miser sur l’éducation aux médias plutôt que sur des interdictions strictes, dont l’efficacité réelle reste, à ce jour, difficile à mesurer précisément.","Ce débat, loin d’être clos, illustre une difficulté plus large : celle de légiférer sur un phénomène qui évolue plus vite que les études scientifiques censées l’évaluer. Ce que confirment néanmoins la plupart des experts consultés, c’est qu’un dialogue ouvert entre parents et adolescents, davantage qu’une interdiction rigide et unilatérale, reste la stratégie la plus souvent associée à un usage équilibré des outils numériques chez les jeunes."]'::jsonb, NULL);
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, line)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-debats-de-societe-listening'), 'intro', 0, 'Écoute l’échange entre deux participants sur le sujet des écrans chez les jeunes.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-debats-de-societe-listening'), 'dialogue_line', 0, 'L’étudiant belge', 'Il me semble que les écrans, utilisés avec modération, sont un bon outil éducatif.', 'Me parece que las pantallas, usadas con moderación, son una buena herramienta educativa.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-debats-de-societe-listening'), 'dialogue_line', 1, 'La participante française', 'Néanmoins, il ne faut pas ignorer les risques d’addiction.', 'Sin embargo, no hay que ignorar los riesgos de adicción.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-debats-de-societe-listening'), 'dialogue_line', 2, 'L’étudiant belge', 'Vous avez raison, mais le vrai problème, c’est souvent le manque de contrôle parental.', 'Tiene razón, pero el verdadero problema suele ser la falta de control parental.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-debats-de-societe-listening'), 'dialogue_line', 3, 'La participante française', 'Dans une certaine mesure, je suis d’accord avec vous.', 'En cierta medida, estoy de acuerdo con usted.');
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-debats-de-societe-listening'), 'intro', 0, 'Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-debats-de-societe-speaking'), 'dialogue_line', 0, 'Toi', 'Il me semble que ce sujet a des avantages réels. Néanmoins, on pourrait objecter que... Dans une certaine mesure, je reconnais cette limite.', 'Me parece que este tema tiene ventajas reales. Sin embargo, se podría objetar que... En cierta medida, reconozco ese límite.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
@@ -1371,23 +1347,15 @@ VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-debats-de-
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-debats-de-societe-dialogue'), 'dialogue_line', 3, 'Karim', 'C’est exactement comme ça qu’on progresse vraiment dans une langue.', 'Así es exactamente como se progresa de verdad en un idioma.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, reading_title, reading_text, reading_questions, reading_parts, reading_ordering)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-le-teletravail-et-lavenir-professionnel-reading'), 'reading', 0, 'Travailler seule chez soi', 'En attendant la réponse de l''université de Tours, Camila décide de mettre à profit ses compétences linguistiques en acceptant un petit contrat de traduction à distance pour une agence spécialisée dans les documents touristiques. Chaque matin, elle s''installe à son bureau, allume son ordinateur, et commence à traduire des brochures de l''espagnol vers le français, tout en écoutant parfois de la musique douce pour rester concentrée. « C''est étrange de travailler sans jamais rencontrer physiquement mes collègues », confie-t-elle à Karim lors d''un appel vidéo. « Mais en même temps, ça me permet d''organiser ma journée exactement comme je le souhaite. »
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-le-teletravail-et-lavenir-professionnel-reading'), 'reading', 0, 'Le télétravail, une révolution encore incomplète', 'Le télétravail, longtemps marginal en France, s’est généralisé de façon spectaculaire depuis 2020, au point de transformer durablement les habitudes de nombreux salariés. Selon plusieurs enquêtes menées par des organismes de statistiques du travail, une proportion significative de la population active occupant un poste compatible avec ce mode d’organisation continue, plusieurs années après la période la plus intense de généralisation forcée, de travailler au moins partiellement depuis son domicile. Ce basculement a profondément modifié la façon dont les entreprises pensent l’aménagement de leurs espaces de travail.
 
-Après quelques semaines, Camila commence néanmoins à ressentir certaines limites de ce mode de travail. En travaillant seule chez elle toute la journée, elle réalise à quel point les interactions sociales spontanées lui manquent : les petites conversations informelles, les pauses café partagées, les blagues échangées entre collègues. Ce dont elle a le plus besoin, remarque-t-elle, ce n''est pas tant de superviseur ou d''horaires fixes, mais simplement de présence humaine régulière. Sa mère, en la voyant travailler d''affilée pendant des heures sans sortir de sa chambre, s''inquiète également : « Tu devrais peut-être aller travailler dans un café de temps en temps, pour changer d''air. »
+Les études sur la productivité en télétravail donnent des résultats contrastés. Certaines recherches montrent une hausse de l’efficacité individuelle, en raison notamment de la réduction du temps de trajet et d’un environnement perçu comme plus calme. D’autres travaux, en revanche, pointent des effets négatifs sur la collaboration entre collègues et sur la transmission informelle de connaissances, celle qui se produit typiquement autour d’une machine à café ou lors d’un échange spontané entre deux bureaux. C’est précisément cette tension entre gains individuels et pertes collectives qui explique la généralisation progressive de formules hybrides.
 
-Camila décide alors de suivre ce conseil et commence à travailler deux après-midis par semaine dans un café près de chez elle. Ce changement, aussi simple soit-il, améliore considérablement son moral : elle apprécie l''ambiance animée du lieu, tout en restant suffisamment concentrée pour respecter ses délais de traduction. Elle comprend alors que le télétravail, contrairement à ce qu''elle avait imaginé au début, n''est ni entièrement positif ni entièrement négatif : tout dépend de la façon dont on organise son environnement et ses relations sociales autour de ce nouveau rythme de vie.
+L’isolement social demeure l’un des risques les plus documentés du télétravail à temps plein. Des chercheurs en psychologie du travail ont observé que les salariés totalement isolés de leur environnement professionnel rapportaient, en moyenne, un sentiment d’appartenance à l’entreprise nettement plus faible que leurs collègues travaillant en présentiel. Ce constat pousse un nombre croissant d’entreprises à imposer un minimum de jours de présence hebdomadaire, ce dont certains salariés se plaignent, tandis que d’autres, à l’inverse, réclament davantage de flexibilité encore.
 
-Ce petit emploi lui permet également de mettre en pratique, de façon très concrète, les compétences qu''elle espère développer davantage à l''université : la précision linguistique, la rigueur, et la capacité à s''adapter à des contextes professionnels variés. Elle prend conscience, en discutant avec Sofía un soir, que cette expérience, bien que modeste, constitue déjà une première étape vers le métier de traductrice dont elle rêve depuis son année en France. « Je crois que je suis vraiment sur la bonne voie », confie-t-elle à son amie, avec une confiance qu''elle n''aurait pas eue un an plus tôt.', '["Pourquoi Camila accepte-t-elle ce contrat de traduction à distance ?","Quelle limite du télétravail Camila découvre-t-elle après quelques semaines ?","Quelle solution trouve-t-elle pour améliorer son moral ?"]'::jsonb, '["En attendant la réponse de l''université de Tours, Camila décide de mettre à profit ses compétences linguistiques en acceptant un petit contrat de traduction à distance pour une agence spécialisée dans les documents touristiques. Chaque matin, elle s''installe à son bureau, allume son ordinateur, et commence à traduire des brochures de l''espagnol vers le français, tout en écoutant parfois de la musique douce pour rester concentrée. « C''est étrange de travailler sans jamais rencontrer physiquement mes collègues », confie-t-elle à Karim lors d''un appel vidéo. « Mais en même temps, ça me permet d''organiser ma journée exactement comme je le souhaite. »","Après quelques semaines, Camila commence néanmoins à ressentir certaines limites de ce mode de travail. En travaillant seule chez elle toute la journée, elle réalise à quel point les interactions sociales spontanées lui manquent : les petites conversations informelles, les pauses café partagées, les blagues échangées entre collègues. Ce dont elle a le plus besoin, remarque-t-elle, ce n''est pas tant de superviseur ou d''horaires fixes, mais simplement de présence humaine régulière. Sa mère, en la voyant travailler d''affilée pendant des heures sans sortir de sa chambre, s''inquiète également : « Tu devrais peut-être aller travailler dans un café de temps en temps, pour changer d''air. »","Camila décide alors de suivre ce conseil et commence à travailler deux après-midis par semaine dans un café près de chez elle. Ce changement, aussi simple soit-il, améliore considérablement son moral : elle apprécie l''ambiance animée du lieu, tout en restant suffisamment concentrée pour respecter ses délais de traduction. Elle comprend alors que le télétravail, contrairement à ce qu''elle avait imaginé au début, n''est ni entièrement positif ni entièrement négatif : tout dépend de la façon dont on organise son environnement et ses relations sociales autour de ce nouveau rythme de vie.","Ce petit emploi lui permet également de mettre en pratique, de façon très concrète, les compétences qu''elle espère développer davantage à l''université : la précision linguistique, la rigueur, et la capacité à s''adapter à des contextes professionnels variés. Elle prend conscience, en discutant avec Sofía un soir, que cette expérience, bien que modeste, constitue déjà une première étape vers le métier de traductrice dont elle rêve depuis son année en France. « Je crois que je suis vraiment sur la bonne voie », confie-t-elle à son amie, avec une confiance qu''elle n''aurait pas eue un an plus tôt."]'::jsonb, '{"prompt":"Remets les étapes de l’expérience de Camila dans l’ordre.","events":["Camila accepte un contrat de traduction à distance.","Elle réalise que les interactions sociales lui manquent.","Sa mère lui suggère de travailler parfois dans un café.","Camila comprend que le télétravail dépend de son organisation personnelle."]}'::jsonb);
+Face à ces résultats contradictoires, la plupart des spécialistes des ressources humaines s’accordent désormais sur un point : il n’existe pas de formule universelle. Ce qui semble déterminant, plus que le nombre exact de jours travaillés à distance, c’est la qualité de l’organisation mise en place par chaque entreprise pour maintenir un lien social suffisant entre des équipes de plus en plus dispersées géographiquement.', '["Depuis quand le télétravail s’est-il généralisé de façon spectaculaire en France, selon le texte ?","Que montrent certaines études sur la productivité en télétravail ?","Quel effet négatif d’autres travaux pointent-ils concernant le télétravail ?","Quel risque est particulièrement bien documenté par les chercheurs en psychologie du travail ?","Que font un nombre croissant d’entreprises face au risque d’isolement ?"]'::jsonb, '["Le télétravail, longtemps marginal en France, s’est généralisé de façon spectaculaire depuis 2020, au point de transformer durablement les habitudes de nombreux salariés. Selon plusieurs enquêtes menées par des organismes de statistiques du travail, une proportion significative de la population active occupant un poste compatible avec ce mode d’organisation continue, plusieurs années après la période la plus intense de généralisation forcée, de travailler au moins partiellement depuis son domicile. Ce basculement a profondément modifié la façon dont les entreprises pensent l’aménagement de leurs espaces de travail.","Les études sur la productivité en télétravail donnent des résultats contrastés. Certaines recherches montrent une hausse de l’efficacité individuelle, en raison notamment de la réduction du temps de trajet et d’un environnement perçu comme plus calme. D’autres travaux, en revanche, pointent des effets négatifs sur la collaboration entre collègues et sur la transmission informelle de connaissances, celle qui se produit typiquement autour d’une machine à café ou lors d’un échange spontané entre deux bureaux. C’est précisément cette tension entre gains individuels et pertes collectives qui explique la généralisation progressive de formules hybrides.","L’isolement social demeure l’un des risques les plus documentés du télétravail à temps plein. Des chercheurs en psychologie du travail ont observé que les salariés totalement isolés de leur environnement professionnel rapportaient, en moyenne, un sentiment d’appartenance à l’entreprise nettement plus faible que leurs collègues travaillant en présentiel. Ce constat pousse un nombre croissant d’entreprises à imposer un minimum de jours de présence hebdomadaire, ce dont certains salariés se plaignent, tandis que d’autres, à l’inverse, réclament davantage de flexibilité encore.","Face à ces résultats contradictoires, la plupart des spécialistes des ressources humaines s’accordent désormais sur un point : il n’existe pas de formule universelle. Ce qui semble déterminant, plus que le nombre exact de jours travaillés à distance, c’est la qualité de l’organisation mise en place par chaque entreprise pour maintenir un lien social suffisant entre des équipes de plus en plus dispersées géographiquement."]'::jsonb, NULL);
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, line)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-le-teletravail-et-lavenir-professionnel-listening'), 'intro', 0, 'Écoute la conversation entre Camila et Karim sur les débuts de son travail à distance.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-le-teletravail-et-lavenir-professionnel-listening'), 'dialogue_line', 0, 'Karim', 'Alors, comment se passe ton nouveau travail à distance ?', '¿Y cómo va tu nuevo trabajo a distancia?');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-le-teletravail-et-lavenir-professionnel-listening'), 'dialogue_line', 1, 'Camila', 'Plutôt bien, mais c’est étrange de ne jamais voir mes collègues.', 'Bastante bien, pero es extraño no ver nunca a mis colegas.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-le-teletravail-et-lavenir-professionnel-listening'), 'dialogue_line', 2, 'Karim', 'Ce dont tu as besoin, c’est peut-être de sortir travailler ailleurs de temps en temps.', 'Lo que necesitas quizás es salir a trabajar a otro lugar de vez en cuando.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-le-teletravail-et-lavenir-professionnel-listening'), 'dialogue_line', 3, 'Camila', 'Tu as raison, je vais essayer un café près de chez moi.', 'Tienes razón, voy a probar un café cerca de casa.');
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-le-teletravail-et-lavenir-professionnel-listening'), 'intro', 0, 'Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-le-teletravail-et-lavenir-professionnel-speaking'), 'dialogue_line', 0, 'Toi', 'D’un côté, le télétravail offre de la liberté. De l’autre, il peut créer de l’isolement. Ce dont j’ai besoin, c’est d’un bon équilibre entre les deux.', 'Por un lado, el teletrabajo ofrece libertad. Por otro, puede generar aislamiento. Lo que necesito es un buen equilibrio entre ambos.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
@@ -1413,23 +1381,15 @@ VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-le-teletra
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-le-teletravail-et-lavenir-professionnel-dialogue'), 'dialogue_line', 3, 'Camila', 'Oui, je pense que ça va devenir une bonne habitude pour moi.', 'Sí, creo que se va a convertir en un buen hábito para mí.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, reading_title, reading_text, reading_questions, reading_parts, reading_ordering)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-litterature-francophone-reading'), 'reading', 0, 'Le club de lecture', 'Pour continuer à progresser en français tout en explorant sa propre identité culturelle, Camila rejoint un club de lecture en ligne consacré à la littérature francophone caribéenne. Le premier roman étudié, écrit par une autrice guadeloupéenne, raconte l''histoire d''une jeune femme partagée entre deux cultures, deux langues et deux façons de comprendre le monde. Dès les premières pages, Camila se reconnaît dans le personnage principal, à tel point qu''elle doit parfois s''arrêter de lire pour reprendre son souffle.
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-litterature-francophone-reading'), 'reading', 0, 'La créolité, un courant littéraire caribéen', 'À la fin des années 1980, trois écrivains martiniquais, Jean Bernabé, Patrick Chamoiseau et Raphaël Confiant, publient un essai qui allait profondément marquer la littérature francophone caribéenne : « Éloge de la créolité ». Ce texte manifeste défend l’idée que l’identité antillaise ne peut être réduite ni à une simple extension de la culture française, ni à un retour idéalisé vers une Afrique ancestrale, mais qu’elle constitue une réalité culturelle à part entière, née du métissage des langues, des peuples et des traditions dans l’espace caribéen.
 
-Lors de la première réunion du club, l''animatrice, une professeure de littérature à la retraite, explique que ce roman explore un thème récurrent dans la littérature caribéenne : le déracinement et la quête d''une identité qui ne se limite pas à un seul territoire. Elle rapporte une interview dans laquelle l''autrice avait expliqué qu''elle avait voulu montrer que l''on pouvait appartenir pleinement à plusieurs mondes à la fois, sans jamais devoir en choisir un seul de manière définitive. Camila écoute, fascinée, en pensant immédiatement à sa propre expérience entre Saint-Domingue et la France.
+Ce mouvement littéraire s’inscrit dans la continuité d’une réflexion amorcée plusieurs décennies plus tôt par Aimé Césaire, poète martiniquais et cofondateur du concept de « négritude », ainsi que par Édouard Glissant, dont la notion de « créolisation » avait déjà insisté sur l’idée que les cultures, au contact les unes des autres, se transforment mutuellement plutôt que de se dissoudre dans une seule identité dominante. Chamoiseau, dont le roman « Texaco » a obtenu le prix Goncourt en 1992, illustre cette démarche en intégrant dans ses œuvres un mélange de français standard et de créole martiniquais, sans jamais chercher à uniformiser la langue de ses personnages.
 
-Quand vient son tour de parler, Camila partage timidement son interprétation : « Ce roman auquel je pensais beaucoup en le lisant m''a fait comprendre que mon sentiment d''être « entre deux mondes » n''était pas un problème à résoudre, mais peut-être simplement une nouvelle façon d''exister. » Les autres participants du club acquiescent, visiblement touchés par cette lecture personnelle du texte. L''animatrice ajoute que c''est exactement la force de la grande littérature : permettre à chaque lecteur de retrouver, à travers les mots d''un autre, une part de sa propre vérité.
+Cette approche littéraire n’a pas fait l’unanimité. Certains critiques ont reproché aux auteurs de la créolité de figer une identité qu’ils prétendaient au contraire vouloir présenter comme mouvante et complexe, tandis que d’autres écrivains caribéens, comme Maryse Condé, ont préféré revendiquer une position plus individuelle, refusant d’être rattachée à un mouvement collectif précis. Condé, dont l’œuvre explore autant les Antilles que l’Afrique et les États-Unis, a d’ailleurs reçu en 2018 le prix Nobel alternatif de littérature, consécration internationale pour une littérature longtemps restée marginale dans les grandes institutions littéraires françaises.
 
-Après la réunion, Camila referme son ordinateur avec un sentiment inhabituel de plénitude. Elle qui pensait, un an plus tôt, que le français ne serait qu''un outil pratique pour communiquer, découvre aujourd''hui qu''il peut aussi devenir une langue dans laquelle elle pense, ressent, et même se comprend elle-même un peu mieux. Elle décide, dès le lendemain, de commander le roman suivant proposé par le club, impatiente de continuer cette exploration littéraire qui, elle le sent, va profondément l''accompagner dans les années à venir. Elle envoie même un message à Léa et Karim pour leur recommander le livre, certaine qu''eux aussi trouveraient un écho à leur propre façon de vivre entre plusieurs cultures et plusieurs langues.', '["Quel type de roman le club de lecture étudie-t-il en premier ?","Quel thème récurrent l’animatrice identifie-t-elle dans ce roman ?","Comment Camila interprète-t-elle personnellement le roman ?"]'::jsonb, '["Pour continuer à progresser en français tout en explorant sa propre identité culturelle, Camila rejoint un club de lecture en ligne consacré à la littérature francophone caribéenne. Le premier roman étudié, écrit par une autrice guadeloupéenne, raconte l''histoire d''une jeune femme partagée entre deux cultures, deux langues et deux façons de comprendre le monde. Dès les premières pages, Camila se reconnaît dans le personnage principal, à tel point qu''elle doit parfois s''arrêter de lire pour reprendre son souffle.","Lors de la première réunion du club, l''animatrice, une professeure de littérature à la retraite, explique que ce roman explore un thème récurrent dans la littérature caribéenne : le déracinement et la quête d''une identité qui ne se limite pas à un seul territoire. Elle rapporte une interview dans laquelle l''autrice avait expliqué qu''elle avait voulu montrer que l''on pouvait appartenir pleinement à plusieurs mondes à la fois, sans jamais devoir en choisir un seul de manière définitive. Camila écoute, fascinée, en pensant immédiatement à sa propre expérience entre Saint-Domingue et la France.","Quand vient son tour de parler, Camila partage timidement son interprétation : « Ce roman auquel je pensais beaucoup en le lisant m''a fait comprendre que mon sentiment d''être « entre deux mondes » n''était pas un problème à résoudre, mais peut-être simplement une nouvelle façon d''exister. » Les autres participants du club acquiescent, visiblement touchés par cette lecture personnelle du texte. L''animatrice ajoute que c''est exactement la force de la grande littérature : permettre à chaque lecteur de retrouver, à travers les mots d''un autre, une part de sa propre vérité.","Après la réunion, Camila referme son ordinateur avec un sentiment inhabituel de plénitude. Elle qui pensait, un an plus tôt, que le français ne serait qu''un outil pratique pour communiquer, découvre aujourd''hui qu''il peut aussi devenir une langue dans laquelle elle pense, ressent, et même se comprend elle-même un peu mieux. Elle décide, dès le lendemain, de commander le roman suivant proposé par le club, impatiente de continuer cette exploration littéraire qui, elle le sent, va profondément l''accompagner dans les années à venir. Elle envoie même un message à Léa et Karim pour leur recommander le livre, certaine qu''eux aussi trouveraient un écho à leur propre façon de vivre entre plusieurs cultures et plusieurs langues."]'::jsonb, '{"prompt":"Remets les moments de la réunion du club de lecture dans l’ordre.","events":["Camila commence à lire le roman et se reconnaît dans le personnage.","L’animatrice explique le thème du déracinement et de l’identité.","Camila partage son interprétation personnelle du roman.","Elle décide de commander le roman suivant proposé par le club."]}'::jsonb);
+Ce que ces auteurs ont en commun, malgré leurs désaccords théoriques, c’est la conviction que la littérature caribéenne francophone ne saurait se laisser enfermer dans une seule catégorie identitaire. Aujourd’hui encore, cette question continue d’alimenter la réflexion de nombreux écrivains de la région, dont les œuvres sont désormais étudiées dans les universités du monde entier comme un exemple particulièrement riche de littérature construite entre plusieurs langues et plusieurs mondes.', '["Qui a publié l’essai « Éloge de la créolité » ?","Que défend l’essai « Éloge de la créolité » ?","Quel concept Édouard Glissant a-t-il développé ?","Quel roman de Chamoiseau a obtenu le prix Goncourt en 1992 ?","Quelle position Maryse Condé a-t-elle adoptée par rapport au mouvement de la créolité ?"]'::jsonb, '["À la fin des années 1980, trois écrivains martiniquais, Jean Bernabé, Patrick Chamoiseau et Raphaël Confiant, publient un essai qui allait profondément marquer la littérature francophone caribéenne : « Éloge de la créolité ». Ce texte manifeste défend l’idée que l’identité antillaise ne peut être réduite ni à une simple extension de la culture française, ni à un retour idéalisé vers une Afrique ancestrale, mais qu’elle constitue une réalité culturelle à part entière, née du métissage des langues, des peuples et des traditions dans l’espace caribéen.","Ce mouvement littéraire s’inscrit dans la continuité d’une réflexion amorcée plusieurs décennies plus tôt par Aimé Césaire, poète martiniquais et cofondateur du concept de « négritude », ainsi que par Édouard Glissant, dont la notion de « créolisation » avait déjà insisté sur l’idée que les cultures, au contact les unes des autres, se transforment mutuellement plutôt que de se dissoudre dans une seule identité dominante. Chamoiseau, dont le roman « Texaco » a obtenu le prix Goncourt en 1992, illustre cette démarche en intégrant dans ses œuvres un mélange de français standard et de créole martiniquais, sans jamais chercher à uniformiser la langue de ses personnages.","Cette approche littéraire n’a pas fait l’unanimité. Certains critiques ont reproché aux auteurs de la créolité de figer une identité qu’ils prétendaient au contraire vouloir présenter comme mouvante et complexe, tandis que d’autres écrivains caribéens, comme Maryse Condé, ont préféré revendiquer une position plus individuelle, refusant d’être rattachée à un mouvement collectif précis. Condé, dont l’œuvre explore autant les Antilles que l’Afrique et les États-Unis, a d’ailleurs reçu en 2018 le prix Nobel alternatif de littérature, consécration internationale pour une littérature longtemps restée marginale dans les grandes institutions littéraires françaises.","Ce que ces auteurs ont en commun, malgré leurs désaccords théoriques, c’est la conviction que la littérature caribéenne francophone ne saurait se laisser enfermer dans une seule catégorie identitaire. Aujourd’hui encore, cette question continue d’alimenter la réflexion de nombreux écrivains de la région, dont les œuvres sont désormais étudiées dans les universités du monde entier comme un exemple particulièrement riche de littérature construite entre plusieurs langues et plusieurs mondes."]'::jsonb, NULL);
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, line)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-litterature-francophone-listening'), 'intro', 0, 'Écoute l’animatrice du club de lecture expliquer l’intention de l’autrice.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-litterature-francophone-listening'), 'dialogue_line', 0, 'L’animatrice', 'Dans une interview, l’autrice a dit qu’elle voulait explorer le thème du déracinement.', 'En una entrevista, la autora dijo que quería explorar el tema del desarraigo.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-litterature-francophone-listening'), 'dialogue_line', 1, 'Camila', 'C’est exactement ce que j’ai ressenti en lisant le roman.', 'Es exactamente lo que sentí al leer la novela.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-litterature-francophone-listening'), 'dialogue_line', 2, 'L’animatrice', 'Elle a expliqué qu’on pouvait appartenir à plusieurs cultures sans devoir en choisir une seule.', 'Explicó que uno podía pertenecer a varias culturas sin tener que elegir una sola.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-litterature-francophone-listening'), 'dialogue_line', 3, 'Camila', 'Ça résonne beaucoup avec mon expérience entre deux pays.', 'Eso resuena mucho con mi experiencia entre dos países.');
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-litterature-francophone-listening'), 'intro', 0, 'Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-litterature-francophone-speaking'), 'dialogue_line', 0, 'Toi', 'Le thème principal de cette œuvre est... L’auteur a voulu montrer que... Ça résonne avec mon expérience parce que...', 'El tema principal de esta obra es... El autor quiso mostrar que... Esto resuena con mi experiencia porque...');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
@@ -1455,23 +1415,15 @@ VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-litteratur
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-litterature-francophone-dialogue'), 'dialogue_line', 3, 'Camila', 'Bien sûr ! Je pense que tu aimerais beaucoup ce livre.', '¡Claro! Creo que te gustaría mucho este libro.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, reading_title, reading_text, reading_questions, reading_parts, reading_ordering)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-cinema-et-critique-reading'), 'reading', 0, 'Ma première critique de cinéma', 'Camila et Sofía passent leur samedi soir à regarder un film français récent, recommandé par Léa lors d''un appel vidéo la semaine précédente. Il s''agit d''un drame familial se déroulant dans une petite ville de province, racontant l''histoire de trois sœurs qui se retrouvent après des années de silence pour régler la succession de leur mère. Dès les premières minutes, Camila est frappée par la qualité de la mise en scène : les silences, les regards échangés entre les personnages, tout semble raconter une histoire aussi importante que les dialogues eux-mêmes.
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-cinema-et-critique-reading'), 'reading', 0, 'Anatomie d’une chute : la Palme d’or qui a divisé', 'En mai 2023, la réalisatrice française Justine Triet devient la troisième femme de l’histoire à recevoir la Palme d’or du Festival de Cannes pour son film « Anatomie d’une chute ». Ce long-métrage, construit comme un thriller judiciaire, raconte le procès d’une écrivaine soupçonnée d’avoir tué son mari après la découverte du corps de ce dernier au pied de leur chalet isolé dans les Alpes. Le film ne dévoile jamais avec certitude ce qui s’est réellement passé, un choix narratif qui a suscité autant d’admiration que de débats parmi les critiques.
 
-Après le film, Camila décide de rédiger sa première vraie critique de cinéma pour le blog qu''elle a commencé à tenir depuis son retour de France. « Ce qui m''a le plus marquée dans ce film, c''est la façon dont la réalisatrice parvient à créer une tension palpable sans jamais recourir à des effets spectaculaires », écrit-elle. « Ce que j''ai particulièrement apprécié, c''est le jeu des trois actrices principales, absolument convaincantes dans leur complexité émotionnelle. »
+Ce qui a le plus marqué la critique spécialisée, c’est la performance de l’actrice allemande Sandra Hüller, dont l’interprétation nuancée du personnage principal a été unanimement saluée. Beaucoup ont souligné que le film évite soigneusement tout manichéisme : ni le film ni les jurés fictifs du procès ne prétendent détenir une vérité absolue sur la culpabilité ou l’innocence du personnage, ce qui contraint le spectateur lui-même à se forger sa propre opinion, sans jamais obtenir de réponse définitive.
 
-Cependant, Camila reste honnête dans son évaluation : elle reconnaît que le rythme du film, particulièrement lent pendant la première demi-heure, pourrait rebuter certains spectateurs habitués à des scénarios plus rythmés. « Ce n''est certainement pas le film le plus divertissant que j''aie vu cette année, mais c''est probablement l''un des plus émouvants et des mieux interprétés », conclut-elle. Elle ajoute également une remarque sur la fin du film, sans trop en révéler pour ne pas gâcher la surprise à ses lecteurs : le dernier rebondissement lui a semblé un peu prévisible, mais n''a en rien diminué l''impact émotionnel de l''ensemble.
+Certains critiques ont néanmoins pointé un rythme jugé exigeant, notamment pendant les longues scènes de procès, qui reposent presque exclusivement sur des dialogues complexes plutôt que sur l’action. D’autres ont vu dans cette lenteur assumée une force plutôt qu’une faiblesse, dans la mesure où elle reflète fidèlement la lourdeur réelle d’une procédure judiciaire. Le film a d’ailleurs été salué pour son scénario, coécrit par Justine Triet et Arthur Harari, qui a également reçu l’Oscar du meilleur scénario original en 2024.
 
-En relisant sa critique avant de la publier, Camila réalise avec fierté à quel point elle a progressé depuis son arrivée en France, un an et demi plus tôt : non seulement elle comprend désormais des films entiers en français sans sous-titres, mais elle est également capable d''analyser leur construction narrative et d''exprimer une opinion nuancée et argumentée à leur sujet. Sofía, en lisant le texte par-dessus son épaule, s''exclame : « Tu écris exactement comme une vraie critique de cinéma ! » Camila sourit, fière de ce nouveau talent qu''elle ne se connaissait pas.', '["De quel type de film s’agit-il ?","Qu’est-ce que Camila a le plus apprécié dans ce film ?","Quelle réserve Camila exprime-t-elle dans sa critique ?"]'::jsonb, '["Camila et Sofía passent leur samedi soir à regarder un film français récent, recommandé par Léa lors d''un appel vidéo la semaine précédente. Il s''agit d''un drame familial se déroulant dans une petite ville de province, racontant l''histoire de trois sœurs qui se retrouvent après des années de silence pour régler la succession de leur mère. Dès les premières minutes, Camila est frappée par la qualité de la mise en scène : les silences, les regards échangés entre les personnages, tout semble raconter une histoire aussi importante que les dialogues eux-mêmes.","Après le film, Camila décide de rédiger sa première vraie critique de cinéma pour le blog qu''elle a commencé à tenir depuis son retour de France. « Ce qui m''a le plus marquée dans ce film, c''est la façon dont la réalisatrice parvient à créer une tension palpable sans jamais recourir à des effets spectaculaires », écrit-elle. « Ce que j''ai particulièrement apprécié, c''est le jeu des trois actrices principales, absolument convaincantes dans leur complexité émotionnelle. »","Cependant, Camila reste honnête dans son évaluation : elle reconnaît que le rythme du film, particulièrement lent pendant la première demi-heure, pourrait rebuter certains spectateurs habitués à des scénarios plus rythmés. « Ce n''est certainement pas le film le plus divertissant que j''aie vu cette année, mais c''est probablement l''un des plus émouvants et des mieux interprétés », conclut-elle. Elle ajoute également une remarque sur la fin du film, sans trop en révéler pour ne pas gâcher la surprise à ses lecteurs : le dernier rebondissement lui a semblé un peu prévisible, mais n''a en rien diminué l''impact émotionnel de l''ensemble.","En relisant sa critique avant de la publier, Camila réalise avec fierté à quel point elle a progressé depuis son arrivée en France, un an et demi plus tôt : non seulement elle comprend désormais des films entiers en français sans sous-titres, mais elle est également capable d''analyser leur construction narrative et d''exprimer une opinion nuancée et argumentée à leur sujet. Sofía, en lisant le texte par-dessus son épaule, s''exclame : « Tu écris exactement comme une vraie critique de cinéma ! » Camila sourit, fière de ce nouveau talent qu''elle ne se connaissait pas."]'::jsonb, '{"prompt":"Remets les étapes de la soirée de Camila dans l’ordre.","events":["Camila et Sofía regardent le film recommandé par Léa.","Camila commence à rédiger sa critique pour son blog.","Elle exprime une réserve honnête sur le rythme du film.","Elle relit son texte et réalise à quel point elle a progressé en français."]}'::jsonb);
+Au-delà de son succès critique, « Anatomie d’une chute » a également relancé un débat plus large sur la place des femmes derrière la caméra à Cannes, où seules deux autres réalisatrices avaient obtenu la Palme d’or avant Justine Triet. Ce film, aussi salué pour ses qualités formelles que pour la question qu’il pose implicitement sur la difficulté de connaître véritablement autrui, reste aujourd’hui l’un des exemples les plus cités du cinéma d’auteur français contemporain.', '["Qui a réalisé « Anatomie d’une chute » ?","Quelle récompense ce film a-t-il obtenue à Cannes en 2023 ?","Que raconte le film, selon le texte ?","Qu’est-ce qui a été unanimement salué par la critique ?","Quelle réserve certains critiques ont-ils exprimée sur le film ?"]'::jsonb, '["En mai 2023, la réalisatrice française Justine Triet devient la troisième femme de l’histoire à recevoir la Palme d’or du Festival de Cannes pour son film « Anatomie d’une chute ». Ce long-métrage, construit comme un thriller judiciaire, raconte le procès d’une écrivaine soupçonnée d’avoir tué son mari après la découverte du corps de ce dernier au pied de leur chalet isolé dans les Alpes. Le film ne dévoile jamais avec certitude ce qui s’est réellement passé, un choix narratif qui a suscité autant d’admiration que de débats parmi les critiques.","Ce qui a le plus marqué la critique spécialisée, c’est la performance de l’actrice allemande Sandra Hüller, dont l’interprétation nuancée du personnage principal a été unanimement saluée. Beaucoup ont souligné que le film évite soigneusement tout manichéisme : ni le film ni les jurés fictifs du procès ne prétendent détenir une vérité absolue sur la culpabilité ou l’innocence du personnage, ce qui contraint le spectateur lui-même à se forger sa propre opinion, sans jamais obtenir de réponse définitive.","Certains critiques ont néanmoins pointé un rythme jugé exigeant, notamment pendant les longues scènes de procès, qui reposent presque exclusivement sur des dialogues complexes plutôt que sur l’action. D’autres ont vu dans cette lenteur assumée une force plutôt qu’une faiblesse, dans la mesure où elle reflète fidèlement la lourdeur réelle d’une procédure judiciaire. Le film a d’ailleurs été salué pour son scénario, coécrit par Justine Triet et Arthur Harari, qui a également reçu l’Oscar du meilleur scénario original en 2024.","Au-delà de son succès critique, « Anatomie d’une chute » a également relancé un débat plus large sur la place des femmes derrière la caméra à Cannes, où seules deux autres réalisatrices avaient obtenu la Palme d’or avant Justine Triet. Ce film, aussi salué pour ses qualités formelles que pour la question qu’il pose implicitement sur la difficulté de connaître véritablement autrui, reste aujourd’hui l’un des exemples les plus cités du cinéma d’auteur français contemporain."]'::jsonb, NULL);
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, line)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-cinema-et-critique-listening'), 'intro', 0, 'Écoute la conversation entre Camila et Sofía immédiatement après avoir regardé le film.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-cinema-et-critique-listening'), 'dialogue_line', 0, 'Sofía', 'Alors, qu’est-ce que tu en as pensé ?', '¿Y qué te pareció?');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-cinema-et-critique-listening'), 'dialogue_line', 1, 'Camila', 'Ce qui m’a le plus marquée, c’est le jeu des actrices.', 'Lo que más me marcó fue la actuación de las actrices.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-cinema-et-critique-listening'), 'dialogue_line', 2, 'Sofía', 'Moi, j’ai trouvé le début un peu lent.', 'Yo encontré el principio un poco lento.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-cinema-et-critique-listening'), 'dialogue_line', 3, 'Camila', 'C’est vrai, mais ça valait vraiment la peine d’attendre.', 'Es verdad, pero realmente valió la pena esperar.');
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-cinema-et-critique-listening'), 'intro', 0, 'Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-cinema-et-critique-speaking'), 'dialogue_line', 0, 'Toi', 'Ce qui m’a marqué(e) dans ce film, c’est... Ce que j’ai moins aimé, c’est... En conclusion, je recommande ce film pour...', 'Lo que me marcó de esta película fue... Lo que me gustó menos fue... En conclusión, recomiendo esta película para...');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
@@ -1497,23 +1449,15 @@ VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-cinema-et-
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-cinema-et-critique-dialogue'), 'dialogue_line', 3, 'Sofía', 'C’est justement ça, une bonne critique : donner un avis personnel assumé.', 'Precisamente eso es una buena crítica: dar una opinión personal asumida.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, reading_title, reading_text, reading_questions, reading_parts, reading_ordering)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-dilemmes-ethiques-reading'), 'reading', 0, 'Le dilemme du forum', 'Dans le cadre d''un cours de philosophie en ligne auquel elle s''est inscrite pour préparer son entrée à l''université, Camila doit participer à un forum de discussion consacré à un dilemme moral classique : que ferait-on si l''on découvrait qu''un ami proche avait menti pour obtenir un avantage injuste, sans que personne d''autre ne le sache ? Faut-il le dénoncer, au risque de briser une amitié précieuse, ou rester silencieux, au risque de cautionner une injustice ? Le sujet, en apparence simple, suscite des dizaines de réponses passionnées de la part des autres étudiants.
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-dilemmes-ethiques-reading'), 'reading', 0, 'Le dilemme du tramway : une expérience de pensée toujours discutée', 'Formulé pour la première fois en 1967 par la philosophe britannique Philippa Foot, le dilemme du tramway est devenu l’une des expériences de pensée les plus discutées de la philosophie morale contemporaine. Son principe est simple : un tramway hors de contrôle fonce vers cinq personnes attachées sur la voie ; en actionnant un levier, il est possible de dévier le véhicule vers une autre voie où se trouve une seule personne. Faut-il actionner ce levier, sachant que cette action entraînera directement la mort d’une personne qui, sans cette intervention, n’aurait pas été menacée ?
 
-Un participant argentin écrit : « Si j''avais découvert un tel mensonge, j''aurais probablement confronté directement mon ami, sans passer par une dénonciation publique. » Une autre étudiante, sénégalaise, nuance : « Tout dépend des conséquences du mensonge. Si personne n''avait été lésé par cette action, j''aurais peut-être choisi de ne rien dire, tout en exprimant clairement ma désapprobation à mon ami. » Camila, en lisant ces différents points de vue, réalise à quel point ce type de dilemme ne possède aucune réponse universelle et définitive.
+Ce dilemme met en tension deux grandes traditions de la philosophie morale. L’approche conséquentialiste, qui évalue une action selon ses résultats, tend à considérer qu’il est préférable de sacrifier une vie pour en sauver cinq. À l’inverse, l’approche déontologique, qui juge une action selon sa conformité à des principes moraux, comme l’interdiction de tuer intentionnellement, considère que l’on ne devrait jamais transformer une personne en simple moyen pour atteindre une fin, même louable. Les variantes du dilemme, notamment celle où il faudrait pousser physiquement une personne sur la voie plutôt que d’actionner un levier à distance, montrent que l’intuition morale des individus ne suit pas toujours une logique parfaitement cohérente.
 
-Après réflexion, elle décide de partager sa propre position : « Je pense que si j''avais été à la place de cette personne, j''aurais eu énormément de mal à me taire, non pas par principe moral absolu, mais parce que je n''aurais pas pu vivre avec ce secret sans que cela affecte notre amitié à long terme. Cela dit, je comprends aussi ceux qui choisiraient le silence, car juger rapidement la situation de quelqu''un d''autre, sans s''être vraiment mis à sa place, me semble toujours risqué. » Son intervention reçoit plusieurs réponses encourageantes, notamment celle du professeur, qui salue sa capacité à formuler une position claire tout en reconnaissant la légitimité d''autres perspectives.
+Depuis quelques années, ce dilemme, longtemps confiné aux salles de cours de philosophie, a trouvé une application concrète et inattendue : la programmation des véhicules autonomes. Des chercheurs du MIT ont ainsi conçu une plateforme en ligne, la « Moral Machine », qui a recueilli les préférences de plusieurs millions de participants à travers le monde sur des scénarios inspirés du dilemme du tramway, appliqués cette fois à des voitures sans conducteur devant choisir, en cas d’accident inévitable, qui privilégier.
 
-En refermant son ordinateur ce soir-là, Camila repense à une situation similaire vécue avec une camarade de classe l''année précédente, à Tours, lorsqu''elle avait hésité longuement avant de signaler une tricherie lors d''un examen. Elle se demande si elle referait exactement le même choix aujourd''hui, avec le recul et la maturité qu''elle a acquis depuis. Cet exercice philosophique, au-delà de la simple pratique du conditionnel passé et des hypothèses complexes, lui permet également de mieux comprendre ses propres valeurs, et la façon dont elles continuent d''évoluer avec chaque nouvelle expérience qu''elle traverse.', '["Quel dilemme moral est présenté au début du forum ?","Quelle nuance apporte l’étudiante sénégalaise ?","À quelle situation personnelle Camila repense-t-elle à la fin du texte ?"]'::jsonb, '["Dans le cadre d''un cours de philosophie en ligne auquel elle s''est inscrite pour préparer son entrée à l''université, Camila doit participer à un forum de discussion consacré à un dilemme moral classique : que ferait-on si l''on découvrait qu''un ami proche avait menti pour obtenir un avantage injuste, sans que personne d''autre ne le sache ? Faut-il le dénoncer, au risque de briser une amitié précieuse, ou rester silencieux, au risque de cautionner une injustice ? Le sujet, en apparence simple, suscite des dizaines de réponses passionnées de la part des autres étudiants.","Un participant argentin écrit : « Si j''avais découvert un tel mensonge, j''aurais probablement confronté directement mon ami, sans passer par une dénonciation publique. » Une autre étudiante, sénégalaise, nuance : « Tout dépend des conséquences du mensonge. Si personne n''avait été lésé par cette action, j''aurais peut-être choisi de ne rien dire, tout en exprimant clairement ma désapprobation à mon ami. » Camila, en lisant ces différents points de vue, réalise à quel point ce type de dilemme ne possède aucune réponse universelle et définitive.","Après réflexion, elle décide de partager sa propre position : « Je pense que si j''avais été à la place de cette personne, j''aurais eu énormément de mal à me taire, non pas par principe moral absolu, mais parce que je n''aurais pas pu vivre avec ce secret sans que cela affecte notre amitié à long terme. Cela dit, je comprends aussi ceux qui choisiraient le silence, car juger rapidement la situation de quelqu''un d''autre, sans s''être vraiment mis à sa place, me semble toujours risqué. » Son intervention reçoit plusieurs réponses encourageantes, notamment celle du professeur, qui salue sa capacité à formuler une position claire tout en reconnaissant la légitimité d''autres perspectives.","En refermant son ordinateur ce soir-là, Camila repense à une situation similaire vécue avec une camarade de classe l''année précédente, à Tours, lorsqu''elle avait hésité longuement avant de signaler une tricherie lors d''un examen. Elle se demande si elle referait exactement le même choix aujourd''hui, avec le recul et la maturité qu''elle a acquis depuis. Cet exercice philosophique, au-delà de la simple pratique du conditionnel passé et des hypothèses complexes, lui permet également de mieux comprendre ses propres valeurs, et la façon dont elles continuent d''évoluer avec chaque nouvelle expérience qu''elle traverse."]'::jsonb, '{"prompt":"Remets les interventions du forum dans l’ordre.","events":["Le professeur présente le dilemme moral au forum.","Le participant argentin explique qu’il aurait confronté son ami directement.","L’étudiante sénégalaise nuance selon les conséquences du mensonge.","Camila partage sa propre position et repense à une expérience similaire."]}'::jsonb);
+Les résultats de cette étude, publiés en 2018 dans la revue Nature, ont révélé des différences culturelles significatives dans la manière dont les répondants hiérarchisaient les vies à préserver. Loin d’apporter une réponse définitive au dilemme initial, ces travaux ont surtout confirmé que les questions éthiques soulevées par Philippa Foot ne relèvent pas seulement d’un exercice académique abstrait, mais qu’elles doivent désormais être intégrées, de façon très concrète, dans la conception même des technologies qui nous entourent.', '["Qui a formulé pour la première fois le dilemme du tramway, et en quelle année ?","Que propose de faire le dilemme du tramway ?","Que privilégie l’approche conséquentialiste dans ce dilemme ?","Qu’est-ce que la plateforme « Moral Machine » du MIT ?","Où les résultats de cette étude ont-ils été publiés, et en quelle année ?"]'::jsonb, '["Formulé pour la première fois en 1967 par la philosophe britannique Philippa Foot, le dilemme du tramway est devenu l’une des expériences de pensée les plus discutées de la philosophie morale contemporaine. Son principe est simple : un tramway hors de contrôle fonce vers cinq personnes attachées sur la voie ; en actionnant un levier, il est possible de dévier le véhicule vers une autre voie où se trouve une seule personne. Faut-il actionner ce levier, sachant que cette action entraînera directement la mort d’une personne qui, sans cette intervention, n’aurait pas été menacée ?","Ce dilemme met en tension deux grandes traditions de la philosophie morale. L’approche conséquentialiste, qui évalue une action selon ses résultats, tend à considérer qu’il est préférable de sacrifier une vie pour en sauver cinq. À l’inverse, l’approche déontologique, qui juge une action selon sa conformité à des principes moraux, comme l’interdiction de tuer intentionnellement, considère que l’on ne devrait jamais transformer une personne en simple moyen pour atteindre une fin, même louable. Les variantes du dilemme, notamment celle où il faudrait pousser physiquement une personne sur la voie plutôt que d’actionner un levier à distance, montrent que l’intuition morale des individus ne suit pas toujours une logique parfaitement cohérente.","Depuis quelques années, ce dilemme, longtemps confiné aux salles de cours de philosophie, a trouvé une application concrète et inattendue : la programmation des véhicules autonomes. Des chercheurs du MIT ont ainsi conçu une plateforme en ligne, la « Moral Machine », qui a recueilli les préférences de plusieurs millions de participants à travers le monde sur des scénarios inspirés du dilemme du tramway, appliqués cette fois à des voitures sans conducteur devant choisir, en cas d’accident inévitable, qui privilégier.","Les résultats de cette étude, publiés en 2018 dans la revue Nature, ont révélé des différences culturelles significatives dans la manière dont les répondants hiérarchisaient les vies à préserver. Loin d’apporter une réponse définitive au dilemme initial, ces travaux ont surtout confirmé que les questions éthiques soulevées par Philippa Foot ne relèvent pas seulement d’un exercice académique abstrait, mais qu’elles doivent désormais être intégrées, de façon très concrète, dans la conception même des technologies qui nous entourent."]'::jsonb, NULL);
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, line)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-dilemmes-ethiques-listening'), 'intro', 0, 'Écoute l’échange entre deux participants du forum de philosophie.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-dilemmes-ethiques-listening'), 'dialogue_line', 0, 'Le participant argentin', 'Si j’avais découvert ce mensonge, j’aurais confronté mon ami directement.', 'Si hubiera descubierto esa mentira, habría confrontado a mi amigo directamente.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-dilemmes-ethiques-listening'), 'dialogue_line', 1, 'L’étudiante sénégalaise', 'Moi, tout dépendrait des conséquences réelles du mensonge.', 'Yo, todo dependería de las consecuencias reales de la mentira.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-dilemmes-ethiques-listening'), 'dialogue_line', 2, 'Le participant argentin', 'C’est vrai, mais je n’aurais pas pu garder ce secret longtemps.', 'Es verdad, pero no habría podido guardar ese secreto mucho tiempo.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-dilemmes-ethiques-listening'), 'dialogue_line', 3, 'L’étudiante sénégalaise', 'Chacun réagit différemment face à ce genre de situation.', 'Cada uno reacciona diferente ante este tipo de situación.');
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-dilemmes-ethiques-listening'), 'intro', 0, 'Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-dilemmes-ethiques-speaking'), 'dialogue_line', 0, 'Toi', 'Si j’avais été à sa place, j’aurais probablement... Cela dit, je comprends aussi ceux qui auraient choisi différemment.', 'Si hubiera estado en su lugar, probablemente habría... Dicho esto, también entiendo a quienes hubieran elegido diferente.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
@@ -1539,23 +1483,15 @@ VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-dilemmes-e
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-dilemmes-ethiques-dialogue'), 'dialogue_line', 3, 'Karim', 'Je pense que tu as fait le bon choix, malgré tout.', 'Creo que tomaste la decisión correcta, a pesar de todo.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, reading_title, reading_text, reading_questions, reading_parts, reading_ordering)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-sciences-et-innovations-reading'), 'reading', 0, 'L’article de Karim', 'Karim, qui envisage désormais des études d''informatique, envoie un jour à Camila un long article de vulgarisation scientifique sur l''intelligence artificielle, accompagné d''un message enthousiaste : « Il faut absolument que tu lises ça, c''est fascinant ! » L''article explique, en termes accessibles, comment fonctionnent les algorithmes d''apprentissage automatique, ces systèmes capables de « apprendre » à partir d''énormes quantités de données, sans qu''un humain ne leur explique explicitement chaque règle à suivre.
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-sciences-et-innovations-reading'), 'reading', 0, 'Intelligence artificielle : quelles répercussions sur l’emploi ?', 'Depuis la diffusion massive d’outils d’intelligence artificielle générative comme ChatGPT à partir de fin 2022, la question des répercussions de ces technologies sur l’emploi occupe une place centrale dans le débat économique. Plusieurs organisations internationales, dont le Fonds monétaire international, ont publié des rapports estimant qu’une proportion très importante des emplois dans le monde pourrait être affectée, à des degrés divers, par ces nouvelles technologies dans les années à venir, sans pour autant que cela signifie une disparition automatique de ces postes.
 
-Camila, intriguée mais aussi un peu inquiète, lit attentivement l''article et découvre que ces technologies sont déjà utilisées dans des domaines aussi variés que la médecine, la traduction automatique, ou même la création artistique. Étant donné que ces systèmes continuent de s''améliorer rapidement, l''article soulève une question qui préoccupe de nombreux chercheurs : quelles seront les répercussions de cette évolution sur le marché du travail dans les prochaines décennies ? Il se peut que certains métiers disparaissent complètement, tandis que d''autres, encore inimaginables aujourd''hui, verront le jour.
+Étant donné la diversité des métiers concernés, les économistes distinguent généralement trois catégories d’effets possibles. Certains emplois pourraient être entièrement automatisés, en particulier des tâches répétitives et standardisées. D’autres seraient plutôt transformés : l’intelligence artificielle y deviendrait un outil d’assistance plutôt qu’un substitut complet, à l’image de la traduction automatique, dont la qualité s’est considérablement améliorée sans pour autant éliminer le besoin de traducteurs humains pour les textes exigeant une sensibilité culturelle particulière. Enfin, de nouveaux métiers, encore difficiles à anticiper précisément, devraient émerger, comme cela s’est déjà produit lors des précédentes révolutions technologiques.
 
-En discutant de l''article par appel vidéo, Karim se montre optimiste : « Dans la mesure où l''intelligence artificielle reste un outil créé et contrôlé par des humains, je pense qu''elle peut nous aider à résoudre des problèmes complexes, comme certaines maladies ou le changement climatique. » Camila, elle, reste plus prudente : « Il est possible que tu aies raison, mais je pense aussi qu''il faut rester vigilant. Une technologie aussi puissante peut être utilisée pour le meilleur comme pour le pire, selon les intentions de ceux qui la contrôlent. »
+Dans la mesure où ces transformations touchent des secteurs très variés, des chercheurs en économie du travail insistent sur l’importance de la formation continue pour accompagner cette transition. Une étude de l’OCDE publiée en 2023 souligne notamment que les travailleurs les mieux préparés à ces changements ne sont pas nécessairement ceux qui maîtrisent le mieux la technologie elle-même, mais ceux qui développent des compétences difficilement automatisables : le jugement critique, la créativité et l’intelligence relationnelle.
 
-Cette conversation pousse Camila à réfléchir différemment à son propre projet professionnel : et si son futur métier de traductrice était, lui aussi, transformé par ces nouvelles technologies dans les années à venir ? Plutôt que de s''en inquiéter excessivement, elle décide d''adopter une attitude proactive : elle pourrait, par exemple, se spécialiser dans des domaines de traduction où la sensibilité culturelle et l''interprétation nuancée resteront difficilement remplaçables par une machine, quelle que soit la sophistication de ses algorithmes. Cette perspective la rassure, tout en confirmant l''importance de rester curieuse et informée face à un monde en perpétuelle évolution technologique.', '["De quel sujet l’article partagé par Karim traite-t-il ?","Quelle question l’article soulève-t-il sur le marché du travail ?","Comment Camila réagit-elle finalement à cette réflexion sur son propre avenir professionnel ?"]'::jsonb, '["Karim, qui envisage désormais des études d''informatique, envoie un jour à Camila un long article de vulgarisation scientifique sur l''intelligence artificielle, accompagné d''un message enthousiaste : « Il faut absolument que tu lises ça, c''est fascinant ! » L''article explique, en termes accessibles, comment fonctionnent les algorithmes d''apprentissage automatique, ces systèmes capables de « apprendre » à partir d''énormes quantités de données, sans qu''un humain ne leur explique explicitement chaque règle à suivre.","Camila, intriguée mais aussi un peu inquiète, lit attentivement l''article et découvre que ces technologies sont déjà utilisées dans des domaines aussi variés que la médecine, la traduction automatique, ou même la création artistique. Étant donné que ces systèmes continuent de s''améliorer rapidement, l''article soulève une question qui préoccupe de nombreux chercheurs : quelles seront les répercussions de cette évolution sur le marché du travail dans les prochaines décennies ? Il se peut que certains métiers disparaissent complètement, tandis que d''autres, encore inimaginables aujourd''hui, verront le jour.","En discutant de l''article par appel vidéo, Karim se montre optimiste : « Dans la mesure où l''intelligence artificielle reste un outil créé et contrôlé par des humains, je pense qu''elle peut nous aider à résoudre des problèmes complexes, comme certaines maladies ou le changement climatique. » Camila, elle, reste plus prudente : « Il est possible que tu aies raison, mais je pense aussi qu''il faut rester vigilant. Une technologie aussi puissante peut être utilisée pour le meilleur comme pour le pire, selon les intentions de ceux qui la contrôlent. »","Cette conversation pousse Camila à réfléchir différemment à son propre projet professionnel : et si son futur métier de traductrice était, lui aussi, transformé par ces nouvelles technologies dans les années à venir ? Plutôt que de s''en inquiéter excessivement, elle décide d''adopter une attitude proactive : elle pourrait, par exemple, se spécialiser dans des domaines de traduction où la sensibilité culturelle et l''interprétation nuancée resteront difficilement remplaçables par une machine, quelle que soit la sophistication de ses algorithmes. Cette perspective la rassure, tout en confirmant l''importance de rester curieuse et informée face à un monde en perpétuelle évolution technologique."]'::jsonb, '{"prompt":"Remets les étapes de la conversation dans l’ordre.","events":["Karim envoie l’article sur l’intelligence artificielle à Camila.","Camila lit l’article et découvre ses domaines d’application.","Karim et Camila débattent des risques et bénéfices par appel vidéo.","Camila réfléchit à l’impact de ces technologies sur son propre projet professionnel."]}'::jsonb);
+Il se peut que ces prévisions évoluent encore considérablement, tant la vitesse de progression de ces technologies rend les projections à long terme particulièrement incertaines. Ce que confirment néanmoins la plupart des experts consultés, c’est que l’enjeu principal ne réside pas uniquement dans la capacité des machines à accomplir certaines tâches, mais dans la façon dont les sociétés choisiront collectivement d’organiser cette transition, notamment à travers leurs politiques de formation et de protection sociale.', '["À partir de quand l’intelligence artificielle générative comme ChatGPT s’est-elle massivement diffusée, selon le texte ?","Quelle organisation internationale a publié des rapports sur les effets de l’IA sur l’emploi ?","Quelles sont les trois catégories d’effets distinguées par les économistes ?","Quel exemple le texte donne-t-il d’un métier transformé plutôt qu’automatisé ?","Que souligne une étude de l’OCDE de 2023 citée dans le texte ?"]'::jsonb, '["Depuis la diffusion massive d’outils d’intelligence artificielle générative comme ChatGPT à partir de fin 2022, la question des répercussions de ces technologies sur l’emploi occupe une place centrale dans le débat économique. Plusieurs organisations internationales, dont le Fonds monétaire international, ont publié des rapports estimant qu’une proportion très importante des emplois dans le monde pourrait être affectée, à des degrés divers, par ces nouvelles technologies dans les années à venir, sans pour autant que cela signifie une disparition automatique de ces postes.","Étant donné la diversité des métiers concernés, les économistes distinguent généralement trois catégories d’effets possibles. Certains emplois pourraient être entièrement automatisés, en particulier des tâches répétitives et standardisées. D’autres seraient plutôt transformés : l’intelligence artificielle y deviendrait un outil d’assistance plutôt qu’un substitut complet, à l’image de la traduction automatique, dont la qualité s’est considérablement améliorée sans pour autant éliminer le besoin de traducteurs humains pour les textes exigeant une sensibilité culturelle particulière. Enfin, de nouveaux métiers, encore difficiles à anticiper précisément, devraient émerger, comme cela s’est déjà produit lors des précédentes révolutions technologiques.","Dans la mesure où ces transformations touchent des secteurs très variés, des chercheurs en économie du travail insistent sur l’importance de la formation continue pour accompagner cette transition. Une étude de l’OCDE publiée en 2023 souligne notamment que les travailleurs les mieux préparés à ces changements ne sont pas nécessairement ceux qui maîtrisent le mieux la technologie elle-même, mais ceux qui développent des compétences difficilement automatisables : le jugement critique, la créativité et l’intelligence relationnelle.","Il se peut que ces prévisions évoluent encore considérablement, tant la vitesse de progression de ces technologies rend les projections à long terme particulièrement incertaines. Ce que confirment néanmoins la plupart des experts consultés, c’est que l’enjeu principal ne réside pas uniquement dans la capacité des machines à accomplir certaines tâches, mais dans la façon dont les sociétés choisiront collectivement d’organiser cette transition, notamment à travers leurs politiques de formation et de protection sociale."]'::jsonb, NULL);
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, line)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-sciences-et-innovations-listening'), 'intro', 0, 'Écoute la conversation par appel vidéo entre Karim et Camila au sujet de l’article.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-sciences-et-innovations-listening'), 'dialogue_line', 0, 'Karim', 'Dans la mesure où l’IA reste contrôlée par des humains, je pense qu’elle peut nous aider énormément.', 'En la medida en que la IA siga siendo controlada por humanos, creo que puede ayudarnos enormemente.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-sciences-et-innovations-listening'), 'dialogue_line', 1, 'Camila', 'Il est possible que tu aies raison, mais il faut aussi rester vigilant.', 'Es posible que tengas razón, pero también hay que estar atentos.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-sciences-et-innovations-listening'), 'dialogue_line', 2, 'Karim', 'Bien sûr, aucune technologie n’est neutre en soi.', 'Claro, ninguna tecnología es neutral en sí misma.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-sciences-et-innovations-listening'), 'dialogue_line', 3, 'Camila', 'Exactement, tout dépend de ceux qui la contrôlent.', 'Exactamente, todo depende de quienes la controlan.');
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-sciences-et-innovations-listening'), 'intro', 0, 'Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-sciences-et-innovations-speaking'), 'dialogue_line', 0, 'Toi', 'Étant donné que cette technologie évolue rapidement, il est possible qu’elle transforme complètement notre façon de travailler.', 'Dado que esta tecnología evoluciona rápidamente, es posible que transforme completamente nuestra forma de trabajar.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
@@ -1581,23 +1517,15 @@ VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-sciences-e
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-sciences-et-innovations-dialogue'), 'dialogue_line', 3, 'Karim', 'C’est une excellente idée, ça, une machine ne pourra jamais vraiment le remplacer.', 'Es una excelente idea, eso una máquina nunca podrá reemplazarlo realmente.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, reading_title, reading_text, reading_questions, reading_parts, reading_ordering)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-histoire-et-memoire-reading'), 'reading', 0, 'Le documentaire avec grand-mère', 'Un dimanche après-midi, Camila regarde avec sa grand-mère un documentaire consacré à l''histoire partagée, complexe et parfois douloureuse, entre Haïti et la République dominicaine, deux pays qui se partagent la même île des Caraïbes. Le documentaire, réalisé par un historien francophone, explore différentes perspectives sur cette histoire commune, en donnant la parole à des chercheurs des deux côtés de la frontière. « C''est fascinant, mais aussi assez difficile à regarder », confie Camila à sa grand-mère, en pensant à certains épisodes évoqués dans le film.
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-histoire-et-memoire-reading'), 'reading', 0, 'Haïti et la République dominicaine : une île, deux mémoires', 'Haïti et la République dominicaine se partagent l’île d’Hispaniola, mais leurs trajectoires historiques ont longtemps divergé, façonnant deux mémoires collectives qui se croisent rarement de façon apaisée. Colonisée d’abord par l’Espagne puis en partie par la France, l’île a vu naître, en 1804, la première République noire indépendante de l’histoire, celle d’Haïti, après une révolution d’esclaves sans équivalent à cette époque. La partie orientale de l’île, elle, n’accédera à une indépendance durable qu’en 1844, après une période complexe incluant une occupation haïtienne de plus de deux décennies, encore présente dans certains récits nationaux dominicains.
 
-Sa grand-mère, qui a vécu une partie de cette histoire à travers les récits que lui racontait sa propre mère, ajoute une dimension personnelle à ce que raconte le documentaire. « Celle dont je me souviens le mieux, c''est l''histoire de ta arrière-arrière-grand-mère, qui avait accueilli chez elle des voisins haïtiens pendant une période particulièrement troublée », raconte-t-elle. « Ce sont des histoires que l''on a longtemps préféré taire dans la famille, mais je pense qu''il est important que tu les connaisses aujourd''hui, pour comprendre d''où tu viens vraiment. »
+Cette histoire commune est marquée par des épisodes que les deux pays ont longtemps préféré taire plutôt qu’affronter collectivement. Celui dont les historiens parlent le plus fréquemment reste le massacre de 1937, ordonné par le dictateur dominicain Rafael Trujillo, au cours duquel plusieurs milliers de personnes d’origine haïtienne furent tuées près de la frontière, dans un épisode que la mémoire officielle dominicaine a longtemps minimisé. Ce n’est que plusieurs décennies plus tard que des historiens des deux côtés de la frontière ont commencé à documenter plus précisément l’ampleur de cette tragédie.
 
-Camila, profondément touchée par ce témoignage, réalise à quel point la mémoire collective d''un pays est souvent constituée de multiples récits individuels, parfois contradictoires, que l''histoire officielle ne raconte que partiellement. Elle repense également à la diversité culturelle qu''elle a découverte pendant son année en France, où elle avait déjà commencé à réfléchir à la façon dont chaque pays construit sa propre version des événements historiques, en fonction de la perspective de celui qui les raconte.
+Aujourd’hui encore, cette mémoire douloureuse continue d’influencer les relations bilatérales, notamment sur la question migratoire, alors que plusieurs centaines de milliers de personnes d’origine haïtienne vivent en République dominicaine, parfois depuis plusieurs générations. Des chercheurs en sciences sociales soulignent que la construction de l’identité nationale dominicaine s’est en partie bâtie, historiquement, en opposition à une identité haïtienne perçue comme radicalement différente, un récit que plusieurs intellectuels dominicains contemporains cherchent désormais à nuancer, voire à remettre en question ouvertement.
 
-En fin de soirée, Camila remercie sa grand-mère pour ce moment de partage inattendu. « J''aimerais beaucoup que tu me racontes davantage ces histoires familiales, celles que je n''ai jamais entendues », lui dit-elle avec sincérité. Sa grand-mère sourit, visiblement émue par cet intérêt, et promet de continuer ces récits lors de leurs prochains dimanches ensemble. Camila comprend alors que la transmission de la mémoire, loin d''être un simple exercice académique, constitue aussi un acte profondément intime entre les générations, un fil invisible qui relie le passé de sa famille à ce qu''elle est en train de devenir, entre deux cultures et deux continents.', '["Quel est le sujet principal du documentaire regardé par Camila et sa grand-mère ?","Quelle histoire personnelle la grand-mère de Camila raconte-t-elle ?","Quelle réflexion Camila tire-t-elle sur la mémoire collective ?"]'::jsonb, '["Un dimanche après-midi, Camila regarde avec sa grand-mère un documentaire consacré à l''histoire partagée, complexe et parfois douloureuse, entre Haïti et la République dominicaine, deux pays qui se partagent la même île des Caraïbes. Le documentaire, réalisé par un historien francophone, explore différentes perspectives sur cette histoire commune, en donnant la parole à des chercheurs des deux côtés de la frontière. « C''est fascinant, mais aussi assez difficile à regarder », confie Camila à sa grand-mère, en pensant à certains épisodes évoqués dans le film.","Sa grand-mère, qui a vécu une partie de cette histoire à travers les récits que lui racontait sa propre mère, ajoute une dimension personnelle à ce que raconte le documentaire. « Celle dont je me souviens le mieux, c''est l''histoire de ta arrière-arrière-grand-mère, qui avait accueilli chez elle des voisins haïtiens pendant une période particulièrement troublée », raconte-t-elle. « Ce sont des histoires que l''on a longtemps préféré taire dans la famille, mais je pense qu''il est important que tu les connaisses aujourd''hui, pour comprendre d''où tu viens vraiment. »","Camila, profondément touchée par ce témoignage, réalise à quel point la mémoire collective d''un pays est souvent constituée de multiples récits individuels, parfois contradictoires, que l''histoire officielle ne raconte que partiellement. Elle repense également à la diversité culturelle qu''elle a découverte pendant son année en France, où elle avait déjà commencé à réfléchir à la façon dont chaque pays construit sa propre version des événements historiques, en fonction de la perspective de celui qui les raconte.","En fin de soirée, Camila remercie sa grand-mère pour ce moment de partage inattendu. « J''aimerais beaucoup que tu me racontes davantage ces histoires familiales, celles que je n''ai jamais entendues », lui dit-elle avec sincérité. Sa grand-mère sourit, visiblement émue par cet intérêt, et promet de continuer ces récits lors de leurs prochains dimanches ensemble. Camila comprend alors que la transmission de la mémoire, loin d''être un simple exercice académique, constitue aussi un acte profondément intime entre les générations, un fil invisible qui relie le passé de sa famille à ce qu''elle est en train de devenir, entre deux cultures et deux continents."]'::jsonb, '{"prompt":"Remets les moments de l’après-midi dans l’ordre.","events":["Camila et sa grand-mère commencent à regarder le documentaire.","La grand-mère raconte l’histoire de l’arrière-arrière-grand-mère de Camila.","Camila réfléchit à la nature multiple de la mémoire collective.","Camila demande à sa grand-mère de lui raconter davantage d’histoires familiales."]}'::jsonb);
+Ce sont ces récits multiples et parfois contradictoires, ceux racontés dans les manuels scolaires officiels comme ceux transmis au sein des familles, qui composent la mémoire vivante de cette histoire partagée. Plusieurs initiatives culturelles et académiques, organisées conjointement par des universités des deux pays, tentent aujourd’hui de favoriser un dialogue historique plus ouvert, dans l’espoir qu’une meilleure connaissance mutuelle du passé permette de construire des relations futures moins marquées par le silence et l’incompréhension.', '["En quelle année Haïti a-t-elle obtenu son indépendance, selon le texte ?","En quelle année la partie orientale de l’île (actuelle République dominicaine) a-t-elle accédé à une indépendance durable ?","Qui a ordonné le massacre de 1937 mentionné dans le texte ?","Comment la mémoire officielle dominicaine a-t-elle longtemps traité ce massacre ?","Sur quelle question actuelle cette mémoire historique continue-t-elle d’influencer les relations bilatérales ?"]'::jsonb, '["Haïti et la République dominicaine se partagent l’île d’Hispaniola, mais leurs trajectoires historiques ont longtemps divergé, façonnant deux mémoires collectives qui se croisent rarement de façon apaisée. Colonisée d’abord par l’Espagne puis en partie par la France, l’île a vu naître, en 1804, la première République noire indépendante de l’histoire, celle d’Haïti, après une révolution d’esclaves sans équivalent à cette époque. La partie orientale de l’île, elle, n’accédera à une indépendance durable qu’en 1844, après une période complexe incluant une occupation haïtienne de plus de deux décennies, encore présente dans certains récits nationaux dominicains.","Cette histoire commune est marquée par des épisodes que les deux pays ont longtemps préféré taire plutôt qu’affronter collectivement. Celui dont les historiens parlent le plus fréquemment reste le massacre de 1937, ordonné par le dictateur dominicain Rafael Trujillo, au cours duquel plusieurs milliers de personnes d’origine haïtienne furent tuées près de la frontière, dans un épisode que la mémoire officielle dominicaine a longtemps minimisé. Ce n’est que plusieurs décennies plus tard que des historiens des deux côtés de la frontière ont commencé à documenter plus précisément l’ampleur de cette tragédie.","Aujourd’hui encore, cette mémoire douloureuse continue d’influencer les relations bilatérales, notamment sur la question migratoire, alors que plusieurs centaines de milliers de personnes d’origine haïtienne vivent en République dominicaine, parfois depuis plusieurs générations. Des chercheurs en sciences sociales soulignent que la construction de l’identité nationale dominicaine s’est en partie bâtie, historiquement, en opposition à une identité haïtienne perçue comme radicalement différente, un récit que plusieurs intellectuels dominicains contemporains cherchent désormais à nuancer, voire à remettre en question ouvertement.","Ce sont ces récits multiples et parfois contradictoires, ceux racontés dans les manuels scolaires officiels comme ceux transmis au sein des familles, qui composent la mémoire vivante de cette histoire partagée. Plusieurs initiatives culturelles et académiques, organisées conjointement par des universités des deux pays, tentent aujourd’hui de favoriser un dialogue historique plus ouvert, dans l’espoir qu’une meilleure connaissance mutuelle du passé permette de construire des relations futures moins marquées par le silence et l’incompréhension."]'::jsonb, NULL);
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, line)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-histoire-et-memoire-listening'), 'intro', 0, 'Écoute la grand-mère de Camila partager un souvenir familial lié au documentaire.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-histoire-et-memoire-listening'), 'dialogue_line', 0, 'La grand-mère', 'Celle dont je me souviens le mieux, c’est l’histoire de ton arrière-arrière-grand-mère.', 'La que mejor recuerdo es la historia de tu tatarabuela.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-histoire-et-memoire-listening'), 'dialogue_line', 1, 'Camila', 'Raconte-moi, s’il te plaît, je ne connais pas cette histoire.', 'Cuéntame, por favor, no conozco esa historia.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-histoire-et-memoire-listening'), 'dialogue_line', 2, 'La grand-mère', 'Elle avait accueilli des voisins haïtiens chez elle, pendant une période très difficile.', 'Ella había acogido a vecinos haitianos en su casa, durante un período muy difícil.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-histoire-et-memoire-listening'), 'dialogue_line', 3, 'Camila', 'C’est une histoire incroyable, merci de me la raconter enfin.', 'Es una historia increíble, gracias por contármela por fin.');
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-histoire-et-memoire-listening'), 'intro', 0, 'Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-histoire-et-memoire-speaking'), 'dialogue_line', 0, 'Toi', 'Celle dont je me souviens le plus, c’est l’histoire de... On m’a raconté que... Cela m’aide à comprendre d’où je viens.', 'La que más recuerdo es la historia de... Me contaron que... Eso me ayuda a entender de dónde vengo.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
@@ -1623,23 +1551,15 @@ VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-histoire-e
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-histoire-et-memoire-dialogue'), 'dialogue_line', 3, 'Sofía', 'C’est précieux de connaître ce genre d’histoire, ça ne se perd pas facilement.', 'Es valioso conocer ese tipo de historia, no se pierde fácilmente.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, reading_title, reading_text, reading_questions, reading_parts, reading_ordering)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-ecologie-et-engagement-citoyen-reading'), 'reading', 0, 'Sauver les mangroves', 'Depuis quelques semaines, Camila consacre une partie de ses week-ends à un groupe de jeunes bénévoles engagés dans la protection des mangroves situées près de Saint-Domingue, un écosystème essentiel mais gravement menacé par la construction immobilière incontrôlée et la pollution plastique. « Les mangroves abritent une biodiversité extraordinaire, en plus de protéger la côte contre l''érosion », lui explique Ana, la coordinatrice du groupe, lors de sa première sortie sur le terrain. Camila, immédiatement séduite par ce projet concret, décide de s''impliquer activement.
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-ecologie-et-engagement-citoyen-reading'), 'reading', 0, 'Les mangroves des Caraïbes, un rempart naturel menacé', 'Les mangroves, ces forêts côtières composées de palétuviers capables de pousser en eau salée, occupent un rôle écologique disproportionné par rapport à la surface qu’elles couvrent. Selon plusieurs études publiées par des organisations environnementales internationales, ces écosystèmes stockent, à surface égale, jusqu’à quatre fois plus de carbone que les forêts tropicales terrestres, ce qui en fait un allié précieux, quoique encore largement sous-estimé, dans la lutte contre le changement climatique.
 
-Lorsque le groupe apprend qu''une association environnementale francophone basée en Guadeloupe mène des projets similaires de restauration de mangroves, Ana propose d''établir un partenariat afin que les deux organisations puissent échanger leurs connaissances et leurs méthodes de travail. Étant donné les compétences linguistiques de Camila, on lui confie naturellement la tâche de rédiger le courrier officiel en français, afin que le message soit compris sans ambiguïté et transmette efficacement le sérieux de leur démarche.
+Au-delà de leur rôle climatique, les mangroves rendent des services essentiels aux populations côtières. Elles servent de zone de reproduction à de nombreuses espèces de poissons, dont dépendent directement les communautés de pêcheurs locaux, et elles agissent comme une barrière naturelle contre l’érosion côtière et les tempêtes, en absorbant une partie de l’énergie des vagues avant qu’elles n’atteignent les zones habitées. Plusieurs études menées après des ouragans dans la région caribéenne ont ainsi montré que les zones côtières protégées par des mangroves en bonne santé subissaient des dégâts nettement inférieurs à celles qui en étaient dépourvues.
 
-Dans sa lettre, Camila explique en détail les actions déjà menées par le groupe : nettoyage régulier des zones côtières, plantation de nouvelles pousses de palétuviers, et sensibilisation des habitants locaux. « Je ne pense pas que ces problèmes environnementaux puissent être résolus isolément par un seul pays », écrit-elle avec conviction. « C''est pourquoi nous croyons qu''un partenariat international, aussi modeste soit-il au départ, pourrait avoir un impact bien plus important que des actions purement locales et isolées. » Elle ajoute que le climat des Caraïbes, plus vulnérable que celui de nombreuses autres régions du monde, exige une coopération régionale renforcée entre pays voisins, quelle que soit leur langue officielle.
+Malgré ces bénéfices largement documentés, les mangroves des Caraïbes continuent de reculer, principalement à cause de la construction immobilière côtière, de la pollution plastique et, dans certaines régions, de l’aquaculture intensive. Face à ce constat, de nombreuses associations locales ont commencé à organiser des programmes de restauration, afin que les jeunes générations puissent s’impliquer concrètement dans la protection de ces écosystèmes. Ces initiatives associent souvent plantation de nouvelles pousses, nettoyage des zones côtières et sensibilisation des habitants aux enjeux environnementaux de leur propre territoire.
 
-Quelques semaines après l''envoi de la lettre, l''association guadeloupéenne répond favorablement, proposant même d''organiser une visioconférence entre les deux groupes de bénévoles. Camila, fière du rôle qu''elle a joué dans cette collaboration naissante, réalise à quel point ses compétences en français, qu''elle percevait initialement comme un simple atout académique, peuvent également devenir un véritable outil d''engagement citoyen et de solidarité internationale, bien au-delà de ce qu''elle avait imaginé au début de son apprentissage. Elle se promet, dès ce jour-là, de continuer à défendre ce type de coopération régionale tout au long de ses futures études universitaires.', '["Pourquoi les mangroves sont-elles importantes, selon Ana ?","Pourquoi confie-t-on à Camila la rédaction de la lettre en français ?","Comment l’association guadeloupéenne répond-elle à la demande de partenariat ?"]'::jsonb, '["Depuis quelques semaines, Camila consacre une partie de ses week-ends à un groupe de jeunes bénévoles engagés dans la protection des mangroves situées près de Saint-Domingue, un écosystème essentiel mais gravement menacé par la construction immobilière incontrôlée et la pollution plastique. « Les mangroves abritent une biodiversité extraordinaire, en plus de protéger la côte contre l''érosion », lui explique Ana, la coordinatrice du groupe, lors de sa première sortie sur le terrain. Camila, immédiatement séduite par ce projet concret, décide de s''impliquer activement.","Lorsque le groupe apprend qu''une association environnementale francophone basée en Guadeloupe mène des projets similaires de restauration de mangroves, Ana propose d''établir un partenariat afin que les deux organisations puissent échanger leurs connaissances et leurs méthodes de travail. Étant donné les compétences linguistiques de Camila, on lui confie naturellement la tâche de rédiger le courrier officiel en français, afin que le message soit compris sans ambiguïté et transmette efficacement le sérieux de leur démarche.","Dans sa lettre, Camila explique en détail les actions déjà menées par le groupe : nettoyage régulier des zones côtières, plantation de nouvelles pousses de palétuviers, et sensibilisation des habitants locaux. « Je ne pense pas que ces problèmes environnementaux puissent être résolus isolément par un seul pays », écrit-elle avec conviction. « C''est pourquoi nous croyons qu''un partenariat international, aussi modeste soit-il au départ, pourrait avoir un impact bien plus important que des actions purement locales et isolées. » Elle ajoute que le climat des Caraïbes, plus vulnérable que celui de nombreuses autres régions du monde, exige une coopération régionale renforcée entre pays voisins, quelle que soit leur langue officielle.","Quelques semaines après l''envoi de la lettre, l''association guadeloupéenne répond favorablement, proposant même d''organiser une visioconférence entre les deux groupes de bénévoles. Camila, fière du rôle qu''elle a joué dans cette collaboration naissante, réalise à quel point ses compétences en français, qu''elle percevait initialement comme un simple atout académique, peuvent également devenir un véritable outil d''engagement citoyen et de solidarité internationale, bien au-delà de ce qu''elle avait imaginé au début de son apprentissage. Elle se promet, dès ce jour-là, de continuer à défendre ce type de coopération régionale tout au long de ses futures études universitaires."]'::jsonb, '{"prompt":"Remets les événements de cette collaboration dans l’ordre.","events":["Camila rejoint le groupe de protection des mangroves.","Ana propose un partenariat avec une association guadeloupéenne.","Camila rédige la lettre officielle en français.","L’association guadeloupéenne répond favorablement."]}'::jsonb);
+Les experts insistent néanmoins sur un point : je ne pense pas que ces initiatives locales suffisent, à elles seules, à inverser durablement la tendance sans un cadre réglementaire plus strict encadrant la construction sur le littoral. C’est pourquoi plusieurs organisations régionales appellent aujourd’hui à renforcer la coopération entre pays voisins des Caraïbes, dans la mesure où ces écosystèmes, ainsi que les bénéfices qu’ils procurent, ne connaissent évidemment aucune frontière administrative.', '["Combien de fois plus de carbone les mangroves stockent-elles, à surface égale, par rapport aux forêts tropicales terrestres, selon le texte ?","Quel rôle jouent les mangroves pour les communautés de pêcheurs locaux ?","Qu’ont montré plusieurs études menées après des ouragans dans la région caribéenne ?","Quelles sont les principales causes du recul des mangroves mentionnées dans le texte ?","Que font de nombreuses associations locales face à ce constat ?"]'::jsonb, '["Les mangroves, ces forêts côtières composées de palétuviers capables de pousser en eau salée, occupent un rôle écologique disproportionné par rapport à la surface qu’elles couvrent. Selon plusieurs études publiées par des organisations environnementales internationales, ces écosystèmes stockent, à surface égale, jusqu’à quatre fois plus de carbone que les forêts tropicales terrestres, ce qui en fait un allié précieux, quoique encore largement sous-estimé, dans la lutte contre le changement climatique.","Au-delà de leur rôle climatique, les mangroves rendent des services essentiels aux populations côtières. Elles servent de zone de reproduction à de nombreuses espèces de poissons, dont dépendent directement les communautés de pêcheurs locaux, et elles agissent comme une barrière naturelle contre l’érosion côtière et les tempêtes, en absorbant une partie de l’énergie des vagues avant qu’elles n’atteignent les zones habitées. Plusieurs études menées après des ouragans dans la région caribéenne ont ainsi montré que les zones côtières protégées par des mangroves en bonne santé subissaient des dégâts nettement inférieurs à celles qui en étaient dépourvues.","Malgré ces bénéfices largement documentés, les mangroves des Caraïbes continuent de reculer, principalement à cause de la construction immobilière côtière, de la pollution plastique et, dans certaines régions, de l’aquaculture intensive. Face à ce constat, de nombreuses associations locales ont commencé à organiser des programmes de restauration, afin que les jeunes générations puissent s’impliquer concrètement dans la protection de ces écosystèmes. Ces initiatives associent souvent plantation de nouvelles pousses, nettoyage des zones côtières et sensibilisation des habitants aux enjeux environnementaux de leur propre territoire.","Les experts insistent néanmoins sur un point : je ne pense pas que ces initiatives locales suffisent, à elles seules, à inverser durablement la tendance sans un cadre réglementaire plus strict encadrant la construction sur le littoral. C’est pourquoi plusieurs organisations régionales appellent aujourd’hui à renforcer la coopération entre pays voisins des Caraïbes, dans la mesure où ces écosystèmes, ainsi que les bénéfices qu’ils procurent, ne connaissent évidemment aucune frontière administrative."]'::jsonb, NULL);
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, line)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-ecologie-et-engagement-citoyen-listening'), 'intro', 0, 'Écoute Ana présenter le projet de protection des mangroves à Camila.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-ecologie-et-engagement-citoyen-listening'), 'dialogue_line', 0, 'Ana', 'Les mangroves protègent la côte et abritent une biodiversité incroyable.', 'Los manglares protegen la costa y albergan una biodiversidad increíble.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-ecologie-et-engagement-citoyen-listening'), 'dialogue_line', 1, 'Camila', 'Je ne savais pas qu’elles étaient si importantes.', 'No sabía que eran tan importantes.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-ecologie-et-engagement-citoyen-listening'), 'dialogue_line', 2, 'Ana', 'Malheureusement, elles sont menacées par la construction et la pollution.', 'Lamentablemente, están amenazadas por la construcción y la contaminación.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-ecologie-et-engagement-citoyen-listening'), 'dialogue_line', 3, 'Camila', 'Je veux vraiment aider à les protéger, comment puis-je m’impliquer ?', 'Realmente quiero ayudar a protegerlas, ¿cómo puedo involucrarme?');
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-ecologie-et-engagement-citoyen-listening'), 'intro', 0, 'Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-ecologie-et-engagement-citoyen-speaking'), 'dialogue_line', 0, 'Toi', 'Je m’engage pour cette cause afin que les générations futures puissent en profiter aussi. Je ne pense pas qu’on puisse résoudre ce problème sans action collective.', 'Me comprometo con esta causa para que las generaciones futuras también puedan disfrutarla. No creo que podamos resolver este problema sin acción colectiva.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
@@ -1665,23 +1585,15 @@ VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-ecologie-e
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-ecologie-et-engagement-citoyen-dialogue'), 'dialogue_line', 3, 'Ana', 'Ton français nous a vraiment été utile pour ce projet.', 'Tu francés realmente nos fue útil para este proyecto.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, reading_title, reading_text, reading_questions, reading_parts, reading_ordering)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-art-et-creativite-reading'), 'reading', 0, 'L’interview de l’artiste', 'Pour la nouvelle série d''articles qu''elle a commencé à publier sur son blog, Camila décide d''interviewer Mireille, une artiste peintre franco-dominicaine dont le travail, exposé récemment dans une petite galerie de Saint-Domingue, explore les thèmes de l''identité caribéenne et du métissage culturel. Avant leur rencontre, Camila prépare soigneusement une liste de questions, consciente que la qualité de son interview dépendra autant de sa préparation que de sa capacité d''écoute pendant l''échange.
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-art-et-creativite-reading'), 'reading', 0, 'Wifredo Lam, peintre de l’identité caribéenne plurielle', 'Né en 1902 à Cuba d’un père chinois et d’une mère aux origines africaines, espagnoles et amérindiennes, Wifredo Lam développe très tôt une œuvre picturale marquée par cette pluralité culturelle, refusant explicitement de se laisser enfermer dans une seule tradition artistique. Après des études à Madrid puis un séjour déterminant à Paris, où il fréquente Pablo Picasso et les surréalistes autour d’André Breton, Lam retourne à Cuba en 1941, avec la conviction que son art devait désormais renouer avec les racines afro-caribéennes de son île natale.
 
-Lors de l''entretien, Mireille explique que son processus créatif commence toujours par une longue période d''observation, avant même de toucher un pinceau. « Je m''inspire énormément des couleurs et des textures que je retrouve dans mon quotidien : le bleu de la mer des Caraïbes, mais aussi celui du ciel de Bretagne où j''ai grandi », confie-t-elle. Elle ajoute que, plus elle avance dans sa carrière, plus elle se sent libre de mélanger des influences visuelles a priori très différentes, sans chercher à les opposer artificiellement.
+Son tableau le plus célèbre, « La Jungle », peint en 1943 et aujourd’hui conservé au Museum of Modern Art de New York, illustre parfaitement cette démarche : des figures hybrides, mi-humaines mi-végétales, s’y mêlent dans une composition dense inspirée à la fois du surréalisme européen, des rituels de la santería cubaine et de l’art africain que Lam avait découvert lors de ses voyages. Plus il avançait dans sa carrière, plus il se sentait libre de superposer ces influences sans chercher à les hiérarchiser, refusant catégoriquement l’idée qu’un artiste caribéen devrait choisir entre une identité « occidentale » et une identité « africaine ».
 
-Camila lui demande alors si elle a déjà rencontré des difficultés à faire reconnaître un travail artistique qui refuse justement de se laisser enfermer dans une seule catégorie culturelle. Mireille répond avec sincérité : « Au début de ma carrière, on me demandait souvent de choisir un camp, comme si je devais absolument me définir comme artiste française ou comme artiste caribéenne. Aujourd''hui, je reçois de moins en moins ce genre de remarque, sans doute parce que le public est devenu plus habitué à des identités multiples et complexes. » Elle explique également que sa dernière exposition, la plus personnelle qu''elle ait jamais réalisée, a été particulièrement bien accueillie par la critique, ce qui la conforte dans cette direction artistique.
+Cette démarche a longtemps désarçonné une partie de la critique occidentale, qui peinait à classer son travail dans une catégorie stable : ni tout à fait surréaliste, ni entièrement inscrit dans une tradition afro-caribéenne préexistante, l’œuvre de Lam échappait aux étiquettes habituelles. Ce n’est que progressivement, à partir des années 1980, que les historiens de l’art ont commencé à reconnaître pleinement l’importance de sa démarche, aujourd’hui considérée comme précurseur d’une réflexion beaucoup plus large sur les identités culturelles multiples dans l’art contemporain.
 
-En terminant la rédaction de son article, Camila réalise à quel point cette conversation résonne avec sa propre expérience entre deux cultures. Elle décide de conclure son texte par une citation de Mireille qui l''a particulièrement marquée : « Je ne crois pas qu''il faille choisir entre ses différentes appartenances culturelles. Au contraire, c''est précisément dans cette tension créative que naît, selon moi, ce qu''il y a de plus authentique dans une œuvre. » Camila publie son article avec une fierté particulière, consciente d''avoir su, cette fois-ci, poser les bonnes questions.', '["Quel thème l’œuvre de Mireille explore-t-elle ?","Comment Mireille décrit-elle son processus créatif ?","Comment a évolué la perception du public sur son travail au fil du temps ?"]'::jsonb, '["Pour la nouvelle série d''articles qu''elle a commencé à publier sur son blog, Camila décide d''interviewer Mireille, une artiste peintre franco-dominicaine dont le travail, exposé récemment dans une petite galerie de Saint-Domingue, explore les thèmes de l''identité caribéenne et du métissage culturel. Avant leur rencontre, Camila prépare soigneusement une liste de questions, consciente que la qualité de son interview dépendra autant de sa préparation que de sa capacité d''écoute pendant l''échange.","Lors de l''entretien, Mireille explique que son processus créatif commence toujours par une longue période d''observation, avant même de toucher un pinceau. « Je m''inspire énormément des couleurs et des textures que je retrouve dans mon quotidien : le bleu de la mer des Caraïbes, mais aussi celui du ciel de Bretagne où j''ai grandi », confie-t-elle. Elle ajoute que, plus elle avance dans sa carrière, plus elle se sent libre de mélanger des influences visuelles a priori très différentes, sans chercher à les opposer artificiellement.","Camila lui demande alors si elle a déjà rencontré des difficultés à faire reconnaître un travail artistique qui refuse justement de se laisser enfermer dans une seule catégorie culturelle. Mireille répond avec sincérité : « Au début de ma carrière, on me demandait souvent de choisir un camp, comme si je devais absolument me définir comme artiste française ou comme artiste caribéenne. Aujourd''hui, je reçois de moins en moins ce genre de remarque, sans doute parce que le public est devenu plus habitué à des identités multiples et complexes. » Elle explique également que sa dernière exposition, la plus personnelle qu''elle ait jamais réalisée, a été particulièrement bien accueillie par la critique, ce qui la conforte dans cette direction artistique.","En terminant la rédaction de son article, Camila réalise à quel point cette conversation résonne avec sa propre expérience entre deux cultures. Elle décide de conclure son texte par une citation de Mireille qui l''a particulièrement marquée : « Je ne crois pas qu''il faille choisir entre ses différentes appartenances culturelles. Au contraire, c''est précisément dans cette tension créative que naît, selon moi, ce qu''il y a de plus authentique dans une œuvre. » Camila publie son article avec une fierté particulière, consciente d''avoir su, cette fois-ci, poser les bonnes questions."]'::jsonb, '{"prompt":"Remets les étapes de l’interview dans l’ordre.","events":["Camila prépare soigneusement une liste de questions.","Mireille explique son processus créatif basé sur l’observation.","Mireille parle de la difficulté initiale à faire reconnaître son travail hybride.","Camila publie son article en concluant sur une citation de Mireille."]}'::jsonb);
+Aujourd’hui, l’œuvre de Wifredo Lam est exposée dans les plus grands musées du monde, du MoMA au Centre Pompidou, et continue d’inspirer de nombreux artistes caribéens contemporains qui, à leur tour, explorent dans leurs propres œuvres cette même tension créative entre plusieurs appartenances culturelles. Son parcours reste, pour beaucoup d’historiens de l’art, l’un des exemples les plus aboutis d’une identité artistique construite non pas contre une culture d’origine, mais à travers la superposition assumée de plusieurs héritages.', '["En quelle année et où Wifredo Lam est-il né ?","Quelles origines culturelles Wifredo Lam avait-il, selon le texte ?","Qui Wifredo Lam a-t-il fréquenté à Paris ?","Quel est le tableau le plus célèbre de Lam mentionné dans le texte, et où est-il conservé ?","Comment la critique occidentale a-t-elle longtemps réagi face à l’œuvre de Lam ?"]'::jsonb, '["Né en 1902 à Cuba d’un père chinois et d’une mère aux origines africaines, espagnoles et amérindiennes, Wifredo Lam développe très tôt une œuvre picturale marquée par cette pluralité culturelle, refusant explicitement de se laisser enfermer dans une seule tradition artistique. Après des études à Madrid puis un séjour déterminant à Paris, où il fréquente Pablo Picasso et les surréalistes autour d’André Breton, Lam retourne à Cuba en 1941, avec la conviction que son art devait désormais renouer avec les racines afro-caribéennes de son île natale.","Son tableau le plus célèbre, « La Jungle », peint en 1943 et aujourd’hui conservé au Museum of Modern Art de New York, illustre parfaitement cette démarche : des figures hybrides, mi-humaines mi-végétales, s’y mêlent dans une composition dense inspirée à la fois du surréalisme européen, des rituels de la santería cubaine et de l’art africain que Lam avait découvert lors de ses voyages. Plus il avançait dans sa carrière, plus il se sentait libre de superposer ces influences sans chercher à les hiérarchiser, refusant catégoriquement l’idée qu’un artiste caribéen devrait choisir entre une identité « occidentale » et une identité « africaine ».","Cette démarche a longtemps désarçonné une partie de la critique occidentale, qui peinait à classer son travail dans une catégorie stable : ni tout à fait surréaliste, ni entièrement inscrit dans une tradition afro-caribéenne préexistante, l’œuvre de Lam échappait aux étiquettes habituelles. Ce n’est que progressivement, à partir des années 1980, que les historiens de l’art ont commencé à reconnaître pleinement l’importance de sa démarche, aujourd’hui considérée comme précurseur d’une réflexion beaucoup plus large sur les identités culturelles multiples dans l’art contemporain.","Aujourd’hui, l’œuvre de Wifredo Lam est exposée dans les plus grands musées du monde, du MoMA au Centre Pompidou, et continue d’inspirer de nombreux artistes caribéens contemporains qui, à leur tour, explorent dans leurs propres œuvres cette même tension créative entre plusieurs appartenances culturelles. Son parcours reste, pour beaucoup d’historiens de l’art, l’un des exemples les plus aboutis d’une identité artistique construite non pas contre une culture d’origine, mais à travers la superposition assumée de plusieurs héritages."]'::jsonb, NULL);
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, line)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-art-et-creativite-listening'), 'intro', 0, 'Écoute Mireille décrire son processus créatif à Camila pendant l’interview.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-art-et-creativite-listening'), 'dialogue_line', 0, 'Camila', 'Comment commence votre processus créatif, en général ?', '¿Cómo comienza generalmente su proceso creativo?');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-art-et-creativite-listening'), 'dialogue_line', 1, 'Mireille', 'Toujours par une longue période d’observation, avant même de toucher un pinceau.', 'Siempre por un largo período de observación, antes incluso de tocar un pincel.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-art-et-creativite-listening'), 'dialogue_line', 2, 'Camila', 'Et qu’est-ce qui vous inspire le plus ?', '¿Y qué es lo que más le inspira?');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-art-et-creativite-listening'), 'dialogue_line', 3, 'Mireille', 'Les couleurs et les textures que je retrouve dans mon quotidien.', 'Los colores y las texturas que encuentro en mi día a día.');
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-art-et-creativite-listening'), 'intro', 0, 'Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-art-et-creativite-speaking'), 'dialogue_line', 0, 'Toi', 'Comment commence votre processus créatif ? Qu’est-ce qui vous inspire le plus dans votre travail ?', '¿Cómo comienza su proceso creativo? ¿Qué es lo que más le inspira en su trabajo?');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
@@ -1707,23 +1619,15 @@ VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-art-et-cre
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-art-et-creativite-dialogue'), 'dialogue_line', 3, 'Camila', 'C’est un sujet qui me touche personnellement, ça a dû s’entendre.', 'Es un tema que me toca personalmente, seguramente se notó.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, reading_title, reading_text, reading_questions, reading_parts, reading_ordering)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-bilan-et-projets-davenir-reading'), 'reading', 0, 'La lettre à mon ancien moi', 'Un matin ordinaire, en vérifiant sa boîte mail entre deux traductions, Camila découvre enfin la réponse tant attendue de l''université de Tours : elle est acceptée en licence de langues étrangères appliquées, à partir de la rentrée prochaine. Après avoir crié de joie et immédiatement appelé sa mère, puis Léa et Karim en visioconférence, Camila s''assoit, encore émue, et décide d''écrire une lettre un peu particulière : non pas à un ami ou à un membre de sa famille, mais à la version d''elle-même qui, deux ans plus tôt, s''apprêtait à partir pour la France pour la première fois.
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-bilan-et-projets-davenir-reading'), 'reading', 0, 'Ce que les études disent des bénéfices d’une mobilité internationale', 'Chaque année, plusieurs centaines de milliers d’étudiants à travers le monde effectuent une partie de leurs études dans un pays étranger, dans le cadre de programmes comme Erasmus+ en Europe ou d’autres dispositifs d’échange internationaux. Si la motivation initiale de ces jeunes est souvent académique ou linguistique, plusieurs enquêtes menées sur le devenir des anciens participants montrent que les bénéfices d’une telle expérience dépassent largement le cadre strictement scolaire.
 
-« Chère Camila d''il y a deux ans, si tu savais tout ce qui t''attend », commence-t-elle à écrire. « Tu es en train de faire tes valises, terrifiée à l''idée de quitter ta famille pour un pays où tu ne connais personne. Avec le recul, je peux te dire que oui, ce sera parfois difficile : tu vas te sentir seule certains soirs, tu vas douter de toi en cours de français, et ton retour à la maison sera lui-même plus compliqué que tu ne l''imagines. Mais tu vas aussi te faire des amis pour la vie, découvrir une langue qui deviendra une véritable partie de toi, et développer une confiance en toi que tu ne soupçonnais même pas posséder. »
+Une enquête de grande ampleur menée auprès d’anciens étudiants Erasmus a ainsi révélé que ceux-ci présentaient, plusieurs années après leur retour, un taux d’insertion professionnelle nettement supérieur à celui des étudiants n’ayant jamais effectué de mobilité internationale, un écart que les chercheurs expliquent notamment par le développement de compétences interculturelles et d’une plus grande adaptabilité, très recherchées par les employeurs dans un contexte économique de plus en plus mondialisé. Si ces jeunes avaient renoncé à cette expérience, par crainte de l’inconnu ou par manque de moyens financiers, ils n’auraient probablement pas développé aussi rapidement cette capacité à évoluer dans des environnements incertains.
 
-Camila poursuit sa lettre en évoquant, avec une certaine émotion, tout ce qu''elle aurait pu manquer si elle avait cédé à la peur au moment de partir : « Si tu avais annulé ce voyage, comme tu y as pensé plusieurs fois avant le départ, tu n''aurais jamais rencontré Léa et Karim, tu n''aurais jamais découvert cette passion pour la traduction qui définit maintenant ton projet professionnel, et tu ne serais probablement pas en train de t''engager aujourd''hui pour protéger les mangroves de ton propre pays, en utilisant une langue que tu croyais, à l''époque, purement scolaire. » Elle sourit en écrivant ces mots, mesurant enfin pleinement le chemin parcouru.
+Au-delà des compétences directement valorisables sur le marché du travail, les chercheurs en psychologie du développement soulignent également des effets moins visibles mais tout aussi déterminants : une meilleure connaissance de soi, une capacité accrue à remettre en question ses propres certitudes culturelles, et souvent une plus grande tolérance à l’ambiguïté, cette capacité à avancer sereinement même lorsque toutes les réponses ne sont pas immédiatement disponibles. Ces compétences, difficilement mesurables par un diplôme, se révèlent pourtant précieuses dans un monde professionnel en constante évolution.
 
-En fin de compte, Camila conclut sa lettre par un message qu''elle espère aussi vrai pour son ancien moi que pour n''importe qui traversant une période d''incertitude similaire : « Je suis fière de la décision que tu vas prendre, même si tu ne le sais pas encore. Tu vas grandir de façons que tu ne peux même pas imaginer maintenant. Sois déterminée, reste curieuse, et surtout, n''aie pas peur de te tromper : c''est exactement de ces erreurs et de ces doutes que naîtra la personne que tu es en train de devenir aujourd''hui. » Elle publie finalement cette lettre sur son blog, certaine qu''elle pourrait, elle aussi, résonner avec d''autres jeunes hésitant à se lancer dans une aventure similaire à la sienne.', '["Quelle nouvelle Camila reçoit-elle au début du texte ?","À qui Camila décide-t-elle d’écrire une lettre ?","Que serait-il arrivé si Camila avait annulé son voyage, selon elle-même ?"]'::jsonb, '["Un matin ordinaire, en vérifiant sa boîte mail entre deux traductions, Camila découvre enfin la réponse tant attendue de l''université de Tours : elle est acceptée en licence de langues étrangères appliquées, à partir de la rentrée prochaine. Après avoir crié de joie et immédiatement appelé sa mère, puis Léa et Karim en visioconférence, Camila s''assoit, encore émue, et décide d''écrire une lettre un peu particulière : non pas à un ami ou à un membre de sa famille, mais à la version d''elle-même qui, deux ans plus tôt, s''apprêtait à partir pour la France pour la première fois.","« Chère Camila d''il y a deux ans, si tu savais tout ce qui t''attend », commence-t-elle à écrire. « Tu es en train de faire tes valises, terrifiée à l''idée de quitter ta famille pour un pays où tu ne connais personne. Avec le recul, je peux te dire que oui, ce sera parfois difficile : tu vas te sentir seule certains soirs, tu vas douter de toi en cours de français, et ton retour à la maison sera lui-même plus compliqué que tu ne l''imagines. Mais tu vas aussi te faire des amis pour la vie, découvrir une langue qui deviendra une véritable partie de toi, et développer une confiance en toi que tu ne soupçonnais même pas posséder. »","Camila poursuit sa lettre en évoquant, avec une certaine émotion, tout ce qu''elle aurait pu manquer si elle avait cédé à la peur au moment de partir : « Si tu avais annulé ce voyage, comme tu y as pensé plusieurs fois avant le départ, tu n''aurais jamais rencontré Léa et Karim, tu n''aurais jamais découvert cette passion pour la traduction qui définit maintenant ton projet professionnel, et tu ne serais probablement pas en train de t''engager aujourd''hui pour protéger les mangroves de ton propre pays, en utilisant une langue que tu croyais, à l''époque, purement scolaire. » Elle sourit en écrivant ces mots, mesurant enfin pleinement le chemin parcouru.","En fin de compte, Camila conclut sa lettre par un message qu''elle espère aussi vrai pour son ancien moi que pour n''importe qui traversant une période d''incertitude similaire : « Je suis fière de la décision que tu vas prendre, même si tu ne le sais pas encore. Tu vas grandir de façons que tu ne peux même pas imaginer maintenant. Sois déterminée, reste curieuse, et surtout, n''aie pas peur de te tromper : c''est exactement de ces erreurs et de ces doutes que naîtra la personne que tu es en train de devenir aujourd''hui. » Elle publie finalement cette lettre sur son blog, certaine qu''elle pourrait, elle aussi, résonner avec d''autres jeunes hésitant à se lancer dans une aventure similaire à la sienne."]'::jsonb, '{"prompt":"Remets les moments du texte dans l’ordre.","events":["Camila découvre qu’elle est acceptée à l’université de Tours.","Elle décide d’écrire une lettre à la Camila d’il y a deux ans.","Elle évoque tout ce qu’elle aurait manqué si elle avait annulé son départ.","Elle conclut sa lettre et la publie sur son blog."]}'::jsonb);
+En fin de compte, ce que confirment la plupart des études longitudinales menées sur ce sujet, c’est que l’impact d’une mobilité internationale se prolonge bien au-delà de la durée du séjour lui-même. Loin de se limiter à un simple ajout sur un curriculum vitae, cette expérience continue, des années plus tard, à influencer la façon dont d’anciens étudiants abordent les décisions importantes de leur vie personnelle et professionnelle, avec une détermination et une ouverture qu’ils reconnaissent eux-mêmes ne pas avoir possédées avant leur départ.', '["Quel est le nom du principal programme européen de mobilité étudiante mentionné dans le texte ?","Que révèle une enquête de grande ampleur sur les anciens étudiants Erasmus, selon le texte ?","Comment les chercheurs expliquent-ils cet écart d’insertion professionnelle ?","Quels effets moins visibles les chercheurs en psychologie du développement soulignent-ils ?","Que veut dire « la tolérance à l’ambiguïté », telle que définie dans le texte ?"]'::jsonb, '["Chaque année, plusieurs centaines de milliers d’étudiants à travers le monde effectuent une partie de leurs études dans un pays étranger, dans le cadre de programmes comme Erasmus+ en Europe ou d’autres dispositifs d’échange internationaux. Si la motivation initiale de ces jeunes est souvent académique ou linguistique, plusieurs enquêtes menées sur le devenir des anciens participants montrent que les bénéfices d’une telle expérience dépassent largement le cadre strictement scolaire.","Une enquête de grande ampleur menée auprès d’anciens étudiants Erasmus a ainsi révélé que ceux-ci présentaient, plusieurs années après leur retour, un taux d’insertion professionnelle nettement supérieur à celui des étudiants n’ayant jamais effectué de mobilité internationale, un écart que les chercheurs expliquent notamment par le développement de compétences interculturelles et d’une plus grande adaptabilité, très recherchées par les employeurs dans un contexte économique de plus en plus mondialisé. Si ces jeunes avaient renoncé à cette expérience, par crainte de l’inconnu ou par manque de moyens financiers, ils n’auraient probablement pas développé aussi rapidement cette capacité à évoluer dans des environnements incertains.","Au-delà des compétences directement valorisables sur le marché du travail, les chercheurs en psychologie du développement soulignent également des effets moins visibles mais tout aussi déterminants : une meilleure connaissance de soi, une capacité accrue à remettre en question ses propres certitudes culturelles, et souvent une plus grande tolérance à l’ambiguïté, cette capacité à avancer sereinement même lorsque toutes les réponses ne sont pas immédiatement disponibles. Ces compétences, difficilement mesurables par un diplôme, se révèlent pourtant précieuses dans un monde professionnel en constante évolution.","En fin de compte, ce que confirment la plupart des études longitudinales menées sur ce sujet, c’est que l’impact d’une mobilité internationale se prolonge bien au-delà de la durée du séjour lui-même. Loin de se limiter à un simple ajout sur un curriculum vitae, cette expérience continue, des années plus tard, à influencer la façon dont d’anciens étudiants abordent les décisions importantes de leur vie personnelle et professionnelle, avec une détermination et une ouverture qu’ils reconnaissent eux-mêmes ne pas avoir possédées avant leur départ."]'::jsonb, NULL);
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, line)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-bilan-et-projets-davenir-listening'), 'intro', 0, 'Écoute la réaction de Léa et Karim quand Camila leur annonce son admission à l’université.');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-bilan-et-projets-davenir-listening'), 'dialogue_line', 0, 'Camila', 'J’ai une nouvelle incroyable : je suis acceptée à l’université de Tours !', '¡Tengo una noticia increíble: fui aceptada en la universidad de Tours!');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-bilan-et-projets-davenir-listening'), 'dialogue_line', 1, 'Léa', 'Camila, c’est fantastique ! Tu vas revenir vivre ici !', '¡Camila, es fantástico! ¡Vas a volver a vivir aquí!');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-bilan-et-projets-davenir-listening'), 'dialogue_line', 2, 'Karim', 'On va enfin pouvoir se voir en vrai à nouveau !', '¡Por fin vamos a poder vernos en persona otra vez!');
-INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
-VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-bilan-et-projets-davenir-listening'), 'dialogue_line', 3, 'Camila', 'Je n’arrive pas encore à y croire, je suis tellement heureuse.', 'Todavía no puedo creerlo, estoy tan feliz.');
+VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-bilan-et-projets-davenir-listening'), 'intro', 0, 'Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-bilan-et-projets-davenir-speaking'), 'dialogue_line', 0, 'Toi', 'Avec le recul, je réalise à quel point cette décision a été importante. Si j’avais choisi différemment, je n’aurais jamais... En fin de compte, je suis fier/fière du chemin parcouru.', 'Con la perspectiva del tiempo, me doy cuenta de lo importante que fue esa decisión. Si hubiera elegido diferente, nunca habría... En definitiva, estoy orgulloso/a del camino recorrido.');
 INSERT INTO public.lesson_sections (lesson_id, type, order_index, speaker, line, translation)
@@ -1755,185 +1659,120 @@ VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-bilan-et-p
 -- ---------------------------------------------------------------------
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-retour-a-saint-domingue-reading'), 'mcq', 'Idée principale : de quoi parle ce texte ?', 0)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-retour-a-saint-domingue-reading'), 'mcq', 'Comment les chercheurs appellent-ils la difficulté ressentie au retour d’un séjour à l’étranger ?', 0)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('D’un voyage touristique à Saint-Domingue', false, 0),
-  ('Du retour ambivalent de Camila dans son pays natal', true, 1),
-  ('D’une dispute familiale à l’aéroport', false, 2),
-  ('D’un problème de vol retardé', false, 3)
+  ('Le choc culturel inversé', true, 0),
+  ('La fatigue du voyage', false, 1),
+  ('Le syndrome de l’expatriation', false, 2),
+  ('La barrière linguistique', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-retour-a-saint-domingue-reading'), 'mcq', 'Information explicite : qui attend Camila à l’aéroport ?', 1)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-retour-a-saint-domingue-reading'), 'mcq', 'Depuis quand ce phénomène est-il décrit par les chercheurs, selon le texte ?', 1)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Seulement ses parents', false, 0),
-  ('Sa famille et Sofía', true, 1),
-  ('Seulement Sofía', false, 2),
-  ('Léa et Karim', false, 3)
+  ('Depuis les années 2010', false, 0),
+  ('Depuis les années 1960', true, 1),
+  ('Depuis le vingtième siècle uniquement', false, 2),
+  ('Le texte ne le précise pas', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-retour-a-saint-domingue-reading'), 'mcq', 'Que remarque Sofía chez Camila ?', 2)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-retour-a-saint-domingue-reading'), 'mcq', 'Qu’est-ce qui a le plus souvent changé, selon les études citées ?', 2)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Qu’elle a beaucoup grossi', false, 0),
-  ('Qu’elle parle différemment, avec des pauses', true, 1),
-  ('Qu’elle ne veut plus parler espagnol', false, 2),
-  ('Qu’elle a changé de nom', false, 3)
+  ('Le pays d’origine lui-même', false, 0),
+  ('La personne qui revient, plus que le lieu', true, 1),
+  ('La langue officielle du pays', false, 2),
+  ('Rien n’a réellement changé', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-retour-a-saint-domingue-reading'), 'mcq', 'Inférence : pourquoi Camila compare-t-elle inconsciemment Saint-Domingue et Tours ?', 3)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-retour-a-saint-domingue-reading'), 'mcq', 'Quelle stratégie les spécialistes recommandent-ils pour atténuer ce trouble ?', 3)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Parce qu’elle déteste son pays', false, 0),
-  ('Parce que son séjour en France a transformé son regard', true, 1),
-  ('Parce qu’elle veut convaincre sa famille de déménager', false, 2),
-  ('Parce que c’est un exercice scolaire', false, 3)
+  ('Oublier rapidement l’expérience vécue à l’étranger', false, 0),
+  ('Garder contact avec les amitiés nouées et continuer à pratiquer la langue', true, 1),
+  ('Éviter tout contact avec l’étranger visité', false, 2),
+  ('Refuser de reparler de son séjour', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-retour-a-saint-domingue-reading'), 'mcq', 'Intention communicative : que voulait dire Léa avec « revenir chez toi ne sera pas aussi simple » ?', 4)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-retour-a-saint-domingue-reading'), 'mcq', 'Que proposent désormais certaines universités et organismes d’échange ?', 4)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Qu’il y aurait des problèmes d’avion', false, 0),
-  ('Qu’un retour implique aussi une forme de réadaptation', true, 1),
-  ('Que la famille de Camila serait fâchée', false, 2),
-  ('Que Camila devrait rester en France', false, 3)
+  ('Des ateliers d’accompagnement au retour', true, 0),
+  ('Des tests médicaux obligatoires', false, 1),
+  ('Des interdictions de repartir à l’étranger', false, 2),
+  ('Rien de particulier', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-retour-a-saint-domingue-reading'), 'mcq', 'Cause et conséquence : pourquoi Camila fait-elle des pauses en parlant espagnol ?', 5)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-retour-a-saint-domingue-listening'), 'mcq', 'Dans « Le retour que j’avais imaginé », quel détail présente la situation ?', 0)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Elle a oublié sa langue maternelle', false, 0),
-  ('Elle traduit inconsciemment depuis le français', true, 1),
-  ('Elle est fatiguée du voyage', false, 2),
-  ('Elle ne veut pas parler à Sofía', false, 3)
+  ('Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange inquiétude.', true, 0),
+  ('Pourtant, dès les premiers jours, j’ai compris que le retour ne serait pas aussi simple.', false, 1),
+  ('Ce mal du pays inversé m’a obligée à m’adapter une nouvelle fois.', false, 2),
+  ('Mes expériences s’étaient ajoutées les unes aux autres et formaient maintenant une identité plus large.', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-retour-a-saint-domingue-reading'), 'mcq', 'Signification en contexte : que signifie « à travers un objectif légèrement décalé » ?', 6)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-retour-a-saint-domingue-listening'), 'mcq', 'Après « Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie… », que se passe-t-il ensuite dans « Le retour que j’avais imaginé » ?', 1)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Avec des lunettes cassées', false, 0),
-  ('Avec un regard légèrement différent d’avant', true, 1),
-  ('En prenant des photos', false, 2),
-  ('En conduisant une voiture', false, 3)
+  ('Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange inquiétude.', false, 0),
+  ('Pourtant, dès les premiers jours, j’ai compris que le retour ne serait pas aussi simple.', true, 1),
+  ('Ce mal du pays inversé m’a obligée à m’adapter une nouvelle fois.', false, 2),
+  ('Mes expériences s’étaient ajoutées les unes aux autres et formaient maintenant une identité plus large.', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-retour-a-saint-domingue-reading'), 'mcq', 'Opinion vs fait : quelle phrase exprime un sentiment, pas un fait ?', 7)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-retour-a-saint-domingue-listening'), 'mcq', 'Quelle phrase révèle le mieux une intention ou une décision dans « Le retour que j’avais imaginé » ?', 2)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('L’avion de Camila atterrit à Saint-Domingue.', false, 0),
-  ('Elle a l’étrange sensation d’être devenue une étrangère dans son propre pays.', true, 1),
-  ('Sofía est la meilleure amie de Camila.', false, 2),
-  ('Camila était partie un an plus tôt.', false, 3)
+  ('Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange inquiétude.', false, 0),
+  ('Pourtant, dès les premiers jours, j’ai compris que le retour ne serait pas aussi simple.', false, 1),
+  ('Ce mal du pays inversé m’a obligée à m’adapter une nouvelle fois.', true, 2),
+  ('Mes expériences s’étaient ajoutées les unes aux autres et formaient maintenant une identité plus large.', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-retour-a-saint-domingue-reading'), 'mcq', 'Conclusion : quelle est la conclusion implicite du texte ?', 8)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-retour-a-saint-domingue-listening'), 'mcq', 'Quel résultat conclut « Le retour que j’avais imaginé » après « Ce mal du pays inversé m’a obligée à m’adapter une nouvelle fois. » ?', 3)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Camila regrette complètement son voyage en France', false, 0),
-  ('Le retour chez soi peut être aussi complexe qu’un départ', true, 1),
-  ('Il ne faut jamais voyager à l’étranger', false, 2),
-  ('Sofía et Camila ne sont plus amies', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-retour-a-saint-domingue-reading'), 'mcq', 'Comparaison d’informations : qu’est-ce qui a changé chez Camila, selon le texte, depuis son départ ?', 9)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Rien du tout', false, 0),
-  ('Sa façon de percevoir son pays et elle-même', true, 1),
-  ('Son apparence physique uniquement', false, 2),
-  ('Sa relation avec ses parents seulement', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-retour-a-saint-domingue-listening'), 'mcq', 'Comment Sofía réagit-elle en voyant Camila ?', 0)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Avec indifférence', false, 0),
-  ('Avec une grande joie', true, 1),
-  ('Avec de la colère', false, 2),
-  ('Avec de la tristesse', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-retour-a-saint-domingue-listening'), 'mcq', 'Que remarque Sofía dans la façon de parler de Camila ?', 1)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Elle parle trop vite', false, 0),
-  ('Elle fait des pauses avant de parler', true, 1),
-  ('Elle ne parle plus espagnol', false, 2),
-  ('Elle chuchote', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-retour-a-saint-domingue-listening'), 'mcq', 'Comment Camila explique-t-elle ce changement ?', 2)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Elle ne l’explique pas', false, 0),
-  ('Elle a dû traduire dans sa tête pendant longtemps', true, 1),
-  ('Elle est fatiguée du voyage', false, 2),
-  ('Elle ne veut plus parler', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-retour-a-saint-domingue-listening'), 'mcq', 'Quel est le ton général de cette conversation ?', 3)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Tendu et froid', false, 0),
-  ('Chaleureux et joyeux', true, 1),
-  ('Fâché', false, 2),
-  ('Indifférent', false, 3)
+  ('Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange inquiétude.', false, 0),
+  ('Pourtant, dès les premiers jours, j’ai compris que le retour ne serait pas aussi simple.', false, 1),
+  ('Ce mal du pays inversé m’a obligée à m’adapter une nouvelle fois.', false, 2),
+  ('Mes expériences s’étaient ajoutées les unes aux autres et formaient maintenant une identité plus large.', true, 3)
 ) AS v(option_text, is_correct, order_index);
 INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-retour-a-saint-domingue-speaking'), 'speaking', 'Présente un sentiment ambivalent sur un retour ou un changement, avec au moins deux nuances opposées.', 0);
@@ -1983,6 +1822,58 @@ FROM ex, (VALUES
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
   VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-retour-a-saint-domingue-grammar'), 'mcq', 'Quelle structure forme le plus-que-parfait ?', 3)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Avoir/être au présent + participe passé', false, 0),
+  ('Avoir/être à l’imparfait + participe passé', true, 1),
+  ('Avoir au futur + infinitif', false, 2),
+  ('Être au conditionnel + gérondif', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-retour-a-saint-domingue-grammar'), 'mcq', 'Quelle version corrige entièrement la phrase « Camila a presque oublié la chaleur de Saint-Domingue. » ?', 4)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Camila a presque oublié la chaleur de Saint-Domingue.', false, 0),
+  ('Camila avait presque oublié la chaleur de Saint-Domingue.', true, 1),
+  ('Camila ait presque oublié la chaleur de Saint-Domingue.', false, 2),
+  ('Camila aura presque oublié la chaleur de Saint-Domingue.', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-retour-a-saint-domingue-grammar'), 'mcq', 'Quelle version corrige entièrement la phrase « Elle est partie un an plus tôt, pleine d’appréhension. » ?', 5)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Elle était partie un an plus tôt, pleine d’appréhension.', true, 0),
+  ('Elle est partie un an plus tôt, pleine d’appréhension.', false, 1),
+  ('Elle partait un an plus tôt, pleine d’appréhension.', false, 2),
+  ('Elle sera partie un an plus tôt, pleine d’appréhension.', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-retour-a-saint-domingue-grammar'), 'mcq', 'Quelle version corrige entièrement la phrase « Camila n’a pas anticipé que le retour serait difficile. » ?', 6)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Camila n’a pas anticipé que le retour serait difficile.', false, 0),
+  ('Camila n’avait pas anticipé que le retour serait difficile.', true, 1),
+  ('Camila n’ait pas anticipé que le retour serait difficile.', false, 2),
+  ('Camila n’aurait pas anticipé que le retour serait difficile.', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-retour-a-saint-domingue-grammar'), 'mcq', 'Quelle réponse corrige l’erreur « Avoir/être au présent + participe passé » dans ce contexte : « Quelle structure forme le plus-que-parfait ? » ?', 7)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -2073,172 +1964,120 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-candidature-universitaire-reading'), 'mcq', 'Idée principale : de quoi parle ce texte ?', 0)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-candidature-universitaire-reading'), 'mcq', 'Que doit avant tout démontrer une lettre de motivation, selon le texte ?', 0)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('D’un examen final de français', false, 0),
-  ('De la rédaction d’une lettre de motivation universitaire', true, 1),
-  ('D’un voyage touristique à Tours', false, 2),
-  ('D’un problème administratif', false, 3)
+  ('Que le candidat a compris les spécificités de la formation visée', true, 0),
+  ('Que le candidat a les meilleures notes possibles', false, 1),
+  ('Que le candidat connaît beaucoup de vocabulaire soutenu', false, 2),
+  ('Que le candidat a voyagé dans plusieurs pays', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-candidature-universitaire-reading'), 'mcq', 'Information explicite : pour quelle formation Camila candidate-t-elle ?', 1)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-candidature-universitaire-reading'), 'mcq', 'Quelle est la structure en trois temps recommandée par les conseillers pédagogiques ?', 1)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Une licence de médecine', false, 0),
-  ('Une licence de langues étrangères appliquées', true, 1),
-  ('Un master de commerce', false, 2),
-  ('Un diplôme d’ingénieur', false, 3)
+  ('Déclencheur, exemples concrets, ce que le candidat apportera', true, 0),
+  ('Introduction, biographie complète, conclusion', false, 1),
+  ('Salutations, notes scolaires, remerciements', false, 2),
+  ('Question, réponse, opinion personnelle', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-candidature-universitaire-reading'), 'mcq', 'Quelle structure Karim propose-t-il pour la lettre ?', 2)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-candidature-universitaire-reading'), 'mcq', 'Pourquoi la dernière étape (ce que le candidat apportera) est-elle souvent négligée mais importante ?', 2)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Une seule longue phrase', false, 0),
-  ('Déclencheur, exemples concrets, ce qu’elle apportera', true, 1),
-  ('Uniquement des compliments sur la France', false, 2),
-  ('Une liste de ses notes scolaires', false, 3)
+  ('Parce qu’elle est obligatoire administrativement', false, 0),
+  ('Parce qu’elle distingue un projet réfléchi d’une simple liste de vœux', true, 1),
+  ('Parce qu’elle est la plus facile à écrire', false, 2),
+  ('Parce qu’elle remplace toutes les autres parties', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-candidature-universitaire-reading'), 'mcq', 'Inférence : pourquoi Karim insiste-t-il sur les exemples concrets ?', 3)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-candidature-universitaire-reading'), 'mcq', 'Quelle est l’erreur la plus fréquente relevée par les responsables d’admission ?', 3)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Parce que c’est obligatoire administrativement', false, 0),
-  ('Parce que des exemples précis rendent l’argumentation plus convaincante', true, 1),
-  ('Parce qu’il veut que la lettre soit plus longue', false, 2),
-  ('Parce que Camila écrit trop vite', false, 3)
+  ('Une lettre trop courte', false, 0),
+  ('Une lettre trop générale, sans spécificité', true, 1),
+  ('Une lettre trop personnelle', false, 2),
+  ('Une lettre sans salutations formelles', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-candidature-universitaire-reading'), 'mcq', 'Quel exemple concret Camila mentionne-t-elle dans sa lettre ?', 4)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-candidature-universitaire-reading'), 'mcq', 'Que recommandent les conseillers concernant l’équilibre entre confiance et humilité ?', 4)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Un voyage à Paris', false, 0),
-  ('Avoir aidé une touriste perdue à traduire', true, 1),
-  ('Un problème de logement', false, 2),
-  ('Une compétition sportive', false, 3)
+  ('Valoriser ses réussites sans exagérer, et reconnaître les difficultés surmontées', true, 0),
+  ('Ne jamais mentionner de difficulté', false, 1),
+  ('Exagérer systématiquement ses compétences', false, 2),
+  ('Éviter toute mention personnelle', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-candidature-universitaire-reading'), 'mcq', 'Cause et conséquence : pourquoi Camila veut-elle devenir traductrice ?', 5)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-candidature-universitaire-listening'), 'mcq', 'Dans « Construire une candidature convaincante », quel détail présente la situation ?', 0)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Parce que c’est bien payé', false, 0),
-  ('Pour aider d’autres personnes à franchir des barrières linguistiques', true, 1),
-  ('Parce que ses parents l’exigent', false, 2),
-  ('Par hasard, sans raison précise', false, 3)
+  ('Une bonne lettre de motivation ne répète pas simplement le CV.', true, 0),
+  ('Évitez les déclarations générales comme « J’ai toujours aimé apprendre ».', false, 1),
+  ('Le premier doit annoncer votre démarche ; le deuxième apporte des preuves ; le dernier ouvre sur l’avenir.', false, 2),
+  ('Elle permet au lecteur de comprendre ce que vous avez déjà construit et pourquoi cette formation représente une étape cohérente.', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-candidature-universitaire-reading'), 'mcq', 'Signification en contexte : que signifie « par ailleurs » dans le troisième paragraphe ?', 6)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-candidature-universitaire-listening'), 'mcq', 'Après « Une bonne lettre de motivation ne répète pas simplement le CV. », que se passe-t-il ensuite dans « Construire une candidature convaincante » ?', 1)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Malgré tout', false, 0),
-  ('De plus, en complément', true, 1),
-  ('Cependant', false, 2),
-  ('Enfin', false, 3)
+  ('Une bonne lettre de motivation ne répète pas simplement le CV.', false, 0),
+  ('Évitez les déclarations générales comme « J’ai toujours aimé apprendre ».', true, 1),
+  ('Le premier doit annoncer votre démarche ; le deuxième apporte des preuves ; le dernier ouvre sur l’avenir.', false, 2),
+  ('Elle permet au lecteur de comprendre ce que vous avez déjà construit et pourquoi cette formation représente une étape cohérente.', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-candidature-universitaire-reading'), 'mcq', 'Opinion vs fait : quelle phrase exprime une opinion de Camila ?', 7)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-candidature-universitaire-listening'), 'mcq', 'Quelle phrase révèle le mieux une intention ou une décision dans « Construire une candidature convaincante » ?', 2)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Elle candidate à l’université de Tours.', false, 0),
-  ('Elle a le sentiment d’avoir exprimé honnêtement qui elle est devenue.', true, 1),
-  ('Karim a rédigé plusieurs lettres de motivation.', false, 2),
-  ('Léa relit sa lettre par appel vidéo.', false, 3)
+  ('Une bonne lettre de motivation ne répète pas simplement le CV.', false, 0),
+  ('Évitez les déclarations générales comme « J’ai toujours aimé apprendre ».', false, 1),
+  ('Le premier doit annoncer votre démarche ; le deuxième apporte des preuves ; le dernier ouvre sur l’avenir.', true, 2),
+  ('Elle permet au lecteur de comprendre ce que vous avez déjà construit et pourquoi cette formation représente une étape cohérente.', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-candidature-universitaire-reading'), 'mcq', 'Conclusion : comment se sent Camila après avoir envoyé sa candidature ?', 8)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-candidature-universitaire-listening'), 'mcq', 'Quel résultat conclut « Construire une candidature convaincante » après « Le premier doit annoncer votre démarche ; le deuxième apporte des… » ?', 3)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Complètement indifférente', false, 0),
-  ('Fière du chemin parcouru, quel que soit le résultat', true, 1),
-  ('Certaine d’être refusée', false, 2),
-  ('En colère contre l’université', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-candidature-universitaire-reading'), 'mcq', 'Intention communicative : pourquoi Camila mentionne-t-elle son exposé sur les cultures dominicaine et française ?', 9)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Pour se plaindre de l’école', false, 0),
-  ('Pour illustrer concrètement son intérêt pour l’interculturalité', true, 1),
-  ('Parce que c’est obligatoire dans toute lettre', false, 2),
-  ('Pour critiquer ses camarades de classe', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-candidature-universitaire-listening'), 'mcq', 'Quel est le problème de Camila au début ?', 0)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Elle n’a pas d’ordinateur', false, 0),
-  ('Elle ne sait pas comment commencer sa lettre', true, 1),
-  ('Elle a raté la date limite', false, 2),
-  ('Elle ne veut plus étudier en France', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-candidature-universitaire-listening'), 'mcq', 'Que conseille Karim en premier ?', 1)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('De copier une lettre modèle', false, 0),
-  ('D’expliquer ce qui a déclenché son intérêt', true, 1),
-  ('De ne rien écrire de personnel', false, 2),
-  ('D’écrire en anglais', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-candidature-universitaire-listening'), 'mcq', 'Que doit expliquer Camila à la fin de la lettre, selon Karim ?', 2)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Ses notes scolaires uniquement', false, 0),
-  ('Ce qu’elle apportera à l’université', true, 1),
-  ('Ses problèmes personnels', false, 2),
-  ('Le prix des études', false, 3)
+  ('Une bonne lettre de motivation ne répète pas simplement le CV.', false, 0),
+  ('Évitez les déclarations générales comme « J’ai toujours aimé apprendre ».', false, 1),
+  ('Le premier doit annoncer votre démarche ; le deuxième apporte des preuves ; le dernier ouvre sur l’avenir.', false, 2),
+  ('Elle permet au lecteur de comprendre ce que vous avez déjà construit et pourquoi cette formation représente une étape cohérente.', true, 3)
 ) AS v(option_text, is_correct, order_index);
 INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-candidature-universitaire-speaking'), 'speaking', 'Présente ta motivation pour un projet académique ou professionnel, avec un exemple concret et une conclusion.', 0);
@@ -2288,6 +2127,58 @@ FROM ex, (VALUES
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
   VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-candidature-universitaire-grammar'), 'mcq', 'Quelle structure forme le subjonctif passé ?', 3)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Avoir/être au subjonctif présent + participe passé', true, 0),
+  ('Avoir au futur + infinitif', false, 1),
+  ('Être à l’imparfait + gérondif', false, 2),
+  ('Avoir au conditionnel + infinitif', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-candidature-universitaire-grammar'), 'mcq', 'Quelle version corrige entièrement la phrase « Je suis fière que tu envoies cette candidature. » ?', 4)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Je suis fière que tu envoies cette candidature.', false, 0),
+  ('Je suis fière que tu aies envoyé cette candidature.', true, 1),
+  ('Je suis fière que tu enverrais cette candidature.', false, 2),
+  ('Je suis fière que tu envoyais cette candidature.', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-candidature-universitaire-grammar'), 'mcq', 'Quelle version corrige entièrement la phrase « Il est important que nous vivons cette expérience ensemble. » ?', 5)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Il est important que nous vivons cette expérience ensemble.', false, 0),
+  ('Il est important que nous ayons vécu cette expérience ensemble.', true, 1),
+  ('Il est important que nous vivrons cette expérience ensemble.', false, 2),
+  ('Il est important que nous vivions cette expérience ensemble.', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-candidature-universitaire-grammar'), 'mcq', 'Quelle version corrige entièrement la phrase « Bien qu’elle soit nerveuse, elle a envoyé sa lettre. » ?', 6)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Bien qu’elle soit nerveuse, elle a envoyé sa lettre.', false, 0),
+  ('Bien qu’elle ait été nerveuse, elle a envoyé sa lettre.', true, 1),
+  ('Bien qu’elle était nerveuse, elle a envoyé sa lettre.', false, 2),
+  ('Bien qu’elle sera nerveuse, elle a envoyé sa lettre.', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-candidature-universitaire-grammar'), 'mcq', 'Quelle réponse corrige l’erreur « Avoir au futur + infinitif » dans ce contexte : « Quelle structure forme le subjonctif passé ? » ?', 7)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -2378,185 +2269,120 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-debats-de-societe-reading'), 'mcq', 'Idée principale : sur quoi porte ce débat en ligne ?', 0)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-debats-de-societe-reading'), 'mcq', 'Que recommandent des agences sanitaires comme l’ANSES concernant les écrans ?', 0)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Sur les vacances scolaires', false, 0),
-  ('Sur l’usage des écrans chez les adolescents', true, 1),
-  ('Sur le système éducatif dominicain', false, 2),
-  ('Sur les réseaux de transport', false, 3)
+  ('De les utiliser sans limite', false, 0),
+  ('De limiter le temps d’écran, notamment avant le coucher', true, 1),
+  ('De les interdire totalement', false, 2),
+  ('De ne rien recommander', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-debats-de-societe-reading'), 'mcq', 'Information explicite : que dit l’étudiant belge sur les écrans ?', 1)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-debats-de-societe-reading'), 'mcq', 'Selon certains chercheurs en psychologie du développement, qu’est-ce qui importe le plus que la durée d’exposition ?', 1)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Qu’il faut les interdire totalement', false, 0),
-  ('Qu’ils peuvent être un outil éducatif malgré des risques', true, 1),
-  ('Qu’ils n’ont aucun avantage', false, 2),
-  ('Qu’il ne les utilise jamais', false, 3)
+  ('Le prix de l’appareil utilisé', false, 0),
+  ('Le type de contenu consommé et le contexte', true, 1),
+  ('La marque du téléphone', false, 2),
+  ('L’heure exacte de la journée uniquement', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-debats-de-societe-reading'), 'mcq', 'Quel argument central apporte la participante française ?', 2)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-debats-de-societe-reading'), 'mcq', 'Que soulignent les partisans d’une régulation plus stricte ?', 2)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Les écrans sont toujours mauvais', false, 0),
-  ('Le vrai problème est le contenu, pas l’écran lui-même', true, 1),
-  ('Il faut plus d’écrans à l’école', false, 2),
-  ('Les parents contrôlent toujours le contenu', false, 3)
+  ('Que les plateformes sont conçues pour maximiser le temps de connexion', true, 0),
+  ('Que les écrans n’ont jamais d’effet', false, 1),
+  ('Que les parents ne devraient pas s’impliquer', false, 2),
+  ('Que l’éducation aux médias est inutile', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-debats-de-societe-reading'), 'mcq', 'Quel argument personnel Camila apporte-t-elle ?', 3)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-debats-de-societe-reading'), 'mcq', 'Que font certains pays face à ce débat ?', 3)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Les réseaux sociaux ne servent à rien', false, 0),
-  ('Ils l’ont aidée à garder contact, mais peuvent créer du stress', true, 1),
-  ('Elle n’a jamais utilisé de réseaux sociaux', false, 2),
-  ('Elle est complètement contre les écrans', false, 3)
+  ('Ils légifèrent sur l’accès des mineurs aux réseaux sociaux', true, 0),
+  ('Ils interdisent tous les écrans dans le monde entier', false, 1),
+  ('Ils ignorent totalement la question', false, 2),
+  ('Ils suppriment l’école', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-debats-de-societe-reading'), 'mcq', 'Inférence : pourquoi l’intervention de Camila est-elle bien accueillie ?', 4)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-debats-de-societe-reading'), 'mcq', 'Quelle difficulté plus large ce débat illustre-t-il, selon le texte ?', 4)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Parce qu’elle a parlé le plus fort', false, 0),
-  ('Parce qu’elle apporte une perspective fondée sur une expérience vécue', true, 1),
-  ('Parce qu’elle a flatté les autres participants', false, 2),
-  ('Parce qu’elle a terminé le débat rapidement', false, 3)
+  ('Légiférer sur un phénomène qui évolue plus vite que les études scientifiques', true, 0),
+  ('Le manque total de recherches sur le sujet', false, 1),
+  ('L’absence complète d’opinions publiques', false, 2),
+  ('Le désintérêt des chercheurs pour ce sujet', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-debats-de-societe-reading'), 'mcq', 'Signification en contexte : que signifie « néanmoins » dans le deuxième paragraphe ?', 5)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-debats-de-societe-listening'), 'mcq', 'Dans « Le débat public et ses règles », quel détail présente la situation ?', 0)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Donc', false, 0),
-  ('Cependant/pourtant', true, 1),
-  ('Parce que', false, 2),
-  ('De plus', false, 3)
+  ('Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les autres.', true, 0),
+  ('Le débat est alors transformé en spectacle et certaines nuances sont perdues.', false, 1),
+  ('Pour améliorer la discussion, chaque argument devrait être accompagné d’une source identifiable.', false, 2),
+  ('Une démocratie a besoin de désaccords, mais elle a surtout besoin de règles qui permettent à ces désaccords de produire de la compréhension plutôt que de la méfiance.', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-debats-de-societe-reading'), 'mcq', 'Signification en contexte : que signifie « dans une certaine mesure » ?', 6)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-debats-de-societe-listening'), 'mcq', 'Après « Dans un débat de société, défendre un point de vue ne consiste pas à… », que se passe-t-il ensuite dans « Le débat public et ses règles » ?', 1)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Complètement', false, 0),
-  ('Jamais', false, 1),
-  ('Partiellement, avec des nuances', true, 2),
-  ('Rapidement', false, 3)
+  ('Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les autres.', false, 0),
+  ('Le débat est alors transformé en spectacle et certaines nuances sont perdues.', true, 1),
+  ('Pour améliorer la discussion, chaque argument devrait être accompagné d’une source identifiable.', false, 2),
+  ('Une démocratie a besoin de désaccords, mais elle a surtout besoin de règles qui permettent à ces désaccords de produire de la compréhension plutôt que de la méfiance.', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-debats-de-societe-reading'), 'mcq', 'Opinion vs fait : quelle phrase exprime un fait, et non une opinion ?', 7)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-debats-de-societe-listening'), 'mcq', 'Quelle phrase révèle le mieux une intention ou une décision dans « Le débat public et ses règles » ?', 2)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Il me semble que les écrans peuvent être un outil éducatif.', false, 0),
-  ('Camila rejoint un club de discussion en ligne chaque semaine.', true, 1),
-  ('Je pense que le vrai problème est le contenu.', false, 2),
-  ('Ils ne peuvent donc pas être considérés uniquement comme négatifs.', false, 3)
+  ('Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les autres.', false, 0),
+  ('Le débat est alors transformé en spectacle et certaines nuances sont perdues.', false, 1),
+  ('Pour améliorer la discussion, chaque argument devrait être accompagné d’une source identifiable.', true, 2),
+  ('Une démocratie a besoin de désaccords, mais elle a surtout besoin de règles qui permettent à ces désaccords de produire de la compréhension plutôt que de la méfiance.', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-debats-de-societe-reading'), 'mcq', 'Conclusion : comment se sent Camila à la fin du débat ?', 8)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-debats-de-societe-listening'), 'mcq', 'Quel résultat conclut « Le débat public et ses règles » après « Pour améliorer la discussion, chaque argument devrait être accompagné… » ?', 3)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Déçue de sa performance', false, 0),
-  ('Satisfaite d’avoir argumenté en français sur un sujet complexe', true, 1),
-  ('Fâchée contre les autres participants', false, 2),
-  ('Indifférente', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-debats-de-societe-reading'), 'mcq', 'Quelle est la conclusion de l’animateur sur le débat ?', 9)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Un argument a complètement gagné', false, 0),
-  ('Aucun argument n’a été réfuté, mais la réflexion s’est affinée', true, 1),
-  ('Le débat n’a rien apporté', false, 2),
-  ('Tout le monde était d’accord dès le début', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-debats-de-societe-listening'), 'mcq', 'Quel est le premier argument de l’étudiant belge ?', 0)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Les écrans sont toujours mauvais', false, 0),
-  ('Les écrans peuvent être un bon outil éducatif', true, 1),
-  ('Il faut interdire les écrans', false, 2),
-  ('Il n’utilise jamais d’écran', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-debats-de-societe-listening'), 'mcq', 'Quel risque mentionne la participante française ?', 1)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Le prix des écrans', false, 0),
-  ('Le risque d’addiction', true, 1),
-  ('La pollution', false, 2),
-  ('Le manque de wifi', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-debats-de-societe-listening'), 'mcq', 'Quel autre problème l’étudiant belge mentionne-t-il ensuite ?', 2)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Le manque de contrôle parental', true, 0),
-  ('Le prix des téléphones', false, 1),
-  ('La vitesse d’internet', false, 2),
-  ('Le manque d’écoles', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-debats-de-societe-listening'), 'mcq', 'Comment se termine cet échange ?', 3)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Par une dispute', false, 0),
-  ('Par un accord partiel et nuancé', true, 1),
-  ('Par un désaccord total', false, 2),
-  ('Sans conclusion', false, 3)
+  ('Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les autres.', false, 0),
+  ('Le débat est alors transformé en spectacle et certaines nuances sont perdues.', false, 1),
+  ('Pour améliorer la discussion, chaque argument devrait être accompagné d’une source identifiable.', false, 2),
+  ('Une démocratie a besoin de désaccords, mais elle a surtout besoin de règles qui permettent à ces désaccords de produire de la compréhension plutôt que de la méfiance.', true, 3)
 ) AS v(option_text, is_correct, order_index);
 INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-debats-de-societe-speaking'), 'speaking', 'Défends une position nuancée sur un sujet de société, en anticipant et en répondant à un contre-argument.', 0);
@@ -2615,6 +2441,58 @@ FROM ex, (VALUES
   ('ont', false, 1),
   ('seront', false, 2),
   ('étaient', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-debats-de-societe-grammar'), 'mcq', 'Quelle version corrige entièrement la phrase « Ce contenu a rarement contrôlé par les parents. » ?', 4)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Ce contenu est rarement contrôlé par les parents.', true, 0),
+  ('Ce contenu a rarement contrôlé par les parents.', false, 1),
+  ('Ce contenu sera rarement contrôlé par les parents.', false, 2),
+  ('Ce contenu était rarement contrôlé par les parents.', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-debats-de-societe-grammar'), 'mcq', 'Quelle version corrige entièrement la phrase « Aucun argument n’est complètement réfuté. » ?', 5)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Aucun argument n’a été complètement réfuté.', true, 0),
+  ('Aucun argument n’est complètement réfuté.', false, 1),
+  ('Aucun argument n’sera complètement réfuté.', false, 2),
+  ('Aucun argument n’avait complètement réfuté.', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-debats-de-societe-grammar'), 'mcq', 'Quelle réponse corrige l’erreur « Les parents contrôlent le contenu. » dans ce contexte : « Quelle phrase est à la voix passive ? » ?', 6)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Les parents contrôlent le contenu.', false, 0),
+  ('Le contenu est contrôlé par les parents.', true, 1),
+  ('Les parents vont contrôler le contenu.', false, 2),
+  ('Les parents contrôlaient le contenu.', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-debats-de-societe-grammar'), 'mcq', 'Quelle version corrige entièrement la phrase « Les risques d’addiction ont bien documentés par les chercheurs. » ?', 7)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Les risques d’addiction sont bien documentés par les chercheurs.', true, 0),
+  ('Les risques d’addiction ont bien documentés par les chercheurs.', false, 1),
+  ('Les risques d’addiction seront bien documentés par les chercheurs.', false, 2),
+  ('Les risques d’addiction étaient bien documentés par les chercheurs.', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
@@ -2696,172 +2574,120 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-le-teletravail-et-lavenir-professionnel-reading'), 'mcq', 'Idée principale : de quoi parle ce texte ?', 0)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-le-teletravail-et-lavenir-professionnel-reading'), 'mcq', 'Depuis quand le télétravail s’est-il généralisé de façon spectaculaire en France, selon le texte ?', 0)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('D’un voyage professionnel', false, 0),
-  ('De l’expérience de Camila avec le télétravail', true, 1),
-  ('D’un conflit avec un employeur', false, 2),
-  ('D’une candidature refusée', false, 3)
+  ('Depuis les années 1990', false, 0),
+  ('Depuis 2020', true, 1),
+  ('Depuis toujours', false, 2),
+  ('Le texte ne le précise pas', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-le-teletravail-et-lavenir-professionnel-reading'), 'mcq', 'Information explicite : quel type de traduction fait Camila ?', 1)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-le-teletravail-et-lavenir-professionnel-reading'), 'mcq', 'Que montrent certaines études sur la productivité en télétravail ?', 1)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Des documents juridiques', false, 0),
-  ('Des brochures touristiques', true, 1),
-  ('Des livres scientifiques', false, 2),
-  ('Des articles de presse', false, 3)
+  ('Une baisse systématique de l’efficacité', false, 0),
+  ('Une hausse de l’efficacité individuelle liée notamment à la réduction des trajets', true, 1),
+  ('Aucun effet mesurable', false, 2),
+  ('Une productivité identique dans tous les cas', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-le-teletravail-et-lavenir-professionnel-reading'), 'mcq', 'Quel avantage du télétravail Camila mentionne-t-elle au début ?', 2)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-le-teletravail-et-lavenir-professionnel-reading'), 'mcq', 'Quel effet négatif d’autres travaux pointent-ils concernant le télétravail ?', 2)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Un meilleur salaire', false, 0),
-  ('La liberté d’organiser sa journée', true, 1),
-  ('Moins de travail à faire', false, 2),
-  ('Plus de vacances', false, 3)
+  ('Une baisse de la collaboration et de la transmission informelle de connaissances', true, 0),
+  ('Une augmentation du salaire', false, 1),
+  ('Une diminution du nombre d’employés', false, 2),
+  ('Un manque d’ordinateurs', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-le-teletravail-et-lavenir-professionnel-reading'), 'mcq', 'Quelle limite Camila ressent-elle après quelques semaines ?', 3)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-le-teletravail-et-lavenir-professionnel-reading'), 'mcq', 'Quel risque est particulièrement bien documenté par les chercheurs en psychologie du travail ?', 3)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Le manque d’équipement', false, 0),
-  ('Le manque d’interactions sociales', true, 1),
-  ('Le manque d’argent', false, 2),
-  ('Le manque de temps libre', false, 3)
+  ('L’isolement social des salariés totalement à distance', true, 0),
+  ('L’augmentation du bruit au bureau', false, 1),
+  ('La perte totale de compétences', false, 2),
+  ('Le manque d’équipement informatique', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-le-teletravail-et-lavenir-professionnel-reading'), 'mcq', 'Que suggère la mère de Camila ?', 4)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-le-teletravail-et-lavenir-professionnel-reading'), 'mcq', 'Que font un nombre croissant d’entreprises face au risque d’isolement ?', 4)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('D’arrêter de travailler', false, 0),
-  ('D’aller travailler parfois dans un café', true, 1),
-  ('De changer complètement de métier', false, 2),
-  ('De déménager', false, 3)
+  ('Elles interdisent totalement le télétravail', false, 0),
+  ('Elles imposent un minimum de jours de présence hebdomadaire', true, 1),
+  ('Elles suppriment les bureaux', false, 2),
+  ('Elles ignorent le problème', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-le-teletravail-et-lavenir-professionnel-reading'), 'mcq', 'Cause et conséquence : pourquoi le changement au café améliore-t-il son moral ?', 5)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-le-teletravail-et-lavenir-professionnel-listening'), 'mcq', 'Dans « Télétravail : autonomie ou isolement ? », quel détail présente la situation ?', 0)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Parce qu’elle gagne plus d’argent', false, 0),
-  ('Parce qu’elle retrouve une ambiance sociale tout en restant concentrée', true, 1),
-  ('Parce qu’elle arrête de travailler', false, 2),
-  ('Parce que le café est gratuit', false, 3)
+  ('En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du télétravail.', true, 0),
+  ('Cependant, les journées sont progressivement devenues plus longues.', false, 1),
+  ('Sarah a alors proposé un fonctionnement hybride : deux jours au bureau, trois jours à distance et une réunion sans écran chaque mois.', false, 2),
+  ('Son efficacité dépend des règles auxquelles l’équipe adhère, des outils dont elle dispose et de la capacité de chacun à protéger les limites entre vie professionnelle et vie personnelle.', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-le-teletravail-et-lavenir-professionnel-reading'), 'mcq', 'Signification en contexte : que signifie « ce dont elle a le plus besoin » ?', 6)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-le-teletravail-et-lavenir-professionnel-listening'), 'mcq', 'Après « En travaillant depuis chez elle pendant trois ans, Sarah a découvert… », que se passe-t-il ensuite dans « Télétravail : autonomie ou isolement ? » ?', 1)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Ce qu’elle possède déjà', false, 0),
-  ('Ce qui lui manque le plus', true, 1),
-  ('Ce qu’elle a acheté', false, 2),
-  ('Ce qu’elle a oublié', false, 3)
+  ('En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du télétravail.', false, 0),
+  ('Cependant, les journées sont progressivement devenues plus longues.', true, 1),
+  ('Sarah a alors proposé un fonctionnement hybride : deux jours au bureau, trois jours à distance et une réunion sans écran chaque mois.', false, 2),
+  ('Son efficacité dépend des règles auxquelles l’équipe adhère, des outils dont elle dispose et de la capacité de chacun à protéger les limites entre vie professionnelle et vie personnelle.', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-le-teletravail-et-lavenir-professionnel-reading'), 'mcq', 'Opinion vs fait : quelle phrase exprime une conclusion personnelle de Camila ?', 7)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-le-teletravail-et-lavenir-professionnel-listening'), 'mcq', 'Quelle phrase révèle le mieux une intention ou une décision dans « Télétravail : autonomie ou isolement ? » ?', 2)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Elle traduit des brochures touristiques.', false, 0),
-  ('Le télétravail n’est ni entièrement positif ni entièrement négatif.', true, 1),
-  ('Elle travaille deux après-midis au café.', false, 2),
-  ('Sa mère s’inquiète en la voyant travailler.', false, 3)
+  ('En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du télétravail.', false, 0),
+  ('Cependant, les journées sont progressivement devenues plus longues.', false, 1),
+  ('Sarah a alors proposé un fonctionnement hybride : deux jours au bureau, trois jours à distance et une réunion sans écran chaque mois.', true, 2),
+  ('Son efficacité dépend des règles auxquelles l’équipe adhère, des outils dont elle dispose et de la capacité de chacun à protéger les limites entre vie professionnelle et vie personnelle.', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-le-teletravail-et-lavenir-professionnel-reading'), 'mcq', 'Inférence : que représente ce petit emploi pour l’avenir de Camila ?', 8)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-le-teletravail-et-lavenir-professionnel-listening'), 'mcq', 'Quel résultat conclut « Télétravail : autonomie ou isolement ? » après « Sarah a alors proposé un fonctionnement hybride : deux jours au… » ?', 3)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Une perte de temps', false, 0),
-  ('Une première étape vers le métier de traductrice', true, 1),
-  ('Un obstacle à ses études', false, 2),
-  ('Une expérience sans importance', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-le-teletravail-et-lavenir-professionnel-reading'), 'mcq', 'Conclusion : comment Camila se sent-elle à la fin du texte, comparée à un an plus tôt ?', 9)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Moins confiante', false, 0),
-  ('Plus confiante dans son projet professionnel', true, 1),
-  ('Exactement pareille', false, 2),
-  ('Découragée', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-le-teletravail-et-lavenir-professionnel-listening'), 'mcq', 'Comment Camila décrit-elle son nouveau travail au début ?', 0)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Terrible', false, 0),
-  ('Plutôt bien, mais étrange sans collègues', true, 1),
-  ('Complètement décevant', false, 2),
-  ('Trop facile', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-le-teletravail-et-lavenir-professionnel-listening'), 'mcq', 'Que suggère Karim ?', 1)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('D’arrêter le travail', false, 0),
-  ('De sortir travailler ailleurs parfois', true, 1),
-  ('De travailler toute la nuit', false, 2),
-  ('De ne rien changer', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-le-teletravail-et-lavenir-professionnel-listening'), 'mcq', 'Que décide de faire Camila ?', 2)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Rien du tout', false, 0),
-  ('Essayer de travailler dans un café', true, 1),
-  ('Démissionner', false, 2),
-  ('Déménager', false, 3)
+  ('En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du télétravail.', false, 0),
+  ('Cependant, les journées sont progressivement devenues plus longues.', false, 1),
+  ('Sarah a alors proposé un fonctionnement hybride : deux jours au bureau, trois jours à distance et une réunion sans écran chaque mois.', false, 2),
+  ('Son efficacité dépend des règles auxquelles l’équipe adhère, des outils dont elle dispose et de la capacité de chacun à protéger les limites entre vie professionnelle et vie personnelle.', true, 3)
 ) AS v(option_text, is_correct, order_index);
 INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-le-teletravail-et-lavenir-professionnel-speaking'), 'speaking', 'Présente les avantages et inconvénients d’une modalité de travail, avec le gérondif et un pronom relatif composé.', 0);
@@ -2911,6 +2737,58 @@ FROM ex, (VALUES
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
   VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-le-teletravail-et-lavenir-professionnel-grammar'), 'mcq', 'Quelle structure exprime la simultanéité ?', 3)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('En + participe présent', true, 0),
+  ('Avoir + participe passé', false, 1),
+  ('Aller + infinitif', false, 2),
+  ('Être + adjectif', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-le-teletravail-et-lavenir-professionnel-grammar'), 'mcq', 'Quelle version corrige entièrement la phrase « Dans travaillant seule, elle a réalisé qu’elle avait besoin de contact humain. » ?', 4)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('En travaillant seule, elle a réalisé qu’elle avait besoin de contact humain.', true, 0),
+  ('Dans travaillant seule, elle a réalisé qu’elle avait besoin de contact humain.', false, 1),
+  ('Par travaillant seule, elle a réalisé qu’elle avait besoin de contact humain.', false, 2),
+  ('Pour travaillant seule, elle a réalisé qu’elle avait besoin de contact humain.', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-le-teletravail-et-lavenir-professionnel-grammar'), 'mcq', 'Quelle version corrige entièrement la phrase « C’est le métier qu’elle rêve depuis longtemps. » ?', 5)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('C’est le métier qu’elle rêve depuis longtemps.', false, 0),
+  ('C’est le métier dont elle rêve depuis longtemps.', true, 1),
+  ('C’est le métier où elle rêve depuis longtemps.', false, 2),
+  ('C’est le métier qui elle rêve depuis longtemps.', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-le-teletravail-et-lavenir-professionnel-grammar'), 'mcq', 'Quelle version corrige entièrement la phrase « Ce qu’elle a le plus besoin, c’est de présence humaine. » ?', 6)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Ce qu’elle a le plus besoin, c’est de présence humaine.', false, 0),
+  ('Ce dont elle a le plus besoin, c’est de présence humaine.', true, 1),
+  ('Ce qui elle a le plus besoin, c’est de présence humaine.', false, 2),
+  ('Ce à quoi elle a le plus besoin, c’est de présence humaine.', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-le-teletravail-et-lavenir-professionnel-grammar'), 'mcq', 'Quelle réponse corrige l’erreur « Avoir + participe passé » dans ce contexte : « Quelle structure exprime la simultanéité ? » ?', 7)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -3001,172 +2879,120 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-litterature-francophone-reading'), 'mcq', 'Idée principale : de quoi parle ce texte ?', 0)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-litterature-francophone-reading'), 'mcq', 'Qui a publié l’essai « Éloge de la créolité » ?', 0)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('D’un cours de grammaire française', false, 0),
-  ('De la découverte de la littérature francophone par Camila', true, 1),
-  ('D’un voyage en Guadeloupe', false, 2),
-  ('D’un problème technique lors d’une visioconférence', false, 3)
+  ('Trois écrivains martiniquais : Bernabé, Chamoiseau et Confiant', true, 0),
+  ('Un seul auteur français', false, 1),
+  ('Un collectif d’universités africaines', false, 2),
+  ('Aimé Césaire seul', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-litterature-francophone-reading'), 'mcq', 'Information explicite : qui a écrit le roman étudié ?', 1)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-litterature-francophone-reading'), 'mcq', 'Que défend l’essai « Éloge de la créolité » ?', 1)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Un auteur français', false, 0),
-  ('Une autrice guadeloupéenne', true, 1),
-  ('Un auteur dominicain', false, 2),
-  ('Camila elle-même', false, 3)
+  ('Que l’identité antillaise est une simple extension de la culture française', false, 0),
+  ('Que l’identité antillaise est une réalité culturelle propre, née du métissage', true, 1),
+  ('Qu’il faut retourner uniquement vers une Afrique ancestrale', false, 2),
+  ('Que la culture caribéenne n’existe pas', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-litterature-francophone-reading'), 'mcq', 'Quel thème récurrent l’animatrice mentionne-t-elle ?', 2)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-litterature-francophone-reading'), 'mcq', 'Quel concept Édouard Glissant a-t-il développé ?', 2)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('La guerre et la paix', false, 0),
-  ('Le déracinement et l’identité multiple', true, 1),
-  ('L’amour impossible', false, 2),
-  ('Le voyage dans le temps', false, 3)
+  ('La créolisation', true, 0),
+  ('La négritude', false, 1),
+  ('Le réalisme magique', false, 2),
+  ('Le romantisme', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-litterature-francophone-reading'), 'mcq', 'Que rapporte l’animatrice sur l’intention de l’autrice ?', 3)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-litterature-francophone-reading'), 'mcq', 'Quel roman de Chamoiseau a obtenu le prix Goncourt en 1992 ?', 3)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Qu’elle voulait critiquer son pays', false, 0),
-  ('Qu’elle voulait montrer qu’on peut appartenir à plusieurs mondes', true, 1),
-  ('Qu’elle écrivait pour de l’argent', false, 2),
-  ('Qu’elle regrettait d’avoir écrit ce livre', false, 3)
+  ('Texaco', true, 0),
+  ('Ségou', false, 1),
+  ('Moi, Tituba sorcière', false, 2),
+  ('La créolité', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-litterature-francophone-reading'), 'mcq', 'Comment Camila interprète-t-elle son propre sentiment « entre deux mondes » après cette lecture ?', 4)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-litterature-francophone-reading'), 'mcq', 'Quelle position Maryse Condé a-t-elle adoptée par rapport au mouvement de la créolité ?', 4)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Comme un problème à résoudre absolument', false, 0),
-  ('Comme une nouvelle façon d’exister', true, 1),
-  ('Comme une erreur de jeunesse', false, 2),
-  ('Comme quelque chose à cacher', false, 3)
+  ('Elle l’a rejoint officiellement', false, 0),
+  ('Elle a préféré une position plus individuelle, sans rattachement collectif', true, 1),
+  ('Elle a fondé ce mouvement', false, 2),
+  ('Elle n’a jamais écrit sur ce sujet', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-litterature-francophone-reading'), 'mcq', 'Inférence : pourquoi les autres participants sont-ils touchés par l’intervention de Camila ?', 5)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-litterature-francophone-listening'), 'mcq', 'Dans « Pourquoi ce roman résonne encore », quel détail présente la situation ?', 0)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Parce qu’elle a parlé très fort', false, 0),
-  ('Parce que son interprétation personnelle résonne avec le texte', true, 1),
-  ('Parce qu’elle a critiqué le roman', false, 2),
-  ('Parce qu’elle a fait une erreur de français', false, 3)
+  ('Bienvenue dans notre podcast littéraire.', true, 0),
+  ('Elle avait ajouté que le personnage principal n’était pas un portrait exact, mais une figure inspirée de plusieurs générations.', false, 1),
+  ('Le thème récurrent de la maison résonne avec de nombreux lecteurs, même lorsque leur propre parcours est différent.', false, 2),
+  ('C’est précisément cette liberté qui permet à chaque lecteur d’y reconnaître une part de son histoire et de construire sa propre relation avec le texte.', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-litterature-francophone-reading'), 'mcq', 'Signification en contexte : que signifie « la force de la grande littérature » selon l’animatrice ?', 6)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-litterature-francophone-listening'), 'mcq', 'Après « Bienvenue dans notre podcast littéraire. », que se passe-t-il ensuite dans « Pourquoi ce roman résonne encore » ?', 1)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Sa capacité à faire vendre beaucoup de livres', false, 0),
-  ('Sa capacité à permettre à chacun de retrouver sa propre vérité', true, 1),
-  ('Sa difficulté de lecture', false, 2),
-  ('Sa longueur', false, 3)
+  ('Bienvenue dans notre podcast littéraire.', false, 0),
+  ('Elle avait ajouté que le personnage principal n’était pas un portrait exact, mais une figure inspirée de plusieurs générations.', true, 1),
+  ('Le thème récurrent de la maison résonne avec de nombreux lecteurs, même lorsque leur propre parcours est différent.', false, 2),
+  ('C’est précisément cette liberté qui permet à chaque lecteur d’y reconnaître une part de son histoire et de construire sa propre relation avec le texte.', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-litterature-francophone-reading'), 'mcq', 'Opinion vs fait : quelle phrase exprime un fait, et non une impression ?', 7)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-litterature-francophone-listening'), 'mcq', 'Quelle phrase révèle le mieux une intention ou une décision dans « Pourquoi ce roman résonne encore » ?', 2)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Camila se reconnaît dans le personnage principal.', false, 0),
-  ('L’animatrice est une professeure de littérature à la retraite.', true, 1),
-  ('Ce roman lui a fait comprendre beaucoup de choses.', false, 2),
-  ('Elle ressent un sentiment inhabituel de plénitude.', false, 3)
+  ('Bienvenue dans notre podcast littéraire.', false, 0),
+  ('Elle avait ajouté que le personnage principal n’était pas un portrait exact, mais une figure inspirée de plusieurs générations.', false, 1),
+  ('Le thème récurrent de la maison résonne avec de nombreux lecteurs, même lorsque leur propre parcours est différent.', true, 2),
+  ('C’est précisément cette liberté qui permet à chaque lecteur d’y reconnaître une part de son histoire et de construire sa propre relation avec le texte.', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-litterature-francophone-reading'), 'mcq', 'Conclusion : que représente désormais le français pour Camila, selon la fin du texte ?', 8)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-litterature-francophone-listening'), 'mcq', 'Quel résultat conclut « Pourquoi ce roman résonne encore » après « Le thème récurrent de la maison résonne avec de nombreux lecteurs,… » ?', 3)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Un outil purement pratique, rien de plus', false, 0),
-  ('Une langue dans laquelle elle pense et se comprend elle-même', true, 1),
-  ('Une langue qu’elle veut abandonner', false, 2),
-  ('Une matière scolaire obligatoire', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-litterature-francophone-reading'), 'mcq', 'Intention communicative : pourquoi Camila décide-t-elle de commander le roman suivant ?', 9)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Par obligation pour le club', false, 0),
-  ('Parce qu’elle est impatiente de continuer cette exploration littéraire', true, 1),
-  ('Parce que c’est gratuit', false, 2),
-  ('Parce que Sofía le lui a demandé', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-litterature-francophone-listening'), 'mcq', 'Que rapporte l’animatrice sur l’intention de l’autrice ?', 0)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Qu’elle voulait raconter une histoire d’amour', false, 0),
-  ('Qu’elle voulait explorer le thème du déracinement', true, 1),
-  ('Qu’elle voulait écrire un roman policier', false, 2),
-  ('Qu’elle ne voulait rien exprimer de particulier', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-litterature-francophone-listening'), 'mcq', 'Comment Camila réagit-elle à cette explication ?', 1)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Elle est indifférente', false, 0),
-  ('Elle se reconnaît dans ce thème', true, 1),
-  ('Elle n’est pas d’accord', false, 2),
-  ('Elle ne comprend pas', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-litterature-francophone-listening'), 'mcq', 'À quoi Camila compare-t-elle le thème du roman ?', 2)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('À un film qu’elle a vu', false, 0),
-  ('À sa propre expérience entre deux pays', true, 1),
-  ('À un cours d’histoire', false, 2),
-  ('À rien en particulier', false, 3)
+  ('Bienvenue dans notre podcast littéraire.', false, 0),
+  ('Elle avait ajouté que le personnage principal n’était pas un portrait exact, mais une figure inspirée de plusieurs générations.', false, 1),
+  ('Le thème récurrent de la maison résonne avec de nombreux lecteurs, même lorsque leur propre parcours est différent.', false, 2),
+  ('C’est précisément cette liberté qui permet à chaque lecteur d’y reconnaître une part de son histoire et de construire sa propre relation avec le texte.', true, 3)
 ) AS v(option_text, is_correct, order_index);
 INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-litterature-francophone-speaking'), 'speaking', 'Présente une analyse d’une œuvre qui t’a marqué, avec au moins une phrase au discours indirect.', 0);
@@ -3216,6 +3042,58 @@ FROM ex, (VALUES
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
   VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-litterature-francophone-grammar'), 'mcq', 'Au discours indirect passé, le présent devient...', 3)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Le futur', false, 0),
+  ('L’imparfait', true, 1),
+  ('Le conditionnel', false, 2),
+  ('Le subjonctif', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-litterature-francophone-grammar'), 'mcq', 'Quelle version corrige entièrement la phrase « Elle a dit qu’elle veut explorer ce thème. » ?', 4)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Elle a dit qu’elle veut explorer ce thème.', false, 0),
+  ('Elle a dit qu’elle voulait explorer ce thème.', true, 1),
+  ('Elle a dit qu’elle voudra explorer ce thème.', false, 2),
+  ('Elle a dit qu’elle a voulu explorer ce thème.', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-litterature-francophone-grammar'), 'mcq', 'Quelle version corrige entièrement la phrase « L’autrice a expliqué qu’elle écrit ce roman pendant deux ans. » ?', 5)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('L’autrice a expliqué qu’elle écrit ce roman pendant deux ans.', false, 0),
+  ('L’autrice a expliqué qu’elle avait écrit ce roman pendant deux ans.', true, 1),
+  ('L’autrice a expliqué qu’elle écrira ce roman pendant deux ans.', false, 2),
+  ('L’autrice a expliqué qu’elle écrivant ce roman pendant deux ans.', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-litterature-francophone-grammar'), 'mcq', 'Quelle version corrige entièrement la phrase « Le roman que je pensais beaucoup était passionnant. » ?', 6)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Le roman que je pensais beaucoup était passionnant.', false, 0),
+  ('Le roman dont je pensais beaucoup était passionnant.', false, 1),
+  ('Le roman auquel je pensais beaucoup était passionnant.', true, 2),
+  ('Le roman où je pensais beaucoup était passionnant.', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-litterature-francophone-grammar'), 'mcq', 'Quelle réponse corrige l’erreur « Le futur » dans ce contexte : « Au discours indirect passé, le présent devient... » ?', 7)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -3306,172 +3184,120 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-cinema-et-critique-reading'), 'mcq', 'Idée principale : de quoi parle ce texte ?', 0)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-cinema-et-critique-reading'), 'mcq', 'Qui a réalisé « Anatomie d’une chute » ?', 0)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('D’un cours de cinéma à l’université', false, 0),
-  ('De la rédaction d’une critique de film par Camila', true, 1),
-  ('D’un tournage de film en France', false, 2),
-  ('D’une dispute entre Camila et Sofía', false, 3)
+  ('Justine Triet', true, 0),
+  ('Sandra Hüller', false, 1),
+  ('Arthur Harari seul', false, 2),
+  ('Un réalisateur allemand', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-cinema-et-critique-reading'), 'mcq', 'Information explicite : quel type de film Camila et Sofía regardent-elles ?', 1)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-cinema-et-critique-reading'), 'mcq', 'Quelle récompense ce film a-t-il obtenue à Cannes en 2023 ?', 1)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Une comédie romantique', false, 0),
-  ('Un drame familial', true, 1),
-  ('Un film d’action', false, 2),
-  ('Un documentaire animalier', false, 3)
+  ('Le prix du jury', false, 0),
+  ('La Palme d’or', true, 1),
+  ('Le César du meilleur film', false, 2),
+  ('Aucune récompense', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-cinema-et-critique-reading'), 'mcq', 'Qu’est-ce que Camila apprécie particulièrement dans le film ?', 2)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-cinema-et-critique-reading'), 'mcq', 'Que raconte le film, selon le texte ?', 2)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Le procès d’une écrivaine soupçonnée d’avoir tué son mari', true, 0),
+  ('Une histoire d’amour à Paris', false, 1),
+  ('Un documentaire sur la montagne', false, 2),
+  ('Une comédie familiale', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-cinema-et-critique-reading'), 'mcq', 'Qu’est-ce qui a été unanimement salué par la critique ?', 3)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
   ('Les effets spéciaux', false, 0),
-  ('Le jeu des trois actrices principales', true, 1),
-  ('La musique', false, 2),
-  ('Les décors', false, 3)
+  ('La performance de l’actrice Sandra Hüller', true, 1),
+  ('La musique du film', false, 2),
+  ('La durée très courte du film', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-cinema-et-critique-reading'), 'mcq', 'Quelle réserve Camila exprime-t-elle sur le film ?', 3)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-cinema-et-critique-reading'), 'mcq', 'Quelle réserve certains critiques ont-ils exprimée sur le film ?', 4)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Les acteurs sont mauvais', false, 0),
-  ('Le rythme est lent pendant la première demi-heure', true, 1),
-  ('L’histoire n’a aucun sens', false, 2),
-  ('Le film est trop court', false, 3)
+  ('Un rythme jugé exigeant pendant les scènes de procès', true, 0),
+  ('Un manque d’acteurs professionnels', false, 1),
+  ('Une histoire incompréhensible', false, 2),
+  ('Une absence totale de dialogues', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-cinema-et-critique-reading'), 'mcq', 'Que pense Camila du dernier rebondissement du film ?', 4)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-cinema-et-critique-listening'), 'mcq', 'Dans « Une ville en silence : notre critique », quel détail présente la situation ?', 0)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Il est totalement surprenant', false, 0),
-  ('Il lui a semblé un peu prévisible', true, 1),
-  ('Il n’existe pas', false, 2),
-  ('Elle ne le comprend pas', false, 3)
+  ('Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se croiser.', true, 0),
+  ('Un ticket oublié et une porte mal fermée préparent un rebondissement que le spectateur ne comprend qu’à la fin.', false, 1),
+  ('Le rythme est parfois lent, mais cette lenteur me paraît nécessaire.', false, 2),
+  ('Je le recommande aux spectateurs qui aiment observer, interpréter et accepter qu’une œuvre ne fournisse pas toutes les réponses.', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-cinema-et-critique-reading'), 'mcq', 'Cause et conséquence : pourquoi Camila reste-t-elle honnête dans sa critique malgré son appréciation du film ?', 5)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-cinema-et-critique-listening'), 'mcq', 'Après « Le film « Une ville en silence » raconte vingt-quatre heures dans la… », que se passe-t-il ensuite dans « Une ville en silence : notre critique » ?', 1)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Parce qu’elle n’aime pas vraiment le film', false, 0),
-  ('Parce qu’une critique nuancée est plus juste et crédible', true, 1),
-  ('Parce que Sofía le lui a demandé', false, 2),
-  ('Par obligation du blog', false, 3)
+  ('Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se croiser.', false, 0),
+  ('Un ticket oublié et une porte mal fermée préparent un rebondissement que le spectateur ne comprend qu’à la fin.', true, 1),
+  ('Le rythme est parfois lent, mais cette lenteur me paraît nécessaire.', false, 2),
+  ('Je le recommande aux spectateurs qui aiment observer, interpréter et accepter qu’une œuvre ne fournisse pas toutes les réponses.', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-cinema-et-critique-reading'), 'mcq', 'Signification en contexte : que signifie « rebuter » dans le troisième paragraphe ?', 6)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-cinema-et-critique-listening'), 'mcq', 'Quelle phrase révèle le mieux une intention ou une décision dans « Une ville en silence : notre critique » ?', 2)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Attirer fortement', false, 0),
-  ('Décourager, déplaire', true, 1),
-  ('Amuser', false, 2),
-  ('Informer', false, 3)
+  ('Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se croiser.', false, 0),
+  ('Un ticket oublié et une porte mal fermée préparent un rebondissement que le spectateur ne comprend qu’à la fin.', false, 1),
+  ('Le rythme est parfois lent, mais cette lenteur me paraît nécessaire.', true, 2),
+  ('Je le recommande aux spectateurs qui aiment observer, interpréter et accepter qu’une œuvre ne fournisse pas toutes les réponses.', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-cinema-et-critique-reading'), 'mcq', 'Opinion vs fait : quelle phrase exprime un fait, et non une opinion ?', 7)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-cinema-et-critique-listening'), 'mcq', 'Quel résultat conclut « Une ville en silence : notre critique » après « Le rythme est parfois lent, mais cette lenteur me paraît nécessaire. » ?', 3)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('C’est l’un des films les plus émouvants qu’elle ait vus.', false, 0),
-  ('Le film raconte l’histoire de trois sœurs qui se retrouvent.', true, 1),
-  ('Le rythme aurait pu rebuter certains spectateurs.', false, 2),
-  ('Les actrices sont absolument convaincantes.', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-cinema-et-critique-reading'), 'mcq', 'Conclusion : que réalise Camila en relisant sa critique ?', 8)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Qu’elle n’a rien appris en France', false, 0),
-  ('À quel point elle a progressé en français depuis son arrivée', true, 1),
-  ('Qu’elle déteste le cinéma', false, 2),
-  ('Qu’elle veut arrêter son blog', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-cinema-et-critique-reading'), 'mcq', 'Intention communicative : pourquoi Camila ne révèle-t-elle pas trop la fin du film ?', 9)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Parce qu’elle l’a oubliée', false, 0),
-  ('Pour ne pas gâcher la surprise à ses lecteurs', true, 1),
-  ('Parce que c’est interdit', false, 2),
-  ('Parce que la fin n’a pas d’importance', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-cinema-et-critique-listening'), 'mcq', 'Qu’est-ce qui a le plus marqué Camila ?', 0)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('La musique', false, 0),
-  ('Le jeu des actrices', true, 1),
-  ('Les décors', false, 2),
-  ('La durée du film', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-cinema-et-critique-listening'), 'mcq', 'Que pense Sofía du début du film ?', 1)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Qu’il est trop rapide', false, 0),
-  ('Qu’il est un peu lent', true, 1),
-  ('Qu’il est parfait', false, 2),
-  ('Qu’il est incompréhensible', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-cinema-et-critique-listening'), 'mcq', 'Comment Camila conclut-elle la conversation ?', 2)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Que le film ne valait pas la peine', false, 0),
-  ('Que ça valait vraiment la peine d’attendre', true, 1),
-  ('Qu’elle ne recommande pas le film', false, 2),
-  ('Qu’elle veut le revoir immédiatement', false, 3)
+  ('Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se croiser.', false, 0),
+  ('Un ticket oublié et une porte mal fermée préparent un rebondissement que le spectateur ne comprend qu’à la fin.', false, 1),
+  ('Le rythme est parfois lent, mais cette lenteur me paraît nécessaire.', false, 2),
+  ('Je le recommande aux spectateurs qui aiment observer, interpréter et accepter qu’une œuvre ne fournisse pas toutes les réponses.', true, 3)
 ) AS v(option_text, is_correct, order_index);
 INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-cinema-et-critique-speaking'), 'speaking', 'Présente une critique orale nuancée d’un film ou d’une série, avec ce qui/ce que et une conclusion argumentée.', 0);
@@ -3521,6 +3347,58 @@ FROM ex, (VALUES
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
   VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-cinema-et-critique-grammar'), 'mcq', 'Quelle expression nuance une affirmation catégorique ?', 3)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('C’est le meilleur film', false, 0),
+  ('C’est l’un des meilleurs films', true, 1),
+  ('C’est un film nul', false, 2),
+  ('C’est un film parfait', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-cinema-et-critique-grammar'), 'mcq', 'Quelle version corrige entièrement la phrase « Ce que m’a le plus marquée, c’est le jeu des actrices. » ?', 4)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Ce que m’a le plus marquée, c’est le jeu des actrices.', false, 0),
+  ('Ce qui m’a le plus marquée, c’est le jeu des actrices.', true, 1),
+  ('Ce dont m’a le plus marquée, c’est le jeu des actrices.', false, 2),
+  ('Ce à quoi m’a le plus marquée, c’est le jeu des actrices.', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-cinema-et-critique-grammar'), 'mcq', 'Quelle version corrige entièrement la phrase « Ce qui j’ai apprécié, c’est la mise en scène. » ?', 5)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Ce qui j’ai apprécié, c’est la mise en scène.', false, 0),
+  ('Ce que j’ai apprécié, c’est la mise en scène.', true, 1),
+  ('Ce dont j’ai apprécié, c’est la mise en scène.', false, 2),
+  ('Lequel j’ai apprécié, c’est la mise en scène.', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-cinema-et-critique-grammar'), 'mcq', 'Quelle version corrige entièrement la phrase « C’est l’un des films les plus émouvants qui j’aie vus. » ?', 6)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('C’est l’un des films les plus émouvants que j’aie vus.', true, 0),
+  ('C’est l’un des films les plus émouvants qui j’aie vus.', false, 1),
+  ('C’est l’un des films les plus émouvants dont j’aie vus.', false, 2),
+  ('C’est l’un des films les plus émouvants où j’aie vus.', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-cinema-et-critique-grammar'), 'mcq', 'Quelle réponse corrige l’erreur « C’est le meilleur film » dans ce contexte : « Quelle expression nuance une affirmation catégorique ? » ?', 7)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -3611,172 +3489,120 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-dilemmes-ethiques-reading'), 'mcq', 'Idée principale : de quoi parle ce texte ?', 0)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-dilemmes-ethiques-reading'), 'mcq', 'Qui a formulé pour la première fois le dilemme du tramway, et en quelle année ?', 0)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('D’un examen de mathématiques', false, 0),
-  ('D’un débat philosophique sur un dilemme moral', true, 1),
-  ('D’un voyage en Argentine', false, 2),
-  ('D’une dispute entre amis', false, 3)
+  ('Philippa Foot, en 1967', true, 0),
+  ('Un chercheur du MIT, en 2018', false, 1),
+  ('Aristote, dans l’Antiquité', false, 2),
+  ('Un ingénieur automobile, en 2000', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-dilemmes-ethiques-reading'), 'mcq', 'Information explicite : quel est le dilemme présenté ?', 1)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-dilemmes-ethiques-reading'), 'mcq', 'Que propose de faire le dilemme du tramway ?', 1)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Voler ou ne pas voler', false, 0),
-  ('Dénoncer ou taire le mensonge d’un ami', true, 1),
-  ('Voyager ou rester chez soi', false, 2),
-  ('Étudier ou travailler', false, 3)
+  ('Choisir entre dévier un tramway vers une personne ou laisser mourir cinq personnes', true, 0),
+  ('Réparer un tramway en panne', false, 1),
+  ('Voter pour un nouveau système de transport', false, 2),
+  ('Créer une nouvelle ligne ferroviaire', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-dilemmes-ethiques-reading'), 'mcq', 'Que dit le participant argentin qu’il aurait fait ?', 2)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-dilemmes-ethiques-reading'), 'mcq', 'Que privilégie l’approche conséquentialiste dans ce dilemme ?', 2)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Il aurait ignoré la situation', false, 0),
-  ('Il aurait confronté directement son ami', true, 1),
-  ('Il aurait dénoncé publiquement', false, 2),
-  ('Il n’aurait rien fait', false, 3)
+  ('Le respect absolu de règles morales fixes', false, 0),
+  ('Le résultat de l’action, en sauvant le plus grand nombre', true, 1),
+  ('Le refus total d’agir', false, 2),
+  ('La consultation d’un tribunal', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-dilemmes-ethiques-reading'), 'mcq', 'Sur quoi l’étudiante sénégalaise fait-elle dépendre sa décision ?', 3)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-dilemmes-ethiques-reading'), 'mcq', 'Qu’est-ce que la plateforme « Moral Machine » du MIT ?', 3)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Sur son humeur du jour', false, 0),
-  ('Sur les conséquences du mensonge', true, 1),
-  ('Sur l’opinion des autres', false, 2),
-  ('Sur des règles fixes et universelles', false, 3)
+  ('Un jeu vidéo commercial', false, 0),
+  ('Une plateforme ayant recueilli les préférences morales de millions de participants sur des scénarios liés aux voitures autonomes', true, 1),
+  ('Un tramway expérimental', false, 2),
+  ('Un cours de philosophie en ligne uniquement', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-dilemmes-ethiques-reading'), 'mcq', 'Quelle est la position finale de Camila ?', 4)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-dilemmes-ethiques-reading'), 'mcq', 'Où les résultats de cette étude ont-ils été publiés, et en quelle année ?', 4)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Elle condamne fermement le silence', false, 0),
-  ('Elle aurait du mal à se taire, mais comprend aussi le choix du silence', true, 1),
-  ('Elle refuse de donner un avis', false, 2),
-  ('Elle pense qu’il faut toujours dénoncer', false, 3)
+  ('Dans la revue Nature, en 2018', true, 0),
+  ('Dans un journal local, en 1967', false, 1),
+  ('Ils n’ont jamais été publiés', false, 2),
+  ('Sur un blog personnel, en 2020', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-dilemmes-ethiques-reading'), 'mcq', 'Inférence : pourquoi le professeur salue-t-il l’intervention de Camila ?', 5)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-dilemmes-ethiques-listening'), 'mcq', 'Dans « Aurais-je dû intervenir ? », quel détail présente la situation ?', 0)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Parce qu’elle a écrit le plus long message', false, 0),
-  ('Parce qu’elle formule une position claire tout en reconnaissant d’autres perspectives', true, 1),
-  ('Parce qu’elle a flatté le professeur', false, 2),
-  ('Parce qu’elle a copié un autre message', false, 3)
+  ('Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore réfléchir.', true, 0),
+  ('Si j’avais parlé immédiatement, j’aurais peut-être évité que la situation dure.', false, 1),
+  ('Elle a organisé une discussion et la contribution de la stagiaire a été reconnue.', false, 2),
+  ('Mais nos valeurs deviennent concrètes seulement lorsque nous acceptons d’agir malgré l’inconfort.', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-dilemmes-ethiques-reading'), 'mcq', 'Signification en contexte : que signifie « cautionner une injustice » ?', 6)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-dilemmes-ethiques-listening'), 'mcq', 'Après « Il y a quelques mois, j’ai été témoin d’une situation qui me fait… », que se passe-t-il ensuite dans « Aurais-je dû intervenir ? » ?', 1)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Dénoncer une injustice', false, 0),
-  ('Approuver silencieusement une injustice', true, 1),
-  ('Ignorer complètement le sujet', false, 2),
-  ('Réparer une injustice', false, 3)
+  ('Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore réfléchir.', false, 0),
+  ('Si j’avais parlé immédiatement, j’aurais peut-être évité que la situation dure.', true, 1),
+  ('Elle a organisé une discussion et la contribution de la stagiaire a été reconnue.', false, 2),
+  ('Mais nos valeurs deviennent concrètes seulement lorsque nous acceptons d’agir malgré l’inconfort.', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-dilemmes-ethiques-reading'), 'mcq', 'Opinion vs fait : quelle phrase exprime une opinion personnelle ?', 7)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-dilemmes-ethiques-listening'), 'mcq', 'Quelle phrase révèle le mieux une intention ou une décision dans « Aurais-je dû intervenir ? » ?', 2)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Camila s’est inscrite à un cours de philosophie en ligne.', false, 0),
-  ('Juger rapidement la situation de quelqu’un me semble toujours risqué.', true, 1),
-  ('Un participant argentin a répondu au forum.', false, 2),
-  ('Le sujet suscite des dizaines de réponses.', false, 3)
+  ('Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore réfléchir.', false, 0),
+  ('Si j’avais parlé immédiatement, j’aurais peut-être évité que la situation dure.', false, 1),
+  ('Elle a organisé une discussion et la contribution de la stagiaire a été reconnue.', true, 2),
+  ('Mais nos valeurs deviennent concrètes seulement lorsque nous acceptons d’agir malgré l’inconfort.', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-dilemmes-ethiques-reading'), 'mcq', 'À quelle expérience personnelle Camila repense-t-elle ?', 8)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-dilemmes-ethiques-listening'), 'mcq', 'Quel résultat conclut « Aurais-je dû intervenir ? » après « Elle a organisé une discussion et la contribution de la stagiaire a… » ?', 3)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Un examen raté', false, 0),
-  ('Une tricherie qu’elle avait hésité à signaler à Tours', true, 1),
-  ('Un voyage en Argentine', false, 2),
-  ('Une dispute avec Sofía', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-dilemmes-ethiques-reading'), 'mcq', 'Conclusion : que lui apporte cet exercice philosophique, selon le dernier paragraphe ?', 9)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Uniquement de la pratique grammaticale', false, 0),
-  ('Une meilleure compréhension de ses propres valeurs', true, 1),
-  ('Une note plus élevée au cours', false, 2),
-  ('Rien de particulier', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-dilemmes-ethiques-listening'), 'mcq', 'Qu’aurait fait le participant argentin ?', 0)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Il aurait ignoré la situation', false, 0),
-  ('Il aurait confronté son ami directement', true, 1),
-  ('Il aurait dénoncé publiquement', false, 2),
-  ('Il n’aurait rien fait', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-dilemmes-ethiques-listening'), 'mcq', 'De quoi dépendrait la décision de l’étudiante sénégalaise ?', 1)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('De son humeur', false, 0),
-  ('Des conséquences réelles du mensonge', true, 1),
-  ('De l’opinion générale', false, 2),
-  ('De l’âge de son ami', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-dilemmes-ethiques-listening'), 'mcq', 'Sur quoi les deux participants sont-ils d’accord à la fin ?', 2)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Qu’il faut toujours dénoncer', false, 0),
-  ('Que chacun réagit différemment', true, 1),
-  ('Qu’il ne faut jamais rien dire', false, 2),
-  ('Qu’ils ont totalement tort tous les deux', false, 3)
+  ('Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore réfléchir.', false, 0),
+  ('Si j’avais parlé immédiatement, j’aurais peut-être évité que la situation dure.', false, 1),
+  ('Elle a organisé une discussion et la contribution de la stagiaire a été reconnue.', false, 2),
+  ('Mais nos valeurs deviennent concrètes seulement lorsque nous acceptons d’agir malgré l’inconfort.', true, 3)
 ) AS v(option_text, is_correct, order_index);
 INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-dilemmes-ethiques-speaking'), 'speaking', 'Présente un dilemme moral et exprime une hypothèse sur ce que tu aurais fait, avec le conditionnel passé.', 0);
@@ -3826,6 +3652,58 @@ FROM ex, (VALUES
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
   VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-dilemmes-ethiques-grammar'), 'mcq', 'Quelle structure exprime une hypothèse irréelle sur le passé ?', 3)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Si + présent, futur', false, 0),
+  ('Si + imparfait, conditionnel présent', false, 1),
+  ('Si + plus-que-parfait, conditionnel passé', true, 2),
+  ('Si + subjonctif, indicatif', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-dilemmes-ethiques-grammar'), 'mcq', 'Quelle version corrige entièrement la phrase « Si j’découvre ce mensonge, j’aurais réagi immédiatement. » ?', 4)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Si j’découvre ce mensonge, j’aurais réagi immédiatement.', false, 0),
+  ('Si j’avais découvert ce mensonge, j’aurais réagi immédiatement.', true, 1),
+  ('Si j’découvrirai ce mensonge, j’aurais réagi immédiatement.', false, 2),
+  ('Si j’découvrais ce mensonge, j’aurais réagi immédiatement.', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-dilemmes-ethiques-grammar'), 'mcq', 'Quelle version corrige entièrement la phrase « Si tu avais su, tu agis différemment. » ?', 5)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Si tu avais su, tu agis différemment.', false, 0),
+  ('Si tu avais su, tu agirais différemment.', false, 1),
+  ('Si tu avais su, tu aurais agi différemment.', true, 2),
+  ('Si tu avais su, tu agissais différemment.', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-dilemmes-ethiques-grammar'), 'mcq', 'Quelle version corrige entièrement la phrase « J’ai dû lui parler plus tôt. » ?', 6)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('J’ai dû lui parler plus tôt.', false, 0),
+  ('J’aurais dû lui parler plus tôt.', true, 1),
+  ('J’avais dû lui parler plus tôt.', false, 2),
+  ('J’aurai dû lui parler plus tôt.', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-dilemmes-ethiques-grammar'), 'mcq', 'Quelle réponse corrige l’erreur « Si + présent, futur » dans ce contexte : « Quelle structure exprime une hypothèse irréelle sur le passé ? » ?', 7)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -3916,172 +3794,120 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-sciences-et-innovations-reading'), 'mcq', 'Idée principale : de quoi parle ce texte ?', 0)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-sciences-et-innovations-reading'), 'mcq', 'À partir de quand l’intelligence artificielle générative comme ChatGPT s’est-elle massivement diffusée, selon le texte ?', 0)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('D’un voyage scientifique', false, 0),
-  ('De la découverte de l’intelligence artificielle par Camila', true, 1),
-  ('D’un examen de mathématiques', false, 2),
-  ('D’un problème informatique de Karim', false, 3)
+  ('Fin 2022', true, 0),
+  ('Dans les années 1990', false, 1),
+  ('En 2010', false, 2),
+  ('Le texte ne le précise pas', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-sciences-et-innovations-reading'), 'mcq', 'Information explicite : dans quels domaines l’article mentionne-t-il l’usage de l’IA ?', 1)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-sciences-et-innovations-reading'), 'mcq', 'Quelle organisation internationale a publié des rapports sur les effets de l’IA sur l’emploi ?', 1)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Seulement les jeux vidéo', false, 0),
-  ('La médecine, la traduction, la création artistique', true, 1),
-  ('Seulement l’agriculture', false, 2),
-  ('Seulement le sport', false, 3)
+  ('Le Fonds monétaire international', true, 0),
+  ('L’Organisation mondiale du commerce', false, 1),
+  ('L’Union européenne uniquement', false, 2),
+  ('Aucune organisation internationale', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-sciences-et-innovations-reading'), 'mcq', 'Quelle question l’article soulève-t-il sur le futur ?', 2)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-sciences-et-innovations-reading'), 'mcq', 'Quelles sont les trois catégories d’effets distinguées par les économistes ?', 2)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Le prix des ordinateurs', false, 0),
-  ('Les répercussions sur le marché du travail', true, 1),
-  ('La couleur des robots', false, 2),
-  ('La vitesse d’internet', false, 3)
+  ('Automatisation complète, transformation, création de nouveaux métiers', true, 0),
+  ('Augmentation, stagnation, diminution des salaires', false, 1),
+  ('Emplois publics, privés et associatifs', false, 2),
+  ('Emplois urbains, ruraux et internationaux', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-sciences-et-innovations-reading'), 'mcq', 'Quelle est la position de Karim sur l’intelligence artificielle ?', 3)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-sciences-et-innovations-reading'), 'mcq', 'Quel exemple le texte donne-t-il d’un métier transformé plutôt qu’automatisé ?', 3)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Complètement négative', false, 0),
-  ('Optimiste, tant qu’elle reste contrôlée par des humains', true, 1),
-  ('Indifférente', false, 2),
-  ('Il refuse d’en parler', false, 3)
+  ('La traduction, où l’IA assiste sans remplacer complètement les traducteurs humains', true, 0),
+  ('L’agriculture', false, 1),
+  ('La médecine chirurgicale', false, 2),
+  ('La construction', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-sciences-et-innovations-reading'), 'mcq', 'Quelle est la position de Camila ?', 4)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-sciences-et-innovations-reading'), 'mcq', 'Que souligne une étude de l’OCDE de 2023 citée dans le texte ?', 4)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Totalement optimiste', false, 0),
-  ('Prudente, reconnaissant les deux côtés possibles', true, 1),
-  ('Complètement négative', false, 2),
-  ('Elle n’a pas d’opinion', false, 3)
+  ('Que la maîtrise technique seule suffit pour s’adapter', false, 0),
+  ('Que les compétences difficilement automatisables (jugement, créativité, intelligence relationnelle) sont essentielles', true, 1),
+  ('Que la formation continue est inutile', false, 2),
+  ('Que tous les emplois vont disparaître', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-sciences-et-innovations-reading'), 'mcq', 'Cause et conséquence : pourquoi Camila décide-t-elle de se spécialiser dans certains domaines de traduction ?', 5)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-sciences-et-innovations-listening'), 'mcq', 'Dans « L’intelligence artificielle transforme le diagnostic », quel détail présente la situation ?', 0)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Par hasard', false, 0),
-  ('Pour rester dans des domaines difficiles à remplacer par une machine', true, 1),
-  ('Parce que Karim le lui a ordonné', false, 2),
-  ('Parce que c’est plus facile', false, 3)
+  ('Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines maladies rares.', true, 0),
+  ('Cependant, les chercheurs insistent sur un point : l’outil ne remplace pas la décision médicale.', false, 1),
+  ('Les répercussions concernent aussi la vie privée, car ces images contiennent des informations sensibles.', false, 2),
+  ('Selon eux, une attitude proactive consiste à tester l’innovation dans des conditions réelles tout en conservant une responsabilité humaine clairement identifiable.', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-sciences-et-innovations-reading'), 'mcq', 'Signification en contexte : que signifie « étant donné que » ?', 6)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-sciences-et-innovations-listening'), 'mcq', 'Après « Une équipe européenne vient de présenter un algorithme capable d’aider… », que se passe-t-il ensuite dans « L’intelligence artificielle transforme le diagnostic » ?', 1)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Bien que', false, 0),
-  ('Parce que/vu que', true, 1),
-  ('Malgré', false, 2),
-  ('Sans que', false, 3)
+  ('Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines maladies rares.', false, 0),
+  ('Cependant, les chercheurs insistent sur un point : l’outil ne remplace pas la décision médicale.', true, 1),
+  ('Les répercussions concernent aussi la vie privée, car ces images contiennent des informations sensibles.', false, 2),
+  ('Selon eux, une attitude proactive consiste à tester l’innovation dans des conditions réelles tout en conservant une responsabilité humaine clairement identifiable.', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-sciences-et-innovations-reading'), 'mcq', 'Opinion vs fait : quelle phrase exprime une opinion ?', 7)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-sciences-et-innovations-listening'), 'mcq', 'Quelle phrase révèle le mieux une intention ou une décision dans « L’intelligence artificielle transforme le diagnostic » ?', 2)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Karim envoie un article à Camila.', false, 0),
-  ('Une technologie aussi puissante peut être utilisée pour le meilleur comme pour le pire.', true, 1),
-  ('L’article explique le fonctionnement des algorithmes.', false, 2),
-  ('Camila lit attentivement l’article.', false, 3)
+  ('Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines maladies rares.', false, 0),
+  ('Cependant, les chercheurs insistent sur un point : l’outil ne remplace pas la décision médicale.', false, 1),
+  ('Les répercussions concernent aussi la vie privée, car ces images contiennent des informations sensibles.', true, 2),
+  ('Selon eux, une attitude proactive consiste à tester l’innovation dans des conditions réelles tout en conservant une responsabilité humaine clairement identifiable.', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-sciences-et-innovations-reading'), 'mcq', 'Inférence : quelle attitude Camila adopte-t-elle finalement face à l’IA ?', 8)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-sciences-et-innovations-listening'), 'mcq', 'Quel résultat conclut « L’intelligence artificielle transforme le diagnostic » après « Les répercussions concernent aussi la vie privée, car ces images… » ?', 3)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Le déni complet', false, 0),
-  ('Une attitude proactive et curieuse', true, 1),
-  ('La peur paralysante', false, 2),
-  ('L’indifférence totale', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-sciences-et-innovations-reading'), 'mcq', 'Conclusion : quelle leçon générale peut-on tirer de ce texte ?', 9)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Il faut éviter toute nouvelle technologie', false, 0),
-  ('Il est important de rester informé et adaptable face au changement technologique', true, 1),
-  ('L’intelligence artificielle est totalement dangereuse', false, 2),
-  ('Le métier de traducteur va disparaître demain', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-sciences-et-innovations-listening'), 'mcq', 'Quelle est la condition de l’optimisme de Karim ?', 0)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Que l’IA soit gratuite', false, 0),
-  ('Que l’IA reste contrôlée par des humains', true, 1),
-  ('Que l’IA remplace tous les métiers', false, 2),
-  ('Aucune condition', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-sciences-et-innovations-listening'), 'mcq', 'Que répond Camila à Karim ?', 1)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Qu’il a complètement tort', false, 0),
-  ('Qu’il a peut-être raison, mais qu’il faut rester vigilant', true, 1),
-  ('Qu’elle est totalement d’accord sans réserve', false, 2),
-  ('Qu’elle ne veut plus en parler', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-sciences-et-innovations-listening'), 'mcq', 'Sur quoi Karim et Camila sont-ils finalement d’accord ?', 2)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Que la technologie n’est jamais neutre', true, 0),
-  ('Que l’IA est complètement mauvaise', false, 1),
-  ('Que l’IA est complètement bonne', false, 2),
-  ('Ils ne sont d’accord sur rien', false, 3)
+  ('Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines maladies rares.', false, 0),
+  ('Cependant, les chercheurs insistent sur un point : l’outil ne remplace pas la décision médicale.', false, 1),
+  ('Les répercussions concernent aussi la vie privée, car ces images contiennent des informations sensibles.', false, 2),
+  ('Selon eux, une attitude proactive consiste à tester l’innovation dans des conditions réelles tout en conservant une responsabilité humaine clairement identifiable.', true, 3)
 ) AS v(option_text, is_correct, order_index);
 INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-sciences-et-innovations-speaking'), 'speaking', 'Présente une innovation scientifique ou technologique, avec au moins une expression de probabilité/incertitude.', 0);
@@ -4131,6 +3957,58 @@ FROM ex, (VALUES
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
   VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-sciences-et-innovations-grammar'), 'mcq', 'Quelle expression introduit l’indicatif, pas le subjonctif ?', 3)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Il est possible que', false, 0),
+  ('Il se peut que', false, 1),
+  ('Dans la mesure où', true, 2),
+  ('Il n’est pas certain que', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-sciences-et-innovations-grammar'), 'mcq', 'Quelle version corrige entièrement la phrase « Il se peut que certains métiers disparaissent dans le futur. » ?', 4)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Il se peut que certains métiers disparaissent dans le futur.', true, 0),
+  ('Il se peut que certains métiers disparaissent dans le futur.', false, 1),
+  ('Il se peut que certains métiers disparaîtront dans le futur.', false, 2),
+  ('Il se peut que certains métiers disparaissaient dans le futur.', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-sciences-et-innovations-grammar'), 'mcq', 'Quelle version corrige entièrement la phrase « Bien que cette technologie évolue rapidement, il faut rester informé. » ?', 5)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Étant donné que cette technologie évolue rapidement, il faut rester informé.', true, 0),
+  ('Bien que cette technologie évolue rapidement, il faut rester informé.', false, 1),
+  ('Pour que cette technologie évolue rapidement, il faut rester informé.', false, 2),
+  ('Sans que cette technologie évolue rapidement, il faut rester informé.', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-sciences-et-innovations-grammar'), 'mcq', 'Quelle version corrige entièrement la phrase « Il est possible que tu as raison sur ce point. » ?', 6)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Il est possible que tu as raison sur ce point.', false, 0),
+  ('Il est possible que tu aies raison sur ce point.', true, 1),
+  ('Il est possible que tu auras raison sur ce point.', false, 2),
+  ('Il est possible que tu avais raison sur ce point.', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-sciences-et-innovations-grammar'), 'mcq', 'Quelle réponse corrige l’erreur « Il est possible que » dans ce contexte : « Quelle expression introduit l’indicatif, pas le subjonctif ? » ?', 7)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -4221,172 +4099,120 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-histoire-et-memoire-reading'), 'mcq', 'Idée principale : de quoi parle ce documentaire ?', 0)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-histoire-et-memoire-reading'), 'mcq', 'En quelle année Haïti a-t-elle obtenu son indépendance, selon le texte ?', 0)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('D’un film de fiction', false, 0),
-  ('De l’histoire partagée entre Haïti et la République dominicaine', true, 1),
-  ('D’un voyage touristique', false, 2),
-  ('D’un problème économique actuel', false, 3)
+  ('1804', true, 0),
+  (' 1844', false, 1),
+  ('1937', false, 2),
+  ('1492', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-histoire-et-memoire-reading'), 'mcq', 'Information explicite : qui a réalisé le documentaire ?', 1)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-histoire-et-memoire-reading'), 'mcq', 'En quelle année la partie orientale de l’île (actuelle République dominicaine) a-t-elle accédé à une indépendance durable ?', 1)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('La grand-mère de Camila', false, 0),
-  ('Un historien francophone', true, 1),
-  ('Camila elle-même', false, 2),
-  ('Un journaliste dominicain', false, 3)
+  ('1804', false, 0),
+  ('1844', true, 1),
+  ('1937', false, 2),
+  ('1900', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-histoire-et-memoire-reading'), 'mcq', 'Quelle histoire personnelle la grand-mère raconte-t-elle ?', 2)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-histoire-et-memoire-reading'), 'mcq', 'Qui a ordonné le massacre de 1937 mentionné dans le texte ?', 2)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Un voyage en Europe', false, 0),
-  ('L’accueil de voisins haïtiens par une ancêtre', true, 1),
-  ('Un mariage familial', false, 2),
-  ('Un conflit avec des voisins', false, 3)
+  ('Rafael Trujillo', true, 0),
+  ('Un roi espagnol', false, 1),
+  ('Un gouverneur français', false, 2),
+  ('Un président haïtien', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-histoire-et-memoire-reading'), 'mcq', 'Pourquoi cette histoire n’avait-elle jamais été racontée avant, selon la grand-mère ?', 3)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-histoire-et-memoire-reading'), 'mcq', 'Comment la mémoire officielle dominicaine a-t-elle longtemps traité ce massacre ?', 3)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Parce qu’elle l’avait oubliée', false, 0),
-  ('Parce que la famille avait préféré la taire', true, 1),
-  ('Parce que c’est un secret d’État', false, 2),
-  ('Parce que personne ne s’y intéressait', false, 3)
+  ('Elle l’a largement célébré', false, 0),
+  ('Elle l’a longtemps minimisé', true, 1),
+  ('Elle l’a immédiatement documenté en détail', false, 2),
+  ('Elle n’en a jamais parlé, même aujourd’hui', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-histoire-et-memoire-reading'), 'mcq', 'Inférence : pourquoi ce témoignage touche-t-il particulièrement Camila ?', 4)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-histoire-et-memoire-reading'), 'mcq', 'Sur quelle question actuelle cette mémoire historique continue-t-elle d’influencer les relations bilatérales ?', 4)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Parce qu’elle ne connaît pas sa grand-mère', false, 0),
-  ('Parce qu’il révèle une partie inconnue de son histoire familiale', true, 1),
-  ('Parce qu’il est raconté en français', false, 2),
-  ('Parce que c’est amusant', false, 3)
+  ('La question migratoire', true, 0),
+  ('Le tourisme uniquement', false, 1),
+  ('Le commerce du café', false, 2),
+  ('Les compétitions sportives', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-histoire-et-memoire-reading'), 'mcq', 'Quelle réflexion Camila fait-elle sur la mémoire collective ?', 5)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-histoire-et-memoire-listening'), 'mcq', 'Dans « La voix conservée dans une cassette », quel détail présente la situation ?', 0)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Qu’elle est toujours identique pour tout le monde', false, 0),
-  ('Qu’elle est faite de récits individuels multiples et parfois contradictoires', true, 1),
-  ('Qu’elle n’a aucune importance', false, 2),
-  ('Qu’elle ne change jamais', false, 3)
+  ('Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années quatre-vingt.', true, 0),
+  ('Elle décrit les fêtes, les difficultés économiques et les réseaux de solidarité auxquels les familles avaient participé.', false, 1),
+  ('Ce travail montre que la mémoire collective ne se limite pas aux grands événements.', false, 2),
+  ('Elle permet au contraire de comparer plusieurs points de vue et de transmettre un héritage plus riche aux générations qui n’ont pas connu cette époque.', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-histoire-et-memoire-reading'), 'mcq', 'Signification en contexte : que signifie « un fil invisible qui relie le passé... » ?', 6)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-histoire-et-memoire-listening'), 'mcq', 'Après « Dans les archives d’une petite ville, une équipe a retrouvé plusieurs… », que se passe-t-il ensuite dans « La voix conservée dans une cassette » ?', 1)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Un objet physique', false, 0),
-  ('Un lien symbolique entre les générations', true, 1),
-  ('Un problème technique', false, 2),
-  ('Une erreur historique', false, 3)
+  ('Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années quatre-vingt.', false, 0),
+  ('Elle décrit les fêtes, les difficultés économiques et les réseaux de solidarité auxquels les familles avaient participé.', true, 1),
+  ('Ce travail montre que la mémoire collective ne se limite pas aux grands événements.', false, 2),
+  ('Elle permet au contraire de comparer plusieurs points de vue et de transmettre un héritage plus riche aux générations qui n’ont pas connu cette époque.', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-histoire-et-memoire-reading'), 'mcq', 'Opinion vs fait : quelle phrase exprime une opinion de Camila ?', 7)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-histoire-et-memoire-listening'), 'mcq', 'Quelle phrase révèle le mieux une intention ou une décision dans « La voix conservée dans une cassette » ?', 2)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Le documentaire a été réalisé par un historien francophone.', false, 0),
-  ('C’est fascinant, mais aussi assez difficile à regarder.', true, 1),
-  ('Sa grand-mère raconte une histoire familiale.', false, 2),
-  ('Camila remercie sa grand-mère en fin de soirée.', false, 3)
+  ('Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années quatre-vingt.', false, 0),
+  ('Elle décrit les fêtes, les difficultés économiques et les réseaux de solidarité auxquels les familles avaient participé.', false, 1),
+  ('Ce travail montre que la mémoire collective ne se limite pas aux grands événements.', true, 2),
+  ('Elle permet au contraire de comparer plusieurs points de vue et de transmettre un héritage plus riche aux générations qui n’ont pas connu cette époque.', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-histoire-et-memoire-reading'), 'mcq', 'Conclusion : que représente la transmission de la mémoire pour Camila, selon la fin du texte ?', 8)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-histoire-et-memoire-listening'), 'mcq', 'Quel résultat conclut « La voix conservée dans une cassette » après « Ce travail montre que la mémoire collective ne se limite pas aux… » ?', 3)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Un simple exercice scolaire', false, 0),
-  ('Un acte intime qui relie les générations', true, 1),
-  ('Une perte de temps', false, 2),
-  ('Une obligation ennuyeuse', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-histoire-et-memoire-reading'), 'mcq', 'Intention communicative : pourquoi Camila demande-t-elle à sa grand-mère de lui raconter davantage d’histoires ?', 9)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Par simple politesse', false, 0),
-  ('Parce qu’elle veut sincèrement mieux comprendre d’où elle vient', true, 1),
-  ('Parce qu’un professeur le lui a demandé', false, 2),
-  ('Parce qu’elle doit écrire un devoir', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-histoire-et-memoire-listening'), 'mcq', 'De qui la grand-mère se souvient-elle le mieux ?', 0)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('De sa propre mère', false, 0),
-  ('De l’arrière-arrière-grand-mère de Camila', true, 1),
-  ('D’une voisine actuelle', false, 2),
-  ('D’une amie d’école', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-histoire-et-memoire-listening'), 'mcq', 'Qu’avait fait cette ancêtre ?', 1)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Elle avait voyagé en Europe', false, 0),
-  ('Elle avait accueilli des voisins haïtiens chez elle', true, 1),
-  ('Elle avait écrit un livre', false, 2),
-  ('Elle avait fondé une école', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-histoire-et-memoire-listening'), 'mcq', 'Comment Camila réagit-elle à ce récit ?', 2)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Avec indifférence', false, 0),
-  ('Avec gratitude et intérêt', true, 1),
-  ('Avec colère', false, 2),
-  ('Avec incrédulité', false, 3)
+  ('Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années quatre-vingt.', false, 0),
+  ('Elle décrit les fêtes, les difficultés économiques et les réseaux de solidarité auxquels les familles avaient participé.', false, 1),
+  ('Ce travail montre que la mémoire collective ne se limite pas aux grands événements.', false, 2),
+  ('Elle permet au contraire de comparer plusieurs points de vue et de transmettre un héritage plus riche aux générations qui n’ont pas connu cette époque.', true, 3)
 ) AS v(option_text, is_correct, order_index);
 INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-histoire-et-memoire-speaking'), 'speaking', 'Raconte une histoire familiale transmise, avec un pronom démonstratif.', 0);
@@ -4436,6 +4262,58 @@ FROM ex, (VALUES
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
   VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-histoire-et-memoire-grammar'), 'mcq', 'Quand le participe passé avec avoir s’accorde-t-il avec le complément direct ?', 3)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Toujours', false, 0),
+  ('Jamais', false, 1),
+  ('Quand le complément est placé avant le verbe', true, 2),
+  ('Seulement au féminin', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-histoire-et-memoire-grammar'), 'mcq', 'Quelle version corrige entièrement la phrase « Celui dont je me souviens le mieux, c’est cette histoire. » ?', 4)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Celui dont je me souviens le mieux, c’est cette histoire.', false, 0),
+  ('Celle dont je me souviens le mieux, c’est cette histoire.', true, 1),
+  ('Ceux dont je me souviens le mieux, c’est cette histoire.', false, 2),
+  ('Celles dont je me souviens le mieux, c’est cette histoire.', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-histoire-et-memoire-grammar'), 'mcq', 'Quelle version corrige entièrement la phrase « Cette histoire, je l’ai entendu hier soir. » ?', 5)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Cette histoire, je l’ai entendu hier soir.', false, 0),
+  ('Cette histoire, je l’ai entendue hier soir.', true, 1),
+  ('Cette histoire, je l’ai entendus hier soir.', false, 2),
+  ('Cette histoire, je l’ai entendues hier soir.', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-histoire-et-memoire-grammar'), 'mcq', 'Quelle version corrige entièrement la phrase « Les récits qu’elle nous a raconté étaient émouvants. » ?', 6)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Les récits qu’elle nous a raconté étaient émouvants.', false, 0),
+  ('Les récits qu’elle nous a racontée étaient émouvants.', false, 1),
+  ('Les récits qu’elle nous a racontés étaient émouvants.', true, 2),
+  ('Les récits qu’elle nous a racontant étaient émouvants.', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-histoire-et-memoire-grammar'), 'mcq', 'Quelle réponse corrige l’erreur « Toujours » dans ce contexte : « Quand le participe passé avec avoir s’accorde-t-il avec le complément direct ? » ?', 7)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -4526,172 +4404,120 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-ecologie-et-engagement-citoyen-reading'), 'mcq', 'Idée principale : de quoi parle ce texte ?', 0)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-ecologie-et-engagement-citoyen-reading'), 'mcq', 'Combien de fois plus de carbone les mangroves stockent-elles, à surface égale, par rapport aux forêts tropicales terrestres, selon le texte ?', 0)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('D’un voyage en Guadeloupe', false, 0),
-  ('De l’engagement de Camila pour la protection des mangroves', true, 1),
-  ('D’un cours de biologie', false, 2),
-  ('D’un problème administratif', false, 3)
+  ('Jusqu’à deux fois plus', false, 0),
+  ('Jusqu’à quatre fois plus', true, 1),
+  ('Dix fois plus', false, 2),
+  ('Le texte ne précise pas de chiffre', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-ecologie-et-engagement-citoyen-reading'), 'mcq', 'Information explicite : quelles menaces pèsent sur les mangroves ?', 1)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-ecologie-et-engagement-citoyen-reading'), 'mcq', 'Quel rôle jouent les mangroves pour les communautés de pêcheurs locaux ?', 1)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Le froid et la neige', false, 0),
-  ('La construction immobilière et la pollution plastique', true, 1),
+  ('Aucun rôle particulier', false, 0),
+  ('Elles servent de zone de reproduction pour de nombreuses espèces de poissons', true, 1),
+  ('Elles empêchent totalement la pêche', false, 2),
+  ('Elles ne concernent que le tourisme', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-ecologie-et-engagement-citoyen-reading'), 'mcq', 'Qu’ont montré plusieurs études menées après des ouragans dans la région caribéenne ?', 2)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Que les mangroves n’ont aucun effet protecteur', false, 0),
+  ('Que les zones protégées par des mangroves en bonne santé subissaient moins de dégâts', true, 1),
+  ('Que les mangroves aggravent les tempêtes', false, 2),
+  ('Que les ouragans détruisent toujours les mangroves entièrement', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-ecologie-et-engagement-citoyen-reading'), 'mcq', 'Quelles sont les principales causes du recul des mangroves mentionnées dans le texte ?', 3)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('La construction immobilière côtière, la pollution plastique et l’aquaculture intensive', true, 0),
+  ('Uniquement le changement de température', false, 1),
   ('Les tremblements de terre', false, 2),
-  ('Les incendies', false, 3)
+  ('La chasse aux animaux marins', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-ecologie-et-engagement-citoyen-reading'), 'mcq', 'Pourquoi confie-t-on la lettre à Camila ?', 2)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-ecologie-et-engagement-citoyen-reading'), 'mcq', 'Que font de nombreuses associations locales face à ce constat ?', 4)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Parce qu’elle est la plus âgée', false, 0),
-  ('Grâce à ses compétences en français', true, 1),
-  ('Parce qu’elle a le plus de temps libre', false, 2),
-  ('Par tirage au sort', false, 3)
+  ('Elles abandonnent tout effort', false, 0),
+  ('Elles organisent des programmes de restauration impliquant les jeunes générations', true, 1),
+  ('Elles interdisent l’accès aux plages', false, 2),
+  ('Elles ne font rien de concret', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-ecologie-et-engagement-citoyen-reading'), 'mcq', 'Quelles actions le groupe mène-t-il déjà ?', 3)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-ecologie-et-engagement-citoyen-listening'), 'mcq', 'Dans « Une coalition pour restaurer la mangrove », quel détail présente la situation ?', 0)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Seulement des réunions', false, 0),
-  ('Nettoyage, plantation, sensibilisation', true, 1),
-  ('Uniquement des dons financiers', false, 2),
-  ('Rien de concret', false, 3)
+  ('Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la mangrove.', true, 0),
+  ('Les citoyens ont lancé une pétition afin que les autorités limitent les nouveaux projets près du rivage.', false, 1),
+  ('Certains responsables ne pensent pas que les actions locales suffisent, car les pressions économiques restent importantes.', false, 2),
+  ('Le projet ne consiste donc pas seulement à planter des arbres : il cherche à construire un équilibre entre protection de la biodiversité, activité économique et participation des habitants.', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-ecologie-et-engagement-citoyen-reading'), 'mcq', 'Que pense Camila de la résolution isolée des problèmes environnementaux ?', 4)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-ecologie-et-engagement-citoyen-listening'), 'mcq', 'Après « Dans une région côtière, des habitants, des scientifiques et des… », que se passe-t-il ensuite dans « Une coalition pour restaurer la mangrove » ?', 1)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Qu’elle est suffisante', false, 0),
-  ('Qu’elle n’est probablement pas suffisante', true, 1),
-  ('Elle n’a pas d’avis', false, 2),
-  ('Qu’elle est la seule solution possible', false, 3)
+  ('Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la mangrove.', false, 0),
+  ('Les citoyens ont lancé une pétition afin que les autorités limitent les nouveaux projets près du rivage.', true, 1),
+  ('Certains responsables ne pensent pas que les actions locales suffisent, car les pressions économiques restent importantes.', false, 2),
+  ('Le projet ne consiste donc pas seulement à planter des arbres : il cherche à construire un équilibre entre protection de la biodiversité, activité économique et participation des habitants.', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-ecologie-et-engagement-citoyen-reading'), 'mcq', 'Comment répond l’association guadeloupéenne ?', 5)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-ecologie-et-engagement-citoyen-listening'), 'mcq', 'Quelle phrase révèle le mieux une intention ou une décision dans « Une coalition pour restaurer la mangrove » ?', 2)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Elle refuse la proposition', false, 0),
-  ('Elle répond favorablement et propose une visioconférence', true, 1),
-  ('Elle ne répond jamais', false, 2),
-  ('Elle demande de l’argent', false, 3)
+  ('Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la mangrove.', false, 0),
+  ('Les citoyens ont lancé une pétition afin que les autorités limitent les nouveaux projets près du rivage.', false, 1),
+  ('Certains responsables ne pensent pas que les actions locales suffisent, car les pressions économiques restent importantes.', true, 2),
+  ('Le projet ne consiste donc pas seulement à planter des arbres : il cherche à construire un équilibre entre protection de la biodiversité, activité économique et participation des habitants.', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-ecologie-et-engagement-citoyen-reading'), 'mcq', 'Signification en contexte : que signifie « afin que » ?', 6)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-ecologie-et-engagement-citoyen-listening'), 'mcq', 'Quel résultat conclut « Une coalition pour restaurer la mangrove » après « Certains responsables ne pensent pas que les actions locales… » ?', 3)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Bien que', false, 0),
-  ('Pour que/dans le but que', true, 1),
-  ('Malgré', false, 2),
-  ('Sans que', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-ecologie-et-engagement-citoyen-reading'), 'mcq', 'Opinion vs fait : quelle phrase exprime une opinion ?', 7)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Le groupe nettoie les zones côtières.', false, 0),
-  ('Je ne pense pas que ces problèmes puissent être résolus isolément.', true, 1),
-  ('Ana est la coordinatrice du groupe.', false, 2),
-  ('La lettre est envoyée en français.', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-ecologie-et-engagement-citoyen-reading'), 'mcq', 'Inférence : que révèle cette expérience sur la vision de Camila concernant le français ?', 8)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Qu’elle regrette de l’avoir appris', false, 0),
-  ('Qu’il peut devenir un outil d’engagement citoyen, pas seulement académique', true, 1),
-  ('Qu’elle veut l’abandonner', false, 2),
-  ('Qu’il ne sert à rien dans la vie réelle', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-ecologie-et-engagement-citoyen-reading'), 'mcq', 'Conclusion : quel message général ce texte transmet-il ?', 9)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Les problèmes environnementaux ne concernent qu’un seul pays', false, 0),
-  ('La coopération internationale peut renforcer l’action environnementale locale', true, 1),
-  ('Il est inutile d’agir localement', false, 2),
-  ('Les langues étrangères ne servent qu’à voyager', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-ecologie-et-engagement-citoyen-listening'), 'mcq', 'Que protègent les mangroves, selon Ana ?', 0)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Rien de particulier', false, 0),
-  ('La côte et la biodiversité', true, 1),
-  ('Seulement les poissons', false, 2),
-  ('Les routes', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-ecologie-et-engagement-citoyen-listening'), 'mcq', 'Quelles menaces pèsent sur les mangroves ?', 1)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Le vent', false, 0),
-  ('La construction et la pollution', true, 1),
-  ('Les oiseaux', false, 2),
-  ('Le soleil', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-ecologie-et-engagement-citoyen-listening'), 'mcq', 'Que veut faire Camila après cette explication ?', 2)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Partir immédiatement', false, 0),
-  ('S’impliquer pour aider à les protéger', true, 1),
-  ('Ignorer le problème', false, 2),
-  ('Changer de sujet', false, 3)
+  ('Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la mangrove.', false, 0),
+  ('Les citoyens ont lancé une pétition afin que les autorités limitent les nouveaux projets près du rivage.', false, 1),
+  ('Certains responsables ne pensent pas que les actions locales suffisent, car les pressions économiques restent importantes.', false, 2),
+  ('Le projet ne consiste donc pas seulement à planter des arbres : il cherche à construire un équilibre entre protection de la biodiversité, activité économique et participation des habitants.', true, 3)
 ) AS v(option_text, is_correct, order_index);
 INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-ecologie-et-engagement-citoyen-speaking'), 'speaking', 'Présente une cause environnementale qui te tient à cœur, avec « afin que » et une opinion négative nuancée.', 0);
@@ -4741,6 +4567,58 @@ FROM ex, (VALUES
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
   VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-ecologie-et-engagement-citoyen-grammar'), 'mcq', 'Quelle structure exprime un but ?', 3)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Parce que', false, 0),
+  ('Afin que', true, 1),
+  ('Donc', false, 2),
+  ('Cependant', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-ecologie-et-engagement-citoyen-grammar'), 'mcq', 'Quelle version corrige entièrement la phrase « Nous agissons afin que la biodiversité est préservée. » ?', 4)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Nous agissons afin que la biodiversité est préservée.', false, 0),
+  ('Nous agissons afin que la biodiversité soit préservée.', true, 1),
+  ('Nous agissons afin que la biodiversité sera préservée.', false, 2),
+  ('Nous agissons afin que la biodiversité était préservée.', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-ecologie-et-engagement-citoyen-grammar'), 'mcq', 'Quelle version corrige entièrement la phrase « Je ne pense pas que ce problème est facile à résoudre. » ?', 5)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Je ne pense pas que ce problème est facile à résoudre.', false, 0),
+  ('Je ne pense pas que ce problème soit facile à résoudre.', true, 1),
+  ('Je ne pense pas que ce problème sera facile à résoudre.', false, 2),
+  ('Je ne pense pas que ce problème était facile à résoudre.', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-ecologie-et-engagement-citoyen-grammar'), 'mcq', 'Quelle version corrige entièrement la phrase « Elle écrit cette lettre pour que le message est bien compris. » ?', 6)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Elle écrit cette lettre pour que le message est bien compris.', false, 0),
+  ('Elle écrit cette lettre pour que le message soit bien compris.', true, 1),
+  ('Elle écrit cette lettre pour que le message sera bien compris.', false, 2),
+  ('Elle écrit cette lettre pour que le message était bien compris.', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-ecologie-et-engagement-citoyen-grammar'), 'mcq', 'Quelle réponse corrige l’erreur « Parce que » dans ce contexte : « Quelle structure exprime un but ? » ?', 7)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -4831,172 +4709,120 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-art-et-creativite-reading'), 'mcq', 'Idée principale : de quoi parle ce texte ?', 0)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-art-et-creativite-reading'), 'mcq', 'En quelle année et où Wifredo Lam est-il né ?', 0)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('D’une exposition d’art à Paris', false, 0),
-  ('D’une interview de Camila avec une artiste franco-dominicaine', true, 1),
-  ('D’un cours de peinture', false, 2),
-  ('D’un problème avec le blog de Camila', false, 3)
+  ('En 1902, à Cuba', true, 0),
+  ('En 1943, en France', false, 1),
+  ('En 1980, en Espagne', false, 2),
+  ('En 1920, en Chine', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-art-et-creativite-reading'), 'mcq', 'Information explicite : quel thème explore le travail de Mireille ?', 1)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-art-et-creativite-reading'), 'mcq', 'Quelles origines culturelles Wifredo Lam avait-il, selon le texte ?', 1)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('La politique internationale', false, 0),
-  ('L’identité caribéenne et le métissage culturel', true, 1),
-  ('L’histoire militaire', false, 2),
-  ('La cuisine française', false, 3)
+  ('Uniquement françaises', false, 0),
+  ('Chinoises, africaines, espagnoles et amérindiennes', true, 1),
+  ('Uniquement cubaines', false, 2),
+  ('Uniquement européennes', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-art-et-creativite-reading'), 'mcq', 'Comment commence le processus créatif de Mireille ?', 2)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-art-et-creativite-reading'), 'mcq', 'Qui Wifredo Lam a-t-il fréquenté à Paris ?', 2)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Par la vente de ses œuvres', false, 0),
-  ('Par une longue période d’observation', true, 1),
-  ('Par des cours en ligne', false, 2),
-  ('Par une lecture de journaux', false, 3)
+  ('Picasso et les surréalistes autour d’André Breton', true, 0),
+  ('Des politiciens uniquement', false, 1),
+  ('Aucun artiste connu', false, 2),
+  ('Des musiciens de jazz uniquement', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-art-et-creativite-reading'), 'mcq', 'Que demandait-on souvent à Mireille au début de sa carrière ?', 3)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-art-et-creativite-reading'), 'mcq', 'Quel est le tableau le plus célèbre de Lam mentionné dans le texte, et où est-il conservé ?', 3)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('De peindre plus vite', false, 0),
-  ('De choisir un camp culturel unique', true, 1),
-  ('D’arrêter de peindre', false, 2),
-  ('De vendre moins cher', false, 3)
+  ('« La Jungle », au Museum of Modern Art de New York', true, 0),
+  ('« Guernica », au musée Reina Sofía', false, 1),
+  ('« Les Demoiselles », au Louvre', false, 2),
+  ('Un tableau non précisé, au Centre Pompidou', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-art-et-creativite-reading'), 'mcq', 'Comment la situation a-t-elle évolué aujourd’hui ?', 4)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-art-et-creativite-reading'), 'mcq', 'Comment la critique occidentale a-t-elle longtemps réagi face à l’œuvre de Lam ?', 4)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Elle reçoit encore plus ce genre de remarque', false, 0),
-  ('Elle reçoit de moins en moins ce genre de remarque', true, 1),
-  ('Rien n’a changé', false, 2),
-  ('Elle a arrêté de peindre', false, 3)
+  ('Elle l’a immédiatement célébrée sans réserve', false, 0),
+  ('Elle peinait à la classer dans une catégorie stable', true, 1),
+  ('Elle l’a totalement ignorée', false, 2),
+  ('Elle l’a considérée comme purement surréaliste, sans nuance', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-art-et-creativite-reading'), 'mcq', 'Comment a été accueillie sa dernière exposition ?', 5)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-art-et-creativite-listening'), 'mcq', 'Dans « Le portrait sonore de Mireille », quel détail présente la situation ?', 0)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Très mal', false, 0),
-  ('Particulièrement bien par la critique', true, 1),
-  ('Elle n’a pas eu de retour', false, 2),
-  ('Elle a été annulée', false, 3)
+  ('Mireille crée des œuvres qui mélangent peinture, textile et enregistrements sonores.', true, 0),
+  ('Sa préparation devient de moins en moins solitaire : elle invite des habitants à raconter un souvenir, puis transforme certains mots en motifs visuels.', false, 1),
+  ('Mireille affirme que le public participe aussi au processus.', false, 2),
+  ('Elle considère cette ouverture non comme une faiblesse, mais comme la partie la plus vivante de sa création.', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-art-et-creativite-reading'), 'mcq', 'Signification en contexte : que signifie « se laisser enfermer dans une seule catégorie » ?', 6)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-art-et-creativite-listening'), 'mcq', 'Après « Mireille crée des œuvres qui mélangent peinture, textile et… », que se passe-t-il ensuite dans « Le portrait sonore de Mireille » ?', 1)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Être libre de tout mélanger', false, 0),
-  ('Être limité à une seule identité définie', true, 1),
-  ('Voyager beaucoup', false, 2),
-  ('Vendre ses œuvres facilement', false, 3)
+  ('Mireille crée des œuvres qui mélangent peinture, textile et enregistrements sonores.', false, 0),
+  ('Sa préparation devient de moins en moins solitaire : elle invite des habitants à raconter un souvenir, puis transforme certains mots en motifs visuels.', true, 1),
+  ('Mireille affirme que le public participe aussi au processus.', false, 2),
+  ('Elle considère cette ouverture non comme une faiblesse, mais comme la partie la plus vivante de sa création.', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-art-et-creativite-reading'), 'mcq', 'Opinion vs fait : quelle phrase exprime une opinion de Mireille ?', 7)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-art-et-creativite-listening'), 'mcq', 'Quelle phrase révèle le mieux une intention ou une décision dans « Le portrait sonore de Mireille » ?', 2)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Mireille est une artiste franco-dominicaine.', false, 0),
-  ('Je ne crois pas qu’il faille choisir entre ses différentes appartenances culturelles.', true, 1),
-  ('Camila prépare une liste de questions.', false, 2),
-  ('L’exposition a eu lieu à Saint-Domingue.', false, 3)
+  ('Mireille crée des œuvres qui mélangent peinture, textile et enregistrements sonores.', false, 0),
+  ('Sa préparation devient de moins en moins solitaire : elle invite des habitants à raconter un souvenir, puis transforme certains mots en motifs visuels.', false, 1),
+  ('Mireille affirme que le public participe aussi au processus.', true, 2),
+  ('Elle considère cette ouverture non comme une faiblesse, mais comme la partie la plus vivante de sa création.', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-art-et-creativite-reading'), 'mcq', 'Inférence : pourquoi ce texte résonne-t-il particulièrement avec l’expérience de Camila ?', 8)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-art-et-creativite-listening'), 'mcq', 'Quel résultat conclut « Le portrait sonore de Mireille » après « Mireille affirme que le public participe aussi au processus. » ?', 3)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Parce qu’elle est aussi peintre', false, 0),
-  ('Parce qu’elle vit elle-même entre deux cultures', true, 1),
-  ('Par pur hasard', false, 2),
-  ('Parce qu’elle connaît Mireille depuis l’enfance', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-art-et-creativite-reading'), 'mcq', 'Conclusion : quel message central Mireille transmet-elle à la fin de l’interview ?', 9)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Il faut absolument choisir une seule identité culturelle', false, 0),
-  ('La tension entre plusieurs appartenances peut être source d’authenticité créative', true, 1),
-  ('L’art n’a aucun lien avec l’identité', false, 2),
-  ('Il vaut mieux éviter de mélanger les cultures', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-art-et-creativite-listening'), 'mcq', 'Par quoi commence le processus créatif de Mireille ?', 0)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Par la vente', false, 0),
-  ('Par une période d’observation', true, 1),
-  ('Par un voyage', false, 2),
-  ('Par un cours', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-art-et-creativite-listening'), 'mcq', 'Qu’est-ce qui inspire le plus Mireille ?', 1)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('La musique', false, 0),
-  ('Les couleurs et textures du quotidien', true, 1),
-  ('Les livres', false, 2),
-  ('Les films', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-art-et-creativite-listening'), 'mcq', 'Quel type de question Camila pose-t-elle dans cet extrait ?', 2)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Des questions personnelles sans rapport', false, 0),
-  ('Des questions sur le processus créatif', true, 1),
-  ('Des questions sur le prix des œuvres', false, 2),
-  ('Des questions sur sa famille', false, 3)
+  ('Mireille crée des œuvres qui mélangent peinture, textile et enregistrements sonores.', false, 0),
+  ('Sa préparation devient de moins en moins solitaire : elle invite des habitants à raconter un souvenir, puis transforme certains mots en motifs visuels.', false, 1),
+  ('Mireille affirme que le public participe aussi au processus.', false, 2),
+  ('Elle considère cette ouverture non comme une faiblesse, mais comme la partie la plus vivante de sa création.', true, 3)
 ) AS v(option_text, is_correct, order_index);
 INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-art-et-creativite-speaking'), 'speaking', 'Mène une interview simulée de cinq questions sur un processus créatif, avec un/une camarade.', 0);
@@ -5046,6 +4872,58 @@ FROM ex, (VALUES
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
   VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-art-et-creativite-grammar'), 'mcq', 'Quelle structure exprime une évolution progressive ?', 3)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Plus... que', false, 0),
+  ('De plus en plus', true, 1),
+  ('Aussi... que', false, 2),
+  ('Moins... que', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-art-et-creativite-grammar'), 'mcq', 'Quelle version corrige entièrement la phrase « Elle se sent de moins en moins libre dans son travail au fil du temps. » ?', 4)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Elle se sent de plus en plus libre dans son travail au fil du temps.', true, 0),
+  ('Elle se sent de moins en moins libre dans son travail au fil du temps.', false, 1),
+  ('Elle se sent autant que libre dans son travail au fil du temps.', false, 2),
+  ('Elle se sent aussi libre dans son travail au fil du temps.', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-art-et-creativite-grammar'), 'mcq', 'Quelle version corrige entièrement la phrase « Sa préparation compte plus que sa capacité d’écoute. » ?', 5)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Sa préparation compte plus que sa capacité d’écoute.', false, 0),
+  ('Sa préparation compte autant que sa capacité d’écoute.', true, 1),
+  ('Sa préparation compte moins que sa capacité d’écoute.', false, 2),
+  ('Sa préparation compte aussi bon que sa capacité d’écoute.', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-art-et-creativite-grammar'), 'mcq', 'Quelle version corrige entièrement la phrase « Elle reçoit de plus en plus ce genre de remarque aujourd’hui. » ?', 6)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Elle reçoit de plus en plus ce genre de remarque aujourd’hui.', false, 0),
+  ('Elle reçoit de moins en moins ce genre de remarque aujourd’hui.', true, 1),
+  ('Elle reçoit aussi ce genre de remarque aujourd’hui.', false, 2),
+  ('Elle reçoit que ce genre de remarque aujourd’hui.', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-art-et-creativite-grammar'), 'mcq', 'Quelle réponse corrige l’erreur « Plus... que » dans ce contexte : « Quelle structure exprime une évolution progressive ? » ?', 7)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
@@ -5136,172 +5014,120 @@ FROM ex, (VALUES
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-bilan-et-projets-davenir-reading'), 'mcq', 'Idée principale : de quoi parle ce texte ?', 0)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-bilan-et-projets-davenir-reading'), 'mcq', 'Quel est le nom du principal programme européen de mobilité étudiante mentionné dans le texte ?', 0)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('D’un examen raté', false, 0),
-  ('Du bilan que fait Camila de son parcours après avoir été acceptée à l’université', true, 1),
-  ('D’une dispute familiale', false, 2),
-  ('D’un voyage touristique', false, 3)
+  ('Erasmus+', true, 0),
+  ('Frontex', false, 1),
+  ('Horizon Europe', false, 2),
+  ('Interrail', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-bilan-et-projets-davenir-reading'), 'mcq', 'Information explicite : à quelle formation Camila est-elle acceptée ?', 1)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-bilan-et-projets-davenir-reading'), 'mcq', 'Que révèle une enquête de grande ampleur sur les anciens étudiants Erasmus, selon le texte ?', 1)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Un master de commerce', false, 0),
-  ('Une licence de langues étrangères appliquées', true, 1),
-  ('Un diplôme de médecine', false, 2),
-  ('Une école d’art', false, 3)
+  ('Un taux d’insertion professionnelle nettement supérieur à celui des étudiants sans mobilité', true, 0),
+  ('Un taux de chômage plus élevé', false, 1),
+  ('Aucune différence mesurable', false, 2),
+  ('Un désintérêt pour le monde professionnel', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-bilan-et-projets-davenir-reading'), 'mcq', 'À qui Camila écrit-elle sa lettre ?', 2)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-bilan-et-projets-davenir-reading'), 'mcq', 'Comment les chercheurs expliquent-ils cet écart d’insertion professionnelle ?', 2)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('À sa mère', false, 0),
-  ('À la version d’elle-même d’il y a deux ans', true, 1),
-  ('À l’université de Tours', false, 2),
-  ('À Mireille l’artiste', false, 3)
+  ('Par le hasard uniquement', false, 0),
+  ('Par le développement de compétences interculturelles et d’une plus grande adaptabilité', true, 1),
+  ('Par un meilleur salaire de départ', false, 2),
+  ('Par une chance particulière', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-bilan-et-projets-davenir-reading'), 'mcq', 'Que dit Camila sur les difficultés de son année en France ?', 3)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-bilan-et-projets-davenir-reading'), 'mcq', 'Quels effets moins visibles les chercheurs en psychologie du développement soulignent-ils ?', 3)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Qu’il n’y en a eu aucune', false, 0),
-  ('Qu’elle admet honnêtement qu’il y a eu des moments difficiles', true, 1),
-  ('Qu’elle les cache complètement', false, 2),
-  ('Qu’elle regrette tout', false, 3)
+  ('Une meilleure connaissance de soi et une plus grande tolérance à l’ambiguïté', true, 0),
+  ('Une perte totale de repères culturels', false, 1),
+  ('Une baisse de la confiance en soi', false, 2),
+  ('Un désintérêt pour les études', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-bilan-et-projets-davenir-reading'), 'mcq', 'Qu’aurait manqué Camila si elle avait annulé son voyage ?', 4)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-bilan-et-projets-davenir-reading'), 'mcq', 'Que veut dire « la tolérance à l’ambiguïté », telle que définie dans le texte ?', 4)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Rien d’important', false, 0),
-  ('Ses amitiés, sa passion pour la traduction, son engagement pour les mangroves', true, 1),
-  ('Seulement de meilleures notes', false, 2),
-  ('Un diplôme supplémentaire', false, 3)
+  ('La capacité à avancer sereinement sans avoir toutes les réponses immédiatement', true, 0),
+  ('La capacité à mentir facilement', false, 1),
+  ('Le refus de toute décision', false, 2),
+  ('L’incapacité à s’adapter', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-bilan-et-projets-davenir-reading'), 'mcq', 'Quel conseil final Camila donne-t-elle à son ancien moi ?', 5)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-bilan-et-projets-davenir-listening'), 'mcq', 'Dans « Avec le recul », quel détail présente la situation ?', 0)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('D’éviter tout risque', false, 0),
-  ('D’être déterminée, curieuse, et de ne pas avoir peur de se tromper', true, 1),
-  ('De rester chez elle', false, 2),
-  ('De ne faire confiance à personne', false, 3)
+  ('Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont transformée.', true, 0),
+  ('Certains accomplissements sont visibles, comme un diplôme ou un projet terminé.', false, 1),
+  ('Aujourd’hui, je suis déterminée à poursuivre mes études, mais je ne veux plus confondre détermination et rigidité.', false, 2),
+  ('Il ressemble plutôt à un point de départ conscient : je sais mieux ce que j’ai construit, ce qui reste fragile et la direction dans laquelle je souhaite avancer.', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-bilan-et-projets-davenir-reading'), 'mcq', 'Signification en contexte : que signifie « avec le recul » ?', 6)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-bilan-et-projets-davenir-listening'), 'mcq', 'Après « Avec le recul, je mesure moins mon parcours par les résultats obtenus… », que se passe-t-il ensuite dans « Avec le recul » ?', 1)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Immédiatement', false, 0),
-  ('En regardant les choses après coup, avec plus de perspective', true, 1),
-  ('Sans réfléchir', false, 2),
-  ('De façon impulsive', false, 3)
+  ('Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont transformée.', false, 0),
+  ('Certains accomplissements sont visibles, comme un diplôme ou un projet terminé.', true, 1),
+  ('Aujourd’hui, je suis déterminée à poursuivre mes études, mais je ne veux plus confondre détermination et rigidité.', false, 2),
+  ('Il ressemble plutôt à un point de départ conscient : je sais mieux ce que j’ai construit, ce qui reste fragile et la direction dans laquelle je souhaite avancer.', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-bilan-et-projets-davenir-reading'), 'mcq', 'Opinion vs fait : quelle phrase exprime un fait, et non une réflexion personnelle ?', 7)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-bilan-et-projets-davenir-listening'), 'mcq', 'Quelle phrase révèle le mieux une intention ou une décision dans « Avec le recul » ?', 2)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Elle est acceptée en licence de langues étrangères appliquées.', true, 0),
-  ('Tu vas grandir de façons que tu ne peux même pas imaginer.', false, 1),
-  ('Je suis fière de la décision que tu vas prendre.', false, 2),
-  ('C’est exactement de ces erreurs que naîtra la personne que tu es en train de devenir.', false, 3)
+  ('Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont transformée.', false, 0),
+  ('Certains accomplissements sont visibles, comme un diplôme ou un projet terminé.', false, 1),
+  ('Aujourd’hui, je suis déterminée à poursuivre mes études, mais je ne veux plus confondre détermination et rigidité.', true, 2),
+  ('Il ressemble plutôt à un point de départ conscient : je sais mieux ce que j’ai construit, ce qui reste fragile et la direction dans laquelle je souhaite avancer.', false, 3)
 ) AS v(option_text, is_correct, order_index);
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-bilan-et-projets-davenir-reading'), 'mcq', 'Inférence : pourquoi Camila publie-t-elle cette lettre sur son blog plutôt que de la garder privée ?', 8)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-bilan-et-projets-davenir-listening'), 'mcq', 'Quel résultat conclut « Avec le recul » après « Aujourd’hui, je suis déterminée à poursuivre mes études, mais je ne… » ?', 3)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
 SELECT ex.id, v.option_text, v.is_correct, v.order_index
 FROM ex, (VALUES
-  ('Par erreur', false, 0),
-  ('Parce qu’elle espère qu’elle résonnera avec d’autres jeunes dans une situation similaire', true, 1),
-  ('Parce qu’on l’y oblige', false, 2),
-  ('Parce qu’elle veut se vanter', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-bilan-et-projets-davenir-reading'), 'mcq', 'Conclusion : quel est le message central de cette lettre ?', 9)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Il vaut mieux éviter tout risque dans la vie', false, 0),
-  ('Les décisions courageuses, malgré la peur, peuvent transformer une vie', true, 1),
-  ('Il faut toujours rester chez soi', false, 2),
-  ('L’université est la seule chose qui compte', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-bilan-et-projets-davenir-listening'), 'mcq', 'Quelle nouvelle Camila annonce-t-elle ?', 0)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Qu’elle déménage', false, 0),
-  ('Qu’elle est acceptée à l’université de Tours', true, 1),
-  ('Qu’elle change de métier', false, 2),
-  ('Qu’elle part en vacances', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-bilan-et-projets-davenir-listening'), 'mcq', 'Comment réagit Léa ?', 1)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('Avec indifférence', false, 0),
-  ('Avec une grande joie', true, 1),
-  ('Avec tristesse', false, 2),
-  ('Avec surprise négative', false, 3)
-) AS v(option_text, is_correct, order_index);
-WITH ex AS (
-  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
-  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-bilan-et-projets-davenir-listening'), 'mcq', 'Que se réjouit de faire Karim ?', 2)
-  RETURNING id
-)
-INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
-SELECT ex.id, v.option_text, v.is_correct, v.order_index
-FROM ex, (VALUES
-  ('De déménager lui-même', false, 0),
-  ('De revoir Camila en vrai', true, 1),
-  ('De ne plus lui parler', false, 2),
-  ('De changer d’université', false, 3)
+  ('Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont transformée.', false, 0),
+  ('Certains accomplissements sont visibles, comme un diplôme ou un projet terminé.', false, 1),
+  ('Aujourd’hui, je suis déterminée à poursuivre mes études, mais je ne veux plus confondre détermination et rigidité.', false, 2),
+  ('Il ressemble plutôt à un point de départ conscient : je sais mieux ce que j’ai construit, ce qui reste fragile et la direction dans laquelle je souhaite avancer.', true, 3)
 ) AS v(option_text, is_correct, order_index);
 INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
 VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-bilan-et-projets-davenir-speaking'), 'speaking', 'Fais le bilan d’une expérience importante de ta vie, avec une hypothèse au conditionnel passé.', 0);
@@ -5351,6 +5177,58 @@ FROM ex, (VALUES
 WITH ex AS (
   INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
   VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-bilan-et-projets-davenir-grammar'), 'mcq', 'Quelle expression introduit un bilan final ?', 3)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Étant donné que', false, 0),
+  ('En fin de compte', true, 1),
+  ('Afin que', false, 2),
+  ('Bien que', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-bilan-et-projets-davenir-grammar'), 'mcq', 'Quelle version corrige entièrement la phrase « Si elle annule ce voyage, elle n’aurait jamais rencontré Léa et Karim. » ?', 4)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Si elle annule ce voyage, elle n’aurait jamais rencontré Léa et Karim.', false, 0),
+  ('Si elle avait annulé ce voyage, elle n’aurait jamais rencontré Léa et Karim.', true, 1),
+  ('Si elle annulerait ce voyage, elle n’aurait jamais rencontré Léa et Karim.', false, 2),
+  ('Si elle annulait ce voyage, elle n’aurait jamais rencontré Léa et Karim.', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-bilan-et-projets-davenir-grammar'), 'mcq', 'Quelle version corrige entièrement la phrase « Avec le recul, elle était fière de sa décision. » ?', 5)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Avec le recul, elle est fière de sa décision.', true, 0),
+  ('Avec le recul, elle était fière de sa décision.', false, 1),
+  ('Avec le recul, elle sera fière de sa décision.', false, 2),
+  ('Avec le recul, elle soit fière de sa décision.', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-bilan-et-projets-davenir-grammar'), 'mcq', 'Quelle version corrige entièrement la phrase « Elle est déterminée de continuer ses études en France. » ?', 6)
+  RETURNING id
+)
+INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
+SELECT ex.id, v.option_text, v.is_correct, v.order_index
+FROM ex, (VALUES
+  ('Elle est déterminée de continuer ses études en France.', false, 0),
+  ('Elle est déterminée à continuer ses études en France.', true, 1),
+  ('Elle est déterminée pour continuer ses études en France.', false, 2),
+  ('Elle est déterminée que continuer ses études en France.', false, 3)
+) AS v(option_text, is_correct, order_index);
+WITH ex AS (
+  INSERT INTO public.exercises (lesson_id, type, prompt, order_index)
+  VALUES ((SELECT id FROM public.course_lessons WHERE slug = 'french-b2-bilan-et-projets-davenir-grammar'), 'mcq', 'Quelle réponse corrige l’erreur « Étant donné que » dans ce contexte : « Quelle expression introduit un bilan final ? » ?', 7)
   RETURNING id
 )
 INSERT INTO public.exercise_options (exercise_id, option_text, is_correct, order_index)
