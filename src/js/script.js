@@ -17065,9 +17065,9 @@ const gamesState = {
   timerFinished: false, timerInterval: null, timerAutoPaused: false
 };
 const GAME_DIFFICULTIES = {
-  easy: { label: 'Fácil', wordSearchSize: 15, wordSearchWords: 5, crosswordWords: 5, hangmanLives: 8, matchPairs: 4 },
-  normal: { label: 'Normal', wordSearchSize: 15, wordSearchWords: 6, crosswordWords: 6, hangmanLives: 6, matchPairs: 5 },
-  challenge: { label: 'Desafío', wordSearchSize: 15, wordSearchWords: 8, crosswordWords: 8, hangmanLives: 5, matchPairs: 6 }
+  easy: { label: 'Fácil', wordSearchColumns: 15, wordSearchRows: 12, wordSearchWords: 5, crosswordWords: 5, hangmanLives: 8, matchPairs: 4 },
+  normal: { label: 'Normal', wordSearchColumns: 15, wordSearchRows: 12, wordSearchWords: 6, crosswordWords: 6, hangmanLives: 6, matchPairs: 5 },
+  challenge: { label: 'Desafío', wordSearchColumns: 15, wordSearchRows: 12, wordSearchWords: 8, crosswordWords: 8, hangmanLives: 5, matchPairs: 6 }
 };
 
 function getGamesDifficulty() {
@@ -17170,8 +17170,9 @@ function getGameRoundWords(words, count, offset = 0) {
 
 function makeWordSearch(words) {
   const difficulty = getGamesDifficulty();
-  const size = difficulty.wordSearchSize;
-  const letters = Array.from({ length: size * size }, () => String.fromCharCode(65 + Math.floor(Math.random() * 26)));
+  const columns = difficulty.wordSearchColumns || difficulty.wordSearchSize;
+  const rows = difficulty.wordSearchRows || difficulty.wordSearchSize;
+  const letters = Array.from({ length: columns * rows }, () => String.fromCharCode(65 + Math.floor(Math.random() * 26)));
   const directions = [
     { row: 0, column: 1, label: 'horizontal' },
     { row: 1, column: 0, label: 'vertical' },
@@ -17180,7 +17181,7 @@ function makeWordSearch(words) {
   ];
   const targets = getGameRoundWords(words, difficulty.wordSearchWords)
     .map((item) => ({ ...item, word: normalizeGameText(item.term).toUpperCase() }))
-    .filter((item) => item.word.length <= size);
+    .filter((item) => item.word.length <= Math.max(columns, rows));
   const placed = [];
   const occupied = new Map();
   targets.forEach((target, targetIndex) => {
@@ -17189,12 +17190,12 @@ function makeWordSearch(words) {
     let placement = null;
     for (const direction of attempts) {
       for (let tryIndex = 0; tryIndex < 80 && !placement; tryIndex += 1) {
-        const row = Math.floor(Math.random() * size);
-        const column = Math.floor(Math.random() * size);
+        const row = Math.floor(Math.random() * rows);
+        const column = Math.floor(Math.random() * columns);
         const endRow = row + direction.row * (target.word.length - 1);
         const endColumn = column + direction.column * (target.word.length - 1);
-        if (endRow < 0 || endRow >= size || endColumn < 0 || endColumn >= size) continue;
-        const positions = target.word.split('').map((_, index) => (row + direction.row * index) * size + column + direction.column * index);
+        if (endRow < 0 || endRow >= rows || endColumn < 0 || endColumn >= columns) continue;
+        const positions = target.word.split('').map((_, index) => (row + direction.row * index) * columns + column + direction.column * index);
         const fits = positions.every((position, index) => !occupied.has(position) || occupied.get(position) === target.word[index]);
         if (fits) placement = { positions, direction: direction.label };
       }
@@ -17208,7 +17209,7 @@ function makeWordSearch(words) {
     });
     placed.push({ ...target, ...placement });
   });
-  return { size, letters, targets: placed };
+  return { columns, rows, letters, targets: placed };
 }
 
 function formatGamesTime(totalSeconds) {
@@ -17409,7 +17410,7 @@ function renderWordSearchGame(content, words) {
   const picked = new Set();
   const found = new Set();
   setGamesRoundProgress(0, puzzle.targets.length);
-  content.innerHTML = `<p class="games-search-directions">Encuentra ${puzzle.targets.length} palabras de izquierda a derecha, de arriba abajo o en diagonal. No hay palabras al revés.</p><div class="games-word-search-layout"><div class="games-word-grid" style="--word-grid-size:${puzzle.size}" aria-label="Sopa de letras">${puzzle.letters.map((letter, index) => `<button type="button" class="games-letter-cell" data-letter-index="${index}" aria-label="Letra ${letter}">${letter}</button>`).join('')}</div><div class="games-word-bank">${puzzle.targets.map((target, index) => `<span data-word-index="${index}">${escapeHtml(target.term)}</span>`).join('')}</div></div><div class="games-action-row"><button type="button" class="secondary-btn games-clear-search">Limpiar selección</button><button type="button" class="secondary-btn games-speak-target">🔊 Pista de audio</button></div>`;
+  content.innerHTML = `<p class="games-search-directions">Encuentra ${puzzle.targets.length} palabras de izquierda a derecha, de arriba abajo o en diagonal. No hay palabras al revés.</p><div class="games-word-search-layout"><div class="games-word-grid" style="--word-grid-columns:${puzzle.columns};--word-grid-rows:${puzzle.rows}" aria-label="Sopa de letras">${puzzle.letters.map((letter, index) => `<button type="button" class="games-letter-cell" data-letter-index="${index}" aria-label="Letra ${letter}">${letter}</button>`).join('')}</div><div class="games-word-bank">${puzzle.targets.map((target, index) => `<span data-word-index="${index}">${escapeHtml(target.term)}</span>`).join('')}</div></div><div class="games-action-row"><button type="button" class="secondary-btn games-clear-search">Limpiar selección</button><button type="button" class="secondary-btn games-speak-target">🔊 Pista de audio</button></div>`;
   const check = () => {
     const selected = [...picked].join(',');
     const targetIndex = puzzle.targets.findIndex((target) => target.positions.join(',') === selected);
@@ -17440,10 +17441,10 @@ function renderWordSearchGame(content, words) {
   };
 
   const straightPath = (fromIndex, toIndex) => {
-    const fromRow = Math.floor(fromIndex / puzzle.size);
-    const fromColumn = fromIndex % puzzle.size;
-    const toRow = Math.floor(toIndex / puzzle.size);
-    const toColumn = toIndex % puzzle.size;
+    const fromRow = Math.floor(fromIndex / puzzle.columns);
+    const fromColumn = fromIndex % puzzle.columns;
+    const toRow = Math.floor(toIndex / puzzle.columns);
+    const toColumn = toIndex % puzzle.columns;
     const rowDelta = toRow - fromRow;
     const columnDelta = toColumn - fromColumn;
     if (rowDelta !== 0 && columnDelta !== 0 && Math.abs(rowDelta) !== Math.abs(columnDelta)) return [];
@@ -17451,7 +17452,7 @@ function renderWordSearchGame(content, words) {
     const rowStep = Math.sign(rowDelta);
     const columnStep = Math.sign(columnDelta);
     return Array.from({ length: length + 1 }, (_, offset) =>
-      (fromRow + rowStep * offset) * puzzle.size + fromColumn + columnStep * offset
+      (fromRow + rowStep * offset) * puzzle.columns + fromColumn + columnStep * offset
     );
   };
 

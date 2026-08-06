@@ -23196,7 +23196,7 @@ body {
 .games-theme-banner strong { color:var(--navy-2); font-size:1.05rem; }
 .games-theme-banner small { color:var(--muted); font-size:.76rem; }
 .games-word-search-layout { display:grid; grid-template-columns:minmax(0,1.35fr) minmax(160px,.65fr); gap:1.25rem; align-items:start; margin:1rem 0; }
-.games-word-grid { display:grid; grid-template-columns:repeat(var(--word-grid-size,15),minmax(0,1fr)); grid-template-rows:repeat(var(--word-grid-size,15),minmax(0,1fr)); gap:.2rem; width:100%; max-width:620px; aspect-ratio:1; margin:0; touch-action:none; user-select:none; -webkit-user-select:none; }
+.games-word-grid { display:grid; grid-template-columns:repeat(var(--word-grid-columns,15),minmax(0,1fr)); grid-template-rows:repeat(var(--word-grid-rows,12),minmax(0,1fr)); gap:.2rem; width:100%; max-width:620px; aspect-ratio:var(--word-grid-columns,15) / var(--word-grid-rows,12); margin:0; touch-action:none; user-select:none; -webkit-user-select:none; }
 .games-letter-cell { width:100%; height:100%; aspect-ratio:1; min-width:0; min-height:0; padding:0; border:1px solid #d6e4fb; border-radius:6px; background:#f7fbff; color:var(--navy-2); font:inherit; font-size:clamp(.65rem,2vw,.95rem); font-weight:900; line-height:1; cursor:pointer; transition:background .12s ease,color .12s ease,transform .12s ease; }
 .games-word-grid.is-selecting .games-letter-cell { cursor:grabbing; }
 .games-word-grid.is-selecting .games-letter-cell.is-selected { transform:scale(.94); }
