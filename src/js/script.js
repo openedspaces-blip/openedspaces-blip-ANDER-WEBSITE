@@ -18082,10 +18082,10 @@ document.addEventListener('click', (event) => {
 // left the previous view rendered on screen.
 window.addEventListener('popstate', () => showView(getViewFromHash()));
 
+// Closing only via the explicit X (not a backdrop click) is intentional -
+// a student mid-form who clicks slightly outside the card while filling in
+// their name/email/password shouldn't lose everything they typed.
 closeModal?.addEventListener('click', closeAuth);
-authModal?.addEventListener('click', (event) => {
-  if (event.target === authModal) closeAuth();
-});
 
 function showHomeToast(message = '') {
   let toast = document.querySelector('.home-toast');
