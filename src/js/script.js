@@ -10762,9 +10762,9 @@ async function requestSpeakingCorrection(container, lesson, context = {}) {
 
   let fullText = '';
   try {
-    const response = await fetch(`${backendBaseUrl}/api/ai/tutor`, {
+    const response = await authFetch(`${backendBaseUrl}/api/ai/tutor`, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json', ...authHeaders() },
+      headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(payload)
     });
     if (!response.ok || !response.body) {
@@ -15701,9 +15701,14 @@ async function sendTutorMessage({
   activeTutorRequestController = requestController;
 
   try {
-    const response = await fetch(`${backendBaseUrl}/api/ai/tutor`, {
+    // authFetch (not a plain fetch): a Supabase access token expiring mid-tab
+    // must trigger the same silent refresh-and-retry every other
+    // requireAuth route already gets (see authFetch above) instead of
+    // surfacing "Debes iniciar sesión para continuar." to a learner the UI
+    // still shows as signed in.
+    const response = await authFetch(`${backendBaseUrl}/api/ai/tutor`, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json', ...authHeaders() },
+      headers: { 'Content-Type': 'application/json' },
       signal: requestController.signal,
       body: JSON.stringify({
         language,
@@ -21118,17 +21123,18 @@ function setupInterpreter() {
       turns.push({ side, original: text, translation: data.translatedText, sourceLanguage, targetLanguage });
       renderTurns();
       setStatus(`Reproduciendo ${languageLabel(targetLanguage)}…`, 'is-success');
-      const sourceButton = side === 'a' ? talkA : talkB;
       const finishTurn = () => {
         if (turnToken !== playbackToken) return;
         busy = false;
         talkA.disabled = false;
         talkB.disabled = false;
-        setStatus(`Listo. Puedes hablar en ${languageLabel(sourceLanguage)}.`, 'is-success');
-        // Return the conversation to the person whose turn it is without
-        // automatically opening the microphone or requiring another tap to
-        // enable the control.
-        sourceButton.focus({ preventScroll: true });
+        // The translation was just spoken aloud TO the other side, so it's
+        // now naturally their turn to reply - open their microphone
+        // automatically instead of making them tap again, so a live
+        // back-and-forth conversation doesn't stall after every line.
+        // startTurn() re-checks mic permission itself (silent after the
+        // first grant) and Stop still interrupts this at any point.
+        startTurn(side === 'a' ? 'b' : 'a');
       };
       speakText(data.translatedText, {
         locale: LANGUAGE_LOCALES[targetLanguage],
