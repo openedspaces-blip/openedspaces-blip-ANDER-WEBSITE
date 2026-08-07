@@ -353,7 +353,13 @@ document.querySelectorAll('.auth-form .auth-note').forEach((note) => {
   note.dataset.defaultText = note.textContent;
 });
 const authTriggers = document.querySelectorAll('[data-action="open-auth"]');
-const closeModal = document.querySelector('.close-modal');
+// Scoped to #authModal specifically - .close-modal is reused by several
+// unrelated modals (verb-detail, paywall, username onboarding all have
+// their own .close-modal button). An unscoped document.querySelector('.close-
+// modal') grabbed whichever one happens to appear first in the HTML (the
+// verb-detail button), not authModal's own visible X, so clicking the X a
+// student actually sees on the login/signup modal silently did nothing.
+const closeModal = authModal?.querySelector('.close-modal');
 const menuToggle = document.querySelector('.menu-toggle');
 const siteMenu = document.getElementById('siteMenu');
 const userChip = document.querySelector('.user-chip');
