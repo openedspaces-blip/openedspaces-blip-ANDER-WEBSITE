@@ -72,15 +72,17 @@ test('Premium lock and exhausted Tutor quota use the required friendly copy', ()
   assert.match(source, /recordUsage\(\{ userId: req\.user\.id, feature: 'tutor_query' \}\)/);
 });
 
-test('Tutor supports language detection in free queries outside lessons', () => {
+test('Tutor supports free queries outside lessons while still restricting language for TTS', () => {
   const source = fs.readFileSync(path.join(__dirname, 'lib', 'aiTutorService.js'), 'utf8');
   assert.match(source, /contextScope === 'general'/);
-  assert.match(source, /detecta el idioma predominante de la solicitud del estudiante/);
+  assert.match(source, /responde SIEMPRE en \$\{targetLanguageLabel\}/);
 });
 
-test('Tutor answers in the learner request language while retaining lesson context', () => {
+test('Tutor never answers in a third language outside target/native, even if the student writes in one (TTS compatibility)', () => {
   const source = fs.readFileSync(path.join(__dirname, 'lib', 'aiTutorService.js'), 'utf8');
-  assert.match(source, /detecta el idioma predominante de la solicitud del estudiante/);
+  assert.match(source, /responde SIEMPRE en \$\{targetLanguageLabel\}/);
+  assert.match(source, /nunca en ningún otro idioma/);
+  assert.match(source, /ignora ese idioma de entrada/);
 });
 
 // The default suite validates the application contract against its bundled
