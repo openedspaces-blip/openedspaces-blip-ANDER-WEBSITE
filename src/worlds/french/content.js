@@ -67757,8 +67757,8 @@
     "id": "retour-a-saint-domingue",
     "slug": "retour-a-saint-domingue",
     "level": "B2",
-    "title": "Le choc du retour",
-    "titleEs": "El choque cultural inverso",
+    "title": "Le choc culturel du retour",
+    "titleEs": "El choque cultural del regreso",
     "description": "Pourquoi le retour chez soi après un séjour à l’étranger peut être plus déstabilisant que le départ, et comment en parler avec nuance.",
     "order": 1,
     "unitOverview": {

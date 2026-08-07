@@ -37,8 +37,8 @@ const units = [
     // journey; the reading itself is now a general article on reverse
     // culture shock, so the title now matches that instead.
     slug: 'retour-a-saint-domingue',
-    title: 'Le choc du retour',
-    titleEs: 'El choque cultural inverso',
+    title: 'Le choc culturel du retour',
+    titleEs: 'El choque cultural del regreso',
     description: 'Pourquoi le retour chez soi après un séjour à l’étranger peut être plus déstabilisant que le départ, et comment en parler avec nuance.',
     order: 1,
     accessTier: 'free',

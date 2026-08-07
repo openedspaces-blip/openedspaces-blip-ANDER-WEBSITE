@@ -7274,7 +7274,7 @@ const UNIT_SLUG_ARTWORK = {
   'medias-et-information': { emoji: '📰', label: 'medios e información', tone: 'sky' },
   'relations-et-conflits': { emoji: '🤝', label: 'relaciones y conflictos', tone: 'orange' },
   // French B2
-  'retour-a-saint-domingue': { emoji: '🔄', label: 'choque cultural inverso', tone: 'sky' },
+  'retour-a-saint-domingue': { emoji: '🔄', label: 'choque cultural del regreso', tone: 'sky' },
   'candidature-universitaire': { emoji: '🎓', label: 'candidatura universitaria', tone: 'violet' },
   'debats-de-societe': { emoji: '🤝', label: 'debates de sociedad', tone: 'orange' },
   'le-teletravail-et-lavenir-professionnel': { emoji: '💼', label: 'teletrabajo y futuro profesional', tone: 'blue' },
