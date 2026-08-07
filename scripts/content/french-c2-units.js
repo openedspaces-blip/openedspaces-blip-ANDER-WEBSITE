@@ -307,77 +307,77 @@ function vocabularyExercises(items) {
 
 function grammarExercises(topic) {
   const contextualExamples = {
-    'neuroplasticite-adulte': [
-      'Quand bien même les adultes progresseraient moins vite en moyenne, les trajectoires individuelles resteraient très variables.',
-      'Pour marquée qu’elle soit, la différence moyenne ne détermine pas le potentiel d’un apprenant.',
-      'Tout en reconnaissant un effet de l’âge, l’étude refuse d’en faire une échéance biologique absolue.',
-      'Les plus jeunes obtiennent certes un avantage moyen ; encore faut-il ne pas confondre tendance collective et destin individuel.'
+    'intelligence-artificielle-et-creativite': [
+      'Quand bien même l’image générée serait esthétiquement irréprochable, elle ne prouverait pas à elle seule une intention créatrice.',
+      'Pour habile que soit la recombinaison stylistique, elle ne suffit pas à établir un projet esthétique propre.',
+      'Tout en reconnaissant la qualité formelle de l’œuvre générée, les juges refusent d’en faire un critère suffisant de créativité.',
+      'Le modèle obtient certes un score élevé au test de préférence ; encore faut-il ne pas confondre performance perceptive et originalité véritable.'
     ],
-    'recuperation-espacee': [
-      'Les résultats semblent indiquer un avantage de l’espacement, sans que son ampleur puisse encore être tenue pour certaine.',
-      'La récupération répétée pourrait renforcer la rétention différée, quoique d’autres mécanismes ne puissent être exclus.',
-      'Il est hautement probable que la familiarité ait influencé le jugement, mais ce biais n’est pas directement mesuré.',
-      'Rien ne permet d’affirmer que le même calendrier conviendrait à tous les apprentissages.'
+    'climat-et-transition-energetique': [
+      'Si les investissements s’étaient orientés plus tôt vers les énergies propres, l’écart avec la trajectoire nécessaire serait aujourd’hui moindre.',
+      'La demande énergétique mondiale pourrait continuer de croître, quoique la part des énergies propres progresse déjà rapidement.',
+      'Il est hautement probable que le rythme actuel retarde l’atteinte du seuil visé, sans que cet écart soit encore jugé irréversible.',
+      'Rien ne permet d’affirmer qu’une même politique de tarification conviendrait à toutes les économies exposées.'
     ],
-    'sommeil-consolidation': [
-      'Au moment du test différé, les participants auront déjà accompli une nuit complète de sommeil.',
-      'Les mots avaient été encodés avant que la consolidation nocturne ne soit mesurée.',
-      'D’ici la fin du protocole, l’équipe aura recueilli trois mesures de rétention.',
-      'Les chercheurs pensaient que le groupe reposé aurait consolidé davantage d’items avant le rappel.'
+    'geopolitique-et-conflits-contemporains': [
+      'Selon certains analystes, la multipolarité aggraverait l’instabilité ; d’après d’autres, elle multiplierait au contraire les canaux de médiation.',
+      'À en croire les partisans du multilatéralisme, la robustesse institutionnelle compterait davantage que le nombre de pôles rivaux.',
+      'Le porte-parole aurait affirmé que la tension resterait contenue, ce que plusieurs observateurs indépendants contestent.',
+      'Les chercheurs rappellent que ce que les gouvernements déclarent ne se confond pas avec ce que les données permettent d’établir.'
     ],
-    'input-comprehensible': [
-      'L’augmentation de la fréquence d’exposition a favorisé la reconnaissance, mais les chercheurs ont organisé cette exposition.',
-      'La mesure de l’acquisition incidente exige que l’on précise qui mesure quoi et à quel moment.',
-      'La transformation de l’input en connaissance ne saurait être présupposée : les apprenants doivent encore établir les associations.',
-      'Le recours à la nominalisation condense l’analyse ; la proposition verbale restitue ensuite l’agent et la causalité.'
+    'reseaux-sociaux-et-sante-mentale': [
+      'Il est essentiel que l’étude distingue l’usage passif de l’usage actif avant de conclure à un effet uniforme.',
+      'Les auteurs recommandent que chaque association soit interprétée avec prudence, sans qu’un lien causal soit présupposé.',
+      'Bien que l’association statistique soit réelle, rien ne garantit qu’elle explique la totalité du mal-être observé.',
+      'Il convient que l’évaluation distingue la corrélation immédiate de l’effet démontré sur le long terme.'
     ],
-    'apprentissage-multimodal': [
-      'Les signaux visuels ont guidé l’attention ; par conséquent, les apprenants ont repéré plus vite les étapes pertinentes.',
-      'La présence simultanée de deux modes est corrélée à de meilleurs scores, sans pour autant en constituer nécessairement la cause.',
-      'Puisque les légendes répétaient exactement la narration, elles ont pu accroître la charge cognitive.',
-      'Les résultats diffèrent selon la complexité du support, de sorte qu’une recommandation unique serait prématurée.'
+    'economie-et-inegalites-mondiales': [
+      'La réduction de la pauvreté absolue a été portée par la croissance asiatique, mais les inégalités relatives ont été laissées largement inchangées par les gouvernements.',
+      'La concentration patrimoniale mondiale est probablement sous-estimée par les statistiques officielles, en raison de l’optimisation fiscale internationale.',
+      'Un taux minimal d’imposition a été négocié par l’OCDE afin de limiter l’érosion de la base fiscale.',
+      'Les gains de productivité sont captés en priorité par les détenteurs de capital, ce que la seule croissance agrégée ne corrige pas.'
     ],
-    'interaction-production': [
-      'Les apprenants ont expliqué qu’ils avaient demandé une clarification lorsque la consigne était devenue ambiguë.',
-      'Selon l’enseignante, la négociation avait facilité la compréhension ; les auteurs, eux, attribuent une partie du gain à la répétition.',
-      'Un participant affirme avoir remarqué ses lacunes, tandis qu’un autre dit avoir seulement reformulé pour terminer la tâche.',
-      'Les chercheurs rappellent que ce que les apprenants déclarent ne se confond pas avec ce que l’analyse permet d’inférer.'
+    'espace-et-exploration-scientifique': [
+      'Lorsque les astronomes auront confirmé une biosignature de façon indépendante, ils auront franchi un seuil que l’observation actuelle n’atteint pas encore.',
+      'Le signal avait été détecté avant que sa robustesse statistique ne soit pleinement établie.',
+      'D’ici la prochaine génération de télescopes, l’équipe aura multiplié les observations indépendantes du même système.',
+      'Les chercheurs pensaient que l’instrument aurait déjà distingué une origine biologique d’une origine abiotique.'
     ],
-    'feedback-correctif': [
-      'Il est essentiel que l’apprenant dispose d’un temps de réponse avant que l’enseignant ne fournisse la forme.',
-      'Les auteurs recommandent que chaque correction soit codée selon sa fonction interactionnelle.',
-      'Bien que la reformulation soit fréquente, rien ne garantit qu’elle soit toujours perçue comme corrective.',
-      'Il convient que l’évaluation distingue la reprise immédiate de l’acquisition durable.'
+    'bioethique-edition-genetique-et-ia-medicale': [
+      'Quand bien même la précision de CRISPR serait remarquable, elle n’éliminerait pas entièrement le risque d’effets hors cible.',
+      'Pour rigoureux que soit le suivi clinique, il ne suffit pas à garantir l’innocuité d’une modification germinale.',
+      'Tout en reconnaissant l’intérêt thérapeutique de l’édition somatique, les comités d’éthique en circonscrivent strictement les usages germinaux.',
+      'L’essai obtient certes des résultats cliniques prometteurs ; encore faut-il ne pas en déduire une sécurité totale à long terme.'
     ],
-    'perception-prononciation': [
-      'Le contraste a été identifié plus précisément après que les chercheurs ont accru la variabilité des voix.',
-      'Les enregistrements ont été normalisés par les techniciens avant la passation du test.',
-      'Une amélioration a été observée, mais les analystes demeurent responsables de l’interprétation de ce gain.',
-      'Les catégories ont été générées par le modèle, puis vérifiées par deux phonéticiennes.'
+    'culture-du-travail-et-epuisement-professionnel': [
+      'La charge de travail a été maintenue par plusieurs organisations sans que les ressources correspondantes soient accrues.',
+      'Un déséquilibre a été identifié par les chercheurs entre les exigences imposées et les ressources disponibles.',
+      'Des solutions individuelles ont été proposées par certains employeurs, sans que l’organisation du travail soit elle-même modifiée.',
+      'Une réduction du temps de travail a été expérimentée par plusieurs pays européens, avec des résultats jugés encourageants.'
     ],
-    'anxiete-attention': [
-      'Si l’anxiété avait mobilisé moins de ressources attentionnelles, les performances auraient peut-être été plus régulières.',
-      'La tâche serait-elle moins évaluative que l’écart observé pourrait disparaître.',
-      'À supposer que l’effet varie selon la tâche, un score unique en masquerait les mécanismes.',
-      'Sans pression temporelle, certains apprenants auraient pu consacrer davantage d’attention au sens.'
+    'migrations-et-frontieres': [
+      'La plupart des personnes déplacées, dont le nombre dépasse cent millions, restent dans un pays limitrophe.',
+      'Les routes migratoires, lesquelles se sont déplacées vers des trajets plus dangereux, n’ont pas réduit le volume global des départs.',
+      'Ce à quoi s’ajoute l’absence de voies légales suffisantes, ce dont dépend largement la persistance de la migration irrégulière.',
+      'Les pays d’accueil pour lesquels la pression démographique est la plus forte ne sont pas toujours ceux que l’on imagine.'
     ],
-    'age-differences-individuelles': [
-      'Les apprenants dont la mémoire phonologique était plus forte ont rappelé davantage de formes nouvelles.',
-      'Le test d’aptitude, lequel avait été administré avant l’enseignement, n’expliquait qu’une partie de la variation.',
-      'Les participants pour lesquels la tâche était nouvelle ont demandé davantage d’entraînement.',
-      'Plusieurs profils ont émergé, dont aucun ne justifiait une interprétation déficitaire.'
+    'desinformation-et-democratie': [
+      'Puisque la désinformation vise surtout des convictions déjà établies, dès lors la conversion massive d’électeurs indécis paraît peu probable.',
+      'Un contenu suscite une indignation forte ; par conséquent, sa diffusion dépasse presque toujours celle de son démenti ultérieur.',
+      'Les plateformes ayant longtemps optimisé l’engagement plutôt que l’exactitude, une asymétrie structurelle s’est installée entre fausse information et correction.',
+      'Les chambres d’écho existent, si bien que leur effet réel reste pourtant moins déterminant que ne le suggère leur popularité médiatique.'
     ],
-    'lexique-contextuel': [
-      'Les mots ayant été rencontrés dans plusieurs contextes, leurs associations sémantiques se sont enrichies.',
-      'Ayant comparé les réponses, les chercheurs ont distingué connaissance réceptive et emploi productif.',
-      'Les collocations recyclées dans des tâches variées ont été mieux retenues au test différé.',
-      'La fréquence demeurant constante, la richesse du contexte pouvait être examinée plus précisément.'
+    'art-contemporain-et-marche-culturel': [
+      'Les trois légitimations convergeant sur un même artiste, elles produisent un effet cumulatif difficile à inverser.',
+      'Le prix ayant explosé sur le marché secondaire, l’artiste vivant n’en a tiré aucun bénéfice direct.',
+      'Une œuvre ayant été acquise par un musée, sa valeur marchande s’en est généralement trouvée renforcée.',
+      'Les segments géographiques restant largement indépendants, une même dynamique mondiale ne s’applique pas uniformément à chacun d’eux.'
     ],
-    'intelligence-artificielle-tutorat': [
-      'Le tuteur améliorerait la fluidité, selon son concepteur, mais aucun gain indépendant n’a encore été établi.',
-      'Il semblerait que les rappels augmentent la quantité de pratique, sans que leur effet pédagogique soit démontré.',
-      'Les explications auraient été jugées utiles par les participants ; le protocole complet reste toutefois indisponible.',
-      'Il conviendrait donc de qualifier l’outil de prometteur plutôt que d’efficace.'
+    'philosophie-de-la-technologie-et-ethique-algorithmique': [
+      'Il se pourrait qu’un système paraisse neutre alors même qu’il encoderait une hiérarchie de valeurs à travers un simple choix de proxy.',
+      'Il semblerait que l’explicabilité et la performance prédictive s’opposent souvent dans les systèmes les plus complexes.',
+      'Il conviendrait que la supervision humaine reste effective, sans que cette exigence ralentisse excessivement le déploiement du système.',
+      'Il est peu probable qu’une définition unique de l’équité satisfasse simultanément tous les critères concurrents identifiés par les chercheurs.'
     ]
   }[topic.slug];
   if (contextualExamples) {
