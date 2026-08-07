@@ -1616,6 +1616,34 @@ a:focus-visible {
   margin: 0 auto;
 }
 
+/* This screen (and its sibling #emailConfirmedSection, same class) is a
+   single small utility card, not a marketing section - override .section's
+   ~74-122px top/bottom padding (two .section rules exist in this file with
+   equal specificity; the compound selector below beats both regardless of
+   source order) and .section-heading's landing-page-sized title/gaps (up to
+   3.4rem + 46px margin), so it doesn't read as mostly empty space above a
+   short form, as it did at the default sizing. */
+.reset-password-section.section {
+  padding: 32px 6%;
+}
+
+.reset-password-section .section-heading {
+  margin-bottom: 20px;
+}
+
+.reset-password-section .section-heading::before {
+  margin-bottom: 10px;
+}
+
+.reset-password-section .section-heading h2 {
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  margin: 8px 0;
+}
+
+.reset-password-section .section-heading p {
+  font-size: 0.98rem;
+}
+
 .reset-password-card {
   background: var(--surface);
   border: 1px solid var(--line);
