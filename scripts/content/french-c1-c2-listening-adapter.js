@@ -81,52 +81,52 @@ const GRAMMAR_MODELS = {
   ],
   C2: [
     [
-      'Quand bien même la neuroplasticité persisterait à l’âge adulte, une étude transversale ne suffirait pas à établir une inférence causale.',
-      'Tout en reconnaissant la portée du faisceau d’indices, l’analyse en circonscrit les conséquences, encore qu’un réseau fonctionnel puisse se réorganiser avec l’entraînement.'
+      'Il semblerait qu’un modèle génératif produise une œuvre plausible, mais il ne pourrait s’agir de créativité au sens plein que si un choix humain substantiel demeurait décelable.',
+      'Quand bien même le pastiche serait techniquement irréprochable, il ne suffirait pas à établir une intention ni une inscription dans une histoire artistique reconnue.'
     ],
     [
-      'La récupération active pourrait renforcer une trace mnésique davantage que la simple familiarité, mais ce résultat semblerait dépendre de l’espacement.',
-      'Aucune méthode ne saurait donc être déclarée supérieure sans préciser le critère de maîtrise et les interférences observées.'
+      'Si la trajectoire actuelle des émissions s’était infléchie plus tôt, le seuil de 1,5 degré aurait pu rester atteignable sans mesures aussi coûteuses.',
+      'À moins que l’électrification ne s’accompagne d’une décarbonation équivalente de la production, le gain climatique resterait largement illusoire.'
     ],
     [
-      'Lorsque les chercheurs auront comparé le sommeil lent et le sommeil paradoxal, ils pourront mieux décrire la consolidation.',
-      'Une fois l’encodage terminé, une réactivation ciblée pourrait modifier la trace ; encore faudra-t-il que l’analyse préenregistrée ait écarté les interprétations concurrentes.'
+      'Selon certains analystes, la multipolarité multiplierait les frictions ; d’autres soutiennent au contraire qu’elle multiplie les canaux de médiation disponibles.',
+      'À en croire les partisans du multilatéralisme, la robustesse des institutions compterait davantage que le nombre de pôles de puissance en présence.'
     ],
     [
-      'La présentation de l’input compréhensible par les enseignants favorise le repérage, mais l’acquisition d’une connaissance productive par les apprenants n’est pas automatique.',
-      'En restituant les agents, on voit que la transformation d’une connaissance réceptive en usage actif exige des tâches qui empêchent le savoir de rester inerte.'
+      'Pour autant que l’usage demeure actif plutôt que passif, il n’est pas certain que le lien entre réseaux sociaux et mal-être soit aussi massif qu’on le prétend.',
+      'Bien que la corrélation soit statistiquement établie, il faut douter qu’elle suffise, à elle seule, à démontrer une causalité univoque.'
     ],
     [
-      'Puisque la multimodalité associe texte, son et image, elle fournit davantage d’indices prosodiques ; pourtant, elle peut aussi accroître la surcharge cognitive.',
-      'L’étayage doit donc guider la segmentation, si bien qu’un test différé mesure un apprentissage durable plutôt qu’un simple effet de présentation.'
+      'La concentration de la richesse mondiale s’explique par le rendement du capital, lequel a dépassé la croissance elle-même sur longue période.',
+      'Sans redistribution de la part des États, les gains de productivité tendent à profiter surtout aux détenteurs de capital plutôt qu’aux salariés.'
     ],
     [
-      'Selon certains chercheurs, la négociation du sens ralentirait l’échange ; d’autres affirment qu’une demande de clarification déclenche précisément la reformulation utile.',
-      'L’apprenant reconnaît qu’il cherche parfois une périphrase, tandis que l’enseignant répond que l’intelligibilité compte davantage que la perfection immédiate.'
+      'Lorsque les astronomes auront confirmé une biosignature de manière indépendante, ils pourront enfin distinguer une origine biologique d’une simple origine abiotique.',
+      'Avant que l’instrument n’ait franchi plusieurs niveaux de vérification, aucune annonce ne saurait être qualifiée de découverte plutôt que d’indice préliminaire.'
     ],
     [
-      'Bien que le feedback correctif soit utile, il faut qu’une reformulation implicite soit perçue pour déclencher une réparation.',
-      'Pour peu que l’invite laisse à l’apprenant le temps de répondre, le transfert peut se produire sans que chaque erreur développementale soit traitée comme un échec.'
+      'Quoique l’édition somatique soit désormais bien maîtrisée, l’édition germinale demeure suspendue à un moratoire international informel.',
+      'Encore que la précision de CRISPR soit remarquable, elle n’élimine pas entièrement le risque d’effets hors cible sur le génome.'
     ],
     [
-      'Le contraste phonémique est d’abord perçu grâce à un indice acoustique, puis sa généralisation est testée par des voix variées.',
-      'La compréhensibilité ne doit pas être confondue avec l’imitation d’un accent : elle est aussi construite par les traits suprasegmentaux et évaluée par les interlocuteurs.'
+      'L’épuisement professionnel est décrit par l’OMS comme un déséquilibre entre exigences et ressources, sans que la responsabilité en soit réduite à l’individu.',
+      'Une charge de travail excessive a été maintenue par certaines organisations, ce qui a rendu les solutions purement individuelles insuffisantes.'
     ],
     [
-      'Si l’anxiété langagière avait occupé moins de place dans la mémoire de travail, l’apprenant aurait moins recouru à l’autosurveillance et à l’évitement.',
-      'Une exposition graduée aurait pu interrompre cette réciprocité causale ; eût-elle été imposée trop vite, elle aurait néanmoins renforcé la peur de l’erreur.'
+      'La plupart des personnes déplacées, dont le nombre dépasse cent millions, restent dans un pays limitrophe plutôt que de rejoindre un pays riche.',
+      'Ce à quoi s’ajoute l’absence de voies légales suffisantes, ce dont dépend en grande partie la persistance de la migration irrégulière.'
     ],
     [
-      'L’aptitude linguistique est une différence individuelle dont l’effet dépend des tâches auxquelles l’apprenant est confronté.',
-      'Le transfert interlinguistique, auquel certaines études attribuent un rôle central, interagit avec le contexte dans lequel l’adaptation révisable est mise en œuvre.'
+      'Puisque la désinformation vise surtout des convictions déjà établies, dès lors la conversion massive d’électeurs indécis paraît moins probable qu’on ne le suppose.',
+      'La viralité d’un contenu trompeur tient à l’émotion qu’il suscite, si bien que sa diffusion dépasse presque toujours celle de son démenti.'
     ],
     [
-      'Les gloses ayant facilité l’accès au sens, les apprenants peuvent ensuite observer la polysémie et les collocations en contexte.',
-      'L’équivalence isolée étant insuffisante, une méta-régression intégrant plusieurs études permet d’estimer la profondeur lexicale réellement acquise.'
+      'Les trois légitimations — critique, institutionnelle et marchande — convergeant sur un même artiste, elles produisent un effet cumulatif difficile à inverser.',
+      'Le prix d’une œuvre ayant explosé sur le marché secondaire, l’artiste vivant n’en tire généralement aucun bénéfice direct.'
     ],
     [
-      'Un modèle génératif pourrait personnaliser les exercices, mais il semblerait qu’une supervision humaine demeure nécessaire pour limiter l’hallucination.',
-      'Il convient que l’ancrage contextuel et la traçabilité soient vérifiables ; l’effet de nouveauté ne saurait, à lui seul, prouver l’efficacité du tutorat.'
+      'Il se pourrait qu’un système paraisse neutre alors même qu’il encoderait une hiérarchie de valeurs à travers le choix d’un simple proxy.',
+      'Il conviendrait que l’explicabilité et la supervision humaine soient garanties ; la performance seule ne saurait, à elle seule, légitimer une décision automatisée.'
     ]
   ]
 };

@@ -21012,17 +21012,7 @@ function setupInterpreter() {
   if (!langA || !langB || !talkA || !talkB || !status || !conversation || talkA.dataset.ready) return;
   talkA.dataset.ready = 'true';
 
-  // IPA is intentionally scoped to the two languages for which this tool is
-  // currently curated and reviewed in ANDERGO: English and French.
-  const languages = (window.AndergoTranslatorLanguages?.getSelectableLanguages() || [])
-    .filter((lang) => ['english', 'french'].includes(lang.key));
-  const optionHtml = languages
-    .map((lang) => `<option value="${escapeHtml(lang.key)}">${lang.flag} ${escapeHtml(lang.label)}</option>`)
-    .join('');
-  langA.innerHTML = optionHtml;
-  langB.innerHTML = optionHtml;
-  langA.value = languages.some((lang) => lang.key === 'spanish') ? 'spanish' : languages[0]?.key;
-  langB.value = languages.some((lang) => lang.key === 'english') ? 'english' : languages[1]?.key;
+  const labels = { english: 'English', spanish: 'Español', french: 'Français', italian: 'Italiano', portuguese: 'Português' };
 
   let recognition = null;
   let activeButton = null;
@@ -21030,8 +21020,7 @@ function setupInterpreter() {
   let turns = [];
   let playbackToken = 0;
 
-  const languageLabel = (key) =>
-    languages.find((lang) => lang.key === key)?.label || languageDisplayNames[key] || key;
+  const languageLabel = (key) => labels[key] || languageDisplayNames[key] || key;
 
   const setStatus = (message, mode = '') => {
     status.textContent = message;
@@ -21212,149 +21201,6 @@ function setupInterpreter() {
   langA.addEventListener('change', updateLabels);
   langB.addEventListener('change', updateLabels);
   updateLabels();
-  renderTurns();
-}
-
-function setupMultilingualInterpreter() {
-  const targetSelect = document.getElementById('interpreterTargetLang');
-  const languageGrid = document.getElementById('interpreterLanguageGrid');
-  const stopBtn = document.getElementById('interpreterStopBtn');
-  const clearBtn = document.getElementById('interpreterClearBtn');
-  const status = document.getElementById('interpreterStatus');
-  const conversation = document.getElementById('interpreterConversation');
-  if (!targetSelect || !languageGrid || !status || !conversation || languageGrid.dataset.ready) return;
-  languageGrid.dataset.ready = 'true';
-
-  const labels = { english: 'English', spanish: 'Español', french: 'Français', italian: 'Italiano', portuguese: 'Português' };
-  let recognition = null;
-  let activeButton = null;
-  let busy = false;
-  let turns = [];
-  let playbackToken = 0;
-
-  const buttons = () => [...languageGrid.querySelectorAll('[data-interpreter-language]')];
-  const setStatus = (message, mode = '') => {
-    status.textContent = message;
-    status.classList.remove('is-loading', 'is-success', 'is-unavailable');
-    if (mode) status.classList.add(mode);
-  };
-  const setButtonsDisabled = (disabled) => buttons().forEach((button) => { button.disabled = disabled; });
-
-  const renderTurns = () => {
-    if (!turns.length) {
-      conversation.innerHTML = '<div class="interpreter-empty"><span aria-hidden="true">🎧</span><p>Toca el idioma de quien va a hablar para comenzar.</p></div>';
-      return;
-    }
-    conversation.innerHTML = turns.map((turn, index) => `
-      <article class="interpreter-turn${index % 2 ? ' interpreter-turn--b' : ''}">
-        <div class="interpreter-turn-head"><span>${escapeHtml(labels[turn.sourceLanguage])}</span><span>→ ${escapeHtml(labels[turn.targetLanguage])}</span></div>
-        <p class="interpreter-turn-original">${escapeHtml(turn.original)}</p>
-        <p class="interpreter-turn-translation">${escapeHtml(turn.translation)}</p>
-        <button type="button" class="interpreter-repeat-btn" data-interpreter-repeat="${index}" aria-label="Repetir traducción">🔊 Repetir</button>
-      </article>`).join('');
-    conversation.scrollTop = conversation.scrollHeight;
-  };
-
-  const stop = () => {
-    playbackToken += 1;
-    try { recognition?.abort(); } catch { /* inactive */ }
-    recognition = null;
-    activeButton?.classList.remove('is-listening');
-    activeButton = null;
-    window.speechSynthesis?.cancel();
-    busy = false;
-    setButtonsDisabled(false);
-    setStatus('Detenido.');
-  };
-
-  const playTranslation = (turn) => {
-    window.speechSynthesis?.cancel();
-    speakText(turn.translation, { locale: LANGUAGE_LOCALES[turn.targetLanguage] });
-  };
-
-  async function translateTurn(text, sourceLanguage, targetLanguage) {
-    busy = true;
-    const token = ++playbackToken;
-    setButtonsDisabled(true);
-    setStatus('Interpretando…', 'is-loading');
-    try {
-      const data = await postJson('/api/translate', { text, sourceLanguage, targetLanguage }, { auth: true });
-      if (token !== playbackToken) return;
-      if (!data.ok || !data.translatedText) throw new Error(data.message || 'No se pudo interpretar.');
-      const turn = { original: text, translation: data.translatedText, sourceLanguage, targetLanguage };
-      turns.push(turn);
-      renderTurns();
-      setStatus(`Reproduciendo ${labels[targetLanguage]}…`, 'is-success');
-      speakText(turn.translation, {
-        locale: LANGUAGE_LOCALES[targetLanguage],
-        onEnd: () => {
-          if (token !== playbackToken) return;
-          busy = false;
-          setButtonsDisabled(false);
-          setStatus('Listo para el próximo turno.', 'is-success');
-        }
-      });
-    } catch (error) {
-      if (token !== playbackToken) return;
-      busy = false;
-      setButtonsDisabled(false);
-      setStatus(error.message || 'No se pudo interpretar.', 'is-unavailable');
-    }
-  }
-
-  async function startTurn(sourceLanguage, button) {
-    if (busy) return;
-    const targetLanguage = targetSelect.value;
-    if (sourceLanguage === targetLanguage) {
-      setStatus(`Selecciona como destino un idioma distinto de ${labels[sourceLanguage]}.`, 'is-unavailable');
-      return;
-    }
-    const Ctor = getSpeechRecognitionCtor();
-    if (!Ctor) {
-      setStatus('El reconocimiento de voz no está disponible en este navegador.', 'is-unavailable');
-      return;
-    }
-    stop();
-    try { await ensureMicrophonePermission(); }
-    catch (error) { setStatus(microphonePermissionMessage(error), 'is-unavailable'); return; }
-    const instance = new Ctor();
-    instance.lang = DICTATION_LANGUAGE_CODES[sourceLanguage] || LANGUAGE_LOCALES[sourceLanguage];
-    instance.interimResults = true;
-    instance.continuous = false;
-    recognition = instance;
-    activeButton = button;
-    button.classList.add('is-listening');
-    setStatus(`Escuchando ${labels[sourceLanguage]}…`, 'is-loading');
-    let transcript = '';
-    instance.addEventListener('result', (event) => {
-      transcript = Array.from(event.results).map((result) => result[0].transcript).join(' ').trim();
-      setStatus(transcript || `Escuchando ${labels[sourceLanguage]}…`, 'is-loading');
-    });
-    instance.addEventListener('error', (event) => {
-      if (event.error !== 'aborted') setStatus('No pude escuchar con claridad. Inténtalo de nuevo.', 'is-unavailable');
-    });
-    instance.addEventListener('end', () => {
-      button.classList.remove('is-listening');
-      if (recognition !== instance) return;
-      recognition = null;
-      activeButton = null;
-      if (transcript) translateTurn(transcript, sourceLanguage, targetLanguage);
-      else setStatus('Toca un idioma e inténtalo de nuevo.');
-    });
-    instance.start();
-  }
-
-  languageGrid.addEventListener('click', (event) => {
-    const button = event.target.closest('[data-interpreter-language]');
-    if (button) startTurn(button.dataset.interpreterLanguage, button);
-  });
-  conversation.addEventListener('click', (event) => {
-    const button = event.target.closest('[data-interpreter-repeat]');
-    if (button) playTranslation(turns[Number(button.dataset.interpreterRepeat)]);
-  });
-  stopBtn?.addEventListener('click', stop);
-  clearBtn?.addEventListener('click', () => { stop(); turns = []; renderTurns(); setStatus('Conversación limpia.'); });
-  targetSelect.addEventListener('change', () => setStatus(`Destino: ${labels[targetSelect.value]}.`));
   renderTurns();
 }
 
@@ -21946,7 +21792,7 @@ loadProgress();
 setupLearningPathControls();
 setupTestsView();
 setupTranslator();
-setupMultilingualInterpreter();
+setupInterpreter();
 setupCorrector();
 setupPhonetics();
 setupReadingSelectionTranslator();

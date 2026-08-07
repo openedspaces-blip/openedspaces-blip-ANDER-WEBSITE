@@ -1559,13 +1559,13 @@
               <div>
                 <span class="tests-eyebrow">Conversación por voz</span>
                 <h3>Modo intérprete</h3>
-                <p>Elige el idioma de destino y toca el idioma de quien va a hablar.</p>
+                <p>Elige desde qué idioma hablas y hacia cuál quieres interpretar, luego toca quién va a hablar.</p>
               </div>
               <button type="button" class="secondary-btn" id="interpreterClearBtn">Limpiar conversación</button>
             </div>
             <div class="interpreter-target-row">
-              <label for="interpreterTargetLang">Interpretar todo hacia
-                <select id="interpreterTargetLang">
+              <label for="interpreterLangA">Desde (tu idioma)
+                <select id="interpreterLangA">
                   <option value="english">🇺🇸 English</option>
                   <option value="spanish" selected>🇪🇸 Español</option>
                   <option value="french">🇫🇷 Français</option>
@@ -1573,13 +1573,20 @@
                   <option value="portuguese">🇵🇹 Português</option>
                 </select>
               </label>
+              <button type="button" class="secondary-btn interpreter-swap-btn" id="interpreterSwapBtn" aria-label="Intercambiar idiomas">⇄</button>
+              <label for="interpreterLangB">Hacia (idioma destino)
+                <select id="interpreterLangB">
+                  <option value="english" selected>🇺🇸 English</option>
+                  <option value="spanish">🇪🇸 Español</option>
+                  <option value="french">🇫🇷 Français</option>
+                  <option value="italian">🇮🇹 Italiano</option>
+                  <option value="portuguese">🇵🇹 Português</option>
+                </select>
+              </label>
             </div>
-            <div class="interpreter-language-grid" id="interpreterLanguageGrid" aria-label="Selecciona el idioma que vas a hablar">
-              <button type="button" class="interpreter-language-btn" data-interpreter-language="english"><span>🇺🇸</span><strong>English</strong><small>Tap to speak</small></button>
-              <button type="button" class="interpreter-language-btn" data-interpreter-language="spanish"><span>🇪🇸</span><strong>Español</strong><small>Toca para hablar</small></button>
-              <button type="button" class="interpreter-language-btn" data-interpreter-language="french"><span>🇫🇷</span><strong>Français</strong><small>Appuyez pour parler</small></button>
-              <button type="button" class="interpreter-language-btn" data-interpreter-language="italian"><span>🇮🇹</span><strong>Italiano</strong><small>Tocca per parlare</small></button>
-              <button type="button" class="interpreter-language-btn" data-interpreter-language="portuguese"><span>🇵🇹</span><strong>Português</strong><small>Toque para falar</small></button>
+            <div class="interpreter-talk-grid">
+              <button type="button" class="interpreter-talk-btn" id="interpreterTalkA"><span>🎙️</span><strong id="interpreterTalkALabel">Español</strong><small>Toca para hablar</small></button>
+              <button type="button" class="interpreter-talk-btn interpreter-talk-btn--b" id="interpreterTalkB"><span>🎙️</span><strong id="interpreterTalkBLabel">English</strong><small>Tap to speak</small></button>
             </div>
             <div class="interpreter-actions">
               <button type="button" class="secondary-btn translator-stop-btn" id="interpreterStopBtn">⏹ Detener</button>
