@@ -132,18 +132,18 @@ const GRAMMAR_MODELS = {
 };
 
 const C2_OPENINGS = [
-  'Pendant longtemps, l’âge adulte a été présenté comme une frontière biologique après laquelle l’apprentissage deviendrait presque marginal.',
-  'Dans une salle d’étude, deux stratégies produisent des sensations opposées : l’une rassure immédiatement, l’autre oblige la mémoire à travailler.',
-  'Chaque soir, des applications promettent d’enseigner des mots nouveaux sans interrompre le sommeil, comme si le cerveau restait disponible à toute sollicitation.',
-  'On rencontre parfois des apprenants capables de suivre une conférence complexe, mais encore hésitants lorsqu’ils doivent formuler une réponse spontanée.',
-  'Sur un même écran, une voix, des sous-titres et des images sollicitent simultanément l’attention de l’apprenant.',
-  'Attendre de posséder toutes les formes avant de prendre la parole paraît prudent, mais cette prudence peut retarder l’apprentissage qu’elle prétend protéger.',
-  'Dans certaines classes, presque chaque erreur reçoit une correction ; ailleurs, l’enseignant intervient seulement lorsque la compréhension est menacée.',
-  'Avant de produire un son nouveau, l’apprenant doit souvent parvenir à entendre une différence que sa langue première lui avait appris à ignorer.',
-  'Au moment de parler devant le groupe, des connaissances pourtant disponibles quelques minutes plus tôt semblent parfois devenir inaccessibles.',
-  'Les méthodes universelles séduisent parce qu’elles promettent une réponse simple à des profils d’apprentissage profondément différents.',
-  'Un mot accompagné de sa traduction paraît immédiatement accessible, mais cette première équivalence ne garantit ni ses usages ni ses nuances.',
-  'Un assistant artificiel peut répondre sans attendre, varier les exercices et commenter chaque production avec une fluidité impressionnante.'
+  'Un jury peine parfois à distinguer une image générée d’une œuvre humaine, ce qui relance une question ancienne sous une forme nouvelle.',
+  'Chaque rapport annuel sur le climat répète le même constat : la trajectoire actuelle ne suffit pas encore à respecter les seuils fixés collectivement.',
+  'Deux puissances dominantes ou plusieurs pôles rivaux : la structure même du pouvoir mondial influence-t-elle la fréquence des conflits qui l’agitent ?',
+  'Sur un même écran, un adolescent défile pendant des heures, ce qui inquiète autant que cela divise les chercheurs sur ses effets réels.',
+  'Pendant que l’extrême pauvreté recule, la part de richesse captée par les plus fortunés continue, elle, de progresser presque partout.',
+  'Un télescope capte la lumière filtrée par l’atmosphère d’une planète lointaine, et une question ancienne redevient soudain concrète.',
+  'Modifier un gène avant la naissance, entraîner un algorithme à diagnostiquer une maladie : deux frontières médicales avancent plus vite que leur cadre éthique.',
+  'Une charge de travail qui ne diminue jamais, un sentiment d’épuisement qui s’installe durablement : l’individu est-il seul en cause ?',
+  'La plupart des personnes déplacées de force ne franchissent jamais un océan ; elles restent tout près de chez elles, dans un pays voisin.',
+  'Un contenu trompeur se diffuse en quelques minutes, tandis que son démenti met des heures à atteindre le même public.',
+  'Une toile se vend à un prix record, tandis que la plupart des artistes vivants peinent à en tirer un revenu suffisant.',
+  'Un algorithme paraît neutre parce qu’il calcule ; pourtant chaque variable qu’il retient traduit déjà un choix qui ne l’est pas.'
 ];
 
 function clean(value) {
