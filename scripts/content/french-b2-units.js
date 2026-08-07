@@ -30,9 +30,15 @@ function activity(skill, fields) {
 const units = [
   // ---------------------------------------------------------------
   {
+    // Slug kept as-is on purpose (renaming it would orphan this unit's
+    // saved progress and route icon the same way the French C2 topic
+    // rewrite briefly did - see migrate-via-rest.js's course_units prune).
+    // Only title/titleEs changed: they used to name Camila's own return
+    // journey; the reading itself is now a general article on reverse
+    // culture shock, so the title now matches that instead.
     slug: 'retour-a-saint-domingue',
-    title: 'Retour à Saint-Domingue',
-    titleEs: 'Regreso a Santo Domingo',
+    title: 'Le choc du retour',
+    titleEs: 'El choque cultural inverso',
     description: 'Pourquoi le retour chez soi après un séjour à l’étranger peut être plus déstabilisant que le départ, et comment en parler avec nuance.',
     order: 1,
     accessTier: 'free',

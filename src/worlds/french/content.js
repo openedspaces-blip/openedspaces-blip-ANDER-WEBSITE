@@ -703,96 +703,6 @@
     ]
   },
   {
-    "slug": "french-b2-retour-a-saint-domingue-reading",
-    "level": "B2",
-    "skill": "reading",
-    "unitId": "retour-a-saint-domingue",
-    "title": "Le choc culturel du retour",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 35,
-    "orderIndex": 10,
-    "estimatedMinutes": 18,
-    "description": "Pourquoi revenir chez soi après un séjour à l’étranger peut être plus déstabilisant que le départ, selon les chercheurs en psychologie interculturelle.",
-    "intro": "Pourquoi revenir chez soi après un séjour à l’étranger peut être plus déstabilisant que le départ, selon les chercheurs en psychologie interculturelle.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": {
-      "title": "Le choc culturel du retour",
-      "parts": [
-        "En 1963, deux chercheurs américains, John et Jeanne Gullahorn, remarquent un phénomène que presque personne n’avait anticipé jusque-là : les étudiants qui revenaient d’un séjour à l’étranger souffraient souvent davantage que ceux qui venaient tout juste d’arriver dans un pays inconnu. Ils avaient pourtant préparé leur départ avec soin, lu des guides, appris quelques mots de la langue locale. Le retour, lui, ne se prépare presque jamais. C’est ce paradoxe, baptisé depuis « choc culturel inversé », que les spécialistes de la mobilité étudiante continuent d’étudier aujourd’hui.",
-        "Le modèle proposé par les Gullahorn, connu sous le nom de « courbe en W », décrit une adaptation en plusieurs phases : euphorie du départ, frustration, adaptation progressive à l’étranger, puis, au retour, une deuxième chute émotionnelle à laquelle presque personne ne s’attend. Un étudiant qui avait passé une année entière immergé dans une autre langue découvre parfois qu’il pense et réagit différemment, sans que son entourage ne comprenne immédiatement ce changement. Certains rapportent avoir eu l’impression, une fois rentrés, d’être devenus des étrangers dans leur propre quartier, alors même que rien, en apparence, n’avait bougé autour d’eux.",
-        "Les enquêtes menées auprès d’anciens participants à des programmes d’échange confirment ce constat : plus l’immersion avait été intense, plus le retour se révélait difficile à négocier. Les services d’orientation universitaire recommandent donc plusieurs stratégies, à commencer par le maintien des amitiés nouées à l’étranger et la poursuite de la pratique linguistique acquise. Il ne s’agirait pas, disent-ils, de traiter cette expérience comme une parenthèse refermée, mais bien comme une étape qui continuerait, longtemps après le vol retour, à façonner une façon de voir le monde.",
-        "Ce qui ressort surtout de ces recherches, c’est que le retour ne doit pas être vécu comme un simple retour à la normale, mais comme une étape à part entière du parcours de mobilité. Les personnes qui avaient anticipé cette difficulté, ne serait-ce qu’en en discutant avant leur départ, semblent s’adapter, dans une certaine mesure, plus rapidement que celles qui pensaient que rien n’aurait vraiment changé entre-temps."
-      ],
-      "questions": [
-        "Qui a décrit pour la première fois le « choc culturel inversé », et en quelle année ?",
-        "Comment s’appelle le modèle en plusieurs phases décrit dans le texte ?",
-        "Que découvre parfois un étudiant après une immersion linguistique prolongée, selon le texte ?",
-        "Que révèlent les enquêtes menées auprès d’anciens participants à des programmes d’échange ?",
-        "Que recommandent les services d’orientation universitaire pour atténuer ce choc ?"
-      ],
-      "text": "En 1963, deux chercheurs américains, John et Jeanne Gullahorn, remarquent un phénomène que presque personne n’avait anticipé jusque-là : les étudiants qui revenaient d’un séjour à l’étranger souffraient souvent davantage que ceux qui venaient tout juste d’arriver dans un pays inconnu. Ils avaient pourtant préparé leur départ avec soin, lu des guides, appris quelques mots de la langue locale. Le retour, lui, ne se prépare presque jamais. C’est ce paradoxe, baptisé depuis « choc culturel inversé », que les spécialistes de la mobilité étudiante continuent d’étudier aujourd’hui.\n\nLe modèle proposé par les Gullahorn, connu sous le nom de « courbe en W », décrit une adaptation en plusieurs phases : euphorie du départ, frustration, adaptation progressive à l’étranger, puis, au retour, une deuxième chute émotionnelle à laquelle presque personne ne s’attend. Un étudiant qui avait passé une année entière immergé dans une autre langue découvre parfois qu’il pense et réagit différemment, sans que son entourage ne comprenne immédiatement ce changement. Certains rapportent avoir eu l’impression, une fois rentrés, d’être devenus des étrangers dans leur propre quartier, alors même que rien, en apparence, n’avait bougé autour d’eux.\n\nLes enquêtes menées auprès d’anciens participants à des programmes d’échange confirment ce constat : plus l’immersion avait été intense, plus le retour se révélait difficile à négocier. Les services d’orientation universitaire recommandent donc plusieurs stratégies, à commencer par le maintien des amitiés nouées à l’étranger et la poursuite de la pratique linguistique acquise. Il ne s’agirait pas, disent-ils, de traiter cette expérience comme une parenthèse refermée, mais bien comme une étape qui continuerait, longtemps après le vol retour, à façonner une façon de voir le monde.\n\nCe qui ressort surtout de ces recherches, c’est que le retour ne doit pas être vécu comme un simple retour à la normale, mais comme une étape à part entière du parcours de mobilité. Les personnes qui avaient anticipé cette difficulté, ne serait-ce qu’en en discutant avant leur départ, semblent s’adapter, dans une certaine mesure, plus rapidement que celles qui pensaient que rien n’aurait vraiment changé entre-temps."
-    },
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Qui a décrit pour la première fois le « choc culturel inversé », et en quelle année ?",
-        "options": [
-          "John et Jeanne Gullahorn, en 1963",
-          "Kalervo Oberg, en 1990",
-          "Un ministère de l’Éducation, en 2000",
-          "Le texte ne précise pas de date"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment s’appelle le modèle en plusieurs phases décrit dans le texte ?",
-        "options": [
-          "La courbe en W",
-          "Le cercle vicieux",
-          "La spirale du silence",
-          "Le triangle de l’adaptation"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que découvre parfois un étudiant après une immersion linguistique prolongée, selon le texte ?",
-        "options": [
-          "Qu’il pense et réagit différemment, sans que son entourage le comprenne",
-          "Qu’il a totalement oublié sa langue maternelle",
-          "Qu’il préfère ne plus jamais voyager",
-          "Qu’il n’a rien appris pendant son séjour"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que révèlent les enquêtes menées auprès d’anciens participants à des programmes d’échange ?",
-        "options": [
-          "Plus l’immersion avait été intense, plus le retour se révélait difficile",
-          "Le retour est toujours plus facile que le départ",
-          "L’immersion linguistique n’a aucun effet sur le retour",
-          "Les échanges courts sont toujours plus difficiles à vivre"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que recommandent les services d’orientation universitaire pour atténuer ce choc ?",
-        "options": [
-          "Rompre tout contact avec l’étranger visité",
-          "Maintenir les amitiés nouées et poursuivre la pratique linguistique",
-          "Éviter d’en parler avant le départ",
-          "Refuser toute nouvelle mobilité à l’avenir"
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-la-rentree-universitaire-reading",
     "level": "C1",
     "skill": "reading",
@@ -1017,6 +927,96 @@
           "Suppression de toute distinction entre œuvre humaine et œuvre générée"
         ],
         "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « La machine peut-elle véritablement créer ? »."
+      }
+    ]
+  },
+  {
+    "slug": "french-b2-retour-a-saint-domingue-reading",
+    "level": "B2",
+    "skill": "reading",
+    "unitId": "retour-a-saint-domingue",
+    "title": "Le choc culturel du retour",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 35,
+    "orderIndex": 10,
+    "estimatedMinutes": 18,
+    "description": "Pourquoi revenir chez soi après un séjour à l’étranger peut être plus déstabilisant que le départ, selon les chercheurs en psychologie interculturelle.",
+    "intro": "Pourquoi revenir chez soi après un séjour à l’étranger peut être plus déstabilisant que le départ, selon les chercheurs en psychologie interculturelle.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "Le choc culturel du retour",
+      "parts": [
+        "En 1963, deux chercheurs américains, John et Jeanne Gullahorn, remarquent un phénomène que presque personne n’avait anticipé jusque-là : les étudiants qui revenaient d’un séjour à l’étranger souffraient souvent davantage que ceux qui venaient tout juste d’arriver dans un pays inconnu. Ils avaient pourtant préparé leur départ avec soin, lu des guides, appris quelques mots de la langue locale. Le retour, lui, ne se prépare presque jamais. C’est ce paradoxe, baptisé depuis « choc culturel inversé », que les spécialistes de la mobilité étudiante continuent d’étudier aujourd’hui.",
+        "Le modèle proposé par les Gullahorn, connu sous le nom de « courbe en W », décrit une adaptation en plusieurs phases : euphorie du départ, frustration, adaptation progressive à l’étranger, puis, au retour, une deuxième chute émotionnelle à laquelle presque personne ne s’attend. Un étudiant qui avait passé une année entière immergé dans une autre langue découvre parfois qu’il pense et réagit différemment, sans que son entourage ne comprenne immédiatement ce changement. Certains rapportent avoir eu l’impression, une fois rentrés, d’être devenus des étrangers dans leur propre quartier, alors même que rien, en apparence, n’avait bougé autour d’eux.",
+        "Les enquêtes menées auprès d’anciens participants à des programmes d’échange confirment ce constat : plus l’immersion avait été intense, plus le retour se révélait difficile à négocier. Les services d’orientation universitaire recommandent donc plusieurs stratégies, à commencer par le maintien des amitiés nouées à l’étranger et la poursuite de la pratique linguistique acquise. Il ne s’agirait pas, disent-ils, de traiter cette expérience comme une parenthèse refermée, mais bien comme une étape qui continuerait, longtemps après le vol retour, à façonner une façon de voir le monde.",
+        "Ce qui ressort surtout de ces recherches, c’est que le retour ne doit pas être vécu comme un simple retour à la normale, mais comme une étape à part entière du parcours de mobilité. Les personnes qui avaient anticipé cette difficulté, ne serait-ce qu’en en discutant avant leur départ, semblent s’adapter, dans une certaine mesure, plus rapidement que celles qui pensaient que rien n’aurait vraiment changé entre-temps."
+      ],
+      "questions": [
+        "Qui a décrit pour la première fois le « choc culturel inversé », et en quelle année ?",
+        "Comment s’appelle le modèle en plusieurs phases décrit dans le texte ?",
+        "Que découvre parfois un étudiant après une immersion linguistique prolongée, selon le texte ?",
+        "Que révèlent les enquêtes menées auprès d’anciens participants à des programmes d’échange ?",
+        "Que recommandent les services d’orientation universitaire pour atténuer ce choc ?"
+      ],
+      "text": "En 1963, deux chercheurs américains, John et Jeanne Gullahorn, remarquent un phénomène que presque personne n’avait anticipé jusque-là : les étudiants qui revenaient d’un séjour à l’étranger souffraient souvent davantage que ceux qui venaient tout juste d’arriver dans un pays inconnu. Ils avaient pourtant préparé leur départ avec soin, lu des guides, appris quelques mots de la langue locale. Le retour, lui, ne se prépare presque jamais. C’est ce paradoxe, baptisé depuis « choc culturel inversé », que les spécialistes de la mobilité étudiante continuent d’étudier aujourd’hui.\n\nLe modèle proposé par les Gullahorn, connu sous le nom de « courbe en W », décrit une adaptation en plusieurs phases : euphorie du départ, frustration, adaptation progressive à l’étranger, puis, au retour, une deuxième chute émotionnelle à laquelle presque personne ne s’attend. Un étudiant qui avait passé une année entière immergé dans une autre langue découvre parfois qu’il pense et réagit différemment, sans que son entourage ne comprenne immédiatement ce changement. Certains rapportent avoir eu l’impression, une fois rentrés, d’être devenus des étrangers dans leur propre quartier, alors même que rien, en apparence, n’avait bougé autour d’eux.\n\nLes enquêtes menées auprès d’anciens participants à des programmes d’échange confirment ce constat : plus l’immersion avait été intense, plus le retour se révélait difficile à négocier. Les services d’orientation universitaire recommandent donc plusieurs stratégies, à commencer par le maintien des amitiés nouées à l’étranger et la poursuite de la pratique linguistique acquise. Il ne s’agirait pas, disent-ils, de traiter cette expérience comme une parenthèse refermée, mais bien comme une étape qui continuerait, longtemps après le vol retour, à façonner une façon de voir le monde.\n\nCe qui ressort surtout de ces recherches, c’est que le retour ne doit pas être vécu comme un simple retour à la normale, mais comme une étape à part entière du parcours de mobilité. Les personnes qui avaient anticipé cette difficulté, ne serait-ce qu’en en discutant avant leur départ, semblent s’adapter, dans une certaine mesure, plus rapidement que celles qui pensaient que rien n’aurait vraiment changé entre-temps."
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Qui a décrit pour la première fois le « choc culturel inversé », et en quelle année ?",
+        "options": [
+          "John et Jeanne Gullahorn, en 1963",
+          "Kalervo Oberg, en 1990",
+          "Un ministère de l’Éducation, en 2000",
+          "Le texte ne précise pas de date"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Comment s’appelle le modèle en plusieurs phases décrit dans le texte ?",
+        "options": [
+          "La courbe en W",
+          "Le cercle vicieux",
+          "La spirale du silence",
+          "Le triangle de l’adaptation"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que découvre parfois un étudiant après une immersion linguistique prolongée, selon le texte ?",
+        "options": [
+          "Qu’il pense et réagit différemment, sans que son entourage le comprenne",
+          "Qu’il a totalement oublié sa langue maternelle",
+          "Qu’il préfère ne plus jamais voyager",
+          "Qu’il n’a rien appris pendant son séjour"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que révèlent les enquêtes menées auprès d’anciens participants à des programmes d’échange ?",
+        "options": [
+          "Plus l’immersion avait été intense, plus le retour se révélait difficile",
+          "Le retour est toujours plus facile que le départ",
+          "L’immersion linguistique n’a aucun effet sur le retour",
+          "Les échanges courts sont toujours plus difficiles à vivre"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que recommandent les services d’orientation universitaire pour atténuer ce choc ?",
+        "options": [
+          "Rompre tout contact avec l’étranger visité",
+          "Maintenir les amitiés nouées et poursuivre la pratique linguistique",
+          "Éviter d’en parler avant le départ",
+          "Refuser toute nouvelle mobilité à l’avenir"
+        ]
       }
     ]
   },
@@ -1742,256 +1742,6 @@
     ]
   },
   {
-    "slug": "french-b2-retour-a-saint-domingue-listening",
-    "level": "B2",
-    "skill": "listening",
-    "unitId": "retour-a-saint-domingue",
-    "title": "Le retour que j’avais imaginé",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 35,
-    "orderIndex": 11,
-    "estimatedMinutes": 14,
-    "description": "Écoute ce contenu de niveau B2 et identifie les idées, les nuances et les preuves.",
-    "intro": "Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [
-      "On pense souvent que...",
-      "Contrairement à...",
-      "Ce qui rend ce moment si...",
-      "On a l’impression que..."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange inquiétude. J’avais imaginé ces retrouvailles pendant des mois. Ma famille avait préparé un repas, mes amis avaient organisé une surprise et j’avais même dressé la liste des lieux que je voulais revoir. Pourtant, dès les premiers jours, j’ai compris que le retour ne serait pas aussi simple. J’avais changé pendant mon séjour à l’étranger, tandis que la vie ici avait continué sans moi. Certaines habitudes m’avaient manqué, comme les conversations animées de ma famille, mais d’autres me semblaient désormais moins naturelles. Je me sentais ambivalente : heureuse d’être chez moi et nostalgique de la vie que j’avais construite ailleurs. Ce mal du pays inversé m’a obligée à m’adapter une nouvelle fois. Peu à peu, j’ai cessé de comparer chaque détail. J’ai compris que rentrer ne signifiait pas redevenir exactement la personne que j’avais été. Mes expériences s’étaient ajoutées les unes aux autres et formaient maintenant une identité plus large.",
-    "extra": {
-      "listeningType": "monologue",
-      "listeningFormat": "testimony",
-      "storyTitle": "Le retour que j’avais imaginé",
-      "mainTranscript": "Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange inquiétude. J’avais imaginé ces retrouvailles pendant des mois. Ma famille avait préparé un repas, mes amis avaient organisé une surprise et j’avais même dressé la liste des lieux que je voulais revoir. Pourtant, dès les premiers jours, j’ai compris que le retour ne serait pas aussi simple. J’avais changé pendant mon séjour à l’étranger, tandis que la vie ici avait continué sans moi. Certaines habitudes m’avaient manqué, comme les conversations animées de ma famille, mais d’autres me semblaient désormais moins naturelles. Je me sentais ambivalente : heureuse d’être chez moi et nostalgique de la vie que j’avais construite ailleurs. Ce mal du pays inversé m’a obligée à m’adapter une nouvelle fois. Peu à peu, j’ai cessé de comparer chaque détail. J’ai compris que rentrer ne signifiait pas redevenir exactement la personne que j’avais été. Mes expériences s’étaient ajoutées les unes aux autres et formaient maintenant une identité plus large.",
-      "transcriptSegments": [
-        {
-          "id": "segment-01",
-          "order": 1,
-          "text": "Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange inquiétude."
-        },
-        {
-          "id": "segment-02",
-          "order": 2,
-          "text": "J’avais imaginé ces retrouvailles pendant des mois."
-        },
-        {
-          "id": "segment-03",
-          "order": 3,
-          "text": "Ma famille avait préparé un repas, mes amis avaient organisé une surprise et j’avais même dressé la liste des lieux que je voulais revoir."
-        },
-        {
-          "id": "segment-04",
-          "order": 4,
-          "text": "Pourtant, dès les premiers jours, j’ai compris que le retour ne serait pas aussi simple."
-        },
-        {
-          "id": "segment-05",
-          "order": 5,
-          "text": "J’avais changé pendant mon séjour à l’étranger, tandis que la vie ici avait continué sans moi."
-        },
-        {
-          "id": "segment-06",
-          "order": 6,
-          "text": "Certaines habitudes m’avaient manqué, comme les conversations animées de ma famille, mais d’autres me semblaient désormais moins naturelles."
-        },
-        {
-          "id": "segment-07",
-          "order": 7,
-          "text": "Je me sentais ambivalente : heureuse d’être chez moi et nostalgique de la vie que j’avais construite ailleurs."
-        },
-        {
-          "id": "segment-08",
-          "order": 8,
-          "text": "Ce mal du pays inversé m’a obligée à m’adapter une nouvelle fois."
-        },
-        {
-          "id": "segment-09",
-          "order": 9,
-          "text": "Peu à peu, j’ai cessé de comparer chaque détail."
-        },
-        {
-          "id": "segment-10",
-          "order": 10,
-          "text": "J’ai compris que rentrer ne signifiait pas redevenir exactement la personne que j’avais été."
-        },
-        {
-          "id": "segment-11",
-          "order": 11,
-          "text": "Mes expériences s’étaient ajoutées les unes aux autres et formaient maintenant une identité plus large."
-        }
-      ],
-      "difficulty": "B2",
-      "durationSeconds": 85,
-      "speakers": [
-        "Animatrice",
-        "Invité"
-      ],
-      "phoneticSupport": {
-        "enabled": true,
-        "locale": "fr-FR",
-        "focus": "Marque les groupes rythmiques et les mots de contraste. Fais entendre la différence entre une affirmation ferme et une conclusion nuancée.",
-        "segments": [],
-        "stressedWords": [
-          "établi",
-          "inférer",
-          "objection",
-          "réviser"
-        ],
-        "difficultSounds": [],
-        "reviewStatus": "verified"
-      },
-      "listeningComprehension": {
-        "id": "french-b2-retour-a-saint-domingue-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Dans « Le retour que j’avais imaginé », quel détail présente la situation ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange inquiétude."
-              },
-              {
-                "id": "o2",
-                "text": "Pourtant, dès les premiers jours, j’ai compris que le retour ne serait pas aussi simple."
-              },
-              {
-                "id": "o3",
-                "text": "Ce mal du pays inversé m’a obligée à m’adapter une nouvelle fois."
-              },
-              {
-                "id": "o4",
-                "text": "Mes expériences s’étaient ajoutées les unes aux autres et formaient maintenant une identité plus large."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Après « Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie… », que se passe-t-il ensuite dans « Le retour que j’avais imaginé » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange inquiétude."
-              },
-              {
-                "id": "o2",
-                "text": "Pourtant, dès les premiers jours, j’ai compris que le retour ne serait pas aussi simple."
-              },
-              {
-                "id": "o3",
-                "text": "Ce mal du pays inversé m’a obligée à m’adapter une nouvelle fois."
-              },
-              {
-                "id": "o4",
-                "text": "Mes expériences s’étaient ajoutées les unes aux autres et formaient maintenant une identité plus large."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Le retour que j’avais imaginé » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange inquiétude."
-              },
-              {
-                "id": "o2",
-                "text": "Pourtant, dès les premiers jours, j’ai compris que le retour ne serait pas aussi simple."
-              },
-              {
-                "id": "o3",
-                "text": "Ce mal du pays inversé m’a obligée à m’adapter une nouvelle fois."
-              },
-              {
-                "id": "o4",
-                "text": "Mes expériences s’étaient ajoutées les unes aux autres et formaient maintenant une identité plus large."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Quel résultat conclut « Le retour que j’avais imaginé » après « Ce mal du pays inversé m’a obligée à m’adapter une nouvelle fois. » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange inquiétude."
-              },
-              {
-                "id": "o2",
-                "text": "Pourtant, dès les premiers jours, j’ai compris que le retour ne serait pas aussi simple."
-              },
-              {
-                "id": "o3",
-                "text": "Ce mal du pays inversé m’a obligée à m’adapter une nouvelle fois."
-              },
-              {
-                "id": "o4",
-                "text": "Mes expériences s’étaient ajoutées les unes aux autres et formaient maintenant une identité plus large."
-              }
-            ]
-          }
-        ]
-      },
-      "grammarTest": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Dans « Le retour que j’avais imaginé », quel détail présente la situation ?",
-        "options": [
-          "Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange inquiétude.",
-          "Pourtant, dès les premiers jours, j’ai compris que le retour ne serait pas aussi simple.",
-          "Ce mal du pays inversé m’a obligée à m’adapter une nouvelle fois.",
-          "Mes expériences s’étaient ajoutées les unes aux autres et formaient maintenant une identité plus large."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Après « Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie… », que se passe-t-il ensuite dans « Le retour que j’avais imaginé » ?",
-        "options": [
-          "Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange inquiétude.",
-          "Pourtant, dès les premiers jours, j’ai compris que le retour ne serait pas aussi simple.",
-          "Ce mal du pays inversé m’a obligée à m’adapter une nouvelle fois.",
-          "Mes expériences s’étaient ajoutées les unes aux autres et formaient maintenant une identité plus large."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Le retour que j’avais imaginé » ?",
-        "options": [
-          "Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange inquiétude.",
-          "Pourtant, dès les premiers jours, j’ai compris que le retour ne serait pas aussi simple.",
-          "Ce mal du pays inversé m’a obligée à m’adapter une nouvelle fois.",
-          "Mes expériences s’étaient ajoutées les unes aux autres et formaient maintenant une identité plus large."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel résultat conclut « Le retour que j’avais imaginé » après « Ce mal du pays inversé m’a obligée à m’adapter une nouvelle fois. » ?",
-        "options": [
-          "Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange inquiétude.",
-          "Pourtant, dès les premiers jours, j’ai compris que le retour ne serait pas aussi simple.",
-          "Ce mal du pays inversé m’a obligée à m’adapter une nouvelle fois.",
-          "Mes expériences s’étaient ajoutées les unes aux autres et formaient maintenant une identité plus large."
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-la-rentree-universitaire-listening",
     "level": "C1",
     "skill": "listening",
@@ -2509,6 +2259,256 @@
     ]
   },
   {
+    "slug": "french-b2-retour-a-saint-domingue-listening",
+    "level": "B2",
+    "skill": "listening",
+    "unitId": "retour-a-saint-domingue",
+    "title": "Le retour que j’avais imaginé",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 35,
+    "orderIndex": 11,
+    "estimatedMinutes": 14,
+    "description": "Écoute ce contenu de niveau B2 et identifie les idées, les nuances et les preuves.",
+    "intro": "Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "On pense souvent que...",
+      "Contrairement à...",
+      "Ce qui rend ce moment si...",
+      "On a l’impression que..."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange inquiétude. J’avais imaginé ces retrouvailles pendant des mois. Ma famille avait préparé un repas, mes amis avaient organisé une surprise et j’avais même dressé la liste des lieux que je voulais revoir. Pourtant, dès les premiers jours, j’ai compris que le retour ne serait pas aussi simple. J’avais changé pendant mon séjour à l’étranger, tandis que la vie ici avait continué sans moi. Certaines habitudes m’avaient manqué, comme les conversations animées de ma famille, mais d’autres me semblaient désormais moins naturelles. Je me sentais ambivalente : heureuse d’être chez moi et nostalgique de la vie que j’avais construite ailleurs. Ce mal du pays inversé m’a obligée à m’adapter une nouvelle fois. Peu à peu, j’ai cessé de comparer chaque détail. J’ai compris que rentrer ne signifiait pas redevenir exactement la personne que j’avais été. Mes expériences s’étaient ajoutées les unes aux autres et formaient maintenant une identité plus large.",
+    "extra": {
+      "listeningType": "monologue",
+      "listeningFormat": "testimony",
+      "storyTitle": "Le retour que j’avais imaginé",
+      "mainTranscript": "Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange inquiétude. J’avais imaginé ces retrouvailles pendant des mois. Ma famille avait préparé un repas, mes amis avaient organisé une surprise et j’avais même dressé la liste des lieux que je voulais revoir. Pourtant, dès les premiers jours, j’ai compris que le retour ne serait pas aussi simple. J’avais changé pendant mon séjour à l’étranger, tandis que la vie ici avait continué sans moi. Certaines habitudes m’avaient manqué, comme les conversations animées de ma famille, mais d’autres me semblaient désormais moins naturelles. Je me sentais ambivalente : heureuse d’être chez moi et nostalgique de la vie que j’avais construite ailleurs. Ce mal du pays inversé m’a obligée à m’adapter une nouvelle fois. Peu à peu, j’ai cessé de comparer chaque détail. J’ai compris que rentrer ne signifiait pas redevenir exactement la personne que j’avais été. Mes expériences s’étaient ajoutées les unes aux autres et formaient maintenant une identité plus large.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange inquiétude."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "J’avais imaginé ces retrouvailles pendant des mois."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Ma famille avait préparé un repas, mes amis avaient organisé une surprise et j’avais même dressé la liste des lieux que je voulais revoir."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "Pourtant, dès les premiers jours, j’ai compris que le retour ne serait pas aussi simple."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "J’avais changé pendant mon séjour à l’étranger, tandis que la vie ici avait continué sans moi."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Certaines habitudes m’avaient manqué, comme les conversations animées de ma famille, mais d’autres me semblaient désormais moins naturelles."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Je me sentais ambivalente : heureuse d’être chez moi et nostalgique de la vie que j’avais construite ailleurs."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Ce mal du pays inversé m’a obligée à m’adapter une nouvelle fois."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Peu à peu, j’ai cessé de comparer chaque détail."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "J’ai compris que rentrer ne signifiait pas redevenir exactement la personne que j’avais été."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Mes expériences s’étaient ajoutées les unes aux autres et formaient maintenant une identité plus large."
+        }
+      ],
+      "difficulty": "B2",
+      "durationSeconds": 85,
+      "speakers": [
+        "Animatrice",
+        "Invité"
+      ],
+      "phoneticSupport": {
+        "enabled": true,
+        "locale": "fr-FR",
+        "focus": "Marque les groupes rythmiques et les mots de contraste. Fais entendre la différence entre une affirmation ferme et une conclusion nuancée.",
+        "segments": [],
+        "stressedWords": [
+          "établi",
+          "inférer",
+          "objection",
+          "réviser"
+        ],
+        "difficultSounds": [],
+        "reviewStatus": "verified"
+      },
+      "listeningComprehension": {
+        "id": "french-b2-retour-a-saint-domingue-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Dans « Le retour que j’avais imaginé », quel détail présente la situation ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange inquiétude."
+              },
+              {
+                "id": "o2",
+                "text": "Pourtant, dès les premiers jours, j’ai compris que le retour ne serait pas aussi simple."
+              },
+              {
+                "id": "o3",
+                "text": "Ce mal du pays inversé m’a obligée à m’adapter une nouvelle fois."
+              },
+              {
+                "id": "o4",
+                "text": "Mes expériences s’étaient ajoutées les unes aux autres et formaient maintenant une identité plus large."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Après « Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie… », que se passe-t-il ensuite dans « Le retour que j’avais imaginé » ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange inquiétude."
+              },
+              {
+                "id": "o2",
+                "text": "Pourtant, dès les premiers jours, j’ai compris que le retour ne serait pas aussi simple."
+              },
+              {
+                "id": "o3",
+                "text": "Ce mal du pays inversé m’a obligée à m’adapter une nouvelle fois."
+              },
+              {
+                "id": "o4",
+                "text": "Mes expériences s’étaient ajoutées les unes aux autres et formaient maintenant une identité plus large."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Le retour que j’avais imaginé » ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange inquiétude."
+              },
+              {
+                "id": "o2",
+                "text": "Pourtant, dès les premiers jours, j’ai compris que le retour ne serait pas aussi simple."
+              },
+              {
+                "id": "o3",
+                "text": "Ce mal du pays inversé m’a obligée à m’adapter une nouvelle fois."
+              },
+              {
+                "id": "o4",
+                "text": "Mes expériences s’étaient ajoutées les unes aux autres et formaient maintenant une identité plus large."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quel résultat conclut « Le retour que j’avais imaginé » après « Ce mal du pays inversé m’a obligée à m’adapter une nouvelle fois. » ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange inquiétude."
+              },
+              {
+                "id": "o2",
+                "text": "Pourtant, dès les premiers jours, j’ai compris que le retour ne serait pas aussi simple."
+              },
+              {
+                "id": "o3",
+                "text": "Ce mal du pays inversé m’a obligée à m’adapter une nouvelle fois."
+              },
+              {
+                "id": "o4",
+                "text": "Mes expériences s’étaient ajoutées les unes aux autres et formaient maintenant une identité plus large."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Dans « Le retour que j’avais imaginé », quel détail présente la situation ?",
+        "options": [
+          "Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange inquiétude.",
+          "Pourtant, dès les premiers jours, j’ai compris que le retour ne serait pas aussi simple.",
+          "Ce mal du pays inversé m’a obligée à m’adapter une nouvelle fois.",
+          "Mes expériences s’étaient ajoutées les unes aux autres et formaient maintenant une identité plus large."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Après « Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie… », que se passe-t-il ensuite dans « Le retour que j’avais imaginé » ?",
+        "options": [
+          "Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange inquiétude.",
+          "Pourtant, dès les premiers jours, j’ai compris que le retour ne serait pas aussi simple.",
+          "Ce mal du pays inversé m’a obligée à m’adapter une nouvelle fois.",
+          "Mes expériences s’étaient ajoutées les unes aux autres et formaient maintenant une identité plus large."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Le retour que j’avais imaginé » ?",
+        "options": [
+          "Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange inquiétude.",
+          "Pourtant, dès les premiers jours, j’ai compris que le retour ne serait pas aussi simple.",
+          "Ce mal du pays inversé m’a obligée à m’adapter une nouvelle fois.",
+          "Mes expériences s’étaient ajoutées les unes aux autres et formaient maintenant une identité plus large."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quel résultat conclut « Le retour que j’avais imaginé » après « Ce mal du pays inversé m’a obligée à m’adapter une nouvelle fois. » ?",
+        "options": [
+          "Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange inquiétude.",
+          "Pourtant, dès les premiers jours, j’ai compris que le retour ne serait pas aussi simple.",
+          "Ce mal du pays inversé m’a obligée à m’adapter une nouvelle fois.",
+          "Mes expériences s’étaient ajoutées les unes aux autres et formaient maintenant une identité plus large."
+        ]
+      }
+    ]
+  },
+  {
     "slug": "french-a1-bonjour-et-bienvenue-speaking",
     "level": "A1",
     "skill": "speaking",
@@ -2674,67 +2674,6 @@
     ]
   },
   {
-    "slug": "french-b2-retour-a-saint-domingue-speaking",
-    "level": "B2",
-    "skill": "speaking",
-    "unitId": "retour-a-saint-domingue",
-    "title": "Décrire un retour ambivalent",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 12,
-    "estimatedMinutes": 14,
-    "description": "Décris un sentiment ambivalent à propos d’un retour ou d’un changement de vie.",
-    "intro": "Décris un sentiment ambivalent à propos d’un retour ou d’un changement de vie.",
-    "mission": "Décris une situation (réelle ou imaginaire) où tu es retourné(e) quelque part après une longue absence, en exprimant des sentiments contradictoires avec nuance.",
-    "grammar": "",
-    "phrases": [
-      "D’un côté... de l’autre côté...",
-      "J’ai le sentiment de...",
-      "Ambivalent(e)...",
-      "Ce qui m’a surpris, c’est..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Modèle",
-        "line": "D’un côté, j’étais heureux/heureuse de retrouver ma famille. De l’autre, j’avais le sentiment étrange d’avoir changé plus que prévu.",
-        "translation": "Por un lado, estaba feliz de reencontrarme con mi familia. Por otro, tenía la extraña sensación de haber cambiado más de lo esperado."
-      }
-    ],
-    "reading": null,
-    "transcript": "Modèle : D’un côté, j’étais heureux/heureuse de retrouver ma famille. De l’autre, j’avais le sentiment étrange d’avoir changé plus que prévu.",
-    "extra": {
-      "communicationGuide": {
-        "steps": [
-          "Enregistre une première réponse sans lire un texte complet.",
-          "Utilise la transcription vocale pour vérifier ce qui a été compris.",
-          "Demande au Tuteur IA un retour sur la clarté, les preuves et le registre.",
-          "Enregistre une seconde version et compare fluidité et prononciation."
-        ],
-        "premiumMode": "Conversation libre avec le Tuteur IA",
-        "pronunciationTargets": [
-          "groupes rythmiques",
-          "mise en relief",
-          "enchaînements",
-          "intonation nuancée"
-        ]
-      },
-      "grammarTest": null,
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Présente un sentiment ambivalent sur un retour ou un changement, avec au moins deux nuances opposées."
-      },
-      {
-        "type": "practice",
-        "prompt": "Avec un/une camarade, discutez d’une expérience où vous vous êtes senti(e) « entre deux mondes »."
-      }
-    ]
-  },
-  {
     "slug": "french-c1-la-rentree-universitaire-speaking",
     "level": "C1",
     "skill": "speaking",
@@ -2885,6 +2824,67 @@
     ]
   },
   {
+    "slug": "french-b2-retour-a-saint-domingue-speaking",
+    "level": "B2",
+    "skill": "speaking",
+    "unitId": "retour-a-saint-domingue",
+    "title": "Décrire un retour ambivalent",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 12,
+    "estimatedMinutes": 14,
+    "description": "Décris un sentiment ambivalent à propos d’un retour ou d’un changement de vie.",
+    "intro": "Décris un sentiment ambivalent à propos d’un retour ou d’un changement de vie.",
+    "mission": "Décris une situation (réelle ou imaginaire) où tu es retourné(e) quelque part après une longue absence, en exprimant des sentiments contradictoires avec nuance.",
+    "grammar": "",
+    "phrases": [
+      "D’un côté... de l’autre côté...",
+      "J’ai le sentiment de...",
+      "Ambivalent(e)...",
+      "Ce qui m’a surpris, c’est..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Modèle",
+        "line": "D’un côté, j’étais heureux/heureuse de retrouver ma famille. De l’autre, j’avais le sentiment étrange d’avoir changé plus que prévu.",
+        "translation": "Por un lado, estaba feliz de reencontrarme con mi familia. Por otro, tenía la extraña sensación de haber cambiado más de lo esperado."
+      }
+    ],
+    "reading": null,
+    "transcript": "Modèle : D’un côté, j’étais heureux/heureuse de retrouver ma famille. De l’autre, j’avais le sentiment étrange d’avoir changé plus que prévu.",
+    "extra": {
+      "communicationGuide": {
+        "steps": [
+          "Enregistre une première réponse sans lire un texte complet.",
+          "Utilise la transcription vocale pour vérifier ce qui a été compris.",
+          "Demande au Tuteur IA un retour sur la clarté, les preuves et le registre.",
+          "Enregistre une seconde version et compare fluidité et prononciation."
+        ],
+        "premiumMode": "Conversation libre avec le Tuteur IA",
+        "pronunciationTargets": [
+          "groupes rythmiques",
+          "mise en relief",
+          "enchaînements",
+          "intonation nuancée"
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Présente un sentiment ambivalent sur un retour ou un changement, avec au moins deux nuances opposées."
+      },
+      {
+        "type": "practice",
+        "prompt": "Avec un/une camarade, discutez d’une expérience où vous vous êtes senti(e) « entre deux mondes »."
+      }
+    ]
+  },
+  {
     "slug": "french-a1-bonjour-et-bienvenue-writing",
     "level": "A1",
     "skill": "writing",
@@ -3001,64 +3001,6 @@
     ]
   },
   {
-    "slug": "french-b2-retour-a-saint-domingue-writing",
-    "level": "B2",
-    "skill": "writing",
-    "unitId": "retour-a-saint-domingue",
-    "title": "Un journal de retour",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 35,
-    "orderIndex": 13,
-    "estimatedMinutes": 18,
-    "description": "Écris une entrée de journal sur un retour chargé d’émotions contradictoires.",
-    "intro": "Écris une entrée de journal sur un retour chargé d’émotions contradictoires.",
-    "mission": "Écris 180 à 220 mots sous forme d’entrée de journal intime décrivant un retour (réel ou imaginaire) après une longue absence, avec des émotions nuancées.",
-    "grammar": "",
-    "phrases": [
-      "J’ai le sentiment de...",
-      "D’un côté... de l’autre côté...",
-      "Je ne m’attendais pas à...",
-      "Il me faudra du temps pour..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Modèle",
-        "line": "Aujourd’hui, je suis enfin rentré(e) chez moi après un an d’absence. J’ai le sentiment d’être à la fois exactement à ma place et complètement étranger/étrangère. Il me faudra du temps pour réapprendre à habiter cette vie que j’avais quittée.",
-        "translation": "Hoy por fin volví a casa después de un año de ausencia. Tengo la sensación de estar exactamente en mi lugar y a la vez completamente extraño/a. Necesitaré tiempo para volver a habitar esta vida que había dejado."
-      }
-    ],
-    "reading": null,
-    "transcript": "Modèle : Aujourd’hui, je suis enfin rentré(e) chez moi après un an d’absence. J’ai le sentiment d’être à la fois exactement à ma place et complètement étranger/étrangère. Il me faudra du temps pour réapprendre à habiter cette vie que j’avais quittée.",
-    "extra": {
-      "writingGuide": {
-        "taskType": "texte argumentatif structuré",
-        "steps": [
-          "Délimite la question et rédige une thèse en une phrase.",
-          "Choisis deux preuves ou exemples et explique leur pertinence.",
-          "Présente loyalement l’objection la plus solide.",
-          "Réponds sans exagérer la portée des preuves.",
-          "Révise la cohésion, la grammaire, le registre et la conclusion."
-        ],
-        "checklist": [
-          "Utilise au moins deux termes de l’unité : les retrouvailles, le mal du pays, ambivalent(e).",
-          "Emploie correctement plus-que-parfait au moins une fois.",
-          "Distingue preuve, inférence et jugement.",
-          "Vérifie les liens entre les paragraphes et supprime les affirmations absolues non justifiées."
-        ]
-      },
-      "grammarTest": null,
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "writing",
-        "prompt": "Écris une entrée de journal de 180 à 220 mots sur un retour ambivalent, avec au moins une phrase au plus-que-parfait."
-      }
-    ]
-  },
-  {
     "slug": "french-c1-la-rentree-universitaire-writing",
     "level": "C1",
     "skill": "writing",
@@ -3171,6 +3113,64 @@
       {
         "type": "writing",
         "prompt": "Rédige 300–350 mots. Avant l’envoi, vérifie la présence d’une thèse, de deux arguments développés, d’une objection et d’une conclusion nuancée."
+      }
+    ]
+  },
+  {
+    "slug": "french-b2-retour-a-saint-domingue-writing",
+    "level": "B2",
+    "skill": "writing",
+    "unitId": "retour-a-saint-domingue",
+    "title": "Un journal de retour",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 35,
+    "orderIndex": 13,
+    "estimatedMinutes": 18,
+    "description": "Écris une entrée de journal sur un retour chargé d’émotions contradictoires.",
+    "intro": "Écris une entrée de journal sur un retour chargé d’émotions contradictoires.",
+    "mission": "Écris 180 à 220 mots sous forme d’entrée de journal intime décrivant un retour (réel ou imaginaire) après une longue absence, avec des émotions nuancées.",
+    "grammar": "",
+    "phrases": [
+      "J’ai le sentiment de...",
+      "D’un côté... de l’autre côté...",
+      "Je ne m’attendais pas à...",
+      "Il me faudra du temps pour..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Modèle",
+        "line": "Aujourd’hui, je suis enfin rentré(e) chez moi après un an d’absence. J’ai le sentiment d’être à la fois exactement à ma place et complètement étranger/étrangère. Il me faudra du temps pour réapprendre à habiter cette vie que j’avais quittée.",
+        "translation": "Hoy por fin volví a casa después de un año de ausencia. Tengo la sensación de estar exactamente en mi lugar y a la vez completamente extraño/a. Necesitaré tiempo para volver a habitar esta vida que había dejado."
+      }
+    ],
+    "reading": null,
+    "transcript": "Modèle : Aujourd’hui, je suis enfin rentré(e) chez moi après un an d’absence. J’ai le sentiment d’être à la fois exactement à ma place et complètement étranger/étrangère. Il me faudra du temps pour réapprendre à habiter cette vie que j’avais quittée.",
+    "extra": {
+      "writingGuide": {
+        "taskType": "texte argumentatif structuré",
+        "steps": [
+          "Délimite la question et rédige une thèse en une phrase.",
+          "Choisis deux preuves ou exemples et explique leur pertinence.",
+          "Présente loyalement l’objection la plus solide.",
+          "Réponds sans exagérer la portée des preuves.",
+          "Révise la cohésion, la grammaire, le registre et la conclusion."
+        ],
+        "checklist": [
+          "Utilise au moins deux termes de l’unité : les retrouvailles, le mal du pays, ambivalent(e).",
+          "Emploie correctement plus-que-parfait au moins une fois.",
+          "Distingue preuve, inférence et jugement.",
+          "Vérifie les liens entre les paragraphes et supprime les affirmations absolues non justifiées."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Écris une entrée de journal de 180 à 220 mots sur un retour ambivalent, avec au moins une phrase au plus-que-parfait."
       }
     ]
   },
@@ -4020,287 +4020,6 @@
     ]
   },
   {
-    "slug": "french-b2-retour-a-saint-domingue-grammar",
-    "level": "B2",
-    "skill": "grammar",
-    "unitId": "retour-a-saint-domingue",
-    "title": "Le plus-que-parfait",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 14,
-    "estimatedMinutes": 14,
-    "description": "Situer un événement antérieur à un autre moment du passé.",
-    "intro": "Situer un événement antérieur à un autre moment du passé.",
-    "mission": "",
-    "grammar": "Le plus-que-parfait se forme avec avoir/être à l’imparfait + participe passé : « J’avais oublié à quel point il faisait chaud. Elle était partie un an plus tôt. » Il exprime une action antérieure à une autre action passée, souvent racontée au passé composé ou à l’imparfait : « Elle comprit ce que son amie avait voulu dire. »",
-    "phrases": [
-      "J’avais oublié que...",
-      "Elle était partie...",
-      "Nous avions déjà...",
-      "Il n’avait pas anticipé que..."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "grammarTest": {
-        "id": "french-b2-retour-a-saint-domingue-grammar-test",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "french-b2-retour-a-saint-domingue-grammar-q1",
-            "type": "mcq",
-            "prompt": "Elle ___ presque oublié la chaleur de Saint-Domingue.",
-            "difficulty": "application",
-            "options": [
-              {
-                "id": "b",
-                "text": "avait"
-              },
-              {
-                "id": "a",
-                "text": "a"
-              },
-              {
-                "id": "c",
-                "text": "ait"
-              },
-              {
-                "id": "d",
-                "text": "aura"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-retour-a-saint-domingue-grammar-q2",
-            "type": "mcq",
-            "prompt": "Elle ___ un an plus tôt, pleine d’appréhension.",
-            "difficulty": "application",
-            "options": [
-              {
-                "id": "b",
-                "text": "est partie"
-              },
-              {
-                "id": "a",
-                "text": "était partie"
-              },
-              {
-                "id": "c",
-                "text": "partait"
-              },
-              {
-                "id": "d",
-                "text": "sera partie"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-retour-a-saint-domingue-grammar-q3",
-            "type": "mcq",
-            "prompt": "Elle n’___ pas anticipé que le retour serait difficile.",
-            "difficulty": "analysis",
-            "options": [
-              {
-                "id": "a",
-                "text": "a"
-              },
-              {
-                "id": "c",
-                "text": "ait"
-              },
-              {
-                "id": "b",
-                "text": "avait"
-              },
-              {
-                "id": "d",
-                "text": "aurait"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-retour-a-saint-domingue-grammar-q4",
-            "type": "mcq",
-            "prompt": "Quelle structure forme le plus-que-parfait ?",
-            "difficulty": "analysis",
-            "options": [
-              {
-                "id": "a",
-                "text": "Avoir/être au présent + participe passé"
-              },
-              {
-                "id": "c",
-                "text": "Avoir au futur + infinitif"
-              },
-              {
-                "id": "d",
-                "text": "Être au conditionnel + gérondif"
-              },
-              {
-                "id": "b",
-                "text": "Avoir/être à l’imparfait + participe passé"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-retour-a-saint-domingue-grammar-q5",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Elle a presque oublié la chaleur de Saint-Domingue. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "b",
-                "text": "Elle avait presque oublié la chaleur de Saint-Domingue."
-              },
-              {
-                "id": "a",
-                "text": "Elle a presque oublié la chaleur de Saint-Domingue."
-              },
-              {
-                "id": "c",
-                "text": "Elle ait presque oublié la chaleur de Saint-Domingue."
-              },
-              {
-                "id": "d",
-                "text": "Elle aura presque oublié la chaleur de Saint-Domingue."
-              }
-            ]
-          },
-          {
-            "id": "french-b2-retour-a-saint-domingue-grammar-q6",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Elle est partie un an plus tôt, pleine d’appréhension. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "b",
-                "text": "Elle est partie un an plus tôt, pleine d’appréhension."
-              },
-              {
-                "id": "a",
-                "text": "Elle était partie un an plus tôt, pleine d’appréhension."
-              },
-              {
-                "id": "c",
-                "text": "Elle partait un an plus tôt, pleine d’appréhension."
-              },
-              {
-                "id": "d",
-                "text": "Elle sera partie un an plus tôt, pleine d’appréhension."
-              }
-            ]
-          },
-          {
-            "id": "french-b2-retour-a-saint-domingue-grammar-q7",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Elle n’a pas anticipé que le retour serait difficile. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Elle n’a pas anticipé que le retour serait difficile."
-              },
-              {
-                "id": "c",
-                "text": "Elle n’ait pas anticipé que le retour serait difficile."
-              },
-              {
-                "id": "b",
-                "text": "Elle n’avait pas anticipé que le retour serait difficile."
-              },
-              {
-                "id": "d",
-                "text": "Elle n’aurait pas anticipé que le retour serait difficile."
-              }
-            ]
-          },
-          {
-            "id": "french-b2-retour-a-saint-domingue-grammar-q8",
-            "type": "mcq",
-            "prompt": "Quelle réponse corrige l’erreur « Avoir/être au présent + participe passé » dans ce contexte : « Quelle structure forme le plus-que-parfait ? » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Avoir/être au présent + participe passé"
-              },
-              {
-                "id": "c",
-                "text": "Avoir au futur + infinitif"
-              },
-              {
-                "id": "d",
-                "text": "Être au conditionnel + gérondif"
-              },
-              {
-                "id": "b",
-                "text": "Avoir/être à l’imparfait + participe passé"
-              }
-            ]
-          }
-        ]
-      },
-      "grammarProfile": {
-        "name": "Le plus-que-parfait",
-        "definition": "Le plus-que-parfait se forme avec avoir/être à l’imparfait + participe passé : « J’avais oublié à quel point il faisait chaud. Elle était partie un an plus tôt. » Il exprime une action antérieure à une autre action passée, souvent racontée au passé composé ou à l’imparfait : « Elle comprit ce que son amie avait voulu dire. »",
-        "structure": "Forme à observer : Le plus-que-parfait. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
-        "function": "Situer un événement antérieur à un autre moment du passé.",
-        "examples": [
-          "Elle avait presque oublié la chaleur de Saint-Domingue.",
-          "Elle était partie un an plus tôt, pleine d’appréhension.",
-          "Elle n’avait pas anticipé que le retour serait difficile.",
-          "Avoir/être à l’imparfait + participe passé"
-        ]
-      },
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Elle ___ presque oublié la chaleur de Saint-Domingue.",
-        "options": [
-          "a",
-          "avait",
-          "ait",
-          "aura"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Elle ___ un an plus tôt, pleine d’appréhension.",
-        "options": [
-          "était partie",
-          "est partie",
-          "partait",
-          "sera partie"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Elle n’___ pas anticipé que le retour serait difficile.",
-        "options": [
-          "a",
-          "avait",
-          "ait",
-          "aurait"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle structure forme le plus-que-parfait ?",
-        "options": [
-          "Avoir/être au présent + participe passé",
-          "Avoir/être à l’imparfait + participe passé",
-          "Avoir au futur + infinitif",
-          "Être au conditionnel + gérondif"
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-la-rentree-universitaire-grammar",
     "level": "C1",
     "skill": "grammar",
@@ -4911,6 +4630,287 @@
     ]
   },
   {
+    "slug": "french-b2-retour-a-saint-domingue-grammar",
+    "level": "B2",
+    "skill": "grammar",
+    "unitId": "retour-a-saint-domingue",
+    "title": "Le plus-que-parfait",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 14,
+    "estimatedMinutes": 14,
+    "description": "Situer un événement antérieur à un autre moment du passé.",
+    "intro": "Situer un événement antérieur à un autre moment du passé.",
+    "mission": "",
+    "grammar": "Le plus-que-parfait se forme avec avoir/être à l’imparfait + participe passé : « J’avais oublié à quel point il faisait chaud. Elle était partie un an plus tôt. » Il exprime une action antérieure à une autre action passée, souvent racontée au passé composé ou à l’imparfait : « Elle comprit ce que son amie avait voulu dire. »",
+    "phrases": [
+      "J’avais oublié que...",
+      "Elle était partie...",
+      "Nous avions déjà...",
+      "Il n’avait pas anticipé que..."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": {
+      "grammarTest": {
+        "id": "french-b2-retour-a-saint-domingue-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "french-b2-retour-a-saint-domingue-grammar-q1",
+            "type": "mcq",
+            "prompt": "Elle ___ presque oublié la chaleur de Saint-Domingue.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "b",
+                "text": "avait"
+              },
+              {
+                "id": "a",
+                "text": "a"
+              },
+              {
+                "id": "c",
+                "text": "ait"
+              },
+              {
+                "id": "d",
+                "text": "aura"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-retour-a-saint-domingue-grammar-q2",
+            "type": "mcq",
+            "prompt": "Elle ___ un an plus tôt, pleine d’appréhension.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "b",
+                "text": "est partie"
+              },
+              {
+                "id": "a",
+                "text": "était partie"
+              },
+              {
+                "id": "c",
+                "text": "partait"
+              },
+              {
+                "id": "d",
+                "text": "sera partie"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-retour-a-saint-domingue-grammar-q3",
+            "type": "mcq",
+            "prompt": "Elle n’___ pas anticipé que le retour serait difficile.",
+            "difficulty": "analysis",
+            "options": [
+              {
+                "id": "a",
+                "text": "a"
+              },
+              {
+                "id": "c",
+                "text": "ait"
+              },
+              {
+                "id": "b",
+                "text": "avait"
+              },
+              {
+                "id": "d",
+                "text": "aurait"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-retour-a-saint-domingue-grammar-q4",
+            "type": "mcq",
+            "prompt": "Quelle structure forme le plus-que-parfait ?",
+            "difficulty": "analysis",
+            "options": [
+              {
+                "id": "a",
+                "text": "Avoir/être au présent + participe passé"
+              },
+              {
+                "id": "c",
+                "text": "Avoir au futur + infinitif"
+              },
+              {
+                "id": "d",
+                "text": "Être au conditionnel + gérondif"
+              },
+              {
+                "id": "b",
+                "text": "Avoir/être à l’imparfait + participe passé"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-retour-a-saint-domingue-grammar-q5",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Elle a presque oublié la chaleur de Saint-Domingue. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "b",
+                "text": "Elle avait presque oublié la chaleur de Saint-Domingue."
+              },
+              {
+                "id": "a",
+                "text": "Elle a presque oublié la chaleur de Saint-Domingue."
+              },
+              {
+                "id": "c",
+                "text": "Elle ait presque oublié la chaleur de Saint-Domingue."
+              },
+              {
+                "id": "d",
+                "text": "Elle aura presque oublié la chaleur de Saint-Domingue."
+              }
+            ]
+          },
+          {
+            "id": "french-b2-retour-a-saint-domingue-grammar-q6",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Elle est partie un an plus tôt, pleine d’appréhension. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "b",
+                "text": "Elle est partie un an plus tôt, pleine d’appréhension."
+              },
+              {
+                "id": "a",
+                "text": "Elle était partie un an plus tôt, pleine d’appréhension."
+              },
+              {
+                "id": "c",
+                "text": "Elle partait un an plus tôt, pleine d’appréhension."
+              },
+              {
+                "id": "d",
+                "text": "Elle sera partie un an plus tôt, pleine d’appréhension."
+              }
+            ]
+          },
+          {
+            "id": "french-b2-retour-a-saint-domingue-grammar-q7",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Elle n’a pas anticipé que le retour serait difficile. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Elle n’a pas anticipé que le retour serait difficile."
+              },
+              {
+                "id": "c",
+                "text": "Elle n’ait pas anticipé que le retour serait difficile."
+              },
+              {
+                "id": "b",
+                "text": "Elle n’avait pas anticipé que le retour serait difficile."
+              },
+              {
+                "id": "d",
+                "text": "Elle n’aurait pas anticipé que le retour serait difficile."
+              }
+            ]
+          },
+          {
+            "id": "french-b2-retour-a-saint-domingue-grammar-q8",
+            "type": "mcq",
+            "prompt": "Quelle réponse corrige l’erreur « Avoir/être au présent + participe passé » dans ce contexte : « Quelle structure forme le plus-que-parfait ? » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Avoir/être au présent + participe passé"
+              },
+              {
+                "id": "c",
+                "text": "Avoir au futur + infinitif"
+              },
+              {
+                "id": "d",
+                "text": "Être au conditionnel + gérondif"
+              },
+              {
+                "id": "b",
+                "text": "Avoir/être à l’imparfait + participe passé"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Le plus-que-parfait",
+        "definition": "Le plus-que-parfait se forme avec avoir/être à l’imparfait + participe passé : « J’avais oublié à quel point il faisait chaud. Elle était partie un an plus tôt. » Il exprime une action antérieure à une autre action passée, souvent racontée au passé composé ou à l’imparfait : « Elle comprit ce que son amie avait voulu dire. »",
+        "structure": "Forme à observer : Le plus-que-parfait. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Situer un événement antérieur à un autre moment du passé.",
+        "examples": [
+          "Elle avait presque oublié la chaleur de Saint-Domingue.",
+          "Elle était partie un an plus tôt, pleine d’appréhension.",
+          "Elle n’avait pas anticipé que le retour serait difficile.",
+          "Avoir/être à l’imparfait + participe passé"
+        ]
+      },
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Elle ___ presque oublié la chaleur de Saint-Domingue.",
+        "options": [
+          "a",
+          "avait",
+          "ait",
+          "aura"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Elle ___ un an plus tôt, pleine d’appréhension.",
+        "options": [
+          "était partie",
+          "est partie",
+          "partait",
+          "sera partie"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Elle n’___ pas anticipé que le retour serait difficile.",
+        "options": [
+          "a",
+          "avait",
+          "ait",
+          "aurait"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle structure forme le plus-que-parfait ?",
+        "options": [
+          "Avoir/être au présent + participe passé",
+          "Avoir/être à l’imparfait + participe passé",
+          "Avoir au futur + infinitif",
+          "Être au conditionnel + gérondif"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "french-a1-bonjour-et-bienvenue-vocabulary",
     "level": "A1",
     "skill": "vocabulary",
@@ -5396,86 +5396,6 @@
     ]
   },
   {
-    "slug": "french-b2-retour-a-saint-domingue-vocabulary",
-    "level": "B2",
-    "skill": "vocabulary",
-    "unitId": "retour-a-saint-domingue",
-    "title": "Le vocabulaire du retour et des retrouvailles",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 15,
-    "estimatedMinutes": 10,
-    "description": "Le vocabulaire essentiel pour décrire un retour et des émotions nuancées.",
-    "intro": "Le vocabulaire essentiel pour décrire un retour et des émotions nuancées.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [
-      {
-        "word": "les retrouvailles",
-        "translation": "el reencuentro",
-        "example": "Les retrouvailles à l’aéroport étaient très émouvantes."
-      },
-      {
-        "word": "le mal du pays",
-        "translation": "la nostalgia del país",
-        "example": "Elle a ressenti le mal du pays pendant son séjour en France."
-      },
-      {
-        "word": "ambivalent(e)",
-        "translation": "ambivalente",
-        "example": "Ses sentiments à propos du retour étaient ambivalents."
-      },
-      {
-        "word": "avoir le sentiment de",
-        "translation": "tener la sensación de",
-        "example": "J’ai le sentiment d’avoir changé."
-      },
-      {
-        "word": "s’adapter",
-        "translation": "adaptarse",
-        "example": "Il faut du temps pour s’adapter à nouveau."
-      }
-    ],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « les retrouvailles » ?",
-        "options": [
-          "El reencuentro",
-          "La despedida",
-          "El viaje",
-          "La mudanza"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « ambivalent(e) » ?",
-        "options": [
-          "Muy feliz",
-          "Con sentimientos contradictorios",
-          "Indiferente",
-          "Furioso"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « le mal du pays » ?",
-        "options": [
-          "Una enfermedad",
-          "La nostalgia del país natal",
-          "Un problema político",
-          "Un dolor físico"
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-la-rentree-universitaire-vocabulary",
     "level": "C1",
     "skill": "vocabulary",
@@ -5830,6 +5750,86 @@
           "dans une direction opposée à une idée ou à une tendance dominante"
         ],
         "explanation": "« à rebours de » désigne dans une direction opposée à une idée ou à une tendance dominante."
+      }
+    ]
+  },
+  {
+    "slug": "french-b2-retour-a-saint-domingue-vocabulary",
+    "level": "B2",
+    "skill": "vocabulary",
+    "unitId": "retour-a-saint-domingue",
+    "title": "Le vocabulaire du retour et des retrouvailles",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 15,
+    "estimatedMinutes": 10,
+    "description": "Le vocabulaire essentiel pour décrire un retour et des émotions nuancées.",
+    "intro": "Le vocabulaire essentiel pour décrire un retour et des émotions nuancées.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "les retrouvailles",
+        "translation": "el reencuentro",
+        "example": "Les retrouvailles à l’aéroport étaient très émouvantes."
+      },
+      {
+        "word": "le mal du pays",
+        "translation": "la nostalgia del país",
+        "example": "Elle a ressenti le mal du pays pendant son séjour en France."
+      },
+      {
+        "word": "ambivalent(e)",
+        "translation": "ambivalente",
+        "example": "Ses sentiments à propos du retour étaient ambivalents."
+      },
+      {
+        "word": "avoir le sentiment de",
+        "translation": "tener la sensación de",
+        "example": "J’ai le sentiment d’avoir changé."
+      },
+      {
+        "word": "s’adapter",
+        "translation": "adaptarse",
+        "example": "Il faut du temps pour s’adapter à nouveau."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « les retrouvailles » ?",
+        "options": [
+          "El reencuentro",
+          "La despedida",
+          "El viaje",
+          "La mudanza"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « ambivalent(e) » ?",
+        "options": [
+          "Muy feliz",
+          "Con sentimientos contradictorios",
+          "Indiferente",
+          "Furioso"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « le mal du pays » ?",
+        "options": [
+          "Una enfermedad",
+          "La nostalgia del país natal",
+          "Un problema político",
+          "Un dolor físico"
+        ]
       }
     ]
   },
@@ -6547,96 +6547,6 @@
     ]
   },
   {
-    "slug": "french-b2-candidature-universitaire-reading",
-    "level": "B2",
-    "skill": "reading",
-    "unitId": "candidature-universitaire",
-    "title": "Bien rédiger sa lettre de motivation",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 35,
-    "orderIndex": 20,
-    "estimatedMinutes": 18,
-    "description": "Chaque année, la plateforme Parcoursup traite des millions de vœux : voici ce que les jurys d’admission attendent vraiment d’une lettre de motivation.",
-    "intro": "Chaque année, la plateforme Parcoursup traite des millions de vœux : voici ce que les jurys d’admission attendent vraiment d’une lettre de motivation.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": {
-      "title": "Bien rédiger sa lettre de motivation",
-      "parts": [
-        "Plus de dix millions de vœux : c’est, chaque année, le volume que traite la plateforme française Parcoursup, submergeant les jurys d’admission de dossiers à départager en quelques semaines à peine. Dans ce contexte, il est peu probable qu’une lettre trop générale, capable d’être envoyée telle quelle à n’importe quelle formation, retienne longtemps l’attention d’un examinateur pressé. Les conseillers d’orientation le répètent : il ne s’agit pas de multiplier les formules élogieuses, mais de prouver, en quelques lignes, que le candidat a compris ce qui distingue cette formation de toutes les autres.",
-        "Les responsables d’admission interrogés recommandent une structure en trois temps, désormais largement enseignée dans les lycées : présenter d’abord l’élément déclencheur de l’intérêt pour la discipline, développer ensuite une ou deux expériences concrètes qui l’illustrent, puis conclure en expliquant ce que le candidat compte apporter à la formation. Cette dernière étape, souvent négligée, permet pourtant aux jurys de distinguer un projet réfléchi d’une simple liste de vœux. Mentionner un enseignant précis, un projet de recherche du département ou une spécialisation particulière démontre, par ailleurs, un engagement authentique — à condition, bien sûr, que le candidat ait effectivement vérifié que ces détails correspondent au dossier envoyé.",
-        "Un dernier conseil, souvent répété, concerne l’équilibre entre confiance et humilité. Il est essentiel que le candidat sache valoriser ses réussites sans en exagérer la portée, et qu’il reconnaisse, le cas échéant, les difficultés qu’il aurait rencontrées et surmontées. Une lettre honnête, dans laquelle transparaît une véritable réflexion personnelle, reste, en outre, bien plus convaincante qu’un texte parfaitement formaté mais impersonnel — c’est du moins ce que confirment la plupart des responsables de recrutement universitaire interrogés.",
-        "En définitive, il se pourrait bien qu’une bonne lettre de motivation ne cherche pas à impressionner à tout prix, mais à établir une cohérence claire entre le passé du candidat et le projet qu’il présente. C’est cette cohérence, davantage que le style ou la longueur du texte, que les commissions d’admission cherchent avant tout à identifier lorsqu’elles examinent des centaines de dossiers en quelques jours."
-      ],
-      "questions": [
-        "Combien de vœux la plateforme Parcoursup traite-t-elle chaque année, selon le texte ?",
-        "Pourquoi une lettre trop générale a-t-elle peu de chances de retenir l’attention d’un jury ?",
-        "Quelle est la structure en trois temps recommandée dans le texte ?",
-        "Qu’est-ce qui démontre, selon le texte, un engagement authentique envers une formation ?",
-        "Que cherchent avant tout les commissions d’admission, selon la conclusion du texte ?"
-      ],
-      "text": "Plus de dix millions de vœux : c’est, chaque année, le volume que traite la plateforme française Parcoursup, submergeant les jurys d’admission de dossiers à départager en quelques semaines à peine. Dans ce contexte, il est peu probable qu’une lettre trop générale, capable d’être envoyée telle quelle à n’importe quelle formation, retienne longtemps l’attention d’un examinateur pressé. Les conseillers d’orientation le répètent : il ne s’agit pas de multiplier les formules élogieuses, mais de prouver, en quelques lignes, que le candidat a compris ce qui distingue cette formation de toutes les autres.\n\nLes responsables d’admission interrogés recommandent une structure en trois temps, désormais largement enseignée dans les lycées : présenter d’abord l’élément déclencheur de l’intérêt pour la discipline, développer ensuite une ou deux expériences concrètes qui l’illustrent, puis conclure en expliquant ce que le candidat compte apporter à la formation. Cette dernière étape, souvent négligée, permet pourtant aux jurys de distinguer un projet réfléchi d’une simple liste de vœux. Mentionner un enseignant précis, un projet de recherche du département ou une spécialisation particulière démontre, par ailleurs, un engagement authentique — à condition, bien sûr, que le candidat ait effectivement vérifié que ces détails correspondent au dossier envoyé.\n\nUn dernier conseil, souvent répété, concerne l’équilibre entre confiance et humilité. Il est essentiel que le candidat sache valoriser ses réussites sans en exagérer la portée, et qu’il reconnaisse, le cas échéant, les difficultés qu’il aurait rencontrées et surmontées. Une lettre honnête, dans laquelle transparaît une véritable réflexion personnelle, reste, en outre, bien plus convaincante qu’un texte parfaitement formaté mais impersonnel — c’est du moins ce que confirment la plupart des responsables de recrutement universitaire interrogés.\n\nEn définitive, il se pourrait bien qu’une bonne lettre de motivation ne cherche pas à impressionner à tout prix, mais à établir une cohérence claire entre le passé du candidat et le projet qu’il présente. C’est cette cohérence, davantage que le style ou la longueur du texte, que les commissions d’admission cherchent avant tout à identifier lorsqu’elles examinent des centaines de dossiers en quelques jours."
-    },
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Combien de vœux la plateforme Parcoursup traite-t-elle chaque année, selon le texte ?",
-        "options": [
-          "Plus de dix millions",
-          "Environ mille",
-          "Cent mille",
-          "Le texte ne donne aucun chiffre"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Pourquoi une lettre trop générale a-t-elle peu de chances de retenir l’attention d’un jury ?",
-        "options": [
-          "Parce qu’elle est trop courte",
-          "Parce qu’elle pourrait être envoyée telle quelle à n’importe quelle formation",
-          "Parce qu’elle contient trop de fautes",
-          "Parce qu’elle est trop personnelle"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle est la structure en trois temps recommandée dans le texte ?",
-        "options": [
-          "Déclencheur, exemples concrets, ce que le candidat apportera",
-          "Introduction, biographie complète, conclusion",
-          "Salutations, notes scolaires, remerciements",
-          "Question, réponse, opinion personnelle"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qu’est-ce qui démontre, selon le texte, un engagement authentique envers une formation ?",
-        "options": [
-          "Mentionner un enseignant précis ou un projet de recherche du département",
-          "Utiliser un vocabulaire très soutenu",
-          "Écrire une lettre très longue",
-          "Citer des proverbes célèbres"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que cherchent avant tout les commissions d’admission, selon la conclusion du texte ?",
-        "options": [
-          "La longueur du texte",
-          "Le style littéraire uniquement",
-          "La cohérence entre le parcours du candidat et le projet présenté",
-          "Le nombre de formations mentionnées"
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-un-exposer-a-preparer-reading",
     "level": "C1",
     "skill": "reading",
@@ -6861,6 +6771,96 @@
           "Les ménages vulnérables ne sont jamais affectés par ces politiques"
         ],
         "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Décarboner à temps : course contre une horloge incertaine »."
+      }
+    ]
+  },
+  {
+    "slug": "french-b2-candidature-universitaire-reading",
+    "level": "B2",
+    "skill": "reading",
+    "unitId": "candidature-universitaire",
+    "title": "Bien rédiger sa lettre de motivation",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 35,
+    "orderIndex": 20,
+    "estimatedMinutes": 18,
+    "description": "Chaque année, la plateforme Parcoursup traite des millions de vœux : voici ce que les jurys d’admission attendent vraiment d’une lettre de motivation.",
+    "intro": "Chaque année, la plateforme Parcoursup traite des millions de vœux : voici ce que les jurys d’admission attendent vraiment d’une lettre de motivation.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "Bien rédiger sa lettre de motivation",
+      "parts": [
+        "Plus de dix millions de vœux : c’est, chaque année, le volume que traite la plateforme française Parcoursup, submergeant les jurys d’admission de dossiers à départager en quelques semaines à peine. Dans ce contexte, il est peu probable qu’une lettre trop générale, capable d’être envoyée telle quelle à n’importe quelle formation, retienne longtemps l’attention d’un examinateur pressé. Les conseillers d’orientation le répètent : il ne s’agit pas de multiplier les formules élogieuses, mais de prouver, en quelques lignes, que le candidat a compris ce qui distingue cette formation de toutes les autres.",
+        "Les responsables d’admission interrogés recommandent une structure en trois temps, désormais largement enseignée dans les lycées : présenter d’abord l’élément déclencheur de l’intérêt pour la discipline, développer ensuite une ou deux expériences concrètes qui l’illustrent, puis conclure en expliquant ce que le candidat compte apporter à la formation. Cette dernière étape, souvent négligée, permet pourtant aux jurys de distinguer un projet réfléchi d’une simple liste de vœux. Mentionner un enseignant précis, un projet de recherche du département ou une spécialisation particulière démontre, par ailleurs, un engagement authentique — à condition, bien sûr, que le candidat ait effectivement vérifié que ces détails correspondent au dossier envoyé.",
+        "Un dernier conseil, souvent répété, concerne l’équilibre entre confiance et humilité. Il est essentiel que le candidat sache valoriser ses réussites sans en exagérer la portée, et qu’il reconnaisse, le cas échéant, les difficultés qu’il aurait rencontrées et surmontées. Une lettre honnête, dans laquelle transparaît une véritable réflexion personnelle, reste, en outre, bien plus convaincante qu’un texte parfaitement formaté mais impersonnel — c’est du moins ce que confirment la plupart des responsables de recrutement universitaire interrogés.",
+        "En définitive, il se pourrait bien qu’une bonne lettre de motivation ne cherche pas à impressionner à tout prix, mais à établir une cohérence claire entre le passé du candidat et le projet qu’il présente. C’est cette cohérence, davantage que le style ou la longueur du texte, que les commissions d’admission cherchent avant tout à identifier lorsqu’elles examinent des centaines de dossiers en quelques jours."
+      ],
+      "questions": [
+        "Combien de vœux la plateforme Parcoursup traite-t-elle chaque année, selon le texte ?",
+        "Pourquoi une lettre trop générale a-t-elle peu de chances de retenir l’attention d’un jury ?",
+        "Quelle est la structure en trois temps recommandée dans le texte ?",
+        "Qu’est-ce qui démontre, selon le texte, un engagement authentique envers une formation ?",
+        "Que cherchent avant tout les commissions d’admission, selon la conclusion du texte ?"
+      ],
+      "text": "Plus de dix millions de vœux : c’est, chaque année, le volume que traite la plateforme française Parcoursup, submergeant les jurys d’admission de dossiers à départager en quelques semaines à peine. Dans ce contexte, il est peu probable qu’une lettre trop générale, capable d’être envoyée telle quelle à n’importe quelle formation, retienne longtemps l’attention d’un examinateur pressé. Les conseillers d’orientation le répètent : il ne s’agit pas de multiplier les formules élogieuses, mais de prouver, en quelques lignes, que le candidat a compris ce qui distingue cette formation de toutes les autres.\n\nLes responsables d’admission interrogés recommandent une structure en trois temps, désormais largement enseignée dans les lycées : présenter d’abord l’élément déclencheur de l’intérêt pour la discipline, développer ensuite une ou deux expériences concrètes qui l’illustrent, puis conclure en expliquant ce que le candidat compte apporter à la formation. Cette dernière étape, souvent négligée, permet pourtant aux jurys de distinguer un projet réfléchi d’une simple liste de vœux. Mentionner un enseignant précis, un projet de recherche du département ou une spécialisation particulière démontre, par ailleurs, un engagement authentique — à condition, bien sûr, que le candidat ait effectivement vérifié que ces détails correspondent au dossier envoyé.\n\nUn dernier conseil, souvent répété, concerne l’équilibre entre confiance et humilité. Il est essentiel que le candidat sache valoriser ses réussites sans en exagérer la portée, et qu’il reconnaisse, le cas échéant, les difficultés qu’il aurait rencontrées et surmontées. Une lettre honnête, dans laquelle transparaît une véritable réflexion personnelle, reste, en outre, bien plus convaincante qu’un texte parfaitement formaté mais impersonnel — c’est du moins ce que confirment la plupart des responsables de recrutement universitaire interrogés.\n\nEn définitive, il se pourrait bien qu’une bonne lettre de motivation ne cherche pas à impressionner à tout prix, mais à établir une cohérence claire entre le passé du candidat et le projet qu’il présente. C’est cette cohérence, davantage que le style ou la longueur du texte, que les commissions d’admission cherchent avant tout à identifier lorsqu’elles examinent des centaines de dossiers en quelques jours."
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Combien de vœux la plateforme Parcoursup traite-t-elle chaque année, selon le texte ?",
+        "options": [
+          "Plus de dix millions",
+          "Environ mille",
+          "Cent mille",
+          "Le texte ne donne aucun chiffre"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Pourquoi une lettre trop générale a-t-elle peu de chances de retenir l’attention d’un jury ?",
+        "options": [
+          "Parce qu’elle est trop courte",
+          "Parce qu’elle pourrait être envoyée telle quelle à n’importe quelle formation",
+          "Parce qu’elle contient trop de fautes",
+          "Parce qu’elle est trop personnelle"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle est la structure en trois temps recommandée dans le texte ?",
+        "options": [
+          "Déclencheur, exemples concrets, ce que le candidat apportera",
+          "Introduction, biographie complète, conclusion",
+          "Salutations, notes scolaires, remerciements",
+          "Question, réponse, opinion personnelle"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qu’est-ce qui démontre, selon le texte, un engagement authentique envers une formation ?",
+        "options": [
+          "Mentionner un enseignant précis ou un projet de recherche du département",
+          "Utiliser un vocabulaire très soutenu",
+          "Écrire une lettre très longue",
+          "Citer des proverbes célèbres"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que cherchent avant tout les commissions d’admission, selon la conclusion du texte ?",
+        "options": [
+          "La longueur du texte",
+          "Le style littéraire uniquement",
+          "La cohérence entre le parcours du candidat et le projet présenté",
+          "Le nombre de formations mentionnées"
+        ]
       }
     ]
   },
@@ -7566,266 +7566,6 @@
     ]
   },
   {
-    "slug": "french-b2-candidature-universitaire-listening",
-    "level": "B2",
-    "skill": "listening",
-    "unitId": "candidature-universitaire",
-    "title": "Construire une candidature convaincante",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 35,
-    "orderIndex": 21,
-    "estimatedMinutes": 14,
-    "description": "Écoute ce contenu de niveau B2 et identifie les idées, les nuances et les preuves.",
-    "intro": "Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [
-      "Beaucoup de lycéens ne savent pas...",
-      "Plutôt que...",
-      "Ce qui fait la différence, c’est...",
-      "Ce que le candidat compte apporter..."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "Une bonne lettre de motivation ne répète pas simplement le CV. Elle explique le lien entre votre parcours, la formation choisie et votre projet. Avant d’écrire, identifiez deux expériences capables de vous démarquer. Il est important que vous ayez compris les objectifs du programme et que vous montriez précisément ce qu’il peut vous apporter. Évitez les déclarations générales comme « J’ai toujours aimé apprendre ». Présentez plutôt un déclencheur concret : un projet, une rencontre ou une difficulté que vous avez surmontée. Les responsables apprécient que le candidat ait réfléchi à son évolution. Relisez ensuite chaque paragraphe. Le premier doit annoncer votre démarche ; le deuxième apporte des preuves ; le dernier ouvre sur l’avenir. Il faut aussi que votre lettre soit claire, personnelle et adaptée à l’établissement. Demandez à une personne de confiance de la relire, mais conservez votre propre voix. Une candidature convaincante ne cherche pas à paraître parfaite. Elle permet au lecteur de comprendre ce que vous avez déjà construit et pourquoi cette formation représente une étape cohérente.",
-    "extra": {
-      "listeningType": "monologue",
-      "listeningFormat": "tutorial",
-      "storyTitle": "Construire une candidature convaincante",
-      "mainTranscript": "Une bonne lettre de motivation ne répète pas simplement le CV. Elle explique le lien entre votre parcours, la formation choisie et votre projet. Avant d’écrire, identifiez deux expériences capables de vous démarquer. Il est important que vous ayez compris les objectifs du programme et que vous montriez précisément ce qu’il peut vous apporter. Évitez les déclarations générales comme « J’ai toujours aimé apprendre ». Présentez plutôt un déclencheur concret : un projet, une rencontre ou une difficulté que vous avez surmontée. Les responsables apprécient que le candidat ait réfléchi à son évolution. Relisez ensuite chaque paragraphe. Le premier doit annoncer votre démarche ; le deuxième apporte des preuves ; le dernier ouvre sur l’avenir. Il faut aussi que votre lettre soit claire, personnelle et adaptée à l’établissement. Demandez à une personne de confiance de la relire, mais conservez votre propre voix. Une candidature convaincante ne cherche pas à paraître parfaite. Elle permet au lecteur de comprendre ce que vous avez déjà construit et pourquoi cette formation représente une étape cohérente.",
-      "transcriptSegments": [
-        {
-          "id": "segment-01",
-          "order": 1,
-          "text": "Une bonne lettre de motivation ne répète pas simplement le CV."
-        },
-        {
-          "id": "segment-02",
-          "order": 2,
-          "text": "Elle explique le lien entre votre parcours, la formation choisie et votre projet."
-        },
-        {
-          "id": "segment-03",
-          "order": 3,
-          "text": "Avant d’écrire, identifiez deux expériences capables de vous démarquer."
-        },
-        {
-          "id": "segment-04",
-          "order": 4,
-          "text": "Il est important que vous ayez compris les objectifs du programme et que vous montriez précisément ce qu’il peut vous apporter."
-        },
-        {
-          "id": "segment-05",
-          "order": 5,
-          "text": "Évitez les déclarations générales comme « J’ai toujours aimé apprendre »."
-        },
-        {
-          "id": "segment-06",
-          "order": 6,
-          "text": "Présentez plutôt un déclencheur concret : un projet, une rencontre ou une difficulté que vous avez surmontée."
-        },
-        {
-          "id": "segment-07",
-          "order": 7,
-          "text": "Les responsables apprécient que le candidat ait réfléchi à son évolution."
-        },
-        {
-          "id": "segment-08",
-          "order": 8,
-          "text": "Relisez ensuite chaque paragraphe."
-        },
-        {
-          "id": "segment-09",
-          "order": 9,
-          "text": "Le premier doit annoncer votre démarche ; le deuxième apporte des preuves ; le dernier ouvre sur l’avenir."
-        },
-        {
-          "id": "segment-10",
-          "order": 10,
-          "text": "Il faut aussi que votre lettre soit claire, personnelle et adaptée à l’établissement."
-        },
-        {
-          "id": "segment-11",
-          "order": 11,
-          "text": "Demandez à une personne de confiance de la relire, mais conservez votre propre voix."
-        },
-        {
-          "id": "segment-12",
-          "order": 12,
-          "text": "Une candidature convaincante ne cherche pas à paraître parfaite."
-        },
-        {
-          "id": "segment-13",
-          "order": 13,
-          "text": "Elle permet au lecteur de comprendre ce que vous avez déjà construit et pourquoi cette formation représente une étape cohérente."
-        }
-      ],
-      "difficulty": "B2",
-      "durationSeconds": 85,
-      "speakers": [
-        "Animatrice",
-        "Invité"
-      ],
-      "phoneticSupport": {
-        "enabled": true,
-        "locale": "fr-FR",
-        "focus": "Marque les groupes rythmiques et les mots de contraste. Fais entendre la différence entre une affirmation ferme et une conclusion nuancée.",
-        "segments": [],
-        "stressedWords": [
-          "établi",
-          "inférer",
-          "objection",
-          "réviser"
-        ],
-        "difficultSounds": [],
-        "reviewStatus": "verified"
-      },
-      "listeningComprehension": {
-        "id": "french-b2-candidature-universitaire-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Dans « Construire une candidature convaincante », quel détail présente la situation ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Une bonne lettre de motivation ne répète pas simplement le CV."
-              },
-              {
-                "id": "o2",
-                "text": "Évitez les déclarations générales comme « J’ai toujours aimé apprendre »."
-              },
-              {
-                "id": "o3",
-                "text": "Le premier doit annoncer votre démarche ; le deuxième apporte des preuves ; le dernier ouvre sur l’avenir."
-              },
-              {
-                "id": "o4",
-                "text": "Elle permet au lecteur de comprendre ce que vous avez déjà construit et pourquoi cette formation représente une étape cohérente."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Après « Une bonne lettre de motivation ne répète pas simplement le CV. », que se passe-t-il ensuite dans « Construire une candidature convaincante » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Une bonne lettre de motivation ne répète pas simplement le CV."
-              },
-              {
-                "id": "o2",
-                "text": "Évitez les déclarations générales comme « J’ai toujours aimé apprendre »."
-              },
-              {
-                "id": "o3",
-                "text": "Le premier doit annoncer votre démarche ; le deuxième apporte des preuves ; le dernier ouvre sur l’avenir."
-              },
-              {
-                "id": "o4",
-                "text": "Elle permet au lecteur de comprendre ce que vous avez déjà construit et pourquoi cette formation représente une étape cohérente."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Construire une candidature convaincante » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Une bonne lettre de motivation ne répète pas simplement le CV."
-              },
-              {
-                "id": "o2",
-                "text": "Évitez les déclarations générales comme « J’ai toujours aimé apprendre »."
-              },
-              {
-                "id": "o3",
-                "text": "Le premier doit annoncer votre démarche ; le deuxième apporte des preuves ; le dernier ouvre sur l’avenir."
-              },
-              {
-                "id": "o4",
-                "text": "Elle permet au lecteur de comprendre ce que vous avez déjà construit et pourquoi cette formation représente une étape cohérente."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Quel résultat conclut « Construire une candidature convaincante » après « Le premier doit annoncer votre démarche ; le deuxième apporte des… » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Une bonne lettre de motivation ne répète pas simplement le CV."
-              },
-              {
-                "id": "o2",
-                "text": "Évitez les déclarations générales comme « J’ai toujours aimé apprendre »."
-              },
-              {
-                "id": "o3",
-                "text": "Le premier doit annoncer votre démarche ; le deuxième apporte des preuves ; le dernier ouvre sur l’avenir."
-              },
-              {
-                "id": "o4",
-                "text": "Elle permet au lecteur de comprendre ce que vous avez déjà construit et pourquoi cette formation représente une étape cohérente."
-              }
-            ]
-          }
-        ]
-      },
-      "grammarTest": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Dans « Construire une candidature convaincante », quel détail présente la situation ?",
-        "options": [
-          "Une bonne lettre de motivation ne répète pas simplement le CV.",
-          "Évitez les déclarations générales comme « J’ai toujours aimé apprendre ».",
-          "Le premier doit annoncer votre démarche ; le deuxième apporte des preuves ; le dernier ouvre sur l’avenir.",
-          "Elle permet au lecteur de comprendre ce que vous avez déjà construit et pourquoi cette formation représente une étape cohérente."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Après « Une bonne lettre de motivation ne répète pas simplement le CV. », que se passe-t-il ensuite dans « Construire une candidature convaincante » ?",
-        "options": [
-          "Une bonne lettre de motivation ne répète pas simplement le CV.",
-          "Évitez les déclarations générales comme « J’ai toujours aimé apprendre ».",
-          "Le premier doit annoncer votre démarche ; le deuxième apporte des preuves ; le dernier ouvre sur l’avenir.",
-          "Elle permet au lecteur de comprendre ce que vous avez déjà construit et pourquoi cette formation représente une étape cohérente."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Construire une candidature convaincante » ?",
-        "options": [
-          "Une bonne lettre de motivation ne répète pas simplement le CV.",
-          "Évitez les déclarations générales comme « J’ai toujours aimé apprendre ».",
-          "Le premier doit annoncer votre démarche ; le deuxième apporte des preuves ; le dernier ouvre sur l’avenir.",
-          "Elle permet au lecteur de comprendre ce que vous avez déjà construit et pourquoi cette formation représente une étape cohérente."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel résultat conclut « Construire une candidature convaincante » après « Le premier doit annoncer votre démarche ; le deuxième apporte des… » ?",
-        "options": [
-          "Une bonne lettre de motivation ne répète pas simplement le CV.",
-          "Évitez les déclarations générales comme « J’ai toujours aimé apprendre ».",
-          "Le premier doit annoncer votre démarche ; le deuxième apporte des preuves ; le dernier ouvre sur l’avenir.",
-          "Elle permet au lecteur de comprendre ce que vous avez déjà construit et pourquoi cette formation représente une étape cohérente."
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-un-exposer-a-preparer-listening",
     "level": "C1",
     "skill": "listening",
@@ -8343,6 +8083,266 @@
     ]
   },
   {
+    "slug": "french-b2-candidature-universitaire-listening",
+    "level": "B2",
+    "skill": "listening",
+    "unitId": "candidature-universitaire",
+    "title": "Construire une candidature convaincante",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 35,
+    "orderIndex": 21,
+    "estimatedMinutes": 14,
+    "description": "Écoute ce contenu de niveau B2 et identifie les idées, les nuances et les preuves.",
+    "intro": "Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "Beaucoup de lycéens ne savent pas...",
+      "Plutôt que...",
+      "Ce qui fait la différence, c’est...",
+      "Ce que le candidat compte apporter..."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Une bonne lettre de motivation ne répète pas simplement le CV. Elle explique le lien entre votre parcours, la formation choisie et votre projet. Avant d’écrire, identifiez deux expériences capables de vous démarquer. Il est important que vous ayez compris les objectifs du programme et que vous montriez précisément ce qu’il peut vous apporter. Évitez les déclarations générales comme « J’ai toujours aimé apprendre ». Présentez plutôt un déclencheur concret : un projet, une rencontre ou une difficulté que vous avez surmontée. Les responsables apprécient que le candidat ait réfléchi à son évolution. Relisez ensuite chaque paragraphe. Le premier doit annoncer votre démarche ; le deuxième apporte des preuves ; le dernier ouvre sur l’avenir. Il faut aussi que votre lettre soit claire, personnelle et adaptée à l’établissement. Demandez à une personne de confiance de la relire, mais conservez votre propre voix. Une candidature convaincante ne cherche pas à paraître parfaite. Elle permet au lecteur de comprendre ce que vous avez déjà construit et pourquoi cette formation représente une étape cohérente.",
+    "extra": {
+      "listeningType": "monologue",
+      "listeningFormat": "tutorial",
+      "storyTitle": "Construire une candidature convaincante",
+      "mainTranscript": "Une bonne lettre de motivation ne répète pas simplement le CV. Elle explique le lien entre votre parcours, la formation choisie et votre projet. Avant d’écrire, identifiez deux expériences capables de vous démarquer. Il est important que vous ayez compris les objectifs du programme et que vous montriez précisément ce qu’il peut vous apporter. Évitez les déclarations générales comme « J’ai toujours aimé apprendre ». Présentez plutôt un déclencheur concret : un projet, une rencontre ou une difficulté que vous avez surmontée. Les responsables apprécient que le candidat ait réfléchi à son évolution. Relisez ensuite chaque paragraphe. Le premier doit annoncer votre démarche ; le deuxième apporte des preuves ; le dernier ouvre sur l’avenir. Il faut aussi que votre lettre soit claire, personnelle et adaptée à l’établissement. Demandez à une personne de confiance de la relire, mais conservez votre propre voix. Une candidature convaincante ne cherche pas à paraître parfaite. Elle permet au lecteur de comprendre ce que vous avez déjà construit et pourquoi cette formation représente une étape cohérente.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Une bonne lettre de motivation ne répète pas simplement le CV."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Elle explique le lien entre votre parcours, la formation choisie et votre projet."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Avant d’écrire, identifiez deux expériences capables de vous démarquer."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "Il est important que vous ayez compris les objectifs du programme et que vous montriez précisément ce qu’il peut vous apporter."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Évitez les déclarations générales comme « J’ai toujours aimé apprendre »."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Présentez plutôt un déclencheur concret : un projet, une rencontre ou une difficulté que vous avez surmontée."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Les responsables apprécient que le candidat ait réfléchi à son évolution."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Relisez ensuite chaque paragraphe."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Le premier doit annoncer votre démarche ; le deuxième apporte des preuves ; le dernier ouvre sur l’avenir."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Il faut aussi que votre lettre soit claire, personnelle et adaptée à l’établissement."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Demandez à une personne de confiance de la relire, mais conservez votre propre voix."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "Une candidature convaincante ne cherche pas à paraître parfaite."
+        },
+        {
+          "id": "segment-13",
+          "order": 13,
+          "text": "Elle permet au lecteur de comprendre ce que vous avez déjà construit et pourquoi cette formation représente une étape cohérente."
+        }
+      ],
+      "difficulty": "B2",
+      "durationSeconds": 85,
+      "speakers": [
+        "Animatrice",
+        "Invité"
+      ],
+      "phoneticSupport": {
+        "enabled": true,
+        "locale": "fr-FR",
+        "focus": "Marque les groupes rythmiques et les mots de contraste. Fais entendre la différence entre une affirmation ferme et une conclusion nuancée.",
+        "segments": [],
+        "stressedWords": [
+          "établi",
+          "inférer",
+          "objection",
+          "réviser"
+        ],
+        "difficultSounds": [],
+        "reviewStatus": "verified"
+      },
+      "listeningComprehension": {
+        "id": "french-b2-candidature-universitaire-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Dans « Construire une candidature convaincante », quel détail présente la situation ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Une bonne lettre de motivation ne répète pas simplement le CV."
+              },
+              {
+                "id": "o2",
+                "text": "Évitez les déclarations générales comme « J’ai toujours aimé apprendre »."
+              },
+              {
+                "id": "o3",
+                "text": "Le premier doit annoncer votre démarche ; le deuxième apporte des preuves ; le dernier ouvre sur l’avenir."
+              },
+              {
+                "id": "o4",
+                "text": "Elle permet au lecteur de comprendre ce que vous avez déjà construit et pourquoi cette formation représente une étape cohérente."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Après « Une bonne lettre de motivation ne répète pas simplement le CV. », que se passe-t-il ensuite dans « Construire une candidature convaincante » ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Une bonne lettre de motivation ne répète pas simplement le CV."
+              },
+              {
+                "id": "o2",
+                "text": "Évitez les déclarations générales comme « J’ai toujours aimé apprendre »."
+              },
+              {
+                "id": "o3",
+                "text": "Le premier doit annoncer votre démarche ; le deuxième apporte des preuves ; le dernier ouvre sur l’avenir."
+              },
+              {
+                "id": "o4",
+                "text": "Elle permet au lecteur de comprendre ce que vous avez déjà construit et pourquoi cette formation représente une étape cohérente."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Construire une candidature convaincante » ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Une bonne lettre de motivation ne répète pas simplement le CV."
+              },
+              {
+                "id": "o2",
+                "text": "Évitez les déclarations générales comme « J’ai toujours aimé apprendre »."
+              },
+              {
+                "id": "o3",
+                "text": "Le premier doit annoncer votre démarche ; le deuxième apporte des preuves ; le dernier ouvre sur l’avenir."
+              },
+              {
+                "id": "o4",
+                "text": "Elle permet au lecteur de comprendre ce que vous avez déjà construit et pourquoi cette formation représente une étape cohérente."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quel résultat conclut « Construire une candidature convaincante » après « Le premier doit annoncer votre démarche ; le deuxième apporte des… » ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Une bonne lettre de motivation ne répète pas simplement le CV."
+              },
+              {
+                "id": "o2",
+                "text": "Évitez les déclarations générales comme « J’ai toujours aimé apprendre »."
+              },
+              {
+                "id": "o3",
+                "text": "Le premier doit annoncer votre démarche ; le deuxième apporte des preuves ; le dernier ouvre sur l’avenir."
+              },
+              {
+                "id": "o4",
+                "text": "Elle permet au lecteur de comprendre ce que vous avez déjà construit et pourquoi cette formation représente une étape cohérente."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Dans « Construire une candidature convaincante », quel détail présente la situation ?",
+        "options": [
+          "Une bonne lettre de motivation ne répète pas simplement le CV.",
+          "Évitez les déclarations générales comme « J’ai toujours aimé apprendre ».",
+          "Le premier doit annoncer votre démarche ; le deuxième apporte des preuves ; le dernier ouvre sur l’avenir.",
+          "Elle permet au lecteur de comprendre ce que vous avez déjà construit et pourquoi cette formation représente une étape cohérente."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Après « Une bonne lettre de motivation ne répète pas simplement le CV. », que se passe-t-il ensuite dans « Construire une candidature convaincante » ?",
+        "options": [
+          "Une bonne lettre de motivation ne répète pas simplement le CV.",
+          "Évitez les déclarations générales comme « J’ai toujours aimé apprendre ».",
+          "Le premier doit annoncer votre démarche ; le deuxième apporte des preuves ; le dernier ouvre sur l’avenir.",
+          "Elle permet au lecteur de comprendre ce que vous avez déjà construit et pourquoi cette formation représente une étape cohérente."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Construire une candidature convaincante » ?",
+        "options": [
+          "Une bonne lettre de motivation ne répète pas simplement le CV.",
+          "Évitez les déclarations générales comme « J’ai toujours aimé apprendre ».",
+          "Le premier doit annoncer votre démarche ; le deuxième apporte des preuves ; le dernier ouvre sur l’avenir.",
+          "Elle permet au lecteur de comprendre ce que vous avez déjà construit et pourquoi cette formation représente une étape cohérente."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quel résultat conclut « Construire une candidature convaincante » après « Le premier doit annoncer votre démarche ; le deuxième apporte des… » ?",
+        "options": [
+          "Une bonne lettre de motivation ne répète pas simplement le CV.",
+          "Évitez les déclarations générales comme « J’ai toujours aimé apprendre ».",
+          "Le premier doit annoncer votre démarche ; le deuxième apporte des preuves ; le dernier ouvre sur l’avenir.",
+          "Elle permet au lecteur de comprendre ce que vous avez déjà construit et pourquoi cette formation représente une étape cohérente."
+        ]
+      }
+    ]
+  },
+  {
     "slug": "french-a1-je-me-presente-speaking",
     "level": "A1",
     "skill": "speaking",
@@ -8502,67 +8502,6 @@
     ]
   },
   {
-    "slug": "french-b2-candidature-universitaire-speaking",
-    "level": "B2",
-    "skill": "speaking",
-    "unitId": "candidature-universitaire",
-    "title": "Présenter sa motivation",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 22,
-    "estimatedMinutes": 14,
-    "description": "Présente oralement ta motivation pour un projet académique ou professionnel.",
-    "intro": "Présente oralement ta motivation pour un projet académique ou professionnel.",
-    "mission": "Prépare une présentation de deux à trois minutes expliquant pourquoi tu voudrais suivre une formation ou un projet précis, avec au moins un exemple concret.",
-    "grammar": "",
-    "phrases": [
-      "Ce qui a déclenché mon intérêt pour...",
-      "Par exemple, j’ai...",
-      "Par ailleurs, je...",
-      "Ce que je souhaite apporter, c’est..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Toi",
-        "line": "Ce qui a déclenché mon intérêt pour ce domaine, c’est une expérience précise. Par exemple, j’ai... Par ailleurs, je pense pouvoir apporter...",
-        "translation": "Lo que despertó mi interés en este campo fue una experiencia concreta. Por ejemplo, yo... Además, creo que puedo aportar..."
-      }
-    ],
-    "reading": null,
-    "transcript": "Toi : Ce qui a déclenché mon intérêt pour ce domaine, c’est une expérience précise. Par exemple, j’ai... Par ailleurs, je pense pouvoir apporter...",
-    "extra": {
-      "communicationGuide": {
-        "steps": [
-          "Enregistre une première réponse sans lire un texte complet.",
-          "Utilise la transcription vocale pour vérifier ce qui a été compris.",
-          "Demande au Tuteur IA un retour sur la clarté, les preuves et le registre.",
-          "Enregistre une seconde version et compare fluidité et prononciation."
-        ],
-        "premiumMode": "Conversation libre avec le Tuteur IA",
-        "pronunciationTargets": [
-          "groupes rythmiques",
-          "mise en relief",
-          "enchaînements",
-          "intonation nuancée"
-        ]
-      },
-      "grammarTest": null,
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Présente ta motivation pour un projet académique ou professionnel, avec un exemple concret et une conclusion."
-      },
-      {
-        "type": "practice",
-        "prompt": "Avec un/une camarade, échangez des retours sur vos présentations de motivation respectives."
-      }
-    ]
-  },
-  {
     "slug": "french-c1-un-exposer-a-preparer-speaking",
     "level": "C1",
     "skill": "speaking",
@@ -8713,6 +8652,67 @@
     ]
   },
   {
+    "slug": "french-b2-candidature-universitaire-speaking",
+    "level": "B2",
+    "skill": "speaking",
+    "unitId": "candidature-universitaire",
+    "title": "Présenter sa motivation",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 22,
+    "estimatedMinutes": 14,
+    "description": "Présente oralement ta motivation pour un projet académique ou professionnel.",
+    "intro": "Présente oralement ta motivation pour un projet académique ou professionnel.",
+    "mission": "Prépare une présentation de deux à trois minutes expliquant pourquoi tu voudrais suivre une formation ou un projet précis, avec au moins un exemple concret.",
+    "grammar": "",
+    "phrases": [
+      "Ce qui a déclenché mon intérêt pour...",
+      "Par exemple, j’ai...",
+      "Par ailleurs, je...",
+      "Ce que je souhaite apporter, c’est..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Toi",
+        "line": "Ce qui a déclenché mon intérêt pour ce domaine, c’est une expérience précise. Par exemple, j’ai... Par ailleurs, je pense pouvoir apporter...",
+        "translation": "Lo que despertó mi interés en este campo fue una experiencia concreta. Por ejemplo, yo... Además, creo que puedo aportar..."
+      }
+    ],
+    "reading": null,
+    "transcript": "Toi : Ce qui a déclenché mon intérêt pour ce domaine, c’est une expérience précise. Par exemple, j’ai... Par ailleurs, je pense pouvoir apporter...",
+    "extra": {
+      "communicationGuide": {
+        "steps": [
+          "Enregistre une première réponse sans lire un texte complet.",
+          "Utilise la transcription vocale pour vérifier ce qui a été compris.",
+          "Demande au Tuteur IA un retour sur la clarté, les preuves et le registre.",
+          "Enregistre une seconde version et compare fluidité et prononciation."
+        ],
+        "premiumMode": "Conversation libre avec le Tuteur IA",
+        "pronunciationTargets": [
+          "groupes rythmiques",
+          "mise en relief",
+          "enchaînements",
+          "intonation nuancée"
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Présente ta motivation pour un projet académique ou professionnel, avec un exemple concret et une conclusion."
+      },
+      {
+        "type": "practice",
+        "prompt": "Avec un/une camarade, échangez des retours sur vos présentations de motivation respectives."
+      }
+    ]
+  },
+  {
     "slug": "french-a1-je-me-presente-writing",
     "level": "A1",
     "skill": "writing",
@@ -8830,64 +8830,6 @@
     ]
   },
   {
-    "slug": "french-b2-candidature-universitaire-writing",
-    "level": "B2",
-    "skill": "writing",
-    "unitId": "candidature-universitaire",
-    "title": "Une lettre de motivation",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 35,
-    "orderIndex": 23,
-    "estimatedMinutes": 18,
-    "description": "Rédige une lettre de motivation formelle pour un projet académique.",
-    "intro": "Rédige une lettre de motivation formelle pour un projet académique.",
-    "mission": "Écris 200 à 250 mots sous forme de lettre de motivation pour une formation ou un projet de ton choix, avec une structure claire (déclencheur, exemples, apport).",
-    "grammar": "",
-    "phrases": [
-      "Madame, Monsieur,",
-      "Ce qui a déclenché mon intérêt pour...",
-      "Par ailleurs...",
-      "Je vous prie d’agréer..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Modèle",
-        "line": "Madame, Monsieur, ce qui a déclenché mon intérêt pour cette formation remonte à une expérience précise durant laquelle j’ai découvert ma passion pour ce domaine. Par ailleurs, je suis convaincu(e) que mon parcours m’a préparé(e) à contribuer activement à votre programme.",
-        "translation": "Señora, señor, lo que despertó mi interés por esta formación se remonta a una experiencia concreta durante la cual descubrí mi pasión por este campo. Además, estoy convencido/a de que mi trayectoria me ha preparado para contribuir activamente a su programa."
-      }
-    ],
-    "reading": null,
-    "transcript": "Modèle : Madame, Monsieur, ce qui a déclenché mon intérêt pour cette formation remonte à une expérience précise durant laquelle j’ai découvert ma passion pour ce domaine. Par ailleurs, je suis convaincu(e) que mon parcours m’a préparé(e) à contribuer activement à votre programme.",
-    "extra": {
-      "writingGuide": {
-        "taskType": "texte argumentatif structuré",
-        "steps": [
-          "Délimite la question et rédige une thèse en une phrase.",
-          "Choisis deux preuves ou exemples et explique leur pertinence.",
-          "Présente loyalement l’objection la plus solide.",
-          "Réponds sans exagérer la portée des preuves.",
-          "Révise la cohésion, la grammaire, le registre et la conclusion."
-        ],
-        "checklist": [
-          "Utilise au moins deux termes de l’unité : une lettre de motivation, un dossier de candidature, convaincant(e).",
-          "Emploie correctement subjonctif passé au moins une fois.",
-          "Distingue preuve, inférence et jugement.",
-          "Vérifie les liens entre les paragraphes et supprime les affirmations absolues non justifiées."
-        ]
-      },
-      "grammarTest": null,
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "writing",
-        "prompt": "Écris une lettre de motivation de 200 à 250 mots, avec au moins un exemple concret et une phrase au subjonctif passé."
-      }
-    ]
-  },
-  {
     "slug": "french-c1-un-exposer-a-preparer-writing",
     "level": "C1",
     "skill": "writing",
@@ -9000,6 +8942,64 @@
       {
         "type": "writing",
         "prompt": "Rédige 300–350 mots. Avant l’envoi, vérifie la présence d’une thèse, de deux arguments développés, d’une objection et d’une conclusion nuancée."
+      }
+    ]
+  },
+  {
+    "slug": "french-b2-candidature-universitaire-writing",
+    "level": "B2",
+    "skill": "writing",
+    "unitId": "candidature-universitaire",
+    "title": "Une lettre de motivation",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 35,
+    "orderIndex": 23,
+    "estimatedMinutes": 18,
+    "description": "Rédige une lettre de motivation formelle pour un projet académique.",
+    "intro": "Rédige une lettre de motivation formelle pour un projet académique.",
+    "mission": "Écris 200 à 250 mots sous forme de lettre de motivation pour une formation ou un projet de ton choix, avec une structure claire (déclencheur, exemples, apport).",
+    "grammar": "",
+    "phrases": [
+      "Madame, Monsieur,",
+      "Ce qui a déclenché mon intérêt pour...",
+      "Par ailleurs...",
+      "Je vous prie d’agréer..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Modèle",
+        "line": "Madame, Monsieur, ce qui a déclenché mon intérêt pour cette formation remonte à une expérience précise durant laquelle j’ai découvert ma passion pour ce domaine. Par ailleurs, je suis convaincu(e) que mon parcours m’a préparé(e) à contribuer activement à votre programme.",
+        "translation": "Señora, señor, lo que despertó mi interés por esta formación se remonta a una experiencia concreta durante la cual descubrí mi pasión por este campo. Además, estoy convencido/a de que mi trayectoria me ha preparado para contribuir activamente a su programa."
+      }
+    ],
+    "reading": null,
+    "transcript": "Modèle : Madame, Monsieur, ce qui a déclenché mon intérêt pour cette formation remonte à une expérience précise durant laquelle j’ai découvert ma passion pour ce domaine. Par ailleurs, je suis convaincu(e) que mon parcours m’a préparé(e) à contribuer activement à votre programme.",
+    "extra": {
+      "writingGuide": {
+        "taskType": "texte argumentatif structuré",
+        "steps": [
+          "Délimite la question et rédige une thèse en une phrase.",
+          "Choisis deux preuves ou exemples et explique leur pertinence.",
+          "Présente loyalement l’objection la plus solide.",
+          "Réponds sans exagérer la portée des preuves.",
+          "Révise la cohésion, la grammaire, le registre et la conclusion."
+        ],
+        "checklist": [
+          "Utilise au moins deux termes de l’unité : une lettre de motivation, un dossier de candidature, convaincant(e).",
+          "Emploie correctement subjonctif passé au moins une fois.",
+          "Distingue preuve, inférence et jugement.",
+          "Vérifie les liens entre les paragraphes et supprime les affirmations absolues non justifiées."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Écris une lettre de motivation de 200 à 250 mots, avec au moins un exemple concret et une phrase au subjonctif passé."
       }
     ]
   },
@@ -9847,287 +9847,6 @@
     ]
   },
   {
-    "slug": "french-b2-candidature-universitaire-grammar",
-    "level": "B2",
-    "skill": "grammar",
-    "unitId": "candidature-universitaire",
-    "title": "Le subjonctif passé",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 24,
-    "estimatedMinutes": 14,
-    "description": "Exprimer une expérience accomplie après une expression subjective ou émotionnelle.",
-    "intro": "Exprimer une expérience accomplie après une expression subjective ou émotionnelle.",
-    "mission": "",
-    "grammar": "Le subjonctif passé se forme avec avoir/être au subjonctif présent + participe passé : « Je suis content(e) que tu aies réussi. Il est important que nous ayons vécu cette expérience. » Il s’utilise après les mêmes expressions que le subjonctif présent, mais pour une action déjà accomplie au moment où l’on parle.",
-    "phrases": [
-      "Je suis content(e) que tu aies...",
-      "Il est important que nous ayons...",
-      "Bien que j’aie déjà...",
-      "Il se peut qu’elle soit..."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "grammarTest": {
-        "id": "french-b2-candidature-universitaire-grammar-test",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "french-b2-candidature-universitaire-grammar-q1",
-            "type": "mcq",
-            "prompt": "Je suis fière que tu ___ cette candidature.",
-            "difficulty": "application",
-            "options": [
-              {
-                "id": "b",
-                "text": "aies envoyé"
-              },
-              {
-                "id": "a",
-                "text": "envoies"
-              },
-              {
-                "id": "c",
-                "text": "enverrais"
-              },
-              {
-                "id": "d",
-                "text": "envoyais"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-candidature-universitaire-grammar-q2",
-            "type": "mcq",
-            "prompt": "Il est important que nous ___ cette expérience ensemble.",
-            "difficulty": "application",
-            "options": [
-              {
-                "id": "a",
-                "text": "vivons"
-              },
-              {
-                "id": "b",
-                "text": "ayons vécu"
-              },
-              {
-                "id": "c",
-                "text": "vivrons"
-              },
-              {
-                "id": "d",
-                "text": "vivions"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-candidature-universitaire-grammar-q3",
-            "type": "mcq",
-            "prompt": "Bien qu’elle ___ nerveuse, elle a envoyé sa lettre.",
-            "difficulty": "analysis",
-            "options": [
-              {
-                "id": "a",
-                "text": "soit"
-              },
-              {
-                "id": "c",
-                "text": "était"
-              },
-              {
-                "id": "b",
-                "text": "ait été"
-              },
-              {
-                "id": "d",
-                "text": "sera"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-candidature-universitaire-grammar-q4",
-            "type": "mcq",
-            "prompt": "Quelle structure forme le subjonctif passé ?",
-            "difficulty": "analysis",
-            "options": [
-              {
-                "id": "b",
-                "text": "Avoir au futur + infinitif"
-              },
-              {
-                "id": "c",
-                "text": "Être à l’imparfait + gérondif"
-              },
-              {
-                "id": "d",
-                "text": "Avoir au conditionnel + infinitif"
-              },
-              {
-                "id": "a",
-                "text": "Avoir/être au subjonctif présent + participe passé"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-candidature-universitaire-grammar-q5",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Je suis fière que tu envoies cette candidature. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "b",
-                "text": "Je suis fière que tu aies envoyé cette candidature."
-              },
-              {
-                "id": "a",
-                "text": "Je suis fière que tu envoies cette candidature."
-              },
-              {
-                "id": "c",
-                "text": "Je suis fière que tu enverrais cette candidature."
-              },
-              {
-                "id": "d",
-                "text": "Je suis fière que tu envoyais cette candidature."
-              }
-            ]
-          },
-          {
-            "id": "french-b2-candidature-universitaire-grammar-q6",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Il est important que nous vivons cette expérience ensemble. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Il est important que nous vivons cette expérience ensemble."
-              },
-              {
-                "id": "b",
-                "text": "Il est important que nous ayons vécu cette expérience ensemble."
-              },
-              {
-                "id": "c",
-                "text": "Il est important que nous vivrons cette expérience ensemble."
-              },
-              {
-                "id": "d",
-                "text": "Il est important que nous vivions cette expérience ensemble."
-              }
-            ]
-          },
-          {
-            "id": "french-b2-candidature-universitaire-grammar-q7",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Bien qu’elle soit nerveuse, elle a envoyé sa lettre. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Bien qu’elle soit nerveuse, elle a envoyé sa lettre."
-              },
-              {
-                "id": "c",
-                "text": "Bien qu’elle était nerveuse, elle a envoyé sa lettre."
-              },
-              {
-                "id": "b",
-                "text": "Bien qu’elle ait été nerveuse, elle a envoyé sa lettre."
-              },
-              {
-                "id": "d",
-                "text": "Bien qu’elle sera nerveuse, elle a envoyé sa lettre."
-              }
-            ]
-          },
-          {
-            "id": "french-b2-candidature-universitaire-grammar-q8",
-            "type": "mcq",
-            "prompt": "Quelle réponse corrige l’erreur « Avoir au futur + infinitif » dans ce contexte : « Quelle structure forme le subjonctif passé ? » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "b",
-                "text": "Avoir au futur + infinitif"
-              },
-              {
-                "id": "c",
-                "text": "Être à l’imparfait + gérondif"
-              },
-              {
-                "id": "d",
-                "text": "Avoir au conditionnel + infinitif"
-              },
-              {
-                "id": "a",
-                "text": "Avoir/être au subjonctif présent + participe passé"
-              }
-            ]
-          }
-        ]
-      },
-      "grammarProfile": {
-        "name": "Le subjonctif passé",
-        "definition": "Le subjonctif passé se forme avec avoir/être au subjonctif présent + participe passé : « Je suis content(e) que tu aies réussi. Il est important que nous ayons vécu cette expérience. » Il s’utilise après les mêmes expressions que le subjonctif présent, mais pour une action déjà accomplie au moment où l’on parle.",
-        "structure": "Forme à observer : Le subjonctif passé. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
-        "function": "Exprimer une expérience accomplie après une expression subjective ou émotionnelle.",
-        "examples": [
-          "Je suis fière que tu aies envoyé cette candidature.",
-          "Il est important que nous ayons vécu cette expérience ensemble.",
-          "Bien qu’elle ait été nerveuse, elle a envoyé sa lettre.",
-          "Avoir/être au subjonctif présent + participe passé"
-        ]
-      },
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Je suis fière que tu ___ cette candidature.",
-        "options": [
-          "envoies",
-          "aies envoyé",
-          "enverrais",
-          "envoyais"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Il est important que nous ___ cette expérience ensemble.",
-        "options": [
-          "vivons",
-          "ayons vécu",
-          "vivrons",
-          "vivions"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Bien qu’elle ___ nerveuse, elle a envoyé sa lettre.",
-        "options": [
-          "soit",
-          "ait été",
-          "était",
-          "sera"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle structure forme le subjonctif passé ?",
-        "options": [
-          "Avoir/être au subjonctif présent + participe passé",
-          "Avoir au futur + infinitif",
-          "Être à l’imparfait + gérondif",
-          "Avoir au conditionnel + infinitif"
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-un-exposer-a-preparer-grammar",
     "level": "C1",
     "skill": "grammar",
@@ -10738,6 +10457,287 @@
     ]
   },
   {
+    "slug": "french-b2-candidature-universitaire-grammar",
+    "level": "B2",
+    "skill": "grammar",
+    "unitId": "candidature-universitaire",
+    "title": "Le subjonctif passé",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 24,
+    "estimatedMinutes": 14,
+    "description": "Exprimer une expérience accomplie après une expression subjective ou émotionnelle.",
+    "intro": "Exprimer une expérience accomplie après une expression subjective ou émotionnelle.",
+    "mission": "",
+    "grammar": "Le subjonctif passé se forme avec avoir/être au subjonctif présent + participe passé : « Je suis content(e) que tu aies réussi. Il est important que nous ayons vécu cette expérience. » Il s’utilise après les mêmes expressions que le subjonctif présent, mais pour une action déjà accomplie au moment où l’on parle.",
+    "phrases": [
+      "Je suis content(e) que tu aies...",
+      "Il est important que nous ayons...",
+      "Bien que j’aie déjà...",
+      "Il se peut qu’elle soit..."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": {
+      "grammarTest": {
+        "id": "french-b2-candidature-universitaire-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "french-b2-candidature-universitaire-grammar-q1",
+            "type": "mcq",
+            "prompt": "Je suis fière que tu ___ cette candidature.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "b",
+                "text": "aies envoyé"
+              },
+              {
+                "id": "a",
+                "text": "envoies"
+              },
+              {
+                "id": "c",
+                "text": "enverrais"
+              },
+              {
+                "id": "d",
+                "text": "envoyais"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-candidature-universitaire-grammar-q2",
+            "type": "mcq",
+            "prompt": "Il est important que nous ___ cette expérience ensemble.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "vivons"
+              },
+              {
+                "id": "b",
+                "text": "ayons vécu"
+              },
+              {
+                "id": "c",
+                "text": "vivrons"
+              },
+              {
+                "id": "d",
+                "text": "vivions"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-candidature-universitaire-grammar-q3",
+            "type": "mcq",
+            "prompt": "Bien qu’elle ___ nerveuse, elle a envoyé sa lettre.",
+            "difficulty": "analysis",
+            "options": [
+              {
+                "id": "a",
+                "text": "soit"
+              },
+              {
+                "id": "c",
+                "text": "était"
+              },
+              {
+                "id": "b",
+                "text": "ait été"
+              },
+              {
+                "id": "d",
+                "text": "sera"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-candidature-universitaire-grammar-q4",
+            "type": "mcq",
+            "prompt": "Quelle structure forme le subjonctif passé ?",
+            "difficulty": "analysis",
+            "options": [
+              {
+                "id": "b",
+                "text": "Avoir au futur + infinitif"
+              },
+              {
+                "id": "c",
+                "text": "Être à l’imparfait + gérondif"
+              },
+              {
+                "id": "d",
+                "text": "Avoir au conditionnel + infinitif"
+              },
+              {
+                "id": "a",
+                "text": "Avoir/être au subjonctif présent + participe passé"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-candidature-universitaire-grammar-q5",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Je suis fière que tu envoies cette candidature. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "b",
+                "text": "Je suis fière que tu aies envoyé cette candidature."
+              },
+              {
+                "id": "a",
+                "text": "Je suis fière que tu envoies cette candidature."
+              },
+              {
+                "id": "c",
+                "text": "Je suis fière que tu enverrais cette candidature."
+              },
+              {
+                "id": "d",
+                "text": "Je suis fière que tu envoyais cette candidature."
+              }
+            ]
+          },
+          {
+            "id": "french-b2-candidature-universitaire-grammar-q6",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Il est important que nous vivons cette expérience ensemble. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Il est important que nous vivons cette expérience ensemble."
+              },
+              {
+                "id": "b",
+                "text": "Il est important que nous ayons vécu cette expérience ensemble."
+              },
+              {
+                "id": "c",
+                "text": "Il est important que nous vivrons cette expérience ensemble."
+              },
+              {
+                "id": "d",
+                "text": "Il est important que nous vivions cette expérience ensemble."
+              }
+            ]
+          },
+          {
+            "id": "french-b2-candidature-universitaire-grammar-q7",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Bien qu’elle soit nerveuse, elle a envoyé sa lettre. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Bien qu’elle soit nerveuse, elle a envoyé sa lettre."
+              },
+              {
+                "id": "c",
+                "text": "Bien qu’elle était nerveuse, elle a envoyé sa lettre."
+              },
+              {
+                "id": "b",
+                "text": "Bien qu’elle ait été nerveuse, elle a envoyé sa lettre."
+              },
+              {
+                "id": "d",
+                "text": "Bien qu’elle sera nerveuse, elle a envoyé sa lettre."
+              }
+            ]
+          },
+          {
+            "id": "french-b2-candidature-universitaire-grammar-q8",
+            "type": "mcq",
+            "prompt": "Quelle réponse corrige l’erreur « Avoir au futur + infinitif » dans ce contexte : « Quelle structure forme le subjonctif passé ? » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "b",
+                "text": "Avoir au futur + infinitif"
+              },
+              {
+                "id": "c",
+                "text": "Être à l’imparfait + gérondif"
+              },
+              {
+                "id": "d",
+                "text": "Avoir au conditionnel + infinitif"
+              },
+              {
+                "id": "a",
+                "text": "Avoir/être au subjonctif présent + participe passé"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Le subjonctif passé",
+        "definition": "Le subjonctif passé se forme avec avoir/être au subjonctif présent + participe passé : « Je suis content(e) que tu aies réussi. Il est important que nous ayons vécu cette expérience. » Il s’utilise après les mêmes expressions que le subjonctif présent, mais pour une action déjà accomplie au moment où l’on parle.",
+        "structure": "Forme à observer : Le subjonctif passé. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Exprimer une expérience accomplie après une expression subjective ou émotionnelle.",
+        "examples": [
+          "Je suis fière que tu aies envoyé cette candidature.",
+          "Il est important que nous ayons vécu cette expérience ensemble.",
+          "Bien qu’elle ait été nerveuse, elle a envoyé sa lettre.",
+          "Avoir/être au subjonctif présent + participe passé"
+        ]
+      },
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Je suis fière que tu ___ cette candidature.",
+        "options": [
+          "envoies",
+          "aies envoyé",
+          "enverrais",
+          "envoyais"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Il est important que nous ___ cette expérience ensemble.",
+        "options": [
+          "vivons",
+          "ayons vécu",
+          "vivrons",
+          "vivions"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Bien qu’elle ___ nerveuse, elle a envoyé sa lettre.",
+        "options": [
+          "soit",
+          "ait été",
+          "était",
+          "sera"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle structure forme le subjonctif passé ?",
+        "options": [
+          "Avoir/être au subjonctif présent + participe passé",
+          "Avoir au futur + infinitif",
+          "Être à l’imparfait + gérondif",
+          "Avoir au conditionnel + infinitif"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "french-a1-je-me-presente-vocabulary",
     "level": "A1",
     "skill": "vocabulary",
@@ -11028,86 +11028,6 @@
           "La trayectoria",
           "El destino",
           "El obstáculo"
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "french-b2-candidature-universitaire-vocabulary",
-    "level": "B2",
-    "skill": "vocabulary",
-    "unitId": "candidature-universitaire",
-    "title": "Le vocabulaire de la candidature universitaire",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 25,
-    "estimatedMinutes": 10,
-    "description": "Le vocabulaire essentiel pour rédiger une candidature académique.",
-    "intro": "Le vocabulaire essentiel pour rédiger une candidature académique.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [
-      {
-        "word": "une lettre de motivation",
-        "translation": "una carta de motivación",
-        "example": "J’ai rédigé ma lettre de motivation avec soin."
-      },
-      {
-        "word": "un dossier de candidature",
-        "translation": "un expediente de solicitud",
-        "example": "Mon dossier de candidature est complet."
-      },
-      {
-        "word": "convaincant(e)",
-        "translation": "convincente",
-        "example": "Ton argument est très convaincant."
-      },
-      {
-        "word": "se démarquer",
-        "translation": "destacarse",
-        "example": "Il faut se démarquer des autres candidats."
-      },
-      {
-        "word": "un déclencheur",
-        "translation": "un detonante",
-        "example": "Quel a été le déclencheur de ta passion pour les langues ?"
-      }
-    ],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « se démarquer » ?",
-        "options": [
-          "Destacarse",
-          "Rendirse",
-          "Copiar",
-          "Esconderse"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « convaincant(e) » ?",
-        "options": [
-          "Aburrido",
-          "Convincente",
-          "Confuso",
-          "Falso"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « un dossier de candidature » ?",
-        "options": [
-          "Un expediente de solicitud",
-          "Una carta personal",
-          "Un examen final",
-          "Un certificado médico"
         ]
       }
     ]
@@ -11467,6 +11387,86 @@
           "dans une direction opposée à une idée ou à une tendance dominante"
         ],
         "explanation": "« à rebours de » désigne dans une direction opposée à une idée ou à une tendance dominante."
+      }
+    ]
+  },
+  {
+    "slug": "french-b2-candidature-universitaire-vocabulary",
+    "level": "B2",
+    "skill": "vocabulary",
+    "unitId": "candidature-universitaire",
+    "title": "Le vocabulaire de la candidature universitaire",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 25,
+    "estimatedMinutes": 10,
+    "description": "Le vocabulaire essentiel pour rédiger une candidature académique.",
+    "intro": "Le vocabulaire essentiel pour rédiger une candidature académique.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "une lettre de motivation",
+        "translation": "una carta de motivación",
+        "example": "J’ai rédigé ma lettre de motivation avec soin."
+      },
+      {
+        "word": "un dossier de candidature",
+        "translation": "un expediente de solicitud",
+        "example": "Mon dossier de candidature est complet."
+      },
+      {
+        "word": "convaincant(e)",
+        "translation": "convincente",
+        "example": "Ton argument est très convaincant."
+      },
+      {
+        "word": "se démarquer",
+        "translation": "destacarse",
+        "example": "Il faut se démarquer des autres candidats."
+      },
+      {
+        "word": "un déclencheur",
+        "translation": "un detonante",
+        "example": "Quel a été le déclencheur de ta passion pour les langues ?"
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « se démarquer » ?",
+        "options": [
+          "Destacarse",
+          "Rendirse",
+          "Copiar",
+          "Esconderse"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « convaincant(e) » ?",
+        "options": [
+          "Aburrido",
+          "Convincente",
+          "Confuso",
+          "Falso"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « un dossier de candidature » ?",
+        "options": [
+          "Un expediente de solicitud",
+          "Una carta personal",
+          "Un examen final",
+          "Un certificado médico"
+        ]
       }
     ]
   },
@@ -12174,96 +12174,6 @@
     ]
   },
   {
-    "slug": "french-b2-debats-de-societe-reading",
-    "level": "B2",
-    "skill": "reading",
-    "unitId": "debats-de-societe",
-    "title": "Écrans et adolescence : un débat loin d’être tranché",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 35,
-    "orderIndex": 30,
-    "estimatedMinutes": 18,
-    "description": "Ce que disent réellement les recherches sur le temps d’écran chez les jeunes, entre inquiétudes légitimes et nuances scientifiques.",
-    "intro": "Ce que disent réellement les recherches sur le temps d’écran chez les jeunes, entre inquiétudes légitimes et nuances scientifiques.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": {
-      "title": "Écrans et adolescence : un débat loin d’être tranché",
-      "parts": [
-        "Trois heures et quart : c’est le temps quotidien moyen que les adolescents français passeraient devant un écran de loisir en dehors du cadre scolaire, selon plusieurs enquêtes relayées par des agences sanitaires comme l’ANSES. Ce chiffre, largement commenté dans les médias, a contribué à installer dans l’opinion publique l’idée que les écrans seraient, par nature, néfastes pour les jeunes — une idée que nuancent pourtant une partie des chercheurs en psychologie du développement.",
-        "Selon eux, ce n’est pas tant la durée d’exposition qui importe que le type de contenu consommé et le contexte dans lequel il l’est. Un adolescent qui utilise un écran pour échanger avec des amis, apprendre une langue ou créer du contenu ne se trouve pas dans la même situation que celui qui consulte de façon compulsive des contenus conçus pour capter l’attention le plus longtemps possible. Cette distinction, souvent absente des discours alarmistes, complique nettement l’établissement de recommandations universelles. Il me semble, du reste, que cette nuance est rarement reprise telle quelle par les gros titres.",
-        "Les partisans d’une régulation plus stricte rappellent, quant à eux, que l’architecture même de nombreuses plateformes est pensée pour maximiser le temps de connexion, indépendamment de l’intérêt réel du contenu proposé — un mécanisme que la chercheuse américaine Jean Twenge, autrice de l’essai « iGen », associe à la hausse des troubles anxieux observée chez les adolescents nés après le milieu des années 1990. Certains pays ont d’ailleurs commencé à légiférer sur l’accès des mineurs aux réseaux sociaux ; d’autres, à l’inverse, préfèrent miser sur l’éducation aux médias.",
-        "Ce débat, loin d’être clos, illustre une difficulté plus large : celle de légiférer sur un phénomène qui évolue plus vite que les études censées l’évaluer. Un dialogue ouvert entre parents et adolescents est néanmoins, dans une certaine mesure, jugé plus efficace qu’une interdiction rigide et unilatérale par ceux qui étudient de près ces usages numériques."
-      ],
-      "questions": [
-        "Quel chiffre le texte cite-t-il concernant le temps d’écran quotidien des adolescents français ?",
-        "Selon certains chercheurs en psychologie du développement, qu’est-ce qui importe le plus que la durée d’exposition ?",
-        "À quel phénomène la chercheuse Jean Twenge associe-t-elle l’architecture des plateformes numériques ?",
-        "Que font certains pays face à ce débat, selon le texte ?",
-        "Quelle stratégie est jugée plus efficace qu’une interdiction rigide, selon la conclusion du texte ?"
-      ],
-      "text": "Trois heures et quart : c’est le temps quotidien moyen que les adolescents français passeraient devant un écran de loisir en dehors du cadre scolaire, selon plusieurs enquêtes relayées par des agences sanitaires comme l’ANSES. Ce chiffre, largement commenté dans les médias, a contribué à installer dans l’opinion publique l’idée que les écrans seraient, par nature, néfastes pour les jeunes — une idée que nuancent pourtant une partie des chercheurs en psychologie du développement.\n\nSelon eux, ce n’est pas tant la durée d’exposition qui importe que le type de contenu consommé et le contexte dans lequel il l’est. Un adolescent qui utilise un écran pour échanger avec des amis, apprendre une langue ou créer du contenu ne se trouve pas dans la même situation que celui qui consulte de façon compulsive des contenus conçus pour capter l’attention le plus longtemps possible. Cette distinction, souvent absente des discours alarmistes, complique nettement l’établissement de recommandations universelles. Il me semble, du reste, que cette nuance est rarement reprise telle quelle par les gros titres.\n\nLes partisans d’une régulation plus stricte rappellent, quant à eux, que l’architecture même de nombreuses plateformes est pensée pour maximiser le temps de connexion, indépendamment de l’intérêt réel du contenu proposé — un mécanisme que la chercheuse américaine Jean Twenge, autrice de l’essai « iGen », associe à la hausse des troubles anxieux observée chez les adolescents nés après le milieu des années 1990. Certains pays ont d’ailleurs commencé à légiférer sur l’accès des mineurs aux réseaux sociaux ; d’autres, à l’inverse, préfèrent miser sur l’éducation aux médias.\n\nCe débat, loin d’être clos, illustre une difficulté plus large : celle de légiférer sur un phénomène qui évolue plus vite que les études censées l’évaluer. Un dialogue ouvert entre parents et adolescents est néanmoins, dans une certaine mesure, jugé plus efficace qu’une interdiction rigide et unilatérale par ceux qui étudient de près ces usages numériques."
-    },
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Quel chiffre le texte cite-t-il concernant le temps d’écran quotidien des adolescents français ?",
-        "options": [
-          "Trois heures et quart",
-          "Une demi-heure",
-          "Huit heures",
-          "Le texte ne donne aucun chiffre"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selon certains chercheurs en psychologie du développement, qu’est-ce qui importe le plus que la durée d’exposition ?",
-        "options": [
-          "Le prix de l’appareil utilisé",
-          "Le type de contenu consommé et le contexte",
-          "La marque du téléphone",
-          "L’heure exacte de la journée uniquement"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "À quel phénomène la chercheuse Jean Twenge associe-t-elle l’architecture des plateformes numériques ?",
-        "options": [
-          "La hausse des troubles anxieux chez les adolescents nés après le milieu des années 1990",
-          "La baisse du niveau scolaire général",
-          "L’augmentation du sport pratiqué",
-          "La diminution du temps de sommeil des adultes"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que font certains pays face à ce débat, selon le texte ?",
-        "options": [
-          "Ils légifèrent sur l’accès des mineurs aux réseaux sociaux",
-          "Ils interdisent tous les écrans dans le monde entier",
-          "Ils ignorent totalement la question",
-          "Ils suppriment l’école"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle stratégie est jugée plus efficace qu’une interdiction rigide, selon la conclusion du texte ?",
-        "options": [
-          "La confiscation systématique des appareils",
-          "Un dialogue ouvert entre parents et adolescents",
-          "L’absence totale de règles",
-          "Une loi identique dans tous les pays"
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-les-medias-et-la-fabrique-de-lopinion-reading",
     "level": "C1",
     "skill": "reading",
@@ -12472,6 +12382,96 @@
           "De la suppression complète des armes nucléaires"
         ],
         "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Un monde multipolaire est-il nécessairement plus instable ? »."
+      }
+    ]
+  },
+  {
+    "slug": "french-b2-debats-de-societe-reading",
+    "level": "B2",
+    "skill": "reading",
+    "unitId": "debats-de-societe",
+    "title": "Écrans et adolescence : un débat loin d’être tranché",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 35,
+    "orderIndex": 30,
+    "estimatedMinutes": 18,
+    "description": "Ce que disent réellement les recherches sur le temps d’écran chez les jeunes, entre inquiétudes légitimes et nuances scientifiques.",
+    "intro": "Ce que disent réellement les recherches sur le temps d’écran chez les jeunes, entre inquiétudes légitimes et nuances scientifiques.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "Écrans et adolescence : un débat loin d’être tranché",
+      "parts": [
+        "Trois heures et quart : c’est le temps quotidien moyen que les adolescents français passeraient devant un écran de loisir en dehors du cadre scolaire, selon plusieurs enquêtes relayées par des agences sanitaires comme l’ANSES. Ce chiffre, largement commenté dans les médias, a contribué à installer dans l’opinion publique l’idée que les écrans seraient, par nature, néfastes pour les jeunes — une idée que nuancent pourtant une partie des chercheurs en psychologie du développement.",
+        "Selon eux, ce n’est pas tant la durée d’exposition qui importe que le type de contenu consommé et le contexte dans lequel il l’est. Un adolescent qui utilise un écran pour échanger avec des amis, apprendre une langue ou créer du contenu ne se trouve pas dans la même situation que celui qui consulte de façon compulsive des contenus conçus pour capter l’attention le plus longtemps possible. Cette distinction, souvent absente des discours alarmistes, complique nettement l’établissement de recommandations universelles. Il me semble, du reste, que cette nuance est rarement reprise telle quelle par les gros titres.",
+        "Les partisans d’une régulation plus stricte rappellent, quant à eux, que l’architecture même de nombreuses plateformes est pensée pour maximiser le temps de connexion, indépendamment de l’intérêt réel du contenu proposé — un mécanisme que la chercheuse américaine Jean Twenge, autrice de l’essai « iGen », associe à la hausse des troubles anxieux observée chez les adolescents nés après le milieu des années 1990. Certains pays ont d’ailleurs commencé à légiférer sur l’accès des mineurs aux réseaux sociaux ; d’autres, à l’inverse, préfèrent miser sur l’éducation aux médias.",
+        "Ce débat, loin d’être clos, illustre une difficulté plus large : celle de légiférer sur un phénomène qui évolue plus vite que les études censées l’évaluer. Un dialogue ouvert entre parents et adolescents est néanmoins, dans une certaine mesure, jugé plus efficace qu’une interdiction rigide et unilatérale par ceux qui étudient de près ces usages numériques."
+      ],
+      "questions": [
+        "Quel chiffre le texte cite-t-il concernant le temps d’écran quotidien des adolescents français ?",
+        "Selon certains chercheurs en psychologie du développement, qu’est-ce qui importe le plus que la durée d’exposition ?",
+        "À quel phénomène la chercheuse Jean Twenge associe-t-elle l’architecture des plateformes numériques ?",
+        "Que font certains pays face à ce débat, selon le texte ?",
+        "Quelle stratégie est jugée plus efficace qu’une interdiction rigide, selon la conclusion du texte ?"
+      ],
+      "text": "Trois heures et quart : c’est le temps quotidien moyen que les adolescents français passeraient devant un écran de loisir en dehors du cadre scolaire, selon plusieurs enquêtes relayées par des agences sanitaires comme l’ANSES. Ce chiffre, largement commenté dans les médias, a contribué à installer dans l’opinion publique l’idée que les écrans seraient, par nature, néfastes pour les jeunes — une idée que nuancent pourtant une partie des chercheurs en psychologie du développement.\n\nSelon eux, ce n’est pas tant la durée d’exposition qui importe que le type de contenu consommé et le contexte dans lequel il l’est. Un adolescent qui utilise un écran pour échanger avec des amis, apprendre une langue ou créer du contenu ne se trouve pas dans la même situation que celui qui consulte de façon compulsive des contenus conçus pour capter l’attention le plus longtemps possible. Cette distinction, souvent absente des discours alarmistes, complique nettement l’établissement de recommandations universelles. Il me semble, du reste, que cette nuance est rarement reprise telle quelle par les gros titres.\n\nLes partisans d’une régulation plus stricte rappellent, quant à eux, que l’architecture même de nombreuses plateformes est pensée pour maximiser le temps de connexion, indépendamment de l’intérêt réel du contenu proposé — un mécanisme que la chercheuse américaine Jean Twenge, autrice de l’essai « iGen », associe à la hausse des troubles anxieux observée chez les adolescents nés après le milieu des années 1990. Certains pays ont d’ailleurs commencé à légiférer sur l’accès des mineurs aux réseaux sociaux ; d’autres, à l’inverse, préfèrent miser sur l’éducation aux médias.\n\nCe débat, loin d’être clos, illustre une difficulté plus large : celle de légiférer sur un phénomène qui évolue plus vite que les études censées l’évaluer. Un dialogue ouvert entre parents et adolescents est néanmoins, dans une certaine mesure, jugé plus efficace qu’une interdiction rigide et unilatérale par ceux qui étudient de près ces usages numériques."
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Quel chiffre le texte cite-t-il concernant le temps d’écran quotidien des adolescents français ?",
+        "options": [
+          "Trois heures et quart",
+          "Une demi-heure",
+          "Huit heures",
+          "Le texte ne donne aucun chiffre"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Selon certains chercheurs en psychologie du développement, qu’est-ce qui importe le plus que la durée d’exposition ?",
+        "options": [
+          "Le prix de l’appareil utilisé",
+          "Le type de contenu consommé et le contexte",
+          "La marque du téléphone",
+          "L’heure exacte de la journée uniquement"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "À quel phénomène la chercheuse Jean Twenge associe-t-elle l’architecture des plateformes numériques ?",
+        "options": [
+          "La hausse des troubles anxieux chez les adolescents nés après le milieu des années 1990",
+          "La baisse du niveau scolaire général",
+          "L’augmentation du sport pratiqué",
+          "La diminution du temps de sommeil des adultes"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que font certains pays face à ce débat, selon le texte ?",
+        "options": [
+          "Ils légifèrent sur l’accès des mineurs aux réseaux sociaux",
+          "Ils interdisent tous les écrans dans le monde entier",
+          "Ils ignorent totalement la question",
+          "Ils suppriment l’école"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle stratégie est jugée plus efficace qu’une interdiction rigide, selon la conclusion du texte ?",
+        "options": [
+          "La confiscation systématique des appareils",
+          "Un dialogue ouvert entre parents et adolescents",
+          "L’absence totale de règles",
+          "Une loi identique dans tous les pays"
+        ]
       }
     ]
   },
@@ -13207,251 +13207,6 @@
     ]
   },
   {
-    "slug": "french-b2-debats-de-societe-listening",
-    "level": "B2",
-    "skill": "listening",
-    "unitId": "debats-de-societe",
-    "title": "Le débat public et ses règles",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 35,
-    "orderIndex": 31,
-    "estimatedMinutes": 14,
-    "description": "Écoute ce contenu de niveau B2 et identifie les idées, les nuances et les preuves.",
-    "intro": "Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [
-      "Il me semble que...",
-      "Néanmoins...",
-      "Le vrai problème, c’est...",
-      "Dans une certaine mesure..."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les autres. Une idée doit être expliquée, illustrée et confrontée à des contre-arguments. Pourtant, sur de nombreuses plateformes, les messages sont sélectionnés par des algorithmes et les réactions les plus fortes sont souvent mises en avant. Le débat est alors transformé en spectacle et certaines nuances sont perdues. Dans une certaine mesure, les réseaux facilitent la participation citoyenne : des témoignages sont diffusés, des problèmes ignorés sont rendus visibles et des communautés sont mobilisées. Néanmoins, ces contenus sont rarement vérifiés avec la même attention. Pour améliorer la discussion, chaque argument devrait être accompagné d’une source identifiable. Les personnes concernées devraient aussi être entendues, plutôt que seulement décrites par d’autres. Enfin, réfuter une idée ne signifie pas attaquer celui qui l’exprime. Une démocratie a besoin de désaccords, mais elle a surtout besoin de règles qui permettent à ces désaccords de produire de la compréhension plutôt que de la méfiance.",
-    "extra": {
-      "listeningType": "monologue",
-      "listeningFormat": "editorial",
-      "storyTitle": "Le débat public et ses règles",
-      "mainTranscript": "Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les autres. Une idée doit être expliquée, illustrée et confrontée à des contre-arguments. Pourtant, sur de nombreuses plateformes, les messages sont sélectionnés par des algorithmes et les réactions les plus fortes sont souvent mises en avant. Le débat est alors transformé en spectacle et certaines nuances sont perdues. Dans une certaine mesure, les réseaux facilitent la participation citoyenne : des témoignages sont diffusés, des problèmes ignorés sont rendus visibles et des communautés sont mobilisées. Néanmoins, ces contenus sont rarement vérifiés avec la même attention. Pour améliorer la discussion, chaque argument devrait être accompagné d’une source identifiable. Les personnes concernées devraient aussi être entendues, plutôt que seulement décrites par d’autres. Enfin, réfuter une idée ne signifie pas attaquer celui qui l’exprime. Une démocratie a besoin de désaccords, mais elle a surtout besoin de règles qui permettent à ces désaccords de produire de la compréhension plutôt que de la méfiance.",
-      "transcriptSegments": [
-        {
-          "id": "segment-01",
-          "order": 1,
-          "text": "Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les autres."
-        },
-        {
-          "id": "segment-02",
-          "order": 2,
-          "text": "Une idée doit être expliquée, illustrée et confrontée à des contre-arguments."
-        },
-        {
-          "id": "segment-03",
-          "order": 3,
-          "text": "Pourtant, sur de nombreuses plateformes, les messages sont sélectionnés par des algorithmes et les réactions les plus fortes sont souvent mises en avant."
-        },
-        {
-          "id": "segment-04",
-          "order": 4,
-          "text": "Le débat est alors transformé en spectacle et certaines nuances sont perdues."
-        },
-        {
-          "id": "segment-05",
-          "order": 5,
-          "text": "Dans une certaine mesure, les réseaux facilitent la participation citoyenne : des témoignages sont diffusés, des problèmes ignorés sont rendus visibles et des communautés sont mobilisées."
-        },
-        {
-          "id": "segment-06",
-          "order": 6,
-          "text": "Néanmoins, ces contenus sont rarement vérifiés avec la même attention."
-        },
-        {
-          "id": "segment-07",
-          "order": 7,
-          "text": "Pour améliorer la discussion, chaque argument devrait être accompagné d’une source identifiable."
-        },
-        {
-          "id": "segment-08",
-          "order": 8,
-          "text": "Les personnes concernées devraient aussi être entendues, plutôt que seulement décrites par d’autres."
-        },
-        {
-          "id": "segment-09",
-          "order": 9,
-          "text": "Enfin, réfuter une idée ne signifie pas attaquer celui qui l’exprime."
-        },
-        {
-          "id": "segment-10",
-          "order": 10,
-          "text": "Une démocratie a besoin de désaccords, mais elle a surtout besoin de règles qui permettent à ces désaccords de produire de la compréhension plutôt que de la méfiance."
-        }
-      ],
-      "difficulty": "B2",
-      "durationSeconds": 85,
-      "speakers": [
-        "Animatrice",
-        "Invité"
-      ],
-      "phoneticSupport": {
-        "enabled": true,
-        "locale": "fr-FR",
-        "focus": "Marque les groupes rythmiques et les mots de contraste. Fais entendre la différence entre une affirmation ferme et une conclusion nuancée.",
-        "segments": [],
-        "stressedWords": [
-          "établi",
-          "inférer",
-          "objection",
-          "réviser"
-        ],
-        "difficultSounds": [],
-        "reviewStatus": "verified"
-      },
-      "listeningComprehension": {
-        "id": "french-b2-debats-de-societe-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Dans « Le débat public et ses règles », quel détail présente la situation ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les autres."
-              },
-              {
-                "id": "o2",
-                "text": "Le débat est alors transformé en spectacle et certaines nuances sont perdues."
-              },
-              {
-                "id": "o3",
-                "text": "Pour améliorer la discussion, chaque argument devrait être accompagné d’une source identifiable."
-              },
-              {
-                "id": "o4",
-                "text": "Une démocratie a besoin de désaccords, mais elle a surtout besoin de règles qui permettent à ces désaccords de produire de la compréhension plutôt que de la méfiance."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Après « Dans un débat de société, défendre un point de vue ne consiste pas à… », que se passe-t-il ensuite dans « Le débat public et ses règles » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les autres."
-              },
-              {
-                "id": "o2",
-                "text": "Le débat est alors transformé en spectacle et certaines nuances sont perdues."
-              },
-              {
-                "id": "o3",
-                "text": "Pour améliorer la discussion, chaque argument devrait être accompagné d’une source identifiable."
-              },
-              {
-                "id": "o4",
-                "text": "Une démocratie a besoin de désaccords, mais elle a surtout besoin de règles qui permettent à ces désaccords de produire de la compréhension plutôt que de la méfiance."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Le débat public et ses règles » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les autres."
-              },
-              {
-                "id": "o2",
-                "text": "Le débat est alors transformé en spectacle et certaines nuances sont perdues."
-              },
-              {
-                "id": "o3",
-                "text": "Pour améliorer la discussion, chaque argument devrait être accompagné d’une source identifiable."
-              },
-              {
-                "id": "o4",
-                "text": "Une démocratie a besoin de désaccords, mais elle a surtout besoin de règles qui permettent à ces désaccords de produire de la compréhension plutôt que de la méfiance."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Quel résultat conclut « Le débat public et ses règles » après « Pour améliorer la discussion, chaque argument devrait être accompagné… » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les autres."
-              },
-              {
-                "id": "o2",
-                "text": "Le débat est alors transformé en spectacle et certaines nuances sont perdues."
-              },
-              {
-                "id": "o3",
-                "text": "Pour améliorer la discussion, chaque argument devrait être accompagné d’une source identifiable."
-              },
-              {
-                "id": "o4",
-                "text": "Une démocratie a besoin de désaccords, mais elle a surtout besoin de règles qui permettent à ces désaccords de produire de la compréhension plutôt que de la méfiance."
-              }
-            ]
-          }
-        ]
-      },
-      "grammarTest": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Dans « Le débat public et ses règles », quel détail présente la situation ?",
-        "options": [
-          "Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les autres.",
-          "Le débat est alors transformé en spectacle et certaines nuances sont perdues.",
-          "Pour améliorer la discussion, chaque argument devrait être accompagné d’une source identifiable.",
-          "Une démocratie a besoin de désaccords, mais elle a surtout besoin de règles qui permettent à ces désaccords de produire de la compréhension plutôt que de la méfiance."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Après « Dans un débat de société, défendre un point de vue ne consiste pas à… », que se passe-t-il ensuite dans « Le débat public et ses règles » ?",
-        "options": [
-          "Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les autres.",
-          "Le débat est alors transformé en spectacle et certaines nuances sont perdues.",
-          "Pour améliorer la discussion, chaque argument devrait être accompagné d’une source identifiable.",
-          "Une démocratie a besoin de désaccords, mais elle a surtout besoin de règles qui permettent à ces désaccords de produire de la compréhension plutôt que de la méfiance."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Le débat public et ses règles » ?",
-        "options": [
-          "Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les autres.",
-          "Le débat est alors transformé en spectacle et certaines nuances sont perdues.",
-          "Pour améliorer la discussion, chaque argument devrait être accompagné d’une source identifiable.",
-          "Une démocratie a besoin de désaccords, mais elle a surtout besoin de règles qui permettent à ces désaccords de produire de la compréhension plutôt que de la méfiance."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel résultat conclut « Le débat public et ses règles » après « Pour améliorer la discussion, chaque argument devrait être accompagné… » ?",
-        "options": [
-          "Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les autres.",
-          "Le débat est alors transformé en spectacle et certaines nuances sont perdues.",
-          "Pour améliorer la discussion, chaque argument devrait être accompagné d’une source identifiable.",
-          "Une démocratie a besoin de désaccords, mais elle a surtout besoin de règles qui permettent à ces désaccords de produire de la compréhension plutôt que de la méfiance."
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-les-medias-et-la-fabrique-de-lopinion-listening",
     "level": "C1",
     "skill": "listening",
@@ -13974,6 +13729,251 @@
     ]
   },
   {
+    "slug": "french-b2-debats-de-societe-listening",
+    "level": "B2",
+    "skill": "listening",
+    "unitId": "debats-de-societe",
+    "title": "Le débat public et ses règles",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 35,
+    "orderIndex": 31,
+    "estimatedMinutes": 14,
+    "description": "Écoute ce contenu de niveau B2 et identifie les idées, les nuances et les preuves.",
+    "intro": "Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "Il me semble que...",
+      "Néanmoins...",
+      "Le vrai problème, c’est...",
+      "Dans une certaine mesure..."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les autres. Une idée doit être expliquée, illustrée et confrontée à des contre-arguments. Pourtant, sur de nombreuses plateformes, les messages sont sélectionnés par des algorithmes et les réactions les plus fortes sont souvent mises en avant. Le débat est alors transformé en spectacle et certaines nuances sont perdues. Dans une certaine mesure, les réseaux facilitent la participation citoyenne : des témoignages sont diffusés, des problèmes ignorés sont rendus visibles et des communautés sont mobilisées. Néanmoins, ces contenus sont rarement vérifiés avec la même attention. Pour améliorer la discussion, chaque argument devrait être accompagné d’une source identifiable. Les personnes concernées devraient aussi être entendues, plutôt que seulement décrites par d’autres. Enfin, réfuter une idée ne signifie pas attaquer celui qui l’exprime. Une démocratie a besoin de désaccords, mais elle a surtout besoin de règles qui permettent à ces désaccords de produire de la compréhension plutôt que de la méfiance.",
+    "extra": {
+      "listeningType": "monologue",
+      "listeningFormat": "editorial",
+      "storyTitle": "Le débat public et ses règles",
+      "mainTranscript": "Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les autres. Une idée doit être expliquée, illustrée et confrontée à des contre-arguments. Pourtant, sur de nombreuses plateformes, les messages sont sélectionnés par des algorithmes et les réactions les plus fortes sont souvent mises en avant. Le débat est alors transformé en spectacle et certaines nuances sont perdues. Dans une certaine mesure, les réseaux facilitent la participation citoyenne : des témoignages sont diffusés, des problèmes ignorés sont rendus visibles et des communautés sont mobilisées. Néanmoins, ces contenus sont rarement vérifiés avec la même attention. Pour améliorer la discussion, chaque argument devrait être accompagné d’une source identifiable. Les personnes concernées devraient aussi être entendues, plutôt que seulement décrites par d’autres. Enfin, réfuter une idée ne signifie pas attaquer celui qui l’exprime. Une démocratie a besoin de désaccords, mais elle a surtout besoin de règles qui permettent à ces désaccords de produire de la compréhension plutôt que de la méfiance.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les autres."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Une idée doit être expliquée, illustrée et confrontée à des contre-arguments."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Pourtant, sur de nombreuses plateformes, les messages sont sélectionnés par des algorithmes et les réactions les plus fortes sont souvent mises en avant."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "Le débat est alors transformé en spectacle et certaines nuances sont perdues."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Dans une certaine mesure, les réseaux facilitent la participation citoyenne : des témoignages sont diffusés, des problèmes ignorés sont rendus visibles et des communautés sont mobilisées."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Néanmoins, ces contenus sont rarement vérifiés avec la même attention."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Pour améliorer la discussion, chaque argument devrait être accompagné d’une source identifiable."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Les personnes concernées devraient aussi être entendues, plutôt que seulement décrites par d’autres."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Enfin, réfuter une idée ne signifie pas attaquer celui qui l’exprime."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Une démocratie a besoin de désaccords, mais elle a surtout besoin de règles qui permettent à ces désaccords de produire de la compréhension plutôt que de la méfiance."
+        }
+      ],
+      "difficulty": "B2",
+      "durationSeconds": 85,
+      "speakers": [
+        "Animatrice",
+        "Invité"
+      ],
+      "phoneticSupport": {
+        "enabled": true,
+        "locale": "fr-FR",
+        "focus": "Marque les groupes rythmiques et les mots de contraste. Fais entendre la différence entre une affirmation ferme et une conclusion nuancée.",
+        "segments": [],
+        "stressedWords": [
+          "établi",
+          "inférer",
+          "objection",
+          "réviser"
+        ],
+        "difficultSounds": [],
+        "reviewStatus": "verified"
+      },
+      "listeningComprehension": {
+        "id": "french-b2-debats-de-societe-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Dans « Le débat public et ses règles », quel détail présente la situation ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les autres."
+              },
+              {
+                "id": "o2",
+                "text": "Le débat est alors transformé en spectacle et certaines nuances sont perdues."
+              },
+              {
+                "id": "o3",
+                "text": "Pour améliorer la discussion, chaque argument devrait être accompagné d’une source identifiable."
+              },
+              {
+                "id": "o4",
+                "text": "Une démocratie a besoin de désaccords, mais elle a surtout besoin de règles qui permettent à ces désaccords de produire de la compréhension plutôt que de la méfiance."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Après « Dans un débat de société, défendre un point de vue ne consiste pas à… », que se passe-t-il ensuite dans « Le débat public et ses règles » ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les autres."
+              },
+              {
+                "id": "o2",
+                "text": "Le débat est alors transformé en spectacle et certaines nuances sont perdues."
+              },
+              {
+                "id": "o3",
+                "text": "Pour améliorer la discussion, chaque argument devrait être accompagné d’une source identifiable."
+              },
+              {
+                "id": "o4",
+                "text": "Une démocratie a besoin de désaccords, mais elle a surtout besoin de règles qui permettent à ces désaccords de produire de la compréhension plutôt que de la méfiance."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Le débat public et ses règles » ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les autres."
+              },
+              {
+                "id": "o2",
+                "text": "Le débat est alors transformé en spectacle et certaines nuances sont perdues."
+              },
+              {
+                "id": "o3",
+                "text": "Pour améliorer la discussion, chaque argument devrait être accompagné d’une source identifiable."
+              },
+              {
+                "id": "o4",
+                "text": "Une démocratie a besoin de désaccords, mais elle a surtout besoin de règles qui permettent à ces désaccords de produire de la compréhension plutôt que de la méfiance."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quel résultat conclut « Le débat public et ses règles » après « Pour améliorer la discussion, chaque argument devrait être accompagné… » ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les autres."
+              },
+              {
+                "id": "o2",
+                "text": "Le débat est alors transformé en spectacle et certaines nuances sont perdues."
+              },
+              {
+                "id": "o3",
+                "text": "Pour améliorer la discussion, chaque argument devrait être accompagné d’une source identifiable."
+              },
+              {
+                "id": "o4",
+                "text": "Une démocratie a besoin de désaccords, mais elle a surtout besoin de règles qui permettent à ces désaccords de produire de la compréhension plutôt que de la méfiance."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Dans « Le débat public et ses règles », quel détail présente la situation ?",
+        "options": [
+          "Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les autres.",
+          "Le débat est alors transformé en spectacle et certaines nuances sont perdues.",
+          "Pour améliorer la discussion, chaque argument devrait être accompagné d’une source identifiable.",
+          "Une démocratie a besoin de désaccords, mais elle a surtout besoin de règles qui permettent à ces désaccords de produire de la compréhension plutôt que de la méfiance."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Après « Dans un débat de société, défendre un point de vue ne consiste pas à… », que se passe-t-il ensuite dans « Le débat public et ses règles » ?",
+        "options": [
+          "Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les autres.",
+          "Le débat est alors transformé en spectacle et certaines nuances sont perdues.",
+          "Pour améliorer la discussion, chaque argument devrait être accompagné d’une source identifiable.",
+          "Une démocratie a besoin de désaccords, mais elle a surtout besoin de règles qui permettent à ces désaccords de produire de la compréhension plutôt que de la méfiance."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Le débat public et ses règles » ?",
+        "options": [
+          "Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les autres.",
+          "Le débat est alors transformé en spectacle et certaines nuances sont perdues.",
+          "Pour améliorer la discussion, chaque argument devrait être accompagné d’une source identifiable.",
+          "Une démocratie a besoin de désaccords, mais elle a surtout besoin de règles qui permettent à ces désaccords de produire de la compréhension plutôt que de la méfiance."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quel résultat conclut « Le débat public et ses règles » après « Pour améliorer la discussion, chaque argument devrait être accompagné… » ?",
+        "options": [
+          "Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les autres.",
+          "Le débat est alors transformé en spectacle et certaines nuances sont perdues.",
+          "Pour améliorer la discussion, chaque argument devrait être accompagné d’une source identifiable.",
+          "Une démocratie a besoin de désaccords, mais elle a surtout besoin de règles qui permettent à ces désaccords de produire de la compréhension plutôt que de la méfiance."
+        ]
+      }
+    ]
+  },
+  {
     "slug": "french-a1-ma-famille-et-mes-amis-speaking",
     "level": "A1",
     "skill": "speaking",
@@ -14119,67 +14119,6 @@
       {
         "type": "practice",
         "prompt": "Avec un/une camarade, échangez des conseils sur vos propres difficultés scolaires."
-      }
-    ]
-  },
-  {
-    "slug": "french-b2-debats-de-societe-speaking",
-    "level": "B2",
-    "skill": "speaking",
-    "unitId": "debats-de-societe",
-    "title": "Défendre une position nuancée",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 32,
-    "estimatedMinutes": 14,
-    "description": "Participe à un débat sur un sujet de société avec une position nuancée.",
-    "intro": "Participe à un débat sur un sujet de société avec une position nuancée.",
-    "mission": "Choisis un sujet de société (technologie, environnement, éducation) et présente une position nuancée, avec au moins un contre-argument anticipé.",
-    "grammar": "",
-    "phrases": [
-      "Il me semble que...",
-      "Néanmoins...",
-      "On pourrait objecter que...",
-      "Dans une certaine mesure..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Toi",
-        "line": "Il me semble que ce sujet a des avantages réels. Néanmoins, on pourrait objecter que... Dans une certaine mesure, je reconnais cette limite.",
-        "translation": "Me parece que este tema tiene ventajas reales. Sin embargo, se podría objetar que... En cierta medida, reconozco ese límite."
-      }
-    ],
-    "reading": null,
-    "transcript": "Toi : Il me semble que ce sujet a des avantages réels. Néanmoins, on pourrait objecter que... Dans une certaine mesure, je reconnais cette limite.",
-    "extra": {
-      "communicationGuide": {
-        "steps": [
-          "Enregistre une première réponse sans lire un texte complet.",
-          "Utilise la transcription vocale pour vérifier ce qui a été compris.",
-          "Demande au Tuteur IA un retour sur la clarté, les preuves et le registre.",
-          "Enregistre une seconde version et compare fluidité et prononciation."
-        ],
-        "premiumMode": "Conversation libre avec le Tuteur IA",
-        "pronunciationTargets": [
-          "groupes rythmiques",
-          "mise en relief",
-          "enchaînements",
-          "intonation nuancée"
-        ]
-      },
-      "grammarTest": null,
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Défends une position nuancée sur un sujet de société, en anticipant et en répondant à un contre-argument."
-      },
-      {
-        "type": "practice",
-        "prompt": "Organise un débat structuré avec un/une camarade sur un sujet de société de votre choix."
       }
     ]
   },
@@ -14334,6 +14273,67 @@
     ]
   },
   {
+    "slug": "french-b2-debats-de-societe-speaking",
+    "level": "B2",
+    "skill": "speaking",
+    "unitId": "debats-de-societe",
+    "title": "Défendre une position nuancée",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 32,
+    "estimatedMinutes": 14,
+    "description": "Participe à un débat sur un sujet de société avec une position nuancée.",
+    "intro": "Participe à un débat sur un sujet de société avec une position nuancée.",
+    "mission": "Choisis un sujet de société (technologie, environnement, éducation) et présente une position nuancée, avec au moins un contre-argument anticipé.",
+    "grammar": "",
+    "phrases": [
+      "Il me semble que...",
+      "Néanmoins...",
+      "On pourrait objecter que...",
+      "Dans une certaine mesure..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Toi",
+        "line": "Il me semble que ce sujet a des avantages réels. Néanmoins, on pourrait objecter que... Dans une certaine mesure, je reconnais cette limite.",
+        "translation": "Me parece que este tema tiene ventajas reales. Sin embargo, se podría objetar que... En cierta medida, reconozco ese límite."
+      }
+    ],
+    "reading": null,
+    "transcript": "Toi : Il me semble que ce sujet a des avantages réels. Néanmoins, on pourrait objecter que... Dans une certaine mesure, je reconnais cette limite.",
+    "extra": {
+      "communicationGuide": {
+        "steps": [
+          "Enregistre une première réponse sans lire un texte complet.",
+          "Utilise la transcription vocale pour vérifier ce qui a été compris.",
+          "Demande au Tuteur IA un retour sur la clarté, les preuves et le registre.",
+          "Enregistre une seconde version et compare fluidité et prononciation."
+        ],
+        "premiumMode": "Conversation libre avec le Tuteur IA",
+        "pronunciationTargets": [
+          "groupes rythmiques",
+          "mise en relief",
+          "enchaînements",
+          "intonation nuancée"
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Défends une position nuancée sur un sujet de société, en anticipant et en répondant à un contre-argument."
+      },
+      {
+        "type": "practice",
+        "prompt": "Organise un débat structuré avec un/une camarade sur un sujet de société de votre choix."
+      }
+    ]
+  },
+  {
     "slug": "french-a1-ma-famille-et-mes-amis-writing",
     "level": "A1",
     "skill": "writing",
@@ -14450,64 +14450,6 @@
     ]
   },
   {
-    "slug": "french-b2-debats-de-societe-writing",
-    "level": "B2",
-    "skill": "writing",
-    "unitId": "debats-de-societe",
-    "title": "Un texte argumentatif nuancé",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 35,
-    "orderIndex": 33,
-    "estimatedMinutes": 18,
-    "description": "Écris un texte argumentatif présentant une position nuancée sur un sujet de société.",
-    "intro": "Écris un texte argumentatif présentant une position nuancée sur un sujet de société.",
-    "mission": "Écris 200 à 250 mots présentant une position nuancée sur un sujet de société de ton choix, avec un argument principal, un contre-argument reconnu, et une conclusion mesurée.",
-    "grammar": "",
-    "phrases": [
-      "Il me semble que...",
-      "Néanmoins...",
-      "Dans une certaine mesure...",
-      "En conclusion..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Modèle",
-        "line": "Il me semble que les réseaux sociaux offrent de réels avantages pour rester connecté. Néanmoins, ils comportent aussi des risques bien documentés. Dans une certaine mesure, tout dépend de l’usage qu’on en fait. En conclusion, un usage modéré et conscient semble être la meilleure approche.",
-        "translation": "Me parece que las redes sociales ofrecen ventajas reales para mantenerse conectado. Sin embargo, también conllevan riesgos bien documentados. En cierta medida, todo depende del uso que se les dé. En conclusión, un uso moderado y consciente parece ser el mejor enfoque."
-      }
-    ],
-    "reading": null,
-    "transcript": "Modèle : Il me semble que les réseaux sociaux offrent de réels avantages pour rester connecté. Néanmoins, ils comportent aussi des risques bien documentés. Dans une certaine mesure, tout dépend de l’usage qu’on en fait. En conclusion, un usage modéré et conscient semble être la meilleure approche.",
-    "extra": {
-      "writingGuide": {
-        "taskType": "texte argumentatif structuré",
-        "steps": [
-          "Délimite la question et rédige une thèse en une phrase.",
-          "Choisis deux preuves ou exemples et explique leur pertinence.",
-          "Présente loyalement l’objection la plus solide.",
-          "Réponds sans exagérer la portée des preuves.",
-          "Révise la cohésion, la grammaire, le registre et la conclusion."
-        ],
-        "checklist": [
-          "Utilise au moins deux termes de l’unité : un point de vue, réfuter, dans une certaine mesure.",
-          "Emploie correctement la voix passive au moins une fois.",
-          "Distingue preuve, inférence et jugement.",
-          "Vérifie les liens entre les paragraphes et supprime les affirmations absolues non justifiées."
-        ]
-      },
-      "grammarTest": null,
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "writing",
-        "prompt": "Écris un texte argumentatif nuancé de 200 à 250 mots sur un sujet de société, avec des connecteurs avancés."
-      }
-    ]
-  },
-  {
     "slug": "french-c1-les-medias-et-la-fabrique-de-lopinion-writing",
     "level": "C1",
     "skill": "writing",
@@ -14620,6 +14562,64 @@
       {
         "type": "writing",
         "prompt": "Rédige 300–350 mots. Avant l’envoi, vérifie la présence d’une thèse, de deux arguments développés, d’une objection et d’une conclusion nuancée."
+      }
+    ]
+  },
+  {
+    "slug": "french-b2-debats-de-societe-writing",
+    "level": "B2",
+    "skill": "writing",
+    "unitId": "debats-de-societe",
+    "title": "Un texte argumentatif nuancé",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 35,
+    "orderIndex": 33,
+    "estimatedMinutes": 18,
+    "description": "Écris un texte argumentatif présentant une position nuancée sur un sujet de société.",
+    "intro": "Écris un texte argumentatif présentant une position nuancée sur un sujet de société.",
+    "mission": "Écris 200 à 250 mots présentant une position nuancée sur un sujet de société de ton choix, avec un argument principal, un contre-argument reconnu, et une conclusion mesurée.",
+    "grammar": "",
+    "phrases": [
+      "Il me semble que...",
+      "Néanmoins...",
+      "Dans une certaine mesure...",
+      "En conclusion..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Modèle",
+        "line": "Il me semble que les réseaux sociaux offrent de réels avantages pour rester connecté. Néanmoins, ils comportent aussi des risques bien documentés. Dans une certaine mesure, tout dépend de l’usage qu’on en fait. En conclusion, un usage modéré et conscient semble être la meilleure approche.",
+        "translation": "Me parece que las redes sociales ofrecen ventajas reales para mantenerse conectado. Sin embargo, también conllevan riesgos bien documentados. En cierta medida, todo depende del uso que se les dé. En conclusión, un uso moderado y consciente parece ser el mejor enfoque."
+      }
+    ],
+    "reading": null,
+    "transcript": "Modèle : Il me semble que les réseaux sociaux offrent de réels avantages pour rester connecté. Néanmoins, ils comportent aussi des risques bien documentés. Dans une certaine mesure, tout dépend de l’usage qu’on en fait. En conclusion, un usage modéré et conscient semble être la meilleure approche.",
+    "extra": {
+      "writingGuide": {
+        "taskType": "texte argumentatif structuré",
+        "steps": [
+          "Délimite la question et rédige une thèse en une phrase.",
+          "Choisis deux preuves ou exemples et explique leur pertinence.",
+          "Présente loyalement l’objection la plus solide.",
+          "Réponds sans exagérer la portée des preuves.",
+          "Révise la cohésion, la grammaire, le registre et la conclusion."
+        ],
+        "checklist": [
+          "Utilise au moins deux termes de l’unité : un point de vue, réfuter, dans une certaine mesure.",
+          "Emploie correctement la voix passive au moins une fois.",
+          "Distingue preuve, inférence et jugement.",
+          "Vérifie les liens entre les paragraphes et supprime les affirmations absolues non justifiées."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Écris un texte argumentatif nuancé de 200 à 250 mots sur un sujet de société, avec des connecteurs avancés."
       }
     ]
   },
@@ -15467,287 +15467,6 @@
     ]
   },
   {
-    "slug": "french-b2-debats-de-societe-grammar",
-    "level": "B2",
-    "skill": "grammar",
-    "unitId": "debats-de-societe",
-    "title": "La voix passive",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 34,
-    "estimatedMinutes": 14,
-    "description": "Utiliser la voix passive dans un contexte argumentatif.",
-    "intro": "Utiliser la voix passive dans un contexte argumentatif.",
-    "mission": "",
-    "grammar": "La voix passive se forme avec être + participe passé, le sujet de la phrase active devenant le complément d’agent introduit par « par » : « Ce contenu est rarement contrôlé par les parents » (au lieu de « Les parents contrôlent rarement ce contenu »). Elle est fréquente à l’écrit argumentatif pour mettre l’accent sur l’action plutôt que sur celui qui la fait.",
-    "phrases": [
-      "... est contrôlé par...",
-      "... a été démontré que...",
-      "... sont souvent considérés comme...",
-      "... n’a pas été réfuté."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "grammarTest": {
-        "id": "french-b2-debats-de-societe-grammar-test",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "french-b2-debats-de-societe-grammar-q1",
-            "type": "mcq",
-            "prompt": "Ce contenu ___ rarement contrôlé par les parents.",
-            "difficulty": "application",
-            "options": [
-              {
-                "id": "a",
-                "text": "est"
-              },
-              {
-                "id": "b",
-                "text": "a"
-              },
-              {
-                "id": "c",
-                "text": "sera"
-              },
-              {
-                "id": "d",
-                "text": "était"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-debats-de-societe-grammar-q2",
-            "type": "mcq",
-            "prompt": "Aucun argument n’___ complètement réfuté.",
-            "difficulty": "application",
-            "options": [
-              {
-                "id": "b",
-                "text": "est"
-              },
-              {
-                "id": "a",
-                "text": "a été"
-              },
-              {
-                "id": "c",
-                "text": "sera"
-              },
-              {
-                "id": "d",
-                "text": "avait"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-debats-de-societe-grammar-q3",
-            "type": "mcq",
-            "prompt": "Quelle phrase est à la voix passive ?",
-            "difficulty": "analysis",
-            "options": [
-              {
-                "id": "a",
-                "text": "Les parents contrôlent le contenu."
-              },
-              {
-                "id": "c",
-                "text": "Les parents vont contrôler le contenu."
-              },
-              {
-                "id": "b",
-                "text": "Le contenu est contrôlé par les parents."
-              },
-              {
-                "id": "d",
-                "text": "Les parents contrôlaient le contenu."
-              }
-            ]
-          },
-          {
-            "id": "french-b2-debats-de-societe-grammar-q4",
-            "type": "mcq",
-            "prompt": "Les risques d’addiction ___ bien documentés par les chercheurs.",
-            "difficulty": "analysis",
-            "options": [
-              {
-                "id": "b",
-                "text": "ont"
-              },
-              {
-                "id": "c",
-                "text": "seront"
-              },
-              {
-                "id": "d",
-                "text": "étaient"
-              },
-              {
-                "id": "a",
-                "text": "sont"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-debats-de-societe-grammar-q5",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Ce contenu a rarement contrôlé par les parents. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Ce contenu est rarement contrôlé par les parents."
-              },
-              {
-                "id": "b",
-                "text": "Ce contenu a rarement contrôlé par les parents."
-              },
-              {
-                "id": "c",
-                "text": "Ce contenu sera rarement contrôlé par les parents."
-              },
-              {
-                "id": "d",
-                "text": "Ce contenu était rarement contrôlé par les parents."
-              }
-            ]
-          },
-          {
-            "id": "french-b2-debats-de-societe-grammar-q6",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Aucun argument n’est complètement réfuté. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "b",
-                "text": "Aucun argument n’est complètement réfuté."
-              },
-              {
-                "id": "a",
-                "text": "Aucun argument n’a été complètement réfuté."
-              },
-              {
-                "id": "c",
-                "text": "Aucun argument n’sera complètement réfuté."
-              },
-              {
-                "id": "d",
-                "text": "Aucun argument n’avait complètement réfuté."
-              }
-            ]
-          },
-          {
-            "id": "french-b2-debats-de-societe-grammar-q7",
-            "type": "mcq",
-            "prompt": "Quelle réponse corrige l’erreur « Les parents contrôlent le contenu. » dans ce contexte : « Quelle phrase est à la voix passive ? » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Les parents contrôlent le contenu."
-              },
-              {
-                "id": "c",
-                "text": "Les parents vont contrôler le contenu."
-              },
-              {
-                "id": "b",
-                "text": "Le contenu est contrôlé par les parents."
-              },
-              {
-                "id": "d",
-                "text": "Les parents contrôlaient le contenu."
-              }
-            ]
-          },
-          {
-            "id": "french-b2-debats-de-societe-grammar-q8",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Les risques d’addiction ont bien documentés par les chercheurs. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "b",
-                "text": "Les risques d’addiction ont bien documentés par les chercheurs."
-              },
-              {
-                "id": "c",
-                "text": "Les risques d’addiction seront bien documentés par les chercheurs."
-              },
-              {
-                "id": "d",
-                "text": "Les risques d’addiction étaient bien documentés par les chercheurs."
-              },
-              {
-                "id": "a",
-                "text": "Les risques d’addiction sont bien documentés par les chercheurs."
-              }
-            ]
-          }
-        ]
-      },
-      "grammarProfile": {
-        "name": "La voix passive",
-        "definition": "La voix passive se forme avec être + participe passé, le sujet de la phrase active devenant le complément d’agent introduit par « par » : « Ce contenu est rarement contrôlé par les parents » (au lieu de « Les parents contrôlent rarement ce contenu »). Elle est fréquente à l’écrit argumentatif pour mettre l’accent sur l’action plutôt que sur celui qui la fait.",
-        "structure": "Forme à observer : La voix passive. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
-        "function": "Utiliser la voix passive dans un contexte argumentatif.",
-        "examples": [
-          "Ce contenu est rarement contrôlé par les parents.",
-          "Aucun argument n’a été complètement réfuté.",
-          "Le contenu est contrôlé par les parents.",
-          "Les risques d’addiction sont bien documentés par les chercheurs."
-        ]
-      },
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Ce contenu ___ rarement contrôlé par les parents.",
-        "options": [
-          "est",
-          "a",
-          "sera",
-          "était"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Aucun argument n’___ complètement réfuté.",
-        "options": [
-          "a été",
-          "est",
-          "sera",
-          "avait"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle phrase est à la voix passive ?",
-        "options": [
-          "Les parents contrôlent le contenu.",
-          "Le contenu est contrôlé par les parents.",
-          "Les parents vont contrôler le contenu.",
-          "Les parents contrôlaient le contenu."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Les risques d’addiction ___ bien documentés par les chercheurs.",
-        "options": [
-          "sont",
-          "ont",
-          "seront",
-          "étaient"
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-les-medias-et-la-fabrique-de-lopinion-grammar",
     "level": "C1",
     "skill": "grammar",
@@ -16403,6 +16122,287 @@
     ]
   },
   {
+    "slug": "french-b2-debats-de-societe-grammar",
+    "level": "B2",
+    "skill": "grammar",
+    "unitId": "debats-de-societe",
+    "title": "La voix passive",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 34,
+    "estimatedMinutes": 14,
+    "description": "Utiliser la voix passive dans un contexte argumentatif.",
+    "intro": "Utiliser la voix passive dans un contexte argumentatif.",
+    "mission": "",
+    "grammar": "La voix passive se forme avec être + participe passé, le sujet de la phrase active devenant le complément d’agent introduit par « par » : « Ce contenu est rarement contrôlé par les parents » (au lieu de « Les parents contrôlent rarement ce contenu »). Elle est fréquente à l’écrit argumentatif pour mettre l’accent sur l’action plutôt que sur celui qui la fait.",
+    "phrases": [
+      "... est contrôlé par...",
+      "... a été démontré que...",
+      "... sont souvent considérés comme...",
+      "... n’a pas été réfuté."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": {
+      "grammarTest": {
+        "id": "french-b2-debats-de-societe-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "french-b2-debats-de-societe-grammar-q1",
+            "type": "mcq",
+            "prompt": "Ce contenu ___ rarement contrôlé par les parents.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "est"
+              },
+              {
+                "id": "b",
+                "text": "a"
+              },
+              {
+                "id": "c",
+                "text": "sera"
+              },
+              {
+                "id": "d",
+                "text": "était"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-debats-de-societe-grammar-q2",
+            "type": "mcq",
+            "prompt": "Aucun argument n’___ complètement réfuté.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "b",
+                "text": "est"
+              },
+              {
+                "id": "a",
+                "text": "a été"
+              },
+              {
+                "id": "c",
+                "text": "sera"
+              },
+              {
+                "id": "d",
+                "text": "avait"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-debats-de-societe-grammar-q3",
+            "type": "mcq",
+            "prompt": "Quelle phrase est à la voix passive ?",
+            "difficulty": "analysis",
+            "options": [
+              {
+                "id": "a",
+                "text": "Les parents contrôlent le contenu."
+              },
+              {
+                "id": "c",
+                "text": "Les parents vont contrôler le contenu."
+              },
+              {
+                "id": "b",
+                "text": "Le contenu est contrôlé par les parents."
+              },
+              {
+                "id": "d",
+                "text": "Les parents contrôlaient le contenu."
+              }
+            ]
+          },
+          {
+            "id": "french-b2-debats-de-societe-grammar-q4",
+            "type": "mcq",
+            "prompt": "Les risques d’addiction ___ bien documentés par les chercheurs.",
+            "difficulty": "analysis",
+            "options": [
+              {
+                "id": "b",
+                "text": "ont"
+              },
+              {
+                "id": "c",
+                "text": "seront"
+              },
+              {
+                "id": "d",
+                "text": "étaient"
+              },
+              {
+                "id": "a",
+                "text": "sont"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-debats-de-societe-grammar-q5",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Ce contenu a rarement contrôlé par les parents. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Ce contenu est rarement contrôlé par les parents."
+              },
+              {
+                "id": "b",
+                "text": "Ce contenu a rarement contrôlé par les parents."
+              },
+              {
+                "id": "c",
+                "text": "Ce contenu sera rarement contrôlé par les parents."
+              },
+              {
+                "id": "d",
+                "text": "Ce contenu était rarement contrôlé par les parents."
+              }
+            ]
+          },
+          {
+            "id": "french-b2-debats-de-societe-grammar-q6",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Aucun argument n’est complètement réfuté. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "b",
+                "text": "Aucun argument n’est complètement réfuté."
+              },
+              {
+                "id": "a",
+                "text": "Aucun argument n’a été complètement réfuté."
+              },
+              {
+                "id": "c",
+                "text": "Aucun argument n’sera complètement réfuté."
+              },
+              {
+                "id": "d",
+                "text": "Aucun argument n’avait complètement réfuté."
+              }
+            ]
+          },
+          {
+            "id": "french-b2-debats-de-societe-grammar-q7",
+            "type": "mcq",
+            "prompt": "Quelle réponse corrige l’erreur « Les parents contrôlent le contenu. » dans ce contexte : « Quelle phrase est à la voix passive ? » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Les parents contrôlent le contenu."
+              },
+              {
+                "id": "c",
+                "text": "Les parents vont contrôler le contenu."
+              },
+              {
+                "id": "b",
+                "text": "Le contenu est contrôlé par les parents."
+              },
+              {
+                "id": "d",
+                "text": "Les parents contrôlaient le contenu."
+              }
+            ]
+          },
+          {
+            "id": "french-b2-debats-de-societe-grammar-q8",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Les risques d’addiction ont bien documentés par les chercheurs. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "b",
+                "text": "Les risques d’addiction ont bien documentés par les chercheurs."
+              },
+              {
+                "id": "c",
+                "text": "Les risques d’addiction seront bien documentés par les chercheurs."
+              },
+              {
+                "id": "d",
+                "text": "Les risques d’addiction étaient bien documentés par les chercheurs."
+              },
+              {
+                "id": "a",
+                "text": "Les risques d’addiction sont bien documentés par les chercheurs."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarProfile": {
+        "name": "La voix passive",
+        "definition": "La voix passive se forme avec être + participe passé, le sujet de la phrase active devenant le complément d’agent introduit par « par » : « Ce contenu est rarement contrôlé par les parents » (au lieu de « Les parents contrôlent rarement ce contenu »). Elle est fréquente à l’écrit argumentatif pour mettre l’accent sur l’action plutôt que sur celui qui la fait.",
+        "structure": "Forme à observer : La voix passive. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Utiliser la voix passive dans un contexte argumentatif.",
+        "examples": [
+          "Ce contenu est rarement contrôlé par les parents.",
+          "Aucun argument n’a été complètement réfuté.",
+          "Le contenu est contrôlé par les parents.",
+          "Les risques d’addiction sont bien documentés par les chercheurs."
+        ]
+      },
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Ce contenu ___ rarement contrôlé par les parents.",
+        "options": [
+          "est",
+          "a",
+          "sera",
+          "était"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Aucun argument n’___ complètement réfuté.",
+        "options": [
+          "a été",
+          "est",
+          "sera",
+          "avait"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle phrase est à la voix passive ?",
+        "options": [
+          "Les parents contrôlent le contenu.",
+          "Le contenu est contrôlé par les parents.",
+          "Les parents vont contrôler le contenu.",
+          "Les parents contrôlaient le contenu."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Les risques d’addiction ___ bien documentés par les chercheurs.",
+        "options": [
+          "sont",
+          "ont",
+          "seront",
+          "étaient"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "french-a1-ma-famille-et-mes-amis-vocabulary",
     "level": "A1",
     "skill": "vocabulary",
@@ -16693,86 +16693,6 @@
           "Un examen",
           "Una nota",
           "Un problema"
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "french-b2-debats-de-societe-vocabulary",
-    "level": "B2",
-    "skill": "vocabulary",
-    "unitId": "debats-de-societe",
-    "title": "Le vocabulaire du débat",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 35,
-    "estimatedMinutes": 10,
-    "description": "Le vocabulaire essentiel pour argumenter et débattre en français.",
-    "intro": "Le vocabulaire essentiel pour argumenter et débattre en français.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [
-      {
-        "word": "un point de vue",
-        "translation": "un punto de vista",
-        "example": "Chacun a exprimé son point de vue."
-      },
-      {
-        "word": "réfuter",
-        "translation": "refutar",
-        "example": "Personne n’a réfuté cet argument."
-      },
-      {
-        "word": "dans une certaine mesure",
-        "translation": "en cierta medida",
-        "example": "Dans une certaine mesure, je suis d’accord."
-      },
-      {
-        "word": "un contre-argument",
-        "translation": "un contraargumento",
-        "example": "Elle a présenté un contre-argument solide."
-      },
-      {
-        "word": "néanmoins",
-        "translation": "sin embargo",
-        "example": "C’est un bon outil, néanmoins il y a des risques."
-      }
-    ],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « réfuter » ?",
-        "options": [
-          "Refutar",
-          "Confirmar",
-          "Ignorar",
-          "Repetir"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « un contre-argument » ?",
-        "options": [
-          "Un ejemplo",
-          "Un contraargumento",
-          "Una pregunta",
-          "Una conclusión"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « néanmoins » ?",
-        "options": [
-          "Por lo tanto",
-          "Sin embargo",
-          "Además",
-          "Porque"
         ]
       }
     ]
@@ -17268,6 +17188,86 @@
           "dans une direction opposée à une idée ou à une tendance dominante"
         ],
         "explanation": "« à rebours de » désigne dans une direction opposée à une idée ou à une tendance dominante."
+      }
+    ]
+  },
+  {
+    "slug": "french-b2-debats-de-societe-vocabulary",
+    "level": "B2",
+    "skill": "vocabulary",
+    "unitId": "debats-de-societe",
+    "title": "Le vocabulaire du débat",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 35,
+    "estimatedMinutes": 10,
+    "description": "Le vocabulaire essentiel pour argumenter et débattre en français.",
+    "intro": "Le vocabulaire essentiel pour argumenter et débattre en français.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "un point de vue",
+        "translation": "un punto de vista",
+        "example": "Chacun a exprimé son point de vue."
+      },
+      {
+        "word": "réfuter",
+        "translation": "refutar",
+        "example": "Personne n’a réfuté cet argument."
+      },
+      {
+        "word": "dans une certaine mesure",
+        "translation": "en cierta medida",
+        "example": "Dans une certaine mesure, je suis d’accord."
+      },
+      {
+        "word": "un contre-argument",
+        "translation": "un contraargumento",
+        "example": "Elle a présenté un contre-argument solide."
+      },
+      {
+        "word": "néanmoins",
+        "translation": "sin embargo",
+        "example": "C’est un bon outil, néanmoins il y a des risques."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « réfuter » ?",
+        "options": [
+          "Refutar",
+          "Confirmar",
+          "Ignorar",
+          "Repetir"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « un contre-argument » ?",
+        "options": [
+          "Un ejemplo",
+          "Un contraargumento",
+          "Una pregunta",
+          "Una conclusión"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « néanmoins » ?",
+        "options": [
+          "Por lo tanto",
+          "Sin embargo",
+          "Además",
+          "Porque"
+        ]
       }
     ]
   },
@@ -17965,96 +17965,6 @@
     ]
   },
   {
-    "slug": "french-b2-le-teletravail-et-lavenir-professionnel-reading",
-    "level": "B2",
-    "skill": "reading",
-    "unitId": "le-teletravail-et-lavenir-professionnel",
-    "title": "Le télétravail, une révolution encore incomplète",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 35,
-    "orderIndex": 40,
-    "estimatedMinutes": 18,
-    "description": "Ce que les études sur le travail à distance révèlent sur la productivité, l’isolement et l’avenir du bureau.",
-    "intro": "Ce que les études sur le travail à distance révèlent sur la productivité, l’isolement et l’avenir du bureau.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": {
-      "title": "Le télétravail, une révolution encore incomplète",
-      "parts": [
-        "En regardant les chiffres publiés par les organismes de statistiques du travail depuis 2020, un constat s’impose : le télétravail, longtemps marginal en France, ne s’est pas simplement généralisé, il a redessiné durablement l’aménagement de milliers d’espaces de bureau. L’économiste Nicholas Bloom, dont les enquêtes trimestrielles auprès de milliers de salariés américains font aujourd’hui référence, observe qu’une proportion stable de la population active occupant un poste compatible avec ce mode d’organisation continue, plusieurs années après le pic de généralisation forcée, de travailler au moins partiellement depuis son domicile.",
-        "Les études sur la productivité en télétravail donnent des résultats contrastés. En réduisant le temps de trajet et en offrant un environnement perçu comme plus calme, certaines recherches montrent une hausse de l’efficacité individuelle. D’autres travaux, en revanche, pointent des effets négatifs sur la collaboration entre collègues et sur la transmission informelle de connaissances, celle dont dépendent souvent les plus jeunes recrues et qui se produit typiquement autour d’une machine à café. C’est précisément cette tension entre gains individuels et pertes collectives qui explique la généralisation progressive de formules hybrides.",
-        "L’isolement social demeure l’un des risques les plus documentés du télétravail à temps plein. Des chercheurs en psychologie du travail ont observé que les salariés totalement isolés de leur environnement professionnel rapportaient, en moyenne, un sentiment d’appartenance à l’entreprise nettement plus faible que leurs collègues travaillant en présentiel — un constat dont plusieurs directions des ressources humaines ont fini par tenir compte en imposant un minimum de jours de présence hebdomadaire.",
-        "Face à ces résultats contradictoires, la plupart des spécialistes des ressources humaines s’accordent désormais sur un point : il n’existe pas de formule universelle. Ce qui semble déterminant, plus que le nombre exact de jours travaillés à distance, c’est la qualité de l’organisation mise en place par chaque entreprise pour maintenir un lien social suffisant entre des équipes de plus en plus dispersées géographiquement."
-      ],
-      "questions": [
-        "Quel économiste est mentionné dans le texte pour ses enquêtes trimestrielles sur le télétravail ?",
-        "Que montrent certaines études sur la productivité en télétravail ?",
-        "Quel type de transmission de connaissances est menacé par le télétravail, selon le texte ?",
-        "Quel risque est particulièrement bien documenté par les chercheurs en psychologie du travail ?",
-        "Sur quel point la plupart des spécialistes des ressources humaines s’accordent-ils, selon la conclusion ?"
-      ],
-      "text": "En regardant les chiffres publiés par les organismes de statistiques du travail depuis 2020, un constat s’impose : le télétravail, longtemps marginal en France, ne s’est pas simplement généralisé, il a redessiné durablement l’aménagement de milliers d’espaces de bureau. L’économiste Nicholas Bloom, dont les enquêtes trimestrielles auprès de milliers de salariés américains font aujourd’hui référence, observe qu’une proportion stable de la population active occupant un poste compatible avec ce mode d’organisation continue, plusieurs années après le pic de généralisation forcée, de travailler au moins partiellement depuis son domicile.\n\nLes études sur la productivité en télétravail donnent des résultats contrastés. En réduisant le temps de trajet et en offrant un environnement perçu comme plus calme, certaines recherches montrent une hausse de l’efficacité individuelle. D’autres travaux, en revanche, pointent des effets négatifs sur la collaboration entre collègues et sur la transmission informelle de connaissances, celle dont dépendent souvent les plus jeunes recrues et qui se produit typiquement autour d’une machine à café. C’est précisément cette tension entre gains individuels et pertes collectives qui explique la généralisation progressive de formules hybrides.\n\nL’isolement social demeure l’un des risques les plus documentés du télétravail à temps plein. Des chercheurs en psychologie du travail ont observé que les salariés totalement isolés de leur environnement professionnel rapportaient, en moyenne, un sentiment d’appartenance à l’entreprise nettement plus faible que leurs collègues travaillant en présentiel — un constat dont plusieurs directions des ressources humaines ont fini par tenir compte en imposant un minimum de jours de présence hebdomadaire.\n\nFace à ces résultats contradictoires, la plupart des spécialistes des ressources humaines s’accordent désormais sur un point : il n’existe pas de formule universelle. Ce qui semble déterminant, plus que le nombre exact de jours travaillés à distance, c’est la qualité de l’organisation mise en place par chaque entreprise pour maintenir un lien social suffisant entre des équipes de plus en plus dispersées géographiquement."
-    },
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Quel économiste est mentionné dans le texte pour ses enquêtes trimestrielles sur le télétravail ?",
-        "options": [
-          "Nicholas Bloom",
-          "Thomas Piketty",
-          "Jean Tirole",
-          "Le texte ne mentionne aucun économiste"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que montrent certaines études sur la productivité en télétravail ?",
-        "options": [
-          "Une baisse systématique de l’efficacité",
-          "Une hausse de l’efficacité individuelle liée notamment à la réduction des trajets",
-          "Aucun effet mesurable",
-          "Une productivité identique dans tous les cas"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel type de transmission de connaissances est menacé par le télétravail, selon le texte ?",
-        "options": [
-          "La transmission informelle, comme celle qui se produit autour d’une machine à café",
-          "La transmission par courrier officiel",
-          "La transmission via des manuels papier",
-          "Aucune transmission n’est mentionnée"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel risque est particulièrement bien documenté par les chercheurs en psychologie du travail ?",
-        "options": [
-          "L’isolement social des salariés totalement à distance",
-          "L’augmentation du bruit au bureau",
-          "La perte totale de compétences",
-          "Le manque d’équipement informatique"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Sur quel point la plupart des spécialistes des ressources humaines s’accordent-ils, selon la conclusion ?",
-        "options": [
-          "Il existe une formule universelle valable pour toutes les entreprises",
-          "Il n’existe pas de formule universelle ; l’organisation compte plus que le nombre de jours",
-          "Le télétravail devrait être totalement interdit",
-          "Le télétravail n’a aucun avenir"
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-intelligence-artificielle-et-traduction-reading",
     "level": "C1",
     "skill": "reading",
@@ -18263,6 +18173,96 @@
           "Ignorer complètement l’usage numérique dans le suivi clinique"
         ],
         "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Les écrans rendent-ils vraiment malheureux ? »."
+      }
+    ]
+  },
+  {
+    "slug": "french-b2-le-teletravail-et-lavenir-professionnel-reading",
+    "level": "B2",
+    "skill": "reading",
+    "unitId": "le-teletravail-et-lavenir-professionnel",
+    "title": "Le télétravail, une révolution encore incomplète",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 35,
+    "orderIndex": 40,
+    "estimatedMinutes": 18,
+    "description": "Ce que les études sur le travail à distance révèlent sur la productivité, l’isolement et l’avenir du bureau.",
+    "intro": "Ce que les études sur le travail à distance révèlent sur la productivité, l’isolement et l’avenir du bureau.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "Le télétravail, une révolution encore incomplète",
+      "parts": [
+        "En regardant les chiffres publiés par les organismes de statistiques du travail depuis 2020, un constat s’impose : le télétravail, longtemps marginal en France, ne s’est pas simplement généralisé, il a redessiné durablement l’aménagement de milliers d’espaces de bureau. L’économiste Nicholas Bloom, dont les enquêtes trimestrielles auprès de milliers de salariés américains font aujourd’hui référence, observe qu’une proportion stable de la population active occupant un poste compatible avec ce mode d’organisation continue, plusieurs années après le pic de généralisation forcée, de travailler au moins partiellement depuis son domicile.",
+        "Les études sur la productivité en télétravail donnent des résultats contrastés. En réduisant le temps de trajet et en offrant un environnement perçu comme plus calme, certaines recherches montrent une hausse de l’efficacité individuelle. D’autres travaux, en revanche, pointent des effets négatifs sur la collaboration entre collègues et sur la transmission informelle de connaissances, celle dont dépendent souvent les plus jeunes recrues et qui se produit typiquement autour d’une machine à café. C’est précisément cette tension entre gains individuels et pertes collectives qui explique la généralisation progressive de formules hybrides.",
+        "L’isolement social demeure l’un des risques les plus documentés du télétravail à temps plein. Des chercheurs en psychologie du travail ont observé que les salariés totalement isolés de leur environnement professionnel rapportaient, en moyenne, un sentiment d’appartenance à l’entreprise nettement plus faible que leurs collègues travaillant en présentiel — un constat dont plusieurs directions des ressources humaines ont fini par tenir compte en imposant un minimum de jours de présence hebdomadaire.",
+        "Face à ces résultats contradictoires, la plupart des spécialistes des ressources humaines s’accordent désormais sur un point : il n’existe pas de formule universelle. Ce qui semble déterminant, plus que le nombre exact de jours travaillés à distance, c’est la qualité de l’organisation mise en place par chaque entreprise pour maintenir un lien social suffisant entre des équipes de plus en plus dispersées géographiquement."
+      ],
+      "questions": [
+        "Quel économiste est mentionné dans le texte pour ses enquêtes trimestrielles sur le télétravail ?",
+        "Que montrent certaines études sur la productivité en télétravail ?",
+        "Quel type de transmission de connaissances est menacé par le télétravail, selon le texte ?",
+        "Quel risque est particulièrement bien documenté par les chercheurs en psychologie du travail ?",
+        "Sur quel point la plupart des spécialistes des ressources humaines s’accordent-ils, selon la conclusion ?"
+      ],
+      "text": "En regardant les chiffres publiés par les organismes de statistiques du travail depuis 2020, un constat s’impose : le télétravail, longtemps marginal en France, ne s’est pas simplement généralisé, il a redessiné durablement l’aménagement de milliers d’espaces de bureau. L’économiste Nicholas Bloom, dont les enquêtes trimestrielles auprès de milliers de salariés américains font aujourd’hui référence, observe qu’une proportion stable de la population active occupant un poste compatible avec ce mode d’organisation continue, plusieurs années après le pic de généralisation forcée, de travailler au moins partiellement depuis son domicile.\n\nLes études sur la productivité en télétravail donnent des résultats contrastés. En réduisant le temps de trajet et en offrant un environnement perçu comme plus calme, certaines recherches montrent une hausse de l’efficacité individuelle. D’autres travaux, en revanche, pointent des effets négatifs sur la collaboration entre collègues et sur la transmission informelle de connaissances, celle dont dépendent souvent les plus jeunes recrues et qui se produit typiquement autour d’une machine à café. C’est précisément cette tension entre gains individuels et pertes collectives qui explique la généralisation progressive de formules hybrides.\n\nL’isolement social demeure l’un des risques les plus documentés du télétravail à temps plein. Des chercheurs en psychologie du travail ont observé que les salariés totalement isolés de leur environnement professionnel rapportaient, en moyenne, un sentiment d’appartenance à l’entreprise nettement plus faible que leurs collègues travaillant en présentiel — un constat dont plusieurs directions des ressources humaines ont fini par tenir compte en imposant un minimum de jours de présence hebdomadaire.\n\nFace à ces résultats contradictoires, la plupart des spécialistes des ressources humaines s’accordent désormais sur un point : il n’existe pas de formule universelle. Ce qui semble déterminant, plus que le nombre exact de jours travaillés à distance, c’est la qualité de l’organisation mise en place par chaque entreprise pour maintenir un lien social suffisant entre des équipes de plus en plus dispersées géographiquement."
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Quel économiste est mentionné dans le texte pour ses enquêtes trimestrielles sur le télétravail ?",
+        "options": [
+          "Nicholas Bloom",
+          "Thomas Piketty",
+          "Jean Tirole",
+          "Le texte ne mentionne aucun économiste"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que montrent certaines études sur la productivité en télétravail ?",
+        "options": [
+          "Une baisse systématique de l’efficacité",
+          "Une hausse de l’efficacité individuelle liée notamment à la réduction des trajets",
+          "Aucun effet mesurable",
+          "Une productivité identique dans tous les cas"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quel type de transmission de connaissances est menacé par le télétravail, selon le texte ?",
+        "options": [
+          "La transmission informelle, comme celle qui se produit autour d’une machine à café",
+          "La transmission par courrier officiel",
+          "La transmission via des manuels papier",
+          "Aucune transmission n’est mentionnée"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quel risque est particulièrement bien documenté par les chercheurs en psychologie du travail ?",
+        "options": [
+          "L’isolement social des salariés totalement à distance",
+          "L’augmentation du bruit au bureau",
+          "La perte totale de compétences",
+          "Le manque d’équipement informatique"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Sur quel point la plupart des spécialistes des ressources humaines s’accordent-ils, selon la conclusion ?",
+        "options": [
+          "Il existe une formule universelle valable pour toutes les entreprises",
+          "Il n’existe pas de formule universelle ; l’organisation compte plus que le nombre de jours",
+          "Le télétravail devrait être totalement interdit",
+          "Le télétravail n’a aucun avenir"
+        ]
       }
     ]
   },
@@ -18988,256 +18988,6 @@
     ]
   },
   {
-    "slug": "french-b2-le-teletravail-et-lavenir-professionnel-listening",
-    "level": "B2",
-    "skill": "listening",
-    "unitId": "le-teletravail-et-lavenir-professionnel",
-    "title": "Télétravail : autonomie ou isolement ?",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 35,
-    "orderIndex": 41,
-    "estimatedMinutes": 14,
-    "description": "Écoute ce contenu de niveau B2 et identifie les idées, les nuances et les preuves.",
-    "intro": "Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [
-      "Comment évolue... ?",
-      "C’est étrange...",
-      "Ce dont les salariés ont besoin...",
-      "C’est ce que confirment les études."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du télétravail. Au début, elle appréciait le temps dont elle disposait le matin et la liberté avec laquelle elle organisait ses tâches. Sa productivité avait augmenté, car elle était moins interrompue. Cependant, les journées sont progressivement devenues plus longues. En répondant aux messages tard le soir, elle avait l’impression de ne jamais quitter son bureau. L’isolement a également pesé sur sa motivation. L’équipe avec laquelle elle collaborait respectait les délais, mais les échanges informels avaient presque disparu. Sarah a alors proposé un fonctionnement hybride : deux jours au bureau, trois jours à distance et une réunion sans écran chaque mois. Cette organisation lui permet de gérer son temps tout en maintenant des relations professionnelles. Le télétravail n’est donc ni une solution universelle ni un problème en soi. Son efficacité dépend des règles auxquelles l’équipe adhère, des outils dont elle dispose et de la capacité de chacun à protéger les limites entre vie professionnelle et vie personnelle.",
-    "extra": {
-      "listeningType": "monologue",
-      "listeningFormat": "chronicle",
-      "storyTitle": "Télétravail : autonomie ou isolement ?",
-      "mainTranscript": "En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du télétravail. Au début, elle appréciait le temps dont elle disposait le matin et la liberté avec laquelle elle organisait ses tâches. Sa productivité avait augmenté, car elle était moins interrompue. Cependant, les journées sont progressivement devenues plus longues. En répondant aux messages tard le soir, elle avait l’impression de ne jamais quitter son bureau. L’isolement a également pesé sur sa motivation. L’équipe avec laquelle elle collaborait respectait les délais, mais les échanges informels avaient presque disparu. Sarah a alors proposé un fonctionnement hybride : deux jours au bureau, trois jours à distance et une réunion sans écran chaque mois. Cette organisation lui permet de gérer son temps tout en maintenant des relations professionnelles. Le télétravail n’est donc ni une solution universelle ni un problème en soi. Son efficacité dépend des règles auxquelles l’équipe adhère, des outils dont elle dispose et de la capacité de chacun à protéger les limites entre vie professionnelle et vie personnelle.",
-      "transcriptSegments": [
-        {
-          "id": "segment-01",
-          "order": 1,
-          "text": "En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du télétravail."
-        },
-        {
-          "id": "segment-02",
-          "order": 2,
-          "text": "Au début, elle appréciait le temps dont elle disposait le matin et la liberté avec laquelle elle organisait ses tâches."
-        },
-        {
-          "id": "segment-03",
-          "order": 3,
-          "text": "Sa productivité avait augmenté, car elle était moins interrompue."
-        },
-        {
-          "id": "segment-04",
-          "order": 4,
-          "text": "Cependant, les journées sont progressivement devenues plus longues."
-        },
-        {
-          "id": "segment-05",
-          "order": 5,
-          "text": "En répondant aux messages tard le soir, elle avait l’impression de ne jamais quitter son bureau."
-        },
-        {
-          "id": "segment-06",
-          "order": 6,
-          "text": "L’isolement a également pesé sur sa motivation."
-        },
-        {
-          "id": "segment-07",
-          "order": 7,
-          "text": "L’équipe avec laquelle elle collaborait respectait les délais, mais les échanges informels avaient presque disparu."
-        },
-        {
-          "id": "segment-08",
-          "order": 8,
-          "text": "Sarah a alors proposé un fonctionnement hybride : deux jours au bureau, trois jours à distance et une réunion sans écran chaque mois."
-        },
-        {
-          "id": "segment-09",
-          "order": 9,
-          "text": "Cette organisation lui permet de gérer son temps tout en maintenant des relations professionnelles."
-        },
-        {
-          "id": "segment-10",
-          "order": 10,
-          "text": "Le télétravail n’est donc ni une solution universelle ni un problème en soi."
-        },
-        {
-          "id": "segment-11",
-          "order": 11,
-          "text": "Son efficacité dépend des règles auxquelles l’équipe adhère, des outils dont elle dispose et de la capacité de chacun à protéger les limites entre vie professionnelle et vie personnelle."
-        }
-      ],
-      "difficulty": "B2",
-      "durationSeconds": 85,
-      "speakers": [
-        "Animatrice",
-        "Invité"
-      ],
-      "phoneticSupport": {
-        "enabled": true,
-        "locale": "fr-FR",
-        "focus": "Marque les groupes rythmiques et les mots de contraste. Fais entendre la différence entre une affirmation ferme et une conclusion nuancée.",
-        "segments": [],
-        "stressedWords": [
-          "établi",
-          "inférer",
-          "objection",
-          "réviser"
-        ],
-        "difficultSounds": [],
-        "reviewStatus": "verified"
-      },
-      "listeningComprehension": {
-        "id": "french-b2-le-teletravail-et-lavenir-professionnel-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Dans « Télétravail : autonomie ou isolement ? », quel détail présente la situation ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du télétravail."
-              },
-              {
-                "id": "o2",
-                "text": "Cependant, les journées sont progressivement devenues plus longues."
-              },
-              {
-                "id": "o3",
-                "text": "Sarah a alors proposé un fonctionnement hybride : deux jours au bureau, trois jours à distance et une réunion sans écran chaque mois."
-              },
-              {
-                "id": "o4",
-                "text": "Son efficacité dépend des règles auxquelles l’équipe adhère, des outils dont elle dispose et de la capacité de chacun à protéger les limites entre vie professionnelle et vie personnelle."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Après « En travaillant depuis chez elle pendant trois ans, Sarah a découvert… », que se passe-t-il ensuite dans « Télétravail : autonomie ou isolement ? » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du télétravail."
-              },
-              {
-                "id": "o2",
-                "text": "Cependant, les journées sont progressivement devenues plus longues."
-              },
-              {
-                "id": "o3",
-                "text": "Sarah a alors proposé un fonctionnement hybride : deux jours au bureau, trois jours à distance et une réunion sans écran chaque mois."
-              },
-              {
-                "id": "o4",
-                "text": "Son efficacité dépend des règles auxquelles l’équipe adhère, des outils dont elle dispose et de la capacité de chacun à protéger les limites entre vie professionnelle et vie personnelle."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Télétravail : autonomie ou isolement ? » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du télétravail."
-              },
-              {
-                "id": "o2",
-                "text": "Cependant, les journées sont progressivement devenues plus longues."
-              },
-              {
-                "id": "o3",
-                "text": "Sarah a alors proposé un fonctionnement hybride : deux jours au bureau, trois jours à distance et une réunion sans écran chaque mois."
-              },
-              {
-                "id": "o4",
-                "text": "Son efficacité dépend des règles auxquelles l’équipe adhère, des outils dont elle dispose et de la capacité de chacun à protéger les limites entre vie professionnelle et vie personnelle."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Quel résultat conclut « Télétravail : autonomie ou isolement ? » après « Sarah a alors proposé un fonctionnement hybride : deux jours au… » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du télétravail."
-              },
-              {
-                "id": "o2",
-                "text": "Cependant, les journées sont progressivement devenues plus longues."
-              },
-              {
-                "id": "o3",
-                "text": "Sarah a alors proposé un fonctionnement hybride : deux jours au bureau, trois jours à distance et une réunion sans écran chaque mois."
-              },
-              {
-                "id": "o4",
-                "text": "Son efficacité dépend des règles auxquelles l’équipe adhère, des outils dont elle dispose et de la capacité de chacun à protéger les limites entre vie professionnelle et vie personnelle."
-              }
-            ]
-          }
-        ]
-      },
-      "grammarTest": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Dans « Télétravail : autonomie ou isolement ? », quel détail présente la situation ?",
-        "options": [
-          "En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du télétravail.",
-          "Cependant, les journées sont progressivement devenues plus longues.",
-          "Sarah a alors proposé un fonctionnement hybride : deux jours au bureau, trois jours à distance et une réunion sans écran chaque mois.",
-          "Son efficacité dépend des règles auxquelles l’équipe adhère, des outils dont elle dispose et de la capacité de chacun à protéger les limites entre vie professionnelle et vie personnelle."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Après « En travaillant depuis chez elle pendant trois ans, Sarah a découvert… », que se passe-t-il ensuite dans « Télétravail : autonomie ou isolement ? » ?",
-        "options": [
-          "En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du télétravail.",
-          "Cependant, les journées sont progressivement devenues plus longues.",
-          "Sarah a alors proposé un fonctionnement hybride : deux jours au bureau, trois jours à distance et une réunion sans écran chaque mois.",
-          "Son efficacité dépend des règles auxquelles l’équipe adhère, des outils dont elle dispose et de la capacité de chacun à protéger les limites entre vie professionnelle et vie personnelle."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Télétravail : autonomie ou isolement ? » ?",
-        "options": [
-          "En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du télétravail.",
-          "Cependant, les journées sont progressivement devenues plus longues.",
-          "Sarah a alors proposé un fonctionnement hybride : deux jours au bureau, trois jours à distance et une réunion sans écran chaque mois.",
-          "Son efficacité dépend des règles auxquelles l’équipe adhère, des outils dont elle dispose et de la capacité de chacun à protéger les limites entre vie professionnelle et vie personnelle."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel résultat conclut « Télétravail : autonomie ou isolement ? » après « Sarah a alors proposé un fonctionnement hybride : deux jours au… » ?",
-        "options": [
-          "En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du télétravail.",
-          "Cependant, les journées sont progressivement devenues plus longues.",
-          "Sarah a alors proposé un fonctionnement hybride : deux jours au bureau, trois jours à distance et une réunion sans écran chaque mois.",
-          "Son efficacité dépend des règles auxquelles l’équipe adhère, des outils dont elle dispose et de la capacité de chacun à protéger les limites entre vie professionnelle et vie personnelle."
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-intelligence-artificielle-et-traduction-listening",
     "level": "C1",
     "skill": "listening",
@@ -19760,6 +19510,256 @@
     ]
   },
   {
+    "slug": "french-b2-le-teletravail-et-lavenir-professionnel-listening",
+    "level": "B2",
+    "skill": "listening",
+    "unitId": "le-teletravail-et-lavenir-professionnel",
+    "title": "Télétravail : autonomie ou isolement ?",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 35,
+    "orderIndex": 41,
+    "estimatedMinutes": 14,
+    "description": "Écoute ce contenu de niveau B2 et identifie les idées, les nuances et les preuves.",
+    "intro": "Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "Comment évolue... ?",
+      "C’est étrange...",
+      "Ce dont les salariés ont besoin...",
+      "C’est ce que confirment les études."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du télétravail. Au début, elle appréciait le temps dont elle disposait le matin et la liberté avec laquelle elle organisait ses tâches. Sa productivité avait augmenté, car elle était moins interrompue. Cependant, les journées sont progressivement devenues plus longues. En répondant aux messages tard le soir, elle avait l’impression de ne jamais quitter son bureau. L’isolement a également pesé sur sa motivation. L’équipe avec laquelle elle collaborait respectait les délais, mais les échanges informels avaient presque disparu. Sarah a alors proposé un fonctionnement hybride : deux jours au bureau, trois jours à distance et une réunion sans écran chaque mois. Cette organisation lui permet de gérer son temps tout en maintenant des relations professionnelles. Le télétravail n’est donc ni une solution universelle ni un problème en soi. Son efficacité dépend des règles auxquelles l’équipe adhère, des outils dont elle dispose et de la capacité de chacun à protéger les limites entre vie professionnelle et vie personnelle.",
+    "extra": {
+      "listeningType": "monologue",
+      "listeningFormat": "chronicle",
+      "storyTitle": "Télétravail : autonomie ou isolement ?",
+      "mainTranscript": "En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du télétravail. Au début, elle appréciait le temps dont elle disposait le matin et la liberté avec laquelle elle organisait ses tâches. Sa productivité avait augmenté, car elle était moins interrompue. Cependant, les journées sont progressivement devenues plus longues. En répondant aux messages tard le soir, elle avait l’impression de ne jamais quitter son bureau. L’isolement a également pesé sur sa motivation. L’équipe avec laquelle elle collaborait respectait les délais, mais les échanges informels avaient presque disparu. Sarah a alors proposé un fonctionnement hybride : deux jours au bureau, trois jours à distance et une réunion sans écran chaque mois. Cette organisation lui permet de gérer son temps tout en maintenant des relations professionnelles. Le télétravail n’est donc ni une solution universelle ni un problème en soi. Son efficacité dépend des règles auxquelles l’équipe adhère, des outils dont elle dispose et de la capacité de chacun à protéger les limites entre vie professionnelle et vie personnelle.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du télétravail."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Au début, elle appréciait le temps dont elle disposait le matin et la liberté avec laquelle elle organisait ses tâches."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Sa productivité avait augmenté, car elle était moins interrompue."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "Cependant, les journées sont progressivement devenues plus longues."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "En répondant aux messages tard le soir, elle avait l’impression de ne jamais quitter son bureau."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "L’isolement a également pesé sur sa motivation."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "L’équipe avec laquelle elle collaborait respectait les délais, mais les échanges informels avaient presque disparu."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Sarah a alors proposé un fonctionnement hybride : deux jours au bureau, trois jours à distance et une réunion sans écran chaque mois."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Cette organisation lui permet de gérer son temps tout en maintenant des relations professionnelles."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Le télétravail n’est donc ni une solution universelle ni un problème en soi."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Son efficacité dépend des règles auxquelles l’équipe adhère, des outils dont elle dispose et de la capacité de chacun à protéger les limites entre vie professionnelle et vie personnelle."
+        }
+      ],
+      "difficulty": "B2",
+      "durationSeconds": 85,
+      "speakers": [
+        "Animatrice",
+        "Invité"
+      ],
+      "phoneticSupport": {
+        "enabled": true,
+        "locale": "fr-FR",
+        "focus": "Marque les groupes rythmiques et les mots de contraste. Fais entendre la différence entre une affirmation ferme et une conclusion nuancée.",
+        "segments": [],
+        "stressedWords": [
+          "établi",
+          "inférer",
+          "objection",
+          "réviser"
+        ],
+        "difficultSounds": [],
+        "reviewStatus": "verified"
+      },
+      "listeningComprehension": {
+        "id": "french-b2-le-teletravail-et-lavenir-professionnel-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Dans « Télétravail : autonomie ou isolement ? », quel détail présente la situation ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du télétravail."
+              },
+              {
+                "id": "o2",
+                "text": "Cependant, les journées sont progressivement devenues plus longues."
+              },
+              {
+                "id": "o3",
+                "text": "Sarah a alors proposé un fonctionnement hybride : deux jours au bureau, trois jours à distance et une réunion sans écran chaque mois."
+              },
+              {
+                "id": "o4",
+                "text": "Son efficacité dépend des règles auxquelles l’équipe adhère, des outils dont elle dispose et de la capacité de chacun à protéger les limites entre vie professionnelle et vie personnelle."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Après « En travaillant depuis chez elle pendant trois ans, Sarah a découvert… », que se passe-t-il ensuite dans « Télétravail : autonomie ou isolement ? » ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du télétravail."
+              },
+              {
+                "id": "o2",
+                "text": "Cependant, les journées sont progressivement devenues plus longues."
+              },
+              {
+                "id": "o3",
+                "text": "Sarah a alors proposé un fonctionnement hybride : deux jours au bureau, trois jours à distance et une réunion sans écran chaque mois."
+              },
+              {
+                "id": "o4",
+                "text": "Son efficacité dépend des règles auxquelles l’équipe adhère, des outils dont elle dispose et de la capacité de chacun à protéger les limites entre vie professionnelle et vie personnelle."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Télétravail : autonomie ou isolement ? » ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du télétravail."
+              },
+              {
+                "id": "o2",
+                "text": "Cependant, les journées sont progressivement devenues plus longues."
+              },
+              {
+                "id": "o3",
+                "text": "Sarah a alors proposé un fonctionnement hybride : deux jours au bureau, trois jours à distance et une réunion sans écran chaque mois."
+              },
+              {
+                "id": "o4",
+                "text": "Son efficacité dépend des règles auxquelles l’équipe adhère, des outils dont elle dispose et de la capacité de chacun à protéger les limites entre vie professionnelle et vie personnelle."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quel résultat conclut « Télétravail : autonomie ou isolement ? » après « Sarah a alors proposé un fonctionnement hybride : deux jours au… » ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du télétravail."
+              },
+              {
+                "id": "o2",
+                "text": "Cependant, les journées sont progressivement devenues plus longues."
+              },
+              {
+                "id": "o3",
+                "text": "Sarah a alors proposé un fonctionnement hybride : deux jours au bureau, trois jours à distance et une réunion sans écran chaque mois."
+              },
+              {
+                "id": "o4",
+                "text": "Son efficacité dépend des règles auxquelles l’équipe adhère, des outils dont elle dispose et de la capacité de chacun à protéger les limites entre vie professionnelle et vie personnelle."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Dans « Télétravail : autonomie ou isolement ? », quel détail présente la situation ?",
+        "options": [
+          "En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du télétravail.",
+          "Cependant, les journées sont progressivement devenues plus longues.",
+          "Sarah a alors proposé un fonctionnement hybride : deux jours au bureau, trois jours à distance et une réunion sans écran chaque mois.",
+          "Son efficacité dépend des règles auxquelles l’équipe adhère, des outils dont elle dispose et de la capacité de chacun à protéger les limites entre vie professionnelle et vie personnelle."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Après « En travaillant depuis chez elle pendant trois ans, Sarah a découvert… », que se passe-t-il ensuite dans « Télétravail : autonomie ou isolement ? » ?",
+        "options": [
+          "En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du télétravail.",
+          "Cependant, les journées sont progressivement devenues plus longues.",
+          "Sarah a alors proposé un fonctionnement hybride : deux jours au bureau, trois jours à distance et une réunion sans écran chaque mois.",
+          "Son efficacité dépend des règles auxquelles l’équipe adhère, des outils dont elle dispose et de la capacité de chacun à protéger les limites entre vie professionnelle et vie personnelle."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Télétravail : autonomie ou isolement ? » ?",
+        "options": [
+          "En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du télétravail.",
+          "Cependant, les journées sont progressivement devenues plus longues.",
+          "Sarah a alors proposé un fonctionnement hybride : deux jours au bureau, trois jours à distance et une réunion sans écran chaque mois.",
+          "Son efficacité dépend des règles auxquelles l’équipe adhère, des outils dont elle dispose et de la capacité de chacun à protéger les limites entre vie professionnelle et vie personnelle."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quel résultat conclut « Télétravail : autonomie ou isolement ? » après « Sarah a alors proposé un fonctionnement hybride : deux jours au… » ?",
+        "options": [
+          "En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du télétravail.",
+          "Cependant, les journées sont progressivement devenues plus longues.",
+          "Sarah a alors proposé un fonctionnement hybride : deux jours au bureau, trois jours à distance et une réunion sans écran chaque mois.",
+          "Son efficacité dépend des règles auxquelles l’équipe adhère, des outils dont elle dispose et de la capacité de chacun à protéger les limites entre vie professionnelle et vie personnelle."
+        ]
+      }
+    ]
+  },
+  {
     "slug": "french-a1-a-l-ecole-speaking",
     "level": "A1",
     "skill": "speaking",
@@ -19904,67 +19904,6 @@
       {
         "type": "practice",
         "prompt": "Avec un/une camarade, alternez les rôles du recruteur et du candidat."
-      }
-    ]
-  },
-  {
-    "slug": "french-b2-le-teletravail-et-lavenir-professionnel-speaking",
-    "level": "B2",
-    "skill": "speaking",
-    "unitId": "le-teletravail-et-lavenir-professionnel",
-    "title": "Peser le pour et le contre",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 42,
-    "estimatedMinutes": 14,
-    "description": "Présente les avantages et les inconvénients d’une modalité de travail.",
-    "intro": "Présente les avantages et les inconvénients d’une modalité de travail.",
-    "mission": "Présente les avantages et les inconvénients du télétravail (ou d’une autre modalité de travail), avec au moins une nuance personnelle.",
-    "grammar": "",
-    "phrases": [
-      "D’un côté... de l’autre...",
-      "Ce dont j’ai besoin, c’est...",
-      "En travaillant ainsi, je...",
-      "Tout dépend de..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Toi",
-        "line": "D’un côté, le télétravail offre de la liberté. De l’autre, il peut créer de l’isolement. Ce dont j’ai besoin, c’est d’un bon équilibre entre les deux.",
-        "translation": "Por un lado, el teletrabajo ofrece libertad. Por otro, puede generar aislamiento. Lo que necesito es un buen equilibrio entre ambos."
-      }
-    ],
-    "reading": null,
-    "transcript": "Toi : D’un côté, le télétravail offre de la liberté. De l’autre, il peut créer de l’isolement. Ce dont j’ai besoin, c’est d’un bon équilibre entre les deux.",
-    "extra": {
-      "communicationGuide": {
-        "steps": [
-          "Enregistre une première réponse sans lire un texte complet.",
-          "Utilise la transcription vocale pour vérifier ce qui a été compris.",
-          "Demande au Tuteur IA un retour sur la clarté, les preuves et le registre.",
-          "Enregistre une seconde version et compare fluidité et prononciation."
-        ],
-        "premiumMode": "Conversation libre avec le Tuteur IA",
-        "pronunciationTargets": [
-          "groupes rythmiques",
-          "mise en relief",
-          "enchaînements",
-          "intonation nuancée"
-        ]
-      },
-      "grammarTest": null,
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Présente les avantages et inconvénients d’une modalité de travail, avec le gérondif et un pronom relatif composé."
-      },
-      {
-        "type": "practice",
-        "prompt": "Avec un/une camarade, comparez vos préférences entre travail à distance et travail en présentiel."
       }
     ]
   },
@@ -20119,6 +20058,67 @@
     ]
   },
   {
+    "slug": "french-b2-le-teletravail-et-lavenir-professionnel-speaking",
+    "level": "B2",
+    "skill": "speaking",
+    "unitId": "le-teletravail-et-lavenir-professionnel",
+    "title": "Peser le pour et le contre",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 42,
+    "estimatedMinutes": 14,
+    "description": "Présente les avantages et les inconvénients d’une modalité de travail.",
+    "intro": "Présente les avantages et les inconvénients d’une modalité de travail.",
+    "mission": "Présente les avantages et les inconvénients du télétravail (ou d’une autre modalité de travail), avec au moins une nuance personnelle.",
+    "grammar": "",
+    "phrases": [
+      "D’un côté... de l’autre...",
+      "Ce dont j’ai besoin, c’est...",
+      "En travaillant ainsi, je...",
+      "Tout dépend de..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Toi",
+        "line": "D’un côté, le télétravail offre de la liberté. De l’autre, il peut créer de l’isolement. Ce dont j’ai besoin, c’est d’un bon équilibre entre les deux.",
+        "translation": "Por un lado, el teletrabajo ofrece libertad. Por otro, puede generar aislamiento. Lo que necesito es un buen equilibrio entre ambos."
+      }
+    ],
+    "reading": null,
+    "transcript": "Toi : D’un côté, le télétravail offre de la liberté. De l’autre, il peut créer de l’isolement. Ce dont j’ai besoin, c’est d’un bon équilibre entre les deux.",
+    "extra": {
+      "communicationGuide": {
+        "steps": [
+          "Enregistre une première réponse sans lire un texte complet.",
+          "Utilise la transcription vocale pour vérifier ce qui a été compris.",
+          "Demande au Tuteur IA un retour sur la clarté, les preuves et le registre.",
+          "Enregistre une seconde version et compare fluidité et prononciation."
+        ],
+        "premiumMode": "Conversation libre avec le Tuteur IA",
+        "pronunciationTargets": [
+          "groupes rythmiques",
+          "mise en relief",
+          "enchaînements",
+          "intonation nuancée"
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Présente les avantages et inconvénients d’une modalité de travail, avec le gérondif et un pronom relatif composé."
+      },
+      {
+        "type": "practice",
+        "prompt": "Avec un/une camarade, comparez vos préférences entre travail à distance et travail en présentiel."
+      }
+    ]
+  },
+  {
     "slug": "french-a1-a-l-ecole-writing",
     "level": "A1",
     "skill": "writing",
@@ -20235,64 +20235,6 @@
     ]
   },
   {
-    "slug": "french-b2-le-teletravail-et-lavenir-professionnel-writing",
-    "level": "B2",
-    "skill": "writing",
-    "unitId": "le-teletravail-et-lavenir-professionnel",
-    "title": "Mon expérience professionnelle",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 35,
-    "orderIndex": 43,
-    "estimatedMinutes": 18,
-    "description": "Raconte une expérience professionnelle ou un stage, avec ses avantages et ses limites.",
-    "intro": "Raconte une expérience professionnelle ou un stage, avec ses avantages et ses limites.",
-    "mission": "Écris 200 à 250 mots décrivant une expérience professionnelle (réelle ou imaginaire), avec un avantage, une limite, et une solution trouvée.",
-    "grammar": "",
-    "phrases": [
-      "En travaillant, j’ai découvert...",
-      "Ce dont j’avais besoin, c’était...",
-      "Cependant...",
-      "J’ai fini par trouver un équilibre."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Modèle",
-        "line": "En travaillant à distance, j’ai découvert une grande liberté d’organisation. Cependant, ce dont j’avais besoin, c’était davantage de contact humain. J’ai fini par trouver un équilibre en travaillant parfois dans un espace partagé.",
-        "translation": "Al trabajar a distancia, descubrí una gran libertad de organización. Sin embargo, lo que necesitaba era más contacto humano. Terminé encontrando un equilibrio trabajando a veces en un espacio compartido."
-      }
-    ],
-    "reading": null,
-    "transcript": "Modèle : En travaillant à distance, j’ai découvert une grande liberté d’organisation. Cependant, ce dont j’avais besoin, c’était davantage de contact humain. J’ai fini par trouver un équilibre en travaillant parfois dans un espace partagé.",
-    "extra": {
-      "writingGuide": {
-        "taskType": "texte argumentatif structuré",
-        "steps": [
-          "Délimite la question et rédige une thèse en une phrase.",
-          "Choisis deux preuves ou exemples et explique leur pertinence.",
-          "Présente loyalement l’objection la plus solide.",
-          "Réponds sans exagérer la portée des preuves.",
-          "Révise la cohésion, la grammaire, le registre et la conclusion."
-        ],
-        "checklist": [
-          "Utilise au moins deux termes de l’unité : le télétravail, la productivité, l’isolement.",
-          "Emploie correctement le gérondif (en + participe présent) au moins une fois.",
-          "Distingue preuve, inférence et jugement.",
-          "Vérifie les liens entre les paragraphes et supprime les affirmations absolues non justifiées."
-        ]
-      },
-      "grammarTest": null,
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "writing",
-        "prompt": "Écris 200 à 250 mots sur une expérience professionnelle, avec au moins un gérondif et un pronom relatif composé (dont/ce dont)."
-      }
-    ]
-  },
-  {
     "slug": "french-c1-intelligence-artificielle-et-traduction-writing",
     "level": "C1",
     "skill": "writing",
@@ -20405,6 +20347,64 @@
       {
         "type": "writing",
         "prompt": "Rédige 300–350 mots. Avant l’envoi, vérifie la présence d’une thèse, de deux arguments développés, d’une objection et d’une conclusion nuancée."
+      }
+    ]
+  },
+  {
+    "slug": "french-b2-le-teletravail-et-lavenir-professionnel-writing",
+    "level": "B2",
+    "skill": "writing",
+    "unitId": "le-teletravail-et-lavenir-professionnel",
+    "title": "Mon expérience professionnelle",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 35,
+    "orderIndex": 43,
+    "estimatedMinutes": 18,
+    "description": "Raconte une expérience professionnelle ou un stage, avec ses avantages et ses limites.",
+    "intro": "Raconte une expérience professionnelle ou un stage, avec ses avantages et ses limites.",
+    "mission": "Écris 200 à 250 mots décrivant une expérience professionnelle (réelle ou imaginaire), avec un avantage, une limite, et une solution trouvée.",
+    "grammar": "",
+    "phrases": [
+      "En travaillant, j’ai découvert...",
+      "Ce dont j’avais besoin, c’était...",
+      "Cependant...",
+      "J’ai fini par trouver un équilibre."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Modèle",
+        "line": "En travaillant à distance, j’ai découvert une grande liberté d’organisation. Cependant, ce dont j’avais besoin, c’était davantage de contact humain. J’ai fini par trouver un équilibre en travaillant parfois dans un espace partagé.",
+        "translation": "Al trabajar a distancia, descubrí una gran libertad de organización. Sin embargo, lo que necesitaba era más contacto humano. Terminé encontrando un equilibrio trabajando a veces en un espacio compartido."
+      }
+    ],
+    "reading": null,
+    "transcript": "Modèle : En travaillant à distance, j’ai découvert une grande liberté d’organisation. Cependant, ce dont j’avais besoin, c’était davantage de contact humain. J’ai fini par trouver un équilibre en travaillant parfois dans un espace partagé.",
+    "extra": {
+      "writingGuide": {
+        "taskType": "texte argumentatif structuré",
+        "steps": [
+          "Délimite la question et rédige une thèse en une phrase.",
+          "Choisis deux preuves ou exemples et explique leur pertinence.",
+          "Présente loyalement l’objection la plus solide.",
+          "Réponds sans exagérer la portée des preuves.",
+          "Révise la cohésion, la grammaire, le registre et la conclusion."
+        ],
+        "checklist": [
+          "Utilise au moins deux termes de l’unité : le télétravail, la productivité, l’isolement.",
+          "Emploie correctement le gérondif (en + participe présent) au moins une fois.",
+          "Distingue preuve, inférence et jugement.",
+          "Vérifie les liens entre les paragraphes et supprime les affirmations absolues non justifiées."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Écris 200 à 250 mots sur une expérience professionnelle, avec au moins un gérondif et un pronom relatif composé (dont/ce dont)."
       }
     ]
   },
@@ -21252,287 +21252,6 @@
     ]
   },
   {
-    "slug": "french-b2-le-teletravail-et-lavenir-professionnel-grammar",
-    "level": "B2",
-    "skill": "grammar",
-    "unitId": "le-teletravail-et-lavenir-professionnel",
-    "title": "Le gérondif et les pronoms relatifs composés",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 44,
-    "estimatedMinutes": 14,
-    "description": "Exprimer la simultanéité avec le gérondif et utiliser dont/ce dont.",
-    "intro": "Exprimer la simultanéité avec le gérondif et utiliser dont/ce dont.",
-    "mission": "",
-    "grammar": "Le gérondif (en + participe présent) exprime une action simultanée : « En travaillant seule, elle a réalisé... » « Dont » remplace un complément introduit par « de » : « Le métier dont elle rêve. » « Ce dont » s’utilise sans antécédent précis : « Ce dont elle a besoin, c’est de présence humaine. »",
-    "phrases": [
-      "En travaillant...",
-      "En écoutant...",
-      "Le métier dont je rêve...",
-      "Ce dont j’ai besoin, c’est..."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "grammarTest": {
-        "id": "french-b2-le-teletravail-et-lavenir-professionnel-grammar-test",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "french-b2-le-teletravail-et-lavenir-professionnel-grammar-q1",
-            "type": "mcq",
-            "prompt": "___ travaillant seule, elle a réalisé qu’elle avait besoin de contact humain.",
-            "difficulty": "application",
-            "options": [
-              {
-                "id": "a",
-                "text": "En"
-              },
-              {
-                "id": "b",
-                "text": "Dans"
-              },
-              {
-                "id": "c",
-                "text": "Par"
-              },
-              {
-                "id": "d",
-                "text": "Pour"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-le-teletravail-et-lavenir-professionnel-grammar-q2",
-            "type": "mcq",
-            "prompt": "C’est le métier ___ elle rêve depuis longtemps.",
-            "difficulty": "application",
-            "options": [
-              {
-                "id": "a",
-                "text": "que"
-              },
-              {
-                "id": "b",
-                "text": "dont"
-              },
-              {
-                "id": "c",
-                "text": "où"
-              },
-              {
-                "id": "d",
-                "text": "qui"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-le-teletravail-et-lavenir-professionnel-grammar-q3",
-            "type": "mcq",
-            "prompt": "___ elle a le plus besoin, c’est de présence humaine.",
-            "difficulty": "analysis",
-            "options": [
-              {
-                "id": "a",
-                "text": "Ce que"
-              },
-              {
-                "id": "c",
-                "text": "Ce qui"
-              },
-              {
-                "id": "b",
-                "text": "Ce dont"
-              },
-              {
-                "id": "d",
-                "text": "Ce à quoi"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-le-teletravail-et-lavenir-professionnel-grammar-q4",
-            "type": "mcq",
-            "prompt": "Quelle structure exprime la simultanéité ?",
-            "difficulty": "analysis",
-            "options": [
-              {
-                "id": "b",
-                "text": "Avoir + participe passé"
-              },
-              {
-                "id": "c",
-                "text": "Aller + infinitif"
-              },
-              {
-                "id": "d",
-                "text": "Être + adjectif"
-              },
-              {
-                "id": "a",
-                "text": "En + participe présent"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-le-teletravail-et-lavenir-professionnel-grammar-q5",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Dans travaillant seule, elle a réalisé qu’elle avait besoin de contact humain. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "En travaillant seule, elle a réalisé qu’elle avait besoin de contact humain."
-              },
-              {
-                "id": "b",
-                "text": "Dans travaillant seule, elle a réalisé qu’elle avait besoin de contact humain."
-              },
-              {
-                "id": "c",
-                "text": "Par travaillant seule, elle a réalisé qu’elle avait besoin de contact humain."
-              },
-              {
-                "id": "d",
-                "text": "Pour travaillant seule, elle a réalisé qu’elle avait besoin de contact humain."
-              }
-            ]
-          },
-          {
-            "id": "french-b2-le-teletravail-et-lavenir-professionnel-grammar-q6",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « C’est le métier que elle rêve depuis longtemps. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "C’est le métier que elle rêve depuis longtemps."
-              },
-              {
-                "id": "b",
-                "text": "C’est le métier dont elle rêve depuis longtemps."
-              },
-              {
-                "id": "c",
-                "text": "C’est le métier où elle rêve depuis longtemps."
-              },
-              {
-                "id": "d",
-                "text": "C’est le métier qui elle rêve depuis longtemps."
-              }
-            ]
-          },
-          {
-            "id": "french-b2-le-teletravail-et-lavenir-professionnel-grammar-q7",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Ce que elle a le plus besoin, c’est de présence humaine. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Ce que elle a le plus besoin, c’est de présence humaine."
-              },
-              {
-                "id": "c",
-                "text": "Ce qui elle a le plus besoin, c’est de présence humaine."
-              },
-              {
-                "id": "b",
-                "text": "Ce dont elle a le plus besoin, c’est de présence humaine."
-              },
-              {
-                "id": "d",
-                "text": "Ce à quoi elle a le plus besoin, c’est de présence humaine."
-              }
-            ]
-          },
-          {
-            "id": "french-b2-le-teletravail-et-lavenir-professionnel-grammar-q8",
-            "type": "mcq",
-            "prompt": "Quelle réponse corrige l’erreur « Avoir + participe passé » dans ce contexte : « Quelle structure exprime la simultanéité ? » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "b",
-                "text": "Avoir + participe passé"
-              },
-              {
-                "id": "c",
-                "text": "Aller + infinitif"
-              },
-              {
-                "id": "d",
-                "text": "Être + adjectif"
-              },
-              {
-                "id": "a",
-                "text": "En + participe présent"
-              }
-            ]
-          }
-        ]
-      },
-      "grammarProfile": {
-        "name": "Le gérondif et les pronoms relatifs composés",
-        "definition": "Le gérondif (en + participe présent) exprime une action simultanée : « En travaillant seule, elle a réalisé... » « Dont » remplace un complément introduit par « de » : « Le métier dont elle rêve. » « Ce dont » s’utilise sans antécédent précis : « Ce dont elle a besoin, c’est de présence humaine. »",
-        "structure": "Forme à observer : Le gérondif et les pronoms relatifs composés. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
-        "function": "Exprimer la simultanéité avec le gérondif et utiliser dont/ce dont.",
-        "examples": [
-          "En travaillant seule, elle a réalisé qu’elle avait besoin de contact humain.",
-          "C’est le métier dont elle rêve depuis longtemps.",
-          "Ce dont elle a le plus besoin, c’est de présence humaine.",
-          "En + participe présent"
-        ]
-      },
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "___ travaillant seule, elle a réalisé qu’elle avait besoin de contact humain.",
-        "options": [
-          "En",
-          "Dans",
-          "Par",
-          "Pour"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "C’est le métier ___ elle rêve depuis longtemps.",
-        "options": [
-          "que",
-          "dont",
-          "où",
-          "qui"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "___ elle a le plus besoin, c’est de présence humaine.",
-        "options": [
-          "Ce que",
-          "Ce dont",
-          "Ce qui",
-          "Ce à quoi"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle structure exprime la simultanéité ?",
-        "options": [
-          "En + participe présent",
-          "Avoir + participe passé",
-          "Aller + infinitif",
-          "Être + adjectif"
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-intelligence-artificielle-et-traduction-grammar",
     "level": "C1",
     "skill": "grammar",
@@ -22188,6 +21907,287 @@
     ]
   },
   {
+    "slug": "french-b2-le-teletravail-et-lavenir-professionnel-grammar",
+    "level": "B2",
+    "skill": "grammar",
+    "unitId": "le-teletravail-et-lavenir-professionnel",
+    "title": "Le gérondif et les pronoms relatifs composés",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 44,
+    "estimatedMinutes": 14,
+    "description": "Exprimer la simultanéité avec le gérondif et utiliser dont/ce dont.",
+    "intro": "Exprimer la simultanéité avec le gérondif et utiliser dont/ce dont.",
+    "mission": "",
+    "grammar": "Le gérondif (en + participe présent) exprime une action simultanée : « En travaillant seule, elle a réalisé... » « Dont » remplace un complément introduit par « de » : « Le métier dont elle rêve. » « Ce dont » s’utilise sans antécédent précis : « Ce dont elle a besoin, c’est de présence humaine. »",
+    "phrases": [
+      "En travaillant...",
+      "En écoutant...",
+      "Le métier dont je rêve...",
+      "Ce dont j’ai besoin, c’est..."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": {
+      "grammarTest": {
+        "id": "french-b2-le-teletravail-et-lavenir-professionnel-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "french-b2-le-teletravail-et-lavenir-professionnel-grammar-q1",
+            "type": "mcq",
+            "prompt": "___ travaillant seule, elle a réalisé qu’elle avait besoin de contact humain.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "En"
+              },
+              {
+                "id": "b",
+                "text": "Dans"
+              },
+              {
+                "id": "c",
+                "text": "Par"
+              },
+              {
+                "id": "d",
+                "text": "Pour"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-le-teletravail-et-lavenir-professionnel-grammar-q2",
+            "type": "mcq",
+            "prompt": "C’est le métier ___ elle rêve depuis longtemps.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "que"
+              },
+              {
+                "id": "b",
+                "text": "dont"
+              },
+              {
+                "id": "c",
+                "text": "où"
+              },
+              {
+                "id": "d",
+                "text": "qui"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-le-teletravail-et-lavenir-professionnel-grammar-q3",
+            "type": "mcq",
+            "prompt": "___ elle a le plus besoin, c’est de présence humaine.",
+            "difficulty": "analysis",
+            "options": [
+              {
+                "id": "a",
+                "text": "Ce que"
+              },
+              {
+                "id": "c",
+                "text": "Ce qui"
+              },
+              {
+                "id": "b",
+                "text": "Ce dont"
+              },
+              {
+                "id": "d",
+                "text": "Ce à quoi"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-le-teletravail-et-lavenir-professionnel-grammar-q4",
+            "type": "mcq",
+            "prompt": "Quelle structure exprime la simultanéité ?",
+            "difficulty": "analysis",
+            "options": [
+              {
+                "id": "b",
+                "text": "Avoir + participe passé"
+              },
+              {
+                "id": "c",
+                "text": "Aller + infinitif"
+              },
+              {
+                "id": "d",
+                "text": "Être + adjectif"
+              },
+              {
+                "id": "a",
+                "text": "En + participe présent"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-le-teletravail-et-lavenir-professionnel-grammar-q5",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Dans travaillant seule, elle a réalisé qu’elle avait besoin de contact humain. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "En travaillant seule, elle a réalisé qu’elle avait besoin de contact humain."
+              },
+              {
+                "id": "b",
+                "text": "Dans travaillant seule, elle a réalisé qu’elle avait besoin de contact humain."
+              },
+              {
+                "id": "c",
+                "text": "Par travaillant seule, elle a réalisé qu’elle avait besoin de contact humain."
+              },
+              {
+                "id": "d",
+                "text": "Pour travaillant seule, elle a réalisé qu’elle avait besoin de contact humain."
+              }
+            ]
+          },
+          {
+            "id": "french-b2-le-teletravail-et-lavenir-professionnel-grammar-q6",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « C’est le métier que elle rêve depuis longtemps. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "C’est le métier que elle rêve depuis longtemps."
+              },
+              {
+                "id": "b",
+                "text": "C’est le métier dont elle rêve depuis longtemps."
+              },
+              {
+                "id": "c",
+                "text": "C’est le métier où elle rêve depuis longtemps."
+              },
+              {
+                "id": "d",
+                "text": "C’est le métier qui elle rêve depuis longtemps."
+              }
+            ]
+          },
+          {
+            "id": "french-b2-le-teletravail-et-lavenir-professionnel-grammar-q7",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Ce que elle a le plus besoin, c’est de présence humaine. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Ce que elle a le plus besoin, c’est de présence humaine."
+              },
+              {
+                "id": "c",
+                "text": "Ce qui elle a le plus besoin, c’est de présence humaine."
+              },
+              {
+                "id": "b",
+                "text": "Ce dont elle a le plus besoin, c’est de présence humaine."
+              },
+              {
+                "id": "d",
+                "text": "Ce à quoi elle a le plus besoin, c’est de présence humaine."
+              }
+            ]
+          },
+          {
+            "id": "french-b2-le-teletravail-et-lavenir-professionnel-grammar-q8",
+            "type": "mcq",
+            "prompt": "Quelle réponse corrige l’erreur « Avoir + participe passé » dans ce contexte : « Quelle structure exprime la simultanéité ? » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "b",
+                "text": "Avoir + participe passé"
+              },
+              {
+                "id": "c",
+                "text": "Aller + infinitif"
+              },
+              {
+                "id": "d",
+                "text": "Être + adjectif"
+              },
+              {
+                "id": "a",
+                "text": "En + participe présent"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Le gérondif et les pronoms relatifs composés",
+        "definition": "Le gérondif (en + participe présent) exprime une action simultanée : « En travaillant seule, elle a réalisé... » « Dont » remplace un complément introduit par « de » : « Le métier dont elle rêve. » « Ce dont » s’utilise sans antécédent précis : « Ce dont elle a besoin, c’est de présence humaine. »",
+        "structure": "Forme à observer : Le gérondif et les pronoms relatifs composés. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Exprimer la simultanéité avec le gérondif et utiliser dont/ce dont.",
+        "examples": [
+          "En travaillant seule, elle a réalisé qu’elle avait besoin de contact humain.",
+          "C’est le métier dont elle rêve depuis longtemps.",
+          "Ce dont elle a le plus besoin, c’est de présence humaine.",
+          "En + participe présent"
+        ]
+      },
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "___ travaillant seule, elle a réalisé qu’elle avait besoin de contact humain.",
+        "options": [
+          "En",
+          "Dans",
+          "Par",
+          "Pour"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "C’est le métier ___ elle rêve depuis longtemps.",
+        "options": [
+          "que",
+          "dont",
+          "où",
+          "qui"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "___ elle a le plus besoin, c’est de présence humaine.",
+        "options": [
+          "Ce que",
+          "Ce dont",
+          "Ce qui",
+          "Ce à quoi"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle structure exprime la simultanéité ?",
+        "options": [
+          "En + participe présent",
+          "Avoir + participe passé",
+          "Aller + infinitif",
+          "Être + adjectif"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "french-a1-a-l-ecole-vocabulary",
     "level": "A1",
     "skill": "vocabulary",
@@ -22478,86 +22478,6 @@
           "Los horarios",
           "Los salarios",
           "Las vacaciones"
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "french-b2-le-teletravail-et-lavenir-professionnel-vocabulary",
-    "level": "B2",
-    "skill": "vocabulary",
-    "unitId": "le-teletravail-et-lavenir-professionnel",
-    "title": "Le vocabulaire du télétravail",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 45,
-    "estimatedMinutes": 10,
-    "description": "Le vocabulaire essentiel pour parler du travail à distance.",
-    "intro": "Le vocabulaire essentiel pour parler du travail à distance.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [
-      {
-        "word": "le télétravail",
-        "translation": "el teletrabajo",
-        "example": "Le télétravail lui offre beaucoup de liberté."
-      },
-      {
-        "word": "la productivité",
-        "translation": "la productividad",
-        "example": "Sa productivité a augmenté depuis qu’elle travaille au café."
-      },
-      {
-        "word": "l’isolement",
-        "translation": "el aislamiento",
-        "example": "L’isolement est un vrai défi du télétravail."
-      },
-      {
-        "word": "gérer son temps",
-        "translation": "gestionar su tiempo",
-        "example": "Il faut savoir gérer son temps en télétravail."
-      },
-      {
-        "word": "un délai",
-        "translation": "un plazo",
-        "example": "Elle respecte toujours ses délais de traduction."
-      }
-    ],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « l’isolement » ?",
-        "options": [
-          "El aislamiento",
-          "La productividad",
-          "El plazo",
-          "El teletrabajo"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « gérer son temps » ?",
-        "options": [
-          "Perder el tiempo",
-          "Gestionar su tiempo",
-          "Trabajar de noche",
-          "Descansar"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « un délai » ?",
-        "options": [
-          "Un plazo",
-          "Un salario",
-          "Un colega",
-          "Un contrato"
         ]
       }
     ]
@@ -23053,6 +22973,86 @@
           "dans une direction opposée à une idée ou à une tendance dominante"
         ],
         "explanation": "« à rebours de » désigne dans une direction opposée à une idée ou à une tendance dominante."
+      }
+    ]
+  },
+  {
+    "slug": "french-b2-le-teletravail-et-lavenir-professionnel-vocabulary",
+    "level": "B2",
+    "skill": "vocabulary",
+    "unitId": "le-teletravail-et-lavenir-professionnel",
+    "title": "Le vocabulaire du télétravail",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 45,
+    "estimatedMinutes": 10,
+    "description": "Le vocabulaire essentiel pour parler du travail à distance.",
+    "intro": "Le vocabulaire essentiel pour parler du travail à distance.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "le télétravail",
+        "translation": "el teletrabajo",
+        "example": "Le télétravail lui offre beaucoup de liberté."
+      },
+      {
+        "word": "la productivité",
+        "translation": "la productividad",
+        "example": "Sa productivité a augmenté depuis qu’elle travaille au café."
+      },
+      {
+        "word": "l’isolement",
+        "translation": "el aislamiento",
+        "example": "L’isolement est un vrai défi du télétravail."
+      },
+      {
+        "word": "gérer son temps",
+        "translation": "gestionar su tiempo",
+        "example": "Il faut savoir gérer son temps en télétravail."
+      },
+      {
+        "word": "un délai",
+        "translation": "un plazo",
+        "example": "Elle respecte toujours ses délais de traduction."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « l’isolement » ?",
+        "options": [
+          "El aislamiento",
+          "La productividad",
+          "El plazo",
+          "El teletrabajo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « gérer son temps » ?",
+        "options": [
+          "Perder el tiempo",
+          "Gestionar su tiempo",
+          "Trabajar de noche",
+          "Descansar"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « un délai » ?",
+        "options": [
+          "Un plazo",
+          "Un salario",
+          "Un colega",
+          "Un contrato"
+        ]
       }
     ]
   },
@@ -23744,96 +23744,6 @@
     ]
   },
   {
-    "slug": "french-b2-litterature-francophone-reading",
-    "level": "B2",
-    "skill": "reading",
-    "unitId": "litterature-francophone",
-    "title": "La créolité, un courant littéraire caribéen",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 35,
-    "orderIndex": 50,
-    "estimatedMinutes": 18,
-    "description": "Comment des écrivains martiniquais ont théorisé une identité culturelle plurielle à travers la littérature.",
-    "intro": "Comment des écrivains martiniquais ont théorisé une identité culturelle plurielle à travers la littérature.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": {
-      "title": "La créolité, un courant littéraire caribéen",
-      "parts": [
-        "« Ni Européens, ni Africains, ni Asiatiques, nous nous proclamons Créoles » : c’est par cette déclaration frontale que s’ouvre « Éloge de la créolité », l’essai que Jean Bernabé, Patrick Chamoiseau et Raphaël Confiant publient à la fin des années 1980 et qui allait profondément marquer la littérature francophone caribéenne. Les auteurs y affirmaient que l’identité antillaise ne pouvait être réduite ni à une simple extension de la culture française, ni à un retour idéalisé vers une Afrique ancestrale, mais qu’elle constituait une réalité née du métissage des langues et des peuples dans l’espace caribéen.",
-        "Ce mouvement s’inscrivait dans la continuité d’une réflexion amorcée plusieurs décennies plus tôt par Aimé Césaire, cofondateur du concept de « négritude », et par Édouard Glissant, dont la notion de « créolisation » avait déjà insisté sur l’idée que les cultures, au contact les unes des autres, se transforment mutuellement. Lorsqu’on lui demandait comment il concevait sa propre langue d’écriture, Chamoiseau répondait volontiers qu’il refusait de choisir entre le français et le créole. Son roman « Texaco », qui avait obtenu le prix Goncourt en 1992, mêle ainsi français standard et créole martiniquais sans jamais chercher à uniformiser la voix de ses personnages.",
-        "Cette approche n’a pas fait l’unanimité. Certains critiques ont reproché aux auteurs de la créolité de figer une identité qu’ils prétendaient au contraire vouloir présenter comme mouvante, tandis que Maryse Condé, dont l’œuvre explore autant les Antilles que l’Afrique et les États-Unis, a toujours revendiqué une position plus individuelle, refusant d’être rattachée à un mouvement collectif précis. Condé, à qui l’on demandait souvent si elle se sentait « créoliste », répondait qu’elle appartenait avant tout à elle-même. Elle a reçu en 2018 le prix Nobel alternatif de littérature, consécration internationale pour une œuvre longtemps restée marginale.",
-        "Ce que ces auteurs ont en commun, malgré leurs désaccords, c’est la conviction que la littérature caribéenne francophone ne saurait se laisser enfermer dans une seule catégorie identitaire. Cette question continue aujourd’hui d’alimenter la réflexion de nombreux écrivains de la région, dont les œuvres sont désormais étudiées, dans le monde entier, comme un exemple particulièrement riche de littérature construite entre plusieurs langues."
-      ],
-      "questions": [
-        "Par quelle déclaration s’ouvre l’essai « Éloge de la créolité », selon le texte ?",
-        "Quel concept Édouard Glissant a-t-il développé, selon le texte ?",
-        "Que répondait Chamoiseau lorsqu’on l’interrogeait sur sa langue d’écriture ?",
-        "Comment Maryse Condé répondait-elle quand on lui demandait si elle se sentait « créoliste » ?",
-        "Quelle distinction Maryse Condé a-t-elle reçue en 2018, selon le texte ?"
-      ],
-      "text": "« Ni Européens, ni Africains, ni Asiatiques, nous nous proclamons Créoles » : c’est par cette déclaration frontale que s’ouvre « Éloge de la créolité », l’essai que Jean Bernabé, Patrick Chamoiseau et Raphaël Confiant publient à la fin des années 1980 et qui allait profondément marquer la littérature francophone caribéenne. Les auteurs y affirmaient que l’identité antillaise ne pouvait être réduite ni à une simple extension de la culture française, ni à un retour idéalisé vers une Afrique ancestrale, mais qu’elle constituait une réalité née du métissage des langues et des peuples dans l’espace caribéen.\n\nCe mouvement s’inscrivait dans la continuité d’une réflexion amorcée plusieurs décennies plus tôt par Aimé Césaire, cofondateur du concept de « négritude », et par Édouard Glissant, dont la notion de « créolisation » avait déjà insisté sur l’idée que les cultures, au contact les unes des autres, se transforment mutuellement. Lorsqu’on lui demandait comment il concevait sa propre langue d’écriture, Chamoiseau répondait volontiers qu’il refusait de choisir entre le français et le créole. Son roman « Texaco », qui avait obtenu le prix Goncourt en 1992, mêle ainsi français standard et créole martiniquais sans jamais chercher à uniformiser la voix de ses personnages.\n\nCette approche n’a pas fait l’unanimité. Certains critiques ont reproché aux auteurs de la créolité de figer une identité qu’ils prétendaient au contraire vouloir présenter comme mouvante, tandis que Maryse Condé, dont l’œuvre explore autant les Antilles que l’Afrique et les États-Unis, a toujours revendiqué une position plus individuelle, refusant d’être rattachée à un mouvement collectif précis. Condé, à qui l’on demandait souvent si elle se sentait « créoliste », répondait qu’elle appartenait avant tout à elle-même. Elle a reçu en 2018 le prix Nobel alternatif de littérature, consécration internationale pour une œuvre longtemps restée marginale.\n\nCe que ces auteurs ont en commun, malgré leurs désaccords, c’est la conviction que la littérature caribéenne francophone ne saurait se laisser enfermer dans une seule catégorie identitaire. Cette question continue aujourd’hui d’alimenter la réflexion de nombreux écrivains de la région, dont les œuvres sont désormais étudiées, dans le monde entier, comme un exemple particulièrement riche de littérature construite entre plusieurs langues."
-    },
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Par quelle déclaration s’ouvre l’essai « Éloge de la créolité », selon le texte ?",
-        "options": [
-          "« Ni Européens, ni Africains, ni Asiatiques, nous nous proclamons Créoles »",
-          "Une dédicace à Aimé Césaire",
-          "Une citation de Victor Hugo",
-          "Un poème en créole seul"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel concept Édouard Glissant a-t-il développé, selon le texte ?",
-        "options": [
-          "La créolisation",
-          "La négritude",
-          "Le réalisme magique",
-          "Le romantisme"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que répondait Chamoiseau lorsqu’on l’interrogeait sur sa langue d’écriture ?",
-        "options": [
-          "Qu’il refusait de choisir entre le français et le créole",
-          "Qu’il écrivait uniquement en créole",
-          "Qu’il n’écrivait qu’en français standard",
-          "Qu’il ne s’exprimait jamais sur ce sujet"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment Maryse Condé répondait-elle quand on lui demandait si elle se sentait « créoliste » ?",
-        "options": [
-          "Qu’elle appartenait avant tout à elle-même",
-          "Qu’elle était la fondatrice du mouvement",
-          "Qu’elle rejetait toute forme d’identité antillaise",
-          "Qu’elle n’avait jamais entendu parler de ce mouvement"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle distinction Maryse Condé a-t-elle reçue en 2018, selon le texte ?",
-        "options": [
-          "Le prix Goncourt",
-          "Le prix Nobel alternatif de littérature",
-          "Le prix Nobel de la paix",
-          "Aucune distinction internationale"
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-memoire-migration-et-identite-reading",
     "level": "C1",
     "skill": "reading",
@@ -24042,6 +23952,96 @@
           "Interdire les transferts monétaires directs aux ménages pauvres"
         ],
         "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « La croissance mondiale profite-t-elle à tous ? »."
+      }
+    ]
+  },
+  {
+    "slug": "french-b2-litterature-francophone-reading",
+    "level": "B2",
+    "skill": "reading",
+    "unitId": "litterature-francophone",
+    "title": "La créolité, un courant littéraire caribéen",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 35,
+    "orderIndex": 50,
+    "estimatedMinutes": 18,
+    "description": "Comment des écrivains martiniquais ont théorisé une identité culturelle plurielle à travers la littérature.",
+    "intro": "Comment des écrivains martiniquais ont théorisé une identité culturelle plurielle à travers la littérature.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "La créolité, un courant littéraire caribéen",
+      "parts": [
+        "« Ni Européens, ni Africains, ni Asiatiques, nous nous proclamons Créoles » : c’est par cette déclaration frontale que s’ouvre « Éloge de la créolité », l’essai que Jean Bernabé, Patrick Chamoiseau et Raphaël Confiant publient à la fin des années 1980 et qui allait profondément marquer la littérature francophone caribéenne. Les auteurs y affirmaient que l’identité antillaise ne pouvait être réduite ni à une simple extension de la culture française, ni à un retour idéalisé vers une Afrique ancestrale, mais qu’elle constituait une réalité née du métissage des langues et des peuples dans l’espace caribéen.",
+        "Ce mouvement s’inscrivait dans la continuité d’une réflexion amorcée plusieurs décennies plus tôt par Aimé Césaire, cofondateur du concept de « négritude », et par Édouard Glissant, dont la notion de « créolisation » avait déjà insisté sur l’idée que les cultures, au contact les unes des autres, se transforment mutuellement. Lorsqu’on lui demandait comment il concevait sa propre langue d’écriture, Chamoiseau répondait volontiers qu’il refusait de choisir entre le français et le créole. Son roman « Texaco », qui avait obtenu le prix Goncourt en 1992, mêle ainsi français standard et créole martiniquais sans jamais chercher à uniformiser la voix de ses personnages.",
+        "Cette approche n’a pas fait l’unanimité. Certains critiques ont reproché aux auteurs de la créolité de figer une identité qu’ils prétendaient au contraire vouloir présenter comme mouvante, tandis que Maryse Condé, dont l’œuvre explore autant les Antilles que l’Afrique et les États-Unis, a toujours revendiqué une position plus individuelle, refusant d’être rattachée à un mouvement collectif précis. Condé, à qui l’on demandait souvent si elle se sentait « créoliste », répondait qu’elle appartenait avant tout à elle-même. Elle a reçu en 2018 le prix Nobel alternatif de littérature, consécration internationale pour une œuvre longtemps restée marginale.",
+        "Ce que ces auteurs ont en commun, malgré leurs désaccords, c’est la conviction que la littérature caribéenne francophone ne saurait se laisser enfermer dans une seule catégorie identitaire. Cette question continue aujourd’hui d’alimenter la réflexion de nombreux écrivains de la région, dont les œuvres sont désormais étudiées, dans le monde entier, comme un exemple particulièrement riche de littérature construite entre plusieurs langues."
+      ],
+      "questions": [
+        "Par quelle déclaration s’ouvre l’essai « Éloge de la créolité », selon le texte ?",
+        "Quel concept Édouard Glissant a-t-il développé, selon le texte ?",
+        "Que répondait Chamoiseau lorsqu’on l’interrogeait sur sa langue d’écriture ?",
+        "Comment Maryse Condé répondait-elle quand on lui demandait si elle se sentait « créoliste » ?",
+        "Quelle distinction Maryse Condé a-t-elle reçue en 2018, selon le texte ?"
+      ],
+      "text": "« Ni Européens, ni Africains, ni Asiatiques, nous nous proclamons Créoles » : c’est par cette déclaration frontale que s’ouvre « Éloge de la créolité », l’essai que Jean Bernabé, Patrick Chamoiseau et Raphaël Confiant publient à la fin des années 1980 et qui allait profondément marquer la littérature francophone caribéenne. Les auteurs y affirmaient que l’identité antillaise ne pouvait être réduite ni à une simple extension de la culture française, ni à un retour idéalisé vers une Afrique ancestrale, mais qu’elle constituait une réalité née du métissage des langues et des peuples dans l’espace caribéen.\n\nCe mouvement s’inscrivait dans la continuité d’une réflexion amorcée plusieurs décennies plus tôt par Aimé Césaire, cofondateur du concept de « négritude », et par Édouard Glissant, dont la notion de « créolisation » avait déjà insisté sur l’idée que les cultures, au contact les unes des autres, se transforment mutuellement. Lorsqu’on lui demandait comment il concevait sa propre langue d’écriture, Chamoiseau répondait volontiers qu’il refusait de choisir entre le français et le créole. Son roman « Texaco », qui avait obtenu le prix Goncourt en 1992, mêle ainsi français standard et créole martiniquais sans jamais chercher à uniformiser la voix de ses personnages.\n\nCette approche n’a pas fait l’unanimité. Certains critiques ont reproché aux auteurs de la créolité de figer une identité qu’ils prétendaient au contraire vouloir présenter comme mouvante, tandis que Maryse Condé, dont l’œuvre explore autant les Antilles que l’Afrique et les États-Unis, a toujours revendiqué une position plus individuelle, refusant d’être rattachée à un mouvement collectif précis. Condé, à qui l’on demandait souvent si elle se sentait « créoliste », répondait qu’elle appartenait avant tout à elle-même. Elle a reçu en 2018 le prix Nobel alternatif de littérature, consécration internationale pour une œuvre longtemps restée marginale.\n\nCe que ces auteurs ont en commun, malgré leurs désaccords, c’est la conviction que la littérature caribéenne francophone ne saurait se laisser enfermer dans une seule catégorie identitaire. Cette question continue aujourd’hui d’alimenter la réflexion de nombreux écrivains de la région, dont les œuvres sont désormais étudiées, dans le monde entier, comme un exemple particulièrement riche de littérature construite entre plusieurs langues."
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Par quelle déclaration s’ouvre l’essai « Éloge de la créolité », selon le texte ?",
+        "options": [
+          "« Ni Européens, ni Africains, ni Asiatiques, nous nous proclamons Créoles »",
+          "Une dédicace à Aimé Césaire",
+          "Une citation de Victor Hugo",
+          "Un poème en créole seul"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quel concept Édouard Glissant a-t-il développé, selon le texte ?",
+        "options": [
+          "La créolisation",
+          "La négritude",
+          "Le réalisme magique",
+          "Le romantisme"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que répondait Chamoiseau lorsqu’on l’interrogeait sur sa langue d’écriture ?",
+        "options": [
+          "Qu’il refusait de choisir entre le français et le créole",
+          "Qu’il écrivait uniquement en créole",
+          "Qu’il n’écrivait qu’en français standard",
+          "Qu’il ne s’exprimait jamais sur ce sujet"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Comment Maryse Condé répondait-elle quand on lui demandait si elle se sentait « créoliste » ?",
+        "options": [
+          "Qu’elle appartenait avant tout à elle-même",
+          "Qu’elle était la fondatrice du mouvement",
+          "Qu’elle rejetait toute forme d’identité antillaise",
+          "Qu’elle n’avait jamais entendu parler de ce mouvement"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle distinction Maryse Condé a-t-elle reçue en 2018, selon le texte ?",
+        "options": [
+          "Le prix Goncourt",
+          "Le prix Nobel alternatif de littérature",
+          "Le prix Nobel de la paix",
+          "Aucune distinction internationale"
+        ]
       }
     ]
   },
@@ -24752,256 +24752,6 @@
     ]
   },
   {
-    "slug": "french-b2-litterature-francophone-listening",
-    "level": "B2",
-    "skill": "listening",
-    "unitId": "litterature-francophone",
-    "title": "Pourquoi ce roman résonne encore",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 35,
-    "orderIndex": 51,
-    "estimatedMinutes": 14,
-    "description": "Écoute ce contenu de niveau B2 et identifie les idées, les nuances et les preuves.",
-    "intro": "Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [
-      "Ils ont dit qu’ils voulaient...",
-      "Ils ont expliqué que...",
-      "Ça résonne avec...",
-      "C’est ce que confirment..."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "Bienvenue dans notre podcast littéraire. Cette semaine, nous revenons sur un roman francophone consacré à la mémoire et à l’exil. Lors d’une rencontre, l’autrice avait expliqué qu’elle voulait donner une voix aux histoires silencieuses de sa famille. Elle avait ajouté que le personnage principal n’était pas un portrait exact, mais une figure inspirée de plusieurs générations. Ce qui frappe dans l’extrait auquel nous nous intéressons, c’est la présence constante des objets : une valise, une photographie, une clé. Chacun évoque un départ, mais aussi la possibilité d’un retour. La narratrice utilise une langue simple dont le rythme devient progressivement plus intense. Le thème récurrent de la maison résonne avec de nombreux lecteurs, même lorsque leur propre parcours est différent. Le club de lecture a rappelé que l’autrice avait refusé une interprétation uniquement autobiographique. Elle souhaitait que le roman reste ouvert. C’est précisément cette liberté qui permet à chaque lecteur d’y reconnaître une part de son histoire et de construire sa propre relation avec le texte.",
-    "extra": {
-      "listeningType": "monologue",
-      "listeningFormat": "podcast",
-      "storyTitle": "Pourquoi ce roman résonne encore",
-      "mainTranscript": "Bienvenue dans notre podcast littéraire. Cette semaine, nous revenons sur un roman francophone consacré à la mémoire et à l’exil. Lors d’une rencontre, l’autrice avait expliqué qu’elle voulait donner une voix aux histoires silencieuses de sa famille. Elle avait ajouté que le personnage principal n’était pas un portrait exact, mais une figure inspirée de plusieurs générations. Ce qui frappe dans l’extrait auquel nous nous intéressons, c’est la présence constante des objets : une valise, une photographie, une clé. Chacun évoque un départ, mais aussi la possibilité d’un retour. La narratrice utilise une langue simple dont le rythme devient progressivement plus intense. Le thème récurrent de la maison résonne avec de nombreux lecteurs, même lorsque leur propre parcours est différent. Le club de lecture a rappelé que l’autrice avait refusé une interprétation uniquement autobiographique. Elle souhaitait que le roman reste ouvert. C’est précisément cette liberté qui permet à chaque lecteur d’y reconnaître une part de son histoire et de construire sa propre relation avec le texte.",
-      "transcriptSegments": [
-        {
-          "id": "segment-01",
-          "order": 1,
-          "text": "Bienvenue dans notre podcast littéraire."
-        },
-        {
-          "id": "segment-02",
-          "order": 2,
-          "text": "Cette semaine, nous revenons sur un roman francophone consacré à la mémoire et à l’exil."
-        },
-        {
-          "id": "segment-03",
-          "order": 3,
-          "text": "Lors d’une rencontre, l’autrice avait expliqué qu’elle voulait donner une voix aux histoires silencieuses de sa famille."
-        },
-        {
-          "id": "segment-04",
-          "order": 4,
-          "text": "Elle avait ajouté que le personnage principal n’était pas un portrait exact, mais une figure inspirée de plusieurs générations."
-        },
-        {
-          "id": "segment-05",
-          "order": 5,
-          "text": "Ce qui frappe dans l’extrait auquel nous nous intéressons, c’est la présence constante des objets : une valise, une photographie, une clé."
-        },
-        {
-          "id": "segment-06",
-          "order": 6,
-          "text": "Chacun évoque un départ, mais aussi la possibilité d’un retour."
-        },
-        {
-          "id": "segment-07",
-          "order": 7,
-          "text": "La narratrice utilise une langue simple dont le rythme devient progressivement plus intense."
-        },
-        {
-          "id": "segment-08",
-          "order": 8,
-          "text": "Le thème récurrent de la maison résonne avec de nombreux lecteurs, même lorsque leur propre parcours est différent."
-        },
-        {
-          "id": "segment-09",
-          "order": 9,
-          "text": "Le club de lecture a rappelé que l’autrice avait refusé une interprétation uniquement autobiographique."
-        },
-        {
-          "id": "segment-10",
-          "order": 10,
-          "text": "Elle souhaitait que le roman reste ouvert."
-        },
-        {
-          "id": "segment-11",
-          "order": 11,
-          "text": "C’est précisément cette liberté qui permet à chaque lecteur d’y reconnaître une part de son histoire et de construire sa propre relation avec le texte."
-        }
-      ],
-      "difficulty": "B2",
-      "durationSeconds": 85,
-      "speakers": [
-        "Animatrice",
-        "Invité"
-      ],
-      "phoneticSupport": {
-        "enabled": true,
-        "locale": "fr-FR",
-        "focus": "Marque les groupes rythmiques et les mots de contraste. Fais entendre la différence entre une affirmation ferme et une conclusion nuancée.",
-        "segments": [],
-        "stressedWords": [
-          "établi",
-          "inférer",
-          "objection",
-          "réviser"
-        ],
-        "difficultSounds": [],
-        "reviewStatus": "verified"
-      },
-      "listeningComprehension": {
-        "id": "french-b2-litterature-francophone-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Dans « Pourquoi ce roman résonne encore », quel détail présente la situation ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Bienvenue dans notre podcast littéraire."
-              },
-              {
-                "id": "o2",
-                "text": "Elle avait ajouté que le personnage principal n’était pas un portrait exact, mais une figure inspirée de plusieurs générations."
-              },
-              {
-                "id": "o3",
-                "text": "Le thème récurrent de la maison résonne avec de nombreux lecteurs, même lorsque leur propre parcours est différent."
-              },
-              {
-                "id": "o4",
-                "text": "C’est précisément cette liberté qui permet à chaque lecteur d’y reconnaître une part de son histoire et de construire sa propre relation avec le texte."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Après « Bienvenue dans notre podcast littéraire. », que se passe-t-il ensuite dans « Pourquoi ce roman résonne encore » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Bienvenue dans notre podcast littéraire."
-              },
-              {
-                "id": "o2",
-                "text": "Elle avait ajouté que le personnage principal n’était pas un portrait exact, mais une figure inspirée de plusieurs générations."
-              },
-              {
-                "id": "o3",
-                "text": "Le thème récurrent de la maison résonne avec de nombreux lecteurs, même lorsque leur propre parcours est différent."
-              },
-              {
-                "id": "o4",
-                "text": "C’est précisément cette liberté qui permet à chaque lecteur d’y reconnaître une part de son histoire et de construire sa propre relation avec le texte."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Pourquoi ce roman résonne encore » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Bienvenue dans notre podcast littéraire."
-              },
-              {
-                "id": "o2",
-                "text": "Elle avait ajouté que le personnage principal n’était pas un portrait exact, mais une figure inspirée de plusieurs générations."
-              },
-              {
-                "id": "o3",
-                "text": "Le thème récurrent de la maison résonne avec de nombreux lecteurs, même lorsque leur propre parcours est différent."
-              },
-              {
-                "id": "o4",
-                "text": "C’est précisément cette liberté qui permet à chaque lecteur d’y reconnaître une part de son histoire et de construire sa propre relation avec le texte."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Quel résultat conclut « Pourquoi ce roman résonne encore » après « Le thème récurrent de la maison résonne avec de nombreux lecteurs,… » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Bienvenue dans notre podcast littéraire."
-              },
-              {
-                "id": "o2",
-                "text": "Elle avait ajouté que le personnage principal n’était pas un portrait exact, mais une figure inspirée de plusieurs générations."
-              },
-              {
-                "id": "o3",
-                "text": "Le thème récurrent de la maison résonne avec de nombreux lecteurs, même lorsque leur propre parcours est différent."
-              },
-              {
-                "id": "o4",
-                "text": "C’est précisément cette liberté qui permet à chaque lecteur d’y reconnaître une part de son histoire et de construire sa propre relation avec le texte."
-              }
-            ]
-          }
-        ]
-      },
-      "grammarTest": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Dans « Pourquoi ce roman résonne encore », quel détail présente la situation ?",
-        "options": [
-          "Bienvenue dans notre podcast littéraire.",
-          "Elle avait ajouté que le personnage principal n’était pas un portrait exact, mais une figure inspirée de plusieurs générations.",
-          "Le thème récurrent de la maison résonne avec de nombreux lecteurs, même lorsque leur propre parcours est différent.",
-          "C’est précisément cette liberté qui permet à chaque lecteur d’y reconnaître une part de son histoire et de construire sa propre relation avec le texte."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Après « Bienvenue dans notre podcast littéraire. », que se passe-t-il ensuite dans « Pourquoi ce roman résonne encore » ?",
-        "options": [
-          "Bienvenue dans notre podcast littéraire.",
-          "Elle avait ajouté que le personnage principal n’était pas un portrait exact, mais une figure inspirée de plusieurs générations.",
-          "Le thème récurrent de la maison résonne avec de nombreux lecteurs, même lorsque leur propre parcours est différent.",
-          "C’est précisément cette liberté qui permet à chaque lecteur d’y reconnaître une part de son histoire et de construire sa propre relation avec le texte."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Pourquoi ce roman résonne encore » ?",
-        "options": [
-          "Bienvenue dans notre podcast littéraire.",
-          "Elle avait ajouté que le personnage principal n’était pas un portrait exact, mais une figure inspirée de plusieurs générations.",
-          "Le thème récurrent de la maison résonne avec de nombreux lecteurs, même lorsque leur propre parcours est différent.",
-          "C’est précisément cette liberté qui permet à chaque lecteur d’y reconnaître une part de son histoire et de construire sa propre relation avec le texte."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel résultat conclut « Pourquoi ce roman résonne encore » après « Le thème récurrent de la maison résonne avec de nombreux lecteurs,… » ?",
-        "options": [
-          "Bienvenue dans notre podcast littéraire.",
-          "Elle avait ajouté que le personnage principal n’était pas un portrait exact, mais une figure inspirée de plusieurs générations.",
-          "Le thème récurrent de la maison résonne avec de nombreux lecteurs, même lorsque leur propre parcours est différent.",
-          "C’est précisément cette liberté qui permet à chaque lecteur d’y reconnaître une part de son histoire et de construire sa propre relation avec le texte."
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-memoire-migration-et-identite-listening",
     "level": "C1",
     "skill": "listening",
@@ -25524,6 +25274,256 @@
     ]
   },
   {
+    "slug": "french-b2-litterature-francophone-listening",
+    "level": "B2",
+    "skill": "listening",
+    "unitId": "litterature-francophone",
+    "title": "Pourquoi ce roman résonne encore",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 35,
+    "orderIndex": 51,
+    "estimatedMinutes": 14,
+    "description": "Écoute ce contenu de niveau B2 et identifie les idées, les nuances et les preuves.",
+    "intro": "Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "Ils ont dit qu’ils voulaient...",
+      "Ils ont expliqué que...",
+      "Ça résonne avec...",
+      "C’est ce que confirment..."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Bienvenue dans notre podcast littéraire. Cette semaine, nous revenons sur un roman francophone consacré à la mémoire et à l’exil. Lors d’une rencontre, l’autrice avait expliqué qu’elle voulait donner une voix aux histoires silencieuses de sa famille. Elle avait ajouté que le personnage principal n’était pas un portrait exact, mais une figure inspirée de plusieurs générations. Ce qui frappe dans l’extrait auquel nous nous intéressons, c’est la présence constante des objets : une valise, une photographie, une clé. Chacun évoque un départ, mais aussi la possibilité d’un retour. La narratrice utilise une langue simple dont le rythme devient progressivement plus intense. Le thème récurrent de la maison résonne avec de nombreux lecteurs, même lorsque leur propre parcours est différent. Le club de lecture a rappelé que l’autrice avait refusé une interprétation uniquement autobiographique. Elle souhaitait que le roman reste ouvert. C’est précisément cette liberté qui permet à chaque lecteur d’y reconnaître une part de son histoire et de construire sa propre relation avec le texte.",
+    "extra": {
+      "listeningType": "monologue",
+      "listeningFormat": "podcast",
+      "storyTitle": "Pourquoi ce roman résonne encore",
+      "mainTranscript": "Bienvenue dans notre podcast littéraire. Cette semaine, nous revenons sur un roman francophone consacré à la mémoire et à l’exil. Lors d’une rencontre, l’autrice avait expliqué qu’elle voulait donner une voix aux histoires silencieuses de sa famille. Elle avait ajouté que le personnage principal n’était pas un portrait exact, mais une figure inspirée de plusieurs générations. Ce qui frappe dans l’extrait auquel nous nous intéressons, c’est la présence constante des objets : une valise, une photographie, une clé. Chacun évoque un départ, mais aussi la possibilité d’un retour. La narratrice utilise une langue simple dont le rythme devient progressivement plus intense. Le thème récurrent de la maison résonne avec de nombreux lecteurs, même lorsque leur propre parcours est différent. Le club de lecture a rappelé que l’autrice avait refusé une interprétation uniquement autobiographique. Elle souhaitait que le roman reste ouvert. C’est précisément cette liberté qui permet à chaque lecteur d’y reconnaître une part de son histoire et de construire sa propre relation avec le texte.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Bienvenue dans notre podcast littéraire."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Cette semaine, nous revenons sur un roman francophone consacré à la mémoire et à l’exil."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Lors d’une rencontre, l’autrice avait expliqué qu’elle voulait donner une voix aux histoires silencieuses de sa famille."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "Elle avait ajouté que le personnage principal n’était pas un portrait exact, mais une figure inspirée de plusieurs générations."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Ce qui frappe dans l’extrait auquel nous nous intéressons, c’est la présence constante des objets : une valise, une photographie, une clé."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Chacun évoque un départ, mais aussi la possibilité d’un retour."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "La narratrice utilise une langue simple dont le rythme devient progressivement plus intense."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Le thème récurrent de la maison résonne avec de nombreux lecteurs, même lorsque leur propre parcours est différent."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Le club de lecture a rappelé que l’autrice avait refusé une interprétation uniquement autobiographique."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Elle souhaitait que le roman reste ouvert."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "C’est précisément cette liberté qui permet à chaque lecteur d’y reconnaître une part de son histoire et de construire sa propre relation avec le texte."
+        }
+      ],
+      "difficulty": "B2",
+      "durationSeconds": 85,
+      "speakers": [
+        "Animatrice",
+        "Invité"
+      ],
+      "phoneticSupport": {
+        "enabled": true,
+        "locale": "fr-FR",
+        "focus": "Marque les groupes rythmiques et les mots de contraste. Fais entendre la différence entre une affirmation ferme et une conclusion nuancée.",
+        "segments": [],
+        "stressedWords": [
+          "établi",
+          "inférer",
+          "objection",
+          "réviser"
+        ],
+        "difficultSounds": [],
+        "reviewStatus": "verified"
+      },
+      "listeningComprehension": {
+        "id": "french-b2-litterature-francophone-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Dans « Pourquoi ce roman résonne encore », quel détail présente la situation ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Bienvenue dans notre podcast littéraire."
+              },
+              {
+                "id": "o2",
+                "text": "Elle avait ajouté que le personnage principal n’était pas un portrait exact, mais une figure inspirée de plusieurs générations."
+              },
+              {
+                "id": "o3",
+                "text": "Le thème récurrent de la maison résonne avec de nombreux lecteurs, même lorsque leur propre parcours est différent."
+              },
+              {
+                "id": "o4",
+                "text": "C’est précisément cette liberté qui permet à chaque lecteur d’y reconnaître une part de son histoire et de construire sa propre relation avec le texte."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Après « Bienvenue dans notre podcast littéraire. », que se passe-t-il ensuite dans « Pourquoi ce roman résonne encore » ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Bienvenue dans notre podcast littéraire."
+              },
+              {
+                "id": "o2",
+                "text": "Elle avait ajouté que le personnage principal n’était pas un portrait exact, mais une figure inspirée de plusieurs générations."
+              },
+              {
+                "id": "o3",
+                "text": "Le thème récurrent de la maison résonne avec de nombreux lecteurs, même lorsque leur propre parcours est différent."
+              },
+              {
+                "id": "o4",
+                "text": "C’est précisément cette liberté qui permet à chaque lecteur d’y reconnaître une part de son histoire et de construire sa propre relation avec le texte."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Pourquoi ce roman résonne encore » ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Bienvenue dans notre podcast littéraire."
+              },
+              {
+                "id": "o2",
+                "text": "Elle avait ajouté que le personnage principal n’était pas un portrait exact, mais une figure inspirée de plusieurs générations."
+              },
+              {
+                "id": "o3",
+                "text": "Le thème récurrent de la maison résonne avec de nombreux lecteurs, même lorsque leur propre parcours est différent."
+              },
+              {
+                "id": "o4",
+                "text": "C’est précisément cette liberté qui permet à chaque lecteur d’y reconnaître une part de son histoire et de construire sa propre relation avec le texte."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quel résultat conclut « Pourquoi ce roman résonne encore » après « Le thème récurrent de la maison résonne avec de nombreux lecteurs,… » ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Bienvenue dans notre podcast littéraire."
+              },
+              {
+                "id": "o2",
+                "text": "Elle avait ajouté que le personnage principal n’était pas un portrait exact, mais une figure inspirée de plusieurs générations."
+              },
+              {
+                "id": "o3",
+                "text": "Le thème récurrent de la maison résonne avec de nombreux lecteurs, même lorsque leur propre parcours est différent."
+              },
+              {
+                "id": "o4",
+                "text": "C’est précisément cette liberté qui permet à chaque lecteur d’y reconnaître une part de son histoire et de construire sa propre relation avec le texte."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Dans « Pourquoi ce roman résonne encore », quel détail présente la situation ?",
+        "options": [
+          "Bienvenue dans notre podcast littéraire.",
+          "Elle avait ajouté que le personnage principal n’était pas un portrait exact, mais une figure inspirée de plusieurs générations.",
+          "Le thème récurrent de la maison résonne avec de nombreux lecteurs, même lorsque leur propre parcours est différent.",
+          "C’est précisément cette liberté qui permet à chaque lecteur d’y reconnaître une part de son histoire et de construire sa propre relation avec le texte."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Après « Bienvenue dans notre podcast littéraire. », que se passe-t-il ensuite dans « Pourquoi ce roman résonne encore » ?",
+        "options": [
+          "Bienvenue dans notre podcast littéraire.",
+          "Elle avait ajouté que le personnage principal n’était pas un portrait exact, mais une figure inspirée de plusieurs générations.",
+          "Le thème récurrent de la maison résonne avec de nombreux lecteurs, même lorsque leur propre parcours est différent.",
+          "C’est précisément cette liberté qui permet à chaque lecteur d’y reconnaître une part de son histoire et de construire sa propre relation avec le texte."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Pourquoi ce roman résonne encore » ?",
+        "options": [
+          "Bienvenue dans notre podcast littéraire.",
+          "Elle avait ajouté que le personnage principal n’était pas un portrait exact, mais une figure inspirée de plusieurs générations.",
+          "Le thème récurrent de la maison résonne avec de nombreux lecteurs, même lorsque leur propre parcours est différent.",
+          "C’est précisément cette liberté qui permet à chaque lecteur d’y reconnaître une part de son histoire et de construire sa propre relation avec le texte."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quel résultat conclut « Pourquoi ce roman résonne encore » après « Le thème récurrent de la maison résonne avec de nombreux lecteurs,… » ?",
+        "options": [
+          "Bienvenue dans notre podcast littéraire.",
+          "Elle avait ajouté que le personnage principal n’était pas un portrait exact, mais une figure inspirée de plusieurs générations.",
+          "Le thème récurrent de la maison résonne avec de nombreux lecteurs, même lorsque leur propre parcours est différent.",
+          "C’est précisément cette liberté qui permet à chaque lecteur d’y reconnaître une part de son histoire et de construire sa propre relation avec le texte."
+        ]
+      }
+    ]
+  },
+  {
     "slug": "french-a1-ma-journee-speaking",
     "level": "A1",
     "skill": "speaking",
@@ -25664,67 +25664,6 @@
       {
         "type": "practice",
         "prompt": "Débats avec un/une camarade sur les avantages et inconvénients de deux cultures différentes."
-      }
-    ]
-  },
-  {
-    "slug": "french-b2-litterature-francophone-speaking",
-    "level": "B2",
-    "skill": "speaking",
-    "unitId": "litterature-francophone",
-    "title": "Analyser une œuvre",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 52,
-    "estimatedMinutes": 14,
-    "description": "Présente ton analyse d’un livre, film ou œuvre qui t’a marqué.",
-    "intro": "Présente ton analyse d’un livre, film ou œuvre qui t’a marqué.",
-    "mission": "Présente une œuvre (livre, film, chanson) qui t’a marqué, en expliquant son thème principal et pourquoi elle résonne avec ton expérience personnelle.",
-    "grammar": "",
-    "phrases": [
-      "Le thème principal est...",
-      "L’auteur/autrice a voulu montrer que...",
-      "Ça résonne avec mon expérience parce que...",
-      "Ce que j’en retiens, c’est..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Toi",
-        "line": "Le thème principal de cette œuvre est... L’auteur a voulu montrer que... Ça résonne avec mon expérience parce que...",
-        "translation": "El tema principal de esta obra es... El autor quiso mostrar que... Esto resuena con mi experiencia porque..."
-      }
-    ],
-    "reading": null,
-    "transcript": "Toi : Le thème principal de cette œuvre est... L’auteur a voulu montrer que... Ça résonne avec mon expérience parce que...",
-    "extra": {
-      "communicationGuide": {
-        "steps": [
-          "Enregistre une première réponse sans lire un texte complet.",
-          "Utilise la transcription vocale pour vérifier ce qui a été compris.",
-          "Demande au Tuteur IA un retour sur la clarté, les preuves et le registre.",
-          "Enregistre une seconde version et compare fluidité et prononciation."
-        ],
-        "premiumMode": "Conversation libre avec le Tuteur IA",
-        "pronunciationTargets": [
-          "groupes rythmiques",
-          "mise en relief",
-          "enchaînements",
-          "intonation nuancée"
-        ]
-      },
-      "grammarTest": null,
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Présente une analyse d’une œuvre qui t’a marqué, avec au moins une phrase au discours indirect."
-      },
-      {
-        "type": "practice",
-        "prompt": "Avec un/une camarade, discutez d’un livre ou film que vous avez tous les deux aimé."
       }
     ]
   },
@@ -25879,6 +25818,67 @@
     ]
   },
   {
+    "slug": "french-b2-litterature-francophone-speaking",
+    "level": "B2",
+    "skill": "speaking",
+    "unitId": "litterature-francophone",
+    "title": "Analyser une œuvre",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 52,
+    "estimatedMinutes": 14,
+    "description": "Présente ton analyse d’un livre, film ou œuvre qui t’a marqué.",
+    "intro": "Présente ton analyse d’un livre, film ou œuvre qui t’a marqué.",
+    "mission": "Présente une œuvre (livre, film, chanson) qui t’a marqué, en expliquant son thème principal et pourquoi elle résonne avec ton expérience personnelle.",
+    "grammar": "",
+    "phrases": [
+      "Le thème principal est...",
+      "L’auteur/autrice a voulu montrer que...",
+      "Ça résonne avec mon expérience parce que...",
+      "Ce que j’en retiens, c’est..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Toi",
+        "line": "Le thème principal de cette œuvre est... L’auteur a voulu montrer que... Ça résonne avec mon expérience parce que...",
+        "translation": "El tema principal de esta obra es... El autor quiso mostrar que... Esto resuena con mi experiencia porque..."
+      }
+    ],
+    "reading": null,
+    "transcript": "Toi : Le thème principal de cette œuvre est... L’auteur a voulu montrer que... Ça résonne avec mon expérience parce que...",
+    "extra": {
+      "communicationGuide": {
+        "steps": [
+          "Enregistre une première réponse sans lire un texte complet.",
+          "Utilise la transcription vocale pour vérifier ce qui a été compris.",
+          "Demande au Tuteur IA un retour sur la clarté, les preuves et le registre.",
+          "Enregistre une seconde version et compare fluidité et prononciation."
+        ],
+        "premiumMode": "Conversation libre avec le Tuteur IA",
+        "pronunciationTargets": [
+          "groupes rythmiques",
+          "mise en relief",
+          "enchaînements",
+          "intonation nuancée"
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Présente une analyse d’une œuvre qui t’a marqué, avec au moins une phrase au discours indirect."
+      },
+      {
+        "type": "practice",
+        "prompt": "Avec un/une camarade, discutez d’un livre ou film que vous avez tous les deux aimé."
+      }
+    ]
+  },
+  {
     "slug": "french-a1-ma-journee-writing",
     "level": "A1",
     "skill": "writing",
@@ -25996,64 +25996,6 @@
     ]
   },
   {
-    "slug": "french-b2-litterature-francophone-writing",
-    "level": "B2",
-    "skill": "writing",
-    "unitId": "litterature-francophone",
-    "title": "Une critique littéraire",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 35,
-    "orderIndex": 53,
-    "estimatedMinutes": 18,
-    "description": "Rédige une courte critique littéraire d’un livre qui t’a marqué.",
-    "intro": "Rédige une courte critique littéraire d’un livre qui t’a marqué.",
-    "mission": "Écris 200 à 250 mots présentant un livre (réel ou imaginaire) qui t’a marqué, son thème principal, et pourquoi il résonne avec toi.",
-    "grammar": "",
-    "phrases": [
-      "Ce roman évoque...",
-      "L’auteur/autrice a expliqué que...",
-      "Un thème récurrent est...",
-      "Ce livre auquel je pense souvent..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Modèle",
-        "line": "Ce roman évoque le thème du déracinement à travers l’histoire d’une jeune femme partagée entre deux cultures. L’autrice a expliqué qu’elle voulait montrer qu’on pouvait appartenir à plusieurs mondes à la fois. Ce livre auquel je pense souvent m’a beaucoup marquée.",
-        "translation": "Esta novela evoca el tema del desarraigo a través de la historia de una joven dividida entre dos culturas. La autora explicó que quería mostrar que se podía pertenecer a varios mundos a la vez. Este libro en el que pienso a menudo me marcó mucho."
-      }
-    ],
-    "reading": null,
-    "transcript": "Modèle : Ce roman évoque le thème du déracinement à travers l’histoire d’une jeune femme partagée entre deux cultures. L’autrice a expliqué qu’elle voulait montrer qu’on pouvait appartenir à plusieurs mondes à la fois. Ce livre auquel je pense souvent m’a beaucoup marquée.",
-    "extra": {
-      "writingGuide": {
-        "taskType": "texte argumentatif structuré",
-        "steps": [
-          "Délimite la question et rédige une thèse en une phrase.",
-          "Choisis deux preuves ou exemples et explique leur pertinence.",
-          "Présente loyalement l’objection la plus solide.",
-          "Réponds sans exagérer la portée des preuves.",
-          "Révise la cohésion, la grammaire, le registre et la conclusion."
-        ],
-        "checklist": [
-          "Utilise au moins deux termes de l’unité : un extrait, le narrateur, évoquer.",
-          "Emploie correctement discours indirect au passé au moins une fois.",
-          "Distingue preuve, inférence et jugement.",
-          "Vérifie les liens entre les paragraphes et supprime les affirmations absolues non justifiées."
-        ]
-      },
-      "grammarTest": null,
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "writing",
-        "prompt": "Écris une critique littéraire de 200 à 250 mots, avec au moins une phrase au discours indirect et un pronom relatif composé (lequel/auquel)."
-      }
-    ]
-  },
-  {
     "slug": "french-c1-memoire-migration-et-identite-writing",
     "level": "C1",
     "skill": "writing",
@@ -26166,6 +26108,64 @@
       {
         "type": "writing",
         "prompt": "Rédige 300–350 mots. Avant l’envoi, vérifie la présence d’une thèse, de deux arguments développés, d’une objection et d’une conclusion nuancée."
+      }
+    ]
+  },
+  {
+    "slug": "french-b2-litterature-francophone-writing",
+    "level": "B2",
+    "skill": "writing",
+    "unitId": "litterature-francophone",
+    "title": "Une critique littéraire",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 35,
+    "orderIndex": 53,
+    "estimatedMinutes": 18,
+    "description": "Rédige une courte critique littéraire d’un livre qui t’a marqué.",
+    "intro": "Rédige une courte critique littéraire d’un livre qui t’a marqué.",
+    "mission": "Écris 200 à 250 mots présentant un livre (réel ou imaginaire) qui t’a marqué, son thème principal, et pourquoi il résonne avec toi.",
+    "grammar": "",
+    "phrases": [
+      "Ce roman évoque...",
+      "L’auteur/autrice a expliqué que...",
+      "Un thème récurrent est...",
+      "Ce livre auquel je pense souvent..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Modèle",
+        "line": "Ce roman évoque le thème du déracinement à travers l’histoire d’une jeune femme partagée entre deux cultures. L’autrice a expliqué qu’elle voulait montrer qu’on pouvait appartenir à plusieurs mondes à la fois. Ce livre auquel je pense souvent m’a beaucoup marquée.",
+        "translation": "Esta novela evoca el tema del desarraigo a través de la historia de una joven dividida entre dos culturas. La autora explicó que quería mostrar que se podía pertenecer a varios mundos a la vez. Este libro en el que pienso a menudo me marcó mucho."
+      }
+    ],
+    "reading": null,
+    "transcript": "Modèle : Ce roman évoque le thème du déracinement à travers l’histoire d’une jeune femme partagée entre deux cultures. L’autrice a expliqué qu’elle voulait montrer qu’on pouvait appartenir à plusieurs mondes à la fois. Ce livre auquel je pense souvent m’a beaucoup marquée.",
+    "extra": {
+      "writingGuide": {
+        "taskType": "texte argumentatif structuré",
+        "steps": [
+          "Délimite la question et rédige une thèse en une phrase.",
+          "Choisis deux preuves ou exemples et explique leur pertinence.",
+          "Présente loyalement l’objection la plus solide.",
+          "Réponds sans exagérer la portée des preuves.",
+          "Révise la cohésion, la grammaire, le registre et la conclusion."
+        ],
+        "checklist": [
+          "Utilise au moins deux termes de l’unité : un extrait, le narrateur, évoquer.",
+          "Emploie correctement discours indirect au passé au moins une fois.",
+          "Distingue preuve, inférence et jugement.",
+          "Vérifie les liens entre les paragraphes et supprime les affirmations absolues non justifiées."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Écris une critique littéraire de 200 à 250 mots, avec au moins une phrase au discours indirect et un pronom relatif composé (lequel/auquel)."
       }
     ]
   },
@@ -27012,287 +27012,6 @@
     ]
   },
   {
-    "slug": "french-b2-litterature-francophone-grammar",
-    "level": "B2",
-    "skill": "grammar",
-    "unitId": "litterature-francophone",
-    "title": "Le discours indirect au passé et lequel/auquel",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 54,
-    "estimatedMinutes": 14,
-    "description": "Rapporter des propos passés et utiliser lequel/auquel comme pronoms relatifs.",
-    "intro": "Rapporter des propos passés et utiliser lequel/auquel comme pronoms relatifs.",
-    "mission": "",
-    "grammar": "Au discours indirect au passé, le présent devient l’imparfait et le passé composé devient le plus-que-parfait : « Elle a dit : \"Je veux explorer ce thème.\" » → « Elle a dit qu’elle voulait explorer ce thème. » « Lequel/auquel/duquel » remplacent un nom précédé d’une préposition : « Le roman auquel je pensais. »",
-    "phrases": [
-      "Elle a dit que...",
-      "Elle a expliqué qu’elle voulait...",
-      "Le roman auquel je pensais...",
-      "L’idée à laquelle elle tenait..."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "grammarTest": {
-        "id": "french-b2-litterature-francophone-grammar-test",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "french-b2-litterature-francophone-grammar-q1",
-            "type": "mcq",
-            "prompt": "Elle a dit qu’elle ___ explorer ce thème.",
-            "difficulty": "application",
-            "options": [
-              {
-                "id": "b",
-                "text": "voulait"
-              },
-              {
-                "id": "a",
-                "text": "veut"
-              },
-              {
-                "id": "c",
-                "text": "voudra"
-              },
-              {
-                "id": "d",
-                "text": "a voulu"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-litterature-francophone-grammar-q2",
-            "type": "mcq",
-            "prompt": "L’autrice a expliqué qu’elle ___ ce roman pendant deux ans.",
-            "difficulty": "application",
-            "options": [
-              {
-                "id": "a",
-                "text": "écrit"
-              },
-              {
-                "id": "b",
-                "text": "avait écrit"
-              },
-              {
-                "id": "c",
-                "text": "écrira"
-              },
-              {
-                "id": "d",
-                "text": "écrivant"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-litterature-francophone-grammar-q3",
-            "type": "mcq",
-            "prompt": "Le roman ___ je pensais beaucoup était passionnant.",
-            "difficulty": "analysis",
-            "options": [
-              {
-                "id": "a",
-                "text": "que"
-              },
-              {
-                "id": "b",
-                "text": "dont"
-              },
-              {
-                "id": "c",
-                "text": "auquel"
-              },
-              {
-                "id": "d",
-                "text": "où"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-litterature-francophone-grammar-q4",
-            "type": "mcq",
-            "prompt": "Au discours indirect passé, le présent devient...",
-            "difficulty": "analysis",
-            "options": [
-              {
-                "id": "a",
-                "text": "Le futur"
-              },
-              {
-                "id": "c",
-                "text": "Le conditionnel"
-              },
-              {
-                "id": "d",
-                "text": "Le subjonctif"
-              },
-              {
-                "id": "b",
-                "text": "L’imparfait"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-litterature-francophone-grammar-q5",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Elle a dit qu’elle veut explorer ce thème. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "b",
-                "text": "Elle a dit qu’elle voulait explorer ce thème."
-              },
-              {
-                "id": "a",
-                "text": "Elle a dit qu’elle veut explorer ce thème."
-              },
-              {
-                "id": "c",
-                "text": "Elle a dit qu’elle voudra explorer ce thème."
-              },
-              {
-                "id": "d",
-                "text": "Elle a dit qu’elle a voulu explorer ce thème."
-              }
-            ]
-          },
-          {
-            "id": "french-b2-litterature-francophone-grammar-q6",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « L’autrice a expliqué qu’elle écrit ce roman pendant deux ans. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "L’autrice a expliqué qu’elle écrit ce roman pendant deux ans."
-              },
-              {
-                "id": "b",
-                "text": "L’autrice a expliqué qu’elle avait écrit ce roman pendant deux ans."
-              },
-              {
-                "id": "c",
-                "text": "L’autrice a expliqué qu’elle écrira ce roman pendant deux ans."
-              },
-              {
-                "id": "d",
-                "text": "L’autrice a expliqué qu’elle écrivant ce roman pendant deux ans."
-              }
-            ]
-          },
-          {
-            "id": "french-b2-litterature-francophone-grammar-q7",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Le roman que je pensais beaucoup était passionnant. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Le roman que je pensais beaucoup était passionnant."
-              },
-              {
-                "id": "b",
-                "text": "Le roman dont je pensais beaucoup était passionnant."
-              },
-              {
-                "id": "c",
-                "text": "Le roman auquel je pensais beaucoup était passionnant."
-              },
-              {
-                "id": "d",
-                "text": "Le roman où je pensais beaucoup était passionnant."
-              }
-            ]
-          },
-          {
-            "id": "french-b2-litterature-francophone-grammar-q8",
-            "type": "mcq",
-            "prompt": "Quelle réponse corrige l’erreur « Le futur » dans ce contexte : « Au discours indirect passé, le présent devient... » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Le futur"
-              },
-              {
-                "id": "c",
-                "text": "Le conditionnel"
-              },
-              {
-                "id": "d",
-                "text": "Le subjonctif"
-              },
-              {
-                "id": "b",
-                "text": "L’imparfait"
-              }
-            ]
-          }
-        ]
-      },
-      "grammarProfile": {
-        "name": "Le discours indirect au passé et lequel/auquel",
-        "definition": "Au discours indirect au passé, le présent devient l’imparfait et le passé composé devient le plus-que-parfait : « Elle a dit : \"Je veux explorer ce thème.\" » → « Elle a dit qu’elle voulait explorer ce thème. » « Lequel/auquel/duquel » remplacent un nom précédé d’une préposition : « Le roman auquel je pensais. »",
-        "structure": "Forme à observer : Le discours indirect au passé et lequel/auquel. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
-        "function": "Rapporter des propos passés et utiliser lequel/auquel comme pronoms relatifs.",
-        "examples": [
-          "Elle a dit qu’elle voulait explorer ce thème.",
-          "L’autrice a expliqué qu’elle avait écrit ce roman pendant deux ans.",
-          "Le roman auquel je pensais beaucoup était passionnant.",
-          "L’imparfait"
-        ]
-      },
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Elle a dit qu’elle ___ explorer ce thème.",
-        "options": [
-          "veut",
-          "voulait",
-          "voudra",
-          "a voulu"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "L’autrice a expliqué qu’elle ___ ce roman pendant deux ans.",
-        "options": [
-          "écrit",
-          "avait écrit",
-          "écrira",
-          "écrivant"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Le roman ___ je pensais beaucoup était passionnant.",
-        "options": [
-          "que",
-          "dont",
-          "auquel",
-          "où"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Au discours indirect passé, le présent devient...",
-        "options": [
-          "Le futur",
-          "L’imparfait",
-          "Le conditionnel",
-          "Le subjonctif"
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-memoire-migration-et-identite-grammar",
     "level": "C1",
     "skill": "grammar",
@@ -27948,6 +27667,287 @@
     ]
   },
   {
+    "slug": "french-b2-litterature-francophone-grammar",
+    "level": "B2",
+    "skill": "grammar",
+    "unitId": "litterature-francophone",
+    "title": "Le discours indirect au passé et lequel/auquel",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 54,
+    "estimatedMinutes": 14,
+    "description": "Rapporter des propos passés et utiliser lequel/auquel comme pronoms relatifs.",
+    "intro": "Rapporter des propos passés et utiliser lequel/auquel comme pronoms relatifs.",
+    "mission": "",
+    "grammar": "Au discours indirect au passé, le présent devient l’imparfait et le passé composé devient le plus-que-parfait : « Elle a dit : \"Je veux explorer ce thème.\" » → « Elle a dit qu’elle voulait explorer ce thème. » « Lequel/auquel/duquel » remplacent un nom précédé d’une préposition : « Le roman auquel je pensais. »",
+    "phrases": [
+      "Elle a dit que...",
+      "Elle a expliqué qu’elle voulait...",
+      "Le roman auquel je pensais...",
+      "L’idée à laquelle elle tenait..."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": {
+      "grammarTest": {
+        "id": "french-b2-litterature-francophone-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "french-b2-litterature-francophone-grammar-q1",
+            "type": "mcq",
+            "prompt": "Elle a dit qu’elle ___ explorer ce thème.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "b",
+                "text": "voulait"
+              },
+              {
+                "id": "a",
+                "text": "veut"
+              },
+              {
+                "id": "c",
+                "text": "voudra"
+              },
+              {
+                "id": "d",
+                "text": "a voulu"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-litterature-francophone-grammar-q2",
+            "type": "mcq",
+            "prompt": "L’autrice a expliqué qu’elle ___ ce roman pendant deux ans.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "écrit"
+              },
+              {
+                "id": "b",
+                "text": "avait écrit"
+              },
+              {
+                "id": "c",
+                "text": "écrira"
+              },
+              {
+                "id": "d",
+                "text": "écrivant"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-litterature-francophone-grammar-q3",
+            "type": "mcq",
+            "prompt": "Le roman ___ je pensais beaucoup était passionnant.",
+            "difficulty": "analysis",
+            "options": [
+              {
+                "id": "a",
+                "text": "que"
+              },
+              {
+                "id": "b",
+                "text": "dont"
+              },
+              {
+                "id": "c",
+                "text": "auquel"
+              },
+              {
+                "id": "d",
+                "text": "où"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-litterature-francophone-grammar-q4",
+            "type": "mcq",
+            "prompt": "Au discours indirect passé, le présent devient...",
+            "difficulty": "analysis",
+            "options": [
+              {
+                "id": "a",
+                "text": "Le futur"
+              },
+              {
+                "id": "c",
+                "text": "Le conditionnel"
+              },
+              {
+                "id": "d",
+                "text": "Le subjonctif"
+              },
+              {
+                "id": "b",
+                "text": "L’imparfait"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-litterature-francophone-grammar-q5",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Elle a dit qu’elle veut explorer ce thème. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "b",
+                "text": "Elle a dit qu’elle voulait explorer ce thème."
+              },
+              {
+                "id": "a",
+                "text": "Elle a dit qu’elle veut explorer ce thème."
+              },
+              {
+                "id": "c",
+                "text": "Elle a dit qu’elle voudra explorer ce thème."
+              },
+              {
+                "id": "d",
+                "text": "Elle a dit qu’elle a voulu explorer ce thème."
+              }
+            ]
+          },
+          {
+            "id": "french-b2-litterature-francophone-grammar-q6",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « L’autrice a expliqué qu’elle écrit ce roman pendant deux ans. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "L’autrice a expliqué qu’elle écrit ce roman pendant deux ans."
+              },
+              {
+                "id": "b",
+                "text": "L’autrice a expliqué qu’elle avait écrit ce roman pendant deux ans."
+              },
+              {
+                "id": "c",
+                "text": "L’autrice a expliqué qu’elle écrira ce roman pendant deux ans."
+              },
+              {
+                "id": "d",
+                "text": "L’autrice a expliqué qu’elle écrivant ce roman pendant deux ans."
+              }
+            ]
+          },
+          {
+            "id": "french-b2-litterature-francophone-grammar-q7",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Le roman que je pensais beaucoup était passionnant. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Le roman que je pensais beaucoup était passionnant."
+              },
+              {
+                "id": "b",
+                "text": "Le roman dont je pensais beaucoup était passionnant."
+              },
+              {
+                "id": "c",
+                "text": "Le roman auquel je pensais beaucoup était passionnant."
+              },
+              {
+                "id": "d",
+                "text": "Le roman où je pensais beaucoup était passionnant."
+              }
+            ]
+          },
+          {
+            "id": "french-b2-litterature-francophone-grammar-q8",
+            "type": "mcq",
+            "prompt": "Quelle réponse corrige l’erreur « Le futur » dans ce contexte : « Au discours indirect passé, le présent devient... » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Le futur"
+              },
+              {
+                "id": "c",
+                "text": "Le conditionnel"
+              },
+              {
+                "id": "d",
+                "text": "Le subjonctif"
+              },
+              {
+                "id": "b",
+                "text": "L’imparfait"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Le discours indirect au passé et lequel/auquel",
+        "definition": "Au discours indirect au passé, le présent devient l’imparfait et le passé composé devient le plus-que-parfait : « Elle a dit : \"Je veux explorer ce thème.\" » → « Elle a dit qu’elle voulait explorer ce thème. » « Lequel/auquel/duquel » remplacent un nom précédé d’une préposition : « Le roman auquel je pensais. »",
+        "structure": "Forme à observer : Le discours indirect au passé et lequel/auquel. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Rapporter des propos passés et utiliser lequel/auquel comme pronoms relatifs.",
+        "examples": [
+          "Elle a dit qu’elle voulait explorer ce thème.",
+          "L’autrice a expliqué qu’elle avait écrit ce roman pendant deux ans.",
+          "Le roman auquel je pensais beaucoup était passionnant.",
+          "L’imparfait"
+        ]
+      },
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Elle a dit qu’elle ___ explorer ce thème.",
+        "options": [
+          "veut",
+          "voulait",
+          "voudra",
+          "a voulu"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "L’autrice a expliqué qu’elle ___ ce roman pendant deux ans.",
+        "options": [
+          "écrit",
+          "avait écrit",
+          "écrira",
+          "écrivant"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Le roman ___ je pensais beaucoup était passionnant.",
+        "options": [
+          "que",
+          "dont",
+          "auquel",
+          "où"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Au discours indirect passé, le présent devient...",
+        "options": [
+          "Le futur",
+          "L’imparfait",
+          "Le conditionnel",
+          "Le subjonctif"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "french-a1-ma-journee-vocabulary",
     "level": "A1",
     "skill": "vocabulary",
@@ -28233,86 +28233,6 @@
           "Apreciar",
           "Ignorar",
           "Olvidar"
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "french-b2-litterature-francophone-vocabulary",
-    "level": "B2",
-    "skill": "vocabulary",
-    "unitId": "litterature-francophone",
-    "title": "Le vocabulaire de l’analyse littéraire",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 55,
-    "estimatedMinutes": 10,
-    "description": "Le vocabulaire essentiel pour analyser et discuter d’une œuvre littéraire.",
-    "intro": "Le vocabulaire essentiel pour analyser et discuter d’une œuvre littéraire.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [
-      {
-        "word": "un extrait",
-        "translation": "un extracto",
-        "example": "Nous avons lu un extrait du roman."
-      },
-      {
-        "word": "le narrateur / la narratrice",
-        "translation": "el narrador / la narradora",
-        "example": "Le narrateur raconte l’histoire à la première personne."
-      },
-      {
-        "word": "évoquer",
-        "translation": "evocar",
-        "example": "Ce roman évoque le thème de l’identité."
-      },
-      {
-        "word": "un thème récurrent",
-        "translation": "un tema recurrente",
-        "example": "Le déracinement est un thème récurrent de cette autrice."
-      },
-      {
-        "word": "résonner avec",
-        "translation": "resonar con",
-        "example": "Cette histoire résonne avec ma propre expérience."
-      }
-    ],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « évoquer » ?",
-        "options": [
-          "Evocar",
-          "Escribir",
-          "Vender",
-          "Traducir"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « un thème récurrent » ?",
-        "options": [
-          "Un tema único",
-          "Un tema recurrente",
-          "Un tema olvidado",
-          "Un tema secreto"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « le narrateur » ?",
-        "options": [
-          "El narrador",
-          "El editor",
-          "El lector",
-          "El título"
         ]
       }
     ]
@@ -28808,6 +28728,86 @@
           "dans une direction opposée à une idée ou à une tendance dominante"
         ],
         "explanation": "« à rebours de » désigne dans une direction opposée à une idée ou à une tendance dominante."
+      }
+    ]
+  },
+  {
+    "slug": "french-b2-litterature-francophone-vocabulary",
+    "level": "B2",
+    "skill": "vocabulary",
+    "unitId": "litterature-francophone",
+    "title": "Le vocabulaire de l’analyse littéraire",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 55,
+    "estimatedMinutes": 10,
+    "description": "Le vocabulaire essentiel pour analyser et discuter d’une œuvre littéraire.",
+    "intro": "Le vocabulaire essentiel pour analyser et discuter d’une œuvre littéraire.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "un extrait",
+        "translation": "un extracto",
+        "example": "Nous avons lu un extrait du roman."
+      },
+      {
+        "word": "le narrateur / la narratrice",
+        "translation": "el narrador / la narradora",
+        "example": "Le narrateur raconte l’histoire à la première personne."
+      },
+      {
+        "word": "évoquer",
+        "translation": "evocar",
+        "example": "Ce roman évoque le thème de l’identité."
+      },
+      {
+        "word": "un thème récurrent",
+        "translation": "un tema recurrente",
+        "example": "Le déracinement est un thème récurrent de cette autrice."
+      },
+      {
+        "word": "résonner avec",
+        "translation": "resonar con",
+        "example": "Cette histoire résonne avec ma propre expérience."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « évoquer » ?",
+        "options": [
+          "Evocar",
+          "Escribir",
+          "Vender",
+          "Traducir"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « un thème récurrent » ?",
+        "options": [
+          "Un tema único",
+          "Un tema recurrente",
+          "Un tema olvidado",
+          "Un tema secreto"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « le narrateur » ?",
+        "options": [
+          "El narrador",
+          "El editor",
+          "El lector",
+          "El título"
+        ]
       }
     ]
   },
@@ -29499,96 +29499,6 @@
     ]
   },
   {
-    "slug": "french-b2-cinema-et-critique-reading",
-    "level": "B2",
-    "skill": "reading",
-    "unitId": "cinema-et-critique",
-    "title": "Anatomie d’une chute : la Palme d’or qui a divisé",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 35,
-    "orderIndex": 60,
-    "estimatedMinutes": 18,
-    "description": "Retour sur le film de Justine Triet, récompensé à Cannes en 2023, et sur les débats qu’il a suscités.",
-    "intro": "Retour sur le film de Justine Triet, récompensé à Cannes en 2023, et sur les débats qu’il a suscités.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": {
-      "title": "Anatomie d’une chute : la Palme d’or qui a divisé",
-      "parts": [
-        "Un couple isolé dans un chalet des Alpes, un homme retrouvé mort au pied de la maison, une écrivaine soupçonnée de l’avoir tué : voilà, résumé en une phrase, le point de départ d’« Anatomie d’une chute », le film qui a fait de Justine Triet, en mai 2023, la troisième femme de l’histoire à recevoir la Palme d’or du Festival de Cannes. Ce qui frappe le plus, dans ce thriller judiciaire construit presque entièrement autour d’un procès, c’est justement ce que le film refuse de révéler : jamais il ne tranche avec certitude sur ce qui s’est réellement passé cette nuit-là.",
-        "Ce qui a le plus marqué la critique spécialisée reste la performance de l’actrice allemande Sandra Hüller, dont l’interprétation nuancée du personnage principal a été unanimement saluée. Le film évite soigneusement tout manichéisme : ce que ni le film ni les jurés fictifs du procès ne prétendent détenir, c’est une vérité absolue sur la culpabilité ou l’innocence de l’accusée, ce qui contraint le spectateur à se forger sa propre opinion, sans jamais obtenir de réponse définitive.",
-        "Certains critiques ont néanmoins pointé un rythme jugé plus exigeant que celui d’un thriller classique, notamment pendant les longues scènes de procès, qui reposent presque exclusivement sur des dialogues plutôt que sur l’action. D’autres ont vu dans cette lenteur assumée une force plus grande encore que celle d’un scénario plus spectaculaire, dans la mesure où elle reflète fidèlement la lourdeur réelle d’une procédure judiciaire. Le scénario, coécrit par Justine Triet et Arthur Harari, a d’ailleurs reçu l’Oscar du meilleur scénario original en 2024, la récompense la plus prestigieuse jamais obtenue par un film français dans cette catégorie.",
-        "Au-delà de son succès critique, ce film a également relancé un débat plus large sur la place des femmes derrière la caméra à Cannes, où seules deux autres réalisatrices avaient obtenu la Palme d’or avant Justine Triet. Ce qui reste, aujourd’hui encore, l’un des exemples les plus cités du cinéma d’auteur français contemporain, c’est précisément cette question qu’il pose implicitement : peut-on jamais connaître véritablement autrui ?"
-      ],
-      "questions": [
-        "Quelle récompense Justine Triet a-t-elle obtenue à Cannes en mai 2023, selon le texte ?",
-        "Que raconte le film, selon le texte ?",
-        "Ce que le film refuse de faire, selon le texte, c’est...",
-        "Quelle récompense le scénario du film a-t-il reçue en 2024, selon le texte ?",
-        "Quel débat plus large ce film a-t-il relancé, selon la conclusion du texte ?"
-      ],
-      "text": "Un couple isolé dans un chalet des Alpes, un homme retrouvé mort au pied de la maison, une écrivaine soupçonnée de l’avoir tué : voilà, résumé en une phrase, le point de départ d’« Anatomie d’une chute », le film qui a fait de Justine Triet, en mai 2023, la troisième femme de l’histoire à recevoir la Palme d’or du Festival de Cannes. Ce qui frappe le plus, dans ce thriller judiciaire construit presque entièrement autour d’un procès, c’est justement ce que le film refuse de révéler : jamais il ne tranche avec certitude sur ce qui s’est réellement passé cette nuit-là.\n\nCe qui a le plus marqué la critique spécialisée reste la performance de l’actrice allemande Sandra Hüller, dont l’interprétation nuancée du personnage principal a été unanimement saluée. Le film évite soigneusement tout manichéisme : ce que ni le film ni les jurés fictifs du procès ne prétendent détenir, c’est une vérité absolue sur la culpabilité ou l’innocence de l’accusée, ce qui contraint le spectateur à se forger sa propre opinion, sans jamais obtenir de réponse définitive.\n\nCertains critiques ont néanmoins pointé un rythme jugé plus exigeant que celui d’un thriller classique, notamment pendant les longues scènes de procès, qui reposent presque exclusivement sur des dialogues plutôt que sur l’action. D’autres ont vu dans cette lenteur assumée une force plus grande encore que celle d’un scénario plus spectaculaire, dans la mesure où elle reflète fidèlement la lourdeur réelle d’une procédure judiciaire. Le scénario, coécrit par Justine Triet et Arthur Harari, a d’ailleurs reçu l’Oscar du meilleur scénario original en 2024, la récompense la plus prestigieuse jamais obtenue par un film français dans cette catégorie.\n\nAu-delà de son succès critique, ce film a également relancé un débat plus large sur la place des femmes derrière la caméra à Cannes, où seules deux autres réalisatrices avaient obtenu la Palme d’or avant Justine Triet. Ce qui reste, aujourd’hui encore, l’un des exemples les plus cités du cinéma d’auteur français contemporain, c’est précisément cette question qu’il pose implicitement : peut-on jamais connaître véritablement autrui ?"
-    },
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Quelle récompense Justine Triet a-t-elle obtenue à Cannes en mai 2023, selon le texte ?",
-        "options": [
-          "Le prix du jury",
-          "La Palme d’or",
-          "Le César du meilleur film",
-          "Aucune récompense"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que raconte le film, selon le texte ?",
-        "options": [
-          "Le procès d’une écrivaine soupçonnée d’avoir tué son mari retrouvé mort au pied d’un chalet",
-          "Une histoire d’amour à Paris",
-          "Un documentaire sur la montagne",
-          "Une comédie familiale"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Ce que le film refuse de faire, selon le texte, c’est...",
-        "options": [
-          "Trancher avec certitude sur ce qui s’est réellement passé",
-          "Montrer le procès en détail",
-          "Utiliser des dialogues",
-          "Se dérouler dans les Alpes"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle récompense le scénario du film a-t-il reçue en 2024, selon le texte ?",
-        "options": [
-          "L’Oscar du meilleur scénario original",
-          "Le César du meilleur scénario",
-          "Le prix Goncourt",
-          "Aucune récompense supplémentaire"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel débat plus large ce film a-t-il relancé, selon la conclusion du texte ?",
-        "options": [
-          "La place des femmes derrière la caméra à Cannes",
-          "Le prix des places de cinéma",
-          "La disparition du cinéma français",
-          "Le rôle des acteurs allemands en France"
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-justice-sociale-et-inegalites-reading",
     "level": "C1",
     "skill": "reading",
@@ -29797,6 +29707,96 @@
           "Mesurer uniquement la masse d’une exoplanète"
         ],
         "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Sommes-nous sur le point de détecter une vie extraterrestre ? »."
+      }
+    ]
+  },
+  {
+    "slug": "french-b2-cinema-et-critique-reading",
+    "level": "B2",
+    "skill": "reading",
+    "unitId": "cinema-et-critique",
+    "title": "Anatomie d’une chute : la Palme d’or qui a divisé",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 35,
+    "orderIndex": 60,
+    "estimatedMinutes": 18,
+    "description": "Retour sur le film de Justine Triet, récompensé à Cannes en 2023, et sur les débats qu’il a suscités.",
+    "intro": "Retour sur le film de Justine Triet, récompensé à Cannes en 2023, et sur les débats qu’il a suscités.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "Anatomie d’une chute : la Palme d’or qui a divisé",
+      "parts": [
+        "Un couple isolé dans un chalet des Alpes, un homme retrouvé mort au pied de la maison, une écrivaine soupçonnée de l’avoir tué : voilà, résumé en une phrase, le point de départ d’« Anatomie d’une chute », le film qui a fait de Justine Triet, en mai 2023, la troisième femme de l’histoire à recevoir la Palme d’or du Festival de Cannes. Ce qui frappe le plus, dans ce thriller judiciaire construit presque entièrement autour d’un procès, c’est justement ce que le film refuse de révéler : jamais il ne tranche avec certitude sur ce qui s’est réellement passé cette nuit-là.",
+        "Ce qui a le plus marqué la critique spécialisée reste la performance de l’actrice allemande Sandra Hüller, dont l’interprétation nuancée du personnage principal a été unanimement saluée. Le film évite soigneusement tout manichéisme : ce que ni le film ni les jurés fictifs du procès ne prétendent détenir, c’est une vérité absolue sur la culpabilité ou l’innocence de l’accusée, ce qui contraint le spectateur à se forger sa propre opinion, sans jamais obtenir de réponse définitive.",
+        "Certains critiques ont néanmoins pointé un rythme jugé plus exigeant que celui d’un thriller classique, notamment pendant les longues scènes de procès, qui reposent presque exclusivement sur des dialogues plutôt que sur l’action. D’autres ont vu dans cette lenteur assumée une force plus grande encore que celle d’un scénario plus spectaculaire, dans la mesure où elle reflète fidèlement la lourdeur réelle d’une procédure judiciaire. Le scénario, coécrit par Justine Triet et Arthur Harari, a d’ailleurs reçu l’Oscar du meilleur scénario original en 2024, la récompense la plus prestigieuse jamais obtenue par un film français dans cette catégorie.",
+        "Au-delà de son succès critique, ce film a également relancé un débat plus large sur la place des femmes derrière la caméra à Cannes, où seules deux autres réalisatrices avaient obtenu la Palme d’or avant Justine Triet. Ce qui reste, aujourd’hui encore, l’un des exemples les plus cités du cinéma d’auteur français contemporain, c’est précisément cette question qu’il pose implicitement : peut-on jamais connaître véritablement autrui ?"
+      ],
+      "questions": [
+        "Quelle récompense Justine Triet a-t-elle obtenue à Cannes en mai 2023, selon le texte ?",
+        "Que raconte le film, selon le texte ?",
+        "Ce que le film refuse de faire, selon le texte, c’est...",
+        "Quelle récompense le scénario du film a-t-il reçue en 2024, selon le texte ?",
+        "Quel débat plus large ce film a-t-il relancé, selon la conclusion du texte ?"
+      ],
+      "text": "Un couple isolé dans un chalet des Alpes, un homme retrouvé mort au pied de la maison, une écrivaine soupçonnée de l’avoir tué : voilà, résumé en une phrase, le point de départ d’« Anatomie d’une chute », le film qui a fait de Justine Triet, en mai 2023, la troisième femme de l’histoire à recevoir la Palme d’or du Festival de Cannes. Ce qui frappe le plus, dans ce thriller judiciaire construit presque entièrement autour d’un procès, c’est justement ce que le film refuse de révéler : jamais il ne tranche avec certitude sur ce qui s’est réellement passé cette nuit-là.\n\nCe qui a le plus marqué la critique spécialisée reste la performance de l’actrice allemande Sandra Hüller, dont l’interprétation nuancée du personnage principal a été unanimement saluée. Le film évite soigneusement tout manichéisme : ce que ni le film ni les jurés fictifs du procès ne prétendent détenir, c’est une vérité absolue sur la culpabilité ou l’innocence de l’accusée, ce qui contraint le spectateur à se forger sa propre opinion, sans jamais obtenir de réponse définitive.\n\nCertains critiques ont néanmoins pointé un rythme jugé plus exigeant que celui d’un thriller classique, notamment pendant les longues scènes de procès, qui reposent presque exclusivement sur des dialogues plutôt que sur l’action. D’autres ont vu dans cette lenteur assumée une force plus grande encore que celle d’un scénario plus spectaculaire, dans la mesure où elle reflète fidèlement la lourdeur réelle d’une procédure judiciaire. Le scénario, coécrit par Justine Triet et Arthur Harari, a d’ailleurs reçu l’Oscar du meilleur scénario original en 2024, la récompense la plus prestigieuse jamais obtenue par un film français dans cette catégorie.\n\nAu-delà de son succès critique, ce film a également relancé un débat plus large sur la place des femmes derrière la caméra à Cannes, où seules deux autres réalisatrices avaient obtenu la Palme d’or avant Justine Triet. Ce qui reste, aujourd’hui encore, l’un des exemples les plus cités du cinéma d’auteur français contemporain, c’est précisément cette question qu’il pose implicitement : peut-on jamais connaître véritablement autrui ?"
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Quelle récompense Justine Triet a-t-elle obtenue à Cannes en mai 2023, selon le texte ?",
+        "options": [
+          "Le prix du jury",
+          "La Palme d’or",
+          "Le César du meilleur film",
+          "Aucune récompense"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que raconte le film, selon le texte ?",
+        "options": [
+          "Le procès d’une écrivaine soupçonnée d’avoir tué son mari retrouvé mort au pied d’un chalet",
+          "Une histoire d’amour à Paris",
+          "Un documentaire sur la montagne",
+          "Une comédie familiale"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Ce que le film refuse de faire, selon le texte, c’est...",
+        "options": [
+          "Trancher avec certitude sur ce qui s’est réellement passé",
+          "Montrer le procès en détail",
+          "Utiliser des dialogues",
+          "Se dérouler dans les Alpes"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle récompense le scénario du film a-t-il reçue en 2024, selon le texte ?",
+        "options": [
+          "L’Oscar du meilleur scénario original",
+          "Le César du meilleur scénario",
+          "Le prix Goncourt",
+          "Aucune récompense supplémentaire"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quel débat plus large ce film a-t-il relancé, selon la conclusion du texte ?",
+        "options": [
+          "La place des femmes derrière la caméra à Cannes",
+          "Le prix des places de cinéma",
+          "La disparition du cinéma français",
+          "Le rôle des acteurs allemands en France"
+        ]
       }
     ]
   },
@@ -30512,246 +30512,6 @@
     ]
   },
   {
-    "slug": "french-b2-cinema-et-critique-listening",
-    "level": "B2",
-    "skill": "listening",
-    "unitId": "cinema-et-critique",
-    "title": "Une ville en silence : notre critique",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 35,
-    "orderIndex": 61,
-    "estimatedMinutes": 14,
-    "description": "Écoute ce contenu de niveau B2 et identifie les idées, les nuances et les preuves.",
-    "intro": "Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [
-      "Qu’est-ce que vous en avez pensé ?",
-      "Ce qui m’a marqué, c’est...",
-      "J’ai trouvé... un peu...",
-      "Ça valait la peine."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se croiser. Ce qui m’a d’abord marqué, c’est la mise en scène : la caméra observe les personnages à distance, sans musique, comme si la ville elle-même retenait son souffle. Ce que j’ai particulièrement apprécié, c’est la manière dont le scénario transforme des gestes ordinaires en indices. Un ticket oublié et une porte mal fermée préparent un rebondissement que le spectateur ne comprend qu’à la fin. Les acteurs sont convaincants, surtout dans les scènes où aucun dialogue n’explique leurs émotions. Le rythme est parfois lent, mais cette lenteur me paraît nécessaire. La séquence finale est l’une des plus réussies que j’aie vues cette année, même si le dernier plan reste volontairement ambigu. Ce n’est pas le film le plus accessible du moment, mais c’est certainement l’un des plus cohérents. Je le recommande aux spectateurs qui aiment observer, interpréter et accepter qu’une œuvre ne fournisse pas toutes les réponses.",
-    "extra": {
-      "listeningType": "monologue",
-      "listeningFormat": "review",
-      "storyTitle": "Une ville en silence : notre critique",
-      "mainTranscript": "Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se croiser. Ce qui m’a d’abord marqué, c’est la mise en scène : la caméra observe les personnages à distance, sans musique, comme si la ville elle-même retenait son souffle. Ce que j’ai particulièrement apprécié, c’est la manière dont le scénario transforme des gestes ordinaires en indices. Un ticket oublié et une porte mal fermée préparent un rebondissement que le spectateur ne comprend qu’à la fin. Les acteurs sont convaincants, surtout dans les scènes où aucun dialogue n’explique leurs émotions. Le rythme est parfois lent, mais cette lenteur me paraît nécessaire. La séquence finale est l’une des plus réussies que j’aie vues cette année, même si le dernier plan reste volontairement ambigu. Ce n’est pas le film le plus accessible du moment, mais c’est certainement l’un des plus cohérents. Je le recommande aux spectateurs qui aiment observer, interpréter et accepter qu’une œuvre ne fournisse pas toutes les réponses.",
-      "transcriptSegments": [
-        {
-          "id": "segment-01",
-          "order": 1,
-          "text": "Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se croiser."
-        },
-        {
-          "id": "segment-02",
-          "order": 2,
-          "text": "Ce qui m’a d’abord marqué, c’est la mise en scène : la caméra observe les personnages à distance, sans musique, comme si la ville elle-même retenait son souffle."
-        },
-        {
-          "id": "segment-03",
-          "order": 3,
-          "text": "Ce que j’ai particulièrement apprécié, c’est la manière dont le scénario transforme des gestes ordinaires en indices."
-        },
-        {
-          "id": "segment-04",
-          "order": 4,
-          "text": "Un ticket oublié et une porte mal fermée préparent un rebondissement que le spectateur ne comprend qu’à la fin."
-        },
-        {
-          "id": "segment-05",
-          "order": 5,
-          "text": "Les acteurs sont convaincants, surtout dans les scènes où aucun dialogue n’explique leurs émotions."
-        },
-        {
-          "id": "segment-06",
-          "order": 6,
-          "text": "Le rythme est parfois lent, mais cette lenteur me paraît nécessaire."
-        },
-        {
-          "id": "segment-07",
-          "order": 7,
-          "text": "La séquence finale est l’une des plus réussies que j’aie vues cette année, même si le dernier plan reste volontairement ambigu."
-        },
-        {
-          "id": "segment-08",
-          "order": 8,
-          "text": "Ce n’est pas le film le plus accessible du moment, mais c’est certainement l’un des plus cohérents."
-        },
-        {
-          "id": "segment-09",
-          "order": 9,
-          "text": "Je le recommande aux spectateurs qui aiment observer, interpréter et accepter qu’une œuvre ne fournisse pas toutes les réponses."
-        }
-      ],
-      "difficulty": "B2",
-      "durationSeconds": 85,
-      "speakers": [
-        "Animatrice",
-        "Invité"
-      ],
-      "phoneticSupport": {
-        "enabled": true,
-        "locale": "fr-FR",
-        "focus": "Marque les groupes rythmiques et les mots de contraste. Fais entendre la différence entre une affirmation ferme et une conclusion nuancée.",
-        "segments": [],
-        "stressedWords": [
-          "établi",
-          "inférer",
-          "objection",
-          "réviser"
-        ],
-        "difficultSounds": [],
-        "reviewStatus": "verified"
-      },
-      "listeningComprehension": {
-        "id": "french-b2-cinema-et-critique-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Dans « Une ville en silence : notre critique », quel détail présente la situation ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se croiser."
-              },
-              {
-                "id": "o2",
-                "text": "Un ticket oublié et une porte mal fermée préparent un rebondissement que le spectateur ne comprend qu’à la fin."
-              },
-              {
-                "id": "o3",
-                "text": "Le rythme est parfois lent, mais cette lenteur me paraît nécessaire."
-              },
-              {
-                "id": "o4",
-                "text": "Je le recommande aux spectateurs qui aiment observer, interpréter et accepter qu’une œuvre ne fournisse pas toutes les réponses."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Après « Le film « Une ville en silence » raconte vingt-quatre heures dans la… », que se passe-t-il ensuite dans « Une ville en silence : notre critique » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se croiser."
-              },
-              {
-                "id": "o2",
-                "text": "Un ticket oublié et une porte mal fermée préparent un rebondissement que le spectateur ne comprend qu’à la fin."
-              },
-              {
-                "id": "o3",
-                "text": "Le rythme est parfois lent, mais cette lenteur me paraît nécessaire."
-              },
-              {
-                "id": "o4",
-                "text": "Je le recommande aux spectateurs qui aiment observer, interpréter et accepter qu’une œuvre ne fournisse pas toutes les réponses."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Une ville en silence : notre critique » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se croiser."
-              },
-              {
-                "id": "o2",
-                "text": "Un ticket oublié et une porte mal fermée préparent un rebondissement que le spectateur ne comprend qu’à la fin."
-              },
-              {
-                "id": "o3",
-                "text": "Le rythme est parfois lent, mais cette lenteur me paraît nécessaire."
-              },
-              {
-                "id": "o4",
-                "text": "Je le recommande aux spectateurs qui aiment observer, interpréter et accepter qu’une œuvre ne fournisse pas toutes les réponses."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Quel résultat conclut « Une ville en silence : notre critique » après « Le rythme est parfois lent, mais cette lenteur me paraît nécessaire. » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se croiser."
-              },
-              {
-                "id": "o2",
-                "text": "Un ticket oublié et une porte mal fermée préparent un rebondissement que le spectateur ne comprend qu’à la fin."
-              },
-              {
-                "id": "o3",
-                "text": "Le rythme est parfois lent, mais cette lenteur me paraît nécessaire."
-              },
-              {
-                "id": "o4",
-                "text": "Je le recommande aux spectateurs qui aiment observer, interpréter et accepter qu’une œuvre ne fournisse pas toutes les réponses."
-              }
-            ]
-          }
-        ]
-      },
-      "grammarTest": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Dans « Une ville en silence : notre critique », quel détail présente la situation ?",
-        "options": [
-          "Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se croiser.",
-          "Un ticket oublié et une porte mal fermée préparent un rebondissement que le spectateur ne comprend qu’à la fin.",
-          "Le rythme est parfois lent, mais cette lenteur me paraît nécessaire.",
-          "Je le recommande aux spectateurs qui aiment observer, interpréter et accepter qu’une œuvre ne fournisse pas toutes les réponses."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Après « Le film « Une ville en silence » raconte vingt-quatre heures dans la… », que se passe-t-il ensuite dans « Une ville en silence : notre critique » ?",
-        "options": [
-          "Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se croiser.",
-          "Un ticket oublié et une porte mal fermée préparent un rebondissement que le spectateur ne comprend qu’à la fin.",
-          "Le rythme est parfois lent, mais cette lenteur me paraît nécessaire.",
-          "Je le recommande aux spectateurs qui aiment observer, interpréter et accepter qu’une œuvre ne fournisse pas toutes les réponses."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Une ville en silence : notre critique » ?",
-        "options": [
-          "Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se croiser.",
-          "Un ticket oublié et une porte mal fermée préparent un rebondissement que le spectateur ne comprend qu’à la fin.",
-          "Le rythme est parfois lent, mais cette lenteur me paraît nécessaire.",
-          "Je le recommande aux spectateurs qui aiment observer, interpréter et accepter qu’une œuvre ne fournisse pas toutes les réponses."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel résultat conclut « Une ville en silence : notre critique » après « Le rythme est parfois lent, mais cette lenteur me paraît nécessaire. » ?",
-        "options": [
-          "Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se croiser.",
-          "Un ticket oublié et une porte mal fermée préparent un rebondissement que le spectateur ne comprend qu’à la fin.",
-          "Le rythme est parfois lent, mais cette lenteur me paraît nécessaire.",
-          "Je le recommande aux spectateurs qui aiment observer, interpréter et accepter qu’une œuvre ne fournisse pas toutes les réponses."
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-justice-sociale-et-inegalites-listening",
     "level": "C1",
     "skill": "listening",
@@ -31274,6 +31034,246 @@
     ]
   },
   {
+    "slug": "french-b2-cinema-et-critique-listening",
+    "level": "B2",
+    "skill": "listening",
+    "unitId": "cinema-et-critique",
+    "title": "Une ville en silence : notre critique",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 35,
+    "orderIndex": 61,
+    "estimatedMinutes": 14,
+    "description": "Écoute ce contenu de niveau B2 et identifie les idées, les nuances et les preuves.",
+    "intro": "Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "Qu’est-ce que vous en avez pensé ?",
+      "Ce qui m’a marqué, c’est...",
+      "J’ai trouvé... un peu...",
+      "Ça valait la peine."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se croiser. Ce qui m’a d’abord marqué, c’est la mise en scène : la caméra observe les personnages à distance, sans musique, comme si la ville elle-même retenait son souffle. Ce que j’ai particulièrement apprécié, c’est la manière dont le scénario transforme des gestes ordinaires en indices. Un ticket oublié et une porte mal fermée préparent un rebondissement que le spectateur ne comprend qu’à la fin. Les acteurs sont convaincants, surtout dans les scènes où aucun dialogue n’explique leurs émotions. Le rythme est parfois lent, mais cette lenteur me paraît nécessaire. La séquence finale est l’une des plus réussies que j’aie vues cette année, même si le dernier plan reste volontairement ambigu. Ce n’est pas le film le plus accessible du moment, mais c’est certainement l’un des plus cohérents. Je le recommande aux spectateurs qui aiment observer, interpréter et accepter qu’une œuvre ne fournisse pas toutes les réponses.",
+    "extra": {
+      "listeningType": "monologue",
+      "listeningFormat": "review",
+      "storyTitle": "Une ville en silence : notre critique",
+      "mainTranscript": "Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se croiser. Ce qui m’a d’abord marqué, c’est la mise en scène : la caméra observe les personnages à distance, sans musique, comme si la ville elle-même retenait son souffle. Ce que j’ai particulièrement apprécié, c’est la manière dont le scénario transforme des gestes ordinaires en indices. Un ticket oublié et une porte mal fermée préparent un rebondissement que le spectateur ne comprend qu’à la fin. Les acteurs sont convaincants, surtout dans les scènes où aucun dialogue n’explique leurs émotions. Le rythme est parfois lent, mais cette lenteur me paraît nécessaire. La séquence finale est l’une des plus réussies que j’aie vues cette année, même si le dernier plan reste volontairement ambigu. Ce n’est pas le film le plus accessible du moment, mais c’est certainement l’un des plus cohérents. Je le recommande aux spectateurs qui aiment observer, interpréter et accepter qu’une œuvre ne fournisse pas toutes les réponses.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se croiser."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Ce qui m’a d’abord marqué, c’est la mise en scène : la caméra observe les personnages à distance, sans musique, comme si la ville elle-même retenait son souffle."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Ce que j’ai particulièrement apprécié, c’est la manière dont le scénario transforme des gestes ordinaires en indices."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "Un ticket oublié et une porte mal fermée préparent un rebondissement que le spectateur ne comprend qu’à la fin."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Les acteurs sont convaincants, surtout dans les scènes où aucun dialogue n’explique leurs émotions."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Le rythme est parfois lent, mais cette lenteur me paraît nécessaire."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "La séquence finale est l’une des plus réussies que j’aie vues cette année, même si le dernier plan reste volontairement ambigu."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Ce n’est pas le film le plus accessible du moment, mais c’est certainement l’un des plus cohérents."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Je le recommande aux spectateurs qui aiment observer, interpréter et accepter qu’une œuvre ne fournisse pas toutes les réponses."
+        }
+      ],
+      "difficulty": "B2",
+      "durationSeconds": 85,
+      "speakers": [
+        "Animatrice",
+        "Invité"
+      ],
+      "phoneticSupport": {
+        "enabled": true,
+        "locale": "fr-FR",
+        "focus": "Marque les groupes rythmiques et les mots de contraste. Fais entendre la différence entre une affirmation ferme et une conclusion nuancée.",
+        "segments": [],
+        "stressedWords": [
+          "établi",
+          "inférer",
+          "objection",
+          "réviser"
+        ],
+        "difficultSounds": [],
+        "reviewStatus": "verified"
+      },
+      "listeningComprehension": {
+        "id": "french-b2-cinema-et-critique-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Dans « Une ville en silence : notre critique », quel détail présente la situation ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se croiser."
+              },
+              {
+                "id": "o2",
+                "text": "Un ticket oublié et une porte mal fermée préparent un rebondissement que le spectateur ne comprend qu’à la fin."
+              },
+              {
+                "id": "o3",
+                "text": "Le rythme est parfois lent, mais cette lenteur me paraît nécessaire."
+              },
+              {
+                "id": "o4",
+                "text": "Je le recommande aux spectateurs qui aiment observer, interpréter et accepter qu’une œuvre ne fournisse pas toutes les réponses."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Après « Le film « Une ville en silence » raconte vingt-quatre heures dans la… », que se passe-t-il ensuite dans « Une ville en silence : notre critique » ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se croiser."
+              },
+              {
+                "id": "o2",
+                "text": "Un ticket oublié et une porte mal fermée préparent un rebondissement que le spectateur ne comprend qu’à la fin."
+              },
+              {
+                "id": "o3",
+                "text": "Le rythme est parfois lent, mais cette lenteur me paraît nécessaire."
+              },
+              {
+                "id": "o4",
+                "text": "Je le recommande aux spectateurs qui aiment observer, interpréter et accepter qu’une œuvre ne fournisse pas toutes les réponses."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Une ville en silence : notre critique » ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se croiser."
+              },
+              {
+                "id": "o2",
+                "text": "Un ticket oublié et une porte mal fermée préparent un rebondissement que le spectateur ne comprend qu’à la fin."
+              },
+              {
+                "id": "o3",
+                "text": "Le rythme est parfois lent, mais cette lenteur me paraît nécessaire."
+              },
+              {
+                "id": "o4",
+                "text": "Je le recommande aux spectateurs qui aiment observer, interpréter et accepter qu’une œuvre ne fournisse pas toutes les réponses."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quel résultat conclut « Une ville en silence : notre critique » après « Le rythme est parfois lent, mais cette lenteur me paraît nécessaire. » ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se croiser."
+              },
+              {
+                "id": "o2",
+                "text": "Un ticket oublié et une porte mal fermée préparent un rebondissement que le spectateur ne comprend qu’à la fin."
+              },
+              {
+                "id": "o3",
+                "text": "Le rythme est parfois lent, mais cette lenteur me paraît nécessaire."
+              },
+              {
+                "id": "o4",
+                "text": "Je le recommande aux spectateurs qui aiment observer, interpréter et accepter qu’une œuvre ne fournisse pas toutes les réponses."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Dans « Une ville en silence : notre critique », quel détail présente la situation ?",
+        "options": [
+          "Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se croiser.",
+          "Un ticket oublié et une porte mal fermée préparent un rebondissement que le spectateur ne comprend qu’à la fin.",
+          "Le rythme est parfois lent, mais cette lenteur me paraît nécessaire.",
+          "Je le recommande aux spectateurs qui aiment observer, interpréter et accepter qu’une œuvre ne fournisse pas toutes les réponses."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Après « Le film « Une ville en silence » raconte vingt-quatre heures dans la… », que se passe-t-il ensuite dans « Une ville en silence : notre critique » ?",
+        "options": [
+          "Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se croiser.",
+          "Un ticket oublié et une porte mal fermée préparent un rebondissement que le spectateur ne comprend qu’à la fin.",
+          "Le rythme est parfois lent, mais cette lenteur me paraît nécessaire.",
+          "Je le recommande aux spectateurs qui aiment observer, interpréter et accepter qu’une œuvre ne fournisse pas toutes les réponses."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Une ville en silence : notre critique » ?",
+        "options": [
+          "Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se croiser.",
+          "Un ticket oublié et une porte mal fermée préparent un rebondissement que le spectateur ne comprend qu’à la fin.",
+          "Le rythme est parfois lent, mais cette lenteur me paraît nécessaire.",
+          "Je le recommande aux spectateurs qui aiment observer, interpréter et accepter qu’une œuvre ne fournisse pas toutes les réponses."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quel résultat conclut « Une ville en silence : notre critique » après « Le rythme est parfois lent, mais cette lenteur me paraît nécessaire. » ?",
+        "options": [
+          "Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se croiser.",
+          "Un ticket oublié et une porte mal fermée préparent un rebondissement que le spectateur ne comprend qu’à la fin.",
+          "Le rythme est parfois lent, mais cette lenteur me paraît nécessaire.",
+          "Je le recommande aux spectateurs qui aiment observer, interpréter et accepter qu’une œuvre ne fournisse pas toutes les réponses."
+        ]
+      }
+    ]
+  },
+  {
     "slug": "french-a1-l-heure-et-les-dates-speaking",
     "level": "A1",
     "skill": "speaking",
@@ -31408,67 +31408,6 @@
       {
         "type": "practice",
         "prompt": "Organise un mini-débat avec un/une camarade sur les réseaux sociaux."
-      }
-    ]
-  },
-  {
-    "slug": "french-b2-cinema-et-critique-speaking",
-    "level": "B2",
-    "skill": "speaking",
-    "unitId": "cinema-et-critique",
-    "title": "Présenter une critique orale",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 62,
-    "estimatedMinutes": 14,
-    "description": "Présente oralement une critique nuancée d’un film ou d’une série.",
-    "intro": "Présente oralement une critique nuancée d’un film ou d’une série.",
-    "mission": "Présente une critique orale de deux à trois minutes sur un film ou une série, avec des points forts, une réserve honnête, et une conclusion.",
-    "grammar": "",
-    "phrases": [
-      "Ce qui m’a marqué(e), c’est...",
-      "Ce que j’ai moins aimé, c’est...",
-      "Cependant...",
-      "En conclusion, je recommande/ne recommande pas..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Toi",
-        "line": "Ce qui m’a marqué(e) dans ce film, c’est... Ce que j’ai moins aimé, c’est... En conclusion, je recommande ce film pour...",
-        "translation": "Lo que me marcó de esta película fue... Lo que me gustó menos fue... En conclusión, recomiendo esta película para..."
-      }
-    ],
-    "reading": null,
-    "transcript": "Toi : Ce qui m’a marqué(e) dans ce film, c’est... Ce que j’ai moins aimé, c’est... En conclusion, je recommande ce film pour...",
-    "extra": {
-      "communicationGuide": {
-        "steps": [
-          "Enregistre une première réponse sans lire un texte complet.",
-          "Utilise la transcription vocale pour vérifier ce qui a été compris.",
-          "Demande au Tuteur IA un retour sur la clarté, les preuves et le registre.",
-          "Enregistre une seconde version et compare fluidité et prononciation."
-        ],
-        "premiumMode": "Conversation libre avec le Tuteur IA",
-        "pronunciationTargets": [
-          "groupes rythmiques",
-          "mise en relief",
-          "enchaînements",
-          "intonation nuancée"
-        ]
-      },
-      "grammarTest": null,
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Présente une critique orale nuancée d’un film ou d’une série, avec ce qui/ce que et une conclusion argumentée."
-      },
-      {
-        "type": "practice",
-        "prompt": "Avec un/une camarade, comparez vos critiques respectives du même film ou d’une série que vous connaissez tous les deux."
       }
     ]
   },
@@ -31623,6 +31562,67 @@
     ]
   },
   {
+    "slug": "french-b2-cinema-et-critique-speaking",
+    "level": "B2",
+    "skill": "speaking",
+    "unitId": "cinema-et-critique",
+    "title": "Présenter une critique orale",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 62,
+    "estimatedMinutes": 14,
+    "description": "Présente oralement une critique nuancée d’un film ou d’une série.",
+    "intro": "Présente oralement une critique nuancée d’un film ou d’une série.",
+    "mission": "Présente une critique orale de deux à trois minutes sur un film ou une série, avec des points forts, une réserve honnête, et une conclusion.",
+    "grammar": "",
+    "phrases": [
+      "Ce qui m’a marqué(e), c’est...",
+      "Ce que j’ai moins aimé, c’est...",
+      "Cependant...",
+      "En conclusion, je recommande/ne recommande pas..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Toi",
+        "line": "Ce qui m’a marqué(e) dans ce film, c’est... Ce que j’ai moins aimé, c’est... En conclusion, je recommande ce film pour...",
+        "translation": "Lo que me marcó de esta película fue... Lo que me gustó menos fue... En conclusión, recomiendo esta película para..."
+      }
+    ],
+    "reading": null,
+    "transcript": "Toi : Ce qui m’a marqué(e) dans ce film, c’est... Ce que j’ai moins aimé, c’est... En conclusion, je recommande ce film pour...",
+    "extra": {
+      "communicationGuide": {
+        "steps": [
+          "Enregistre une première réponse sans lire un texte complet.",
+          "Utilise la transcription vocale pour vérifier ce qui a été compris.",
+          "Demande au Tuteur IA un retour sur la clarté, les preuves et le registre.",
+          "Enregistre une seconde version et compare fluidité et prononciation."
+        ],
+        "premiumMode": "Conversation libre avec le Tuteur IA",
+        "pronunciationTargets": [
+          "groupes rythmiques",
+          "mise en relief",
+          "enchaînements",
+          "intonation nuancée"
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Présente une critique orale nuancée d’un film ou d’une série, avec ce qui/ce que et une conclusion argumentée."
+      },
+      {
+        "type": "practice",
+        "prompt": "Avec un/une camarade, comparez vos critiques respectives du même film ou d’une série que vous connaissez tous les deux."
+      }
+    ]
+  },
+  {
     "slug": "french-a1-l-heure-et-les-dates-writing",
     "level": "A1",
     "skill": "writing",
@@ -31739,64 +31739,6 @@
     ]
   },
   {
-    "slug": "french-b2-cinema-et-critique-writing",
-    "level": "B2",
-    "skill": "writing",
-    "unitId": "cinema-et-critique",
-    "title": "Rédiger une critique de film",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 35,
-    "orderIndex": 63,
-    "estimatedMinutes": 18,
-    "description": "Rédige une critique de film complète et nuancée.",
-    "intro": "Rédige une critique de film complète et nuancée.",
-    "mission": "Écris 200 à 250 mots présentant une critique de film (réel ou imaginaire), avec un résumé bref, des points forts, une réserve, et une conclusion.",
-    "grammar": "",
-    "phrases": [
-      "Ce qui m’a le plus marqué(e), c’est...",
-      "Ce que j’ai particulièrement apprécié, c’est...",
-      "Cependant...",
-      "Je recommande ce film pour..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Modèle",
-        "line": "Ce qui m’a le plus marqué dans ce film, c’est la subtilité de la mise en scène. Ce que j’ai particulièrement apprécié, c’est le jeu des actrices principales. Cependant, le rythme est parfois lent. Je recommande ce film aux amateurs de drames familiaux.",
-        "translation": "Lo que más me marcó de esta película fue la sutileza de la puesta en escena. Lo que aprecié especialmente fue la actuación de las actrices principales. Sin embargo, el ritmo es a veces lento. Recomiendo esta película a los amantes de los dramas familiares."
-      }
-    ],
-    "reading": null,
-    "transcript": "Modèle : Ce qui m’a le plus marqué dans ce film, c’est la subtilité de la mise en scène. Ce que j’ai particulièrement apprécié, c’est le jeu des actrices principales. Cependant, le rythme est parfois lent. Je recommande ce film aux amateurs de drames familiaux.",
-    "extra": {
-      "writingGuide": {
-        "taskType": "texte argumentatif structuré",
-        "steps": [
-          "Délimite la question et rédige une thèse en une phrase.",
-          "Choisis deux preuves ou exemples et explique leur pertinence.",
-          "Présente loyalement l’objection la plus solide.",
-          "Réponds sans exagérer la portée des preuves.",
-          "Révise la cohésion, la grammaire, le registre et la conclusion."
-        ],
-        "checklist": [
-          "Utilise au moins deux termes de l’unité : la mise en scène, le scénario, un rebondissement.",
-          "Emploie correctement ce qui / ce que (récapitulatif) au moins une fois.",
-          "Distingue preuve, inférence et jugement.",
-          "Vérifie les liens entre les paragraphes et supprime les affirmations absolues non justifiées."
-        ]
-      },
-      "grammarTest": null,
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "writing",
-        "prompt": "Écris une critique de film de 200 à 250 mots, avec « ce qui »/« ce que » et une conclusion nuancée."
-      }
-    ]
-  },
-  {
     "slug": "french-c1-justice-sociale-et-inegalites-writing",
     "level": "C1",
     "skill": "writing",
@@ -31909,6 +31851,64 @@
       {
         "type": "writing",
         "prompt": "Rédige 300–350 mots. Avant l’envoi, vérifie la présence d’une thèse, de deux arguments développés, d’une objection et d’une conclusion nuancée."
+      }
+    ]
+  },
+  {
+    "slug": "french-b2-cinema-et-critique-writing",
+    "level": "B2",
+    "skill": "writing",
+    "unitId": "cinema-et-critique",
+    "title": "Rédiger une critique de film",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 35,
+    "orderIndex": 63,
+    "estimatedMinutes": 18,
+    "description": "Rédige une critique de film complète et nuancée.",
+    "intro": "Rédige une critique de film complète et nuancée.",
+    "mission": "Écris 200 à 250 mots présentant une critique de film (réel ou imaginaire), avec un résumé bref, des points forts, une réserve, et une conclusion.",
+    "grammar": "",
+    "phrases": [
+      "Ce qui m’a le plus marqué(e), c’est...",
+      "Ce que j’ai particulièrement apprécié, c’est...",
+      "Cependant...",
+      "Je recommande ce film pour..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Modèle",
+        "line": "Ce qui m’a le plus marqué dans ce film, c’est la subtilité de la mise en scène. Ce que j’ai particulièrement apprécié, c’est le jeu des actrices principales. Cependant, le rythme est parfois lent. Je recommande ce film aux amateurs de drames familiaux.",
+        "translation": "Lo que más me marcó de esta película fue la sutileza de la puesta en escena. Lo que aprecié especialmente fue la actuación de las actrices principales. Sin embargo, el ritmo es a veces lento. Recomiendo esta película a los amantes de los dramas familiares."
+      }
+    ],
+    "reading": null,
+    "transcript": "Modèle : Ce qui m’a le plus marqué dans ce film, c’est la subtilité de la mise en scène. Ce que j’ai particulièrement apprécié, c’est le jeu des actrices principales. Cependant, le rythme est parfois lent. Je recommande ce film aux amateurs de drames familiaux.",
+    "extra": {
+      "writingGuide": {
+        "taskType": "texte argumentatif structuré",
+        "steps": [
+          "Délimite la question et rédige une thèse en une phrase.",
+          "Choisis deux preuves ou exemples et explique leur pertinence.",
+          "Présente loyalement l’objection la plus solide.",
+          "Réponds sans exagérer la portée des preuves.",
+          "Révise la cohésion, la grammaire, le registre et la conclusion."
+        ],
+        "checklist": [
+          "Utilise au moins deux termes de l’unité : la mise en scène, le scénario, un rebondissement.",
+          "Emploie correctement ce qui / ce que (récapitulatif) au moins une fois.",
+          "Distingue preuve, inférence et jugement.",
+          "Vérifie les liens entre les paragraphes et supprime les affirmations absolues non justifiées."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Écris une critique de film de 200 à 250 mots, avec « ce qui »/« ce que » et une conclusion nuancée."
       }
     ]
   },
@@ -32756,287 +32756,6 @@
     ]
   },
   {
-    "slug": "french-b2-cinema-et-critique-grammar",
-    "level": "B2",
-    "skill": "grammar",
-    "unitId": "cinema-et-critique",
-    "title": "Ce qui / ce que et les superlatifs avancés",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 64,
-    "estimatedMinutes": 14,
-    "description": "Utiliser ce qui/ce que pour résumer une impression et des superlatifs nuancés.",
-    "intro": "Utiliser ce qui/ce que pour résumer une impression et des superlatifs nuancés.",
-    "mission": "",
-    "grammar": "« Ce qui » remplace un sujet sans antécédent précis, « ce que » remplace un complément d’objet direct : « Ce qui m’a marqué, c’est... / Ce que j’ai aimé, c’est... » Les superlatifs nuancés (l’un des plus..., parmi les plus...) évitent une affirmation trop catégorique : « C’est l’un des films les plus émouvants que j’aie vus. »",
-    "phrases": [
-      "Ce qui m’a marqué(e), c’est...",
-      "Ce que j’ai aimé, c’est...",
-      "C’est l’un des plus...",
-      "Parmi les plus..."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "grammarTest": {
-        "id": "french-b2-cinema-et-critique-grammar-test",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "french-b2-cinema-et-critique-grammar-q1",
-            "type": "mcq",
-            "prompt": "___ m’a le plus marquée, c’est le jeu des actrices.",
-            "difficulty": "application",
-            "options": [
-              {
-                "id": "b",
-                "text": "Ce qui"
-              },
-              {
-                "id": "a",
-                "text": "Ce que"
-              },
-              {
-                "id": "c",
-                "text": "Ce dont"
-              },
-              {
-                "id": "d",
-                "text": "Ce à quoi"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-cinema-et-critique-grammar-q2",
-            "type": "mcq",
-            "prompt": "___ j’ai apprécié, c’est la mise en scène.",
-            "difficulty": "application",
-            "options": [
-              {
-                "id": "a",
-                "text": "Ce qui"
-              },
-              {
-                "id": "b",
-                "text": "Ce que"
-              },
-              {
-                "id": "c",
-                "text": "Ce dont"
-              },
-              {
-                "id": "d",
-                "text": "Lequel"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-cinema-et-critique-grammar-q3",
-            "type": "mcq",
-            "prompt": "C’est l’un des films les plus émouvants ___ j’aie vus.",
-            "difficulty": "analysis",
-            "options": [
-              {
-                "id": "b",
-                "text": "qui"
-              },
-              {
-                "id": "c",
-                "text": "dont"
-              },
-              {
-                "id": "a",
-                "text": "que"
-              },
-              {
-                "id": "d",
-                "text": "où"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-cinema-et-critique-grammar-q4",
-            "type": "mcq",
-            "prompt": "Quelle expression nuance une affirmation catégorique ?",
-            "difficulty": "analysis",
-            "options": [
-              {
-                "id": "a",
-                "text": "C’est le meilleur film"
-              },
-              {
-                "id": "c",
-                "text": "C’est un film nul"
-              },
-              {
-                "id": "d",
-                "text": "C’est un film parfait"
-              },
-              {
-                "id": "b",
-                "text": "C’est l’un des meilleurs films"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-cinema-et-critique-grammar-q5",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Ce que m’a le plus marquée, c’est le jeu des actrices. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "b",
-                "text": "Ce qui m’a le plus marquée, c’est le jeu des actrices."
-              },
-              {
-                "id": "a",
-                "text": "Ce que m’a le plus marquée, c’est le jeu des actrices."
-              },
-              {
-                "id": "c",
-                "text": "Ce dont m’a le plus marquée, c’est le jeu des actrices."
-              },
-              {
-                "id": "d",
-                "text": "Ce à quoi m’a le plus marquée, c’est le jeu des actrices."
-              }
-            ]
-          },
-          {
-            "id": "french-b2-cinema-et-critique-grammar-q6",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Ce qui j’ai apprécié, c’est la mise en scène. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Ce qui j’ai apprécié, c’est la mise en scène."
-              },
-              {
-                "id": "b",
-                "text": "Ce que j’ai apprécié, c’est la mise en scène."
-              },
-              {
-                "id": "c",
-                "text": "Ce dont j’ai apprécié, c’est la mise en scène."
-              },
-              {
-                "id": "d",
-                "text": "Lequel j’ai apprécié, c’est la mise en scène."
-              }
-            ]
-          },
-          {
-            "id": "french-b2-cinema-et-critique-grammar-q7",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « C’est l’un des films les plus émouvants qui j’aie vus. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "b",
-                "text": "C’est l’un des films les plus émouvants qui j’aie vus."
-              },
-              {
-                "id": "c",
-                "text": "C’est l’un des films les plus émouvants dont j’aie vus."
-              },
-              {
-                "id": "a",
-                "text": "C’est l’un des films les plus émouvants que j’aie vus."
-              },
-              {
-                "id": "d",
-                "text": "C’est l’un des films les plus émouvants où j’aie vus."
-              }
-            ]
-          },
-          {
-            "id": "french-b2-cinema-et-critique-grammar-q8",
-            "type": "mcq",
-            "prompt": "Quelle réponse corrige l’erreur « C’est le meilleur film » dans ce contexte : « Quelle expression nuance une affirmation catégorique ? » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "C’est le meilleur film"
-              },
-              {
-                "id": "c",
-                "text": "C’est un film nul"
-              },
-              {
-                "id": "d",
-                "text": "C’est un film parfait"
-              },
-              {
-                "id": "b",
-                "text": "C’est l’un des meilleurs films"
-              }
-            ]
-          }
-        ]
-      },
-      "grammarProfile": {
-        "name": "Ce qui / ce que et les superlatifs avancés",
-        "definition": "« Ce qui » remplace un sujet sans antécédent précis, « ce que » remplace un complément d’objet direct : « Ce qui m’a marqué, c’est... / Ce que j’ai aimé, c’est... » Les superlatifs nuancés (l’un des plus..., parmi les plus...) évitent une affirmation trop catégorique : « C’est l’un des films les plus émouvants que j’aie vus. »",
-        "structure": "Forme à observer : Ce qui / ce que et les superlatifs avancés. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
-        "function": "Utiliser ce qui/ce que pour résumer une impression et des superlatifs nuancés.",
-        "examples": [
-          "Ce qui m’a le plus marquée, c’est le jeu des actrices.",
-          "Ce que j’ai apprécié, c’est la mise en scène.",
-          "C’est l’un des films les plus émouvants que j’aie vus.",
-          "C’est l’un des meilleurs films"
-        ]
-      },
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "___ m’a le plus marquée, c’est le jeu des actrices.",
-        "options": [
-          "Ce que",
-          "Ce qui",
-          "Ce dont",
-          "Ce à quoi"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "___ j’ai apprécié, c’est la mise en scène.",
-        "options": [
-          "Ce qui",
-          "Ce que",
-          "Ce dont",
-          "Lequel"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "C’est l’un des films les plus émouvants ___ j’aie vus.",
-        "options": [
-          "que",
-          "qui",
-          "dont",
-          "où"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle expression nuance une affirmation catégorique ?",
-        "options": [
-          "C’est le meilleur film",
-          "C’est l’un des meilleurs films",
-          "C’est un film nul",
-          "C’est un film parfait"
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-justice-sociale-et-inegalites-grammar",
     "level": "C1",
     "skill": "grammar",
@@ -33692,6 +33411,287 @@
     ]
   },
   {
+    "slug": "french-b2-cinema-et-critique-grammar",
+    "level": "B2",
+    "skill": "grammar",
+    "unitId": "cinema-et-critique",
+    "title": "Ce qui / ce que et les superlatifs avancés",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 64,
+    "estimatedMinutes": 14,
+    "description": "Utiliser ce qui/ce que pour résumer une impression et des superlatifs nuancés.",
+    "intro": "Utiliser ce qui/ce que pour résumer une impression et des superlatifs nuancés.",
+    "mission": "",
+    "grammar": "« Ce qui » remplace un sujet sans antécédent précis, « ce que » remplace un complément d’objet direct : « Ce qui m’a marqué, c’est... / Ce que j’ai aimé, c’est... » Les superlatifs nuancés (l’un des plus..., parmi les plus...) évitent une affirmation trop catégorique : « C’est l’un des films les plus émouvants que j’aie vus. »",
+    "phrases": [
+      "Ce qui m’a marqué(e), c’est...",
+      "Ce que j’ai aimé, c’est...",
+      "C’est l’un des plus...",
+      "Parmi les plus..."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": {
+      "grammarTest": {
+        "id": "french-b2-cinema-et-critique-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "french-b2-cinema-et-critique-grammar-q1",
+            "type": "mcq",
+            "prompt": "___ m’a le plus marquée, c’est le jeu des actrices.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "b",
+                "text": "Ce qui"
+              },
+              {
+                "id": "a",
+                "text": "Ce que"
+              },
+              {
+                "id": "c",
+                "text": "Ce dont"
+              },
+              {
+                "id": "d",
+                "text": "Ce à quoi"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-cinema-et-critique-grammar-q2",
+            "type": "mcq",
+            "prompt": "___ j’ai apprécié, c’est la mise en scène.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Ce qui"
+              },
+              {
+                "id": "b",
+                "text": "Ce que"
+              },
+              {
+                "id": "c",
+                "text": "Ce dont"
+              },
+              {
+                "id": "d",
+                "text": "Lequel"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-cinema-et-critique-grammar-q3",
+            "type": "mcq",
+            "prompt": "C’est l’un des films les plus émouvants ___ j’aie vus.",
+            "difficulty": "analysis",
+            "options": [
+              {
+                "id": "b",
+                "text": "qui"
+              },
+              {
+                "id": "c",
+                "text": "dont"
+              },
+              {
+                "id": "a",
+                "text": "que"
+              },
+              {
+                "id": "d",
+                "text": "où"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-cinema-et-critique-grammar-q4",
+            "type": "mcq",
+            "prompt": "Quelle expression nuance une affirmation catégorique ?",
+            "difficulty": "analysis",
+            "options": [
+              {
+                "id": "a",
+                "text": "C’est le meilleur film"
+              },
+              {
+                "id": "c",
+                "text": "C’est un film nul"
+              },
+              {
+                "id": "d",
+                "text": "C’est un film parfait"
+              },
+              {
+                "id": "b",
+                "text": "C’est l’un des meilleurs films"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-cinema-et-critique-grammar-q5",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Ce que m’a le plus marquée, c’est le jeu des actrices. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "b",
+                "text": "Ce qui m’a le plus marquée, c’est le jeu des actrices."
+              },
+              {
+                "id": "a",
+                "text": "Ce que m’a le plus marquée, c’est le jeu des actrices."
+              },
+              {
+                "id": "c",
+                "text": "Ce dont m’a le plus marquée, c’est le jeu des actrices."
+              },
+              {
+                "id": "d",
+                "text": "Ce à quoi m’a le plus marquée, c’est le jeu des actrices."
+              }
+            ]
+          },
+          {
+            "id": "french-b2-cinema-et-critique-grammar-q6",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Ce qui j’ai apprécié, c’est la mise en scène. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Ce qui j’ai apprécié, c’est la mise en scène."
+              },
+              {
+                "id": "b",
+                "text": "Ce que j’ai apprécié, c’est la mise en scène."
+              },
+              {
+                "id": "c",
+                "text": "Ce dont j’ai apprécié, c’est la mise en scène."
+              },
+              {
+                "id": "d",
+                "text": "Lequel j’ai apprécié, c’est la mise en scène."
+              }
+            ]
+          },
+          {
+            "id": "french-b2-cinema-et-critique-grammar-q7",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « C’est l’un des films les plus émouvants qui j’aie vus. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "b",
+                "text": "C’est l’un des films les plus émouvants qui j’aie vus."
+              },
+              {
+                "id": "c",
+                "text": "C’est l’un des films les plus émouvants dont j’aie vus."
+              },
+              {
+                "id": "a",
+                "text": "C’est l’un des films les plus émouvants que j’aie vus."
+              },
+              {
+                "id": "d",
+                "text": "C’est l’un des films les plus émouvants où j’aie vus."
+              }
+            ]
+          },
+          {
+            "id": "french-b2-cinema-et-critique-grammar-q8",
+            "type": "mcq",
+            "prompt": "Quelle réponse corrige l’erreur « C’est le meilleur film » dans ce contexte : « Quelle expression nuance une affirmation catégorique ? » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "C’est le meilleur film"
+              },
+              {
+                "id": "c",
+                "text": "C’est un film nul"
+              },
+              {
+                "id": "d",
+                "text": "C’est un film parfait"
+              },
+              {
+                "id": "b",
+                "text": "C’est l’un des meilleurs films"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Ce qui / ce que et les superlatifs avancés",
+        "definition": "« Ce qui » remplace un sujet sans antécédent précis, « ce que » remplace un complément d’objet direct : « Ce qui m’a marqué, c’est... / Ce que j’ai aimé, c’est... » Les superlatifs nuancés (l’un des plus..., parmi les plus...) évitent une affirmation trop catégorique : « C’est l’un des films les plus émouvants que j’aie vus. »",
+        "structure": "Forme à observer : Ce qui / ce que et les superlatifs avancés. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Utiliser ce qui/ce que pour résumer une impression et des superlatifs nuancés.",
+        "examples": [
+          "Ce qui m’a le plus marquée, c’est le jeu des actrices.",
+          "Ce que j’ai apprécié, c’est la mise en scène.",
+          "C’est l’un des films les plus émouvants que j’aie vus.",
+          "C’est l’un des meilleurs films"
+        ]
+      },
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "___ m’a le plus marquée, c’est le jeu des actrices.",
+        "options": [
+          "Ce que",
+          "Ce qui",
+          "Ce dont",
+          "Ce à quoi"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "___ j’ai apprécié, c’est la mise en scène.",
+        "options": [
+          "Ce qui",
+          "Ce que",
+          "Ce dont",
+          "Lequel"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "C’est l’un des films les plus émouvants ___ j’aie vus.",
+        "options": [
+          "que",
+          "qui",
+          "dont",
+          "où"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle expression nuance une affirmation catégorique ?",
+        "options": [
+          "C’est le meilleur film",
+          "C’est l’un des meilleurs films",
+          "C’est un film nul",
+          "C’est un film parfait"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "french-a1-l-heure-et-les-dates-vocabulary",
     "level": "A1",
     "skill": "vocabulary",
@@ -33952,86 +33952,6 @@
           "La vida privada",
           "La vida escolar",
           "La vida familiar"
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "french-b2-cinema-et-critique-vocabulary",
-    "level": "B2",
-    "skill": "vocabulary",
-    "unitId": "cinema-et-critique",
-    "title": "Le vocabulaire de la critique de cinéma",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 65,
-    "estimatedMinutes": 10,
-    "description": "Le vocabulaire essentiel pour rédiger une critique de film.",
-    "intro": "Le vocabulaire essentiel pour rédiger une critique de film.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [
-      {
-        "word": "la mise en scène",
-        "translation": "la puesta en escena",
-        "example": "La mise en scène est très soignée."
-      },
-      {
-        "word": "le scénario",
-        "translation": "el guion",
-        "example": "Le scénario est original et bien construit."
-      },
-      {
-        "word": "un rebondissement",
-        "translation": "un giro argumental",
-        "example": "Le dernier rebondissement m’a surprise."
-      },
-      {
-        "word": "convaincant(e)",
-        "translation": "convincente (actuación)",
-        "example": "Les actrices sont absolument convaincantes."
-      },
-      {
-        "word": "le rythme",
-        "translation": "el ritmo",
-        "example": "Le rythme du film est un peu lent au début."
-      }
-    ],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « un rebondissement » ?",
-        "options": [
-          "Un giro argumental",
-          "Un actor",
-          "Un director",
-          "Un guion"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « la mise en scène » ?",
-        "options": [
-          "La puesta en escena",
-          "El actor principal",
-          "El guion",
-          "La música"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « le rythme » ?",
-        "options": [
-          "El ritmo",
-          "El final",
-          "El título",
-          "El cartel"
         ]
       }
     ]
@@ -34527,6 +34447,86 @@
           "dans une direction opposée à une idée ou à une tendance dominante"
         ],
         "explanation": "« à rebours de » désigne dans une direction opposée à une idée ou à une tendance dominante."
+      }
+    ]
+  },
+  {
+    "slug": "french-b2-cinema-et-critique-vocabulary",
+    "level": "B2",
+    "skill": "vocabulary",
+    "unitId": "cinema-et-critique",
+    "title": "Le vocabulaire de la critique de cinéma",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 65,
+    "estimatedMinutes": 10,
+    "description": "Le vocabulaire essentiel pour rédiger une critique de film.",
+    "intro": "Le vocabulaire essentiel pour rédiger une critique de film.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "la mise en scène",
+        "translation": "la puesta en escena",
+        "example": "La mise en scène est très soignée."
+      },
+      {
+        "word": "le scénario",
+        "translation": "el guion",
+        "example": "Le scénario est original et bien construit."
+      },
+      {
+        "word": "un rebondissement",
+        "translation": "un giro argumental",
+        "example": "Le dernier rebondissement m’a surprise."
+      },
+      {
+        "word": "convaincant(e)",
+        "translation": "convincente (actuación)",
+        "example": "Les actrices sont absolument convaincantes."
+      },
+      {
+        "word": "le rythme",
+        "translation": "el ritmo",
+        "example": "Le rythme du film est un peu lent au début."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « un rebondissement » ?",
+        "options": [
+          "Un giro argumental",
+          "Un actor",
+          "Un director",
+          "Un guion"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « la mise en scène » ?",
+        "options": [
+          "La puesta en escena",
+          "El actor principal",
+          "El guion",
+          "La música"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « le rythme » ?",
+        "options": [
+          "El ritmo",
+          "El final",
+          "El título",
+          "El cartel"
+        ]
       }
     ]
   },
@@ -35217,96 +35217,6 @@
     ]
   },
   {
-    "slug": "french-b2-dilemmes-ethiques-reading",
-    "level": "B2",
-    "skill": "reading",
-    "unitId": "dilemmes-ethiques",
-    "title": "Le dilemme du tramway : une expérience de pensée toujours discutée",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 35,
-    "orderIndex": 70,
-    "estimatedMinutes": 18,
-    "description": "Pourquoi cette expérience philosophique imaginée dans les années 1960 continue d’alimenter les débats en éthique et en intelligence artificielle.",
-    "intro": "Pourquoi cette expérience philosophique imaginée dans les années 1960 continue d’alimenter les débats en éthique et en intelligence artificielle.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": {
-      "title": "Le dilemme du tramway : une expérience de pensée toujours discutée",
-      "parts": [
-        "Un tramway hors de contrôle fonce vers cinq personnes attachées sur la voie. Si vous n’aviez pas actionné le levier à côté de vous, elles seraient toutes mortes. Mais en le faisant, vous dévieriez le véhicule vers une autre voie, où se trouve une seule personne, qui, sans votre intervention, n’aurait jamais été menacée. Formulé pour la première fois en 1967 par la philosophe britannique Philippa Foot, ce dilemme reste, plus d’un demi-siècle plus tard, l’une des expériences de pensée les plus discutées de la philosophie morale contemporaine.",
-        "Ce dilemme met en tension deux grandes traditions. L’approche conséquentialiste, qui évalue une action selon ses résultats, tend à considérer qu’il aurait été préférable de sacrifier une vie pour en sauver cinq. L’approche déontologique, à l’inverse, juge une action selon sa conformité à des principes moraux fixes : si l’on avait transformé une personne en simple moyen pour atteindre une fin, même louable, on aurait commis une faute morale, quel qu’en soit le résultat. Les variantes du dilemme, notamment celle où il faudrait pousser physiquement une personne sur la voie plutôt que d’actionner un levier à distance, montrent que l’intuition morale des individus ne suit pas toujours une logique cohérente.",
-        "Depuis quelques années, ce dilemme, longtemps confiné aux salles de cours de philosophie, a trouvé une application concrète et inattendue : la programmation des véhicules autonomes. Des chercheurs du MIT ont ainsi conçu une plateforme en ligne, la « Moral Machine », qui a recueilli les préférences de plusieurs millions de participants à travers le monde sur des scénarios inspirés du dilemme du tramway, appliqués cette fois à des voitures sans conducteur devant choisir, en cas d’accident inévitable, qui privilégier.",
-        "Les résultats de cette étude, publiés en 2018 dans la revue Nature, ont révélé des différences culturelles significatives dans la manière dont les répondants hiérarchisaient les vies à préserver. Si Philippa Foot avait imaginé, en 1967, que son expérience resterait cantonnée aux séminaires universitaires, elle n’aurait sans doute jamais soupçonné qu’elle deviendrait, cinquante ans plus tard, un enjeu central de l’ingénierie automobile."
-      ],
-      "questions": [
-        "Qui a formulé pour la première fois le dilemme du tramway, et en quelle année ?",
-        "Selon l’approche déontologique, qu’aurait-on commis en transformant une personne en simple moyen pour atteindre une fin ?",
-        "Que montre la variante du dilemme où il faudrait pousser physiquement une personne sur la voie ?",
-        "Qu’est-ce que la plateforme « Moral Machine » du MIT, selon le texte ?",
-        "Où et quand les résultats de l’étude sur la Moral Machine ont-ils été publiés ?"
-      ],
-      "text": "Un tramway hors de contrôle fonce vers cinq personnes attachées sur la voie. Si vous n’aviez pas actionné le levier à côté de vous, elles seraient toutes mortes. Mais en le faisant, vous dévieriez le véhicule vers une autre voie, où se trouve une seule personne, qui, sans votre intervention, n’aurait jamais été menacée. Formulé pour la première fois en 1967 par la philosophe britannique Philippa Foot, ce dilemme reste, plus d’un demi-siècle plus tard, l’une des expériences de pensée les plus discutées de la philosophie morale contemporaine.\n\nCe dilemme met en tension deux grandes traditions. L’approche conséquentialiste, qui évalue une action selon ses résultats, tend à considérer qu’il aurait été préférable de sacrifier une vie pour en sauver cinq. L’approche déontologique, à l’inverse, juge une action selon sa conformité à des principes moraux fixes : si l’on avait transformé une personne en simple moyen pour atteindre une fin, même louable, on aurait commis une faute morale, quel qu’en soit le résultat. Les variantes du dilemme, notamment celle où il faudrait pousser physiquement une personne sur la voie plutôt que d’actionner un levier à distance, montrent que l’intuition morale des individus ne suit pas toujours une logique cohérente.\n\nDepuis quelques années, ce dilemme, longtemps confiné aux salles de cours de philosophie, a trouvé une application concrète et inattendue : la programmation des véhicules autonomes. Des chercheurs du MIT ont ainsi conçu une plateforme en ligne, la « Moral Machine », qui a recueilli les préférences de plusieurs millions de participants à travers le monde sur des scénarios inspirés du dilemme du tramway, appliqués cette fois à des voitures sans conducteur devant choisir, en cas d’accident inévitable, qui privilégier.\n\nLes résultats de cette étude, publiés en 2018 dans la revue Nature, ont révélé des différences culturelles significatives dans la manière dont les répondants hiérarchisaient les vies à préserver. Si Philippa Foot avait imaginé, en 1967, que son expérience resterait cantonnée aux séminaires universitaires, elle n’aurait sans doute jamais soupçonné qu’elle deviendrait, cinquante ans plus tard, un enjeu central de l’ingénierie automobile."
-    },
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Qui a formulé pour la première fois le dilemme du tramway, et en quelle année ?",
-        "options": [
-          "Philippa Foot, en 1967",
-          "Un chercheur du MIT, en 2018",
-          "Aristote, dans l’Antiquité",
-          "Un ingénieur automobile, en 2000"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selon l’approche déontologique, qu’aurait-on commis en transformant une personne en simple moyen pour atteindre une fin ?",
-        "options": [
-          "Une faute morale, quel que soit le résultat",
-          "Un acte parfaitement justifié",
-          "Une erreur de calcul uniquement",
-          "Un acte sans aucune conséquence"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que montre la variante du dilemme où il faudrait pousser physiquement une personne sur la voie ?",
-        "options": [
-          "Que l’intuition morale des individus ne suit pas toujours une logique cohérente",
-          "Que personne ne réagit jamais différemment",
-          "Que ce dilemme n’intéresse plus les chercheurs",
-          "Que la version originale du dilemme a été abandonnée"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qu’est-ce que la plateforme « Moral Machine » du MIT, selon le texte ?",
-        "options": [
-          "Un jeu vidéo commercial",
-          "Une plateforme ayant recueilli les préférences morales de millions de participants sur des scénarios liés aux voitures autonomes",
-          "Un tramway expérimental",
-          "Un cours de philosophie en ligne uniquement"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Où et quand les résultats de l’étude sur la Moral Machine ont-ils été publiés ?",
-        "options": [
-          "Dans la revue Nature, en 2018",
-          "Dans un journal local, en 1967",
-          "Ils n’ont jamais été publiés",
-          "Sur un blog personnel, en 2020"
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-ecologie-et-responsabilite-collective-reading",
     "level": "C1",
     "skill": "reading",
@@ -35515,6 +35425,96 @@
           "Une exemption de tout contrôle réglementaire"
         ],
         "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Corriger le génome, corriger le jugement : deux frontières médicales »."
+      }
+    ]
+  },
+  {
+    "slug": "french-b2-dilemmes-ethiques-reading",
+    "level": "B2",
+    "skill": "reading",
+    "unitId": "dilemmes-ethiques",
+    "title": "Le dilemme du tramway : une expérience de pensée toujours discutée",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 35,
+    "orderIndex": 70,
+    "estimatedMinutes": 18,
+    "description": "Pourquoi cette expérience philosophique imaginée dans les années 1960 continue d’alimenter les débats en éthique et en intelligence artificielle.",
+    "intro": "Pourquoi cette expérience philosophique imaginée dans les années 1960 continue d’alimenter les débats en éthique et en intelligence artificielle.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "Le dilemme du tramway : une expérience de pensée toujours discutée",
+      "parts": [
+        "Un tramway hors de contrôle fonce vers cinq personnes attachées sur la voie. Si vous n’aviez pas actionné le levier à côté de vous, elles seraient toutes mortes. Mais en le faisant, vous dévieriez le véhicule vers une autre voie, où se trouve une seule personne, qui, sans votre intervention, n’aurait jamais été menacée. Formulé pour la première fois en 1967 par la philosophe britannique Philippa Foot, ce dilemme reste, plus d’un demi-siècle plus tard, l’une des expériences de pensée les plus discutées de la philosophie morale contemporaine.",
+        "Ce dilemme met en tension deux grandes traditions. L’approche conséquentialiste, qui évalue une action selon ses résultats, tend à considérer qu’il aurait été préférable de sacrifier une vie pour en sauver cinq. L’approche déontologique, à l’inverse, juge une action selon sa conformité à des principes moraux fixes : si l’on avait transformé une personne en simple moyen pour atteindre une fin, même louable, on aurait commis une faute morale, quel qu’en soit le résultat. Les variantes du dilemme, notamment celle où il faudrait pousser physiquement une personne sur la voie plutôt que d’actionner un levier à distance, montrent que l’intuition morale des individus ne suit pas toujours une logique cohérente.",
+        "Depuis quelques années, ce dilemme, longtemps confiné aux salles de cours de philosophie, a trouvé une application concrète et inattendue : la programmation des véhicules autonomes. Des chercheurs du MIT ont ainsi conçu une plateforme en ligne, la « Moral Machine », qui a recueilli les préférences de plusieurs millions de participants à travers le monde sur des scénarios inspirés du dilemme du tramway, appliqués cette fois à des voitures sans conducteur devant choisir, en cas d’accident inévitable, qui privilégier.",
+        "Les résultats de cette étude, publiés en 2018 dans la revue Nature, ont révélé des différences culturelles significatives dans la manière dont les répondants hiérarchisaient les vies à préserver. Si Philippa Foot avait imaginé, en 1967, que son expérience resterait cantonnée aux séminaires universitaires, elle n’aurait sans doute jamais soupçonné qu’elle deviendrait, cinquante ans plus tard, un enjeu central de l’ingénierie automobile."
+      ],
+      "questions": [
+        "Qui a formulé pour la première fois le dilemme du tramway, et en quelle année ?",
+        "Selon l’approche déontologique, qu’aurait-on commis en transformant une personne en simple moyen pour atteindre une fin ?",
+        "Que montre la variante du dilemme où il faudrait pousser physiquement une personne sur la voie ?",
+        "Qu’est-ce que la plateforme « Moral Machine » du MIT, selon le texte ?",
+        "Où et quand les résultats de l’étude sur la Moral Machine ont-ils été publiés ?"
+      ],
+      "text": "Un tramway hors de contrôle fonce vers cinq personnes attachées sur la voie. Si vous n’aviez pas actionné le levier à côté de vous, elles seraient toutes mortes. Mais en le faisant, vous dévieriez le véhicule vers une autre voie, où se trouve une seule personne, qui, sans votre intervention, n’aurait jamais été menacée. Formulé pour la première fois en 1967 par la philosophe britannique Philippa Foot, ce dilemme reste, plus d’un demi-siècle plus tard, l’une des expériences de pensée les plus discutées de la philosophie morale contemporaine.\n\nCe dilemme met en tension deux grandes traditions. L’approche conséquentialiste, qui évalue une action selon ses résultats, tend à considérer qu’il aurait été préférable de sacrifier une vie pour en sauver cinq. L’approche déontologique, à l’inverse, juge une action selon sa conformité à des principes moraux fixes : si l’on avait transformé une personne en simple moyen pour atteindre une fin, même louable, on aurait commis une faute morale, quel qu’en soit le résultat. Les variantes du dilemme, notamment celle où il faudrait pousser physiquement une personne sur la voie plutôt que d’actionner un levier à distance, montrent que l’intuition morale des individus ne suit pas toujours une logique cohérente.\n\nDepuis quelques années, ce dilemme, longtemps confiné aux salles de cours de philosophie, a trouvé une application concrète et inattendue : la programmation des véhicules autonomes. Des chercheurs du MIT ont ainsi conçu une plateforme en ligne, la « Moral Machine », qui a recueilli les préférences de plusieurs millions de participants à travers le monde sur des scénarios inspirés du dilemme du tramway, appliqués cette fois à des voitures sans conducteur devant choisir, en cas d’accident inévitable, qui privilégier.\n\nLes résultats de cette étude, publiés en 2018 dans la revue Nature, ont révélé des différences culturelles significatives dans la manière dont les répondants hiérarchisaient les vies à préserver. Si Philippa Foot avait imaginé, en 1967, que son expérience resterait cantonnée aux séminaires universitaires, elle n’aurait sans doute jamais soupçonné qu’elle deviendrait, cinquante ans plus tard, un enjeu central de l’ingénierie automobile."
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Qui a formulé pour la première fois le dilemme du tramway, et en quelle année ?",
+        "options": [
+          "Philippa Foot, en 1967",
+          "Un chercheur du MIT, en 2018",
+          "Aristote, dans l’Antiquité",
+          "Un ingénieur automobile, en 2000"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Selon l’approche déontologique, qu’aurait-on commis en transformant une personne en simple moyen pour atteindre une fin ?",
+        "options": [
+          "Une faute morale, quel que soit le résultat",
+          "Un acte parfaitement justifié",
+          "Une erreur de calcul uniquement",
+          "Un acte sans aucune conséquence"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que montre la variante du dilemme où il faudrait pousser physiquement une personne sur la voie ?",
+        "options": [
+          "Que l’intuition morale des individus ne suit pas toujours une logique cohérente",
+          "Que personne ne réagit jamais différemment",
+          "Que ce dilemme n’intéresse plus les chercheurs",
+          "Que la version originale du dilemme a été abandonnée"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qu’est-ce que la plateforme « Moral Machine » du MIT, selon le texte ?",
+        "options": [
+          "Un jeu vidéo commercial",
+          "Une plateforme ayant recueilli les préférences morales de millions de participants sur des scénarios liés aux voitures autonomes",
+          "Un tramway expérimental",
+          "Un cours de philosophie en ligne uniquement"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Où et quand les résultats de l’étude sur la Moral Machine ont-ils été publiés ?",
+        "options": [
+          "Dans la revue Nature, en 2018",
+          "Dans un journal local, en 1967",
+          "Ils n’ont jamais été publiés",
+          "Sur un blog personnel, en 2020"
+        ]
       }
     ]
   },
@@ -36240,261 +36240,6 @@
     ]
   },
   {
-    "slug": "french-b2-dilemmes-ethiques-listening",
-    "level": "B2",
-    "skill": "listening",
-    "unitId": "dilemmes-ethiques",
-    "title": "Aurais-je dû intervenir ?",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 35,
-    "orderIndex": 71,
-    "estimatedMinutes": 14,
-    "description": "Écoute ce contenu de niveau B2 et identifie les idées, les nuances et les preuves.",
-    "intro": "Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [
-      "Pourquoi continue-t-elle de... ?",
-      "Elle oblige à...",
-      "Quel lien avec... ?",
-      "Le dilemme redevient concret."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore réfléchir. Dans mon entreprise, un collègue avait utilisé le travail d’une stagiaire sans mentionner son nom. Tout le monde semblait le savoir, mais personne ne disait rien. J’hésitais entre protéger l’ambiance de l’équipe et défendre une valeur qui me semblait essentielle : reconnaître le travail de chacun. Si j’avais parlé immédiatement, j’aurais peut-être évité que la situation dure. Pourtant, j’avais peur d’être jugé ou de créer un conflit. J’ai finalement demandé conseil à une responsable en présentant les faits sans accuser directement mon collègue. Elle a organisé une discussion et la contribution de la stagiaire a été reconnue. Avec le recul, je pense que j’aurais dû réagir plus tôt. Se mettre à la place des autres m’a aidé à comprendre les conséquences du silence. Un dilemme n’oppose pas toujours le bien au mal ; il oppose parfois deux inquiétudes légitimes. Mais nos valeurs deviennent concrètes seulement lorsque nous acceptons d’agir malgré l’inconfort.",
-    "extra": {
-      "listeningType": "monologue",
-      "listeningFormat": "testimony",
-      "storyTitle": "Aurais-je dû intervenir ?",
-      "mainTranscript": "Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore réfléchir. Dans mon entreprise, un collègue avait utilisé le travail d’une stagiaire sans mentionner son nom. Tout le monde semblait le savoir, mais personne ne disait rien. J’hésitais entre protéger l’ambiance de l’équipe et défendre une valeur qui me semblait essentielle : reconnaître le travail de chacun. Si j’avais parlé immédiatement, j’aurais peut-être évité que la situation dure. Pourtant, j’avais peur d’être jugé ou de créer un conflit. J’ai finalement demandé conseil à une responsable en présentant les faits sans accuser directement mon collègue. Elle a organisé une discussion et la contribution de la stagiaire a été reconnue. Avec le recul, je pense que j’aurais dû réagir plus tôt. Se mettre à la place des autres m’a aidé à comprendre les conséquences du silence. Un dilemme n’oppose pas toujours le bien au mal ; il oppose parfois deux inquiétudes légitimes. Mais nos valeurs deviennent concrètes seulement lorsque nous acceptons d’agir malgré l’inconfort.",
-      "transcriptSegments": [
-        {
-          "id": "segment-01",
-          "order": 1,
-          "text": "Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore réfléchir."
-        },
-        {
-          "id": "segment-02",
-          "order": 2,
-          "text": "Dans mon entreprise, un collègue avait utilisé le travail d’une stagiaire sans mentionner son nom."
-        },
-        {
-          "id": "segment-03",
-          "order": 3,
-          "text": "Tout le monde semblait le savoir, mais personne ne disait rien."
-        },
-        {
-          "id": "segment-04",
-          "order": 4,
-          "text": "J’hésitais entre protéger l’ambiance de l’équipe et défendre une valeur qui me semblait essentielle : reconnaître le travail de chacun."
-        },
-        {
-          "id": "segment-05",
-          "order": 5,
-          "text": "Si j’avais parlé immédiatement, j’aurais peut-être évité que la situation dure."
-        },
-        {
-          "id": "segment-06",
-          "order": 6,
-          "text": "Pourtant, j’avais peur d’être jugé ou de créer un conflit."
-        },
-        {
-          "id": "segment-07",
-          "order": 7,
-          "text": "J’ai finalement demandé conseil à une responsable en présentant les faits sans accuser directement mon collègue."
-        },
-        {
-          "id": "segment-08",
-          "order": 8,
-          "text": "Elle a organisé une discussion et la contribution de la stagiaire a été reconnue."
-        },
-        {
-          "id": "segment-09",
-          "order": 9,
-          "text": "Avec le recul, je pense que j’aurais dû réagir plus tôt."
-        },
-        {
-          "id": "segment-10",
-          "order": 10,
-          "text": "Se mettre à la place des autres m’a aidé à comprendre les conséquences du silence."
-        },
-        {
-          "id": "segment-11",
-          "order": 11,
-          "text": "Un dilemme n’oppose pas toujours le bien au mal ; il oppose parfois deux inquiétudes légitimes."
-        },
-        {
-          "id": "segment-12",
-          "order": 12,
-          "text": "Mais nos valeurs deviennent concrètes seulement lorsque nous acceptons d’agir malgré l’inconfort."
-        }
-      ],
-      "difficulty": "B2",
-      "durationSeconds": 85,
-      "speakers": [
-        "Animatrice",
-        "Invité"
-      ],
-      "phoneticSupport": {
-        "enabled": true,
-        "locale": "fr-FR",
-        "focus": "Marque les groupes rythmiques et les mots de contraste. Fais entendre la différence entre une affirmation ferme et une conclusion nuancée.",
-        "segments": [],
-        "stressedWords": [
-          "établi",
-          "inférer",
-          "objection",
-          "réviser"
-        ],
-        "difficultSounds": [],
-        "reviewStatus": "verified"
-      },
-      "listeningComprehension": {
-        "id": "french-b2-dilemmes-ethiques-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Dans « Aurais-je dû intervenir ? », quel détail présente la situation ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore réfléchir."
-              },
-              {
-                "id": "o2",
-                "text": "Si j’avais parlé immédiatement, j’aurais peut-être évité que la situation dure."
-              },
-              {
-                "id": "o3",
-                "text": "Elle a organisé une discussion et la contribution de la stagiaire a été reconnue."
-              },
-              {
-                "id": "o4",
-                "text": "Mais nos valeurs deviennent concrètes seulement lorsque nous acceptons d’agir malgré l’inconfort."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Après « Il y a quelques mois, j’ai été témoin d’une situation qui me fait… », que se passe-t-il ensuite dans « Aurais-je dû intervenir ? » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore réfléchir."
-              },
-              {
-                "id": "o2",
-                "text": "Si j’avais parlé immédiatement, j’aurais peut-être évité que la situation dure."
-              },
-              {
-                "id": "o3",
-                "text": "Elle a organisé une discussion et la contribution de la stagiaire a été reconnue."
-              },
-              {
-                "id": "o4",
-                "text": "Mais nos valeurs deviennent concrètes seulement lorsque nous acceptons d’agir malgré l’inconfort."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Aurais-je dû intervenir ? » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore réfléchir."
-              },
-              {
-                "id": "o2",
-                "text": "Si j’avais parlé immédiatement, j’aurais peut-être évité que la situation dure."
-              },
-              {
-                "id": "o3",
-                "text": "Elle a organisé une discussion et la contribution de la stagiaire a été reconnue."
-              },
-              {
-                "id": "o4",
-                "text": "Mais nos valeurs deviennent concrètes seulement lorsque nous acceptons d’agir malgré l’inconfort."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Quel résultat conclut « Aurais-je dû intervenir ? » après « Elle a organisé une discussion et la contribution de la stagiaire a… » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore réfléchir."
-              },
-              {
-                "id": "o2",
-                "text": "Si j’avais parlé immédiatement, j’aurais peut-être évité que la situation dure."
-              },
-              {
-                "id": "o3",
-                "text": "Elle a organisé une discussion et la contribution de la stagiaire a été reconnue."
-              },
-              {
-                "id": "o4",
-                "text": "Mais nos valeurs deviennent concrètes seulement lorsque nous acceptons d’agir malgré l’inconfort."
-              }
-            ]
-          }
-        ]
-      },
-      "grammarTest": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Dans « Aurais-je dû intervenir ? », quel détail présente la situation ?",
-        "options": [
-          "Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore réfléchir.",
-          "Si j’avais parlé immédiatement, j’aurais peut-être évité que la situation dure.",
-          "Elle a organisé une discussion et la contribution de la stagiaire a été reconnue.",
-          "Mais nos valeurs deviennent concrètes seulement lorsque nous acceptons d’agir malgré l’inconfort."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Après « Il y a quelques mois, j’ai été témoin d’une situation qui me fait… », que se passe-t-il ensuite dans « Aurais-je dû intervenir ? » ?",
-        "options": [
-          "Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore réfléchir.",
-          "Si j’avais parlé immédiatement, j’aurais peut-être évité que la situation dure.",
-          "Elle a organisé une discussion et la contribution de la stagiaire a été reconnue.",
-          "Mais nos valeurs deviennent concrètes seulement lorsque nous acceptons d’agir malgré l’inconfort."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Aurais-je dû intervenir ? » ?",
-        "options": [
-          "Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore réfléchir.",
-          "Si j’avais parlé immédiatement, j’aurais peut-être évité que la situation dure.",
-          "Elle a organisé une discussion et la contribution de la stagiaire a été reconnue.",
-          "Mais nos valeurs deviennent concrètes seulement lorsque nous acceptons d’agir malgré l’inconfort."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel résultat conclut « Aurais-je dû intervenir ? » après « Elle a organisé une discussion et la contribution de la stagiaire a… » ?",
-        "options": [
-          "Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore réfléchir.",
-          "Si j’avais parlé immédiatement, j’aurais peut-être évité que la situation dure.",
-          "Elle a organisé une discussion et la contribution de la stagiaire a été reconnue.",
-          "Mais nos valeurs deviennent concrètes seulement lorsque nous acceptons d’agir malgré l’inconfort."
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-ecologie-et-responsabilite-collective-listening",
     "level": "C1",
     "skill": "listening",
@@ -37007,6 +36752,261 @@
     ]
   },
   {
+    "slug": "french-b2-dilemmes-ethiques-listening",
+    "level": "B2",
+    "skill": "listening",
+    "unitId": "dilemmes-ethiques",
+    "title": "Aurais-je dû intervenir ?",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 35,
+    "orderIndex": 71,
+    "estimatedMinutes": 14,
+    "description": "Écoute ce contenu de niveau B2 et identifie les idées, les nuances et les preuves.",
+    "intro": "Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "Pourquoi continue-t-elle de... ?",
+      "Elle oblige à...",
+      "Quel lien avec... ?",
+      "Le dilemme redevient concret."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore réfléchir. Dans mon entreprise, un collègue avait utilisé le travail d’une stagiaire sans mentionner son nom. Tout le monde semblait le savoir, mais personne ne disait rien. J’hésitais entre protéger l’ambiance de l’équipe et défendre une valeur qui me semblait essentielle : reconnaître le travail de chacun. Si j’avais parlé immédiatement, j’aurais peut-être évité que la situation dure. Pourtant, j’avais peur d’être jugé ou de créer un conflit. J’ai finalement demandé conseil à une responsable en présentant les faits sans accuser directement mon collègue. Elle a organisé une discussion et la contribution de la stagiaire a été reconnue. Avec le recul, je pense que j’aurais dû réagir plus tôt. Se mettre à la place des autres m’a aidé à comprendre les conséquences du silence. Un dilemme n’oppose pas toujours le bien au mal ; il oppose parfois deux inquiétudes légitimes. Mais nos valeurs deviennent concrètes seulement lorsque nous acceptons d’agir malgré l’inconfort.",
+    "extra": {
+      "listeningType": "monologue",
+      "listeningFormat": "testimony",
+      "storyTitle": "Aurais-je dû intervenir ?",
+      "mainTranscript": "Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore réfléchir. Dans mon entreprise, un collègue avait utilisé le travail d’une stagiaire sans mentionner son nom. Tout le monde semblait le savoir, mais personne ne disait rien. J’hésitais entre protéger l’ambiance de l’équipe et défendre une valeur qui me semblait essentielle : reconnaître le travail de chacun. Si j’avais parlé immédiatement, j’aurais peut-être évité que la situation dure. Pourtant, j’avais peur d’être jugé ou de créer un conflit. J’ai finalement demandé conseil à une responsable en présentant les faits sans accuser directement mon collègue. Elle a organisé une discussion et la contribution de la stagiaire a été reconnue. Avec le recul, je pense que j’aurais dû réagir plus tôt. Se mettre à la place des autres m’a aidé à comprendre les conséquences du silence. Un dilemme n’oppose pas toujours le bien au mal ; il oppose parfois deux inquiétudes légitimes. Mais nos valeurs deviennent concrètes seulement lorsque nous acceptons d’agir malgré l’inconfort.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore réfléchir."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Dans mon entreprise, un collègue avait utilisé le travail d’une stagiaire sans mentionner son nom."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Tout le monde semblait le savoir, mais personne ne disait rien."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "J’hésitais entre protéger l’ambiance de l’équipe et défendre une valeur qui me semblait essentielle : reconnaître le travail de chacun."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Si j’avais parlé immédiatement, j’aurais peut-être évité que la situation dure."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Pourtant, j’avais peur d’être jugé ou de créer un conflit."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "J’ai finalement demandé conseil à une responsable en présentant les faits sans accuser directement mon collègue."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Elle a organisé une discussion et la contribution de la stagiaire a été reconnue."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Avec le recul, je pense que j’aurais dû réagir plus tôt."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Se mettre à la place des autres m’a aidé à comprendre les conséquences du silence."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Un dilemme n’oppose pas toujours le bien au mal ; il oppose parfois deux inquiétudes légitimes."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "Mais nos valeurs deviennent concrètes seulement lorsque nous acceptons d’agir malgré l’inconfort."
+        }
+      ],
+      "difficulty": "B2",
+      "durationSeconds": 85,
+      "speakers": [
+        "Animatrice",
+        "Invité"
+      ],
+      "phoneticSupport": {
+        "enabled": true,
+        "locale": "fr-FR",
+        "focus": "Marque les groupes rythmiques et les mots de contraste. Fais entendre la différence entre une affirmation ferme et une conclusion nuancée.",
+        "segments": [],
+        "stressedWords": [
+          "établi",
+          "inférer",
+          "objection",
+          "réviser"
+        ],
+        "difficultSounds": [],
+        "reviewStatus": "verified"
+      },
+      "listeningComprehension": {
+        "id": "french-b2-dilemmes-ethiques-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Dans « Aurais-je dû intervenir ? », quel détail présente la situation ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore réfléchir."
+              },
+              {
+                "id": "o2",
+                "text": "Si j’avais parlé immédiatement, j’aurais peut-être évité que la situation dure."
+              },
+              {
+                "id": "o3",
+                "text": "Elle a organisé une discussion et la contribution de la stagiaire a été reconnue."
+              },
+              {
+                "id": "o4",
+                "text": "Mais nos valeurs deviennent concrètes seulement lorsque nous acceptons d’agir malgré l’inconfort."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Après « Il y a quelques mois, j’ai été témoin d’une situation qui me fait… », que se passe-t-il ensuite dans « Aurais-je dû intervenir ? » ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore réfléchir."
+              },
+              {
+                "id": "o2",
+                "text": "Si j’avais parlé immédiatement, j’aurais peut-être évité que la situation dure."
+              },
+              {
+                "id": "o3",
+                "text": "Elle a organisé une discussion et la contribution de la stagiaire a été reconnue."
+              },
+              {
+                "id": "o4",
+                "text": "Mais nos valeurs deviennent concrètes seulement lorsque nous acceptons d’agir malgré l’inconfort."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Aurais-je dû intervenir ? » ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore réfléchir."
+              },
+              {
+                "id": "o2",
+                "text": "Si j’avais parlé immédiatement, j’aurais peut-être évité que la situation dure."
+              },
+              {
+                "id": "o3",
+                "text": "Elle a organisé une discussion et la contribution de la stagiaire a été reconnue."
+              },
+              {
+                "id": "o4",
+                "text": "Mais nos valeurs deviennent concrètes seulement lorsque nous acceptons d’agir malgré l’inconfort."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quel résultat conclut « Aurais-je dû intervenir ? » après « Elle a organisé une discussion et la contribution de la stagiaire a… » ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore réfléchir."
+              },
+              {
+                "id": "o2",
+                "text": "Si j’avais parlé immédiatement, j’aurais peut-être évité que la situation dure."
+              },
+              {
+                "id": "o3",
+                "text": "Elle a organisé une discussion et la contribution de la stagiaire a été reconnue."
+              },
+              {
+                "id": "o4",
+                "text": "Mais nos valeurs deviennent concrètes seulement lorsque nous acceptons d’agir malgré l’inconfort."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Dans « Aurais-je dû intervenir ? », quel détail présente la situation ?",
+        "options": [
+          "Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore réfléchir.",
+          "Si j’avais parlé immédiatement, j’aurais peut-être évité que la situation dure.",
+          "Elle a organisé une discussion et la contribution de la stagiaire a été reconnue.",
+          "Mais nos valeurs deviennent concrètes seulement lorsque nous acceptons d’agir malgré l’inconfort."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Après « Il y a quelques mois, j’ai été témoin d’une situation qui me fait… », que se passe-t-il ensuite dans « Aurais-je dû intervenir ? » ?",
+        "options": [
+          "Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore réfléchir.",
+          "Si j’avais parlé immédiatement, j’aurais peut-être évité que la situation dure.",
+          "Elle a organisé une discussion et la contribution de la stagiaire a été reconnue.",
+          "Mais nos valeurs deviennent concrètes seulement lorsque nous acceptons d’agir malgré l’inconfort."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Aurais-je dû intervenir ? » ?",
+        "options": [
+          "Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore réfléchir.",
+          "Si j’avais parlé immédiatement, j’aurais peut-être évité que la situation dure.",
+          "Elle a organisé une discussion et la contribution de la stagiaire a été reconnue.",
+          "Mais nos valeurs deviennent concrètes seulement lorsque nous acceptons d’agir malgré l’inconfort."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quel résultat conclut « Aurais-je dû intervenir ? » après « Elle a organisé une discussion et la contribution de la stagiaire a… » ?",
+        "options": [
+          "Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore réfléchir.",
+          "Si j’avais parlé immédiatement, j’aurais peut-être évité que la situation dure.",
+          "Elle a organisé une discussion et la contribution de la stagiaire a été reconnue.",
+          "Mais nos valeurs deviennent concrètes seulement lorsque nous acceptons d’agir malgré l’inconfort."
+        ]
+      }
+    ]
+  },
+  {
     "slug": "french-a1-a-table-speaking",
     "level": "A1",
     "skill": "speaking",
@@ -37141,67 +37141,6 @@
       {
         "type": "practice",
         "prompt": "Avec un/une camarade, échangez des conseils sur la gestion du stress."
-      }
-    ]
-  },
-  {
-    "slug": "french-b2-dilemmes-ethiques-speaking",
-    "level": "B2",
-    "skill": "speaking",
-    "unitId": "dilemmes-ethiques",
-    "title": "Présenter un dilemme moral",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 72,
-    "estimatedMinutes": 14,
-    "description": "Présente un dilemme moral et exprime ce que tu aurais fait dans cette situation.",
-    "intro": "Présente un dilemme moral et exprime ce que tu aurais fait dans cette situation.",
-    "mission": "Présente un dilemme moral (réel ou imaginaire) et explique, avec des hypothèses au passé, ce que tu aurais fait et pourquoi.",
-    "grammar": "",
-    "phrases": [
-      "Si j’avais été à sa place, j’aurais...",
-      "Tout dépendrait de...",
-      "Je comprends aussi que...",
-      "Ce n’est pas une décision facile."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Toi",
-        "line": "Si j’avais été à sa place, j’aurais probablement... Cela dit, je comprends aussi ceux qui auraient choisi différemment.",
-        "translation": "Si hubiera estado en su lugar, probablemente habría... Dicho esto, también entiendo a quienes hubieran elegido diferente."
-      }
-    ],
-    "reading": null,
-    "transcript": "Toi : Si j’avais été à sa place, j’aurais probablement... Cela dit, je comprends aussi ceux qui auraient choisi différemment.",
-    "extra": {
-      "communicationGuide": {
-        "steps": [
-          "Enregistre une première réponse sans lire un texte complet.",
-          "Utilise la transcription vocale pour vérifier ce qui a été compris.",
-          "Demande au Tuteur IA un retour sur la clarté, les preuves et le registre.",
-          "Enregistre une seconde version et compare fluidité et prononciation."
-        ],
-        "premiumMode": "Conversation libre avec le Tuteur IA",
-        "pronunciationTargets": [
-          "groupes rythmiques",
-          "mise en relief",
-          "enchaînements",
-          "intonation nuancée"
-        ]
-      },
-      "grammarTest": null,
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Présente un dilemme moral et exprime une hypothèse sur ce que tu aurais fait, avec le conditionnel passé."
-      },
-      {
-        "type": "practice",
-        "prompt": "Débats avec un/une camarade sur un dilemme moral, en défendant des positions différentes."
       }
     ]
   },
@@ -37356,6 +37295,67 @@
     ]
   },
   {
+    "slug": "french-b2-dilemmes-ethiques-speaking",
+    "level": "B2",
+    "skill": "speaking",
+    "unitId": "dilemmes-ethiques",
+    "title": "Présenter un dilemme moral",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 72,
+    "estimatedMinutes": 14,
+    "description": "Présente un dilemme moral et exprime ce que tu aurais fait dans cette situation.",
+    "intro": "Présente un dilemme moral et exprime ce que tu aurais fait dans cette situation.",
+    "mission": "Présente un dilemme moral (réel ou imaginaire) et explique, avec des hypothèses au passé, ce que tu aurais fait et pourquoi.",
+    "grammar": "",
+    "phrases": [
+      "Si j’avais été à sa place, j’aurais...",
+      "Tout dépendrait de...",
+      "Je comprends aussi que...",
+      "Ce n’est pas une décision facile."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Toi",
+        "line": "Si j’avais été à sa place, j’aurais probablement... Cela dit, je comprends aussi ceux qui auraient choisi différemment.",
+        "translation": "Si hubiera estado en su lugar, probablemente habría... Dicho esto, también entiendo a quienes hubieran elegido diferente."
+      }
+    ],
+    "reading": null,
+    "transcript": "Toi : Si j’avais été à sa place, j’aurais probablement... Cela dit, je comprends aussi ceux qui auraient choisi différemment.",
+    "extra": {
+      "communicationGuide": {
+        "steps": [
+          "Enregistre une première réponse sans lire un texte complet.",
+          "Utilise la transcription vocale pour vérifier ce qui a été compris.",
+          "Demande au Tuteur IA un retour sur la clarté, les preuves et le registre.",
+          "Enregistre une seconde version et compare fluidité et prononciation."
+        ],
+        "premiumMode": "Conversation libre avec le Tuteur IA",
+        "pronunciationTargets": [
+          "groupes rythmiques",
+          "mise en relief",
+          "enchaînements",
+          "intonation nuancée"
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Présente un dilemme moral et exprime une hypothèse sur ce que tu aurais fait, avec le conditionnel passé."
+      },
+      {
+        "type": "practice",
+        "prompt": "Débats avec un/une camarade sur un dilemme moral, en défendant des positions différentes."
+      }
+    ]
+  },
+  {
     "slug": "french-a1-a-table-writing",
     "level": "A1",
     "skill": "writing",
@@ -37472,64 +37472,6 @@
     ]
   },
   {
-    "slug": "french-b2-dilemmes-ethiques-writing",
-    "level": "B2",
-    "skill": "writing",
-    "unitId": "dilemmes-ethiques",
-    "title": "Mon opinion sur un dilemme",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 35,
-    "orderIndex": 73,
-    "estimatedMinutes": 18,
-    "description": "Écris ton opinion argumentée sur un dilemme moral.",
-    "intro": "Écris ton opinion argumentée sur un dilemme moral.",
-    "mission": "Écris 200 à 250 mots présentant un dilemme moral et ta position, avec au moins une hypothèse au plus-que-parfait/conditionnel passé.",
-    "grammar": "",
-    "phrases": [
-      "Si j’avais découvert que...",
-      "J’aurais probablement...",
-      "Cela dit, je comprends aussi...",
-      "Ce type de dilemme ne possède pas de réponse universelle."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Modèle",
-        "line": "Si j’avais découvert qu’un ami avait menti pour un avantage injuste, j’aurais probablement essayé de lui en parler directement. Cela dit, je comprends aussi ceux qui choisiraient le silence, car ce type de dilemme ne possède pas de réponse universelle.",
-        "translation": "Si hubiera descubierto que un amigo mintió por una ventaja injusta, probablemente habría intentado hablarlo directamente con él. Dicho esto, también entiendo a quienes eligieran el silencio, porque este tipo de dilema no tiene una respuesta universal."
-      }
-    ],
-    "reading": null,
-    "transcript": "Modèle : Si j’avais découvert qu’un ami avait menti pour un avantage injuste, j’aurais probablement essayé de lui en parler directement. Cela dit, je comprends aussi ceux qui choisiraient le silence, car ce type de dilemme ne possède pas de réponse universelle.",
-    "extra": {
-      "writingGuide": {
-        "taskType": "texte argumentatif structuré",
-        "steps": [
-          "Délimite la question et rédige une thèse en une phrase.",
-          "Choisis deux preuves ou exemples et explique leur pertinence.",
-          "Présente loyalement l’objection la plus solide.",
-          "Réponds sans exagérer la portée des preuves.",
-          "Révise la cohésion, la grammaire, le registre et la conclusion."
-        ],
-        "checklist": [
-          "Utilise au moins deux termes de l’unité : un dilemme, une valeur, juger.",
-          "Emploie correctement hypothèse avec si + plus-que-parfait / conditionnel passé au moins une fois.",
-          "Distingue preuve, inférence et jugement.",
-          "Vérifie les liens entre les paragraphes et supprime les affirmations absolues non justifiées."
-        ]
-      },
-      "grammarTest": null,
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "writing",
-        "prompt": "Écris 200 à 250 mots sur un dilemme moral, avec au moins une hypothèse au plus-que-parfait/conditionnel passé."
-      }
-    ]
-  },
-  {
     "slug": "french-c1-ecologie-et-responsabilite-collective-writing",
     "level": "C1",
     "skill": "writing",
@@ -37642,6 +37584,64 @@
       {
         "type": "writing",
         "prompt": "Rédige 300–350 mots. Avant l’envoi, vérifie la présence d’une thèse, de deux arguments développés, d’une objection et d’une conclusion nuancée."
+      }
+    ]
+  },
+  {
+    "slug": "french-b2-dilemmes-ethiques-writing",
+    "level": "B2",
+    "skill": "writing",
+    "unitId": "dilemmes-ethiques",
+    "title": "Mon opinion sur un dilemme",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 35,
+    "orderIndex": 73,
+    "estimatedMinutes": 18,
+    "description": "Écris ton opinion argumentée sur un dilemme moral.",
+    "intro": "Écris ton opinion argumentée sur un dilemme moral.",
+    "mission": "Écris 200 à 250 mots présentant un dilemme moral et ta position, avec au moins une hypothèse au plus-que-parfait/conditionnel passé.",
+    "grammar": "",
+    "phrases": [
+      "Si j’avais découvert que...",
+      "J’aurais probablement...",
+      "Cela dit, je comprends aussi...",
+      "Ce type de dilemme ne possède pas de réponse universelle."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Modèle",
+        "line": "Si j’avais découvert qu’un ami avait menti pour un avantage injuste, j’aurais probablement essayé de lui en parler directement. Cela dit, je comprends aussi ceux qui choisiraient le silence, car ce type de dilemme ne possède pas de réponse universelle.",
+        "translation": "Si hubiera descubierto que un amigo mintió por una ventaja injusta, probablemente habría intentado hablarlo directamente con él. Dicho esto, también entiendo a quienes eligieran el silencio, porque este tipo de dilema no tiene una respuesta universal."
+      }
+    ],
+    "reading": null,
+    "transcript": "Modèle : Si j’avais découvert qu’un ami avait menti pour un avantage injuste, j’aurais probablement essayé de lui en parler directement. Cela dit, je comprends aussi ceux qui choisiraient le silence, car ce type de dilemme ne possède pas de réponse universelle.",
+    "extra": {
+      "writingGuide": {
+        "taskType": "texte argumentatif structuré",
+        "steps": [
+          "Délimite la question et rédige une thèse en une phrase.",
+          "Choisis deux preuves ou exemples et explique leur pertinence.",
+          "Présente loyalement l’objection la plus solide.",
+          "Réponds sans exagérer la portée des preuves.",
+          "Révise la cohésion, la grammaire, le registre et la conclusion."
+        ],
+        "checklist": [
+          "Utilise au moins deux termes de l’unité : un dilemme, une valeur, juger.",
+          "Emploie correctement hypothèse avec si + plus-que-parfait / conditionnel passé au moins une fois.",
+          "Distingue preuve, inférence et jugement.",
+          "Vérifie les liens entre les paragraphes et supprime les affirmations absolues non justifiées."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Écris 200 à 250 mots sur un dilemme moral, avec au moins une hypothèse au plus-que-parfait/conditionnel passé."
       }
     ]
   },
@@ -38489,287 +38489,6 @@
     ]
   },
   {
-    "slug": "french-b2-dilemmes-ethiques-grammar",
-    "level": "B2",
-    "skill": "grammar",
-    "unitId": "dilemmes-ethiques",
-    "title": "Hypothèse avec si + plus-que-parfait et le conditionnel passé",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 74,
-    "estimatedMinutes": 14,
-    "description": "Formuler une hypothèse irréelle sur le passé et exprimer un regret ou un reproche.",
-    "intro": "Formuler une hypothèse irréelle sur le passé et exprimer un regret ou un reproche.",
-    "mission": "",
-    "grammar": "Pour une hypothèse irréelle sur le passé : « Si + plus-que-parfait, conditionnel passé » : « Si j’avais su, je serais venu. » Le conditionnel passé (avoir/être au conditionnel présent + participe passé) exprime aussi un regret ou un reproche : « J’aurais dû lui parler. Tu aurais pu me le dire. »",
-    "phrases": [
-      "Si j’avais su...",
-      "..., j’aurais...",
-      "J’aurais dû...",
-      "Tu aurais pu..."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "grammarTest": {
-        "id": "french-b2-dilemmes-ethiques-grammar-test",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "french-b2-dilemmes-ethiques-grammar-q1",
-            "type": "mcq",
-            "prompt": "Si j’___ ce mensonge, j’aurais réagi immédiatement.",
-            "difficulty": "application",
-            "options": [
-              {
-                "id": "b",
-                "text": "avais découvert"
-              },
-              {
-                "id": "a",
-                "text": "découvre"
-              },
-              {
-                "id": "c",
-                "text": "découvrirai"
-              },
-              {
-                "id": "d",
-                "text": "découvrais"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-dilemmes-ethiques-grammar-q2",
-            "type": "mcq",
-            "prompt": "Si tu avais su, tu ___ différemment.",
-            "difficulty": "application",
-            "options": [
-              {
-                "id": "a",
-                "text": "agis"
-              },
-              {
-                "id": "c",
-                "text": "aurais agi"
-              },
-              {
-                "id": "b",
-                "text": "agirais"
-              },
-              {
-                "id": "d",
-                "text": "agissais"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-dilemmes-ethiques-grammar-q3",
-            "type": "mcq",
-            "prompt": "J’___ dû lui parler plus tôt.",
-            "difficulty": "analysis",
-            "options": [
-              {
-                "id": "a",
-                "text": "ai"
-              },
-              {
-                "id": "c",
-                "text": "avais"
-              },
-              {
-                "id": "b",
-                "text": "aurais"
-              },
-              {
-                "id": "d",
-                "text": "aurai"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-dilemmes-ethiques-grammar-q4",
-            "type": "mcq",
-            "prompt": "Quelle structure exprime une hypothèse irréelle sur le passé ?",
-            "difficulty": "analysis",
-            "options": [
-              {
-                "id": "a",
-                "text": "Si + présent, futur"
-              },
-              {
-                "id": "b",
-                "text": "Si + imparfait, conditionnel présent"
-              },
-              {
-                "id": "d",
-                "text": "Si + subjonctif, indicatif"
-              },
-              {
-                "id": "c",
-                "text": "Si + plus-que-parfait, conditionnel passé"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-dilemmes-ethiques-grammar-q5",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Si j’découvre ce mensonge, j’aurais réagi immédiatement. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "b",
-                "text": "Si j’avais découvert ce mensonge, j’aurais réagi immédiatement."
-              },
-              {
-                "id": "a",
-                "text": "Si j’découvre ce mensonge, j’aurais réagi immédiatement."
-              },
-              {
-                "id": "c",
-                "text": "Si j’découvrirai ce mensonge, j’aurais réagi immédiatement."
-              },
-              {
-                "id": "d",
-                "text": "Si j’découvrais ce mensonge, j’aurais réagi immédiatement."
-              }
-            ]
-          },
-          {
-            "id": "french-b2-dilemmes-ethiques-grammar-q6",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Si tu avais su, tu agis différemment. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Si tu avais su, tu agis différemment."
-              },
-              {
-                "id": "c",
-                "text": "Si tu avais su, tu aurais agi différemment."
-              },
-              {
-                "id": "b",
-                "text": "Si tu avais su, tu agirais différemment."
-              },
-              {
-                "id": "d",
-                "text": "Si tu avais su, tu agissais différemment."
-              }
-            ]
-          },
-          {
-            "id": "french-b2-dilemmes-ethiques-grammar-q7",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « J’ai dû lui parler plus tôt. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "J’ai dû lui parler plus tôt."
-              },
-              {
-                "id": "c",
-                "text": "J’avais dû lui parler plus tôt."
-              },
-              {
-                "id": "b",
-                "text": "J’aurais dû lui parler plus tôt."
-              },
-              {
-                "id": "d",
-                "text": "J’aurai dû lui parler plus tôt."
-              }
-            ]
-          },
-          {
-            "id": "french-b2-dilemmes-ethiques-grammar-q8",
-            "type": "mcq",
-            "prompt": "Quelle réponse corrige l’erreur « Si + présent, futur » dans ce contexte : « Quelle structure exprime une hypothèse irréelle sur le passé ? » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Si + présent, futur"
-              },
-              {
-                "id": "b",
-                "text": "Si + imparfait, conditionnel présent"
-              },
-              {
-                "id": "d",
-                "text": "Si + subjonctif, indicatif"
-              },
-              {
-                "id": "c",
-                "text": "Si + plus-que-parfait, conditionnel passé"
-              }
-            ]
-          }
-        ]
-      },
-      "grammarProfile": {
-        "name": "Hypothèse avec si + plus-que-parfait et le conditionnel passé",
-        "definition": "Pour une hypothèse irréelle sur le passé : « Si + plus-que-parfait, conditionnel passé » : « Si j’avais su, je serais venu. » Le conditionnel passé (avoir/être au conditionnel présent + participe passé) exprime aussi un regret ou un reproche : « J’aurais dû lui parler. Tu aurais pu me le dire. »",
-        "structure": "Forme à observer : Hypothèse avec si + plus-que-parfait et le conditionnel passé. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
-        "function": "Formuler une hypothèse irréelle sur le passé et exprimer un regret ou un reproche.",
-        "examples": [
-          "Si j’avais découvert ce mensonge, j’aurais réagi immédiatement.",
-          "Si tu avais su, tu aurais agi différemment.",
-          "J’aurais dû lui parler plus tôt.",
-          "Si + plus-que-parfait, conditionnel passé"
-        ]
-      },
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Si j’___ ce mensonge, j’aurais réagi immédiatement.",
-        "options": [
-          "découvre",
-          "avais découvert",
-          "découvrirai",
-          "découvrais"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Si tu avais su, tu ___ différemment.",
-        "options": [
-          "agis",
-          "agirais",
-          "aurais agi",
-          "agissais"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "J’___ dû lui parler plus tôt.",
-        "options": [
-          "ai",
-          "aurais",
-          "avais",
-          "aurai"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle structure exprime une hypothèse irréelle sur le passé ?",
-        "options": [
-          "Si + présent, futur",
-          "Si + imparfait, conditionnel présent",
-          "Si + plus-que-parfait, conditionnel passé",
-          "Si + subjonctif, indicatif"
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-ecologie-et-responsabilite-collective-grammar",
     "level": "C1",
     "skill": "grammar",
@@ -39425,6 +39144,287 @@
     ]
   },
   {
+    "slug": "french-b2-dilemmes-ethiques-grammar",
+    "level": "B2",
+    "skill": "grammar",
+    "unitId": "dilemmes-ethiques",
+    "title": "Hypothèse avec si + plus-que-parfait et le conditionnel passé",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 74,
+    "estimatedMinutes": 14,
+    "description": "Formuler une hypothèse irréelle sur le passé et exprimer un regret ou un reproche.",
+    "intro": "Formuler une hypothèse irréelle sur le passé et exprimer un regret ou un reproche.",
+    "mission": "",
+    "grammar": "Pour une hypothèse irréelle sur le passé : « Si + plus-que-parfait, conditionnel passé » : « Si j’avais su, je serais venu. » Le conditionnel passé (avoir/être au conditionnel présent + participe passé) exprime aussi un regret ou un reproche : « J’aurais dû lui parler. Tu aurais pu me le dire. »",
+    "phrases": [
+      "Si j’avais su...",
+      "..., j’aurais...",
+      "J’aurais dû...",
+      "Tu aurais pu..."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": {
+      "grammarTest": {
+        "id": "french-b2-dilemmes-ethiques-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "french-b2-dilemmes-ethiques-grammar-q1",
+            "type": "mcq",
+            "prompt": "Si j’___ ce mensonge, j’aurais réagi immédiatement.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "b",
+                "text": "avais découvert"
+              },
+              {
+                "id": "a",
+                "text": "découvre"
+              },
+              {
+                "id": "c",
+                "text": "découvrirai"
+              },
+              {
+                "id": "d",
+                "text": "découvrais"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-dilemmes-ethiques-grammar-q2",
+            "type": "mcq",
+            "prompt": "Si tu avais su, tu ___ différemment.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "agis"
+              },
+              {
+                "id": "c",
+                "text": "aurais agi"
+              },
+              {
+                "id": "b",
+                "text": "agirais"
+              },
+              {
+                "id": "d",
+                "text": "agissais"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-dilemmes-ethiques-grammar-q3",
+            "type": "mcq",
+            "prompt": "J’___ dû lui parler plus tôt.",
+            "difficulty": "analysis",
+            "options": [
+              {
+                "id": "a",
+                "text": "ai"
+              },
+              {
+                "id": "c",
+                "text": "avais"
+              },
+              {
+                "id": "b",
+                "text": "aurais"
+              },
+              {
+                "id": "d",
+                "text": "aurai"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-dilemmes-ethiques-grammar-q4",
+            "type": "mcq",
+            "prompt": "Quelle structure exprime une hypothèse irréelle sur le passé ?",
+            "difficulty": "analysis",
+            "options": [
+              {
+                "id": "a",
+                "text": "Si + présent, futur"
+              },
+              {
+                "id": "b",
+                "text": "Si + imparfait, conditionnel présent"
+              },
+              {
+                "id": "d",
+                "text": "Si + subjonctif, indicatif"
+              },
+              {
+                "id": "c",
+                "text": "Si + plus-que-parfait, conditionnel passé"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-dilemmes-ethiques-grammar-q5",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Si j’découvre ce mensonge, j’aurais réagi immédiatement. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "b",
+                "text": "Si j’avais découvert ce mensonge, j’aurais réagi immédiatement."
+              },
+              {
+                "id": "a",
+                "text": "Si j’découvre ce mensonge, j’aurais réagi immédiatement."
+              },
+              {
+                "id": "c",
+                "text": "Si j’découvrirai ce mensonge, j’aurais réagi immédiatement."
+              },
+              {
+                "id": "d",
+                "text": "Si j’découvrais ce mensonge, j’aurais réagi immédiatement."
+              }
+            ]
+          },
+          {
+            "id": "french-b2-dilemmes-ethiques-grammar-q6",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Si tu avais su, tu agis différemment. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Si tu avais su, tu agis différemment."
+              },
+              {
+                "id": "c",
+                "text": "Si tu avais su, tu aurais agi différemment."
+              },
+              {
+                "id": "b",
+                "text": "Si tu avais su, tu agirais différemment."
+              },
+              {
+                "id": "d",
+                "text": "Si tu avais su, tu agissais différemment."
+              }
+            ]
+          },
+          {
+            "id": "french-b2-dilemmes-ethiques-grammar-q7",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « J’ai dû lui parler plus tôt. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "J’ai dû lui parler plus tôt."
+              },
+              {
+                "id": "c",
+                "text": "J’avais dû lui parler plus tôt."
+              },
+              {
+                "id": "b",
+                "text": "J’aurais dû lui parler plus tôt."
+              },
+              {
+                "id": "d",
+                "text": "J’aurai dû lui parler plus tôt."
+              }
+            ]
+          },
+          {
+            "id": "french-b2-dilemmes-ethiques-grammar-q8",
+            "type": "mcq",
+            "prompt": "Quelle réponse corrige l’erreur « Si + présent, futur » dans ce contexte : « Quelle structure exprime une hypothèse irréelle sur le passé ? » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Si + présent, futur"
+              },
+              {
+                "id": "b",
+                "text": "Si + imparfait, conditionnel présent"
+              },
+              {
+                "id": "d",
+                "text": "Si + subjonctif, indicatif"
+              },
+              {
+                "id": "c",
+                "text": "Si + plus-que-parfait, conditionnel passé"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Hypothèse avec si + plus-que-parfait et le conditionnel passé",
+        "definition": "Pour une hypothèse irréelle sur le passé : « Si + plus-que-parfait, conditionnel passé » : « Si j’avais su, je serais venu. » Le conditionnel passé (avoir/être au conditionnel présent + participe passé) exprime aussi un regret ou un reproche : « J’aurais dû lui parler. Tu aurais pu me le dire. »",
+        "structure": "Forme à observer : Hypothèse avec si + plus-que-parfait et le conditionnel passé. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Formuler une hypothèse irréelle sur le passé et exprimer un regret ou un reproche.",
+        "examples": [
+          "Si j’avais découvert ce mensonge, j’aurais réagi immédiatement.",
+          "Si tu avais su, tu aurais agi différemment.",
+          "J’aurais dû lui parler plus tôt.",
+          "Si + plus-que-parfait, conditionnel passé"
+        ]
+      },
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Si j’___ ce mensonge, j’aurais réagi immédiatement.",
+        "options": [
+          "découvre",
+          "avais découvert",
+          "découvrirai",
+          "découvrais"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Si tu avais su, tu ___ différemment.",
+        "options": [
+          "agis",
+          "agirais",
+          "aurais agi",
+          "agissais"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "J’___ dû lui parler plus tôt.",
+        "options": [
+          "ai",
+          "aurais",
+          "avais",
+          "aurai"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle structure exprime une hypothèse irréelle sur le passé ?",
+        "options": [
+          "Si + présent, futur",
+          "Si + imparfait, conditionnel présent",
+          "Si + plus-que-parfait, conditionnel passé",
+          "Si + subjonctif, indicatif"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "french-a1-a-table-vocabulary",
     "level": "A1",
     "skill": "vocabulary",
@@ -39705,86 +39705,6 @@
           "Ignorarse",
           "Trabajar mucho",
           "Estudiar sin parar"
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "french-b2-dilemmes-ethiques-vocabulary",
-    "level": "B2",
-    "skill": "vocabulary",
-    "unitId": "dilemmes-ethiques",
-    "title": "Le vocabulaire des dilemmes éthiques",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 75,
-    "estimatedMinutes": 10,
-    "description": "Le vocabulaire essentiel pour discuter d’éthique et de dilemmes moraux.",
-    "intro": "Le vocabulaire essentiel pour discuter d’éthique et de dilemmes moraux.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [
-      {
-        "word": "un dilemme",
-        "translation": "un dilema",
-        "example": "C’est un vrai dilemme moral."
-      },
-      {
-        "word": "une valeur",
-        "translation": "un valor",
-        "example": "L’honnêteté est une valeur importante pour moi."
-      },
-      {
-        "word": "juger",
-        "translation": "juzgar",
-        "example": "Il ne faut pas juger trop vite."
-      },
-      {
-        "word": "se mettre à la place de",
-        "translation": "ponerse en el lugar de",
-        "example": "Essaie de te mettre à sa place."
-      },
-      {
-        "word": "une désapprobation",
-        "translation": "una desaprobación",
-        "example": "Elle a exprimé sa désapprobation calmement."
-      }
-    ],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « un dilemme » ?",
-        "options": [
-          "Un dilema",
-          "Una solución",
-          "Una ley",
-          "Un premio"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « se mettre à la place de » ?",
-        "options": [
-          "Ponerse en el lugar de",
-          "Alejarse de",
-          "Olvidarse de",
-          "Culpar a"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « juger » ?",
-        "options": [
-          "Juzgar",
-          "Perdonar",
-          "Ignorar",
-          "Ayudar"
         ]
       }
     ]
@@ -40280,6 +40200,86 @@
           "dans une direction opposée à une idée ou à une tendance dominante"
         ],
         "explanation": "« à rebours de » désigne dans une direction opposée à une idée ou à une tendance dominante."
+      }
+    ]
+  },
+  {
+    "slug": "french-b2-dilemmes-ethiques-vocabulary",
+    "level": "B2",
+    "skill": "vocabulary",
+    "unitId": "dilemmes-ethiques",
+    "title": "Le vocabulaire des dilemmes éthiques",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 75,
+    "estimatedMinutes": 10,
+    "description": "Le vocabulaire essentiel pour discuter d’éthique et de dilemmes moraux.",
+    "intro": "Le vocabulaire essentiel pour discuter d’éthique et de dilemmes moraux.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "un dilemme",
+        "translation": "un dilema",
+        "example": "C’est un vrai dilemme moral."
+      },
+      {
+        "word": "une valeur",
+        "translation": "un valor",
+        "example": "L’honnêteté est une valeur importante pour moi."
+      },
+      {
+        "word": "juger",
+        "translation": "juzgar",
+        "example": "Il ne faut pas juger trop vite."
+      },
+      {
+        "word": "se mettre à la place de",
+        "translation": "ponerse en el lugar de",
+        "example": "Essaie de te mettre à sa place."
+      },
+      {
+        "word": "une désapprobation",
+        "translation": "una desaprobación",
+        "example": "Elle a exprimé sa désapprobation calmement."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « un dilemme » ?",
+        "options": [
+          "Un dilema",
+          "Una solución",
+          "Una ley",
+          "Un premio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « se mettre à la place de » ?",
+        "options": [
+          "Ponerse en el lugar de",
+          "Alejarse de",
+          "Olvidarse de",
+          "Culpar a"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « juger » ?",
+        "options": [
+          "Juzgar",
+          "Perdonar",
+          "Ignorar",
+          "Ayudar"
+        ]
       }
     ]
   },
@@ -40971,96 +40971,6 @@
     ]
   },
   {
-    "slug": "french-b2-sciences-et-innovations-reading",
-    "level": "B2",
-    "skill": "reading",
-    "unitId": "sciences-et-innovations",
-    "title": "Intelligence artificielle : quelles répercussions sur l’emploi ?",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 35,
-    "orderIndex": 80,
-    "estimatedMinutes": 18,
-    "description": "Ce que les études économiques récentes disent des effets de l’automatisation par IA sur le marché du travail.",
-    "intro": "Ce que les études économiques récentes disent des effets de l’automatisation par IA sur le marché du travail.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": {
-      "title": "Intelligence artificielle : quelles répercussions sur l’emploi ?",
-      "parts": [
-        "Près de 40 % des emplois dans le monde pourraient être affectés, à des degrés divers, par l’intelligence artificielle générative dans les années à venir : c’est le chiffre avancé par le Fonds monétaire international dans un rapport publié peu après la diffusion massive d’outils comme ChatGPT à partir de fin 2022. Un chiffre impressionnant, certes, mais que le rapport prend soin de nuancer aussitôt : « affecté » ne signifie pas nécessairement « supprimé », précisent ses auteurs, tant les situations possibles varient d’un métier à l’autre.",
-        "Étant donné la diversité des métiers concernés, les économistes distinguent généralement trois catégories d’effets possibles. Certains emplois pourraient être entièrement automatisés, en particulier des tâches répétitives et standardisées. D’autres seraient plutôt transformés : il se peut que l’intelligence artificielle y devienne un outil d’assistance plutôt qu’un substitut complet, à l’image de la traduction automatique, dont la qualité s’est considérablement améliorée sans pour autant éliminer le besoin de traducteurs humains pour les textes exigeant une sensibilité culturelle particulière. Enfin, de nouveaux métiers, encore difficiles à anticiper précisément, devraient émerger, comme cela s’est déjà produit lors des précédentes révolutions technologiques.",
-        "Dans la mesure où ces transformations touchent des secteurs très variés, des chercheurs en économie du travail insistent sur l’importance de la formation continue pour accompagner cette transition. Une étude de l’OCDE publiée en 2023 souligne que les travailleurs les mieux préparés à ces changements ne sont pas nécessairement ceux qui maîtrisent le mieux la technologie elle-même, mais ceux qui développent des compétences difficilement automatisables : le jugement critique, la créativité et l’intelligence relationnelle.",
-        "Il est possible que ces prévisions évoluent encore considérablement, tant la vitesse de progression de ces technologies rend les projections à long terme particulièrement incertaines. Ce que confirment néanmoins la plupart des experts consultés, c’est que l’enjeu principal ne réside pas uniquement dans la capacité des machines à accomplir certaines tâches, mais dans la façon dont les sociétés choisiront collectivement d’organiser cette transition."
-      ],
-      "questions": [
-        "Quel pourcentage d’emplois dans le monde pourrait être affecté par l’IA, selon le rapport du FMI cité dans le texte ?",
-        "Que précisent aussitôt les auteurs du rapport du FMI concernant le mot « affecté » ?",
-        "Quel exemple le texte donne-t-il d’un métier transformé plutôt qu’automatisé ?",
-        "Que souligne une étude de l’OCDE de 2023 citée dans le texte ?",
-        "Quel est l’enjeu principal identifié par les experts dans la conclusion du texte ?"
-      ],
-      "text": "Près de 40 % des emplois dans le monde pourraient être affectés, à des degrés divers, par l’intelligence artificielle générative dans les années à venir : c’est le chiffre avancé par le Fonds monétaire international dans un rapport publié peu après la diffusion massive d’outils comme ChatGPT à partir de fin 2022. Un chiffre impressionnant, certes, mais que le rapport prend soin de nuancer aussitôt : « affecté » ne signifie pas nécessairement « supprimé », précisent ses auteurs, tant les situations possibles varient d’un métier à l’autre.\n\nÉtant donné la diversité des métiers concernés, les économistes distinguent généralement trois catégories d’effets possibles. Certains emplois pourraient être entièrement automatisés, en particulier des tâches répétitives et standardisées. D’autres seraient plutôt transformés : il se peut que l’intelligence artificielle y devienne un outil d’assistance plutôt qu’un substitut complet, à l’image de la traduction automatique, dont la qualité s’est considérablement améliorée sans pour autant éliminer le besoin de traducteurs humains pour les textes exigeant une sensibilité culturelle particulière. Enfin, de nouveaux métiers, encore difficiles à anticiper précisément, devraient émerger, comme cela s’est déjà produit lors des précédentes révolutions technologiques.\n\nDans la mesure où ces transformations touchent des secteurs très variés, des chercheurs en économie du travail insistent sur l’importance de la formation continue pour accompagner cette transition. Une étude de l’OCDE publiée en 2023 souligne que les travailleurs les mieux préparés à ces changements ne sont pas nécessairement ceux qui maîtrisent le mieux la technologie elle-même, mais ceux qui développent des compétences difficilement automatisables : le jugement critique, la créativité et l’intelligence relationnelle.\n\nIl est possible que ces prévisions évoluent encore considérablement, tant la vitesse de progression de ces technologies rend les projections à long terme particulièrement incertaines. Ce que confirment néanmoins la plupart des experts consultés, c’est que l’enjeu principal ne réside pas uniquement dans la capacité des machines à accomplir certaines tâches, mais dans la façon dont les sociétés choisiront collectivement d’organiser cette transition."
-    },
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Quel pourcentage d’emplois dans le monde pourrait être affecté par l’IA, selon le rapport du FMI cité dans le texte ?",
-        "options": [
-          "Près de 40 %",
-          "Environ 5 %",
-          "100 %",
-          "Le texte ne donne aucun chiffre"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que précisent aussitôt les auteurs du rapport du FMI concernant le mot « affecté » ?",
-        "options": [
-          "Que cela ne signifie pas nécessairement « supprimé »",
-          "Que cela signifie toujours une suppression totale",
-          "Que ce mot ne concerne que les métiers manuels",
-          "Que le rapport ne définit pas ce terme"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel exemple le texte donne-t-il d’un métier transformé plutôt qu’automatisé ?",
-        "options": [
-          "La traduction, où l’IA assiste sans remplacer complètement les traducteurs humains",
-          "L’agriculture",
-          "La médecine chirurgicale",
-          "La construction"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que souligne une étude de l’OCDE de 2023 citée dans le texte ?",
-        "options": [
-          "Que la maîtrise technique seule suffit pour s’adapter",
-          "Que les compétences difficilement automatisables (jugement, créativité, intelligence relationnelle) sont essentielles",
-          "Que la formation continue est inutile",
-          "Que tous les emplois vont disparaître"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel est l’enjeu principal identifié par les experts dans la conclusion du texte ?",
-        "options": [
-          "La capacité des machines à tout automatiser",
-          "La façon dont les sociétés organiseront collectivement cette transition",
-          "Le prix des ordinateurs",
-          "L’arrêt complet du développement de l’IA"
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-langues-pouvoir-et-inclusion-reading",
     "level": "C1",
     "skill": "reading",
@@ -41269,6 +41179,96 @@
           "Aucun effet mesurable sur le bien-être des salariés"
         ],
         "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « L’épuisement professionnel est-il un problème individuel ou organisationnel ? »."
+      }
+    ]
+  },
+  {
+    "slug": "french-b2-sciences-et-innovations-reading",
+    "level": "B2",
+    "skill": "reading",
+    "unitId": "sciences-et-innovations",
+    "title": "Intelligence artificielle : quelles répercussions sur l’emploi ?",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 35,
+    "orderIndex": 80,
+    "estimatedMinutes": 18,
+    "description": "Ce que les études économiques récentes disent des effets de l’automatisation par IA sur le marché du travail.",
+    "intro": "Ce que les études économiques récentes disent des effets de l’automatisation par IA sur le marché du travail.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "Intelligence artificielle : quelles répercussions sur l’emploi ?",
+      "parts": [
+        "Près de 40 % des emplois dans le monde pourraient être affectés, à des degrés divers, par l’intelligence artificielle générative dans les années à venir : c’est le chiffre avancé par le Fonds monétaire international dans un rapport publié peu après la diffusion massive d’outils comme ChatGPT à partir de fin 2022. Un chiffre impressionnant, certes, mais que le rapport prend soin de nuancer aussitôt : « affecté » ne signifie pas nécessairement « supprimé », précisent ses auteurs, tant les situations possibles varient d’un métier à l’autre.",
+        "Étant donné la diversité des métiers concernés, les économistes distinguent généralement trois catégories d’effets possibles. Certains emplois pourraient être entièrement automatisés, en particulier des tâches répétitives et standardisées. D’autres seraient plutôt transformés : il se peut que l’intelligence artificielle y devienne un outil d’assistance plutôt qu’un substitut complet, à l’image de la traduction automatique, dont la qualité s’est considérablement améliorée sans pour autant éliminer le besoin de traducteurs humains pour les textes exigeant une sensibilité culturelle particulière. Enfin, de nouveaux métiers, encore difficiles à anticiper précisément, devraient émerger, comme cela s’est déjà produit lors des précédentes révolutions technologiques.",
+        "Dans la mesure où ces transformations touchent des secteurs très variés, des chercheurs en économie du travail insistent sur l’importance de la formation continue pour accompagner cette transition. Une étude de l’OCDE publiée en 2023 souligne que les travailleurs les mieux préparés à ces changements ne sont pas nécessairement ceux qui maîtrisent le mieux la technologie elle-même, mais ceux qui développent des compétences difficilement automatisables : le jugement critique, la créativité et l’intelligence relationnelle.",
+        "Il est possible que ces prévisions évoluent encore considérablement, tant la vitesse de progression de ces technologies rend les projections à long terme particulièrement incertaines. Ce que confirment néanmoins la plupart des experts consultés, c’est que l’enjeu principal ne réside pas uniquement dans la capacité des machines à accomplir certaines tâches, mais dans la façon dont les sociétés choisiront collectivement d’organiser cette transition."
+      ],
+      "questions": [
+        "Quel pourcentage d’emplois dans le monde pourrait être affecté par l’IA, selon le rapport du FMI cité dans le texte ?",
+        "Que précisent aussitôt les auteurs du rapport du FMI concernant le mot « affecté » ?",
+        "Quel exemple le texte donne-t-il d’un métier transformé plutôt qu’automatisé ?",
+        "Que souligne une étude de l’OCDE de 2023 citée dans le texte ?",
+        "Quel est l’enjeu principal identifié par les experts dans la conclusion du texte ?"
+      ],
+      "text": "Près de 40 % des emplois dans le monde pourraient être affectés, à des degrés divers, par l’intelligence artificielle générative dans les années à venir : c’est le chiffre avancé par le Fonds monétaire international dans un rapport publié peu après la diffusion massive d’outils comme ChatGPT à partir de fin 2022. Un chiffre impressionnant, certes, mais que le rapport prend soin de nuancer aussitôt : « affecté » ne signifie pas nécessairement « supprimé », précisent ses auteurs, tant les situations possibles varient d’un métier à l’autre.\n\nÉtant donné la diversité des métiers concernés, les économistes distinguent généralement trois catégories d’effets possibles. Certains emplois pourraient être entièrement automatisés, en particulier des tâches répétitives et standardisées. D’autres seraient plutôt transformés : il se peut que l’intelligence artificielle y devienne un outil d’assistance plutôt qu’un substitut complet, à l’image de la traduction automatique, dont la qualité s’est considérablement améliorée sans pour autant éliminer le besoin de traducteurs humains pour les textes exigeant une sensibilité culturelle particulière. Enfin, de nouveaux métiers, encore difficiles à anticiper précisément, devraient émerger, comme cela s’est déjà produit lors des précédentes révolutions technologiques.\n\nDans la mesure où ces transformations touchent des secteurs très variés, des chercheurs en économie du travail insistent sur l’importance de la formation continue pour accompagner cette transition. Une étude de l’OCDE publiée en 2023 souligne que les travailleurs les mieux préparés à ces changements ne sont pas nécessairement ceux qui maîtrisent le mieux la technologie elle-même, mais ceux qui développent des compétences difficilement automatisables : le jugement critique, la créativité et l’intelligence relationnelle.\n\nIl est possible que ces prévisions évoluent encore considérablement, tant la vitesse de progression de ces technologies rend les projections à long terme particulièrement incertaines. Ce que confirment néanmoins la plupart des experts consultés, c’est que l’enjeu principal ne réside pas uniquement dans la capacité des machines à accomplir certaines tâches, mais dans la façon dont les sociétés choisiront collectivement d’organiser cette transition."
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Quel pourcentage d’emplois dans le monde pourrait être affecté par l’IA, selon le rapport du FMI cité dans le texte ?",
+        "options": [
+          "Près de 40 %",
+          "Environ 5 %",
+          "100 %",
+          "Le texte ne donne aucun chiffre"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que précisent aussitôt les auteurs du rapport du FMI concernant le mot « affecté » ?",
+        "options": [
+          "Que cela ne signifie pas nécessairement « supprimé »",
+          "Que cela signifie toujours une suppression totale",
+          "Que ce mot ne concerne que les métiers manuels",
+          "Que le rapport ne définit pas ce terme"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quel exemple le texte donne-t-il d’un métier transformé plutôt qu’automatisé ?",
+        "options": [
+          "La traduction, où l’IA assiste sans remplacer complètement les traducteurs humains",
+          "L’agriculture",
+          "La médecine chirurgicale",
+          "La construction"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que souligne une étude de l’OCDE de 2023 citée dans le texte ?",
+        "options": [
+          "Que la maîtrise technique seule suffit pour s’adapter",
+          "Que les compétences difficilement automatisables (jugement, créativité, intelligence relationnelle) sont essentielles",
+          "Que la formation continue est inutile",
+          "Que tous les emplois vont disparaître"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quel est l’enjeu principal identifié par les experts dans la conclusion du texte ?",
+        "options": [
+          "La capacité des machines à tout automatiser",
+          "La façon dont les sociétés organiseront collectivement cette transition",
+          "Le prix des ordinateurs",
+          "L’arrêt complet du développement de l’IA"
+        ]
       }
     ]
   },
@@ -41989,246 +41989,6 @@
     ]
   },
   {
-    "slug": "french-b2-sciences-et-innovations-listening",
-    "level": "B2",
-    "skill": "listening",
-    "unitId": "sciences-et-innovations",
-    "title": "L’intelligence artificielle transforme le diagnostic",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 35,
-    "orderIndex": 81,
-    "estimatedMinutes": 14,
-    "description": "Écoute ce contenu de niveau B2 et identifie les idées, les nuances et les preuves.",
-    "intro": "Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [
-      "Dans la mesure où...",
-      "Il est possible que...",
-      "Il faut rester vigilant.",
-      "Tout dépend de..."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines maladies rares. Le système compare des milliers d’images médicales et signale les éléments qui méritent une attention particulière. Il est possible que cette avancée réduise le temps nécessaire au diagnostic, notamment dans les hôpitaux qui manquent de spécialistes. Cependant, les chercheurs insistent sur un point : l’outil ne remplace pas la décision médicale. Étant donné que les données utilisées ne représentent pas toujours toutes les populations, il se peut que les résultats soient moins précis pour certains patients. Les répercussions concernent aussi la vie privée, car ces images contiennent des informations sensibles. Dans la mesure où les hôpitaux souhaitent utiliser cette technologie, ils devront expliquer comment les données sont protégées et permettre un contrôle indépendant. Les médecins interrogés se montrent prudemment optimistes. Selon eux, une attitude proactive consiste à tester l’innovation dans des conditions réelles tout en conservant une responsabilité humaine clairement identifiable.",
-    "extra": {
-      "listeningType": "monologue",
-      "listeningFormat": "news",
-      "storyTitle": "L’intelligence artificielle transforme le diagnostic",
-      "mainTranscript": "Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines maladies rares. Le système compare des milliers d’images médicales et signale les éléments qui méritent une attention particulière. Il est possible que cette avancée réduise le temps nécessaire au diagnostic, notamment dans les hôpitaux qui manquent de spécialistes. Cependant, les chercheurs insistent sur un point : l’outil ne remplace pas la décision médicale. Étant donné que les données utilisées ne représentent pas toujours toutes les populations, il se peut que les résultats soient moins précis pour certains patients. Les répercussions concernent aussi la vie privée, car ces images contiennent des informations sensibles. Dans la mesure où les hôpitaux souhaitent utiliser cette technologie, ils devront expliquer comment les données sont protégées et permettre un contrôle indépendant. Les médecins interrogés se montrent prudemment optimistes. Selon eux, une attitude proactive consiste à tester l’innovation dans des conditions réelles tout en conservant une responsabilité humaine clairement identifiable.",
-      "transcriptSegments": [
-        {
-          "id": "segment-01",
-          "order": 1,
-          "text": "Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines maladies rares."
-        },
-        {
-          "id": "segment-02",
-          "order": 2,
-          "text": "Le système compare des milliers d’images médicales et signale les éléments qui méritent une attention particulière."
-        },
-        {
-          "id": "segment-03",
-          "order": 3,
-          "text": "Il est possible que cette avancée réduise le temps nécessaire au diagnostic, notamment dans les hôpitaux qui manquent de spécialistes."
-        },
-        {
-          "id": "segment-04",
-          "order": 4,
-          "text": "Cependant, les chercheurs insistent sur un point : l’outil ne remplace pas la décision médicale."
-        },
-        {
-          "id": "segment-05",
-          "order": 5,
-          "text": "Étant donné que les données utilisées ne représentent pas toujours toutes les populations, il se peut que les résultats soient moins précis pour certains patients."
-        },
-        {
-          "id": "segment-06",
-          "order": 6,
-          "text": "Les répercussions concernent aussi la vie privée, car ces images contiennent des informations sensibles."
-        },
-        {
-          "id": "segment-07",
-          "order": 7,
-          "text": "Dans la mesure où les hôpitaux souhaitent utiliser cette technologie, ils devront expliquer comment les données sont protégées et permettre un contrôle indépendant."
-        },
-        {
-          "id": "segment-08",
-          "order": 8,
-          "text": "Les médecins interrogés se montrent prudemment optimistes."
-        },
-        {
-          "id": "segment-09",
-          "order": 9,
-          "text": "Selon eux, une attitude proactive consiste à tester l’innovation dans des conditions réelles tout en conservant une responsabilité humaine clairement identifiable."
-        }
-      ],
-      "difficulty": "B2",
-      "durationSeconds": 85,
-      "speakers": [
-        "Animatrice",
-        "Invité"
-      ],
-      "phoneticSupport": {
-        "enabled": true,
-        "locale": "fr-FR",
-        "focus": "Marque les groupes rythmiques et les mots de contraste. Fais entendre la différence entre une affirmation ferme et une conclusion nuancée.",
-        "segments": [],
-        "stressedWords": [
-          "établi",
-          "inférer",
-          "objection",
-          "réviser"
-        ],
-        "difficultSounds": [],
-        "reviewStatus": "verified"
-      },
-      "listeningComprehension": {
-        "id": "french-b2-sciences-et-innovations-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Dans « L’intelligence artificielle transforme le diagnostic », quel détail présente la situation ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines maladies rares."
-              },
-              {
-                "id": "o2",
-                "text": "Cependant, les chercheurs insistent sur un point : l’outil ne remplace pas la décision médicale."
-              },
-              {
-                "id": "o3",
-                "text": "Les répercussions concernent aussi la vie privée, car ces images contiennent des informations sensibles."
-              },
-              {
-                "id": "o4",
-                "text": "Selon eux, une attitude proactive consiste à tester l’innovation dans des conditions réelles tout en conservant une responsabilité humaine clairement identifiable."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Après « Une équipe européenne vient de présenter un algorithme capable d’aider… », que se passe-t-il ensuite dans « L’intelligence artificielle transforme le diagnostic » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines maladies rares."
-              },
-              {
-                "id": "o2",
-                "text": "Cependant, les chercheurs insistent sur un point : l’outil ne remplace pas la décision médicale."
-              },
-              {
-                "id": "o3",
-                "text": "Les répercussions concernent aussi la vie privée, car ces images contiennent des informations sensibles."
-              },
-              {
-                "id": "o4",
-                "text": "Selon eux, une attitude proactive consiste à tester l’innovation dans des conditions réelles tout en conservant une responsabilité humaine clairement identifiable."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « L’intelligence artificielle transforme le diagnostic » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines maladies rares."
-              },
-              {
-                "id": "o2",
-                "text": "Cependant, les chercheurs insistent sur un point : l’outil ne remplace pas la décision médicale."
-              },
-              {
-                "id": "o3",
-                "text": "Les répercussions concernent aussi la vie privée, car ces images contiennent des informations sensibles."
-              },
-              {
-                "id": "o4",
-                "text": "Selon eux, une attitude proactive consiste à tester l’innovation dans des conditions réelles tout en conservant une responsabilité humaine clairement identifiable."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Quel résultat conclut « L’intelligence artificielle transforme le diagnostic » après « Les répercussions concernent aussi la vie privée, car ces images… » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines maladies rares."
-              },
-              {
-                "id": "o2",
-                "text": "Cependant, les chercheurs insistent sur un point : l’outil ne remplace pas la décision médicale."
-              },
-              {
-                "id": "o3",
-                "text": "Les répercussions concernent aussi la vie privée, car ces images contiennent des informations sensibles."
-              },
-              {
-                "id": "o4",
-                "text": "Selon eux, une attitude proactive consiste à tester l’innovation dans des conditions réelles tout en conservant une responsabilité humaine clairement identifiable."
-              }
-            ]
-          }
-        ]
-      },
-      "grammarTest": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Dans « L’intelligence artificielle transforme le diagnostic », quel détail présente la situation ?",
-        "options": [
-          "Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines maladies rares.",
-          "Cependant, les chercheurs insistent sur un point : l’outil ne remplace pas la décision médicale.",
-          "Les répercussions concernent aussi la vie privée, car ces images contiennent des informations sensibles.",
-          "Selon eux, une attitude proactive consiste à tester l’innovation dans des conditions réelles tout en conservant une responsabilité humaine clairement identifiable."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Après « Une équipe européenne vient de présenter un algorithme capable d’aider… », que se passe-t-il ensuite dans « L’intelligence artificielle transforme le diagnostic » ?",
-        "options": [
-          "Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines maladies rares.",
-          "Cependant, les chercheurs insistent sur un point : l’outil ne remplace pas la décision médicale.",
-          "Les répercussions concernent aussi la vie privée, car ces images contiennent des informations sensibles.",
-          "Selon eux, une attitude proactive consiste à tester l’innovation dans des conditions réelles tout en conservant une responsabilité humaine clairement identifiable."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « L’intelligence artificielle transforme le diagnostic » ?",
-        "options": [
-          "Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines maladies rares.",
-          "Cependant, les chercheurs insistent sur un point : l’outil ne remplace pas la décision médicale.",
-          "Les répercussions concernent aussi la vie privée, car ces images contiennent des informations sensibles.",
-          "Selon eux, une attitude proactive consiste à tester l’innovation dans des conditions réelles tout en conservant une responsabilité humaine clairement identifiable."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel résultat conclut « L’intelligence artificielle transforme le diagnostic » après « Les répercussions concernent aussi la vie privée, car ces images… » ?",
-        "options": [
-          "Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines maladies rares.",
-          "Cependant, les chercheurs insistent sur un point : l’outil ne remplace pas la décision médicale.",
-          "Les répercussions concernent aussi la vie privée, car ces images contiennent des informations sensibles.",
-          "Selon eux, une attitude proactive consiste à tester l’innovation dans des conditions réelles tout en conservant une responsabilité humaine clairement identifiable."
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-langues-pouvoir-et-inclusion-listening",
     "level": "C1",
     "skill": "listening",
@@ -42746,6 +42506,246 @@
     ]
   },
   {
+    "slug": "french-b2-sciences-et-innovations-listening",
+    "level": "B2",
+    "skill": "listening",
+    "unitId": "sciences-et-innovations",
+    "title": "L’intelligence artificielle transforme le diagnostic",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 35,
+    "orderIndex": 81,
+    "estimatedMinutes": 14,
+    "description": "Écoute ce contenu de niveau B2 et identifie les idées, les nuances et les preuves.",
+    "intro": "Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "Dans la mesure où...",
+      "Il est possible que...",
+      "Il faut rester vigilant.",
+      "Tout dépend de..."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines maladies rares. Le système compare des milliers d’images médicales et signale les éléments qui méritent une attention particulière. Il est possible que cette avancée réduise le temps nécessaire au diagnostic, notamment dans les hôpitaux qui manquent de spécialistes. Cependant, les chercheurs insistent sur un point : l’outil ne remplace pas la décision médicale. Étant donné que les données utilisées ne représentent pas toujours toutes les populations, il se peut que les résultats soient moins précis pour certains patients. Les répercussions concernent aussi la vie privée, car ces images contiennent des informations sensibles. Dans la mesure où les hôpitaux souhaitent utiliser cette technologie, ils devront expliquer comment les données sont protégées et permettre un contrôle indépendant. Les médecins interrogés se montrent prudemment optimistes. Selon eux, une attitude proactive consiste à tester l’innovation dans des conditions réelles tout en conservant une responsabilité humaine clairement identifiable.",
+    "extra": {
+      "listeningType": "monologue",
+      "listeningFormat": "news",
+      "storyTitle": "L’intelligence artificielle transforme le diagnostic",
+      "mainTranscript": "Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines maladies rares. Le système compare des milliers d’images médicales et signale les éléments qui méritent une attention particulière. Il est possible que cette avancée réduise le temps nécessaire au diagnostic, notamment dans les hôpitaux qui manquent de spécialistes. Cependant, les chercheurs insistent sur un point : l’outil ne remplace pas la décision médicale. Étant donné que les données utilisées ne représentent pas toujours toutes les populations, il se peut que les résultats soient moins précis pour certains patients. Les répercussions concernent aussi la vie privée, car ces images contiennent des informations sensibles. Dans la mesure où les hôpitaux souhaitent utiliser cette technologie, ils devront expliquer comment les données sont protégées et permettre un contrôle indépendant. Les médecins interrogés se montrent prudemment optimistes. Selon eux, une attitude proactive consiste à tester l’innovation dans des conditions réelles tout en conservant une responsabilité humaine clairement identifiable.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines maladies rares."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Le système compare des milliers d’images médicales et signale les éléments qui méritent une attention particulière."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Il est possible que cette avancée réduise le temps nécessaire au diagnostic, notamment dans les hôpitaux qui manquent de spécialistes."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "Cependant, les chercheurs insistent sur un point : l’outil ne remplace pas la décision médicale."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Étant donné que les données utilisées ne représentent pas toujours toutes les populations, il se peut que les résultats soient moins précis pour certains patients."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Les répercussions concernent aussi la vie privée, car ces images contiennent des informations sensibles."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Dans la mesure où les hôpitaux souhaitent utiliser cette technologie, ils devront expliquer comment les données sont protégées et permettre un contrôle indépendant."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Les médecins interrogés se montrent prudemment optimistes."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Selon eux, une attitude proactive consiste à tester l’innovation dans des conditions réelles tout en conservant une responsabilité humaine clairement identifiable."
+        }
+      ],
+      "difficulty": "B2",
+      "durationSeconds": 85,
+      "speakers": [
+        "Animatrice",
+        "Invité"
+      ],
+      "phoneticSupport": {
+        "enabled": true,
+        "locale": "fr-FR",
+        "focus": "Marque les groupes rythmiques et les mots de contraste. Fais entendre la différence entre une affirmation ferme et une conclusion nuancée.",
+        "segments": [],
+        "stressedWords": [
+          "établi",
+          "inférer",
+          "objection",
+          "réviser"
+        ],
+        "difficultSounds": [],
+        "reviewStatus": "verified"
+      },
+      "listeningComprehension": {
+        "id": "french-b2-sciences-et-innovations-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Dans « L’intelligence artificielle transforme le diagnostic », quel détail présente la situation ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines maladies rares."
+              },
+              {
+                "id": "o2",
+                "text": "Cependant, les chercheurs insistent sur un point : l’outil ne remplace pas la décision médicale."
+              },
+              {
+                "id": "o3",
+                "text": "Les répercussions concernent aussi la vie privée, car ces images contiennent des informations sensibles."
+              },
+              {
+                "id": "o4",
+                "text": "Selon eux, une attitude proactive consiste à tester l’innovation dans des conditions réelles tout en conservant une responsabilité humaine clairement identifiable."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Après « Une équipe européenne vient de présenter un algorithme capable d’aider… », que se passe-t-il ensuite dans « L’intelligence artificielle transforme le diagnostic » ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines maladies rares."
+              },
+              {
+                "id": "o2",
+                "text": "Cependant, les chercheurs insistent sur un point : l’outil ne remplace pas la décision médicale."
+              },
+              {
+                "id": "o3",
+                "text": "Les répercussions concernent aussi la vie privée, car ces images contiennent des informations sensibles."
+              },
+              {
+                "id": "o4",
+                "text": "Selon eux, une attitude proactive consiste à tester l’innovation dans des conditions réelles tout en conservant une responsabilité humaine clairement identifiable."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « L’intelligence artificielle transforme le diagnostic » ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines maladies rares."
+              },
+              {
+                "id": "o2",
+                "text": "Cependant, les chercheurs insistent sur un point : l’outil ne remplace pas la décision médicale."
+              },
+              {
+                "id": "o3",
+                "text": "Les répercussions concernent aussi la vie privée, car ces images contiennent des informations sensibles."
+              },
+              {
+                "id": "o4",
+                "text": "Selon eux, une attitude proactive consiste à tester l’innovation dans des conditions réelles tout en conservant une responsabilité humaine clairement identifiable."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quel résultat conclut « L’intelligence artificielle transforme le diagnostic » après « Les répercussions concernent aussi la vie privée, car ces images… » ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines maladies rares."
+              },
+              {
+                "id": "o2",
+                "text": "Cependant, les chercheurs insistent sur un point : l’outil ne remplace pas la décision médicale."
+              },
+              {
+                "id": "o3",
+                "text": "Les répercussions concernent aussi la vie privée, car ces images contiennent des informations sensibles."
+              },
+              {
+                "id": "o4",
+                "text": "Selon eux, une attitude proactive consiste à tester l’innovation dans des conditions réelles tout en conservant une responsabilité humaine clairement identifiable."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Dans « L’intelligence artificielle transforme le diagnostic », quel détail présente la situation ?",
+        "options": [
+          "Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines maladies rares.",
+          "Cependant, les chercheurs insistent sur un point : l’outil ne remplace pas la décision médicale.",
+          "Les répercussions concernent aussi la vie privée, car ces images contiennent des informations sensibles.",
+          "Selon eux, une attitude proactive consiste à tester l’innovation dans des conditions réelles tout en conservant une responsabilité humaine clairement identifiable."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Après « Une équipe européenne vient de présenter un algorithme capable d’aider… », que se passe-t-il ensuite dans « L’intelligence artificielle transforme le diagnostic » ?",
+        "options": [
+          "Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines maladies rares.",
+          "Cependant, les chercheurs insistent sur un point : l’outil ne remplace pas la décision médicale.",
+          "Les répercussions concernent aussi la vie privée, car ces images contiennent des informations sensibles.",
+          "Selon eux, une attitude proactive consiste à tester l’innovation dans des conditions réelles tout en conservant une responsabilité humaine clairement identifiable."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « L’intelligence artificielle transforme le diagnostic » ?",
+        "options": [
+          "Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines maladies rares.",
+          "Cependant, les chercheurs insistent sur un point : l’outil ne remplace pas la décision médicale.",
+          "Les répercussions concernent aussi la vie privée, car ces images contiennent des informations sensibles.",
+          "Selon eux, une attitude proactive consiste à tester l’innovation dans des conditions réelles tout en conservant une responsabilité humaine clairement identifiable."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quel résultat conclut « L’intelligence artificielle transforme le diagnostic » après « Les répercussions concernent aussi la vie privée, car ces images… » ?",
+        "options": [
+          "Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines maladies rares.",
+          "Cependant, les chercheurs insistent sur un point : l’outil ne remplace pas la décision médicale.",
+          "Les répercussions concernent aussi la vie privée, car ces images contiennent des informations sensibles.",
+          "Selon eux, une attitude proactive consiste à tester l’innovation dans des conditions réelles tout en conservant une responsabilité humaine clairement identifiable."
+        ]
+      }
+    ]
+  },
+  {
     "slug": "french-a1-chez-moi-speaking",
     "level": "A1",
     "skill": "speaking",
@@ -42881,67 +42881,6 @@
       {
         "type": "practice",
         "prompt": "Avec un/une camarade, préparez une courte présentation pour convaincre la direction de votre école."
-      }
-    ]
-  },
-  {
-    "slug": "french-b2-sciences-et-innovations-speaking",
-    "level": "B2",
-    "skill": "speaking",
-    "unitId": "sciences-et-innovations",
-    "title": "Discuter d’une innovation",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 82,
-    "estimatedMinutes": 14,
-    "description": "Présente une innovation scientifique ou technologique avec des avantages et des risques.",
-    "intro": "Présente une innovation scientifique ou technologique avec des avantages et des risques.",
-    "mission": "Présente une innovation scientifique ou technologique de ton choix, avec au moins une expression d’incertitude (il est possible que, il se peut que).",
-    "grammar": "",
-    "phrases": [
-      "Étant donné que...",
-      "Il est possible que...",
-      "Il se peut que...",
-      "Dans la mesure où..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Toi",
-        "line": "Étant donné que cette technologie évolue rapidement, il est possible qu’elle transforme complètement notre façon de travailler.",
-        "translation": "Dado que esta tecnología evoluciona rápidamente, es posible que transforme completamente nuestra forma de trabajar."
-      }
-    ],
-    "reading": null,
-    "transcript": "Toi : Étant donné que cette technologie évolue rapidement, il est possible qu’elle transforme complètement notre façon de travailler.",
-    "extra": {
-      "communicationGuide": {
-        "steps": [
-          "Enregistre une première réponse sans lire un texte complet.",
-          "Utilise la transcription vocale pour vérifier ce qui a été compris.",
-          "Demande au Tuteur IA un retour sur la clarté, les preuves et le registre.",
-          "Enregistre une seconde version et compare fluidité et prononciation."
-        ],
-        "premiumMode": "Conversation libre avec le Tuteur IA",
-        "pronunciationTargets": [
-          "groupes rythmiques",
-          "mise en relief",
-          "enchaînements",
-          "intonation nuancée"
-        ]
-      },
-      "grammarTest": null,
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Présente une innovation scientifique ou technologique, avec au moins une expression de probabilité/incertitude."
-      },
-      {
-        "type": "practice",
-        "prompt": "Avec un/une camarade, débattez des avantages et des risques d’une technologie de votre choix."
       }
     ]
   },
@@ -43096,6 +43035,67 @@
     ]
   },
   {
+    "slug": "french-b2-sciences-et-innovations-speaking",
+    "level": "B2",
+    "skill": "speaking",
+    "unitId": "sciences-et-innovations",
+    "title": "Discuter d’une innovation",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 82,
+    "estimatedMinutes": 14,
+    "description": "Présente une innovation scientifique ou technologique avec des avantages et des risques.",
+    "intro": "Présente une innovation scientifique ou technologique avec des avantages et des risques.",
+    "mission": "Présente une innovation scientifique ou technologique de ton choix, avec au moins une expression d’incertitude (il est possible que, il se peut que).",
+    "grammar": "",
+    "phrases": [
+      "Étant donné que...",
+      "Il est possible que...",
+      "Il se peut que...",
+      "Dans la mesure où..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Toi",
+        "line": "Étant donné que cette technologie évolue rapidement, il est possible qu’elle transforme complètement notre façon de travailler.",
+        "translation": "Dado que esta tecnología evoluciona rápidamente, es posible que transforme completamente nuestra forma de trabajar."
+      }
+    ],
+    "reading": null,
+    "transcript": "Toi : Étant donné que cette technologie évolue rapidement, il est possible qu’elle transforme complètement notre façon de travailler.",
+    "extra": {
+      "communicationGuide": {
+        "steps": [
+          "Enregistre une première réponse sans lire un texte complet.",
+          "Utilise la transcription vocale pour vérifier ce qui a été compris.",
+          "Demande au Tuteur IA un retour sur la clarté, les preuves et le registre.",
+          "Enregistre une seconde version et compare fluidité et prononciation."
+        ],
+        "premiumMode": "Conversation libre avec le Tuteur IA",
+        "pronunciationTargets": [
+          "groupes rythmiques",
+          "mise en relief",
+          "enchaînements",
+          "intonation nuancée"
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Présente une innovation scientifique ou technologique, avec au moins une expression de probabilité/incertitude."
+      },
+      {
+        "type": "practice",
+        "prompt": "Avec un/une camarade, débattez des avantages et des risques d’une technologie de votre choix."
+      }
+    ]
+  },
+  {
     "slug": "french-a1-chez-moi-writing",
     "level": "A1",
     "skill": "writing",
@@ -43212,64 +43212,6 @@
     ]
   },
   {
-    "slug": "french-b2-sciences-et-innovations-writing",
-    "level": "B2",
-    "skill": "writing",
-    "unitId": "sciences-et-innovations",
-    "title": "Une réflexion sur la technologie",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 35,
-    "orderIndex": 83,
-    "estimatedMinutes": 18,
-    "description": "Écris une réflexion nuancée sur une innovation technologique.",
-    "intro": "Écris une réflexion nuancée sur une innovation technologique.",
-    "mission": "Écris 200 à 250 mots présentant une innovation technologique, ses avantages, ses risques potentiels, et ta propre position nuancée.",
-    "grammar": "",
-    "phrases": [
-      "Étant donné que...",
-      "Il est possible que...",
-      "Dans la mesure où...",
-      "Il faut rester vigilant quant à..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Modèle",
-        "line": "Étant donné que l’intelligence artificielle continue de progresser rapidement, il est possible qu’elle transforme profondément le marché du travail. Dans la mesure où elle reste contrôlée par des humains responsables, elle peut néanmoins apporter de réels bénéfices à la société.",
-        "translation": "Dado que la inteligencia artificial sigue progresando rápidamente, es posible que transforme profundamente el mercado laboral. En la medida en que siga siendo controlada por humanos responsables, puede sin embargo aportar reales beneficios a la sociedad."
-      }
-    ],
-    "reading": null,
-    "transcript": "Modèle : Étant donné que l’intelligence artificielle continue de progresser rapidement, il est possible qu’elle transforme profondément le marché du travail. Dans la mesure où elle reste contrôlée par des humains responsables, elle peut néanmoins apporter de réels bénéfices à la société.",
-    "extra": {
-      "writingGuide": {
-        "taskType": "texte argumentatif structuré",
-        "steps": [
-          "Délimite la question et rédige une thèse en une phrase.",
-          "Choisis deux preuves ou exemples et explique leur pertinence.",
-          "Présente loyalement l’objection la plus solide.",
-          "Réponds sans exagérer la portée des preuves.",
-          "Révise la cohésion, la grammaire, le registre et la conclusion."
-        ],
-        "checklist": [
-          "Utilise au moins deux termes de l’unité : l’intelligence artificielle, un algorithme, une avancée.",
-          "Emploie correctement subjonctif d’incertitude (il est possible que, il se peut que) au moins une fois.",
-          "Distingue preuve, inférence et jugement.",
-          "Vérifie les liens entre les paragraphes et supprime les affirmations absolues non justifiées."
-        ]
-      },
-      "grammarTest": null,
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "writing",
-        "prompt": "Écris 200 à 250 mots sur une innovation technologique, avec au moins un connecteur de cause avancé et une expression d’incertitude."
-      }
-    ]
-  },
-  {
     "slug": "french-c1-langues-pouvoir-et-inclusion-writing",
     "level": "C1",
     "skill": "writing",
@@ -43382,6 +43324,64 @@
       {
         "type": "writing",
         "prompt": "Rédige 300–350 mots. Avant l’envoi, vérifie la présence d’une thèse, de deux arguments développés, d’une objection et d’une conclusion nuancée."
+      }
+    ]
+  },
+  {
+    "slug": "french-b2-sciences-et-innovations-writing",
+    "level": "B2",
+    "skill": "writing",
+    "unitId": "sciences-et-innovations",
+    "title": "Une réflexion sur la technologie",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 35,
+    "orderIndex": 83,
+    "estimatedMinutes": 18,
+    "description": "Écris une réflexion nuancée sur une innovation technologique.",
+    "intro": "Écris une réflexion nuancée sur une innovation technologique.",
+    "mission": "Écris 200 à 250 mots présentant une innovation technologique, ses avantages, ses risques potentiels, et ta propre position nuancée.",
+    "grammar": "",
+    "phrases": [
+      "Étant donné que...",
+      "Il est possible que...",
+      "Dans la mesure où...",
+      "Il faut rester vigilant quant à..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Modèle",
+        "line": "Étant donné que l’intelligence artificielle continue de progresser rapidement, il est possible qu’elle transforme profondément le marché du travail. Dans la mesure où elle reste contrôlée par des humains responsables, elle peut néanmoins apporter de réels bénéfices à la société.",
+        "translation": "Dado que la inteligencia artificial sigue progresando rápidamente, es posible que transforme profundamente el mercado laboral. En la medida en que siga siendo controlada por humanos responsables, puede sin embargo aportar reales beneficios a la sociedad."
+      }
+    ],
+    "reading": null,
+    "transcript": "Modèle : Étant donné que l’intelligence artificielle continue de progresser rapidement, il est possible qu’elle transforme profondément le marché du travail. Dans la mesure où elle reste contrôlée par des humains responsables, elle peut néanmoins apporter de réels bénéfices à la société.",
+    "extra": {
+      "writingGuide": {
+        "taskType": "texte argumentatif structuré",
+        "steps": [
+          "Délimite la question et rédige une thèse en une phrase.",
+          "Choisis deux preuves ou exemples et explique leur pertinence.",
+          "Présente loyalement l’objection la plus solide.",
+          "Réponds sans exagérer la portée des preuves.",
+          "Révise la cohésion, la grammaire, le registre et la conclusion."
+        ],
+        "checklist": [
+          "Utilise au moins deux termes de l’unité : l’intelligence artificielle, un algorithme, une avancée.",
+          "Emploie correctement subjonctif d’incertitude (il est possible que, il se peut que) au moins une fois.",
+          "Distingue preuve, inférence et jugement.",
+          "Vérifie les liens entre les paragraphes et supprime les affirmations absolues non justifiées."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Écris 200 à 250 mots sur une innovation technologique, avec au moins un connecteur de cause avancé et une expression d’incertitude."
       }
     ]
   },
@@ -44228,287 +44228,6 @@
     ]
   },
   {
-    "slug": "french-b2-sciences-et-innovations-grammar",
-    "level": "B2",
-    "skill": "grammar",
-    "unitId": "sciences-et-innovations",
-    "title": "Le subjonctif d’incertitude et les connecteurs de cause avancés",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 84,
-    "estimatedMinutes": 14,
-    "description": "Exprimer une incertitude scientifique et utiliser étant donné que/dans la mesure où.",
-    "intro": "Exprimer une incertitude scientifique et utiliser étant donné que/dans la mesure où.",
-    "mission": "",
-    "grammar": "« Il est possible que » et « il se peut que » introduisent le subjonctif pour exprimer une incertitude : « Il se peut que ce métier disparaisse. » « Étant donné que » et « dans la mesure où » introduisent une cause, suivies de l’indicatif : « Étant donné que la technologie évolue vite, il faut s’adapter. »",
-    "phrases": [
-      "Il est possible que...",
-      "Il se peut que...",
-      "Étant donné que...",
-      "Dans la mesure où..."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "grammarTest": {
-        "id": "french-b2-sciences-et-innovations-grammar-test",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "french-b2-sciences-et-innovations-grammar-q1",
-            "type": "mcq",
-            "prompt": "Il se peut que certains métiers ___ dans le futur.",
-            "difficulty": "application",
-            "options": [
-              {
-                "id": "a",
-                "text": "disparaissent"
-              },
-              {
-                "id": "b",
-                "text": "disparaissent"
-              },
-              {
-                "id": "c",
-                "text": "disparaîtront"
-              },
-              {
-                "id": "d",
-                "text": "disparaissaient"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-sciences-et-innovations-grammar-q2",
-            "type": "mcq",
-            "prompt": "___ cette technologie évolue rapidement, il faut rester informé.",
-            "difficulty": "application",
-            "options": [
-              {
-                "id": "b",
-                "text": "Bien que"
-              },
-              {
-                "id": "a",
-                "text": "Étant donné que"
-              },
-              {
-                "id": "c",
-                "text": "Pour que"
-              },
-              {
-                "id": "d",
-                "text": "Sans que"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-sciences-et-innovations-grammar-q3",
-            "type": "mcq",
-            "prompt": "Il est possible que tu ___ raison sur ce point.",
-            "difficulty": "analysis",
-            "options": [
-              {
-                "id": "a",
-                "text": "as"
-              },
-              {
-                "id": "c",
-                "text": "auras"
-              },
-              {
-                "id": "b",
-                "text": "aies"
-              },
-              {
-                "id": "d",
-                "text": "avais"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-sciences-et-innovations-grammar-q4",
-            "type": "mcq",
-            "prompt": "Quelle expression introduit l’indicatif, pas le subjonctif ?",
-            "difficulty": "analysis",
-            "options": [
-              {
-                "id": "a",
-                "text": "Il est possible que"
-              },
-              {
-                "id": "b",
-                "text": "Il se peut que"
-              },
-              {
-                "id": "d",
-                "text": "Il n’est pas certain que"
-              },
-              {
-                "id": "c",
-                "text": "Dans la mesure où"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-sciences-et-innovations-grammar-q5",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Il se peut que certains métiers disparaissent dans le futur. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Il se peut que certains métiers disparaissent dans le futur."
-              },
-              {
-                "id": "b",
-                "text": "Il se peut que certains métiers disparaissent dans le futur."
-              },
-              {
-                "id": "c",
-                "text": "Il se peut que certains métiers disparaîtront dans le futur."
-              },
-              {
-                "id": "d",
-                "text": "Il se peut que certains métiers disparaissaient dans le futur."
-              }
-            ]
-          },
-          {
-            "id": "french-b2-sciences-et-innovations-grammar-q6",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Bien que cette technologie évolue rapidement, il faut rester informé. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "b",
-                "text": "Bien que cette technologie évolue rapidement, il faut rester informé."
-              },
-              {
-                "id": "a",
-                "text": "Étant donné que cette technologie évolue rapidement, il faut rester informé."
-              },
-              {
-                "id": "c",
-                "text": "Pour que cette technologie évolue rapidement, il faut rester informé."
-              },
-              {
-                "id": "d",
-                "text": "Sans que cette technologie évolue rapidement, il faut rester informé."
-              }
-            ]
-          },
-          {
-            "id": "french-b2-sciences-et-innovations-grammar-q7",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Il est possible que tu as raison sur ce point. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Il est possible que tu as raison sur ce point."
-              },
-              {
-                "id": "c",
-                "text": "Il est possible que tu auras raison sur ce point."
-              },
-              {
-                "id": "b",
-                "text": "Il est possible que tu aies raison sur ce point."
-              },
-              {
-                "id": "d",
-                "text": "Il est possible que tu avais raison sur ce point."
-              }
-            ]
-          },
-          {
-            "id": "french-b2-sciences-et-innovations-grammar-q8",
-            "type": "mcq",
-            "prompt": "Quelle réponse corrige l’erreur « Il est possible que » dans ce contexte : « Quelle expression introduit l’indicatif, pas le subjonctif ? » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Il est possible que"
-              },
-              {
-                "id": "b",
-                "text": "Il se peut que"
-              },
-              {
-                "id": "d",
-                "text": "Il n’est pas certain que"
-              },
-              {
-                "id": "c",
-                "text": "Dans la mesure où"
-              }
-            ]
-          }
-        ]
-      },
-      "grammarProfile": {
-        "name": "Le subjonctif d’incertitude et les connecteurs de cause avancés",
-        "definition": "« Il est possible que » et « il se peut que » introduisent le subjonctif pour exprimer une incertitude : « Il se peut que ce métier disparaisse. » « Étant donné que » et « dans la mesure où » introduisent une cause, suivies de l’indicatif : « Étant donné que la technologie évolue vite, il faut s’adapter. »",
-        "structure": "Forme à observer : Le subjonctif d’incertitude et les connecteurs de cause avancés. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
-        "function": "Exprimer une incertitude scientifique et utiliser étant donné que/dans la mesure où.",
-        "examples": [
-          "Il se peut que certains métiers disparaissent dans le futur.",
-          "Étant donné que cette technologie évolue rapidement, il faut rester informé.",
-          "Il est possible que tu aies raison sur ce point.",
-          "Dans la mesure où"
-        ]
-      },
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Il se peut que certains métiers ___ dans le futur.",
-        "options": [
-          "disparaissent",
-          "disparaissent",
-          "disparaîtront",
-          "disparaissaient"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "___ cette technologie évolue rapidement, il faut rester informé.",
-        "options": [
-          "Étant donné que",
-          "Bien que",
-          "Pour que",
-          "Sans que"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Il est possible que tu ___ raison sur ce point.",
-        "options": [
-          "as",
-          "aies",
-          "auras",
-          "avais"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle expression introduit l’indicatif, pas le subjonctif ?",
-        "options": [
-          "Il est possible que",
-          "Il se peut que",
-          "Dans la mesure où",
-          "Il n’est pas certain que"
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-langues-pouvoir-et-inclusion-grammar",
     "level": "C1",
     "skill": "grammar",
@@ -45164,6 +44883,287 @@
     ]
   },
   {
+    "slug": "french-b2-sciences-et-innovations-grammar",
+    "level": "B2",
+    "skill": "grammar",
+    "unitId": "sciences-et-innovations",
+    "title": "Le subjonctif d’incertitude et les connecteurs de cause avancés",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 84,
+    "estimatedMinutes": 14,
+    "description": "Exprimer une incertitude scientifique et utiliser étant donné que/dans la mesure où.",
+    "intro": "Exprimer une incertitude scientifique et utiliser étant donné que/dans la mesure où.",
+    "mission": "",
+    "grammar": "« Il est possible que » et « il se peut que » introduisent le subjonctif pour exprimer une incertitude : « Il se peut que ce métier disparaisse. » « Étant donné que » et « dans la mesure où » introduisent une cause, suivies de l’indicatif : « Étant donné que la technologie évolue vite, il faut s’adapter. »",
+    "phrases": [
+      "Il est possible que...",
+      "Il se peut que...",
+      "Étant donné que...",
+      "Dans la mesure où..."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": {
+      "grammarTest": {
+        "id": "french-b2-sciences-et-innovations-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "french-b2-sciences-et-innovations-grammar-q1",
+            "type": "mcq",
+            "prompt": "Il se peut que certains métiers ___ dans le futur.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "disparaissent"
+              },
+              {
+                "id": "b",
+                "text": "disparaissent"
+              },
+              {
+                "id": "c",
+                "text": "disparaîtront"
+              },
+              {
+                "id": "d",
+                "text": "disparaissaient"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-sciences-et-innovations-grammar-q2",
+            "type": "mcq",
+            "prompt": "___ cette technologie évolue rapidement, il faut rester informé.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "b",
+                "text": "Bien que"
+              },
+              {
+                "id": "a",
+                "text": "Étant donné que"
+              },
+              {
+                "id": "c",
+                "text": "Pour que"
+              },
+              {
+                "id": "d",
+                "text": "Sans que"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-sciences-et-innovations-grammar-q3",
+            "type": "mcq",
+            "prompt": "Il est possible que tu ___ raison sur ce point.",
+            "difficulty": "analysis",
+            "options": [
+              {
+                "id": "a",
+                "text": "as"
+              },
+              {
+                "id": "c",
+                "text": "auras"
+              },
+              {
+                "id": "b",
+                "text": "aies"
+              },
+              {
+                "id": "d",
+                "text": "avais"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-sciences-et-innovations-grammar-q4",
+            "type": "mcq",
+            "prompt": "Quelle expression introduit l’indicatif, pas le subjonctif ?",
+            "difficulty": "analysis",
+            "options": [
+              {
+                "id": "a",
+                "text": "Il est possible que"
+              },
+              {
+                "id": "b",
+                "text": "Il se peut que"
+              },
+              {
+                "id": "d",
+                "text": "Il n’est pas certain que"
+              },
+              {
+                "id": "c",
+                "text": "Dans la mesure où"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-sciences-et-innovations-grammar-q5",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Il se peut que certains métiers disparaissent dans le futur. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Il se peut que certains métiers disparaissent dans le futur."
+              },
+              {
+                "id": "b",
+                "text": "Il se peut que certains métiers disparaissent dans le futur."
+              },
+              {
+                "id": "c",
+                "text": "Il se peut que certains métiers disparaîtront dans le futur."
+              },
+              {
+                "id": "d",
+                "text": "Il se peut que certains métiers disparaissaient dans le futur."
+              }
+            ]
+          },
+          {
+            "id": "french-b2-sciences-et-innovations-grammar-q6",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Bien que cette technologie évolue rapidement, il faut rester informé. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "b",
+                "text": "Bien que cette technologie évolue rapidement, il faut rester informé."
+              },
+              {
+                "id": "a",
+                "text": "Étant donné que cette technologie évolue rapidement, il faut rester informé."
+              },
+              {
+                "id": "c",
+                "text": "Pour que cette technologie évolue rapidement, il faut rester informé."
+              },
+              {
+                "id": "d",
+                "text": "Sans que cette technologie évolue rapidement, il faut rester informé."
+              }
+            ]
+          },
+          {
+            "id": "french-b2-sciences-et-innovations-grammar-q7",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Il est possible que tu as raison sur ce point. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Il est possible que tu as raison sur ce point."
+              },
+              {
+                "id": "c",
+                "text": "Il est possible que tu auras raison sur ce point."
+              },
+              {
+                "id": "b",
+                "text": "Il est possible que tu aies raison sur ce point."
+              },
+              {
+                "id": "d",
+                "text": "Il est possible que tu avais raison sur ce point."
+              }
+            ]
+          },
+          {
+            "id": "french-b2-sciences-et-innovations-grammar-q8",
+            "type": "mcq",
+            "prompt": "Quelle réponse corrige l’erreur « Il est possible que » dans ce contexte : « Quelle expression introduit l’indicatif, pas le subjonctif ? » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Il est possible que"
+              },
+              {
+                "id": "b",
+                "text": "Il se peut que"
+              },
+              {
+                "id": "d",
+                "text": "Il n’est pas certain que"
+              },
+              {
+                "id": "c",
+                "text": "Dans la mesure où"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Le subjonctif d’incertitude et les connecteurs de cause avancés",
+        "definition": "« Il est possible que » et « il se peut que » introduisent le subjonctif pour exprimer une incertitude : « Il se peut que ce métier disparaisse. » « Étant donné que » et « dans la mesure où » introduisent une cause, suivies de l’indicatif : « Étant donné que la technologie évolue vite, il faut s’adapter. »",
+        "structure": "Forme à observer : Le subjonctif d’incertitude et les connecteurs de cause avancés. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Exprimer une incertitude scientifique et utiliser étant donné que/dans la mesure où.",
+        "examples": [
+          "Il se peut que certains métiers disparaissent dans le futur.",
+          "Étant donné que cette technologie évolue rapidement, il faut rester informé.",
+          "Il est possible que tu aies raison sur ce point.",
+          "Dans la mesure où"
+        ]
+      },
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Il se peut que certains métiers ___ dans le futur.",
+        "options": [
+          "disparaissent",
+          "disparaissent",
+          "disparaîtront",
+          "disparaissaient"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "___ cette technologie évolue rapidement, il faut rester informé.",
+        "options": [
+          "Étant donné que",
+          "Bien que",
+          "Pour que",
+          "Sans que"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Il est possible que tu ___ raison sur ce point.",
+        "options": [
+          "as",
+          "aies",
+          "auras",
+          "avais"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle expression introduit l’indicatif, pas le subjonctif ?",
+        "options": [
+          "Il est possible que",
+          "Il se peut que",
+          "Dans la mesure où",
+          "Il n’est pas certain que"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "french-a1-chez-moi-vocabulary",
     "level": "A1",
     "skill": "vocabulary",
@@ -45439,86 +45439,6 @@
           "Los recursos",
           "Los productos",
           "Los envases"
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "french-b2-sciences-et-innovations-vocabulary",
-    "level": "B2",
-    "skill": "vocabulary",
-    "unitId": "sciences-et-innovations",
-    "title": "Le vocabulaire des sciences et innovations",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 85,
-    "estimatedMinutes": 10,
-    "description": "Le vocabulaire essentiel pour discuter de sciences et de technologie.",
-    "intro": "Le vocabulaire essentiel pour discuter de sciences et de technologie.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [
-      {
-        "word": "l’intelligence artificielle",
-        "translation": "la inteligencia artificial",
-        "example": "L’intelligence artificielle progresse très rapidement."
-      },
-      {
-        "word": "un algorithme",
-        "translation": "un algoritmo",
-        "example": "Cet algorithme apprend à partir de données."
-      },
-      {
-        "word": "une avancée",
-        "translation": "un avance",
-        "example": "C’est une avancée importante pour la médecine."
-      },
-      {
-        "word": "les répercussions",
-        "translation": "las repercusiones",
-        "example": "Quelles seront les répercussions sur le marché du travail ?"
-      },
-      {
-        "word": "proactif / proactive",
-        "translation": "proactivo/a",
-        "example": "Elle adopte une attitude proactive face au changement."
-      }
-    ],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « les répercussions » ?",
-        "options": [
-          "Las repercusiones",
-          "Los algoritmos",
-          "Las máquinas",
-          "Los datos"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « une avancée » ?",
-        "options": [
-          "Un avance",
-          "Un retraso",
-          "Un error",
-          "Un fracaso"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « proactif » ?",
-        "options": [
-          "Proactivo",
-          "Pasivo",
-          "Indiferente",
-          "Confundido"
         ]
       }
     ]
@@ -46014,6 +45934,86 @@
           "dans une direction opposée à une idée ou à une tendance dominante"
         ],
         "explanation": "« à rebours de » désigne dans une direction opposée à une idée ou à une tendance dominante."
+      }
+    ]
+  },
+  {
+    "slug": "french-b2-sciences-et-innovations-vocabulary",
+    "level": "B2",
+    "skill": "vocabulary",
+    "unitId": "sciences-et-innovations",
+    "title": "Le vocabulaire des sciences et innovations",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 85,
+    "estimatedMinutes": 10,
+    "description": "Le vocabulaire essentiel pour discuter de sciences et de technologie.",
+    "intro": "Le vocabulaire essentiel pour discuter de sciences et de technologie.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "l’intelligence artificielle",
+        "translation": "la inteligencia artificial",
+        "example": "L’intelligence artificielle progresse très rapidement."
+      },
+      {
+        "word": "un algorithme",
+        "translation": "un algoritmo",
+        "example": "Cet algorithme apprend à partir de données."
+      },
+      {
+        "word": "une avancée",
+        "translation": "un avance",
+        "example": "C’est une avancée importante pour la médecine."
+      },
+      {
+        "word": "les répercussions",
+        "translation": "las repercusiones",
+        "example": "Quelles seront les répercussions sur le marché du travail ?"
+      },
+      {
+        "word": "proactif / proactive",
+        "translation": "proactivo/a",
+        "example": "Elle adopte une attitude proactive face au changement."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « les répercussions » ?",
+        "options": [
+          "Las repercusiones",
+          "Los algoritmos",
+          "Las máquinas",
+          "Los datos"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « une avancée » ?",
+        "options": [
+          "Un avance",
+          "Un retraso",
+          "Un error",
+          "Un fracaso"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « proactif » ?",
+        "options": [
+          "Proactivo",
+          "Pasivo",
+          "Indiferente",
+          "Confundido"
+        ]
       }
     ]
   },
@@ -46705,96 +46705,6 @@
     ]
   },
   {
-    "slug": "french-b2-histoire-et-memoire-reading",
-    "level": "B2",
-    "skill": "reading",
-    "unitId": "histoire-et-memoire",
-    "title": "Haïti et la République dominicaine : une île, deux mémoires",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 35,
-    "orderIndex": 90,
-    "estimatedMinutes": 18,
-    "description": "Comment un passé commun et douloureux continue de façonner les relations entre les deux pays qui se partagent Hispaniola.",
-    "intro": "Comment un passé commun et douloureux continue de façonner les relations entre les deux pays qui se partagent Hispaniola.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": {
-      "title": "Haïti et la République dominicaine : une île, deux mémoires",
-      "parts": [
-        "En 1804, Haïti devient la première République noire indépendante de l’histoire, au terme d’une révolution d’esclaves sans équivalent à cette époque. Celle de la partie orientale de l’île, la future République dominicaine, n’aboutira, elle, qu’en 1844, après une période complexe incluant une occupation haïtienne de plus de deux décennies — un épisode que certains récits nationaux dominicains continuent d’évoquer aujourd’hui. Une seule île, Hispaniola, mais deux mémoires collectives que l’histoire a rarement laissées se croiser de façon apaisée.",
-        "L’épisode dont les historiens parlent le plus fréquemment reste le massacre de 1937, celui-là même que le dictateur dominicain Rafael Trujillo avait ordonné près de la frontière et au cours duquel plusieurs milliers de personnes d’origine haïtienne furent tuées. La mémoire officielle dominicaine, celle enseignée pendant des décennies dans les manuels scolaires, a longtemps minimisé cet épisode, celui-ci n’ayant été documenté précisément par les historiens des deux côtés de la frontière que plusieurs décennies plus tard.",
-        "Aujourd’hui encore, cette mémoire douloureuse continue d’influencer les relations bilatérales, notamment sur la question migratoire, alors que plusieurs centaines de milliers de personnes d’origine haïtienne vivent en République dominicaine, parfois depuis plusieurs générations. Des chercheurs en sciences sociales soulignent que l’identité nationale dominicaine s’est en partie construite en opposition à une identité haïtienne perçue comme radicalement différente — un récit, celui-ci, que plusieurs intellectuels dominicains contemporains cherchent désormais à nuancer, voire à remettre en question ouvertement.",
-        "Ce sont ces récits multiples et parfois contradictoires, ceux racontés dans les manuels officiels comme ceux transmis au sein des familles, qui composent la mémoire vivante de cette histoire partagée. Plusieurs initiatives culturelles, organisées conjointement par des universités des deux pays, tentent aujourd’hui de favoriser un dialogue plus ouvert, dans l’espoir qu’une meilleure connaissance mutuelle du passé permette de construire des relations futures moins marquées par le silence."
-      ],
-      "questions": [
-        "En quelle année Haïti a-t-elle obtenu son indépendance, selon le texte ?",
-        "En quelle année la partie orientale de l’île a-t-elle accédé à une indépendance durable, selon le texte ?",
-        "Qui a ordonné le massacre de 1937 mentionné dans le texte ?",
-        "Quand cet épisode a-t-il été documenté précisément par les historiens, selon le texte ?",
-        "Que tentent de faire plusieurs initiatives culturelles récentes, selon la conclusion du texte ?"
-      ],
-      "text": "En 1804, Haïti devient la première République noire indépendante de l’histoire, au terme d’une révolution d’esclaves sans équivalent à cette époque. Celle de la partie orientale de l’île, la future République dominicaine, n’aboutira, elle, qu’en 1844, après une période complexe incluant une occupation haïtienne de plus de deux décennies — un épisode que certains récits nationaux dominicains continuent d’évoquer aujourd’hui. Une seule île, Hispaniola, mais deux mémoires collectives que l’histoire a rarement laissées se croiser de façon apaisée.\n\nL’épisode dont les historiens parlent le plus fréquemment reste le massacre de 1937, celui-là même que le dictateur dominicain Rafael Trujillo avait ordonné près de la frontière et au cours duquel plusieurs milliers de personnes d’origine haïtienne furent tuées. La mémoire officielle dominicaine, celle enseignée pendant des décennies dans les manuels scolaires, a longtemps minimisé cet épisode, celui-ci n’ayant été documenté précisément par les historiens des deux côtés de la frontière que plusieurs décennies plus tard.\n\nAujourd’hui encore, cette mémoire douloureuse continue d’influencer les relations bilatérales, notamment sur la question migratoire, alors que plusieurs centaines de milliers de personnes d’origine haïtienne vivent en République dominicaine, parfois depuis plusieurs générations. Des chercheurs en sciences sociales soulignent que l’identité nationale dominicaine s’est en partie construite en opposition à une identité haïtienne perçue comme radicalement différente — un récit, celui-ci, que plusieurs intellectuels dominicains contemporains cherchent désormais à nuancer, voire à remettre en question ouvertement.\n\nCe sont ces récits multiples et parfois contradictoires, ceux racontés dans les manuels officiels comme ceux transmis au sein des familles, qui composent la mémoire vivante de cette histoire partagée. Plusieurs initiatives culturelles, organisées conjointement par des universités des deux pays, tentent aujourd’hui de favoriser un dialogue plus ouvert, dans l’espoir qu’une meilleure connaissance mutuelle du passé permette de construire des relations futures moins marquées par le silence."
-    },
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "En quelle année Haïti a-t-elle obtenu son indépendance, selon le texte ?",
-        "options": [
-          "1804",
-          "1844",
-          "1937",
-          "1492"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "En quelle année la partie orientale de l’île a-t-elle accédé à une indépendance durable, selon le texte ?",
-        "options": [
-          "1804",
-          "1844",
-          "1937",
-          "1900"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qui a ordonné le massacre de 1937 mentionné dans le texte ?",
-        "options": [
-          "Rafael Trujillo",
-          "Un roi espagnol",
-          "Un gouverneur français",
-          "Un président haïtien"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quand cet épisode a-t-il été documenté précisément par les historiens, selon le texte ?",
-        "options": [
-          "Immédiatement après les faits",
-          "Seulement plusieurs décennies plus tard",
-          "Il ne l’a jamais été",
-          "Dès le dix-neuvième siècle"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que tentent de faire plusieurs initiatives culturelles récentes, selon la conclusion du texte ?",
-        "options": [
-          "Effacer complètement cette histoire",
-          "Favoriser un dialogue historique plus ouvert entre les deux pays",
-          "Empêcher toute recherche sur le sujet",
-          "Réécrire l’histoire de façon unilatérale"
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-science-doute-et-esprit-critique-reading",
     "level": "C1",
     "skill": "reading",
@@ -47015,6 +46925,96 @@
           "L’interdiction de toute migration économique"
         ],
         "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Les frontières peuvent-elles contenir des mouvements structurels ? »."
+      }
+    ]
+  },
+  {
+    "slug": "french-b2-histoire-et-memoire-reading",
+    "level": "B2",
+    "skill": "reading",
+    "unitId": "histoire-et-memoire",
+    "title": "Haïti et la République dominicaine : une île, deux mémoires",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 35,
+    "orderIndex": 90,
+    "estimatedMinutes": 18,
+    "description": "Comment un passé commun et douloureux continue de façonner les relations entre les deux pays qui se partagent Hispaniola.",
+    "intro": "Comment un passé commun et douloureux continue de façonner les relations entre les deux pays qui se partagent Hispaniola.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "Haïti et la République dominicaine : une île, deux mémoires",
+      "parts": [
+        "En 1804, Haïti devient la première République noire indépendante de l’histoire, au terme d’une révolution d’esclaves sans équivalent à cette époque. Celle de la partie orientale de l’île, la future République dominicaine, n’aboutira, elle, qu’en 1844, après une période complexe incluant une occupation haïtienne de plus de deux décennies — un épisode que certains récits nationaux dominicains continuent d’évoquer aujourd’hui. Une seule île, Hispaniola, mais deux mémoires collectives que l’histoire a rarement laissées se croiser de façon apaisée.",
+        "L’épisode dont les historiens parlent le plus fréquemment reste le massacre de 1937, celui-là même que le dictateur dominicain Rafael Trujillo avait ordonné près de la frontière et au cours duquel plusieurs milliers de personnes d’origine haïtienne furent tuées. La mémoire officielle dominicaine, celle enseignée pendant des décennies dans les manuels scolaires, a longtemps minimisé cet épisode, celui-ci n’ayant été documenté précisément par les historiens des deux côtés de la frontière que plusieurs décennies plus tard.",
+        "Aujourd’hui encore, cette mémoire douloureuse continue d’influencer les relations bilatérales, notamment sur la question migratoire, alors que plusieurs centaines de milliers de personnes d’origine haïtienne vivent en République dominicaine, parfois depuis plusieurs générations. Des chercheurs en sciences sociales soulignent que l’identité nationale dominicaine s’est en partie construite en opposition à une identité haïtienne perçue comme radicalement différente — un récit, celui-ci, que plusieurs intellectuels dominicains contemporains cherchent désormais à nuancer, voire à remettre en question ouvertement.",
+        "Ce sont ces récits multiples et parfois contradictoires, ceux racontés dans les manuels officiels comme ceux transmis au sein des familles, qui composent la mémoire vivante de cette histoire partagée. Plusieurs initiatives culturelles, organisées conjointement par des universités des deux pays, tentent aujourd’hui de favoriser un dialogue plus ouvert, dans l’espoir qu’une meilleure connaissance mutuelle du passé permette de construire des relations futures moins marquées par le silence."
+      ],
+      "questions": [
+        "En quelle année Haïti a-t-elle obtenu son indépendance, selon le texte ?",
+        "En quelle année la partie orientale de l’île a-t-elle accédé à une indépendance durable, selon le texte ?",
+        "Qui a ordonné le massacre de 1937 mentionné dans le texte ?",
+        "Quand cet épisode a-t-il été documenté précisément par les historiens, selon le texte ?",
+        "Que tentent de faire plusieurs initiatives culturelles récentes, selon la conclusion du texte ?"
+      ],
+      "text": "En 1804, Haïti devient la première République noire indépendante de l’histoire, au terme d’une révolution d’esclaves sans équivalent à cette époque. Celle de la partie orientale de l’île, la future République dominicaine, n’aboutira, elle, qu’en 1844, après une période complexe incluant une occupation haïtienne de plus de deux décennies — un épisode que certains récits nationaux dominicains continuent d’évoquer aujourd’hui. Une seule île, Hispaniola, mais deux mémoires collectives que l’histoire a rarement laissées se croiser de façon apaisée.\n\nL’épisode dont les historiens parlent le plus fréquemment reste le massacre de 1937, celui-là même que le dictateur dominicain Rafael Trujillo avait ordonné près de la frontière et au cours duquel plusieurs milliers de personnes d’origine haïtienne furent tuées. La mémoire officielle dominicaine, celle enseignée pendant des décennies dans les manuels scolaires, a longtemps minimisé cet épisode, celui-ci n’ayant été documenté précisément par les historiens des deux côtés de la frontière que plusieurs décennies plus tard.\n\nAujourd’hui encore, cette mémoire douloureuse continue d’influencer les relations bilatérales, notamment sur la question migratoire, alors que plusieurs centaines de milliers de personnes d’origine haïtienne vivent en République dominicaine, parfois depuis plusieurs générations. Des chercheurs en sciences sociales soulignent que l’identité nationale dominicaine s’est en partie construite en opposition à une identité haïtienne perçue comme radicalement différente — un récit, celui-ci, que plusieurs intellectuels dominicains contemporains cherchent désormais à nuancer, voire à remettre en question ouvertement.\n\nCe sont ces récits multiples et parfois contradictoires, ceux racontés dans les manuels officiels comme ceux transmis au sein des familles, qui composent la mémoire vivante de cette histoire partagée. Plusieurs initiatives culturelles, organisées conjointement par des universités des deux pays, tentent aujourd’hui de favoriser un dialogue plus ouvert, dans l’espoir qu’une meilleure connaissance mutuelle du passé permette de construire des relations futures moins marquées par le silence."
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "En quelle année Haïti a-t-elle obtenu son indépendance, selon le texte ?",
+        "options": [
+          "1804",
+          "1844",
+          "1937",
+          "1492"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "En quelle année la partie orientale de l’île a-t-elle accédé à une indépendance durable, selon le texte ?",
+        "options": [
+          "1804",
+          "1844",
+          "1937",
+          "1900"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qui a ordonné le massacre de 1937 mentionné dans le texte ?",
+        "options": [
+          "Rafael Trujillo",
+          "Un roi espagnol",
+          "Un gouverneur français",
+          "Un président haïtien"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quand cet épisode a-t-il été documenté précisément par les historiens, selon le texte ?",
+        "options": [
+          "Immédiatement après les faits",
+          "Seulement plusieurs décennies plus tard",
+          "Il ne l’a jamais été",
+          "Dès le dix-neuvième siècle"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que tentent de faire plusieurs initiatives culturelles récentes, selon la conclusion du texte ?",
+        "options": [
+          "Effacer complètement cette histoire",
+          "Favoriser un dialogue historique plus ouvert entre les deux pays",
+          "Empêcher toute recherche sur le sujet",
+          "Réécrire l’histoire de façon unilatérale"
+        ]
       }
     ]
   },
@@ -47750,251 +47750,6 @@
     ]
   },
   {
-    "slug": "french-b2-histoire-et-memoire-listening",
-    "level": "B2",
-    "skill": "listening",
-    "unitId": "histoire-et-memoire",
-    "title": "La voix conservée dans une cassette",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 35,
-    "orderIndex": 91,
-    "estimatedMinutes": 14,
-    "description": "Écoute ce contenu de niveau B2 et identifie les idées, les nuances et les preuves.",
-    "intro": "Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [
-      "Celle dont je me souviens le mieux...",
-      "Raconte-moi, s’il te plaît.",
-      "Elle avait accueilli...",
-      "Merci de me la raconter."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années quatre-vingt. Celle qui attire aujourd’hui l’attention contient le témoignage d’Awa, une commerçante qui racontait l’évolution de son quartier. Les rues qu’elle avait connues n’existent plus toutes, mais sa voix transmet une perspective absente des documents officiels. Elle décrit les fêtes, les difficultés économiques et les réseaux de solidarité auxquels les familles avaient participé. Les archivistes ont nettoyé les bandes et les ont numérisées. Les photographies qu’ils ont retrouvées ont également été restaurées ; celles que les habitants avaient données seront présentées dans une exposition. Ce travail montre que la mémoire collective ne se limite pas aux grands événements. Elle se construit aussi grâce aux récits de personnes ordinaires. En conservant ce témoignage, la ville ne cherche pas à imposer une seule version du passé. Elle permet au contraire de comparer plusieurs points de vue et de transmettre un héritage plus riche aux générations qui n’ont pas connu cette époque.",
-    "extra": {
-      "listeningType": "monologue",
-      "listeningFormat": "documentary",
-      "storyTitle": "La voix conservée dans une cassette",
-      "mainTranscript": "Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années quatre-vingt. Celle qui attire aujourd’hui l’attention contient le témoignage d’Awa, une commerçante qui racontait l’évolution de son quartier. Les rues qu’elle avait connues n’existent plus toutes, mais sa voix transmet une perspective absente des documents officiels. Elle décrit les fêtes, les difficultés économiques et les réseaux de solidarité auxquels les familles avaient participé. Les archivistes ont nettoyé les bandes et les ont numérisées. Les photographies qu’ils ont retrouvées ont également été restaurées ; celles que les habitants avaient données seront présentées dans une exposition. Ce travail montre que la mémoire collective ne se limite pas aux grands événements. Elle se construit aussi grâce aux récits de personnes ordinaires. En conservant ce témoignage, la ville ne cherche pas à imposer une seule version du passé. Elle permet au contraire de comparer plusieurs points de vue et de transmettre un héritage plus riche aux générations qui n’ont pas connu cette époque.",
-      "transcriptSegments": [
-        {
-          "id": "segment-01",
-          "order": 1,
-          "text": "Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années quatre-vingt."
-        },
-        {
-          "id": "segment-02",
-          "order": 2,
-          "text": "Celle qui attire aujourd’hui l’attention contient le témoignage d’Awa, une commerçante qui racontait l’évolution de son quartier."
-        },
-        {
-          "id": "segment-03",
-          "order": 3,
-          "text": "Les rues qu’elle avait connues n’existent plus toutes, mais sa voix transmet une perspective absente des documents officiels."
-        },
-        {
-          "id": "segment-04",
-          "order": 4,
-          "text": "Elle décrit les fêtes, les difficultés économiques et les réseaux de solidarité auxquels les familles avaient participé."
-        },
-        {
-          "id": "segment-05",
-          "order": 5,
-          "text": "Les archivistes ont nettoyé les bandes et les ont numérisées."
-        },
-        {
-          "id": "segment-06",
-          "order": 6,
-          "text": "Les photographies qu’ils ont retrouvées ont également été restaurées ; celles que les habitants avaient données seront présentées dans une exposition."
-        },
-        {
-          "id": "segment-07",
-          "order": 7,
-          "text": "Ce travail montre que la mémoire collective ne se limite pas aux grands événements."
-        },
-        {
-          "id": "segment-08",
-          "order": 8,
-          "text": "Elle se construit aussi grâce aux récits de personnes ordinaires."
-        },
-        {
-          "id": "segment-09",
-          "order": 9,
-          "text": "En conservant ce témoignage, la ville ne cherche pas à imposer une seule version du passé."
-        },
-        {
-          "id": "segment-10",
-          "order": 10,
-          "text": "Elle permet au contraire de comparer plusieurs points de vue et de transmettre un héritage plus riche aux générations qui n’ont pas connu cette époque."
-        }
-      ],
-      "difficulty": "B2",
-      "durationSeconds": 85,
-      "speakers": [
-        "Animatrice",
-        "Invité"
-      ],
-      "phoneticSupport": {
-        "enabled": true,
-        "locale": "fr-FR",
-        "focus": "Marque les groupes rythmiques et les mots de contraste. Fais entendre la différence entre une affirmation ferme et une conclusion nuancée.",
-        "segments": [],
-        "stressedWords": [
-          "établi",
-          "inférer",
-          "objection",
-          "réviser"
-        ],
-        "difficultSounds": [],
-        "reviewStatus": "verified"
-      },
-      "listeningComprehension": {
-        "id": "french-b2-histoire-et-memoire-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Dans « La voix conservée dans une cassette », quel détail présente la situation ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années quatre-vingt."
-              },
-              {
-                "id": "o2",
-                "text": "Elle décrit les fêtes, les difficultés économiques et les réseaux de solidarité auxquels les familles avaient participé."
-              },
-              {
-                "id": "o3",
-                "text": "Ce travail montre que la mémoire collective ne se limite pas aux grands événements."
-              },
-              {
-                "id": "o4",
-                "text": "Elle permet au contraire de comparer plusieurs points de vue et de transmettre un héritage plus riche aux générations qui n’ont pas connu cette époque."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Après « Dans les archives d’une petite ville, une équipe a retrouvé plusieurs… », que se passe-t-il ensuite dans « La voix conservée dans une cassette » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années quatre-vingt."
-              },
-              {
-                "id": "o2",
-                "text": "Elle décrit les fêtes, les difficultés économiques et les réseaux de solidarité auxquels les familles avaient participé."
-              },
-              {
-                "id": "o3",
-                "text": "Ce travail montre que la mémoire collective ne se limite pas aux grands événements."
-              },
-              {
-                "id": "o4",
-                "text": "Elle permet au contraire de comparer plusieurs points de vue et de transmettre un héritage plus riche aux générations qui n’ont pas connu cette époque."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « La voix conservée dans une cassette » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années quatre-vingt."
-              },
-              {
-                "id": "o2",
-                "text": "Elle décrit les fêtes, les difficultés économiques et les réseaux de solidarité auxquels les familles avaient participé."
-              },
-              {
-                "id": "o3",
-                "text": "Ce travail montre que la mémoire collective ne se limite pas aux grands événements."
-              },
-              {
-                "id": "o4",
-                "text": "Elle permet au contraire de comparer plusieurs points de vue et de transmettre un héritage plus riche aux générations qui n’ont pas connu cette époque."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Quel résultat conclut « La voix conservée dans une cassette » après « Ce travail montre que la mémoire collective ne se limite pas aux… » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années quatre-vingt."
-              },
-              {
-                "id": "o2",
-                "text": "Elle décrit les fêtes, les difficultés économiques et les réseaux de solidarité auxquels les familles avaient participé."
-              },
-              {
-                "id": "o3",
-                "text": "Ce travail montre que la mémoire collective ne se limite pas aux grands événements."
-              },
-              {
-                "id": "o4",
-                "text": "Elle permet au contraire de comparer plusieurs points de vue et de transmettre un héritage plus riche aux générations qui n’ont pas connu cette époque."
-              }
-            ]
-          }
-        ]
-      },
-      "grammarTest": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Dans « La voix conservée dans une cassette », quel détail présente la situation ?",
-        "options": [
-          "Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années quatre-vingt.",
-          "Elle décrit les fêtes, les difficultés économiques et les réseaux de solidarité auxquels les familles avaient participé.",
-          "Ce travail montre que la mémoire collective ne se limite pas aux grands événements.",
-          "Elle permet au contraire de comparer plusieurs points de vue et de transmettre un héritage plus riche aux générations qui n’ont pas connu cette époque."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Après « Dans les archives d’une petite ville, une équipe a retrouvé plusieurs… », que se passe-t-il ensuite dans « La voix conservée dans une cassette » ?",
-        "options": [
-          "Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années quatre-vingt.",
-          "Elle décrit les fêtes, les difficultés économiques et les réseaux de solidarité auxquels les familles avaient participé.",
-          "Ce travail montre que la mémoire collective ne se limite pas aux grands événements.",
-          "Elle permet au contraire de comparer plusieurs points de vue et de transmettre un héritage plus riche aux générations qui n’ont pas connu cette époque."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « La voix conservée dans une cassette » ?",
-        "options": [
-          "Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années quatre-vingt.",
-          "Elle décrit les fêtes, les difficultés économiques et les réseaux de solidarité auxquels les familles avaient participé.",
-          "Ce travail montre que la mémoire collective ne se limite pas aux grands événements.",
-          "Elle permet au contraire de comparer plusieurs points de vue et de transmettre un héritage plus riche aux générations qui n’ont pas connu cette époque."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel résultat conclut « La voix conservée dans une cassette » après « Ce travail montre que la mémoire collective ne se limite pas aux… » ?",
-        "options": [
-          "Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années quatre-vingt.",
-          "Elle décrit les fêtes, les difficultés économiques et les réseaux de solidarité auxquels les familles avaient participé.",
-          "Ce travail montre que la mémoire collective ne se limite pas aux grands événements.",
-          "Elle permet au contraire de comparer plusieurs points de vue et de transmettre un héritage plus riche aux générations qui n’ont pas connu cette époque."
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-science-doute-et-esprit-critique-listening",
     "level": "C1",
     "skill": "listening",
@@ -48517,6 +48272,251 @@
     ]
   },
   {
+    "slug": "french-b2-histoire-et-memoire-listening",
+    "level": "B2",
+    "skill": "listening",
+    "unitId": "histoire-et-memoire",
+    "title": "La voix conservée dans une cassette",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 35,
+    "orderIndex": 91,
+    "estimatedMinutes": 14,
+    "description": "Écoute ce contenu de niveau B2 et identifie les idées, les nuances et les preuves.",
+    "intro": "Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "Celle dont je me souviens le mieux...",
+      "Raconte-moi, s’il te plaît.",
+      "Elle avait accueilli...",
+      "Merci de me la raconter."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années quatre-vingt. Celle qui attire aujourd’hui l’attention contient le témoignage d’Awa, une commerçante qui racontait l’évolution de son quartier. Les rues qu’elle avait connues n’existent plus toutes, mais sa voix transmet une perspective absente des documents officiels. Elle décrit les fêtes, les difficultés économiques et les réseaux de solidarité auxquels les familles avaient participé. Les archivistes ont nettoyé les bandes et les ont numérisées. Les photographies qu’ils ont retrouvées ont également été restaurées ; celles que les habitants avaient données seront présentées dans une exposition. Ce travail montre que la mémoire collective ne se limite pas aux grands événements. Elle se construit aussi grâce aux récits de personnes ordinaires. En conservant ce témoignage, la ville ne cherche pas à imposer une seule version du passé. Elle permet au contraire de comparer plusieurs points de vue et de transmettre un héritage plus riche aux générations qui n’ont pas connu cette époque.",
+    "extra": {
+      "listeningType": "monologue",
+      "listeningFormat": "documentary",
+      "storyTitle": "La voix conservée dans une cassette",
+      "mainTranscript": "Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années quatre-vingt. Celle qui attire aujourd’hui l’attention contient le témoignage d’Awa, une commerçante qui racontait l’évolution de son quartier. Les rues qu’elle avait connues n’existent plus toutes, mais sa voix transmet une perspective absente des documents officiels. Elle décrit les fêtes, les difficultés économiques et les réseaux de solidarité auxquels les familles avaient participé. Les archivistes ont nettoyé les bandes et les ont numérisées. Les photographies qu’ils ont retrouvées ont également été restaurées ; celles que les habitants avaient données seront présentées dans une exposition. Ce travail montre que la mémoire collective ne se limite pas aux grands événements. Elle se construit aussi grâce aux récits de personnes ordinaires. En conservant ce témoignage, la ville ne cherche pas à imposer une seule version du passé. Elle permet au contraire de comparer plusieurs points de vue et de transmettre un héritage plus riche aux générations qui n’ont pas connu cette époque.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années quatre-vingt."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Celle qui attire aujourd’hui l’attention contient le témoignage d’Awa, une commerçante qui racontait l’évolution de son quartier."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Les rues qu’elle avait connues n’existent plus toutes, mais sa voix transmet une perspective absente des documents officiels."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "Elle décrit les fêtes, les difficultés économiques et les réseaux de solidarité auxquels les familles avaient participé."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Les archivistes ont nettoyé les bandes et les ont numérisées."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Les photographies qu’ils ont retrouvées ont également été restaurées ; celles que les habitants avaient données seront présentées dans une exposition."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Ce travail montre que la mémoire collective ne se limite pas aux grands événements."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Elle se construit aussi grâce aux récits de personnes ordinaires."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "En conservant ce témoignage, la ville ne cherche pas à imposer une seule version du passé."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Elle permet au contraire de comparer plusieurs points de vue et de transmettre un héritage plus riche aux générations qui n’ont pas connu cette époque."
+        }
+      ],
+      "difficulty": "B2",
+      "durationSeconds": 85,
+      "speakers": [
+        "Animatrice",
+        "Invité"
+      ],
+      "phoneticSupport": {
+        "enabled": true,
+        "locale": "fr-FR",
+        "focus": "Marque les groupes rythmiques et les mots de contraste. Fais entendre la différence entre une affirmation ferme et une conclusion nuancée.",
+        "segments": [],
+        "stressedWords": [
+          "établi",
+          "inférer",
+          "objection",
+          "réviser"
+        ],
+        "difficultSounds": [],
+        "reviewStatus": "verified"
+      },
+      "listeningComprehension": {
+        "id": "french-b2-histoire-et-memoire-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Dans « La voix conservée dans une cassette », quel détail présente la situation ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années quatre-vingt."
+              },
+              {
+                "id": "o2",
+                "text": "Elle décrit les fêtes, les difficultés économiques et les réseaux de solidarité auxquels les familles avaient participé."
+              },
+              {
+                "id": "o3",
+                "text": "Ce travail montre que la mémoire collective ne se limite pas aux grands événements."
+              },
+              {
+                "id": "o4",
+                "text": "Elle permet au contraire de comparer plusieurs points de vue et de transmettre un héritage plus riche aux générations qui n’ont pas connu cette époque."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Après « Dans les archives d’une petite ville, une équipe a retrouvé plusieurs… », que se passe-t-il ensuite dans « La voix conservée dans une cassette » ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années quatre-vingt."
+              },
+              {
+                "id": "o2",
+                "text": "Elle décrit les fêtes, les difficultés économiques et les réseaux de solidarité auxquels les familles avaient participé."
+              },
+              {
+                "id": "o3",
+                "text": "Ce travail montre que la mémoire collective ne se limite pas aux grands événements."
+              },
+              {
+                "id": "o4",
+                "text": "Elle permet au contraire de comparer plusieurs points de vue et de transmettre un héritage plus riche aux générations qui n’ont pas connu cette époque."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « La voix conservée dans une cassette » ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années quatre-vingt."
+              },
+              {
+                "id": "o2",
+                "text": "Elle décrit les fêtes, les difficultés économiques et les réseaux de solidarité auxquels les familles avaient participé."
+              },
+              {
+                "id": "o3",
+                "text": "Ce travail montre que la mémoire collective ne se limite pas aux grands événements."
+              },
+              {
+                "id": "o4",
+                "text": "Elle permet au contraire de comparer plusieurs points de vue et de transmettre un héritage plus riche aux générations qui n’ont pas connu cette époque."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quel résultat conclut « La voix conservée dans une cassette » après « Ce travail montre que la mémoire collective ne se limite pas aux… » ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années quatre-vingt."
+              },
+              {
+                "id": "o2",
+                "text": "Elle décrit les fêtes, les difficultés économiques et les réseaux de solidarité auxquels les familles avaient participé."
+              },
+              {
+                "id": "o3",
+                "text": "Ce travail montre que la mémoire collective ne se limite pas aux grands événements."
+              },
+              {
+                "id": "o4",
+                "text": "Elle permet au contraire de comparer plusieurs points de vue et de transmettre un héritage plus riche aux générations qui n’ont pas connu cette époque."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Dans « La voix conservée dans une cassette », quel détail présente la situation ?",
+        "options": [
+          "Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années quatre-vingt.",
+          "Elle décrit les fêtes, les difficultés économiques et les réseaux de solidarité auxquels les familles avaient participé.",
+          "Ce travail montre que la mémoire collective ne se limite pas aux grands événements.",
+          "Elle permet au contraire de comparer plusieurs points de vue et de transmettre un héritage plus riche aux générations qui n’ont pas connu cette époque."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Après « Dans les archives d’une petite ville, une équipe a retrouvé plusieurs… », que se passe-t-il ensuite dans « La voix conservée dans une cassette » ?",
+        "options": [
+          "Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années quatre-vingt.",
+          "Elle décrit les fêtes, les difficultés économiques et les réseaux de solidarité auxquels les familles avaient participé.",
+          "Ce travail montre que la mémoire collective ne se limite pas aux grands événements.",
+          "Elle permet au contraire de comparer plusieurs points de vue et de transmettre un héritage plus riche aux générations qui n’ont pas connu cette époque."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « La voix conservée dans une cassette » ?",
+        "options": [
+          "Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années quatre-vingt.",
+          "Elle décrit les fêtes, les difficultés économiques et les réseaux de solidarité auxquels les familles avaient participé.",
+          "Ce travail montre que la mémoire collective ne se limite pas aux grands événements.",
+          "Elle permet au contraire de comparer plusieurs points de vue et de transmettre un héritage plus riche aux générations qui n’ont pas connu cette époque."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quel résultat conclut « La voix conservée dans une cassette » après « Ce travail montre que la mémoire collective ne se limite pas aux… » ?",
+        "options": [
+          "Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années quatre-vingt.",
+          "Elle décrit les fêtes, les difficultés économiques et les réseaux de solidarité auxquels les familles avaient participé.",
+          "Ce travail montre que la mémoire collective ne se limite pas aux grands événements.",
+          "Elle permet au contraire de comparer plusieurs points de vue et de transmettre un héritage plus riche aux générations qui n’ont pas connu cette époque."
+        ]
+      }
+    ]
+  },
+  {
     "slug": "french-a1-dans-ma-ville-speaking",
     "level": "A1",
     "skill": "speaking",
@@ -48651,67 +48651,6 @@
       {
         "type": "practice",
         "prompt": "Avec un/une camarade, analysez ensemble un titre d’actualité fictif pour décider s’il semble fiable."
-      }
-    ]
-  },
-  {
-    "slug": "french-b2-histoire-et-memoire-speaking",
-    "level": "B2",
-    "skill": "speaking",
-    "unitId": "histoire-et-memoire",
-    "title": "Raconter une histoire familiale",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 92,
-    "estimatedMinutes": 14,
-    "description": "Présente un souvenir ou une histoire transmise dans ta famille.",
-    "intro": "Présente un souvenir ou une histoire transmise dans ta famille.",
-    "mission": "Présente une histoire familiale (réelle ou imaginaire) qui t’a été transmise, avec au moins un pronom démonstratif (celui, celle, ceux, celles).",
-    "grammar": "",
-    "phrases": [
-      "Celle dont je me souviens le plus, c’est...",
-      "On m’a raconté que...",
-      "C’est une histoire qui...",
-      "Cela m’aide à comprendre d’où je viens."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Toi",
-        "line": "Celle dont je me souviens le plus, c’est l’histoire de... On m’a raconté que... Cela m’aide à comprendre d’où je viens.",
-        "translation": "La que más recuerdo es la historia de... Me contaron que... Eso me ayuda a entender de dónde vengo."
-      }
-    ],
-    "reading": null,
-    "transcript": "Toi : Celle dont je me souviens le plus, c’est l’histoire de... On m’a raconté que... Cela m’aide à comprendre d’où je viens.",
-    "extra": {
-      "communicationGuide": {
-        "steps": [
-          "Enregistre une première réponse sans lire un texte complet.",
-          "Utilise la transcription vocale pour vérifier ce qui a été compris.",
-          "Demande au Tuteur IA un retour sur la clarté, les preuves et le registre.",
-          "Enregistre une seconde version et compare fluidité et prononciation."
-        ],
-        "premiumMode": "Conversation libre avec le Tuteur IA",
-        "pronunciationTargets": [
-          "groupes rythmiques",
-          "mise en relief",
-          "enchaînements",
-          "intonation nuancée"
-        ]
-      },
-      "grammarTest": null,
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Raconte une histoire familiale transmise, avec un pronom démonstratif."
-      },
-      {
-        "type": "practice",
-        "prompt": "Avec un/une camarade, échangez sur une tradition ou un récit transmis dans vos familles respectives."
       }
     ]
   },
@@ -48866,6 +48805,67 @@
     ]
   },
   {
+    "slug": "french-b2-histoire-et-memoire-speaking",
+    "level": "B2",
+    "skill": "speaking",
+    "unitId": "histoire-et-memoire",
+    "title": "Raconter une histoire familiale",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 92,
+    "estimatedMinutes": 14,
+    "description": "Présente un souvenir ou une histoire transmise dans ta famille.",
+    "intro": "Présente un souvenir ou une histoire transmise dans ta famille.",
+    "mission": "Présente une histoire familiale (réelle ou imaginaire) qui t’a été transmise, avec au moins un pronom démonstratif (celui, celle, ceux, celles).",
+    "grammar": "",
+    "phrases": [
+      "Celle dont je me souviens le plus, c’est...",
+      "On m’a raconté que...",
+      "C’est une histoire qui...",
+      "Cela m’aide à comprendre d’où je viens."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Toi",
+        "line": "Celle dont je me souviens le plus, c’est l’histoire de... On m’a raconté que... Cela m’aide à comprendre d’où je viens.",
+        "translation": "La que más recuerdo es la historia de... Me contaron que... Eso me ayuda a entender de dónde vengo."
+      }
+    ],
+    "reading": null,
+    "transcript": "Toi : Celle dont je me souviens le plus, c’est l’histoire de... On m’a raconté que... Cela m’aide à comprendre d’où je viens.",
+    "extra": {
+      "communicationGuide": {
+        "steps": [
+          "Enregistre une première réponse sans lire un texte complet.",
+          "Utilise la transcription vocale pour vérifier ce qui a été compris.",
+          "Demande au Tuteur IA un retour sur la clarté, les preuves et le registre.",
+          "Enregistre une seconde version et compare fluidité et prononciation."
+        ],
+        "premiumMode": "Conversation libre avec le Tuteur IA",
+        "pronunciationTargets": [
+          "groupes rythmiques",
+          "mise en relief",
+          "enchaînements",
+          "intonation nuancée"
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Raconte une histoire familiale transmise, avec un pronom démonstratif."
+      },
+      {
+        "type": "practice",
+        "prompt": "Avec un/une camarade, échangez sur une tradition ou un récit transmis dans vos familles respectives."
+      }
+    ]
+  },
+  {
     "slug": "french-a1-dans-ma-ville-writing",
     "level": "A1",
     "skill": "writing",
@@ -48977,64 +48977,6 @@
       {
         "type": "writing",
         "prompt": "Écris 150 à 200 mots avec trois conseils pour reconnaître une fausse information en ligne."
-      }
-    ]
-  },
-  {
-    "slug": "french-b2-histoire-et-memoire-writing",
-    "level": "B2",
-    "skill": "writing",
-    "unitId": "histoire-et-memoire",
-    "title": "Un récit de mémoire familiale",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 35,
-    "orderIndex": 93,
-    "estimatedMinutes": 18,
-    "description": "Écris le récit d’une histoire transmise dans ta famille.",
-    "intro": "Écris le récit d’une histoire transmise dans ta famille.",
-    "mission": "Écris 200 à 250 mots racontant une histoire familiale (réelle ou imaginaire) transmise par un membre de ta famille, avec au moins un pronom démonstratif.",
-    "grammar": "",
-    "phrases": [
-      "Celle/celui dont je me souviens le mieux...",
-      "On m’a longtemps caché que...",
-      "Aujourd’hui, je comprends que...",
-      "Cette histoire fait partie de qui je suis."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Modèle",
-        "line": "Celle dont je me souviens le mieux, c’est l’histoire que ma grand-mère m’a racontée un dimanche après-midi. On m’avait longtemps caché cette partie de notre histoire familiale. Aujourd’hui, je comprends que cette histoire fait partie de qui je suis.",
-        "translation": "La que más recuerdo es la historia que mi abuela me contó un domingo por la tarde. Durante mucho tiempo me habían ocultado esa parte de nuestra historia familiar. Hoy entiendo que esa historia es parte de quien soy."
-      }
-    ],
-    "reading": null,
-    "transcript": "Modèle : Celle dont je me souviens le mieux, c’est l’histoire que ma grand-mère m’a racontée un dimanche après-midi. On m’avait longtemps caché cette partie de notre histoire familiale. Aujourd’hui, je comprends que cette histoire fait partie de qui je suis.",
-    "extra": {
-      "writingGuide": {
-        "taskType": "texte argumentatif structuré",
-        "steps": [
-          "Délimite la question et rédige une thèse en une phrase.",
-          "Choisis deux preuves ou exemples et explique leur pertinence.",
-          "Présente loyalement l’objection la plus solide.",
-          "Réponds sans exagérer la portée des preuves.",
-          "Révise la cohésion, la grammaire, le registre et la conclusion."
-        ],
-        "checklist": [
-          "Utilise au moins deux termes de l’unité : la mémoire collective, un héritage, une perspective.",
-          "Emploie correctement pronoms démonstratifs (celui, celle, ceux, celles, celui-ci/celui-là) au moins une fois.",
-          "Distingue preuve, inférence et jugement.",
-          "Vérifie les liens entre les paragraphes et supprime les affirmations absolues non justifiées."
-        ]
-      },
-      "grammarTest": null,
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "writing",
-        "prompt": "Écris 200 à 250 mots sur une histoire familiale transmise, avec un pronom démonstratif et un participe passé accordé correctement."
       }
     ]
   },
@@ -49151,6 +49093,64 @@
       {
         "type": "writing",
         "prompt": "Rédige 300–350 mots. Avant l’envoi, vérifie la présence d’une thèse, de deux arguments développés, d’une objection et d’une conclusion nuancée."
+      }
+    ]
+  },
+  {
+    "slug": "french-b2-histoire-et-memoire-writing",
+    "level": "B2",
+    "skill": "writing",
+    "unitId": "histoire-et-memoire",
+    "title": "Un récit de mémoire familiale",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 35,
+    "orderIndex": 93,
+    "estimatedMinutes": 18,
+    "description": "Écris le récit d’une histoire transmise dans ta famille.",
+    "intro": "Écris le récit d’une histoire transmise dans ta famille.",
+    "mission": "Écris 200 à 250 mots racontant une histoire familiale (réelle ou imaginaire) transmise par un membre de ta famille, avec au moins un pronom démonstratif.",
+    "grammar": "",
+    "phrases": [
+      "Celle/celui dont je me souviens le mieux...",
+      "On m’a longtemps caché que...",
+      "Aujourd’hui, je comprends que...",
+      "Cette histoire fait partie de qui je suis."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Modèle",
+        "line": "Celle dont je me souviens le mieux, c’est l’histoire que ma grand-mère m’a racontée un dimanche après-midi. On m’avait longtemps caché cette partie de notre histoire familiale. Aujourd’hui, je comprends que cette histoire fait partie de qui je suis.",
+        "translation": "La que más recuerdo es la historia que mi abuela me contó un domingo por la tarde. Durante mucho tiempo me habían ocultado esa parte de nuestra historia familiar. Hoy entiendo que esa historia es parte de quien soy."
+      }
+    ],
+    "reading": null,
+    "transcript": "Modèle : Celle dont je me souviens le mieux, c’est l’histoire que ma grand-mère m’a racontée un dimanche après-midi. On m’avait longtemps caché cette partie de notre histoire familiale. Aujourd’hui, je comprends que cette histoire fait partie de qui je suis.",
+    "extra": {
+      "writingGuide": {
+        "taskType": "texte argumentatif structuré",
+        "steps": [
+          "Délimite la question et rédige une thèse en une phrase.",
+          "Choisis deux preuves ou exemples et explique leur pertinence.",
+          "Présente loyalement l’objection la plus solide.",
+          "Réponds sans exagérer la portée des preuves.",
+          "Révise la cohésion, la grammaire, le registre et la conclusion."
+        ],
+        "checklist": [
+          "Utilise au moins deux termes de l’unité : la mémoire collective, un héritage, une perspective.",
+          "Emploie correctement pronoms démonstratifs (celui, celle, ceux, celles, celui-ci/celui-là) au moins une fois.",
+          "Distingue preuve, inférence et jugement.",
+          "Vérifie les liens entre les paragraphes et supprime les affirmations absolues non justifiées."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Écris 200 à 250 mots sur une histoire familiale transmise, avec un pronom démonstratif et un participe passé accordé correctement."
       }
     ]
   },
@@ -49998,287 +49998,6 @@
     ]
   },
   {
-    "slug": "french-b2-histoire-et-memoire-grammar",
-    "level": "B2",
-    "skill": "grammar",
-    "unitId": "histoire-et-memoire",
-    "title": "Les pronoms démonstratifs et l’accord du participe passé",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 94,
-    "estimatedMinutes": 14,
-    "description": "Utiliser celui/celle/ceux/celles et accorder le participe passé avec un complément direct antéposé.",
-    "intro": "Utiliser celui/celle/ceux/celles et accorder le participe passé avec un complément direct antéposé.",
-    "mission": "",
-    "grammar": "Les pronoms démonstratifs (celui, celle, ceux, celles) remplacent un nom déjà mentionné : « Celle dont je me souviens le mieux... » Avec avoir, le participe passé s’accorde avec le complément d’objet direct seulement s’il est placé avant le verbe : « Cette histoire, je l’ai entendue hier » (accord avec « l’ », féminin).",
-    "phrases": [
-      "Celui/celle dont...",
-      "Ceux/celles qui...",
-      "Cette histoire, je l’ai entendue...",
-      "Les récits qu’elle nous a racontés..."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "grammarTest": {
-        "id": "french-b2-histoire-et-memoire-grammar-test",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "french-b2-histoire-et-memoire-grammar-q1",
-            "type": "mcq",
-            "prompt": "___ dont je me souviens le mieux, c’est cette histoire.",
-            "difficulty": "application",
-            "options": [
-              {
-                "id": "b",
-                "text": "Celle"
-              },
-              {
-                "id": "a",
-                "text": "Celui"
-              },
-              {
-                "id": "c",
-                "text": "Ceux"
-              },
-              {
-                "id": "d",
-                "text": "Celles"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-histoire-et-memoire-grammar-q2",
-            "type": "mcq",
-            "prompt": "Cette histoire, je l’ai ___ hier soir.",
-            "difficulty": "application",
-            "options": [
-              {
-                "id": "a",
-                "text": "entendu"
-              },
-              {
-                "id": "b",
-                "text": "entendue"
-              },
-              {
-                "id": "c",
-                "text": "entendus"
-              },
-              {
-                "id": "d",
-                "text": "entendues"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-histoire-et-memoire-grammar-q3",
-            "type": "mcq",
-            "prompt": "Les récits qu’elle nous a ___ étaient émouvants.",
-            "difficulty": "analysis",
-            "options": [
-              {
-                "id": "a",
-                "text": "raconté"
-              },
-              {
-                "id": "b",
-                "text": "racontée"
-              },
-              {
-                "id": "c",
-                "text": "racontés"
-              },
-              {
-                "id": "d",
-                "text": "racontant"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-histoire-et-memoire-grammar-q4",
-            "type": "mcq",
-            "prompt": "Quand le participe passé avec avoir s’accorde-t-il avec le complément direct ?",
-            "difficulty": "analysis",
-            "options": [
-              {
-                "id": "a",
-                "text": "Toujours"
-              },
-              {
-                "id": "b",
-                "text": "Jamais"
-              },
-              {
-                "id": "d",
-                "text": "Seulement au féminin"
-              },
-              {
-                "id": "c",
-                "text": "Quand le complément est placé avant le verbe"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-histoire-et-memoire-grammar-q5",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Celui dont je me souviens le mieux, c’est cette histoire. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "b",
-                "text": "Celle dont je me souviens le mieux, c’est cette histoire."
-              },
-              {
-                "id": "a",
-                "text": "Celui dont je me souviens le mieux, c’est cette histoire."
-              },
-              {
-                "id": "c",
-                "text": "Ceux dont je me souviens le mieux, c’est cette histoire."
-              },
-              {
-                "id": "d",
-                "text": "Celles dont je me souviens le mieux, c’est cette histoire."
-              }
-            ]
-          },
-          {
-            "id": "french-b2-histoire-et-memoire-grammar-q6",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Cette histoire, je l’ai entendu hier soir. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Cette histoire, je l’ai entendu hier soir."
-              },
-              {
-                "id": "b",
-                "text": "Cette histoire, je l’ai entendue hier soir."
-              },
-              {
-                "id": "c",
-                "text": "Cette histoire, je l’ai entendus hier soir."
-              },
-              {
-                "id": "d",
-                "text": "Cette histoire, je l’ai entendues hier soir."
-              }
-            ]
-          },
-          {
-            "id": "french-b2-histoire-et-memoire-grammar-q7",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Les récits qu’elle nous a raconté étaient émouvants. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Les récits qu’elle nous a raconté étaient émouvants."
-              },
-              {
-                "id": "b",
-                "text": "Les récits qu’elle nous a racontée étaient émouvants."
-              },
-              {
-                "id": "c",
-                "text": "Les récits qu’elle nous a racontés étaient émouvants."
-              },
-              {
-                "id": "d",
-                "text": "Les récits qu’elle nous a racontant étaient émouvants."
-              }
-            ]
-          },
-          {
-            "id": "french-b2-histoire-et-memoire-grammar-q8",
-            "type": "mcq",
-            "prompt": "Quelle réponse corrige l’erreur « Toujours » dans ce contexte : « Quand le participe passé avec avoir s’accorde-t-il avec le complément direct ? » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Toujours"
-              },
-              {
-                "id": "b",
-                "text": "Jamais"
-              },
-              {
-                "id": "d",
-                "text": "Seulement au féminin"
-              },
-              {
-                "id": "c",
-                "text": "Quand le complément est placé avant le verbe"
-              }
-            ]
-          }
-        ]
-      },
-      "grammarProfile": {
-        "name": "Les pronoms démonstratifs et l’accord du participe passé",
-        "definition": "Les pronoms démonstratifs (celui, celle, ceux, celles) remplacent un nom déjà mentionné : « Celle dont je me souviens le mieux... » Avec avoir, le participe passé s’accorde avec le complément d’objet direct seulement s’il est placé avant le verbe : « Cette histoire, je l’ai entendue hier » (accord avec « l’ », féminin).",
-        "structure": "Forme à observer : Les pronoms démonstratifs et l’accord du participe passé. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
-        "function": "Utiliser celui/celle/ceux/celles et accorder le participe passé avec un complément direct antéposé.",
-        "examples": [
-          "Celle dont je me souviens le mieux, c’est cette histoire.",
-          "Cette histoire, je l’ai entendue hier soir.",
-          "Les récits qu’elle nous a racontés étaient émouvants.",
-          "Quand le complément est placé avant le verbe"
-        ]
-      },
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "___ dont je me souviens le mieux, c’est cette histoire.",
-        "options": [
-          "Celui",
-          "Celle",
-          "Ceux",
-          "Celles"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Cette histoire, je l’ai ___ hier soir.",
-        "options": [
-          "entendu",
-          "entendue",
-          "entendus",
-          "entendues"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Les récits qu’elle nous a ___ étaient émouvants.",
-        "options": [
-          "raconté",
-          "racontée",
-          "racontés",
-          "racontant"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quand le participe passé avec avoir s’accorde-t-il avec le complément direct ?",
-        "options": [
-          "Toujours",
-          "Jamais",
-          "Quand le complément est placé avant le verbe",
-          "Seulement au féminin"
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-science-doute-et-esprit-critique-grammar",
     "level": "C1",
     "skill": "grammar",
@@ -50934,6 +50653,287 @@
     ]
   },
   {
+    "slug": "french-b2-histoire-et-memoire-grammar",
+    "level": "B2",
+    "skill": "grammar",
+    "unitId": "histoire-et-memoire",
+    "title": "Les pronoms démonstratifs et l’accord du participe passé",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 94,
+    "estimatedMinutes": 14,
+    "description": "Utiliser celui/celle/ceux/celles et accorder le participe passé avec un complément direct antéposé.",
+    "intro": "Utiliser celui/celle/ceux/celles et accorder le participe passé avec un complément direct antéposé.",
+    "mission": "",
+    "grammar": "Les pronoms démonstratifs (celui, celle, ceux, celles) remplacent un nom déjà mentionné : « Celle dont je me souviens le mieux... » Avec avoir, le participe passé s’accorde avec le complément d’objet direct seulement s’il est placé avant le verbe : « Cette histoire, je l’ai entendue hier » (accord avec « l’ », féminin).",
+    "phrases": [
+      "Celui/celle dont...",
+      "Ceux/celles qui...",
+      "Cette histoire, je l’ai entendue...",
+      "Les récits qu’elle nous a racontés..."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": {
+      "grammarTest": {
+        "id": "french-b2-histoire-et-memoire-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "french-b2-histoire-et-memoire-grammar-q1",
+            "type": "mcq",
+            "prompt": "___ dont je me souviens le mieux, c’est cette histoire.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "b",
+                "text": "Celle"
+              },
+              {
+                "id": "a",
+                "text": "Celui"
+              },
+              {
+                "id": "c",
+                "text": "Ceux"
+              },
+              {
+                "id": "d",
+                "text": "Celles"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-histoire-et-memoire-grammar-q2",
+            "type": "mcq",
+            "prompt": "Cette histoire, je l’ai ___ hier soir.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "entendu"
+              },
+              {
+                "id": "b",
+                "text": "entendue"
+              },
+              {
+                "id": "c",
+                "text": "entendus"
+              },
+              {
+                "id": "d",
+                "text": "entendues"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-histoire-et-memoire-grammar-q3",
+            "type": "mcq",
+            "prompt": "Les récits qu’elle nous a ___ étaient émouvants.",
+            "difficulty": "analysis",
+            "options": [
+              {
+                "id": "a",
+                "text": "raconté"
+              },
+              {
+                "id": "b",
+                "text": "racontée"
+              },
+              {
+                "id": "c",
+                "text": "racontés"
+              },
+              {
+                "id": "d",
+                "text": "racontant"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-histoire-et-memoire-grammar-q4",
+            "type": "mcq",
+            "prompt": "Quand le participe passé avec avoir s’accorde-t-il avec le complément direct ?",
+            "difficulty": "analysis",
+            "options": [
+              {
+                "id": "a",
+                "text": "Toujours"
+              },
+              {
+                "id": "b",
+                "text": "Jamais"
+              },
+              {
+                "id": "d",
+                "text": "Seulement au féminin"
+              },
+              {
+                "id": "c",
+                "text": "Quand le complément est placé avant le verbe"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-histoire-et-memoire-grammar-q5",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Celui dont je me souviens le mieux, c’est cette histoire. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "b",
+                "text": "Celle dont je me souviens le mieux, c’est cette histoire."
+              },
+              {
+                "id": "a",
+                "text": "Celui dont je me souviens le mieux, c’est cette histoire."
+              },
+              {
+                "id": "c",
+                "text": "Ceux dont je me souviens le mieux, c’est cette histoire."
+              },
+              {
+                "id": "d",
+                "text": "Celles dont je me souviens le mieux, c’est cette histoire."
+              }
+            ]
+          },
+          {
+            "id": "french-b2-histoire-et-memoire-grammar-q6",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Cette histoire, je l’ai entendu hier soir. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Cette histoire, je l’ai entendu hier soir."
+              },
+              {
+                "id": "b",
+                "text": "Cette histoire, je l’ai entendue hier soir."
+              },
+              {
+                "id": "c",
+                "text": "Cette histoire, je l’ai entendus hier soir."
+              },
+              {
+                "id": "d",
+                "text": "Cette histoire, je l’ai entendues hier soir."
+              }
+            ]
+          },
+          {
+            "id": "french-b2-histoire-et-memoire-grammar-q7",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Les récits qu’elle nous a raconté étaient émouvants. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Les récits qu’elle nous a raconté étaient émouvants."
+              },
+              {
+                "id": "b",
+                "text": "Les récits qu’elle nous a racontée étaient émouvants."
+              },
+              {
+                "id": "c",
+                "text": "Les récits qu’elle nous a racontés étaient émouvants."
+              },
+              {
+                "id": "d",
+                "text": "Les récits qu’elle nous a racontant étaient émouvants."
+              }
+            ]
+          },
+          {
+            "id": "french-b2-histoire-et-memoire-grammar-q8",
+            "type": "mcq",
+            "prompt": "Quelle réponse corrige l’erreur « Toujours » dans ce contexte : « Quand le participe passé avec avoir s’accorde-t-il avec le complément direct ? » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Toujours"
+              },
+              {
+                "id": "b",
+                "text": "Jamais"
+              },
+              {
+                "id": "d",
+                "text": "Seulement au féminin"
+              },
+              {
+                "id": "c",
+                "text": "Quand le complément est placé avant le verbe"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Les pronoms démonstratifs et l’accord du participe passé",
+        "definition": "Les pronoms démonstratifs (celui, celle, ceux, celles) remplacent un nom déjà mentionné : « Celle dont je me souviens le mieux... » Avec avoir, le participe passé s’accorde avec le complément d’objet direct seulement s’il est placé avant le verbe : « Cette histoire, je l’ai entendue hier » (accord avec « l’ », féminin).",
+        "structure": "Forme à observer : Les pronoms démonstratifs et l’accord du participe passé. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Utiliser celui/celle/ceux/celles et accorder le participe passé avec un complément direct antéposé.",
+        "examples": [
+          "Celle dont je me souviens le mieux, c’est cette histoire.",
+          "Cette histoire, je l’ai entendue hier soir.",
+          "Les récits qu’elle nous a racontés étaient émouvants.",
+          "Quand le complément est placé avant le verbe"
+        ]
+      },
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "___ dont je me souviens le mieux, c’est cette histoire.",
+        "options": [
+          "Celui",
+          "Celle",
+          "Ceux",
+          "Celles"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Cette histoire, je l’ai ___ hier soir.",
+        "options": [
+          "entendu",
+          "entendue",
+          "entendus",
+          "entendues"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Les récits qu’elle nous a ___ étaient émouvants.",
+        "options": [
+          "raconté",
+          "racontée",
+          "racontés",
+          "racontant"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quand le participe passé avec avoir s’accorde-t-il avec le complément direct ?",
+        "options": [
+          "Toujours",
+          "Jamais",
+          "Quand le complément est placé avant le verbe",
+          "Seulement au féminin"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "french-a1-dans-ma-ville-vocabulary",
     "level": "A1",
     "skill": "vocabulary",
@@ -51204,86 +51204,6 @@
           "Dudar de",
           "Compartir",
           "Aceptar"
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "french-b2-histoire-et-memoire-vocabulary",
-    "level": "B2",
-    "skill": "vocabulary",
-    "unitId": "histoire-et-memoire",
-    "title": "Le vocabulaire de la mémoire et de l’histoire",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 95,
-    "estimatedMinutes": 10,
-    "description": "Le vocabulaire essentiel pour discuter de mémoire collective et d’histoire familiale.",
-    "intro": "Le vocabulaire essentiel pour discuter de mémoire collective et d’histoire familiale.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [
-      {
-        "word": "la mémoire collective",
-        "translation": "la memoria colectiva",
-        "example": "La mémoire collective se construit à partir de récits multiples."
-      },
-      {
-        "word": "un héritage",
-        "translation": "una herencia",
-        "example": "Cette histoire fait partie de mon héritage familial."
-      },
-      {
-        "word": "une perspective",
-        "translation": "una perspectiva",
-        "example": "Chaque témoin apporte une perspective différente."
-      },
-      {
-        "word": "transmettre",
-        "translation": "transmitir",
-        "example": "Elle veut transmettre cette histoire à ses petits-enfants."
-      },
-      {
-        "word": "un témoignage",
-        "translation": "un testimonio",
-        "example": "Son témoignage était très émouvant."
-      }
-    ],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « transmettre » ?",
-        "options": [
-          "Transmitir",
-          "Olvidar",
-          "Ocultar",
-          "Inventar"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « un héritage » ?",
-        "options": [
-          "Una herencia",
-          "Un secreto",
-          "Un problema",
-          "Un viaje"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « un témoignage » ?",
-        "options": [
-          "Un testimonio",
-          "Un documental",
-          "Un libro",
-          "Una película"
         ]
       }
     ]
@@ -51779,6 +51699,86 @@
           "dans une direction opposée à une idée ou à une tendance dominante"
         ],
         "explanation": "« à rebours de » désigne dans une direction opposée à une idée ou à une tendance dominante."
+      }
+    ]
+  },
+  {
+    "slug": "french-b2-histoire-et-memoire-vocabulary",
+    "level": "B2",
+    "skill": "vocabulary",
+    "unitId": "histoire-et-memoire",
+    "title": "Le vocabulaire de la mémoire et de l’histoire",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 95,
+    "estimatedMinutes": 10,
+    "description": "Le vocabulaire essentiel pour discuter de mémoire collective et d’histoire familiale.",
+    "intro": "Le vocabulaire essentiel pour discuter de mémoire collective et d’histoire familiale.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "la mémoire collective",
+        "translation": "la memoria colectiva",
+        "example": "La mémoire collective se construit à partir de récits multiples."
+      },
+      {
+        "word": "un héritage",
+        "translation": "una herencia",
+        "example": "Cette histoire fait partie de mon héritage familial."
+      },
+      {
+        "word": "une perspective",
+        "translation": "una perspectiva",
+        "example": "Chaque témoin apporte une perspective différente."
+      },
+      {
+        "word": "transmettre",
+        "translation": "transmitir",
+        "example": "Elle veut transmettre cette histoire à ses petits-enfants."
+      },
+      {
+        "word": "un témoignage",
+        "translation": "un testimonio",
+        "example": "Son témoignage était très émouvant."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « transmettre » ?",
+        "options": [
+          "Transmitir",
+          "Olvidar",
+          "Ocultar",
+          "Inventar"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « un héritage » ?",
+        "options": [
+          "Una herencia",
+          "Un secreto",
+          "Un problema",
+          "Un viaje"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « un témoignage » ?",
+        "options": [
+          "Un testimonio",
+          "Un documental",
+          "Un libro",
+          "Una película"
+        ]
       }
     ]
   },
@@ -52470,96 +52470,6 @@
     ]
   },
   {
-    "slug": "french-b2-ecologie-et-engagement-citoyen-reading",
-    "level": "B2",
-    "skill": "reading",
-    "unitId": "ecologie-et-engagement-citoyen",
-    "title": "Les mangroves des Caraïbes, un rempart naturel menacé",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 35,
-    "orderIndex": 100,
-    "estimatedMinutes": 18,
-    "description": "Pourquoi la protection de ces écosystèmes côtiers est devenue une priorité pour les organisations environnementales de la région.",
-    "intro": "Pourquoi la protection de ces écosystèmes côtiers est devenue une priorité pour les organisations environnementales de la région.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": {
-      "title": "Les mangroves des Caraïbes, un rempart naturel menacé",
-      "parts": [
-        "Quatre fois plus de carbone stocké, à surface égale, que les forêts tropicales terrestres : c’est ce qu’indiquent plusieurs études publiées par des organisations environnementales internationales à propos des mangroves, ces forêts côtières composées de palétuviers capables de pousser en eau salée. Un rôle écologique disproportionné par rapport à la surface qu’elles couvrent, et qui en fait un allié précieux, quoique encore largement sous-estimé, dans la lutte contre le changement climatique.",
-        "Au-delà de leur rôle climatique, les mangroves rendent des services essentiels aux populations côtières. Elles servent de zone de reproduction à de nombreuses espèces de poissons, dont dépendent directement les communautés de pêcheurs locaux, et elles agissent comme une barrière naturelle contre l’érosion côtière, en absorbant une partie de l’énergie des vagues afin que celle-ci n’atteigne pas les zones habitées. Plusieurs études menées après des ouragans dans la région caribéenne ont ainsi montré que les zones côtières protégées par des mangroves en bonne santé subissaient des dégâts nettement inférieurs à celles qui en étaient dépourvues.",
-        "Malgré ces bénéfices largement documentés, les mangroves des Caraïbes continuent de reculer, principalement à cause de la construction immobilière côtière, de la pollution plastique et, dans certaines régions, de l’aquaculture intensive. Face à ce constat, de nombreuses associations locales ont commencé à organiser des programmes de restauration pour que les jeunes générations puissent s’impliquer concrètement. Ces initiatives associent plantation de nouvelles pousses, nettoyage des zones côtières et sensibilisation des habitants aux enjeux environnementaux de leur propre territoire.",
-        "Les experts insistent néanmoins sur un point : je ne pense pas que ces initiatives locales suffisent, à elles seules, à inverser durablement la tendance sans un cadre réglementaire plus strict encadrant la construction sur le littoral. C’est pourquoi plusieurs organisations régionales appellent aujourd’hui à renforcer la coopération entre pays voisins des Caraïbes, afin que ces écosystèmes, dont les bénéfices ne connaissent évidemment aucune frontière administrative, soient mieux protégés collectivement."
-      ],
-      "questions": [
-        "Combien de fois plus de carbone les mangroves stockent-elles, à surface égale, par rapport aux forêts tropicales terrestres, selon le texte ?",
-        "Quel rôle jouent les mangroves pour les communautés de pêcheurs locaux, selon le texte ?",
-        "Qu’ont montré plusieurs études menées après des ouragans dans la région caribéenne ?",
-        "Quelles sont les principales causes du recul des mangroves mentionnées dans le texte ?",
-        "Que réclament plusieurs organisations régionales, selon la conclusion du texte ?"
-      ],
-      "text": "Quatre fois plus de carbone stocké, à surface égale, que les forêts tropicales terrestres : c’est ce qu’indiquent plusieurs études publiées par des organisations environnementales internationales à propos des mangroves, ces forêts côtières composées de palétuviers capables de pousser en eau salée. Un rôle écologique disproportionné par rapport à la surface qu’elles couvrent, et qui en fait un allié précieux, quoique encore largement sous-estimé, dans la lutte contre le changement climatique.\n\nAu-delà de leur rôle climatique, les mangroves rendent des services essentiels aux populations côtières. Elles servent de zone de reproduction à de nombreuses espèces de poissons, dont dépendent directement les communautés de pêcheurs locaux, et elles agissent comme une barrière naturelle contre l’érosion côtière, en absorbant une partie de l’énergie des vagues afin que celle-ci n’atteigne pas les zones habitées. Plusieurs études menées après des ouragans dans la région caribéenne ont ainsi montré que les zones côtières protégées par des mangroves en bonne santé subissaient des dégâts nettement inférieurs à celles qui en étaient dépourvues.\n\nMalgré ces bénéfices largement documentés, les mangroves des Caraïbes continuent de reculer, principalement à cause de la construction immobilière côtière, de la pollution plastique et, dans certaines régions, de l’aquaculture intensive. Face à ce constat, de nombreuses associations locales ont commencé à organiser des programmes de restauration pour que les jeunes générations puissent s’impliquer concrètement. Ces initiatives associent plantation de nouvelles pousses, nettoyage des zones côtières et sensibilisation des habitants aux enjeux environnementaux de leur propre territoire.\n\nLes experts insistent néanmoins sur un point : je ne pense pas que ces initiatives locales suffisent, à elles seules, à inverser durablement la tendance sans un cadre réglementaire plus strict encadrant la construction sur le littoral. C’est pourquoi plusieurs organisations régionales appellent aujourd’hui à renforcer la coopération entre pays voisins des Caraïbes, afin que ces écosystèmes, dont les bénéfices ne connaissent évidemment aucune frontière administrative, soient mieux protégés collectivement."
-    },
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Combien de fois plus de carbone les mangroves stockent-elles, à surface égale, par rapport aux forêts tropicales terrestres, selon le texte ?",
-        "options": [
-          "Jusqu’à deux fois plus",
-          "Jusqu’à quatre fois plus",
-          "Dix fois plus",
-          "Le texte ne précise pas de chiffre"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel rôle jouent les mangroves pour les communautés de pêcheurs locaux, selon le texte ?",
-        "options": [
-          "Aucun rôle particulier",
-          "Elles servent de zone de reproduction pour de nombreuses espèces de poissons",
-          "Elles empêchent totalement la pêche",
-          "Elles ne concernent que le tourisme"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qu’ont montré plusieurs études menées après des ouragans dans la région caribéenne ?",
-        "options": [
-          "Que les mangroves n’ont aucun effet protecteur",
-          "Que les zones protégées par des mangroves en bonne santé subissaient moins de dégâts",
-          "Que les mangroves aggravent les tempêtes",
-          "Que les ouragans détruisent toujours les mangroves entièrement"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelles sont les principales causes du recul des mangroves mentionnées dans le texte ?",
-        "options": [
-          "La construction immobilière côtière, la pollution plastique et l’aquaculture intensive",
-          "Uniquement le changement de température",
-          "Les tremblements de terre",
-          "La chasse aux animaux marins"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que réclament plusieurs organisations régionales, selon la conclusion du texte ?",
-        "options": [
-          "Une coopération renforcée entre pays voisins des Caraïbes",
-          "La fin de toute coopération régionale",
-          "L’arrêt complet des programmes de restauration",
-          "Une frontière stricte entre les écosystèmes"
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-art-censure-et-liberte-reading",
     "level": "C1",
     "skill": "reading",
@@ -52768,6 +52678,96 @@
           "Un abonnement payant obligatoire pour accéder à l’information"
         ],
         "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « La désinformation détermine-t-elle réellement les élections ? »."
+      }
+    ]
+  },
+  {
+    "slug": "french-b2-ecologie-et-engagement-citoyen-reading",
+    "level": "B2",
+    "skill": "reading",
+    "unitId": "ecologie-et-engagement-citoyen",
+    "title": "Les mangroves des Caraïbes, un rempart naturel menacé",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 35,
+    "orderIndex": 100,
+    "estimatedMinutes": 18,
+    "description": "Pourquoi la protection de ces écosystèmes côtiers est devenue une priorité pour les organisations environnementales de la région.",
+    "intro": "Pourquoi la protection de ces écosystèmes côtiers est devenue une priorité pour les organisations environnementales de la région.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "Les mangroves des Caraïbes, un rempart naturel menacé",
+      "parts": [
+        "Quatre fois plus de carbone stocké, à surface égale, que les forêts tropicales terrestres : c’est ce qu’indiquent plusieurs études publiées par des organisations environnementales internationales à propos des mangroves, ces forêts côtières composées de palétuviers capables de pousser en eau salée. Un rôle écologique disproportionné par rapport à la surface qu’elles couvrent, et qui en fait un allié précieux, quoique encore largement sous-estimé, dans la lutte contre le changement climatique.",
+        "Au-delà de leur rôle climatique, les mangroves rendent des services essentiels aux populations côtières. Elles servent de zone de reproduction à de nombreuses espèces de poissons, dont dépendent directement les communautés de pêcheurs locaux, et elles agissent comme une barrière naturelle contre l’érosion côtière, en absorbant une partie de l’énergie des vagues afin que celle-ci n’atteigne pas les zones habitées. Plusieurs études menées après des ouragans dans la région caribéenne ont ainsi montré que les zones côtières protégées par des mangroves en bonne santé subissaient des dégâts nettement inférieurs à celles qui en étaient dépourvues.",
+        "Malgré ces bénéfices largement documentés, les mangroves des Caraïbes continuent de reculer, principalement à cause de la construction immobilière côtière, de la pollution plastique et, dans certaines régions, de l’aquaculture intensive. Face à ce constat, de nombreuses associations locales ont commencé à organiser des programmes de restauration pour que les jeunes générations puissent s’impliquer concrètement. Ces initiatives associent plantation de nouvelles pousses, nettoyage des zones côtières et sensibilisation des habitants aux enjeux environnementaux de leur propre territoire.",
+        "Les experts insistent néanmoins sur un point : je ne pense pas que ces initiatives locales suffisent, à elles seules, à inverser durablement la tendance sans un cadre réglementaire plus strict encadrant la construction sur le littoral. C’est pourquoi plusieurs organisations régionales appellent aujourd’hui à renforcer la coopération entre pays voisins des Caraïbes, afin que ces écosystèmes, dont les bénéfices ne connaissent évidemment aucune frontière administrative, soient mieux protégés collectivement."
+      ],
+      "questions": [
+        "Combien de fois plus de carbone les mangroves stockent-elles, à surface égale, par rapport aux forêts tropicales terrestres, selon le texte ?",
+        "Quel rôle jouent les mangroves pour les communautés de pêcheurs locaux, selon le texte ?",
+        "Qu’ont montré plusieurs études menées après des ouragans dans la région caribéenne ?",
+        "Quelles sont les principales causes du recul des mangroves mentionnées dans le texte ?",
+        "Que réclament plusieurs organisations régionales, selon la conclusion du texte ?"
+      ],
+      "text": "Quatre fois plus de carbone stocké, à surface égale, que les forêts tropicales terrestres : c’est ce qu’indiquent plusieurs études publiées par des organisations environnementales internationales à propos des mangroves, ces forêts côtières composées de palétuviers capables de pousser en eau salée. Un rôle écologique disproportionné par rapport à la surface qu’elles couvrent, et qui en fait un allié précieux, quoique encore largement sous-estimé, dans la lutte contre le changement climatique.\n\nAu-delà de leur rôle climatique, les mangroves rendent des services essentiels aux populations côtières. Elles servent de zone de reproduction à de nombreuses espèces de poissons, dont dépendent directement les communautés de pêcheurs locaux, et elles agissent comme une barrière naturelle contre l’érosion côtière, en absorbant une partie de l’énergie des vagues afin que celle-ci n’atteigne pas les zones habitées. Plusieurs études menées après des ouragans dans la région caribéenne ont ainsi montré que les zones côtières protégées par des mangroves en bonne santé subissaient des dégâts nettement inférieurs à celles qui en étaient dépourvues.\n\nMalgré ces bénéfices largement documentés, les mangroves des Caraïbes continuent de reculer, principalement à cause de la construction immobilière côtière, de la pollution plastique et, dans certaines régions, de l’aquaculture intensive. Face à ce constat, de nombreuses associations locales ont commencé à organiser des programmes de restauration pour que les jeunes générations puissent s’impliquer concrètement. Ces initiatives associent plantation de nouvelles pousses, nettoyage des zones côtières et sensibilisation des habitants aux enjeux environnementaux de leur propre territoire.\n\nLes experts insistent néanmoins sur un point : je ne pense pas que ces initiatives locales suffisent, à elles seules, à inverser durablement la tendance sans un cadre réglementaire plus strict encadrant la construction sur le littoral. C’est pourquoi plusieurs organisations régionales appellent aujourd’hui à renforcer la coopération entre pays voisins des Caraïbes, afin que ces écosystèmes, dont les bénéfices ne connaissent évidemment aucune frontière administrative, soient mieux protégés collectivement."
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Combien de fois plus de carbone les mangroves stockent-elles, à surface égale, par rapport aux forêts tropicales terrestres, selon le texte ?",
+        "options": [
+          "Jusqu’à deux fois plus",
+          "Jusqu’à quatre fois plus",
+          "Dix fois plus",
+          "Le texte ne précise pas de chiffre"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quel rôle jouent les mangroves pour les communautés de pêcheurs locaux, selon le texte ?",
+        "options": [
+          "Aucun rôle particulier",
+          "Elles servent de zone de reproduction pour de nombreuses espèces de poissons",
+          "Elles empêchent totalement la pêche",
+          "Elles ne concernent que le tourisme"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qu’ont montré plusieurs études menées après des ouragans dans la région caribéenne ?",
+        "options": [
+          "Que les mangroves n’ont aucun effet protecteur",
+          "Que les zones protégées par des mangroves en bonne santé subissaient moins de dégâts",
+          "Que les mangroves aggravent les tempêtes",
+          "Que les ouragans détruisent toujours les mangroves entièrement"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelles sont les principales causes du recul des mangroves mentionnées dans le texte ?",
+        "options": [
+          "La construction immobilière côtière, la pollution plastique et l’aquaculture intensive",
+          "Uniquement le changement de température",
+          "Les tremblements de terre",
+          "La chasse aux animaux marins"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que réclament plusieurs organisations régionales, selon la conclusion du texte ?",
+        "options": [
+          "Une coopération renforcée entre pays voisins des Caraïbes",
+          "La fin de toute coopération régionale",
+          "L’arrêt complet des programmes de restauration",
+          "Une frontière stricte entre les écosystèmes"
+        ]
       }
     ]
   },
@@ -53483,251 +53483,6 @@
     ]
   },
   {
-    "slug": "french-b2-ecologie-et-engagement-citoyen-listening",
-    "level": "B2",
-    "skill": "listening",
-    "unitId": "ecologie-et-engagement-citoyen",
-    "title": "Une coalition pour restaurer la mangrove",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 35,
-    "orderIndex": 101,
-    "estimatedMinutes": 14,
-    "description": "Écoute ce contenu de niveau B2 et identifie les idées, les nuances et les preuves.",
-    "intro": "Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [
-      "Elles protègent...",
-      "Je ne savais pas que...",
-      "Elles sont menacées par...",
-      "Comment puis-je m’impliquer ?"
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la mangrove. Cet écosystème protège les côtes, abrite une biodiversité remarquable et contribue à la reproduction de nombreuses espèces. Pourtant, plusieurs zones ont été endommagées par les déchets et les constructions. Les citoyens ont lancé une pétition afin que les autorités limitent les nouveaux projets près du rivage. Ils organisent également des opérations de nettoyage pour que les jeunes plants puissent se développer. Les scientifiques suivent la qualité de l’eau et partagent leurs résultats avec les écoles. Certains responsables ne pensent pas que les actions locales suffisent, car les pressions économiques restent importantes. Les membres de la coalition répondent que leur engagement citoyen peut justement modifier les décisions publiques. Ils souhaitent que la restauration soit accompagnée d’emplois durables pour les communautés voisines. Le projet ne consiste donc pas seulement à planter des arbres : il cherche à construire un équilibre entre protection de la biodiversité, activité économique et participation des habitants.",
-    "extra": {
-      "listeningType": "monologue",
-      "listeningFormat": "news",
-      "storyTitle": "Une coalition pour restaurer la mangrove",
-      "mainTranscript": "Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la mangrove. Cet écosystème protège les côtes, abrite une biodiversité remarquable et contribue à la reproduction de nombreuses espèces. Pourtant, plusieurs zones ont été endommagées par les déchets et les constructions. Les citoyens ont lancé une pétition afin que les autorités limitent les nouveaux projets près du rivage. Ils organisent également des opérations de nettoyage pour que les jeunes plants puissent se développer. Les scientifiques suivent la qualité de l’eau et partagent leurs résultats avec les écoles. Certains responsables ne pensent pas que les actions locales suffisent, car les pressions économiques restent importantes. Les membres de la coalition répondent que leur engagement citoyen peut justement modifier les décisions publiques. Ils souhaitent que la restauration soit accompagnée d’emplois durables pour les communautés voisines. Le projet ne consiste donc pas seulement à planter des arbres : il cherche à construire un équilibre entre protection de la biodiversité, activité économique et participation des habitants.",
-      "transcriptSegments": [
-        {
-          "id": "segment-01",
-          "order": 1,
-          "text": "Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la mangrove."
-        },
-        {
-          "id": "segment-02",
-          "order": 2,
-          "text": "Cet écosystème protège les côtes, abrite une biodiversité remarquable et contribue à la reproduction de nombreuses espèces."
-        },
-        {
-          "id": "segment-03",
-          "order": 3,
-          "text": "Pourtant, plusieurs zones ont été endommagées par les déchets et les constructions."
-        },
-        {
-          "id": "segment-04",
-          "order": 4,
-          "text": "Les citoyens ont lancé une pétition afin que les autorités limitent les nouveaux projets près du rivage."
-        },
-        {
-          "id": "segment-05",
-          "order": 5,
-          "text": "Ils organisent également des opérations de nettoyage pour que les jeunes plants puissent se développer."
-        },
-        {
-          "id": "segment-06",
-          "order": 6,
-          "text": "Les scientifiques suivent la qualité de l’eau et partagent leurs résultats avec les écoles."
-        },
-        {
-          "id": "segment-07",
-          "order": 7,
-          "text": "Certains responsables ne pensent pas que les actions locales suffisent, car les pressions économiques restent importantes."
-        },
-        {
-          "id": "segment-08",
-          "order": 8,
-          "text": "Les membres de la coalition répondent que leur engagement citoyen peut justement modifier les décisions publiques."
-        },
-        {
-          "id": "segment-09",
-          "order": 9,
-          "text": "Ils souhaitent que la restauration soit accompagnée d’emplois durables pour les communautés voisines."
-        },
-        {
-          "id": "segment-10",
-          "order": 10,
-          "text": "Le projet ne consiste donc pas seulement à planter des arbres : il cherche à construire un équilibre entre protection de la biodiversité, activité économique et participation des habitants."
-        }
-      ],
-      "difficulty": "B2",
-      "durationSeconds": 85,
-      "speakers": [
-        "Animatrice",
-        "Invité"
-      ],
-      "phoneticSupport": {
-        "enabled": true,
-        "locale": "fr-FR",
-        "focus": "Marque les groupes rythmiques et les mots de contraste. Fais entendre la différence entre une affirmation ferme et une conclusion nuancée.",
-        "segments": [],
-        "stressedWords": [
-          "établi",
-          "inférer",
-          "objection",
-          "réviser"
-        ],
-        "difficultSounds": [],
-        "reviewStatus": "verified"
-      },
-      "listeningComprehension": {
-        "id": "french-b2-ecologie-et-engagement-citoyen-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Dans « Une coalition pour restaurer la mangrove », quel détail présente la situation ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la mangrove."
-              },
-              {
-                "id": "o2",
-                "text": "Les citoyens ont lancé une pétition afin que les autorités limitent les nouveaux projets près du rivage."
-              },
-              {
-                "id": "o3",
-                "text": "Certains responsables ne pensent pas que les actions locales suffisent, car les pressions économiques restent importantes."
-              },
-              {
-                "id": "o4",
-                "text": "Le projet ne consiste donc pas seulement à planter des arbres : il cherche à construire un équilibre entre protection de la biodiversité, activité économique et participation des habitants."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Après « Dans une région côtière, des habitants, des scientifiques et des… », que se passe-t-il ensuite dans « Une coalition pour restaurer la mangrove » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la mangrove."
-              },
-              {
-                "id": "o2",
-                "text": "Les citoyens ont lancé une pétition afin que les autorités limitent les nouveaux projets près du rivage."
-              },
-              {
-                "id": "o3",
-                "text": "Certains responsables ne pensent pas que les actions locales suffisent, car les pressions économiques restent importantes."
-              },
-              {
-                "id": "o4",
-                "text": "Le projet ne consiste donc pas seulement à planter des arbres : il cherche à construire un équilibre entre protection de la biodiversité, activité économique et participation des habitants."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Une coalition pour restaurer la mangrove » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la mangrove."
-              },
-              {
-                "id": "o2",
-                "text": "Les citoyens ont lancé une pétition afin que les autorités limitent les nouveaux projets près du rivage."
-              },
-              {
-                "id": "o3",
-                "text": "Certains responsables ne pensent pas que les actions locales suffisent, car les pressions économiques restent importantes."
-              },
-              {
-                "id": "o4",
-                "text": "Le projet ne consiste donc pas seulement à planter des arbres : il cherche à construire un équilibre entre protection de la biodiversité, activité économique et participation des habitants."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Quel résultat conclut « Une coalition pour restaurer la mangrove » après « Certains responsables ne pensent pas que les actions locales… » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la mangrove."
-              },
-              {
-                "id": "o2",
-                "text": "Les citoyens ont lancé une pétition afin que les autorités limitent les nouveaux projets près du rivage."
-              },
-              {
-                "id": "o3",
-                "text": "Certains responsables ne pensent pas que les actions locales suffisent, car les pressions économiques restent importantes."
-              },
-              {
-                "id": "o4",
-                "text": "Le projet ne consiste donc pas seulement à planter des arbres : il cherche à construire un équilibre entre protection de la biodiversité, activité économique et participation des habitants."
-              }
-            ]
-          }
-        ]
-      },
-      "grammarTest": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Dans « Une coalition pour restaurer la mangrove », quel détail présente la situation ?",
-        "options": [
-          "Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la mangrove.",
-          "Les citoyens ont lancé une pétition afin que les autorités limitent les nouveaux projets près du rivage.",
-          "Certains responsables ne pensent pas que les actions locales suffisent, car les pressions économiques restent importantes.",
-          "Le projet ne consiste donc pas seulement à planter des arbres : il cherche à construire un équilibre entre protection de la biodiversité, activité économique et participation des habitants."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Après « Dans une région côtière, des habitants, des scientifiques et des… », que se passe-t-il ensuite dans « Une coalition pour restaurer la mangrove » ?",
-        "options": [
-          "Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la mangrove.",
-          "Les citoyens ont lancé une pétition afin que les autorités limitent les nouveaux projets près du rivage.",
-          "Certains responsables ne pensent pas que les actions locales suffisent, car les pressions économiques restent importantes.",
-          "Le projet ne consiste donc pas seulement à planter des arbres : il cherche à construire un équilibre entre protection de la biodiversité, activité économique et participation des habitants."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Une coalition pour restaurer la mangrove » ?",
-        "options": [
-          "Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la mangrove.",
-          "Les citoyens ont lancé une pétition afin que les autorités limitent les nouveaux projets près du rivage.",
-          "Certains responsables ne pensent pas que les actions locales suffisent, car les pressions économiques restent importantes.",
-          "Le projet ne consiste donc pas seulement à planter des arbres : il cherche à construire un équilibre entre protection de la biodiversité, activité économique et participation des habitants."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel résultat conclut « Une coalition pour restaurer la mangrove » après « Certains responsables ne pensent pas que les actions locales… » ?",
-        "options": [
-          "Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la mangrove.",
-          "Les citoyens ont lancé une pétition afin que les autorités limitent les nouveaux projets près du rivage.",
-          "Certains responsables ne pensent pas que les actions locales suffisent, car les pressions économiques restent importantes.",
-          "Le projet ne consiste donc pas seulement à planter des arbres : il cherche à construire un équilibre entre protection de la biodiversité, activité économique et participation des habitants."
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-art-censure-et-liberte-listening",
     "level": "C1",
     "skill": "listening",
@@ -54250,6 +54005,251 @@
     ]
   },
   {
+    "slug": "french-b2-ecologie-et-engagement-citoyen-listening",
+    "level": "B2",
+    "skill": "listening",
+    "unitId": "ecologie-et-engagement-citoyen",
+    "title": "Une coalition pour restaurer la mangrove",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 35,
+    "orderIndex": 101,
+    "estimatedMinutes": 14,
+    "description": "Écoute ce contenu de niveau B2 et identifie les idées, les nuances et les preuves.",
+    "intro": "Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "Elles protègent...",
+      "Je ne savais pas que...",
+      "Elles sont menacées par...",
+      "Comment puis-je m’impliquer ?"
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la mangrove. Cet écosystème protège les côtes, abrite une biodiversité remarquable et contribue à la reproduction de nombreuses espèces. Pourtant, plusieurs zones ont été endommagées par les déchets et les constructions. Les citoyens ont lancé une pétition afin que les autorités limitent les nouveaux projets près du rivage. Ils organisent également des opérations de nettoyage pour que les jeunes plants puissent se développer. Les scientifiques suivent la qualité de l’eau et partagent leurs résultats avec les écoles. Certains responsables ne pensent pas que les actions locales suffisent, car les pressions économiques restent importantes. Les membres de la coalition répondent que leur engagement citoyen peut justement modifier les décisions publiques. Ils souhaitent que la restauration soit accompagnée d’emplois durables pour les communautés voisines. Le projet ne consiste donc pas seulement à planter des arbres : il cherche à construire un équilibre entre protection de la biodiversité, activité économique et participation des habitants.",
+    "extra": {
+      "listeningType": "monologue",
+      "listeningFormat": "news",
+      "storyTitle": "Une coalition pour restaurer la mangrove",
+      "mainTranscript": "Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la mangrove. Cet écosystème protège les côtes, abrite une biodiversité remarquable et contribue à la reproduction de nombreuses espèces. Pourtant, plusieurs zones ont été endommagées par les déchets et les constructions. Les citoyens ont lancé une pétition afin que les autorités limitent les nouveaux projets près du rivage. Ils organisent également des opérations de nettoyage pour que les jeunes plants puissent se développer. Les scientifiques suivent la qualité de l’eau et partagent leurs résultats avec les écoles. Certains responsables ne pensent pas que les actions locales suffisent, car les pressions économiques restent importantes. Les membres de la coalition répondent que leur engagement citoyen peut justement modifier les décisions publiques. Ils souhaitent que la restauration soit accompagnée d’emplois durables pour les communautés voisines. Le projet ne consiste donc pas seulement à planter des arbres : il cherche à construire un équilibre entre protection de la biodiversité, activité économique et participation des habitants.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la mangrove."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Cet écosystème protège les côtes, abrite une biodiversité remarquable et contribue à la reproduction de nombreuses espèces."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Pourtant, plusieurs zones ont été endommagées par les déchets et les constructions."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "Les citoyens ont lancé une pétition afin que les autorités limitent les nouveaux projets près du rivage."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Ils organisent également des opérations de nettoyage pour que les jeunes plants puissent se développer."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Les scientifiques suivent la qualité de l’eau et partagent leurs résultats avec les écoles."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Certains responsables ne pensent pas que les actions locales suffisent, car les pressions économiques restent importantes."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Les membres de la coalition répondent que leur engagement citoyen peut justement modifier les décisions publiques."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Ils souhaitent que la restauration soit accompagnée d’emplois durables pour les communautés voisines."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Le projet ne consiste donc pas seulement à planter des arbres : il cherche à construire un équilibre entre protection de la biodiversité, activité économique et participation des habitants."
+        }
+      ],
+      "difficulty": "B2",
+      "durationSeconds": 85,
+      "speakers": [
+        "Animatrice",
+        "Invité"
+      ],
+      "phoneticSupport": {
+        "enabled": true,
+        "locale": "fr-FR",
+        "focus": "Marque les groupes rythmiques et les mots de contraste. Fais entendre la différence entre une affirmation ferme et une conclusion nuancée.",
+        "segments": [],
+        "stressedWords": [
+          "établi",
+          "inférer",
+          "objection",
+          "réviser"
+        ],
+        "difficultSounds": [],
+        "reviewStatus": "verified"
+      },
+      "listeningComprehension": {
+        "id": "french-b2-ecologie-et-engagement-citoyen-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Dans « Une coalition pour restaurer la mangrove », quel détail présente la situation ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la mangrove."
+              },
+              {
+                "id": "o2",
+                "text": "Les citoyens ont lancé une pétition afin que les autorités limitent les nouveaux projets près du rivage."
+              },
+              {
+                "id": "o3",
+                "text": "Certains responsables ne pensent pas que les actions locales suffisent, car les pressions économiques restent importantes."
+              },
+              {
+                "id": "o4",
+                "text": "Le projet ne consiste donc pas seulement à planter des arbres : il cherche à construire un équilibre entre protection de la biodiversité, activité économique et participation des habitants."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Après « Dans une région côtière, des habitants, des scientifiques et des… », que se passe-t-il ensuite dans « Une coalition pour restaurer la mangrove » ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la mangrove."
+              },
+              {
+                "id": "o2",
+                "text": "Les citoyens ont lancé une pétition afin que les autorités limitent les nouveaux projets près du rivage."
+              },
+              {
+                "id": "o3",
+                "text": "Certains responsables ne pensent pas que les actions locales suffisent, car les pressions économiques restent importantes."
+              },
+              {
+                "id": "o4",
+                "text": "Le projet ne consiste donc pas seulement à planter des arbres : il cherche à construire un équilibre entre protection de la biodiversité, activité économique et participation des habitants."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Une coalition pour restaurer la mangrove » ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la mangrove."
+              },
+              {
+                "id": "o2",
+                "text": "Les citoyens ont lancé une pétition afin que les autorités limitent les nouveaux projets près du rivage."
+              },
+              {
+                "id": "o3",
+                "text": "Certains responsables ne pensent pas que les actions locales suffisent, car les pressions économiques restent importantes."
+              },
+              {
+                "id": "o4",
+                "text": "Le projet ne consiste donc pas seulement à planter des arbres : il cherche à construire un équilibre entre protection de la biodiversité, activité économique et participation des habitants."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quel résultat conclut « Une coalition pour restaurer la mangrove » après « Certains responsables ne pensent pas que les actions locales… » ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la mangrove."
+              },
+              {
+                "id": "o2",
+                "text": "Les citoyens ont lancé une pétition afin que les autorités limitent les nouveaux projets près du rivage."
+              },
+              {
+                "id": "o3",
+                "text": "Certains responsables ne pensent pas que les actions locales suffisent, car les pressions économiques restent importantes."
+              },
+              {
+                "id": "o4",
+                "text": "Le projet ne consiste donc pas seulement à planter des arbres : il cherche à construire un équilibre entre protection de la biodiversité, activité économique et participation des habitants."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Dans « Une coalition pour restaurer la mangrove », quel détail présente la situation ?",
+        "options": [
+          "Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la mangrove.",
+          "Les citoyens ont lancé une pétition afin que les autorités limitent les nouveaux projets près du rivage.",
+          "Certains responsables ne pensent pas que les actions locales suffisent, car les pressions économiques restent importantes.",
+          "Le projet ne consiste donc pas seulement à planter des arbres : il cherche à construire un équilibre entre protection de la biodiversité, activité économique et participation des habitants."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Après « Dans une région côtière, des habitants, des scientifiques et des… », que se passe-t-il ensuite dans « Une coalition pour restaurer la mangrove » ?",
+        "options": [
+          "Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la mangrove.",
+          "Les citoyens ont lancé une pétition afin que les autorités limitent les nouveaux projets près du rivage.",
+          "Certains responsables ne pensent pas que les actions locales suffisent, car les pressions économiques restent importantes.",
+          "Le projet ne consiste donc pas seulement à planter des arbres : il cherche à construire un équilibre entre protection de la biodiversité, activité économique et participation des habitants."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Une coalition pour restaurer la mangrove » ?",
+        "options": [
+          "Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la mangrove.",
+          "Les citoyens ont lancé une pétition afin que les autorités limitent les nouveaux projets près du rivage.",
+          "Certains responsables ne pensent pas que les actions locales suffisent, car les pressions économiques restent importantes.",
+          "Le projet ne consiste donc pas seulement à planter des arbres : il cherche à construire un équilibre entre protection de la biodiversité, activité économique et participation des habitants."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quel résultat conclut « Une coalition pour restaurer la mangrove » après « Certains responsables ne pensent pas que les actions locales… » ?",
+        "options": [
+          "Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la mangrove.",
+          "Les citoyens ont lancé une pétition afin que les autorités limitent les nouveaux projets près du rivage.",
+          "Certains responsables ne pensent pas que les actions locales suffisent, car les pressions économiques restent importantes.",
+          "Le projet ne consiste donc pas seulement à planter des arbres : il cherche à construire un équilibre entre protection de la biodiversité, activité économique et participation des habitants."
+        ]
+      }
+    ]
+  },
+  {
     "slug": "french-a1-mes-loisirs-speaking",
     "level": "A1",
     "skill": "speaking",
@@ -54385,67 +54385,6 @@
       {
         "type": "practice",
         "prompt": "Avec un/une camarade, jouez une scène de désaccord suivie d’une réconciliation."
-      }
-    ]
-  },
-  {
-    "slug": "french-b2-ecologie-et-engagement-citoyen-speaking",
-    "level": "B2",
-    "skill": "speaking",
-    "unitId": "ecologie-et-engagement-citoyen",
-    "title": "Présenter une cause environnementale",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 102,
-    "estimatedMinutes": 14,
-    "description": "Présente une cause environnementale et exprime un but précis.",
-    "intro": "Présente une cause environnementale et exprime un but précis.",
-    "mission": "Présente une cause environnementale qui te tient à cœur, avec au moins une expression de but (afin que/pour que) et une opinion négative nuancée.",
-    "grammar": "",
-    "phrases": [
-      "Afin que...",
-      "Je ne pense pas que...",
-      "Il est essentiel de...",
-      "Cette cause me tient à cœur parce que..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Toi",
-        "line": "Je m’engage pour cette cause afin que les générations futures puissent en profiter aussi. Je ne pense pas qu’on puisse résoudre ce problème sans action collective.",
-        "translation": "Me comprometo con esta causa para que las generaciones futuras también puedan disfrutarla. No creo que podamos resolver este problema sin acción colectiva."
-      }
-    ],
-    "reading": null,
-    "transcript": "Toi : Je m’engage pour cette cause afin que les générations futures puissent en profiter aussi. Je ne pense pas qu’on puisse résoudre ce problème sans action collective.",
-    "extra": {
-      "communicationGuide": {
-        "steps": [
-          "Enregistre une première réponse sans lire un texte complet.",
-          "Utilise la transcription vocale pour vérifier ce qui a été compris.",
-          "Demande au Tuteur IA un retour sur la clarté, les preuves et le registre.",
-          "Enregistre une seconde version et compare fluidité et prononciation."
-        ],
-        "premiumMode": "Conversation libre avec le Tuteur IA",
-        "pronunciationTargets": [
-          "groupes rythmiques",
-          "mise en relief",
-          "enchaînements",
-          "intonation nuancée"
-        ]
-      },
-      "grammarTest": null,
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Présente une cause environnementale qui te tient à cœur, avec « afin que » et une opinion négative nuancée."
-      },
-      {
-        "type": "practice",
-        "prompt": "Avec un/une camarade, imaginez une petite action citoyenne que vous pourriez organiser ensemble."
       }
     ]
   },
@@ -54600,6 +54539,67 @@
     ]
   },
   {
+    "slug": "french-b2-ecologie-et-engagement-citoyen-speaking",
+    "level": "B2",
+    "skill": "speaking",
+    "unitId": "ecologie-et-engagement-citoyen",
+    "title": "Présenter une cause environnementale",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 102,
+    "estimatedMinutes": 14,
+    "description": "Présente une cause environnementale et exprime un but précis.",
+    "intro": "Présente une cause environnementale et exprime un but précis.",
+    "mission": "Présente une cause environnementale qui te tient à cœur, avec au moins une expression de but (afin que/pour que) et une opinion négative nuancée.",
+    "grammar": "",
+    "phrases": [
+      "Afin que...",
+      "Je ne pense pas que...",
+      "Il est essentiel de...",
+      "Cette cause me tient à cœur parce que..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Toi",
+        "line": "Je m’engage pour cette cause afin que les générations futures puissent en profiter aussi. Je ne pense pas qu’on puisse résoudre ce problème sans action collective.",
+        "translation": "Me comprometo con esta causa para que las generaciones futuras también puedan disfrutarla. No creo que podamos resolver este problema sin acción colectiva."
+      }
+    ],
+    "reading": null,
+    "transcript": "Toi : Je m’engage pour cette cause afin que les générations futures puissent en profiter aussi. Je ne pense pas qu’on puisse résoudre ce problème sans action collective.",
+    "extra": {
+      "communicationGuide": {
+        "steps": [
+          "Enregistre une première réponse sans lire un texte complet.",
+          "Utilise la transcription vocale pour vérifier ce qui a été compris.",
+          "Demande au Tuteur IA un retour sur la clarté, les preuves et le registre.",
+          "Enregistre une seconde version et compare fluidité et prononciation."
+        ],
+        "premiumMode": "Conversation libre avec le Tuteur IA",
+        "pronunciationTargets": [
+          "groupes rythmiques",
+          "mise en relief",
+          "enchaînements",
+          "intonation nuancée"
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Présente une cause environnementale qui te tient à cœur, avec « afin que » et une opinion négative nuancée."
+      },
+      {
+        "type": "practice",
+        "prompt": "Avec un/une camarade, imaginez une petite action citoyenne que vous pourriez organiser ensemble."
+      }
+    ]
+  },
+  {
     "slug": "french-a1-mes-loisirs-writing",
     "level": "A1",
     "skill": "writing",
@@ -54716,64 +54716,6 @@
     ]
   },
   {
-    "slug": "french-b2-ecologie-et-engagement-citoyen-writing",
-    "level": "B2",
-    "skill": "writing",
-    "unitId": "ecologie-et-engagement-citoyen",
-    "title": "Une lettre de partenariat",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 35,
-    "orderIndex": 103,
-    "estimatedMinutes": 18,
-    "description": "Rédige une lettre formelle proposant un partenariat pour une cause environnementale.",
-    "intro": "Rédige une lettre formelle proposant un partenariat pour une cause environnementale.",
-    "mission": "Écris 200 à 250 mots sous forme de lettre proposant un partenariat pour une cause environnementale, avec au moins « afin que » et une opinion négative nuancée.",
-    "grammar": "",
-    "phrases": [
-      "Nous vous écrivons afin que...",
-      "Je ne pense pas que... isolément.",
-      "Notre groupe mène déjà...",
-      "Nous espérons vivement collaborer avec vous."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Modèle",
-        "line": "Nous vous écrivons afin que nos deux associations puissent collaborer sur ce projet environnemental. Je ne pense pas que ces problèmes puissent être résolus isolément. Notre groupe mène déjà des actions concrètes sur le terrain, et nous espérons vivement collaborer avec vous.",
-        "translation": "Le escribimos para que nuestras dos asociaciones puedan colaborar en este proyecto ambiental. No creo que estos problemas puedan resolverse de forma aislada. Nuestro grupo ya lleva a cabo acciones concretas sobre el terreno, y esperamos con interés colaborar con ustedes."
-      }
-    ],
-    "reading": null,
-    "transcript": "Modèle : Nous vous écrivons afin que nos deux associations puissent collaborer sur ce projet environnemental. Je ne pense pas que ces problèmes puissent être résolus isolément. Notre groupe mène déjà des actions concrètes sur le terrain, et nous espérons vivement collaborer avec vous.",
-    "extra": {
-      "writingGuide": {
-        "taskType": "texte argumentatif structuré",
-        "steps": [
-          "Délimite la question et rédige une thèse en une phrase.",
-          "Choisis deux preuves ou exemples et explique leur pertinence.",
-          "Présente loyalement l’objection la plus solide.",
-          "Réponds sans exagérer la portée des preuves.",
-          "Révise la cohésion, la grammaire, le registre et la conclusion."
-        ],
-        "checklist": [
-          "Utilise au moins deux termes de l’unité : une mangrove, la biodiversité, un engagement citoyen.",
-          "Emploie correctement expression du but (afin que, pour que + subjonctif) au moins une fois.",
-          "Distingue preuve, inférence et jugement.",
-          "Vérifie les liens entre les paragraphes et supprime les affirmations absolues non justifiées."
-        ]
-      },
-      "grammarTest": null,
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "writing",
-        "prompt": "Écris une lettre de partenariat de 200 à 250 mots pour une cause environnementale, avec « afin que » et une opinion négative au subjonctif."
-      }
-    ]
-  },
-  {
     "slug": "french-c1-art-censure-et-liberte-writing",
     "level": "C1",
     "skill": "writing",
@@ -54886,6 +54828,64 @@
       {
         "type": "writing",
         "prompt": "Rédige 300–350 mots. Avant l’envoi, vérifie la présence d’une thèse, de deux arguments développés, d’une objection et d’une conclusion nuancée."
+      }
+    ]
+  },
+  {
+    "slug": "french-b2-ecologie-et-engagement-citoyen-writing",
+    "level": "B2",
+    "skill": "writing",
+    "unitId": "ecologie-et-engagement-citoyen",
+    "title": "Une lettre de partenariat",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 35,
+    "orderIndex": 103,
+    "estimatedMinutes": 18,
+    "description": "Rédige une lettre formelle proposant un partenariat pour une cause environnementale.",
+    "intro": "Rédige une lettre formelle proposant un partenariat pour une cause environnementale.",
+    "mission": "Écris 200 à 250 mots sous forme de lettre proposant un partenariat pour une cause environnementale, avec au moins « afin que » et une opinion négative nuancée.",
+    "grammar": "",
+    "phrases": [
+      "Nous vous écrivons afin que...",
+      "Je ne pense pas que... isolément.",
+      "Notre groupe mène déjà...",
+      "Nous espérons vivement collaborer avec vous."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Modèle",
+        "line": "Nous vous écrivons afin que nos deux associations puissent collaborer sur ce projet environnemental. Je ne pense pas que ces problèmes puissent être résolus isolément. Notre groupe mène déjà des actions concrètes sur le terrain, et nous espérons vivement collaborer avec vous.",
+        "translation": "Le escribimos para que nuestras dos asociaciones puedan colaborar en este proyecto ambiental. No creo que estos problemas puedan resolverse de forma aislada. Nuestro grupo ya lleva a cabo acciones concretas sobre el terreno, y esperamos con interés colaborar con ustedes."
+      }
+    ],
+    "reading": null,
+    "transcript": "Modèle : Nous vous écrivons afin que nos deux associations puissent collaborer sur ce projet environnemental. Je ne pense pas que ces problèmes puissent être résolus isolément. Notre groupe mène déjà des actions concrètes sur le terrain, et nous espérons vivement collaborer avec vous.",
+    "extra": {
+      "writingGuide": {
+        "taskType": "texte argumentatif structuré",
+        "steps": [
+          "Délimite la question et rédige une thèse en une phrase.",
+          "Choisis deux preuves ou exemples et explique leur pertinence.",
+          "Présente loyalement l’objection la plus solide.",
+          "Réponds sans exagérer la portée des preuves.",
+          "Révise la cohésion, la grammaire, le registre et la conclusion."
+        ],
+        "checklist": [
+          "Utilise au moins deux termes de l’unité : une mangrove, la biodiversité, un engagement citoyen.",
+          "Emploie correctement expression du but (afin que, pour que + subjonctif) au moins une fois.",
+          "Distingue preuve, inférence et jugement.",
+          "Vérifie les liens entre les paragraphes et supprime les affirmations absolues non justifiées."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Écris une lettre de partenariat de 200 à 250 mots pour une cause environnementale, avec « afin que » et une opinion négative au subjonctif."
       }
     ]
   },
@@ -55732,287 +55732,6 @@
     ]
   },
   {
-    "slug": "french-b2-ecologie-et-engagement-citoyen-grammar",
-    "level": "B2",
-    "skill": "grammar",
-    "unitId": "ecologie-et-engagement-citoyen",
-    "title": "Le but (afin que) et l’opinion négative (subjonctif)",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 104,
-    "estimatedMinutes": 14,
-    "description": "Exprimer un but avec afin que/pour que et une opinion négative avec le subjonctif.",
-    "intro": "Exprimer un but avec afin que/pour que et une opinion négative avec le subjonctif.",
-    "mission": "",
-    "grammar": "« Afin que » et « pour que » expriment un but et sont suivis du subjonctif : « Nous agissons afin que la biodiversité soit préservée. » Les verbes d’opinion à la forme négative (je ne pense pas que, je ne crois pas que) sont aussi suivis du subjonctif, car ils expriment un doute : « Je ne pense pas que ce soit suffisant. »",
-    "phrases": [
-      "Afin que...",
-      "Pour que...",
-      "Je ne pense pas que...",
-      "Je ne crois pas que..."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "grammarTest": {
-        "id": "french-b2-ecologie-et-engagement-citoyen-grammar-test",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "french-b2-ecologie-et-engagement-citoyen-grammar-q1",
-            "type": "mcq",
-            "prompt": "Nous agissons afin que la biodiversité ___ préservée.",
-            "difficulty": "application",
-            "options": [
-              {
-                "id": "b",
-                "text": "soit"
-              },
-              {
-                "id": "a",
-                "text": "est"
-              },
-              {
-                "id": "c",
-                "text": "sera"
-              },
-              {
-                "id": "d",
-                "text": "était"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-ecologie-et-engagement-citoyen-grammar-q2",
-            "type": "mcq",
-            "prompt": "Je ne pense pas que ce problème ___ facile à résoudre.",
-            "difficulty": "application",
-            "options": [
-              {
-                "id": "a",
-                "text": "est"
-              },
-              {
-                "id": "b",
-                "text": "soit"
-              },
-              {
-                "id": "c",
-                "text": "sera"
-              },
-              {
-                "id": "d",
-                "text": "était"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-ecologie-et-engagement-citoyen-grammar-q3",
-            "type": "mcq",
-            "prompt": "Elle écrit cette lettre pour que le message ___ bien compris.",
-            "difficulty": "analysis",
-            "options": [
-              {
-                "id": "a",
-                "text": "est"
-              },
-              {
-                "id": "c",
-                "text": "sera"
-              },
-              {
-                "id": "b",
-                "text": "soit"
-              },
-              {
-                "id": "d",
-                "text": "était"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-ecologie-et-engagement-citoyen-grammar-q4",
-            "type": "mcq",
-            "prompt": "Quelle structure exprime un but ?",
-            "difficulty": "analysis",
-            "options": [
-              {
-                "id": "a",
-                "text": "Parce que"
-              },
-              {
-                "id": "c",
-                "text": "Donc"
-              },
-              {
-                "id": "d",
-                "text": "Cependant"
-              },
-              {
-                "id": "b",
-                "text": "Afin que"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-ecologie-et-engagement-citoyen-grammar-q5",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Nous agissons afin que la biodiversité est préservée. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "b",
-                "text": "Nous agissons afin que la biodiversité soit préservée."
-              },
-              {
-                "id": "a",
-                "text": "Nous agissons afin que la biodiversité est préservée."
-              },
-              {
-                "id": "c",
-                "text": "Nous agissons afin que la biodiversité sera préservée."
-              },
-              {
-                "id": "d",
-                "text": "Nous agissons afin que la biodiversité était préservée."
-              }
-            ]
-          },
-          {
-            "id": "french-b2-ecologie-et-engagement-citoyen-grammar-q6",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Je ne pense pas que ce problème est facile à résoudre. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Je ne pense pas que ce problème est facile à résoudre."
-              },
-              {
-                "id": "b",
-                "text": "Je ne pense pas que ce problème soit facile à résoudre."
-              },
-              {
-                "id": "c",
-                "text": "Je ne pense pas que ce problème sera facile à résoudre."
-              },
-              {
-                "id": "d",
-                "text": "Je ne pense pas que ce problème était facile à résoudre."
-              }
-            ]
-          },
-          {
-            "id": "french-b2-ecologie-et-engagement-citoyen-grammar-q7",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Elle écrit cette lettre pour que le message est bien compris. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Elle écrit cette lettre pour que le message est bien compris."
-              },
-              {
-                "id": "c",
-                "text": "Elle écrit cette lettre pour que le message sera bien compris."
-              },
-              {
-                "id": "b",
-                "text": "Elle écrit cette lettre pour que le message soit bien compris."
-              },
-              {
-                "id": "d",
-                "text": "Elle écrit cette lettre pour que le message était bien compris."
-              }
-            ]
-          },
-          {
-            "id": "french-b2-ecologie-et-engagement-citoyen-grammar-q8",
-            "type": "mcq",
-            "prompt": "Quelle réponse corrige l’erreur « Parce que » dans ce contexte : « Quelle structure exprime un but ? » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Parce que"
-              },
-              {
-                "id": "c",
-                "text": "Donc"
-              },
-              {
-                "id": "d",
-                "text": "Cependant"
-              },
-              {
-                "id": "b",
-                "text": "Afin que"
-              }
-            ]
-          }
-        ]
-      },
-      "grammarProfile": {
-        "name": "Le but (afin que) et l’opinion négative (subjonctif)",
-        "definition": "« Afin que » et « pour que » expriment un but et sont suivis du subjonctif : « Nous agissons afin que la biodiversité soit préservée. » Les verbes d’opinion à la forme négative (je ne pense pas que, je ne crois pas que) sont aussi suivis du subjonctif, car ils expriment un doute : « Je ne pense pas que ce soit suffisant. »",
-        "structure": "Forme à observer : Le but (afin que) et l’opinion négative (subjonctif). Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
-        "function": "Exprimer un but avec afin que/pour que et une opinion négative avec le subjonctif.",
-        "examples": [
-          "Nous agissons afin que la biodiversité soit préservée.",
-          "Je ne pense pas que ce problème soit facile à résoudre.",
-          "Elle écrit cette lettre pour que le message soit bien compris.",
-          "Afin que"
-        ]
-      },
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Nous agissons afin que la biodiversité ___ préservée.",
-        "options": [
-          "est",
-          "soit",
-          "sera",
-          "était"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Je ne pense pas que ce problème ___ facile à résoudre.",
-        "options": [
-          "est",
-          "soit",
-          "sera",
-          "était"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Elle écrit cette lettre pour que le message ___ bien compris.",
-        "options": [
-          "est",
-          "soit",
-          "sera",
-          "était"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle structure exprime un but ?",
-        "options": [
-          "Parce que",
-          "Afin que",
-          "Donc",
-          "Cependant"
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-art-censure-et-liberte-grammar",
     "level": "C1",
     "skill": "grammar",
@@ -56668,6 +56387,287 @@
     ]
   },
   {
+    "slug": "french-b2-ecologie-et-engagement-citoyen-grammar",
+    "level": "B2",
+    "skill": "grammar",
+    "unitId": "ecologie-et-engagement-citoyen",
+    "title": "Le but (afin que) et l’opinion négative (subjonctif)",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 104,
+    "estimatedMinutes": 14,
+    "description": "Exprimer un but avec afin que/pour que et une opinion négative avec le subjonctif.",
+    "intro": "Exprimer un but avec afin que/pour que et une opinion négative avec le subjonctif.",
+    "mission": "",
+    "grammar": "« Afin que » et « pour que » expriment un but et sont suivis du subjonctif : « Nous agissons afin que la biodiversité soit préservée. » Les verbes d’opinion à la forme négative (je ne pense pas que, je ne crois pas que) sont aussi suivis du subjonctif, car ils expriment un doute : « Je ne pense pas que ce soit suffisant. »",
+    "phrases": [
+      "Afin que...",
+      "Pour que...",
+      "Je ne pense pas que...",
+      "Je ne crois pas que..."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": {
+      "grammarTest": {
+        "id": "french-b2-ecologie-et-engagement-citoyen-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "french-b2-ecologie-et-engagement-citoyen-grammar-q1",
+            "type": "mcq",
+            "prompt": "Nous agissons afin que la biodiversité ___ préservée.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "b",
+                "text": "soit"
+              },
+              {
+                "id": "a",
+                "text": "est"
+              },
+              {
+                "id": "c",
+                "text": "sera"
+              },
+              {
+                "id": "d",
+                "text": "était"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-ecologie-et-engagement-citoyen-grammar-q2",
+            "type": "mcq",
+            "prompt": "Je ne pense pas que ce problème ___ facile à résoudre.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "est"
+              },
+              {
+                "id": "b",
+                "text": "soit"
+              },
+              {
+                "id": "c",
+                "text": "sera"
+              },
+              {
+                "id": "d",
+                "text": "était"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-ecologie-et-engagement-citoyen-grammar-q3",
+            "type": "mcq",
+            "prompt": "Elle écrit cette lettre pour que le message ___ bien compris.",
+            "difficulty": "analysis",
+            "options": [
+              {
+                "id": "a",
+                "text": "est"
+              },
+              {
+                "id": "c",
+                "text": "sera"
+              },
+              {
+                "id": "b",
+                "text": "soit"
+              },
+              {
+                "id": "d",
+                "text": "était"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-ecologie-et-engagement-citoyen-grammar-q4",
+            "type": "mcq",
+            "prompt": "Quelle structure exprime un but ?",
+            "difficulty": "analysis",
+            "options": [
+              {
+                "id": "a",
+                "text": "Parce que"
+              },
+              {
+                "id": "c",
+                "text": "Donc"
+              },
+              {
+                "id": "d",
+                "text": "Cependant"
+              },
+              {
+                "id": "b",
+                "text": "Afin que"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-ecologie-et-engagement-citoyen-grammar-q5",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Nous agissons afin que la biodiversité est préservée. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "b",
+                "text": "Nous agissons afin que la biodiversité soit préservée."
+              },
+              {
+                "id": "a",
+                "text": "Nous agissons afin que la biodiversité est préservée."
+              },
+              {
+                "id": "c",
+                "text": "Nous agissons afin que la biodiversité sera préservée."
+              },
+              {
+                "id": "d",
+                "text": "Nous agissons afin que la biodiversité était préservée."
+              }
+            ]
+          },
+          {
+            "id": "french-b2-ecologie-et-engagement-citoyen-grammar-q6",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Je ne pense pas que ce problème est facile à résoudre. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Je ne pense pas que ce problème est facile à résoudre."
+              },
+              {
+                "id": "b",
+                "text": "Je ne pense pas que ce problème soit facile à résoudre."
+              },
+              {
+                "id": "c",
+                "text": "Je ne pense pas que ce problème sera facile à résoudre."
+              },
+              {
+                "id": "d",
+                "text": "Je ne pense pas que ce problème était facile à résoudre."
+              }
+            ]
+          },
+          {
+            "id": "french-b2-ecologie-et-engagement-citoyen-grammar-q7",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Elle écrit cette lettre pour que le message est bien compris. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Elle écrit cette lettre pour que le message est bien compris."
+              },
+              {
+                "id": "c",
+                "text": "Elle écrit cette lettre pour que le message sera bien compris."
+              },
+              {
+                "id": "b",
+                "text": "Elle écrit cette lettre pour que le message soit bien compris."
+              },
+              {
+                "id": "d",
+                "text": "Elle écrit cette lettre pour que le message était bien compris."
+              }
+            ]
+          },
+          {
+            "id": "french-b2-ecologie-et-engagement-citoyen-grammar-q8",
+            "type": "mcq",
+            "prompt": "Quelle réponse corrige l’erreur « Parce que » dans ce contexte : « Quelle structure exprime un but ? » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Parce que"
+              },
+              {
+                "id": "c",
+                "text": "Donc"
+              },
+              {
+                "id": "d",
+                "text": "Cependant"
+              },
+              {
+                "id": "b",
+                "text": "Afin que"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Le but (afin que) et l’opinion négative (subjonctif)",
+        "definition": "« Afin que » et « pour que » expriment un but et sont suivis du subjonctif : « Nous agissons afin que la biodiversité soit préservée. » Les verbes d’opinion à la forme négative (je ne pense pas que, je ne crois pas que) sont aussi suivis du subjonctif, car ils expriment un doute : « Je ne pense pas que ce soit suffisant. »",
+        "structure": "Forme à observer : Le but (afin que) et l’opinion négative (subjonctif). Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Exprimer un but avec afin que/pour que et une opinion négative avec le subjonctif.",
+        "examples": [
+          "Nous agissons afin que la biodiversité soit préservée.",
+          "Je ne pense pas que ce problème soit facile à résoudre.",
+          "Elle écrit cette lettre pour que le message soit bien compris.",
+          "Afin que"
+        ]
+      },
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Nous agissons afin que la biodiversité ___ préservée.",
+        "options": [
+          "est",
+          "soit",
+          "sera",
+          "était"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Je ne pense pas que ce problème ___ facile à résoudre.",
+        "options": [
+          "est",
+          "soit",
+          "sera",
+          "était"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Elle écrit cette lettre pour que le message ___ bien compris.",
+        "options": [
+          "est",
+          "soit",
+          "sera",
+          "était"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle structure exprime un but ?",
+        "options": [
+          "Parce que",
+          "Afin que",
+          "Donc",
+          "Cependant"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "french-a1-mes-loisirs-vocabulary",
     "level": "A1",
     "skill": "vocabulary",
@@ -56938,86 +56938,6 @@
           "Perder una amistad",
           "Evitar el problema",
           "Ganar una discusión"
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "french-b2-ecologie-et-engagement-citoyen-vocabulary",
-    "level": "B2",
-    "skill": "vocabulary",
-    "unitId": "ecologie-et-engagement-citoyen",
-    "title": "Le vocabulaire de l’écologie et de l’engagement citoyen",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 105,
-    "estimatedMinutes": 10,
-    "description": "Le vocabulaire essentiel pour parler d’écologie et d’engagement citoyen.",
-    "intro": "Le vocabulaire essentiel pour parler d’écologie et d’engagement citoyen.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [
-      {
-        "word": "une mangrove",
-        "translation": "un manglar",
-        "example": "Les mangroves protègent la côte contre l’érosion."
-      },
-      {
-        "word": "la biodiversité",
-        "translation": "la biodiversidad",
-        "example": "Cet écosystème abrite une riche biodiversité."
-      },
-      {
-        "word": "un engagement citoyen",
-        "translation": "un compromiso ciudadano",
-        "example": "Son engagement citoyen est admirable."
-      },
-      {
-        "word": "une pétition",
-        "translation": "una petición",
-        "example": "Ils ont lancé une pétition pour protéger les mangroves."
-      },
-      {
-        "word": "un partenariat",
-        "translation": "una alianza/asociación",
-        "example": "Les deux groupes ont établi un partenariat."
-      }
-    ],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « la biodiversité » ?",
-        "options": [
-          "La biodiversidad",
-          "La contaminación",
-          "El clima",
-          "El turismo"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « un partenariat » ?",
-        "options": [
-          "Una alianza",
-          "Un conflicto",
-          "Una queja",
-          "Una donación"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « un engagement citoyen » ?",
-        "options": [
-          "Un compromiso ciudadano",
-          "Un impuesto",
-          "Una elección",
-          "Un examen"
         ]
       }
     ]
@@ -57513,6 +57433,86 @@
           "dans une direction opposée à une idée ou à une tendance dominante"
         ],
         "explanation": "« à rebours de » désigne dans une direction opposée à une idée ou à une tendance dominante."
+      }
+    ]
+  },
+  {
+    "slug": "french-b2-ecologie-et-engagement-citoyen-vocabulary",
+    "level": "B2",
+    "skill": "vocabulary",
+    "unitId": "ecologie-et-engagement-citoyen",
+    "title": "Le vocabulaire de l’écologie et de l’engagement citoyen",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 105,
+    "estimatedMinutes": 10,
+    "description": "Le vocabulaire essentiel pour parler d’écologie et d’engagement citoyen.",
+    "intro": "Le vocabulaire essentiel pour parler d’écologie et d’engagement citoyen.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "une mangrove",
+        "translation": "un manglar",
+        "example": "Les mangroves protègent la côte contre l’érosion."
+      },
+      {
+        "word": "la biodiversité",
+        "translation": "la biodiversidad",
+        "example": "Cet écosystème abrite une riche biodiversité."
+      },
+      {
+        "word": "un engagement citoyen",
+        "translation": "un compromiso ciudadano",
+        "example": "Son engagement citoyen est admirable."
+      },
+      {
+        "word": "une pétition",
+        "translation": "una petición",
+        "example": "Ils ont lancé une pétition pour protéger les mangroves."
+      },
+      {
+        "word": "un partenariat",
+        "translation": "una alianza/asociación",
+        "example": "Les deux groupes ont établi un partenariat."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « la biodiversité » ?",
+        "options": [
+          "La biodiversidad",
+          "La contaminación",
+          "El clima",
+          "El turismo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « un partenariat » ?",
+        "options": [
+          "Una alianza",
+          "Un conflicto",
+          "Una queja",
+          "Una donación"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « un engagement citoyen » ?",
+        "options": [
+          "Un compromiso ciudadano",
+          "Un impuesto",
+          "Una elección",
+          "Un examen"
+        ]
       }
     ]
   },
@@ -58087,96 +58087,6 @@
     ]
   },
   {
-    "slug": "french-b2-art-et-creativite-reading",
-    "level": "B2",
-    "skill": "reading",
-    "unitId": "art-et-creativite",
-    "title": "Wifredo Lam, peintre de l’identité caribéenne plurielle",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 35,
-    "orderIndex": 110,
-    "estimatedMinutes": 18,
-    "description": "Comment ce peintre cubain d’origine chinoise, africaine et européenne a transformé la question de l’identité en langage pictural.",
-    "intro": "Comment ce peintre cubain d’origine chinoise, africaine et européenne a transformé la question de l’identité en langage pictural.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": {
-      "title": "Wifredo Lam, peintre de l’identité caribéenne plurielle",
-      "parts": [
-        "Un père chinois, une mère aux origines africaines, espagnoles et amérindiennes : né à Cuba en 1902, Wifredo Lam n’a jamais eu, dès l’enfance, le luxe de choisir une seule identité. Il en a fait, plus tard, la matière même de son art, refusant explicitement de se laisser enfermer dans une seule tradition picturale. Après des études à Madrid puis un séjour déterminant à Paris, où il fréquente Pablo Picasso et se lie aux surréalistes autour d’André Breton, Lam retourne à Cuba en 1941, convaincu que son art devait désormais renouer avec les racines afro-caribéennes de son île natale.",
-        "Son tableau le plus célèbre, « La Jungle », peint en 1943 et aujourd’hui conservé au Museum of Modern Art de New York, illustre cette démarche : des figures hybrides, mi-humaines mi-végétales, s’y mêlent dans une composition aussi dense que ses influences étaient nombreuses — surréalisme européen, rituels de la santería cubaine, art africain découvert lors de ses voyages. Plus il avançait dans sa carrière, plus il se sentait libre de superposer ces héritages sans jamais les hiérarchiser, refusant catégoriquement l’idée qu’un artiste caribéen devrait choisir entre une identité « occidentale » et une identité « africaine ».",
-        "Cette démarche a longtemps désarçonné une partie de la critique occidentale, qui peinait à classer son travail dans une catégorie stable : moins surréaliste que Breton ne l’aurait souhaité, mais pas davantage inscrit dans une tradition afro-caribéenne préexistante, l’œuvre de Lam échappait aux étiquettes habituelles. Ce n’est que progressivement, à partir des années 1980, que les historiens de l’art ont reconnu pleinement l’importance de sa démarche — aujourd’hui considérée comme précurseur d’une réflexion beaucoup plus large sur les identités culturelles multiples dans l’art contemporain.",
-        "Aujourd’hui, l’œuvre de Wifredo Lam est exposée dans les plus grands musées du monde, du MoMA au Centre Pompidou, et continue d’inspirer autant d’artistes caribéens contemporains qu’elle avait, en son temps, désorienté de critiques. Son parcours reste, pour beaucoup d’historiens de l’art, l’un des exemples les plus aboutis d’une identité artistique construite non pas contre une culture d’origine, mais à travers la superposition assumée de plusieurs héritages."
-      ],
-      "questions": [
-        "En quelle année et où Wifredo Lam est-il né, selon le texte ?",
-        "Qui Wifredo Lam a-t-il fréquenté à Paris, selon le texte ?",
-        "Quel est le tableau le plus célèbre de Lam mentionné dans le texte, et où est-il conservé ?",
-        "Quelles influences se mêlent dans « La Jungle », selon le texte ?",
-        "Comment le parcours de Lam est-il considéré aujourd’hui par de nombreux historiens de l’art, selon la conclusion ?"
-      ],
-      "text": "Un père chinois, une mère aux origines africaines, espagnoles et amérindiennes : né à Cuba en 1902, Wifredo Lam n’a jamais eu, dès l’enfance, le luxe de choisir une seule identité. Il en a fait, plus tard, la matière même de son art, refusant explicitement de se laisser enfermer dans une seule tradition picturale. Après des études à Madrid puis un séjour déterminant à Paris, où il fréquente Pablo Picasso et se lie aux surréalistes autour d’André Breton, Lam retourne à Cuba en 1941, convaincu que son art devait désormais renouer avec les racines afro-caribéennes de son île natale.\n\nSon tableau le plus célèbre, « La Jungle », peint en 1943 et aujourd’hui conservé au Museum of Modern Art de New York, illustre cette démarche : des figures hybrides, mi-humaines mi-végétales, s’y mêlent dans une composition aussi dense que ses influences étaient nombreuses — surréalisme européen, rituels de la santería cubaine, art africain découvert lors de ses voyages. Plus il avançait dans sa carrière, plus il se sentait libre de superposer ces héritages sans jamais les hiérarchiser, refusant catégoriquement l’idée qu’un artiste caribéen devrait choisir entre une identité « occidentale » et une identité « africaine ».\n\nCette démarche a longtemps désarçonné une partie de la critique occidentale, qui peinait à classer son travail dans une catégorie stable : moins surréaliste que Breton ne l’aurait souhaité, mais pas davantage inscrit dans une tradition afro-caribéenne préexistante, l’œuvre de Lam échappait aux étiquettes habituelles. Ce n’est que progressivement, à partir des années 1980, que les historiens de l’art ont reconnu pleinement l’importance de sa démarche — aujourd’hui considérée comme précurseur d’une réflexion beaucoup plus large sur les identités culturelles multiples dans l’art contemporain.\n\nAujourd’hui, l’œuvre de Wifredo Lam est exposée dans les plus grands musées du monde, du MoMA au Centre Pompidou, et continue d’inspirer autant d’artistes caribéens contemporains qu’elle avait, en son temps, désorienté de critiques. Son parcours reste, pour beaucoup d’historiens de l’art, l’un des exemples les plus aboutis d’une identité artistique construite non pas contre une culture d’origine, mais à travers la superposition assumée de plusieurs héritages."
-    },
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "En quelle année et où Wifredo Lam est-il né, selon le texte ?",
-        "options": [
-          "En 1902, à Cuba",
-          "En 1943, en France",
-          "En 1980, en Espagne",
-          "En 1920, en Chine"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qui Wifredo Lam a-t-il fréquenté à Paris, selon le texte ?",
-        "options": [
-          "Picasso et les surréalistes autour d’André Breton",
-          "Des politiciens uniquement",
-          "Aucun artiste connu",
-          "Des musiciens de jazz uniquement"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel est le tableau le plus célèbre de Lam mentionné dans le texte, et où est-il conservé ?",
-        "options": [
-          "« La Jungle », au Museum of Modern Art de New York",
-          "« Guernica », au musée Reina Sofía",
-          "« Les Demoiselles », au Louvre",
-          "Un tableau non précisé, au Centre Pompidou"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelles influences se mêlent dans « La Jungle », selon le texte ?",
-        "options": [
-          "Le surréalisme européen, la santería cubaine et l’art africain",
-          "Uniquement l’art chinois",
-          "Le cubisme et l’impressionnisme seuls",
-          "Aucune influence particulière"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment le parcours de Lam est-il considéré aujourd’hui par de nombreux historiens de l’art, selon la conclusion ?",
-        "options": [
-          "Comme un échec artistique",
-          "Comme un exemple abouti d’identité construite à travers plusieurs héritages culturels",
-          "Comme une simple imitation du surréalisme européen",
-          "Comme sans importance pour l’art contemporain"
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-avenir-incertitude-et-choix-reading",
     "level": "C1",
     "skill": "reading",
@@ -58385,6 +58295,96 @@
           "La taxe sur la valeur ajoutée culturelle"
         ],
         "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Le marché de l’art fabrique-t-il la valeur artistique ? »."
+      }
+    ]
+  },
+  {
+    "slug": "french-b2-art-et-creativite-reading",
+    "level": "B2",
+    "skill": "reading",
+    "unitId": "art-et-creativite",
+    "title": "Wifredo Lam, peintre de l’identité caribéenne plurielle",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 35,
+    "orderIndex": 110,
+    "estimatedMinutes": 18,
+    "description": "Comment ce peintre cubain d’origine chinoise, africaine et européenne a transformé la question de l’identité en langage pictural.",
+    "intro": "Comment ce peintre cubain d’origine chinoise, africaine et européenne a transformé la question de l’identité en langage pictural.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "Wifredo Lam, peintre de l’identité caribéenne plurielle",
+      "parts": [
+        "Un père chinois, une mère aux origines africaines, espagnoles et amérindiennes : né à Cuba en 1902, Wifredo Lam n’a jamais eu, dès l’enfance, le luxe de choisir une seule identité. Il en a fait, plus tard, la matière même de son art, refusant explicitement de se laisser enfermer dans une seule tradition picturale. Après des études à Madrid puis un séjour déterminant à Paris, où il fréquente Pablo Picasso et se lie aux surréalistes autour d’André Breton, Lam retourne à Cuba en 1941, convaincu que son art devait désormais renouer avec les racines afro-caribéennes de son île natale.",
+        "Son tableau le plus célèbre, « La Jungle », peint en 1943 et aujourd’hui conservé au Museum of Modern Art de New York, illustre cette démarche : des figures hybrides, mi-humaines mi-végétales, s’y mêlent dans une composition aussi dense que ses influences étaient nombreuses — surréalisme européen, rituels de la santería cubaine, art africain découvert lors de ses voyages. Plus il avançait dans sa carrière, plus il se sentait libre de superposer ces héritages sans jamais les hiérarchiser, refusant catégoriquement l’idée qu’un artiste caribéen devrait choisir entre une identité « occidentale » et une identité « africaine ».",
+        "Cette démarche a longtemps désarçonné une partie de la critique occidentale, qui peinait à classer son travail dans une catégorie stable : moins surréaliste que Breton ne l’aurait souhaité, mais pas davantage inscrit dans une tradition afro-caribéenne préexistante, l’œuvre de Lam échappait aux étiquettes habituelles. Ce n’est que progressivement, à partir des années 1980, que les historiens de l’art ont reconnu pleinement l’importance de sa démarche — aujourd’hui considérée comme précurseur d’une réflexion beaucoup plus large sur les identités culturelles multiples dans l’art contemporain.",
+        "Aujourd’hui, l’œuvre de Wifredo Lam est exposée dans les plus grands musées du monde, du MoMA au Centre Pompidou, et continue d’inspirer autant d’artistes caribéens contemporains qu’elle avait, en son temps, désorienté de critiques. Son parcours reste, pour beaucoup d’historiens de l’art, l’un des exemples les plus aboutis d’une identité artistique construite non pas contre une culture d’origine, mais à travers la superposition assumée de plusieurs héritages."
+      ],
+      "questions": [
+        "En quelle année et où Wifredo Lam est-il né, selon le texte ?",
+        "Qui Wifredo Lam a-t-il fréquenté à Paris, selon le texte ?",
+        "Quel est le tableau le plus célèbre de Lam mentionné dans le texte, et où est-il conservé ?",
+        "Quelles influences se mêlent dans « La Jungle », selon le texte ?",
+        "Comment le parcours de Lam est-il considéré aujourd’hui par de nombreux historiens de l’art, selon la conclusion ?"
+      ],
+      "text": "Un père chinois, une mère aux origines africaines, espagnoles et amérindiennes : né à Cuba en 1902, Wifredo Lam n’a jamais eu, dès l’enfance, le luxe de choisir une seule identité. Il en a fait, plus tard, la matière même de son art, refusant explicitement de se laisser enfermer dans une seule tradition picturale. Après des études à Madrid puis un séjour déterminant à Paris, où il fréquente Pablo Picasso et se lie aux surréalistes autour d’André Breton, Lam retourne à Cuba en 1941, convaincu que son art devait désormais renouer avec les racines afro-caribéennes de son île natale.\n\nSon tableau le plus célèbre, « La Jungle », peint en 1943 et aujourd’hui conservé au Museum of Modern Art de New York, illustre cette démarche : des figures hybrides, mi-humaines mi-végétales, s’y mêlent dans une composition aussi dense que ses influences étaient nombreuses — surréalisme européen, rituels de la santería cubaine, art africain découvert lors de ses voyages. Plus il avançait dans sa carrière, plus il se sentait libre de superposer ces héritages sans jamais les hiérarchiser, refusant catégoriquement l’idée qu’un artiste caribéen devrait choisir entre une identité « occidentale » et une identité « africaine ».\n\nCette démarche a longtemps désarçonné une partie de la critique occidentale, qui peinait à classer son travail dans une catégorie stable : moins surréaliste que Breton ne l’aurait souhaité, mais pas davantage inscrit dans une tradition afro-caribéenne préexistante, l’œuvre de Lam échappait aux étiquettes habituelles. Ce n’est que progressivement, à partir des années 1980, que les historiens de l’art ont reconnu pleinement l’importance de sa démarche — aujourd’hui considérée comme précurseur d’une réflexion beaucoup plus large sur les identités culturelles multiples dans l’art contemporain.\n\nAujourd’hui, l’œuvre de Wifredo Lam est exposée dans les plus grands musées du monde, du MoMA au Centre Pompidou, et continue d’inspirer autant d’artistes caribéens contemporains qu’elle avait, en son temps, désorienté de critiques. Son parcours reste, pour beaucoup d’historiens de l’art, l’un des exemples les plus aboutis d’une identité artistique construite non pas contre une culture d’origine, mais à travers la superposition assumée de plusieurs héritages."
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "En quelle année et où Wifredo Lam est-il né, selon le texte ?",
+        "options": [
+          "En 1902, à Cuba",
+          "En 1943, en France",
+          "En 1980, en Espagne",
+          "En 1920, en Chine"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qui Wifredo Lam a-t-il fréquenté à Paris, selon le texte ?",
+        "options": [
+          "Picasso et les surréalistes autour d’André Breton",
+          "Des politiciens uniquement",
+          "Aucun artiste connu",
+          "Des musiciens de jazz uniquement"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quel est le tableau le plus célèbre de Lam mentionné dans le texte, et où est-il conservé ?",
+        "options": [
+          "« La Jungle », au Museum of Modern Art de New York",
+          "« Guernica », au musée Reina Sofía",
+          "« Les Demoiselles », au Louvre",
+          "Un tableau non précisé, au Centre Pompidou"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelles influences se mêlent dans « La Jungle », selon le texte ?",
+        "options": [
+          "Le surréalisme européen, la santería cubaine et l’art africain",
+          "Uniquement l’art chinois",
+          "Le cubisme et l’impressionnisme seuls",
+          "Aucune influence particulière"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Comment le parcours de Lam est-il considéré aujourd’hui par de nombreux historiens de l’art, selon la conclusion ?",
+        "options": [
+          "Comme un échec artistique",
+          "Comme un exemple abouti d’identité construite à travers plusieurs héritages culturels",
+          "Comme une simple imitation du surréalisme européen",
+          "Comme sans importance pour l’art contemporain"
+        ]
       }
     ]
   },
@@ -58891,261 +58891,6 @@
           "Vous pouvez télécharger le formulaire sur le site de la ville et y accéder depuis votre espace personnel.",
           "Le matin, vous pouvez venir sans rendez-vous.",
           "Pour toute question, contactez le service des cartes municipales."
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "french-b2-art-et-creativite-listening",
-    "level": "B2",
-    "skill": "listening",
-    "unitId": "art-et-creativite",
-    "title": "Le portrait sonore de Mireille",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 35,
-    "orderIndex": 111,
-    "estimatedMinutes": 14,
-    "description": "Écoute ce contenu de niveau B2 et identifie les idées, les nuances et les preuves.",
-    "intro": "Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [
-      "Comment a-t-il commencé... ?",
-      "Tout commence par...",
-      "Qu’est-ce qui l’inspire ?",
-      "À la croisée de..."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "Mireille crée des œuvres qui mélangent peinture, textile et enregistrements sonores. Son processus créatif commence rarement dans un atelier. Elle se promène, observe les couleurs d’un marché, écoute les conversations et collecte des matières ordinaires. Depuis quelques années, elle s’inspire de plus en plus des récits de migration de son quartier. Sa préparation devient de moins en moins solitaire : elle invite des habitants à raconter un souvenir, puis transforme certains mots en motifs visuels. Pour sa nouvelle exposition, elle a travaillé autant avec des musiciens qu’avec des couturières. Ce métissage ne cherche pas à effacer les différences, mais à montrer comment elles peuvent coexister dans une même œuvre. Mireille affirme que le public participe aussi au processus. Chaque visiteur entend une combinaison sonore légèrement différente selon son déplacement dans la salle. Ainsi, l’exposition n’est jamais exactement la même. Plus le projet avance, plus l’artiste renonce à contrôler toutes les interprétations. Elle considère cette ouverture non comme une faiblesse, mais comme la partie la plus vivante de sa création.",
-    "extra": {
-      "listeningType": "monologue",
-      "listeningFormat": "portrait",
-      "storyTitle": "Le portrait sonore de Mireille",
-      "mainTranscript": "Mireille crée des œuvres qui mélangent peinture, textile et enregistrements sonores. Son processus créatif commence rarement dans un atelier. Elle se promène, observe les couleurs d’un marché, écoute les conversations et collecte des matières ordinaires. Depuis quelques années, elle s’inspire de plus en plus des récits de migration de son quartier. Sa préparation devient de moins en moins solitaire : elle invite des habitants à raconter un souvenir, puis transforme certains mots en motifs visuels. Pour sa nouvelle exposition, elle a travaillé autant avec des musiciens qu’avec des couturières. Ce métissage ne cherche pas à effacer les différences, mais à montrer comment elles peuvent coexister dans une même œuvre. Mireille affirme que le public participe aussi au processus. Chaque visiteur entend une combinaison sonore légèrement différente selon son déplacement dans la salle. Ainsi, l’exposition n’est jamais exactement la même. Plus le projet avance, plus l’artiste renonce à contrôler toutes les interprétations. Elle considère cette ouverture non comme une faiblesse, mais comme la partie la plus vivante de sa création.",
-      "transcriptSegments": [
-        {
-          "id": "segment-01",
-          "order": 1,
-          "text": "Mireille crée des œuvres qui mélangent peinture, textile et enregistrements sonores."
-        },
-        {
-          "id": "segment-02",
-          "order": 2,
-          "text": "Son processus créatif commence rarement dans un atelier."
-        },
-        {
-          "id": "segment-03",
-          "order": 3,
-          "text": "Elle se promène, observe les couleurs d’un marché, écoute les conversations et collecte des matières ordinaires."
-        },
-        {
-          "id": "segment-04",
-          "order": 4,
-          "text": "Depuis quelques années, elle s’inspire de plus en plus des récits de migration de son quartier."
-        },
-        {
-          "id": "segment-05",
-          "order": 5,
-          "text": "Sa préparation devient de moins en moins solitaire : elle invite des habitants à raconter un souvenir, puis transforme certains mots en motifs visuels."
-        },
-        {
-          "id": "segment-06",
-          "order": 6,
-          "text": "Pour sa nouvelle exposition, elle a travaillé autant avec des musiciens qu’avec des couturières."
-        },
-        {
-          "id": "segment-07",
-          "order": 7,
-          "text": "Ce métissage ne cherche pas à effacer les différences, mais à montrer comment elles peuvent coexister dans une même œuvre."
-        },
-        {
-          "id": "segment-08",
-          "order": 8,
-          "text": "Mireille affirme que le public participe aussi au processus."
-        },
-        {
-          "id": "segment-09",
-          "order": 9,
-          "text": "Chaque visiteur entend une combinaison sonore légèrement différente selon son déplacement dans la salle."
-        },
-        {
-          "id": "segment-10",
-          "order": 10,
-          "text": "Ainsi, l’exposition n’est jamais exactement la même."
-        },
-        {
-          "id": "segment-11",
-          "order": 11,
-          "text": "Plus le projet avance, plus l’artiste renonce à contrôler toutes les interprétations."
-        },
-        {
-          "id": "segment-12",
-          "order": 12,
-          "text": "Elle considère cette ouverture non comme une faiblesse, mais comme la partie la plus vivante de sa création."
-        }
-      ],
-      "difficulty": "B2",
-      "durationSeconds": 85,
-      "speakers": [
-        "Animatrice",
-        "Invité"
-      ],
-      "phoneticSupport": {
-        "enabled": true,
-        "locale": "fr-FR",
-        "focus": "Marque les groupes rythmiques et les mots de contraste. Fais entendre la différence entre une affirmation ferme et une conclusion nuancée.",
-        "segments": [],
-        "stressedWords": [
-          "établi",
-          "inférer",
-          "objection",
-          "réviser"
-        ],
-        "difficultSounds": [],
-        "reviewStatus": "verified"
-      },
-      "listeningComprehension": {
-        "id": "french-b2-art-et-creativite-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Dans « Le portrait sonore de Mireille », quel détail présente la situation ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Mireille crée des œuvres qui mélangent peinture, textile et enregistrements sonores."
-              },
-              {
-                "id": "o2",
-                "text": "Sa préparation devient de moins en moins solitaire : elle invite des habitants à raconter un souvenir, puis transforme certains mots en motifs visuels."
-              },
-              {
-                "id": "o3",
-                "text": "Mireille affirme que le public participe aussi au processus."
-              },
-              {
-                "id": "o4",
-                "text": "Elle considère cette ouverture non comme une faiblesse, mais comme la partie la plus vivante de sa création."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Après « Mireille crée des œuvres qui mélangent peinture, textile et… », que se passe-t-il ensuite dans « Le portrait sonore de Mireille » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Mireille crée des œuvres qui mélangent peinture, textile et enregistrements sonores."
-              },
-              {
-                "id": "o2",
-                "text": "Sa préparation devient de moins en moins solitaire : elle invite des habitants à raconter un souvenir, puis transforme certains mots en motifs visuels."
-              },
-              {
-                "id": "o3",
-                "text": "Mireille affirme que le public participe aussi au processus."
-              },
-              {
-                "id": "o4",
-                "text": "Elle considère cette ouverture non comme une faiblesse, mais comme la partie la plus vivante de sa création."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Le portrait sonore de Mireille » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Mireille crée des œuvres qui mélangent peinture, textile et enregistrements sonores."
-              },
-              {
-                "id": "o2",
-                "text": "Sa préparation devient de moins en moins solitaire : elle invite des habitants à raconter un souvenir, puis transforme certains mots en motifs visuels."
-              },
-              {
-                "id": "o3",
-                "text": "Mireille affirme que le public participe aussi au processus."
-              },
-              {
-                "id": "o4",
-                "text": "Elle considère cette ouverture non comme une faiblesse, mais comme la partie la plus vivante de sa création."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Quel résultat conclut « Le portrait sonore de Mireille » après « Mireille affirme que le public participe aussi au processus. » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Mireille crée des œuvres qui mélangent peinture, textile et enregistrements sonores."
-              },
-              {
-                "id": "o2",
-                "text": "Sa préparation devient de moins en moins solitaire : elle invite des habitants à raconter un souvenir, puis transforme certains mots en motifs visuels."
-              },
-              {
-                "id": "o3",
-                "text": "Mireille affirme que le public participe aussi au processus."
-              },
-              {
-                "id": "o4",
-                "text": "Elle considère cette ouverture non comme une faiblesse, mais comme la partie la plus vivante de sa création."
-              }
-            ]
-          }
-        ]
-      },
-      "grammarTest": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Dans « Le portrait sonore de Mireille », quel détail présente la situation ?",
-        "options": [
-          "Mireille crée des œuvres qui mélangent peinture, textile et enregistrements sonores.",
-          "Sa préparation devient de moins en moins solitaire : elle invite des habitants à raconter un souvenir, puis transforme certains mots en motifs visuels.",
-          "Mireille affirme que le public participe aussi au processus.",
-          "Elle considère cette ouverture non comme une faiblesse, mais comme la partie la plus vivante de sa création."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Après « Mireille crée des œuvres qui mélangent peinture, textile et… », que se passe-t-il ensuite dans « Le portrait sonore de Mireille » ?",
-        "options": [
-          "Mireille crée des œuvres qui mélangent peinture, textile et enregistrements sonores.",
-          "Sa préparation devient de moins en moins solitaire : elle invite des habitants à raconter un souvenir, puis transforme certains mots en motifs visuels.",
-          "Mireille affirme que le public participe aussi au processus.",
-          "Elle considère cette ouverture non comme une faiblesse, mais comme la partie la plus vivante de sa création."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Le portrait sonore de Mireille » ?",
-        "options": [
-          "Mireille crée des œuvres qui mélangent peinture, textile et enregistrements sonores.",
-          "Sa préparation devient de moins en moins solitaire : elle invite des habitants à raconter un souvenir, puis transforme certains mots en motifs visuels.",
-          "Mireille affirme que le public participe aussi au processus.",
-          "Elle considère cette ouverture non comme une faiblesse, mais comme la partie la plus vivante de sa création."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel résultat conclut « Le portrait sonore de Mireille » après « Mireille affirme que le public participe aussi au processus. » ?",
-        "options": [
-          "Mireille crée des œuvres qui mélangent peinture, textile et enregistrements sonores.",
-          "Sa préparation devient de moins en moins solitaire : elle invite des habitants à raconter un souvenir, puis transforme certains mots en motifs visuels.",
-          "Mireille affirme que le public participe aussi au processus.",
-          "Elle considère cette ouverture non comme une faiblesse, mais comme la partie la plus vivante de sa création."
         ]
       }
     ]
@@ -59663,6 +59408,261 @@
     ]
   },
   {
+    "slug": "french-b2-art-et-creativite-listening",
+    "level": "B2",
+    "skill": "listening",
+    "unitId": "art-et-creativite",
+    "title": "Le portrait sonore de Mireille",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 35,
+    "orderIndex": 111,
+    "estimatedMinutes": 14,
+    "description": "Écoute ce contenu de niveau B2 et identifie les idées, les nuances et les preuves.",
+    "intro": "Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "Comment a-t-il commencé... ?",
+      "Tout commence par...",
+      "Qu’est-ce qui l’inspire ?",
+      "À la croisée de..."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Mireille crée des œuvres qui mélangent peinture, textile et enregistrements sonores. Son processus créatif commence rarement dans un atelier. Elle se promène, observe les couleurs d’un marché, écoute les conversations et collecte des matières ordinaires. Depuis quelques années, elle s’inspire de plus en plus des récits de migration de son quartier. Sa préparation devient de moins en moins solitaire : elle invite des habitants à raconter un souvenir, puis transforme certains mots en motifs visuels. Pour sa nouvelle exposition, elle a travaillé autant avec des musiciens qu’avec des couturières. Ce métissage ne cherche pas à effacer les différences, mais à montrer comment elles peuvent coexister dans une même œuvre. Mireille affirme que le public participe aussi au processus. Chaque visiteur entend une combinaison sonore légèrement différente selon son déplacement dans la salle. Ainsi, l’exposition n’est jamais exactement la même. Plus le projet avance, plus l’artiste renonce à contrôler toutes les interprétations. Elle considère cette ouverture non comme une faiblesse, mais comme la partie la plus vivante de sa création.",
+    "extra": {
+      "listeningType": "monologue",
+      "listeningFormat": "portrait",
+      "storyTitle": "Le portrait sonore de Mireille",
+      "mainTranscript": "Mireille crée des œuvres qui mélangent peinture, textile et enregistrements sonores. Son processus créatif commence rarement dans un atelier. Elle se promène, observe les couleurs d’un marché, écoute les conversations et collecte des matières ordinaires. Depuis quelques années, elle s’inspire de plus en plus des récits de migration de son quartier. Sa préparation devient de moins en moins solitaire : elle invite des habitants à raconter un souvenir, puis transforme certains mots en motifs visuels. Pour sa nouvelle exposition, elle a travaillé autant avec des musiciens qu’avec des couturières. Ce métissage ne cherche pas à effacer les différences, mais à montrer comment elles peuvent coexister dans une même œuvre. Mireille affirme que le public participe aussi au processus. Chaque visiteur entend une combinaison sonore légèrement différente selon son déplacement dans la salle. Ainsi, l’exposition n’est jamais exactement la même. Plus le projet avance, plus l’artiste renonce à contrôler toutes les interprétations. Elle considère cette ouverture non comme une faiblesse, mais comme la partie la plus vivante de sa création.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Mireille crée des œuvres qui mélangent peinture, textile et enregistrements sonores."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Son processus créatif commence rarement dans un atelier."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Elle se promène, observe les couleurs d’un marché, écoute les conversations et collecte des matières ordinaires."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "Depuis quelques années, elle s’inspire de plus en plus des récits de migration de son quartier."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Sa préparation devient de moins en moins solitaire : elle invite des habitants à raconter un souvenir, puis transforme certains mots en motifs visuels."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Pour sa nouvelle exposition, elle a travaillé autant avec des musiciens qu’avec des couturières."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Ce métissage ne cherche pas à effacer les différences, mais à montrer comment elles peuvent coexister dans une même œuvre."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Mireille affirme que le public participe aussi au processus."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Chaque visiteur entend une combinaison sonore légèrement différente selon son déplacement dans la salle."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Ainsi, l’exposition n’est jamais exactement la même."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Plus le projet avance, plus l’artiste renonce à contrôler toutes les interprétations."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "Elle considère cette ouverture non comme une faiblesse, mais comme la partie la plus vivante de sa création."
+        }
+      ],
+      "difficulty": "B2",
+      "durationSeconds": 85,
+      "speakers": [
+        "Animatrice",
+        "Invité"
+      ],
+      "phoneticSupport": {
+        "enabled": true,
+        "locale": "fr-FR",
+        "focus": "Marque les groupes rythmiques et les mots de contraste. Fais entendre la différence entre une affirmation ferme et une conclusion nuancée.",
+        "segments": [],
+        "stressedWords": [
+          "établi",
+          "inférer",
+          "objection",
+          "réviser"
+        ],
+        "difficultSounds": [],
+        "reviewStatus": "verified"
+      },
+      "listeningComprehension": {
+        "id": "french-b2-art-et-creativite-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Dans « Le portrait sonore de Mireille », quel détail présente la situation ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Mireille crée des œuvres qui mélangent peinture, textile et enregistrements sonores."
+              },
+              {
+                "id": "o2",
+                "text": "Sa préparation devient de moins en moins solitaire : elle invite des habitants à raconter un souvenir, puis transforme certains mots en motifs visuels."
+              },
+              {
+                "id": "o3",
+                "text": "Mireille affirme que le public participe aussi au processus."
+              },
+              {
+                "id": "o4",
+                "text": "Elle considère cette ouverture non comme une faiblesse, mais comme la partie la plus vivante de sa création."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Après « Mireille crée des œuvres qui mélangent peinture, textile et… », que se passe-t-il ensuite dans « Le portrait sonore de Mireille » ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Mireille crée des œuvres qui mélangent peinture, textile et enregistrements sonores."
+              },
+              {
+                "id": "o2",
+                "text": "Sa préparation devient de moins en moins solitaire : elle invite des habitants à raconter un souvenir, puis transforme certains mots en motifs visuels."
+              },
+              {
+                "id": "o3",
+                "text": "Mireille affirme que le public participe aussi au processus."
+              },
+              {
+                "id": "o4",
+                "text": "Elle considère cette ouverture non comme une faiblesse, mais comme la partie la plus vivante de sa création."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Le portrait sonore de Mireille » ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Mireille crée des œuvres qui mélangent peinture, textile et enregistrements sonores."
+              },
+              {
+                "id": "o2",
+                "text": "Sa préparation devient de moins en moins solitaire : elle invite des habitants à raconter un souvenir, puis transforme certains mots en motifs visuels."
+              },
+              {
+                "id": "o3",
+                "text": "Mireille affirme que le public participe aussi au processus."
+              },
+              {
+                "id": "o4",
+                "text": "Elle considère cette ouverture non comme une faiblesse, mais comme la partie la plus vivante de sa création."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quel résultat conclut « Le portrait sonore de Mireille » après « Mireille affirme que le public participe aussi au processus. » ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Mireille crée des œuvres qui mélangent peinture, textile et enregistrements sonores."
+              },
+              {
+                "id": "o2",
+                "text": "Sa préparation devient de moins en moins solitaire : elle invite des habitants à raconter un souvenir, puis transforme certains mots en motifs visuels."
+              },
+              {
+                "id": "o3",
+                "text": "Mireille affirme que le public participe aussi au processus."
+              },
+              {
+                "id": "o4",
+                "text": "Elle considère cette ouverture non comme une faiblesse, mais comme la partie la plus vivante de sa création."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Dans « Le portrait sonore de Mireille », quel détail présente la situation ?",
+        "options": [
+          "Mireille crée des œuvres qui mélangent peinture, textile et enregistrements sonores.",
+          "Sa préparation devient de moins en moins solitaire : elle invite des habitants à raconter un souvenir, puis transforme certains mots en motifs visuels.",
+          "Mireille affirme que le public participe aussi au processus.",
+          "Elle considère cette ouverture non comme une faiblesse, mais comme la partie la plus vivante de sa création."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Après « Mireille crée des œuvres qui mélangent peinture, textile et… », que se passe-t-il ensuite dans « Le portrait sonore de Mireille » ?",
+        "options": [
+          "Mireille crée des œuvres qui mélangent peinture, textile et enregistrements sonores.",
+          "Sa préparation devient de moins en moins solitaire : elle invite des habitants à raconter un souvenir, puis transforme certains mots en motifs visuels.",
+          "Mireille affirme que le public participe aussi au processus.",
+          "Elle considère cette ouverture non comme une faiblesse, mais comme la partie la plus vivante de sa création."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Le portrait sonore de Mireille » ?",
+        "options": [
+          "Mireille crée des œuvres qui mélangent peinture, textile et enregistrements sonores.",
+          "Sa préparation devient de moins en moins solitaire : elle invite des habitants à raconter un souvenir, puis transforme certains mots en motifs visuels.",
+          "Mireille affirme que le public participe aussi au processus.",
+          "Elle considère cette ouverture non comme une faiblesse, mais comme la partie la plus vivante de sa création."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quel résultat conclut « Le portrait sonore de Mireille » après « Mireille affirme que le public participe aussi au processus. » ?",
+        "options": [
+          "Mireille crée des œuvres qui mélangent peinture, textile et enregistrements sonores.",
+          "Sa préparation devient de moins en moins solitaire : elle invite des habitants à raconter un souvenir, puis transforme certains mots en motifs visuels.",
+          "Mireille affirme que le public participe aussi au processus.",
+          "Elle considère cette ouverture non comme une faiblesse, mais comme la partie la plus vivante de sa création."
+        ]
+      }
+    ]
+  },
+  {
     "slug": "french-a1-les-vetements-et-les-achats-speaking",
     "level": "A1",
     "skill": "speaking",
@@ -59755,67 +59755,6 @@
       {
         "type": "speaking",
         "prompt": "Simule une demande au guichet : présente ta démarche et pose au moins trois questions pratiques."
-      }
-    ]
-  },
-  {
-    "slug": "french-b2-art-et-creativite-speaking",
-    "level": "B2",
-    "skill": "speaking",
-    "unitId": "art-et-creativite",
-    "title": "Mener une interview",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 112,
-    "estimatedMinutes": 14,
-    "description": "Prépare et simule une interview sur un processus créatif ou professionnel.",
-    "intro": "Prépare et simule une interview sur un processus créatif ou professionnel.",
-    "mission": "Prépare cinq questions et simule une interview avec un/une camarade sur un processus créatif (artistique, professionnel ou personnel).",
-    "grammar": "",
-    "phrases": [
-      "Comment commence votre processus... ?",
-      "Qu’est-ce qui vous inspire ?",
-      "Avez-vous déjà rencontré des difficultés ?",
-      "Que diriez-vous à quelqu’un qui débute ?"
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Toi",
-        "line": "Comment commence votre processus créatif ? Qu’est-ce qui vous inspire le plus dans votre travail ?",
-        "translation": "¿Cómo comienza su proceso creativo? ¿Qué es lo que más le inspira en su trabajo?"
-      }
-    ],
-    "reading": null,
-    "transcript": "Toi : Comment commence votre processus créatif ? Qu’est-ce qui vous inspire le plus dans votre travail ?",
-    "extra": {
-      "communicationGuide": {
-        "steps": [
-          "Enregistre une première réponse sans lire un texte complet.",
-          "Utilise la transcription vocale pour vérifier ce qui a été compris.",
-          "Demande au Tuteur IA un retour sur la clarté, les preuves et le registre.",
-          "Enregistre une seconde version et compare fluidité et prononciation."
-        ],
-        "premiumMode": "Conversation libre avec le Tuteur IA",
-        "pronunciationTargets": [
-          "groupes rythmiques",
-          "mise en relief",
-          "enchaînements",
-          "intonation nuancée"
-        ]
-      },
-      "grammarTest": null,
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Mène une interview simulée de cinq questions sur un processus créatif, avec un/une camarade."
-      },
-      {
-        "type": "practice",
-        "prompt": "Échangez les rôles : interviewer et interviewé(e), sur un sujet de votre choix."
       }
     ]
   },
@@ -59970,6 +59909,67 @@
     ]
   },
   {
+    "slug": "french-b2-art-et-creativite-speaking",
+    "level": "B2",
+    "skill": "speaking",
+    "unitId": "art-et-creativite",
+    "title": "Mener une interview",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 112,
+    "estimatedMinutes": 14,
+    "description": "Prépare et simule une interview sur un processus créatif ou professionnel.",
+    "intro": "Prépare et simule une interview sur un processus créatif ou professionnel.",
+    "mission": "Prépare cinq questions et simule une interview avec un/une camarade sur un processus créatif (artistique, professionnel ou personnel).",
+    "grammar": "",
+    "phrases": [
+      "Comment commence votre processus... ?",
+      "Qu’est-ce qui vous inspire ?",
+      "Avez-vous déjà rencontré des difficultés ?",
+      "Que diriez-vous à quelqu’un qui débute ?"
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Toi",
+        "line": "Comment commence votre processus créatif ? Qu’est-ce qui vous inspire le plus dans votre travail ?",
+        "translation": "¿Cómo comienza su proceso creativo? ¿Qué es lo que más le inspira en su trabajo?"
+      }
+    ],
+    "reading": null,
+    "transcript": "Toi : Comment commence votre processus créatif ? Qu’est-ce qui vous inspire le plus dans votre travail ?",
+    "extra": {
+      "communicationGuide": {
+        "steps": [
+          "Enregistre une première réponse sans lire un texte complet.",
+          "Utilise la transcription vocale pour vérifier ce qui a été compris.",
+          "Demande au Tuteur IA un retour sur la clarté, les preuves et le registre.",
+          "Enregistre une seconde version et compare fluidité et prononciation."
+        ],
+        "premiumMode": "Conversation libre avec le Tuteur IA",
+        "pronunciationTargets": [
+          "groupes rythmiques",
+          "mise en relief",
+          "enchaînements",
+          "intonation nuancée"
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Mène une interview simulée de cinq questions sur un processus créatif, avec un/une camarade."
+      },
+      {
+        "type": "practice",
+        "prompt": "Échangez les rôles : interviewer et interviewé(e), sur un sujet de votre choix."
+      }
+    ]
+  },
+  {
     "slug": "french-a1-les-vetements-et-les-achats-writing",
     "level": "A1",
     "skill": "writing",
@@ -60036,64 +60036,6 @@
       {
         "type": "writing",
         "prompt": "Écris un e-mail de 80 à 100 mots à un service public en utilisant y ou en au moins une fois."
-      }
-    ]
-  },
-  {
-    "slug": "french-b2-art-et-creativite-writing",
-    "level": "B2",
-    "skill": "writing",
-    "unitId": "art-et-creativite",
-    "title": "Rédiger une interview",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 35,
-    "orderIndex": 113,
-    "estimatedMinutes": 18,
-    "description": "Rédige le compte-rendu écrit d’une interview sur un processus créatif.",
-    "intro": "Rédige le compte-rendu écrit d’une interview sur un processus créatif.",
-    "mission": "Écris 200 à 250 mots présentant une interview (réelle ou imaginaire) sur un processus créatif, avec au moins une citation rapportée et un comparatif avancé.",
-    "grammar": "",
-    "phrases": [
-      "Elle explique que...",
-      "Elle a confié que...",
-      "De plus en plus / de moins en moins...",
-      "Selon elle..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Modèle",
-        "line": "Lors de notre entretien, l’artiste a expliqué que son processus créatif commence toujours par une longue période d’observation. Elle a confié que, de plus en plus, elle se sent libre de mélanger différentes influences culturelles dans son travail.",
-        "translation": "Durante nuestra entrevista, la artista explicó que su proceso creativo siempre comienza con un largo período de observación. Confesó que, cada vez más, se siente libre de mezclar diferentes influencias culturales en su trabajo."
-      }
-    ],
-    "reading": null,
-    "transcript": "Modèle : Lors de notre entretien, l’artiste a expliqué que son processus créatif commence toujours par une longue période d’observation. Elle a confié que, de plus en plus, elle se sent libre de mélanger différentes influences culturelles dans son travail.",
-    "extra": {
-      "writingGuide": {
-        "taskType": "texte argumentatif structuré",
-        "steps": [
-          "Délimite la question et rédige une thèse en une phrase.",
-          "Choisis deux preuves ou exemples et explique leur pertinence.",
-          "Présente loyalement l’objection la plus solide.",
-          "Réponds sans exagérer la portée des preuves.",
-          "Révise la cohésion, la grammaire, le registre et la conclusion."
-        ],
-        "checklist": [
-          "Utilise au moins deux termes de l’unité : une œuvre, un processus créatif, s’inspirer de.",
-          "Emploie correctement comparatifs et superlatifs avancés (autant que, de moins en moins) au moins une fois.",
-          "Distingue preuve, inférence et jugement.",
-          "Vérifie les liens entre les paragraphes et supprime les affirmations absolues non justifiées."
-        ]
-      },
-      "grammarTest": null,
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "writing",
-        "prompt": "Écris le compte-rendu de 200 à 250 mots d’une interview sur un processus créatif, avec une citation rapportée et un comparatif avancé."
       }
     ]
   },
@@ -60210,6 +60152,64 @@
       {
         "type": "writing",
         "prompt": "Rédige 300–350 mots. Avant l’envoi, vérifie la présence d’une thèse, de deux arguments développés, d’une objection et d’une conclusion nuancée."
+      }
+    ]
+  },
+  {
+    "slug": "french-b2-art-et-creativite-writing",
+    "level": "B2",
+    "skill": "writing",
+    "unitId": "art-et-creativite",
+    "title": "Rédiger une interview",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 35,
+    "orderIndex": 113,
+    "estimatedMinutes": 18,
+    "description": "Rédige le compte-rendu écrit d’une interview sur un processus créatif.",
+    "intro": "Rédige le compte-rendu écrit d’une interview sur un processus créatif.",
+    "mission": "Écris 200 à 250 mots présentant une interview (réelle ou imaginaire) sur un processus créatif, avec au moins une citation rapportée et un comparatif avancé.",
+    "grammar": "",
+    "phrases": [
+      "Elle explique que...",
+      "Elle a confié que...",
+      "De plus en plus / de moins en moins...",
+      "Selon elle..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Modèle",
+        "line": "Lors de notre entretien, l’artiste a expliqué que son processus créatif commence toujours par une longue période d’observation. Elle a confié que, de plus en plus, elle se sent libre de mélanger différentes influences culturelles dans son travail.",
+        "translation": "Durante nuestra entrevista, la artista explicó que su proceso creativo siempre comienza con un largo período de observación. Confesó que, cada vez más, se siente libre de mezclar diferentes influencias culturales en su trabajo."
+      }
+    ],
+    "reading": null,
+    "transcript": "Modèle : Lors de notre entretien, l’artiste a expliqué que son processus créatif commence toujours par une longue période d’observation. Elle a confié que, de plus en plus, elle se sent libre de mélanger différentes influences culturelles dans son travail.",
+    "extra": {
+      "writingGuide": {
+        "taskType": "texte argumentatif structuré",
+        "steps": [
+          "Délimite la question et rédige une thèse en une phrase.",
+          "Choisis deux preuves ou exemples et explique leur pertinence.",
+          "Présente loyalement l’objection la plus solide.",
+          "Réponds sans exagérer la portée des preuves.",
+          "Révise la cohésion, la grammaire, le registre et la conclusion."
+        ],
+        "checklist": [
+          "Utilise au moins deux termes de l’unité : une œuvre, un processus créatif, s’inspirer de.",
+          "Emploie correctement comparatifs et superlatifs avancés (autant que, de moins en moins) au moins une fois.",
+          "Distingue preuve, inférence et jugement.",
+          "Vérifie les liens entre les paragraphes et supprime les affirmations absolues non justifiées."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Écris le compte-rendu de 200 à 250 mots d’une interview sur un processus créatif, avec une citation rapportée et un comparatif avancé."
       }
     ]
   },
@@ -60770,287 +60770,6 @@
           "en",
           "le",
           "lui"
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "french-b2-art-et-creativite-grammar",
-    "level": "B2",
-    "skill": "grammar",
-    "unitId": "art-et-creativite",
-    "title": "Les comparatifs avancés (de plus en plus, de moins en moins, autant que)",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 114,
-    "estimatedMinutes": 14,
-    "description": "Exprimer une évolution progressive et une comparaison d’intensité égale.",
-    "intro": "Exprimer une évolution progressive et une comparaison d’intensité égale.",
-    "mission": "",
-    "grammar": "« De plus en plus » et « de moins en moins » expriment une évolution progressive : « Elle se sent de plus en plus libre. » « Autant que » compare deux intensités égales : « Sa préparation compte autant que son écoute. »",
-    "phrases": [
-      "De plus en plus...",
-      "De moins en moins...",
-      "Autant que...",
-      "Plus elle avance, plus elle..."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "grammarTest": {
-        "id": "french-b2-art-et-creativite-grammar-test",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "french-b2-art-et-creativite-grammar-q1",
-            "type": "mcq",
-            "prompt": "Elle se sent ___ libre dans son travail au fil du temps.",
-            "difficulty": "application",
-            "options": [
-              {
-                "id": "a",
-                "text": "de plus en plus"
-              },
-              {
-                "id": "b",
-                "text": "de moins en moins"
-              },
-              {
-                "id": "c",
-                "text": "autant que"
-              },
-              {
-                "id": "d",
-                "text": "aussi"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-art-et-creativite-grammar-q2",
-            "type": "mcq",
-            "prompt": "Sa préparation compte ___ sa capacité d’écoute.",
-            "difficulty": "application",
-            "options": [
-              {
-                "id": "a",
-                "text": "plus que"
-              },
-              {
-                "id": "b",
-                "text": "autant que"
-              },
-              {
-                "id": "c",
-                "text": "moins que"
-              },
-              {
-                "id": "d",
-                "text": "aussi bon que"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-art-et-creativite-grammar-q3",
-            "type": "mcq",
-            "prompt": "Elle reçoit ___ ce genre de remarque aujourd’hui.",
-            "difficulty": "analysis",
-            "options": [
-              {
-                "id": "a",
-                "text": "de plus en plus"
-              },
-              {
-                "id": "c",
-                "text": "aussi"
-              },
-              {
-                "id": "b",
-                "text": "de moins en moins"
-              },
-              {
-                "id": "d",
-                "text": "que"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-art-et-creativite-grammar-q4",
-            "type": "mcq",
-            "prompt": "Quelle structure exprime une évolution progressive ?",
-            "difficulty": "analysis",
-            "options": [
-              {
-                "id": "a",
-                "text": "Plus... que"
-              },
-              {
-                "id": "c",
-                "text": "Aussi... que"
-              },
-              {
-                "id": "d",
-                "text": "Moins... que"
-              },
-              {
-                "id": "b",
-                "text": "De plus en plus"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-art-et-creativite-grammar-q5",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Elle se sent de moins en moins libre dans son travail au fil du temps. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Elle se sent de plus en plus libre dans son travail au fil du temps."
-              },
-              {
-                "id": "b",
-                "text": "Elle se sent de moins en moins libre dans son travail au fil du temps."
-              },
-              {
-                "id": "c",
-                "text": "Elle se sent autant que libre dans son travail au fil du temps."
-              },
-              {
-                "id": "d",
-                "text": "Elle se sent aussi libre dans son travail au fil du temps."
-              }
-            ]
-          },
-          {
-            "id": "french-b2-art-et-creativite-grammar-q6",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Sa préparation compte plus que sa capacité d’écoute. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Sa préparation compte plus que sa capacité d’écoute."
-              },
-              {
-                "id": "b",
-                "text": "Sa préparation compte autant que sa capacité d’écoute."
-              },
-              {
-                "id": "c",
-                "text": "Sa préparation compte moins que sa capacité d’écoute."
-              },
-              {
-                "id": "d",
-                "text": "Sa préparation compte aussi bon que sa capacité d’écoute."
-              }
-            ]
-          },
-          {
-            "id": "french-b2-art-et-creativite-grammar-q7",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Elle reçoit de plus en plus ce genre de remarque aujourd’hui. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Elle reçoit de plus en plus ce genre de remarque aujourd’hui."
-              },
-              {
-                "id": "c",
-                "text": "Elle reçoit aussi ce genre de remarque aujourd’hui."
-              },
-              {
-                "id": "b",
-                "text": "Elle reçoit de moins en moins ce genre de remarque aujourd’hui."
-              },
-              {
-                "id": "d",
-                "text": "Elle reçoit que ce genre de remarque aujourd’hui."
-              }
-            ]
-          },
-          {
-            "id": "french-b2-art-et-creativite-grammar-q8",
-            "type": "mcq",
-            "prompt": "Quelle réponse corrige l’erreur « Plus... que » dans ce contexte : « Quelle structure exprime une évolution progressive ? » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Plus... que"
-              },
-              {
-                "id": "c",
-                "text": "Aussi... que"
-              },
-              {
-                "id": "d",
-                "text": "Moins... que"
-              },
-              {
-                "id": "b",
-                "text": "De plus en plus"
-              }
-            ]
-          }
-        ]
-      },
-      "grammarProfile": {
-        "name": "Les comparatifs avancés (de plus en plus, de moins en moins, autant que)",
-        "definition": "« De plus en plus » et « de moins en moins » expriment une évolution progressive : « Elle se sent de plus en plus libre. » « Autant que » compare deux intensités égales : « Sa préparation compte autant que son écoute. »",
-        "structure": "Forme à observer : Les comparatifs avancés (de plus en plus, de moins en moins, autant que). Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
-        "function": "Exprimer une évolution progressive et une comparaison d’intensité égale.",
-        "examples": [
-          "Elle se sent de plus en plus libre dans son travail au fil du temps.",
-          "Sa préparation compte autant que sa capacité d’écoute.",
-          "Elle reçoit de moins en moins ce genre de remarque aujourd’hui.",
-          "De plus en plus"
-        ]
-      },
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Elle se sent ___ libre dans son travail au fil du temps.",
-        "options": [
-          "de plus en plus",
-          "de moins en moins",
-          "autant que",
-          "aussi"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Sa préparation compte ___ sa capacité d’écoute.",
-        "options": [
-          "plus que",
-          "autant que",
-          "moins que",
-          "aussi bon que"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Elle reçoit ___ ce genre de remarque aujourd’hui.",
-        "options": [
-          "de plus en plus",
-          "de moins en moins",
-          "aussi",
-          "que"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle structure exprime une évolution progressive ?",
-        "options": [
-          "Plus... que",
-          "De plus en plus",
-          "Aussi... que",
-          "Moins... que"
         ]
       }
     ]
@@ -61711,6 +61430,287 @@
     ]
   },
   {
+    "slug": "french-b2-art-et-creativite-grammar",
+    "level": "B2",
+    "skill": "grammar",
+    "unitId": "art-et-creativite",
+    "title": "Les comparatifs avancés (de plus en plus, de moins en moins, autant que)",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 114,
+    "estimatedMinutes": 14,
+    "description": "Exprimer une évolution progressive et une comparaison d’intensité égale.",
+    "intro": "Exprimer une évolution progressive et une comparaison d’intensité égale.",
+    "mission": "",
+    "grammar": "« De plus en plus » et « de moins en moins » expriment une évolution progressive : « Elle se sent de plus en plus libre. » « Autant que » compare deux intensités égales : « Sa préparation compte autant que son écoute. »",
+    "phrases": [
+      "De plus en plus...",
+      "De moins en moins...",
+      "Autant que...",
+      "Plus elle avance, plus elle..."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": {
+      "grammarTest": {
+        "id": "french-b2-art-et-creativite-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "french-b2-art-et-creativite-grammar-q1",
+            "type": "mcq",
+            "prompt": "Elle se sent ___ libre dans son travail au fil du temps.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "de plus en plus"
+              },
+              {
+                "id": "b",
+                "text": "de moins en moins"
+              },
+              {
+                "id": "c",
+                "text": "autant que"
+              },
+              {
+                "id": "d",
+                "text": "aussi"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-art-et-creativite-grammar-q2",
+            "type": "mcq",
+            "prompt": "Sa préparation compte ___ sa capacité d’écoute.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "plus que"
+              },
+              {
+                "id": "b",
+                "text": "autant que"
+              },
+              {
+                "id": "c",
+                "text": "moins que"
+              },
+              {
+                "id": "d",
+                "text": "aussi bon que"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-art-et-creativite-grammar-q3",
+            "type": "mcq",
+            "prompt": "Elle reçoit ___ ce genre de remarque aujourd’hui.",
+            "difficulty": "analysis",
+            "options": [
+              {
+                "id": "a",
+                "text": "de plus en plus"
+              },
+              {
+                "id": "c",
+                "text": "aussi"
+              },
+              {
+                "id": "b",
+                "text": "de moins en moins"
+              },
+              {
+                "id": "d",
+                "text": "que"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-art-et-creativite-grammar-q4",
+            "type": "mcq",
+            "prompt": "Quelle structure exprime une évolution progressive ?",
+            "difficulty": "analysis",
+            "options": [
+              {
+                "id": "a",
+                "text": "Plus... que"
+              },
+              {
+                "id": "c",
+                "text": "Aussi... que"
+              },
+              {
+                "id": "d",
+                "text": "Moins... que"
+              },
+              {
+                "id": "b",
+                "text": "De plus en plus"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-art-et-creativite-grammar-q5",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Elle se sent de moins en moins libre dans son travail au fil du temps. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Elle se sent de plus en plus libre dans son travail au fil du temps."
+              },
+              {
+                "id": "b",
+                "text": "Elle se sent de moins en moins libre dans son travail au fil du temps."
+              },
+              {
+                "id": "c",
+                "text": "Elle se sent autant que libre dans son travail au fil du temps."
+              },
+              {
+                "id": "d",
+                "text": "Elle se sent aussi libre dans son travail au fil du temps."
+              }
+            ]
+          },
+          {
+            "id": "french-b2-art-et-creativite-grammar-q6",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Sa préparation compte plus que sa capacité d’écoute. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Sa préparation compte plus que sa capacité d’écoute."
+              },
+              {
+                "id": "b",
+                "text": "Sa préparation compte autant que sa capacité d’écoute."
+              },
+              {
+                "id": "c",
+                "text": "Sa préparation compte moins que sa capacité d’écoute."
+              },
+              {
+                "id": "d",
+                "text": "Sa préparation compte aussi bon que sa capacité d’écoute."
+              }
+            ]
+          },
+          {
+            "id": "french-b2-art-et-creativite-grammar-q7",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Elle reçoit de plus en plus ce genre de remarque aujourd’hui. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Elle reçoit de plus en plus ce genre de remarque aujourd’hui."
+              },
+              {
+                "id": "c",
+                "text": "Elle reçoit aussi ce genre de remarque aujourd’hui."
+              },
+              {
+                "id": "b",
+                "text": "Elle reçoit de moins en moins ce genre de remarque aujourd’hui."
+              },
+              {
+                "id": "d",
+                "text": "Elle reçoit que ce genre de remarque aujourd’hui."
+              }
+            ]
+          },
+          {
+            "id": "french-b2-art-et-creativite-grammar-q8",
+            "type": "mcq",
+            "prompt": "Quelle réponse corrige l’erreur « Plus... que » dans ce contexte : « Quelle structure exprime une évolution progressive ? » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Plus... que"
+              },
+              {
+                "id": "c",
+                "text": "Aussi... que"
+              },
+              {
+                "id": "d",
+                "text": "Moins... que"
+              },
+              {
+                "id": "b",
+                "text": "De plus en plus"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Les comparatifs avancés (de plus en plus, de moins en moins, autant que)",
+        "definition": "« De plus en plus » et « de moins en moins » expriment une évolution progressive : « Elle se sent de plus en plus libre. » « Autant que » compare deux intensités égales : « Sa préparation compte autant que son écoute. »",
+        "structure": "Forme à observer : Les comparatifs avancés (de plus en plus, de moins en moins, autant que). Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Exprimer une évolution progressive et une comparaison d’intensité égale.",
+        "examples": [
+          "Elle se sent de plus en plus libre dans son travail au fil du temps.",
+          "Sa préparation compte autant que sa capacité d’écoute.",
+          "Elle reçoit de moins en moins ce genre de remarque aujourd’hui.",
+          "De plus en plus"
+        ]
+      },
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Elle se sent ___ libre dans son travail au fil du temps.",
+        "options": [
+          "de plus en plus",
+          "de moins en moins",
+          "autant que",
+          "aussi"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Sa préparation compte ___ sa capacité d’écoute.",
+        "options": [
+          "plus que",
+          "autant que",
+          "moins que",
+          "aussi bon que"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Elle reçoit ___ ce genre de remarque aujourd’hui.",
+        "options": [
+          "de plus en plus",
+          "de moins en moins",
+          "aussi",
+          "que"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle structure exprime une évolution progressive ?",
+        "options": [
+          "Plus... que",
+          "De plus en plus",
+          "Aussi... que",
+          "Moins... que"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "french-a1-les-vetements-et-les-achats-vocabulary",
     "level": "A1",
     "skill": "vocabulary",
@@ -61911,86 +61911,6 @@
           "Rendre de nouveau valable",
           "Comparer deux prix",
           "Changer de logement"
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "french-b2-art-et-creativite-vocabulary",
-    "level": "B2",
-    "skill": "vocabulary",
-    "unitId": "art-et-creativite",
-    "title": "Le vocabulaire de l’art et de la créativité",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 115,
-    "estimatedMinutes": 10,
-    "description": "Le vocabulaire essentiel pour parler d’art et de processus créatif.",
-    "intro": "Le vocabulaire essentiel pour parler d’art et de processus créatif.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [
-      {
-        "word": "une œuvre",
-        "translation": "una obra",
-        "example": "Cette œuvre explore le thème de l’identité."
-      },
-      {
-        "word": "un processus créatif",
-        "translation": "un proceso creativo",
-        "example": "Son processus créatif commence par l’observation."
-      },
-      {
-        "word": "s’inspirer de",
-        "translation": "inspirarse en",
-        "example": "Elle s’inspire des couleurs de la mer."
-      },
-      {
-        "word": "une exposition",
-        "translation": "una exposición",
-        "example": "Sa dernière exposition a eu beaucoup de succès."
-      },
-      {
-        "word": "le métissage",
-        "translation": "el mestizaje",
-        "example": "Son art explore le métissage culturel."
-      }
-    ],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « une œuvre » ?",
-        "options": [
-          "Una obra",
-          "Un pincel",
-          "Una galería",
-          "Un museo"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « s’inspirer de » ?",
-        "options": [
-          "Inspirarse en",
-          "Ignorar",
-          "Copiar exactamente",
-          "Vender"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « le métissage » ?",
-        "options": [
-          "El mestizaje",
-          "La pintura",
-          "El museo",
-          "La escultura"
         ]
       }
     ]
@@ -62490,6 +62410,86 @@
     ]
   },
   {
+    "slug": "french-b2-art-et-creativite-vocabulary",
+    "level": "B2",
+    "skill": "vocabulary",
+    "unitId": "art-et-creativite",
+    "title": "Le vocabulaire de l’art et de la créativité",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 115,
+    "estimatedMinutes": 10,
+    "description": "Le vocabulaire essentiel pour parler d’art et de processus créatif.",
+    "intro": "Le vocabulaire essentiel pour parler d’art et de processus créatif.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "une œuvre",
+        "translation": "una obra",
+        "example": "Cette œuvre explore le thème de l’identité."
+      },
+      {
+        "word": "un processus créatif",
+        "translation": "un proceso creativo",
+        "example": "Son processus créatif commence par l’observation."
+      },
+      {
+        "word": "s’inspirer de",
+        "translation": "inspirarse en",
+        "example": "Elle s’inspire des couleurs de la mer."
+      },
+      {
+        "word": "une exposition",
+        "translation": "una exposición",
+        "example": "Sa dernière exposition a eu beaucoup de succès."
+      },
+      {
+        "word": "le métissage",
+        "translation": "el mestizaje",
+        "example": "Son art explore le métissage culturel."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « une œuvre » ?",
+        "options": [
+          "Una obra",
+          "Un pincel",
+          "Una galería",
+          "Un museo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « s’inspirer de » ?",
+        "options": [
+          "Inspirarse en",
+          "Ignorar",
+          "Copiar exactamente",
+          "Vender"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « le métissage » ?",
+        "options": [
+          "El mestizaje",
+          "La pintura",
+          "El museo",
+          "La escultura"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "french-a1-les-vetements-et-les-achats-dialogue",
     "level": "A1",
     "skill": "dialogue",
@@ -62970,96 +62970,6 @@
     ]
   },
   {
-    "slug": "french-b2-bilan-et-projets-davenir-reading",
-    "level": "B2",
-    "skill": "reading",
-    "unitId": "bilan-et-projets-davenir",
-    "title": "Ce que les études disent des bénéfices d’une mobilité internationale",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 35,
-    "orderIndex": 120,
-    "estimatedMinutes": 18,
-    "description": "Pourquoi un séjour académique à l’étranger continue de transformer durablement les parcours des jeunes qui l’entreprennent.",
-    "intro": "Pourquoi un séjour académique à l’étranger continue de transformer durablement les parcours des jeunes qui l’entreprennent.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": {
-      "title": "Ce que les études disent des bénéfices d’une mobilité internationale",
-      "parts": [
-        "Depuis son lancement en 1987, le programme européen Erasmus a permis à plus de treize millions de jeunes d’étudier ou de se former dans un autre pays — un chiffre qui, à lui seul, donne la mesure de ce que ce dispositif a représenté pour plusieurs générations d’Européens. Si la motivation initiale de ces jeunes est souvent académique ou linguistique, une enquête de grande ampleur menée par la Commission européenne montre qu’avec le recul, les bénéfices d’une telle expérience dépassent largement le cadre strictement scolaire.",
-        "Cette enquête a ainsi révélé que les anciens étudiants Erasmus présentaient, plusieurs années après leur retour, un taux d’insertion professionnelle nettement supérieur à celui des étudiants n’ayant jamais effectué de mobilité internationale — un écart que les chercheurs expliquent notamment par le développement de compétences interculturelles et d’une plus grande adaptabilité, très recherchées par les employeurs. S’ils avaient renoncé à cette expérience, par crainte de l’inconnu ou par manque de moyens financiers, ces jeunes n’auraient probablement pas développé aussi rapidement cette capacité à évoluer dans des environnements incertains.",
-        "Au-delà des compétences directement valorisables sur le marché du travail, les chercheurs en psychologie du développement soulignent des effets moins visibles mais tout aussi déterminants : une meilleure connaissance de soi, une capacité accrue à remettre en question ses propres certitudes culturelles, et souvent une plus grande tolérance à l’ambiguïté — cette capacité à avancer sereinement même lorsque toutes les réponses ne sont pas immédiatement disponibles. Il se pourrait bien que ce soit cette dernière compétence, difficilement mesurable par un diplôme, qui se révèle la plus précieuse dans un monde professionnel en constante évolution.",
-        "En fin de compte, ce que confirment la plupart des études longitudinales menées sur ce sujet, c’est que l’impact d’une mobilité internationale se prolonge bien au-delà de la durée du séjour lui-même. Avec le recul, d’anciens participants reconnaissent eux-mêmes ne pas avoir possédé, avant leur départ, la détermination et l’ouverture d’esprit qui, aujourd’hui encore, continuent de guider leurs décisions les plus importantes."
-      ],
-      "questions": [
-        "Depuis quelle année le programme Erasmus existe-t-il, et combien de jeunes en ont bénéficié, selon le texte ?",
-        "Que révèle l’enquête de la Commission européenne sur les anciens étudiants Erasmus, selon le texte ?",
-        "Comment les chercheurs expliquent-ils cet écart d’insertion professionnelle ?",
-        "Que veut dire « la tolérance à l’ambiguïté », telle que définie dans le texte ?",
-        "Quelle est la conclusion générale des études longitudinales citées dans le texte ?"
-      ],
-      "text": "Depuis son lancement en 1987, le programme européen Erasmus a permis à plus de treize millions de jeunes d’étudier ou de se former dans un autre pays — un chiffre qui, à lui seul, donne la mesure de ce que ce dispositif a représenté pour plusieurs générations d’Européens. Si la motivation initiale de ces jeunes est souvent académique ou linguistique, une enquête de grande ampleur menée par la Commission européenne montre qu’avec le recul, les bénéfices d’une telle expérience dépassent largement le cadre strictement scolaire.\n\nCette enquête a ainsi révélé que les anciens étudiants Erasmus présentaient, plusieurs années après leur retour, un taux d’insertion professionnelle nettement supérieur à celui des étudiants n’ayant jamais effectué de mobilité internationale — un écart que les chercheurs expliquent notamment par le développement de compétences interculturelles et d’une plus grande adaptabilité, très recherchées par les employeurs. S’ils avaient renoncé à cette expérience, par crainte de l’inconnu ou par manque de moyens financiers, ces jeunes n’auraient probablement pas développé aussi rapidement cette capacité à évoluer dans des environnements incertains.\n\nAu-delà des compétences directement valorisables sur le marché du travail, les chercheurs en psychologie du développement soulignent des effets moins visibles mais tout aussi déterminants : une meilleure connaissance de soi, une capacité accrue à remettre en question ses propres certitudes culturelles, et souvent une plus grande tolérance à l’ambiguïté — cette capacité à avancer sereinement même lorsque toutes les réponses ne sont pas immédiatement disponibles. Il se pourrait bien que ce soit cette dernière compétence, difficilement mesurable par un diplôme, qui se révèle la plus précieuse dans un monde professionnel en constante évolution.\n\nEn fin de compte, ce que confirment la plupart des études longitudinales menées sur ce sujet, c’est que l’impact d’une mobilité internationale se prolonge bien au-delà de la durée du séjour lui-même. Avec le recul, d’anciens participants reconnaissent eux-mêmes ne pas avoir possédé, avant leur départ, la détermination et l’ouverture d’esprit qui, aujourd’hui encore, continuent de guider leurs décisions les plus importantes."
-    },
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Depuis quelle année le programme Erasmus existe-t-il, et combien de jeunes en ont bénéficié, selon le texte ?",
-        "options": [
-          "Depuis 1987, plus de treize millions de jeunes",
-          "Depuis 2000, environ mille jeunes",
-          "Depuis 1957, aucun chiffre n’est donné",
-          "Le texte ne précise ni date ni chiffre"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que révèle l’enquête de la Commission européenne sur les anciens étudiants Erasmus, selon le texte ?",
-        "options": [
-          "Un taux d’insertion professionnelle nettement supérieur à celui des étudiants sans mobilité",
-          "Un taux de chômage plus élevé",
-          "Aucune différence mesurable",
-          "Un désintérêt pour le monde professionnel"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment les chercheurs expliquent-ils cet écart d’insertion professionnelle ?",
-        "options": [
-          "Par le hasard uniquement",
-          "Par le développement de compétences interculturelles et d’une plus grande adaptabilité",
-          "Par un meilleur salaire de départ",
-          "Par une chance particulière"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que veut dire « la tolérance à l’ambiguïté », telle que définie dans le texte ?",
-        "options": [
-          "La capacité à avancer sereinement sans avoir toutes les réponses immédiatement",
-          "La capacité à mentir facilement",
-          "Le refus de toute décision",
-          "L’incapacité à s’adapter"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle est la conclusion générale des études longitudinales citées dans le texte ?",
-        "options": [
-          "L’impact de la mobilité internationale se limite à la durée du séjour",
-          "L’impact se prolonge bien au-delà du séjour, influençant durablement les décisions futures",
-          "La mobilité internationale n’a aucun effet mesurable",
-          "Seul le diplôme obtenu compte réellement"
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-bilan-identite-et-transmission-reading",
     "level": "C1",
     "skill": "reading",
@@ -63268,6 +63178,96 @@
           "Interdire toute documentation des données d’entraînement"
         ],
         "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Un algorithme peut-il être neutre ? »."
+      }
+    ]
+  },
+  {
+    "slug": "french-b2-bilan-et-projets-davenir-reading",
+    "level": "B2",
+    "skill": "reading",
+    "unitId": "bilan-et-projets-davenir",
+    "title": "Ce que les études disent des bénéfices d’une mobilité internationale",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 35,
+    "orderIndex": 120,
+    "estimatedMinutes": 18,
+    "description": "Pourquoi un séjour académique à l’étranger continue de transformer durablement les parcours des jeunes qui l’entreprennent.",
+    "intro": "Pourquoi un séjour académique à l’étranger continue de transformer durablement les parcours des jeunes qui l’entreprennent.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "Ce que les études disent des bénéfices d’une mobilité internationale",
+      "parts": [
+        "Depuis son lancement en 1987, le programme européen Erasmus a permis à plus de treize millions de jeunes d’étudier ou de se former dans un autre pays — un chiffre qui, à lui seul, donne la mesure de ce que ce dispositif a représenté pour plusieurs générations d’Européens. Si la motivation initiale de ces jeunes est souvent académique ou linguistique, une enquête de grande ampleur menée par la Commission européenne montre qu’avec le recul, les bénéfices d’une telle expérience dépassent largement le cadre strictement scolaire.",
+        "Cette enquête a ainsi révélé que les anciens étudiants Erasmus présentaient, plusieurs années après leur retour, un taux d’insertion professionnelle nettement supérieur à celui des étudiants n’ayant jamais effectué de mobilité internationale — un écart que les chercheurs expliquent notamment par le développement de compétences interculturelles et d’une plus grande adaptabilité, très recherchées par les employeurs. S’ils avaient renoncé à cette expérience, par crainte de l’inconnu ou par manque de moyens financiers, ces jeunes n’auraient probablement pas développé aussi rapidement cette capacité à évoluer dans des environnements incertains.",
+        "Au-delà des compétences directement valorisables sur le marché du travail, les chercheurs en psychologie du développement soulignent des effets moins visibles mais tout aussi déterminants : une meilleure connaissance de soi, une capacité accrue à remettre en question ses propres certitudes culturelles, et souvent une plus grande tolérance à l’ambiguïté — cette capacité à avancer sereinement même lorsque toutes les réponses ne sont pas immédiatement disponibles. Il se pourrait bien que ce soit cette dernière compétence, difficilement mesurable par un diplôme, qui se révèle la plus précieuse dans un monde professionnel en constante évolution.",
+        "En fin de compte, ce que confirment la plupart des études longitudinales menées sur ce sujet, c’est que l’impact d’une mobilité internationale se prolonge bien au-delà de la durée du séjour lui-même. Avec le recul, d’anciens participants reconnaissent eux-mêmes ne pas avoir possédé, avant leur départ, la détermination et l’ouverture d’esprit qui, aujourd’hui encore, continuent de guider leurs décisions les plus importantes."
+      ],
+      "questions": [
+        "Depuis quelle année le programme Erasmus existe-t-il, et combien de jeunes en ont bénéficié, selon le texte ?",
+        "Que révèle l’enquête de la Commission européenne sur les anciens étudiants Erasmus, selon le texte ?",
+        "Comment les chercheurs expliquent-ils cet écart d’insertion professionnelle ?",
+        "Que veut dire « la tolérance à l’ambiguïté », telle que définie dans le texte ?",
+        "Quelle est la conclusion générale des études longitudinales citées dans le texte ?"
+      ],
+      "text": "Depuis son lancement en 1987, le programme européen Erasmus a permis à plus de treize millions de jeunes d’étudier ou de se former dans un autre pays — un chiffre qui, à lui seul, donne la mesure de ce que ce dispositif a représenté pour plusieurs générations d’Européens. Si la motivation initiale de ces jeunes est souvent académique ou linguistique, une enquête de grande ampleur menée par la Commission européenne montre qu’avec le recul, les bénéfices d’une telle expérience dépassent largement le cadre strictement scolaire.\n\nCette enquête a ainsi révélé que les anciens étudiants Erasmus présentaient, plusieurs années après leur retour, un taux d’insertion professionnelle nettement supérieur à celui des étudiants n’ayant jamais effectué de mobilité internationale — un écart que les chercheurs expliquent notamment par le développement de compétences interculturelles et d’une plus grande adaptabilité, très recherchées par les employeurs. S’ils avaient renoncé à cette expérience, par crainte de l’inconnu ou par manque de moyens financiers, ces jeunes n’auraient probablement pas développé aussi rapidement cette capacité à évoluer dans des environnements incertains.\n\nAu-delà des compétences directement valorisables sur le marché du travail, les chercheurs en psychologie du développement soulignent des effets moins visibles mais tout aussi déterminants : une meilleure connaissance de soi, une capacité accrue à remettre en question ses propres certitudes culturelles, et souvent une plus grande tolérance à l’ambiguïté — cette capacité à avancer sereinement même lorsque toutes les réponses ne sont pas immédiatement disponibles. Il se pourrait bien que ce soit cette dernière compétence, difficilement mesurable par un diplôme, qui se révèle la plus précieuse dans un monde professionnel en constante évolution.\n\nEn fin de compte, ce que confirment la plupart des études longitudinales menées sur ce sujet, c’est que l’impact d’une mobilité internationale se prolonge bien au-delà de la durée du séjour lui-même. Avec le recul, d’anciens participants reconnaissent eux-mêmes ne pas avoir possédé, avant leur départ, la détermination et l’ouverture d’esprit qui, aujourd’hui encore, continuent de guider leurs décisions les plus importantes."
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Depuis quelle année le programme Erasmus existe-t-il, et combien de jeunes en ont bénéficié, selon le texte ?",
+        "options": [
+          "Depuis 1987, plus de treize millions de jeunes",
+          "Depuis 2000, environ mille jeunes",
+          "Depuis 1957, aucun chiffre n’est donné",
+          "Le texte ne précise ni date ni chiffre"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que révèle l’enquête de la Commission européenne sur les anciens étudiants Erasmus, selon le texte ?",
+        "options": [
+          "Un taux d’insertion professionnelle nettement supérieur à celui des étudiants sans mobilité",
+          "Un taux de chômage plus élevé",
+          "Aucune différence mesurable",
+          "Un désintérêt pour le monde professionnel"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Comment les chercheurs expliquent-ils cet écart d’insertion professionnelle ?",
+        "options": [
+          "Par le hasard uniquement",
+          "Par le développement de compétences interculturelles et d’une plus grande adaptabilité",
+          "Par un meilleur salaire de départ",
+          "Par une chance particulière"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que veut dire « la tolérance à l’ambiguïté », telle que définie dans le texte ?",
+        "options": [
+          "La capacité à avancer sereinement sans avoir toutes les réponses immédiatement",
+          "La capacité à mentir facilement",
+          "Le refus de toute décision",
+          "L’incapacité à s’adapter"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle est la conclusion générale des études longitudinales citées dans le texte ?",
+        "options": [
+          "L’impact de la mobilité internationale se limite à la durée du séjour",
+          "L’impact se prolonge bien au-delà du séjour, influençant durablement les décisions futures",
+          "La mobilité internationale n’a aucun effet mesurable",
+          "Seul le diplôme obtenu compte réellement"
+        ]
       }
     ]
   },
@@ -63759,251 +63759,6 @@
           "Vous pourriez apporter vos dons entre neuf heures et quinze heures.",
           "Si vous souhaitez aider, pourriez-vous vous inscrire avant jeudi sur notre site ou par téléphone ?",
           "Merci de votre participation et rendez-vous samedi au centre culturel."
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "french-b2-bilan-et-projets-davenir-listening",
-    "level": "B2",
-    "skill": "listening",
-    "unitId": "bilan-et-projets-davenir",
-    "title": "Avec le recul",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 35,
-    "orderIndex": 121,
-    "estimatedMinutes": 14,
-    "description": "Écoute ce contenu de niveau B2 et identifie les idées, les nuances et les preuves.",
-    "intro": "Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [
-      "Avec le recul...",
-      "Qu’avez-vous observé ?",
-      "S’ils avaient annulé..., ils n’auraient jamais...",
-      "Cette expérience a changé..."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont transformée. Si je n’étais pas partie étudier ailleurs, je n’aurais probablement pas appris à vivre avec autant d’incertitude. J’avais imaginé que l’adaptation serait rapide ; en réalité, elle a demandé du temps, des erreurs et beaucoup de patience. Certains accomplissements sont visibles, comme un diplôme ou un projet terminé. D’autres sont plus discrets : savoir demander de l’aide, reconnaître une limite ou changer d’avis. En fin de compte, les difficultés que j’aurais préféré éviter m’ont souvent obligée à mieux comprendre mes priorités. Aujourd’hui, je suis déterminée à poursuivre mes études, mais je ne veux plus confondre détermination et rigidité. Si une nouvelle possibilité se présente, je l’examinerai sans abandonner mon objectif principal. Mon bilan n’est donc pas une conclusion définitive. Il ressemble plutôt à un point de départ conscient : je sais mieux ce que j’ai construit, ce qui reste fragile et la direction dans laquelle je souhaite avancer.",
-    "extra": {
-      "listeningType": "monologue",
-      "listeningFormat": "reflection",
-      "storyTitle": "Avec le recul",
-      "mainTranscript": "Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont transformée. Si je n’étais pas partie étudier ailleurs, je n’aurais probablement pas appris à vivre avec autant d’incertitude. J’avais imaginé que l’adaptation serait rapide ; en réalité, elle a demandé du temps, des erreurs et beaucoup de patience. Certains accomplissements sont visibles, comme un diplôme ou un projet terminé. D’autres sont plus discrets : savoir demander de l’aide, reconnaître une limite ou changer d’avis. En fin de compte, les difficultés que j’aurais préféré éviter m’ont souvent obligée à mieux comprendre mes priorités. Aujourd’hui, je suis déterminée à poursuivre mes études, mais je ne veux plus confondre détermination et rigidité. Si une nouvelle possibilité se présente, je l’examinerai sans abandonner mon objectif principal. Mon bilan n’est donc pas une conclusion définitive. Il ressemble plutôt à un point de départ conscient : je sais mieux ce que j’ai construit, ce qui reste fragile et la direction dans laquelle je souhaite avancer.",
-      "transcriptSegments": [
-        {
-          "id": "segment-01",
-          "order": 1,
-          "text": "Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont transformée."
-        },
-        {
-          "id": "segment-02",
-          "order": 2,
-          "text": "Si je n’étais pas partie étudier ailleurs, je n’aurais probablement pas appris à vivre avec autant d’incertitude."
-        },
-        {
-          "id": "segment-03",
-          "order": 3,
-          "text": "J’avais imaginé que l’adaptation serait rapide ; en réalité, elle a demandé du temps, des erreurs et beaucoup de patience."
-        },
-        {
-          "id": "segment-04",
-          "order": 4,
-          "text": "Certains accomplissements sont visibles, comme un diplôme ou un projet terminé."
-        },
-        {
-          "id": "segment-05",
-          "order": 5,
-          "text": "D’autres sont plus discrets : savoir demander de l’aide, reconnaître une limite ou changer d’avis."
-        },
-        {
-          "id": "segment-06",
-          "order": 6,
-          "text": "En fin de compte, les difficultés que j’aurais préféré éviter m’ont souvent obligée à mieux comprendre mes priorités."
-        },
-        {
-          "id": "segment-07",
-          "order": 7,
-          "text": "Aujourd’hui, je suis déterminée à poursuivre mes études, mais je ne veux plus confondre détermination et rigidité."
-        },
-        {
-          "id": "segment-08",
-          "order": 8,
-          "text": "Si une nouvelle possibilité se présente, je l’examinerai sans abandonner mon objectif principal."
-        },
-        {
-          "id": "segment-09",
-          "order": 9,
-          "text": "Mon bilan n’est donc pas une conclusion définitive."
-        },
-        {
-          "id": "segment-10",
-          "order": 10,
-          "text": "Il ressemble plutôt à un point de départ conscient : je sais mieux ce que j’ai construit, ce qui reste fragile et la direction dans laquelle je souhaite avancer."
-        }
-      ],
-      "difficulty": "B2",
-      "durationSeconds": 85,
-      "speakers": [
-        "Animatrice",
-        "Invité"
-      ],
-      "phoneticSupport": {
-        "enabled": true,
-        "locale": "fr-FR",
-        "focus": "Marque les groupes rythmiques et les mots de contraste. Fais entendre la différence entre une affirmation ferme et une conclusion nuancée.",
-        "segments": [],
-        "stressedWords": [
-          "établi",
-          "inférer",
-          "objection",
-          "réviser"
-        ],
-        "difficultSounds": [],
-        "reviewStatus": "verified"
-      },
-      "listeningComprehension": {
-        "id": "french-b2-bilan-et-projets-davenir-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Dans « Avec le recul », quel détail présente la situation ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont transformée."
-              },
-              {
-                "id": "o2",
-                "text": "Certains accomplissements sont visibles, comme un diplôme ou un projet terminé."
-              },
-              {
-                "id": "o3",
-                "text": "Aujourd’hui, je suis déterminée à poursuivre mes études, mais je ne veux plus confondre détermination et rigidité."
-              },
-              {
-                "id": "o4",
-                "text": "Il ressemble plutôt à un point de départ conscient : je sais mieux ce que j’ai construit, ce qui reste fragile et la direction dans laquelle je souhaite avancer."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Après « Avec le recul, je mesure moins mon parcours par les résultats obtenus… », que se passe-t-il ensuite dans « Avec le recul » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont transformée."
-              },
-              {
-                "id": "o2",
-                "text": "Certains accomplissements sont visibles, comme un diplôme ou un projet terminé."
-              },
-              {
-                "id": "o3",
-                "text": "Aujourd’hui, je suis déterminée à poursuivre mes études, mais je ne veux plus confondre détermination et rigidité."
-              },
-              {
-                "id": "o4",
-                "text": "Il ressemble plutôt à un point de départ conscient : je sais mieux ce que j’ai construit, ce qui reste fragile et la direction dans laquelle je souhaite avancer."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Avec le recul » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont transformée."
-              },
-              {
-                "id": "o2",
-                "text": "Certains accomplissements sont visibles, comme un diplôme ou un projet terminé."
-              },
-              {
-                "id": "o3",
-                "text": "Aujourd’hui, je suis déterminée à poursuivre mes études, mais je ne veux plus confondre détermination et rigidité."
-              },
-              {
-                "id": "o4",
-                "text": "Il ressemble plutôt à un point de départ conscient : je sais mieux ce que j’ai construit, ce qui reste fragile et la direction dans laquelle je souhaite avancer."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Quel résultat conclut « Avec le recul » après « Aujourd’hui, je suis déterminée à poursuivre mes études, mais je ne… » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont transformée."
-              },
-              {
-                "id": "o2",
-                "text": "Certains accomplissements sont visibles, comme un diplôme ou un projet terminé."
-              },
-              {
-                "id": "o3",
-                "text": "Aujourd’hui, je suis déterminée à poursuivre mes études, mais je ne veux plus confondre détermination et rigidité."
-              },
-              {
-                "id": "o4",
-                "text": "Il ressemble plutôt à un point de départ conscient : je sais mieux ce que j’ai construit, ce qui reste fragile et la direction dans laquelle je souhaite avancer."
-              }
-            ]
-          }
-        ]
-      },
-      "grammarTest": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Dans « Avec le recul », quel détail présente la situation ?",
-        "options": [
-          "Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont transformée.",
-          "Certains accomplissements sont visibles, comme un diplôme ou un projet terminé.",
-          "Aujourd’hui, je suis déterminée à poursuivre mes études, mais je ne veux plus confondre détermination et rigidité.",
-          "Il ressemble plutôt à un point de départ conscient : je sais mieux ce que j’ai construit, ce qui reste fragile et la direction dans laquelle je souhaite avancer."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Après « Avec le recul, je mesure moins mon parcours par les résultats obtenus… », que se passe-t-il ensuite dans « Avec le recul » ?",
-        "options": [
-          "Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont transformée.",
-          "Certains accomplissements sont visibles, comme un diplôme ou un projet terminé.",
-          "Aujourd’hui, je suis déterminée à poursuivre mes études, mais je ne veux plus confondre détermination et rigidité.",
-          "Il ressemble plutôt à un point de départ conscient : je sais mieux ce que j’ai construit, ce qui reste fragile et la direction dans laquelle je souhaite avancer."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Avec le recul » ?",
-        "options": [
-          "Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont transformée.",
-          "Certains accomplissements sont visibles, comme un diplôme ou un projet terminé.",
-          "Aujourd’hui, je suis déterminée à poursuivre mes études, mais je ne veux plus confondre détermination et rigidité.",
-          "Il ressemble plutôt à un point de départ conscient : je sais mieux ce que j’ai construit, ce qui reste fragile et la direction dans laquelle je souhaite avancer."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel résultat conclut « Avec le recul » après « Aujourd’hui, je suis déterminée à poursuivre mes études, mais je ne… » ?",
-        "options": [
-          "Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont transformée.",
-          "Certains accomplissements sont visibles, comme un diplôme ou un projet terminé.",
-          "Aujourd’hui, je suis déterminée à poursuivre mes études, mais je ne veux plus confondre détermination et rigidité.",
-          "Il ressemble plutôt à un point de départ conscient : je sais mieux ce que j’ai construit, ce qui reste fragile et la direction dans laquelle je souhaite avancer."
         ]
       }
     ]
@@ -64526,6 +64281,251 @@
     ]
   },
   {
+    "slug": "french-b2-bilan-et-projets-davenir-listening",
+    "level": "B2",
+    "skill": "listening",
+    "unitId": "bilan-et-projets-davenir",
+    "title": "Avec le recul",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 35,
+    "orderIndex": 121,
+    "estimatedMinutes": 14,
+    "description": "Écoute ce contenu de niveau B2 et identifie les idées, les nuances et les preuves.",
+    "intro": "Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "Avec le recul...",
+      "Qu’avez-vous observé ?",
+      "S’ils avaient annulé..., ils n’auraient jamais...",
+      "Cette expérience a changé..."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont transformée. Si je n’étais pas partie étudier ailleurs, je n’aurais probablement pas appris à vivre avec autant d’incertitude. J’avais imaginé que l’adaptation serait rapide ; en réalité, elle a demandé du temps, des erreurs et beaucoup de patience. Certains accomplissements sont visibles, comme un diplôme ou un projet terminé. D’autres sont plus discrets : savoir demander de l’aide, reconnaître une limite ou changer d’avis. En fin de compte, les difficultés que j’aurais préféré éviter m’ont souvent obligée à mieux comprendre mes priorités. Aujourd’hui, je suis déterminée à poursuivre mes études, mais je ne veux plus confondre détermination et rigidité. Si une nouvelle possibilité se présente, je l’examinerai sans abandonner mon objectif principal. Mon bilan n’est donc pas une conclusion définitive. Il ressemble plutôt à un point de départ conscient : je sais mieux ce que j’ai construit, ce qui reste fragile et la direction dans laquelle je souhaite avancer.",
+    "extra": {
+      "listeningType": "monologue",
+      "listeningFormat": "reflection",
+      "storyTitle": "Avec le recul",
+      "mainTranscript": "Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont transformée. Si je n’étais pas partie étudier ailleurs, je n’aurais probablement pas appris à vivre avec autant d’incertitude. J’avais imaginé que l’adaptation serait rapide ; en réalité, elle a demandé du temps, des erreurs et beaucoup de patience. Certains accomplissements sont visibles, comme un diplôme ou un projet terminé. D’autres sont plus discrets : savoir demander de l’aide, reconnaître une limite ou changer d’avis. En fin de compte, les difficultés que j’aurais préféré éviter m’ont souvent obligée à mieux comprendre mes priorités. Aujourd’hui, je suis déterminée à poursuivre mes études, mais je ne veux plus confondre détermination et rigidité. Si une nouvelle possibilité se présente, je l’examinerai sans abandonner mon objectif principal. Mon bilan n’est donc pas une conclusion définitive. Il ressemble plutôt à un point de départ conscient : je sais mieux ce que j’ai construit, ce qui reste fragile et la direction dans laquelle je souhaite avancer.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont transformée."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Si je n’étais pas partie étudier ailleurs, je n’aurais probablement pas appris à vivre avec autant d’incertitude."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "J’avais imaginé que l’adaptation serait rapide ; en réalité, elle a demandé du temps, des erreurs et beaucoup de patience."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "Certains accomplissements sont visibles, comme un diplôme ou un projet terminé."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "D’autres sont plus discrets : savoir demander de l’aide, reconnaître une limite ou changer d’avis."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "En fin de compte, les difficultés que j’aurais préféré éviter m’ont souvent obligée à mieux comprendre mes priorités."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Aujourd’hui, je suis déterminée à poursuivre mes études, mais je ne veux plus confondre détermination et rigidité."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Si une nouvelle possibilité se présente, je l’examinerai sans abandonner mon objectif principal."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Mon bilan n’est donc pas une conclusion définitive."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Il ressemble plutôt à un point de départ conscient : je sais mieux ce que j’ai construit, ce qui reste fragile et la direction dans laquelle je souhaite avancer."
+        }
+      ],
+      "difficulty": "B2",
+      "durationSeconds": 85,
+      "speakers": [
+        "Animatrice",
+        "Invité"
+      ],
+      "phoneticSupport": {
+        "enabled": true,
+        "locale": "fr-FR",
+        "focus": "Marque les groupes rythmiques et les mots de contraste. Fais entendre la différence entre une affirmation ferme et une conclusion nuancée.",
+        "segments": [],
+        "stressedWords": [
+          "établi",
+          "inférer",
+          "objection",
+          "réviser"
+        ],
+        "difficultSounds": [],
+        "reviewStatus": "verified"
+      },
+      "listeningComprehension": {
+        "id": "french-b2-bilan-et-projets-davenir-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Dans « Avec le recul », quel détail présente la situation ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont transformée."
+              },
+              {
+                "id": "o2",
+                "text": "Certains accomplissements sont visibles, comme un diplôme ou un projet terminé."
+              },
+              {
+                "id": "o3",
+                "text": "Aujourd’hui, je suis déterminée à poursuivre mes études, mais je ne veux plus confondre détermination et rigidité."
+              },
+              {
+                "id": "o4",
+                "text": "Il ressemble plutôt à un point de départ conscient : je sais mieux ce que j’ai construit, ce qui reste fragile et la direction dans laquelle je souhaite avancer."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Après « Avec le recul, je mesure moins mon parcours par les résultats obtenus… », que se passe-t-il ensuite dans « Avec le recul » ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont transformée."
+              },
+              {
+                "id": "o2",
+                "text": "Certains accomplissements sont visibles, comme un diplôme ou un projet terminé."
+              },
+              {
+                "id": "o3",
+                "text": "Aujourd’hui, je suis déterminée à poursuivre mes études, mais je ne veux plus confondre détermination et rigidité."
+              },
+              {
+                "id": "o4",
+                "text": "Il ressemble plutôt à un point de départ conscient : je sais mieux ce que j’ai construit, ce qui reste fragile et la direction dans laquelle je souhaite avancer."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Avec le recul » ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont transformée."
+              },
+              {
+                "id": "o2",
+                "text": "Certains accomplissements sont visibles, comme un diplôme ou un projet terminé."
+              },
+              {
+                "id": "o3",
+                "text": "Aujourd’hui, je suis déterminée à poursuivre mes études, mais je ne veux plus confondre détermination et rigidité."
+              },
+              {
+                "id": "o4",
+                "text": "Il ressemble plutôt à un point de départ conscient : je sais mieux ce que j’ai construit, ce qui reste fragile et la direction dans laquelle je souhaite avancer."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Quel résultat conclut « Avec le recul » après « Aujourd’hui, je suis déterminée à poursuivre mes études, mais je ne… » ?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont transformée."
+              },
+              {
+                "id": "o2",
+                "text": "Certains accomplissements sont visibles, comme un diplôme ou un projet terminé."
+              },
+              {
+                "id": "o3",
+                "text": "Aujourd’hui, je suis déterminée à poursuivre mes études, mais je ne veux plus confondre détermination et rigidité."
+              },
+              {
+                "id": "o4",
+                "text": "Il ressemble plutôt à un point de départ conscient : je sais mieux ce que j’ai construit, ce qui reste fragile et la direction dans laquelle je souhaite avancer."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Dans « Avec le recul », quel détail présente la situation ?",
+        "options": [
+          "Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont transformée.",
+          "Certains accomplissements sont visibles, comme un diplôme ou un projet terminé.",
+          "Aujourd’hui, je suis déterminée à poursuivre mes études, mais je ne veux plus confondre détermination et rigidité.",
+          "Il ressemble plutôt à un point de départ conscient : je sais mieux ce que j’ai construit, ce qui reste fragile et la direction dans laquelle je souhaite avancer."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Après « Avec le recul, je mesure moins mon parcours par les résultats obtenus… », que se passe-t-il ensuite dans « Avec le recul » ?",
+        "options": [
+          "Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont transformée.",
+          "Certains accomplissements sont visibles, comme un diplôme ou un projet terminé.",
+          "Aujourd’hui, je suis déterminée à poursuivre mes études, mais je ne veux plus confondre détermination et rigidité.",
+          "Il ressemble plutôt à un point de départ conscient : je sais mieux ce que j’ai construit, ce qui reste fragile et la direction dans laquelle je souhaite avancer."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Avec le recul » ?",
+        "options": [
+          "Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont transformée.",
+          "Certains accomplissements sont visibles, comme un diplôme ou un projet terminé.",
+          "Aujourd’hui, je suis déterminée à poursuivre mes études, mais je ne veux plus confondre détermination et rigidité.",
+          "Il ressemble plutôt à un point de départ conscient : je sais mieux ce que j’ai construit, ce qui reste fragile et la direction dans laquelle je souhaite avancer."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quel résultat conclut « Avec le recul » après « Aujourd’hui, je suis déterminée à poursuivre mes études, mais je ne… » ?",
+        "options": [
+          "Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont transformée.",
+          "Certains accomplissements sont visibles, comme un diplôme ou un projet terminé.",
+          "Aujourd’hui, je suis déterminée à poursuivre mes études, mais je ne veux plus confondre détermination et rigidité.",
+          "Il ressemble plutôt à un point de départ conscient : je sais mieux ce que j’ai construit, ce qui reste fragile et la direction dans laquelle je souhaite avancer."
+        ]
+      }
+    ]
+  },
+  {
     "slug": "french-a1-la-meteo-et-les-voyages-speaking",
     "level": "A1",
     "skill": "speaking",
@@ -64618,67 +64618,6 @@
       {
         "type": "speaking",
         "prompt": "Présente une action solidaire pendant une minute et formule au moins deux demandes polies."
-      }
-    ]
-  },
-  {
-    "slug": "french-b2-bilan-et-projets-davenir-speaking",
-    "level": "B2",
-    "skill": "speaking",
-    "unitId": "bilan-et-projets-davenir",
-    "title": "Faire le bilan d’un parcours",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 122,
-    "estimatedMinutes": 14,
-    "description": "Présente le bilan d’un parcours personnel ou d’une année importante de ta vie.",
-    "intro": "Présente le bilan d’un parcours personnel ou d’une année importante de ta vie.",
-    "mission": "Présente le bilan d’une expérience importante de ta vie (réelle ou imaginaire), avec ce que tu aurais manqué si tu avais fait un choix différent.",
-    "grammar": "",
-    "phrases": [
-      "Avec le recul...",
-      "Si j’avais choisi différemment, je n’aurais jamais...",
-      "En fin de compte...",
-      "Je suis déterminé(e) à..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Toi",
-        "line": "Avec le recul, je réalise à quel point cette décision a été importante. Si j’avais choisi différemment, je n’aurais jamais... En fin de compte, je suis fier/fière du chemin parcouru.",
-        "translation": "Con la perspectiva del tiempo, me doy cuenta de lo importante que fue esa decisión. Si hubiera elegido diferente, nunca habría... En definitiva, estoy orgulloso/a del camino recorrido."
-      }
-    ],
-    "reading": null,
-    "transcript": "Toi : Avec le recul, je réalise à quel point cette décision a été importante. Si j’avais choisi différemment, je n’aurais jamais... En fin de compte, je suis fier/fière du chemin parcouru.",
-    "extra": {
-      "communicationGuide": {
-        "steps": [
-          "Enregistre une première réponse sans lire un texte complet.",
-          "Utilise la transcription vocale pour vérifier ce qui a été compris.",
-          "Demande au Tuteur IA un retour sur la clarté, les preuves et le registre.",
-          "Enregistre une seconde version et compare fluidité et prononciation."
-        ],
-        "premiumMode": "Conversation libre avec le Tuteur IA",
-        "pronunciationTargets": [
-          "groupes rythmiques",
-          "mise en relief",
-          "enchaînements",
-          "intonation nuancée"
-        ]
-      },
-      "grammarTest": null,
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Fais le bilan d’une expérience importante de ta vie, avec une hypothèse au conditionnel passé."
-      },
-      {
-        "type": "practice",
-        "prompt": "Avec un/une camarade, échangez sur une décision qui a changé le cours de votre vie."
       }
     ]
   },
@@ -64833,6 +64772,67 @@
     ]
   },
   {
+    "slug": "french-b2-bilan-et-projets-davenir-speaking",
+    "level": "B2",
+    "skill": "speaking",
+    "unitId": "bilan-et-projets-davenir",
+    "title": "Faire le bilan d’un parcours",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 122,
+    "estimatedMinutes": 14,
+    "description": "Présente le bilan d’un parcours personnel ou d’une année importante de ta vie.",
+    "intro": "Présente le bilan d’un parcours personnel ou d’une année importante de ta vie.",
+    "mission": "Présente le bilan d’une expérience importante de ta vie (réelle ou imaginaire), avec ce que tu aurais manqué si tu avais fait un choix différent.",
+    "grammar": "",
+    "phrases": [
+      "Avec le recul...",
+      "Si j’avais choisi différemment, je n’aurais jamais...",
+      "En fin de compte...",
+      "Je suis déterminé(e) à..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Toi",
+        "line": "Avec le recul, je réalise à quel point cette décision a été importante. Si j’avais choisi différemment, je n’aurais jamais... En fin de compte, je suis fier/fière du chemin parcouru.",
+        "translation": "Con la perspectiva del tiempo, me doy cuenta de lo importante que fue esa decisión. Si hubiera elegido diferente, nunca habría... En definitiva, estoy orgulloso/a del camino recorrido."
+      }
+    ],
+    "reading": null,
+    "transcript": "Toi : Avec le recul, je réalise à quel point cette décision a été importante. Si j’avais choisi différemment, je n’aurais jamais... En fin de compte, je suis fier/fière du chemin parcouru.",
+    "extra": {
+      "communicationGuide": {
+        "steps": [
+          "Enregistre une première réponse sans lire un texte complet.",
+          "Utilise la transcription vocale pour vérifier ce qui a été compris.",
+          "Demande au Tuteur IA un retour sur la clarté, les preuves et le registre.",
+          "Enregistre une seconde version et compare fluidité et prononciation."
+        ],
+        "premiumMode": "Conversation libre avec le Tuteur IA",
+        "pronunciationTargets": [
+          "groupes rythmiques",
+          "mise en relief",
+          "enchaînements",
+          "intonation nuancée"
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Fais le bilan d’une expérience importante de ta vie, avec une hypothèse au conditionnel passé."
+      },
+      {
+        "type": "practice",
+        "prompt": "Avec un/une camarade, échangez sur une décision qui a changé le cours de votre vie."
+      }
+    ]
+  },
+  {
     "slug": "french-a1-la-meteo-et-les-voyages-writing",
     "level": "A1",
     "skill": "writing",
@@ -64900,64 +64900,6 @@
       {
         "type": "writing",
         "prompt": "Rédige une annonce de 90 à 110 mots en utilisant « on pourrait » et une demande au conditionnel."
-      }
-    ]
-  },
-  {
-    "slug": "french-b2-bilan-et-projets-davenir-writing",
-    "level": "B2",
-    "skill": "writing",
-    "unitId": "bilan-et-projets-davenir",
-    "title": "Une lettre à mon ancien moi",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 35,
-    "orderIndex": 123,
-    "estimatedMinutes": 18,
-    "description": "Écris une lettre à la version de toi-même du passé, avec le recul de ton expérience actuelle.",
-    "intro": "Écris une lettre à la version de toi-même du passé, avec le recul de ton expérience actuelle.",
-    "mission": "Écris 220 à 260 mots sous forme de lettre à la version de toi-même d’il y a quelques années, en faisant le bilan de ce que tu as appris et en donnant un conseil.",
-    "grammar": "",
-    "phrases": [
-      "Chère/cher... d’il y a...",
-      "Avec le recul, je peux te dire que...",
-      "Si tu avais fait autrement, tu n’aurais jamais...",
-      "Sois déterminé(e) et..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Modèle",
-        "line": "Chère moi d’il y a deux ans, avec le recul, je peux te dire que cette décision difficile en valait vraiment la peine. Si tu avais renoncé, tu n’aurais jamais découvert tout ce que tu es devenue aujourd’hui. Sois déterminée et n’aie pas peur de te tromper.",
-        "translation": "Querida yo de hace dos años, con la perspectiva del tiempo, puedo decirte que esa difícil decisión realmente valió la pena. Si hubieras renunciado, nunca habrías descubierto todo lo que te has convertido hoy. Sé decidida y no tengas miedo de equivocarte."
-      }
-    ],
-    "reading": null,
-    "transcript": "Modèle : Chère moi d’il y a deux ans, avec le recul, je peux te dire que cette décision difficile en valait vraiment la peine. Si tu avais renoncé, tu n’aurais jamais découvert tout ce que tu es devenue aujourd’hui. Sois déterminée et n’aie pas peur de te tromper.",
-    "extra": {
-      "writingGuide": {
-        "taskType": "texte argumentatif structuré",
-        "steps": [
-          "Délimite la question et rédige une thèse en une phrase.",
-          "Choisis deux preuves ou exemples et explique leur pertinence.",
-          "Présente loyalement l’objection la plus solide.",
-          "Réponds sans exagérer la portée des preuves.",
-          "Révise la cohésion, la grammaire, le registre et la conclusion."
-        ],
-        "checklist": [
-          "Utilise au moins deux termes de l’unité : un bilan, avec le recul, un accomplissement.",
-          "Emploie correctement récapitulatif : conditionnel passé, subjonctif, hypothèses complexes au moins une fois.",
-          "Distingue preuve, inférence et jugement.",
-          "Vérifie les liens entre les paragraphes et supprime les affirmations absolues non justifiées."
-        ]
-      },
-      "grammarTest": null,
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "writing",
-        "prompt": "Écris une lettre de 220 à 260 mots à ton ancien toi, avec au moins une hypothèse au conditionnel passé et une expression de bilan."
       }
     ]
   },
@@ -65074,6 +65016,64 @@
       {
         "type": "writing",
         "prompt": "Rédige 300–350 mots. Avant l’envoi, vérifie la présence d’une thèse, de deux arguments développés, d’une objection et d’une conclusion nuancée."
+      }
+    ]
+  },
+  {
+    "slug": "french-b2-bilan-et-projets-davenir-writing",
+    "level": "B2",
+    "skill": "writing",
+    "unitId": "bilan-et-projets-davenir",
+    "title": "Une lettre à mon ancien moi",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 35,
+    "orderIndex": 123,
+    "estimatedMinutes": 18,
+    "description": "Écris une lettre à la version de toi-même du passé, avec le recul de ton expérience actuelle.",
+    "intro": "Écris une lettre à la version de toi-même du passé, avec le recul de ton expérience actuelle.",
+    "mission": "Écris 220 à 260 mots sous forme de lettre à la version de toi-même d’il y a quelques années, en faisant le bilan de ce que tu as appris et en donnant un conseil.",
+    "grammar": "",
+    "phrases": [
+      "Chère/cher... d’il y a...",
+      "Avec le recul, je peux te dire que...",
+      "Si tu avais fait autrement, tu n’aurais jamais...",
+      "Sois déterminé(e) et..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Modèle",
+        "line": "Chère moi d’il y a deux ans, avec le recul, je peux te dire que cette décision difficile en valait vraiment la peine. Si tu avais renoncé, tu n’aurais jamais découvert tout ce que tu es devenue aujourd’hui. Sois déterminée et n’aie pas peur de te tromper.",
+        "translation": "Querida yo de hace dos años, con la perspectiva del tiempo, puedo decirte que esa difícil decisión realmente valió la pena. Si hubieras renunciado, nunca habrías descubierto todo lo que te has convertido hoy. Sé decidida y no tengas miedo de equivocarte."
+      }
+    ],
+    "reading": null,
+    "transcript": "Modèle : Chère moi d’il y a deux ans, avec le recul, je peux te dire que cette décision difficile en valait vraiment la peine. Si tu avais renoncé, tu n’aurais jamais découvert tout ce que tu es devenue aujourd’hui. Sois déterminée et n’aie pas peur de te tromper.",
+    "extra": {
+      "writingGuide": {
+        "taskType": "texte argumentatif structuré",
+        "steps": [
+          "Délimite la question et rédige une thèse en une phrase.",
+          "Choisis deux preuves ou exemples et explique leur pertinence.",
+          "Présente loyalement l’objection la plus solide.",
+          "Réponds sans exagérer la portée des preuves.",
+          "Révise la cohésion, la grammaire, le registre et la conclusion."
+        ],
+        "checklist": [
+          "Utilise au moins deux termes de l’unité : un bilan, avec le recul, un accomplissement.",
+          "Emploie correctement récapitulatif : conditionnel passé, subjonctif, hypothèses complexes au moins une fois.",
+          "Distingue preuve, inférence et jugement.",
+          "Vérifie les liens entre les paragraphes et supprime les affirmations absolues non justifiées."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Écris une lettre de 220 à 260 mots à ton ancien toi, avec au moins une hypothèse au conditionnel passé et une expression de bilan."
       }
     ]
   },
@@ -65633,287 +65633,6 @@
           "pourriez",
           "pourrait",
           "pourrions"
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "french-b2-bilan-et-projets-davenir-grammar",
-    "level": "B2",
-    "skill": "grammar",
-    "unitId": "bilan-et-projets-davenir",
-    "title": "Récapitulatif : hypothèses complexes et expressions de bilan",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 124,
-    "estimatedMinutes": 14,
-    "description": "Réviser les hypothèses avec si + plus-que-parfait et les expressions de bilan personnel.",
-    "intro": "Réviser les hypothèses avec si + plus-que-parfait et les expressions de bilan personnel.",
-    "mission": "",
-    "grammar": "Ce récapitulatif combine les points du niveau B2 : hypothèse irréelle du passé (si + plus-que-parfait, conditionnel passé), expressions de bilan (avec le recul, en fin de compte), et détermination (être déterminé(e) à + infinitif) : « Si j’avais renoncé, je n’aurais jamais grandi. Avec le recul, je suis déterminée à continuer. »",
-    "phrases": [
-      "Si j’avais renoncé, je n’aurais jamais...",
-      "Avec le recul...",
-      "En fin de compte...",
-      "Je suis déterminé(e) à..."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "grammarTest": {
-        "id": "french-b2-bilan-et-projets-davenir-grammar-test",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "french-b2-bilan-et-projets-davenir-grammar-q1",
-            "type": "mcq",
-            "prompt": "Si elle ___ ce voyage, elle n’aurait jamais rencontré ses amis les plus chers.",
-            "difficulty": "application",
-            "options": [
-              {
-                "id": "b",
-                "text": "avait annulé"
-              },
-              {
-                "id": "a",
-                "text": "annule"
-              },
-              {
-                "id": "c",
-                "text": "annulerait"
-              },
-              {
-                "id": "d",
-                "text": "annulait"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-bilan-et-projets-davenir-grammar-q2",
-            "type": "mcq",
-            "prompt": "Avec le recul, elle ___ fière de sa décision.",
-            "difficulty": "application",
-            "options": [
-              {
-                "id": "b",
-                "text": "était"
-              },
-              {
-                "id": "a",
-                "text": "est"
-              },
-              {
-                "id": "c",
-                "text": "sera"
-              },
-              {
-                "id": "d",
-                "text": "soit"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-bilan-et-projets-davenir-grammar-q3",
-            "type": "mcq",
-            "prompt": "Elle est déterminée ___ continuer ses études en France.",
-            "difficulty": "analysis",
-            "options": [
-              {
-                "id": "a",
-                "text": "de"
-              },
-              {
-                "id": "c",
-                "text": "pour"
-              },
-              {
-                "id": "b",
-                "text": "à"
-              },
-              {
-                "id": "d",
-                "text": "que"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-bilan-et-projets-davenir-grammar-q4",
-            "type": "mcq",
-            "prompt": "Quelle expression introduit un bilan final ?",
-            "difficulty": "analysis",
-            "options": [
-              {
-                "id": "a",
-                "text": "Étant donné que"
-              },
-              {
-                "id": "c",
-                "text": "Afin que"
-              },
-              {
-                "id": "d",
-                "text": "Bien que"
-              },
-              {
-                "id": "b",
-                "text": "En fin de compte"
-              }
-            ]
-          },
-          {
-            "id": "french-b2-bilan-et-projets-davenir-grammar-q5",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Si elle annule ce voyage, elle n’aurait jamais rencontré ses amis les plus chers. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "b",
-                "text": "Si elle avait annulé ce voyage, elle n’aurait jamais rencontré ses amis les plus chers."
-              },
-              {
-                "id": "a",
-                "text": "Si elle annule ce voyage, elle n’aurait jamais rencontré ses amis les plus chers."
-              },
-              {
-                "id": "c",
-                "text": "Si elle annulerait ce voyage, elle n’aurait jamais rencontré ses amis les plus chers."
-              },
-              {
-                "id": "d",
-                "text": "Si elle annulait ce voyage, elle n’aurait jamais rencontré ses amis les plus chers."
-              }
-            ]
-          },
-          {
-            "id": "french-b2-bilan-et-projets-davenir-grammar-q6",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Avec le recul, elle était fière de sa décision. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "b",
-                "text": "Avec le recul, elle était fière de sa décision."
-              },
-              {
-                "id": "a",
-                "text": "Avec le recul, elle est fière de sa décision."
-              },
-              {
-                "id": "c",
-                "text": "Avec le recul, elle sera fière de sa décision."
-              },
-              {
-                "id": "d",
-                "text": "Avec le recul, elle soit fière de sa décision."
-              }
-            ]
-          },
-          {
-            "id": "french-b2-bilan-et-projets-davenir-grammar-q7",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Elle est déterminée de continuer ses études en France. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Elle est déterminée de continuer ses études en France."
-              },
-              {
-                "id": "c",
-                "text": "Elle est déterminée pour continuer ses études en France."
-              },
-              {
-                "id": "b",
-                "text": "Elle est déterminée à continuer ses études en France."
-              },
-              {
-                "id": "d",
-                "text": "Elle est déterminée que continuer ses études en France."
-              }
-            ]
-          },
-          {
-            "id": "french-b2-bilan-et-projets-davenir-grammar-q8",
-            "type": "mcq",
-            "prompt": "Quelle réponse corrige l’erreur « Étant donné que » dans ce contexte : « Quelle expression introduit un bilan final ? » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Étant donné que"
-              },
-              {
-                "id": "c",
-                "text": "Afin que"
-              },
-              {
-                "id": "d",
-                "text": "Bien que"
-              },
-              {
-                "id": "b",
-                "text": "En fin de compte"
-              }
-            ]
-          }
-        ]
-      },
-      "grammarProfile": {
-        "name": "Récapitulatif : hypothèses complexes et expressions de bilan",
-        "definition": "Ce récapitulatif combine les points du niveau B2 : hypothèse irréelle du passé (si + plus-que-parfait, conditionnel passé), expressions de bilan (avec le recul, en fin de compte), et détermination (être déterminé(e) à + infinitif) : « Si j’avais renoncé, je n’aurais jamais grandi. Avec le recul, je suis déterminée à continuer. »",
-        "structure": "Forme à observer : Récapitulatif : hypothèses complexes et expressions de bilan. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
-        "function": "Réviser les hypothèses avec si + plus-que-parfait et les expressions de bilan personnel.",
-        "examples": [
-          "Si elle avait annulé ce voyage, elle n’aurait jamais rencontré ses amis les plus chers.",
-          "Avec le recul, elle est fière de sa décision.",
-          "Elle est déterminée à continuer ses études en France.",
-          "En fin de compte"
-        ]
-      },
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Si elle ___ ce voyage, elle n’aurait jamais rencontré ses amis les plus chers.",
-        "options": [
-          "annule",
-          "avait annulé",
-          "annulerait",
-          "annulait"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Avec le recul, elle ___ fière de sa décision.",
-        "options": [
-          "est",
-          "était",
-          "sera",
-          "soit"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Elle est déterminée ___ continuer ses études en France.",
-        "options": [
-          "de",
-          "à",
-          "pour",
-          "que"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle expression introduit un bilan final ?",
-        "options": [
-          "Étant donné que",
-          "En fin de compte",
-          "Afin que",
-          "Bien que"
         ]
       }
     ]
@@ -66574,6 +66293,287 @@
     ]
   },
   {
+    "slug": "french-b2-bilan-et-projets-davenir-grammar",
+    "level": "B2",
+    "skill": "grammar",
+    "unitId": "bilan-et-projets-davenir",
+    "title": "Récapitulatif : hypothèses complexes et expressions de bilan",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 124,
+    "estimatedMinutes": 14,
+    "description": "Réviser les hypothèses avec si + plus-que-parfait et les expressions de bilan personnel.",
+    "intro": "Réviser les hypothèses avec si + plus-que-parfait et les expressions de bilan personnel.",
+    "mission": "",
+    "grammar": "Ce récapitulatif combine les points du niveau B2 : hypothèse irréelle du passé (si + plus-que-parfait, conditionnel passé), expressions de bilan (avec le recul, en fin de compte), et détermination (être déterminé(e) à + infinitif) : « Si j’avais renoncé, je n’aurais jamais grandi. Avec le recul, je suis déterminée à continuer. »",
+    "phrases": [
+      "Si j’avais renoncé, je n’aurais jamais...",
+      "Avec le recul...",
+      "En fin de compte...",
+      "Je suis déterminé(e) à..."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": {
+      "grammarTest": {
+        "id": "french-b2-bilan-et-projets-davenir-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "french-b2-bilan-et-projets-davenir-grammar-q1",
+            "type": "mcq",
+            "prompt": "Si elle ___ ce voyage, elle n’aurait jamais rencontré ses amis les plus chers.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "b",
+                "text": "avait annulé"
+              },
+              {
+                "id": "a",
+                "text": "annule"
+              },
+              {
+                "id": "c",
+                "text": "annulerait"
+              },
+              {
+                "id": "d",
+                "text": "annulait"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-bilan-et-projets-davenir-grammar-q2",
+            "type": "mcq",
+            "prompt": "Avec le recul, elle ___ fière de sa décision.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "b",
+                "text": "était"
+              },
+              {
+                "id": "a",
+                "text": "est"
+              },
+              {
+                "id": "c",
+                "text": "sera"
+              },
+              {
+                "id": "d",
+                "text": "soit"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-bilan-et-projets-davenir-grammar-q3",
+            "type": "mcq",
+            "prompt": "Elle est déterminée ___ continuer ses études en France.",
+            "difficulty": "analysis",
+            "options": [
+              {
+                "id": "a",
+                "text": "de"
+              },
+              {
+                "id": "c",
+                "text": "pour"
+              },
+              {
+                "id": "b",
+                "text": "à"
+              },
+              {
+                "id": "d",
+                "text": "que"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-bilan-et-projets-davenir-grammar-q4",
+            "type": "mcq",
+            "prompt": "Quelle expression introduit un bilan final ?",
+            "difficulty": "analysis",
+            "options": [
+              {
+                "id": "a",
+                "text": "Étant donné que"
+              },
+              {
+                "id": "c",
+                "text": "Afin que"
+              },
+              {
+                "id": "d",
+                "text": "Bien que"
+              },
+              {
+                "id": "b",
+                "text": "En fin de compte"
+              }
+            ]
+          },
+          {
+            "id": "french-b2-bilan-et-projets-davenir-grammar-q5",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Si elle annule ce voyage, elle n’aurait jamais rencontré ses amis les plus chers. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "b",
+                "text": "Si elle avait annulé ce voyage, elle n’aurait jamais rencontré ses amis les plus chers."
+              },
+              {
+                "id": "a",
+                "text": "Si elle annule ce voyage, elle n’aurait jamais rencontré ses amis les plus chers."
+              },
+              {
+                "id": "c",
+                "text": "Si elle annulerait ce voyage, elle n’aurait jamais rencontré ses amis les plus chers."
+              },
+              {
+                "id": "d",
+                "text": "Si elle annulait ce voyage, elle n’aurait jamais rencontré ses amis les plus chers."
+              }
+            ]
+          },
+          {
+            "id": "french-b2-bilan-et-projets-davenir-grammar-q6",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Avec le recul, elle était fière de sa décision. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "b",
+                "text": "Avec le recul, elle était fière de sa décision."
+              },
+              {
+                "id": "a",
+                "text": "Avec le recul, elle est fière de sa décision."
+              },
+              {
+                "id": "c",
+                "text": "Avec le recul, elle sera fière de sa décision."
+              },
+              {
+                "id": "d",
+                "text": "Avec le recul, elle soit fière de sa décision."
+              }
+            ]
+          },
+          {
+            "id": "french-b2-bilan-et-projets-davenir-grammar-q7",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Elle est déterminée de continuer ses études en France. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Elle est déterminée de continuer ses études en France."
+              },
+              {
+                "id": "c",
+                "text": "Elle est déterminée pour continuer ses études en France."
+              },
+              {
+                "id": "b",
+                "text": "Elle est déterminée à continuer ses études en France."
+              },
+              {
+                "id": "d",
+                "text": "Elle est déterminée que continuer ses études en France."
+              }
+            ]
+          },
+          {
+            "id": "french-b2-bilan-et-projets-davenir-grammar-q8",
+            "type": "mcq",
+            "prompt": "Quelle réponse corrige l’erreur « Étant donné que » dans ce contexte : « Quelle expression introduit un bilan final ? » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Étant donné que"
+              },
+              {
+                "id": "c",
+                "text": "Afin que"
+              },
+              {
+                "id": "d",
+                "text": "Bien que"
+              },
+              {
+                "id": "b",
+                "text": "En fin de compte"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Récapitulatif : hypothèses complexes et expressions de bilan",
+        "definition": "Ce récapitulatif combine les points du niveau B2 : hypothèse irréelle du passé (si + plus-que-parfait, conditionnel passé), expressions de bilan (avec le recul, en fin de compte), et détermination (être déterminé(e) à + infinitif) : « Si j’avais renoncé, je n’aurais jamais grandi. Avec le recul, je suis déterminée à continuer. »",
+        "structure": "Forme à observer : Récapitulatif : hypothèses complexes et expressions de bilan. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Réviser les hypothèses avec si + plus-que-parfait et les expressions de bilan personnel.",
+        "examples": [
+          "Si elle avait annulé ce voyage, elle n’aurait jamais rencontré ses amis les plus chers.",
+          "Avec le recul, elle est fière de sa décision.",
+          "Elle est déterminée à continuer ses études en France.",
+          "En fin de compte"
+        ]
+      },
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Si elle ___ ce voyage, elle n’aurait jamais rencontré ses amis les plus chers.",
+        "options": [
+          "annule",
+          "avait annulé",
+          "annulerait",
+          "annulait"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Avec le recul, elle ___ fière de sa décision.",
+        "options": [
+          "est",
+          "était",
+          "sera",
+          "soit"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Elle est déterminée ___ continuer ses études en France.",
+        "options": [
+          "de",
+          "à",
+          "pour",
+          "que"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle expression introduit un bilan final ?",
+        "options": [
+          "Étant donné que",
+          "En fin de compte",
+          "Afin que",
+          "Bien que"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "french-a1-la-meteo-et-les-voyages-vocabulary",
     "level": "A1",
     "skill": "vocabulary",
@@ -66774,86 +66774,6 @@
           "Un vêtement sale et déchiré",
           "Un dossier administratif",
           "Un ticket utilisé"
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "french-b2-bilan-et-projets-davenir-vocabulary",
-    "level": "B2",
-    "skill": "vocabulary",
-    "unitId": "bilan-et-projets-davenir",
-    "title": "Le vocabulaire du bilan personnel",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 125,
-    "estimatedMinutes": 10,
-    "description": "Le vocabulaire essentiel pour faire un bilan personnel et parler de son parcours.",
-    "intro": "Le vocabulaire essentiel pour faire un bilan personnel et parler de son parcours.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [
-      {
-        "word": "un bilan",
-        "translation": "un balance",
-        "example": "Elle fait le bilan de son année en France."
-      },
-      {
-        "word": "avec le recul",
-        "translation": "con la perspectiva del tiempo",
-        "example": "Avec le recul, je comprends mieux cette décision."
-      },
-      {
-        "word": "un accomplissement",
-        "translation": "un logro",
-        "example": "Cette admission est un accomplissement important."
-      },
-      {
-        "word": "être déterminé(e) à",
-        "translation": "estar decidido/a a",
-        "example": "Elle est déterminée à réussir ses études."
-      },
-      {
-        "word": "en fin de compte",
-        "translation": "en definitiva",
-        "example": "En fin de compte, cette expérience l’a transformée."
-      }
-    ],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « un bilan » ?",
-        "options": [
-          "Un balance",
-          "Un problema",
-          "Una fiesta",
-          "Un examen"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « avec le recul » ?",
-        "options": [
-          "Con la perspectiva del tiempo",
-          "Inmediatamente",
-          "Sin pensar",
-          "Al principio"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « être déterminé(e) à » ?",
-        "options": [
-          "Estar decidido/a a",
-          "Dudar de",
-          "Renunciar a",
-          "Olvidar"
         ]
       }
     ]
@@ -67353,6 +67273,86 @@
     ]
   },
   {
+    "slug": "french-b2-bilan-et-projets-davenir-vocabulary",
+    "level": "B2",
+    "skill": "vocabulary",
+    "unitId": "bilan-et-projets-davenir",
+    "title": "Le vocabulaire du bilan personnel",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 125,
+    "estimatedMinutes": 10,
+    "description": "Le vocabulaire essentiel pour faire un bilan personnel et parler de son parcours.",
+    "intro": "Le vocabulaire essentiel pour faire un bilan personnel et parler de son parcours.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "un bilan",
+        "translation": "un balance",
+        "example": "Elle fait le bilan de son année en France."
+      },
+      {
+        "word": "avec le recul",
+        "translation": "con la perspectiva del tiempo",
+        "example": "Avec le recul, je comprends mieux cette décision."
+      },
+      {
+        "word": "un accomplissement",
+        "translation": "un logro",
+        "example": "Cette admission est un accomplissement important."
+      },
+      {
+        "word": "être déterminé(e) à",
+        "translation": "estar decidido/a a",
+        "example": "Elle est déterminée à réussir ses études."
+      },
+      {
+        "word": "en fin de compte",
+        "translation": "en definitiva",
+        "example": "En fin de compte, cette expérience l’a transformée."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « un bilan » ?",
+        "options": [
+          "Un balance",
+          "Un problema",
+          "Una fiesta",
+          "Un examen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « avec le recul » ?",
+        "options": [
+          "Con la perspectiva del tiempo",
+          "Inmediatamente",
+          "Sin pensar",
+          "Al principio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « être déterminé(e) à » ?",
+        "options": [
+          "Estar decidido/a a",
+          "Dudar de",
+          "Renunciar a",
+          "Olvidar"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "french-a1-la-meteo-et-les-voyages-dialogue",
     "level": "A1",
     "skill": "dialogue",
@@ -67689,36 +67689,6 @@
     }
   },
   {
-    "id": "retour-a-saint-domingue",
-    "slug": "retour-a-saint-domingue",
-    "level": "B2",
-    "title": "Retour à Saint-Domingue",
-    "titleEs": "Regreso a Santo Domingo",
-    "description": "Pourquoi le retour chez soi après un séjour à l’étranger peut être plus déstabilisant que le départ, et comment en parler avec nuance.",
-    "order": 1,
-    "unitOverview": {
-      "objective": "Décrire un retour au pays et exprimer un sentiment ambivalent avec nuance.",
-      "outcomes": [
-        "décrire des retrouvailles avec précision émotionnelle",
-        "exprimer une nostalgie tout en valorisant le présent",
-        "utiliser le plus-que-parfait pour situer un souvenir dans le passé",
-        "nuancer une opinion sur deux lieux de vie différents"
-      ],
-      "grammar": [
-        "plus-que-parfait",
-        "concordance des temps (passé)",
-        "nuance et modération de l’opinion"
-      ],
-      "vocabulary": [
-        "les retrouvailles",
-        "le mal du pays",
-        "ambivalent(e)",
-        "avoir le sentiment de"
-      ],
-      "scenario": "De nombreux jeunes qui reviennent dans leur pays après une longue expatriation découvrent un « choc du retour » aussi fort que le choc culturel du départ."
-    }
-  },
-  {
     "id": "la-rentree-universitaire",
     "slug": "la-rentree-universitaire",
     "level": "C1",
@@ -67781,6 +67751,36 @@
         "étendue et contrôle du vocabulaire",
         "correction grammaticale constante"
       ]
+    }
+  },
+  {
+    "id": "retour-a-saint-domingue",
+    "slug": "retour-a-saint-domingue",
+    "level": "B2",
+    "title": "Le choc du retour",
+    "titleEs": "El choque cultural inverso",
+    "description": "Pourquoi le retour chez soi après un séjour à l’étranger peut être plus déstabilisant que le départ, et comment en parler avec nuance.",
+    "order": 1,
+    "unitOverview": {
+      "objective": "Décrire un retour au pays et exprimer un sentiment ambivalent avec nuance.",
+      "outcomes": [
+        "décrire des retrouvailles avec précision émotionnelle",
+        "exprimer une nostalgie tout en valorisant le présent",
+        "utiliser le plus-que-parfait pour situer un souvenir dans le passé",
+        "nuancer une opinion sur deux lieux de vie différents"
+      ],
+      "grammar": [
+        "plus-que-parfait",
+        "concordance des temps (passé)",
+        "nuance et modération de l’opinion"
+      ],
+      "vocabulary": [
+        "les retrouvailles",
+        "le mal du pays",
+        "ambivalent(e)",
+        "avoir le sentiment de"
+      ],
+      "scenario": "De nombreux jeunes qui reviennent dans leur pays après une longue expatriation découvrent un « choc du retour » aussi fort que le choc culturel du départ."
     }
   },
   {
@@ -67854,36 +67854,6 @@
     }
   },
   {
-    "id": "candidature-universitaire",
-    "slug": "candidature-universitaire",
-    "level": "B2",
-    "title": "Candidature universitaire",
-    "titleEs": "Solicitud universitaria",
-    "description": "Ce que les jurys d’admission de Parcoursup attendent vraiment d’une lettre de motivation, et comment structurer une candidature convaincante.",
-    "order": 2,
-    "unitOverview": {
-      "objective": "Rédiger une lettre de motivation et argumenter un projet académique de façon structurée.",
-      "outcomes": [
-        "structurer une lettre de motivation formelle",
-        "argumenter un choix académique avec des exemples concrets",
-        "utiliser le subjonctif passé pour évoquer une expérience accomplie",
-        "nuancer une auto-présentation sans excès de modestie ni d’arrogance"
-      ],
-      "grammar": [
-        "subjonctif passé",
-        "connecteurs d’argumentation avancés (par ailleurs, en outre)",
-        "structure d’une lettre de motivation"
-      ],
-      "vocabulary": [
-        "une lettre de motivation",
-        "un dossier de candidature",
-        "convaincant(e)",
-        "se démarquer"
-      ],
-      "scenario": "Chaque année, des millions de lycéens rédigent des lettres de motivation sur Parcoursup : voici comment les jurys d’admission évaluent réellement ces textes."
-    }
-  },
-  {
     "id": "un-exposer-a-preparer",
     "slug": "un-exposer-a-preparer",
     "level": "C1",
@@ -67946,6 +67916,36 @@
         "étendue et contrôle du vocabulaire",
         "correction grammaticale constante"
       ]
+    }
+  },
+  {
+    "id": "candidature-universitaire",
+    "slug": "candidature-universitaire",
+    "level": "B2",
+    "title": "Candidature universitaire",
+    "titleEs": "Solicitud universitaria",
+    "description": "Ce que les jurys d’admission de Parcoursup attendent vraiment d’une lettre de motivation, et comment structurer une candidature convaincante.",
+    "order": 2,
+    "unitOverview": {
+      "objective": "Rédiger une lettre de motivation et argumenter un projet académique de façon structurée.",
+      "outcomes": [
+        "structurer une lettre de motivation formelle",
+        "argumenter un choix académique avec des exemples concrets",
+        "utiliser le subjonctif passé pour évoquer une expérience accomplie",
+        "nuancer une auto-présentation sans excès de modestie ni d’arrogance"
+      ],
+      "grammar": [
+        "subjonctif passé",
+        "connecteurs d’argumentation avancés (par ailleurs, en outre)",
+        "structure d’une lettre de motivation"
+      ],
+      "vocabulary": [
+        "une lettre de motivation",
+        "un dossier de candidature",
+        "convaincant(e)",
+        "se démarquer"
+      ],
+      "scenario": "Chaque année, des millions de lycéens rédigent des lettres de motivation sur Parcoursup : voici comment les jurys d’admission évaluent réellement ces textes."
     }
   },
   {
@@ -68019,36 +68019,6 @@
     }
   },
   {
-    "id": "debats-de-societe",
-    "slug": "debats-de-societe",
-    "level": "B2",
-    "title": "Débats de société",
-    "titleEs": "Debates de sociedad",
-    "description": "Ce que disent réellement les recherches sur le temps d’écran chez les jeunes, entre inquiétudes légitimes et nuances scientifiques.",
-    "order": 3,
-    "unitOverview": {
-      "objective": "Participer à un débat structuré sur un sujet de société et défendre une position nuancée.",
-      "outcomes": [
-        "structurer un argument avec des connecteurs logiques avancés",
-        "anticiper et réfuter un contre-argument",
-        "utiliser la voix passive dans un contexte argumentatif",
-        "nuancer une position sans paraître catégorique"
-      ],
-      "grammar": [
-        "la voix passive",
-        "connecteurs d’argumentation avancés (néanmoins, or, par conséquent)",
-        "nuance argumentative (il me semble que, dans une certaine mesure)"
-      ],
-      "vocabulary": [
-        "un point de vue",
-        "réfuter",
-        "dans une certaine mesure",
-        "un contre-argument"
-      ],
-      "scenario": "Dans un club de discussion en ligne, des étudiants francophones débattent de sujets de société, dont l’usage des écrans chez les jeunes."
-    }
-  },
-  {
     "id": "les-medias-et-la-fabrique-de-lopinion",
     "slug": "les-medias-et-la-fabrique-de-lopinion",
     "level": "C1",
@@ -68109,6 +68079,36 @@
         "étendue et contrôle du vocabulaire",
         "correction grammaticale constante"
       ]
+    }
+  },
+  {
+    "id": "debats-de-societe",
+    "slug": "debats-de-societe",
+    "level": "B2",
+    "title": "Débats de société",
+    "titleEs": "Debates de sociedad",
+    "description": "Ce que disent réellement les recherches sur le temps d’écran chez les jeunes, entre inquiétudes légitimes et nuances scientifiques.",
+    "order": 3,
+    "unitOverview": {
+      "objective": "Participer à un débat structuré sur un sujet de société et défendre une position nuancée.",
+      "outcomes": [
+        "structurer un argument avec des connecteurs logiques avancés",
+        "anticiper et réfuter un contre-argument",
+        "utiliser la voix passive dans un contexte argumentatif",
+        "nuancer une position sans paraître catégorique"
+      ],
+      "grammar": [
+        "la voix passive",
+        "connecteurs d’argumentation avancés (néanmoins, or, par conséquent)",
+        "nuance argumentative (il me semble que, dans une certaine mesure)"
+      ],
+      "vocabulary": [
+        "un point de vue",
+        "réfuter",
+        "dans une certaine mesure",
+        "un contre-argument"
+      ],
+      "scenario": "Dans un club de discussion en ligne, des étudiants francophones débattent de sujets de société, dont l’usage des écrans chez les jeunes."
     }
   },
   {
@@ -68182,36 +68182,6 @@
     }
   },
   {
-    "id": "le-teletravail-et-lavenir-professionnel",
-    "slug": "le-teletravail-et-lavenir-professionnel",
-    "level": "B2",
-    "title": "Le télétravail et l’avenir professionnel",
-    "titleEs": "El teletrabajo y el futuro profesional",
-    "description": "Ce que les études sur le travail à distance révèlent sur la productivité, l’isolement et l’avenir du bureau.",
-    "order": 4,
-    "unitOverview": {
-      "objective": "Décrire une expérience professionnelle et peser les avantages et inconvénients du télétravail.",
-      "outcomes": [
-        "décrire une routine de travail à distance",
-        "peser des avantages et des inconvénients avec nuance",
-        "utiliser le gérondif pour exprimer la simultanéité",
-        "employer des pronoms relatifs composés (dont, ce dont)"
-      ],
-      "grammar": [
-        "le gérondif (en + participe présent)",
-        "pronoms relatifs composés (dont, ce dont)",
-        "expressions de nuance professionnelle"
-      ],
-      "vocabulary": [
-        "le télétravail",
-        "la productivité",
-        "l’isolement",
-        "gérer son temps"
-      ],
-      "scenario": "De plus en plus d’entreprises généralisent le télétravail : voici ce que révèlent les études récentes sur ses effets réels."
-    }
-  },
-  {
     "id": "intelligence-artificielle-et-traduction",
     "slug": "intelligence-artificielle-et-traduction",
     "level": "C1",
@@ -68272,6 +68242,36 @@
         "étendue et contrôle du vocabulaire",
         "correction grammaticale constante"
       ]
+    }
+  },
+  {
+    "id": "le-teletravail-et-lavenir-professionnel",
+    "slug": "le-teletravail-et-lavenir-professionnel",
+    "level": "B2",
+    "title": "Le télétravail et l’avenir professionnel",
+    "titleEs": "El teletrabajo y el futuro profesional",
+    "description": "Ce que les études sur le travail à distance révèlent sur la productivité, l’isolement et l’avenir du bureau.",
+    "order": 4,
+    "unitOverview": {
+      "objective": "Décrire une expérience professionnelle et peser les avantages et inconvénients du télétravail.",
+      "outcomes": [
+        "décrire une routine de travail à distance",
+        "peser des avantages et des inconvénients avec nuance",
+        "utiliser le gérondif pour exprimer la simultanéité",
+        "employer des pronoms relatifs composés (dont, ce dont)"
+      ],
+      "grammar": [
+        "le gérondif (en + participe présent)",
+        "pronoms relatifs composés (dont, ce dont)",
+        "expressions de nuance professionnelle"
+      ],
+      "vocabulary": [
+        "le télétravail",
+        "la productivité",
+        "l’isolement",
+        "gérer son temps"
+      ],
+      "scenario": "De plus en plus d’entreprises généralisent le télétravail : voici ce que révèlent les études récentes sur ses effets réels."
     }
   },
   {
@@ -68345,36 +68345,6 @@
     }
   },
   {
-    "id": "litterature-francophone",
-    "slug": "litterature-francophone",
-    "level": "B2",
-    "title": "Littérature francophone",
-    "titleEs": "Literatura francófona",
-    "description": "Comment des écrivains martiniquais ont théorisé une identité culturelle plurielle à travers la littérature.",
-    "order": 5,
-    "unitOverview": {
-      "objective": "Analyser un extrait littéraire simple et rapporter les propos d’un auteur au discours indirect.",
-      "outcomes": [
-        "analyser le thème et le ton d’un extrait littéraire",
-        "rapporter des propos au discours indirect au passé",
-        "utiliser des pronoms relatifs composés (lequel, laquelle)",
-        "exprimer une impression de lecture avec nuance"
-      ],
-      "grammar": [
-        "discours indirect au passé",
-        "pronoms relatifs composés (lequel, auquel, duquel)",
-        "expressions d’analyse littéraire"
-      ],
-      "vocabulary": [
-        "un extrait",
-        "le narrateur",
-        "évoquer",
-        "un thème récurrent"
-      ],
-      "scenario": "Un club de lecture en ligne étudie un roman francophone caribéen évoquant l’identité et le déracinement."
-    }
-  },
-  {
     "id": "memoire-migration-et-identite",
     "slug": "memoire-migration-et-identite",
     "level": "C1",
@@ -68435,6 +68405,36 @@
         "étendue et contrôle du vocabulaire",
         "correction grammaticale constante"
       ]
+    }
+  },
+  {
+    "id": "litterature-francophone",
+    "slug": "litterature-francophone",
+    "level": "B2",
+    "title": "Littérature francophone",
+    "titleEs": "Literatura francófona",
+    "description": "Comment des écrivains martiniquais ont théorisé une identité culturelle plurielle à travers la littérature.",
+    "order": 5,
+    "unitOverview": {
+      "objective": "Analyser un extrait littéraire simple et rapporter les propos d’un auteur au discours indirect.",
+      "outcomes": [
+        "analyser le thème et le ton d’un extrait littéraire",
+        "rapporter des propos au discours indirect au passé",
+        "utiliser des pronoms relatifs composés (lequel, laquelle)",
+        "exprimer une impression de lecture avec nuance"
+      ],
+      "grammar": [
+        "discours indirect au passé",
+        "pronoms relatifs composés (lequel, auquel, duquel)",
+        "expressions d’analyse littéraire"
+      ],
+      "vocabulary": [
+        "un extrait",
+        "le narrateur",
+        "évoquer",
+        "un thème récurrent"
+      ],
+      "scenario": "Un club de lecture en ligne étudie un roman francophone caribéen évoquant l’identité et le déracinement."
     }
   },
   {
@@ -68508,36 +68508,6 @@
     }
   },
   {
-    "id": "cinema-et-critique",
-    "slug": "cinema-et-critique",
-    "level": "B2",
-    "title": "Cinéma et critique",
-    "titleEs": "Cine y crítica",
-    "description": "Retour sur le film de Justine Triet, récompensé à Cannes en 2023, et sur les débats qu’il a suscités.",
-    "order": 6,
-    "unitOverview": {
-      "objective": "Rédiger une critique de film structurée avec des arguments et une évaluation nuancée.",
-      "outcomes": [
-        "décrire l’intrigue d’un film sans trop en révéler",
-        "évaluer la mise en scène et le jeu des acteurs",
-        "utiliser ce qui / ce que pour résumer une impression",
-        "nuancer une critique entre points forts et points faibles"
-      ],
-      "grammar": [
-        "ce qui / ce que (récapitulatif)",
-        "expressions d’évaluation critique",
-        "comparatifs et superlatifs avancés"
-      ],
-      "vocabulary": [
-        "la mise en scène",
-        "le scénario",
-        "un rebondissement",
-        "convaincant(e) (cinéma)"
-      ],
-      "scenario": "Un film récompensé à Cannes suscite un débat critique animé : voici comment en construire une analyse nuancée."
-    }
-  },
-  {
     "id": "justice-sociale-et-inegalites",
     "slug": "justice-sociale-et-inegalites",
     "level": "C1",
@@ -68598,6 +68568,36 @@
         "étendue et contrôle du vocabulaire",
         "correction grammaticale constante"
       ]
+    }
+  },
+  {
+    "id": "cinema-et-critique",
+    "slug": "cinema-et-critique",
+    "level": "B2",
+    "title": "Cinéma et critique",
+    "titleEs": "Cine y crítica",
+    "description": "Retour sur le film de Justine Triet, récompensé à Cannes en 2023, et sur les débats qu’il a suscités.",
+    "order": 6,
+    "unitOverview": {
+      "objective": "Rédiger une critique de film structurée avec des arguments et une évaluation nuancée.",
+      "outcomes": [
+        "décrire l’intrigue d’un film sans trop en révéler",
+        "évaluer la mise en scène et le jeu des acteurs",
+        "utiliser ce qui / ce que pour résumer une impression",
+        "nuancer une critique entre points forts et points faibles"
+      ],
+      "grammar": [
+        "ce qui / ce que (récapitulatif)",
+        "expressions d’évaluation critique",
+        "comparatifs et superlatifs avancés"
+      ],
+      "vocabulary": [
+        "la mise en scène",
+        "le scénario",
+        "un rebondissement",
+        "convaincant(e) (cinéma)"
+      ],
+      "scenario": "Un film récompensé à Cannes suscite un débat critique animé : voici comment en construire une analyse nuancée."
     }
   },
   {
@@ -68671,36 +68671,6 @@
     }
   },
   {
-    "id": "dilemmes-ethiques",
-    "slug": "dilemmes-ethiques",
-    "level": "B2",
-    "title": "Dilemmes éthiques",
-    "titleEs": "Dilemas éticos",
-    "description": "Pourquoi cette expérience philosophique imaginée dans les années 1960 continue d’alimenter les débats en éthique et en intelligence artificielle.",
-    "order": 7,
-    "unitOverview": {
-      "objective": "Discuter d’un dilemme moral et formuler des hypothèses complexes sur le passé.",
-      "outcomes": [
-        "présenter un dilemme éthique avec précision",
-        "formuler une hypothèse irréelle sur le passé",
-        "utiliser le conditionnel passé pour exprimer un regret ou un reproche",
-        "nuancer un jugement moral sans catégoriser trop vite"
-      ],
-      "grammar": [
-        "hypothèse avec si + plus-que-parfait / conditionnel passé",
-        "le conditionnel passé (regret, reproche)",
-        "nuance du jugement moral"
-      ],
-      "vocabulary": [
-        "un dilemme",
-        "une valeur",
-        "juger",
-        "se mettre à la place de"
-      ],
-      "scenario": "Dans un forum de discussion philosophique en ligne, des étudiants débattent d’un dilemme moral classique."
-    }
-  },
-  {
     "id": "ecologie-et-responsabilite-collective",
     "slug": "ecologie-et-responsabilite-collective",
     "level": "C1",
@@ -68761,6 +68731,36 @@
         "étendue et contrôle du vocabulaire",
         "correction grammaticale constante"
       ]
+    }
+  },
+  {
+    "id": "dilemmes-ethiques",
+    "slug": "dilemmes-ethiques",
+    "level": "B2",
+    "title": "Dilemmes éthiques",
+    "titleEs": "Dilemas éticos",
+    "description": "Pourquoi cette expérience philosophique imaginée dans les années 1960 continue d’alimenter les débats en éthique et en intelligence artificielle.",
+    "order": 7,
+    "unitOverview": {
+      "objective": "Discuter d’un dilemme moral et formuler des hypothèses complexes sur le passé.",
+      "outcomes": [
+        "présenter un dilemme éthique avec précision",
+        "formuler une hypothèse irréelle sur le passé",
+        "utiliser le conditionnel passé pour exprimer un regret ou un reproche",
+        "nuancer un jugement moral sans catégoriser trop vite"
+      ],
+      "grammar": [
+        "hypothèse avec si + plus-que-parfait / conditionnel passé",
+        "le conditionnel passé (regret, reproche)",
+        "nuance du jugement moral"
+      ],
+      "vocabulary": [
+        "un dilemme",
+        "une valeur",
+        "juger",
+        "se mettre à la place de"
+      ],
+      "scenario": "Dans un forum de discussion philosophique en ligne, des étudiants débattent d’un dilemme moral classique."
     }
   },
   {
@@ -68834,36 +68834,6 @@
     }
   },
   {
-    "id": "sciences-et-innovations",
-    "slug": "sciences-et-innovations",
-    "level": "B2",
-    "title": "Sciences et innovations",
-    "titleEs": "Ciencias e innovaciones",
-    "description": "Ce que les études économiques récentes disent des effets de l’automatisation par IA sur le marché du travail.",
-    "order": 8,
-    "unitOverview": {
-      "objective": "Comprendre et discuter d’un texte de vulgarisation scientifique avec nuance.",
-      "outcomes": [
-        "comprendre un texte de vulgarisation scientifique",
-        "exprimer une incertitude ou une probabilité scientifique",
-        "utiliser des connecteurs de cause scientifique (étant donné que, dans la mesure où)",
-        "nuancer une opinion sur une innovation technologique"
-      ],
-      "grammar": [
-        "subjonctif d’incertitude (il est possible que, il se peut que)",
-        "connecteurs de cause avancés (étant donné que, dans la mesure où)",
-        "expression de la probabilité"
-      ],
-      "vocabulary": [
-        "l’intelligence artificielle",
-        "un algorithme",
-        "une avancée",
-        "les répercussions"
-      ],
-      "scenario": "Un article de vulgarisation scientifique explore l’intelligence artificielle et ses répercussions sur la société et le marché du travail."
-    }
-  },
-  {
     "id": "langues-pouvoir-et-inclusion",
     "slug": "langues-pouvoir-et-inclusion",
     "level": "C1",
@@ -68924,6 +68894,36 @@
         "étendue et contrôle du vocabulaire",
         "correction grammaticale constante"
       ]
+    }
+  },
+  {
+    "id": "sciences-et-innovations",
+    "slug": "sciences-et-innovations",
+    "level": "B2",
+    "title": "Sciences et innovations",
+    "titleEs": "Ciencias e innovaciones",
+    "description": "Ce que les études économiques récentes disent des effets de l’automatisation par IA sur le marché du travail.",
+    "order": 8,
+    "unitOverview": {
+      "objective": "Comprendre et discuter d’un texte de vulgarisation scientifique avec nuance.",
+      "outcomes": [
+        "comprendre un texte de vulgarisation scientifique",
+        "exprimer une incertitude ou une probabilité scientifique",
+        "utiliser des connecteurs de cause scientifique (étant donné que, dans la mesure où)",
+        "nuancer une opinion sur une innovation technologique"
+      ],
+      "grammar": [
+        "subjonctif d’incertitude (il est possible que, il se peut que)",
+        "connecteurs de cause avancés (étant donné que, dans la mesure où)",
+        "expression de la probabilité"
+      ],
+      "vocabulary": [
+        "l’intelligence artificielle",
+        "un algorithme",
+        "une avancée",
+        "les répercussions"
+      ],
+      "scenario": "Un article de vulgarisation scientifique explore l’intelligence artificielle et ses répercussions sur la société et le marché du travail."
     }
   },
   {
@@ -68997,36 +68997,6 @@
     }
   },
   {
-    "id": "histoire-et-memoire",
-    "slug": "histoire-et-memoire",
-    "level": "B2",
-    "title": "Histoire et mémoire",
-    "titleEs": "Historia y memoria",
-    "description": "Comment un passé commun et douloureux continue de façonner les relations entre les deux pays qui se partagent Hispaniola.",
-    "order": 9,
-    "unitOverview": {
-      "objective": "Comprendre un récit historique et discuter de la mémoire collective avec nuance.",
-      "outcomes": [
-        "comprendre un récit historique complexe",
-        "discuter de la mémoire collective et de ses interprétations multiples",
-        "utiliser les pronoms démonstratifs (celui, celle, ceux, celles)",
-        "nuancer un point de vue sur un événement historique sensible"
-      ],
-      "grammar": [
-        "pronoms démonstratifs (celui, celle, ceux, celles, celui-ci/celui-là)",
-        "l’accord du participe passé avec avoir (complément direct antéposé)",
-        "expressions de la mémoire historique"
-      ],
-      "vocabulary": [
-        "la mémoire collective",
-        "un héritage",
-        "une perspective",
-        "transmettre"
-      ],
-      "scenario": "Un documentaire retrace l’histoire partagée d’Haïti et de la République dominicaine, et une famille redécouvre ses propres souvenirs liés à cette histoire."
-    }
-  },
-  {
     "id": "science-doute-et-esprit-critique",
     "slug": "science-doute-et-esprit-critique",
     "level": "C1",
@@ -69087,6 +69057,36 @@
         "étendue et contrôle du vocabulaire",
         "correction grammaticale constante"
       ]
+    }
+  },
+  {
+    "id": "histoire-et-memoire",
+    "slug": "histoire-et-memoire",
+    "level": "B2",
+    "title": "Histoire et mémoire",
+    "titleEs": "Historia y memoria",
+    "description": "Comment un passé commun et douloureux continue de façonner les relations entre les deux pays qui se partagent Hispaniola.",
+    "order": 9,
+    "unitOverview": {
+      "objective": "Comprendre un récit historique et discuter de la mémoire collective avec nuance.",
+      "outcomes": [
+        "comprendre un récit historique complexe",
+        "discuter de la mémoire collective et de ses interprétations multiples",
+        "utiliser les pronoms démonstratifs (celui, celle, ceux, celles)",
+        "nuancer un point de vue sur un événement historique sensible"
+      ],
+      "grammar": [
+        "pronoms démonstratifs (celui, celle, ceux, celles, celui-ci/celui-là)",
+        "l’accord du participe passé avec avoir (complément direct antéposé)",
+        "expressions de la mémoire historique"
+      ],
+      "vocabulary": [
+        "la mémoire collective",
+        "un héritage",
+        "une perspective",
+        "transmettre"
+      ],
+      "scenario": "Un documentaire retrace l’histoire partagée d’Haïti et de la République dominicaine, et une famille redécouvre ses propres souvenirs liés à cette histoire."
     }
   },
   {
@@ -69160,36 +69160,6 @@
     }
   },
   {
-    "id": "ecologie-et-engagement-citoyen",
-    "slug": "ecologie-et-engagement-citoyen",
-    "level": "B2",
-    "title": "Écologie et engagement citoyen",
-    "titleEs": "Ecología y compromiso ciudadano",
-    "description": "Pourquoi la protection de ces écosystèmes côtiers est devenue une priorité pour les organisations environnementales de la région.",
-    "order": 10,
-    "unitOverview": {
-      "objective": "Exprimer un but et une opinion négative nuancée dans un contexte d’engagement citoyen.",
-      "outcomes": [
-        "exprimer un but avec afin que + subjonctif",
-        "formuler une opinion négative nuancée (je ne pense pas que + subjonctif)",
-        "rédiger une pétition ou un appel à l’action structuré",
-        "comparer des politiques environnementales avec des comparatifs avancés"
-      ],
-      "grammar": [
-        "expression du but (afin que, pour que + subjonctif)",
-        "opinion négative + subjonctif (je ne pense pas que, je ne crois pas que)",
-        "comparatifs et superlatifs dans un contexte argumentatif"
-      ],
-      "vocabulary": [
-        "une mangrove",
-        "la biodiversité",
-        "un engagement citoyen",
-        "une pétition"
-      ],
-      "scenario": "Un groupe de jeunes bénévoles protège les mangroves près de Saint-Domingue et rédige, en français, une demande de partenariat à une association francophone."
-    }
-  },
-  {
     "id": "art-censure-et-liberte",
     "slug": "art-censure-et-liberte",
     "level": "C1",
@@ -69253,6 +69223,36 @@
     }
   },
   {
+    "id": "ecologie-et-engagement-citoyen",
+    "slug": "ecologie-et-engagement-citoyen",
+    "level": "B2",
+    "title": "Écologie et engagement citoyen",
+    "titleEs": "Ecología y compromiso ciudadano",
+    "description": "Pourquoi la protection de ces écosystèmes côtiers est devenue une priorité pour les organisations environnementales de la région.",
+    "order": 10,
+    "unitOverview": {
+      "objective": "Exprimer un but et une opinion négative nuancée dans un contexte d’engagement citoyen.",
+      "outcomes": [
+        "exprimer un but avec afin que + subjonctif",
+        "formuler une opinion négative nuancée (je ne pense pas que + subjonctif)",
+        "rédiger une pétition ou un appel à l’action structuré",
+        "comparer des politiques environnementales avec des comparatifs avancés"
+      ],
+      "grammar": [
+        "expression du but (afin que, pour que + subjonctif)",
+        "opinion négative + subjonctif (je ne pense pas que, je ne crois pas que)",
+        "comparatifs et superlatifs dans un contexte argumentatif"
+      ],
+      "vocabulary": [
+        "une mangrove",
+        "la biodiversité",
+        "un engagement citoyen",
+        "une pétition"
+      ],
+      "scenario": "Un groupe de jeunes bénévoles protège les mangroves près de Saint-Domingue et rédige, en français, une demande de partenariat à une association francophone."
+    }
+  },
+  {
     "id": "les-vetements-et-les-achats",
     "slug": "les-vetements-et-les-achats",
     "level": "A1",
@@ -69291,36 +69291,6 @@
         "un guichet"
       ],
       "scenario": "Une habitante prépare son inscription à la médiathèque municipale."
-    }
-  },
-  {
-    "id": "art-et-creativite",
-    "slug": "art-et-creativite",
-    "level": "B2",
-    "title": "Art et créativité",
-    "titleEs": "Arte y creatividad",
-    "description": "Comment ce peintre cubain d’origine chinoise, africaine et européenne a transformé la question de l’identité en langage pictural.",
-    "order": 11,
-    "unitOverview": {
-      "objective": "Mener une interview structurée et rapporter des propos sur le processus créatif.",
-      "outcomes": [
-        "préparer et mener une interview structurée",
-        "rapporter les propos d’un artiste avec précision",
-        "utiliser des comparatifs et superlatifs avancés dans un contexte artistique",
-        "décrire un processus créatif avec un vocabulaire précis"
-      ],
-      "grammar": [
-        "comparatifs et superlatifs avancés (autant que, de moins en moins)",
-        "discours rapporté (révision élargie)",
-        "expressions du processus créatif"
-      ],
-      "vocabulary": [
-        "une œuvre",
-        "un processus créatif",
-        "s’inspirer de",
-        "une exposition"
-      ],
-      "scenario": "Un blog culturel interviewe une artiste peintre franco-dominicaine dont le travail explore l’identité caribéenne."
     }
   },
   {
@@ -69387,6 +69357,36 @@
     }
   },
   {
+    "id": "art-et-creativite",
+    "slug": "art-et-creativite",
+    "level": "B2",
+    "title": "Art et créativité",
+    "titleEs": "Arte y creatividad",
+    "description": "Comment ce peintre cubain d’origine chinoise, africaine et européenne a transformé la question de l’identité en langage pictural.",
+    "order": 11,
+    "unitOverview": {
+      "objective": "Mener une interview structurée et rapporter des propos sur le processus créatif.",
+      "outcomes": [
+        "préparer et mener une interview structurée",
+        "rapporter les propos d’un artiste avec précision",
+        "utiliser des comparatifs et superlatifs avancés dans un contexte artistique",
+        "décrire un processus créatif avec un vocabulaire précis"
+      ],
+      "grammar": [
+        "comparatifs et superlatifs avancés (autant que, de moins en moins)",
+        "discours rapporté (révision élargie)",
+        "expressions du processus créatif"
+      ],
+      "vocabulary": [
+        "une œuvre",
+        "un processus créatif",
+        "s’inspirer de",
+        "une exposition"
+      ],
+      "scenario": "Un blog culturel interviewe une artiste peintre franco-dominicaine dont le travail explore l’identité caribéenne."
+    }
+  },
+  {
     "id": "la-meteo-et-les-voyages",
     "slug": "la-meteo-et-les-voyages",
     "level": "A1",
@@ -69425,36 +69425,6 @@
         "participer"
       ],
       "scenario": "Une association de quartier organise une collecte solidaire."
-    }
-  },
-  {
-    "id": "bilan-et-projets-davenir",
-    "slug": "bilan-et-projets-davenir",
-    "level": "B2",
-    "title": "Bilan et projets d’avenir",
-    "titleEs": "Balance y proyectos de futuro",
-    "description": "Pourquoi un séjour académique à l’étranger continue de transformer durablement les parcours des jeunes qui l’entreprennent.",
-    "order": 12,
-    "unitOverview": {
-      "objective": "Faire un bilan personnel structuré et exprimer des projets d’avenir avec assurance.",
-      "outcomes": [
-        "faire le bilan d’un parcours personnel complet",
-        "exprimer un projet d’avenir avec des hypothèses nuancées",
-        "utiliser le conditionnel passé pour évoquer ce qui aurait pu se passer différemment",
-        "conclure une réflexion personnelle avec clarté et maturité"
-      ],
-      "grammar": [
-        "récapitulatif : conditionnel passé, subjonctif, hypothèses complexes",
-        "expressions de bilan (avec le recul, en fin de compte)",
-        "expression de la certitude et de la détermination"
-      ],
-      "vocabulary": [
-        "un bilan",
-        "avec le recul",
-        "un accomplissement",
-        "être déterminé(e) à"
-      ],
-      "scenario": "Une jeune diplômée fait le bilan de tout ce qu’un séjour académique à l’étranger lui a apporté, deux ans après son départ."
     }
   },
   {
@@ -69518,6 +69488,36 @@
         "étendue et contrôle du vocabulaire",
         "correction grammaticale constante"
       ]
+    }
+  },
+  {
+    "id": "bilan-et-projets-davenir",
+    "slug": "bilan-et-projets-davenir",
+    "level": "B2",
+    "title": "Bilan et projets d’avenir",
+    "titleEs": "Balance y proyectos de futuro",
+    "description": "Pourquoi un séjour académique à l’étranger continue de transformer durablement les parcours des jeunes qui l’entreprennent.",
+    "order": 12,
+    "unitOverview": {
+      "objective": "Faire un bilan personnel structuré et exprimer des projets d’avenir avec assurance.",
+      "outcomes": [
+        "faire le bilan d’un parcours personnel complet",
+        "exprimer un projet d’avenir avec des hypothèses nuancées",
+        "utiliser le conditionnel passé pour évoquer ce qui aurait pu se passer différemment",
+        "conclure une réflexion personnelle avec clarté et maturité"
+      ],
+      "grammar": [
+        "récapitulatif : conditionnel passé, subjonctif, hypothèses complexes",
+        "expressions de bilan (avec le recul, en fin de compte)",
+        "expression de la certitude et de la détermination"
+      ],
+      "vocabulary": [
+        "un bilan",
+        "avec le recul",
+        "un accomplissement",
+        "être déterminé(e) à"
+      ],
+      "scenario": "Une jeune diplômée fait le bilan de tout ce qu’un séjour académique à l’étranger lui a apporté, deux ans après son départ."
     }
   }
 ];
