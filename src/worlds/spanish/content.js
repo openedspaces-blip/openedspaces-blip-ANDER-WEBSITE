@@ -2573,193 +2573,205 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-a2-compras-y-cantidades-grammar-test",
+        "id": "spanish-a2-compras-y-cantidades-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-a2-compras-y-cantidades-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente querer, pedir y expresiones de cantidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Aunque «mercado» parece una decisión individual, conviene considerar «precio» y «oferta»."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "mercado precio porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-a2-compras-y-cantidades-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa querer, pedir y expresiones de cantidad para expresar una relación precisa: «Aunque «mercado» parece una decisión individual, conviene considerar «precio» y «oferta».»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-a2-compras-y-cantidades-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente querer, pedir y expresiones de cantidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "mercado precio porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "La evidencia permite interpretar «mercado» antes de formular una conclusión."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "La evidencia permite interpretar «mercado» antes de formular una conclusión."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-a2-compras-y-cantidades-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa querer, pedir y expresiones de cantidad para expresar una relación precisa: «La evidencia permite interpretar «mercado» antes de formular una conclusión.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa querer, pedir y expresiones de cantidad para expresar una relación precisa: «La evidencia permite interpretar «mercado» antes de formular una conclusión.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-a2-compras-y-cantidades-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente querer, pedir y expresiones de cantidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "mercado precio porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "Conviene distinguir «precio» de «oferta» para evitar una ambigüedad."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "mercado precio porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-a2-compras-y-cantidades-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa querer, pedir y expresiones de cantidad para expresar una relación precisa: «Conviene distinguir «precio» de «oferta» para evitar una ambigüedad.»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa querer, pedir y expresiones de cantidad para expresar una relación precisa: «Conviene distinguir «precio» de «oferta» para evitar una ambigüedad.»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-a2-compras-y-cantidades-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente querer, pedir y expresiones de cantidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "mercado precio porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "La conclusión es provisional porque todavía faltan datos comparables."
               },
               {
-                "id": "o4",
-                "text": "La conclusión es provisional porque todavía faltan datos comparables."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-a2-compras-y-cantidades-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa querer, pedir y expresiones de cantidad para expresar una relación precisa: «La conclusión es provisional porque todavía faltan datos comparables.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa querer, pedir y expresiones de cantidad para expresar una relación precisa: «La conclusión es provisional porque todavía faltan datos comparables.»"
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Gramática · querer, pedir y expresiones de cantidad",
+        "definition": "Foco: querer, pedir y expresiones de cantidad.",
+        "structure": "Forma que se debe observar: Gramática · querer, pedir y expresiones de cantidad. Compara el tiempo, los conectores, los pronombres y el orden de palabras de los ejemplos.",
+        "function": "Aplica la forma gramatical dentro del tema «Compras y cantidades».",
+        "examples": [
+          "Aunque «mercado» parece una decisión individual, conviene considerar «precio» y «oferta».",
+          "Usa querer, pedir y expresiones de cantidad para expresar una relación precisa: «Aunque «mercado» parece una decisión individual, conviene considerar «precio» y «oferta».»",
+          "La evidencia permite interpretar «mercado» antes de formular una conclusión.",
+          "Usa querer, pedir y expresiones de cantidad para expresar una relación precisa: «La evidencia permite interpretar «mercado» antes de formular una conclusión.»"
         ]
       },
       "listeningComprehension": null
@@ -2881,190 +2893,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-b1-historias-personales-grammar-test",
+        "id": "spanish-b1-historias-personales-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-b1-historias-personales-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente contraste entre indefinido e imperfecto?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Cuando surgió «etapa», el grupo revisó lo ocurrido."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "etapa decisión porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-b1-historias-personales-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa contraste entre indefinido e imperfecto para expresar una relación precisa: «Cuando surgió «etapa», el grupo revisó lo ocurrido.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-b1-historias-personales-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente contraste entre indefinido e imperfecto?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "etapa decisión porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "Mientras analizaban «decisión», apareció una evidencia nueva."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "Mientras analizaban «decisión», apareció una evidencia nueva."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-b1-historias-personales-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa contraste entre indefinido e imperfecto para expresar una relación precisa: «Mientras analizaban «decisión», apareció una evidencia nueva.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa contraste entre indefinido e imperfecto para expresar una relación precisa: «Mientras analizaban «decisión», apareció una evidencia nueva.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-b1-historias-personales-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente contraste entre indefinido e imperfecto?",
             "options": [
               {
-                "id": "o1",
-                "text": "etapa decisión porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "El equipo ya había examinado «cambio» antes de decidir."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "etapa decisión porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-b1-historias-personales-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa contraste entre indefinido e imperfecto para expresar una relación precisa: «El equipo ya había examinado «cambio» antes de decidir.»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa contraste entre indefinido e imperfecto para expresar una relación precisa: «El equipo ya había examinado «cambio» antes de decidir.»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-b1-historias-personales-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente contraste entre indefinido e imperfecto?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "etapa decisión porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "Esta semana hemos comparado los datos con los que reunimos el año pasado."
               },
               {
-                "id": "o4",
-                "text": "Esta semana hemos comparado los datos con los que reunimos el año pasado."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-b1-historias-personales-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa contraste entre indefinido e imperfecto para expresar una relación precisa: «Esta semana hemos comparado los datos con los que reunimos el año pasado.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa contraste entre indefinido e imperfecto para expresar una relación precisa: «Esta semana hemos comparado los datos con los que reunimos el año pasado.»"
               }
             ]
           }
@@ -3205,190 +3217,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-b2-identidad-digital-grammar-test",
+        "id": "spanish-b2-identidad-digital-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-b2-identidad-digital-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente concesivas aunque, pese a y a pesar de?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Aunque «huella digital» aporta beneficios, sus efectos no se distribuyen por igual."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "huella digital privacidad porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-b2-identidad-digital-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa concesivas aunque, pese a y a pesar de para expresar una relación precisa: «Aunque «huella digital» aporta beneficios, sus efectos no se distribuyen por igual.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-b2-identidad-digital-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente concesivas aunque, pese a y a pesar de?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "huella digital privacidad porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "Pese a la evidencia sobre «privacidad», la conclusión debe seguir siendo provisional."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "Pese a la evidencia sobre «privacidad», la conclusión debe seguir siendo provisional."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-b2-identidad-digital-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa concesivas aunque, pese a y a pesar de para expresar una relación precisa: «Pese a la evidencia sobre «privacidad», la conclusión debe seguir siendo provisional.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa concesivas aunque, pese a y a pesar de para expresar una relación precisa: «Pese a la evidencia sobre «privacidad», la conclusión debe seguir siendo provisional.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-b2-identidad-digital-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente concesivas aunque, pese a y a pesar de?",
             "options": [
               {
-                "id": "o1",
-                "text": "huella digital privacidad porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "Aun cuando «perfil» mejore, persistirán algunas limitaciones."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "huella digital privacidad porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-b2-identidad-digital-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa concesivas aunque, pese a y a pesar de para expresar una relación precisa: «Aun cuando «perfil» mejore, persistirán algunas limitaciones.»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa concesivas aunque, pese a y a pesar de para expresar una relación precisa: «Aun cuando «perfil» mejore, persistirán algunas limitaciones.»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-b2-identidad-digital-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente concesivas aunque, pese a y a pesar de?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "huella digital privacidad porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "La propuesta es viable; sin embargo, requiere controles independientes."
               },
               {
-                "id": "o4",
-                "text": "La propuesta es viable; sin embargo, requiere controles independientes."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-b2-identidad-digital-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa concesivas aunque, pese a y a pesar de para expresar una relación precisa: «La propuesta es viable; sin embargo, requiere controles independientes.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa concesivas aunque, pese a y a pesar de para expresar una relación precisa: «La propuesta es viable; sin embargo, requiere controles independientes.»"
               }
             ]
           }
@@ -3529,190 +3541,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-c1-memoria-y-relato-grammar-test",
+        "id": "spanish-c1-memoria-y-relato-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-c1-memoria-y-relato-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente matización, subordinación concesiva y evidencialidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Aunque «autonomía» aporta beneficios, sus efectos no se distribuyen por igual."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "autonomía sesgo porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-c1-memoria-y-relato-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa matización, subordinación concesiva y evidencialidad para expresar una relación precisa: «Aunque «autonomía» aporta beneficios, sus efectos no se distribuyen por igual.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-c1-memoria-y-relato-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente matización, subordinación concesiva y evidencialidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "autonomía sesgo porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "Pese a la evidencia sobre «sesgo», la conclusión debe seguir siendo provisional."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "Pese a la evidencia sobre «sesgo», la conclusión debe seguir siendo provisional."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-c1-memoria-y-relato-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa matización, subordinación concesiva y evidencialidad para expresar una relación precisa: «Pese a la evidencia sobre «sesgo», la conclusión debe seguir siendo provisional.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa matización, subordinación concesiva y evidencialidad para expresar una relación precisa: «Pese a la evidencia sobre «sesgo», la conclusión debe seguir siendo provisional.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-c1-memoria-y-relato-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente matización, subordinación concesiva y evidencialidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "autonomía sesgo porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "Aun cuando «verificar» mejore, persistirán algunas limitaciones."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "autonomía sesgo porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-c1-memoria-y-relato-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa matización, subordinación concesiva y evidencialidad para expresar una relación precisa: «Aun cuando «verificar» mejore, persistirán algunas limitaciones.»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa matización, subordinación concesiva y evidencialidad para expresar una relación precisa: «Aun cuando «verificar» mejore, persistirán algunas limitaciones.»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-c1-memoria-y-relato-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente matización, subordinación concesiva y evidencialidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "autonomía sesgo porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "La propuesta es viable; sin embargo, requiere controles independientes."
               },
               {
-                "id": "o4",
-                "text": "La propuesta es viable; sin embargo, requiere controles independientes."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-c1-memoria-y-relato-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa matización, subordinación concesiva y evidencialidad para expresar una relación precisa: «La propuesta es viable; sin embargo, requiere controles independientes.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa matización, subordinación concesiva y evidencialidad para expresar una relación precisa: «La propuesta es viable; sin embargo, requiere controles independientes.»"
               }
             ]
           }
@@ -3853,190 +3865,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-c2-ambiguedad-y-sentido-grammar-test",
+        "id": "spanish-c2-ambiguedad-y-sentido-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-c2-ambiguedad-y-sentido-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente polisemia, elipsis y ambigüedad sintáctica?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "La propuesta incluye «algoritmo»; este elemento cambia la decisión final."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "algoritmo recomendación porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-c2-ambiguedad-y-sentido-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa polisemia, elipsis y ambigüedad sintáctica para expresar una relación precisa: «La propuesta incluye «algoritmo»; este elemento cambia la decisión final.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-c2-ambiguedad-y-sentido-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente polisemia, elipsis y ambigüedad sintáctica?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "algoritmo recomendación porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "El equipo revisó las recomendaciones y luego las incorporó al informe."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "El equipo revisó las recomendaciones y luego las incorporó al informe."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-c2-ambiguedad-y-sentido-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa polisemia, elipsis y ambigüedad sintáctica para expresar una relación precisa: «El equipo revisó las recomendaciones y luego las incorporó al informe.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa polisemia, elipsis y ambigüedad sintáctica para expresar una relación precisa: «El equipo revisó las recomendaciones y luego las incorporó al informe.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-c2-ambiguedad-y-sentido-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente polisemia, elipsis y ambigüedad sintáctica?",
             "options": [
               {
-                "id": "o1",
-                "text": "algoritmo recomendación porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "Algunas personas aceptaron «recomendación»; otras, no."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "algoritmo recomendación porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-c2-ambiguedad-y-sentido-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa polisemia, elipsis y ambigüedad sintáctica para expresar una relación precisa: «Algunas personas aceptaron «recomendación»; otras, no.»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa polisemia, elipsis y ambigüedad sintáctica para expresar una relación precisa: «Algunas personas aceptaron «recomendación»; otras, no.»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-c2-ambiguedad-y-sentido-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente polisemia, elipsis y ambigüedad sintáctica?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "algoritmo recomendación porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "La primera medida aborda «perfil» y la segunda lo desarrolla con mayor detalle."
               },
               {
-                "id": "o4",
-                "text": "La primera medida aborda «perfil» y la segunda lo desarrolla con mayor detalle."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-c2-ambiguedad-y-sentido-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa polisemia, elipsis y ambigüedad sintáctica para expresar una relación precisa: «La primera medida aborda «perfil» y la segunda lo desarrolla con mayor detalle.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa polisemia, elipsis y ambigüedad sintáctica para expresar una relación precisa: «La primera medida aborda «perfil» y la segunda lo desarrolla con mayor detalle.»"
               }
             ]
           }
@@ -4177,7 +4189,211 @@
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarTest": {
+        "id": "spanish-a1-hola-mucho-gusto-grammar-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "spanish-a1-hola-mucho-gusto-grammar-grammar-q1",
+            "type": "mcq",
+            "prompt": "Yo ___ Valentina.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Yo soy Valentina."
+              },
+              {
+                "id": "b",
+                "text": "Yo eres Valentina."
+              },
+              {
+                "id": "c",
+                "text": "Yo es Valentina."
+              },
+              {
+                "id": "d",
+                "text": "Yo somos Valentina."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-hola-mucho-gusto-grammar-grammar-q2",
+            "type": "mcq",
+            "prompt": "Tú ___ mi amigo.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Tú soy mi amigo."
+              },
+              {
+                "id": "b",
+                "text": "Tú eres mi amigo."
+              },
+              {
+                "id": "c",
+                "text": "Tú es mi amigo."
+              },
+              {
+                "id": "d",
+                "text": "Tú son mi amigo."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-hola-mucho-gusto-grammar-grammar-q3",
+            "type": "mcq",
+            "prompt": "Él ___ Marco.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Él soy Marco."
+              },
+              {
+                "id": "b",
+                "text": "Él eres Marco."
+              },
+              {
+                "id": "c",
+                "text": "Él se llama Marco."
+              },
+              {
+                "id": "d",
+                "text": "Él te llamas Marco."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-hola-mucho-gusto-grammar-grammar-q4",
+            "type": "mcq",
+            "prompt": "¿Cómo ___ (tú)?",
+            "options": [
+              {
+                "id": "a",
+                "text": "¿Cómo me llamo (tú)?"
+              },
+              {
+                "id": "c",
+                "text": "¿Cómo se llama (tú)?"
+              },
+              {
+                "id": "d",
+                "text": "¿Cómo soy (tú)?"
+              },
+              {
+                "id": "b",
+                "text": "¿Cómo te llamas (tú)?"
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-hola-mucho-gusto-grammar-grammar-q5",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «Yo eres Valentina.»?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Yo soy Valentina."
+              },
+              {
+                "id": "b",
+                "text": "Yo eres Valentina."
+              },
+              {
+                "id": "c",
+                "text": "Yo es Valentina."
+              },
+              {
+                "id": "d",
+                "text": "Yo somos Valentina."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-hola-mucho-gusto-grammar-grammar-q6",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «Tú soy mi amigo.»?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Tú soy mi amigo."
+              },
+              {
+                "id": "b",
+                "text": "Tú eres mi amigo."
+              },
+              {
+                "id": "c",
+                "text": "Tú es mi amigo."
+              },
+              {
+                "id": "d",
+                "text": "Tú son mi amigo."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-hola-mucho-gusto-grammar-grammar-q7",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «Él soy Marco.»?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Él soy Marco."
+              },
+              {
+                "id": "b",
+                "text": "Él eres Marco."
+              },
+              {
+                "id": "c",
+                "text": "Él se llama Marco."
+              },
+              {
+                "id": "d",
+                "text": "Él te llamas Marco."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-hola-mucho-gusto-grammar-grammar-q8",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «¿Cómo me llamo (tú)?»?",
+            "options": [
+              {
+                "id": "a",
+                "text": "¿Cómo me llamo (tú)?"
+              },
+              {
+                "id": "c",
+                "text": "¿Cómo se llama (tú)?"
+              },
+              {
+                "id": "d",
+                "text": "¿Cómo soy (tú)?"
+              },
+              {
+                "id": "b",
+                "text": "¿Cómo te llamas (tú)?"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarProfile": {
+        "name": "El verbo ser y llamarse",
+        "definition": "El verbo \"ser\" cambia según la persona: yo soy, tú eres, él/ella es. Usamos \"llamarse\" para decir el nombre: yo me llamo, tú te llamas, él/ella se llama. Ejemplo: \"Yo soy Valentina. Tú eres mi amigo. Él se llama Marco.\" Errores frecuentes: no confundir \"soy\" (ser) con \"estoy\" (estar); \"estoy\" es para sentimientos y estados (Estoy bien), \"soy\" es para identidad (Soy Valentina).",
+        "structure": "Forma que se debe observar: El verbo ser y llamarse. Compara el tiempo, los conectores, los pronombres y el orden de palabras de los ejemplos.",
+        "function": "Aprende a usar soy/eres/es y me llamo/te llamas/se llama.",
+        "examples": [
+          "Yo soy Valentina.",
+          "Tú eres mi amigo.",
+          "Él se llama Marco.",
+          "¿Cómo te llamas (tú)?"
+        ]
+      },
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
@@ -7452,193 +7668,205 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-a2-orientarse-en-la-ciudad-grammar-test",
+        "id": "spanish-a2-orientarse-en-la-ciudad-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-a2-orientarse-en-la-ciudad-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente imperativo y preposiciones de lugar?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Revise «esquina» antes de confirmar la decisión, por favor."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "esquina cuadra porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-a2-orientarse-en-la-ciudad-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa imperativo y preposiciones de lugar para expresar una relación precisa: «Revise «esquina» antes de confirmar la decisión, por favor.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-a2-orientarse-en-la-ciudad-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente imperativo y preposiciones de lugar?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "esquina cuadra porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "¿Podría aclarar cómo se relaciona «cuadra» con la propuesta?"
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "¿Podría aclarar cómo se relaciona «cuadra» con la propuesta?"
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-a2-orientarse-en-la-ciudad-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa imperativo y preposiciones de lugar para expresar una relación precisa: «¿Podría aclarar cómo se relaciona «cuadra» con la propuesta?»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa imperativo y preposiciones de lugar para expresar una relación precisa: «¿Podría aclarar cómo se relaciona «cuadra» con la propuesta?»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-a2-orientarse-en-la-ciudad-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente imperativo y preposiciones de lugar?",
             "options": [
               {
-                "id": "o1",
-                "text": "esquina cuadra porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "Quizá convendría matizar la afirmación sobre «semáforo»."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "esquina cuadra porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-a2-orientarse-en-la-ciudad-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa imperativo y preposiciones de lugar para expresar una relación precisa: «Quizá convendría matizar la afirmación sobre «semáforo».»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa imperativo y preposiciones de lugar para expresar una relación precisa: «Quizá convendría matizar la afirmación sobre «semáforo».»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-a2-orientarse-en-la-ciudad-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente imperativo y preposiciones de lugar?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "esquina cuadra porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "Si no le importa, examinemos primero la evidencia disponible."
               },
               {
-                "id": "o4",
-                "text": "Si no le importa, examinemos primero la evidencia disponible."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-a2-orientarse-en-la-ciudad-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa imperativo y preposiciones de lugar para expresar una relación precisa: «Si no le importa, examinemos primero la evidencia disponible.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa imperativo y preposiciones de lugar para expresar una relación precisa: «Si no le importa, examinemos primero la evidencia disponible.»"
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Gramática · imperativo y preposiciones de lugar",
+        "definition": "Foco: imperativo y preposiciones de lugar.",
+        "structure": "Forma que se debe observar: Gramática · imperativo y preposiciones de lugar. Compara el tiempo, los conectores, los pronombres y el orden de palabras de los ejemplos.",
+        "function": "Aplica la forma gramatical dentro del tema «Orientarse en la ciudad».",
+        "examples": [
+          "Revise «esquina» antes de confirmar la decisión, por favor.",
+          "Usa imperativo y preposiciones de lugar para expresar una relación precisa: «Revise «esquina» antes de confirmar la decisión, por favor.»",
+          "¿Podría aclarar cómo se relaciona «cuadra» con la propuesta?",
+          "Usa imperativo y preposiciones de lugar para expresar una relación precisa: «¿Podría aclarar cómo se relaciona «cuadra» con la propuesta?»"
         ]
       },
       "listeningComprehension": null
@@ -7760,190 +7988,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-b1-trabajo-y-talento-grammar-test",
+        "id": "spanish-b1-trabajo-y-talento-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-b1-trabajo-y-talento-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente pretérito perfecto y perífrasis de capacidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Cuando surgió «vacante», el grupo revisó lo ocurrido."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "vacante experiencia porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-b1-trabajo-y-talento-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa pretérito perfecto y perífrasis de capacidad para expresar una relación precisa: «Cuando surgió «vacante», el grupo revisó lo ocurrido.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-b1-trabajo-y-talento-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente pretérito perfecto y perífrasis de capacidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "vacante experiencia porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "Mientras analizaban «experiencia», apareció una evidencia nueva."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "Mientras analizaban «experiencia», apareció una evidencia nueva."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-b1-trabajo-y-talento-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa pretérito perfecto y perífrasis de capacidad para expresar una relación precisa: «Mientras analizaban «experiencia», apareció una evidencia nueva.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa pretérito perfecto y perífrasis de capacidad para expresar una relación precisa: «Mientras analizaban «experiencia», apareció una evidencia nueva.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-b1-trabajo-y-talento-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente pretérito perfecto y perífrasis de capacidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "vacante experiencia porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "El equipo ya había examinado «habilidad» antes de decidir."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "vacante experiencia porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-b1-trabajo-y-talento-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa pretérito perfecto y perífrasis de capacidad para expresar una relación precisa: «El equipo ya había examinado «habilidad» antes de decidir.»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa pretérito perfecto y perífrasis de capacidad para expresar una relación precisa: «El equipo ya había examinado «habilidad» antes de decidir.»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-b1-trabajo-y-talento-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente pretérito perfecto y perífrasis de capacidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "vacante experiencia porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "Esta semana hemos comparado los datos con los que reunimos el año pasado."
               },
               {
-                "id": "o4",
-                "text": "Esta semana hemos comparado los datos con los que reunimos el año pasado."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-b1-trabajo-y-talento-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa pretérito perfecto y perífrasis de capacidad para expresar una relación precisa: «Esta semana hemos comparado los datos con los que reunimos el año pasado.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa pretérito perfecto y perífrasis de capacidad para expresar una relación precisa: «Esta semana hemos comparado los datos con los que reunimos el año pasado.»"
               }
             ]
           }
@@ -8084,190 +8312,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-b2-ciudades-sostenibles-grammar-test",
+        "id": "spanish-b2-ciudades-sostenibles-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-b2-ciudades-sostenibles-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente condicionales reales e hipotéticas?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Si existieran más apoyos, muchas personas podrían afrontar «movilidad» de otra manera."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "movilidad peatonal porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-b2-ciudades-sostenibles-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa condicionales reales e hipotéticas para expresar una relación precisa: «Si existieran más apoyos, muchas personas podrían afrontar «movilidad» de otra manera.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-b2-ciudades-sostenibles-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente condicionales reales e hipotéticas?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "movilidad peatonal porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "Si el equipo hubiera revisado «peatonal», habría evitado una conclusión precipitada."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "Si el equipo hubiera revisado «peatonal», habría evitado una conclusión precipitada."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-b2-ciudades-sostenibles-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa condicionales reales e hipotéticas para expresar una relación precisa: «Si el equipo hubiera revisado «peatonal», habría evitado una conclusión precipitada.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa condicionales reales e hipotéticas para expresar una relación precisa: «Si el equipo hubiera revisado «peatonal», habría evitado una conclusión precipitada.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-b2-ciudades-sostenibles-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente condicionales reales e hipotéticas?",
             "options": [
               {
-                "id": "o1",
-                "text": "movilidad peatonal porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La propuesta sería más sólida si incluyera «emisiones»."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "movilidad peatonal porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-b2-ciudades-sostenibles-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa condicionales reales e hipotéticas para expresar una relación precisa: «La propuesta sería más sólida si incluyera «emisiones».»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa condicionales reales e hipotéticas para expresar una relación precisa: «La propuesta sería más sólida si incluyera «emisiones».»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-b2-ciudades-sostenibles-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente condicionales reales e hipotéticas?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "movilidad peatonal porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "De mantenerse estas condiciones, el resultado podría cambiar."
               },
               {
-                "id": "o4",
-                "text": "De mantenerse estas condiciones, el resultado podría cambiar."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-b2-ciudades-sostenibles-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa condicionales reales e hipotéticas para expresar una relación precisa: «De mantenerse estas condiciones, el resultado podría cambiar.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa condicionales reales e hipotéticas para expresar una relación precisa: «De mantenerse estas condiciones, el resultado podría cambiar.»"
               }
             ]
           }
@@ -8408,190 +8636,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-c1-retorica-publica-grammar-test",
+        "id": "spanish-c1-retorica-publica-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-c1-retorica-publica-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente focalización, estructuras escindidas y énfasis discursivo?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Aunque «reinventarse» parece una decisión individual, conviene considerar «incertidumbre» y «proyecto»."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "reinventarse incertidumbre porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-c1-retorica-publica-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa focalización, estructuras escindidas y énfasis discursivo para expresar una relación precisa: «Aunque «reinventarse» parece una decisión individual, conviene considerar «incertidumbre» y «proyecto».»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-c1-retorica-publica-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente focalización, estructuras escindidas y énfasis discursivo?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "reinventarse incertidumbre porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "La evidencia permite interpretar «reinventarse» antes de formular una conclusión."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "La evidencia permite interpretar «reinventarse» antes de formular una conclusión."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-c1-retorica-publica-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa focalización, estructuras escindidas y énfasis discursivo para expresar una relación precisa: «La evidencia permite interpretar «reinventarse» antes de formular una conclusión.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa focalización, estructuras escindidas y énfasis discursivo para expresar una relación precisa: «La evidencia permite interpretar «reinventarse» antes de formular una conclusión.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-c1-retorica-publica-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente focalización, estructuras escindidas y énfasis discursivo?",
             "options": [
               {
-                "id": "o1",
-                "text": "reinventarse incertidumbre porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "Conviene distinguir «incertidumbre» de «proyecto» para evitar una ambigüedad."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "reinventarse incertidumbre porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-c1-retorica-publica-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa focalización, estructuras escindidas y énfasis discursivo para expresar una relación precisa: «Conviene distinguir «incertidumbre» de «proyecto» para evitar una ambigüedad.»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa focalización, estructuras escindidas y énfasis discursivo para expresar una relación precisa: «Conviene distinguir «incertidumbre» de «proyecto» para evitar una ambigüedad.»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-c1-retorica-publica-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente focalización, estructuras escindidas y énfasis discursivo?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "reinventarse incertidumbre porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "La conclusión es provisional porque todavía faltan datos comparables."
               },
               {
-                "id": "o4",
-                "text": "La conclusión es provisional porque todavía faltan datos comparables."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-c1-retorica-publica-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa focalización, estructuras escindidas y énfasis discursivo para expresar una relación precisa: «La conclusión es provisional porque todavía faltan datos comparables.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa focalización, estructuras escindidas y énfasis discursivo para expresar una relación precisa: «La conclusión es provisional porque todavía faltan datos comparables.»"
               }
             ]
           }
@@ -8732,190 +8960,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-c2-humor-e-ironia-grammar-test",
+        "id": "spanish-c2-humor-e-ironia-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-c2-humor-e-ironia-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente ironía, eco y discurso polifónico?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Una estudiante explicó que «modelo» no podía entenderse sin contexto."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "modelo entrenamiento porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-c2-humor-e-ironia-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa ironía, eco y discurso polifónico para expresar una relación precisa: «Una estudiante explicó que «modelo» no podía entenderse sin contexto.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-c2-humor-e-ironia-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente ironía, eco y discurso polifónico?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "modelo entrenamiento porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "La investigadora afirmó que habían revisado «entrenamiento» el día anterior."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "La investigadora afirmó que habían revisado «entrenamiento» el día anterior."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-c2-humor-e-ironia-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa ironía, eco y discurso polifónico para expresar una relación precisa: «La investigadora afirmó que habían revisado «entrenamiento» el día anterior.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa ironía, eco y discurso polifónico para expresar una relación precisa: «La investigadora afirmó que habían revisado «entrenamiento» el día anterior.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-c2-humor-e-ironia-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente ironía, eco y discurso polifónico?",
             "options": [
               {
-                "id": "o1",
-                "text": "modelo entrenamiento porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "El informe advierte que «datos» podría interpretarse de varias maneras."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "modelo entrenamiento porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-c2-humor-e-ironia-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa ironía, eco y discurso polifónico para expresar una relación precisa: «El informe advierte que «datos» podría interpretarse de varias maneras.»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa ironía, eco y discurso polifónico para expresar una relación precisa: «El informe advierte que «datos» podría interpretarse de varias maneras.»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-c2-humor-e-ironia-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente ironía, eco y discurso polifónico?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "modelo entrenamiento porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "Según la comunidad, la propuesta no responde todavía a todas sus necesidades."
               },
               {
-                "id": "o4",
-                "text": "Según la comunidad, la propuesta no responde todavía a todas sus necesidades."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-c2-humor-e-ironia-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa ironía, eco y discurso polifónico para expresar una relación precisa: «Según la comunidad, la propuesta no responde todavía a todas sus necesidades.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa ironía, eco y discurso polifónico para expresar una relación precisa: «Según la comunidad, la propuesta no responde todavía a todas sus necesidades.»"
               }
             ]
           }
@@ -9055,7 +9283,211 @@
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarTest": {
+        "id": "spanish-a1-informacion-personal-grammar-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "spanish-a1-informacion-personal-grammar-grammar-q1",
+            "type": "mcq",
+            "prompt": "Yo ___ veinte años.",
+            "options": [
+              {
+                "id": "b",
+                "text": "Yo tengo veinte años."
+              },
+              {
+                "id": "a",
+                "text": "Yo soy veinte años."
+              },
+              {
+                "id": "c",
+                "text": "Yo vivo veinte años."
+              },
+              {
+                "id": "d",
+                "text": "Yo es veinte años."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-informacion-personal-grammar-grammar-q2",
+            "type": "mcq",
+            "prompt": "¿___ eres, de Colombia o de México?",
+            "options": [
+              {
+                "id": "a",
+                "text": "¿Qué eres, de Colombia o de México?"
+              },
+              {
+                "id": "c",
+                "text": "¿De dónde eres, de Colombia o de México?"
+              },
+              {
+                "id": "b",
+                "text": "¿Dónde eres, de Colombia o de México?"
+              },
+              {
+                "id": "d",
+                "text": "¿Cuántos eres, de Colombia o de México?"
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-informacion-personal-grammar-grammar-q3",
+            "type": "mcq",
+            "prompt": "Yo no ___ de España.",
+            "options": [
+              {
+                "id": "b",
+                "text": "Yo no tengo de España."
+              },
+              {
+                "id": "c",
+                "text": "Yo no vive de España."
+              },
+              {
+                "id": "a",
+                "text": "Yo no soy de España."
+              },
+              {
+                "id": "d",
+                "text": "Yo no eres de España."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-informacion-personal-grammar-grammar-q4",
+            "type": "mcq",
+            "prompt": "¿___ vives ahora?",
+            "options": [
+              {
+                "id": "a",
+                "text": "¿Qué vives ahora?"
+              },
+              {
+                "id": "c",
+                "text": "¿Cuántos vives ahora?"
+              },
+              {
+                "id": "d",
+                "text": "¿Cómo vives ahora?"
+              },
+              {
+                "id": "b",
+                "text": "¿Dónde vives ahora?"
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-informacion-personal-grammar-grammar-q5",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «Yo soy veinte años.»?",
+            "options": [
+              {
+                "id": "b",
+                "text": "Yo tengo veinte años."
+              },
+              {
+                "id": "a",
+                "text": "Yo soy veinte años."
+              },
+              {
+                "id": "c",
+                "text": "Yo vivo veinte años."
+              },
+              {
+                "id": "d",
+                "text": "Yo es veinte años."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-informacion-personal-grammar-grammar-q6",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «¿Qué eres, de Colombia o de México?»?",
+            "options": [
+              {
+                "id": "a",
+                "text": "¿Qué eres, de Colombia o de México?"
+              },
+              {
+                "id": "c",
+                "text": "¿De dónde eres, de Colombia o de México?"
+              },
+              {
+                "id": "b",
+                "text": "¿Dónde eres, de Colombia o de México?"
+              },
+              {
+                "id": "d",
+                "text": "¿Cuántos eres, de Colombia o de México?"
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-informacion-personal-grammar-grammar-q7",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «Yo no tengo de España.»?",
+            "options": [
+              {
+                "id": "b",
+                "text": "Yo no tengo de España."
+              },
+              {
+                "id": "c",
+                "text": "Yo no vive de España."
+              },
+              {
+                "id": "a",
+                "text": "Yo no soy de España."
+              },
+              {
+                "id": "d",
+                "text": "Yo no eres de España."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-informacion-personal-grammar-grammar-q8",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «¿Qué vives ahora?»?",
+            "options": [
+              {
+                "id": "a",
+                "text": "¿Qué vives ahora?"
+              },
+              {
+                "id": "c",
+                "text": "¿Cuántos vives ahora?"
+              },
+              {
+                "id": "d",
+                "text": "¿Cómo vives ahora?"
+              },
+              {
+                "id": "b",
+                "text": "¿Dónde vives ahora?"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Tener, ser, vivir y las preguntas básicas",
+        "definition": "Usamos \"tener\" para la edad: yo tengo, tú tienes, él/ella tiene. Usamos \"vivir\" para el lugar donde vives: yo vivo, tú vives. Preguntas: ¿Qué...?, ¿Cómo...?, ¿Dónde...?, ¿Cuántos años...? La negación se forma con \"no\" antes del verbo: No soy de España. Error frecuente: decir \"tengo veinte\" sin \"años\" suena incompleto; siempre se dice \"tengo veinte años\".",
+        "structure": "Forma que se debe observar: Tener, ser, vivir y las preguntas básicas. Compara el tiempo, los conectores, los pronombres y el orden de palabras de los ejemplos.",
+        "function": "Aprende a usar tener/ser/vivir y a formar preguntas con qué, cómo, dónde y cuántos.",
+        "examples": [
+          "Yo tengo veinte años.",
+          "¿De dónde eres, de Colombia o de México?",
+          "Yo no soy de España.",
+          "¿Dónde vives ahora?"
+        ]
+      },
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
@@ -12170,193 +12602,205 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-a2-rutinas-y-horarios-grammar-test",
+        "id": "spanish-a2-rutinas-y-horarios-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-a2-rutinas-y-horarios-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente presente habitual y estar + gerundio?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Aunque «horario» parece una decisión individual, conviene considerar «turno» y «temprano»."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "horario turno porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-a2-rutinas-y-horarios-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa presente habitual y estar + gerundio para expresar una relación precisa: «Aunque «horario» parece una decisión individual, conviene considerar «turno» y «temprano».»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-a2-rutinas-y-horarios-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente presente habitual y estar + gerundio?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "horario turno porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "La evidencia permite interpretar «horario» antes de formular una conclusión."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "La evidencia permite interpretar «horario» antes de formular una conclusión."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-a2-rutinas-y-horarios-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa presente habitual y estar + gerundio para expresar una relación precisa: «La evidencia permite interpretar «horario» antes de formular una conclusión.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa presente habitual y estar + gerundio para expresar una relación precisa: «La evidencia permite interpretar «horario» antes de formular una conclusión.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-a2-rutinas-y-horarios-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente presente habitual y estar + gerundio?",
             "options": [
               {
-                "id": "o1",
-                "text": "horario turno porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "Conviene distinguir «turno» de «temprano» para evitar una ambigüedad."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "horario turno porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-a2-rutinas-y-horarios-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa presente habitual y estar + gerundio para expresar una relación precisa: «Conviene distinguir «turno» de «temprano» para evitar una ambigüedad.»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa presente habitual y estar + gerundio para expresar una relación precisa: «Conviene distinguir «turno» de «temprano» para evitar una ambigüedad.»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-a2-rutinas-y-horarios-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente presente habitual y estar + gerundio?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "horario turno porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "La conclusión es provisional porque todavía faltan datos comparables."
               },
               {
-                "id": "o4",
-                "text": "La conclusión es provisional porque todavía faltan datos comparables."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-a2-rutinas-y-horarios-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa presente habitual y estar + gerundio para expresar una relación precisa: «La conclusión es provisional porque todavía faltan datos comparables.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa presente habitual y estar + gerundio para expresar una relación precisa: «La conclusión es provisional porque todavía faltan datos comparables.»"
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Gramática · presente habitual y estar + gerundio",
+        "definition": "Foco: presente habitual y estar + gerundio.",
+        "structure": "Forma que se debe observar: Gramática · presente habitual y estar + gerundio. Compara el tiempo, los conectores, los pronombres y el orden de palabras de los ejemplos.",
+        "function": "Aplica la forma gramatical dentro del tema «Rutinas y horarios».",
+        "examples": [
+          "Aunque «horario» parece una decisión individual, conviene considerar «turno» y «temprano».",
+          "Usa presente habitual y estar + gerundio para expresar una relación precisa: «Aunque «horario» parece una decisión individual, conviene considerar «turno» y «temprano».»",
+          "La evidencia permite interpretar «horario» antes de formular una conclusión.",
+          "Usa presente habitual y estar + gerundio para expresar una relación precisa: «La evidencia permite interpretar «horario» antes de formular una conclusión.»"
         ]
       },
       "listeningComprehension": null
@@ -12478,190 +12922,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-b1-viajes-con-imprevistos-grammar-test",
+        "id": "spanish-b1-viajes-con-imprevistos-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-b1-viajes-con-imprevistos-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente condicional de cortesía?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Si existieran más apoyos, muchas personas podrían afrontar «cancelación» de otra manera."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "cancelación retraso porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-b1-viajes-con-imprevistos-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa condicional de cortesía para expresar una relación precisa: «Si existieran más apoyos, muchas personas podrían afrontar «cancelación» de otra manera.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-b1-viajes-con-imprevistos-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente condicional de cortesía?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "cancelación retraso porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "Si el equipo hubiera revisado «retraso», habría evitado una conclusión precipitada."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "Si el equipo hubiera revisado «retraso», habría evitado una conclusión precipitada."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-b1-viajes-con-imprevistos-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa condicional de cortesía para expresar una relación precisa: «Si el equipo hubiera revisado «retraso», habría evitado una conclusión precipitada.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa condicional de cortesía para expresar una relación precisa: «Si el equipo hubiera revisado «retraso», habría evitado una conclusión precipitada.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-b1-viajes-con-imprevistos-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente condicional de cortesía?",
             "options": [
               {
-                "id": "o1",
-                "text": "cancelación retraso porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La propuesta sería más sólida si incluyera «reembolso»."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "cancelación retraso porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-b1-viajes-con-imprevistos-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa condicional de cortesía para expresar una relación precisa: «La propuesta sería más sólida si incluyera «reembolso».»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa condicional de cortesía para expresar una relación precisa: «La propuesta sería más sólida si incluyera «reembolso».»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-b1-viajes-con-imprevistos-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente condicional de cortesía?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "cancelación retraso porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "De mantenerse estas condiciones, el resultado podría cambiar."
               },
               {
-                "id": "o4",
-                "text": "De mantenerse estas condiciones, el resultado podría cambiar."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-b1-viajes-con-imprevistos-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa condicional de cortesía para expresar una relación precisa: «De mantenerse estas condiciones, el resultado podría cambiar.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa condicional de cortesía para expresar una relación precisa: «De mantenerse estas condiciones, el resultado podría cambiar.»"
               }
             ]
           }
@@ -12802,190 +13246,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-b2-trabajo-del-futuro-grammar-test",
+        "id": "spanish-b2-trabajo-del-futuro-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-b2-trabajo-del-futuro-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente futuro compuesto y probabilidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "La propuesta permitirá revisar «automatización» y anticipar sus consecuencias."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "automatización competencia porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-b2-trabajo-del-futuro-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa futuro compuesto y probabilidad para expresar una relación precisa: «La propuesta permitirá revisar «automatización» y anticipar sus consecuencias.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-b2-trabajo-del-futuro-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente futuro compuesto y probabilidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "automatización competencia porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "Para el próximo informe, el equipo habrá evaluado «competencia»."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "Para el próximo informe, el equipo habrá evaluado «competencia»."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-b2-trabajo-del-futuro-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa futuro compuesto y probabilidad para expresar una relación precisa: «Para el próximo informe, el equipo habrá evaluado «competencia».»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa futuro compuesto y probabilidad para expresar una relación precisa: «Para el próximo informe, el equipo habrá evaluado «competencia».»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-b2-trabajo-del-futuro-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente futuro compuesto y probabilidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "automatización competencia porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "Probablemente «reconversión» influirá en la decisión final."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "automatización competencia porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-b2-trabajo-del-futuro-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa futuro compuesto y probabilidad para expresar una relación precisa: «Probablemente «reconversión» influirá en la decisión final.»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa futuro compuesto y probabilidad para expresar una relación precisa: «Probablemente «reconversión» influirá en la decisión final.»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-b2-trabajo-del-futuro-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente futuro compuesto y probabilidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "automatización competencia porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "Dentro de un año se estarán comparando los primeros resultados."
               },
               {
-                "id": "o4",
-                "text": "Dentro de un año se estarán comparando los primeros resultados."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-b2-trabajo-del-futuro-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa futuro compuesto y probabilidad para expresar una relación precisa: «Dentro de un año se estarán comparando los primeros resultados.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa futuro compuesto y probabilidad para expresar una relación precisa: «Dentro de un año se estarán comparando los primeros resultados.»"
               }
             ]
           }
@@ -13126,190 +13570,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-c1-periodismo-de-investigacion-grammar-test",
+        "id": "spanish-c1-periodismo-de-investigacion-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-c1-periodismo-de-investigacion-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente conectores causales, consecutivos y concesivos?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Aunque «conexión» aporta beneficios, sus efectos no se distribuyen por igual."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "conexión colapso porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-c1-periodismo-de-investigacion-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa conectores causales, consecutivos y concesivos para expresar una relación precisa: «Aunque «conexión» aporta beneficios, sus efectos no se distribuyen por igual.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-c1-periodismo-de-investigacion-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente conectores causales, consecutivos y concesivos?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "conexión colapso porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "Pese a la evidencia sobre «colapso», la conclusión debe seguir siendo provisional."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "Pese a la evidencia sobre «colapso», la conclusión debe seguir siendo provisional."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-c1-periodismo-de-investigacion-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa conectores causales, consecutivos y concesivos para expresar una relación precisa: «Pese a la evidencia sobre «colapso», la conclusión debe seguir siendo provisional.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa conectores causales, consecutivos y concesivos para expresar una relación precisa: «Pese a la evidencia sobre «colapso», la conclusión debe seguir siendo provisional.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-c1-periodismo-de-investigacion-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente conectores causales, consecutivos y concesivos?",
             "options": [
               {
-                "id": "o1",
-                "text": "conexión colapso porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "Aun cuando «infraestructura» mejore, persistirán algunas limitaciones."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "conexión colapso porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-c1-periodismo-de-investigacion-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa conectores causales, consecutivos y concesivos para expresar una relación precisa: «Aun cuando «infraestructura» mejore, persistirán algunas limitaciones.»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa conectores causales, consecutivos y concesivos para expresar una relación precisa: «Aun cuando «infraestructura» mejore, persistirán algunas limitaciones.»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-c1-periodismo-de-investigacion-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente conectores causales, consecutivos y concesivos?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "conexión colapso porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "La propuesta es viable; sin embargo, requiere controles independientes."
               },
               {
-                "id": "o4",
-                "text": "La propuesta es viable; sin embargo, requiere controles independientes."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-c1-periodismo-de-investigacion-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa conectores causales, consecutivos y concesivos para expresar una relación precisa: «La propuesta es viable; sin embargo, requiere controles independientes.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa conectores causales, consecutivos y concesivos para expresar una relación precisa: «La propuesta es viable; sin embargo, requiere controles independientes.»"
               }
             ]
           }
@@ -13450,190 +13894,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-c2-traduccion-y-mediacion-grammar-test",
+        "id": "spanish-c2-traduccion-y-mediacion-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-c2-traduccion-y-mediacion-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente equivalencia pragmática y transposición?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Revise «corresponsal» antes de confirmar la decisión, por favor."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "corresponsal conflicto porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-c2-traduccion-y-mediacion-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa equivalencia pragmática y transposición para expresar una relación precisa: «Revise «corresponsal» antes de confirmar la decisión, por favor.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-c2-traduccion-y-mediacion-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente equivalencia pragmática y transposición?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "corresponsal conflicto porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "¿Podría aclarar cómo se relaciona «conflicto» con la propuesta?"
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "¿Podría aclarar cómo se relaciona «conflicto» con la propuesta?"
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-c2-traduccion-y-mediacion-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa equivalencia pragmática y transposición para expresar una relación precisa: «¿Podría aclarar cómo se relaciona «conflicto» con la propuesta?»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa equivalencia pragmática y transposición para expresar una relación precisa: «¿Podría aclarar cómo se relaciona «conflicto» con la propuesta?»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-c2-traduccion-y-mediacion-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente equivalencia pragmática y transposición?",
             "options": [
               {
-                "id": "o1",
-                "text": "corresponsal conflicto porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "Quizá convendría matizar la afirmación sobre «testimonio»."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "corresponsal conflicto porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-c2-traduccion-y-mediacion-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa equivalencia pragmática y transposición para expresar una relación precisa: «Quizá convendría matizar la afirmación sobre «testimonio».»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa equivalencia pragmática y transposición para expresar una relación precisa: «Quizá convendría matizar la afirmación sobre «testimonio».»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-c2-traduccion-y-mediacion-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente equivalencia pragmática y transposición?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "corresponsal conflicto porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "Si no le importa, examinemos primero la evidencia disponible."
               },
               {
-                "id": "o4",
-                "text": "Si no le importa, examinemos primero la evidencia disponible."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-c2-traduccion-y-mediacion-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa equivalencia pragmática y transposición para expresar una relación precisa: «Si no le importa, examinemos primero la evidencia disponible.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa equivalencia pragmática y transposición para expresar una relación precisa: «Si no le importa, examinemos primero la evidencia disponible.»"
               }
             ]
           }
@@ -13773,7 +14217,211 @@
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarTest": {
+        "id": "spanish-a1-mi-familia-y-mis-amigos-grammar-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "spanish-a1-mi-familia-y-mis-amigos-grammar-grammar-q1",
+            "type": "mcq",
+            "prompt": "___ hermana se llama Lucía. (yo)",
+            "options": [
+              {
+                "id": "a",
+                "text": "Mi hermana se llama Lucía. (yo)"
+              },
+              {
+                "id": "b",
+                "text": "Mis hermana se llama Lucía. (yo)"
+              },
+              {
+                "id": "c",
+                "text": "Tu hermana se llama Lucía. (yo)"
+              },
+              {
+                "id": "d",
+                "text": "Su hermana se llama Lucía. (yo)"
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-mi-familia-y-mis-amigos-grammar-grammar-q2",
+            "type": "mcq",
+            "prompt": "Tengo dos hermanos: ___ hermanos son simpáticos.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Tengo dos hermanos: mi hermanos son simpáticos."
+              },
+              {
+                "id": "b",
+                "text": "Tengo dos hermanos: mis hermanos son simpáticos."
+              },
+              {
+                "id": "c",
+                "text": "Tengo dos hermanos: su hermanos son simpáticos."
+              },
+              {
+                "id": "d",
+                "text": "Tengo dos hermanos: tu hermanos son simpáticos."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-mi-familia-y-mis-amigos-grammar-grammar-q3",
+            "type": "mcq",
+            "prompt": "Lucía es ___ (alto, femenino).",
+            "options": [
+              {
+                "id": "a",
+                "text": "Lucía es alto (alto, femenino)."
+              },
+              {
+                "id": "c",
+                "text": "Lucía es altos (alto, femenino)."
+              },
+              {
+                "id": "b",
+                "text": "Lucía es alta (alto, femenino)."
+              },
+              {
+                "id": "d",
+                "text": "Lucía es altas (alto, femenino)."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-mi-familia-y-mis-amigos-grammar-grammar-q4",
+            "type": "mcq",
+            "prompt": "Elige la oración correcta.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Mi hermanos son altos."
+              },
+              {
+                "id": "c",
+                "text": "Mi hermanos es alto."
+              },
+              {
+                "id": "d",
+                "text": "Mis hermano son alto."
+              },
+              {
+                "id": "b",
+                "text": "Mis hermanos son altos."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-mi-familia-y-mis-amigos-grammar-grammar-q5",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «Mis hermana se llama Lucía. (yo)»?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Mi hermana se llama Lucía. (yo)"
+              },
+              {
+                "id": "b",
+                "text": "Mis hermana se llama Lucía. (yo)"
+              },
+              {
+                "id": "c",
+                "text": "Tu hermana se llama Lucía. (yo)"
+              },
+              {
+                "id": "d",
+                "text": "Su hermana se llama Lucía. (yo)"
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-mi-familia-y-mis-amigos-grammar-grammar-q6",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «Tengo dos hermanos: mi hermanos son simpáticos.»?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Tengo dos hermanos: mi hermanos son simpáticos."
+              },
+              {
+                "id": "b",
+                "text": "Tengo dos hermanos: mis hermanos son simpáticos."
+              },
+              {
+                "id": "c",
+                "text": "Tengo dos hermanos: su hermanos son simpáticos."
+              },
+              {
+                "id": "d",
+                "text": "Tengo dos hermanos: tu hermanos son simpáticos."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-mi-familia-y-mis-amigos-grammar-grammar-q7",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «Lucía es alto (alto, femenino).»?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Lucía es alto (alto, femenino)."
+              },
+              {
+                "id": "c",
+                "text": "Lucía es altos (alto, femenino)."
+              },
+              {
+                "id": "b",
+                "text": "Lucía es alta (alto, femenino)."
+              },
+              {
+                "id": "d",
+                "text": "Lucía es altas (alto, femenino)."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-mi-familia-y-mis-amigos-grammar-grammar-q8",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «Mi hermanos son altos.»?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Mi hermanos son altos."
+              },
+              {
+                "id": "c",
+                "text": "Mi hermanos es alto."
+              },
+              {
+                "id": "d",
+                "text": "Mis hermano son alto."
+              },
+              {
+                "id": "b",
+                "text": "Mis hermanos son altos."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Posesivos, género y número",
+        "definition": "Los posesivos concuerdan en número con lo que poseemos: mi hermano / mis hermanos. Los artículos y adjetivos concuerdan en género y número con el sustantivo: el hermano alto, la hermana alta, los hermanos altos. Error frecuente: usar \"mi\" con sustantivos plurales (decir \"mi hermanos\" en vez de \"mis hermanos\").",
+        "structure": "Forma que se debe observar: Posesivos, género y número. Compara el tiempo, los conectores, los pronombres y el orden de palabras de los ejemplos.",
+        "function": "Aprende a usar mi/mis, tu/tus, su/sus y la concordancia de artículos y adjetivos.",
+        "examples": [
+          "Mi hermana se llama Lucía. (yo)",
+          "Tengo dos hermanos: mis hermanos son simpáticos.",
+          "Lucía es alta (alto, femenino).",
+          "Mis hermanos son altos."
+        ]
+      },
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
@@ -16891,193 +17539,205 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-a2-salud-y-bienestar-grammar-test",
+        "id": "spanish-a2-salud-y-bienestar-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-a2-salud-y-bienestar-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente doler, tener que y deber?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Aunque «síntoma» parece una decisión individual, conviene considerar «dolor» y «cita»."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "síntoma dolor porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-a2-salud-y-bienestar-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa doler, tener que y deber para expresar una relación precisa: «Aunque «síntoma» parece una decisión individual, conviene considerar «dolor» y «cita».»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-a2-salud-y-bienestar-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente doler, tener que y deber?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "síntoma dolor porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "La evidencia permite interpretar «síntoma» antes de formular una conclusión."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "La evidencia permite interpretar «síntoma» antes de formular una conclusión."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-a2-salud-y-bienestar-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa doler, tener que y deber para expresar una relación precisa: «La evidencia permite interpretar «síntoma» antes de formular una conclusión.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa doler, tener que y deber para expresar una relación precisa: «La evidencia permite interpretar «síntoma» antes de formular una conclusión.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-a2-salud-y-bienestar-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente doler, tener que y deber?",
             "options": [
               {
-                "id": "o1",
-                "text": "síntoma dolor porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "Conviene distinguir «dolor» de «cita» para evitar una ambigüedad."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "síntoma dolor porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-a2-salud-y-bienestar-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa doler, tener que y deber para expresar una relación precisa: «Conviene distinguir «dolor» de «cita» para evitar una ambigüedad.»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa doler, tener que y deber para expresar una relación precisa: «Conviene distinguir «dolor» de «cita» para evitar una ambigüedad.»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-a2-salud-y-bienestar-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente doler, tener que y deber?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "síntoma dolor porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "La conclusión es provisional porque todavía faltan datos comparables."
               },
               {
-                "id": "o4",
-                "text": "La conclusión es provisional porque todavía faltan datos comparables."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-a2-salud-y-bienestar-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa doler, tener que y deber para expresar una relación precisa: «La conclusión es provisional porque todavía faltan datos comparables.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa doler, tener que y deber para expresar una relación precisa: «La conclusión es provisional porque todavía faltan datos comparables.»"
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Gramática · doler, tener que y deber",
+        "definition": "Foco: doler, tener que y deber.",
+        "structure": "Forma que se debe observar: Gramática · doler, tener que y deber. Compara el tiempo, los conectores, los pronombres y el orden de palabras de los ejemplos.",
+        "function": "Aplica la forma gramatical dentro del tema «Salud y bienestar».",
+        "examples": [
+          "Aunque «síntoma» parece una decisión individual, conviene considerar «dolor» y «cita».",
+          "Usa doler, tener que y deber para expresar una relación precisa: «Aunque «síntoma» parece una decisión individual, conviene considerar «dolor» y «cita».»",
+          "La evidencia permite interpretar «síntoma» antes de formular una conclusión.",
+          "Usa doler, tener que y deber para expresar una relación precisa: «La evidencia permite interpretar «síntoma» antes de formular una conclusión.»"
         ]
       },
       "listeningComprehension": null
@@ -17199,190 +17859,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-b1-medios-y-noticias-grammar-test",
+        "id": "spanish-b1-medios-y-noticias-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-b1-medios-y-noticias-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente estilo indirecto en presente y pasado?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Cuando surgió «titular», el grupo revisó lo ocurrido."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "titular fuente porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-b1-medios-y-noticias-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa estilo indirecto en presente y pasado para expresar una relación precisa: «Cuando surgió «titular», el grupo revisó lo ocurrido.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-b1-medios-y-noticias-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente estilo indirecto en presente y pasado?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "titular fuente porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "Mientras analizaban «fuente», apareció una evidencia nueva."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "Mientras analizaban «fuente», apareció una evidencia nueva."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-b1-medios-y-noticias-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa estilo indirecto en presente y pasado para expresar una relación precisa: «Mientras analizaban «fuente», apareció una evidencia nueva.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa estilo indirecto en presente y pasado para expresar una relación precisa: «Mientras analizaban «fuente», apareció una evidencia nueva.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-b1-medios-y-noticias-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente estilo indirecto en presente y pasado?",
             "options": [
               {
-                "id": "o1",
-                "text": "titular fuente porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "El equipo ya había examinado «reportaje» antes de decidir."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "titular fuente porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-b1-medios-y-noticias-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa estilo indirecto en presente y pasado para expresar una relación precisa: «El equipo ya había examinado «reportaje» antes de decidir.»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa estilo indirecto en presente y pasado para expresar una relación precisa: «El equipo ya había examinado «reportaje» antes de decidir.»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-b1-medios-y-noticias-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente estilo indirecto en presente y pasado?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "titular fuente porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "Esta semana hemos comparado los datos con los que reunimos el año pasado."
               },
               {
-                "id": "o4",
-                "text": "Esta semana hemos comparado los datos con los que reunimos el año pasado."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-b1-medios-y-noticias-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa estilo indirecto en presente y pasado para expresar una relación precisa: «Esta semana hemos comparado los datos con los que reunimos el año pasado.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa estilo indirecto en presente y pasado para expresar una relación precisa: «Esta semana hemos comparado los datos con los que reunimos el año pasado.»"
               }
             ]
           }
@@ -17523,190 +18183,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-b2-desinformacion-grammar-test",
+        "id": "spanish-b2-desinformacion-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-b2-desinformacion-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente estilo indirecto y verbos de transmisión?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Una estudiante explicó que «evidencia» no podía entenderse sin contexto."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "evidencia sesgo porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-b2-desinformacion-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa estilo indirecto y verbos de transmisión para expresar una relación precisa: «Una estudiante explicó que «evidencia» no podía entenderse sin contexto.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-b2-desinformacion-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente estilo indirecto y verbos de transmisión?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "evidencia sesgo porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "La investigadora afirmó que habían revisado «sesgo» el día anterior."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "La investigadora afirmó que habían revisado «sesgo» el día anterior."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-b2-desinformacion-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa estilo indirecto y verbos de transmisión para expresar una relación precisa: «La investigadora afirmó que habían revisado «sesgo» el día anterior.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa estilo indirecto y verbos de transmisión para expresar una relación precisa: «La investigadora afirmó que habían revisado «sesgo» el día anterior.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-b2-desinformacion-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente estilo indirecto y verbos de transmisión?",
             "options": [
               {
-                "id": "o1",
-                "text": "evidencia sesgo porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "El informe advierte que «verificar» podría interpretarse de varias maneras."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "evidencia sesgo porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-b2-desinformacion-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa estilo indirecto y verbos de transmisión para expresar una relación precisa: «El informe advierte que «verificar» podría interpretarse de varias maneras.»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa estilo indirecto y verbos de transmisión para expresar una relación precisa: «El informe advierte que «verificar» podría interpretarse de varias maneras.»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-b2-desinformacion-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente estilo indirecto y verbos de transmisión?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "evidencia sesgo porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "Según la comunidad, la propuesta no responde todavía a todas sus necesidades."
               },
               {
-                "id": "o4",
-                "text": "Según la comunidad, la propuesta no responde todavía a todas sus necesidades."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-b2-desinformacion-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa estilo indirecto y verbos de transmisión para expresar una relación precisa: «Según la comunidad, la propuesta no responde todavía a todas sus necesidades.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa estilo indirecto y verbos de transmisión para expresar una relación precisa: «Según la comunidad, la propuesta no responde todavía a todas sus necesidades.»"
               }
             ]
           }
@@ -17847,190 +18507,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-c1-justicia-y-reparacion-grammar-test",
+        "id": "spanish-c1-justicia-y-reparacion-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-c1-justicia-y-reparacion-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente subjuntivo en construcciones valorativas?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Es importante que la comunidad considere «desarraigo» antes de decidir."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "desarraigo costumbre porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-c1-justicia-y-reparacion-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa subjuntivo en construcciones valorativas para expresar una relación precisa: «Es importante que la comunidad considere «desarraigo» antes de decidir.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-c1-justicia-y-reparacion-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente subjuntivo en construcciones valorativas?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "desarraigo costumbre porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "No creo que «costumbre» deba analizarse sin contexto."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "No creo que «costumbre» deba analizarse sin contexto."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-c1-justicia-y-reparacion-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa subjuntivo en construcciones valorativas para expresar una relación precisa: «No creo que «costumbre» deba analizarse sin contexto.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa subjuntivo en construcciones valorativas para expresar una relación precisa: «No creo que «costumbre» deba analizarse sin contexto.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-c1-justicia-y-reparacion-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente subjuntivo en construcciones valorativas?",
             "options": [
               {
-                "id": "o1",
-                "text": "desarraigo costumbre porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La especialista recomienda que se revise «pertenencia» con nueva evidencia."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "desarraigo costumbre porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-c1-justicia-y-reparacion-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa subjuntivo en construcciones valorativas para expresar una relación precisa: «La especialista recomienda que se revise «pertenencia» con nueva evidencia.»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa subjuntivo en construcciones valorativas para expresar una relación precisa: «La especialista recomienda que se revise «pertenencia» con nueva evidencia.»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-c1-justicia-y-reparacion-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente subjuntivo en construcciones valorativas?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "desarraigo costumbre porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "Aunque la propuesta sea valiosa, conviene que el equipo evalúe sus límites."
               },
               {
-                "id": "o4",
-                "text": "Aunque la propuesta sea valiosa, conviene que el equipo evalúe sus límites."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-c1-justicia-y-reparacion-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa subjuntivo en construcciones valorativas para expresar una relación precisa: «Aunque la propuesta sea valiosa, conviene que el equipo evalúe sus límites.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa subjuntivo en construcciones valorativas para expresar una relación precisa: «Aunque la propuesta sea valiosa, conviene que el equipo evalúe sus límites.»"
               }
             ]
           }
@@ -18171,190 +18831,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-c2-filosofia-del-lenguaje-grammar-test",
+        "id": "spanish-c2-filosofia-del-lenguaje-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-c2-filosofia-del-lenguaje-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente sustantivación y arquitectura argumental?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "La evaluación de «misión» permitió identificar sus efectos."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "misión órbita porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-c2-filosofia-del-lenguaje-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa sustantivación y arquitectura argumental para expresar una relación precisa: «La evaluación de «misión» permitió identificar sus efectos.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-c2-filosofia-del-lenguaje-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente sustantivación y arquitectura argumental?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "misión órbita porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "El informe describe la ampliación de «órbita» sin ocultar quién la autorizó."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "El informe describe la ampliación de «órbita» sin ocultar quién la autorizó."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-c2-filosofia-del-lenguaje-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa sustantivación y arquitectura argumental para expresar una relación precisa: «El informe describe la ampliación de «órbita» sin ocultar quién la autorizó.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa sustantivación y arquitectura argumental para expresar una relación precisa: «El informe describe la ampliación de «órbita» sin ocultar quién la autorizó.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-c2-filosofia-del-lenguaje-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente sustantivación y arquitectura argumental?",
             "options": [
               {
-                "id": "o1",
-                "text": "misión órbita porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La revisión de «exploración» fue realizada por especialistas independientes."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "misión órbita porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-c2-filosofia-del-lenguaje-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa sustantivación y arquitectura argumental para expresar una relación precisa: «La revisión de «exploración» fue realizada por especialistas independientes.»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa sustantivación y arquitectura argumental para expresar una relación precisa: «La revisión de «exploración» fue realizada por especialistas independientes.»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-c2-filosofia-del-lenguaje-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente sustantivación y arquitectura argumental?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "misión órbita porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "Al desempaquetar la nominalización, recuperamos la agencia: el comité modificó la norma."
               },
               {
-                "id": "o4",
-                "text": "Al desempaquetar la nominalización, recuperamos la agencia: el comité modificó la norma."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-c2-filosofia-del-lenguaje-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa sustantivación y arquitectura argumental para expresar una relación precisa: «Al desempaquetar la nominalización, recuperamos la agencia: el comité modificó la norma.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa sustantivación y arquitectura argumental para expresar una relación precisa: «Al desempaquetar la nominalización, recuperamos la agencia: el comité modificó la norma.»"
               }
             ]
           }
@@ -18493,7 +19153,211 @@
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarTest": {
+        "id": "spanish-a1-mi-rutina-diaria-grammar-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "spanish-a1-mi-rutina-diaria-grammar-grammar-q1",
+            "type": "mcq",
+            "prompt": "Yo ___ a las siete. (levantarse)",
+            "options": [
+              {
+                "id": "b",
+                "text": "Yo me levanto a las siete. (levantarse)"
+              },
+              {
+                "id": "a",
+                "text": "Yo levanto a las siete. (levantarse)"
+              },
+              {
+                "id": "c",
+                "text": "Yo te levantas a las siete. (levantarse)"
+              },
+              {
+                "id": "d",
+                "text": "Yo se levanta a las siete. (levantarse)"
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-mi-rutina-diaria-grammar-grammar-q2",
+            "type": "mcq",
+            "prompt": "Ella ___ a la escuela. (caminar)",
+            "options": [
+              {
+                "id": "a",
+                "text": "Ella camino a la escuela. (caminar)"
+              },
+              {
+                "id": "c",
+                "text": "Ella camina a la escuela. (caminar)"
+              },
+              {
+                "id": "b",
+                "text": "Ella caminas a la escuela. (caminar)"
+              },
+              {
+                "id": "d",
+                "text": "Ella caminan a la escuela. (caminar)"
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-mi-rutina-diaria-grammar-grammar-q3",
+            "type": "mcq",
+            "prompt": "___ me despierto, ___ desayuno.",
+            "options": [
+              {
+                "id": "b",
+                "text": "Nunca / siempre me despierto, ___ desayuno."
+              },
+              {
+                "id": "c",
+                "text": "Ayer / hoy me despierto, ___ desayuno."
+              },
+              {
+                "id": "a",
+                "text": "Primero / después me despierto, ___ desayuno."
+              },
+              {
+                "id": "d",
+                "text": "Mañana / hoy me despierto, ___ desayuno."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-mi-rutina-diaria-grammar-grammar-q4",
+            "type": "mcq",
+            "prompt": "Nosotros ___ a las nueve. (acostarse)",
+            "options": [
+              {
+                "id": "a",
+                "text": "Nosotros acostamos a las nueve. (acostarse)"
+              },
+              {
+                "id": "c",
+                "text": "Nosotros te acuestas a las nueve. (acostarse)"
+              },
+              {
+                "id": "d",
+                "text": "Nosotros se acuesta a las nueve. (acostarse)"
+              },
+              {
+                "id": "b",
+                "text": "Nosotros nos acostamos a las nueve. (acostarse)"
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-mi-rutina-diaria-grammar-grammar-q5",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «Yo levanto a las siete. (levantarse)»?",
+            "options": [
+              {
+                "id": "b",
+                "text": "Yo me levanto a las siete. (levantarse)"
+              },
+              {
+                "id": "a",
+                "text": "Yo levanto a las siete. (levantarse)"
+              },
+              {
+                "id": "c",
+                "text": "Yo te levantas a las siete. (levantarse)"
+              },
+              {
+                "id": "d",
+                "text": "Yo se levanta a las siete. (levantarse)"
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-mi-rutina-diaria-grammar-grammar-q6",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «Ella camino a la escuela. (caminar)»?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Ella camino a la escuela. (caminar)"
+              },
+              {
+                "id": "c",
+                "text": "Ella camina a la escuela. (caminar)"
+              },
+              {
+                "id": "b",
+                "text": "Ella caminas a la escuela. (caminar)"
+              },
+              {
+                "id": "d",
+                "text": "Ella caminan a la escuela. (caminar)"
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-mi-rutina-diaria-grammar-grammar-q7",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «Nunca / siempre me despierto, ___ desayuno.»?",
+            "options": [
+              {
+                "id": "b",
+                "text": "Nunca / siempre me despierto, ___ desayuno."
+              },
+              {
+                "id": "c",
+                "text": "Ayer / hoy me despierto, ___ desayuno."
+              },
+              {
+                "id": "a",
+                "text": "Primero / después me despierto, ___ desayuno."
+              },
+              {
+                "id": "d",
+                "text": "Mañana / hoy me despierto, ___ desayuno."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-mi-rutina-diaria-grammar-grammar-q8",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «Nosotros acostamos a las nueve. (acostarse)»?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Nosotros acostamos a las nueve. (acostarse)"
+              },
+              {
+                "id": "c",
+                "text": "Nosotros te acuestas a las nueve. (acostarse)"
+              },
+              {
+                "id": "d",
+                "text": "Nosotros se acuesta a las nueve. (acostarse)"
+              },
+              {
+                "id": "b",
+                "text": "Nosotros nos acostamos a las nueve. (acostarse)"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Presente regular y verbos reflexivos",
+        "definition": "El presente regular cambia la terminación según la persona: yo camino, tú caminas, él camina. Los verbos reflexivos usan un pronombre antes del verbo: yo me levanto, tú te levantas, él se levanta. Usamos \"primero, después, luego, finalmente\" para ordenar acciones. Error frecuente: olvidar el pronombre reflexivo (decir \"yo levanto\" en vez de \"yo me levanto\").",
+        "structure": "Forma que se debe observar: Presente regular y verbos reflexivos. Compara el tiempo, los conectores, los pronombres y el orden de palabras de los ejemplos.",
+        "function": "Aprende el presente de indicativo y los verbos reflexivos frecuentes.",
+        "examples": [
+          "Yo me levanto a las siete. (levantarse)",
+          "Ella camina a la escuela. (caminar)",
+          "Primero / después me despierto, ___ desayuno.",
+          "Nosotros nos acostamos a las nueve. (acostarse)"
+        ]
+      },
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
@@ -21612,193 +22476,205 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-a2-viajes-y-transporte-grammar-test",
+        "id": "spanish-a2-viajes-y-transporte-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-a2-viajes-y-transporte-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente ir a + infinitivo y futuro próximo?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "La propuesta permitirá revisar «billete» y anticipar sus consecuencias."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "billete equipaje porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-a2-viajes-y-transporte-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa ir a + infinitivo y futuro próximo para expresar una relación precisa: «La propuesta permitirá revisar «billete» y anticipar sus consecuencias.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-a2-viajes-y-transporte-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente ir a + infinitivo y futuro próximo?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "billete equipaje porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "Para el próximo informe, el equipo habrá evaluado «equipaje»."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "Para el próximo informe, el equipo habrá evaluado «equipaje»."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-a2-viajes-y-transporte-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa ir a + infinitivo y futuro próximo para expresar una relación precisa: «Para el próximo informe, el equipo habrá evaluado «equipaje».»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa ir a + infinitivo y futuro próximo para expresar una relación precisa: «Para el próximo informe, el equipo habrá evaluado «equipaje».»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-a2-viajes-y-transporte-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente ir a + infinitivo y futuro próximo?",
             "options": [
               {
-                "id": "o1",
-                "text": "billete equipaje porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "Probablemente «andén» influirá en la decisión final."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "billete equipaje porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-a2-viajes-y-transporte-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa ir a + infinitivo y futuro próximo para expresar una relación precisa: «Probablemente «andén» influirá en la decisión final.»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa ir a + infinitivo y futuro próximo para expresar una relación precisa: «Probablemente «andén» influirá en la decisión final.»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-a2-viajes-y-transporte-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente ir a + infinitivo y futuro próximo?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "billete equipaje porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "Dentro de un año se estarán comparando los primeros resultados."
               },
               {
-                "id": "o4",
-                "text": "Dentro de un año se estarán comparando los primeros resultados."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-a2-viajes-y-transporte-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa ir a + infinitivo y futuro próximo para expresar una relación precisa: «Dentro de un año se estarán comparando los primeros resultados.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa ir a + infinitivo y futuro próximo para expresar una relación precisa: «Dentro de un año se estarán comparando los primeros resultados.»"
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Gramática · ir a + infinitivo y futuro próximo",
+        "definition": "Foco: ir a + infinitivo y futuro próximo.",
+        "structure": "Forma que se debe observar: Gramática · ir a + infinitivo y futuro próximo. Compara el tiempo, los conectores, los pronombres y el orden de palabras de los ejemplos.",
+        "function": "Aplica la forma gramatical dentro del tema «Viajes y transporte».",
+        "examples": [
+          "La propuesta permitirá revisar «billete» y anticipar sus consecuencias.",
+          "Usa ir a + infinitivo y futuro próximo para expresar una relación precisa: «La propuesta permitirá revisar «billete» y anticipar sus consecuencias.»",
+          "Para el próximo informe, el equipo habrá evaluado «equipaje».",
+          "Usa ir a + infinitivo y futuro próximo para expresar una relación precisa: «Para el próximo informe, el equipo habrá evaluado «equipaje».»"
         ]
       },
       "listeningComprehension": null
@@ -21920,190 +22796,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-b1-relaciones-y-convivencia-grammar-test",
+        "id": "spanish-b1-relaciones-y-convivencia-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-b1-relaciones-y-convivencia-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente subjuntivo con emoción y valoración?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Es importante que la comunidad considere «confianza» antes de decidir."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "confianza límite porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-b1-relaciones-y-convivencia-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa subjuntivo con emoción y valoración para expresar una relación precisa: «Es importante que la comunidad considere «confianza» antes de decidir.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-b1-relaciones-y-convivencia-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente subjuntivo con emoción y valoración?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "confianza límite porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "No creo que «límite» deba analizarse sin contexto."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "No creo que «límite» deba analizarse sin contexto."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-b1-relaciones-y-convivencia-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa subjuntivo con emoción y valoración para expresar una relación precisa: «No creo que «límite» deba analizarse sin contexto.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa subjuntivo con emoción y valoración para expresar una relación precisa: «No creo que «límite» deba analizarse sin contexto.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-b1-relaciones-y-convivencia-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente subjuntivo con emoción y valoración?",
             "options": [
               {
-                "id": "o1",
-                "text": "confianza límite porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La especialista recomienda que se revise «acuerdo» con nueva evidencia."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "confianza límite porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-b1-relaciones-y-convivencia-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa subjuntivo con emoción y valoración para expresar una relación precisa: «La especialista recomienda que se revise «acuerdo» con nueva evidencia.»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa subjuntivo con emoción y valoración para expresar una relación precisa: «La especialista recomienda que se revise «acuerdo» con nueva evidencia.»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-b1-relaciones-y-convivencia-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente subjuntivo con emoción y valoración?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "confianza límite porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "Aunque la propuesta sea valiosa, conviene que el equipo evalúe sus límites."
               },
               {
-                "id": "o4",
-                "text": "Aunque la propuesta sea valiosa, conviene que el equipo evalúe sus límites."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-b1-relaciones-y-convivencia-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa subjuntivo con emoción y valoración para expresar una relación precisa: «Aunque la propuesta sea valiosa, conviene que el equipo evalúe sus límites.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa subjuntivo con emoción y valoración para expresar una relación precisa: «Aunque la propuesta sea valiosa, conviene que el equipo evalúe sus límites.»"
               }
             ]
           }
@@ -22244,190 +23120,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-b2-turismo-y-comunidad-grammar-test",
+        "id": "spanish-b2-turismo-y-comunidad-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-b2-turismo-y-comunidad-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente estructuras de contraste y concesión?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Aunque «temporada alta» aporta beneficios, sus efectos no se distribuyen por igual."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "temporada alta alojamiento porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-b2-turismo-y-comunidad-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa estructuras de contraste y concesión para expresar una relación precisa: «Aunque «temporada alta» aporta beneficios, sus efectos no se distribuyen por igual.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-b2-turismo-y-comunidad-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente estructuras de contraste y concesión?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "temporada alta alojamiento porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "Pese a la evidencia sobre «alojamiento», la conclusión debe seguir siendo provisional."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "Pese a la evidencia sobre «alojamiento», la conclusión debe seguir siendo provisional."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-b2-turismo-y-comunidad-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa estructuras de contraste y concesión para expresar una relación precisa: «Pese a la evidencia sobre «alojamiento», la conclusión debe seguir siendo provisional.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa estructuras de contraste y concesión para expresar una relación precisa: «Pese a la evidencia sobre «alojamiento», la conclusión debe seguir siendo provisional.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-b2-turismo-y-comunidad-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente estructuras de contraste y concesión?",
             "options": [
               {
-                "id": "o1",
-                "text": "temporada alta alojamiento porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "Aun cuando «residente» mejore, persistirán algunas limitaciones."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "temporada alta alojamiento porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-b2-turismo-y-comunidad-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa estructuras de contraste y concesión para expresar una relación precisa: «Aun cuando «residente» mejore, persistirán algunas limitaciones.»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa estructuras de contraste y concesión para expresar una relación precisa: «Aun cuando «residente» mejore, persistirán algunas limitaciones.»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-b2-turismo-y-comunidad-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente estructuras de contraste y concesión?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "temporada alta alojamiento porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "La propuesta es viable; sin embargo, requiere controles independientes."
               },
               {
-                "id": "o4",
-                "text": "La propuesta es viable; sin embargo, requiere controles independientes."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-b2-turismo-y-comunidad-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa estructuras de contraste y concesión para expresar una relación precisa: «La propuesta es viable; sin embargo, requiere controles independientes.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa estructuras de contraste y concesión para expresar una relación precisa: «La propuesta es viable; sin embargo, requiere controles independientes.»"
               }
             ]
           }
@@ -22568,190 +23444,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-c1-innovacion-responsable-grammar-test",
+        "id": "spanish-c1-innovacion-responsable-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-c1-innovacion-responsable-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente condicionales mixtas y contrafactuales?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Si existieran más apoyos, muchas personas podrían afrontar «autoexigencia» de otra manera."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "autoexigencia mérito porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-c1-innovacion-responsable-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa condicionales mixtas y contrafactuales para expresar una relación precisa: «Si existieran más apoyos, muchas personas podrían afrontar «autoexigencia» de otra manera.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-c1-innovacion-responsable-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente condicionales mixtas y contrafactuales?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "autoexigencia mérito porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "Si el equipo hubiera revisado «mérito», habría evitado una conclusión precipitada."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "Si el equipo hubiera revisado «mérito», habría evitado una conclusión precipitada."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-c1-innovacion-responsable-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa condicionales mixtas y contrafactuales para expresar una relación precisa: «Si el equipo hubiera revisado «mérito», habría evitado una conclusión precipitada.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa condicionales mixtas y contrafactuales para expresar una relación precisa: «Si el equipo hubiera revisado «mérito», habría evitado una conclusión precipitada.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-c1-innovacion-responsable-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente condicionales mixtas y contrafactuales?",
             "options": [
               {
-                "id": "o1",
-                "text": "autoexigencia mérito porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La propuesta sería más sólida si incluyera «inseguridad»."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "autoexigencia mérito porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-c1-innovacion-responsable-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa condicionales mixtas y contrafactuales para expresar una relación precisa: «La propuesta sería más sólida si incluyera «inseguridad».»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa condicionales mixtas y contrafactuales para expresar una relación precisa: «La propuesta sería más sólida si incluyera «inseguridad».»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-c1-innovacion-responsable-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente condicionales mixtas y contrafactuales?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "autoexigencia mérito porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "De mantenerse estas condiciones, el resultado podría cambiar."
               },
               {
-                "id": "o4",
-                "text": "De mantenerse estas condiciones, el resultado podría cambiar."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-c1-innovacion-responsable-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa condicionales mixtas y contrafactuales para expresar una relación precisa: «De mantenerse estas condiciones, el resultado podría cambiar.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa condicionales mixtas y contrafactuales para expresar una relación precisa: «De mantenerse estas condiciones, el resultado podría cambiar.»"
               }
             ]
           }
@@ -22892,190 +23768,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-c2-analisis-juridico-grammar-test",
+        "id": "spanish-c2-analisis-juridico-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-c2-analisis-juridico-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente modalidad deóntica y precisión restrictiva?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Los datos parecen indicar que «desconexión» influye en el resultado."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "desconexión notificación porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-c2-analisis-juridico-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa modalidad deóntica y precisión restrictiva para expresar una relación precisa: «Los datos parecen indicar que «desconexión» influye en el resultado.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-c2-analisis-juridico-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente modalidad deóntica y precisión restrictiva?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "desconexión notificación porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "Según el informe, «notificación» podría haber aumentado durante el periodo estudiado."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "Según el informe, «notificación» podría haber aumentado durante el periodo estudiado."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-c2-analisis-juridico-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa modalidad deóntica y precisión restrictiva para expresar una relación precisa: «Según el informe, «notificación» podría haber aumentado durante el periodo estudiado.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa modalidad deóntica y precisión restrictiva para expresar una relación precisa: «Según el informe, «notificación» podría haber aumentado durante el periodo estudiado.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-c2-analisis-juridico-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente modalidad deóntica y precisión restrictiva?",
             "options": [
               {
-                "id": "o1",
-                "text": "desconexión notificación porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "No puede descartarse que «atención» explique parte de la diferencia."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "desconexión notificación porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-c2-analisis-juridico-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa modalidad deóntica y precisión restrictiva para expresar una relación precisa: «No puede descartarse que «atención» explique parte de la diferencia.»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa modalidad deóntica y precisión restrictiva para expresar una relación precisa: «No puede descartarse que «atención» explique parte de la diferencia.»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-c2-analisis-juridico-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente modalidad deóntica y precisión restrictiva?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "desconexión notificación porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "La evidencia disponible respalda una hipótesis plausible, no una certeza definitiva."
               },
               {
-                "id": "o4",
-                "text": "La evidencia disponible respalda una hipótesis plausible, no una certeza definitiva."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-c2-analisis-juridico-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa modalidad deóntica y precisión restrictiva para expresar una relación precisa: «La evidencia disponible respalda una hipótesis plausible, no una certeza definitiva.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa modalidad deóntica y precisión restrictiva para expresar una relación precisa: «La evidencia disponible respalda una hipótesis plausible, no una certeza definitiva.»"
               }
             ]
           }
@@ -23215,7 +24091,211 @@
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarTest": {
+        "id": "spanish-a1-mi-casa-grammar-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "spanish-a1-mi-casa-grammar-grammar-q1",
+            "type": "mcq",
+            "prompt": "___ un sofá en la sala.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Hay un sofá en la sala."
+              },
+              {
+                "id": "b",
+                "text": "Está un sofá en la sala."
+              },
+              {
+                "id": "c",
+                "text": "Son un sofá en la sala."
+              },
+              {
+                "id": "d",
+                "text": "Es un sofá en la sala."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-mi-casa-grammar-grammar-q2",
+            "type": "mcq",
+            "prompt": "El armario ___ en mi dormitorio.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El armario hay en mi dormitorio."
+              },
+              {
+                "id": "b",
+                "text": "El armario está en mi dormitorio."
+              },
+              {
+                "id": "c",
+                "text": "El armario son en mi dormitorio."
+              },
+              {
+                "id": "d",
+                "text": "El armario es en mi dormitorio."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-mi-casa-grammar-grammar-q3",
+            "type": "mcq",
+            "prompt": "El patio está ___ de la casa.",
+            "options": [
+              {
+                "id": "b",
+                "text": "El patio está es de la casa."
+              },
+              {
+                "id": "c",
+                "text": "El patio está hay de la casa."
+              },
+              {
+                "id": "a",
+                "text": "El patio está detrás de la casa."
+              },
+              {
+                "id": "d",
+                "text": "El patio está son de la casa."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-mi-casa-grammar-grammar-q4",
+            "type": "mcq",
+            "prompt": "___ dos baños en mi casa.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Está dos baños en mi casa."
+              },
+              {
+                "id": "b",
+                "text": "Son dos baños en mi casa."
+              },
+              {
+                "id": "d",
+                "text": "Es dos baños en mi casa."
+              },
+              {
+                "id": "c",
+                "text": "Hay dos baños en mi casa."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-mi-casa-grammar-grammar-q5",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «Está un sofá en la sala.»?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Hay un sofá en la sala."
+              },
+              {
+                "id": "b",
+                "text": "Está un sofá en la sala."
+              },
+              {
+                "id": "c",
+                "text": "Son un sofá en la sala."
+              },
+              {
+                "id": "d",
+                "text": "Es un sofá en la sala."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-mi-casa-grammar-grammar-q6",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «El armario hay en mi dormitorio.»?",
+            "options": [
+              {
+                "id": "a",
+                "text": "El armario hay en mi dormitorio."
+              },
+              {
+                "id": "b",
+                "text": "El armario está en mi dormitorio."
+              },
+              {
+                "id": "c",
+                "text": "El armario son en mi dormitorio."
+              },
+              {
+                "id": "d",
+                "text": "El armario es en mi dormitorio."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-mi-casa-grammar-grammar-q7",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «El patio está es de la casa.»?",
+            "options": [
+              {
+                "id": "b",
+                "text": "El patio está es de la casa."
+              },
+              {
+                "id": "c",
+                "text": "El patio está hay de la casa."
+              },
+              {
+                "id": "a",
+                "text": "El patio está detrás de la casa."
+              },
+              {
+                "id": "d",
+                "text": "El patio está son de la casa."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-mi-casa-grammar-grammar-q8",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «Está dos baños en mi casa.»?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Está dos baños en mi casa."
+              },
+              {
+                "id": "b",
+                "text": "Son dos baños en mi casa."
+              },
+              {
+                "id": "d",
+                "text": "Es dos baños en mi casa."
+              },
+              {
+                "id": "c",
+                "text": "Hay dos baños en mi casa."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Hay, estar y las preposiciones de lugar",
+        "definition": "\"Hay\" se usa para decir que algo existe: Hay un sofá en la sala. No cambia de forma. \"Estar\" se usa para decir dónde está algo específico: El sofá está en la sala. Preposiciones de lugar: en, cerca de, lejos de, detrás de, delante de. Error frecuente: confundir \"hay\" con \"está/están\" (decir \"el sofá hay en la sala\" en vez de \"el sofá está en la sala\").",
+        "structure": "Forma que se debe observar: Hay, estar y las preposiciones de lugar. Compara el tiempo, los conectores, los pronombres y el orden de palabras de los ejemplos.",
+        "function": "Aprende a usar hay/estar y a decir dónde están las cosas.",
+        "examples": [
+          "Hay un sofá en la sala.",
+          "El armario está en mi dormitorio.",
+          "El patio está detrás de la casa.",
+          "Hay dos baños en mi casa."
+        ]
+      },
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
@@ -26334,193 +27414,205 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-a2-casa-y-barrio-grammar-test",
+        "id": "spanish-a2-casa-y-barrio-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-a2-casa-y-barrio-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente comparativos y hay/está?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Aunque «alquiler» parece una decisión individual, conviene considerar «vecindario» y «amueblado»."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "alquiler vecindario porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-a2-casa-y-barrio-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa comparativos y hay/está para expresar una relación precisa: «Aunque «alquiler» parece una decisión individual, conviene considerar «vecindario» y «amueblado».»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-a2-casa-y-barrio-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente comparativos y hay/está?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "alquiler vecindario porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "La evidencia permite interpretar «alquiler» antes de formular una conclusión."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "La evidencia permite interpretar «alquiler» antes de formular una conclusión."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-a2-casa-y-barrio-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa comparativos y hay/está para expresar una relación precisa: «La evidencia permite interpretar «alquiler» antes de formular una conclusión.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa comparativos y hay/está para expresar una relación precisa: «La evidencia permite interpretar «alquiler» antes de formular una conclusión.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-a2-casa-y-barrio-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente comparativos y hay/está?",
             "options": [
               {
-                "id": "o1",
-                "text": "alquiler vecindario porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "Conviene distinguir «vecindario» de «amueblado» para evitar una ambigüedad."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "alquiler vecindario porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-a2-casa-y-barrio-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa comparativos y hay/está para expresar una relación precisa: «Conviene distinguir «vecindario» de «amueblado» para evitar una ambigüedad.»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa comparativos y hay/está para expresar una relación precisa: «Conviene distinguir «vecindario» de «amueblado» para evitar una ambigüedad.»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-a2-casa-y-barrio-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente comparativos y hay/está?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "alquiler vecindario porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "La conclusión es provisional porque todavía faltan datos comparables."
               },
               {
-                "id": "o4",
-                "text": "La conclusión es provisional porque todavía faltan datos comparables."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-a2-casa-y-barrio-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa comparativos y hay/está para expresar una relación precisa: «La conclusión es provisional porque todavía faltan datos comparables.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa comparativos y hay/está para expresar una relación precisa: «La conclusión es provisional porque todavía faltan datos comparables.»"
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Gramática · comparativos y hay/está",
+        "definition": "Foco: comparativos y hay/está.",
+        "structure": "Forma que se debe observar: Gramática · comparativos y hay/está. Compara el tiempo, los conectores, los pronombres y el orden de palabras de los ejemplos.",
+        "function": "Aplica la forma gramatical dentro del tema «Casa y barrio».",
+        "examples": [
+          "Aunque «alquiler» parece una decisión individual, conviene considerar «vecindario» y «amueblado».",
+          "Usa comparativos y hay/está para expresar una relación precisa: «Aunque «alquiler» parece una decisión individual, conviene considerar «vecindario» y «amueblado».»",
+          "La evidencia permite interpretar «alquiler» antes de formular una conclusión.",
+          "Usa comparativos y hay/está para expresar una relación precisa: «La evidencia permite interpretar «alquiler» antes de formular una conclusión.»"
         ]
       },
       "listeningComprehension": null
@@ -26642,190 +27734,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-b1-consumo-responsable-grammar-test",
+        "id": "spanish-b1-consumo-responsable-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-b1-consumo-responsable-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente oraciones de relativo?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "La medida que aborda «duradero» necesita una evaluación independiente."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "duradero local porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-b1-consumo-responsable-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa oraciones de relativo para expresar una relación precisa: «La medida que aborda «duradero» necesita una evaluación independiente.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-b1-consumo-responsable-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente oraciones de relativo?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "duradero local porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "El informe, cuyas fuentes son públicas, analiza «local»."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "El informe, cuyas fuentes son públicas, analiza «local»."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-b1-consumo-responsable-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa oraciones de relativo para expresar una relación precisa: «El informe, cuyas fuentes son públicas, analiza «local».»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa oraciones de relativo para expresar una relación precisa: «El informe, cuyas fuentes son públicas, analiza «local».»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-b1-consumo-responsable-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente oraciones de relativo?",
             "options": [
               {
-                "id": "o1",
-                "text": "duradero local porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La comunidad con la que se consultó propuso revisar «etiqueta»."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "duradero local porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-b1-consumo-responsable-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa oraciones de relativo para expresar una relación precisa: «La comunidad con la que se consultó propuso revisar «etiqueta».»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa oraciones de relativo para expresar una relación precisa: «La comunidad con la que se consultó propuso revisar «etiqueta».»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-b1-consumo-responsable-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente oraciones de relativo?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "duradero local porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "El momento en que se recogieron los datos también afecta la conclusión."
               },
               {
-                "id": "o4",
-                "text": "El momento en que se recogieron los datos también afecta la conclusión."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-b1-consumo-responsable-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa oraciones de relativo para expresar una relación precisa: «El momento en que se recogieron los datos también afecta la conclusión.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa oraciones de relativo para expresar una relación precisa: «El momento en que se recogieron los datos también afecta la conclusión.»"
               }
             ]
           }
@@ -26966,190 +28058,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-b2-educacion-digital-grammar-test",
+        "id": "spanish-b2-educacion-digital-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-b2-educacion-digital-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente relativas explicativas y especificativas?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "La medida que aborda «alfabetización» necesita una evaluación independiente."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "alfabetización plataforma porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-b2-educacion-digital-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa relativas explicativas y especificativas para expresar una relación precisa: «La medida que aborda «alfabetización» necesita una evaluación independiente.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-b2-educacion-digital-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente relativas explicativas y especificativas?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "alfabetización plataforma porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "El informe, cuyas fuentes son públicas, analiza «plataforma»."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "El informe, cuyas fuentes son públicas, analiza «plataforma»."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-b2-educacion-digital-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa relativas explicativas y especificativas para expresar una relación precisa: «El informe, cuyas fuentes son públicas, analiza «plataforma».»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa relativas explicativas y especificativas para expresar una relación precisa: «El informe, cuyas fuentes son públicas, analiza «plataforma».»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-b2-educacion-digital-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente relativas explicativas y especificativas?",
             "options": [
               {
-                "id": "o1",
-                "text": "alfabetización plataforma porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La comunidad con la que se consultó propuso revisar «evaluación»."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "alfabetización plataforma porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-b2-educacion-digital-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa relativas explicativas y especificativas para expresar una relación precisa: «La comunidad con la que se consultó propuso revisar «evaluación».»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa relativas explicativas y especificativas para expresar una relación precisa: «La comunidad con la que se consultó propuso revisar «evaluación».»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-b2-educacion-digital-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente relativas explicativas y especificativas?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "alfabetización plataforma porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "El momento en que se recogieron los datos también afecta la conclusión."
               },
               {
-                "id": "o4",
-                "text": "El momento en que se recogieron los datos también afecta la conclusión."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-b2-educacion-digital-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa relativas explicativas y especificativas para expresar una relación precisa: «El momento en que se recogieron los datos también afecta la conclusión.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa relativas explicativas y especificativas para expresar una relación precisa: «El momento en que se recogieron los datos también afecta la conclusión.»"
               }
             ]
           }
@@ -27290,190 +28382,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-c1-literatura-y-voz-grammar-test",
+        "id": "spanish-c1-literatura-y-voz-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-c1-literatura-y-voz-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente discurso referido libre y valores verbales?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Una estudiante explicó que «empresa emergente» no podía entenderse sin contexto."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "empresa emergente prototipo porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-c1-literatura-y-voz-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa discurso referido libre y valores verbales para expresar una relación precisa: «Una estudiante explicó que «empresa emergente» no podía entenderse sin contexto.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-c1-literatura-y-voz-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente discurso referido libre y valores verbales?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "empresa emergente prototipo porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "La investigadora afirmó que habían revisado «prototipo» el día anterior."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "La investigadora afirmó que habían revisado «prototipo» el día anterior."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-c1-literatura-y-voz-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa discurso referido libre y valores verbales para expresar una relación precisa: «La investigadora afirmó que habían revisado «prototipo» el día anterior.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa discurso referido libre y valores verbales para expresar una relación precisa: «La investigadora afirmó que habían revisado «prototipo» el día anterior.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-c1-literatura-y-voz-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente discurso referido libre y valores verbales?",
             "options": [
               {
-                "id": "o1",
-                "text": "empresa emergente prototipo porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "El informe advierte que «inversión» podría interpretarse de varias maneras."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "empresa emergente prototipo porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-c1-literatura-y-voz-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa discurso referido libre y valores verbales para expresar una relación precisa: «El informe advierte que «inversión» podría interpretarse de varias maneras.»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa discurso referido libre y valores verbales para expresar una relación precisa: «El informe advierte que «inversión» podría interpretarse de varias maneras.»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-c1-literatura-y-voz-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente discurso referido libre y valores verbales?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "empresa emergente prototipo porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "Según la comunidad, la propuesta no responde todavía a todas sus necesidades."
               },
               {
-                "id": "o4",
-                "text": "Según la comunidad, la propuesta no responde todavía a todas sus necesidades."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-c1-literatura-y-voz-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa discurso referido libre y valores verbales para expresar una relación precisa: «Según la comunidad, la propuesta no responde todavía a todas sus necesidades.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa discurso referido libre y valores verbales para expresar una relación precisa: «Según la comunidad, la propuesta no responde todavía a todas sus necesidades.»"
               }
             ]
           }
@@ -27614,190 +28706,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-c2-edicion-de-estilo-grammar-test",
+        "id": "spanish-c2-edicion-de-estilo-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-c2-edicion-de-estilo-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente cohesión avanzada y puntuación discursiva?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "La propuesta incluye «autoría»; este elemento cambia la decisión final."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "autoría creatividad porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-c2-edicion-de-estilo-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa cohesión avanzada y puntuación discursiva para expresar una relación precisa: «La propuesta incluye «autoría»; este elemento cambia la decisión final.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-c2-edicion-de-estilo-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente cohesión avanzada y puntuación discursiva?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "autoría creatividad porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "El equipo revisó las recomendaciones y luego las incorporó al informe."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "El equipo revisó las recomendaciones y luego las incorporó al informe."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-c2-edicion-de-estilo-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa cohesión avanzada y puntuación discursiva para expresar una relación precisa: «El equipo revisó las recomendaciones y luego las incorporó al informe.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa cohesión avanzada y puntuación discursiva para expresar una relación precisa: «El equipo revisó las recomendaciones y luego las incorporó al informe.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-c2-edicion-de-estilo-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente cohesión avanzada y puntuación discursiva?",
             "options": [
               {
-                "id": "o1",
-                "text": "autoría creatividad porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "Algunas personas aceptaron «creatividad»; otras, no."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "autoría creatividad porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-c2-edicion-de-estilo-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa cohesión avanzada y puntuación discursiva para expresar una relación precisa: «Algunas personas aceptaron «creatividad»; otras, no.»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa cohesión avanzada y puntuación discursiva para expresar una relación precisa: «Algunas personas aceptaron «creatividad»; otras, no.»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-c2-edicion-de-estilo-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente cohesión avanzada y puntuación discursiva?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "autoría creatividad porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "La primera medida aborda «automatización» y la segunda lo desarrolla con mayor detalle."
               },
               {
-                "id": "o4",
-                "text": "La primera medida aborda «automatización» y la segunda lo desarrolla con mayor detalle."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-c2-edicion-de-estilo-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa cohesión avanzada y puntuación discursiva para expresar una relación precisa: «La primera medida aborda «automatización» y la segunda lo desarrolla con mayor detalle.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa cohesión avanzada y puntuación discursiva para expresar una relación precisa: «La primera medida aborda «automatización» y la segunda lo desarrolla con mayor detalle.»"
               }
             ]
           }
@@ -27937,7 +29029,211 @@
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarTest": {
+        "id": "spanish-a1-mi-barrio-y-mi-ciudad-grammar-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "spanish-a1-mi-barrio-y-mi-ciudad-grammar-grammar-q1",
+            "type": "mcq",
+            "prompt": "Yo ___ a la escuela todos los días.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Yo voy a la escuela todos los días."
+              },
+              {
+                "id": "b",
+                "text": "Yo vas a la escuela todos los días."
+              },
+              {
+                "id": "c",
+                "text": "Yo va a la escuela todos los días."
+              },
+              {
+                "id": "d",
+                "text": "Yo van a la escuela todos los días."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-mi-barrio-y-mi-ciudad-grammar-grammar-q2",
+            "type": "mcq",
+            "prompt": "¿___ tú al parque los sábados?",
+            "options": [
+              {
+                "id": "a",
+                "text": "¿Voy tú al parque los sábados?"
+              },
+              {
+                "id": "b",
+                "text": "¿Vas tú al parque los sábados?"
+              },
+              {
+                "id": "c",
+                "text": "¿Va tú al parque los sábados?"
+              },
+              {
+                "id": "d",
+                "text": "¿Vamos tú al parque los sábados?"
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-mi-barrio-y-mi-ciudad-grammar-grammar-q3",
+            "type": "mcq",
+            "prompt": "Para llegar al banco, ___ a la derecha.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Para llegar al banco, camina a la derecha."
+              },
+              {
+                "id": "c",
+                "text": "Para llegar al banco, va a la derecha."
+              },
+              {
+                "id": "b",
+                "text": "Para llegar al banco, dobla a la derecha."
+              },
+              {
+                "id": "d",
+                "text": "Para llegar al banco, voy a la derecha."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-mi-barrio-y-mi-ciudad-grammar-grammar-q4",
+            "type": "mcq",
+            "prompt": "Elige la oración correcta.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Voy la escuela."
+              },
+              {
+                "id": "c",
+                "text": "Voy en la escuela."
+              },
+              {
+                "id": "d",
+                "text": "Voy de la escuela."
+              },
+              {
+                "id": "b",
+                "text": "Voy a la escuela."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-mi-barrio-y-mi-ciudad-grammar-grammar-q5",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «Yo vas a la escuela todos los días.»?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Yo voy a la escuela todos los días."
+              },
+              {
+                "id": "b",
+                "text": "Yo vas a la escuela todos los días."
+              },
+              {
+                "id": "c",
+                "text": "Yo va a la escuela todos los días."
+              },
+              {
+                "id": "d",
+                "text": "Yo van a la escuela todos los días."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-mi-barrio-y-mi-ciudad-grammar-grammar-q6",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «¿Voy tú al parque los sábados?»?",
+            "options": [
+              {
+                "id": "a",
+                "text": "¿Voy tú al parque los sábados?"
+              },
+              {
+                "id": "b",
+                "text": "¿Vas tú al parque los sábados?"
+              },
+              {
+                "id": "c",
+                "text": "¿Va tú al parque los sábados?"
+              },
+              {
+                "id": "d",
+                "text": "¿Vamos tú al parque los sábados?"
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-mi-barrio-y-mi-ciudad-grammar-grammar-q7",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «Para llegar al banco, camina a la derecha.»?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Para llegar al banco, camina a la derecha."
+              },
+              {
+                "id": "c",
+                "text": "Para llegar al banco, va a la derecha."
+              },
+              {
+                "id": "b",
+                "text": "Para llegar al banco, dobla a la derecha."
+              },
+              {
+                "id": "d",
+                "text": "Para llegar al banco, voy a la derecha."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-mi-barrio-y-mi-ciudad-grammar-grammar-q8",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «Voy la escuela.»?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Voy la escuela."
+              },
+              {
+                "id": "c",
+                "text": "Voy en la escuela."
+              },
+              {
+                "id": "d",
+                "text": "Voy de la escuela."
+              },
+              {
+                "id": "b",
+                "text": "Voy a la escuela."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarProfile": {
+        "name": "El verbo ir y las direcciones",
+        "definition": "El verbo \"ir\" es irregular: yo voy, tú vas, él/ella va. Usamos \"ir a + lugar\" para decir a dónde vamos: Voy a la escuela. Para dar direcciones usamos expresiones fijas como \"camina derecho\", \"dobla a la derecha/izquierda\", \"sigue recto\". Error frecuente: decir \"voy la escuela\" sin la preposición \"a\" (debe ser \"voy a la escuela\").",
+        "structure": "Forma que se debe observar: El verbo ir y las direcciones. Compara el tiempo, los conectores, los pronombres y el orden de palabras de los ejemplos.",
+        "function": "Aprende a usar ir/ir a y expresiones para dar direcciones.",
+        "examples": [
+          "Yo voy a la escuela todos los días.",
+          "¿Vas tú al parque los sábados?",
+          "Para llegar al banco, dobla a la derecha.",
+          "Voy a la escuela."
+        ]
+      },
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
@@ -31037,193 +32333,205 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-a2-comidas-y-recetas-grammar-test",
+        "id": "spanish-a2-comidas-y-recetas-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-a2-comidas-y-recetas-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente se impersonal e imperativo?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "En el artículo se analizan «ingrediente» y «mezclar» desde perspectivas distintas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "ingrediente mezclar porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-a2-comidas-y-recetas-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa se impersonal e imperativo para expresar una relación precisa: «En el artículo se analizan «ingrediente» y «mezclar» desde perspectivas distintas.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-a2-comidas-y-recetas-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente se impersonal e imperativo?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "ingrediente mezclar porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "La propuesta fue revisada por un equipo independiente."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "La propuesta fue revisada por un equipo independiente."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-a2-comidas-y-recetas-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa se impersonal e imperativo para expresar una relación precisa: «La propuesta fue revisada por un equipo independiente.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa se impersonal e imperativo para expresar una relación precisa: «La propuesta fue revisada por un equipo independiente.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-a2-comidas-y-recetas-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente se impersonal e imperativo?",
             "options": [
               {
-                "id": "o1",
-                "text": "ingrediente mezclar porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "Se necesitan datos comparables antes de generalizar «hervir»."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "ingrediente mezclar porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-a2-comidas-y-recetas-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa se impersonal e imperativo para expresar una relación precisa: «Se necesitan datos comparables antes de generalizar «hervir».»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa se impersonal e imperativo para expresar una relación precisa: «Se necesitan datos comparables antes de generalizar «hervir».»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-a2-comidas-y-recetas-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente se impersonal e imperativo?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "ingrediente mezclar porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "Los resultados se publicaron junto con sus limitaciones metodológicas."
               },
               {
-                "id": "o4",
-                "text": "Los resultados se publicaron junto con sus limitaciones metodológicas."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-a2-comidas-y-recetas-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa se impersonal e imperativo para expresar una relación precisa: «Los resultados se publicaron junto con sus limitaciones metodológicas.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa se impersonal e imperativo para expresar una relación precisa: «Los resultados se publicaron junto con sus limitaciones metodológicas.»"
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Gramática · se impersonal e imperativo",
+        "definition": "Foco: se impersonal e imperativo.",
+        "structure": "Forma que se debe observar: Gramática · se impersonal e imperativo. Compara el tiempo, los conectores, los pronombres y el orden de palabras de los ejemplos.",
+        "function": "Aplica la forma gramatical dentro del tema «Comidas y recetas».",
+        "examples": [
+          "En el artículo se analizan «ingrediente» y «mezclar» desde perspectivas distintas.",
+          "Usa se impersonal e imperativo para expresar una relación precisa: «En el artículo se analizan «ingrediente» y «mezclar» desde perspectivas distintas.»",
+          "La propuesta fue revisada por un equipo independiente.",
+          "Usa se impersonal e imperativo para expresar una relación precisa: «La propuesta fue revisada por un equipo independiente.»"
         ]
       },
       "listeningComprehension": null
@@ -31345,190 +32653,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-b1-cultura-y-tradiciones-grammar-test",
+        "id": "spanish-b1-cultura-y-tradiciones-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-b1-cultura-y-tradiciones-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente se impersonal y pasiva refleja?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "En el artículo se analizan «costumbre» y «origen» desde perspectivas distintas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "costumbre origen porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-b1-cultura-y-tradiciones-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa se impersonal y pasiva refleja para expresar una relación precisa: «En el artículo se analizan «costumbre» y «origen» desde perspectivas distintas.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-b1-cultura-y-tradiciones-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente se impersonal y pasiva refleja?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "costumbre origen porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "La propuesta fue revisada por un equipo independiente."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "La propuesta fue revisada por un equipo independiente."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-b1-cultura-y-tradiciones-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa se impersonal y pasiva refleja para expresar una relación precisa: «La propuesta fue revisada por un equipo independiente.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa se impersonal y pasiva refleja para expresar una relación precisa: «La propuesta fue revisada por un equipo independiente.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-b1-cultura-y-tradiciones-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente se impersonal y pasiva refleja?",
             "options": [
               {
-                "id": "o1",
-                "text": "costumbre origen porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "Se necesitan datos comparables antes de generalizar «comunidad»."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "costumbre origen porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-b1-cultura-y-tradiciones-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa se impersonal y pasiva refleja para expresar una relación precisa: «Se necesitan datos comparables antes de generalizar «comunidad».»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa se impersonal y pasiva refleja para expresar una relación precisa: «Se necesitan datos comparables antes de generalizar «comunidad».»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-b1-cultura-y-tradiciones-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente se impersonal y pasiva refleja?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "costumbre origen porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "Los resultados se publicaron junto con sus limitaciones metodológicas."
               },
               {
-                "id": "o4",
-                "text": "Los resultados se publicaron junto con sus limitaciones metodológicas."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-b1-cultura-y-tradiciones-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa se impersonal y pasiva refleja para expresar una relación precisa: «Los resultados se publicaron junto con sus limitaciones metodológicas.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa se impersonal y pasiva refleja para expresar una relación precisa: «Los resultados se publicaron junto con sus limitaciones metodológicas.»"
               }
             ]
           }
@@ -31669,190 +32977,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-b2-alimentacion-y-sociedad-grammar-test",
+        "id": "spanish-b2-alimentacion-y-sociedad-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-b2-alimentacion-y-sociedad-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente pasiva refleja y construcciones impersonales?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "En el artículo se analizan «cadena de suministro» y «etiquetado» desde perspectivas distintas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "cadena de suministro etiquetado porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-b2-alimentacion-y-sociedad-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa pasiva refleja y construcciones impersonales para expresar una relación precisa: «En el artículo se analizan «cadena de suministro» y «etiquetado» desde perspectivas distintas.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-b2-alimentacion-y-sociedad-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente pasiva refleja y construcciones impersonales?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "cadena de suministro etiquetado porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "La propuesta fue revisada por un equipo independiente."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "La propuesta fue revisada por un equipo independiente."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-b2-alimentacion-y-sociedad-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa pasiva refleja y construcciones impersonales para expresar una relación precisa: «La propuesta fue revisada por un equipo independiente.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa pasiva refleja y construcciones impersonales para expresar una relación precisa: «La propuesta fue revisada por un equipo independiente.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-b2-alimentacion-y-sociedad-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente pasiva refleja y construcciones impersonales?",
             "options": [
               {
-                "id": "o1",
-                "text": "cadena de suministro etiquetado porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "Se necesitan datos comparables antes de generalizar «desperdicio»."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "cadena de suministro etiquetado porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-b2-alimentacion-y-sociedad-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa pasiva refleja y construcciones impersonales para expresar una relación precisa: «Se necesitan datos comparables antes de generalizar «desperdicio».»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa pasiva refleja y construcciones impersonales para expresar una relación precisa: «Se necesitan datos comparables antes de generalizar «desperdicio».»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-b2-alimentacion-y-sociedad-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente pasiva refleja y construcciones impersonales?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "cadena de suministro etiquetado porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "Los resultados se publicaron junto con sus limitaciones metodológicas."
               },
               {
-                "id": "o4",
-                "text": "Los resultados se publicaron junto con sus limitaciones metodológicas."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-b2-alimentacion-y-sociedad-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa pasiva refleja y construcciones impersonales para expresar una relación precisa: «Los resultados se publicaron junto con sus limitaciones metodológicas.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa pasiva refleja y construcciones impersonales para expresar una relación precisa: «Los resultados se publicaron junto con sus limitaciones metodológicas.»"
               }
             ]
           }
@@ -31993,190 +33301,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-c1-economia-y-cuidados-grammar-test",
+        "id": "spanish-c1-economia-y-cuidados-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-c1-economia-y-cuidados-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente nominalización y densidad informativa?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "La evaluación de «jornada» permitió identificar sus efectos."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "jornada productividad porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-c1-economia-y-cuidados-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa nominalización y densidad informativa para expresar una relación precisa: «La evaluación de «jornada» permitió identificar sus efectos.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-c1-economia-y-cuidados-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente nominalización y densidad informativa?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "jornada productividad porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "El informe describe la ampliación de «productividad» sin ocultar quién la autorizó."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "El informe describe la ampliación de «productividad» sin ocultar quién la autorizó."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-c1-economia-y-cuidados-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa nominalización y densidad informativa para expresar una relación precisa: «El informe describe la ampliación de «productividad» sin ocultar quién la autorizó.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa nominalización y densidad informativa para expresar una relación precisa: «El informe describe la ampliación de «productividad» sin ocultar quién la autorizó.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-c1-economia-y-cuidados-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente nominalización y densidad informativa?",
             "options": [
               {
-                "id": "o1",
-                "text": "jornada productividad porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La revisión de «descanso» fue realizada por especialistas independientes."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "jornada productividad porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-c1-economia-y-cuidados-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa nominalización y densidad informativa para expresar una relación precisa: «La revisión de «descanso» fue realizada por especialistas independientes.»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa nominalización y densidad informativa para expresar una relación precisa: «La revisión de «descanso» fue realizada por especialistas independientes.»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-c1-economia-y-cuidados-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente nominalización y densidad informativa?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "jornada productividad porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "Al desempaquetar la nominalización, recuperamos la agencia: el comité modificó la norma."
               },
               {
-                "id": "o4",
-                "text": "Al desempaquetar la nominalización, recuperamos la agencia: el comité modificó la norma."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-c1-economia-y-cuidados-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa nominalización y densidad informativa para expresar una relación precisa: «Al desempaquetar la nominalización, recuperamos la agencia: el comité modificó la norma.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa nominalización y densidad informativa para expresar una relación precisa: «Al desempaquetar la nominalización, recuperamos la agencia: el comité modificó la norma.»"
               }
             ]
           }
@@ -32317,190 +33625,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-c2-debate-epistemico-grammar-test",
+        "id": "spanish-c2-debate-epistemico-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-c2-debate-epistemico-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente evidencialidad y grados de compromiso?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Los datos parecen indicar que «hipótesis» influye en el resultado."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "hipótesis evidencia porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-c2-debate-epistemico-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa evidencialidad y grados de compromiso para expresar una relación precisa: «Los datos parecen indicar que «hipótesis» influye en el resultado.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-c2-debate-epistemico-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente evidencialidad y grados de compromiso?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "hipótesis evidencia porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "Según el informe, «evidencia» podría haber aumentado durante el periodo estudiado."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "Según el informe, «evidencia» podría haber aumentado durante el periodo estudiado."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-c2-debate-epistemico-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa evidencialidad y grados de compromiso para expresar una relación precisa: «Según el informe, «evidencia» podría haber aumentado durante el periodo estudiado.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa evidencialidad y grados de compromiso para expresar una relación precisa: «Según el informe, «evidencia» podría haber aumentado durante el periodo estudiado.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-c2-debate-epistemico-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente evidencialidad y grados de compromiso?",
             "options": [
               {
-                "id": "o1",
-                "text": "hipótesis evidencia porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "No puede descartarse que «experimento» explique parte de la diferencia."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "hipótesis evidencia porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-c2-debate-epistemico-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa evidencialidad y grados de compromiso para expresar una relación precisa: «No puede descartarse que «experimento» explique parte de la diferencia.»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa evidencialidad y grados de compromiso para expresar una relación precisa: «No puede descartarse que «experimento» explique parte de la diferencia.»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-c2-debate-epistemico-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente evidencialidad y grados de compromiso?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "hipótesis evidencia porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "La evidencia disponible respalda una hipótesis plausible, no una certeza definitiva."
               },
               {
-                "id": "o4",
-                "text": "La evidencia disponible respalda una hipótesis plausible, no una certeza definitiva."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-c2-debate-epistemico-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa evidencialidad y grados de compromiso para expresar una relación precisa: «La evidencia disponible respalda una hipótesis plausible, no una certeza definitiva.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa evidencialidad y grados de compromiso para expresar una relación precisa: «La evidencia disponible respalda una hipótesis plausible, no una certeza definitiva.»"
               }
             ]
           }
@@ -32640,7 +33948,211 @@
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarTest": {
+        "id": "spanish-a1-comida-y-bebida-grammar-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "spanish-a1-comida-y-bebida-grammar-grammar-q1",
+            "type": "mcq",
+            "prompt": "A mí ___ el café con leche.",
+            "options": [
+              {
+                "id": "b",
+                "text": "A mí me gusta el café con leche."
+              },
+              {
+                "id": "a",
+                "text": "A mí gusto el café con leche."
+              },
+              {
+                "id": "c",
+                "text": "A mí gustas el café con leche."
+              },
+              {
+                "id": "d",
+                "text": "A mí te gusta el café con leche."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-comida-y-bebida-grammar-grammar-q2",
+            "type": "mcq",
+            "prompt": "Yo ___ un café, por favor.",
+            "options": [
+              {
+                "id": "b",
+                "text": "Yo quieres un café, por favor."
+              },
+              {
+                "id": "a",
+                "text": "Yo quiero un café, por favor."
+              },
+              {
+                "id": "c",
+                "text": "Yo quiere un café, por favor."
+              },
+              {
+                "id": "d",
+                "text": "Yo queremos un café, por favor."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-comida-y-bebida-grammar-grammar-q3",
+            "type": "mcq",
+            "prompt": "Quiero ___ de azúcar, no mucha.",
+            "options": [
+              {
+                "id": "b",
+                "text": "Quiero mucho de azúcar, no mucha."
+              },
+              {
+                "id": "c",
+                "text": "Quiero nada de azúcar, no mucha."
+              },
+              {
+                "id": "a",
+                "text": "Quiero un poco de azúcar, no mucha."
+              },
+              {
+                "id": "d",
+                "text": "Quiero todo de azúcar, no mucha."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-comida-y-bebida-grammar-grammar-q4",
+            "type": "mcq",
+            "prompt": "A Mariana ___ la fruta.",
+            "options": [
+              {
+                "id": "a",
+                "text": "A Mariana gusto la fruta."
+              },
+              {
+                "id": "b",
+                "text": "A Mariana me gusta la fruta."
+              },
+              {
+                "id": "d",
+                "text": "A Mariana te gusta la fruta."
+              },
+              {
+                "id": "c",
+                "text": "A Mariana le gusta la fruta."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-comida-y-bebida-grammar-grammar-q5",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «A mí gusto el café con leche.»?",
+            "options": [
+              {
+                "id": "b",
+                "text": "A mí me gusta el café con leche."
+              },
+              {
+                "id": "a",
+                "text": "A mí gusto el café con leche."
+              },
+              {
+                "id": "c",
+                "text": "A mí gustas el café con leche."
+              },
+              {
+                "id": "d",
+                "text": "A mí te gusta el café con leche."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-comida-y-bebida-grammar-grammar-q6",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «Yo quieres un café, por favor.»?",
+            "options": [
+              {
+                "id": "b",
+                "text": "Yo quieres un café, por favor."
+              },
+              {
+                "id": "a",
+                "text": "Yo quiero un café, por favor."
+              },
+              {
+                "id": "c",
+                "text": "Yo quiere un café, por favor."
+              },
+              {
+                "id": "d",
+                "text": "Yo queremos un café, por favor."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-comida-y-bebida-grammar-grammar-q7",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «Quiero mucho de azúcar, no mucha.»?",
+            "options": [
+              {
+                "id": "b",
+                "text": "Quiero mucho de azúcar, no mucha."
+              },
+              {
+                "id": "c",
+                "text": "Quiero nada de azúcar, no mucha."
+              },
+              {
+                "id": "a",
+                "text": "Quiero un poco de azúcar, no mucha."
+              },
+              {
+                "id": "d",
+                "text": "Quiero todo de azúcar, no mucha."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-comida-y-bebida-grammar-grammar-q8",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «A Mariana gusto la fruta.»?",
+            "options": [
+              {
+                "id": "a",
+                "text": "A Mariana gusto la fruta."
+              },
+              {
+                "id": "b",
+                "text": "A Mariana me gusta la fruta."
+              },
+              {
+                "id": "d",
+                "text": "A Mariana te gusta la fruta."
+              },
+              {
+                "id": "c",
+                "text": "A Mariana le gusta la fruta."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Gustar, querer y las cantidades",
+        "definition": "\"Gustar\" funciona diferente: me gusta el café (a mí), te gusta el té (a ti), le gusta la fruta (a él/ella). \"Querer\" es más directo para pedir: quiero un café. Cantidades: \"un poco de\" (pequeña cantidad), \"mucho/a\" (grande cantidad), \"poco/a\" (pequeña cantidad). Error frecuente: decir \"yo gusto el café\" en vez de \"me gusta el café\".",
+        "structure": "Forma que se debe observar: Gustar, querer y las cantidades. Compara el tiempo, los conectores, los pronombres y el orden de palabras de los ejemplos.",
+        "function": "Aprende a usar gustar/querer y expresiones de cantidad.",
+        "examples": [
+          "A mí me gusta el café con leche.",
+          "Yo quiero un café, por favor.",
+          "Quiero un poco de azúcar, no mucha.",
+          "A Mariana le gusta la fruta."
+        ]
+      },
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
@@ -35747,193 +37259,205 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-a2-recuerdos-y-experiencias-grammar-test",
+        "id": "spanish-a2-recuerdos-y-experiencias-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-a2-recuerdos-y-experiencias-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente pretérito perfecto e indefinido?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Cuando surgió «recuerdo», el grupo revisó lo ocurrido."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "recuerdo viaje porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-a2-recuerdos-y-experiencias-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa pretérito perfecto e indefinido para expresar una relación precisa: «Cuando surgió «recuerdo», el grupo revisó lo ocurrido.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-a2-recuerdos-y-experiencias-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente pretérito perfecto e indefinido?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "recuerdo viaje porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "Mientras analizaban «viaje», apareció una evidencia nueva."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "Mientras analizaban «viaje», apareció una evidencia nueva."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-a2-recuerdos-y-experiencias-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa pretérito perfecto e indefinido para expresar una relación precisa: «Mientras analizaban «viaje», apareció una evidencia nueva.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa pretérito perfecto e indefinido para expresar una relación precisa: «Mientras analizaban «viaje», apareció una evidencia nueva.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-a2-recuerdos-y-experiencias-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente pretérito perfecto e indefinido?",
             "options": [
               {
-                "id": "o1",
-                "text": "recuerdo viaje porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "El equipo ya había examinado «anécdota» antes de decidir."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "recuerdo viaje porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-a2-recuerdos-y-experiencias-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa pretérito perfecto e indefinido para expresar una relación precisa: «El equipo ya había examinado «anécdota» antes de decidir.»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa pretérito perfecto e indefinido para expresar una relación precisa: «El equipo ya había examinado «anécdota» antes de decidir.»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-a2-recuerdos-y-experiencias-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente pretérito perfecto e indefinido?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "recuerdo viaje porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "Esta semana hemos comparado los datos con los que reunimos el año pasado."
               },
               {
-                "id": "o4",
-                "text": "Esta semana hemos comparado los datos con los que reunimos el año pasado."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-a2-recuerdos-y-experiencias-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa pretérito perfecto e indefinido para expresar una relación precisa: «Esta semana hemos comparado los datos con los que reunimos el año pasado.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa pretérito perfecto e indefinido para expresar una relación precisa: «Esta semana hemos comparado los datos con los que reunimos el año pasado.»"
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Gramática · pretérito perfecto e indefinido",
+        "definition": "Foco: pretérito perfecto e indefinido.",
+        "structure": "Forma que se debe observar: Gramática · pretérito perfecto e indefinido. Compara el tiempo, los conectores, los pronombres y el orden de palabras de los ejemplos.",
+        "function": "Aplica la forma gramatical dentro del tema «Recuerdos y experiencias».",
+        "examples": [
+          "Cuando surgió «recuerdo», el grupo revisó lo ocurrido.",
+          "Usa pretérito perfecto e indefinido para expresar una relación precisa: «Cuando surgió «recuerdo», el grupo revisó lo ocurrido.»",
+          "Mientras analizaban «viaje», apareció una evidencia nueva.",
+          "Usa pretérito perfecto e indefinido para expresar una relación precisa: «Mientras analizaban «viaje», apareció una evidencia nueva.»"
         ]
       },
       "listeningComprehension": null
@@ -36055,190 +37579,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-b1-educacion-y-metas-grammar-test",
+        "id": "spanish-b1-educacion-y-metas-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-b1-educacion-y-metas-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente futuro y condicional?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Si existieran más apoyos, muchas personas podrían afrontar «matrícula» de otra manera."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "matrícula beca porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-b1-educacion-y-metas-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa futuro y condicional para expresar una relación precisa: «Si existieran más apoyos, muchas personas podrían afrontar «matrícula» de otra manera.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-b1-educacion-y-metas-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente futuro y condicional?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "matrícula beca porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "Si el equipo hubiera revisado «beca», habría evitado una conclusión precipitada."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "Si el equipo hubiera revisado «beca», habría evitado una conclusión precipitada."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-b1-educacion-y-metas-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa futuro y condicional para expresar una relación precisa: «Si el equipo hubiera revisado «beca», habría evitado una conclusión precipitada.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa futuro y condicional para expresar una relación precisa: «Si el equipo hubiera revisado «beca», habría evitado una conclusión precipitada.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-b1-educacion-y-metas-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente futuro y condicional?",
             "options": [
               {
-                "id": "o1",
-                "text": "matrícula beca porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La propuesta sería más sólida si incluyera «requisito»."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "matrícula beca porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-b1-educacion-y-metas-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa futuro y condicional para expresar una relación precisa: «La propuesta sería más sólida si incluyera «requisito».»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa futuro y condicional para expresar una relación precisa: «La propuesta sería más sólida si incluyera «requisito».»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-b1-educacion-y-metas-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente futuro y condicional?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "matrícula beca porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "De mantenerse estas condiciones, el resultado podría cambiar."
               },
               {
-                "id": "o4",
-                "text": "De mantenerse estas condiciones, el resultado podría cambiar."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-b1-educacion-y-metas-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa futuro y condicional para expresar una relación precisa: «De mantenerse estas condiciones, el resultado podría cambiar.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa futuro y condicional para expresar una relación precisa: «De mantenerse estas condiciones, el resultado podría cambiar.»"
               }
             ]
           }
@@ -36379,190 +37903,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-b2-arte-y-espacio-publico-grammar-test",
+        "id": "spanish-b2-arte-y-espacio-publico-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-b2-arte-y-espacio-publico-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente subjuntivo en relativas y valoración?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Es importante que la comunidad considere «intervención» antes de decidir."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "intervención mural porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-b2-arte-y-espacio-publico-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa subjuntivo en relativas y valoración para expresar una relación precisa: «Es importante que la comunidad considere «intervención» antes de decidir.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-b2-arte-y-espacio-publico-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente subjuntivo en relativas y valoración?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "intervención mural porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "No creo que «mural» deba analizarse sin contexto."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "No creo que «mural» deba analizarse sin contexto."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-b2-arte-y-espacio-publico-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa subjuntivo en relativas y valoración para expresar una relación precisa: «No creo que «mural» deba analizarse sin contexto.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa subjuntivo en relativas y valoración para expresar una relación precisa: «No creo que «mural» deba analizarse sin contexto.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-b2-arte-y-espacio-publico-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente subjuntivo en relativas y valoración?",
             "options": [
               {
-                "id": "o1",
-                "text": "intervención mural porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La especialista recomienda que se revise «financiación» con nueva evidencia."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "intervención mural porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-b2-arte-y-espacio-publico-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa subjuntivo en relativas y valoración para expresar una relación precisa: «La especialista recomienda que se revise «financiación» con nueva evidencia.»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa subjuntivo en relativas y valoración para expresar una relación precisa: «La especialista recomienda que se revise «financiación» con nueva evidencia.»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-b2-arte-y-espacio-publico-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente subjuntivo en relativas y valoración?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "intervención mural porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "Aunque la propuesta sea valiosa, conviene que el equipo evalúe sus límites."
               },
               {
-                "id": "o4",
-                "text": "Aunque la propuesta sea valiosa, conviene que el equipo evalúe sus límites."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-b2-arte-y-espacio-publico-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa subjuntivo en relativas y valoración para expresar una relación precisa: «Aunque la propuesta sea valiosa, conviene que el equipo evalúe sus límites.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa subjuntivo en relativas y valoración para expresar una relación precisa: «Aunque la propuesta sea valiosa, conviene que el equipo evalúe sus límites.»"
               }
             ]
           }
@@ -36703,190 +38227,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-c1-diversidad-del-espanol-grammar-test",
+        "id": "spanish-c1-diversidad-del-espanol-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-c1-diversidad-del-espanol-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente variación, registro y adecuación pragmática?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Revise «sueño» antes de confirmar la decisión, por favor."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "sueño agotamiento porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-c1-diversidad-del-espanol-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa variación, registro y adecuación pragmática para expresar una relación precisa: «Revise «sueño» antes de confirmar la decisión, por favor.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-c1-diversidad-del-espanol-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente variación, registro y adecuación pragmática?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "sueño agotamiento porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "¿Podría aclarar cómo se relaciona «agotamiento» con la propuesta?"
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "¿Podría aclarar cómo se relaciona «agotamiento» con la propuesta?"
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-c1-diversidad-del-espanol-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa variación, registro y adecuación pragmática para expresar una relación precisa: «¿Podría aclarar cómo se relaciona «agotamiento» con la propuesta?»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa variación, registro y adecuación pragmática para expresar una relación precisa: «¿Podría aclarar cómo se relaciona «agotamiento» con la propuesta?»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-c1-diversidad-del-espanol-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente variación, registro y adecuación pragmática?",
             "options": [
               {
-                "id": "o1",
-                "text": "sueño agotamiento porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "Quizá convendría matizar la afirmación sobre «rutina»."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "sueño agotamiento porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-c1-diversidad-del-espanol-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa variación, registro y adecuación pragmática para expresar una relación precisa: «Quizá convendría matizar la afirmación sobre «rutina».»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa variación, registro y adecuación pragmática para expresar una relación precisa: «Quizá convendría matizar la afirmación sobre «rutina».»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-c1-diversidad-del-espanol-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente variación, registro y adecuación pragmática?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "sueño agotamiento porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "Si no le importa, examinemos primero la evidencia disponible."
               },
               {
-                "id": "o4",
-                "text": "Si no le importa, examinemos primero la evidencia disponible."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-c1-diversidad-del-espanol-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa variación, registro y adecuación pragmática para expresar una relación precisa: «Si no le importa, examinemos primero la evidencia disponible.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa variación, registro y adecuación pragmática para expresar una relación precisa: «Si no le importa, examinemos primero la evidencia disponible.»"
               }
             ]
           }
@@ -37027,190 +38551,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-c2-estetica-y-interpretacion-grammar-test",
+        "id": "spanish-c2-estetica-y-interpretacion-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-c2-estetica-y-interpretacion-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente metáfora conceptual y lenguaje crítico?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Aunque «audiencia» parece una decisión individual, conviene considerar «monetización» y «plataforma»."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "audiencia monetización porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-c2-estetica-y-interpretacion-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa metáfora conceptual y lenguaje crítico para expresar una relación precisa: «Aunque «audiencia» parece una decisión individual, conviene considerar «monetización» y «plataforma».»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-c2-estetica-y-interpretacion-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente metáfora conceptual y lenguaje crítico?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "audiencia monetización porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "La evidencia permite interpretar «audiencia» antes de formular una conclusión."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "La evidencia permite interpretar «audiencia» antes de formular una conclusión."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-c2-estetica-y-interpretacion-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa metáfora conceptual y lenguaje crítico para expresar una relación precisa: «La evidencia permite interpretar «audiencia» antes de formular una conclusión.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa metáfora conceptual y lenguaje crítico para expresar una relación precisa: «La evidencia permite interpretar «audiencia» antes de formular una conclusión.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-c2-estetica-y-interpretacion-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente metáfora conceptual y lenguaje crítico?",
             "options": [
               {
-                "id": "o1",
-                "text": "audiencia monetización porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "Conviene distinguir «monetización» de «plataforma» para evitar una ambigüedad."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "audiencia monetización porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-c2-estetica-y-interpretacion-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa metáfora conceptual y lenguaje crítico para expresar una relación precisa: «Conviene distinguir «monetización» de «plataforma» para evitar una ambigüedad.»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa metáfora conceptual y lenguaje crítico para expresar una relación precisa: «Conviene distinguir «monetización» de «plataforma» para evitar una ambigüedad.»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-c2-estetica-y-interpretacion-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente metáfora conceptual y lenguaje crítico?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "audiencia monetización porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "La conclusión es provisional porque todavía faltan datos comparables."
               },
               {
-                "id": "o4",
-                "text": "La conclusión es provisional porque todavía faltan datos comparables."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-c2-estetica-y-interpretacion-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa metáfora conceptual y lenguaje crítico para expresar una relación precisa: «La conclusión es provisional porque todavía faltan datos comparables.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa metáfora conceptual y lenguaje crítico para expresar una relación precisa: «La conclusión es provisional porque todavía faltan datos comparables.»"
               }
             ]
           }
@@ -37350,7 +38874,211 @@
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarTest": {
+        "id": "spanish-a1-de-compras-grammar-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "spanish-a1-de-compras-grammar-grammar-q1",
+            "type": "mcq",
+            "prompt": "¿Cuánto ___ esta camisa?",
+            "options": [
+              {
+                "id": "a",
+                "text": "¿Cuánto cuesta esta camisa?"
+              },
+              {
+                "id": "b",
+                "text": "¿Cuánto cuestan esta camisa?"
+              },
+              {
+                "id": "c",
+                "text": "¿Cuánto cuestas esta camisa?"
+              },
+              {
+                "id": "d",
+                "text": "¿Cuánto cuesto esta camisa?"
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-de-compras-grammar-grammar-q2",
+            "type": "mcq",
+            "prompt": "¿Cuánto ___ estos zapatos?",
+            "options": [
+              {
+                "id": "a",
+                "text": "¿Cuánto cuesta estos zapatos?"
+              },
+              {
+                "id": "b",
+                "text": "¿Cuánto cuestan estos zapatos?"
+              },
+              {
+                "id": "c",
+                "text": "¿Cuánto cuestas estos zapatos?"
+              },
+              {
+                "id": "d",
+                "text": "¿Cuánto cuesto estos zapatos?"
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-de-compras-grammar-grammar-q3",
+            "type": "mcq",
+            "prompt": "Quiero la camisa ___ (rojo).",
+            "options": [
+              {
+                "id": "a",
+                "text": "Quiero la camisa rojo (rojo)."
+              },
+              {
+                "id": "c",
+                "text": "Quiero la camisa rojos (rojo)."
+              },
+              {
+                "id": "b",
+                "text": "Quiero la camisa roja (rojo)."
+              },
+              {
+                "id": "d",
+                "text": "Quiero la camisa rojas (rojo)."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-de-compras-grammar-grammar-q4",
+            "type": "mcq",
+            "prompt": "Elige la oración correcta.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La camisa es azula."
+              },
+              {
+                "id": "c",
+                "text": "La camisa es azules."
+              },
+              {
+                "id": "d",
+                "text": "La camisa son azul."
+              },
+              {
+                "id": "b",
+                "text": "La camisa es azul."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-de-compras-grammar-grammar-q5",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «¿Cuánto cuestan esta camisa?»?",
+            "options": [
+              {
+                "id": "a",
+                "text": "¿Cuánto cuesta esta camisa?"
+              },
+              {
+                "id": "b",
+                "text": "¿Cuánto cuestan esta camisa?"
+              },
+              {
+                "id": "c",
+                "text": "¿Cuánto cuestas esta camisa?"
+              },
+              {
+                "id": "d",
+                "text": "¿Cuánto cuesto esta camisa?"
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-de-compras-grammar-grammar-q6",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «¿Cuánto cuesta estos zapatos?»?",
+            "options": [
+              {
+                "id": "a",
+                "text": "¿Cuánto cuesta estos zapatos?"
+              },
+              {
+                "id": "b",
+                "text": "¿Cuánto cuestan estos zapatos?"
+              },
+              {
+                "id": "c",
+                "text": "¿Cuánto cuestas estos zapatos?"
+              },
+              {
+                "id": "d",
+                "text": "¿Cuánto cuesto estos zapatos?"
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-de-compras-grammar-grammar-q7",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «Quiero la camisa rojo (rojo).»?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Quiero la camisa rojo (rojo)."
+              },
+              {
+                "id": "c",
+                "text": "Quiero la camisa rojos (rojo)."
+              },
+              {
+                "id": "b",
+                "text": "Quiero la camisa roja (rojo)."
+              },
+              {
+                "id": "d",
+                "text": "Quiero la camisa rojas (rojo)."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-de-compras-grammar-grammar-q8",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «La camisa es azula.»?",
+            "options": [
+              {
+                "id": "a",
+                "text": "La camisa es azula."
+              },
+              {
+                "id": "c",
+                "text": "La camisa es azules."
+              },
+              {
+                "id": "d",
+                "text": "La camisa son azul."
+              },
+              {
+                "id": "b",
+                "text": "La camisa es azul."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Cuánto cuesta y la concordancia de colores",
+        "definition": "Para un objeto usamos \"¿Cuánto cuesta?\"; para varios objetos usamos \"¿Cuánto cuestan?\". Los colores concuerdan en género y número: la camisa azul, el pantalón azul, las camisas azules. Algunos colores no cambian de forma: azul, verde. Error frecuente: decir \"la camisa azula\" (los colores como \"azul\" y \"verde\" no tienen forma femenina).",
+        "structure": "Forma que se debe observar: Cuánto cuesta y la concordancia de colores. Compara el tiempo, los conectores, los pronombres y el orden de palabras de los ejemplos.",
+        "function": "Aprende a preguntar precios y a hacer concordar los colores.",
+        "examples": [
+          "¿Cuánto cuesta esta camisa?",
+          "¿Cuánto cuestan estos zapatos?",
+          "Quiero la camisa roja (rojo).",
+          "La camisa es azul."
+        ]
+      },
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
@@ -40466,193 +42194,205 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-a2-celebraciones-grammar-test",
+        "id": "spanish-a2-celebraciones-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-a2-celebraciones-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente pronombres de objeto y quedar?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "La propuesta incluye «invitación»; este elemento cambia la decisión final."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "invitación regalo porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-a2-celebraciones-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa pronombres de objeto y quedar para expresar una relación precisa: «La propuesta incluye «invitación»; este elemento cambia la decisión final.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-a2-celebraciones-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente pronombres de objeto y quedar?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "invitación regalo porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "El equipo revisó las recomendaciones y luego las incorporó al informe."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "El equipo revisó las recomendaciones y luego las incorporó al informe."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-a2-celebraciones-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa pronombres de objeto y quedar para expresar una relación precisa: «El equipo revisó las recomendaciones y luego las incorporó al informe.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa pronombres de objeto y quedar para expresar una relación precisa: «El equipo revisó las recomendaciones y luego las incorporó al informe.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-a2-celebraciones-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente pronombres de objeto y quedar?",
             "options": [
               {
-                "id": "o1",
-                "text": "invitación regalo porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "Algunas personas aceptaron «regalo»; otras, no."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "invitación regalo porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-a2-celebraciones-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa pronombres de objeto y quedar para expresar una relación precisa: «Algunas personas aceptaron «regalo»; otras, no.»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa pronombres de objeto y quedar para expresar una relación precisa: «Algunas personas aceptaron «regalo»; otras, no.»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-a2-celebraciones-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente pronombres de objeto y quedar?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "invitación regalo porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "La primera medida aborda «reunión» y la segunda lo desarrolla con mayor detalle."
               },
               {
-                "id": "o4",
-                "text": "La primera medida aborda «reunión» y la segunda lo desarrolla con mayor detalle."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-a2-celebraciones-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa pronombres de objeto y quedar para expresar una relación precisa: «La primera medida aborda «reunión» y la segunda lo desarrolla con mayor detalle.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa pronombres de objeto y quedar para expresar una relación precisa: «La primera medida aborda «reunión» y la segunda lo desarrolla con mayor detalle.»"
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Gramática · pronombres de objeto y quedar",
+        "definition": "Foco: pronombres de objeto y quedar.",
+        "structure": "Forma que se debe observar: Gramática · pronombres de objeto y quedar. Compara el tiempo, los conectores, los pronombres y el orden de palabras de los ejemplos.",
+        "function": "Aplica la forma gramatical dentro del tema «Celebraciones».",
+        "examples": [
+          "La propuesta incluye «invitación»; este elemento cambia la decisión final.",
+          "Usa pronombres de objeto y quedar para expresar una relación precisa: «La propuesta incluye «invitación»; este elemento cambia la decisión final.»",
+          "El equipo revisó las recomendaciones y luego las incorporó al informe.",
+          "Usa pronombres de objeto y quedar para expresar una relación precisa: «El equipo revisó las recomendaciones y luego las incorporó al informe.»"
         ]
       },
       "listeningComprehension": null
@@ -40774,190 +42514,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-b1-medioambiente-local-grammar-test",
+        "id": "spanish-b1-medioambiente-local-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-b1-medioambiente-local-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente condicional real y conectores causales?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Si existieran más apoyos, muchas personas podrían afrontar «reciclaje» de otra manera."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "reciclaje contaminación porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-b1-medioambiente-local-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa condicional real y conectores causales para expresar una relación precisa: «Si existieran más apoyos, muchas personas podrían afrontar «reciclaje» de otra manera.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-b1-medioambiente-local-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente condicional real y conectores causales?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "reciclaje contaminación porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "Si el equipo hubiera revisado «contaminación», habría evitado una conclusión precipitada."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "Si el equipo hubiera revisado «contaminación», habría evitado una conclusión precipitada."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-b1-medioambiente-local-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa condicional real y conectores causales para expresar una relación precisa: «Si el equipo hubiera revisado «contaminación», habría evitado una conclusión precipitada.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa condicional real y conectores causales para expresar una relación precisa: «Si el equipo hubiera revisado «contaminación», habría evitado una conclusión precipitada.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-b1-medioambiente-local-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente condicional real y conectores causales?",
             "options": [
               {
-                "id": "o1",
-                "text": "reciclaje contaminación porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La propuesta sería más sólida si incluyera «medida»."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "reciclaje contaminación porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-b1-medioambiente-local-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa condicional real y conectores causales para expresar una relación precisa: «La propuesta sería más sólida si incluyera «medida».»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa condicional real y conectores causales para expresar una relación precisa: «La propuesta sería más sólida si incluyera «medida».»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-b1-medioambiente-local-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente condicional real y conectores causales?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "reciclaje contaminación porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "De mantenerse estas condiciones, el resultado podría cambiar."
               },
               {
-                "id": "o4",
-                "text": "De mantenerse estas condiciones, el resultado podría cambiar."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-b1-medioambiente-local-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa condicional real y conectores causales para expresar una relación precisa: «De mantenerse estas condiciones, el resultado podría cambiar.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa condicional real y conectores causales para expresar una relación precisa: «De mantenerse estas condiciones, el resultado podría cambiar.»"
               }
             ]
           }
@@ -41098,190 +42838,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-b2-ciencia-y-etica-grammar-test",
+        "id": "spanish-b2-ciencia-y-etica-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-b2-ciencia-y-etica-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente modales de deducción y probabilidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "La propuesta permitirá revisar «hallazgo» y anticipar sus consecuencias."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "hallazgo riesgo porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-b2-ciencia-y-etica-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa modales de deducción y probabilidad para expresar una relación precisa: «La propuesta permitirá revisar «hallazgo» y anticipar sus consecuencias.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-b2-ciencia-y-etica-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente modales de deducción y probabilidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "hallazgo riesgo porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "Para el próximo informe, el equipo habrá evaluado «riesgo»."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "Para el próximo informe, el equipo habrá evaluado «riesgo»."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-b2-ciencia-y-etica-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa modales de deducción y probabilidad para expresar una relación precisa: «Para el próximo informe, el equipo habrá evaluado «riesgo».»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa modales de deducción y probabilidad para expresar una relación precisa: «Para el próximo informe, el equipo habrá evaluado «riesgo».»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-b2-ciencia-y-etica-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente modales de deducción y probabilidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "hallazgo riesgo porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "Probablemente «ensayo» influirá en la decisión final."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "hallazgo riesgo porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-b2-ciencia-y-etica-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa modales de deducción y probabilidad para expresar una relación precisa: «Probablemente «ensayo» influirá en la decisión final.»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa modales de deducción y probabilidad para expresar una relación precisa: «Probablemente «ensayo» influirá en la decisión final.»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-b2-ciencia-y-etica-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente modales de deducción y probabilidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "hallazgo riesgo porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "Dentro de un año se estarán comparando los primeros resultados."
               },
               {
-                "id": "o4",
-                "text": "Dentro de un año se estarán comparando los primeros resultados."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-b2-ciencia-y-etica-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa modales de deducción y probabilidad para expresar una relación precisa: «Dentro de un año se estarán comparando los primeros resultados.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa modales de deducción y probabilidad para expresar una relación precisa: «Dentro de un año se estarán comparando los primeros resultados.»"
               }
             ]
           }
@@ -41422,190 +43162,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-c1-diplomacia-y-negociacion-grammar-test",
+        "id": "spanish-c1-diplomacia-y-negociacion-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-c1-diplomacia-y-negociacion-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente atenuación y cortesía avanzada?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Revise «presión» antes de confirmar la decisión, por favor."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "presión rendimiento porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-c1-diplomacia-y-negociacion-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa atenuación y cortesía avanzada para expresar una relación precisa: «Revise «presión» antes de confirmar la decisión, por favor.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-c1-diplomacia-y-negociacion-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente atenuación y cortesía avanzada?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "presión rendimiento porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "¿Podría aclarar cómo se relaciona «rendimiento» con la propuesta?"
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "¿Podría aclarar cómo se relaciona «rendimiento» con la propuesta?"
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-c1-diplomacia-y-negociacion-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa atenuación y cortesía avanzada para expresar una relación precisa: «¿Podría aclarar cómo se relaciona «rendimiento» con la propuesta?»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa atenuación y cortesía avanzada para expresar una relación precisa: «¿Podría aclarar cómo se relaciona «rendimiento» con la propuesta?»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-c1-diplomacia-y-negociacion-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente atenuación y cortesía avanzada?",
             "options": [
               {
-                "id": "o1",
-                "text": "presión rendimiento porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "Quizá convendría matizar la afirmación sobre «expectativa»."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "presión rendimiento porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-c1-diplomacia-y-negociacion-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa atenuación y cortesía avanzada para expresar una relación precisa: «Quizá convendría matizar la afirmación sobre «expectativa».»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa atenuación y cortesía avanzada para expresar una relación precisa: «Quizá convendría matizar la afirmación sobre «expectativa».»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-c1-diplomacia-y-negociacion-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente atenuación y cortesía avanzada?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "presión rendimiento porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "Si no le importa, examinemos primero la evidencia disponible."
               },
               {
-                "id": "o4",
-                "text": "Si no le importa, examinemos primero la evidencia disponible."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-c1-diplomacia-y-negociacion-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa atenuación y cortesía avanzada para expresar una relación precisa: «Si no le importa, examinemos primero la evidencia disponible.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa atenuación y cortesía avanzada para expresar una relación precisa: «Si no le importa, examinemos primero la evidencia disponible.»"
               }
             ]
           }
@@ -41746,190 +43486,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-c2-discurso-cientifico-grammar-test",
+        "id": "spanish-c2-discurso-cientifico-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-c2-discurso-cientifico-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente reformulación explicativa y cautela?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Los datos parecen indicar que «evacuación» influye en el resultado."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "evacuación alerta porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-c2-discurso-cientifico-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa reformulación explicativa y cautela para expresar una relación precisa: «Los datos parecen indicar que «evacuación» influye en el resultado.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-c2-discurso-cientifico-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente reformulación explicativa y cautela?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "evacuación alerta porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "Según el informe, «alerta» podría haber aumentado durante el periodo estudiado."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "Según el informe, «alerta» podría haber aumentado durante el periodo estudiado."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-c2-discurso-cientifico-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa reformulación explicativa y cautela para expresar una relación precisa: «Según el informe, «alerta» podría haber aumentado durante el periodo estudiado.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa reformulación explicativa y cautela para expresar una relación precisa: «Según el informe, «alerta» podría haber aumentado durante el periodo estudiado.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-c2-discurso-cientifico-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente reformulación explicativa y cautela?",
             "options": [
               {
-                "id": "o1",
-                "text": "evacuación alerta porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "No puede descartarse que «refugio» explique parte de la diferencia."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "evacuación alerta porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-c2-discurso-cientifico-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa reformulación explicativa y cautela para expresar una relación precisa: «No puede descartarse que «refugio» explique parte de la diferencia.»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa reformulación explicativa y cautela para expresar una relación precisa: «No puede descartarse que «refugio» explique parte de la diferencia.»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-c2-discurso-cientifico-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente reformulación explicativa y cautela?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "evacuación alerta porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "La evidencia disponible respalda una hipótesis plausible, no una certeza definitiva."
               },
               {
-                "id": "o4",
-                "text": "La evidencia disponible respalda una hipótesis plausible, no una certeza definitiva."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-c2-discurso-cientifico-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa reformulación explicativa y cautela para expresar una relación precisa: «La evidencia disponible respalda una hipótesis plausible, no una certeza definitiva.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa reformulación explicativa y cautela para expresar una relación precisa: «La evidencia disponible respalda una hipótesis plausible, no una certeza definitiva.»"
               }
             ]
           }
@@ -42069,7 +43809,211 @@
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarTest": {
+        "id": "spanish-a1-estudios-y-trabajo-grammar-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "spanish-a1-estudios-y-trabajo-grammar-grammar-q1",
+            "type": "mcq",
+            "prompt": "Yo ___ que trabajar hoy.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Yo tengo que trabajar hoy."
+              },
+              {
+                "id": "b",
+                "text": "Yo tiene que trabajar hoy."
+              },
+              {
+                "id": "c",
+                "text": "Yo tienes que trabajar hoy."
+              },
+              {
+                "id": "d",
+                "text": "Yo tener que trabajar hoy."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-estudios-y-trabajo-grammar-grammar-q2",
+            "type": "mcq",
+            "prompt": "Ella ___ estudiar todos los días.",
+            "options": [
+              {
+                "id": "b",
+                "text": "Ella tiene estudiar todos los días."
+              },
+              {
+                "id": "a",
+                "text": "Ella tiene que estudiar todos los días."
+              },
+              {
+                "id": "c",
+                "text": "Ella tengo que estudiar todos los días."
+              },
+              {
+                "id": "d",
+                "text": "Ella puede que estudiar todos los días."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-estudios-y-trabajo-grammar-grammar-q3",
+            "type": "mcq",
+            "prompt": "Yo no ___ trabajar los domingos.",
+            "options": [
+              {
+                "id": "b",
+                "text": "Yo no puede trabajar los domingos."
+              },
+              {
+                "id": "c",
+                "text": "Yo no puedes trabajar los domingos."
+              },
+              {
+                "id": "a",
+                "text": "Yo no puedo trabajar los domingos."
+              },
+              {
+                "id": "d",
+                "text": "Yo no poder trabajar los domingos."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-estudios-y-trabajo-grammar-grammar-q4",
+            "type": "mcq",
+            "prompt": "Elige la oración correcta.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Tengo estudiar hoy."
+              },
+              {
+                "id": "c",
+                "text": "Tengo a estudiar hoy."
+              },
+              {
+                "id": "d",
+                "text": "Tengo de estudiar hoy."
+              },
+              {
+                "id": "b",
+                "text": "Tengo que estudiar hoy."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-estudios-y-trabajo-grammar-grammar-q5",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «Yo tiene que trabajar hoy.»?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Yo tengo que trabajar hoy."
+              },
+              {
+                "id": "b",
+                "text": "Yo tiene que trabajar hoy."
+              },
+              {
+                "id": "c",
+                "text": "Yo tienes que trabajar hoy."
+              },
+              {
+                "id": "d",
+                "text": "Yo tener que trabajar hoy."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-estudios-y-trabajo-grammar-grammar-q6",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «Ella tiene estudiar todos los días.»?",
+            "options": [
+              {
+                "id": "b",
+                "text": "Ella tiene estudiar todos los días."
+              },
+              {
+                "id": "a",
+                "text": "Ella tiene que estudiar todos los días."
+              },
+              {
+                "id": "c",
+                "text": "Ella tengo que estudiar todos los días."
+              },
+              {
+                "id": "d",
+                "text": "Ella puede que estudiar todos los días."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-estudios-y-trabajo-grammar-grammar-q7",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «Yo no puede trabajar los domingos.»?",
+            "options": [
+              {
+                "id": "b",
+                "text": "Yo no puede trabajar los domingos."
+              },
+              {
+                "id": "c",
+                "text": "Yo no puedes trabajar los domingos."
+              },
+              {
+                "id": "a",
+                "text": "Yo no puedo trabajar los domingos."
+              },
+              {
+                "id": "d",
+                "text": "Yo no poder trabajar los domingos."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-estudios-y-trabajo-grammar-grammar-q8",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «Tengo estudiar hoy.»?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Tengo estudiar hoy."
+              },
+              {
+                "id": "c",
+                "text": "Tengo a estudiar hoy."
+              },
+              {
+                "id": "d",
+                "text": "Tengo de estudiar hoy."
+              },
+              {
+                "id": "b",
+                "text": "Tengo que estudiar hoy."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Tener que y poder + infinitivo",
+        "definition": "\"Tener que + infinitivo\" expresa obligación: tengo que estudiar. \"Poder + infinitivo\" expresa posibilidad o capacidad: puedo trabajar los sábados. Ambos verbos son irregulares: yo tengo/puedo, tú tienes/puedes, él tiene/puede. Error frecuente: usar el infinitivo sin \"que\" después de \"tener\" (decir \"tengo estudiar\" en vez de \"tengo que estudiar\").",
+        "structure": "Forma que se debe observar: Tener que y poder + infinitivo. Compara el tiempo, los conectores, los pronombres y el orden de palabras de los ejemplos.",
+        "function": "Aprende a expresar obligación y posibilidad.",
+        "examples": [
+          "Yo tengo que trabajar hoy.",
+          "Ella tiene que estudiar todos los días.",
+          "Yo no puedo trabajar los domingos.",
+          "Tengo que estudiar hoy."
+        ]
+      },
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
@@ -45195,193 +47139,205 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-a2-estudio-y-aprendizaje-grammar-test",
+        "id": "spanish-a2-estudio-y-aprendizaje-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-a2-estudio-y-aprendizaje-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente desde, desde hace y llevar + gerundio?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Aunque «apunte» parece una decisión individual, conviene considerar «repasar» y «tarea»."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "apunte repasar porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-a2-estudio-y-aprendizaje-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa desde, desde hace y llevar + gerundio para expresar una relación precisa: «Aunque «apunte» parece una decisión individual, conviene considerar «repasar» y «tarea».»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-a2-estudio-y-aprendizaje-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente desde, desde hace y llevar + gerundio?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "apunte repasar porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "La evidencia permite interpretar «apunte» antes de formular una conclusión."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "La evidencia permite interpretar «apunte» antes de formular una conclusión."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-a2-estudio-y-aprendizaje-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa desde, desde hace y llevar + gerundio para expresar una relación precisa: «La evidencia permite interpretar «apunte» antes de formular una conclusión.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa desde, desde hace y llevar + gerundio para expresar una relación precisa: «La evidencia permite interpretar «apunte» antes de formular una conclusión.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-a2-estudio-y-aprendizaje-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente desde, desde hace y llevar + gerundio?",
             "options": [
               {
-                "id": "o1",
-                "text": "apunte repasar porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "Conviene distinguir «repasar» de «tarea» para evitar una ambigüedad."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "apunte repasar porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-a2-estudio-y-aprendizaje-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa desde, desde hace y llevar + gerundio para expresar una relación precisa: «Conviene distinguir «repasar» de «tarea» para evitar una ambigüedad.»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa desde, desde hace y llevar + gerundio para expresar una relación precisa: «Conviene distinguir «repasar» de «tarea» para evitar una ambigüedad.»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-a2-estudio-y-aprendizaje-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente desde, desde hace y llevar + gerundio?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "apunte repasar porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "La conclusión es provisional porque todavía faltan datos comparables."
               },
               {
-                "id": "o4",
-                "text": "La conclusión es provisional porque todavía faltan datos comparables."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-a2-estudio-y-aprendizaje-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa desde, desde hace y llevar + gerundio para expresar una relación precisa: «La conclusión es provisional porque todavía faltan datos comparables.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa desde, desde hace y llevar + gerundio para expresar una relación precisa: «La conclusión es provisional porque todavía faltan datos comparables.»"
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Gramática · desde, desde hace y llevar + gerundio",
+        "definition": "Foco: desde, desde hace y llevar + gerundio.",
+        "structure": "Forma que se debe observar: Gramática · desde, desde hace y llevar + gerundio. Compara el tiempo, los conectores, los pronombres y el orden de palabras de los ejemplos.",
+        "function": "Aplica la forma gramatical dentro del tema «Estudio y aprendizaje».",
+        "examples": [
+          "Aunque «apunte» parece una decisión individual, conviene considerar «repasar» y «tarea».",
+          "Usa desde, desde hace y llevar + gerundio para expresar una relación precisa: «Aunque «apunte» parece una decisión individual, conviene considerar «repasar» y «tarea».»",
+          "La evidencia permite interpretar «apunte» antes de formular una conclusión.",
+          "Usa desde, desde hace y llevar + gerundio para expresar una relación precisa: «La evidencia permite interpretar «apunte» antes de formular una conclusión.»"
         ]
       },
       "listeningComprehension": null
@@ -45503,190 +47459,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-b1-salud-y-habitos-grammar-test",
+        "id": "spanish-b1-salud-y-habitos-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-b1-salud-y-habitos-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente subjuntivo con recomendación?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Es importante que la comunidad considere «bienestar» antes de decidir."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "bienestar descanso porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-b1-salud-y-habitos-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa subjuntivo con recomendación para expresar una relación precisa: «Es importante que la comunidad considere «bienestar» antes de decidir.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-b1-salud-y-habitos-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente subjuntivo con recomendación?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "bienestar descanso porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "No creo que «descanso» deba analizarse sin contexto."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "No creo que «descanso» deba analizarse sin contexto."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-b1-salud-y-habitos-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa subjuntivo con recomendación para expresar una relación precisa: «No creo que «descanso» deba analizarse sin contexto.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa subjuntivo con recomendación para expresar una relación precisa: «No creo que «descanso» deba analizarse sin contexto.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-b1-salud-y-habitos-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente subjuntivo con recomendación?",
             "options": [
               {
-                "id": "o1",
-                "text": "bienestar descanso porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La especialista recomienda que se revise «equilibrio» con nueva evidencia."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "bienestar descanso porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-b1-salud-y-habitos-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa subjuntivo con recomendación para expresar una relación precisa: «La especialista recomienda que se revise «equilibrio» con nueva evidencia.»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa subjuntivo con recomendación para expresar una relación precisa: «La especialista recomienda que se revise «equilibrio» con nueva evidencia.»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-b1-salud-y-habitos-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente subjuntivo con recomendación?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "bienestar descanso porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "Aunque la propuesta sea valiosa, conviene que el equipo evalúe sus límites."
               },
               {
-                "id": "o4",
-                "text": "Aunque la propuesta sea valiosa, conviene que el equipo evalúe sus límites."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-b1-salud-y-habitos-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa subjuntivo con recomendación para expresar una relación precisa: «Aunque la propuesta sea valiosa, conviene que el equipo evalúe sus límites.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa subjuntivo con recomendación para expresar una relación precisa: «Aunque la propuesta sea valiosa, conviene que el equipo evalúe sus límites.»"
               }
             ]
           }
@@ -45827,190 +47783,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-b2-vivienda-y-desigualdad-grammar-test",
+        "id": "spanish-b2-vivienda-y-desigualdad-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-b2-vivienda-y-desigualdad-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente nominalización y conectores argumentativos?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "La evaluación de «alquiler» permitió identificar sus efectos."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "alquiler desplazamiento porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-b2-vivienda-y-desigualdad-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa nominalización y conectores argumentativos para expresar una relación precisa: «La evaluación de «alquiler» permitió identificar sus efectos.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-b2-vivienda-y-desigualdad-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente nominalización y conectores argumentativos?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "alquiler desplazamiento porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "El informe describe la ampliación de «desplazamiento» sin ocultar quién la autorizó."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "El informe describe la ampliación de «desplazamiento» sin ocultar quién la autorizó."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-b2-vivienda-y-desigualdad-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa nominalización y conectores argumentativos para expresar una relación precisa: «El informe describe la ampliación de «desplazamiento» sin ocultar quién la autorizó.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa nominalización y conectores argumentativos para expresar una relación precisa: «El informe describe la ampliación de «desplazamiento» sin ocultar quién la autorizó.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-b2-vivienda-y-desigualdad-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente nominalización y conectores argumentativos?",
             "options": [
               {
-                "id": "o1",
-                "text": "alquiler desplazamiento porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La revisión de «oferta» fue realizada por especialistas independientes."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "alquiler desplazamiento porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-b2-vivienda-y-desigualdad-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa nominalización y conectores argumentativos para expresar una relación precisa: «La revisión de «oferta» fue realizada por especialistas independientes.»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa nominalización y conectores argumentativos para expresar una relación precisa: «La revisión de «oferta» fue realizada por especialistas independientes.»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-b2-vivienda-y-desigualdad-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente nominalización y conectores argumentativos?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "alquiler desplazamiento porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "Al desempaquetar la nominalización, recuperamos la agencia: el comité modificó la norma."
               },
               {
-                "id": "o4",
-                "text": "Al desempaquetar la nominalización, recuperamos la agencia: el comité modificó la norma."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-b2-vivienda-y-desigualdad-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa nominalización y conectores argumentativos para expresar una relación precisa: «Al desempaquetar la nominalización, recuperamos la agencia: el comité modificó la norma.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa nominalización y conectores argumentativos para expresar una relación precisa: «Al desempaquetar la nominalización, recuperamos la agencia: el comité modificó la norma.»"
               }
             ]
           }
@@ -46151,190 +48107,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-c1-critica-cultural-grammar-test",
+        "id": "spanish-c1-critica-cultural-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-c1-critica-cultural-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente adjetivación valorativa y conectores concesivos?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Aunque «instante» aporta beneficios, sus efectos no se distribuyen por igual."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "instante decisión porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-c1-critica-cultural-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa adjetivación valorativa y conectores concesivos para expresar una relación precisa: «Aunque «instante» aporta beneficios, sus efectos no se distribuyen por igual.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-c1-critica-cultural-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente adjetivación valorativa y conectores concesivos?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "instante decisión porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "Pese a la evidencia sobre «decisión», la conclusión debe seguir siendo provisional."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "Pese a la evidencia sobre «decisión», la conclusión debe seguir siendo provisional."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-c1-critica-cultural-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa adjetivación valorativa y conectores concesivos para expresar una relación precisa: «Pese a la evidencia sobre «decisión», la conclusión debe seguir siendo provisional.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa adjetivación valorativa y conectores concesivos para expresar una relación precisa: «Pese a la evidencia sobre «decisión», la conclusión debe seguir siendo provisional.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-c1-critica-cultural-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente adjetivación valorativa y conectores concesivos?",
             "options": [
               {
-                "id": "o1",
-                "text": "instante decisión porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "Aun cuando «consecuencia» mejore, persistirán algunas limitaciones."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "instante decisión porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-c1-critica-cultural-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa adjetivación valorativa y conectores concesivos para expresar una relación precisa: «Aun cuando «consecuencia» mejore, persistirán algunas limitaciones.»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa adjetivación valorativa y conectores concesivos para expresar una relación precisa: «Aun cuando «consecuencia» mejore, persistirán algunas limitaciones.»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-c1-critica-cultural-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente adjetivación valorativa y conectores concesivos?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "instante decisión porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "La propuesta es viable; sin embargo, requiere controles independientes."
               },
               {
-                "id": "o4",
-                "text": "La propuesta es viable; sin embargo, requiere controles independientes."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-c1-critica-cultural-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa adjetivación valorativa y conectores concesivos para expresar una relación precisa: «La propuesta es viable; sin embargo, requiere controles independientes.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa adjetivación valorativa y conectores concesivos para expresar una relación precisa: «La propuesta es viable; sin embargo, requiere controles independientes.»"
               }
             ]
           }
@@ -46475,190 +48431,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-c2-mediacion-de-conflictos-grammar-test",
+        "id": "spanish-c2-mediacion-de-conflictos-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-c2-mediacion-de-conflictos-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente atenuación extrema y metapragmática?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Revise «cabina» antes de confirmar la decisión, por favor."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "cabina turbulencia porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-c2-mediacion-de-conflictos-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa atenuación extrema y metapragmática para expresar una relación precisa: «Revise «cabina» antes de confirmar la decisión, por favor.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-c2-mediacion-de-conflictos-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente atenuación extrema y metapragmática?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "cabina turbulencia porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "¿Podría aclarar cómo se relaciona «turbulencia» con la propuesta?"
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "¿Podría aclarar cómo se relaciona «turbulencia» con la propuesta?"
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-c2-mediacion-de-conflictos-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa atenuación extrema y metapragmática para expresar una relación precisa: «¿Podría aclarar cómo se relaciona «turbulencia» con la propuesta?»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa atenuación extrema y metapragmática para expresar una relación precisa: «¿Podría aclarar cómo se relaciona «turbulencia» con la propuesta?»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-c2-mediacion-de-conflictos-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente atenuación extrema y metapragmática?",
             "options": [
               {
-                "id": "o1",
-                "text": "cabina turbulencia porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "Quizá convendría matizar la afirmación sobre «protocolo»."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "cabina turbulencia porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-c2-mediacion-de-conflictos-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa atenuación extrema y metapragmática para expresar una relación precisa: «Quizá convendría matizar la afirmación sobre «protocolo».»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa atenuación extrema y metapragmática para expresar una relación precisa: «Quizá convendría matizar la afirmación sobre «protocolo».»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-c2-mediacion-de-conflictos-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente atenuación extrema y metapragmática?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "cabina turbulencia porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "Si no le importa, examinemos primero la evidencia disponible."
               },
               {
-                "id": "o4",
-                "text": "Si no le importa, examinemos primero la evidencia disponible."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-c2-mediacion-de-conflictos-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa atenuación extrema y metapragmática para expresar una relación precisa: «Si no le importa, examinemos primero la evidencia disponible.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa atenuación extrema y metapragmática para expresar una relación precisa: «Si no le importa, examinemos primero la evidencia disponible.»"
               }
             ]
           }
@@ -46798,7 +48754,211 @@
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarTest": {
+        "id": "spanish-a1-tiempo-libre-grammar-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "spanish-a1-tiempo-libre-grammar-grammar-q1",
+            "type": "mcq",
+            "prompt": "A mí ___ el cine. (me gusta mucho)",
+            "options": [
+              {
+                "id": "a",
+                "text": "A mí me encanta el cine. (me gusta mucho)"
+              },
+              {
+                "id": "b",
+                "text": "A mí prefiero el cine. (me gusta mucho)"
+              },
+              {
+                "id": "c",
+                "text": "A mí tampoco el cine. (me gusta mucho)"
+              },
+              {
+                "id": "d",
+                "text": "A mí también el cine. (me gusta mucho)"
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-tiempo-libre-grammar-grammar-q2",
+            "type": "mcq",
+            "prompt": "Yo ___ una comedia, no una película de terror.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Yo encanto una comedia, no una película de terror."
+              },
+              {
+                "id": "b",
+                "text": "Yo prefiero una comedia, no una película de terror."
+              },
+              {
+                "id": "c",
+                "text": "Yo tampoco una comedia, no una película de terror."
+              },
+              {
+                "id": "d",
+                "text": "Yo también una comedia, no una película de terror."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-tiempo-libre-grammar-grammar-q3",
+            "type": "mcq",
+            "prompt": "—No me gusta el fútbol. —A mí ___.",
+            "options": [
+              {
+                "id": "a",
+                "text": "—No me gusta el fútbol. —A mí también."
+              },
+              {
+                "id": "c",
+                "text": "—No me gusta el fútbol. —A mí prefiero."
+              },
+              {
+                "id": "b",
+                "text": "—No me gusta el fútbol. —A mí tampoco."
+              },
+              {
+                "id": "d",
+                "text": "—No me gusta el fútbol. —A mí encanta."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-tiempo-libre-grammar-grammar-q4",
+            "type": "mcq",
+            "prompt": "—Me gusta la música. —A mí ___.",
+            "options": [
+              {
+                "id": "a",
+                "text": "—Me gusta la música. —A mí tampoco."
+              },
+              {
+                "id": "c",
+                "text": "—Me gusta la música. —A mí prefiero."
+              },
+              {
+                "id": "d",
+                "text": "—Me gusta la música. —A mí encanta."
+              },
+              {
+                "id": "b",
+                "text": "—Me gusta la música. —A mí también."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-tiempo-libre-grammar-grammar-q5",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «A mí prefiero el cine. (me gusta mucho)»?",
+            "options": [
+              {
+                "id": "a",
+                "text": "A mí me encanta el cine. (me gusta mucho)"
+              },
+              {
+                "id": "b",
+                "text": "A mí prefiero el cine. (me gusta mucho)"
+              },
+              {
+                "id": "c",
+                "text": "A mí tampoco el cine. (me gusta mucho)"
+              },
+              {
+                "id": "d",
+                "text": "A mí también el cine. (me gusta mucho)"
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-tiempo-libre-grammar-grammar-q6",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «Yo encanto una comedia, no una película de terror.»?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Yo encanto una comedia, no una película de terror."
+              },
+              {
+                "id": "b",
+                "text": "Yo prefiero una comedia, no una película de terror."
+              },
+              {
+                "id": "c",
+                "text": "Yo tampoco una comedia, no una película de terror."
+              },
+              {
+                "id": "d",
+                "text": "Yo también una comedia, no una película de terror."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-tiempo-libre-grammar-grammar-q7",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «—No me gusta el fútbol. —A mí también.»?",
+            "options": [
+              {
+                "id": "a",
+                "text": "—No me gusta el fútbol. —A mí también."
+              },
+              {
+                "id": "c",
+                "text": "—No me gusta el fútbol. —A mí prefiero."
+              },
+              {
+                "id": "b",
+                "text": "—No me gusta el fútbol. —A mí tampoco."
+              },
+              {
+                "id": "d",
+                "text": "—No me gusta el fútbol. —A mí encanta."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-tiempo-libre-grammar-grammar-q8",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «—Me gusta la música. —A mí tampoco.»?",
+            "options": [
+              {
+                "id": "a",
+                "text": "—Me gusta la música. —A mí tampoco."
+              },
+              {
+                "id": "c",
+                "text": "—Me gusta la música. —A mí prefiero."
+              },
+              {
+                "id": "d",
+                "text": "—Me gusta la música. —A mí encanta."
+              },
+              {
+                "id": "b",
+                "text": "—Me gusta la música. —A mí también."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Encantar, preferir y también/tampoco",
+        "definition": "\"Encantar\" es más fuerte que \"gustar\": me encanta el cine (me gusta mucho). \"Preferir\" compara dos opciones: prefiero una comedia (no una película de acción). Usamos \"también\" para afirmaciones (A mí también) y \"tampoco\" para negaciones (A mí tampoco). Error frecuente: usar \"también\" después de una negación (decir \"A mí también no me gusta\" en vez de \"A mí tampoco me gusta\").",
+        "structure": "Forma que se debe observar: Encantar, preferir y también/tampoco. Compara el tiempo, los conectores, los pronombres y el orden de palabras de los ejemplos.",
+        "function": "Aprende a expresar preferencias fuertes y a usar también/tampoco.",
+        "examples": [
+          "A mí me encanta el cine. (me gusta mucho)",
+          "Yo prefiero una comedia, no una película de terror.",
+          "—No me gusta el fútbol. —A mí tampoco.",
+          "—Me gusta la música. —A mí también."
+        ]
+      },
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
@@ -49911,193 +52071,205 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-a2-tecnologia-cotidiana-grammar-test",
+        "id": "spanish-a2-tecnologia-cotidiana-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-a2-tecnologia-cotidiana-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente pronombres de complemento y secuenciadores?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "La propuesta incluye «pantalla»; este elemento cambia la decisión final."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "pantalla contraseña porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-a2-tecnologia-cotidiana-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa pronombres de complemento y secuenciadores para expresar una relación precisa: «La propuesta incluye «pantalla»; este elemento cambia la decisión final.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-a2-tecnologia-cotidiana-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente pronombres de complemento y secuenciadores?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "pantalla contraseña porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "El equipo revisó las recomendaciones y luego las incorporó al informe."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "El equipo revisó las recomendaciones y luego las incorporó al informe."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-a2-tecnologia-cotidiana-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa pronombres de complemento y secuenciadores para expresar una relación precisa: «El equipo revisó las recomendaciones y luego las incorporó al informe.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa pronombres de complemento y secuenciadores para expresar una relación precisa: «El equipo revisó las recomendaciones y luego las incorporó al informe.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-a2-tecnologia-cotidiana-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente pronombres de complemento y secuenciadores?",
             "options": [
               {
-                "id": "o1",
-                "text": "pantalla contraseña porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "Algunas personas aceptaron «contraseña»; otras, no."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "pantalla contraseña porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-a2-tecnologia-cotidiana-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa pronombres de complemento y secuenciadores para expresar una relación precisa: «Algunas personas aceptaron «contraseña»; otras, no.»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa pronombres de complemento y secuenciadores para expresar una relación precisa: «Algunas personas aceptaron «contraseña»; otras, no.»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-a2-tecnologia-cotidiana-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente pronombres de complemento y secuenciadores?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "pantalla contraseña porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "La primera medida aborda «archivo» y la segunda lo desarrolla con mayor detalle."
               },
               {
-                "id": "o4",
-                "text": "La primera medida aborda «archivo» y la segunda lo desarrolla con mayor detalle."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-a2-tecnologia-cotidiana-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa pronombres de complemento y secuenciadores para expresar una relación precisa: «La primera medida aborda «archivo» y la segunda lo desarrolla con mayor detalle.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa pronombres de complemento y secuenciadores para expresar una relación precisa: «La primera medida aborda «archivo» y la segunda lo desarrolla con mayor detalle.»"
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Gramática · pronombres de complemento y secuenciadores",
+        "definition": "Foco: pronombres de complemento y secuenciadores.",
+        "structure": "Forma que se debe observar: Gramática · pronombres de complemento y secuenciadores. Compara el tiempo, los conectores, los pronombres y el orden de palabras de los ejemplos.",
+        "function": "Aplica la forma gramatical dentro del tema «Tecnología cotidiana».",
+        "examples": [
+          "La propuesta incluye «pantalla»; este elemento cambia la decisión final.",
+          "Usa pronombres de complemento y secuenciadores para expresar una relación precisa: «La propuesta incluye «pantalla»; este elemento cambia la decisión final.»",
+          "El equipo revisó las recomendaciones y luego las incorporó al informe.",
+          "Usa pronombres de complemento y secuenciadores para expresar una relación precisa: «El equipo revisó las recomendaciones y luego las incorporó al informe.»"
         ]
       },
       "listeningComprehension": null
@@ -50219,190 +52391,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-b1-servicios-y-reclamaciones-grammar-test",
+        "id": "spanish-b1-servicios-y-reclamaciones-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-b1-servicios-y-reclamaciones-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente pronombres y fórmulas de cortesía?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "La propuesta incluye «avería»; este elemento cambia la decisión final."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "avería factura porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-b1-servicios-y-reclamaciones-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa pronombres y fórmulas de cortesía para expresar una relación precisa: «La propuesta incluye «avería»; este elemento cambia la decisión final.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-b1-servicios-y-reclamaciones-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente pronombres y fórmulas de cortesía?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "avería factura porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "El equipo revisó las recomendaciones y luego las incorporó al informe."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "El equipo revisó las recomendaciones y luego las incorporó al informe."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-b1-servicios-y-reclamaciones-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa pronombres y fórmulas de cortesía para expresar una relación precisa: «El equipo revisó las recomendaciones y luego las incorporó al informe.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa pronombres y fórmulas de cortesía para expresar una relación precisa: «El equipo revisó las recomendaciones y luego las incorporó al informe.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-b1-servicios-y-reclamaciones-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente pronombres y fórmulas de cortesía?",
             "options": [
               {
-                "id": "o1",
-                "text": "avería factura porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "Algunas personas aceptaron «factura»; otras, no."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "avería factura porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-b1-servicios-y-reclamaciones-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa pronombres y fórmulas de cortesía para expresar una relación precisa: «Algunas personas aceptaron «factura»; otras, no.»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa pronombres y fórmulas de cortesía para expresar una relación precisa: «Algunas personas aceptaron «factura»; otras, no.»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-b1-servicios-y-reclamaciones-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente pronombres y fórmulas de cortesía?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "avería factura porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "La primera medida aborda «garantía» y la segunda lo desarrolla con mayor detalle."
               },
               {
-                "id": "o4",
-                "text": "La primera medida aborda «garantía» y la segunda lo desarrolla con mayor detalle."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-b1-servicios-y-reclamaciones-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa pronombres y fórmulas de cortesía para expresar una relación precisa: «La primera medida aborda «garantía» y la segunda lo desarrolla con mayor detalle.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa pronombres y fórmulas de cortesía para expresar una relación precisa: «La primera medida aborda «garantía» y la segunda lo desarrolla con mayor detalle.»"
               }
             ]
           }
@@ -50543,190 +52715,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-b2-lenguaje-e-inclusion-grammar-test",
+        "id": "spanish-b2-lenguaje-e-inclusion-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-b2-lenguaje-e-inclusion-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente subjuntivo en opiniones negadas?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Es importante que la comunidad considere «registro» antes de decidir."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "registro inclusión porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-b2-lenguaje-e-inclusion-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa subjuntivo en opiniones negadas para expresar una relación precisa: «Es importante que la comunidad considere «registro» antes de decidir.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-b2-lenguaje-e-inclusion-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente subjuntivo en opiniones negadas?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "registro inclusión porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "No creo que «inclusión» deba analizarse sin contexto."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "No creo que «inclusión» deba analizarse sin contexto."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-b2-lenguaje-e-inclusion-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa subjuntivo en opiniones negadas para expresar una relación precisa: «No creo que «inclusión» deba analizarse sin contexto.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa subjuntivo en opiniones negadas para expresar una relación precisa: «No creo que «inclusión» deba analizarse sin contexto.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-b2-lenguaje-e-inclusion-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente subjuntivo en opiniones negadas?",
             "options": [
               {
-                "id": "o1",
-                "text": "registro inclusión porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La especialista recomienda que se revise «convención» con nueva evidencia."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "registro inclusión porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-b2-lenguaje-e-inclusion-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa subjuntivo en opiniones negadas para expresar una relación precisa: «La especialista recomienda que se revise «convención» con nueva evidencia.»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa subjuntivo en opiniones negadas para expresar una relación precisa: «La especialista recomienda que se revise «convención» con nueva evidencia.»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-b2-lenguaje-e-inclusion-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente subjuntivo en opiniones negadas?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "registro inclusión porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "Aunque la propuesta sea valiosa, conviene que el equipo evalúe sus límites."
               },
               {
-                "id": "o4",
-                "text": "Aunque la propuesta sea valiosa, conviene que el equipo evalúe sus límites."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-b2-lenguaje-e-inclusion-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa subjuntivo en opiniones negadas para expresar una relación precisa: «Aunque la propuesta sea valiosa, conviene que el equipo evalúe sus límites.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa subjuntivo en opiniones negadas para expresar una relación precisa: «Aunque la propuesta sea valiosa, conviene que el equipo evalúe sus límites.»"
               }
             ]
           }
@@ -50867,190 +53039,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-c1-politicas-publicas-grammar-test",
+        "id": "spanish-c1-politicas-publicas-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-c1-politicas-publicas-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente impersonales, pasivas y lenguaje técnico?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "En el artículo se analizan «vínculo» y «aislamiento» desde perspectivas distintas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "vínculo aislamiento porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-c1-politicas-publicas-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa impersonales, pasivas y lenguaje técnico para expresar una relación precisa: «En el artículo se analizan «vínculo» y «aislamiento» desde perspectivas distintas.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-c1-politicas-publicas-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente impersonales, pasivas y lenguaje técnico?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "vínculo aislamiento porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "La propuesta fue revisada por un equipo independiente."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "La propuesta fue revisada por un equipo independiente."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-c1-politicas-publicas-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa impersonales, pasivas y lenguaje técnico para expresar una relación precisa: «La propuesta fue revisada por un equipo independiente.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa impersonales, pasivas y lenguaje técnico para expresar una relación precisa: «La propuesta fue revisada por un equipo independiente.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-c1-politicas-publicas-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente impersonales, pasivas y lenguaje técnico?",
             "options": [
               {
-                "id": "o1",
-                "text": "vínculo aislamiento porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "Se necesitan datos comparables antes de generalizar «interacción»."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "vínculo aislamiento porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-c1-politicas-publicas-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa impersonales, pasivas y lenguaje técnico para expresar una relación precisa: «Se necesitan datos comparables antes de generalizar «interacción».»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa impersonales, pasivas y lenguaje técnico para expresar una relación precisa: «Se necesitan datos comparables antes de generalizar «interacción».»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-c1-politicas-publicas-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente impersonales, pasivas y lenguaje técnico?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "vínculo aislamiento porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "Los resultados se publicaron junto con sus limitaciones metodológicas."
               },
               {
-                "id": "o4",
-                "text": "Los resultados se publicaron junto con sus limitaciones metodológicas."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-c1-politicas-publicas-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa impersonales, pasivas y lenguaje técnico para expresar una relación precisa: «Los resultados se publicaron junto con sus limitaciones metodológicas.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa impersonales, pasivas y lenguaje técnico para expresar una relación precisa: «Los resultados se publicaron junto con sus limitaciones metodológicas.»"
               }
             ]
           }
@@ -51191,190 +53363,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-c2-ensayo-de-alta-exigencia-grammar-test",
+        "id": "spanish-c2-ensayo-de-alta-exigencia-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-c2-ensayo-de-alta-exigencia-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente progresión temática y cohesión global?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "La propuesta incluye «memoria»; este elemento cambia la decisión final."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "memoria emoción porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-c2-ensayo-de-alta-exigencia-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa progresión temática y cohesión global para expresar una relación precisa: «La propuesta incluye «memoria»; este elemento cambia la decisión final.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-c2-ensayo-de-alta-exigencia-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente progresión temática y cohesión global?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "memoria emoción porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "El equipo revisó las recomendaciones y luego las incorporó al informe."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "El equipo revisó las recomendaciones y luego las incorporó al informe."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-c2-ensayo-de-alta-exigencia-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa progresión temática y cohesión global para expresar una relación precisa: «El equipo revisó las recomendaciones y luego las incorporó al informe.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa progresión temática y cohesión global para expresar una relación precisa: «El equipo revisó las recomendaciones y luego las incorporó al informe.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-c2-ensayo-de-alta-exigencia-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente progresión temática y cohesión global?",
             "options": [
               {
-                "id": "o1",
-                "text": "memoria emoción porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "Algunas personas aceptaron «emoción»; otras, no."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "memoria emoción porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-c2-ensayo-de-alta-exigencia-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa progresión temática y cohesión global para expresar una relación precisa: «Algunas personas aceptaron «emoción»; otras, no.»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa progresión temática y cohesión global para expresar una relación precisa: «Algunas personas aceptaron «emoción»; otras, no.»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-c2-ensayo-de-alta-exigencia-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente progresión temática y cohesión global?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "memoria emoción porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "La primera medida aborda «recuerdo» y la segunda lo desarrolla con mayor detalle."
               },
               {
-                "id": "o4",
-                "text": "La primera medida aborda «recuerdo» y la segunda lo desarrolla con mayor detalle."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-c2-ensayo-de-alta-exigencia-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa progresión temática y cohesión global para expresar una relación precisa: «La primera medida aborda «recuerdo» y la segunda lo desarrolla con mayor detalle.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa progresión temática y cohesión global para expresar una relación precisa: «La primera medida aborda «recuerdo» y la segunda lo desarrolla con mayor detalle.»"
               }
             ]
           }
@@ -51514,7 +53686,211 @@
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarTest": {
+        "id": "spanish-a1-salud-y-bienestar-a1-grammar-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "spanish-a1-salud-y-bienestar-a1-grammar-grammar-q1",
+            "type": "mcq",
+            "prompt": "Me ___ la cabeza.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Me duele la cabeza."
+              },
+              {
+                "id": "b",
+                "text": "Me duelen la cabeza."
+              },
+              {
+                "id": "c",
+                "text": "Me dueles la cabeza."
+              },
+              {
+                "id": "d",
+                "text": "Me duelo la cabeza."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-salud-y-bienestar-a1-grammar-grammar-q2",
+            "type": "mcq",
+            "prompt": "Me ___ los pies.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Me duele los pies."
+              },
+              {
+                "id": "b",
+                "text": "Me duelen los pies."
+              },
+              {
+                "id": "c",
+                "text": "Me dueles los pies."
+              },
+              {
+                "id": "d",
+                "text": "Me duelo los pies."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-salud-y-bienestar-a1-grammar-grammar-q3",
+            "type": "mcq",
+            "prompt": "Yo ___ fiebre hoy.",
+            "options": [
+              {
+                "id": "b",
+                "text": "Yo soy fiebre hoy."
+              },
+              {
+                "id": "c",
+                "text": "Yo estoy fiebre hoy."
+              },
+              {
+                "id": "a",
+                "text": "Yo tengo fiebre hoy."
+              },
+              {
+                "id": "d",
+                "text": "Yo duelo fiebre hoy."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-salud-y-bienestar-a1-grammar-grammar-q4",
+            "type": "mcq",
+            "prompt": "Yo ___ muy cansado/a.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Yo tengo muy cansado/a."
+              },
+              {
+                "id": "b",
+                "text": "Yo soy muy cansado/a."
+              },
+              {
+                "id": "d",
+                "text": "Yo duelo muy cansado/a."
+              },
+              {
+                "id": "c",
+                "text": "Yo estoy muy cansado/a."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-salud-y-bienestar-a1-grammar-grammar-q5",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «Me duelen la cabeza.»?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Me duele la cabeza."
+              },
+              {
+                "id": "b",
+                "text": "Me duelen la cabeza."
+              },
+              {
+                "id": "c",
+                "text": "Me dueles la cabeza."
+              },
+              {
+                "id": "d",
+                "text": "Me duelo la cabeza."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-salud-y-bienestar-a1-grammar-grammar-q6",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «Me duele los pies.»?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Me duele los pies."
+              },
+              {
+                "id": "b",
+                "text": "Me duelen los pies."
+              },
+              {
+                "id": "c",
+                "text": "Me dueles los pies."
+              },
+              {
+                "id": "d",
+                "text": "Me duelo los pies."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-salud-y-bienestar-a1-grammar-grammar-q7",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «Yo soy fiebre hoy.»?",
+            "options": [
+              {
+                "id": "b",
+                "text": "Yo soy fiebre hoy."
+              },
+              {
+                "id": "c",
+                "text": "Yo estoy fiebre hoy."
+              },
+              {
+                "id": "a",
+                "text": "Yo tengo fiebre hoy."
+              },
+              {
+                "id": "d",
+                "text": "Yo duelo fiebre hoy."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-salud-y-bienestar-a1-grammar-grammar-q8",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «Yo tengo muy cansado/a.»?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Yo tengo muy cansado/a."
+              },
+              {
+                "id": "b",
+                "text": "Yo soy muy cansado/a."
+              },
+              {
+                "id": "d",
+                "text": "Yo duelo muy cansado/a."
+              },
+              {
+                "id": "c",
+                "text": "Yo estoy muy cansado/a."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Me duele / me duelen",
+        "definition": "\"Doler\" funciona como \"gustar\": me duele la cabeza (singular), me duelen los pies (plural). Usamos \"tener\" con algunos síntomas: tengo fiebre, tengo tos. Usamos \"estar\" para estados: estoy cansado/a. Error frecuente: decir \"me duele los pies\" en vez de \"me duelen los pies\" (debe concordar en número con lo que duele).",
+        "structure": "Forma que se debe observar: Me duele / me duelen. Compara el tiempo, los conectores, los pronombres y el orden de palabras de los ejemplos.",
+        "function": "Distingue «me duele», «me duelen», «tengo» y «estoy».",
+        "examples": [
+          "Me duele la cabeza.",
+          "Me duelen los pies.",
+          "Yo tengo fiebre hoy.",
+          "Yo estoy muy cansado/a."
+        ]
+      },
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
@@ -54620,193 +56996,205 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-a2-planes-y-proyectos-grammar-test",
+        "id": "spanish-a2-planes-y-proyectos-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-a2-planes-y-proyectos-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente futuro próximo y expresiones de acuerdo?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "La propuesta permitirá revisar «propuesta» y anticipar sus consecuencias."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "propuesta tarea porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-a2-planes-y-proyectos-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa futuro próximo y expresiones de acuerdo para expresar una relación precisa: «La propuesta permitirá revisar «propuesta» y anticipar sus consecuencias.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-a2-planes-y-proyectos-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente futuro próximo y expresiones de acuerdo?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "propuesta tarea porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "Para el próximo informe, el equipo habrá evaluado «tarea»."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "Para el próximo informe, el equipo habrá evaluado «tarea»."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-a2-planes-y-proyectos-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa futuro próximo y expresiones de acuerdo para expresar una relación precisa: «Para el próximo informe, el equipo habrá evaluado «tarea».»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa futuro próximo y expresiones de acuerdo para expresar una relación precisa: «Para el próximo informe, el equipo habrá evaluado «tarea».»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-a2-planes-y-proyectos-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente futuro próximo y expresiones de acuerdo?",
             "options": [
               {
-                "id": "o1",
-                "text": "propuesta tarea porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "Probablemente «equipo» influirá en la decisión final."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "propuesta tarea porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-a2-planes-y-proyectos-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa futuro próximo y expresiones de acuerdo para expresar una relación precisa: «Probablemente «equipo» influirá en la decisión final.»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa futuro próximo y expresiones de acuerdo para expresar una relación precisa: «Probablemente «equipo» influirá en la decisión final.»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-a2-planes-y-proyectos-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente futuro próximo y expresiones de acuerdo?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "propuesta tarea porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "Dentro de un año se estarán comparando los primeros resultados."
               },
               {
-                "id": "o4",
-                "text": "Dentro de un año se estarán comparando los primeros resultados."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-a2-planes-y-proyectos-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa futuro próximo y expresiones de acuerdo para expresar una relación precisa: «Dentro de un año se estarán comparando los primeros resultados.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa futuro próximo y expresiones de acuerdo para expresar una relación precisa: «Dentro de un año se estarán comparando los primeros resultados.»"
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Gramática · futuro próximo y expresiones de acuerdo",
+        "definition": "Foco: futuro próximo y expresiones de acuerdo.",
+        "structure": "Forma que se debe observar: Gramática · futuro próximo y expresiones de acuerdo. Compara el tiempo, los conectores, los pronombres y el orden de palabras de los ejemplos.",
+        "function": "Aplica la forma gramatical dentro del tema «Planes y proyectos».",
+        "examples": [
+          "La propuesta permitirá revisar «propuesta» y anticipar sus consecuencias.",
+          "Usa futuro próximo y expresiones de acuerdo para expresar una relación precisa: «La propuesta permitirá revisar «propuesta» y anticipar sus consecuencias.»",
+          "Para el próximo informe, el equipo habrá evaluado «tarea».",
+          "Usa futuro próximo y expresiones de acuerdo para expresar una relación precisa: «Para el próximo informe, el equipo habrá evaluado «tarea».»"
         ]
       },
       "listeningComprehension": null
@@ -54928,190 +57316,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-b1-proyecto-comunitario-grammar-test",
+        "id": "spanish-b1-proyecto-comunitario-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-b1-proyecto-comunitario-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente conectores de finalidad y contraste?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Aunque «iniciativa» aporta beneficios, sus efectos no se distribuyen por igual."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "iniciativa voluntariado porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-b1-proyecto-comunitario-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa conectores de finalidad y contraste para expresar una relación precisa: «Aunque «iniciativa» aporta beneficios, sus efectos no se distribuyen por igual.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-b1-proyecto-comunitario-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente conectores de finalidad y contraste?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "iniciativa voluntariado porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "Pese a la evidencia sobre «voluntariado», la conclusión debe seguir siendo provisional."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "Pese a la evidencia sobre «voluntariado», la conclusión debe seguir siendo provisional."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-b1-proyecto-comunitario-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa conectores de finalidad y contraste para expresar una relación precisa: «Pese a la evidencia sobre «voluntariado», la conclusión debe seguir siendo provisional.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa conectores de finalidad y contraste para expresar una relación precisa: «Pese a la evidencia sobre «voluntariado», la conclusión debe seguir siendo provisional.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-b1-proyecto-comunitario-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente conectores de finalidad y contraste?",
             "options": [
               {
-                "id": "o1",
-                "text": "iniciativa voluntariado porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "Aun cuando «presupuesto» mejore, persistirán algunas limitaciones."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "iniciativa voluntariado porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-b1-proyecto-comunitario-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa conectores de finalidad y contraste para expresar una relación precisa: «Aun cuando «presupuesto» mejore, persistirán algunas limitaciones.»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa conectores de finalidad y contraste para expresar una relación precisa: «Aun cuando «presupuesto» mejore, persistirán algunas limitaciones.»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-b1-proyecto-comunitario-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente conectores de finalidad y contraste?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "iniciativa voluntariado porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "La propuesta es viable; sin embargo, requiere controles independientes."
               },
               {
-                "id": "o4",
-                "text": "La propuesta es viable; sin embargo, requiere controles independientes."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-b1-proyecto-comunitario-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa conectores de finalidad y contraste para expresar una relación precisa: «La propuesta es viable; sin embargo, requiere controles independientes.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa conectores de finalidad y contraste para expresar una relación precisa: «La propuesta es viable; sin embargo, requiere controles independientes.»"
               }
             ]
           }
@@ -55252,190 +57640,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-b2-foro-de-propuestas-grammar-test",
+        "id": "spanish-b2-foro-de-propuestas-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-b2-foro-de-propuestas-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente marcadores discursivos complejos?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Aunque «planteamiento» parece una decisión individual, conviene considerar «evidencia» y «objeción»."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "planteamiento evidencia porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-b2-foro-de-propuestas-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa marcadores discursivos complejos para expresar una relación precisa: «Aunque «planteamiento» parece una decisión individual, conviene considerar «evidencia» y «objeción».»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-b2-foro-de-propuestas-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente marcadores discursivos complejos?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "planteamiento evidencia porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "La evidencia permite interpretar «planteamiento» antes de formular una conclusión."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "La evidencia permite interpretar «planteamiento» antes de formular una conclusión."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-b2-foro-de-propuestas-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa marcadores discursivos complejos para expresar una relación precisa: «La evidencia permite interpretar «planteamiento» antes de formular una conclusión.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa marcadores discursivos complejos para expresar una relación precisa: «La evidencia permite interpretar «planteamiento» antes de formular una conclusión.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-b2-foro-de-propuestas-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente marcadores discursivos complejos?",
             "options": [
               {
-                "id": "o1",
-                "text": "planteamiento evidencia porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "Conviene distinguir «evidencia» de «objeción» para evitar una ambigüedad."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "planteamiento evidencia porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-b2-foro-de-propuestas-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa marcadores discursivos complejos para expresar una relación precisa: «Conviene distinguir «evidencia» de «objeción» para evitar una ambigüedad.»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa marcadores discursivos complejos para expresar una relación precisa: «Conviene distinguir «evidencia» de «objeción» para evitar una ambigüedad.»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-b2-foro-de-propuestas-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente marcadores discursivos complejos?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "planteamiento evidencia porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "La conclusión es provisional porque todavía faltan datos comparables."
               },
               {
-                "id": "o4",
-                "text": "La conclusión es provisional porque todavía faltan datos comparables."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-b2-foro-de-propuestas-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa marcadores discursivos complejos para expresar una relación precisa: «La conclusión es provisional porque todavía faltan datos comparables.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa marcadores discursivos complejos para expresar una relación precisa: «La conclusión es provisional porque todavía faltan datos comparables.»"
               }
             ]
           }
@@ -55576,190 +57964,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-c1-coloquio-academico-grammar-test",
+        "id": "spanish-c1-coloquio-academico-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-c1-coloquio-academico-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente conectores de reformulación y reserva?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "«constancia» aporta un beneficio; sin embargo, también plantea un riesgo."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "constancia memoria porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-c1-coloquio-academico-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa conectores de reformulación y reserva para expresar una relación precisa: ««constancia» aporta un beneficio; sin embargo, también plantea un riesgo.»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-c1-coloquio-academico-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente conectores de reformulación y reserva?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "constancia memoria porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "La evidencia es limitada; por consiguiente, la conclusión debe matizarse."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "La evidencia es limitada; por consiguiente, la conclusión debe matizarse."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-c1-coloquio-academico-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa conectores de reformulación y reserva para expresar una relación precisa: «La evidencia es limitada; por consiguiente, la conclusión debe matizarse.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa conectores de reformulación y reserva para expresar una relación precisa: «La evidencia es limitada; por consiguiente, la conclusión debe matizarse.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-c1-coloquio-academico-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente conectores de reformulación y reserva?",
             "options": [
               {
-                "id": "o1",
-                "text": "constancia memoria porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "Dicho de otro modo, «memoria» modifica el alcance de la propuesta."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "constancia memoria porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-c1-coloquio-academico-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa conectores de reformulación y reserva para expresar una relación precisa: «Dicho de otro modo, «memoria» modifica el alcance de la propuesta.»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa conectores de reformulación y reserva para expresar una relación precisa: «Dicho de otro modo, «memoria» modifica el alcance de la propuesta.»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-c1-coloquio-academico-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente conectores de reformulación y reserva?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "constancia memoria porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "El primer argumento presenta «fluidez»; el segundo explica sus consecuencias."
               },
               {
-                "id": "o4",
-                "text": "El primer argumento presenta «fluidez»; el segundo explica sus consecuencias."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-c1-coloquio-academico-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa conectores de reformulación y reserva para expresar una relación precisa: «El primer argumento presenta «fluidez»; el segundo explica sus consecuencias.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa conectores de reformulación y reserva para expresar una relación precisa: «El primer argumento presenta «fluidez»; el segundo explica sus consecuencias.»"
               }
             ]
           }
@@ -55900,190 +58288,190 @@
     "transcript": "",
     "extra": {
       "grammarTest": {
-        "id": "spanish-c2-defensa-y-sintesis-grammar-test",
+        "id": "spanish-c2-defensa-y-sintesis-grammar-grammar-test",
         "passingScore": 70,
         "questions": [
           {
-            "id": "g1",
+            "id": "spanish-c2-defensa-y-sintesis-grammar-grammar-q1",
             "type": "mcq",
             "prompt": "Aplicación 1: ¿qué oración emplea correctamente selección estratégica de todos los recursos C2?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Aunque «idea» parece una decisión individual, conviene considerar «prototipo» y «escala»."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "idea prototipo porque sin revisar."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g2",
+            "id": "spanish-c2-defensa-y-sintesis-grammar-grammar-q2",
             "type": "mcq",
             "prompt": "Análisis 1: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Usa selección estratégica de todos los recursos C2 para expresar una relación precisa: «Aunque «idea» parece una decisión individual, conviene considerar «prototipo» y «escala».»"
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
               }
             ]
           },
           {
-            "id": "g3",
+            "id": "spanish-c2-defensa-y-sintesis-grammar-grammar-q3",
             "type": "mcq",
             "prompt": "Aplicación 2: ¿qué oración emplea correctamente selección estratégica de todos los recursos C2?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "idea prototipo porque sin revisar."
               },
               {
-                "id": "o2",
-                "text": "La evidencia permite interpretar «idea» antes de formular una conclusión."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o4",
+                "id": "b",
+                "text": "La evidencia permite interpretar «idea» antes de formular una conclusión."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g4",
+            "id": "spanish-c2-defensa-y-sintesis-grammar-grammar-q4",
             "type": "mcq",
             "prompt": "Análisis 2: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
-                "text": "Usa selección estratégica de todos los recursos C2 para expresar una relación precisa: «La evidencia permite interpretar «idea» antes de formular una conclusión.»"
+                "id": "d",
+                "text": "Repite vocabulario sin construir una oración completa."
               },
               {
-                "id": "o4",
-                "text": "Repite vocabulario sin construir una oración completa."
+                "id": "c",
+                "text": "Usa selección estratégica de todos los recursos C2 para expresar una relación precisa: «La evidencia permite interpretar «idea» antes de formular una conclusión.»"
               }
             ]
           },
           {
-            "id": "g5",
+            "id": "spanish-c2-defensa-y-sintesis-grammar-grammar-q5",
             "type": "mcq",
             "prompt": "Aplicación 3: ¿qué oración emplea correctamente selección estratégica de todos los recursos C2?",
             "options": [
               {
-                "id": "o1",
-                "text": "idea prototipo porque sin revisar."
-              },
-              {
-                "id": "o2",
-                "text": "La evidencia siendo concluir definitivamente todo."
-              },
-              {
-                "id": "o3",
+                "id": "c",
                 "text": "Conviene distinguir «prototipo» de «escala» para evitar una ambigüedad."
               },
               {
-                "id": "o4",
+                "id": "a",
+                "text": "idea prototipo porque sin revisar."
+              },
+              {
+                "id": "b",
+                "text": "La evidencia siendo concluir definitivamente todo."
+              },
+              {
+                "id": "d",
                 "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g6",
+            "id": "spanish-c2-defensa-y-sintesis-grammar-grammar-q6",
             "type": "mcq",
             "prompt": "Análisis 3: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o2",
+                "id": "d",
+                "text": "Usa selección estratégica de todos los recursos C2 para expresar una relación precisa: «Conviene distinguir «prototipo» de «escala» para evitar una ambigüedad.»"
+              },
+              {
+                "id": "b",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Repite vocabulario sin construir una oración completa."
-              },
-              {
-                "id": "o4",
-                "text": "Usa selección estratégica de todos los recursos C2 para expresar una relación precisa: «Conviene distinguir «prototipo» de «escala» para evitar una ambigüedad.»"
               }
             ]
           },
           {
-            "id": "g7",
+            "id": "spanish-c2-defensa-y-sintesis-grammar-grammar-q7",
             "type": "mcq",
             "prompt": "Aplicación 4: ¿qué oración emplea correctamente selección estratégica de todos los recursos C2?",
             "options": [
               {
-                "id": "o1",
+                "id": "a",
                 "text": "idea prototipo porque sin revisar."
               },
               {
-                "id": "o2",
+                "id": "b",
                 "text": "La evidencia siendo concluir definitivamente todo."
               },
               {
-                "id": "o3",
-                "text": "Aunque el tema explicar, entonces el resultado."
+                "id": "d",
+                "text": "La conclusión es provisional porque todavía faltan datos comparables."
               },
               {
-                "id": "o4",
-                "text": "La conclusión es provisional porque todavía faltan datos comparables."
+                "id": "c",
+                "text": "Aunque el tema explicar, entonces el resultado."
               }
             ]
           },
           {
-            "id": "g8",
+            "id": "spanish-c2-defensa-y-sintesis-grammar-grammar-q8",
             "type": "mcq",
             "prompt": "Análisis 4: ¿por qué funciona este ejemplo dentro de la unidad?",
             "options": [
               {
-                "id": "o1",
-                "text": "Usa selección estratégica de todos los recursos C2 para expresar una relación precisa: «La conclusión es provisional porque todavía faltan datos comparables.»"
-              },
-              {
-                "id": "o2",
+                "id": "b",
                 "text": "Elimina la relación entre las ideas."
               },
               {
-                "id": "o3",
+                "id": "c",
                 "text": "Convierte cualquier posibilidad en una certeza."
               },
               {
-                "id": "o4",
+                "id": "d",
                 "text": "Repite vocabulario sin construir una oración completa."
+              },
+              {
+                "id": "a",
+                "text": "Usa selección estratégica de todos los recursos C2 para expresar una relación precisa: «La conclusión es provisional porque todavía faltan datos comparables.»"
               }
             ]
           }
@@ -56223,7 +58611,211 @@
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarTest": {
+        "id": "spanish-a1-planes-y-repaso-grammar-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "spanish-a1-planes-y-repaso-grammar-grammar-q1",
+            "type": "mcq",
+            "prompt": "Yo ___ a viajar este verano.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Yo voy a viajar este verano."
+              },
+              {
+                "id": "b",
+                "text": "Yo vas a viajar este verano."
+              },
+              {
+                "id": "c",
+                "text": "Yo va a viajar este verano."
+              },
+              {
+                "id": "d",
+                "text": "Yo van a viajar este verano."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-planes-y-repaso-grammar-grammar-q2",
+            "type": "mcq",
+            "prompt": "Nosotros ___ a nadar el sábado.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Nosotros voy a nadar el sábado."
+              },
+              {
+                "id": "c",
+                "text": "Nosotros vamos a nadar el sábado."
+              },
+              {
+                "id": "b",
+                "text": "Nosotros va a nadar el sábado."
+              },
+              {
+                "id": "d",
+                "text": "Nosotros van a nadar el sábado."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-planes-y-repaso-grammar-grammar-q3",
+            "type": "mcq",
+            "prompt": "Mi cumpleaños es ___ quince de agosto.",
+            "options": [
+              {
+                "id": "b",
+                "text": "Mi cumpleaños es la quince de agosto."
+              },
+              {
+                "id": "c",
+                "text": "Mi cumpleaños es en quince de agosto."
+              },
+              {
+                "id": "a",
+                "text": "Mi cumpleaños es el quince de agosto."
+              },
+              {
+                "id": "d",
+                "text": "Mi cumpleaños es a quince de agosto."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-planes-y-repaso-grammar-grammar-q4",
+            "type": "mcq",
+            "prompt": "¿Qué ___ a hacer este fin de semana?",
+            "options": [
+              {
+                "id": "b",
+                "text": "¿Qué va a hacer este fin de semana?"
+              },
+              {
+                "id": "c",
+                "text": "¿Qué voy a hacer este fin de semana?"
+              },
+              {
+                "id": "d",
+                "text": "¿Qué van a hacer este fin de semana?"
+              },
+              {
+                "id": "a",
+                "text": "¿Qué vas a hacer este fin de semana?"
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-planes-y-repaso-grammar-grammar-q5",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «Yo vas a viajar este verano.»?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Yo voy a viajar este verano."
+              },
+              {
+                "id": "b",
+                "text": "Yo vas a viajar este verano."
+              },
+              {
+                "id": "c",
+                "text": "Yo va a viajar este verano."
+              },
+              {
+                "id": "d",
+                "text": "Yo van a viajar este verano."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-planes-y-repaso-grammar-grammar-q6",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «Nosotros voy a nadar el sábado.»?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Nosotros voy a nadar el sábado."
+              },
+              {
+                "id": "c",
+                "text": "Nosotros vamos a nadar el sábado."
+              },
+              {
+                "id": "b",
+                "text": "Nosotros va a nadar el sábado."
+              },
+              {
+                "id": "d",
+                "text": "Nosotros van a nadar el sábado."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-planes-y-repaso-grammar-grammar-q7",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «Mi cumpleaños es la quince de agosto.»?",
+            "options": [
+              {
+                "id": "b",
+                "text": "Mi cumpleaños es la quince de agosto."
+              },
+              {
+                "id": "c",
+                "text": "Mi cumpleaños es en quince de agosto."
+              },
+              {
+                "id": "a",
+                "text": "Mi cumpleaños es el quince de agosto."
+              },
+              {
+                "id": "d",
+                "text": "Mi cumpleaños es a quince de agosto."
+              }
+            ]
+          },
+          {
+            "id": "spanish-a1-planes-y-repaso-grammar-grammar-q8",
+            "type": "mcq",
+            "prompt": "¿Qué opción corrige completamente el ejemplo «¿Qué va a hacer este fin de semana?»?",
+            "options": [
+              {
+                "id": "b",
+                "text": "¿Qué va a hacer este fin de semana?"
+              },
+              {
+                "id": "c",
+                "text": "¿Qué voy a hacer este fin de semana?"
+              },
+              {
+                "id": "d",
+                "text": "¿Qué van a hacer este fin de semana?"
+              },
+              {
+                "id": "a",
+                "text": "¿Qué vas a hacer este fin de semana?"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Ir a + infinitivo y repaso de A1",
+        "definition": "Usamos \"ir a + infinitivo\" para hablar de planes cercanos: voy a viajar, vamos a nadar. Para fechas usamos \"el + número + de + mes\": el quince de agosto. Este es un repaso final de A1: ser/estar, tener, presente regular, gustar/encantar, hay/estar, y ahora ir a + infinitivo para el futuro. Error frecuente: usar el presente simple para hablar de planes futuros específicos (decir \"viajo mañana a la playa\" en vez de \"voy a viajar mañana a la playa\" cuando se quiere enfatizar el plan).",
+        "structure": "Forma que se debe observar: Ir a + infinitivo y repaso de A1. Compara el tiempo, los conectores, los pronombres y el orden de palabras de los ejemplos.",
+        "function": "Aprende a hablar del futuro cercano y repasa el presente.",
+        "examples": [
+          "Yo voy a viajar este verano.",
+          "Nosotros vamos a nadar el sábado.",
+          "Mi cumpleaños es el quince de agosto.",
+          "¿Qué vas a hacer este fin de semana?"
+        ]
+      },
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",

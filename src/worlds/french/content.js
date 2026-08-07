@@ -3340,12 +3340,12 @@
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
-                "id": "b",
-                "text": "Pour marquée qu’elle soit, la différence moyenne ne détermine pas le potentiel d’un apprenant."
-              },
-              {
                 "id": "c",
                 "text": "Parce que la question complexe, alors le résultat forcément."
+              },
+              {
+                "id": "b",
+                "text": "Pour marquée qu’elle soit, la différence moyenne ne détermine pas le potentiel d’un apprenant."
               },
               {
                 "id": "d",
@@ -3368,12 +3368,12 @@
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
-                "id": "c",
-                "text": "Elle emploie la concession stratifiée et la contre-attente afin de accorder une part de validité à une objection sans abandonner une conclusion délimitée : « Pour marquée qu’elle soit, la différence moyenne ne détermine pas le potentiel d’un apprenant. »"
-              },
-              {
                 "id": "d",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
+              },
+              {
+                "id": "c",
+                "text": "Elle emploie la concession stratifiée et la contre-attente afin de accorder une part de validité à une objection sans abandonner une conclusion délimitée : « Pour marquée qu’elle soit, la différence moyenne ne détermine pas le potentiel d’un apprenant. »"
               }
             ]
           },
@@ -3384,16 +3384,16 @@
             "difficulty": "analysis",
             "options": [
               {
+                "id": "c",
+                "text": "Tout en reconnaissant un effet de l’âge, l’étude refuse d’en faire une échéance biologique absolue."
+              },
+              {
                 "id": "a",
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
                 "id": "b",
                 "text": "Parce que la question complexe, alors le résultat forcément."
-              },
-              {
-                "id": "c",
-                "text": "Tout en reconnaissant un effet de l’âge, l’étude refuse d’en faire une échéance biologique absolue."
               },
               {
                 "id": "d",
@@ -3412,16 +3412,16 @@
                 "text": "Elle remplace les preuves par une affirmation absolue."
               },
               {
+                "id": "d",
+                "text": "Elle emploie la concession stratifiée et la contre-attente afin de accorder une part de validité à une objection sans abandonner une conclusion délimitée : « Tout en reconnaissant un effet de l’âge, l’étude refuse d’en faire une échéance biologique absolue. »"
+              },
+              {
                 "id": "b",
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
                 "id": "c",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
-              },
-              {
-                "id": "d",
-                "text": "Elle emploie la concession stratifiée et la contre-attente afin de accorder une part de validité à une objection sans abandonner une conclusion délimitée : « Tout en reconnaissant un effet de l’âge, l’étude refuse d’en faire une échéance biologique absolue. »"
               }
             ]
           },
@@ -3440,12 +3440,12 @@
                 "text": "Parce que la question complexe, alors le résultat forcément."
               },
               {
-                "id": "c",
-                "text": "La thèse est étant vraie par les mots qui ont utilisé."
-              },
-              {
                 "id": "d",
                 "text": "Les plus jeunes obtiennent certes un avantage moyen ; encore faut-il ne pas confondre tendance collective et destin individuel."
+              },
+              {
+                "id": "c",
+                "text": "La thèse est étant vraie par les mots qui ont utilisé."
               }
             ]
           },
@@ -3455,10 +3455,6 @@
             "prompt": "Pourquoi l’exemple 4 convient-il à cette unité ?",
             "difficulty": "precision",
             "options": [
-              {
-                "id": "a",
-                "text": "Elle emploie la concession stratifiée et la contre-attente afin de accorder une part de validité à une objection sans abandonner une conclusion délimitée : « Les plus jeunes obtiennent certes un avantage moyen ; encore faut-il ne pas confondre tendance collective et destin individuel. »"
-              },
               {
                 "id": "b",
                 "text": "Elle remplace les preuves par une affirmation absolue."
@@ -3470,6 +3466,10 @@
               {
                 "id": "d",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
+              },
+              {
+                "id": "a",
+                "text": "Elle emploie la concession stratifiée et la contre-attente afin de accorder une part de validité à une objection sans abandonner une conclusion délimitée : « Les plus jeunes obtiennent certes un avantage moyen ; encore faut-il ne pas confondre tendance collective et destin individuel. »"
               }
             ]
           }
@@ -3621,12 +3621,12 @@
             "difficulty": "application",
             "options": [
               {
-                "id": "a",
-                "text": "a"
-              },
-              {
                 "id": "b",
                 "text": "avait"
+              },
+              {
+                "id": "a",
+                "text": "a"
               },
               {
                 "id": "c",
@@ -3645,12 +3645,12 @@
             "difficulty": "application",
             "options": [
               {
-                "id": "a",
-                "text": "était partie"
-              },
-              {
                 "id": "b",
                 "text": "est partie"
+              },
+              {
+                "id": "a",
+                "text": "était partie"
               },
               {
                 "id": "c",
@@ -3673,12 +3673,12 @@
                 "text": "a"
               },
               {
-                "id": "b",
-                "text": "avait"
-              },
-              {
                 "id": "c",
                 "text": "ait"
+              },
+              {
+                "id": "b",
+                "text": "avait"
               },
               {
                 "id": "d",
@@ -3697,16 +3697,16 @@
                 "text": "Avoir/être au présent + participe passé"
               },
               {
-                "id": "b",
-                "text": "Avoir/être à l’imparfait + participe passé"
-              },
-              {
                 "id": "c",
                 "text": "Avoir au futur + infinitif"
               },
               {
                 "id": "d",
                 "text": "Être au conditionnel + gérondif"
+              },
+              {
+                "id": "b",
+                "text": "Avoir/être à l’imparfait + participe passé"
               }
             ]
           },
@@ -3717,12 +3717,12 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Camila a presque oublié la chaleur de Saint-Domingue."
-              },
-              {
                 "id": "b",
                 "text": "Camila avait presque oublié la chaleur de Saint-Domingue."
+              },
+              {
+                "id": "a",
+                "text": "Camila a presque oublié la chaleur de Saint-Domingue."
               },
               {
                 "id": "c",
@@ -3741,12 +3741,12 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Elle était partie un an plus tôt, pleine d’appréhension."
-              },
-              {
                 "id": "b",
                 "text": "Elle est partie un an plus tôt, pleine d’appréhension."
+              },
+              {
+                "id": "a",
+                "text": "Elle était partie un an plus tôt, pleine d’appréhension."
               },
               {
                 "id": "c",
@@ -3769,12 +3769,12 @@
                 "text": "Camila n’a pas anticipé que le retour serait difficile."
               },
               {
-                "id": "b",
-                "text": "Camila n’avait pas anticipé que le retour serait difficile."
-              },
-              {
                 "id": "c",
                 "text": "Camila n’ait pas anticipé que le retour serait difficile."
+              },
+              {
+                "id": "b",
+                "text": "Camila n’avait pas anticipé que le retour serait difficile."
               },
               {
                 "id": "d",
@@ -3793,16 +3793,16 @@
                 "text": "Avoir/être au présent + participe passé"
               },
               {
-                "id": "b",
-                "text": "Avoir/être à l’imparfait + participe passé"
-              },
-              {
                 "id": "c",
                 "text": "Avoir au futur + infinitif"
               },
               {
                 "id": "d",
                 "text": "Être au conditionnel + gérondif"
+              },
+              {
+                "id": "b",
+                "text": "Avoir/être à l’imparfait + participe passé"
               }
             ]
           }
@@ -4143,6 +4143,18 @@
           }
         ]
       },
+      "grammarProfile": {
+        "name": "Le verbe être et les pronoms sujets",
+        "definition": "Les pronoms sujets sont je, tu, il/elle, nous, vous, ils/elles. Le verbe être change selon le sujet : je suis, tu es, il/elle est, nous sommes, vous êtes, ils/elles sont. On utilise tu avec un ami ou un enfant, et vous avec un adulte ou pour être poli. Exemple : « Je suis Camila. Tu es Léa. Vous êtes Madame Dubois. »",
+        "structure": "Forme à observer : Le verbe être et les pronoms sujets. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Les pronoms sujets et le verbe être au présent, tu et vous.",
+        "examples": [
+          "Je suis dominicaine.",
+          "Tu es nouvelle à l'école.",
+          "Madame Dubois est la professeure.",
+          "Léa et Karim sont mes amis."
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
@@ -4277,12 +4289,12 @@
                 "text": "payes"
               },
               {
-                "id": "b",
-                "text": "as payé"
-              },
-              {
                 "id": "c",
                 "text": "paie"
+              },
+              {
+                "id": "b",
+                "text": "as payé"
               },
               {
                 "id": "d",
@@ -4297,10 +4309,6 @@
             "difficulty": "analysis",
             "options": [
               {
-                "id": "a",
-                "text": "fait"
-              },
-              {
                 "id": "b",
                 "text": "faisé"
               },
@@ -4311,6 +4319,10 @@
               {
                 "id": "d",
                 "text": "faire"
+              },
+              {
+                "id": "a",
+                "text": "fait"
               }
             ]
           },
@@ -4373,12 +4385,12 @@
                 "text": "Tu payes combien pour les tomates ?"
               },
               {
-                "id": "b",
-                "text": "Tu as payé combien pour les tomates ?"
-              },
-              {
                 "id": "c",
                 "text": "Tu paie combien pour les tomates ?"
+              },
+              {
+                "id": "b",
+                "text": "Tu as payé combien pour les tomates ?"
               },
               {
                 "id": "d",
@@ -4393,10 +4405,6 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "fait"
-              },
-              {
                 "id": "b",
                 "text": "faisé"
               },
@@ -4407,9 +4415,25 @@
               {
                 "id": "d",
                 "text": "faire"
+              },
+              {
+                "id": "a",
+                "text": "fait"
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Le passé composé avec avoir",
+        "definition": "Le passé composé se forme avec avoir au présent + le participe passé du verbe : acheter → acheté, choisir → choisi, faire → fait. Exemple : « J’ai acheté des fraises. Nous avons choisi un fromage. » On l’utilise pour parler d’une action ponctuelle et terminée dans le passé.",
+        "structure": "Forme à observer : Le passé composé avec avoir. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Former le passé composé pour raconter une action terminée.",
+        "examples": [
+          "Hier, j’ai acheté des fraises au marché.",
+          "Léa et Camila ont choisi un fromage de chèvre.",
+          "Tu as payé combien pour les tomates ?",
+          "fait"
         ]
       },
       "listeningComprehension": null
@@ -4494,12 +4518,12 @@
             "difficulty": "application",
             "options": [
               {
-                "id": "a",
-                "text": "améliore"
-              },
-              {
                 "id": "b",
                 "text": "améliorerai"
+              },
+              {
+                "id": "a",
+                "text": "améliore"
               },
               {
                 "id": "c",
@@ -4518,12 +4542,12 @@
             "difficulty": "application",
             "options": [
               {
-                "id": "a",
-                "text": "pars"
-              },
-              {
                 "id": "b",
                 "text": "partiras"
+              },
+              {
+                "id": "a",
+                "text": "pars"
               },
               {
                 "id": "c",
@@ -4546,12 +4570,12 @@
                 "text": "Si je serai riche, je voyagerai."
               },
               {
-                "id": "b",
-                "text": "Si je suis riche, je voyagerai."
-              },
-              {
                 "id": "c",
                 "text": "Si je suis riche, je voyage."
+              },
+              {
+                "id": "b",
+                "text": "Si je suis riche, je voyagerai."
               },
               {
                 "id": "d",
@@ -4566,10 +4590,6 @@
             "difficulty": "analysis",
             "options": [
               {
-                "id": "a",
-                "text": "viendront"
-              },
-              {
                 "id": "b",
                 "text": "viennent"
               },
@@ -4580,6 +4600,10 @@
               {
                 "id": "d",
                 "text": "sont venus"
+              },
+              {
+                "id": "a",
+                "text": "viendront"
               }
             ]
           },
@@ -4590,12 +4614,12 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Si je reste en France, je améliore mon français."
-              },
-              {
                 "id": "b",
                 "text": "Si je reste en France, je améliorerai mon français."
+              },
+              {
+                "id": "a",
+                "text": "Si je reste en France, je améliore mon français."
               },
               {
                 "id": "c",
@@ -4614,12 +4638,12 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Si tu pars, tu retrouveras ta famille."
-              },
-              {
                 "id": "b",
                 "text": "Si tu partiras, tu retrouveras ta famille."
+              },
+              {
+                "id": "a",
+                "text": "Si tu pars, tu retrouveras ta famille."
               },
               {
                 "id": "c",
@@ -4642,12 +4666,12 @@
                 "text": "Si je serai riche, je voyagerai."
               },
               {
-                "id": "b",
-                "text": "Si je suis riche, je voyagerai."
-              },
-              {
                 "id": "c",
                 "text": "Si je suis riche, je voyage."
+              },
+              {
+                "id": "b",
+                "text": "Si je suis riche, je voyagerai."
               },
               {
                 "id": "d",
@@ -4662,10 +4686,6 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Léa et Karim viendront visiter Camila un jour."
-              },
-              {
                 "id": "b",
                 "text": "Léa et Karim viennent visiter Camila un jour."
               },
@@ -4676,9 +4696,25 @@
               {
                 "id": "d",
                 "text": "Léa et Karim sont venus visiter Camila un jour."
+              },
+              {
+                "id": "a",
+                "text": "Léa et Karim viendront visiter Camila un jour."
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Le futur simple et l’hypothèse avec si + présent",
+        "definition": "Le futur simple se forme généralement à partir de l’infinitif + terminaisons -ai, -as, -a, -ons, -ez, -ont : je resterai, tu partiras, elle décidera. Pour exprimer une hypothèse probable, on utilise « si + présent, futur simple » : « Si je reste, je progresserai en français. » Le verbe après « si » reste toujours au présent, jamais au futur.",
+        "structure": "Forme à observer : Le futur simple et l’hypothèse avec si + présent. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Exprimer un projet futur et une conséquence probable.",
+        "examples": [
+          "Si je reste en France, je améliorerai mon français.",
+          "Si tu pars, tu retrouveras ta famille.",
+          "Si je suis riche, je voyagerai.",
+          "Léa et Karim viendront visiter Camila un jour."
         ]
       },
       "listeningComprehension": null
@@ -4763,12 +4799,12 @@
             "difficulty": "application",
             "options": [
               {
-                "id": "a",
-                "text": "Ça"
-              },
-              {
                 "id": "b",
                 "text": "C’est"
+              },
+              {
+                "id": "a",
+                "text": "Ça"
               },
               {
                 "id": "c",
@@ -4815,12 +4851,12 @@
                 "text": "a"
               },
               {
-                "id": "b",
-                "text": "ait"
-              },
-              {
                 "id": "c",
                 "text": "avait"
+              },
+              {
+                "id": "b",
+                "text": "ait"
               },
               {
                 "id": "d",
@@ -4839,16 +4875,16 @@
                 "text": "C’est... que"
               },
               {
-                "id": "b",
-                "text": "C’est... qui"
-              },
-              {
                 "id": "c",
                 "text": "C’est... dont"
               },
               {
                 "id": "d",
                 "text": "C’est... où"
+              },
+              {
+                "id": "b",
+                "text": "C’est... qui"
               }
             ]
           },
@@ -4859,12 +4895,12 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Ça cette liberté qui l’impressionne le plus."
-              },
-              {
                 "id": "b",
                 "text": "C’est cette liberté qui l’impressionne le plus."
+              },
+              {
+                "id": "a",
+                "text": "Ça cette liberté qui l’impressionne le plus."
               },
               {
                 "id": "c",
@@ -4911,12 +4947,12 @@
                 "text": "Il semble que cette expérience lui a énormément appris."
               },
               {
-                "id": "b",
-                "text": "Il semble que cette expérience lui ait énormément appris."
-              },
-              {
                 "id": "c",
                 "text": "Il semble que cette expérience lui avait énormément appris."
+              },
+              {
+                "id": "b",
+                "text": "Il semble que cette expérience lui ait énormément appris."
               },
               {
                 "id": "d",
@@ -4935,19 +4971,31 @@
                 "text": "C’est... que"
               },
               {
-                "id": "b",
-                "text": "C’est... qui"
-              },
-              {
                 "id": "c",
                 "text": "C’est... dont"
               },
               {
                 "id": "d",
                 "text": "C’est... où"
+              },
+              {
+                "id": "b",
+                "text": "C’est... qui"
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "La mise en relief (c’est... qui/que) et le subjonctif d’opinion nuancée",
+        "definition": "La mise en relief avec « c’est... qui » (pour un sujet) ou « c’est... que » (pour un complément) permet d’insister sur un élément précis de la phrase à l’écrit soutenu : « C’est cette différence d’échelle qui la déstabilise. » « C’est à elle qu’il revient d’organiser son parcours. » Après certains verbes d’opinion nuancée (il semble que, il se peut que, il n’est pas certain que), on utilise le subjonctif pour marquer un degré d’incertitude, même en registre soutenu.",
+        "structure": "Forme à observer : La mise en relief (c’est... qui/que) et le subjonctif d’opinion nuancée. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Mettre en valeur un élément de la phrase et exprimer une opinion nuancée avec le subjonctif.",
+        "examples": [
+          "C’est cette liberté qui l’impressionne le plus.",
+          "C’est à elle que il revient d’organiser son parcours.",
+          "Il semble que cette expérience lui ait énormément appris.",
+          "C’est... qui"
         ]
       },
       "listeningComprehension": null
@@ -9254,12 +9302,12 @@
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
-                "id": "b",
-                "text": "La récupération répétée pourrait renforcer la rétention différée, quoique d’autres mécanismes ne puissent être exclus."
-              },
-              {
                 "id": "c",
                 "text": "Parce que la question complexe, alors le résultat forcément."
+              },
+              {
+                "id": "b",
+                "text": "La récupération répétée pourrait renforcer la rétention différée, quoique d’autres mécanismes ne puissent être exclus."
               },
               {
                 "id": "d",
@@ -9282,12 +9330,12 @@
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
-                "id": "c",
-                "text": "Elle emploie la modalisation épistémique de haute précision afin de distinguer résultat robuste, probabilité, hypothèse et simple possibilité : « La récupération répétée pourrait renforcer la rétention différée, quoique d’autres mécanismes ne puissent être exclus. »"
-              },
-              {
                 "id": "d",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
+              },
+              {
+                "id": "c",
+                "text": "Elle emploie la modalisation épistémique de haute précision afin de distinguer résultat robuste, probabilité, hypothèse et simple possibilité : « La récupération répétée pourrait renforcer la rétention différée, quoique d’autres mécanismes ne puissent être exclus. »"
               }
             ]
           },
@@ -9298,16 +9346,16 @@
             "difficulty": "analysis",
             "options": [
               {
+                "id": "c",
+                "text": "Il est hautement probable que la familiarité ait influencé le jugement, mais ce biais n’est pas directement mesuré."
+              },
+              {
                 "id": "a",
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
                 "id": "b",
                 "text": "Parce que la question complexe, alors le résultat forcément."
-              },
-              {
-                "id": "c",
-                "text": "Il est hautement probable que la familiarité ait influencé le jugement, mais ce biais n’est pas directement mesuré."
               },
               {
                 "id": "d",
@@ -9326,16 +9374,16 @@
                 "text": "Elle remplace les preuves par une affirmation absolue."
               },
               {
+                "id": "d",
+                "text": "Elle emploie la modalisation épistémique de haute précision afin de distinguer résultat robuste, probabilité, hypothèse et simple possibilité : « Il est hautement probable que la familiarité ait influencé le jugement, mais ce biais n’est pas directement mesuré. »"
+              },
+              {
                 "id": "b",
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
                 "id": "c",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
-              },
-              {
-                "id": "d",
-                "text": "Elle emploie la modalisation épistémique de haute précision afin de distinguer résultat robuste, probabilité, hypothèse et simple possibilité : « Il est hautement probable que la familiarité ait influencé le jugement, mais ce biais n’est pas directement mesuré. »"
               }
             ]
           },
@@ -9354,12 +9402,12 @@
                 "text": "Parce que la question complexe, alors le résultat forcément."
               },
               {
-                "id": "c",
-                "text": "La thèse est étant vraie par les mots qui ont utilisé."
-              },
-              {
                 "id": "d",
                 "text": "Rien ne permet d’affirmer que le même calendrier conviendrait à tous les apprentissages."
+              },
+              {
+                "id": "c",
+                "text": "La thèse est étant vraie par les mots qui ont utilisé."
               }
             ]
           },
@@ -9369,10 +9417,6 @@
             "prompt": "Pourquoi l’exemple 4 convient-il à cette unité ?",
             "difficulty": "precision",
             "options": [
-              {
-                "id": "a",
-                "text": "Elle emploie la modalisation épistémique de haute précision afin de distinguer résultat robuste, probabilité, hypothèse et simple possibilité : « Rien ne permet d’affirmer que le même calendrier conviendrait à tous les apprentissages. »"
-              },
               {
                 "id": "b",
                 "text": "Elle remplace les preuves par une affirmation absolue."
@@ -9384,6 +9428,10 @@
               {
                 "id": "d",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
+              },
+              {
+                "id": "a",
+                "text": "Elle emploie la modalisation épistémique de haute précision afin de distinguer résultat robuste, probabilité, hypothèse et simple possibilité : « Rien ne permet d’affirmer que le même calendrier conviendrait à tous les apprentissages. »"
               }
             ]
           }
@@ -9535,12 +9583,12 @@
             "difficulty": "application",
             "options": [
               {
-                "id": "a",
-                "text": "envoies"
-              },
-              {
                 "id": "b",
                 "text": "aies envoyé"
+              },
+              {
+                "id": "a",
+                "text": "envoies"
               },
               {
                 "id": "c",
@@ -9587,12 +9635,12 @@
                 "text": "soit"
               },
               {
-                "id": "b",
-                "text": "ait été"
-              },
-              {
                 "id": "c",
                 "text": "était"
+              },
+              {
+                "id": "b",
+                "text": "ait été"
               },
               {
                 "id": "d",
@@ -9607,10 +9655,6 @@
             "difficulty": "analysis",
             "options": [
               {
-                "id": "a",
-                "text": "Avoir/être au subjonctif présent + participe passé"
-              },
-              {
                 "id": "b",
                 "text": "Avoir au futur + infinitif"
               },
@@ -9621,6 +9665,10 @@
               {
                 "id": "d",
                 "text": "Avoir au conditionnel + infinitif"
+              },
+              {
+                "id": "a",
+                "text": "Avoir/être au subjonctif présent + participe passé"
               }
             ]
           },
@@ -9631,12 +9679,12 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Je suis fière que tu envoies cette candidature."
-              },
-              {
                 "id": "b",
                 "text": "Je suis fière que tu aies envoyé cette candidature."
+              },
+              {
+                "id": "a",
+                "text": "Je suis fière que tu envoies cette candidature."
               },
               {
                 "id": "c",
@@ -9683,12 +9731,12 @@
                 "text": "Bien qu’elle soit nerveuse, elle a envoyé sa lettre."
               },
               {
-                "id": "b",
-                "text": "Bien qu’elle ait été nerveuse, elle a envoyé sa lettre."
-              },
-              {
                 "id": "c",
                 "text": "Bien qu’elle était nerveuse, elle a envoyé sa lettre."
+              },
+              {
+                "id": "b",
+                "text": "Bien qu’elle ait été nerveuse, elle a envoyé sa lettre."
               },
               {
                 "id": "d",
@@ -9703,10 +9751,6 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Avoir/être au subjonctif présent + participe passé"
-              },
-              {
                 "id": "b",
                 "text": "Avoir au futur + infinitif"
               },
@@ -9717,6 +9761,10 @@
               {
                 "id": "d",
                 "text": "Avoir au conditionnel + infinitif"
+              },
+              {
+                "id": "a",
+                "text": "Avoir/être au subjonctif présent + participe passé"
               }
             ]
           }
@@ -9868,12 +9916,12 @@
             "difficulty": "application",
             "options": [
               {
-                "id": "a",
-                "text": "ai"
-              },
-              {
                 "id": "b",
                 "text": "as"
+              },
+              {
+                "id": "a",
+                "text": "ai"
               },
               {
                 "id": "c",
@@ -9896,12 +9944,12 @@
                 "text": "m'appelle"
               },
               {
-                "id": "b",
-                "text": "t'appelles"
-              },
-              {
                 "id": "c",
                 "text": "s'appelle"
+              },
+              {
+                "id": "b",
+                "text": "t'appelles"
               },
               {
                 "id": "d",
@@ -9916,16 +9964,16 @@
             "difficulty": "analysis",
             "options": [
               {
-                "id": "a",
-                "text": "suis"
-              },
-              {
                 "id": "b",
                 "text": "es"
               },
               {
                 "id": "c",
                 "text": "est"
+              },
+              {
+                "id": "a",
+                "text": "suis"
               },
               {
                 "id": "d",
@@ -9940,10 +9988,6 @@
             "difficulty": "analysis",
             "options": [
               {
-                "id": "a",
-                "text": "Quel"
-              },
-              {
                 "id": "b",
                 "text": "Quelle"
               },
@@ -9954,6 +9998,10 @@
               {
                 "id": "d",
                 "text": "Où"
+              },
+              {
+                "id": "a",
+                "text": "Quel"
               }
             ]
           },
@@ -9964,12 +10012,12 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Tu ai quinze ans."
-              },
-              {
                 "id": "b",
                 "text": "Tu as quinze ans."
+              },
+              {
+                "id": "a",
+                "text": "Tu ai quinze ans."
               },
               {
                 "id": "c",
@@ -9992,12 +10040,12 @@
                 "text": "Elle m'appelle Léa."
               },
               {
-                "id": "b",
-                "text": "Elle t'appelles Léa."
-              },
-              {
                 "id": "c",
                 "text": "Elle s'appelle Léa."
+              },
+              {
+                "id": "b",
+                "text": "Elle t'appelles Léa."
               },
               {
                 "id": "d",
@@ -10012,16 +10060,16 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Je ne suis pas française."
-              },
-              {
                 "id": "b",
                 "text": "Je ne es pas française."
               },
               {
                 "id": "c",
                 "text": "Je ne est pas française."
+              },
+              {
+                "id": "a",
+                "text": "Je ne suis pas française."
               },
               {
                 "id": "d",
@@ -10036,10 +10084,6 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Quel âge as-tu ?"
-              },
-              {
                 "id": "b",
                 "text": "Quelle âge as-tu ?"
               },
@@ -10050,9 +10094,25 @@
               {
                 "id": "d",
                 "text": "Où âge as-tu ?"
+              },
+              {
+                "id": "a",
+                "text": "Quel âge as-tu ?"
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Avoir, s'appeler et la négation",
+        "definition": "Le verbe avoir : j'ai, tu as, il/elle a, nous avons, vous avez, ils/elles ont. On l'utilise pour l'âge : « J'ai seize ans. » Le verbe pronominal s'appeler : je m'appelle, tu t'appelles, il/elle s'appelle. Les nationalités s'écrivent en minuscule quand ce sont des adjectifs : je suis dominicaine, il est marocain. Pour poser des questions, on utilise comment (Comment tu t'appelles ?), où (Où habites-tu ?) et quel/quelle (Quel âge as-tu ?). La négation simple se forme avec ne...pas : « Je ne suis pas française. »",
+        "structure": "Forme à observer : Avoir, s'appeler et la négation. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Le verbe avoir, le verbe s'appeler, les nationalités et la négation ne...pas.",
+        "examples": [
+          "Tu as quinze ans.",
+          "Elle s'appelle Léa.",
+          "Je ne suis pas française.",
+          "Quel âge as-tu ?"
         ]
       },
       "listeningComprehension": null
@@ -10185,16 +10245,16 @@
             "difficulty": "analysis",
             "options": [
               {
-                "id": "a",
-                "text": "dois"
-              },
-              {
                 "id": "b",
                 "text": "doit"
               },
               {
                 "id": "c",
                 "text": "devons"
+              },
+              {
+                "id": "a",
+                "text": "dois"
               },
               {
                 "id": "d",
@@ -10217,12 +10277,12 @@
                 "text": "rien"
               },
               {
-                "id": "c",
-                "text": "plus"
-              },
-              {
                 "id": "d",
                 "text": "pas encore"
+              },
+              {
+                "id": "c",
+                "text": "plus"
               }
             ]
           },
@@ -10281,16 +10341,16 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Je dois choisir entre le poisson et les pâtes."
-              },
-              {
                 "id": "b",
                 "text": "Je doit choisir entre le poisson et les pâtes."
               },
               {
                 "id": "c",
                 "text": "Je devons choisir entre le poisson et les pâtes."
+              },
+              {
+                "id": "a",
+                "text": "Je dois choisir entre le poisson et les pâtes."
               },
               {
                 "id": "d",
@@ -10313,15 +10373,27 @@
                 "text": "Il n’y a rien de pain, désolé."
               },
               {
-                "id": "c",
-                "text": "Il n’y a plus de pain, désolé."
-              },
-              {
                 "id": "d",
                 "text": "Il n’y a pas encore de pain, désolé."
+              },
+              {
+                "id": "c",
+                "text": "Il n’y a plus de pain, désolé."
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Devoir, il faut et les négations",
+        "definition": "« Devoir » se conjugue selon la personne (je dois, tu dois, il/elle doit) tandis que « il faut » est impersonnel, suivi d’un infinitif. Les négations ne... jamais (nunca), ne... plus (ya no) et ne... rien (nada) encadrent le verbe conjugué, comme ne... pas.",
+        "structure": "Forme à observer : Devoir, il faut et les négations. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Exprimer une obligation et utiliser les négations ne... jamais / ne... plus / ne... rien.",
+        "examples": [
+          "Il faut absolument goûter les pâtes maison.",
+          "Excusez-moi, ma soupe n’est plus chaude.",
+          "Je dois choisir entre le poisson et les pâtes.",
+          "Il n’y a plus de pain, désolé."
         ]
       },
       "listeningComprehension": null
@@ -10406,12 +10478,12 @@
             "difficulty": "application",
             "options": [
               {
-                "id": "a",
-                "text": "ai été"
-              },
-              {
                 "id": "b",
                 "text": "étais"
+              },
+              {
+                "id": "a",
+                "text": "ai été"
               },
               {
                 "id": "c",
@@ -10430,12 +10502,12 @@
             "difficulty": "application",
             "options": [
               {
-                "id": "a",
-                "text": "ai décidé"
-              },
-              {
                 "id": "b",
                 "text": "décidais"
+              },
+              {
+                "id": "a",
+                "text": "ai décidé"
               },
               {
                 "id": "c",
@@ -10458,12 +10530,12 @@
                 "text": "J’ai mangé souvent des tartines."
               },
               {
-                "id": "b",
-                "text": "Je mangeais souvent des tartines."
-              },
-              {
                 "id": "c",
                 "text": "Je vais manger souvent des tartines."
+              },
+              {
+                "id": "b",
+                "text": "Je mangeais souvent des tartines."
               },
               {
                 "id": "d",
@@ -10482,16 +10554,16 @@
                 "text": "L’imparfait"
               },
               {
-                "id": "b",
-                "text": "Le passé composé"
-              },
-              {
                 "id": "c",
                 "text": "Le présent"
               },
               {
                 "id": "d",
                 "text": "Le futur simple"
+              },
+              {
+                "id": "b",
+                "text": "Le passé composé"
               }
             ]
           },
@@ -10502,12 +10574,12 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Avant, je ai été très timide."
-              },
-              {
                 "id": "b",
                 "text": "Avant, je étais très timide."
+              },
+              {
+                "id": "a",
+                "text": "Avant, je ai été très timide."
               },
               {
                 "id": "c",
@@ -10526,12 +10598,12 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Un jour, j’ai décidé de participer au projet."
-              },
-              {
                 "id": "b",
                 "text": "Un jour, j’décidais de participer au projet."
+              },
+              {
+                "id": "a",
+                "text": "Un jour, j’ai décidé de participer au projet."
               },
               {
                 "id": "c",
@@ -10554,12 +10626,12 @@
                 "text": "J’ai mangé souvent des tartines."
               },
               {
-                "id": "b",
-                "text": "Je mangeais souvent des tartines."
-              },
-              {
                 "id": "c",
                 "text": "Je vais manger souvent des tartines."
+              },
+              {
+                "id": "b",
+                "text": "Je mangeais souvent des tartines."
               },
               {
                 "id": "d",
@@ -10578,19 +10650,31 @@
                 "text": "L’imparfait"
               },
               {
-                "id": "b",
-                "text": "Le passé composé"
-              },
-              {
                 "id": "c",
                 "text": "Le présent"
               },
               {
                 "id": "d",
                 "text": "Le futur simple"
+              },
+              {
+                "id": "b",
+                "text": "Le passé composé"
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "L’imparfait et le contraste avec le passé composé",
+        "definition": "L’imparfait décrit une situation, une habitude ou un état dans le passé, sans limite de temps précise : « J’étais timide. Je parlais peu. » Le passé composé décrit une action ponctuelle et terminée : « Un jour, j’ai décidé de changer. » On utilise souvent les deux ensemble : l’imparfait pour le contexte, le passé composé pour l’événement précis.",
+        "structure": "Forme à observer : L’imparfait et le contraste avec le passé composé. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Décrire une situation passée habituelle avec l’imparfait, et distinguer son usage du passé composé.",
+        "examples": [
+          "Avant, je étais très timide.",
+          "Un jour, j’ai décidé de participer au projet.",
+          "Je mangeais souvent des tartines.",
+          "Le passé composé"
         ]
       },
       "listeningComprehension": null
@@ -10675,12 +10759,12 @@
             "difficulty": "application",
             "options": [
               {
-                "id": "a",
-                "text": "n’est"
-              },
-              {
                 "id": "b",
                 "text": "n’était"
+              },
+              {
+                "id": "a",
+                "text": "n’est"
               },
               {
                 "id": "c",
@@ -10723,16 +10807,16 @@
             "difficulty": "analysis",
             "options": [
               {
-                "id": "a",
-                "text": "trouve"
-              },
-              {
                 "id": "b",
                 "text": "trouvera"
               },
               {
                 "id": "c",
                 "text": "a trouvé"
+              },
+              {
+                "id": "a",
+                "text": "trouve"
               },
               {
                 "id": "d",
@@ -10751,16 +10835,16 @@
                 "text": "Le passé composé"
               },
               {
-                "id": "b",
-                "text": "Le conditionnel présent"
-              },
-              {
                 "id": "c",
                 "text": "L’imparfait"
               },
               {
                 "id": "d",
                 "text": "Le subjonctif"
+              },
+              {
+                "id": "b",
+                "text": "Le conditionnel présent"
               }
             ]
           },
@@ -10771,12 +10855,12 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Le professeur avait répondu qu’il n’est pas exclu qu’un tel travail soit plus riche."
-              },
-              {
                 "id": "b",
                 "text": "Le professeur avait répondu qu’il n’était pas exclu qu’un tel travail soit plus riche."
+              },
+              {
+                "id": "a",
+                "text": "Le professeur avait répondu qu’il n’est pas exclu qu’un tel travail soit plus riche."
               },
               {
                 "id": "c",
@@ -10819,16 +10903,16 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Il est probable que le groupe trouve un compromis."
-              },
-              {
                 "id": "b",
                 "text": "Il est probable que le groupe trouvera un compromis."
               },
               {
                 "id": "c",
                 "text": "Il est probable que le groupe a trouvé un compromis."
+              },
+              {
+                "id": "a",
+                "text": "Il est probable que le groupe trouve un compromis."
               },
               {
                 "id": "d",
@@ -10847,19 +10931,31 @@
                 "text": "Le passé composé"
               },
               {
-                "id": "b",
-                "text": "Le conditionnel présent"
-              },
-              {
                 "id": "c",
                 "text": "L’imparfait"
               },
               {
                 "id": "d",
                 "text": "Le subjonctif"
+              },
+              {
+                "id": "b",
+                "text": "Le conditionnel présent"
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Le discours rapporté complexe et l’expression de la probabilité soutenue",
+        "definition": "Au discours rapporté avec un verbe introducteur au passé, la concordance des temps est complète : présent → imparfait, passé composé → plus-que-parfait, futur → conditionnel présent : « Il avait répondu qu’il n’était pas exclu qu’un travail interdisciplinaire produise un résultat plus riche. » En registre soutenu, la probabilité s’exprime avec des tournures comme « il est probable que », « il n’est pas exclu que » (suivies du subjonctif ou de l’indicatif selon le degré de certitude).",
+        "structure": "Forme à observer : Le discours rapporté complexe et l’expression de la probabilité soutenue. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Rapporter des propos avec une concordance des temps complète et exprimer la probabilité en registre soutenu.",
+        "examples": [
+          "Le professeur avait répondu qu’il n’était pas exclu qu’un tel travail soit plus riche.",
+          "Il avait ajouté qu’il jugeait cette compétence tout aussi précieuse.",
+          "Il est probable que le groupe trouve un compromis.",
+          "Le conditionnel présent"
         ]
       },
       "listeningComprehension": null
@@ -14982,12 +15078,12 @@
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
-                "id": "b",
-                "text": "Les mots avaient été encodés avant que la consolidation nocturne ne soit mesurée."
-              },
-              {
                 "id": "c",
                 "text": "Parce que la question complexe, alors le résultat forcément."
+              },
+              {
+                "id": "b",
+                "text": "Les mots avaient été encodés avant que la consolidation nocturne ne soit mesurée."
               },
               {
                 "id": "d",
@@ -15010,12 +15106,12 @@
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
-                "id": "c",
-                "text": "Elle emploie la temporalité complexe et le futur antérieur afin de ordonner encodage, consolidation et récupération sans confondre succession et causalité : « Les mots avaient été encodés avant que la consolidation nocturne ne soit mesurée. »"
-              },
-              {
                 "id": "d",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
+              },
+              {
+                "id": "c",
+                "text": "Elle emploie la temporalité complexe et le futur antérieur afin de ordonner encodage, consolidation et récupération sans confondre succession et causalité : « Les mots avaient été encodés avant que la consolidation nocturne ne soit mesurée. »"
               }
             ]
           },
@@ -15026,16 +15122,16 @@
             "difficulty": "analysis",
             "options": [
               {
+                "id": "c",
+                "text": "D’ici la fin du protocole, l’équipe aura recueilli trois mesures de rétention."
+              },
+              {
                 "id": "a",
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
                 "id": "b",
                 "text": "Parce que la question complexe, alors le résultat forcément."
-              },
-              {
-                "id": "c",
-                "text": "D’ici la fin du protocole, l’équipe aura recueilli trois mesures de rétention."
               },
               {
                 "id": "d",
@@ -15054,16 +15150,16 @@
                 "text": "Elle remplace les preuves par une affirmation absolue."
               },
               {
+                "id": "d",
+                "text": "Elle emploie la temporalité complexe et le futur antérieur afin de ordonner encodage, consolidation et récupération sans confondre succession et causalité : « D’ici la fin du protocole, l’équipe aura recueilli trois mesures de rétention. »"
+              },
+              {
                 "id": "b",
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
                 "id": "c",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
-              },
-              {
-                "id": "d",
-                "text": "Elle emploie la temporalité complexe et le futur antérieur afin de ordonner encodage, consolidation et récupération sans confondre succession et causalité : « D’ici la fin du protocole, l’équipe aura recueilli trois mesures de rétention. »"
               }
             ]
           },
@@ -15082,12 +15178,12 @@
                 "text": "Parce que la question complexe, alors le résultat forcément."
               },
               {
-                "id": "c",
-                "text": "La thèse est étant vraie par les mots qui ont utilisé."
-              },
-              {
                 "id": "d",
                 "text": "Les chercheurs pensaient que le groupe reposé aurait consolidé davantage d’items avant le rappel."
+              },
+              {
+                "id": "c",
+                "text": "La thèse est étant vraie par les mots qui ont utilisé."
               }
             ]
           },
@@ -15097,10 +15193,6 @@
             "prompt": "Pourquoi l’exemple 4 convient-il à cette unité ?",
             "difficulty": "precision",
             "options": [
-              {
-                "id": "a",
-                "text": "Elle emploie la temporalité complexe et le futur antérieur afin de ordonner encodage, consolidation et récupération sans confondre succession et causalité : « Les chercheurs pensaient que le groupe reposé aurait consolidé davantage d’items avant le rappel. »"
-              },
               {
                 "id": "b",
                 "text": "Elle remplace les preuves par une affirmation absolue."
@@ -15112,6 +15204,10 @@
               {
                 "id": "d",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
+              },
+              {
+                "id": "a",
+                "text": "Elle emploie la temporalité complexe et le futur antérieur afin de ordonner encodage, consolidation et récupération sans confondre succession et causalité : « Les chercheurs pensaient que le groupe reposé aurait consolidé davantage d’items avant le rappel. »"
               }
             ]
           }
@@ -15287,12 +15383,12 @@
             "difficulty": "application",
             "options": [
               {
-                "id": "a",
-                "text": "a été"
-              },
-              {
                 "id": "b",
                 "text": "est"
+              },
+              {
+                "id": "a",
+                "text": "a été"
               },
               {
                 "id": "c",
@@ -15315,12 +15411,12 @@
                 "text": "Les parents contrôlent le contenu."
               },
               {
-                "id": "b",
-                "text": "Le contenu est contrôlé par les parents."
-              },
-              {
                 "id": "c",
                 "text": "Les parents vont contrôler le contenu."
+              },
+              {
+                "id": "b",
+                "text": "Le contenu est contrôlé par les parents."
               },
               {
                 "id": "d",
@@ -15335,10 +15431,6 @@
             "difficulty": "analysis",
             "options": [
               {
-                "id": "a",
-                "text": "sont"
-              },
-              {
                 "id": "b",
                 "text": "ont"
               },
@@ -15349,6 +15441,10 @@
               {
                 "id": "d",
                 "text": "étaient"
+              },
+              {
+                "id": "a",
+                "text": "sont"
               }
             ]
           },
@@ -15383,12 +15479,12 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Aucun argument n’a été complètement réfuté."
-              },
-              {
                 "id": "b",
                 "text": "Aucun argument n’est complètement réfuté."
+              },
+              {
+                "id": "a",
+                "text": "Aucun argument n’a été complètement réfuté."
               },
               {
                 "id": "c",
@@ -15411,12 +15507,12 @@
                 "text": "Les parents contrôlent le contenu."
               },
               {
-                "id": "b",
-                "text": "Le contenu est contrôlé par les parents."
-              },
-              {
                 "id": "c",
                 "text": "Les parents vont contrôler le contenu."
+              },
+              {
+                "id": "b",
+                "text": "Le contenu est contrôlé par les parents."
               },
               {
                 "id": "d",
@@ -15431,10 +15527,6 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Les risques d’addiction sont bien documentés par les chercheurs."
-              },
-              {
                 "id": "b",
                 "text": "Les risques d’addiction ont bien documentés par les chercheurs."
               },
@@ -15445,6 +15537,10 @@
               {
                 "id": "d",
                 "text": "Les risques d’addiction étaient bien documentés par les chercheurs."
+              },
+              {
+                "id": "a",
+                "text": "Les risques d’addiction sont bien documentés par les chercheurs."
               }
             ]
           }
@@ -15596,12 +15692,12 @@
             "difficulty": "application",
             "options": [
               {
-                "id": "a",
-                "text": "Mon"
-              },
-              {
                 "id": "b",
                 "text": "Ma"
+              },
+              {
+                "id": "a",
+                "text": "Mon"
               },
               {
                 "id": "c",
@@ -15620,12 +15716,12 @@
             "difficulty": "application",
             "options": [
               {
-                "id": "a",
-                "text": "son"
-              },
-              {
                 "id": "b",
                 "text": "sa"
+              },
+              {
+                "id": "a",
+                "text": "son"
               },
               {
                 "id": "c",
@@ -15672,16 +15768,16 @@
                 "text": "patient"
               },
               {
-                "id": "b",
-                "text": "patiente"
-              },
-              {
                 "id": "c",
                 "text": "patients"
               },
               {
                 "id": "d",
                 "text": "patientes"
+              },
+              {
+                "id": "b",
+                "text": "patiente"
               }
             ]
           },
@@ -15692,12 +15788,12 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Mon mère s'appelle Rosa."
-              },
-              {
                 "id": "b",
                 "text": "Ma mère s'appelle Rosa."
+              },
+              {
+                "id": "a",
+                "text": "Mon mère s'appelle Rosa."
               },
               {
                 "id": "c",
@@ -15716,12 +15812,12 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Léa aime beaucoup son chat."
-              },
-              {
                 "id": "b",
                 "text": "Léa aime beaucoup sa chat."
+              },
+              {
+                "id": "a",
+                "text": "Léa aime beaucoup son chat."
               },
               {
                 "id": "c",
@@ -15768,19 +15864,31 @@
                 "text": "Madame Lambert est très patient."
               },
               {
-                "id": "b",
-                "text": "Madame Lambert est très patiente."
-              },
-              {
                 "id": "c",
                 "text": "Madame Lambert est très patients."
               },
               {
                 "id": "d",
                 "text": "Madame Lambert est très patientes."
+              },
+              {
+                "id": "b",
+                "text": "Madame Lambert est très patiente."
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Les adjectifs possessifs",
+        "definition": "Les adjectifs possessifs s'accordent avec la chose possédée, pas avec la personne qui possède. Pour « je » : mon frère, ma sœur, mes parents. Pour « tu » : ton frère, ta sœur, tes parents. Pour « il/elle » : son frère, sa sœur, ses parents. Devant un mot féminin qui commence par une voyelle, on utilise mon/ton/son : mon amie (et non « ma amie »). Les adjectifs s'accordent aussi en genre et en nombre : il est patient / elle est patiente ; ils sont gentils / elles sont gentilles.",
+        "structure": "Forme à observer : Les adjectifs possessifs. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Mon/ma/mes, ton/ta/tes, son/sa/ses et l'accord des adjectifs.",
+        "examples": [
+          "Ma mère s'appelle Rosa.",
+          "Léa aime beaucoup son chat.",
+          "Camila adore mes parents.",
+          "Madame Lambert est très patiente."
         ]
       },
       "listeningComprehension": null
@@ -15865,12 +15973,12 @@
             "difficulty": "application",
             "options": [
               {
-                "id": "a",
-                "text": "Continues"
-              },
-              {
                 "id": "b",
                 "text": "Continue"
+              },
+              {
+                "id": "a",
+                "text": "Continues"
               },
               {
                 "id": "c",
@@ -15893,12 +16001,12 @@
                 "text": "Prend"
               },
               {
-                "id": "b",
-                "text": "Prends"
-              },
-              {
                 "id": "c",
                 "text": "Prenez"
+              },
+              {
+                "id": "b",
+                "text": "Prends"
               },
               {
                 "id": "d",
@@ -15913,16 +16021,16 @@
             "difficulty": "analysis",
             "options": [
               {
-                "id": "a",
-                "text": "Descendons"
-              },
-              {
                 "id": "b",
                 "text": "Descendez"
               },
               {
                 "id": "c",
                 "text": "Descends"
+              },
+              {
+                "id": "a",
+                "text": "Descendons"
               },
               {
                 "id": "d",
@@ -15941,16 +16049,16 @@
                 "text": "Tu tournes !"
               },
               {
-                "id": "b",
-                "text": "Tourne !"
-              },
-              {
                 "id": "c",
                 "text": "Tournez !"
               },
               {
                 "id": "d",
                 "text": "Tournons !"
+              },
+              {
+                "id": "b",
+                "text": "Tourne !"
               }
             ]
           },
@@ -15961,12 +16069,12 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "(tu) Continues tout droit, puis tourne à gauche."
-              },
-              {
                 "id": "b",
                 "text": "(tu) Continue tout droit, puis tourne à gauche."
+              },
+              {
+                "id": "a",
+                "text": "(tu) Continues tout droit, puis tourne à gauche."
               },
               {
                 "id": "c",
@@ -15989,12 +16097,12 @@
                 "text": "(vous) Prend le bus numéro sept."
               },
               {
-                "id": "b",
-                "text": "(vous) Prends le bus numéro sept."
-              },
-              {
                 "id": "c",
                 "text": "(vous) Prenez le bus numéro sept."
+              },
+              {
+                "id": "b",
+                "text": "(vous) Prends le bus numéro sept."
               },
               {
                 "id": "d",
@@ -16009,16 +16117,16 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "(nous) Descendons à l’arrêt suivant."
-              },
-              {
                 "id": "b",
                 "text": "(nous) Descendez à l’arrêt suivant."
               },
               {
                 "id": "c",
                 "text": "(nous) Descends à l’arrêt suivant."
+              },
+              {
+                "id": "a",
+                "text": "(nous) Descendons à l’arrêt suivant."
               },
               {
                 "id": "d",
@@ -16037,19 +16145,31 @@
                 "text": "Tu tournes !"
               },
               {
-                "id": "b",
-                "text": "Tourne !"
-              },
-              {
                 "id": "c",
                 "text": "Tournez !"
               },
               {
                 "id": "d",
                 "text": "Tournons !"
+              },
+              {
+                "id": "b",
+                "text": "Tourne !"
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "L’impératif",
+        "definition": "L’impératif se forme à partir du présent, sans pronom sujet, pour tu, nous et vous : « Tourne à gauche » (tu), « Tournons à gauche » (nous), « Tournez à gauche » (vous). Les verbes en -er perdent le « s » final à la forme « tu » : tu tournes → tourne !",
+        "structure": "Forme à observer : L’impératif. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Donner un ordre ou une indication simple.",
+        "examples": [
+          "(tu) Continue tout droit, puis tourne à gauche.",
+          "(vous) Prenez le bus numéro sept.",
+          "(nous) Descendons à l’arrêt suivant.",
+          "Tourne !"
         ]
       },
       "listeningComprehension": null
@@ -16134,12 +16254,12 @@
             "difficulty": "application",
             "options": [
               {
-                "id": "a",
-                "text": "commence"
-              },
-              {
                 "id": "b",
                 "text": "commencerais"
+              },
+              {
+                "id": "a",
+                "text": "commence"
               },
               {
                 "id": "c",
@@ -16158,12 +16278,12 @@
             "difficulty": "application",
             "options": [
               {
-                "id": "a",
-                "text": "devrais"
-              },
-              {
                 "id": "b",
                 "text": "dois"
+              },
+              {
+                "id": "a",
+                "text": "devrais"
               },
               {
                 "id": "c",
@@ -16210,16 +16330,16 @@
                 "text": "-ai, -as, -a"
               },
               {
-                "id": "b",
-                "text": "-ais, -ais, -ait"
-              },
-              {
                 "id": "c",
                 "text": "-é, -is, -u"
               },
               {
                 "id": "d",
                 "text": "-ant"
+              },
+              {
+                "id": "b",
+                "text": "-ais, -ais, -ait"
               }
             ]
           },
@@ -16230,12 +16350,12 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "À ta place, je commence par les exercices simples."
-              },
-              {
                 "id": "b",
                 "text": "À ta place, je commencerais par les exercices simples."
+              },
+              {
+                "id": "a",
+                "text": "À ta place, je commence par les exercices simples."
               },
               {
                 "id": "c",
@@ -16254,12 +16374,12 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Tu devrais réviser chaque soir."
-              },
-              {
                 "id": "b",
                 "text": "Tu dois réviser chaque soir."
+              },
+              {
+                "id": "a",
+                "text": "Tu devrais réviser chaque soir."
               },
               {
                 "id": "c",
@@ -16306,19 +16426,31 @@
                 "text": "-ai, -as, -a"
               },
               {
-                "id": "b",
-                "text": "-ais, -ais, -ait"
-              },
-              {
                 "id": "c",
                 "text": "-é, -is, -u"
               },
               {
                 "id": "d",
                 "text": "-ant"
+              },
+              {
+                "id": "b",
+                "text": "-ais, -ais, -ait"
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Le conditionnel présent pour suggérer",
+        "definition": "Le conditionnel présent se forme avec le radical du futur simple + les terminaisons de l’imparfait : je commencerais, tu devrais, il/elle serait. On l’utilise souvent pour donner un conseil de façon polie : « À ta place, je commencerais par les exercices simples. Tu devrais réviser chaque soir. »",
+        "structure": "Forme à observer : Le conditionnel présent pour suggérer. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Utiliser le conditionnel présent pour donner un conseil.",
+        "examples": [
+          "À ta place, je commencerais par les exercices simples.",
+          "Tu devrais réviser chaque soir.",
+          "Il serait utile de refaire les exercices.",
+          "-ais, -ais, -ait"
         ]
       },
       "listeningComprehension": null
@@ -16400,12 +16532,12 @@
             "difficulty": "easy",
             "options": [
               {
-                "id": "o1",
-                "text": "l’annoncer de la réforme"
-              },
-              {
                 "id": "o2",
                 "text": "l’annonce de la réforme par le ministère"
+              },
+              {
+                "id": "o1",
+                "text": "l’annoncer de la réforme"
               },
               {
                 "id": "o3",
@@ -16424,12 +16556,12 @@
             "difficulty": "easy",
             "options": [
               {
-                "id": "o1",
-                "text": "Il convient"
-              },
-              {
                 "id": "o2",
                 "text": "Il convient que"
+              },
+              {
+                "id": "o1",
+                "text": "Il convient"
               },
               {
                 "id": "o3",
@@ -16448,16 +16580,16 @@
             "difficulty": "medium",
             "options": [
               {
-                "id": "o1",
-                "text": "Il ressort de l’analyse"
-              },
-              {
                 "id": "o2",
                 "text": "Il sort analyse"
               },
               {
                 "id": "o3",
                 "text": "Il résulte les"
+              },
+              {
+                "id": "o1",
+                "text": "Il ressort de l’analyse"
               },
               {
                 "id": "o4",
@@ -16472,10 +16604,6 @@
             "difficulty": "medium",
             "options": [
               {
-                "id": "o1",
-                "text": "la contestation de la mesure par les étudiants"
-              },
-              {
                 "id": "o2",
                 "text": "les étudiants de contestation"
               },
@@ -16486,6 +16614,10 @@
               {
                 "id": "o4",
                 "text": "la mesure à contester"
+              },
+              {
+                "id": "o1",
+                "text": "la contestation de la mesure par les étudiants"
               }
             ]
           },
@@ -16496,12 +16628,12 @@
             "difficulty": "medium",
             "options": [
               {
-                "id": "o1",
-                "text": "constaté"
-              },
-              {
                 "id": "o2",
                 "text": "constater"
+              },
+              {
+                "id": "o1",
+                "text": "constaté"
               },
               {
                 "id": "o3",
@@ -16548,12 +16680,12 @@
                 "text": "On voit bien que ça ne va pas."
               },
               {
-                "id": "o2",
-                "text": "Il apparaît que cette lecture omet plusieurs facteurs."
-              },
-              {
                 "id": "o3",
                 "text": "Ce truc est faux."
+              },
+              {
+                "id": "o2",
+                "text": "Il apparaît que cette lecture omet plusieurs facteurs."
               },
               {
                 "id": "o4",
@@ -16568,10 +16700,6 @@
             "difficulty": "hard",
             "options": [
               {
-                "id": "o1",
-                "text": "La sélection des sources révèle un cadrage."
-              },
-              {
                 "id": "o2",
                 "text": "La sélectionner des sources révèle."
               },
@@ -16582,9 +16710,25 @@
               {
                 "id": "o4",
                 "text": "Sélection des sources révèlent."
+              },
+              {
+                "id": "o1",
+                "text": "La sélection des sources révèle un cadrage."
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "La nominalisation et les tournures impersonnelles",
+        "definition": "La nominalisation condense une proposition et densifie le registre analytique : « le gouvernement réforme » devient « la réforme gouvernementale ». Les tournures « il ressort que », « il convient de » et « force est de constater que » permettent de structurer une analyse sans effacer la responsabilité des acteurs.",
+        "structure": "Forme à observer : La nominalisation et les tournures impersonnelles. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Maîtriser la nominalisation et les tournures impersonnelles dans un contexte argumentatif C1.",
+        "examples": [
+          "l’annonce de la réforme par le ministère",
+          "Il convient de comparer les sources avant de conclure.",
+          "Il ressort de l’analyse que les titres orientent la lecture.",
+          "la contestation de la mesure par les étudiants"
         ]
       },
       "listeningComprehension": null
@@ -20880,12 +21024,12 @@
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
-                "id": "b",
-                "text": "La mesure de l’acquisition incidente exige que l’on précise qui mesure quoi et à quel moment."
-              },
-              {
                 "id": "c",
                 "text": "Parce que la question complexe, alors le résultat forcément."
+              },
+              {
+                "id": "b",
+                "text": "La mesure de l’acquisition incidente exige que l’on précise qui mesure quoi et à quel moment."
               },
               {
                 "id": "d",
@@ -20908,12 +21052,12 @@
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
-                "id": "c",
-                "text": "Elle emploie la nominalisation critique et la restitution de l’agent afin de densifier un raisonnement sans effacer qui apprend, mesure ou intervient : « La mesure de l’acquisition incidente exige que l’on précise qui mesure quoi et à quel moment. »"
-              },
-              {
                 "id": "d",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
+              },
+              {
+                "id": "c",
+                "text": "Elle emploie la nominalisation critique et la restitution de l’agent afin de densifier un raisonnement sans effacer qui apprend, mesure ou intervient : « La mesure de l’acquisition incidente exige que l’on précise qui mesure quoi et à quel moment. »"
               }
             ]
           },
@@ -20924,16 +21068,16 @@
             "difficulty": "analysis",
             "options": [
               {
+                "id": "c",
+                "text": "La transformation de l’input en connaissance ne saurait être présupposée : les apprenants doivent encore établir les associations."
+              },
+              {
                 "id": "a",
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
                 "id": "b",
                 "text": "Parce que la question complexe, alors le résultat forcément."
-              },
-              {
-                "id": "c",
-                "text": "La transformation de l’input en connaissance ne saurait être présupposée : les apprenants doivent encore établir les associations."
               },
               {
                 "id": "d",
@@ -20952,16 +21096,16 @@
                 "text": "Elle remplace les preuves par une affirmation absolue."
               },
               {
+                "id": "d",
+                "text": "Elle emploie la nominalisation critique et la restitution de l’agent afin de densifier un raisonnement sans effacer qui apprend, mesure ou intervient : « La transformation de l’input en connaissance ne saurait être présupposée : les apprenants doivent encore établir les associations. »"
+              },
+              {
                 "id": "b",
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
                 "id": "c",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
-              },
-              {
-                "id": "d",
-                "text": "Elle emploie la nominalisation critique et la restitution de l’agent afin de densifier un raisonnement sans effacer qui apprend, mesure ou intervient : « La transformation de l’input en connaissance ne saurait être présupposée : les apprenants doivent encore établir les associations. »"
               }
             ]
           },
@@ -20980,12 +21124,12 @@
                 "text": "Parce que la question complexe, alors le résultat forcément."
               },
               {
-                "id": "c",
-                "text": "La thèse est étant vraie par les mots qui ont utilisé."
-              },
-              {
                 "id": "d",
                 "text": "Le recours à la nominalisation condense l’analyse ; la proposition verbale restitue ensuite l’agent et la causalité."
+              },
+              {
+                "id": "c",
+                "text": "La thèse est étant vraie par les mots qui ont utilisé."
               }
             ]
           },
@@ -20995,10 +21139,6 @@
             "prompt": "Pourquoi l’exemple 4 convient-il à cette unité ?",
             "difficulty": "precision",
             "options": [
-              {
-                "id": "a",
-                "text": "Elle emploie la nominalisation critique et la restitution de l’agent afin de densifier un raisonnement sans effacer qui apprend, mesure ou intervient : « Le recours à la nominalisation condense l’analyse ; la proposition verbale restitue ensuite l’agent et la causalité. »"
-              },
               {
                 "id": "b",
                 "text": "Elle remplace les preuves par une affirmation absolue."
@@ -21010,6 +21150,10 @@
               {
                 "id": "d",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
+              },
+              {
+                "id": "a",
+                "text": "Elle emploie la nominalisation critique et la restitution de l’agent afin de densifier un raisonnement sans effacer qui apprend, mesure ou intervient : « Le recours à la nominalisation condense l’analyse ; la proposition verbale restitue ensuite l’agent et la causalité. »"
               }
             ]
           }
@@ -21213,12 +21357,12 @@
                 "text": "Ce que"
               },
               {
-                "id": "b",
-                "text": "Ce dont"
-              },
-              {
                 "id": "c",
                 "text": "Ce qui"
+              },
+              {
+                "id": "b",
+                "text": "Ce dont"
               },
               {
                 "id": "d",
@@ -21233,10 +21377,6 @@
             "difficulty": "analysis",
             "options": [
               {
-                "id": "a",
-                "text": "En + participe présent"
-              },
-              {
                 "id": "b",
                 "text": "Avoir + participe passé"
               },
@@ -21247,6 +21387,10 @@
               {
                 "id": "d",
                 "text": "Être + adjectif"
+              },
+              {
+                "id": "a",
+                "text": "En + participe présent"
               }
             ]
           },
@@ -21309,12 +21453,12 @@
                 "text": "Ce que elle a le plus besoin, c’est de présence humaine."
               },
               {
-                "id": "b",
-                "text": "Ce dont elle a le plus besoin, c’est de présence humaine."
-              },
-              {
                 "id": "c",
                 "text": "Ce qui elle a le plus besoin, c’est de présence humaine."
+              },
+              {
+                "id": "b",
+                "text": "Ce dont elle a le plus besoin, c’est de présence humaine."
               },
               {
                 "id": "d",
@@ -21329,10 +21473,6 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "En + participe présent"
-              },
-              {
                 "id": "b",
                 "text": "Avoir + participe passé"
               },
@@ -21343,6 +21483,10 @@
               {
                 "id": "d",
                 "text": "Être + adjectif"
+              },
+              {
+                "id": "a",
+                "text": "En + participe présent"
               }
             ]
           }
@@ -21574,12 +21718,12 @@
                 "text": "y a"
               },
               {
-                "id": "c",
-                "text": "n'y a"
-              },
-              {
                 "id": "d",
                 "text": "est"
+              },
+              {
+                "id": "c",
+                "text": "n'y a"
               }
             ]
           },
@@ -21670,15 +21814,27 @@
                 "text": "Le mercredi après-midi, il y a pas de cours."
               },
               {
-                "id": "c",
-                "text": "Le mercredi après-midi, il n'y a pas de cours."
-              },
-              {
                 "id": "d",
                 "text": "Le mercredi après-midi, il est pas de cours."
+              },
+              {
+                "id": "c",
+                "text": "Le mercredi après-midi, il n'y a pas de cours."
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Les articles et il y a",
+        "definition": "Les articles indéfinis un (masculin), une (féminin), des (pluriel) présentent une chose non précisée : un cahier, une trousse, des livres. Les articles définis le (masculin), la (féminin), l' (devant une voyelle), les (pluriel) désignent une chose précise : le tableau, la cantine, l'école, les élèves. L'expression il y a sert à dire ce qui existe : « Il y a un tableau dans la salle. » « Il y a trente élèves. » À la forme négative, on dit il n'y a pas de : « Il n'y a pas de cours le mercredi après-midi. »",
+        "structure": "Forme à observer : Les articles et il y a. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Les articles indéfinis, définis et l'expression il y a.",
+        "examples": [
+          "Il y a un tableau dans la salle.",
+          "La bibliothèque du collège est grande.",
+          "Dans mon sac, il y a des livres.",
+          "Le mercredi après-midi, il n'y a pas de cours."
         ]
       },
       "listeningComprehension": null
@@ -21763,12 +21919,12 @@
             "difficulty": "application",
             "options": [
               {
-                "id": "a",
-                "text": "au"
-              },
-              {
                 "id": "b",
                 "text": "à la"
+              },
+              {
+                "id": "a",
+                "text": "au"
               },
               {
                 "id": "c",
@@ -21811,16 +21967,16 @@
             "difficulty": "analysis",
             "options": [
               {
-                "id": "a",
-                "text": "te reposer"
-              },
-              {
                 "id": "b",
                 "text": "reposer"
               },
               {
                 "id": "c",
                 "text": "se reposer"
+              },
+              {
+                "id": "a",
+                "text": "te reposer"
               },
               {
                 "id": "d",
@@ -21839,16 +21995,16 @@
                 "text": "se sent"
               },
               {
-                "id": "b",
-                "text": "se sentent"
-              },
-              {
                 "id": "c",
                 "text": "sentent"
               },
               {
                 "id": "d",
                 "text": "se sens"
+              },
+              {
+                "id": "b",
+                "text": "se sentent"
               }
             ]
           },
@@ -21859,12 +22015,12 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "J’ai mal au gorge."
-              },
-              {
                 "id": "b",
                 "text": "J’ai mal à la gorge."
+              },
+              {
+                "id": "a",
+                "text": "J’ai mal au gorge."
               },
               {
                 "id": "c",
@@ -21907,16 +22063,16 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Tu dois te reposer pendant deux jours."
-              },
-              {
                 "id": "b",
                 "text": "Tu dois reposer pendant deux jours."
               },
               {
                 "id": "c",
                 "text": "Tu dois se reposer pendant deux jours."
+              },
+              {
+                "id": "a",
+                "text": "Tu dois te reposer pendant deux jours."
               },
               {
                 "id": "d",
@@ -21935,19 +22091,31 @@
                 "text": "Ils se sent beaucoup mieux aujourd’hui."
               },
               {
-                "id": "b",
-                "text": "Ils se sentent beaucoup mieux aujourd’hui."
-              },
-              {
                 "id": "c",
                 "text": "Ils sentent beaucoup mieux aujourd’hui."
               },
               {
                 "id": "d",
                 "text": "Ils se sens beaucoup mieux aujourd’hui."
+              },
+              {
+                "id": "b",
+                "text": "Ils se sentent beaucoup mieux aujourd’hui."
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Avoir mal à... et les verbes pronominaux",
+        "definition": "« Avoir mal à » + partie du corps décrit une douleur : j’ai mal à la tête, à la gorge, au ventre. Les verbes pronominaux (se sentir, se reposer) utilisent un pronom réfléchi qui s’accorde avec le sujet : je me sens, tu te sens, il/elle se sent, nous nous sentons.",
+        "structure": "Forme à observer : Avoir mal à... et les verbes pronominaux. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Décrire un symptôme et parler du corps avec les verbes pronominaux.",
+        "examples": [
+          "J’ai mal à la gorge.",
+          "Je me sens fatiguée depuis ce matin.",
+          "Tu dois te reposer pendant deux jours.",
+          "Ils se sentent beaucoup mieux aujourd’hui."
         ]
       },
       "listeningComprehension": null
@@ -22032,12 +22200,12 @@
             "difficulty": "application",
             "options": [
               {
-                "id": "a",
-                "text": "Je veux ce stage."
-              },
-              {
                 "id": "b",
                 "text": "Je voudrais ce stage."
+              },
+              {
+                "id": "a",
+                "text": "Je veux ce stage."
               },
               {
                 "id": "c",
@@ -22084,12 +22252,12 @@
                 "text": "Tu"
               },
               {
-                "id": "b",
-                "text": "Vous"
-              },
-              {
                 "id": "c",
                 "text": "Toi"
+              },
+              {
+                "id": "b",
+                "text": "Vous"
               },
               {
                 "id": "d",
@@ -22112,12 +22280,12 @@
                 "text": "À plus !"
               },
               {
-                "id": "c",
-                "text": "Dans l’attente de votre réponse, je vous prie d’agréer mes salutations distinguées."
-              },
-              {
                 "id": "d",
                 "text": "Salut, à bientôt !"
+              },
+              {
+                "id": "c",
+                "text": "Dans l’attente de votre réponse, je vous prie d’agréer mes salutations distinguées."
               }
             ]
           },
@@ -22128,12 +22296,12 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Je veux ce stage."
-              },
-              {
                 "id": "b",
                 "text": "Je voudrais ce stage."
+              },
+              {
+                "id": "a",
+                "text": "Je veux ce stage."
               },
               {
                 "id": "c",
@@ -22180,12 +22348,12 @@
                 "text": "Tu"
               },
               {
-                "id": "b",
-                "text": "Vous"
-              },
-              {
                 "id": "c",
                 "text": "Toi"
+              },
+              {
+                "id": "b",
+                "text": "Vous"
               },
               {
                 "id": "d",
@@ -22208,15 +22376,27 @@
                 "text": "À plus !"
               },
               {
-                "id": "c",
-                "text": "Dans l’attente de votre réponse, je vous prie d’agréer mes salutations distinguées."
-              },
-              {
                 "id": "d",
                 "text": "Salut, à bientôt !"
+              },
+              {
+                "id": "c",
+                "text": "Dans l’attente de votre réponse, je vous prie d’agréer mes salutations distinguées."
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Le conditionnel de politesse dans un contexte professionnel",
+        "definition": "Dans un contexte professionnel, on remplace « je veux » par « je voudrais », « pouvez-vous » par « pourriez-vous », et « tu » par « vous ». Cela rend le discours plus poli et adapté à une situation formelle : « Je voudrais ce stage. Pourriez-vous me donner plus d’informations ? »",
+        "structure": "Forme à observer : Le conditionnel de politesse dans un contexte professionnel. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Utiliser le conditionnel de politesse pour un langage formel.",
+        "examples": [
+          "Je voudrais ce stage.",
+          "Pourriez-vous me donner plus d’informations sur le poste ?",
+          "Vous",
+          "Dans l’attente de votre réponse, je vous prie d’agréer mes salutations distinguées."
         ]
       },
       "listeningComprehension": null
@@ -22350,12 +22530,12 @@
                 "text": "relit"
               },
               {
-                "id": "o2",
-                "text": "relire"
-              },
-              {
                 "id": "o3",
                 "text": "relu"
+              },
+              {
+                "id": "o2",
+                "text": "relire"
               },
               {
                 "id": "o4",
@@ -22374,16 +22554,16 @@
                 "text": "est"
               },
               {
-                "id": "o2",
-                "text": "soit"
-              },
-              {
                 "id": "o3",
                 "text": "sera"
               },
               {
                 "id": "o4",
                 "text": "était toujours"
+              },
+              {
+                "id": "o2",
+                "text": "soit"
               }
             ]
           },
@@ -22442,16 +22622,16 @@
             "difficulty": "hard",
             "options": [
               {
-                "id": "o1",
-                "text": "Quand bien même il réussirait, le débat resterait ouvert."
-              },
-              {
                 "id": "o2",
                 "text": "Parce qu’il réussit, le débat cesse."
               },
               {
                 "id": "o3",
                 "text": "Il réussit afin que le débat continue."
+              },
+              {
+                "id": "o1",
+                "text": "Quand bien même il réussirait, le débat resterait ouvert."
               },
               {
                 "id": "o4",
@@ -22470,19 +22650,31 @@
                 "text": "Bien que le texte est fluide"
               },
               {
-                "id": "o2",
-                "text": "Bien que le texte soit fluide"
-              },
-              {
                 "id": "o3",
                 "text": "Bien que le texte sera fluide"
               },
               {
                 "id": "o4",
                 "text": "Bien que le texte être fluide"
+              },
+              {
+                "id": "o2",
+                "text": "Bien que le texte soit fluide"
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "La concession avancée : quoique, quand bien même, avoir beau",
+        "definition": "La concession met en relation deux faits dont le second résiste au premier : « Quoique l’outil soit rapide, il simplifie le style. » « Quand bien même il progresserait, une révision resterait nécessaire. » « Elle a beau corriger le texte, certaines nuances lui échappent. »",
+        "structure": "Forme à observer : La concession avancée : quoique, quand bien même, avoir beau. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Maîtriser la concession avancée : quoique, quand bien même, avoir beau dans un contexte argumentatif C1.",
+        "examples": [
+          "Quoique l’outil soit rapide, il simplifie parfois le style.",
+          "Quand bien même la machine progresserait, une révision resterait nécessaire.",
+          "Camila a beau relire le résultat, une nuance lui échappe.",
+          "Quoique cette version soit fluide, elle manque de rythme."
         ]
       },
       "listeningComprehension": null
@@ -26744,12 +26936,12 @@
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
-                "id": "b",
-                "text": "La présence simultanée de deux modes est corrélée à de meilleurs scores, sans pour autant en constituer nécessairement la cause."
-              },
-              {
                 "id": "c",
                 "text": "Parce que la question complexe, alors le résultat forcément."
+              },
+              {
+                "id": "b",
+                "text": "La présence simultanée de deux modes est corrélée à de meilleurs scores, sans pour autant en constituer nécessairement la cause."
               },
               {
                 "id": "d",
@@ -26772,12 +26964,12 @@
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
-                "id": "c",
-                "text": "Elle emploie les connecteurs de cause, corrélation et conséquence afin de éviter de transformer une association statistique en mécanisme causal : « La présence simultanée de deux modes est corrélée à de meilleurs scores, sans pour autant en constituer nécessairement la cause. »"
-              },
-              {
                 "id": "d",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
+              },
+              {
+                "id": "c",
+                "text": "Elle emploie les connecteurs de cause, corrélation et conséquence afin de éviter de transformer une association statistique en mécanisme causal : « La présence simultanée de deux modes est corrélée à de meilleurs scores, sans pour autant en constituer nécessairement la cause. »"
               }
             ]
           },
@@ -26788,16 +26980,16 @@
             "difficulty": "analysis",
             "options": [
               {
+                "id": "c",
+                "text": "Puisque les légendes répétaient exactement la narration, elles ont pu accroître la charge cognitive."
+              },
+              {
                 "id": "a",
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
                 "id": "b",
                 "text": "Parce que la question complexe, alors le résultat forcément."
-              },
-              {
-                "id": "c",
-                "text": "Puisque les légendes répétaient exactement la narration, elles ont pu accroître la charge cognitive."
               },
               {
                 "id": "d",
@@ -26816,16 +27008,16 @@
                 "text": "Elle remplace les preuves par une affirmation absolue."
               },
               {
+                "id": "d",
+                "text": "Elle emploie les connecteurs de cause, corrélation et conséquence afin de éviter de transformer une association statistique en mécanisme causal : « Puisque les légendes répétaient exactement la narration, elles ont pu accroître la charge cognitive. »"
+              },
+              {
                 "id": "b",
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
                 "id": "c",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
-              },
-              {
-                "id": "d",
-                "text": "Elle emploie les connecteurs de cause, corrélation et conséquence afin de éviter de transformer une association statistique en mécanisme causal : « Puisque les légendes répétaient exactement la narration, elles ont pu accroître la charge cognitive. »"
               }
             ]
           },
@@ -26844,12 +27036,12 @@
                 "text": "Parce que la question complexe, alors le résultat forcément."
               },
               {
-                "id": "c",
-                "text": "La thèse est étant vraie par les mots qui ont utilisé."
-              },
-              {
                 "id": "d",
                 "text": "Les résultats diffèrent selon la complexité du support, de sorte qu’une recommandation unique serait prématurée."
+              },
+              {
+                "id": "c",
+                "text": "La thèse est étant vraie par les mots qui ont utilisé."
               }
             ]
           },
@@ -26859,10 +27051,6 @@
             "prompt": "Pourquoi l’exemple 4 convient-il à cette unité ?",
             "difficulty": "precision",
             "options": [
-              {
-                "id": "a",
-                "text": "Elle emploie les connecteurs de cause, corrélation et conséquence afin de éviter de transformer une association statistique en mécanisme causal : « Les résultats diffèrent selon la complexité du support, de sorte qu’une recommandation unique serait prématurée. »"
-              },
               {
                 "id": "b",
                 "text": "Elle remplace les preuves par une affirmation absolue."
@@ -26874,6 +27062,10 @@
               {
                 "id": "d",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
+              },
+              {
+                "id": "a",
+                "text": "Elle emploie les connecteurs de cause, corrélation et conséquence afin de éviter de transformer une association statistique en mécanisme causal : « Les résultats diffèrent selon la complexité du support, de sorte qu’une recommandation unique serait prématurée. »"
               }
             ]
           }
@@ -27025,12 +27217,12 @@
             "difficulty": "application",
             "options": [
               {
-                "id": "a",
-                "text": "veut"
-              },
-              {
                 "id": "b",
                 "text": "voulait"
+              },
+              {
+                "id": "a",
+                "text": "veut"
               },
               {
                 "id": "c",
@@ -27101,16 +27293,16 @@
                 "text": "Le futur"
               },
               {
-                "id": "b",
-                "text": "L’imparfait"
-              },
-              {
                 "id": "c",
                 "text": "Le conditionnel"
               },
               {
                 "id": "d",
                 "text": "Le subjonctif"
+              },
+              {
+                "id": "b",
+                "text": "L’imparfait"
               }
             ]
           },
@@ -27121,12 +27313,12 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Elle a dit qu’elle veut explorer ce thème."
-              },
-              {
                 "id": "b",
                 "text": "Elle a dit qu’elle voulait explorer ce thème."
+              },
+              {
+                "id": "a",
+                "text": "Elle a dit qu’elle veut explorer ce thème."
               },
               {
                 "id": "c",
@@ -27197,16 +27389,16 @@
                 "text": "Le futur"
               },
               {
-                "id": "b",
-                "text": "L’imparfait"
-              },
-              {
                 "id": "c",
                 "text": "Le conditionnel"
               },
               {
                 "id": "d",
                 "text": "Le subjonctif"
+              },
+              {
+                "id": "b",
+                "text": "L’imparfait"
               }
             ]
           }
@@ -27385,12 +27577,12 @@
                 "text": "m'habille"
               },
               {
-                "id": "b",
-                "text": "t'habilles"
-              },
-              {
                 "id": "c",
                 "text": "s'habille"
+              },
+              {
+                "id": "b",
+                "text": "t'habilles"
               },
               {
                 "id": "d",
@@ -27433,16 +27625,16 @@
                 "text": "jamais"
               },
               {
-                "id": "b",
-                "text": "souvent"
-              },
-              {
                 "id": "c",
                 "text": "rarement"
               },
               {
                 "id": "d",
                 "text": "personne"
+              },
+              {
+                "id": "b",
+                "text": "souvent"
               }
             ]
           },
@@ -27481,12 +27673,12 @@
                 "text": "Léa m'habille rapidement le matin."
               },
               {
-                "id": "b",
-                "text": "Léa t'habilles rapidement le matin."
-              },
-              {
                 "id": "c",
                 "text": "Léa s'habille rapidement le matin."
+              },
+              {
+                "id": "b",
+                "text": "Léa t'habilles rapidement le matin."
               },
               {
                 "id": "d",
@@ -27529,19 +27721,31 @@
                 "text": "Camila mange jamais à la cantine avec ses amis."
               },
               {
-                "id": "b",
-                "text": "Camila mange souvent à la cantine avec ses amis."
-              },
-              {
                 "id": "c",
                 "text": "Camila mange rarement à la cantine avec ses amis."
               },
               {
                 "id": "d",
                 "text": "Camila mange personne à la cantine avec ses amis."
+              },
+              {
+                "id": "b",
+                "text": "Camila mange souvent à la cantine avec ses amis."
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Les verbes en -er et les verbes pronominaux",
+        "definition": "Les verbes réguliers en -er suivent un modèle : parler → je parle, tu parles, il/elle parle, nous parlons, vous parlez, ils/elles parlent. Les verbes pronominaux ont un pronom réfléchi devant le verbe : se lever (je me lève, tu te lèves, il/elle se lève), se laver (je me lave), s'habiller (je m'habille). Les adverbes de fréquence précisent une habitude : toujours, souvent, parfois, rarement, jamais. Exemple : « Je me lève toujours à six heures et demie. »",
+        "structure": "Forme à observer : Les verbes en -er et les verbes pronominaux. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "La conjugaison des verbes réguliers en -er et des verbes pronominaux.",
+        "examples": [
+          "Je me lève à six heures et demie.",
+          "Léa s'habille rapidement le matin.",
+          "Nous parlons français en classe.",
+          "Camila mange souvent à la cantine avec ses amis."
         ]
       },
       "listeningComprehension": null
@@ -27626,12 +27830,12 @@
             "difficulty": "application",
             "options": [
               {
-                "id": "a",
-                "text": "réveille"
-              },
-              {
                 "id": "b",
                 "text": "me réveille"
+              },
+              {
+                "id": "a",
+                "text": "réveille"
               },
               {
                 "id": "c",
@@ -27682,12 +27886,12 @@
                 "text": "Souvent"
               },
               {
-                "id": "c",
-                "text": "Parfois"
-              },
-              {
                 "id": "d",
                 "text": "Jamais"
+              },
+              {
+                "id": "c",
+                "text": "Parfois"
               }
             ]
           },
@@ -27702,16 +27906,16 @@
                 "text": "couchons"
               },
               {
-                "id": "b",
-                "text": "nous couchons"
-              },
-              {
                 "id": "c",
                 "text": "se couchent"
               },
               {
                 "id": "d",
                 "text": "couche"
+              },
+              {
+                "id": "b",
+                "text": "nous couchons"
               }
             ]
           },
@@ -27722,12 +27926,12 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Je réveille toujours à sept heures."
-              },
-              {
                 "id": "b",
                 "text": "Je me réveille toujours à sept heures."
+              },
+              {
+                "id": "a",
+                "text": "Je réveille toujours à sept heures."
               },
               {
                 "id": "c",
@@ -27778,12 +27982,12 @@
                 "text": "Souvent"
               },
               {
-                "id": "c",
-                "text": "Parfois"
-              },
-              {
                 "id": "d",
                 "text": "Jamais"
+              },
+              {
+                "id": "c",
+                "text": "Parfois"
               }
             ]
           },
@@ -27798,19 +28002,31 @@
                 "text": "Nous couchons vers vingt-deux heures."
               },
               {
-                "id": "b",
-                "text": "Nous nous couchons vers vingt-deux heures."
-              },
-              {
                 "id": "c",
                 "text": "Nous se couchent vers vingt-deux heures."
               },
               {
                 "id": "d",
                 "text": "Nous couche vers vingt-deux heures."
+              },
+              {
+                "id": "b",
+                "text": "Nous nous couchons vers vingt-deux heures."
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Les adverbes de fréquence et les verbes pronominaux",
+        "definition": "Les adverbes de fréquence (toujours, souvent, parfois, rarement, jamais) se placent généralement après le verbe conjugué : « Je me réveille toujours à sept heures. » Les verbes pronominaux (se réveiller, se laver, s’habiller, se coucher) utilisent un pronom réfléchi qui change avec le sujet : je me réveille, tu te réveilles, il/elle se réveille, nous nous réveillons.",
+        "structure": "Forme à observer : Les adverbes de fréquence et les verbes pronominaux. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Exprimer la fréquence d’une action et décrire des actions réfléchies.",
+        "examples": [
+          "Je me réveille toujours à sept heures.",
+          "Léa et Camila s’habillent ensemble le matin.",
+          "Jamais",
+          "Nous nous couchons vers vingt-deux heures."
         ]
       },
       "listeningComprehension": null
@@ -27895,12 +28111,12 @@
             "difficulty": "application",
             "options": [
               {
-                "id": "a",
-                "text": "parce que"
-              },
-              {
                 "id": "b",
                 "text": "tandis que"
+              },
+              {
+                "id": "a",
+                "text": "parce que"
               },
               {
                 "id": "c",
@@ -27923,12 +28139,12 @@
                 "text": "Parce que"
               },
               {
-                "id": "b",
-                "text": "Donc"
-              },
-              {
                 "id": "c",
                 "text": "Alors que"
+              },
+              {
+                "id": "b",
+                "text": "Donc"
               },
               {
                 "id": "d",
@@ -27943,16 +28159,16 @@
             "difficulty": "analysis",
             "options": [
               {
-                "id": "a",
-                "text": "tandis que"
-              },
-              {
                 "id": "b",
                 "text": "parce que"
               },
               {
                 "id": "c",
                 "text": "donc"
+              },
+              {
+                "id": "a",
+                "text": "tandis que"
               },
               {
                 "id": "d",
@@ -27971,16 +28187,16 @@
                 "text": "Je mange vite parce que je suis pressé."
               },
               {
-                "id": "b",
-                "text": "Je mange lentement, tandis que mon frère mange vite."
-              },
-              {
                 "id": "c",
                 "text": "Je mange donc je suis en retard."
               },
               {
                 "id": "d",
                 "text": "Je mange si j’ai faim."
+              },
+              {
+                "id": "b",
+                "text": "Je mange lentement, tandis que mon frère mange vite."
               }
             ]
           },
@@ -27991,12 +28207,12 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "En France, on dîne tôt, parce que à Saint-Domingue, on dîne plus tard."
-              },
-              {
                 "id": "b",
                 "text": "En France, on dîne tôt, tandis que à Saint-Domingue, on dîne plus tard."
+              },
+              {
+                "id": "a",
+                "text": "En France, on dîne tôt, parce que à Saint-Domingue, on dîne plus tard."
               },
               {
                 "id": "c",
@@ -28019,12 +28235,12 @@
                 "text": "Parce que"
               },
               {
-                "id": "b",
-                "text": "Donc"
-              },
-              {
                 "id": "c",
                 "text": "Alors que"
+              },
+              {
+                "id": "b",
+                "text": "Donc"
               },
               {
                 "id": "d",
@@ -28039,16 +28255,16 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Les Français passent du temps à table, tandis que les repas sont plus rapides ailleurs."
-              },
-              {
                 "id": "b",
                 "text": "Les Français passent du temps à table, parce que les repas sont plus rapides ailleurs."
               },
               {
                 "id": "c",
                 "text": "Les Français passent du temps à table, donc les repas sont plus rapides ailleurs."
+              },
+              {
+                "id": "a",
+                "text": "Les Français passent du temps à table, tandis que les repas sont plus rapides ailleurs."
               },
               {
                 "id": "d",
@@ -28067,19 +28283,31 @@
                 "text": "Je mange vite parce que je suis pressé."
               },
               {
-                "id": "b",
-                "text": "Je mange lentement, tandis que mon frère mange vite."
-              },
-              {
                 "id": "c",
                 "text": "Je mange donc je suis en retard."
               },
               {
                 "id": "d",
                 "text": "Je mange si j’ai faim."
+              },
+              {
+                "id": "b",
+                "text": "Je mange lentement, tandis que mon frère mange vite."
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Les connecteurs d’opposition : tandis que, alors que",
+        "definition": "« Tandis que » et « alors que » servent à opposer deux idées dans une même phrase : « En France, on dîne vers vingt heures, tandis qu’à Saint-Domingue, on dîne souvent plus tard. » Ils sont suivis d’un sujet et d’un verbe conjugué, comme « parce que ».",
+        "structure": "Forme à observer : Les connecteurs d’opposition : tandis que, alors que. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Comparer deux idées opposées avec des connecteurs.",
+        "examples": [
+          "En France, on dîne tôt, tandis que à Saint-Domingue, on dîne plus tard.",
+          "Alors que",
+          "Les Français passent du temps à table, tandis que les repas sont plus rapides ailleurs.",
+          "Je mange lentement, tandis que mon frère mange vite."
         ]
       },
       "listeningComprehension": null
@@ -28209,16 +28437,16 @@
             "difficulty": "medium",
             "options": [
               {
-                "id": "o1",
-                "text": "était partie"
-              },
-              {
                 "id": "o2",
                 "text": "partit demain"
               },
               {
                 "id": "o3",
                 "text": "partait après"
+              },
+              {
+                "id": "o1",
+                "text": "était partie"
               },
               {
                 "id": "o4",
@@ -28233,10 +28461,6 @@
             "difficulty": "medium",
             "options": [
               {
-                "id": "o1",
-                "text": "du discours indirect libre"
-              },
-              {
                 "id": "o2",
                 "text": "d’un ordre direct"
               },
@@ -28247,6 +28471,10 @@
               {
                 "id": "o4",
                 "text": "d’un dialogue cité"
+              },
+              {
+                "id": "o1",
+                "text": "du discours indirect libre"
               }
             ]
           },
@@ -28281,12 +28509,12 @@
             "difficulty": "medium",
             "options": [
               {
-                "id": "o1",
-                "text": "installer un cadre ou une durée"
-              },
-              {
                 "id": "o2",
                 "text": "annoncer un événement futur"
+              },
+              {
+                "id": "o1",
+                "text": "installer un cadre ou une durée"
               },
               {
                 "id": "o3",
@@ -28305,16 +28533,16 @@
             "difficulty": "hard",
             "options": [
               {
-                "id": "o1",
-                "text": "une action antérieure à un autre passé"
-              },
-              {
                 "id": "o2",
                 "text": "une hypothèse future"
               },
               {
                 "id": "o3",
                 "text": "un fait simultané présent"
+              },
+              {
+                "id": "o1",
+                "text": "une action antérieure à un autre passé"
               },
               {
                 "id": "o4",
@@ -28333,19 +28561,31 @@
                 "text": "Camila pensa : « Je dois comprendre. »"
               },
               {
-                "id": "o2",
-                "text": "Pourquoi avait-on tant simplifié cette histoire ? Camila referma la lettre."
-              },
-              {
                 "id": "o3",
                 "text": "Camila dit qu’elle comprenait."
               },
               {
                 "id": "o4",
                 "text": "La lettre était ancienne."
+              },
+              {
+                "id": "o2",
+                "text": "Pourquoi avait-on tant simplifié cette histoire ? Camila referma la lettre."
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Les temps du récit et le discours indirect libre",
+        "definition": "Le passé simple structure les événements d’un récit soutenu, l’imparfait installe le cadre et le plus-que-parfait marque l’antériorité. Le discours indirect libre rapporte une pensée sans verbe introducteur ni guillemets, en conservant la perspective du personnage.",
+        "structure": "Forme à observer : Les temps du récit et le discours indirect libre. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Maîtriser les temps du récit et le discours indirect libre dans un contexte argumentatif C1.",
+        "examples": [
+          "La grand-mère lui confia une boîte, puis Camila l’ouvrit.",
+          "La boîte attendait depuis des années dans l’armoire.",
+          "La grande-tante était partie en France avant d’écrire ces lettres.",
+          "du discours indirect libre"
         ]
       },
       "listeningComprehension": null
@@ -32605,12 +32845,12 @@
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
-                "id": "b",
-                "text": "Selon l’enseignante, la négociation avait facilité la compréhension ; les auteurs, eux, attribuent une partie du gain à la répétition."
-              },
-              {
                 "id": "c",
                 "text": "Parce que la question complexe, alors le résultat forcément."
+              },
+              {
+                "id": "b",
+                "text": "Selon l’enseignante, la négociation avait facilité la compréhension ; les auteurs, eux, attribuent une partie du gain à la répétition."
               },
               {
                 "id": "d",
@@ -32633,12 +32873,12 @@
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
-                "id": "c",
-                "text": "Elle emploie la polyphonie et le discours rapporté complexe afin de attribuer correctement résultats, interprétations et réserves aux chercheurs : « Selon l’enseignante, la négociation avait facilité la compréhension ; les auteurs, eux, attribuent une partie du gain à la répétition. »"
-              },
-              {
                 "id": "d",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
+              },
+              {
+                "id": "c",
+                "text": "Elle emploie la polyphonie et le discours rapporté complexe afin de attribuer correctement résultats, interprétations et réserves aux chercheurs : « Selon l’enseignante, la négociation avait facilité la compréhension ; les auteurs, eux, attribuent une partie du gain à la répétition. »"
               }
             ]
           },
@@ -32649,16 +32889,16 @@
             "difficulty": "analysis",
             "options": [
               {
+                "id": "c",
+                "text": "Un participant affirme avoir remarqué ses lacunes, tandis qu’un autre dit avoir seulement reformulé pour terminer la tâche."
+              },
+              {
                 "id": "a",
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
                 "id": "b",
                 "text": "Parce que la question complexe, alors le résultat forcément."
-              },
-              {
-                "id": "c",
-                "text": "Un participant affirme avoir remarqué ses lacunes, tandis qu’un autre dit avoir seulement reformulé pour terminer la tâche."
               },
               {
                 "id": "d",
@@ -32677,16 +32917,16 @@
                 "text": "Elle remplace les preuves par une affirmation absolue."
               },
               {
+                "id": "d",
+                "text": "Elle emploie la polyphonie et le discours rapporté complexe afin de attribuer correctement résultats, interprétations et réserves aux chercheurs : « Un participant affirme avoir remarqué ses lacunes, tandis qu’un autre dit avoir seulement reformulé pour terminer la tâche. »"
+              },
+              {
                 "id": "b",
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
                 "id": "c",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
-              },
-              {
-                "id": "d",
-                "text": "Elle emploie la polyphonie et le discours rapporté complexe afin de attribuer correctement résultats, interprétations et réserves aux chercheurs : « Un participant affirme avoir remarqué ses lacunes, tandis qu’un autre dit avoir seulement reformulé pour terminer la tâche. »"
               }
             ]
           },
@@ -32705,12 +32945,12 @@
                 "text": "Parce que la question complexe, alors le résultat forcément."
               },
               {
-                "id": "c",
-                "text": "La thèse est étant vraie par les mots qui ont utilisé."
-              },
-              {
                 "id": "d",
                 "text": "Les chercheurs rappellent que ce que les apprenants déclarent ne se confond pas avec ce que l’analyse permet d’inférer."
+              },
+              {
+                "id": "c",
+                "text": "La thèse est étant vraie par les mots qui ont utilisé."
               }
             ]
           },
@@ -32720,10 +32960,6 @@
             "prompt": "Pourquoi l’exemple 4 convient-il à cette unité ?",
             "difficulty": "precision",
             "options": [
-              {
-                "id": "a",
-                "text": "Elle emploie la polyphonie et le discours rapporté complexe afin de attribuer correctement résultats, interprétations et réserves aux chercheurs : « Les chercheurs rappellent que ce que les apprenants déclarent ne se confond pas avec ce que l’analyse permet d’inférer. »"
-              },
               {
                 "id": "b",
                 "text": "Elle remplace les preuves par une affirmation absolue."
@@ -32735,6 +32971,10 @@
               {
                 "id": "d",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
+              },
+              {
+                "id": "a",
+                "text": "Elle emploie la polyphonie et le discours rapporté complexe afin de attribuer correctement résultats, interprétations et réserves aux chercheurs : « Les chercheurs rappellent que ce que les apprenants déclarent ne se confond pas avec ce que l’analyse permet d’inférer. »"
               }
             ]
           }
@@ -32886,12 +33126,12 @@
             "difficulty": "application",
             "options": [
               {
-                "id": "a",
-                "text": "Ce que"
-              },
-              {
                 "id": "b",
                 "text": "Ce qui"
+              },
+              {
+                "id": "a",
+                "text": "Ce que"
               },
               {
                 "id": "c",
@@ -32934,16 +33174,16 @@
             "difficulty": "analysis",
             "options": [
               {
-                "id": "a",
-                "text": "que"
-              },
-              {
                 "id": "b",
                 "text": "qui"
               },
               {
                 "id": "c",
                 "text": "dont"
+              },
+              {
+                "id": "a",
+                "text": "que"
               },
               {
                 "id": "d",
@@ -32962,16 +33202,16 @@
                 "text": "C’est le meilleur film"
               },
               {
-                "id": "b",
-                "text": "C’est l’un des meilleurs films"
-              },
-              {
                 "id": "c",
                 "text": "C’est un film nul"
               },
               {
                 "id": "d",
                 "text": "C’est un film parfait"
+              },
+              {
+                "id": "b",
+                "text": "C’est l’un des meilleurs films"
               }
             ]
           },
@@ -32982,12 +33222,12 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Ce que m’a le plus marquée, c’est le jeu des actrices."
-              },
-              {
                 "id": "b",
                 "text": "Ce qui m’a le plus marquée, c’est le jeu des actrices."
+              },
+              {
+                "id": "a",
+                "text": "Ce que m’a le plus marquée, c’est le jeu des actrices."
               },
               {
                 "id": "c",
@@ -33030,16 +33270,16 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "C’est l’un des films les plus émouvants que j’aie vus."
-              },
-              {
                 "id": "b",
                 "text": "C’est l’un des films les plus émouvants qui j’aie vus."
               },
               {
                 "id": "c",
                 "text": "C’est l’un des films les plus émouvants dont j’aie vus."
+              },
+              {
+                "id": "a",
+                "text": "C’est l’un des films les plus émouvants que j’aie vus."
               },
               {
                 "id": "d",
@@ -33058,16 +33298,16 @@
                 "text": "C’est le meilleur film"
               },
               {
-                "id": "b",
-                "text": "C’est l’un des meilleurs films"
-              },
-              {
                 "id": "c",
                 "text": "C’est un film nul"
               },
               {
                 "id": "d",
                 "text": "C’est un film parfait"
+              },
+              {
+                "id": "b",
+                "text": "C’est l’un des meilleurs films"
               }
             ]
           }
@@ -33291,10 +33531,6 @@
             "difficulty": "analysis",
             "options": [
               {
-                "id": "a",
-                "text": "Quand"
-              },
-              {
                 "id": "b",
                 "text": "Comment"
               },
@@ -33305,6 +33541,10 @@
               {
                 "id": "d",
                 "text": "Qui"
+              },
+              {
+                "id": "a",
+                "text": "Quand"
               }
             ]
           },
@@ -33387,10 +33627,6 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Quand est ton anniversaire ?"
-              },
-              {
                 "id": "b",
                 "text": "Comment est ton anniversaire ?"
               },
@@ -33401,9 +33637,25 @@
               {
                 "id": "d",
                 "text": "Qui est ton anniversaire ?"
+              },
+              {
+                "id": "a",
+                "text": "Quand est ton anniversaire ?"
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Dire l'heure et les dates",
+        "definition": "Pour dire l'heure : « Il est huit heures. » « Il est dix-huit heures trente. » Pour les dates : « le quinze octobre » (jour + mois, sans article devant le mois). On utilise à pour l'heure (à dix-huit heures), en pour le mois ou l'année (en octobre, en deux mille vingt-cinq) et le pour les jours habituels (le lundi, je vais au sport). Les questions quand ? et à quelle heure ? servent à demander le moment : « Quand est la fête ? » « À quelle heure commence-t-elle ? » Les nombres ordinaux : premier, deuxième, troisième, quatrième...",
+        "structure": "Forme à observer : Dire l'heure et les dates. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "L'heure, les jours, les mois et les prépositions à/en/le.",
+        "examples": [
+          "La fête est à dix-huit heures.",
+          "Léa est née en octobre.",
+          "Le lundi, j'ai cours de français.",
+          "Quand est ton anniversaire ?"
         ]
       },
       "listeningComprehension": null
@@ -33488,12 +33740,12 @@
             "difficulty": "application",
             "options": [
               {
-                "id": "a",
-                "text": "a"
-              },
-              {
                 "id": "b",
                 "text": "est"
+              },
+              {
+                "id": "a",
+                "text": "a"
               },
               {
                 "id": "c",
@@ -33512,12 +33764,12 @@
             "difficulty": "application",
             "options": [
               {
-                "id": "a",
-                "text": "sont"
-              },
-              {
                 "id": "b",
                 "text": "ont"
+              },
+              {
+                "id": "a",
+                "text": "sont"
               },
               {
                 "id": "c",
@@ -33540,12 +33792,12 @@
                 "text": "avons"
               },
               {
-                "id": "b",
-                "text": "sommes"
-              },
-              {
                 "id": "c",
                 "text": "êtes"
+              },
+              {
+                "id": "b",
+                "text": "sommes"
               },
               {
                 "id": "d",
@@ -33568,12 +33820,12 @@
                 "text": "Voir"
               },
               {
-                "id": "c",
-                "text": "Arriver"
-              },
-              {
                 "id": "d",
                 "text": "Acheter"
+              },
+              {
+                "id": "c",
+                "text": "Arriver"
               }
             ]
           },
@@ -33584,12 +33836,12 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Camila a tombée de vélo."
-              },
-              {
                 "id": "b",
                 "text": "Camila est tombée de vélo."
+              },
+              {
+                "id": "a",
+                "text": "Camila a tombée de vélo."
               },
               {
                 "id": "c",
@@ -33608,12 +33860,12 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Léa et Camila sont allées à Paris."
-              },
-              {
                 "id": "b",
                 "text": "Léa et Camila ont allées à Paris."
+              },
+              {
+                "id": "a",
+                "text": "Léa et Camila sont allées à Paris."
               },
               {
                 "id": "c",
@@ -33636,12 +33888,12 @@
                 "text": "Nous avons montés à la tour Eiffel."
               },
               {
-                "id": "b",
-                "text": "Nous sommes montés à la tour Eiffel."
-              },
-              {
                 "id": "c",
                 "text": "Nous êtes montés à la tour Eiffel."
+              },
+              {
+                "id": "b",
+                "text": "Nous sommes montés à la tour Eiffel."
               },
               {
                 "id": "d",
@@ -33664,15 +33916,27 @@
                 "text": "Voir"
               },
               {
-                "id": "c",
-                "text": "Arriver"
-              },
-              {
                 "id": "d",
                 "text": "Acheter"
+              },
+              {
+                "id": "c",
+                "text": "Arriver"
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Le passé composé avec être",
+        "definition": "Certains verbes forment leur passé composé avec être plutôt qu’avoir (aller, venir, arriver, partir, monter, descendre, tomber, rester, naître, mourir...). Avec être, le participe passé s’accorde en genre et en nombre avec le sujet : « Elle est allée à Paris. Ils sont montés à la tour Eiffel. Nous sommes parties. »",
+        "structure": "Forme à observer : Le passé composé avec être. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Former le passé composé avec être et faire l’accord du participe passé.",
+        "examples": [
+          "Camila est tombée de vélo.",
+          "Léa et Camila sont allées à Paris.",
+          "Nous sommes montés à la tour Eiffel.",
+          "Arriver"
         ]
       },
       "listeningComprehension": null
@@ -33757,12 +34021,12 @@
             "difficulty": "application",
             "options": [
               {
-                "id": "a",
-                "text": "fais"
-              },
-              {
                 "id": "b",
                 "text": "fasses"
+              },
+              {
+                "id": "a",
+                "text": "fais"
               },
               {
                 "id": "c",
@@ -33809,12 +34073,12 @@
                 "text": "Cependant"
               },
               {
-                "id": "b",
-                "text": "D’une part"
-              },
-              {
                 "id": "c",
                 "text": "Donc"
+              },
+              {
+                "id": "b",
+                "text": "D’une part"
               },
               {
                 "id": "d",
@@ -33833,16 +34097,16 @@
                 "text": "Je pense que"
               },
               {
-                "id": "b",
-                "text": "Il est important que"
-              },
-              {
                 "id": "c",
                 "text": "Il est vrai que"
               },
               {
                 "id": "d",
                 "text": "Je sais que"
+              },
+              {
+                "id": "b",
+                "text": "Il est important que"
               }
             ]
           },
@@ -33853,12 +34117,12 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Il est important que tu fais attention à ta vie privée."
-              },
-              {
                 "id": "b",
                 "text": "Il est important que tu fasses attention à ta vie privée."
+              },
+              {
+                "id": "a",
+                "text": "Il est important que tu fais attention à ta vie privée."
               },
               {
                 "id": "c",
@@ -33905,12 +34169,12 @@
                 "text": "Cependant, les réseaux sociaux facilitent la communication."
               },
               {
-                "id": "b",
-                "text": "D’une part, les réseaux sociaux facilitent la communication."
-              },
-              {
                 "id": "c",
                 "text": "Donc, les réseaux sociaux facilitent la communication."
+              },
+              {
+                "id": "b",
+                "text": "D’une part, les réseaux sociaux facilitent la communication."
               },
               {
                 "id": "d",
@@ -33929,19 +34193,31 @@
                 "text": "Je pense que"
               },
               {
-                "id": "b",
-                "text": "Il est important que"
-              },
-              {
                 "id": "c",
                 "text": "Il est vrai que"
               },
               {
                 "id": "d",
                 "text": "Je sais que"
+              },
+              {
+                "id": "b",
+                "text": "Il est important que"
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Les connecteurs d’argumentation et le subjonctif introductif",
+        "definition": "« D’une part... d’autre part... » et « cependant » structurent une argumentation avec deux points de vue. « Il est important que » introduit le subjonctif présent : « Il est important que les jeunes fassent attention. » Le subjonctif de « faire » est je fasse, tu fasses, il/elle fasse.",
+        "structure": "Forme à observer : Les connecteurs d’argumentation et le subjonctif introductif. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Structurer une argumentation et introduire le subjonctif avec « il est important que ».",
+        "examples": [
+          "Il est important que tu fasses attention à ta vie privée.",
+          "Cependant",
+          "D’une part, les réseaux sociaux facilitent la communication.",
+          "Il est important que"
         ]
       },
       "listeningComprehension": null
@@ -34047,12 +34323,12 @@
             "difficulty": "easy",
             "options": [
               {
-                "id": "o1",
-                "text": "néanmoins"
-              },
-              {
                 "id": "o2",
                 "text": "parce que"
+              },
+              {
+                "id": "o1",
+                "text": "néanmoins"
               },
               {
                 "id": "o3",
@@ -34075,12 +34351,12 @@
                 "text": "ont"
               },
               {
-                "id": "o2",
-                "text": "aient"
-              },
-              {
                 "id": "o3",
                 "text": "auront"
+              },
+              {
+                "id": "o2",
+                "text": "aient"
               },
               {
                 "id": "o4",
@@ -34099,16 +34375,16 @@
                 "text": "supprime"
               },
               {
-                "id": "o2",
-                "text": "supprimer"
-              },
-              {
                 "id": "o3",
                 "text": "supprimé"
               },
               {
                 "id": "o4",
                 "text": "supprimant que"
+              },
+              {
+                "id": "o2",
+                "text": "supprimer"
               }
             ]
           },
@@ -34143,12 +34419,12 @@
             "difficulty": "medium",
             "options": [
               {
-                "id": "o1",
-                "text": "Au lieu de"
-              },
-              {
                 "id": "o2",
                 "text": "Bien que de"
+              },
+              {
+                "id": "o1",
+                "text": "Au lieu de"
               },
               {
                 "id": "o3",
@@ -34171,12 +34447,12 @@
                 "text": "C’est vrai mais bon."
               },
               {
-                "id": "o2",
-                "text": "Certes la règle est uniforme ; néanmoins, ses effets restent inégaux."
-              },
-              {
                 "id": "o3",
                 "text": "La règle est pareille et voilà."
+              },
+              {
+                "id": "o2",
+                "text": "Certes la règle est uniforme ; néanmoins, ses effets restent inégaux."
               },
               {
                 "id": "o4",
@@ -34191,10 +34467,6 @@
             "difficulty": "hard",
             "options": [
               {
-                "id": "o1",
-                "text": "le subjonctif après non que"
-              },
-              {
                 "id": "o2",
                 "text": "le futur après non que"
               },
@@ -34205,9 +34477,25 @@
               {
                 "id": "o4",
                 "text": "l’indicatif obligatoire"
+              },
+              {
+                "id": "o1",
+                "text": "le subjonctif après non que"
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Les articulateurs logiques et la réfutation",
+        "definition": "Une argumentation C1 articule concession, réfutation et reformulation : « certes..., néanmoins... », « encore faut-il que... », « loin de..., cette mesure... ». Ces structures évitent la juxtaposition d’opinions et rendent explicite le rapport logique entre les propositions.",
+        "structure": "Forme à observer : Les articulateurs logiques et la réfutation. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Maîtriser les articulateurs logiques et la réfutation dans un contexte argumentatif C1.",
+        "examples": [
+          "Certes le mérite compte, il n’explique pas tout.",
+          "La procédure est identique ; néanmoins, ses effets diffèrent.",
+          "Encore faut-il que les candidats aient accès à l’information.",
+          "Loin de supprimer la responsabilité, cette analyse la précise."
         ]
       },
       "listeningComprehension": null
@@ -38451,12 +38739,12 @@
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
-                "id": "b",
-                "text": "Les auteurs recommandent que chaque correction soit codée selon sa fonction interactionnelle."
-              },
-              {
                 "id": "c",
                 "text": "Parce que la question complexe, alors le résultat forcément."
+              },
+              {
+                "id": "b",
+                "text": "Les auteurs recommandent que chaque correction soit codée selon sa fonction interactionnelle."
               },
               {
                 "id": "d",
@@ -38479,12 +38767,12 @@
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
-                "id": "c",
-                "text": "Elle emploie le subjonctif dans l’évaluation, la restriction et le doute afin de formuler une correction exigeante sans présenter une préférence comme un fait : « Les auteurs recommandent que chaque correction soit codée selon sa fonction interactionnelle. »"
-              },
-              {
                 "id": "d",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
+              },
+              {
+                "id": "c",
+                "text": "Elle emploie le subjonctif dans l’évaluation, la restriction et le doute afin de formuler une correction exigeante sans présenter une préférence comme un fait : « Les auteurs recommandent que chaque correction soit codée selon sa fonction interactionnelle. »"
               }
             ]
           },
@@ -38495,16 +38783,16 @@
             "difficulty": "analysis",
             "options": [
               {
+                "id": "c",
+                "text": "Bien que la reformulation soit fréquente, rien ne garantit qu’elle soit toujours perçue comme corrective."
+              },
+              {
                 "id": "a",
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
                 "id": "b",
                 "text": "Parce que la question complexe, alors le résultat forcément."
-              },
-              {
-                "id": "c",
-                "text": "Bien que la reformulation soit fréquente, rien ne garantit qu’elle soit toujours perçue comme corrective."
               },
               {
                 "id": "d",
@@ -38523,16 +38811,16 @@
                 "text": "Elle remplace les preuves par une affirmation absolue."
               },
               {
+                "id": "d",
+                "text": "Elle emploie le subjonctif dans l’évaluation, la restriction et le doute afin de formuler une correction exigeante sans présenter une préférence comme un fait : « Bien que la reformulation soit fréquente, rien ne garantit qu’elle soit toujours perçue comme corrective. »"
+              },
+              {
                 "id": "b",
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
                 "id": "c",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
-              },
-              {
-                "id": "d",
-                "text": "Elle emploie le subjonctif dans l’évaluation, la restriction et le doute afin de formuler une correction exigeante sans présenter une préférence comme un fait : « Bien que la reformulation soit fréquente, rien ne garantit qu’elle soit toujours perçue comme corrective. »"
               }
             ]
           },
@@ -38551,12 +38839,12 @@
                 "text": "Parce que la question complexe, alors le résultat forcément."
               },
               {
-                "id": "c",
-                "text": "La thèse est étant vraie par les mots qui ont utilisé."
-              },
-              {
                 "id": "d",
                 "text": "Il convient que l’évaluation distingue la reprise immédiate de l’acquisition durable."
+              },
+              {
+                "id": "c",
+                "text": "La thèse est étant vraie par les mots qui ont utilisé."
               }
             ]
           },
@@ -38566,10 +38854,6 @@
             "prompt": "Pourquoi l’exemple 4 convient-il à cette unité ?",
             "difficulty": "precision",
             "options": [
-              {
-                "id": "a",
-                "text": "Elle emploie le subjonctif dans l’évaluation, la restriction et le doute afin de formuler une correction exigeante sans présenter une préférence comme un fait : « Il convient que l’évaluation distingue la reprise immédiate de l’acquisition durable. »"
-              },
               {
                 "id": "b",
                 "text": "Elle remplace les preuves par une affirmation absolue."
@@ -38581,6 +38865,10 @@
               {
                 "id": "d",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
+              },
+              {
+                "id": "a",
+                "text": "Elle emploie le subjonctif dans l’évaluation, la restriction et le doute afin de formuler une correction exigeante sans présenter une préférence comme un fait : « Il convient que l’évaluation distingue la reprise immédiate de l’acquisition durable. »"
               }
             ]
           }
@@ -38732,12 +39020,12 @@
             "difficulty": "application",
             "options": [
               {
-                "id": "a",
-                "text": "découvre"
-              },
-              {
                 "id": "b",
                 "text": "avais découvert"
+              },
+              {
+                "id": "a",
+                "text": "découvre"
               },
               {
                 "id": "c",
@@ -38760,12 +39048,12 @@
                 "text": "agis"
               },
               {
-                "id": "b",
-                "text": "agirais"
-              },
-              {
                 "id": "c",
                 "text": "aurais agi"
+              },
+              {
+                "id": "b",
+                "text": "agirais"
               },
               {
                 "id": "d",
@@ -38784,12 +39072,12 @@
                 "text": "ai"
               },
               {
-                "id": "b",
-                "text": "aurais"
-              },
-              {
                 "id": "c",
                 "text": "avais"
+              },
+              {
+                "id": "b",
+                "text": "aurais"
               },
               {
                 "id": "d",
@@ -38812,12 +39100,12 @@
                 "text": "Si + imparfait, conditionnel présent"
               },
               {
-                "id": "c",
-                "text": "Si + plus-que-parfait, conditionnel passé"
-              },
-              {
                 "id": "d",
                 "text": "Si + subjonctif, indicatif"
+              },
+              {
+                "id": "c",
+                "text": "Si + plus-que-parfait, conditionnel passé"
               }
             ]
           },
@@ -38828,12 +39116,12 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Si j’découvre ce mensonge, j’aurais réagi immédiatement."
-              },
-              {
                 "id": "b",
                 "text": "Si j’avais découvert ce mensonge, j’aurais réagi immédiatement."
+              },
+              {
+                "id": "a",
+                "text": "Si j’découvre ce mensonge, j’aurais réagi immédiatement."
               },
               {
                 "id": "c",
@@ -38856,12 +39144,12 @@
                 "text": "Si tu avais su, tu agis différemment."
               },
               {
-                "id": "b",
-                "text": "Si tu avais su, tu agirais différemment."
-              },
-              {
                 "id": "c",
                 "text": "Si tu avais su, tu aurais agi différemment."
+              },
+              {
+                "id": "b",
+                "text": "Si tu avais su, tu agirais différemment."
               },
               {
                 "id": "d",
@@ -38880,12 +39168,12 @@
                 "text": "J’ai dû lui parler plus tôt."
               },
               {
-                "id": "b",
-                "text": "J’aurais dû lui parler plus tôt."
-              },
-              {
                 "id": "c",
                 "text": "J’avais dû lui parler plus tôt."
+              },
+              {
+                "id": "b",
+                "text": "J’aurais dû lui parler plus tôt."
               },
               {
                 "id": "d",
@@ -38908,12 +39196,12 @@
                 "text": "Si + imparfait, conditionnel présent"
               },
               {
-                "id": "c",
-                "text": "Si + plus-que-parfait, conditionnel passé"
-              },
-              {
                 "id": "d",
                 "text": "Si + subjonctif, indicatif"
+              },
+              {
+                "id": "c",
+                "text": "Si + plus-que-parfait, conditionnel passé"
               }
             ]
           }
@@ -39065,12 +39353,12 @@
             "difficulty": "application",
             "options": [
               {
-                "id": "a",
-                "text": "un"
-              },
-              {
                 "id": "b",
                 "text": "du"
+              },
+              {
+                "id": "a",
+                "text": "un"
               },
               {
                 "id": "c",
@@ -39113,16 +39401,16 @@
             "difficulty": "analysis",
             "options": [
               {
-                "id": "a",
-                "text": "veux"
-              },
-              {
                 "id": "b",
                 "text": "veut"
               },
               {
                 "id": "c",
                 "text": "voulons"
+              },
+              {
+                "id": "a",
+                "text": "veux"
               },
               {
                 "id": "d",
@@ -39141,16 +39429,16 @@
                 "text": "des"
               },
               {
-                "id": "b",
-                "text": "de"
-              },
-              {
                 "id": "c",
                 "text": "du"
               },
               {
                 "id": "d",
                 "text": "les"
+              },
+              {
+                "id": "b",
+                "text": "de"
               }
             ]
           },
@@ -39161,12 +39449,12 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Je voudrais un pain, s'il vous plaît."
-              },
-              {
                 "id": "b",
                 "text": "Je voudrais du pain, s'il vous plaît."
+              },
+              {
+                "id": "a",
+                "text": "Je voudrais un pain, s'il vous plaît."
               },
               {
                 "id": "c",
@@ -39209,16 +39497,16 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Tu veux de la salade ?"
-              },
-              {
                 "id": "b",
                 "text": "Tu veut de la salade ?"
               },
               {
                 "id": "c",
                 "text": "Tu voulons de la salade ?"
+              },
+              {
+                "id": "a",
+                "text": "Tu veux de la salade ?"
               },
               {
                 "id": "d",
@@ -39237,19 +39525,31 @@
                 "text": "Je ne veux pas des légumes."
               },
               {
-                "id": "b",
-                "text": "Je ne veux pas de légumes."
-              },
-              {
                 "id": "c",
                 "text": "Je ne veux pas du légumes."
               },
               {
                 "id": "d",
                 "text": "Je ne veux pas les légumes."
+              },
+              {
+                "id": "b",
+                "text": "Je ne veux pas de légumes."
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Les articles partitifs et vouloir",
+        "definition": "Les articles partitifs indiquent une quantité non précisée : du pain (masculin), de la salade (féminin), de l'eau (devant une voyelle), des fruits (pluriel). Avec aimer, adorer, préférer, on utilise l'article défini pour parler en général : « J'aime le fromage. » « Je préfère les fruits. » Le verbe vouloir : je veux, tu veux, il/elle veut, nous voulons, vous voulez, ils/elles veulent. Pour être poli, on utilise je voudrais : « Je voudrais du pain, s'il vous plaît. » À la forme négative, du/de la/des deviennent simplement de : « Je ne veux pas de salade. »",
+        "structure": "Forme à observer : Les articles partitifs et vouloir. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Du/de la/de l'/des, aimer/adorer/préférer, vouloir et je voudrais.",
+        "examples": [
+          "Je voudrais du pain, s'il vous plaît.",
+          "Léa adore le fromage.",
+          "Tu veux de la salade ?",
+          "Je ne veux pas de légumes."
         ]
       },
       "listeningComprehension": null
@@ -39410,16 +39710,16 @@
                 "text": "Aller + participe passé"
               },
               {
-                "id": "b",
-                "text": "Aller (présent) + infinitif"
-              },
-              {
                 "id": "c",
                 "text": "Avoir + infinitif"
               },
               {
                 "id": "d",
                 "text": "Être + gérondif"
+              },
+              {
+                "id": "b",
+                "text": "Aller (présent) + infinitif"
               }
             ]
           },
@@ -39506,19 +39806,31 @@
                 "text": "Aller + participe passé"
               },
               {
-                "id": "b",
-                "text": "Aller (présent) + infinitif"
-              },
-              {
                 "id": "c",
                 "text": "Avoir + infinitif"
               },
               {
                 "id": "d",
                 "text": "Être + gérondif"
+              },
+              {
+                "id": "b",
+                "text": "Aller (présent) + infinitif"
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Le futur proche et les prépositions de lieu",
+        "definition": "Le futur proche se forme avec aller au présent + infinitif : « Nous allons visiter Nice. » Les prépositions de lieu varient selon le pays/la ville : à + ville (à Nice), en + pays féminin (en France), au + pays masculin (au Portugal).",
+        "structure": "Forme à observer : Le futur proche et les prépositions de lieu. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Exprimer un projet proche et utiliser à/en/au avec les destinations.",
+        "examples": [
+          "Nous allons visiter Nice le mois prochain.",
+          "La famille va voyager en France.",
+          "Ils vont passer une semaine à Nice.",
+          "Aller (présent) + infinitif"
         ]
       },
       "listeningComprehension": null
@@ -39603,12 +39915,12 @@
             "difficulty": "application",
             "options": [
               {
-                "id": "a",
-                "text": "dors"
-              },
-              {
                 "id": "b",
                 "text": "dormes"
+              },
+              {
+                "id": "a",
+                "text": "dors"
               },
               {
                 "id": "c",
@@ -39655,12 +39967,12 @@
                 "text": "faisons"
               },
               {
-                "id": "b",
-                "text": "fassions"
-              },
-              {
                 "id": "c",
                 "text": "ferons"
+              },
+              {
+                "id": "b",
+                "text": "fassions"
               },
               {
                 "id": "d",
@@ -39679,16 +39991,16 @@
                 "text": "Je sais que"
               },
               {
-                "id": "b",
-                "text": "Il faut que"
-              },
-              {
                 "id": "c",
                 "text": "Je vois que"
               },
               {
                 "id": "d",
                 "text": "Il est vrai que"
+              },
+              {
+                "id": "b",
+                "text": "Il faut que"
               }
             ]
           },
@@ -39699,12 +40011,12 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Il faut que tu dors suffisamment."
-              },
-              {
                 "id": "b",
                 "text": "Il faut que tu dormes suffisamment."
+              },
+              {
+                "id": "a",
+                "text": "Il faut que tu dors suffisamment."
               },
               {
                 "id": "c",
@@ -39751,12 +40063,12 @@
                 "text": "Il vaut mieux que nous faisons du sport."
               },
               {
-                "id": "b",
-                "text": "Il vaut mieux que nous fassions du sport."
-              },
-              {
                 "id": "c",
                 "text": "Il vaut mieux que nous ferons du sport."
+              },
+              {
+                "id": "b",
+                "text": "Il vaut mieux que nous fassions du sport."
               },
               {
                 "id": "d",
@@ -39775,19 +40087,31 @@
                 "text": "Je sais que"
               },
               {
-                "id": "b",
-                "text": "Il faut que"
-              },
-              {
                 "id": "c",
                 "text": "Je vois que"
               },
               {
                 "id": "d",
                 "text": "Il est vrai que"
+              },
+              {
+                "id": "b",
+                "text": "Il faut que"
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Le subjonctif présent pour les recommandations",
+        "definition": "Après des expressions comme « il faut que », « il est important que » ou « il vaut mieux que », le verbe suivant se met au subjonctif présent : « Il faut que tu dormes. Il est important que tu fasses des pauses. » Pour les verbes réguliers en -er, le subjonctif ressemble beaucoup au présent : que je dorme, que tu dormes, qu’il/elle dorme.",
+        "structure": "Forme à observer : Le subjonctif présent pour les recommandations. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Utiliser le subjonctif présent après « il faut que » et « il est important que ».",
+        "examples": [
+          "Il faut que tu dormes suffisamment.",
+          "Il est important que je fasse des pauses.",
+          "Il vaut mieux que nous fassions du sport.",
+          "Il faut que"
         ]
       },
       "listeningComprehension": null
@@ -39893,12 +40217,12 @@
             "difficulty": "easy",
             "options": [
               {
-                "id": "o1",
-                "text": "avait"
-              },
-              {
                 "id": "o2",
                 "text": "aurait"
+              },
+              {
+                "id": "o1",
+                "text": "avait"
               },
               {
                 "id": "o3",
@@ -39917,16 +40241,16 @@
             "difficulty": "medium",
             "options": [
               {
-                "id": "o1",
-                "text": "auraient"
-              },
-              {
                 "id": "o2",
                 "text": "avaient certainement"
               },
               {
                 "id": "o3",
                 "text": "ont que"
+              },
+              {
+                "id": "o1",
+                "text": "auraient"
               },
               {
                 "id": "o4",
@@ -39941,10 +40265,6 @@
             "difficulty": "medium",
             "options": [
               {
-                "id": "o1",
-                "text": "aurait été"
-              },
-              {
                 "id": "o2",
                 "text": "avait été demain"
               },
@@ -39955,6 +40275,10 @@
               {
                 "id": "o4",
                 "text": "serait eu"
+              },
+              {
+                "id": "o1",
+                "text": "aurait été"
               }
             ]
           },
@@ -39989,12 +40313,12 @@
             "difficulty": "medium",
             "options": [
               {
-                "id": "o1",
-                "text": "une information non confirmée"
-              },
-              {
                 "id": "o2",
                 "text": "un ordre absolu"
+              },
+              {
+                "id": "o1",
+                "text": "une information non confirmée"
               },
               {
                 "id": "o3",
@@ -40013,16 +40337,16 @@
             "difficulty": "hard",
             "options": [
               {
-                "id": "o1",
-                "text": "aurait été"
-              },
-              {
                 "id": "o2",
                 "text": "sera"
               },
               {
                 "id": "o3",
                 "text": "est"
+              },
+              {
+                "id": "o1",
+                "text": "aurait été"
               },
               {
                 "id": "o4",
@@ -40041,19 +40365,31 @@
                 "text": "Si elle aurait investi, elle aurait économisé."
               },
               {
-                "id": "o2",
-                "text": "Si elle avait investi, elle aurait économisé."
-              },
-              {
                 "id": "o3",
                 "text": "Si elle avait investi, elle économisera hier."
               },
               {
                 "id": "o4",
                 "text": "Si elle investissait hier, elle avait économisé demain."
+              },
+              {
+                "id": "o2",
+                "text": "Si elle avait investi, elle aurait économisé."
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "L’hypothèse complexe et le conditionnel passé",
+        "definition": "Les hypothèses irréelles du passé utilisent si + plus-que-parfait, puis conditionnel passé : « Si l’université avait isolé les bâtiments, elle aurait réduit sa consommation. » Le conditionnel peut aussi rapporter une information non confirmée.",
+        "structure": "Forme à observer : L’hypothèse complexe et le conditionnel passé. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Maîtriser l’hypothèse complexe et le conditionnel passé dans un contexte argumentatif C1.",
+        "examples": [
+          "Si l’université avait rénové plus tôt, elle aurait moins consommé.",
+          "Si la bibliothèque avait fermé, certains étudiants auraient été exclus.",
+          "D’après le rapport, les émissions auraient déjà diminué.",
+          "Sans cette consultation, la mesure aurait été moins équitable."
         ]
       },
       "listeningComprehension": null
@@ -44299,12 +44635,12 @@
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
-                "id": "b",
-                "text": "Les enregistrements ont été normalisés par les techniciens avant la passation du test."
-              },
-              {
                 "id": "c",
                 "text": "Parce que la question complexe, alors le résultat forcément."
+              },
+              {
+                "id": "b",
+                "text": "Les enregistrements ont été normalisés par les techniciens avant la passation du test."
               },
               {
                 "id": "d",
@@ -44327,12 +44663,12 @@
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
-                "id": "c",
-                "text": "Elle emploie le passif, l’agentivité et la responsabilité discursive afin de mettre le processus perceptif au premier plan tout en conservant les acteurs nécessaires : « Les enregistrements ont été normalisés par les techniciens avant la passation du test. »"
-              },
-              {
                 "id": "d",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
+              },
+              {
+                "id": "c",
+                "text": "Elle emploie le passif, l’agentivité et la responsabilité discursive afin de mettre le processus perceptif au premier plan tout en conservant les acteurs nécessaires : « Les enregistrements ont été normalisés par les techniciens avant la passation du test. »"
               }
             ]
           },
@@ -44343,16 +44679,16 @@
             "difficulty": "analysis",
             "options": [
               {
+                "id": "c",
+                "text": "Une amélioration a été observée, mais les analystes demeurent responsables de l’interprétation de ce gain."
+              },
+              {
                 "id": "a",
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
                 "id": "b",
                 "text": "Parce que la question complexe, alors le résultat forcément."
-              },
-              {
-                "id": "c",
-                "text": "Une amélioration a été observée, mais les analystes demeurent responsables de l’interprétation de ce gain."
               },
               {
                 "id": "d",
@@ -44371,16 +44707,16 @@
                 "text": "Elle remplace les preuves par une affirmation absolue."
               },
               {
+                "id": "d",
+                "text": "Elle emploie le passif, l’agentivité et la responsabilité discursive afin de mettre le processus perceptif au premier plan tout en conservant les acteurs nécessaires : « Une amélioration a été observée, mais les analystes demeurent responsables de l’interprétation de ce gain. »"
+              },
+              {
                 "id": "b",
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
                 "id": "c",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
-              },
-              {
-                "id": "d",
-                "text": "Elle emploie le passif, l’agentivité et la responsabilité discursive afin de mettre le processus perceptif au premier plan tout en conservant les acteurs nécessaires : « Une amélioration a été observée, mais les analystes demeurent responsables de l’interprétation de ce gain. »"
               }
             ]
           },
@@ -44399,12 +44735,12 @@
                 "text": "Parce que la question complexe, alors le résultat forcément."
               },
               {
-                "id": "c",
-                "text": "La thèse est étant vraie par les mots qui ont utilisé."
-              },
-              {
                 "id": "d",
                 "text": "Les catégories ont été générées par le modèle, puis vérifiées par deux phonéticiennes."
+              },
+              {
+                "id": "c",
+                "text": "La thèse est étant vraie par les mots qui ont utilisé."
               }
             ]
           },
@@ -44414,10 +44750,6 @@
             "prompt": "Pourquoi l’exemple 4 convient-il à cette unité ?",
             "difficulty": "precision",
             "options": [
-              {
-                "id": "a",
-                "text": "Elle emploie le passif, l’agentivité et la responsabilité discursive afin de mettre le processus perceptif au premier plan tout en conservant les acteurs nécessaires : « Les catégories ont été générées par le modèle, puis vérifiées par deux phonéticiennes. »"
-              },
               {
                 "id": "b",
                 "text": "Elle remplace les preuves par une affirmation absolue."
@@ -44429,6 +44761,10 @@
               {
                 "id": "d",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
+              },
+              {
+                "id": "a",
+                "text": "Elle emploie le passif, l’agentivité et la responsabilité discursive afin de mettre le processus perceptif au premier plan tout en conservant les acteurs nécessaires : « Les catégories ont été générées par le modèle, puis vérifiées par deux phonéticiennes. »"
               }
             ]
           }
@@ -44604,12 +44940,12 @@
             "difficulty": "application",
             "options": [
               {
-                "id": "a",
-                "text": "Étant donné que"
-              },
-              {
                 "id": "b",
                 "text": "Bien que"
+              },
+              {
+                "id": "a",
+                "text": "Étant donné que"
               },
               {
                 "id": "c",
@@ -44632,12 +44968,12 @@
                 "text": "as"
               },
               {
-                "id": "b",
-                "text": "aies"
-              },
-              {
                 "id": "c",
                 "text": "auras"
+              },
+              {
+                "id": "b",
+                "text": "aies"
               },
               {
                 "id": "d",
@@ -44660,12 +44996,12 @@
                 "text": "Il se peut que"
               },
               {
-                "id": "c",
-                "text": "Dans la mesure où"
-              },
-              {
                 "id": "d",
                 "text": "Il n’est pas certain que"
+              },
+              {
+                "id": "c",
+                "text": "Dans la mesure où"
               }
             ]
           },
@@ -44700,12 +45036,12 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Étant donné que cette technologie évolue rapidement, il faut rester informé."
-              },
-              {
                 "id": "b",
                 "text": "Bien que cette technologie évolue rapidement, il faut rester informé."
+              },
+              {
+                "id": "a",
+                "text": "Étant donné que cette technologie évolue rapidement, il faut rester informé."
               },
               {
                 "id": "c",
@@ -44728,12 +45064,12 @@
                 "text": "Il est possible que tu as raison sur ce point."
               },
               {
-                "id": "b",
-                "text": "Il est possible que tu aies raison sur ce point."
-              },
-              {
                 "id": "c",
                 "text": "Il est possible que tu auras raison sur ce point."
+              },
+              {
+                "id": "b",
+                "text": "Il est possible que tu aies raison sur ce point."
               },
               {
                 "id": "d",
@@ -44756,12 +45092,12 @@
                 "text": "Il se peut que"
               },
               {
-                "id": "c",
-                "text": "Dans la mesure où"
-              },
-              {
                 "id": "d",
                 "text": "Il n’est pas certain que"
+              },
+              {
+                "id": "c",
+                "text": "Dans la mesure où"
               }
             ]
           }
@@ -44960,16 +45296,16 @@
             "difficulty": "analysis",
             "options": [
               {
-                "id": "a",
-                "text": "sur"
-              },
-              {
                 "id": "b",
                 "text": "sous"
               },
               {
                 "id": "c",
                 "text": "devant"
+              },
+              {
+                "id": "a",
+                "text": "sur"
               },
               {
                 "id": "d",
@@ -44992,12 +45328,12 @@
                 "text": "sous"
               },
               {
-                "id": "c",
-                "text": "entre"
-              },
-              {
                 "id": "d",
                 "text": "devant"
+              },
+              {
+                "id": "c",
+                "text": "entre"
               }
             ]
           },
@@ -45056,16 +45392,16 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Le chat dort sur le lit."
-              },
-              {
                 "id": "b",
                 "text": "Le chat dort sous le lit."
               },
               {
                 "id": "c",
                 "text": "Le chat dort devant le lit."
+              },
+              {
+                "id": "a",
+                "text": "Le chat dort sur le lit."
               },
               {
                 "id": "d",
@@ -45088,15 +45424,27 @@
                 "text": "L'étagère est sous le bureau et l'armoire."
               },
               {
-                "id": "c",
-                "text": "L'étagère est entre le bureau et l'armoire."
-              },
-              {
                 "id": "d",
                 "text": "L'étagère est devant le bureau et l'armoire."
+              },
+              {
+                "id": "c",
+                "text": "L'étagère est entre le bureau et l'armoire."
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Il y a, c'est/ce sont et les prépositions de lieu",
+        "definition": "Il y a indique l'existence d'une chose : « Il y a un lit dans ma chambre. » C'est identifie une seule chose ou personne : « C'est mon bureau. » Ce sont identifie plusieurs choses : « Ce sont mes livres. » Les prépositions de lieu situent les objets : sur (le livre est sur la table), sous (la valise est sous le lit), devant (la chaise est devant le bureau), derrière (le miroir est derrière la porte), entre (l'étagère est entre le bureau et l'armoire), à côté de (le lit est à côté de la fenêtre). Les adjectifs s'accordent avec le nom : une chambre confortable, un lit confortable.",
+        "structure": "Forme à observer : Il y a, c'est/ce sont et les prépositions de lieu. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Il y a, c'est/ce sont, et les prépositions de lieu sur/sous/devant/derrière/entre/à côté de.",
+        "examples": [
+          "Il y a un lit et une armoire dans ma chambre.",
+          "C'est mon bureau.",
+          "Le chat dort sur le lit.",
+          "L'étagère est entre le bureau et l'armoire."
         ]
       },
       "listeningComprehension": null
@@ -45229,16 +45577,16 @@
             "difficulty": "analysis",
             "options": [
               {
-                "id": "a",
-                "text": "plus grand"
-              },
-              {
                 "id": "b",
                 "text": "plus grande"
               },
               {
                 "id": "c",
                 "text": "grand plus"
+              },
+              {
+                "id": "a",
+                "text": "plus grand"
               },
               {
                 "id": "d",
@@ -45253,10 +45601,6 @@
             "difficulty": "analysis",
             "options": [
               {
-                "id": "a",
-                "text": "moins"
-              },
-              {
                 "id": "b",
                 "text": "aussi"
               },
@@ -45267,6 +45611,10 @@
               {
                 "id": "d",
                 "text": "que"
+              },
+              {
+                "id": "a",
+                "text": "moins"
               }
             ]
           },
@@ -45325,16 +45673,16 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Cet appartement est plus grand que le studio."
-              },
-              {
                 "id": "b",
                 "text": "Cet appartement est plus grande que le studio."
               },
               {
                 "id": "c",
                 "text": "Cet appartement est grand plus que le studio."
+              },
+              {
+                "id": "a",
+                "text": "Cet appartement est plus grand que le studio."
               },
               {
                 "id": "d",
@@ -45349,10 +45697,6 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Le loyer du studio est moins cher que celui de l’appartement."
-              },
-              {
                 "id": "b",
                 "text": "Le loyer du studio est aussi cher que celui de l’appartement."
               },
@@ -45363,9 +45707,25 @@
               {
                 "id": "d",
                 "text": "Le loyer du studio est que cher que celui de l’appartement."
+              },
+              {
+                "id": "a",
+                "text": "Le loyer du studio est moins cher que celui de l’appartement."
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Il y a / il n’y a pas de et les comparatifs",
+        "definition": "« Il y a » indique la présence de quelque chose : « Il y a deux chambres. » À la forme négative, on utilise « il n’y a pas de » : « Il n’y a pas de balcon. » Pour comparer deux logements, on réutilise plus/moins/aussi + adjectif + que : « Cet appartement est plus grand que le studio. »",
+        "structure": "Forme à observer : Il y a / il n’y a pas de et les comparatifs. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Décrire l’existence de quelque chose et comparer deux logements.",
+        "examples": [
+          "Il y a deux chambres dans cet appartement.",
+          "Dans le studio, il n’y a pas de balcon.",
+          "Cet appartement est plus grand que le studio.",
+          "Le loyer du studio est moins cher que celui de l’appartement."
         ]
       },
       "listeningComprehension": null
@@ -45502,12 +45862,12 @@
                 "text": "Parce que"
               },
               {
-                "id": "b",
-                "text": "C’est pourquoi"
-              },
-              {
                 "id": "c",
                 "text": "Bien que"
+              },
+              {
+                "id": "b",
+                "text": "C’est pourquoi"
               },
               {
                 "id": "d",
@@ -45522,10 +45882,6 @@
             "difficulty": "analysis",
             "options": [
               {
-                "id": "a",
-                "text": "parce que"
-              },
-              {
                 "id": "b",
                 "text": "c’est pourquoi"
               },
@@ -45536,6 +45892,10 @@
               {
                 "id": "d",
                 "text": "or"
+              },
+              {
+                "id": "a",
+                "text": "parce que"
               }
             ]
           },
@@ -45598,12 +45958,12 @@
                 "text": "Parce que"
               },
               {
-                "id": "b",
-                "text": "C’est pourquoi"
-              },
-              {
                 "id": "c",
                 "text": "Bien que"
+              },
+              {
+                "id": "b",
+                "text": "C’est pourquoi"
               },
               {
                 "id": "d",
@@ -45618,10 +45978,6 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Il faut trier les déchets parce que ça aide l’environnement."
-              },
-              {
                 "id": "b",
                 "text": "Il faut trier les déchets c’est pourquoi ça aide l’environnement."
               },
@@ -45632,9 +45988,25 @@
               {
                 "id": "d",
                 "text": "Il faut trier les déchets or ça aide l’environnement."
+              },
+              {
+                "id": "a",
+                "text": "Il faut trier les déchets parce que ça aide l’environnement."
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Cause et conséquence : parce que, c’est pourquoi",
+        "definition": "« Parce que » introduit une cause (répond à « pourquoi ? ») : « On recycle parce que c’est important pour la planète. » « C’est pourquoi » introduit une conséquence : « Nous produisons trop de déchets, c’est pourquoi nous devons agir. »",
+        "structure": "Forme à observer : Cause et conséquence : parce que, c’est pourquoi. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Exprimer une cause et sa conséquence dans un texte argumentatif.",
+        "examples": [
+          "On recycle parce que c’est important pour la planète.",
+          "Nous produisons trop de déchets, c’est pourquoi nous devons agir.",
+          "C’est pourquoi",
+          "Il faut trier les déchets parce que ça aide l’environnement."
         ]
       },
       "listeningComprehension": null
@@ -45768,12 +46140,12 @@
                 "text": "dont"
               },
               {
-                "id": "o2",
-                "text": "lequel"
-              },
-              {
                 "id": "o3",
                 "text": "que"
+              },
+              {
+                "id": "o2",
+                "text": "lequel"
               },
               {
                 "id": "o4",
@@ -45788,10 +46160,6 @@
             "difficulty": "medium",
             "options": [
               {
-                "id": "o1",
-                "text": "à quoi"
-              },
-              {
                 "id": "o2",
                 "text": "dont à"
               },
@@ -45802,6 +46170,10 @@
               {
                 "id": "o4",
                 "text": "où"
+              },
+              {
+                "id": "o1",
+                "text": "à quoi"
               }
             ]
           },
@@ -45836,12 +46208,12 @@
             "difficulty": "medium",
             "options": [
               {
-                "id": "o1",
-                "text": "duquel"
-              },
-              {
                 "id": "o2",
                 "text": "dont du"
+              },
+              {
+                "id": "o1",
+                "text": "duquel"
               },
               {
                 "id": "o3",
@@ -45860,16 +46232,16 @@
             "difficulty": "hard",
             "options": [
               {
-                "id": "o1",
-                "text": "C’est ce dont nous avons besoin."
-              },
-              {
                 "id": "o2",
                 "text": "C’est ce que nous avons besoin."
               },
               {
                 "id": "o3",
                 "text": "C’est ce auquel nous avons besoin."
+              },
+              {
+                "id": "o1",
+                "text": "C’est ce dont nous avons besoin."
               },
               {
                 "id": "o4",
@@ -45884,10 +46256,6 @@
             "difficulty": "hard",
             "options": [
               {
-                "id": "o1",
-                "text": "la situation à cette situation"
-              },
-              {
                 "id": "o2",
                 "text": "la situation dont à"
               },
@@ -45898,9 +46266,25 @@
               {
                 "id": "o4",
                 "text": "la situation où de"
+              },
+              {
+                "id": "o1",
+                "text": "la situation à cette situation"
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Les relatives complexes : dont, lequel, ce à quoi, ce dont",
+        "definition": "Les pronoms relatifs complexes évitent les répétitions et précisent les rapports syntaxiques : « la norme à laquelle on se conforme », « ce dont elle doute », « le contexte dans lequel elle parle ». Le choix dépend de la préposition exigée.",
+        "structure": "Forme à observer : Les relatives complexes : dont, lequel, ce à quoi, ce dont. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Maîtriser les relatives complexes : dont, lequel, ce à quoi, ce dont dans un contexte argumentatif C1.",
+        "examples": [
+          "La norme à laquelle elle se conforme dépend du contexte.",
+          "Voilà ce dont Camila doute.",
+          "Le contexte dans lequel elle parle est formel.",
+          "Ce à quoi elle tient, c’est le respect des voix."
         ]
       },
       "listeningComprehension": null
@@ -50164,12 +50548,12 @@
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
-                "id": "b",
-                "text": "La tâche serait-elle moins évaluative que l’écart observé pourrait disparaître."
-              },
-              {
                 "id": "c",
                 "text": "Parce que la question complexe, alors le résultat forcément."
+              },
+              {
+                "id": "b",
+                "text": "La tâche serait-elle moins évaluative que l’écart observé pourrait disparaître."
               },
               {
                 "id": "d",
@@ -50192,12 +50576,12 @@
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
-                "id": "c",
-                "text": "Elle emploie les systèmes hypothétiques complexes et l’irréel afin de raisonner sur les effets possibles de l’anxiété sans annoncer une causalité non démontrée : « La tâche serait-elle moins évaluative que l’écart observé pourrait disparaître. »"
-              },
-              {
                 "id": "d",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
+              },
+              {
+                "id": "c",
+                "text": "Elle emploie les systèmes hypothétiques complexes et l’irréel afin de raisonner sur les effets possibles de l’anxiété sans annoncer une causalité non démontrée : « La tâche serait-elle moins évaluative que l’écart observé pourrait disparaître. »"
               }
             ]
           },
@@ -50208,16 +50592,16 @@
             "difficulty": "analysis",
             "options": [
               {
+                "id": "c",
+                "text": "À supposer que l’effet varie selon la tâche, un score unique en masquerait les mécanismes."
+              },
+              {
                 "id": "a",
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
                 "id": "b",
                 "text": "Parce que la question complexe, alors le résultat forcément."
-              },
-              {
-                "id": "c",
-                "text": "À supposer que l’effet varie selon la tâche, un score unique en masquerait les mécanismes."
               },
               {
                 "id": "d",
@@ -50236,16 +50620,16 @@
                 "text": "Elle remplace les preuves par une affirmation absolue."
               },
               {
+                "id": "d",
+                "text": "Elle emploie les systèmes hypothétiques complexes et l’irréel afin de raisonner sur les effets possibles de l’anxiété sans annoncer une causalité non démontrée : « À supposer que l’effet varie selon la tâche, un score unique en masquerait les mécanismes. »"
+              },
+              {
                 "id": "b",
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
                 "id": "c",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
-              },
-              {
-                "id": "d",
-                "text": "Elle emploie les systèmes hypothétiques complexes et l’irréel afin de raisonner sur les effets possibles de l’anxiété sans annoncer une causalité non démontrée : « À supposer que l’effet varie selon la tâche, un score unique en masquerait les mécanismes. »"
               }
             ]
           },
@@ -50264,12 +50648,12 @@
                 "text": "Parce que la question complexe, alors le résultat forcément."
               },
               {
-                "id": "c",
-                "text": "La thèse est étant vraie par les mots qui ont utilisé."
-              },
-              {
                 "id": "d",
                 "text": "Sans pression temporelle, certains apprenants auraient pu consacrer davantage d’attention au sens."
+              },
+              {
+                "id": "c",
+                "text": "La thèse est étant vraie par les mots qui ont utilisé."
               }
             ]
           },
@@ -50279,10 +50663,6 @@
             "prompt": "Pourquoi l’exemple 4 convient-il à cette unité ?",
             "difficulty": "precision",
             "options": [
-              {
-                "id": "a",
-                "text": "Elle emploie les systèmes hypothétiques complexes et l’irréel afin de raisonner sur les effets possibles de l’anxiété sans annoncer une causalité non démontrée : « Sans pression temporelle, certains apprenants auraient pu consacrer davantage d’attention au sens. »"
-              },
               {
                 "id": "b",
                 "text": "Elle remplace les preuves par une affirmation absolue."
@@ -50294,6 +50674,10 @@
               {
                 "id": "d",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
+              },
+              {
+                "id": "a",
+                "text": "Elle emploie les systèmes hypothétiques complexes et l’irréel afin de raisonner sur les effets possibles de l’anxiété sans annoncer une causalité non démontrée : « Sans pression temporelle, certains apprenants auraient pu consacrer davantage d’attention au sens. »"
               }
             ]
           }
@@ -50445,12 +50829,12 @@
             "difficulty": "application",
             "options": [
               {
-                "id": "a",
-                "text": "Celui"
-              },
-              {
                 "id": "b",
                 "text": "Celle"
+              },
+              {
+                "id": "a",
+                "text": "Celui"
               },
               {
                 "id": "c",
@@ -50525,12 +50909,12 @@
                 "text": "Jamais"
               },
               {
-                "id": "c",
-                "text": "Quand le complément est placé avant le verbe"
-              },
-              {
                 "id": "d",
                 "text": "Seulement au féminin"
+              },
+              {
+                "id": "c",
+                "text": "Quand le complément est placé avant le verbe"
               }
             ]
           },
@@ -50541,12 +50925,12 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Celui dont je me souviens le mieux, c’est cette histoire."
-              },
-              {
                 "id": "b",
                 "text": "Celle dont je me souviens le mieux, c’est cette histoire."
+              },
+              {
+                "id": "a",
+                "text": "Celui dont je me souviens le mieux, c’est cette histoire."
               },
               {
                 "id": "c",
@@ -50621,12 +51005,12 @@
                 "text": "Jamais"
               },
               {
-                "id": "c",
-                "text": "Quand le complément est placé avant le verbe"
-              },
-              {
                 "id": "d",
                 "text": "Seulement au féminin"
+              },
+              {
+                "id": "c",
+                "text": "Quand le complément est placé avant le verbe"
               }
             ]
           }
@@ -50778,12 +51162,12 @@
             "difficulty": "application",
             "options": [
               {
-                "id": "a",
-                "text": "à"
-              },
-              {
                 "id": "b",
                 "text": "au"
+              },
+              {
+                "id": "a",
+                "text": "à"
               },
               {
                 "id": "c",
@@ -50830,12 +51214,12 @@
                 "text": "Tourne"
               },
               {
-                "id": "b",
-                "text": "Tournez"
-              },
-              {
                 "id": "c",
                 "text": "Tournons"
+              },
+              {
+                "id": "b",
+                "text": "Tournez"
               },
               {
                 "id": "d",
@@ -50850,10 +51234,6 @@
             "difficulty": "analysis",
             "options": [
               {
-                "id": "a",
-                "text": "Où"
-              },
-              {
                 "id": "b",
                 "text": "Quand"
               },
@@ -50864,6 +51244,10 @@
               {
                 "id": "d",
                 "text": "Quel"
+              },
+              {
+                "id": "a",
+                "text": "Où"
               }
             ]
           },
@@ -50874,12 +51258,12 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Je vais à marché le samedi."
-              },
-              {
                 "id": "b",
                 "text": "Je vais au marché le samedi."
+              },
+              {
+                "id": "a",
+                "text": "Je vais à marché le samedi."
               },
               {
                 "id": "c",
@@ -50926,12 +51310,12 @@
                 "text": "Tourne à droite, puis continuez tout droit."
               },
               {
-                "id": "b",
-                "text": "Tournez à droite, puis continuez tout droit."
-              },
-              {
                 "id": "c",
                 "text": "Tournons à droite, puis continuez tout droit."
+              },
+              {
+                "id": "b",
+                "text": "Tournez à droite, puis continuez tout droit."
               },
               {
                 "id": "d",
@@ -50946,10 +51330,6 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Où se trouve la médiathèque ?"
-              },
-              {
                 "id": "b",
                 "text": "Quand se trouve la médiathèque ?"
               },
@@ -50960,9 +51340,25 @@
               {
                 "id": "d",
                 "text": "Quel se trouve la médiathèque ?"
+              },
+              {
+                "id": "a",
+                "text": "Où se trouve la médiathèque ?"
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Le verbe aller et l'impératif",
+        "definition": "Le verbe aller : je vais, tu vas, il/elle va, nous allons, vous allez, ils/elles vont. Avec à, la préposition se contracte : à + le = au (au marché), à + la = à la (à la piscine), à + l' = à l' (à l'école), à + les = aux (aux magasins). Pour donner des indications, on utilise l'impératif : tournez à droite, allez tout droit, continuez jusqu'à la place. La question où se trouve... ? sert à demander un lieu : « Où se trouve la gare ? »",
+        "structure": "Forme à observer : Le verbe aller et l'impératif. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Le verbe aller, les contractions au/à la/à l'/aux et l'impératif pour donner des indications.",
+        "examples": [
+          "Je vais au marché le samedi.",
+          "Nous allons à la piscine cet après-midi.",
+          "Tournez à droite, puis continuez tout droit.",
+          "Où se trouve la médiathèque ?"
         ]
       },
       "listeningComprehension": null
@@ -51047,12 +51443,12 @@
             "difficulty": "application",
             "options": [
               {
-                "id": "a",
-                "text": "Je"
-              },
-              {
                 "id": "b",
                 "text": "Moi,"
+              },
+              {
+                "id": "a",
+                "text": "Je"
               },
               {
                 "id": "c",
@@ -51099,12 +51495,12 @@
                 "text": "regarde"
               },
               {
-                "id": "b",
-                "text": "regarder"
-              },
-              {
                 "id": "c",
                 "text": "regardé"
+              },
+              {
+                "id": "b",
+                "text": "regarder"
               },
               {
                 "id": "d",
@@ -51123,16 +51519,16 @@
                 "text": "Eux"
               },
               {
-                "id": "b",
-                "text": "Elles"
-              },
-              {
                 "id": "c",
                 "text": "Leur"
               },
               {
                 "id": "d",
                 "text": "Les"
+              },
+              {
+                "id": "b",
+                "text": "Elles"
               }
             ]
           },
@@ -51143,12 +51539,12 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Je je préfère les comédies."
-              },
-              {
                 "id": "b",
                 "text": "Moi, je préfère les comédies."
+              },
+              {
+                "id": "a",
+                "text": "Je je préfère les comédies."
               },
               {
                 "id": "c",
@@ -51195,12 +51591,12 @@
                 "text": "J’aime mieux regarde des documentaires."
               },
               {
-                "id": "b",
-                "text": "J’aime mieux regarder des documentaires."
-              },
-              {
                 "id": "c",
                 "text": "J’aime mieux regardé des documentaires."
+              },
+              {
+                "id": "b",
+                "text": "J’aime mieux regarder des documentaires."
               },
               {
                 "id": "d",
@@ -51219,19 +51615,31 @@
                 "text": "Eux"
               },
               {
-                "id": "b",
-                "text": "Elles"
-              },
-              {
                 "id": "c",
                 "text": "Leur"
               },
               {
                 "id": "d",
                 "text": "Les"
+              },
+              {
+                "id": "b",
+                "text": "Elles"
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Les pronoms toniques et l’expression de préférence",
+        "definition": "Les pronoms toniques (moi, toi, lui, elle, nous, vous, eux, elles) s’utilisent pour insister sur le sujet, souvent en début de phrase : « Moi, je préfère les comédies. » Pour exprimer une préférence, on utilise préférer + nom, ou aimer mieux + verbe : « Je préfère les films d’action. J’aime mieux regarder des documentaires. »",
+        "structure": "Forme à observer : Les pronoms toniques et l’expression de préférence. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Utiliser moi/toi/lui/elle pour insister sur une préférence personnelle.",
+        "examples": [
+          "Moi, je préfère les comédies.",
+          "Karim il préfère les films d’action.",
+          "J’aime mieux regarder des documentaires.",
+          "Elles"
         ]
       },
       "listeningComprehension": null
@@ -51316,12 +51724,12 @@
             "difficulty": "application",
             "options": [
               {
-                "id": "a",
-                "text": "est"
-              },
-              {
                 "id": "b",
                 "text": "soit"
+              },
+              {
+                "id": "a",
+                "text": "est"
               },
               {
                 "id": "c",
@@ -51368,12 +51776,12 @@
                 "text": "Je suis sûr que"
               },
               {
-                "id": "b",
-                "text": "Je doute que"
-              },
-              {
                 "id": "c",
                 "text": "Je sais que"
+              },
+              {
+                "id": "b",
+                "text": "Je doute que"
               },
               {
                 "id": "d",
@@ -51392,16 +51800,16 @@
                 "text": "Elle a dit : « C’est faux. »"
               },
               {
-                "id": "b",
-                "text": "Elle a dit que c’était faux."
-              },
-              {
                 "id": "c",
                 "text": "Est-ce que c’est faux ?"
               },
               {
                 "id": "d",
                 "text": "C’est faux !"
+              },
+              {
+                "id": "b",
+                "text": "Elle a dit que c’était faux."
               }
             ]
           },
@@ -51412,12 +51820,12 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Je doute que cette information est vraie."
-              },
-              {
                 "id": "b",
                 "text": "Je doute que cette information soit vraie."
+              },
+              {
+                "id": "a",
+                "text": "Je doute que cette information est vraie."
               },
               {
                 "id": "c",
@@ -51464,12 +51872,12 @@
                 "text": "Je suis sûr que"
               },
               {
-                "id": "b",
-                "text": "Je doute que"
-              },
-              {
                 "id": "c",
                 "text": "Je sais que"
+              },
+              {
+                "id": "b",
+                "text": "Je doute que"
               },
               {
                 "id": "d",
@@ -51488,19 +51896,31 @@
                 "text": "Elle a dit : « C’est faux. »"
               },
               {
-                "id": "b",
-                "text": "Elle a dit que c’était faux."
-              },
-              {
                 "id": "c",
                 "text": "Est-ce que c’est faux ?"
               },
               {
                 "id": "d",
                 "text": "C’est faux !"
+              },
+              {
+                "id": "b",
+                "text": "Elle a dit que c’était faux."
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Le doute et le discours indirect simple",
+        "definition": "« Je doute que » introduit le subjonctif : « Je doute que ce soit vrai. » Le discours indirect rapporte les paroles de quelqu’un sans les citer directement : « Il a dit que le fruit guérissait tout » (au lieu de « Il a dit : \"Le fruit guérit tout.\" »). Au discours indirect présent, le verbe reste souvent au même temps, introduit par « que ».",
+        "structure": "Forme à observer : Le doute et le discours indirect simple. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Exprimer le doute avec le subjonctif et rapporter une information au discours indirect.",
+        "examples": [
+          "Je doute que cette information soit vraie.",
+          "Karim a dit que l’article n’était pas fiable.",
+          "Je doute que",
+          "Elle a dit que c’était faux."
         ]
       },
       "listeningComprehension": null
@@ -51634,12 +52054,12 @@
                 "text": "est"
               },
               {
-                "id": "o2",
-                "text": "soit"
-              },
-              {
                 "id": "o3",
                 "text": "sera"
+              },
+              {
+                "id": "o2",
+                "text": "soit"
               },
               {
                 "id": "o4",
@@ -51654,10 +52074,6 @@
             "difficulty": "medium",
             "options": [
               {
-                "id": "o1",
-                "text": "doivent"
-              },
-              {
                 "id": "o2",
                 "text": "doive"
               },
@@ -51668,6 +52084,10 @@
               {
                 "id": "o4",
                 "text": "devaient que"
+              },
+              {
+                "id": "o1",
+                "text": "doivent"
               }
             ]
           },
@@ -51702,12 +52122,12 @@
             "difficulty": "medium",
             "options": [
               {
-                "id": "o1",
-                "text": "incertain ou évalué"
-              },
-              {
                 "id": "o2",
                 "text": "nécessairement faux"
+              },
+              {
+                "id": "o1",
+                "text": "incertain ou évalué"
               },
               {
                 "id": "o3",
@@ -51730,12 +52150,12 @@
                 "text": "Cette étude prouve tout."
               },
               {
-                "id": "o2",
-                "text": "Ces résultats suggèrent une tendance qui reste à confirmer."
-              },
-              {
                 "id": "o3",
                 "text": "Il est certain sans données."
+              },
+              {
+                "id": "o2",
+                "text": "Ces résultats suggèrent une tendance qui reste à confirmer."
               },
               {
                 "id": "o4",
@@ -51754,19 +52174,31 @@
                 "text": "Il est incontestable que la méthode soit utile."
               },
               {
-                "id": "o2",
-                "text": "Il est incontestable que la méthode est utile."
-              },
-              {
                 "id": "o3",
                 "text": "Il est incontestable la méthode utile."
               },
               {
                 "id": "o4",
                 "text": "Il est incontestable que méthode être utile."
+              },
+              {
+                "id": "o2",
+                "text": "Il est incontestable que la méthode est utile."
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Les modalisateurs de certitude et le subjonctif",
+        "definition": "Les modalisateurs calibrent l’engagement du locuteur : « il est établi que » + indicatif ; « il est peu probable que », « rien ne prouve que » + subjonctif. Le choix du mode dépend de la manière dont le fait est présenté, non d’une simple liste mécanique.",
+        "structure": "Forme à observer : Les modalisateurs de certitude et le subjonctif. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Maîtriser les modalisateurs de certitude et le subjonctif dans un contexte argumentatif C1.",
+        "examples": [
+          "Il est établi que les données ont évolué.",
+          "Il est peu probable que cette hypothèse soit suffisante.",
+          "Rien ne prouve que l’étude soit fausse.",
+          "Il semble que les résultats doivent être révisés."
         ]
       },
       "listeningComprehension": null
@@ -56002,12 +56434,12 @@
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
-                "id": "b",
-                "text": "Le test d’aptitude, lequel avait été administré avant l’enseignement, n’expliquait qu’une partie de la variation."
-              },
-              {
                 "id": "c",
                 "text": "Parce que la question complexe, alors le résultat forcément."
+              },
+              {
+                "id": "b",
+                "text": "Le test d’aptitude, lequel avait été administré avant l’enseignement, n’expliquait qu’une partie de la variation."
               },
               {
                 "id": "d",
@@ -56030,12 +56462,12 @@
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
-                "id": "c",
-                "text": "Elle emploie les relatives complexes : dont, lequel et préposition + relatif afin de enchaîner des précisions sur l’âge, l’aptitude et l’expérience sans perdre l’antécédent : « Le test d’aptitude, lequel avait été administré avant l’enseignement, n’expliquait qu’une partie de la variation. »"
-              },
-              {
                 "id": "d",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
+              },
+              {
+                "id": "c",
+                "text": "Elle emploie les relatives complexes : dont, lequel et préposition + relatif afin de enchaîner des précisions sur l’âge, l’aptitude et l’expérience sans perdre l’antécédent : « Le test d’aptitude, lequel avait été administré avant l’enseignement, n’expliquait qu’une partie de la variation. »"
               }
             ]
           },
@@ -56046,16 +56478,16 @@
             "difficulty": "analysis",
             "options": [
               {
+                "id": "c",
+                "text": "Les participants pour lesquels la tâche était nouvelle ont demandé davantage d’entraînement."
+              },
+              {
                 "id": "a",
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
                 "id": "b",
                 "text": "Parce que la question complexe, alors le résultat forcément."
-              },
-              {
-                "id": "c",
-                "text": "Les participants pour lesquels la tâche était nouvelle ont demandé davantage d’entraînement."
               },
               {
                 "id": "d",
@@ -56074,16 +56506,16 @@
                 "text": "Elle remplace les preuves par une affirmation absolue."
               },
               {
+                "id": "d",
+                "text": "Elle emploie les relatives complexes : dont, lequel et préposition + relatif afin de enchaîner des précisions sur l’âge, l’aptitude et l’expérience sans perdre l’antécédent : « Les participants pour lesquels la tâche était nouvelle ont demandé davantage d’entraînement. »"
+              },
+              {
                 "id": "b",
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
                 "id": "c",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
-              },
-              {
-                "id": "d",
-                "text": "Elle emploie les relatives complexes : dont, lequel et préposition + relatif afin de enchaîner des précisions sur l’âge, l’aptitude et l’expérience sans perdre l’antécédent : « Les participants pour lesquels la tâche était nouvelle ont demandé davantage d’entraînement. »"
               }
             ]
           },
@@ -56102,12 +56534,12 @@
                 "text": "Parce que la question complexe, alors le résultat forcément."
               },
               {
-                "id": "c",
-                "text": "La thèse est étant vraie par les mots qui ont utilisé."
-              },
-              {
                 "id": "d",
                 "text": "Plusieurs profils ont émergé, dont aucun ne justifiait une interprétation déficitaire."
+              },
+              {
+                "id": "c",
+                "text": "La thèse est étant vraie par les mots qui ont utilisé."
               }
             ]
           },
@@ -56117,10 +56549,6 @@
             "prompt": "Pourquoi l’exemple 4 convient-il à cette unité ?",
             "difficulty": "precision",
             "options": [
-              {
-                "id": "a",
-                "text": "Elle emploie les relatives complexes : dont, lequel et préposition + relatif afin de enchaîner des précisions sur l’âge, l’aptitude et l’expérience sans perdre l’antécédent : « Plusieurs profils ont émergé, dont aucun ne justifiait une interprétation déficitaire. »"
-              },
               {
                 "id": "b",
                 "text": "Elle remplace les preuves par une affirmation absolue."
@@ -56132,6 +56560,10 @@
               {
                 "id": "d",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
+              },
+              {
+                "id": "a",
+                "text": "Elle emploie les relatives complexes : dont, lequel et préposition + relatif afin de enchaîner des précisions sur l’âge, l’aptitude et l’expérience sans perdre l’antécédent : « Plusieurs profils ont émergé, dont aucun ne justifiait une interprétation déficitaire. »"
               }
             ]
           }
@@ -56283,12 +56715,12 @@
             "difficulty": "application",
             "options": [
               {
-                "id": "a",
-                "text": "est"
-              },
-              {
                 "id": "b",
                 "text": "soit"
+              },
+              {
+                "id": "a",
+                "text": "est"
               },
               {
                 "id": "c",
@@ -56335,12 +56767,12 @@
                 "text": "est"
               },
               {
-                "id": "b",
-                "text": "soit"
-              },
-              {
                 "id": "c",
                 "text": "sera"
+              },
+              {
+                "id": "b",
+                "text": "soit"
               },
               {
                 "id": "d",
@@ -56359,16 +56791,16 @@
                 "text": "Parce que"
               },
               {
-                "id": "b",
-                "text": "Afin que"
-              },
-              {
                 "id": "c",
                 "text": "Donc"
               },
               {
                 "id": "d",
                 "text": "Cependant"
+              },
+              {
+                "id": "b",
+                "text": "Afin que"
               }
             ]
           },
@@ -56379,12 +56811,12 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Nous agissons afin que la biodiversité est préservée."
-              },
-              {
                 "id": "b",
                 "text": "Nous agissons afin que la biodiversité soit préservée."
+              },
+              {
+                "id": "a",
+                "text": "Nous agissons afin que la biodiversité est préservée."
               },
               {
                 "id": "c",
@@ -56431,12 +56863,12 @@
                 "text": "Elle écrit cette lettre pour que le message est bien compris."
               },
               {
-                "id": "b",
-                "text": "Elle écrit cette lettre pour que le message soit bien compris."
-              },
-              {
                 "id": "c",
                 "text": "Elle écrit cette lettre pour que le message sera bien compris."
+              },
+              {
+                "id": "b",
+                "text": "Elle écrit cette lettre pour que le message soit bien compris."
               },
               {
                 "id": "d",
@@ -56455,16 +56887,16 @@
                 "text": "Parce que"
               },
               {
-                "id": "b",
-                "text": "Afin que"
-              },
-              {
                 "id": "c",
                 "text": "Donc"
               },
               {
                 "id": "d",
                 "text": "Cependant"
+              },
+              {
+                "id": "b",
+                "text": "Afin que"
               }
             ]
           }
@@ -56615,12 +57047,12 @@
             "difficulty": "application",
             "options": [
               {
-                "id": "a",
-                "text": "au"
-              },
-              {
                 "id": "b",
                 "text": "du"
+              },
+              {
+                "id": "a",
+                "text": "au"
               },
               {
                 "id": "c",
@@ -56639,12 +57071,12 @@
             "difficulty": "application",
             "options": [
               {
-                "id": "a",
-                "text": "au"
-              },
-              {
                 "id": "b",
                 "text": "du"
+              },
+              {
+                "id": "a",
+                "text": "au"
               },
               {
                 "id": "c",
@@ -56691,16 +57123,16 @@
                 "text": "peux"
               },
               {
-                "id": "b",
-                "text": "sais"
-              },
-              {
                 "id": "c",
                 "text": "fais"
               },
               {
                 "id": "d",
                 "text": "joues"
+              },
+              {
+                "id": "b",
+                "text": "sais"
               }
             ]
           },
@@ -56711,12 +57143,12 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Camila fait au vélo le samedi."
-              },
-              {
                 "id": "b",
                 "text": "Camila fait du vélo le samedi."
+              },
+              {
+                "id": "a",
+                "text": "Camila fait au vélo le samedi."
               },
               {
                 "id": "c",
@@ -56735,12 +57167,12 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Je joue au volley avec mes amis."
-              },
-              {
                 "id": "b",
                 "text": "Je joue du volley avec mes amis."
+              },
+              {
+                "id": "a",
+                "text": "Je joue au volley avec mes amis."
               },
               {
                 "id": "c",
@@ -56787,19 +57219,31 @@
                 "text": "Tu peux danser la bachata ?"
               },
               {
-                "id": "b",
-                "text": "Tu sais danser la bachata ?"
-              },
-              {
                 "id": "c",
                 "text": "Tu fais danser la bachata ?"
               },
               {
                 "id": "d",
                 "text": "Tu joues danser la bachata ?"
+              },
+              {
+                "id": "b",
+                "text": "Tu sais danser la bachata ?"
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Faire, jouer, pouvoir et savoir",
+        "definition": "Pour les activités et les sports, on utilise faire du (masculin) ou faire de la (féminin) : faire du vélo, faire de la danse. Pour les jeux et sports avec ballon, on utilise jouer au (masculin) ou jouer à la (féminin) : jouer au volley, jouer à la pétanque. Pour un instrument de musique, on utilise jouer de : jouer de la guitare. Le verbe pouvoir (capacité/permission) : je peux, tu peux, il/elle peut, nous pouvons, vous pouvez, ils/elles peuvent. Le verbe savoir (compétence apprise) : je sais, tu sais, il/elle sait, nous savons, vous savez, ils/elles savent. Exemple : « Je sais danser, mais je ne peux pas venir aujourd'hui. »",
+        "structure": "Forme à observer : Faire, jouer, pouvoir et savoir. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Faire du/de la, jouer au/à la/de, pouvoir et savoir.",
+        "examples": [
+          "Camila fait du vélo le samedi.",
+          "Je joue au volley avec mes amis.",
+          "Karim joue de la guitare.",
+          "Tu sais danser la bachata ?"
         ]
       },
       "listeningComprehension": null
@@ -56912,16 +57356,16 @@
                 "text": "qui"
               },
               {
+                "id": "d",
+                "text": "qu’"
+              },
+              {
                 "id": "b",
                 "text": "que"
               },
               {
                 "id": "c",
                 "text": "où"
-              },
-              {
-                "id": "d",
-                "text": "qu’"
               }
             ]
           },
@@ -56956,10 +57400,6 @@
             "difficulty": "analysis",
             "options": [
               {
-                "id": "a",
-                "text": "qui"
-              },
-              {
                 "id": "b",
                 "text": "que"
               },
@@ -56970,6 +57410,10 @@
               {
                 "id": "d",
                 "text": "quoi"
+              },
+              {
+                "id": "a",
+                "text": "qui"
               }
             ]
           },
@@ -57008,16 +57452,16 @@
                 "text": "C’est un documentaire qui j’ai beaucoup aimé."
               },
               {
+                "id": "d",
+                "text": "C’est un documentaire qu’ j’ai beaucoup aimé."
+              },
+              {
                 "id": "b",
                 "text": "C’est un documentaire que j’ai beaucoup aimé."
               },
               {
                 "id": "c",
                 "text": "C’est un documentaire où j’ai beaucoup aimé."
-              },
-              {
-                "id": "d",
-                "text": "C’est un documentaire qu’ j’ai beaucoup aimé."
               }
             ]
           },
@@ -57052,10 +57496,6 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "J’ai des amis qui sont formidables."
-              },
-              {
                 "id": "b",
                 "text": "J’ai des amis que sont formidables."
               },
@@ -57066,9 +57506,25 @@
               {
                 "id": "d",
                 "text": "J’ai des amis quoi sont formidables."
+              },
+              {
+                "id": "a",
+                "text": "J’ai des amis qui sont formidables."
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Les pronoms relatifs qui, que et où",
+        "definition": "« Qui » remplace le sujet : « J’ai un ami qui m’aide toujours. » « Que » remplace le complément d’objet direct : « C’est une amie que j’adore. » « Où » remplace un lieu ou un moment : « C’est la ville où j’habite. »",
+        "structure": "Forme à observer : Les pronoms relatifs qui, que et où. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Relier deux phrases avec les pronoms relatifs qui, que et où.",
+        "examples": [
+          "C’est une amie qui me comprend toujours.",
+          "C’est un documentaire qu’ j’ai beaucoup aimé.",
+          "Tours est la ville où j’habite maintenant.",
+          "J’ai des amis qui sont formidables."
         ]
       },
       "listeningComprehension": null
@@ -57177,12 +57633,12 @@
             "difficulty": "application",
             "options": [
               {
-                "id": "a",
-                "text": "changes"
-              },
-              {
                 "id": "b",
                 "text": "change"
+              },
+              {
+                "id": "a",
+                "text": "changes"
               },
               {
                 "id": "c",
@@ -57205,12 +57661,12 @@
                 "text": "trouvons"
               },
               {
-                "id": "b",
-                "text": "trouvions"
-              },
-              {
                 "id": "c",
                 "text": "trouverons"
+              },
+              {
+                "id": "b",
+                "text": "trouvions"
               },
               {
                 "id": "d",
@@ -57229,16 +57685,16 @@
                 "text": "Je sais que"
               },
               {
-                "id": "b",
-                "text": "Je suis content que"
-              },
-              {
                 "id": "c",
                 "text": "Je vois que"
               },
               {
                 "id": "d",
                 "text": "Je pense que"
+              },
+              {
+                "id": "b",
+                "text": "Je suis content que"
               }
             ]
           },
@@ -57273,12 +57729,12 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Ça me dérange que tu changes toujours le plan."
-              },
-              {
                 "id": "b",
                 "text": "Ça me dérange que tu change toujours le plan."
+              },
+              {
+                "id": "a",
+                "text": "Ça me dérange que tu changes toujours le plan."
               },
               {
                 "id": "c",
@@ -57301,12 +57757,12 @@
                 "text": "Je suis content(e) que nous trouvons un compromis."
               },
               {
-                "id": "b",
-                "text": "Je suis content(e) que nous trouvions un compromis."
-              },
-              {
                 "id": "c",
                 "text": "Je suis content(e) que nous trouverons un compromis."
+              },
+              {
+                "id": "b",
+                "text": "Je suis content(e) que nous trouvions un compromis."
               },
               {
                 "id": "d",
@@ -57325,19 +57781,31 @@
                 "text": "Je sais que"
               },
               {
-                "id": "b",
-                "text": "Je suis content que"
-              },
-              {
                 "id": "c",
                 "text": "Je vois que"
               },
               {
                 "id": "d",
                 "text": "Je pense que"
+              },
+              {
+                "id": "b",
+                "text": "Je suis content que"
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Le subjonctif après les expressions d’émotion",
+        "definition": "Après une expression d’émotion (je suis content(e) que, je suis triste que, ça me dérange que), le verbe se met au subjonctif : « Je suis triste que tu penses ça. Ça me dérange que tu changes le plan. » Cette règle suit la même logique que « il faut que » ou « il est important que ».",
+        "structure": "Forme à observer : Le subjonctif après les expressions d’émotion. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Utiliser le subjonctif après des expressions comme « je suis triste que » ou « ça me dérange que ».",
+        "examples": [
+          "Je suis triste que tu penses ça de moi.",
+          "Ça me dérange que tu changes toujours le plan.",
+          "Je suis content(e) que nous trouvions un compromis.",
+          "Je suis content que"
         ]
       },
       "listeningComprehension": null
@@ -57467,16 +57935,16 @@
             "difficulty": "medium",
             "options": [
               {
-                "id": "o1",
-                "text": "se lit"
-              },
-              {
                 "id": "o2",
                 "text": "est lire"
               },
               {
                 "id": "o3",
                 "text": "fait lu"
+              },
+              {
+                "id": "o1",
+                "text": "se lit"
               },
               {
                 "id": "o4",
@@ -57491,10 +57959,6 @@
             "difficulty": "medium",
             "options": [
               {
-                "id": "o1",
-                "text": "être documentés"
-              },
-              {
                 "id": "o2",
                 "text": "documenter"
               },
@@ -57505,6 +57969,10 @@
               {
                 "id": "o4",
                 "text": "se documenté"
+              },
+              {
+                "id": "o1",
+                "text": "être documentés"
               }
             ]
           },
@@ -57515,12 +57983,12 @@
             "difficulty": "medium",
             "options": [
               {
-                "id": "o1",
-                "text": "La direction nécessairement"
-              },
-              {
                 "id": "o2",
                 "text": "Une autre personne à la demande de la direction"
+              },
+              {
+                "id": "o1",
+                "text": "La direction nécessairement"
               },
               {
                 "id": "o3",
@@ -57539,12 +58007,12 @@
             "difficulty": "medium",
             "options": [
               {
-                "id": "o1",
-                "text": "l’action subie et son résultat"
-              },
-              {
                 "id": "o2",
                 "text": "l’auteur uniquement"
+              },
+              {
+                "id": "o1",
+                "text": "l’action subie et son résultat"
               },
               {
                 "id": "o3",
@@ -57563,16 +58031,16 @@
             "difficulty": "hard",
             "options": [
               {
-                "id": "o1",
-                "text": "Ce livre se vend bien."
-              },
-              {
                 "id": "o2",
                 "text": "Ce livre est vendre bien."
               },
               {
                 "id": "o3",
                 "text": "Ce livre se vendu bien."
+              },
+              {
+                "id": "o1",
+                "text": "Ce livre se vend bien."
               },
               {
                 "id": "o4",
@@ -57587,10 +58055,6 @@
             "difficulty": "hard",
             "options": [
               {
-                "id": "o1",
-                "text": "L’exposition a été reportée."
-              },
-              {
                 "id": "o2",
                 "text": "L’exposition est reporté par on."
               },
@@ -57601,9 +58065,25 @@
               {
                 "id": "o4",
                 "text": "On s’est exposition reportée."
+              },
+              {
+                "id": "o1",
+                "text": "L’exposition a été reportée."
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "La voix passive, le passif pronominal et faire + infinitif",
+        "definition": "Le passif met l’accent sur le résultat ou l’objet : « l’exposition a été annulée ». Le passif pronominal décrit un usage : « cette œuvre se lit à plusieurs niveaux ». Faire + infinitif distingue le commanditaire de l’exécutant : « le musée a fait retirer l’affiche ».",
+        "structure": "Forme à observer : La voix passive, le passif pronominal et faire + infinitif. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Maîtriser la voix passive, le passif pronominal et faire + infinitif dans un contexte argumentatif C1.",
+        "examples": [
+          "L’exposition a été retirée par la direction.",
+          "Le musée a fait retirer l’affiche.",
+          "Cette œuvre se lit à plusieurs niveaux.",
+          "Les témoignages doivent être documentés correctement."
         ]
       },
       "listeningComprehension": null
@@ -61429,12 +61909,12 @@
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
-                "id": "b",
-                "text": "Ayant comparé les réponses, les chercheurs ont distingué connaissance réceptive et emploi productif."
-              },
-              {
                 "id": "c",
                 "text": "Parce que la question complexe, alors le résultat forcément."
+              },
+              {
+                "id": "b",
+                "text": "Ayant comparé les réponses, les chercheurs ont distingué connaissance réceptive et emploi productif."
               },
               {
                 "id": "d",
@@ -61457,12 +61937,12 @@
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
-                "id": "c",
-                "text": "Elle emploie les propositions participiales et la condensation maîtrisée afin de relier plusieurs opérations cognitives en maintenant un sujet non ambigu : « Ayant comparé les réponses, les chercheurs ont distingué connaissance réceptive et emploi productif. »"
-              },
-              {
                 "id": "d",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
+              },
+              {
+                "id": "c",
+                "text": "Elle emploie les propositions participiales et la condensation maîtrisée afin de relier plusieurs opérations cognitives en maintenant un sujet non ambigu : « Ayant comparé les réponses, les chercheurs ont distingué connaissance réceptive et emploi productif. »"
               }
             ]
           },
@@ -61473,16 +61953,16 @@
             "difficulty": "analysis",
             "options": [
               {
+                "id": "c",
+                "text": "Les collocations recyclées dans des tâches variées ont été mieux retenues au test différé."
+              },
+              {
                 "id": "a",
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
                 "id": "b",
                 "text": "Parce que la question complexe, alors le résultat forcément."
-              },
-              {
-                "id": "c",
-                "text": "Les collocations recyclées dans des tâches variées ont été mieux retenues au test différé."
               },
               {
                 "id": "d",
@@ -61501,16 +61981,16 @@
                 "text": "Elle remplace les preuves par une affirmation absolue."
               },
               {
+                "id": "d",
+                "text": "Elle emploie les propositions participiales et la condensation maîtrisée afin de relier plusieurs opérations cognitives en maintenant un sujet non ambigu : « Les collocations recyclées dans des tâches variées ont été mieux retenues au test différé. »"
+              },
+              {
                 "id": "b",
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
                 "id": "c",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
-              },
-              {
-                "id": "d",
-                "text": "Elle emploie les propositions participiales et la condensation maîtrisée afin de relier plusieurs opérations cognitives en maintenant un sujet non ambigu : « Les collocations recyclées dans des tâches variées ont été mieux retenues au test différé. »"
               }
             ]
           },
@@ -61529,12 +62009,12 @@
                 "text": "Parce que la question complexe, alors le résultat forcément."
               },
               {
-                "id": "c",
-                "text": "La thèse est étant vraie par les mots qui ont utilisé."
-              },
-              {
                 "id": "d",
                 "text": "La fréquence demeurant constante, la richesse du contexte pouvait être examinée plus précisément."
+              },
+              {
+                "id": "c",
+                "text": "La thèse est étant vraie par les mots qui ont utilisé."
               }
             ]
           },
@@ -61544,10 +62024,6 @@
             "prompt": "Pourquoi l’exemple 4 convient-il à cette unité ?",
             "difficulty": "precision",
             "options": [
-              {
-                "id": "a",
-                "text": "Elle emploie les propositions participiales et la condensation maîtrisée afin de relier plusieurs opérations cognitives en maintenant un sujet non ambigu : « La fréquence demeurant constante, la richesse du contexte pouvait être examinée plus précisément. »"
-              },
               {
                 "id": "b",
                 "text": "Elle remplace les preuves par une affirmation absolue."
@@ -61559,6 +62035,10 @@
               {
                 "id": "d",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
+              },
+              {
+                "id": "a",
+                "text": "Elle emploie les propositions participiales et la condensation maîtrisée afin de relier plusieurs opérations cognitives en maintenant un sujet non ambigu : « La fréquence demeurant constante, la richesse du contexte pouvait être examinée plus précisément. »"
               }
             ]
           }
@@ -61762,12 +62242,12 @@
                 "text": "de plus en plus"
               },
               {
-                "id": "b",
-                "text": "de moins en moins"
-              },
-              {
                 "id": "c",
                 "text": "aussi"
+              },
+              {
+                "id": "b",
+                "text": "de moins en moins"
               },
               {
                 "id": "d",
@@ -61786,16 +62266,16 @@
                 "text": "Plus... que"
               },
               {
-                "id": "b",
-                "text": "De plus en plus"
-              },
-              {
                 "id": "c",
                 "text": "Aussi... que"
               },
               {
                 "id": "d",
                 "text": "Moins... que"
+              },
+              {
+                "id": "b",
+                "text": "De plus en plus"
               }
             ]
           },
@@ -61858,12 +62338,12 @@
                 "text": "Elle reçoit de plus en plus ce genre de remarque aujourd’hui."
               },
               {
-                "id": "b",
-                "text": "Elle reçoit de moins en moins ce genre de remarque aujourd’hui."
-              },
-              {
                 "id": "c",
                 "text": "Elle reçoit aussi ce genre de remarque aujourd’hui."
+              },
+              {
+                "id": "b",
+                "text": "Elle reçoit de moins en moins ce genre de remarque aujourd’hui."
               },
               {
                 "id": "d",
@@ -61882,16 +62362,16 @@
                 "text": "Plus... que"
               },
               {
-                "id": "b",
-                "text": "De plus en plus"
-              },
-              {
                 "id": "c",
                 "text": "Aussi... que"
               },
               {
                 "id": "d",
                 "text": "Moins... que"
+              },
+              {
+                "id": "b",
+                "text": "De plus en plus"
               }
             ]
           }
@@ -62042,16 +62522,16 @@
             "difficulty": "application",
             "options": [
               {
+                "id": "c",
+                "text": "Cette"
+              },
+              {
                 "id": "a",
                 "text": "Ce"
               },
               {
                 "id": "b",
                 "text": "Cet"
-              },
-              {
-                "id": "c",
-                "text": "Cette"
               },
               {
                 "id": "d",
@@ -62070,16 +62550,16 @@
                 "text": "Ce"
               },
               {
+                "id": "d",
+                "text": "Ces"
+              },
+              {
                 "id": "b",
                 "text": "Cet"
               },
               {
                 "id": "c",
                 "text": "Cette"
-              },
-              {
-                "id": "d",
-                "text": "Ces"
               }
             ]
           },
@@ -62094,12 +62574,12 @@
                 "text": "Quel"
               },
               {
-                "id": "b",
-                "text": "Combien"
-              },
-              {
                 "id": "c",
                 "text": "Comment"
+              },
+              {
+                "id": "b",
+                "text": "Combien"
               },
               {
                 "id": "d",
@@ -62118,16 +62598,16 @@
                 "text": "cherche"
               },
               {
-                "id": "b",
-                "text": "prends"
-              },
-              {
                 "id": "c",
                 "text": "coûte"
               },
               {
                 "id": "d",
                 "text": "porte"
+              },
+              {
+                "id": "b",
+                "text": "prends"
               }
             ]
           },
@@ -62138,16 +62618,16 @@
             "difficulty": "precision",
             "options": [
               {
+                "id": "c",
+                "text": "Cette robe est très jolie."
+              },
+              {
                 "id": "a",
                 "text": "Ce robe est très jolie."
               },
               {
                 "id": "b",
                 "text": "Cet robe est très jolie."
-              },
-              {
-                "id": "c",
-                "text": "Cette robe est très jolie."
               },
               {
                 "id": "d",
@@ -62166,16 +62646,16 @@
                 "text": "Ce chaussures sont blanches."
               },
               {
+                "id": "d",
+                "text": "Ces chaussures sont blanches."
+              },
+              {
                 "id": "b",
                 "text": "Cet chaussures sont blanches."
               },
               {
                 "id": "c",
                 "text": "Cette chaussures sont blanches."
-              },
-              {
-                "id": "d",
-                "text": "Ces chaussures sont blanches."
               }
             ]
           },
@@ -62190,12 +62670,12 @@
                 "text": "Quel coûte ce chapeau ?"
               },
               {
-                "id": "b",
-                "text": "Combien coûte ce chapeau ?"
-              },
-              {
                 "id": "c",
                 "text": "Comment coûte ce chapeau ?"
+              },
+              {
+                "id": "b",
+                "text": "Combien coûte ce chapeau ?"
               },
               {
                 "id": "d",
@@ -62214,19 +62694,31 @@
                 "text": "Je cherche cette jupe noire."
               },
               {
-                "id": "b",
-                "text": "Je prends cette jupe noire."
-              },
-              {
                 "id": "c",
                 "text": "Je coûte cette jupe noire."
               },
               {
                 "id": "d",
                 "text": "Je porte cette jupe noire."
+              },
+              {
+                "id": "b",
+                "text": "Je prends cette jupe noire."
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Les adjectifs démonstratifs et les prix",
+        "definition": "Les adjectifs démonstratifs indiquent une chose précise : ce (masculin devant consonne : ce pull), cet (masculin devant voyelle ou h muet : cet été), cette (féminin : cette robe), ces (pluriel : ces chaussures). Pour demander un prix : « Combien coûte cette robe ? » « Elle coûte quarante-cinq euros. » Pour exprimer une recherche ou une décision : je cherche (je cherche un pull), je prends (je prends ce chemisier). Les couleurs s'accordent en genre et en nombre : un pull rouge, une robe rouge, des chaussures rouges.",
+        "structure": "Forme à observer : Les adjectifs démonstratifs et les prix. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Ce/cet/cette/ces, combien coûte, je cherche/je prends.",
+        "examples": [
+          "Cette robe est très jolie.",
+          "Ces chaussures sont blanches.",
+          "Combien coûte ce chapeau ?",
+          "Je prends cette jupe noire."
         ]
       },
       "listeningComprehension": null
@@ -62363,12 +62855,12 @@
                 "text": "y"
               },
               {
-                "id": "b",
-                "text": "en"
-              },
-              {
                 "id": "c",
                 "text": "leur"
+              },
+              {
+                "id": "b",
+                "text": "en"
               },
               {
                 "id": "d",
@@ -62383,10 +62875,6 @@
             "difficulty": "analysis",
             "options": [
               {
-                "id": "a",
-                "text": "y"
-              },
-              {
                 "id": "b",
                 "text": "en"
               },
@@ -62397,6 +62885,10 @@
               {
                 "id": "d",
                 "text": "lui"
+              },
+              {
+                "id": "a",
+                "text": "y"
               }
             ]
           },
@@ -62459,12 +62951,12 @@
                 "text": "Combien de justificatifs faut-il ? Il faut y apporter deux."
               },
               {
-                "id": "b",
-                "text": "Combien de justificatifs faut-il ? Il faut en apporter deux."
-              },
-              {
                 "id": "c",
                 "text": "Combien de justificatifs faut-il ? Il faut leur apporter deux."
+              },
+              {
+                "id": "b",
+                "text": "Combien de justificatifs faut-il ? Il faut en apporter deux."
               },
               {
                 "id": "d",
@@ -62479,10 +62971,6 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Elle est au guichet et elle y attend son tour."
-              },
-              {
                 "id": "b",
                 "text": "Elle est au guichet et elle en attend son tour."
               },
@@ -62493,9 +62981,25 @@
               {
                 "id": "d",
                 "text": "Elle est au guichet et elle lui attend son tour."
+              },
+              {
+                "id": "a",
+                "text": "Elle est au guichet et elle y attend son tour."
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Les pronoms y et en",
+        "definition": "« Y » remplace généralement un lieu introduit par à, dans ou chez : « Je vais à la mairie → J’y vais. » « En » remplace un complément introduit par de ou une quantité : « J’ai besoin de deux documents → J’en ai besoin de deux. »",
+        "structure": "Forme à observer : Les pronoms y et en. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Éviter les répétitions avec y et en.",
+        "examples": [
+          "Tu vas à la mairie ? Oui, j’y vais demain.",
+          "Vous avez besoin de ce formulaire ? Oui, j’en ai besoin.",
+          "Combien de justificatifs faut-il ? Il faut en apporter deux.",
+          "Elle est au guichet et elle y attend son tour."
         ]
       },
       "listeningComprehension": null
@@ -62625,16 +63129,16 @@
             "difficulty": "medium",
             "options": [
               {
-                "id": "o1",
-                "text": "aura contacté"
-              },
-              {
                 "id": "o2",
                 "text": "avait contacté"
               },
               {
                 "id": "o3",
                 "text": "contacterait hier"
+              },
+              {
+                "id": "o1",
+                "text": "aura contacté"
               },
               {
                 "id": "o4",
@@ -62649,10 +63153,6 @@
             "difficulty": "medium",
             "options": [
               {
-                "id": "o1",
-                "text": "un accomplissement avant un repère futur"
-              },
-              {
                 "id": "o2",
                 "text": "une habitude passée"
               },
@@ -62663,6 +63163,10 @@
               {
                 "id": "o4",
                 "text": "une concession"
+              },
+              {
+                "id": "o1",
+                "text": "un accomplissement avant un repère futur"
               }
             ]
           },
@@ -62673,12 +63177,12 @@
             "difficulty": "medium",
             "options": [
               {
-                "id": "o1",
-                "text": "sera"
-              },
-              {
                 "id": "o2",
                 "text": "serait"
+              },
+              {
+                "id": "o1",
+                "text": "sera"
               },
               {
                 "id": "o3",
@@ -62697,12 +63201,12 @@
             "difficulty": "medium",
             "options": [
               {
-                "id": "o1",
-                "text": "aura"
-              },
-              {
                 "id": "o2",
                 "text": "aurait hier certain"
+              },
+              {
+                "id": "o1",
+                "text": "aura"
               },
               {
                 "id": "o3",
@@ -62725,12 +63229,12 @@
                 "text": "Elle dit qu’elle partira."
               },
               {
-                "id": "o2",
-                "text": "Elle disait qu’elle partirait."
-              },
-              {
                 "id": "o3",
                 "text": "Elle dira qu’elle partait."
+              },
+              {
+                "id": "o2",
+                "text": "Elle disait qu’elle partirait."
               },
               {
                 "id": "o4",
@@ -62745,10 +63249,6 @@
             "difficulty": "hard",
             "options": [
               {
-                "id": "o1",
-                "text": "Quand elle finira, elle aura déjà préparé son dossier."
-              },
-              {
                 "id": "o2",
                 "text": "Quand elle aura fini, elle préparerait hier."
               },
@@ -62759,9 +63259,25 @@
               {
                 "id": "o4",
                 "text": "Quand elle avait fini demain."
+              },
+              {
+                "id": "o1",
+                "text": "Quand elle finira, elle aura déjà préparé son dossier."
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Le futur antérieur et les projections dans le passé",
+        "definition": "Le futur antérieur marque l’accomplissement avant un repère futur ou une supposition : « quand elle aura terminé ». Dans un récit au passé, le conditionnel exprime le futur dans le passé : « elle savait qu’elle devrait choisir ». Ces temps structurent les projections complexes.",
+        "structure": "Forme à observer : Le futur antérieur et les projections dans le passé. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Maîtriser le futur antérieur et les projections dans le passé dans un contexte argumentatif C1.",
+        "examples": [
+          "Quand elle aura terminé son année, elle partira.",
+          "Elle savait qu’elle devrait choisir.",
+          "D’ici septembre, elle aura contacté tous les étudiants.",
+          "un accomplissement avant un repère futur"
         ]
       },
       "listeningComprehension": null
@@ -66408,12 +66924,12 @@
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
-                "id": "b",
-                "text": "Il semblerait que les rappels augmentent la quantité de pratique, sans que leur effet pédagogique soit démontré."
-              },
-              {
                 "id": "c",
                 "text": "Parce que la question complexe, alors le résultat forcément."
+              },
+              {
+                "id": "b",
+                "text": "Il semblerait que les rappels augmentent la quantité de pratique, sans que leur effet pédagogique soit démontré."
               },
               {
                 "id": "d",
@@ -66436,12 +66952,12 @@
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
-                "id": "c",
-                "text": "Elle emploie le conditionnel de prudence et les tournures impersonnelles afin de évaluer les promesses de l’intelligence artificielle sans certitude excessive : « Il semblerait que les rappels augmentent la quantité de pratique, sans que leur effet pédagogique soit démontré. »"
-              },
-              {
                 "id": "d",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
+              },
+              {
+                "id": "c",
+                "text": "Elle emploie le conditionnel de prudence et les tournures impersonnelles afin de évaluer les promesses de l’intelligence artificielle sans certitude excessive : « Il semblerait que les rappels augmentent la quantité de pratique, sans que leur effet pédagogique soit démontré. »"
               }
             ]
           },
@@ -66452,16 +66968,16 @@
             "difficulty": "analysis",
             "options": [
               {
+                "id": "c",
+                "text": "Les explications auraient été jugées utiles par les participants ; le protocole complet reste toutefois indisponible."
+              },
+              {
                 "id": "a",
                 "text": "Les données prouve donc certainement toutes les conclusions possibles."
               },
               {
                 "id": "b",
                 "text": "Parce que la question complexe, alors le résultat forcément."
-              },
-              {
-                "id": "c",
-                "text": "Les explications auraient été jugées utiles par les participants ; le protocole complet reste toutefois indisponible."
               },
               {
                 "id": "d",
@@ -66480,16 +66996,16 @@
                 "text": "Elle remplace les preuves par une affirmation absolue."
               },
               {
+                "id": "d",
+                "text": "Elle emploie le conditionnel de prudence et les tournures impersonnelles afin de évaluer les promesses de l’intelligence artificielle sans certitude excessive : « Les explications auraient été jugées utiles par les participants ; le protocole complet reste toutefois indisponible. »"
+              },
+              {
                 "id": "b",
                 "text": "Elle adopte un registre familier sans relation grammaticale précise."
               },
               {
                 "id": "c",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
-              },
-              {
-                "id": "d",
-                "text": "Elle emploie le conditionnel de prudence et les tournures impersonnelles afin de évaluer les promesses de l’intelligence artificielle sans certitude excessive : « Les explications auraient été jugées utiles par les participants ; le protocole complet reste toutefois indisponible. »"
               }
             ]
           },
@@ -66508,12 +67024,12 @@
                 "text": "Parce que la question complexe, alors le résultat forcément."
               },
               {
-                "id": "c",
-                "text": "La thèse est étant vraie par les mots qui ont utilisé."
-              },
-              {
                 "id": "d",
                 "text": "Il conviendrait donc de qualifier l’outil de prometteur plutôt que d’efficace."
+              },
+              {
+                "id": "c",
+                "text": "La thèse est étant vraie par les mots qui ont utilisé."
               }
             ]
           },
@@ -66523,10 +67039,6 @@
             "prompt": "Pourquoi l’exemple 4 convient-il à cette unité ?",
             "difficulty": "precision",
             "options": [
-              {
-                "id": "a",
-                "text": "Elle emploie le conditionnel de prudence et les tournures impersonnelles afin de évaluer les promesses de l’intelligence artificielle sans certitude excessive : « Il conviendrait donc de qualifier l’outil de prometteur plutôt que d’efficace. »"
-              },
               {
                 "id": "b",
                 "text": "Elle remplace les preuves par une affirmation absolue."
@@ -66538,6 +67050,10 @@
               {
                 "id": "d",
                 "text": "Elle change de sujet sans clarifier la portée ni la responsabilité."
+              },
+              {
+                "id": "a",
+                "text": "Elle emploie le conditionnel de prudence et les tournures impersonnelles afin de évaluer les promesses de l’intelligence artificielle sans certitude excessive : « Il conviendrait donc de qualifier l’outil de prometteur plutôt que d’efficace. »"
               }
             ]
           }
@@ -66689,12 +67205,12 @@
             "difficulty": "application",
             "options": [
               {
-                "id": "a",
-                "text": "annule"
-              },
-              {
                 "id": "b",
                 "text": "avait annulé"
+              },
+              {
+                "id": "a",
+                "text": "annule"
               },
               {
                 "id": "c",
@@ -66713,12 +67229,12 @@
             "difficulty": "application",
             "options": [
               {
-                "id": "a",
-                "text": "est"
-              },
-              {
                 "id": "b",
                 "text": "était"
+              },
+              {
+                "id": "a",
+                "text": "est"
               },
               {
                 "id": "c",
@@ -66741,12 +67257,12 @@
                 "text": "de"
               },
               {
-                "id": "b",
-                "text": "à"
-              },
-              {
                 "id": "c",
                 "text": "pour"
+              },
+              {
+                "id": "b",
+                "text": "à"
               },
               {
                 "id": "d",
@@ -66765,16 +67281,16 @@
                 "text": "Étant donné que"
               },
               {
-                "id": "b",
-                "text": "En fin de compte"
-              },
-              {
                 "id": "c",
                 "text": "Afin que"
               },
               {
                 "id": "d",
                 "text": "Bien que"
+              },
+              {
+                "id": "b",
+                "text": "En fin de compte"
               }
             ]
           },
@@ -66785,12 +67301,12 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Si elle annule ce voyage, elle n’aurait jamais rencontré Léa et Karim."
-              },
-              {
                 "id": "b",
                 "text": "Si elle avait annulé ce voyage, elle n’aurait jamais rencontré Léa et Karim."
+              },
+              {
+                "id": "a",
+                "text": "Si elle annule ce voyage, elle n’aurait jamais rencontré Léa et Karim."
               },
               {
                 "id": "c",
@@ -66809,12 +67325,12 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Avec le recul, elle est fière de sa décision."
-              },
-              {
                 "id": "b",
                 "text": "Avec le recul, elle était fière de sa décision."
+              },
+              {
+                "id": "a",
+                "text": "Avec le recul, elle est fière de sa décision."
               },
               {
                 "id": "c",
@@ -66837,12 +67353,12 @@
                 "text": "Elle est déterminée de continuer ses études en France."
               },
               {
-                "id": "b",
-                "text": "Elle est déterminée à continuer ses études en France."
-              },
-              {
                 "id": "c",
                 "text": "Elle est déterminée pour continuer ses études en France."
+              },
+              {
+                "id": "b",
+                "text": "Elle est déterminée à continuer ses études en France."
               },
               {
                 "id": "d",
@@ -66861,16 +67377,16 @@
                 "text": "Étant donné que"
               },
               {
-                "id": "b",
-                "text": "En fin de compte"
-              },
-              {
                 "id": "c",
                 "text": "Afin que"
               },
               {
                 "id": "d",
                 "text": "Bien que"
+              },
+              {
+                "id": "b",
+                "text": "En fin de compte"
               }
             ]
           }
@@ -67044,12 +67560,12 @@
             "difficulty": "application",
             "options": [
               {
-                "id": "a",
-                "text": "allons"
-              },
-              {
                 "id": "b",
                 "text": "allez"
+              },
+              {
+                "id": "a",
+                "text": "allons"
               },
               {
                 "id": "c",
@@ -67068,16 +67584,16 @@
             "difficulty": "analysis",
             "options": [
               {
-                "id": "a",
-                "text": "va pleuvoir"
-              },
-              {
                 "id": "b",
                 "text": "pleut va"
               },
               {
                 "id": "c",
                 "text": "va pleuvant"
+              },
+              {
+                "id": "a",
+                "text": "va pleuvoir"
               },
               {
                 "id": "d",
@@ -67092,10 +67608,6 @@
             "difficulty": "analysis",
             "options": [
               {
-                "id": "a",
-                "text": "vas"
-              },
-              {
                 "id": "b",
                 "text": "va"
               },
@@ -67106,6 +67618,10 @@
               {
                 "id": "d",
                 "text": "allez"
+              },
+              {
+                "id": "a",
+                "text": "vas"
               }
             ]
           },
@@ -67140,12 +67656,12 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Nous allons prendre le train."
-              },
-              {
                 "id": "b",
                 "text": "Nous allez prendre le train."
+              },
+              {
+                "id": "a",
+                "text": "Nous allons prendre le train."
               },
               {
                 "id": "c",
@@ -67164,16 +67680,16 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Il va pleuvoir un peu cet après-midi."
-              },
-              {
                 "id": "b",
                 "text": "Il pleut va un peu cet après-midi."
               },
               {
                 "id": "c",
                 "text": "Il va pleuvant un peu cet après-midi."
+              },
+              {
+                "id": "a",
+                "text": "Il va pleuvoir un peu cet après-midi."
               },
               {
                 "id": "d",
@@ -67188,10 +67704,6 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Tu vas visiter la tour Eiffel."
-              },
-              {
                 "id": "b",
                 "text": "Tu va visiter la tour Eiffel."
               },
@@ -67202,9 +67714,25 @@
               {
                 "id": "d",
                 "text": "Tu allez visiter la tour Eiffel."
+              },
+              {
+                "id": "a",
+                "text": "Tu vas visiter la tour Eiffel."
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Le futur proche et la météo",
+        "definition": "Pour parler de la météo : « Il fait beau. » « Il fait froid. » « Il y a du soleil. » « Il pleut. » Le futur proche exprime une action prévue dans un futur proche : aller (au présent) + infinitif. Je vais voyager, tu vas visiter, il/elle va arriver, nous allons prendre, vous allez partir, ils/elles vont adorer. Exemple : « Demain, il va faire beau. Nous allons visiter Paris. »",
+        "structure": "Forme à observer : Le futur proche et la météo. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Exprimer la météo et parler du futur avec aller + infinitif.",
+        "examples": [
+          "Demain, il va faire beau.",
+          "Nous allons prendre le train.",
+          "Il va pleuvoir un peu cet après-midi.",
+          "Tu vas visiter la tour Eiffel."
         ]
       },
       "listeningComprehension": null
@@ -67337,16 +67865,16 @@
             "difficulty": "analysis",
             "options": [
               {
-                "id": "a",
-                "text": "voudrais"
-              },
-              {
                 "id": "b",
                 "text": "veux de"
               },
               {
                 "id": "c",
                 "text": "voudrait"
+              },
+              {
+                "id": "a",
+                "text": "voudrais"
               },
               {
                 "id": "d",
@@ -67361,10 +67889,6 @@
             "difficulty": "analysis",
             "options": [
               {
-                "id": "a",
-                "text": "pourrais"
-              },
-              {
                 "id": "b",
                 "text": "pourriez"
               },
@@ -67375,6 +67899,10 @@
               {
                 "id": "d",
                 "text": "pourrions"
+              },
+              {
+                "id": "a",
+                "text": "pourrais"
               }
             ]
           },
@@ -67433,16 +67961,16 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Je voudrais participer comme bénévole."
-              },
-              {
                 "id": "b",
                 "text": "Je veux de participer comme bénévole."
               },
               {
                 "id": "c",
                 "text": "Je voudrait participer comme bénévole."
+              },
+              {
+                "id": "a",
+                "text": "Je voudrais participer comme bénévole."
               },
               {
                 "id": "d",
@@ -67457,10 +67985,6 @@
             "difficulty": "precision",
             "options": [
               {
-                "id": "a",
-                "text": "Tu pourrais préparer une affiche pour demain."
-              },
-              {
                 "id": "b",
                 "text": "Tu pourriez préparer une affiche pour demain."
               },
@@ -67471,9 +67995,25 @@
               {
                 "id": "d",
                 "text": "Tu pourrions préparer une affiche pour demain."
+              },
+              {
+                "id": "a",
+                "text": "Tu pourrais préparer une affiche pour demain."
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Proposer et demander poliment",
+        "definition": "Pour proposer une action, on peut utiliser « on pourrait + infinitif ». Pour demander poliment, on emploie souvent « pourriez-vous + infinitif ? » ou « je voudrais + nom/infinitif ». Ces formes sont plus douces que l’impératif.",
+        "structure": "Forme à observer : Proposer et demander poliment. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Utiliser le conditionnel pour faire une proposition ou une demande.",
+        "examples": [
+          "Pour faire une proposition polie : On pourrait organiser une collecte.",
+          "Pourriez-vous apporter des cartons, s’il vous plaît ?",
+          "Je voudrais participer comme bénévole.",
+          "Tu pourrais préparer une affiche pour demain."
         ]
       },
       "listeningComprehension": null
@@ -67579,12 +68119,12 @@
             "difficulty": "easy",
             "options": [
               {
-                "id": "o1",
-                "text": "Ce constat"
-              },
-              {
                 "id": "o2",
                 "text": "Lequel que"
+              },
+              {
+                "id": "o1",
+                "text": "Ce constat"
               },
               {
                 "id": "o3",
@@ -67603,16 +68143,16 @@
             "difficulty": "medium",
             "options": [
               {
-                "id": "o1",
-                "text": "Camila anime un atelier. Cette rencontre lui permet de transmettre."
-              },
-              {
                 "id": "o2",
                 "text": "Camila anime un atelier. Ça fait ça."
               },
               {
                 "id": "o3",
                 "text": "Camila anime un atelier. Elle ceci."
+              },
+              {
+                "id": "o1",
+                "text": "Camila anime un atelier. Cette rencontre lui permet de transmettre."
               },
               {
                 "id": "o4",
@@ -67627,10 +68167,6 @@
             "difficulty": "medium",
             "options": [
               {
-                "id": "o1",
-                "text": "un déplacement de cette nature"
-              },
-              {
                 "id": "o2",
                 "text": "un déplacement très proche"
               },
@@ -67641,6 +68177,10 @@
               {
                 "id": "o4",
                 "text": "un lieu précis"
+              },
+              {
+                "id": "o1",
+                "text": "un déplacement de cette nature"
               }
             ]
           },
@@ -67675,12 +68215,12 @@
             "difficulty": "medium",
             "options": [
               {
-                "id": "o1",
-                "text": "Autrement dit"
-              },
-              {
                 "id": "o2",
                 "text": "Pourtant que"
+              },
+              {
+                "id": "o1",
+                "text": "Autrement dit"
               },
               {
                 "id": "o3",
@@ -67699,16 +68239,16 @@
             "difficulty": "hard",
             "options": [
               {
-                "id": "o1",
-                "text": "Dès lors"
-              },
-              {
                 "id": "o2",
                 "text": "En revanche"
               },
               {
                 "id": "o3",
                 "text": "Certes"
+              },
+              {
+                "id": "o1",
+                "text": "Dès lors"
               },
               {
                 "id": "o4",
@@ -67723,10 +68263,6 @@
             "difficulty": "hard",
             "options": [
               {
-                "id": "o1",
-                "text": "Elle observe plusieurs situations. De ce constat naît une méthode d’attention."
-              },
-              {
                 "id": "o2",
                 "text": "Elle observe. Celui-ci sans nom devient."
               },
@@ -67737,9 +68273,25 @@
               {
                 "id": "o4",
                 "text": "Elle observe et le ceci conclut."
+              },
+              {
+                "id": "o1",
+                "text": "Elle observe plusieurs situations. De ce constat naît une méthode d’attention."
               }
             ]
           }
+        ]
+      },
+      "grammarProfile": {
+        "name": "La reprise et la cohésion d’un texte complexe",
+        "definition": "Un texte C1 évite la répétition par des reprises nominales, pronominales et conceptuelles : « cette expérience », « un tel déplacement », « ce constat ». Les connecteurs organisent la progression sans devenir mécaniques. Chaque reprise doit avoir un antécédent clair.",
+        "structure": "Forme à observer : La reprise et la cohésion d’un texte complexe. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
+        "function": "Maîtriser la reprise et la cohésion d’un texte complexe dans un contexte argumentatif C1.",
+        "examples": [
+          "un parcours décrit précédemment",
+          "Ce constat",
+          "Camila anime un atelier. Cette rencontre lui permet de transmettre.",
+          "un déplacement de cette nature"
         ]
       },
       "listeningComprehension": null
@@ -68859,71 +69411,6 @@
   window.ANDERGO_LANGUAGE_WORLDS.units = window.ANDERGO_LANGUAGE_WORLDS.units || {};
   window.ANDERGO_LANGUAGE_WORLDS.units.french = [
   {
-    "id": "neuroplasticite-adulte",
-    "slug": "neuroplasticite-adulte",
-    "level": "C2",
-    "title": "Neuroplasticité et apprentissage linguistique adulte",
-    "titleEs": "Neuroplasticité et apprentissage linguistique adulte",
-    "description": "Enquête interdisciplinaire C2 : Le cerveau adulte a-t-il vraiment perdu sa capacité d’apprendre ?.",
-    "order": 1,
-    "unitOverview": {
-      "objective": "Évaluer des cadres concurrents dans le domaine suivant : neuroplasticité et apprentissage linguistique adulte.",
-      "outcomes": [
-        "inférer les présupposés et les liens laissés implicites",
-        "évaluer des preuves hétérogènes et leurs limites",
-        "maîtriser un lexique précis, idiomatique et connoté",
-        "maintenir un contrôle grammatical constant dans une argumentation complexe"
-      ],
-      "grammar": [
-        "La concession stratifiée et la contre-attente"
-      ],
-      "vocabulary": [
-        "la neuroplasticité",
-        "un réseau fonctionnel",
-        "la matière grise",
-        "une étude transversale",
-        "une période sensible",
-        "une inférence causale"
-      ],
-      "scenario": "Le cerveau adulte a-t-il vraiment perdu sa capacité d’apprendre ?",
-      "cefrTargets": [
-        "compréhension approfondie et inférence",
-        "étendue et contrôle du vocabulaire",
-        "correction grammaticale constante"
-      ]
-    }
-  },
-  {
-    "id": "retour-a-saint-domingue",
-    "slug": "retour-a-saint-domingue",
-    "level": "B2",
-    "title": "Retour à Saint-Domingue",
-    "titleEs": "Regreso a Santo Domingo",
-    "description": "Camila retrouve sa famille et ses amis d’enfance à Saint-Domingue, avec un regard transformé par son année en France.",
-    "order": 1,
-    "unitOverview": {
-      "objective": "Décrire un retour au pays et exprimer un sentiment ambivalent avec nuance.",
-      "outcomes": [
-        "décrire des retrouvailles avec précision émotionnelle",
-        "exprimer une nostalgie tout en valorisant le présent",
-        "utiliser le plus-que-parfait pour situer un souvenir dans le passé",
-        "nuancer une opinion sur deux lieux de vie différents"
-      ],
-      "grammar": [
-        "plus-que-parfait",
-        "concordance des temps (passé)",
-        "nuance et modération de l’opinion"
-      ],
-      "vocabulary": [
-        "les retrouvailles",
-        "le mal du pays",
-        "ambivalent(e)",
-        "avoir le sentiment de"
-      ],
-      "scenario": "Camila atterrit à Saint-Domingue après un an d’absence et retrouve sa famille et Sofía à l’aéroport."
-    }
-  },
-  {
     "id": "bonjour-et-bienvenue",
     "slug": "bonjour-et-bienvenue",
     "level": "A1",
@@ -69016,6 +69503,36 @@
     }
   },
   {
+    "id": "retour-a-saint-domingue",
+    "slug": "retour-a-saint-domingue",
+    "level": "B2",
+    "title": "Retour à Saint-Domingue",
+    "titleEs": "Regreso a Santo Domingo",
+    "description": "Camila retrouve sa famille et ses amis d’enfance à Saint-Domingue, avec un regard transformé par son année en France.",
+    "order": 1,
+    "unitOverview": {
+      "objective": "Décrire un retour au pays et exprimer un sentiment ambivalent avec nuance.",
+      "outcomes": [
+        "décrire des retrouvailles avec précision émotionnelle",
+        "exprimer une nostalgie tout en valorisant le présent",
+        "utiliser le plus-que-parfait pour situer un souvenir dans le passé",
+        "nuancer une opinion sur deux lieux de vie différents"
+      ],
+      "grammar": [
+        "plus-que-parfait",
+        "concordance des temps (passé)",
+        "nuance et modération de l’opinion"
+      ],
+      "vocabulary": [
+        "les retrouvailles",
+        "le mal du pays",
+        "ambivalent(e)",
+        "avoir le sentiment de"
+      ],
+      "scenario": "Camila atterrit à Saint-Domingue après un an d’absence et retrouve sa famille et Sofía à l’aéroport."
+    }
+  },
+  {
     "id": "la-rentree-universitaire",
     "slug": "la-rentree-universitaire",
     "level": "C1",
@@ -69046,15 +69563,15 @@
     }
   },
   {
-    "id": "recuperation-espacee",
-    "slug": "recuperation-espacee",
+    "id": "intelligence-artificielle-et-creativite",
+    "slug": "intelligence-artificielle-et-creativite",
     "level": "C2",
-    "title": "Récupération active et répétition espacée",
-    "titleEs": "Récupération active et répétition espacée",
-    "description": "Enquête interdisciplinaire C2 : Relire ou se tester : quelle pratique construit une mémoire durable ?.",
-    "order": 2,
+    "title": "Intelligence artificielle et créativité humaine",
+    "titleEs": "Intelligence artificielle et créativité humaine",
+    "description": "Enquête interdisciplinaire C2 : La machine peut-elle véritablement créer ?.",
+    "order": 1,
     "unitOverview": {
-      "objective": "Évaluer des cadres concurrents dans le domaine suivant : récupération active et répétition espacée.",
+      "objective": "Évaluer des cadres concurrents dans le domaine suivant : intelligence artificielle et créativité humaine.",
       "outcomes": [
         "inférer les présupposés et les liens laissés implicites",
         "évaluer des preuves hétérogènes et leurs limites",
@@ -69062,52 +69579,22 @@
         "maintenir un contrôle grammatical constant dans une argumentation complexe"
       ],
       "grammar": [
-        "La modalisation épistémique de haute précision"
+        "Le conditionnel de prudence et les tournures impersonnelles"
       ],
       "vocabulary": [
-        "la récupération active",
-        "l’espacement",
-        "une trace mnésique",
-        "la familiarité",
-        "une interférence",
-        "un critère de maîtrise"
+        "une œuvre générative",
+        "l’agentivité",
+        "un corpus d’entraînement",
+        "la titularité",
+        "un pastiche",
+        "l’originalité"
       ],
-      "scenario": "Relire ou se tester : quelle pratique construit une mémoire durable ?",
+      "scenario": "La machine peut-elle véritablement créer ?",
       "cefrTargets": [
         "compréhension approfondie et inférence",
         "étendue et contrôle du vocabulaire",
         "correction grammaticale constante"
       ]
-    }
-  },
-  {
-    "id": "candidature-universitaire",
-    "slug": "candidature-universitaire",
-    "level": "B2",
-    "title": "Candidature universitaire",
-    "titleEs": "Solicitud universitaria",
-    "description": "Camila prépare sa candidature pour étudier à l’université en France, avec l’aide à distance de Léa et Karim.",
-    "order": 2,
-    "unitOverview": {
-      "objective": "Rédiger une lettre de motivation et argumenter un projet académique de façon structurée.",
-      "outcomes": [
-        "structurer une lettre de motivation formelle",
-        "argumenter un choix académique avec des exemples concrets",
-        "utiliser le subjonctif passé pour évoquer une expérience accomplie",
-        "nuancer une auto-présentation sans excès de modestie ni d’arrogance"
-      ],
-      "grammar": [
-        "subjonctif passé",
-        "connecteurs d’argumentation avancés (par ailleurs, en outre)",
-        "structure d’une lettre de motivation"
-      ],
-      "vocabulary": [
-        "une lettre de motivation",
-        "un dossier de candidature",
-        "convaincant(e)",
-        "se démarquer"
-      ],
-      "scenario": "Camila rédige sa lettre de motivation pour candidater à une licence de langues à l’université de Tours."
     }
   },
   {
@@ -69181,6 +69668,36 @@
     }
   },
   {
+    "id": "candidature-universitaire",
+    "slug": "candidature-universitaire",
+    "level": "B2",
+    "title": "Candidature universitaire",
+    "titleEs": "Solicitud universitaria",
+    "description": "Camila prépare sa candidature pour étudier à l’université en France, avec l’aide à distance de Léa et Karim.",
+    "order": 2,
+    "unitOverview": {
+      "objective": "Rédiger une lettre de motivation et argumenter un projet académique de façon structurée.",
+      "outcomes": [
+        "structurer une lettre de motivation formelle",
+        "argumenter un choix académique avec des exemples concrets",
+        "utiliser le subjonctif passé pour évoquer une expérience accomplie",
+        "nuancer une auto-présentation sans excès de modestie ni d’arrogance"
+      ],
+      "grammar": [
+        "subjonctif passé",
+        "connecteurs d’argumentation avancés (par ailleurs, en outre)",
+        "structure d’une lettre de motivation"
+      ],
+      "vocabulary": [
+        "une lettre de motivation",
+        "un dossier de candidature",
+        "convaincant(e)",
+        "se démarquer"
+      ],
+      "scenario": "Camila rédige sa lettre de motivation pour candidater à une licence de langues à l’université de Tours."
+    }
+  },
+  {
     "id": "un-exposer-a-preparer",
     "slug": "un-exposer-a-preparer",
     "level": "C1",
@@ -69211,15 +69728,15 @@
     }
   },
   {
-    "id": "sommeil-consolidation",
-    "slug": "sommeil-consolidation",
+    "id": "climat-et-transition-energetique",
+    "slug": "climat-et-transition-energetique",
     "level": "C2",
-    "title": "Sommeil et consolidation du vocabulaire",
-    "titleEs": "Sommeil et consolidation du vocabulaire",
-    "description": "Enquête interdisciplinaire C2 : Apprend-on une langue pendant que l’on dort ?.",
-    "order": 3,
+    "title": "Changement climatique et transition énergétique",
+    "titleEs": "Changement climatique et transition énergétique",
+    "description": "Enquête interdisciplinaire C2 : Décarboner à temps : course contre une horloge incertaine.",
+    "order": 2,
     "unitOverview": {
-      "objective": "Évaluer des cadres concurrents dans le domaine suivant : sommeil et consolidation du vocabulaire.",
+      "objective": "Évaluer des cadres concurrents dans le domaine suivant : changement climatique et transition énergétique.",
       "outcomes": [
         "inférer les présupposés et les liens laissés implicites",
         "évaluer des preuves hétérogènes et leurs limites",
@@ -69227,52 +69744,22 @@
         "maintenir un contrôle grammatical constant dans une argumentation complexe"
       ],
       "grammar": [
-        "La temporalité complexe et le futur antérieur"
+        "Les systèmes hypothétiques complexes et l’irréel"
       ],
       "vocabulary": [
-        "la consolidation",
-        "l’encodage",
-        "le sommeil lent",
-        "le sommeil paradoxal",
-        "une réactivation ciblée",
-        "une analyse préenregistrée"
+        "la décarbonation",
+        "un seuil de réchauffement",
+        "la tarification carbone",
+        "un inventaire d’émissions",
+        "le captage du carbone",
+        "une trajectoire compatible"
       ],
-      "scenario": "Apprend-on une langue pendant que l’on dort ?",
+      "scenario": "Décarboner à temps : course contre une horloge incertaine",
       "cefrTargets": [
         "compréhension approfondie et inférence",
         "étendue et contrôle du vocabulaire",
         "correction grammaticale constante"
       ]
-    }
-  },
-  {
-    "id": "debats-de-societe",
-    "slug": "debats-de-societe",
-    "level": "B2",
-    "title": "Débats de société",
-    "titleEs": "Debates de sociedad",
-    "description": "Dans un club de discussion en ligne avec Karim, Camila débat de sujets de société complexes en français.",
-    "order": 3,
-    "unitOverview": {
-      "objective": "Participer à un débat structuré sur un sujet de société et défendre une position nuancée.",
-      "outcomes": [
-        "structurer un argument avec des connecteurs logiques avancés",
-        "anticiper et réfuter un contre-argument",
-        "utiliser la voix passive dans un contexte argumentatif",
-        "nuancer une position sans paraître catégorique"
-      ],
-      "grammar": [
-        "la voix passive",
-        "connecteurs d’argumentation avancés (néanmoins, or, par conséquent)",
-        "nuance argumentative (il me semble que, dans une certaine mesure)"
-      ],
-      "vocabulary": [
-        "un point de vue",
-        "réfuter",
-        "dans une certaine mesure",
-        "un contre-argument"
-      ],
-      "scenario": "Camila rejoint un club de discussion en ligne où des étudiants francophones débattent de sujets de société, dont l’usage des écrans chez les jeunes."
     }
   },
   {
@@ -69346,6 +69833,36 @@
     }
   },
   {
+    "id": "debats-de-societe",
+    "slug": "debats-de-societe",
+    "level": "B2",
+    "title": "Débats de société",
+    "titleEs": "Debates de sociedad",
+    "description": "Dans un club de discussion en ligne avec Karim, Camila débat de sujets de société complexes en français.",
+    "order": 3,
+    "unitOverview": {
+      "objective": "Participer à un débat structuré sur un sujet de société et défendre une position nuancée.",
+      "outcomes": [
+        "structurer un argument avec des connecteurs logiques avancés",
+        "anticiper et réfuter un contre-argument",
+        "utiliser la voix passive dans un contexte argumentatif",
+        "nuancer une position sans paraître catégorique"
+      ],
+      "grammar": [
+        "la voix passive",
+        "connecteurs d’argumentation avancés (néanmoins, or, par conséquent)",
+        "nuance argumentative (il me semble que, dans une certaine mesure)"
+      ],
+      "vocabulary": [
+        "un point de vue",
+        "réfuter",
+        "dans une certaine mesure",
+        "un contre-argument"
+      ],
+      "scenario": "Camila rejoint un club de discussion en ligne où des étudiants francophones débattent de sujets de société, dont l’usage des écrans chez les jeunes."
+    }
+  },
+  {
     "id": "les-medias-et-la-fabrique-de-lopinion",
     "slug": "les-medias-et-la-fabrique-de-lopinion",
     "level": "C1",
@@ -69374,15 +69891,15 @@
     }
   },
   {
-    "id": "input-comprehensible",
-    "slug": "input-comprehensible",
+    "id": "geopolitique-et-conflits-contemporains",
+    "slug": "geopolitique-et-conflits-contemporains",
     "level": "C2",
-    "title": "Input compréhensible et apprentissage incident",
-    "titleEs": "Input compréhensible et apprentissage incident",
-    "description": "Enquête interdisciplinaire C2 : Comprendre beaucoup suffit-il pour apprendre à parler ?.",
-    "order": 4,
+    "title": "Géopolitique et conflits contemporains",
+    "titleEs": "Géopolitique et conflits contemporains",
+    "description": "Enquête interdisciplinaire C2 : Un monde multipolaire est-il nécessairement plus instable ?.",
+    "order": 3,
     "unitOverview": {
-      "objective": "Évaluer des cadres concurrents dans le domaine suivant : input compréhensible et apprentissage incident.",
+      "objective": "Évaluer des cadres concurrents dans le domaine suivant : géopolitique et conflits contemporains.",
       "outcomes": [
         "inférer les présupposés et les liens laissés implicites",
         "évaluer des preuves hétérogènes et leurs limites",
@@ -69390,52 +69907,22 @@
         "maintenir un contrôle grammatical constant dans une argumentation complexe"
       ],
       "grammar": [
-        "La nominalisation critique et la restitution de l’agent"
+        "La polyphonie et le discours rapporté complexe"
       ],
       "vocabulary": [
-        "l’input compréhensible",
-        "l’apprentissage incident",
-        "une connaissance réceptive",
-        "une connaissance productive",
-        "le repérage",
-        "un savoir inerte"
+        "la dissuasion",
+        "un ordre multipolaire",
+        "un hégémon",
+        "l’escalade",
+        "un multilatéralisme",
+        "la conflictualité"
       ],
-      "scenario": "Comprendre beaucoup suffit-il pour apprendre à parler ?",
+      "scenario": "Un monde multipolaire est-il nécessairement plus instable ?",
       "cefrTargets": [
         "compréhension approfondie et inférence",
         "étendue et contrôle du vocabulaire",
         "correction grammaticale constante"
       ]
-    }
-  },
-  {
-    "id": "le-teletravail-et-lavenir-professionnel",
-    "slug": "le-teletravail-et-lavenir-professionnel",
-    "level": "B2",
-    "title": "Le télétravail et l’avenir professionnel",
-    "titleEs": "El teletrabajo y el futuro profesional",
-    "description": "En attendant la réponse de l’université, Camila décroche un petit emploi de traduction à distance et découvre les avantages et limites du télétravail.",
-    "order": 4,
-    "unitOverview": {
-      "objective": "Décrire une expérience professionnelle et peser les avantages et inconvénients du télétravail.",
-      "outcomes": [
-        "décrire une routine de travail à distance",
-        "peser des avantages et des inconvénients avec nuance",
-        "utiliser le gérondif pour exprimer la simultanéité",
-        "employer des pronoms relatifs composés (dont, ce dont)"
-      ],
-      "grammar": [
-        "le gérondif (en + participe présent)",
-        "pronoms relatifs composés (dont, ce dont)",
-        "expressions de nuance professionnelle"
-      ],
-      "vocabulary": [
-        "le télétravail",
-        "la productivité",
-        "l’isolement",
-        "gérer son temps"
-      ],
-      "scenario": "Camila commence un petit emploi de traduction à distance pour une agence tout en attendant la réponse de l’université."
     }
   },
   {
@@ -69509,6 +69996,36 @@
     }
   },
   {
+    "id": "le-teletravail-et-lavenir-professionnel",
+    "slug": "le-teletravail-et-lavenir-professionnel",
+    "level": "B2",
+    "title": "Le télétravail et l’avenir professionnel",
+    "titleEs": "El teletrabajo y el futuro profesional",
+    "description": "En attendant la réponse de l’université, Camila décroche un petit emploi de traduction à distance et découvre les avantages et limites du télétravail.",
+    "order": 4,
+    "unitOverview": {
+      "objective": "Décrire une expérience professionnelle et peser les avantages et inconvénients du télétravail.",
+      "outcomes": [
+        "décrire une routine de travail à distance",
+        "peser des avantages et des inconvénients avec nuance",
+        "utiliser le gérondif pour exprimer la simultanéité",
+        "employer des pronoms relatifs composés (dont, ce dont)"
+      ],
+      "grammar": [
+        "le gérondif (en + participe présent)",
+        "pronoms relatifs composés (dont, ce dont)",
+        "expressions de nuance professionnelle"
+      ],
+      "vocabulary": [
+        "le télétravail",
+        "la productivité",
+        "l’isolement",
+        "gérer son temps"
+      ],
+      "scenario": "Camila commence un petit emploi de traduction à distance pour une agence tout en attendant la réponse de l’université."
+    }
+  },
+  {
     "id": "intelligence-artificielle-et-traduction",
     "slug": "intelligence-artificielle-et-traduction",
     "level": "C1",
@@ -69537,15 +70054,15 @@
     }
   },
   {
-    "id": "apprentissage-multimodal",
-    "slug": "apprentissage-multimodal",
+    "id": "reseaux-sociaux-et-sante-mentale",
+    "slug": "reseaux-sociaux-et-sante-mentale",
     "level": "C2",
-    "title": "Lecture, écoute et vidéo dans l’apprentissage",
-    "titleEs": "Lecture, écoute et vidéo dans l’apprentissage",
-    "description": "Enquête interdisciplinaire C2 : Texte, son ou image : faut-il choisir un seul canal ?.",
-    "order": 5,
+    "title": "Réseaux sociaux et santé mentale",
+    "titleEs": "Réseaux sociaux et santé mentale",
+    "description": "Enquête interdisciplinaire C2 : Les écrans rendent-ils vraiment malheureux ?.",
+    "order": 4,
     "unitOverview": {
-      "objective": "Évaluer des cadres concurrents dans le domaine suivant : lecture, écoute et vidéo dans l’apprentissage.",
+      "objective": "Évaluer des cadres concurrents dans le domaine suivant : réseaux sociaux et santé mentale.",
       "outcomes": [
         "inférer les présupposés et les liens laissés implicites",
         "évaluer des preuves hétérogènes et leurs limites",
@@ -69553,52 +70070,22 @@
         "maintenir un contrôle grammatical constant dans une argumentation complexe"
       ],
       "grammar": [
-        "Les connecteurs de cause, corrélation et conséquence"
+        "Le subjonctif dans l’évaluation, la restriction et le doute"
       ],
       "vocabulary": [
-        "la multimodalité",
-        "un indice prosodique",
-        "la segmentation",
-        "la surcharge cognitive",
-        "un test différé",
-        "l’étayage"
+        "un usage passif",
+        "la comparaison sociale ascendante",
+        "une donnée autorapportée",
+        "un design corrélationnel",
+        "une conception addictive",
+        "une étude longitudinale"
       ],
-      "scenario": "Texte, son ou image : faut-il choisir un seul canal ?",
+      "scenario": "Les écrans rendent-ils vraiment malheureux ?",
       "cefrTargets": [
         "compréhension approfondie et inférence",
         "étendue et contrôle du vocabulaire",
         "correction grammaticale constante"
       ]
-    }
-  },
-  {
-    "id": "litterature-francophone",
-    "slug": "litterature-francophone",
-    "level": "B2",
-    "title": "Littérature francophone",
-    "titleEs": "Literatura francófona",
-    "description": "Camila rejoint un club de lecture en ligne qui étudie un roman francophone caribéen, mêlant sa propre culture à la langue qu’elle a apprise.",
-    "order": 5,
-    "unitOverview": {
-      "objective": "Analyser un extrait littéraire simple et rapporter les propos d’un auteur au discours indirect.",
-      "outcomes": [
-        "analyser le thème et le ton d’un extrait littéraire",
-        "rapporter des propos au discours indirect au passé",
-        "utiliser des pronoms relatifs composés (lequel, laquelle)",
-        "exprimer une impression de lecture avec nuance"
-      ],
-      "grammar": [
-        "discours indirect au passé",
-        "pronoms relatifs composés (lequel, auquel, duquel)",
-        "expressions d’analyse littéraire"
-      ],
-      "vocabulary": [
-        "un extrait",
-        "le narrateur",
-        "évoquer",
-        "un thème récurrent"
-      ],
-      "scenario": "Camila rejoint un club de lecture en ligne qui étudie un roman francophone caribéen évoquant l’identité et le déracinement."
     }
   },
   {
@@ -69672,6 +70159,36 @@
     }
   },
   {
+    "id": "litterature-francophone",
+    "slug": "litterature-francophone",
+    "level": "B2",
+    "title": "Littérature francophone",
+    "titleEs": "Literatura francófona",
+    "description": "Camila rejoint un club de lecture en ligne qui étudie un roman francophone caribéen, mêlant sa propre culture à la langue qu’elle a apprise.",
+    "order": 5,
+    "unitOverview": {
+      "objective": "Analyser un extrait littéraire simple et rapporter les propos d’un auteur au discours indirect.",
+      "outcomes": [
+        "analyser le thème et le ton d’un extrait littéraire",
+        "rapporter des propos au discours indirect au passé",
+        "utiliser des pronoms relatifs composés (lequel, laquelle)",
+        "exprimer une impression de lecture avec nuance"
+      ],
+      "grammar": [
+        "discours indirect au passé",
+        "pronoms relatifs composés (lequel, auquel, duquel)",
+        "expressions d’analyse littéraire"
+      ],
+      "vocabulary": [
+        "un extrait",
+        "le narrateur",
+        "évoquer",
+        "un thème récurrent"
+      ],
+      "scenario": "Camila rejoint un club de lecture en ligne qui étudie un roman francophone caribéen évoquant l’identité et le déracinement."
+    }
+  },
+  {
     "id": "memoire-migration-et-identite",
     "slug": "memoire-migration-et-identite",
     "level": "C1",
@@ -69700,15 +70217,15 @@
     }
   },
   {
-    "id": "interaction-production",
-    "slug": "interaction-production",
+    "id": "economie-et-inegalites-mondiales",
+    "slug": "economie-et-inegalites-mondiales",
     "level": "C2",
-    "title": "Interaction, production et négociation du sens",
-    "titleEs": "Interaction, production et négociation du sens",
-    "description": "Enquête interdisciplinaire C2 : Pourquoi parler avant de se sentir prêt ?.",
-    "order": 6,
+    "title": "Économie et inégalités mondiales",
+    "titleEs": "Économie et inégalités mondiales",
+    "description": "Enquête interdisciplinaire C2 : La croissance mondiale profite-t-elle à tous ?.",
+    "order": 5,
     "unitOverview": {
-      "objective": "Évaluer des cadres concurrents dans le domaine suivant : interaction, production et négociation du sens.",
+      "objective": "Évaluer des cadres concurrents dans le domaine suivant : économie et inégalités mondiales.",
       "outcomes": [
         "inférer les présupposés et les liens laissés implicites",
         "évaluer des preuves hétérogènes et leurs limites",
@@ -69716,52 +70233,22 @@
         "maintenir un contrôle grammatical constant dans une argumentation complexe"
       ],
       "grammar": [
-        "La polyphonie et le discours rapporté complexe"
+        "La nominalisation critique et la restitution de l’agent"
       ],
       "vocabulary": [
-        "la négociation du sens",
-        "une demande de clarification",
-        "une reformulation",
-        "une périphrase",
-        "l’intelligibilité",
-        "une tâche d’écart d’information"
+        "l’extrême pauvreté",
+        "le coefficient de Gini",
+        "un paradis fiscal",
+        "la fiscalité progressive",
+        "l’érosion de la base fiscale",
+        "un transfert de bénéfices"
       ],
-      "scenario": "Pourquoi parler avant de se sentir prêt ?",
+      "scenario": "La croissance mondiale profite-t-elle à tous ?",
       "cefrTargets": [
         "compréhension approfondie et inférence",
         "étendue et contrôle du vocabulaire",
         "correction grammaticale constante"
       ]
-    }
-  },
-  {
-    "id": "cinema-et-critique",
-    "slug": "cinema-et-critique",
-    "level": "B2",
-    "title": "Cinéma et critique",
-    "titleEs": "Cine y crítica",
-    "description": "Camila regarde un film français avec Sofía et rédige sa première critique de cinéma argumentée.",
-    "order": 6,
-    "unitOverview": {
-      "objective": "Rédiger une critique de film structurée avec des arguments et une évaluation nuancée.",
-      "outcomes": [
-        "décrire l’intrigue d’un film sans trop en révéler",
-        "évaluer la mise en scène et le jeu des acteurs",
-        "utiliser ce qui / ce que pour résumer une impression",
-        "nuancer une critique entre points forts et points faibles"
-      ],
-      "grammar": [
-        "ce qui / ce que (récapitulatif)",
-        "expressions d’évaluation critique",
-        "comparatifs et superlatifs avancés"
-      ],
-      "vocabulary": [
-        "la mise en scène",
-        "le scénario",
-        "un rebondissement",
-        "convaincant(e) (cinéma)"
-      ],
-      "scenario": "Camila et Sofía regardent ensemble un film français récent, et Camila décide d’en écrire une critique pour son blog personnel."
     }
   },
   {
@@ -69835,6 +70322,36 @@
     }
   },
   {
+    "id": "cinema-et-critique",
+    "slug": "cinema-et-critique",
+    "level": "B2",
+    "title": "Cinéma et critique",
+    "titleEs": "Cine y crítica",
+    "description": "Camila regarde un film français avec Sofía et rédige sa première critique de cinéma argumentée.",
+    "order": 6,
+    "unitOverview": {
+      "objective": "Rédiger une critique de film structurée avec des arguments et une évaluation nuancée.",
+      "outcomes": [
+        "décrire l’intrigue d’un film sans trop en révéler",
+        "évaluer la mise en scène et le jeu des acteurs",
+        "utiliser ce qui / ce que pour résumer une impression",
+        "nuancer une critique entre points forts et points faibles"
+      ],
+      "grammar": [
+        "ce qui / ce que (récapitulatif)",
+        "expressions d’évaluation critique",
+        "comparatifs et superlatifs avancés"
+      ],
+      "vocabulary": [
+        "la mise en scène",
+        "le scénario",
+        "un rebondissement",
+        "convaincant(e) (cinéma)"
+      ],
+      "scenario": "Camila et Sofía regardent ensemble un film français récent, et Camila décide d’en écrire une critique pour son blog personnel."
+    }
+  },
+  {
     "id": "justice-sociale-et-inegalites",
     "slug": "justice-sociale-et-inegalites",
     "level": "C1",
@@ -69863,15 +70380,15 @@
     }
   },
   {
-    "id": "feedback-correctif",
-    "slug": "feedback-correctif",
+    "id": "espace-et-exploration-scientifique",
+    "slug": "espace-et-exploration-scientifique",
     "level": "C2",
-    "title": "Feedback correctif et traitement de l’erreur",
-    "titleEs": "Feedback correctif et traitement de l’erreur",
-    "description": "Enquête interdisciplinaire C2 : Corriger davantage signifie-t-il enseigner mieux ?.",
-    "order": 7,
+    "title": "Espace et exploration scientifique",
+    "titleEs": "Espace et exploration scientifique",
+    "description": "Enquête interdisciplinaire C2 : Sommes-nous sur le point de détecter une vie extraterrestre ?.",
+    "order": 6,
     "unitOverview": {
-      "objective": "Évaluer des cadres concurrents dans le domaine suivant : feedback correctif et traitement de l’erreur.",
+      "objective": "Évaluer des cadres concurrents dans le domaine suivant : espace et exploration scientifique.",
       "outcomes": [
         "inférer les présupposés et les liens laissés implicites",
         "évaluer des preuves hétérogènes et leurs limites",
@@ -69879,52 +70396,22 @@
         "maintenir un contrôle grammatical constant dans une argumentation complexe"
       ],
       "grammar": [
-        "Le subjonctif dans l’évaluation, la restriction et le doute"
+        "La temporalité complexe et le futur antérieur"
       ],
       "vocabulary": [
-        "le feedback correctif",
-        "une reformulation implicite",
-        "une invite",
-        "la réparation",
-        "le transfert",
-        "une erreur développementale"
+        "une biosignature",
+        "une origine abiotique",
+        "la spectroscopie de transit",
+        "le rapport signal-bruit",
+        "l’imagerie directe",
+        "une biosignature agnostique"
       ],
-      "scenario": "Corriger davantage signifie-t-il enseigner mieux ?",
+      "scenario": "Sommes-nous sur le point de détecter une vie extraterrestre ?",
       "cefrTargets": [
         "compréhension approfondie et inférence",
         "étendue et contrôle du vocabulaire",
         "correction grammaticale constante"
       ]
-    }
-  },
-  {
-    "id": "dilemmes-ethiques",
-    "slug": "dilemmes-ethiques",
-    "level": "B2",
-    "title": "Dilemmes éthiques",
-    "titleEs": "Dilemas éticos",
-    "description": "Dans un forum de discussion philosophique, Camila débat d’un dilemme moral et explore des hypothèses complexes avec le club de lecture.",
-    "order": 7,
-    "unitOverview": {
-      "objective": "Discuter d’un dilemme moral et formuler des hypothèses complexes sur le passé.",
-      "outcomes": [
-        "présenter un dilemme éthique avec précision",
-        "formuler une hypothèse irréelle sur le passé",
-        "utiliser le conditionnel passé pour exprimer un regret ou un reproche",
-        "nuancer un jugement moral sans catégoriser trop vite"
-      ],
-      "grammar": [
-        "hypothèse avec si + plus-que-parfait / conditionnel passé",
-        "le conditionnel passé (regret, reproche)",
-        "nuance du jugement moral"
-      ],
-      "vocabulary": [
-        "un dilemme",
-        "une valeur",
-        "juger",
-        "se mettre à la place de"
-      ],
-      "scenario": "Camila participe à un forum de discussion philosophique en ligne où l’on débat d’un dilemme moral classique."
     }
   },
   {
@@ -69998,6 +70485,36 @@
     }
   },
   {
+    "id": "dilemmes-ethiques",
+    "slug": "dilemmes-ethiques",
+    "level": "B2",
+    "title": "Dilemmes éthiques",
+    "titleEs": "Dilemas éticos",
+    "description": "Dans un forum de discussion philosophique, Camila débat d’un dilemme moral et explore des hypothèses complexes avec le club de lecture.",
+    "order": 7,
+    "unitOverview": {
+      "objective": "Discuter d’un dilemme moral et formuler des hypothèses complexes sur le passé.",
+      "outcomes": [
+        "présenter un dilemme éthique avec précision",
+        "formuler une hypothèse irréelle sur le passé",
+        "utiliser le conditionnel passé pour exprimer un regret ou un reproche",
+        "nuancer un jugement moral sans catégoriser trop vite"
+      ],
+      "grammar": [
+        "hypothèse avec si + plus-que-parfait / conditionnel passé",
+        "le conditionnel passé (regret, reproche)",
+        "nuance du jugement moral"
+      ],
+      "vocabulary": [
+        "un dilemme",
+        "une valeur",
+        "juger",
+        "se mettre à la place de"
+      ],
+      "scenario": "Camila participe à un forum de discussion philosophique en ligne où l’on débat d’un dilemme moral classique."
+    }
+  },
+  {
     "id": "ecologie-et-responsabilite-collective",
     "slug": "ecologie-et-responsabilite-collective",
     "level": "C1",
@@ -70026,15 +70543,15 @@
     }
   },
   {
-    "id": "perception-prononciation",
-    "slug": "perception-prononciation",
+    "id": "bioethique-edition-genetique-et-ia-medicale",
+    "slug": "bioethique-edition-genetique-et-ia-medicale",
     "level": "C2",
-    "title": "Perception auditive et prononciation",
-    "titleEs": "Perception auditive et prononciation",
-    "description": "Enquête interdisciplinaire C2 : Faut-il rééduquer l’oreille avant la bouche ?.",
-    "order": 8,
+    "title": "Bioéthique : édition génétique et intelligence artificielle médicale",
+    "titleEs": "Bioéthique : édition génétique et intelligence artificielle médicale",
+    "description": "Enquête interdisciplinaire C2 : Corriger le génome, corriger le jugement : deux frontières médicales.",
+    "order": 7,
     "unitOverview": {
-      "objective": "Évaluer des cadres concurrents dans le domaine suivant : perception auditive et prononciation.",
+      "objective": "Évaluer des cadres concurrents dans le domaine suivant : bioéthique : édition génétique et intelligence artificielle médicale.",
       "outcomes": [
         "inférer les présupposés et les liens laissés implicites",
         "évaluer des preuves hétérogènes et leurs limites",
@@ -70042,52 +70559,22 @@
         "maintenir un contrôle grammatical constant dans une argumentation complexe"
       ],
       "grammar": [
-        "Le passif, l’agentivité et la responsabilité discursive"
+        "La concession stratifiée et la contre-attente"
       ],
       "vocabulary": [
-        "un contraste phonémique",
-        "un indice acoustique",
-        "la haute variabilité",
-        "la généralisation",
-        "la compréhensibilité",
-        "un trait suprasegmental"
+        "l’édition germinale",
+        "l’édition somatique",
+        "un effet hors cible",
+        "un moratoire",
+        "la drépanocytose",
+        "un biais algorithmique"
       ],
-      "scenario": "Faut-il rééduquer l’oreille avant la bouche ?",
+      "scenario": "Corriger le génome, corriger le jugement : deux frontières médicales",
       "cefrTargets": [
         "compréhension approfondie et inférence",
         "étendue et contrôle du vocabulaire",
         "correction grammaticale constante"
       ]
-    }
-  },
-  {
-    "id": "sciences-et-innovations",
-    "slug": "sciences-et-innovations",
-    "level": "B2",
-    "title": "Sciences et innovations",
-    "titleEs": "Ciencias e innovaciones",
-    "description": "Karim partage un article de vulgarisation scientifique sur l’intelligence artificielle, et Camila apprend à discuter de sciences en français.",
-    "order": 8,
-    "unitOverview": {
-      "objective": "Comprendre et discuter d’un texte de vulgarisation scientifique avec nuance.",
-      "outcomes": [
-        "comprendre un texte de vulgarisation scientifique",
-        "exprimer une incertitude ou une probabilité scientifique",
-        "utiliser des connecteurs de cause scientifique (étant donné que, dans la mesure où)",
-        "nuancer une opinion sur une innovation technologique"
-      ],
-      "grammar": [
-        "subjonctif d’incertitude (il est possible que, il se peut que)",
-        "connecteurs de cause avancés (étant donné que, dans la mesure où)",
-        "expression de la probabilité"
-      ],
-      "vocabulary": [
-        "l’intelligence artificielle",
-        "un algorithme",
-        "une avancée",
-        "les répercussions"
-      ],
-      "scenario": "Karim, passionné de technologie, partage avec Camila un article sur l’intelligence artificielle et ses répercussions sur la société."
     }
   },
   {
@@ -70161,6 +70648,36 @@
     }
   },
   {
+    "id": "sciences-et-innovations",
+    "slug": "sciences-et-innovations",
+    "level": "B2",
+    "title": "Sciences et innovations",
+    "titleEs": "Ciencias e innovaciones",
+    "description": "Karim partage un article de vulgarisation scientifique sur l’intelligence artificielle, et Camila apprend à discuter de sciences en français.",
+    "order": 8,
+    "unitOverview": {
+      "objective": "Comprendre et discuter d’un texte de vulgarisation scientifique avec nuance.",
+      "outcomes": [
+        "comprendre un texte de vulgarisation scientifique",
+        "exprimer une incertitude ou une probabilité scientifique",
+        "utiliser des connecteurs de cause scientifique (étant donné que, dans la mesure où)",
+        "nuancer une opinion sur une innovation technologique"
+      ],
+      "grammar": [
+        "subjonctif d’incertitude (il est possible que, il se peut que)",
+        "connecteurs de cause avancés (étant donné que, dans la mesure où)",
+        "expression de la probabilité"
+      ],
+      "vocabulary": [
+        "l’intelligence artificielle",
+        "un algorithme",
+        "une avancée",
+        "les répercussions"
+      ],
+      "scenario": "Karim, passionné de technologie, partage avec Camila un article sur l’intelligence artificielle et ses répercussions sur la société."
+    }
+  },
+  {
     "id": "langues-pouvoir-et-inclusion",
     "slug": "langues-pouvoir-et-inclusion",
     "level": "C1",
@@ -70189,15 +70706,15 @@
     }
   },
   {
-    "id": "anxiete-attention",
-    "slug": "anxiete-attention",
+    "id": "culture-du-travail-et-epuisement-professionnel",
+    "slug": "culture-du-travail-et-epuisement-professionnel",
     "level": "C2",
-    "title": "Anxiété linguistique, attention et mémoire de travail",
-    "titleEs": "Anxiété linguistique, attention et mémoire de travail",
-    "description": "Enquête interdisciplinaire C2 : Quand la peur de l’erreur occupe la mémoire.",
-    "order": 9,
+    "title": "Culture du travail et épuisement professionnel",
+    "titleEs": "Culture du travail et épuisement professionnel",
+    "description": "Enquête interdisciplinaire C2 : L’épuisement professionnel est-il un problème individuel ou organisationnel ?.",
+    "order": 8,
     "unitOverview": {
-      "objective": "Évaluer des cadres concurrents dans le domaine suivant : anxiété linguistique, attention et mémoire de travail.",
+      "objective": "Évaluer des cadres concurrents dans le domaine suivant : culture du travail et épuisement professionnel.",
       "outcomes": [
         "inférer les présupposés et les liens laissés implicites",
         "évaluer des preuves hétérogènes et leurs limites",
@@ -70205,52 +70722,22 @@
         "maintenir un contrôle grammatical constant dans une argumentation complexe"
       ],
       "grammar": [
-        "Les systèmes hypothétiques complexes et l’irréel"
+        "Le passif, l’agentivité et la responsabilité discursive"
       ],
       "vocabulary": [
-        "l’anxiété langagière",
-        "la mémoire de travail",
-        "l’autosurveillance",
-        "l’évitement",
-        "une exposition graduée",
-        "la réciprocité causale"
+        "un risque psychosocial",
+        "le détachement mental",
+        "une ressource adaptative",
+        "une enquête transversale",
+        "un cadre intermédiaire",
+        "la charge de travail"
       ],
-      "scenario": "Quand la peur de l’erreur occupe la mémoire",
+      "scenario": "L’épuisement professionnel est-il un problème individuel ou organisationnel ?",
       "cefrTargets": [
         "compréhension approfondie et inférence",
         "étendue et contrôle du vocabulaire",
         "correction grammaticale constante"
       ]
-    }
-  },
-  {
-    "id": "histoire-et-memoire",
-    "slug": "histoire-et-memoire",
-    "level": "B2",
-    "title": "Histoire et mémoire",
-    "titleEs": "Historia y memoria",
-    "description": "En regardant un documentaire avec sa grand-mère, Camila explore l’histoire partagée de la Caraïbe francophone et hispanophone.",
-    "order": 9,
-    "unitOverview": {
-      "objective": "Comprendre un récit historique et discuter de la mémoire collective avec nuance.",
-      "outcomes": [
-        "comprendre un récit historique complexe",
-        "discuter de la mémoire collective et de ses interprétations multiples",
-        "utiliser les pronoms démonstratifs (celui, celle, ceux, celles)",
-        "nuancer un point de vue sur un événement historique sensible"
-      ],
-      "grammar": [
-        "pronoms démonstratifs (celui, celle, ceux, celles, celui-ci/celui-là)",
-        "l’accord du participe passé avec avoir (complément direct antéposé)",
-        "expressions de la mémoire historique"
-      ],
-      "vocabulary": [
-        "la mémoire collective",
-        "un héritage",
-        "une perspective",
-        "transmettre"
-      ],
-      "scenario": "Camila regarde un documentaire sur l’histoire partagée d’Haïti et de la République dominicaine avec sa grand-mère, qui lui raconte ses propres souvenirs familiaux."
     }
   },
   {
@@ -70324,6 +70811,36 @@
     }
   },
   {
+    "id": "histoire-et-memoire",
+    "slug": "histoire-et-memoire",
+    "level": "B2",
+    "title": "Histoire et mémoire",
+    "titleEs": "Historia y memoria",
+    "description": "En regardant un documentaire avec sa grand-mère, Camila explore l’histoire partagée de la Caraïbe francophone et hispanophone.",
+    "order": 9,
+    "unitOverview": {
+      "objective": "Comprendre un récit historique et discuter de la mémoire collective avec nuance.",
+      "outcomes": [
+        "comprendre un récit historique complexe",
+        "discuter de la mémoire collective et de ses interprétations multiples",
+        "utiliser les pronoms démonstratifs (celui, celle, ceux, celles)",
+        "nuancer un point de vue sur un événement historique sensible"
+      ],
+      "grammar": [
+        "pronoms démonstratifs (celui, celle, ceux, celles, celui-ci/celui-là)",
+        "l’accord du participe passé avec avoir (complément direct antéposé)",
+        "expressions de la mémoire historique"
+      ],
+      "vocabulary": [
+        "la mémoire collective",
+        "un héritage",
+        "une perspective",
+        "transmettre"
+      ],
+      "scenario": "Camila regarde un documentaire sur l’histoire partagée d’Haïti et de la République dominicaine avec sa grand-mère, qui lui raconte ses propres souvenirs familiaux."
+    }
+  },
+  {
     "id": "science-doute-et-esprit-critique",
     "slug": "science-doute-et-esprit-critique",
     "level": "C1",
@@ -70352,15 +70869,15 @@
     }
   },
   {
-    "id": "age-differences-individuelles",
-    "slug": "age-differences-individuelles",
+    "id": "migrations-et-frontieres",
+    "slug": "migrations-et-frontieres",
     "level": "C2",
-    "title": "Âge, aptitude et différences individuelles",
-    "titleEs": "Âge, aptitude et différences individuelles",
-    "description": "Enquête interdisciplinaire C2 : Existe-t-il une méthode universelle pour tous les cerveaux ?.",
-    "order": 10,
+    "title": "Migrations et frontières",
+    "titleEs": "Migrations et frontières",
+    "description": "Enquête interdisciplinaire C2 : Les frontières peuvent-elles contenir des mouvements structurels ?.",
+    "order": 9,
     "unitOverview": {
-      "objective": "Évaluer des cadres concurrents dans le domaine suivant : âge, aptitude et différences individuelles.",
+      "objective": "Évaluer des cadres concurrents dans le domaine suivant : migrations et frontières.",
       "outcomes": [
         "inférer les présupposés et les liens laissés implicites",
         "évaluer des preuves hétérogènes et leurs limites",
@@ -70371,49 +70888,19 @@
         "Les relatives complexes : dont, lequel et préposition + relatif"
       ],
       "vocabulary": [
-        "une différence individuelle",
-        "l’aptitude linguistique",
-        "le transfert interlinguistique",
-        "une interaction statistique",
-        "un style d’apprentissage",
-        "une adaptation révisable"
+        "un déplacement forcé",
+        "le principe de non-refoulement",
+        "l’externalisation migratoire",
+        "une voie légale de migration",
+        "un pays limitrophe",
+        "la multicausalité"
       ],
-      "scenario": "Existe-t-il une méthode universelle pour tous les cerveaux ?",
+      "scenario": "Les frontières peuvent-elles contenir des mouvements structurels ?",
       "cefrTargets": [
         "compréhension approfondie et inférence",
         "étendue et contrôle du vocabulaire",
         "correction grammaticale constante"
       ]
-    }
-  },
-  {
-    "id": "ecologie-et-engagement-citoyen",
-    "slug": "ecologie-et-engagement-citoyen",
-    "level": "B2",
-    "title": "Écologie et engagement citoyen",
-    "titleEs": "Ecología y compromiso ciudadano",
-    "description": "Camila rejoint un groupe de jeunes engagés pour la protection des mangroves de Saint-Domingue et rédige une pétition en français pour un partenariat associatif.",
-    "order": 10,
-    "unitOverview": {
-      "objective": "Exprimer un but et une opinion négative nuancée dans un contexte d’engagement citoyen.",
-      "outcomes": [
-        "exprimer un but avec afin que + subjonctif",
-        "formuler une opinion négative nuancée (je ne pense pas que + subjonctif)",
-        "rédiger une pétition ou un appel à l’action structuré",
-        "comparer des politiques environnementales avec des comparatifs avancés"
-      ],
-      "grammar": [
-        "expression du but (afin que, pour que + subjonctif)",
-        "opinion négative + subjonctif (je ne pense pas que, je ne crois pas que)",
-        "comparatifs et superlatifs dans un contexte argumentatif"
-      ],
-      "vocabulary": [
-        "une mangrove",
-        "la biodiversité",
-        "un engagement citoyen",
-        "une pétition"
-      ],
-      "scenario": "Camila rejoint un groupe de jeunes bénévoles qui protège les mangroves près de Saint-Domingue et doit rédiger, en français, une demande de partenariat à une association francophone."
     }
   },
   {
@@ -70487,6 +70974,36 @@
     }
   },
   {
+    "id": "ecologie-et-engagement-citoyen",
+    "slug": "ecologie-et-engagement-citoyen",
+    "level": "B2",
+    "title": "Écologie et engagement citoyen",
+    "titleEs": "Ecología y compromiso ciudadano",
+    "description": "Camila rejoint un groupe de jeunes engagés pour la protection des mangroves de Saint-Domingue et rédige une pétition en français pour un partenariat associatif.",
+    "order": 10,
+    "unitOverview": {
+      "objective": "Exprimer un but et une opinion négative nuancée dans un contexte d’engagement citoyen.",
+      "outcomes": [
+        "exprimer un but avec afin que + subjonctif",
+        "formuler une opinion négative nuancée (je ne pense pas que + subjonctif)",
+        "rédiger une pétition ou un appel à l’action structuré",
+        "comparer des politiques environnementales avec des comparatifs avancés"
+      ],
+      "grammar": [
+        "expression du but (afin que, pour que + subjonctif)",
+        "opinion négative + subjonctif (je ne pense pas que, je ne crois pas que)",
+        "comparatifs et superlatifs dans un contexte argumentatif"
+      ],
+      "vocabulary": [
+        "une mangrove",
+        "la biodiversité",
+        "un engagement citoyen",
+        "une pétition"
+      ],
+      "scenario": "Camila rejoint un groupe de jeunes bénévoles qui protège les mangroves près de Saint-Domingue et doit rédiger, en français, une demande de partenariat à une association francophone."
+    }
+  },
+  {
     "id": "art-censure-et-liberte",
     "slug": "art-censure-et-liberte",
     "level": "C1",
@@ -70515,15 +71032,15 @@
     }
   },
   {
-    "id": "lexique-contextuel",
-    "slug": "lexique-contextuel",
+    "id": "desinformation-et-democratie",
+    "slug": "desinformation-et-democratie",
     "level": "C2",
-    "title": "Apprentissage lexical, gloses et contexte",
-    "titleEs": "Apprentissage lexical, gloses et contexte",
-    "description": "Enquête interdisciplinaire C2 : Traduire un mot empêche-t-il vraiment de le maîtriser ?.",
-    "order": 11,
+    "title": "Désinformation et démocratie",
+    "titleEs": "Désinformation et démocratie",
+    "description": "Enquête interdisciplinaire C2 : La désinformation détermine-t-elle réellement les élections ?.",
+    "order": 10,
     "unitOverview": {
-      "objective": "Évaluer des cadres concurrents dans le domaine suivant : apprentissage lexical, gloses et contexte.",
+      "objective": "Évaluer des cadres concurrents dans le domaine suivant : désinformation et démocratie.",
       "outcomes": [
         "inférer les présupposés et les liens laissés implicites",
         "évaluer des preuves hétérogènes et leurs limites",
@@ -70531,52 +71048,22 @@
         "maintenir un contrôle grammatical constant dans une argumentation complexe"
       ],
       "grammar": [
-        "Les propositions participiales et la condensation maîtrisée"
+        "Les connecteurs de cause, corrélation et conséquence"
       ],
       "vocabulary": [
-        "une glose",
-        "la polysémie",
-        "une collocation",
-        "une équivalence",
-        "la profondeur lexicale",
-        "une méta-régression"
+        "la désinformation",
+        "une chambre d’écho",
+        "la modération algorithmique",
+        "la transparence algorithmique",
+        "un démenti",
+        "une manipulation coordonnée"
       ],
-      "scenario": "Traduire un mot empêche-t-il vraiment de le maîtriser ?",
+      "scenario": "La désinformation détermine-t-elle réellement les élections ?",
       "cefrTargets": [
         "compréhension approfondie et inférence",
         "étendue et contrôle du vocabulaire",
         "correction grammaticale constante"
       ]
-    }
-  },
-  {
-    "id": "art-et-creativite",
-    "slug": "art-et-creativite",
-    "level": "B2",
-    "title": "Art et créativité",
-    "titleEs": "Arte y creatividad",
-    "description": "Camila interviewe, pour son blog, une artiste peintre franco-dominicaine qui explore l’identité caribéenne dans son travail.",
-    "order": 11,
-    "unitOverview": {
-      "objective": "Mener une interview structurée et rapporter des propos sur le processus créatif.",
-      "outcomes": [
-        "préparer et mener une interview structurée",
-        "rapporter les propos d’un artiste avec précision",
-        "utiliser des comparatifs et superlatifs avancés dans un contexte artistique",
-        "décrire un processus créatif avec un vocabulaire précis"
-      ],
-      "grammar": [
-        "comparatifs et superlatifs avancés (autant que, de moins en moins)",
-        "discours rapporté (révision élargie)",
-        "expressions du processus créatif"
-      ],
-      "vocabulary": [
-        "une œuvre",
-        "un processus créatif",
-        "s’inspirer de",
-        "une exposition"
-      ],
-      "scenario": "Pour son blog, Camila interviewe une artiste peintre franco-dominicaine dont le travail explore l’identité caribéenne."
     }
   },
   {
@@ -70621,6 +71108,36 @@
     }
   },
   {
+    "id": "art-et-creativite",
+    "slug": "art-et-creativite",
+    "level": "B2",
+    "title": "Art et créativité",
+    "titleEs": "Arte y creatividad",
+    "description": "Camila interviewe, pour son blog, une artiste peintre franco-dominicaine qui explore l’identité caribéenne dans son travail.",
+    "order": 11,
+    "unitOverview": {
+      "objective": "Mener une interview structurée et rapporter des propos sur le processus créatif.",
+      "outcomes": [
+        "préparer et mener une interview structurée",
+        "rapporter les propos d’un artiste avec précision",
+        "utiliser des comparatifs et superlatifs avancés dans un contexte artistique",
+        "décrire un processus créatif avec un vocabulaire précis"
+      ],
+      "grammar": [
+        "comparatifs et superlatifs avancés (autant que, de moins en moins)",
+        "discours rapporté (révision élargie)",
+        "expressions du processus créatif"
+      ],
+      "vocabulary": [
+        "une œuvre",
+        "un processus créatif",
+        "s’inspirer de",
+        "une exposition"
+      ],
+      "scenario": "Pour son blog, Camila interviewe une artiste peintre franco-dominicaine dont le travail explore l’identité caribéenne."
+    }
+  },
+  {
     "id": "avenir-incertitude-et-choix",
     "slug": "avenir-incertitude-et-choix",
     "level": "C1",
@@ -70649,15 +71166,15 @@
     }
   },
   {
-    "id": "intelligence-artificielle-tutorat",
-    "slug": "intelligence-artificielle-tutorat",
+    "id": "art-contemporain-et-marche-culturel",
+    "slug": "art-contemporain-et-marche-culturel",
     "level": "C2",
-    "title": "Intelligence artificielle et tutorat linguistique",
-    "titleEs": "Intelligence artificielle et tutorat linguistique",
-    "description": "Enquête interdisciplinaire C2 : Un tuteur artificiel peut-il personnaliser sans inventer ?.",
-    "order": 12,
+    "title": "Art contemporain et marché culturel",
+    "titleEs": "Art contemporain et marché culturel",
+    "description": "Enquête interdisciplinaire C2 : Le marché de l’art fabrique-t-il la valeur artistique ?.",
+    "order": 11,
     "unitOverview": {
-      "objective": "Évaluer des cadres concurrents dans le domaine suivant : intelligence artificielle et tutorat linguistique.",
+      "objective": "Évaluer des cadres concurrents dans le domaine suivant : art contemporain et marché culturel.",
       "outcomes": [
         "inférer les présupposés et les liens laissés implicites",
         "évaluer des preuves hétérogènes et leurs limites",
@@ -70665,52 +71182,22 @@
         "maintenir un contrôle grammatical constant dans une argumentation complexe"
       ],
       "grammar": [
-        "Le conditionnel de prudence et les tournures impersonnelles"
+        "Les propositions participiales et la condensation maîtrisée"
       ],
       "vocabulary": [
-        "un modèle génératif",
-        "une hallucination",
-        "l’ancrage contextuel",
-        "la traçabilité",
-        "un effet de nouveauté",
-        "une supervision humaine"
+        "un marché superstar",
+        "le marché primaire",
+        "le marché secondaire",
+        "la légitimation institutionnelle",
+        "la financiarisation",
+        "un droit de suite"
       ],
-      "scenario": "Un tuteur artificiel peut-il personnaliser sans inventer ?",
+      "scenario": "Le marché de l’art fabrique-t-il la valeur artistique ?",
       "cefrTargets": [
         "compréhension approfondie et inférence",
         "étendue et contrôle du vocabulaire",
         "correction grammaticale constante"
       ]
-    }
-  },
-  {
-    "id": "bilan-et-projets-davenir",
-    "slug": "bilan-et-projets-davenir",
-    "level": "B2",
-    "title": "Bilan et projets d’avenir",
-    "titleEs": "Balance y proyectos de futuro",
-    "description": "Camila reçoit la réponse de l’université de Tours et fait le bilan de tout ce qu’elle a accompli et appris depuis son premier jour d’échange scolaire.",
-    "order": 12,
-    "unitOverview": {
-      "objective": "Faire un bilan personnel structuré et exprimer des projets d’avenir avec assurance.",
-      "outcomes": [
-        "faire le bilan d’un parcours personnel complet",
-        "exprimer un projet d’avenir avec des hypothèses nuancées",
-        "utiliser le conditionnel passé pour évoquer ce qui aurait pu se passer différemment",
-        "conclure une réflexion personnelle avec clarté et maturité"
-      ],
-      "grammar": [
-        "récapitulatif : conditionnel passé, subjonctif, hypothèses complexes",
-        "expressions de bilan (avec le recul, en fin de compte)",
-        "expression de la certitude et de la détermination"
-      ],
-      "vocabulary": [
-        "un bilan",
-        "avec le recul",
-        "un accomplissement",
-        "être déterminé(e) à"
-      ],
-      "scenario": "Camila reçoit enfin la réponse de l’université de Tours et écrit une lettre ouverte à la Camila d’il y a deux ans, avant son départ pour la France."
     }
   },
   {
@@ -70755,6 +71242,36 @@
     }
   },
   {
+    "id": "bilan-et-projets-davenir",
+    "slug": "bilan-et-projets-davenir",
+    "level": "B2",
+    "title": "Bilan et projets d’avenir",
+    "titleEs": "Balance y proyectos de futuro",
+    "description": "Camila reçoit la réponse de l’université de Tours et fait le bilan de tout ce qu’elle a accompli et appris depuis son premier jour d’échange scolaire.",
+    "order": 12,
+    "unitOverview": {
+      "objective": "Faire un bilan personnel structuré et exprimer des projets d’avenir avec assurance.",
+      "outcomes": [
+        "faire le bilan d’un parcours personnel complet",
+        "exprimer un projet d’avenir avec des hypothèses nuancées",
+        "utiliser le conditionnel passé pour évoquer ce qui aurait pu se passer différemment",
+        "conclure une réflexion personnelle avec clarté et maturité"
+      ],
+      "grammar": [
+        "récapitulatif : conditionnel passé, subjonctif, hypothèses complexes",
+        "expressions de bilan (avec le recul, en fin de compte)",
+        "expression de la certitude et de la détermination"
+      ],
+      "vocabulary": [
+        "un bilan",
+        "avec le recul",
+        "un accomplissement",
+        "être déterminé(e) à"
+      ],
+      "scenario": "Camila reçoit enfin la réponse de l’université de Tours et écrit une lettre ouverte à la Camila d’il y a deux ans, avant son départ pour la France."
+    }
+  },
+  {
     "id": "bilan-identite-et-transmission",
     "slug": "bilan-identite-et-transmission",
     "level": "C1",
@@ -70780,6 +71297,41 @@
         "dégager une idée"
       ],
       "scenario": "Camila transforme son expérience en atelier sans en faire une recette universelle."
+    }
+  },
+  {
+    "id": "philosophie-de-la-technologie-et-ethique-algorithmique",
+    "slug": "philosophie-de-la-technologie-et-ethique-algorithmique",
+    "level": "C2",
+    "title": "Philosophie de la technologie et éthique algorithmique",
+    "titleEs": "Philosophie de la technologie et éthique algorithmique",
+    "description": "Enquête interdisciplinaire C2 : Un algorithme peut-il être neutre ?.",
+    "order": 12,
+    "unitOverview": {
+      "objective": "Évaluer des cadres concurrents dans le domaine suivant : philosophie de la technologie et éthique algorithmique.",
+      "outcomes": [
+        "inférer les présupposés et les liens laissés implicites",
+        "évaluer des preuves hétérogènes et leurs limites",
+        "maîtriser un lexique précis, idiomatique et connoté",
+        "maintenir un contrôle grammatical constant dans une argumentation complexe"
+      ],
+      "grammar": [
+        "La modalisation épistémique de haute précision"
+      ],
+      "vocabulary": [
+        "un proxy",
+        "la parité statistique",
+        "l’explicabilité",
+        "un système à haut risque",
+        "le conséquentialisme",
+        "le déontologisme"
+      ],
+      "scenario": "Un algorithme peut-il être neutre ?",
+      "cefrTargets": [
+        "compréhension approfondie et inférence",
+        "étendue et contrôle du vocabulaire",
+        "correction grammaticale constante"
+      ]
     }
   }
 ];

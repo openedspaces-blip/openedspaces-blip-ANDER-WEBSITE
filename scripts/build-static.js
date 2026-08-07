@@ -128,6 +128,24 @@ function main() {
     stdio: 'inherit'
   });
 
+  // Fills any French/Spanish Grammar lesson missing extra.grammarProfile
+  // (definition/structure/function/examples) - without it, the pre-exercise
+  // explanation card that renderGrammarQuickIntroHtml shows in the frontend
+  // falls back to parsing lesson.grammar's free-text notes, which only
+  // recognizes English/French section labels (Rule:/Goal:/Pattern:...) and
+  // silently renders empty for Spanish notes (Foco:/Uso:/Modelo:...).
+  // grammarProfile fields only fill gaps (`existing.field || fallback`);
+  // Spanish's extra.grammarTest is regenerated from content.exercises on
+  // every run, but that source doesn't change between builds, so the
+  // result is deterministic and stable, not a content downgrade.
+  console.log('Normalizing French and Spanish Grammar profiles...');
+  execSync(`node "${path.join(ROOT, 'scripts', 'normalize-french-grammar.js')}"`, {
+    stdio: 'inherit'
+  });
+  execSync(`node "${path.join(ROOT, 'scripts', 'normalize-spanish-grammar.js')}"`, {
+    stdio: 'inherit'
+  });
+
   console.log('Validating comprehension question limits...');
   execSync(`node "${path.join(ROOT, 'scripts', 'validate-comprehension-question-counts.js')}"`, {
     stdio: 'inherit'

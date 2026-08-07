@@ -1552,6 +1552,25 @@ test('English Grammar A1-C2 follows the unified profile and exact exam sizes', (
   }
 });
 
+test('French and Spanish Grammar A1-C2 also carry a complete profile and 8-question exam', () => {
+  for (const language of ['french', 'spanish']) {
+    const rows = seedLessons.filter((row) => row.target_language === language && row.skill === 'grammar');
+    assert.ok(rows.length > 0, `${language}: missing Grammar lessons`);
+    for (const row of rows) {
+      const profile = row.content_json.extra.grammarProfile;
+      assert.ok(profile, `${row.slug}: missing grammarProfile`);
+      for (const key of ['definition', 'structure', 'function', 'examples']) {
+        assert.ok(profile[key]?.length, `${row.slug}: missing ${key}`);
+      }
+      assert.equal(
+        row.content_json.extra.grammarTest.questions.length,
+        8,
+        `${row.slug}: expected an 8-question Grammar exam`
+      );
+    }
+  }
+});
+
 test('Grammar UI shows definition, structure, function and practical examples before assessment', () => {
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
   const body = source.match(/function renderGrammarConceptCards\(lesson\) \{([\s\S]*?)\n\}/)?.[1];
